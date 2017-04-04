@@ -1,0 +1,70 @@
+---
+title: "Afurðarvíddir"
+description: "Það eru fjórar afurðavíddir - Lit, Afbrigði, Stærð og Stíll. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19171
+ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: yuyus
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 8854ab94a71cc363bcd073d2df47bc01a243b6cd
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="product-dimensions"></a>Afurðarvíddir
+
+Það eru fjórar afurðavíddir - Lit, Afbrigði, Stærð og Stíll. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
+
+Afurðavíddir eru einkenni sem notaður er til að auðkenna afurðarafbrigði. Hægt er að nota samsetningu afurðavídda til að skilgreina afurðarafbrigði. Skilgreina verður minnst eina vídd afurðar fyrir afurðarsniðmát til að stofna afurðarafbrigði.
+Afurðarafbrigði
+----------------
+
+Afurðarafbrigði eru einnig nefndar vörur. Vara er áþreifanleg afurð sem er ekki það sama og þjónusta. Einnig er hægt að skilgreina afurðarsniðmát með af gerðinni Þjónusta. Með því að nota þjónustugerð, er hægt að tilgreina afurðarafbrigði sem innihalda þjónustu. Til dæmis er hægt að tilgreina afurðarsniðmát fyrir ráðgjafavinnu og afurða afbrigði fyrir vinnustöð sem er framkvæmd með hjá utanaðkomandi ráðgjöfum bókara og aðalbókara hjá utanaðkomandi ráðgjöfum.
+
+## <a name="product-dimensions"></a>Afurðarvíddir
+Eftirfarandi afurðavíddir eru tiltækir: Afbrigði, Lit, Stærð og Stíll. Hægt er að mynda afurðarafbrigði fyrir afurðarvíddargildi á grundvelli.
+
+Afurð víddargildum eins og Stærð, Lit og Stíl er hægt að stofna á á **Stærð**, **Lit** og **Stíl** síður sem hægt er að komast úr eftirfarandi staðsetningum: **upplýsingar afurðastjórnun**&gt;**Uppsetningu**&gt;**Vídd og vöruvíddasamsetningu Flokka**&gt;**Liti/Stærðir/Stíla**. Afurðarvíddargildi fyrir skilgreiningarvíddir eru yfirleitt stofnaðar með afurðaafbrigðastilli eða afurðarafbrigðastillis sem byggir á víddum. Vöruvíddir er einnig hægt að stofnað og þeim viðhaldið í **  afurðarvíddir ** síðu, sem fæst frá eftirfarandi staðsetningum:
+-   Smellið á **upplýsingar afurðastjórnun**&gt;**Afurðir**&gt;**afurðarsniðmát**. Á við **Aðgerðarúðu**, smellið á **afurðavíddir**.
+-   Smellið á **upplýsingar afurðastjórnun**&gt;**Afurðir**&gt;**afurðir og afurðarsniðmát**. Veljið afurðarsniðmát. Á við **Aðgerðarúðu**, smellið á **afurðavíddir**.
+-   Smellið á **upplýsingar afurðastjórnun**&gt;**Útgefnum afurðum**. Veljið afurðarsniðmát. Á við **Aðgerðarúðu**, smellið á **Afurð**. Í reitnum **afurðarsniðmát** flokki, skal velja **afurðarvíddir**.
+
+Númer vöruvíddasamsetningar sem hægt er að stofna fyrir vöru er takmörkuð af fjölda afurð mögulegar samsetningar.
+| **Ábending **                                                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Þegar þú notar afurð á til dæmis pöntunarlínu velurðu afurðavíddir til að tilgreina afurðarafbrigði sem á að vinna með. |
+
+## <a name="example"></a>Dæmi
+Fyrirtæki selur denim-gallabuxur. Varan, gallabuxur, notar lit og stærð afurðarvíddirnar. Gallabuxurnar eru til í þremur mismunandi litum og sex mismunandi stærðum. Litir: Blár, Svartur, brúnn Stærðir: XS, S, M, L, XL, XXL Ekki allar stærðir eru tiltækar í öllum þremur litum. Ef allar samsetningar voru tiltæk, hún myndi stofna 18 mismunandi gerðir af gallabuxur. Í þessu dæmi eru aðeins eftirfarandi níu vara afbrigði samsetningar framleitt.
+
+| Litur | Stærð |
+|-------|------|
+| Blátt  | XS   |
+| Blátt  | L    |
+| Blátt  | M    |
+| Svart | M    |
+| Svart | L    |
+| Svart | XL   |
+| Brúnt | L    |
+| Brúnt | XL   |
+| Brúnt | XXL  |
+
+
+
+

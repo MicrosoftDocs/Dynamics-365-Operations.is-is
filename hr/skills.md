@@ -1,0 +1,84 @@
+---
+title: "Jafna hæfni vinnuafls við viðskiptaþarfir"
+description: "Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu."
+author: rschloma
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
+audience: Application User
+ms.reviewer: rschloma
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 3361
+ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
+ms.search.region: Global
+ms.author: kherr
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
+ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
+
+Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
+
+Dæmi um hæfni sem hægt er að rekja eru eftirfarandi:
+-   Eftirlitsyfirvald - getan til að hafa umsjón með vinnu annarra.
+-   Forysta - Geta til að leiða starfsmenn og fyriristækjasvið.
+-   Áætlunargerð - hæfni til að horfa fram á við, mynda sýn og koma þeim í framkvæmd.
+-   HTML-Möguleika á að skrifa html-kóða.
+
+Áður en hægt er að úthluta hæfni til einstaklings eða vinnslu, stofna leit að hæfnisvörpun, eða stofna hæfnisreglu, verður að færa inn upplýsingar um hæfni°á síðunni **Hæfni**. Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.
+
+## <a name="rating-models"></a>Matslíkön
+Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Færa má inn allt að 10 stig fyrir einkunnalíkan.  Hvert stig í einkunnalíkan úthlutað stuðul.  Stuðull gildið sem verður notað til að staðla einkunnir yfir hæfni sem nota mismunandi matslíkön.  Stuðullinn verður að vera er tala á bilinu 0-9 og hvert stig verður að vera einkvæmur stuðull.  Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
+
+## <a name="specify-job-skills"></a>Tilgreina vinnufærni
+Þegar færðar eru inn upplýsingar um starf, hægt er að tilgreina hæfni sem einstaklingur ætti að hafa til að framkvæma vinnu sem er krafist fyrir vinnslu.  Þar að auki er hægt að tilgreina æskilegan stig fyrir hverja hæfni ásamt mikilvægi hæfninnar. Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.
+
+## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir
+Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir. Markhæfni er hæfni sem einstaklingur ætlar að ná. Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.
+
+## <a name="skill-mapping-and-skill-mapping-profiles"></a> Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
+Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstakar gerðir verks. Hæfniskráning leitar leita milli hæfni, menntun, skírteini, ábyrgðarstöður og verk reynslu og skila niðurstöðum sem samsvara skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu fékkst CPA þeirra.
+
+Hæfniskráning-forstillingar kleift að finna gildandi starfsmenn eða umsækjendur með hæfni sem þarfnast viðskiptatengsl.  Til dæmis væri hægt að stofna forstillingu hæfnisskráningar fyrir opin staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Ábending </strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á <strong>Taka með í hæfnisvörpun</strong> val á Já í eftirfarandi síður:
+<ul>
+<li>Vinna</li>
+<li>Starfsmaður</li>
+<li>Umsækjandi</li>
+<li>Tengiliðir</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Hæfnibilsgreining og greining hæfniforstillingar
+Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi. Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.  
+
+
+
+<a name="see-also"></a>Sjá einnig
+--------
+
+[Human resources](index.md)
+
+

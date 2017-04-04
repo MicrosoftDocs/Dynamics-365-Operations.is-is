@@ -1,0 +1,63 @@
+---
+title: "Áætlanagerð fyrir þekju svæðis, vöruhús ekki skyldugt"
+description: "Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2474
+ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 28607f0fc8db99c9fc8e96b4514763b8cf589dd8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Áætlanagerð fyrir þekju svæðis, vöruhús ekki skyldugt
+
+Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð.
+
+Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
+
+-   Svæðavídd er stillt á áskilið og verður að færa inn á eftirspurnarfærslu.
+-   Vöruhúsavíddin er ekki stillt sem skyldug. Vöruhúsið gæti verið þekkt en er ekki notað í útreikningi aðaláætlanagerðar.
+-   Svæðisvíddin er stillt á þekjuáætlun.
+-   Vöruhúsavíddin er ekki stillt á þekjuáætlanagerð. Þessvegna, framboð og eftirspurn safnast upp á staðsetningu, og hugsanlega, á öðrum víddum sem eru með tryggingaráætlun.
+
+Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. Færibreyturnar sem vísað er í á myndinni og staðsetningar þeirra eru sem hér segir:
+-   Vöruþekja er skilgreind fyrir vöruna. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna og smellið síðan á **Áætlun &gt;Vöruþekja**.
+-   Áfyllingarvensl eru skilgreind fyrir vöruhúsið. Smellt er á **Birgðastjórnun &gt;Uppsetningu &gt;niðurbrot &gt;Vöruhús**. Á flýtiflipanum **Aðaláætlanagerð** skal sjá reitinn **Aðalvöruhús**.
+-   Sjálfgefin pöntunargerð er stillt á Framleiðslu, Innkaupapöntun eða Kanban. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna og smellið síðan á **Áætlun &gt;Sjálfgefnar pöntunarstillingar**. Í skjámyndinni **Sjálfgefnar pöntunarstillingar** er að finna reitinn **Sjálfgefin pöntunargerð**.
+
+![Eftirspurn fyrir þekju svæðis, vöruhús ekki skyldugt](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+
+
+
+<a name="see-also"></a>Sjá einnig
+--------
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+[Aðaláætlanagerð - trygging svæðis, vöruhús lögbundið](master-plan-site-coverage-warehouse-mandatory.md)
+
+[Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús ekki lögbundið](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+
+[Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús lögbundið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+
+[Áætlanagerð - hvernig ákvarðast uppskriftarútgáfuna](master-plan-bom-version-determined.md)
+
+

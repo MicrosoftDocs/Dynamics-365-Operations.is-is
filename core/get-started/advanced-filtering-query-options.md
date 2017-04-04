@@ -1,0 +1,234 @@
+---
+title: "Ítarleg síun og málskipan fyrirspurnarinnar"
+description: "Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar &quot;samsvarar&quot; virknitákn í svarglugganum Ítarleg sía/röðun."
+author: jasongre
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: SysQueryForm
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 3811
+ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
+ms.search.region: Global
+ms.author: jasongre
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 5ee7a04572e350a7c08d0418bade6d332aa920c6
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="advanced-filtering-and-query-syntax"></a>Ítarleg síun og málskipan fyrirspurnarinnar
+
+Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar "samsvarar" virknitákn í svarglugganum Ítarleg sía/röðun.
+
+<a name="advanced-query-syntax"></a>Málskipan ítarlega fyrirspurn
+---------------------
+
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Málskipun</th>
+<th>Lýsing á tákni</th>
+<th>lýsing</th>
+<th>Dæmi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>gildi</em></td>
+<td>jafnt og gildið sem fært var inn.</td>
+<td>Sláið inn gildi til að finna.</td>
+<td><strong>Smith</strong> finnur &quot;Smith&quot;.</td>
+</tr>
+<tr class="even">
+<td>! <em>gildi</em> (upphrópunarmerki)</td>
+<td>Ekki jafnt og gildið sem fært var inn.</td>
+<td>Færðu inn upphrópunarmerki og síðan gildið til að undanskilja.</td>
+<td><strong>! Smith</strong> finnur öll gildi nema &quot;Smith&quot;.</td>
+</tr>
+<tr class="odd">
+<td><em>frá-gildi</em>..<em>til- gildi</em> (tvöfaldur punktur)</td>
+<td>Á milli tveggja gilda sem eru inn aðskilin með tveimur punktum.</td>
+<td>Færa inn Frá gildið, færa svo inn tvo punkta og síðan Til gildið.</td>
+<td><strong>1..10</strong> finnur öll gildi frá 1 til 10. Hins vegar í reit strengs <strong>A.. C</strong> finnur öll gildi sem byrja &quot;A&quot; og &quot;B&quot;, og gildi sem eru nákvæmlega jafnt &quot;C&quot;. Til dæmis þessa fyrirspurn ekki fundið &quot;Ca&quot;. Til að finna öll gildi frá &quot;A*&quot; gegnum &quot;C*&quot;, gerð <strong>A.. D</strong>.</td>
+</tr>
+<tr class="even">
+<td><em>gildi</em> (tvöfaldur punktur)</td>
+<td>Minna en eða jafnt og gildið sem fært er inn.</td>
+<td>Færa inn tvo punkta og síðan gildið.</td>
+<td><strong>.. 1000</strong> finnur allar tölur sem eru lægri en eða jafnt og 1000, eins og &quot;100&quot;, &quot;999.95&quot;, og &quot;1.000&quot;.</td>
+</tr>
+<tr class="odd">
+<td><em>gildi</em>.. (tveir punktar)</td>
+<td>Meira en eða jafnt og gildið sem fært er inn.</td>
+<td>Færa inn gildi og síðan tvo punkta.</td>
+<td><strong>1000..</strong> Finnur allar tölur sem er hærri en eða jafnar og 1000, t.d. &quot;1.000&quot;, &quot;1.000,01&quot;, og &quot;1000000&quot;.</td>
+</tr>
+<tr class="even">
+<td>&gt;<em>gildi</em> (stærra en formerki)</td>
+<td>Stærra en gildið sem fært er inn.</td>
+<td>Rita hærri en formerki (<strong>&gt;</strong>) og síðan gildið.</td>
+<td><strong>&gt;1000</strong> finnur allar tölur sem eru stærri en 1000, t.d. &quot;1.000,01&quot;, &quot;20,000&quot;, og &quot;1000000&quot;.</td>
+</tr>
+<tr class="odd">
+<td>&lt;<em>gildi</em> (minna en formerki)</td>
+<td>Minna en gildið sem fært er inn.</td>
+<td>Gerð minna en formerki (<strong>&lt;</strong>) og síðan gildið.</td>
+<td><strong>&lt;1000</strong> finnur allar tölur sem er minni en 1000, t.d. &quot;999,99&quot;, &quot;1&quot;, og &quot;-200&quot;.</td>
+</tr>
+<tr class="even">
+<td><em>gildi</em>* (stjörnu)</td>
+<td>Byrjar frá gildið sem fært er inn.</td>
+<td>Slá inn upphafsgildið og síðan stjörnu (<strong>*</strong>).</td>
+<td><strong>S *</strong> finnur allar strengs byrjar &quot;S&quot;, eins og &quot;Stokkhólmur&quot;, &quot;Sydney&quot;, og &quot;San Francisco&quot;.</td>
+</tr>
+<tr class="odd">
+<td>*<em>value</em> (asterisk)</td>
+<td>Endar á gildið sem fært er inn.</td>
+<td>Færa inn stjörnu og síðan endagildið.</td>
+<td><strong>* austur</strong> finnur allar strengs lýkur &quot;east&quot;, eins og &quot;Northeast&quot; og &quot;Southeast&quot;.</td>
+</tr>
+<tr class="even">
+<td>*<em>gildi</em>* (stjörnu)</td>
+<td>Inniheldur gildið sem fært er inn.</td>
+<td>Færa inn stjörnu, gildi og síðan aðra stjörnu.</td>
+<td><strong>*th*</strong> finnur allar strengur sem inniheldur &quot;th&quot;, eins og &quot;Northeast&quot; og &quot;Southeast&quot;.</td>
+</tr>
+<tr class="odd">
+<td>? (spurningamerki)</td>
+<td>Innihalda einn eða fleiri óþekkta stafi</td>
+<td>Færðu inn spurningamerki við stöðu óþekkts staftákns í gildinu.</td>
+<td><strong>Sm? th</strong> finnur &quot;Smith&quot; og &quot;Smyth&quot;.</td>
+</tr>
+<tr class="even">
+<td><em>gildi</em>,<em>gildi</em> (komma)</td>
+<td>Samsvarar gildunum sem eru aðskilin með kommum.</td>
+<td>Færa inn öll þín skilyrði, og aðskiljið þau með kommu.</td>
+<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10, 20, 30, 100</strong> finnur nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr class="odd">
+<td>(<span class="code">Sql-strengur</span>) (Sql-strengur milli sviga)</td>
+<td>Samsvarar tilgreindri fyrirspurn</td>
+<td>Færa inn fyrirspurn sem SQL-skipun innan sviga.</td>
+<td><strong><span class="code">(gagnagjafa. Heiti Svæðis! = &quot;A&quot;)</span></strong></td>
+</tr>
+<tr class="even">
+<td>Þ</td>
+<td>Dagurinn í dag</td>
+<td>gerð <strong>T</strong>.</td>
+<td><strong>T</strong> samsvarar dagurinn í dag.</td>
+</tr>
+<tr class="odd">
+<td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> aðferð á milli sviga)</td>
+<td>Jöfnun gilda eða bil gilda sem eru tilgreind í færibreytum <strong>SysQueryRangeUtil </strong>aðferð</td>
+<td>Færðu inn <strong>SysQueryRangeUtil </strong>aðferð sem er með færibreytum sem tilgreina gildi eða svið gilda.</td>
+<td><ol>
+<li>Smellið á <strong>Viðskiptakröfur</strong>&gt;<strong>Reikninga</strong>&gt;<strong>Opna reikninga viðskiptavina</strong>.</li>
+<li>Styðjið á Ctrl + Shift + F3 til að opna í <strong>Fyrirspurn</strong> síðu.</li>
+<li>Á flipanum <strong>svið</strong>, er smellt á <strong>Bæta við</strong>.</li>
+<li>Í <strong>töflu</strong> reit, velja<strong>opnar færsla viðskiptavinar</strong>.</li>
+<li>Á svæðinu <strong>reitur</strong>velja<strong>gjalddagi</strong></li>
+<li>Í <strong>skilyrði</strong> reitnum, færa inn <strong>(yearRange(-2,0))</strong>.</li>
+<li>Smelltu á <strong>Í lagi</strong>. listasíða er uppfærð til að birta lista yfir reikninga sem stemma við skilyrði sem þú færðir inn. Í þessu dæmi eru reikningar sem voru á gjalddaga síðustu tvö ár taldir upp.</li>
+</ol>
+Sjá töfluna í næsta hluta fyrir frekari upplýsingar um <strong>SysQueryRangeUtil</strong> dagsetningaraðferðir og nokkur dæmi.</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a>ítarlega dagsetningarfyrirspurnir sem nota SysQueryRangeUtil aðferðir
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aðferð</th>
+<th>Lýsing</th>
+<th>Dæmi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dagur (_relativeDays=0)</td>
+<td>Finna dagsetningu miðað við dagsetningu setu. Jákvæð gildi tilgreina framtíðardagsetningar, og neikvæð gildi tilgreina liðnar dagsetningar.</td>
+<td><ul>
+<li><strong>Á morgun</strong> – færðu inn<strong>(dagur(1))</strong>.</li>
+<li><strong>Í dag</strong> – Færðu inn<strong>(dagur(0))</strong>.</li>
+<li><strong>Í gær</strong> – færðu inn<strong>(dagur(-1))</strong>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</td>
+<td>Finna dagsetningarsvið miðað við dagsetningu setu. Jákvæð gildi tilgreina framtíðardagsetningar, og neikvæð gildi tilgreina liðnar dagsetningar.</td>
+<td><ul>
+<li><strong>Síðustu 30 daga </strong> - Sláðu inn <strong>" (DayRange (-30,0))</strong></li>
+<li><strong>Fyrri 30 dagar og næstu 30 dagar </strong>– færið inn <strong>“(DayRange(-30,30))”</strong></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</td>
+<td>Leita að öllum dagsetningum eftir tilgreinda afstæða dagsetningu.</td>
+<td><ul>
+<li><strong>Meira en 30 dagar frá því núna</strong> – færið Inn <strong>(GreaterThanDate(30))</strong>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>GreaterThanUtcNow ()</td>
+<td>Finna allar færslur dagsetningar/tíma eftir núverandi tíma.</td>
+<td><ul>
+<li><strong>Allar framtíðar dagsetningar/tími</strong> – færið Inn <strong>(GreaterThanUtcNow())</strong>.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</td>
+<td>Leita að öllum dagsetningum fyrir tilgreinda afstæða dagsetningu.</td>
+<td><ul>
+<li><strong>Minna en sjö dagar frá núna</strong> – færið Inn <strong>(LessThanDate(7))</strong>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>LessThanUtcNow ()</td>
+<td>Finna allar færslur dagsetningar/tíma fyrir núverandi tíma.</td>
+<td><ul>
+<li><strong>Allar liðnar dagsetningu/tíma</strong> – færið Inn <strong>(LessThanUtcNow())</strong>.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>MonthRange (_relativeFrom=0, _relativeTo=0)</td>
+<td>Finna svið dagsetninga samkvæmt mánaða samanborið við núverandi mánuð</td>
+<td><ul>
+<li><strong>Fyrri tveir mánuðir</strong> – færið Inn <strong>(MonthRange(-2,0))</strong>.</li>
+<li><strong>Næstu þrír mánuðir</strong> – færið Inn <strong>(MonthRange(0,3))</strong>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>YearRange (_relativeFrom=0, _relativeTo=0)</td>
+<td>Finna svið dagsetninga samkvæmt árum samanborið við í núverandi ár.</td>
+<td><ul>
+<li><strong>Næsta árs</strong> – færið Inn <strong>(YearRange (0, 1))</strong>.</li>
+<li><strong>Fyrra ár</strong> – Færið Inn <strong>(YearRange (-1,0))</strong>.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+

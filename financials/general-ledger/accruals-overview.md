@@ -1,0 +1,46 @@
+---
+title: Yfirlit yfir uppsafnanir
+description: "Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur."
+author: RobinARH
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerAccuralTable
+audience: Application User
+ms.reviewer: RobinARH
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14131
+ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: 328a4a7bef32ee8634e4a9f4854ebe78fcc99f6d
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="accruals-overview"></a>Yfirlit yfir uppsafnanir
+
+Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur.
+
+Uppsafnanir eru notaðar í rekstrarbókhaldi til að rekja tekjur sem eru viðurkenndar á tímabilinu sem þær eru fengnar í, ekki þegar greiðsla er móttekin, og til að rekja útgjöld (kostnað) sem eru viðurkennd þegar þau eiga sér stað, ekki þegar greiðsla er gerð.
+
+## <a name="accrual-schemes"></a>Uppsöfnunarskemu
+Uppsöfnunarskemu eru notuð til að setja upp frestaðar tekjur og kostnað, og hægt er að nota sama uppsöfnunarskema fyrir tekjur og kostnað. Fjárhagsuppsafnanir endurdreifa kostnaði eða tekjum í færslubókarlínu svo að kostnaður eða tekjur eru samþykktar á viðeigandi tímabilum. Á síðunni **Uppsöfnunarskema** eru tilgreindir debet- og kreditlyklar sem verða notaðir þegar uppsöfnunarskema er beitt.
+
+-   **Debet** – Aðallykill sem er skilgreindur mun skipta út aðallykli debets í fylgiskjali færslubókarlínu. Þessi lykill verður einnig notaður fyrir bakfærslu á frestun sem byggir á uppsöfnunarfærslum fjárhags.
+-   **Kredit** – Aðallykill sem er skilgreindur mun skipta út aðallykli kredits í fylgiskjali færslubókarlínu. Þessi lykill verður einnig notaður fyrir bakfærslu á frestun sem byggir á uppsöfnunarfærslum fjárhags.
+
+Þegar búið er að ákvarða hvaða lykla á að nota, er hægt að tilgreina hvernig fylgiskjalsnúmer er stofnað þegar uppsöfnunarfærslur eru stofnaðar. Einnig er hægt að tilgreina hversu oft færslur eiga sér stað, fjölda skipta sem færslur eru stofnaðar og hvenær færslur eru bókaðar. Eftir að uppsöfnunarskema hefur verið stofnað er hægt að nota það í sumum færslubókum með aðgerðinni Fjárhagsuppsafnanir.
+
+## <a name="ledger-accruals"></a>Fjárhagsuppsafnanir
+Þegar færslubók er færð inn er hægt að smella á **Fjárhagsuppsafnanir** í valmyndinni **Aðgerðir**. Síðan þegar uppsöfnunarskema er valið muntu sjá grunnupphæðina úr færslubókinni sem verður dreift yfir tímabilið, eins og ákvarðast af uppsöfnunarskemanu. Til dæmis, ef að greiða trygging starfsmanns fyrir allt árið í Janúar og upphæðin er 12.000, að verður þekkja sem kostnaður hvers mánaðar. Hægt er að velja upphafsdagsetningu. Einnig er hægt að tilgreina hvort upphæðin sem er safnað upp sé byggð á lyklinum eða mótlyklinum. Eftir að gera vali á **Færslur** til að skoða allar færslur sem hafa verið stofnuð byggt á uppsöfnunarskema. Til dæmis, ef 12.000 í trygging kostnaðar sem dreifast yfir árið sjást 1.000 fyrir hvern mánuð. Þegar færslubókin er bókuð er hægt að skoða færslur með því að nota í **Fylgiskjalsfærslur** fyrirspurn um síðuna. Ef ekki er hægt að nota uppsöfnunarskema (til dæmis, þegar reikningur sölupöntunar eða innkaupareikningur er skuldfærslu), hægt að kreditfæra fyrirframgreidd upphæð og debet upphæð kostnaðar. Síðan er hægt að velja **Mótfærsla** þegar uppsöfnunarskemanu er beitt.
+
+
