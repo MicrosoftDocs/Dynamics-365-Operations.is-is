@@ -33,9 +33,8 @@ Hægt er að nota eftirfarandi gerðir af skjölum til að stjórna birgðum fyr
 
 ## <a name="purchase-orders"></a>Innkaupapantanir
 Innkaupapantanir eru stofnaðar á aðalskrifstofu. Ef vöruhús smásölu er tekinn með í haus innkaupapöntunar pöntunina er hægt að taka frá verslun með því að nota Modern POS (MPOS) eða POS Skýi í Microsoft Dynamics 365 Aðgerðir - Retail. Magn sem tekið er á verslun eru færðar inn þær hægt er að vista staðbundið fyrir frekari breytingar. Einnig er hægt að ráðstafa magninu og senda það á aðalskrifstofu. Á aðalskrifstofu, magn sem voru mótteknar frá verslun birtar í Dynamics 365 fyrir Aðgerðir í því **Móttekið nú** á innkaupapöntuninni.
-Flutningspantanir
----------------
 
+## <a name="transfer-orders"></a>Flutningspantanir
 Flutningspöntun getur tilgreint að ákveðin verslun sé staðsetning sem hægt er að senda vörurnar úr. Í þessu tilfelli flutningspöntun birtist í verslun sem beiðni um tiltekt í MPOS eða POS Skýinu. Eftir að magn sem er tekið til, eru þær ráðstafaður og send til aðalskrifstofu. Á aðalskrifstofu, magn sem tekið var frá verslun birtar í Dynamics 365 fyrir Aðgerðir í því **Senda núna** í flutningspöntuninni. Flutningspöntun getur tilgreint að ákveðin verslun sé staðsetning sem hægt er að senda vörurnar til. Í þessu tilfelli flutningspöntun birtist í verslun sem móttöku beiðna í MPOS eða POS Skýinu. Magn sem tekið er á verslun eru færðar inn þær hægt er að vista staðbundið fyrir frekari breytingar. Einnig er hægt að ráðstafa magninu og senda það á aðalskrifstofu. Aðalskrifstofa, magn sem voru mótteknar frá verslun birtast í Dynamics 365 fyrir Aðgerðir í á **Móttekið nú** í flutningspöntuninni.
 
 ## <a name="stock-counts"></a>Birgðatalning
