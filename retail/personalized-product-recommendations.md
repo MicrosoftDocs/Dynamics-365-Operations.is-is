@@ -41,14 +41,14 @@ Afurð leiðbeiningar eru virkjaðar fyrir eftirfarandi aðstæður Sölustaðar
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Á við **Færslu** síðu:
+2.  Á við **Færslu** síðu:
 
 -   Ráðlögð vél stingur byggt á allan listann yfir vörur í í innkaupakörfuna.
 -   Ef verslunin tengja bætir viðskiptavini við færsluna, vélar ráðlögð veitir persónulegar leiðbeiningar með færslusögu viðskiptavinar og lista yfir vörur í innkaupakörfuna.
 
 **Athugasemd** til Að birta leiðbeiningar í **Færslu** síðu retailer sem þarf að uppfæra skjásins í Dynamics 365 fyrir Aðgerðir. Í **Ráðleggingar** stýringu verður sleppt í í **Færslu** síðu. [![transactionscreenmultipleproductslargemessengersbag 5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Á í **upplýsingar um Viðskiptavin** síðu:
+3.  Á í **upplýsingar um Viðskiptavin** síðu:
     -   Ráðlögð vél stingur byggt á Kenni notanda og vara á óskalista viðskiptavinar.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
