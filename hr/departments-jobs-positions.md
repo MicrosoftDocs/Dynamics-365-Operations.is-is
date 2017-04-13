@@ -56,10 +56,6 @@ Verk er safn verkefni og ábyrgðarsviða sem eru ætlast til af einstaklings se
 Þú getur stofna verkefni starfs sem lýsa grunnatriði verkefnis sem starfskraftur í staða fyrir þá vinnsla verður að ljúka. Sama verkefni starfs er hægt að bæta við mörgum störf og stöður fyrir þær vinnslur munu erfa þau verkefni. Nokkur dæmi um verkefni starfs talin upp í eftirfarandi töflu.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Vinnsla</th>

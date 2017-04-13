@@ -48,10 +48,10 @@ Notið gerðir starfa til að flokka tegundir svipuð störf. Vinnslugerðir ekk
 ## <a name="job-functions"></a>Starfshlutverk
 Junctions Vinnslu lýsa flókna virkni tegundir og tengja gjöld á háu stigi. Starfshlutverk ekki eru kostnaðarjafnaðar krafist. Hægt er að nota starfshlutverk með vinnslugerðir, til að sía launafyrirkomulag fyrir ákveðin störf. Hægt er að tengja starfshlutverk og starfsgerðir við launafyrirkomulag með því að setja upp hæfnisreglur í í **hæfnisreglur** síðu. Svo er hægt að tengja hóp stiga við launafyrirkomulag sem á við tiltekna samsetningu vinnslugerð og starfshlutverk sem hefur verið skilgreind í hæfnisreglunum. (Þessar aðgerðir eiga bæði launafyrirkomulög fastra launa og breytilegrar uppbótar.) Hins vegar ef ætlunin er að nota starfshlutverk þegar verið er að setja upp hæfnisreglur fyrir greiðsluáætlunarstjórnun ætti að setja upp starfshlutverk áður en að setja upp vinnslur. Eftirfarandi tafla sýnir nokkur dæmi um starfshlutverk.
 
-| Starf           | Starfshlutverk      |
-|---------------|-------------------|
-| Sölustjóri | Stjórnandi miðjum stig |
-| Bókhaldari    | Tölvusérfræðinga     |
+| Starf           | Starfshlutverk         |
+|---------------|----------------------|
+| Sölustjóri | Stjórnandi miðjum stig    |
+| Bókhaldari    | Tölvusérfræðinga        |
 
 Viðhalda starfshlutverkum með því að nota í **Vinnsluraðgerðum** síðu. Á við **Vinnsluraðgerðum** síðunni skal færa inn kennikóða og stutt lýsing fyrir starfshlutverkið.
 
