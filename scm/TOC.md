@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Aðaláætlanagerð
+## Stofna eftirspurnarspá
+### [Yfirlit yfir eftirspurnar spá](master-planning/introduction-demand-forecasting.md)
+### [Uppsetning á eftirspurnarspá](master-planning/demand-forecasting-setup.md)
+### [Mynda talnagögn grunnlínu spá](master-planning/generate-statistical-baseline-forecast.md)
+### [Gera handvirkar leiðréttingar grunnlínu spá](master-planning/manual-adjustments-baseline-forecast.md)
+### [Heimila jafnaða spá](master-planning/authorize-adjusted-forecast.md)
+### [Fylgjast með spá nákvæmni](master-planning/monitor-forecast-accuracy.md)
+### [Fjarlægja outliers úr eldri færslugögn](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Áætlun
+### [Aðgerðarboð](master-planning/action-messages.md)
+### [Þekjustillingar](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Áætlanir og aðgerðir fjölsvæða](master-planning/master-plan-multisite-functionality.md)
+#### [Áætla þekju svæðis, vöruhús skyldugt](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Áætla þekju svæðis, vöruhús ekki skyldugt](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Áætla þekju svæðis og vöruhúss, vöruhús skyldugt](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Áætla þekju svæðis og vöruhúss, vöruhús ekki skyldugt](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Ákvarða hvaða uppskriftarútgáfu](master-planning/master-plan-bom-version-determined.md)
+### [Niðurbrot uppskriftarútgáfu](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Rekja niðurbrot](master-planning/trace-explosion.md)
+# Innkaup og aðföng
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [Innkaup og aðföng verkflæðis](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Beiðni um tilboð (Tilboðsbeiðna)](procurement/request-quotations.md)
+## Innkaupapantanir
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Samþykkt og staðfest innkaupapantanir](procurement/purchase-order-approval-confirmation.md)
+## Stjórnun og samvinna lánardrottna
+### [Setja upp og viðhalda samstarf lánardrottna](procurement/set-up-maintain-vendor-collaboration.md)
+### [Stjórna notendum fyrir samstarf lánardrottna](procurement/manage-vendor-collaboration-users.md)
+### [Uppsetning lánardrottna](procurement/set-up-vendor-accounts.md)
+### [Samstarf lánardrottna við ytri lánardrottna](procurement/vendor-collaboration-work-external-vendors.md)
+### [Samstarf lánardrottna við viðskiptavini](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Skjalastjórnun við lánardrottna með því að nota fyrir portal Lánardrottins](procurement/collaborate-vendors-vendor-portal.md)
+### [Lánardrottinn efnisumsjón farsímaforrit vinnusvæði](procurement/vendor-collaboration-mobile-workspace.md)
+### [Öryggislykillinn portal notanda lánardrottins](procurement/configure-security-vendor-portal-users.md)
+## Verð og afslættir
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Innhreyfingar vöru og reikningsfærslu
+### [innhreyfingarskjal afurða gagnvart innkaupapantanir](procurement/product-receipt-against-purchase-orders.md)
+### [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Vöruupplýsingastjórnun
+## Afurðarupplýsingar
+### [Uppskrifta- og formúlu](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Númer framleiðslulíkans nomenclature](pim/product-variant-identification-nomenclature.md)
+### [Tengd vara þýðinguna FAQ](pim/translations-product-related-information.md)
+### [Númer afgreiðslukassa í söluferlinu](sales-marketing/register-serial-numbers-sales-process.md)
+### [Leita að vöru við pantanafærslu](pim/search-products-product-variants.md)
+## Stofna afbrigði vöru
+### [Búa til afbrigði framleiðslulíkan](pim/build-product-configuration-model.md)
+### [Útreikningur fyrir skilgreiningu líkan FAQ vöru](pim/calculate-product-configuration-models.md)
+### [Afbrigðaregla](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [Skorður segð og skorða töflu](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Endurnota afurðarafbrigði](pim/reuse-product-configurations.md)
+### [Setja upp skilgreiningu líkan](pim/set-up-maintain-product-configuration-model.md)
+### [Skorður kerfið skilgreindar og notendaskilgreinda töflu](pim/system-defined-user-defined-table-constraints.md)
+# Framleiðslustýring
+## Framleiðsluferlis    
+### [Verkþáttur út undirverktaka](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Stjórna undirverktaka vinnustöðina framleiðslu](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [Framleiðsluferlis](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Leiða og aðgerða](production-control/routes-operations.md)
+## Framleiðslupantanir
+### [Create production orders](production-control/create-production-orders.md)
+### [Sjálfgefnar pöntunarstillingar til vöruvíddasamsetningarnar fyrir vöruna og víddir](production-control/default-order-settings.md)
+### [Losa framleiðslupöntun](production-control/release-production-orders.md)
+### [Snúa við stöðu framleiðslupöntunar](production-control/reverse-production-order-status.md)
+### [Skýrslan Uppskriftir sem fullkláraðar](production-control/report-boms-as-finished.md)
+### [Skýrslan framleiðslupöntun sem tilbúna](production-control/report-production-orders-as-finished.md)
+## Lean-framleiðsla 
+### [Flutningur fjöl Kanban styðja fyrir skannar samþykkja strikamerki](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Kanban vinnsluröðun lean-framleiðsla](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Yfirlit yfir lean-framleiðsla](production-control/lean-manufacturing-overview.md)
+### [Virðislíkan fyrirferðarlitla fyrirtækis](production-control/lean-manufacturing-modeling-lean-organization.md)
+## Raða aðgerðunum og vinnslunum
+### [Úthluta einu vinnslur í búnti vinnslu](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Forði
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Framkvæmd framleiðslu
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Reikna út efnisnotkunina](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Sjálfgildi framleiðslupöntun í framleiðslu framkvæmd](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Sala og markaðsstarf
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Sölupantanir
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Raðnúmer í söluferlinu](sales-marketing/register-serial-numbers-sales-process.md)
+### [Frátekning frá í sömu runuvinnslu](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Sölutilboð
+### [Price simulation](sales-marketing/price-simulation.md)
+## Ávöxtun
+### [Sales returns](warehousing/sales-returns.md)
+# Flutningsstjórnun
+## [Ný vélarinnar flutningur](transportation/create-new-transportation-management-engine.md)
+## [Stofna farmbréf](transportation/create-bill-of-lading.md)
+## [Áætla frakt flutningur leiðir](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Áætla hleðslur með samstæðustöð](transportation/plan-loads-hub-consolidation.md)
+## [Afstemma frakt](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Vél flutningur](transportation/transportation-management-engines.md)
+# Vöruhúsakerfi
+## Uppsetning 
+### [Vinnan eftirlit með því að nota sniðmát vinnu og directives staðsetningu](warehousing/control-warehouse-location-directives.md)
+### [Stjórna starfsmaður í vöruhúsi](warehousing/manage-warehouse-workers.md)
+### [Stilla snið](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Mælieiningu og birgðareglur](warehousing/unit-measure-stocking-policies.md)
+## Tiltekt og pökkun
+### [Umbúðaefni og þóknun](warehousing/pack-materials-packing-material-fees.md)
+## Birgðatalning
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Birgðamerkjatalning](inventory/inventory-tag-counting.md)
+## Gámun 
+## Áfylling
+### [Áfylling](warehousing/replenishment.md)
+## Fartæki
+### [Skilgreinið nöfn svæði í warehousing app](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Setja upp fjarskiptatæki fyrir vöruhúsavinnu](warehousing/configure-mobile-devices-warehouse.md)
+### [Vöruhús Fjarskiptatæki Portal (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Birtingarstillingar fyrir fartæki vöruhúss](warehousing/change-warehouse-mobile-device-displays.md)

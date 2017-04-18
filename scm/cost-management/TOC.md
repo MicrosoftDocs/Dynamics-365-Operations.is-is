@@ -1,0 +1,43 @@
+# Power BI innihald þjónustupakka
+## [Innihald þjónustupakka kostnaðarstjórnun](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Fyrirfram ákveðinn kostnaður
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Herma eftir kostnaðarbreytingu með því að nota kostnaðarútgáfu fyrir áætlaðan kostnað](simulate-cost-changes-costing-version-planned-costs.md)
+# Birgðakostnaður
+## [Leiðrétta kostnaðarvirði lagerbirgða](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [FIFO (síðast inn - fyrst út) með efnislegu virði og marki](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Heildarbirgðavirði hugbúnaðarhluta](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [LIFO dagsetning með efnislegt virði og merkingu](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Fjárhagslegar og efnislegar uppfærslur](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Vegið meðaltal með efnislegu virði og marki](weighted-average-physical-value-marking.md)
+# Kostnaðarútreikningur framleiðslu
+## [Flokkur uppskriftarútreiknings](bom-calculation-groups.md)
+## [Algengar ástæður fráviks í framleiðslufrávik](common-sources-of-production-variances.md)
+## [Kostnaðartegund sem er notað í framleiðslunni leiðar](cost-categories-used-production-routings.md)
+## [Kostnaðartegund sem notuð er í Framleiðslu stýringu og stjórnun bókhaldi Verks](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Setja upp sem hægt er að framleidd eða framleidda vöru](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Staðalkostnaður
+## [Uppskriftaútreikningar með stöðluðum kostnaði](information-used-bom-calculations-standard-costs.md)
+## [Stjórna uppfærsla staðalkostnaðar](manage-standard-cost-updates.md)
+## [Skilyrði fyrir umreikning staðalkostnaðar](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Uppfærsla staðalkostnaðar í framleiðsluumhverfi](update-standard-costs-manufacturing-environment.md)
+## [Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru](update-standard-costs-new-manufactured-item.md)
+## [Uppfærsla staðalkostnaðar í ekki-framleiðsluumhverfis](update-standard-costs-non-manufacturing-environment.md)
+
+
