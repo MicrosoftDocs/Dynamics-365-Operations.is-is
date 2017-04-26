@@ -88,3 +88,5 @@ Microsoft Dynamics 365 for Operations er viðskipta forrit fyrir Microsoft fyrir
 </tbody>
 </table>
 
+
+

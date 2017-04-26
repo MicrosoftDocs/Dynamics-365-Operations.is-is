@@ -55,3 +55,5 @@ Til dæmis er hægt að lesa síðustu færslurnar um:
 ## <a name="elearning-courses"></a>eLearning námskeið
 Nánari upplýsingar um Microsoft Dynamics 365 for Operations þjálfun, sjá <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Nám Portal</a>. (krefst CustomerSource lykil) 
 
+
+

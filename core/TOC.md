@@ -75,3 +75,4 @@
 # Önnur tilföng
 ## [Dynamics 365 for Operations orðalisti fyrir](get-started/glossary.md)
 ## [Hvað er nýtt eða breytt](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

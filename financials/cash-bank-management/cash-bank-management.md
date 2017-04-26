@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Heimasíða fyrir færibreytur reiðufjár- og bankastjórnunar
 
+[!include[banner](../includes/banner.md)]
+
+
 Hægt er að nota Reiðufé og bankakerfi til að vinna með bankareikninga sem lögaðila ásamt fjármálaskjölum sem tengjast þeim bankareikninga. 
 
 Þessar instruments með innborgunarseðlum, ávísunum, víxla og eigin víxla. Einnig er hægt að afstemma bankayfirlit og prenta bankagögn á staðlaðar skýrslur.
@@ -69,4 +72,6 @@ Hægt er að nota Reiðufé og bankakerfi til að vinna með bankareikninga sem 
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Dæmi: Nota ein greiðsla viðskiptavinar til að jafna marga reikninga sem ná yfir margar afsláttartímabil](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

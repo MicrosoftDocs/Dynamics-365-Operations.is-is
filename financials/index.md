@@ -41,3 +41,5 @@ Veljið eiginleikasvæði til að fá frekari upplýsingar um það.
 - [Public sector](public-sector\public-sector-functionality.md) 
 - [Budgeting](budgeting\budgeting-overview.md) 
 
+
+

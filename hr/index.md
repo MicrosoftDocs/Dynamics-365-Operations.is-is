@@ -98,3 +98,5 @@ Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ým
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+
