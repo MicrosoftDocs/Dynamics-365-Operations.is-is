@@ -1,5 +1,5 @@
 ---
-title: "Áætla frakt flutningsleiðir með mörgum stöðvar"
+title: "Áætlanagerð farms flutningsleiðir með mörgum stöðvun"
 description: "Þessi grein lýsir mismunandi einingunum sem er notuð til að áætla flutningsleiðir í Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Áætla frakt flutningsleiðir með mörgum stöðvar
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Áætlanagerð farms flutningsleiðir með mörgum stöðvun
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir mismunandi einingunum sem er notuð til að áætla flutningsleiðir í Microsoft Dynamics AX.
 
@@ -48,5 +51,7 @@ Leiðarleiðbeiningar skilgreinir skilyrði fyrir samsvörun við hleðslu á á
 
 ## <a name="load-building-workbench"></a>Hlaða sniðmáti hleðslu
 Hleðsluáætlun vinnusvæði notar aðsetur viðskiptavinar og afhendingardagsetningar frá sölupöntunum og raðaðar leiðir sem eru tiltækar til að leggja til hleðslu. Sjálfgefið gildi úr leið eru færðar inn í vinnslusvæði. Hins vegar er hægt að velja „frá“ dagsetningu sem er fyrr en"frá"dagsetning á leiðinni. Þegar farmur er lagt til, afhendingaraðsetri og afhendingardagsetningu allar opnar sölupantanir athugað. Ef póstnúmer afhendingaraðseturs samsvarar póstnúmer stöðvar í áætlun um leið og ef afhendingardagsetningin er innan marka sem er valin fyrir forsendur, er sölupöntun stungið upp fyrir farminn. Einnig er tekið tillit til afkastagetu hleðslusniðmátsins. Einungis einn farm er lögð til í einu. Ef sölupöntun er ekki með, gæti þurft að nota annað hleðslusniðmát (t.d. farmsniðmát fyrir hærri vörubíl eða gám) eða áætla aukalegar afhendingar.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Hanna spurningalista
-description: "Þetta efnisatriði lýsir ferlinu við að stofna spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu."
+description: "Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Hanna spurningalista
 
-Þetta efnisatriði lýsir ferlinu við að stofna spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
+Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
 
 Vandlega hannaður spurningalisti eykur gæði gagnanna sem er safnað. Með vandlegri hönnun er betur hægt að velja viðeigandi valkosti á viðeigandi tíma fyrir spurningalista. Eftirfarandi punktar geta hjálpað þér að áætla skilvirkan spurningalista:
 
@@ -87,12 +87,12 @@ Færibreytur spurningalista eru valfrjálsir. Þær eru hugsanlega ekki notaðar
 
 Færibreytur spurningalista skilgreina nafnleysi, númeraraðakóða og tilvísunargerðir spurningalista. Þegar fyrirtæki dreifir spurningalista getur valkosturinn að leyfa svarendum að halda nafnleysi valdið áhyggjum. 
 
-Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkvæmt þessum kóða númeraraða gildi sjálfkrafa úthlutað til vara. 
+Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkvæmt þessum kóða númeraraða er gildum sjálfkrafa úthlutað á vörur. 
 
 Þú ættir að skilgreina allar færibreytur áður en þú byrjar að stofna gögnin þín. Hægt er að breyta færibreytustillingum spurningalista hvenær sem er.
 
 ## <a name="questionnaire-components"></a>Íhlutir spurningalista
-Spurningalistar snúast um þrjá aðalatriði: svara flokkum sem innihalda svör fyrir val á margar spurningar, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokki. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
+Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar 
 
 [Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
 
-[Skoðun og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
 
 

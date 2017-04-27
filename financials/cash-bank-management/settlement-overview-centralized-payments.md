@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Yfirlit Uppgjörs fyrir miðstýrð greiðslur.
 
+[!include[banner](../includes/banner.md)]
+
+
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þetta eyðir þörfinni á því að færa inn sömu færsluna í mörgum lögaðilum og sparar tíma með því að einfalda greiðslutillagnaferlið, jöfnunarferlið, breytingar á opnum færslum, og breytingar á lokuðum færslum fyrir miðstýrðar greiðslur. 
 
 Þegar viðskiptavinar- eða lánardrottinsgreiðsla er færð inn í einu lögaðila og jöfnuð með reikningi sem var færður inn í öðru lögaðila er viðkomandi jöfnun og færslur sjálfkrafa gerðar fyrir hvort lögaðila. Jöfnunarfærsla er stofnuð fyrir hverja samsetningu reiknings og greiðslu í færslunni. Hver jöfnunarfærsla fær úthlutað nýju fylgisjalsnúmeri sem er byggð á númeraröð greiðsluskjals sem tilgreind er á í**Færibreytur viðskiptakrafna** síðu fyrir viðskiptavini og á **Færibreytur viðskiptaskulda** síðu fyrir lánardrottna. 
@@ -108,6 +111,8 @@ Ef um lánardrottinnsgreiðslur er að ræða nota færslurnar í greiðslulöga
 
 ## <a name="withholding-tax"></a>Staðgreiðsluskattur
 Lánardrottnalykillinn sem reikningurinn tengist er notað til að ákvarða hvort á að reikna skuli staðgreiðsluskatt. Ef staðgreiðsluskattur á við hann reiknaður í lögaðila sem tengist reikningnum. Ef lögaðila nota aðra gjaldmiðla, er notað gengi frá lögaðila sem tengist reikningnum.
+
+
 
 
 

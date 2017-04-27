@@ -1,5 +1,5 @@
 ---
-title: "Heimila leiðréttu spána"
+title: "Leiðrétt spá heimiluð"
 description: "Ekki skal samþykkja öll spágögn strax. Þessi grein útskýrir hvernig hægt er að tilgreina tímabilið sem spá er heimiluð fyrir. Hún útskýrir líka hvernig á að heimila spá fyrir tiltekin fyrirtæki og spárlíkön."
 author: YuyuScheller
 manager: AnnBe
@@ -26,25 +26,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="authorize-an-adjusted-forecast"></a>Heimila leiðréttu spána
+# <a name="authorize-an-adjusted-forecast"></a>Leiðrétt spá heimiluð
+
+[!include[banner](../includes/banner.md)]
+
 
 Ekki skal samþykkja öll spágögn strax. Þessi grein útskýrir hvernig hægt er að tilgreina tímabilið sem spá er heimiluð fyrir. Hún útskýrir líka hvernig á að heimila spá fyrir tiltekin fyrirtæki og spárlíkön.
 
 Ekki skal samþykkja öll spágögn strax. Hægt er að tilgreina upphafs- og dagsetningar tímabilsins sem spáin er heimiluð fyrir. Þessi aðgerð gerir það mögulegt að frysta tiltekna ramma. 
 
-Upphafs- og dagsetningar sem er tilgreint verður að samsvara upphafs- og dagsetningar á aldursgreiningarramma sem myndaður er í spá. Kerfið setur þessi takmarkanir og leiðréttir sjálfkrafa dagsetningar, ef leiðréttingar er þörf. 
+Upphafs- og lokadagsetningar sem eru tilgreindar verða að samsvara upphafs- og lokadagsetningum ramma sem spáin er mynduð í. Kerfið setur þessar takmarkanir og leiðréttir sjálfvirkt dagsetningar, ef leiðréttingar er þörf. 
 
 Á flipanum **Upplýsingar** á síðunni **Heimild** er hægt að skoða upplýsingar um spána sem síðast var mynduð. 
 
 Hægt er að velja þau fyrirtæki og nota spálíkön til að heimila spá fyrir. Sjálfgefið er að hnitanetið felur í sér öll þau fyrirtæki sem spáreftirspurn hefur verið stofnuð fyrir. Fyrir hvert fyrirtæki er spárlíkan sem samsvarar gildandi spáráætlun sem sett er upp í færibreytum aðalröðunar fyrirfram fyllt út fyrir hvert fyrirtæki. Hins vegar er hægt að breyta þessu spárlíkani í hvaða spálíkan sem er sem tilheyrir því fyrirtæki. Ef engin gögn um spáreftirspurn voru mynduð fyrir valið fyrirtæki mun viðvörunarboð berast á innflutningstíma. 
 
-Mjög mikilvægt er að skilja hvernig gátreiturinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár** virkar. Ef verið er að gera handvirkar leiðréttingar á tölfræðilega grunnlínuspá, leiðrétt gildi heimild til að nota, jafnvel þó að gátreiturinn er hreinsaður. Hins vegar er breytingunum fleygt eftir heimildina. Þess vegna, næst þegar spá er mynduð er sú spá aðeins tölfræðileg spá og ekki með neinar handvirkar hnekkingar, jafnvel þótt **Flytja handvirkar leiðréttingar á eftirspurnarspánni** sé valinn. Þess vegna er hægt að líta á gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár** sem ferli sem gerir kleift að halda eða henda öllum handvirkum breytingum.
+Mjög mikilvægt er að skilja hvernig gátreiturinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár** virkar. Ef gerð hafa verið handvirkar leiðréttingar á tölfræðilegri grunnlínuspá eru leiðrétt gildi heimil til notkunar, jafnvel þó að gátreiturinn sé hreinsaður. Hins vegar er breytingunum fleygt eftir heimildina. Þess vegna, næst þegar spá er mynduð er sú spá aðeins tölfræðileg spá og ekki með neinar handvirkar hnekkingar, jafnvel þótt **Flytja handvirkar leiðréttingar á eftirspurnarspánni** sé valinn. Þess vegna er hægt að líta á gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár** sem ferli sem gerir kleift að halda eða henda öllum handvirkum breytingum.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Fylgjast með nákvæmni spár](monitor-forecast-accuracy.md)
+
+
 
 

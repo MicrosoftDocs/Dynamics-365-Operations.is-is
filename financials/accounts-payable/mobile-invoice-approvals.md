@@ -1,6 +1,6 @@
 ---
-title: "Fartæki reikningssamþykktir"
-description: "Fartæki getu í Microsoft Dynamics 365 aðgerða láta hanna fartæki reynslu viðskiptaferli notanda. Fyrir ítarlegri dæmi svæðis í einnig let&quot;s forriturum framlengja í getu sem þeir tryggja. Flestar virk leið til að fræðast sumar ný hugtök í fartæki er að fara gegnum ferlið fyrir nokkur dæmi hönnun. Í þessu efnisatriði er ætlað að gefa framkvæmd nálgun til að hanna fartæki aðstæður með því að taka reikningssamþykktir fyrir fartæki og notið svo lánardrottins. Í þessu efnisatriði eiga aðstoða við hönnun annar breytileiki í áætlanir og einnig er hægt að nota í öðrum aðstæðum þar sem ekki eru kostnaðarjafnaðar tengd reikningum lánardrottins."
+title: "Reikningssamþykktir í farsíma"
+description: "Farsímageta í Microsoft Dynamics 365 for Operations gera fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þetta efnisatriði á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,44 +24,47 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>Fartæki reikningssamþykktir
+# <a name="mobile-invoice-approvals"></a>Reikningssamþykktir í farsíma
 
-Fartæki getu í Microsoft Dynamics 365 aðgerða láta hanna fartæki reynslu viðskiptaferli notanda. Fyrir ítarlegri dæmi svæðis í einnig let's forriturum framlengja í getu sem þeir tryggja. Flestar virk leið til að fræðast sumar ný hugtök í fartæki er að fara gegnum ferlið fyrir nokkur dæmi hönnun. Í þessu efnisatriði er ætlað að gefa framkvæmd nálgun til að hanna fartæki aðstæður með því að taka reikningssamþykktir fyrir fartæki og notið svo lánardrottins. Í þessu efnisatriði eiga aðstoða við hönnun annar breytileiki í áætlanir og einnig er hægt að nota í öðrum aðstæðum þar sem ekki eru kostnaðarjafnaðar tengd reikningum lánardrottins.
+[!include[banner](../includes/banner.md)]
+
+
+Farsímageta í Microsoft Dynamics 365 for Operations gera fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þetta efnisatriði á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins.
 
 <a name="prerequisites"></a>Forkröfur
 -------------
 
 | Skilyrði                                                                                            | lýsing                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fartæki handbook fyrirfram lesið                                                                                |(/ dynamics365/aðgerðir/dev-itpro/fartæki-netversluninni / mobile-platform.md)                                                                                                  |
-| Dynamics 365 fyrir Aðgerðir                                                                             | Í umhverfi með Microsoft Dynamics 365 Aðgerðir útgáfu 1611 og Microsoft Dynamics fyrir Aðgerðir svæðis uppfæra 3 (Nóvember 2016)                   |
-| Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur röngum skrá tvær Loka skipanir fyrir dropdown gluggum þetta tekinn með í Dynamics 365 Aðgerð svæðis uppfærslu 3 (Nóvember 2016 uppfæra) |
-| Setja upp bráðabót KB 3207800.                                                                              | Þessa bráðabót gerir viðhengi til að skoða biðlarans fartæki þetta tekinn með í Dynamics 365 Aðgerð svæðis uppfærslu 3 (Nóvember 2016 uppfærslu).           |
-| Setja upp bráðabót KB 3208224.                                                                              | Forritið kóðanum fyrir fartæki lánardrottins reiknings samþykki forritið þetta tekinn með í Microsoft Dynamics AX forritið 7.0.1 (Maí 2016).                          |
-| Í Android eða iOS eða Windows tæki með fartæki forrits sem er sett upp fyrir Dynamics 365 fyrir Aðgerðir | Leita að forritið í versluninni viðeigandi forrits.                                                                                                                     |
+| Fyrirframlestur farsímahandbókar                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
+| Dynamics 365 for Operations                                                                             | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016).                   |
+| Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur skráð rangt tvær Loka skipanir fyrir felliglugga þetta er innifalið í Dynamics 365 for Operations uppfærslu verkvangs 3 (uppfærsla nóvember 2016) |
+| Setja upp bráðabót KB 3207800.                                                                              | Þessi bráðabót leyfir að viðhengi séu skoðuð í farsímabiðlara þetta er innifalið í Dynamics 365 for Operations uppfærsla verkvangs 3 (uppfærsla í nóvember 2016)           |
+| Setja upp bráðabót KB 3208224.                                                                              | Forritakóði fyrir farsímasamþykkt reiknings lánardrottins þetta er innifalið í Microsoft Dynamics AX forritið 7.0.1 (maí 2016).                          |
+| Í tæki með Android eða iOS eða Windows sem er með farsímaforritið sem er sett upp fyrir Dynamics 365 for Operations | Leita að forritinu í viðeigandi forritaverslun.                                                                                                                     |
 
 ## <a name="introduction"></a>Inngangur
-Fartæki samþykki fyrir reikninga lánardrottins þurfa þrír bráðabætur sem nefnd eru í hlutanum "Forkröfur". Þessar bráðabætur ekki veita vinnusvæði fyrir samþykki reiknings. Til að læra hvað vinnusvæði er í samhengi við fartæki, lesa fartæki handbook sem nefnd eru í hlutanum "Forkröfur". Vinnusvæði samþykki reiknings verður að vera hannaðir. 
+Farsímasamþykktir fyrir reikninga lánardrottins þurfa þrjár bráðabætur sem nefndar eru í hlutanum „Forkröfur“. Þessar bráðabætur veita ekki vinnusvæði fyrir reikningssamþykki. Til að læra hvað vinnusvæði er í samhengi við fartæki, skaltu lesa farsímahandbókina sem er nefnd í hlutanum „Forkröfur“. Vinnusvæði reikningssamþykkta verður að vera hannað. 
 
-Hvert fyrirtæki orchestrates og skilgreinir mismunandi viðskiptaferli fyrir reikninga lánardrottins. Áður en fartæki reynslu fyrir samþykki reiknings lánardrottins, hanna ætti að íhuga að eftirfarandi þætti viðskiptaferlis. Hugmyndin er að nota þessi gögn vildarpunkta eins litlar heimildir og mögulegt er að fínstilla reynslu notanda á tækinu.
+Hvert fyrirtæki skipuleggur og skilgreinir mismunandi viðskiptaferli fyrir reikninga lánardrottins. Áður en farsímaupplifun fyrir samþykktir reiknings lánardrottins er hönnuð ætti að íhuga að eftirfarandi þætti viðskiptaferlis. Hugmyndin er að nota þessa gagnapunkta eins mikið og hægt er til að hámarka reynslu notanda á tækinu.
 
--   Svæði úr reikningshausinn mun notandinn sjá á í fartæki reynslu og í hvaða röð?
--   Svæði úr reikningslína mun notandinn sjá á í fartæki reynslu og í hvaða röð?
--   Hversu margar línur á reikningi eru í reikning? Nota reglu 80 20 er hér og fínstilla fyrir 80 prósent.
--   Verða notendur á að sjá dreifingar á fjárhagsupphæð (reikningur aðgreining) í fartækinu við skoðunarferlum Ef svarið þessari spurningu er já, íhugið eftirfarandi spurningum:
-    -   Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld, skiptir og svo framvegis) eru fyrir reikningslínuna? Nota aftur, 80 20 reglu.
-    -   Reikningar einnig hefur dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, þessar dreifingar á fjárhagsupphæð skuli tiltæk á tækið?
+-   Hvaða svæði úr reikningsfyrirsögninni mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?
+-   Hvaða svæði úr reikningslínunum mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?
+-   Hversu margar reikningslínur eru í reikningi? Nota reglu 80-20 hér og fínstilla fyrir 80 prósent.
+-   Munu notendur vilja sjá dreifingar á fjárhagsupphæð (reikningskóðun) í fartækinu við skoðunarferlum? Ef svarið þessari spurningu er já, íhugið eftirfarandi spurningar:
+    -   Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld, skipti og svo framvegis) eru fyrir reikningslínu? Aftur skal nota 80-20 reglu.
+    -   Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?
 
 > [!NOTE]
-> Í þessu efnisatriði ekki útskýra hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd stendur fyrir fartæki aðstæður.
+> Þetta efnisatriði útskýrir ekki hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd eins og stendur fyrir farsímaaðstæður.
 
--   Verða notendur á að sjá viðhengi fyrir reikninginn á tækið
+-   Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?
 
-Hönnun fartæki reynslu fyrir reikningssamþykktir verður mismunandi eftir svörin við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Afganginn í afganginn af þessu efnisatriði, mælt verður þvínæst tvær frávik aðstæður sem eru byggðar á mismunandi svör við spurningunum á undan. 
+Hönnun farsímareynslu fyrir reikningssamþykktir verður mismunandi, eftir því hver svörin verða við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Í afganginum af þessu efnisatriði skoðum við tvær frávikaaðstæður sem byggjast á mismunandi svörum við spurningunum hér á undan. 
 
-Á almennu leiðbeininga, þegar unnið er með fartæki hönnuður, sem ganga úr skugga um að 'birta' breytingarnar koma í veg fyrir uppfærslur mistókst.
+Almennt séð, þegar unnið er með farsímahönnuði, þarf að ganga úr skugga um að 'birta' breytingarnar til að koma í veg fyrir uppfærslur mistakist.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Hönnun í aðstæðum samþykki einfalt reiknings fyrir Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Hönnun á einföldum aðstæðum reikningssamþykktar fyrir Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -75,7 +78,7 @@ Hönnun fartæki reynslu fyrir reikningssamþykktir verður mismunandi eftir sv�
 </thead>
 <tbody>
 <tr class="odd">
-<td>Svæði úr reikningshausinn mun notandinn sjá á í fartæki reynslu og í hvaða röð?</td>
+<td>Hvaða svæði úr reikningsfyrirsögninni mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?</td>
 <td><ol>
 <li>Nafn lánardrottins</li>
 <li>Heildarupphæð reiknings</li>
@@ -88,7 +91,7 @@ Hönnun fartæki reynslu fyrir reikningssamþykktir verður mismunandi eftir sv�
 </ol></td>
 </tr>
 <tr class="even">
-<td>Svæði úr reikningslína mun notandinn sjá á í fartæki reynslu og í hvaða röð?</td>
+<td>Hvaða svæði úr reikningslínunum mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?</td>
 <td><ol>
 <li>Innkaupategund</li>
 <li>Magn</li>
@@ -98,23 +101,23 @@ Hönnun fartæki reynslu fyrir reikningssamþykktir verður mismunandi eftir sv�
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Hversu margar línur á reikningi eru í reikning? Nota reglu 80 20 er hér og fínstilla fyrir 80 prósent.</td>
+<td>Hversu margar reikningslínur eru í reikningi? Nota reglu 80-20 hér og fínstilla fyrir 80 prósent.</td>
 <td>1</td>
 </tr>
 <tr class="even">
-<td>Verða notendur á að sjá dreifingar á fjárhagsupphæð (reikningur aðgreining) í fartækinu við skoðunarferlum</td>
+<td>Munu notendur vilja sjá dreifingar á fjárhagsupphæð (reikningskóðun) í fartækinu við skoðunarferlum?</td>
 <td>Já</td>
 </tr>
 <tr class="odd">
-<td>Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld, og svo framvegis) eru fyrir reikningslínuna? Nota aftur, 80 20 reglu.</td>
+<td>Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld og svo framvegis) eru fyrir reikningslínuna? Aftur skal nota 80-20 reglu.</td>
 <td>Heildarverð: 2 vsk: 0 Gjöld: 0</td>
 </tr>
 <tr class="even">
-<td>Reikningar einnig hefur dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, þessar dreifingar á fjárhagsupphæð skuli tiltæk á tækið?</td>
+<td>Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?</td>
 <td>Ekki notað</td>
 </tr>
 <tr class="odd">
-<td>Verða notendur á að sjá viðhengi fyrir reikninginn á tækið</td>
+<td>Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?</td>
 <td>Já</td>
 </tr>
 </tbody>
@@ -122,61 +125,61 @@ Hönnun fartæki reynslu fyrir reikningssamþykktir verður mismunandi eftir sv�
 
 ### <a name="create-the-workspace"></a>Stofna vinnusvæðið
 
-1.  Opna Dynamics 365 fyrir Aðgerðir og skrá sig inn í vafra.
+1.  Í vafra opnarðu Dynamics 365 for Operations og skráir þig inn.
 2.  Eftir að notandi hefur verið skráður bæta **& hamur = fartæki** vefslóð eins og sýnt er í eftirfarandi dæmi og endurnýja þarf síðuna: https://&lt;yoururl&gt;/? cmp = usmf & mi = DefaultDashboard**& hamur = fartæki**
-3.  Smellið á **Stillingar** hnappinn (gear) í efra hægri á síðunni og smelltu svo á **Fartæki forrits**. Hönnuður fartæki forrits verður sýna eins og Verki verkskráningar sýnir upp.
-4.  Smellið á **Bæta** til að stofna nýja vinnusvæðið. Til dæmis, heiti vinnusvæðið **Mínar samþykktir**.
+3.  Smellið á hnappinn **Stillingar** (tannhjól) í efst til hægri á síðunni og smelltu svo á **Fartæki forrits**. Hönnuður fartæki forrits verður birtast eins og Verkskráning birtist.
+4.  Smelltu á **Bæta við** til að búa til nýtt vinnusvæði. Í þessu dæmi er vinnusvæðinu gefið heitið **Samþykktir**.
 5.  Færðu inn lýsingu.
-6.  Veljið lit vinnusvæði. Litur vinnusvæði verða notaðar fyrir almenna stíl fyrir fartæki reynslu fyrir þessa vinnusvæðið.
+6.  Velja lit vinnusvæðis Litur vinnusvæðisins verður notaður fyrir heildarstíl fyrir farsímareynslu fyrir þetta vinnusvæði.
 7.  Velja tákn fyrir vinnusvæðið.
-8.  Smellið á **Lokið**
-9.  Smellið á **Birta vinnusvæði** til að vista breytingar
+8.  Smelltu á **Lokið**
+9.  Smelltu á **Birta vinnusvæði** til að vista breytingarnar
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Reikningar lánardrottins tengdir notanda
 
-Fyrstu fartæki síðunnar sem ætti að hanna lista yfir reikninga sem eru úthlutaðar notandanum til skoðunar er. Til að hanna þessa fartæki síðu, skal nota við **VendMobileInvoiceAssignedToMeListPage** síðu í Dynamics 365 fyrir Aðgerðir. Áður en lokið er við þetta ferli gangið úr skugga um að sem minnst einn lánardrottinsreikning þér er úthlutað til skoðunar og reikningslínunni hefur tvær dreifingar. Þessi uppsetning uppfyllir kröfur fyrir þetta dæmi.
+Fyrsta farsímasíðan sem ætti að hanna er listi yfir reikninga sem eru úthlutaðir notandanum til skoðunar. Til að hanna þessa farsímasíðu, skal nota síðuna **VendMobileInvoiceAssignedToMeListPage** í Dynamics 365 for Operations. Áður en lokið er við þetta ferli skal ganga úr skugga um að a.m.k. einn lánardrottinsreikningur sé úthlutaður til þín til skoðunar og að reikningslínan hafi tvær dreifingar. Þessi uppsetning uppfyllir kröfur fyrir þetta dæmi.
 
-1.  Í Dynamics 365 Aðgerðir Vefslóð, skipta heiti valmyndaratriðis með **VendMobileInvoiceAssignedToMeListPage** til að opna fartæki útgáfu í **Biðreikninga lánardrottins sem mér eru úthlutaðir** listasíðu í á **Viðskiptaskuldir** kerfiseiningu. Eftir fjölda reikninga sem hafa verið í kerfinu sem er, þessi síða sýnir þá reikninga. Af tilteknum reikningi er að nota síuna vinstra megin. Þó er mælt ekki að þurfa til ákveðins reiknings í þessu dæmi. Við höfum krefjast rétt sumar reiknings sem úthlutað er til sem á að leyfa að hanna fartæki síðu. Nýjar síður sem eru tiltækar hafa verið hannaðar sérstaklega fyrir þróun fartæki aðstæður fyrir reikning lánardrottins. Þess vegna verður að nota þessar síður. Vefslóð á resemble eftirfarandi SLÓÐ og þegar hann er færður inn, verður birtast síðan sem birtist í skýringarmynd: https://&lt;yourURL&gt;/? cmp = usmf & mi =**VendMobileInvoiceAssignedToMeListPage**& hamur = fartæki [![Biðreikninga lánardrottins sem mér eru úthlutaðir síðuna](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
-2.  Smellið á **Stillingar** hnappinn (gear) í efra hægri á síðunni og smelltu svo á **Fartæki forrits**
+1.  Í vefslóð Dynamics 365 for Operations, skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceAssignedToMeListPage** til að opna farsímaútgáfu af listasíðunni **Biðreikningar lánardrottins sem mér eru úthlutaðir** í kerfiseiningunni **Viðskiptaskuldir**. Það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir þá reikninga. Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikning sem úthlutað er til þín, sem gerir þér kleift að hanna farsímasíðuna. Nýjar síður sem eru tiltækar hafa verið hannaðar sérstaklega fyrir þróun farsímaaðstæðna fyrir reikning lánardrottins. Þess vegna verður að nota þessar síður. Vefslóð á að líkjast eftirfarandi slóð og þegar hún hefur verið færð inn, verður síðan sem birtist á skýringarmyndinni að birtast: https://&lt;yourURL&gt;/? cmp = usmf & mi =**VendMobileInvoiceAssignedToMeListPage**& hamur = fartæki [![Biðreikninga lánardrottins sem mér eru úthlutaðir síðuna](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+2.  Smellið á hnappinn **Stillingar** (tannhjól) í efra hægra horni síðunnar og svo á **Farsímaforrit**.
 3.  Veljið vinnustöð og smellið á **Breyta**
-4.  Smellið á **Bæta síðu** til að stofna fartæki fyrstu síðu.
-5.  Færið inn heiti, eins og **Mínar lánardrottnareikninga**, og lýsingu, eins og **reikninga Lánardrottins sem mér eru úthlutaðir til skoðunar**.
-6.  Click **Done**.
-7.  Í fartæki hönnuður á í **Svæði** flipanum, smellið **Velja svæði**. Dálkar á listasíðunni verður resemble eftirfarandi dæmi. [![Dálka í lánardrottnareikninga í Bið úthlutaðar mér síðu](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
-8.  Bæta þarf dálkum úr listasíðu sem verður að sýna notendur í fartæki síðu. Pöntun sem er bætt við er pöntunin sem svæðin birtast notandanum með forskoðunaraðgerðinni. Eina leiðin til að breyta röðun svæði verður með því að velja aftur öll svæði. Samkvæmt kröfur fyrir þetta dæmi í eftirfarandi átta svæði krafist. Hins vegar sumir notendur gætu hafa í huga átta svæði of mikið af upplýsingum til að hafa í farsíma. Þess vegna er mælt verður að sýna aðeins mikilvægustu svæði í fartæki lista. Eftirstandandi svæði birtast í upplýsingayfirlit mælt verður hanna seinna. Núna, mælt mun bæta við fyrir eftirfarandi svæði. Smellið á plúsmerkið (**+**) í þessum dálka til að bæta fartæki síðu.
+4.  Smellið á **Bæta við síðu** til að stofna fyrstu farsímasíðuna.
+5.  Færið inn heiti, eins og **Mínar lánardrottnareikningar**, og lýsingu, eins og **Reikninga lánardrottins sem mér eru úthlutaðir til skoðunar**.
+6.  Smelltu á **Lokið**.
+7.  Í farsímahönnuði, á flipanum **Svæði** er smellt á **Velja svæði**. Dálkar á listasíðunni verða að líkjast eftirfarandi mynd. [![Dálkar á síðunni Reikningar lánardrottins í bið sem notanda hefur verið úthlutað](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+8.  Bæta þarf dálkum af listasíðunni, sem verða að birtast notendum á farsímasíðunni. Röðin sem þú bætir við er sú röð sem svæðin eru birt notanda. Eina leiðin til að breyta röðun svæða verður með því að velja aftur öll svæði. Samkvæmt kröfum fyrir þetta dæmi er eftirfarandi átta svæða krafist. Hins vegar gæti sumum notendum þótt átta svæði of mikið af upplýsingum til að hafa í farsíma. Þess vegna munum við aðeins sýna mikilvægustu svæðin í farsímalistayfirlitinu. Eftirstandandi svæði birtast í upplýsingayfirliti sem við munum hanna seinna. Eins og stendur bætum við eftirfarandi svæðum við. Smellið á plúsmerkið (**+**) í þessum dálkum til að bæta við farsíðu.
     1.  Nafn lánardrottins
     2.  Heildarupphæð reiknings
     3.  Reikningslykill
     4.  Númer reiknings
     5.  Reikningsdagsetning
 
-    Eftir svæðum er bætt við síðuna fartæki verður resemble eftirfarandi dæmi. [![Þegar svæðum er bætt við Síðu](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
-9.  Verður líka að bæta eftirfarandi dálka núna, þannig að við höfum hægt er að virkja verkflæðisaðgerðir síðar.
-    1.  Sýna ljúka verki
-    2.  Sýna úthluta verki
-    3.  Sýna afturkalla verks
-    4.  Sýna hafna verkefni
-    5.  Sýna lokaverkefni beiðni
-    6.  Sýna endursenda verks
+    Eftir að svæðum er bætt við síðuna verður farsímasíðan að líkjast eftirfarandi dæmi. [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+9.  Einnig verður að bæta eftirfarandi dálkum við núna, svo að við getum virkjað verkflæðisaðgerðir síðar.
+    1.  Sýna lokin verk
+    2.  Sýna úthlutað verk
+    3.  Sýna afturkallað verk
+    4.  Sýna hafnað verk
+    5.  Sýna verk með umbeðin lok
+    6.  Sýna endursent verk
 
-10. Smellið á **Gert** til að fara úr breytingarham.
-11. Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-12. Smellið á **Birta vinnusvæði** til að vista breytingar sínar.
-13. Virkja **Birta samtölu á biðstöðu lánardrottins reiknings reikninga lista** í færibreytuskjámynd viðskiptaskulda er notaður í **Reiknings**. Athugið, aðeins með því að virkja þessa færibreytu reikningssamtölur verður reiknuð birtast á listasíðu lánardrottnareikninga í bið lánardrottins. Þetta er hluti af fyrirfram requisite heitt laga 3208224 nýrri getu.
+10. Smellið á **Lokið** til að fara úr breytingarstillinigu.
+11. Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+12. Smelltu á **Birta vinnusvæði** til að vista verkið.
+13. Virkja **Birta samtölu á biðstöðu lánardrottins reiknings reikninga lista** í færibreytuskjámynd viðskiptaskulda undir **Reikningur**. Athugið að aðeins með því að virkja þessa færibreytu verða reikningssamtölur reiknaðar til að birtast á listasíðu lánardrottnareikninga í bið. Þetta er ný geta sem er hluti af frumskilyrðum bráðabóta 3208224.
 
-### <a name="vendor-invoice-details"></a>Upplýsingar um reikning lánardrottins
+### <a name="vendor-invoice-details"></a>Reikningsupplýsingar lánardrottins
 
-Til að hanna upplýsingasíðunni reiknings fyrir fartæki, í **VendMobileInvoiceHeaderDetails** síðu í Dynamics 365 fyrir Aðgerðir. Athugið að, allt eftir fjölda reikninga sem eru í kerfinu, þessi síða sýnir elsta reiknings (reikningur var stofnaður fyrst). Af tilteknum reikningi er að nota síuna vinstra megin. Þó er mælt ekki að þurfa til ákveðins reiknings í þessu dæmi. Við mælum rétt krefjast sum gögn sem mælt er hægt að hanna fartæki síðu. [![Verkflæði síðu](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Til að hanna reikningsupplýsingasíðu fyrir farsíma, skal nota síðuna **VendMobileInvoiceHeaderDetails** í Dynamics 365 for Operations. Athugið að það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir elsta reikninginn (reikninginn sem var stofnaður fyrst). Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikningsgögn svo að við getum hannað farsímasíðuna. [![Verkflæðissíða](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Í Dynamics 365 Aðgerðir Vefslóð, skipta heiti valmyndaratriðis með **VendMobileInvoiceHeaderDetails** til að opna skjámyndina
-2.  Opnið hönnuðinn fartæki úr á **Stillingar** hnappinn (gear).
+1.  Í vefslóð Dynamics 365 for Operations, skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceHeaderDetails** til að opna skjámyndina
+2.  Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
 3.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
-4.  Velja á ** Mínar lánardrottnareikninga ** síðunni sem þú stofnaðir áður, og smellið síðan á **Breyta**.
-5.  Á við **Svæði** flipanum, smellið á **Hnitaneti** dálkhaus.
-6.  Smellið á **Eiginleika**&gt;**Bæta síðu**. **Athugasemd:** Þegar smellt er á í **Hnitaneti** fyrirsögn og bæta síðan vensl við síðu er sjálfvirkt komið upplýsingar.
-7.  Færa inn síðutitill, eins og **upplýsingar Um**, og lýsingu, eins og **Skoða línuupplýsingar og reikningshausinn**.
-8.  Smellið á **Velja svæði**. Athugið, pöntun sem er bætt við er pöntunin sem svæðin birtast notandanum með forskoðunaraðgerðinni. Eina leiðin til að breyta röðun svæði verður með því að velja aftur öll svæði.
-9.  Bætið eftirfarandi svæðum úr haus, eftir þörfum fyrir aðstæðurnar:
+4.  Veldu síðuna ** Mínir lánardrottnareikningar ** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
+5.  Á flipanum **Svæði** smellirðu á dálkhausinn **Hnitanet**.
+6.  Smellið á **Eiginleikar** &gt; **Bæta við síðu**. **Athugasemd:** Þegar smellt er á fyrirsögnina **Hnitanet** og síðu bætt við, er venslum við upplýsingasíðu sjálfvirkt komið á.
+7.  Færðu inn síðutitill, eins og **Upplýsingar um reikning**, og lýsingu, eins og **Skoða línuupplýsingar og reikningshausinn**.
+8.  Smellið á **Velja svæði**. Athugið að röðin sem þú bætir við er sú röð sem svæðin verða birt notanda. Eina leiðin til að breyta röðun svæða verður með því að velja aftur öll svæði.
+9.  Bættu við eftirfarandi reitum úr haus, samkvæmt kröfum fyrir þetta dæmi.
     1.  Nafn lánardrottins
     2.  Heildarupphæð reiknings
     3.  Reikningslykill
@@ -186,41 +189,41 @@ Til að hanna upplýsingasíðunni reiknings fyrir fartæki, í **VendMobileInvo
     7.  Gjalddagi
     8.  Gjaldmiðill reiknings
 
-10. Bæta við eftirfarandi svæðum úr töflunni línur á síðu:
+10. Bæta við eftirfarandi svæðum úr línutöflunni á síðuna:
     1.  Innkaupategund
     2.  Magn
     3.  Einingarverð
     4.  Nettóupphæð línu
     5.  Upphæð 1099
 
-11. Eftir að öllum svæðum úr fyrri tvö skref hefur verið bætt við, smellið á **Gert**. Síðan verður resemble eftirfarandi dæmi. [![Þegar svæðum er bætt við Síðu](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
-12. Smellið á **Gert** til að fara úr breytingarham.
-13. Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-14. Smellið á **Birta vinnusvæði** til að vista skal vinnuna
+11. Eftir að öllum svæðum úr fyrri tvö skref hefur verið bætt við, smellið á **Lokið**. Dálkar á listasíðunni verða að líkjast eftirfarandi dæmi. [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+12. Smellið á **Lokið** til að fara úr breytingarstillinigu.
+13. Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+14. Smelltu á **Birta vinnusvæði** til að vista verkið
 
 ### <a name="workflow-actions"></a>Verkflæðisaðgerðir
 
-Til að bæta verkflæðisaðgerðir sem er í **VendMobileInvoiceHeaderDetails** síðu í Dynamics 365 fyrir Aðgerðir. Til að opna þessa síðu er að skipta heiti valmyndaratriðis í Vefslóð, sem var áður. Opna síðan fartæki hönnuður úr á **Stillingar** hnappinn (gear). Fylgið eftirfarandi skrefum til að bæta verkflæðisaðgerðir á upplýsingasíðu.
+Til að bæta við verkflæðisaðgerðum skal nota síðuna **VendMobileInvoiceHeaderDetails** í Dynamics 365 for Operations. Til að opna þessa síðu skal skipta út heiti valmyndaratriðis í vefslóð, eins og gert var áður. Síðan skal opna hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól). Fylgið þessum skrefum til að bæta við verkflæðisaðgerðum á upplýsingasíðuna.
 
 1.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
-2.  Velja skal **upplýsingar Um** síðunni sem þú stofnaðir áður, og smellið síðan á **Breyta**.
-3.  Á við **Aðgerðir** flipanum, smellið **Bæta aðgerð**.
-4.  Færa inn aðgerð titill eins og **Samþykkja**, og lýsingu, eins og **Samþykkja reikninginn**. Athugið titill aðgerðarinnar sem færð er inn hér verður heiti aðgerðarinnar sem sýnd eru notanda í fartæki forrits.
-5.  Click **Done**.
+2.  Veldu síðuna **Upplýsingar um reikning** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
+3.  Á flipanum **Aðgerðir** er smellt á **Bæta aðgerð við**.
+4.  Færðu inn aðgerðatitill eins og **Samþykkja**, og lýsingu, eins og **Samþykkja reikninginn**. Athugið að titill aðgerðarinnar sem er færður hér inn verður heiti aðgerðarinnar sem er birt notanda í farsímaforritinu.
+5.  Smelltu á **Lokið**.
 6.  Smellið á **Velja svæði**.
-7.  Fara í gegnum verkflæðisferlið í **VendMobileInvoiceHeaderDetails** síðunni og ljúka við aðgerðina sem óskað er að skrá. Gangið úr skugga um að færa inn athugasemdir verkflæði meðan á þessu stendur þannig að svæði athugasemdir er einnig tekin með í fartæki reynslu.
-8.  Eftir að aðgerð verkflæðis er keyrð, smellið á **Gert** að ljúka verkinu fyrir Valið svæði.
-9.  Smellið á **Gert** til að fara úr breytingarham.
-10. Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-11. Smellið á **Birta vinnusvæði** til að vista skal vinnuna
-12. Endurtakið skref 3 til 11 til að skrá öll áskilin verkflæðisaðgerðir. Athugið að, er þörf á að hafa reikninga úthlutað sem eru í ríkið sem á að gera verkflæði aðgerðir tiltækar sem hægt er að hanna til.
-13. Opna Notepad eða Microsoft Visual Studio og líma eftirfarandi kóða. Skrána skal vista sem skrá .js. Þessi kóði er tveggja verið:
-    1.  Það felur aukagjöldum tengjast verkflæði dálka sem mælt bætt við fyrr í fartæki listasíðu. Við mælum bætt þessum dálka þannig að forritið sem upplýsingar í samhengi og hægt er að gera á næsta skref.
-    2.  Byggt á verkflæðisskrefi sem er virk er hún við viðskiptagrunninn til að sýna aðeins þær aðgerðir.
+7.  Fara í gegnum verkflæðisferlið í **VendMobileInvoiceHeaderDetails** síðunni og ljúka við aðgerðina sem óskað er að skrá. Gangið úr skugga um að færa inn athugasemdir um verkflæðið meðan á því stendur þannig að athugasemdasvæðið sé einnig innifalið í farsímareynslunni.
+8.  Þegar aðgerð verkflæðis hefur verið keyrð er smellt á **Gert** að ljúka verkinu fyrir Valið svæði.
+9.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+10. Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+11. Smelltu á **Birta vinnusvæði** til að vista verkið
+12. Endurtakið skref 3 til 11 til að skrá allar áskildar verkflæðisaðgerðir. Athugið að það er krafa að hafa reikninga úthlutað til þín, sem eru í þeirri stöðu að gera verkflæðisaðgerðir tiltækar fyrir þig og þú ætlar að hanna fyrir.
+13. Opna Notepad eða Microsoft Visual Studio og líma eftirfarandi kóða. Vista skýrsluna sem .js-skrá Þessi kóði gerir tvennt:
+    1.  Hann felur aukalega dálka sem tengjast verkflæði, sem við bættum við áður á fartæki listasíðu. Við bættum þessum dálkum við svo að forritið hafi upplýsingar í samhengi og geti framkvæmt næsta skref.
+    2.  Á grunni verkflæðisskrefsins sem er virkt notar það rök til að sýna aðeins þær aðgerðir.
 
-Athugið, nafn síður og aðrar stýringar í JS kóða verður að vera sú sama frá vinnusvæðið.
+Athugaðu að heiti síðanna og annarra stýringa í JS-kóðanum verða að vera þær sömu og í vinnusvæðinu.
 
-1.  Aðgerð aðal (metadataService dataService, cacheService, $q) {skila {appInit: aðgerð (appMetadata) {/ / Fela stýringar sem þarf að vera til staðar en ekki sýnilegur metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowAccept' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowApprove' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowReject' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowDelegate' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowRequestChange' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowRecall' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowComplete' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowResubmit' { falinn: satt}); }, pageInit: aðgerð (pageMetadata, færibreytur) {ef (pageMetadata.Name == '-reikningsupplýsingar') {/ / Sýna/fela verkflæðisaðgerðir verkflæði á grundvelli skrefi metadataService.configureAction ('Samþykkja' {sýnilegt: satt}); metadataService.configureAction ('Samþykkja' {sýnilegt: satt}); metadataService.configureAction ('Hafna' {sýnilegt: satt}); metadataService.configureAction ('Úthluta' {sýnilegt: satt}); metadataService.configureAction (' beiðni Um breytingu ', {sýnilegt: satt}); metadataService.configureAction ("Afturköllun" {sýnilegt: satt}); metadataService.configureAction ('Lokið' {sýnilegt: satt}); metadataService.configureAction ('Endursending' {sýnilegt: satt});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -256,56 +259,56 @@ Athugið, nafn síður og aðrar stýringar í JS kóða verður að vera sú sa
            };
         }
 
-2.  Hlaða upp skrá kóða vinnusvæðið með því að velja á **Viðskiptagrunninn** flipa
-3.  Smellið á **Gert** til að fara úr breytingarham.
-4.  Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-5.  Smellið á **Birta vinnusvæði** til að vista skal vinnuna
+2.  Hlaða upp kóðaskrá á vinnusvæðið með því að velja flipann **Röklegt**
+3.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+4.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+5.  Smelltu á **Birta vinnusvæði** til að vista verkið
 
-### <a name="vendor-invoice-attachments"></a>Viðhengi fyrir reikninga lánardrottins
+### <a name="vendor-invoice-attachments"></a>Viðhengi reiknings lánardrottins
 
-1.  Smellið á **Stillingar** hnappinn (gear) í efra hægri á síðunni og smelltu svo á **Fartæki forrits**
+1.  Smellið á hnappinn **Stillingar** (tannhjól) í efra hægra horni síðunnar og svo á **Farsímaforrit**.
 2.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
-3.  Velja skal ** upplýsingar Um ** síðunni sem þú stofnaðir áður, og smellið síðan á **Breyta**.
-4.  Setja skal **Skjalastjórnun** valkosturinn að **Já** eins og sýnt er hér að neðan. **Athugasemd:** Ef það eru engar þarfir til að sýna viðhengi í fartækinu, hægt er að skilja þennan valkost að setja **Nei**, sem er sjálfgefin stilling.
+3.  Veldu síðuna **Upplýsingar um reikning ** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
+4.  Stilltu valkostinn **Skjalastjórnun** á **Já** eins og sýnt er hér að neðan. **Athugasemd:** Ef ekki þarf að sýna viðhengi í fartækinu er hægt að hafa þennan valkost stilltan á **Nei**, sem er sjálfgefin stilling.
 5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
-6.  Smellið á **Gert** til að fara úr breytingarham.
-7.  Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-8.  Smellið á **Birta vinnusvæði** til að vista skal vinnuna
+6.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+7.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+8.  Smelltu á **Birta vinnusvæði** til að vista verkið
 
-### <a name="vendor-invoice-line-distributions"></a>Lína dreifingar fyrir reikning lánardrottins
+### <a name="vendor-invoice-line-distributions"></a>Línudreifingar fyrir reikning lánardrottins
 
-Kröfur fyrir þetta dæmi staðfesta verður að aðeins-línustigi dreifingar og reikningur er alltaf með eina línu. Þar sem þessar aðstæður er einfalt reynslu notenda í fartækinu verður einnig að vera einfalt nógu sem notandinn er ekki með að kafa niður í nokkrum þrepum til að skoða dreifingu. Lánardrottnareikninga í Dynamics 365 aðgerða með möguleikanum á að sýna allar dreifingar úr haus reiknings. Þessi reynslu er hvað þarf mælt fartæki aðstæðum. Notið þess vegna mælum við verður í **VendMobileInvoiceAllDistributionTree** síðu til að hanna þessa hluti fartæki aðstæður. 
+Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á línustigi dreifingar og að reikningur verður alltaf með aðeins eina línu. Þar sem þessar aðstæður eru einfaldar verður notendaupplifunin í fartækinu einnig að vera nógu einföld til að notandinn þurfi ekki að kafa niður nokkrum þrep til að skoða dreifingu. Lánardrottnareikningar í Dynamics 365 for Operations eru með valkostinn að sýna allar dreifingar úr haus reiknings. Þessi reynsla er það sem þarf fyrir farsímaaðstæðurnar. Þess vegna munum við nota síðuna **VendMobileInvoiceAllDistributionTree** til að hanna þennan hluta farsímaaðstæðnanna. 
 
 > [!NOTE] 
-> Vita hver fjarvistartímabilsins yrði kröfur hjálpar okkur að ákveða hvaða tiltekna síðu til að nota og hvernig nákvæmlega til að efla fartæki reynslu notanda þegar mælt hannaður sem dæmi. Í seinni aðstæður mælt mun nota mismunandi síðu til að sýna dreifingar, þar sem þarfir fyrir aðstæður sem fyrir eru mismunandi.
+> Þegar við þekkjum kröfurnar hjálpar það okkur að ákveða hvaða tiltekna síðu á að nota og hvernig á að fínstilla notandaupplifun farsíma nákvæmlega þegar við hönnum aðstæðurnar. Í seinni aðstæðunum munum við nota aðra síðu til að sýna dreifingarnar, þar sem kröfur fyrir þær aðstæður eru aðrar.
 
-1.  Í Vefslóð, skrifa yfir nafn valmyndaratriði, sem var áður en. Síðan sem birtist á resemble eftirfarandi dæmi. [![Allar dreifingar síðu](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
-2.  Opnið hönnuðinn fartæki úr á **Stillingar** hnappinn (gear).
-3.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið. **Athugasemd:** sjást tvær nýjar síður var sjálfkrafa stofnuð. Kerfið stofnar þessar síður þar sem kveikt á skjalastjórnun í fyrri hluta. Þú mátt hunsa þessi nýjar síður.
-4.  Smellið á **Bæta síðu**.
+1.  Í vefslóðinni skiptirðu út heiti valmyndaratriðis, eins og þú gerðir áður. Síðan sem birtist á líkjast eftirfarandi mynd. [![Síðan Allar dreifingar](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+2.  Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
+3.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið. **Athugasemd:** Þú munt sjá að tvær nýjar síður voru sjálfkrafa stofnaðar. Kerfið stofnar þessar síður þar sem kveikt var á skjalastjórnun í fyrri hluta. Þú mátt hunsa þessi nýjar síður.
+4.  Smella á **Bæta við síðu**.
 5.  Færa inn síðutitill, eins og **Skoða bókhald**, og lýsingu, eins og **Skoða bókhald fyrir reikning**.
-6.  Click **Done**.
-7.  Á við **Svæði** flipanum, smellið **Velja svæði**, veljið eftirfarandi svæði frá síðunni dreifingar og smellið síðan á **Gert**:
+6.  Smelltu á **Lokið**.
+7.  Á flipanum **Svæði** er smellt á **Velja svæði**, veljið eftirfarandi svæði af dreifingasíðunni og smellið síðan á **Gert**:
     1.  Upphæð
     2.  Gjaldmiðill
     3.  Fjárhagslykill
 
 > [!NOTE] 
-> Mælt lauk ekki að velja á **Lýsing** dálkur úr hnitaneti dreifingar, þar sem þarfir fyrir aðstæðurnar staðfest útvíkkað verð er aðeins upphæðin sem verður að vera dreifingar fyrir. Þess vegna er ekki notandi krefjast annað svæði til að ákvarða gerð upphæðar sem dreifingu fyrir. Hins vegar í næsta aðstæður mælt **verður** nota þessar upplýsingar, þar sem þarfir fyrir sem aðstæður sem hafa aðrar gerðir upphæð dreifingar (t.d. vsk).
-8.  Smellið á **Gert** til að fara úr breytingarham.
-9.  Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-10. Smellið á **Birta vinnusvæði** til að vista skal vinnuna
+> Við völdum ekki dálkinn **Lýsing** dálkur úr hnitaneti dreifinga, þar sem kröfur fyrir aðstæðurnar staðfestu að heildarverð er aðeins upphæðin sem dreifingar verða að vera fyrir. Þess vegna krefst notandi ekki annars svæðis til að ákvarða gerð upphæðar sem dreifingin er fyrir. Hins vegar **munum** við nota þessar upplýsingar í næstu aðstæðum, þar sem kröfur fyrir þær aðstæður tilgreina að aðrar upphæðagerðir hafi dreifingar (t.d. vsk).
+8.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+9.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+10. Smelltu á **Birta vinnusvæði** til að vista verkið
 
-**Athugasemd:** á **Skoða bókhald** fartæki síðu tekjureglur nú tengd neinum fartæki síður sem mælt hafa verið hannaðar hingað. Þar sem notandinn ætti að hafa til að fara í í **Skoða bókhald** frá síðunni á **upplýsingar Um** síðu í fartækinu, mælt verður að veita yfirlitstegundar úr á **upplýsingar Um** síðuna á í **Skoða bókhald** síðu. Þessi yfirlitstegundar mælt koma með því að nota viðbótar viðskiptagrunninn gegnum JavaScript.
+**Athugasemd:** Farsímasíðan **Skoða bókhald** er eins og stendur ekki tengd neinum farsímasíðum sem við höfum hannað hingað til. Þar sem notandinn ætti að geta flett að síðunni **Skoða bókhald** af síðunni **Upplýsingar um reikning** í fartækinu, verðum við að veita flettingar af síðunni **Upplýsingar um reikning** á síðuna **Skoða bókhald**. Við komum þessari flettingu á með því að nota viðbótar rök í gegnum JavaScript.
 
-1.  Opna skrá .js sem þú stofnaðir áður og bæta við línum sem eru auðkenndar í eftirfarandi kóða. Þessi kóði er tveggja verið:
-    1.  Það hjálpar við að tryggja samræmda sem notendur má ekki fara beint í frá vinnusvæði til á **Skoða bókhald** síðu.
-    2.  Það kemur víddarsamsetningar eftirlit úr skoðunarrúðunni í **upplýsingar Um** síðuna á í **Skoða bókhald** síðu.
+1.  Opnaðu .js-skrána sem þú stofnaðir áður og bættu við línum sem eru auðkenndar í eftirfarandi kóða. Þessi kóði gerir tvennt:
+    1.  Hann hjálpar við að tryggja að notendur geti ekki farið beint af vinnusvæðinu á síðuna **Skoða bókhald**.
+    2.  Hann kemur á flettistýringu af síðunni **Upplýsingar um reikning** á síðuna **Skoða bókhald**.
 
 > [!NOTE] 
-> Nafn síður og aðrar stýringar í JS kóða verður að vera sama úr vinnusvæðið.
+> Heiti síðanna og annarra stýringa í JS-kóðanum verða að vera þær sömu og í vinnusvæðinu.
 
-1.  Aðgerð aðal (metadataService dataService, cacheService, $q) {skila {appInit: aðgerð (appMetadata) {/ / Fela stýringar sem þarf að vera til staðar en ekki sýnilegur metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowAccept' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowApprove' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowReject' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowDelegate' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowRequestChange' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowRecall' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowComplete' {falið: satt}); metadataService.configureControl (' Mínar--lánardrottnareikninga starfsmannsins, 'ShowResubmit' { falinn: satt}); Fela síður á ekki við fyrir skoðunarrúðu metadataService.hideNavigation('View-accounting') rót; Tengilinn til að skoða bókhald metadataService.addLink ('-reikningsupplýsingar starfsmannsins, ' Skoða bókhald ', '-bókhalds-skilahnappur-yfirlitsstýringin ", 'Skoða bókhald', satt); }, pageInit: aðgerð (pageMetadata, færibreytur) {ef (pageMetadata.Name == '-reikningsupplýsingar') {/ / Sýna/fela verkflæðisaðgerðir verkflæði á grundvelli skrefi metadataService.configureAction ('Samþykkja' {sýnilegt: satt}); metadataService.configureAction ('Samþykkja' {sýnilegt: satt}); metadataService.configureAction ('Hafna' {sýnilegt: satt}); metadataService.configureAction ('Úthluta' {sýnilegt: satt}); metadataService.configureAction (' beiðni Um breytingu ', {sýnilegt: satt}); metadataService.configureAction ("Afturköllun" {sýnilegt: satt}); metadataService.configureAction ('Lokið' {sýnilegt: satt}); metadataService.configureAction ('Endursending' {sýnilegt: satt});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -341,24 +344,24 @@ Kröfur fyrir þetta dæmi staðfesta verður að aðeins-línustigi dreifingar 
            };
         }
 
-2.  Hlaða upp skrá kóða vinnusvæðið með því að velja á **Viðskiptagrunninn** flipa til að skrifa yfir fyrri kóða
-3.  Smellið á **Gert** til að fara úr breytingarham.
-4.  Smellið á **Aftur** og síðan **Gert** til að hætta við vinnusvæði
-5.  Smellið á **Birta vinnusvæði** til að vista skal vinnuna
+2.  Hlaða upp skrá kóða vinnusvæðið með því að velja flipann **Röklegt** til að yfirskrifa fyrri kóða
+3.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+4.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+5.  Smelltu á **Birta vinnusvæði** til að vista verkið
 
 ### <a name="validation"></a>Prófun
 
-Opna forritið og tengjast við Dynamics 365 fyrir tilvik Aðgerðir úr fartækis. Gangið úr skugga um að sem að skrá sig inn í fyrirtækið þar sem reikningar lánardrottna eru úthlutuð til skoðunar. Ætti að vera hægt að framkvæma eftirfarandi aðgerðir:
+Í farsímanum opnarðu forritið og tengist við tilvik í Dynamics 365 for Operations. Athugaðu að þú skráir þig inn í fyrirtæki þar sem reikningum lánardrottna eru úthlutuð til þín til skoðunar. Þú ættir að geta framkvæmt eftirfarandi aðgerðir:
 
--   Finna skal **Mínar samþykktir** vinnusvæði.
--   Kafa í á **Mínar samþykktir** vinnusvæði og sjá á **Mínar lánardrottnareikninga** síðu.
--   Kafa í á **Mínar lánardrottnareikninga** síðunni og til að sjá lista yfir reikninga sem eru úthlutuð.
--   Kafa í einn af reikningunum og sjá upplýsingar um haus og upplýsingar um innkaupapöntunarlínu.
--   Upplýsingar um síðuna sjá tengil viðhengi og notið þennan tengil til að fara í viðhengi lista og skoða í viðhengi.
--   Á síðunni upplýsingar, sjá tengil í **Skoða bókhald** síðunni og hægt er að nota þennan tengil til að fletta að síðu dreifingar og skoða dreifingu.
--   Á upplýsingasíðu, smellið á **Aðgerðir** valmynd neðst, og framkvæma aðgerðir í verkflæði sem á við um skref í verkflæði.
+-   Sjá vinnusvæðið **Mínar samþykktir**.
+-   Farðu niður í vinnusvæðið **Mínar samþykktir** og sjáðu síðuna **Mínir reikningar lánardrottins**.
+-   Farðu niður í vinnusvæðið **Mínar samþykktir** og sjáðu lista yfir reikninga sem var úthlutað til þín.
+-   Kafa í einn af reikningunum og sjá upplýsingar um haus og línuupplýsingar.
+-   Á upplýsingasíðunni sjá tengil við viðhengi og notið þennan tengil til að fara í viðhengjalista og skoða viðhengin.
+-   Á upplýsingasíðunni sjá tengil við síðuna **Skoða bókhald** og notið þennan tengil til að fara á dreifingasíðuna og skoða dreifingarnar.
+-   Á upplýsingasíðu, smellið á valmyndina **Aðgerðir** neðst, og framkvæma verkflæðisaðgerðir sem eiga við um skref í verkflæði.
 
-## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Hönnun í aðstæðum samþykki flókið reikningi fyrir Fabrikam
+## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Hönnun á flóknum aðstæðum reikningssamþykkta fyrir Fabrikam
 <table>
 <colgroup>
 <col width="50%" />
@@ -372,7 +375,7 @@ Opna forritið og tengjast við Dynamics 365 fyrir tilvik Aðgerðir úr fartæk
 </thead>
 <tbody>
 <tr class="odd">
-<td>Svæði úr reikningshausinn mun notandinn sjá á í fartæki reynslu og í hvaða röð?</td>
+<td>Hvaða svæði úr reikningsfyrirsögninni mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?</td>
 <td><ol>
 <li>Nafn lánardrottins</li>
 <li>Reikningsupphæð</li>
@@ -385,7 +388,7 @@ Opna forritið og tengjast við Dynamics 365 fyrir tilvik Aðgerðir úr fartæk
 </ol></td>
 </tr>
 <tr class="even">
-<td>Svæði úr reikningslína mun notandinn sjá á í fartæki reynslu og í hvaða röð?</td>
+<td>Hvaða svæði úr reikningslínunum mun notandi vilja sjá í farsímareynslunni og í hvaða pöntun?</td>
 <td><ol>
 <li>Innkaupategund</li>
 <li>Magn</li>
@@ -395,40 +398,42 @@ Opna forritið og tengjast við Dynamics 365 fyrir tilvik Aðgerðir úr fartæk
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Hversu margar línur á reikningi eru í reikning? Nota reglu 80 20 er hér og fínstilla fyrir 80 prósent.</td>
+<td>Hversu margar reikningslínur eru í reikningi? Nota reglu 80-20 hér og fínstilla fyrir 80 prósent.</td>
 <td>5</td>
 </tr>
 <tr class="even">
-<td>Verða notendur á að sjá dreifingar á fjárhagsupphæð (reikningur aðgreining) í fartækinu við skoðunarferlum</td>
+<td>Munu notendur vilja sjá dreifingar á fjárhagsupphæð (reikningskóðun) í fartækinu við skoðunarferlum?</td>
 <td>Já</td>
 </tr>
 <tr class="odd">
-<td>Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld, og svo framvegis) eru fyrir reikningslínuna? Nota aftur, 80 20 reglu.</td>
+<td>Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld og svo framvegis) eru fyrir reikningslínuna? Aftur skal nota 80-20 reglu.</td>
 <td>Heildarverð: 2 vsk: 2 Gjöld: 2</td>
 </tr>
 <tr class="even">
-<td>Reikningar einnig hefur dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, þessar dreifingar á fjárhagsupphæð skuli tiltæk á tækið?</td>
+<td>Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?</td>
 <td>Ekki notað</td>
 </tr>
 <tr class="odd">
-<td>Verða notendur á að sjá viðhengi fyrir reikninginn á tækið</td>
+<td>Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?</td>
 <td>Já</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="exercise"></a>Exercise
+### <a name="exercise"></a>Æfing
 
-Eftirfarandi afbrigði er hægt að gera aðstæðum 1, eftir þörfum fyrir aðstæður 2. Nota þessa hluta sem á exercise sem hægt er að ljúka fyrir learning tilgangi.
+Eftirfarandi frávik er hægt að gera fyrir aðstæður 1, byggt á þörfum fyrir aðstæður 2. Notaðu þennan hluta sem æfingu sem hægt er að ljúka í námslegum tilgangi.
 
-1.  Þar sem fleiri línur á reikningi eru væntanlegar í dæmi 2, eru eftirfarandi breytingar hönnunina mun aðstoða við stillingu reynslu notenda í fartækinu:
-    1.  Í stað þess að skoða reikningslínur á upplýsingasíðu (og dæmi 1), notendur hægt að velja að skoða línur á sérstakri síðu fartæki.
-    2.  Þar sem fleiri en einn reikningslínu búist er við í þessu dæmi, ef við **VendMobileInvoiceAllDistributionTree** síða er notuð til að hanna síðan dreifingar fyrir fartæki (og dæmi 1), það gæti verið confusing notandans til að láta línur dreifingar. Notið þess vegna er **VendMobileInvoiceLineDistributionTree** síðu til að hanna síðan dreifingar.
-    3.  Góð regla er dreifing skuli sýnd í samhengi við reikningslínu í þessu dæmi. Þess vegna tryggja að getur notandinn kafað í línu til að sjá síðan dreifingar. Nota getu tengil á síðuna til að koma á kafa gegnum, rétt eins og var fyrir haus og upplýsingar um síðurnar í dæmi 1.
+1.  Þar sem fleiri línur á reikningi eru væntanlegar í dæmi 2, munu eftirfarandi breytingar á hönnuninni aðstoða við fínstillingu á notendaupplifun í fartækinu:
+    1.  Í stað þess að skoða reikningslínur á upplýsingasíðu (eins og í dæmi 1), geta notendur valið að skoða línur á sérstakri farsímasíðu.
+    2.  Þar sem búist er við fleiri en einni reikningslínu í þessu dæmi, ef síðan **VendMobileInvoiceAllDistributionTree** er notuð til að hanna dreifingarsíðu fyrir fartæki (eins og í dæmi 1), gæti það verið ruglandi fyrir notandann að tengja línur við dreifingar. Notið þess vegna síðuna **VendMobileInvoiceLineDistributionTree** til að hanna dreifingasíðuna.
+    3.  Góð regla er að dreifing skuli sýnd í samhengi við reikningslínu í þessu dæmi. Þess vegna þarf að tryggja að notandinn geti kafað í línu til að sjá dreifingasíðuna. Notaðu tenglagetu síðunnar til að koma á köfun, rétt eins og gert var fyrir haus og upplýsingasíðurnar í dæmi 1.
 
-2.  Þar sem búist er við fleiri en eina gerð upphæðar í dreifingu í dæmi 2 (vsk, gjöld, og svo framvegis) verður að gagni til að sýna lýsingu á gerð upphæðar. (Mælt sleppt þessar upplýsingar í dæmi 1.)
+2.  Þar sem búist er við fleiri en einni gerð upphæðar í dreifingu í dæmi 2 (vsk, gjöld, og svo framvegis) verður gagnlegt að sýna lýsingu á gerð upphæðar. (Þessum upplýsingum var sleppt í dæmi 1.)
 
 ## <a name="conclusion"></a>Niðurstaða
-Fartæki svæðis og getu forritið gera kleift að hanna fartæki aðstæður sem er fínstillt fyrir grunngerð innan fyrirtækis notanda. Byggt á dæmunum sem veittar eru í þessu efnisatriði er hægt að reyna annar breytileiki og stofna mismunandi reynslu sem uppfylla tiltekna þörf.
+Geta farsímakerfis og forritsins gera kleift að hanna farsímaaðstæður sem eru fínstilltar fyrir grunngerð notanda innan fyrirtækis. Byggt á dæmunum sem veitt eru í þessu efnisatriði er hægt að reyna önnur frávik og stofna ólíkar upplifanir sem uppfylla tiltekna þörf.
+
+
 
 

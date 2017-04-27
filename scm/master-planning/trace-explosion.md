@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="use-tracing-for-explosion"></a>Nota rakningu fyrir niðurbrot
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig hægt er að nota rakningu til að kanna orsakir á bak við niðurstöðu niðurbrots pöntunar.
 
 Með því að gera rakningu, er°hægt að skoða upplýsingar um þætti sem höfðu áhrif á útkomu niðurbrots ákveðinnar pöntunar. Eftirfarandi dæmi sýna hvernig hægt er að nota rakningarupplýsingarnar.
@@ -43,6 +46,8 @@ Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master plans](master-plans.md)
+[Aðaláætlanir](master-plans.md)
+
+
 
 

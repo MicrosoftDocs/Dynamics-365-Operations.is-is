@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina samhliða verkþáttur verkflæðis"
+title: "Grunnstilla hliðstæður verkþátt í verkflæði"
 description: "Til að skilgreina samhliða verkþátt, Ljúka eftirfarandi aðgerðum í verkflæðisritill."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Skilgreina samhliða verkþáttur verkflæðis
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Grunnstilla hliðstæður verkþátt í verkflæði
 
 Til að skilgreina samhliða verkþátt, Ljúka eftirfarandi aðgerðum í verkflæðisritill.
 
@@ -32,7 +32,7 @@ Samhliða verkþáttur samanstendur úr verkflæðisgreinar sem eru keyrðar á 
 
 ## <a name="name-a-parallel-activity"></a>Nefna Hliðstæður verkþáttur
 Fylgið þessum skrefum til að færa inn heiti á samhliða aðgerð.
-1.  Hægrismella samhliða verkþáttar og smellið síðan á **Eiginleika** til að opna í **Eiginleika** skjámynd.
+1.  Hægrismellt á hliðstæður verkþáttur og smellið síðan á **Eiginleika ** til að opna í **Eiginleika** skjámynd.
 2.  Í vinstri glugganum, smelltu á **grunnstillingar**.
 3.  Á svæðinu **Heiti ** skal færa inn einkvæmt heiti fyrir hliðstæður verkþáttur
 4.  Smellið á **Loka**.

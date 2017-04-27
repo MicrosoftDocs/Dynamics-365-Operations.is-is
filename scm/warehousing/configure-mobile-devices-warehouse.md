@@ -1,5 +1,5 @@
 ---
-title: "Setja upp fartæki fyrir vöruhúsavinnu"
+title: "Uppsetning fartækja fyrir vöruhúsavinnu"
 description: "Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Setja upp fartæki fyrir vöruhúsavinnu
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
 Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 -   Stofna vinnu sem þarf að framkvæma með öðru ferli. Til dæmis getur móttaka vöru fyrir innkaupapöntun stofnað frágangsvinnu fyrir annan starfsmann.
 -   Framkvæma vinnu sem var stofnað með annarri vinnslu (fyrirliggjandi vinna), eins og frágangsvinna sem var stofnuð þegar vara var móttekin fyrir innkaupapöntun.
 
-Valmyndaratriði fyrir verkþátt eða fyrirspurn er stofnuð með því að setja í **Ham** svæðinu **Óbeint**. Listi yfir **verkþáttarkóða** valkosti þá verður tiltækur, þannig að hægt er að velja fyrirspurn eða valmyndaratriði er fyrir verkþáttinn. Til að búa til að mynda vöruhúsavinnu valmyndaratriði er stillt á **Ham** á **Vinna**. Listi yfir **Ferli vinnustofnunar** valkosti þá verður tiltækur. Til að stofna valmyndaratriði til að vinna úr fyrirliggjandi vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna** og svo valkosturinn **Nota fyrirliggjandi verk** á **Já**. **Athugasemd:** viðbótarreitir gætu verið tiltækar fyrir valmyndaratriði, eftir því sem er valið fyrir valmyndinni vöru, og hvort valmyndaratriði er notuð til að framkvæma fyrirliggjandi vinnu. Upplýsingar um valið svæði eru sjá hlutann "Viðbótar vöru valkostir" síðar í þessari grein.
+Til að stofna valmyndaratriði fyrir verkþátt eða fyrirspurn er reiturinn **Máti** stilltur á **Óbeint**. Listi yfir valkosti **verkþáttarkóða** verður þá tiltækur, svo að hægt er að velja gerð fyrirspurnar eða aðgerðar sem valmyndaratriðið er fyrir. Til að stofna valmyndaratriði til að mynda vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna**. Listi yfir valkosti **Ferli vinnustofnunar** verður þá tiltækur. Til að stofna valmyndaratriði til að vinna úr fyrirliggjandi vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna** og svo valkosturinn **Nota fyrirliggjandi verk** á **Já**. **Ábending:** Viðbótarreitir gætu verið tiltækir fyrir valmyndaratriði, eftir þeim máta sem er valinn fyrir valmyndaratriðið og hvort valmyndaratriði er notað til að framkvæma fyrirliggjandi vinnu. Sjá hlutann „Fleiri valkostir valmyndaratriðis“ sem er seinna í þessari grein fyrir upplýsingar um valið svæði.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Skilgreina valmyndaratriði fyrir aðgerðir og fyrirspurnir
 Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint**er hægt að stofna valmyndaratriði til að framkvæma almennan verkþátt eða fyrirspurn sem stofnar ekki vinnu. Dæmi eru meðal annars endurprentun á númeraplötumerkjum og fyrirspurn um vörur á staðsetningu. Eftirfarandi tafla sýnir þá valkosti sem eru tiltækir.
@@ -190,7 +190,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint**er hægt
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Skilgreina valmyndaratriði til að vinna úr fyrirliggjandi vinnu
-Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hægt að setja upp valmyndaratriði til að vinna verk sem hafa þegar verið stofnuð. Stilla reitinn **Máti** á **Vinna** og velja valkostinn **Nota fyrirliggjandi vinnu**. Sumar viðbótarvalkosti síðan reiðu á í **Almennt** flipa. Hægt er að stjórna aðgangi að valmyndaratriðinu með því að tengja eitt eða fleiri vinnuklösum á í **Vinnuklasi** FastTab. Vinnuklasar skilgreina vinnu sem valmyndaratriðið getur unnið. Einnig er hægt að nota vinnuklasann til að veita aðgang að tilgreindum notendahlutverkum eða í aðskilda vinnslu fyrir mismunandi gerðir aðgerða. Eftirfarandi tafla lýsir þeim valkostum sem tiltækir eru.
+Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hægt að setja upp valmyndaratriði til að vinna verk sem hafa þegar verið stofnuð. Stilla reitinn **Máti** á **Vinna** og velja valkostinn **Nota fyrirliggjandi vinnu**. Sumar viðbótarvalkostir verða svo tiltækir á flipanum **Almennt**. Hægt er að stjórna aðgangi að valmyndaratriðinu með því að tengja einn eða fleiria vinnuklasa á flýtiflipanum **Vinnuklasi**. Vinnuklasar skilgreina vinnu sem valmyndaratriðið getur unnið. Einnig er hægt að nota vinnuklasann til að veita aðgang að tilgreindum notendahlutverkum eða í aðskilda vinnslu fyrir mismunandi gerðir aðgerða. Eftirfarandi tafla lýsir þeim valkostum sem tiltækir eru.
 
 <table>
 
@@ -210,7 +210,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Stýrt af kerfi</td>
-<td>Microsoft Dynamics 365 aðgerða stýrir gerð vinnu sem er úthlutaður starfsmaður og pöntunin sem starfsmaður framkvæmir vinnuna í. Þegar þessi valkostur er valinn, er hægt að smella á <strong>kerfisstýrð vinna</strong> í aðgerðarúðunni til að opna í <strong>Kerfið röðunarkostir</strong> síðuna þar sem hægt er að setja upp röðunarskilyrði fyrir vinnustöðina. Röðunarforsendur að stýra röðinni sem starfsmaður framkvæmir vinnuna í. Hægt er að bæta eins mörg skilyrði og þarf.</td>
+<td>Microsoft Dynamics 365 for Operations stýrir gerð vinnu sem er úthlutað á starfskraft og pöntunina sem starfskrafturinn framkvæmir vinnuna á. Þegar þessi valkostur er valinn er hægt að smella á <strong>Kerfisstýrt verk</strong> í aðgerðarúðunni til að opna síðuna <strong>Kerfisleiðbeindir röðunarkostir</strong> þar sem hægt er að setja upp röðunarskilyrði fyrir vinnuna. Röðunarforsendur að stýra röðinni sem starfskraftur framkvæmir vinnuna. Hægt er að bæta við eins mörgum skilyrðum og þarf.</td>
 </tr>
 <tr class="odd">
 <td>Stýrt af notanda</td>
@@ -230,7 +230,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Stýrt af staðfestum notanda</td>
-<td>Starfsmaðurinn velur vinnu sem á að framkvæma þegar verk er tengt stærri einingu, eins og farmi eða sendingu. Starfsmaðurinn ákvarðar þetta röðina sem vörur eru teknar til á. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
+<td>Starfsmaðurinn velur vinnu sem á að framkvæma þegar verk er tengt stærri einingu, eins og farmi eða sendingu. Starfskrafturinn ákvarðar röðina sem vörurnar eru tíndar í. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
 <ul>
 <li><strong>Reit stýrt af staðfestum notanda</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Merkimiða stýrt af staðfestum notanda</strong> - Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af kerfinu.</li>
@@ -271,7 +271,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="even">
 <td>Festing</td>
-<td>Veljið þennan valkost til að leyfa starfsmönnum að tilgreina staðsetninguna sem hnekkir ráðlagðri sviðsetningar- eða hleðslustaðsetningu. Allri eftirstandandi frágangsvinnu er beint á nýja staðsetningu. Þessi valkostur er til dæmis gagnlegur þegar starfsmaður sem verður að setja vörur í pöntun 1 í sviðsetningarstaðsetningu á dreifingarstöð 1 getur það ekki, þar sem fyrri farmur hefur ekki verið hreinsaður af staðsetningu. Í stað þess að bíða í Innhlið 1 sviðsetningar staðsetningu til reiðu starfsmaður getur ákveðið að nota sviðsetningarstaðsetning Dreifingarstjórnunar 2. Í þessu tilfelli er starfsmaðurinn hnekkir ráðlagt sviðsetningarstaðsetning. Frágangsstaðsetning fyrir allar eftirstandandi vörur er síðan uppfærð í staðsetningu sviðsetningar á dreifingarstöð 2. Ef þessi valkostur er valinn verður að velja reitinn <strong>Festa eftir</strong>.</td>
+<td>Veljið þennan valkost til að leyfa starfsmönnum að tilgreina staðsetninguna sem hnekkir ráðlagðri sviðsetningar- eða hleðslustaðsetningu. Allri eftirstandandi frágangsvinnu er beint á nýja staðsetningu. Þessi valkostur er til dæmis gagnlegur þegar starfsmaður sem verður að setja vörur í pöntun 1 í sviðsetningarstaðsetningu á dreifingarstöð 1 getur það ekki, þar sem fyrri farmur hefur ekki verið hreinsaður af staðsetningu. Frekar en að bíða eftir að sviðsetningarstaðsetning á dreifingarstöð 1 verði tiltæk getur starfsmaðurinn ákveðið að nota staðsetningu sviðsetningar fyrir dreifingarstöð 2. Í þessu tilfelli hnekkir starfsmaðurinn ráðlagðri staðsetningu sviðsetningar. Frágangsstaðsetning fyrir allar eftirstandandi vörur er síðan uppfærð í staðsetningu sviðsetningar á dreifingarstöð 2. Ef þessi valkostur er valinn verður að velja reitinn <strong>Festa eftir</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Akkeri með</td>
@@ -380,7 +380,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
-<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis, ef berast vöru fyrir innkaupapöntun frágangur away vinnu myndast samkvæmt vinnusniðmátið. Sé ekki valið vinnusniðmát úthlutar Microsoft Dynamics 365 aðgerða sniðmát sem byggja á skilyrðum fyrirspurnarinnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Operations sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verksta
 
 [Birtingarstillingar fyrir fartæki vöruhúss](change-warehouse-mobile-device-displays.md)
 
-[Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

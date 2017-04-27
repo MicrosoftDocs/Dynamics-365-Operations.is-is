@@ -1,6 +1,6 @@
 ---
 title: "Úthlutunargögn fjárhagsáætlunargerðar"
-description: "Þessi skrá lýsir mismunandi úthlutunaraðferðir sem eru tiltækar í Microsoft Dynamics 365 fyrir Aðgerðirnar og hvernig hægt er að nota þær."
+description: "Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 for Operations og hvernig nota má þær."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Úthlutunargögn fjárhagsáætlunargerðar
 
-Þessi skrá lýsir mismunandi úthlutunaraðferðir sem eru tiltækar í Microsoft Dynamics 365 fyrir Aðgerðirnar og hvernig hægt er að nota þær.  
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 for Operations og hvernig nota má þær.  
 
 Hægt er að dreifa gögnum í fjárhagsáætlun á ýmsa vegu til að sýna nákvæmlega áætlaðar upphæðir.
 
 ## <a name="allocation-methods"></a>Úthlutunarreglur
 Hægt er að nota þrjár úthlutunaraðferðir (Úthlutun yfir mörg tímabil, Úthlutun á víddir og Nota úthlutunarreglur höfuðbókar) til að stofna línur fjárhagsáætlunargerðar sem byggja á línum í sömu fjárhagsáætlunargerð. Þrjár aðrar aðferðir (uppsöfnun, dreifing og afrita úr fjárhagsáætlunargerð) er hægt að nota til að stofna línur fjárhagsáætlunargerðar í öðrum fjárhagsáætlunum. Fyrir allar sex úthlutunaraðferðirnar þarf að tilgreina aðstæður endastaðar. Aðstæður endastaðar geta verið annað hvort sama og upprunaaðstæður eða frábrugðnar upprunaaðstæðum. Þar að auki er hægt að tilgreina hvort nýjum línum er skeytt við fjárhagsáætlunargerðina eða gildandi línum skipt út fyrir nýjar línur í fjárhagsáætlunargerð.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)<ph id="t1">
-</ph>**Úthlutun mörg tímabil** – tímabilsúthlutun tegund er notuð til að úthluta fjárhagsáætlunarlínum aðstæður uppruna fjárhagsáætlunargerðarinnar mörg tímabil í aðstæðum áfangastaðar. Upprunaupphæð er úthlutað á margar línur í aðstæðum endastaðar, byggt á prósentu og dagsetningu sem eru skilgreindar í flokknum tímabilsúthlutun.         
+[![ÚthlutunYfirMörgTímabil](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Úthlutun yfir mörg tímabil** – flokkur fyrir tímabilsúthlutun er notaður til að úthluta fjárhagsáætlunarlínum úr uppruna fjárhagsáætlunargerðarinnar yfir mörg tímabil í aðstæðum endastaðar. Upprunaupphæð er úthlutað á margar línur í aðstæðum endastaðar, byggt á prósentu og dagsetningu sem eru skilgreindar í flokknum tímabilsúthlutun.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Úthlutun á víddir** – línum fjárhagsáætlunargerðarinnar er úthlutað úr  upprunalegri fjárhagsáætlunargerð sem ein eða fleiri línur í aðstæðum endastaðar, byggt á prósentu og fjárhagslegum víddum sem eru skilgreind í heiti fjárhagsúthlutunar.           
@@ -58,7 +61,7 @@ Til að framkvæma úthlutanir á fjárhagsáætlunarsíðunni skal velja línur
 
 [![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Næst skal velja úthlutun aðferðar. Svæðin sem eftir eru eru síðan stillt samkvæmt aðferðinni sem var valin. Þessi svæði fela meðal annars í sér uppruna og áfangastað fjárhagsáætlunargagna og valkost sem gerir kleift að margfalda uppruna með tilgreindum stuðli þegar upphæðir áfangastaðar eru stofnaðar til að einfalda fjöldaafritunar leiðréttingu. Einnig er hægt að stilla valkostinn **skeyta við áætlun**. Velja **Nei** til að skipta út fyrirliggjandi línum fjárhagsáætlunargerðarinnar, eða veljið **Já** að varðveita fyrirliggjandi línur fjárhagsáætlunargerðar og bæta við nýjum línum fyrir úthlutaðar upphæðir.
+Næst skal velja úthlutunaraðferð. Svæðin sem eftir eru eru síðan stillt samkvæmt aðferðinni sem var valin. Þessi svæði fela meðal annars í sér uppruna og áfangastað fjárhagsáætlunargagna og valkost sem gerir kleift að margfalda uppruna með tilgreindum stuðli þegar upphæðir áfangastaðar eru stofnaðar til að einfalda fjöldaafritunar leiðréttingu. Einnig er hægt að stilla valkostinn **skeyta við áætlun**. Velja **Nei** til að skipta út fyrirliggjandi línum fjárhagsáætlunargerðarinnar, eða veljið **Já** að varðveita fyrirliggjandi línur fjárhagsáætlunargerðar og bæta við nýjum línum fyrir úthlutaðar upphæðir.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Að gera sjálfvirkar úthlutanir við verkflæði
 Ein öflug aðgerð gerir kleift að framkvæma úthlutanir sjálfkrafa sem hluta af verkflæði fjárhagsáætlunargerðar. Eftir því sem fjárhagsáætlunargerð fer í gegnum sitt verkflæði geta sjálfvirk verk framkallað úthlutun á tilgreindu stigi fjárhagsáætlunargerðar. 
@@ -70,5 +73,7 @@ Næst er stig úthlutunar stofnað á síðunni **skilgreining fjárhagsáætlun
 Loks er bætt við sjálfvirku verki fyrir stigsúthlutun fjárhagsáætlunargerðar á æskilegu verkflæðistigi. Í eftirfarandi dæmi hafa tvær stigsúthlutanir fjárhagsáætlunargerðar (rauðmerktar) verið færðar inn í verkflæðið.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

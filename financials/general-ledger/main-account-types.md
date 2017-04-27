@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Aðallykilgerðir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessar aðallykilgerðir ákvarða hvernig aðallykill er notaður í bókhaldslyklum.
 
 Velja þarf tegund aðallykils þegar aðallykill er stofnaður á síðunni Aðallyklar - bókhaldslyklar.
@@ -35,6 +38,8 @@ Velja þarf tegund aðallykils þegar aðallykill er stofnaður á síðunni Að
 -   Efnahagsreikningur, Eign, Skuld og Eigið fé – Þessir aðallyklar eru notaðir sem færslulyklar til að skrá upphæðir sem lögaðili á eða skuldar.
 -   Samtala – Þessir aðallyklar eru notaðir til að bæta við lyklabilum. Skilgreinið samtölu aðallyklagerðar með því að nota síðuna Lyklabil, sem sýnir samtölu fyrir stöðu flokka fyrir öll lyklabil. Hægt er að komast á síðuna Lyklabil með því að smella á Samtala á flipanum Almennt eftir að búið er að velja Samtölu lyklagerðar.
 -   Skýrslugerð – Þessir aðallyklar eru aðeins notaðir fyrir skýrslugerð ársreikninga í Brasilíu.
+
+
 
 
 

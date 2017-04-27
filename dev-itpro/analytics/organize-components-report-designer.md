@@ -49,18 +49,18 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 ### <a name="create-a-report-group"></a>Skýrsluhópur stofnaður
 
 1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2.  Á í **Skrá** valmyndinni, smellið á **Nýtt**&gt;**Skilgreining Skýrslu** til að opna nýjan flokk skýrslu í yfirliti. Einnig er hægt að smella á í **Flokkur Skýrslu** hnappinn ![Flokka Skýrsluna](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Flokkur Skýrslu") á tækjastikunni.
+2.  Á **Skrá** valmyndinni, smellið á **Nýtt** &gt; **Skilgreining skýrsluhóps** til að opna nýjan flokk skýrslu í vafra. Einnig er hægt að smella á **Skýrsluhópur** hnappinn ![Skýrsluhópur](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Skýrsluhópur") á tækjastikunni.
 3.  Smellið á flipann **Skýrsluhópur**. Til að hnekkja upplýsingum úr stökum skýrsluskilgreiningum fyrir myndun þessarar skýrslu skal velja gátreitinn **Hnekkja stillingum fyrirtækis, upplýsinga og dagsetningar úr stökum skýrsluskilgreiningum**. Heiti fyrirtækis, upplýsingastig, tímabundnar stillingar og dagsetning eru fyllt inn sjálfkrafa en er hægt að uppfæra.
 4.  Veljið gátreitinn **Taka með alla skýrslugjaldmiðla** ef búa á til margar skýrslur með skýrslugjaldmiðlum. Skoðun í mörgum gluggum má fá með því að smella á hnappinn **Gjaldmiðill** í Vefskoðun þegar skýrslan er skoðuð.
 5.  Í reitnum **Skýrslur í hóp** skal smella á **Bæta við** til að velja skýrslurnar sem eiga að vera í skýrsluhópnum. Til að velja margar skýrslur í svarglugganum **Bæta við** skal halda Ctrl-lyklinum niðri á meðan skýrslur eru valdar. Þegar lokið hefur verið val skýrslur, smellið á **í lagi**.
-6.  Smellt er á **Skrá**&gt;**Vista** til að vista nýjan flokk skýrslu.
+6.  Smellið á **Skrá** &gt; **Vista** til að vista nýjan skýrsluhóp.
 
 ### <a name="modify-a-report-group"></a>Skýrsluhópi breytt
 
 1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2.  Tvísmellið á skýrsluhóp til að breyta.
 3.  Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
-4.  Á á **Skrá** valmyndinni smellið **Vista** vista breytt skýrslu flokkinn er einnig er Hægt að smella á í **Vista** hnappinn ![Vista](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Vista") á tækjastikunni.
+4.  Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Vista") á tækjastikunni.
 
 **athugasemd:** Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili í stillingum skýrsluskilgreiningar er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
 
@@ -68,7 +68,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 
 1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2.  Opnið skýrsluhópinn sem á að mynda.
-3.  Smellið á **Búa til Skýrslu** hnappinn ![Búa til Skýrslu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Búa til Skýrslu") til að mynda skýrslur.
+3.  Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Búa til skýrslu") til að búa til skýrslur.
 
 ### <a name="delete-a-report-group"></a>Skýrsluhópi eytt
 
@@ -104,8 +104,8 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Tilgreinið hvaða upplýsingar eiga að vera í skýrslunni.
 <ul>
 <li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sé bætt við í gegnum skipurit.</li>
-<li><strong>Fjárhagsleg &amp;Lykil</strong> − A skýrslunni sem inniheldur upplýsingar um lykil og samantekt á háu stigi.</li>
-<li><strong>Fjárhagsleg, Lykill, &amp;Færslu</strong> − A skýrslunni sem inniheldur upplýsingar um færsluna og samantekt á háu stigi.</li>
+<li><strong>Fjárhagur &amp; reikningur</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um reikning.</li>
+<li><strong>Fjárhagsreikningur &amp; færsla</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um færslur.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsleg skýrslugerð fyrir Microsoft Dynamics 365 fyrir Aðgerðir](financial-reporting-intro.md)
+[Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

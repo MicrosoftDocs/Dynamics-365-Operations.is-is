@@ -1,5 +1,5 @@
 ---
-title: "Yfirlit yfir reikninga lánardrottins"
+title: "Yfirlit reikninga lánardrottna"
 description: "Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottins
+# <a name="vendor-invoices-overview"></a>Yfirlit reikninga lánardrottna
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu. 
 
 <a name="vendor-invoices"></a>Reikningar frá lánardrottni
 ---------------
 
-Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni. Sem reikningur lánardrottinsins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu. Reikningur lánardrottins lýkur reglulega úr innkaupapöntun í innhreyfingarskjal afurða við reikning lánardrottins. 
+Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni. Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu. Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins. 
 
 Þó að sumir reikningar lánardrottins eru tengdar við innkaupapöntun, getur reikninga lánardrottins líka innihaldið línur sem samsvara ekki innkaupapöntunarlínum. Hægt er að búa líka til reikninga lánardrottna sem eru ekki tengdir við neinar innkaupapantanir. Þessir reikningar lánardrottins gæti standa fyrir yfirstandandi þjónustu eins og rafmagnsreikningur, og þarf ekki að vísa í innkaupapöntun þegar þeim er bætt við. 
 
 Það eru nokkrar leiðir til að færa inn reikning lánardrottins:
 
--   Komubók lánardrottins gerir kleift að hratt inn reikninga sem ekki vísa til innkaupapöntun, þannig að hægt er að safna upp kostnaðarins. Með því að nota samþykktarbók reikninga lánardrottins, hægt að velja þá reikninga og bóka þær á stöðu lánardrottna til að bakfæra uppsöfnun.
+-   Komubók lánardrottins gerir kleift að slá hratt inn reikninga sem ekki vísa til innkaupapöntunar, þannig að hægt er að safna upp kostnaðinum. Með því að nota samþykktarbók reikninga lánardrottins, er hægt að velja þá reikninga og bóka á stöðu lánardrottna til að bakfæra uppsöfnun.
 -   Reikningabók lánardrottins leyfir þér að færa inn reikninga fljótt sem ekki vísa til innkaupapöntun, í einu skrefi.
 -   Ásamt Reikningasafn lánardrottna, leyfir komubók lánardrottins að slá hratt inn reikninga til að safna upp kostnaðar. Hægt er að opna tengd innkaupapantanir seinna til að bóka reikning gagnvart á kostnaðarlykil.
 -   **Opna lánardrottnareikninga** og **Biðreikninga lánardrottins** síður gera mögulegt að stofna reikninga lánardrottna frá staðfestar innkaupapantanir.
@@ -57,7 +60,7 @@ Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota **Opna lá
 Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða ** dálkur. Einnig er hægt að nota **Jöfnunarupplýsingar** valmyndinni á **Yfirferð** flipa til að skoða niðurstöður jöfnunar magns.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Bæta við línu sem ekki var á innkaupapöntun
-Hægt er að bæta við nýrri línu sem ekki á innkaupapöntun við reikning lánardrottins. Velja verður við númer eða innkaupa vörutegund. Þá er Hægt að bæta magn, verð og upphæðir á línu. Línan verða teknar með aðeins í jöfnunarreglur fyrir heildarupphæð reiknings.
+Hægt er að bæta við nýrri línu sem ekki var á innkaupapöntun við reikning lánardrottins. Velja verður við vörunúmer eða innkaupategund. Þá er Hægt að bæta magn, verð og upphæðir á línu. Línan verða teknar með aðeins í jöfnunarreglur fyrir heildarupphæð reiknings.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Sendir reikning lánardrottins til yfirferðar
 Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað var auðkennt áður en smellt er á stýringuna. Í stað **Bóka** hnappinn sjást í **Senda** hnappur sem hægt er að nota til að senda reikning lánardrottins í gegnum yfirferðarferlið.
@@ -74,6 +77,8 @@ Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfinga
 ## <a name="working-with-multiple-invoices"></a>Vinna með marga reikninga
 
 Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis. Ef stofna þarf marga reikninga eru notuð **Biðreikninga lánardrottins** síðu. Ef Bóka þarf og prenta marga reikninga lánardrottna skal nota síðuna staðfestingarbók reikninga Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Yfirlit yfir flutningsstjórnun
 
+[!include[banner](../includes/banner.md)]
+
+
 Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Operations.
 
 Flutningsstjórnun leyfir þér að nota og stjórna flutningum innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun í Microsoft Dynamics 365 for Operations.
@@ -67,19 +70,21 @@ Flutningsstjórnun leyfir þér að nota og stjórna flutningum innan fyrirtæki
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Skipulagning Flutningur í Dynamics 365 for Operations
 Í flutningsstjórnun, er hægt að byggja flutningsáætlun annað hvort á pöntunum eða á sendingunum sem eru stofnaðar samkvæmt þeim pöntunum. Sendingar eru alltaf til á einhverjum tímapunkti en þeirra er ekki þörf í flutningsáætlunum. Flutningspantanir eru hluti af aðstæðum á útleið og hægt er að áætla þær með sölupöntunum. 
 
-![Hlaða teikningu](./media/Load-drawing1-1024x477.jpg)
+![Sækja teikningu](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Flutningur á innleið
-Þegar vörur eru pantaðar frá lánardrottni og verður að vera afhent vörurnar í vöruhúsinu, mætti raða flutning varanna. Hægt er að nota Dynamics 365 aðgerða til að áætla flutning og móttöku hleðslu á innleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir flutning á innleið farms fyrir áætlun. 
+Þegar vörur eru pantaðar frá lánardrottni og afhenda verður vörurnar til vöruhúsins, kann notandi að vilja raða flutningi varanna sjálfur. Hægt er að nota Dynamics 365 for Operations til að áætla flutning og móttöku hleðslu á innleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir flutning á innleið farms fyrir áætlun. 
 
 ![Flæði viðskiptaferlis fyrir flutning farms á innleið](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Flutningur á útleið
 Hægt er að áætla og vinna farm á útleið til að senda tilteknar vörur úr vöruhúsi fyrirtækis til viðskiptavinar. Hægt er að nota Dynamics 365 for Operations til að áætla flutning og sendingu hleðslu á útleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir áætlanagerð og vinnslu á útleið farma fyrir sendingu. 
 
-![Hleður áætlanagerð og vinnslu á útleið](./media/Planningandprocessingoutboundloads.jpg)
+![Áætlun og vinnsla hleðslu á útleið](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Hleðsluáætlun
 Dynamics 365 for Operations býður upp á hleðsluáætlun sem nefnist hleðsluáætlun byggð á rúmmáli. Þessi aðferð gerir kleift að nota hámarks gildi sem eru tilgreind fyrir hæð og þyngd í hleðslusniðmátinu eða hnekkja stillingum með því að færa inn ný gildi. Til að nota þessa aðferð skal velja hana í reitnum **Hleðsluáætlun** á flýtiflipanum **Uppsetning** í skjámyndinni **Hlaða sniðmáti hleðslu**. Þar að auki, er hægt að bæta við eigin hleðsluáætlun með því að stofna nýjan klasa í Hugbúnaðarhlutatrénu (AOT).
+
+
 
 

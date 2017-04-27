@@ -28,12 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu.  
 
-Verk er flokkur verkþátta sem er hannað til að veita þjónustu, framleiða vöru eða ná niðurstaða. Verk plássfrek og mynda fjárhagsniðurstöður í skjámyndinni tekjur eða eignir.
+Verkefnastjórnun er flokkur aðgerða til að veita þjónusta, framleiða afurð eða ná niðurstaða. Verk nota tilföng og mynda fjárhagsniðurstöður í með tekjum eða eignum.
 
 ## <a name="projects-across-industries"></a>Verk yfir atvinnugreinar
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd. [![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Aðstoðar fyrirtækja, svo sem stjórnun tæknilegar aðstoðar fyrirtæki eða auglýsingum stofnana, sjá þeirra verkþætti og verk. Í markaðssetningu, herferð táknar safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Herferðardaga nafnið er notað fyrir þær, þessar verk fela í sér tilföng, áætlanir og kostnað og verkefnastjórnun og bókhald aðgerðum í Microsoft Dynamics 365 aðgerða létta á áætlun, framkvæmd, og greiningu á þessi verk.
+Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
 
 ## <a name="project-phases"></a>Áfangar verks
 Þrátt fyrir að eftirfarandi vinnsluflæði sé beint gegn ytri verkum eða verkum sem er lokið fyrir einn eða fleiri viðskiptavini, á virknin einnig við um innri verk sem eru aðeins kostnaðarverk. 
@@ -47,7 +47,7 @@ Eins og sýnt er í myndinni hér á undan er hægt að deila verkefnastjórnun 
 3.  Greina
 
 ## <a name="initiate-the-project"></a>Hefja verkið
-Upphafi verks, nokkrar aðalferlar up. Hægt er að nota verktilboð fyrir samskipti áætlaður vinnu, útgjöld og efni til viðskiptavinar. Hægt er að skrá í verksamning innheimtu skilmála, takmörk og samninga. Hægt er að nota sundurliðun verkþátta (WBS) til að áætla og til að meta vinnuna. Hægt er að setja upp áætlanir og spár til að leiðbeina um framkvæmd verka. Eftirfarandi skýringarmynd sýnir uppbyggingu verks. [![skipulag verks](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Við upphaf verks, koma nokkrar aðalferlar upp. Hægt er að nota verktilboð fyrir samskipti áætlaðrar vinnu, útgjöld og efni til viðskiptavinar. Hægt er að skrá innheimtuskilmála, takmörk og samninga í verksamning. Hægt er að nota sundurliðun verkþátta (WBS) til að áætla og til að meta vinnuna. Hægt er að setja upp áætlanir og spár til að leiðbeina um framkvæmd verka. Eftirfarandi skýringarmynd sýnir uppbyggingu verks. [![skipulag verks](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Stofna verktilboð
 
@@ -75,26 +75,26 @@ Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur á
 
 ### <a name="create-projects"></a>Stofna verk
 
-Hægt er að stofna sex gerðir verka í Microsoft Dynamics 365 fyrir Aðgerðir. Verktegund er öðruvísi sett upp fyrir tekjuskráningu og kostnað. Gerð verks sem valin er fer eftir tilgangi verks. Eftirfarandi tafla lýsir dæmigert notkun á hverja verkgerð.
+Hægt er að stofna sex gerðir verka í Microsoft Dynamics 365 for Operations. Hver verktegund er öðruvísi sett upp fyrir tekjuskráningu og kostnað. Gerð verks sem valin er fer eftir tilgangi verks. Eftirfarandi tafla lýsir dæmigert notkun á hverja verkgerð.
 
 | Gerð verks      | Lýsing 
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tími og efni | Í tíma- og efnisverk, er viðskiptavinur krafinn um allur kostnaður sem myndast á verk. Þar á meðal er kostnaður fyrir klukkustundir, útgjöld, vörur og þóknun.                                                                                                                  |
-| Fast verð       | Í fastverðsverk, reikningar samsett áfangareikningsfærslur. Verk á Föstu verði er reikningsfært eftir reikningsfærslu greiðsluáætlun sem byggð er á verksamningnum. Tekjur fyrir fastverðsverk er hægt að reikna og bóka í gegnum verkið með því að nota aðferðina prósentum lokið. Einnig er hægt að reikna og bóka tekjur þegar verkinu er lokið, með því að nota aðferðinni samningslok. Fyrirtæki getur oft borgað með virði vinnu í vinnslu (VÍV) til að reikna út magn þess sem lokið á verk eða flokkur verka.                                                                                                                                     |
+| Fast verð       | Reikningar í fastverðsverkum samanstanda af áfangareikningsfærslum. Verkefni á föstu verði er reikningsfært eftir reikningsáætlun sem byggð er á verksamningnum. Tekjur fyrir fastverðsverk er hægt að reikna og bóka í gegnum verkið með því að nota aðferðina prósentum lokið. Einnig er hægt að reikna og bóka tekjur þegar verkinu er lokið, með því að nota aðferðinni samningslok. Fyrirtæki getur oft borgað með virði vinnu í vinnslu (VÍV) til að reikna út magn þess sem lokið á verk eða flokkur verka.                                                                                                                                     |
 | Fjárfesting        | Fjárfestingarverk eru verk sem skila ekki tekjum þegar í stað. Þær eru vanalega notaðir fyrir langtíma innra verk þar sem verður að eignfæra kostnað. Aðeins er hægt að skrá kostnað fyrir vöru, klukkutíma og útgjöld fyrir fjárfestingaverkefnið. Kostnaður í fjárfestingarverki er rakinn og stýrt með því að nota matsaðgerðir. Hægt er að setja upp fjárfestingarverk með valfrjálsu fjármögnunarhámarki. Eftir því sem fjárfestingarverkefni vindur fram skráir þú kostnað í VÍV-reikninga, þar sem kostnaður er í bið þar til verkefninu er lokið. Þegar verkinu er sleppt er að færa vív-gildið á eign, fjárhagslykil eða nýtt verk.
 > [!NOTE] 
-> Færslur á fjárfestingaverk ekki eru kostnaðarjafnaðar sýnd á í **Bókaður**, **safna Upp tekjum**, eða **Stofna reikningstillögur** síðu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | | Kostnaðarverk | Eins og fjárfestingaverk kostnaðarverk eru vanalega notaðir til að rekja innri verk og aðeins klukkustunda, útgjöld og vörur er hægt að skrá fyrir þær. Hins vegar eru kostnaðarverk yfirleitt með styttri tímalengd en fjárfestingarverk. Ólíkt fjárfestingaverkum er ekki hægt að eignafæra kostnaðarverk á efnahagslykla. Þess í stað eru verkfærslur þeirra aðeins bókaðar á rekstrarreikninga. 
+> Færslur á fjárfestingaverk eru ekki sýndar á síðunni **Bóka kostnað**, **Safna upp tekjum**, eða **Stofna reikningstillögur**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | | Kostnaðarverk      | Eins og fjárfestingarverk eru kostnaðarverkefni oftast notuð til að rekja innri verkefni og aðeins klukkustundir, gjöld og vörur er hægt að skrá fyrir kostnaðarverkefni. Hins vegar eru kostnaðarverk yfirleitt með styttri tímalengd en fjárfestingarverk. Ólíkt fjárfestingaverkum er ekki hægt að eignafæra kostnaðarverk á efnahagslykla. Þess í stað eru verkfærslur þeirra aðeins bókaðar á rekstrarreikninga. 
 [!NOTE] 
-> Færslur á kostnaðarverk ekki eru kostnaðarjafnaðar kemur fram við **Bókaður**, **safna Upp tekjum**, eða **Stofna reikningstillögur** síðu. Þar sem kostnaðarverk eru vanalega notaðir til að rekja innri verk, þær yfirleitt vinnukortaheimild ekki á að tengja við lykil viðskiptavinar. Ef uppsetningin krefst hins vegar að vöruþörf sé stofnuð fyrir innkaupapantanir, þarf að tengja viðskiptavin við kostnaðarverk. Þessi tenging er nauðsynleg vegna þess að vöruþarfir eru meðhöndlaðar sem sölupöntunarlínur og kerfið krefst þess að tilgreina viðskiptavin. Hins vegar veldur þessi uppsetning því ekki að vöruþörf sé stofnuð sjálfvirkt úr sölupöntun. Fyrir kostnaðarverk er stillingin **Stofna vöruþörf** hunsuð. Ef þú þarft vöruþörf í kostnaðarverki er hægt að stofna hana handvirkt, svo framarlega sem viðskiptavinur er tengdur verkinu. | | Innri | Innri verka eru notaðar til að rekja kostnað á verk sem er innri í þínu fyrirtæki. Innra verk getur veita fjárhagsáætlunargerðar verkfæri til að stýra notkun tilfanga. **Athugasemd:** Færslur á innri verk sem ekki eru kostnaðarjafnaðar kemur fram við **safna Upp tekjum** eða **Stofna reikningstillögur** síðu.                                                                                                                                                                                                                                                                       | | Tími | Tímaverk eru notaðar til að rekja tíma sem er tengt óreikningshæfan og óframleiðinna verkþætti, svo sem verk til að rekja sick tíma fyrir starfsmenn. Færslur í tímaverkum eru ekki bókaðar í fjárhag. Þess í stað, þeir eru í starfsmanninum nýtingu skýrslum. Aðeins klukkustundafærslur er hægt að skrá í tímaverkefni. Nota í tímabók eða tímablaðs til að skrá þessum tíma við verkið. Eftir að klukkustundir eru skráðar þau birtast sem verkfærslur en ekki með samsvarandi færslur fylgiskjals.
+> Færslur á fjárfestingaverk endurspeglast ekki á síðunni **Bóka kostnað**, **Safna upp tekjum**, eða **Stofna reikningstillögur**. Þar sem kostnaðarverk eru oftast notuð til að fylgjast með innri verkefnum verða þau ekki venjulega að vera tengdir við reikning viðskiptavinar. Ef uppsetningin krefst hins vegar að vöruþörf sé stofnuð fyrir innkaupapantanir, þarf að tengja viðskiptavin við kostnaðarverk. Þessi tenging er nauðsynleg vegna þess að vöruþarfir eru meðhöndlaðar sem sölupöntunarlínur og kerfið krefst þess að tilgreina viðskiptavin. Hins vegar veldur þessi uppsetning því ekki að vöruþörf sé stofnuð sjálfvirkt úr sölupöntun. Fyrir kostnaðarverk er stillingin **Stofna vöruþörf** hunsuð. Ef þú þarft vöruþörf í kostnaðarverki er hægt að stofna hana handvirkt, svo framarlega sem viðskiptavinur er tengdur verkinu. | | Innri          | Innri verkefni eru notuð til að rekja kostnað verkefnis sem er innanhúss í fyrirtæki þínu. Innri verkefni geta veitt áætlunarverkfæri til að stýra notkun tilfanga. **Athugasemd:** Færslur á fjárfestingaverk endurspeglast ekki á síðunni **Safna upp tekjum** eða **Stofna reikningstillögur**.                                                                                                                                                                                                                                                                       | | Tími              | Tímaverk eru notuð til að rekja tíma sem er tengdur óreikningshæfum og óframleiðinna verkþátta, svo sem verk til að rekja veikindatíma fyrir starfsmenn. Færslur í tímaverkum eru ekki bókaðar í fjárhag. Þess í stað, þeir eru í starfsmanninum nýtingu skýrslum. Aðeins klukkustundafærslur er hægt að skrá í tímaverkefni. Nota í tímabók eða tímablaðs til að skrá þessum tíma við verkið. Eftir að klukkustundir eru skráðar þau birtast sem verkfærslur, en án samsvarandi færslna fyrir fylgiskjal.
 
 > [!NOTE] 
-> Færslur á tímaverk ekki eru kostnaðarjafnaðar kemur fram við **Bókaður**, **safna Upp tekjum**, eða **Stofna reikningstillögur** síðu.                                                                                                                                                                                       |
+> Færslur á tímaverk endurspeglast ekki á síðunni **Bóka kostnað**, **Safna upp tekjum**, eða **Stofna reikningstillögur**.                                                                                                                                                                                       |
 
 ### <a name="assign-workers-categories-and-resources"></a>Úthluta starfsmönnum, tegundum og tilföngum
 
 Hægt er að raða mannauði annaðhvort á grundvelli þarfa og röðunar á verkum eða eftir hæfni og ráðstöfun starfsmanna. Með því að nota tímasetningargetu tilfanga geturðu sett upp starfsmenn fyrirtækisins á skilvirkan og öruggan hátt. Fljótlegt er að finna hvaða starfsmenn eru hæfastir og eru tiltækir að vinna við verkið. Einnig er auðvelt að sjá hvernig hægt væri að nota þessa starfsmenn á skilvirkari hátt meðan á verkinu stendur. 
 
-Hér eru sum hátt sem hægt er að nota virkni á tilfanga:
+Hér eru nokkrar leiðir sem hægt er að nota áætlun tilfanga:
 
 -   Upplýsingar um eiginleika starfsmanns, eins og menntun, hæfni, vottanir og verkreynslu, eru notaðar til að jafna starfsmanns við kröfur verks.
 -   Upplýsingar um dagatal starfsmanns og stöðu eru notaðar til að passa við áætlun starfsmanns vegna verkdagatals.
@@ -114,7 +114,7 @@ Frekari upplýsingar eru í [Sundurliðanir verkþátta](work-breakdown-structur
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Viðhalda verkspám og fjárhagsáætlunum
 
-Það eru tvær leiðir til að hafa umsjón með og stjórna verkum: verkspár og fjárhagsáætlanir verks. Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur áherslu á tekjur og kostnað sem eru afleidd af tilteknum færslum. Ef fyrirtækið leggur hins vegar meiri áherslu á fjárhagslegar upphæðir, er hægt að nota fjárhagsáætlanir.
+Til eru tvær leiðir til að hafa umsjón með og stjórna verkum: verkspár og fjárhagsáætlanir verks. Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur áherslu á tekjur og kostnað sem eru afleidd af tilteknum færslum. Ef fyrirtækið leggur hins vegar meiri áherslu á fjárhagslegar upphæðir, er hægt að nota fjárhagsáætlanir.
 
 Frekari upplýsingar eru í [Verkspár og fjárhagsáætlanir](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
 
@@ -127,7 +127,7 @@ Nota má eina af eftirfarandi aðferðum, samkvæmt samsetningu þessara þátta
 -   **Tilbúin vara/tengja við pöntun** – Tenging við sölupöntun eða vöruþörf. Þegar þessi aðferð er notuð er raunkostnaður verks bókaður þegar sölupöntunin er reikningsfærð eða þegar fylgiseðillinn er uppfærður vegna vöruþarfar. Kostnaðurinn verður bókaður sem tilbúin vara.
 -   **Tilbúin vara/ekki tenging við pöntun** – Ekki er hægt að bóka raunkostnað fyrr en í framleiðsluferlinu fyrir vöru með stöðuna **Lokið**. Kostnaður fyrir tilbúna vöru er bókaður í einni færslu.
 -   **Notuð vara/tengja við pöntun** – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Þegar fylgiseðillinn er uppfærður vegna vöruþarfar er enginn framleiðslukostnaður bókaður. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
--   Notuð vara/engin tenging við pöntun *** – Tengil verkið sem vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
+-   ****Notuð vara/engin tenging við pöntun**** – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
 
 ### <a name="procure-products-and-services"></a>Kaupa vörur og þjónustu
 
@@ -181,11 +181,11 @@ Hægt er að panta vörur úr birgðum fyrirtækisins til notkunar í verki. Ein
 
 Aðferð sem notuð er þegar vörur eru pantaðar fer eftir því hvaðan þær eru pantaðar:
 
--   Til að panta vörur úr birgðum fyrirtækis verður að færa pöntunina inn sem vöruþörf. Ef nota á **Vöruþarfir** síðu er hægt að setja upp þarfir þannig að taka á móti vörum sem hlutaafhendingum. Þess vegna er hægt sé að fresta notkun á vörumagni þar til vörurnar sem eru nauðsynleg.
+-   Til að panta vörur úr birgðum fyrirtækis verður að færa pöntunina inn sem vöruþörf. Ef nota á síðuna **Vöruþarfir** er hægt að setja upp þarfir þannig að tekið sé á móti vörum sem hlutaafhendingum. Þess vegna er hægt sé að fresta notkun á vörumagni þar til að þörf er fyrir vörurnar.
 -   Til að panta vörur frá ytri lánardrottni verður að stofna pöntunina sem innkaupapöntun á síðunni **Innkaupapöntun**.
 
 > [!NOTE] 
-> Ekki er hægt að hætta við fylgiseðil fyrir verk sem tengjast sölupöntun vörur hafa verið merktar fyrir fylgiseðla. 
+> Ekki er hægt að hætta við fylgiseðil fyrir verk sem tengjast sölupöntun ef vörur hafa verið merktar fyrir fylgiseðla. 
 
 Eftirfarandi tafla er með lista yfir aðferðir til þess að panta vörur og lýsir því hvernig vörur eru notaðar.
 
@@ -224,7 +224,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <tbody>
 <tr class="odd">
 <td>Heildarkostnaður - Raunverulegur</td>
-<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar er ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í á <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> dálkur, Microsoft Dynamics 365 aðgerða ber þetta gildi gagnvart eiginlegar færslur sem eru bókaðar á tímabilinu og síðan minnkar virði í á <strong>Magn ólokið</strong> eða <strong>Kostnaður við að ljúka</strong> dálk.</td>
+<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar er ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Microsoft Dynamics 365 for Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálkinum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Samtala fjárhagsáætlunar - Raunveruleg</td>
@@ -234,8 +234,8 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <li>Bera spárfærslur saman við raunfærslur.</li>
 <li>Viðhalda, minnka eða auka mat fyrir næstu tímabil.</li>
 </ol>
-Microsoft Dynamics 365 aðgerða ekki minnka sjálfkrafa spáfærslur mat. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. 
-> [!NOTE]Þegar þessi aðferð er hægt að nota minnst tvær spárlíkön. Eitt líkan ætti að innihalda upprunalega spá. Fyrir hitt líkanið ætti að afrita spáfærslurnar úr öðru líkani. Þessi aðferð gildir aðeins fyrir fastverðsverk og fjárfestingarverk.</td>
+Microsoft Dynamics 365 for Operations minnar spáð mat ekki sjálfkrafa. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. 
+> [!NOTE]Þegar þessi aðferð er valin skal nota að minnsta kosti tvö spárlíkön. Eitt líkan ætti að innihalda upprunalega spá. Fyrir hitt líkanið ætti að afrita spáfærslurnar úr öðru líkani. Þessi aðferð gildir aðeins fyrir fastverðsverk og fjárfestingarverk.</td>
 > </tr>
 <tr class="odd">
 <td>Eftirstöðvar fjárhagsáætlunar</td>
@@ -272,9 +272,9 @@ Með sjóðstreymiseftirliti er hægt að meta stakt verk, nota skýrslurnar til
 Byggð á uppsetningu er hægt að spá fyrir sjóðinnstreymis fyrir valið verk. Til dæmis, ef dagsetning verksins er 5. mars 2012 og reikningsfært er 31. mars 2012, hér er sýnt hvernig hægt er að spá fyrir gjalddaga og væntan greiðsludag sölu:
 
 -   **Verkdagsetning:** 5. mars, 2012.
--   **Dagsetning reiknings:** 31. Mars, 2012. Þessi dagsetning er ákvörðuð byggð á reikningatíðninni sem er. Í þessu dæmi er reikningatíðnin stillt á gildandi mánuð. Þess vegna eru allar færslur sem eru bókaðar í marsmánuði reikningsfærðar á síðasta degi mánaðarins.
+-   **Reikningsdagsetning:** 31. mars, 2012. Þessi dagsetning er ákvörðuð byggð á reikningatíðni. Í þessu dæmi er reikningatíðnin stillt á gildandi mánuð. Þess vegna eru allar færslur sem eru bókaðar í marsmánuði reikningsfærðar á síðasta degi mánaðarins.
 -   **Gjalddagi:** 14. Apríl 2012. Þessi dagsetning er ákvörðuð á grundvelli greiðsluskilmála sem voru sett fyrir verkið. Í þessu dæmi er valið greiðsluskilmála 14 daga. Því er 14 dögum bætt við reikningsdagsetninguna að bætast við gjalddaga á 14. apríl 2012.
--   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga sem **Almennra biðdaga** á í **verkefnastjórnun Og bókhaldsfæribreytur** síðu við fjölda daga í á **Stökum biðdögum** á **Verksamningar** síðunni og bæta samtölu við fjölda daga í á **gjalddagi** svæði. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
+-   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga í reitinn **Almennir biðdagar** á síðunni **Færibreytur verkefnastjórnunar og bókhalds** við fjölda daga í reitnum **Stakir biðdagar** á síðunni **Verksamningar** og bæta síðan samtölunni við fjölda daga í reitnum **Gjalddagi**. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
 
 Almennir biðdagar geta annaðhvort skipt út stökum biðminnisdögum eða verið bætt við staða biðminnisdaga:
 
@@ -288,8 +288,8 @@ Setja upp staka biðminnisdaga í samning verks. Dagarnir eru reiknaðir út bæ
 Raunverulegt sjóðstreymi er mjög svipað spám, en hægt er að hefja útreikning frá fyrstu reikningsdagsetningu. Eftirfarandi er dæmi:
 
 -   **Reikningsdagsetning:** 2. mars, 2012.
--   **Gjalddagi:** 16. Mars, 2012. Greiðsluskilmálar eru stillt á 14 daga.
--   **Áætluð greiðsludagsetning sölu:** 29. Mars, 2012. Útreikningur inniheldur þrjár almennra biðdaga og stökum biðdögum 10.
+-   **Gjalddagi:** 16. Mars, 2012. Greiðsluskilmálar eru stilltir á 14 daga.
+-   **Áætluð greiðsludagsetning sölu:** 29. mars 2012. Útreikningur felur í sér þrjár almenna biðdaga og 10 staða biðdaga.
 
 #### <a name="cost-forecasting"></a>Kostnaðarspár
 
@@ -308,7 +308,7 @@ Samkvæmt þessum stillingum hér er greiðsludagsetning kostnaðar fyrir hverja
 -   **Vörur:** 4. mars 2012, sem er 30 dögum eftir dagsetningu færslunnar.
 
 > [!NOTE] 
-> Gjalddagi fyrir innkaupapöntun sem byggir á færslu lánardrottins þegar innkaupapöntun verksins er stofnuð. Gjalddagi ákvarðast ekki af öllum sjálfgefnum stillingum. 
+> Gjalddagi fyrir innkaupapöntun er byggður á þeirri lánadrottnafærslu þegar innkaupapöntun verksins er stofnuð. Gjalddagi ákvarðast ekki af öllum sjálfgefnum stillingum. 
 
 Greiðsludagsetning kostnaðar er ekki reiknuð á biðdögum. Þegar verki er lokið og allri kostnaðar- og reikningsvinnu er lokið er bæði kostnaðurinn og sölurnar bókaðar á rekstrarreikninginn. 
 
@@ -325,7 +325,7 @@ Greiðsludagsetning kostnaðar er ekki reiknuð á biðdögum. Þegar verki er l
 Hægt er að fylgjast með kostnaðinum sem fyrirtækið stofnar til við verk á síðunni **Kostnaðarstýring**. Með því að bera saman upprunalega áætlaðan kostnað fyrir verkið við gildandi raunkostnað og ráðstöfuðum kostnað er hægt að ákvarða hvort verkið sé á áætlun, umfram fjárhagsáætlun eða undir fjárhagsáætlun. 
 
 > [!NOTE] 
-> Þegar notuð í **Kostnaðarstýringu** síðu til að skoða stöðu gildandi verkkostnað, nota spálíkön sem voru valin fyrir upprunalegar og eftirstandandi fjárhagsáætlun. Ef önnur spálíkön eru valin við útreikning kostnaðar, verða útreikningsniðurstöðurnar ekki réttar.
+> Þegar síðan **Kostnaðarstýring** er notuð til að skoða gildandi stöðu verkkostnaðar, nota spálíkön sem voru valin fyrir upprunalega fjárhagsáætlun og eftirstöðvar fjárhagsáætlunar. Ef önnur spálíkön eru valin við útreikning kostnaðar, verða útreikningsniðurstöðurnar ekki réttar.
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Skoða þær áætluðu upphæðir sem eftir eru
 

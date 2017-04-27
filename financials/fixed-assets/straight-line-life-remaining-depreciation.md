@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Línuleg afskrift eftirstandandi líftíma
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
 
 Þegar afskriftarregla fyrir eignir er sett upp og valið er **Línuleg á eftirstöðvum líftíma** í svæðinu **aðferð ** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu er byggð á eftirstandandi líftíma eignarinnar. Þetta er að öllu jöfnu sama afskriftarupphæðin á hverju afskriftatímabili. Til að setja upp afskriftir fyrir Línuleg á eftirstöðvum líftíma, verður einnig að velja valkosti á svæðinu **afskriftarár** og **tímabilstíðni** á síðunni **afskriftareglur**. Valkostirnir sem eru tiltækir á svæðinu**tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.
@@ -36,7 +39,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Ef **Dagatalið** í á ***afskriftarár*** er 1. Janúar til 31. Desember er gert ráð fyrir ári, jafnvel ef hefur verið skilgreint í fjárhagsdagatali annan hátt. **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
+Ef **Dagatal ** er valið í ***Afskriftarár*** reitnum, er gert ráðyrir ári sem er 1. Janúar til og með  31. Desember , jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
 -   ** Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
@@ -48,7 +51,7 @@ Til dæmis, ef valið er **Árlega**, eru árlegar afskriftir bókaðar aðeins 
 
 ### <a name="fiscal"></a>Fjárhagur
 
-Ef valið er **reikningsár **á svæðinu **afskriftarár ** er línuleg afskrift eftirstandandi líftíma notuð. Afskrift er reiknuð á grundvelli fjárhagsára sem eftir eru. Til dæmis, fyrir fjárhagsárið Júlí 1, 2015, gegnum 30. Júní 2016 byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs ákvarðast af uppsetning fjárhagstímabila á síðunni**fjárhagsdagatöl**. Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
+Ef valið er **reikningsár **á svæðinu **afskriftarár ** er línuleg afskrift eftirstandandi líftíma notuð. Afskrift er reiknuð á grundvelli fjárhagsára sem eftir eru. Til dæmis, fyrir fjárhagsárið 1. Júlí 2015 gegnum 30. Júní, 2016 byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs ákvarðast af uppsetning fjárhagstímabila á síðunni**fjárhagsdagatöl**. Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
 
 -   **Árlega** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
 -   **Fjárhagstímabil** reiknar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl** fyrir fjárhagstímabilin sem eru skilgreind í fyrir bókina.
@@ -73,6 +76,8 @@ Afskriftarupphæðin er sama ár hvert: (Kaupverð - hrakvirði) ÷ líftíma í
 | 3. ár | (7.000 – 1.000) ÷ 3 = 2.000                   | 5.000                                 |
 | 4. ár | (5.000 – 1.000) ÷ 2 = 2.000                   | 3.000                                 |
 | 5. ár | (3.000 – 1.000) ÷ 1 = 2.000                   | 1.000                                 |
+
+
 
 
 

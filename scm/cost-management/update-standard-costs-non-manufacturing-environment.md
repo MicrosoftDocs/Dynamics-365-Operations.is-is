@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði í framleiðslulausu umhverfi.
 
 Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu nálgunin til að uppfæra staðlaðan kostnað. Í þessari nálgun inniheldur ein kostnaðarútgáfa upphaflega skilgreindan staðlaðan kostnað fyrir fryst tímabil og seinni kostnaðarútgáfan inniheldur stigvaxandi uppfærslur. Hver uppfærsla er færð inn sem kostnaðarfærsla innan seinni kostnaðarútgáfunnar og að lokum gerð virk. Önnur lausn felst í einnar útgáfu nálgun með því að nota upphaflega skilgreindan staðlaðan kostnað. Tveggja útgáfu nálgunin krefst þess að skilgreind sé önnur kostnaðarútgáfa. Hér eru leiðbeiningar fyrir skilgreiningu þessarar kostnaðarútgáfu:
@@ -46,6 +49,8 @@ Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu ná
 4.  Notið síðuna **Viðhald kostnaðarútgáfu** til að breyta lokunarflaggi til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.
 5.  Notið síðuna **Virkja verð** (sem er opnuð úr síðunni **Viðhald Kostnaðarútgáfu**) til að virkja allar biðkostnaðarfærslur í seinni kostnaðarútgáfunni. Einnig er hægt að gera kostnaðarfærslur í bið fyrir stakar vörur virkar með því að smella á hnappinn **Virkja biðverð** á síðunni **Vöruverð**.
 6.  Notið skjámyndina **Uppsetning kostnaðarútgáfu** til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
+
+
 
 
 

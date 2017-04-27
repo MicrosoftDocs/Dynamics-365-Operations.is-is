@@ -1,6 +1,6 @@
 ---
-title: "Vinna vandræðalaust með lánardrottnum með því að nota gátt Lánardrottins"
-description: "Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Þær upplýsingar eiga aðeins við 2016 Febrúar &amp;Maí 2016 útgáfum Dynamics AX."
+title: "Samstarf með lánardrottnum í gegnum gátt lánardrottins"
+description: "Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Vinna vandræðalaust með lánardrottnum með því að nota gátt Lánardrottins
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
-Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Þær upplýsingar eiga aðeins við 2016 Febrúar &amp;Maí 2016 útgáfum Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Virkni gátt Lánardrottins hefur verið skipt eftir aukin lánardrottins samvinnusvæði aðgerðum í Dynamics 365 Aðgerðir útgáfu 1611. Nánari upplýsingar um nýjan lánardrottinn samvinnusvæði virkni í [Með samvinnusvæði lánardrottins til að vinna með ytri lánardrottna](vendor-collaboration-work-external-vendors.md).  
+
+Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX.
+
+Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Virknin gátt Lánardrottins hefur verið skipt út fyrir virknina aukið samstarf lánardrottna í Dynamics 365 for Operations útgáfa 1611. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Uppsetning og viðhald samstarfs lánardrottna](vendor-collaboration-work-external-vendors.md).  
 
 Gátt Lánardrottins er hönnuð fyrir lánardrottna sem ekki hafa rafræn gagnaskipti (EDI) samþætt við Microsoft Dynamics AX til að skiptast á upplýsingum um innkaupapöntun (PO). Gáttin leyfir innkaupastjórum að senda innkaupapöntun til lánardrottins og fá svarið Staðfest eða Hafnað beint í Dynamics AX.  
 
@@ -66,9 +69,9 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 | Þú sendir nýja útgáfu af Innkaupapöntuninni á Gátt lánardrottins. | Ný útgáfa er skráð í Gátt lánardrottins og stöðunni er breytt í **Í Ytri Yfirferð**. |
 | Lánardrottinn samþykkir nýju útgáfuna.           | Stöðu er breytt aftur í **Samþykkt**.                                                                |
 
-Til að sjá útgáfur Innkaupapöntunin sem hafa verið send lánardrottni og svör lánardrottins, smellið á **Færslubækur**&gt;**Staðfestingu beiðnir** úr á Innkaupapöntun.  
+Til að sjá útgáfur af Innkaupapöntunum sem hafa verið sendar lánardrottni og svör hans, farið í **Færslubækur** &gt; ** Staðfestingarbeiðnir** úr innkaupapöntuninni.  
 
-Pantanir sem hafa verið sendar til lánardrottins til svars og hafa stöðuna **Í ytri Yfirferð** birtast annað hvort í listanum **Innkaupapantanir sem eru sendar í Gátt lánardrottins, beðið eftir svari** eða í listanum **Innkaupapantanir sendar í Gátt lánardrottins, svar krefst aðgerða**. Þegar pöntun er breytt sem hefur verið send til lánadrottna, svo að staðan breytist aftur í **Samþykkt**, birtist hún ekki lengur í þessum listum. Til að sjá hvort starfsmaðurinn hefur áður verið svar við frá lánardrottni er smellt á **Færslubækur**&gt;**Staðfestingu beiðnir**.  
+Pantanir sem hafa verið sendar til lánardrottins til svars og hafa stöðuna **Í ytri Yfirferð** birtast annað hvort í listanum **Innkaupapantanir sem eru sendar í Gátt lánardrottins, beðið eftir svari** eða í listanum **Innkaupapantanir sendar í Gátt lánardrottins, svar krefst aðgerða**. Þegar pöntun er breytt sem hefur verið send til lánadrottna, svo að staðan breytist aftur í **Samþykkt**, birtist hún ekki lengur í þessum listum. Til að sjá hvort það hafa áður komið svör frá lánardrottni er smellt á **Færslubækur** &gt; **Staðfestingarbeiðnir**.  
 
 Lánardrottnar þurfa ekki að staðfesta Innkaupapöntun í Gátt lánardrottins. Þeir geta einnig sent skilaboð í tölvupósti eða tilkynnt samþykki Innkaupapöntunarinnar gegnum aðrar rásir. Síðan er hægt að staðfesta pöntunina handvirkt í Dynamics AX. Í þessu tilfelli berst viðvörun um að verið er að staðfesta pöntun jafnvel þótt að það er ekkert svar frá lánardrottni. Innkaupapöntunin birtist síðan í staðfestingarsögu í Gátt lánardrottins sem opin staðfest pöntun sem hefur ekki svör. Til viðbótar við þetta hefur lánardrottinn ekki lengur valkost til að staðfesta eða hafna innkaupapöntun.  
 
@@ -97,5 +100,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 [Skilgreining öryggis fyrir Notendur samstarfs lánardrottna ](configure-security-vendor-portal-users.md)
 
 [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

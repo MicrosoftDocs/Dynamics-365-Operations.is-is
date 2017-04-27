@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-issue-deadline"></a>Tímamörk útgáfu reiknings
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig á að setja upp færibreytur til að reikna út gjalddaga fyrir útgáfu reikninga viðskiptavina og reikninga lánardrottins innan Evrópusambandsins (ESB).
 
 Tilskipun Evrópusambandsins (ESB) nr. 45/2010 og aðrar tilskipanir krefjast þess að sendingar innan Evrópusambandsins verður að reikningsfæra fimmtánda dags mánaðarins eftir að afhending er gerð, eða á undan þeim degi. Á sama tíma getur hvert land innan ESB haft mismunandi tímamörk reikningsfærlsu fyrir innlendar afhendingar. Gjalddagavirkni útgáfu reiknings gera kleift að jafna dagsetningabil við gerð lands/svæðis. Síðan, fyrir allar sendingar til og frá landi/svæði af tiltekinni gerð, er gjalddagi útgáfu reiknings reiknuð með því að nota reglur sem eru settar á tilteknu dagsetningabili. Þar að auki er hægt að fá alla fylgiseðla sem hafa tiltekinn gjalddaga útgáfu reiknings, sía eftir gjalddaga útgáfu reiknings við reglubundna sölureikninga og stýra útgáfudagsetningu sölureikninga við bókun reiknings. Þú getur sett upp kóða dagsetningabils, og síðan sett upp útreikningsreglu fyrir útgáfudag reiknings með því að úthluta kóða dagsetningabils til lands-/ svæðistegundar. Útreikningur regla er notuð til að reikna út gjalddaga til að gefa út reikninga fyrir eftirfarandi færslur:
@@ -42,7 +45,7 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 | Tegund            | Skilyrði                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Land/svæði      | Aðalaðsetur lögaðilans verður að vera í aðildarlandi Evrópusambandsins.                                                                                                                                                                                                                                                                                                                    |
-| Tengd uppsetningarverk | Á síðunni **Dagsetningabil** seturðu upp dagsetningabil sem eru notuð til að reikna út gjalddaga útgáfu reiknings. (Smellið á **Fjárhagur**&gt;**fjárhagsuppsetning**&gt;**Tímabil**.) Á við **færibreytur Erlendra viðskipta** síðu er að setja upp eiginleika erlendra viðskipta fyrir ýmis lönd/svæði. (Smellið á **Skattur**&gt;**Uppsetningu**&gt;**Erlendra viðskipta**&gt;**færibreytur Erlendra viðskipta**.) |
+| Tengd uppsetningarverk | Á síðunni **Dagsetningabil** seturðu upp dagsetningabil sem eru notuð til að reikna út gjalddaga útgáfu reiknings. (Smellt er á **Fjárhagur** &gt; **Uppsetning fjárhags** &gt; **Dagsetningabil**.) Á síðunni **Færibreytur erlendra viðskipta** seturðu upp eiginleika erlendra viðskipta fyrir ýmis lönd/svæði. (Smellt er á **Skattur** &gt; **Uppsetning** &gt; **Erlend viðskipti** &gt; **Færibreytur erlendra viðskipta**.) |
 
 ## <a name="invoice-issue-due-date-calculation-rule"></a>Reikna gjalddaga fyrir útgáfu reiknings
 Nota skal **Setja upp útreikning á útgáfu reiknings gjalddaga** til að setja upp útreikningsreglu fyrir útgáfudag reiknings með því að úthluta kóða dagsetningabils til lands-/ svæðistegundar.
@@ -51,7 +54,7 @@ Nota skal **Setja upp útreikning á útgáfu reiknings gjalddaga** til að setj
 Hægt er að setja upp færibreytur dagsetningarstýringar til að tryggja að reikningar viðskiptavina og kreditnótur fyrir færslur viðskiptavinar séu mynduð innan tilgreinds tímabils eftir að afhending fer fram. Hægt er að finna þessar færibreytur á svæðinu **Stýring reikningsdagsetninga** á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="example"></a>Dæmi
-Til að setja upp Microsoft Dynamics 365 aðgerða til að reikna út útgáfu reiknings gjalddaga fyrir sendingar innan EU fimmtánda dag mánaðarins eftir birgðir er afhent, regla er stofnuð dagsetningu bilsins kóða og útreikninga sem hafa eftirfarandi stillingar.
+Til að setja upp Microsoft Dynamics 365 for Operations til að reikna út gjalddaga reikningsútgáfu fyrir sendingar innan ESB 15. dag næsta mánaðar eftir að framboðið er afhent, skal stofna dagsetningarbilskóða og útreikning reglu með eftirfarandi stillingum.
 
 ### <a name="date-interval-code"></a>Kóði dagsetningabils
 
@@ -75,8 +78,8 @@ Til að setja upp Microsoft Dynamics 365 aðgerða til að reikna út útgáfu r
 ## <a name="next-steps"></a>Næstu skref
 Eftir að þú hefur lokið við að setja upp færibreytur til að reikna gjalddaga útgáfu reikninga getur þú stofnað og bókað eftirfarandi færslur til að sjálfkrafa reikna og uppfæra gjalddaga fyrir útgáfu reikninga:
 
--   **sölupöntun** - Þegar þú býrð til sölupantanir og senda fylgiseðill, gjalddagi á útgáfu reiknings er reiknað og uppfærð á fylgiseðill. Gjalddaginn er reiknaður á tímabil sem tengist lands/svæðis sem er tilgreind í afhendingaraðsetrinu sölupöntunar. Eftir að fylgiseðillinn er bókaður, hægt er að staðfesta útgáfu reiknings gjalddaga í á **Reiknings úthreyfing gjalddaga** á í **Fylgiseðlabók** síðu. (Smellið á **Sölu og markaðssetningar**&gt;**sölupöntun**&gt;**Pöntun sendingu**&gt;**fylgiseðil**.) Hægt er að skoða alla fylgiseðla sem ekki eru kostnaðarjafnaðar reikningsfærðar og úthreyfingar þeirra reikninga gjalddaga á því **Fylgiseðlar ekki reikningsfærð** síðu. (Smellið á **Sölu og markaðssetningar**&gt;**sölupöntun**&gt;**Pöntun sendingu**&gt;**fylgiseðlar ekki reikningsfærð**.)
--   **innkaupapöntun** - Þegar þú býrð til innkaupapöntun og senda innhreyfingarskjal afurða, er gjalddagi á útgáfu reiknings er reiknað og uppfærð á innhreyfingarskjal afurða. Gjalddagi er reiknaður á grundvelli tímabilsins sem er tengt því landi/svæði sem er tilgreint í aðalaðsetri lánardrottins. Eftir að innhreyfingarskjal afurða er bókað er hægt að staðfesta gjalddaga útgáfu reiknings í reitnum **Gjalddagi útgáfu reiknings** á síðunni **Færslubók innhreyfingarskjals afurða**. (Smellið á **Innkaupa og uppruna**&gt;**Innkaupapantanir**&gt;**Móttöku vara**&gt;**Innhreyfingarskjal afurða**.) Hægt er að skoða allar innhreyfingar afurða sem ekki eru kostnaðarjafnaðar reikningsfærðar og úthreyfingar þeirra reikninga gjalddaga á því **óreikningsfærðar innhreyfingar Afurða** síðu. (Smellt er á **Innkaupa og uppruna**&gt;**Innkaupapantanir**&gt;**Móttöku vara**&gt;**óreikningsfærðar innhreyfingar Afurða**.)
+-   **sölupöntun** - Þegar þú býrð til sölupantanir og senda fylgiseðill, gjalddagi á útgáfu reiknings er reiknað og uppfærð á fylgiseðill. Gjalddagi er reiknaður á grundvelli dagsetningabilsins sem er tengt því landi/svæði sem er tilgreint í afhendingaraðsetri sölupöntunar. Eftir að fylgiseðill er bókaður er hægt að staðfesta gjalddaga útgáfu reiknings í reitnum **Gjalddagi útgáfu reiknings** á síðunni **Færslubók fylgiseðla**. (Smellt er á **Sala og markaðssetning** &gt; **Sölupöntun** &gt; **Afhending pöntunar** &gt; **Fylgiseðill**.) Hægt er að skoða alla fylgiseðla sem eru ekki reikningsfærðir og gjalddaga útgáfu reiknings þeirra á síðunni **Fylgiseðlar ekki reikningsfærðir**. (Smellt er á **Sala og markaðssetning** &gt; **Sölupöntun** &gt; **Afhending pöntunar** &gt; **Fylgiseðlar ekki reikningsfærðir**.)
+-   **innkaupapöntun** - Þegar þú býrð til innkaupapöntun og senda innhreyfingarskjal afurða, er gjalddagi á útgáfu reiknings er reiknað og uppfærð á innhreyfingarskjal afurða. Gjalddagi er reiknaður á grundvelli tímabilsins sem er tengt því landi/svæði sem er tilgreint í aðalaðsetri lánardrottins. Eftir að innhreyfingarskjal afurða er bókað er hægt að staðfesta gjalddaga útgáfu reiknings í reitnum **Gjalddagi útgáfu reiknings** á síðunni **Færslubók innhreyfingarskjals afurða**. (Smellt er á **Innkaup og aðföng** &gt; **Innkaupapantanir** &gt; **Móttaka afurða** &gt; **Innhreyfingarskjal afurða**.) Hægt er að skoða öll innhreyfingarskjöl afurða sem eru ekki reikningsfærð og gjalddaga útgáfu reiknings þeirra á síðunni **Innhreyfingarskjöl afurða ekki reikningsfærð**. (Smellt er á **Innkaup og aðföng** &gt; **Innkaupapantanir** &gt; **Móttaka afurða** &gt; **Innhreyfingarskjöl afurða ekki reikningsfærð**.)
 
 ## <a name="technical-information-for-system-administrators"></a>Tæknilegar upplýsingar sem eru ætlaðar kerfisstjórum
 Ef notandi hefur ekki aðgang að síðum sem notaðar eru til að ljúka verkum sem eru nefnd í þessari grein skal hafa samband við kerfisstjóra og veita þær upplýsingar sem er sýndar í eftirfarandi töflu.
@@ -95,7 +98,7 @@ Ef notandi hefur ekki aðgang að síðum sem notaðar eru til að ljúka verkum
 <tbody>
 <tr class="odd">
 <td>Skilgreiningarlyklar</td>
-<td>Smellið á <strong>kerfisstjórnun</strong>&gt;<strong>Uppsetningu</strong>&gt;<strong>Leyfi</strong>&gt;<strong>leyfisskilgreining</strong>. Smelltu á skilgreiningarlykilinn <strong>Fjárhagur</strong>.</td>
+<td>Smellt er á <strong>Kerfisstjórnun</strong> &gt; <strong>Uppsetning</strong> &gt; <strong>Leyfi</strong> &gt; <strong>Skilgreining leyfis</strong>. Smelltu á skilgreiningarlykilinn <strong>Fjárhagur</strong>.</td>
 </tr>
 <tr class="even">
 <td>Öryggishlutverk og skyldur</td>
@@ -116,6 +119,8 @@ Ef notandi hefur ekki aðgang að síðum sem notaðar eru til að ljúka verkum
 </tr>
 </tbody>
 </table>
+
+
 
 
 

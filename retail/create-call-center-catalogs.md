@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-call-center-catalog"></a>Stofna vörulista fyrir símaver
 
+[!include[banner](includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir ferli þess að búa til vörulista fyrir símaver. 
 
-Í  símaver, er hægt að nota vörulista til að auðkenna afurðirnar sem óskað er eftir að bjóða uppá í verslunum. Símaver nota yfirleitt prentaða vörulista. Hönnun og framleiðslu prentaða vörulista er meðhöndluð utan Microsoft Dynamics 365 fyrir Aðgerðir. Hins vegar hægt að stofna og geyma stafræn skjámynd vörulista í Smásölu og commerce í Dynamics 365 fyrir Aðgerðir með sama skjámyndir til að setja upp online retail vörulista. Áður en hægt er að stofna vörulista verður að setja upp afurðaúrvali og úthluta þjónustumiðstöð í úrvali. Að bæta afurðir vörulista með því að velja vörur úr þessum úrvali. Eftir að afurðir hefur verið bætt við vörulista og vörulistinn er lokið, verður að villuleita vörulista til að staðfesta gögn. Vörulisti er því næst sendar til yfirferðar og samþykktar. Eftir að vörulisti er samþykktur er hægt að birta hann. Þegar vörulisti fyrir símaver er stofnaður er hægt að taka skyndimynd af vörulistagögnunum þegar°vörulistinn er gefinn út. Þessi virkni skyndimynd gerir kleift að fá aðgang að tiltekinni útgáfu vörulista, jafnvel þótt vörulistinn er síðar breytt og uppfært. Einnig er hægt að setja vörulista símavers upp til að taka með eftirfarandi valfrjálsar aðgerðir:
+Í  símaver, er hægt að nota vörulista til að auðkenna afurðirnar sem óskað er eftir að bjóða uppá í verslunum. Símaver nota yfirleitt prentaða vörulista. Hönnun og framleiðsla prentaðra vörulista er meðhöndluð utan Microsoft Dynamics 365 for Operations. Hins vegar er hægt að stofna og geyma stafræna skjámynd vörulista í Smásölu og Viðskipti í Dynamics 365 fyrir Operations með því að nota sömu skjámyndirnar og eru notaðar til að setja upp smásöluvörulista á netinu. Áður en hægt er að stofna vörulista verður að setja upp afurðaúrvali og úthluta þjónustumiðstöð í úrvali. Að bæta afurðir vörulista með því að velja vörur úr þessum úrvali. Eftir að afurðir hefur verið bætt við vörulista og vörulistinn er lokið, verður að villuleita vörulista til að staðfesta gögn. Vörulisti er því næst sendar til yfirferðar og samþykktar. Eftir að vörulisti er samþykktur er hægt að birta hann. Þegar vörulisti fyrir símaver er stofnaður er hægt að taka skyndimynd af vörulistagögnunum þegar°vörulistinn er gefinn út. Þessi virkni skyndimynd gerir kleift að fá aðgang að tiltekinni útgáfu vörulista, jafnvel þótt vörulistinn er síðar breytt og uppfært. Einnig er hægt að setja vörulista símavers upp til að taka með eftirfarandi valfrjálsar aðgerðir:
 
 -   **Frumkóðar** - kóðar sem eru notaðir til að fylgjast með viðbrögðum viðskiptavina við tilteknum pósti verslun.
 -   **Ókeypis vörur** – Vörur sem bætt er við pöntun viðskiptavinar án viðbótargjalda. Þessum vörum er sjálfkrafa bætt við pöntunina þegar frumkóði fyrir vörulistann er færður inn í pöntun.
@@ -62,11 +65,13 @@ Eftir að vörulista hefur verið samþykktur er hægt að senda vörulista til 
 ## <a name="optional-add-source-codes-free-products-and-scripts"></a>Valfrjálst: Bæta við upprunakóðum, ókeypis afurðum og forskriftum
 Einnig er hægt að bæta eftirfarandi atriðum vörulista símavers. Þessar vörur eru valfrjálsar.
 
--   Fyrirtæki sem útvega prentaða vörulista°geta notað°**Frumkóða** til að rekja svörun viðskiptavina fyrir tiltekna vörulista. Frumkóðar eru oft prentað á bakhlið vörulista og eru færðar inn í sölupöntun þegar viðskiptavinur innkaup. Til að bæta frumkóða vörulista, verður fyrst að stofna í markhópur. Markhópur sem er yfirleitt varpað sem heyra til eða leigð póstlista.
+-   Fyrirtæki sem útvega prentaða vörulista°geta notað°**Frumkóða** til að rekja svörun viðskiptavina fyrir tiltekna vörulista. Frumkóðar eru oft prentaðir á bakhlið vörulista og eru færðir inn í sölupöntun þegar viðskiptavinur gerir kaup. Til að bæta við upprunakóða í vörulista verður þú fyrst að stofna markhóp. Markhópur er yfirleitt varpað á póstlista í eigu eða leigu.
 -   **Ókeypis vörur** eru kynningartilboðsvörur sem eru ókeypis við pöntun viðskiptavinar þegar vísað er í vörulistann.
 -   **Forskriftir** er hægt að nota°til að leiðbeina°starfsmanni í samskiptum við viðskiptavini um efni vörulista eða um vöru í vörulista.
 
 ## <a name="publish-the-catalog"></a>Birta vörulistann
 Með birtingu vörulista fyrir þjónustumiðstöð, ljúka upplýsingar afurða í vörulistanum. Útgáfa gefur einnig til kynna að vörulistinn er tilbúin til frekari aðgerða sem á að framkvæma. Til dæmis er hægt að stofna prentaða vörulista. Hægt er að birta vörulista handvirkt eða nota runuvinnslu til að birta samkvæmt áætlun. Áður en hægt er að birta vörulista, verður að vera að staðfesta og samþykkja vörulistann. Til að breyta vörulistanum eftir að hann er birtur er hægt að afturkalla vörulista og endurbirta hann síðan.
+
+
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reuse-product-configurations"></a>Endurnota afurðarafbrigði
 
+[!include[banner](../includes/banner.md)]
+
+
 Hægt er að tilgreina að sjálfkrafa eigi að nota aftur fyrirliggjandi afbrigði fyrir vöru. Síðan, þegar notandi hefur lokið skilgreinarlotu athugar kerfið hvort skilgreining sem samsvarar vali notanda er þegar til. Ef samsvarandi skilgreiningu finnst er auðkenni Skilgreiningar, samsvarandi uppskrift (BOM), og leið endurnotuð.
 
 <a name="requirements-for-reusing-configurations"></a>Skilyrði til að geta endurnotað afbrigði
@@ -41,5 +44,7 @@ Til að geta látið endurnota afurður, verður að tilgreina eftirfarandi uppl
 
 ## <a name="resetting-configuration-reuse"></a>Endurstilling endurnotkun skilgreiningar
 Þegar þú endurstillir endurnotkun skilgreiningar, er ekki lengur tekið tillit til áður stofnaðra skilgreininga. Þú gætir viðjal endurstilla endurnotkun skilgreiningar ef uppskriftin eða leiðin var breytt, en ekki var breytt tengdar eigindir. Þú endurstillir endurnotkun skilgreiningar á flipanum **Almennt** fyrir íhlut.
+
+
 
 

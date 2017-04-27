@@ -1,9 +1,9 @@
 ---
-title: Minnka afskrift
+title: "Minnka bókfært virði"
 description: "Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Minnka afskrift
+# <a name="reduce-balance-depreciation"></a>Minnka bókfært virði
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði.
 
@@ -57,7 +60,7 @@ Til dæmis, ef valið er Árlega, eru árlegar afskriftir bókaðar aðeins einu
 
 ### <a name="fiscal"></a>Fjárhagur
 
-Ef valið er reikningsár á svæðinu afskriftarár er línulega afskriftaraðferðin notuð. Það er reiknað á grundvelli fjárhagsársins sem er sett upp á síðunni fjárhagsdagatöl fyrir fjárhagsdagatalið sem valinn er á síðunni höfuðbók. Til dæmis, fyrir fjárhagsárið 1. Júlí gegnum 30. Júní, byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs er byggt á fjárhagstímabilum sem sett eru upp þegar nýtt fjárhagsár er stofnað á síðunni fjárhagsdagatöl.
+Ef valið er reikningsár á svæðinu afskriftarár er línulega afskriftaraðferðin notuð. Það er reiknað á grundvelli fjárhagsársins sem er sett upp á síðunni fjárhagsdagatöl fyrir fjárhagsdagatalið sem valinn er á síðunni höfuðbók. Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs er byggt á fjárhagstímabilum sem sett eru upp þegar nýtt fjárhagsár er stofnað á síðunni fjárhagsdagatöl.
 
 
 Ef fjárhagsár er valið eru eftirfarandi valkostir tiltækir á svæðinu tímabilstíðni:
@@ -73,12 +76,14 @@ Með því að nota aðferðina lækkandi afskrift eru 30 prósent af afskriftag
 
 | Tímabil | Reiknuð upphæð árlegra afskrifta | Nettó bókfært verð við lok árs |
 |--------|-------------------------------------------|---------------------------------------|
-| 1. ár | (11,000 - 1,000) \* 30% = 3,000           | (11,000 - 1,000) - 3,000 = 7,000      |
-| 2. ár | (7,000 - 1,000) \* 30% = 1,800            | (7,000 -1,800) = 5,200                |
-| 3. ár | (5,200 - 1,000) \* 30% = 1,260            | (5,200 - 1,260) = 3,940               |
+| 1. ár | (11.000 - 1.000) \* 30% = 3.000           | (11,000 - 1,000) - 3,000 = 7,000      |
+| 2. ár | (7.000 - 1.000) \* 30% = 1.800            | (7,000 -1,800) = 5,200                |
+| 3. ár | (5.200 - 1.000) \* 30% = 1.260            | (5,200 - 1,260) = 3,940               |
 
  
 -
+
+
 
 
 

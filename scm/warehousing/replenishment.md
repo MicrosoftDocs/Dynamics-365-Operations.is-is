@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Áfylling
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi.
 
 Þessi skrá lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi. Þessar upplýsingar á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun. Þrjár áfyllingaráætlanir eru tiltækar:
@@ -67,6 +70,8 @@ Athugið að Lágm. / Hám áfyllingaráætlun getur ekki fylla á tómar staðs
 | Forstillingar staðsetningar       | Staðsetningarforstillingar eru nauðsynlegar til að stofna staðsetningar.                                                                                                                                                                                       |
 | Staðsetningarleiðbeiningar     | Staðsetningarleiðbeiningar eru nauðsynleg til leiða vinnu til staðsetninga þar sem áfylling er nauðsynlegt, og til staðsetningar þar sem birgðir eru upprunnar frá.                                                                                     |
 | Vinnusniðmát          | Vinnusniðmát af gerðinni **Áfylling** er krafist til að geta stofna áfyllingarvinnu svo að birgðir sé hægt að færa í æskilega staðsetningu.                                                                                           |
+
+
 
 
 

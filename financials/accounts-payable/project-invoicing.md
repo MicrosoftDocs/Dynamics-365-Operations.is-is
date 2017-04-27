@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Verkreikningur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 
 Verkgerðin ákvarðar hvaða reikningsfærsluaðferð skal beitt. Aðeins er hægt að reikningsfæra tvær ytri verkgerðir (Tíma- og efnisverk og fastverðsverk). Tíma- og efnisverk og fastverðsverk eru alltaf tengd við verksamning.
@@ -103,7 +106,7 @@ Hægt er að reikningsfæra fastverðsverk á reikningsáætlun. Reikningsáætl
 Þegar áfangagreiðslur eru tilbúnar fyrir reikningsfærslu er notað ferlið til að reikningsfæra upphæðir á áfangareikningi.
 
 ## <a name="vendor-invoicing"></a>Reikningsfærslur lánardrottins
-Þegar vara pöntuð frá lánardrottni og vöru úthlutað á verk, ákvarðar línueiginleikinn sem er valinn fyrir innkaupapöntunarlínu fyrir þessa vöru hvort keypt vara er reikningsfærð á viðskiptavin. Ef sett er upp sjálfgefna línueiginleika birtast fyrir vöruna í línu í innkaupapöntun (Línuupplýsingar &gt;Verks &gt;Línueiginleika). Það eru tvær leiðir til að breyta línueiginleika:
+Þegar vara pöntuð frá lánardrottni og vöru úthlutað á verk, ákvarðar línueiginleikinn sem er valinn fyrir innkaupapöntunarlínu fyrir þessa vöru hvort keypt vara er reikningsfærð á viðskiptavin. Ef sett er upp sjálfgefna línueiginleika, birtast þeir fyrir vöruna innkaupapöntunarlínu (Línuupplýsingar &gt; Verk &gt; Línueiginleikar). Það eru tvær leiðir til að breyta línueiginleika:
 
 -   Reikningsfæra viðskiptavin verks fyrir vöru: Stilla línueiginleika fyrir vöru á reikningshæft gildi á innkaupapöntuninni, og reikningsfæra á viðskiptavininn með því að nota rétta reikningsfærsluaðferð verks.
 -   Ekki reikningsfæra viðskiptavin verks fyrir vöru: ekki velja **Reikningshæfa** línueiginleikann á innkaupapöntunarlínu fyrir vörunnar. Síðan geturðu reikningsfært Innkaupapöntunin , og ekki þarf að gera frekari aðgerðir.
@@ -118,5 +121,7 @@ Sama skjal getur innihaldið færslur sem eru valdar fyrir kreditfærslu, og fæ
 Til að kreditfæra reikningsfærða upphæð þarf fyrst að velja reikningsfærðu upphæðina sem á að kreditfæra og stofna síðan kreditnótu. Kreditnóta er stofnuð með því að fylgja sama ferli sem er notað til að mynda reikning viðskiptavinar. 
 
 Hægt er að stofna reikning með neikvæðri upphæð; sem verður reikningur sem er flokkaður sem kreditnóta. Velja verður færslur sem voru áður bókaðar fyrir reikning viðskiptavinar og breyta síðan færslur til að stofna og prenta kreditnótu. Að undanskildum lögaðila með aðalaðsetur í Þýskalandi, er titill reikningsins "Leiðréttandi reikningur."
+
+
 
 

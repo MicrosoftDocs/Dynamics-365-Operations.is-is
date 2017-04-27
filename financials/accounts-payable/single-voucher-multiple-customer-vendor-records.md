@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Operations, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
 
 Sum algeng dæmi þar sem eitt fylgiskjal er notað fyrir marga viðskiptavini eða lánardrottna innihalda stöðufærslur á milli viðskiptavina, og stöður greiðslujöfnunar milli viðskiptavina og lánardrottna í sömu stofnun/fyrirtæki. 
@@ -91,7 +94,7 @@ Ef notandinn er óánægður með staðgreiðsluafslátt sem verið er að úthl
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Fylgiskjal** | **Reikningsgerð** | **Lykill**  | **Lýsing** | **Debet** | **Kredit** | **Offset type** | **Offset account** |
+| **Fylgiskjal** | **Reikningsgerð** | **Lykill**  | **Lýsing** | **Debet** | **Kredit** | **Mótbókunargerð** | **Mótlykill** |
 | GNJL001     | Lánardrottinn           | 1001         | INV1            |           | 100,00     | Fjárhagur          | &lt;autt&gt;      |
 | GNJL001     | Fjárhagur           | 606300-001-- | INV1            |   50,00   |            | Fjárhagur          | &lt;autt&gt;      |
 | GNJL001     | Fjárhagur           | 606300-002-- | INV1            |   50,00   |            | Fjárhagur          | &lt;autt&gt;      |
@@ -248,5 +251,7 @@ Til að forðast óæskilegar vandamál við síðari jafnanir fyrir þessa fær
 | 002         | Lánardrottinn           | 1001        |                 |  75,00    |            | Fjárhagur          | 999999---          |
 
  
+
+
 
 

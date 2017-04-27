@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Kostnaðarhlutir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.  
 
 <a name="cost-objects"></a>Kostnaðarhlutir
@@ -65,19 +68,21 @@ Eftirfarandi tafla sýnir hvað er kostnaðarhlutur og hvað birgðahlutur.
     -   Bókað magn
 -   Reiturinn **Meðaleiningarkostnaður** er reiknaður reitur. Gildið er reiknað með því að deila gildinu **Gildi** með gildinu **Magn**.
 
-**Athugasemd:** á ** Taka efnislegt virði ** færibreyta hefur engin áhrif á fyrri útreikningi.
+**Ábending:** Færibreytan **Taka efnislegt virði með** hefur engin áhrif á fyrri útreikninga.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Afurðavíddaflokkur](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Geymsluvíddaflokkur](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Rakningarvíddarflokkur](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
 [Hvað er nýtt eða breytt í Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Kostnaðarfærslur](cost-entries.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Notkunarafskriftir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir notkunaraðferð afskriftar.
 
 Ef afskriftaregla fyrir eignir er sett upp og valið er **notkun** í svæðinu**aðferð** á skjámyndinni**afskriftaaðferðir** eru eignir, tengdar þessari afskriftareglu sem eru byggðar á notkun þeirra. Ekki þarf að setja upp prósentur og tímabil í á **afskriftareglur** síðu. Eftir að þú stofnar afskriftarregla sem notar notkunaraðferð, er hægt að setja aðferðina upp á nokkra vegu.
@@ -64,5 +67,7 @@ Eftirfarandi stuðull fyrir notkunarafskrift er setja upp fyrir janúar 31:
 -   Metið magn eignarinnar er 2.000.
 
 Afskriftatillagan þann 31. Janúar er á eftirfarandi hátt: áætlað magn × Prósentu × einingarafskrift 2.000 ×.10 × 1,5 = 300
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemma bankayfirlit með ítarlegri bankaafstemmingu
 
+[!include[banner](../includes/banner.md)]
+
+
 Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Operations. Þessi skrá útskýrir ferli afstemmingar.  
 
 <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
@@ -74,7 +77,7 @@ Eftir að þú hefur flutt inn rafræn bankayfirlit og villuleita uppgjör á í
 -   Jafna færslur með bakfærslu bankayfirlitsfærslna.
 -   Merkja færslur sem **Nýtt**, þannig að hægt er að bóka þær síðar sem bankafærslu í Dynamics 365 for Operations.
 
-Handvirkt jafna færslur, velja færslur í á **Bankafærslur uppgjör** hnitaneti, veljið samsvarandi færslur í á **Aðgerðir bankafærslur** hnitanetinu og smellið **Samsvara**. Valdar færslur eru fluttar úr efri hnitanet fyrir ójafnaðar færslur í neðri hnitanet fyrir jafnaðar færslur. Þar að auki er ójöfnuð og jöfnuð heildarupphæðir uppfærðar. Hægt er að vera með eina við eina, margar við eina, og margar við margar-færslujafnanir. Samsvaranir verða að að fylgja reglur fyrir leyfðan mismun dagsetninga og vörpun færslugerða. Þessar reglur eru stilltar á **færibreytur reiðufjár- og bankastjórnunar** síðu.
+Til að jafna færslur handvirkt skal velja færslur í **bankayfirlitsfærslur** hnitaneti, velja samsvarandi færslur í á **Operations-bankafærslur ** hnitaneti, og smella svo á **Jafna**. Valdar færslur eru fluttar úr efri hnitanet fyrir ójafnaðar færslur í neðri hnitanet fyrir jafnaðar færslur. Þar að auki er ójöfnuð og jöfnuð heildarupphæðir uppfærðar. Hægt er að vera með eina við eina, margar við eina, og margar við margar-færslujafnanir. Samsvaranir verða að að fylgja reglur fyrir leyfðan mismun dagsetninga og vörpun færslugerða. Þessar reglur eru stilltar á **færibreytur reiðufjár- og bankastjórnunar** síðu.
 
 Auramismunur getur komið upp í við afstemmingu. Hægt er að jafna staka bankayfirlitsfærslu og staka Operations-bankayfirlitsfærslu sem hafa auramismun ef auramismunur eru innan vikmörk upphæðar sem er skilgreindur í **Leyfður auramismunur** reitnum á bankareikningi. Upphæðin er sýnd í á **leiðréttingarupphæð** reit á jöfnuðum Operations-bankafærslum. Þegar bankaafstemming er merkt sem afstemmd, eru leiðréttingar bókaðar sjálfkrafa með því að nota aðallykil sem er skilgreind á tengda bankafærslugerð. Leiðréttingar eru ekki studdar fyrir skjalagerðir **Athuga** og **Innborgun**. 
 
@@ -90,5 +93,7 @@ Eftir að allar uppgjörslínur hafa verið unnar, á að merkja vinnublað bank
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Bóka nýjar færslur sem tengjast valinni afstemmingu.
 Bankayfirlitsfærslur sem voru merktar sem **Nýtt** á afstemmingarvinnublaði eru bókaðar á **Bankayfirlit** síðu. Á **Bankayfirlit** síðunni, veljið Kenni uppgjörs til að skoða upplýsingar um yfirlit. Á **Bókhald** valmyndinni, er hægt að nota **Skoða dreifingu** og **Skoða bókhald** valkosti til að skoða upplýsingar um nýjum færslum og tengdar fjárhagsfærslur. Velja skal **Bóka** valkost til að bóka bankayfirlitslínur sem merktar eru sem **Nýtt** í fjárhag. Athugaðu að bókun má ljúka aðeins einu sinni fyrir hvert bankayfirlit.
+
+
 
 

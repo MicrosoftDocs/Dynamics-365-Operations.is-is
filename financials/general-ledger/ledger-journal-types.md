@@ -1,6 +1,6 @@
 ---
 title: "færslubókargerðir fjárhags"
-description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nöfn síðan Færslubók er notuð til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 fyrir Aðgerðir."
+description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna heiti færslubókar til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>færslubókargerðir fjárhags
 
-Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nöfn síðan Færslubók er notuð til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 fyrir Aðgerðir.
+[!include[banner](../includes/banner.md)]
+
+
+Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna heiti færslubókar til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Operations.
 
 | Færslubókargerð                      | Málefni                                                                                                                                                                                                                                                                                                                                                     | Færa inn færslur á þessari síðu                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ ms.lasthandoff: 03/31/2017
 | Greiðslusending lánardrottins            | Stofna eigin greiðsluskrá sem má senda til banka fyrirtækisins.                                                                                                                                                                                                                                                                      | Greiðslubók                                             |
 | Greiðsla til lánardrottins               | Stofna færslur greiðslu til lánardrottins                                                                                                                                                                                                                                                                                                                    | Greiðslubók                                                |
 | Gefa út eigin víxil lánardrottins       | Gefa út eigin víxla lánardrottins sem greiðsluhátt. Til að nota þessa færslubókargerð, hreinsa valkostinn **Stofna og bóka útgáfubók sjálfvirkt við bókun reikninga** á síðunni **greiðsluaðferð - lánardrottnar**                                                                                                                                          | Gefa út eigin víxilbók                                   |
-| Reikningssafn lánardrottins bóka | Stofna færslur reiknings lánardrottins sem hafa ekki enn verið bókaðar í tímabundinn komulykil.                                                                                                                                                                                                                                                             | Reikningahópur lánardrottins án bókunarupplýsinga                  |
+| Reikningasafn lánardrottins að frátöldu bóka | Stofna færslur reiknings lánardrottins sem hafa ekki enn verið bókaðar í tímabundinn komulykil.                                                                                                                                                                                                                                                             | Reikningahópur lánardrottins án bókunarupplýsinga                  |
 | Reikningasafn lánardrottna               | Stofna færslur reikningasafns lánardrottna                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Skráning reiknings frá lánardrottni          | Bóka lánardrottnareikninga sem eru í færslubók.                                                                                                                                                                                                                                                                                                                 | Reikningabók                                                |
 | Lánardrottnaendurútgáfa eigin víxils     | Endurútgefa eigin víxil sem áður hefur verið samþykktur af banka fyrirtækis þíns.                                                                                                                                                                                                                                                                      | Endurútgáfubók eigin víxla                                 |
 | Lánardrottinn jafnar eigin víxil     | Stofna færslur jöfnunar lánardrottins á eigin víxli.                                                                                                                                                                                                                                                                                                          | Jafna eigin víxilbók                                 |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Sölu- og afköst arðsemisgreiningu Power BI-efni"
-description: "Þetta efnisatriði lýsir því hvað er innifalin í Dynamics 365 aðgerða - Sölu- og arðsemi afköst innihaldi pakka fyrir Microsoft Power BI. Það útskýrt hvernig á að ná í skýrslur í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til innihald þjónustupakka."
+title: "Sölu- og afköst arðsemisgreiningar Power BI-efni"
+description: "Þetta efnisatriði lýsir því sem er innifalið í Dynamics 365 for Operations - Sölu- og arðsemi afköst innihaldi pakka fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og afköst arðsemisgreiningu Power BI-efni
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og afköst arðsemisgreiningar Power BI-efni
 
-Þetta efnisatriði lýsir því hvað er innifalin í Dynamics 365 aðgerða - Sölu- og arðsemi afköst innihaldi pakka fyrir Microsoft Power BI. Það útskýrt hvernig á að ná í skýrslur í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til innihald þjónustupakka.
+Þetta efnisatriði lýsir því sem er innifalið í Dynamics 365 for Operations - Sölu- og arðsemi afköst innihaldi pakka fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka.
 
 <a name="overview"></a>Yfirlit
 --------
 
-Þessi innihald þjónustupakka var stofnuð fyrir sölustjórnendur til að fylgjast með sölu mælikvörðum lykill yfir tekjur, brúttóhagnað og hagnaður framlegð. Það notar sölu færslugögn úr Dynamics 365 aðgerða og veitir both steypa saman yfirlit fyrirtækið sölu tölur og niðurbrot afköst í sölu fyrir viðskiptavini og vörur. Með því að merkja breytingar í fyrir vöxt tekjur og hagnað tímanum hægt að nota skýrslur stjórnenda viðvörun um leitni jákvætt og neikvætt fyrir einstaka viðskiptavini og vörur. Tegund og svæðisbundið stjórnendur finnur það gagnlegt að bera saman tekjur og arðsemi fyrir tegundum aðra afurð og viðskiptavinaflokka hvor við aðra sem einni út laggards og leaders gröf. Fá alhliða skýrslu sem plots einstökum viðskiptavini tekjur og hagnaðarframlegð tilboð lykil stjórnendur afrita gögn grunn að attune þeirra sölu og markaðssetningar vinna viðkomandi forstillingu fyrir hvern viðskiptavin. Sölu- og arðsemi afköst innihald þjónustupakka gerir stjórnendum Sölu til að greina afköst í sölu eftir:
+Þessi efnispakki var stofnaður fyrir sölustjórnendur til að fylgjast með lykilmælikvörðum sölu yfir tekjur, brúttóhagnað og hagnaður framlegð. Hann notar færslugögn sölu frá Microsoft Dynamics 365 for Operations og veitir bæði samanlagt yfirlit yfir sölutölur fyrirtækisins og sundurliðun söluafkomu fyrir viðskiptavini og afurðir. Með því að merkja breytingar á vexti í tekjum og hagnaði yfir tíma er hægt að nota skýrslur til að vara stjórnendur við jákvæðri og neikvæðri kostnaðarþróun fyrir einstaka lánardrottna og vörur. Tegunda- og svæðisbundnum stjórnendum finnst gagnlegt að bera saman tekjur og arðsemi fyrir ólíkar tegundir afurða og viðskiptavinaflokka til að finna slóða og leiðtoga. Alhliða skýrsla sem dregur upp tekjur á móti hagnaðarhlutfalli staks viðskiptavinar býður lykilstjórnendum gagnaafritaðan grunn að til fínstilla sölu sína og markaðssetningu fyrir viðkomandi forstillingu fyrir hvern viðskiptavin. Efnispakki sölu- og arðsemiafkoma auðveldar sölustjórum að greina söluafkomu eftir:
 
 -   Tekjur, á árinu (með viðskiptavinaflokk og einstaka viðskiptavini, sölutegundir, og stakar afurðir og landsvæði)
--   Breyta tekjur, ár of-ár (eftir svæði og vsk tegundum viðskiptavina)
+-   Tekjubreytingar, ár frá ári (eftir svæði viðskiptavina og söluflokkum)
 
-Hægt er að greina arðsemisgreiningu eftir:
+Hægt er að greina arðsemi eftir:
 
--   Brúttóhagnaður í og hagnaðarframlegð (með því að flokka viðskiptavina og afurðaflokka sölu)
--   Brúttóframlegð breytinguna ár of ár
--   Arðsemi viðskiptavinar (eftir tekjum og brúttóframlegð)
+-   Brúttóhagnaði og hagnaðarframlegð (með því að flokka viðskiptavina og afurðaflokka sölu)
+-   Breyting á brúttóframlegð, ár frá ári
+-   Arðsemi viðskiptavinar (eftir tekjum á móti brúttóframlegð)
 
-## <a name="accessing-the-content-pack"></a>Fara í hugbúnaðarhlutartréð innihaldi pakka
-Sölu- og afköst arðsemisgreiningu Power BI innihald þjónustupakka er birt sem innleiðingu eign í Lifecycle Services (LCS) og hægt er að nálgast Dynamics 365 fyrir Aðgerðir. Nánari upplýsingar um hvernig á að fá aðgang að og ræsa Power BI skýrslur í [Power BI efni í LCS frá Microsoft og for your viðskiptaaðila](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Farið í efnispakkann
+Power BI efnispakki afkomu sölu og arðsemi er gefinn út sem innleiðingareign í Lifecycle Services (LCS) og er hægt að fara í úr Dynamics 365 for Operations. Nánari upplýsingar um hvernig á að fara í og opna Power BI-skýrslur er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>Í innihald þjónustupakka mælikvörðum
-Innihald þjónustupakka inniheldur skýrsla sem samanstendur af safni mælikvörðum visualized sem gröf reitir og töflur. Eftirfarandi tafla veitir yfirlit yfir visualisations í innihald þjónustupakka.
+## <a name="metrics-included-in-the-content-pack"></a>Mælikvarðar sem eru hafðir með í efnispakka
+Efnispakkinn inniheldur skýrslu sem samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efnispakkanum.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Skýrslan síðu**        | **Charts**                                 | **Reitir**                                               |
-| Tekjur af viðskiptavini    | 10 efstu viðskiptavinir eftir tekjum                | Heildartekjur                                           |
-|                        | Heildartekjur eftir viðskiptavinaflokki            | Tekjur vöxt sölu milli ÁRA                                      |
-|                        | Tekjur meðaltal viðskiptavina eftir viðskiptavinaflokki | Brúttóframlegð                                            |
-|                        | Tekjur & brúttóframlegð eftir viðskiptavini   |                                                         |
-| Tekjur eftir afurð     | Tekjur & brúttóframlegð eftir söluflokki   | Samtals \#afurða                                    |
-|                        | 10 efstu afurðir eftir tekjum                 | Heildarfjöldi virk afurðir og prósentu af heild |
+| **Skýrslusíða**        | **Gröf**                                 | **Reitir**                                               |
+| Tekjur eftir viðskiptavini    | Efstu tíu viðskiptamenn eftir tekjum                | Heildartekjur                                           |
+|                        | Heildartekjur eftir viðskiptavinaflokki            | Vöxtur í tekjum ár frá ári                                      |
+|                        | Heildartekjur viðskiptavina eftir viðskiptavinaflokki | Brúttóframlegð                                            |
+|                        | Tekjur & brúttóframlegð eftir viðskiptavinaflokki   |                                                         |
+| Tekjur eftir afurðum     | Tekjur & brúttóframlegð eftir söluflokki   | Samtala \# aukaafurða                                    |
+|                        | Efstu tíu afurðir eftir tekjum                 | Heildarfjöldi virkra afurða og prósenta af samtölu |
 |                        | Heildartekjur eftir söluflokki            | Fjöldi afurða fyrir 80% tekna           |
-| Tekjur eftir tímabili\*    | Tekjur eftir mánuði                           | Tekjur vöxt sölu milli ÁRA                                      |
-|                        | Aftast frávik tekjum, sölu milli ÁRA             | % Fyrir vöxt sölu milli ÁRA tekjur                                    |
+| Tekjur eftir tímabili\*    | Tekjur eftir mánuði                           | Vöxtur í tekjum ár frá ári                                      |
+|                        | Eftirliggjandi tekjufrávik             | Vöxtur í tekjum ár frá ári %                                    |
 |                        | Heildarfrávik sölu eftir landsvæði viðskiptavinar    |                                                         |
-| Tekjur eftir staðsetningu    | Sölutekjur af borg                      |                                                         |
-|                        | % Fyrir vöxt sölu milli ÁRA tekjur                       |                                                         |
-|                        | Sölutekjur af svæði                    |                                                         |
-| Skýrsla um arðsemisgreiningu viðskiptavinar | Brúttóframlegð eða tekjur eftir viðskiptavini   | Brúttóframlegð, brúttóframlegð, vöxt sölu milli ÁRA tekjur          |
-| Arðsemisgreining | Tekjur og brúttóframlegð eftir mánuði          |                                                         |
-|                        | 15 efstu viðskiptavinir eftir brúttóframlegð           |                                                         |
-|                        | Brúttóframlegð eftir mánuði, sölu milli ÁRA                 |                                                         |
+| Tekjur eftir staðsetningu    | Sölutekjur eftir borg                      |                                                         |
+|                        | Vöxtur í tekjum ár frá ári %                       |                                                         |
+|                        | Sölutekjur eftir svæðum                    |                                                         |
+| Arðsemi viðskiptavinar | Brúttóframlegð á móti tekjum, viðskiptavinum   | Brúttóhagnaður, brúttóframlegð, vöxtur í tekjum ár frá ári          |
+| Arðsemisgreining | Tekjur og brúttóhagnaður eftir mánuði          |                                                         |
+|                        | Efstu 15 viðskiptamenn eftir brúttóframlegð           |                                                         |
+|                        | Brúttóhagnaður eftir mánuði, ár frá ári                 |                                                         |
 
-\*Tekjur þetta og síðasta ári, og vöxt eftir söluflokki.
+\* Tekjur þessa árs og síðasta árs og vöxtur eftir söluflokki.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Dynamics 365 fyrir Aðgerðir er notuð til að fylla skýrsluna í Sölu- og arðsemi afköst innihald þjónustupakka. Þetta er birtur sem uppsöfnuðum mælingum sem stig eru í versluninni Einingar sem er bestuð fyrir greiningu gagnagrunni Microsoft SQL. Lesa meira um það á við blog [Power BI samþættingu við Verslunina Einingar í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Uppsafnaðar mælingar í þessa innihald þjónustupakka eru undirsetti uppsöfnuðum mælingum sem voru tiltæk í Sölutening í Dynamics AX 2012 og AX 2012 R3. Áfangi uppsafnaðar mælingar tenings í versluninni Einingar sem verður að gera þær virkjanlegir. Nánari upplýsingar, sjá ferli um áfangi uppsafnaðar mælingar í verslun Einingar í á blog [Power BI samþættingu við Verslunina Einingar í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Í eftirfarandi lykill uppsöfnuðum mælingum einingarinnar Reiknings línur eru notaðar sem grunnur innihald þjónustupakka.
+Dynamics 365 for Operations er notað til að fylla út skýrslur í efnispakka Sölu- og arðsemisframmistöðu. Þetta er birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Sjá frekari upplýsingar um það í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Dynamics AX 2012 og AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í einingaverslun í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Eftirfarandi lykiluppsafnaðar mælingar á reikningslínueiningunni eru notaðar sem grunnur að efnispakka.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | **Uppsafnaðar mælingar lykli**               | **Gagnagjafi fyrir Dynamics 365 fyrir Aðgerðir** | **Field**                                    | **Description**                          |
-| Línur á reikningi | Tekjur                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Upphæð í bókhaldsgjaldmiðli            |
-|               | Kostnaður seldra vara                           | InventTrans                                     | SAMTALA (CostAmountPosted + CostAmountAdjustment) | Kostnaðarupphæð + leiðrétting                 |
-|               | Línuupphæð þóknunar-bókhaldsgjaldmiðill | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Upphæð þóknunar í bókhaldsgjaldmiðli |
+| **Eining**    | **Lykiluppsafnaðar mælingar**               | **Gagnaveita fyrir Dynamics 365 for Operations** | **Svæði**                                    | **Lýsing**                          |
+| Línur á reikningi | Tekjur                                      | CustInvoiceTrans                                | SAMTALA(LineAmountMST)                           | Upphæð í bókhaldsgjaldmiðli            |
+|               | Kostnaður seldra vara                           | InventTrans                                     | SAMTALA(CostAmountPosted + CostAmountAdjustment) | Kostnaðarupphæð + leiðrétting                 |
+|               | Línuupphæð þóknunar – bókhaldsgjaldmiðill | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Upphæð þóknunar í bókhaldsgjaldmiðli |
 
-Eftirfarandi tafla sýnir sem lykill uppsöfnuðum mælingum einingarinnar reiknings línur sem eru notaðar til að stofna reiknaðar mælieiningar í innihaldi pakka dataset.
+Eftirfarandi tafla sýnir lykiluppsafnaðar mælingar reikningslínueiningarinnar sem eru notaðar til að stofna nokkrar útreikningsmælingar í efnispakkanum.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | **Reiknuð sem**                                                                                |
-| Brúttóframlegð      | SAMTALA (Tekjur – kostnaður seldra VARA-Þóknun – virðisaukaskatt (með í línuupphæð viðskiptavinareiknings))          |
-| Brúttóframlegð      | SAMTALA (Brúttóframlegðar / (Veltu - virðisaukaskattur (innifalinn í línuupphæð viðskiptavinareiknings)))             |
-| Tekjur síðasta árs | Tekjur síðasta árs = REIKNA (SAMTALA ('Reikningslínur'\[Tekjur\]), SAMEPERIODLASTYEAR (Dagsetningar\[Dagsetning\]) |
+| **Mælieining**       | **Reiknað sem**                                                                                |
+| Brúttóframlegð      | SUM(Tekjur – COGS – Þóknun – Virðisaukaskattur (talinn með í línuupphæð viðskiptavinareiknings))          |
+| Brúttóframlegð      | SUM(Brúttóhagnaður/ (Tekjur – Virðisaukaskattur (talinn með í línuupphæð viðskiptavinareiknings)))             |
+| Tekjur síðasta árs | Tekjur síðasta árs = REIKNA (SAMTALA ('Reikningslínur'\[Tekjur\]), SAMEPERIODLASTYEAR (Dagsetningar\[Dagsetning\])) |
 
-Eftirfarandi lykill víddir í á **sölutening** eru notuð sem síur til að sneiða uppsöfnuðum mælingum sem á að ná hærri uppskiptingin og hærra insights greiningar.
+Eftirfarandi lykilvíddir í **Söluteningi** eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að ná meiri uppskiptingu og dýpri greiningarinnsýn.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | **Dæmi um eigindir**                           |
+| **Eining**       | **Dæmi um eigindir**                           |
 | Viðskiptavinir        | Viðskiptavinaflokkar, Viðskiptavin svæða, Heimilisfang, Atvinnugrein |
-| Afurðir         | Afurðarnúmer, afurðarheiti, vöruheiti flokka       |
-| Sölutegundir | Heiti söluflokk                                 |
+| Afurðir         | Afurðarnúmer, afurðarheiti, heiti vöruflokka       |
+| Sölutegundir | Heiti söluflokka                                 |
 | Lögaðilar   | Heiti lögaðila                                   |
 | Dagsetningar            | Dagsetningar                                                |
 
-Að sjálfgefnu innihald þjónustupakka birtir gögn fyrir núgildandi almanaksár, en hægt er að opna hlutann síur skýrslu og breyta dagsetningu síu. Einnig er hægt að breyta síu fyrirtækisins.
+Sjálfgefið er að efnispakki sýni gögn fyrir núgildandi almanaksár, en hægt er að opna skýrslusíuhlutann og breyta dagsetningarafmörkun. Einnig er hægt að breyta síu fyrirtækisins.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:

@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Hæfnireglur fríðinda
 
-Þetta efni veitir upplýsingar um fríðindi hæfnireglur hvaða aðstoð sem er skilgreint sem er hæfur fyrir tiltekin fríðindi.
+[!include[banner](includes/banner.md)]
+
+
+Þetta efnisatriði veitir upplýsingar um skilyrði fyrir veitingu fríðinda, sem hjálpar þér að skilgreina hver er hæfur til að fá tilgreind fríðindi.
 
 Þegar fríðindi eru stofnuð þarf að ákveða hvaða fríðindi verða tiltæk fyrir hvaða starfsmenn. Eftirfarandi tafla sýnir dæmi um fríðindi sem gætu verið gerð tiltæk fyrir ákveðna starfsmenn.
 
@@ -38,7 +41,7 @@ ms.lasthandoff: 03/31/2017
 | Farsími     | Starfsfólk í sölu, yfirmenn         |
 | Bílastæðapassar   | Yfirmenn                      |
 
-Í eftirfarandi íhlutir eru notaðar til að stofna hæfnireglur:
+Eftirfarandi íhlutir eru notaðir til að stofna hæfnireglur:
 
 -   Stefnureglugerðir
 -   Hæfnireglur fríðinda
@@ -51,5 +54,7 @@ Stefnureglugerðir skilgreina fyrirspurnafæribreytur sem eru notaðar þegar s�
 --------
 
 [Skilgreina og stjórna fríðindaáætlun](manage-benefit-program.md)
+
+
 
 

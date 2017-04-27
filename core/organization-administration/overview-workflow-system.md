@@ -1,6 +1,6 @@
 ---
-title: "Yfirlit yfir verkflæði kerfið"
-description: "Þessi skrá lýsir verkflæðiskerfið í Microsoft Dynamics 365 fyrir Aðgerðir."
+title: "Yfirlit yfir verkflæðiskerfi"
+description: "Þessi grein lýsir verkflæðikerfi í Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Yfirlit yfir verkflæði kerfið
+# <a name="workflow-system-overview"></a>Yfirlit yfir verkflæðiskerfi
 
-Þessi skrá lýsir verkflæðiskerfið í Microsoft Dynamics 365 fyrir Aðgerðir.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir verkflæðikerfi í Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Hvað er verkflæði?
 -----------------
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 Hugtakið *verkflæði* er hægt að skilgreina á tvo vegu: sem kerfi og sem viðskiptaferli.
 ### <a name="workflow-is-a-system"></a>Verkflæði er kerfi
 
-Verkflæði er kerfi sem er sett upp með Dynamics 365 aðgerða og sem keyrir á Þjóni Hugbúnaðarhluta (AOS). Verkflæðiskerfi veitir aðgerðir sem þú getur notað til að mynda einstakt verkflæði, eða viðskiptaferli.
+Verkflæði er kerfi sem er uppsett innan Dynamics 365 for Operations og keyrir á Application Object Server (AOS). Verkflæðiskerfi veitir aðgerðir sem þú getur notað til að mynda einstakt verkflæði, eða viðskiptaferli.
 
 ### <a name="workflow-is-a-business-process"></a>Verkflæði er viðskiptaferli
 
@@ -46,6 +49,7 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 -   **Samræmt ferli** — Hægt er að skilgreina hversu nákvæmlega skjöl, , eins og innkaupabeiðnir og kostnaðarskýrslur, skuli vera unnin. Með því að nota verkflæðiskerfi er gengið úr skugga um að skjölin eru unnin og samþykkt með samræmdum og skilvirkum hætti.
 -   **Sýnileiki ferlis** — Hægt er að rekja stöðu, sögu og afkastamælikvarða tiltekins verkflæðistilviks. Þetta auðveldar ákvörðun um hvort breyta þurfi verkflæðinu til að auka skilvirkni.
 -   **Miðlægur verkefnalisti** — Notendur geta skoðað miðlægan verkefnalista sem birtir verkflæðisverk og samþykktir sem tilheyra þeim.
+
 
 
 

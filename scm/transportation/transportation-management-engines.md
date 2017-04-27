@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
+[!include[banner](../includes/banner.md)]
+
+
 Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun. 
 
 Vél flutningsstjórnunar reiknar verk, eins og flutningsverðskrá flutningsaðila. Vélakerfið gerir kleift að breyta stefnu útreikninga á keyrslutíma, samkvæmt á gögnum í Microsoft Dynamics 365 for Operations. Vél flutningsstjórnunar svipar til tengiforrits sem tengjast tilteknum samningi við flutningsaðila.
@@ -58,7 +61,7 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 Í flestum tilvikum getur þú smellt á hnappinn **Færibreytur** í uppsetningarskjámyndum vélar flutningsstjórnunar til að skilgreina frumstillingargögn. **Dæmi um uppsetningu á taxtavél sem vísar til kílómetravélina** Eftirfarandi dæmi sýnir uppsetningu sem krafist er fyrir taxtavél sem byggir á .NET vélargerðin Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine og vísar í akstursvél.
 | Færibreyta             | Lýsing                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan gildi færibreyta samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttum strik)|). Fyrsti hluti inniheldur samsetningarinnar sem skilgreinir þá gerð assigner. Annar hlutinn skilgreinir fullgilda heiti assigner gerð. Þar á meðal nafnabil af gerðinni. |
+| *RateBaseAssigner*    | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan færibreytugildis samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttu striki (|). Fyrsti hluti inniheldur samsetningarinnar sem skilgreinir þá gerð assigner. Annar hlutinn skilgreinir fullgilda heiti assigner gerð. Þar á meðal nafnabil af gerðinni. |
 | *MileageEngineCode*   | Farmreiknivélakóði sem auðkennir skráningu farmvélar í gagnagrunni Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Almennur hreyfilkóði sem auðkennir skráningu kostnaðarskiptingavélar í gagnagrunni Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | **Flutningstímavél** og **akstursvél** | Sækir lýsigögn beint úr uppsetningarskjámynd fyrir skilgreiningu akstursvélina.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Dæmi um lýsigögn fyrir taxtavél** Flutningsstjórnunarvél krefst kenni aðsetursuppruna, áfangastaðsríki og lands/svæðis og upphafs- og endastöð sendingarinnar. Með því að nota þessar þarfir lýsigögn myndu líta út eins og gögn í eftirfarandi töflu. Taflan inniheldur einnig upplýsingar um hvers konar gögn inntaks er krafist.
--   Tilgreina þessar upplýsingar í **flutningsstjórnun**&gt;**Uppsetningu** á í **Taxti grunngerð** síðu.
+-   Þessar upplýsingar á að skilgreina í **Flutningsstjórnun** &gt; **Uppsetning** á síðunni **Gerð taxtagrunns**.
 
 | Röð | Nafn                          | Gerð svæðis | Gagnagerð | Uppsláttargerð    | Áskilið |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | 3        | Upphafspóstnúmer áfangastaðar | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 4        | Póstnúmer áfangastaðar   | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 5        | Áfangaland           | Úthlutun | Strengur    | Land/svæði |           |
+
+
 
 
 

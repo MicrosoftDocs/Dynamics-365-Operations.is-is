@@ -1,6 +1,6 @@
 ---
-title: "Nýjar eða uppfærðar Verkefni leiðir (Nóvember 2016)"
-description: "Þetta efnisatriði telur upp í nýjar eða uppfærðar Verkefni leiðbeiningar sem voru losaðar til Microsoft (Nóvember 2016 - öll tungumál) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 aðgerða. Engin ný Safn hafist handa var losuð."
+title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)"
+description: "Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 -- öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar Verkefni leiðir (Nóvember 2016)
+# <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 
-Þetta efnisatriði telur upp í nýjar eða uppfærðar Verkefni leiðbeiningar sem voru losaðar til Microsoft (Nóvember 2016 - öll tungumál) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 aðgerða. Engin ný Safn hafist handa var losuð.
+[!include[banner](../includes/banner.md)]
 
-Í (Nóvember 2016--öll tungumál) APQC, vefhlutinn sameinaður Safn inniheldur leiðbeiningar Verkið sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics 365 aðgerða, Microsoft Dynamics 365 Aðgerðir svæðis uppfærslu 3, Svæðis í Microsoft Dynamics AX update 2, Dynamics AX uppfærslu 2016 Maí, og Microsoft Dynamics AX 2016 Febrúar losa. Sjá frekari upplýsingar um þessum útgáfum [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfært útgáfur leiðbeiningar Verk eru tiltækar í þessari safnið. Nánari upplýsingar um hvernig tengja hjálparkerfinu safn fyrir leiðarvísi fyrir Verk, sjá [byrja með Hjálp](help-overview.md). **Athugasemd:** stjörnu (**\***) titillinn viðskiptaferlavinnsla (BPM) við hliðina á línunni sýnir leiðarvísi fyrir Verk fyrir viðskiptaferli sem var stofnuð fyrir Dynamics 365 aðgerða Nóvember 2016 uppfæra og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
+
+Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 -- öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð.
+
+(Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** stjarna (**\****) við titillinn viðskiptaferlavinnsla (BPM) línunni sýnir leiðarvísi fyrir verk fyrir viðskiptaferli sem var stofnuð fyrir Microsoft Dynamics 365 for Operations nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 
 | BPM-lína                                                                                           | Land/svæði |
 |----------------------------------------------------------------------------------------------------|----------------|
-| Lykill gögn í AP kerfið með því að nota staðfestingarbók                                               | Altæk         |
-| Lykill gögn í AP kerfið með því að nota reikning lánardrottins (færið Inn og bóka reikning lánardrottins með samsvarandi) | Altæk         |
+| Lykilgögn reiknings í AP kerfið með því að nota færslubókarsamþykkt                                               | Altæk         |
+| Lykilgögn reiknings í AP kerfinu með því að nota reikning lánardrottins (slá skal inn og bóka reikningur lánardrottins með samsvörun) | Altæk         |
 | Lykilgögn reiknings í AP kerfið með því að nota reikningabók                                              | Altæk         |
 | Lykilgögn reiknings í AP kerfið með því að nota sjóðasafn reiknings                                                 | Altæk         |
-| Skrá móttöku á reikningi lánardrottins og bera saman við móttekið magn                           | Altæk         |
+| Skrá móttöku á reikningi lánadrottna og bera saman við móttekið magn                           | Altæk         |
 | Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda                                                | Altæk         |
 | Setja upp stefnur lánardrottna                                                                    | Altæk         |
 
@@ -49,7 +52,7 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                                           | Land/svæði |
 |------------------------------------------------------------------------------------|----------------|
 | Úthluta viðskiptavini með endurtekna sniðmát textareiknings                        | Altæk         |
-| Reikna út vexti og stofna og prenta og bóka vaxtanótur (ferli vextir) | Altæk         |
+| Reikna út vexti og stofna og prenta og bóka vaxtanótur (vinna vexti) | Altæk         |
 | Stofna innheimtubréfaröð                                                | Altæk         |
 | Stofna umboð fyrir beingreiðsla fyrir viðskiptavin                                       | Altæk         |
 | Stofna textareikning                                                         | Altæk         |
@@ -59,7 +62,7 @@ ms.lasthandoff: 03/31/2017
 | Stofna sölupöntunarreikninga                                                        | Altæk         |
 | Mynda og bóka endurtekna textareikninga                                     | Altæk         |
 | Vinna innheimtubréf                                                         | Altæk         |
-| Fara yfir upplýsingar um innheimtu                                                      | Altæk         |
+| Endurskoða innheimtuupplýsingar                                                      | Altæk         |
 | Setja upp og mynda viðskiptakröfur fyrir aldursgreiningu                          | Altæk         |
 
 ### 
@@ -77,11 +80,11 @@ ms.lasthandoff: 03/31/2017
 
 | BPM-lína                    | Land/svæði |
 |-----------------------------|----------------|
-| Breyta skal fjárhagsáætlunarútlit | Altæk         |
+| Breyta fjárhagsáætlunarútliti | Altæk         |
 
 ### 
 
-### <a name="cash-management"></a>Stjórnun reiðufjár
+### <a name="cash-management"></a>Sjóður
 
 | BPM-lína                                                             | Land/svæði |
 |----------------------------------------------------------------------|----------------|
@@ -104,7 +107,7 @@ ms.lasthandoff: 03/31/2017
 | Uppsetning fyrirframdagsettra ávísana                                              | Altæk         |
 | Jöfnun fyrirframdagsettrar ávísunar fyrir lánardrottin                                | Altæk         |
 | Fyrirframdagsett ávísun frá viðskiptamanni gerð upp                             | Altæk         |
-| Yfirlit yfir greiðslur lánardrottins                                             | Altæk         |
+| Yfirlit yfir greiðslu lánardrottins                                             | Altæk         |
 
 ### 
 
@@ -137,45 +140,45 @@ ms.lasthandoff: 03/31/2017
 
 | BPM-lína                                                                                                                             | Land/svæði                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Bæta við BAS viðbótarhólf og mynda í Ástralíu Viðskiptaskýrslu (BAS)                                                    | Ástralía og Nýja-Sjáland         |
+| Bæta við BAS skýrsluhólfum og mynda Australia Business Activity Statement (BAS)                                                    | Ástralía og Nýja-Sjáland         |
 | Setja upp ástæðukóða fyrir Ástralíu BAS                                                                                                | Ástralía og Nýja-Sjáland         |
-| **\***Chinese voucher continuity check                                                                                               | Kína                             |
-| **\***Kínversk CN 00010 stigveldi bókhaldslykil                                                                                  | Kína                             |
-| **\***Aðgerðakladdi CN 00016 Notanda með Kínversk vinnutíma reglu                                                                              | Kína                             |
-| **\***Golden tax integration export setup                                                                                            | Kína                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Kína                             |
-| **\***Post vouchers from the general journal                                                                                         | Kína                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Kína                             |
-| **\***Set up Chinese vouchers                                                                                                        | Kína                             |
+| **\***Athuga samfelldni kínverskra fylgiskjala                                                                                               | Kína                             |
+| **\***CN-00010 Kínversk stigveldi bókhaldslykil                                                                                  | Kína                             |
+| **\***CN-00016 Notendakladdi af kínverskir vinnureglu                                                                              | Kína                             |
+| **\***Uppsetning útflutnings fyrir Golden tax-samþættingu                                                                                            | Kína                             |
+| **\***Bóka fylgiskjöl úr öðrum einingum, eins og sölureikninga                                                                          | Kína                             |
+| **\***Bóka fylgiskjöl úr almennri færslubók                                                                                         | Kína                             |
+| **\***Setja upp venjulega skattsamþættingarreglu fyrir Kína                                                                                 | Kína                             |
+| **\***Setja upp kínversk fylgiskjöl                                                                                                        | Kína                             |
 | Stofna og bóka reikning viðskiptavinar fyrir opinbera viðskiptavini                                                                      | Danmörk                           |
 | Stofna og bóka reikning með frjálsum texta fyrir viðskiptavin í opinberiageiranum                                                                     | Danmörk                           |
 | Stofna og bóka verkreikningur fyrir opinbera viðskiptavini                                                                       | Danmörk                           |
-| Textareikningur með greiðsluseðil fyrir fylgiseðils-/ Bóka DK-00007 FIK 752 gíróseðilinn                                               | Danmörk                           |
-| Verkreikningur með greiðsluseðil fyrir fylgiseðils-/ Bóka DK-00007 FIK 752 gíróseðilinn                                                 | Danmörk                           |
+| DK-00007 FIK 752 greiðsluseðill fyrir gíróseðil/bóka gíróseðil með texta að eigin vali                                               | Danmörk                           |
+| DK-00007 FIK 752 greiðsluseðill fyrir gíróseðil/bóka verkreikning með greiðsluseðil                                                 | Danmörk                           |
 | Flytja inn skilgreiningar rafræna reikningsfærslu OIOUBL                                                                                    | Danmörk                           |
 | Flytja inn viðskiptavinalykill fyrir  rafræna reikningsfærslu OIOUBL                                                                             | Danmörk                           |
 | Flytja inn rafræna reikningsfærslu OIOUBL                                                                                                   | Danmörk                           |
 | Uppsetning sniðs greiðsluseðils                                                                                                           | Danmörk                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Austur-Evrópa                    |
+| **\***EEU-00047 Fyrirframgreiðsla til starfsmanns                                                                                          | Austur-Evrópa                    |
 | Stofna og flytja út greiðslur lánardrottins með greiðslusnið ISO20022                                                                      | Evrópu                            |
 | Stofna greiðslutillögu fyrir viðskiptavini sem hafa umboð fyrir beingreiðslu                                                                          | Evrópu                            |
-| **\***Verkfæri fyrir myndun Greiðslu EE 00015 tilvísun                                                                                     | Evrópu                            |
+| **\***EE-00015 Verkfæri fyrir myndun tilvísun greiðslu                                                                                     | Evrópu                            |
 | EUR-00002 Mynda ESB intrastat-skattaskýrslu                                                                                       | Evrópu                            |
-| **\***Tilgreina EUR 00002 á sendingaruppfærslur aðsetur bandalags færslu                                                          | Evrópu                            |
+| **\***EUR-00002 Tilgreina aðsetur farmbréfs fyrir færslu innan bæjarfélags                                                          | Evrópu                            |
 | EUR-00002 Flytja færslur í intrastat                                                                                     | Evrópu                            |
 | EUR 00011 Mynda skýrslugerð fyrir ESB-sölulista                                                                                          | Evrópu                            |
 | EUR-00011 Setja upp skýrslugerð fyrir ESB-sölulista                                                                                             | Evrópu                            |
 | EUR-00012 Gefa út ESB færsluskírteini                                                                                              | Evrópu                            |
 | EUR-00012 Móttaka ESB-færsluskírteini                                                                                            | Evrópu                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Evrópu                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Evrópu                            |
-| **\***EUR 00015 að Setja upp VSK-Kenni                                                                                                        | Evrópu                            |
-| **\***Gengi HU 00001 útreikning kostnaðarhlutfalls                                                                                             | Evrópu                            |
+| **\***EUR-00015 Leitað að aðila með VSK-kenni                                                                                            | Evrópu                            |
+| **\***EUR-00015 Skráning Vsk-kennis lánardrottins                                                                                        | Evrópu                            |
+| **\***EUR-00015 Setja upp VSK-kenni                                                                                                        | Evrópu                            |
+| **\***HU-00001 Útreikningur gengis                                                                                             | Evrópu                            |
 | Flytja inn skilgreiningu ISO20022-kreditfærsla                                                                                        | Evrópu                            |
 | Flytja inn skilgreining ISO20022-beingreiðsla                                                                                           | Evrópu                            |
-| **\***Flytja LT 00003 skjal fyrir hreyfingu vara innan fyrirtækisins/Mynda flutningur skjalið fyrir flutning innri birgða   | Evrópu                            |
-| **\***LT 00003 Flutningur skjalið fyrir hreyfingu á vörum innan fyrirtækisins/Uppsetning flytja skjöl fyrir hreyfingu á vörum í fyrirtæki | Evrópu                            |
-| **\***ENGIN 00002 viðskiptavinagreiðslu byggir á Kenni greiðslu                                                                                  | Evrópu                            |
+| **\***LT 00003 Flutningsskjal fyrir hreyfingu vara innan fyrirtækisins/Mynda flutningsskjal fyrir flutning innri birgða   | Evrópu                            |
+| **\***LT 00003 Flutningsskjal fyrir hreyfingu á vörum innan fyrirtækisins/Setja upp flutningsskjöl fyrir hreyfingu á vörum í fyrirtæki | Evrópu                            |
+| **\***NO-00002 Greiðsla viðskiptavinar byggð á greiðslukenni                                                                                  | Evrópu                            |
 | Setja upp bankareikninga fyrirtækis fyrir ISO20022 kreditfærsla                                                                           | Evrópu                            |
 | Setja upp bankareikninga fyrirtækis fyrir ISO20022 beingreiðsla                                                                              | Evrópu                            |
 | Setja upp viðskiptavinir og bankareikningar viðskiptavinar fyrir ISO20022-beingreiðsla                                                                | Evrópu                            |
@@ -183,10 +186,10 @@ ms.lasthandoff: 03/31/2017
 | Setja upp greiðsluhátt fyrir ISO20022-beingreiðsla                                                                                   | Evrópu                            |
 | Setja upp lánardrottna og bankareikninga lánardrottins fyrir ISO20022 kredit flutninga                                                                | Evrópu                            |
 | Koma greiðsluháttum á fót                                                                                                | Frakkland                            |
-| FR-00002 lykil viðskiptavinar og lánardrottins                                                                                                 | Frakkland                            |
+| FR 00002 Viðskiptavina og lánardrottnalykill                                                                                                 | Frakkland                            |
 | FR-00003 NAF-kóðar og siret-númer                                                                                                 | Frakkland                            |
 | FR-00004 Samþykkja og bóka víxil                                                                                      | Frakkland                            |
-| FR-00004 Franskra víxla og eigin víxla                                                                               | Frakkland                            |
+| FR-00004 Franskir víxlar og eigin víxlar                                                                               | Frakkland                            |
 | FR 00004 Bóka afsagnavíxilbók                                                                                  | Frakkland                            |
 | FR 00004 Bóka endurútgefna víxilbók                                                                                       | Frakkland                            |
 | FR 00004 Uppsetningaraðferð greiðslu                                                                                                     | Frakkland                            |
@@ -200,7 +203,7 @@ ms.lasthandoff: 03/31/2017
 | Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 2: skilgreina útreikninga)                                                      | Þýskaland                           |
 | Rafræn skýrslugerð skilgreingasnið sér um að telja og leggja saman (Hluti 3: Nota útreikninga til að búa til úttak)                                         | Þýskaland                           |
 | Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 4: keyra snið)                                                                  | Þýskaland                           |
-| ER að Stofna veitandi skilgreiningar og merkja hana sem virka                                                                             | Þýskaland                           |
+| ER Stofna skilgreiningaveitu og merkja hana sem virka                                                                             | Þýskaland                           |
 | Rafræn skýrslugerð hanna grunnstilling til að mynda skýrslur í sniði Microsoft WORD (nóvember 2016)                                            | Þýskaland                           |
 | Rafræn skýrslugerð Hanna lénasértæk gagnalíkan (nóvember 2016)                                                                                 | Þýskaland                           |
 | Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services                                                                                    | Þýskaland                           |
@@ -218,28 +221,28 @@ ms.lasthandoff: 03/31/2017
 | Rafræn skýrslugerð nota svið sem má stækka lárétt til að bæta við dálkum gagnvirkt við í Excel skýrslum (Hluti 2: Keyra snið)                               | Þýskaland                           |
 | Búa til þýska endurskoðunarskrá                                                                                                           | Þýskaland                           |
 | Flytja inn stillingu þýska endurskoðunarskrá                                                                                               | Þýskaland                           |
-| **\***Afstemmingarskýrsla EUR 00018 VSK                                                                                            | Ísland                           |
-| IS-00006 lánardrottins skýrslu/Stofna lánardrottnalykil á reikningi og tengja skýrslu reiknings                                       | Ísland                           |
-| IS-00006 lánardrottins reiknings skýrslu/Setja upp reikning skýrslu fyrir lánardrottna                                                        | Ísland                           |
-| IS-00006 lánardrottins reiknings skýrslu/Uppfæra reikningsskýrslum lánardrottna og búa til skýrslu                                       | Ísland                           |
-| Viðhalda bókhaldslykli lykla/Uppsetning skylda greiðslutilvísanir                                                                       | Ísland                           |
+| **\***EUR-00018 VSK-afstemmingarskýrsla                                                                                            | Ísland                           |
+| IS-00006 Verktakamiði lánardrottins/Stofna lánardrottnalykil á reikningi og tengja verktakamiða                                       | Ísland                           |
+| IS-00006 Verktakamiði lánardrottins/Setja upp verktakamiða fyrir lánardrottna                                                        | Ísland                           |
+| IS-00006 Verktakamiði lánardrottins/Uppfæra reikning lánardrottins mynda skýrslu                                       | Ísland                           |
+| Viðhalda bókhaldslyklum/Setja upp skyldubundnar greiðslutilvísanir                                                                       | Ísland                           |
 | Kaupa eign með skylt starfslok eigna                                                                              | Japan                             |
-| Eignir eru keyptar, kröfu fyrir stjórnvalda styrkinn                                                                                 | Japan                             |
+| Kaup eignar, krafa um opinberan fjárstyrk                                                                                 | Japan                             |
 | Leiðrétting á eign starfslok verða mat                                                                               | Japan                             |
-| Úthluta flutningskostnað upphæð samnýtta eigna og þetta í lausafé myndun einingar                                                   | Japan                             |
+| Úthluta bókfært verð samnýttra eigna og viðskiptavildar í fjárskapandi einingar                                                   | Japan                             |
 | Breyta afskriftaraðferð á líftíma eignarinnar fyrir eina eign.                                                                   | Japan                             |
 | Breyta afskriftaraðferð á líftíma eignarinnar fyrir bók.                                                                        | Japan                             |
 | Skilgreina færibreytur accelerated afskriftir og bókunarreglur                                                                   | Japan                             |
 | CN-00004 Úthlutun fyrir afskriftabók eigna (JP-)                                                                                   | Japan                             |
-| Skilgreina afskriftarreglu og bókunarreglu til viðbótar afskrifta                                                   | Japan                             |
-| Skilgreina afskriftarreglu og bókunarreglu fyrir sérstaka                                                      | Japan                             |
+| Skilgreina afskriftarreglu og bókunarreglu fyrir viðbótarafskriftir                                                   | Japan                             |
+| Skilgreina afskriftarreglu og bókunarreglu fyrir sérstaka afskrift                                                      | Japan                             |
 | Skilgreina færibreytur sameinuðum reikningi og uppsetningu fyrir lánardrottna                                                             | Japan                             |
 | Skilgreina aðallykla fyrir eignina starfslok verða bókun og markaðinn afvöxtunarstuðla                                            | Japan                             |
 | Stofna eign við viðbótar afskriftir                                                                                    | Japan                             |
 | Stofna eign með sérstaka afskriftarreglu                                                                               | Japan                             |
 | Stofna hraðaafskriftareglu og úthluta henni á bók.                                                                        | Japan                             |
 | Stofna skjal hraðaðra afskriftir og færa inn gögn um notkun                                                                     | Japan                             |
-| Stofna og úthluta flokki búnaðar                                                                                                 | Japan                             |
+| Stofna og úthluta tækjahópi                                                                                                 | Japan                             |
 | Stofna og úthluta skjalinu lækkun færslu                                                                                           | Japan                             |
 | Stofna og staðfesta sameinuðum reikningi lánardrottins                                                                                     | Japan                             |
 | Stofna og staðfesta viðurkenningu prófun                                                                                                  | Japan                             |
@@ -259,14 +262,14 @@ ms.lasthandoff: 03/31/2017
 | Fyrirspunir um færslur um skuldbinding vegna losunar eignar.                                                                    | Japan                             |
 | Fyrirspurn um frádráttarbæran kostnaðar                                                                                                       | Japan                             |
 | JP-00005 Inntaksfærslubók í skjámyndinni T (Japan)                                                                                     | Japan                             |
-| JP-00011 sameinaðar reiknings - AR - Stofna og staðfesta sameinuðum reikningi viðskiptavinar                                              | Japan                             |
-| JP-00027 26 skjámynd fyrir afskrifanlegar skattskýrslu                                                                                     | Japan                             |
+| JP-00011 Samstæðureikningur - AR - Stofna og staðfesta samstæðureikning viðskiptavinar                                              | Japan                             |
+| JP-00027 Skjámynd 26 fyrir afskrifanlegar skattskýrslu                                                                                     | Japan                             |
 | Viðhalda eignaskrám aðalgagna fyrir Frádráttarbær kostnaðar                                                                       | Japan                             |
 | Viðhalda vísum um virðisrýrnunar á einstakar eignir                                                                                  | Japan                             |
 | Greiða færslu lánardrottins með samþykkja víxil viðskiptavinar                                                                    | Japan                             |
 | Reglubundinni jöfnun yfir- og undirafskrifta                                                                                   | Japan                             |
 | Leggja til viðbótar afskriftir                                                                                                      | Japan                             |
-| Leggja til og bóka accelerated afskrift                                                                                        | Japan                             |
+| Leggja til og bóka hraðaðar afskriftir                                                                                        | Japan                             |
 | Leggja og bóka upphæðina virðisrýrnunar með runu                                                                                      | Japan                             |
 | Leggja til og bóka upphæðina virðisrýrnunar með því að nota færslubók eigna                                                                  | Japan                             |
 | Leggja og bóka upphæðina virðisrýrnunar á reiðufjármyndandi einingum                                                                     | Japan                             |
@@ -300,12 +303,12 @@ ms.lasthandoff: 03/31/2017
 | MX-00010 Spyrjast fyrir um og prenta rafrænan reikning                                                                                     | Mexíkó                            |
 | MX 00010 Bóka reikning með frjálsum texta                                                                                                    | Mexíkó                            |
 | MX-00010 Setja upp færibreytur fyrir rafræna reikninga                                                                                    | Mexíkó                            |
-| MX-00020: Framleiða Mexíkósk rafræna fjárhag bókhaldsskýrslu 1.1 útgáfu                                                            | Mexíkó                            |
+| MX-00020 Búa til rafræna bókhaldsskýrslu útgáfu 1.1 fyrir Mexíkó                                                            | Mexíkó                            |
 | MX-00020 Setja upp bókhaldslykil lögaðila í Mexíkó                                                                   | Mexíkó                            |
 | MX 00020 Tilgreina RFC-skráningarkenni Mexíkóskra bankareikninga                                                                 | Mexíkó                            |
 | NL-00003 Semansys XBRL samþætting                                                                                                   | Holland                       |
 | NL 00010 Rafrænar skattskýrslur (EVAT)                                                                                          | Holland                       |
-| Debetnóta MY-00003 Stjórna viðskiptavinar og kreditnótu fyrir GST                                                                          | Malasíu Singapúr og Taíland |
+| MY-00003 Stjórna debetnótu viðskiptavinar og kreditnótu fyrir GST                                                                          | Malasíu Singapúr og Taíland |
 | MY-00004 Stjórna debetnótu lánardrottins og kreditnótu fyrir GST                                                                            | Malasíu Singapúr og Taíland |
 | MY-00005 Prenta GST skattareikninga                                                                                                      | Malasíu Singapúr og Taíland |
 | MY-00006 01 Setja upp GST ívilnunarákvæði                                                                                                | Malasíu Singapúr og Taíland |
@@ -340,7 +343,7 @@ ms.lasthandoff: 03/31/2017
 | Breyta eignaflokki                                        | Altæk         |
 | Breyta afskriftarvenjum fyrir margar eignir | Altæk         |
 | Stofna eign                                      | Altæk         |
-| Stofna og eignir eru keyptar úr lánardrottnum           | Altæk         |
+| Stofna og komast yfir eignir viðskiptaskuldir           | Altæk         |
 | Stofna afskriftartillögu                              | Altæk         |
 | Losa eignar með reikningi með frjálsum texta        | Altæk         |
 | Viðbót við eign færð inn                        | Altæk         |
@@ -362,7 +365,7 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                       | Land/svæði |
 |------------------------------------------------|----------------|
 | Loka reikningsárinu                          | Altæk         |
-| Stofna færslu í færslubók með því að nota sniðmát        | Altæk         |
+| Stofna færslu í færslubók með sniðmáti        | Altæk         |
 | Stofna aðallykil                          | Altæk         |
 | Stofna lykilskipulög                      | Altæk         |
 | Stofna uppsöfnunarskemu                         | Altæk         |
@@ -371,7 +374,7 @@ ms.lasthandoff: 03/31/2017
 | Stofna uppsöfnunarfærslur fyrir fjárhag             | Altæk         |
 | Skilgreina fjárhagsvíddir                    | Altæk         |
 | Skrá bókaðar færslubókarfærslur              | Altæk         |
-| Vinna með sniðmát fjárhagsvídda         | Altæk         |
+| Viðhalda sniðmátum fjárhagsvídda         | Altæk         |
 | Fjöldalokun fjárhagstímabils                    | Altæk         |
 | Vinna úr færslum í færslubók                        | Altæk         |
 | Vinna færslubók úthlutunar fjárhags              | Altæk         |
@@ -387,9 +390,9 @@ ms.lasthandoff: 03/31/2017
 
 | BPM-lína                                                                       | Land/svæði |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Altæk         |
-| **\***Create a consignment replenishment order                                 | Altæk         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Altæk         |
+| **\***Skipta um eignarhald á vörusendingabirgðum byggð á framleiðslueftirspurn | Altæk         |
+| **\***Stofna áfyllingarpöntun vörusendingar                                 | Altæk         |
+| **\***Fylgjast með vörusendingabirgðum með samstarfi lánardrottins                 | Altæk         |
 
 ### 
 
@@ -416,9 +419,9 @@ ms.lasthandoff: 03/31/2017
 
 | BPM-lína                                                         | Land/svæði |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Altæk         |
-| **\***Create a goal                                              | Altæk         |
-| **\***Create a performance review                                | Altæk         |
+| **\***Bæta við afkastabókina þína og senda hrós til einhvers | Altæk         |
+| **\***Stofna markmið                                              | Altæk         |
+| **\***Stofna frammistöðuskoðun                                | Altæk         |
 
 ### 
 
@@ -442,9 +445,9 @@ ms.lasthandoff: 03/31/2017
 | Bæta mynd við afurðar                                               | Altæk         |
 | Flokka afurð með flokkastigveldi                           | Altæk         |
 | Stofna strikamerki fyrir afurð.                                         | Altæk         |
-| \*Búa til nomenclature afurð númer fyrir fyrirfram afurðarafbrigði | Altæk         |
-| \*Búa til nomenclature afurð númer fyrir samskipaðar afurðarafbrigði | Altæk         |
-| \*Skilgreina sjálfgefnar pantanastillingar fyrir atriði                            | Altæk         |
+| \* Búa til nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði | Altæk         |
+| \* Stofna nafnakerfi afurðarafbrigðis fyrir skilgreind afurðarafbrigði | Altæk         |
+| \* Skilgreina sjálfgefnar pöntunarstillingar fyrir vöru                            | Altæk         |
 | Stofna sölupöntun fyrir stillanlega afurð                         | Altæk         |
 | Stofna söluverð valskilyrði                                   | Altæk         |
 | Færið inn GTIN-kóða fyrir afurðarinnar.                                       | Altæk         |
@@ -468,11 +471,11 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                                      | Land/svæði |
 |-------------------------------------------------------------------------------|----------------|
 | Gerð vottunar að bæta við lánardrottni fyrir Opinbera Stofnun                        | Altæk         |
-| Stýra aðgangi að innkaupasamningar úr Opinbera                      | Altæk         |
+| Stýra aðgangi að innkaupasamningum fyrir hið opinbera                      | Altæk         |
 | Stofna reikningsflokkun                                               | Altæk         |
 | Stofna innheimtukóði                                                         | Altæk         |
 | Stofna ráðstöfun til að taka frá fjármagn úr fjárhagsáætlun fyrir Opinbera Stofnun                 | Altæk         |
-| Stofna sérstillt svæði fyrir reikningsreglu                                      | Altæk         |
+| Stofna sérstillt svæði fyrir innheimtukóða                                      | Altæk         |
 | Stofna sjóður gerð                                                            | Altæk         |
 | Stofna reikning og eins-skiptis lánardrottinn                                          | Altæk         |
 | Stofna forvinnslu fjárhagsáætlunar fyrir Opinbera Stofnun                                 | Altæk         |
@@ -480,10 +483,10 @@ ms.lasthandoff: 03/31/2017
 | Stofna ítarlegar fjárhagsfærslur í opinbera geiranum                          | Altæk         |
 | Stofna upprunalega fjárhagsáætlun og bakfæra síðan færslur bráðabirgðafjárhagsáætlunar.         | Altæk         |
 | Stofna og úthluta kóða fyrir samstarfsaðila í opinbera geiranum                 | Altæk         |
-| Stofna forsíðu og síður undirskrift fyrir skýrslur um greiðslur fyrir opinbera stofnun   | Altæk         |
+| Stofna forsíðu og undirskriftarsíður fyrir greiðsluskýrslu fyrir hið opinbera   | Altæk         |
 | Flytja inn og að stofna mörg eins-skiptis lánardrottna og reikninga í opinbera geiranum | Altæk         |
 | Setja upp afleidd fjárhagsleg stigveldi í opinbera geiranum                     | Altæk         |
-| Setja upp sjóðs í opinberi geirinn                                            | Altæk         |
+| Setja upp sjóð fyrir opinberi geirann                                            | Altæk         |
 | Setja upp flokkanir innkaupasamnings fyrir opinberi geirinn                   | Altæk         |
 
 ### 
@@ -493,17 +496,17 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                         | Land/svæði |
 |------------------------------------------------------------------|----------------|
 | Skilgreina starfsmann                                               | Altæk         |
-| **\***Configure machine learning-powered product recommendations | Altæk         |
+| **\***Skilgreina ráðleggingar fyrir vörur sem byggja á vélnámi | Altæk         |
 | Skilgreina virknireglan fyrir sölufulltrúa   | Altæk         |
-| **\***Create a POS visual profile (November 2016)                | Altæk         |
+| **\***Stofna sjónræna reglu sölustaðar (nóvember 2016)                | Altæk         |
 | Stofna og tengja afgreiðslukassa                                   | Altæk         |
 | Stofna pantanir símavers                                        | Altæk         |
 | Stofna viðskiptasamninga með því að nota Tegund reglu furor verðlagningu flokka            | Altæk         |
 | Stofna, reikna út og bóka uppgjör fyrir verslun              | Altæk         |
 | Skilgreina sambands og úthluta afslætti                      | Altæk         |
-| Skilgreina og stjórna heimildaflokka Sölustaðar                          | Altæk         |
-| Skilgreina samfelldniáætlun                                       | Altæk         |
-| **\***Skilgreina retail rásar samskiptum (CDX)                 | Altæk         |
+| Skilgreina og stjórna heimildaflokkum sölustaðar                          | Altæk         |
+| Skilgreina samfelldniáætlanir                                       | Altæk         |
+| **\***Skilgreina samskipti smásölurrásar (CDX)                 | Altæk         |
 | leiðréttingar Vildarkort umbunar                                       | Altæk         |
 | Stjórna úrval                                               | Altæk         |
 | Úthlutun vsk og hnekkingar                                | Altæk         |
@@ -526,7 +529,7 @@ ms.lasthandoff: 03/31/2017
 | Uppfylla sölusamninga                   | Altæk         |
 | Mynda og vinna úr eftirágreidds afsláttar viðskiptavinar      | Altæk         |
 | Fletta upp viðeigandi verð og afslætti    | Altæk         |
-| Stjórna sölupöntunum í bið                   | Altæk         |
+| Viðhalda sölupöntunum í bið                   | Altæk         |
 | Stofna fjölda sölutilboða               | Altæk         |
 | Vinna úr eftirágreiddum afslætti fyrir greiðslu                | Altæk         |
 | Skrá söluþóknanir                 | Altæk         |
@@ -554,7 +557,7 @@ ms.lasthandoff: 03/31/2017
 
 ### 
 
-### <a name="supply-relationship-management"></a>Framboð vensl vöruhúsakerfis
+### <a name="supply-relationship-management"></a>Stjórnun sambands við birgja
 
 | BPM-lína                                                           | Land/svæði |
 |--------------------------------------------------------------------|----------------|
@@ -575,14 +578,14 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                                    | Land/svæði |
 |-----------------------------------------------------------------------------|----------------|
 | Stofna forstillingu staðsetningar                                                   | Altæk         |
-| **\***Create a mobile device menu item for license plate consolidation      | Altæk         |
+| **\***Stofna valmyndaratriði fartækis fyrir samstæðu númeraplötu      | Altæk         |
 | Afstemma farm handvirkt                                                  | Altæk         |
 | Skrá innskráning og útskráningu ökumanns fyrir mót                   | Altæk         |
-| Setja upp valmyndaratriði fartækis til að ljúka vinnu gerð innkaupapöntunar | Altæk         |
+| Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun | Altæk         |
 | Setja upp fund fyrir hleðslu                                            | Altæk         |
 | Setja upp flutningstilboð                                              | Altæk         |
 | Setja upp sjálfvirka afstemming farms                                     | Altæk         |
-| **\***Set up short picking item reallocation                                | Altæk         |
+| **\***Setja upp endurúthlutun fyrir vöru með of litla tiltekt                                | Altæk         |
 
 
 
@@ -593,6 +596,8 @@ ms.lasthandoff: 03/31/2017
 
 [Nýjar eða uppfærðar verk tiltæk leiðbeiningar (Maí 2016)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar í boði (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

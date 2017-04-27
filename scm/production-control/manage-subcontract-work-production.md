@@ -1,6 +1,6 @@
 ---
-title: "Stjórna undirverktaka vinnu í framleiðslu"
-description: "Í þessu efnisatriði er útskýrt hvernig úthýsta aðgerðir eru meðhöndlaðar í Microsoft Dynamics 365 aðgerða. Með öðrum orðum, það útskýrt hvernig aðgerðaröðun sem er úthlutað á tilfanga er stjórnað af lánardrottni."
+title: "Stjórnun úthýsingarvinnu í framleiðslu"
+description: "Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Operations Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,77 +26,82 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="manage-subcontracting-work-in-production"></a>Stjórna undirverktaka vinnu í framleiðslu
+# <a name="manage-subcontracting-work-in-production"></a>Stjórnun úthýsingarvinnu í framleiðslu
 
-Í þessu efnisatriði er útskýrt hvernig úthýsta aðgerðir eru meðhöndlaðar í Microsoft Dynamics 365 aðgerða. Með öðrum orðum, það útskýrt hvernig aðgerðaröðun sem er úthlutað á tilfanga er stjórnað af lánardrottni.
+[!include[banner](../includes/banner.md)]
 
-Í [framleiðsluferli](production-process-overview.md), er hægt að gera vinnu með tilföngum sem tilheyra ekki eða eru stjórnað með lánardrottnum. Yfirleitt, tilföng lánardrottins eru notaðar til að stigs reglubundna umfram eftirspurnar sem tiltæk afkastageta í fyrirtæki surpasses eigin tilföng. Lánardrottinn hugsanlega einnig bjóða ákveðna [tilfangagetu](resource-capabilities.md)eða tilföngum á neðri verði.  
 
-Eftir tilföngum lánardrottins sem eru notaðar í framleiðsluferlinu, er [leið](routes-operations.md) hefur oft fleiri logistic þarfir, þar sem efni og hálfkláraðar afurðir verður fyrst að flytja svæði lánardrottins. Síðan verður að flytja niðurstöðu aðgerðarinnar úthýsta annaðhvort á þá staðsetningu sem er úthlutað til næsta aðgerð eða vöruhús fullbúnar vörur.  
+Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Operations Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 
-Þegar undirverktaka aðgerðir eða verkþætti sem eru notaðar þær áhrif á öll stig aðgerða frá skilgreiningu á aðgerðir sem þarf í framleiðslunni, kostnaðarútgáfu, spár, áætlanagerð og röðunar til að stjórna vörustjórnunar fyrir efni, hálfkláraðar vörur og kláraðar vörur. Loks er þessi tilföng þarfnast sína ferli bókhaldi og kostnaðarstýring.  
+Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md)eða tilföng á lægra verði.  
 
-Fyrir innri tilföng fast kostnaðarhlutfall er yfirleitt úthlutað á tímabili. Gagnstætt með kostnaður við úthýsta tilföng byggist á innkaupsverð tengdar þjónustu. Þjónustan er skilgreindur sem aðra afurð og er notað til að keyra í innkaupa- og innkaupapantanir ferli fyrir úthýsta tiltekna aðgerð.  
+Allt eftir því hvaða tilföng lánardrottins eru notuð í framleiðsluferli er [leið](routes-operations.md) oft með viðbótarvörustjórnunarkröfur þar sem efnið og hálfunnu vörurnar verður fyrst að flytja á vinnusvæði lánardrottins. Þá verður að flytja niðurstöðuna úr undirverktakaaðgerðinni annað hvort á staðsetninguna sem er úthlutað á næstu aðgerð eða í vöruhús fyrir fullunnar vörur.  
 
-Núna, það er engin yfirlýst hugtakið hálfkláraðar afurðir í Microsoft Dynamics 365 aðgerða. Fyrir framleiðslupöntun sem krefst fleiri en einni aðgerð til að umbreyta hráefni í fullbúin framleiðsluvara, fullbúin framleiðsluvara bókað aftur í birgðir í síðustu aðgerð. Hálfkláraðar afurðir fyrri aðgerðir að framleiða eru gjaldfært í verk í vinnslu (VÍV), en ekki eru kostnaðarjafnaðar að bóka þær eða raktar í birgðum. Þó að hægt er að skipta í margar einingar leiðir og uppskriftir (BOMs), eykst þessa nálgun fjölda vörur, Uppskriftir og leiðir sem verður að vera stjórnað.  
+Þegar undirverktakaaðgerðir eða virkni eru notuð hefur það áhrif á öll aðgerðastigin, frá skilgreininu þeirra aðgerða sem framleiðslan krefst, kostnaði, spám, áætlanagerð og tímaáætlun, til birgðastjórnunar fyrir efni, hálfunnar vörur og fullunnar vörur. Lokst krefjast slík tilföng sinna eigin verkferla fyrir bókhald og kostnaðarstýringu.  
 
-Það eru tvær aðferðir fyrir líkanabreytur undirverktaka vinnu fyrir aðgerðaröðun. Þessar aðferðir mismunandi hátt sem subcontracting ferlið er miðuð, hvernig hálfkláraðar afurðir eru sýndir í vinnslu og hvernig kostnaðarstýringu er stjórnað.
+Fyrir innri tilföng er yfirleitt úthlutað föstu verði á tilteknu tímabilil. Kostnaður við tilföng undirverktaka byggist hins vegar á innkaupaverði tengdu þjónustunnar. Þjónustan er skilgreind sem önnur vara og er notuð til að knýja innkaupaferli fyrir tiltekna undirverktakaaðgerð.  
 
--   Undirverktaka aðgerða leið í framleiðslu eða runupantanir
-    -   Þjónusta afurðar verður að vera afurð í birgðum og það verður að vera hluti af Uppskriftinni.
-    -   Þessi aðferð styður fyrst inn, fyrst út (FIFO) eða staðlaðan kostnað.
-    -   Hálfkláraðar afurðir eru sýndir með þjónustuafurð í ferlinu.
-    -   Kostnaðarstýring úthlutar kostnað sem tengjast undirverktaka kostnað í efni.
--   Undirverktaka á verkþætti framleiðsluflæðis í lean framleiðsluflæðis
-    -   Þjónustan er ekki á lager þjónustuafurð og hann er ekki hluti af Uppskriftinni.
-    -   Þessi aðferð notar innkaupasamninga sem þjónustusamningum.
-    -   Þessi aðferð notar bakfærslukostnaðaraðgerðar.
-    -   Þessi aðferð gerir ráð fyrir ósamstillt og samanlögðum innkaupa. (Efni flæði er óháð ferli innkaupa.)
-    -   Kostnaðarstýring úthlutar undirverktaka í sína eigin læsa sundurliðun kostnaðar.
+Sem stendur er ekki til nein ítarleg lýsing á hálfunnum vörum í Microsoft Dynamics 365 for Operations Fyrir framleiðslupöntun sem krefst fleiri en einnar aðgerðar til að geta breytt hráefni í fullunna vöru er fullunna varan ekki bókuð aftur inn í lager fyrr en í síðustu aðgerðinni. Hálfunnar vörur sem fyrri aðgerðir framleiða eru færðar til bókar í verk í vinnslu (WIP) en eru ekki bókaðar eða raktar í birgðum. Þótt hægt sé að skipta leiðum og uppskriftum (BOM) í margar smærri einingar eykur þessi aðferð fjölda vöru, uppskrifta og leiða sem þarf að fylgjast með.  
 
-## <a name="subcontracting-of-route-operations"></a>Undirverktaka af leiðaraðgerðir
-Til að nota undirverktaka aðgerða leiðar til framleiðslu eða runupantanir, verður að vera skilgreint sem afurð af þjónustuafurð sem er notað fyrir innkaup á þjónustu í **Þjónustu** gerð. Þar að auki, það verður að vera með vörulíkanaflokk sem hefur í **afurð í Birgðum** valkostinum undir **Birgða reglu** stillt á **Já**. Þessi valkostur ákvarðar hvort afurð er að kostnaðarfæra sem birgðir á innhreyfingarskjali afurða (**afurð í Birgðum** = **Já**), eða hvort afurðin gjaldfærð á rekstur (**afurð í Birgðum** = **Nei**). Þótt þetta hegðun gæti seem contradictory er grundvelli í því þess að aðeins afurðir sem hafa þessa reglu verður að stofna birgðafærslur, sem hægt er að nota í kostnaðarstýringu til að reikna áætlaðs kostnaðar og ákvarða raunkostnað þegar framleiðslupöntun er lokið.  
+Til eru tvær aðferðir til þess að gera líkön af undirverktakavinnu fyrir framleiðsluaðgerðir. Þessar aðferðir eru mismunandi hvað varðar hvernig hægt er að gera líkön af undirverktakaferlinu, hvernig hálfunnar vörur eru sýndar í ferlinu og hvernig kostnaðarstýring er framkvæmd.
 
-Til að hafa í huga í útreikningi fjárhagsáætlunargerðar og kostnaðar, þjónustuna verður bætt við Uppskrift. Uppskriftarlínunni verður að vera í **Lánardrottins** gerð og verður að úthluta leiðaraðgerð þjónustu úthlutuð. Þessi aðgerð á leiðinni verða að hafa kostnaðartilföng og tilfangaþörf sem benda á tilföngum af á **Lánardrottins** sem tengir tengdar þjónustu og aðgerð á viðeigandi lánardrottnalykil.  
+-   Úthýsing leiðaraðgerða í framleiðslupöntunum eða runupöntunum
+    -   Þjónustuvaran verður að vera lagervara og verður að vera hluti af uppskriftinni.
+    -   Þessi aðferð styður „fyrsta inn,fyrsta út“ (FIFO (fyrst inn - fyrst út)) eða staðalkostnað.
+    -   Hálfunnar vörur eru sýndar með þjónustuvörunni í ferlinu.
+    -   Kostnaðarstýring úthlutar kostnaði sem tengist úthýsingarverki á hráefniskostnaðinn..
+-   Úthúsing á framleiðsluflæðiaðgerðum í lean production flæði
+    -   Þjónustuvaran er ekki lagervara og er ekki hluti af uppskriftinni.
+    -   Þessi aðferð notar innkaupasamningur sem þjónustusamningur.
+    -   Þessi aðferð notar bakfærslukostnaðaraðferð.
+    -   Þessi aðferð heimilar samanlögðog ósamstillt innkaup. (Efnisflæði er óháð innkaupaferli.)
+    -   Kostnaðarstýring úthlutar undirverktakavinnu í sinni eigin sundurliðun kostnaðar.
 
-Þegar þessari skilgreiningu er notað innkaupapöntun er stofnuð fyrir tengdar þjónustuafurð, byggt á mat á framleiðslupöntun. Innkaupapöntun þjónustunnar er notaður sem akkeri fyrir úthýsta aðgerðir. Hægt er að vinna undirverktaka í gegnum í **Úthýstur vinnu** listasíðu í framleiðslustýringar. Undirverktaka sem er notuð til að senda hráefni og, að endingu, hálfkláraða afurð lánardrottins geiðsluáætlun fyrir aðgerðina. Það er einnig notuð til að fá útkomunnar afurð úthýsta aðgerðarinnar í vörumóttaka, þar sem afurðin þjónusta er notuð til að auðkenna komu hálfkláraðri afurð. Þegar línu í innkaupapöntun er móttekin, uppfærist aðgerð framleiðslu sem lokið.  
+## <a name="subcontracting-of-route-operations"></a>Úthýsing leiðaraðgerða
+Til að nota úthýsingu leiðaraðgerða fyrir framleiðlu- eða runupantanir verður að skilgreina þjónustuvöruna sem er notuð við innkaup á þjónustunni sem vöru af gerðinni **Þjónusta**. Auk þess verður hún að vera af vörulíkanaflokki sem er með valkostinn **Lagervara** undir **Lagerstefna** stilltan á **Já**. Þessi valkostur tilgreinir hvort vara er bókfærð sem birgðir á vörureikningi (**Lagervara** = **Já**), eða hvort varan er færð sem kostnður á rekstrarreikningi (**Lagervara** = **Nei**). Þótt þessi hegðun gæti virst þverstæðukennd byggir hún á þeirri staðreynd að aðeins vörur með þessa stefnu stofna birgðafærslur sem hægt er að nota í kostnaðarstýringu til að reikna út áætlaðan kostnað og ákvarða raunkostnað þegar framleiðslupöntun er lokið.  
 
-Framleiðslupöntun geta verið margar aðgerðir og hægt er að úthluta hverri aðgerð á annan lánardrottinn. Þess vegna er á ljúka til að ljúka framleiðslupöntun gæti kveikja mörgum innkaupapöntunum.
+Til að vera talið með í áætlaun og kostnaðarútreikningi verður að bæta þjónustunni við uppskrifina. Uppskriftarlínan verður að vera af gerðinni **Lánardrottinn** og verður að vera úthlutað á þá leiðaraðgerð sem þjónustunni er úthlutað á. Þessi leiðaraðgerð verður að vera með kostnaðartilföng og tilfangaþörf sem vísar á tilföng af gerðinni **Lánardrottinn** sem tengir aðgerðina og tengda þjónustu við samsvarandi lánardrottnalykill.  
 
-## <a name="subcontracting-of-production-flow-activities"></a>Undirverktaka á verkþætti framleiðsluflæðis
-Í [fyrirferðarlitla](lean-manufacturing-overview.md)lausn líkön subcontracting vinnu og þjónustu sem tengjast verkþætti með í [framleiðsluflæði](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (Verkefni handbók efnisatriði). Þar af leiðandi hefur þessi gerð af undirverktaka er einnig kallað [verkþátturinn er byggður á undirverktaka.](activity-based-subcontracting.md) Gerð flokks inn sérstaka kostnaður **Beina útvistun**, hefur verið innleiddur og subcontracting services ekki eru kostnaðarjafnaðar hluti uppskriftarinnar fullbúnu vörunnar. Þegar fyrirferðarlitla, alla verkþætti skilgreint af kanbana sem hægt er að tengjast verkþætti framleiðsluflæðis eina eða margar. Hingað, sem útskýringar sounds rétt eins og útskýringar á framleiðslupantanir. Hins vegar meðan framleiðslupantanir verður alltaf að enda tilbúin afurð, hægt er að stofna kanbana sem á að afhenda hálfkláraða afurð. Vinnukortaheimild ekki til þess að ný afurð og uppskriftarstigi.  
+Þegar þessi skilgreining er notuð er stofnuð innkaupapöntun fyrir tengdu þjónustuvöruna á grundvelli áætlunar framleiðslupöntunar. Innkaupapöntun þjónustunnar er notuð sem grundvöllur fyrir úthýstu aðgerðina. Úthýstu vinnunni má stjórna gegnum listasíðuna **Úthýsing vinnu** í Framleiðslustýringu. Úthýsta vinnan er notuð til að senda hráefni og að lokuð hálfunnu vöruna til framleiðanda til að undirbúa aðgerðina. Hún er einnig notuð til að taka við vörunni sem verður til við úthýstu aðgerðina í vörumóttöku, þar sem þjónustuvaran er notuð til að auðkenna móttöku hálfunnar vöru. Þegar innkaupapöntunarlína er móttekin, er framleiðsluaðgerðin uppfærð sem lokið.  
 
-Þar sem kanban-reglur getur verið mjög breytileg getur líkan ólíkar vöruvíddasamsetningar framboð fyrir sömu vöru á framleiðsluflæðis. Þegar lean undirverktaka, efni flæði og fjárhagsleg flæði eru sniðnir aðgreind. Öll efni flæði er táknuð með verkþátta kanban. Innkaupapantanir fyrir þjónustu afurðir og móttöku bókanir í þær services getur verið sjálvirk, byggt á stöðu kanban-vinnslur í framleiðsluflæði. Kanban-vinnslur er hægt að hefja og ljúka jafnvel áður en innkaupapantanir eru stofnaðar. Hægt er að leggja saman úthýsingarskjöl (innkaupapöntun og móttöku innkaupa á þjónustu) eftir tímabili og þjónustu. Þess vegna innkaupaskjöl og línur hægt er að geyma lítið jafnvel í sterklega endurtekna aðgerðum þar sem lánardrottnar veita úthýsta þjónustu í eitt stykki framleiðsluflæðis.
+Framleiðslupöntun getur innihaldið margar aðgerðir og hverri aðgerð má úthluta á mismunandi lánardrottinn. Þar af leiðandi er hugsanlegt að framleiðslupöntun sem tekur til alls ferlisins geti orðið til að stofna margar innkaupapantanir.
 
-### <a name="modeling-subcontracting-in-a-production-flow"></a>Líkanabreytur undirverktaka í framleiðsluflæði
+## <a name="subcontracting-of-production-flow-activities"></a>Úthýsing á framleiðsluflæðiaðgerðum
+Í [lean manufacturing](lean-manufacturing-overview.md) er úthýsingarvinna byggð upp sem þjónusta sem er tengd við verkþátt [framleiðsluflæðis](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (efnisatriði í Verkefnaleiðbeiningum). Þess vegna er þessi gerð úthýsingar einnig kölluð [Verkþáttarbyggð úthýsing.](activity-based-subcontracting.md) Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM) fulllunnu vörunnar. Þegar lean manufacturing er notað er öll virkni skilgrein með kanbönum sem hægt er að tengja við einn eða fleiri virkniþætti framleiðsluflæðis. Fram að þessu hljómar sú útskýring bara eins og skýring á framleiðslupöntunum. Hinsvegar, á meðan framleiðslupöntunum lýkur alltaf með fullunni vöru er hægt að stofna kanbön til að útvega hálfunna vöru. Ekki þarf að koma með nýtt framleiðslustig eða uppskriftarstig.  
 
-Í á [magurþjónustu framleiðsluflæði](lean-manufacturing-modeling-lean-organization.md), er hægt að skilgreina ferli verkþáttar sem úthýstur þegar henni er úthlutað á vinnuflokkinn (tilfangaflokkur) sem hefur eitt lánardrottins tilfanga. Þegar vinnuflokks er úthýstur tengdar vinnsluverkþætti verða tengdar við samningslínu virka innkaupapöntunar sem inniheldur vöruna þjónustuna og verð á þjónustu. Þjónustusamningurinn verkþáttar skilgreinir einnig útreikning hlutfallið milli afurðarmagnið kanban-vinnslunnar og meðfylgjandi magn þjónustu. Hægt er að velja hvort þjónustu magnið er reiknað byggt á fjölda vinnslur, magn gallalausra afurða sem skráð er á vinnslurnar eða magn samtals afurða (þessa heildarmagn innihalda afurðir sem rýrnað).  
+Kanbanreglur geta verið mjög gagnvirkar og því er hægt að byggja mismunandi afbrigði birgða fyrir sömu vöruna á framleiðsluflæði. Þegar notuð er lean úthýsing eru efnisflæði og fjárhagslegt flæði aðskilin með skýrum hætti. Allt efnisflæði er táknað með kanban-virkniþáttum. Innkaupapantanir fyrir þjónustuvörurnar og bókanir á móttöku slíkrar þjónustu má gera sjálfvirkar, á grundvelli stöðu kanban-vinnslu í framleiðsluflæðinu. Kanban-vinnslu má hefja og ljúka jafnvel þótt ekki sé búið að stofna innkaupapantanir. Fylgiskjöl úthýsingar (innkaupapöntun og innkaupakvittun þjónustunnar) er hægt að safna upp eftir tímabili og þjónustu. Því er hægt að halda fjölda innkaupaskjala og -lína í lágmarki, jafnvel í margendurteknum aðgerðum þar sem lánardrottnar útvega úthýsta þjónustu í eins þáttar flæði.
 
-Einnig er hægt að skilgreina flutningsverkþætti sem úthýstur. Þessi skilgreining gerist óbeint þegar ber aðila fyrir sendingarstað í flutningi verkþætti. Þegar **Farmsendanda** eða **Viðtakanda**, ef samsvarandi uppruni eða mark vöruhús er stjórnað lánardrottins vöruhús verkþáttinn telst úthýstur. Þegar **Flutningsaðila**, verkþáttur er úthýstur alltaf. Ferli fyrir úthýsta verkþætti, eins og úthýsta flutningsverkþátt verður tengdur við þjónustusamning áður en hægt er að virkja framleiðsluflæðið.
+### <a name="modeling-subcontracting-in-a-production-flow"></a>Líkan úthýsingar í framleiðsluflæði
+
+Í [lean-framleiðsluflæði](lean-manufacturing-modeling-lean-organization.md), má skilgreina verkþátt ferlis sem úthýstan þegar honum er úthlutað á vinnuflokk (tilfangaflokk) sem er með stakt lánardrottinstilfang. Þegar vinnuflokki er úthýst verður að tengja tengda verkþætti ferlis við virka innkaupasamningslínu sem inniheldur þjónustuatriðið og verð þjónustunnar. Þjónustusamningurinn fyrir verkþáttinn skilgreinir einnig útreikningshlutfallið milli vörumagnsins í kanban-vinnslunni og þjónustumagninu sem af leiðir. Þú getur valið hvort þjónustumagnið er reiknað út á grundvelli fjölda vinnsla, góða vörumagnsins sem tilkynnt er í vinnslunum eða heildarvörumagnsins (þetta heildarmagn innheldur vöru sem á að fleygja).  
+
+Flutningsaðgerðir má einnig skilgreina sem úthýstar. Þessi skilgreining kemur sérstaklega fyrir þegar þú velur ábyrgan aðila fyrir flutningi í flutningsverkþættinum. Þegar þú velur **Farmsendandi** eða **Viðtakandi**, if samsvarandi uppruna- eða markvöruhús er vöruhús sem er stjórnað af lánardrottni, telst verkþættinum hafa verið úthýst. Þegar þú skal velja **Flutningsaðili**, er verkþætti alltaf úthýst. Líkt og úthýstir ferlisverkþættir verður úthýstur flutningsverkþáttur að tengjast þjónustusamningu áður en hægt er að virkja framleiðsluflæðið.
 
 ### <a name="backflush-costing"></a>Bakfærslukostnaðaraðferð
 
-Kostnaðarbókhald undirverktaka er fyllilega samþætt kostnaðarútreikning fyrir lean manufacturing lausnina (bakfærslukostnaðaraðgerðar kostnaðarútgáfu). Við móttöku innkaupapöntunar þjónustunnar er bókuð eða þegar reikningsfærsla fer fram, kostnaður þjónustu úthlutuð framleiðsluflæði. Fyrir bakfærslukostnaðaraðferð, úthýsta þjónustu frávikið er reiknað með mótfærslu subcontracting loka staðlaðs kostnaðar móttekinna afurða gagnvart raunverulega mótteknar og reikningsfærðar þjónustumagni.
+Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu (bakfærslukostnaðaraðferð). Þegar innkaupapöntunarkvittun þjónustunnar er bókuð eða þegar reikningsfærsla fer fram er kostnaði við þjónustuna úthlutað á framleiðsluflæði. Fyrir bakfærslukostnaðaraðferð, eru afbrigði við úthýstu þjónustuna reiknuð út með því að jafna úthýsta hluta staðalkostnaðar við móttekna vöru á móti raunverulegu magni móttekinnar og reikningsfærðrar þjónustu.
 
-## <a name="material-supply-for-subcontracted-operations"></a>Efni framboð fyrir úthýsta aðgerðir
-Hálfkláraðar afurðir og tengdum efni verður að flytja á staðsetningu þar sem það er efnislega unnið. Þegar notuð úthýsta aðgerðir og verkþætti þessi flutningur oft tengjast viðbótar flutning á svæði lánardrottins sem unnið. Með því að úthluta efni á Uppskriftina við úthýsta aðgerð, er að tilgreina sem efni verður stig á staðsetningu framleiðsluinntaks tilfangaflokki fyrir úthlutað tilföngum. Áætlanagerð eða straumlínuáfyllingar síðan úthlutar efni á þá staðsetningu.  
+## <a name="material-supply-for-subcontracted-operations"></a>Framboð á hráefni fyrir úthýstar aðgerðir.
+Hálfunnar vörur og annað tengt hráefni verður að flytja á þá staðsetningu þar sem á að framkvæma vinnuna efnislega. Þegar þú notar undirverktaka er þessi flutningur oft tengdur viðbótarflutningi til svæðis á vegum lánardrottins. Með því að úthluta efni í uppskrift til undirverktaka lýsir þú því yfir að setja verður efnið í bið á ílagsstaðsetningu forðaflokks fyrir úthlutað tilfang. Aðaláætlanagerð eða lean-áfylling ráðstafar síðan efninu á þennan stað.  
 
-Líkan birgða sem er staðsett á svæði lánardrottins, er besta á sviði til að skilgreina vöruhús stjórnað lánardrottins. Auðveldlega er hægt að skilgreina vöruhús stjórnað lánardrottins með því að stofna nýtt vöruhús og úthlutun lykli lánardrottins. Til að skrá sem efni verður flutt til lánardrottins áður en hægt er að framkvæma aðgerð, ætti að úthluta vöruhúsi stjórnað lánardrottins við ílagsvöruhús tilfangaflokksins sem geymir tilfang.  
+Til að búa til líkan af birgðum hjá lánardrottni eru bestu starfsvenjur í geiranum að skilgreina vöruhús sem er stjórnað af lánardrottni. Þú getur auðveldlega skilgreint vöruhús sem er stjórnað af lánardrottni með því að búa til nýtt vöruhús og og tengja lánardrottnalykil. Til að skjalfesta að flytja verði efnið til lánardrottins áður en hægt er að framkvæma aðgerð ættir þú að úthluta vöruhúsinu sem er stjórnað af lánardrottni til inntaksvöruhúss forðaflokksins sem geymir tilfangið.  
 
-Til að fylla á efni í þessu vöruhúsi. hægt er að nota margar stefnu:
+Til að bæta á efni í þessu vöruhúsi er hægt að nota margar aðferðir:
 
 -   Flutningspantanir
 -   Flutningabækur
 -   Úttektarkanbön
--   Beina innkaupapöntun til staðsetningar lánardrottins
+-   Bein kaup á staðsetningu lánardrottins
 
-Hálfkláraðar afurðir eru undantekningar frá þessari reglu. Til að flytja hálfkláraðar afurðir, er afskriftareglur eru takmarkaðir við valkosti:
+Hálfunnar vörur eru undantekning á þessari reglu. Til að flytja hálfunnar vörur eru aðeins þessir valkostir í boði:
 
--   Í framleiðslu og runupantanir hálfkláraðar afurðir hægt einungis að flytja röklega með því að nota færslubók Tiltektarlista frá á **Úthýstur vinnu** listasíðu. Þessi færslubók stofnar fylgiseðils skjal sem er hægt að nota til að flytja hálfkláraðar og hráefni til lánardrottins.
--   Fyrir úthýsta aðgerðir í framleiðsluflæði flutning hálfkláraðar afurðir skráðar með kvittun kanban frádráttur eða framleiðslu á staðsetningunni lánardrottins. Að líkan yfirlýst flutning verkþætti, er hægt að ljúka kanban-framleiðslu við verkþátt viðbótar flutning.
+-   Fyrir framleiðslu- og runupantanir er aðeins hægt að flytja hálfunnar vörur rökrænt með því að nota færslubók tiltektarlista af listasíðunni **Vinna undirverktaka**. Þessi færslubók býr til skjal með fylgiseðli sem hægt er að nota til að flytja hálfunnið og óunnið efni til lánardrottins.
+-   Fyrir undirverktakastarfsemi í framleiðsluflæði er flutningur á hálfunnum vörum skjalfestur með móttöku á úttektar- eða framleiðslukanbönum á staðsetningu lánardrottins. Til að búa til líkan af tilteknum flutningsverkþætti er hægt að ljúka framleiðslukanbani með frekari flutningsverkþætti.
 
-**Athugasemd:** framleiðsluleið fyrir eina framleiðslupöntun ekki dreifing mörgum svæðum. Þessi regla á einnig við um þá undirverktaka. Þess vegna vöruhúsin sem tákna lánardrottins stýrt efni verður að vera skilgreint stöðum í sama svæði og innri tilföng sem notuð eru í leiðinni. Þótt framleiðsluflæði getur dreifing sites, þær er ekki hægt að flytja hálfkláraðar afurðir úr einu svæði yfir á aðra þar sem aðgerð þess skuli skilavörur breytingu á samhengi kostnaðar.  
+**Athugið:** Framleiðsluleið fyrir staka framleiðslupöntun má ekki liggja yfir fleiri en eitt svæði. Þessi regla gildir einnig um vinnu undirverktaka. Af þessum sökum verður að skilgreina vöruhúsin sem standa fyrir staðsetningar efnis sem lánardrottinn stjórnar á sama svæði og innri tilföng sem eru notuð á leiðinni. Jafnvel þótt framleiðsluflæði geti farið yfir fleiri en eitt svæði geta þau ekki flutt hálfunnar afurðir frá einu svæði til annars þar sem sú aðgerð felur í sér breytingu á kostnaðargildi.  
 
-Venjulega er úttak vöruhús og staðsetning úthýsta tilfangaflokki beint úthlutað vöruhús og staðsetning í næsta skref í aðgerðina í flæði leið eða framleiðslu. Þessi uppsetning hjálpar til við að lækka upphæð vinnslu skýrslugerð sem á sér stað eða númer viðbótar flutning aðgerðir sem þarf að gera líkan af.
+Yfirleitt eru úttaksvöruhús og staðsetning forðaflokks undirverktaka tengd beint við vöruhúsið og staðsetningu næsta skrefs vinnslunnar á leiðinni eða í framleiðsluflæðinu. Þetta skipulag fækkar verkskýrslum eða fjölda frekari flutningsaðgerða sem gera verður líkan fyrir.
+
+
 
 

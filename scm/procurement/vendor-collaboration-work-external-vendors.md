@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Samvinnusvæði lánardrottins með ytri lánardrottna
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir.
 
 **Samvinnusvæði lánardrottins** kerfiseining er beint að lánardrottnum sem ekki hafa samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 for Operations. Það leyfir lánardrottna til að vinna með innkaupapöntun, reikninga, og upplýsingar um vörusendingabirgðir. Þetta efnisatriði lýsir því hvernig er hægt vinna vandræðalaust með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með að vinna með Innkaupapanganir og vörusendingabirgðir. Það lýst einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar geta séð þegar þeir svara Innkaupapöntun. Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyrir samstarf lánardrottna , sjá [samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Ef óskað er að sýna upplýsingar um verð eins og einingarverðið, afslætt
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Unnið með IP þegar notað er samstarf lánardrottna
 ### <a name="sending-a-po-to-the-vendor"></a>Senda IP til lánardrottins
 
-Innkaupapantanir eru undirbúnar í Dynamics 365 for Operations. Þegar Innkaupapöntunin er með stöðuna **Samþykkt**, er að senda hana til lánardrottins með því að nota við ** Senda fyrir staðfestingu ** aðgerð á **Innkaupapöntun** síðu. Staða Innkaupapöntunar Breytist í **í Ytri Yfirferð**. Eftir að Innkaupapöntunin hefur verið send lánardrottni er hægt að sjá það á **Innkaupapantanir fyrir yfirferð** síðu í viðmóti fyrir samstarf lánardrottna, þar sem þær geta samþykkja, hafna eða leggja til breytingar á pöntun. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstjórnunarkerfið.
+Innkaupapantanir eru undirbúnar í Dynamics 365 for Operations. Þegar Innkaupapöntunin hefur stöðuna **Samþykkt**, er hún send til lánardrottna með því að nota **Senda til staðfestingar ** aðgerðina á síðunni **Innkaupapöntun**. Staða Innkaupapöntunar Breytist í **í Ytri Yfirferð**. Eftir að Innkaupapöntunin hefur verið send lánardrottni er hægt að sjá það á **Innkaupapantanir fyrir yfirferð** síðu í viðmóti fyrir samstarf lánardrottna, þar sem þær geta samþykkja, hafna eða leggja til breytingar á pöntun. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstjórnunarkerfið.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Staðfesting og móttöku Innkaupapöntunar af lánardrottinn
 
-Þegar lánardrottinn hefur samþykkt innkaupapöntun má staðfesta sjálfvirkt IP eða það gæti þurft að staðfesta handvirkt. Þetta fer eftir því hvort í ** Lánardrottins virkjun ** er stillt á **Virka (Innkaupapöntun er staðfest sjálfkrafa)** fyrir lánardrottinn, eða að **Virka (Innkaupapöntun er ekki staðfest sjálfkrafa)**.  
+Þegar lánardrottinn hefur samþykkt innkaupapöntun má staðfesta sjálfvirkt IP eða það gæti þurft að staðfesta handvirkt. Það veltur á hvort reiturinn **Virkjun Lánardrottins **er stillt á **Virkt (Innkaupapöntun er staðfest sjálfkrafa)** fyrir lánardrottinn, eða á **Virkt (Innkaupapöntunar er ekki staðfest sjálfkrafa)**.  
 
 Taflan hér að neðan sýnir dæmigerð upplýsingaskipti, eftir því hvernig lánardrottinn svarar þegar þú sendir innkaupapöntun til staðfestingar.
 
@@ -95,19 +98,19 @@ Taflan hér að neðan sýnir dæmigerð upplýsingaskipti, eftir því hvernig 
 <td>Svar lánardrottins er skráð sem <strong>Hafnað</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Höfnunin er móttekin með athugasemd lánardrottna.</td>
 </tr>
 <tr class="odd">
-<td>Lánardrottinn <strong>samþykkir pöntun með breytingar</strong>. Breytingar er stungið upp á stigi pöntunarlínu. Mögulegt er að samþykkja eða hafna einstakar línur. Öðrum mögulegt breytingar eru m.a.:
+<td>Lánardrottinn <strong>samþykkir pöntunina með breytinum</strong>. Stungið er upp á breytingum á stigi línunnar. Mögulegt er að samþykkja eða hafna einstakar línur. Öðrum mögulegt breytingar eru m.a.:
 <ul>
 <li>Breyta dagsetningum eða magn.</li>
 <li>Skipta upp línum fyrir mismunandi afhendingardaga eða magn.</li>
 <li>Nota staðgengilsvöru.</li>
 </ul>
 Upplýsingar um Verð og gjöld geta ekki verið breytt af lánardrottinn. Hægt að gera tillögur fyrir breytingum á þeim með athugasemdir.</td>
-<td>Lánardrottinn svar er skráð sem <strong>Samþykkt breytingar</strong>, <strong></strong>og stöðu Innkaupapöntunin helst <strong>í Ytri Yfirferð</strong>.</td>
+<td>Svar lánardrottins er skráð sem <strong>Samþykkt með breytingum</strong> <strong></strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Hægt er að nota í **Innkaupapöntun****undirbúning** vinnusvæði til að fylgjast með hvaða POs lánardrottinn hefur svarað. Þessi vinnusvæði inniheldur tvo lista sem inniheldur innkaupapantanir með stöðuna **í Ytri Yfirferð**:
+Hægt er að nota vinnusvæðið **Undirbúningur** ** innkaupapöntunar** til að fylgjast með hvaða innkaupapöntun lánardrottinn hefur svarað. Þetta vinnusvæði inniheldur tvo lista sem innihalda innkaupapantanir með stöðuna **í Ytri Yfirferð**:
 
 -   Í ytri yfirferð krefst aðgerða.
 -   Í ytri yfirferð og bíður svars lánardrottins.
@@ -125,7 +128,7 @@ Hægt er að nota í **Innkaupapöntun****undirbúning** vinnusvæði til að fy
 Hægt að bæta við viðhengi eins og skrár, myndir og athugasemdir við Innkaupapöntun með því að nota skjalstjórnunarkerfið. Viðhengi sem hengd eru við með takmörkuninni af gerðinni **Ytri** verður sýnilegt lánardrottins þegar Innkaupapöntunin er send til þeirra.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Staða innkaupapöntunar og Útgáfur
-Þessi kafli lýsir mismunandi stöðum sem Innkaupapöntun getur haft fram að þeim tíma þegar það er staðfest, og á hvaða tímapunkti nýjar útgáfur Innkaupapöntunin gerðar tiltækar til lánardrottins. Það eru muninum á þessu, eftir því hvort nota breytingastjórnun fyrir innkaupapantanir. 
+Þessi kafli lýsir mismunandi stöðum sem Innkaupapöntun getur haft fram að þeim tíma þegar það er staðfest, og á hvaða tímapunkti nýjar útgáfur Innkaupapöntunin gerðar tiltækar til lánardrottins. Þarna er munur á, allt eftir því hvort þú notar breytingastjórnun fyrir innkaupapöntun. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Útgáfur og stöður ef þú notar ekki breytingastjórnun
 
@@ -168,6 +171,8 @@ Ef verið er að nota vörusendingabirgðir, geta lánardrottna notað viðmót 
 -   **Innkaupapantanir sem notar vörusendingabirgðir** - innkaupapantanir fyrir vörusendingabirgðir eru myndaðar þegar eignarhaldi á birgðum er breytt frá lánardrottninum til fyrirtækis. Innhreyfingarskjal afurða er bókaðar samtímis. Þessum innkaupapantanir vörusendinga birtast aðeins á **Innkaupapantanir sem nota vörusendingabirgðir** síðuna. Þær eru ekki teknar með í **Allar staðfestar innkaupapantanir** síðuna í á **samstarf lánardrottna** kerfiseiningu.
 -   **Afurðir sem er tekið við úr vörusendingabirgðum** - Þessi síða inniheldur lista yfir allar færslur þar sem eignarhald afurða hefur verið flutt frá lánardrottni til fyrirtækis. Lánardrottnar geta nota þessar upplýsingar til að reikningsfæra á viðskiptavininn.
 -   **Vörusendingarbirgðir á lager ** - Þessi síða sýnir vörusendingabirgðir á lager í eigu lánardrottins sem hefur verið móttekið í vöruhúsi þínu.
+
+
 
 
 

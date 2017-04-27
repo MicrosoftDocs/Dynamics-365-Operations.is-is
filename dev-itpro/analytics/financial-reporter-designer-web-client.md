@@ -1,5 +1,5 @@
 ---
-title: "Management Reporter - designer og vefbiðlari"
+title: "Management Reporter - Hönnuður og vefbiðlari"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - designer og vefbiðlari
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - Hönnuður og vefbiðlari
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

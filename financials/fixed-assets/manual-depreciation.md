@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Handvirkar afskriftir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.
 
 Þegar afskriftarregla fyrir eignir er sett upp og valið er **handvirkt ** í svæðinu **aðferð ** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu af prósentunni sem færð er inn fyrir hvert bil í almanaksárinu. Bilin sem sett eru upp sem prósentur fyrir, eru bókuð samkvæmt gildinu sem valið er í á **tímabilstíðni** reit á **Almennt** flýtiflipa í **afskriftareglur** síðu. Hér er gildin sem hægt er að velja:
@@ -63,13 +66,15 @@ Ef valið er **mánaðarlega** í svæðinu  **tímabilstíðni** seturðu upp 1
 | janúar  | (11.000 – 1.000) × 10% = 1.000 |
 | febrúar | (11.000 – 1.000) × 50% = 5.000 |
 
-Ef valið er **Tvisvar á Ári** í á *** tíðni Tímabila ** svæði **, er að setja upp tvö handvirk röðunarbil. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.
+Ef valið er **tvisvar á ári** í svæðinu ****tímabilstíðni** seturðu upp tvo handvirk röðunarbil. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.
 
 | Bil    | Afskriftarupphæð            |
 |-------------|--------------------------------|
 | 30. júní     | (11.000 – 1.000) × 10% = 1.000 |
 | 31. desember | (11.000 – 1.000) × 50% = 5.000 |
 
-Samtala fyrir prósentutölurnar fyrir öll bilin ekki verða að vera 100. Hins vegar mun berast ef gildið í á **heildarprósenta** á í **Afskriftaregluáætlanir eigna** síðu er ekki **100**.
+Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100. Hins vegar munu berast skilaboð ef gildið í **heildarprósenta** á síðunni **Afskriftaregluáætlanir eigna** er ekki **100**.
+
+
 
 

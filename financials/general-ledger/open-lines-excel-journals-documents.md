@@ -1,6 +1,6 @@
 ---
 title: "Birta færslubókarlínur og skjöl úr Excel"
-description: "Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línurnar fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn."
+description: "Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línur fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -27,26 +27,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Birta færslubókarlínur og skjöl úr Excel
 
-Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línurnar fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn.
+Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línur fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn.
 
-Notendur geta fært inn og birta línurnar fyrir fjárhagsbækur úr Microsoft Excel. Þegar notandi stofnar færslubók, er **Opna línur í Excel** hnappinn sniðmát sem eru birtir. Sniðmát eru hannaðar til að styðja við tilteknar aðstæður hins vegar ekki sérhverja samsetningu af gerð lykils er studd í færslubókinni. Eftirfarandi tafla sýnir gerðir lykla sem þeir styðja og sniðmát sem eru tiltækar.
+Notendur geta fært inn og birt línur fyrir fjárhagsbækur úr Microsoft Excel. Þegar notandi stofnar færslubók, birtir **Opna línur í Excel** hnappurinn sniðmát sem eru í boði. Sniðmát eru hönnuð til að styðja tilteknar aðstæður, hins vegar styður færslubókin ekki allar samsetningar reikningsgerða. Eftirfarandi tafla sýnir sniðmátin sem eru í boði og reikningagerðir sem þau styðja.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | **Gerðir studd**                                                                                             | **Hvernig sniðmátið**                                                          |
-| Fjárhagsfærslubókarlínur     | : Fjárhagur, Viðskiptavinar, Lánardrottins, Banka Mótfærsla lykil: Fjárhagur, Viðskiptavinur, Lánardrottinn, Banka innan Samstæðu er studd.       | Almenn færslubók                                                                         |
-| Komubók         | : Mótlykill Lánardrottins lykils: Samstæðu Fjárhags er ekki studd.                                                    | AP komubók                                                                     |
-| Reikningabók          | Lykla: Lykill Lánardrottins Mótlykill: Fjárhagur Samstæðu er studd.                                                      | Færslubók fyrir reikninga viðskiptavinar                                                                      |
+| **Sniðmát**             | **Studdar reikningsgerðir**                                                                                             | **Hvernig sniðmátið er valið**                                                          |
+| Fjárhagsfærslubókarlínur     | Reikningar: Fjárhagur, Viðskiptavinur, Lánardrottinn, Mótfærslureikningur banka: Fjárhagur, Viðskiptavinur, Lánardrottinn, Samstæðulykill banka er studd.       | Almenn færslubók                                                                         |
+| Komubók         | Reikningar: Mótlykill lánardrottins: Fjárhagssamstæða er ekki studd.                                                    | Viðskiptaskuldir, komubók                                                                     |
+| Reikningabók          | Reikningar: Mótlykill lánardrottins: Fjárhagssamstæða er studd.                                                      | Færslubók fyrir reikninga viðskiptavinar                                                                      |
 | Reikningur frá lánardrottni           |                                                                                                                         | Reikningur frá lánardrottni                                                                          |
-| Reikningabók viðskiptavinar | : Viðskiptavinur Mótlykill lykils: Fjárhagur Samstæðu er studd.                                                     | Almenn færslubók                                                                         |
-| Textareikningur        |                                                                                                                         | Á við **textareikning** síðunni er smellt á **Opna í Excel** (Microsoft Office táknið). |
-| Eignabók     | Eign fjárhagur, banki, viðskiptavin eða lánardrottin. Samstæða er ekki studd.                                               | Eignabók                                                                     |
-| Greiðslubók lánardrottins   | : Mótlykill Lánardrottins lykils: Fjárhagur, Banki innan Samstæðu er studd.                                                 | Greiðslubók lánardrottins                                                                  |
-| Greiðslubók viðskiptavinar | : Viðskiptavinur Mótlykill lykils: Fjárhagur, Banki innan Samstæðu er studd.                                               | Greiðslubók viðskiptavinar                                                                |
-| Kostnaðarbók verk  | : Verk, Fjárhag Viðskiptavinar, Lánardrottins Mótfærsla lykil: Verk, Fjárhag, Viðskiptavin, Lánardrottinn innan Samstæðu er studd. | Almenn færslubók Kostnaðar (undir verkefnastjórnun og bókhald)                       |
+| Reikningabók viðskiptavinar | Reikningar: Mótlykill viðskiptamanns: Fjárhagssamstæða er studd.                                                     | Almenn færslubók                                                                         |
+| Textareikningur        |                                                                                                                         | Á **Reikningur með frjálsum texta** síðunni er smellt á **Opna í Excel** (Microsoft Office táknið). |
+| Eignabók     | Eign í fjárhag, banki, viðskiptavinur eða lánardrottin. Samstæða er ekki studd.                                               | Eignabók                                                                     |
+| Greiðslubók lánardrottins   | Reikningar: Mótlykill lánardrottins: Fjárhagur, samstæðulykill banka er studd.                                                 | Greiðslubók lánardrottins                                                                  |
+| Greiðslubók viðskiptavinar | Reikningar: Mótlykill viðskiptamanns: Fjárhagur, samstæðulykill banka er studd.                                               | Greiðslubók viðskiptavinar                                                                |
+| Kostnaðarbók verk  | Reikningur: Verkefni, Fjárhagur, Viðskiptavinur, Mótlykill lánardrottins: Verkefni, Fjárhagur´, Viðskiptamaður, Samstæðulykill lánardrottins er studd. | Almenn kostnaðarfærslubók (undir verkefnastjórnun og bókhald)                       |
 
-Þegar línur eru birtar þær villuleit til að tryggja að þeir samræmast reglur sem eru settir upp í fjárhagslegar færslubækur. Þegar línur eru birtar geta notendur breyta eða bóka villulaus fylgiskjöl úr Microsoft Dynamics 365 aðgerða. 
+Þegar línur eru birtar eru þær villuleitaðar til að tryggja að þær samræmist reglum sem eru settar upp í fjárhagsbækur. Eftir að línur eru birtar geta notendur breytt eða birt fylgiskjöl úr Microsoft Dynamics 365 for Operations. 
 
-Til að bæta fjárhagsvíddir sniðmát frekari breytingar krafist. Frekari upplýsingar, sjá [Bæta víddum við Microsoft Excel sniðmát](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Eftir víddum er bætt við einingu, þeir eru tiltæk í Excel hönnuði og er bætt við sniðmátið.
+Til að bæta fjárhagsvíddum við sniðmát eru frekari breytingar nauðsynlegar. Nánari upplýsingar er að finna í [Víddum bætt við Microsoft Excel-sniðmát](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Eftir að víddum er bætt við eininguna, eru þær tiltæk í Excel hönnuði og hægt að bæta þeim við sniðmátið.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Jaðartæki vélbúnaðarreglu Sölustaðar"
+title: "Jaðarbúnaður POS-vélbúnaðar"
 description: "Retaoæ Modern sölukerfi í skýinu (POS) og Cloud POS geta notað vítækt jaðartæki POS, með mörg viðmót og notkunarmöguleika til að uppfylla mismunandi viðskiptaaðstæður smásalans."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>Jaðartæki vélbúnaðarreglu Sölustaðar
+# <a name="pos-hardware-peripherals"></a>Jaðarbúnaður POS-vélbúnaðar
+
+[!include[banner](includes/banner.md)]
+
 
 Retaoæ Modern sölukerfi í skýinu (POS) og Cloud POS geta notað vítækt jaðartæki POS, með mörg viðmót og notkunarmöguleika til að uppfylla mismunandi viðskiptaaðstæður smásalans. 
 
@@ -63,6 +66,8 @@ Eftirfarandi listi inniheldur gerðir tækja, í hverri flokki, sem hafa verið 
 
 -   Strikamerki – Honeywell 1900, HP LS2208
 -   Kortalesari – Magtek PN - 21073075
+
+
 
 
 

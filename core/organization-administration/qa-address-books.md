@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Aðsetursbækur
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Hvernig leita ég að tvíteknum skráasafnsfærslum?
@@ -53,7 +56,7 @@ Hægt er að uppfæra heiti aðilafærslu og aðsetur sem tengjast færslunni, h
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Er hægt að sameina tvær eða fleiri aðilafærslur í eina færslu?
 Einstaka sinnum gæti verið óskað eftir að sameina tvær eða fleiri aðilafærslur í eina færslu. Þetta getur gerst ef búin hefur verið til ein eða fleiri tvíteknar aðilafærslur, annaðhvort viljandi eða óvart. Þegar verið er að sameina aðilafærslur skal velja eina skrá til að halda. Upplýsingar úr öðrum færslum eru svo sameinaðar í þessari færslu. Til dæmis kemur í ljós að upplýsingar um Fabrikam eru geymdur í þremur aðilafærslum; A, B og C. Ákveðið er að halda aðilafærslu A. Þess vegna verða°upplýsingarnar sem eru geymdar í aðilafærslum B og C sameinaðar í aðilafærslu A. Við ákveðnar aðstæður er ekki hægt að sameina aðilafærslur:
 
--   Ekki er hægt að sameina aðilafærslur sem eru tengdar við sama aðilahlutverk, eins og viðskiptavin eða lánardrottinn í sama lögaðila. Til dæmis aðila A er tengt við viðskiptavini í lögaðilanum 123 og aðili B er tengd við annan viðskiptavin 123 lögaðila. Ekki er hægt að sameina þessar færslur aðila því ef þær voru sameinaðar sameinaða aðilafærslu yrði tengdur við marga viðskiptavini með sama lögaðila og þetta er ekki leyfð. Hins vegar er hægt að sameina færslurnar ef aðili B er tengdur lánardrottni°lögaðila°123 eða viðskiptavini í öðrum lögaðila.
+-   Ekki er hægt að sameina aðilafærslur sem eru tengdar við sama aðilahlutverk, eins og viðskiptavin eða lánardrottinn í sama lögaðila. Til dæmis er aðili A tengdur við viðskiptavin í lögaðilanum 123 og aðili B er tengdur við annan viðskiptavin í lögaðilanum 123. Ekki er hægt að sameina þessar aðilafærslur því ef þær væru sameinaðar yrði sameinaða aðilafærslan tengdu við marga viðskiptavini með sama lögaðila og það er ekki leyft. Hins vegar er hægt að sameina færslurnar ef aðili B er tengdur lánardrottni°lögaðila°123 eða viðskiptavini í öðrum lögaðila.
 -   Ekki er hægt að sameina færslur innri aðila fyrirtækis í sama lögaðila, hóp eða rekstrareiningu.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Á ég að stofna færslu aðila í altæku aðsetursbókinni eða á öðrum stað, eins og Viðskiptavin eða Lánardrottinn síðu?
@@ -64,5 +67,7 @@ Hægt er að færa inn aðilafærslur annað hvort°í altæku aðsetursbókina 
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Er hægt að þýða upplýsingar um aðsetur fyrir aðilafærslur?
 Hægt er að setja upp þýðingar á upplýsingum um aðsetur,°þannig að upplýsingarnar birtast á tungumáli notanda (kerfistungumál) í Microsoft Dynamics 365 for Operations en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
+
+
 
 

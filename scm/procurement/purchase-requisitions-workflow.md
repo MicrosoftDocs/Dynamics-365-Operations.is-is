@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
+[!include[banner](../includes/banner.md)]
+
+
 Verkflæðisferlið færir innkaupabeiðnir í endurskoðunarferli úr upphaflegu stöðunni Drög í endanlegu stöðuna Samþykkt. Þegar innkaupabeiðni er sent til endurskoðunar, hefst verkflæðisferli. Eftir að innkaupabeiðnin er samþykkt getir innkaupapöntun verið myndað fyrir innkaupabeiðnilínur og send til lánardrottins fyrir uppfyllingu pöntunar.
 
 Áður en hægt er að senda innkaupabeiðni í endurskoðun verður að stilla verkflæði. Verkflæðisferlið getur innihaldið einn eða fleiri endurskoðunarskref, í hvaða röð sem er. Einnig er hægt að skilgreina verkflæðisferlið til að sleppa verk sem fara yfir og samþykkja innkaupabeiðni sjálfkrafa. Hægt er að skilgreina verkflæði til að leiða innkaupabeiðnina sem eitt skjal eða hægt er að leiða einstakar innkaupabeiðnilínur til viðeigandi yfirlesarar. Einnig er hægt að stofna aðstæður þar sem innkaupabeiðnin er látin vera í leið sem einu skjali til sumra yfirlesara og völdum innkaupabeiðnilínum er leitt til annarra yfirlesara.  
@@ -106,12 +109,14 @@ Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna innkaupabeiðni fyrir notkun (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Stofna innkaupabeiðni fyrir notkun (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Verkflæði innkaupa og aðfanga](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Yfirlit yfir innkaupabeiðni](purchase-requisitions-overview.md)
+
+
 
 

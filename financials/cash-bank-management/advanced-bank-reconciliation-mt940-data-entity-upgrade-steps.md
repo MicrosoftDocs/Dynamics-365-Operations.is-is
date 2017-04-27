@@ -1,5 +1,5 @@
 ---
-title: "Ítarlegri bankaafstemmingu Innflutningur MT940 – Samsetta gagnaeiningu uppfærslu"
+title: "Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsettrar gagnaeiningar"
 description: "Raðnúmeri þarf að bæta við einingunni innflutningur bankayfirlits til að styðja MT940 sniði."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Ítarlegri bankaafstemmingu Innflutningur MT940 – Samsetta gagnaeiningu uppfærslu
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsettrar gagnaeiningar
+
+[!include[banner](../includes/banner.md)]
+
 
 Raðnúmeri þarf að bæta við einingunni innflutningur bankayfirlits til að styðja MT940 sniði. 
 
 Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlits til að styðja MT940 sniði.
 
 1.  Taka saman og samstilla eftirfarandi:
-    -   Samsett Eining\\BankStatementImportEntity
-    -   Einingar\\BankStatementBalanceEntity
-    -   Einingar\\BankStatementDocumentEntity
+    -   Samsett eining\\BankStatementImportEntity
+    -   Eining\\BankStatementBalanceEntity
+    -   Eining\\BankStatementDocumentEntity
     -   Eining\\BankStatementEntity
-    -   Eining\\BankStatementLineEntity
-    -   Töflur\\BankStatementStaging
+    -   Entity\\BankStatementLineEntity
+    -   Töfbles\\BankStatementStaging
 
-2.  Stjórnun gagna\\gögn verk.
+2.  Gagnastjórnun\\gagnaverk.
     1.  Hlaða MT940 innflutningsverk
         1.  Breyta XSLT.
             -   Smellið á **Skoða kort**.
@@ -58,6 +61,8 @@ Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlit
                 -   Staðfestið að **SequenceNumber** er varpað úr uppruna í sviðsetningu.
 
 3.  Flytja inn nýtt uppgjör.
+
+
 
 
 

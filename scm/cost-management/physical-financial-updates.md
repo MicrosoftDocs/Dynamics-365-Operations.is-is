@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="physical-and-financial-updates"></a>fjárhagslegar og efnislegar uppfærslur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn. 
 
-Birgðafærslur getur verið uppfærð efnislega og fjárhagslega uppfært í Microsoft Dynamics 365 fyrir Aðgerðir. Sumar gerðir efnislegra og fjárhagsfærslna auka birgðamagn, á meðan aðrar draga úr magninu.
+Birgðafærslur er hægt að uppfæra efnislega og fjárhagslega í Microsoft Dynamics 365 for Operations. Sumar gerðir efnislegra og fjárhagsfærslna auka birgðamagn, á meðan aðrar draga úr magninu.
 
 ## <a name="physical-increases"></a>Efnisleg aukning
 Þegar efnisleg færsla er bókuð er staða færsluskránnar **"Móttekið"**. Eftirfarandi færslur skoðast sem efnisleg aukning:
@@ -49,10 +52,10 @@ Birgðafærslur getur verið uppfærð efnislega og fjárhagslega uppfært í Mi
 -   Birgðabækur með jákvæðu magni, svo sem hreyfing, hagnaður/tap, talningabækur, uppskriftir og flutningur
 
 ## <a name="transactions-that-increase-quantity"></a>Færslur sem auka magn
-Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Dynamics 365 aðgerða reiknar meðalkostnaðarverð sem er byggt á kostnaði hverrar færslu fyrir hverja birgðavídd sem er rakin fjárhagslega. Sjá upplýsingar um hvernig keyra á meðalkostnaðarverð sjá [keyrsla á meðalkostnaðarverði](running-average-cost-price.md).
+Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Dynamics 365 for Operations reiknar út gildandi meðalkostnaðarverð sem er byggt á kostnaði hverrar slíkrar færslu fyrir hverja birgðavídd sem er fjárhagslega rakin. Sjá upplýsingar um hvernig keyra á meðalkostnaðarverð sjá [keyrsla á meðalkostnaðarverði](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Færslur sem minnka magn
-Dynamics 365 aðgerða notar reiknað meðalkostnaðarverð þegar færsla sem minnkar magn er bókuð, óháð birgðalíkanið sem er tengt þeim birgðum. Þetta krefst þess að færslan sem minnkar magn var ekki áður merkt annarri færslu fyrir bókun. Ef efnislegar lagerbirgðir verða neikvæðar, notar Dynamics 365 aðgerða birgðakostnaður sem er skilgreint fyrir vöruna á í **Vöru** síðu. **Athugasemd** Ef virkni fjölsíðna er virkjuð verður þessi kostnaður í staðinn vera birgðakostnaður sem er skilgreint fyrir síðuna í síðunni **sjálfgefnar pöntunarstillingar**.
+Dynamics 365 for Operations notar reiknaða keyrslu á meðalkostnaðarverði þegar hreyfing sem minnkar magn er bókuð án tillits til hver birgðalíkan er í félagi með því birgðir. Þetta krefst þess að færslan sem minnkar magn var ekki áður merkt annarri færslu fyrir bókun. Ef efnislegar lagerbirgðir verða neikvæðar notar Dynamics 365 for Operations birgðakostnað sem er skilgreindur fyrir vöruna á síðunni **afurð**. **Athugasemd** Ef virkni fjölsíðna er virkjuð verður þessi kostnaður í staðinn vera birgðakostnaður sem er skilgreint fyrir síðuna í síðunni **sjálfgefnar pöntunarstillingar**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Efnislegar úthreyfingar miðað við fjárhagslegar úthreyfingar
 Þegar efnisleg úthreyfingarfærsla er bókuð er staða færsluskránnar **"Dregið frá"**. Eftirfarandi færslur skoðast sem efnislegar úthreyfingar:
@@ -69,5 +72,7 @@ Dynamics 365 aðgerða notar reiknað meðalkostnaðarverð þegar færsla sem m
 -   Birgðabækur með neikvæðu magni, svo sem hreyfing, hagnaður/tap, talningabækur, uppskriftir og flutningur
 
 Færslur sem minnka magn eru bókaðar á hlaupandi meðaltal kostnaðarverðs. Þannig að birgðalokunarferlið þarf til að jafna úthreyfingarfærslur á innhreyfingarfærslur í samræmi við birgðalíkan sem tengt er við hverja vöru.
+
+
 
 

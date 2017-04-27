@@ -1,6 +1,6 @@
 ---
-title: "Yfirlit yfir líkön afbrigði afurðar"
-description: "Þessi skrá tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera kleift að byggja almennan uppbyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði einni afurð."
+title: "Yfirlit afbrigðalíkön afurðar"
+description: "Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Yfirlit yfir líkön afbrigði afurðar
+# <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
 
-Þessi skrá tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera kleift að byggja almennan uppbyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði einni afurð.
+Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð.
 
 Afbrigðalíkön afurða eru stofnuð til að tákna almenna vöruuppbyggingu. Þegar afbrigðalíkan afurðar er sett upp er hægt að búa til einkvæmt afurðarafbrigði sem hefur einkvæma uppskrift og einkvæma leið. Afbrigðalíkönum afurðar nota yfirlýsingarskorður og óskilyrta útreikninga til að meðhöndla vensl og takmarkanir á milli mismunandi afurðarafbrigði. Hægt er að skilgreina afurðir í sölupöntunum, sölutilboðum, innkaupapöntunum og framleiðslupöntunum. Eftirfarandi tafla lýsir skilmálum og hugtökum sem byggja á töfluskorðu.
 <table>
@@ -69,16 +69,16 @@ Einnig er hægt að tilgreina skilyrði fyrir eigindir. Ef skilyrðið er uppfyl
 <li><strong>Texti </strong> með eða án fastlista</li>
 <li><strong>Boole-gildi</strong></li>
 </ul>
-Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með sviði, eða <strong>Texta</strong> með fastlista , er safn gilda tiltækt þegar afbrigðalíkan afurðar er sett upp. <strong>Athugasemd:</strong> leysara skilgreiningu Afurðar viðurkennir aðeins eftirfarandi gerðir eiginda: <strong>Boole</strong>, <strong>Texta</strong> með föstum lista og <strong>Heiltala</strong> með bili. Þess vegna er eingöngu hægt að nota þessar gerðir eiginda í segðarskorður og -skilyrði.</td>
+Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með sviði, eða <strong>Texta</strong> með fastlista , er safn gilda tiltækt þegar afbrigðalíkan afurðar er sett upp. <strong>Ábending:</strong> Leysari furðarafbrigðis viðurkennir aðeins eftirfarandi gerðir eiginda: <strong>Boole</strong>, <strong>Texti</strong> með fastlista og <strong>Heiltala</strong> með sviði. Þess vegna er eingöngu hægt að nota þessar gerðir eiginda í segðarskorður og -skilyrði.</td>
 </tr>
 <tr class="even">
 <td>Takmarkanir</td>
 <td>Skorður lýsa takmörkunum á skilgreiningu framleiðslulíkans. Skorður eru notaðar til þess að tryggja að aðeins gild gildi séu valinn þegar afurð er sett upp. Skorður geta annað hvort verið segðarskorður eða töfluskorður:
 <ul>
 <li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins. Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða Wiki-tengla um segðaskorður og töfluskorður.</li>
-<li>Skilgreina verður töfluskorðum áður en hægt er að nota þær sem þáttur í afbrigðalíkani afurðar. Töfluskorður getur verið skilgreindur af notanda eða skilgreind af kerfinu. Notandaskilgreind töfluskorða er gerð fylkis sem má nota til að lýsa samstæðu samsetninga fyrir eigindagildin sem eru skilgreind í eigindagerðum. Ef hátalarar eru t.d. framleidd gæti fylki fyrir notendaskilgreindrar töfluskorðu haft dálka fyrir áferð og grill.</li>
+<li>Skilgreina verður töfluskorðum áður en hægt er að nota þær á íhlut í afbrigðalíkani afurðar. Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar. Notandaskilgreind töfluskorða er gerð fylkis sem má nota til að lýsa samstæðu samsetninga fyrir eigindagildin sem eru skilgreind í eigindagerðum. Ef hátalarar eru t.d. framleidd gæti fylki fyrir notendaskilgreindrar töfluskorðu haft dálka fyrir áferð og grill.</li>
 </ul>
-<strong>Dæmi</strong> Hátalarar eru tiltækar í fjórum áferðum: Svart, eik, rósarviður og Hvítum. Í speakers getur haft eina af þremur sé grills: Svartur, Málmi eða Hvítum. Svart ljúka er tiltækur fyrir alla grills en í öðrum lýkur takmarkast við tiltekna grills. Eftirfarandi tafla sýnir dæmi um upplýsingar sem birtast í <strong>Leyfðar samsetningar</strong> flipanum á <strong>Breyta töfluskorðu</strong> síðunni.
+<strong>Dæmi</strong> Hátalarar eru tiltækar í fjórum áferðum: Svart, eik, rósarviður og Hvítum. Hátalarar getur haft eina af þremur framgrillum: Svartur, Málmi eða Hvítum. Svart áferð er tiltækur fyrir öll grill en aðrar áferðir takmarkast við tiltekin grill. Eftirfarandi tafla sýnir dæmi um upplýsingar sem birtast í <strong>Leyfðar samsetningar</strong> flipanum á <strong>Breyta töfluskorðu</strong> síðunni.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með svi�
 </tr>
 </tbody>
 </table>
-Kerfisskilgreindrar töfluskorðu stendur fyrir vörpun milli gerð eigindar og svæði í Dynamics 365 fyrir töfluna Aðgerðir. Kerfisskilgreindrar töfluskorðu vöruþekjuna tengir eigindargerð svæðið. Tengillinn gerir eigind í afbrigðalíkani afurðar til að endurspegla gögn svæðið Dynamics 365 fyrir töfluna Aðgerðir.</td>
+Kerfisskilgreind töfluskorða stendur fyrir vörpun á milli gerð eigindar og svæðis í Dynamics 365 for Operations töflu. Kerfisskilgreindrar töfluskorðu tengir gerð eigindar á gagnvirkan hátt við svæðið. Tengillinn virkjar eigind í afbrigðalíkani afurðar til að geta endurspegla gögn í svæði Dynamics 365 for Operations töflu.</td>
 </tr>
 <tr class="odd">
 <td>Útreikningar</td>
-<td>Útreikningar tákna viðauki skorður. Hægt er að nota við útreikning til að framkvæma aðgerðir arithmetic á eigindir í <strong>Aukastafa</strong> og <strong>Heiltala</strong> gerðir eða röklegt aðgerðir sem fela í sér eigindir í <strong>Texta</strong> með föstum lista og <strong>Boole</strong> gerðir. Útreikningur hefur markmiðseigind sem mun innihalda niðurstaða segðarútreiknings. Segðarútreikningur er byggður upp með því að nota segðarritil.</td>
+<td>Útreikningar tákna viðauka við skorður. Hægt er að nota útreikning til að framkvæma reikniaðgerðir á eigindir af gerðinni <strong>Aukastafa</strong> og <strong>Heiltala</strong> eða rökaðgerðir sem fela í sér eigindir af gerðunum <strong>Texta</strong> með fastlista og <strong>Boole</strong>. Útreikningur hefur markmiðseigind sem mun innihalda niðurstaða segðarútreiknings. Segðarútreikningur er byggður upp með því að nota segðarritil.</td>
 </tr>
 <tr class="even">
 <td>Undiríhlutir</td>

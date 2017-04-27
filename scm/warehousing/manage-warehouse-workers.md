@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Stjórna starfsmaður í vöruhúsi
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá lýsir hvernig nota má Microsoft Dynamics AX til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
 
 Ef verið er að nota virknina í vöruhúsastjórnun, eru allar aðgerðir starfsmanns í vöruhúsi vísað til sem *vinna*. Vinna t.d. tiltekt, flutningur, og Telja lagerbirgðir er skráð með því að nota fartæki. Áður en starfsmaður í vöruhús getur framkvæmt vinnu verður hann eða hún að vera tengdur við starfsmann í mannauði. Hver **Starfsmanns** lykill getur haft mörg vinnunotendur vöruhúss tengda. Þessir vinnunotendur getur unnið í mismunandi vöruhús og geta haft mismunandi aðgangsstig að ýmsum valmyndum fartækis. Þú getur líta á vinnunotendum vöruhúss sem margar innskráningar fyrir valinn starfsmann. Hver vinnunotanda hefur sjálfgefið vöruhús og tiltekin verkflæði eru birt af valmyndaratriðum sem eru tiltæk fyrir þann vinnunotanda. 
@@ -51,6 +54,8 @@ Greining á tíma sem er notuð til að vinna vinnuliði getur hjálpað við a�
 
 -   **Vinna eftir notanda** – Þetta sýnir framleiðni starfsmanns, byggt á raunverulegan tíma samanborið við áætluð tíma.
 -   **Vinnu eftir vinnufærslugerð** – hægt er að nota þessa skýrslu til að rannsaka óhagkvæmni í tiltekið vöruhúsaferli. Til dæmis tekurðu eftir að tiltekt fyrir flutningspantanir taka lengri tíma í þessi vika en í fyrri vikur. Hægt er að nota þessar upplýsingar fyrir frekari athugunar.
+
+
 
 
 

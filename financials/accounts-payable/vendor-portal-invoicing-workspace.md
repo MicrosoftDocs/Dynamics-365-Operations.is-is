@@ -43,11 +43,11 @@ Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
 ### <a name="tabular-lists"></a>Töflulisti
 
-Í **Töflulista **hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasta tabular listinn er valkost til að leita að reikningum. Hægt er að sía sem leitað er í, til skemmri tíma leitar.
+Í **Töflulista **hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
 Listasíðu fyrir alla reikninga lánardrottins
 -----------------------------
 
-Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga í í **samvinnusvæði lánardrottnareikninga** listasíðu. Hægt er að nota þessa listasíðu til að skoða stöðu fyrir greiðslu reikninga. Greiðslustöðurnar innifela óbókað, ógreiddur, greiddur að hluta, og greiddur að fullu.
+Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu. Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna. Greiðslustöðurnar innifela óbókað, ógreiddur, greiddur að hluta, og greiddur að fullu.
 Búa til nýr reikningur úr innkaupapöntun
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt*
 
 
 
-Nánari upplýsingar, sjá [Collaborating með lánardrottna með því að nota gátt Lánardrottins](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Nánari upplýsingar má finna í [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

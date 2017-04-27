@@ -85,6 +85,6 @@ Frekari upplýsingar eru í hlutanum „Gagnvirkir hlutir og skoðunareiginleika
 
 #<a name="see-also"></a>Sjá einnig
 
-[Mynda fjárhagsskýrslu] ((dynamics365\operations\financials\general ledger\generate-fjárhagslegar-skýrslu)
+[Mynda fjárhagsskýrslu]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

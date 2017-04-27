@@ -1,6 +1,6 @@
 ---
 title: "fjárhagsskýrslur Prófjafnaðar"
-description: "Þessi skrá lýsir sjálfgefnar skýrslur fyrir prófjöfnuði. Það er því einnig lýst grunneiningar sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslur til að passa ykkar."
+description: "Þessi grein lýsir sjálfgefnum skýrslum fyrir prófjöfnuði. Hún lýsir einnig einingum sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslum eftir þörfum."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>fjárhagsskýrslur Prófjafnaðar
 
-Þessi skrá lýsir sjálfgefnar skýrslur fyrir prófjöfnuði. Það er því einnig lýst grunneiningar sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslur til að passa ykkar. 
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir sjálfgefnum skýrslum fyrir prófjöfnuði. Hún lýsir einnig einingum sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslum eftir þörfum. 
 
 <a name="default-trial-balance-reports"></a>Skýrslur fyrir sjálfgefinn prófjöfnuð
 -----------------------------
@@ -51,7 +54,7 @@ Fjárhagsskýrslur prófjöfnuðar nota eftirfarandi grunneiningar.
 
 ### <a name="row-definition"></a>Skilgreining línu
 
-Línuskilgreining, Prófjöfnuð – Sjálfgefið inniheldur eina línu sem sækir allar aðallykla í. Þess vegna getur hver sem er búið til skýrslu án þess að þurfa að gera neinar breytingar. Þegar skýrslan er skoðuð er kafað í eina línu til að sjá upplýsingar um hvern reikning. Hægt er að breyta línuskilgreiningu þannig að hún felur í sér nánari upplýsingar. til að breyta Prófjöfnuð – Sjálfgefna línuskilgreiningu þannig að hún felur í sér raðir fyrir alla lykla. Fylgið eftirfarandi skrefum
+Línuskilgreining, Prófjöfnuð – Sjálfgefið, inniheldur eina línu sem sækir allar aðallykla. Þess vegna getur hver sem er búið til skýrslu án þess að þurfa að gera neinar breytingar. Þegar skýrslan er skoðuð er kafað í eina línu til að sjá upplýsingar um hvern reikning. Hægt er að breyta línuskilgreiningu þannig að hún felur í sér nánari upplýsingar. til að breyta Prófjöfnuð – Sjálfgefna línuskilgreiningu þannig að hún felur í sér raðir fyrir alla lykla. Fylgið eftirfarandi skrefum
 
 1.  Smellt er á **breyta** og svo á **Setja inn línur úr víddum**. **Setja inn línur úr víddum ** skipunin gerir kleift að velja hvaða víddir óskað er að hafa í línuskilgreiningunni. Fyrir þessa línuskilgreiningu muntu nota **Aðallykil**.
 2.  Gangið úr skugga um **Aðallykill** innihaldi öll og-merki og velja **í lagi**.
@@ -100,10 +103,12 @@ Hver skýrslu prófjöfnuðar notar mismunandi dálkskilgreiningu. Þessar dálk
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Skoða fjárhagsskýrslur](view-financial-reports.md)
 
-[Fjárhagsleg Skýrslugerð Blog dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

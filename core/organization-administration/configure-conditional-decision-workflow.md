@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina skilyrt ákvörðun í verkflæði"
+title: "Skilgreina skilyrta ákvörðun í verkflæði"
 description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Skilgreina skilyrt ákvörðun í verkflæði
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Skilgreina skilyrta ákvörðun í verkflæði
+
+[!include[banner](../includes/banner.md)]
+
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun.
 
@@ -38,14 +41,16 @@ Fylgið þessum skrefum til að færa inn heiti á skilyrta ákvörðun.
 ## <a name="set-conditions"></a>Stilla skilyrði
 Kerfið ákveður sjálfkrafa hvaða grein á að nota með því að meta sent fylgiskjal til að ákvarða hvort það fullnægi ákveðnum skilyrðum.
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Click **Add condition**.
+2.  Smelltu á **Bæta við Aðgerð**.
 3.  Færið inn skilyrði.
 4.  Færa inn viðbótarskilyrði ef þess gerist þörf:
 5.  Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:
     1.  Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.
     2.  Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.
     3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
-    4.  Smellið á **í lagi** eða **hætta Við** til að snúa aftur í **Eiginleika** skjámynd.
+    4.  Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.
+
+
 
 
 

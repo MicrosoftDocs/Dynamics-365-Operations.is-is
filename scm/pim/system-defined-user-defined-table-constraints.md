@@ -1,6 +1,6 @@
 ---
 title: "kerfisskilgreindar og notandaskilgreindar taflaskorður."
-description: "Þessi skrá útskýrir tvær gerðir af töfluskorðum þátta í afbrigðalíkani afurðar - skilgreindur af notanda og kerfisskilgreindar. Töfluskorður standa fyrir fylki leyfðra eigindasamsetninga þar sem hver röð skilgreinir eitt safn mögulegra eigindagilda."
+description: "Þessi grein útskýrir hinar tvær tegundir töfluskorða fyrir íhluti í skilgreiningarlíkani afurðar: Skilgreint af notanda og skilgreint af kerfi. Töfluskorður standa fyrir fylki leyfðra eigindasamsetninga þar sem hver röð skilgreinir eitt safn mögulegra eigindagilda."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>kerfisskilgreindar og notandaskilgreindar taflaskorður.
 
-Þessi skrá útskýrir tvær gerðir af töfluskorðum þátta í afbrigðalíkani afurðar - skilgreindur af notanda og kerfisskilgreindar. Töfluskorður standa fyrir fylki leyfðra eigindasamsetninga þar sem hver röð skilgreinir eitt safn mögulegra eigindagilda.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein útskýrir hinar tvær tegundir töfluskorða fyrir íhluti í skilgreiningarlíkani afurðar: Skilgreint af notanda og skilgreint af kerfi. Töfluskorður standa fyrir fylki leyfðra eigindasamsetninga þar sem hver röð skilgreinir eitt safn mögulegra eigindagilda.
 
 Töfluskorður tákna fylki samsetninga eiginds sem  eru leyfðar fyrir íhluti í afbrigðalíkani afurðar. Hver lína í töflunni skilgreinir eitt safn mögulegra eigindagilda. Hægt er að telja fram tvær gerðir skorða í afbrigðalíkani afurðar:
 
@@ -57,11 +60,13 @@ Kerfisskilgreind töfluskorða stpfmar gagnvirkri vörpun á milli gerð eiginda
 
 Þegar-kerfisskilgreindrar töfluskorðu er stofnuð er velja töflu, einnig er hægt að skilgreina fyrirspurn til að nota og tengja svo gerðir eiginda í svæði í valinni töflu. Gerðir svæða verður að samsvara gerðum gerða eiginda.  
 
-Áður en töfluskorðu hægt að taka gildi í afbrigðalíkani afurðar, töfluskorðunni verður að vera innifalin í töfluskorðu á einn af íhlutum sem líkanið. Ferli er að stofna nýja hömlu skal velja gerð skorðu töflu og veljið síðan skilgreiningu töfluskorðu sem nota á. Loks, öll svæði í töfluskorðunni verða að varpa eigindum í afbrigðalíkani afurðar.
+Áður en töfluskorðu getur tekið gildi í afbrigðalíkani afurðar, verður töfluskorðunni að vera innifalin í skorðu í einum af íhlutum líkans. Ferlið er að stofna nýja skorðu, velja gerð töfluskorðu og veljið síðan skilgreiningu töfluskorðu sem nota á. Loks, öll svæði í töfluskorðunni verða að varpa eigindum í afbrigðalíkani afurðar.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
 [Lykilhugtök í afbrigðalíkan afurðar](product-configuration-models.md)
+
+
 
 

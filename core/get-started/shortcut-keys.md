@@ -1,6 +1,6 @@
 ---
 title: "Flýtilyklar"
-description: "Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir Aðgerðir."
+description: "Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
-Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir Aðgerðir. 
+[!include[banner](../includes/banner.md)]
+
+
+Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations. 
 
 **Ábending:** Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarískst lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
 
@@ -40,7 +43,7 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Flytja í næsta/fyrri kost í valmynd            | Örin niður / örin upp            |
 | Loka flipa í aðgerðarúðu eða valmynd          | Esc                              |
 | Líkja eftir hægrismelli                            | SHIFT+F10                        |
-| Opna Dynamics 365 fyrir valmyndinni samhengi Aðgerðir | Ctrl+F10                         |
+| Opna efnisvalmynd Dynamics 365 for Operations | Ctrl+F10                         |
 | Framkvæma sjálfgefinn hnapp á skjámynd/svarglugga       | Alt+færslulykill                        |
 | Smellið á hnapp eða reit                            | Enter eða Bil                   |
 | Skoða endurnýjunarupplýsingar fyrir talningarreit         | Alt+Uppör                     |
@@ -64,7 +67,7 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Ctrl+F2                                   |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |
-| Fara í &lt;n&gt;th Upplýsingakassa (með áherslu á rúðu Upplýsingakassa)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Flytja í &lt;n&gt; upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Útvíkka upplýsingareit (með áherslu á haus upplýsingareitar)                             | Bil eða Enter                            |
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
 | Flytja í næsta/fyrri flýtiflipa                   | Alt+Shift+Niðurör / Alt+Shift+Uppör    |
-| Fara í &lt;n&gt;th FastTab                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Fara í &lt;n&gt;th flipa                         | Alt + Shift +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Flytja í &lt;n&gt; flýtiflipa                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Flytja í &lt;n&gt; flipa                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Útvíkka flýtiflipa (með áherslu á haus flýtiflipa) | Bil eða Enter                               |
 | Draga saman gildandi flýtilipa                        | Alt+0                                        |
 | Skipta í hnitalínuyfirlit                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Opna uppflettingu, samsettan glugga, dagsetningarval, felliglugga           | Alt+Niðurör                |
 | Loka uppflettingu, samsettum glugga, dagsetningarvali, felliglugga          | Esc                           |
 | Færa áherslu í uppflettingu (ef uppfletting er þegar opin) | Alt+Niðurör                |
-| Opna stækkuð forskoðun stýringarinnar                        | Alt+Uppör                  |
+| Opna stækkaða forskoðun stýringarinnar                        | Alt+Uppör                  |
 | Veljið texta í núgildandi reit                           | Ctrl+A                        |
 | Færa inn/fara úr textasvæðinu í HTML-ritlinum        | Alt+Niðurör / Alt+Uppör |
 
@@ -174,18 +177,18 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Fara í yfirlit                                                       | Alt+Shift+Heim  |
 | Fara í flettistiku                                                  | Alt+Shift+F1    |
 | Fara í flettirúðu                                                 | Alt+F1          |
-| Eftirlæti/un-favorite (með áherslu á skjámynd í skoðunarrúðunni) skjámynd | Shift + F         |
+| Setja skjámynd í eftirlæti eða fjarlægja hana þaðan (með áherslu á skjámynd í yfirlitssvæðinu) | Shift+F         |
 | Fara í fyrirtækjaval                                                  | Ctrl+Shift+O    |
 | Fara í flettingaleit                                                   | Ctrl+/ eða Alt+G |
-| Opna rúðuna hjálp                                                        | Ctrl +?          |
-| Opna trace parser                                                     | Alt + Shift + T     |
+| Opnið hjálparsvæðið                                                        | Ctrl+?          |
+| Opna rakningarþáttara                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Flýtileiðir hlutafærslna
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Til að gera þetta**                                                                                                          | **Ýtið á**                        |
 | Opna fellilistann (þegar fellilistinn er lokaður)                                                             | Alt+Niðurör                   |
 | Fara í inntaksreit fyrir núgildandi hluta í fellilistanum (þegar fellilistinn er þegar opinn) | Alt+Niðurör                   |
 | Smellið á fellilistann                                                                                                | Alt+Uppör                     |
@@ -199,5 +202,7 @@ Eftirfarandi flýtilyklar eru notaðir við milli Microsoft Dynamics 365 fyrir A
 | Flytja efst/neðst í uppflettingu                                                                                    | Heima / Ljúka                       |
 
  
+
+
 
 

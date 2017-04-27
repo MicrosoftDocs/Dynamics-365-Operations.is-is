@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Sundurliðanir verkþátta
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Sundurliðanir verkþátta Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks. WBS hefur þrennan megintilgang:
@@ -39,17 +42,17 @@ Stig upplýsinga í WBS fer eftir því stigi nákvæmni sem krafist er í mati 
 
 Aftur á móti eru verkefni í atvinnugreinum eins og miðlun og auglýsingum, hugbúnaði og upplýsingatæknitölvukerfum yfirleitt einstök og framleiðni er í samræmi við reynslu og hæfni einstaklingsins sem framkvæmir verkið. Þess vegna nota þessar atvinnugreinar WBS til að fá áætlun á stærð verksins, en ekki til að rekja sundurliðaða framvindu verksins. 
 
-Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 fyrir Aðgerðir eftir þörfum fyrir mat og rakningu.
+Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 for Operations til að uppfylla kröfur fyrir mat og rakningu.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Forkröfur fyrir stofnun WBS
 Til að stofna WBS, verður að vera hægt að stofna vinnuáætlun og meta kostnað vinnu.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Skilyrði fyrir stofnun vinnuáætlunar
 
-Til nota fulla röðun getu WBS-aðgerðir, skal ljúka eftirfarandi uppsetningu:
+Til að nota fulla röðunargetu WBS-aðgerða skal ljúka eftirfarandi uppsetningu:
 
 1.  Setja upp sjálfgefið dagatal og dagatal verks:
-    1.  Smellið á **verkefnastjórnun Og bókhald**&gt;**Uppsetningu**&gt;**Röðun**. Í reitnum **Sjálfvalið verkdagatal** skal tilgreina sjálfgefið dagatal. Þetta verður sjálfgefið dagatal vinnutíma fyrir öll ný verk sem eru stofnuð.
+    1.  Smellt er á **Verkefnastjórnun og bókhald** &gt; **Setja upp** &gt; **Röðun**. Í reitnum **Sjálfvalið verkdagatal** skal tilgreina sjálfgefið dagatal. Þetta verður sjálfgefið dagatal vinnutíma fyrir öll ný verk sem eru stofnuð.
     2.  Það er hægt að breyta sjálfgefnu dagatali fyrir tilgreint verk. Smellt er á upplýsingasíðu verksins og síðan, á flýtiflipanum **Verkhópur og áætlun**, uppfærirðu reitinn **Áætlunardagatal** með því að velja annað dagatal.
 
 2.  Setja upp staðlaða vinnudaga og vinnustundir. Dagatal sem er sett sem vinnudagatal fyrir verkið sem verður notað í WBS til að ákvarða eftirfarandi upplýsingar:
@@ -57,13 +60,13 @@ Til nota fulla röðun getu WBS-aðgerðir, skal ljúka eftirfarandi uppsetningu
 -   Vinnudagar og frídagar
 -   Fjöldi vinnutíma á dag
 
-Til að setja upp vinnudaga og vinnustundir fyrir dagatal, eða til að stofna nýtt dagatal er smellt á **fyrirtækisstjórnun**&gt;**Algengar**&gt;**Dagatöl**.
+Til að setja upp vinnutíma fyrir dagatal vinnudaga og eða stofna nýtt dagatal skal smella á **Fyrirtækisstjórnun** &gt; **Algengar** &gt; **Dagatöl**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Skilyrði fyrir mati á kostnaði við vinnu
 
 Til að nota alla getu kostnaðarmats WBS þarf að setja upp kostnað og söluverð fyrir starfsmenn, tegundir af vinnu, kostnað, og þóknanir og vörur.
 
--   Smellið til að setja upp kostnað og söluverð vinnu-, útgjalda-og þóknunartegundir, **verkefnastjórnun Og bókhald**&gt;**Uppsetningu**&gt;**Verð**.
+-   Til að setja upp kostnað og söluverð vinnu-, útgjalda-og þóknunartegundir skal smella á **Verkefnastjórnun og bókhald** &gt; **Uppsetningu** &gt; **Verð**.
 -   Til að setja upp kostnað og söluverð vara skal nota síðuna **Viðskiptasamningar **fyrir hverja vöru á listasíðunni **Útgefnum afurðum** í Upplýsingar um afurðarstjórnun.
 
 ## <a name="creating-a-wbs"></a>Stofna sundurliðun verkþátta
@@ -73,11 +76,11 @@ Stofnun sundurliðunar verkþátta felur í sér þrjár aðgerðir:
 2.  **Vinnuáætlun** – Áætla þann tíma sem er áskilinn til að ljúka verkefni, stilla víxlverkun verkefna og velja upphafs- og lokadagsetningar fyrir verkefni.
 3.  **Kostnaðaráætlun** – Meta kostnað fyrir hvert verkefni.
 
-Í eftirfarandi hluta fjalla um hvernig getu WBS getur hjálpað við hver af þessum verkþætti.
+Eftirfarandi hlutar fjalla um hvernig geta WBS getur hjálpað með sérhverja þessara aðgerða.
 
 ### <a name="work-decomposition"></a>Sundurliðun vinnu
 
-Stofnun sundurliðunar verkþátta eða niðurbrots vinnu er yfirleitt fyrsta skrefið í því ferli að búa til WBS. WBS aðgerð styður eftirfarandi grunnur constructs sundurliðun eða sundurliðaðar. 
+Stofnun sundurliðunar verkþátta eða niðurbrots vinnu er yfirleitt fyrsta skrefið í því ferli að búa til WBS. WBS-aðgerðir styðja eftirfarandi grunnuppbyggingu sundurliðunar verkþátta eða niðurbrot. 
 
 **Rótarverkefni í verki** Rótarverkefni í verki er efsta-stigs samantektarverkefni fyrir verk. Öll önnur verkefni verks eru stofnuð undir því. Heiti rótarverksins er alltaf stillt á heiti verksins. Framlag, dagsetningar og lengd rótarhnútsins veita yfirlit yfir gildi fyrir verkefni fyrir neðan rótarverkefni. Ekki er hægt að breyta eiginleikum rótarhnúts eða eyða honum.
 
@@ -94,7 +97,7 @@ Sem stendur er ekki hægt að sérsníða númer sundurliðunar verkþátta.
 **Inndregið verk** Þegar verk er dregið inn verður það undireining verksins á undan því. WBS-númer nýs undirverks er sjálfvirkt endurreiknað samkvæmt WBS-númeri nýrrar yfireiningar. Yfirverkið er nú samantektar- eða uppistöðuverk og verður þess vegna samantekt á uppistöðuverkum þess. 
 
 > [!NOTE] 
-> Þegar verkefni undir verkið sem var áður en aðgerð inndrátt laufhnút, inndraga tapar nýlega stofnaða verkið samantekt sitt dagsetningar framlag og fjölda tilfanga. Núna notar það samantekt á gildum á ný uppistöðuverk sín. 
+> Þegar verk er dregið undir verk sem var laufhnútur á undan inndráttaraðgerðinni tapar nýlega stofnað samantektarverk eigin dagsetningum, framlagi og fjölda tilfanga. Núna notar það samantekt á gildum á ný uppistöðuverk sín. 
 
 **Draga út verk** Þegar verk er dregið út er það ekki lengur uppistöðuverk í yfireiningu. WBS-númer þessa verks er sjálfvirkt endurreiknað til að endurspegla nýtt stig verksins í stigveldinu. Framlag, kostnaður og dagsetningar fyrra yfirverks eru endurreiknaðar til að útiloka það verkefni. 
 
@@ -102,10 +105,10 @@ Sem stendur er ekki hægt að sérsníða númer sundurliðunar verkþátta.
 
 ### <a name="schedule-estimation"></a>Tímasetja mat
 
-Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starfsvenjur eru að ljúka við tímasetningu áætlunar þegar búið er að stofna verk. Í **sundurliðun Verkþátta** síðuna í Microsoft Dynamics 365 fyrir Aðgerð hefur tvo kafla. Efri rúðan er ætluð fyrir tímasetningu áætlunar og sú neðri inniheldur flipann **Áætlaður kostnaður og tekjur** sem hægt er að nota fyrir kostnaðarmat. 
+Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starfsvenjur eru að ljúka við tímasetningu áætlunar þegar búið er að stofna verk. Síðan **Sundurliðun verkþátta** í Microsoft Dynamics 365 for Operations hefur tvo hluta. Efri rúðan er ætluð fyrir tímasetningu áætlunar og sú neðri inniheldur flipann **Áætlaður kostnaður og tekjur** sem hægt er að nota fyrir kostnaðarmat. 
 **Tengsl verkefnis** Í WBS er hægt að stofna forveravensl milli verka. Þegar forveraverkefni er úthlutað á verk getur það verk aðeins hafist eftir að öllum forveraverkum þess er lokið. Áætluð upphafsdagsetning verksins er sjálfkrafa stillt á síðustu dagsetningu allra forvera. 
 
-**Verk röðun í Microsoft Dynamics 365 aðgerða** eftirfarandi þáttum ákvarða röðun fyrir verkefni í hnút:
+**Verkáætlun í Microsoft Dynamics 365 for Operations** Eftirfarandi þættir ákvarða áætlun fyrir verkefni í hnút:
 
 -   Forverar
 -   Framlag
@@ -114,27 +117,27 @@ Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starf
 
 Upphafsdagsetning laufhnúts verkefnis sem er ekki með forvera er sjálfkrafa stillt á áætlaða upphafsdagsetningu verksins. Tímalengd laufhnútaverks er alltaf reiknuð sem fjöldi vinnudaga milli upphafs- og lokadagsetninga þess. 
 
-Röðun reglur *** Þegar kveikt er á ráðgjöf sjálfvirkrar eftirfarandi reglur eiga við verkáætlun fyrir laufhnút hnút verk:
+****Röðunarreglur**** Þegar kveikt er á ráðgjöf sjálfvirkrar áætlunar eiga eftirfarandi reglur við um verkáætlun fyrir laufhnútaverk:
 
 -   Upphafs- og lokadagsetningar verks verða að vera vinnudagar, samkvæmt áætlunardagatals verksins.
 -   Upphafsdagsetning verks sem er með forvera er sjálfkrafa stillt á síðustu lokadagsetningu forvera þess.
 -   Framlag fyrir verk er sjálfkrafa reiknað sem hér segir:
 
-Fjöldi einstaklinga × Tímalengd × Fjölda stunda í staðlaður vinnudagur í verkdagatali. 
+Fjöldi fólks × Tímalengd × Tímafjöldi á stöðluðum vinnudegi í verkdagatali. 
 
-Í sumum tilvikum getur verið ágætt að víkja frá þessum reglum. Hægt er að slökkva á sjálfvirkri áætlun til að koma í veg fyrir Microsoft Dynamics 365 til Aðgerðir sjálfkrafa stillingu eða leiðrétta eiginleikum fyrir verkefni í hnút. Þegar færðar eru inn upplýsingar um verkefni sem veldur broti á áætlunarreglum er villutákn áætlunar sýnt fyrir verkið. Ef ekki á að birta áætlunarvillur er smellt á **Áætlunarvillur eru sýndar** til að slökkva á eiginleikanum. 
+Í sumum tilvikum getur verið ágætt að víkja frá þessum reglum. Hægt er að slökkva á sjálfvirkri áætlun til að koma í veg fyrir Microsoft Dynamics 365 fyrir Operations stilli sjálfkrafa eða leiðrétti eiginleika laufhnútaverka. Þegar færðar eru inn upplýsingar um verkefni sem veldur broti á áætlunarreglum er villutákn áætlunar sýnt fyrir verkið. Ef ekki á að birta áætlunarvillur er smellt á **Áætlunarvillur eru sýndar** til að slökkva á eiginleikanum. 
 
 > [!NOTE] 
-> Halda áfram að vera reiknuð sem summa gildi constituent verkefni, óháð því hvort ráðgjöf sjálfvirkrar kveikt er á eða slökkt gildi fyrir verkefni samantekt eða í gám. 
+> Gildi fyrir samantektar- eða uppistöðuverk eru áfram reiknuð sem summa af gildum uppistöðuverksins, óháð því hvort kveikt er eða slökkt á ráðgjöf sjálfvirkrar áætlunar. 
 
 **Leiðrétting áætlunarvillna** Þegar kveikt er á ráðgjöf sjálfvirkrar áætlunar er ekki líklegt að áætlunarvillur komi upp. Ef slökkt er hins vegar á ráðgjöf sjálfvirkrar áætlunar og síðan kveikt á henni aftur síðar gætu áætlunarvillutákn birst í WBS. 
 
 **Leiðrétting áætlunarvillna eftir verki** Þegar tvísmellt er á áætlunarvillutáknið fyrir tiltekin verk birtir svargluggi allar áætlunarvillur fyrir það verk. Hægt er að ákveða hvaða áætlunarvillur á að laga fyrir verkið. 
 
-**Leiðrétta allar villur röðun** Ef Microsoft Dynamics 365 aðgerða til að laga öll áætlunarvillur í WBS, á Aðgerðasvæðinu skal smellt á **Laga allt misræmi**. 
+**Leiðrétting allra áætlunarvillna** Ef þú vilt að Microsoft Dynamics 365 for Operations lagi allar áætlunarvillur í WBS skal smella á **Laga allt misræmi í áætlunargerð** í Aðgerðasvæði. 
 
 > [!NOTE] 
-> Þessi eiginleiki getur valdið viðeigandi breytingum á WBS. Villur eru leiðréttar í eftirfarandi röð:
+> Þessi eiginleiki getur valdið töluverðum breytingum á WBS. Villur eru leiðréttar í eftirfarandi röð:
 
 1.  Áætluðu framlagi í öllum verkum er breytt þannig að það sé jafnt þeirri afkastagetu sem er skilgreind í dagatali verksins.
 2.  Upphafsdagsetningu hvers verks er breytt þannig að verkið hefst eftir að öllum forveraverkum þess er lokið.
@@ -145,7 +148,7 @@ Fjöldi einstaklinga × Tímalengd × Fjölda stunda í staðlaður vinnudagur �
 Eins og áður er nefnt í þessu skjali skal færa inn kostnaðarmat fyrir hvert laufhnútaverk með því að nota í flipann **Áætlaður kostnaður og tekjur** í neðri rúðunni á síðunni **Sundurliðun verkþátta**. 
 
 > [!NOTE] 
-> Ekki er hægt að breyta kostnaðarmat fyrir verkið samantekt eða í gám. Kostnaðarmat fyrir samantektarverk er jafnt og samtala kostnaðarmats fyrir verkhnúta þess. Áætlaður heildarkostnað fyrir hvert verk er reiknaður sem samtala upphæða áætlaðs kostnaðar fyrir eftirfarandi færslugerðir:
+> Ekki er hægt að breyta kostnaðarmati fyrir samantektar- eða gámaverk. Kostnaðarmat fyrir samantektarverk er jafnt og samtala kostnaðarmats fyrir verkhnúta þess. Áætlaður heildarkostnað fyrir hvert verk er reiknaður sem samtala upphæða áætlaðs kostnaðar fyrir eftirfarandi færslugerðir:
 
 -   Vinna
 -   Vara eða efni
@@ -161,12 +164,12 @@ Færslugerðin **Áfangareikningur** er notuð til að skrá samningsbundið sö
 
 **Meta kostnað í kostnaðarskýrslu og efni** Flipinn **Áætlaður kostnaður og tekjur** gerir þér einnig kleift að meta útgjöld og efniskostnað fyrir verk, ef þörf er á mati. 
 
-Kostnaðar- og söluverð fyrir hverja vinnu og kostnaðar mat línu eru byggð á uppsetningu sem er skilgreint fyrir hverja tegund í verðlagningu töflum við **verkefnastjórnun Og bókhald**&gt;**Uppsetningu**&gt;**Verðlagning**. Fyrir vörur er kostnaði og söluverði vara sjálfkrafa bætt við úr vöru- eða viðskiptasamningum á listasíðunni **Losaðar afurðir** í stjórnum afurðaupplýsinga.
+Kostnaðar- og söluverð fyrir hverja línu vinnu- eða útgjaldamats eru byggð á uppsetningu sem er skilgreind fyrir hverja tegund í verðlagningartöflum í **Verkefnastjórnun og bókhald** &gt; ** Uppsetningu** &gt; **Verðlagning**. Fyrir vörur er kostnaði og söluverði vara sjálfkrafa bætt við úr vöru- eða viðskiptasamningum á listasíðunni **Losaðar afurðir** í stjórnum afurðaupplýsinga.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Rakning framvindu á WBS
 Sumar atvinnugreinar rekja framvindu verks gagnvart WBS á mjög grófan hátt en aðrar rekja framvindu á hærra stigi í WBS. Þessi hluti lýsir því hvernig hægt er að nota WBS fyrir kröfur verks. 
 
-Microsoft Dynamics 365 aðgerða hefur þremur yfirlitum fyrir WBS verk: Áætlanagerðar yfirlitið, rakningarskoðun framlags og Kostnaðarrakningu.
+Microsoft Dynamics 365 fyrir Operations er með þrjú yfirlit fyrir WBS verks: Yfirlit áætlana, Rakningarskoðun framlags og Yfirsýn yfir kostnaðarrakningu.
 
 ### <a name="planning-view"></a>Yfirlit áætlana
 
@@ -177,7 +180,7 @@ Yfirlit áætlana birtir áætlað eða yfirlitsmat yfir upplýsingar um upplýs
 Rakningarskoðun framlags birtir rakningu framvindu fyrir verk í WBS. Hún ber saman uppsafnað raunframlag klukkustunda fyrir verk í áætlað framlag klukkustunda. Eftirfarandi formúlur veita gildin í Rakningu framlags:
 
 -   Framvinduhlutfall = raunframlag til dagsetningar ÷ Áætlað framlag fyrir verkið
--   Eftirstöðvar framlags (einnig þekkt sem Mat-sem-lokið \[O.S.FRV\]) = Áætlað framlag – raunframlag dagsetningu
+-   Eftirstöðvar framlags (einnig þekkt sem Ólokið mat \[ETC\]) = Áætlað framlag – raunframlag til dagsetningar
 -   Áætlað við lok (EAC) = Eftirstöðvar framlags + Raunframlag til dagsetningar
 -   Áætlaðar framlagsfrávik = Áætlað framlag – EAC
 
@@ -188,7 +191,7 @@ Rakningarskoðun framlags birtir áætlun um framlagsfrávik fyrir verkið, bygg
 
 **Enduráætlun verkstjóra á framlagi** Einstaka sinnum þarf stjórnandi eða annar einstaklingur sem er að rekja framvindu verks að endurskoða upprunalegt mat á verki. Verkið gæti verið að flytjast hraðar eða hægar en upphaflega var vænst, af mismunandi ástæðum. Til dæmis hefur umfang verið minnkað eða starfsmenn hafa minni reynslu en upphaflega var áætlað. Spár eru túlkun stjórnanda verks á mati, samkvæmt núverandi stöðu verks. Almennt séð á ekki að breyta grunnlínutölum, þar sem grunnlínuverk tákna vel birt skjal röðun fyrir röðun verksins og kostnaðarmat sem allir hagsmunaaðilar verksins hafa samþykkt. 
 
-Til eru tvær leiðir verkefnisstjórar má breyta framlag verkefni:
+Til eru tvær leiðir fyrir verkefnisstjóra til að breyta framlagi verka:
 
 -   Breyta eftirstöðvum framlags sem eru stillt sjálfkrafa til að uppfæra raunverulegar eftirstöðvar framlags fyrir verkið.
 -   Breyta framvinduhlutfalli sem er stillt sjálfkrafa til að uppfæra raunverulega framvindu fyrir verkið.
@@ -222,7 +225,7 @@ Yfirsýn yfir kostnaðarrakningu birtir áætlun um kostnaðarfrávik fyrir verk
 **Enduráætlun verkstjóra á kostnaði** Verkefnisstjórar verða að nota CTC til að endurskoða upprunalegt kostnaðarmat í verki. Stjórnandi verks getur breytt CTC-gildi á kostnaði sem er nauðsynlegur til að ljúka verkinu. Ef þú breytir CTC-gildi eru CTC, EAC og hlutfall notaðs kostnaðar verks og áætlað kostnaðarfrávik verks endurreiknuð. EAC, ETC og hlutfall notaðs kostnaðar í samantektarverkum er einnig endurreiknað og spáð kostnaðarfrávik þeirra er uppfært. 
 
 > [!NOTE] 
-> Notað hlutfall kostnaðar þegar hægt er að endurskoða framlags fyrir WBS verk í á rakningarskoðun framlags, CTC verki, EAC, og áætlað kostnaðarfrávik eru allar endurreiknuð í Kostnaðarrakningu. Hins vegar hefur endurskoðun á kostnaði ekki áhrif á gildi í Rakningarskoðun framlags, þar sem kostnaður eftir færslugerð (vinna, efni eða kostnaður) eða tegund verks eru ekki endurskoðuð. 
+> Þegar þú endurskoðar framlag fyrir WBS-verk í rakningarskoðun framlags er CTC, EAC, er hlutfall af notuðum kostnaði og áætlað kostnaðarfrávik verks allt endurreiknað í Yfirsýn yfir kostnaðarrakningu. Hins vegar hefur endurskoðun á kostnaði ekki áhrif á gildi í Rakningarskoðun framlags, þar sem kostnaður eftir færslugerð (vinna, efni eða kostnaður) eða tegund verks eru ekki endurskoðuð. 
 
 **Áætluð endurskoðun fyrir kostnað við samantektarverk** Hægt er að endurskoða kostnað samantektarverka og útreikningur verður sjálfkrafa í eftirfarandi röð:
 
@@ -236,24 +239,24 @@ Smellið á **Útvíkka á stig** í Yfirsýn yfir kostnaðarrakningu til að st
 
 ### <a name="earned-value-management"></a>Stjórnun áunnins virðis
 
-Hægt er að nota aðferðina áunnið virði (EVM) til að fylgjast með framvindu verksins. Hægt er að mælikvarða áunnins virðis í Hlutverkamiðstöð stjórnanda verks. Línuritsíhlutur áunnins virðis sýnir tímastillt gildi áætlaðs virðis og raunkostnað. Áunnið virði núverandi dagsetningar er sýnt sem punktur. Tímastillt gögn fyrir áunnið virði eru ekki tiltæk núna. 
+Hægt er að nota aðferðina áunnið virði (EVM) til að rekja framvindu verks. Hægt er að mælikvarða áunnins virðis í Hlutverkamiðstöð stjórnanda verks. Línuritsíhlutur áunnins virðis sýnir tímastillt gildi áætlaðs virðis og raunkostnað. Áunnið virði núverandi dagsetningar er sýnt sem punktur. Tímastillt gögn fyrir áunnið virði eru ekki tiltæk núna. 
 
 Tímastilling á grafi áunnins virði er birt eftir viku eða mánuði. Þessi kafli lýsir því þremur stoðum af EVM: áætluð gildi fékkst gildi og raunverulegan kostnað. 
 
 **Áætlað virði** EVM-kenningin tilgreinir að teiknun áætlaðra gilda stendur fyrir tíðni sem verkteymið áætlaði að ávinna virði í verkinu. 
 
-Microsoft Dynamics 365 aðgerða notar 0:100 tekjukóða reglu þegar hann plots áætluð gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
+Microsoft Dynamics 365 fyrir Operations notar 0:100 tekjuregluna þegar það teiknar áætluð gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
 
 Í verkstjórnun og bókhaldi skal færa inn lokadagsetningu laufhnúta og áætlaðan kostnað fyrir það. Þegar graf yfir áætlaða gildi er sýndur eftir vikum eru áætluð gildi samanlögð eftir vikum fyrir öll verk hnút á laufstigi fyrir tímalengd verksins. 
 
 **Áunnið virði** EVM-kenningin tilgreinir að teiknun áunnins virðis stendur fyrir tíðni sem verkteymið ávinnur sér í raun virði í verkinu. 
 
-Microsoft Dynamics 365 aðgerða notar 0:100 söfnun reglu þegar hennar plots fékkst gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
+Microsoft Dynamics 365 for Operations notar 0:100 tekjuregluna þegar það teiknar áunnið virði. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
 
 Þegar áunnið virði er reiknað er tekið tillit til framvinduhlutfalls hvers verks. Samkvæmt 0:100 tekjureglunni er eingöngu tekið tillit til verka sem er lokið á tilteknu tímabili fyrir útreikning á áunnu virði í lok þess tímabils. Áunnið virði verks er reiknað fyrir öll verkefni sem hefur verið lokið þegar línuritið er stofnuð. 
 
 > [!NOTE] 
-> Sem stendur er kerfið fyrir WBS rakningu er ekki með gagnaskipan geyma prósentur sögulegar vinnslu í hvert verkefni. Þess vegna er aðeins hægt að tilkynna áunnið virði frá og með þeim tíma sem unnið er úr teningnum. Vinna með teninga reglulega til að uppfæra gögn áunnið virði sem birtist í Hlutverkamiðstöðinni. 
+> Sem stendur er kerfið fyrir rakningu WBS ekki með gagnaskipan til að geyma sögulegt framvinduhlutfall í hverju verki. Þess vegna er aðeins hægt að tilkynna áunnið virði frá og með þeim tíma sem unnið er úr teningnum. Vinna með teninga reglulega til að uppfæra gögn áunnið virði sem birtist í Hlutverkamiðstöðinni. 
 
 **Raunkostnaður** EVM kenningin tilgreinir að teiknun raunkostnaðar stendur fyrir tíðni þess sem fé er eytt í verkið. 
 
@@ -273,8 +276,8 @@ Ef raunkostnaður sem er varið fyrir tímabil er meiri en áunnið virði var m
 
 Ef raunkostnaður sem er varið fyrir tímabil er minni en áunnið virði vannst meira fé inn en var varið. Þess vegna er verkið undir fjárhagsáætlun.
 
-## <a name="wbs-templates"></a>WBS-sniðmát
-Hægt er að nota virkni WBS sniðmát til að stofna stöðluðu sniðmát fyrir verk. Ef verk sem fyrirtækið býður fela í sér mikið af endurtekinni vinnu, ætti að íhuga að stofna wbs-sniðmát. 
+## <a name="wbs-templates"></a>WBS sniðmát
+Hægt er að nota eiginleikann WBS-sniðmát til að stofna stöðluð sniðmát fyrir verk. Ef verk sem fyrirtækið býður fela í sér mikið af endurtekinni vinnu, ætti að íhuga að stofna wbs-sniðmát. 
 
 Hægt er að stofna wbs-sniðmát úr WBS í fyrirliggjandi verki, þannig að hægt er að endurnota þá þekkingu og bestu starfsvenjur sem teknar eru saman við áætlanagerð verks við svipuð verk í framtíðinni. Hins vegar er stundum marklaust að vista allt WBS sem sniðmát. Þess vegna er einnig hægt að stofna sniðmát úr hlutum WBS verks.
 
@@ -313,5 +316,7 @@ Framlag = Fjöldi tilfanga × Tímalengd × Tímafjöldi á stöðluðum vinnude
 Hægt er að leiðrétta allar áætlunarvillur í einu með því að smella á **Laga allar áætlunarvillur**. 
 
 Einnig er hægt að leiðrétta hverja áætlunarvillu fyrir sig með því að smella á viðvörunartáknið fyrir hvert verkefni.
+
+
 
 

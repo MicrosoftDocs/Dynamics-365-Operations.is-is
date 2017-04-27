@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Stilla viðskiptakröfur og skuldir og innheimtu
 
+[!include[banner](../includes/banner.md)]
+
+
 Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum.
 
 Þú getur sett upp viðskiptavinaflokka, viðskiptavini, bókunarreglur, ýmsa greiðsluvalkosti, vaxtanótur, innheimtubréf, sölulaun, breytur varðandi viðskiptavini, gjöld, afhendingar og ákvörðunarstaði, víxla og aðrar gerðir viðskiptakrafna og upplýsingar um skuldir og innheimtu.
@@ -98,14 +101,16 @@ Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og 
 |                                                      | Tengiliðir viðskiptavina og stillingar tölvupósts | Setja upp tengiliði fyrir viðskiptavini með netföngum þeirra. Þessar netföng munu birtast á síðunni Innheimtur og verða notuð til að búa til tölvupóstskeyti sem fara til viðskiptavina. Einnig að setja upp sjálfgefinn innheimtutengilið fyrir hvern viðskiptavin sem mun birtast fremst á Innheimtusíðu. |
 |                                                      | Viðskiptavinahópar                       | Setja upp viðskiptavinaflokka, sem eru fyrirspurnir sem skilgreina flokk af viðskiptavinalykill sem hægt er að birtast og stjórnað fyrir innheimtu eða aldursgreiningu ferli.                                                                                                                           |
 |                                                      | Bókunarregla viðskiptavina             | Setja upp reglur sem stýra bókun á viðskiptavinafærslum í fjárhag.                                                                                                                                                                                      |
-|                                                      | Ástæðukóðar viðskiptavinar                | Setja upp ástæðukóðum fyrir viðskiptavini.                                                                                                                                                                                                                                                    |
-|                                                      | Afskrift ástæðukóða viðskiptavina      | Setja upp viðskiptavinar afskrift ástæðukóðum sem verður notað til að afskrifa færslur.                                                                                                                                                                                             |
+|                                                      | Ástæðukóðar viðskiptavinar                | Setja upp ástæðukóða viðskiptavina.                                                                                                                                                                                                                                                    |
+|                                                      | Ástæðukóðar afskrifta viðskiptavina      | Setja upp ástæðukóða afskrifta fyrir viðskiptavini sem verður notaður til að afskrifa færslur.                                                                                                                                                                                             |
 |                                                      | Uppsetning eyðublaða                           | Skilgreina færibreytur skjámyndanótna fyrir tilboð, staðfestingar, tínslulista, fylgiseðla, reikninga viðskiptavina, reikninga með frjálsum texta og vaxtanótur.                                                                                                                               |
 |                                                      | Áhugasvið                             | Setja upp og stýra vaxtakóðum.                                                                                                                                                                                                                                                 |
-|                                                      | NSF-upplýsingar.                     | Setja upp NSF-upplýsingar um bankareikninginn sem verða notaðar þegar greiðsla er merkt sem NSF færsla á síðu Innheimtu.                                                                                                                                              |
+|                                                      | Upplýsingar um innistæðulausa sjóði (NSF).                     | Setja upp NSF-upplýsingar um bankareikninginn sem verða notaðar þegar greiðsla er merkt sem NSF færsla á síðu Innheimtu.                                                                                                                                              |
 |                                                      | Upplýsingar um söluaðila              | Setja upp netfang söluaðila. Þessi netföng mun birtast á síðunni Innheimtur og hægt er að nota þær til að senda tölvupóst til söluaðila frá þeirri síðu.                                                                                                                |
 
  
-Nánari upplýsingar, sjá [Skulda og innheimtu í viðskiptakröfum](collections-credit-accounts-receivable.md).
+Nánari upplýsingar má nálgast á [Skuldir og innheimtur í viðskiptakröfum](collections-credit-accounts-receivable.md)
+
+
 
 

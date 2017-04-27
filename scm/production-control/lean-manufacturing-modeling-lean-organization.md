@@ -1,5 +1,5 @@
 ---
-title: "Líkanabreytur lean fyrirtækis"
+title: "Gerð líkans af lean-fyrirtæki"
 description: "Þessi grein veitir upplýsingar um lykilhugtök í mótun lean-framleiðslu."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Líkanabreytur lean fyrirtækis
+# <a name="modeling-a-lean-organization"></a>Gerð líkans af lean-fyrirtæki
 
 Þessi grein veitir upplýsingar um lykilhugtök í mótun lean-framleiðslu. 
 
@@ -35,7 +35,7 @@ Lean-framleiðslu aðstæður eru yfirleitt meira en samsafn ótengdra kanban-re
 ## <a name="production-flows-in-lean-manufacturing"></a>Framleiðsluflæði fyrir Lean framleiðslu
 Við framleiðslukringumstæður á grundvelli framleiðslupantana er efni gefið út til tilgreindrar framleiðslupöntunar. Við röð aðgerða, byggt á uppskrift (BOM) og leiðir, afurðir eru stofnaðar og að lokum eru mótteknar við uppgefin staðsetning. Gegnumstreymistími framleiðslupantana getur verið breytilegur, frá mínútum í vikur. Öllum tengdum kostnaði, efni og vinnu er safnað upp á framleiðslupöntunina. Til að minnka biðtíma afhendingar og umfram birgðir milli vinnustöðva vegna runu framleiðslu, kynnir lean-framleiðsla kanban áfyllingu og geymslusvæði í framleiðslu- og áfyllingu. Þessi eiginleiki truflar yfirleitt framleiðslu hluta óháð kanban-ferli. Áfylling kanban fyrir hálfkláraða afurð er ekki lengur ræst af pöntun fyrir fullunna vöru. Til að koma aftur framleiðslu- og kostnaðargildi samhengi fyrir mismunandi aðstæður kanban lögð til í Microsoft Dynamics AX, er framleiðsluflæði byggt á verkþáttum hafa verið kynnt sem grundvöllur lean framleiðslu. Allar kanban-reglur vísa í þetta fyrirfram skilgreinda skipulag. Líkan byggt á verkþætti heimilar uppsetningu á breiðara sviði aðstæðna en eru studdar af fyrri útgáfur af Lean-framleiðslu fyrir Microsoft Dynamics AX. Hinsvegar, þetta líkan flækir ekki málin fyrir starfsmenn í vinnusal og allar áætlanir nota sama notendaviðmót byggt á verkþáttum.
 
-## <a name="semifinished-products-nonbom-levels"></a>Næstum tilbúin og afurðir (nonBOM stig)
+## <a name="semifinished-products-nonbom-levels"></a>Hálfunnar vörur (ekki á BOM-stigum)
 Lean framleiðsla fyrir Dynamics AX samþættir kanban fyrir afurðir sem búið er að skrá og hálfkláraðar afurðir í einum ramma, og býður því notandanum samræmda reynslu fyrir öll tilvik. Vegna þessarar uppbyggingar þarf ekki lengur að kynna til leiks uppskriftarstig til að virkja kanbön sem nota á fyrir hálfkláraðar afurðir. Þessi uppbygging hjálpar einnig við minnka birgðafærslur að lágmarki.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Afurðir og Efni í Verk í Vinnslu (VÍV)
@@ -51,6 +51,6 @@ Reglubundin samlegð kostnaðar fyrir framleiðsluflæði leiðréttir tengdan v
 Til að styðja betur samfellda bætingu, er framleiðsluflæði útfært í tímasparandi útgáfum. Þetta leyfir afritun fyrirliggjandi framleiðsluflæðisútgáfu, þar á meðal allar tengdar kanban-reglur, yfir í síðari útgáfur framleiðsluflæðis. Þar að auki framleiðsluflæði í framtíðinni má móta áður en hún er villuleituð og virkjuð fyrir framleiðslu. Fyrirliggjandi kanbön úr eldri útgáfum framleiðsluflæðisins eru sjálfkrafa tengd við nýju útgáfuna til að tryggja samþætt efnisflæði á breytingardagsetningunni og áfram.
 
 ## <a name="simplicity"></a>Einfaldleiki
-Fyrir innleiðingar Lean manufacturing fyrir Dynamics AX, mælt að velja framleiðslu flæði og verkþáttar nálgunin sem gerir einfaldar og flóknar framleiðslu aðstæður til miðuð eina kvarða uppbygging. Nýtt simplicity fyrir notendur sem þurfa það hluta sýnir lánardrottnaverkefni nær deginum leita á hugmyndinni verkþáttur: vinnusal og vörustjórnun starfsmenn. Með því að gefa skýrslu um verk byggð á verkþáttum í stað birgðafærslna getur sameinaða notendaviðmótið sem á við alla þætti Lean-framleiðslu flutt margbreytileika fyrirtækisins frá notendaviðmótinu þangað sem það á raunverulega heima: Til framleiðsluflæðisins sem er hornsteinn Lean-framleiðslunnar.
+Fyrir innleiðingar Lean Framleiðslu fyrir Dynamics AX, völdum við nálgun á framleiðsluflæði og verkþátt sem gerir mögulegt að móta einfaldar og flóknar framleiðsluaðstæður í eina kvarða uppbyggingu. Nánari skoðun á virknihugtakinu leiðir í ljós nýja einföldun fyrir þá notendur sem þurfa á því að halda: Starfsmenn í vinnusal og vörustjórnun. Með því að gefa skýrslu um verk byggð á verkþáttum í stað birgðafærslna getur sameinaða notendaviðmótið sem á við alla þætti Lean-framleiðslu flutt margbreytileika fyrirtækisins frá notendaviðmótinu þangað sem það á raunverulega heima: Til framleiðsluflæðisins sem er hornsteinn Lean-framleiðslunnar.
 
 

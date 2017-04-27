@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
 
+[!include[banner](../includes/banner.md)]
+
+
 Bókunarreglur lánardrottins stýra bókun á færslum lánardrottins í fjárhag.
 
 <a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
@@ -146,6 +149,8 @@ Tilgreina eftirfarandi gildum til að setja upp bókunarreglunni :
 | **Uppgjör** | Veljið þennan valkost til að virkja sjálfvirka jöfnun fyrir færslur sem eru með þessari bókunarreglu. Ef þessi valkostur er tóm þarftu að jafna færslur handvirkt með því að nota Jafna opnar færslur síðuna. |
 | **Hætta við**     | Veljið þennan valkost ef þú vilt geta hætt við færslur sem eru með þessari bókunarreglu.                                                                                                               |
 | **Loka**      | Tilgreinið bókunarreglu sem óskað er eftir að verði breytt yfir í þegar færslur með þessari bókunarreglu eru lokaðar. Litið er á færslu sem lokaða þegar hún hefur verið jöfnuð að fullu.                                       |
+
+
 
 
 

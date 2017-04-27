@@ -1,6 +1,6 @@
 ---
-title: "Setja upp öryggisbúnað fyrir greiningu kostnaðarbókhald Power BI efni"
-description: "Í þessu efnisatriði er útskýrt hvernig hægt propagate aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja samræmda notendur sjá aðeins Power viðskiptagreindargögn sem þeir fá aðgang að."
+title: "Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi"
+description: "Í þessu efnisatriði er útskýrt hvernig hægt er að yfirfæra aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja að notendur sjá aðeins Power BI-gögn sem þeir fá aðgang að."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Setja upp öryggisbúnað fyrir greiningu kostnaðarbókhald Power BI efni
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi
 
-Í þessu efnisatriði er útskýrt hvernig hægt propagate aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja samræmda notendur sjá aðeins Power viðskiptagreindargögn sem þeir fá aðgang að.
+[!include[banner](../includes/banner.md)]
+
+
+Í þessu efnisatriði er útskýrt hvernig hægt er að yfirfæra aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja að notendur sjá aðeins Power BI-gögn sem þeir fá aðgang að.
 
 <a name="overview"></a>Yfirlit
 --------
 
-Í **kostnaðarbókhald analysis** efni Microsoft Power BI notar öryggi á línustigi Power BI til að takmarka aðgang notenda. Öryggi á grundvelli-aðgangsstig stigveldisskipan sem sett er upp í færibreytum kostnaðarbókhalds. Nánari upplýsingar um í **kostnaðarbókhald analysis** Power BI innihald, sjá [kostnaðarbókhald analysis Power BI efni](cost-accounting-analysis-content-pack.md).
+Í **Greiningu á kostnaðarbókhaldi** notar Microsoft Power BI öryggi á línustigi til að takmarka aðgang notenda. Öryggi er byggt á aðgangsstigi stigveldis fyrirtækis sem eru sett upp í færibreytum kostnaðarbókhalds. Nánari upplýsingar um **Greiningu á kostnaðarbókhaldi** Power BI innihald er að finna í [Power BI-efni greiningar á kostnaðarbókhaldi](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Uppsetning
-Eigandi innihald Power BI að propagate aðgang á færslustigi á Power BI, verður að fylgja eftirfarandi skrefum. **Athugasemd:** notandann sem gefur út í **kostnaðarbókhald analysis** Power BI efni verður sjálfkrafa eiganda. Setja má upp öryggi í Power BI aðeins inn eiganda. Þar að auki er fyrr en inn eiganda bætir annarra notenda á PowerBI.com enginn við eitt nema eigandi er hægt að sjá hvaða gögn í **kostnaðarbókhald analysis** Power BI efni.
+Til að yfirfæra öryggi á aðgangsstigi til Power BI þarf eigandi Power BI að fylgja eftirfarandi skrefum. **Athugasemd:** Notandinn sem gefur út Power BI-efni **Greiningar á kostnaðarbókhaldi** verður sjálfvirkt eigandi. Aðeins eigandi getur sett upp öryggi í Power BI. Þar að auki, þar til að eigandi bætir við öðrum notendum á PowerBI.com getur enginn nema eigandinn séð hvaða gögn í Power BI-efni **Greiningar á kostnaðarbókhaldi**.
 
 1.  Birta Power BI í skilgreiningarskránni.
-2.  Innskráning á PowerBI.com.
-3.  Finna dataset fyrir í **kostnaðarbókhald analysis** Power BI efni.
-4.  Opna síðuna öryggi. 
+2.  Skráðu þig inn á PowerBI.com.
+3.  Finna gagnamengi fyrir Power BI-efni **Greiningar á kostnaðarbókhaldi**
+4.  Opnaðu öryggissíðuna. 
 
-    [![Opna síðuna öryggi](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    [![Opna öryggissíðuna](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  Í **Kostnaður hlut fjármálastjóra** hlutverk er þegar stofnað. Bæta við öðrum aðilum sem eru hluti af stigveldisskipan aðgangsstig kostnaðarbókhalds. 
+5.  Hlutverkið **Stjórnborð kostnaðarhlutar** er þegar stofnað. Bæta við öðrum aðilum sem eru hluti af stigveldisskipan aðgangsstigs kostnaðarbókhalds. 
 
     [![Bæta við meðlimum](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Notendur sem er bætt við í **Kostnaður hlut fjármálastjóra** hlutverk sjá aðeins gögnin sem þeir hafa heimild til að sjá, samkvæmt skilgreiningu í stigveldisskipan aðgangsstig kostnaðarbókhalds. **Athugasemd:** Línu á færslustigi við reitir og skýrslur í Microsoft Dynamics 365 fyrir Aðgerðir sem eru innfelld úr Power BI.
+Notendur sem er bætt við hlutverkið **Stjórnborð kostnaðarhlutar** sjá aðeins gögnin sem þeir hafa heimild til að sjá, samkvæmt skilgreiningu í stigveldisskipan aðgangsstigs kostnaðarbókhalds. **Athugasemd:** Öryggi á línustigi gildir í reitum og skýrslum í Microsoft Dynamics 365 for Operations sem eru innfelld úr Power BI.
 
-## <a name="updating-security"></a>Uppfærir öryggi
-Ef uppfærslur eru gerðar á aðgang á færslustigi í kostnaðarbókhaldi, og Power BI til að endurspegla þær uppfærslur á, þarf að uppfæra einingar verslun fyrir á **kostnaðarbókhald analysis** Power BI efni. Eftir uppfærslu verslun einingar úr Dynamics 365 aðgerða er lokið verður að uppfæra gervingar á PowerBI.com. Nánari upplýsingar um hvernig á að gera uppfærslu verslun einingar í [Uppfærsla einingar verslun](power-bi-integration-entity-store.md#update-entity-store). Eigandi er **kostnaðarbókhald analysis** Power BI efni einnig gert uppfærslu einingar verslun ef nýja notendur fá aðgang að stigveldisskipan. Þar að auki er eigandi verður að bæta við nýju notendum að á **Kostnaður hlut fjármálastjóra** hlutverk í PowerBI.com, svo sem öryggi á línustigi er notað fyrir þær.
+## <a name="updating-security"></a>Uppfæri öryggi
+Ef uppfærslur eru gerðar á öryggi á aðgangsstigi í kostnaðarbókhaldi, og þú vilt að Power BI endurspegli þessar uppfærslur, þarf að uppfæra einingaverslun fyrir Power BI-efni **Greiningar á kostnaðarbókhaldi**. Eftir að þú lýkur uppfærslu á einingaverslun úr Dynamics 365 for Operations verður að uppfæra gervingar á PowerBI.com. Nánari upplýsingar um hvernig á að gera uppfærslu á einingaverslun í [Uppfærsla einingaverslun](power-bi-integration-entity-store.md#update-entity-store). Eigandi Power BI-efnis **Greining kostnaðarbókhalds** verður einnig að gera uppfærslu einingaverslunar ef nýir notendur fá aðgang að stigveldisskipan. Þar að auki verður eigandi að bæta við nýjum notendum við hlutverk **Stjórnborð kostnaðarhlutar** á PowerBI.com, svo að öryggi á línustigi sé notað fyrir þá.
 
-## <a name="disabling-security"></a>Gera öryggi
-Gerum við fyrir fyrirtækið vill að takmarka aðgang gögn. Ef af einhverri ástæðu, eru öryggi færibreyturnar óvirkan þegar kostnaðarbókhald er keyrt, eigandinn verður að bæta notendum við í **kostnaðarbókari** hlutverk í Power BI í staðinn. Ef öryggislykillinn er breytt úr virk staða í óvirkri stöðu, er góð hugmynd að fjarlægja notendur úr á **Kostnaður hlut fjármálastjóra** hlutverk. Og öfugt ef virkja öryggisstillingar aftur. Notendur geta tilheyrt bæði hlutverk. Sameiginlegar aðgang er sameiningu bæði hlutverkum. Í því case yfir í **kostnaðarbókhald analysis** Power BI innihald notendur sem aðgang sameiginlegar hafa unrestricted gagnaaðgangur. Ef skal markmiði er að nota takmarkaða aðgang notenda verður að úthluta eingöngu til í **Kostnaður hlut fjármálastjóra** hlutverk. Öryggi á línustigi uppfærslurnar taki strax. Notendur verða fyrir áhrifum ætti að endurnýja vöfrum þeirra.
+## <a name="disabling-security"></a>Afvirkjun öryggis
+Gerum ráð fyrir að fyrirtækið vilji takmarka gagnaaðgengi. Ef af einhverri ástæðu, öryggi færibreyturnar verður óvirkt þegar kostnaðarbókhald er keyrt, eigandinn verður að bæta notendum við í hlutverkið **Kostnaðarbókari** í Power BI í staðinn. Ef öryggislyklinum er breytt úr virkri stöðu í óvirka stöðu, er góð hugmynd að fjarlægja notendur úr hlutverkinu **Stjórnborð kostnaðarhlutar**. Og öfugt ef þú endurvirkjar öryggisstillingar. Notendur geta tilheyrt báðum hlutverkum. Sameiginlegar aðgangur er sameining beggja hlutverka. Í tilfelli Power BI-efnis **Greining á kostnaðarbókhaldi** hafa notendur með sameiginlegan aðgang óheftan gagnaaðgang. Ef markmiðið er að nota takmarkaðan aðgang verður að úthluta notendum eingöngu á hlutverk **Stjórnborð kostnaðarhlutar**. Þessar uppfærslur á öryggi á línustigi taka strax gildi. Notendur sem verða fyrir áhrifum ættu að endurræsa vafra sína.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-Sjá frekari upplýsingar um öryggi á línustigi Power BI, [umsjón Með öryggi á líkanið í Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Til að fræðast nánar um öryggi á línustigi Power BI, sjá [Stjórna öryggi líkansins í Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

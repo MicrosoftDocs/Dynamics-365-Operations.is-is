@@ -41,23 +41,23 @@ Frekari upplýsingar um hvernig þú uppfærir í nýjustu útgáfuna: [Ferli fy
 <thead>
 <tr class="header">
 <th><strong>Losun</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
+<th><strong><strong>Útgáfa</strong></strong></th>
+<th><strong><strong>Útgáfunúmer</strong></strong></th>
+<th><strong><strong>Framboð</strong></strong></th>
 <th><strong><strong>Frekari upplýsingar</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations verkvangur</td>
-<td>Uppfæra svæðis 4</td>
+<td>Verkvangsuppfærsla 4</td>
 <td>7.0.4425.16160</td>
-<td>Febrúar 2017</td>
+<td>2017. febrúar</td>
 <td><ol>
 <li>Farið í <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>.</li>
-<li>Velja skal <strong>Hvað er Nýtt</strong> flipa.</li>
-<li>Í því <strong>Umsóknir</strong> hlutanum <strong>Dynamics 365 aðgerða</strong>.</li>
-<li>Í því <strong>Svæðum</strong> hlutanum <strong>Skýi Svæðis</strong>.</li>
+<li>Velja skal flipann <strong>Hvað er Nýtt</strong>.</li>
+<li>Í <strong>Umsóknir</strong> hlutanum skal velja <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Í hlutanum <strong>Svæði</strong> skal velja <strong>Cloud Platfor</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

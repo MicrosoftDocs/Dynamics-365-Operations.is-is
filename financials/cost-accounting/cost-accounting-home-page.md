@@ -1,6 +1,6 @@
 ---
 title: "Heimasíða kostnaðarbókhalds"
-description: "Þetta efnisatriði gefur lista yfir í hjálparefni og önnur tilföng sem eru tiltækar fyrir kostnaðarbókhald."
+description: "Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
-Þetta efnisatriði gefur lista yfir í hjálparefni og önnur tilföng sem eru tiltækar fyrir kostnaðarbókhald.
+[!include[banner](../includes/banner.md)]
 
-Kostnaðarbókhaldslíkani gerir kleift að gera eftirfarandi:
 
--   Skilgreina víddir kostnað á einingu, flytja meðlimi víddar eining kostnaðar og varpa kostnaður víddir einingarinnar.
--   Skilgreina víddir hlut kostnað og flytja inn meðlimi víddar hlut kostnaðar.
+Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald.
+
+Einingin Kostnaðarbókhald gerir kleift að gera eftirfarandi:
+
+-   Skilgreina víddir kostnaðareiningar og flytja inn víddarstök kostnaðareiningar og varpa víddum kostnaðareiningar.
+-   Skilgreina víddir kostnaðahluta og flytja inn víddarstök kostnaðarhluta.
 -   Skilgreina eða flytja inn tölfræðileg víddarstök.
 -   Stofna veitusniðmát tölfræðiaðgerðar.
 -   Stofna fjárhag kostnaðarbókhalds.
@@ -46,29 +49,31 @@ Kostnaðarbókhaldslíkani gerir kleift að gera eftirfarandi:
 
 ## <a name="get-started"></a>Hefjast handa
 
-Hands-on labs fyrir kostnaðarbókhald veita grundvallarskref til að skilgreina Microsoft Dynamics 365 fyrir Aðgerðir – Kostnaðarbókhald til að gera greiningu raunverulegan kostnað. Það veitir einnig röð ferli sem hægt er að ljúka í þeirri röð sem þær birtast.
+Verklegar æfingar fyrir kostnaðarbókhald veita grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Operations – Kostnaðarbókhald fyrir greiningu kostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
 
--   [Byrja með kostnaðarbókhald](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (hvítum pappír og krefst CustomerSource lykil)
+-   [Hefjast handa með Kostnaðarbókhald](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (hvítbók og krefst CustomerSource lykill)
 
-Til að skilja hvernig þú getur notað kostnaðarbókhaldi fyrir dagleg störf, verður að skilja þessum hugtökum.
+Til að skilja hvernig hægt er að nota kostnaðarbókhald fyrir dagleg störf, verðurðu að skilja þessi hugtök.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Kostnaðareiningar og víddir einingu](cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Stofna kostnaðareiningar](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (leiðarvísi fyrir Verk)
--   [Cost object dimensions](cost-objects.md)
--   [Stofna kostnaður hluti](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (leiðarvísi fyrir Verk)
+-   [Lykilhugtök í kostnaðarbókhaldi](terms-cost-accounting.md)
+-   [Víddir kostnaðareiningar og víddarstök ](cost-elements.md)
+-   [Varpa mismunandi víddarstök kostnaðareiningar á almennt sett víddarstök kostnaðareiningar](map-cost-elements-dimension-members.md)
+-   [Stofna kostnaðareiningar](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (verkleiðbeiningar)
+-   [Víddir kostnaðarhlutar](cost-objects.md)
+-   [Stofna kostnaðarhluti](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (verkleiðbeiningar)
 
-## <a name="cost-control-mobile-workspace"></a>Kostnaðarstýring fartæki vinnusvæði
-Með Kostnað stýringu fartæki vinnusvæðið, stjórnendur vinnustöð kostnaðurinn sjá afköst vinnustöðvarinnar kostnaðar gerir og hvar.
+## <a name="cost-control-mobile-workspace"></a>Fartækjavinnusvæði kostnaðarstýringar
+Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarstaðar séð afkomu kostnaðarstaðar hvenær sem er og hvar sem er.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Fartækjavinnusvæði kostnaðarstýringar](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhald analysis Power BI-efni
-Kostnaðarbókhald analysis Microsoft Power BI efni er ætluð fyrir lénsstjóra haldið kostnaðar eða nokkurn mann sem er ábyrgur fyrir kostnaðarstýringu fyrirtækis er framkvæmd. Það felur í sér lykill mælikvörðum kostnaðar, magni línuupphæðar samræmi og kostnaðarhlutfall raunverulegur kostnaður er kostnaður fjárhagsáætlunar og kostnaður sveigjanlegrar áætlunar. Það notar færslugögn úr kostnaðarbókhald í Microsoft Dynamics 365 aðgerða og veitir yfirlit kostnaðar steypa saman fyrir öll fyrirtæki í eina skýrslugjaldmiðill. Stjórnendur hægt er að sía gögn af hlutum kostnaðar til að framkvæma kostnaðarstýringu þeirra skipulagseininga, jafnvel þótt fyrirtækið getur haft nokkrar lögaðila.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI-efni
+Microsoft Power BI-efnið Greining kostnaðarbókhalds er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýring af fyrirtæki. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn frá Kostnaðarbókhald í Microsoft Dynamics 365 for Operations og veitir samanlagt yfirlit yfir kostnaður fyrir allt fyrirtæki í einum skýrslugjaldmiðill. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
 
--   [Kostnaðarbókhald analysis Power BI-efni](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Set up security for the Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Kostnaðarbókhaldsgreining Power BI-efni](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

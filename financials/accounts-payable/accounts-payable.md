@@ -1,6 +1,6 @@
 ---
 title: "Viðskiptaskuldir – heimasíða"
-description: "Þetta efnisatriði gefur yfirlit yfir Lánardrottna."
+description: "Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
-Þetta efnisatriði gefur yfirlit yfir Lánardrottna.
+[!include[banner](../includes/banner.md)]
 
-Hægt er að færa handvirkt inn reikninga lánardrottna eða taka á móti þeim rafrænt í gagnaeiningu. Þegar reikningar eru færðar inn eða móttekin, hægt er að fara yfir og samþykkja reikninga með því að nota samþykktarbók reikninga eða **lánardrottinsreikning** síðu. Hægt er að nota til að gera endurskoðunarferli svo sem reikninga sem standast ákveðin skilyrði eru sjálfvirkt samþykktir reikningsjöfnun reikningsreglur lánardrottins og verkflæði og eftirstandandi reikninga eru merkt til skoðunar eftir heimild notanda.
+
+Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir. 
+
+Hægt er að færa handvirkt inn reikninga lánardrottna eða taka á móti þeim rafrænt í gagnaeiningu. Þegar reikningar hafa verið færðir inn eða mótteknir er hægt að endurskoða og samþykkja reikninga með því að nota samþykktarbók reikninga eða síðuna **reikningur lánardrottins**. Hægt er að nota til að gera endurskoðunarferli svo sem reikninga sem standast ákveðin skilyrði eru sjálfvirkt samþykktir reikningsjöfnun reikningsreglur lánardrottins og verkflæði og eftirstandandi reikninga eru merkt til skoðunar eftir heimild notanda.
+
+
 
 

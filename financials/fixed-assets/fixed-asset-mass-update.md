@@ -1,6 +1,6 @@
 ---
 title: "Fjöldauppfærsla eigna"
-description: "Ef afskriftabækur er hægt að breyta afskriftarreglum fyrir eignaflokka sem eru hluti af sömu."
+description: "Ef verið er að nota bækur er hægt að breyta afskriftarreglum fyrir flokk af eignum sem eru hluti af sömu bók."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Fjöldauppfærsla eigna
 
-Ef afskriftabækur er hægt að breyta afskriftarreglum fyrir eignaflokka sem eru hluti af sömu.
+[!include[banner](../includes/banner.md)]
+
+
+Ef verið er að nota bækur er hægt að breyta afskriftarreglum fyrir flokk af eignum sem eru hluti af sömu bók.
 
 Þegar búið er að nýta meira en 40 prósent af eignum á fyrsta ársfjórðungi innan Bandaríkjanna þarf að nota afskriftarregluna frá miðjum fjórðungnum. Hægt er að nota fjöldauppfærsluferlið til að breyta öllum eignum sem þarfnast nýju afskriftarreglunnar. 
 
@@ -36,6 +39,8 @@ Ef afskriftabækur er hægt að breyta afskriftarreglum fyrir eignaflokka sem er
 Til að uppfæra afskriftarregluna fyrir vörur sem þegar er búið að losa þarf fyrst að eyða losunarfærslum sem til eru. Einnig verður að eyða öllum færslum sem voru myndaðar vegna losunarferlisins. 
 
 Eftir að afskriftarreglurnar fyrir eignir eru uppfærðar er hægt að vinna afskriftir og óreglulegar afskriftir fyrir hverja eign. Einnig er hægt að gera handvirkar afskriftarleiðréttingar ef þörf er á leiðréttingum.
+
+
 
 
 

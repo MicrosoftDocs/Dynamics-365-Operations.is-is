@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Reglur vöruhúsavinnu
 
+[!include[banner](../includes/banner.md)]
+
+
 Nýja reglu vinnu vöruhús er innleiddur í Microsoft Dynamics AX 7.0.1 (Maí 2016 uppfærslu). Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu.
 
-Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis afurð L0101 sem er skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara eru síðar notaðar í aðra framleiðslu pöntun á staðsetningu framleiðslufrálags 001. Í þessu tilfelli er hægt að setja upp vinnu reglu til að koma í veg fyrir vinnu fyrir fullbúnar vörur frágangur-away verið stofnaðar þegar afurð L0101 tilbúið úttaki staðsetninguna 001 er tilkynnt. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
+Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
 
 -   **Vinnuregluheiti **(einkvæmt kenni reglunnar vinna)
 -   **Vinnupantanagerðir **og** aðferð fyrir stofnun Vinnu**
@@ -55,7 +58,7 @@ Velja má á vöru sem reglan vinna á við um. Hægt er að nota regluna vinnu 
 ## <a name="example"></a>Dæmi
 Í eftirfarandi dæmi eru tvær framleiðslupantanir, PRD 001 og PRD 00*2*. Framleiðslupöntunin PRD 001 hefur aðgerðar sem nefnist **Samsetningu**, þar sem afurð SC1 verið skráð sem lokið á staðsetningu O1. Framleiðslupöntunin PRD 002 hefur aðgerðar sem nefnist **Málun** og notar afurð SC1 frá staðsetningu O1. Framleiðslupöntunin PRD 002 notar einnig RM1 hráefni úr staðsetningunni O1. RM1 er geymd á staðsetningu vöruhúss BULK-001 og verður tekið til staðsetningu O1 eftir vöruhúsi vinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar PRD 002 framleiðsla er losuð. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Þegar ætlunin er að skilgreina vöruhús regla vinnu á þessu dæmi ætti að íhuga að eftirfarandi upplýsingar:
 
@@ -66,12 +69,12 @@ Hér er dæmi um vinnu regluna sem hægt er að setja upp, byggðar á þessum a
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Frágangur 01' Nei                    |-Tilbúið gallalaust frágang<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**Heiti vinnureglu**<br>                 |**Gerðir vinnupöntunar**<br>                               |
+| Enginn frágangur 01                         |- Frágangur á fullunnum vörum<br>                           |
+|                                         |**Staðsetningar**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Afurðir** <br>                                      |
+|                                         |- SC1                                                  |
 
 Eftirfarandi ferli lýsa nákvæmar leiðbeiningar um hvernig setja á upp reglu vinnu vöruhús fyrir þetta dæmi. Sýnishorn uppsetningar sýnir hvernig tilkynnt framleiðslupöntun sem lokið á staðsetningu sem er ekki númeraplötustýrð eru einnig lýst.
 
@@ -244,5 +247,7 @@ SKREF (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

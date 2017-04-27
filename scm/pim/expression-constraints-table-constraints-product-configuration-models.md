@@ -40,7 +40,7 @@ Töfluskorður skrá samsetningargildi sem eru leyfðar fyrir eiginleika þegar 
 
 ### <a name="example-of-a-table-constraint"></a>Dæmi um töfluskorðu
 
-Þetta dæmi sýnir hvernig hægt er að takmarka skilgreiningu hátalara við tiltekinn frágang húss og framhliðir. Fyrsta taflan sýnir frágang húss og framhliðir sem eru almennt aðgengilegar fyrir skilgreiningu. Gildin eru skilgreind fyrir það ** Cabinet ljúka ** og **grill Framan** gerðir eiginda.
+Þetta dæmi sýnir hvernig hægt er að takmarka skilgreiningu hátalara við tiltekinn frágang húss og framhliðir. Fyrsta taflan sýnir frágang húss og framhliðir sem eru almennt aðgengilegar fyrir skilgreiningu. Gildin eru skilgreind fyrir þær gerðir eiginda **Frágangs húss og **framgrills**.
 
 | Gerð eigindar | Gildi                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ Næsta tafla sýnir samsetningar sem eru skilgreindar með töfluskorðunni **Li
 
 Hægt er að stofna kerfisskilgreindar og notandaskilgreindar taflaskorður. Nánari upplýsingar, sjá [Kerfisskilgreindar og notendaskilgreindar töfluskorður](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Málskipan hvað á að nota til að skrifa skorður?
-Þú verður að nota OML-málskipan (Optimization Modeling Language) þegar skorður eru skrifaðar. Kerfið notar leysara skorðu Microsoft Solver Foundation til að leysa takmarkanir.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Hvaða málskipan á að nota til að skrifa skorður?
+Þú verður að nota OML-málskipan (Optimization Modeling Language) þegar skorður eru skrifaðar. Kerfið notar Microsoft Solver Foundation skorðuleysara til að leysa skorðurnar.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Á ég að nota töfluskorður eða segðarskorður?
 Hægt er að nota segðarskorður eða töfluskorður, eftir því hvernig óskað er að byggja upp skorðurnar. Þú byggir upp töfluskorðu sem fylki, en segðarskorða er einstök fullyrðing. Þegar þú skilgreinir vöru, þá skiptir ekki máli hvers konar þvingun er notuð. Eftirfarandi dæmi sýnir hvaða munur er á valkostunum tveimur.  
@@ -110,32 +110,32 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <td>Þetta er satt ef fyrsta skilyrðið er rangt, annað skilyrðið er rétt, eða bæði.</td>
 <td>Felur í sér [a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Virkja:</strong> þess skuli Skilavörur [x! = 0, y &gt;= 0]</li>
-<li><strong>Hornklofaauðkenningin infix:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>Operator:</strong> Bendir til[x != 0, y &gt;= 0]</li>
+<li><strong>Infix-tákn:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Og</td>
 <td>Þetta er satt ef öll skilyrði eru uppfyllt. Ef skilyrði er 0 (núll), framleiðir það <strong>Rétt</strong>.</td>
-<td>Og [args] infix: inn &amp;b &amp; ... &amp;z</td>
+<td>Og[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Virkja:</strong> Og [x == 2, y &lt;= 2]</li>
-<li><strong>Hornklofaauðkenningin infix:</strong> x == 2 &amp;y &lt;= 2</li>
+<li><strong>Virknitákn:</strong> Og[x == 2, y &lt;= 2]</li>
+<li><strong>Infix-tákn:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Eða</td>
 <td>Þetta er satt ef hvaða skilyrði er satt. Ef skilyrði er 0 (núll), framleiðir það <strong>Rangt</strong>.</td>
-<td>Eða [args] infix: inn | b | ... | z</td>
+<td>Eða[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Virkja:</strong> Eða [x == 2, y &lt;= 2]</li>
-<li><strong>Infix hornklofaauðkenningin:</strong> x == 2 | y &lt;= 2</li>
+<li><strong>Virknitákn:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Infix-tákn:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Plús</td>
 <td>Þetta samtölur hennar skilyrði. Ef fjöldi skilyrða er 0 (núll), framleiðir það <strong>0</strong>.</td>
-<td>[Args] plús infix: inn + b +... + z</td>
+<td>Plús[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Virknitákn:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Infix-tákn:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <tr class="odd">
 <td>Tímar</td>
 <td>Þetta tekur afurðar þess skilyrða. Ef fjöldi skilyrða er 0 (núll), framleiðir það <strong>1</strong>.</td>
-<td>Sinnum [args] infix: í * b *... * z</td>
+<td>Sinnum[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Virknitákn:</strong> Times[x, y, 2] == z</li>
 <li><strong>Infix-tákn:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 </tr>
 <tr class="even">
 <td>Styrkur</td>
-<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum, það er hægri associative.) Þess vegna er <strong>Power [á, b, c]</strong> er sá sami og tilgangur <strong>Power [á, Power [b c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
-<td>Power [args], infix: á ^ b ^... ^ z</td>
+<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum, það er hægri-tengt.) Þess vegna er, <strong>Power[a, b, c]</strong> jafnt og <strong>Power[a, Power[b, c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Virknitákn:</strong> Power[x, 2] == y</li>
 <li><strong>Infix-tákn:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <td>Þetta myndar röklegt inverse skilyrðis hennar. Þetta verður að hafa nákvæmlega eitt skilyrði.</td>
 <td>Ekki [expr] infix: expr</td>
 <td><ul>
-<li><strong>Virkja:</strong> Ekki [x] &amp;Ekki [j == 3]</li>
+<li><strong>Virknitákn:</strong> Ekki[x] &amp; Ekki[y == 3]</li>
 <li><strong>Infix-tákn:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Dæmi í næstu töflu sýna hvernig á að skrifa infix-tákn.
 | Infix merki    | lýsing                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | samlagning                                                                                      |
-| X \*y \*z       | Margföldun                                                                                |
+| x \* y \* z       | Margföldun                                                                                |
 | x - y             | Frádráttur tvíundakerfis er umreiknaður eins og viðbót tvíundakerfis þar sem er neitaða aðra. |
 | x ^ y ^ z         | Veldi sem hefur hægri tengslavirkni                                                   |
 | !x                | Boole-ekki                                                                                   |
@@ -212,14 +212,14 @@ Dæmi í næstu töflu sýna hvernig á að skrifa infix-tákn.
 | x & y & z         | Boole- og                                                                                   |
 | x == y == z       | Jafngildi                                                                                      |
 | x != y != z       | Ákveðið                                                                                      |
-| X &lt;y &lt;z   | Minna en                                                                                     |
-| X &gt;y &gt;z   | Stærra en                                                                                  |
-| X &lt;= y &lt;= z | Minna en eða jafnt og                                                                         |
-| X &gt;= y &gt;= z | Stærra en eða jafnt og                                                                      |
+| x &lt; y &lt; z   | Minna en                                                                                     |
+| x &gt; y &gt; z   | Stærra en                                                                                  |
+| x &lt;= y &lt;= z | Minna en eða jafnt og                                                                         |
+| x &gt;= y &gt;= z | Stærra en eða jafnt og                                                                      |
 | (x)               | Svigaar hnekkja sjálfgefinn forgang.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Af hverju eru mínar segðaskorður ekki sannprófaðar rétt?
-Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða undiríhlutir í afbrigðalíkani afurðar. Hér er listi yfir frátekið lykilorð sem hægt er að nota:
+Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða undiríhlutir í afbrigðalíkani afurðar. Hér er listi yfir frátekin lykilorð sem ekki er hægt að nota:
 
 -   Þak
 -   Eining
@@ -245,8 +245,8 @@ Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna segð skorðu (leiðarvísi fyrir Verk)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Stofna segð töfluskorðu (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Bæta við útreikning afbrigðalíkani afurðar (leiðarvísi fyrir Verk)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Bæta útreikningi við afbrigðalíkan afurða (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

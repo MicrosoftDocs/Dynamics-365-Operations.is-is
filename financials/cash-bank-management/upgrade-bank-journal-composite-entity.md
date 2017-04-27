@@ -1,5 +1,5 @@
 ---
-title: "Uppfæra í banka færslubók samsetta einingu"
+title: "Uppfæra samsetta einingu færslubókar banka"
 description: "Eftirfarandi skrefum þarf til að bæta við aukalegum reitnum BankTransactionType við samsetta BankJournalEntity."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Uppfæra í banka færslubók samsetta einingu
+# <a name="update-the-bank-journal-composite-entity"></a>Uppfæra samsetta einingu færslubókar banka
+
+[!include[banner](../includes/banner.md)]
+
 
 Eftirfarandi skrefum þarf til að bæta við aukalegum reitnum BankTransactionType við samsetta BankJournalEntity.
 
 Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við samsetta BankJournalEntity.
 
 1.  Tala sa,am og samstilla eftirfarandi samsettar einingar færslubókar banka, einingar og sviðsetningartöflur:
-    -   Samsett Eining\\BankJournalEntity
+    -   Samsett eining\\BankJournalEntity
     -   Eining\\BankJournalHeaderEntity
     -   Eining\\BankJournalLineEntity
-    -   Taflan\\BankJournalHeaderStaging
-    -   Taflan\\BankJournalLineStaging
+    -   Tafla\\BankJournalHeaderStaging
+    -   Tafla\\BankJournalLineStaging
 
-2.  Stjórnun gagna\\gögn verk
+2.  Gagnastjórnun\\gagnaverk
     -   Sýna **Bankafærslu ** gerð á **Upprunagögn **útlit.
         -   Snið upprunagagna = XML-Element.
         -   Nafn einingar = færslubók banka
@@ -49,6 +52,8 @@ Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við sams
             -   Staðfestið að bankafærslugerð er varpað úr uppruna í sviðsetningu.
 
 3.  Flytja inn nýtt uppgjör.
+
+
 
 
 

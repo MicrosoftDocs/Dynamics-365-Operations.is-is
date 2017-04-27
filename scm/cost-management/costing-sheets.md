@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Kostnaðarskjöl
 
+[!include[banner](../includes/banner.md)]
+
+
 Uppsetning á kostnaðarskjali felur í sér tvö viðföng. Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun. Sniðna skjámyndin nefnist kostnaðarskjal. Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein. 
 
 Kostnaðarskjal er sniðsýning á upplýsingum um kostnað af vörum sem eru seldar fyrir framleidda vöru eða framleiðslupöntun. Þegar°kostnaðarskjal er sett upp er skilgrein snið fyrir upplýsingar og einnig°þarf að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Hér eru frekari upplýsingar um tvö viðföng uppsetningar kostnaðarskjals:
@@ -43,6 +46,8 @@ Tvær lokunarstefnur fyrir kostnaðarútgáfu ákvarða hvort hægt sé að við
 Þegar búið er að skilgreina snið kostnaðarskjalsins og útreikninga óbeins kostnaðar verður að framkvæma sérstakar aðgerðir til að virkja og vista upplýsingarnar. Kostnaðarskjalið birtir snið fyrir allt fyrirtækið með því að birta í öllum tilfellum upplýsingar um kostnað seldra vara. 
 
 Kostnaðarskjalið er birt sem hluti af síðunni **Reikna vörukostnað**. Kostnaðarskjalið getur verið birt fyrir útreiknaðar kostnaðarfærslur framleiddra vara á síðunni **Vöruverð**, eða fyrir útreikning ákveðnar pöntunar á síðunni **Niðurstöður úr útreikningi uppskrifta**. Það getur líka verið sýnt sem hluti af síðunni **Verðútreikningur**fyrir framleiðslupöntun.
+
+
 
 
 

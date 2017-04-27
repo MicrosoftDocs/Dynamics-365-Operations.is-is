@@ -33,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 Einnig er hægt að stofna innkaupapantanir með því að afrita línur úr annarri skjali Innkaupapöntunar eða sölupöntunar. Í þessu tilfelli er hægt að snúa við formerki í birgðum, eins og þú myndir snúa við formerkinu á reikningi til að tilgreina kredit.  
 
-Þó hægt sé að stofna innkaupapantanir handvirkt, eru þær venjulega myndað úr önnur ferli. Pantanir er hægt að stofna sjálfvirkt á grundvelli annarra skjöl, eins og beiðnum. Einnig er geta stofnað sem hluti af áætlanagerðarvinnslu gegnum áætlaðar Sölustaðar. Ef innkaupasamninga er hægt að stofna POs eftir í **Úttektarpöntun** aðgerð. Það eru einnig ítarlegri aðferðir til að stofna Innkaupapöntun sjálfkrafa. Til dæmis er hægt að stofna pantanir þegar þú nota beina afhendingu eða pöntunarkeðjur innan samstæðu.
+Þó hægt sé að stofna innkaupapantanir handvirkt, eru þær venjulega myndað úr önnur ferli. Pantanir er hægt að stofna sjálfvirkt á grundvelli annarra skjöl, eins og beiðnum. Einnig má stofna þær sem hluti af áætlanagerðarvinnslu gegnum áætlaðar innkaupapantanir. Ef þú notar innkaupasamninga er hægt að stofna innkaupapantanir með **Úttektarpöntun** aðgerð. Það eru einnig ítarlegri aðferðir til að stofna Innkaupapöntun sjálfkrafa. Til dæmis er hægt að stofna pantanir þegar þú nota beina afhendingu eða pöntunarkeðjur innan samstæðu.
 
 ## <a name="creating-a-purchase-order-header"></a>Stofna haus innkaupapöntunar
 Þegar ný Innkaupapöntun er stofnuð birtist svargluggi , þar sem hægt er að færa inn algengar upplýsingar fyrir haus Innkaupapöntunar. Þegar smellt er á **í lagi** til að loka svarglugganum, er pöntun stofnuð og síðan er hægt að tilgreina viðbótarupplýsingar í haus.  
@@ -84,7 +84,7 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
 [Staðfesting og samþykkt innkaupapöntunar](purchase-order-approval-confirmation.md)
 

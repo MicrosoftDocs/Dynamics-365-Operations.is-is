@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Stuðulafskrift
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.
 
 Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur  **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:
@@ -39,14 +42,14 @@ Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afsk
 Reglurnar og dæmin að sem fylgja gefa til kynna hvernig hægt er að setja upp stuðla fyrir hverja gerð afskriftar. 
 
 > [!NOTE] 
-> Þegar **Stuðull** í á **Aðferð** svæðinu á **Stuðull** svæði og **Bil** svæði eru birt.
+> Þegar þú velur **stuðull** í **aðferð** svæði, eru **stuðull ** svæði og **Tímabil** svæði birt.
 
 ## <a name="progressive-depreciation"></a>Stighækkandi afskriftir
 Gildið í reitnum **stuðull** er hærri en **50**.
 
 ### <a name="example"></a>Dæmi
 
-Kaupverð er 100.000, stuðullinn er 70, líftíminn er 10 ár og afskriftir hefjast 1. Janúar. Afskriftaupphæðin og bókaðs nettóvirðis eru einungis sýndar fyrir fyrstu sex árin af líftímanum.
+Kaupverð er 100.000, stuðull er 70, líftími er 10 ár, og afskrift hefst á 1. janúar. Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.
 
 | Ár | Tímabil      | Afskriftarupphæð | Upphæð bókaðs nettóvirðis |
 |------|-------------|---------------------|-----------------------|
@@ -62,7 +65,7 @@ Gildið í reitnum **stuðull** er lægri en **50**.
 
 ### <a name="example"></a>Dæmi
 
-Kaupverð er 100.000, stuðullinn er 20, líftíminn er 10 ár og afskriftir hefjast 1. Janúar. Afskriftaupphæðin og bókaðs nettóvirðis eru einungis sýndar fyrir fyrstu sex árin af líftímanum.
+Kaupverð er 100.000, stuðull er 20, líftími er 10 ár, og afskrift hefst á 1. janúar. Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.
 
 | Ár | Tímabil      | Afskriftarupphæð | Upphæð bókaðs nettóvirðis |
 |------|-------------|---------------------|-----------------------|
@@ -75,5 +78,7 @@ Kaupverð er 100.000, stuðullinn er 20, líftíminn er 10 ár og afskriftir hef
 
 ## <a name="straight-line-depreciation"></a>Línuleg afskrift
 Gildið í reitnum **stuðull** er jafn **50**. Í þessu tilfelli eru afskriftirnar þær sömu á hverju tímabili og þú ættir að hugsa um áhrif þeirra gilda sem voru tilgreind í öðrum reitum, eins og lýst er í [línulegur líftími afskriftar](straight-line-service-life-depreciation.md)
+
+
 
 

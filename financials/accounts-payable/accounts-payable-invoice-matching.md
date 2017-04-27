@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Reikningsjöfnun viðskiptaskulda
 
+[!include[banner](../includes/banner.md)]
+
+
 Reikningsjöfnun viðskiptaskulda felst í því að bera saman reikning lánardrottins, innkaupapöntun og upplýsingar á fylgiseðli.
 
 Þegar þessi skjöl eru látin samsvara sér, mismunur milli þessi skjöl kallast misræmi í samsvörun. Misræmi er borinn saman við vikmörk sem tilgreind eru. Ef jöfnunarmisræmi fer yfir vikmarkaprósenta eða upphæð, birtast stemma frávikstákn í síðunni reikningur Lánardrottins og síðunni reikningsferill og samsvörunarupplýsingar 
@@ -48,9 +51,9 @@ Hægt er að nota eftirfarandi gerðir reikningsjöfnunar fyrir viðskiptaskulda
 
 Tvíhliða samsvörun og þríhliða samsvörun stemma alltaf við verðupplýsingar eftir einingaverði. Einnig er hægt að skilgreina þessar samsvörunarreglur til að jafna upplýsingar um verð eftir verðsamtölunni.
 -   Samsvörun á nettó einingaverði – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettó einingaverð fyrir hverja línu á reikningi með samsvarandi nettó einingarverð innkaupapöntunar. Nettó einingaverð er ákvarðað af eftirfarandi formúlu: nettóupphæð línunnar, deilt með magni línunnar.
--   Samsvörun á samtölum verðs – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettóupphæð (heildarverð) fyrir hverja línu á reikningi með samsvarandi nettóupphæð innkaupapöntunar. Nettóupphæð er ákvörðuð með eftirfarandi formúlu: (einingarverð \*Línu magn) + gjöld - Línu afslætti
+-   Samsvörun á samtölum verðs – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettóupphæð (heildarverð) fyrir hverja línu á reikningi með samsvarandi nettóupphæð innkaupapöntunar. Nettóupphæð ákvarðast af eftirfarandi formúlu: (einingarverð \* línumagn) + línugjöld - línuafsláttur
 
-Yfirleitt, reikningsjöfnun eru framkvæmd sjálfkrafa þegar reikningar lánardrottins er breytt á síðu reikningur Lánardrottins. Einnig er hægt að framkvæma reikningsjöfnun eftir þörfum. Reikningsjöfnun eftirspurn stjórnast fyrir lögaðila með á Sjálfkrafa að uppfæra stöðu á fyrirsögn reiknings Til á Lyklum síðuna færibreytur fyrir lánardrottna á flipanum Reiknings. Reikningsjöfnun getur einnig verið framkvæmd sem hluti af endurskoðunarferli reiknings. Geturðu skoða niðurstöður reikningsjöfnunar á síða Reikningur lánardrottins og tengdar síða reikningsjöfnunar.
+Yfirleitt, reikningsjöfnun eru framkvæmd sjálfkrafa þegar reikningar lánardrottins er breytt á síðu reikningur Lánardrottins. Einnig er hægt að framkvæma reikningsjöfnun eftir þörfum. Reikningsjöfnun eftir þörfum stjórnast fyrir lögaðila með Uppfæra sjálfkrafa stöðu á fyrirsögn reiknings í á færibreytusíðu viðskiptaskulda á flipann reikningaprófun. Reikningsjöfnun getur einnig verið framkvæmd sem hluti af endurskoðunarferli reiknings. Geturðu skoða niðurstöður reikningsjöfnunar á síða Reikningur lánardrottins og tengdar síða reikningsjöfnunar.
 
 ## <a name="invoice-totals-matching"></a> Samtölur reiknings stemma
 Hægt er að nota samtölur reikningsjöfnunar sem stemma til að ganga úr skugga um að heildarupphæð reiknings hviki ekki frá upphæðum sem búist er við meira en innan ásættanlegra vikmarka. Sex samtölur eru borin saman á upplýsingasíða samtölur reiknings stemma, eins og sýnt er í eftirfarandi töflu. Ef leyfileg vikmörk fyrir samtölur reiknings stemma er 20% er 100% frávikaprósenta fyrir heildarafsláttarupphæð er talin jöfnunarmisræmi.
@@ -165,7 +168,7 @@ Sömu línuupphæðir eru borin saman á upplýsingasíða reikningsjöfnun, ein
 Þríhliða samsvörun er stýrt fyrir lögaðila með reitnum línujöfnunarregla á síðunni færibreytum viðskiptaskulda. Eftir því hvað er valið í reitnum Leyfa hnekkingu jöfnunarreglu er hægt að velja þríhliða jöfnun fyrir tiltekinn lánardrottin, vöru eða samsetningu vara og lánardrottins á síðunni Jöfnunarregla og fyrir tiltekna innkaupapöntun á síðunni innkaupapöntun.
 
 ## <a name="charges-matching"></a> Gjöld stemma
-Hægt er að nota jöfnun gjalda til að ganga úr skugga um að upphæðir gjalda hviki ekki frá upphæðum sem búist er við meira en innan ásættanlegra vikmarka. Heildarupphæðir fyrir hverja gjaldakóða sem á við pöntunina innkaupapöntunar og reiknings eru borin saman í á bera Saman gjalda - Reikningur: síðuna, eins og sést í eftirfarandi töflu. Ef leyfileg vikmörk fyrir gjaldakóði er 25% er 99.999.999.999,99% frávikaprósenta fyrir framleiðsluleyfisgjaldakóði talin jöfnunarmisræmi.
+Hægt er að nota jöfnun gjalda til að ganga úr skugga um að upphæðir gjalda hviki ekki frá upphæðum sem búist er við meira en innan ásættanlegra vikmarka. Heildarupphæðir fyrir hverja gjaldakóða sem á við um innkaupapöntunar og reiknings eru borin saman í á Bera saman gjaldgildi - Reikningur: síðu, eins og sýnt er í eftirfarandi töflu. Ef leyfileg vikmörk fyrir gjaldakóði er 25% er 99.999.999.999,99% frávikaprósenta fyrir framleiðsluleyfisgjaldakóði talin jöfnunarmisræmi.
 
 > [!NOTE] 
 > Fráviksprósenta uppá 99,999,999,999.99 % þýðir að áætluð upphæð byggð á innkaupapöntun er núll og raunveruleg upphæð á reikningi er jákvætt gildi. 
@@ -188,7 +191,9 @@ Reikningar lánardrottna eru oft byggðir á innhreyfingarskjal afurða sem stan
 -   Færið inn reikningsupphæðir sem voru ekki með á upphaflega innkaupareikningnum svo að reikningsupplýsingarnar stemmi við reikninginn frá lánardrottninum. Hægt er að bera saman gjöld fyrir innkaupapöntunum við gjöld fyrir reikningum. Ef með þarf er hægt að bæta gjöldum við reikninga og úthluta á reikningslínur.
 -   Skoðið og samþykkið verðmisræmi milli nettó einingarverðs á reikningi og á innkaupapöntun. Hægt er að setja upp vikmarkaprósentur verðs fyrir lögaðila, lánardrottna og vörur. Ef línuverð á reikningi lánardrottins er ekki innan vikmarkanna er hægt að geyma reikninginn þar til hann er samþykktur til bókunar eða þar til leiðrétting kemur frá lánardrottni.
 
-Nánari upplýsingar, sjá [þríhliða jöfnunarreglur reikninga](three-way-matching-policies.md).
+Frekari upplýsingar eru í [Þríhliða jöfnunarreglur](three-way-matching-policies.md).
+
+
 
 
 

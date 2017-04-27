@@ -86,5 +86,5 @@ Valkosturinn **Fjárhagsskýrsla** er lausnin. Hægt er að skrá stigveldi fyri
 Með því að nota valkostinn **Flytja út stöður í fyrirtækinu** til að flytja út úr einu tilviki og nota svo°valkostinn **Sameina með innflutningi** fyrir hina útgáfuna er hægt að sameina gögnin.
 
 
-Nánari upplýsingar, sjá [revalution Gjaldmiðli í samstæðufyrirtæki](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Frekari upplýsingar eru í [Endurmat gjaldmiðils í samstæðufyrirtæki](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

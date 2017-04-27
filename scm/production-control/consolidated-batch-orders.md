@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Sameinaðar runupantanir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir hugtakinu á bakvið samsteyptur runupöntun.
 
 Fjöldavara°sem er framleidd er talin yfirvara, og pökkuð vara er talin undirvara. Tengsl á milli fjöldavöru og pakkaðrar vöru er sýnd í umreikningi fjöldavöru. Þessi umreikningur fjöldavöru er skilgreindur í fjöldavörunni sjálfri.  
@@ -41,6 +44,8 @@ Sameinaðri runupöntun getur innihaldið samsetningu af eftirfarandi pantanir:
 -   Margar fjöldapantanir og margar pakkapantanir
 -   Margar fjöldapantanir og ein pakkapöntun
 -   Aðeins pakkapantanir
+
+
 
 
 

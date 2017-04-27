@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="nonconformance-management"></a>Stjórnun ósamkvæmni
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta grein lýsir grunnuppsetningu sem er krafist til að nota ósamkvæmni. Viðbótaruppsetning er nauðsynleg ef á að nota gæðapantanir. 
 
 Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
@@ -34,7 +37,7 @@ Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
 1.  Skilgreinið birgðafæribreyturnar pg vöruhúsafæribreyturnar sem eru tengdar ósamkvæmni.
     -   Setja skal **Nota gæðastjórnun** valkosturinn á **Já**.
     -   Í reitinn ** tímagjald **  skal færa inn tímagjald fyrir vinnu í gjaldmiðli landsins. Tímagjaldið er notuð til að reikna kostnað fyrir aðgerðir sem tengjast ósamkvæmni. Tímagjaldið og reiknaður kostnaður veita tilvísunarupplýsingar fyrir ósamkvæmni Þau eiga ekki í samskiptum við aðrar aðgerðir.
-    -   Notkun á **gæðastjórnun** flipanum á í **skýrsluuppsetningu** síðu til að skilgreina þá gerð skjals til að prenta. Hægt er að prenta skýrslu um ósamkvæmni, ósamkvæmnimerki eða leiðréttingarskýrsla. Hægt er að skilgreina fleiri en eina skráningu til að prenta mismunandi skjalategundir í skýrslu, eða til að prenta innri og ytri athugasemdir. Hjálplegt er að nota skjámyndina **Gerð fylgiskjals ** til að skilgreina einkvæma gerð skjals fyrir ósamkvæmi og einkvæma gerð skjals fyrir leiðréttingu. Til dæmis á að færa inn athugasemdir um ósamkvæmni með því að nota einkvæma skjalgerð fyrir ósamkvæmni. Í þessu tilfelli auðkenna einkvæmu skjalgerðina í skýrsluvalkostum.
+    -   Nota skal flipann **Gæðastjórnun** á síðunni **Skýrsluuppsetning** til að skilgreina gerð skjals til að prenta. Hægt er að prenta skýrslu um ósamkvæmni, ósamkvæmnimerki eða skýrslu um leiðréttingar. Hægt er að skilgreina fleiri en eina skráningu til að prenta mismunandi skjalategundir í skýrslu, eða til að prenta innri og ytri athugasemdir. Hjálplegt er að nota skjámyndina **Gerð fylgiskjals ** til að skilgreina einkvæma gerð skjals fyrir ósamkvæmi og einkvæma gerð skjals fyrir leiðréttingu. Til dæmis á að færa inn athugasemdir um ósamkvæmni með því að nota einkvæma skjalgerð fyrir ósamkvæmni. Í þessu tilfelli auðkenna einkvæmu skjalgerðina í skýrsluvalkostum.
     -   Virkja númeraraðir fyrir ósamkvæmni og tilvísanir fyrir leiðréttingu.
 
 2.  Virkja notendasamþykki fyrir ósamkvæmni. Notaðu skjámyndina **Nafn **á síðunni **notendur** til að úthluta starfsmanni á hvern notanda sem verður að samþykkja ósamkvæmni. Kerfið notar starfsmönnunum sem breyta stöðunni ósamkvæmi til að rekja sögu ósamkvæmninnar. Notendur getur ekki samþykkt ósamkvæmni nema þær hafa verið úthlutað starfsmannakenni.
@@ -47,10 +50,12 @@ Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna og vinna ósamkvæmni (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Ósamkvæmni stofnuð og unnið úr henni (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Ferli gæðastjórnunar](quality-management-processes.md)
 
-[Setja upp forkröfur fyrir stjórnun ósamkvæmni (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Setja upp forsendur fyrir ósamkvæmnistýringu (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

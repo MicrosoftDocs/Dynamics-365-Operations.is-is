@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Greining algengra orsaka framleiðslufrávika
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu. 
 
 Hér eru sumar dæmigert uppruna á frávikum **lotustærð**:
@@ -57,6 +60,8 @@ Hér eru sumar dæmigert uppruna á frávikum á **staðgengilsframleiðslu** :
 -   Aðgerð bætt handvirkt við framleiðsluleiðina og tilkynnt að sú aðgerð sé notuð.
 -   Önnur uppskriftarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem uppskriftarútgáfan er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.
 -   Önnur leiðarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem leiðarútgáfa er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.
+
+
 
 
 

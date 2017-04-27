@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Kostnaðaráætlun framleiðslupöntunar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um mat á framleiðslukostnaði. Mat á framleiðslukostnaði veitir upplýsingar um efnis- og afkastanotkunarkostnað við framleiðslu á vöru í áætluðu framleiðslupöntunarmagni. 
 
 Eftir að þú stofnar framleiðslupöntun verður þú að meta framleiðslukostnað. Tilgangurinn er mat á vöru- og leiðanotkun fyrir framleiðsluferlið, því matið er notað sem grunnurinn að næstu röðunar- og framleiðsluferlum.
@@ -59,6 +62,8 @@ Kostnaðarmat felur líka í sér eftirfarandi upplýsingar:
 -   Samanburð á kostnaðarupplýsingum úr fyrri framleiðslum
 -   Áætlunar- og spáupplýsingar
 -   Mat á nauðsynlegri framleiðslustærð til þess að geta viðhaldið tilteknum kostnaði.
+
+
 
 
 

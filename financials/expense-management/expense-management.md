@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Útgjaldastýring
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Áætlanagerð útgjaldastýringar](plan-expense-management.md) Frekari upplýsingum verður bætt við síðar, athugið aftur fljótlega.
+
+
 
 

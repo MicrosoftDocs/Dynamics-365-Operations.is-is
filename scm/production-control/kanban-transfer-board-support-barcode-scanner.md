@@ -1,5 +1,5 @@
 ---
-title: "Flutningstafla Kanbans styðja fyrir skannar samþykkja strikamerki"
+title: "Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna"
 description: "Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Flutningstafla Kanbans styðja fyrir skannar samþykkja strikamerki
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
+
+[!include[banner](../includes/banner.md)]
+
 
 Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
 
@@ -46,13 +49,13 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 <a name="registration-mode-select"></a>Velja skráningarham
 ------------------------
 
-Þegar nota lesari strikamerki til að velja vinnslu birtingarhamur breytist spjald við kanban. Í þessari stillingu eftirfarandi skilyrði gilda:
+Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
 
 -   Aðeins skannaðs kanban-vinnslu birtist.
 -   Upplýsingar um valið verk eru birtar í **upplýsingar ** flýtiflipanum.
 -   **Skilaboð** flýtiflipi birtir skilaboð aðeins fyrir valda vinnslu.
 -   Hægt er að breyta stöðu vinnslunnar með því að nota eiginleika sem eru tiltækir í Aðgerðarúðunni. Flutningstafla Kanbans heldur áfram til að birta aðeins einni vinnslu við þessa tíma.
--   Hægt er að uppfæra upplýsingar í lista yfir vinnslur handvirkt með því að smella **Endurnýja** (Shift + F5) í Aðgerðarúðunni. Eftir að þú endurnýjar upplýsingarnar birtast fullar niðurstöður fyrir síu vinnslu aftur.
+-   Hægt er að uppfæra upplýsingar í lista yfir vinnslur handvirkt með því að smella **Endurnýja** (Shift + F5) á við Aðgerðasvæði. Eftir að þú endurnýjar upplýsingarnar birtast fullar niðurstöður fyrir síu vinnslu aftur.
 
 ## <a name="job-status-and-possible-actions"></a>Staða vinnslu og mögulegar aðgerðir
 Staða valinnar vinnslu og stöðuna á öllum föstum vinnslum fyrir tilvik kanbans, ákvarða hvort hægt sé að vinna vinnsluna frekar. Eftirfarandi tafla birtir upplýsingar um þessar stöður og vinnslur:
@@ -185,6 +188,8 @@ Staða valinnar vinnslu og stöðuna á öllum föstum vinnslum fyrir tilvik kan
 </tr>
 </tbody>
 </table>
+
+
 
 
 

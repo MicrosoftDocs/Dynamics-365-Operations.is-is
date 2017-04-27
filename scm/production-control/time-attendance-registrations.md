@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Skráning tíma og mætinga
 
+[!include[banner](../includes/banner.md)]
+
+
 Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tímaskráningar, til dæmis innstimplun, útstimplun, skráningu óbeinna aðgerða og fjarvistarskráningu. Þessi grein lýsir skráningum, útreikningi þeirra, samþykki og notkun verkflæðis til að bæta skipulag og sjálfvirku samþykki ferlisins að samþykkja vinnuskýrslur. 
 
 <a name="registrations"></a>Skráningar
@@ -62,7 +65,7 @@ Eftir uppsetningu, geta starfsmenn fært inn ólíkar gerðir skráninga.
 -   Óbeinir verkþættir, sem eru óframleiðnir verkþættir sem starfsmaður gæti tekið þátt í í vinnudeginum. Dæmi um þessar aðgerðir eru fundir eða°hreinsun á vinnusvæði.
 -   Yfirvinna, sem°hægt er að skrá annaðhvort sem aukavinnu, með sveigjanlegan vinnutíma eða yfirvinnu.
 
-## <a name="adding-clockout-registrations"></a>Bæta við skráningum clockout
+## <a name="adding-clockout-registrations"></a>Bæta við útstimplun
 Ef starfsmaður gleymir að stimpla út í lok vinnudags, er hægt að bæta við skráningu sem vantar með því að keyra runuvinnslu. Kerfið mun bera saman innstimplun og útstimplun tíma samkvæmt tengdum forstillingum starfsmanns og setja sjálfvirkt inn í útstimplun sem vantar til að jafna lokatíma forstillingar. Bæði innstimplunar og útstimplunar skráningar eru nauðsynlegar fyrir síðari útreikning og samþykkt tímaskráningar áður en hægt er að flytja þær í launavinnslu.
 
 ## <a name="calculating-registrations"></a>Reikna skráningar
@@ -113,6 +116,8 @@ Starfsmönnum með verkefni sem krefjast ekki tafarlausra viðbragða, svo sem v
 -   Tímanotkun
 -   Þóknun fyrir verk
 -   Verkatriði
+
+
 
 
 

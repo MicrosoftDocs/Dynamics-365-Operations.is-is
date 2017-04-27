@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með.
 
 Eftir því hvernig fyrirtæki þitt er sett upp er hægt að stofna innkaupabeiðnir fyrir vörur sem fyrirtækið notar. Innkaupabeiðni er innra fylgiskjal sem heimila innkaupadeild að kaupa vara eða þjónusta.  
@@ -48,7 +51,7 @@ Hægt er að skilgreina verkflæðisferli innkaupabeiðni til að beina innkaupa
 
 Eftirfarandi skýringarmynd sýnir stöðurnar sem eru úthlutaðar á innkaupabeiðni og innkaupabeiðnilínu þar sem þau fara gegnum ferlið verkflæði.  
 
-[![Haus innkaupabeiðninnar og stöðum innkaupapöntunarlína](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Haus og línustöður innkaupabeiðni](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Vensl hauss og línustöðu innkaupabeiðni
 
@@ -77,7 +80,7 @@ Heildarstaða innkaupabeiðninnar ræðst af stöðu innkaupabeiðnilínanna. Þ
 <td>Ef verkflæðið hefur verið skilgreint til að beina innkaupabeiðnilínum til einstakra yfirlesara getur hver lína haft stöðuna <strong>í yfirferð</strong> eða <strong>Hafnað</strong>. Þegar staða innkaupabeiðni er uppfærð þegar endurskoðunarferli er lokið fyrir allar innkaupabeiðnilínur og engin endurskoðunarferli eru eftir fyrir innkaupabeiðnina.
 <ul>
 <li><strong>Í yfirferð</strong> – Innkaupabeiðnilínur hafa verið sendar til endurskoðunar. Þegar verkflæðisferlið er lokið fyrir innkaupabeiðnilínu, eftir stöðu línuna <strong>í yfirferð</strong> þar til allar eftirstöðvar innkaupabeiðnilínur hafa verið yfirfarnar.</li>
-<li><strong>Hafnað</strong> – línu innkaupabeiðni hefur verið hafnað. Hægt er að breyta og endursenda innkaupabeiðnilínur sem er hafnað.</li>
+<li><strong>Hafnað</strong> – Innkaupabeiðnilínu hefur verið hafnað. Hægt er að breyta og endursenda innkaupabeiðnilínur sem er hafnað.</li>
 </ul>
 Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðunarferli aftur fyrir allar línur í innkaupabeiðninni sem eru enn í yfirferð. <strong>Ábending:</strong> Hægt er að afturkalla innkaupabeiðni sem þegar hefur verið send. Þegar innkaupabeiðni er afturkölluð eru allar aðrar innkaupabeiðnilínur einnig afturkallaðar. Ekki er hægt að eyða innkaupabeiðnilínum sem hafa verið afturkallaðar.</td>
 </tr>
@@ -133,7 +136,7 @@ Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðun
 Hægt er að dreifa kostnaði vöru í innkaupabeiðni á marga fjárhagslykla. Ef fyrirtækið notar víddir, eins og deildir og kostnaðarstaði er hægt að dreifa kostnaði afurðar á víddir fyrir fjárhagslega lykla.
 
 ## <a name="requisition-purposes"></a>Tilgangur beiðni
-Tilgangur beiðni gera ferli uppfyllingar á innkaupabeiðni sveigjanlegri. Þegar beiðni er stofnuð er hægt að úthluta henni tvenns konar málefnum: notkun eða áfyllingu. Eftir málefni beiðni og uppsetningu á fyrirtækið, getur verið uppfyllt eftirspurn innkaupabeiðni eftir innkaupapöntun, flutningspöntun, framleiðslupöntun eða kanban.  
+Tilgangur beiðni gera ferli uppfyllingar á innkaupabeiðni sveigjanlegri. Þegar beiðni er stofnuð er hægt að úthluta henni tvenns konar málefnum: notkun eða áfyllingu. Það fer eftir tilgangi beiðnar og uppsetningu fyrirtækis hvort eftirspurn beiðna geti verið uppfyllt af innkaupapöntun, flutningspöntun, framleiðslupöntun, eða kanban.  
 
 Í innkaupastefnum er hægt að stjórna málefnum beiðni sem eru tiltæk þegar beiðni er stofnuð fyrir fyrirtækið.
 
@@ -152,7 +155,7 @@ Til að nota beiðnir með tilganginn áfyllingu verður að setja röðun upp �
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Innkaupabeiðnir og tilboðsbeiðnir
 Í sumum tilfellum verður að hefja beiðni um tilboð (BUT) ferli til að auðkenna lánardrottinn og verð fyrir afurðir sem beðið er um í innkaupabeiðni. Hægt er að mynda beiðni um TILBOÐ þegar innkaupabeiðni er í yfirferð. Þegar tilboð er samþykkt, eru upplýsingar um lánardrottinn, verð og svo framvegis, fluttar í innkaupabeiðni.  
 
-Hægt er að setja innkaupabeiðni í bið með því að velja á **í bið** gátreitinn á **upplýsingar um innkaupabeiðni** síðu. Vinnsla innkaupabeiðninnar getur haldið áfram eftir fjarlægja er í bið með því að hreinsa gátreitinn.  
+Hægt er að setja innkaupabeiðni í bið með því að velja gátreitinn **í bið** á síðunni **upplýsingar um innkaupabeiðni**. Vinnsla innkaupabeiðninnar getur aðeins haldið áfram eftir að taka þær úr bið með því að hreinsa gátreitinn.  
 
 **Ábending:** í eProcurement, gæti beiðni um TILBOÐ fyrir innkaupabeiðni leyft lánardrottnum að bæta við aðrar línur. Í því tilfelli munu samþykktir varakostir endurspeglast í innkaupabeiðninni.
 
@@ -178,7 +181,7 @@ Til að stofna innkaupabeiðnilínur sem eru ekki hæfar fyrir sameiningu eftirs
 
 Ferlið við sameiningu eftirspurnar hefst á tímapunkti þegar innkaupabeiðni hefur verið samþykkt í verkflæði og frátektir fjárhagsáætlunar og verið er að skrá áætlaðar fjárúthlutanir ef fjárhagsáætlunarstýring er skilgreint fyrir þitt fyrirtæki. Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir sameiningu eftirspurnar.  
 
-[![Flæði fyrir sameiningu eftirspurnar](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Flæði ferla fyrir sameining eftirspurnar](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 
@@ -192,8 +195,10 @@ Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna innkaupabeiðni fyrir notkun (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Stofna innkaupabeiðni fyrir notkun (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Verkflæði fyrir innkaupabeiðni](purchase-requisitions-workflow.md)
+
+
 
 

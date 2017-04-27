@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>Færsluvottorð ESB
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um færsluvottorð ESB.
 
 Hægt er að ljúka eftirfarandi verkum fyrir Evrópusambandið (ESB) færsluvottorð:
@@ -76,7 +79,7 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Myndun, skráningu og upphleðslu í EU færsluvottorðs
-Hægt er að stofna ESB færsluskírteini sjálfvirkt eða handvirkt. Skírteini sem EU færslu er stofnaður og prentaður sjálfvirkt þegar að bóka fylgiseðil eða reikning fyrir viðskiptavin með því að nota í **Bókun fylgiseðils** síðu eða **Bókun reiknings** síðu. Til að stofna handvirkt eða endurprenta færslu skírteini EU fyrir reikning viðskiptavinar, er **reikningabók** síðu. Þar að auki er hægt að færa inn upplýsingar um færsluvottorð ESB sem er gefið út af þriðja aðila með því að nota ** Færsluvottorðabók** síðuna.
+Hægt er að stofna ESB færsluskírteini sjálfvirkt eða handvirkt. ESB-færsluvottorð er stofnað og prentað sjálfkrafa þegar þú bókar fylgiseðil eða reikning fyrir viðskiptavin í síðunni **Bókun fylgiseðils** eða **Bókun reiknings**. Til að stofna handvirkt eða endurprenta færsluvottorð ESB fyrir reikning viðskiptavinar skal nota síðuna **Reikningabók**. Þar að auki er hægt að færa inn upplýsingar um færsluvottorð ESB sem er gefið út af þriðja aðila með því að nota ** Færsluvottorðabók** síðuna.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Stofna ESB færsluvottorð sjálfvirkt eða handvirkt
 
@@ -121,6 +124,8 @@ Ef notandi ekki aðgang að síðum sem notaðar eru til að ljúka þessu verki
 </tr>
 </tbody>
 </table>
+
+
 
 
 

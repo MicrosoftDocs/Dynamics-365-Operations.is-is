@@ -1,6 +1,6 @@
 ---
 title: "Ráða Power BI-efni"
-description: "Þetta efnisatriði lýsir Dynamics 365 aðgerða - Ráða Power BI efni. Það útskýrt hvernig á að fá aðgang að skýrslunum sem eru innifaldar í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem voru notaðir til að búa til innihald þjónustupakka."
+description: "Þetta efnisatriði lýsir Dynamics 365 for Operations - Ráða Power BI-efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,47 +26,50 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="recruiting-power-bi-content"></a>Ráða Power BI-efni
 
-Þetta efnisatriði lýsir Dynamics 365 aðgerða - Ráða Power BI efni. Það útskýrt hvernig á að fá aðgang að skýrslunum sem eru innifaldar í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem voru notaðir til að búa til innihald þjónustupakka.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Fara í hugbúnaðarhlutartréð innihaldi pakka
+
+Þetta efnisatriði lýsir Dynamics 365 for Operations - Ráða Power BI-efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka.
+
+<a name="accessing-the-content-pack"></a>Farið í efnispakkann
 --------------------------
 
-Hægt er að finna innihald þjónustupakka Ráðning í Samnýttum eignir safn í Microsoft Dynamics Lifecycle Services (LCS). Nánari upplýsingar um hvernig á að sækja innihald þjónustupakka og tengja hana við Microsoft Dynamics 365 fyrir Aðgerðir í [Power BI efni í LCS frá Microsoft og for your viðskiptaaðila](power-bi-content-microsoft-partners.md).
+Hægt er að finna þjálfunarpakka í safninu Samnýttar eignar í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnispakkann og tengja hann við gögn Microsoft Dynamics 365 for Operations er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í innihald þjónustupakka
-Eftir að þú hefur verið tengdur innihald þjónustupakka skal Dynamics 365 fyrir Aðgerðir, skýrslur sem sýna gögn fyrirtækisins. Ef aldrei hefur verið að nota Microsoft Power BI áður en hægt er að læra meira um það á við [með Leiðsögn Nám síðu fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í innihald þjónustupakka með bæði ritum og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
+Eftir að þú hefur tengt efnispakkann við gögn Dynamics 365 for Operations, sýnir skýrslan þér fyrirtækjagögn þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
 | Skýrsla                       | Innihald                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Greining umsækjanda           | Umsækjendur með vinnslu, uppruna umsækjanda, umsækjendur eftir staðsetningu og heildarfjöldi umsækjenda           |
-| Staða umsækjanda             | Umsækjendur með gerð og stöðu og stöðu umsækjanda                                                    |
-| Lýðfræði umsækjanda       | Umsækjendur með aldur og kyn og umsækjendur með því að stig menntun og stöðu                             |
-| Ráðningar Greiningar          | Nettó hlutfall ráðningarreglu, daga til að ráða, prósentuhlutfall ósamhæft starfsmenn og kostnað ráðningar að meðaltali                    |
-| Verk Analysis ráðningarverk | Fjöldi ráðningarverk, auglýstra starfa eftir ráðningarverki og umsækjendur eftir ráðningarverki |
+| Greining umsækjanda           | Umsækjendur eftir verki, uppruna umsækjanda, umsækjendur eftir staðsetningu og heildarfjöldi umsækjenda           |
+| Umsækjandastaða             | Umsækjendur eftir gerð og stöðu og stöðu umsækjanda                                                    |
+| Lýðfræði umsækjanda       | Umsækjendur eftir aldri og kyni og umsækjendur eftir menntun og stöðu                             |
+| Greining ráðninga          | Nettó hlutfall ráðninga, dagar til að ráða, prósentuhlutfall vondra ráðninga og kostnaður ráðninga                    |
+| Greining ráðningarverka | Fjöldi ráðningarverka, opnana eftir ráðningarverki og umsækjendur eftir ráðningarverki |
 
-Hægt er að sía gröf og reitir á þessar skýrslur og festa gröf og reitir í í mælaborð. Sjá frekari upplýsingar um hvernig á að sía og pin-númer í Power BI [Stofna og Skilgreina A Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Dynamics 365 fyrir Aðgerðir er notuð til að fylla út í skýrslur í Ráðning innihald þjónustupakka. Eftirfarandi tafla sýnir einingar sem innihald þjónustupakka var byggð á.
+Gögn Dynamics 365 for Operations eru notuð til að mynda skýrslunr í efnispakka ráðninga. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
 
-| Eining                          | Innihald                                                         | Tengsl við aðrar einingar                                                                                                                                                                                                                 |
+| Eining                          | Innihald                                                         | Vensl við aðra lögaðila                                                                                                                                                                                                                 |
 |---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ráða\_Umsækjanda           | Umsækjendur, nettó ráða hlutfall ráðni umsækjendur og kostnað          | Ráða\_ApplicantName Ráða\_Fyrirtæki Ráða\_CalendarOffset Recuriting\_Dagsetning Ráða\_GeographicLocation Ráða\_Lýðfræði Ráða\_Vinnslu Ráða\_Miðla Ráða\_RecruitmentProject                                |
-| Ráða\_ApplicantName       | Umsækjandi fornafn eftirnafn og fullt nafn                   | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_CalendarOffset      | Dagatal mótfærir slice skýrslurnar                                | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Fyrirtækis             | Fyrirtæki til að sía skýrslur með                                   | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Dagsetningu                | Dagar, vikur, mánuðir og ár                                   | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Lýðfræði        | Dagsetning fæðingardag kyn, þjóðernisuppruna og hjúskaparstöðu         | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_EmployedApplicant   | Gerð umsækjanda, afköst, upphafsdagsetningu og umsækjanda           | Ráða\_Fyrirtæki Ráða\_CalendarOffset Ráða\_Dagsetning Ráða\_GeographicLocation Ráða\_ApplicantName Ráða\_Ráðningu Ráða\_Afköst Ráða\_Vinnslu Ráða\_Miðla Ráða\_RecruitmentProject          |
-| Ráða\_Ráðningu          | Upphafsdagsetningu, lokadagsetningu og dagsetningu umreiknings                        | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_GeographicLocation  | Borg, póstnúmer, sýsla kóða og ríki eða hérað                 | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Vinnslu                 | Aðgerð, gerð og titil                                        | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Miðla               | Uppruni umsækjenda                                             | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_Afköst         | Einkunn, lýsingu og einkunnalíkan                            | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_RecruitmentProject  | Lýsing á stöðu og auglýstra starfa                | Ráða\_Ráða Umsækjanda\_EmployedApplicant Ráða\_TerminatedApplicant                                                                                                                                                               |
-| Ráða\_TerminatedApplicant | Hættur umsækjendur ástæðukóða, afköst og starfslokadagur | Ráða\_Fyrirtæki Ráða\_CalendarOffset Ráða\_Dagsetning Ráða\_GeographicLocation Ráða\_Afköst Ráða\_Lýðfræði Ráða\_Ráðningu Ráða\_Miðla Ráða\_RecruitmentProject Ráða\_ApplicantName |
+| Ráða\_Umsækjanda           | Umsækjendur, ráðnir, ráðningarhlutfall og kostnaður          | Ráðning\_ApplicantName Recruiting\_Company Recruiting\_CalendarOffset Recuriting\_Date Recruiting\_GeographicLocation Recruiting\_Demographics Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject                                |
+| Ráðning\_ApplicantName       | Fornanfn umsækjanda, eftirnafn, og fullt nafn                   | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_CalendarOffset      | Mótbókanir dagatals til að sneiða skýrslur                                | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Company             | Fyrirtæki til að sía skýrsla eftir                                   | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Date                | Dagar, vikur, mánuðir og ár                                   | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Demographics        | Fæðingardagur, kyn, þjóðernisuppruni og hjúskapaarstaða         | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_EmployedApplicant   | Umsækjandi, frammistaða, upphafsdagur og gerð umsækjanda           | Ráðning\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_ApplicantName Recruiting\_Employment Recruiting\_Performance Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject          |
+| Ráðning\_Employment          | Upphafsdagur, lokadagur og breytingardagur                        | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_GeographicLocation  | Borg, sýsla, póstnúmer og fylki eða Sveitarfélag                 | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Job                 | Aðgerð, gerð og Titill                                        | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Media               | Uppruni umsækjanda                                             | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_Performance         | Mat, lýsing og matslíkan                            | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_RecruitmentProject  | Lýsing á verki, staða verks og opnanir                | Ráðning\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Ráðning\_TerminatedApplicant | Umsækendur sem var hafna, ástæða, frammistaða og starfslokadagur | Ráðning\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_Performance Recruiting\_Demographics Recruiting\_Employment Recruiting\_Media Recruiting\_RecruitmentProject Recruiting\_ApplicantName |
 
-Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar. Þessar reiknaðar mælieiningar eru notaðar til að reikna út afkastavísar (Afkastavísa) og skýrslur sem eru notaðar í innihald þjónustupakka. Eigi að taka með viðbótarútreikning á skýrslur- og mælaborð er hægt að sækja og breyta skrá Recruiting.pbix úr LCS. Þessi skrá er gagnalíkan sjálfgefna sem var notað til að stofna innihald þjónustupakka. Eftir breytingar, hægt er að stofna til fyrirtækis innihald þjónustupakka og mælaborð sem innihalda upplýsingar sem hefur verið bætt við.
+Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar. Þessar reikuðu mælieiningar eru síðan notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efnispakkanum. Eigi taka á með viðbótarútreikning í skýrslum og mælaborði er hægt að sækja og breyta Recruiting.pbix skrá af LCS. Þessi skrá er sjálfgefið gagnalíkan sem var notað til að stofna efnispakkann. Eftir að breytingarnar hafa verið gerðar er hægt að stofna efnispakka fyrirtækis og mælaborð sem innihalda upplýsingar sem hefur verið bætt við.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
@@ -75,6 +78,8 @@ Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
 -   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Bæta Power BI-reitum við vinnusvæði](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

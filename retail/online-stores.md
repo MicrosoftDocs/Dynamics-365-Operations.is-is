@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Yfirlit netverslunar
+
+[!include[banner](includes/banner.md)]
+
 
 Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +53,7 @@ Til að setja upp netverslun, Það verður að ljúka eftirfarandi verkum:
 
 ## <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 stigveldi fyrirtækis er Notað fyrir uppbyggingu smásölurása. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Þegar settar eru upp netverslanir er hægt að bæta þeim við stigveldi fyrirtækis. Verslanir samnýta gögn sem er notað fyrir úrval áfyllingar og skýrslugerð. Þegar stofnað er stigveldi fyrirtækis, er málefni úthlutað til þess. Málefni gefur til kynna hvernig stigveldi er notað í uppbyggingu business. Hægt er að stofna eitt stigveldi fyrirtækis fyrir verslunaraðgerðir þínar og nota það stigveldi úrval, áfyllingar og skýrslugerð. Einnig er hægt að stofna sérstakt stigveldi fyrirtækis fyrir hvern tilgang. Einnig er hægt að stofna mörg stigveldi sem hafa sama tilgangi og úthluta aðskilinni rás til hvers og eins. Ef ætlunin er að birta vörulista smásölu á netverslun, ætti að lágmarki að bæta netverslanir við stigveldi fyrirtækis fyrir úrval. Afurðir í vörulista eru valdar úr úrvali afurða sem eru úthlutað til netverslana. Þegar vörulistinn er birtur ber birtingu ferli gildisdagsetninga fyrir úrval sem tengdur er við netverslun með afurðir sem eru í vörulista til að ákvarða hvaða vörur skulu vera tiltækar í netversluninni.
+
+
 
 

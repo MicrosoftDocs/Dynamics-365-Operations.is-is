@@ -1,5 +1,5 @@
 ---
-title: "Birgðagildi hlut"
+title: "Gildi birgðahlutar"
 description: "Þessi grein veitir upplýsingar um hvernig gildi birgðahlutar eru reiknuð."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Birgðagildi hlut
+# <a name="inventory-object-values"></a>Gildi birgðahlutar
 
 Þessi grein veitir upplýsingar um hvernig gildi birgðahlutar eru reiknuð. 
 
-Nýrri aðgerð sem kallast ** efnislegt magn ** gerir það mögulegt að sjá gildi hlutarins tilteknar birgðir. Kostnaðarhlutur táknar einingarstig þar sem birgðabókhald er framkvæmt. Nánari upplýsingar um kostnaðarhluti er í [Kostnaðarhlutir](cost-object.md). Til að sjá gildi hlutarins tilteknar birgðir, smellið á **Efnislegt magn** í í **Kostnaður hlut** síðu. Hér er hvernig gildi hlut birgða er reiknað: Birgðir hlut. Virði = Kostnaður hlut. Meðaltal einingarkostnað × Birgðir hlut. Magn Sem eftirfarandi dæmi sýnir hvernig gildi hlut birgða og kostnaður hlutar eru reiknaðar. Tvö innhreyfingarskjöl afurða eru skráð á vöru A:
+Ný aðgerð sem kallast **efnislegt magn **gerir það mögulegt að sjá gildi tilgreinds birgðahlutar. Kostnaðarhlutur táknar einingarstig þar sem birgðabókhald er framkvæmt. Nánari upplýsingar um kostnaðarhluti er í [Kostnaðarhlutir](cost-object.md). Til að sjá gildi tiltekins birgðahlutar skal smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**. Hér er hvernig gildi birgðahlutar er reiknað: Birgðahlutur.Virði = Kostnaðarhlutur.Meðaltal einingarkostnaðar x Birgðahlutur.Magn Sem eftirfarandi dæmi sýnir hvernig gildi birgðahlutar og kostnaðarhlutar eru reiknuð. Tvö innhreyfingarskjöl afurða eru skráð á vöru A:
 
--   Innhreyfingarskjal afurða 1: Magn = 100 pc-tölva., Upphæð = $1,000.00, Svæði = 1, Vöruhús = 11, nr. Runu = B1
--   Innhreyfingarskjal afurða 2: Magn = 50 pc-tölva., Upphæð = $800.00, Svæði = 1, Vöruhús = 11, Runa nr. = B2
+-   Innhreyfingarskjal afurða 1: Magn = 100 stykki, Upphæð = $1000,00, Svæði = 1, Vöruhús = 11, Rununr. = B1
+-   Innhreyfingarskjal afurða 2: Magn = 50 stykki, Upphæð = $800,00, Svæði = 1, Vöruhús = 11, Rununr. = B2
 
 Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir kostnaðarhlut. Hægt er að skoða niðurstöður á síðunni **Kostnaðarhlutur**.
 
@@ -130,10 +130,10 @@ Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut. Hægt e
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Cost objects](cost-object.md)
+[Kostnaðarhlutir](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Kostnaðarfærslur](cost-entries.md)
 
-[Hvað er nýtt og breytt í Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Hvað er nýtt og hvað hefur breyst í Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

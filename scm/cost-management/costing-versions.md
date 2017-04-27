@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Kostnaðarútgáfa
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um kostnaðarútgáfur, hvernig á að viðhalda þeim og tegundir gagna sem þú getur haft í þeim. Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað.
 
 Kostnaðarútgáfa getur þjónað einum tilgangi eða fleiri eftir því hvaða gögn eru innan kostnaðarútgáfunnar. Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað. Kostnaðarútgáfa getur innihaldið færslur staðlaðs kostnaðar eða áætlaðs kostnaðar sem eru byggðar á kostnaðargerðinni sem kostnaðarútgáfunni er úthlutað.
@@ -63,5 +66,7 @@ Aðaltilgangur þess að leyfa gögn°um innkaupsverð er að skilgreina innkaup
 Til að virkja innihald innkaupaverðs þarf fyrst að skilgreina uppskriftarútreikningsflokk sem inniheldur kostnaðarverðslíkan fyrir innkaupaverð vöru, og úthluta útreikningaflokkur Uppskriftar til innkeyptra vara. Síðan skal nota kostnaðarverðslíkan fyrir flokk uppskriftarútreikningsins þegar uppskriftarútreikningar eru gerðir sem nota áætlaðan kostnað til að reikna út söluverð framleiddra vara. 
 
 Innkaupsverðsfærslurnar eru einnig aðeins notaðar til upplýsingar. Með því að breyta stöðu skýrslu innkaupsverðs vöru úr **í Biðstöðu** í **Virkt**, er hægt að uppfæra grunn innkaupsverð vöru. Hins vegar er grunnsöluverðið ekki svæðisbundið og hægt er að hnekkja því handvirkt. Grunninnkaupsverð vöru er notað sem sjálfgefið innkaupsverð í innkaupapöntunum.
+
+
 
 

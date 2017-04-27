@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Áhrif afskrifta með bakfærslum
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein fjallar hugsanlega afleiðingar af því að bakfæra eignafærslu. 
 
 Hægt er að bakfæra eignafærslur og færslur sem tengjast eign. Einnig er hægt að afturkalla bakfærða færslu. 
@@ -90,6 +93,8 @@ Afskrift er er höfð of lítil sem nemur 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Afskriftir eigna](fixed-asset-depreciation.md)
+
+
 
 

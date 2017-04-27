@@ -1,6 +1,6 @@
 ---
 title: Spurningalistar
-description: "Þetta efni inniheldur almennar upplýsingar um spurningalista og tengla í ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar."
+description: "Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Spurningalistar
 
-Þetta efni inniheldur almennar upplýsingar um spurningalista og tengla í ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar. 
+[!include[banner](includes/banner.md)]
 
-Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Microsoft Dynamics 365 fyrir Aðgerðir. Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:
+
+Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar. 
+
+Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Microsoft Dynamics 365 for Operations. Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:
 
 -   Prófa faglega hæfni starfsmanna og umsækjenda.
 -   Meta hvort þátttakendur á námskeiðinu lærðu efni°námskeiðsins°.
@@ -42,9 +45,9 @@ Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista �
 
 | Efni| lýsing|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig hanna á spurningalista. Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.                                                                                        |
+| [Hanna spurningalista](design-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig hanna á spurningalista. Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista. |
+| [Dreifa og ljúka spurningalista](distribute-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.                                                                       |
+| [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista �
 
 [Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
 
-[Skoðun og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+
+
 
 

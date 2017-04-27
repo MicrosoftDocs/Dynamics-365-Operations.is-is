@@ -1,6 +1,6 @@
 ---
 title: Losunarreglur
-description: "Þetta efni veitir upplýsingar um mismunandi valkosti fyrir skýrslur um losun og losunarreglur."
+description: "Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Losunarreglur
 
-Þetta efni veitir upplýsingar um mismunandi valkosti fyrir skýrslur um losun og losunarreglur.
+[!include[banner](../includes/banner.md)]
 
-Útilokunarfærslna er krafist þegar yfirlögaðili stundar viðskipti við einn eða fleiri undirlögaðila og notar sameinaðar fjárhagsskýrslur. Samstæðureikningsskil verða að innihalda eingöngu færslur sem verða á milli sameinaðs fyrirtækis og annarra eininga utan þess fyrirtækis. Þess vegna færslur á milli lögaðila sem eru hluti af sömu samstæðu þarf að fjarlægja eða sleppt úr fjárhag, þannig að þeir ekki að birtast á fjárhagsskýrslur. Það eru margar leiðir til að tilkynna um losun:
+
+Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
+
+Útilokunarfærslna er krafist þegar yfirlögaðili stundar viðskipti við einn eða fleiri undirlögaðila og notar sameinaðar fjárhagsskýrslur. Samstæðureikningsskil verða að innihalda eingöngu færslur sem verða á milli sameinaðs fyrirtækis og annarra eininga utan þess fyrirtækis. Þess vegna verður að fjarlægja færslur á milli lögaðila sem eru hluti af sömu samstæðu eða sleppa þeim úr fjárhag svo að þær birtist ekki í fjárhagsskýrslum. Það eru margar leiðir til að tilkynna um losun:
 
 -   Hægt er að stofna losunarreglu og keyra á samstæðu- eða losunarfyrirtæki.
 -   Fjárhagsskýrslu má nota til að sýna útilokunarlykla og víddir á tiltekinni röð eða dálki.
@@ -129,27 +132,29 @@ Við lögaðila, lögaðila A, selur búnað til annars lögaðila í þínu fyr
 Allar þessar færslur stofna færslur innan samstæðu sem verða bókaðar á vostro- og nostro-lykla. Þar að auki gætu þessar færslur innihaldið upphæðir álagningar eða afsláttar þegar upphæð sölu innan fyrirtækis er ekki jöfn kostnaði varanna sem verið er að selja.
 
 ## <a name="set-up-elimination-rules"></a>Setja upp losunarreglur
-Þegar setja upp losunarreglur í Dynamics 365 aðgerða er mælt með því að með því að stofna fjárhagsvídd sérstaklega vegna losunar. Flestum viðskiptavinum heiti það Viðskiptafélaga Samstarfsaðila eða farið svipuð. Ef ákveðið er til að nota fjárhagsvídd síðan gætið þess að hafa aðallykla sem eiga við innan samstæðu færslur. 
+Þegar losunarreglur eru settar upp í Dynamics 365 for Operations er mælt með því að búin sé til fjárhagsvídd sérstaklega fyrir losun. Flestir viðskiptavinir kalla hana Viðskiptamaður eða eitthvað svipað. Ef þú ákveður að nota ekki fjárhagsvídd skaltu gæta þess að hafa aðallykla sem eru sértækir fyrir viðskipti innan samstæðu. 
 
-Uppsetning losana finnst í svæðinu Uppsetning Sameiningar kerfiseiningar. Eftir að færa inn lýsingu fyrir reglu, verður að taka fyrirtækið sem losunarbókin verður að bóka. Þetta ætti að vera fyrirtæki sem hefur **Nota fyrir losunarferli** valdir í uppsetningu lögaðila. 
+Uppsetningu fyrir losun er að finna á svæðinu Setja upp í einingunni Samstæður. Eftir að þú slærð inn lýsingu fyrir regluna þarftu að velja fyrirtækið sem losunarbókin bókar í. Þetta ætti að vera fyrirtæki sem hefur **Nota fyrir losunarferli fjárhags** valið í uppsetningu lögaðila. 
 
-Hægt er að setja í dagsetningu sem losunarreglan verður virkur og þegar það er útrunnið, ef þörf krefur. Stilla **Virka** til **Já** ef það á að vera tiltæk í tillöguferlinu losun. Veljið færslubókarheitið sem er af **Losun**.
+Hægt er að velja dagsetninguna þegar losunarregla tekur gildi og þegar hún rennur út, ef þörf krefur. Stilla verður **Virk** á **Já** ef þú vilt að hún verði í boði í losunartillöguferlinu. Veldu heiti færslubókar sem er með færslubókargerðina **Losun**.
 
-Eftir að hafa skilgreint í grunnatrið er hægt að skilgreina reglur raunverulegu vinnslu með því að smella á **Línur**. Það eru tveir valkostir fyrir losun, með aðgerðanna upphæð nettóbreyting eða skilgreina fasta upphæð. 
+Eftir að þú hefur skilgreint grunnatriði er hægt að skilgreina raunverulegar úrvinnslureglur með því að smella á **Línur**. Tveir kostir eru í boði fyrir losun, að losa upphæð nettóbreytingar eða skilgreina fasta upphæð. 
 
-Veljið uppruna lykilinn þinn. Hægt er að nota stjörnu (\*) sem wild kort. Til dæmis 1\* væri að velja alla lykla og byrjar á 1 sem uppruna gagna fyrir úthlutun. 
+Veldu upprunareikning. Hægt er að nota stjörnu (\*) sem algildistákn. Til dæmis myndi 1\* velja alla lykla sem byrja á 1 sem uppruna gagna fyrir úthlutunina. 
 
-Þegar búið er að velja lánardrottnalykla uppruna í **Lykill lýsing** ákvarðar lykli fyrir viðtökufyrirtækið sem er notað. Velja **Uppruna** ef óskað er að nota sama aðallykil sem skilgreind er í á **Uppruna** lykil. Ef **Notandaskilgreind**, þá þarf að tilgreina áfangalykil. 
+Þegar þú hefur valið upprunareikninga ákvarðar **Reikningslýsing** reikning viðtökufyrirtækis sem er notaður. Veldu **Uppruni** ef þú vilt nota sama aðalreikning og er skilgreindur í **Upprunareikningur**. Ef þú velur **Skilgreint af notanda** þarftu að tilgreina viðtökureikning. 
 
-Tilgreining víddar virkar á sama hátt. Ef **Uppruna**, hann mun nota sama vídda í áfangafyrirtækinu sem upprunafyrirtæki. Ef **Notandaskilgreind**, þarf að tilgreina víddir í áfangafyrirtækinu með því að smella á **áfangavíddir** valmyndaratriði. 
+Víddarskilgreiningin virkar með sama hætti. Ef þú velur **Uppruni** notar það sömu víddir í viðtökufyrirtækinu og í upprunafyrirtækinu. Ef þú velur **Skilgreint af notanda** þarftu að tilgreina víddir í viðtökufyrirtæki með því að smella á valmyndaratriðið **Víddir viðtökustaðar**. 
 
-Veljið upprunavíddir og fjárhagsvíddir og gildi sem eru notaðar sem gagnagjafi losun.
+Veldu upprunavíddir og fjárhagsvíddir og gildi sem eru notuð sem uppruni fyrir losunina.
 
 ## <a name="process-elimination-transactions"></a>Vinna Losunarfærslur
-Tvær leiðir eru til að vinna úr losunarfærslum meðan sameina online stendur eða með því að stofna inn losunarbókina og keyra losun tillöguferlinu. Í þessum hluta áherslu á stofnun bókar og keyra ferlið losun. 
+Tvær leiðir eru til að vinna losunarfærslur, meðan á sameiningu á netinu stendur eða með því að stofna losunarbók og keyra losunartillöguferlið. Í þessum kafla er áherslan á stofnun færslubókar og að keyra losunarferlið. 
 
-Fyrirtæki sem er skilgreind sem losunarfyrirtæki, velja **losunarbók** í kerfiseiningunni Sameiningar. Þegar búið er að velja heiti færslubókar, smellið á **Línur**. Hægt er að keyra tillöguna með því að velja á **Tillögur** valmynd og því næst **losunartillaga**.
+Í fyrirtæki sem er skilgreint sem losunarfyrirtæki skal velja **Losunarbók** í einingunni Samstæður. Þegar þú hefur valið heiti færslubókar smellirðu á **Línur**. Þú getur keyrt tillöguna með því að velja valmyndina **Tillögur** og velja **Losunartillaga**.
 
-Veljið fyrirtækið sem er uppruni uppsafnaða gagnanna og veljið síðan regluna sem á að vinna. Færið inn upphafsdagsetningu til að hefja leit að losunarupphæðir og lokadagsetningu til að lokadagur leitar fyrir losunarupphæðir. Í **bókunardagsetning Fjárhags** svæði er dagsetningin sem er notuð til að bóka færslubók í fjárhag. Eftir að smellt er á **í lagi**, hægt er að fara yfir upphæðina og bóka færslubókina.
+Veldu fyrirtækið sem er uppruni sameinuðu gagnanna og veldu svo regluna sem þú vilt vinna með. Færðu inn upphafsdag til að hefja leit að losunarupphæðum, og lokadag til að ljúka leit að losunarupphæðum. Í reitnum **Bókunardagsetning fjárhags** er dagsetningin sem er notuð til að bóka færslubókina í fjárhag. Þegar smellt er á **Í lagi** er hægt að endurskoða upphæðirnar og bóka færslubókina.
+
+
 
 

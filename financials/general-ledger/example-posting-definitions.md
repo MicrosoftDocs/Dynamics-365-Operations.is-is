@@ -1,6 +1,6 @@
 ---
 title: "Bókunarskilgreiningar"
-description: "Þessi skrá gefur dæmi sýna hvernig bókunarskilgreiningar notaðar fyrir innkaupapantana og fjárveitingar úr fjárhagsáætlun."
+description: "Þessi grein gefur dæmi sem sýna hvernig bókunarskilgreiningar eru notaðar fyrir fjárúthlutun innkaupapöntunar og fjárveiting fjárhagsáætlunar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Dæmi um skilgreining bókun
+# <a name="posting-definition-examples"></a>Dæmi um bókunarskilgreiningar 
 
-Þessi skrá gefur dæmi sýna hvernig bókunarskilgreiningar notaðar fyrir innkaupapantana og fjárveitingar úr fjárhagsáætlun.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein gefur dæmi sem sýna hvernig bókunarskilgreiningar eru notaðar fyrir fjárúthlutun innkaupapöntunar og fjárveiting fjárhagsáætlunar.
 
 Áður en í þessu efnisatriði er lesið, ætti að kynna sér bókunarskilgreiningar og skilgreining færslubókunar. Sjá upplýsingar í [Bókunarskilgreiningar](posting-definitions.md). Eftirfarandi dæmi er hægt að setja á upp á **Bókunarskilgreiningar** síðu. hvert Dæmi inniheldur þessum hlutum:
 
@@ -39,7 +42,7 @@ ms.lasthandoff: 03/31/2017
 
 Þegar samsvörun á sér stað milli lykla og víddargildi í **skilyrði fyrir samsvörun** rúðunni fyrir bókunarskilgreiningu og lykla og víddargildi á færslunni, myndast fjárhagsfærslur á grundvelli **Myndaðar færslur** rúðunni fyrir bókunarskilgreiningar. 
 > [!NOTE]
-> Til að tengja ákveðna færslugerð bókunarskilgreiningu, í **bókunarskilgreiningar Færslna** síðu. Eftir að tengja bókunarskilgreiningu færslugerð og veljið **Nota bókunarskilgreiningar** í í **fjárhagsfæribreytur** síðu allar færslur af valinni gerð verður að nota bókunarskilgreiningar.
+> Til að tengja bókunarskilgreining við tilgreint færslugerð skal nota síðu **Skilgreiningar færslubókunar**. Eftir að tengja bókunarskilgreiningu við færslugerð og veljið **Nota bókunarskilgreiningar** á **fjárhagsfæribreytur** síðu , verða allar færslur af valinni færslugerð að nota bókunarskilgreiningar.
 
 ## <a name="example-purchase-order-encumbrances"></a>Dæmi: Fjárúthlutun innkaupapöntunar
 Þegar þú virkjar fjárúthlutunar með því að velja **Virkja ferli fjárúthlutunar** á **fjárhagsfæribreytur** síðu, verður að nota  bókunarskilgreiningar til að skrá fjárúthlutanir í fjárhaginn fyrir hvaða lykla sem á að taka frá. Í flestum tilvikum, alla kostnaðarlykla eru teknar frá á efnahagsreikningi. 
@@ -69,7 +72,7 @@ Lyklar og víddargildi koma annað hvort úr dreifing á fjárhagsupphæð sem e
 
 | Lykill + víddir           | Debet  | Kredit | Athugasemd |
 |--------------------------------|--------|--------|---------|
-| 606400-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-þjálfun | 250,00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>fjárhagsfærslur myndaðar úr bókunarskilgreiningu
 
@@ -77,10 +80,10 @@ Fjárhagsfærslur sem myndaðar eru eru stofnaðar til að skrá fjárúthlutani
 
 | Lykill + víddir           | Debet  | Kredit | Athugasemd |
 |--------------------------------|--------|--------|---------|
-| 300143-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun | 250,00 |        |         |
-| 300144-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-þjálfun | 250,00 |        |         |
+| 300144-OU\_1-OU\_3566-þjálfun |        | 250,00 |         |
 
-Í þessu dæmi, hvaða lykil sem er hluti af Lykilskipulagi - P & L samsvarar skilyrði bókunarskilgreiningar. Þess vegna, þegar 606500-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun er metin, myndast færslur eru stofnaðar fyrir reikninga sem eru skilgreindar í á **Myndaðar færslur** rúðunni fyrir bókunarskilgreiningar.
+Í þessu dæmi, hvaða lykil sem er hluti af Lykilskipulagi - P & L samsvarar skilyrði bókunarskilgreiningar. Þess vegna þegar 606500-OU\_1-OU\_3566-Þjálfun er metið, myndaðar færslur eru stofnaðar fyrir reikninga sem eru skilgreindar í **Myndaðar færslur** rúðunni fyrir bókunarskilgreiningar.
 
 ## <a name="example-budget-appropriations"></a>Dæmi: fjárveiting fjárhagsáætlunar
 Þegar þú leyfa fjárveitingu fjárhagsáætlunar með því að velja **virkja fjárveitingu fjárhagsáætlunar** á **fjárhagsfæribreytur** síðunni, verður að nota bókunarskilgreiningar til að skrá færslur fjárhagsáætlunarskrár í fjárhag. þegar skilgreining fjárhagsáætlunarstýringar er virk og kveitk á henni, má nota bókunarskilgreiningar og færslu bókunarskilgreiningar til að styðja við skráningu á færslum fyrir greiðsluheimilda, , endurskoðun, flutninga, verk, eignir og framboð og eftirspurnarspár í fjárhag. 
@@ -110,7 +113,7 @@ Færa inn lykla, víddargildi og upphæðir fyrir færsla fjárhagsáætlunarlyk
 
 | Lykill + víddir           | Debet | Kredit | Athugasemd |
 |--------------------------------|-------|--------|---------|
-| 606400-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-þjálfun |       | 250,00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>fjárhagsfærslur myndaðar úr bókunarskilgreiningu
 
@@ -118,10 +121,12 @@ Fjárhagsfærslur eru myndaðar til að skrá upprunalega fjárhagsáætlun á h
 
 | Lykill + víddir           | Debet  | Kredit | Athugasemd |
 |--------------------------------|--------|--------|---------|
-| 300145-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun |        | 250,00 |         |
-| 300146-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-þjálfun |        | 250,00 |         |
+| 300146-OU\_1-OU\_3566-þjálfun | 250,00 |        |         |
 
-Í þessu dæmi, hvaða lykil sem er hluti af Lykilskipulagi - P & L samsvarar skilyrði bókunarskilgreiningar. Þess vegna, þegar 606400-Samkvæmt\_1 Samkvæmt\_3566 Þjálfun er metin, fjárhagsfærslur sem myndaðar eru stofnaðar.
+Í þessu dæmi, hvaða lykil sem er hluti af Lykilskipulagi - P & L samsvarar skilyrði bókunarskilgreiningar. Þess vegna þegar 606400-OU\_1-OU\_3566-Training er metið, eru myndaðar fjárhagsfærslur stofnaðar.
+
+
 
 
 

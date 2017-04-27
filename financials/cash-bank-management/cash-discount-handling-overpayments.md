@@ -1,5 +1,5 @@
 ---
-title: "Meðhöndlun staðgreiðsluafslætti fyrir ofgreiðslu"
+title: "Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur"
 description: "Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Meðhöndlun staðgreiðsluafslætti fyrir ofgreiðslu
+# <a name="handling-cash-discounts-for-overpayments"></a>Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið. 
 
@@ -133,6 +136,8 @@ Upphæð staðgreiðsluafsláttar er minnkað úr í 10,50 10,00. Greiðslu og r
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna) | 10,50        |               |
 | Viðskiptakröfur                                                                              |              | 10,50         |
+
+
 
 
 

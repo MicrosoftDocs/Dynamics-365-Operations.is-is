@@ -46,7 +46,7 @@ Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöð
 
 Eftir val námsmanns til að ráða fyrir starfsnámsstöður, verður að færa inn upplýsingar hvers námsmanns á **Stöðuupplýsingar** fyrir stöðu sem verið er að ráða þá í. Þegar að hafa verið færðar inn allar upplýsingar um stöðu, veljið stöðuna í fjöldaráðningarverk síðu, og smellið síðan á **Ráða**. Stöðufærsla verður stofnuð fyrir hverja stöðu og skrá starfsmanns stofnuð og úthlutað á rétta stöðu fyrir hvern einstakling sem þú ræður.
 
-## <a name="masshire-project-statuses"></a>Masshire verkstöðu
+## <a name="masshire-project-statuses"></a>Stöður fjöldaráðningarverks
 ráðningarverk getur verið með eftirfarandi stöður:
 -   Stofnaður
 -   Opna

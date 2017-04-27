@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Biðgeymslupantanir
 
+[!include[banner](../includes/banner.md)]
+
+
 Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum. 
 
-Hægt er að nota Biðgeymslupantanir til að loka birgðum. Til dæmis mætti biðgeymslu vörur fyrir gæðaeftirlit ástæður. Birgðirnar sem hefur verið sett í biðgeymslu flutt í biðgeymsluvöruhús. **Athugasemd:** Ef verið er að nota ítarlegt vöruhúsakerfisferli (í vöruhúsakerfi) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
+Hægt er að nota Biðgeymslupantanir til að loka birgðum. Til dæmis gætir þú viljað láta vörur í biðgeymslu vegna gæðaeftirlits. Birgðir sem hafa verið settar í biðgeymslu eru fluttar í biðgeymsluvöruhús. **Athugasemd:** Ef verið er að nota ítarlegt vöruhúsakerfisferli (í vöruhúsakerfi) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
 
-## <a name="quarantine-onhand-inventory-items"></a>Biðgeymsla onhand birgðavörur
+## <a name="quarantine-onhand-inventory-items"></a>Biðgeymsla birgðavara á lager
 Þegar vara er sett í biðgeymslu geturðu annað hvort stofnað biðgeymslupantanir handvirkt eða stillt kerfið til að stofna biðgeymslupantanir sjálfkrafa við ferli á innleið. Til að stofna biðgeymslupantanir sjálfkrafa, veljið **Stjórnun Biðgeymslu** valkostinn í flipanum **Birgðareglur** á síðunni **Vörulíkanaflokkar**. Einnig þarf að tilgreina sjálfgefið biðgeymsluvöruhús í svæðinu **Biðgeymsluvöruhús** fyrir móttökuvöruhúsin. Í Microsoft Dynamics 365 for Operations eru vörur í biðgeymslu sjálfkrafa settar í biðgeymsluvöruhús þegar efnislegar birgðir á lager eru skráðar gegnum innkaupapöntun eða framleiðslupöntun. Þessa hreyfing gerist vegna þess að stöðu biðgeymslupöntunar hefur verið breytt í **Byrjað**. Þegar þú stofnar biðgeymslupantanir handvirkt, þarf varan ekki að vera sett upp fyrir biðgeymslustjórnun í tengdum vörulíkanaflokkum. Fyrir þetta ferli þarf að tilgreina biðgeymsluvöruhús sem á að nota og birgðir á lager sem á að setja í biðgeymslu. Það er hægt að nota stöðu biðgeymslupöntunar til að auðvelda áætlun ferlisins.
 
 ## <a name="quarantine-order-statuses"></a>Staða biðgeymslupöntunar.
@@ -64,6 +67,8 @@ Hægt er að rýra birgðir sem hluta af biðgeymslupöntunarferlinu. Við vinns
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Birgðalæsing](inventory-blocking.md)
+
+
 
 

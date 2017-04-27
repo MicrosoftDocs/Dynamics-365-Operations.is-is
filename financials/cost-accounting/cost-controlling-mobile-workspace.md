@@ -1,6 +1,6 @@
 ---
-title: "Kostnaður stýra fartæki vinnusvæði fyrir Microsoft Dynamics 365 Aðgerðir forrits"
-description: "Með Kostnaði stýra fartæki vinnusvæði kostnaður vinnustöðvar stjórnendur sjá afköst vinnustöðvarinnar kostnaðar gerir og hvar."
+title: "Fartækjavinnusvæði kostnaðarstýringar fyrir forritið Microsoft Dynamics 365 for Operations"
+description: "Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarstaðar séð afkomu kostnaðarstaðar hvenær sem er og hvar sem er."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Kostnaður stýra fartæki vinnusvæði fyrir Microsoft Dynamics 365 Aðgerðir forrits
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Fartækjavinnusvæði kostnaðarstýringar fyrir forritið Microsoft Dynamics 365 for Operations
 
-Með Kostnaði stýra fartæki vinnusvæði kostnaður vinnustöðvar stjórnendur sjá afköst vinnustöðvarinnar kostnaðar gerir og hvar. 
+Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarstaðar séð afkomu kostnaðarstaðar hvenær sem er og hvar sem er. 
 
 <a name="prerequisites"></a>Forkröfur
 -------------
 
 | Skilyrði                                                         | lýsing                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lesa um Microsoft Dynamics 365 fyrir fartæki svæðis Aðgerðir | [Dynamics 365 fyrir fartæki svæðis Aðgerðir](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 fyrir Aðgerðir                                          | Verið viss um að afskriftareglur eru umhverfi sem er með Microsoft Dynamics 365 Aðgerðir útgáfu 1611 og uppfærslu Microsoft Dynamics fyrir Aðgerðir svæðis (Nóvember 2016) 3. |
-| Bráðabót KB 3215650                                                    | Setja upp bráðabót til að virkja skal vinnusvæðin sem eru gefnir í Microsoft Dynamics 365 fyrir Aðgerðir.                                                                       |
-| Lýsingarlína fartækis með Dynamics 365 fyrir Aðgerðir forrits uppsett | Sækja Dynamics 365 fyrir Aðgerðir forrits úr verslunin fartæki forrits.                                                                                                      |
+| Lesa um Microsoft Dynamics 365 for Operations verkvang | [Microsoft Dynamics 365 for Operations verkvangur](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016). |
+| Bráðabót KB 3215650                                                    | Setja upp bráðabót til að virkja vinnusvæðin sem veitt eru í Microsoft Dynamics 365 for Operations.                                                                       |
+| Lýsingarlína fartækis með forritið Dynamics 365 for Operations uppsett | Sækja forritið Dynamics 365 for Operations úr forritaverslun fartækis.                                                                                                      |
 
 ## <a name="introduction"></a>Inngangur
-Kostnaður stýra fartæki vinnusvæði veitir snatri yfirlit á gildandi afköstum á kostnaðarstaði með því að bera saman raunkostnað við áætlaðan kostnað. Hægt er að kafa niður stöður stakar einingar.
+Fartækjavinnusvæði kostnaðarstýringar veitir skjótt yfirlit yfir  núgildandi afkomu kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöður stakra kostnaðareininga.
 
 ### <a name="example"></a>Dæmi
 
-Starfsmaður fær boð um að koma á alþjóðlegum conference. Fyrirtæki verður að ná yfir öll ferðakostnaður. Starfsmaður biður hans manger ef hann hægt að sækja í conference. Stjórnanda opnar fljótt Kostnaður stýra fartæki vinnusvæði á farsímanúmer hans til að sjá hvort hann hefur fjárhagsáætlunar fyrir starfsmanninn til að sækja í conference.
+Starfsmaður fær boð á alþjóðlega ráðstefnu. Fyrirtækið verður að greiða allan ferðakostnað. Starfsmaðurinn spyr yfirmann sinn hvort að hann geti farið á ráðstefnuna. Stjórnandinn opnar snöggvast fartækjavinnusvæði kostnaðarstýringar í farsímanum sínum til að sjá hvort að til sé fjárhagsáætlun fyrir því að starfsmaðurinn fari á ráðstefnuna.
 
 ### <a name="data-security"></a>Öryggi gagna
 
-Gögn í Kostnaði stýra vinnusvæði er tryggð með notendaheimildir. Stjórnandi vinnustöðvar er aðeins heimilt að sjá gögn varðandi hans eigin kostnaðarstað. Gagnastýrður aðgangur aðgang er stjórnað innan kostnaðarbókhaldslíkani. Kostnaður bókhaldarar skilgreina grunnstillingar vinnusvæðis fartæki í kostnaðarbókhaldslíkani stýra Kostnaði. Eftir að vinnusvæðið er birt í Microsoft Dynamics 365 til Aðgerðir forrits, er tiltækt í 365 Dynamics fyrir fartæki Aðgerðir forrits. Þetta tryggir að allar kostnaður vinnustöðvar stjórnendur í fyrirtækinu þvínæst gögn í sama snið.
+Gögnin í vinnusvæði kostnaðarstýringar eru tryggð með notandaskilríkjum. Stjórnandi kostnaðarstaðar hefur aðeins leyfi til að skoða gögn fyrir sinn eigin kostnaðarstað. Öryggi aðgangsstigs er stjórnað innan einingarinnar Kostnaðarbókhald. Kostnaðarbókarar skilgreina grunnstillingar fartækjavinnusvæðis kostnaðarstýringar í einingunni Kostnaðarbókhald. Þegar vinnusvæðið hefur verið gefið út í forritinu Microsoft Dynamics 365 for Operations er það tiltækt í fartækjaforriti Dynamics 365 for Operations. Þetta tryggir að allir stjórnendur kostnaðarstaða í fyrirtækinu skoði gögn á sama sniði.
 
-### <a name="actions-views-and-links"></a>Aðgerðir yfirlit og tengla
+### <a name="actions-views-and-links"></a>Aðgerðir, yfirlit og tenglar
 
-Kostnaður stýra fartæki vinnusvæði fyrir Dynamics 365 Aðgerðir forrits veitir eftirfarandi aðgerðir, yfirlit og tengla:
+Fartækjavinnusvæði kostnaðarstýringar fyrir forritið Dynamics 365 for Operations veitir eftirfarandi aðgerðir, yfirlit og tengla:
 
 -   Aðgerðir 
-    -   Velja **Skilgreiningar** til að taka með útlit.
-    -   Velja **Kostnaður hlutir** til að taka kostnaðarstað sem er á sem síu gögn. **Athugasemd:** birtur listi eftir aðgangur veittur í kostnaðarbókhaldslíkani.
+    -   Veldu **Skilgreiningar** til að taka til útlit.
+    -   Veldu **Kostnaðarhlutur** til að taka til kostnaðarstað þar sem þú vilt sía gögn. **athugasemd:** Listinn er birtur samkvæmt aðgangnum sem var veittur í einingunni Kostnaðarbókhald.
 
 <!-- -->
 
--   Samkvæmt hvað er valið undir **Aðgerðir** og hvað er skilgreind í kostnaðarbókhaldslíkani, er hægt að skoða eftirfarandi upplýsingar í Kort. Athuga upphæð birtist í sama snið: Raunveruleg, Áætlun, Fráviks og Frávik %. 
-    -   Raunverulegt samaborið við Áætlun (gildandi tímabil)
-    -   Raunverulegt miðað við fjárhagsáætlun Yfirfarnar (gildandi tímabil)
-    -   Raunverulegt samaborið við Áætlun (fyrra tímabil)
-    -   Yfirfarnar raunverulegt miðað við fjárhagsáætlun (fyrra tímabil)
-    -   Raunverulegt samaborið við Áætlun (ári)
-    -   Yfirfarnar raunverulegt miðað við fjárhagsáætlun (ári)
+-   Á grunni þess sem er valið undir **Aðgerðir** og þess sem er skilgreint í einingunni Kostnaðarbókhald er hægt að skoða eftirfarandi upplýsingar í Kort. Athugaðu að upphæðin er birt á sama sniði: Raun-, Fjárhagsáætlun, Frávik, og Frávik %. 
+    -   Raunverulegt samanb. v. áætlun (núgildandi tímabil)
+    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (núgildandi tímabil)
+    -   Raunverulegt samanb. v. áætlun (fyrra tímabil)
+    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (fyrra tímabil)
+    -   Raunverulegt samanb. v. áætlun (það sem af er ári)
+    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (það sem af er ári)
 
 <!-- -->
 
 -   Tenglar
-    -   Upplýsingar fyrir núverandi tímabil.
-    -   Upplýsingar fyrir fyrri tímabil.
-    -   Upplýsingar um ári.
+    -   Sundurliðun fyrir núverandi tímabil.
+    -   Sundurliðun fyrir fyrra tímabil.
+    -   Sundurliðun fyrir það sem af er árinu.
 
-Þegar ein tengla, birtist Kort á kostnaðareiningunni. Upphæð í Kort birtast með eftirfarandi sniði: Raun, Áætlaðan, fjárhagsfrávik fráviks % Fjárhagsáætlunar, Yfirfarnar fjárhagsáætlunar, fjárhagsfrávik Yfirfarnar og Yfirfarnar fjárhagsáætlunar fráviks %.  [![stjórnun kostnaðar](./media/cost-controlling.png)](./media/cost-controlling.png)
+Þegar þú velur einn af tenglunum er kort á kostnaðareiningu birt. Upphæð á kortunum er birt á eftirfarandi sniði: Raun-, Fjárhagsáætlun, Frávik, og Frávik %, Endurskoðuð fjárhagsáætlun, Frávik endurskoðaðrar fjárhagsáætlunar og Frávik endurskoðaðrar fjárhagsáætlunar %.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Hefjast handa
-Fylgið eftirfarandi skrefum til að byrja nota kostnað stýringu forritið fartæki í þínu fartækis.
+Fylgið eftirfarandi skrefum til að hefja notkun á kostnaðarstýringu í farsímaforriti í fartæki fyrirtækisins.
 
-1.  Verslunin fartæki forritið á að sækja og setja upp Microsoft Dynamics 365 til aðgerðir forrits.
-2.  Byrja forritið þitt tækis.
-3.  Færið inn Vefslóð skal Dynamics 365.
-4.  Færið inn fyrirtæki að skrá sig inn á. Til dæmis inn **USMF**.
-5.  Í fyrsta sinn sem þú skráir þig inn, verið beðið um notandanafn og aðgangsorð fyrir notanda Microsoft Dynamics 365 fyrir Aðgerðir. Færið inn skilríkjum þínum. Eftir að skrá er að sjá tiltækar vinnusvæða fyrirtækisins.
+1.  Sæktu forritið Microsoft Dynamics 365 for Operations úr forritaverslun farsímans og settu það upp.
+2.  Ræstu forritið í snjallsímanum.
+3.  Færðu inn vefslóð þína fyrir Dynamics 365.
+4.  Skráðu fyrirtækið sem á að skrá sig inn á . Til dæmis: Færið inn **USMF**.
+5.  Fyrsta skipti‘ sem þú skráir þig inn verðurðu beðin um notandanafn og aðgangsorð fyrir þinn Microsoft Dynamics 365 for Operations reikning. Færðu inn skilríki Eftir að þú skrá inn, sérðu tiltækt vinnusvæði fyrir Þitt fyrirtæki.
 
-Til að skoða vinnusvæða fartæki forritið, er verður fyrst að birta skal vinnusvæðin sem óskað er eftir að Dynamics 365 fyrir Aðgerðir forrits.
+Til að skoða vinnusvæði í farsímaforritinu verður fyrst að gefa út æskileg vinnusvæði í forritið Dynamics 365 for Operations.
 
-1.  Ræsa Dynamics 365 aðgerða.
-2.  Fara í **kerfisstjórnun**&gt;**Uppsetningu**&gt;**kerfisfæribreytum**.
-3.  Veljið **Stjórna fartæki forrits**.
-4.  Velja vinnusvæðið ** Kostnaður stýra ** til að birta í fartæki svæðis.
-5.  Velja **Birta vinnusvæði**.
-6.  Endurnýja skal tæki til að sjá birt vinnusvæði.
+1.  Ræstu Dynamics 365 for Operations.
+2.  Opnaðu **Kerfisstjórnun** &gt; **Uppsetning** &gt; **kerfisfæribreytur**.
+3.  Veldu **Stjórna fartækjaforriti**.
+4.  Velja vinnusvæðið **Kostnaðarstýring** til að birta í verkvangi farsíma.
+5.  Veldu **Birta vinnusvæði**.
+6.  Endurhlaða Þitt tæki til að sjá útgefin vinnusvæði.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Skoða afköst fyrirtækisins kostnaðarstaður
-1.  Fartækis, veljið þá **Kostnaður stýra** vinnusvæði.
-2.  Velja **Kostnaður hlut stýra**.
-3.  Smellið á **Aðgerðir**.
-4.  Smellið á **Velja afbrigði** til að velja útlit stýra kostnaði.
-5.  Click **Done**.
-6.  Smellið á **Aðgerðir**.
-7.  Smellið á **Hluturinn kostnaður** til að velja á kostnaðarstaði sem þú hefur verið veittur aðgangur.
-8.  Click **Done**.
-9.  Skoða heildarframmistöðu fyrirtækisins kostnaðarstaður.
-10. Smellið á **Upplýsingar fyrir núverandi tímabil**.
-11. Skoða afköst stakar einingar.
-12. Einnig er hægt að leita fyrir tiltekinn kostnað einingar.
+## <a name="view-the-performance-of-your-cost-center"></a>Skoða vinnsluhraða kostnaðarstaðar
+1.  Í farsímanum velurðu vinnusvæðið **Kostnaðarstýring**.
+2.  Veldu **Stjórnborð kostnaðarhlutar**.
+3.  Smellt er á **Aðgerðir**.
+4.  Smellið á **Velja grunnstilling** til að velja útlit kostnaðarstýringar.
+5.  Smelltu á **Lokið**.
+6.  Smellt er á **Aðgerðir**.
+7.  Smellt er á **Velja kostnaðarhlut** til að velja kostnaðarstað sem þú hefur fengið aðgang að.
+8.  Smelltu á **Lokið**.
+9.  Skoða heildarafkomu kostnaðarstaðar.
+10. Smellt er á **Sundurliðun fyrir núverandi tímabil**.
+11. Skoða vinnsluhraða stakra kostnaðareininga.
+12. Einnig má leita að sérstökum kostnaðareiningum.
 
 
 

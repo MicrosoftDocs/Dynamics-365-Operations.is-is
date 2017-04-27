@@ -1,6 +1,6 @@
 ---
 title: "Setja upp breytilega launaáætlun."
-description: "Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hlutabréfaveitingu. Þetta efnisatriði lýsir íhluta sem þarf að setja upp áður en hægt er að nota breytilegu og innskráning starfsmanns í breytilegri greiðsluáætlun."
+description: "Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hlutabréfaveitingu. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur notað breytileg laun og ráða starfsmann inn í breytilega greiðsluáætlun."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
+[!include[banner](includes/banner.md)]
+
+
 Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hlutabréfaveitingu. Þessari grein lýsir þáttum sem þarf að setja upp áður en þú getur notað breytileg laun og ráða starfsmann inn í breytilega greiðsluáætlun.
 
 Útreikningur breytilegra launaupphæða fyrir starfsmennina getur byggt á nokkrum þáttum, svo°sem°frammistöðu starfsmanns, launastigi starfsmannsins og afköstum deildar.
@@ -39,22 +42,22 @@ Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hl
 
 ### <a name="describe-vesting-rules"></a>Lýsing veitireglna
 
-Fyrirtæki geta valið um að setja upp **veitireglur**. Veitireglur lýsa hvernig breytileg umbun sé úthlutað yfir tíma. Til dæmis veitingarreglu gæti ríki sem starfsmaður fær 25 prósenta umbunar hans eða hennar samtals hvert ár fyrir fjögur næsta árs. Veitireglur eru til upplýsingar aðeins.
+Fyrirtæki geta valið um að setja upp **veitireglur**. Veitireglur lýsa hvernig úthluta á breytilegri umbun yfir tíma. Til dæmis getur veitingarregla mælt fyrir um að starfsmaður fái 25 prósent af heildarlaunum hans eða hennar á hverju ári næstu fjögur árin. Veitireglur eru aðeins til upplýsingar.
 
 ## <a name="variable-compensation-plans"></a>Launafyrirkomulög breytilegra uppbóta
-**Launafyrirkomulag breytilegra uppbóta** inniheldur reglur, útreikningsaðferðir og sjálfgefin gildi fyrir útreikning breytilegra uppbóta fyrir skráða starfsmenn. Þegar launafyrirkomulag breytilegrar er stofnuð verður að setja breytilegrar gerðar endurgjalds. Gerð breytilegrar uppbótar ákvarðar hvort kerfið reiknar gjaldmiðilsupphæð eða fjölda eininga sem umbunar. Einnig þarf að velja útreikningsaðferð:
+**Launafyrirkomulag breytilegra uppbóta** inniheldur reglur, útreikningsaðferðir og sjálfgefin gildi fyrir útreikning breytilegra uppbóta fyrir skráða starfsmenn. Þegar launafyrirkomulag breytilegra uppbóta er stofnað verður að ákvarða gerð breytilegrar uppbóta. Gerð breytilegrar uppbótar ákvarðar hvort kerfið reiknar gjaldmiðilsupphæð eða fjölda eininga sem umbun. Einnig þarf að velja útreikningsaðferð:
 
--   **Tímapunkt** – útreikningur á breytileg umbun byggist á fastra launa sem starfsmaðurinn á tiltekinni dagsetningu. Sú dagsetning er tilgreind á vinnslutilvikið þegar ný laun upphæðir eru unnar.
--   **Samsett** – upphæð umbunar er reiknuð fyrir hvern sértækan fastlaunataxta sem starfsmaðurinn var með milli upphafs- og lokadagsetningar ferlis á vinnslutilvikinu. Taxtarnir bætt saman til að ákvarða á lokaumbunina. Til dæmis við ferli starfsmaður flutt í aðra stöðu hafði mismunandi launataxta. Í þessu tilfelli er breytilega umbunin leiðrétt fyrir lengd þess tíma sem°starfsmaður hafði hvern°launataxta.
+-   **Tímapunktur** – útreikningur á breytilegri umbun byggist á föstum launum sem starfsmaðurinn var með á tiltekinni dagsetningu. Sú dagsetning er tilgreind á vinnslutilvikinu þegar nýjar launaupphæðir eru unnar.
+-   **Samsett** – upphæð umbunar er reiknuð fyrir hvern sértækan fastlaunataxta sem starfsmaðurinn var með milli upphafs- og lokadagsetningar ferlis á vinnslutilvikinu. Taxtarnir eru síðan lagðir saman til að ákvarða lokaumbunina. Til dæmis meðan á ferlinu stóð fluttist starfsmaður í aðra stöðu sem hafði annan launataxta. Í þessu tilfelli er breytilega umbunin leiðrétt fyrir lengd þess tíma sem°starfsmaður hafði hvern°launataxta.
 
 Upphæð breytilegrar umbunar er hægt að byggja á annað hvort hlutfalli af reglulegum grunntekjum starfsmanns eða ákveðnum fjölda eininga.
 
--   Velja skal **Prósenta af grunni** valkost til að færa inn sjálfgefna prósentu og tilgreinið°hvort grunnurinn eigi að vera fastur launataxti starfsmannsins eða stýripunktur fyrir launastig starfsmannsins. Launastig er stillt á starf starfsmanns. Hægt er að setja einn tilvísunarpunktar launafyrirkomulagið sem stýringin á fast launafyrirkomulag. Mun kerfið nota launastig úr starfi starfsmanns og millivísun hann með stýringu sem er skráður í launafyrirkomulag fastra launa starfsmanns til að finna upphæð þjónustustaðar fjárhagsáætlunarstýringar fyrir launastig starfsmannsins. Upphæð þjónustustaðar stýringu verður svo að nota en föstum launataxta starfsmanns sem grunn fyrir umbunina.
--   Velja skal valkostinn** Fjölda eininga** til að færa inn sjálfgefinn fjölda eininga, gildi hverrar einingar og gjaldmiðil einingarvirðisins ef launafyrirkomulag er ekki-staðgreiðsluumbun (t.d. 200 einingar af birgðum sem eru metnar á 40 USD), eða einungis einingafjölda sé launafyrirkomulag staðgreiðsluumbun. Staðgreiðsluverðlaun skal fyrir að starfsmaður fær tiltekinn fjölda eininga af gjaldmiðli sem notaður er fyrir sölumannsins launafyrirkomulag fastra launa (t.d. 500 eininga 1 USD). Beinu tengslin stýring má nota til að tilgreina hvort er bein beinu vörpun milli gildi einingu og fjölda eininga. Þegar breytilegra uppbóta fyrir áætlun byggða á reiðufé með fjölda eininga er þessi valkostur sjálfvirkt læst í **Já**, og einingarvirðið er **1,0000**.
+-   Velja skal **Prósenta af grunni** valkost til að færa inn sjálfgefna prósentu og tilgreinið°hvort grunnurinn eigi að vera fastur launataxti starfsmannsins eða stýripunktur fyrir launastig starfsmannsins. Launastig er stillt á starf starfsmanns. Einn af tilvísunarpunktunum úr launafyrirkomulagi má stilla sem the stýripunkt á launafyrirkomulagi fastra launa. Kerfið mun nota launastig úr starfi starfsmanns og millivísa það með stýripunkti sem er skráður í launafyrirkomulag fastra launa starfsmanns til að finna stýripunkt fyrir upphæð launastigs starfsmannsins. Upphæð stýripunktsins verður svo notuð í staðinn fyrir fasta launataxta starfsmanns sem grunn fyrir umbunina.
+-   Velja skal valkostinn** Fjölda eininga** til að færa inn sjálfgefinn fjölda eininga, gildi hverrar einingar og gjaldmiðil einingarvirðisins ef launafyrirkomulag er ekki-staðgreiðsluumbun (t.d. 200 einingar af birgðum sem eru metnar á 40 USD), eða einungis einingafjölda sé launafyrirkomulag staðgreiðsluumbun. Fyrir staðgreiðsluumbun fær starfsmaður tiltekinn fjölda eininga af gjaldmiðli sem notaður er fyrir launafyrirkomulag fastra launa hans (t.d. 500 einingar af 1 USD).  Beina tengslastýringu má nota til að tilgreina hvort það er bein vörpun milli gildi einingu og fjölda eininga. Þegar áætlun breytilegra uppbóta er byggð á reiðufé með því að nota fjölda eininga er þessi valkostur sjálfkrafa læstur á **Já**, og einingarvirðið er **1,0000**.
 
-Í **ráðningarreglu** uppsetning gerir kleift að tilgreina hvort allir starfsmenn eigi að fá sömu hækkun, dagsetninguna sem þeir voru ráðnir (**ráðningarreglu** = **Ekkert**), eða hvort starfsmenn eigi að fá prósenta umbunar á grundvelli lengdar hans í starfi við reglulega (**ráðningarreglu** = **Prósent**). 
+Í stillingunni **Ráðningarregla** er hægt að tilgreina hvort°allir starfsmenn eigi að fá sömu hækkun, án tillits til dagsetningarinnar sem þeir voru ráðnir (**Ráðningarregla** = **Ekkert**), eða hvort starfsmenn eigi að fá prósentu umbunar á grundvelli tímalengdar í starfi í ferlinu (**Ráðningarregla** = **Prósent**). 
 
-**Vogun** gerir það mögulegt að leiðrétta umbun starfsmanns, byggt á afkastagetu starfsmanns í deild. Afkastamælikvarða er hægt að setja á fyrir hverja deild á **Deildir** síðuna undir **Tengdar skjámyndir**&gt;**Launa**&gt;**Afköst**. Umbun sem starfsmanna í deild sem taka á móti fer eftir því gildi sem **Prósenta sem náðist af markmiði** svæðið sem sýnir afköst í deild:
+**Skuldsetning** gerir kleift að leiðrétta umbun starfsmanns, á grunni afkoma í deild starfsmannsins. Afkomumælikvarðar má setja upp fyrir hverja deild á **Deildir** síða, undir **Tengt skjámynd** &gt; **Uppbót** &gt; **Afkoma**. Umbun sem starfsmenn í viðkomandi deild taka á móti fer eftir gildi svæðisins **Prósenta sem náðist af markmiði** sem tilgreinir afköst deildarinnar:
 
 -   Ef afköst deildar eru 100 prósent, er umbun fyrir starfsmenn í þeirri deild þáttaðar eftir prósentunni sem sett er°á** Útborgun við 100%** svæðinu.
 -   Ef afköst deildar eru meira en 100 prósent bætir kerfið prósentunni sem sett er á svæðinu **á 1% yfir markmiði** við prósentuna sem sett er í á svæðinu **Útborgun við 100%** þar til það gildi sem er sett í **Hæsta leyfilega útborgun** svæði hefur verið náð.
@@ -62,11 +65,11 @@ Upphæð breytilegrar umbunar er hægt að byggja á annað hvort hlutfalli af r
 
 Hægt er að setja** stig vikmarka** á prósentuþröskuld, þannig að viðvörunarskilaboð birtast°ef sú skuldsetning veldur því að prósentan er utan prósentuþröskuldsins. 
 
-Að sjálfgefnu sölutilboðslínu leitar kerfið deild sem er stillt á stöðu starfsmanns. Hins vegar umbun fyrir suma starfsmenn gætu háð afköst margar deildir. Í þessu tilfelli mismunandi deildir og prósenta umbunar sem er úthlutað til hverrar deildar afköst er að stilla á skráningu í breytilega uppbót starfsmanns. Nánari upplýsingar í hlutanum "skráningu í Breytilega uppbót" sem fylgir. 
+Það er sjálfgefið að kerfið leitar að deildinni sem er stillt á stöðu starfsmanns. Hins vegar getur umbun fyrir suma starfsmenn verið háð afköstum margra deilda. Í þessu tilfelli er hægt að stilla mismunandi deildir og prósentu umbunar sem er úthlutað til afkasta hverrar deildar á skráningu í breytilega uppbót starfsmanns. Nánari upplýsingar, í hlutanum „Skráningu í Breytilega uppbót" hér á eftir. 
 
 Vogun er aðeins notuð ef **Árangurstengd Laun** er valinn þegar verið er að keyra launavinnsluna. 
 
-Í **Stig hnekkingar** flipa er hægt að hnekkja sjálfgefna prósentu eða fjölda eininga sem grundvelli greiðslustigs starfsmanns skal umbun. Ef **Virkja hnekkir þrepa** er stillt á **Já** fyrir starfsmenn sem skráðir eru í launafyrirkomulagi breytilegu uppbótarinnar kerfið tekur stig úr starfi starfsmanns og síðan hnekkir eitthvað fyrir það stig í töflu til að ákvarða prósentu eða fjölda eininga fyrir það stig. Ef stig finnst ekki í stig hnekkir töflu, sjálfgefin prósenta eða fjölda eininga úr á **Almennt** flipinn er notaður. Prósenta og fjölda eininga getur einnig að hnekkja á skráningar starfsmannsins í breytilegu greiðsluáætluninni.
+Flipinn **Stig hnekkingar** gerir kleift að hnekkja sjálfgefinni prósentu umbunar eða einingafjölda, byggt á launastigs starsmanns. Ef **Leyfa stig hnekkingar** er stillt á **Já** fyrir starfsmenn sem skráðir eru í launafyrirkomulagi breytilegu uppbótarinnar tekur kerfið stig úr starfi starfsmanns og leitar síðan eftir því í töflunni um stig hnekkingar til að ákvarða prósentu eða fjölda eininga fyrir það stig. Ef stig finnst ekki í töflunni um stig hnekkingar er sjálfgefin prósenta eða fjölda eininga úr **Almennt** flipanum notað. Prósentu og fjölda eininga er einnig hægt að hnekkja á innskráningu starfsmannsins í breytilegu greiðsluáætluninni.
 
 ## <a name="variable-compensation-enrollment"></a>Skráning í breytilega uppbót
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Ákvarða hver er hæfur fyrir áætlun
@@ -80,7 +83,7 @@ Vogun er aðeins notuð ef **Árangurstengd Laun** er valinn þegar verið er a�
     -   Í **Aðgerð** og **Starfstegund** svæði á flipanum **Vinnsluflokkun**
     -   Á svæðinu **Stig**í flipanum **Laun**
 -   Á síðunni **Stöður**: Svæðin **Deild** og **launasvæði**
--   Á við **Starfsmenn** síðu: upplýsingar um verkalýðsfélög sem tengist starfsmanni undir **Persónulegar upplýsingar**&gt;**verkalýðsfélög** á í *** Starfsmanns *** flipa
+-   Á síðunni **Starfsmenn**: Upplýsingar um verkalýðsfélög sem tengist starfsmanni undir **Persónulegar upplýsingar** &gt; ** verkalýðsfélög** í ****Starfsmanns****  flipa
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Stofna skráningu í launafyrirkomulag breytilegrar uppbótar
 
@@ -88,19 +91,21 @@ Vogun er aðeins notuð ef **Árangurstengd Laun** er valinn þegar verið er a�
 
 ### <a name="enroll-the-employee"></a>Innrita starfsmanninn
 
-Nú er hægt að skrá starfsmann inn í°breytilega greiðsluáætlun. Til að skrá starfsmann, er farið í **Starfsmenn** síðunni og velja þann starfsmann. Smellið síðan á Aðgerðasvæðinu skal á **Launa**&gt;**skráning í Breytilega áætlun**. 
+Nú er hægt að skrá starfsmann inn í°breytilega greiðsluáætlun. Til að skrá starfsmann, er farið í **Starfsmenn** síðunni og velja þann starfsmann. Smellið síðan á Aðgerðasvæðinu á **Laun** &gt; **skráning í Breytilega áætlun**. 
 
-**Ábending:** **Innskráningar** verður að stilla á **Já** í launafyrirkomulagi breytilegu uppbótarinnar. Í **Áætlun** sýnir aðeins áætlanir sem starfsmaður hefur rétt fyrir byggt á hæfnisreglur sem eru settir upp fyrir þær áætlanir. Ef hæfnisreglunum er ekki stillt fyrir áætlun, verður engum starfsmenn hæfur fyrir þá áætlun. 
+**Ábending:** **Innskráningar** verður að stilla á **Já** í launafyrirkomulagi breytilegu uppbótarinnar. Svæðið **Áætlun** sýnir aðeins áætlanir sem starfsmaður hefur rétt á, byggt á hæfnisreglur sem eru settir upp fyrir þær áætlanir. Ef hæfnisregla er ekki stillt fyrir áætlun, verður enginn starfsmenn hæfur fyrir þá áætlun. 
 
-Gangið úr skugga um það **gildisdagsetningu** svæðis er sett upp rétt. Ef notar breytilegrar uppbótar er **Samsetta** útreikningsaðferð, upphafsdagsetningu innskráningar hugsaður við útreikning á umbun starfsmanns. 
+Gangið úr skugga um að reiturinn **gildisdagsetning** er stillt á rétt. Ef áætlun breytilegrar uppbótar notar **Samsetta** útreikningsaðferð, þarf að hafa í huga upphafsdagsetningu innskráningar við útreikning á umbun starfsmanns. 
 
-Hægt er að nota í **Hnekkir** flipa til að hnekkja ákveðnum gildum fyrir starfsmanninn. Til dæmis, ef **ráðningarreglu** er stillt á **Prósent** í áætlun, og aðra ráðningardagsetning ætti að nota við útreikning á ráðningarprósentu starfsmannsins, er hægt að stilla dagsetningu ráðningarreglu í í **dagsetning Ráðningarreglu** svæði. Einnig er hægt að hnekkja annað hvort í **Umbunarupphæð** gildi eða **Einingafjöldi** gildi tiltekins starfsmanns eftir stillingar áætlunarinnar. Þessum gildum verða samt líkanaflokksuppsetning með ráðningarreglu afkastastuðla og aðrar stillingar á áætluninni. 
+Hægt er að nota flipann **Hnekkja** gildum fyrir starfsmanninn. Til dæmis, ef **Ráðningarregla** er stillt á **Prósent** á áætlun, og aðra ráðningardagsetningu ætti að nota við útreikning á ráðningarprósentu starfsmannsins, er hægt að stilla ráðningardagsetningu í **dagsetning Ráðningarreglu** svæði. Einnig er hægt að hnekkja annaðhvort **Umbunarprósenta** gildi eða **Einingafjöldi** gildi tiltekins starfsmanns eftir stillingum áætlunarinnar. Þessum gildum verða áfram þættir í ráðningarreglunni, afkastastuðlum og öðrum stillingum á áætluninni. 
 
-**Hnekkir** eru notaðar til að byggja umbun starfsmanns afköstum eina eða fleiri deildir. Prósenta sem er úthlutað á milli deilda ætti samanlagt 100 prósent. Einnig er tekið tillit til einstaklingsframmistöðu starfsmanns. Þessar stillingar eru aðeins notað ef **árangurstengd Laun** er valinn þegar um er að keyra launavinnsluna.
+**Hnekkingar fyrirtækis** eru notaðar til að byggja umbun starfsmanns á afköstum einnar eða fleiri deilda. Prósenta sem er úthlutað á milli deilda ætti samanlagt að vera 100 prósent. Einnig er tekið tillit til einstaklingsframmistöðu starfsmanns. Þessar stillingar eru aðeins notaðar ef **árangurstengd Laun** er valið þegar verið er að keyra launavinnsluna.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
 [Launafyrirkomulag](compensation-plans.md)
+
+
 
 

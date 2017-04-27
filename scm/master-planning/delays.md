@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Seinkanir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um frestaðar dagsetningar á aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
 
 Aðaláætlanagerð°getur reiknað út fyrstu mögulegu dagsetningu uppfyllingar fyrir færslu, byggða á afhendingartíma, efnisframboði, getu til ráðstöfunar og ýmsum færibreytum áætlanagerðar. 
@@ -41,11 +44,13 @@ Hægt er að skilgreina hvernig seinkanir°eru reiknaðar fyrir þekjuflokk. Hæ
 
 Á síðunni**Færibreytur aðaláætlanagerðar** er hægt að stilla upphafstíma fyrir útreikning°seinkana. Ef pöntun er uppfyllt að loknum tímafrestinum er einum degi°bætt við seinkunardagsetningu pöntunarinnar. 
 
-**Athugasemd:** í fyrri útgáfum reiknaðar seinkanir var kallað *framvirk boð*, frestuð dagsetning var kallað á *framvirk dagsetning*, og frestaðar færslur var kallað *færslu sem var sett í framtíðinni*.
+**Ábending:** Í eldri útgáfum voru reiknaðar seinkanir kallaðar *Framvirk boð*,°seinkunardagsetning var kölluð *Framvirk dagsetning*,°og°frestuð færsla kallaðist *Færsla sem var sett í framtíðinni*.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
 [Þekjustillingar](coverage-settings.md)
+
+
 
 

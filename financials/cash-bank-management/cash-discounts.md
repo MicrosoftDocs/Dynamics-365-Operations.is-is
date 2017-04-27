@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
+[!include[banner](../includes/banner.md)]
+
+
 Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og Viðskiptaskuldir.  Tiltækur staðgreiðsluafsláttur er hægt að tilgreina á reikning viðskiptavinar eða á reikning lánardrottins og verður tekinn ef reikningurinn er greiddur innan dagsetningu staðgreiðsluafsláttar. 
 
 <a name="cash-discounts"></a>Staðgreiðsluafslættir
@@ -61,8 +64,8 @@ Bókhaldsgjaldmiðill fyrir við lögaðilann er EUR og eftirfarandi gengi eru t
 -   Febrúar 1 = 110
 -   Mars 1 = 80
 
-Reikningur fyrir 1000 USD með skilmála 20D 2% staðgreiðsluafsláttur er bókaður á 15. Febrúar. Í upphæð bókhaldsgjaldmiðils reiknings er 1100 EUR. Greiðsla fyrir 980 USD er jöfnuð með reikningi 1. Mars. Upphæð staðgreiðsluafsláttar er 20 USD. Upphæð bókhaldsgjaldmiðils fyrir greiðslu er 784 EUR. Gjaldmiðilsupphæð bókhald staðgreiðsluafsláttar er reiknuð með notkun gengi frá Mars 1:20 \*80 / 100 = 16 EUR.
-| **Note**                                                                                                                                                                                                                             |
+Reikningur fyrir 1000 USD með skilmála staðgreiðsluafsláttar 20D2% er bókaður á 15. febrúar. Gjaldmiðilsupphæð reiknings er 1100 EUR. Greiðsla fyrir 980 USD er jöfnuð með reikningi 1. mars. Upphæð staðgreiðsluafsláttar er 20 USD. Upphæð bókhaldsgjaldmiðils fyrir greiðslu er 784 EUR. Gjaldmiðilsupphæð staðgreiðsluafsláttar er reiknuð með því að nota gengið frá 1. mars: 20 \* 80 / 100 = 16 EUR.
+| **Athugasemd**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. |
 
@@ -70,5 +73,7 @@ Reikningur fyrir 1000 USD með skilmála 20D 2% staðgreiðsluafsláttur er bók
 =
 
  
+
+
 
 

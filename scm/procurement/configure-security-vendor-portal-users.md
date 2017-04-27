@@ -1,6 +1,6 @@
 ---
-title: "Öryggi gátt lánardrottins"
-description: "Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Þær upplýsingar eiga aðeins við 2016 Febrúar &amp;Maí 2016 útgáfum Dynamics AX."
+title: "Öryggi notanda í gátt lánardrottins"
+description: "Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Öryggi gátt lánardrottins
+# <a name="vendor-portal-user-security"></a>Öryggi notanda í gátt lánardrottins
 
-Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Þær upplýsingar eiga aðeins við 2016 Febrúar &amp;Maí 2016 útgáfum Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-Virkni gátt Lánardrottins hefur verið skipt eftir aukin lánardrottins samvinnusvæði aðgerðum í Dynamics 365 Aðgerðir útgáfu 1611. Nánari upplýsingar um uppsetningu á öryggi fyrir samvinnusvæði lánardrottins í [Sett upp og viðhalda lánardrottins samvinnusvæði](set-up-maintain-vendor-collaboration.md). Gátt lánardrottins birtir takmarkað safn upplýsinga um innkaupapantanir (POs) til ytri lánardrottna. Mikilvægt er að þú setjir rétt upp heimildir notanda fyrir gátt lánardrottins í Microsoft Dynamics AX, svo að lánardrottnar hafi ekki óviljandi aðgang að viðbótarupplýsingum í uppsetningu á Dynamics AX. **Mikilvægt:** Ólíkt öðrum notendum ættu ytri lánardrottnar ekki að hafa hlutverkið **SystemUser**. Hlutverkið **SystemUser** veitir aðgang að safni réttinda sem ekki eru hæafar fyrir utanaðkomandi notendur.
+
+Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX.
+
+Virknin gátt Lánardrottins hefur verið skipt út fyrir virknina aukið samstarf lánardrottna í Dynamics 365 for Operations útgáfa 1611. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [ Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md). Gátt lánardrottins birtir takmarkað safn upplýsinga um innkaupapantanir (POs) til ytri lánardrottna. Mikilvægt er að þú setjir rétt upp heimildir notanda fyrir gátt lánardrottins í Microsoft Dynamics AX, svo að lánardrottnar hafi ekki óviljandi aðgang að viðbótarupplýsingum í uppsetningu á Dynamics AX. **Mikilvægt:** Ólíkt öðrum notendum ættu ytri lánardrottnar ekki að hafa hlutverkið **SystemUser**. Hlutverkið **SystemUser** veitir aðgang að safni réttinda sem ekki eru hæafar fyrir utanaðkomandi notendur.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Setja upp notanda gáttar lánardrottins
 Áður en notendareikningur er stofnaður fyrir einhvern sem mun nota gátt lánardrottins, verður að setja upp lánardrottinn til að heimila samvinnu við gátt lánardrottins. Notaðu reitinn **Innkaupapöntun samvinnu** á flipanum **Almennt** á síðunni **Lánardrottnar**. Ytri lánardrottnar sem nota gátt lánardrottins verða að hafa eftirfarandi uppsetningu:
@@ -44,6 +47,8 @@ Ef sami einstaklingur krefst aðgangs að gátt lánardrottins fyrir marga lána
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Samstarf lánardrottna](collaborate-vendors-vendor-portal.md)
+
+
 
 

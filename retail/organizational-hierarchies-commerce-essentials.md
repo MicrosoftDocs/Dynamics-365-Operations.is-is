@@ -1,6 +1,6 @@
 ---
-title: "Fyrirtæki og stigveldi fyrirtækis (Commerce grundvallaratriði)"
-description: "Grundvallaratriði commerce hefur þrjár gerðir af samstæðufyrirtæki sem er hægt að skilgreina sem hjálpa fyrirtæki að framkvæma viðskiptaferli eða ná markmiði."
+title: "Fyrirtæki og stigveldi fyrirtækis (grundvallaratriði viðskipta)"
+description: "Grundvallaratriði viðskipta hefur þrjár gerðir af samstæðufyrirtæki sem er hægt að skilgreina sem hjálpa fyrirtæki að framkvæma viðskiptaferli eða ná markmiði."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Fyrirtæki og stigveldi fyrirtækis (Commerce grundvallaratriði)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Fyrirtæki og stigveldi fyrirtækis (grundvallaratriði viðskipta)
 
-Grundvallaratriði commerce hefur þrjár gerðir af samstæðufyrirtæki sem er hægt að skilgreina sem hjálpa fyrirtæki að framkvæma viðskiptaferli eða ná markmiði. 
+[!include[banner](includes/banner.md)]
+
+
+Grundvallaratriði viðskipta hefur þrjár gerðir af samstæðufyrirtæki sem er hægt að skilgreina sem hjálpa fyrirtæki að framkvæma viðskiptaferli eða ná markmiði. 
 
 Fyrirtæki er hópur af fólki sem vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækiseininga sem mynda fyrirtæki þitt.
 
@@ -68,6 +71,8 @@ Eftirfarandi tafla lýsir aðstæðum Commerce essentials þar sem hægt er að 
 | Stjórna áfyllingu í smásölu                                                    | Flokkur geymir til að fylla á birgðum á grundvelli áfyllingarreglur.                                                                                                                                                                                                                                          | Áfylling í smásölu |
 | Tilkynna gögn fyrir verslanir.                                                         | Verslunarflokkar fyrir skýrslugerð.                                                                                                                                                                                                                                                                                | Skýrslugerð smásölu     |
 | Bóka birgðir, reikna uppgjör eða bóka uppgjör fyrir verslunarflokk | Stofna verslanir sem má tengja við runuvinnslu. Þegar runuvinnsla er skilgreind til að bóka í birgðir, reikna uppgjör eða bóka uppgjör, er hægt að tilgreina hvaða stigveldi vinnslan á við. Þegar verslunum er bætt við eða fjarlægt úr stigveldinu þarf ekki að breyta runuvinnslu. | Retail POS skráning   |
+
+
 
 
 

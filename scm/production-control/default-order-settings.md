@@ -1,5 +1,5 @@
 ---
-title: "Sjálfgefnar pantanastillingar fyrir víddirnar og afurðarafbrigði"
+title: "Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði"
 description: "Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pantanastillingar fyrir víddirnar og afurðarafbrigði
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
+
+[!include[banner](../includes/banner.md)]
+
 
 Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
-Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar **síðu. Til að opna þessa síðu er farið í **upplýsingar afurðastjórnun**&gt;**Afurðir**&gt;**Útgefnum afurðum**&gt; velja útgefin afurð &gt;á í **Áætlun** eða *** Stjórna birgðum *** Aðgerðarúðu &gt;**Pöntun stillingar**&gt;**Sjálfgefnar pöntunarstillingar**.
+Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar **síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Útgefnum afurðum** &gt; veljið útgefna afurð &gt; á **Áætlun ** eða ****Stjórna birgðum**** Aðgerðarúðu &gt; **pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
 
 ## <a name="default-order-settings"></a>Sjálfgefnar pöntunarstillingar
 Það eru þrjár gerðir af sjálfgefnum pantanastillingum fyrir innkaup, sölu og birgðir. Sjálfgefnar pantanastillingar fyrir innkaup eru notaðar þegar stofnaðar eru:
@@ -70,13 +73,13 @@ Sjálfgefnar birgðapantanastillingar eiga einnig við þegar stofnaðar eru:
 -   Framleiðslutillögur
 
 ## <a name="full-definition-of-a-released-product"></a>Full skilgreining á útgefin afurð
-Þegar færsla er stofnuð, þarf að tilgreina fullt skilgreining fyrir losaða afurð á línuna áður en Dynamics 365 aðgerða reynir að auðkenna sjálfgefnar pantanastillingar. Fullt skilgreining fyrir losaða afurð þýðir að allar virkar afurðarvíddum, eins og afbrigði, stærð, stíl og lit, og vörunúmer eru tilgreind í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
+Þegar færsla er stofnuð, þarf að tilgreina fullt skilgreining fyrir losaða afurð á línuna áður en Dynamics 365 for Operations reynir að auðkenna sjálfgefnar pantanastillingar. Full skilgreining fyrir útgefna afurð þýðir að vörunúmer og allar virkar afurðarvíddir, eins og afbrigði, stærð, stíl og lit, eru tilgreind í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
 
-Ekki allar sjálfgefnar færibreytur pöntunarstillinga eru notaðar stofnaðar eru pöntunar- eða færslubókarlínur. Magn og afhendingartíma mun aðeins birta sjálfvirkt þegar viðeigandi. Til dæmis þegar talningarbókar, aðeins svæða og vöruhúsa birtir sjálfgefið þegar lína er stofnuð. Obviously ekkert magn sjálfgildi eða ávísanir á mörgum og lágmark eru gerðar þegar lína er stofnuð eða bóka færslubókina. 
+Ekki allar sjálfgefnar færibreytur pöntunarstillinga eru notaðar stofnaðar eru pöntunar- eða færslubókarlínur. Magn og afhendingartími birtast aðeins sjálfgefið þegar við á. Til dæmis, þegar verið er að telja færslubókarlínu, birtist aðeins svæðið og vöruhús sjálfkrafa þegar línan er stofnuð. Augljóslega fer ekki fram nein sjálfgefið magn eða athuganir á mörgum eða lágmarki þegar verið er að stofna línuna eða bóka færslubókina. 
 
-Kerfið reynir alltaf að finna sjálfgefið svæði og vöruhús þegar pöntunina eða færslubókarlínan er stofnuð. Svæðinu er ekki alltaf birt sjálfgefið úr pöntunarstillingum. T.d. þegar sölupöntun eða innkaupapöntun eru stofnaðar, er svæðið úr haus sjálfkrafa notað í pöntunarlínum. Þegar uppskriftarlína, svæði úr haus Uppskriftar notaður. Þegar svæði er ákvarðað, verður það notað til að finna hvaða svæði stillingar fyrir tiltekna pöntun sem er hægt að nota sem sjálfgefið fyrir vöruhúsið. 
+Kerfið reynir alltaf að finna sjálfgefið svæði og vöruhús þegar pöntunina eða færslubókarlínan er stofnuð. Svæðinu er ekki alltaf birt sjálfgefið úr pöntunarstillingum. T.d. þegar sölupöntun eða innkaupapöntun eru stofnaðar, er svæðið úr haus sjálfkrafa notað í pöntunarlínum. Þegar uppskriftarlína er stofnuð, er svæði úr haus Uppskriftar notaður. Þegar svæði er ákvarðað, verður það notað til að finna hvers kyns pöntunarstillingar sem tengjast tilteknu svæði sem má þá nota sem sjálfgefið fyrir vöruhúsið. 
 
-Sjálfgefin pöntunargerð, innkaup og afhendingartíma í birgðir verið hnekkt með þekjureglur vörunnar í í **Vöruþekja** síðu. Þótt sjálfgefnar pantanastillingar heimildarstillingar heimila fyrir bókunardagsetningum flutningsbiðtíma, framleiðslu og þekjureglur vörunnar leyfir það. Hins vegar, uppsetningu vöruþekju verður aðeins notað af MRP (áætlanagerð í framleiðsluaðföngum) þegar stofnaðar eru framleiðslutillaga og flutningstillaga og er ekki notað þegar framleiðslupantanir eða flutningspantanir eru stofnaðar handvirkt. 
+Sjálfgefin pöntunargerð, innkaup og afhendingartíma í birgðir má hnekkja með þekjureglur vörunnar á **Vöruþekja** síðu. Þó svo sjálfgefnar pantanastillingar gefa ekki kost á því að greina á milli afhendingartíma framleiðslu og flutnings, þá leyfa þekjureglur vörunnar það. Hins vegar, uppsetningu vöruþekju verður aðeins notað af MRP (áætlanagerð í framleiðsluaðföngum) þegar stofnaðar eru framleiðslutillaga og flutningstillaga og er ekki notað þegar framleiðslupantanir eða flutningspantanir eru stofnaðar handvirkt. 
 
 ## <a name="default-order-settings-rules"></a>Reglur fyrir sjálfgefnar pöntunarstillingar
 Hægt er að skilgreina almennar sjálfgefnar pantanastillingar og fjölda reglna fyrir sjálfgefna pöntunarstillingar sem eiga aðeins við sérstakar aðstæður, til dæmis svæði eða ákveðna afurðarvídd eða samsetningu afurðarvídda. Ekki er hægt að skilgreina pöntunarstillingar fyrir tiltekna vöruhúsi.
@@ -87,13 +90,13 @@ Sjálfgefnu pöntunarstillingar hafa forgangsröðun. Því hærra vægi í forg
 
 ### <a name="default-order-settings-for-released-products"></a>Sjálfgefnar pöntunarstillingar fyrir útgefnar afurðir
 
-Fyrir einkvæmrar útgefnar afurðir, er hægt að skilgreina almennar pöntunarstillingar eða pöntunarstillingar tiltekinna svæða. Almenn pöntunarstillingar hafa alltaf vægi núll. Ef sett er upp nýjar pöntunarstillingar fyrir sala, innkaup og birgðir á sama tíma, er mælt með því að nota **Upplýsingayfirlit** á í síðunni **Sjálfgefnar pöntunarstillingar **. Til að fara í upplýsingayfirlit er farið í **Valkosti** Aðgerðarúðu &gt;**Síðuna valkosti**&gt;**Breyta skoða**&gt;**Upplýsingayfirlit**.
+Fyrir einkvæmrar útgefnar afurðir, er hægt að skilgreina almennar pöntunarstillingar eða pöntunarstillingar tiltekinna svæða. Almenn pöntunarstillingar hafa alltaf vægi núll. Ef sett er upp nýjar pöntunarstillingar fyrir sala, innkaup og birgðir á sama tíma, er mælt með því að nota **Upplýsingayfirlit** á í síðunni **Sjálfgefnar pöntunarstillingar **. Til að skipta yfir í upplýsingayfirlit, er farið í **Valkosti** Aðgerðarúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **Upplýsingayfirlit**.
 
 ### <a name="site-specific-order-settings"></a>Pöntunarstillingar tengdar svæði
 
-Til að stofna pöntunarstillingar fyrir tiltekin svæði, smelltu á **Nýtt**. Í **Upplýsingayfirlit**, fylla út svæði í á **Stillingar fyrir**&gt;**Svæði** svæði. Í á **hnitanetsyfirlit**, fyllið út í svæðinu á **Svæði** dálkinn. Nýja reglu fær sjálfkrafa nýtt vægi, hærra en núll. Hægt er að stofna eins mörg reglur fyrir tiltekin svæði eftir þörfum og úthluta sama vægi fyrir reglur tiltekinna svæða, og sníða þær þannig að allar séu þær jafngildar. 
+Til að stofna pöntunarstillingar fyrir tiltekin svæði, smelltu á **Nýtt**. Í **Upplýsingayfirlit**, fylla út svæði í á **Stillingum fyrir** &gt; **Svæði** svæðinu. Í á **hnitanetsyfirlit**, fyllið út í svæðinu á **Svæði** dálkinn. Nýja reglu fær sjálfkrafa nýtt vægi, hærra en núll. Hægt er að stofna eins mörg reglur fyrir tiltekin svæði eftir þörfum og úthluta sama vægi fyrir reglur tiltekinna svæða, og sníða þær þannig að allar séu þær jafngildar. 
 
-Ef þú ert í **Upplýsingayfirlit**, er ekki hægt að fá yfirlit yfir reglur sem eru stofnaðar fyrir vöruna. Víxla á **Sýna/Fela lista** hnappinn til að sjá yfirlit yfir upplýsingar. Þegar pöntunarlína af hvaða tagi sem er stofnuð og hefur ekkert svæði er veitt, Dynamics 365 aðgerða leitar reglu með ekkert svæði er tilgreint. Þetta gæti auðveldað ákvörðun á sjálfgefið svæði í pöntunarlínunni. Þetta svæði er síðan notaður til að leita að reglu fyrir tiltekin svæði, þar sem sjálfgefið vöruhús hefur hugsanlega verið stillt. Vöruhús er notaður í pöntunarlínuna.
+Ef þú ert í **Upplýsingayfirlit**, er ekki hægt að fá yfirlit yfir reglur sem eru stofnaðar fyrir vöruna. Víxla á **Sýna/Fela lista** hnappinn til að sjá yfirlit yfir upplýsingar. Þegar pöntunarlína af einhverri gerð er stofnuð og hún er ekki með neitt svæði úthlutað, leitar Dynamics 365 for Operations að reglu sem ekki hefur tiltekið svæði. Þetta gæti auðveldað ákvörðun á sjálfgefið svæði á pöntunarlínu. Þetta svæði er síðan notaður til að leita að reglu fyrir tiltekin svæði, þar sem sjálfgefið vöruhús hefur hugsanlega verið stillt. Vöruhús er notaður í pöntunarlínuna.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Tilteknar Pöntunarstillingar fyrir afurðarvídd
 
@@ -103,8 +106,8 @@ Hægt er að tilgreina sjálfgefnar pantanastillingar sem eiga við allar virkar
 
 |                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
-| **Product name**                                    | Ljósnemi                    |
-| **Item number**                                     | XW56                                    |
+| **Afurðarheiti**                                    | Ljósnemi                    |
+| **Vörunúmer**                                     | XW56                                    |
 | **Skilgreining** (notað til að sníða til gerð ljóss) | C1 Sýnilegt rautt ljós, C2 innrautt ljós |
 | **Stíll** (notað til að sníða til endurskoðun verkfræðinga)  | R1, R2, R3                              |
 
@@ -140,7 +143,7 @@ Reglurnar tvær til að stöðva gömlu endurskoðanirnar hafa sama vægi, sem �
 | 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Kerfið ber saman reglupörin tvisvar til að ákvarða svæði og vöruhús. Þegar innkaupalína er stofnuð fyrir skilgreiningu C1, R2, stíl svæði ákvarðað út frá reglu með vægi 10. Síðan leitar kerfið reglu fyrir svæði 2 til að ákvarða vöruhús. Regla 20 finnst og þar sem hún er með hærra vægi, verður vöruhúss á innkaupapöntunarlína 22, og ekki 21. 
+Kerfið ber saman reglupörin tvisvar til að ákvarða svæði og vöruhús. Þegar innkaupapöntunarlína er stofnuð fyrir skilgreiningu C1, stíl R2, er svæði ákvarðað samkvæmt reglu með vægi 10. Síðan leitar kerfið að regla fyrir svæði 2 til að ákvarða vöruhúss. Regla 20 finnst og þar sem hún er með hærra vægi, verður vöruhúss á innkaupapöntunarlína 22, og ekki 21. 
 
 Sem almenn viðmið, sértækar reglur og reglur fyrir víddir sem eru mikilvægari en aðrar víddir fá hærra vægi, á meðan almennari reglur fá lægra vægi. 
 
@@ -148,7 +151,7 @@ Regla með núll vægi er öryggisnet. Sé ekki svörun frá öðrum reglum, eru
 
 Þar sem númer vægis er svo mikilvægt, eru aðgerðir á aðgerðarúða **Sjálfgefnar pöntunarstillingar ** til að færa reglu upp eða niður og að endurnúmera reglur, svo þær séu alltaf með gildisaukningu 10. 
 
-Reglur sem eru stofnaðar fyrir útgefnar afurðir geta verið margar. Svo hægt sé að ná átta sig betur á hvað hver regla er að hnekkja og til hvers það þarf, mælum við með að nota **hnitanetsyfirlit** á ** Sjálfgefnar pöntunarstillingar** síðuna. Yfirlit launanets er hægt að virkja með því að í **Valkosti** Aðgerðarúðu &gt;**Síðuna valkosti**&gt;**Breyta skoða**&gt;**hnitanetsyfirlit**. Fjöldi dálka í hnitanetinu gætu mjög umfangsmikill, sérstaklega fyrir flipa fyrir sölu og birgða. Til að takmarka fjölda dálka í hnitanetinu, flokka dálka hægt falin eða birtast með því að nota hnappana á í **Sjálfgefnar pöntunarstillingar**&gt;**birting Dálks** valmynd.
+Reglur sem eru stofnaðar fyrir útgefnar afurðir geta verið margar. Svo hægt sé að ná átta sig betur á hvað hver regla er að hnekkja og til hvers það þarf, mælum við með að nota **hnitanetsyfirlit** á ** Sjálfgefnar pöntunarstillingar** síðuna. Hægt að virkja hnitanetsyfirlit með því að fara á **Valkostir** Aðgerðarrúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **hnitanetsyfirlit**. Fjöldi dálka í hnitanetinu gætu mjög umfangsmikill, sérstaklega fyrir flipa fyrir sölu og birgða. Til að takmarka fjölda dálka í hnitanetinu, er hægt að fela flokkar dálka eða birta með því að nota hnappana á **Sjálfgefnar pöntunarstillingar** &gt; **birting Dálka** valmynd.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Tilteknar pöntunarstillingar fyrir útgefin afurðarafbrigði
 
@@ -165,5 +168,7 @@ Ef reglukerfið fyrir sjálfgefnar pöntunarstillingar er of óþjált, þá er 
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Vægi í þessu tilfelli er ekki mikilvægt í raun, þannig að hægt er að velja að fela það. Þessa lausn leiðir mögulega til vandamáls varðandi viðhalds. Hins vegar er gott að viltu íhuga að nota uppsetningu þú ert að íhuga að samþætta við Product Lifecycle Management (PLM)-kerfi.
+
+
 
 

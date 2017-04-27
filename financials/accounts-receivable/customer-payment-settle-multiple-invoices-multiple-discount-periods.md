@@ -1,5 +1,5 @@
 ---
-title: "Greiðsla viðskiptavinar er notuð til að jafna marga reikninga sem ná yfir margar afsláttartímabil"
+title: "Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil"
 description: "Þessi grein sýnir hvernig margir reikningar eru greiddir þegar hver reikningur getur veitt staðgreiðsluafslátt. Dæmin sem gefin eru í greininni varpa ljósi á hvernig staðgreiðsluafsláttur getur verið mismunandi, með hliðsjón af því hvenær greiðslan er gerð."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Greiðsla viðskiptavinar er notuð til að jafna marga reikninga sem ná yfir margar afsláttartímabil
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein sýnir hvernig margir reikningar eru greiddir þegar hver reikningur getur veitt staðgreiðsluafslátt. Dæmin sem gefin eru í greininni varpa ljósi á hvernig staðgreiðsluafsláttur getur verið mismunandi, með hliðsjón af því hvenær greiðslan er gerð.
 
-Fabrikam selur vörurnar 4032 viðskiptavinar. Fabrikam býður upp á 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur á 14 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Færibreytur settement eru staðsett á **Færibreytur viðskiptakrafna** síðu.
+Fabrikam selur vörurn til 4032 viðskiptavina. Fabrikam býður 1 prósent afslátt ef reikningurinn er greiddur innan 14 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="invoices"></a>Reikningar
 viðskiptavinur 4032 er með þrjá reikninga uppá samtals 3.000,00:
 
--   Reikningur MEÐ-10040, fyrir 1000,00, var fært inn þann 15 Maí. Þessi reikningur er hæf til um 1 prósent staðgreiðsluafslátt ef hún er greidd í 14 daga.
--   Reikningur MEÐ-10041, fyrir 1000,00, var fært inn á 25. Júní. Þessi reikningur er hæf til um 1 prósent staðgreiðsluafslátt ef hún er greidd í 14 daga.
--   Reikningur MEÐ-10042, fyrir 1000,00, var fært inn á 25. Júní. Þessi reikningur er hæf til 2 prósent staðgreiðsluafslátt ef hún er greidd í fimm daga- og afsláttarupplýsingar um 1 prósent ef hún er greidd í 14 daga.
+-   Reikningur með frjálsum texta reikningur FTI-10040, fyrir 1.000,00, var fært inn þann 15. maí. Þessi reikningur er hæf til um staðgreiðsluafslátt uppá 1 prósent ef hún er greidd innan 14 daga.
+-   Reikningur með frjálsum texta reikningur FTI-10041, fyrir 1.000,00, var fært inn þann 25. júní. Þessi reikningur er hæf til um staðgreiðsluafslátt uppá 1 prósent ef hún er greidd innan 14 daga.
+-   Reikningur með frjálsum texta reikningur FTI-10042, fyrir 1.000,00, var fært inn þann 25. júní. Þessi reikningur er hæf til um staðgreiðsluafslátt uppá 2 prósent ef borgað innan fimm daga og afslátt uppá 1 prósent ef hún er greidd innan 14 daga.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Jafna alla reikninga 29. júní
 Ef Arnie stofnar greiðslubók til að jafna að fullu þessar reikninga á 29. júní, er greiðslan 2.970,00. Samtala allra afsláttarupphæða er 30,00. Arnie stofnar greiðslu fyrir viðskiptavin 4032 og opnar svo **Jafna færslur** síðuna. Á **Jafna færslur** síðunni merkir Arnie allar þrjár reikningslínur fyrir jöfnun:
@@ -76,7 +79,7 @@ viðskiptavinurinn 4032 getur greitt hluta af upphæð eins og helming hvers rei
 | Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie hægt að færa handvirkt greiðsluupphæðin 1,485.00 áður en hann opnar fyrir **Jafna færslur** síðu. Ef Arnie færir greiðsluupphæðin handvirkt og þá merkir allar færslur á þremur en hann ekki að leiðrétta gildið í á **Upphæðin til jöfnunar** svæði fyrir hverja færslu hann fær eftirfarandi skilaboð þegar hann lokar síðan:
+Arnie getur einnig færa handvirkt greiðsluupphæð 1,485.00 áður en hann opnar fyrir **Jafna færslur** síðu. Ef Arnie færir greiðsluupphæðina handvirkt og merkir síðan allar færslur þrjár en hann leiðrétta ekki að gildið í **Upphæðin til jöfnunar** svæði fyrir hverja færslu hann fær eftirfarandi skilaboð þegar hann lokar síðu:
 
 > Heildarupphæð merktra færslna er ekki sú sama og færslubókarupphæð. Á að breyta færslubók upphæð?
 
@@ -95,6 +98,8 @@ April getur skoðað upplýsingar á síðunni **viðskiptavinarfærslur**.
 | FTI-10042  | Reikningur          | 6/25/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
 | ARP 10040  | Greiðsla          | 6/29/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
 | DISC-10040 | Staðgreiðsluafsláttur    | 6/29/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

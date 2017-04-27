@@ -42,10 +42,10 @@ Síðast inn, Fyrst út  dagsetning (lifo-Dagsetning) er birgðalíkan sem byggi
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
--   4a. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
+-   4b. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
 -   5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
 -   6. Birgðalokun er framkvæmd. Á grundvelli LIFO dagsetningaraðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð gagnvart fyrstu fjárhagslega uppfærðu innhreyfingunni samkvæmt dagsetningu. Leiðrétting upp á 5,00 USD er gerð á úthreyfingarfærslunni. Þessar færslur verða jafnaðar með hver annarri.
@@ -55,24 +55,24 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 -   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða neðan) hverja lóðrétta virði birgðafærslu er tilgreint á sniðinuQuantity@Unitprice.
+-   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 -   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 -   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 -   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+-   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 -   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO-dagsetning með valkostinum Taka efnislegt virði með
-Hægt er að velja gátreit **Taka efnislegt virði með** fyrir vöru í skjámyndinni **vörulíkanaflokkur**. Í þessu tilfelli, notar kerfið bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út hlaupandi meðaltal kostnaðarverðs. Kerfið gerir líka breytingar á uppfærðum úthreyfingafærslum, þar sem við á. Þegar reiturinn **Taka með efnislegt virði** er hreinsaður, gerir birgðalokun sem notar LIFO-dagsetningarbirgðalíkani aðeins gera jafnanir á færslum sem eru fjárhagslega uppfærðar. Í þessu dæmi, er birgðalíkanaflokkurinn merktur til að innihalda efnislega virðið. Eftirfarandi skýringarmynd sýnir þessar færslur:
+Hægt er að velja gátreit **Taka efnislegt virði með** fyrir vöru í skjámyndinni **vörulíkanaflokkur**. Í þessi tilfelli notar kerfið bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út meðalkostnaðarverðið. Kerfið gerir líka breytingar á uppfærðum úthreyfingafærslum, þar sem við á. Þegar reiturinn **Taka með efnislegt virði** er hreinsaður, gerir birgðalokun sem notar LIFO-dagsetningarbirgðalíkani aðeins gera jafnanir á færslum sem eru fjárhagslega uppfærðar. Í þessu dæmi, er birgðalíkanaflokkurinn merktur til að innihalda efnislega virðið. Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
--   4a. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
+-   4b. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
 -   5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
 -   6. Birgðalokun er framkvæmd. Á grundvelli LIFO dagsetningaraðferðarinnar, verður síðasta uppfærða úthreyfingin leiðrétt eða jöfnuð gagnvart síðustu uppfærðu innhreyfingunni samkvæmt dagsetningu. Þessar færslur verða ekki jafnaðar við hvor aðra þar sem fjárhagslegu innhreyfingarfærslunni er jafnað í efnislega uppfærða færslu. Í stað þess, aðeins Leiðrétting upp á 6,67 USD er gerð á úthreyfingarfærslunni.
@@ -82,21 +82,21 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 -   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða neðan) hverja lóðrétta virði birgðafærslu er tilgreint á sniðinuQuantity@Unitprice.
+-   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 -   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 -   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 -   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+-   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 -   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-date-with-marking"></a>LIFO-dagsetning með merkingu
-Merking er sem gerir það mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar þú vilt vera viss um að nákvæmur kostnaður birgðanna þegar færsla er bókuð eða birgðalokun er framkvæmd. til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptavini. Þar sem þessi pöntun er flýtipöntun þarf að greiða meira fyrir vöruna til þess að geta uppfyllt beiðni viðskiptavinarins. Þá er nauðsynlegt að vera viss um að kostnaðurinn við þessa birgðavöru endurspeglist í framlegð, eða kostnaði seldra vara (COGS) á þessum sölupöntunarreikningi. Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef þetta skjal sölupöntunar er merkt við innkaupspöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, er kostnaður seldra VARA 120,00 USD, en ekki núverandi meðaltal kostnaðar vörunnar. Ef að fylgiseðill sölupöntunarinnar eða reikningur er bókaður áður en merking á sér stað, mun kostnaður seldra vara verða bókaður á meðalkostnaðarverði. Áður en birgðalokun er framkvæmd er hægt að merkja þessar tvær færslur, hvora fyrir aðra. Til dæmis, Innhreyfingarfærsla er merkt við úthreyfingarfærslu. Í þessu tilfelli, er matsaðferðin sem skilgreind er í vörulíkanaflokki vörunnar er hunsuð og kerfið jafnar færslurnar saman. Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni**Merking**. Einnig er Hægt að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók. Eftirfarandi skýringarmynd sýnir þessar færslur:
+Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar þú vilt vera viss um að nákvæmur kostnaður birgðanna þegar færsla er bókuð eða birgðalokun er framkvæmd. til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptavini. Þar sem þessi pöntun er flýtipöntun þarf að greiða meira fyrir vöruna til þess að geta uppfyllt beiðni viðskiptavinarins. Þá er nauðsynlegt að vera viss um að kostnaðurinn við þessa birgðavöru endurspeglist í framlegð, eða kostnaði seldra vara (COGS) á þessum sölupöntunarreikningi. Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef þetta skjal sölupöntunar er merkt við innkaupspöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, er kostnaður seldra VARA 120,00 USD, en ekki núverandi meðaltal kostnaðar vörunnar. Ef að fylgiseðill sölupöntunarinnar eða reikningur er bókaður áður en merking á sér stað, mun kostnaður seldra vara verða bókaður á meðalkostnaðarverði. Áður en birgðalokun er framkvæmd er hægt að merkja þessar tvær færslur, hvora fyrir aðra. Til dæmis, Innhreyfingarfærsla er merkt við úthreyfingarfærslu. Í þessu tilfelli, villuleitaraðferðarinnar sem var skilgreind í vörulíkanaflokk vöru er hunsuð, og kerfið jafnar þessar færslur hverja við aðra. Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni**Merking**. Einnig er Hægt að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók. Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
@@ -110,11 +110,11 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 -   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða neðan) hverja lóðrétta virði birgðafærslu er tilgreint á sniðinuQuantity@Unitprice.
+-   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 -   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 -   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 -   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+-   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 -   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 

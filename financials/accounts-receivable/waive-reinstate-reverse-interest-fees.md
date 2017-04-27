@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Fella niður, endurskipa eða bakfæra vaxtagjöld
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig skal fella niður, endurskipa, og bakfæra gjald fyrir vextir og gjöld.
 
 Hægt er að nota hnappana í **Sækja**flipanum á **Allir viðskiptavinir** listasíðu til að fella niður, bakfæra eða virkja gjöld:
@@ -43,7 +46,7 @@ Allar þessar aðgerðir breyta vaxtanótu. Vaxtanóta er viðskiptaskjal sem ti
 | Bakfæra heilar vaxtanótur. -eða- Bakfæra valdar vaxtafærslur sem eru hluti af vaxtanótum. **Athugið:** Ekki er hægt að bakfæra þóknun. Hins vegar er hægt að bakfæra heila vaxtanótu sem inniheldur þóknun. | Gjöldin eru ekki lengur á gjalddaga frá viðskiptamanni. Hins vegar gjaldfalla gjöld aftur ef vextir eru endurreiknaðir. | Ferlið er það sama og við niðurfellingu vaxtanóta eða valdar vaxtafærslur. Kreditnóta eða leiðréttingarreikningur eru stofnuð fyrir viðskiptavininn. Þessi kreditnóta er notuð til að jafna sjálfkrafa vaxtanótuna. Hægt er að nota aðskilið ferli til að endurreikna vexti og stofna nýja vaxtanótu.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Einnig er hægt að nota aðskilinn ferli til að afskrifa skuldir gallað. Þetta ferli merkir allar viðskiptavinafærslur til jöfnunar í stað þess að fella aðeins niður gjöld sem eru hluti af vaxtanótum.
+> Einnig er hægt að nota aðskilið ferli til að afskrifa lélegar skuldir. Þetta ferli merkir allar viðskiptavinafærslur til jöfnunar í stað þess að fella aðeins niður gjöld sem eru hluti af vaxtanótum.
 
 ## <a name="adjust-interest-for-invoices"></a>Leiðrétta vexti fyrir reikninga
 Auk þess að leiðrétta vaxtanótur, er hægt að fjarlægja°vaxtagjöld á reikningum með því að°nota eitt af eftirfarandi ferlum. Bæði ferlin gera einnig leiðréttingar á tengdum vaxtanótum.
@@ -89,5 +92,7 @@ Hægt er að bakfæra vaxtanótur með því að°nota **vaxtanótu** hnappinn �
 Hægt er að skoða nákvæma sögu leiðréttinga sem gerðar voru fyrir vaxtanótur, eins og notandann sem stofnaði leiðréttinguna, gerð leiðréttingar, upphæðina, og hvenær leiðrétting var færð inn. Til dæmis gæti þurft að skoða fyrri leiðréttingar sem voru færðar inn fyrir vaxtanótu áður en ný vaxtanóta er stofnuð. 
 
 Hægt er að bakfæra vaxtanótur með því að nota°**Saga** hnappinn í **Safna** flipanum á **Viðskiptavinar** síðu.
+
+
 
 

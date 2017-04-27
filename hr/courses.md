@@ -1,5 +1,5 @@
 ---
-title: "Setja upp námskeið"
+title: "Uppsetning námskeiða"
 description: "Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Setja upp námskeið
+# <a name="set-up-training-courses"></a>Uppsetning námskeiða
+
+[!include[banner](includes/banner.md)]
+
 
 Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
 
@@ -85,7 +88,7 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 -   Mæla með hótelum fyrir þátttakendur námskeiðs.
 -   Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna
 
-  >**Athugasemd** Er hægt að eyða námskeið ef enginn hefur skráð á hana. 
+  >**Athugasemd** Aðeins er hægt að eyða námskeiði ef enginn hefur skráð sig á það. 
     
 ## <a name="course-statuses"></a>Stöður námskeiðs
 Í eftirfarandi töflu er listi yfir stöður mögulegar námskeiðs og aðgerðir sem hægt er að ljúka við námskeið sem hefur tiltekna stöðu.
@@ -132,7 +135,9 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 <a name="workflow"></a>Verkflæði
 --------
 
-Starfsmenn sem skrá á námskeið gegnum í **Starfsmanns sjálfsafgreiðsla** síðu geta verið með skráningu beint í gegnum verkflæði fyrir samþykki.  Hægt er að úthluta verkflæði fyrir námskeið á í **Almennt** FastTab á í **Námskeið** síðu.
+Starfsmenn sem skrá sig á námskeið gegnum í **Starfsmanns sjálfsafgreiðsla** síðu geta verið með skráningu beint í gegnum verkflæði fyrir samþykki.  Hægt er að úthluta verkflæði fyrir námskeið í **Almennt** flýtiflipa á síðunni **Námskeið**.
+
+
 
 
 

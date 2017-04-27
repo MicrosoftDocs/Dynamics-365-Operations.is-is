@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics AX. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 
 <a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
@@ -48,7 +51,7 @@ Hægt er að breyta dagsetningu skýrslunnar, nota síur fyrir vídd og eigind e
 
 -   Til að Breyta grunntímabilið og grunnári skýrslu, veljið grunntímabil og grunnár, og smella síðan á **í lagi**.
 -   Til að nota síur fyrir eigind á skýrslu, veljið **bæta Við eigindarsíu**. Velja skal eigindina, færið inn eigindargildi og smellið **í lagi**. Til dæmis, ef þú velur **Lykiltegund** eigindinni skal færa inn **VSK** sem eigindargildi. Til að fjarlægja eigindarsíu er smellt á **Hreinsa**.
--   Til að nota síur vídd skýrslu, veljið **bæta Við síu vídd**. Velja víddina, og svo annað hvort gerð Færsluauðkennið eða velja víddina í lista. Til að fjarlægja víddarsíu er smellt á **Hreinsa**.
+-   Til að nota víddarafmörkun á skýrslu, veljið **Bæta við víddarsíu**. Velja víddina, og svo annað hvort færið inn víddarauðkenni eða velja víddina í lista. Til að fjarlægja víddarsíu er smellt á **Hreinsa**.
 -   Til að breyta aðstæðunum á **Raun eða fjárhagsáætlun** skýrslu, veljið nýjar aðstæður og smellið **í lagi**. Ef valdar aðstæður eru fyrir annað ár gætið þess að uppfæra grunnár. Til dæmis, ef núverandi aðstæður eru FY2015 og þú velur nýjar aðstæður sem er fyrir FY2016, skal breyta grunnárið í **2016**.
 
 Þegar smellt er á **í lagi**, eru alla valkosti sem valin var beitt á skýrslunni. Ef ákveðið er að ekki á að nota valda valkostir er smellt á **hætta Við**.
@@ -85,5 +88,7 @@ Til að flytja út fjárhagsskýrslu, á Aðgerðasvæðinu skal smellt á **Bir
 --------
 
 [Fjárhagsskýrslur fyrir Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

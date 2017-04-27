@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Loka viðskiptakröfum
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Í eftirfarandi töflu er listi yfir síður sem styðja viðskiptaferlið Loka viðskiptakröfum
 
 > [!NOTE] 
-> Til að opna sumar síður í töflu, verður að færa inn upplýsingar eða tilgreina stillingum færibreyta.
+> Til að opna sumar síðurnar í eftirfarandi töflu verður að færa inn upplýsingar eða tilgreina færibreytustillingar.
 
-**Verkþáttur viðskiptaferlis**                   
+**Skjámyndin Merki þátta viðskiptaferlis**                   
 
 Lokun tímabila í fjárhag
 
@@ -43,21 +46,23 @@ Lokun tímabila í fjárhag
 |Staðfesta sölupöntun                   | Uppfæra sölupantanir                                                                       |
 |Endurmat á erlendum gjaldmiðli          | Mynda færslur sem uppfæra gildi opinna viðskiptavinafærslna í erlendum gjaldmiðlum.                                                                                                                         |
 | Færslubók                              | Bóka reikninga, greiðslur og  eigin víxla.                                             |
-| Færslubókarfylgiskjal                      | -   **Payment journal** – Generate, process, and post payments.
+| Færslubókarfylgiskjal                      | -   **Greiðslubók** – Mynda, vinna úr og bóka greiðslur.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Bókun fylgiseðils | Uppfæra fylgiseðla fyrir sölupantanir.                                                     | | Bóka textareikning | Bóka reikninga með frjálsum texta.                                                                   | | Bókun reiknings | Bóka reikninga fyrir sölupantanir.                                                            | | Bókun tiltektarlista | Uppfæra tiltektarlista fyrir sölupantanir.                                                      |
+| Bókun fylgiseðils                 | Uppfæra fylgiseðla fyrir sölupantanir.                                                     | | Bóka reikning með frjálsum texta               | Bóka reikninga með frjálsum texta.                                                                   | | Bókun reiknings                      | Bóka reikninga fyrir sölupantanir.                                                            | | Bókun tiltektarlista                 |Uppfæra tiltektarlista fyrir sölupantanir.                                                      |
 
-**Verkþáttur viðskiptaferlis**   
+**Skjámyndin Merki þátta viðskiptaferlis**   
 
 Stofna og senda ársfjórðungslegan ESB-sölulista
 
 | Heiti síðu                            | Notkun                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |ESB-sölulisti                         | Skýrsla um sölu Innan Evrópusambandsins (ESB) til skattyfirvalda vegna skýrslu bókargerðir virðisaukaskattsins (VSK).                                                                                                                           |
+
+
 
 
 

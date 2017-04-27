@@ -1,6 +1,6 @@
 ---
 title: "Skráning fyrir framkvæmd framleiðslu"
-description: "Þessi efnisliður grundvallarhugtök og sem þarf til að skilja að skilgreina og nota framkvæmdarferli framleiðslu."
+description: "Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Skráning fyrir framkvæmd framleiðslu
 
-Þessi efnisliður grundvallarhugtök og sem þarf til að skilja að skilgreina og nota framkvæmdarferli framleiðslu. 
+[!include[banner](../includes/banner.md)]
 
-Framkvæmd framleiðslu er fyrst og fremst ætlað að vera notuð af framleiðslufyrirtækjum. Starfsmenn geta skráð tíma og vörunotkun í framleiðsluvinnslu með því að nota síðuna **Starfsskráning**. Allar skráningar eru samþykktar og eru síðar færðar í viðeigandi kerfi. Samfelld samþykkt og flutningur skráninga gefa stjórnendum kleift að rekja auðveldlega raunkostnað í framleiðslupöntunum.
+
+Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu. 
+
+Framkvæmd framleiðslu er fyrst og fremst ætlað að vera notuð af framleiðslufyrirtækjum. Starfsmenn geta skráð tíma og vörunotkun í framleiðsluvinnslu með því að nota síðuna **Starfsskráning**. Allar skráningar eru samþykktar og síðan fluttar í viðkomandi einingar. Samfelld samþykkt og flutningur skráninga gefa stjórnendum kleift að rekja auðveldlega raunkostnað í framleiðslupöntunum.
 
 ## <a name="manufacturing-execution-and-registration-terminology"></a>Framkvæmd og skráning framleiðslu, orðalisti
 Eftirfarandi tafla inniheldur hugtök sem tengjast framkvæmd framleiðslu og tengd skráningarverkefni.
@@ -51,12 +54,14 @@ Starfsmenn geta gert ýmsar gerðir af skráningum í framleiðsluframkvæmd fyr
 -   **Skrá í framleiðsluvinnslur** - Starfsmaður getur gert skráningar, eins og vinnsla er ræst og skýrslusvörun vegna verks við framleiðsluvinnslur sem eru birtar í vinnslulista hans. Starfsmenn geta ræst nokkrar vinnslur samtímis. Vísað er í þetta sem vinnslusamtvinnun.
 -   **Skrá í birgðum** - Starfsmenn geta gert skráningar á efni sem er notað í vinnslusal en°sem eru ekki tengd beint við framleiðsluverk. Dæmi eru feiti, smurefni eða önnur efni notuð til að halda vélum í gangi. Skráning er gerð í birgðabók.
 -   **Skrá verk** (tiltækt í Tími og viðvera) - Starfsmenn geta gert skráningar, eins og upphaf og lok vinnu á verk eða verkþætti sem birtast í vinnslulista þeirra.
--   **Skrá verkgjöld og verkatriði** (tiltækur tími og mæting)-Starfsmenn geta skráð þóknanir (útgjöld) sem eru tengdar við verk í þóknanabókarverk, eins og akstur og á við tolli. Starfsmenn geta einnig skráð notkun vara í verkum. Þetta er framkvæmt í vörubók verks.
+-   **Skrá verkgjöld og verkatriði** (tiltækt í Tími og viðvera) - Starfsmenn geta skráð þóknanir (útgjöld) sem eru tengdar við verk í verkþóknunarbók, eins og akstur og brúartolla. Starfsmenn geta einnig skráð notkun vara í verkum. Þetta er framkvæmt í vörubók verks.
 -   **Skrá sig sem aðstoðarmann annars starfsmanns**Ef tveir eða fleiri starfsmenn vinna saman framleiðsluvinnslu eða verk, getur starfsmaður skráð sig sem aðstoðarmaður vélar eða annars starfsmanns sem mun þá vera eins og verkefnisstjórinn. Ef þörf krefur, getur verkefnisstjóri valið annan starfsmann sem verkefnisstjóra.
 -   **Skrá fjarvist** (tiltækt í Tími og viðvera) - Starfsmenn geta skráð tíma á mismunandi fjarvistarkóða sem eru settir upp. Það er hægt að gefa til kynna°fjarvist ef starfsmaður kemur of seint, þarf fjarveru á vinnudegi, eða fer fyrr en búist er við í samræmi við staðlaðar forstillingar vinnutíma.
 -   **Skrá hlé** (tiltækt í Tími og viðvera) - Yfir vinnudaginn geta starfsmenn skráð ef þeir yfirgefa vinnustöð sína til að taka sér hlé. Setja má upp ýmsar gerðir hlé. Þegar starfsmaðurinn kemur og skráir sig aftur, skráir kerfið að starfsmaðurinn er kominn aftur og stöðvar skráningu vinnuhléa.
 -   **Skrá óbeina verkþætti** (tiltækt í Tími og viðvera) –°Óbeinir verkþættir eru framleiðslulausir verkþættir sem starfsmenn gætu sinnt yfir vinnudaginn, eins og deildarfundur, hópfundur eða viðhaldsverk sem fer fram í vinnslusal. Starfsmenn geta gert skráningar á óbeina verkþætti sem eru settir upp.
 -   **Skrá yfirvinnu** (tiltækt í Tími og viðvera) -°Starfsmenn sem hafa verið beðnir að vinna lengri vinnudag°geta valið hvort á að skrá aukavinnuna sem sveigjanlegan vinnutíma eða yfirvinnu.
+
+
 
 
 

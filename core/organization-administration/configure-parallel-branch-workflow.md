@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina samhliða grein í verkflæði"
+title: "Grunnstilla samhliða grein í verkflæði"
 description: "Til að skilgreina samhliða grein, Ljúka eftirfarandi aðgerðum í verkflæðisritill."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Skilgreina samhliða grein í verkflæði
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Grunnstilla samhliða grein í verkflæði
+
+[!include[banner](../includes/banner.md)]
+
 
 Til að skilgreina samhliða grein, Ljúka eftirfarandi aðgerðum í verkflæðisritill.
 
@@ -32,7 +35,7 @@ Samhliða grein er í grunninn verkflæði sem keyrir í samhengi við yfirstig 
 
 ## <a name="name-a-branch"></a>Nefna grein
 Fylgið þessum skrefum til að færa inn heiti á samhliða grein.
-1.  Hægrismellið á samhliða grein og smellið síðan á **Eiginleika**. Í **Eiginleika** birtist.
+1.  Hægrismellið á hnappinn og smellið síðan á **Eiginleikar**. Skjámyndin **eiginleikar** birtist.
 2.  Í vinstri glugganum, smelltu á **grunnstillingar**.
 3.  Á svæðinu **Heiti **skal færa inn einkvæmt heiti fyrir samhliða grein.
 4.  Smellið á **Loka**.
@@ -40,7 +43,7 @@ Fylgið þessum skrefum til að færa inn heiti á samhliða grein.
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Hönnun og skilgreina einingarnar greinar
 Fylgdu þessum skrefum til að hanna og skilgreina einingarnar samhliða greinar
 1.  Tvísmellið á samhliða grein.
-2.  Dragið verkflæðiseiningar yfir á striga, og skilgreinið einingar, rétt eins og þú myndi stofna önnur verkflæði. Nánari upplýsingar, sjá Stofna verkflæði.
+2.  Dragið verkflæðiseiningar yfir á striga, og skilgreinið einingar, rétt eins og þú myndi stofna önnur verkflæði. Nánari upplýsingar sjá stofna verkflæði.
 
 
 
@@ -48,5 +51,7 @@ Fylgdu þessum skrefum til að hanna og skilgreina einingarnar samhliða greinar
 --------
 
 [Stofna verkflæði](create-workflow.md)
+
+
 
 

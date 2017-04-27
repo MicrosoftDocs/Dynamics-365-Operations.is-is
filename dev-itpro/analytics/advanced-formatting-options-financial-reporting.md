@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
+[!include[banner](../includes/banner.md)]
+
+
 Þegar skýrsla er stofnuð í fjárhagsskýrslu, eru tiætækar aukalegar aðgerðir fyrir snið, þar með talið síur fyrir víddir, takmarkanir fyrir dálka og eining skipurits, línur sem ekki á að prenta og IF/THEN/ELSE-yrðingar í útreikningum. 
 
 Eftirfarandi tafla útskýrir aðgerðir fyrir ítarleg snið sem eru tiltækar við skýrsluhönnun.
@@ -54,7 +57,7 @@ Eftirfarandi tafla útskýrir aðgerðir fyrir ítarleg snið sem eru tiltækar 
 2.  Á flipanum **Stillingar** undir **Útreikningsforgangur**, velurðu **Framkvæma dálkaútreikning fyrsta og síðan línuna**.
 
 ## <a name="designing-the-report"></a>Hönnun skýrslunnar
-Við hönnun skýrslu skal fyrst stofna allar ítarupplýsingalínur til að tryggja að gildin séu tekin inn í þeirri röð sem vænta má . Svo skal bæta við **NP** (engin prentun) sniðhnekkingu til að fela ítarupplýsingarnar sem innihalda lokagildin. **Mikilvægt:** Þegar sniðkóðinn **CAL** er notaður í línuskilgreiningu er ekki hægt að kafa niður í ítarupplýsingar um færslu. Fyrir þannig að, formúlur notaðu eftirfarandi snið: &lt;ákvörðunarstað dálks&gt;=&lt;upprunninn dálkur&gt;. &lt;línunni kóða&gt; Aðskilja hvaða placements viðbótarupplýsingar fyrir línuna með kommu og bil. Hér er dæmi: D=C.190,E=C.100
+Við hönnun skýrslu skal fyrst stofna allar ítarupplýsingalínur til að tryggja að gildin séu tekin inn í þeirri röð sem vænta má . Svo skal bæta við **NP** (engin prentun) sniðhnekkingu til að fela ítarupplýsingarnar sem innihalda lokagildin. **Mikilvægt:** Þegar sniðkóðinn **CAL** er notaður í línuskilgreiningu er ekki hægt að kafa niður í ítarupplýsingar um færslu. Fyrir þvingun nota formúlur eftirfarandi snið: &lt;viðtökudálkur&gt;=&lt;upprunadálkur&gt;.&lt;línukóði&gt; Aðskilja allar viðbótarstaðsetningar eftir línu með kommu og bili. Hér er dæmi: D=C.190,E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Dæmi um ítarlega sniðsvalkosti
 Eftirfarandi dæmi sýna hvernig á að sníða línuskilgreiningu og skilgreiningu dálks til að þvinga fram grunnskýrslu um sjóðstreymi (dæmi 1) og tölfræðiskýrslu (dæmi 2).
@@ -65,7 +68,7 @@ Eftirfarandi tafla sýnir dæmi um línuskilgreiningu sem notar grunnþvingun.
 
 | Línukóði | Lýsing                      | Sniðkóði | Tengdar formúlur/línur/einingar | Hnekkja sniði | Eðlileg staða | Prentstýringar | Dálktakmörkun | Línubreyting               | Tengill í fjárhagsvíddir |
 |----------|----------------------------------|-------------|-----------------------------|-----------------|----------------|---------------|--------------------|----------------------------|------------------------------|
-| 10.000      | Lausafé við upphaf tímabils (NP) |             |                             |                 |                |               |                    | Lykill Breyti = \[/BB\] | + Segment2 = \[1100\]         |
+| 10.000      | Lausafé við upphaf tímabils (NP) |             |                             |                 |                |               |                    | Breyting á reikningi = \[/BB\] | +Segment2 = \[1100\]         |
 | 130      | Reiðufé í upphafi tímabils      | CAL         | C=C.100,F=D.100             |                 |                |               |                    |                            |                              |
 | 160      |                                  |             |                             |                 |                |               |                    |                            |                              |
 | 190      |                                  |             |                             |                 |                |               |                    |                            |                              |
@@ -95,8 +98,8 @@ Eftirfarandi tafla sýnir dæmi um línuskilgreiningu sem notar þvingun fyrir t
 | 10.000      | Starfsmannafjöldi - US            | CAL         | 4                               | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 115      | Starfsmannafjöldi - Alþjóðlegt | CAL         | 11                              | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 130      |                           |             |                                 |                      |                |               |                    |              |                                            |
-| 190      | Bandarísk sala                  |             |                                 |                      | K              |               |                    |              | + Segment2 = \[41\*\], Segment3 = \[00\]    |
-| 220      | Alþjóðleg sala       |             |                                 |                      | K              |               |                    |              | + Segment2 = \[41\*\], Segment3 = \[01:99\] |
+| 190      | Bandarísk sala                  |             |                                 |                      | K              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[00\]    |
+| 220      | Alþjóðleg sala       |             |                                 |                      | K              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[01:99\] |
 | 250      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 280      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 310      | Bandarísk sala                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |               |                    |              |                                            |
@@ -171,11 +174,11 @@ Hólfið **Dálktakmörkun** í línuskilgreiningu hefur margvíslegan tilgang. 
 -   Hólfið getur tilgreint upphæðadálkinn sem á að raða.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Útreikningsformúla notuð í línuskilgreiningu
-Geta útreikningsformúlu í skilgreiningu línu er **+**, **-**, **\***, og **/**reikningstákn og einnig **SÍÐAN/EF/ELSE** yrðingar. Þar að auki getur útreikningur varðað einstök hólf og raunupphæðir (rauntölur sem hafðar eru í formúlunni). Hver formúla getur innihaldið allt að 1.024 stafi. Ekki er hægt að beita útreikningum á línur sem innihalda hólf af tegundinni **Tengill í fjárhagsvíddir** (FD). Hins vegar er hægt að taka með útreikninga á samfelldar línur, fela prentun þessara lína og finna síðan samtölu þessara útreikningslína.
+Reikniformúla í línuskilgreiningu getur innihaldið reiknimerkin **+**, **-**, **\***, og **/** og einnig **IF/THEN/ELSE**-yrðingar. Þar að auki getur útreikningur varðað einstök hólf og raunupphæðir (rauntölur sem hafðar eru í formúlunni). Hver formúla getur innihaldið allt að 1.024 stafi. Ekki er hægt að beita útreikningum á línur sem innihalda hólf af tegundinni **Tengill í fjárhagsvíddir** (FD). Hins vegar er hægt að taka með útreikninga á samfelldar línur, fela prentun þessara lína og finna síðan samtölu þessara útreikningslína.
 
 ### <a name="operators-in-a-calculation-formula"></a>Virkjar í reikniformúlu
 
-Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vegar hægt að nota í **\***og **/**notendur með frekari aðgerðir til að margfalda (\*) og deila (/) upphæðir. Til að nota svið eða samtölu í reikniformúlu verður að nota á-merkið (@) framan við alla línukóða, nema verið sé að nota dálk í línuskilgreiningunni. Til dæmis til að bæta upphæð í línu 100 upphæðin í línu 330, hægt er að nota formúlu línu samtals **100 + 330** eða útreikningsjafna **@100+@330**. **Athugið:**Nota verður á-merkið (@) á undan hverjum línukóða sem notaður er í reikniformúlu. Annars er talan lesin sem raunupphæð. Til dæmis formúlu **@100+330** bætir USD 330 upphæð á röð 100. Þegar vísað er til dálks í reikniformúlu er ekki þörf fyrir á-merkið (@).
+Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vegar hægt að nota reiknimerkin **\*** og **/** ásamt frekari reiknimerkjum til að margfalda (\*) og deila (/) upphæðum. Til að nota svið eða samtölu í reikniformúlu verður að nota á-merkið (@) framan við alla línukóða, nema verið sé að nota dálk í línuskilgreiningunni. Ef til dæmis á að bæta upphæðinni í röð 100 við upphæðina í röð 330 er hægt að nota formúlu fyrir línusamtölu **100+330**, eða reikniformúluna **@100+@330**. **Athugið:**Nota verður á-merkið (@) á undan hverjum línukóða sem notaður er í reikniformúlu. Annars er talan lesin sem raunupphæð. Til dæmis bætir reikniformúlan **@100+330** 330 USD við upphæðina í línu 100. Þegar vísað er til dálks í reikniformúlu er ekki þörf fyrir á-merkið (@).
 
 ### <a name="create-a-calculation-formula"></a>Reikniformúla stofnuð
 
@@ -185,15 +188,15 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Dæmi um útreikningsformúlu fyrir tilteknar línur
 
-Í þessu dæmi, útreikningsjöfnu **@100+@330** þýðir upphæð í línu á 100 er bætt við upphæð í línu 330. Heildarupphæð línu formúlunnar **340 + 370** bætir upphæð 340 línu í upphæð á línunni 370. (Upphæð línu 370 er upphæðina frá útreikningur formúlu.)
+Í þessu dæmi merkir reikniformúlan **@100+@330** að upphæðin í línu 100 er bætt við línu 330. Formúlan fyrir línusamtölu **340+370** bætir upphæðinni í línu 340 við upphæðina í línu 370, sem inniheldur upphæðina úr reikniformúlunni. (Línupphæðin í línu 370 er upphæðin úr reikniformúlunni.)
 
 | Línukóði | Lýsing                 | Sniðkóði | Tengdar formúlur/línur/eining | Prentstýringar | Línubreyting | Tengill í fjárhagsvíddir |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Reiðufé í upphafi tímabils |             |                            | NP            | BB           | + Lykil =\[1100:1110\]       |
+| 340      | Reiðufé í upphafi tímabils |             |                            | NP            | BB           | +Reikningur=\[1100:1110\]       |
 | 370      | Reiðufé í upphafi árs   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Reiðufé í upphafi tímabils | TOT         | 340+370                    |               |              |                              |
 
-Þegar línu í línuskilgreiningu er með sniðkóðann **CAL**, og notandi færir inn reikniformúlu í hólfið **Tengdar formúlur/línur/einingar** verður einnig að færa inn staf tengda dálksins og línunnar í skýrslunni. Til dæmis inn **A.120** til að tákna dálkur A, 120 línunni. Einnig er hægt að nota á við formerki (@) til að tilgreina allra dálka. Til dæmis inn **@120**alla dálka í línu 120 stendur. Stærðfræðilega útreiknings sem hefur ekki dálkinn bréf eða á formerki (@) er ætlað að vera rauntala. **Athugasemd:** Ef kóði merki línu er notuð til að vísa í línu verður að nota tímabil (.) sem skiltákn milli dálkur bréf og merkið (til dæmis **A.GROSS\_MARGIN/A.SALES**). Ef nota á við formerki (@), skiltákn er ekki krafist (t.d. **@GROSS\_MARGIN/@SALES**).
+Þegar línu í línuskilgreiningu er með sniðkóðann **CAL**, og notandi færir inn reikniformúlu í hólfið **Tengdar formúlur/línur/einingar** verður einnig að færa inn staf tengda dálksins og línunnar í skýrslunni. Til dæmis færirðu inn **A.120** til að tákna dálk A, línu 120.  Einnig er hægt að nota á-merkið (@) til að tilgreina allra dálka. Til dæmis færirðu inn **@120** til að tákna alla dálka í línu 120. Allar reikniformúlur sem eru ekki með dálkstaf eða @-tákn teljast vera tölustafur. **Ábending:** Ef línukóðamerki er notað til að vísa í línu verður að nota punkt (.) sem skiltákn milli dálkstafs og merkis (t.d. **A.GROSS\_MARGIN/A.SALES**). Ef nota á-merki (@) er skiltákn óþarfi (t.d. **@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Dæmi um útreikningsformúlu fyrir tiltekinn dálk
 
@@ -201,7 +204,7 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 
 | Línukóði | Lýsing                 | Sniðkóði | Tengdar formúlur/línur/eining | Prentstýringar | Línubreyting | Tengill í fjárhagsvíddir |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Reiðufé í upphafi tímabils |             |                            | NP            | BB           | + Lykil =\[1100:1110\]       |
+| 340      | Reiðufé í upphafi tímabils |             |                            | NP            | BB           | +Reikningur=\[1100:1110\]       |
 | 370      | Reiðufé í upphafi árs   | CAL         | E=C.340                    | NP            |              |                              |
 | 400      | Reiðufé í upphafi tímabils | TOT         | 340+370                    |               |              |                              |
 
@@ -210,7 +213,7 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 Þegar verið er að breyta tölu eða útreikningi í einum dálk í tiltekinni línu en ekki á að hafa áhrif á aðra dálka í skýrslunni er hægt að tilgreina **CAL** (útreikning) í dálknum **Sniðkóða** í línuskilgreiningunni.
 
 -   Ef framkvæma á útreikning á öllum skýrsludálkum (**FD**) skal ekki færa inn dálkúthlutun.
--   Til að takmarka formúlu dálka, færið inn innheimtubréfs dálkur sama formerki (**=**), og síðan formúlu.
+-   Til að takmarka formúlu við tiltekna dálka skal færa inn dálkstafinn ásamt samasemmerki (**=**) og síðan formúluna.
 -   Hægt er að tilgreina marga dálka. Þegar notað er á-merki (@) með tiltekinni staðsetningu í dálki tengist á-merkið @ línunni.
 -   Hægt er að færa inn margar dálkformúlur í einni línu. Aðskiljið formúlur með kommum.
 
@@ -220,46 +223,48 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | @130\*.75              | Fyrir hvern dálk er gildi í línu 130 margfaldað með 0.75. Síðan eru niðurstöðurnar settar í núgildandi línu í hverjum dálki. |
 | B=@130\*.75            | Sami útreikningur er einungis gerður á dálki B.                                                                      |
-| A, B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*.75                                                           |
+| A,B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*.75                                                           |
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>IF/THEN/ELSE-yrðingar í línuskilgreiningu
 
-Hægt er að bæta **IF/THEN/ELSE**-yrðingum við alla gilda útreikninga og nota þær með sniðinu **CAL**. Færa skal inn **IF/THEN/ELSE**-reikniformúlur í hólfið í dálkinum **Tengdar formúlur/línur/einingar**. **SÍÐAN/EF/ELSE** útreikning formúlur notaðu eftirfarandi snið: EF &lt;satt/rangt uppgjör&gt; SÍÐAN &lt;formúlu&gt; ELSE &lt;formúlu&gt; á **ELSE &lt;formúlu&gt;** hluta yfirlitsins er valfrjáls.
+Hægt er að bæta **IF/THEN/ELSE**-yrðingum við alla gilda útreikninga og nota þær með sniðinu **CAL**. Færa skal inn **IF/THEN/ELSE**-reikniformúlur í hólfið í dálkinum **Tengdar formúlur/línur/einingar**. **IF/THEN/ELSE**-reikniformúlur nota eftirfarandi snið: IF &lt;sönn/ósönn yrðing&gt; THEN &lt;formúla&gt; ELSE &lt;formúla&gt; **ELSE &lt;formúlu&gt;**-hluti yrðingarinnar er valfrjáls.
 
 #### <a name="if-statements"></a>IF-yrðingar
 
 Yrðingin sem kemur á eftir **IF**-yrðingunni getur verið hvaða yrðing sem er sem hægt er að meta sem sanna eða ósanna. Uppgjörið sem fylgir **IF**-yrðingunni gæti falið í sér einfalt mat eða verið flókin yrðing sem innihéldi margar segðir. Hér eru nokkur dæmi:
 
--   **EF A.200&gt;0** (Einfalda mat)
--   **EF A.200&gt;0 OG A.200&lt;10.000** (Flókið yfirlit)
--   **EF A.200&gt;10000 EÐA ((A.340/B.1200)\*2 &lt;1200)** (Flókið yrðingu sem inniheldur mörg segðir)
+-   **IF A.200&gt;0** (Einfalt mat)
+-   **IF A.200&gt;0 OG A.200&lt;10.000** (flókin yrðing)
+-   **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (flókin yrðing sem inniheldur margar segðir)
 
 Hugtakið **Tímabil** í **IF**-yrðingu stendur fyrir fjölda tímabila fyrir skýrsluna. Þetta hugtak er oft notað við útreikninga á meðaltali það sem af er ári. Til dæmis, þegar skýrsla er keyrð fyrir tímabilið 7 YTD þýðir yrðingin **B.150/Tímabil** að gildið í línu 150 í dálki B er deilt með 7.
 
 #### <a name="then-and-else-formulas"></a>THEN- og ELSE-formúlur
 
-**THEN** og **ELSE**-formúlur geta verið hvaða gildir útreikningar sem er, allt frá afar einföldum úthlutuðum sjálfgildum yfir í flóknar formúlur. Til dæmis fjárhagsskýrsla **EF A.200&gt;0 ÞÁ A=B.200** þýðir "Ef gildið í reitnum í dálkur A línu 200 er meira en 0 (núll), setja gildi úr hólf í dálkur B línu 200 í hólf í dálkur A gildandi línu." **IF/THEN**-yrðingin hér að ofan setur gildi í einn dálka þessarar línu. Hins vegar er einnig hægt að nota @-táknið í annaðhvort TRUE/FALSE-mati eða í formúlunni til að tákna alla dálka. Hér eru önnur dæmi sem er lýst er í eftirfarandi hlutum:
+**THEN** og **ELSE**-formúlur geta verið hvaða gildir útreikningar sem er, allt frá afar einföldum úthlutuðum sjálfgildum yfir í flóknar formúlur. Til dæmis þýðir yrðingin **IF A.200&gt;0 THEN A=B.200** að „ef gildið í hólfinu í dálki A í línu 200 er hærra en núll skal setja gildið úr hólfinu í dálki B í línu 200 inn í hólfið í dálki A í þessarar línu.“ **IF/THEN**-yrðingin hér að ofan setur gildi í einn dálka þessarar línu. Hins vegar er einnig hægt að nota @-táknið í annaðhvort TRUE/FALSE-mati eða í formúlunni til að tákna alla dálka. Hér eru önnur dæmi sem er lýst er í eftirfarandi hlutum:
 
--   **EF A.200 &gt;0 SVO B.200**: Ef gildið í reitnum A.200 er jákvætt, er gildið í reitnum B.200 setja í hverjum dálki á gildandi línu.
--   **EF A.200 &gt;0 SÍÐAN @200**: Ef gildið í reitnum A.200 er jákvætt gildi úr hvern dálk í línu 200 er setja samsvarandi dálka í gildandi línu.
--   **EF @200&gt;0 SÍÐAN @200**: Ef gildi í línu 200 gildandi dálks er jákvætt, gildi úr línu 200 er sett í sama dálkinum í gildandi línu.
+-   **EF A.200 &gt;0 ÞÁ B.200**: Þegar gildið í reitnum A.200 er jákvætt er gildið í reitnum B.200 sett í alla dálka á gildandi línu.
+-   **IF A.200 &gt;0 THEN @200**: Ef gildið í reitnum A.200 er jákvætt er gildið í reitnum B.200 sett í alla dálka á gildandi línu.
+-   **IF @200 &gt;0 THEN @200**: Ef gildið í reitnum A.200 er jákvætt er gildið í reitnum B.200 sett í alla dálka á gildandi línu.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Útreikningur takmarkaður við einingu skipurits í línuskilgreiningu
 
-Til að takmarka útreikninga eina einingu skýrslugerð skýrslugerð trénu þannig meðfylgjandi upphæð er ekki stillt á hærra stigi felast sjálfkrafa einingu, er hægt að nota í **@Unit**kóða í á **Tengdar Formúlur/Línur/Einingar** hólf í línuskilgreiningu. Í **@Unit**kóði hefur verið skráður í dálkur B skýrslugerð trés **Einingarnafn**. Þegar notuð í **@Unit**kóða, gildum sem ekki eru kostnaðarjafnaðar samlagt en útreikningur er metið á hvert stigi skýrslugerð trés. **Athugið:**Ef nota á þessa aðgerð verður skipuritið að vera tengt línuskilgreiningunni. Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið **Tengdar formúlur/línur/einingar** í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningur verður að nota skilyrt útreiknings sem byrjar á **EF @Unit**byggingu. Hér er dæmi: EF @Unit(SALA) SVO @100ELSE 0 útreikningur felur í sér upphæðina frá línu 100 í hverjum dálki á skýrslunni, en aðeins fyrir VSK. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka **OR**-samsetningar með í **IF**-yrðingu. Hér er dæmi: EF @Unit(SALA) EÐA @Unit(SALESWEST) SVO 5 ELSE @100tilgreina einingu á gerð útreiknings takmarkanir á eftirfarandi vegu:
+Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin sem út kemur sé ekki færð upp á einingu á hærra stigi er hægt að nota **@Unit** kóðann í hólfinu **Tengdar formúlur/línur/einingar** í línuskilgreiningunni. Í **@Unit** kóði hefur verið skráður í dálkur B skýrslugerð trés **Einingarnafn**. Þegar kóðinn **@Unit** er notaður eru gildin ekki færð upp en útreikningurinn er metinn á hverju stigi skipuritsins. **Athugið:**Ef nota á þessa aðgerð verður skipuritið að vera tengt línuskilgreiningunni. Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið **Tengdar formúlur/línur/einingar** í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningurinn verður að nota skilyrtan útreikning sem hefst á **IF @Unit**. Hér er dæmi: IF @Unit(SALES) THEN @100 ELSE 0 Þessi útreikningur felur í sér upphæðina úr línu 100 í hverjum dálki í skýrslunni, en eingöngu fyrir SALES-einingar. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka **OR**-samsetningar með í **IF**-yrðingu. Hér er dæmi: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Hægt er að tilgreina einingu í takmörkun af útreikningsgerð á einn af eftirfarandi háttum:
 
--   Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis **EF @Unit(SALA)** gerir útreikninga fyrir allar einingar sem nefnist SÖLU, jafnvel ef nokkrar VSK einingar eru í trénu skýrslugerð.
--   Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis inn **EF @Unit(ACME: VSK**) til að takmarka útreikning VSK eininga í ACME fyrirtækisins.
--   Færið inn fullan stigveldiskóðann úr skipuritinu til að takmarka útreikninginn við tiltekna einingu. Til dæmis inn **EF @Unit(SAMANTEKT ^ ACME ^ WEST COAST ^ VSK)**. **Athugið:** Til að finna fulla stigveldiskóðann skal hægrismella á skilgreiningu skipuritsins og velja síðan **Afrita kenni einingar skipurits (H-kóði)**.
+-   Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis býður **IF @Unit(SALES)** upp á að reikna út fyrir hverja einingu sem kallast SALES, jafnvel þótt nokkrar einingar með heitinu SALES séu í skipuritinu.
+-   Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis færirðu inn **IF @Unit(ACME: SALES**) til að takmarka útreikning í SALES-eininga í ACME fyrirtækisinu.
+-   Færið inn fullan stigveldiskóðann úr skipuritinu til að takmarka útreikninginn við tiltekna einingu. Til dæmis færirðu inn **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Athugið:** Til að finna fulla stigveldiskóðann skal hægrismella á skilgreiningu skipuritsins og velja síðan **Afrita kenni einingar skipurits (H-kóði)**.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Útreikningur takmarkaður við einingu skipurits
 
 1.  Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
 2.  Tvísmellið á hólfið **Sniðkóði** og veljið síðan **CAL**.
-3.  Smellt er á í **Tengdar Formúlur/Línur/Einingar** hólf og færa svo inn skilyrtar útreiknings sem byrjar á **EF @Unit**byggingu.
+3.  Smellið á hólfið **Tengdar formúlur/línur/einingar** og færið síðan inn skilyrta útreikninginn sem byrjar á **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE-yrðingar í dálkskilgreiningu
 
-**IF/THEN/ELSE**-yrðing býður upp á að allir útreikningar séu gerðir háðir niðurstöðum úr öðrum dálkum. Hægt er að vísa í aðra dálka en ekki í skýrsluhólf í **IF**-yrðingunni. Allir útreikningar verða að gilda fyrir allan dálkinn. Til dæmis er yfirlit **EF B&gt;100 og SVO ANNAÐ C B\*1,25** þýðir "Ef upphæðin í dálkur B er meira en 100 setja gildi úr dálkur B í á **CALC** dálk. Ef upphæðin í dálki B er ekki hærri en 100 skal margfalda gildið í dálki C með 1,25 og færa niðurstöðuna inn í dálkinn **CALC**.“ **IF**-yrðingu skal ævinlega fylgja rökyrðing sem hægt er að meta sem sanna eða ósanna. Formúlurnar sem notaðar eru fyrir bæði **THEN**-setninguna og **ELSE**-klausuna geta innihaldið tilvísanir í hvaða fjölda dálka sem er og þessar formúlur geta verið eins flóknar og hver kýs. **Ábending:** Ekki er hægt að setja niðurstöður úr útreikningi í neinn annan dálk. Niðurstöðurnar verða að vera í þeim dálki sem inniheldur formúluna.
+**IF/THEN/ELSE**-yrðing býður upp á að allir útreikningar séu gerðir háðir niðurstöðum úr öðrum dálkum. Hægt er að vísa í aðra dálka en ekki í skýrsluhólf í **IF**-yrðingunni. Allir útreikningar verða að gilda fyrir allan dálkinn. Til dæmis táknar yrðingin **IF B&gt;100 THEN B ELSE C\*1,25** að „Ef upphæðin í dálki B er hærri en 100 skal færa gildið úr dálki B inn í dálkinn **CALC**. Ef upphæðin í dálki B er ekki hærri en 100 skal margfalda gildið í dálki C með 1,25 og færa niðurstöðuna inn í dálkinn **CALC**.“ **IF**-yrðingu skal ævinlega fylgja rökyrðing sem hægt er að meta sem sanna eða ósanna. Formúlurnar sem notaðar eru fyrir bæði **THEN**-setninguna og **ELSE**-klausuna geta innihaldið tilvísanir í hvaða fjölda dálka sem er og þessar formúlur geta verið eins flóknar og hver kýs. **Ábending:** Ekki er hægt að setja niðurstöður úr útreikningi í neinn annan dálk. Niðurstöðurnar verða að vera í þeim dálki sem inniheldur formúluna.
+
+
 
 

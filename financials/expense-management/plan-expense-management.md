@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Skilgreina kostnaðarstýringu
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta grein lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er að stilla kostnaðarstjórnun í Microsoft Dynamics AX. Í kostnaðarstjórnunarsvæði, er hægt að geyma upplýsingar um greiðslumáta, ferðabeiðnir, kostnaðarskýrslur og stefnur, meðal annars. 
 
 Þar sem margar þeirra ákvarðana sem gerðar eru við að áætla samskipan fyrir kostnaðarstýringu byggjast á stigveldi og fjárhagslegu skipulagi fyrirtækisins, verður að vísa til skipulagningarskjala fyrir þau svæði.
@@ -133,6 +136,8 @@ Hægt er að stofna kostnaðarskýrslureglur svo að fyrirtækið geti sparað p
 -   Hvenær verður úreldist reglan?
 -   Hvað er stefnuregla?
 -   Hver er útkoma stefnureglunnar?
+
+
 
 
 

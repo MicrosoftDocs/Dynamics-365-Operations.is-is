@@ -68,14 +68,14 @@ Með hlaupandi meðaltali ákvarðast kostnaður afurðarinnar af innhreyfingum 
 3.  Stofna innkaupapöntun fyrir magnið 1 og einingarverð 10,00.
 4.  Stofna innkaupapöntun fyrir magnið 2 og einingarverð 12,00.
 
-Mismunur í einingarverði, 2,00, er bókaður á lykilinn Verðmunur á hlaupandi meðaltali þegar innkaupareikningur er bókaður. Ástæðan er að afurðirnar tvær voru keyptar fyrir kostnaðinn 20,00. Önnur afurðanna var seld fyrir einingarverðið 10,00. Innkaupareikningur sem var bókuð með einingarverðinu 12,00 með magninu 2. Einingarverð vöru er hægt að bóka á 14,00.
+Mismunur í einingarverði, 2,00, er bókaður á lykilinn Verðmunur á hlaupandi meðaltali þegar innkaupareikningur er bókaður. Ástæðan er að afurðirnar tvær voru keyptar fyrir kostnaðinn 20,00. Önnur afurðanna var seld fyrir einingarverðið 10,00. Innkaupareikningurinn var bókaður með einingarverðinu 12,00 með magninu 2. Ekki er hægt að bóka einingarverð afurðar á 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Hlaupandi meðaltal afurða- og birgðaleiðréttingar
 Ef nauðsynlegt er að leiðrétta kostnað hlaupandi meðaltals afurðar eru leiðréttingar á birgðum leyfðar frá og með deginum í dag. Ekki er hægt að bakfæra birgðaleiðréttingu til að leiðrétta kostnað hlaupandi meðaltals afurðar. Ekki er hægt að hafa kostnaðarflæði í gegnum síðari færslur. Í þessu dæmi er kostnaður hlaupandi meðaltals leiðréttur fyrir afurð.
 1.  Velja afurð sem á að leiðrétta kostnað hlaupandi meðaltals fyrir.
-    | **Note**                                                                                    |
+    | **Athugasemd**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | Í ** Endurmat á hlaupandi meðaltali ** síðu kannar á tiltækar birgðir fyrir vöru. |
+    | Síðan **Endurmat á hlaupandi **meðaltali kannar tiltækar birgðir afurðar. |
 
     Valin afurð hefur bókaða magnið 1, bókaða gildið 12,00, bókaðan einingarkostnað 12,00 og einingakostnaðinn 12,00.
 2.  Uppfærðu reitinn **Einingarkostnaðar** í 16,00. Kerfið reiknar út eftirstandandi reitina.
@@ -88,7 +88,7 @@ Ef nauðsynlegt er að leiðrétta kostnað hlaupandi meðaltals afurðar eru le
 Á síðunni **Jafnanir fylgiskjals** er hægt að sjá leiðréttinguna 4,00 bókaða á lykilinn Kostnaðarendurmat á hlaupandi meðaltali.
 
 ## <a name="moving-average-with-production"></a>Hlaupandi meðaltal með framleiðslu
-Hlaupandi meðaltal styður framleiddar vörur. Ef ætlunin er að flytja meðaltal er notað í framleiðsluumhverfi, í **Nota áætlað kostnaðarverð** sleði í sem ** færibreytur framleiðslustýringar ** skuli selcted síðu. Þetta þýðir að kostnaðarverð er reiknað á meðan mat er notað í stað raunverulegs kostnaðarverðs útreikninga uppskrifta.
+Hlaupandi meðaltal styður framleiddar vörur. Ef ætlunin er að nota hlaupandi meðaltal í vinnsluumhverfi þarf að velja sleðann **Nota áætlað kostnaðarverð** á síðunni **Færibreytur framleiðslustýringar**. Þetta þýðir að kostnaðarverð er reiknað á meðan mat er notað í stað raunverulegs kostnaðarverðs útreikninga uppskrifta.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Hlaupandi meðaltal með bakfærslu
 Bakfærðar færslur eru úthlutaðar á gildandi kostnað hlaupandi meðaltals og efnislegt magn afurðarinnar er uppfært en kostnaður hlaupandi meðaltals verður ekki fyrir áhrifum. Í þessu dæmi um hlaupandi meðaltal er bakfærsla bókuð fyrir afurð hlaupandi meðaltals.

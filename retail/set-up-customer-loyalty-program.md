@@ -1,6 +1,6 @@
 ---
-title: "Setja upp vildarkerfi viðskiptavinar"
-description: "Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 fyrir Aðgerðir, hægt að setja upp einfaldar eða flókið vildarkerfi sem eiga við milli skal lögaðila í hvaða smásölurásar."
+title: Uppsetning vildarkerfis
+description: "Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 for Operations er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Setja upp vildarkerfi viðskiptavinar
+# <a name="set-up-a-customer-loyalty-program"></a>Uppsetning vildarkerfis
 
-Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 fyrir Aðgerðir, hægt að setja upp einfaldar eða flókið vildarkerfi sem eiga við milli skal lögaðila í hvaða smásölurásar.
+[!include[banner](includes/banner.md)]
+
+
+Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 for Operations er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er.
 
 <a name="loyalty-features"></a>Eiginleikar vildarkerfis
 ----------------
@@ -37,11 +40,11 @@ ms.lasthandoff: 03/31/2017
 -   Setja upp margar gerðir umbunar í vildarkerfi sem á að bjóða í vildarkerfi og rekja þátttöku í vildarkerfi.
 -   Setja upp vildarkerfi sem tákna mismunandi vildarpunkts hvatningargreiðslur sem er að bjóða. Hægt er að hafa með vildarkerfalög til að bjóða hærri hvatningargreiðslur og umbun til viðskiptavina sem kaupa oftar eða eyða meiri peningum í verslununum.
 -   Skilgreina yfirvinnutaxta reglur til að auðkenna þá verkþætti sem viðskiptavinur verður að ljúka við ávinna umbun. Einnig er hægt að skilgreina innlausnarreglur til að auðkenna hvenær og hvernig viðskiptavinur getur innleyst umbun.
--   Gefa út vildarkort úr smásölurás sem tekur þátt í vildarkerfi við og tengja einn eða fleiri vildarkerfi sem viðskiptavinurinn getur tekið þátt í vildarkort. Einnig er hægt að tengja færslu viðskiptavinar við vildarkort, svo að viðskiptavinur getur hópi vildarpunkta úr mörgum spjöld og innleysa þær.
+-   Gefa út vildarkort frá hvaða smásölurás sem tekur þátt í vildarkerfi og tengja vildarkort við eitt eða fleiri vildarkerfi sem viðskiptavinurinn getur tekið þátt í. Þú getur einnig tengt færslu viðskiptavinar við vildarkort til að auðvelda viðskiptavininum að safna vildarstigum af mörgum kortum og innleysa þau.
 -   Handvirkt stilla vildarkort eða flytja stöðu vildarumbunar af einu korti á annað til að koma til móts við eða umbuna viðskiptavinum.
 
-## <a name="setting-up-loyalty-programs"></a>Setja upp vildarkerfi
-Setja verður upp nokkra þætti til að virkja vildarkorti aðgerðinni í Dynamics 365 aðgerða - Smásölu. Eftirfarandi skýringarmynd sýnir eiginleika vildarkorts og hvernig þeir tengjast hvort öðru. ![vinnsluflæði kerfisuppsetningar](./media/loyaltyprocess.gif)
+## <a name="setting-up-loyalty-programs"></a>Uppsetning vildarkerfa
+Setja verður upp nokkra þætti til að virkja eiginleikann vildarpunkta í Dynamics 365 for Operations - Retail. Eftirfarandi skýringarmynd sýnir eiginleika vildarkorts og hvernig þeir tengjast hvort öðru. ![vinnsluflæði kerfisuppsetningar](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Eiginleikar vildarkerfis
 Eftirfarandi tafla lýsir hvert eiginleika og hvar það er notað í uppsetningu vildarkerfis.
@@ -64,10 +67,12 @@ Eftirfarandi tafla lýsir ferla sem þarf að keyra til að senda vildarskilgrei
 
 | Heiti ferlis                         | Lýsing                                                                                                                                                                                                                                                                                                                                                                                                    | Heiti síðu                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (vildarupplýsingar)           | Á að keyra þetta ferli til að senda vildarkorts gögn úr Dynamics 365 aðgerða er smásöluverslanir. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana.                                                                                                                                                                                               | Dreifingaráætlun                |
+| 1050 (vildarupplýsingar)           | Keyra þetta ferli til að senda vildargögn úr Dynamics 365 for Operations í smásöluverslun. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana.                                                                                                                                                                                               | Dreifingaráætlun                |
 | Vinna úr vildarkerfi              | Keyra þetta ferli til að tengja vildarkerfi með smásölurásir sem er tengdur við vildarkerfi. Hægt er að raða þetta ferli til að keyra sem runuvinnslu. Keyra þarf þetta ferli ef skilgreiningargögn vildarpunkta er breytt, eins og vildarkerfi, vildaráætlanir, eða vildarpunktar vildarkerfis.                                                                                               | Vinna úr vildarkerfi              |
-| Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Ferlið gildir aðeins ef á **Safna án nettengingar** gátreiturinn er valinn í á ** samnýttar smásölufæribreytur ** síðuna þannig umbun hægt veitt ótengt.                                                                                                                                               | Vinna úr vildarfærslum utan nets |
+| Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Ferlið gildir aðeins ef **Safna án nettengingar** gátreiturinn er valinn á síðunni **samnýttar smásölufæribreytur ** þannig að umbun getur fengist án nettengingar.                                                                                                                                               | Vinna úr vildarfærslum utan nets |
 | Uppfæra vildarkortalög            | Keyra þetta ferli til að meta viðskiptavinar tekjuaðgerðir gagnvart reglur vildarlags fyrir vildarkerfis og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum  vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög            |
+
+
 
 
 

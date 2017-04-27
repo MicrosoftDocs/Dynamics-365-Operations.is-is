@@ -54,9 +54,9 @@ Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir �
 
 ### <a name="fiscal"></a>Fjárhagur
 
-Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 175% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. Nánari upplýsingar, sjá [fjárhagsdagatöl fjárhagsára og tímabil.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 175% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. Fyrir nánari upplýsingar, sjá [járhagsdagatöl, fjárhagsár, og tímabil.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
-Til dæmis, fyrir fjárhagsárið 1. Júlí gegnum 30. Júní, byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert tímabil og lengd næsta fjárhagsárs ákvarðast af uppsetningu tímabila á síðunni **Fjárhagsdagatöl**. 
+Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert tímabil og lengd næsta fjárhagsárs ákvarðast af uppsetningu tímabila á síðunni **Fjárhagsdagatöl**. 
 
 Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
 
@@ -81,6 +81,6 @@ Aðferðin afskriftir fyrir 175% bókfært virði stöðu deilir 175% með líft
 | 3. ár | 4,225 × 35% = 1,478.75                        | 5.225 – 1.478,75 = 3.746,25 | 4,225 – 1,478.75 = 2,746.25           |
 
 > [!NOTE] 
-> Venjulega er þegar upphæðin sem er reiknað með því að nota 175% bókfært virði afskriftaraðferð verður lægri en upphæðin sem á að reikna með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
+> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 175% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
 
 

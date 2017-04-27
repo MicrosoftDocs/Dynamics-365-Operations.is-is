@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Setja upp vaxtastig fyrir vaxtakóða
 
+[!include[banner](../includes/banner.md)]
+
+
 Vaxtakóðar innihalda stillingar sem ákveða hvenær vextir eru gjaldfærðir og hvernig það er reiknað á gjaldfallna reikninga.
 
 Hægt er að setja upp staka vaxtakóða og jafna hann við margar bókunarreglur viðskiptavina, innheimtukóða, eða tilteknar reikningslínur. Þegar upplýsingum vaxtakóða er breytt, munu allar aðgerðir sem nota kóðann sjálfkrafa innleiða breytingarnar í nýju færslunum. Fyrir hvern vaxtakóða er hægt að setja upp tvær gerðir taxta:
@@ -44,17 +47,17 @@ Hægt er að setja upp vaxtastig sem reiknar út tilgreinda prósentu.
 
 -   Upphæð vaxta gildir um alla gjaldmiðla.
 -   Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
--   **Prósenta** er valinn ** ** í á **Reikna vexti á grundvelli** á í **Setja upp vaxtakóða** síðu.
+-   **Prósenta** er valin í **Reikna út vexti á grundvelli** svæðinu á síðunni **Setja upp vaxtakóða**.
 
-Til dæmis til að setja upp vaxtakóða assesses 5 prósent vexti fyrir á tveggja mánaða fresti reikningsgreiðslu yfir færslunnar gjalddaga, myndi 2 er fært inn í á **Reikna vexti hverja** og veljið **Mánuður**.
+Til dæmis til að setja upp vaxtakóða sem metur 5 prósent vexti fyrir hverja tvo mánuði sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 2 í svæðið **reikna vexti fyrir hvern** og velja **Mánuður**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Vextir á grundvelli upphæða
 Hægt er að setja upp vaxtastig sem reiknar út tilgreinda upphæð fyrir hvern gjaldmiðil.
 -   Vaxtaupphæð er tilgreind fyrir hvern gjaldmiðil í vaxtakóða.
 -   Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
--   ** Upphæð ** er valin í á **Reikna vexti á grundvelli** á í **Setja upp vaxtakóða** síðu.
+-   Upphæð er valin í **Reikna út vexti á grundvelli** svæðinu á **Setja upp vaxtakóða** síðunni.
 
-Til dæmis til að setja upp vaxtakóða assesses vextir 25,00 fyrir hvert 20 dagar reikningsgreiðslu yfir færslunnar gjalddaga, færa myndu 20 í sem **Reikna vexti hverja** og veljið **Dag**.
+Til dæmis til að setja upp vaxtakóða sem metur 25,00 prósent vexti fyrir hverja 20 daga sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 20 í svæðið **reikna vexti fyrir hvern** og velja **Dagur**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Vextir á grundvelli sviða
 Hægt er að setja upp vaxtastig sem eru mismunandi eftir því hvaða upphæð fallin í gjalddaga, fjölda þeirra daga sem upphæðin er komin fram yfir, eða fjölda mánaða sem upphæðin komin fram yfir.
@@ -67,13 +70,13 @@ Hægt er að setja upp vaxtakóðann sem metur vexti einu sinni fyrir þriðja h
 | **Nafn svæðis**                  | **Svæðisgildi** |
 |---------------------------------|-----------------|
 | **Vaxtakóði**               | 3M%ByAmt        |
-| **Reikna vexti hverja**    | 3/mánuður         |
+| **Reikna vexti hverja**    | 3/Mánuður         |
 | **Vextir eftir afmörkun**           | Upphæð          |
 | **Reikna vexti út frá** | Prósenta      |
 
 Settar eru upp upplýsingar um afmörkun sem hér segir.
 
-| **From value** | **Interest value** |
+| **Frá gildi** | **Vaxtagildi** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Hægt er að setja upp vaxtakóðann sem metur vexti einu sinni fyrir 15. hvern 
 
 Settar eru upp upplýsingar um afmörkun sem hér segir.
 
-| **From value** | **Interest value** |
+| **Frá gildi** | **Vaxtagildi** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | sept                 |
@@ -115,7 +118,7 @@ Hægt er að setja upp vaxtakóðann sem metur vexti einu sinni fyrir hvern mán
 
 Settar eru upp upplýsingar um afmörkun sem hér segir.
 
-| **From value** | **Interest value** |
+| **Frá gildi** | **Vaxtagildi** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ Settar eru upp upplýsingar um afmörkun sem hér segir.
 Vaxtakóðar eru gildir eftir dagsetningum. Ef þú vilt breyta vöxtum, geturðu stofnað **nýja útgáfu** sem tekur gildi frá og með framtíðardagsetningu.
 
 Til að skoða mismunandi útgáfur er hægt að nota í **frá og með** val til að velja lokadagsetninguna. Einnig er hægt að velja **Birta allar færslur** til að skoða allar vaxtakóðum á síðunni.
+
+
 
 

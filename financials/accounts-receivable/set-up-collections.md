@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Setja upp Skuldir og innheimta
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
 
 <a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
@@ -46,7 +49,7 @@ Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setj
 ## <a name="set-up-a-collections-case-category"></a>Setja upp innheimtumálstegund
 Ef skipuleggja á innheimtuvinnu með því að nota mál skal setja upp málstegund með gerð flokks **innheimtur**. Þessi uppsetning er bara nauðsynleg ef á að nota málsvirkni á síðunni **Innheimtur**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Setja upp færslubókarnöfn (jöfnun writeoff og NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Setja upp færslubókarnöfn (jöfnun, afskrift, og innistæðulaus sjóður)
 Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **innheimtur** síðunni. Þetta ferli innifelur jöfnun á færslu, afskrift færslu, og vinnslu á innistæðulaust (NSF).
 
 | Lýsing | Færslubókargerð     |
@@ -55,7 +58,7 @@ Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **inn
 | Afskrift   | Daglega            |
 | Innistæðulaus sjóður         | Greiðsla viðskiptavinar |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Setja upp ástæðukóða fyrir færslur writeoff
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Setja upp ástæðukóða fyrir afskriftarfærslur
 Setja upp sjálfgefinn ástæðukóða sem er notaður þegar færslur eru afskrifaðar á síðunni **Innheimta**. Hægt er að breyta kóða við afskriftarferli.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Setja upp möppu fyrir viðhengi í tölvupósti og stofna sniðmát tölvupósts
@@ -67,7 +70,7 @@ Setjið upp færibreytur viðskiptakrafna sem birtast í flipanum **innheimtur**
 ## <a name="optional-set-up-collections-agents"></a>Valfrjálst: Setja upp innheimtufulltrúa
 Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtufulltrúa. Innheimtufulltrúa er starfsmaður sem er settur upp sem notandi í **notendavensl** skjámynd. Hægt er að úthluta viðskiptavinahópum, (sem eru fyrirspurnir viðskiptavinar), á innheimtufulltrúa til að aðstoða fulltrúa við að skipuleggja vinnu sína. Innheimtufulltrúum er bætt við hópinn sem er valinn á síðunni **Færibreytur viðskiptakrafna**. Ef hópur er ekki valinn á þeirri síðu, er nýr hópur með heitinu **Innheimtur** stofnaður sjálfvirkt og innheimtufulltrúa er bætt við þann hóp.
 
-## <a name="set-up-a-writeoff-account"></a>Setja upp writeoff lykils
+## <a name="set-up-a-writeoff-account"></a>Setja upp afskriftalykil
 Setja upp afskriftalykil sem er notaður fyrir afskriftarfærslu fjárhags þegar færsla er afskrifuð. Þessi lykill er geymt í bókunarreglu viðskiptavinar.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Setja upp upplýsingar um Innistæðulausan sjóð fyrir bankareikninga
@@ -82,11 +85,13 @@ Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á töl
 Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi. Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur ** síðu og er sú persóna sem tölvupóstsskilaboð eru send til. 
 
 > [!NOTE] 
-> Ef söfn tengiliðar er ekki tilgreindur fyrir viðskiptavin er aðaltengiliður viðskiptavinarins er notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður ** síðu.
+> Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður ** síðu.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Setja upp stillingar fyrir tölvupóst sölumanna
 Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður ** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
 
 Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskiptamanns notað. Ef aðalsölumaður er ekki tilgreindur, verða tölvupóstsskilaboð send til fyrsta sölumanns á listanum á síðunni.
+
+
 
 

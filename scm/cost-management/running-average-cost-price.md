@@ -1,6 +1,6 @@
 ---
 title: "Um keyrslu á meðalkostnaðarverði"
-description: "Í birgðalokunarferli jafnar úthreyfingarfærslur við innhreyfingarfærslur samkvæmt birgðamatsaðferðinni sem er valin í vörulíkanaflokki vörunnar. Hins vegar áður en birgðalokun er keyrð, reiknar kerfið út meðalkostnaðarverð sem er vanalega notuð þegar úthreyfingar eru bókaðar."
+description: "Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Áður en birgðalokun er keyrð reiknar kerfið samt sem áður út hlaupandi meðalkostnaðarverð sem er í flestum tilvikum notað við bókun úthreyfingafærslna."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-04-07 15 - 11 - 47
@@ -28,29 +28,29 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="running-average-cost-price"></a>Um keyrslu á meðalkostnaðarverði
 
-Í birgðalokunarferli jafnar úthreyfingarfærslur við innhreyfingarfærslur samkvæmt birgðamatsaðferðinni sem er valin í vörulíkanaflokki vörunnar. Hins vegar áður en birgðalokun er keyrð, reiknar kerfið út meðalkostnaðarverð sem er vanalega notuð þegar úthreyfingar eru bókaðar.
+Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Áður en birgðalokun er keyrð reiknar kerfið samt sem áður út hlaupandi meðalkostnaðarverð sem er í flestum tilvikum notað við bókun úthreyfingafærslna.
 
-Kerfið mat þetta meðalkostnaðarverð vöru með því að nota eftirfarandi formúlu: Áætlað verð = (Efnisleg upphæð + Fjárhagsleg upphæð) ÷ (Efnislegt magn + Fjárhagslegt magn)
+Kerfið metur þetta meðalkostnaðarverð vöru með því að nota eftirfarandi formúlu: Áætlað verð = (Efnisleg upphæð + Fjárhagsleg upphæð) ÷ (Efnislegt magn + Fjárhagslegt magn)
 
 ## <a name="using-the-running-average-cost-price"></a>Að nota meðalkostnaðarverð
-Eftirfarandi tafla sýnir þegar kerfið bókar birgðafærslur með því að nota í meðalkostnaðarverð og hvenær notar kostnaðarverð sem er skilgreint í aðalfærslu vöru í staðinn.
+Eftirfarandi tafla sýnir hvenær kerfið bókar birgðafærslur með því að nota meðalkostnaðarverð og hvenær kerfið notar kostnaðarverð sem er skilgreint í aðalfærslu vöru.
 
 | Skilyrði                                               | Kerfið notar áætlað meðalkostnaðarverð | Kerfið notar kostnaðarverð sem er skilgreint í aðalfærslunni |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| Bæði teljari\* og nefnari\*\* jákvæð(ur).  | Já                                                      | Ekkert                                                                |
-| Deilistofninn í\*, nefnarinn\*\*, eða hvort tveggja eru neikvæðir. | Ekkert                                                       | Já                                                               |
+| Bæði teljari\* og nefnari\*\* eru jákvæðir.  | Já                                                      | Ekkert                                                                |
+| Teljarinn\*, nefnarinn\*\* eða hvorir tveggja eru neikvæðir. | Ekkert                                                       | Já                                                               |
 | Nefnarinn\*\* er 0 (núll).                        | Ekkert                                                       | Já                                                               |
 
-\*Teljari = (Efnisleg upphæð + Fjárhagsleg upphæð) \*\*Nefnari = (Efnislegt magn + Fjárhagslegt magn) **Athugasemd:** Ef á **Taka efnislegt virði** valkosturinn er ekki valinn fyrir vöru notar kerfið 0 (núll) fyrir bæði efnislega upphæð og efnislegt magn. Sjá upplýsingar um þennan valkost í [Taka með efnislegt virði](include-physical-value.md).
+\* Teljari = (Efnisleg upphæð + Fjárhagsleg upphæð) \*\* Nefnari = (Efnislegt magn + Fjárhagslegt magn) **Athugasemd:** Ef valkosturinn **Taka með efnislegt virði** er ekki valinn fyrir vöru notar kerfið notar 0 (núll) fyrir bæði efnislega upphæð og efnislegt magn. Sjá upplýsingar um þennan valkost í [Taka með efnislegt virði](include-physical-value.md).
 
 ## <a name="avoiding-pricing-amplification"></a>Að forðast verðmögnun
-Í einstöku tilvikum getur kerfið verðleggur margar úthreyfingar áður en nógu margar innhreyfingar eru komnar sem byggja á verð á. Þær aðstæður geta valdið ofmati á hlaupandi meðaltali kostnaðarverðs. Þó eru ráðstafanir sem má gera til að forðast vandamálið eða minnka áhrif þess ef það kemur upp. **Aðstæður** Eftirfarandi færslur eiga sér stað fyrir vöru sem valkosturinn **Taka með efnislegt virði** hefur verið valinn fyrir:
+Af og til verðleggur kerfið margar úthreyfingar áður en nægilega margar innhreyfingar eru komnar sem byggja má verð á. Þær aðstæður geta valdið ofmati á hlaupandi meðaltali kostnaðarverðs. Þó eru ráðstafanir sem má gera til að forðast vandamálið eða minnka áhrif þess ef það kemur upp. **Aðstæður** Eftirfarandi færslur eiga sér stað fyrir vöru sem valkosturinn **Taka með efnislegt virði** hefur verið valinn fyrir:
 
 1.  Fjárhagslegt móttökumagn er 100 á USD 100,00.
 2.  Fjárhagsleg úthreyfingamagn er 200.
 3.  Raunverulegt móttökumagn er 101 á USD 202,00.
 
-Þegar skoðað er áætlað meðalkostnaðarverð vörunnar er búist við kostnaðarverðinu USD 1,51. Í stað þess er að finna í áætlað meðalverð USD 102.00 sem byggist á eftirfarandi formúlu: Áætlað verð = \[202 + (-100)\] ÷ \[101 + (-100)\] = 102 ÷ 1 = 102 Þessa verðlagningu sambandi við verðmögnun gerist því þegar vörurnar 200 eru hreyfðar út fjárhagslega í skrefi 2, kerfinu verður verð 100 af vörunum áður en neinar samsvarandi innhreyfingar. Þessar aðstæður orsaka neikvæðar birgðir. Kerfið áætlar síðan einingarverðið USD 1.00, sem búast. Hins vegar þegar samsvarandi 100 innhreyfingar koma, eru þær á einingarverðinu USD 2,00 hver. **Athugið:** Þó að úthreyfingarnar leiði af sér neikvæðar birgðir eru birgðir jákvæðar þegar úthreyfingarverðið er reiknað. Þess vegna er meðalkostnaðarverð notað í staðinn fyrir verð í aðalvörufærslunni. Á þessum tímapunkti, er kerfið birgðavirðisjöfnun af USD 100.00. Og meðan sú jöfnun var byggð upp yfir 100 stykki þar sem það var á USD 1,00 hvern, höfum við nú aðeins eitt stykki í birgðum. Þess vegna er jöfnuðu tapi upp á USD 100,00 er úthlutað á þetta eina stykki. Niðurstaðan er ofhækkun á áætluðu kostnaðarverði. **Athugið:** Til samanburðar má sjá að ef skrefum 2 og 3 er snúið við í dæminu hér að framan verða 200 vörur hreyfðar út á einingarverðinu USD 1,51, og eitt stykki verður eftir á einingarverðinu USD 1,51. Þar sem þetta verðmögnunartilfelli getur komið upp þegar um neikvæðar birgðir er að ræða er erfitt að forðast eftirfarandi tilfelli:
+Þegar skoðað er áætlað meðalkostnaðarverð vörunnar er búist við kostnaðarverðinu USD 1,51. Þess í stað er að finna áætlað meðalverð upp á USD 102,00, sem byggist á eftirfarandi formúlu: Áætlað verð = \[202 + (-100)\] ÷ \[101 + (-100)\] = 102 ÷ 1 = 102 Þessi verðmögnun á sér stað vegna þess að þegar vörurnar 200 eru hreyfðar út fjárhagslega í skrefi 2, verður kerfið að verðleggja 100 af vörunum áður en neinar samsvarandi innhreyfingar koma til. Þessar aðstæður orsaka neikvæðar birgðir. Kerfið áætlar síðan einingarverðið USD 1,00, sem við má búast. Hins vegar þegar samsvarandi 100 innhreyfingar koma, eru þær á einingarverðinu USD 2,00 hver. **Athugið:** Þó að úthreyfingarnar leiði af sér neikvæðar birgðir eru birgðir jákvæðar þegar úthreyfingarverðið er reiknað. Þess vegna er meðalkostnaðarverð notað í staðinn fyrir verð í aðalvörufærslunni. Þegar hér er komið hefur kerfið birgðavirðisjöfnun sem er USD 100,00. Og meðan sú jöfnun var byggð upp yfir 100 stykki þar sem það var á USD 1,00 hvern, höfum við nú aðeins eitt stykki í birgðum. Þess vegna er jöfnuðu tapi upp á USD 100,00 er úthlutað á þetta eina stykki. Niðurstaðan er ofhækkun á áætluðu kostnaðarverði. **Athugið:** Til samanburðar má sjá að ef skrefum 2 og 3 er snúið við í dæminu hér að framan verða 200 vörur hreyfðar út á einingarverðinu USD 1,51, og eitt stykki verður eftir á einingarverðinu USD 1,51. Þar sem þetta verðmögnunartilfelli getur komið upp þegar um neikvæðar birgðir er að ræða er erfitt að forðast eftirfarandi tilfelli:
 
 -   Meta verður úthreyfingaverð á lagerbirgðavirði og magni.
 -   Leiðrétta verður virði lagerbirgða og magn á út- og innhreyfingum.

@@ -1,6 +1,6 @@
 ---
 title: "Stjórnun vaktar og peningaskúffu"
-description: "Þessi skrá útskýrir hvernig á að setja upp og nota tvær gerðir af stað retail sölustað vaktir - samnýtta og standa einir. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu."
+description: "Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
@@ -27,26 +27,29 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="shift-and-cash-drawer-management"></a>Stjórnun vaktar og peningaskúffu
 
-Þessi skrá útskýrir hvernig á að setja upp og nota tvær gerðir af stað retail sölustað vaktir - samnýtta og standa einir. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu.
+[!include[banner](includes/banner.md)]
+
+
+Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu.
 
 Til eru tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : sjálfstæður og samnýttur. Sjálfstæðar vaktir geta aðeins verið notaðar af einum starfskrafti í einu. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum. Þess vegna stofna þeir á árangursríkan hátt eina vakt fyrir marga starfskrafta í verslun.
 
-## <a name="standalone-shifts"></a>Stök vaktir
+## <a name="standalone-shifts"></a>Sjálfstæðar vaktir
 Sjálfstæðar vaktir eru notaðar í hefðbundið, föst POS-aðstæður, þar sem reiðufé er stemmt af sérstaklega fyrir hvern afgreiðslukassa. Til dæmis, í stillingu matvöruverslunar, eru yfirleitt nokkrum fasta afgreiðslukassar og gjaldkeri er úthlutað á hverjum afgreiðslukassa. Í þessu tilfelli notar hvern afgreiðslukassa líklegt sjálfstæða vakt og gjaldkeri er ábyrgur fyrir skúffunni og efnislegu reiðufé á kassanum. Sjálfstæðar vaktir innifela allar aðgerðir á þeim afgreiðslukassa á meðan stendur á vakt gjaldkera. Aðgerðir getur innihaldið upphæð við opnun sem er lögð er inn á afgreiðslukassa, allar úttektir og viðbætur reiðufjár gegnum aðgerðir eins og peningaflutningur í banka og skiptimyntarfærslu, og talning skiptimyntar í lok vaktar.
 
 ### <a name="set-up-a-stand-alone-shift"></a>Setja upp sjálfstæða vakt
 
 Sjálfstæð vakt vakt tiltekin á stigi skúffunnar. Þessu ferli er útskýrt hvernig á að setja upp sjálfstæða vaktinni á afgreiðslukassa Sölustaðar.
 
-1.  Smellið á **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**POS forstillingar**&gt;**vélbúnaðarreglur**.
+1.  Smella á **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarreglur**.
 2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
 3.  Á við **Skúffu** flýtiflipa, staðfesta að **Samnýttum skúffa vaktar** valkostur er stilltur á **Nei**.
-4.  Click **Save**.
-5.  Smellið á **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**Skráir**.
+4.  Smellið á **Vista**.
+5.  Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
 6.  Veljið afgreiðslukassa sem þarf sjálfstæða vakt krefst og smellið síðan á **Breyta**.
 7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Click **Save**.
-9.  Smellið á **Smásölu og commerce**&gt;**Retail ÞAÐ**&gt;**dreifingaráætlun**.
+8.  Smellið á **Vista**.
+9.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
 10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
 
 ### <a name="use-a-stand-alone-shift"></a>Nota sjálfstæða vakt
@@ -62,19 +65,19 @@ Sjálfstæð vakt vakt tiltekin á stigi skúffunnar. Þessu ferli er útskýrt 
 **Athugasemd:** Aðrar aðgerðir eru mögulegar á vakt, eftir því hvaða viðskiptaferli sem eru til staðar. Aðgerðirnar **Peningaflutningur í öryggisskáp**, **peningaflutningur í Banka**, og **Skiptimynt fjarlægð** er hægt að nota til að fjarlægja peninga frá á afgreiðslukassa yfir daginn eða áður en vaktinni er lokað. Ef skúffan er með lítið magn reiðufés, er **Skiptimyntarfærsla ** aðgerð möguleg til notkunar til að bæta peningum við afgreiðslukassa.
 
 ## <a name="shared-shifts"></a>Samnýttar vaktir
-Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta peningaskúffu eða nokkrar peningaskúffur í gegnum vinnudagur. Yfirleitt eru samnýttrar vaktar notað í aðstæðum þar sem notaðir eru færanlegir sölustaðir. Í færanlegu umhverfi, er Hver gjaldkeri ekki úthlutað á og ábyrgur fyrir eina peningaskúffu. Þess í stað verða allir gjaldkerar að geta framkvæmt sölu og bæt reiðufé í hvaða peningaskúffu sem er nálægust þeim. Í þessu dæmi, eru peningaskúffur samnýttar á milli gjaldkerar og um leið teknar með í samnýttrar vaktar. Allar peningaskúffur í samnýttrar vaktar eru teknar með í sama vaktinni vegna verkþætti sem tengjast stjórnun reiðufjár fyrir þá vakt. Þess vegna skal upphafsupphæð fyrir vaktina að innifela samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. Þess vegna mun talning skiptimyntar vera samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. **Athugasemd:** Aðeins einn samnýttrar vaktar hægt er að opna í einu í hverri verslun. Hægt er að nota samnýtta vaktir og sjálfstæðar vaktir í sama verslunarinnar.
+Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta peningaskúffu eða nokkrar peningaskúffur í gegnum vinnudagur. Yfirleitt eru samnýttrar vaktar notað í aðstæðum þar sem notaðir eru færanlegir sölustaðir. Í færanlegu umhverfi, er Hver gjaldkeri ekki úthlutað á og ábyrgur fyrir eina peningaskúffu. Þess í stað verða allir gjaldkerar að geta framkvæmt sölu og bæt reiðufé í hvaða peningaskúffu sem er nálægust þeim. Í þessu dæmi, eru peningaskúffur samnýttar á milli gjaldkerar og um leið teknar með í samnýttrar vaktar. Allar peningaskúffur í samnýttrar vaktar eru teknar með í sama vaktinni vegna verkþætti sem tengjast stjórnun reiðufjár fyrir þá vakt. Þess vegna skal upphafsupphæð fyrir vaktina að innifela samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. Þess vegna mun talning skiptimyntar vera samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. **Athugasemd:** Aðeins er hægt að hafa eina samnýtta vakt opna í hverri verslun í einu. Hægt er að nota samnýtta vaktir og sjálfstæðar vaktir í sama verslunarinnar.
 
 ### <a name="set-up-a-shared-shift"></a>Setja upp samnýttar vaktir
 
-1.  Smellið á **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**POS forstillingar**&gt;**vélbúnaðarreglur**.
+1.  Smella á **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarreglur**.
 2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
 3.  Á við **Skúffu** flýtiflipa, skal stilla **Samnýttum skúffa vaktar** valkostur á **Já**.
-4.  Click **Save**.
-5.  Smellið á **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**Skráir**.
+4.  Smellið á **Vista**.
+5.  Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
 6.  Veljið afgreiðslukassa sem þarf samnýtta vakt og smellið síðan á **Breyta**.
 7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Click **Save**.
-9.  Smellið á **Smásölu og commerce**&gt;**Retail ÞAÐ**&gt;**dreifingaráætlun**.
+8.  Smellið á **Vista**.
+9.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
 10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
 
 ### <a name="use-a-shared-shift"></a>Nota samnýttra vakt.
@@ -93,6 +96,8 @@ Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta pen
 8.  eftir reiðufjár hefur verið fjarlægð úr síðasta peningaskúffu skal telja allt reiðufjár úr öllum peningaskúffur.
 9.  Nota skal **telja skiptimynd ** aðgerð til að telja fram heildarupphæð reiðufjár úr öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar.
 10. Nota skal **Loka vakt** aðgerð til að loka samnýttrar vaktar.
+
+
 
 
 

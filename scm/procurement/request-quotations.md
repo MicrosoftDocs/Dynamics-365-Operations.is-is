@@ -1,5 +1,5 @@
 ---
-title: "Beiðni um tilboð (Niðurstöðuyfirlit)"
+title: "Beiðnir um tilboð (BUT)"
 description: "Þessi grein veitir yfirlit yfir tilboðsbeiðnir (BUT) sem fyrirtæki gefa út þegar þau þurfa að kaupa vöru eða þjónustu og vilja fá samkeppnishæf tilboð frá mörgum lánardrottnum. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint. Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi gjöld eru, eins og sendingarkostnaður, eða hvort lánardrottinn býður upp á afslátt fyrir stórar pantanir eða flýtigreiðslu reiknings lánardrottins."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Beiðni um tilboð (Niðurstöðuyfirlit)
+# <a name="request-for-quotations-rfqs"></a>Beiðnir um tilboð (BUT)
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein veitir yfirlit yfir tilboðsbeiðnir (BUT) sem fyrirtæki gefa út þegar þau þurfa að kaupa vöru eða þjónustu og vilja fá samkeppnishæf tilboð frá mörgum lánardrottnum. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint. Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi gjöld eru, eins og sendingarkostnaður, eða hvort lánardrottinn býður upp á afslátt fyrir stórar pantanir eða flýtigreiðslu reiknings lánardrottins.
 
@@ -37,9 +40,9 @@ Beiðni um tilboð (BUT) ferli fjallar um eftirfarandi:
 
 Eftirfarandi skýringarmynd veitir yfirlit yfir vinna beiðni um TILBOÐ.  
 
-[![Beiðni um tilboð ferli](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
+[![Ferlið beiðni um tilboð](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Hægt er að stofna BUT frá áætlaðar pantanir, úr innkaupabeiðni eða úr handvirkum innslætti. BUT sem eru stofnuð eru kölluð BUT mál og þetta er grunnskjal sem er notað til að gefa út BUT á hvern lánardrottin. Eftir að útbúa beiðni UM tilboð og bæta lánardrottnum, smellið á **Senda** á beiðni UM tilboð og beiðni um TILBOÐ færslubók er mynduð fyrir hvern lánardrottinn sem er send TIL. Hægt er að skilgreina prentstýringarstillingarnar fyrir aðgerðin Senda til að prenta skýrslu fyrir hvern lánardrottin í safni eða senda skýrslu á hvern lánardrottinn tölvupóstfang. Þar að auki er hægt að nota BUT-færslubók  fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.  
+Hægt er að stofna BUT frá áætlaðar pantanir, úr innkaupabeiðni eða úr handvirkum innslætti. BUT sem eru stofnuð eru kölluð BUT mál og þetta er grunnskjal sem er notað til að gefa út BUT á hvern lánardrottin. Eftir að búið er að útbúa BUT og bæta við lánardrottnum, smellið á **Senda** á BUT og BUT-færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentstýringaruppsetningu fyrir Senda aðgerð til að prenta skýrslu fyrir hvern lánardrottin í safni eða senda skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT-færslubók  fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.  
 
 Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið.  
 
@@ -49,18 +52,18 @@ Ef önnur ítrekun svars er krafist fyrir tiltekna lánardrottna, smellið á **
 
 Ef skilyrði fyrir stigagjöf er bætt við BUT málið skal BUT svarið hafa vettvang fyrir stigagjöf þar sem hægt er að færa inn stig. Samtals stig birtast þegar borin eru saman svör á siðuni **bera Saman svör **, þar sem hægt er að bera saman önnur svargögn, svo sem línuverð, afhendingardag og heildarverð.  
 
-Eftir að kauptilboð eða hluti af kauptilboði hefur verið skilgreint er hægt að samþykkja það og hafna afganginum. Samþykki á færslubókum, höfnun færslubækur og samsvarandi skýrslur eru myndaðar. Þessar verður að prenta skjalaðar og send samkvæmt prentstýringarstillingarnar. Þegar notandi samþykkir inn tilboð eða tilteknum línum í tilboð, annað hvort innkaupasamning eða innkaupatillaga mynduð eða innkaupabeiðni er uppfært eftir beiðni um TILBOÐ gerð innkaupa. Hægt er að stofna verðsamninginn sem hægt er að nota síðar fyrir hvaða svör sem er, óháð því hvort þau voru samþykkt eða þeim hafnað.  
+Eftir að kauptilboð eða hluti af kauptilboði hefur verið skilgreint er hægt að samþykkja það og hafna afganginum. Samþykki á færslubókum, höfnun færslubækur og samsvarandi skýrslur eru myndaðar. Þær verða prentaðar, skjalaðar og sendar í samræmi við prentstýringarstillingarnar. Þegar þú samþykkir kauptilboð eða tilteknar línur í kauptilboði, er annaðhvort innkaupasamningur eða innkaupapöntun mynduð eða innkaupabeiðni er uppfærð, það fer eftir gerð BUT innkaupanna. Hægt er að stofna verðsamninginn sem hægt er að nota síðar fyrir hvaða svör sem er, óháð því hvort þau voru samþykkt eða þeim hafnað.  
 
 Staða BUT kemur fram í BUT hausnum og fer eftir stöðu BUT-línanna. Staðan tilgreinir að hversu miklu leyti búið er að vinna BUT. Hver beiðni um TILBOÐ hefur tvö gildi fyrir stöðu: lægstu og hæstu. Lægsta staða er ítarlega kosti stig línu í beiðni um TILBOÐ og hæsta staðan er oftast ítarlega stig línu í beiðni um TILBOÐ. Til dæmis, ef minnst ítarlegt stig í BUT er fyrir línu sem hefur verið stofnuð, er lægsta staða fyrir BUT **mynduð ** . Ef mest ítarlega stig í BUT er fyrir línu sem hefur verið send til lánadrottna, er hæsta staða fyrir BUT **Sent** . Staða er uppfærð sjálfkrafa sem er að vinna beiðni um TILBOÐ.  
 
 Hægt er að skoða lægstu og hæstu stöðu fyrir BUT- haus á síðunni **Allar beiðnir um tilboð**. Hægt er að skoða lægstu og hæstu stöðu fyrir BUT-línu á flipanum **Línur** á síðunni **Beiðni um tilboð**.  
 
-Hér er röð stöður fyrir Tilboðsbeiðnir í vinnslu:
+Röð staða til að vinna BUT er sem hér segir:
 
-1.  **Created**
-2.  **Sent**
-3.  **Received**
-4.  **Samþykkt**/**hætt Við**/**Hafnað**
+1.  **Stofnað**
+2.  **Send**
+3.  **Móttekið**
+4.  **Samþykkt**/**Hætt við**/**Hafnað**
 
 Stöðunum verður lýst nánar í seinni hlutum þessarar greinar.
 
@@ -72,7 +75,7 @@ Stöðunum verður lýst nánar í seinni hlutum þessarar greinar.
 -   Upplýsingar um greiðslu og afhendingarskilmála.
 -   Svæðin sem á að fylgja með í BUT-svarinu
 
-Hægt er að hnekkja þessi gildi fyrir tiltekið BUT-verk. Einnig ætti að skilgreina ferli breytingar. Hluti af þessari stillingu er að hægt er að kveikja á svæðislæsingu. Þegar kveikt er á svæðislæsingu þarf innkaupastjóri sem vill lagfæra BUT fyrst að smella á **Stofna** í **Breytingar** hluta í **Tilboð** flipa. Þegar beiðni um TILBOÐ hefur verið uppfærður með breytingar, í innkaupastjóra verður að ljúka við ferlið með því að smella **Ljúka**. ** ** í Ljúka aðgerð býr til tölvupóst skilaboð sem sé álíta lánardrottna breytta BEIÐNI um. Velja sniðmát fyrir tilkynningu í tölvupósti sem er send til lánardrottna á síðunni **færibreytur Innkaupa og uppruna**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
+Hægt er að hnekkja þessi gildi fyrir tiltekið BUT-verk. Einnig ætti að skilgreina ferli breytingar. Hluti af þessari stillingu er að hægt er að kveikja á svæðislæsingu. Þegar kveikt er á svæðislæsingu þarf innkaupastjóri sem vill lagfæra BUT fyrst að smella á **Stofna** í **Breytingar** hluta í **Tilboð** flipa. Eftir að BUT hefur verið uppfærð með breytingum, þarf innkaupastjóri að ljúka við ferlið með því að smella á **Ljúka**.** **Ljúka aðgerðin býr til tölvupóst skilaboð sem lætur lánardrottna vita um breytta BUT. Velja sniðmát fyrir tilkynningu í tölvupósti sem er send til lánardrottna á síðunni **færibreytur Innkaupa og uppruna**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
 
 -   %Ástæða fyrir ógildingu tilboðs%
 -   %Ástæða breytinga%
@@ -124,7 +127,7 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT þegar BUT er stofnuð og send t
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Aðgerð**                         | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT**                   | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Stofna beiðni um TILBOÐ hauss og línu.    | Stofnaður                      | Stofnaður                                         | Stofnaður                    | Stofnaður                     |
 | Senda beiðni um tilboð á tiltekinn lánardrottin. | Sent                         | Sent                                            | Sent                       | Sent                        |
 | Bæta við öðrum lánardrottni.                | Stofnaður                      | Sent (BUT hefur aðeins verið send til eins lánardrottins.) | Stofnaður                    | Sent                        |
@@ -146,7 +149,7 @@ Ef spurningalisti er tengd við BUT, verður að færa svör við spurningunum h
 
 Ef þarf að færa inn aðrar línur og BUT-verkið heimilar það, skal, í flýtiflipanum fyrir **Innkaupatilboðslínur** smella á **Bæta við línu**. Færðu síðan inn upplýsingar um vöruna, eins og vörunúmer eða innkaupaflokk, magn, verð og afslátt.  
 
-Færa inn svar en krefjast nýtt tilboð frá lánardrottni hægt er að endursenda beiðni um TILBOÐ. Þetta býr til nýja færslubók og skýrslan sem hægt er að nota til að óska eftir breytingum frá lánardrottni.  
+Ef svar hefur verið fært inn en krafist er að fá nýtt tilboð frá lánardrottni er hægt að endursenda BUT. Þetta býr til nýja færslubók og skýrslu sem hægt er að nota til að óska eftir breytingum frá lánardrottni.  
 
 Hægt er að sjá yfirlit yfir allar BUT og stöður svara þeirra á síðunni **Eftirfylgni BUT**.  
 
@@ -154,7 +157,7 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT eftir því sem kauptilboð eru 
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Aðgerð**                                     | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Skrá í tilboð lánardrottins, og vista.        | Sent                  | Móttekið               | Sent                         | Móttekið                      | Sent                       | Móttekið                    |
 | Skrá annað tilboð lánardrottins og vista það. | Móttekið              | Móttekið               | Móttekið                     | Móttekið                      | Móttekið                   | Móttekið                    |
 
@@ -183,9 +186,11 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT þegar kauptilboð frá lánardr
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Aðgerð**              | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Samþykkja eitt af tilboðunum. | Móttekið              | Samþ.                 | Móttekið                     | Samþ.                        | Móttekið                   | Samþ.                      |
 | Hafna öðrum kauptilboðum.  | Hafnað              | Samþ.                 | Hafnað                     | Samþ.                        | Hafnað                   | Samþ.                      |
+
+
 
 
 

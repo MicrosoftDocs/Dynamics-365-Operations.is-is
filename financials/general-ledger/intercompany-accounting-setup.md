@@ -1,6 +1,6 @@
 ---
-title: "Uppsetning bókhalds innan samstæðu"
-description: "Í þessu efnisatriði er útskýrt hvernig á að setja upp bókhald innan samstæðu svo að hægt er að nota samstæðu færslubækur fyrir úthlutun fjárhags og fjárhagsbækur daglegar færslubækur, reikningabókum lánardrottins og greiðslubókum."
+title: "Uppsetning samstæðulykils"
+description: "Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottinns og greiðslubók."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Uppsetning bókhalds innan samstæðu
+# <a name="intercompany-accounting-setup"></a>Uppsetning samstæðulykils
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp bókhald innan samstæðu svo að hægt er að nota samstæðu færslubækur fyrir úthlutun fjárhags og fjárhagsbækur daglegar færslubækur, reikningabókum lánardrottins og greiðslubókum.
+[!include[banner](../includes/banner.md)]
 
-Samstæðu stofna má færslubækur í ýmsum tilvikum, eins og fyrir daglegar færslubækur reikningabók lánardrottna, fjárhagsúthlutunum og miðstýrðar greiðslur. Til að virkja þessi tilvik, verður að setja upp bókhald innan samstæðu.
+
+Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottinns og greiðslubók.
+
+Stofna má samstæðufærslubækur í ýmsum tilvikum, eins og fyrir daglegar færslubækur,  reikning lánardrottinns, fjárhagsúthlutanir og miðstýrðar greiðslur. Til að virkja þessi tilvik, verður að setja upp bókhald innan samstæðu.
 
 ## <a name="define-main-accounts"></a>Skilgreina aðallykla
-Fyrst þarf að stofna aðallykla innan samstæðu til að nota fyrir „Vegna“ og „Gjalddagi“ úr bókhaldsfærslum. Gott er að nota einstaka aðallykla°fyrir hvert fyrirtæki til að auðvelda afstemmingu og losun á bókhaldsfærslum innan samstæðu. Ef verið er að nota til að auðkenna samstæðu aðila viðskiptaaðila eða hliðstæð vídd, hægt er að skilgreina víddina sem föst vídd í aðallykil sem er skilgreind í samstæðubókhaldi. Þegar sett er upp á aðallykla ætti að setja í **lykilgerð Aðal** á **efnahagsreikningur** á í **aðallykla** síðu.
+Fyrst þarf að stofna aðallykla innan samstæðu til að nota fyrir „Vegna“ og „Gjalddagi“ úr bókhaldsfærslum. Gott er að nota einstaka aðallykla°fyrir hvert fyrirtæki til að auðvelda afstemmingu og losun á bókhaldsfærslum innan samstæðu. Ef verið er að nota viðskiptaaðila eða mótaðilavídd að auðkenna samstæðuaðila er hægt að skilgreina víddina sem°fasta vídd í aðallykli sem er skilgreind í samstæðubókhaldi. Þegar°settir eru upp á aðallyklar ætti að stilla svæðið í **Gerð aðallykils** á **Efnahagsreikningur** á síðunni **Aðallyklar**.
 
-## <a name="define-journal-names"></a>Skilgreina færslubókarheiti
-Næst skal skilgreina færslubókarheiti. Setja í **færslubókargerð** á **Daglega** á í **færslubókarnöfn** síðu. Gott er að nota sértækt færslubókarheiti fyrir samstæðu°bókhald.
+## <a name="define-journal-names"></a>Skilgreina heiti færslubókar
+Næst skal skilgreina færslubókarheiti. Stillið **Færslubókargerð** á **Daglega** á síðunni **Heiti færslubóka**. Gott er að nota sértækt færslubókarheiti fyrir samstæðu°bókhald.
 
-## <a name="define-intercompany-accounting-setup"></a>Skilgreina uppsetningu bókhald innan samstæðu
-Í **samstæðubókhald** síða er notuð til að stofna pörum lögaðila sem hægt er að transact með hver annarri. Uppsetning bókhalds innan Samstæðu er samnýtt, þannig að uppsetningu er ekki sýnilegur úr innan alla lögaðila. Þegar nýr lögaðili par, tryggja að hafa í huga lögaðila sem er skilgreind sem upprunafyrirtækið samanborið við viðtökufyrirtækið. Þegar færslur innan samstæðu er færð inn færsluna ákvarðar hvaða lögaðila er byrjað eða færslan er upprunnin. Til dæmis bókhald innan samstæðu er sett upp fyrir USMF (upprunninn) og USSI (áfangastað). Ef notandi er virk í USSI og færir samstæðufærsla með USMF, færslan verður ekki bókuð því bókhald innan samstæðu er aðeins skilgreint fyrir USMF verið upphafsmanns. Ef annað hvort fyrirtækisins geta átt sér færslu, þarf að stofna aðra lögaðila par skráð gagnkvæmt uppsetningu. 
+## <a name="define-intercompany-accounting-setup"></a>Skilgreina uppsetningu samstæðulykils
+Síðan **Samstæðulyklar**,er notuð til að stofna pör lögaðila sem geta átt viðskipti saman. Uppsetning samstæðulykils er samnýtt svo að uppsetningin er sýnileg öllum lögaðilum. Þegar stofna á nýtt lögaðilapar skal tryggja að þú virit hvaða lögaðili er skilgreindur sem upprunafyrirtæki, en ekki áfangastaðarfyrirtæki Þegar viðskipti innan samstæðu eru færð inn ákvarðar færslan hvaða lögaðili er að hefja eða er uppruni færslunnar. Uppsetning samstæðulykils er til dæmis uppsetning fyrir USMF (uppruni) og USSI (áfangastaður). Ef notandi er virkur í USSI og færir inn samstæðufærsla með USMF, verður færslan ekki bíðu þar sem samstæðulyklar eru aðeins skilggreindir fyrir USMF sem uppruna. Ef bæði fyrirtæki geta verið uppruni færslu þarf að stofna annað lögaðilapar fyrir umhverfa uppsetningu. 
 
-Velja á **Skuldfæra á reikning (Gjalddaga frá)** og **Kredit lykill (Gjalddaga til)** fyrir bæði uppruna- og viðtökuvöruhússins lögaðila. Skilgreina sem **færslubókarheiti** verður notað þegar færslan er stofnuð í fyrir viðtökufyrirtækið. Færslubók fyrir upprunafyrirtækið er þekkt þar sem hún valin af notanda þegar innan samstæðu er stofnuð. 
+Veldu **Debetreikningur (á gjalddaga frá)** og **Kreditlykill (í gjalddaga til)** fyrir bæði uppruna- og áfangastaðarlögaðila. Skilgreindu hvaða **Heiti færslubókar** er notað þegar færslan er stofnuð í áfangastaðarfyrirtækinu. Færslubók upprunafyrirtæki er þegar þekkt þar sem hún er valin af notanda þegar samstæðufærslan er stofnuð. 
 
-Að lokum skal velja lögaðilann sem fær bókhald fyrir styðja upphæðir staðgreiðsluafsláttar eða innleystur hagnaður/tap fyrir miðstýrðar greiðslur. 
+Loks skal velja hvaða lögaðili fær sent bókhald fyrir stuðningsupphæðir, s.s. staðgreiðsluafslátt eða innleystur hagnaður/tap fyrir miðstýrð greiðsla. 
 
-Auðveldlega er hægt að setja skráð gagnkvæmt vensl á við **bókhald innan Samstæðu** síðu með því að nota í **Stofna vensl skráð gagnkvæmt** hnappinn eftir fyrsta par lögaðila er stofnuð. Þegar skráð gagnkvæmt par er stofnuð fyrir viðtökufyrirtækið upplýsingarnar eru afritaðar í upprunafyrirtækið og öfugt. Færslubók sem er skilgreind fyrir viðtökufyrirtækið haldast. Flest fyrirtæki nota sama nafnareglu fyrir færslubókarheiti þeirra, svo að heiti færslubókar sem er sú sama. Ef færslubókarheiti er mismunandi mun viðvörun birtast á svæðinu til að tilkynna sem er ekki til í færslubókinni og ekki er hægt að velja aðra færslubók.
+Hægt er að setja upp umhverf tengsl á síðunni **Samstæðulyklar** með því að nota hnappinn **Stofna umhverf tengsl** eftir að fyrsta lögaðilaparið er stofnað. Þegar umhverft par er stofnað  eru upplýsingar um áfangastaðarfyrirtæki afritaðar í upprunafyrirtækið og öfugt. Færslubókin sem skilgreind er fyrir áfangastaðarfyrirtækið helst óbreytt. Flest fyrirtæki nota sömu nafngiftarvenjur fyrir færslubókarheiti og því er heiti færslubókar það sama. Ef heiti færslubókar er annað birtist viðvörun í reitnum til að láta þig vita að færslubók sé ekki til og að hægt sé að velja aðra færslubók.
+
+
 
 

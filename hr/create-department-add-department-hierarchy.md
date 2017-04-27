@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Stofna deild og tengja hana við stigveldi deildar
 
+[!include[banner](includes/banner.md)]
+
+
 Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði. Hægt er að nota deildir til að gefa skýrslur um virk svið. Deildir gætu haft ábyrgðarsvið fyrir hagnað og tap.
 
-deild gæti innifalið hóp af kostnaðarstöðum. Hægt er að úthluta stöðum til deilda. Deild er smellt á **Mannauður**&gt;**Deildir**&gt;**Deild**. Eftirfarandi tafla lýsir svæðum sem eru tiltækir.
+deild gæti innifalið hóp af kostnaðarstöðum. Hægt er að úthluta stöðum til deilda. Til að stofna Deild er smellt á **Mannauður** &gt; **Deildir** &gt; **Deild**. Eftirfarandi tafla lýsir svæðum sem eru tiltæk.
 
 | Reitur               | Lýsing                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ deild gæti innifalið hóp af kostnaðarstöðum. Hægt er að úthluta stöðu
 
 Til að bæta deild við stigveldi deildar, skal fylgja þessum skrefum:
 
-1.  Smellið á **Mannauður**&gt;**Deildir**&gt;**stigveldi Deildar**.
+1.  Smellt er á **Mannauður** &gt; **Deildir** &gt; **Deildastigveldi**.
 2.  Smellið á **Breyta**, og veljið síðan fyrirtæki sem deild ætti að vera undir.
 3.  Smellið á **Setja inn**, og veljið **Deild** á listanum.
 4.  Í lista yfir deildir sem birtist skal velja deild til að bæta við stigveldið.
-5.  Vista breytingarnar. Boð sem drög stigveldi hefur verið stofnuð.
-6.  Þegar þú afskriftareglur eru tilbúnar, smellið á **Birta** í hönnuði stigveldis. Hægt er að færa inn gildisdagsetningu sem tilgreinir hvenær birt stigveldi. Til dæmis til að bæta við nýjum deild við upphaf næsta almanaksárs, skal stilla gildisdagsetningu til 1. Janúar á nýja almanaksárinu. Breytingar á stigveldinu tekur gildi á þeim degi.
+5.  Vista breytingarnar. Þú færð Boð um að drög að stigveldi hefur verið stofnuð.
+6.  Þegar þú ert tilbúinn, smellið á **Birta** í hönnuði stigveldis. Hægt er að færa inn gildisdagsetningu sem tilgreinir hvenær stigveldi skuli birt. Til dæmis til að bæta við nýjum deild við upphaf næsta almanaksárs, skal stilla gildisdagsetningu til 1. Janúar á nýja almanaksárinu. Breytingar á stigveldinu tekur gildi á þeim degi.
+
+
 
 
 

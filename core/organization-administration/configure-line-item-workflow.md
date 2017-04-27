@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Skilgreina Verkflæði línuatriðis
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessu efnisatriði útskýrir hvernig skilgreina á verkflæðiseiningu línuatriðis.
 
 Til að skilgreina verkflæðiseiningu línuatriðis í verkflæðisritlinum, hægrismellt er á einingu og smellið síðan á **Eiginleika** til að opna **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir verkflæðiseining línuatriðis.
 
-## <a name="name-the-lineitem-workflow-element"></a>Heiti lineitem verkflæðiseiningu
+## <a name="name-the-lineitem-workflow-element"></a>Nefndu verkflæðiseiningu línuatriðis
 Fylgið þessum skrefum til að færa inn heiti á verkflæðin línuatriðis.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
@@ -50,6 +53,8 @@ Fylgið eftirfarandi skrefum til að tilgreina hvort sama verkflæði er notað 
     6.  Hægt er að sannreyna að skilyrðin sem voru færð inn hafi verið sett upp rétt með því að smella á **prófa**. Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu og smelltu svo á **prófa**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst. Smelltu á **Í lagi ** eða **hætta við ** til að fara aftur síðuna **forstillingar**.
 
     Á **Verkflæði** flipanum, veljið verkflæðið velja verkflæði sem á að nota við vinnslu línuatriði sem uppfylla skilyrðasettin sem þú skilgreindir.
+
+
 
 
 

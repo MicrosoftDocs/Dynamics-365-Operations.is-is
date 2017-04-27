@@ -1,6 +1,6 @@
 ---
-title: "Verkflæði er notuð til að stjórna upplýsingum starfsmanns"
-description: "Í þessu efnisatriði er útskýrt hvernig hægt er að nota getu verkflæði fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkis verkflæðisins sem er ræst þegar starfsmenn breyta þeirra."
+title: "Verkflæði eru notuð til að stjórna upplýsingum starfsmanns"
+description: "Í þessu efnisatriði er útskýrt hvernig hægt er að nota verkflæðisgetu fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkisverkflæði sem er ræst þegar starfsmenn breyta skráningu sinni."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Verkflæði er notuð til að stjórna upplýsingum starfsmanns
+# <a name="use-workflows-to-manage-employee-information"></a>Verkflæði eru notuð til að stjórna upplýsingum starfsmanns
 
-Í þessu efnisatriði er útskýrt hvernig hægt er að nota getu verkflæði fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkis verkflæðisins sem er ræst þegar starfsmenn breyta þeirra.
+[!include[banner](includes/banner.md)]
 
-Getu verkflæði fyrir mannauð veitir tengilaðila verkflæði fyrir stjórnun mannauðsaðgerðir. Þar að auki er tengilaðila valkostir eru tiltækir þannig að hægt er að breyta tilteknu verkflæði og tengja þá við skýrslugerð stigveldi. Verkflæði eru tiltæk til að aðstoða breytingar á nokkrum staðlaðar gerðir starfsmannaupplýsingar. Hægt er að tengja verkflæði við stöðu. Svo ef starfsmenn þeirra færslu starfsmanns er breytt verkflæðis er hafin sem þarfnast samþykkis áður en nýju upplýsingarnar eru vistaðar. Verkflæði eru forskilgreindar fyrir eftirfarandi gerðir upplýsinga um hjálp við að stjórna hagkvæman hátt breytingar og halda við starfsmenn gögn nákvæmar:
+
+Í þessu efnisatriði er útskýrt hvernig hægt er að nota verkflæðisgetu fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkisverkflæði sem er ræst þegar starfsmenn breyta skráningu sinni.
+
+Verkflæðisgeta fyrir mannauð veitir fjölda verkflæða fyrir stjórnun mannauðsaðgerða. Þar að auki eru fjölmargir valkostir tiltækir svo að hægt er að breyta tilteknum verkflæðum og tengja þau við skýrslustigveldi. Verkflæði eru tiltæk til að aðstoða við stjórnun á breytingum á nokkrum stöðluðum gerðum starfsmannaupplýsinga. Hægt er að tengja verkflæði við stöðu. Síðan, ef starfsmenn breyta skráningu sinni, er verkflæði hafið sem þarfnast samþykkis áður en nýju upplýsingarnar eru vistaðar. Verkflæði eru forskilgreind fyrir eftirfarandi gerðir upplýsinga til að hjálpa við skilvirka stjórnun og halda starfsmannagögnum nákvæmum:
 
 -   Auðkennisnúmer
 -   Námskeið
@@ -39,33 +42,35 @@ Getu verkflæði fyrir mannauð veitir tengilaðila verkflæði fyrir stjórnun 
 -   Verkreynsla
 -   Hæfni
 -   Ábyrgðarstöður
--   Aðgerðir í mannauði
--   Námskeiðsskráningu
+-   Mannauðsaðgerðir
+-   Námskeiðsskráning
 
-Þegar starfsmenn eru ráðnir, fluttar eða hættur, verkflæði taka endurskoðunarferli. Á þennan hátt er hægt að endurskoða skjal eða skilmála aðgerð getur verið skilgreindur sem hluti af verkflæðinu. Þegar endurskoðunarferli er lokið er skjalið eða aðgerð er lokið og verkflæðið flytur endanleg samþykktarskrefi.
+Þegar starfsmenn eru ráðnir, fluttir eða hættir getur verkflæðið innihaldið endurskoðunarferli. Á þennan hátt er hægt að endurskoða skjal eða skilgreina skilmála aðgerðar sem hluta af verkflæðinu. Þegar endurskoðunarferli er lokið er skjalið eða aðgerð lokið og verkflæðið færist yfir í endanlegt samþykktarskref.
 
 ## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Tengja verkflæði við stigveldi stöðu
-Hægt er að tengja verkflæði við öllum þrepum sem er skilgreind. Til dæmis, ef staða tengist skýrslugerð stigveldi fylki, gæti verið að skilgreina verkflæði sem leiðir til kostnaðar fyrir tiltekið verk ábendingu verks í stað stjórnanda þess starfsmanns sem tengist þeirri stöðu. Til að stofna nýtt verkflæði eða breyta fyrirliggjandi verkflæði, á við **mannauður verkflæði** síðunni er smellt á **Nýtt**. Velja verkflæðis í listanum til að hefja hönnuður Verkflæði. Hægt er að nota í hönnuð til að stofna nýtt verkflæði eða breyta skref í verkflæði. Þegar verkflæði er breytt eru breytingarnar vistaðar sem ný útgáfa. Þess vegna er hægt alltaf fara aftur í fyrri útgáfu ef þarf.
+Hægt er að tengja verkflæði við öll stigveldi sem eru skilgreind. Til dæmis, ef staða tengist fylki skýrslustigveldis gætirðu skilgreint verkflæði sem beinir kostnaði fyrir tiltekið verk til verksins í stað stjórnanda þess starfsmanns sem tengist þeirri stöðu. Til að stofna nýtt verkflæði eða breyta fyrirliggjandi verkflæði á síðunni **Verkflæði fyrir mannauð** er smellt á **Nýtt**. Veldu verkflæði í listanum til að hefja Verkflæðishönnuð. Hægt er að nota hönnuðinn til að stofna nýtt verkflæði eða breyta skrefum í fyrirliggjandi verkflæði. Þegar fyrirliggjandi verkflæði er breytt eru breytingarnar vistaðar sem ný útgáfa. Þess vegna er hægt alltaf fara til baka í fyrri útgáfu ef þarf.
 
-## <a name="configure-a-human-resources-workflow"></a>Skilgreina verkflæði fyrir mannauð
-Fylgið eftirfarandi skrefum til að skilgreina grunnupplýsingar verkflæði sem er ræst þegar starfsmönnum er beðið um breytingar á persónuleg kenni þeirra.
+## <a name="configure-a-human-resources-workflow"></a>Grunnstilla verkflæði fyrir mannauð
+Til að grunnstilla grunnverkflæði sem ræsist þegar starfsmenn biðja um breytingar á persónuupplýsingum sínum, skal fylgja þessum skrefum.
 
-1.  Á við **verkflæðum mannauðs** síðunni er smellt á **Nýtt**.
-2.  Veljið í listanum yfir tiltæk verkflæði **tölur Auðkenni**.
-3.  Smellið á **Keyra** til að hefja Verkflæði hönnuður og síðan færa inn notandanafn þitt og aðgangsorð þegar beðið verið.
-4.  Draga skal **Samþykkja kenninúmer** einingu úr listanum yfir verkflæðiseiningar hönnuður striga.
-5.  Samþykktareining til að tengja **Ræsa** og **Ljúka**.
-6.  Tvísmellið á **Samþykkja eining**, og svo hægrismella og velja **Eiginleika**.
-7.  Fylgið eftirfarandi skrefum til að bæta verkleiðbeiningarnar vöru:
-    1.  Velja **Úthlutun**, og veljið síðan **Stigveldi** undir verkefnisgerð.
-    2.  Undir á **Stigveldi** val velja **Skilgreinanleg stigveldi**.
-    3.  Bæta við stöðvunarskilyrði og loka síðan.
+1.  Á síðunni **Verkflæði fyrir mannauð** er smellt á **Nýtt**.
+2.  Í listanum yfir tiltæk verkflæði velurðu **Auðkennisnúmer**.
+3.  Smellið á **Keyra** til að hefja Verkflæðishönnuð og færið síðan inn notandanafn þitt og aðgangsorð við kvaðningu.
+4.  Draga skal eininguna **Samþykkja auðkennisnúmer** úr listanum yfir verkflæðiseiningar á hönnunarstrigann.
+5.  Tengja samþykktareininguna við **Ræsa** og **Ljúka**.
+6.  Tvísmellið á **Samþykkja einingu** og hægrismellið svo og veljið **Eiginleika**.
+7.  Fylgja skal þessum skrefum til að bæta við vöruleiðbeiningum:
+    1.  Veldu **Úthlutun** og veldu síðan **Stigveldi** undir úthlutunargerð.
+    2.  Undir valinu **Stigveldi** skal velja **Skilgreinanleg stigveldi**.
+    3.  Bæta við stöðvunarskilyrði og loka síðunni.
 
-8.  Lokið öllum viðbótarleiðbeiningar (engar aðrar viðvaranir eiga til).
-9.  Smellið á **Vista og loka**. Virkja verkflæðið þegar svargluggann reitnum opnast og velja **Gera virka**.
-10. Fara í **Mannauður**&gt;**Stöður**&gt;**stigveldisgerðir Stöðu**.
+8.  Lokið öllum viðbótarleiðbeiningum (engar aðrar viðvaranir eiga að vera til).
+9.  Smellið á **Vista og loka**. Virkja nýja verkflæðið þegar svarglugginn opnast og velja **Gera virka**.
+10. Fara í **Mannauð**&gt;**Stöður**&gt;**Stigveldisgerðir stöðu**.
 11. Velja **Fylki**.
-12. Bæta við **kenninúmer Starfsmanns** verkflæði við listann.
+12. Bæta við verkflæðinu **Auðkennisnúmer starfsmanns** við listann.
+
+
 
 
 

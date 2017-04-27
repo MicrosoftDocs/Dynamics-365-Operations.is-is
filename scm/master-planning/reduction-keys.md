@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Minnkunarlyklar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur dæmi um hvernig eigi að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Dæmi 1: Prósenta - minnkunarlykill spá lækkunarregla
@@ -58,7 +61,7 @@ Ef spárröðun er keyrð 1. Janúar, eru spáþarfir eftirspurnar nýttar samkv
 | Apríl                | 750                       |
 | Maí til og með desember | 1.000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Dæmi 2: Færslur-minnkunarlykill lækkunarreglu spá
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Dæmi 2: Færslur  minnkunarlykill spá lækkunarreglu
 Þetta dæmi sýnir hvernig raunverulegar pantanir sem eiga sér stað á tímabilum sem eru skilgreind af minnkunarlykli minnka kröfur eftirspurnarskrár.
 
 -   Á **Aðaláætlanir** síðunni,°í **Lækkunarreglu** svæðinu, veljið **Færslur - minnkunarlykill**.
@@ -82,7 +85,7 @@ Ef sama söluspá fyrir 1.000 stykki á mánuði er notuð er eftirfarandi þarf
 | Apríl                | 881                       |
 | Maí til og með desember | 1.000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Dæmi 3: Breytilegt tímabil Færslur lækkunarreglu spá
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Dæmi 3: Færslur breytileg tímabil spá lækkunarreglu
 Í flestum tilvikum eru kerfi sett upp þannig að færslur minnka eftirspurnarspár innan tiltekna spátímabila: vikur, mánuðir, og svo framvegis. Þessi tímabil eru skilgreind í minnkunarlyklinum. Hins vegar getur tíminn milli tveggja eftirspurnarspárlína einnig *gefið til kynna* tímabil.
 
 1.  Stofna eftirspurnarspá fyrir eftirfarandi dagsetningar og magn.
@@ -129,6 +132,8 @@ Hér er samantekt af°**Færslur - breytilegt tímabil** lækkun:
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master plans](master-plans.md)
+[Aðaláætlanir](master-plans.md)
+
+
 
 

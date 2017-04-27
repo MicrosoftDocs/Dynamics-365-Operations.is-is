@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir áætlaðan kostnað
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig er hægt að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri kostnaðarútgáfu fyrir áætlaðan kostnað.
 
 Hægt er að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri útgáfu af kostnaðarútreikningi fyrir áætlaðan kostnað. Notið þessa aðskildu útgáfu kostnaðarútreikningsins til að færa inn biðkostnaðarfærslur sem endurspegla stigvaxandi kostnaðarbreytingar og til að reikna út kostnaðaráhrif á framleiddar vörur. Þar sem varaúrræði virks kostnaðar er notaður í uppskriftarútreikningunum þarf einungis að færa stigvaxandi kostnaðarbreytingarnar inn.
@@ -54,5 +57,7 @@ Eftirfarandi dæmi sýna notkun hermdra kostnaðarútgáfa til að herma eftir �
 -   Herma eftir kostnaðarbreytingu í reikniformúlu óbeins kostnaðar. Til dæmis gæti kostnaðarbreytingin endurspeglað viðbúna hækkun eða lækkun á framleiðslurekstrarkostnaði. Til að skilgreina breytinguna í reikniformúlu óbeins kostnaðar skal nota síðuna **uppsetning kostnaðarskjals** til að færa inn biðkostnaðarfærslu í hermdri kostnaðarútgáfu og til að villuleita og vista breytinguna.
 
 Eftir að hermdu kostnaðarbreytingarnar hafa verið færðar inn skal reikna út kostnað þeirra framleiddu vara sem verða fyrir mestum áhrifum af kostnaðarbreytingunum. Notið síðuna **Útreikningur** fyrir hermda kostnaðarútgáfu og tilgreinið þær völdu framleiddu vörur sem verða fyrir áhrifum af kostnaðarbreytingunum. Uppskriftarútreikningarnir eiga við um allar framleiddar vörur nema tilteknar vörur séu valdar. Einnig er hægt að nota valkost uppskriftarútreiknings fyrir uppfærslur „þar sem er notað“. Skoðið kostnaðarfærslur vara í hermdri kostnaðarútgáfu til að greina hvernig hermdar kostnaðarbreytingar höfðu áhrif á kostnað valdra framleiddra vara. Nota skal **vöruverð** síðu og **Reikna vörukostnað** síðu til að skoða og greina kostnaðinn.
+
+
 
 

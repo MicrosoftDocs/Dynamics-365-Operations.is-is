@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Frammistöðustjórnunaryfirlit
 
+[!include[banner](includes/banner.md)]
+
+
 Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.  
 
 Eins og eftirfarandi skýringarmynd sýnir, það eru þrennt síða sem auðvelda þér stjórna ferlið:
@@ -34,7 +37,7 @@ Eins og eftirfarandi skýringarmynd sýnir, það eru þrennt síða sem auðvel
 -   Markmið
 -   Frammistöðurýni
 
-Eftirfarandi skýringarmynd sýnir hvernig eingreindur íhluti af frammistöðustjórnun er tengdur hver öðrum. [![Yfirlit yfir afköst ferlis](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Eftirfarandi skýringarmynd sýnir hvernig eingreindur íhluti af frammistöðustjórnun er tengdur hver öðrum. [![Frammistöðustjórnunaryfirlit](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Frammistöðubók
 Áður en yfirferðinni er lokið er oft safnað upplýsingum um verkþætti eða tilvik sem leiddu til árangurs þíns sem starfsmanns á endurskoðunartímabilinu. Hægt er að bæta færslu við frammistöðubókina til að skrá þær aðgerðir og tilvik. Að auki er hægt að búa til aðgerðir í framtíðinni sem þarf að klára til að hjálpa þér að ná markmiðinu, uppfylla kröfur í þróunaráætlun, eða uppfylla skuldbindingu um frammistöðu. Ekki er þörf á frammistöðubókum til að búa til markmið eða umsagnir um frammistöðu. 
@@ -132,7 +135,7 @@ Hægt er að nota starfskraftur yfirferð verkflæði til að stýra endurskoðu
 Starfskraftur umsögn verkflæði hefur tvö verkferli:
 
 1.  Samþykkja yfirferð. Bæta þessu þætti til að stjórna stöðubreytingu frá **í vinnslu** í **Tilbúið fyrir endurskoðun**. Breyta úthlutun til að nota stjórnendastigveldi þar sem Employee.line yfirmaður stig = 1.
-2.  Lokaendurskoðun. Bæta við þessa einingu til að stjórna stöðu breytt úr **Tilbúnar til endurskoðunar** á **Endanleg yfirferð**. Breyta verkefni sem nota á stjórnendastigveldinu þar sem stig línustjórnanda Employee.line = 1 ef óskað er eftir að stjórnandi að samþykkja endanleg yfirferð. Breyta úthlutun í verkflæði notandi ef þú vilt að starfsmaður samþykki. Ef þú vilt að bæði yfirmaður og starfsmaður samþykki, bæta tveimur skrefum í verkflæði og gera viðeigandi úthlutun fyrir hvert skref í röðinni sem þú vilt að samþykkt fylgi.
+2.  Lokaendurskoðun. Bæta þessu þætti til að stjórna stöðubreytingu frá **Tilbúið fyrir endurskoðun** í **Lokaendurskoðun**. Breyta úthlutun til að nota stjórnendastigveldi þar sem Employee.line yfirmaður stig = 1 ef þú vilt að yfirmaður samþykki lokaendurskoðun. Breyta úthlutun í verkflæði notandi ef þú vilt að starfsmaður samþykki. Ef þú vilt að bæði yfirmaður og starfsmaður samþykki, bæta tveimur skrefum í verkflæði og gera viðeigandi úthlutun fyrir hvert skref í röðinni sem þú vilt að samþykkt fylgi.
 
 ## <a name="setup"></a>Uppsetning
 Það eru þrjár síður sem hjálpa þér að setja upp upplýsingar sem er krafist til þess að ljúka frammistöðuferli: **mælingar**síða, **upprunagerðir frammistöðubók** síða og **endurskoðunargerðir** síða.
@@ -148,5 +151,7 @@ Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá.
 ### <a name="review-types"></a>Gerðir yfirferðar
 
 Frammistöðurýni gerð hjálpar þér að stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögn ekki nota verkflæði, þú getur skilgreint sjálfgefna stöðu sem verður notuð þegar umsögn er stofnuð. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
+
+
 
 

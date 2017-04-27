@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Afskriftaraðferðir og venjur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics AX.
 
 Hægt er að velja ýmsar afskriftaaðferðir og reglur. Tilgangur aðferðanna er að úthluta afskriftavirði eignarinnar á fjárhagstímabil. Afskriftavirði eignarinnar er kaupverðið að frádregnu hugsanlegu rýrnunarvirði. 
@@ -66,26 +69,27 @@ Hægt er að velja á milli eftirfarandi afskriftaraðferða.
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Afskriftir eigna](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Línuleg afskrift líftíma](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Afskrift bókfærðs virðis](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Handvirkar afskriftir](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Afskrift stuðuls](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Notkunarafskrift](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Línuleg afskrift eftirstandandi líftíma](straight-line-life-remaining-depreciation.md)
 
-[125% bókfært virði afskrift](125-percent-reducing-balance-depreciation.md)
+[Afskriftir fyrir 125% bókfært virði](125-percent-reducing-balance-depreciation.md)
 
-[150% bókfært virði afskrift](150-percent-reducing-balance-depreciation.md)
+[Afskriftir fyrir 150% bókfært virði](150-percent-reducing-balance-depreciation.md)
 
-[175% bókfært virði afskrift](175-percent-reducing-balance-depreciation.md)
+[Afskriftir fyrir 175% bókfært virði](175-percent-reducing-balance-depreciation.md)
 
-[200% bókfært virði afskrift](200-percent-reducing-balance-depreciation.md)
+[Afskriftir fyrir 200% bókfært virði](200-percent-reducing-balance-depreciation.md)
+
 
 

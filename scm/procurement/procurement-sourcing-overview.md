@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Yfirlit yfir „Innkaup og aðföng“
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir þá virkni sem er fáanleg í Innkaupa- og aðfangakerfi.
 
 Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyrir vöru og þjónustu þar til afurð er keypt, innhreyfingar, reikningsfærslur og vinnsla á greiðslu með lánardrottnum. Hægt er að stilla innkaupaferli að þörfum tiltekins fyrirtækis með því að skilgreina innkaupa reglur og verkflæði.
@@ -37,14 +40,14 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
   
 Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér°*beiðni um tilboð *senda mörgum mögulegum lánardrottnum. Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær. Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.  
 
-Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn *til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottna eru settar upp til að nota í **Lánardrottins** portal * * aðgerðum fyrirspurn er óvirkur. Í staðinn er pöntun samnýtt í** Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
+Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn *til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gátt fyrir **Lánardrottinn**,* *er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í** Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
 
 *Vörulistar lánardrottna *er hægt að nota til að safna upplýsingum um vöruúrval sem lánardrottnar geta útvegað. Lánardrottnar geta birt sína eigin vörulista þannig að það er auðveldara að halda vörulista°uppfærðum. Mögulegt er að tengja°*samþykktur listi lánardrottins* við afurð,°og það getur hjálpað til við val á lánardrottni þegar nýjar innkaupapantanir eru opnaðar, og koma í veg fyrir að nota°lánardrottna sem ekki var ætlunin að nota.
 
 ## <a name="procurement"></a>Innkaup
 *Innkaupapantanir *er hægt að stofna á marga vegu þar á meðal:
 
--   Sem niðurstaða áætlanagerð sem hefur fundið við eftirspurn sem krefst innkaup. Þetta ferli myndar áætlaðar pantanir, og þegar þær eru losaðar innkaupapantanir eru myndaðar.
+-   Sem niðurstaða áætlanagerðar sem hefur sklgreint°eftirspurn sem krefst innkaupa. Þetta ferli myndar áætlaðar innkaupakröfur, og þegar þær eru losaðar eru innkaupapantanir myndaðar.
 -   Gegnum°vinnslu innkaupabeiðna sem leiða til innkaupa.
 -   Gegnum vinnslu innkaupasamninga, þar sem innkaupapantanir eru stofnaðar sem losaðar pantanir úr samningum. Þetta er yfirleitt notað þegar innkaupasamningar eru notaðir til að tákna standandi pantanir.
 -   Handvirkt, þegar innkaupapöntun er stofnuð sem er ekki byggð á öðru skjali.
@@ -53,7 +56,7 @@ Innkaupapantanir sem eru skilgreindar með *innkaupa samþykktarverkflæði* kre
 
 Innkaupapantanir eru *staðfestar* til að tákna að til samnings hafi verið stofnað með lánardrottni. Innkaupapöntun mun síðan miða áfram í áföngum gegnum mismunandi aðila°fram að því að hún verður að lokum°reikningsfærð eða hætt við hana.  
 
-Þegar innkaupapöntun er stofnuð mörg svæði eru prepopulated með gildum sem eru sjálfgefnar úr upplýsingunum sem geymdar eru um lánardrottinn í á **Lánardrottna** síðu. Þetta þýðir að það eru takmarkaður fjölda svæða sem nauðsynleg eru að fylla inn í í innkaupapöntun, en þó er hægt að velja að hnekkja sjálfgefnum gildum.
+Þegar innkaupapöntun er stofnuð eru mörg svæði þegar með útfylltum gildum sem eru sjálfgefin úr upplýsingunum sem geymdar eru um lánardrottinn á síðunni **Lánardrottnar**. Þetta þýðir að það eru takmarkaður fjölda svæða sem nauðsynleg eru að fylla inn í í innkaupapöntun, en þó er hægt að velja að hnekkja sjálfgefnum gildum.
 
 ### <a name="prices-and-discounts"></a>Verð og afsláttur
 
@@ -86,5 +89,7 @@ Reikningsfærðar innkaupapantanir munu skrá skuld í lánardrottnareikning inn
 
 ## <a name="vendor-performance"></a>Afköst lánardrottins
 Afköst og endurskoðun innkaupa er studdur gegnum *innkaupa- og viðskiptaskuldaskýrslur,* sem innihalda eyðslugreiningu og frammistöðugreiningu lánardrottins.
+
+
 
 

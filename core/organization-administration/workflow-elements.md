@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Verkflæðiseiningar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
 
 Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einingu gerð einingar.
@@ -55,14 +58,14 @@ Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einin
 -   Biðja um breytingu á skjalinu.
 -   Úthluta skjalinu til annars notanda til samþykktar.
 
-## <a name="lineitem-workflow-elements"></a>Lineitem verkflæðiseiningar
-Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Mælt vísar þetta verkflæði sem er *verkflæði í skjalið*.) Hægt er að bæta við *verkflæði línuatriðis* einingu í verkflæði sem skjalið. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala. ![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif) í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:
+## <a name="lineitem-workflow-elements"></a>Verkflæðiseining línuatriðis
+Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala. ![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif) í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:
 
 -   **verkflæði línuatriðis 1** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 1111.
 -   **Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.
 -   **Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.
 
-## <a name="flowcontrol-elements"></a>Flowcontrol einingar
+## <a name="flowcontrol-elements"></a>Einingar flæðistýringar
 Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar greinar eða greinar sem keyra á sama tíma.
 
 ### <a name="manual-decision"></a>Handvirk ákvörðun
@@ -80,5 +83,7 @@ Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar gr
 ### <a name="subworkflow"></a>Undirverkflæði
 
 *Undirverkflæði * er verkflæði sem keirir í samhengi við annað yfirverkflæði.
+
+
 
 

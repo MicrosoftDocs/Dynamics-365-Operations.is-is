@@ -1,6 +1,6 @@
 ---
 title: "Dreifa og ljúka spurningalista"
-description: "Í þessu efnisatriði er útskýrt hvernig dreifa á spurningalista sem er hannaður skal þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem ljúka við þær."
+description: "Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Dreifa og ljúka spurningalista
 
-Í þessu efnisatriði er útskýrt hvernig dreifa á spurningalista sem er hannaður skal þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem ljúka við þær. 
+Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 
 Það eru margar leiðir til að Dreifa spurningarlista:
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 -   Stofna áætlun. Spurningalisti þá er tiltækt til fjölda fólks.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Merkja spurningalistann sem virkan
-Með því að stilla á **Virka** á **Já** á í **Spurningalistum** síðu er að nálgast spurningalistann fyrir alla starfsmenn til að ljúka. Svarendur geta svarað spurningalistanum mörgum sinnum. Þessi virkni er gagnlegt ef ætlunin er að safna continual svörun í gegnum árið. Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.
+Með því að stilla svæðið á **Virk** á **Já** á í **Spurningalista** síðu er spurningalistann að nálgast fyrir alla starfsmenn til að ljúka. Svarendur geta svarað spurningalistanum mörgum sinnum. Þessi virkni er gagnlegt ef ætlunin er að safna stöðugri svörun í yfir árið. Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.
 
 ## <a name="questionnaire-groups"></a>Spurningalistaflokkar
 Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að dreifa spurningalista til. 
@@ -48,7 +48,7 @@ Hægt er að stofna spurningalista úr eftirfarandi síðum:
 -   **Spurningalistaflokkar **– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann. Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.
 -   **Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .
 
-Til að úthluta til flokk spurningalista við spurningalista á í **Spurningalistum** síðunni er smellt á **notandaréttindi**. Eftir að spurningalista eru vistaðar sem virka meðlimir flokksins spurningalistann geta svarað spurningalistanum. Þessi aðgerð er gagnleg ef á að prófa spurningalista á valinn hóp fólks áður en að rúlla hann stærri flokk eða ef óskað er eftir að markmið spurningalista til mjög tiltekna markhópur.
+Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**. Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum. Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Áætluð svarseta í spurningalista
 Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir. 
@@ -82,24 +82,24 @@ Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spu
 
 Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað. 
 
-Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hverja tilvísunargerð samsvarar töflu í Microsoft Dynamics 365 fyrir Aðgerðir. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
+Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hvert gerð tilvísunar samsvara til tafla í Microsoft Dynamics 365 for Operations. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
 
 Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir. Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.
 
 ### <a name="questionnaire-schedules"></a>Áætlanir spurningalista
 
-Hægt er að nota áætlanir spurningalista til að mynda mörg áætluð svarsetur fyrir flokk af notendum sem byggja á gerð tilvísunar. Stofna áætlun fyrir **áætlanir Spurningalista** síðu. Veljið gerð fjárhagsáætlunargerðar til að flokka röðunar og einnig að velja gerð tilvísunar sem á að nota til að spyrjast fyrir um kerfi fyrir tiltekna notendur. Til dæmis, ef tilvísunargerð er sett í töfluna Námskeið er hægt að velja ákveðið námskeið í á **Tilvísun** svæði. 
+Hægt er að nota spurningalisti áætlun til að Mynda margt áætlað svarseta fyrir flokka notenda, á grunni gerð tilvísunar. Stofnaðu áætlun á síðunni **áætlanir Spurningalista**. Veldu áætlunargerð til að flokka áætlun, og einnig velurðu gerð tilvísunar sem ætti að nota til að fyrirspurn kerfið um tilgreinda notendur. Til dæmis ef þú stillir gerð tilvísunar á námskeiðatöflu er hægt að velja tilgreint námskeið í svæðinu **tilvísun**. 
 
-Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum. Til dæmis tilgreina nafni leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda. Eftir að lokið hefur verið fært inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni. 
+Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum. Til dæmis skal tilgreina nafn leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda. Eftir að lokið hefur verið að færa inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni. 
 
 Smellið á **Áætlaðar svarsetur** til að skoða svarsetur fyrir röðunina. Síðan er að stofna handvirkt viðbótar áætlaðar svarsetur eða eyða áætluðum svarsetum sem hefur ekki verið svarað. 
 
-Smellt er á **Aðgerðir**&gt;**Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur. Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann. Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.
+Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur. Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann. Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Tilkynna svarendum um tiltæka spurningalista
 Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir. 
 
-**Athugasemd:** Svarendur verða að vera notendur í Microsoft Dynamics 365 aðgerða til að fylla út spurningalista.
+**Athugasemd:** Svarandi verður að vera notandi í Microsoft Dynamics 365 for Operations til að klára spurningalista.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Tilkynna svarendum um áætlaða svarsetu
 
@@ -107,7 +107,7 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns ** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir**&gt;**Senda tölvupóst** til að búa til og senda í tölvupósti til svarendur. Svarendur geta síðan innskráning á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns ** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
 **Ábending:** áður En hægt er að nota virkni tölvupósti, þarf kerfisstjórinn upplýsingatækni að færa inn stillingar fyrir tölvupóst í **færibreytur tölvupósts** síðu.
 
@@ -119,7 +119,7 @@ Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa loki�
 ## <a name="completing-questionnaires"></a>Að klára spurningalista
 Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur. Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:
 
--   Í skoðunarrúðunni þarf að smella á **Spurningalista**&gt;**Distribute**&gt;**Spurningalistanum**.
+-   Í skoðunarrúðunni þarf að smella á **Spurningalista** &gt; **dreifa** &gt; **klára Spurningalistanum**.
 -   Í sjálfsafgreiðslu Starfsmanns, smellið á **Spurningalista til að ljúka**.
 
 Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.
@@ -131,6 +131,6 @@ Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendah�
 
 [Nota spurningalista.](questionnaires.md)
 
-[Skoðun og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
 
 

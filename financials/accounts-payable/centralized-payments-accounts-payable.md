@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Miðstýrðar greiðslur fyrir viðskiptaskuldir
 
+[!include[banner](../includes/banner.md)]
+
+
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þar að auki sparar fyrirtækið tíma þar sem greiðsluferlið er aðlagað.
@@ -66,14 +69,14 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinslykil 100, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-greiðsla er jöfnuð með Fabrikam East-reikningi
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
 | Á gjalddaga frá Fabrikam East (Fabrikam) | 600,00       |               |
 | Lánadrottnar (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                          | Debet-upphæð | Kreditupphæð |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinn 100, Fourth Coffee. Reikn
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-greiðsla er jöfnuð með Fabrikam East-reikningi
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
 | Á gjalddaga frá Fabrikam East (Fabrikam) | 580,00       |               |
 | Lánadrottnar (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                          | Debet-upphæð | Kreditupphæð |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinn 100, Fourth Coffee. Fabri
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-greiðsla er jöfnuð með Fabrikam East-reikningi
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð            | Kreditupphæð           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinn 100, Fourth Coffee. Fabri
 | Rauntap (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Á gjalddaga frá Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                          | Debet-upphæð            | Kreditupphæð           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinn 100, Fourth Coffee. Reikn
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-greiðsla er jöfnuð með Fabrikam East-reikningi
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð            | Kreditupphæð           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East hefur opinn reikning fyrir lánadrottinn 100, Fourth Coffee. Reikn
 | Rauntap (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Á gjalddaga frá Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                          | Debet-upphæð            | Kreditupphæð           |
 |----------------------------------|-------------------------|-------------------------|
@@ -224,7 +227,7 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-greiðsla er bókuð með Fabrikam West-reikningi og Fabrikam East-kreditnótu
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth
 | Á gjalddaga frá Fabrikam West (Fabrikam) | 100,00       |               |
 | Lánadrottnar (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                           | Debet-upphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
 | Á gjalddaga frá Fabrikam (Fabrikam East) | 25,00        |               |
 | Lánadrottnar (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-bókun**
 
 | Lykill                          | Debet-upphæð | Kreditupphæð |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth
 | Á gjalddaga til Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Dæmi 6: Kreditnóta lánadrottins án aðalgreiðslu
-Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth Coffee. Greiðslan er jöfnuð með opnuð reikningi fyrir Fabrikam West lánadrottinn 3004 og opinni kreditnótu fyrir Fabrikam East lánadrottinn 100. Greiðslan er ekki valin sem aðalgreiðsla í á **Jafna færslur** síðu.
+Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth Coffee. Greiðslan er jöfnuð með opnuð reikningi fyrir Fabrikam West lánadrottinn 3004 og opinni kreditnótu fyrir Fabrikam East lánadrottinn 100. Greiðslan er ekki valin sem aðalgreiðsla á síðunni **Jafna færslur**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Reikningur er bókaður til Fabrikam West fyrir lánadrottinn 3004
 
@@ -273,21 +276,21 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-greiðsla er bókuð með Fabrikam West-reikningi og Fabrikam East-kreditnótu
 
-**Fabrikam posting**
+**Fabrikam-bókun**
 
 | Lykill                           | Debet-upphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
 | Á gjalddaga frá Fabrikam West (Fabrikam) | 75,00        |               |
 | Lánadrottnar (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East-bókun**
 
 | Lykill                                | Debet-upphæð | Kreditupphæð |
 |----------------------------------------|--------------|---------------|
 | Á gjalddaga frá Fabrikam West (Fabrikam) | 25,00        |               |
 | Lánadrottnar (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-bókun**
 
 | Lykill                              | Debet-upphæð | Kreditupphæð |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánadrottinn 3004, Fourth
 | Á gjalddaga til Fabrikam (Fabrikam West)      |              | 75,00         |
 | Lánadrottnar (Fabrikam West)     | 25,00        |               |
 | Á gjalddaga til Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

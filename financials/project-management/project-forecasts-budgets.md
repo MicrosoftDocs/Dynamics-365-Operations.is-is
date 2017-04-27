@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Verkspár og fjárhagsáætlanir
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 fyrir Aðgerðir býður upp á tvær leiðir til að hafa umsjón með og stjórna verkum: verkspár og fjárhagsáætlanir verks. 
+
+
+Tvær leiðir eru til að hafa umsjón með og stjórna verkum í Microsoft Dynamics 365 for Operations: verkspár og fjárhagsáætlanir verks. 
 
 Hægt er að nota verkspá ef fyrirtækið hefur rekstraráætlanagerðar sjónarhorn og áherslu á tekjur og kostnaður sem er afleidd af tilteknar færslur. Hins vegar, ef fyrirtæki þitt leggur frekari áherslu á fjárhagslegar upphæðir, hægt er að nota fjárhagsáætlanir. 
 
@@ -45,9 +48,9 @@ Hvor aðferð hefur sína kosti. Eftirfarandi stig ætti að íhuga áður en gr
 | **Færslubreytur ** | Þegar færðar eru inn spáfærslur hægt er að nota hvert eigind sem er til staðar fyrir raunverulega færslu. Þetta gefur ítarlegri upplýsingar í spánni. Til dæmis er hægt að færa inn upplýsingar um magn, starfsmenn, atriði eða línueiginleika.         | Þegar færðar eru inn upplýsingar um fjárhagsáætlun, er hægt að nota aðeins upphæðir, tegundir og verkþætti.                                                                                    |
 | **Öryggi **              | Spá er byggð á færslum sem eru færðar inn í skjámyndunum spár og felur í sér engin ferli fjárhagsáætlunarstýringar. Hvaða starfsmaður sem hefur heimild fyrir spáskjámynd getur endurskoða upplýsingarnar án samþykkis.                                        | Fjárhagsáætlun notar verkflæðiskerfi, sem styður breytingastjórnun og gerir þér kleift að vista sögu endurskoðana.                                                       |
 | **Færslugerð **           | Færslur spáfærslu byggjast á fjölda eininga og á kostnaði og verði sölueiningarinnar.                                                                                                                                                       | Upplýsingar um fjárhagsáætlun eru byggðar á upphæðum sem er skipt á milli kostnaðar og tekna.                                                                                        |
-| **Forecast models**       | Þar sem hver spá verður að vera tengd líkani, er hægt að stofna mörg spálíkön og einnig að setja upp undirlíkön.                                                                                                                               | Fjárhagsáætlun verks takmarkar spálíkön sem notuð eru fyrir fjárhagsáætlanir. Færri spálíkön aðstoða við að auka samræmi í spám.                           |
+| **Spálíkön**       | Þar sem hver spá verður að vera tengd líkani, er hægt að stofna mörg spálíkön og einnig að setja upp undirlíkön.                                                                                                                               | Fjárhagsáætlun verks takmarkar spálíkön sem notuð eru fyrir fjárhagsáætlanir. Færri spálíkön aðstoða við að auka samræmi í spám.                           |
 | **Umframkostnaður **         | Aðeins er hægt að leyfa eða banna skráningu á færslum sem valda umframkostnaði.                                                                                                                                                                | Fjárhagsáætlun verks veitir viðbótar stýringarvalkosti fyrir notendur. Hægt er að leyfa viðvaranir og að farið sé fram úr.                                                                   |
-| **Control**               | Spástýring er framkvæmd með því að nota lækkun spár. Raunupphæðir eru dregnar frá spáfærslu stöðu án endurskoðunarslóðar. Þetta getur gert það erfiðara að rekja hvar raunverulegar færslur áttu sér stað.                   | Í fjárhagsáætlunarstýringu verks eru raunupphæðir dregnar frá upphæðum í eftirstöðvum fjárhagsáætlunar. Þetta gefur skýrari endurskoðunarslóð.                                   |
+| **Stýringar**               | Spástýring er framkvæmd með því að nota lækkun spár. Raunupphæðir eru dregnar frá spáfærslu stöðu án endurskoðunarslóðar. Þetta getur gert það erfiðara að rekja hvar raunverulegar færslur áttu sér stað.                   | Í fjárhagsáætlunarstýringu verks eru raunupphæðir dregnar frá upphæðum í eftirstöðvum fjárhagsáætlunar. Þetta gefur skýrari endurskoðunarslóð.                                   |
 
 ## <a name="project-forecasts"></a>Áætlanir verka
 Þegar spá um verk er notuð, er hægt að færa spárfærslur í spárskjámyndiur fyrir hverja færslugerð. Hægt er að nota hvert eigind sem er tiltækt fyrir raunverulega spáfærslu; til dæmis arðsemisgreiningu línu, eigindir línu, starfsmenn eða lýsingar. Einnig er hægt að áætla hversu langt líður frá því þú stofnar til kostnaðar og þar til viðskiptavinur er reikningsfærður. 
@@ -62,7 +65,7 @@ Spálíkön geta notað lækkun spár sem ferli fjárhagsáætlunarstýringar fy
 
 Verkspár er hægt að endurskoða, afrita, eyða eða flytja í fjárhagsáætlun. Samt sem áður er engin ferlisstýring. Allir starfsmenn með leyfi fyrir spáskjámynd geta gert breytingar án endurskoðunar.
 
--   ** Endurskoða ** – Hægt er að endurskoða spáfærslu í sömu skjámyndir þar sem upprunalega færslur voru gerðar.
+-   **Endurskoða ** – hægt er að gera breytingar á spáfærslu í sömu skjámyndum þar sem upprunalegar færslur voru gerðar.
 -   **Afrita eða eyða**°- þegar þú afritar spáfærsla afritarðu færslulínurnar af einu spárlíkani í annað spárlíkan. Þegar spá er eytt eyðirðu spárfærslum úr spárlíkaninu. Til að takmarka spárfærslurnar sem óskað er að afrita eða eyða, veljið sérstakar fæslugerðir og dagsetningar. Þannig°er hægt að afrita eða eyða tilgreindum hlutum í spá.
 -   **Millifærsla** – Þegar þú flytur verkspá til fjárhagsáætlunarskýrsla, flytur þú spáfærslu af spárlíkani til fjárhagsáætlunarskýrslu. Hægt er að hnekkja öllum áður fluttum færslum í fjárhagsáætlunarskýrslunni sem þú vilt flytja verkspána til.
 
@@ -78,6 +81,8 @@ Fjárhagsáætlanir verks eru sjálfkrafa tengdar tveimur spálíkönum, einu fy
 ## <a name="forecast-models"></a>Spárlíkön
 Spárlíkön hafa stigveldi í einu lagi. Þetta þýðir að hver verkspá verður að vera tengd við eitt spálíkan.
 
-Ef verks sem spá er hægt að auðkenna líkön sem undirlíkön. Síðan er hægt að stofna spá eftir deild, tímabil eða svæði. Til dæmis er hægt að stofna spálíkan fyrir ár og stofna síðan undirlíkön fyrir norðaustur-, suðaustur-, norðvestur- og suðvesturspásvæði fyrir upplýsingar sem eru sendar frá þeim svæðum. Með því að velja mismunandi valkostir í boði skýrslum, hægt er að skoða upplýsingar um heildarupphæð spá eða undirlíkanið.
+Ef þú notar verkspá getur þú auðkennt líkön sem undirlíkön. Síðan er hægt að stofna spá eftir deild, tímabili eða svæði. Til dæmis er hægt að stofna spálíkan fyrir ár og stofna síðan undirlíkön fyrir norðaustur-, suðaustur-, norðvestur- og suðvesturspásvæði fyrir upplýsingar sem eru sendar frá þeim svæðum. Með því að velja aðra valkosti í skýrslum í boði er hægt að skoða upplýsingar um heildarspá eða undirlíkanið.
+
+
 
 

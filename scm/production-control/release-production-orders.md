@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="release-production-orders"></a>Losa framleiðslupantanir
 
+[!include[banner](../includes/banner.md)]
+
+
 Útgefin framleiðslupöntun er pöntun sem hefur verið samþykkt til framleiðslu. Hugtakið útgefið er notað til að lýsa stöðu í líftíma framleiðslupöntunar þar sem framleiðslupöntunin er tiltæk fyrir framkvæmd í framleiðsluvinnusal og fyrir ferli vöruhúss. 
 
 <a name="characteristics-of-the-released-state"></a>Einkennandi þættir Losunarstöðu
@@ -42,7 +45,7 @@ ms.lasthandoff: 03/31/2017
 -   Fyrir Efni sem eru efnislega teknar frá, er  vöruhúsavinnu mynduð til að taka til efni fyrir framleiðslupöntun.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>Losa vinnslu í vinnusal
-Eftir að framleiðslupöntun er losuð,eru framleiðsluverk sem eru tengd pöntuninni sýnileg og tilbúin fyrir skráningu. Reiknimerki sem hægt er að gera vinnsluskráningar, Hefja, Stöðva og Lokið, í annað hvort í **Vinnslu kort afgreiðslustöð** síðu eða **Vinnslu kort tækið** síðu. Skráð tíma og magns eru sjálfvirkt fluttar skráningar síðum framleiðslubókum til að fylgjast með notaðan tíma og magns.
+Eftir að framleiðslupöntun er losuð,eru framleiðsluverk sem eru tengd pöntuninni sýnileg og tilbúin fyrir skráningu. Virknitákn geta framkvæmt vinnsluskráningar, eins og Hefja, Stöðva og Lokið, í annað hvort síðunni **Afgreiðslustöð verkspjalda** eða síðunni **Verkspjaldstæki**. Skráður tími og magn eru sjálfvirkt fluttar úr skráningasíðum í framleiðslubækur til að fylgjast með notuðum tíma og magni.
 
 ## <a name="route-cards"></a>Leiðarspjöld
 leiðarspjaldi veitir yfirlit yfir upplýsinga sem koma úr leið og uppsetningu aðgerða, og úr aðgerð og vinnsluröðunaraðferðum.
@@ -54,11 +57,13 @@ Leiðarvinnsla er með lista yfir sérhverja vinnslu aðgerðar í smáatriðum,
 vinnsluspjaldi er listi yfir einstök vinnslunúmer fyrir tiltekna aðgerð. Eitt verk birtist í hverri síðu Vinnslurnar sem eru hafðar á vinnsluspjaldi, og áætlaður tími, koma úr upplýsingum um uppsetningu leiða og aðgerða. Frá vinnsluspjaldi er hægt að opna **framleiðslubókarlínur**, **vinnsluspjald ** síðu. Einstaklingarnir sem keyra rekstrartilföng geta gefið svörun um framleiðsluferlið. Fyrirliggjandi eru svæði þar sem hægt er að færa inn talnagögn um notkun og upplýsingar eins og gallað magn.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Vinna vöruhúss fyrir tiltekt hráefnis.
-Vinnu fyrir tiltekt hráefnis er stofnuð á meðan á losun stendur. Vinna mynduð aðeins fyrir magni af efni sem var efnislega tekin frá fyrir framleiðslupöntunina áður en pöntunin var losuð. Eftirfarandi uppsetning er nauðsynleg til að mynda vinnu vöruhús fyrir tiltekt hráefnis:
+Vinnu fyrir tiltekt hráefnis er stofnuð á meðan á losun stendur. Vinna er mynduð aðeins fyrir magn efnis sem var efnislega tekin frá fyrir framleiðslupöntunina áður en pöntunin var losuð. Eftirfarandi uppsetning er nauðsynleg til að mynda vöruhúsavinnu fyrir tiltekt hráefnis:
 
 -   Staðsetningarleiðbeiningar fyrir tiltekt hráefnis sem ákvarðar í hvaða staðsetningu innan vöruhúss á að taka til efni í
 -   Bylgjusniðmát furir hráefni, þar sem reglurnar fyrir framkvæmd vinnu vöruhúss eru skilgreindar.
 -   Staðsetning framleiðsluinntaks sem ákvarðar hvar efni eru sett
+
+
 
 
 

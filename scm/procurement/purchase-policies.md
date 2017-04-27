@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Innkaupareglur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um innkaupareglur. Innkauparegla er safn reglna sem stýrir innkaupaferlinu. Innkaupareglur hjálpa innkaupastjórum að innleiða sína innkaupastefnu með því að stofna regluskipulag sem er stilltur saman við stjórnunaráætlun fyrirtækisins fyrir innkaup.
 
 Innkaupastefna samanstendur af safni stefnureglna. Þegar stefnuregla er skilgreind þarf fyrst að velja reglugerð. Síðan er reglan stofnuð fyrir reglugerðina með því að skilgreina stillingar, upphafsdagsetningu og lokadagsetningu fyrir regluna.  
@@ -41,13 +44,13 @@ Eftir því hvernig innkaupareglur eru skilgreindar, geta margvíslegar reglur h
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Dæmi 1: Einföld innkauparegluskilgreining
 
-Fyrirtæki sem eru eins flókið og lítið hægt að setja upp innkaupareglur eftir lögaðila og hægt er að nota aðeins Fyrirtæki stigveldi fyrirtækis.  
+Fyrirtæki sem eru lítil og ekki flókin geta sett upp innkaupareglur eftir lögaðila og hægt er að nota aðeins Fyrirtækisskipulag stigveldi.  
 
 Hjá Fabrikam, sem er lítið fyrirtæki, eru innkaupaþarfir svipaðar fyrir allt fyrirtækið. Innkaupareglur eru mismunandi aðeins milli lögaðila fyrirtækisins. Til dæmis starfsmenn í Kanada Fabrikam og starfsmenn Fabrikam í Bandaríkjunum kaupa vöru og þjónustu frá mismunandi vörulistum og mismunandi söluaðilum. Þess vegna setur Fabrikam upp innkaupareglur á stigi lögaðilans.  
 
-Fabrikam stofnar tvær innkaupareglur. Regla A við hennar bandaríska lögaðila, 1111. Regla B við hennar Kanadískur lögaðila 2222. Þegar starfsmaður lögaðila 1111 stofnar innkaupabeiðni, stefnureglur eru afleiddir frá reglu A. Til dæmis vörulista sem starfsmaðurinn sér er tilgreind í stefnureglu vörulista fyrir reglu A.  
+Fabrikam stofnar tvær innkaupareglur. Regla A gildir um bandarískan lögaðila hennar, 1111. Regla B gildir um kanadískan lögaðila hennar, 2222. Þegar starfsmaður lögaðila 1111 stofnar innkaupabeiðni, eru stefnureglur afleiddar frá reglu A. Til dæmis vörulistinn sem starfsmaðurinn sér er tilgreind í stefnureglu um vörulista fyrir reglu A.  
 
-Þegar starfsmaður lögaðila 2222 stofnar innkaupabeiðni, stefnureglur eru afleiddir frá reglu B.  
+Þegar starfsmaður lögaðila 2222 stofnar innkaupabeiðni, eru stefnureglur afleiddar frá reglu B.  
 
 **Ábending:** Ef starfsmaður lögaðila 1111 kaupir vöru fyrir hönd starfsmanns lögaðila 2222, er beitt stefnureglum sem eru tilgreindar fyrir lögaðilann 2222 (sem eru stefnureglur úr reglu B).
 
@@ -117,7 +120,7 @@ Regla áfyllingarstýringar er valfrjáls regla sem skilgreinir svæðin sem þa
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Samlegðarregla stofnunar innkaupapantana og eftirspurnar
 
-Í pöntun stofnun og eftirspurnar sameiningarregla skilgreinir stefnureglur sem nota á þegar innkaupapöntun er stofnuð úr samþykktri innkaupabeiðni. Þegar reglur af þessari gerð eru stofnaðar er hægt að stilla valkosti á mismunandi flipum:
+Samlegðarregla stofnunar innkaupapantana og eftirspurnar skilgreinir stefnureglur sem nota á þegar innkaupapöntun er stofnuð úr samþykktri innkaupabeiðni. Þegar reglur af þessari gerð eru stofnaðar er hægt að stilla valkosti á mismunandi flipum:
 
 -   Á **Innkaupapöntun skipta** flipa er hægt að skilgreina skilyrði fyrir skiptingu á innkaupabeiðnilínum í aðskildar innkaupapantanir.
 -   Á  **Flutningur Verðs/afsláttar** flipa er hægt að skilgreina hvenær skal endurreikna verðsamning þegar innkaupapöntun er stofnuð:
@@ -126,7 +129,7 @@ Regla áfyllingarstýringar er valfrjáls regla sem skilgreinir svæðin sem þa
 
     Einnig er hægt að leyfa umsækjanda að breyta aðferðinni við flutning verðs og afsláttar fyrir einstakar innkaupabeiðnilínur óháð flutningsreglu verðs/afsláttar sem skilgreind er. Velja skal **Leyfa handvirka hnekkingu á hverja innkaupabeiðnilínu** valkostinn ef óskað er eftir að virkja þessa getu.
 -   Á **Flutningur vörulýsingar** flipa er hægt að flytja vörulýsinguna úr innkaupabeiðni þegar hún er upprunnin úr Beiðni um tilboð.
--   Á **Verðþol**flipa er hægt að skilgreina reglur til að beina samþykktum innkaupabeiðnum aftur í gegnum endurskoðunarferlið þegar vöruverð í innkaupavörulista hækkar. Stillið hámarksupphæðina sem nettóupphæð í línuatriði í innkaupabeiðni getur hækkað um frá því að innkaupabeiðnin er samþykkt og þar til innkaupapöntun er stofnuð. Nettó upphæð er reiknuð með því að nota eftirfarandi formúlu: (\[Magn × (einingarverð – Afsláttur) verðeiningu ÷\] + ýmis Gjöld) × (100-afsláttarprósenta) ÷ 100 innkaupabeiðnilínur sem fara fram úr verðvikmörkum sem sett er haldið eftir fyrir handvirka úrvinnslu. Reglurnar sem eru stilltar í flipanum **Villa við vinnslu** ákvarða hvernig innkaupabeiðnilínur eru unnar.
+-   Á **Verðþol**flipa er hægt að skilgreina reglur til að beina samþykktum innkaupabeiðnum aftur í gegnum endurskoðunarferlið þegar vöruverð í innkaupavörulista hækkar. Stillið hámarksupphæðina sem nettóupphæð í línuatriði í innkaupabeiðni getur hækkað um frá því að innkaupabeiðnin er samþykkt og þar til innkaupapöntun er stofnuð. Nettó upphæð er reiknuð með því að nota eftirfarandi formúlu: (\[Magn × (einingarverð – Afsláttur)÷ verðeining\] + ýmis Gjöld) × (100 - afsláttarprósenta) ÷ 100. Innkaupabeiðnilínur sem fara fram úr verðþoli er haldið eftir fyrir handvirka úrvinnslu. Reglurnar sem eru stilltar í flipanum **Villa við vinnslu** ákvarða hvernig innkaupabeiðnilínur eru unnar.
 -   Á flipanum**Villa við vinnslu** oer hægt að stilla vinnsluregluna sem er beitt á innkaupabeiðni ef staðfesting mistekst við stofnun innkaupapöntunar vegna villu hjá lánardrottni eða villu í verðvikmörkum. Veldu einn af eftirfarandi valkostum:
     -   **Engin aðgerð** – innkaupabeiðnilínur haldast á **Losa samþykktar innkaupabeiðnir** síðu. Staða innkaupabeiðnilínanna er ennþá **Samþykkt**. Hins vegar verður að leysa úr villunum áður en hægt er að gera innkaupapöntun fyrir innkaupabeiðnilínurnar.
     -   **Hætta við innkaupabeiðnilínu**- Innkaupabeiðnilínurnar eru afturkallaðar. Umsækjandi hægt að stofnað nýja innkaupabeiðni fyrir línur sem hætt var við ef hann eða hún enn vill óska eftir línuatriðum.
@@ -141,6 +144,8 @@ Regla áfyllingarstýringar er valfrjáls regla sem skilgreinir svæðin sem þa
     -   **Ekki heimila sameiningu eftirspurnar** – Engin samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. Þessi kostur er valinn að sjálfgefnu og á aðeins á innkaupabeiðnilínur sem krefjast handvirkrar úrvinnslu fyrir stofnun innkaupapöntunar.
     -   **Alltaf heimila sameiningu eftirspurnar** – Allar samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. **Ábending:** Ef valið er **Alltaf heimila sameiningu eftirspurnar** valkosturinn á **Sameining eftirspurnar** flipanum, en  **stofna innkaupapantanir Sjálfvirkt** valkosturinn er valinn í flipanum **stofnun Handvirkra innkaupapantana** er öllum innkaupapöntunum haldið eftir fyrir handvirka úrvinnslu.
     -   **Heimila sameiningu eftirspurnar við þessi skilyrði** – Skilgreina þau skilyrði sem ákvarða hvort samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. Fyrir hverja gerð innkaupabeiðnilínu er hægt að stilla skilyrðin eftir innkaupategund og lánardrottni. Ef valið er **Heimila sameiningu eftirspurnar við þessi skilyrði** er hægt að stilla skilyrðin eftir innkaupategund og lánardrottni fyrir hverja tegund innkaupabeiðnilínu. Þegar innkaupategund er valin eru allir undirflokkar fyrir þá innkaupategund einnig valdir. Ef valinn er valkosturinn **Allt** fyrir tiltekna línugerð eru allar innkaupabeiðnilínur þeirrar línugerðar hæfar fyrir sameiningu eftirspurnar.
+
+
 
 
 

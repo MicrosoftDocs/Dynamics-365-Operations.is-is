@@ -59,5 +59,5 @@ Eftirfarandi takmarkanir eiga við þegar stofnaðir eru tengla í bókunarskilg
 -   Hægt er að úthluta bókunarskilgreiningu á hvaða færslugerð sem er, en færslugerð verður að vera í sömu einingunni og bókunarskilgreiningin. Nota skal **bókunarskilgreiningar Færslna** síðu til að sjá af hvaða tegund færsla er í kerfinu.
 
 
-Nánari upplýsingar, sjá [Bókunardæmi skilgreiningar](/general-ledger/example-posting-definitions.md). 
+Frekari upplýsingar eru í [Dæmi um bókunarskilgreiningar](/general-ledger/example-posting-definitions.md). 
 

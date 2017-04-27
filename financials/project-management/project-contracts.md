@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Verksamningar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir og gefur dæmi um verksamninga sem þú getur búið til fyrir ýmsar gerðir af verkefnum og uppruna fjármögnunar, og hvernig þú getur stjórnað samningum og sent viðskiptavinum verka reikninga í Microsoft Dynamics 365 for Operations.
 
 Gerð verks sem er stofnuð fyrir verksamningur ákvarðar aðferðina sem er notuð til að reikningsfæra viðskiptavini verksins. Hægt er að breyta verksamningi og tengdum verkum, en ekki er hægt að breyta gerð verks. 
@@ -80,7 +83,7 @@ Eftirfarandi tafla gefur dæmi fyrir stjórnun úthlutunar á fjármögnun milli
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Aðstæður</strong></td>
 <td><strong>Uppruni fjármögnunar </strong></td>
 <td><strong>Úthlutunarhlutfall </strong></td>
 <td><strong>Úthlutanaforgangur</strong></td>
@@ -192,7 +195,7 @@ Eftirfarandi tafla athugar þessar aðstæður í meiri smáatriðum.
 <tbody>
 <tr class="odd">
 <td><strong>Áhersla</strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Upplýsingar</strong></td>
 </tr>
 <tr class="even">
 <td>Fjármögnunarreglur</td>
@@ -220,17 +223,17 @@ Eftirfarandi tafla athugar þessar aðstæður í meiri smáatriðum.
 </tr>
 <tr class="odd">
 <td>Færsla 2</td>
-<td><strong>Færsluupphæð:</strong> 5,000.00<strong>Funding:</strong> greitt samkvæmt öllum þremur reglum. <strong>Reglu 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Færsluupphæð:</strong> 5.000,00<strong>Fjármögnun:</strong> Færslan er greidd samkvæmt öllum þremur reglum.<strong>Regla 1</strong>
+<ul>
 <li>Uppruni fjármögnunar 2: 450,00</li>
 <li>Uppruni fjármögnunar 3: 450,00</li>
-</ul><bpt id="t2">
-< sterkt ></bpt> Regla 2</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>Regla 2</strong>
+<ul>
 <li>Uppruni fjármögnunar 3: 250.00 (= 750.00 – 50.00 – 450.00)</li>
-</ul><bpt id="t4">
-< sterkt ></bpt> Regla 3</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>Regla 3</strong>
+<ul>
 <li>Uppruni fjármögnunar 1: 3.850,00 (= 5.000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Fyrirtæki þitt, hugbúnaðarráðgjafafyrirtæki, samþykkir að veita fimm t�
 -   Stofna reikning viðskiptavinar í lok hvers almanaksmánaðar á meðan verki stendur.
 
 Fyrsta mánuð samtals 800 klukkustundir eru skráð hjá utanaðkomandi ráðgjöfum í verkinu. Kostnaður skrifstofuvörur sem gjaldfærðir eru á verkið er 2.000. Þessvegna, Í lok mánaðarins stofnar þú reikning upp á 122.000, reiknað sem 800 klukkustundir með 150 á klst. plús 2.000 fyrir skrifstofuvörur.
+
+
 
 

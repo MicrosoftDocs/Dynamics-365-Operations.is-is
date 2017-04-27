@@ -1,5 +1,5 @@
 ---
-title: "Jafna hlutagreiðsla viðskiptavinar greiðslu sem hefur mörg afsláttartímabil"
+title: "Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil"
 description: "Þessi grein sýnir hvernig skal jafna hlutagreiðslu viðskiptavinar þegar um er að ræða mörg afsláttartímabil."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðsla viðskiptavinar greiðslu sem hefur mörg afsláttartímabil
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein sýnir hvernig skal jafna hlutagreiðslu viðskiptavinar þegar um er að ræða mörg afsláttartímabil.
 
-Fabrikam býður viðskiptavin 4031 tvær staðgreiðsluafsláttartímabil. Viðskiptavinurinn fær 2 prósent staðgreiðsluafslátt ef reikningur er greiddur innan fimm daga og um 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Jöfnun færibreytur eru staðsett á **Færibreytur viðskiptakrafna** síðu.
+Fabrikam býður viðskiptavin 4031 tvær staðgreiðsluafsláttartímabil. Viðskiptavinurinn fær 2 prósent staðgreiðsluafslátt ef reikningur er greiddur innan fimm daga og um 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="invoice"></a>Reikningur
-Á 25. Júní Arnie færir inn og bókar reikning fyrir 1000,00 fyrir afskrift 4031 viðskiptavinar. Þegar hann fer yfir staðgreiðsluafslætti fyrir þennan reikning sér Arnie sem viðskiptavinur 4031 fær 20,00 staðgreiðsluafslátt ef reikningurinn er greiddur af 30. Júní. Ef reikningurinn er greiddur af 9 Júlí, fær viðskiptavinurinn 10,00 staðgreiðsluafslátt.
+25. júní færir Apríl inn reikning uppá 1.000,00 fyrir lánardrottinn 4031. Þegar hún fer yfir staðgreiðsluafslætti fyrir þennan reikning sér Apríl að viðskiptavinur 4031 fær 20,00 afslátt ef reikningurinn er greiddur fyrir 30. Júní. Ef reikningurinn er greiddur fyrir 9 Júlí, fær viðskiptavinurinn 10,00 afslátt.
 
 | Dagsetning staðgreiðsluafsláttar | Upphæð staðgreiðsluafsláttar | Upphæð í gjaldmiðli færslu |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Staða reiknings er nú 0.00. April getur skoðað upplýsingar á síðunni **v
 | DISC-10030 |  Staðgreiðsluafsláttur   | 6/28/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Greiðsla         | 7/8/2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Staðgreiðsluafsláttur   | 7/8/2015  |         |                                      | 7,00                                  | 0,00    | USD      |
+
+
 
 
 

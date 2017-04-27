@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Afskriftir eigna
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir afskriftir eigna.
 
 Afskriftir eru tímabilsfærsla sem vanalega minnkar virði eigna í efnahagslykli og er gjaldfærð á rekstrarlykla sem útgjöld. Þess vegna er aðallykil yfirleitt notaður til að kreditfæra reglubundnar afskriftir í efnahagslykli. Mótlykill er lykill í hagnaðar- og taphluta bókhaldslykilsins.
@@ -51,6 +54,8 @@ Hver bók hefur dagatalið sem notað er við afskriftir eigna. Bókin notar fj�
 
 Hægt er að stofna samnýtt dagatöl með síðunni **Fjárhagsdagatöl **í fjárhag.
 
-Nánari upplýsingar, sjá [afskriftaaðferðir og reglur](depreciation-methods-conventions.md).
+Frekari upplýsingar eru í [Afskriftaaðferðir og hefðir](depreciation-methods-conventions.md)
+
+
 
 

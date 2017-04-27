@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Setja upp og vinna með endurtekna reikninga
 
+[!include[banner](../includes/banner.md)]
+
+
 Í þessari grein er því lýst hvernig endurtekinn reikningur er sett upp og unnið. Þú getur notað endurtekinn reikningur ef þú þarft að senda viðskiptavinur reikning fyrir sama upphæð reglulega.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Stofna sniðmát fyrir endurtekna textareikninga
@@ -61,5 +64,7 @@ Prenta endurtekna textareikninga
 ----------------------------------
 
 Eftir að endurteknir reikningar hafa verið bókaðir er hægt að prenta reikningana úr listasíðu textareikningsins. Hægt er að prenta reikninga sem eru valdar, eða hægt er að velja bil reikninga sem á að prenta.
+
+
 
 

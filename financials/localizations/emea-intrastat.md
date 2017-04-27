@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intrastat"></a>Intrastat
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um intrastat-skýrslur fyrir viðskipti með afurðir, og í sumum tilfellum, með þjónustu á milli landa/svæða innan Evrópusambandsins (ESB). Hún veitir yfirlit yfir ferli skýrslugerðar og lýsir nauðsynlegum stillingum og forsendum.
 
 Intrastat er kerfið sem er notað við öflun upplýsinga og myndun talnagagna um viðskipti með vörur milli landa í Evrópusambandinu (ESB). Intrastat-skýrsla er áskilin þegar afurð fer yfir landamæri annars lands/svæðis innan Evrópusambandsins. Í nokkrum löndum/svæðum eiga Intrastat-skýrslur einnig við um þjónustu. Hægt er að safna skyldu- og valfrjáls einingum í Intrastat-skýrslum. Eftirfarandi einingar eru skylda: virðisaukaskattur (VSK), númer aðilans sem ber ábyrgð á útvegun upplýsinganna, tilvísunartímabil, flæði (komu eða senda), átta stafa vörukóði, samstarfsaðila aðildarríki (aðildarríki vörusendingar á komur) og aðildarríki viðtöku sendingar á, virði varanna, magn vara (nettó margar og fylgivörur einingu) , og eðli færslunnar. Lönd/svæði geta einnig safnað valfrjálsum einingum við ýmis skilyrði. Sumar valfrjálsar einingar eru land/svæði uppruna, afhendingarskilmálar, flutningsmáti, ítarlegri vörukóði en CN8, svæði uppruna sendingar og svæðis viðtöku á komur, vinnslu talnagagna, upplýsingagildi, lýsingu á vörum og tengi/flugvöll fermingar/affermingar.
@@ -34,24 +37,24 @@ Intrastat er kerfið sem er notað við öflun upplýsinga og myndun talnagagna 
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Yfirlit yfir ferli Intrastat-skýrslu
 Eftirfarandi kaflar lýsa heildarflæði upplýsinga sem er notað við Intrastat-skýrslu.
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. færa inn færslu sem fer yfir landamærin öðru esb-landi/svæði
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Færa inn færslu sem fer yfir landamæri annars lands/svæðis í ESB
 
-Reikningur viðskiptavinar, textareikningur, innkaupareikningur, verkreikningur, fylgiseðill viðskiptavinar, innhreyfingarskjal afurða fyrir lánardrottin eða flutningspöntun er aðeins flutt í Intrastatbókina ef gerð ákvörðunarstaðar lands/svæðis (á sendingar) eða vörusendingu (á aðsent) er **ESB**. Þessi eiginleiki aukin var fyrir Microsoft Dynamics 365 Aðgerðir útgáfu 1611 og gerir mögulegt að tilgreina aðsetur farmbréfs fyrir bandalags færslu. Ef önnur sendingaruppfærslur aðsetur með lánardrottinn business aðsetur (eða viðskiptavin vinnuaðsetur fyrir skilapöntun) intrastat-skýrslugerð verður að framkvæma þessar upplýsingar. Þegar sölupöntun, textareikningur, innkaupapöntun, reikningur lánardrottins, verkreikningur eða flutningspöntun eru stofnuð hafa sumir reitir sem eru tengdir erlendum viðskiptum sjálfgildi í haus skjals eða á línu. Sjálfgefinn færslukóði er fenginn úr samsvarandi reit á síðunni **Færibreytur erlendra viðskipta**. Sjálfgefinn vörukóði, upprunaland /-svæði og upprunaríki/-hérað er sótt frá vöru. Hægt er að breyta sjálfgildum og getur einnig að fylla út í aðrar upplýsingar tengdum erlend viðskiptum: talnagagnasaðferð, flutningsmáta og tengi.
+Reikningur viðskiptavinar, textareikningur, innkaupareikningur, verkreikningur, fylgiseðill viðskiptavinar, innhreyfingarskjal afurða fyrir lánardrottin eða flutningspöntun er aðeins flutt í Intrastatbókina ef gerð ákvörðunarstaðar lands/svæðis (á sendingar) eða vörusendingu (á aðsent) er **ESB**. Þessi eiginleiki var framlengdur fyrir Microsoft Dynamics 365 for Operations útgáfu 1611 og gerir kleift að tilgreina aðsetur farmbréfs fyrir viðskipti innan Bandalagsins. Ef aðsetur farmbréfs er ekki það sama og heimilisfang á vinnustað lánardrottins (eða heimilisfang á vinnustað viðskiptavinar fyrir skilapöntun) mun Intrastat-skýrslugerðin nota þessar upplýsingar. Þegar sölupöntun, textareikningur, innkaupapöntun, reikningur lánardrottins, verkreikningur eða flutningspöntun eru stofnuð hafa sumir reitir sem eru tengdir erlendum viðskiptum sjálfgildi í haus skjals eða á línu. Sjálfgefinn færslukóði er fenginn úr samsvarandi reit á síðunni **Færibreytur erlendra viðskipta**. Sjálfgefinn vörukóði, upprunaland /-svæði og upprunaríki/-hérað er sótt frá vöru. Hægt er að breyta sjálfgildum og getur einnig að fylla út í aðrar upplýsingar tengdum erlend viðskiptum: talnagagnasaðferð, flutningsmáta og tengi.
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. notið Intrastat færslubók til að mynda upplýsingar um viðskipti milli ESB landa/svæða
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Notaðu Intrastatbókina til að mynda upplýsingar um viðskipti meðal landa/svæða Evrópusambandsins.
 
 Í tölfræðilegum tilgangi eru upplýsingar myndaðar um viðskipti milli ESB landa/svæða í hverjum mánuði. Hægt er að flytja færslur úr textareikningi, reikningi viðskiptavina, fylgiseðli, reikningi lánardrottins, fylgiseðli lánardrottins, verkreikningi eða flutningspöntun, samkvæmt þeim flutningsskilyrðum sem sett eru upp á síðunni **Færibreytur erlendra viðskipta**. Einnig er hægt að færa færslurnar handvirkt inn. Hægt er að uppfæra handvirkt fluttar færslur í intrastatbók, ef uppfærslur eru áskildar. Við sérstök skilyrði sem eru sett upp á síðunni **Þjöppun á intrastat** er hægt að þjappa færslurnar í intrastatbók. Sum lönd/svæði leyfa notkun á þröskuldi lítilla færslna. Síðan er hægt að skrá færslur sem eru undir þeim þröskuldi undir tilgreindum vörukóða. Hægt er að uppfæra vörukóða á samsvarandi línur Intrastatbókar, á grundvelli **Lágmark** stillingar á síðunni **Færibreytur erlendra viðskipta**. Einnig er hægt að þjappa þessar færslur, samkvæmt stillingunni **Þjöppun á intrastat**. Hægt er að sannprófa heilleika færslna í intrastatbókinni, samkvæmt stillingunni **Athuga uppsetningu** á síðunni **Færibreytur erlendra viðskipta**. Gögn í samsvarandi reitum gætu verið sannprófuð fyrir heilleika: land/svæði, ríki eða hérað, þyngd, vörukóði, færslukóði, viðbótar eining, tengi, uppruni, afhending, flutningsaðferð og skattundanþágunúmer. Færslur sem er ekki lokið verða merktar sem ekki gildar.
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. notið færslubók intrastat-skýrslu um upplýsingar um viðskipti milli ESB landa/svæða
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Notaðu Intrastatbókina til að skrá upplýsingar um viðskipti á meðal landa/svæða Evrópusambandsins
 
-Í tölfræðilegum tilgangi eru upplýsingar skráðar um viðskipti milli ESB landa/svæða í hverjum mánuði. Hægt er að prenta Intrastat-skýrsluna, samkvæmt stillingunni **Vörpun skýrslusniðs** á síðunni **Færibreytur erlendra viðskipta**. Einnig er hægt að prenta rafræna skýrslu, samkvæmt stillingunni ** Vörpun skráarsniðs** á síðunni **Færibreytur erlendra viðskipta**. Nánari upplýsingar um intrastat-skýrslugerð, þar á meðal nauðsynlegt skilyrði í intrastat-skýrslugerð verkskráningu:
+Í tölfræðilegum tilgangi eru upplýsingar skráðar um viðskipti milli ESB landa/svæða í hverjum mánuði. Hægt er að prenta Intrastat-skýrsluna, samkvæmt stillingunni **Vörpun skýrslusniðs** á síðunni **Færibreytur erlendra viðskipta**. Einnig er hægt að prenta rafræna skýrslu, samkvæmt stillingunni ** Vörpun skráarsniðs** á síðunni **Færibreytur erlendra viðskipta**. Frekari upplýsingar um Intrastat-skýrslugerð, þar á meðal áskildar forsendur, er að finna í verkskráningum fyrir Intrastat-skýrslur:
 
--   Mynda intrastat-ESB skýrslu
--   Flytja færslur í Intrastat
--   Tilgreina aðsetur farmbréfs fyrir bandalags færslu.
+-   Mynda ESB Intrastat-skattaskýrslu,
+-   Flytja færslur í Intrastat,
+-   Tilgreini aðsetur farmbréfs fyrir viðskipti innan Bandalagsins.
 
 ## <a name="prerequisites"></a>Forkröfur
-Í eftirfarandi töflu er listi yfir forsendur fyrir intrastat-skýrslugerð.
+Eftirfarandi tafla sýnir frumskilyrði fyrir Intrastat-skýrslur.
 
 <table>
 <colgroup>
@@ -235,5 +238,7 @@ Notaðu síðuna **Færibreytur erlendra viðskipta** til að setja upp færibre
 </table>
 
  
+
+
 
 

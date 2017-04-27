@@ -1,6 +1,6 @@
 ---
-title: "Bæta stýringu ráðleggingar síðu færslu á POS-tæki"
-description: "Þetta efnisatriði lýsir hvernig á að bæta stýringu ráðleggingar færsluskjár á punktur sölustað tækis með útlitshönnuður afgreiðsluskjás í Microsoft Dynamics 365 fyrir Aðgerðir."
+title: "Bæta stýringu ráðleggingar á færslusíðu á sölustaðartæki"
+description: "Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 for Operations"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Bæta stýringu ráðleggingar síðu færslu á POS-tæki
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Bæta stýringu ráðleggingar á færslusíðu á sölustaðartæki
 
-Þetta efnisatriði lýsir hvernig á að bæta stýringu ráðleggingar færsluskjár á punktur sölustað tækis með útlitshönnuður afgreiðsluskjás í Microsoft Dynamics 365 fyrir Aðgerðir.
+[!include[banner](includes/banner.md)]
 
-Hægt er að birta ráðleggingar afurðar á POS-tæki þegar Microsoft Dynamics 365 um Aðgerðir. *Leiðbeiningar* eru vörur sem viðskiptavinurinn kann að vera áhuga á grundvelli sögu innkaupapantanir, vara á óskalista þeirra og vörur sem keyptar annarra viðskiptavina netinu og í stað og mortar verslanir. Til að birta ráðleggingar afurð, þarf að bæta stýringu skjánum færslan með útlitshönnuður afgreiðsluskjás.
 
-## <a name="open-layout-designer"></a>Opna útlitshönnuður
-1.  Fara í **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**POS**&gt;**Skjá útlit**.
-2.  Nota Síu á Flýtiræsistikunni til að finna skjá sem á að bæta stýringunni við. Til dæmis sía á **Skjá Útlitskenni** svæðið með gildið 'F2CP16:9M'.
-3.  Í listanum skal finna og velja þá skráningu sem óskað er eftir. Veljið til dæmis "Heiti: Kenni F2CP16:9M útlit Afgreiðsluskjás: F2CP16:9M'.
-4.  Smellið á **útlitshönnuður**.
-5.  Fylgja kvaðningar til að ræsa útlit hönnuður. Þegar beðið er um skilríki fyrir, að færa sömu skilríki voru í notkun í útlitshönnuður var ræstur úr **Skjá útlit** síðu.
-6.  Þegar þú skráir þig, er svipuð eitt neðan birtist. Útlit verður mismunandi eftir breytingar sem gerðar voru fyrir verslunin.
+Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 for Operations
 
-[![screenlayout pic 1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) birtingarvalkostinn til að Velja
+Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Microsoft Dynamics 365 for Operations. *Ráðleggingar* eru vörur sem viðskiptavinurinn kann að hafa áhuga á grundvelli sögu innkaupapantanir, vara á óskalista þeirra og vörur sem aðrir viðskiptavinir keyptu á netinu og í verslunum. Til að birta vöruráðleggingar þarf að bæta við stýringu á færsluskjáinn með útlitshönnuður afgreiðsluskjás.
+
+## <a name="open-layout-designer"></a>Opnaðu Útlitshönnuður afgreiðsluskjás
+1.  Farðu í **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **POS** &gt; **Skjáútlit**.
+2.  Notaðu flýtiafmörkun til að finna skjáinn sem á að bæta stýringunni við. Til dæmis notar sían í svæðinu **Útlitskenni afgreiðsluskjás** gildið 'F2CP16:9M'.
+3.  Í listanum skal finna og velja þá skráningu sem óskað er eftir. Til dæmis veldu ‘Nafn: F2CP16:9M Útlitskenni afgreiðsluskjás: F2CP16:9M’.
+4.  Smellt er á **Útlitshönnuður**.
+5.  Fylgdu kvaðningum til að hefja Útlitshönnuðinn. Þegar beðið er um skilríki skal slá inn sömu skilríki og voru notuð þegar Útlitshönnuður var opnaður af síðunni **Skjáútlit**.
+6.  Þegar þú skráir þig inn birtist síða sem er svipuð þeirra sem er fyrir neðan. Útlitið verður mismunandi eftir þeim sérstillingum sem voru gerðar fyrir verslunina.
+
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Veljið birta valkostur
 -----------------------
 
-Tveir valkostir skilgreiningar eru tiltækar. Veljið valkostinn sem best fyrir verslunin og fylgið leiðbeiningunum eftir að ljúka uppsetningu stýringu. Tveir valkostir eru:
--   Leiðbeiningar eru alltaf sýnileg.
--   A **Ráðleggingar** birtist flipinn á hnitanetinu á hægri hlið á skjánum.
+Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslunina og fylgdu eftirstöðvum leiðbeininga til að ljúka uppsetningu stýringarinnar. Valkostirnir tveir eru:
+-   Ráðleggingar eru alltaf sýnilegar.
+-   Flipinn **Ráðleggingar** birtist í hnitanetinu hægra megin á skjánum.
 
-#### <a name="to-make-recommendations-always-visible"></a>Til að gera ráðleggingar fyrir alltaf sýnilegt
+#### <a name="to-make-recommendations-always-visible"></a>Til að gera ráðleggingar alltaf sýnilegar
 
-1.  Minnka hæð upplýsingarsvæðið línur færslu þannig að það er sama hæð sem viðskiptavinagluggi til vinstri hennar. [](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  Draga og sleppa á ráðleggingar stýringu á milli upplýsingarsvæðið línu færslunnar og hnappahnit vinnustöðvar neðst á skjánum færslu úr valmyndinni vinstra megin. Breyta stærð stýringin svo það hentar í það bil. [](./media/pic-3.png)[![screenlayout pic 3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Smellið á **X** til að vista og loka útlitshönnuður.
-4.  Í Dynamics 365 aðgerða, farið **Smásölu og commerce**&gt;**Retail ÞAÐ**&gt;**dreifingaráætlanir**.
-5.  Á listanum, veljið **1090 Skráir**.
-6.  Smellið á **Keyra nú**.
+1.  Dragðu úr hæð upplýsingasvæðis færslulína svo að það sé í sömu hæð og svæði viðskiptamanns til vinstri.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  Frá valmynd til vinstri skal draga og sleppa ráðleggingarstýringu á milli upplýsingasvæðis færslulína og hnappahnita í neðst á miðjan færsluskjáinn. Breyta stærð stýringar svo að hún passi í það bil.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
+4.  Í Dynamics 365 for Operations er farið í **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**.
+5.  Á listanum velurðu **1090 afgreiðslukassar**.
+6.  Smellt er á **Keyra núna**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Til að bæta flipa Ráðleggingar hnappahnit hægra megin á skjánum
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Til að bæta við ráðleggingaflipa í hnitanetið hægra megin á skjánum
 
-1.  Hægrismella á autt bil undir flipanum síðasta á hnappahnitið staðsett hægra megin á síðunni.
-2.  Smellið á **Sérsníða**. [![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Smellið á **Nýr flipi**.
-4.  Nýr flipi sem verið er að bæta finna. Hugsanlega þarf að fletta niður.
-5.  Í því **Innihald** fellilistann, veljið **Ráðlagt afurðir**. [![pic 6](./media/pic-6.png)](./media/pic-6.png)
-6.  Í því **Merki** skal slá inn heiti fyrir ráðleggingar flipa. Til dæmis gerð 'Ráðlagt afurðir'.
-7.  Í því **Myndina** skal velja myndina sem eiga að birtast á flipanum.
-8.  Click **OK**. Nýr flipi birtist hnappahnitið.
-9.  Smellið á **X** til að vista og loka útlitshönnuður.
-10. Í Dynamics 365 aðgerða, farið **Smásölu og commerce**&gt;**Retail ÞAÐ**&gt;**dreifingaráætlanir**.
-11. Á listanum, veljið **1090 Skráir**.
-12. Smellið á **Keyra nú**.
+1.  Hægrismelltu í tómt bil undir síðasta flipanum á hnappahnitinu hægra megin á síðunni.
+2.  Smellt er á **Sérstilla**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Smellt er á **Nýr flipi**.
+4.  Finndu nýja flipann sem þú varst að bæta við. Þörf getur verið á því að skruna niður.
+5.  Í fellilistanum **Efni** skal velja **Ráðlögð afurð**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Í reitnum **Merki** skal skrá inn heiti fyrir ráðleggingaflipann. Til dæmis, ritarðu ‚Ráðlagðar vörur‘.
+7.  Í svæðinu **Mynd** velurðu myndina sem á að birtast á flipanum.
+8.  Smellt er á **OK**. Nýi flipinn birtist í hnappahnitunum.
+9.  Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
+10. Í Dynamics 365 for Operations er farið í **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**.
+11. Á listanum velurðu **1090 afgreiðslukassar**.
+12. Smellt er á **Keyra núna**.
 
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Yfirlit yfir leiðbeiningar sérsniðinn afurðar](personalized-product-recommendations.md)
+[Yfirlit yfir sérsniðnar afurðarráðleggingar](personalized-product-recommendations.md)
+
+
 
 

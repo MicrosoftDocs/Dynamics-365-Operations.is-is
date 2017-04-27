@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Operations-tilföng
 
+[!include[banner](../includes/banner.md)]
+
+
 Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu. 
 
 <a name="operations-resources"></a>Operations-tilföng
@@ -36,7 +39,7 @@ Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta
 Rekstrartilföng eru vélar, verkfæri, starfsmenn, aðstöðu, efnislegt svæði eða lánardrottnum sem framkvæma verkþætti verks eða framleiðsluferli. Þær geta verið af mismunandi gerðum og geta haft mismunandi getu.
 
 -   **Lánardrottinn**  ytri tilfang sem framkvæmir verkþætti verks eða framleiðsluferli. Sem dæmi má nefna undirverktaki. Með því að tengja tilföng lánardrottins við lánardrottnalykil, er hægt að mynda innkaup fyrir undirverktaka, byggt á uppskriftarlínum eða framleiðslulínum.
--   **Mannauður** – starfsmanns verks eða framleiðslu sem að framkvæma verkþáttinn, annað hvort einir eða sem stjórnandi vélar eða tækis. Ef verið er að nota virkni mannauður er hægt að tengja mannauður starfsmanns. Röðunarvélin getur síðan úthluta tilföngum, byggt á hæfni sem eru skilgreindar fyrir samsvarandi starfsmanns.
+-   **Mannauður** – starfsmanns verks eða framleiðslu sem að framkvæma verkþáttinn, annað hvort einir eða sem stjórnandi vélar eða tækis. Ef verið er að nota virknina mannauður er hægt að tengja mannauð við starfsmann. Röðunarvélin getur síðan úthluta tilföngum, byggt á hæfni sem eru skilgreindar fyrir samsvarandi starfsmanns.
 -   **Vél** – vél eða öðrum framleiðslutækjum sem krafist er í framleiðslu.
 -   **Verkfæri** – verkfæri eða tækið er yfirleitt notað með önnur tilföng til að framkvæma verkþátt í verki eða framleiðslu.
 -   **Staðsetning** – efnisleg staðsetning ákveðinnar stærðar sem er krafist til að geta framkvæma aðgerð. Sem dæmi má nefna samsetningarsvæði.
@@ -80,5 +83,7 @@ Til að nota á tilfangaflokk sem lean-vinnuflokkur , er afkastageta vinnuflokks
 
 ## <a name="costing-resources"></a>Kostnaðartilföng
 Þegar verkþáttur eins og leiðaaðgerð eða tímaspá verks er skilgreind, er hægt að tilgreina þarfir fyrir tiltekinna rekstrartilföng eða tilfangaflokkur. Þó er einnig hægt að tilgreina þarfir fyrir rekstrartilföng af tiltekna gerð, eða rekstrartilföng sem hefur tiltekna getu eða hæfni. Þess vegna er raunveruleg úthlutun tilfanga ekki gerðar fyrr en verkþátturinn er áætlaður og afkastageta er frátekið. Þess vegna á leiðaraðgerð, hægt er að tilgreina þetta mat og uppskriftarútreikningurinn verður að byggja á tilteknum rekstrartilföng. Þessi rekstrartilföng kallast kostnaðartilföng. Er einnig hægt að flytja kostnaðartegundir og aðgerðatímar úr kostnaðartilföng á verkþættinum. Þegar aðgerðinni er raðað, eru matið og uppskriftarútreikningurinn gerðar með því að nota rekstrartilföng sem er í raun raðað.
+
+
 
 

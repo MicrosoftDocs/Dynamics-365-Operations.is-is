@@ -1,6 +1,6 @@
 ---
 title: "Árslokalokun"
-description: "Þetta efnisatriði lýsir uppsetningu og skrefum til að keyra lokun árslokaferlinu fjárhags."
+description: "Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,61 +27,66 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="year-end-close"></a>Árslokalokun
 
-Þetta efnisatriði lýsir uppsetningu og skrefum til að keyra lokun árslokaferlinu fjárhags. 
+[!include[banner](../includes/banner.md)]
 
-Við lok fjárhagsársins þarf að keyra lokun árslokavinnslu til að flytja opnunarstöður í nýtt ár. Flest fyrirtæki keyrir loka árslokaferlinu mörgum sinnum. Í fyrsta sinn er að sækja stöður sem eru færðar inn í nýtt fjárhagsár. Loka árslok síðan má keyra aftur, sem oft eru nauðsynleg til að flytja stöður úr leiðrétta færslur í nýja fjárhagsárið. 
 
-Loka ferli við í árslok, til eru tvær gerðir færslna mögulegt að stofna. Opna færslan mynduð alltaf og er notað til að stofna opnunarstöður í nýtt fjárhagsár. Opna færsluna sýnir stöður fjárhagslykils í efnahagsreikningi í nýtt fjárhagsár og stöðu úr lykilsstöður fjárhags rekstur í fjárhag tekjulykil í nýtt fjárhagsár. Lokun færslu stofnast einnig til að færa stöðu í rekstrarlyklum niður núll í fjárhagsárinu er lokað.
+Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags. 
 
-## <a name="prepare-to-run-the-year-end-close"></a>Undirbúa keyrslu á ársloka
-Áður en árslokaferlinu birgðalokun er keyrð skal staðfesta stillingar fyrir eftirfarandi: 
+Við lok fjárhagsársins, þarf að keyra árslokalokun til að flytja opnunarstöður á nýtt ár. Flest fyrirtæki keyrir loka árslokaferlið mörgum sinnum. Fyrsta skiptið væri að sækja stöður sem eru færðar inn í nýtt fjárhagsár. Síðan er hægt að keyra árslokaferlið aftur, sem oft er nauðsynlegt til að flytja stöður úr leiðréttingarfærslum í nýja fjárhagsárið. 
+
+Við árslokaferlið er hægt að stofna tvær gerðir færslna. Opnunarfærsla er alltaf mynduð og er notuð til að stofna opnunarstöður á nýtt fjárhagsár. Opnunarfærslan sýnir stöður fjárhagslykils í efnahagsreikningi á nýju fjárhagsári og stöðu úr lykilsstöðum rekstrarlykla í fjárhagslykli óráðstafaðs eigin fjár á nýju fjárhagsári. Valfrjálst er að stofna lokunarfærslu til að færa stöðu í rekstrarlyklum niður núll í fjárhagsárinu sem verið er að loka.
+
+## <a name="prepare-to-run-the-year-end-close"></a>Undirbúa keyrslu á árslokalokun 
+Áður en árslokalokunarferlið er keyrt skal staðfesta stillingar fyrir eftirfarandi: 
 
 Á síðunni **Aðallykill**:
 
--   Villuleita í **lykilgerð Aðal** hefur verið skilgreind rétt fyrir hvern aðallykil. Aðal lykilgerðin er notuð til að ákvarða hvort stöðu aðallykils verður að vera tekin áfram sem opnunarstöðu eða lokaða óráðstafað eigið fé inn á Opna færslu.
--   Í **Opnunarlykillinn** svæði getur notað til að flytja inn nýjan aðallykil stöðu aðallykils við árslok birgðalokun. Færð er inn nýjan aðallykil í á **Opnunarlykillinn** svæði. Vanalega verður notuð fyrir aðallykla efnahagsreikningur þegar aðallykils er óvirkur og nýjan aðallykil er notað fyrir nýtt fjárhagsár.
+-   Sannprófa að **Aðallykilgerð** hefur verið skilgreind rétt fyrir hvern aðallykil. Aðallykilgerðin er notuð til að ákvarða hvort stöðu aðallykils verður að vera tekin áfram sem opnunarstaða eða lokaða óráðstafað eigið fé inn á Opnunarfærslu.
+-   Svæðið **Opnunarlykillinn** má nota til að flytja stöðu aðallykils í nýjan aðallykil við árslokalokun. Nýi aðallykillinn er færður inn í svæðinu **Opnunarlykill**. Vanalega verður þetta notað fyrir aðallykla efnahagsreikninga þegar aðallykill er óvirkur og nýr aðallykill er notaður fyrir nýtt fjárhagsár.
 
-Á við **fjárhagsfæribreytur** síðuna undir **fjárhagsárs**:
+Á síðunni **fjárhagsfæribreytur** undir **Lok fjárhagsárs**:
 
--   Í **Eyða loka færslna ársins** valkostur er notaður til að tilgreina hvort á að eyða opnunarfærsla kerfismynduð úr fyrri árslok að loka þegar árslok birgðalokun er keyrð á ný. Ef þessi valkostur er stilltur á **Já**fyrri opnunarfærsla er eytt og nýjar opnunarfærsla stofnuð á grundvelli gildandi stöður. Ef þessi valkostur er stilltur á **Nei**helst fyrri opnunarfærsla og viðbótar opnunarfærsla er stofnuð til að flytja stöður áfram frá leiðrétta færslur sem bókaðar eftir að fyrri ársloka.
--   Í **Stofna lokunarfærslur við flutning** valkostur er notaður til að stofna lokunarfærslur í fjárhagsárinu er lokað til að færa stöðu í rekstrarlyklum í núll. Ef þessi valkostur er stilltur á **Já**, opnunarfærsla og Lokun færsla er stofnuð. Ef þessi valkostur er stilltur á **Nei**, aðeins opnunarfærsla er stofnuð í næsta fjárhagsárs til að flytja stöður. Hagnaður og tap lykilsstöður eftir við lok fjárhagsársins.
--   Í **Stilla stöðu fjárhagsárs lokað varanlega** valkostur er notaður til að stilla fjárhagsár varanlega lokaðri stöðu. Nota þessa stillingu varlega, því öll tímabil með varanlega lokaðri stöðu er ekki hægt að enduropna, koma í veg leiðréttingar séu bókaðar á fjárhagsár. Það er besta leiðin til að setja þetta á **Nei**.
--   Í **tiltaka þarf fylgiskjalsnúmer** valkostur er notaður til að skilgreina hvort númer fylgiskjals er krafist þegar árslokaferlinu birgðalokun er keyrð. Er besta leiðin til að krefjast númer fylgiskjals að auðvelt sé að finna á Opna færslu.
+-   Valkosturinn **Eyða árslokafærslum** er notaður til að tilgreina hvort eyða eigi kerfismyndaðri opnunarfærslu úr fyrri árslokalokun þegar árslokalokun er keyrð á ný. Ef þessi valkostur er stilltur á **Já** er fyrri opnunarfærslu eytt og ný opnunarfærsla stofnuð á grundvelli gildandi staða. Ef þessi valkostur er stilltur á **Nei** helst fyrri opnunarfærsla og viðbótar opnunarfærsla er stofnuð til að flytja stöður áfram úr leiðréttingarfærslum sem bókaðar eru eftir að fyrri árslokalokun.
+-   Valkosturinn **Stofna lokunarfærslur við flutning** er notaður til að stofna lokunarfærslur í fjárhagsárinu sem verið er að loka til að færa stöðu í rekstrarlykla í núll. Ef þessi valkostur er stilltur á **Já** eru bæði opnunarfærsla og Lokunarfærsla stofnuð. Ef þessi valkostur er stilltur á **Nei** er aðeins opnunarfærsla stofnuð í næsta fjárhagsári til að flytja stöður. Rekstrarstöður verða eftir við lok fjárhagsársins.
+-   Valkosturinn **Stilla stöðu fjárhagsárs lokað varanlega** er notaður til að stilla fjárhagsár á varanlega lokaða stöðu. Nota skal þessa stillingu varlega, því öll tímabil með varanlega lokaðri stöðu er ekki hægt að enduropna, sem kemur í veg fyrir að leiðréttingar séu bókaðar á fjárhagsár. Bestu starfsvenjur eru að stilla þetta á **Nei**.
+-   Valkosturinn **Tiltaka þarf fylgiskjalsnúmer** er notaður til að skilgreina hvort númer fylgiskjals er krafist þegar árslokalokun er keyrð. Bestu starfsvenjur eru að krefjast númers fylgiskjals til að auðvelt sé að finna Opnunarfærslu.
 
-Á við **fjárhagsdagatal** síðu:
+Á síðunni **fjárhagsdagatöl**:
 
--   Næsta fjárhagsárs verður að vera til áður en lokið í árslok í gangi. Næsta fjárhagsárs er krafist til að stofna í upphafsstöður opnunarstaða tímabilsins.
+-   Næsta fjárhagsár verður að vera til áður en árslokalokun eru keyrð. Næsta fjárhagsárs er krafist til að stofna upphafsstöður í opnunartímabili.
 
-Á við **fjárhagsdagatal** síðu:
+Á síðunni **Dagbækur fjárhags**:
 
--   Valfrjálst: Hvert fjárhagstímabil fyrir fjárhagsárið lokað er má stilla **í bið** til að koma í veg fyrir nýjar færslur úr færðar inn. Þegar leiðréttingarfærslur eru auðkenndar á bið tímabilin sem hægt er að enduropna til að bóka leiðréttingarfærslur, jafnvel þó að birgðalokun árslokaferlinu hefur þegar verið keyrt.
+-   Valfrjálst: Hvert fjárhagstímabil fyrir fjárhagsárið lokað má stilla á **Í bið** til að koma í veg fyrir að nýjar færslur séu færðar inn. Þegar leiðréttingarfærslur eru auðkenndar er hægt að enduropna biðtímabilin til að bóka leiðréttingarfærslur, jafnvel þó að árslokalokunarferlið hafi þegar verið keyrt.
 
-## <a name="define-year-end-close-templates"></a>Skilgreina ársloka loka sniðmát
-Eftir að kerfið sé skilgreint hægt að keyra lokun árslokaferlinu. Á við **ársloka** síðu er hægt að skilgreina sniðmát fyrir hóp lögaðila sem loka á árslok vinnslu verður að keyra. Sniðmátið verður að endurnýta við hverja árslok lokið, en er hægt að breyta ef fyrirtækið breytingar. 
+## <a name="define-year-end-close-templates"></a>Skilgreina sniðmát árslokalokunar
+Eftir að kerfið hefur verið skilgreint er hægt að keyra árslokalokunarferlið. Á síðunni **Árslokalokun** er hægt að skilgreina sniðmát fyrir hóp lögaðila sem á að keyra árslokalokun fyrir. Sniðmátið verður endurnýtt við hverja árslokalokun, en er hægt að breyta ef fyrirtækið breytist. 
 
-Fyrst skal skilgreina á **flokksheiti** fyrir sniðmátið og veljið fjárhagsdagatalinu. Heiti flokksins ætti að auðkenna hóp með lögaðila.  Til dæmis sniðmátin kann að setja upp byggt á landafræði við sérstaka flokka stofnuð fyrir American norður-lögaðila EMEA lögaðila og APAC lögaðila. 
+Fyrst skal skilgreina **Flokksheiti** fyrir sniðmátið og velja fjárhagsdagatalið. Heiti flokksins ætti að auðkenna hóp með lögaðila.  Til dæmis er hægt að setja upp sniðmátin samkvæmt landafræði, með sérstaka flokka stofnaða fyrir lögaðila í Norður-Ameríku, EMEA lögaðila og APAC lögaðila. 
 
-Næst skal lögaðila er bætt við sniðmátið. Hægt er að bæta lögaðilum með því að velja stigveldi fyrirtækis eða með því að velja lögaðila. Ef stigveldi fyrirtækisins er valinn eru aðeins lögaðila innan stigveldi sem nota valið fjárhagsdagatal verður bætt við sniðmátið. Ef lögaðila er notuð til að bæta sniðmáti er hægt að bæta aðeins lögaðilum með sama fjárhagsdagatal. Sama fjárhagsdagatal er krafist vegna þess að árslok birgðalokun er keyrð með því að velja fjárhagsár sem getur verið breytilegur úr dagatalinu á dagatalinu. 
+Næst er hægt að bæta lögaðila við sniðmátið. Hægt er að bæta lögaðilum við með því að velja annaðhvort lögaðila eða með því að velja stigveldi fyrirtækis. Ef stigveldi fyrirtækisins er valið verður aðeins lögaðilum innan stigveldis sem nota valið fjárhagsdagatal bætt við sniðmátið. Ef lögaðilar eru notaðir til að bæta við sniðmát er aðeins hægt að bæta við lögaðilum með sama fjárhagsdagatal. Sama fjárhagsdagatals er krafist vegna þess að árslokalokun er keyrð með því að velja fjárhagsár, sem geta verið breytileg frá einu dagatali til annars. 
 
-Eftir lögaðila er bætt við að skilgreina óráðstafað eigið fé aðallykla fyrir hvern lögaðila. Í **ár síðasta Lokadagsetning loka** svæði verður að vera uppfærð í hvert sinn árslok birgðalokun er keyrð fyrir lögaðila. 
+Þegar lögaðila hefur verið bætt við skal aðallykla skilgreina óráðstafaðs eigin fjár fyrir hvern lögaðila. Svæðið **Dagsetning síðastu árslokalokunar** verður að vera uppfært í hvert sinn sem árslokalokun er keyrð fyrir lögaðila. 
 
-Í **fjárhagsvídd** flipinn er notaður til að skilgreina hvaða fjárhagslegar víddir verða notaðar á Opna færslu. Athugið að verið er að skilgreina stillingar eiga við aðeins valins lögaðila í á **lögaðila** hnitanetinu. Endurtaka verður uppsetningu fyrir hvern lögaðila í hnitanetinu. 
+Flipinn **Fjárhagsvídd** er notaður til að skilgreina hvaða fjárhagslegar víddir verða notaðar í Opnunarfærslu. Athugið stillingarnar sem verið er að skilgreina eiga aðeins við lögaðila sem var valinn í hnitanetinu **Lögaðila**. Endurtaka verður uppsetningu fyrir hvern lögaðila í hnitanetinu. 
 
-Í **Flytja víddir efnahagsreikningur** er notuð til að skilgreina hvort fjárhagsvíddir í færslur bókaðar á efnahagslykla ætti að viðhalda á Opna færslu. Besta leiðin til að setja þennan valkost til að hún er **Já**. Í **Flytja víddir rekstur** er notuð til að skilgreina hvaða fjárhagsvíddir á færslunum sem bókaðar eru sem hagnaður og tap fluttar í aðallykilinn óráðstafað eigið fé. Auðkenna fyrst fjárhagsvíddir sem eiga við valinn lögaðila. Þetta myndi fela í sér allar fjárhagsvíddir bókuð á móti á árinu, jafnvel þótt fjárhagsvíddinni er ekki hluti af virku lykilskipulagi. Næst skal skilgreina hverrar víddar sem annað hvort **Loka einn** eða **Loka öllum**.  Sjálfgefin **Loka öllum**, upphaflega fjárhagsvíddina sem viðheldur gildi úr bókaðar færslur og notar þau fyrir stofnun opnunar stöðum á tekjulykil. Aðskilin óráðstafað eigið fé upphafsstöður verður stofnuð fyrir hverja einkvæma samsetningu fjárhagsvíddargildi. Ef **Loka einn** er valinn eru allar færslur sem eru bókaðar með sem fjárhagsvídd saman í óráðstafað eigið fé upphafsstaða víddargildisins færður inn í svæði eftir **Loka einn**. Til dæmis, fyrir allar færslur fyrir fjárhagsár voru bókaðar með lykilskipulag aðallykils - Deild. Í fjárhagsvíddinni Deild á sem sniðmát **Loka einn** er valinn og 100 er fært inn gildi. Ef heildartekjum af allar færslur bókaðar á deildir 200 300 og 400 er $100,000 eina opnunarstaða stofnuð fyrir Retained earnings - 100. Ef **Loka einn** og autt gildi fjárhagsvídda, allar færslur verður bókuð í óráðstafað eigið fé gildið víddin er auð. 
+**Flytja víddir efnahagsreikningur** er notuð til að skilgreina hvort fjárhagsvíddir í færslur bókaðar á efnahagslykla ætti að viðhalda á Opnunarfærslu. Bestu starfsvenjur eru að stilla þennan valkost á **Já**. **Flytja víddir rekstur** er notað til að skilgreina hvaða fjárhagsvíddir á færslunum sem bókaðar eru sem rekstrarreikningur verða fluttar í aðallykilinn óráðstafað eigið fé. Fyrst þarf að auðkenna fjárhagsvíddir sem eiga við valinn lögaðila. Þetta myndi fela í sér allar fjárhagsvíddir sem voru bókaðar á móti árinu, jafnvel þótt fjárhagsvíddin sé ekki hluti af virku lykilskipulagi. Næst skal skilgreina hverja vídd sem annaðhvort **Loka einni** eða **Loka öllum**.  Sjálfgildi er **Loka öllum**, sem viðheldur upphaflegum fjárhagsvíddagildum úr bókuðum færslum og notar þau fyrir stofnun á opnunarstöðum fyrir tekjulykil. Aðskildar upphafsstöður óráðstafaðs eigin fjár verða stofnaðar fyrir hverja einkvæma samsetningu fjárhagsvíddargilda. Ef **Loka einni** er valinn eru allar færslur sem eru bókaðar með þeirri fjárhagsvídd dregnar saman í upphafsstöðu óráðstafaðs eigin fjár fyrir upphafsstöðu víddargildisins færðar inn í svæði eftir **Loka einni**. Til dæmis, látum sem allar færslur fyrir fjárhagsár hafi verið bókaðar með lykilskipulagi aðallykils - Deild. Í fjárhagsvíddinni Deild í sniðmátinu er valið **Loka einni** og 100 er fært inn sem gildi. Ef heildartekjur af öllum færslum sem bókaðar eru á deildir 200, 300 og 400 er $100.000 verður ein opnunarstaða stofnuð fyrir Óráðstafað eigið fé - 100. Ef þú velur **Loka einni** og hefur gildi fjárhagsvídda autt verða allar færslur bókaðar í óráðstafað eigið fé með það víddargildi autt. 
 
-Loka árslokaferlinu ekki fylgja eigi stillingunni lykilskipulag. Þetta er vegna þess að lykilskipulag má breyta í gegnum fjárhagsársins og ekki er alltaf hægt að auðkenna viðkomandi lykilskipulag vegna þessara breytinga.  Þegar opnunarfærslur eru stofnaðar stöður verða að vera tekin fram með fjárhagsvíddir eins og skilgreint er í ár lok sniðmát loka. Upphaf stöður færslur gætu hafa fjárhagsvíddir ekki lengur í gildandi lykli skipulag og hluta samsetningarnar sem eru ekki lengur gild í núgildandi lykilskipulag. Ef fyrirtækið vill að útiloka fjárhagsvídd varðveitt tekjukóða stillt upphafsstaða, fjárhagsvídd sem á að vera **Loka einn** og skiljið auð víddargildi.
+Ferli árslokalokunar fylgja ekki lykilskipulagi. Þetta er vegna þess að lykilskipulag getur breyst á meðan fjárhagsári stendur og ekki er alltaf hægt að auðkenna viðkomandi lykilskipulag vegna þessara breytinga.  Þegar opnunarfærslur eru stofnaðar verða stöður teknar fram með fjárhagsvíddir eins og skilgreindar í sniðmáti árslokalokunar. Upphafsstöðufærslur gætu innihaldið fjárhagsvíddir sem eru ekki lengur í gildandi lykilskipulagi og hlutasamsetningar sem eru ekki lengur gild í núgildandi lykilskipulagi. Ef fyrirtækið vill útiloka fjárhagsvídd fyrir upphafsstöðu varðveitts tekjukóða skal stilla fjárhagsvídd á **Loka einni** og hafa víddargildin auð.
 
-## <a name="run-the-year-end-close-process"></a>Keyra birgðalokun árslokaferlinu
-Eftir að loka ársloka sniðmátin eru stofnaðar, loka árslokaferlinu ræst með því að velja **Keyra fjárhagsár** í Aðgerðarúðunni. Annað hvort að velja allar eða hlutmengi lögaðila úr sniðmáti sem á að keyra birgðalokun við árslok. Þegar í gangi í árslok lokið í fyrsta skipti í fjárhagsári líklega verður að velja öllum lögaðilum til að stofna upphafsstöður fyrir alla lögaðila. Ef afskriftareglur eru keyrð í árslok lokun aftur, má velja að keyra vinnslu fyrir aðeins lögaðila sem leiðréttingarfærslur voru bókaðar. 
+## <a name="run-the-year-end-close-process"></a>Keyra árslokalokunarferlið
+Eftir að sniðmát árslokalokunar eru stofnuð, er ferli árslokalokunar ræst með því að velja **Keyra fjárhagsár** í Aðgerðarúðunni. Veldu annaðhvort allt eða hlutmengi lögaðila úr sniðmátinu sem á að keyra árslokalokunina úr. Þegar árslokalokun er keyrð í fyrsta skipti á fjárhagsári muntu líklega velja alla lögaðila til að stofna upphafsstöður fyrir alla lögaðila. Ef árslokalokun er keyrð aftur má velja að keyra vinnslu fyrir aðeins þá lögaðila sem leiðréttingarfærslur voru bókaðar fyrir. 
 
-Velja fjárhagsár sem óskað er að keyra fyrir lokun árslokavinnsla gegn. Ef fleiri en einn lokunartímabil til á síðasta tímabili fjárhagsársins, sem **heiti Tímabils** svæði verða tiltækar þannig að hægt er að velja hvaða lokunartímabils sem á að bóka færsluna Lokun ef uppsetning er skilgreind til að stofna færslu fyrir Lokun. 
+Veldu fjárhagsár sem keyra á ferli árslokalokunar gegn. Ef fleiri en eitt lokunartímabil er til á síðasta tímabili fjárhagsársins, verður svæðið **Heiti tímabils** tiltækt svo að hægt sé að velja á hvaða lokunartímabil á að bóka lokunarfærsluna ef uppsetning er skilgreind til að stofna Lokunarfærslu. 
 
-Færið inn fylgiskjals númer, sem eða má ekki vera áskilið, allt eftir uppsetningu í færibreytum fjárhags. Verður að nota sama fylgiskjalsnúmer fyrir alla lögaðila valið fyrir í loka árslokavinnsla. Númer fylgiskjals er ekki mynduð með því að nota númeraröð. Besta leiðin til að færa inn fylgiskjalsnúmer, er jafnvel þótt að það hefur ekki áskilið. Færa inn fylgiskjalsnúmer gerir það auðveldara að finna færsluna Opnunarstöður í nýtt fjárhagsár. Ef fært er inn númer fylgiskjals er ekki verður fylgiskjalið autt fyrir Opna færslu. 
+Færið inn númer fylgiskjals, sem kann að vera áskilið eða ekki, allt eftir uppsetningu í færibreytum fjárhags. Nota verður sama fylgiskjalsnúmer fyrir alla lögaðila sem voru valdir fyrir ferli árslokalokunar. Númeraröð er ekki notuð til að mynda þetta fylgiskjalsnúmer. Bestu starfsvenjur eru að færa inn fylgiskjalsnúmer, jafnvel þótt að það sé ekki áskilið. Færa inn fylgiskjalsnúmer gerir auðveldara að finna færsluna Opnunarstöður á nýju fjárhagsári. Ef ekki er fært inn númer fylgiskjals verður fylgiskjalið autt fyrir Opnunarfærslu. 
 
-Ef óskað er að bakfæra loka fyrra lokadagsetningu fyrir valið fjárhagsár, setja **Afturkalla fyrri lokun** til **Já**. Árslok birgðalokun verður að bakfæra en ferlinu hægt endurkeyra hvenær. Ef bakfærð árslok birgðalokun, er **Dagsetning fyrir lok síðasta árs loka** verður ekki tiltæk. 
+Ef óskað er að bakfæra fyrri árslokalokun fyrir valið fjárhagsár, skal stilla **Afturkalla fyrri lokun** á **Já**. Árslokalokun verður bakfærð en hægt er að endurkeyra ferlið hvenær sem er. Ef árslokalokun er bakfærð verður **Dagsetning síðustu árslokalokunar** ekki tiltæk. 
 
-Loka árslokaferlinu sjálfgildi til að keyra í runuhætti. Er besta leiðin til að keyra ferlið í runustillingu til að leyfa notanda að fara aftur í aðrar aðgerðir. Eftir við lok ferli við lokun er lokið, í **ár síðasta Lokadagsetning loka** verður uppfærð með dagsetningu biðlarasetu.
+Ferlið Árslokalokunin er sjálfgefið keyrt í runuham. Bestu starfsvenjur eru að keyra ferlið í runustillingu til að leyfa notanda að fara aftur í aðrar aðgerðir. Þegar ferli árslokalokunar er lokið verður **Dagsetning síðustu árslokalokunar** uppfært með dagsetningu lotu.
 
-Nánari upplýsingar, sjá [Loka á fjárhags við lok tímabils](close-general-ledger-at-period-end.md).
+Fyrir nánari upplýsingar, sjá [Loka fjárhag í lok tímabils](close-general-ledger-at-period-end.md).
+
+
 
 

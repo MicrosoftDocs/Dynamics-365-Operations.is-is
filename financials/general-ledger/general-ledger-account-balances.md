@@ -1,6 +1,6 @@
 ---
 title: "Stöður fjárhagsreikninga"
-description: "Þessi skrá útskýrir tvær leiðir til að skoða fjárhagi lykilsstöður - listasíðu prófjöfnunar og fjárhagsskýrslur. Greinin einnig fjallar um það hvernig á að uppfæra stöður víddasamstæðna."
+description: "Þessi grein útskýrir tvær leiðir til að skoða stöðu fjárhagslykils - listasíðu prófjöfnuðar og fjárhagsskýrslur. Greinin einnig fjallar um það hvernig á að uppfæra stöður víddasamstæðna."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Stöður fjárhagsreikninga
 
-Þessi skrá útskýrir tvær leiðir til að skoða fjárhagi lykilsstöður - listasíðu prófjöfnunar og fjárhagsskýrslur. Greinin einnig fjallar um það hvernig á að uppfæra stöður víddasamstæðna.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein útskýrir tvær leiðir til að skoða stöðu fjárhagslykils - listasíðu prófjöfnuðar og fjárhagsskýrslur. Greinin einnig fjallar um það hvernig á að uppfæra stöður víddasamstæðna.
 
 Það eru ýmsar aðferðir fyrir notendur að skoða stöðu fjárhags. Nokkrir algengustu valkostirnir eru:
 
@@ -46,6 +49,8 @@ Prófjöfnuður er listasíða sem sýnir allar stöður lykils og/eða vídda f
 
 Notendur geta kafað niður á stöðuna til að skoða færslur sem mynda stöðu.    
 
-Nánari upplýsingar, sjá [Skoða fjárhagsskýrslur](view-financial-reports.md).
+Frekari upplýsingar eru í [Skoða fjárhagsskýrslur](view-financial-reports.md).
+
+
 
 

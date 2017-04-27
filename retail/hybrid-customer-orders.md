@@ -1,6 +1,6 @@
 ---
-title: "Hybrid pantanir viðskiptavina"
-description: "Pöntun viðskiptavinar hybrid er eina pöntun, sem inniheldur afurðir sem hægt er að framkvæma úr verslun með viðskiptavinar, ásamt afurðir sem verður tekin eða sent síðar."
+title: "Fjölpantanir viðskiptavinar"
+description: "Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðskiptavinur getur haft með sér úr verslun, sem og vörur sem verða sóttar eða sendar síðar."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,20 +25,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="hybrid-customer-orders"></a>Hybrid pantanir viðskiptavina
+# <a name="hybrid-customer-orders"></a>Fjölpantanir viðskiptavinar
 
-Pöntun viðskiptavinar hybrid er eina pöntun, sem inniheldur afurðir sem hægt er að framkvæma úr verslun með viðskiptavinar, ásamt afurðir sem verður tekin eða sent síðar.
+[!include[banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 aðgerða - Smásölu, má velja annað hvort fyrra út allar afurðir eða framkvæma valdar afurðir fyrir pöntun viðskiptavinar. Afurð sem merktar eru sem framkvæmd er sjálfkrafa reikningsfærðum línum þegar pöntun er stofnuð, vinnustöðvartímans er þetta sama pöntun sem á að taka upp eftir að pöntun er stofnuð. Upphæð til greiðslu á hybrid pantanir ákvarðast af innborgunarprósenta á að taka til að bæta og afurðalína sendingar með heildarupphæðina fyrra línur. Hybrid pantana, skiptir kerfið á milli afhendingarmáta pöntun viðskiptavinar og reiðufé og staðgreiddar ham sem hér segir:
 
--   Ef allar afurðirnar í körfunni eru stillt á **Framkvæma afhendingu**, pöntun verður meðhöndluð sem Reiðufjár og Staðgreiddar færslur.
--   Ef einhverjar eða allar línur í körfunni eru stillt á annað hvort **Taka** eða **senda afhendingu**, pöntun verður meðhöndluð sem færslu Viðskiptavinar.
+Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðskiptavinur getur haft með sér úr verslun, sem og vörur sem verða sóttar eða sendar síðar.
 
-Ef lína innkaupakörfu er valinn og **Tiltekt valin**, **Senda valið**, eða **Framkvæmd valda** er valinn eru aðeins tilteknar körfulínu sett með sem afhendingaraðferð. Í því tilfelli niðurflæði aðgerðarinnar heldur eins og venjulega. Hins vegar ef **Tiltekt valin**, **Senda valið**, eða **Framkvæmd valda** valinn án körfulínu sem verið er að velja nýja síðu opnast sem skráir allar línur innkaupakörfu. Á skjá, hægt er að velja margar línur í einu fyrir afhendingaraðferð stillingu. Þegar aðferð sem er notuð til að velja línur hnekkt allar fyrri afhendingaraðferð sem hefur verið úthlutað á línu.
+Í Microsoft Dynamics 365 for Operations - Smásala, geturðu annað hvort valið að fara út með allar vörur eða fara út með valdar vörur fyrir pöntun viðskiptavinar. Vörulínur sem eru merktar sem fara með út eru reikningsfærðar sjálfkrafa eftir að pöntun er stofnuð, það sama er gert fyrir pöntun sem á að sækja eftir að pöntun er stofnuð. Upphæð til greiðslu fyrir fjölpöntun er ákvörðuð með því að bæta prósentu innborgunar á sækja og senda vörulínum við heildarupphæð lína sem á að fara með út. Fyrir fjölpantanir skiptir kerfið á milli stillingar fyrir pöntun viðskiptavinar og stillingar fyrir staðgreitt fyrir afhendingu sem hér segir:
+
+-   Ef allar vörur í körfu eru stilltar á **Framkvæma afhending**, verður pöntun afgreidd sem Staðgreitt við afhendingu.
+-   Ef allar vörur í karfa eru stilltar á annað hvort **Taka til** eða **senda afhendingu**,, verður pöntun afgreidd sem færsla á pöntun viðskiptavinar.
+
+Ef körfulína er valin og **Taka til er valið**, **Senda er valið**, eða **Framkvæma er valið** er valið verðu aðeins tilgreind körfulína stillt á þá afhendingaraðferð. Í því tilviki heldur niðurflæði aðgerðarinnar áfram eins og venjulega. Ef hins vegar **Taka til valinn**, **Afgreiða Valið: , **, eða **Framkvæma Valið: , ** er Valið án þess að körfulína sé valin opnast ný síða með lista yfir allar körfulínur. Á þeirri skjámynd er hægt að velja margar línur samtímis til að stilla afhendingaraðferð. Þegar þú notar þá aðferð fyrir línuval verða allar fyrri afhendingaraðferðir sem hefur verið úthlutað á línuna hnekkt.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Yfirlit yfir pantanir viðskiptavina](customer-orders-overview.md)
+[Yfirlit pantana viðskiptavina](customer-orders-overview.md)
+
+
 
 

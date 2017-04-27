@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Innkaupapantanir fyrir verk
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir ýmsum aðferðum sem hægt er að nota til að stofna innkaupapantanir fyrir verk. Aðferðin sem notuð er er háð tilgangi innkaupapöntunar, og þegar keyptar vörur eru notaðar og innheimtar á verk.
 
-Hægt er að nota margar aðferðir til að stofna innkaupapantanir fyrir verk í Microsoft Dynamics 365 fyrir Aðgerðir. Aðferðin sem notuð er er háð tilgangi innkaupapöntunar, þegar keyptar vörur eru notaðar og þegar keyptar vörur eru reikningsfærðar á verk.
+Í Microsoft Dynamics 365 for Operations er hægt að nota margar aðferðir til að stofna innkaupapantanir fyrir verk. Aðferðin sem notuð er er háð tilgangi innkaupapöntunar, þegar keyptar vörur eru notaðar og þegar keyptar vörur eru reikningsfærðar á verk.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Aðferðir til að búa til innkaupapöntun
 
@@ -71,6 +74,8 @@ Hægt er að nota eina af eftirfarandi aðferðum til að stofna innkaupapöntun
 </table>
 
 > [!NOTE] 
-> Þegar reikningur lánardrottins eða fylgiseðill er uppfærður er verið beðinn um að uppfæra fylgiseðil í vöruþörf.
+> Þegar reikningur lánardrottins eða fylgiseðill er uppfærður ertu hvattur til að uppfæra fylgiseðilinn í vöruþörf.
+
+
 
 

@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir hvernig á að útiloka frávik frá sögulegum gögnum sem eru notuð við útreikning á eftirspurnarspá. Með því útiloka einfara er hægt að auka nákvæmni eftirspurnarspár.
 
-Hægt er að útiloka outliers til að auka nákvæmni eftirspurnarspár. Þetta verk er valfrjálst. Hér er yfirlit yfir ferlið:
+Með því útiloka frávik er hægt að auka nákvæmni spár. Þetta verk er valfrjálst. Hér er yfirlit yfir ferlið:
 
-1.  Smellið á **Sniðmát fjárhagsáætlunargerðar**&gt;**Uppsetningu**&gt;**eftirspurnarspár**&gt;**Einfari fjarlægður** til að opna í **Einfari fjarlægður** síðuna þar sem hægt er að nota fyrirspurn til að velja færslur til að útiloka.
+1.  Smellið á **Aðaláætlanagerð** &gt; ** Uppsetning** &gt; **Eftirspurnarspár** &gt; **Frávik fjarlægt** til að opna síðuna **Frávik fjarlægt** þar sem hægt er að nota fyrirspurn til að velja færslur til að útiloka.
 2.  Veljið fyrirtækið sem fyrirspurnin á við og færið svo inn nafn og lýsingu. Reiturinn **Dagsetning fyrirspurnar** er sjálfkrafa stilltur á Virkt.
 3.  Velja skal gátreitinn **Virkur** gátreit til að útiloka færslur sem fyrirspurnin finnur í sögulegum gögnum. Þessi stilling tekur gildi þegar grunnlínuspá er stofnuð.
 4.  Á síðunni **Fjarlægingarfyrirspurn fyrir einfara** er hægt að bæta við, fjarlægja og velja skilyrði sem skilgreina hvaða færslur verða útilokaðar þegar grunnspá er reiknuð. Til dæmis, veljið tiltekna vöru eða pöntunarfærslu sem á að útiloka.
@@ -43,8 +46,10 @@ Hægt er að útiloka outliers til að auka nákvæmni eftirspurnarspár. Þetta
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Kynning á eftirspurnarspá](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Fylgjast með nákvæmni spár](monitor-forecast-accuracy.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Áætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús ekki skyldugt"
+title: "Aðaláætlanagerð fyrir svæðis og vöruhúsatryggingu, vöruhús ekki áskilið"
 description: "Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði og vöruhús sem þakningarvíddir er áætluð. Vöruhúsavíddin er ekki skyldug."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Áætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús ekki skyldugt
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Aðaláætlanagerð fyrir svæðis og vöruhúsatryggingu, vöruhús ekki áskilið
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði og vöruhús sem þakningarvíddir er áætluð. Vöruhúsavíddin er ekki skyldug.
 
@@ -38,10 +41,10 @@ Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
 -   Víddir svæða og vöruhúsa eru stilltar á þekjuáætlun. Aðrar víddir gætu einnig verið stilltar á þekjuáætlanir. Fjölsvæðiseiginleikinn hefur aftur á móti ekki áhrif á þær.
 
 Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. Færibreyturnar sem vísað er í á myndinni og staðsetningar þeirra eru sem hér segir:
--   Vöruhúsið er stillt á Handvirkt. Smellt er á **Birgðastjórnun &gt;Uppsetningu &gt;niðurbrot &gt;Vöruhús**. Á við **aðaláætlanagerð** flýtiflipa, sjá á **Handvirkt** svæði.
--   Vöruþekja er skilgreind fyrir vöruna. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna, og síðan á aðgerðasvæðinu skal á í **Áætlun** flipanum, smellið **Vöruþekja**.
--   Áfyllingarvensl eru skilgreind fyrir vöruhúsið. Smellt er á **Birgðastjórnun &gt;Uppsetningu &gt;niðurbrot &gt;Vöruhús**. Á flýtiflipanum **Aðaláætlanagerð** skal sjá reitahópur  **Aðalvöruhús**.
--   Sjálfgefin pöntunargerð er stillt á Framleiðslu, Innkaupapöntun eða Kanban. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna, og síðan á aðgerðasvæðinu skal á í **Áætlun** flipanum, smellið **Sjálfgefnar pöntunarstillingar**. Í á **Sjálfgefnar pöntunarstillingar** skjámynd sjá **Sjálfgefin pöntunargerð**.
+-   Vöruhúsið er stillt á Handvirkt. Smellið á **Birgðastjórnun &gt; Uppsetning &gt; Niðurbrot birgða &gt; Vöruhús**. Á við **aðaláætlanagerð** flýtiflipa, sjá á **Handvirkt** svæði.
+-   Vöruþekja er skilgreind fyrir vöruna. Smellið á **Upplýsingastjórnun afurða &gt; Afurðir&gt; Losaðar afurðir**. Veljið vöruna og svo á aðgerðarrúðu á flipanum **Áætlun** er smellt á **Vöruþekja**.
+-   Áfyllingarvensl eru skilgreind fyrir vöruhúsið. Smellið á **Birgðastjórnun &gt; Uppsetning &gt; Niðurbrot birgða &gt; Vöruhús**. Á flýtiflipanum **Aðaláætlanagerð** skal sjá reitahópur  **Aðalvöruhús**.
+-   Sjálfgefin pöntunargerð er stillt á Framleiðslu, Innkaupapöntun eða Kanban. Smellið á **Upplýsingastjórnun afurða &gt; Afurðir&gt; Losaðar afurðir**. Veljið vöruna og svo á Aðgerðarrúða á flipa **Áætlun ** er smellt á **Sjálfgefnar pöntunarstillingar** Í á **Sjálfgefnar pöntunarstillingar** skjámynd sjá **Sjálfgefin pöntunargerð**.
 
 ![Eftirspurn fyrir þekju svæðis og vöruhúss, vöruhús ekki skyldugt](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
@@ -53,7 +56,7 @@ Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. F
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)
 
 [Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús lögbundið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -62,5 +65,7 @@ Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. F
 [Aðaláætlanagerð- trygging svæðis,  vöruhús ekki lögbundið](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
+
+
 
 

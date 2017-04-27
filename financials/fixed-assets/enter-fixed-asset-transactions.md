@@ -1,5 +1,5 @@
 ---
-title: "Valkostir færslu eigna"
+title: "Eignafærslukostir"
 description: "Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Valkostir færslu eigna
+# <a name="fixed-asset-transaction-options"></a>Eignafærslukostir
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 
@@ -36,7 +39,7 @@ ms.lasthandoff: 03/31/2017
 Hægt er að færa inn eignafærslur í síðunni færslubókarfylgiskjal. Þessa síða er aðeins hægt að opna úr skjámyndinni reikningabók. Einnig er hægt að opna síðuna færslubókarfylgiskjal frá síðu færslubókarsamþykkt reiknings. Í svæðinu mótlykill, veljið eignir. Síðan, í  mótlykill reit verður að velja númer eignar. Á flipanum eignir færirðu inn gildi í reitina færslugerð og bók.
 
 ## <a name="accounts-receivable"></a>Viðskiptakröfur
-Hægt er að færa inn eignafærslur á síðunni textareikninga.  Veljið línuatriði í textareikninga reiknings síðunni, í hnitanetinu Reiknings línur. Smellið á flýtiflipa „Upplýsingar um línur“. Færðu inn eignanúmer og bók fyrir afskráningarfærslu. Fyrir reikninga með valfrjálsum texta er gerð eignafærslunnar alltaf afskráninga - sala.
+Hægt er að færa inn eignafærslur í síðunni reikningur með frjálsum texta.  Veljið línuatriði í síðunni reikningur með frjálsum texta, í hnitanetinu reikningslínur. Smellið á flýtiflipa „Upplýsingar um línur“. Færðu inn eignanúmer og bók fyrir afskráningarfærslu. Fyrir reikninga með valfrjálsum texta er gerð eignafærslunnar alltaf afskráninga - sala.
 
 ## <a name="procurement-and-sourcing"></a>Innkaup og aðföng
 Hægt er að færa inn eignafærslur í síðunni innkaupapöntun. Færa skal inn allar upplýsingar sem krafist er til að búa til innkaupapöntun og síðan smella á Í lagi. Í síðunni innkaupapöntun, Smellið á flýtiflipa „Upplýsingar um línur“. Síðan skal færa inn upplýsingar um eignina á flipann Eignir. 
@@ -65,6 +68,8 @@ Allar gerðir eignafærsla má bóka í  síðunni almenn færslubók. Einnig er
 
 
 
-Nánari upplýsingar, sjá [Fastra eigna samþættingu](fixed-asset-integration.md).
+Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
+
+
 
 

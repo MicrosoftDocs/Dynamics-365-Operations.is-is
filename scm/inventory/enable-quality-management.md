@@ -1,5 +1,5 @@
 ---
-title: "Yfirlit yfir gæðapöntunar"
+title: "Yfirlit yfir gæðastjórnun"
 description: "Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Operations til að bæta gæði afurða innan aðfangakeðju þinnar."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Yfirlit yfir gæðapöntunar
+# <a name="quality-management-overview"></a>Yfirlit yfir gæðastjórnun
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
 
@@ -344,7 +347,7 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 </tr>
 <tr class="even">
 <td>Útkomur úr prófunarbreytum</td>
-<td>Notið þessa síðu til að setja upp, breyta og skoða mögulegar niðurstöður prófana fyrir prófunarbreytu sem tengist gæðaprófi. Hægt er að gefa hverri niðurstöðu einkunnina <strong>staðist</strong> eða <strong>fallið</strong>. Skilgreina verður breytuna og niðurstöður hennar fyrir hverja eigindlega prófun sem er skilgreind á síðunni <strong>Prófanir</strong>. (Fyrir eðlisbundið próf gerð prófs sett <strong>Valkost</strong> á í <strong>Prófanir</strong> síðu.) Nota skal <strong>Prófunarflokkar</strong> síðu til að tengja prófunarbreytu og sjálfgefna útkomu einstaka gæðapróf.</td>
+<td>Notið þessa síðu til að setja upp, breyta og skoða mögulegar niðurstöður prófana fyrir prófunarbreytu sem tengist gæðaprófi. Hægt er að gefa hverri niðurstöðu einkunnina <strong>staðist</strong> eða <strong>fallið</strong>. Skilgreina verður breytuna og niðurstöður hennar fyrir hverja eigindlega prófun sem er skilgreind á síðunni <strong>Prófanir</strong>. (Fyrir gæðaprófanir er prófunargerðin stillt á <strong>Valkostur</strong> á síðunni <strong>Prófanir</strong>.) Notaðu síðuna <strong>Prófunarflokkar</strong> til að úthluta prófunarbreytu og sjálfgefinni niðurstöðu á staka gæðaprófun.</td>
 <td>Framleiðslufyrirtæki sem framleiðir kexkökur notar skoðunarpróf sem nær til nokkurra gerða af hinni framleiddu vöru. Þessi eftirlitsprófun hefur nokkur breytur. Ein færibreyta er bragð, með valkostum gott eða vont. Önnur færibreyta er litur, með mögulega niðurstöðu of dökkur, of ljós, og í lagi. Hver einasta niðurstaða hefur stöðuna <strong>staðist</strong> eða <strong>fallið</strong>. Á meðan á gæðaprófi stendur fyrir hverja færibreytu, skráir prófunaraðili niðurstöður prófsins með því að velja eina af mögulegu niðurstöðunum.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Ferli gæðastjórnunar](quality-management-processes.md)
 
 [Virkja stjórnun ósamkvæmni](enable-nonconformance-management.md)
+
+
 
 

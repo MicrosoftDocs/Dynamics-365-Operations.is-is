@@ -1,6 +1,6 @@
 ---
 title: "Greina leitni og mynstur í sölu"
-description: "Hægt er að study sölupöntun leitni og mynstur í rauntíma í Microsoft Dynamics 365 aðgerða - Smásölu."
+description: "Hægt er að fylgjast með söluhegðun og sölumynstri í rauntíma í Microsoft Dynamics 365 for Operations - Retail."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -27,17 +27,22 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Greina leitni og mynstur í sölu
 
-Hægt er að study sölupöntun leitni og mynstur í rauntíma í Microsoft Dynamics 365 aðgerða - Smásölu.
+[!include[banner](includes/banner.md)]
 
-Sem hluti af Dynamics 365 fyrir Aðgerðir, notendur geta study sölupöntun leitni og mynstur í rauntíma milli mismunandi stig í stigveldi fyrirtækis yfir tímabil árum með því að nota í út-á-reitinn **Rásar sölu eftir ári** skýrslu. Hægt er að opna þessa skýrslu úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun retail store** vinnusvæði Dynamics 365 fyrir Aðgerðir &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**Rásar sölu eftir ári**
--   **Retail store fjárhagur** vinnusvæði Dynamics 365 fyrir Aðgerðir &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store fjárhagur**&gt;**Skýrslur**&gt;**Rásar sölu eftir ári**
--   **Fyrirspurnir og skýrslur** hlutanum Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Fyrirspurnir og skýrslur**&gt;**Vsk-skýrslur**&gt;**Rásar sölu eftir ári**
+Hægt er að fylgjast með söluhegðun og sölumynstri í rauntíma í Microsoft Dynamics 365 for Operations - Retail.
+
+Sem hluti af Dynamics 365 for Operations geta notendur skoðað söluhegðun og sölumynstur í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins yfir nokkurra ára tímabil með því að nota „út úr kassanum“ skýrsluna **Skýrsla um rásarsölu eftir árum**. Hægt er að opna þessa skýrslu úr öllum af eftirfarandi stöðum:
+
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; ** Skýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
+-   **Fjármál smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Fjármál smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
+-   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
 
 Notendur geta einnig skoðað söluhegðun og sölumynstur yfir hverja klukkustund milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að nota „út úr kassanum“ skýrsluna **Skýrsla um rásarsölu eftir klukkustund**. Hægt er að opna þessa skýrslu úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun retail store** vinnusvæði Dynamics 365 fyrir Aðgerðir &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**Rásar sölu eftir klukkustund**
--   **Retail store fjárhagur** vinnusvæði Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**fjárhagur Retail store**&gt;**Skýrslur**&gt;**Rásar sölu eftir klukkustund**
--   **Fyrirspurnir og skýrslur** hlutanum Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Fyrirspurnir og skýrslur**&gt;**Vsk-skýrslur**&gt;**Rásar sölu eftir klukkustund**
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klst.**
+-   **Fjármál smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Fjármál smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klst.**
+-   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir klst.**
+
+
 

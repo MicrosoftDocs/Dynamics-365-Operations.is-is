@@ -1,6 +1,6 @@
 ---
 title: "Niðurbrot uppskriftarútgáfu"
-description: "Þessi skrá útskýrir aðstæður sem felur í sér niðurbrot uppskrift útgáfa uppskriftar (BOM) í áætlanagerð."
+description: "Þessi grein útskýrir aðstæður aðaláætlanagerðar sem felur í sér niðurbrot uppskriftarútgáfu."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="explosion-of-a-bom-version"></a>Niðurbrot uppskriftarútgáfu
 
-Þessi skrá útskýrir aðstæður sem felur í sér niðurbrot uppskrift útgáfa uppskriftar (BOM) í áætlanagerð.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein útskýrir aðstæður aðaláætlanagerðar sem felur í sér niðurbrot uppskriftarútgáfu.
 
 Niðurbrot eftirspurnar í uppskriftarútgáfunni býr til eftirspurn fyrir hverja uppskriftarlínuvöru við tiltekið svæði og mögulega við tiltekið vöruhús. Uppskrift sem á við um°tiltekið setur gæti haft tiltekið vöruhús skilgreint fyrir hverja uppskriftarlínu. Einnig ákvarða víddarstillingar vörunnar hvort vöruhúsið sé nauðsynlegt fyrir hverja uppskriftarlínu. Þessi eftirspurn sem eftir er fyrir hverja uppskriftarlínuvöru verður svo°að upphafspunkti fyrir aukaniðurbrot eftirspurnar. Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
 
@@ -41,8 +44,10 @@ Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunarge
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Áætlanagerð - hvernig ákvarðast uppskriftarútgáfuna](master-plan-bom-version-determined.md)
+[Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)
+
+
 
 

@@ -34,14 +34,14 @@ Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Í þessu efn
 <a name="channel-specific-discounts"></a>Afslættir sem tengjast tilteknum rásum
 --------------------------
 
-Smásala bjóða oft mismunandi afslætti á mismunandi rásum. Þetta er getur gert aðsetur markaðinn staðbundið skilyrði eða við competing smásala.
+Smásalar bjóða oft mismunandi afslætti á mismunandi rásum. Þetta er getur verið gert til að ná til staðbundinna markaðsaðstæðna eða takast á við smásala í samkeppni.
 
-Notar verðflokka til að skilgreina rás afslætti fyrir smásölu og commerce í Microsoft Dynamics 365 fyrir Aðgerðir. Hægt er að úthluta verðflokkum við eitt eða fleiri af eftirfarandi einingar: rásir vörulista, tengsl og vildarkerfi. Þessi skrá fjallað um rásir, en sömu hugtök eiga við vörulistaafslætti, tengslaafslætti og vildarkortaafslætti.
+Microsoft Dynamics 365 for Operations Notar verðflokka til að skilgreina rásarafslætti fyrir smásölu og viðskipti. Hægt er að úthluta verðflokkum við eitt eða fleiri af eftirfarandi einingar: rásir vörulista, tengsl og vildarkerfi. Þessi skrá fjallað um rásir, en sömu hugtök eiga við vörulistaafslætti, tengslaafslætti og vildarkortaafslætti.
 
 ## <a name="price-groups"></a>Verðflokkar
-\[myndatexta = "viðhengi\_256084" jafna = "alignnone" breidd = "640"\][![Verð flokka](./media/price-groups-1024x608.png)](./media/price-groups.png) Verð flokka tengla fyrir Retail\[/myndatexti\]
+\[myndatexta=“attachment\_256084" jafna = "alignnone" width= "640"\] [ ![verðflokkur](./media/price-groups-1024x608.png)](./media/price-groups.png)  tengla fyrir Verðflokka Smásölu \[/caption\]
 
-Á skýringarmyndinni ofan sýnir tengslin á milli mismunandi gerðir afslátt sem hægt er að skilgreina og einingar sem hugsanlega á færslu (rásar, vörulista, sambands, viðskiptavinur, vildarkort). Allar færslur eiga sér stað í rás, svo sem leiðin er tryggt kalli til að vera til staðar í færslu. Eftirstandandi einingar eru valkvæðar. Á öllum síðum aðalgagna er tengill við tengdar verðflokkasíðu þar sem hægt er að skoða og bæta við verðflokkar eftir þörfum. Verðflokkur er notuð til að tengjast fjórar tegundir einingar afslætti verðleiðréttingar og viðskiptasamninga. Ráðlagt að áætla stjórnunarstefnu fyrir hvernig verður nafn þitt verðflokka til að geyma þau sérstaklega. Einn valkostur væri að nota í bókstaf eða númer forskeyti eða viðskeyti til að greina milli mismunandi gerðum. Til dæmis 1-xxxxx verðflokkar rásar og 2-xxxxx verðflokka vörulista. Til eru fjórar fyrirspurnarsíður sem áherslu leggja á hverja smásölueiningu sem geta verið með afslætti tengda við sig.
+Skýringarmyndin að ofan sýnir tengslin á milli aðila sem geta verið á færslum (rásar, vörulista, sambands, viðskiptavinur, vildarkort) og mismunandi afsláttargerðir sem má stilla. Allar færslur eiga sér stað í rás, svo tryggt er að rás verði til staðar á færslu. Eftirstandandi einingar eru valkvæðar. Á öllum síðum aðalgagna er tengill við tengdar verðflokkasíðu þar sem hægt er að skoða og bæta við verðflokkar eftir þörfum. Verðflokkur er notuð til að tengjast fjórar tegundir eininga við afslætti, verðleiðréttingar og viðskiptasamninga. Ráðlagt er að undirbúa aðferð um það hvernig þú nefnir verðflokkana þína til að hafa þá skipulagða. Einn valkostur væri að nota bókstaf eða númersforskeyti eða viðskeyti til að greina milli mismunandi gerðum. Til dæmis 1-xxxxx fyrir verðflokka rásar og 2-xxxxx fyrir verðflokka vörulista. Til eru fjórar fyrirspurnarsíður sem áherslu leggja á hverja smásölueiningu sem geta verið með afslætti tengda við sig.
 
 -   **Verðflokkar rásar í smásölu ** - Þessi síða sýnir lista yfir rásir og afslætti sem eru tengdar saman fyrir hvern verðflokk.
 -   **Verðflokkar vörulista** - Þessi síða sýnir lista yfir vörulista og afslætti sem eru tengdar saman fyrir hvern verðflokk.
@@ -62,6 +62,6 @@ Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rása
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Price adjustments and discounts](price-adjustments-discounts.md)
+[Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
 
 

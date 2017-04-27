@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Færa inn samsetningu fyrir lykil og vídd (sundurliðað innfærslustýring)
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir því hvenir eigi að færa inn samsetningar reiknings og vídda eða fjárhagslykil. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
 
-Notendur færa inn lykil og vídd samsetningar á mismunandi síðum, eins og síðum fyrir almennar færslubækur fjárhagsáætlun og bókunarskilgreiningar. Gildar samsetningar fyrir lykil og vídd eru háðar lykilskipulagi sem úthlutað er til fjárhags og ítarlegum reglum sem eru úthlutaðar fyrir lykilskipulagið. Þegar notendur færa inn, þær getur annað hvort handvirkt inn gildi eða nýta rich, uppfletting reynslu. Þegar svæðið er færð inn, er hægt að byrja að færa og það mun leita gildi og lýsingu. Til dæmis, ef hægt er að færa inn 180 það leitar gildi sem byrja á samsetningu sem númer. Eða má færa Reiðufé og leitar það gildi sem hefur lýsing hefst með Reiðufé. Einnig er hægt að nota algildisstafinn, eins og \*Reiðufé eða \*180 við leit ef í gildi eða lýsingu innihalda leitarskilyrði. 
+Notendur færa inn samsetningu fyrir lykil og vídd á mismunandi síðum, eins og  síðum fyrir almennar færslubækur, fjárhagsáætlanir og bókunarskilgreiningar. Gildar samsetningar fyrir lykil og vídd eru háðar lykilskipulagi sem úthlutað er til fjárhags og ítarlegum reglum sem eru úthlutaðar fyrir lykilskipulagið. Þegar notendur færa inn samsetninga geta þeir annaðhvort slegið gildin inn handvirkt eða nýtt sér fjölskrúðuga uppflettingarupplifun. Þegar þú færið inn svæði, geturðu byrjað slá inn og þá leitar að gildi og lýsingu. Til dæmis ef slegið inn 180 mun leita að öllum gildi sem byrja með því númerasamsetning. Eða slá inn Reiðufé og þá leitar að öll gildi sem er með lýsing sem byrjar á Reiðufé. Einnig hægt að nota algildisstaf, t.d. \*Reiðufé eða \*180 til að leita ef gildi eða lýsing innihalda leitarskilyrði. 
 
 Eftirfarandi tafla lýsir flýtilyklum á lyklaborði sem hægt er að nota þegar uppflettisvæði er lokað.
 
@@ -108,5 +111,7 @@ Eftirfarandi tafla lýsir flýtivísum á lyklaborði sem hægt er að nota þeg
 </table>
 
  
+
+
 
 

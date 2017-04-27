@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða.
 
 Fyrir hvern VSK-kóða sem stofnaður er á síðunni VSK-kóðar þarf að velja útreikningsaðferð sem notuð er á upphæð VSK-stofns í reitnum Uppruni.
@@ -124,5 +127,7 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 [Ákvarða skatthlutfall virðisaukaskatts á grundvelli reitanna Jaðargrunnur og Útreikningsaðferð](marginal-base-field.md)
 
 [Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

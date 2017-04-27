@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 fyrir Aðgerðir orðalisti"
+title: "Orðalisti Dynamics 365 for Operations"
 description: "Þessi Microsoft Dynamics 365 for Operations orðalisti skilgreinir lykilhugtök og hugmyndir í staðalbúnaði Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 fyrir Aðgerðir orðalisti
+# <a name="dynamics-365-for-operations-glossary"></a>Orðalisti Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi Microsoft Dynamics 365 for Operations orðalisti skilgreinir lykilhugtök og hugmyndir í staðalbúnaði Dynamics 365 for Operations. 
 
@@ -249,7 +252,7 @@ Viðskiptaferli sem er mat á framtíðar eftirspurn og stofnar eftirspurnarspá
 
 Visual Studio verkfæri sem þó notaðir til að stofna, uppfæra og athuga líkanaeiningar þínar.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. skilgreining \financial-dimensions\dimension-based**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\fjárhags-víddir\víddar-byggðar stillingar**
 
 Afbrigðistækni notuð til að stofna afurðarafbrigði með því að velja gildi fyrir afurðavíddir.
 
@@ -499,7 +502,7 @@ Hluti af afurð.
 
 ###### <a name="product-dimension"></a>**afurðarvídd**
 
-Stærð, lit eða skilgreiningu afurðareigindir sem eru notaðar við... skilgreining \financial-dimensions\dimension-based.
+Stærð, litur eða skilgreining afurðareiginda sem eru notaðar fyrir ..\fjárhags-víddir\víddar-byggðar stillingar.
 
 ###### <a name="product-family"></a>**Afurðasafn**
 
@@ -697,7 +700,7 @@ Rekstrareining sem stýrir einn eða fleiri framleiðsluflæði.
 
 Aðferð við að móta afurðarsniðmát og leit að forstillingar afurðarafbrigðis.
 
-###### <a name="vat-value-added-tax"></a>**VSK (virðisaukaskatts)**
+###### <a name="vat-value-added-tax"></a>**VSK (virðisaukaskattur)**
 
 Skattur á vörur á hverju stigi framleiðslu þeirra sem er byggð á gildinu sem er bætt við á því stigi.
 
@@ -722,5 +725,7 @@ Einstaklingur sem er í hlutverki sem starfsmaður eða verktaki og er greiddur 
 ###### <a name="workspace"></a>**vinnusvæði**
 
 Síða sem veitir yfirlit yfir eitt af verkþætti sem notandi framkvæmir. Síðan notar reiti, lista og línurit til að birta vinnu í bið og tengdum gögn úr mörgum upprunum, og síðan birtir algeng verkefni sem tengjast þessum gögnum. Reitir sýndir í samantektarhluta vinnusvæðisins eru einnig birtir í tenggda hlutanum í yfirlitinu.
+
+
 
 

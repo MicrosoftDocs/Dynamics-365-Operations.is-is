@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Birgðastöður
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir því hvernig þú getur notað birgðastöðu til að flokka og fylgjast með birgðum.
 
 Hægt er að nota birgðastöðu til að flokka birgðir. Síðan er hægt að hefja viðeigandi aðgerðir, eins og áfyllingu eða frágangsvinnu. 
@@ -47,5 +50,7 @@ Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef þú e
 Eftir að þú hefur sett upp birgðastöðu er hægt að stilla sjálfgefna birgðastöðu fyrir síðu, vöru og vöruhús. Einnig er hægt að stilla sjálfgefna stöðu fyrir sölu, flutning, og innkaupapantanir. Sjálfgefin staða fyrir sölupantanir og flutningspöntun á útleið getur ekki haft **birgðalæsingu** valkostur stilltan á **Já**. Birgðastöðu sem er erft frá sjálfgefnar stillingar á setri, vöruhúsi, vöru, innkaupapöntun, flutningspöntun eða sölupöntun er hægt að breyta með því að nota fartækið eða á innkaupapöntun, sölupöntun eða flutningspöntunarlínu. 
 
 Til að áætla þekju fyrir vörur sem hafa stöðuna tiltækar birgðir skal velja **þekjuáætlun eftir vídd** valkostinn fyrir geymsluvídd á í **geymsluvíddaflokka** síðu. Þegar opnar **Vöruþekju ** leiðsagnarforritið birtast vörur sem hafa stöðuna tiltækt á **Stöðu** síðu. Til að stofna þekjustillingar fyrir þessar vörur er að velja birgðastöðukenni fyrir tiltæka birgðastöðu. Samkvæmt þekjustillingar hægt að reikna vöruþarfir og spá framboð og eftirspurn tiltækar vörur með við áætlanagerð. Ekki er hægt að stofna uppsetningu vöruþekju með læsta birgðastöðu. Að öðrum kosti notarðu **vöruþekju ** síðu til að stofna eða breyta tryggingafæribreytum vöru.
+
+
 
 

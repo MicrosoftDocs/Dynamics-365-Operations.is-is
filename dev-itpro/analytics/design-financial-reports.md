@@ -1,6 +1,6 @@
 ---
-title: "Skoða og hönnun fjárhagsskýrslur"
-description: "Þessi skrá veitir exercises sem útskýra til að skoða og fjárhagsskýrslur eru stofnaðar fyrir Microsoft Dynamics 365 fyrir Aðgerðir. Fjárhagsskýrslugerð samanstendur af skoðun reynslu innan Dynamics 365 Aðgerða og smelli-einu sinni hönnunarviðmót fyrir sem gerir kleift að stofna og breyta fjárhagsskýrslur."
+title: "Skoða og setja upp fjárhagsskýrslur"
+description: "Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Dynamics 365 for Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrsla."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Skoða og hönnun fjárhagsskýrslur
+# <a name="view-and-design-financial-reports"></a>Skoða og setja upp fjárhagsskýrslur
 
-Þessi skrá veitir exercises sem útskýra til að skoða og fjárhagsskýrslur eru stofnaðar fyrir Microsoft Dynamics 365 fyrir Aðgerðir. Fjárhagsskýrslugerð samanstendur af skoðun reynslu innan Dynamics 365 Aðgerða og smelli-einu sinni hönnunarviðmót fyrir sem gerir kleift að stofna og breyta fjárhagsskýrslur.  
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Dynamics 365 for Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrsla.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Æfing 1: Búa til og skoða sjálfgefna fjárhagsskýrslu
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 3.  Vista víddarstillinguna. Næst munuum við mynda skýrslu og athuga gögnin í skýrslunni.
 4.  Fara í **Fjárhagsskýrslur** undir **Fyrirspurnir og skýrslur** í fjárhag.
 5.  Velja línuna fyrir skýrslu sem ber heitið **Upplýsingar Fjárhags-Sjálfgefið.**
-6.  Veldu **Breyta.** Athugasemd: Það verður beðinn um að sækja skal smella á-einu sinni hönnunarviðmót og til að skrá sig inn. Notið skilríkjum þínum til að skrá sig inn.
+6.  Veldu **Breyta.** Ábending: Þú færð áminningu um að sækja eins-smells skýrsluhönnun og skrá þig inn. Notaðu skilríkin þín til að skrá þig inn.
 7.  Breyta grunnárinu í 2012 og velja **Mynda**. Þegar skýrsla er mynduð úr skýrsluhönnun opnast hún í nýjum vafraflipa. Hægt er að annaðhvort athuga skýrsluna á nýja vafraflipanum eða fara á upprunalega vafraflipann og opna skýrsluna þaðan með því að velja hana af listanum **Fjárhagsskýrslur**.
 8.  Í opinni skýrslu velurðu eina af upphæðunum til að kafa í upplýsingar um lykil fyrir skýrsluna.
 9.  Þegar komið er í upplýsingar um lykilinn skal velja lykil með gögnum og **kafa á stig skýrslufærslu**. Á stigi skýrslufærslu er hægt að sjá eiginleika (eigindir) sem eru innifaldir í hönnun skýrslunnar. Það fer eftir færslu og lykli, en sumar eða allar eigindir gætu verið birtar.
@@ -55,7 +58,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 13. Veldu **Skýrsluvalkosti**.
 14. Veldu **Bæta við víddarafmörkun** og veldu **Viðskiptaeiningu**.
 15. Sláðu 001 inn í reitinn og veldu **í lagi**. Skýrslan sýnir nú aðeins gögnin fyrir 001 Viðskiptaeining. Þetta er sérsniðið yfirlit skýrslu og er ekki tiltækt fyrir aðra til að skoða.
-16. Loka síaðri skýrslu. Hægt er að birta fjárhagsskýrslur í annan gjaldmiðil sem hefur verið bætt við Dynamics 365 aðgerða.
+16. Loka síaðri skýrslu. Hægt er að birta fjárhagsskýrslur í öllum gjaldmiðlum sem hefur verið bætt við Dynamics 365 for Operations.
 17. Veldu **Gjaldmiðil**, veldu svo **EUR.** Skýrslan birtir nú í evrum. Allir gjaldmiðilskóðar eða gjaldmiðilstákn sem hafðir eru með í skýrsluhönnun birtast nú í notuðum gjaldmiðli. Ef ekkert gjaldeyristákn er skilgreint fyrir gjaldmiðil er gjaldmiðilstáknið ekki birt.
 18. Lokaðu skýrslunni **Fjárhagsupplýsingar**.
 19. Lokaðu **Skýrsluhönnuninni**.
@@ -66,7 +69,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 1.  Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
 2.  Velja línuna fyrir skýrslu sem ber heitið **Samantekt á prófjöfnuði-Sjálfgefið.**
 3.  Veljið **Breyta**. **Samantekt á prófjöfnuði – Sjálfgefin** opnar í skýrsluhönnun.
-4.  Veldu **Skrá**, síðan **Vista sem** og gefðu skýrslunni heitið Ítarlegur prófjöfnuður með eigindum. Athugasemd: Hvenær nýtt skýrsla er stofnuð í report designer fjárhagsskýrslur listinn er uppfærður í Dynamics 365 aðgerða.
+4.  Veldu **Skrá**, síðan **Vista sem** og gefðu skýrslunni heitið Ítarlegur prófjöfnuður með eigindum. Ábending: Í hvert skipti sem ný skýrsla er stofnuð í skýrsluhönnun er listi yfir fjárhagsskýrslur uppfærður í Dynamics 365 for Operations.
 5.  Úr skýrsluskilgreiningu velurðu tákn línuskilgreiningar til að opna **Prófjöfnuð – Sjálfgefna línuskilgreiningu**.
 6.  Vista línuskilgreininguna sem **Ítarlegur prófjöfnuður með eigindum**
 7.  Með bendilinn í röð 50 skal velja **Breyta**, síðan **Setja inn línur úr víddum**. Setja inn línur úr víddum gerir kleift að velja hvaða víddir óskað er að hafa í línuskilgreiningunni. Fyrir þessa æfingu ætlum við að byggja upp línuskilgreiningu með aðallykli.
@@ -96,7 +99,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 25. Lokaðu skýrslunni **Ítarlegur prófjöfnuður með eigindir **.
 26. Lokaðu **Skýrsluhönnuninni**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercise 3: Stofna fjölvíddarskýrsla með skýrslugerð tré
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Æfing 3: Stofna fjölvíddaskýrslu með skipuriti
 Í þessari æfingu breytirðu fyrirliggjandi sjálfgefinni skýrslu. Þú stofnar skipurit og bætir við skýrsluskilgreining til að framleiða Kostnaðarstað/rekstrarreikning eftir deildum. Eftir að uppfærslu er lokið myndarðu Kostnaðarstað/rekstrarreikning eftir deildum og athugar skýrsluna með skipuritinu. Við byrjum í lista yfir fjárhagsskýrslur.
 
 1.  Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
@@ -138,7 +141,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 1.  Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
 2.  Veldu línuna fyrir skýrslu sem ber heitið **Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefin**
 3.  Veljið **Breyta**. **Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefin** opnar í skýrsluhönnun.
-4.  Velja **Skrá**&gt;**Vista Sem** og heiti skýrslu **Sameinaðar Efnahagsreikningur og Tekjuyfirlits Hlið við Hlið**.
+4.  Velja **Skrá ** &gt; **Vista Sem** og heiti skýrslu **Sameinaðir Efnahagsreikningar og rekstrarreikningar hlið við hlið**.
 5.  Breyta grunnárinu í 2012.
 6.  Smellið á felliörina Gerð trés og veljið **Stigveldi fyrirtækis**.
 7.  Smellið á felliörina Gerð trés og veljið **Contoso Holdings**.
@@ -151,7 +154,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 14. Lokaðu **Sameinaðir efnahagsreikningar og rekstrarreikningar hlið við hlið**.
 15. Lokaðu **Skýrsluhönnuninni**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Exercise 5: Stofna sidebyside departmental skýrslu
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Æfing 5: Stofna hlið við hlið deildarskýrslu
 Í þessari æfingu stofnarðu nýja skýrslu. Skýrslan er hlið við hlið deildarrekstrarreikningur. Þú munt nota línuskilgreiningu en stofna nýja skýrsluskilgreiningu og nýja dálkskilgreiningu sem notar víddarafmarkanir. Við byrjum í lista yfir fjárhagsskýrslur.
 
 1.  Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
@@ -179,8 +182,10 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 18. **Vista** breytingarnar og **mynda**. Eftir að skýrslan lýkur myndun og opnast er hægt að skoða skýrsluna.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Fjárhagsskýrslugerð](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[Skoða fjárhagsskýrslur](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics Fjárhagslegar Skýrslugerð Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Fjárhagsskýrslugerð](\financials\general-ledger\financial-reporting-getting-started.md) 
+[ Skoða fjárhagsskýrslur](\financials\general-ledger\view-financial-reports.md) 
+[Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

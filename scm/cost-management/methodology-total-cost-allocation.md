@@ -32,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 
 Heildarúthlutun kostnaðar (TCA) er aðferð til að reikna kostnað á milli mælieiningar aðalformúluvöru fyrir runupöntun og aukaafurða sem skilgreindar eru fyrir formúluna. Þessi aðferð er breytileg. Hún reiknar kostnað sem vegið meðaltal milli magnsins sem tilkynnt er sem tilbúnið fyrir formúluvöruna og aukaafurða. Þegar heildarúthlutun kostnaðar er notuð þarf ekki að endurskoða kostnaðarúthlutun fyrir hverja runupöntun. Ef heildarúthlutun kostnaðar er ekki notuð, notar formúluútreikningurinn fyrirliggjandi aðgerðir.
 
-## <a name="using-tca-for-coproducts"></a>Með coproducts samtalsúthlutun Kostnaðar
+## <a name="using-tca-for-coproducts"></a>Notkun heildarúthlutunar kostnaðar fyrir aukaafurðir
 Hér eru nokkrar leiðbeiningar fyrir notkun heildarúthlutunar kostnaðar fyrir aukaafurðir:
 
 -   Ef sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Já** fyrir formúluútgáfu,verða aukaafurðir að hafa kostnaðarverð sem er meira en 0 (núll). Hægt er að sækja virði úr virku kostnaðarútgáfunni fyrir sama svæði, eða fyrir fyrsta svæði formúlu sem er ekki staðarsértæk. Þetta skilyrði er sannprófað þegar formúla er samþykkt.
@@ -46,7 +46,7 @@ Hér eru nokkrar leiðbeiningar fyrir notkun heildarúthlutunar kostnaðar fyrir
 -   Þegar runupöntun er stofnuð handvirkt eða áætluð runupöntun er staðfest, verður gildið á sleðanum **Heildarúthlutun kostnaðar** fyrir formúluútgáfuna afritað í runupöntunina. Hins vegar er hægt að breyta þessari stillingu í runupöntuninni. Ef sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Nei** fyrir formúluútgáfuna og síðan breytt í **Já** fyrir runupöntun, er aðferð kostnaðarúthlutunar fyrir hverja línu sem var stillt á **Handvirkt** breytt í **Heildarúthlutun kostnaðar**. Kostnaðarúthlutunin **Ekkert** er óbreytt. Ef sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Já** fyrir formúluútgáfuna og síðan breytt í **Nei** fyrir runupöntun, er aðferð kostnaðarúthlutunar fyrir hverja aukaafurð af gerðinni **Framleiðsla** breytt í **Handvirkt**. Allt metið hlutfall kostnaðarúthlutunar er óbreytt.
 -   Síðan **Kostnaðarúthlutun aukaafurðar** sýnir reiknað hlutfall kostnaðarúthlutunar. Hægt er að opna þessa síðu af síðunni **Runupöntun**. Þessar upplýsingar eru gagnlegar þegar skráðar afurðir og magn er frábrugðið áætluðu magni eða magni sem er komið af stað í runupöntuninni. Þegar kostnaði er lokið, eru þessar nýju hlutfallsúthlutanir úr Heildarúthlutun kostnaðar sýndar á síðunni **Kostnaðarúthlutun aukaafurðar**.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Reikna á álag fyrir byproducts
+## <a name="calculating-the-burden-for-byproducts"></a>Reikna álag fyrir hliðarafurðir
 Á svæðinu **Kostnaðarúthlutun hliðarafurðar** á síðunni **Aukaafurðir** er tölusett svæði sem er aðeins notað fyrir hliðarafurðir. Fyrir aukaafurðir er gildi þessa svæðis alltaf **Ekkert**. Fyrir línur hliðarafurða ákvarðar þetta svæði hvernig kostnaðarupphæð línu hliðarafurða er bætt við heildarkostnað framleiðslu. Eftirtaldir valkostir eru í boði:
 
 -   **Ekkert** ─ Engri upphæð er bætt við heildarkostnað framleiðslu fyrir þessa línu hliðarafurða.

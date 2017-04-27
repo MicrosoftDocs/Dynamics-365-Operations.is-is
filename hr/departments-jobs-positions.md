@@ -1,5 +1,5 @@
 ---
-title: "Skipuleggja vinnuafls með deildir, störf og stöður"
+title: "Vinnuafl skipulagt með notkun deilda, starfa og staða"
 description: "Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Skipuleggja vinnuafls með deildir, störf og stöður
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Vinnuafl skipulagt með notkun deilda, starfa og staða
+
+[!include[banner](includes/banner.md)]
+
 
 Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
 
 Eftirfarandi dæmi er notuð til að sýna hugtök sem lýst er í þessu efnisatriði.
 
-|**Deild**|**Position**|**Job**|
+|**Deild**|**Staða**|**Vinnsla**|
 |---|---|---|
 |**Sala**|Sölustjóri (austur)|Sölustjóri|
 |**Sala**|Sölustjóri (vestur)|Sölustjóri|
 |**Sala**|Sölustjóri (miðja)|Sölustjóri|
-|**Accounting**|Yfirmaður bókhalds|Bókhaldsstjóri|
-|**Accounting**|bókhald-A|Bókhaldari|
-|**Human resources**|Mannauðsstjóri (Austur)|Yfirmaður mannauðs|
-|**Human resources**|Yfirmaður mannauðs (vestur)|Yfirmaður mannauðs|
-|**Human resources**|Yfirmaður mannauðs (miðja)|Yfirmaður mannauðs|
+|**Bókhald**|Yfirmaður bókhalds|Bókhaldsstjóri|
+|**Bókhald**|bókhald-A|Bókhaldari|
+|**Mannauður**|Mannauðsstjóri (Austur)|Yfirmaður mannauðs|
+|**Mannauður**|Yfirmaður mannauðs (vestur)|Yfirmaður mannauðs|
+|**Mannauður**|Yfirmaður mannauðs (miðja)|Yfirmaður mannauðs|
 
  
  <a name="departments"></a>Deildir
@@ -79,7 +82,7 @@ Verk er safn verkefni og ábyrgðarsviða sem eru ætlast til af einstaklings se
 
 ### <a name="job-functions"></a>Starfshlutverk
 
-Starfshlutverk eru eins og verkefni starfs. Starfshlutverk lýsir Eitt eða fleiri verkefni, skyldur og ábyrgð sem eru úthlutað á starf. Starfshlutverk getur verið úthlutað á störf og notaðar til að setja upp og innleiða hæfnisreglur fyrir greiðsluáætlanir. Dæmi um starfshlutverk eru talin upp í eftirfarandi töflu.
+Starfshlutverk eru eins og verkefni starfs. Starfshlutverk lýsir Eitt eða fleiri verkefni, skyldur og ábyrgð sem eru úthlutað á starf. Starfshlutverkum er hægt að úthluta á störf og notaðar til að setja upp og innleiða hæfnisreglur fyrir launafyrirkomulag. Nokkur dæmi um starfshlutverk eru talin upp í eftirfarandi töflu.
 
 | Vinnsla           | Starfshlutverk                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Nota Ábyrgðarsvið til að gefa til kynna starfshlutverk, ferli, afurðir og a
 <a name="positions"></a>Stöður
 ----------
 
-Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis stöðu "Sölustjóri (Austur-)," er einungis eitt af stöðum sem tengjast verkinu, er "Sölustjóri". Stöður í deild er til og er úthlutað á starfsmenn.
+Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis eru stöðu "Sölustjóri (Austur-)," einungis eitt af stöðum sem tengjast verkinu. Stöður eru til í deild og er úthlutað á starfsmenn.
 ### <a name="position-creation-and-maintenance"></a>stofnun Staða og viðhald
 
 -   Hægt er að skoða sögu kerfisbreytinga sem tengjast stöðu á listasíða sem er auðvelt að komast í.
@@ -161,6 +164,8 @@ Fyrir sumar færslur er hægt að tilgreina framvirkar breytingar í færslu. Ef
 </table>
 
 Hægt er að breyta þeim upplýsingum sem nefnd eru í fyrri töflu fyrir starf eða stöðu og tilgreina dagsetningu þegar breytingar á stöðu eða vinnslu ætti að taka gildi. Til dæmis er aðeins hægt að úthluta stöðu á einn starfsmann en Sanjay Patel sem er úthlutað á stöðu Bókari-A, er að fara eftir tvær vikur. Joe Healy kemur í stað Sanjay Patel þegar hann fer. Jafnvel þótt Sanjay er enn úthlutað stöðu hans, geturðu tengja Joe Healy í sömu stöðu þannig að úthlutunin er gild aðeins eftir síðasta dag Sanjay .
+
+
 
 
 

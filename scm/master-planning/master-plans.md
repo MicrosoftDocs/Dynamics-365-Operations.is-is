@@ -1,6 +1,6 @@
 ---
 title: "Áætlanir"
-description: "Nota mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu, eins og reglur um ánægju innri afköst eða viðskiptavinar."
+description: "Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu á fót, hvað varðar t.d. innri afköst eða ánægju viðskiptavina."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Áætlanir
 
-Nota mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu, eins og reglur um ánægju innri afköst eða viðskiptavinar. 
+[!include[banner](../includes/banner.md)]
+
+
+Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu á fót, hvað varðar t.d. innri afköst eða ánægju viðskiptavina. 
 
 Hægt er að stilla aðaláætlun á síðunni **Aðaláætlanir**.
 
@@ -50,8 +53,10 @@ Einnig er hægt að setja upp breytilega áætlun sem uppfærð er með nýrri �
 
 [Þekjustillingar](coverage-settings.md)
 
-[Aðgreina tactical og operative áætlun fyrir aðalröðun](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Að aðskilja taktískar og virkar áætlanagerðir fyrir aðaláætlanagerð](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Áætlanagerð: Nota fasta áætlun og breytilega Áætlun eða eina áætlun?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Aðaláætlanagerð: Nota fasta og breytilega aðaláætlun eða nota eina áætlun?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

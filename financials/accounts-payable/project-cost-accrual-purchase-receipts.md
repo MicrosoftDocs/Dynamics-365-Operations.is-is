@@ -1,6 +1,6 @@
 ---
-title: "Uppsöfnun kostnað verks innhreyfingar innkaupapantana"
-description: "Þetta efnisatriði lýsir því hvernig uppsafnaðar verkkostnað innhreyfingar hægt sé að rekja í Microsoft Dynamics 365 Aðgerðum fyrir innkaup."
+title: "Uppsöfnun á kostnaði verks á innkaupapöntunum"
+description: "Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Uppsöfnun kostnað verks innhreyfingar innkaupapantana
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Uppsöfnun á kostnaði verks á innkaupapöntunum
 
-Þetta efnisatriði lýsir því hvernig uppsafnaðar verkkostnað innhreyfingar hægt sé að rekja í Microsoft Dynamics 365 Aðgerðum fyrir innkaup. 
+[!include[banner](../includes/banner.md)]
 
-Reikningar fyrir verk oft kemur síðar vörur og þjónustur eru sendar, sem kann að hafa viðeigandi áhrif á verk afkastavísar (Afkastavísa). Skýrslur það mikilvægt að hægt sé að rekja færslurnar í bæði fjárhagsvíddir og verk.
 
-Eftirfarandi dæmi sýnir þetta. 
+Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Operations. 
 
-Contoso Aðstoðar hefur verið ræst nýtt verk virkjun skýinu. Innkaupapöntun er stofnuð til að kaupa tölvu fyrir verkið. Tölvunni verður $1500 og uppsetningu þjónustu verður kostnaðarbreytingum $150. Lánardrottinn hefur verið afhentar og uppsett á tölvunni, en reikningur hefur ekki enn náð Aðstoðar Contoso. Stjórnanda verksins óskað að sjá verks kostnaður uppsöfnun $1650 áður en reikningurinn er afhent. Einnig ætti að endurspeglast þennan kostnað í fyrirtækisins mánuði lok fjárhagsskýrslur. 
+Reikningar fyrir verk berast oft síðar en vörur og þjónusta eru afhent, sem kann að hafa töluverð áhrif á afkastavísa verkefna (Afkastavísa). Mikilvægt er að það sé hægt að rekja þessar færslur í bæði fjárhags- og verkefnaskýrslum.
 
-Uppsafnaður kostnaður þarf að skrá fjárhagslegar stig og verkstig fyrir skýrslugerð. Í Dynamics 365 fyrir Aðgerðir, hægt að rekja fjárhagsleg uppfærsla innhreyfingarskjals afurða fyrir tegundum vöru og innkaup. 
+Eftirfarandi dæmi lýsir þessum aðstæðum. 
 
-Fyrir vörur, á við **Færibreytur viðskiptaskulda** síðunni, veljið sem **Bóka innhreyfingarskjöl afurða í fjárhag** valkost.
-[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+Contoso Consulting hefur komið á fót nýjum skýjarekstri. Innkaupapöntun er stofnuð til að kaupa tölvu fyrir verkefnið. Tölvan mun kosta $1500 og uppsetningarþjónusta mun kosta $150. Lánardrottinn hefur afhent og sett tölvuna upp, en reikningur hefur ekki enn borist Contoso Consulting. Stjórnanda verksins langar að sjá kostnaðaruppsöfnun verkefnisins upp á $1650 áður en reikningurinn er afhentur. Þessi kostnaður ætti einnig að endurspeglast í fjárhagsskýrslum fyrirtækisins í mánuðarlok. 
 
-Fyrir innkaupategundir, á við **tegundarstefnureglan** síðu, skal velja **Innkaup** reglur og velja svo **Uppsöfnuð innkaupakostnaðar á kvittun** fyrir hverja innkaupategund.
-[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+Uppsafnaðan kostnað þarf að skrá bæði á fjárhagslegu stigi og verkstig fyrir skýrslugerð. Í Dynamics 365 for Operations er hægt að rekja fjárhagslega uppfærslu afurðarinnar fyrir vöru- og innkaupaflokka. 
 
-Í **útgjöld Innkaupa óreikningsfærð** og **uppsöfnun Innkaupa** í **Bókunaruppsetning** verður notað þegar fylgiskjöl sem eru tengdar við innhreyfingarskjal afurða eru bókaðar.
-[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
+Fyrir vörur, á síðunni **Færibreytur viðskiptaskulda**, veljið valkostinn **Bóka innhreyfingarskjöl afurða í fjárhag**.
+[![uppsafnanir1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Með þessu sama dæmi, let's sjá hvernig bókun innhreyfingarskjals afurða verður áhrif á fjárhag og verkupplýsingar. 
+Fyrir innkaupategundir, á síðunni **Stefnuregla tegundar** skal velja reglurnar **Innkaup** og síðan **Safna upp innkaupakostnaði á kvittun** fyrir hvern innkaupaflokk.
+[![uppsafnanir2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-**1. skref:** Stofna og staðfesta nýja innkaupapöntun til að skrá innkaup tölvu fyrir $1500 og uppsetningu fyrir $150 verksins.
-[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+Reikningarnir **Útgjöld innkaupa óreikningsfærð** og **Uppsöfnun innkaupa** í **Bókunaruppsetningu** verða notaðir þegar fylgiskjöl sem eru tengd við innhreyfingarskjal afurða eru bókuð.
+[![uppsafnanir3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
 
-Þegar innkaupapöntun er staðfest, ráðstafaðan kostnað eru stofnaðar fyrir verkið. 
-[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
+Notum þetta sama dæmi til að sjá hvernig bókun innhreyfingarskjals afurða hefur áhrif á fjárhag og verkupplýsingar. 
 
-> [!NOTE]
-> Hafa færslur fyrir ráðstafaðan kostnað fyrir **Færsluuppruna** stillt á **Innkaupapöntun**. Stofnun og innkaupapöntun er staðfest ekki að stofna færslur fyrir verk. 
+**1. skref:** Stofna og staðfesta nýja innkaupapöntun fyrir verkefnið til að skrá innkaup á tölvu fyrir $1500 og uppsetningarþjónustu fyrir $150.
+[![uppsafnanir4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
-**2. skref:** Vörur og þjónustu fá afhentar og innhreyfingarskjal afurða er skráð. 
-
-Bókun innhreyfingarskjals afurða mynda og bóka fylgiskjalið í fjárhag. Fylgiskjal verður debet útgjöld innkaupa, óreikningsfærð lykils og kredit lykil uppsafnaðra innkaupa. 
-[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
+Þegar innkaupapöntun er staðfest eru færslur fyrir ráðstafaðan kostnað stofnaðar fyrir verkið. 
+[![uppsafnanir5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> Bókun innhreyfingarskjals afurða verður að nota bókunaruppsetninguna fyrir innkaupategundir og afurðir og ekki bókunaruppsetningu verktegundirnar. Til að endurspegla rétt fjárhagsleg áhrif uppsöfnunar innkaupa, þessa uppsetningarforritið þarf að vera samstilltar. 
+> Færslur fyrir ráðstafaðan kostnað munu hafa reitinn **Færsluuppruna** stilltan á **Innkaupapöntun**. Stofnun og staðfesting innkaupapöntunar stofnar ekki færslur fyrir verkefni. 
 
-Það er hægt að varpa innkaupaflokka sem verktegundir á í **innkaupategund** síðu.
-[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
+**2. skref:** Vörur og þjónustu eru afhentar og innhreyfingarskjal afurða er skráð. 
 
-**Skref 3:** Búa til drög reikning lánardrottins. 
+Bókun innhreyfingarskjals afurða er myndað og bókar fylgiskjalið í fjárhag. Fylgiskjal mun skuldfæra innkaupaútgjöld, óreikningsfærðan lykils og kreditfæra lykil uppsafnaðra innkaupa. 
+[![uppsafnanir6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
-Í Dynamics 365 aðgerða bókun innhreyfingarskjals afurða hefur ekki áhrif á upplýsingar um verk. Er lausn sem tókst að mynda reikning lánardrottins drög beint eftir bókun innhreyfingar innkaupapantana. Farið í **Innkaupapöntun** síðu &gt;**Reiknings flipanum**&gt;**Mynda**&gt;**Reiknings**. Þetta stofnar skjal biðreikningur sem uppfærir verkupplýsingar. 
+> [!NOTE]
+> Bókun innhreyfingarskjals afurða munu nota bókunaruppsetningu fyrir innkaupategundir og afurðir og ekki bókunaruppsetningu verktegundirnar. Til að endurspegla rétt fjárhagsleg áhrif uppsöfnunar innkaupa þarf þessi uppsetning að vera samstillt. 
 
-Stofna lánardrottinsreikning drög mynda verkfærslur í bið. 
-[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+Hægt er að varpa innkaupaflokka sem verktegundir á síðunni **Innkaupategund**.
+[![uppsafnanir7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-Í því **Ráðstafaður kostnaður** síðu færslur stofnaðar í þrepi 1 verður lokað og verður að stofna nýjar færslur til að endurspegla kostnaður ráðstöfun úr reikningi lánardrottins í bið. Í **færsluuppruna** fyrir ráðstafaðan kostnað verður stillt á **lánardrottinsreikning**.
-[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
+**3. skref:** Stofnaðu reikning lánardrottins 
 
-Reikningur lánardrottins á að haldast í biðstöðu þar til reikning lánardrottins raunverulega berst.
+Í Dynamics 365 for Operations hefur bókun innhreyfingarskjals afurða ekki áhrif á upplýsingar um verk. Sem hjáleið er hægt að mynda drög að reikningi lánardrottins beint eftir bókun innhreyfingar innkaupapantana. Farðu á síðuna **Innkaupapöntun** á &gt;**Reikningsflipanum**&gt;**Mynda**&gt;**Reiknings**. Þetta stofnar reikningsskjal í bið sem uppfærir verkupplýsingar. 
+
+Stofnun á lánardrottinsreikningsdrögum myndar verkfærslur í bið. 
+[![uppsafnanir8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+
+Á síðunni **Ráðstafaður kostnaður** verður færslum sem voru stofnaðar í 1. skrefi lokað og nýjar færslur verða stofnaðar til að endurspegla kostnaðarráðstöfun af reikningi lánardrottins í bið. Í reitnum **Færsluuppruni** fyrir ráðstafaðan kostnað verður stillt á **Lánardrottinsreikning**.
+[![uppsafnanir9](./media/accruals9-1024x200.png)](./media/accruals9.png)
+
+Reikningur lánardrottins mun haldast í biðstöðu þar til að sjálfur reikningur lánardrottins berst.
+
+
 
 

@@ -36,9 +36,9 @@ Ekki eru allar síður með lýsingum. Við viljum aðeins veita lýsingu fyrir 
 Ef þú hefur aðgang að þróunarumhverfinu í Microsoft Dynamics 365 for Operations geturðu bæta við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Sjá svæðislýsingar í notendaviðmótinu
-Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engin lýsing tiltæk, er hægt að sjá heiti svæðis þegar þú setur músabendil yfir svæðið. (Athugasemd: Í útgáfu 7.0.0 svæðislýsingar er að skoða aðeins á í **Svæðinu lýsingar** síðu.) Eftirfarandi skýringarmynd sýnir svæðislýsinguna sem birtist þegar þú músabendil yfir aukna á **Læsa vörum á meðan á talningu stendur** svæði. 
+Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engin lýsing tiltæk, er hægt að sjá heiti svæðis þegar þú setur músabendil yfir svæðið. (Athugasemd: Í útgáfu 7.0.0 svæðislýsingar er að skoða aðeins á **Svæðið lýsingar** síðu.) Eftirfarandi skýringarmynd sýnir lýsingu sem birtist þegar þú setur músabendil yfir **Læsa vörum á meðan á talningu stendur** svæði. 
 
-[![Dæmi um lýsing svæðis](./media/field-description.png)](./media/field-description.png)
+[![Dæmi um svæðislýsingu](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Notið Svæðið lýsingar síðu til þess að skoða og flytja út svæðið hjálp
 Í **Lýsingar svæðis** síðunni geturðu skoðað og flutt út reitalýsingar. Hægt er að finna lýsingar sem eru tiltækar fyrir eina síðu í einu.
@@ -73,7 +73,7 @@ Nokkrar leiðir eru til að leita að síðu í reitnum **Velja síðu**. Í mö
     -   Ef fleiri en einn nákvæm samsvörun er engin lýsingar sýndar. Þú verður að Opna í fellilistanum og veljið síðan sem óskað er.
     -   Ef heiti sem slegið er inn er hluta á nafni á aðra síðu sérðu lýsingu á síðunni. Hins vegar ef á fellilistann er opnuð, er að sjá aðrar síður sem innihalda nafninu.
 
-Til dæmis engar birtast þegar færa **Talning** í á *** Velja listasíðu *** svæði. Ef opnað er á fellilistanum sést að það eru tvær síður með heitið **"Talning"** auk nokkrum síða sem innihalda orðið "Talning“ í nafni. Ef valin er síða með AOT-heiti **"InventJournalCount"** birtast svæðislýsingar fyrir þá síðu. Hins vegar ef fellilistinn er opnuð aftur, sést að listinn inniheldur allar síður sem hafa "InventJournalCount" sem hluti af þeirra AOT-heiti.
+Til dæmis ekkert lýsingar eru sýnd þegar færa **Talning** í ****Velja síðu ****svæði. Ef opnað er á fellilistanum sést að það eru tvær síður með heitið **"Talning"** auk nokkrum síða sem innihalda orðið "Talning“ í nafni. Ef valin er síða með AOT-heiti **"InventJournalCount"** birtast svæðislýsingar fyrir þá síðu. Hins vegar ef fellilistinn er opnuð aftur, sést að listinn inniheldur allar síður sem hafa "InventJournalCount" sem hluti af þeirra AOT-heiti.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 Eftirfarandi kaflar veita upplýsingar við úrræðaleit vegna vandamála sem koma upp við notkun á svæðislýsingum.

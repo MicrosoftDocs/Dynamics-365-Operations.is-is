@@ -1,6 +1,6 @@
 ---
-title: "Fylgiseðils greiðsluskýrslu fyrir Europe"
-description: "Þetta efni veitir upplýsingar um skýrslur fyrir Europe fylgiseðils."
+title: "Greiðsluseðilsskýrsla fyrir Evrópu"
+description: "Þetta efnisatriði veitir upplýsingar um greiðsluseðilsskýrslur fyrir Evrópu."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,39 +24,44 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-slip-report-for-europe"></a>Fylgiseðils greiðsluskýrslu fyrir Europe
+# <a name="payment-slip-report-for-europe"></a>Greiðsluseðilsskýrsla fyrir Evrópu
 
-Þetta efni veitir upplýsingar um skýrslur fyrir Europe fylgiseðils.
+[!include[banner](../includes/banner.md)]
 
-Virkni fyrir skýrslur fylgiseðils er tiltæk fyrir lögaðila með þeirra aðalaðsetur í Danmörku, Belgíu, Noregur, Sviss eða Finnland. Fyrirtæki oft tengja prentaða greiðslueðlar reikninga til að veita tilvísun greiðslu fyrir bókun og jöfnun. Hægt er að nota greiðsluseðillinn fyrir reikninga verks eða þjónustusamning , innheimtubréf, vaxtanótur og reikningsyfirlit auk sölureikninga og reikningur með frjálsum texta.
 
-## <a name="set-up-a-creditor-id-number-denmark-only"></a>Setja upp Kenni númer lánardrottins (eingöngu Danmörk)
-Fylgið eftirfarandi skrefum til að færa inn númer kenni lánardrottins fyrirtækisins. Samband fjármálastofnun veitir þetta númer. Það er notað sem tilvísun þegar greiðslur viðskiptavinar eru mótteknar með mismunandi fjármálastofnunum.
+Þetta efnisatriði veitir upplýsingar um greiðsluseðilsskýrslur fyrir Evrópu.
 
-1.  Smellið á **fyrirtækisstjórnun**&gt;**Uppsetningu**&gt;**Fyrirtækis**&gt;**lögaðila**.
-2.  Á við **bankareikningsupplýsingar** FastTab í á **FI-Lánardrottinskennið** skal færa inn númer lánardrottins einkvæmt átta tölustafa Kenni.
+Þessi eiginleiki fyrir greiðsluseðilsskýrslur er í boði fyrir lögaðila sem hafa aðalaðsetur í Danmörku, Belgíu, Noregi, Sviss eða Finnlandi. Fyrirtæki láta prentaða greiðsluseðla oft fylgja með reikningum sem greiðslutilvísun fyrir bókun og uppgjör. Hægt er að nota greiðsluseðillinn fyrir reikninga verks eða þjónustusamning , innheimtubréf, vaxtanótur og reikningsyfirlit auk sölureikninga og reikningur með frjálsum texta.
+
+## <a name="set-up-a-creditor-id-number-denmark-only"></a>Setja upp kenninúmer lánardrottins (aðeins í Danmörku)
+Fylgið eftirfarandi skrefum til að færa inn kennitölu lánveitanda fyrirtækisins. Fjármálastofnunin lætur þetta númer í té. Það er notað sem tilvísun þegar greiðslur viðskiptavinar eru mótteknar frá fjármálastofnunum.
+
+1.  Smellt er á **Fyrirtækisstjórnun** &gt; **Setja upp** &gt; **Fyrirtæki** &gt; **Lögaðilar**.
+2.  Í flýtiflipanum **Bankareikningsupplýsingar**, í reitnum **Kenni FI-Lánardrottins**, skal færa inn einkvæma, átta stafa kennitölu lánveitanda.
 3.  Skjámyndinni er lokað til að vista breytingar.
 
-## <a name="set-up-a-payment-slip-attachment-format-for-invoices-interest-notes-collection-letters-and-account-statements"></a>Setja upp greiðslu viðhengið snið fylgiseðils fyrir reikninga, vaxtanótur, innheimtubréf og reikningsyfirlit
-Fylgið eftirfarandi skrefum til að setja upp snið fyrir viðhengi fylgiseðils greiðslu sem er fylgt sölureikninga, textareikninga, vaxtanótur, innheimtubréf og reikningsyfirlit.
+## <a name="set-up-a-payment-slip-attachment-format-for-invoices-interest-notes-collection-letters-and-account-statements"></a>Setja upp snið fyrir greiðsluseðil í viðhengi fyrir reikninga, vaxtanótur, innheimtubréf og reikningsyfirlit
+Fylgið þessum leiðbeiningum til að setja upp snið fyrir greiðsluseðil í viðhengi til að fylgja með sölureikningum, reikningum með frjálsum texta, vaxtanótum, innheimtubréfum og reikningsyfirlitum.
 
-1.  Smellið á **Viðskiptakröfur**&gt;**Uppsetningu**&gt;**Skjámyndir**&gt;**bréfs**.
-2.  Á í **Reiknings** flipanum, á **Viðhengd greiðslukvittun á reikningi viðskiptavinar** skal velja greiðslusnið fylgiseðils viðhengi.
-3.  Á við **textareikning**, **vaxtanótu**, **innheimtubréf**, og **Lykill uppgjör** flipunum, veljið greiðslu viðhengið snið fylgiseðils fyrir hverja skjalagerð.
+1.  Smellt er á **Viðskiptakröfur** &gt; **Setja upp** &gt; **Skjámyndir** &gt; **Uppsetning skjámynda**.
+2.  Í flipanum **Reikningur**, í reitnum **Tengd greiðslukvittun á svæði fyrir reikning viðskiptavinar**, skal velja snið greiðsluseðils í viðhengi.
+3.  Í flipunum **Reikningur með frjálsum texta**, **Vaxtanóta**, **Innheimtubréf** og **Reikningsyfirlit** skal velja snið fyrir greiðsluseðil í viðhengi fyrir hverja gerð skjals.
 4.  Skjámyndinni er lokað til að vista breytingar.
 
-Fylgið eftirfarandi skrefum til að setja upp snið fyrir viðhengi fylgiseðils greiðslu sem er fylgt verkreikninga.
+Fylgið þessum leiðbeiningum til að setja upp snið fyrir greiðsluseðil í viðhengi til að fylgja með verkreikningum.
 
-1.  Smellt er á **verkefnastjórnun Og bókhald**&gt;**Uppsetningu**&gt;**Skjámyndir**&gt;**bréfs**.
-2.  Í því **Greiðsluviðhengi** skal velja greiðslusnið fylgiseðils viðhengi.
+1.  Smellt er á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **Skjámyndir** &gt; **Uppsetning skjámynda**.
+2.  Í reitnum **Tengd greiðslukvittun** skal velja snið greiðsluseðils í viðhengi.
 
-## <a name="assign-a-payment-slip-attachment-format-to-a-customer-account"></a>Úthluta snið fylgiseðils viðhengið greiðslu á viðskiptavinalykil
-Eftir að setja upp fylgiseðils viðhengið greiðslusnið fyrir sölureikninga, textareikninga, vaxtanótur, innheimtubréf, reikningsyfirlit og verkreikningum hægt er að úthluta tilteknum snið fyrir valinn viðskiptavin.
+## <a name="assign-a-payment-slip-attachment-format-to-a-customer-account"></a>Snið greiðsluseðils í viðhengi tengt við viðskiptavinalykil
+Þegar þú hefur sett upp snið fyrir í greiðsluseðill í viðhengi fyrir sölureikninga, reikninga með frjálsum texta, vaxtanótur, innheimtubréf, reikningsyfirlit og verkreikninga er hægt að tengja tiltekin snið við valda viðskiptavini.
 
-1.  Smellið á **Viðskiptakröfur**&gt;**Algengar**&gt;**Viðskiptavini**&gt;**Alla viðskiptavini**.
-2.  Stofna nýjan viðskiptavin eða veljið fyrirliggjandi viðskiptavini.
-3.  Á við **Reikningur og afhending** FastTab í á **á reikningi viðskiptavinar**, **á textareikningi**, **á vaxtanótu**, **á innheimtubréf**, **á verkreikning**, og **á reikningsyfirliti** svæði, veljið snið fyrir viðhengi fylgiseðils greiðslu sem verður fylgt hver gerð skjala sem eru sendar til valins viðskiptavinar.
+1.  Smellt er á **Viðskiptakröfur** &gt; **Algengt** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**.
+2.  Stofna nýjan viðskiptavin eða velja fyrirliggjandi viðskiptavin.
+3.  Í flýtiflipanum **Reikningur og afhending**, í reitunum **Á reikningi viðskiptavinar**, **Á reikningi með frjálsum texta**, **Á vaxtanótu**, **Á innheimtubréfi**, **Á verkreikningi** og **Á reikningsyfirliti** skal velja snið fyrir greiðsluseðil í viðhengi sem mun fylgja með skjölum af hverri gerð sem send eru til valins viðskiptavinar.
 4.  Skjámyndinni er lokað til að vista breytingar.
+
+
 
 
 

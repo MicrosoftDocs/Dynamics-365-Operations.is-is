@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Setja upp og mynda jákvæða greiðsluskrá launa
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár. 
 
 Setja upp jákvæða greiðslu til að búa til rafræna lista yfir ávísanir sem eru gefnar í banka. Þegar ávísun er innleyst í bankanum ber bankinn ávísunina saman við lista yfir ávísanir. Ef ávísunin stemmir við ávísun í listanum samþykkir bankinn ávísunina. Ef ávísunin stemmir ekki við ávísun í listanum heldur bankinn henni eftir til skoðunar.
 
 ## <a name="security-for-positive-pay-files"></a>Öryggi í jákvæðum greiðsluskrám
-Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Því jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar, er mikilvægt að aðeins heimilaðir notendur hafa aðgang til að mynda og skoða þessar upplýsingar í Microsoft Dynamics 365 aðgerða. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
+Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Vegna þess að jákvæðar greiðsluskrár geta innihaldið viðkvæmar upplýsingar, er mikilvægt að aðeins heimilaðir notendur hafi aðgang til að mynda og skoða þessar upplýsingar í Microsoft Dynamics 365 for Operations. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Eftir að búið er að greiða ávísanir sem eru talin upp í jákvæðu grei�
 
 ## <a name="recall-a-positive-pay-file"></a>Afturkalla jákvæða greiðsluskrá
 Ef nauðsynlegt er að breyta jákvæðri greiðsluskrá er hægt að afturkalla hana. Á síðunni **Samantekt jákvæðrar greiðsluskrár** veljið jákvæða greiðsluskrá sem hefur stöðuna **Stofnuð**, og veljið síðan aðgerðina **Aturkalla**. Svæðið sem gefur til kynna hvort ávísun hefur verið tekin með í jákvæðri greiðsluskrá er endurstillt fyrir hverja ávísun í jákvæðu greiðsluskránni. Síðan er hægt að stofna nýja jákvæða greiðsluskrá sem inniheldur ávísunina sem var afturkölluð.
+
+
 
 

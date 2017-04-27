@@ -1,6 +1,6 @@
 ---
-title: "BI &amp;skýrslugerð heimasíða"
-description: "Þetta efnisatriði telur upp BI &amp;skýrslugerð tilföng sem eru tiltækar í Microsoft Dynamics 365 aðgerða."
+title: "Heimasíða BI &amp; skýrslugerð"
+description: "Þetta umfjöllunarefni sýnir viðskiptagreind &amp; tilföng skýrslugerðar sem eru tiltækar í Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;skýrslugerð heimasíða
+# <a name="bi-amp-reporting-home-page"></a>Heimasíða BI &amp; skýrslugerð
 
-Þetta efnisatriði telur upp BI &amp;skýrslugerð tilföng sem eru tiltækar í Microsoft Dynamics 365 aðgerða.
+[!include[banner](../includes/banner.md)]
+
+
+Þetta umfjöllunarefni sýnir viðskiptagreind &amp; tilföng skýrslugerðar sem eru tiltækar í Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Vinna með samantekin gögn
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Greiningar](analytics.md)
 -   [Rauntíma samþættingarlíkön í minni skipta um SSAS teninga](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Líkanabreytur og notkun steypa Saman Gögn](model-aggregate-data.md)
--   [Flytja inn uppfærða Dynamics AX 2012 R3 söluteningur verslun einingar](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Líkanagerð og notkun samantekinna gagna](model-aggregate-data.md)
+-   [Flytja inn uppfærða Dynamics AX 2012 R3 sölutening í einingaverslun](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Sjálfsafgreiðsla skýrslugerð
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Skýrslugerð sjálfsafgreiðslu
+-   [Power BI-samþætting](power-bi-integration.md)
 -   [Grunnstilling Power BI samþættingar fyrir vinnusvæði](configure-power-bi-integration.md)
 -   [Stofna Power BI-skýrslu með því að nota Microsoft Dynamics 365 for Operations-gögn](create-powerbi-report-data.md)
--   [Stofna Power BI skýrslu og mælaborð](create-powerbi-report-dashboard.md)
--   [Efni Rásar Afköst Power BI smásölu](retail-channel-performance-dashboard-power-bi-data.md)
--   [Fjárhagsleg Afköst Power BI efni](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Stofna Power BI skýrslu og yfirlit](create-powerbi-report-dashboard.md)
+-   [Power BI-efni afkasta smásölurásar](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
+-   [Sölu- og afköst arðsemisgreiningar Power BI-efni](sales-profitability-performance-content-pack.md)
 -   [Nota skilgreiningu Rafræna skýrslugerð til að gefa Power BI gögnum úr Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Uppbygging ívafinnar reynslu í greiningu í Dynamics 365 for Operations-biðlara
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 5: breyta og keyra snið)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/)verkefnaleiðbeiningar
 -   [Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/)verkefnaleiðbeiningar
 -   [Rafræn skýrslugerð Uppfærsðu snið með því að taka upp nýja grunnútgáfu sniðs](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/)(verkefnaleiðbeiningar)
+
+
 
 
 

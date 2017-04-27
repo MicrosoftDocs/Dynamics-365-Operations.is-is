@@ -1,6 +1,6 @@
 ---
-title: "Skilgreina altækar aðsetursbækur"
-description: "Þessi skrá lýsir umhugsunarefni og breytingar sem þarf að gera við ferli fjárhagsáætlunargerðar áður en hægt er að setja upp og skilgreina altæka aðsetursbók og allar viðbótarupplýsingar aðsetursbækur í Microsoft Dynamics 365 fyrir Aðgerðir. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis."
+title: "Grunnstilla altæka aðsetursbók"
+description: "Þessi grein lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Skilgreina altækar aðsetursbækur
+# <a name="configure-global-address-books"></a>Grunnstilla altæka aðsetursbók
 
-Þessi skrá lýsir umhugsunarefni og breytingar sem þarf að gera við ferli fjárhagsáætlunargerðar áður en hægt er að setja upp og skilgreina altæka aðsetursbók og allar viðbótarupplýsingar aðsetursbækur í Microsoft Dynamics 365 fyrir Aðgerðir. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
 
 <a name="global-address-book"></a>Altæk aðsetursbók
 -------------------
@@ -61,6 +64,8 @@ ms.lasthandoff: 03/31/2017
 Hægt er að stofna aðsetursbækur hvenær sem er, og einnig er hægt að stilla öryggisfæribreytur fyrir aðsetursbækurnar hvenær sem er. Ekki þarf að setja öryggisréttindi fyrir aðsetursbók, en það er ekki gert geta alla starfsmenn í fyrirtækinu þínu skoða allar færslur allra aðila sem eru í aðsetursbók. Hægt er að setja upp öryggisréttindi fyrir aðilafærslu í gegnum aðsetursbækur. Öryggisréttindi á grundvölluð á teymi. Þessi nálgun tryggir að aðeins starfsmenn sem eru úthlutaðar teymi sem hefur aðgang að aðsetursbók geta skoðað færslur aðila í þeirri aðsetursbók. Þú verður að velja hópa sem hefur aðgang að hverju aðsetursbók. Fyrir hverja aðsetursbók hægt er að setja öryggisréttindi sem heimila eða hafna aðgang fyrir tilteknum teymi. Þegar er hóp er veittur réttindi fyrir aðgang að aðsetursbók, geta allir hópmeðlimum skoða færslurnar í aðsetursbók. Þegar er hóp er ekki veittur aðgangur fyrir aðgang að aðsetursbók, geta hópmeðlimir ekki skoða færslurnar í aðsetursbók eða efni hennar. **Ákvörðun:**
 
 -   Hvaða teymi ætti að hafa aðgang að hverju nýja aðsetursbók sem verður stofnað?
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>Skýrslugerð ESB-sölulista
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um skýrslugerð ESB-sölulista.
 
 <a name="eu-sales-list-reporting"></a>Skýrslugerð ESB-sölulista
@@ -64,11 +67,11 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 <tbody>
 <tr class="odd">
 <td><strong>Uppsetning:</strong>Setja upp lögaðila</td>
-<td>Aðalaðsetur lögaðilans verður að vera í aðildarlandi Evrópusambandsins. Á við <strong>lögaðila</strong> síðu (smellt er á <strong>fyrirtækisstjórnun</strong>&gt;<strong>Fyrirtæki</strong>&gt;<strong>lögaðila</strong>), veljið við lögaðilann. Á flýtiflipanum <strong>Aðsetur</strong> skal stofna aðsetur, velja land/svæði og önnur aðsetursíhluti og merkja aðsetur sem <strong>Aðal</strong>. Á flýtiflipanum <strong>Skattskráning</strong> í reitnum <strong>Skattskráningarnúmer</strong> skal tilgreina skattskráningarnúmer fyrir fyrirtækið.</td>
+<td>Aðalaðsetur lögaðilans verður að vera í aðildarlandi Evrópusambandsins. Á síðunni <strong>Lögaðilar</strong> (smellt er á <strong>Fyrirtækisstjórnun</strong> &gt; <strong>Fyrirtæki</strong> &gt; <strong>Lögaðilar</strong>) er lögaðilinn valinn. Á flýtiflipanum <strong>Aðsetur</strong> skal stofna aðsetur, velja land/svæði og önnur aðsetursíhluti og merkja aðsetur sem <strong>Aðal</strong>. Á flýtiflipanum <strong>Skattskráning</strong> í reitnum <strong>Skattskráningarnúmer</strong> skal tilgreina skattskráningarnúmer fyrir fyrirtækið.</td>
 </tr>
 <tr class="even">
 <td><strong>Uppsetning:</strong> Færibreytur auðkenniningar skattundanþágu</td>
-<td>Setja upp færibreytur skattfrjálsra kenni á í <strong>færibreytur Lands/svæðis</strong> síðu (smellt er á <strong>Skattur</strong>&gt;<strong>Uppsetningu</strong>&gt;<strong>vsk</strong>&gt;<strong>færibreytur Lands/svæðis</strong>). Fyrir hvert land/svæði þar sem þú hefur mótaðila býrðu til færslu á síðunni og tilgreinir eftirfarandi upplýsingar:
+<td>Setja upp færibreytur auðkenningar skattundanþágu á síðunni <strong>Færibreytur lands/svæðis</strong> (smellt er á <strong>Skattur</strong> &gt; <strong>Uppsetning</strong> &gt; <strong>VSK</strong> &gt; <strong>Færibreytur lands/svæðis</strong>). Fyrir hvert land/svæði þar sem þú hefur mótaðila býrðu til færslu á síðunni og tilgreinir eftirfarandi upplýsingar:
 <ul>
 <li><strong>Land/svæði</strong> – Veljið land/svæði til að tengja við kenni skattundanþágunúmers.</li>
 <li><strong>Virðisaukaskattur</strong> – Færið inn auðkennisnúmer skattundanþágu (það er að segja forskeyti skattundanþágunúmers) fyrir valið land/svæði.</li>
@@ -77,7 +80,7 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 </tr>
 <tr class="odd">
 <td><strong>Uppsetning: </strong>Skattundanþágunúmer</td>
-<td>Stofna skattundanþágunúmer við counterparties á á <strong>Skattundanþágunúmer</strong> síðu (smellt er á <strong>Skattur</strong>&gt;<strong>Uppsetningu</strong>&gt;<strong>vsk</strong>&gt;<strong>Skattundanþágunúmer</strong>). Fyrir hvert skattundanþágunúmer er færsla stofnuð á síðunni og tilgreindar eftirfarandi upplýsingar:
+<td>Stofnaðu skattundanþágunúmer fyrir mótaðila þína á síðunni <strong>Skattundanþágunúmer </strong> (smellt er á <strong>Skattur</strong> &gt; <strong>Uppsetning</strong> &gt; <strong>VSK</strong> &gt; <strong>Skattundanþágunúmer</strong>). Fyrir hvert skattundanþágunúmer er færsla stofnuð á síðunni og tilgreindar eftirfarandi upplýsingar:
 <ul>
 <li><strong>Land/svæði </strong>– Veljið land/svæði fyrir skráningu á mótaðilanum.</li>
 <li><strong>Skattundanþágunúmer</strong> – Færið inn skattundanþágunúmer mótaðilans.</li>
@@ -86,11 +89,11 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 </tr>
 <tr class="even">
 <td><strong>Uppsetning: </strong>Skattskráning mótaðila</td>
-<td>Setja upp upplýsingar um skattskráningu fyrir counterparties því á annað hvort í <strong>Alla viðskiptavini</strong> síðu (smellt er á <strong>Sölu og markaðssetningar</strong>&gt;<strong>Viðskiptavini</strong>&gt;<strong>Alla viðskiptavini</strong>, velja færslu viðskiptavinar og smellið síðan á <strong>Valkosti</strong>&gt;<strong>Breyta skoða</strong>&gt;<strong>Upplýsingayfirlit</strong>) eða <strong>Lánardrottna</strong> síðu (smellt er á <strong>Innkaupa og uppruna</strong>&gt;<strong>Lánardrottna</strong>&gt;<strong>Lánardrottna</strong>, velja færslu lánardrottins og smellið síðan á <strong>Valkosti</strong>&gt;<strong>Breyta skoða</strong>&gt;<strong>Upplýsingayfirlit</strong>). Á flýtiflipanum <strong>Reikningur og afhending</strong> á síðunni <strong>Skattundanþágunúmer</strong> skal velja skattskráningarnúmer.</td>
+<td>Setja upp upplýsingar um skattskráningu fyrir mótaðila annaðhvort á síðunni <strong>Allir viðskiptavinir</strong> (smellt er á <strong>Sala og markaðssetning</strong> &gt; <strong>Viðskiptavinir</strong> &gt; <strong>Allir viðskiptavinir</strong>, valin færsla viðskiptavinar og síðan smellt á <strong>Valkostir</strong> &gt; <strong>Breyta skjámynd</strong> &gt; <strong>Upplýsingayfirlit</strong>) eða síðunni <strong>Lánardrottnar</strong> (smellt er á <strong>Innkaup og aðföng</strong> &gt; <strong>Lánardrottnar</strong> &gt; <strong>Lánardrottnar</strong>, valin færsla lánardrottins og síðan smellt á <strong>Valkostir</strong> &gt; <strong>Breyta skjámynd</strong> &gt; <strong>Upplýsingayfirlit</strong>). Á flýtiflipanum <strong>Reikningur og afhending</strong> á síðunni <strong>Skattundanþágunúmer</strong> skal velja skattskráningarnúmer.</td>
 </tr>
 <tr class="odd">
 <td><strong>Uppsetning: </strong>Virðisaukaskattur</td>
-<td>Setja upp skattkóðar sem hafa á með á <strong>esb-sölulista</strong> á á <strong>Vsk-kóða</strong> síðu (smellt er á <strong>Skattur</strong>&gt;<strong>Óbeint skatta</strong>&gt;<strong>vsk</strong>&gt;<strong>Vsk-kóða</strong>). Á flýtiflipanum <strong>Skýrsluuppsetning</strong>, fyrir hvern VSK-kóða sem á að hafa með í skýrslunni, skal hreinsa gátreitinn <strong>Útilokað </strong>. Setja upp vsk-færibreytur fyrir vörur á á <strong>vsk-flokka Vöru</strong> síðu (smellt er á <strong>Skattur</strong>&gt;<strong>Óbeint skatta</strong>&gt;<strong>vsk</strong>&gt;<strong>vsk-flokka Vöru</strong>). Fyrir hvern VSK-flokk vöru skal slá inn gildi í reitinn <strong>Skýrslugerð</strong>. Gildið sem er valið ákvarðar dálk ESL-upphæðar sem línuupphæðin verður setti í.
+<td>Setja upp skattkóða til að hafa með í skýrslu <strong>ESB-sölulista</strong> á síðunni <strong>VSK-kóðar</strong> (smellt er á <strong>Skattur</strong> &gt; <strong>Óbeinn skattur</strong> &gt; <strong>VSK</strong> &gt; <strong>VSK-kóðar</strong>). Á flýtiflipanum <strong>Skýrsluuppsetning</strong>, fyrir hvern VSK-kóða sem á að hafa með í skýrslunni, skal hreinsa gátreitinn <strong>Útilokað </strong>. Setja upp færibreytur virðisaukaskatts á síðunni <strong>VSK-flokkar vöru</strong> (smellt er á <strong>Skattur</strong> &gt; <strong>Óbeinn skattur</strong> &gt; <strong>VSK</strong> &gt; <strong>VSK-flokkar vöru</strong>). Fyrir hvern VSK-flokk vöru skal slá inn gildi í reitinn <strong>Skýrslugerð</strong>. Gildið sem er valið ákvarðar dálk ESL-upphæðar sem línuupphæðin verður setti í.
 <ul>
 <li><strong>Autt</strong> – Línuupphæðin er innifalin í dálknum <strong>Ekki úthlutað virði</strong>.</li>
 <li><strong>Vara</strong> – Línuupphæðin er innifalin í dálknum <strong>Vöruvirði</strong>.</li>
@@ -104,7 +107,7 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 </tr>
 <tr class="odd">
 <td><strong>Uppsetning: </strong>Almennar færibreytur</td>
-<td>Setja upp ESL skýrslugerð færibreytur á á <strong>færibreytur Erlendra viðskipta</strong> síðu (smellt er á <strong>Skatt</strong>&gt;<strong>Uppsetningu</strong>&gt;<strong>Erlend viðskipti</strong>&gt;<strong>færibreytur Erlendra viðskipta</strong>). Tilgreina skal eftirfarandi færibreytur:
+<td>Setja upp færibreytur ESL-skýrslugerðar á síðunni <strong>Færibreytur erlendra viðskipta</strong> (smellt er á <strong>Skattur</strong> &gt; <strong>Uppsetning</strong> &gt; <strong>Erlend viðskipti</strong> &gt; <strong>Færibreytur erlendra viðskipta</strong>). Tilgreina skal eftirfarandi færibreytur:
 <ul>
 <li>Flipinn <strong>ESB-sölulisti</strong>:
 <ul>
@@ -147,7 +150,7 @@ Hægt er að líta á færslur af eftirfarandi gerðum sem viðskiptafærslur in
 -   Verkreikningar
 -   Reikningar lánardrottins
 
-Litið er á færslu sem færslu fyrir viðskipti innan bandalagsins ef afhendingaraðsetur færslunnar er í aðildarríki Evrópusambandsins. Fyrir slík lönd/svæði þarf færsla að vera til á flipanum **Færibreytur lands/svæðis** á síðunni **Færibreytur erlendra viðskipta** og gildið **Gerð lands/svæðis** ætti að vera stillt á **ESB**. Færslur fyrir viðskipti innan bandalagsins eru merktar í reitnum **Listakóðar**. Með þessu reit er einnig hægt að aðskilja almennar viðskiptafærslur innan bandalagsins frá þríhliða viðskiptafærslum. Hægt er að safna upplýsingum um bandalags viðskipti færslur á á **esb-sölulista** síðu (smellt er á **Skattur**&gt;**Skýrslur**&gt;**Erlendra viðskipta**&gt;**esb-sölulista**) með því að nota í **Flytja** aðgerð. Þessi aðgerð gerir það mögulegt að taka með færslur sem hafa upphæðir fyrir mismunandi skýrslugerðir (þ.e. vörur eða þjónustu), eftir þeim VSK-flokkum vöru sem eru tilgreindir á færslulínunum. Einnig er hægt að nota aðra síur til að skilgreina þær færslur sem eiga að fylgja með. Aðgerðin **Flytja** stofnar færslu á síðunni **ESB-sölulisti** fyrir hverja viðskiptafærslu innan bandalagsns sem eru hafðar með og tilgreinir lykilnúmer mótaðila, land/svæði, skattundanþágunúmer, reikningsnúmer og dagsetningu og heildarupphæðir lína eftir skýrslugerð. Hún afritar einnig gildi **Listakóða** úr færslunni. Hægt er að breyta fyrir færslu á síðunni **ESB-sölulisti**. Aðgerðin **Flytja** stofnar færslur þar sem gildið **Skýrslustaða** er stillt á **Innifalið**. Hægt er að villuleita upplýsingarnar sem safnað er á síðunni **ESB-sölulisti ** með því að nota aðgerðina **Villuleita**.
+Litið er á færslu sem færslu fyrir viðskipti innan bandalagsins ef afhendingaraðsetur færslunnar er í aðildarríki Evrópusambandsins. Fyrir slík lönd/svæði þarf færsla að vera til á flipanum **Færibreytur lands/svæðis** á síðunni **Færibreytur erlendra viðskipta** og gildið **Gerð lands/svæðis** ætti að vera stillt á **ESB**. Færslur fyrir viðskipti innan bandalagsins eru merktar í reitnum **Listakóðar**. Með þessu reit er einnig hægt að aðskilja almennar viðskiptafærslur innan bandalagsins frá þríhliða viðskiptafærslum. Hægt er að safna upplýsingum um færslur fyrir viðskipti innan bandalagsins á síðunni **ESB-sölulisti** (smellt er á **Skattur** &gt; **Skattframtöl** &gt; **Erlend viðskipti** &gt; **ESB-sölulisti**) með því að nota aðgerðina **Flytja**. Þessi aðgerð gerir það mögulegt að taka með færslur sem hafa upphæðir fyrir mismunandi skýrslugerðir (þ.e. vörur eða þjónustu), eftir þeim VSK-flokkum vöru sem eru tilgreindir á færslulínunum. Einnig er hægt að nota aðra síur til að skilgreina þær færslur sem eiga að fylgja með. Aðgerðin **Flytja** stofnar færslu á síðunni **ESB-sölulisti** fyrir hverja viðskiptafærslu innan bandalagsns sem eru hafðar með og tilgreinir lykilnúmer mótaðila, land/svæði, skattundanþágunúmer, reikningsnúmer og dagsetningu og heildarupphæðir lína eftir skýrslugerð. Hún afritar einnig gildi **Listakóða** úr færslunni. Hægt er að breyta fyrir færslu á síðunni **ESB-sölulisti**. Aðgerðin **Flytja** stofnar færslur þar sem gildið **Skýrslustaða** er stillt á **Innifalið**. Hægt er að villuleita upplýsingarnar sem safnað er á síðunni **ESB-sölulisti ** með því að nota aðgerðina **Villuleita**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Myndun skýrslu fyrir ESB-sölulsta
 
@@ -156,5 +159,7 @@ Hægt er að mynda skýrslu **ESB-sölulista** með því að nota aðgerðina *
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Loka skýrslutímabili ESB-sölulista.
 
 Þegar skýrsluferlinu hefur verið fyrir tiltekið tímabil (til dæmis þegar skattayfirvöld hafa samþykkt **esb-sölulista** skýrslu), er hægt að merkja ESL færslurnar sem eru teknar með í skýrslunni fyrir tímabilið með því að stilla gildið **Skýrslustaða** sem **Lokað**. Til að setja þessa stöðu er notuð aðgerðin **Merkja sem lokað ** á síðunni **ESB-sölulisti **. Ef lokun tímabilsins er afturkölluð er hægt að merkja ESL-færslur með því að stilla gildið **Skýrslustaða** sem **Innifalið**. Síðan er hægt að taka þessar færslur með í **esb-sölulista** skýrsluna aftur. Til að setja þessa stöðu er notuð aðgerðin **Merkja sem** **innifalið **aðgerðin á síðunni **EU-sölulisti**.
+
+
 
 

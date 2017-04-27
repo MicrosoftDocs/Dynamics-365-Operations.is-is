@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir. 
 
 Innkaupasamningurinn getur átt við tiltekið magn af afurð, ákveðna gjaldmiðilsupphæð af afurð, eða ákveðna gjaldmiðilsupphæð af afurðunum í innkaupategund. Verð og afslættir af innkaupasamningur hunsa verð og afslætti sem eru tilgreindar í hvaða viðskiptasamninga sem ríkir.  
@@ -70,7 +73,7 @@ Svæðið **Samkomulag** sýnir heildarmagn eða heildarupphæð sem sölusamnin
 Þú getur nálgast innkaupapöntunarlínur og reikningslínur sem hafa áhrif á uppfyllingarútreikninga með því að velja aðgerðina **Tengdar upplýsingar**í línum eða á haus innkaupasamnings.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Staðfestingar og útgáfusögu fyrir innkaupasamninga
-Þegar innkaupasamningur er staðfestur er núverandi útgáfa innkaupasamningsins vistuð í sögutöflu. Ef innkaupasamnings er breytt hægt að staðfesta hann aftur til að geyma aðra útgáfu af innkaupasamnings í sögu. Ef ekki er að staðfesta innkaupasamning, enn hægt að nota hana til að stofna Sölustaðar. Hins vegar er ekki upplýsingar um sögu innkaupasamnings fyrir geymd. Hægt er að forskoða eða prenta allar útgáfur samningsins. Svo er hægt að deila endurskoðunum til lánardrottins til að fá samþykki.
+Þegar innkaupasamningur er staðfestur er núverandi útgáfa innkaupasamningsins vistuð í sögutöflu. Ef innkaupasamnings er breytt hægt að staðfesta hann aftur til að geyma aðra útgáfu af innkaupasamnings í sögu. Ef innkaupasamningur er ekki staðfestur er enn hægt að nota hann til að stofna innkaupapantanir. Hins vegar eru söguupplýsingar innkaupasamnings ekki vistuð. Hægt er að forskoða eða prenta allar útgáfur samningsins. Svo er hægt að deila endurskoðunum til lánardrottins til að fá samþykki.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Jafna innkaupasamninga í pöntunarferli
 Þegar innkaupapöntun er stofnuð er hægt að nota innkaupasamning við hana. Upplýsingar úr skilmálum samningsins, t.d. greiðsluskilmálar, afhendingarskilmálar, og afhendingaraðsetur, eru síðan afritaðar á haus innkaupapöntunarinnar. Ef innkaupapöntunin inniheldur eina eða fleiri línur fyrir afurð eða flokka sem samkomulagið nær yfir, er verð og afsláttur úr innkaupasamningnum notað fyrir þær línur. Upphæð eða magn í pöntunarlínunni hefur áhrif á uppfyllingu samningsins í innkaupapöntuninni. Sama innkaupapöntunin getur bæði haft línur sem eru ekki tengdar við sölusamning og línur sem hafa samning fyrir innkaupapöntun.  
@@ -91,8 +94,10 @@ Hægt er að afrita fjárhagsvíddir á skjalahausa eða á einstaka línur í i
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna innkaupasamning (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Stofna innkaupasamning (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Stofna úttektarpöntun innkaupa frá innkaupasamningi (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Stofna úttektarpöntun innkaupa úr innkaupasamningi (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

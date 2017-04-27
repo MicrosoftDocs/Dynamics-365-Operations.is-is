@@ -1,6 +1,6 @@
 ---
 title: "Greina afköst verslunar"
-description: "Þessi skrá er útskýrt hvernig hægt er að nota í minni og real-time greiningar til að fá aðgang að, skoðið og öðlast insight um afköst verslun, byggt á notanda Microsoft Dynamics 365 fyrir Aðgerðir."
+description: "Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Greina afköst verslunar
 
-Þessi skrá er útskýrt hvernig hægt er að nota í minni og real-time greiningar til að fá aðgang að, skoðið og öðlast insight um afköst verslun, byggt á notanda Microsoft Dynamics 365 fyrir Aðgerðir. 
+[!include[banner](includes/banner.md)]
 
-Hluti af Dynamics 365 aðgerða notendur geta study afköst verslun í rauntíma milli mismunandi stig í stigveldi fyrirtækis yfir á völdu tímabili með því að opna í út-á-reitinn **samantekt Rásar** skýrslu úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun retail store** vinnusvæði Dynamics 365 fyrir Aðgerðir &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**samantekt Rásar**
--   **Retail store fjárhagur** vinnusvæði Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**fjárhagur Retail store**&gt;**Skýrslur**&gt;**samantekt Rásar**
--   **Fyrirspurnir og skýrslur** hlutanum Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Fyrirspurnum og skýrslum**&gt;**Vsk-skýrslur**&gt;**samantekt Rásar**
+Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Operations. 
+
+Sem hluti af Dynamics 365 for Operations geta notendur geta skoðað afköst verslunar í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að opna „út úr kassanum“ **Samantekt rásar** skýrslu úr hverjum sem er af eftirfarandi stöðum:
+
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Yfirlitsskýrsla rásar**
+-   **Fjármál smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt;**Smásala og viðskipti** &gt; **Rásir** &gt; **Fjármál smásöluverslunar** &gt; **Skýrslur** &gt; **Yfirlitsskýrsla rásar**
+-   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Yfirlitsskýrsla rásar**
 
 Þessi skýrsla veitir skyndimynd af eftirfarandi samantektum sem hluti af afköstum verslunar:
 
@@ -42,4 +45,6 @@ Hluti af Dynamics 365 aðgerða notendur geta study afköst verslun í rauntíma
 -   Skattsamantekt
 -   Samantekt um hnekkingu verðs
 -   Samantekt á afslætti
+
+
 

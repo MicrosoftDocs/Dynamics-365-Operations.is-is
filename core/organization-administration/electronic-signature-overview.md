@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>Yfirlit yfir rafrænar undirskriftir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir rafrænar undirskriftir og lýsir hvernig hægt er að nota þær í Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-an-electronic-signature"></a>Hvað er rafræn undirskrift?
@@ -35,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 Rafræn undirskrift staðfestir deili á þeim aðila sem er í þann mund að hefja eða samþykkja ferli. Innan sumra atvinnugreina er rafræn undirskrift jafn bindandi að lögum og handskrifuð. Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru háðar opinberum reglugerðum, svo sem við lyfja-, matvæla- og drykkjarvöruframleiðslu og í flugvéla- og geimiðnaði og varnariðnaði. Þær eru einnig nauðsynlegar samkvæmt reglum 21 CFR hluta 11, sem gefnar eru út af Matvæla- og lyfjaeftirliti Bandaríkjanna (FDA). **Athugið:** Rafræn undirskrift er ekki það sama og stafræn undirskrift. Rafræn undirskrift er aðeins staðgengill handskrifaðra undirskrifta, en stafrænar undirskriftir hafa ítarlegri öryggiseiginleika. Með stafrænum undirskriftum er hægt að kanna hvort notandi eða vinnsla hafi átt við gögn. Einnig er hægt að staðfesta stafrænar undirskriftir án þess að eigandi skírteinis sem var notað til undirskriftar geti þráttað fyrir það. Rafrænar undirskriftir í  Microsoft Dynamics 365 for Operations eru með innbyggða virkni stafrænnar undirskriftum, eins og lýst er hér fyrir neðan.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Rafrænar undirskriftir í Dynamics 365 for Operations
-Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli í Dynamics 365 for Operations. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er. Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Dynamics 365 for Operations skráir upplýsingar um rafrænar undirskriftir í kladda til þess að hægt sé að rekja slóð aðgerða. Til að setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (leiðarvísi fyrir Verk)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli í Dynamics 365 for Operations. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er. Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Dynamics 365 for Operations skráir upplýsingar um rafrænar undirskriftir í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Notendur sem þarfnast aðgangs að rafrænar undirskriftir
 Þrenns konar notendur krefjast vanalega öryggisaðgangs að rafrænum undirskriftum: Stjórnendur rafrænna undirskrifta, áritendur og endurskoðendur rafrænna undirskrifta.
@@ -78,6 +81,8 @@ Stundum þarf notandi að skrifa undir fyrir breytingar annars notanda. Til dæm
 1.  Á síðunni **Valkosti** á flipanum **Lykla**, smellið **Tilgreina samþykkjanda**.
 2.  Í **notandakenni samþykktaraðila** reit, velja kenni þess notanda sem á að skrifa undir breytingar annars notanda.
 3.  Í **undirrita fyrir notandakenni** reit, velja kenni notandans sem þarf að skrifa undir fyrir þegar hann gerir breytingar.
+
+
 
 
 

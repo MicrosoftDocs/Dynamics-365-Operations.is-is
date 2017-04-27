@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Birgðabækur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla. 
 
 Birgðabækur í Microsoft Dynamics 365 for Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskriftir (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
@@ -72,7 +75,7 @@ Framleiðsluílagsbækur virka eins og vörukomubókin en eru notaðar fyrir fra
 
 ### <a name="counting"></a>Talning
 
-Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningu flokka, sjá [Skilgreina ferli (leiðarvísi fyrir Verk) birgðatalningabókar](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Seðlatalning
 
@@ -89,5 +92,7 @@ Færslubók getur aðeins einn notandi fengið aðgang að í einu. Ef nokkrir n
 
 ## <a name="posting-journal-lines"></a>Bókunarbókarlínur
 Hægt er að bóka færslubókarlínur sem eru stofnaðar hvenær sem er þar til þú hefur læst afurð frá aukalegum færslum. Gögnin sem færð er inn í færslubók geymast í færslubókinni, jafnvel þótt þú loka færslubókinni án þess að bóka línur.
+
+
 
 

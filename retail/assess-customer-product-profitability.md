@@ -1,6 +1,6 @@
 ---
 title: "Meta arðsemi viðskiptavinar og afurðar"
-description: "Þessi skrá er útskýrt hvernig hægt er að nota í minni og real-time greiningar að fá aðgang að, skoðið og öðlast insight um viðskiptavini og arðsemi afurðar úr skal Microsoft Dynamics 365 fyrir Aðgerðir."
+description: "Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í arðsemi viðskiptavina og afurða úr gögnum Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Meta arðsemi viðskiptavinar og afurðar
 
-Þessi skrá er útskýrt hvernig hægt er að nota í minni og real-time greiningar að fá aðgang að, skoðið og öðlast insight um viðskiptavini og arðsemi afurðar úr skal Microsoft Dynamics 365 fyrir Aðgerðir. 
+[!include[banner](includes/banner.md)]
 
-Sem hluti af Dynamics 365 fyrir Aðgerðir, notendur geta study arðsemisgreiningu efstu viðskiptavina (10 100) milli mismunandi stig í stigveldi fyrirtækis, byggt á eitt af eftirfarandi skilyrðum:
+
+Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í arðsemi viðskiptavina og afurða úr gögnum Microsoft Dynamics 365 for Operations. 
+
+Hluti af Dynamics 365 for Operations er að notendur geta skoðað arðsemisgreiningu stærstu viðskiptavina (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
 -   Söluupphæð
 -   Magn
@@ -38,8 +41,8 @@ Sem hluti af Dynamics 365 fyrir Aðgerðir, notendur geta study arðsemisgreinin
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Stærstu viðskiptavinir** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun retail store** vinnusvæði Dynamics 365 fyrir Aðgerðir &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**Efstu viðskiptavinum skýrslu**
--   **Fyrirspurnir og skýrslur** hlutanum Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Fyrirspurnir og skýrslur**&gt;**Vsk-skýrslur**&gt;**Stærstu viðskiptavini skýrslu**
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+-   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
 
 Einnig geta notendur skoðað arðsemisgreiningu mest seldu varanna (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
@@ -50,8 +53,10 @@ Einnig geta notendur skoðað arðsemisgreiningu mest seldu varanna (10 til 100)
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurnar** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun retail store** vinnusvæði Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Rásir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**Efstu afurðir skýrslu**
--   **Flokka- og afurðastjórnun** vinnusvæði Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Afurðir og tegundir**&gt;**Retail store stjórnun**&gt;**Skýrslur**&gt;**Efstu afurðir skýrslu**
--   **Fyrirspurnir og skýrslur** hlutanum Dynamics 365 aðgerða &gt;**Smásölu og commerce**&gt;**Fyrirspurnum og skýrslum**&gt;**Vsk-skýrslur**&gt;**Efstu afurðir skýrslu**
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; ** Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+-   **Flokka- og afurðastjórnun** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+-   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+
+
 
 

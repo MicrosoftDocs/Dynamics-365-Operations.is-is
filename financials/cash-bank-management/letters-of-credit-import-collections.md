@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kreditbréf og innflutningssafn
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir almennar upplýsingar Um kreditbréf og innflutningssafn. Báðar tegundir bankaskjala eru oft notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri.
 
 <a name="letters-of-credit"></a>Kreditbréf
 -----------------
 
-Kreditbréf eru notaðir fyrir færslur alþjóðlegt og aðstoða við að tryggja samræmda greiðslur verða vera gerðar. Skjalaupplýsingar um kreditbréf er samning sem er gefið út af banka, sem bankinn samþykkir til að tryggja að greiðslur fyrir hönd kaupanda, svo lengi sem skilmálum samningsins milli seljanda og kaupanda eru uppfyllt. Skjalaupplýsingar um kreditbréf er einnig kallað documentary kredit (DC).
+Kreditbréf eru notuð fyrir alþjóðlegar færslur til að tryggja að greiðslur verða greiddar. Skjalaupplýsingar um kreditbréf er samning sem er gefið út af banka, sem bankinn samþykkir til að tryggja að greiðslur fyrir hönd kaupanda, ef skilmálum samningsins milli seljanda og kaupanda eru uppfyllt. Athugið að einnig er vísað til kreditbréfs sem viðskiptaskjals (DC).
 
 Við innflutning kreditbréfs er lögaðili kaupandi eða umsækjandi um kreditbréf. Við útflutning kreditbréfs er lögaðili seljandi eða rétthafi kreditbréfs. Eftirfarandi aðilar koma að kreditbréfi:
 
@@ -50,5 +53,7 @@ Kreditbréf getur annað hvort verið **afturkallanlegt** eða **óafturkallanle
 Innflutningssafn er samningur milli banka og útflytjanda (seljanda), þar sem bankinn fellst á°að afhenda innflytjanda (kaupanda) afhendingarskjölin. Reiknað er með að bankinn afhendi afhendingarskjölin við kvittun fyrir greiðslu á afhentum vörum í reiðufé, eða við afhendingu á undirrituðum drögum að greiðslu. 
 
 Innflutningssafn hjálpar til við að tryggja að seljandi fái greitt þegar kaupandi sækir afhendingarskjölin til að fá innfluttar vörur.
+
+
 
 

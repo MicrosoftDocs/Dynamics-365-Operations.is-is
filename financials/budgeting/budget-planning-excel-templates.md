@@ -1,6 +1,6 @@
 ---
 title: "Sniðmát fjárhagsáætlunargerðar fyrir Excel"
-description: "Þetta efnisatriði lýsir hvernig á að stofna Microsoft Excel sniðmát sem hægt er að nota fjárhagsáætlanir."
+description: "Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,100 +26,105 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-templates-for-excel"></a>Sniðmát fjárhagsáætlunargerðar fyrir Excel
 
-Þetta efnisatriði lýsir hvernig á að stofna Microsoft Excel sniðmát sem hægt er að nota fjárhagsáætlanir.
+[!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði sýnir hvernig á að stofna sniðmát Excel sem notuð verður við með því að nota staðlaða sýnigögn gagnasafninu og innskráningu notanda Stjórnun fjárhagsáætlunargerðum. Sjá frekari upplýsingar um fjárhagsáætlunargerð [yfirlit Fjárhagsáætlunargerðar.](budget-planning-overview-configuration.md) Einnig er hægt að fylgja í [101 á Fjárhagsáætlunargerð](budget-plan.md) kennsluefni til að fræðast um skilgreiningu og notkun reglum kerfiseiningunni grunnur.
 
-## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Búa til vinnublað með skjal fjárhagsáætlunarútlit
-Skjöl fjárhagsáætlunargerðar geta skoðað og breytt með því að nota eina eða fleiri útlit. Hver útlit getur haft á tengt skjal sniðmáts fjárhagsáætlunargerðar til að skoða og breyta fjárhagsáætlunargögn áætlun í excel-vinnublað. Í þessu efnisatriði skjal sniðmáti fjárhagsáætlunargerðar mynduð með því að nota afbrigði útlit. Opna skal **lista yfir fjárhagsáætlunargerðir** (**Fjárhagsáætlun**&gt;**fjárhagsáætlunargerðir**). Smellið á **Nýtt** til að stofna nýtt skjal fjárhagsáætlunargerðar. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum.
 
-Nota skal **Bæta** línu valkost til að bæta við línum. Smellið á **Útlit** til að skoða skilgreiningu útlit fyrir skjalið í áætlun. 
+Þetta efnisatriði sýnir hvernig stofna á sniðmát í Excel sem verða notuð með fjárhagsáætlununum sem nota stöðluð sýnigögn og innskráningu kerfisstjóranotanda. Nánari upplýsingar um fjárhagsáætlunargerð eru í [Yfirlit fjárhagsáætlunargerðar](budget-planning-overview-configuration.md). Einnig er hægt að fylgja sýnidæminu [Fjárhagsáætlunargerð 101](budget-plan.md) til að læra skilgreiningu og notkunarreglur grunneininda.
+
+## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Mynda vinnublað með útliti fjárhagsáætlunarskjals
+Fjárhagsáætlunarskjal má skoða og breyta með einu eða fleiri útlitum. Hvert útlit getur haft an tengdar fjárhagsáætlunarskjal sniðmát til að skoða og breyta fjárhagsáætlungögnum í Excel vinnublað. Í þessu efnisatriði verður sniðmát fjárhagsáætlunarskjals myndað með fyrirliggjandi útlitsskilgreiningu. Opið **Fjárhagsáætlunarlisti** (**Fjárhagsáætlun**&gt; **Fjárhagsáætlun**). Smellt er á **Ný** til að búa til nýtt fjárhagsáætlunarskjal. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Notaðu **Bæta við** línuaðgerðna til að bæta við línum. Smellt er á **Útlit** til að skoða útlit skilgreining fjárhagsáætlunarskjals. 
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Hægt er að yfirfara skilgreiningu útlit og leiðrétta hana eftir þörfum. Fara í **Sniðmát**&gt;**Mynda** til að stofna excel-skráin fyrir þetta útlit. Eftir að sniðmát er mynduð fara **Sniðmát**&gt;**Skoða** til að opna og fara yfir sniðmát skjals áætlunarinnar. Hægt er að vista excel-skrá á staðbundnu drifið. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Hægt er að yfirfara grunnstillingu útlits og leiðrétta hana eftir þörfum. Farðu í **Sniðmát** &gt; **Mynda** til að stofna Excel-skrá fyrir þetta útlit. Eftir að sniðmát er myndað, skal fara í **Sniðmát** &gt; **Skoða** til að opna og yfirfara sniðmát fjárhagsáætlunarskjals. Hægt er að vista Excel-skrána á staðbundnu drifi. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
 
 > [!NOTE] 
-> Ekki hægt að breyta skjalinu fjárhagsáætlunarútlit eftir Excel sniðmát er tengd við hana. Til að breyta útliti, eyða skrá tengda Excel sniðmát og endurgera hana. Þetta er nauðsynlegt til að halda svæði í útliti og vinnublaðið samstillt. 
+> Útlit fjárhagsáætlunarskjals getur ekki verið breytt eftir að Excel-sniðmát er tengt því. Til að breyta útlitinu þarf að eyða tengdri skrá Excel-sniðmáts og endurgera það. Þetta er áskilið til að halda svæðum í útliti og vinnublaði samstilltum. 
 
-Excel-sniðmát innihalda allar einingar úr skjal fjárhagsáætlunarútlit, þar sem er **Tiltækt í Vinnublaðinu** dálkurinn er stillt á Satt. Einingar sem skarast leyfast ekki í Excel-sniðmát. Til dæmis ef útlit inniheldur Beiðni Q1 Beiðni 2. árfsjórðungi, Beiðni 3. árfsjórðungi, og 4. árfsjórðungi Beiðni dálka og heildarupphæð beiðni dálkinn sem stendur samtölu allra 4 ársfjórðungslega dálka er aðeins ársfjórðungslega dálka eða samtöludálk er tiltæk á að nota í Excel-sniðmát. Excel-skráin hægt að uppfæra dálka skarast við uppfærslu þar sem gögn í töflunni gæti orðið útrunnin og rangar.
+Excel-sniðmátið mun innihalda allar einingar úr útliti fjárhagsáætlunarskjals, þar sem dálkurinn **Tiltækt í Vinnublað** dálkur er stilltur á rétt. Einingar sem skarast eru ekki leyfðar í Excel-sniðmáti. Til dæmis, ef útlitið inniheldur dálkana Request Q1, Request Q2, Request Q3, og Request Q4, og samtölubeiðnadálk sem sýnir samtölu allra 4 ársfjórðungslegra dálka, er aðeins ársfjórðungslegur dálkur eða samtöludálkur tiltækur til notkunar í Excel-sniðmáti. Excel-skráin getur ekki uppfært dálka sem skarast á meðan uppfærslu stendur, þar sem gögn í töflunni gætu úrelst og orðið ónákvæm.
 
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Til að koma í veg fyrir hugsanlega vandamál við að skoða og breyta með því að nota Excel gögn fjárhagsáætlunar, sami notandi skuli vera skráður inn í bæði Dynamics 365 Aðgerða og Gagnatengi Microsoft Dynamics Office-viðbótar.
+> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Dynamics 365 for Operations gagnatengil og Microsoft Dynamics Office-innbóta.
 
-## <a name="add-a-header-to-budget-plan-document-template"></a>Bæta haus skjals sniðmáts fjárhagsáætlunargerðar
-Bæta upplýsingum í haus, veljið efstu línu í Excel-skrár og setja auðar línur. Smellið á **Hönnun** í í **Gagnatengi** til að bæta fyrirsagnasvæði excel-skrá.
+## <a name="add-a-header-to-budget-plan-document-template"></a>Bæta haus við sniðmát fjárhagsáætlunarskjals.
+Til að bæta við upplýsingum úr haus velurðu efstu línuna í Excel-skránni og setur inn auðar línur. Smellið á **Hönnun** í **Gagnatengli** til að bæta við haussvæðum í Excel-skrá.
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Í í **Hönnun** flipann ** ** smellið **Bæta** svæði og velja svo **BudgetPlanHeader** sem einingin gagnagjafi.
+Í flipanum **Hönnun**,** **er smellt á svæðið **Bæta við** og svo valið **BudgetPlanHeader** sem gagnaveita einingar.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 
-Punktur bendilinn í æskilega staðsetningu í excel-skrá. Smellið á **Bæta merki** til að bæta svæða merki valda staðsetningu. Velja **Bæta Gildi** til að bæta gildissvæðið á völdum stað. Smellið á **Gert** til að loka hönnuðurinn.
+Settu bendilinn á óskaða staðsetningu í Excel-skránni. Smellt er á **Bæta við merki** til að bæta við svæðidmerki á valda staðsetningu. Veldu **Bæta við gildi** til bæta gildissvæði í valinn svæði. Smellið síðan á **Gert** til að loka hönnuði.
 
 ## <a name="bpt7mediabpt7pngmediabpt7png"></a>[![bpt7](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bæta reiknaður dálkur fjárhagsáætlunar tafla sniðmáts fjárhagsáætlunargerðar
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bæta reiknuðum dálki við sniðmátstöflu fjárhagsáætlunarskjals
 --------------------------------------------------------------
 
-Næsta, reiknað dálkum bætt við myndaða skjalinu sniðmáts fjárhagsáætlunargerðar. A **Heildarupphæð beiðni** dálk sem sýnir Q1 Beiðni: Beiðni 4. árfsjórðungi dálka, og **Leiðrétting** dálk sem endurreiknar á **Heildarupphæð Beiðni** dálkinn með stuðli fyrirfram.
+Næst verður reiknuðum dálki bætt við myndað sniðmát fjárhagsáætlunarskjals. Dálkur með **samtala beiðni**, sem tekur saman dálkana Beiðni Q1: Beiðni Q4 og dálkur **Leiðrétting**, sem endurreiknar dálk **Samtals Beiðni** með fyrirframskilgreindum þætti.
 
-Smellið á **Hönnun** í á **gagnatengi** til að bæta dálkum í töflunni. Smellið á **Breyta** hliðina á **BudgetPlanWorksheet** gagnagjafa til að byrja að bæta dálkum.
+Smellið á **Hönnun** í **Gagnatengli** til að bæta dálkum við í töfluna. Smellt er á **Breyta** við hliðina á **BudgetPlanWorksheet** gagnaveita til að byrja að bæta við dálkur.
 
 [![bpt8](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
-Valda svæðaflokkur birtir dálka sem eru tiltækar í sniðmátinu. Smellið á **Formúlu** til að bæta nýjum dálki. Heiti nýjum dálki og líma niðurstöðurnar inn formúluna sem **Formúlu** svæði. Smellið á **Uppfærslu** til að setja inn í dálkinn.
+Valinn svæðaflokkur sýnir þá dálka sem eru í boði í sniðmátinu. Smellt er á **Formúla** til að bæta við nýjum dálki við. Nefndu nýja dálkinn og límdu formúluna síðan inn í svæðið **Formúla**. Smellt er á **Uppfæra** til setja dálkinn inn.
 
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Stofna formúluna í excel-töflunni til að skilgreina formúla, og afritið hana svo á **Hönnun** glugga. Dynamics 365 fyrir bundna töflu Aðgerðir verður yfirleitt að vera með heitið "AXTable1". Til dæmis til að biðja Um Q1 draga saman: beiðni Um á 4. árfsjórðungi dálka í töflureikni formúlunnar = AxTable1\[Beiðni Q1\]+ AxTable1\[Krefjast á 2. árfsjórðungi\]+ AxTable1\[Krefjast á 3. árfsjórðungi\]+ AxTable1\[Krefjast á 4. árfsjórðungi\].
+> Til að skilgreina formúluna þarf að stofna formúluna í vinnublaðinu og afrita hana síðan í gluggann **Hönnun**. Bundin tafla í Dynamics 365 for Operations fær yfirleitt heitið „AXTable1“. Til dæmis, til að draga saman dálkana Request Q1 : Request Q4 í vinnubókinni er formúlan = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
-Endurtakið þessi skref til að setja í **Leiðrétting** dálk. Nota formúluna = AxTable1\[Heildarupphæð beiðni\]\*$I$ 1 fyrir þennan dálk. Þetta mun taka gildi í hólfi I1 og margfalda gildin í á **Heildarupphæð beiðni** dálk til að reikna leiðréttingarupphæðir.
+Endurtaktu þessi skref til að setja inn dálkinn **leiðrétting**. Notaðu formúla = AxTable1\[Samtals beiðni\]\*$I$1 fyrir þennan dálkur. Þetta mun taka gildið í hólfi I1 og margfalda gildin í dálknum **Samtals beiðni** til að reikna út leiðréttingarupphæðir.
 
-Vista og loka excel-skrá. Snúa aftur í Dynamics 365 Aðgerðum og í **Útlit**, smellið á **Sniðmát &gt;Senda** til að hlaða upp vistaða Excel sniðmátið sem nota á fyrir fjárhagsáætlunargerð. 
+Vistaðu og lokaðu Excel-skránni. Farðu aftur í Dynamics 365 for Operations, og í **Útlit** smellirðu á  **Sniðmát &gt; Hlaða upp** til að hlaða upp vistuðu Excel-sniðmáti til að nota fyrir fjárhagsáætlun. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
-Loka skal **Útlit** sleði. Í **fjárhagsáætlunargerð** skjals er smellt á **Vinnublað** til að skoða og breyta skjali í Excel. Athugið að leiðrétt Excel sniðmátið sem var notað til að stofna þessi vinnublaði fjárhagsáætlunargerðar og reiknaðra dálka eru uppfærðar með því að nota formúlur sem skilgreindar voru í fyrra þrep. 
+Lokaðu sleðanum **Útlit**. Í skjalinu **Fjárhagsáætlun** er smellt á **Vinnublað** til að skoða og breyta fylgiskjali í Excel. Athugaðu að leiðrétta Excel-sniðmát var notað til að stofna þetta vinnublað fjárhagsáætlunar og reiknaðir dálkar eru uppfærðir með formúlunum sem voru skilgreindar í fyrra skrefi. 
 
 [![bpt11](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
-## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Ábendingar & tricks til að stofna sniðmát fjárhagsáætlunargerðar
-### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Hægt I bæta og aðrir gagnagjafar sniðmáts fjárhagsáætlunargerðar til að nota?
+## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Ábendingar og ráð fyrir stofnun sniðmáta fjárhagsáætlunargerðar
+### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Get ég bætt viðbótargagnaveitum við sniðmát fjárhagsáætlunar?
 
-Já, er hægt að nota í **Hönnun** valmynd til að bæta fleiri einingar sama eða öðrum svarblöð í Excel-sniðmát. Til dæmis er hægt að bæta við **BudgetPlanProposedProject** gagnagjafa til að stofna og viðhalda lista yfir tillagt verk á sama tíma þegar vinna með áætlun áætlun gögn í Excel. Athugið að meðtöldum há rúmmál gagnagjafa gætu áhrif á afköst excel-vinnubók. 
+Já, þú getur notað valmyndina **Hönnun** til að bæta við viðbótareiningum við sama eða önnur vinnublöð í Excel-sniðmáti. Til dæmis er hægt að bæta við gagnaveitunni **BudgetPlanProposedProject** til að stofna og viðhalda lista yfir fyrirhuguð verk um leið og unnið er með gögn fjárhagsáætlunar í Excel. Athugaðu að ef gagnaveita með miklu magni er notuð getur það haft áhrif á afköst Excel-vinnubókar. 
 
-Hægt er að nota í **Síu** í í **Gagnatengi** til að bæta viðeigandi síur viðbótar gagnagjafa.
+Hægt er að nota valkostinn **Sía** í **Gagnatengi** til að bæta við óskuðum síum í viðbættar gagnaveitur.
 
-### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>Hægt I fela valkostinn Hönnun í connector Gögn fyrir aðra notendur?
+### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>Get ég falið valkostinn Hönnun í Gagnatengi fyrir öðrum notendum?
 
-Opna já, er **Gagnatengi** valkosti til að fela í **Hönnun** kost af öðrum notendum.
+Já, opnaðu valkosti **Gagnatengis** til að fela valkostinn **Hönnun** fyrir öðrum notendum.
 
 [![bpt13](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
-Útvíkka **Gögn connector valkosti** og hreinsa í **Virkja hönnun** gátreitinn. Þetta verður að fela í **Hönnun** valkosturinn úr á **gagnatengi**.
+Stækka **Valkosti gagnatengis** og hreinsa gátreitinn **Kveikja á hönnun**. Þetta mun fela valkostinn **Hönnun** úr **Gagnatengi**.
 
 [![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
-### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Hægt I veg fyrir að notendur accidently lokun gagnatengi á meðan unnið með gögn?
+### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Get ég hindrað notendur í því að loka gagnatenglinum óvart á meðan unnið er með gögn?
 
-Mælt er með læsingu sniðmát til að koma í veg fyrir að notendur úr henni er lokað. Smellið til að kveikja læsingu á **gagnatengi**, í hægra horninu efst ör birtist. 
+Við mælum með því að læsa sniðmátinu til að hindra notendur í að loka því. Til að kveikja á læsingu er smellt á **Gagnatengi**, efst í hægra horninu birtist ör. 
 
 [![bpt15](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
-Smella á örina til viðbótar valmynd. Velja **Læsa**.
+Smellt er á örina fyrir auka valmynd. Veldu **Læsa**.
 
 ### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
-### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Hægt ég nota aðra Excel aðgerðir, eins og hólf snið, litum, skilyrtar snið og gröf með mínar sniðmát fjárhagsáætlunargerðar?
+### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Get ég notað aðra Excel-eiginleika, eins og hólfasnið, liti, skilyrðisbundin snið, og gröf með sniðmátum fjárhagsáætlunar?
 
-Já, flestum staðlaða Excel getu virkar í sniðmát fjárhagsáætlunargerðar. Mælt er með því að nota color-coding fyrir notendur til að aðgreina á milli dálka skrifvarin og hægt að breyta. Skilyrt snið má nota til að auðkenna koma auga svæðum áætlunarinnar. Dálkur samtölur geta auðveldlega fram með því að nota staðlaða Excel formúlur yfir í töflu.
+Já, flestir hefðbundir Excel-eiginleikar munu virka í sniðmátum fjárhagsáætlunar. Við mælum með því að nota litakóðun fyrir notendur til að gera greinarmun á milli skrifvarinna og breytanlegra dálka. Skilyrðisbundin snið má nota til að auðkenna vandamálasvæði í áætluninni. Dálkasamtölur er auðveldlega hægt að sýna með því að nota hefðbundnar Excel-formúlur fyrir ofan töfluna.
 
-Einnig er hægt að stofna og nota veltitöfluskýrslum og gröf á frekari flokkun og sjóngervingum fjárhagsáætlunargögn. Á við **Gögn** flipanum, á **Tengingar** flokk er smellt á **Endurnýja Alla**, og smellið síðan á **Tengingu Eiginleika**. Smellið á **Notkun** flipa. Undir **Endurnýja**, veljið þá **Endurnýja gögn við opnun skráar** gátreitinn. 
+Einnig er hægt að stofna og nota snúningstöflur og myndrit fyrir viðbótarflokkaa og myndbirtingar á fjárhagsáætlunargögnum. Á flipanum **Gögn**, í flokknum **Tengingar**, er smellt á **Endurnýja allt**, og síðan er smellt á **Eiginleikar tengingar**. Smellt er á flipann **Notkun**. Undir **Endurhlaða**, velurðu gátreitinn **Endurhlaða gögnum þegar skráin er opnuð**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
+
+
 
 

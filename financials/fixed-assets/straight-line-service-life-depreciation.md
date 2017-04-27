@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
 
 Þegar afskriftaregla fyrir eignir er sett upp og velur og línulegur líftími í reitnum Aðferð í síðunni afskriftareglu, eru eignirnar sem hafa þessa afskriftarreglu úthlutaða á sig afskrifaðar byggt á heildar líftíma eignar. Þetta er að öllu jöfnu sama afskriftarupphæðin á hverju afskriftatímabili. 
@@ -57,7 +60,7 @@ Til dæmis, ef valið er Árlega, eru árlegar afskriftir bókaðar aðeins einu
 
 Ef valið er reikningsár á svæðinu afskriftarár er afskrift línulegs líftíma notuð. Það reiknuð á grundvelli fjárhagsársins sem er skilgreindur eftir fjárhagsdagatalið sem tilgreindur er fyrir bók eða fjárhagsdagatal sem valinn er í Fjárhagssíðu. Fjárhagsdagatöl eru sett upp á síðunni fjárhagsdagatöl.
 
-Til dæmis, fyrir fjárhagsárið 1. Júlí gegnum 30. Júní, byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs er byggt á fjárhagstímabilum sem sett eru upp þegar nýtt fjárhagsár er stofnað á skjámyndinni fjárhagsdagatöl. 
+Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs er byggt á fjárhagstímabilum sem sett eru upp þegar nýtt fjárhagsár er stofnað á skjámyndinni fjárhagsdagatöl. 
 
 Ef fjárhagsár er valið eru eftirfarandi valkostir tiltækir á svæðinu tímabilstíðni:
 -   Árlega bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
@@ -98,9 +101,11 @@ Líftími leiðréttingar kaupa er sú sama og eignarinnar og hefst við kaup þ
 | 3. ár | 14,000 / 5 = 2,800                        | 10,200 - 2,800 = 7,400                |
 | 4. ár | 14,000 / 5 = 2,800                        | 7,400 - 2,800 = 4,600                 |
 | 5. ár | 14,000 / 5 = 2,800                        | 4,600 - 2,800 = 1,800                 |
-| 6. ár | Eftirstandandi 800 usd\*                           | 1,800 – 800 = 1,000                   |
+| 6. ár | Eftirstöðvar 800\*                           | 1,800 – 800 = 1,000                   |
 
-\*Þar sem eftirstöðvarnar eru lægri en afskriftarupphæðin, aðeins eftirstöðvarnar frádregnu hrakvirði teknar.
+\*Þar sem eftirstandandi upphæð eru lægri en afskriftarupphæðin eru aðeins eftirstöðvarnar, að frádregnu hrakvirði, teknar.
+
+
 
 
 

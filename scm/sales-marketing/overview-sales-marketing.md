@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Sala og markaðsstarf
 
+[!include[banner](../includes/banner.md)]
+
+
 Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu.
 
 <a name="marketing"></a>Kynning
@@ -39,10 +42,10 @@ Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gög
 
 ### <a name="campaigns"></a>Herferðir
 
-Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 fyrir Aðgerðir, er hægt að stofna nokkrar gerðir herferða símsölu, póstsending og tölvupósti herferðir hámarkar mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
+Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 for Operations er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
-Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga  fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli sölu](./media/sales01.jpg)](./media/sales01.jpg)
+Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga  fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Sölutilboð
 
@@ -50,7 +53,7 @@ Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til n
 
 ### <a name="up-sellcross-sell"></a>Söluaukandi vörur og krosssölur
 
-söluviðauki og krosssölu eru tækni til að selja afurðir þegar pöntun er færð inn fyrir viðskiptavin. Í söluviðauki, er er stungið upp á annarrar afurðar í staðinn fyrir núverandi vöru. Í krosssölu, er stungið upp á annarrar afurðar til viðbótar við núverandi vöru. Þegar sett er upp birtir afurð, hægt er að stofna reglur til að tilgreina hvenær lagt á vöru sem krosssölu eða söluviðauka vöru.
+söluviðauki og krosssölu eru tækni til að selja afurðir þegar pöntun er færð inn fyrir viðskiptavin. Í söluviðauki, er er stungið upp á annarrar afurðar í staðinn fyrir núverandi vöru. Í krosssölu, er stungið upp á annarrar afurðar til viðbótar við núverandi vöru. Þegar þú setur upp afurðalista er Hægt að stofna reglur til að tilgreina hvenær skal leggja til vöru sem krosssölu- eða söluviðaukaafurð.
 
 ### <a name="sales-orders"></a>Sölupantanir
 
@@ -117,5 +120,7 @@ Reikningur með frjálsum texta er reikningur sem er ekki tengd sölupöntun. Ha
 #### <a name="pro-forma-invoice"></a>Bráðabirgðareikningur
 
 Bráðabirgðareikningur  er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort reikningur viðskiptavinar eða reikningur með frjálsum texta.
+
+
 
 

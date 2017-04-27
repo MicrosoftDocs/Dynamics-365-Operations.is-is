@@ -1,5 +1,5 @@
 ---
-title: "Jafna hluta greiðslu viðskiptavinar fyrir afsláttardagsetninguna með síðustu greiðslu eftir ákveðna dagsetningu staðgreiðsluafsláttar"
+title: "Jafna hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna"
 description: "Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hluta greiðslu viðskiptavinar fyrir afsláttardagsetninguna með síðustu greiðslu eftir ákveðna dagsetningu staðgreiðsluafsláttar
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum.
 
-Fabrikam selur vörurnar 4027 viðskiptavinar. Fabrikam býður upp á 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur á 14 daga. Greiða þarf reikninga eftir 30 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Jöfnun færibreytur eru staðsett á **Færibreytur viðskiptakrafna** síðu.
+Fabrikam selur vörurn til 4027 viðskiptavina. Fabrikam býður 1 prósent afslátt ef reikningurinn er greiddur innan 14 daga. Greiða þarf reikninga eftir 30 daga. Fabrikam býður einnig upp á staðgreiðsluafslætti fyrir hlutagreiðslur. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="invoice"></a>Reikningur
-Á 25. Júní Arnie færir inn og bókar reikning fyrir 1000,00 fyrir afskrift 4027 viðskiptavinar. Arnie skoða þennan reikning með því að nota í **Færslur** hnappinn á í **Viðskiptavini** síðu.
+25. júní færir Apríl inn og bókar reikning uppá 1.000,00 fyrir viðskiptamann 4027. Arnie getur skoðað þennan reikning með því að nota hnappinn **Færslur** á síðunni **Viðskiptavinir**.
 
 | Fylgiskjal   | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða  | Gjaldmiðill |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Fabrikam selur vörurnar 4027 viðskiptavinar. Fabrikam býður upp á 1 prósen
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Valið | Venjulegt            | FTI-10020 | 4027    | 6/25/2015 | 7/25/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
 
-Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í 297.00 verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast vera mismunandi. Hins vegar 3,00 verða teknar sem staðgreiðsluafslátt þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa í ** Upphæðin til jöfnunar ** gildi fyrir er.
+Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í 297.00 verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast vera mismunandi. Hins vegar verður 3,00 notað sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar** fyrir þig.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venj
 | ARP-10020  |                  | 7/1/2015  |         |                                      | 297,00                                | 0,00    | USD      |
 | DISC-10020 |                  | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP 10021  |                  | 7/11/2015 |         |                                      | 700.00                                | 0,00    | USD      |
+
+
 
 
 

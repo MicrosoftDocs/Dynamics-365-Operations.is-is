@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Þekjustillingar
 
+[!include[banner](../includes/banner.md)]
+
+
 Aðalröðun notar þekjustillingar til þess að reikna vöruþarfir. 
 
 Hægt er að tilgreina þekjustillingar með nokkrum aðferðum:
 
--   Tilgreina þekjustillingar fyrir þekjuflokk. Hægt er að stofna þekjuflokk sem inniheldur stillingar fyrir allar afurðir sem eru tengdar við þekjuflokkinn. Smellið á **Aðalröðun áætlanagerð &gt;Uppsetningu &gt;Þekju &gt;þekjuflokka** til þess að stofna þekjuflokk. Hægt er að tengja þekjuflokk við vöru. Ef tengillinn er tilgreindur fyrir svæði, vöruhús eða afurðarvídd skal nota reitinn **Þekjuflokk** á síðunni **Vöruþekja**. Sé tengillinn almennur, án tillits til afurðarvídda, skal nota **Þekjuflokk** á flýtiflipanum **Áætlun** á síðunni **Afurðarupplýsingar**. Ef þú tengir ekki þekjuflokk við afurð notar aðaláætlanagerð **Almennan þekjuflokk** sem tilgreindur er á síðunni **Færibreytur áætlanagerðar** sem sjálfgildi.
+-   Tilgreina þekjustillingar fyrir þekjuflokk. Hægt er að stofna þekjuflokk sem inniheldur stillingar fyrir allar afurðir sem eru tengdar við þekjuflokkinn. Smellið á **Aðaláætlanagerð &gt; Uppsetning &gt; Trygging &gt; Þekjuflokkar** til að stofna þekjuflokk. Hægt er að tengja þekjuflokk við vöru. Ef tengillinn er tilgreindur fyrir svæði, vöruhús eða afurðarvídd skal nota reitinn **Þekjuflokk** á síðunni **Vöruþekja**. Sé tengillinn almennur, án tillits til afurðarvídda, skal nota **Þekjuflokk** á flýtiflipanum **Áætlun** á síðunni **Afurðarupplýsingar**. Ef þú tengir ekki þekjuflokk við afurð notar aðaláætlanagerð **Almennan þekjuflokk** sem tilgreindur er á síðunni **Færibreytur áætlanagerðar** sem sjálfgildi.
 
--   Tilgreinið þekjustillingar fyrir afurð. Hægt er að breyta stillingunni fyrir ákveðna framleiðslupöntun hvenær sem er. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir &gt;Útgefnum afurðum**. Veljið vöru, á í **Aðgerðarúðu**á í **Áætlun** í flipanum í **þekjuflokk**, smellið á **Vöruþekja** til að opna í **Vöruþekja** síðu. Ef afurð er tengd þekjuflokki er hægt að hnekkja þekjuflokksstillingum með því að nota reitinn **Hnekkja**. Þekjustillingar á síðunni** Vöruþekja** taka forgang yfir stillingar á síðunni **Þekjuflokkur**.
+-   Tilgreinið þekjustillingar fyrir afurð. Hægt er að breyta stillingunni fyrir ákveðna framleiðslupöntun hvenær sem er. Smellið á **Upplýsingastjórnun afurða &gt; Afurðir &gt; Losaðar afurðir**. Veljið afurðina og síðan í **Aðgerðarrúðu** á flipanum **Áætlun**, í **Þekjuflokkur** er smellt á **Vöruþekja** til að opna síðuna **Vöruþekja**. Ef afurð er tengd þekjuflokki er hægt að hnekkja þekjuflokksstillingum með því að nota reitinn **Hnekkja**. Þekjustillingar á síðunni** Vöruþekja** taka forgang yfir stillingar á síðunni **Þekjuflokkur**.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ Hægt er að tilgreina þekjustillingar með nokkrum aðferðum:
 
 <!-- -->
 
--   Tilgreinið þekjustillingar fyrir víddarflokk. Smellið á **upplýsingar afurðastjórnun &gt;Algengar &gt;Útgefnum afurðum**. Á í ** Losa afurð upplýsingar ** á síðunni á **Almennt** flipanum, á **Stjórnun** flokk er smellt á í **geymsluvíddaflokk** tengil. Á síðunni **Geymsluvíddarflokkur** skal velja **Þekjuáætlun eftir vídd** til að stofna þekjustillingar fyrir vídd í geymsluvíddarflokknum. Allar afurðavíddir, eins og afbrigði, lit, stærð, stíl, verður að hafa í **þekjuáætlun eftir vídd** valið svæði.
+-   Tilgreinið þekjustillingar fyrir víddarflokk. Smellið á **Upplýsingastjórnun afurða &gt; Algengt &gt; Losaðar afurðir**. Á **síðunni **Upplýsingar um losaða afurð á flipanum **Almennt** í flokknum **Stjórnun** er smellt á tengilinn **Geymsluvíddaflokkur**. Á síðunni **Geymsluvíddarflokkur** skal velja **Þekjuáætlun eftir vídd** til að stofna þekjustillingar fyrir vídd í geymsluvíddarflokknum. Allar afurðavíddir, eins og skilgreining, litur, stærð, stíll, verða að hafa reitinn **Þekjuáætlun eftir vídd** valinn.
 
 
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master plans](master-plans.md)
+[Aðaláætlanir](master-plans.md)
+
+
 
 

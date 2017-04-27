@@ -1,6 +1,6 @@
 ---
-title: "Setja upp íhluti í vinnslu"
-description: "Þetta efnisatriði lýsir almennar einingar í vinnslu geta verið og gefur dæmi um hvernig hægt er að nota þessar einingar í þínu fyrirtæki."
+title: "Uppsetning íhluta starfs"
+description: "Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Setja upp íhluti í vinnslu
+# <a name="setting-up-the-components-of-a-job"></a>Uppsetning íhluta starfs
 
-Þetta efnisatriði lýsir almennar einingar í vinnslu geta verið og gefur dæmi um hvernig hægt er að nota þessar einingar í þínu fyrirtæki. 
+[!include[banner](includes/banner.md)]
 
-Áður en hægt er að stofna störf, verður að setja upp sumar tilvísunarupplýsingum. Hægt er að stofna vinnslu sem er aðeins með heiti. Hins vegar með þar á meðal viðbótarupplýsingar, eins og starfsheiti, er að veita sjálfgildi fyrir stöður sem tengjast vinnslu. Þar að auki er sumar upplýsingar sem eru færðar inn má nota til að sía launafyrirkomulag fyrir ákveðin störf. Ef óskað er að setja upp hæfni sem hægt er að nota til að sía launafyrirkomulag fyrir tiltekin verk ætti að setja upp starfshlutverk og starfsgerðir áður en að setja upp vinnslur. Eftir að hafa þessi sjálfgefnu gildi tiltæk, verður að spara tíma þegar stöðum bætt við runuvinnsluna. 
 
-Sumar upplýsingar um verk, eins og starfsheiti, gerð og aðgerð, er dagsetningin virk. Ef stofna vinnslu í dag en ekki að bæta við þessar upplýsingar síðar fram, og síðan athugaðir vinnslan dagsetningar stofnunar, ekki þessar upplýsingar birtast. Þess vegna er á að stofna einhverjum af þessum upplýsingum tilvísun áður en krefjast þess. Þannig er hægt að bæta upplýsingar í ný störf þegar þær eru stofnaðar.
+Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu. 
+
+Áður en hægt er að stofna vinnslur verður þú að setja upp tilvísunarupplýsingar. Hægt er að stofna vinnslu sem hefur aðeins heiti. Hins vegar með því að hafa frekari upplýsingar með, t.d. titil vinnslu, veitirðu sjálfgildi fyrir þær stöður sem er úthlutað til vinnslu. Þar að auki er hægt að nota sumar þeirra upplýsinga sem voru færðar inn til að afmarka launafyrirkomulag við tilgreindar vinnslur. Ef ætlunin er að setja upp hæfni sem hægt er nota til að afmarka launafyrirkomulag við tilgreindar vinnslur ætti að setja upp starfshlutverk og vinnslugerð áður en vinnslur eru setter upp. Með því að hafa þessi sjálfgildi tiltæk spararðu tíma þegar stöðum er bætt við starfið. 
+
+Sumar starfsupplýsingar, eins og starfsheiti, gerð og aðgerð, eru dagsetningarvirkar. Ef þú stofnar starf í dag en bætir þessum upplýsingum ekki við fyrr en seinna og skoðar síðan starfið frá og með stofndagsetningu munu þessar upplýsingar ekki birtast. Þess vegna ættirðu að stofna sumar þessara tilvísunarupplýsinga áður en þú þarft að nota þær. Á þann hátt er hægt að bæta við upplýsingum í ný störf þegar þau eru stofnuð.
 
 ## <a name="job-titles"></a>Starfsheiti
 Áður en hægt er að stofna vinnslur verður að setja upp titla fyrir þær vinnslur. Stöður erfa starfsheiti úr vinnslum sem þær eru tengdar við. 
 
-Vinna með starfsheiti með því að nota í **Titla** síðu sem hægt er að opna með því að nota aðgerð Leit. Á við ** Titla ** síðunni skal færa inn titla sem á að nota fyrir vinnslur.
+Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð. Á **síðunni **Titlar skal færa inn þá titla sem þú ætlar að nota fyrir störfin.
 
 ## <a name="job-types"></a>Vinnslugerðir
-Notið gerðir starfa til að flokka tegundir svipuð störf. Vinnslugerðir ekki eru kostnaðarjafnaðar krafist. Hins vegar ef ætlunin er að nota vinnslugerðir þegar setja á upp hæfnireglur fyrir greiðsluáætlunarstjórnun ætti að setja upp vinnslugerðir áður en hægt er að setja upp störf. Nokkur dæmi um vinnslugerðir eru fullt og hlutastarf eða greiða launum og tímakaup. Viðhalda starfsgerðum með því að nota í **Vinnslugerðir** síðu. Á við **Vinnslugerðir** síðunni, færið inn nafn og stutt lýsing fyrir vinnslugerðina. Í því **Skattfrjálsa stöðu** skal velja einn af eftirfarandi valkostum til að tilgreina Sanngjarnt Vinnu Stöðlum Act (FLSA) undanþágustaða vinnsla sem hafa þessa vinnslugerð:
+Þú notar vinnslugerð til að flokka svipuð störf í flokka. Starfstegundir eru ekki áskildar. Hins vegar ef ætlunin er að nota vinnslugerðir þegar setja á upp hæfnireglur fyrir greiðsluáætlunarstjórnun ætti að setja upp vinnslugerðir áður en hægt er að setja upp störf. Sum dæmi um starfstegundir eru Fullt starf og Hlutastarf, eða Laun og Tímakaup. Starfstegundum er viðhaldið með því að nota síðuna **Vinnslugerð**. Á síðunni **Starfsgerðir** skal færa inn heiti og lýsingu á starfsgerðinni. Í reitnum **Staða undanþágu** velurðu einn af eftirfarandi valkostum til að tilgreina þá stöðu undanþágu Fair Labor Standards Act (FLSA) starfa sem hafa þessa starfsgerð:
 
--   **Skattundanþágunúmer** – Vinnslur sem eru undanþegnir yfirvinnu undir FLSA á.
--   **Ekki undanþegið** – Vinnslur sem ekki eru kostnaðarjafnaðar undanþegin yfirvinnu undir á FLSA.
--   **Ekki nota** – FLSA þekju er ekki tiltækt.
+-   **Undanþága** – Störf eru undanþegin yfirvinnu undir FLSA.
+-   **Ekki undanþága** – Störf eru ekki undanþegin yfirvinnu undir FLSA.
+-   **Á ekki við** – FLSA á ekki við.
 
 ## <a name="job-functions"></a>Starfshlutverk
-Junctions Vinnslu lýsa flókna virkni tegundir og tengja gjöld á háu stigi. Starfshlutverk ekki eru kostnaðarjafnaðar krafist. Hægt er að nota starfshlutverk með vinnslugerðir, til að sía launafyrirkomulag fyrir ákveðin störf. Hægt er að tengja starfshlutverk og starfsgerðir við launafyrirkomulag með því að setja upp hæfnisreglur í í **hæfnisreglur** síðu. Svo er hægt að tengja hóp stiga við launafyrirkomulag sem á við tiltekna samsetningu vinnslugerð og starfshlutverk sem hefur verið skilgreind í hæfnisreglunum. (Þessar aðgerðir eiga bæði launafyrirkomulög fastra launa og breytilegrar uppbótar.) Hins vegar ef ætlunin er að nota starfshlutverk þegar verið er að setja upp hæfnisreglur fyrir greiðsluáætlunarstjórnun ætti að setja upp starfshlutverk áður en að setja upp vinnslur. Eftirfarandi tafla sýnir nokkur dæmi um starfshlutverk.
+Starfshlutverk lýsa hástigs virkt flokkar og tengdum hástigs skyldur. Starfshlutverk eru ekki áskilin. Þú getur notað starfshlutverk ásamt vinnslugerð til að afmarka launafyrirkomulag við tilteknar vinnslur. Þú tengir starfshlutverk og vinnslugerð við launafyrirkomulag með því að setja upp hæfnisreglur á síðunni **Hæfnisreglur**. Síðan er hægt að festa hóp stiga við launafyrirkomulag sem eiga við um tilgreinda samsetningu vinnslugerðar og starfshlutverka sem þú hefur skilgreint til og með hæfniregla. (Þessir eiginleikar eiga við um bæði launafyrirkomulagi fastra launa og breytileg uppbót áætlun.) Hins vegar ef þú ætlar að nota starfshlutverk þegar hæfnisreglur eru settar upp fyrir launafyrirkomulag þarf að setja upp starfshlutverk áður en þú setur upp störf. Eftirfarandi tafla sýnir dæmi um starfshlutverk.
 
 | Starf           | Starfshlutverk         |
 |---------------|----------------------|
-| Sölustjóri | Stjórnandi miðjum stig    |
-| Bókhaldari    | Tölvusérfræðinga        |
+| Sölustjóri | Stjórnandi á miðsstigi    |
+| Bókhaldari    | Sérfræðingar        |
 
-Viðhalda starfshlutverkum með því að nota í **Vinnsluraðgerðum** síðu. Á við **Vinnsluraðgerðum** síðunni skal færa inn kennikóða og stutt lýsing fyrir starfshlutverkið.
+Starfstegundum er viðhaldið með því að nota síðuna **Starfshlutverk**. Á síðunni **Starfshlutverk** skal færa inn staðfestingarkóða og stutta lýsingu á starfshlutverk.
 
 ## <a name="job-tasks"></a>Verkefni starfs
-Verkefni lýsa grunnatriðin sem starfsmaðurinn sem er í stöðu fyrir vinnslu verður að ljúka. Hægt er að bæta sama verksvið mörg störf og stöður fyrir vinnslur sem nota þessi verkefni. Eftirfarandi tafla sýnir nokkur dæmi um verk í vinnslu.
+Verkhlutar sem lýsa grunnatriðum verkefnis sem starfskraftur sem er í stöðu fyrir vinnsla verður að ljúka. Sama verkefni starfs er hægt að bæta við mörg störf og í stöður fyrir þau störf sem nota þau verkefni. Eftirfarandi tafla sýnir dæmi um verkefni starfs.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Verkefni lýsa grunnatriðin sem starfsmaðurinn sem er í stöðu fyrir vinnslu
 <tr class="odd">
 <td>Sölustjóri</td>
 <td><ul>
-<li><strong>Perf yfirferð</strong> – fara Yfir afköst vinnslu fyrir hverja sölumanns.</li>
-<li><strong>Abs yfirferð</strong> – Samþykkja eða hafna fjarvistabeiðnir hverja sölumanns eða skráningar.</li>
+<li><strong>Perf yfirferð</strong> – fara Yfir afköst hverja sölumanns.</li>
+<li><strong>Abs yfirferð</strong> – Samþykkja eða hafna fjarvistabeiðnir hvers sölumanns eða skráningar.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Bókhaldari</td>
-<td><strong>FIN Skýrslu</strong> – Birta yfirmaður fjármála vikulegt fjárhagsskýrslur.</td>
+<td><strong>FIN Skýrslu</strong> – Birta vikulegt fjárhagsskýrslur til fjármálastjórnanda.</td>
 </tr>
 </tbody>
 </table>
 
-Viðhalda starfsverkum með því að nota í **Vinnslu verka** síðu. Á við **Vinnslu verka** síðunni, færið inn heiti og lýsingu fyrir verk í vinnslu. Í því **Athugasemd** svæðið er einnig hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdir fyrir tiltekna vinnslu án þess að breyta athugasemdir sem var færð inn hér.
+Verkefnum starfs er viðhaldið með því að nota síðuna **Verkefni starfs**. Á síðunni **Verkefni starfs** skal færa inn heiti og lýsingu á verkefni starfs. Í svæðinu **athugasemd** er valfrjálst hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdirnar fyrir tilgreint starf án þess að breyta athugasemdunum sem voru færðar inn hérna.
 
 ## <a name="areas-of-responsibility"></a>Ábyrgðarsvið
-Ábyrgðarsvið eru notuð til að tilgreina vinnu hlutverk, ferli og afurðir sem starfsmaður í stöðu fyrir starf er ber ábyrgð á. Til dæmis fyrir vinnslu sem kallast "Bókari", ein ábyrgðarsvið gæti verið "Fjárhagsleg skýrslugerð fyrir afurð A." Viðhalda ábyrgðarsviðum með því að nota í **Ábyrgðarsvið** síðu sem hægt er að finna með því að nota aðgerð Leit. Í því **Ábyrgðarsvið** síðunni, færið inn heiti og lýsingu fyrir ábyrgðarsvið. Í því **Athugasemd** svæðið er einnig hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdir fyrir tiltekna vinnslu án þess að breyta athugasemdir sem var færð inn hér.
+Þú notar Ábyrgðarsvið til að gefa til kynna starfshlutverk, ferli, afurðir og aðgerðir sem starfsmaður sem er í stöðu er ábyrgur fyrir í vinnslu. Til dæmis fyrir starf sem heitir "Bókari" gæti eitt svæði ábyrgðar verið "Fjárhagsleg skýrslugerð fyrir Afurð A". Ábyrgðarsviði er viðhaldið með því að nota síðuna **Ábyrgðarsvið** sem þú getur opnað með því að nota leitaraðgerð. Á síðunni **Ábyrgðarsvið** skal færa inn heiti og lýsingu á ábyrgðinni. Í svæðinu **athugasemd** er valfrjálst hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdirnar fyrir tilgreint starf án þess að breyta athugasemdunum sem voru færðar inn hérna.
+
+
 
 

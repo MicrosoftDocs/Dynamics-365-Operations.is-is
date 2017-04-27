@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina handvirkar verk í verkflæði"
+title: "Skilgreina handvirkt verk í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Skilgreina handvirkar verk í verkflæði
+# <a name="configure-a-manual-task-in-a-workflow"></a>Skilgreina handvirkt verk í verkflæði
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks.
 
@@ -124,10 +127,10 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     </tr>
     <tr class="even">
     <td>Notandi</td>
-    <td>Tiltekinn Microsoft Dynamics 365 Aðgerðir notenda</td>
+    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að úthluta verki á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að úthluta verki á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>skilyrtir vinnuliðalistar</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja <strong>skilyrt biðröð</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Athugasemd:</strong> Þessi valkostur er notaður fyrir aðeins nokkrar verkflæði, s.s. málastjórnunar.</td>
+    </ol>
+    <strong>Athugasemd:</strong> Þessi valkostur er notaður fyrir aðeins nokkrar verkflæði, s.s. málastjórnun.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að stigmagna verk fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að stigmagna verk fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
 6.  Ef notendunum í stigmögnunarslóðinni klára ekki verkefni innan tímarammans, grípur kerfið til aðgerða varðandi verkið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Tilgreindu hvenær kerfið bregst sjálfkrafa við vegna verks.
-Þú getur skilgreint krefið til að grípa til aðgerða vegna handvirka verksins þegar tilteknum skilyrðum er uppfyllt. Til dæmis krefst verk að meðlimur kostnaðarskýrsludeildarinnar endurskoði innhreyfingarnar sem eru sendar með kostnaðarskýrslu. Samkvæmt stefnu fyrirtækisins þessu verki verður að framkvæma ef heildarupphæð kostnaðarskýrslu er meira en USD 100. Í þessu dæmi, er hægt að skilgreina kerfið þannig það sjálfkrafa merkt verkið sem **Lokið** þegar heildarupphæðin er lægri en 100. Fylgið eftirfarandi skrefum til að tilgreina hvenær kerfið grípur til aðgerða vegna handvirks verks.
+Þú getur skilgreint krefið til að grípa til aðgerða vegna handvirka verksins þegar tilteknum skilyrðum er uppfyllt. Til dæmis krefst verk að meðlimur kostnaðarskýrsludeildarinnar endurskoði innhreyfingarnar sem eru sendar með kostnaðarskýrslu. Samkvæmt stefnu fyrirtækisins verður að framkvæma þetta verk ef heildarupphæð kostnaðarskýrslu er meiri en 100 USD. Í þessu dæmi, er hægt að skilgreina kerfið þannig að það merkir sjálfkrafa verkið sem **Lokið** þegar heildarupphæðin er lægri en 100. Fylgið eftirfarandi skrefum til að tilgreina hvenær kerfið grípur til aðgerða vegna handvirks verks.
 
 1.  Í vinstri glugganum, smelltu á **sjálfvirkar aðgerðir**.
 2.  Útvíkkið gátreitur **virkja sjálfvirkar aðgerðir** .
@@ -308,10 +311,10 @@ Hægt er að senda tilkynningar til fólks þegar handvirku verki hefur verið f
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
 1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
 2.  Veldu gátreitinn **Stilla tímamörk verkflæðiseiningar**
 3.  Í reitnum **tímalengd** tilgreinið þegar Verk á að vera lokið. Veldu einn af eftirfarandi valkostum:
-    -   **Klukkustundir** – færið Inn fjölda klukkustunda sem verkið verður að vera lokið á. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
-    -   **Dagar** – færið Inn fjölda daga sem verkið verður að vera lokið á. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
+    -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
+    -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að klára verkið.
     -   **Mánuðir ** — velja daginn og vikuna sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
     -   **Ár ** — velja daginn, vikuna og mánuðinn sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
@@ -343,6 +346,8 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
 5.  Veljið gátreitinn **framselja** ef notandinn á að geta framselt verkinu til annars notanda.
 6.  Veljið gátreitinn **endurúthluta** ef notandinn á að geta endurúthlutað verkinu til annars notanda í vinnuliðalistanum.
 7.  Veljið gátreitinn **Losa** ef notandinn á að geta endurúthlutað verkinu til vinnuliðalista. Annar notandi getur þá ljúka verkefninu.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Sölupantanir fartæki vinnusvæði fyrir Microsoft Dynamics 365 fyrir Aðgerðir forrits"
-description: "Með sölupantanir fartæki vinnusvæðið, er hægt setja sig inn í sölupantanirnar hvar og anytime."
+title: "Sölupantanavinnusvæði í farsíma fyrir forritið Microsoft Dynamics 365 for Operations"
+description: "Með sölupantanavinnusvæði í farsíma er hægt setja sig inn í sölupantanirnar hvar og hvenær sem er."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Sölupantanir fartæki vinnusvæði fyrir Microsoft Dynamics 365 fyrir Aðgerðir forrits
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Sölupantanavinnusvæði í farsíma fyrir forritið Microsoft Dynamics 365 for Operations
 
-Með sölupantanir fartæki vinnusvæðið, er hægt setja sig inn í sölupantanirnar hvar og anytime. 
+Með sölupantanavinnusvæði í farsíma er hægt setja sig inn í sölupantanirnar hvar og hvenær sem er. 
 
 <a name="prerequisites"></a>Forkröfur
 -------------
 
 | Skilyrði                                                         | lýsing                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lesa um Microsoft Dynamics 365 fyrir fartæki svæðis Aðgerðir | [Dynamics 365 fyrir fartæki svæðis Aðgerðir](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 fyrir Aðgerðir                                          | Verið viss um að afskriftareglur eru umhverfi sem er með Microsoft Dynamics 365 Aðgerðir útgáfu 1611 og uppfærslu Microsoft Dynamics fyrir Aðgerðir svæðis (Nóvember 2016) 3. |
-| Bráðabót KB 3215650                                                    | Setja upp bráðabót til að virkja skal vinnusvæðin sem eru gefnir í Microsoft Dynamics 365 fyrir Aðgerðir.                                                                       |
-| Lýsingarlína fartækis með Dynamics 365 fyrir Aðgerðir forrits uppsett | Sækja Dynamics 365 fyrir Aðgerðir forrits úr verslunin fartæki forrits.                                                                                                      |
+| Lesa um Microsoft Dynamics 365 for Operations verkvang | [Microsoft Dynamics 365 for Operations verkvangur](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016). |
+| Bráðabót KB 3215650                                                    | Setja upp bráðabót til að virkja vinnusvæðin sem veitt eru í Microsoft Dynamics 365 for Operations.                                                                       |
+| Lýsingarlína fartækis með forritið Dynamics 365 for Operations uppsett | Sækja forritið Dynamics 365 for Operations úr forritaverslun fartækis.                                                                                                      |
 
 ## <a name="overview"></a>Yfirlit
-Þessi fartæki vinnusvæði tengist Dynamics 365 fyrir Aðgerðir forrits og gerir þér kleift að skoða nákvæmar upplýsingar um hverja sölupöntun, svo stöðu pöntunar, upplýsingar um viðskiptavin og tengslaupplýsingar taker pöntun. Fartæki vinnusvæði veitir snatri yfirlit sölupantana. Hægt er að skoða sölupantanir eftir viðskiptavini, eða skoða allar sölupantanir eða skoða upplýsingar um tiltekna sölupöntun. Fartæki vinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.
+Þetta farsímavinnusvæði tengist forritinu Dynamics 365 for Operations og gerir þér kleift að skoða nákvæmar upplýsingar um hverja sölupöntun, svo sem stöðu pöntunar, upplýsingar um viðskiptavin og tengslaupplýsingar þess sem pantar. Farsímavinnusvæðið veitir skjótt yfirlit sölupantana. Hægt er að skoða sölupantanir eftir viðskiptavini, eða skoða allar sölupantanir eða skoða upplýsingar um tiltekna sölupöntun. Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.
 
 ### <a name="view-all-sales-orders"></a>Skoða allar sölupantanir
 
 Þetta yfirlit sýnir allar sölupantanir.
 
--   Notið eina af eftirfarandi síur til að velja sölupantanir sem skoða á.
+-   Notið eina af eftirfarandi síum til að velja sölupantanir sem skoða á.
     -   Leita eftir sölupöntun
-    -   Leita eftir viðskiptavinalykil
-    -   Leita að nafni viðskiptavinar
+    -   Leita eftir viðskiptavinalykli
+    -   Leita eftir nafni viðskiptavinar
     -   Leita eftir stöðu
-    -   Leita eftir losunarstaða
-    -   Leita eftir tími og dagsetning stofnunar
+    -   Leita eftir losunarstöðu
+    -   Leita eftir stofndagsetningu og -tíma
 
 <!-- -->
 
--   Eftir að sölupantanir er hægt að skoða upplýsingar um ákveðnar pantanir. Sérstaklega er hægt að skoða:
-    -   Nafn og aðsetur upplýsingar viðskiptavinar
-    -   Mismunandi sölupöntun dagsetningar, svo sem umbeðin sendingardagsetning og staðfest sendingardagsetning
-    -   Tengslaupplýsingar taker pöntun
+-   Eftir að sölupantanir eru valdar er hægt að skoða upplýsingar um ákveðnar pantanir. Einkum er hægt að skoða:
+    -   Upplýsingar um nafn og aðsetur viðskiptavinar
+    -   Mismunandi dagsetningar sölupantana, svo sem umbeðna sendingardagsetningu og staðfesta sendingardagsetningu
+    -   Tengslaupplýsingar þess sem pantar
     -   Tengslaupplýsingar viðskiptavinar
     -   Pantanalínur
     -   Sendingar sem sýna hvernig og hvenær sölupöntun hefur verið send
 
-### <a name="view-orders-for-a-customer-"></a>Skoða pantanir fyrir viðskiptavini ** **
+### <a name="view-orders-for-a-customer-"></a>Skoða pantanir fyrir viðskiptavin** **
 
-Þetta yfirlit sýnir sölupantanir fyrir hvern viðskiptavin.
+Þetta yfirlit sýnir sölupantanir á hvern viðskiptavin
 
--   Notið eina af eftirfarandi síur til að skoða sölupantanir fyrir viðskiptavini.
-    -   Leita að nafni
+-   Notið eina af eftirfarandi síur til að skoða pantanir fyrir viðskiptavini.
+    -   Leita eftir nafni
     -   Leita eftir lykli
 
 <!-- -->
 
--   Eftir að velja viðskiptavin, er hægt að skoða:
-    -   Nafn viðskiptavinar og flokk
+-   Þegar viðskiptavinur hefur verið valinn er hægt að skoða:
+    -   Heiti og flokkur viðskiptavinar
     -   Tengslaupplýsingar viðskiptavinar
-    -   Sölupantanir fyrir viðskiptavini og upplýsingar um sölupantanir:
-        -   Nafn og aðsetur upplýsingar viðskiptavinar
-        -   Dagsetningar mismunandi sölupöntun
-        -   Tengslaupplýsingar taker pöntun
+    -   Sölupantanir viðskiptavina og upplýsingar um sölupantanir:
+        -   Upplýsingar um nafn og aðsetur viðskiptavinar
+        -   Mismunandi dagsetningar sölupöntunar
+        -   Tengslaupplýsingar þess sem pantar
         -   Tengslaupplýsingar viðskiptavinar
         -   Pantanalínur
         -   Sendingar sem sýna hvernig og hvenær sölupöntun hefur verið send
 
 ## <a name="get-started"></a>Hefjast handa
-Fylgið eftirfarandi skrefum til að byrja með fartæki vinnusvæði sölupantanir í fartæki fyrirtækisins.
+Fylgið eftirfarandi skrefum til að hefja notkun á sölupantanavinnusvæði í farsíma í fartæki fyrirtækisins.
 
-1.  Verslunin fartæki forritið á að sækja og setja upp Microsoft Dynamics 365 fyrir Aðgerðir forrits.
-2.  Byrja forritið þitt tækis.
-3.  Færið inn Vefslóð skal Dynamics 365.
-4.  Færið inn fyrirtæki að skrá sig inn á. Til dæmis inn **USMF**.
-5.  Í fyrsta sinn sem þú skráir þig inn, verið beðið um notandanafn og aðgangsorð fyrir notanda Microsoft Dynamics 365 fyrir Aðgerðir. Færið inn skilríkjum þínum. Eftir að skrá er að sjá tiltækar vinnusvæða fyrirtækisins.
+1.  Sæktu forritið Dynamics 365 for Operations úr forritaverslun farsímans og settu það upp.
+2.  Ræstu forritið í snjallsímanum.
+3.  Færðu inn vefslóð þína fyrir Dynamics 365.
+4.  Skráðu fyrirtækið sem á að skrá sig inn á . Til dæmis: Færið inn **USMF**.
+5.  Fyrsta skipti‘ sem þú skráir þig inn verðurðu beðin um notandanafn og aðgangsorð fyrir þinn Microsoft Dynamics 365 for Operations reikning. Færðu inn skilríki Eftir að þú skrá inn, sérðu tiltækt vinnusvæði fyrir Þitt fyrirtæki.
 
-Til að skoða vinnusvæða fartæki forritið, er verður fyrst að birta skal vinnusvæðin sem óskað er eftir að Dynamics 365 fyrir Aðgerðir forrits.
+Til að skoða vinnusvæði í farsímaforritinu verður fyrst að gefa út æskileg vinnusvæði í forritið Dynamics 365 for Operations.
 
-1.  Ræsa Dynamics 365 aðgerða.
-2.  Fara í **kerfisstjórnun**&gt;**Uppsetningu**&gt;**kerfisfæribreytum**.
-3.  Veljið **Stjórna fartæki forrits**.
-4.  Veljið vinnusvæði til að birta í fartæki svæðis.
-5.  Velja **Birta vinnusvæði**.
-6.  Endurnýja skal tæki til að sjá birt vinnusvæði.
+1.  Ræstu Dynamics 365 for Operations.
+2.  Opnaðu **Kerfisstjórnun** &gt; **Uppsetning** &gt; **kerfisfæribreytur**.
+3.  Veldu **Stjórna fartækjaforriti**.
+4.  Velja vinnusvæðið til að birta í verkvangi farsíma.
+5.  Veldu **Birta vinnusvæði**.
+6.  Endurhlaða Þitt tæki til að sjá útgefin vinnusvæði.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Skoða upplýsingar um sölupantanir fyrir viðskiptavini
-1.  Fartækis, veljið þá **sölupantanir** vinnusvæði.
-2.  Velja **Skoða sölupantanir fyrir viðskiptavini**.
-3.  Notið ** Lykil ** eða ** Nafn Viðskiptavinar ** upplýsingar til að finna æskilegt viðskiptavinar.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Skoða upplýsingar um sölupantanir fyrir viðskiptavin.
+1.  Í farsímanum velurðu vinnusvæðið **Sölupantanir**.
+2.  Veldu **Skoða pantanir fyrir viðskiptavin**.
+3.  Notið ** Lykil ** eða ** Nafn Viðskiptavinar ** upplýsingar til að finna æskilegan viðskiptavin.
 4.  Velja viðskiptavin.
-5.  Velja **Tengslaupplýsingar** eða **sölupantanir**.
-6.  Ef **sölupantanir** er valinn, lista yfir sölupantanir fyrir viðskiptavini birtist.
-7.  Velja **sölupöntun**.
-8.  Hér er hægt að skoða upplýsingar um sölupöntunarlínur sendingar, upplýsingar um viðskiptavin og tengslaupplýsingar taker pöntun.
+5.  Veldu **Tengslaupplýsingar** eða **Sölupantanir**.
+6.  Ef **Sölupantanir** er valið birtist lista yfir sölupantanir fyrir viðskiptavin.
+7.  Veldu **Velja sölupöntun**.
+8.  Hér geturðu skoðað upplýsingar um sölupöntunarlínur, sendingar, tengslaupplýsingar viðskiptavinar og tengslaupplýsingar þess sem pantar.
 
 
 

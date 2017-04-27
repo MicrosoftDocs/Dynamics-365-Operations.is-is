@@ -49,7 +49,7 @@ Valmyndin **Skrá** er í boði fyrir alla notendur og inniheldur eftirfarandi s
 | Vista sem                           | Vista núverandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu undir nýju heiti.                                                                            |
 | Eiginleikar                        | Opna skal **Eiginleika** svarglugga þar sem hægt er að breyta heiti og lýsingu á skýrslu.                                                                                                   |
 | Mynda                          | Mynda núverandi skýrslu. Þessi skipun er í boði í skýrsluskilgreiningu.                                                                                                                 |
-| Skoða skýrslu                       | Opna nýjustu útgáfu skýrslunnar mynduð í Dynamics 365 fyrir Aðgerðir. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef mynduð hefur verið a.m.k. ein skýrsla.                                 |
+| Skoða skýrslu                       | Opna nýjustu útgáfu skýrslunnar sem var mynduð í Dynamics 365 for Operations. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef mynduð hefur verið a.m.k. ein skýrsla.                                 |
 | Nýlegar skýrsluskilgreiningar         | Sýna lista yfir skýrslur sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja skýrslu á listanum.                                                                                    |
 | Nýlegar línuskilgreiningar            | Sýna lista yfir línuskilgreiningar sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja línuskilgreiningu á listanum.                                                                    |
 | Nýlegar dálkskilgreiningar         | Sýna lista yfir dálkskilgreiningar sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja dálkskilgreiningu á listanum.                                                              |
@@ -80,7 +80,7 @@ Valmyndin **Skrá** er í boði fyrir alla notendur og inniheldur eftirfarandi s
 | Setja inn dálk                          | Setja auðan dálk inn í dálkskilgreininguna. Þessi skipun er í boði í dálkskilgreiningu.                                                                                                             |
 | Eyða dálki                          | Eyða völdum dálki úr skilgreiningu dálks. Þessi skipun er í boði í dálkskilgreiningu.                                                                                                         |
 | Setja inn einingar skipurits úr víddum | Opna skal **Setja inn einingar skipurits úr víddum** svarglugga þar sem hægt er að velja víddargildi sem á að taka með í skipuritsskilgreiningu. Þessi skipun er í boði í skipuritsskilgreiningu. |
-| Flytja inn víddasamstæðustigveldi         | Opna skal **Víddasamstæðustigveldi** svarglugga þar sem hægt er að flytja inn víddasamstæðustigveldi úr fjárhagsgögnum. Þessi skipun er tiltæk úr skýrslugerð tré skilgreiningu á er við... kerfið \financial-dimensions\dimension-based.  |
+| Flytja inn víddasamstæðustigveldi         | Opna skal **Víddasamstæðustigveldi** svarglugga þar sem hægt er að flytja inn víddasamstæðustigveldi úr fjárhagsgögnum. Þessi skipun er tiltæk úr skipuritsskilgreiningu fyrir ..\fjárhagur-víddir\víddir-byggt kerfi.  |
 | Setja inn einingu skipurits                  | Setja inn auða línu í skipuritsskilgreiningu. Þessi skipun er í boði í skipuritsskilgreiningu.                                                                                                |
 | Eyða einingu skipurits                  | Eyða valdri skýrslugerðareiningarlínu úr skipuritsskilgreiningu. Þessi skipun er í boði í skipuritsskilgreiningu.                                                                             |
 
@@ -159,7 +159,7 @@ Valmyndin **Gluggi** er í boði fyrir alla notendur og inniheldur eftirfarandi 
 
 | Skipun | lýsing                                                  |
 |---------|--------------------------------------------------------------|
-| Hjálp    | Opna Dynamics 365 fyrir Aðgerðir wiki hjálparsíðu fyrir fjárhagsskýrslugerð. |
+| Hjálp    | Opna Dynamics 365 for Operations wiki hjálparsíðu fyrir fjárhagsskýrslugerð. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Skýrsluhönnunarverkfærahnappar
@@ -171,24 +171,24 @@ Stöðluð tækjastika veitir þægilegan aðgang að skráar- og breytingaskipu
 
 | Hnappur                                                                                                                                                                                   | Lýsing                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![New button](./media/rowc130389.png)](./media/rowc130389.png)                              | Stofna nýja (tóma) skýrsluskilgreiningu, línuskilgreiningu, dálkskilgreiningu eða skipuritsskilgreiningu.                                                                               |
-| [![Opna hnappur](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Opna fyrirliggjandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu.                                                                                   |
-| [![Vista hnappur](./media/savec130389.png)](./media/savec130389.png)                           | Vista fyrirliggjandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu.                                                                                   |
-| [![Afrita hnappur](./media/copyc130389.png)](./media/copyc130389.png)                           | Afrita valdan texta og setja á klippiborðið.                                                                                                                                               |
-| [![Klippa hnappur](./media/cutc130389.png)](./media/cutc130389.png)                              | Eyða völdum texta og afrita hann á klippiborðið.                                                                                                                                |
-| [![Líma hnappur](./media/pastec130389.png)](./media/pastec130389.png)                        | Setja inn texta af klippiborðinu.                                                                                                                                                    |
-| [![Afturkalla hnappur](./media/undoc130389.png)](./media/undoc130389.png)                           | Afturkalla síðustu aðgerð.                                                                                                                                                                  |
-| [![Endurtaka hnappur](./media/redoc130389.png)](./media/redoc130389.png)                           | Hætta við að Afturkalla síðustu aðgerð.                                                                                                                                                          |
-| [![Finna hnappur](./media/findc130389.png)](./media/findc130389.png)                           | Opna skal **Finna og Skipta út** svarglugga þar sem hægt er að leita að og skipta út texta í virkum glugga.                                                                                  |
-| [![Setja inn línu hnappur](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Setja auða línu inn í línuskilgreiningu eða auða fyrirsagnalínu í skilgreiningu dálks. Þessi hnappur er tiltækur úr línuskilgreiningu eða dálkskilgreiningu.                    |
-| [![Færa inn dálkur hnappur](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Setja auðan dálk inn í dálkskilgreininguna. Þessi hnappur er tiltækur í dálkskilgreiningu.                                                                                  |
-| [![Læsa hnappur](./media/lockc130389.png)](./media/lockc130389.png)                           | Nota aðgangsorð á núgildandi einingu. Þessi hnappur er tiltækur fyrir notendur sem hafa hlutverkið **Hönnuður** eða **Kerfisstjóri**.                                                 |
-| [![Tengja hnappinn línu](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Opna **Línu Tengla** svarglugga þar sem hægt er að tilgreina uppruna fyrir gagnatengla í línuskilgreiningum og skilgreiningum skipurits. Þessi hnappur er tiltækur í línuskilgreiningu. |
-| [![Skýrsluþjónsgreining hnappur](./media/promotec130389.png)](./media/promotec130389.png)                  | Hækka einingu í skilgreiningu skipurits. Þegar þú velur undireiningu og smellir síðan á **Hækka**, er undireiningin flutt á sama stig og yfireining hennar.                |
-| [![Demote hnappur](./media/demotec130389.png)](./media/demotec130389.png)                     | Lækka einingu í skilgreiningu skipurits. Þegar eining er valin og síðan smellt á **Lækka**, verður einingin undireining þeirrar einingar sem kemur á undan henni.                               |
-| [![Útvíkka hnappur](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Stækka allar einingar í skipuritsskilgreiningunni á stigi valinnar einingar.                                                                                                   |
-| [![Fella hnappur](./media/collapsec130389.png)](./media/collapsec130389.png)               | Fella saman skipuritið.                                                                                                                                                           |
-| [![Hjálp fyrir hnapp](./media/helpc130389.png)](./media/helpc130389.png)                           | Opnið Hjálp.                                                                                                                                                                             |
+| [![Nýr hnappur](./media/rowc130389.png)](./media/rowc130389.png)                              | Stofna nýja (tóma) skýrsluskilgreiningu, línuskilgreiningu, dálkskilgreiningu eða skipuritsskilgreiningu.                                                                               |
+| [![Hnappurinn Opna](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Opna fyrirliggjandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu.                                                                                   |
+| [![Hnappurinn Vista](./media/savec130389.png)](./media/savec130389.png)                           | Vista fyrirliggjandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu.                                                                                   |
+| [![Hnappurinn Afrita](./media/copyc130389.png)](./media/copyc130389.png)                           | Afrita valdan texta og setja á klippiborðið.                                                                                                                                               |
+| [![Hnappurinn Klippa](./media/cutc130389.png)](./media/cutc130389.png)                              | Eyða völdum texta og afrita hann á klippiborðið.                                                                                                                                |
+| [![Hnappurinn Líma](./media/pastec130389.png)](./media/pastec130389.png)                        | Setja inn texta af klippiborðinu.                                                                                                                                                    |
+| [![Hnappurinn Afturkalla](./media/undoc130389.png)](./media/undoc130389.png)                           | Afturkalla síðustu aðgerð.                                                                                                                                                                  |
+| [![Hnappurinn Endurgera](./media/redoc130389.png)](./media/redoc130389.png)                           | Hætta við að Afturkalla síðustu aðgerð.                                                                                                                                                          |
+| [![Hnappurinn Finna](./media/findc130389.png)](./media/findc130389.png)                           | Opna skal **Finna og Skipta út** svarglugga þar sem hægt er að leita að og skipta út texta í virkum glugga.                                                                                  |
+| [![Hnappurinn Setja inn röð](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Setja auða línu inn í línuskilgreiningu eða auða fyrirsagnalínu í skilgreiningu dálks. Þessi hnappur er tiltækur úr línuskilgreiningu eða dálkskilgreiningu.                    |
+| [![Hnappurinn Setja inn dálk](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Setja auðan dálk inn í dálkskilgreininguna. Þessi hnappur er tiltækur í dálkskilgreiningu.                                                                                  |
+| [![Hnappurinn Læsa](./media/lockc130389.png)](./media/lockc130389.png)                           | Nota aðgangsorð á núgildandi einingu. Þessi hnappur er tiltækur fyrir notendur sem hafa hlutverkið **Hönnuður** eða **Kerfisstjóri**.                                                 |
+| [![Hnappurinn Línutengill](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Opna **Línu Tengla** svarglugga þar sem hægt er að tilgreina uppruna fyrir gagnatengla í línuskilgreiningum og skilgreiningum skipurits. Þessi hnappur er tiltækur í línuskilgreiningu. |
+| [![Hnappurinn Hækka](./media/promotec130389.png)](./media/promotec130389.png)                  | Hækka einingu í skilgreiningu skipurits. Þegar þú velur undireiningu og smellir síðan á **Hækka**, er undireiningin flutt á sama stig og yfireining hennar.                |
+| [![Hnappurinn Lækka](./media/demotec130389.png)](./media/demotec130389.png)                     | Lækka einingu í skilgreiningu skipurits. Þegar eining er valin og síðan smellt á **Lækka**, verður einingin undireining þeirrar einingar sem kemur á undan henni.                               |
+| [![Hnappurinn Víkka](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Stækka allar einingar í skipuritsskilgreiningunni á stigi valinnar einingar.                                                                                                   |
+| [![Hnappurinn Draga saman](./media/collapsec130389.png)](./media/collapsec130389.png)               | Fella saman skipuritið.                                                                                                                                                           |
+| [![Hnappurinn Hjálp](./media/helpc130389.png)](./media/helpc130389.png)                           | Opnið Hjálp.                                                                                                                                                                             |
 
 ### <a name="formatting-toolbar"></a>Sniðstika
 
@@ -196,16 +196,16 @@ Sniðstikan veitir auðveldan aðgang að sniðskipunum. Þessi tækjastika inni
 
 | Hnappur                                                                                                                                                                                                   | Lýsing                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Hnappurinn leturgerð stíl](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Nota valinn leturstíl á valinn texta.      |
-| [![Hnappurinn leturgerð](./media/fonttype.png)](./media/fonttype.png)                                                 | Nota valda leturgerð á valinn texta.              |
-| [![Stærð hnappinn leturgerð](./media/fontsize.png)](./media/fontsize.png)                                            | Nota valda leturstærð á valinn texta (í punktum). |
-| [![Feitletrað hnappur](./media/boldc130389.png)](./media/boldc130389.png)                                           | Feitletra valinn texta.                             |
+| [![Hnappurinn Leturstíll](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Nota valinn leturstíl á valinn texta.      |
+| [![Hnappurinn Leturgerð](./media/fonttype.png)](./media/fonttype.png)                                                 | Nota valda leturgerð á valinn texta.              |
+| [![Hnappurinn Leturstærð](./media/fontsize.png)](./media/fontsize.png)                                            | Nota valda leturstærð á valinn texta (í punktum). |
+| [![Hnappurinn Feitletrun](./media/boldc130389.png)](./media/boldc130389.png)                                           | Feitletra valinn texta.                             |
 | [![Hnappurinn Skáletur](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Skáletra valinn texta.                           |
-| [![Strika undir hnappur](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Undirstrika valinn texta.                             |
-| [![Minnka inndrátt hnappur](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Minnka inndrátt valins texta.                |
-| [![Auka inndrátt hnappur](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Auka inndrátt valins texta.                |
-| [![Hnappurinn bakgrunnur lit](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Breyta bakgrunnslit valda hólfsins.        |
-| [![Litur hnappinn leturgerð](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Breyta litnum á valda textanum.                   |
+| [![Hnappurinn Undirstrikun](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Undirstrika valinn texta.                             |
+| [![Hnappurinn Minnka inndrátt](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Minnka inndrátt valins texta.                |
+| [![Hnappurinn Auka inndrátt](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Auka inndrátt valins texta.                |
+| [![Hnappurinn Bakgrunnslitur](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Breyta bakgrunnslit valda hólfsins.        |
+| [![Hnappurinn leturlitur](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Breyta litnum á valda textanum.                   |
 
 ### <a name="report-designer-toolbar"></a>Tækjastikan skýrsluhönnun
 
@@ -213,12 +213,12 @@ Tækjastikan Skýrsluhönnun veitir auðveldan aðgang að skipunum til að fara
 
 | Hnappur                                                                                                                                                                                          | Lýsing                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![Hnappurinn skilgreiningu skýrslu](./media/reportc130389.png)](./media/reportc130389.png)                 | Sýna skýrsluskilgreiningar sem koma fram á valmyndinni **Gluggi**.                                                                                                            |
-| [![Hnappurinn skilgreining línu](./media/rowc130389.png)](./media/rowc130389.png)                          | Sýna línuskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                                    |
-| [![Hnappurinn skilgreining dálks](./media/columnc130389.png)](./media/columnc130389.png)                 | Sýna dálkskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                                 |
-| [![Skilgreining hnappinn skýrslugerð tré](./media/treec130389.png)](./media/treec130389.png)             | Sýna skipuritsskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                         |
-| [![Hnappurinn Viewer skýrslu](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Opnar Report Viewer og sýnir nýjustu útgáfu skýrslunnar sem hefur verið mynduð. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef verið er að mynda a.m.k. eina skýrslu. |
-| [![Mynda skýrslu hnappur](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Mynda skýrslu út frá virku skýrsluskilgreiningunni. Þessi hnappur er tiltækur í skýrsluskilgreiningu.                                                                      |
+| [![Hnappurinn Skýrsluskilgreining](./media/reportc130389.png)](./media/reportc130389.png)                 | Sýna skýrsluskilgreiningar sem koma fram á valmyndinni **Gluggi**.                                                                                                            |
+| [![Hnappurinn Línuskilgreining](./media/rowc130389.png)](./media/rowc130389.png)                          | Sýna línuskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                                    |
+| [![Hnappurinn Dálkskilgreining](./media/columnc130389.png)](./media/columnc130389.png)                 | Sýna dálkskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                                 |
+| [![Hnappurinn Skipuritsskilgreining](./media/treec130389.png)](./media/treec130389.png)             | Sýna skipuritsskilgreiningu sem tengist virku skýrsluskilgreiningunni.                                                                                         |
+| [![Hnappurinn Report Viewer](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Opnar Report Viewer og sýnir nýjustu útgáfu skýrslunnar sem hefur verið mynduð. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef verið er að mynda a.m.k. eina skýrslu. |
+| [![Hnappurinn Mynda skýrslu](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Mynda skýrslu út frá virku skýrsluskilgreiningunni. Þessi hnappur er tiltækur í skýrsluskilgreiningu.                                                                      |
 
 
 
@@ -227,6 +227,6 @@ Tækjastikan Skýrsluhönnun veitir auðveldan aðgang að skipunum til að fara
 
 [Fjárhagsskýrslur fyrir Microsoft Dynamics ERP](financial-reporting-intro.md)
 
-[Generate a financial report](\financials\general-ledger\generate-financial-report.md)
+[Mynda fjárhagsskýrslu](\financials\general-ledger\generate-financial-report.md)
 
 

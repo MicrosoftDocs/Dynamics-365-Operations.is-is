@@ -1,6 +1,6 @@
 ---
-title: "Nýjar eða uppfærðar verkefni leiðbeiningar (Ágúst 2016)"
-description: "Þetta efnisatriði telur upp í nýjar eða uppfærðar Verkefni leiðbeiningar sem voru losaðar til Microsoft (Ágúst 2016 - öll tungumál) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
+title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)"
+description: "Þetta efni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 -- öll tungumál) APQC, Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefni leiðbeiningar (Ágúst 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 
-Þetta efnisatriði telur upp í nýjar eða uppfærðar Verkefni leiðbeiningar sem voru losaðar til Microsoft (Ágúst 2016 - öll tungumál) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Verk leiðir í skal (Ágúst 2016 - öll tungumál) APQC Unified Safn fyrir Microsoft Dynamics AX
+
+Þetta efni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 -- öll tungumál) APQC, Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Verkefnaleiðbeiningar í (ágúst 2016 - öll tungumál) APQC Unified Library for Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
-Í (Ágúst 2016 - öll tungumál) APQC, vefhlutinn sameinaður Safn inniheldur leiðbeiningar Verkið sem er ætlað að nota til að fá Hjálp með Microsoft Dynamics AX svæðis uppfærslu 2 (Ágúst 2016), Dynamics AX Má uppfæra 2016 forritið og losa Febrúar 2016 Microsoft Dynamics AX. Sjá frekari upplýsingar um þessum útgáfum [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfært útgáfur leiðbeiningar Verk eru tiltækar í þessari safnið. Nánari upplýsingar um hvernig tengja hjálparkerfinu safn fyrir leiðarvísi fyrir Verk, sjá [byrja með Hjálp](help-overview.md).
+(Ágúst 2016 - öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics AX Platform uppfærsla 2 (ágúst 2016), uppfærsla fyrir Dynamics AX maí 2016 Microsoft Dynamics AX útgáfa í febrúar 2016. Nánari upplýsingar eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
 
 ### <a name="data-access"></a>Gagnaheimildir
 
@@ -97,10 +100,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Nýtt Verk leiðir (Febrúar 2016)](new-task-guides-available-february-2016.md)
+[Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Maí 2016)](new-updated-task-guides-available-may-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Nóvember 2016)](new-task-guides-november-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
+
+
 
 

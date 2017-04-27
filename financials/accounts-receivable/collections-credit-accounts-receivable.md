@@ -1,6 +1,6 @@
 ---
 title: "Skuldir og innheimtur í viðskiptakröfum"
-description: "Upplýsingar um lykla viðskiptavina innheimtu er stjórnað í einu yfirliti central með Microsoft Dynamics 365 fyrir Innheimtu Aðgerðir síðu. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
+description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 fyrir Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Skuldir og innheimtur í viðskiptakröfum
 
-Upplýsingar um lykla viðskiptavina innheimtu er stjórnað í einu yfirliti central með Microsoft Dynamics 365 fyrir Innheimtu Aðgerðir síðu. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
+[!include[banner](../includes/banner.md)]
+
+
+Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 fyrir Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
 
 Áður en byrjað er að setja upp eða vinna með innheimtu þarf að skilja eftirfarandi hugtök:
 -   Aldursgreiningarmynd viðskiptavinar innihaldur upplýsingar um aldursgreind staða á ákveðnum tímapunkti.
@@ -55,9 +58,9 @@ Fyrir hvert aldurstímabil í skilgreiningu aldurstímabils, er ítarleg skýrsl
 Viðskiptavinahópar eru fyrirspurnir sem skilgreina flokk af viðskiptavinaskrám sem hægt er að birta og stjórna fyrir innheimtu eða aldursgreiningarferli. Nota viðskiptavinahópa til að sía upplýsingar á listasíðunum Aldursgreind staða, Innheimtuaðgerðir og Innheimtumál. Einnig er hægt að nota viðskiptavinahópa til að sía viðskiptavinalykla sem eru teknar með þegar aldursgreiningarmynd er stofnuð.
 
 ## <a name="collections-agents"></a>Innheimtufulltrúar
-Að sjálfgefnu Microsoft Dynamics 365 fyrir Aðgerðir sem notendur hægt er að skoða allar upplýsingar um viðskiptavin á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
+Að sjálfgefnu geta Microsoft Dynamics 365 fyrir Operations notendur skoðað allar upplýsingar um viðskiptavini á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
 
-Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Microsoft Dynamics 365 fyrir Aðgerðir, innheimtufulltrúa eru starfsmenn sem eru tengdir notendur á síðunni uppsetningu.
+Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Microsoft Dynamics 365 fyrir Operations eru innheimtufulltrúar starfsmenn sem eru tengdir notendum á síðunni Uppsetning.
 
 ## <a name="collections-list-pages"></a>Listasíður innheimtu 
 Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu..
@@ -67,7 +70,7 @@ Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu
 
 > [!NOTE]
 > Stofna skal aldursgreiningarmynd áður en hægt er að skoða upplýsingar á þessum listasíðum. Upplýsingar birtast aðeins fyrir viðskiptavini sem stofnuð hefur verið aldursgreiningarmynd fyrir. Færslurnar sem eru birtar á listasíðunni geta verið síaðar að auki sem hér segir:
-<li>Sjálfgefið Microsoft Dynamics 365 fyrir Aðgerðir sem notandi hefur aðgang að allir viðskiptavinir sem hafa á með aldursgreiningu skyndimyndar.</li>
+<li>Að sjálfgefnu hefur Microsoft Dynamics 365 fyrir Operations notandi aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
 <li>Ef viðskiptavinahópar eru til staðar verður að setja notanda upp sem innheimtufulltrúa til að nota hópana til að sía upplýsingar í listasíður innheimtu. Upplýsingar takmarkast við viðskiptavini sem eru hafðir með í valda viðskiptavinahópnum.</li>
 <li>Ef notandi er settur upp sem innheimtufulltrúi eru aðeins þeir hópar sem eru valdar fyrir þann innheimtufulltrúa tiltækar á listasíðu. Ef breytan Leyfa fulltrúa að skoða allar viðskiptavinahópa er valin í Innheimtufulltrúa síðunni fyrir innheimtufulltrúann eru allir hópar tiltækir fyrir þann fulltrúa.</li>
 
@@ -75,7 +78,7 @@ Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu
 ## <a name="collections-page"></a>Innheimtusíða
 Nota síðuna Innheimta til að skoða, stjórna og framkvæma upplýsingar um innheimtu, verkþætti og mál viðskiptavina. 
 
-Efri rúðan birtir mál fyrir valinn viðskiptavin. Í miðju rúðunni birtir færslur fyrir viðskiptavininn. Neðri rúðan birtir verkþætti fyrir viðskiptavininn. Hægt er að stofna innheimtumál til að rekja upplýsingar um innheimtu fyrir eina eða fleiri færslur og verkþætti. Hægt er að sía upplýsingar í efri og neðri rúðu eftir máli. 
+Efri rúðan birtir mál valins viðskiptavinar. Miðjurúðan birtir færslur viðskiptavinar. Neðri rúðan birtir verkþætti fyrir viðskiptavininn. Hægt er að stofna innheimtumál til að rekja upplýsingar um innheimtu fyrir eina eða fleiri færslur og verkþætti. Hægt er að sía upplýsingar í efri og neðri rúðu eftir máli. 
 
 Upplýsingakassar birta aldursgreindar stöður og upplýsingar um lánamark fyrir valinn viðskiptavin. Þessar upplýsingar eru geymdar í aldursgreiningarmynd. Ef nauðsyn krefur er hægt að uppfæra aldursgreiningarmynd með gildandi upplýsingum. 
 
@@ -86,7 +89,7 @@ Hægt er að fella niður, endurskipa eða bakfæra vaxtanótur eða þóknanir 
 
 Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Fylgið skrefum í hlutanum "Stofna afskriftarfærslur í einu lagi" til að afskrifa öll gjöld sem viðskiptavinur skuldar.
 
-## <a name="create-writeoff-transactions"></a>Stofna færslur writeoff
+## <a name="create-writeoff-transactions"></a>Stofna afskriftafærslur 
 Þú getur afskrifað gallaðar skuldir með því að smella á Afskrifa í skjámyndinni Innheimta og á listasíðunum Aldursgreindar stöður, Viðskiptavinir og Opna reikninga viðskiptavinar. 
 
 Þegar færslur eru afskrifaðar fyrir viðskiptavini, eru allar færslur fyrir viðskiptavininn sjálfkrafa merktar til jöfnunar. Upphæð sem er afskrifuð fer eftir nettóupphæð merktra færslna. Afskriftarfærsla er stofnuð í færslubók og getur í mesta lagi innihaldið þrjá gerðir á færslubókarlínum.
@@ -100,6 +103,8 @@ Vinna innistæðulausar greiðslur (NSF)
 --------------------------------------------
 
 Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Innheimtu síðu. Þegar smellt er á þennan hnapp er hætt við greiðsluna. Ef NSF-þóknun á við um viðskiptamanninn er gjaldafærsla stofnuð í greiðslubók.. Upphæð þóknunar er grundvölluð á stillingum fyrir sjálfvirk gjöld. Sjálfvirk gjöld sem notuð eru fyrir NSF-greiðslur eru tilgreind með gjaldaflokki sem er valinn í skjámyndinni Bankareikningur fyrir bankareikninginn sem varð fyrir áhrifum.
+
+
 
 
 

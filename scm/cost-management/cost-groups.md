@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-groups"></a>Kostnaðarflokkar
 
+[!include[banner](../includes/banner.md)]
+
+
 Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað. Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar. 
 
 Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar. Hlutun kostnaðarflokks getur þjónað ýmsum tilgangi. Hér eru nokkur dæmi:
@@ -48,6 +51,8 @@ Hægt er að úthluta kostnaðarflokki gerð og hegðun í tilgangi fyrir aukale
 
 -   **Gerð kostnaðarflokks ** - Hverjum kostnaðarflokki verður að úthluta gerð kostnaðarflokkstil aða tilgreina að kostnaðarflokk gildir um beinu efni, beinni framleiðslu, beinni útvistun,eða að tilgreina hana sem óbeinni eða óskilgreindri. kostnaðarflokki sem er tilgreindur sem beint efni er hægt að úthluta á vörur. Kostnaðarflokki beinnar framleiðslu er hægt að úthluta til kostnaðartegunda. Hægt er að úthluta kostnaðarflokk beinnar útvistunar við afurðargerð þjónustu, sem gerir kleift að flokka kostnað sem tengist innkaupapöntun þjónustu til verkþátta undirverktaka . Óbeinum kostnaðarflokki er hægt að úthluta til óbeins kostnaðar fyrir álag eða taxta. Kostnaðarflokki sem er tilgreindur sem óskilgreindur er hægt að úthluta á vörur, kostnaðarflokk, eða óbeinn kostnaður Úthlutun á gerð kostnaðarflokks þjónar nokkur málefni. Fyrst, það takmarkar getuna til að úthluta kostnaðarflokki og skoða fellilista yfir viðeigandi kostnaðarflokka. Önnur, býður upp á viðbótar sundurliðun fyrir skýrslugerð. Þriðji, hún er notuð til að úthluta fjárhagslyklum fyrir frávik.
 -   **Hegðun ** − Hægt er að velja hegðun til að úthluta hverjum kostnaðarflokki en hún tilgreinir það hvort kostnaðarflokkurinn eigi við um fastan kostnað eða breytilegan kostnað. Kostnaðarflokkur með núllgildi hegðunar er meðhöndlaður sem breytilegur kostnaður Úthlutun hegðunar þjónar er eingöngu fyrir skýrslugerð. Til dæmis er hægt að birta kostnað með sundurliðun fasts og breytilegs kostnaðar á kostnaðarskjalinu og í skjámyndinni **samantekt kostnaðar eftir kostnaðarflokki**. Ef þú gefur upp hagnað-stilling prósenta á hverjum kostnaður hópinn BOM útreikning veitir leiðbeinandi söluverð, byggðri á kostnað plús-álagningar nálgun.
+
+
 
 
 

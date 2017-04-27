@@ -28,19 +28,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>Leiðrétta kostnaðarvirði lagerbirgða
 
+[!include[banner](../includes/banner.md)]
+
+
 Hægt er að nota síðuna Leiðrétting á lagermagni til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokun vinnslu er keyrð.
 
-Hægt er að nota **Leiðrétting á lagerbirgðum** síðuna til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokunarvinnsla er keyrð. **Athugasemd:** til Að opna í **Leiðrétting á lagermagni** á síðunni á **Lokun og leiðrétting** síðunni velja lokið birgðalokunarferli og smellið síðan á **Leiðrétting**&gt;**á lager**. **Dæmi:**Eftirfarandi færslur eru í febrúar:
+Hægt er að nota **Leiðrétting á lagerbirgðum** síðuna til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokunarvinnsla er keyrð. **Ábending:** til Að opna síðuna **Leiðrétting á lagerbirgðum** veljið skýrsluna um lokið birgðalokunarferli á síðunni **Lokun og leiðrétting** og smellið síðan á **Leiðrétting** &gt; **Lager**. **Dæmi:**Eftirfarandi færslur eru í febrúar:
 
 -   1. febrúar: Fjárhagsleg innhreyfing birgða með magninu 2 á verðinu USD 10,00.
 -   5. febrúar: Fjárhagsleg innhreyfing birgða með magninu 1 á verðinu USD 13,00.
 -   19. febrúar: Fjárhagsleg úthreyfing birgða með magninu 1 á meðalkostnaðarverðinu USD 11,00.
 
-Þessi vara var sett upp með fyrsta inn, fyrst út (FIFO) birgðalíkaninu og birgðalokun var framkvæmd frá og með 28. Febrúar. Fjárhagsleg úthreyfingarfærsla upp á USD 11.00 verða jafnaðar á móti fjárhagslega innhreyfingu sem er dagsett 1. Febrúar og leiðrétting USD 1.00 er gerð. Eftirfarandi birgðainnhreyfingar munu þá innihalda opið birgðamagn:
+Þessi vara var sett upp með birgðalíkaninu Fyrst inn, fyrst út (FIFO), og birgðalokunin var framkvæmd frá og með 28. febrúar. Fjárhagsleg úthreyfingarfærsla upp á 11.00 USD verður jöfnuð við fjárhagslegu innhreyfinguna þann 1. febrúar og gerð verður jöfnun upp á 1,00 USD. Eftirfarandi birgðainnhreyfingar munu þá innihalda opið birgðamagn:
 
 -   1. febrúar: Magnið 1 á verðinu 10.00 USD
 -   5. febrúar: Magnið 1 á verðinu 13.00 USD
 
 Ef stilla á kostnað þessara tveggja vara á USD 15.00 skal nota valkostinn um leiðréttingu lagerbirgða til að leiðrétta opna lagerbirgðamagnið frá síðasta birgðalokunartímabili. **Ábending:**Bókunardagsetning lagerbirgðaleiðréttingarfærslunnar verður dagsetning síðustu birgðalokunar. Ekki er hægt að breyta þessari dagsetningu.
+
+
 
 

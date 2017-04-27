@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Stofna verkflæði
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði útskýrir hvernig á að stofna verkflæði.
 
 <a name="open-the-workflow-editor"></a>Opnaðu ritstjóra verkflæðis
 ------------------------
 
-Microsoft Dynamics 365 Aðgerðir einingar sem verið er að vinna í ákvarðar gerðir sem hægt er að stofna verkflæði. Fylgið eftirfarandi skrefum til að velja gerð verkflæðis til að stofna og til að opna verkflæðisritill.
+Eining Microsoft Dynamics 365 for Operations sem þú ert að vinna í ákvarðar tegundir verkflæði sem þú getur búið til. Fylgið eftirfarandi skrefum til að velja gerð verkflæðis til að stofna og til að opna verkflæðisritill.
 
 1.  Fara í einingunni sem á að stofna nýtt verkflæði fyrir. Til dæmis til að stofna verkflæði fyrir innkaupabeiðnir, smellið á **innkaup og aðföng**.
-2.  Smellið á **Uppsetningu**&gt;**\[heiti Einingarinnar\] verkflæði**.
+2.  Smellið á **Uppsetning ** &gt; **\[heiti Einingarinnar\] verkflæði**.
 3.  Á listasíðu sem birtist, á Aðgerðasvæðinu skal smellt á **Nýtt**.
 4.  Á **Stofna verkflæði** síðunni, veljið þá tegund verkflæðis sem á að stofna og smellið svo á **Stofna verkflæði**. Verkflæðisritill birtist Þú getur nú notað eftirfarandi ferli til að hanna verkflæði.
 
@@ -75,6 +78,8 @@ Svæðið **Villur og athugasemdir**, neðst á verkflæðisritill, birtir skila
 3.  Ef villur og viðvaranir hefur verið leyst, **Virkja verkflæði** birtist. Veldu einn af eftirfarandi valkostum:
     -   Smellið til að virkja þessa útgáfu verkflæðisins á **virkja nýja útgáfu**. Þegar verkflæði er virkt, notendur senda skjöl í hana í vinnslu.
     -   Eigi ekki að virkja þessa útgáfu, smellið á **Ekki virkja nýju útgáfuna**. Hægt er að virkja verkflæðið síðar.
+
+
 
 
 

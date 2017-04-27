@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Sléttun upphæða fyrir afskriftaútreikninga.
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein fer yfir svæðið Sléttun afskriftar sem má finna á uppsetningarsíðunum bók.
 
-Slétta afskriftarupphæðir eru sett fyrir hvert. Slétta afskriftarupphæðir eru notaðar í afskriftaregla eigna sem sýnir afskriftina í framtíðinni og gildi fyrir eignina og einnig í afskriftartillögur. Færið inn lægstu leyfilegu upphæðina til afskriftar fyrir þetta bók. 
+Slétta afskriftarupphæðir eru sett fyrir hverja bók. Sléttun afskriftarupphæða er notuð í afskriftareglu eigna sem sýnir afskriftina í framtíðinni og gildi fyrir eignina og einnig í afskriftartillögum. Færið inn lægstu leyfilegu upphæðina til afskriftar fyrir þetta bók. 
 
 Óháð því hvaða sléttun er sett upp verður afskriftarupphæðin í síðasta afskriftartímabilinu ekki sléttuð. Við lok síðasta afskriftartímabilsins, verður virði eignar að vera 0 (núll) eða á rýrnunarvirði ef rýrnunarvirði er notað.
 
@@ -43,6 +46,8 @@ Afskrift án sléttunar er reiknuð sem 2.444,44. Mismunandi upphæðir eru lag�
 | Sléttun 1,00   | 2.444,00            |
 | Sléttun 10,00  | 2.440,00            |
 | Sléttun 100,00 | 2.400,00            |
+
+
 
 
 

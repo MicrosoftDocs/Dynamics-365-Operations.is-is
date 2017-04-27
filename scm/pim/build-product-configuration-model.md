@@ -1,5 +1,5 @@
 ---
-title: "Byggja afbrigðalíkan afurðar"
+title: "Bygging afbrigðalíkans afurðar"
 description: "Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Byggja afbrigðalíkan afurðar
+# <a name="build-a-product-configuration-model"></a>Bygging afbrigðalíkans afurðar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl.
 
@@ -34,7 +37,7 @@ Framleiðandi sem styður aðstæður sem snúast um að grunnstilla fyrir pönt
 
 Árangursríkur flutningur úr uppsetningu framleiðslu til birgða til uppsetningar á grunnstilla fyrir pöntun krefst vandlegrar greiningar á uppbyggingu afurða, auðkenningu afurðasafna og íhlutum Til að draga úr fjölda hluta og lágmarka fjölda vara sem eru í vinnslu, er mjög mikilvægt að skilja viðmót afurðar og að hannað er til endurnýtingu.  
 
-Til eru nokkrar líkanareglur afurðagrunnstillingar, eins og reglumiðuð, víddabyggð og skorðubyggð líkön. Kannanir sýna að aðferð sem byggir á skorðum getur dregið úr fjölda kóðalína í líkön um 50 prósent miðað við aðrar reglur líkanabreytu. Þar af leiðandi getur þessi aðferð lækkað heildarkostnað eignarhalds (TCO). Með því að flytja úr reglumiðaðar líkani sem byggir á X ++ kóða sem byggir á skorðum líkan, er ekki lengur krefjast leyfiskóði forritara til þess að vinna með vörulíkön.
+Til eru nokkrar líkanareglur afurðagrunnstillingar, eins og reglumiðuð, víddabyggð og skorðubyggð líkön. Kannanir sýna að aðferð sem byggir á skorðum getur dregið úr fjölda kóðalína í líkön um 50 prósent miðað við aðrar reglur líkanabreytu. Þar af leiðandi getur þessi aðferð lækkað heildarkostnað eignarhalds (TCO). Með því að færast frá reglumiðuðu líkani sem byggir á X ++ kóða yfir í líkan sem byggir á skorðum þarf ekki lengur að krefjast leyfis forritara til að vinna með vörulíkön.
 
 ## <a name="product-configuration"></a>Afurðarafbrigði
 Iðnvæðingartímabilið hefur leitt til mikils árangurs við framleiðslu hágæða afurða með mörgum eiginleikum, á viðráðanlegu verði. Stærðarhagkvæmni hefur gert það mögulegt fyrir flest fólk í hinum iðnvædda hluta heimsins að kaupa bíla, sjónvörp, heimilistæki og aðrar vörur sem flest okkar telja nauðsynlegan hluta af daglegu lífi okkar.  
@@ -64,11 +67,11 @@ Notið afbrigðalíkans afurðar sem byggir á skorðum gefur sumar takmarkanir 
 
 ### <a name="table-constraints"></a>Töfluskorður
 
-Töfluskorður getur verið skilgreindur af notanda eða skilgreind af kerfinu.  
+Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar.  
 
 Notandaskilgreind töfluskorða er byggð á notanda. Notandi velur samsetningu eigindagerðir dálka í töflunni stendur og færir gildi úr lénum valinna eigindagerða til að mynda línur í töfluskorðunni.  
 
-Kerfisskilgreindrar töfluskorðu er skilgreind með því að velja hvaða Microsoft Dynamics 365 fyrir töfluna Aðgerðir til að nota sem tilvísun og velja svæði úr þessari töflu úr dálka í skorðunni. Línur töfluskorðunnar eru línur 365 Dynamics fyrir töfluna Aðgerðir sem eru til staðar við skilgreiningu.  
+Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða Microsoft Dynamics 365 for Operations töflu á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Dynamics 365 for Operations töflu sem eru til staðar við skilgreiningu.  
 
 Töfluskorða er innifalin í afbrigðalíkani afurðar með því að vísa í skilgreiningu töfluskorðu og vörpun viðeigandi eiginda í líkanið í dálkum í töfluskorðunni.
 
@@ -129,7 +132,7 @@ Ef selja verður afurðina í mismunandi löndum/svæðum, hægt að stofna þý
 Síðasta og mikilvægustu skrefi í frágangsferlinu er að stofna útgáfu fyrir afbrigðalíkan afurðar. Útgáfa stendur fyrir vensl á milli afurðarsniðmáts sem hægt er að velja fyrir skilgreiningu á pöntun eða tilboðslínu og afbrigðalíkan afurðar. Útgáfa verður að vera samþykkt áður en hægt er að hefja hana og nota.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Útvíkka afbrigðalíkan afurðar gegnum API
-Hefur verið útfærð í sérnýttu forritið forritun viðmót (API) svo að viðskiptaaðila og önnur sem hafa leyfi forritara er að útvíkka getu afbrigðalíkans afurðar. Aðal markmið hefur verið að stofna ferli sem let's samstarfsaðila og viðskiptavina sem nota fyrirliggjandi Vörusamsetningu flytja kóði sem er felldur inn í Vörusamsetningu líkön sem á að API. Á þennan hátt er þær hægt flytja þeirra líkön úr vörusamsetningu í afbrigði vöru. Hins vegar getur það einnig gagnast nýjum viðskiptaaðilum og viðskiptavinum að nota API til að lengja nýja afbrigðalíkönum afurðar.
+Hefur verið útfærð í sérnýttu forritið forritun viðmót (API) svo að viðskiptaaðila og önnur sem hafa leyfi forritara er að útvíkka getu afbrigðalíkans afurðar. Aðal markmið hefur verið að stofna ferli sem gerir kleift að samstarfsaðila og viðskiptavina sem nota fyrirliggjandi Vörusamsetningu flytja kóði sem er felldur inn í Vörusamsetningu líkön sem á að API. Á þennan hátt er þær hægt flytja þeirra líkön úr vörusamsetningu í afbrigði vöru. Hins vegar getur það einnig gagnast nýjum viðskiptaaðilum og viðskiptavinum að nota API til að lengja nýja afbrigðalíkönum afurðar.
 
 ### <a name="pcadaptor-class"></a>PCAdaptor klasa
 
@@ -137,9 +140,9 @@ API er virkur með því að nota safn **PCAdaptor** klasar sem sýna gögn skip
 
 Í eftirfarandi skýringarmynd útskýrir ferlið.  
 
-[![Skýringarmynd](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Flæðisskýringarmynd](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Skýringarmynd API afbrigði afurðar
+API-flæðisskýringarmynd afurðarafbrigða
 
 ## <a name="product-configuration"></a>Afurðarafbrigði
 Hægt er að framkvæma skilgreiningu afurðar frá eftirfarandi stöðum:
@@ -155,5 +158,7 @@ Tilgangur skilgreiningarinnar er að stofna vöruvíddasamsetning einkvæmrar v�
 ### <a name="multiple-sites-and-intercompany"></a>Mörg svæði og innan samstæðu
 
 Ef afbrigði verður að framkvæma á svæði, eða jafnvel fyrirtæki, sem er önnur en svæði eða fyrirtækið þar sem framleiðslan mun eiga sér stað, Uppskrift og leið stofnuð fyrir og setja starfsstöð birgi supplying fyrirtæki. Afurðarafbrigðið verða losaðar fyrirtækja sem taka þátt í birgðakeðjunni.
+
+
 
 

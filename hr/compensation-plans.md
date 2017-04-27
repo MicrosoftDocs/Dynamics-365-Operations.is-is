@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Launafyrirkomulag
 
+[!include[banner](includes/banner.md)]
+
+
 Stjórnendur launa og fríðinda geta notað launastjórnun til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
 
 ### <a name="introduction"></a>Inngangur
 
-Lausnastjórnun er notuð til að stýra afhendingu grunnlauna og umbunar. Starfsmanns föstum grunnlaunum og verðleika er stýrt með föstu launafyrirkomulagi. Greiðsla hvatagreiðslu, svo sem kaupauka, afkastaumbun, hlutafjárkaupréttur og styrki, en einnig eins-skiptis umbun, er stýrt með breytilegu launafyrirkomulagi. 
+Lausnastjórnun er notuð til að stýra afhendingu grunnlauna og umbunar. Föstum grunnlaunum starfsmanns og verðleikaaukning er stýrt með launafyrirkomulag fastra launa. Greiðsla hvatagreiðslu, svo sem kaupauka, afkastaumbun, hlutafjárkaupréttur og styrki, en einnig eins-skiptis umbun, er stýrt með breytilegu launafyrirkomulagi. 
 
 Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerðum. Starfsmaður verður að uppfylla eftirfarandi skilyrði til að vera hæfur fyrir launafyrirkomulagið.
 -   Starfsmaðurinn verður að hafa virka stöðuverkefni.
@@ -54,7 +57,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 <td>Aðgerðir fastra launa hafa tvennan tilgang:
 <ul>
 <li>Aðgerðir getur tilgreint gerðir upplýsingar sem verður að skrá þegar laun starfsmanns breytist. Til dæmis er hægt að krefjast ástæðu breytinga, eins og stöðuhækkun eða stöðulækkun verður skráð.</li>
-<li>Aðgerðir geta tryggja sem útreikningur er notaður þegar fastar greiðsluáætlanir eru unnar.  Til dæmis, aðgerðir af gerðinni Fé verður bera laun fyrir starfsmenn á tilvísunarpunktinum lágmarks fyrir stigið í starfsmanns og tryggja að starfsmaðurinn sækja greidd minnst lágmark.</li>
+<li>Aðgerðir geta tryggt að útreikningur er notað þegar launafyrirkomulag fastra launa eru unnið.  Til dæmis, aðgerðir af gerðinni eigið fé bera saman laun fyrir starfsmenn við lágmarks tilvísunarpunkt fyrir stig starfsmanns og tryggja að starfsmaðurinn fái greidd að minnsta kosti lágmarkið.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Greiðslutíðni</td>
-<td>Greiðslutíðni eru notaðar til að skilgreina tímabilið sem laun eru tilgreind.  Til dæmis laun tíðni auðveldar skilja ef laun upphæðin er tilgreind sem árleg laun gagnstætt á klukkustund launataxta. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaup greiðslutíðni til árleg greiðslutíðni.</td>
+<td>Greiðslutíðni er notuð til að skilgreina tímabilið sem laun eru greidd fyrir.   Til dæmis auðveldar greiðslutíðni að skilja hvort launaupphæðin er tilgreindur sem árleg laun eða launataxti á klukkustund. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr  greiðslutíðni fyrir mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaups yfir í árleg greiðslutíðni.</td>
 </tr>
 <tr class="odd">
 <td>Launasvæði</td>
@@ -107,7 +110,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Launanet</td>
-<td>Launanet innihalda launaskipulaginu.  Ein eða fleiri greiðsluáætlanir geta notað hnitanet launa.</td>
+<td>Launanet innihalda launaskipulagið.  Eitt eða fleiri launafyrirkomulag geta notað hnitanet launa.</td>
 </tr>
 <tr class="odd">
 <td>Afkastaáætlanir</td>
@@ -126,9 +129,11 @@ Vinnslutilvik reiknar út launaupplýsingar fyrir tilgreint tímabil handa öllu
 <a name="compensation-events"></a>Launatilvik
 -------------------
 
-Í hvert sinn vinnslutilvik er keyrt uppbót tilvikið var stofnað.  Launatilvik innihalda niðurstöðu ferlisins laun fyrir hvern starfsmann með í sem vinnslutilvikið.  Þegar útreikningar eru rétt er hægt að hlaða launatilvikinu til að uppfæra færslur laun fyrir starfsmenn sem verða fyrir áhrifum af vinnslutilvikið.
+Í hvert sinn vinnslutilvik er keyrt er launatilvik stofnað.  Launatilvik innihalda niðurstöðu launavinnslu fyrir hvern starfsmann sem hafður var með í vinnslutilvikinu.  Þegar útreikningar eru réttir er hægt að hlaða launatilvikinu til að uppfæra launafærslur fyrir starfsmenn sem verða fyrir áhrifum af vinnslutilvikið.
 
 ## <a name="recommendations"></a> Ráðleggingar
 Þegar vinnslutilvik hefur verið keyrt, geturðu stungið uppá leiðréttingar á verðleikahækkun starfsmanns eða umbunarupphæð út frá reiknuðum leiðbeiningar á vinnslutilvikinu. Til að gera tillögur fyrir starfsmenn, verður að virkja tillögur þegar launafyrirkomulag eru sett upp eða þegar sett er upp vinnslutilvikið.
+
+
 
 

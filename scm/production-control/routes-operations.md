@@ -1,6 +1,6 @@
 ---
 title: "Leiðir og aðgerðir"
-description: "Þetta efni veitir upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Það lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og pöntunin verður að framkvæma eftirfarandi skrefum í. Fyrir hvert skref er leiðin einnig skilgreinir nauðsynlegar aðgerðir tilfanga þarf uppsetningartíma og keyrslutíma, og hvernig kostnaður er reiknaður."
+description: "Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,214 +28,219 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="routes-and-operations"></a>Leiðir og aðgerðir
 
-Þetta efni veitir upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Það lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og pöntunin verður að framkvæma eftirfarandi skrefum í. Fyrir hvert skref er leiðin einnig skilgreinir nauðsynlegar aðgerðir tilfanga þarf uppsetningartíma og keyrslutíma, og hvernig kostnaður er reiknaður.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður.
 
 <a name="overview"></a>Yfirlit
 --------
 
-Í framleiðsluleið lýsir þeirri röð aðgerða sem er krafist til að framleiða á afurð eða afurðarafbrigði. Fyrir hverja aðgerð á leiðinni einnig skilgreinir rekstrartilföngum sem krafist er, tímanum sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæmt leið fyrir hverja afurð eða afurðarafbrigði. Enn er hægt að hafa margar leiðir til á sömu afurð. Í þessu tilfelli leið sem notuð er breytileg eftir þáttum eins og magn sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 aðgerða samanstendur af fjórum aðskildar einingar sem lýsa framleiðsluferlið saman:
+Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Operations samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 
--   **Leið** – leið skilgreinir skipulag framleiðsluferlið. Með öðrum orðum, það tilgreinir röð aðgerða.
--   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og geta haft mismunandi aðgerðanúmer.
--   **Aðgerðavensl** – aðgerðavensla skilgreinir aðgerð, eins og uppsetningartíma og keyrslutíma, kostnaðartegundir, færibreytur notkun og tilfangaþarfir aðgerðar eiginleikum. Aðgerðavenslin gerir rekstraráætlanagerðar eiginleikum eru breytilegir, eftir afurðir sem eru í framleiðslu eða leið sem aðgerðin er notað í aðgerð.
--   **Leiðarútgáfa** – leiðarútgáfu tilgreinir þá leið sem er notuð til að framleiða á afurð eða afurðarafbrigði. Leiðarútgáfur að virkja leiðir til að endurnota milli afurðir eða breyta tímanum. Þær gera einnig mismunandi leiðir til að nota til að framleiða á sömu afurð. Í þessu tilfelli, leið sem er notaður fer eftir þáttum staðsetningu eða magn sem framleiða þarf.
+-   **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
+-   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
+-   **Aðgerðavensl** – aðgerðavensl skilgreina aðgerðareiginleika, eins og uppsetningartíma og keyrslutíma, kostnaðartegundir, notkunarfæribreytur og tilfangaþarfir. Aðgerðavenslin virkja að aðgerðareiginleikar rekstraráætlanagerðar eru breytilegir, eftir leið sem aðgerðin er notuð í eða þeim afurðum sem verið er að framleiða.
+-   **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
 
 ## <a name="routes"></a>Leiðir
-Leið lýsir röð aðgerða sem er notuð til að framleiða á afurð eða afurðarafbrigði. Hver aðgerð er úthlutað aðgerðanúmer og þáttur aðgerð. Röð aðgerða skjámyndir leiðanet má tákna með beina línurit sem hefur eitt eða fleiri upphafsdagsetning punkta og eina endastöð. Í Dynamics 365 fyrir Aðgerðir, leiðir eru háttvirt samkvæmt skipulagsgerð. Tvær gerðir af leiðir eru einföldum leiðir og leiðarútgáfur net. Í færibreytum Framleiðslu stýringu hægt er að tilgreina hvort hægt er að nota aðeins einföld leiðir eða hvort hægt er að nota flóknari leiðanet.
+Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Dynamics 365 for Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
 
-### <a name="simple-routes"></a>Einföld leiðir
+### <a name="simple-routes"></a>Einfaldar leiðir
 
-Einföld leið er röð og er aðeins ein byrjunarreit fyrir leiðina.  
+Einföld leið er raðbundin og er aðeins einn byrjunarreitur fyrir leiðina.  
 
 [![Einföld leið](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ef aðeins einföld leiðir í færibreytum Framleiðslu, virkja myndar Dynamics 365 fyrir Aðgerðir sjálfkrafa í aðgerðanúmer (10, 20, 30, o.s.frv) þegar skilgreina leið.
+Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar myndar Dynamics 365 for Operations sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
 
 ### <a name="route-networks"></a>Leiðanet
 
-Ef flóknari leiðanet í færibreytur framleiðslustýringar, hægt er að skilgreina leiðum sem hafa mörg hafinn punkta og aðgerðir sem hægt er að keyra samhliða.  
+Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er hægt að skilgreina leiðir sem hafa marga upphafspunkta og aðgerðir sem hægt er að keyra samhliða.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Leiðanet](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Athugasemdir :**
 
--   Hver aðgerð getur haft eina þáttur aðgerð og alla leið þarf að ljúka í einni aðgerð.
--   Það er engin ábyrgðarbréfs sem margar aðgerðir sem hafa sömu þáttur aðgerð (t.d., aðgerðir 40 í fyrrgreint sýnidæmi og 30) verður að keyra raunverulega samhliða. Framboð og getu á tilföng væri að setja hömlur á því hvernig aðgerðum er raðað.
--   Hægt er að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
+-   Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
+-   Það er engin trygging fyrir því að margar aðgerðir sem hafa sömu arftakaaðgerð (t.d., aðgerðir 40 í fyrrgreint sýnidæmi og 30) verði í raun keyrðar samhliða. Framboð og geta tilfanga geta sett hömlur á það hvernig aðgerðum er raðað.
+-   Ekki er hægt að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina að síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
 
 ### <a name="parallel-operations"></a>Samhliða aðgerðir
 
-Stundum samsetningu margra rekstrartilföngum sem hafa mismunandi eiginleika er krafist til að framkvæma aðgerð. Til dæmis samsetningu aðgerð útheimt vél, verkfæri og einn starfsmann fyrir hvern tveggja véla til að hafa umsjón aðgerðina. Þessu dæmi er miðuð með því að nota samhliða aðgerðum þar sem ein aðgerð er skráður sem aðalaðgerðin og hin eru aukaáherslu.  
+Stundum er samsetningar margra rekstrartilfönga sem hafa mismunandi eiginleika krafist til að framkvæma aðgerð. Til dæmis getur samsetning aðgerða útheimt vél, verkfæri og einn starfsmann fyrir hverjar tvær vélar til að hafa umsjón með aðgerðinni. Þetta dæmi er hægt að setja upp í líkan með því að nota samhliða aðgerðir þar sem ein aðgerð er skráð sem aðalaðgerðin og hinar eru aukaáherslu.  
 
-[![Leið sem aðal-og aukaaðgerð](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Leið sem hefur aðal-og aukaaðgerðir](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-Yfirleitt, aðalaðgerðin stendur fyrir tilfang flöskuháls og ákvarðar hverng keyrslutíma fyrir aukaaðgerðir. Hins vegar við röðun sem felur í sér takmarkaðrar, tilföng sem eru áætlaðar fyrir aðalaðgerðin og á aukaaðgerðir verður tiltækur og hafa frjálsum afkastagetu á sama tíma.  
+Yfirleitt stendur aðalaðgerðin fyrir tilfangaflöskuháls og ákvarðar keyrslutíma fyrir aukaaðgerðir. Hins vegar við röðun sem felur í sér takmarkaðra getu, verða tilföng sem eru áætluð fyrir bæði aðalaðgerðina og aukaaðgerðir að vera tiltæk og hafa frjálsa afkastagetu á sama tíma.  
 
-Aðalaðgerðin og í aukaaðgerðum verða að hafa sama aðgerðarnúmer (30 í fyrrgreint sýnidæmi).  
+Aðalaðgerðin og aukaaðgerðir verða að hafa sama aðgerðarnúmer (30 í fyrrgreindu sýnidæmi).  
 
-Dæmið, tilfangaþörfina fyrir aðalaðgerðin (30) er á vél meðan tilfangaþarfirnar fyrir aukaaðgerðir (30' og 30'') eru forritið og starfsmanns. Fimmtíu - prósenta álags hjálpar til við að tryggja samræmda sem röðun starfsmanna geta hafa umsjón tveggja véla á sama tíma.
+Í dæminu hér á undan er tilfangaþörfin fyrir aðalaðgerðina (30) vélin á meðan tilfangaþarfir fyrir aukaaðgerðir (30' og 30'') eru forritið og starfsmaðurinn. Fimmtíu prósenta álag hjálpar til við að tryggja að áætlaður starfsmaður getur haft umsjón með tveimur vélum í einu.
 
 ### <a name="approval-of-routes"></a>Samþykki á leiðum
 
-Leið verður að vera samþykkt áður en hægt er að nota í ferli fjárhagsáætlunargerðar eða framleiðslufyrirtæki. Samþykki gefur til kynna hönnun leið hefur verið lokið. Sama losuð afurð eða útgefin afurðarafbrigði getur haft margar samþykktar leiðir. Yfirleitt, samþykki á leið á sér stað þegar fyrsta viðeigandi leiðaútgáfa samþykkt. Hins vegar í sumum business aðstæður, samþykki leiðina og leiðarútgáfuna eru aðskildar verkþætti sem snerta gætu mismunandi ferli eigendur.  
+Áður en hægt er að nota leið í áætlun eða framleiðsluferli, verður hún að vera samþykkt. Samþykki gefur til kynna leiðahönnun hefur verið lokið. Sama losuð afurð eða útgefin afurðarafbrigði geta haft margar samþykktar leiðir. Venjulega er samþykkt leiðar gerð þegar fyrsta viðeigandi leiðaútgáfa er samþykkt. Hins vegar í sumum viðskiptaaðstæðum, eru samþykkt leiðarinnar og leiðarútgáfunnar aðskildir verkþættir sem snert gætu mismunandi eigendur ferla.  
 
-Hverrar leiðar getur samþykkt eða ósamþykkt sérstaklega. Athugið hins vegar, þegar leið er ósamþykkt eru allar tengdar leiðarútgáfur eru einnig ósamþykktar. Í færibreytum Framleiðslu stýringu hægt er að tilgreina hvort leiðir getur verið ósamþykkt og hvort hægt er að breyta leiðum.  
+Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins vegar að þegar leið er ósamþykkt, eru allar tengdar leiðarútgáfur einnig ósamþykktar. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort hæg t sé að hætta við samþykkt leiða og hvort hægt sé að breyta samþykktum leiðum.  
 
-Ef um er að halda kladda sem færslur sem samþykkir hverrar leiðar er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur fái til að staðfesta auðkenni þeirra með því að nota við [rafrænna undirskrifta](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Rekstur
-Aðgerð er skref í framleiðsluferlinu. Hver aðgerð hefur Kenni og lýsingu á einföldum í Dynamics 365 fyrir Aðgerðir. Eftirfarandi töflur sýnir gott dæmi um aðgerðir úr vél verslunar.
+Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu í Dynamics 365 for Operations. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
 
 | Aðgerð  | lýsing        |
 |------------|--------------------|
-| PipeCut    | Pipe klipping       |
-| TIGweld    | TIG welding        |
-| JigAssy    | Samsetning jig       |
+| PipeCut    | Klippa       |
+| TIGweld    | TIG suða        |
+| JigAssy    | Jig-samsetning       |
 | Eftirlit | Gæðaeftirlit |
 
-Aðgerð, eins og uppsetningartíma og keyrslutíma, tilfangaþarfir, upplýsingar kostnaðarútreiknings og útreikningur notkunar aðgerðar eiginleika eru tilgreind í aðgerðavenslin. (Frekari upplýsingar um aðgerðavensl sjá hlutann næstu.)
+Aðgerðareiginleikar aðgerðar, eins og uppsetningartími og keyrslutími, tilfangaþörf, kostnaðarútreikningar og notkunarútreikningar, eru tilgreindir í aðgerðarvenslum. (Frekari upplýsingar um aðgerðavensl eru í næsta hluta.)
 
 ## <a name="operation-relations"></a>Aðgerðavensl
-Eftirfarandi eiginleikar rekstraráætlanagerðar aðgerðar er haldið við í aðgerðavenslin:
+Eftirfarandi eiginleikum rekstraráætlanagerðar aðgerðar er haldið við í aðgerðavenslum:
 
 -   Kostnaðartegundir
--   Færibreytur fyrir notkun
--   Vinnslutíma
+-   Notkunarfæribreytur
+-   Vinnslutímar
 -   Magn í vinnslu
 -   Tilfangaþörf
 -   Athugasemdir og leiðbeiningar
 
-Hægt er að skilgreina margar aðgerðavensl fyrir sömu aðgerð. Hins vegar hver aðgerðavensl við eina aðgerð og vistar eiginleika sem tengjast leið, losaðar afurðir eða safn útgefnar afurðir sem eru tengdar við flokk vöru. Þess vegna er hægt að nota sömu aðgerð í mörgum leiðum sem hafa mismunandi rekstraráætlanagerðar eiginleika. Þar að auki er hægt auðveldara að viðhalda skal aðalgögn ef um er að nota staðlaðar aðgerðir sem hafa sömu eiginleika rekstraráætlanagerðar, óháð leið sem er notuð og vara sem er framleidd. Svið aðgerðavenslin er skilgreind í gegnum í **Vörukóði**, **Vöruvensl**, **Leið kóða** og **Leið vensl** eiginleika, eins og sýnt er í eftirfarandi töflu.
+Hægt er að skilgreina mörg aðgerðavensl fyrir sömu aðgerð. Hins vegar eru hver aðgerðavensl sértæk við eina aðgerð og geyma eiginleika sem tengjast leið, losuðum afurðum eða safni útgefinna afurða sem eru tengdar við flokk vöru. Þess vegna er hægt að nota sömu aðgerð í mörgum leiðum sem hafa mismunandi aðgerðareiginleika. Þar að auki er auðveldlega hægt að viðhalda aðalgögnum ef notaðar eru staðlaðar aðgerðir sem hafa sömu aðgerðareiginleika, óháð leið sem er notuð og vöru sem er framleidd. Svið aðgerðavensla er skilgreint í gegnum eiginleikana **Vörukóði**, **Vöruvensl**, **Leið kóða** og **Leið vensl** eins og sýnt er í eftirfarandi töflu.
 
-| Vörukóði | Vöruvensl         | Leiðarkóði | Leiðarvensl   | Svið aðgerðavenslin                                                                                                                                                                                                                                                                              |
+| Vörukóði | Vöruvensl         | Leiðarkóði | Leiðarvensl   | Umfang aðgerðavensla                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tafla     | &lt;Vörukenni&gt;       | Leið      | &lt;Auðkenni leiðar&gt; | Um eiginleikum aðgerð þegar hann er notaður í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt; til að framleiða útgefin afurð þar sem **Vörunúmer**=&lt;vörukenni&gt;.                                                                                                                        |
-| Tafla     | &lt;Vörukenni&gt;       | Allir lyklar        |                  | Sjálfgefin rekstraráætlanagerðar eiginleikum aðgerð þegar hún er notuð til að framleiða útgefin afurð þar sem **Vörunúmer**=&lt;vörukenni&gt;. Með öðrum orðum þessir eiginleikar rekstraráætlanagerðar eiga við þegar engin tengsl eru sérstaklega leið aðgerð fyrir losaða afurð.                                     |
-| Hópur     | &lt;Kenni vöru&gt; | Leið      | &lt;Auðkenni leiðar&gt; | Rekstraráætlanagerðar eiginleikum aðgerð þegar hann er notaður í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt; til að framleiða útgefnu afurðanna sem tengjast vöruflokkum &lt;vörukenni flokk&gt;, nema það sé tiltekin leið aðgerðavensl fyrir losaða afurð.                         |
-| Hópur     | &lt;Kenni vöru&gt; | Allir lyklar        |                  | Sjálfgefin rekstraráætlanagerðar eiginleikum aðgerð þegar hún er notuð til að framleiða útgefnu afurðanna sem tengjast vöruflokkum &lt;vörukenni flokkur&gt;, nema nákvæmari aðgerðavensl til.                                                                                                  |
-| Allir lyklar       |                       | Leið      | &lt;Auðkenni leiðar&gt; | Sjálfgefin rekstraráætlanagerðar eiginleikum aðgerðina þegar hann er notaður í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt;. Með öðrum orðum þessir eiginleikar rekstraráætlanagerðar eiga við þegar það er engin aðgerðavensl fyrir þessa leið sem tilheyra annaðhvort útgefin afurð eða hún er með tengda vöruflokk. |
-| Allir lyklar       |                       | Allir lyklar        |                  | Sjálfgefin rekstraráætlanagerðar eiginleikum aðgerð. Þessir eiginleikar rekstraráætlanagerðar gilda þegar nákvæmari aðgerðavensl er ekki til.                                                                                                                                                                |
+| Tafla     | &lt;Vörukenni&gt;       | Leið      | &lt;Auðkenni leiðar&gt; | Aðgerðaeiginleikar aðgerðar þegar hún er notuð í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt; til að framleiða útgefin afurð þar sem **Vörunúmer**=&lt;vörukenni&gt;.                                                                                                                        |
+| Tafla     | &lt;Vörukenni&gt;       | Allir lyklar        |                  | Sjálfgefnir aðgerðareiginleikar aðgerðar þegar hún er notuð til að framleiða útgefna afurð þar sem **Vörunúmer**=&lt;vörukenni&gt;. Með öðrum orðum eiga þessir eiginleikar rekstraráætlanagerðar við þegar engin leiðarsértæk tengsl eru til fyrir losaða afurð.                                     |
+| Hópur     | &lt;Kenni vöruflokka&gt; | Leið      | &lt;Auðkenni leiðar&gt; | Aðgerðareiginleikar aðgerðar þegar hún er notuð í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt; til að framleiða útgefnar afurðir sem tengjast vöruflokkum &lt;vörukenni flokk&gt;, nema það sé tiltekin leið aðgerðavensl fyrir losaða afurð.                         |
+| Hópur     | &lt;Kenni vöruflokka&gt; | Allir lyklar        |                  | Sjálfgefnir aðgerðareigileikar aðgerðar þegar hún er notuð til að framleiða útgefnu afurðanna sem tengjast vöruflokkum &lt;vörukenni flokkur&gt;, nema nákvæmari aðgerðavensl séu til.                                                                                                  |
+| Allir lyklar       |                       | Leið      | &lt;Auðkenni leiðar&gt; | Sjálfgefnir aðgerðaeiginleikar aðgerðar þegar hún er notuð í leiðinni þar sem **Leiðarnúmer**=&lt;leiðarkenni&gt;. Með öðrum orðum eiga þessir aðgerðareiginleikar við þegar engin aðgerðartengsl eiga sérstaklega við um annaðhvort útgefna afurð eða tengdan vöruflokk. |
+| Allir lyklar       |                       | Allir lyklar        |                  | Sjálfgefnir aðgerðareiginleikar aðgerðar. Þessir aðgerðareiginleikar gilda þegar nákvæmari aðgerðavensl eru ekki til.                                                                                                                                                                |
 
-Einnig er hægt að tilgreina aðgerðavensla er bundinn við svæði. Á þennan hátt er rekstraráætlanagerðar eiginleikum aðgerð geta verið mismunandi, eftir staðsetningu (sem er í svæði) þar sem aðgerðin er framkvæmd. Fyrir skilgreindar vörur má einnig að tilgreina mismunandi um eiginleika fyrir hvert afurðarafbrigði.  
+Einnig er hægt að tilgreina að aðgerðavensl séu bundin við svæði. Á þennan hátt geta aðgerðaeiginleikar aðgerðar verið mismunandi, eftir staðsetningu (það er að segja, svæðinu) þar sem aðgerðin er framkvæmd. Fyrir skilgreindar vörur má einnig að tilgreina mismunandi aðgerðareiginleika fyrir hverja afurðargrunnstillingu.  
 
-Aðgerðavensl gefið lotur sveigjanleika þegar skilgreina skal leiðir. Þar að auki er kleift að skilgreina sjálfgefna eiginleika hjálpar til við að draga úr fjölda aðalgögn sem þarf að vinna með. Hins vegar sveigjanleika þetta þýðir líka að sem verður að hafa í huga samhengi sem aðgerðavensla í að breyta.  
+Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar að auki hjálpar getan að skilgreina sjálfgefna eiginleika til við að draga úr fjölda aðalgagna sem þarf að vinna með. Hins vegar þýðir þessi sveigjanleika líka að það verður að hafa í huga samhengið sem aðgerðavenslum er breytt innan.  
 
-**Athugasemd:** Því rekstraráætlanagerðar eiginleikar eru geymd í aðgerðavensl fyrir hverja aðgerð á leiðinni, öll tilvik af sömu aðgerð (t.d. Samsetningu) hafa sama uppsetningartíma, keyrslutíma, tilfangaþarfir og svo framvegis. Þess vegna ef tveggja tilvika aðgerðar verður koma í sömu leið en hafa mismunandi keyrðar oft þarf að stofna einkvæmrar aðgerðir, eins og Assembly1 og Assembly2.
+**Athugasemd:** Þar sem aðgerðaeiginleikar eru geymdir í aðgerðavenslum fyrir hverja aðgerð á leiðinni, hafa öll tilvik af sömu aðgerð (t.d. Samsetningu) sama uppsetningartíma, keyrslutíma, tilfangaþarfir og svo framvegis. Þess vegna ef tvö tilvik aðgerðar verða að koma á sömu leið en hafa mismunandi keyrslutíma þarf að stofna tvær einkvæmar aðgerðir, eins og Assembly1 og Assembly2.
 
-### <a name="modifying-product-specific-routes"></a>Breyta afurðabundnar leiðir
+### <a name="modifying-product-specific-routes"></a>Breyti afurðabundnum leiðum
 
-Þegar opna í **Leið** frá síðunni á **Losuð afurðarupplýsingar** síðu leiðarútgáfur sem eru tengdar við valda afurð losuð eru sýndar. Í þessu samhengi fyrir hverja aðgerð Dynamics 365 aðgerða sýnir rekstraráætlanagerðar eiginleikum úr aðgerðavenslin sem samsvarar best leiðarútgáfuna. Álagsritsins verður að innihalda lista yfir aðgerðir í **Vörukóði** og **Leið kóða** eiginleikar úr aðgerðavenslin. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
+Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi fyrir hverja aðgerð sýnir Dynamics 365 for Operations aðgerðaeiginleika úr aðgerðavenslum sem samsvarar best leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
 
-Í í **Leið** síðu er hægt að breyta eiginleikum rekstraráætlanagerðar aðgerð keyrslutíma eða kostnaðartegundir. Breytingarnar eru vistaðar í aðgerðavensl við leiðina og útgefin afurð sem vísað er í gildandi leiðarútgáfu. Ef aðgerðavensl sem sýndur er ekki við leiðina og útgefin afurð áður en breytingar eru vistaðar, sem kerfið býr til afrit af aðgerðavenslin. Þessi afrit *er* sérstaklega við um leið og útgefin afurð. Því eru breytingarnar ekki áhrif á aðrar leiðir eða útgefnum afurðum. Til að staðfesta venslin sem aðgerðin hefur verið breytt á í **Leið** síðunni, þvínæst á **Vörukóði** og **Leið kóða** svæði.  
+Á síðunni **Leið** er hægt að breyta aðgerðareiginleikum aðgerðar, eins og keyrslutíma eða kostnaðartegundum. Breytingarnar eru vistaðar í aðgerðavensl sem eiga sérstaklega við um leiðina og útgefna afurð sem vísað er í gildandi leiðarútgáfu. Ef aðgerðavensl sem eru sýnd eiga ekki sérstaklega við um leiðina og útgefna afurð áður en breytingar eru vistaðar, býr kerfið til afrit af aðgerðavenslunum. Þetta afrit *er* sértækt fyrir leiðina og útgefna afurð. Þess vegna hafa breytingarnar ekki áhrif á aðrar leiðir eða útgefnar afurðir. Til að staðfesta hvaða aðgerðavenslum er breytt á síðunni **Leið** síðunni, skal skoða svæðin **Vörukóði** og **Leiðarkóða**.  
 
-Einnig handvirkt er hægt að stofna aðgerð sem er sérstaklega við um leið og útgefin afurð með því að nota í **Afrita og breyta venslum** aðgerð.  
+Einnig er hægt að stofna handvirkt aðgerð sem á sérstaklega við um leið og útgefna afurð með því að nota aðgerðina **Afrita og breyta venslum**.  
 
-**Athugasemd:** Ef bæta við nýrri aðgerð í leið á í **Leið** síðu aðgerðavensla er stofnað aðeins fyrir gildandi útgefin afurð. Þess vegna ef leið er einnig notuð til að útbúa aðra útgefnar afurðir, engin tengsl við aðgerð verða til fyrir þær útgefnar afurðir og ekki lengur hægt að nota leið fyrir þær útgefnar afurðir.
+**Athugasemd:** Ef bætt er við nýrri aðgerð í leið á síðunni **Leið** eru aðgerðavensl aðeins stofnuð fyrir gildandi útgefna afurð. Þess vegna ef leið er einnig notuð til að útbúa aðrar útgefnar afurðir, munu engin aðgerðatengsl verða til fyrir þær útgefnar afurðir og ekki verður lengur hægt að nota leið fyrir þessar útgefnu afurðir.
 
-### <a name="maintaining-operation-relations-per-route"></a>Viðhald aðgerðavensl fyrir leið
+### <a name="maintaining-operation-relations-per-route"></a>Vinna með aðgerðavensl á hverja leið
 
-Þegar opna í **Leiðarupplýsingar** frá síðunni á **Leiðir** listasíðu, birtist listi yfir allar aðgerðavensl sem eiga við valda leið. Þess vegna er auðveldlega hægt að staðfesta hvaða aðgerðar eiginleikar eru notaðir fyrir hvaða afurðir. Hægt er að breyta eiginleika sjálfgildi og gildi eiginleika afurðabundnar.  
+Þegar þú opnar síðuna **Leiðarupplýsingar** á listasíðunni **Leiðir** birtist listi yfir öll aðgerðavensl sem eiga við valda leið. Þess vegna er auðveldlega hægt að staðfesta hvaða aðgerðareiginleikar eru notaðir fyrir hvaða afurðir. Hægt er að breyta sjálfgefnum eiginleikagildum og afurðabundnum eiginleikagildum.  
 
-Ný aðgerðavensl er bætt við á á **Leiðarupplýsingar** síðu í **Leið kóða** er sjálfkrafa stillt á **Leið**, og **Leið vensl** er stillt á leið númer gildandi leið.
+Ef nýjum aðgerðavenslum er bætt við á síðunni **Leiðarupplýsingar** er **Leið kóða** sjálfkrafa stillt á **Leið**, og svæðið **Leiðarvensl** er stillt á leiðarnúmer gildandi leiðar.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Umsjón með aðgerðavensl fyrir hverja aðgerð
+### <a name="maintaining-operation-relations-per-operation"></a>Vinna með aðgerðavensl á hverja aðgerð
 
-Úr í **Aðgerðir** síðu er hægt að opna í **aðgerðavensl** síðu. Á þessari síðu er hægt að breyta öllum aðgerðavensl fyrir tilgreindu aðgerðina. Hægt er að breyta jafnvel aðgerðavensl sem innihalda sjálfgefin gildi.  
+Af síðunni **Aðgerðir** er hægt að opna síðuna **aðgerðavensl**. Á þessari síðu er hægt að breyta öllum aðgerðavenslum fyrir tilgreindu aðgerðina. Hægt er að breyta jafnvel aðgerðavenslum sem innihalda sjálfgefin gildi.  
 
-Ef fyrirtækið notar staðlaðar aðgerðir og ef um færibreytur eru þau sömu fyrir allar afurðir og ferli, sem **aðgerðavensl** síða gefur þægileg leið til að viðhalda sjálfgefnum rekstraráætlanagerðar eiginleikum þær aðgerðir.
+Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þær sömu fyrir allar afurðir og ferli, gefur síðan **Aðgerðavensl** þægilega leið til að viðhalda sjálfgefnum aðgerðareiginleikum þeirra aðgerða.
 
-### <a name="applying-operation-relations"></a>Beita aðgerðavensl
+### <a name="applying-operation-relations"></a>Beiting aðgerðavensla
 
-Í sumum tilfellum Dynamics 365 fyrir Aðgerðir verður að finna rekstraráætlanagerðar eiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð um eiginleikum hverri aðgerð verður að afrita úr vensl aðgerða í framleiðsluleiðinni. Í þessum kringumstæðum er leitar Dynamics 365 fyrir Aðgerðir í viðeigandi aðgerðavensl úr sérstakasta samsetningu að samsetningin.  
+Í sumum tilfellum verður Dynamics 365 for Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Dynamics 365 for Operations að viðeigandi aðgerðavenslum frá sérstökustu samsetningunni að minnst sérstöku samsetningunni.  
 
-Þegar Dynamics 365 fyrir Aðgerðir leitar viðeigandi aðgerðavensl fyrir losaða afurð aðgerðavensla sem samsvarar Vörukenni útgefin afurð er forgangs yfir aðgerðavensla sem samsvarar vöruflokk kenni. Upphafspunkti aðgerðavensla sem samsvarar Flokkskenni vöru er æskilegur yfir aðgerðavensl sjálfgefið. Leitin er gert í eftirfarandi röð:
+Þegar Dynamics 365 for Operations leitar að mest viðeigandi aðgerðavenslum fyrir losaða afurð eru aðgerðavensl sem samsvara Vörukenni útgefinar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
 
-1.  **Vörukóði**=**Töfluna** og **Vöruvensl**=&lt;vörukenni&gt;
-2.  **Vörukóði**=**Flokkur** og **Vöruvensl**=&lt;Auðkenni vöru&gt;
-3.  **Vörukóði**=**Allar**
-4.  **Leið kóða**=**Leið** og **Leið vensl**=&lt;Kenni leiðar&gt;
-5.  **Leið kóða**=**Allar**
+1.  **Vörukóði**=**Tafla** og **Vöruvensl**=&lt;vörukenni&gt;
+2.  **Vörukóði**=**Hópur** og **Vöruvensl**=&lt;vörukenni&gt;
+3.  **Vörukóði**=**Allt**
+4.  **Leiðakóði**=**Leið** og **Leið tengsl**=&lt;leið kenni&gt;
+5.  **Leiðarkóði**=**Allt**
 6.  **Skilgreining**=&lt;Skilgreiningarkenni&gt;
-7.  **Configuration**=
-8.  **Svæði**=&lt;setri Kenni&gt;
-9.  **Site**=
+7.  **Skilgreining**=
+8.  **Svæði**=&lt;Svæðiskenni&gt;
+9.  **Svæði**=
 
-Þess vegna aðgerð á að nota aðeins einu sinni fyrir hverja leið. Ef aðgerðin margsinnis í sömu leið er öllum tilvika sem aðgerðin mun hafa sama aðgerðavensl og er ekki hægt að hafa aðra eiginleika (til dæmis keyrslu) fyrir hvert tilvik.
+Þess vegna á aðeins að nota aðgerð einu sinni fyrir hverja leið. Ef aðgerðin kemur margsinnis fyrir í sömu leið munu öll tilvik þeirrar aðgerðar hafa sömu aðgerðavensl og ekki er hægt að hafa aðra eiginleika (til dæmis keyrslutíma) fyrir hvert tilvik.
 
 ## <a name="route-versions"></a>Leiðarútgáfur
-Útgáfur leiða eru notaðar til að hýsa tilbrigði í framleiðslunni afurðir eða veita meiri stjórn yfir framleiðsluferlinu. Þeir skilgreina leið sem á að nota þegar tiltekin afurð losuð eða losuð afurðarafbrigði er framleidd. Hægt er að nota eftirfarandi skorður til að skilgreina leið sem er notað fyrir losaða afurð:
+Útgáfur leiða eru notaðar til að hýsa tilbrigði í framleiðslu á afurðum eða veita meiri stjórn yfir framleiðsluferlinu. Þær skilgreina þá leið sem á að nota þegar tiltekin útgefin afurð eða losuð afurðarafbrigði er framleidd. Hægt er að nota eftirfarandi skorður til að skilgreina hvaða leið er notuð fyrir losaða afurð:
 
--   Afurðavíddir (stærð, lit, stílum eða afbrigði)
+-   Vöruvíddir (stærð, litur, stíll eða skilgreining)
 -   Framleiðslumagn
 -   Framleiðslusvæði
--   Dagsetning framleiðslu
+-   Framleiðsludagsetning
 
-Þegar verið er að framleiða vöru á ákveðnu svæði í ákveðið magn eða á tilteknu tímabili, er hægt að úthluta ákveðinni leiðarútgáfu viðkomandi útgáfu sem sjálfgefna leið. Athugið hins vegar að aðeins ein virk leið er leyfð fyrir tiltekið útgefin afurð og tiltekið safn skorður.  
+Þegar verið er að framleiða vöru á ákveðnu svæði í ákveðnu magni eða á tilteknu tímabili, er hægt að úthluta ákveðinni leiðarútgáfu viðkomandi útgáfu sem sjálfgefinni leiðarútgáfu. Athugið hins vegar að aðeins ein virk leið er leyfð fyrir tiltekna útgefna afurð og tiltekið safn skorður.  
 
-Í færibreytum Framleiðslu stýring má krefjast gildistíma leiðarútgáfu alltaf að vera tilgreint.
+Í færibreytum Framleiðslustýringar er hægt að krefjast að gildistími leiðarútgáfu verði alltaf að vera tilgreintdur
 
-### <a name="approval-of-route-versions"></a>Samþykkja útgáfur leiða
+### <a name="approval-of-route-versions"></a>Samþykkt á leiðarútgáfum
 
-Áður en hægt er að nota leiðarútgáfu í áætlun eða framleiðslu í vinnslu, það verður að vera samþykkt. Þegar leiðaútgáfa er samþykkt, einnig er hægt að samþykkja tengdar leið. Athugið hins vegar hægt að samþykkja útgáfu leiðar ef sem tengd er einnig leiðina.
+Áður en hægt er að nota leiðarútgáfu í áætlun eða framleiðsluferli verður að samþykkja hana. Þegar leiðaútgáfa samþykkt er einnig hægt að samþykkja tengda leið. Athugið að hægt er að samþykkja leiðarútgáfu eingöngu ef tengd leið er einnig samþykkt.
 
 ### <a name="activating-the-default-route-version"></a>Virkja sjálfgefna leiðarútgáfu
 
-Þegar leiðaútgáfa er virkjuð er að tilgreina hann sem nota sjálfgefna leiðarútgáfan sem sniðmát fjárhagsáætlunargerðar, eða sem verður notað til að stofna framleiðslupantanir. Hægt er að hafa aðeins ein virk leiðarútgáfa fyrir tiltekið safn skorður (til dæmis, tímabil, svæði eða magn). Ef útgáfan sem verið er að reyna að virkja rekst á við útgáfu sem er þegar virk berast villuskilaboð. Til að koma í veg fyrir að tvíræðrar virkjun, síðan annaðhvort verður rákust útgáfa gera eða breyta skorðum (yfirleitt tímabilið) í leiðarútgáfu.
+Þegar leiðaútgáfa er virkjuð er hún tilgreind sem sjálfgefin leiðarútgáfa sem aðaláætlanagerð notar eða sem verður notuð til að stofna framleiðslupantanir. Hægt er að hafa aðeins eina virka leiðarútgáfu fyrir tiltekið safn skorður (til dæmis, tímabil, svæði eða magn). Ef útgáfan sem verið er að reyna að virkja rekst á við útgáfu sem er þegar virk berast villuskilaboð. Það verður annaðhvort að afvirkja útgáfu sem rekst á eða breyta skorðum útgáfu (yfirleitt tímabils) til að koma í veg fyrir tvíræða virkjun.
 
 ### <a name="electronic-signatures"></a>Rafrænar undirskriftir
 
-Ef þarf er að halda kladda sem færslur sem samþykkir og virkjar hverja leiðarútgáfa er hægt að krefjast rafrænna undirskrifta fyrir þessi verk. Notendur sem samþykkja og virkja leiðaútgáfur svo þarf að staðfesta auðkenni þeirra með því að nota við [rafrænna undirskrifta](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Breyting á afurð sem notar málastjórnunar
+### <a name="product-change-that-uses-case-management"></a>Vörubreyting sem notar málastjórnun
 
-Afurðin afurðarbreytingamál fyrir samþykki og virkjun nýir eða breyttir leiðir og leiðarútgáfur gefur auðveld leið til að sjá yfirlit yfir skorður útgáfu leiðar. Einnig er hægt að samþykkja og virkja allar leiðir sem eru tengdar við tiltekinn breytt í einni aðgerð og niðurstöðum í afurðarbreytingamálið skjals.
+Afurðarbreytingamál fyrir samþykkt og virkjun nýrra eða breyttra leiða og leiðarútgáfa veitir auðvelda leið til að sjá yfirlit yfir skorður leiðarútgáfu. Einnig er hægt að samþykkja og virkja allar leiðir sem tengjast ákveðinni breytingu í einni aðgerð og skjalfesta niðurstöður í breytingarmáli afurðar.
 
-## <a name="maintaining-routes"></a>Umsjón með leiðum
-Eftir ykkar, gæti verið hægt að minnka framlag sem er krafist til að vinna með skilgreiningar á vinnslu.
+## <a name="maintaining-routes"></a>Viðhalda leiðum
+Eftir viðskiptaþörfum ykkar, gæti verið hægt að minnka það framlag sem er krafist til að viðhalda skilgreiningum á vinnslu.
 
-### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháð tilföng
+### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháðar tilföngum
 
-Í mörgum kerfum aðgerðir tilfang eða tilfangaflokkur sem á að framkvæma aðgerð að vera tilgreint í leiðinni. Hins vegar í Dynamics 365 fyrir Aðgerðir sem hægt er að skilgreina safn þarfir aðgerðir tilfanga verður að uppfylla sem við á fyrir aðgerðina. Þess vegna tiltekinna aðgerða tilfang eða tilfangaflokkur sem á að nota er ekki með til að ákvarða fyrr en er aðgerðinni raðað raun. Þessi virkni er sérlega gagnleg þegar mörgum starfsmönnum eða vélum sem getur unnið sömu aðgerð.  
+Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Dynamics 365 for Operations hægt að skilgreina safn þarfa sem aðgerðir tilfanga verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
 
-Til dæmis tilgreina aðgerð krefst inn rekstrartilföng af á **Vélar** sem hefur í **Stamping** getu 20 tonnum. Áætlunarkerfið verður geta síðan leyst úr þessar þarfir til tiltekinna aðgerða tilfang eða tilfangaflokkur þegar aðgerðin er áætluð. Þar sem einungis er hægt að tilgreina þessar þarfir bindingaraðgerð á vél á tilteknum stað, hafa mikið sveigjanlegri. Þar að auki, viðhald er auðveldara þegar tilföng eru fluttar eða ný tilföng er bætt við.  
+Til dæmis tilgreinir þú að aðgerð krefst aðgerða af gerðinni **Vélar** sem hefur **Stimplunar**getu upp á 20 tonn. Röðunarvélin mun síðan leysa þessar þarfir til tiltekinna aðgerðatilfanga eða tilfangaflokks þegar aðgerðin er áætluð. Þar sem hægt er að tilgreina einungis þessar þarfir í stað þess að binda aðgerð við tiltekna vél, hefurðu miklu meiri sveigjanleika. Þar að auki, verður viðhald auðveldara þegar tilföng eru flutt eða nýjum tilföngum er bætt við.  
 
-Nánari upplýsingar um mismunandi gerðir af tilfangaþarfir og hvernig á að nota þær í tilfangaþarfir Aðgerða og [tilfangagetu](resource-capabilities.md).
+Nánari upplýsingar um mismunandi gerðir af tilfangaþörfum og hvernig á að nota þær er að finna í tilfangaþarfir Aðgerða og [tilfangagetu](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Samnýta leiðir á milli setra
+### <a name="sharing-routes-across-sites"></a>Samnýting leiða á milli svæða
 
-Ef að framleiða á sömu afurð á fleiri en einu svæði framleiðslu og ef skrefin fyrir framleiðslu á vöru eru þau sömu í öllum sites oft er hægt að hanna samnýtta leið sem notuð er á milli allra framleiðslusvæði. Til að stofna samnýtt leið er ekki að tilgreina svæði á leiðinni sjálfri. Hins vegar þarf samt að stofna leiðarútgáfu sem tengir samnýtta leið við afurð á hverju svæði.  
+Ef framleiða á sömu afurð á fleiri en einu svæði framleiðslu og ef skrefin fyrir framleiðslu á vöru eru þau sömu í öllum svæðum er oft hægt að hanna samnýtta leið sem notuð er á milli allra framleiðslusvæða. Til að stofna samnýtta leið skal ekki tilgreina svæði á leiðinni sjálfri. Hins vegar þarf samt að stofna leiðarútgáfu sem tengir samnýtta leið við afurð á hverju svæði.  
 
-Verður einnig að tryggja tilfangaþarfir fyrir hverja aðgerð í leiðinni ekki hringja fyrir tilföng sérstakar aðgerðir eða tilfangaflokka, en í staðinn er tilgreindur í einkenni þarf tilföng. Áætlunarkerfið síðan verður að úthluta viðeigandi rekstrartilföngum úr því svæði sem framleiðslu er raðað. Til dæmis ef eru örlítið mismunandi í keyrslutíma eða ef uppsetningartíma fyrir tiltekna aðgerð er ekki svæðisbundið er hægt að tilgreina þessar upplýsingar með því að bæta fleiri aðgerðavensl fyrir þá svæði.  
+Einnig verður að tryggja að tilfangaþarfir fyrir hverja aðgerð í leiðinni kalli ekki eftir sértækum rekstrartilföngum eða tilfangaflokkum, en séu þess í stað tilgreind hvað varðar einkenni áskilinna tilfanga. Röðunarvélin mun síðan geta úthlutað viðeigandi rekstrartilföngum úr því svæði sem framleiðslu er raðað á. Til dæmis ef það er örlítill mismunur í keyrslutíma eða ef uppsetningartími fyrir tiltekna aðgerð er svæðisbundinn er hægt að tilgreina þessar upplýsingar með því að bæta við fleiri aðgerðavenslum fyrir það svæði.  
 
-Til fulls fríðindi samnýtta leiðir, ætti einnig nota tilfanganotkun á samsvarandi uppskrift (BOM). Þegar þú flaggið fyrir tilfanganotkun í uppskriftarlínunni, vöruhús og staðsetning sem á að nota hráefni frá er inferred úr rekstrartilföng sem er aðgerðinni raðað á. Þess vegna vöruhús og staðsetning vinnukortaheimild ekki til að ákvarða þar til framleiðslunni er raðað raun. Á þennan hátt er hægt að gera Uppskrift og leið óháð efnisleg staðsetning þar sem varan er framleidd.
+Til að nýta fríðindi samnýttra leiða til fulls ætti einnig nota tilfanganotkun á samsvarandi uppskrift (BOM). Þegar þú stillir flaggið fyrir tilfanganotkun í uppskriftarlínunni, er vöruhús og staðsetning sem á að nota hráefni frá afleitt úr rekstrartilföngum sem aðgerðinni er raðað á. Þess vegna þarf ekki að ákvarða vöruhús og staðsetningu fyrr en framleiðslan er í rauninni áætluð. Á þennan hátt er hægt að gera bæði Uppskrift og leið óháðar efnislegri staðsetningu þar sem varan er framleidd.
 
 ### <a name="standard-operation-relations"></a>Stöðluð aðgerðavensl
 
-Ef fyrirtækið notar staðlaðar aðgerðir í gegnum framleiðslu sé minnstu eða engin afbrigði uppsetningartíma, keyrslutíma útreikningur notkunar kostnaðarútreikning, og svo á, gæti borgað stofnun sjálfgefna aðgerðavensl fyrir allar aðgerðir. Í þessu tilfelli koma í veg fyrir stofnun aðgerðavensl sem eiga við allar leið eða losuð afurð.  
+Ef fyrirtækið notar staðlaðar aðgerðir í gegnum framleiðslu og ef það er lítill sem enginn breytileiki á uppsetningartíma, keyrslutíma, notkunarútreikningi, kostnaðarútreikningi og svo framvegis, gæti borgað sig að stofna sjálfgefin aðgerðavensl fyrir allar aðgerðir. Í þessu tilfelli skal forðast að stofna aðgerðavensl sem eiga við allar leiðir eða losaðar afurðir.  
 
-Ef einnig express tilfangaþarfir hæfni og getu, og gera notanda leiðir óháð svæði, sem geta hjálpað til við halda áframhaldandi viðhald viðskiptaferlunum að lágmarki.  
+Ef þú tilgreinir einnig tilfangaþarfir hvað varðar hæfni og getu og gerir notandaleiðirnar óháðar svæði, er hægt að hjálpa til við að halda áframhaldandi viðhaldi viðskiptaferlanna í lágmarki.  
 
-Þegar þessi aðferð er notuð í **aðgerðavensl** síðu verður skal aðal áfangastaður viðhald keyrslutíma og öðrum eiginleikum.
+Þegar þessi aðferð er notuð verður síðan **Aðgerðavensl** aðaláfangastaður fyrir viðhald keyrslutíma og annarra eiginleika.
 
-### <a name="resource-specific-process-times"></a>Vinnslutímar tiltekin tilföng
+### <a name="resource-specific-process-times"></a>Tilfangatilgreindir keyrslutímar
 
-Ef ekki er aðgerðir tilfang eða tilfangaflokkur sem hluti af tilfangaþarfir fyrir aðgerð, gæti verið viðeigandi tilföng vinna á mismunandi kerfishraða. Þess vegna tíma sem þarf til að vinna úr aðgerð sérð. Til að leysa þetta vandamál er hægt að nota í **Formúlu** á aðgerðavensl til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
+Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfangaþörfum fyrir aðgerð, gætu viðeigandi tilföng unnið á mismunandi kerfishraða. Þess vegna er tíminn sem þarf til að vinna úr aðgerð mismunandi. Til að leysa þetta vandamál er hægt að nota svæðið **Formúlu** í aðgerðavenslum til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
 
--   **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslin og multiplies tilgreinda keyrslutíma með pöntunarmagn.
--   **Afkastageta** – útreikningurinn inniheldur á **Afkastagetu** úr aðgerðir tilfanga. Þess vegna er tíma tilfanga-háð. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. Þetta gildi er margfaldað með pöntunarmagn og **Stuðull** gildi úr aðgerðavenslin.
--   **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslin. Fjöldi runur og vinnslutími síðan reiknast út á pöntunarmagninu.
--   **Tilfangaruna** – Þessi valkostur er nokkurn vegin eins og í **Runu** valkost. Hins vegar útreikningurinn inniheldur á **Runu afkastagetu** úr aðgerðir tilfanga. Þess vegna er tíma tilfanga-háð.
+-   **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
+-   **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. Þetta gildi er margfaldað með pöntunarmagni og gildinu **Stuðull** úr aðgerðavenslum.
+-   **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
+-   **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður.
 
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[Uppskriftir og formúlur](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Um kostnaðartegundir notaðar í leiðum framleiðslu](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Tilfangageta](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Yfirlit yfir rafrænar undirskriftir](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

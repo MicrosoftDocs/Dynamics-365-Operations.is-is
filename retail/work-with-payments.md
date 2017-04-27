@@ -1,5 +1,5 @@
 ---
-title: "Greiðsluhætti í þjónustumiðstöð"
+title: "Greiðsluhættir í símaveri"
 description: "Þetta efnisatriði fjallar um mismunandi greiðslumáta sem hægt er að nota í símaveri í Smásölu og viðskipti."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Greiðsluhætti í þjónustumiðstöð
+# <a name="payment-methods-in-a-call-center"></a>Greiðsluhættir í símaveri
+
+[!include[banner](includes/banner.md)]
+
 
 Þetta efnisatriði fjallar um mismunandi greiðslumáta sem hægt er að nota í símaveri í Smásölu og viðskipti.
 
@@ -43,6 +46,8 @@ Ef leggja á fram kreditkortagreiðslu úr **sölupöntun** síða og færð bo�
 
 -   Ávísanabið láta fjármálastarfsfólk vinna pantanir sem hafa verið sett í bið þar sem ávísun var notuð sem greiðslumáti og ávísunin bið farið var yfir þröskuldsupphæð. Bið hægt að losa handvirkt eða sjálfvirkt eða það rennur út í lok skilgreindu tímabili.
 -   Hægt er að setja þröskulda, fyrir ofan þá þurfa ávísanir og kreditkort að fá handvirka samþykkt vegna endurgreiðslna. Endurgreiðsla sem fer yfir þröskuldsgildi upphæð er bætt við samþykki biðröð. Eftir að þú samþykkja endurgreiðslu er hægt að reikningsfæra skilasölupöntunina.
+
+
 
 
 

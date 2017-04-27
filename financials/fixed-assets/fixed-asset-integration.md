@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
+[!include[banner](../includes/banner.md)]
+
+
 Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
 
 <a name="general-ledger"></a>Fjárhagur
@@ -82,7 +85,7 @@ Samþætting fyrir hverja pöntunarlínu er virkjuð á flipanum **Eignir** á f
 ## <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 Hægt er að tengja verkefni við eign sem verður fyrir áhrifum af verkefninu. Einnig er hægt að tengja hvern áfanga, verkefni eða undirverk við mismunandi eignir. Hægt er að tengja eina eign við hverja verkfærslu. Tenging er mynduð þegar fært er inn númer eignar í reitinn **Eign** á síðunni **Verkefni**. Gerð verks verður að vera annaðhvort **Innri** eða **Kostnað verks**. 
 
-Einnig er hægt að nota síðuna **Verkefni** til að skoða upplýsingar um eignir sem eru tengdar verkum. Á flýtiflipanum **Uppsetning** er smellt á eignatengilinn til að opna síðuna **Eignir**. Smellið **Verk**&gt;**Öll verk** til að skoða þau verkefni sem tengjast eign. 
+Einnig er hægt að nota síðuna **Verkefni** til að skoða upplýsingar um eignir sem eru tengdar verkum. Á flýtiflipanum **Uppsetning** er smellt á eignatengilinn til að opna síðuna **Eignir**. Smellið síðan á **Verkefni** &gt; ** Öll verkefni** til að skoða verkefni sem eru tengd við eign. 
 
 Yfirleitt eru eignir tengdar verkefnum þegar verkefnin tengjast vinnu, viðhaldi eða endurbótum á eigninni sjálfri. Þegar verkinu er lokið, uppfærsluleiðréttingu eignarinnar er ekki stofnuð sjálfkrafa. Þess vegna verður að stofna í uppfærsluleiðréttingu handvirkt, ef þörf er á uppfærsluleiðréttingu. 
 
@@ -90,6 +93,8 @@ Til að eyða tengingu milli verks og eignar, skal hreinsa reitinn **Númer eign
 
 Einnig er hægt að ákvarða eign sem þú stofnar eða framleiðir sem hluta af áætluðu verki. Við lok matsverks, er hægt að bóka eignakaupfærslu sjálfkrafa.
 
-Nánari upplýsingar, sjá [Kaupa eignir með innkaupategund](acquire-assets-procurement.md)
+Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procurement.md)
+
+
 
 

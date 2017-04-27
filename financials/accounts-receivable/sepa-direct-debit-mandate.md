@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Setja upp sjálfgefna debet tilskipun SEPA
 
+[!include[banner](../includes/banner.md)]
 
 
-SEPA-beingreiðsla (Single Euro Payment Area )  gerir kleift að safna fjármagn frá bankareikningi viðskiptavinar hjá lánardrottni svo lengi sem undirrituð umboðið hefur verið veitt af viðskiptavini í lánardrottins. Viðskiptavinurinn skrifar umboð sem heimilar lánardrottins til að innheimta greiðslu og veitir banka viðskiptavinar fyrirmæli um að greiða innheimtuna. Í þessu efnisatriði er raðað til að birta ferli til að setja upp SEPA-umboð fyrir beint debet.
+
+
+SEPA-beingreiðsla (Single Euro Payment Area )  gerir kleift að safna fjármagn frá bankareikningi viðskiptavinar hjá lánardrottni svo lengi sem undirrituð umboðið hefur verið veitt af viðskiptavini í lánardrottins. Viðskiptavinurinn skrifar umboð sem heimilar lánardrottins til að innheimta greiðslu og veitir banka viðskiptavinar fyrirmæli um að greiða innheimtuna. Þessu efnissviði er raðað þannig að það sýnir ferli fyrir uppsetningu SEPA-umboð fyrir beingreiðslu.
 
 ## <a name="prerequisites"></a>Forkröfur
 Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en byrjað er.
@@ -37,15 +40,17 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Land/svæði | Aðalaðsetur fyrir lögaðilann verður að vera í eftirfarandi löndum/svæðum: |
 
-1. Setja upp númeraröð fyrir Hverja umboð fyrir beint debet verður að hafa einkvæm númer umboð fyrir beint debet. Nota skal síðuna **  númeraraðir** til að stofna númeraröð fyrir umboð fyrir beingreiðslu. Þú munt nota þetta kenni til að úthluta númeraröð á umboð fyrir beingreiðslu í á    **færibreytur viðskiptakrafna** síða.
+1. Setja upp númeraröð fyrir umboð fyrir beint debet Hvert umboð fyrir beint debet verður að hafa einkvæmt númer. Nota skal síðuna **  númeraraðir** til að stofna númeraröð fyrir umboð fyrir beingreiðslu. Þú munt nota þetta kenni til að úthluta númeraröð á umboð fyrir beingreiðslu í á    **færibreytur viðskiptakrafna** síða.
 
-2. Setja upp færibreytur viðskiptavina fyrir umboð fyrir beint debet Notkun á **Færibreytur viðskiptakrafna** síðu til að setja upp færibreytur fyrir umboð fyrir beint debet. Til að setja upp færibreytur sem á við **beingreiðsla** breytt sjálfgefnar færibreytur sem krafist er. Síðan skal á **Númeraraðir** flipanum, uppfæra á **umboð Beingreiðslukenni** með númeraröð sem er sett upp fyrr.
+2. Setja upp færibreytur viðskiptavina fyrir umboð fyrir beint debet Nota skal síðuna **Færibreytur viðskiptakrafna** til að setja upp færibreytur fyrir umboð fyrir beingreiðslu. Til að setja upp færibreytur á **beingreiðsla** flipa skal breyta sjálfgefnum færibreytum eins og krafist er. Síðan skal á **Númeraraðir** flipanum uppfæra **Kenni umboðs fyrir beint debet** svæði með númeraröð sem var sett upp áður.
 
-3. Setja upp greiðsluhátt fyrir beint debet krefst verður að setja upp greiðsluhátt fyrir umboð fyrir beint debet. Nota þennan greiðsluhátt til að spyrjast fyrir um reikninga til að mynda beingreiðslur fyrir. Nota skal **Greiðslumáti ** síða til að setja upp greiðslumáta. Til að setja upp greiðsluhátt fyrir umboð fyrir beingreiðslu, verður að fylgja þessum viðbótarskref fyrir greiðslumáta:
+3. Til að setja upp greiðsluhátt fyrir umboð fyrir beingreiðslu verður þú að setja upp greiðsluhátt fyrir umboð fyrir beingreiðslu. Nota þennan greiðsluhátt til að spyrjast fyrir um reikninga til að mynda beingreiðslur fyrir. Nota skal **Greiðslumáti ** síða til að setja upp greiðslumáta. Til að setja upp greiðsluhátt fyrir umboð fyrir beingreiðslu, verður að fylgja þessum viðbótarskref fyrir greiðslumáta:
 
 -   Í **reitnum greiðslugerð** skal velja **rafræn greiðsla**
--   Valfrjálst: Ef búist er við hverja viðskiptavinum að hafa margar krefst, í því **Tímabil** svæðinu, veljið **Reiknings**. Er aðskilin greiðsla stofnuð fyrir hvern reikning og hverrar greiðslu verður að nota umboðið sem tilgreindur er fyrir reikninginn.
+-   Valfrjálst: Ef þú átt von á að hver viðskiptavinur þinn hafi mörg umboð, í reitnum **Tímabil** skaltu velja **Reikningur**. Aðskild greiðsla verður stofnuð fyrir hvern reikning og hver greiðsla notar umboð sem er tilgreind fyrir reikninginn.
 -   Velja skal **  krefjast umboðs ** valkost til að búa til greiðslur með umboð fyrir beingreiðslu. **Krefjast umboðs** valkosturinn er tiltækur aðeins ef þú velur **Rafræna greiðslu** í á **greiðslugerð** svæði.
 
-Sjá Einnig [yfirlit fyrir Beint debet](sepa-direct-debit-overview.md) 
+Sjá einnig [Yfirlit yfir beint debet](sepa-direct-debit-overview.md) 
+
+
 

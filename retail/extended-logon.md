@@ -1,5 +1,5 @@
 ---
-title: "Setja upp aðgerðir fyrir aukin innskráning starfsmanns fyrir POS Skýi og MPOS"
+title: "Setja upp aukna virkni starfsmanns fyrir POS Skýi og MPOS"
 description: "Þessi wiki nær yfir valmöguleikarnir til að setja upp aukin innskráning starfsmanns fyrir Skýi POS og Retail Modern POS (MPOS)."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Setja upp aðgerðir fyrir aukin innskráning starfsmanns fyrir POS Skýi og MPOS
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Setja upp aukna virkni starfsmanns fyrir POS Skýi og MPOS
 
 Þessi wiki nær yfir valmöguleikarnir til að setja upp aukin innskráning starfsmanns fyrir Skýi POS og Retail Modern POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Setja upp aukna innskráningu starfsmanns
 =========================
 
-Hægt er að finna uppsetningu strikamerkja á **Smásölu og commerce**&gt;**Rásar uppsetningu**&gt;**uppsetning Smásölustaðar**&gt;**POS forstillingar**&gt;**virknireglur**. Flýtiflipinn **Aðgerðir** inniheldur eftirfarandi valkosti sem eru tengdir lengdri innskráningu starfsmanns.
+Hægt er að finna uppsetningu fyrir sniðmát strikamerkja á **Smásölu og viðskiptum** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**. Flýtiflipinn **Aðgerðir** inniheldur eftirfarandi valkosti sem eru tengdir lengdri innskráningu starfsmanns.
 
 ### <a name="staff-bar-code-logon"></a>Strikamerkisinnskráning starfsmanns
 
@@ -53,7 +53,7 @@ Hægt er að finna uppsetningu strikamerkja á **Smásölu og commerce**&gt;**R�
 <a name="assigning-an-extended-logon"></a>Úthlutun aukinnar innskráningu
 ===========================
 
-Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til starfsmanna. Til að úthluta aukin innskráning starfsmanns, er farið **Auknu innskráning** á Sölustað. Síðan leita starfsmann með því að færa inn Kenni stjórnanda hans eða hennar í svæðinu leita. Veljið notanda og smellið á **Úthluta**. Á næstu síðu skal lesa eða skanna aukna innskráningu til að úthluta á starfsmanninn. Ef kortalestur eða skönnun er var lesin verður hnappuinn **Í lagi **tiltækur. Smellið á **Í lagi** til að vista aukna innskráningu fyrir þann starfsmann.
+Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til starfsmanna. Til að úthluta aukinni innskráningu á starfsmann er farið á **Aukin innskráning ** á Sölustað. Síðan skal leita starfsmann með því að færa inn Kenni stjórnanda hans eða hennar í leitarreitnum. Veljið notanda og smellið á **Úthluta**. Á næstu síðu skal lesa eða skanna aukna innskráningu til að úthluta á starfsmanninn. Ef kortalestur eða skönnun er var lesin verður hnappuinn **Í lagi **tiltækur. Smellið á **Í lagi** til að vista aukna innskráningu fyrir þann starfsmann.
 
 <a name="deleting-an-extended-logon"></a>Eyðing aukinnar innskráningar
 ==========================

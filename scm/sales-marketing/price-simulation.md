@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Verðherming
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um verðhermingu fyrir tilboð. Verðherming hjálpar til við að meta áhrif frádráttar á söluverð í framtíðinni í tilboðsferlinu, áður en staðfest er sérstakt verð.
 
 Verðherming fyrir tilboð sýnir nýja heildarupphæð, á grundvelli tillögu um nýtt verð. Verðherming getur einnig sýna nýja upphæð fyrir tiltekna línu sem er stofnuð í fyrirliggjandi tilboði. Hægt er að færa inn verðhermingu og nota síðar. Að öðrum kosti, er Hægt að nota upprunalegt tilboð án verðhermingar og gera frekari breytingar á meðan söluferlið stendur yfir með viðskiptavininum.  
@@ -50,7 +53,7 @@ Til að tryggja að afslættir og verð séu rétt reiknuð þarf að sýna vark
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Gerð afsláttar í viðskiptasamningum
 
-Viðskiptasamningum í Microsoft Dynamics 365 fyrir Aðgerðir geta haft fjórar gerðir verð afslætti. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
+Viðskiptasamningar í Microsoft Dynamics 365 for Operations geta haft fjórar gerðir verðafsláttar. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
 
 -   **Söluverð** - Hægt er að tilgreina aðskilin söluverð fyrir tilteknar vörur. Þegar tilboðslínur eru stofnaðar leitar forritið að réttu söluverði fyrir vöru og flytur það í tilboðslínur. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar ekki áhrif á verðhermingu. Söluverð sem er notað í tilboðslínunni endurspeglar viðskiptasamning.
 -   **Línuafsláttur** – Sérstakan afslátt eru tilgreindar fyrir vörur eftir magni sem er pantað. Línuupphæðir eru yfirleitt lækkaðar af línuafsláttur áður en verðherming er keyrð. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar áhrif á verðhermingu.
@@ -79,7 +82,7 @@ Eftirfarandi tafla sýnir tilboðslínurnar.
 | Sölugildi í Bandaríkjadölum         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Kostnaðargildi í Bandaríkjadölum          | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Framlegð í Bandaríkjadölum | 318,20 – 184,96                      | 133,24   |
-| Framlegðarhlutfall         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | 41,87%   |
+| Framlegðarhlutfall         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
 Verðhermir er keyrður og þú notar 15 prósent heildarafsláttur fyrir allt tilboðið eða tilboðshausinn. Eftirfarandi tafla sýnir nýju heildartölur tilboðsins eftir að verðherming er keyrð.
 
@@ -89,11 +92,11 @@ Verðhermir er keyrður og þú notar 15 prósent heildarafsláttur fyrir allt t
 | Gamalt sölugildi í Bandaríkjadölum                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
 | Gamalt kostnaðargildi í Bandaríkjadölum                                | (10 × 9,52) + (12 × 7,48)                 | 184,96   |
 | Gömul framlegð í Bandaríkjadölum                       | 318,20 – 184,96                           | 133,24   |
-| Gamalt framlegðarhlutfall                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | 41,87%   |
+| Gamalt framlegðarhlutfall                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | 41,87%   |
 | Verðherming uppá 15% heildarafslátt í Bandaríkjadölum | (15 × 318.2) ÷ 100                        | 47,73    |
 | Nýtt sölugildi í Bandaríkjadölum                               | 318,20 – 47,73                            | 270,47   |
 | Ný framlegð í Bandaríkjadölum                       | 270,47 – 184,96                           | 85,51    |
-| Nýtt framlegðarhlutfall                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | 31,61%   |
+| Nýtt framlegðarhlutfall                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Verðhermir fyrir vörur í einni línu
 
@@ -113,12 +116,12 @@ Eftirfarandi tafla sýnir tilboðslínurnar.
 | Kostnaðarvirði í USD fyrir BR-14          | 12 × 7,48                            | 89,76    |
 | Framlegð í USD fyrir BR-12 | 153,20-95,20                       | 58,00    |
 | Framlegð í USD fyrir BR-14 | 165,00-89,76                       | 75,24    |
-| Hlutfall framlegðar í USD fyrir BR-12  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| Hlutfall framlegðar í USD fyrir BR-14  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| Hlutfall framlegðar í USD fyrir BR-12  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| Hlutfall framlegðar í USD fyrir BR-14  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | Heildarsölugildi í Bandaríkjadölum             | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Heildarkostnaðarvirði í USD              | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Heildarframlegð í Bandaríkjadölum     | 318,20 – 184,96                      | 133,24   |
-| Heildarframlegðarhlutfall             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | 41,87%   |
+| Heildarframlegðarhlutfall             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
 Verðhermir er keyrður og notaður er 10 prósent heildarafsláttur á BR-12 einingar. Eftirfarandi tafla sýnir nýju heildartölur tilboðsins eftir að verðherming er keyrð fyrir staka línuatriðið.
 
@@ -133,13 +136,15 @@ Verðhermir er keyrður og notaður er 10 prósent heildarafsláttur á BR-12 ei
 | Kostnaðarvirði í USD fyrir BR-14                       | 12 × 7,48                               | 89,76    |
 | Ný framlegð í Bandaríkjadölum fyrir BR-12          | 137,88-95,20                          | 42,68    |
 | Framlegð í USD fyrir BR-14              | 165,00-89,76                          | 75,24    |
-| Nýtt framlegðarhlutfall í Bandaríkjadölum fyrir BR-12           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| Hlutfall framlegðar í USD fyrir BR-14               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| Nýtt heildarsölugildi í Bandaríkjadölum                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| Nýtt framlegðarhlutfall í Bandaríkjadölum fyrir BR-12           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| Hlutfall framlegðar í USD fyrir BR-14               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| Nýtt heildarsölugildi í Bandaríkjadölum                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | Heildarkostnaðarvirði í USD                           | (10 × 9,52) + (12 × 7,48)               | 184,96   |
 | Ný heildarframlegð í Bandaríkjadölum              | 302,88 – 184,96                         | 117,92   |
-| Nýtt heildarframlegðarstig                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
+| Nýtt heildarframlegðarstig                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 Verðhermirinn hefur eingöngu áhrif á línuna þar sem hann er notaður á og dregur úr samtölu þeirrar línu.
+
+
 
 

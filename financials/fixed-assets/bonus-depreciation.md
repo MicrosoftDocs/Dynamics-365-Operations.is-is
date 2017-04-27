@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Viðbótarafskriftir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir virknina viðbótarafskriftir.
 
 Með viðbótarafskriftir gera kleift að gera aukalegar afskriftarupphæðir á fyrsta ári sem eign er í þjónustu og afskrifuð . Viðbótarafskriftir verður að taka á undan öðrum afskriftaútreikningum. Þess vegna er best að nota viðbótarafskriftir með bækur þar sem Bóka á fjárhag virkni er óvirkur. Hægt er að nota **Eyða færslum sem eru ekki bókaðar í fjárhag** valkost til að eyða sögulegum færslum fyrir bókum sem ekki bóka í fjárhag. Svo er hægt að hýsa viðbótarafskriftir síðar í líftíma eignar með því að eyða afskriftarfærslur sem var áður bókaður. 
@@ -61,5 +64,7 @@ Ef eftirstandandi kaupverð er 0 eða minna verða viðbótarafskriftafærslur e
 Hægt er að stofna ótakmarkaðan fjölda af viðbótarafskriftafærslum. Eftir að þessum færslum hefur verið úthlutað á eignaflokka eru þær notaðar í eignabók. 
 
 Viðbótarafskriftir eru færðar inn sem prósenta eða föst upphæð. Þegar þú bókar afskriftartillögur eru bókaðar viðbótarafskriftafærslur í bókina sem aðskildar færslur úr afskriftarfærslum.
+
+
 
 

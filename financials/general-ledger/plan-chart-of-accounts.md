@@ -1,5 +1,5 @@
 ---
-title: "Áætla bókhaldslykla"
+title: "Áætlun bókhaldslykila"
 description: "Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Áætla bókhaldslykla
+# <a name="plan-your-chart-of-accounts"></a>Áætlun bókhaldslykila
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt.
 
@@ -34,7 +37,7 @@ Til að rekja og vinna með fjárhagslegar upplýsingar í fyrirtæki er hægt a
 
 Bókhaldslykillinn er skipulagður listi yfir fjárhagslykla lögaðila. Listinn er notaður til að útbúa fjárhagsskýrslur fyrir yfirvöld og eigendur. Lyklarnir eru flokkaðir eftir gerðum og síðan lagðir saman í stærri tegundir. Á almennasta stiginu eru lyklar flokkaðir sem tekjur og kostnaður (rekstrarlykill) og eignir og skuldbindingar (stöðulykill). 
 
-Bókhaldslykla getur verið samnýtt og notuð af hvaða lögaðila sem er í fyrirtæki. Skilgreint er í bókhaldslyklum sem notað er hjá lögaðila á **Fjárhag** síðu. 
+Bókhaldslykla getur verið samnýtt og notuð af hvaða lögaðila sem er í fyrirtæki. Bókhaldslyklar sem eru notaðir hjá lögaðila eru skilgreindir á síðunni **Fjárhagur**. 
 
 Nokkra þætti þarf að hafa í huga þegar skipulag bókhaldslykla er ákveðið fyrir fyrirtækið, þar á meðal:
 
@@ -48,10 +51,12 @@ Stofnaðu bókhaldslykil í **Bókhaldslykill ** síðu. Hægt er að stofna að
 
 Notið síðunni **Skilgreina lykilskipulag ** til að skilgreina lykilskipulag. Lykilskipulag tilgreina gildar samsetningar. Samsetningar með aðallykla, skjámyndinni bókhaldslykla. 
 
-**Legal entity overrides** 
+**Hnekkingar lögaðila** 
 
-Ekki allar aðallykla gilda fyrir alla lögaðila og sumar má aðeins vera máli fyrir ákveðið tímabil. Í þessum aðstæðum Lögaðili hnekkir getur verið notað til að auðkenna hvaða fyrirtæki ætti ekki að nota aðallykil fyrir, hver er eigandi og tímabilið sem víddin er virk. Hnekkingar á samnýttu stigi má ekki vera meira takmarkandi en hnekking á stigi lögaðila.
+Ekki eru allir aðallyklar gildir fyrir alla lögaðila og sumir kunna aðeins að eiga við um ákveðið tímabil. Í þessum aðstæðum Lögaðili hnekkir getur verið notað til að auðkenna hvaða fyrirtæki ætti ekki að nota aðallykil fyrir, hver er eigandi og tímabilið sem víddin er virk. Hnekkingar á samnýttu stigi má ekki vera meira takmarkandi en hnekking á stigi lögaðila.
 
-Nánari upplýsingar, sjá [fjárhagsvíddir](financial-dimensions.md).
+Frekari upplýsingar eru í [Fjárhagsvíddir](financial-dimensions.md).
+
+
 
 

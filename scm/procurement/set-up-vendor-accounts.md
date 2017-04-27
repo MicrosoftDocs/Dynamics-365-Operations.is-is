@@ -1,5 +1,5 @@
 ---
-title: "Setja upp lykla fyrir lánardrottna"
+title: "Setja upp lánardrottnalykla"
 description: "Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Setja upp lykla fyrir lánardrottna
+# <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 
@@ -40,7 +43,7 @@ ms.lasthandoff: 03/31/2017
 -   Setja upp skatta-, afhendingar-, reiknings- og greiðsluupplýsingar fyrir lánardrottinn. Að sjálfgefnu eru þessar stillingar afritaðar yfir í ný skjöl sem stofnuð eru fyrir lánardrottininn.
 -   Setja upp sjálfgefnar fjárhagsvíddir sem eru notaðar til að bóka sjálfkrafa færslur með lánardrottni í fjárhagsbókhald.
 
-Hægt er að flýta fyrir stofnun lánardrottnalykla með því að stofna sniðmát. Til að stofna sniðmátsuppskrift, á við **Lánardrottins** síðuna á Aðgerðasvæðinu skal smellt á **Valkosti**&gt;**Færsluupplýsingar**. Smelltu síðan á **sniðmát reikningsskila** Sniðmát reikningsskila er deilt með öðrum notendum.  
+Hægt er að flýta fyrir stofnun lánardrottnalykla með því að stofna sniðmát. Til að stofna sniðmát, á síðunni **Lánardrottinn** á aðgerðasvæðinu skal smella á **Valkostir** &gt; **Færsluupplýsingar**. Smelltu síðan á **sniðmát reikningsskila** Sniðmát reikningsskila er deilt með öðrum notendum.  
 
 Einnig er hægt að stofna sniðmát notanda til eigin nota. Ekki hægt að eyða lánardrottni sem er tengd við aðrar færslur, eins og tengiliði eða vörur.
 
@@ -56,7 +59,7 @@ Fyrir hvern lánardrottinn, hægt er að skilgreina fleiri en eitt aðsetur, sem
 ## <a name="vendor-contacts"></a>Tengiliður lánardrottins
 Hægt er að geyma tengiliði fyrir lánardrottin. Síðan er hægt að nota þessar tengiliðum á skjöl, eins og innkaupapantanir eða beiðnir um tilboð (RFQ).  
 
-Til að bæta við tengiliðum fyrir lánardrottinn í á **Alla lánardrottna** á síðunni á **Lánardrottins** flipanum, á **Setja upp** flokk er smellt á **Tengiliði**&gt;**Bæta tengiliðum**.  
+Til að bæta við tengiliðum fyrir lánardrottinn, á **Allir lánardrottnar** síðunni á **Lánardrottinn** flipanum í **Setja upp** flokknum, er smellt á **Tengiliðir** &gt; **Bæta við tengiliðum**.  
 
 Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að afrita upplýsingar frá annarri manneskju sem er þegar skráð í Microsoft Dynamics 365 for Operations og breyta upplýsingum eins og þarf.  
 
@@ -64,7 +67,7 @@ Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að a
 
 Ekki er hægt að eyða færslu tengiliðar ef vísað er til tengiliðs í skjali. Í staðinn er hægt að óvirkja tengiliðinn.  
 
-Hægt er að bæta tengiliðum lánardrottins persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu á milli Dynamics 365 aðgerða og Office 365 í samstillingu Microsoft Exchange Server og leiðsagnarforrit uppsetningar Microsoft Outlook.
+Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Dynamics 365 for Operations og Office 365 í bæði samstillingu Microsoft Exchange Server og uppsetningarleiðsögn Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Lánardrottnar í öðrum lögaðilum
 Ef lánardrottinn er skráð aðeins fyrir einn lögaðila í fyrirtækinu, og aðrir lögaðilar þurfa að skrá sama lánardrottin, er hægt að nota **Bæta lánardrottni við annan lögaðila** síðu til að skilgreina lánardrottinn til að geta átt viðskipti við annan lögaðila. Þú verður að velja lánardrottnaflokk, gjaldmiðill, biðstöðu fyrir lánardrottinn í völdum lögaðila.  
@@ -101,5 +104,7 @@ Ef þú þarft að framkvæma greiðslur inn á bankareikning lánardrottins er 
 Hægt er að tilgreina sjálfgefnir lyklar sem birtast sjálfkrafa í færslubækur fyrir reikning lánardrottins fyrir tilgreindan lánardrottin. Þessi virkni getur komið að gagni ef þú greiðir yfirleitt fyrir sömu gerðir vara eða þjónustu frá sama lánardrottni með tímanum. Þegar tilgreindur er sjálfgefinn lykill, er fljótlegt og hagkvæmt að slá inn færslur í reikningsbók. Sjálfgefnir lyklar sem þú tilgreinir eru ekki notuð fyrir innkaupapantanir eða fyrir reikninga lánardrottins sem eru færðar inn í **lánardrottinsreikning** síðu.  
 
 Þú velur sjálfgefna lykla á **uppsetning sjálfgefins lykils** síðu, sem hægt er að opna úr **Reiknings** flipanum í færslu lánardrottins. Lyklar sem valdir eru hér birtist í síaða lista yfir reikninga fyrir lykil lánardrottins þegar þú slærð inn færslu í færslubók. Hægt er að setja einn af lyklunum sem sjálfgefinn lykil.
+
+
 
 

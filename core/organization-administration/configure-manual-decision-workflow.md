@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina handvirk ákvörðun í verkflæði"
+title: "Skilgreina Skilgreina handvirka ákvörðun í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Skilgreina handvirk ákvörðun í verkflæði
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Skilgreina Skilgreina handvirka ákvörðun í verkflæði
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
 
@@ -95,8 +98,8 @@ Hægt er að senda tilkynningar til fólks þegar ákvörðun hefur verið tekin
 
 1.  Á svæðinu vinstra megin, smella á **tilkynningar**.
 2.  Veldu gátreitinn sem er við hliðina á tilvikunum sem tilkynningar eiga að vera senda vegna.
-    -   **\[Val 1\]** – úthlutaður notandi hefur valið **\[Val 1\]**.
-    -   **\[Val 2\]** – úthlutaður notandi hefur valið **\[Val 2\]**.
+    -   **\[Val 1\]** – Úthlutaður notandi hefur valið **\[Val 1\]**.
+    -   **\[Val 2\]** – Úthlutaður notandi hefur valið **\[Val 2\]**.
     -   **Framselja** – úthlutaður notandi hefur úthlutað ákvörðuninni til annars notanda.
     -   **Stigmagna** – úthlutaður notandi hefur ekki tekið ákvörðun innan tímarammans.
 
@@ -148,10 +151,10 @@ Hægt er að senda tilkynningar til fólks þegar ákvörðun hefur verið tekin
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekinn Microsoft Dynamics 365 Aðgerðir notenda</td>
+    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     </tr>
     <tr class="even">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að úthluta Ákvörðun á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að úthluta Ákvörðun á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>skilyrtir vinnuliðalistar</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja <strong>skilyrt biðröð</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Athugasemd:</strong> Þessi valkostur er notaður fyrir aðeins nokkrar verkflæði, s.s. málastjórnunar.</td>
+    </ol>
+    <strong>Athugasemd:</strong> Þessi valkostur er notaður fyrir aðeins nokkrar verkflæði, s.s. málastjórnun.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komi
     |----------|----------------------------|
     | 1        | Úthluta til: Dísu           |
     | 2        | Úthluta til: Erlu            |
-    | 3        | Síðasta aðgerð: \[Val 1\] |
+    | 3        | Endanleg aðgerð: \[Val 1\] |
 
-    Í þessu dæmi mun kerfið sjálfkrafa úthluta Ákvörðun sem er komið fram yfir á tíma til Dísu. Ef Dísu tekur ekki ákvörðun innan tímarammans, úthlutar kerfið ákvörðuninni til Erlu. Ef Erlu ekki gera ákvörðun í tíminn sem kerfið velur **\[Val 1\]** sem ákvörðuninni.
+    Í þessu dæmi mun kerfið sjálfkrafa úthluta Ákvörðun sem er komið fram yfir á tíma til Dísu. Ef Dísu tekur ekki ákvörðun innan tímarammans, úthlutar kerfið ákvörðuninni til Erlu. Ef Erla tekur ekki ákvörðun innan tímarammans, Velur kerfið **\[Val 1\]** sem ákvörðun.
 3.  Til að bæta notanda við stigmögnunarslóð, smella **bæta við stigmögnun**. Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 4.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komi
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Fylgið eftirfarandi skrefum ef verður að taka ákvörðunina innan tiltekins 
     -   **Ár ** — velja daginn, vikuna og mánuðinn sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku desembermánaðar.
 
 4.  Ef farið er yfir tímamörkin mun kerfið taka ákvörðunina vegna verksins. Veljið Valkost, sem kerfið á að velja, í listanum **Aðgerðir**.
+
+
 
 
 

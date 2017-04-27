@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Kaupa eignir með innkaupum
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
 
  Eftirfarandi leiðir eru tiltækar til þess að samþætta eignir og viðskiptaskuldir og þú verður að nota sömu aðferðina fyrir allar eignir:
@@ -103,6 +106,8 @@ Eftirfarandi eru nánari útfærslur á þessu dæmi:
 -   Ef einungis hluti af magni er móttekinn, stofnast engin eignakaup fyrir fyrsta reikningur lánardrottins vegna takmarkana á notendahópi. Eina leiðin til að bóka kaup fyrir næsta reikningur lánardrottins sem uppfyllir það magn sem pantað var er ef kaupfærsla hefur þegar verið færð inn fyrir fyrsta reikningur lánardrottins , og ef þú ert meðlimur í notendahópi sem hefur leyfi til að bóka kaup.
 
 
-Nánari upplýsingar, sjá [Fastra eigna samþættingu](fixed-asset-integration.md).
+Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
+
+
 
 

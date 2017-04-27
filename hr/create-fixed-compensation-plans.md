@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Stofna launafyrirkomulag fastra launa
 
-Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir íhluta sem þarf að setja upp áður en hægt er að stofna launafyrirkomulag fastra launa og skrá starfsmenn.
+[!include[banner](includes/banner.md)]
 
-Hægt er að reikna upphæðir fastra°launa fyrir starfsmenn, á grundvelli þátta eins og afköst, svæði og aukningu fjárhagsáætlunar. Microsoft Dynamics 365 aðgerða styður skref, launaþrep og gerðir sviði launa.
+
+Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
+
+Hægt er að reikna upphæðir fastra°launa fyrir starfsmenn, á grundvelli þátta eins og afköst, svæði og aukningu fjárhagsáætlunar. Microsoft Dynamics 365 for Operations styður skref, launaþrep og greiningartímabil launa.
 
 ## <a name="fixed-compensation-components"></a>Fastir launaþættir
 ### <a name="compensation-levels"></a>Launastig
 
-Hægt er að nota **launastig** til að setja mismunandi vinnslur til að aðstoða við að tryggja samræmda starfsmennina sem eru þær vinnslur í bið er tiltölulega greidd laun. Á við **launastig** síðu er hægt að setja upp greiðsluáætlunarstig sem krafist er fyrir hvert skref, launaþrep og sviði áætlun. Nota skal **Upp** og **Niður** hnappana til að setja stig í réttri röð,°eftir gerð þeirra. Með því að stilla launastig á°starf, hjálpar það til við tryggja að allir starfsmenn í°því starfi fái greitt á sama stigi.
+Hægt er að nota **launastig** til að setja inn laun fyrir mismunandi störf, til að tryggja að starfsmenn sem sinna þeim störfum fái sanngjörn laun. Á **launastig** síðu er hægt að setja upp launastig sem krafist er fyrir hvert skref, launaþrep og greiningaráætlun. Nota skal **Upp** og **Niður** hnappana til að setja stig í réttri röð,°eftir gerð þeirra. Með því að stilla launastig á°starf, hjálpar það til við tryggja að allir starfsmenn í°því starfi fái greitt á sama stigi.
 
 ### <a name="reference-points"></a>Tilvísunarpunktar
 
-**Tilvísunarpunktar** eru dálkar í hnitanetinu sem skilgreina launasvið fyrir°hvert stig. Launastig er línan í hnitanetinu. Dæmigerð tilvísunarpunkta fyrir áætlun á gerð launaþrep eru lágmark, miðpunktur og hámark. Stofna tilvísunarpunkta í á **tilvísunarpunkta** síðu.
+**Tilvísunarpunktar** eru dálkar í hnitanetinu sem skilgreina launasvið fyrir°hvert stig. Launastig er línan í hnitanetinu. Dæmigerðir tilvísunarpunktar fyrir áætlun um gerð launaþrepa eru lágmark, miðpunktur og hámark. Tilvísunarpunktar eru stofnaðir á síðunni **Uppsetning tilvísunarpunkta**.
 
 ### <a name="compensation-grids"></a>Launanet
 
@@ -56,11 +59,11 @@ Hægt er að hanna launafyrirkomulag fastra launa til að sameina alla uppsetta 
 
 Í stillingunni **Vikmörk utan marka** er gert kleift að tilgreina hvernig strangur á að vera varðandi að sannreyna að upphæðir launa séu á milli lágmarks- og hámarks upphæðir. **Hörð** vikmörk krefst þess að laun séu á bilinu sem er skilgreint°fyrir tiltekið stig. **Mjúk** vikmörk gefa viðvaranir þegar launafjárhæðin er utan marka en gerir þér þó kleift að halda áfram. Ef vikmörkin eru stillt á **Ekkert**, er hægt að færa inn hvaða upphæð launa sem er fyrir starfsmann án þess að taka á móti villuskilaboðum eða viðvörunum. 
 
-Í **ráðningarreglu** uppsetning gerir kleift að tilgreina hvort allir starfsmenn eigi að fá sömu hækkun, er dagsetningin sem þær voru ráðnir (**ráðningarreglu** = **Ekkert**), eða hvort starfsmenn eigi að fá hlutfall umbun sem byggist á hve lengi þær voru starfar við reglulega (**ráðningarreglu** = **Prósent**). 
+Í stillingunni **Ráðningarregla** er gert kleift að tilgreina hvort allir starfsmenn eigi að fá sömu hækkun, án tillits til dagsetningarinnar sem þeir voru ráðnir (**Ráðningarregla** = **Ekkert**), eða hvort starfsmenn eigi að fá prósentu umbunar á grundvelli þess hversu lengi þeir voru í starfi á tímabilinu (**Ráðningarregla** = **Prósent**). 
 
 °**Nýtingarfylki sviðs** er gagnlegt ef annað hvort er óskað eftir að minnka tímann sem krafist er fyrir starfsmenn til að ná miðpunkti sviðsins eða auka tímann sem krafist er fyrir starfsmenn til að ná hámarks viðmiðunarpunkti sviðsins. Til dæmis, ef óskað er að gefa starfsmönnum sem eru í neðstu 25 prósentum síns sviðs 110 prósent°af markverðlaunum þeirra, en veita starfsmönnum sem eru í efstu 25 prósentum°síns sviðs aðeins 80 prósent af þeirra markverðlaunum til að koma í veg fyrir að þeir nái hámarki eins hratt. 
 
-Þegar búið er að skilgreina grunnatriði fasts launafyrirkomulags, er hægt að setja upp launaskipulag fyrir fyrirkomulagið. Smellið á **Setja upp laun**. Svarglugga sleði opnar sem gefur þrjú:
+Þegar búið er að skilgreina grunnatriði fasts launafyrirkomulags, er hægt að setja upp launaskipulag fyrir fyrirkomulagið. Smellt er á **Setja upp laun**. Svargluggasleði opnast sem gefur þrjá valkosti:
 
 -   Búa til nýtt launanet með því að velja uppsetningu tilvísunarpunkts og gefa hnitanetinu nafn.
 -   Búa til nýtt launanet með því að búa til afrit af fyrirliggjandi hnitaneti sem hægt er að nota°sem upphafspunkt.
@@ -71,7 +74,7 @@ Hægt er að hanna launafyrirkomulag fastra launa til að sameina alla uppsetta 
 ## <a name="fixed-compensation-enrollment"></a>Skráning í föst laun
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Ákvarða hver er hæfur fyrir áætlun
 
-Þegar er verið að skrá starfsmenn í áætlun um föst laun er fyrsta skrefið að ákvarða hver er hæfur fyrir launin sem eru tilgreind í°áætluninni. Ekki er hægt er að úthluta áætluninni á starfsmenn nema að meta hæfni. Til að setja upp hæfni, opnið þá **hæfnisreglur** síðu. Hér er stofna nýja hæfni reglu fyrir launafyrirkomulag notanda og tilgreina skilyrði sem starfsmaður verður að uppfylla til að uppfylla skilyrði fyrir áætlun. Skilyrði geta verið Deild, verkalýðsfélag, Staðsetningar (launasvæði), starf, starfshlutverk, vinnslugerð, eða launastig. Starfsmenn geta aðeins verið skráðir í launafyrirkomulag ef þeir uppfylla öll skilyrðin sem eru sett á hæfnisregluna. 
+Þegar er verið að skrá starfsmenn í áætlun um föst laun er fyrsta skrefið að ákvarða hver er hæfur fyrir launin sem eru tilgreind í°áætluninni. Ekki er hægt er að úthluta áætluninni á starfsmenn nema að meta hæfni. Til að setja upp hæfni skal opna síðuna **Hæfnisreglur**. Þar er hægt að stofna nýja hæfnisreglu fyrir launaáætluninni og skilgreina síðan skilyrðin sem starfsmaður verður að uppfylla til að falla undir skilyrði fyrir launafyrirkomulagið. Skilyrði geta verið Deild, verkalýðsfélag, Staðsetningar (launasvæði), starf, starfshlutverk, vinnslugerð, eða launastig. Starfsmenn geta aðeins verið skráðir í launafyrirkomulag ef þeir uppfylla öll skilyrðin sem eru sett á hæfnisregluna. 
 
 **Ábending:** Hæfnisreglur ákvarða hæfni fyrir launafyrirkomulag fastra launa og breytilegrar uppbótar. 
 
@@ -83,7 +86,7 @@ Hæfnisreglur meta gildi sértækra svæða í starfinu, stöðunni og starfsman
     -   Á flipanum **Laun**, °**Stig** svæðið
 -   Á síðunni **Stöður** tekur hæfnisreglan tillit til svæðanna **Deild** og **Launasvæði**.
 
-Hæfnisregluna tekur einnig stéttarfélögum sem tengjast starfsmanninum (á við **Starfsmenn** á síðunni á **Starfsmanns** flipanum, smellið **Persónulegar upplýsingar**&gt;**verkalýðsfélög**).
+Hæfnisreglan tekur einnig tillit til verkalýðsfélaga sem tengjast starfsmanninum (á síðunni **Starfsmenn**, í flipanum **Starfskraftur**, smellið á **Persónuupplýsingar** &gt; ** Verkalýðsfélög**).
 
 ### <a name="define-fixed-compensation-actions"></a>Skilgreina aðgerðir fastra launa
 
@@ -93,7 +96,7 @@ Til dæmis þegar föst laun eru sett upp fyrir starfsmann, er aðeins hægt að
 
 ### <a name="enroll-the-employee"></a>Innrita starfsmanninn
 
-Nú er hægt að tengja starfsmann við launafyrirkomulag fastra launa. Opna skal síðuna **Starfsmenn** og veljið starfsmann til að skrá í launafyrirkomulaginu. Á Aðgerðasvæðinu skal smellt á **Launa**&gt;**Föst áætlun**. Nú er hægt að stofna nýja aðgerð fastra launa fyrir þann starfsmann. 
+Nú er hægt að tengja starfsmann við launafyrirkomulag fastra launa. Opna skal síðuna **Starfsmenn** og veljið starfsmann til að skrá í launafyrirkomulaginu. Smellið á **Bætur** &gt; **Föst áætlun** á aðgerðarúðunni. Nú er hægt að stofna nýja aðgerð fastra launa fyrir þann starfsmann. 
 
 **Ábending:** Svæðið Launaáætlun sýnir aðeins°áætlanir sem starfsmaður er hæfur fyrir undir hæfnisreglum sem settar voru upp fyrir hverja áætlun. Ef engin hæfnisregla er sett upp fyrir áætlun verður engin starfsmaður hæfur fyrir þá áætlun. 
 
@@ -103,5 +106,7 @@ Kerfið°staðfestir launafjárhæðina sem tilgreind er í launafyrirkomulagi a
 --------
 
 [Launafyrirkomulag](compensation-plans.md)
+
+
 
 

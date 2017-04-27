@@ -1,6 +1,6 @@
 ---
 title: "Fyrirframdagsettar ávísanir"
-description: "Þessi skrá upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir í Microsoft Dynamics 365 fyrir Aðgerðir. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu."
+description: "Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir í Microsoft Dynamics 365 for Operations. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Fyrirframdagsettar ávísanir
 
-Þessi skrá upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir í Microsoft Dynamics 365 fyrir Aðgerðir. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 aðgerða styður ferli fulla stjórnun fyrir fyrirframdagsettar ávísanir viðskiptavina og lánardrottna, eins og sýnt er í eftirfarandi töflu.
+
+Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir í Microsoft Dynamics 365 for Operations. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
+
+Microsoft Dynamics 365 for Operations styður ferli fullrar stjórnunar fyrir fyrirframdagsettar ávísanir bæði í Viðskiptakröfum og Viðskiptaskuldum, eins og sýnt er í eftirfarandi töflu.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,14 +51,14 @@ Microsoft Dynamics 365 aðgerða styður ferli fulla stjórnun fyrir fyrirframda
 </tr>
 <tr class="even">
 <td>Skráning og bókun fyrirframdagsettrar ávísunar fyrir lánardrottin</td>
-<td>Skrá upplýsingar um fyrirframdagsettar ávísanir sem er gefin út til lánardrottins. Þegar greiðslan er bókuð viðurkenndur skuld lánardrottins, en bankareikningurinn er ekki enn kredit. Í stað þess er millireikningur notað fyrir þennan tilgang.</td>
+<td>Skrá upplýsingar um fyrirframdagsettar ávísanir sem er gefin út til lánardrottins. Þegar greiðslan er bókuð er skuld lánardrottins viðurkennd , en bankareikningurinn er ekki enn kreditfærður. Í stað þess er millireikningur notað fyrir þennan tilgang.</td>
 </tr>
 <tr class="odd">
 <td>Skrá og bóka fyrirframdagsetta ávísun fyrir lánardrottin</td>
-<td>Skrá upplýsingar um fyrirframdagsettar ávísanir sem er tekið er við frá viðskiptavini. Þegar greiðslan er bókuð, viðskiptakröfur viðskiptavinar er kredit en bankareikningurinn er ekki enn debet. Í stað þess er millireikningur notað fyrir þennan tilgang.</td>
+<td>Skrá upplýsingar um fyrirframdagsettar ávísanir sem er tekið er við frá viðskiptavini. Þegar greiðslan er bókuð er viðskiptakrafa viðskiptavinar kreditfærð, en bankareikningurinn er ekki enn debetfærður. Í stað þess er millireikningur notað fyrir þennan tilgang.</td>
 </tr>
 <tr class="even">
-<td>Skrá og bóka fyrirframdagsettar endurnýjunarverð ávísun fyrir viðskiptavin eða lánardrottinn</td>
+<td>Skráning og bókun fyrirframdagsettrar ávísunar skiptivöru fyrir viðskiptavin eða lánardrottin</td>
 <td>
 Ef upprunaleg ávísun til lánardrottins eða frá viðskiptavini tapast eða skemmist er hægt að gefa út endurnýjaða fyrirframdagsetta ávísun. Þegar upplýsingar um ávísunina eru skráðar skal tilvísun í upprunalegu ávísunina fylgja með og gefa til kynna að nýja ávísunin komi í stað þeirra upprunalegu. Einnig er hægt að bóka endurnýjaða ávísun.</td>
 </tr>
@@ -69,17 +72,19 @@ Ef upprunaleg ávísun til lánardrottins eða frá viðskiptavini tapast eða s
 </tr>
 <tr class="odd">
 <td>Afturkalla fyrirframdagsetta ávísun fyrir lánardrottin</td>
-<td>Hægt er að hætta við bókaða fyrirframdagsettar ávísanir í þessum aðstæðum:-ávísuninni var skilað af bankanum.
--Athugun er beitt á rangur reikningur.
--Staðgreiðsla er gerð með ávísun.
+<td>Hægt er að hætta við bókaða fyrirframdagsetta ávísun í eftirfarandi aðstæðum: - Ávísuninni var skilað af bankanum.
+- Ávísunin er notuð fyrir rangan reikning.
+- Staðgreiðsla er framkvæmd í stað ávísunarinnar.
 </td>
 </tr>
 <tr class="even">
-<td>Stöðva greiðslu fyrir fyrirframdagsettar ávísanir</td>
-<td>Hægt er að stöðva greiðslu á fyrirframdagsettu ávísuninni sem gefin var út á lánardrottinn vegna ástæðna svo sem ónógrar innistæðu á bankareikningnum, breytingum á skilmálum lánardrottins, sendingu á gölluðum vörum frá lánardrottni eða vöruskilum til lánardrottins. Hægt er að stöðva greiðslu á ávísanir sem hefur ekki verið autt.</td>
+<td>- Stöðva greiðslu fyrir fyrirframdagsettri ávísun</td>
+<td>Hægt er að stöðva greiðslu á fyrirframdagsettu ávísuninni sem gefin var út á lánardrottinn vegna ástæðna svo sem ónógrar innistæðu á bankareikningnum, breytingum á skilmálum lánardrottins, sendingu á gölluðum vörum frá lánardrottni eða vöruskilum til lánardrottins. Aðeins er hægt er að stöðva greiðslu vegna ávísana sem ekki er búið að innleysa.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

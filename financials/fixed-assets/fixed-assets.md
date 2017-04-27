@@ -1,6 +1,6 @@
 ---
 title: "Eignir – heimasíða"
-description: "Eignir eru verðmæti eins og byggingar, farartæki, land og búnaður sem eru í eigu einstaklings eða fyrirtækis."
+description: "Eignir eru hlutir sem hafa virði, eins og byggingar, ökutæki, land og tæki, sem eru í eigu einstaklings eða fyrirtækis."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Eignir – heimasíða
 
-Eignir eru verðmæti eins og byggingar, farartæki, land og búnaður sem eru í eigu einstaklings eða fyrirtækis.
+[!include[banner](../includes/banner.md)]
+
+
+Eignir eru hlutir sem hafa virði, eins og byggingar, ökutæki, land og tæki, sem eru í eigu einstaklings eða fyrirtækis. 
 
 Hægt er að setja upp og færa inn kaupupplýsingar fyrir eignir og stjórna þeim með því að afskrifa þær og velja fjármögnunarþröskuld til að skilgreina afskriftir. Þú getur reiknað úr breytingar á eign og einnig losað þær.  Þegar notaður er fjárhagur ásamt eignum, geturðu skoðað núgildandi virði allra eigna. Hátturinn sem eignir eru meðhöndlaðar verður að vera í samræmi við bæði alþjóðlegar bókhaldsreglur og lög um bókhald í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Eign virkni felur í sér margar þessa staðla og reglur.
+
+
 
 
 

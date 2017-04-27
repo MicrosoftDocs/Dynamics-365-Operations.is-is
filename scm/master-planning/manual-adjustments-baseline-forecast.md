@@ -1,5 +1,5 @@
 ---
-title: "Gera handvirkar leiðréttingar á grunnlínu eftirspurnarspár"
+title: "Gera handvirkar leiðréttingar á grunnlínuspánni"
 description: "Þessi grein útskýrir hvernig á að gera handvirkar leiðréttingar á grunnlínuspá og skoða upplýsingar um spá."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínu eftirspurnarspár
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínuspánni
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein útskýrir hvernig á að gera handvirkar leiðréttingar á grunnlínuspá og skoða upplýsingar um spá. 
 
@@ -35,11 +38,11 @@ ms.lasthandoff: 03/31/2017
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Hnitanetið á leiðréttri eftirspurnarspársíðu
 **Leiðrétt eftirspurnarspá** síða inniheldur hnitanet sem hefur eftirfarandi skipulag:
 
--   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / Vöru úthlutunarlykil**, og ein hausa línan í hnitanetinu er **USMF / 1 / D\_Alloc**sýnir spána USMF fyrirtækis sem línu, 1, svæði og **D\_Alloc** úthlutunarlykil vöru.
+-   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykill Vöru **, og ein hausalínan í hnitanetinu er **USMF / 1 / D\_Alloc** sýnir sú lína spána fyrir USMF fyrirtækis , svæði 1, og **D\_Alloc** úthlutunarlykil vöru.
 -   Síðari dálkar tákna spárammana sem spáin hefur verið myndaður fyrir. Hver dálkhaus er fyrsta dagsetning spáramma sem dálkurinn sýnir.
 -   Gildin í reitirnir standa fyrir spá fyrir eina vöru, úthlutunarlykill vöru og svo framvegis fyrir tiltekna spáramma.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Spá uppsöfnun og deaggregation
+## <a name="forecast-aggregation-and-deaggregation"></a>Uppsöfnun spár og af-uppsöfnun
 Undirfyrirsögn síðu sýnir stigið fyrir uppsöfnun spár. 
 
 Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykil / Vörunúmer / Litur / Stærð / Skilgreiningu / Stíll**, er engin uppsöfnun spár og spá er sýnd á stigi vöru víddar hennar. Ef breyta á uppsöfnun er að nota í ** Breytingu spávíddir** síðu sem hægt er að opna úr hugbúnaðarvalmyndinni. 
@@ -50,7 +53,7 @@ Ef þú breytir uppsöfnun til að sýna fleiri uppsöfnuð gögn, er hægt að 
 
 Til dæmis, þú hefur búið spá á stigi vörunnar, en þú veist að eftirspurn eftir þessari vöru mun aukast á öllum staðsetningum vegna kynningar eða annan svipaðan viðburð. Í þessu tilfelli er hægt að stilla uppsöfnun á **Fyrirtæki / Vöru úthlutun skilgreiningarlykils / Vöru** á **Breyta spávíddum** síðu. Hægt er að leiðrétta altæka spá fyrir vöruna yfir öll svæði í **Leiðrétt eftirspurnarspá** hnitanetinu. Til að sjá áhrifin af breytingu þinni yfir öll svæði, opna í **eftirspurnarspálínur** síðu. Á þessari síðu birtist ein lína fyrir vöruna fyrir hvert svæði, leiðrétt spármagn og upprunalet spármagn. 
 
-Þegar spáðu magni er leiðréttingar á samanlögðum stigum, notar kerfið vegið úthlutun til að dreifa breytingar á línum sem stofna á uppsöfnun. 
+Þegar spáð magn er leiðrétt á uppsöfnuðum stigum notar kerfið vegna úthlutun til að dreifa breytingu á milli lína sem stofna uppsöfnunina. 
 
 Einnig er hægt að gera handvirkar leiðréttingar á á **eftirspurnarspálínur** síðu með því að breyta annað hvort **Heildarmagn** gildi eða **Magn** hólfum í af-uppsöfnunar hnitanetinu.
 
@@ -69,15 +72,17 @@ Hægt er að opna ** upplýsingar eftirspurnarspár** síðu til að skoða frek
 **Athugasemdir :**
 
 -   Áreiðanleikabil sem birtist í á **Spá** hluta síðan sýnir mismuninn á milli efri mörk áreiðanleikabils og neðri mörk áreiðanleikabils. Til að sjá gildi fyrir efri og neðri mörk , settu  músabendil yfir línurit í á **söguleg eftirspurn og spá myndrænt** hluta.
--   Ef Dynamics 365 fyrir Aðgerðir Microsoft Azure Vél Nám þjónusta Eftirspurnarspár, hægt er að tilgreina fullvissu stigs prósentu sem á að hafa sem er mynduð. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir  eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
+-   Ef notuð er Dynamics 365 for Operations eftirspurnarspá í Microsoft Azure Machine Learning service, er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir  eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
 
 Einnig er hægt að gera handvirkar leiðréttingar á spá  í **upplýsingar eftirspurnarspár** síðu með því að breyta gildum í á **Spá** línunni í á **Spá** hluta.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Fylgjast með nákvæmni spár](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[Mynda tölfræðilega grunnlínuspá](generate-statistical-baseline-forecast.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Fyrirtækisstjórnun – heimasíða"
-description: "Þetta efnisatriði punkta tilföng sem hjálpa þér að nota Microsoft Dynamics 365 fyrir Aðgerðir í fyrirtækinu."
+description: "Þessi efnisgrein vísar á tilföng sem munu hjálpa til við að nota Dynamics 365 for Operations í fyrirtækinu."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Fyrirtækisstjórnun – heimasíða
 
-Þetta efnisatriði punkta tilföng sem hjálpa þér að nota Microsoft Dynamics 365 fyrir Aðgerðir í fyrirtækinu.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi efnisgrein vísar á tilföng sem munu hjálpa til við að nota Dynamics 365 for Operations í fyrirtækinu.
 
 <a name="number-sequences"></a>Númeraraðir
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Setja upp númeraraðir með því að nota leiðsagnarforrit](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (leiðarvísi fyrir Verk)
--   [Setja upp númeraraðir byggðu á einstaka](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (leiðarvísi fyrir Verk)
+-   [Talnarunuyfirlit](number-sequence-overview.md)
+-   [Setja upp númeraraðir með því að nota leiðsagnarforrit](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (verkefnaleiðbeiningar)
+-   [Setja upp númeraröð á einstaklingsgrundvelli](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (verkefnaleiðbeiningar)
 
 ## <a name="address-books"></a>Aðsetursbækur
--   [Address books](qa-address-books.md)
--   [Yfirlit: Altæk aðsetursbók](overview-global-address-book.md)
--   [Áætlanagerð skilgreiningu altækrar aðsetursbókar og viðbótar aðsetursbók](plan-configuration-global-address-book-additional-address-books.md)
+-   [Aðsetursbækur](qa-address-books.md)
+-   [Yfirliti: Altæk aðsetursbók](overview-global-address-book.md)
+-   [Áætlun fyrir stillingu altækrar aðsetursbókar og viðbótar aðsetursbókar](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Verkflæði
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Uppbygging kerfisins verkflæðis](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [Yfirlit yfir verkflæðiskerfi](overview-workflow-system.md)
+-   [Uppbygging verkflæðiskerfis](workflow-system-architecture.md)
+-   [Verkflæðiseiningar](workflow-elements.md)
+-   [Verkflæðisaðgerðir](workflow-actions.md)
 -   [Stofna verkflæði](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Skilgreina eiginleika verkflæðis](configure-workflow-properties.md)
 -   [Skilgreina handvirkt verk](configure-manual-task-workflow.md)
 -   [Skilgreina sjálfvirkt verk](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Skilgreining samþykktarferlis](configure-approval-process-workflow.md)
 -   [Skilgreining samþykktarskrefs](configure-approval-step-workflow.md)
 -   [Skilgreina handvirka ákvörðun](configure-manual-decision-workflow.md)
 -   [Skilgreina skilyrtri ákvörðun](configure-conditional-decision-workflow.md)
 -   [Skilgreina Hliðstæður verkþáttur](configure-parallel-activity-workflow.md)
 -   [Skilgreina Hliðstæður grein](configure-parallel-branch-workflow.md)
--   [Skilgreina verkflæðiseining línuvöru](configure-line-item-workflow.md)
+-   [Skilgreina verkflæðiseiningu línuatriðis](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Málastjórnun
--   [Áætlun: Case uppsetningu](plan-case-management.md)
--   [Dæmi um málastjórnunar](cases.md)
+-   [Áætlanir: Uppsetning máls](plan-case-management.md)
+-   [Dæmi málastjórnunar](cases.md)
 
 ## <a name="electronic-signatures"></a>Rafrænar undirskriftir
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Setja upp rafrænar undirskriftir](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (leiðarvísi fyrir Verk)
+-   [Yfirlit yfir rafrænar undirskriftir](electronic-signature-overview.md)
+-   [Uppsetning rafræna undirskrifta](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (verkefnaleiðbeiningar)
 
 ## <a name="organizations"></a>Fyrirtæki
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Stofna rekstrareiningu](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (leiðarvísi fyrir Verk)
--   [Stofna stigveldi fyrirtækis](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (leiðarvísi fyrir Verk)
--   [Stofna lögaðila](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (leiðarvísi fyrir Verk)
+-   [Fyrirtæki og stigveldi fyrirtækis](organizations-organizational-hierarchies.md)
+-   [Áætla stigveldi fyrirtækis](plan-organizational-hierarchy.md)
+-   [Stofna rekstrareiningu](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (verkefnaleiðbeiningar)
+-   [Stofna stigveldi fyrirtækis](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (verkefnaleiðbeiningar)
+-   [Stofna lögaðila](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (verkefnaleiðbeiningar)
 
-## <a name="general-administration"></a>Almenn stjórnunar
--   [Breyta banner eða merki](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (leiðarvísi fyrir Verk)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+## <a name="general-administration"></a>Almenn stjórnun
+-   [Breyta borða eða merki fyrirtækis](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (verkefnaleiðbeiningar)
+-   [Um gögn dagsetninga/tíma og tímabelti](date-time-zones.md)
+-   [Færslusniðmát](record-templates.md)
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Umbreyta bókhaldi eða skýrslugjaldmiðlum
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Fyrirtæki°sem verður að breyta bókhaldsgjaldmiðli eða skýrslugjaldmiðli sínum hefur tvo valkostir. Fyrsti valkostur er að stofna nýtt fyrirtæki og byrja upp á nýtt. Annar kostur er að keyra umbreytingarferli bókhalds- og skýrslugjaldmiðla. Þetta er mjög langt ferli sem breytir hverri færslu í kerfinu. Einnig er krafist einhverrar uppsetningar áður en hægt er að keyra ferlið.
@@ -72,6 +75,8 @@ Allar afstemmingarskýrslur þurfa að vera virkjaðar aftur eftir umreikning ti
 -   Ef breyting á fjárhagsbókhaldsgjaldmiðli veldur sléttunarmun, er sá mismunur ekki bókaður með því fylgiskjali þar sem sléttunarmismunur varð. Í staðinn er mismunurinn bókaður með fylgiskjali sem fært var inn fyrir umreikningsbókun. Eftir umreikning munu allar skýrslur sem villuleita eftir fylgiskjali og dagsetningu innihalda sléttunarmuninn. Þetta er rétt og má hunsa.
 -   Ef afstemmingarskýrslur viðskiptavinar og lánardrottins sýna sitthvora upphæð í samtalslínu og enginn munur var fyrir umreikninginn þarf að bóka upphæðamismuninn. Lykillinn er safnlykill fyrir viðskiptavini og lánardrottna. Mótlykillinn er fjárhagslykill fyrir tap í umreikningi eða gróða í umreikningi.
 
-Þegar öllum fjárhagsfærslubókum hefur verið eytt, er hægt að skrá fjárhagsfærslur aftur. Smellið á **fjárhagi**&gt;**Reglubundið**&gt;**Færslubækur**&gt;**Færslubókarskráning**. Hægt er að endurmeta upphæðir í erlendum gjaldmiðli eftir gjaldmiðilsumreikning, ef þörf er á endurmati. Upphæðir eru endurmetnar í erlendum gjaldmiðli með því að velja **Staðlað** í svæðinu **Aðferð** fyrir endurmat.
+Þegar öllum fjárhagsfærslubókum hefur verið eytt, er hægt að skrá fjárhagsfærslur aftur. Smellt er á **Fjárhagur** &gt; **Tímabils** &gt; **bækur ** &gt; **Færslubókaskráning**. Hægt er að endurmeta upphæðir í erlendum gjaldmiðli eftir gjaldmiðilsumreikning, ef þörf er á endurmati. Upphæðir eru endurmetnar í erlendum gjaldmiðli með því að velja **Staðlað** í svæðinu **Aðferð** fyrir endurmat.
+
+
 
 

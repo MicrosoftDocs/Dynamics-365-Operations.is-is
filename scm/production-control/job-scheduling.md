@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Vinnsluröðun
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um Vinnsluröðun sem er ítarlegri mynd röðunar en aðgerðaröðun. Hægt er að nota Vinnsluröðun til að raða einstakra vinnsla eða verslunarpöntunum, og til að stjórna framleiðsluumhverfi
 
 Hægt er að nota Vinnsluröðun til að raða einstakra vinnsla eða verslunarpöntunum, og til að stjórna framleiðsluumhverfi vinnsluröðun sundurliðar hverja aðgerð niður í einstök verk eða vinnslur. Þessum vinnslum er svo úthlutað rekstrartilföngum sem munu framkvæma þær. Vinnsluröðun gerir einnig kleift að samstilla allar vinnslur sem er vísar í úr valið verk. Hægt er að tilgreina upphafs- eða lokadagsetningu og tíma vinnslunnar og keyra svo röðun. Val á röðunarstefnu ræður því hvort tíminn sem tilgreindur er sé upphafs- eða lokatími. Þessi aðgerð er gagnleg þegar, til dæmis, vinnslu getur aðeins keyrt á einni vél í senn, eða þegar óskað er að fínstilla vinnslan er keyrð fyrir hvert tilfang.
@@ -39,7 +42,7 @@ vinnsluröðunarferli felur í sér eftirfarandi verkefni:
 -   Skipta rekstri í vinnslur.
 -   Raða vinnslu á grundvelli dagsetninga og tímasetninga fyrir tilföng sem tilgreindar eru í tengdri aðgerð.
 -   Reikna út upphafs- og lokatíma hverrar vinnslu. Hægt er að nota takmarkaða afkastagetu til að tryggja tíma skarast ekki.
--   Ákvarða hvaða tilföng í tilföngin flokkur til að keyra vinnslu. Þetta verk krefst þess að á tilfangaflokk að vera tilgreint fyrir aðgerð. Vinnsluröðun velur tilföng eða tilfangaflokka samkvæmt stysta afhendingartíma og tekur einnig tillit til allar fyrri frátekningar á tilföng.
+-   Ákvarða hvaða tilföng í tilfangaflokki til að keyra vinnslu fyrir. Þetta verk krefst þess að tilfangaflokkur sé tilgreint fyrir aðgerð. Vinnsluröðun velur tilföng eða tilfangaflokka samkvæmt stysta afhendingartíma og tekur einnig tillit til allar fyrri frátekningar á tilföng.
 -   Brjóta niður aðgerða í vinnslur þegar vinnsluröðun er keyrð. Vinnslum er raðað eftir dagsetningu og tíma, eftir þeirri röð sem er tilgreind í framleiðsluleiðinni. Uppsetning aðgerðarinnar ákvarðar vinnslur sem eru brotnar niður á meðan á röðuninni stendur. Leiðarflokkur sem er úthlutaður á aðgerð stýrir hvort vinnslur eru myndaðar. Vinnsla er mynduð aðeins ef hún hefur tiltekna tímalengd. Til dæmis er verk fyrir flutningstíma myndað ef flutningstími var tilgreindur fyrir valda aðgerð.
 
 ## <a name="scheduling-direction"></a>Stefna röðunar
@@ -73,5 +76,7 @@ Tilföng er úthlutað á vinnslum í gegnum vinnsluröðun. Hægt er að koma �
 
 ## <a name="resource-efficiency"></a>Skilvirkni tilfanga
 Vinnsluröðun tekur tillit til Skilvirkniprósentur sem eru tilgreindar fyrir tilföng. Skilvirkniprósentur minnka eða auka tímann sem tekinn er frá fyrir tilföng. Þar af leiðir að afhendingartími er einnig aukinn eða minnkaður. Eftirfarandi formúla er notuð fyrir útreikninginn: röðunartími = tími x 100 ÷ skilvirkniprósenta Í þessari formúlu, *tími* inniheldur bæti keyrslutími og uppsetningartími.
+
+
 
 

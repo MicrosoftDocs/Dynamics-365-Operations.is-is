@@ -1,6 +1,6 @@
 ---
 title: "Skrársnið fyrir greiðsluhátt"
-description: "Þetta efnisatriði lýsir tvær aðferðir til að sækja skráarsnið sem hægt er að nota fyrir greiðsluhátt."
+description: "Þetta efnisatriði lýsir tveimur aðferðum til að sækja skráarsnið sem hægt er að nota fyrir greiðslumáta."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,29 +27,34 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Skrársnið fyrir greiðsluhátt
 
-Þetta efnisatriði lýsir tvær aðferðir til að sækja skráarsnið sem hægt er að nota fyrir greiðsluhátt.
+[!include[banner](../includes/banner.md)]
 
-Það eru tvær aðferðir sem nota má til að sækja skrársnið fyrir notkun með greiðsluhætti, rafrænnar skýrslugerðar (ER) skrársnið eða X ++ skrársnið. Þegar sett er upp greiðsluhátt fyrir viðskiptavin eða lánardrottin, er að tilgreina hvaða skrársnið og stöðlum ætti að nota fyrir greiðslur og hvernig verður að vinna greiðslur. Hægt er að velja úr eftirfarandi sniðum:
+
+Þetta efnisatriði lýsir tveimur aðferðum til að sækja skráarsnið sem hægt er að nota fyrir greiðslumáta.
+
+Hægt er að nota tvenns konar aðferðir til að sækja skráarsnið til að nota með greiðslumátum, skráarsnið fyrir rafræna skýrslugerð eða X++ skráarsnið. Þegar þú setur upp greiðslumáta fyrir viðskiptavin eða lánardrottinn tekurðu fram hvaða skráarsnið og staðla skal nota fyrir greiðslur og hvernig greiðslur verða afgreiddar. Hægt er að velja um eftirfarandi snið:
 
 -   Flytja út
 -   Flytja inn
 -   Vöruskil
 -   Greiðsla
 
-### <a name="method-1-electronic-reporting-file-formats"></a>Aðferð 1: Rafræna skýrslugerð skráasnið
+### <a name="method-1-electronic-reporting-file-formats"></a>Aðferð 1: Skráarsnið fyrir rafræna skýrslugerð
 
-Fyrir skráarsnið sem byggir á skilgreiningar ER, þarf að flytja inn afbrigði úr Lifecycle Services (LCS). Nánari upplýsingar, sjá [Sækja Rafræna skilgreiningar frá Lifecycle Services reporting](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Þegar búið er að flytja inn skilgreiningar fjárhagsskýrslna fyrir þær skráasnið, innfluttu snið verður tiltæk til að velja á fyrir **Greiðsluhættir** síðu. Ferlið við að flytja inn og velja skrársnið fyrir Europe er svipað og ferlið Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
+Fyrir skráarsnið sem byggjast á skilgreiningum rafrænnar skýrslugerðar verður að flytja inn skilgreiningar frá Lifecycle Services (LCS). Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs) Eftir að þú flytur inn skilgreiningar skýrslugerðar fyrir þessi skráarsnið er hægt að velja innfluttu sniðin á síðunni **Greiðslumáta**. Ferlið fyrir innflutning og val á skráarsniðum fyrir Evrópu er svipað og í Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
 
-### <a name="method-2-x-file-formats"></a>Aðferð 2: X ++ skráasnið
+### <a name="method-2-x-file-formats"></a>Aðferð 2: X++ skráarsnið
 
-Ljúkið eftirfarandi skrefum til að velja skrársnið sem eru byggðar á X ++ kóða sem er.
+Til að velja skráarsnið sem byggjast á X++ kóða skal ljúka eftirfarandi skrefum.
 
-1.  Farið í **Greiðsluhættir** síðu.
-2.  Á við **Skráasnið** FastTab, smellið á **Uppsetningu**.
-3.  Veljið flipann sem samsvarar snið skráargerð með.
-4.  Velja skrársnið úr á **Tiltækt** listanum og færa það yfir í **Valið** lista með stýringu örina.
-5.  Loka skal **Skráasnið fyrir greiðsluhætti** síðu.
-6.  Á við **Skráasnið** FastTab, velja skrársnið fyrir greiðsluhátt úr viðeigandi skrársvæði sniði. Almennar rafrænar skýrsluvalkostir ætti að vera stillt á **Nei** fyrir X ++ skráasniða.
+1.  Farðu á síðuna **Greiðslumátar**.
+2.  Á flýtiflipanum **Skráarsnið** er smellt á **Uppsetning**.
+3.  Veldu flipann sem samsvarar gerð skráarsniðsins.
+4.  Veldu skráarsnið úr listanum **Tiltækt** og færðu það í listann **Valið** með örvahnappi.
+5.  Lokaðu síðunni **Skráarsnið fyrir greiðslumáta**.
+6.  Á flýtiflipanum **Skráarsnið** skal velja skráarsniðið sem á að nota fyrir greiðslumátann úr viðeigandi reit fyrir skráarsnið. Almennir valkostir fyrir rafræna skýrslugerð eiga að vera stilltir á **Nei** X++ skráarsnið.
+
+
 
 
 

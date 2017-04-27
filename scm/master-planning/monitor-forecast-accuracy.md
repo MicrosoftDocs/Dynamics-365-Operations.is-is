@@ -1,6 +1,6 @@
 ---
 title: "Fylgjast með nákvæmni spár"
-description: "Þessi skrá lýsir gerðir nákvæmni eftirspurnarspár Microsoft Dynamics 365 fyrir Aðgerðir á reiknar og útskýrir hvernig hægt er að skoða gildi nákvæmni."
+description: "Þessi skrá lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,21 +27,26 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="monitor-forecast-accuracy"></a>Fylgjast með nákvæmni spár
 
-Þessi skrá lýsir gerðir nákvæmni eftirspurnarspár Microsoft Dynamics 365 fyrir Aðgerðir á reiknar og útskýrir hvernig hægt er að skoða gildi nákvæmni.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 aðgerða reiknar eftirfarandi gerðir af nákvæmni eftirspurnarspár:
+
+Þessi skrá lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.
+
+Dynamics 365 for Operations reiknar eftirfarandi gerðir af nákvæmni spár:
 
 -   Söguleg nákvæmni spár, með því að bera saman sögulega spá sem notar Aðaláætlanagerð með sögulega eftirspurn. Til að skoða gildi (bæði raungildi og prósentugildi) fyrir sögulega nákvæmni spár er smellt á **Sýna nákvæmni** á **Upplýsingar eftirspurnarspár** síðunni.
 -   Áætlaðuð nákvæmni spárlíkans sem er notað til að mynda spár. Hægt er að skoða nákvæmnihlutfall undir **Líkan upplýsingar - MAPE** á **Upplýsingar eftirspurnarspár** síðunni. 
 
-**Athugasemd:** Ef Dynamics 365 nota Aðgerðir Microsoft Azure Vél Nám þjónusta Eftirspurnarspár fyrir útreikning á nákvæmni innri líkan byggð á gagnasafn prófun. Til að tilgreina stærð gagnasafn prófun er stillt á **PRÓFA\_SETJA\_STÆRÐ\_PRÓSENT** færibreyta á á **færibreytur Eftirspurnarspár** síðu. Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.
+**Ábending:** Ef eftirspurnarspár Dynamics 365 for Operations Microsoft Azure Vél Nám þjónustan byggist útreikningur á nákvæmni innri líkans á prófunargagnasafni. Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_ SIZE\_ PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**. Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.
 
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Heimila leiðrétta spá](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

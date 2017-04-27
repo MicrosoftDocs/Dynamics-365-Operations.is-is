@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Tímamörk skráningar pantana
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um lokadag fyrir skráningu pantana. Lokadagur fyrir skráningu pantana er sá lokatími sem sker úr um það hvort pöntun viðskiptavinar er meðhöndluð (og uppfyllt) eins og hún sé móttekin á núverandi degi eða daginn eftir.
 
 Í mörgum fyrirtækjum verður sölupöntun að hafa borist fyrir ákveðinn tíma dags til þess að hún sé unninn eins og hún hafi borist þann dag. Allar pantanir sem er tekið eftir þann dag eru meðhöndlaðar eins og ef þær eru mótteknar í næsta virka dag. Þessi loktími fyrir pantanir kallast lokadagur fyrir skráningu pantana.  
 
-Lokadagur fyrir skráningu pantana eru notaðar sem inntak fyrir pöntun lofað. Því eru þær aðstoðað við að stjórna væntingar viðskiptamanna um afhendingu. Til dæmis, viðskiptavini sjá að, ef þeir leggja inn pöntun hjá þér áður en á tilteknum tíma, muntu lofa að senda vörum á sama degi. Hins vegar ef þeir miss sem tímamarka, þær getur búist við sendingu aðeins á næsta virka dag. Stilla tímamörk fyrir pöntunarfærslu samkvæmt vöruhús getu- og flutningsþjónustu farmflytjenda áætlanir.  
+Lokadagur fyrir skráningu pantana eru notaðar sem inntak fyrir pöntun lofað. Því eru þær aðstoðað við að stjórna væntingar viðskiptamanna um afhendingu. Til dæmis, viðskiptavini sjá að, ef þeir leggja inn pöntun hjá þér áður en á tilteknum tíma, muntu lofa að senda vörum á sama degi. Hins vegar ef þeir missa af þessum lokafresti geta þeir aðeins búist við sendingu næsta virka dag. Þú stillir lokadagur fyrir skráningu pantana samkvæmt getu vöruhúss og áætlunir farmflytjanda.  
 
 Á **lokadagur fyrir skráningu pantana** síðu er að setja tíma fyrir lokadagur fyrir skráningu pantana fyrir alla daga vikunnar. Allar pantanir sem er tekið eftir þann dag eru meðhöndlaðar eins og ef þær eru mótteknar í næsta dag. Að sjálfgefnu þessir tímar eru stillt á 23:59 (það er eina mínútu fyrir miðnætti við lok viðkomandi dags). Hægt er að breyta sjálfgefnum tímum svo að þeir passi við raunverulega tímamarka sendingar eða innhreyfingar.  
 
@@ -43,7 +46,7 @@ Ef fyrirtækið samanstendur af nokkrum staðsetningum, er hægt að setja upp l
 Á **Virkja samsetningar lokadags fyrir skráningu pantana** síðu er að skilgreina þær samsetningar svæða og flokka lokadaga fyrir skráningu pantana sem eru leyfð.
 
 ## <a name="example-order-entry-deadline"></a>Dæmi: Pöntunarfærsluskiladagur
-Lokadagur fyrir skráning pantana á þriðjudögum hefur verið stilltur á 16:00. Á ákveðnum þriðjudegi, klukkan 17:00, reynirðu að stilla núverandi dagsetningu sem sendingardagsetningu. (Athugið að það er enginn afhendingartími fyrir þetta dæmi.) Ef í **stýringu Afhendingardagsetningar** gátreiturinn er valinn, að fá viðvörun sem tilgreinir að dagsetning er ekki gilt. Viðvörunin birtist á á **Tiltækar sendingar- og móttökudagsetningar** síðuna þar sem er hægt að velja aðrar dagsetningar.
+Lokadagur fyrir skráning pantana á þriðjudögum hefur verið stilltur á 16:00. Á ákveðnum þriðjudegi, klukkan 17:00, reynirðu að stilla núverandi dagsetningu sem sendingardagsetningu. (Athugið að enginn afhendingartími er fyrir þetta dæmþ) Ef í **Stýring afhendingardagsetningar** gátreiturinn er valinn, færðu viðvörun sem tilgreinir að dagsetning er ekki gild. Viðvörunin birtist á á **Tiltækar sendingar- og móttökudagsetningar** síðuna þar sem er hægt að velja aðrar dagsetningar.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Dæmi: Mismunandi lokadagar fyrir skráningu pantana fyrir hvert vefsvæði
 Fyrirtækið samanstendur af tveimur setrum. Staðsetningarnar eru staðsett í mismunandi tímabeltum, eins og sýnt er í eftirfarandi töflu.
@@ -55,7 +58,7 @@ Fyrirtækið samanstendur af tveimur setrum. Staðsetningarnar eru staðsett í 
 
 Staðsetningar A og B hafa skilgreint eftirfarandi lokadagur fyrir skráningu pantana.
 
-| Vikudagur             | A: pöntun pöntunarfærslu (PST) | B: pöntun pöntunarfærslu (EST) |
+| Vikudagur             | A: Lokadagar fyrir skráningu pantana (PST) | B: Lokadagur fyrir skráningu pantana (EST) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Mánudagur                      | 13:00:00                          | 14:00:00                          |
 | Þriðjudagur                     | 13:00:00                          | 14:00:00                          |
@@ -67,7 +70,7 @@ Staðsetningar A og B hafa skilgreint eftirfarandi lokadagur fyrir skráningu pa
 
 Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur umbreytt í MST-tíma.
 
-| A: PST setri         | Setri A: MST        | Setri B: EST           | Svæði B: MST        |
+| A-setur: PST         | A-setur: MST        | B-setur: EST           | B-setur: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00:00               | 14:00:00              | 14:00:00                 | 12:00:00              |
 
@@ -95,7 +98,7 @@ Staðsetningar A og B hafa skilgreint eftirfarandi lokadagur fyrir skráningu pa
 
 Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur umbreytt í MST-tíma.
 
-| A: PST setri         | Setri A: MST        | Setri B: EST           | Svæði B: MST        |
+| A-setur: PST         | A-setur: MST        | B-setur: EST           | B-setur: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00:00               | 14:00:00              | 13:00:00                 | 11:00:00              |
 
@@ -104,6 +107,8 @@ Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur um
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Afhendingaráætlanir](delivery-schedules.md)
+
+
 
 

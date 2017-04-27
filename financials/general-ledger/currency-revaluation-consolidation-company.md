@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Endurmat á gjaldmiðli í samstæðufyrirtæki
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Þegar gögn frá einum bókhaldsgjaldmiðill til annars eru sameinuð, verður samt að keyra gjaldmiðilsendurmatið ef breyting á gjaldmiðla verður , þannig að lykilsstöður þínar séu rétt endurmetnar. Þegar gögnum eru sameinuð í upphafi, nota á **umreikningur Gjaldmiðils** flipa til að velja fyrstu gengi fyrir þýðingu á meðan á sameiningarferlinu stendur. Eftir að nýtt gengi er fært inn (til dæmis í næsta mánuð), verður að endurmeta stöðu lykils. Óinnleystur hagnaður eða tap er síðan uppfærð til samræmis, byggt á nýju gengi og dagsetningu. Eftirfarandi dæmi sýnir bókhaldsfærslur sem eru stofnaðar á meðan vinnslu stendur.
@@ -33,7 +36,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="company-setup"></a>Uppsetning fyrirtækis
 -   **Uppruna/rekstrar fyrirtæki (USMF)** – Bandarískum dollurum (USD) eru notaðar sem á bókhalds og skýrslugjaldmiðill.
 -   **Sameinað fyrirtæki (CON)** – Evrur (EUR) eru notaðar sem á bókhalds og skýrslugjaldmiðill.
-    -   ** Innleystur hagnaður ** – fjárhagslykill 801500
+    -   **Óinnleystur hagnaður**– Fjárhagslykil 801500
     -   **Innleystur tap **– fjárhagslykill 801600
     -   **Óinnleystur hagnaður**– fjárhagslykill 801600
     -   **Óinnleyst tap**– fjárhagslykill 801400
@@ -82,6 +85,8 @@ ms.lasthandoff: 03/31/2017
 | 130100         | EUR      | -500,00 | Upprunaleg upphæð uppá -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333.33 = 166.67 166.67 + 83.33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250 |
+
+
 
 
 

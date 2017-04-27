@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Þríhliða jöfnunarreglur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur dæmi um þríhliða jöfnun.
 
 <a name="example-three-way-matching-for-items"></a>Dæmi: Þríhliða jöfnun fyrir vörur
@@ -62,7 +65,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Hann færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
-    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnun eru verð á reikningslínu innan vikmörk sem eru skilgreindar í Microsoft Dynamics 365 fyrir Operations.This inniheldur eftirfarandi gerðir af samsvörun verðs:
+    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Operations. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
         -   Samsvörun nettóeiningaverðs – Nettóeiningaverð í reikningslínunni samsvarar nettóeiningarverði í innkaupapöntunarlínunni, innan prósentu vikmarka. Í þessu dæmi eru vikmörk nettóeiningaverðs +8%.
         -   Jöfnun samtalna verðs – Nettóupphæð í reikningslínunni er jöfnuð við nettóupphæð innkaupapöntunarlínu, innan vikmarka prósentu, upphæðar eða prósentu og upphæðar. Í þessu dæmi eru vikmörk jöfnunar samtalna verðs +15%.
 
@@ -75,7 +78,7 @@ Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 | Skattur                         |          |            | 0,00       |
 | Samtala                       |          |            | 44.500,00  |
 
-Í Microsoft Dynamics 365 fyrir Aðgerðir, í reikningslínu sem inniheldur eftirfarandi upplýsingar.
+Í Microsoft Dynamics 365 for Operations inniheldur reikningslínan eftirfarandi upplýsingar.
 
 | Vörunúmer                 | Magn | Einingarverð | Nettóupphæð línu | Jöfnunarregla    | Magn á innhreyfingarskjali afurða sem á að para | Verðsamsvörun | Samtala verðs jöfnuð |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 1.  Vörurnar berast. Sammy, starfsmaður í móttökudeild útibús Fabrikam í Malasíu, er truflaður og bókar ekki innhreyfingarskjal afurða strax.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
-    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnun, verð á reikningslínunni eru vikmörk sem eru skilgreindar í Microsoft Dynamics 365 aðgerða. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
+    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Operations. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
         -   Samsvörun nettóeiningaverðs – Nettóeiningaverð í reikningslínunni samsvarar nettóeiningarverði í innkaupapöntunarlínunni, innan prósentu vikmarka. Í þessu dæmi eru vikmörk nettóeiningaverðs +2%.
         -   Jöfnun samtalna verðs – Nettóupphæð í reikningslínunni er jöfnuð við nettóupphæð innkaupapöntunarlínu, innan vikmarka prósentu, upphæðar eða prósentu og upphæðar. Í þessu dæmi eru vikmörk jöfnunar samtalna verðs +10%.
 
@@ -124,7 +127,7 @@ Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 | USB drif             | 200      | 10,05      | 2.010,00   |
 | Samtals reikningsupphæð         |          |            | 7.092,00   |
 
-Í Microsoft Dynamics 365 fyrir Aðgerðir, í reikningslínu sem inniheldur eftirfarandi upplýsingar.
+Í Microsoft Dynamics 365 for Operations inniheldur reikningslínan eftirfarandi upplýsingar.
 
 | Vörunúmer           | Magn | Einingarverð | Nettóupphæð línu | Jöfnunarregla    | Magn á innhreyfingarskjali afurða sem á að para | Verðsamsvörun | Samtala verðs jöfnuð |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Athugið eftirfarandi vörur:
 Ef samþykkis er krafist fyrir reikninga sem á að bóka með jöfnunarmisræmi verður að velja Samþykkja bókun með misræmi víxla á Reikningnum samsvarandi upplýsingasíða áður en hægt er að bóka reikning með jöfnunarvillu verðs og jöfnunarvillur magns. Ef samþykkis er krafist, úrvinnslu reikninga getur haldið áfram ef engar aðrar bókunarvillur eru til staðar.
 
 
-Nánari upplýsingar, sjá [Lykla reikningsjöfnun](accounts-payable-invoice-matching.md).
+Nánari upplýsingar er að finna í [Reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md).
+
+
 
 

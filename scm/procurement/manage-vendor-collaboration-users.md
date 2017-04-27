@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna. 
 
-Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottnum. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfærðing sem vinnur innan fyrirtækis sem á tilvik af Dynamics 365 for Operations. Frekari upplýsingar um hvernig á að nota samvinnusvæði lánardrottins ef ytri lánardrottins sem verið er að finna [Lánardrottins með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottnum. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfærðing sem vinnur innan fyrirtækis sem á tilvik af Dynamics 365 for Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Frekari upplýsingar um hvernig á að nota samvinnusvæði lánardrottins ef innkaupategund faglega sem verið er að finna [samvinnusvæði Lánardrottins við ytri lánardrottna með](vendor-collaboration-work-external-vendors.md).
+Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Bætt við nýjum tengiliðum samstarf lánardrottna
-Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna. Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna. T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar. Bætt nýjum tengiliðum á á **Alla tengiliði** síðu sem er opnuð í **Lánardrottins samvinnusvæði**&gt;**Tengiliði** valmynd. Bæta við nýjum tengiliður:
+Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna. Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna. T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar. Nýjum tengiliðum er bætt við á **Alla tengiliði** síðu sem er opnuð í **samstarf lánardrottna ** &gt; **Tengiliði** valmyndinni. Bæta við nýjum tengiliður:
 
 1.  Smellt er á **Nýtt**.
 2.  Sláðu inn Upplýsingar um tengiliður
-3.  Veldu hvaða lögaðili þeir eru fulltrúi fyrir í þínu fyrirtæki, og hvaða lögaðili þeir vinna með í fyrirtækinu sem þeir vinna með. Þetta er gert með því að velja á **lögaðila í fyrirtækið mitt**/**lögaðila í fyrirtæki viðskiptavinar** par af.
+3.  Veldu hvaða lögaðili þeir eru fulltrúi fyrir í þínu fyrirtæki, og hvaða lögaðili þeir vinna með í fyrirtækinu sem þeir vinna með. Það er gert með því að velja **lögaðila í fyrirtækið mitt**/**lögaðila í fyrirtæki viðskiptavinar** par.
 4.  Smellið á **Stofna**.
 
 Ef óskað er að eyða tengilið er aðeins hægt að eyða þeim sem þú hefur stofnað.
@@ -46,8 +49,8 @@ Ef óskað er að eyða tengilið er aðeins hægt að eyða þeim sem þú hefu
 ## <a name="vendor-collaboration-user-requests"></a>Notendabeiðnir samstarfs lánardrottna
 Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræðingi, eða af ytri lánardrottinn sem er stjórnandi.
 
--   Ef ytri lánardrottins sem verið er að senda beiðnir frá á **Alla tengiliði** síðuna innan á **Lánardrottins samvinnusvæði** kerfiseiningu.
--   Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna. Til að framkvæma það í færslu lánardrottins í á **Uppsetningu** hlutanum í aðgerðasvæðinu skal velja **Tengiliði**&gt;**Skoða tengiliði**.
+-   Ef þú ert ytri lánardrottinn sendirðu inn beiðnir frá síðunni **Alla tengiliði** innan einingarinnar **Samstarf lánardrottna**.
+-   Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna. Til að gera þetta má, á færslu lánardrottins í **Uppsetningu** hlutanum í aðgerðarúðu, velja **Tengiliði** &gt; **Skoða tengiliðina**.
 
 Þú getur beðið um að gerðar séu ráðstafanir fyrir notanda, að gera notanda óvirkan, eða að breyta öryggishlutverkum. Ef þú ert ytri lánardrottinn sem er stjórnandi verður þú að vera skráður sem tengiliður fyrir lánardrottnalykla sem þú vilt gera notandabeiðnir fyrir, og þú verður að hafa aðgang að viðmóti fyrir samstarf lánardrottna fyrir þá lánardrottnalykla.  
 
@@ -57,13 +60,13 @@ Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræ�
 
 Áður en þú getur beðið um að gera ráðstafanir fyrir notanda, verður sá einstaklingur að vera settur upp sem tengiliður fyrir einn eða fleiri lánardrottnalykla. Stofna beiðni fyrir nýjan notanda samstarfs lánardrottna:
 
-1.  Á við **Alla tengiliði** síðunni er smellt á **lánardrottins ráðstöfunarnotandi**.
-2.  Slá inn netfang fyrir notanda Þetta aðsetur verða notuð af notandanum til að skrá sig inn á Dynamics 365 for Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (ADD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Tölvupóstur consumer aðsetur með lén eins og @hotmail.com, @gmail.com, eða @comcast.neter ekki hægt að nota til að skrá Dynamics 365 Aðgerðir notanda.
+1.  Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.
+2.  Slá inn netfang fyrir notanda Þetta aðsetur verða notuð af notandanum til að skrá sig inn á Dynamics 365 for Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (ADD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Netföng notenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net er ekki hægt að nota til að skrá notanda Dynamics 365 for Operations.
 3.  Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.
 4.  Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
 5.  Smelltu á **Senda**.
 
-Þegar um er að senda notandabeiðni lánardrottins, sem **Lánardrottins samvinnusvæði aðgang leyfð** er stillt á **Já** fyrir valinn lánardrottnalykil og notandi beiðni verkflæðis er hafin. Sem hluti af verkflæði er nýr notandi stofnaðir í Dynamics 365 for Operations og öryggishlutverk úthlutað. Auk þess er Azure B2B þjónustu virkjuð sem byrjar samskipti við Azure-gátt og tengir nýja eða núverandi AAD reikning við Dynamics 365 for Operations notandareikningurinn.
+Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaðir í Dynamics 365 for Operations og öryggishlutverk úthlutað. Auk þess er Azure B2B þjónustu virkjuð sem byrjar samskipti við Azure-gátt og tengir nýja eða núverandi AAD reikning við Dynamics 365 for Operations notandareikningurinn.
 
 ### <a name="inactivate-a-user"></a>Gera notanda óvirkan
 
@@ -72,22 +75,24 @@ Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræ�
 -   Á **Tengiliði** síðunni fyrir lánardrottinn, stilla **aðgang leyfð fyrir samstarf lánardrottna** valkostinn á **Nei** fyrir tengiliðinn. Þetta er gert sérstaklega fyrir hvern lögaðila sem einstaklingurinn er tengiliður fyrir. Aðeins er hægt að nota þennan valkost af innkaupasérfræðingum.
 -   Gera anna notandareikningurinn óvirkan með því að senda inn beiðnina **gera notanda lánardrottins óvirkan**.
 
-Til að biðja um að notanda er gerður óvirkur:
+Til að biðja um að gera notanda óvirkan:
 
-1.  Á við **Alla tengiliði** síðunni er smellt á **Inactivate****notanda lánardrottins**.
+1.  Á **Alla tengiliði** síðunni er smellt á **óvirkja** **notanda lánardrottins**.
 2.  Skrifa athugasemd við **réttlæting viðskipta** svæði.
 3.  Smelltu á **Senda**.
 
 ### <a name="modify-security-roles"></a>Breyta öryggishlutverkum
 
-Í **Viðhalda notendahlutverk lánardrottins** síðu er sú sama og í **lánardrottins ráðstöfunarnotandi** síðuna nema að ekki er hægt að breyta lista yfir öryggishlutverk.  
+**Viðhalda notendahlutverk lánardrottins** síðu er sú sama og í **lánardrottins ráðstöfunarnotandi** síðuna nema að ekki er hægt að breyta lista yfir öryggishlutverk.  
 
-Til að biðja um öryggishlutverkin er breytt fyrir notanda:
+Til að biðja um að öryggishlutverkin er breytt fyrir notanda:
 
-1.  Á við **Alla tengiliði** síðunni er smellt á **Maintain****notendahlutverk lánardrottins**.
+1.  Á **Alla tengiliði** síðunni er smellt á **Viðhalda** **hlutverkum notanda lánardrottins**.
 2.  Skrifa athugasemd við **réttlæting viðskipta** svæði.
 3.  Í Hlutinn **Viðhalda notendahlutverk** , veldu öryggishlutverk sem þú vilt úthluta, eða hreinsa þær sem þú vilt fjarlægja.
-4.  Click **Submit**.
+4.  Smella á **Senda**.
+
+
 
 
 

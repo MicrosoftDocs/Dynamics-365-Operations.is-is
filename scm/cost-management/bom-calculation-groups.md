@@ -1,5 +1,5 @@
 ---
-title: "Flokka útreikninga Uppskrifta"
+title: "Flokkur uppskriftarútreiknings"
 description: "Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Flokka útreikninga Uppskrifta
+# <a name="bom-calculations-groups"></a>Flokkur uppskriftarútreiknings
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar. 
 
-Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vöruhúss ** síðu, eða afurðabundinn reikniflokkur er krafist í á **upplýsingar um losaðar afurðir** síðu. Fyrst sölutilboðslínu leitar kerfið uppsetningu útreiknings á **Losuð afurðarupplýsingar** síðu. Ef finnst ekki í flokki uppskriftarútreiknings það, eitthvað það við **Birgða- og færibreytur skjalastjórnunar** síðu. Ef kerfið finnur ekki reikniflokki, fær notandinn villuboð við útreikning. Reikniflokkur inniheldur reglur fyrir kostnaðarverðslíkanið, söluverðslíkan og gátlista viðvarana. Stillingar útreikninga úr reikniflokknum eru notaðar sem sjálfgefið gildi á **uppskriftarútreikning** síðu við útreikning Uppskriftar.
+Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vöruhúss ** síðu, eða afurðabundinn reikniflokkur er krafist í á **upplýsingar um losaðar afurðir** síðu. Kerfið leitar fyrst að uppsetningu reikniflokks á **upplýsingar um losaðar afurðir** síðu. Ef það finnur ekki reikniflokk þar, leitar það á síðunni **stjórnfæribreytur birgða og vöruhúss**. Ef kerfið finnur ekki reikniflokk, fær notandinn villuboð við útreikning. Reikniflokkur inniheldur reglur fyrir kostnaðarverðslíkanið, söluverðslíkan og gátlista viðvarana. Stillingar útreikninga úr reikniflokknum eru notaðar sem sjálfgefið gildi á **uppskriftarútreikning** síðu við útreikning Uppskriftar.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Tilgangur flokka uppskriftarútreiknings
 Þú Úthluta flokkum uppskriftarútreiknings af nokkrum ástæðum:
@@ -72,7 +75,7 @@ Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vö
 Sjálfgefin uppsetning í Færibreytur birgða- og vöruhússstjórnunarkerfis
 --------------------------------------------------------------
 
-Vegna þess að reikniflokka er krafist til að keyra útreikning, verður að setja upp sjálfgefinn reikniflokka í færibreytur birgðastjórnunar. Þessi uppsetning gerir fyrirtækjum kleift að hafa flokk staðalkostnaðar og hagnaðarstillingu fyrir allar vörur. Svo, ef tiltekin vara hefur þarfir fyrir sérstakan útreikning, getur notandi úthluta annan reikniflokk á þá vörunni. Venjulega er hægt að stilla reikniflokka á íhlut uppskriftarvörur í staðinn fyrir á uppskriftarvörur. Hins vegar þegar viðvörunarskilaboð eru sýnd, má beita reikniflokkum. Reikniflokkur sem er úthlutað á vörur hnekkir sjálfgefin gildi sem sett er upp í færibreytum birgðastjórnunar. Hægt er að setja upp sjálfgefna færibreyta á **stjórnun Kostnaðar**&gt;**bókhald reglur birgðauppsetningu**&gt;**Færibreytur**&gt;**birgðabókhald**&gt;**reikniflokki**. Með því að setja upp sjálfgefið afbrigðisflokkur, má einnig skilgreina viðvörunarskilyrði sem láta notendur vita á meðan á ferli Útreikningur uppskrifta stendur, ef valdir íhlutir gætu valdið villum í útreikningi.
+Vegna þess að reikniflokka er krafist til að keyra útreikning, verður að setja upp sjálfgefinn reikniflokka í færibreytur birgðastjórnunar. Þessi uppsetning gerir fyrirtækjum kleift að hafa flokk staðalkostnaðar og hagnaðarstillingu fyrir allar vörur. Svo, ef tiltekin vara hefur þarfir fyrir sérstakan útreikning, getur notandi úthluta annan reikniflokk á þá vörunni. Venjulega er hægt að stilla reikniflokka á íhlut uppskriftarvörur í staðinn fyrir á uppskriftarvörur. Hins vegar þegar viðvörunarskilaboð eru sýnd, má beita reikniflokkum. Reikniflokkur sem er úthlutað á vörur hnekkir sjálfgefin gildi sem sett er upp í færibreytum birgðastjórnunar. Hægt er að setja upp sjálfgefna færibreytu á **kostnaðarstjórnun** &gt; **uppsetning á reglum birgðabókhalds** &gt; **Færibreytum** &gt; **birgðabókhald** &gt; **reikniflokkur**. Með því að setja upp sjálfgefið afbrigðisflokkur, má einnig skilgreina viðvörunarskilyrði sem láta notendur vita á meðan á ferli Útreikningur uppskrifta stendur, ef valdir íhlutir gætu valdið villum í útreikningi.
 Skoða viðvörunarskilaboð á síðunni lokið
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Skoða viðvörunarskilaboð á síðunni lokið
 -   Greinið þegar vara í uppskriftarlínu hefur lægri arðsemisprósentu heldur en óskað er eftir.
 
 Hægt er að skilgreina margar flokka uppskriftaútreikninga, eftir kröfum fyrir frávik í viðvörunarskilaboðum. Til dæmis, einn flokkur uppskriftarútreiknings með viðvörunarskilyrðum um virka uppskrift, magn íhluta uppá 0 (núll), og kostnaður íhlutar uippá 0 (núll) gæti verið nóg. viðvörunarskilyrði sem tengjast flokki uppskriftaútreikninga má hnekkja þegar uppskriftarútreikningar eru settir af stað. Einnig er hægt að bæta við eða fjarlægja viðvörunarskilyrði. Til dæmis, er hægt að fjarlægja tiltækt viðvörunarskilyrði um virka leið þegar ákveðnar aðstæður fela ekki í sér leiðargögn. **Athugið:** Tíma og viðveru inniheldur í **reikniflokka** síðu, en sú síðu hefur engin tengsl við flokka uppskriftaútreikninga. Í Tími og viðvera er hægt að úthluta starfsmönnum á reikniflokka sem endurspegla hóp starfsmanna sem eru tengdir við sama yfirmann eða stjórnandi. Útreikning á starfsmannaskráningu er gert annað hvort sjálfvirkt eða handvirkt af yfirmaður eða stjórnandi.
+
+
 
 

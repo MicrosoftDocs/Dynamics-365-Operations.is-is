@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Afleiddar bækur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir notagildi afleidds Bók.
 
-Tilgangur afleiddar afskriftabækur er til að einfalda bókun á færslur í afskriftabók eigna sem eru áætlaðar með reglulegu millibili.  Veljið eina aðsetursbók sem aðal bók. Þetta er venjulega bókin sem er notað fyrir bókhaldslegar afskriftir. Síðan er það tengt við önnur bækur sem eru sett upp til að bóka færslur á sömu tímabilum og bóka. Bækur skattaafskrifta eru oft uppsett sem afleidd bækur. 
+Tilgangur afleiddra bóka er að einfalda bókun á færslum bóka fasta eigna sem eru áætlaðar með reglulegu millibili.  Eitt bók er valið sem aðalbók. Þetta er venjulega bókin sem er notað fyrir bókhaldslegar afskriftir. Síðan er það tengt við önnur bækur sem eru sett upp til að bóka færslur á sömu tímabilum og bóka. Bækur skattaafskrifta eru oft uppsett sem afleidd bækur. 
 
 Algengustu færslurnar sem eru settar upp til að bóka á afleiddar bækur eru kaup, leiðréttingar kaupa og losanir. 
 
@@ -42,6 +45,8 @@ Bók B og bók C eru uppsett sem afleidd bækur fyrir bók A fyrir kaupfærsluge
 > [!NOTE]                                                                                                                               
 > Bækur sem eru uppsett til að bóka færslur með öðrum millibilum en aðalbókar verða að vera tengd eigninni sem aðskilin bækur en ekki sem afleidd bækur.  
 
-Nánari upplýsingar, sjá [Bókað í afleiddar afskriftarbækur](post-derived-value-models.md).
+Nánari upplýsingar eru í [Bókað í afleiddar bækur](post-derived-value-models.md).
+
+
 
 

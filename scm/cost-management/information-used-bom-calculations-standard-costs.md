@@ -1,5 +1,5 @@
 ---
-title: "Uppskriftaútreikningar með stöðluðum kostnaði"
+title: "Útreikningur uppskrifta með staðalkostnaði"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Uppskriftaútreikningar með stöðluðum kostnaði
+# <a name="bom-calculations-with-standard-costs"></a>Útreikningur uppskrifta með staðalkostnaði
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ Upplýsingarnar um útgáfu kostnaðarútreiknings sem eru notaðar í uppskrift
 -   Innihald kostnaðarútgáfunnar verður að fela í sér kostnað − Innihaldið verður að fela í sér kostnað. Það má fela í sér söluverð til að reikna út söluverð sem lagt er til fyrir framleiddar vörur.
 
 Hægt er að tilgreina nokkra uppruna upplýsinga þegar verið er að hefja uppskriftarútreikning. Þetta felur í sér setrið, útreikningsdagsetninguna og útgáfu kostnaðarútreikningsins.
+
+
 
 
 

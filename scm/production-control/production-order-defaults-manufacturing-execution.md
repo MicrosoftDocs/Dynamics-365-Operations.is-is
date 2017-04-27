@@ -1,5 +1,5 @@
 ---
-title: "Sjálfgildi innkaupapöntunar í framleiðsluframkvæmd"
+title: "Sjálfgildi framleiðslupöntunar í framkvæmd framleiðslu"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Sjálfgildi innkaupapöntunar í framleiðsluframkvæmd
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Sjálfgildi framleiðslupöntunar í framkvæmd framleiðslu
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Er á vandlega allar stillingar í á **sjálfgildi innkaupapöntunar Framleiðslu** síðuna áður en starfsmenn byrja að gera skráningu í framleiðsluvinnslum. Ef fyrirtækið notar fjölsvæði, mætti til að setja upp mismunandi sjálfgildi fyrir framleiðslupantanir fyrir hvert svæði. Pantanasjálfgildi fyrir samþættingu við framleiðslustýringar eru settir upp á eftirfarandi flipum á í **sjálfgildi framleiðslupöntunar** síðu:
+
+Þú ættir að íhuga vandlega allar stillingar í á **sjálfgildi framleiðslupöntunar** síðuna áður en starfsmenn byrja að gera skráningar fyrir framleiðsluvinnslur. Ef fyrirtækið notar virknina fjölsvæði, viltu kannski setja upp mismunandi sjálfgildi fyrir framleiðslupantanir fyrir hvert svæði. Pantanasjálfgildi fyrir samþættingu við framleiðslustýringar eru settir upp á eftirfarandi flipum á í **sjálfgildi framleiðslupöntunar** síðu:
 
 -   **Almennt** – almenn pantanasjálfgildi fyrir framleiðsluverk í framkvæmd framleiðslu
 -   **Hefja** – Pöntunarsjálfgildi sem eru notaðar þegar framleiðsluvinnslur eða aðgerðir eru ræstar.
@@ -68,6 +71,8 @@ Efnisnotkun við tilkynna sem lokið ferlið fyrir framleiðslupöntunar er stj�
 -   **Losunarregla** – Þegar framleiðslupöntun er tilkynnt sem lokið er magni af efni sem verður notaðar samkvæmt losunarreglu sem er stillt á uppskriftarlínum framleiðslu. Aðeins efnislínur þar sem losunarregla er stillt á **lokið** verður notuð.
 -   **Alltaf** – Magni af efni sem eru í hlutfalli við magn sem er tilkynnt sem lokið verður alltaf notað.
 -   **Aldrei** – Magn af efni verður aldrei notað.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Áætlanagerð fyrir þekju svæðis, vöruhús skyldugt"
+title: "Aðaláætlanagerð fyrir svæðistryggingu, vöruhús áskilið"
 description: "Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð. Vöruhúsavíddin er skyldug."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Áætlanagerð fyrir þekju svæðis, vöruhús skyldugt
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Aðaláætlanagerð fyrir svæðistryggingu, vöruhús áskilið
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð. Vöruhúsavíddin er skyldug.
 
@@ -39,9 +42,9 @@ Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
 -   Vöruhúsavíddin er ekki stillt á þekjuáætlanagerð. Þessvegna, framboð og eftirspurn safnast upp á staðsetningu, og hugsanlega, á öðrum víddum sem eru með tryggingaráætlun.
 
 Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. Færibreyturnar sem vísað er í á myndinni og staðsetningar þeirra eru sem hér segir:
--   Vöruþekja er skilgreind fyrir vöruna. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna og smellið síðan á **Áætlun &gt;Vöruþekja**.
--   Áfyllingarvensl eru skilgreind fyrir vöruhúsið. Smellt er á **Birgðastjórnun &gt;Uppsetningu &gt;niðurbrot &gt;Vöruhús**. Á flýtiflipanum **Aðaláætlanagerð** skal sjá reitinn **Aðalvöruhús**.
--   Sjálfgefin pöntunargerð er stillt á Framleiðslu, Innkaupapöntun eða Kanban. Smellið á **upplýsingar afurðastjórnun &gt;Afurðir&gt; Útgefnum afurðum**. Veljið vöruna og smellið síðan á **Áætlun &gt;Sjálfgefnar pöntunarstillingar**. Í á **Sjálfgefnar pöntunarstillingar** skjámynd sjá **Sjálfgefin pöntunargerð**.
+-   Vöruþekja er skilgreind fyrir vöruna. Smellið á **Upplýsingastjórnun afurða &gt; Afurðir&gt; Losaðar afurðir**. Veljið vöruna og smellið síðan á **Áætla &gt; Vöruþekja**.
+-   Áfyllingarvensl eru skilgreind fyrir vöruhúsið. Smellið á **Birgðastjórnun &gt; Uppsetning &gt; Niðurbrot birgða &gt; Vöruhús**. Á flýtiflipanum **Aðaláætlanagerð** skal sjá reitinn **Aðalvöruhús**.
+-   Sjálfgefin pöntunargerð er stillt á Framleiðslu, Innkaupapöntun eða Kanban. Smellið á **Upplýsingastjórnun afurða &gt; Afurðir&gt; Losaðar afurðir**. Veldu vöruna og smelltu síðan á **Áætla &gt; Sjálfgefnar pöntunarstillingar**. Í á **Sjálfgefnar pöntunarstillingar** skjámynd sjá **Sjálfgefin pöntunargerð**.
 
 ![Eftirspurn fyrir þekju svæðis, vöruhús skyldugt](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
@@ -50,14 +53,16 @@ Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. F
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)
 
 [Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús lögbundið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Sniðmát fjárhagsáætlunargerðar - þekjuflokks setrið. vöruhús skyldugt](master-plan-site-coverage-warehouse-mandatory.md)
+[Aðaláætlanagerð - trygging svæðis, vöruhús lögbundið](master-plan-site-coverage-warehouse-mandatory.md)
 
 [Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús ekki lögbundið](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
+
+
 
 

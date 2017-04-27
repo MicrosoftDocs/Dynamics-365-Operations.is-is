@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein inniheldur almennar upplýsingar um innkaupapantanir (POs) og tengir viðbótar greinum sem eru tengdar við mörg stig sem Innkaupapöntun fer í gegnum.
 
 Innkaupapöntunina (PO) er skjal sem stendur fyrir samningur við lánardrottinn til að kaupa vörur eða þjónustu. Skjalið hjálpar einnig fylgjast með innhreyfingarskjöl afurða sem eru framleiddra átt pöntunina og síðar, bókhald lánardrottnareikninga sem lánardrottins reikningsfæra til pöntunar.  
 
-**Innkaupapantanir** síða inniheldur yfirlit yfir tiltækar pantanir og gerir það mögulegt að breyta þeim pöntunum. Þegar Innkaupapöntun er opnuð, er hægt að velja á **Haus** yfirlit, sem inniheldur upplýsingar sem er tilgreint aðeins einu sinni fyrir hverja Innkaupapöntun, svo sem upplýsingar um lánardrottin. Einnig er hægt að velja **Línur** yfirlit þar sem hægt er að breyta pöntunarlínum. Vanalega verður skipt er á milli þessara tvö yfirlit sem er að breyta Sölustaðar. Gjöld sem ekki eru kostnaðarjafnaðar skráð beint á **Innkaupapantanir** síðunni en eru opnaðar með valmyndir í haus og línum.  
+**Innkaupapantanir** síða inniheldur yfirlit yfir tiltækar pantanir og gerir það mögulegt að breyta þeim pöntunum. Þegar Innkaupapöntun er opnuð, er hægt að velja á **Haus** yfirlit, sem inniheldur upplýsingar sem er tilgreint aðeins einu sinni fyrir hverja Innkaupapöntun, svo sem upplýsingar um lánardrottin. Einnig er hægt að velja **Línur** yfirlit þar sem hægt er að breyta pöntunarlínum. Yfirleitt hægt verður að skipta á milli þessara tveggja yfirlita þegar innkaupapöntunum er breytt. Gjöldum ekki eru skráð beint á **Innkaupapantanir** síðunni en er hægt að fá aðgang í valmyndir í haus pöntunar og línum.  
 
 Það eru margar skýrslur þar sem hægt er að skoða upplýsingar um innkaupapantanir, innhreyfingarskjölum afurða og reikningum lánardrottins. Þessum skýrslum finnast í **Innkaup og aðföng** og **Viðskiptaskuldir** kerfiseiningar.  
 
-**undirbúningi innkaupapöntunar** og **móttöku innkaupapöntunar Og eftirfylgni** vinnusvæðin gera kleift að skoða lista yfir innkaupapantanir í mismunandi stöðum sem þeir hafa verið komin til. Þær veita einnig yfirlit yfir aðgerðir sem þarf að framkvæma. **Undirbúningi innkaupapöntunar** vinnusvæði er einbeitt á stofnun Innkaupapöntunar og vinnslu pöntunar gegnum samþykkis og staðfestingar lánardrottins. Í **móttöku innkaupapöntunar Og eftirfylgni** vinnusvæði er focused á móttöku af vörum eða þjónustu gegn POs í vinnslu. Það felur í sér lista sem veita insight í innhreyfingum sem eru í vanskilum eða sem verður brátt til greiðslu fyrir afhendingu af birgi. Þessar vinnusvæðin ekki eru notað til að framkvæma aðgerðir tengdar innhreyfingar sem gerðar eru í vöruhúsinu. Þessar aðgerðir eru framkvæmdar með því að nota síðurnar í **Birgðastjórnun** og **Vöruhúsakerfi** kerfiseiningar. Vinnslu á reikningum lánardrottna ætti að gera með því að nota **skráningu reiknings Lánardrottins** vinnusvæði og greiðslur á að framkvæma með því að nota **lánardrottnagreiðslur** vinnusvæði.  
+**undirbúningi innkaupapöntunar** og **móttöku innkaupapöntunar Og eftirfylgni** vinnusvæðin gera kleift að skoða lista yfir innkaupapantanir í mismunandi stöðum sem þeir hafa verið komin til. Þær veita einnig yfirlit yfir aðgerðir sem þarf að framkvæma. **Undirbúningi innkaupapöntunar** vinnusvæði er einbeitt á stofnun Innkaupapöntunar og vinnslu pöntunar gegnum samþykkis og staðfestingar lánardrottins. **Móttöku innkaupapöntunar Og eftirfylgni** vinnusvæði er einbeitt á vinnslu móttöku af vörum eða þjónustu gegn innkaupapöntun. Það felur í sér lista sem veita innsýn í innhreyfingar sem eru í vanskilum eða sem verður brátt til afhendingu af birgi. Þessar vinnusvæðin ekki eru notað til að framkvæma aðgerðir tengdar innhreyfingar sem gerðar eru í vöruhúsinu. Þessar aðgerðir eru framkvæmdar með því að nota síðurnar í **Birgðastjórnun** og **Vöruhúsakerfi** kerfiseiningar. Vinnslu á reikningum lánardrottna ætti að gera með því að nota **skráningu reiknings Lánardrottins** vinnusvæði og greiðslur á að framkvæma með því að nota **lánardrottnagreiðslur** vinnusvæði.  
 
 Eftirfarandi greinum veita yfirlit yfir mismunandi stigum Innkaupapöntun fer í gegnum:
 
@@ -45,7 +48,7 @@ Eftirfarandi greinum veita yfirlit yfir mismunandi stigum Innkaupapöntun fer í
 -   [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Gerðir innkaupapantana
-Það eru þrjár gerðir POs. Þegar Innkaupapöntun er stofnuð verður að tilgreina gerð. Hægt er að setja upp sjálfgefna pöntunargerð fyrir nýjar pantanir á **færibreytur Innkaupa og aðfanga** síðu.
+Það eru þrjár gerðir innkaupapantana. Þegar innkaupapöntun er stofnuð verður að tilgreina gerð. Hægt er að setja upp sjálfgefna pöntunargerð fyrir nýjar pantanir á **færibreytur Innkaupa og aðfanga** síðu.
 
 | IP-gerð        | Lýsing                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Stofnun innkaupapöntunar](purchase-order-creation.md)
 
 [Staðfesting og samþykkt innkaupapöntunar](purchase-order-approval-confirmation.md)
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 125% bókfært virði
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og valið er ** 125% bókfært virði** í skjámyndinni **Aðferð** á síðunni **Afskriftarreglur**eru eignir sem eru tengdar þessari afskriftareglu, afskrifaðar með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftímann fimm ár, er prósentan reiknuð sem 25 prósent°(125% ÷ 5).
@@ -56,7 +59,7 @@ Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir �
 
 Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 125% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. 
 
-Til dæmis, fyrir fjárhagsárið 1. Júlí gegnum 30. Júní, byrjar útreikningur afskrifta þann 1. Júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert tímabil og lengd næsta fjárhagsárs ákvarðast af uppsetningu tímabila á síðunni **Fjárhagsdagatöl**. 
+Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert tímabil og lengd næsta fjárhagsárs ákvarðast af uppsetningu tímabila á síðunni **Fjárhagsdagatöl**. 
 
 Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
 
@@ -81,6 +84,8 @@ Aðferðin afskriftir fyrir 125% bókfært virði deilir 125% með líftíma í 
 | 3. ár | 5.625 × 25% = 1.406,25                        | (6.625 – 1.406.25) = 5.218.75 | (5.625 – 1.406.25) = 4.218.75         |
 
 > [!NOTE] 
-> Venjulega er þegar upphæðin sem er reiknað með því að nota 125% bókfært virði afskriftaraðferð verður lægri en upphæðin sem á að reikna með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
+> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 125% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
+
+
 
 

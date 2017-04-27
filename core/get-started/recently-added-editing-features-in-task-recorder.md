@@ -1,6 +1,6 @@
 ---
-title: "Nýlega bætt breyta aðgerðir í verkskráningu"
-description: "Ef að verkskráning er notuð til að stofna leiðbeiningar fyrir verk er hægt að breyta skal skrár fleiri hagkvæman hátt með því að nota aðgerðir sem lýst er í þessa wiki."
+title: "Nýlega viðbættar breytingaaðgerðir í verkskráningu"
+description: "Ef verkskráning er notuð til að stofna leiðbeiningar fyrir verk er hægt að breyta skrám á skilvirkari hátt með því að nota aðgerðir sem lýst er í þessu wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,58 +25,58 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Nýlega bætt breyta aðgerðir í verkskráningu
+# <a name="recently-added-editing-features-in-task-recorder"></a>Nýlega viðbættar breytingaaðgerðir í verkskráningu
 
-Ef að verkskráning er notuð til að stofna leiðbeiningar fyrir verk er hægt að breyta skal skrár fleiri hagkvæman hátt með því að nota aðgerðir sem lýst er í þessa wiki.
+Ef verkskráning er notuð til að stofna leiðbeiningar fyrir verk er hægt að breyta skrám á skilvirkari hátt með því að nota aðgerðir sem lýst er í þessu wiki.
 
-Þessar aðgerðir eru tiltækar í á **Stillingar &gt;verkskráning &gt;Breyta skráningu** valmynd.
+Þessir eiginleikar eru í boði í valmyndinni **Stillingar &gt;Verkskráning &gt;Breyta skráningu**.
 
--   Setja inn skref án þess að skrá allt skrána aftur.
--   Flytja skref undir að undirverki án þess að skrá allt skrána aftur.
--   Fella svæði Skráningu heiti og lýsingu.
+-   Setja inn skref án þess að skrá alla skrána aftur.
+-   Flytja skref undir undirverkefni án þess að skrá alla skrána aftur.
+-   Fella saman reiti fyrir heiti og lýsingu skráningar.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Setja inn skref án rerecording allt skrá
-Þú getur nú bætt skref alls staðar í leiðarvísi fyrir verk án þess að spila aftur eða skrá allt skrána aftur.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Setja inn skref án þess að skrá alla skrána aftur
+Þú getur nú bætt inn skrefum alls staðar í verkefnaleiðbeiningum án þess að spila aftur eða skrá alla skrána aftur.
 
-1.  Veljið skref eftir á í nýja skref til að setja inn. Gangið úr skugga um að skrefið er auðkenndur.
+1.  Veldu skrefið sem setja á nýtt skref inn á eftir. Gangið úr skugga um að skrefið sé auðkennt.
 
-Í röð fyrir verkskráningu til að setja inn skref þarf rétta opna síðuna. Rétt síðan er nýja skref gerist síðuna. Verkskráning er ferli sem ákvarðar hvað virka síðu er og verður að gera virkni ef rétt síðu er ekki opin. 
+Til að verkskráning geti sett inn skref þarf að hafa rétta síðu opna. Rétta síðan er síðan þar sem nýja skrefið birtist. Verkskráning er gangverk sem ákvarðar hvað virka síðan er og mun afvirkja virknina ef rétt síða er ekki opin. 
 
 [![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Þegar varan er á rétta síðu **setja Inn skref** verður tiltækur.
+Þegar þú ert á réttri síðu verður **Setja inn skref** tiltækt.
 
 [![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Smellið á **setja Inn skref**.
+2. Smellt er á **Setja inn**.
 
-Þegar smellt er á **setja Inn skref**, skiptir verkskráning til að skrá ham. Hvaða aðgerð í Notendaviðmóti núna verða að vera skráð og bætt við í stað skrefa.
+Þegar smellt er á **Setja inn skref** skiptir verkskráning yfir í skráningarham. Allar aðgerðir í Notendaviðmóti verða núna skráðar og bætt við sem skref.
 
 3. Smellið á **Stöðva**.
 
-Endurtaka má ferli er bætt við eins mörgum skref eða flutt til eins margar undiríhluti verk eftir þörfum (sjá fyrir neðan fyrir undiríhluti verkefni).
+Hægt er að endurtaka ferlið, bæta við eins mörgum skrefum eða flytja til eins mörg undirverk og þarf (sjá fyrir neðan fyrir undirverk).
 
-4. Þegar það er gert breytingar á leiðarvísi fyrir verk, smellið á **breytingum Lokið**, og veljið síðan einn af kostum til að vista eða birta leiðarvísi fyrir verk.
+4. Þegar búið er að gera breytingar á verkefnaleiðbeiningum skal smella á **Breytingum lokið** og velja síðan einn af kostunum til að vista eða birta verkefnaleiðbeiningarnar.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Flytja skref undir undirverk fyrir runuhaus án rerecording allt skrá
-Hægt er að færa skref undir að undirverki án þess að spila aftur eða skrá allt skrána aftur. Hægt einnig að flytja skref undirverki eða lok skrefinu undirverki ef óskað er að flokka í fyrirliggjandi loka skref.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Flytja skref undir undirverk án þess að skrá alla skrána aftur.
+Hægt er að flytja skref undir undirverkefni án þess að endurspila eða skrá alla skrána aftur. Einnig er hægt að flytja skref undirverks eða lokaskref undirverks ef óskað er að flokka fyrirliggjandi skrefablokk.
 
-1.  Veljið skref eða undirverki skref sem á að flytja. Gangið úr skugga um að skrefið er auðkenndur.
-2.  Smellið á sporöskjulaga, og smella síðan á **skref Fara eftir**.
+1.  Veljið skrefið eða skref undirverks sem á að flytja. Gangið úr skugga um að skrefið sé auðkennt.
+2.  Smellið á úrfellingarmerkið og smellið síðan á **Flytja skref á eftir**.
 
 [![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Veljið skref eða undirverki skref sem á að færa skrefið eða undirverki skrefið eftir. Verkskráning verður að færa skrefið.
+3. Veljið skrefið eða skref undirverks sem á að flytja skrefið eða undirverkið eftir. Verkskráning mun færa skrefið.
 
-4. Til að færa lok skrefinu undirverki skal velja hana, smella á í sporöskjulaga, **skref Fara eftir**, og veljið síðan skref eftir sem óskað er eftir lok skrefinu undirverki að.
+4. Til að færa lokaskref undirverks skal velja það, smella á úrfellingarmerkið, smella á **Flytja skref á eftir**, og velja síðan skrefið sem lokaskref undirverks á að vera á eftir.
 
-Ef óskað er eftir að fyrsta skrefið í leiðarvísi fyrir verk innan undirverki til að stofna þrep undirverki sem önnur skrefið og færa fyrsta skrefið í það. Hægt er að bæta við eða færa eins mörg þrep eða undiríhluti verk eftir þörfum.
+Ef óskað er eftir að fyrsta skrefið í verkefnaleiðbeiningum sé innan undirverks þarf að stofna skref undirverks sem annað skref og færa fyrsta skrefið síðan í það. Hægt er að bæta við eins mörgum skrefum og undirverkum og þarf.
 
-5. Þegar það er gert breytingar á leiðarvísi fyrir verk, smellið á **breytingum Lokið**, og veljið síðan einn af kostum til að vista eða birta leiðarvísi fyrir verk.
+5. Þegar búið er að gera breytingar á verkefnaleiðbeiningum skal smella á **Breytingum lokið** og velja síðan einn af kostunum til að vista eða birta verkefnaleiðbeiningarnar.
 
-## <a name="collapse-recording-name-and-description"></a>Fella Skráningu heiti og lýsingu
-Hægt er að útvíkka og draga saman við **heiti Skráningar** og **Skráningu lýsing** svæði. Þegar þessi svæði eru dregin saman verður fleiri skref sýnilegir í rúðunni breytingum verkskráning. 
+## <a name="collapse-recording-name-and-description"></a>Fella saman heiti og lýsingu skráningar
+Hægt er að útvíkka og draga saman reitina **Heiti skráningar** og **Lýsing skráningar**. Þegar þessi svæði eru dregin saman verða fleiri skref sýnileg í breytingarúðu Verkskráningar. 
 
 [![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
@@ -85,6 +85,6 @@ Hægt er að útvíkka og draga saman við **heiti Skráningar** og **Skráningu
 
 [Stofna fylgiskjölum eða þjálfun með verkskráningu](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Verk flýtitilvísun verkskráningar](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Flýtitilvísun verkskráningar](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

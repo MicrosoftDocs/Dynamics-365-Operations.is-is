@@ -118,7 +118,7 @@ eGiro byggir á alþjóðlegum staðli Sameinuðu þjóðanna EDIFACT CREMUL, (M
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út ISO innflutningssniði 20022 uppgjör í síðari útgáfum. |
+| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptakröfur                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Ytri birgðir fyrir Pólland
@@ -138,7 +138,7 @@ Verkfæri er notað til að setja upp gagnasöfnun fyrir bókhald og skattaskýr
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Takmörkuð notkun                                                                            |
-| Skipt út fyrir aðra eiginleika? | Nei. Forritið skipt eftir Rafræna skýrslugerð skilgreiningar losuð í framtíðinni. |
+| Skipt út fyrir aðra eiginleika? | Nei. Forritið verður skipt út af skilgreiningar Rafræna skýrslugerð í framtíðinni. |
 | Kerfi sem verða fyrir áhrifum             | Fjárhagskerfi                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Flytja inn greiðslufærslur viðskiptavinar fyrir Finnland
@@ -148,7 +148,7 @@ Hægt er að velja innflutningssnið fyrir finnskar greiðslur sem flytur inn gr
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út ISO innflutningssniði 20022 uppgjör í síðari útgáfum. |
+| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptakröfur                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Innflutningur greiðslufærsla í færslubók fjárhags fyrir Finnland
@@ -158,7 +158,7 @@ Sniðið sem er tiltekið fyrir Finnland er notað til að flytja inn bókhaldsf
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út ISO innflutningssniði 20022 uppgjör í síðari útgáfum. |
+| Skipt út fyrir aðra eiginleika? | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptakröfur                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Samþætting við Isabel samstillt (CIS) fyrir Belgíu
@@ -168,7 +168,7 @@ Isabel er ramma fyrir rafræn bankaviðskipti í Evrópu og de-facto staðall í
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Hætt hefur verið samþætting við Isabel-biðlara.                                                                |
-| Skipt út fyrir aðra eiginleika? | Nei. Greiðslusnið sem eru ekki lengur notaður skipt út Kredit ISO20022 flutning greiðslusnið fyrir Belgíu. |
+| Skipt út fyrir aðra eiginleika? | Nei. Greiðslusnið sem eru ekki lengur notaður er skipt fyrir ISO20022 greiðslusnið millifærsla fjármuna fyrir Belgíu. |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptaskuldir                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Breytingar á bókhaldslykill og bókhaldsreglur fyrir Spán
@@ -218,7 +218,7 @@ Telehansa og TeleTeenus-snið notuð til að flytja inn greiðslu banka.
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þau greiðslusnið eru ekki lengur notaður.                                                    |
-| Skipt út fyrir aðra eiginleika? | Nei. Sniðin sem verður skipt út ISO innflutningssniði 20022 uppgjör í síðari útgáfum. |
+| Skipt út fyrir aðra eiginleika? | Nei. Sniðum verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptakröfur                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Verkflæði markmiðs frammistöðustjórnunar
@@ -228,7 +228,7 @@ Frammistöðustjórnun inniheldur markmiðastjórnun og samþættingu við yfirf
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Frammistöðustjórnun var endurhönnuð og blaðsíðufjöldi var minnkað til að einfalda ferlið.                 |
-| Skipt út fyrir aðra eiginleika? | Nei. Markmið sýnileg stjórnendur gegnum Sjálfsafgreiðsla Stjórnanda gáttar og hægt er að breyta og skoða stjórnanda. |
+| Skipt út fyrir aðra eiginleika? | Nei. Markmið eru sýnileg stjórnendum gegnum gátt fyrir Sjálfsafgreiðsla stjórnanda og hægt er að breyta og skoða af stjórnanda. |
 | Kerfi sem verða fyrir áhrifum             | Mannauðsstjórnun                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Postgirot og Postgirot Utland greiðslusnið fyrir Svíþjóð
@@ -241,19 +241,19 @@ Postgirot og Postgirot Utland greiðslusnið fyrir Svíþjóð
 | Skipt út fyrir aðra eiginleika? | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Svíþjóð |
 | Kerfi sem verða fyrir áhrifum             | Viðskiptaskuldir                                        |
 
-### <a name="radio-frequency-identifier"></a>Kenni útvarpsbylgjur
+### <a name="radio-frequency-identifier"></a>Rafmerki
 
-Kenni Rafmerkis (RFID) er gagnasöfnun tækni sem notar rafræn merki til að geyma auðkenningargögn og nei línu-vera sjónlínu til að sækja kenni gögn.
+Rafmerki (RFID) er gagnasöfnunartækni sem notar Rafræn tög til að geyma auðkennisgögn og no-line-of-sight requirement reader til að grípa auðkenni gögn.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Ástæða afskrifta       | Notkun á lágur viðskiptavinar og takmörkuðum eiginleikum. |
+| Ástæða afskrifta       | Lítil notkun viðskiptavina og takmörkuðum eiginleikum. |
 | Skipt út fyrir aðra eiginleika? | Ekkert                                            |
 | Kerfi sem verða fyrir áhrifum             | Birgðir                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Skýrsla um opinbera tölusetningu reikninga í Lettlandi.
 
-Lettneskt löggjöf veitir tilteknar reglur um hvernig sölureikninga skulu númeraðir. Aðgerðir er hægt að úthluta tilteknum númer sölureikninga, byggt á notanda eða notendaflokk. Síðan er hægt að mynda skýrslu eða xml-skrá. Einnig er hægt að prenta skýrslu um reikningsnúmera sem eru notaðar.
+Lettneskt löggjöf veitir tilteknar reglur um hvernig sölureikninga skulu númeraðir. Eiginleikinn leyfir þér að úthluta tilteknum númer á sölureikninga, byggt á notanda eða notendaflokk. Síðan er hægt að mynda skýrslu eða xml-skrá. Einnig er hægt að prenta skýrslu um reikningsnúmera sem eru notaðar.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF AxD og AxBC samþættingar
 
-Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggir á skjölum notið í **Axd &lt;*Skjalið*&gt;** klasa.
+Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggir á skjölum nota **Axd &lt;*Skjal*&gt; **klasar.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þetta yfirlit á ekki lengur við sum Brasilískt ríki.                                                     |
-| Skipt út fyrir aðra eiginleika? | Nei. Notendur hægt er að nota Almennan Rafræna skýrslugerð verkfæri til að skilgreina uppgjör ef nauðsynlegt við tilteknar aðstæður. |
+| Skipt út fyrir aðra eiginleika? | Nei. Notendur geta notað verkfærið Almennan Rafræna skýrslugerð til að skilgreina uppgjör ef nauðsynlegt við tilteknar aðstæður. |
 | Kerfi sem verða fyrir áhrifum             | Skattabækur                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Brasilísk SCAN viðbúnaðarstilling fyrir NF-e
@@ -631,7 +631,7 @@ Mannauður, launaupplýsingar
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þessi aðgerð hefur verið skipt fyrir síðurnar Laun og Mannauður.                                                                                                                                                                                                                                              |
-| Skipt út fyrir aðra eiginleika? | **Fríðindi**, **Tekjur**, og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Farið er með því að nota þessa aðgerð á **Mannauður 1**&gt;**Launa** skilgreiningarlykillinn. |
+| Skipt út fyrir aðra eiginleika? | **Fríðindi**, **Tekjur**, og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Þessi virkni er opnuð með því að nota **Mannauður 1** &gt; **Laun** skilgreiningarlykillinn. |
 | Kerfi sem verða fyrir áhrifum             | Mannauður, Laun                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Einka lokun á færslubókum birgða- og vöruhúsastjórnunar
@@ -698,12 +698,12 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 | Skipt út fyrir aðra eiginleika? | Nei                                                                                                                                       |
 | Kerfi sem verða fyrir áhrifum             | Ráðningaferli í mannuði, málastjórnun, Tilboðsbeiðnir, skráning Lánardrottins                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>SSAS stjórnunarstefnu eftirspurnarspár
+### <a name="ssas-demand-forecasting-strategy"></a>SSAS stefna eftirspurnarspár
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Ástæða afskrifta       | Hönnun aðgerðar ekki studd í nýja högun skýinu. |
-| Skipt út fyrir aðra eiginleika? | Azure Vél Nám eftirspurnarspár hleðsluáætlun                           |
+| Ástæða afskrifta       | Hönnun á eiginleikanum getur ekki verið studd í nýrri skýjahögun. |
+| Skipt út fyrir aðra eiginleika? | Azure Machine Learning stefna eftirspurnarspár                           |
 | Kerfi sem verða fyrir áhrifum             | Áætlun                                                                     |
 
 ### <a name="travel-requisitions"></a>Ferðabeiðnir

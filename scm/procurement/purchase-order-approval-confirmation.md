@@ -1,5 +1,5 @@
 ---
-title: "Samþykkja og staðfesta innkaupapantanir"
+title: "Staðfesta og samþykkja innkaupantanir"
 description: "Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Samþykkja og staðfesta innkaupapantanir
+# <a name="approve-and-confirm-purchase-orders"></a>Staðfesta og samþykkja innkaupantanir
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum.
 
@@ -73,12 +76,14 @@ Eftir að pöntun hefur verið staðfest getur þú ekki lengur eytt henni. Hins
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Stofnun innkaupapöntunar](purchase-order-creation.md)
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

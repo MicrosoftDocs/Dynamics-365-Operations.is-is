@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Stöðuspá
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Útgjöld sem eru tengd starfsmönnum eru oft stórt hlutfall af kostnaði fyrirtækis. Stöðuspá leyfir þér að áætla þennan kostnað og hafa hann með í fjárhagsáætlunargerð.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Stöðuspá í fjárhagsáætlunargerð
 
-[![Myndræn efst](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Efstu myndrænt](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Staða spá notar þrjár helstu til að veita nákvæman áætlunarupphæðir kostnaðar fyrir stöðu. Síðan má færa þessar upphæðir inn í fjárhagsáætlunargerð fyrir útreikning á fjárhagsáætlunagsáætlun. 
+Stöðuspá notar þrjá aðalíhluti til að veita nákvæmar áætlunarupphæðir fyrir stöðukostnað. Síðan má færa þessar upphæðir inn í fjárhagsáætlunargerð fyrir útreikning á fjárhagsáætlunagsáætlun. 
 
 Aðalíhluturinn er **spástaða** sem stendur fyrir öll kostnaðargögn sem eru tengd einni stöðu. Hægt er að stofna margar útgáfur spástöðu með því að úthluta öðrum aðstæðum fjárhagsáætlunargerðar á hverja útgáfu. Margar útgáfur leyfa á endurtekninganálgun að áætlun og hægt er að bera saman hvað-ef-aðstæður. Hver spástaða hefur samsvarandi stöðu í Mannauði.
 
@@ -47,7 +50,7 @@ Aðalíhluturinn er **spástaða** sem stendur fyrir öll kostnaðargögn sem er
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-Í dæmigerðum vinnslu fyrir stöðu spár, er fyrst að stofna þætti uppsetningu (kostnaðareiningar fjárhagsáætlunar og launaflokka). Spástöður eru síðan myndaðar, byggt á núverandi stöðum. Þá er hægt að gera breytingar. Til dæmis er hægt bæta við eða ljúka stöðum, breyta launatöxtum og kostnaði sem tengist fríðindium og bæta við launahækkunum. Hægt er að stofna margar útgáfur spástöðu til að auðvelda samanburð á ólíkum aðstæðum fjárhagsáætlunargerðar. Næst er hægt að taka spástöður inn í fjárhagsáætlunargerðir og færa inn kostnað úr spástöðunum sem línur fjárhagsáætlunargerðar.
+Í dæmigerðu ferli fyrir stöðuspár verður fyrst að stofna uppsetningaríhluti (kostnaðareiningar fjárhagsáætlunar og launaflokka). Spástöður eru síðan myndaðar, byggt á núverandi stöðum. Þá er hægt að gera breytingar. Til dæmis er hægt bæta við eða ljúka stöðum, breyta launatöxtum og kostnaði sem tengist fríðindium og bæta við launahækkunum. Hægt er að stofna margar útgáfur spástöðu til að auðvelda samanburð á ólíkum aðstæðum fjárhagsáætlunargerðar. Næst er hægt að taka spástöður inn í fjárhagsáætlunargerðir og færa inn kostnað úr spástöðunum sem línur fjárhagsáætlunargerðar.
 
 Hægt er að stofna viðbótarútgáfur spástöðu þegar fjárhagsáætlanir eru endurskoðaðar. Þessar nýjar útgáfur skapa grundvöll fyrir endurskoðanir.
 
@@ -64,9 +67,9 @@ Tilgreindir reitir skilgreina hegðun kostnaðareiningar fjárhagsáætlunar. Hv
 
 Ef kostnaðareiningin er byggð á prósentu, verður að tilgreina kostnaðareiningar fjárhagsáætlunar sem eru notaðar sem grunnur fyrir útreikning.
 
-**Example** 
+**Dæmi** 
 
-Fyrirtækið Jodi fyrirtækisins útvegar þjálfun afslátt af 5% af grunnlaun starfsmanns. Jodi þarf að stofna kostnaðareiningu fjárhagsáætlunar fyrir þennan kostnað. Hún stofnar nýja kostnaðareiningu fjárhagsáætlunar og úthlutar **Fríðindai** kostnaðargerð fjárhagsáætlunar.
+Fyrirtæki Jodi veitir þjálfunarafslátt upp á 5% af grunnlaunum starfsmanns. Jodi þarf að stofna kostnaðareiningu fjárhagsáætlunar fyrir þennan kostnað. Hún stofnar nýja kostnaðareiningu fjárhagsáætlunar og úthlutar **Fríðindai** kostnaðargerð fjárhagsáætlunar.
 
 Jodi vill ekki að stjórnendur breyti upphæð fríðinda. Þess vegna velur hún **Ekki heimila kostnaðarbreytingar** í reitnum **Hnekking spástöðu**. Fyrirtækið vill að þessum kostnaðuri sé úthlutað jafnt í hverjum mánuði. Þess vegna velur Jodi **Ársfjórðungslega** í reitnum **Úthlutunaraðferð**. 
 
@@ -82,7 +85,7 @@ Grunnaðgerðir launaflokka eru að úthluta safni af kostnaðareiningum fjárha
 
 Launaflokkar geta einnig ákvarðað launataxta fyrir spástöðu. Hægt er að setja upp flokk sem notar annaðhvort klukkutíma eða árslaun sem grunn til að reikna út tekjur spástöðu. Á flipanum **Töflur yfir launahlutfall** ákvarðar launanet launataxta þær tekjur sem bætt er við spástöðu, byggt á úthlutuðu stigi og þrepi. Þessar hnitanet geta byggt á fyrirliggjandi launanetum í mannauði. Einnig er hægt að stofna nýtt launanet fyrir fjárhagsáætlunargerð. 
 
-Gildisdagsetningar og lokadagar í töflum launahlutfalls leyfa alltaf breytingar á launataxta. Þessi eiginleiki er gagnlegur þegar launaviðræðueining hefur samið um aðhliða hækkun í miðju ferli fjárhagsáætlunar. Í þessu tilfelli er að breyta lokadegi við töflu á deginum á undan dagsetningu taxtabreytinguna og bæta nýrri töflu taxta sem hefst á dagsetningu á nýju. Þegar ný tafla taxta er stofnuð ef **Búa til nýtt launanet úr núverandi neti**, er hægt að velja fyrirliggjandi tafla taxta úr mannauður. Í taxtatöflunni sem er stofnuð gerir valkosturinn **Fjöldabreyting** það mögulegt að nota prósentu eða flata upphæð fyrir aukningu eða lækkun á alla taxta í hnitanetinu. 
+Gildisdagsetningar og lokadagar í töflum launahlutfalls leyfa alltaf breytingar á launataxta. Þessi eiginleiki er gagnlegur þegar launaviðræðueining hefur samið um aðhliða hækkun í miðju ferli fjárhagsáætlunar. Í þessu tilfelli breytirðu lokadegi fyrirliggjandi töflu í daginn á undan dagsetningu taxtabreytingarinnar og bætir við nýrri taxtatöflu sem hefst á nýju dagsetningunni. Þegar ný taxtatafla er stofnuð og valið er **Búa til nýtt launanet úr núverandi neti** er hægt að velja fyrirliggjandi taxtatöflu úr mannauði. Í taxtatöflunni sem er stofnuð gerir valkosturinn **Fjöldabreyting** það mögulegt að nota prósentu eða flata upphæð fyrir aukningu eða lækkun á alla taxta í hnitanetinu. 
 
 Reitirnir **Bæta við áætlun** og **Dagsetning aukningar** í launaflokknum eru notaðir þegar stofna þarf launahækkanir, þar sem stöður fara úr einu þrepi á það næsta. Árleg launahækkun er dæmigerðar aðstæður. Bæta við áætlun ákvarðar hvort starfsafmæli stöðu eða ein almenn dagsetning er notuð fyrir hækkun þreps. Bæta við áætlun gildir um allar spástöður í launaflokki. 
 
@@ -93,7 +96,7 @@ Kostnaðareining tekna sem er valin í launaflokknum er notuð þegar tekjur eru
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Stofna spástöður fyrir fyrirliggjandi stöður
 
-Hægt er að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Microsoft Dynamics 365 Aðgerðir, óháð því hvort staða er nú fyllt eða unfilled fyrir nýjustu nákvæmar fjárhagsáætlunargerðar. 
+Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Dynamics 365 for Operations, óháð því hvort staða hefur verið fyllt eða ekki. 
 
 Aðgerðin **Bæta við stöðum sem til eru** birtir allar stöður fyrir fyrirtæki. Með því að stilla dagsetninguna ** Frá og með** er hægt að breyta lista yfir stöður þannig að það innihaldi staði sem voru til á dagsetningu í fortíðinni eða, sem er algengara, í framtíðinni (til dæmis upphaf næsta ferlis fjárhagsáætlunar). Veljið ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar, veljið stöður í listanum og smellið síðan á **Í lagi** til að stofna spástöðu fyrir valdar stöður. Athugið að aðeins er hægt að stofna eina spástöðu fyrir hverja fyrirliggjandi stöðu í ferli og aðstæðumar fjárhagsáætlunargerðar. Hins vegar er hægt að stofna frekari útgáfur með því að úthluta mismunandi aðstæðum fjárhagsáætlunargerðar. 
 
@@ -103,11 +106,11 @@ Ef kostnaðareining fjárhagsáætlunar er valin er árlegri upphæð fastra lau
 
 Þegar valkosturinn **Úthluta launaflokki** er stilltur á **Já**, ef starfsmaðurinn sem er úthlutað á stöðuna er með þrepaskipt fyrirkomulag fastra launa sem er tengt launaflokki (eins og lýst var áður), er stigi og þrepi frá starfsmanni úthlutað á spástöðuna ásamt launaflokknum. Kostnaðareiningu tekna úr launaflokki er bætt við spástöðuna og úr launaflokki er bætt við spástöðu og launataxta á stigi og þrepi úr launaflokki er notaður. 
 
-Stillingin á valkostinum **Úthluta launaflokki** hefur forgang fram yfir stillinguna **Úthlutun kostnaðareiningar fjárhagsáætlunar**. Hægt er að nota stillingar tvær á sama tíma. 
+Stillingin á valkostinum **Úthluta launaflokki** hefur forgang fram yfir stillinguna **Úthlutun kostnaðareiningar fjárhagsáætlunar**. Hægt er að nota stillingarnar tvær á sama tíma. 
 
 [![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Annar valkostur er til að úthluta árleg dagsetning. Valin dagsetning (leiðréttur upphafsdagur, upphafsdagur starfsmanns, upphafsdagur starfs eða starfsaldursdagsetning) úthlutaðs starfsmanns er síðan stillt sem árleg dagsetning spástöðu og er notuð til upplýsinga og þegar launahækkanir eru myndaðar.
+Annar valkostur er að úthluta árlegri dagsetningu. Valin dagsetning (leiðréttur upphafsdagur, upphafsdagur starfsmanns, upphafsdagur starfs eða starfsaldursdagsetning) úthlutaðs starfsmanns er síðan stillt sem árleg dagsetning spástöðu og er notuð til upplýsinga og þegar launahækkanir eru myndaðar.
 
 ### <a name="creating-new-forecast-positions"></a>Stofnun nýrrar stöðuspá
 
@@ -138,9 +141,9 @@ Til dæmis er fjárhagsáætlun kostnaðarlínu einingar frá 1. janúar 2017 ti
 
 Línur kostnaðareiningar fjárhagsáætlunar verður einnig að endurreikna þegar FTE-gildinu er breytt í spástöðunni. Einnig verður að endurreikna línurnar þegar virkjunardagsetningum eða starfslokadagsetningum er breytt. Breytingar á dagsetningum geta valdið uppfærslu á upphafs- og lokadagsetningum kostnaðareiningar fjárhagsáætlunar, sem verða að vera innan dagsetninga spástöðunnar. Þegar endurútreiknings er þörf verður hnappurinn **Endurreikna** tiltækur og skilaboðin „Þarnast útreiknings“ birtast. Endurútreikningur er einnig áskilinn ef hægt er að bæta við eða fjarlægja kostnaðareiningu fjárhagsáætlunar.
 
-**Example** 
+**Dæmi** 
 
-Fyrirtækið er val á seinkuðum tveir valkostir fyrir bókfært virði kostnaður bókari stöðu. Einn valkostur er að ljúka stöðunni hluta ársins. Annar valkostur er að breyta stöðunni í hálfan vinnudag fyrir allt árið. Brad hefur stofnað spástöðu fyrir núverandi stöðu bókhaldara í grunnlínuaðstæðum. Hann afritar þessa grunnlínuspá í aðstæður A, stillir dagsetningu starfsloka á 31. maí og endurreiknar. Síðan afritar Brad grunnlínuspána í aðstæður B, breytir FTE-gildinu í **0,50** og endurreiknar. Brad hefur nú þrjár útgáfur sem hvert um sig hefur kostnaðarsamtölur sem hafa verið samstilltar við valkosti hans.
+Fyrirtækið íhugar tvo valkosti til að draga úr kostnaði við stöðu endurskoðanda. Einn valkostur er að ljúka stöðunni hluta ársins. Annar valkostur er að breyta stöðunni í hálfan vinnudag fyrir allt árið. Brad hefur stofnað spástöðu fyrir núverandi stöðu bókhaldara í grunnlínuaðstæðum. Hann afritar þessa grunnlínuspá í aðstæður A, stillir dagsetningu starfsloka á 31. maí og endurreiknar. Síðan afritar Brad grunnlínuspána í aðstæður B, breytir FTE-gildinu í **0,50** og endurreiknar. Brad hefur nú þrjár útgáfur sem hvert um sig hefur kostnaðarsamtölur sem hafa verið samstilltar við valkosti hans.
 
 #### <a name="assigning-a-compensation-group"></a>Úthlutun launaflokks
 
@@ -160,9 +163,9 @@ Ef smellt er aftur á **Mynda aukningu** er vinnslan aftur keyrð en bætir ekki
 
 Uppfærslur á spástöðum koma einnig úr öðrum svæðum, eins og uppsetningarsíðum kostnaðareiningar fjárhagsáætlunar og launaflokks. Einnig er hægt að breyta spástöðum með því að nota fjöldauppfærsluferlið. 
 
-Tveir valkostir eru tiltækir í á **kostnaðareiningu Fjárhagsáætlunar** uppsetning síðu: **Bæta stöðum** og **Uppfæra stöður**. Valkosturinn **Bætið við stöður** bætir kostnaðareiningu fjárhagsáætlunar við valdar spástöður. Ef einingunni hefur þegar verið úthlutað á spástöðu er þeirri spástöðu sleppt. Valkosturinn **Uppfæra stöður** á við um núverandi gildi (aðallykill, prósenta, árleg upphæð og svo framvegis) í völdum spástöðum. 
+Tveir valkostir eru í boði á uppsetningarsíðunni **Kostnaðareining fjárhagsáætlunar**: **Bæta við stöður** og **Uppfæra stöður**. Valkosturinn **Bætið við stöður** bætir kostnaðareiningu fjárhagsáætlunar við valdar spástöður. Ef einingunni hefur þegar verið úthlutað á spástöðu er þeirri spástöðu sleppt. Valkosturinn **Uppfæra stöður** á við um núverandi gildi (aðallykill, prósenta, árleg upphæð og svo framvegis) í völdum spástöðum. 
 
-Hver vinnsla hefur svipaða síðu þar sem hægt er að velja spástöður. Síðan **Bætið við stöður** sýnir allar spástöður sem eru tiltækar til vals, en síðan **Uppfæra stöður** sýnir einungis þær spástöður sem hefur þegar verið úthlutað kostnaðareiningum fjárhagsáætlunar. (Því í **Uppfæra stöður** síðu veitir leið til að komast að því sem spá stöður þegar hefur verið tengdur.) Spástöður er flytja úr efra hnitanetinu í neðra hnitanetinu til að taka með þær í uppfærslu. 
+Hver vinnsla hefur svipaða síðu þar sem hægt er að velja spástöður. Síðan **Bætið við stöður** sýnir allar spástöður sem eru tiltækar til vals, en síðan **Uppfæra stöður** sýnir einungis þær spástöður sem hefur þegar verið úthlutað kostnaðareiningum fjárhagsáætlunar. (Þess vegna veitir síðan **Uppfæra stöður** leið til að komast að því hvaða spástöður hafa þegar verið tengdar kostnaðareiningu.) Spástöður eru fluttar úr efra hnitaneti í neðra hnitaneti til að hafa þær með í uppfærslu. 
 
 Athugið að aðgerðin **Breyta dagsetningum** á flipanum **Kostnaðarútreikningur** breytist strax upphafs- og lokadagsetningum kostnaðareiningar fjárhagsáætlunnar í spástöðunum. Valkostir um ekkert val eru tiltækir. 
 
@@ -176,7 +179,7 @@ Endurútreikningsferlið er sjálfkrafa notað á allar spástöður sem hafa br
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Tilgangur stofnaðar og þeim breytt spástöður er til að bæta þeim við fjárhagsáætlanir, fjárhagsáætlanir oftast nákvæmar áætlunarupphæðir hafa. Það eru tvær aðferðir til að bæta spástöðum við fjárhagsáætlanir. Hægt er að nota myndunarferli eða valferli á fjárhagsáætlunargerðina.
+Tilgangur stofnunar og breytinga á spástöðum er að bæta þeim við fjárhagsáætlanir, svo að fjárhagsáætlanirnar innihaldi sem nákvæmastar upphæðir fjárhagsáætlunar. Það eru tvær aðferðir til að bæta spástöðum við fjárhagsáætlanir. Hægt er að nota myndunarferli eða valferli á fjárhagsáætlunargerðina.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Myndun fjárhagsáætlunar úr spástöðum
 
@@ -215,5 +218,7 @@ Upphafsdagsetning á fjárhagsáætlun kostnaðarlínu einingu ákvarðar gildis
 Fjárhagsáætlunarlínur sýna uppruna áætlunarupphæða (númer spástöðunnar) en eru ekki tengdar. Þess vegna eru breytingar á spástöðunni ekki sýndar í línu fjárhagsáætlunar og breytingar á línu fjárhagsáætlunar eru sýndar í spástöðu. Ef þú breytir spástöðu og vilt að uppfærslurnar séu hafðar með í fjárhagsáætlun þarf að færa spástöðuna aftur inn í áætlunina. Mundu hins vegar að ferlið fjarlægir allar línur þar sem þeirri spástöðu er úthlutað. Þess vegna eru allar breytingar sem gerðar hafa verið á þessum línum fjarlægðar. 
 
 Til að sjá hvaða fjárhagsáætlanir spástaða hefur verið höfð með í er hægt að mynda skýrsluna **Spástöður eftir fjárhagsáætlun**. Einnig er hægt að opna upplýsingareitinn **Tengdar fjárhagsáætlanir** til að skoða áætlanir í spástöðunni.
+
+
 
 

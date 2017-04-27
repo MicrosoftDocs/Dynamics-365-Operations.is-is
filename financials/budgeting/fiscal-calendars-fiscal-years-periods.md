@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fjárhagsdagatal, fjárhagsár og tímabil
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein fjallar um fjárhagsdagatöl, reikningsár og tímabil og hvernig á að nýta þau fyrir lögaðila, eignir og fjárhagsáætlanir.
 
 Fjárhagsdagatöl veita ramma fjárhagslegar verkþáttar fyrirtækis. Hvert fjárhagsdagatal inniheldur eitt eða fleiri fjárhagsár og hvert fjárhagsár inniheldur mörg tímabil. Hægt er að byggja fjárhagsdagatöl á 1. Janúar til almanaksárs 31. Desember eða á hvaða dagsetningar sem er valin. Till dæmis velja sum fyrirtæki fjárhagsdagatal sem byrjar 1. júlí eins árs og lýkur 30. júní næsta ár á eftir. 
@@ -39,7 +42,7 @@ Hægt er að stofna og eyða fjárhagsdagatölum, fjárhagsárum og tímabilum �
 
 Lokunartímabil er notað til að aðgreina fjárhagsfærslur sem myndast þegar fjárhagsári er lokað. Þegar lokunarfærslurnar eru í einu fjárhagstímabili er auðveldara að stofna fjárhagsskýrslur sem annað hvort eru með eða án mismunandi gerða lokunarfærslna. Ef fjárhagsári er skipt í 12 fjárhagstímabil er lokunartímabilið er yfirleitt 13. tímabilið. Hins vegar er hægt að stofna lokunartímabil úr hvaða tímabil sem er sem hefur stöðuna opið. 
 
-Þegar stofna á lokunartímabil, veljið tímabil sem hefur stöðuna opið og sem hefur dagsetningarnar sem óskað er að nota. Nýja lokunartímabilið afritar upphafs - og lokadagsetningar úr fyrirliggjandi tímabili. Upphaflega tímabili verður áfram til. Veljið til dæmis er 12 Tímabil, sem er á síðasta tímabili fjárhagsársins og 1. Ágúst til 31 Ágúst dagsetningar sem er. Færið inn heiti fyrir lokunartímabilinu eins og Lokun. Þegar búið er að stofna nýtt lokunartímabil er notandi nú með upphaflega tímabilið og lokunartímabilið. Bæði með dagsetningar sem hefjast 1. ágúst og enda á 31. ágúst.
+Þegar stofna á lokunartímabil, veljið tímabil sem hefur stöðuna opið og sem hefur dagsetningarnar sem óskað er að nota. Nýja lokunartímabilið afritar upphafs - og lokadagsetningar úr fyrirliggjandi tímabili. Upphaflega tímabili verður áfram til. Til dæmis valdi notandi tímabil 12 sem er síðasta tímabil í fjárhagsári og það er með dagsetningar 1. ágúst til og með 31. ágúst. Sláið inn heiti lokunartímabils, t.d. „Lokun“. Þegar búið er að stofna nýtt lokunartímabil er notandi nú með upphaflega tímabilið og lokunartímabilið. Bæði með dagsetningar sem hefjast 1. ágúst og enda á 31. ágúst.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Velja fjárhagsdagatöl fyrir fjárhag, eignum og fjárhagsáætlunarferli
 Fjárhagsdagatöl eru notaðar við afskriftir eigna, fjárhagslegar færslur og ferli fjárhagsáætlunar. Þegar fjárhagsdagatal stofnað er hægt að nota það í margvíslegum tilgangi. Hægt er að velja fjárhagsdagatal í virðislíkani eða afskriftarbók til að gera dagatal fastra eigna. Hægt er að velja fjárhagsdagatal fyrir fjárhag til að gera dagatal fjárhags. Og þú getur valið fjárhagsdagatal fyrir ferli fjárhagsáætlunar til að gera það að dagatali fjárhagsáætlunar. Hægt er að nota sama fjárhagsdagatal fyrir þær allar.
@@ -58,6 +61,8 @@ Fjárhagsáætlunarferli eru lengd þess tíma þegar fjárhagsáætlun er notu�
 
 ## <a name="maintain-periods-for-your-organization"></a>Viðhalda tímabilum fyrir fyrirtæki þitt
 Hægt er að nota síðuna fjárhagsdagatal til að skoða upplýsingar um fjárhagsdagatal, fjárhagsára og tímabilum sem fyrirtæki þitt notar. Einnig er hægt að breyta stöðu tímabila og velja hvaða notendur geta bókað bókhaldsfærslur á tímabil. Til dæmis við upphaf nýs tímabils væri ef til vill vilji til að láta hóp notenda ljúka bókun fjárhagslegra færslna á fyrra tímabili, en hina hópana vinna aðeins á nýja tímabilinu.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Yfirlit ítarlegrar bankaafstemmingar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir flæðinu fyrir ítarlegt ferli bankaafstemmingar. Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit sem er hægt að stemma af beint innan úr bankafærslu.
 
 Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit. Innflutt bankayfirlit getur þá°verið afstemmt sjálfkrafa innan bankafærslna. Hér eru þrep í ítarlegu bankaafstemmingar°flæði.
@@ -38,13 +41,15 @@ ms.lasthandoff: 03/31/2017
     -   Hægt er að auka virknina í hvaða snið sem er.
 
 2.  Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.
-    -   Samsvörunarreglu afstemmingar er safn skilyrða sem eru notaðar til að sía bankayfirlitslínur og Microsoft Dynamics 365 fyrir línur Aðgerðir banka afstemmingarferlinu. Hægt er að setja upp fleiri en einn jöfnunarreglu til að gera sjálfvirka og bæta ferli við afstemmingar eftir skal venju business.
+    -   Jöfnunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur Microsoft Dynamics 365 for Operations á meðan á afstemmingarferlinu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
 
-3.  Afstemma bankayfirlit með Dynamics 365 fyrir Aðgerðir bankafærslur.
+3.  Afstemma bankayfirlit með bankafærslum í Dynamics 365 for Operations.
     -   Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.
-    -   Skoða bankayfirlit og Dynamics 365 fyrir Aðgerðir bankafærslur hlið við hlið.
-    -   Bóka sjálfkrafa Dynamics 365 fyrir bankafærslur Aðgerðir birtast á bankayfirliti en birtast ekki í Dynamics 365 fyrir Aðgerðir.
+    -   Skoða bankayfirlit og Microsoft Dynamics 365 for Operations bankafærslur hlið við hlið.
+    -   Sjálfkrafa bóka Microsoft Dynamics 365 for Operations bankafærslur ef þær birtast á bankayfirliti en birtast ekki í Dynamics 365 for Operations.
     -   Búa til afstemmingaryfirlit.
+
+
 
 
 

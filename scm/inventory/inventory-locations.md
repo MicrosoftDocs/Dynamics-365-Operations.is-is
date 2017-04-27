@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Birgðastaðsetningar
 
+[!include[banner](../includes/banner.md)]
+
+
 Birgðastaðsetningar eru notaðar með grunnvöruhúsi (WMS I) til að ákveða hvar geyma skuli vörur og hvar vörur eru teknar til í WMS I vöruhúsi.
 
 Athugasemd: Þetta efni á við aðgerðir í kerfiseiningu vöruhúsastjórnunar. Það á ekki við um aðgerðir í kerfiseiningu vöruhúsastjórnunar.
@@ -64,6 +67,8 @@ Mögulegt er að afrita staðsetningar úr einu vöruhúsi í annað og til að 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna nýtt vöruhús útlit (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Búa til nýtt útlit vöruhús (verkefnaleiðbeiningar](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

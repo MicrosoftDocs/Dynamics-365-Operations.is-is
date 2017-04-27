@@ -52,13 +52,13 @@ Sem hluti af ferlinu til að virkja útlit vöruhúss, verður að skilgreina st
 -   **Gerðir staðsetninga** – rökrétt eða efnisleg flokkun vöruhúsastaðsetninga. Til dæmis er hægt að stofna staðsetningargerð fyrir allar stigastaðsetningar. Áskildar stillingarnar í **Færibreytur vöruhúsakerfis** síðuna knýja ferlið við að skilgreina gerðir sviðsetningarstaðsetninga og er endanleg gerð sendingarstaðsetningar.
 -   **Staðsetningar** – lægsta stig upplýsinga um staðsetningu. Staðsetningar er notað til að rekja hvar birgðir á lager er geymd og teknar til í vöruhúsi.
 
-Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gæti verið svæðum þar sem hægt er að nota aðeins tiltekinni gerð lyftarann. Eða ef fyrirtækið hefur framleiðslu og fullbúnar vörur innan sama aðstöðu mætti eitt vöruhús er stofnað í Dynamics 365 aðgerða en aðskilja tvær aðgerðir með því að stofna tvær staðaflokka. Veita skal einingar lýsandi heiti, svo að auðvelt til að auðkenna þær þegar þær eru notaðar í sniðmátinu fyrirspurnir.
+Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gætu verið svæði þar sem aðeins er hægt að nota tiltekna gerð lyftara. , ef fyrirtæki þitt hefur bæði framleiðslu og fullunninna vara í sama aðstöðu, þú gætir vilja búa til eitt vöruhús í Dynamics 365 for Operations, en þá skal aðskilja þessar tvær aðgerðir með því að skapa tvo svæðahópa Gefðu einingum þínum lýsandi nöfn, þannig að það er auðvelt að bera kennsl á þær þegar þú notar þá í fyrirspurnum um sniðmát.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Birgðamörk staðsetningar, forstillingar staðsetningar og fastar tiltektarstaðsetningar
 
 Þú verður að íhuga efnislegt útlit vöruhúss, bæði til að ákvarða geymslugetu (Birgðamörk staðsetningar, forstillingar staðsetningar) og sem hluti af tilraunum þínum til að ná sem bestum vöruhúsaferlum. 
 
-Staðsetning birgðageymslu mörk hjálpað til við að tryggja samræmda vinna var ekki stofnuð til að biðja um að birgðir er að setja á staðsetningu sem ekki hafa efnislegar afkastagetu sem á að taka birgðir. Til dæmis, ef einhverjar staðsetningar í vöruhúsi getur bið aðeins eitt bretti á staðsetningu birgðamörk staðsetningar er hægt að virkja. Í ** Magn ** gildi má stilla **1**, og ** Einingu ** gildi má stilla **PL** innan flokkun forstillingu ákveðna staðsetningu. 
+Birgðamörk staðsetningar hjálpa við að tryggja að vinna sé ekki stofnuð til að biðja um að birgðir séu settar á staðsetningu sem er ekki með efnislega afkastagetu til að taka við birgðunum. Til dæmis, ef einhver staðsetning innan vöruhúss getur aðeins verið með eitt bretti á staðsetningu, er hægt að virkja birgðamörk staðsetningar. Gildið **Magn **má stilla á **1**, og gildið **Einingu **má stilla **PL** innan tiltekins forstillingarflokks staðsetningar. 
 
 Ef ítarlegri útreikninga þarf til að stýra skorður fyrir afkastagetu staðsetningar , er hægt að nota forstillingar staðsetningar. Í þessu tilfelli , er tekið tillit til þyngd og rúmmál þegar gerðar útreikningar fyrir afköst. 
 
@@ -66,7 +66,7 @@ Til að ná bestu útleiðaferlunum, ætti að meta hvort eigi að nota fastar t
 
 ### <a name="location-setup-wizard"></a>Uppsetningarforrit staðsetningar
 
-Til að stofna staðsetningar í vöruhúsi, er hægt að nota í ** uppsetning Staðsetningar ** leiðsagnarforritið. Sem Hluti af ferlinu er auðveldlega hægt að viðhalda snið fyrir nöfn staðsetninga.
+Til að stofna staðsetningar á snöggan hátt í vöruhúsi, er hægt að nota **Uppsetning staðsetningar **leiðsagnarforritið. Sem Hluti af ferlinu er auðveldlega hægt að viðhalda snið fyrir nöfn staðsetninga.
 
 ## <a name="warehouse-processes"></a>Vöruhúsaferli
 Sem hluti af skilgreiningu vöruhúss, er mikilvægt að virkja ferli vöruhúsa í samræmi við viðskiptaþarfir. Mikilvægustu þættir sem þarf að skilgreina eru bylgjusniðmát, vinnusniðmát, vinnuhópa og staðsetningarleiðbeiningar.
@@ -75,7 +75,7 @@ Sem hluti af skilgreiningu vöruhúss, er mikilvægt að virkja ferli vöruhúsa
 
 Bylgjusniðmát hjálpa til við að virkja útleiðarferlið "Losun í vöruhús". Um leið og pöntunarlínurnar eru losaðar (annað hvort beint úr upprunaskjölum, gegnum runuvinnslur eða gegnum hleðslu sem þegar hafa verið stofnaðar), er virkni bylgjusniðmáts notuð. 
 
-Hægt er að stofna þrjú bylgjusniðmát: **Sendingu**, **framleiðslupöntun**, og **Kanban**. Færibreytur eru notaðar til að skilgreina hversu langt kerfið sjálfkrafa fara í vinnslu vinnu á útleið. Bylgjusniðmát er valin samkvæmt röð bylgjusniðmáts og skilyrðum sem eru tilgreindar í sniðmátinu. Ef sniðmát er skráð efst á röð, eru skilyrðin í því sniðmát athugað fyrst. Ef hægt er að uppfylla skilyrði, er bylgjusniðmátið unnið. Annars er skilyrði í næsta sniðmát athugað, o.s.frv. Því er gott að setja sniðmátið sem hefur sérstakasta skilyrði efst í róð bylgjusniðmáts, þannig að hún sé unnin fyrst. Til dæmis, óskað er að vinna alla vinnu fyrir tiltekna flutningsaðila í dag og tímabundið úrvinnslu frestað fyrir vinnu fyrir aðrar flutningsaðila. Í þessu tilfelli ætti að skrá bylgjusniðmát sem velur vinnu fyrir þann flutningsaðila að vera skráð hærri í röðinni en aðrar sniðmát. Annars gæti vinnu fyrir aðrar flutningsaðila verið unnin áður en vinnu fyrir þennan flutningsaðila er lokið. 
+Hægt er að stofna þrjú bylgjusniðmát: **Sendingu**, **Framleiðslupöntun** og **Kanban**. Færibreytur eru notaðar til að skilgreina hversu langt kerfið ætti að fara sjálfkrafa í vinnslu vinnu á útleið. Bylgjusniðmát er valin samkvæmt röð bylgjusniðmáts og skilyrðum sem eru tilgreindar í sniðmátinu. Ef sniðmát er skráð efst á röð, eru skilyrðin í því sniðmát athugað fyrst. Ef hægt er að uppfylla skilyrði, er bylgjusniðmátið unnið. Annars er skilyrði í næsta sniðmát athugað, o.s.frv. Því er gott að setja sniðmátið sem hefur sérstakasta skilyrði efst í róð bylgjusniðmáts, þannig að hún sé unnin fyrst. Til dæmis, óskað er að vinna alla vinnu fyrir tiltekna flutningsaðila í dag og tímabundið úrvinnslu frestað fyrir vinnu fyrir aðrar flutningsaðila. Í þessu tilfelli ætti að skrá bylgjusniðmát sem velur vinnu fyrir þann flutningsaðila að vera skráð hærri í röðinni en aðrar sniðmát. Annars gæti vinnu fyrir aðrar flutningsaðila verið unnin áður en vinnu fyrir þennan flutningsaðila er lokið. 
 
 Tilgreina verður vinnsluaðferðir bylgju í hverri bylgjusniðmát. Aðferðir sem eru tiltækar eru mismunandi, það veltur á gerð bylgjusniðmáts.
 
@@ -107,6 +107,6 @@ Til að gera það auðveldara og fljótlegra að skilgreina aðgerðir sem eru 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Skilgreina staðsetningar í Vöruhúsakerfis virkjaðar vöruhús (leiðarvísi fyrir verk)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Skilgreina staðsetningar í vöruhúsakerfisvirkjuðu vöruhúsi (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
 
 

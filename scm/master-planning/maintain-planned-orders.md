@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Viðhalda tillögum
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.
 
 Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanagerð**, úr listanum **Áætluð pöntun** eða listunum **Áætlaðar framleiðslupantanir**, **Áætlaðar innkaupapantanir**, og **Flutningsáætlanir**. Hægt er að nota svæðið **Staða** til að aðstoða við að rekja framgang. Eftirtalin gildi eru notuð:
@@ -48,6 +51,8 @@ Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanag
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Master plans](master-plans.md)
+[Aðaláætlanir](master-plans.md)
+
+
 
 

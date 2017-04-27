@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Ábyrgðarbréf
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um Ábyrgðaryfirlýsingar. Í ábyrgðaryfirlýsingu, banka samþykkir að greiða ákveðna upphæð af peningum til einstaklings ef einn af viðskiptavinum bankans fer í vanskil á greiðslu eða skyldu til þess einstaklings. 
 
 Ábyrgðaryfirlýsing er samkomulag banka (ábyrgðaraðili) um að borga tiltekna peningaupphæð fjár til einstaklings (rétthafa) ef viðskiptavinur banka (umboðsaðili) er í vanskilum með greiðslu eða aðra skuldbindingu til rétthafa. Ábyrgðaryfirlýsingar eru ekki framseljanlegar. Þær eiga aðeins við um þann rétthafa sem er nefndur í samningnum. Umboðsaðili getur beðið um hækkun eða lækkun á virði ábyrgðaryfirlýsingar, samkvæmt skilmálum samningsins. 
@@ -55,6 +58,8 @@ Eftirfarandi tafla lýsir þeim aðgerðum sem hægt er að framkvæma á ábyrg
 | Stækka              | Eftir að ábyrgðaryfirlýsingin er veitt rétthafa skal framlengja gildistíma, ef þörf er á nafnauka. |
 | Hætta við              | Þegar tilgangur ábyrgðaryfirlýsingar á ekki lengur við, er hægt að afturkalla samninginn.                  |
 | Eyða           | Þegar rétthafi leggur fram ábyrgðaryfirlýsinguna til bankans þarf að veita ábyrgðaryfirlýsinguna.                      |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Nýjar eða uppfærðar verkefni leiðbeiningar (Maí 2016)"
-description: "Þessi skrá er listi yfir nýja eða uppfærða Verkið leiðbeiningar sem losaðar voru til í Microsoft (Gæti 2016 - öll tungumál) APQC Unified Safn fyrir Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
+title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)"
+description: "Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Nýjar eða uppfærðar verkefni leiðbeiningar (Maí 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)
 
-Þessi skrá er listi yfir nýja eða uppfærða Verkið leiðbeiningar sem losaðar voru til í Microsoft (Gæti 2016 - öll tungumál) APQC Unified Safn fyrir Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Verk leiðir í í (Getur 2016 - öll tungumál) APQC Unified Safn fyrir Microsoft Dynamics AX
+
+Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Verkleiðbeiningar í (maí 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-(Maí 2016) APQC, vefhlutinn sameinaður Safn inniheldur leiðbeiningar sem ætlað er að nota til að fá Hjálp með Microsoft Dynamics AX Getur 2016 að uppfæra Verkið og losa Febrúar 2016 Microsoft Dynamics AX. Staðfærð útgáfur af Verkinu leiðbeiningar sem var losuð í (Febrúar 2016) APQC, vefhlutinn sameinaður Safn eru tiltækar í þessa safn. Nánari upplýsingar um hvernig tengja hjálparkerfinu safn fyrir leiðarvísi fyrir Verk, sjá [byrja með Hjálp](help-overview.md). **Athugasemd:** stjörnu (**\***) titillinn viðskiptaferlavinnsla (BPM) við hliðina á línunni sýnir leiðarvísi fyrir verk fyrir viðskiptaferli sem var stofnuð fyrir Dynamics AX Má uppfæra 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
+(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** Stjarna (**\****) við titillinn viðskiptaferlavinnsla (BPM) línunni táknar að leiðarvísir fyrir það viðskiptaferli var stofnað fyrir Dynamics AX maíuppfærslu 2016 og er ekki studd í eldri útgáfum af Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 | Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði         | Altæk         |
 | Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði | Altæk         |
 | Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services                          | Altæk         |
-| **\***ER Select service provider                                           | Altæk         |
+| **\***ER Velja þjónustuveitu                                           | Altæk         |
 | Rafræn skýrslugerð Uppfærsðu snið með því að taka upp nýja grunnútgáfu sniðs      | Altæk         |
 | Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services                          | Altæk         |
 
@@ -126,7 +129,7 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                 | Land/svæði |
 |----------------------------------------------------------|----------------|
 | Stofna nýja afurð                                     | Altæk         |
-| Stofna við... \financial-dimensions\dimension-based skilgreiningar                    | Altæk         |
+| Stofna ..\fjárhags-víddir\víddar-byggðar stillingar                    | Altæk         |
 | Stofna fyrirframskilgreind afurðarafbrigði                       | Altæk         |
 | Stofna söluverð valskilyrði                    | Altæk         |
 | Færa inn pantanir fyrir stillanlegar afurðir                   | Altæk         |
@@ -176,22 +179,24 @@ ms.lasthandoff: 03/31/2017
 | BPM-lína                                                            | Land/svæði |
 |---------------------------------------------------------------------|----------------|
 | Skilgreina fyrir Úrvinnsla bylgna                                           | Altæk         |
-| **\***Tilbúið til að ekki er númeraplötustýrð stýrt staðsetningu | Altæk         |
+| **\***Skrá sem lokið í staðsetningu sem ekki er plötustýrð | Altæk         |
 | Setja upp lágmarks-hámarks áfyllingarvinnslu                              | Altæk         |
 | Setja upp gámun                                             | Altæk         |
 | Setja upp handvirkt pökkun.                                               | Altæk         |
 | Setja upp skorður á flutning fyrir afurð.                       | Altæk         |
-| **\***Set up warehouse work policies                                | Altæk         |
+| **\***Setja upp reglur vöruhúsavinnu                                | Altæk         |
 
 
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Nýtt Verk leiðir (Febrúar 2016)](new-task-guides-available-february-2016.md)
+[Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Ágúst 2016)](new-updated-task-guides-available-august-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Nóvember 2016)](new-task-guides-november-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
+
+
 
 

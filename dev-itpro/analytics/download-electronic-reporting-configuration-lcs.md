@@ -1,6 +1,6 @@
 ---
 title: "Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services"
-description: "Í þessu efnisatriði er útskýrt hvernig á að sækja Rafræna skýrslugerð skilgreiningar (ER) úr Microsoft Dynamics Lifecycle Services (LCS)."
+description: "Þetta kennsluefni útskýrir hvernig á að hlaða niður forstillingum Rafrænnar skýrslugerðar (ER) úr Microsoft Dynamics Lifecycle Services (LCS)."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services
 
-Í þessu efnisatriði er útskýrt hvernig á að sækja Rafræna skýrslugerð skilgreiningar (ER) úr Microsoft Dynamics Lifecycle Services (LCS).
+Þetta kennsluefni útskýrir hvernig á að hlaða niður forstillingum Rafrænnar skýrslugerðar (ER) úr Microsoft Dynamics Lifecycle Services (LCS).
 
 Þetta kennsluefni leiðbeinir þér við ferli til að sækja nýjustu útgáfu forstillinga Rafræna skýrslugerð (ER) úr Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/31/2017
     -   Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     -   Kerfisstjóri
 
-2.  Fara í **fyrirtækisstjórnun**&gt;**Rafræna skýrslugerð**.
+2.  Farðu í **Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð**.
 3.  Í **veitandi skilgreininga** hlutanum, veljið gluggareitinn **Microsoft**
 4.  Á **Microsoft** gluggareit, er smellt á **gagnasöfn**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 5.  Á **gagnasöfn skilgreininga ** síðu í hnitanetinu skal velja fyrirliggjandi gagnasafn af gerðinni **LCS** . Ef þessi gagnasafn birtist ekki í hnitanetinu skal fylgja þessum skrefum:
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/31/2017
 8.  Á flýtiflipanum **Útgáfur** skal velja nauðsynlega útgáfu skilgreiningar rafrænnar skýrslugerðar.
 9.  Smellið á **Innflutning** til að sækja valda útgáfu úr LCS í núverandi tilvik Dynamics 365 for Operations. **Athugasemd:** **Innflutnings** hnappurinn er ekki tiltækur fyrir útgáfur skilgreininga rafrænnar skýrslugerðar sem þegar eru til staðar í gildandi tilvik Dynamics 365 for Operations. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
-**Athugasemd:** eftir stillingum rafrænnar skýurslugerðar, eru skilgreiningar villuleituð eftir að þau eru flutt inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Leysa þarf úr vandamálunum áður en hægt er að nota innflutta útgáfu skilgreiningu. Nánari upplýsingar, sjá lista yfir tengdar greinum fyrir þetta viðfangsefni.
+**Athugasemd:** eftir stillingum rafrænnar skýurslugerðar, eru skilgreiningar villuleituð eftir að þau eru flutt inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Leysa þarf úr vandamálunum áður en hægt er að nota innflutta útgáfu skilgreiningu. Nánari upplýsingar, sjá lista yfir tengdar greinum fyrir þetta efni.
 
 <a name="see-also"></a>Sjá einnig
 --------

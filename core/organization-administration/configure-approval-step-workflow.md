@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Skilgreining samþykktarskrefs í verkflæði
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs.
 
 Til að skilgreina samþykktarskref í verkflæðisritlinum, er hægrismellt á samþykktarskrefið og smellið síðan á **Eiginleika** til að opna í **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
@@ -124,10 +127,10 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     </tr>
     <tr class="even">
     <td>Notandi</td>
-    <td>Tiltekinn Microsoft Dynamics 365 Aðgerðir notenda</td>
+    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að úthluta skrefi á, og færsa íðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að úthluta skrefi á, og færsa íðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að stigmagna skjali fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að stigmagna skjali fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
 
 5.  Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6.  Ef notendunum í stigmögnunarslóðinni svara ekki innan tímarammans, grípur kerfið sjálfkrafa til aðgerða varðandi skjalið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
+
+
 
 
 

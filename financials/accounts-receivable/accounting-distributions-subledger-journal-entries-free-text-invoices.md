@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Um bókhaldsfærslur dreifingar og undirbókar færslubók fyrir reikningur með frjálsum texta
 
+[!include[banner](../includes/banner.md)]
+
+
 Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert verður grein fyrir upphæð, eins og hvernig gert verður grein fyrir tekjur, skatta eða gjöld á reikningi með frjálsum texta Hver upphæð sem verður að gera grein fyrir þegar reikningur með frjálsum texta er skráður mun hafa eina eða fleiri dreifingar á fjárhagsupphæð.
 
 <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
@@ -35,7 +38,7 @@ Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert ver
 
 Hægt er að nota eftirfarandi hnappanna í reikningur með frjálsum texta síðunni reikningur lánardrottins til að skoða og mögulega breyta, dreifingar á fjárhagsupphæð síða fyrir hverja upphæð á reikningur með frjálsum texta.
 
--   **Dreifa upphæðum**, Skoða og breyta dreifingar á fjárhagsupphæð fyrir staka línu- og undirstig allar línur, skattar eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni VSK-færsla eða síðunni Gjaldfærslur.
+-   **Dreifa fjárhæðir**— Skoða og breyta dreifingum á fjárhagsupphæð fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni VSK-færsla eða síðunni Gjaldfærslur.
     -   Breyta upphæðum í haus reikningur með frjálsum texta, svo sem gjöldum eða sléttuðum gjaldeyrisupphæðum.
     -   Breyta upphæðum í reikningi með frjálsum texta.
 -   **Skoða dreifingu ** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur skjals. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
@@ -132,5 +135,7 @@ Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa ver
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Færslubækur undirfjárhags fyrir reikninga með frjálsum texta
 Áður en þú bóka reikningur með frjálsum texta, er hægt að skoða fulla bókhaldsfærslu, sem felur í sér skuldfærslu og inneignir, til að staðfesta að reikningurinn sé sendur til réttra reikninga. Þetta yfirlit yfir alla lykilfærslu kallast færslubók undirfjárhags. Ef færsla í undirbók er röng þegar hún er forskoðuð áður en reikningur með frjálsum texta eru skráðar, er hægt að breyta færslu í undirbók. Þess í stað verður þú að breyta dreifingu á fjárhagsupphæð eða bókunarreglu. Fjárhagsupphæðum er notuð til að skilgreina einni hlið lykilfærslu, debet eða kredit. Mótfærsla lykilfærslu í undirbókarlykil er stofnuð með því að nota bókunarreglur, eins og úr viðskiptavinalykli eða skatti.
+
+
 
 

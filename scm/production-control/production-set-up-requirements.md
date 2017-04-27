@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Uppsetningarkröfur framleiðslu
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu. 
 
 Framleiðslustýring er samþætt við aðgerðir í öðrum kerfiseiningum. Vegna þessara tengsla er hægt að breyta framleiðslupöntunum og tryggja að þær uppfærist sjálfkrafa í öllum öðrum ferlum og útreikningum í kerfinu. Framkvæma ætti uppsetningaraðgerðirnar í þeirri röð sem þær birtast hér fyrir neðan.
@@ -52,7 +55,7 @@ Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna 
 4.  ** Tilföng** - Setja upp rekstrartilföng til að skilgreina tilföng sem notuð eru til að ljúka framleiðsluferli og til að áætla afkastagetu.
 
 ## <a name="required-production-parameters-setup"></a>Skyldug uppsetning framleiðslufæribreyta
-**Færibreytur framleiðslustýringar** – Setja upp einfaldar framleiðslufæribreytur til að skilgreina hvernig kerfið fer með vinnur framleiðslupantanir. Skilgreinið hvernig á að stofna, meta, raða og nota framleiðslupantanir. Einnig er hægt að velja um svörun og hvernig kostnaðarbókhald fer fram.
+**Færibreytur framleiðslustýringar** – Setja upp grunnfæribreytur framleiðslu til að skilgreina hvernig kerfið meðhöndlar og vinnur úr framleiðslupöntunum. Skilgreinið hvernig á að stofna, meta, raða og nota framleiðslupantanir. Einnig er hægt að velja um svörun og hvernig kostnaðarbókhald fer fram.
 
 ## <a name="required-journal-name-identification"></a>Skyldug auðkenning færslubókarheita
 **Heiti framleiðslubóka** – Tilgreina heiti framleiðslubóka sem eru notaðar til að skrá og bóka færslur.
@@ -76,6 +79,8 @@ Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleið
 1.  **Framleiðsluflokkar** - Setja upp framleiðsluflokka til koma á tengslum milli framleiðslupöntunar og fjárhagslykla. Pantanir verða bókaðar í fjárhagslyklana eða flokkaðar í þá við skýrslugerð.
 2.  **Framleiðsluhópar** - Stofna framleiðsluhópa til að flokka framleiðslupantanir fyrir vinnslu mikilvægra pantana eða til að eyða og bóka flokka pantana.
 3.  **Eiginleikar** -Skilgreina eiginleika til að stofna sérstakar eigindir sem hægt er að tengja við tilföng til að stýra röð framleiðslna. Eigindirnar eru tengdar vinnutímasniðmátinu.
+
+
 
 
 

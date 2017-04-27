@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Yfirlit áætlunar fjárhagsáætlunargerðar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta grein kynnir fjárhagsáætlunargerð og inniheldur upplýsingar til að hjálpa við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 
 <a name="overview-of-budget-planning"></a>Yfirlit fjárhagsáætlunargerðar
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 
 Þú framkvæmir Fjárhagsáætlunargerð við undirbúning áætlana sem fyrirtæki munu nota. Fyrirtæki getur skilgreint fjárhagsáætlunargerðar og sett síðan upp ferli fjárhagsáætlunargerðar til að uppfylla þeirra fyrirtækisreglur, ferlum og kröfur fyrir undirbúning fjárhagsáætlunar. 
 
-Þegar skilning hugtök og orðalisti sem eru notaðar í Microsoft Dynamics 365 fyrir Aðgerðir, verður að auðvelda fyrir að innleiða fjárhagsáætlunargerðar í þínu fyrirtæki.
+Þegar þú skilur hugtök og sem eru notaðar í Microsoft Dynamics 365 fyrir Operations orðalisti, verður auðveldara fyrir þig að innleiða fjárhagsáætlunargerðar í þínu fyrirtæki.
 
 ### <a name="key-terms"></a>Lykilhugtök
 
@@ -44,7 +47,7 @@ ms.lasthandoff: 03/31/2017
 -   **Stig fjárhagsáætlunargerðar** – stig Fjárhagsáætlunargerðar skilgreina skrefin sem fjárhagsáætlun fylgir frá upphafi til endanlegs samþykkis. Áætlunarstig áætlunar er skipað í verkflæði fjárhagsáætlunargerðar.
 -   **Verkflæði fjárhagsáætlunargerðar** – verkflæði Fjárhagsáætlunargerð er samsett úr og skilgreinir stig fjárhagsáætlunargerðar. verkflæði fjárhagsáætlunargerðar eru tengdar við verkflæði fyrir Fjárhagsáætlunar. Verkflæði fjárhagsáætlunar eru sjálfvirkar og handvirkar vinnslur sem flytja fjárhagsáætlanir í gegnum stig fjárhagsáætlunargerðar.
 
-[![Orðalisti fjárhagsáætlunargerðar fjárhagsáætlunar](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Hugtök fjárhagsáætlunargerðar](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Sameiginleg verkefni
 
@@ -55,7 +58,7 @@ Hægt er að nota fjárhagsáætlunargerðar til að framkvæma eftirfarandi ver
 -   Hægt er að sjálfvirkt beina fjárhagsáætlun, ásamt vinnublöðum, réttlætingarskjöl og önnur viðhengjum, til yfirferðar og samþykkis.
 -   Sameina margar fjárhagsáætlunargerðir úr neðri stigum fyrirtækis í einni yfirfjárhagsáætlunargerð á hærra stigi í fyrirtækinu. Einnig er hægt að þróa eina fjárhagsáætlunargerð á hærra stigi fyrirtækisins og úthluta fjárhagsáætlun á neðri stig fyrirtækisins.
 
-Fjárhagsáætlunargerð er samþætt með öðrum Microsoft Dynamics 365 fyrir Aðgerðir kerfiseiningar. Því er hægt að færa inn upplýsingar úr fyrri fjárhagsáætlanir, raunútgjöld, eignir og mannauður. Þar sem Fjárhagsáætlunargerð er einnig samþætt Microsoft Excel og Microsoft Word geturðu nota þessi tæki til að vinna með gögn fjárhagsáætlunargerðar. Til dæmis getur stjórnandi fjárhagsáætlunar flutt út deildabeiðni um fjárhagsáætlun í Excel vinnublað úr aðstæðum fjárhagsáætlunargerðar. Gögn hægt að greina, uppfært og charted í vinnublaðinu og birt svo aftur í línur fjárhagsáætlunargerðar.
+Fjárhagsáætlunargerð er samþætt með öðrum einingum Microsoft Dynamics 365 for Operations. Því er hægt að færa inn upplýsingar úr fyrri fjárhagsáætlanir, raunútgjöld, eignir og mannauður. Þar sem Fjárhagsáætlunargerð er einnig samþætt Microsoft Excel og Microsoft Word geturðu nota þessi tæki til að vinna með gögn fjárhagsáætlunargerðar. Til dæmis getur stjórnandi fjárhagsáætlunar flutt út deildabeiðni um fjárhagsáætlun í Excel vinnublað úr aðstæðum fjárhagsáætlunargerðar. Gögn hægt að greina, uppfært og charted í vinnublaðinu og birt svo aftur í línur fjárhagsáætlunargerðar.
 
 ## <a name="configuring-budget-planning"></a>Skilgreining fjárhagsáætlunargerðar
 **skilgreiningu fjárhagsáætlunargerðar** síða inniheldur flestar stillingar sem þarf til að setja upp fjárhagsáætlunargerð. Eftirfarandi kaflar lýsa sumar lykilþáttum sem ætti að íhuga þegar þú skilgreina fjárhagsáætlunargerðar. Þegar þú hefur lokið skilgreiningunni, seturðu upp ferli fjárhagsáætlunargerðar.
@@ -64,11 +67,11 @@ Fjárhagsáætlunargerð er samþætt með öðrum Microsoft Dynamics 365 fyrir 
 
 valfrjáls en mælt er með að fyrsta skrefið sé að stofna skema sem sýnir ferli fyrirtækis þíns við að setja fram fjárhagsáætlun. Hægt er að nota hvaða aðferð sem er til að stofna þetta skema. Eftirfarandi skýringarmynd sýnir almennan dæmi þar sem aðskilda verkflæði fjárhagsáætlunargerðar eru stofnaðar fyrir mismunandi stig fyrirtækisins. Stig eru skilgreind innan hvers verkflæði og tiltekin tilvikum er úthlutað á hverju stigi til að halda gögnum fjárhagsáætlunar. Verk eru framkvæmd til að flytja gögn úr einu stigi í næsta. Til dæmis upphæðir er hægt að úthluta eða steypt saman í mismunandi lykla, samþykki eða öðrum skoðunarferlum. Í þessu dæmi sýnir skáletraður texti aðstæður sem er ekki hægt að breyta í stigi, eða gögn sem eru söguleg eða hefur verið samþykkt á fyrra stig og því ætti ekki að breyta. 
 
-[![Fjárhagsáætlunargerðar almennan skema fjárhagsáætlunar](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Almennt skema fjárhagsáætlunargerðar](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Í eftirfarandi dæmi höfuðstöðvar fyrirtækis kostnaðarmat upphafleg áætlunarupphæðir grunnlínu og dreifir þeim söludeildirnar. Söludeildirnar meta síðan og senda sína spá aftur í höfuðstöðvar þar sem fjárhagsáætlunarstjóri birtir og leiðréttir spá. Loks sendir fjárhagsáætlunarstjóri leiðrétt upphæð fjárhagsáætlunar til  Framkvæmdastjóra fyrir yfirferð, síðustu leiðréttingar og samþykkis. 
+Í eftirfarandi dæmi áætlar höfuðstöðvar fyrirtækis grunnlínuupphæðir upphaflegrar fjárhagsáætlunar og dreifir þeim söludeildirnar. Söludeildirnar meta síðan og senda sína spá aftur í höfuðstöðvar þar sem fjárhagsáætlunarstjóri birtir og leiðréttir spá. Loks sendir fjárhagsáætlunarstjóri leiðrétt upphæð fjárhagsáætlunar til  Framkvæmdastjóra fyrir yfirferð, síðustu leiðréttingar og samþykkis. 
 
-[![Dæmi skema hleðsluáætlunar](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Dæmi um skema fjárhagsáætlunargerðar](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ###  <a name="organization-hierarchy-for-budget-planning"></a>Stigveldi fyrirtækis fyrir fjárhagsáætlunargerð
 
@@ -84,17 +87,17 @@ Fjárhagsáætlunargerð getur farið að einu af tveimur öryggislíkönum til 
 
 verkflæði fjárhagsáætlunargerðar eru notaðar með verkflæði fyrir Fjárhagsáætlun til að stjórna stofnun og þróun fjárhagsáætlana.
 
-Verkflæði fjárhagsáætlunargerðar samanstendur af röð stiga sem fjárhagsáætlunargerð færist í gegnum. Hvert verkflæði fjárhagsáætlunargerðar eru tengdar við verkflæði fyrir Fjárhagsáætlun. Verkflæði fjárhagsáætlunar eru eitt af verkflæði sem eru notuð alls staðar í Microsoft Dynamics 365 fyrir Aðgerðir. Verkflæði fjárhagsáætlunar beinir fjárhagsáætlunum, ásamt vinnublöðum, réttlætingum og viðhengjum, í gegnum fyrirtækið til yfirferðar og samþykkis. 
+Verkflæði fjárhagsáætlunargerðar samanstendur af röð stiga sem fjárhagsáætlunargerð færist í gegnum. Hvert verkflæði fjárhagsáætlunargerðar eru tengdar við verkflæði fyrir Fjárhagsáætlun. Verkflæði fjárhagsáætlunar eru ein gerð af verkflæði sem eru notuð alls staðar í Microsoft Dynamics 365 fyrir Operations. Verkflæði fjárhagsáætlunar beinir fjárhagsáætlunum, ásamt vinnublöðum, réttlætingum og viðhengjum, í gegnum fyrirtækið til yfirferðar og samþykkis. 
 
 Þú stofnar verkflæði fjárhagsáætlunargerðar á **verkflæðisstig** hluta í **skilgreiningu fjárhagsáætlunargerðar** síðu. Þar er hægt að velja stig og verkflæði Fjárhagsáætlunar sem verður notuð og skilgreina einnig viðbótarstillingar. 
 
 Góð regla er að stofna verkflæði fjárhagsáætlunargerðar fyrir hvert stig í stigveldi fjárhagsáætlunar. Síðan úthlutarðu verkflæði Fjárhagsáætlunar sem inniheldur einingar sem samsvara stig í verkflæði fjárhagsáætlunargerðar. Í dæmaskemað sem birtist fyrr í þessum grein yrði stofnað eitt verkflæði fjárhagsáætlunargerðar fyrir söludeildirnar og önnur yrði stofnuð fyrir höfuðstöðvum. Verkflæði Fjárhagsáætlunar flytur fjárhagsáætlunargerðir gegnum stig. 
 
-Þú stofnar verkflæði Fjárhagsáætlunar fyrir fjárhagsáætlunargerð á **verkflæði Fjárhagsáætlunar** síðu. Ferlið svipar ferli til að stofna önnur verkflæði í Microsoft Dynamics 365 fyrir Aðgerðir. Eftirfarandi skýringarmynd sýnir dæmi um verkflæði höfuðstöðva. 
+Þú stofnar verkflæði Fjárhagsáætlunar fyrir fjárhagsáætlunargerð á **verkflæði Fjárhagsáætlunar** síðu. Ferlið svipar til ferlis að stofna önnur verkflæði í Microsoft Dynamics 365 for Operations. Eftirfarandi skýringarmynd sýnir dæmi um verkflæði höfuðstöðva. 
 
-[![Verkflæði fjárhagsáætlunar fyrir gerð fjárhagsáætlunar](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Verkflæði fjárhagsáætlunar fyrir fjárhagsáætlun](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-Verkflæðið inniheldur einingar fyrir úthlutun til söludeildirnar og uppsöfnun þeirra sendingar yfirferð af stjórnanda fjárhagsáætlunar, samþykkið á Framkvæmdastjóra og stig transitions milli hverju stigi. 
+Verkflæðið inniheldur einingar fyrir úthlutun til söludeildirnar og uppsöfnun þeirra sendinga, endurskoðun fjárhagsáætlunarstjóra, samþykkið Framkvæmdastjóra, og umskipti stiga á milli hvers stigs. 
 
 Þú úthlutar verkflæði fjárhagsáætlunar á hvert verkflæði fjárhagsáætlunargerðar á **verkflæðisstig** hluta í **skilgreiningu fjárhagsáætlunargerðar** síðu.
 
@@ -112,8 +115,8 @@ Upprunalegar stillingar á **skilgreiningu fjárhagsáætlunargerðar** síðu g
 
 Úthlutunaráætlanir úthluta sjálfkrafa fjárhagsáætlunarlína við verkflæðisferli. Hægt er að framkvæma úthlutanir með því að nota eitthvað af eftirfarandi aðferðum í **úthlutunaraðferð** lista:
 
--   **Úthlutun yfir tímabil ** – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. **Athugasemd:** áður En hægt er að úthluta á mörg tímabil, verður að setja upp úthlutunarlykla tímabils á í *** tímabilsúthlutun tegundir *** síðu.
--   **Úthluta á víddir** – Línur fjárhagsáætlunar er úthlutað úr upprunalegum aðstæðum fjárhagsáætlunar yfir fjárhagsvíddir í viðtökuaðstæðum. **Athugasemd:** áður En hægt er að úthluta á víddir, verður að setja upp úthlutunarskilmála fjárhagsáætlunar á við *** Fjárhagsáætlunar úthlutun skilmála *** síðu.
+-   **Úthlutun yfir tímabil ** – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. **Ábending:** áður En hægt er að úthluta yfir tímabil, verður að setja upp úthlutunarlykla tímabils á síðunni ****Úthlutunartegundir tímabils****.
+-   **Úthluta á víddir** – Línur fjárhagsáætlunar er úthlutað úr upprunalegum aðstæðum fjárhagsáætlunar yfir fjárhagsvíddir í viðtökuaðstæðum. **Ábending:** áður En hægt er að úthluta á víddir, verður að setja upp úthlutunarskilmála fjárhagsáætlunar á síðunni ****Úthlutunarskimlálar fjárhagsáætlunar****.
 -   **Samanlagt** – Línur fjárhagsáætlunar eru safnað úr upprunaaðstæðum fjárhagsáætlunargerðar í tengdri fjárhagsáætlun í viðstökuaðstæðum í yfirskipuðu fjárhagsáætluninni.
 -   **Dreifa** – Línur fjárhagsáætlunar eru dreifðar úr upprunaaðstæðum fjárhagsáætlunargerðar í yfirskipuðu fjárhagsáætluninni í viðstökuaðstæður æu tengdri fjárhagsáætlun.
 -   **Nota úthlutunarreglur fjárhags** - Línur fjárhagsáætlunargerðar er dreift úr upprunaaðstæður fjárhagsáætlunargerðarinnar til viðtökuaðstæðna, á grundvelli úthlutunarreglu fjárhags sem er valin.
@@ -123,15 +126,15 @@ Upprunalegar stillingar á **skilgreiningu fjárhagsáætlunargerðar** síðu g
 
 Stigsúthlutanir eru notaðar til að úthluta sjálfkrafa línum fjárhagsáætlunar á meðan á verkflæðisferli stendur. Þegar stigsúthlutanir eru notaðar, er hægt að stofna og breyta fjárhagsáætlunarlínur í viðtökuaðstæðum án íhlutunar undirbúningsaðila fjárhagsáætlunargerðar eða skoðunarmanns.
 
-Þegar sett er upp stig úthlutunar tengirðu verkflæði fjárhagsáætlunargerðar og stig við áætlun úthlutunar. Verkflæði fjárhagsáætlunargerðar verður að vera tengt verkflæði Fjárhagsáætlunar sem notar þá *** Fjárhagsáætlunargerðar stig úthlutunar *** sjálfvirkt verk verkflæðis. Þegar verkflæði nær tilgreindu stigi, á úthlutun sér sjálfkrafa stað. Hægt er að nota þessa sjálfvirku verki til að stofna línur fjárhagsáætlunargerðar í nýjar aðstæður. 
+Þegar sett er upp stig úthlutunar tengirðu verkflæði fjárhagsáætlunargerðar og stig við áætlun úthlutunar. Verkflæði fjárhagsáætlunargerðar verður að vera tengt verkflæði Fjárhagsáætlunar sem notar sjálfvirka verkflæðið sem ****Úthlutun á stigi fjárhagsáætlunargerðar****. Þegar verkflæði nær tilgreindu stigi, á úthlutun sér sjálfkrafa stað. Hægt er að nota þessa sjálfvirku verki til að stofna línur fjárhagsáætlunargerðar í nýjar aðstæður. 
 
 Í dæmaskemað sem birtist fyrr í þessum grein, er úthlutun framkvæmd til að flytja upphæðir úr fjárhagsáætlun og aðstæður í Grunnlínustig höfuðstöðva í aðra fjárhagsáætlun og aðstæður í áætlunarstigi söludeildar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 
-[![Stig úthlutunar](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Vöruúthlutun](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Þar að auki er í dæmi skema er uppsöfnun er gert úr fjárhagsáætlunargerð og aðstæður innan stigs Sent söludeild yfiráætlun í HQ Samantekt stig. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
+Þar að auki, í dæmaskema, er uppsöfnun er gert úr fjárhagsáætlunum og aðstæðum innan sendu stigi söludeildar í yfiráætlun í stig Samantektar höfuðstöðva. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Uppsöfnun](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Forgangur
 
@@ -149,9 +152,9 @@ Auk dálka fyrir áætlunarupphæðir, er hægt að skilgreina dálka fyrir verk
 
 Fyrir dæmaskema gætirðu viljar stofna dálka fyrir Sölu PY, Samninga, og Spáaðstæður (eftirfarandi dæmi sýnir viðeigandi hluta skema). síðan Er hægt sundurgreina eina eða allar þessar aðstæður í aðskildum dálkum fyrir hvern ársfjórðung fjárhagsárs, þannig að stjórnandi söludeild getur nákvæmlega fært inn spárupphæðir fyrir hvert tímabil.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Dálkar](./media/columns.png)](./media/columns.png) 
 
-Er einnig að tilgreina hvort hverja útlitseining (dálk) er hægt að breyta, og hvort hún er tiltæk í vinnublaðssniðmát sem er stofnuð fyrir það útlit. Fyrir Dæmaskema, í útliti sem er notað fyrir áætlunarstig, eru spárdálkar hægt að breyta, meðan dálkar PY Sölu og Samninga eru skrifvarin.
+Þú tilgreinir einnig hvort hverja útlitseining (dálk) er hægt að breyta, og hvort hún er tiltæk í vinnublaðssniðmát sem er stofnuð fyrir það útlit. Fyrir Dæmaskema, í útliti sem er notað fyrir áætlunarstig, eru spárdálkar hægt að breyta, meðan dálkar PY Sölu og Samninga eru skrifvarin.
 
 ### <a name="templates"></a>Sniðmát
 
@@ -160,7 +163,7 @@ Er einnig að tilgreina hvort hverja útlitseining (dálk) er hægt að breyta, 
 Hægt er að mynda, skoðið eða hlaða upp sniðmát fyrir hvert útlit. Þegar sniðmát er myndað, er útlitið læst og ekki er hægt að breyta. Þessi læsing hjálpar til við að tryggja að snið sniðmáts samræmis útliti fjárhagsáætlunargerðar og innihalda sömu gögn. Eftir að sniðmát er myndað er hægt að skoða og breyta. Til dæmis hægt að bæta við gröfum við sniðmátið eða frekar sérsníða útlit hennar.
 
 > [!NOTE] 
-> Á að vista sniðmát stað sem notandi hefur aðgang að, þannig að það hægt að hlaða upp á útlitið eftir að breytingum er lokið. Þannig verður sniðmátið notað með fjárhagsáætlunargerðir sem nota útlitið.
+> Sniðmátið á að vista á stað sem notandi hefur aðgang að, þannig að það hægt að hlaða upp í útlitið eftir að breytingum er lokið. Þannig verður sniðmátið notað með fjárhagsáætlunargerðir sem nota útlitið.
 
 ### <a name="descriptions"></a>Lýsingar
 
@@ -184,6 +187,8 @@ Síðasta skrefið er að virkja ferli fjárhagsáætlunargerðar á **Aðgerði
 
 Annað gagnlegt skipun í **Aðgerðir** valmyndinni er **Skoða stöðu ferlis fjárhagsáætlunar**. Þessi skipun sýnir myndrænt fjárhagsáætlunargerðir innan ferlis, með viðeigandi gögnum, eins og í verkflæðisstaða áætlunar, samantektir eftir upphæð og einingu og eins smells flettingu í fjárhagsáætlunargerðir sjálfar.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Ferli fjárhagsáætlunargerðar](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

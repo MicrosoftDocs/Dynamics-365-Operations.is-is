@@ -1,6 +1,6 @@
 ---
 title: "Fjárhagsskýrsla rekstrarreiknings"
-description: "Þessi skrá lýsir sjálfgefna skýrslu fyrir tekjuyfirlitum. Það er því einnig lýst grunneiningar sem tengjast þessari skýrslu."
+description: "Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Fjárhagsskýrsla rekstrarreiknings
 
-Þessi skrá lýsir sjálfgefna skýrslu fyrir tekjuyfirlitum. Það er því einnig lýst grunneiningar sem tengjast þessari skýrslu. 
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum. 
 
 <a name="default-income-statement-report"></a>Rekstrarreikningsskýrsla sjálfgefin.
 -------------------------------
@@ -61,10 +64,12 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Skoða fjárhagsskýrslur](view-financial-reports.md)
 
-[Fjárhagsleg Skýrslugerð Blog dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

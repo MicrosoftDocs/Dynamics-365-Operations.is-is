@@ -1,5 +1,5 @@
 ---
-title: "Skrá raðnúmer í söluferlinu"
+title: "Skráning raðnúmera í söluferlinu"
 description: "Þessi grein útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Skrá raðnúmer í söluferlinu
+# <a name="register-serial-numbers-in-the-sales-process"></a>Skráning raðnúmera í söluferlinu
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
@@ -65,7 +68,7 @@ Já, hægt er að keyra fyrirspurn á færslubókarlínu fylgiseðils eða reikn
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Get ég skoðað raðrituð vörur sem ég á lager?
 Nei, þú getur ekki skoðað raðnúmerað vörur sem þú hefur á lager þar sem raðnúmer eru ekki skráð fyrir vörur fyrr en þær eru seldar.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ég skrá raðnúmer fyrir catchweight vörur?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Get ég skrá raðnúmer fyrir atriði fyrir þyngd afurðar?
 Nei, í söluferli getur þú ekki skráð raðnúmer fyrir atriði fyrir þyngd afurðar. Þar að auki, ef afurð er sett upp eins og atriði fyrir þyngd afurðar, er ekki hægt úthluta afuðinni til rakningarvíddarhópsins sem er settur upp fyrir notkun á raðnúmerum eingöngu á meðan söluferli stendur.
 Get ég skráð raðnúmer í Smásala POS?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Já, Smásala (POS) mun biðja notanda að færa inn raðnúmer þegar notandinn
 Þessi aðgerð er tiltæk fyrir öll hlutverk sem hægt er að viðhalda fylgiseðla og reikninga. Eftirfarandi skyldum leyfa starfsmönnum að leiðrétta raðnúmer og skrá auðar færslur fyrir raðnúmer sem ekki er hægt að lesa eða skanna:
 -   Viðhalda raðnúmerleiðréttingum
 -   Viðhalda skráningu á ólæsilegum raðnúmerum
+
+
 
 
 

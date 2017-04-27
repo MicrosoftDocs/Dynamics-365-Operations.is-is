@@ -1,5 +1,5 @@
 ---
-title: "Ítarleg síun og málskipan fyrirspurnarinnar"
+title: "Ítarleg sía og málskipan fyrirspurna"
 description: "Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar &quot;samsvarar&quot; virknitákn í svarglugganum Ítarleg sía/röðun."
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Ítarleg síun og málskipan fyrirspurnarinnar
+# <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar "samsvarar" virknitákn í svarglugganum Ítarleg sía/röðun.
 
-<a name="advanced-query-syntax"></a>Málskipan ítarlega fyrirspurn
+<a name="advanced-query-syntax"></a>Ítarleg fyrirspurnarmálskipan
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ ms.lasthandoff: 03/31/2017
 <td><em>gildi</em></td>
 <td>jafnt og gildið sem fært var inn.</td>
 <td>Sláið inn gildi til að finna.</td>
-<td><strong>Smith</strong> finnur &quot;Smith&quot;.</td>
+<td><strong>Smith </strong> finnur &quot;Smith&quot;.</td>
 </tr>
 <tr class="even">
-<td>! <em>gildi</em> (upphrópunarmerki)</td>
+<td>!<em>-gildi</em> (upphrópunarmerki)</td>
 <td>Ekki jafnt og gildið sem fært var inn.</td>
 <td>Færðu inn upphrópunarmerki og síðan gildið til að undanskilja.</td>
-<td><strong>! Smith</strong> finnur öll gildi nema &quot;Smith&quot;.</td>
+<td><strong>!Smith</strong> finnur öll gildi nema &quot;Smith&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>frá-gildi</em>..<em>til- gildi</em> (tvöfaldur punktur)</td>
 <td>Á milli tveggja gilda sem eru inn aðskilin með tveimur punktum.</td>
 <td>Færa inn Frá gildið, færa svo inn tvo punkta og síðan Til gildið.</td>
-<td><strong>1..10</strong> finnur öll gildi frá 1 til 10. Hins vegar í reit strengs <strong>A.. C</strong> finnur öll gildi sem byrja &quot;A&quot; og &quot;B&quot;, og gildi sem eru nákvæmlega jafnt &quot;C&quot;. Til dæmis þessa fyrirspurn ekki fundið &quot;Ca&quot;. Til að finna öll gildi frá &quot;A*&quot; gegnum &quot;C*&quot;, gerð <strong>A.. D</strong>.</td>
+<td><strong>1..10</strong> finnur öll gildi frá 1 til og með 10. Hins vegar í reit strengs finnur <strong>A..C</strong> öll gildi sem byrja á &quot;A&quot; og &quot;B&quot; og gildi sem eru nákvæmlega jafngild &quot;C&quot;. Til dæmis finnur þessi fyrirspurn ekki &quot;Ca&quot;. Til að finna öll gildi frá  &quot;A*&quot; til &quot;C*&quot;, færðu inn <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>gildi</em> (tvöfaldur punktur)</td>
 <td>Minna en eða jafnt og gildið sem fært er inn.</td>
 <td>Færa inn tvo punkta og síðan gildið.</td>
-<td><strong>.. 1000</strong> finnur allar tölur sem eru lægri en eða jafnt og 1000, eins og &quot;100&quot;, &quot;999.95&quot;, og &quot;1.000&quot;.</td>
+<td><strong>..1000 </strong> finnur allar tölur sem eru minni en eða jafnar og 1000, t.d. &quot;100&quot;, &quot;999,95&quot; og &quot;1.000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>gildi</em>.. (tveir punktar)</td>
 <td>Meira en eða jafnt og gildið sem fært er inn.</td>
 <td>Færa inn gildi og síðan tvo punkta.</td>
-<td><strong>1000..</strong> Finnur allar tölur sem er hærri en eða jafnar og 1000, t.d. &quot;1.000&quot;, &quot;1.000,01&quot;, og &quot;1000000&quot;.</td>
+<td><strong>1000 ..</strong> 1000.. finnur allar tölur sem eru meiri en eða jafnt og 1000, eins og &quot;1,000&quot;, &quot;1,000.01&quot;, og &quot;1,000,000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>gildi</em> (stærra en formerki)</td>
+<td>&gt;<em>gildi</em> (stærra en merki)</td>
 <td>Stærra en gildið sem fært er inn.</td>
-<td>Rita hærri en formerki (<strong>&gt;</strong>) og síðan gildið.</td>
-<td><strong>&gt;1000</strong> finnur allar tölur sem eru stærri en 1000, t.d. &quot;1.000,01&quot;, &quot;20,000&quot;, og &quot;1000000&quot;.</td>
+<td>Færðu inn stærra en-merki (<strong>&gt;</strong>) og síðan gildið.</td>
+<td><strong>&gt;1000</strong> finnur allar tölur sem eru meiri en 1000, eins og &quot;1000.01&quot;, &quot;20,000&quot;, og &quot;1,000,000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>gildi</em> (minna en formerki)</td>
+<td>&lt;<em>gildi</em> (minna en merki)</td>
 <td>Minna en gildið sem fært er inn.</td>
-<td>Gerð minna en formerki (<strong>&lt;</strong>) og síðan gildið.</td>
-<td><strong>&lt;1000</strong> finnur allar tölur sem er minni en 1000, t.d. &quot;999,99&quot;, &quot;1&quot;, og &quot;-200&quot;.</td>
+<td>Færðu inn minna en-merki (<strong>&lt;</strong>) og síðan gildið.</td>
+<td><strong>&lt;1000</strong> finnur allar tölur sem eru minni en 1000, eins og &quot;999.99&quot;, &quot;1&quot;, og  &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
-<td><em>gildi</em>* (stjörnu)</td>
+<td><em>gildi</em>* (stjarna)</td>
 <td>Byrjar frá gildið sem fært er inn.</td>
-<td>Slá inn upphafsgildið og síðan stjörnu (<strong>*</strong>).</td>
-<td><strong>S *</strong> finnur allar strengs byrjar &quot;S&quot;, eins og &quot;Stokkhólmur&quot;, &quot;Sydney&quot;, og &quot;San Francisco&quot;.</td>
+<td>Færa inn upphafsgildið og síðan stjörnuna (<strong>*</strong>)</td>
+<td><strong>S*</strong> finnur alla strengi sem byrja á &quot;S&quot;, eins og &quot;Stokkhólmur&quot;, &quot;Sydney&quot; og &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>gildi</em> (stjarna)</td>
 <td>Endar á gildið sem fært er inn.</td>
 <td>Færa inn stjörnu og síðan endagildið.</td>
-<td><strong>* austur</strong> finnur allar strengs lýkur &quot;east&quot;, eins og &quot;Northeast&quot; og &quot;Southeast&quot;.</td>
+<td><strong>*austur</strong> finnur alla strengi sem enda á &quot;austur&quot;, eins og &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>gildi</em>* (stjörnu)</td>
+<td>*<em>gildi</em>* (stjarna)</td>
 <td>Inniheldur gildið sem fært er inn.</td>
 <td>Færa inn stjörnu, gildi og síðan aðra stjörnu.</td>
-<td><strong>*th*</strong> finnur allar strengur sem inniheldur &quot;th&quot;, eins og &quot;Northeast&quot; og &quot;Southeast&quot;.</td>
+<td><strong>**rð* *</strong> finnur alla strengi sem innihalda &quot;rð&quot;, eins og &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (spurningamerki)</td>
 <td>Innihalda einn eða fleiri óþekkta stafi</td>
 <td>Færðu inn spurningamerki við stöðu óþekkts staftákns í gildinu.</td>
-<td><strong>Sm? th</strong> finnur &quot;Smith&quot; og &quot;Smyth&quot;.</td>
+<td><strong>Sm?th </strong> finnur &quot;Smith&quot; og &quot;Smyth&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>gildi</em>,<em>gildi</em> (komma)</td>
 <td>Samsvarar gildunum sem eru aðskilin með kommum.</td>
 <td>Færa inn öll þín skilyrði, og aðskiljið þau með kommu.</td>
-<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10, 20, 30, 100</strong> finnur nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
+<td><strong>A, D, F, G </strong> finnur nákvæmlega &quot;A&quot;, &quot;D&quot;, &quot;F&quot; og &quot;G&quot;. <strong>10, 20, 30, 100</strong> finna nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">Sql-strengur</span>) (Sql-strengur milli sviga)</td>
 <td>Samsvarar tilgreindri fyrirspurn</td>
 <td>Færa inn fyrirspurn sem SQL-skipun innan sviga.</td>
-<td><strong><span class="code">(gagnagjafa. Heiti Svæðis! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(gagnaveita.reitarheiti != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>Þ</td>
@@ -137,7 +140,7 @@ ms.lasthandoff: 03/31/2017
 <td>Jöfnun gilda eða bil gilda sem eru tilgreind í færibreytum <strong>SysQueryRangeUtil </strong>aðferð</td>
 <td>Færðu inn <strong>SysQueryRangeUtil </strong>aðferð sem er með færibreytum sem tilgreina gildi eða svið gilda.</td>
 <td><ol>
-<li>Smellið á <strong>Viðskiptakröfur</strong>&gt;<strong>Reikninga</strong>&gt;<strong>Opna reikninga viðskiptavina</strong>.</li>
+<li>Smellt er á <strong>Viðskiptakröfur</strong> &gt; <strong>Reikningar</strong> &gt; <strong>Opið reikning viðskiptavinar</strong>.</li>
 <li>Styðjið á Ctrl + Shift + F3 til að opna í <strong>Fyrirspurn</strong> síðu.</li>
 <li>Á flipanum <strong>svið</strong>, er smellt á <strong>Bæta við</strong>.</li>
 <li>Í <strong>töflu</strong> reit, velja<strong>opnar færsla viðskiptavinar</strong>.</li>
@@ -228,6 +231,8 @@ Sjá töfluna í næsta hluta fyrir frekari upplýsingar um <strong>SysQueryRang
 </tr>
 </tbody>
 </table>
+
+
 
 
 

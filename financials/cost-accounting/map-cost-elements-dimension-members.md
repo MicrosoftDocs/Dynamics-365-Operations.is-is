@@ -1,5 +1,5 @@
 ---
-title: "Vörpun mismunandi kostnað eining meðlimi víddar til algengar meðlimi víddar"
+title: "Varpa öðrum víddarstökum kostnaðareiningar á almennt safn víddarstaka"
 description: "Vörpun mismunandi víddarstök kostnaðareiningar á almenn sett víddarstök kostnaðareiningar, þannig sameinar þú gögn í almennt snið í greiningartilgangi."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Vörpun mismunandi kostnað eining meðlimi víddar til algengar meðlimi víddar
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Varpa öðrum víddarstökum kostnaðareiningar á almennt safn víddarstaka
 
 Vörpun mismunandi víddarstök kostnaðareiningar á almenn sett víddarstök kostnaðareiningar, þannig sameinar þú gögn í almennt snið í greiningartilgangi.
 
@@ -38,10 +38,10 @@ Eftirfarandi dæmi sýnir hvernig þú, sem fjármálastjóri, getur stofnað n�
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Innflutt víddarstök kostnaðareiningar úr bandaríska bókhaldslykli | Innflutt víddarstök kostnaðareiningar úr franska bókhaldslykli | Varpa bandaríska og franska víddarstök kostnaðareiningar á almennt sett |
 | 5001: Sala                                                           | 5001: Sala og auglýsingar                                               | 5000: Sala og auglýsingar                                             |
-| 5030: Auglýsingar                                                     | 6390: birgðatalningar innkaupa\*                                                    | 7000: Ræstikostnaður                                                 |
+| 5030: Auglýsingar                                                     | 6390: birgðakaup\*                                                    | 7000: Ræstikostnaður                                                 |
 | 7001: Ræstikostnaður                                               | 7001: Ferðakostnaður                                                      | 7001: Ferðakostnaður                                                   |
 
-\*Birgðir innkaupa Franska kostnaður vídd einingar stak er ekki varpað.
+\*Franska víddarstak kostnaðareiningar fyrir birgðakaup er ekki varpað.
 
 ## <a name="currency-conversion"></a>Umreikningur gjaldmiðils
 Mismunandi bókhaldslykil sem þú notar gætu setja upp til að nota aðra gjaldmiðla. Í þessu tilfelli gætið þess að tilgreina umreikningur fyrirtækisgjaldmiðils þannig að kostnaðargögn er unnin með réttum gjaldmiðli, eins og skilgreint er í fjárhag kostnaðarbókhalds þar sem víddarstök kostnaðareiningar eru notaðar. Í fyrrgreint dæmi, ef Bandarískum dollurum (USD) eru notaðar í fjárhag kostnaðarbókhalds verður að stofna gjaldmiðilsumreikning frá USD að evrur (EUR) til að vinna færslur fyrir varpaðar víddarstök kostnaðareiningar .

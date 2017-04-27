@@ -39,18 +39,18 @@ Dæmi um hæfni sem hægt er að rekja eru eftirfarandi:
 Áður en hægt er að úthluta hæfni til einstaklings eða vinnslu, stofna leit að hæfnisvörpun, eða stofna hæfnisreglu, verður að færa inn upplýsingar um hæfni°á síðunni **Hæfni**. Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.
 
 ## <a name="rating-models"></a>Matslíkön
-Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Færa má inn allt að 10 stig fyrir einkunnalíkan.  Hvert stig í einkunnalíkan úthlutað stuðul.  Stuðull gildið sem verður notað til að staðla einkunnir yfir hæfni sem nota mismunandi matslíkön.  Stuðullinn verður að vera er tala á bilinu 0-9 og hvert stig verður að vera einkvæmur stuðull.  Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
+Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Færa má inn allt að 10 stig fyrir einkunnalíkan.  Hvert stig í einkunnalíkani fær úthlutað stuðli.  Stuðullinn verður notaður til að staðla einkunnir vegna hæfni sem notast við mismunandi einkunnalíkön.  Stuðullinn verður að vera númer frá 0-9 og hvert stig verður að hafa einkvæman stuðul.  Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
 
 ## <a name="specify-job-skills"></a>Tilgreina vinnufærni
-Þegar færðar eru inn upplýsingar um starf, hægt er að tilgreina hæfni sem einstaklingur ætti að hafa til að framkvæma vinnu sem er krafist fyrir vinnslu.  Þar að auki er hægt að tilgreina æskilegan stig fyrir hverja hæfni ásamt mikilvægi hæfninnar. Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.
+Þegar færðar eru inn upplýsingar um starf, er hægt að tilgreina hæfni sem einstaklingur°ætti°að hafa til að framkvæma vinnu sem er krafist fyrir starfið.  Þar að auki er hægt að tilgreina æskilegt stig fyrir hverja hæfni ásamt mikilvægi hæfninnar. Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.
 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir
 Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir. Markhæfni er hæfni sem einstaklingur ætlar að ná. Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.
 
 ## <a name="skill-mapping-and-skill-mapping-profiles"></a> Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
-Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstakar gerðir verks. Hæfniskráning leitar leita milli hæfni, menntun, skírteini, ábyrgðarstöður og verk reynslu og skila niðurstöðum sem samsvara skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu fékkst CPA þeirra.
+Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstaka gerð verks. Hæfnisvörpun leitar yfir hæfni, menntun, skírteini, ábyrgðarstöður og verkreynslu og skilar niðurstöðum sem samsvara gefnum skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu unnu fyrir sínu CPA.
 
-Hæfniskráning-forstillingar kleift að finna gildandi starfsmenn eða umsækjendur með hæfni sem þarfnast viðskiptatengsl.  Til dæmis væri hægt að stofna forstillingu hæfnisskráningar fyrir opin staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
+Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
 
 <table>
 <thead>
@@ -79,6 +79,6 @@ Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæf
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Human resources](index.md)
+[Mannauður](index.md)
 
 

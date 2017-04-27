@@ -1,6 +1,6 @@
 ---
 title: "Samruni virðislíkön eigna og afskriftarbækur"
-description: "Í fyrri útgáfum, voru tvær mat hugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 fyrir losun 1611 Aðgerðir, virðislíkön og virkni afskrifta eigna hafa verið sameinaður í einni hugmyndinni sem kallast bók."
+description: "Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations 1611 útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samruni virðislíkön eigna og afskriftarbækur
 
-Í fyrri útgáfum, voru tvær mat hugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 fyrir losun 1611 Aðgerðir, virðislíkön og virkni afskrifta eigna hafa verið sameinaður í einni hugmyndinni sem kallast bók.
+[!include[banner](../includes/banner.md)]
 
-Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Aðsetursbókar sem er blöndun gildi virðislíkanið og aðsetursbókar virkni](./media/fixed-assets.png)](./media/fixed-assets.png) vegna þessa sameiningarkeyrslu nú nota eina samstæðu af síðum, fyrirspurnir og skýrslur fyrir öll ferli við eign. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
+
+Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations 1611 útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
+
+Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Bók sem samruni virðislíkans og afskriftarbókar](./media/fixed-assets.png)](./media/fixed-assets.png) Vegna þessa samruna, geturðu nú notað eitt sett af síðum, fyrirspurnir og skýrslur fyrir öll eignaferli. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
 
 ## <a name="setup"></a>Uppsetning
 Sjálfgefið er að bækur bóka bæði í fjárhag (GL) og undirbók eignar. Bækur hafa nýja **Bóka í fjárhag** valkost sem gerir kleift að gera bókun á Fjárhag óvirka og bóka aðeins í undirbók eignar. Þessi virkni svipar fyrri hegðun bókana fyrir afskriftabækur. Uppsetning heiti færslubóka hefur nýja bókunarlag sem nefnist Ekkert. Þessi bókunarlag var bætt sérstaklega við fyrir eignafærslur. Til að bóka færslur fyrir bækur sem ekki bóka í fjárhag, verður að nota heiti færslubókar sem er með bókunarlag stillt á **Ekkert**.
@@ -66,5 +69,7 @@ Fyrirspurnir og skýrslur styðja allar bækurnar . Skýrslur sem ekki með í e
 
 ## <a name="upgrade"></a>Uppfæra
 Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Hins vegar verða afskriftabækur flutt í bók sem hefur **Bóka í fjárhag** valkostur stilltur á **Nei**. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á **Ekkert**.
+
+
 
 

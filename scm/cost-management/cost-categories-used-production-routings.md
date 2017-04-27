@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Um kostnaðartegundir notaðar í leiðum framleiðslu
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá veitir upplýsingar um kostnaðartegundirnar sem eiga við um framleiðsluumhverfi sem nota leiðir.
 
 Kostnaðartegundir eiga við um framleiðsluumhverfi sem nota leiðir. Kostnaðartegundir eru úthlutaðar rekstrartilföngum og leiðaraðgerðum í þeim tilgangi að skilgreina tímakostnað og hluta kostnaðarframlegð útreiknuðum kostnaði framleiddrar vöru. Kostnaðarflokkurinn sem er úthlutaður kostnaðartegundinni flokkar framlegð framleiðslukostnaðar eftir rekstrartilföngum og gerð verkþáttar eins og uppsetningar- og keyrslutíma. Sérhæfni úthlutunar kostnaðarflokka gerir kleift að reikna út grundvöllinn fyrir framleiðslurekstrarkostnaði á grundvelli leiðarupplýsinga. 
@@ -51,5 +54,7 @@ Kostnaðarfærslurnar fyrir kostnaðartegund geta endurspeglað reikniformúlu f
 Leiðaraðgerð fær yfirleitt kostnaðartegundirnar sem eru úthlutaðar rekstrartilföngum eða aðalaðgerðinni. Þegar framleiðslupöntun er stofnuð endurspegla leiðaraðgerðirnar innan framleiðsluleiðarinnar völdu leiðaraðgerðina. Hægt er að hnekkja kostnaðartegundunum sem úthlutaðar eru aðgerðum framleiðsluleiðarinnar. 
 
 Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Í þessu tilfelli er kostnaðartegundar krafist fyrir framleiðslu og verk. Nánari verktengdar upplýsingar þarf að skilgreina þegar kostnaðartegund er merkt til notkunar í verkum.
+
+
 
 

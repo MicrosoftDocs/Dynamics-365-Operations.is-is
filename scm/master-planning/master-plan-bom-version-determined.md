@@ -1,6 +1,6 @@
 ---
-title: "Ákvarða hvaða uppskriftarútgáfu"
-description: "Meðan á niðurbroti eftirspurnar stendur ef vara hefur sjálfgefna gerð pöntunar framleiðslu, finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði."
+title: "Ákvarða uppskriftarútgáfu"
+description: "Á meðan á niðurbroti eftirspurnar stendur, ef vara hefur gerð sjálfgefinnar vöru stillta á framleiðslu finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Ákvarða hvaða uppskriftarútgáfu
+# <a name="determine-the-bom-version"></a>Ákvarða uppskriftarútgáfu
 
-Meðan á niðurbroti eftirspurnar stendur ef vara hefur sjálfgefna gerð pöntunar framleiðslu, finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði. 
+[!include[banner](../includes/banner.md)]
+
+
+Á meðan á niðurbroti eftirspurnar stendur, ef vara hefur gerð sjálfgefinnar vöru stillta á framleiðslu finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði. 
 
 Svæðavíddin er alltaf þekkt og er tilgreind í eftirspurnarfærslu. Aðferðin við að ákvarða hvaða uppskriftarútgáfu á að nota er sem hér segir:
 
@@ -38,6 +41,8 @@ Svæðavíddin er alltaf þekkt og er tilgreind í eftirspurnarfærslu. Aðferð
 -   Ef engin almenn uppskrift er fyrir hendi, stöðvast niðurbrot eftirspurnar á þessum tímapunkti.
 
 Gild uppskriftarútgáfa, hvort sem hún er svæðistengd eða almenn, verður að uppfylla nauðsynlegar kröfur varðandi dagsetningu og magn.
+
+
 
 
 

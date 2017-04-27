@@ -1,6 +1,6 @@
 ---
-title: "Yfirlit yfir afstemming bankayfirlits og greiðsla banka fyrir ESB"
-description: "Þetta efnisatriði gefur yfirlit yfir aðgerðir sem hægt er að nota til að stemma af greiðsluupplýsingar úr banka í snið sem notuð eru með Evrópskra landa."
+title: "Yfirlit yfir bankayfirlit og greiðsluafstemmingu fyrir Evrópusambandið"
+description: "Þetta efnisatriði gefur yfirlit yfir eiginleika sem þú getur notað til að stemma af greiðsluupplýsingar frá bönkum með sniðum sem eru notuð í Evrópulöndum."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,37 +25,42 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-and-payment-reconciliation-overview-for-the-eu"></a>Yfirlit yfir afstemming bankayfirlits og greiðsla banka fyrir ESB
+# <a name="bank-statement-and-payment-reconciliation-overview-for-the-eu"></a>Yfirlit yfir bankayfirlit og greiðsluafstemmingu fyrir Evrópusambandið
 
-Þetta efnisatriði gefur yfirlit yfir aðgerðir sem hægt er að nota til að stemma af greiðsluupplýsingar úr banka í snið sem notuð eru með Evrópskra landa.
+[!include[banner](../includes/banner.md)]
 
-Í Microsoft Dynamics 365 fyrir Aðgerðir, hægt að flytja inn færslur af bönkum og jafna þessar færslur á móti fyrirliggjandi færslur. Í Evrópu er hægt að gera það fyrir eftirfarandi aðstæður:
+
+Þetta efnisatriði gefur yfirlit yfir eiginleika sem þú getur notað til að stemma af greiðsluupplýsingar frá bönkum með sniðum sem eru notuð í Evrópulöndum.
+
+Í Microsoft Dynamics 365 for Operations er hægt að flytja inn færslur úr bönkum og stemma þær af við fyrirliggjandi færslur. Í Evrópu er hægt að gera þetta við eftirfarandi aðstæður:
 
 -   Flytja inn bankayfirlit
 -   Flytja inn greiðslur.
--   Flytja inn skrár vegna skila.
+-   Flytja inn skilaskrár.
 
 ## <a name="bank-statements"></a>Bankayfirlit
-A *bankayfirlit* eða *lykill uppgjör* er yfirlit yfir fjárhagslegar færslur sem hafa orðið yfir tiltekið tímabil á bankareikning geymdur af fyrirtæki með í fjármálastofnun. Í Dynamics 365 aðgerða hægt er að flytja inn bankayfirlit. Mikilvægt er að jafna innfluttar færslur við fyrirliggjandi færslur sem staðfesta opnunarfærslur- og lokadagsetningu stöðu bankareikninga. Eftirfarandi listi inniheldur studd Evrópska snið.
+*Bankayfirlit* eða *reikningsyfirlit* er samantekt á fjárhagsfærslum sem átt hafa sér stað á tilteknu tímabili á bankareikningi í eigu fyrirtækis hjá fjármálastofnun. Hægt er að flytja inn bankayfirlit í Dynamics 365 for Operations. Mikilvægt er að stemma innfluttar færslur af við fyrirliggjandi færslur auk þess að staðfesta upphafs- og lokastöðu bankareikninganna. Eftirfarandi listi inniheldur studd evrópsk snið.
 
--   Ítarleg afstemming Evrópska skrársnið. Nánari upplýsingar, sjá [Ítarlegt yfirlit yfir afstemming banka](../cash-bank-management/advanced-bank-reconciliation-overview.md).
--   ISO 20022 camt.053 skilaboð skrá sniði bankayfirlits
--   CODA skrá sniði bankayfirlits. Nánari upplýsingar, sjá [coda-bankayfirlit](emea-bel-coda-bank-statement-import.md).
+-   Evrópsk skráarsnið fyrir ítarlega bankaafstemmingu. Frekari upplýsingar eru í [Ítarlegt bankaafstemmingaryfirlit](../cash-bank-management/advanced-bank-reconciliation-overview.md).
+-   ISO 20022 camt.053 skráarsnið skilaboða með bankayfirliti
+-   CODA-skráarsnið fyrir bankayfirlit. Frekari upplýsingar eru í [CODA-bankayfirlit](emea-bel-coda-bank-statement-import.md).
 
-## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Flytja inn- og skila skilaboð greiðslur viðskiptavinar og lánardrottins
-Auk bankayfirliti, bönkum veita ákveðnum skilaboð sem innihalda upplýsingar um greiðslur viðskiptavina og lánardrottna, sem geta flutt inn í Dynamics 365 aðgerða og afstemmd með færslur viðskiptavina og lánardrottna. Þegar fyrirtæki þarf að fá upplýsingar um innleið viðskiptavinafærslur greiðslur frá bankanum, hægt að nota sniðin innflutning. Fyrir fyrirtæki sem nota beina debet og kredit flutning fyrir svör er hægt að taka til að uppfæra stöðu greiðslna sem áður voru fluttar út. Mismunur innflutningssniði og skila snið er sem skilar eru ætlaðar eru til að uppfæra þegar stofnað færslubókarlínur lánardrottinsgreiðslu (geta stofnað þegar beina debet eða kredit flutning var hafin) í stað þess að stofna nýjar línur. Sumar flókið innflutningssniði getur einnig innihaldið skilaaðstæðum. Eftirfarandi dæmi sýnir hvernig á að innleiða þessa skiptingu.
+## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Innflutnings- og skilaboð greiðslna viðskiptavina og lánardrottna
+Auk bankayfirlita geta bankar einnig sent sérstök skilaboð með upplýsingar um greiðslur viðskiptavina og lánardrottna sem hægt er að flytja inn í Dynamics 365 for Operations og stemma af við færslur viðskiptavina og lánardrottna. Þegar fyrirtæki þarf að fá upplýsingar um mótteknar greiðslur frá viðskiptavini frá bankanum er hægt að nota innflutningssniðin. Fyrir fyrirtæki sem nota beingreiðslur og kreditfærslur er hægt að móttaka skilaboðin til að uppfæra stöðu greiðslna sem voru fluttar út áður. Munurinn á innflutningssniðum og skilasniðum er að skil eru helst notuð til að uppfæra greiðslubókarlínur sem þegar hafa verið stofnaðar (hægt er að stofna þær þegar beingreiðslum eða kreditfærslum er komið á) í stað þess að stofna nýjar línur. Sum flóknari innflutningssnið geta einnig innihaldið skil. Eftirfarandi dæmi sýnir þessi skipting á að fara fram.
 
 ##### <a name="import-formats"></a>Innflutningssnið
 
--   Tilkynning ISO 20022 camt.054 banka
--   [Innflutningssnið nets](emea-nor-nets-import-format.md) -Flóknar eiginleiki fyrir Norsk greiðslusnið
--   Flytja ESR greiðslur viðskiptavina
--   Flytja inn greiðslusnið fyrir Svíþjóð - BankGirot Max og BankGirot OCR-snið
+-   ISO 20022 camt.054 skilaboð með tilkynningu frá banka
+-   [Nets-innflutningssnið](emea-nor-nets-import-format.md) - Flókinn eiginleiki fyrir norsk greiðslusnið
+-   Innflutningur ESR-greiðslna viðskiptavinar
+-   Innflutningsgreiðslusnið fyrir Svíþjóð - BankGirot Max og BankGirot OCR-snið
 
-##### <a name="return-formats"></a>Skila snið
+##### <a name="return-formats"></a>Skilasnið
 
--   ISO skýrslu um stöðu 20022 pain.002
--   (DNK) BetalingsserviceBasis-returformat – skilasniðinu útflutningssniðið Betalingsservice viðskiptavinar
--   [Flytja inn greiðslusnið fyrir Svíþjóð](emea-swe-payment-formats-import.md) -Bankgirot Autogiro skilar
--   (SWE) BankGirot skila-sniði sem samsvarar útflutningssniði Bankgirot lánardrottnagreiðslur skila
+-   ISO 20022 pain.002 skýrsla um greiðslustöðu
+-   (DNK) BetalingsserviceBasis-returformat – Skilasnið fyrir útflutningssnið viðskiptavinarins Betalingsservice
+-   [Innflutningsgreiðslusnið fyrir Svíþjóð](emea-swe-payment-formats-import.md) - Bankgirot Autogiro skilar
+-   (SWE) BankGirot skil – Skilasnið fyrir greiðslur lánardrottna, sem samsvarar Bankgirot-útflutningssniðinu
+
+
 

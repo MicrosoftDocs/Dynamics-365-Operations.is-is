@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna við viðskiptavini
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna Dynamics 365 for Operations til að vinna með IP og fylgjast með vörusendingabirgðum.
 
-Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 for Operations. Það felur í sér upplýsingar um hvernig á að fylgjast með og svara innkaupapantanir og hvernig á að fylgjast með birgðir vörusendingar. Einnig er hægt að nota samvinnusvæði lánardrottins til að vinna með reikninga. Nánari upplýsingar, sjá [Lánardrottins samvinnusvæði reikningsfærslu vinnusvæði](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 for Operations. Það felur í sér upplýsingar um hvernig á að fylgjast með og svara innkaupapantanir og hvernig á að fylgjast með vörusendingabirgðir. Einnig er hægt að nota samstarf lánardrottna til að vinna með reikninga. Nánari upplýsingar er að finna í [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Unnið með Innkaupapantanir
 Í **staðfesting á Innkaupapöntun** vinnusvæði gerir mögulegt að bregðast við Innkaupapöntunina sem hafa verið send til þín til skoðunar. Það gerir einnig kleift að skoða upplýsingar um IP sem bíða eftir aðgerð frá viðskiptavininum og IP sem hafa verið staðfest en eru enn opnar. Það eru þrjár listum í **staðfesting á Innkaupapöntun** vinnusvæðis:
 
--   **Innkaupapantanir fyrir yfirferð** -listinn sýnir POs sem hafa verið send að og bíða svars frá er. Eftir að bregðast við Innkaupapöntun hverfur úr listanum. Ef viðskiptavinurinn sendir þér ný útgáfa fyrir Innkaupapöntunina áður en þú hefur getað svarað fyrri, birtist aðeins nýjustu útgáfuna.
+-   **Innkaupapantanir fyrir yfirferð** -listinn sýnir IP sem hafa verið send að og bíða svars frá þér. Eftir að þú svarar, hverfur Innkaupapöntunin af listanum. Ef viðskiptavinurinn sendir þér ný útgáfa fyrir Innkaupapöntunina áður en þú hefur getað svarað fyrri, birtist aðeins nýjustu útgáfuna.
 -   **Beðið eftir aðgerð viðskiptavinar** -Þennan lista gerir þér kleift að sjá IP sem hefur verið svarað, en hefur ekki verið staðfest af viðskiptavini. Ef Innkaupapöntunin er samþykkt af þér, er hægt að fylgjast með henni í þessum lista þar til staðan breytist í **Staðfest**. Ef Innkaupapöntunin er hafnað eða það er samþykkt með breytingar er hægt fylgjast með Innkaupapöntun hér þar til viðskiptavinar sendir nýja útgáfu.
 -   **Opna Staðfestar innkaupapöntunum** -listinn inniheldur allar IP fyrir þinn reikninginn sem hafa stöðuna **Staðfest**. Þegar afurðir eða þjónustur eru móttekið að fullu gagnvart Innkaupapöntunin, hverfur Innkaupapöntunin úr listanum.
 
@@ -47,7 +50,7 @@ Eftirfarandi listi sýnir fjórum síðum sem nota má til að vinna við innkau
 
 ### <a name="responding-to-purchase-orders"></a>Innkaupapöntunum svarað
 
-Innkaupapantanir sem viðskiptavinurinn hefur sent er hægt að fara yfir eru ekki sýnilegir í á **staðfesting á Innkaupapöntun** vinnusvæði og á við **Innkaupapantanir fyrir yfirferð** síðu. Þegar Innkaupapöntun er opnuð, er hægt að velja til að samþykkja henni, hafna henni eða samþykkja hann við breytingar. Það gætu verið viðhengi á haus Innkaupapöntunar eða einstakra lína. Líka er hægt að hengja upplýsingar við svari þínu á einstakar línur eða haus Innkaupapöntunar. Til dæmis gætu lagt til staðgengilsvöru fyrir ein línanna. Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Hægt er að fela eða sýna eftirfarandi víddardálka með því að nota **Birta víddir** aðgerð: Svæði, Vöruhúsi, Lit, Stærð, Stíl, Afbrigði. Ef nota á **Samþykkja breytingar** valkost er hægt að samþykkja eða hafna einstakar línur. Einnig er hægt að gera breytingar á eftirfarandi línum:
+Innkaupapantanir sem viðskiptavinurinn hefur sent þér til að fara yfir eru ekki sýnilegir í **staðfesting á Innkaupapöntun** vinnusvæðis og á **Innkaupapantanir fyrir yfirferð** síðuna. Eftir Innkaupapöntun er opnuð er hægt að velja að samþykkja hana, hafna henni eða samþykkja hana með breytingum. Það gætu verið viðhengi á haus Innkaupapöntunar eða einstakra lína. Líka er hægt að hengja upplýsingar við svari þínu á einstakar línur eða haus Innkaupapöntunar. Til dæmis gætu lagt til staðgengilsvöru fyrir ein línanna. Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Hægt er að fela eða sýna eftirfarandi víddardálka með því að nota **Birta víddir** aðgerð: Svæði, Vöruhúsi, Lit, Stærð, Stíl, Afbrigði. Ef nota á **Samþykkja með breytingum** valkost er hægt að samþykkja eða hafna einstakar línur. Einnig er hægt að gera breytingar á eftirfarandi línum:
 
 -   Breyta dagsetningum eða magn. Ef óskað er að uppfæra staðfestrar afhendingardagsetningar á öllum línum skal nota **Uppfæra afhendingardagsetningu** valkost á haus Innkaupapöntunar.
 -   Skipta línum fyrir mismunandi afhendingardagsetningar eða magn.
@@ -58,7 +61,7 @@ Ekki hægt að breyta verðupplýsingar eða gjöld, en hægt að gera tillögur
 ## <a name="monitoring-consignment-inventory"></a>Fylgjast með vörusendingabirgðir
 Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir samstarf lánardrottna til að skoða upplýsingar um eftirfarandi síður:
 
--   **Innkaupapantanir notar vörusendingar birgðir** -innkaupapantanir fyrir vörusendingar birgðir eru myndaðar þegar viðskiptavinurinn tekur eignarhaldi á birgðum. Þessum innkaupapantanir vörusendinga birtast aðeins á **Innkaupapantanir sem nota vörusendingabirgðir** síðuna. Eru ekki teknar með í **Allar staðfestar innkaupapantanir** síðu.
+-   **Innkaupapantanir sem notar vörusendingabirgðir** - innkaupapantanir fyrir vörusendingabirgðir eru myndaðar þegar viðskiptavinur tekur yfir eignarhald á birgðum. Þessum innkaupapantanir vörusendinga birtast aðeins á **Innkaupapantanir sem nota vörusendingabirgðir** síðuna. Eru ekki teknar með í **Allar staðfestar innkaupapantanir** síðu.
 -   **Afurðir sem er tekið við úr vörusendingabirgðum** - Þessi síða inniheldur lista yfir allar færslur þar sem eignarhald afurða hefur verið flutt til fyrirtækis sem er að nota birgðirnar. Þú geta nota þessar upplýsingar til að reikningsfæra á viðskiptavininn.
 -   **Vörusendingarbirgðir á lager ** -Þessi síða sýnir vörusendingarbirgðir á lager í eigu fyrirtækis þíns og er á lager í vöruhúsi viðskiptavinar.
 
@@ -67,5 +70,7 @@ Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir sam
 --------
 
 [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
+
+
 
 

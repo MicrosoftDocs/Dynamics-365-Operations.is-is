@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Sameina birgðarunur
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu. 
 
 Þegar runur eru sameinaðar, geta útreikningar fínstillt einkenni og runueigindi sameinuðu rununnar. Eftir að upprunarunur eru valdar er hægt að endurskoða og breyta sameinaðri runu áður en hún er bókuð. Einnig er hægt að flytja runusameininguna í birgðabók til samþykktar. Síðan er hægt að taka birgðir frá eða bóka þær beint úr þeirri birgðabók. Þegar sameinuð runa er bókuð, eru birgðir leiðréttar fyrir upprunarunurnar uppruna og sameinuðu rununa.
@@ -48,7 +51,7 @@ Já, það eru einhverjar sem verður að setja upp áður en hægt er að nota 
 <tbody>
 <tr class="odd">
 <td>Birgðabókanöfn</td>
-<td>Það þarf að stofna sjálfgefið færslubókarheiti til að nota þegar bókaðar eru runusameiningar í birgðabókum. Valfrjáls kostur sem þó er mælt með: Hægt er að tilgreina að frátekningar séu sjálfkrafa framkvæmdar þegar runusameiningin er flutt í birgðabók. Annars er hætta á að breyting sé gerð á birgðum á lager eftir að sameinaðar runuupplýsingar eru settar upp og færslubókin er bókuð. Veljið til að virkja sjálfvirka frátekningu fyrir færslubókarheiti, <strong>Sjálfvirka</strong> í á <strong><strong>Frátekning</strong></strong> svæði.</td>
+<td>Það þarf að stofna sjálfgefið færslubókarheiti til að nota þegar bókaðar eru runusameiningar í birgðabókum. Valfrjáls kostur sem þó er mælt með: Hægt er að tilgreina að frátekningar séu sjálfkrafa framkvæmdar þegar runusameiningin er flutt í birgðabók. Annars er hætta á að breyting sé gerð á birgðum á lager eftir að sameinaðar runuupplýsingar eru settar upp og færslubókin er bókuð. Til að virkja sjálfvirka frátekningu fyrir færslubókarheiti, veljið <strong>Sjálfvirkt</strong> í svæðinu <strong><strong>Frátekning</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Færibreytur birgða- og vöruhúsakerfis</td>
@@ -134,9 +137,11 @@ Bókun virkar á tvo vegu, eftir því hvort verið er að nota samþykktarferli
 -   **Flytja í færslubók** - Flytur upplýsingar um runusameiningu í nýja birgðabók. Ef verið er að setja upp sjálfvirkar frátekningar, er magnið í upprunarunum frátekið. Ekki er hægt að breyta upplýsingum um runusameininguna. Ef það þarf að breyta runusameiningunni verður að eyða færslubókinni. Hægt er að nota færslubók sem verkefni sem annar starfsmaður þarf að framkvæma síðar. Frátekning runumagns á færslubókarlínu er tryggð. Þessi úthlutun gerir gæðastjóra eða vöruhússstjóra kleift að stofna verk fyrir starfsmenn sína.
 -   **Bóka runusameininguna** – Bókar runusameininguna beint. Hægt er að framkvæma þessa aðgerð þegar efnisleg sameining hefur átt sér stað.
 
-Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **Allar runusameiningar**. Smellið á **Færslubók**&gt;**Bóka**. Eftir að færslubók er bókuð, er ekki hægt að breyta upplýsingum í sameinuðu rununni Eftir að þú flytja runusameiningu í birgðabók getur þú aðeins breyta upplýsingum ef færslubókinni er eytt.
+Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **Allar runusameiningar**. Smella á **Færslubók** &gt; **Bóka**. Eftir að færslubók er bókuð, er ekki hægt að breyta upplýsingum í sameinuðu rununni Eftir að þú flytja runusameiningu í birgðabók getur þú aðeins breyta upplýsingum ef færslubókinni er eytt.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að I sameinuð catchweight vöru, því ekki ég catchweight upplýsingar í birgðabók?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að ég sameinaði atriði fyrir þyngd afurðar, hví sé ég ekki upplýsingar um þyngd afurðar í birgðabók?
 Hægt er að sameina runur af vörum í þyngd afurðar eins og öllum öðrum vörum. Hins vegar, eru upplýsingar um þyngd afurðar ekki birtar í birgðabók. Mælt er með því að staðfesta upplýsingar um þyngd afurðar áður en runusameiningin er flutt í birgðabók.
+
+
 
 

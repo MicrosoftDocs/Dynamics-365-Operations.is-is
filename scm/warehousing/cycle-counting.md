@@ -102,7 +102,7 @@ Nánari upplýsingar um hvernig á að nota fartæki fyrir vöruhúsavinnu má s
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Stofna vinnu reglulegrar talningar á grundvelli þröskuld færibreytur fyrir vörur
 
-Hægt er að stofna vinnu reglulegrar talningar þegar fjöldi vara fer niður fyrir tiltekið þröskuld gildi á ákveðinni staðsetningu. Til dæmis eru 60 vörur á staðsetningu sem er með með reglulegri talningu þröskuldur 40. Við sölupöntunarfærslu, 25 vörur eru teknar til á staðsetningu og setja í sviðsetningu staðsetningu. Þar sem nýr fjöldi vörunnar, 35, er minna en magnþröskuldur er vinna reglulegrar talningar stofnuð sjálfkrafa fyrir staðsetningu.
+Hægt er að stofna vinnu reglulegrar talningar þegar fjöldi vara fer niður fyrir tiltekið þröskuld gildi á ákveðinni staðsetningu. Til dæmis eru 60 vörur á staðsetningu þar sem reglulegur talningarþröskuldur er 40. Við sölupöntunarfærslu, eru 25 vörur teknar frá staðsetningu og settar inn í sviðsetningarstaðsetningu. Þar sem nýr fjöldi vörunnar, 35, er minna en magnþröskuldur er vinna reglulegrar talningar stofnuð sjálfkrafa fyrir staðsetningu.
 
 ### <a name="schedule-cycle-counting-work"></a>Áætla vinnu reglulegrar talningar
 
@@ -129,7 +129,7 @@ Eftirfarandi ferli er dæmi um hvernig hægt er að framkvæma reglulega stundar
 ## <a name="resolve-cycle-counting-differences"></a>Leysa úr mismun á reglulegri talningu.
 Mismunur reglulegrar talningar kemur upp við eftirtaldar aðstæður ef valkosturinn **Er umsjónarmaður reglulegrar talningar** er stilltur á **Nei** fyrir vinnunotendakenni:
 
--   Talið gildi er ekki innan fráviksmarkanna sem eru tilgreind í skjámyndunum **Mörk Hámarkshlutfalls** eða **Mörk Hámarksmagns** á síðunni **Notendur**. Til dæmis, er magn á lager í staðsetningu 50 og fráviksmarka fyrir vinnunotanda er 10. Ef vinnu notandinn færir inn gildi sem er ekki milli 40 og 60, munur á sér stað.
+-   Talið gildi er ekki innan fráviksmarkanna sem eru tilgreind í skjámyndunum **Mörk Hámarkshlutfalls** eða **Mörk Hámarksmagns** á síðunni **Notendur**. Til dæmis, er magn á lager í staðsetningu 50 og fráviksmörk fyrir vinnunotanda er 10. Ef vinnu notandinn færir inn gildi sem er ekki á milli 40 og 60, munur á sér stað.
 -   Talið gildi er frábrugðið magni á lager og það eru engin fráviksmörk sett.
 
 Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á síðunni **Regluleg talning bíður yfirferðar**. Endurskoðuð magntalning vörunnar getur verið staðfest á síðunni **Lagerstaða eftir staðsetningu**. Talið gildi er hafnað ef ekki er hægt að samþykkja mismun.

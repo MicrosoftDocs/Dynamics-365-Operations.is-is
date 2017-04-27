@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla. 
 
 Aðgerðin vörurakning er tiltæk á síðunni **Vörurakning**. Eftirfarandi kaflar lýsa því hvernig hægt er að nota vörurakningu og hvaða valkostir og takmarkanir eru.
@@ -97,7 +100,7 @@ Niðurstöður rakningar eru birtar í tímaröð í trénu á flýtiflipanum **
 Til að minnka magn upplýsinga í rakningarupplýsingunum, inniheldur aðeins hnúturinn fyrir fyrsta tilvik vöru eða hráefnis upplýsingar. Ef valinn hnútur inniheldur ekki upplýsingar, er hægt að skoða hnút sem er með þær með því að smella á **Fara í rakta línu**. Hægt er að snúa aftur í hnút sem farið var úr með því að smella á **Fara til baka**.
 
 ## <a name="can-i-view-only-a-particular-type-of-document-for-example-can-i-view-only-production-orders-customers-or-vendors"></a>Get ég skoðað aðeins ákveðinni gerð skjals? Til dæmis, get ég skoðað aðeins framleiðslupantanir, viðskiptavini eða lánardrottna?
-Já, hægt er að opna lista yfir listasíður sem innihalda aðeins ákveðna gerð skjals eða færslu úr rakningaratriðunum. Hægt er að opna þessar síður frá valmyndaratriðinu **Rakning** á Aðgerðarrúðunni, í flokkunum **Vara**, **Sölur**, **Innkaup**, **Framleiðsla**, og **Gæði**. Til dæmis til að skoða lista yfir lánardrottna í rakningarupplýsingunum, smellið á **Rakningu**&gt;**Innkaupa**&gt;**Lánardrottna**. Lista yfir listasíður saman færslur úr rakningaratriðunum eða skjöl. Listasíðurnar **Færslur í bið**, **Pantanir í bið**, og **Ósendar sölupantanir** sýna einnig aðrar upplýsingar sem eru ekki teknar með í rakningarupplýsingunum. Þar að auki sýna þær alltaf niðurstöður frá gildandi dagsetningu, óháð því hvort dagsetningarbil hefur verið tilgreint. Eftirfarandi tafla lýsir viðbótarupplýsingar sem hægt er að hafa þessar síður.
+Já, hægt er að opna lista yfir listasíður sem innihalda aðeins ákveðna gerð skjals eða færslu úr rakningaratriðunum. Hægt er að opna þessar síður frá valmyndaratriðinu **Rakning** á Aðgerðarrúðunni, í flokkunum **Vara**, **Sölur**, **Innkaup**, **Framleiðsla**, og **Gæði**. Til að skoða til dæmis lista yfir lánardrottna í rakningarupplýsingunum skal smella á **Rakning** &gt; **Innkaup** &gt; **Lánardrottnar**. Lista yfir listasíður saman færslur úr rakningaratriðunum eða skjöl. Listasíðurnar **Færslur í bið**, **Pantanir í bið**, og **Ósendar sölupantanir** sýna einnig aðrar upplýsingar sem eru ekki teknar með í rakningarupplýsingunum. Þar að auki sýna þær alltaf niðurstöður frá gildandi dagsetningu, óháð því hvort dagsetningarbil hefur verið tilgreint. Eftirfarandi tafla lýsir viðbótarupplýsingar sem hægt er að hafa þessar síður.
 
 | Listar                    | Lýsing                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -125,7 +128,7 @@ Eftir að þú hefur keyrt rakningu er hægt að nota valkostina á hnappnum **R
 Viljir þú nota valkostina **Nýtt afturábak** eða **Nýtt fram á við**, verður að nota aðgerðina **Opna í nýjum glugga** til að hafa nýja rakningu í nýjum glugga.
 
 ## <a name="can-i-save-the-trace-details"></a>Get ég vista rakningaratriðunum?
-Hægt er að vista upplýsingar í í **Upplýsingar** flipanum sem xml-skrá með því að smella **Út** hér að neðan í *** Rakningu *** aðgerð í Aðgerðarúðunni. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn **Sýna skjal** til að skoða skrána þegar í stað. **Athugið:**Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja **Opna með**, og velja síðan forritið sem nota skal til að birta efnið.
+Hægt er að vista upplýsingar sem xml skrá í flipanum **Upplýsingar** með því að smella á **Flytja út** fyrir neðan aðgerðina ****Rakning**** á aðgerðarrúðunni. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn **Sýna skjal** til að skoða skrána þegar í stað. **Athugið:**Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja **Opna með**, og velja síðan forritið sem nota skal til að birta efnið.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Get ég að reiknað út stöðu fyrir tiltekna vöru eða innihaldsefnisins?
 Hægt er að flytja upplýsingar úr samantektarskjámyndum yfir í Microsoft Excel. Opnið viðeigandi síðu, smellið á táknið **Opna í Microsoft Office** og veljið svo **Flytja út í Microsoft Excel**. Þetta er sérlega gagnlegt þegar á að reikna út fjöldajanfvægi fyrir vöru eða efni frá síðunni **Samantekt á færslum**. Á síðunni **Samantekt á færslum** er hægt að afmarka vöruna eða efnið, og framleiðslulotu ef óskað er, og flytja síðan upplýsingarnar til Excel. Í Excel er til dæmis hægt að einangra magn á lager, magn sem var selt, og upphæð sem var notuð í framleiðslu.
@@ -136,7 +139,9 @@ Rakningaratriðin innihalda upplýsingar um gæðapantanir og ósamkvæmnitilvik
 ## <a name="are-there-any-reporting-capabilities-that-are-related-to-item-tracing"></a>Eru einhverjar skýrslugerðaraðgerðir sem eru tengdar vörurakningu?
 Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn vöru eða hráefnis sem hefur verið sent og viðskiptavinina  sem það var sent til. Fyrir fyrirspurn sem tengist samræmi, er hægt að mynda skýrslu fyrir alla viðskiptavini. Fyrir fyrirspurn sem tengist þjónustudeild, er hægt að mynda skýrslu fyrir valinn viðskiptavin. Ef varan var hráefni sem var notaður í framleiðslu á tilbúinni vöru, tilbúna vöru er einnig tekin með. **Athugið:** Ef verið er að nota aðgerðir fyrir eyðingu- eða safnvistun sölupantana, hafa niðurstöður skýrslunnar einnig með allar sölupantanir sem hefur verið eytt eða safnvistaðar.
 
-## <a name="can-i-trace-coproducts-and-byproducts"></a>Hægt I rekja coproducts og byproducts?
+## <a name="can-i-trace-coproducts-and-byproducts"></a>Get ég rakið aukaafurðir og hliðarafurðir?
 Hægt er að rekja aukaafurðir, en ekki er hægt að rekja hliðarafurð því rakningarvíddum er yfirleitt ekki úthlutað á þær. Þegar vara er rakin, eru allar tengdar aukaafurðir teknar með í rakningarupplýsingunum. Hnútur sem inniheldur aukaafurð inniheldur orðið "aukaafurð" í upplýsingar. Einnig er hægt að skoða upplýsingar um aukaafurð með því að velja hnútinn í rakningarupplýsingunum, og smella svo á flýtiflipann **Framleiðsla**.
+
+
 
 

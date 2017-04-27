@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Upplýsingakóðar
 
+[!include[banner](includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir upplýsingakóða, flokka upplýsingakóða og hvernig skal nota þá.
 
 Upplýsingakóðarnir veita þér leið til að fanga gögn úr afgreiðslukassa (POS). Hægt er að nota ástæðukóða til að biðja gjaldkera að færa inn upplýsingar í ýmsar aðgerðir á Sölustað, eins og sala á vöru, vöruveltu eða val viðskiptavini. Gjaldkerar geta valið inntak úr lista eða færa hann inn sem kóða, númer, dagsetningu eða texta. Hægt er að úthluta upplýsingakóðum til forskilgreindra verslunaraðgerða, smásöluvara, greiðslumáta, viðskiptavina eða tiltekinna aðgerða á sölustað. Hægt er að nota ástæðukóða til að gera eftirfarandi:
@@ -38,7 +41,7 @@ Upplýsingakóðarnir veita þér leið til að fanga gögn úr afgreiðslukassa
 -   Hvetur gjaldkera til að færa inn gildi eða velja úr lista yfir undirkóða þegar þeir opna afgreiðslukassaskúffu án þess að söluaðgerð sé framkvæmd.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Upplýsingakóða hópur°í Smásölu og viðskipti
-Í Dynamics 365 aðgerða - Smásölu, er hægt að stofna flokka upplýsingakóða. Upplýsingarkóðaflokkar bæta sveigjanleika með því að gera þér kleift að skilgreina færri upplýsingakóða og nota þá síðan á fjölbreyttari hátt. Hægt er að nota flokkar upplýsingakóða á eftirfarandi hátt:
+Í Dynamics 365 for Operations  , er hægt að stofna flokka upplýsingakóða. Upplýsingarkóðaflokkar bæta sveigjanleika með því að gera þér kleift að skilgreina færri upplýsingakóða og nota þá síðan á fjölbreyttari hátt. Hægt er að nota flokkar upplýsingakóða á eftirfarandi hátt:
 -   Skilgreina færri upplýsingakóðum og auðveldlega aftur að nota þær. Upplýsingakóðar sem eru í upplýsingakóðaflokkum hafa engin fyrirfram skilgreind tengsl við aðra upplýsingakóða. Hægt er að hafa sama upplýsingakóðann í mörgum upplýsingakóðahópum og nota svo forgangsröðun til að birta sömu upplýsingakóða í þeirri röð sem gengur upp í tilteknum aðstæðum.
 -   Tengdu upplýsingakóða við aðra upplýsingakóða eða hópa upplýsingakóða til að safna upplýsingum um afurð eða færslu án þess að þurfa að skilgreina sérstakan upplýsingakóða eða tengdan upplýsingakóða fyrir hverja atburðarás.
 
@@ -47,6 +50,8 @@ Upplýsingakóðarnir veita þér leið til að fanga gögn úr afgreiðslukassa
 
  
 -
+
+
 
 
 

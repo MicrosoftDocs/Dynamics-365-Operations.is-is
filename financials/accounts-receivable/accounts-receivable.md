@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Viðskiptakröfur – heimasíða
 
-Nota viðskiptakröfur til að rekja reikninga og útgjöld á útleið til lánardrottins.
+[!include[banner](../includes/banner.md)]
+
+
+Nota viðskiptakröfur til að rekja reikninga og útgjöld á útleið til lánardrottins. 
 
 Hægt er að stofna reikninga viðskiptavina sem eru byggðar á sölupöntunum eða fylgiseðla. Einnig er hægt að færa inn reikninga með frjálsum texta sem ekki eru tengdir sölupöntunum. Hægt er að taka við greiðslum með nokkrum mismunandi greiðslugerðum. Þar á meðal víxla reiðufé, ávísanir, kreditkort og rafrænar greiðslur. Ef fyrirtækið inniheldur marga lögaðila, má nota miðstýrðar greiðslur til að skrá greiðslur í einu lögaðila fyrir hönd annarra lögaðila.
+
+
 
 
 

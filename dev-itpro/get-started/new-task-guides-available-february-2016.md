@@ -1,6 +1,6 @@
 ---
-title: "Nýtt verkefni leiðbeiningar (Febrúar 2016)"
-description: "Þessi wiki listi yfir í Verki leiðbeiningar sem voru losaðar til Microsoft BPM söfn frá 2016 Febrúar.  Söfn sem voru birtar hafa (Febrúar 2016) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 Aðgerða og (Febrúar 2016) hafist."
+title: "Nýjar verkefnaleiðbeiningar (febrúar 2016)"
+description: "Þessi wiki sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.  Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations og (Febrúar 2016) Hafist handa."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nýtt verkefni leiðbeiningar (Febrúar 2016)
+# <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
-Þessi wiki listi yfir í Verki leiðbeiningar sem voru losaðar til Microsoft BPM söfn frá 2016 Febrúar.  Söfn sem voru birtar hafa (Febrúar 2016) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 Aðgerða og (Febrúar 2016) hafist.
+Þessi wiki sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.  Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations og (Febrúar 2016) Hafist handa.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Verk leiðbeiningar í (Febrúar 2016) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 fyrir Aðgerðir
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Verkefnaleiðbeiningar í (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-(Febrúar 2016), vefhlutinn sameinaður APQC safn inniheldur leiðbeiningar Verkið sem er ætlað að er að nota til að fá Hjálp með Dynamics 365 Aðgerðir 7.0.0 losa. Ef þörf er á staðfært útgáfur þessar leiðbeiningar Verkefni, þeir eru tiltækar í (Maí 2016) APQC, vefhlutinn sameinaður Safn fyrir Microsoft Dynamics 365 fyrir Aðgerðir. Nánari upplýsingar um hvernig tengja hjálparkerfinu safn fyrir leiðarvísi fyrir Verk, sjá [byrja með Hjálp](help-overview.md).
+APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er ætlað að nota til að fá Hjálp með Dynamics 365 for Operations 7.0.0 útgáfunni. Ef þörf er á staðfært útgáfur þessara verkefnaleiðbeiningar, þær eru tiltækar í (Maí 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 
@@ -531,7 +531,7 @@ ms.lasthandoff: 03/31/2017
 | Bæta útreikningi við afbrigðalíkan afurða    | Altæk             |
 | Samþykkja afbrigðalíkan afurðar                 | Altæk             |
 | Ljúkið grunnuppsetning hins losaða afurðarsniðmáts | Altæk             |
-| Stofna skal við... \financial-dimensions\dimension-based afurðarsniðmát               | Altæk             |
+| Stofna ..\fjárhags-víddir\víddar-byggð afurðarsniðmát               | Altæk             |
 | Stofna stigveldi afurðarflokkunar          | Altæk             |
 | Stofna afbrigðalíkan afurðar                  | Altæk             |
 | Stofna afurðarsniðmát                               | Altæk             |
@@ -544,7 +544,7 @@ ms.lasthandoff: 03/31/2017
 | Vinna með uppskrift fyrir afbrigðalíkan afurðar        | Altæk             |
 | Vinna með leið fyrir framleiðslulíkan                    | Altæk             |
 | Stjórna útgefin afurð                              | Altæk             |
-| Losun á við... \financial-dimensions\dimension-based afurðarsniðmát              | Altæk             |
+| Gefa út ..\fjárhags-víddir\víddar-byggð afurðarsniðmát              | Altæk             |
 | Flytja gögn fyrir vörulíkön                      | Altæk             |
 
  
@@ -718,10 +718,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Nýjar eða uppfærðar Verkefni leiðir (Maí 2016)](new-updated-task-guides-available-may-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Ágúst 2016)](new-updated-task-guides-available-august-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nýjar eða uppfærðar Verkefni leiðir (Nóvember 2016)](new-task-guides-november-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
 
 

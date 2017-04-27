@@ -29,11 +29,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-a-product-configuration-model"></a>Setja upp afbrigðalíkan afurðar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir því hvernig afbrigðalíkan afurðar er sett upp og stofnað.
 
 | Verkefni                                                        | lýsing                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Stofna afurðarsniðmát                                    | Stofna afurðarsniðmát úr **afurðarsniðmát** listanum. Losaðu afurðarsniðmátið sem viðeigandi fyrirtæki. Fyrir afurðarsniðmát sem er notað sem útgáfu fyrir afbrigðalíkan afurðar eða undirþáttagerð, **skorðuskilgreiningu** verður að vera valinn sem þarf að velja afbrigðistækni og samskipanavíddina aðeins fyrir afurðarvíddarflokknum. |
+| Stofna afurðarsniðmát                                    | Stofna afurðarsniðmát úr **afurðarsniðmát** listanum. Losaðu afurðarsniðmátið í öll viðeigandi fyrirtæki. Fyrir afurðarsniðmát sem er notað sem útgáfu fyrir afbrigðalíkan afurðar eða sem undirþáttagerð, verður **skorðuskilgreiningu** að vera valinn sem afbrigðistækni, og skilgreiningarvíddin verður að vera valin aðeins fyrir afurðarvíddarflokknum. |
 | Stofna íhluti                                          | Stofna íhluti á **Íhluti** síðu. Íhlutir eru grunneiningar afbrigðalíkans afurðar geta verið endurnýttir í mörgum afbrigðalíkan afurðar.                                                                                                                                                                                                                      |
 | Stofna gerð eiginda.                                     | Stofna gerðir eiginda í á **gerðir Eiginda** síðu. Gerðir eiginda tilgreina safn gagnagerða fyrir eigindir sem eru notaðar í afbrigðalíkani afurðar. Eigindir af geðinni **Boole**, **Texta** með föstum lista og **Heiltala** með ýmsum gerðum lista sett af gildum sem eru tiltæk þegar þú skilgreinir afurðarafbrigði byggt á afbrigðalíkan afurðar.       |
 | Stofna afbrigðalíkan afurðar                       | Skoða afbrigðalíkan afurðar á **nýtt afbrigðalíkan afurðar ** síðu                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ ms.lasthandoff: 03/31/2017
 | Prófa afbrigðalíkan afurðar                         | Prófa afbrigðalíkan afurðar úr annað hvort **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum ** síðu eða **listi yfir afbrigðalíkan afurðar ** síðu Prófun á  afbrigðalíkan afurðar gerir hermingu á skilgreiningarferli vörulíkans skilgreiningarferlið sem kemur upp við meðhöndlun pantana.                                                                                                |
 | Skoða sniðmát afbrigðalíkans afurðar                | Stofna afbrigðalíkan afurðar á **grunnstillingarsniðmát **síðu grunnstillingarsniðmát inniheldur gildi fyrir eiginleika í afbrigðalíkani afurðar. Veljið eigindargildi á í **skilgreiningarlína** síðu. Hægt er að velja að hlaða grunnstillingarsniðmáti vörulíkansvið skilgreiningu vörulíkans.                                                   |
 | Skilgreina vöru                                          | Hægt er að skilgreina afbrigðalíkan afurðar úr sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

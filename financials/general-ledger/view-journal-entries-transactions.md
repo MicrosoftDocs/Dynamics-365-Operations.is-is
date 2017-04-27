@@ -46,12 +46,12 @@ Hægt er að nota eftirfarandi skýrslur fjárhags til að skoða fjárhagsfærs
 
 -   **Víddaryfirlit** – Þessi skýrsla sýnir færslur eftir degi og lykli og einnig eru valkostir til að sýna færslur eftir vídd og tímabil.
 -   **Fjárhagsfærslulisti** – Þessi skýrsla sýnir færslur í færslu-, bókhalds- og skýrslugjaldmiðlum fyrir lykil.
--   **Prenta færslubók** – Þessi skýrsla sýnir niðurstöður bókaða færslubók. Hægt er að keyra skýrsluna eftir gerð færslubók eða rununúmer færslubókar eða bæta fleiri svæðum.
+-   **Prenta færslubók** – Þessi skýrsla sýnir niðurstöður bókaðrar færslubókar. Hægt er að keyra skýrsluna eftir rununúmeri færslubókar eða bæta við fleiri reitum.
 -   **Bókaðar færslur eftir færslubók** – Þessi skýrsla sýnir færslur sem hafa verið bókaðar í færslubók, flokkað eftir fylgiskjali.
 -   **Hreyfingalisti eftir dagsetningum** – Þessi skýrsla sýnir allar færslur eftir dagsetningu, ásamt færslubókarnúmeri, fylgiskjali og fjárhagslykli. Hún sýnir einnig færslurnar í færslu-, bókhalds- og skýrslugjaldmiðlum.
 -   **Uppruni færslu** – Þessi skýrsla sýnir lykla eftir færslubók og eftir færslu og bókhald og skýrslugjaldmiðil. Hún sýnir einnig hverja línu færslubókarinnar sem var notuð sem mótlykill.
 
 
-Nánari upplýsingar, sjá [lykilsstöður fjárhagi](general-ledger-account-balances.md), [Bókhald uppruna explorer](\financials\accounts-payable\accounting-source-explorer) og [fjárhagsskýrslugerð](financial-reporting-getting-started.md)
+Nánari upplýsingar má finna í [Stöður fjárhagsreikninga](general-ledger-account-balances.md) [Skoðun bókhaldsuppruna](\financials\accounts-payable\accounting-source-explorer) og [Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
 
 

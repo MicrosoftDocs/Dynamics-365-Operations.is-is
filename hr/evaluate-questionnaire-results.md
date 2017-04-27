@@ -1,6 +1,6 @@
 ---
 title: "Skoða og meta niðurstöður spurningalista"
-description: "Í þessu efnisatriði er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara."
+description: "Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Skoða og meta niðurstöður spurningalista
 
-Í þessu efnisatriði er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
+Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
 
 Eftir að svarendur hafa lokið við spurningarlista eru margar leiðir til að meta niðurstöðurnar, meðal annars eftirfarandi:
 

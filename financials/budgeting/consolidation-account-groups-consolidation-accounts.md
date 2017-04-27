@@ -1,6 +1,6 @@
 ---
-title: "Fleiri samstæðulyklar og flokka samstæðulykla"
-description: "Þetta efni veitir upplýsingar um flokka samstæðulykla og viðbótarsamstæðulykla og útskýrir hvernig þær eru notaðar í Microsoft Dynamics 365 aðgerða."
+title: "Flokkar samstæðulykla og viðbótar samstæðulyklar"
+description: "Þetta efnisatriði veitir u um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 for Operations."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Fleiri samstæðulyklar og flokka samstæðulykla
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Flokkar samstæðulykla og viðbótar samstæðulyklar
 
-Þetta efni veitir upplýsingar um flokka samstæðulykla og viðbótarsamstæðulykla og útskýrir hvernig þær eru notaðar í Microsoft Dynamics 365 aðgerða.
+[!include[banner](../includes/banner.md)]
+
+
+Þetta efnisatriði veitir u um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Flokkar samstæðulykla
 ----------------------------
 
-Flokka samstæðulykla gera kleift að búa til flokka yfir lykla sem á að nota til að sameina gögn. Oftast er flokk samstæðulykla táknar stjórnvalda krefjast bókhaldslykla eða varpanir á lykla til flokks sem er skilgreindur eftir headquarters fyrirtækisins. Hægt er að finna sameiningu í flokka á **Uppsetningu** svæði í **Sameiningar** kerfiseiningu. Þegar nýr flokkur er bætt við að færa inn einkvæmt kenni fyrir flokk lykil og nafn.
+Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Oftast stendur flokkur samstæðulykla fyrir stjórnvaldatilskipaðan bókhaldslykil eða varpar lyklum á flokka sem eru skilgreindir eftir höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn og heiti.
 
 ## <a name="additional-consolidation-accounts"></a>Fleiri samstæðulyklar
-Fleiri samstæðulyklar hægt er að tengja lykil úr fyrirliggjandi bókhaldslykla í flokk samstæðulykla. Síðan er hægt að tilgreina gildi sameiningu lykli og heiti. 
+Fleiri samstæðulyklar gera þér kleift að úthluta lykli úr fyrirliggjandi bókhaldslykill til samstæðulykill flokkur. Síðan er hægt að tilgreina samstæðulykill gildi og heiti. 
 
-Hægt er að finna viðbótarsamstæðulykla í á **Uppsetningu** svæði í **Sameiningar** kerfiseiningu. Þegar ný samstæðulykill er stofnað, verður að tilgreina eftirfarandi upplýsingar:
+Hægt er að finna viðbótar samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýr samstæðulykill er stofnaður verður að tilgreina gerð eftirfarandi upplýsingar:
 
--   **Aðallykill** -Þetta svæði er uppfletting sem sýnir allar aðallykla sem byggja á bókhaldslykli sem valin var á síðunni. Þegar lykill er valinn er nafn fært sjálfvirkt í á **lykilheiti Aðal** svæði.
--   **Flokkur samstæðulykla** -þetta svæði er Notað til að tilgreina lykilinn sem á að úthluta. Ef að sameina á tvo vegu, verður að bæta sama lykil alla flokka samstæðulykla fjórum.
--   **Samstæðulykill** – færa Inn virði á samstæðulyklinum. Þetta gildi er ekki með verður lykil af við bókhaldslykilinn. Það getur verið hvaða gildi sem þarf.
--   **Heiti samstæðulykils** – færið Inn nafn lykils sem óskað er eftir að það birtist á skýrslum og fyrirspurnum.
--   **Stig SAT** – Þetta svæði er notað til að tilkynna skattayfirvöldum Mexíkósk reikningsyfirlit. 
+-   **Aðallykill** – Þessi reitur er uppfletting sem sýnir alla aðallykla sem eru á grunni bókhaldslykill sem var valinn á síðunni. Þegar þú velur lykil er heiti hans sjálfvirkt skráð í svæðið **Heiti reiknings**.
+-   **Flokkur samstæðulykla** – Notaðu þetta svæði til að tilgreina flokk til að úthluta lykill í. Ef þú sameinar á tvo mismunandi vegu verður að bæta við sama lykli í alla fjóra flokka samstæðulykla.
+-   **Samstæðulykill** – Skráðu gildi samstæðulykilsins. Þetta gildi þarf ekki að vera lykill úr bókhaldslykill. Það getur verið hvaða gildi sem þú vilt.
+-   **Heiti samstæðulykils** – Skráðu heiti reikningsins eins og það á að birtast á fyrirspurnum og skýrslum.
+-   **SAT stig** – Þessi reitur er notaður til að tilkynna lyklayfirlit til mexíkanskra skattayfirvalda. 
 
-Þegar lokið hefur verið við flokka samstæðulykla og viðbótarsamstæðulykla er hægt að velja flokk í Sameina online.
+Þegar þú hefur lokið stofnun á flokkum samstæðulykla og viðbótar samstæðulykla er hægt að velja flokkinn í ferlinu Sameina á netinu.
+
+
 
 
 

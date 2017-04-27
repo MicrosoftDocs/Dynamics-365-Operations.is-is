@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Uppsetningar á kreditkorti, heimild og sækja
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics AX. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Setja upp greiðsluþjónustu kreditkorts
@@ -55,7 +58,7 @@ Hægt er að krefjast CVV-númers, sem er stundum er kallað öryggisnúmer kort
 
 ### <a name="address-verification"></a>Staðfesting aðseturs
 
-Sannprófun aðsetursupplýsinga er alltaf sent í greiðsluþjónustuaðila. Hægt er að velja hversu mikið af upplýsingum er krafist til að færsla sé samþykkt. Gætið þess að athuga með við söluaðila til að ákvarða hvort samþykkir þessar upplýsingar. Hér eru valkostir aðseturssannvottunar:
+Sannprófun aðsetursupplýsinga er alltaf sent í greiðsluþjónustuaðila. Hægt er að velja hversu mikils af upplýsingum er krafist til að færsla sé samþykkt. Gætið þess að hafa samband við veitu til að ákvarða hvort hún samþykkir þessar upplýsingar. Hér eru valkostir aðseturssannvottunar:
 -   **Alltaf samþykkja færslu** – Samþykkja færsluna, án tillits til niðurstaða aðsetursstaðfestingar.
 -   **Handhafi lykils** – bera Saman nafn korthafa í færslunni við upplýsingar um kreditkort hjá fyrirtækisins.
 -   **Innheimtuaðsetur** – bera Saman nafn korthafa og innheimtuaðsetur færslunnar við upplýsingum um kreditkort hjá fyrirtæki.
@@ -68,10 +71,12 @@ Fyrir hverja tegund kreditkorts sem er studd, er hægt að tilgreina í gagnastu
 -   **Stig 3 **flytja yfir allar upplýsingar um Stig 2, auk upplýsingar pöntunarlínu.
 
 ## <a name="partial-payments"></a>Hlutagreiðslur
-Ef hluti af pöntun, senda upphæð hluta pöntunarinnar er sótt og heimild sem var rukkað um upphæð heila pöntun, er lokað. Ný heimild er síðan sent í eftirstandandi upphæð á pöntun sem hefur ekki verið sent.
+Ef þú flytur hluta af pöntun, er magn af hlutapöntun sótt , og heimildin, sem var fyrir upphæð allrar pöntunarinnar, er lokað. Ný heimild er þá send inn fyrir eftirstandandi fjárhæð pöntunar sem ekki hefur verið send.
 
 ## <a name="voiding-an-authorization"></a>Ógilda heimild
 Til að ógilda heimild fyrir kreditkort, er hægt að breyta greiðsluhætti í annan greiðslumáta sem ekki hefur tegund kreditkorts.
+
+
 
 
 

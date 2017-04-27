@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Verkflæðisaðgerðir
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir aðgerðir sem hver þátttakandi í verkflæðissamþykki getur gripið til.
 
-Verkflæði getur innihaldið nokkra hópa fólks: upphafsmann, viðtakanda verks, stjórnendur og samþykktaraðila. Til dæmis í eftirfarandi verkflæði fyrir kostnaðarskýrslur er Samúel upphafsmaður, meðlimir í biðröð eru viðtakendur verks, Jón er stjórnandi og Friðrik, Súsanna og Anna eru samþykkjendur.   [![Verkflæði\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) í eftirfarandi köflum eru útskýrðar þær verkflæðisaðgerðir sem hver flokkur getur framkvæmt.
+Verkflæði getur innihaldið nokkra hópa fólks: upphafsmann, viðtakanda verks, stjórnendur og samþykktaraðila. Til dæmis í eftirfarandi verkflæði fyrir kostnaðarskýrslur er Samúel upphafsmaður, meðlimir í biðröð eru viðtakendur verks, Jón er stjórnandi og Friðrik, Súsanna og Anna eru samþykkjendur.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Eftirfarandi hlutar útskýra þær verkflæðisaðgerðir sem hver flokkur getur framkvæmt.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Aðgerðir sem upphafsmaður getur framkvæmt
 Stofnandinn byrjar verkflæðistilvik með því að senda skjal til vinnslu. Til dæmis verður Samúel að smella á hnappinn **Senda** á síðunni **Kostnaðarskýrsla** til að senda kostnaðarskýrsluna sína.
@@ -63,7 +66,7 @@ Einstaka sinnum gæti meðlimur vinnuliðalista samþykkt verk en síðan ákve�
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Aðgerðir sem stjórnandi getur framkvæmt
 Yfirleitt er skjal tengt stjórnanda, þar sem það er spurning sem stjórnandinn verður að svara spurningu. Svar við spurningunni er yfirleitt **Já** eða **Nei**, eða **Satt** eða **Ósatt**. Ef stjórnandi velur ekki einn af þessum valkostum getur hann eða hún úthlutað ákvörðuninni.
 
-### <a name="choice-1-or-choice-2"></a>\[Val 1\] eða \[Val 2\]
+### <a name="choice-1-or-choice-2"></a>\[Choice 1\] eða \[Choice 2\]
 
 Stjórnandi verður að svara spurningu sem tengist skjalinu. Svar við spurningunni er yfirleitt **Já** eða **Nei**, eða **Satt** eða **Ósatt**. Svarið sem stjórnandinn velur ákvarðar þá verkflæðisgrein sem er notuð til að vinna skjalið. Til dæmis er kostnaðarskýrslu Samúels úthlutað á Jón. Jón verður að ákveða hvort upplýsingarnar í skjalinu krefjast símtals til yfirmanns Samúels. Ef Jón ákveður að símtal sé nauðsynlegt er kostnaðarskýrslunni úthlutað til Agnesar, sem verður þá að hringja í yfirmann Samúels. Ef Jón ákveður að símtal sé ekki nauðsynlegt er kostnaðarskýrslunni úthlutað til Friðriks til samþykktar.
 
@@ -89,5 +92,7 @@ Stjórnandi verður að svara spurningu sem tengist skjalinu. Svar við spurning
 ### <a name="request-change"></a>Beiðni um breytingu
 
 Þegar samþykkjandi biður um breytingu á skjalinu er það sent aftur til stofnandans. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $12,000 og þessu skjali hefur verið úthlutað til Súsönnu. Ef Súsanna biður um breytingu er kostnaðarskýrslan send til baka til Samúels. Samúel getur sent kostnaðarskýrsluna aftur. Hann getur gert umbeðnar breytingar fyrst eða endursent upprunalega útgáfu af kostnaðarskýrslunni. Ef Samúel endursendir kostnaðarskýrsluna þá er hún send til Friðriks til samþykktar, því að Friðrik var fyrsti samþykkjandinn í samþykktarferlinu.
+
+
 
 

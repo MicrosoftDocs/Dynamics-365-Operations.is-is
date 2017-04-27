@@ -1,6 +1,6 @@
 ---
-title: "Skilgreina forritið svæðaheiti í Vöruhús forrits"
-description: "Þetta efnisatriði lýsir hvernig á að skilgreina og skilgreina heiti forrits vöruhús og forgang Dynamics 365 fyrir Aðgerðir."
+title: "Skilgreining svæðaheita í vöruhúsaforriti"
+description: "Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Skilgreina forritið svæðaheiti í Vöruhús forrits
+# <a name="configure-app-field-names-in-warehousing-app"></a>Skilgreining svæðaheita í vöruhúsaforriti
 
-Þetta efnisatriði lýsir hvernig á að skilgreina og skilgreina heiti forrits vöruhús og forgang Dynamics 365 fyrir Aðgerðir. 
+[!include[banner](../includes/banner.md)]
 
-**Athugasemd:** í Þessu efnisatriði eiga aðgerðir í vöruhúsakerfi. Það ekki eiga við um aðgerðir í birgðastjórnun. Dynamics 365 aðgerða - Vöruhús er forrit sem nota má til að framkvæma verkefni vöruhús. Er hægt að skilgreina og skilgreina svæðaheiti eru notuð í forritinu, auk skilgreina forgang sem á að úthluta reitaheiti. Í þessu efnisatriði er útskýrt hvernig tilgreina og skilgreina þessi vöruhús heiti forrits og forgang og hvernig þær eru notaðar í Dynamics 365 aðgerða - Vöruhús. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við Dynamics 365 aðgerða - Vöruhús, vísa í kennsluefni [setja Upp og skilgreina Dynamics 365 aðgerða - Vöruhús](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Skilgreina vöruhús heiti forrits
+Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 for Operations. 
+
+**Ábending:** Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Dynamics 365 for Operations - Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti og hvernig þau eru notuð í Dynamics 365 for Operations - Warehousing. Fyrir nákvæmar upplýsingar um hvernig á að skilgreina tengingu við Dynamics 365 for Operations  - Warehousing, vísast í sýniðdæmið [Setja upp og skilgreina Dynamics 365 for Operations - Warehousing](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 ===================================
 
-Þegar Dynamics 365 um Aðgerða - Vöruhús í fartæki, er hægt að skilgreina hvernig birta á lýsigögnum í tækið þitt á í **Vöruhúss heiti forrits** síðu. Nýtt fyrirtæki í Dynamics 365 aðgerða, velja **Stofna sjálfgefna uppsetningu** til að mynda öll heiti sem verður notuð í verkflæði fyrir fartæki vöruhúss og úthluta æskilegt ílagshamur og ílagsgerð þeim. Eftir að allar svæðaheiti var mynduð hægt að velja eftirfarandi valkosti inntaks.
+Þegar þú notar Dynamics 365 for Operations - Warehousing í fartækinu geturðu skilgreint hvernig lýsigögn skulu birt í tækinu á síðunni **Reitarheiti vöruhúsaforrits**. Í nýtt fyrirtæki í Dynamics 365 for Operations, velja **Stofna vanskil uppsetning** til að mynda öll reitarheiti sem verða notuð í verkflæðum vöruhússfartækja og svo úthluta æskilegan ílagsham og ílagsgerð á þau. Eftir að þú hefur myndað öll reitarheiti, geturðu valið eftirfarandi ílagsvalkosti.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td>Æskilegur ílagshamur</td>
-<td>Þessi valkostur ákvarðar hvort scanning svæði eða ílagssvæðið handvirk innfærsla á að sýna fyrir valið svæðisnafn. Þetta er gagnlegt til að aðgreina svæði, allt eftir ef strikamerki eru notuð fyrir svæðið. <strong>Athugasemd:</strong> Fyrir svæðaheiti með æskilegt ílagshamur <strong>Scanning</strong>, er hægt að færa inn upplýsingar handvirkt ef strikamerkið er ólæsilegum eða skemmdar.</td>
+<td>Þessi valkostur skilgreinir hvort sýna eigi skönnunarreit eða ílagsreit fyrir handvirka færslu fyrir valið heiti reitar. Þetta er gagnlegt til að auðkenna reiti eftir því hvort strikamerki eru notuð fyrir reitinn. <strong>Athugasemd:</strong> Fyrir reitarheiti með æskilegan ílagsham stilltan á <strong>Skönnun</strong> er hægt að færa inn upplýsingar handvirkt ef strikamerkið er ólæsilegt eða skemmt.</td>
 </tr>
 <tr class="even">
 <td>Inntaksgerð</td>
-<td>Valkosturinn tilgreinir hvaða gerð inntaks á að nota fyrir valið svæðisnafn. Fjórar valkostir eru tiltækir:
+<td>Þessi valkostur skilgreinir hvaða innsláttargerð ætti að vera notuð fyrir valið reitarheiti. Fjórir valkostir eru í boði.
 <ul>
-<li><strong>Val</strong> - Inniheldur lista yfir valkosti til að velja úr. Reitaheiti við þennan valkost er hægt að breyta.</li>
-<li><strong>Dagsetning</strong> - Svæðinu nöfn tilgreint sem dagsetning mun sýna dagsetningu snið með merki. Þetta hjálpar til við að sjá í hvaða snið til að færa inn dagsetningu starfsmanna vöruhússins. Reitaheiti við þennan valkost er hægt að breyta.</li>
-<li><strong>Aðgerðakenni</strong> - Ef valið, lyklaborðið tækið verður notað þegar færa inn upplýsingar handvirkt í forritinu. Lyklaborð reynslu er hægt að breyta því hvaða tæki er notað.</li>
-<li><strong>Tölulegt</strong> - Fyrir svæðið sem nota tölustafi ílag aðeins nefnir, hægt er að velja þennan valkost til að birta sérsniðna tölur keypad með inntakssvæði en lyklaborð tækis.</li>
+<li><strong>Val</strong> - Inniheldur lista yfir tiltæka valkosti til að velja úr. Reitaheitum með þennan valkostur er ekki hægt að breyta.</li>
+<li><strong>Dagsetning</strong> - Reitarheiti sem eru skilgreind sem dagsetning munu sýna dagsetningarsnið með merkinu. Þetta hjálpar starfsmanni í vöruhúsi að sjá á hvaða sniði eigi að færa inn dagsetningu. Reitaheitum með þennan valkostur er ekki hægt að breyta.</li>
+<li><strong>Stafir</strong> - Ef valið verður lyklaborð tækisins notað þegar upplýsingar eru færðar handvirkt í forritið. Hægt er að breyta lyklaborðsupplifun eftir því hvaða tæki er notað.</li>
+<li><strong>Tölustafir</strong> - Fyrir reitarheiti sem nota aðeins tölustafir sem ílag geturðu valið þennan valkost til að birta sérsniðið talnatakkaborð með ílagssvæðinu í stað lyklaborðs tækis.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Skilgreina vöruhús forritið svæðinu forgang
+<a name="configure-warehouse-app-field-priority"></a>Grunnstilla reitaforgang vöruhúsaforrits
 ======================================
 
-Á í **forrits forgang svæði í Vöruhúsi** síðu er hægt að setja svæðaheiti í forgangi mismunandi flokka. Þetta gerir mögulegt að ákveða hvaða upplýsingar eiga að birtast á síðu aðalverkið þegar starfsmenn vöruhúss framkvæmt með því að nota forritið. Ef smellt er á **Stofna sjálfgefna uppsetningu**, sjálfgefna safn flokka forgang verða myndaðir. Mögulegt er að stofna eins margar forgang flokka eftir þörfum, en aðeins þremur flokkum forgang verða sýnd á verk. Það verður að úthluta hvert svæði hlutfallslegt forgang eftir þess flokks forgang þegar Dynamics 365 aðgerða sendir lýsigögn forritið, og mun forritið birta flokka fyrstu þrjá forgang í lýsigagna á verk. Afgangurinn af overflowing lýsigögn verður birt á auka upplýsingar um síðuna. Eftirfarandi tafla sýnir dæmi um fimm forgang flokka.
+Á síðunni **Svæðisforgangur vöruhúsaforrits** síða, geturðu sett reitarheiti inn í mismunandi forgangsflokka. Þetta gerir kleift að ákveða hvaða upplýsingar ætti að birta á aðalverkefnasíðunni þegar starfsmaður í vöruhúsi framkvæmir verkefni með notkun forritsins. Ef smellt er á **Stofna sjálfgefna uppsetningu**, verður sjálfgefinn hópur forgangsflokks myndaður. Hægt er að stofna eins marga forgangsflokka og þörf er á, en aðeins þrír forgangsflokkar verða sýndir á verkefnasíðunni. Þegar Dynamics 365 for Operations sendir lýsigögn í forritið mun það úthluta hverju svæði hlutfallslegum forgangi eftir forgangsflokki og forritið mun birta fyrstu þrjá forgangsflokkana sem eru birtir í lýsigögnunum á verkefni síða. Afgangurinn af yfirfylltum lýsigögnum verða birt á síðu með aukaupplýsingum. Eftirfarandi tafla sýnir dæmi um fimm forgangsflokka.
 
 <table>
 <colgroup>
@@ -78,7 +81,7 @@ ms.lasthandoff: 03/31/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>Forgangur flokk</th>
+<th>Forgangsflokkur</th>
 <th>Úthlutuð svæði</th>
 </tr>
 </thead>
@@ -123,25 +126,27 @@ ms.lasthandoff: 03/31/2017
 </tbody>
 </table>
 
-Til dæmis þegar starfsmaður vöruhússins framkvæmir verkefni í farsíma, ef lýsigögn sem verða birtar í forritið samanstendur af eftirfarandi svæðum:
+Til dæmis þegar starfsmaður í vöruhúsi framkvæmir verk á fartæki, ef lýsigögnin sem verða birt í forritinu samanstanda af eftirfarandi svæði:
 
 -   vara
 -   Magn
 -   Mælieining
 -   Vörulýsing
--   Stærð og Staðsetningu
+-   Stærð og staðsetning
 
-Byggt á forgangi forrits-svæði vöruhús sem sett er í töflunni fyrir ofan, eftirfarandi 3 raðir upplýsingar verða birtar á síðu verk:
+Á grunni reitaforgangs í vöruhúsaforritinu sem var settur upp í töflunni hér að ofan, verða eftirfarandi 3 línur upplýsinga birtar á verkefnasíðunni:
 
--   Lína 1: Mælieining Vöru, Magn,
--   Línu 2: Lýsing Vara
+-   Lína 1: Vara, Magn, Mælieining
+-   Lína 2: Vörulýsing
 -   Lína 3: Stærð
 
-Eftir lýsigögnum, t.d. Staðsetningu verður ekki birt á síðunni verk, en á síðu upplýsingar verða birtar. Frekari upplýsingar og dæmi um notendaviðmótið sjá, vísa til að bóka blog [Announcing Dynamics 365 aðgerða - Vöruhús](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Til að fræðast nánar og sjá dæmi um notandaviðmót, vísast í bloggfærsluna [Announcing Dynamics 365 for Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Setja upp og skilgreina Microsoft Dynamics 365 fyrir Aðgerðir-Vöruhús](install-configure-warehousing-app.md)
+[Setja upp og grunnstilla Microsoft Dynamics 365 for Operations – Warehousing](install-configure-warehousing-app.md)
+
+
 
 

@@ -40,7 +40,7 @@ Tilvik flutnings færslubókar er skráð. Tilvikið flytur eitt stykki af vöru
 
 ### <a name="example-2-cost-entries-are-created"></a>Dæmi 2: kostnaðarfærslur eru stofnaðar
 
-Tilvik flutnings færslubókar er skráð. Tilvikið flytur eitt stykki af vöru A úr svæði 1 svæði 2. Birgðavíddir Svæðisins er talin hluti af hlut kostnaðar. Þess vegna stofnar tilvikið tvær kostnaðarfærslur og tvær birgðafærslur.
+Tilvik flutnings færslubókar er skráð. Tilvikið flytur eitt stykki af vöru A frá staðsetningu 1 til staðsetningar 2. Birgðavídd Staðsetningar er talin hluti af hluti af kostnaðarhlut. Þess vegna stofnar tilvikið tvær kostnaðarfærslur og tvær birgðafærslur.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Dæmi 3: ein kostnaðarfærsla er stofnaðar
 
@@ -59,11 +59,11 @@ Nýja **Kostnaðarfærslu** síðu gerir kleift að skoða og stýra skráningar
 | 00002   | 20/01/2015 | Innkaupapöntun | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Leiðrétting     | 100001 | 0000101 |               |               |          | 15:00   |
 
-**Kostnaðarfærslur** síðu gerir kleift að sía eftir Skjalakenni og dagsetningu skjals. **Athugasemd:** kostnaðarfærslur eru aðeins í boði fyrir [kostnaður hlutir](cost-object.md) eða útgefnum afurðum.
+**Kostnaðarfærslur** síðu gerir kleift að sía eftir Skjalakenni og dagsetningu skjals. **Ábending:** kostnaðarfærslur eru aðeins tiltækar fyrir [kostnaðarhluti](cost-object.md) eða útgefnum afurðum.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Cost objects](cost-object.md)
+[Kostnaðarhlutir](cost-object.md)
 
 

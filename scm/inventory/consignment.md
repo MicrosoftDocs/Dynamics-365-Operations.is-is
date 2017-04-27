@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Vörusending
 
+[!include[banner](../includes/banner.md)]
+
+
 Í þessu efnisatriði er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
 
-Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efnisatriði inniheldur upplýsingar um hvernig á að taka efnislega lánardrottins eigu birgðir á lager án þess að stofna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem í eigu lánardrottins birgðir efnislega frá. Og hvernig á að skipta um eignarhald hráefna til að unnt sé að vinna með notkun sem hluta af vinnslu pöntun framleiðslu. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna. Sjá upplýsingar um hvernig á að virkja og skilgreina ferli vörusendingar á innleið, sjá [Uppsetning vörusendingar](set-up-consignment.md).
+Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efni inniheldur upplýsingar um hvernig á að efnislega að taka á móti birgðum á lager í eigu lánardrottins án þess að stofna almenna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem birgðir í eigu lánardrottins má taka efnislega frá. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna. Sjá upplýsingar um hvernig á að virkja og skilgreina ferli vörusendingar á innleið, sjá [Uppsetning vörusendingar](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Yfirlit yfir ferli vörusendingar
 Í þessu dæmi hefur fyrirtækið USMF samkomulagi um vörusendingar við lánardrottinn US-104 fyrir hráefnið M9211CI.
@@ -57,9 +60,9 @@ USMF framkvæmir viðbótar reglubundnar vinnslur:
 Lánardrottinn, US-104 getur fylgjast með uppfærslu með því að nota **vörusendingabirgðir á lager** síðuna.
 
 ## <a name="consignment-replenishment-orders"></a>Áfyllingarpantanir vörusendingar
-Áfyllingarpöntun vörusendingar er skjal sem er notað til að biðja um og halda utan um birgðamagn afurða sem lánardrottinn ætlar að afhenda innan ákveðið tímabil með því að stofna pantaðar birgðafærslur. Yfirleitt, mun þetta byggjast á spá og raunveruleg eftirspurn tilteknar vörur. Birgðir sem tekið verður á móti gagnvart áfyllingarpöntun vörusendingar helst í eignarhaldi lánardrottins. Aðeins varsla afurða tengdar uppfærslu efnisleg innhreyfing er skráð og þar af leiðandi eiga sér ekki stað neinar uppfærslur á fjárhagsfærslum. **Eigandi** víddin er notuð til að aðskilja upplýsingar um hvaða er í eigu lánardrottins og sem er í eigu lögaðila sem tekur á móti. Vörusendingar áfylling pöntunarlínur hafa verið inn **Opin pöntun** lengi eins og heildarmagn lína hefur ekki verið móttekinn eða hætt við stöðuna. Þegar allt magnið hefur verið tekið á móti eða afturkallaðar, stöðunni er breytt í **Lokið**. Efnislegar lagerbirgðir sem tengjast áfyllingarpöntun vörusendingar má skrá með skráningarferli sem og ferli fyrir uppfærslu innhreyfingarskjal afurða. Hægt að gera skráningu sem hluti af komuferli vöru eða með því að uppfæra pöntunarlínurnar handvirkt. Þegar Uppfærsluferli innhreyfingarskjals Afurða er notuð, er færsla gerð í færslubók innhreyfingarskjala afurða, sem er hægt að nota til að staðfesta móttöku á vörum til lánardrottna. 
+Áfyllingarpöntun vörusendingar er skjal sem er notað til að biðja um og halda utan um birgðamagn afurða sem lánardrottinn ætlar að afhenda innan ákveðið tímabil með því að stofna pantaðar birgðafærslur. Yfirleitt, mun þetta byggjast á spá og raunveruleg eftirspurn tilteknar vörur. Birgðir sem tekið verður á móti gagnvart áfyllingarpöntun vörusendingar helst í eignarhaldi lánardrottins. Aðeins varsla afurða tengdar uppfærslu efnisleg innhreyfing er skráð og þar af leiðandi eiga sér ekki stað neinar uppfærslur á fjárhagsfærslum. **Eigandi** víddin er notuð til að aðskilja upplýsingar um hvaða er í eigu lánardrottins og sem er í eigu lögaðila sem tekur á móti. Áfyllingarpöntunarlínur vörusendingar hafa stöðuna **Opin pöntun** eins lengi og heildarmagn lína hefur ekki verið móttekinn eða hætt við. Þegar allt magnið hefur verið tekið á móti eða afturkallaðar, er stöðunni breytt í **Lokið**. Efnislegar lagerbirgðir sem tengjast áfyllingarpöntun vörusendingar má skrá með skráningarferli sem og ferli fyrir uppfærslu innhreyfingarskjal afurða. Hægt að gera skráningu sem hluti af komuferli vöru eða með því að uppfæra pöntunarlínurnar handvirkt. Þegar Uppfærsluferli innhreyfingarskjals Afurða er notuð, er færsla gerð í færslubók innhreyfingarskjala afurða, sem er hægt að nota til að staðfesta móttöku á vörum til lánardrottna. 
 
-[![vörusending áfylling pöntun](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![consignment-áfylling-pöntun](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Færslubók eignarhaldsbreytingar birgða
 Ferlið við að breyta eiganda börgða úr lánardrottinn í lögaðila sem tekur á móti er gert með því að nota birgðabók eignarhaldsbreytinga. Ekki eru stofnaðar neinar væntanlegar birgðafærslur fyrir færslubókina. Einu birgðafærslur sem eru stofnaðar eru þær sem tengjast bókaðri færslubók. Þegar búið er að bóka færslubókina:
@@ -69,14 +72,16 @@ Ferlið við að breyta eiganda börgða úr lánardrottinn í lögaðila sem te
 
 Ekki er hægt að uppfæra magn í innkaupapöntunarlínum vörusendingar eftir að pöntun hefur verið stofnað. 
 
-[![birgðir-eignarhald-breyta-færslubók](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![færslubók eignarhaldsbreytingar birgða](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
 Viðmót samstarf lánardrottna er með þremur síður sem tengjast vinnslu vörusendingar á innleið:
 
--   **Innkaupapantanir****notar vörusendingar birgðir** -Sýnir nákvæmar upplýsingar um innkaupapöntun tengjast breytingu eignarhalds ferli vörusendingar.
+-   **Innkaupapantanir** ** sem nota vörusendingabirgðir ** - Sýnir nákvæmar upplýsingar um innkaupapöntun tengd eignarhaldsbreytingu úr ferli vörusendingar.
 -   **Afurðir mótteknar frá vörusendingabirgðum** -Sýnir upplýsingar um vörur og magn sem hefur innhreyfingar afurða uppfært á meðan stendur á ferli eignarhaldsbreytingar.
 -   **Vörusendingarbirgðir á lager** - Sýnir upplýsingar um vörurnar vörusendingar sem þeir áætlað að afhenda og vörurnar sem eru þegar efnislega tiltækt á svæði viðskiptavinar.
+
+
 
 
 

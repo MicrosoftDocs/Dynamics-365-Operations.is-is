@@ -1,6 +1,6 @@
 ---
-title: "Útreikningur fyrir FAQ afbrigðalíkönum afurðar"
-description: "Þessi skrá útreikninga fyrir líkön afurðaskilgreiningar lýsir og útskýrir hvernig á að nota útreikninga með skorður."
+title: "Algengar spurningar um afbrigðalíkan afurðar"
+description: "Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Útreikningur fyrir FAQ afbrigðalíkönum afurðar
+# <a name="calculations-for-product-configuration-models-faq"></a>Algengar spurningar um afbrigðalíkan afurðar
 
-Þessi skrá útreikninga fyrir líkön afurðaskilgreiningar lýsir og útskýrir hvernig á að nota útreikninga með skorður.
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 
 Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæta segðaskorður í afbrigðalíkönum afurðar Hægt er að skilgreina útreikninga á **  afbrigðalíkan afurðar sem byggist á skorðum** skjámyndinni og síðan byggja segðir fyrir útreikninga í segðaritlinum. Nánari upplýsingar sjá stofna útreikninga.
 
@@ -45,9 +48,9 @@ Markeigind er eigind sem tekur við niðurstöðu útreikningsinssegðar.
 
 Í eftirfarandi segð er markmiðseigind mælieining fyrir borðdúk:  
 
-**Segð:** Ef\[decimalAttribute1 &lt;= decimalAttribute2, True, Ósatt\]  
+**Segð:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-**DecimalAttribute1** er lengd töflu og **decimalAttribute2** er tablecloth lengd. Þessi segð skilar gildi **"Rétt" ** á markmiðseigindin ef **decimalAttribute2** er hærra en eða jafnt og **decimalAttribute1**. Annars skilar segðin **"Rangt".** Til að mæling borðdúks sé ásættanleg ef lengd borðdúks er jöfn eða meiri en lengd borðsins.
+**DecimalAttribute1** er borðlengdin og **decimalAttribute2** er lengd borðdúksins. Þessi segð skilar gildi **"Rétt" ** á markmiðseigindin ef **decimalAttribute2** er hærra en eða jafnt og **decimalAttribute1**. Annars skilar segðin **"Rangt".** Til að mæling borðdúks sé ásættanleg ef lengd borðdúks er jöfn eða meiri en lengd borðsins.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Hvaða gerðir má stilla mark eigindir eigind?
 Allar gerðir eiginda sem eru studd fyrir afurðarafbrigðastillir er hægt að stilla á markeigindir, nema fyrir texta án fasts lista.
@@ -57,11 +60,11 @@ Nei, gildi fyrir markeigindi getur ekki takmarkað gildi fyrir inntaks eigindir 
 
 ### <a name="example"></a>Dæmi
 
-Í eftirfarandi segðina mark fyrir útreikning lengd power cord og inntaks gildi er lit:  
+Í eftirfarandi segð er markið fyrir útreikninginn lengd rafmagnsleiðslu og inntaksgildið er litur:  
 
-**Segð:**\[Ef Lit == "Grænt", 1,5, 1,0\]  
+**Segð:** \[If Litur == "Grænt", 1,5, 1,0\]  
 
-Þegar vara er skilgreind lengd power cord er stillt á **1,5** ef **Grænt** sem gildi eigindar lit. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt **þegar tilgreind er lengd **1,5**.
+Þegar vara er skilgreind er lengd rafmagnssnúru stillt á **1,5** ef **Grænt** er tilgreint sem litareigindi. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt **þegar tilgreind er lengd **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Hvað gerist ef útreikningur hefur markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafa?
 ef markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafi, aðeins heiltöluhluti útreiknaðrar niðurstöðu er skilað. Aukastafshluti er fjarlægð og niðurstaðan er ekki sléttuð. Til dæmis er niðurstaða 12.70 sýnd sem 12.
@@ -72,16 +75,16 @@ ef markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafi, a�
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Get ég skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina?
 Hægt er að skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina nema ef markmiðseigindin er stillt sem falin eða aðeins til lestrar.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Hvernig gera I sett markmiðseigind sem falin eða readonly?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Hvernig get ég sett inn markmiðseigind sem er falin eða aðeins til lestrar?
 Til að setja eigind sem falin eða aðeins til lestrar skal fylgja þessum skrefum:
 
-1.  Smellið á **upplýsingar afurðastjórnun**&gt;**Algengar**&gt;**afbrigðalíkönum Afurðar**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á **  breyta** á aðgerðarúðu.
 3.  Á **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum** síðunni, veljið eigindina sem nota á sem markeigind.
 4.  Á **Eigindir** flýtiflipi, veljið **Falið** eða **skrifvarið**.
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Getur útreikning að skrifa yfir gildi sem ég setja?
-Nei. Gildi sem er sett upp þegar þú samskipa afurð eru gildin sem eru notaðar. Útreikningurinn á sér stað þegar ílagsgildanna í er breytt er ekki hægt að skrifa yfir gildi sem er tilgreind fyrir tiltekinn eigind.
+Nei. Gildin sem þú setur fram þegar þú stillir vöru eru gildi sem notuð eru. Útreikningurinn á sér stað þegar ílagsgildanna í er breytt er ekki hægt að skrifa yfir gildi sem er tilgreind fyrir tiltekinn eigind.
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Hvað gerist ef ég fjarlægi inntaksvirði í útreikninga?
 Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig fjarlægð.
@@ -93,13 +96,15 @@ Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig
 -   Árekstur er á milli þessara tveggja einingar:
     -   Gildin sem eru tiltækar fyrir eigind og eru takmarkaðir við skorðu.
     -   Gildi sem mynduð var með útreikningi.
--   Gildi sem er skilað eftir útreikning eru utan lén eigindar. Sem dæmi er heiltala frá \[1..10\] sem reiknaður er á 0.
+-   Gildi sem er skilað eftir útreikning eru utan lén eigindar. Dæmi um þetta er heil tala frá \[1..10\] sem er reiknað niður í 0.
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Af hverju kemur villuskilaboð jafnvel þótt ég hafi sannreynt framleiðslulíkanið mitt?
 Útreikningar eru ekki teknar með í villuleit. Er þarf að prófa afbrigðalíkan afurðar til að finna villur í útreikningum. Til að prufa afbrigðalíkans afurðar skal fylgja þessum skrefum:
 
-1.  Smellið á **upplýsingar afurðastjórnun**&gt;**Algengar**&gt;**afbrigðalíkönum Afurðar**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á Aðgerðasvæðinu skal í **keyrslu** flokkur skal smella á **prófun**.
+
+
 
 
 

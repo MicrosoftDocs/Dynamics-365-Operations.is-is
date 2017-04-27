@@ -45,7 +45,7 @@ Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar rað
 Línuskilgreining getur innihaldið allt að 20.000 fjárhagsvíddaarlínur og haft eftirfarandi upplýsingar:
 
 -   Lýsandi texti sem bætir merkingu við skýrsluna með því að stofna hlutafyrirsagnir, línur og bil, s.s. **Reiðufé** eða **Heildartekjur**
--   Tenglar til fjárhagsleg gögn sem hægt er að hafa víddargildi í Microsoft Dynamics 365 aðgerða **Athugasemd:** Er hægt að setja upp línuskilgreiningar til að sækja gögn úr kerfinu fjárhagsvíddir í hvert skipti sem skýrslan er mynduð.
+-   Tenglar í fjárhagsgögn, sem geta innihaldið víddargildi í Microsoft Dynamics 365 for Operations **Athugasemd:** Er hægt að setja upp línuskilgreiningar til að sækja gögn úr kerfinu fjárhagsvíddir í hvert skipti sem skýrslan er mynduð.
 -   Samtölur línu og formúlur eru byggð á tengdum fjárhagsgögnum
 
 Yfirleitt inniheldur hver lína í línuskilgreiningu eina af eftirfarandi tegundum upplýsinga:
@@ -64,7 +64,7 @@ Vídd er skurðpunktur gagna og gilda. Hægt er að taka saman gögn og gildi í
 
 | Valkostur                | Lýsing                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vídd             | Mynstrið sem auðkennir víddina sem bæta á við línuskilgreininguna. Þessi mynstur inniheldur einn ampersand (&) eða númer formerki (\#) fyrir hverja stöðu í víddirnar. Almennt skal nota allar gæsalappir fyrir víddir aðallykils og öll tákn fyrir aðrar víddir. |
+| Vídd             | Mynstrið sem auðkennir víddina sem bæta á við línuskilgreininguna. Þetta mynstur inniheldur eitt og-merki (&) eða númeratákn (\#) fyrir hverja stöðu í víddunum. Almennt skal nota allar gæsalappir fyrir víddir aðallykils og öll tákn fyrir aðrar víddir. |
 | Upphaf víddasviðs | Fyrsta gildið fyrir þessa vídd sem bæta á við línuskilgreininguna.                                                                                                                                                                                                                 |
 | Lok víddasviðs   | Síðasta gildið fyrir þessa vídd sem bæta á við línuskilgreininguna.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Til að bæta víddum við línuskilgreiningu skal fylgja eftirfarandi skrefum.
 1.  Report Designer smellt **Línuskilgreiningar**, og opnið síðan línuskilgreiningu til að breyta.
 2.  Á valmyndinni **Breyta** er smellt á **Setja inn línur úr víddum**.
 3.  Í **Setja inn Línur úr Víddir ** í svarglugganum, í **Víddir** línunni skal velja hólfið fyrir víddina sem á að flytja í línuskilgreininguna og smella síðan á **Öll &&&**.
-4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í ** Upphafs víddarsviðs ** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs**reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugasemd:** afmörkunargildi (\* eða?) vídd afmarkanir getur ekki skilað öllum niðurstöðum sem óskað er, eftir því hvernig gagnagrunninum ERP collates gögn.
+4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í ** Upphafs víddarsviðs ** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs**reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugið:** Algildisstafir (\* eða?) í víddarsviðum skila ekki endilega öllum niðurstöðum sem óskað er, eftir því hvernig ERP gagnagrunnurinn safnar gögnum.
 5.  Í **Kóði upphafslínu** svæðið skal tilgreina línukóða fyrir fyrsta víddargildi sem á að bæta við línuskilgreiningu.
-6.  Í **Auka stig hverrar línu með** svæðið skal tilgreina bilið á milli samfelldra línukóða. Til dæmis, ef fyrstu línu kóðinn er 100 og stigvaxandi gildi er 30 fyrsta nýrra lína hafa kóða 100 130, 160, 190 og 220. Nota stigvaxandi gildi sem veitir of lítið pláss til að setja inn nýjar línur snið og formúlu.
+6.  Í **Auka stig hverrar línu með** svæðið skal tilgreina bilið á milli samfelldra línukóða. Til dæmis, ef kóði fyrstu línu er 100 og stigvaxandi gildi er 30, hafa fyrstu nýju línurnar kóðana 100 130, 160, 190 og 220. Notið stigvaxandi gildi sem veitir nægt bil fyrir innsetningu nýs sniðs og formúlulínur.
 7.  Smelltu á **Í lagi**. Einni línu er bætt við línuskilgreininguna fyrir hvert valið víddargildi.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a>Sléttun stillt í línuskilgreiningu
@@ -146,7 +146,7 @@ Sniðið sem er tilgreint í línuskilgreiningunni hnekkir öllum sniðum sem er
 
 1.  Opnið skilgreiningu raðar í Skýrsluhönnun til að gera breytingar.
 2.  Veljið hólfin sem á að sníða. Til að velja fleiri en eitt hólf skal halda Ctrl-lyklinum niðri um leið og hólfin eru valin.
-3.  Smellið á tækjastikuhnapp sniðsins sem á að nota. Til dæmis til að draga inn línu, veljið línu og smellið **Auka Inndrátt**![Auka Inndrátt](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Auka Inndrátt") á tækjastikunni.
+3.  Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Auka inndrátt") á tækjastikunni.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Stilling dálka við hönnun skýrslna
 
@@ -173,6 +173,6 @@ Til að auðvelda að skoða dálka sem er unnið er með í línuskilgreiningu 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsleg skýrslugerð fyrir Microsoft Dynamics 365 fyrir Aðgerðir](financial-reporting-intro.md)
+[Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

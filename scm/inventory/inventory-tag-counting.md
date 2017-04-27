@@ -27,13 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-tag-counting"></a>Birgðamerkjatalning
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessari grein veitir upplýsingar um birgðamerkjatalningu, sem þú notar til að bera saman rauninnihald vöruhúss við lagerbirgðir. 
 
-Með því að stofna línur á í **seðlatalning** síðu númerasnið að setja í hverja birgðir vöru t.d. númer frá 1 upp í 500. Meðan á talningu stendur er færa inn vörunúmer og magn skráð á tilheyrandi seðil. Síðan er hægt að nota þetta merki sem grunn fyrir innlegg í merkjatalningarbók. Þegar merkjatalningarbók er bókuð er ný talningarbók stofnuð á síðunni **Talning**. Ný færslubók er byggt á merkjatalningu í færslubókarlínum sem voru stofnaðar. Til að framkvæma merkjatalningu á vörum eftir tiltekinni birgðavídd, veljið víddina á°**Birta vídd**°síðunni sem birtist þegar merkjatalningarbókin er stofnuð. Til dæmis, til að telja vörur í ákveðnu vöruhúsi, veljið gátreitinn **Vöruhús**. Ef sleðinn°**Læsa vörum meðan á talningu stendur** á°síðunni **Birgða- og vöruhúsastjórnunar færibreytur** er valinn er ekki hægt að uppfæra vörur efnislega meðan á talningu stendur. Hins vegar eru vörur í merkjatalningarbókum ekki læstar meðan á talningu stendur. Birgðafærslur eru ekki stofnaðar þar til merkjatalningarlínur eru bókaðar og fluttar í talningarbók. Ef seðlar eru færðir inn af handahófi og óskað er eftir að skilgreina merki sem vantar, er smellt á dálkhausinn **Merki** til að raða línum eftir merki.
+Með því að stofna línur á **Merkjatalning** síðunni er sett merkjanúmer á hverja birgðavöru t.d. númer frá 1 upp í 500. Meðan á talningu stendur eru°færð inn vörunúmer og magn á tilheyrandi merki. Síðan er hægt að nota þetta merki sem grunn fyrir innlegg í merkjatalningarbók. Þegar merkjatalningarbók er bókuð er ný talningarbók stofnuð á síðunni **Talning**. Ný færslubók er byggt á merkjatalningu í færslubókarlínum sem voru stofnaðar. Til að framkvæma merkjatalningu á vörum eftir tiltekinni birgðavídd, veljið víddina á°**Birta vídd**°síðunni sem birtist þegar merkjatalningarbókin er stofnuð. Til dæmis, til að telja vörur í ákveðnu vöruhúsi, veljið gátreitinn **Vöruhús**. Ef sleðinn°**Læsa vörum meðan á talningu stendur** á°síðunni **Birgða- og vöruhúsastjórnunar færibreytur** er valinn er ekki hægt að uppfæra vörur efnislega meðan á talningu stendur. Hins vegar eru vörur í merkjatalningarbókum ekki læstar meðan á talningu stendur. Birgðafærslur eru ekki stofnaðar þar til merkjatalningarlínur eru bókaðar og fluttar í talningarbók. Ef seðlar eru færðir inn af handahófi og óskað er eftir að skilgreina merki sem vantar, er smellt á dálkhausinn **Merki** til að raða línum eftir merki.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Cycle counting](../warehousing/cycle-counting.md)
+[Regluleg talning](../warehousing/cycle-counting.md)
+
+
 
 

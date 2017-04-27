@@ -1,5 +1,5 @@
 ---
-title: "Jafna greiðslu hlutagreiðsla viðskiptavinar með afslætti á kreditnótum"
+title: "Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum"
 description: "Þessi grein fer með þig í gegnum aðstæður þar sem staðgreiðsluafsláttur er tekinn á kreditnótu þegar upphaflegi reikningurinn var einnig með staðgreiðsluafslátt."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna greiðslu hlutagreiðsla viðskiptavinar með afslætti á kreditnótum
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein fer með þig í gegnum aðstæður þar sem staðgreiðsluafsláttur er tekinn á kreditnótu þegar upphaflegi reikningurinn var einnig með staðgreiðsluafslátt. 
 
-Fabrikam gerir viðskiptavinum kleift að taka staðgreiðsluafslátt á hlutagreiðslur og einnig á kreditnótum (kreditreikningar). Hægt er að taka staðgreiðsluafslátt á kreditnótu þegar kreditnótan er gefið út fyrir reikning sem viðskiptavinur tók staðgreiðsluafsláttur út á. Í stað þess að veita lánsfé fyrir allri upphæðinni, geturðu skuldfærð stöðu viðskiptavinar fyrir upphæð sem tekur ekki með staðgreiðsluafsláttarprósentu sem viðskiptavinurinn tók. Jöfnun færibreytur eru staðsett á **Færibreytur viðskiptakrafna** síðu.
+Fabrikam gerir viðskiptavinum kleift að taka staðgreiðsluafslátt á hlutagreiðslur og einnig á kreditnótum (kreditreikningar). Hægt er að taka staðgreiðsluafslátt á kreditnótu þegar kreditnótan er gefið út fyrir reikning sem viðskiptavinur tók staðgreiðsluafsláttur út á. Í stað þess að veita lánsfé fyrir allri upphæðinni, geturðu skuldfærð stöðu viðskiptavinar fyrir upphæð sem tekur ekki með staðgreiðsluafsláttarprósentu sem viðskiptavinurinn tók. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="invoice-and-credit-note"></a>Reikningur og Kreditnóta
 Viðskiptavinur 4035 er með reikning fyrir 1.000,00 og kreditnótu fyrir 100,00. Hvert skjal er með 1 prósent afsláttur ef hún er greidd innan 14 daga. Arnie getur skoðað þessar upplýsingar á síðunni **viðskiptavinarfærslur**.
@@ -59,5 +62,7 @@ Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 | Upphæð staðgreiðsluafsláttar sem á að veita | 1.00     |
 
 Jöfnun verða 100,00 og mun innihalda greiðslu 99.00 og afslætti á 1,00.
+
+
 
 

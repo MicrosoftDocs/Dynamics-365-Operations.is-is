@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="packing-materials-and-fees"></a>Umbúðaefni og gjöld
 
+[!include[banner](../includes/banner.md)]
+
+
 Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Umbúðaefnisgjald er reiknað út og tilkynnt en engar fjárhagsfærslur eru bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum.
 
 Þyngd umbúðaefnis og gjöld eru reiknuð bæði fyrir sölu- og innkaupapantanalínur.
@@ -52,7 +55,7 @@ Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtæki
 ## <a name="packing-units-on-purchase-order-lines"></a>Umbúðaeiningar í innkaupapöntunarlínum
 Umbúðaefnisfærslur fyrir innkaupapöntunarlínu eru ekki stofnaðar af kerfinu. Þú Stofna færslur fyrir reikningsfærðar innkaupapöntunarlínur handvirkt í **umbúðaefnisfærslur** síðu.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Setja upp leyfisnúmer packagingmaterialfee viðskiptavinar
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Setja upp leyfiskóða fyrir pökkunarefnisgjöld handa viðskiptavini
 Ef viðskiptavinir greiða gjöld vegna pökkunarefnis skal tilgreina leyfisnúmer umbúðaefnisgjalds viðskiptavinarins í síðunni **viðskiptavinur**. Þegar leyfisnúmer hefur verið úthlutað viðskiptavini, eru gjöld vegna pökkunarefnis reiknuð sjálfkrafa þegar sölupantanir eru reikningsfærðar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald ** hreinsaður í síðunni **umbúðaefnisfærslur** þar sem ekki er þörf á að prenta og reikna út skýrsluna . Mögulegt er að prenta þyngd umbúða á reikninginn og tilkynna viðskiptavini að hann greiði viðkomandi gjöld. 
 
 Ef fyrirtækið þitt greiðir gjöld fyrir umbúðir skal ekki fylla inn leyfiskóða viðskiptavinar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald ** valinn í síðunni **umbúðaefnisfærslur**. Þetta gefur til kynna að gjöldin eru reiknuð þegar skýrsla er stofnuð. Mögulegt er að prenta þyngd umbúða á reikninginn og gefa til kynna að fyrirtæki þitt greiði viðkomandi gjöld.
@@ -60,6 +63,8 @@ Ef fyrirtækið þitt greiðir gjöld fyrir umbúðir skal ekki fylla inn leyfis
 ## <a name="print-packaging-material-weights-on-invoices"></a>Prenta þyngd pökkunarefnis á reikninga
 Mögulegt er að prenta þyngd umbúða og gefa til kynna á reikningnum hver greiðir umbúðagjöld. Þyngd er dregin saman fyrir hvern pökkunarkóða.
  
+
+
 
 
 

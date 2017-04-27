@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Sjálfgefnir mótlyklar fyrir reikningsfærslubækur lánardrottna og færslubækur reikningssamþykkta
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Sjálfgefnir mótlyklar eru notaðir á eftirfarandi færslubókarsíðum reiknings lánardrottins:
@@ -92,6 +95,8 @@ Eftirfarandi tafla er notuð til að aðstoða við að ákveða hvar á að út
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Jafna greiðslu hluta lánardrottins sem hefur afslætti á kreditnótum lánardrottins"
+title: "Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins"
 description: "Þessi grein fer með þig í gegnum aðstæður þar sem kreditreikningur er jafnaður gagnvart reikningi."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Jafna greiðslu hluta lánardrottins sem hefur afslætti á kreditnótum lánardrottins
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein fer með þig í gegnum aðstæður þar sem kreditreikningur er jafnaður gagnvart reikningi.
 
 lánardrottnar Fabrikam veita staðgreiðsluafslátt á kreditnótum. lánardrottni 3050 leyfir   Fabrikam að taka 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga.
 
 ## <a name="invoice-and-credit-memo"></a>Reikningur og kreditreikningur
-Apríl stofnar reikning fyrir 1000,00 fyrir afskrift lánardrottins 3050 á 29. Júní. Hún stofnar kreditnótu fyrir 200,00 2. Júlí. Úr **lánardrottins** síðuna opnar April **Jafna færslur** síðu. Hún getur nota **Jafna færslur** síðu til að merkja bæði kreditnótu og reikninginn til jöfnunar. Afsláttur upp á 2.00 er reiknaður á kreditnótunni. Þess vegna heildarvirði kreditnótu minnkað í 198.00.
+29. júní býr Apríl til reikning uppá 1.000,00 fyrir lánardrottinn 3050. 2. júlí stofnar hún kreditnótu fyrir 200,00. Úr **lánardrottins** síðuna opnar April **Jafna færslur** síðu. Hún getur nota **Jafna færslur** síðu til að merkja bæði kreditnótu og reikninginn til jöfnunar. Afsláttur upp á 2.00 er reiknaður á kreditnótunni. Þess vegna heildarvirði kreditnótu minnkað í 198.00.
 
 | Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ Apríl getur fara yfir lánardrottnafærslur á  **lánardrottnafærslur** síð
 | Inv-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Staðgreiðsluafsláttur   | 7/2/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Staðgreiðsluafsláttur   | 7/2/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina sjálfvirku verki í verkflæði"
+title: "Skilgreining á sjálfvirku verki í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Skilgreina sjálfvirku verki í verkflæði
+# <a name="configure-an-automated-task-in-a-workflow"></a>Skilgreining á sjálfvirku verki í verkflæði
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks.
 
@@ -92,16 +95,18 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekinn Microsoft Dynamics 365 Aðgerðir notenda</td>
+    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong> listinn inniheldur allar Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.
+
+
 
 
 

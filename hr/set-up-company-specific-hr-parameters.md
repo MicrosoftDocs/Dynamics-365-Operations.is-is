@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki
 
+[!include[banner](includes/banner.md)]
+
+
 Stillingar fyrir sumar færibreytur Mannauðs (HR) eru eins milli fyrirtækja, á meðan stillingar annara færibreyta eru bundnar tilteknu fyrirtæki. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs sem eru bundnar tilteknu fyrirtæki.
 
 Tvær síður eru notaðar til að setja upp færibreytur mannauðs (HR). Fyrir Færibreytur sem fyrirtæki samnýta, notarðu **samnýttar færibreytur fyrir mannauð** síðu. Fyrir færibreytur sem eru bundin tilteknu fyrirtæki (með öðrum orðum, stillingar eiga við um eitt fyrirtæki), notarðu **færibreytum mannauðs** síðu. Á **færibreytur Mannauðs ** síða, er stillingum deild á sex flipa:
@@ -42,9 +45,9 @@ Hver flipi inniheldur upplýsingar sem tengjast einu fyrirtæki. Stillingar á �
 
 Stillingar á **Ráðningarverk** flipa er að skilgreina gerðir skjala sem eru notaðar fyrir samskipti sem er sjálfkrafa sent umsækjendum og ráðningarverkið sem er notað fyrir óumbeðnar umsóknir (umsóknir sem ekki eru fyrir tiltekið ráðningarverk). Tímabilið sem er skilgreint fyrir aldursgreiningu ráðningarverks ákvarðar ráðningarverk sem eru innifalin á **aldursgreiningarverk** reitnum í **umsjón með ráðningum ** vinnusvæði. Tímabilið sem er skilgreint fyrir viðvörun lokafrests umsóknar er notað til að birta ráðningarverk sem eru að nálgast skilafrest sinn á í **skilafrestur umsóknar nálgast** reit í **Ráðningarverk** vinnusvæði. 
 
-Stillingar á því **Uppbót** flipanum skilgreina hvort notendur verða staðfesta þær á að vista upplýsingar fyrir föst eða breytileg laun. Ef valið er **Virkja vista villuleit** gátreiturinn hvenær notendur loka launa tengjast síðu þeir birtast skilaboð þar sem spurt er hvort þær eigi að vista færsluna. Sumar síður í lausnastjórnun ekki leyfa notendum að eyða upplýsingum. Þess vegna, með því að senda kvaðningu til notenda til að staðfesta að þeir vilja að vista upplýsingar, gætirðu takmarkað magn upplýsinga sem er vistað en ekki er hægt að eyða síðar. Ef **Virkja villuleit vistunar** gátreiturinn er hreinsaður eru færslur alltaf vistaðar strax, mögulega áður en notandinn er tilbúinn. Ef þú er ekki að nota frammistöðustjórnun er leyfir **Launa ** flipinn þér einnig að velja einkunnalíkan til að nota í staðinn fyrir líkanið sem er úthlutað á launafyrirkomulag þegar verið er að gefa frammistöðu einkunn. 
+Stillingar á **Laun** flipanum skilgreina hvort notendur verða staðfesta að þeir vilji að vista upplýsingar fyrir fast eða breytilegt launafyrirkomulag. Ef gátreiturinn **Virkja villuleit vistunar** er valinn fá notendur skilaboð þegar þeir loka síðu sem tengist launum þar sem spurt er hvort þeir vilji vista færsluna. Sumar síður í lausnastjórnun leyfa ekki notendum að eyða upplýsingum. Þess vegna, með því að senda kvaðningu til notenda til að staðfesta að þeir vilja að vista upplýsingar, gætirðu takmarkað magn upplýsinga sem er vistað en ekki er hægt að eyða síðar. Ef **Virkja villuleit vistunar** gátreiturinn er hreinsaður eru færslur alltaf vistaðar strax, mögulega áður en notandinn er tilbúinn. Ef þú er ekki að nota frammistöðustjórnun er leyfir **Launa ** flipinn þér einnig að velja einkunnalíkan til að nota í staðinn fyrir líkanið sem er úthlutað á launafyrirkomulag þegar verið er að gefa frammistöðu einkunn. 
 
-Stillingarnar á flipanum **númeraröð ** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða í **Númeraraðir** listasíðu (smellt er á **fyrirtækisstjórnun**&gt;**Númeraraðir**&gt;**Númeraraðir**). 
+Stillingarnar á flipanum **númeraröð ** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða í **Númeraraðir** listasíðu (smellt er á **Fyrirtækisstjórnun** &gt; **Númeraraðir** &gt; **Númeraraðir**). 
 
 Stillingar á í **FMLA** flipa skilgreina hversu margar stundir starfsmaður verður að vinna til að tækur fyrir FMLA fríðindi, tíma í starfi sem er krafist fyrir hæfni, og upphafsdagsetningu ráðningar sem er notuð til að ákvarða lengd ráðningar. stillingar Skilgreina einnig fjölda stunda FMLA stunda sem starfsmenn eiga rétt á og FMLA leyfisdagatal sem er notuð til að reikna út hversu margir FMLA klukkustundir starfsmenn hafa notað. **FMLA** flipi er einungis tiltækt fyrir fyrirtæki í Bandaríkjunum. 
 
@@ -54,5 +57,7 @@ Stillingar á í **FMLA** flipa skilgreina hversu margar stundir starfsmaður ve
 --------
 
 [Setja upp færibreytur mannauðs (HR) á milli lögaðila](set-up-hr-parameters-across-legal-entities.md)
+
+
 
 

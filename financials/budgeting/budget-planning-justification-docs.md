@@ -1,6 +1,6 @@
 ---
-title: "Skjöl réttlætingu fjárhagsáætlunargerðar"
-description: "Réttlæting skjöl veita narrative á fyrir þær beðið fjárhagsáætlunar til að útskýra hvers vegna tiltekna áætlun er nauðsynlegt."
+title: "Rökstuðningsskjöl fjárhagsáætlunargerðar"
+description: "Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að útskýra hvers vegna tilgreind fjárhagsáætlun er nauðsynleg."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-justification-documents"></a>Skjöl réttlætingu fjárhagsáætlunargerðar
+# <a name="budget-planning-justification-documents"></a>Rökstuðningsskjöl fjárhagsáætlunargerðar
 
-Réttlæting skjöl veita narrative á fyrir þær beðið fjárhagsáætlunar til að útskýra hvers vegna tiltekna áætlun er nauðsynlegt. 
+[!include[banner](../includes/banner.md)]
 
-Sniðmát fjárhagsáætlunargerðar er stofnuð af áætlun stjórnanda í Microsoft Word og úthlutað gildandi ferli fjárhagsáætlunargerðar. Fjárhagsáætlun eigendum síðan hægt að opna sniðmátið og hafa fyllt út sjálfkrafa í Word gögn á grundvelli þeirra beiðni um fjárhagsáætlun. Þeir hægt að bæta viðbótartexti eða gögn fyrir vistun og tengja þeirra sérsniðinn réttlætingarskjalið þeirra fjárhagsáætlunargerð.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Setja upp Microsoft Dynamics Office innbótinni fyrir Microsoft Word
+Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að útskýra hvers vegna tilgreind fjárhagsáætlun er nauðsynleg. 
 
-1.  Opna nýtt Microsoft Word skjal.
-2.  Smellið á **Setja** á gerð og á **Verslun**.
-3.  Leita að Microsoft Dynamics Office-viðbótar og smella á **Bæta**.
-4.  Í Word, í hægri rúðunni er smellt á **Bæta þjónsupplýsingar**.
-5.  Gerð eða líma Vefslóð skýrsluþjóns og smelltu á **í lagi**.
+Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra í Microsoft Word og úthlutað til núverandi ferli fjárhagsáætlunargerðar. Eigendur fjárhagsáætlunar getur svo opnað sniðmát og haft gögn sjálfvirkt útfyllt í Word á grunni beiðnar um fjárhagsáætlun. Þeir geta svo bætt við viðbótartexti eða gögn áður en það er vistað og fest sérsniðið jöfnunarfylgiskjal við fjárhagsáætlun.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Skilgreina skal jöfnunarsniðmát í Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Setja upp Microsoft Dynamics Office-innbót
 
-1.  Smellið á **Hönnun** í í Microsoft Dynamics Office-viðbótar eftir að þú hefur verið innskráður.
-2.  Haus upplýsingar er að nota í **bæta Við svæðum** hnappinn.
-3.  Velja gagnagjafa einingar af BudgetPlanJustification, og smella á **Næsta**. **Athugasemd:** Þessi eining er áskilið fyrir allar réttlætingarskjalið. Hægt er að nota aðrar einingar en upphleðslu aftur í Microsoft Dynamics 365 aðgerða gengur ef þessi eining er ekki tekin með.
-4.  Bæta BudgetPlanName BudgetPlanPreparer, ResponsibilityCenter og DocumentNumber merki og gildin í Word-skjal. **Athugasemd:** Er hægt að nota eigin sérsniðinnar merki, frekar en stöðluðu merki ef þörf krefur.
-5.  Smellið á **Gert** til að ljúka haus hluta.
-6.  Stig línuupplýsingar um upphæðir fjárhagsáætlunargerðar, smellið **töfluna Bæta**.
-7.  Aftur, veljið gagnagjafa einingar af BudgetPlanJustification og smella á **Næsta**.
-8.  Bæta við svæðum fyrir EffectiveDate ScenarioName, AccountDisplayValue og AccountingCurrencyExpenseAmount. **Athugasemd:** Ef athugasemdir eru til staðar til að bæta innan einstakar línur fjárhagsáætlunargerðar þær er hægt að bæta við töflu hér.
-9.  Bæta öllum viðbótarleiðbeiningar til að veita notandanum með forskoðunaraðgerðinni og framkvæma nauðsynlegar snið eða styling á skjalinu.
-10. Vista þarf skjalið í staðbundnu tölvunni og loka skrána áður en haldið er áfram.
+1.  Opnaðu nýtt skjal í Microsoft Word.
+2.  Smellt er á **Setja inn** á borða, og smellt er á **Verslun**.
+3.  Leita fyrir Microsoft Dynamics Office-innbót og Smelltu á **Bæta við**.
+4.  Í Word í hægri rúðunni skal smella á **Bæta við upplýsingum um þjón**.
+5.  Rita eða líma vefslóð þjóns og Smellt er á **Í lagi**.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Setja upp ferli Fjárhagsáætlunargerðar sem nota á jöfnunarsniðmát
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Skilgreina jöfnunarsniðmát í Microsoft Word
 
-1.  Í Microsoft Dynamics 365 aðgerða, farið **Fjárhagsáætlun**&gt;**Uppsetningu**&gt;**fjárhagsáætlunargerð**&gt;**skjalasniðmát Réttlætingu**.
-2.  Smellið á **Nýtt** og flettið að nýstofnuðu Microsoft Word skjalið.
-3.  Færið inn sniðmát birta heiti og lýsingu. Click **OK**.
-4.  Fara í **Fjárhagsáætlun**&gt;**Uppsetningu**&gt;**Fjárhagsáætlunar****áætlanagerð**&gt;**Fjárhagsáætlunargerð ferli**.
-5.  Veljið ferli þar sem jöfnunarsniðmát sem á að nota og smella á **Breyta**.
-6.  Í því **skjal jöfnunarsniðmát**, veljið viðeigandi sniðmát og vista.
+1.  Smellið á **Hönnun** í Microsoft Dynamics Office-innbót eftir að þú hefur skráð þig inn.
+2.  Fyrir upplýsingar úr haus Smellið á hnappinn **Bæta við reitum**.
+3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Aðra lögaðilar má nota en upphleðslan til baka í Microsoft Dynamics 365 for Operations tekst ekki ef þessi eining er ekki höfð með.
+4.  Bæta við merkjunum og gildunum BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, og DocumentNumber og í Word-skjalið. **athugasemd:** Hægt er að nota sín eigin sérsniðnu merki, frekar en stöðluð merki, ef þess er þörf.
+5.  Smelltu á **Lokið** til að ljúka haushlutanum.
+6.  Fyrir upplýsingar línustigs um upphæðir fjárhagsáætlunar Smelltu á **Bæta við tafla**.
+7.  Aftur velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**.
+8.  Bæta við reitum fyrir EffectiveDate, ScenarioName, AccountDisplayValue, og AccountingCurrencyExpenseAmount. **athugasemd:** Ef athugasemdir eru í boði til innan stakra fjárhagsáætlunarlína er hægt að bæta þeim við töfluna hér.
+9.  Bæta við Auka leiðbeiningar til að veita notanda og framkvæma öll nauðsynleg snið eða stíl á fylgiskjali.
+10. Vistaðu skjalið á staðbundinni tölvu og lokaðu skránni áður en haldið er áfram.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Breyta og vista sérsniðinn réttlætingu skjöl
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Setja upp Ferli fjárhagsáætlunargerðar sem nota á jöfnunarsniðmát
 
-1.  Í Dynamics 365 fyrir Aðgerðir, stofna nýja fjárhagsáætlun eða opna fyrirliggjandi fjárhagsáætlunargerð.
-2.  Í því **Réttlætingu** fellilista, veljið **Stofna skal nýja jöfnun**.
-3.  Eftir að fylla inn í upplýsingar valið til að senda skjalið sérsniðinn úr á **Réttlætingu** fellilista.
+1.  Í Microsoft Dynamics 365 for Operations er farið í **Fjárhagsáætlun** &gt; **Setja upp** &gt; **Fjárhagsáætlunargerð** &gt; **Sniðmát jöfnunarskjala**.
+2.  Smellt er á **Nýtt** og flett að nýstofnuðu skjali í Microsoft Word.
+3.  Færa skal inn sniðmátsheiti til birtingar og lýsingu. Smellt er á **OK**.
+4.  Farðu í **Fjárhagsáætlun** &gt; **Setja upp** &gt; **Fjárhagsáætlunar** **gerð** &gt; **Ferli fjárhagsáætlunargerðar**.
+5.  Veldu ferlið þar sem nota á jöfnunarsniðmátið og smelltu á **Breyta**.
+6.  Í reitnum **Sniðmát rökstuðningsskjals** velurðu viðeigandi sniðmát og vistar.
+
+##### <a name="edit-and-save-personalized-justification-documents"></a>Breyta og vista sérsniðnum rökstuðningsskjölum
+
+1.  Í Dynamics 365 for Operations, stofnarðu nýja fjárhagsáætlun eða opnar fyrirliggjandi fjárhagsáætlun.
+2.  Í fellilistavalmynd **Jöfnun** Velja **Stofna nýjan rökstuðning**.
+3.  Eftir útfyllingu upplýsinga, velja að hlaða upp sérsniðnu fylgiskjali æyr fellilistavalmyndinni **Rökstuðningur**.
+
+
 
 
 

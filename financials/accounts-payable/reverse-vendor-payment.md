@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Bakfæra greiðslu lánardrottins
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu. Einnig útskýrir hún aðferðirnar tvær við að bakfæra ávísun lánardrottins. 
 
-Einstaka sinnum, eftir að greiðsla lánardrottins hefur verið bókuð, verður að bakfæra greiðsluna. Bakfærsla er ólík eyðingu, ógildingu eða höfnun greiðslu. Aðeins er hægt að eyða greiðslu ef staða hennar er **Stofnað**. Staðan tilgreinir greiðsla hefur verið stofnað en hefur ekki enn verið mynduð. Þessi takmörkun alltaf gildir óháð greiðsluaðferð. Ekki er hægt að ógilda óbókaðar ávísanir eftir að þær hafa verið mynduð en áður en þær hafa verið bókaðar. Ef greiðslan mynduð er gert sjóður rafrænnar millifærslu (EFT) sem er hægt að hafna greiðslu áður en bókað er. Hafna greiðslu er að breyta í **greiðslustöðu** gildi. Hægt er að endurmynda greiðslu sem hefur verið ógild eða hafnað eftir því **greiðslustöðu** gildinu er breytt aftur í **Ekkert**. 
+Einstaka sinnum, eftir að greiðsla lánardrottins hefur verið bókuð, verður að bakfæra greiðsluna. Bakfærsla er ólík eyðingu, ógildingu eða höfnun greiðslu. Aðeins er hægt að eyða greiðslu ef staða hennar er **Stofnað**. Þessi staða tilgreinir að greiðslan hefur verið stofnuð en hefur ekki enn verið mynduð. Þessi takmörkun gildir alltaf, óháð greiðsluaðferð. Hægt er að ógilda óbókaðar ávísanir eftir að þær hafa verið myndaðar en áður en þær hafa verið bókaðar. Ef mynduð greiðsla er gerð sem rafræn sjóðamillifærsla (EFT) er hægt að hafna greiðslu áður en hún er bókuð. Til að hafna greiðslu þarf að breyta gildinu **Greiðslustaða**. Hægt er að endurmynda greiðslu sem hefur verið ógild eða hafnað eftir að gildinu **Greiðslustaða** er breytt til baka í **Ekkert**. 
 
-Bakfærslur eru notaðir þegar greiðsla er bókuð. Ekki er hægt að bakfæra greiðslu rafrænt eftir að þær hafa verið bókaðar. Í staðinn, verður að stofna nýja færslu rukkað um upphæð greiðslu til að fá skuld aftur á reikningi lánardrottins. Það eru tvær aðferðir til þess að bakfæra ávísanir. Í einni aðferð eru bakfærslur bókaðar strax þegar smellt er á **Greiðslubakfærsla** á síðunni **Ávísun**. Hin aðferðin er þannig að þegar smellt er á hnappinn **Greiðslubakfærsla** á síðunni **Ávísun** er bakfærslan fyrst send í færslubókina Reiðufjár- og bankastjórnun þar sem skoðunarmaður getur bókað eða hafnað bakfærslunni. 
+Bakfærslur eru notaðar eftir að greiðsla er bókuð. Ekki er hægt að bakfæra rafrænar greiðslur eftir að þær hafa verið bókaðar. Í staðinn, verður að stofna nýja færslu fyrir upphæð greiðslu til að fá skuld aftur á reikning lánardrottins. Það eru tvær aðferðir til þess að bakfæra ávísanir. Í einni aðferð eru bakfærslur bókaðar strax þegar smellt er á **Greiðslubakfærsla** á síðunni **Ávísun**. Hin aðferðin er þannig að þegar smellt er á hnappinn **Greiðslubakfærsla** á síðunni **Ávísun** er bakfærslan fyrst send í færslubókina Reiðufjár- og bankastjórnun þar sem skoðunarmaður getur bókað eða hafnað bakfærslunni. 
 
 Til að fræðast um hvaða aðferð fyrirtækið notar skal skoða síðuna **Færibreytur reiðufjár- og bankastjórnunar**. Ef valkosturinn **Nota endurskoðunarferlið fyrir greiðslubakfærslur** er stilltur á **Já** eru bakfærslur sendar í bakfærslubók til skoðunar. Eftirfarandi tafla lýsir því hvernig mismunandi aðferðir til bakfærslu.
 
@@ -57,7 +60,7 @@ Ef þú ert notandi sem á að skoða bakfærslur geturðu annaðhvort samþykkt
 -   Ef hafna á bakfærslu er bakfærslulínunni eytt.
 
 > [!NOTE]
-> Ef færslubók er eytt er bakfærslan er fjarlægð úr kerfinu en upphaflega ávísunin er áfram á í **Athuga** síðu. Staða ávísunarinnar er ekki lengur **Bíður afturköllunar**.
+> Ef færslubókinni er eytt er bakfærslan fjarlægð úr kerfinu en upphaflega ávísunin er áfram í skjámyndinni **Ávísun**. Staða ávísunarinnar er ekki lengur **Bíður afturköllunar**.
 
 ## <a name="results-of-posting-a-reversal"></a>Niðurstaða af bókun bakfærslu
 Þegar bakfærsla ávísunar er bókuð gerist eftirfarandi:
@@ -78,6 +81,8 @@ Ef ávísunin sem var bakfærð var gefin út vegna endurgreiðslu viðskiptavin
 
 -   Færsla er bókuð á mótiviðskiptavinalykill vegna greiðslubakfærslunnar og jöfnunin milli upphaflegu greiðslunnar og skjalsins sem greiðslan var upphaflega jöfnuð á móti er bakfærð (neikvæð greiðsla er stofnuð).
 -   Bakfærslu á greiðslu er jafnað við upphaflegu greiðsluna. Reiturinn **Síðasta uppgjörsfylgiskjal** á síðunni **Færslur viðskiptavina** fyrir upphaflegu lánardrottinsgreiðsluna er uppfærður svo að hann sýni fylgiskjalsnúmer bakfærðu færslunnar.
+
+
 
 
 

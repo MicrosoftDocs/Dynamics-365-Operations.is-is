@@ -1,6 +1,6 @@
 ---
 title: "Yfirlit ítarlegrar bankaafstemmingar"
-description: "Ítarlegri bankaafstemmingu er hægt að flytja inn rafræn bankayfirlit og afstemma sjálfkrafa með bankafærslum í Microsoft Dynamics 365 aðgerða.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu."
+description: "Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 for Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,34 +26,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Yfirlit ítarlegrar bankaafstemmingar
 
-Ítarlegri bankaafstemmingu er hægt að flytja inn rafræn bankayfirlit og afstemma sjálfkrafa með bankafærslum í Microsoft Dynamics 365 aðgerða.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
+[!include[banner](../includes/banner.md)]
 
-Fjöldi eintaka sem verður að setja upp áður en aðgerðin ítarlega afstemmingu eru til staðar. Nánari upplýsingar um uppsetningu banka uppgjör innflutning í [Uppsetning banka innflutningsferlið uppgjör](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um að setja upp ferli afstemmingar er nánar hér að neðan.
+
+Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 for Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
+
+Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu banki innflutning uppgjör í [Uppsetning banka innflutningsferlið uppgjör](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
 
 ## <a name="transaction-codes"></a>Færslukóðar
-Hægt er að nota kóða sem hluti af reglum fyrir samsvörunarreglu afstemmingar banka.  Færslukóðar hjálpar til við að stemma aðeins sama gerðir af færslum á bankayfirliti og Dynamics 365 fyrir Aðgerðir.  Til að gera þessa gerð jöfnun, sem verður fyrst skilgreina færslugerðir sem eru notaðir fyrir færslur úr Dynamics 365 fyrir Aðgerðir, þá varpa þær gerðir færslukóða bankayfirlits notað af bankanum.  Færslugerðir fyrir Dynamics 365 fyrir bankafærslur Aðgerðir eru skilgreindar í í **Bankafærslutegund** síðu.  Þetta er einnig þar sem skilgreina aðallykil til að nota fyrir bókanir færslugerð sem tengist. 
+Færslukóða má nota sem hluta af samsvörunarreglum bankaafstemmingar.  Færslukóði mun hjálpa við samsvörun á aðeins sömu gerð viðskipta á milli Dynamics 365 for Operations og bankayfirlits þíns.  Til Til að gera þessa gerð samsvörunar verður fyrst að skilgreina færslugerðir sem eru notaðar fyrir bankafærslur úr Dynamics 365 for Operations, síðan varpa þeim gerðum í kóða yfirlitsfærslna sem bankinn þinn notar.  Færslugerðir fyrir bankafærslur Dynamics 365 for Operations eru skilgreindar á síðunni **Færslugerð banka**.  Þetta er einnig þar sem skilgreina aðallykil til að nota fyrir bókanir færslugerð sem tengist. 
 
-Þegar notanda Dynamics 365 fyrir færslukóða banka Aðgerða eru skilgreind er svo að varpa á færslukóða sem er notaður við rafræna bankayfirlitum í.  Þetta ferli vörpun er gert með því að nota í **færslukóðavörpun** síðu.  Færslukóðavörpun er fyllt út sérstaklega fyrir hvern bankareikning.
+Þegar bankafærslukóðar Dynamics 365 for Operations hafa verið skilgreindir, varpa á færslukóða sem er notaður við rafræna bankayfirlit.  Þetta vörpunarferli er gert með síðunni **Vörðun færslukóða**.  Vörpun færslukóða er lokið aðskilið fyrir hvern bankareikning.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Jöfnunarreglur og jöfnunarreglusett
-Jöfnunarreglur notandanum kleift að skilgreina skilyrði fyrir sjálfvirka afstemmingu milli 365 Dynamics fyrir bankafærslur Aðgerðir og bankafærslur uppgjörs.  Setja upp jöfnunarreglur eru gerðar á **jöfnunarreglur Afstemmingar** síðu.  Nánari upplýsingar, sjá [Setja upp reglur fyrir samsvörunarreglu afstemmingar banka](set-up-bank-reconciliation-matching-rules.md). 
+Jöfnunarreglur gera kleift að skilgreina skilyrði fyrir sjálfvirka afstemmingu milli bankafærslur Dynamics 365 for Operations og bankafærslur uppgjör.  Uppsetning á jöfnunarreglum er gerð á síðunni **Jöfnunarreglur afstemmingar**.  Nánari upplýsingar um það eru í [Setja upp jöfnunarreglur bankaafstemmingar](set-up-bank-reconciliation-matching-rules.md). 
 
-Jöfnunarreglusett eru notaðar til að skilgreina flokk jöfnunarreglur sem eru keyrðar í röð afstemmingarferlinu banka.  Jöfnunarreglusett eru skilgreind í á **jöfnunarreglusett Afstemmingar** síðu.
+Jöfnunarreglusett eru notaðar til að skilgreina flokk jöfnunarreglur sem eru keyrðar í röð afstemmingarferlinu banka.  Jöfnunarreglusett eru skilgreind á síðunni **jöfnunarreglusett Afstemmingar**.
 
 ## <a name="cash-and-bank-management-parameters"></a>Færibreytur reiðufjár- og bankastjórnunar
-Fjöldi færibreyta eru við ítarlega afstemmingu ferli á við **færibreytur Sjóða- og** síðu.  Í **upphæð uppgjörslínunum Sýna debet/kredit** breytist yfirlit yfir upphæðir á í **Bankayfirlit** síðu.  Ef þessi valkostur er valinn banka færsluupphæðum bankayfirlits sýnd í aðskildum debet og kredit-dálkunum.  Ef þetta er ekki valið banka færsluupphæðum bankayfirlits sýnd í einni upphæð dálk með viðeigandi formerki. 
+Það er fjöldi færibreyta sem eru sértækar fyrir ítarlegt ferli bankaafstemmingar á síðunni **Færibreytur Færibreytur reiðufjár- og bankastjórnunar**.  **Sýna upphæð uppgjörslínu í debet/kredit** breytir yfirliti yfir upphæðir á síðunni **bankayfirlit**.  Ef þessi valkostur er valinn, verða færsluupphæðir bankayfirlits sýndar í aðskildum dálkum debets og kredits.  Ef þessi valkostur er ekki valinn, verða færsluupphæðir bankayfirlits sýndar í einum upphæðadálki með viðeigandi formerki. 
 
-Villuleit valkostirnir stillt á síðu færibreytur hnekkja sett á jöfnunarreglur vali.  Til dæmis er hægt handvirkt eða sjálfvirkt samsvara skjöl umfram dagsetningarmismunur sem setja á síðu færibreytur.  Einnig, ef að **Sannprófa vörpun færslugerða** er valinn, færslugerðir þarf að varpa milli Dynamics 365 bankafærslunnar Aðgerðir og bankafærslu uppgjör í röð fyrir færslur að vera handvirkt eða sjálfvirkt jafnað. 
+Stilltir staðfestingarkostirnir á færibreytusíðunni yfirskrifa valið sem er stillt í samsvörunarreglunum.  Til dæmis er ekki hægt að samsvara fylgiskjöl handvirkt eða sjálfvirkt umfram þann mismun dagsetninga sem er stilltur á færibreytusíðunni.  Einnig, ef að valkosturinn **Sannprófa vörpun færslugerða** er valinn verður að varpa færslugerðum milli Dynamics 365 for Operations bankafærsla og uppgjör bankafærslu til þess að vera handvirkt eða sjálfvirkt jafnað. 
 
-Einnig þarf að skilgreina nauðsynlegar númeraraðir á í **færibreytur Sjóða- og** síðu.  Á við **Númeraraðir** flipanum stilla kóða númeraraða fyrir Niðurhalið **Kenni Kenni Uppgjörs, Kenni Afstemming og Banka afstemmingu** tilvísanir.
+Einnig þarf að skilgreina nauðsynlegar númeraraðir á **færibreytur reiðufé- og bankastjórnar** síðu.  Á **Númeraraðir** flipanum stilla kóða númeraraða fyrir Niðurhalið **Kenni Kenni Uppgjörs, Kenni Afstemming og Banka afstemmingu** tilvísanir.
 
 ## <a name="bank-account-reconciliation-options"></a>afstemmingu bankareiknings valkostur
-Fyrst þarf að virkja Ítarlega afstemmingu bankareiknings.  Fjöldi eftirfarandi valkostir eru tiltækir á í **bankareikning** síðuna þegar ítarlega afstemmingu aðgerðir eru virkar. 
+Fyrst þarf að virkja Ítarlega afstemmingu bankareiknings.  Fjöldi eftirfarandi valkostir eru tiltækir á **bankareikning** síðuna þegar ítarlega afstemmingu aðgerðir eru virkar. 
 
-**Nota bankayfirlit sem staðfestingu á rafrænu greiðsluna** virkni samþætt virkni afstemmingar banka stöður rafrænar greiðslur.  Þegar þetta er virkt bankaskjali sjálfkrafa stofnuð fyrir rafræna greiðslu staða er stillt á **Sent**.  Þar að auki stöðu rafræna greiðslu er uppfærður úr **Sent** til **Móttekið** eftir greiðslu er jafnað afstemmd og bókaðar. 
+**Nota bankayfirlit sem staðfestingu á rafrænu greiðsluna** virkni samþætta virkni afstemmingar banka og stöður rafrænar greiðslur.  Þegar þetta er virkt bankaskjali sjálfkrafa stofnuð fyrir rafræna greiðslu staða er stillt á **Sent**.  Þar að auki stöðu rafræna greiðslu er uppfærður úr **Sent** til **Móttekið** eftir greiðslu er jafnað afstemmd og bókaðar. 
 
-Í **nafn bankareikning í yfirlitum** er heitið sem notað er fyrir bankareikninginn á bankayfirlitum við rafræna.  Þetta nafn er notað þegar hvaða færslur á að flytja inn bankareikningur uppgjör sem innihalda upplýsingar fyrir mörgum bankareikningum. 
+Á **nafn bankareikning í yfirlitum** er heitið sem notað er fyrir bankareikninginn sem á við rafræna bankayfirlit.  Þetta nafn er notað þegar hvaða færslur á að flytja inn bankareikningur uppgjör sem innihalda upplýsingar fyrir marga bankareikninga. 
 
-Valkostinn að **Afstemming eftir innflutning** verður sjálfkrafa villuleita bankayfirlit, stofna nýja bankaafstemmingu og vinnublað og keyra Sjálfgefna samsvörunarreglusett.  Þessi aðgerð gerir ferlið fram á fyrir færslur sem þarf að jafna þær handvirkt.  Stilling á bankareikning sjálfgefnar við innflutning.
+Valkostinn að **Afstemming eftir innflutning** verður sjálfkrafa villuleita bankayfirlit, stofna nýja afstemmingar banka og vinnublaðinu og keyra samsvörunarreglusett Sjálfgefið.  Þessi aðgerð gerir ferliið sjálfvirkt upp að þeim punkti þar sem færslur þarft að jafna handvirkt.  Stilling bankareiknings fer í vanskil við innflutningur.
+
+
 
 

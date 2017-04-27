@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Kostir aðgerðaröðunar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði lýsir valkostum í aðgerðaröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 
 Aðgerðaröðun reiknar eftirfarandi upplýsingar fyrir framleiðslupöntun:
@@ -128,6 +131,8 @@ Hægt að vista gildandi gildi sem sjálfgildi. Tveir kostir eru í boði:
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Aðgerðaröðun](operations-scheduling.md)
+
+
 
 

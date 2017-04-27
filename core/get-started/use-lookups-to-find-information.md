@@ -1,6 +1,6 @@
 ---
-title: "Notið uppflettingu til að finna upplýsingar"
-description: "Mörg svæði hafa uppflettingar getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 fyrir Aðgerðir. Nokkrar viðbætur hefur verið bætt við uppflettingar sem gera þessar stýringar fleiri nothæf og notendur gera á fleiri framleiðinna. Í þessu efnisatriði er mun læra um þessar aðgerðir nýja leit og fær sumar góð ráð til að fá ákjósanlegar notkun úr uppflettingum í kerfinu."
+title: "Notið uppflettingar til að finna upplýsingar"
+description: "Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Notið uppflettingu til að finna upplýsingar
+# <a name="use-lookups-to-find-information"></a>Notið uppflettingar til að finna upplýsingar
 
-Mörg svæði hafa uppflettingar getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 fyrir Aðgerðir. Nokkrar viðbætur hefur verið bætt við uppflettingar sem gera þessar stýringar fleiri nothæf og notendur gera á fleiri framleiðinna. Í þessu efnisatriði er mun læra um þessar aðgerðir nýja leit og fær sumar góð ráð til að fá ákjósanlegar notkun úr uppflettingum í kerfinu.  
+[!include[banner](../includes/banner.md)]
 
-<a name="responsive-lookups"></a>Responsive uppflettingar
+
+Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu.  
+
+<a name="responsive-lookups"></a>Gagnvirkar uppflettingar
 ------------------
 
-Í fyrri útgáfum Dynamics 365 fyrir Aðgerð þegar gefur með uppflettingu eftirlit, myndi notandi með taki yfirlýst aðgerð til að opna í fellilista. Þetta gæti hafa verið með því að færa inn stjörnu (\*) í stýringu til að sía uppfletting byggt á núverandi gildi stýringarinnar, því að smella á hnappinn fellilistanum eða með því að nota í **Alt**+**Niður ör** flýtilykli. Uppfletting stýrir hefur verið breytt á eftirfarandi hátt betur framleiðslupöntunarmagns gildandi vefnum venjum:
+Í fyrri útgáfum Dynamics 365 for Operations, þegar samskipti eru höfð við uppflettistýringu, myndi notandi verða að nota skýra aðgerð til að opna í fellilista. Þetta gæti hafa verið með því að færa inn stjörnu (\*) í stýringu til að sía uppflettingu samkvæmt núverandi gildi stýringarinnar, því að smella á hnappinn fellilistanum eða með því að nota **Alt**+**Niður ör** flýtilykli. Uppflettistýringum hefur verið breytt á eftirfarandi hátt til að samræmast betur gildandi vefvenjum:
 
--   Uppfletting valmyndunum fellilistanum nú opnast sjálfkrafa eftir slight hlé á því að slá, með fellilistinn innihaldi fyrir valmyndinni síuð eftir gildi uppfletting fjárhagsáætlunarstýringar.
-    -   Athugið að gamla hegðun sjálfvirka opnun á dropdown eftir því að færa inn stjörnu (\*) hefur verið hafnað.
--   Eftir að uppfletting fellilista hefur opnað eftirfarandi á sér stað:
-    -   Bendillinn áfram í stýringu uppfletting (en ekki flutt inn í fellilista áherslu) svo hægt er að halda áfram að gera breytingar á gildi stýringarinnar. Hins vegar notandinn enn hægt að nota í **Upp ör** og **Niður ör** til að breyta línum í á fellilista og færa inn til að velja núgildandi línu í fyrir fellilista.
-    -   Innihald í fellilista verður að leiðrétta eftir hvaða breytingar eru gerðar stýringu uppfletting gildi.
+-   Fellilistavalmyndir uppflettingar munu nú opnast sjálfkrafa eftir stutt hlé í vélritun, með efni fellilistans fyrir valmyndinni síað eftir gildi uppflettingar fjárhagsáætlunarstýringar.
+    -   Athugið að gömlu hegðun sjálfvirkrar opnunar fellilista eftir ritun stjörnu (\*) hefur verið hætt.
+-   Eftir að uppfletting fellilista hefur opnað á eftirfarandi sér stað:
+    -   Bendillinn verður áfram í uppflettistýringu (en ekki fluttur inn í fellilista áherslu) svo að hægt er að halda áfram að gera breytingar á gildi stýringarinnar. Hins vegar getur notandinn enn notað **Upp ör** og **Niður ör** til að breyta línum í fellilista og færa inn til að velja núgildandi línu fyrir fellilista.
+    -   Innihald í fellilista verður leiðrétta eftir hvaða breytingar eru gerðar í stýringu uppflettingargilda.
 
-Til dæmis, íhugið í uppflettisvæðinu kallað **Borg**. 
+Til dæmis, íhugið uppflettisvæðinu sem kallast **Borg**. 
 
-Þegar áhersla er á **Borg** er hægt að hefja leitað borg sem óskað er með því að slá nokkrar stafi, eins og "col."  Eftir því að slá að stöðva uppfletting opnast sjálfkrafa síuð til að þær borgir sem byrja á "col". 
+Þegar áhersla er á **Borg** er hægt að hefja leit að borg sem óskað er með því að slá nokkrar stafi, eins og "col."  Eftir að hætt er að slá inn opnast uppflettingin sjálfkrafa, afmörkuð við þær borgir sem byrja á "col". 
 
 [![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png) 
 
-Á þessum tímapunkti, er bendillinn enn í uppflettisvæðinu. Ef haldið er áfram því að slá svo gildið "colum" er uppfletting innihaldi leiðrétta sjálfkrafa til að endurspegla er síðasta gildi stýringarinnar. 
+Á þessum tímapunkti, er bendillinn enn í uppflettisvæðinu. Ef haldið er áfram því að slá svo gildið "colum" er efni uppflettingar leiðrétt sjálfkrafa til að endurspegla síðasta gildi stýringarinnar. 
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png) 
 
-Jafnvel þótt áhersla er enn uppfletting stýringu er einnig hægt að nota í **Upp ör** eða **Niður ör** lykla til að merkja línuna sem á að velja. Ef smellt er á **Færið** auðkenndu línuna verða valdar úr leitinni og gildi stýringarinnar verða uppfærðar. 
+Jafnvel þótt áhersla sé enn í uppflettistýringu er einnig hægt að nota lyklana **Upp ör** eða **Niður ör** til að merkja línuna sem á að velja. Ef smellt er á **Færið** verður auðkennd lína valin úr leitinni og gildi stýringarinnar verður uppfært. 
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
-## <a name="typing-in-more-than-ids"></a>Því að slá í meira en Kennum
-Þegar gögnum er færð inn er raunlykils fyrir notendur tilraun til að auðkenna aðila, eins og viðskiptavin eða lánardrottinn með heiti en ekki kenni fyrir eininguna. Í þessari útgáfu af Dynamics 365 aðgerða nú leyfir vefumhverfi gagnainnfærslu uppflettingar margar (en ekki öll). Þessi eiginleiki öflug leyfir notandanum að færa Kenni eða nafn samsvarandi í stýringu uppflettingu. 
+## <a name="typing-in-more-than-ids"></a>Slegið inn meira en kenni
+Við gagnainnfærslu er eðlilegt fyrir notendur að reyna að auðkenna aðila, eins og viðskiptavin eða lánardrottinn með heiti en ekki kenni fyrir eininguna. Í þessari útgáfu af Dynamics 365 for Operations leyfa margar (en ekki allar) uppflettingar samhengisháða gagnafærslu. Þessi öflugi eiginleiki leyfir notandanum að færa Kenni eða samsvarandi nafn í stýringu uppflettingu. 
 
-Til dæmis, íhugið á **viðskiptavinalykil** þegar sölupöntun er stofnuð. Þetta svæði sýnir á **Kenni Þjónustureikningsins** til viðskiptavinarins, en notandi væri yfirleitt æskilegt að færa inn í **lykilheiti** í stað er **Kenni Þjónustureikningsins** fyrir þetta svæði þegar sölupöntun er stofnuð, eins og "Skóginum Hafa Wholesales" en "US-003."
+Til dæmis, íhugið svæðið **viðskiptavinalykil** þegar sölupöntun er stofnuð. Þetta svæði sýnir á **Kenni reiknings** fyrir viðskiptavin, en notandi myndi yfirleitt vilja færa inn **lykilheiti** í stað **Kennis reiknings** fyrir þetta svæði þegar sölupöntun er stofnuð, eins og "Forest Wholesales" en "US-003."
 
-Ef notandinn byrjað að færa inn **Kenni Þjónustureikningsins** í stýringu uppflettingu í fellilista myndi sjálfkrafa opna eins og lýst er í fyrri hluta og myndi sjá uppfletting eins og sýnt er hér að neðan.
+Ef notandinn byrjaði að færa inn **Kenni reiknings** í uppflettistýringu myndi fellilistinn opnast eins og lýst er í fyrri hluta og notandinn myndi sjá uppflettinguna eins og sýnt er hér að neðan.
 
-[![Vefumhverfi uppfletting þegar færður er inn Kenni fyrir reikning viðskiptavinar](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Samhengisháð uppfletting þegar kenni viðskiptavinalykils er fært](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
-Hins vegar notanda einnig nú má færa inn upphaf í **lykilheiti** einnig. Ef það er, svo sem mun notandinn sjá eftirfarandi uppflettingu. Tilkynning hvernig **Heiti** dálkur flutt að vera í fyrsta dálki uppfletting og hvernig uppfletting raðað og síuð samkvæmt á **Heiti** dálk.
+Hins vegar getur notand nú einnig fært inn upphaf í **lykilheiti**. Ef þetta uppgötvast mun notandinn sjá eftirfarandi uppflettingu. Athugaðu hvernig dálkurinn **Heiti** er fluttur til að vera fyrsti dálkur í uppflettingu og hvernig uppfletting raðast og er síuð samkvæmt dálknum **Heiti**.
 
-[![Vefumhverfi uppfletting þegar færð er inn nafn viðskiptavinar](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Samhengisháð uppfletting þegar Heiti viðskiptavinar er fært inn](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
-## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Með hnitaneti haus dálks til ítarlegri síunar og röðunar
-Uppfletting endurbætur sem fjallað er um í tvo kafla fyrri mjög auka notanda kleift að fara í línur í "byrja" leit á grundvelli uppfletting í **Kenni** eða **Heiti** í uppflettisvæðinu. Hins vegar eru aðstæður sem ítarlegri síun (eða röðun) þarf til að finna í réttri röð. Í þessum aðstæðum þarf notandann til að nota síunarskilyrði og raða valkosti í hnitanetinu haus dálks í uppflettisvæðinu. Til dæmis, íhugið starfsmanns við sölupöntunarlínu sem þarf að staðsetja hægri "köplum" sem afurðar. Því að slá "köplum" í á **Vörunúmer** stýringin er ekki hjálplegt, eins og það eru engar nöfn afurða sem byrja á "köplum." 
+## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Notkun dálkahausa hnitanets fyrir ítarlegri afmörkun og röðun
+Endurbætur á uppflettingu sem fjallað er um í fyrri tveimur köflum auka getu notanda mjög til að fara í línur í "byrja" leit á grundvelli uppflettingar í **Kenni** eða **Heiti** í uppflettisvæðinu. Hins vegar eru aðstæður þar sem ítarlegri afmörkun (eða röðun) þarf til að finna í réttri röð. Í þessum aðstæðum þarf notandinn að nota valkosti afmörkunar og röðunar í dálkahausum hnitanets í uppflettisvæðinu. Til dæmis, íhugið starfsmanns við sölupöntunarlínu sem þarf að finna rétta „kapalinn“ sem afurðar. Ekki er hjálplegt að slá inn „kapla“ í stýringuna **Vörunúmer**, þar sem engin afurðarheiti hefjast á „köplum.“ 
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Þess í stað sem notandi þarf að hreinsa gildi stýringarinnar uppfletting opna uppfletting fellilista og sía fellilista með dálkfyrirsögn hnitanets, eins og sýnt er hér að neðan. Mús (eða snertingu nákvæmlega) notandinn getur einfaldlega smellið (eða snertiskjár) hvaða dálkhaus að komast í valkosti síunar og röðunar fyrir dálk sem. Lyklaborð notanda, notandinn einfaldlega þarf að ýta á **Alt**+**Niður****ör** seinni tíma til að fara inn í fellilista, eftir sem notandinn getur flipanum í dálkinn rétt og styðjið síðan **Ctrl**+**G** til að opna í hnitanetinu dálkur haus fellilista. 
+Þess í stað þarf notandinn að hreinsa gildi uppflettistýringar, opna fellilista uppfletting og sía fellilista með dálkfyrirsögn hnitanets, eins og sýnt er hér að neðan. Notandi músar (eða snertiskjás) getur einfaldlega smellt (eða snert) hvaða dálkhaus sem er til að komast í valkosti síunar og röðunar fyrir þann dálk. Fyrir notanda lyklaborðs þarf notandinn einfaldlega að ýta á **Alt**+**Niður****ör** aftur til að færa áhersluna inn í fellilista, en eftir það getur notandinn farið í réttan dálk rétt og stutt síðan á **Ctrl**+**G** til að opna fellilista dálkfyrirsagar í hnitanetinu. 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 
-Eftir hefur verið notuð í síu (sjá myndinni hér fyrir neðan), getur notandinn finna og velja línuna eins og venjulega. 
+Eftir að afmörkun hefur verið beitt (sjá myndina hér fyrir neðan), getur notandinn fundið og valið línuna eins og venjulega. 
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![gridfilteritemlookup](./media/filtereditemlookup.png)
+
+
 
 

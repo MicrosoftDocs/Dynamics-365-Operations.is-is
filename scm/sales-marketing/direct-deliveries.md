@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Beinar afhendingar
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um beinar afhendingar. Beinar afhendingar sendingar sem eru sendar beint frá lánardrottni til viðskiptavinar.
 
 Beinar afhendingar sparar afhendingartíma og birgðakostnaður, vegna þess að þú þarft ekki að hafa afurðirnar í vöruhúsinu áður en þú sendir þær til viðskiptavinarins.  
@@ -49,5 +52,7 @@ Reynirðu að eyða sölupöntunarlínu sem hefur afhendingargerðina **bein afh
 
 ## <a name="warehouse"></a>Vöruhús
 Þegar bein afhending er stofnuð berast vörur sem eru seldar aldrei í vöruhússið. Hins vegar enn verður að tilgreina vöruhús á sölupöntunarlínunni. Á sama hátt eru tiltektarkröfur kannski tilgreindar í vörulíkanaflokkur fyrir vöru. Hins vegar vegna þess að vörurnar berast aldrei efnislega í vöruhúsi fyrirtækisins, eru þessar kröfur hunsaðar þegar sölupöntunin er bein afhending.
+
+
 
 

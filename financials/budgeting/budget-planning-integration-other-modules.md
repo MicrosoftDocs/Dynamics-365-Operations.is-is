@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Samþættingu fjárhagsáætlunargerðar við aðrar kerfiseiningar
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Reglubundnar vinnslur til að mynda fjárhagsáætlanir
@@ -49,13 +52,13 @@ Grunneiningar reglubundins ferlis eru þau sömu fyrir öll ferli. Flipar leyfa 
 
 Fyrir hvert myndunarferli eru þrjár aðgerðir í boði:
 
--   **Búa til nýja fjárhagsáætlun** stofnar nýja áætlun hefur eigindir sem eru valdar í á ** Mark ** hluta. Þessar eigindir þurfa ekki að vera einkvæmar. Þess vegna geta tvær áætlanir haft sama heiti og önnur gildi.
+-   **Búa til nýja fjárhagsáætlun** – Stofna nýja áætlun hefur eigindir sem eru valdar í **Mark **hluta. Þessar eigindir þurfa ekki að vera einkvæmar. Þess vegna geta tvær áætlanir haft sama heiti og önnur gildi.
 -   **Skipta út fyrirliggjandi aðstæðum fjárhagsáætlunargerðar** eyðir öllum gögnum í fjárhagsáætlun marks í völdum aðstæðum fjárhagsáætlunargerðar og stofnar nýjar línur sem nota gögn valinnar upprunastöðu.
 -   **Uppfæra fyrirliggjandi aðstæður fjárhagsáætlunargerðar og bæta nýjum gögnum við** uppfærir fyrirliggjandi línur í markáætlun sem samsvarar upprunalínum og bætir við nýjum línum fyrir ný gögn. Samsvörunin er byggð á fjárhagslykli, dagsetningu, fjárhagsáætlunarklasa og ýmsum öðrum reitum. Til dæmis þegar fjárhagsáætlanir eru myndaðar úr spástöðum er staðsetningarnúmer mikilvægur reitur. Allar línur sem hafa staðsetningarnúmer sem samsvarar stöðu uppruna er skipt út fyrir nýjar línur úr frumkóða.
 
 ### <a name="source"></a>Uppruni
 
-Fyrir öll ferli sem **Uppruna** flipanum gerir kleift að sía gögn við **Sía** hnappinn. Sjálfgefið tiltekin svæði er bætt við síu fyrir hverju ferli. Til dæmis, fyrir í **Mynda fjárhagsáætlun úr fjárhag** ferlið í **fjárhagslykil** og **aðallykils** tegundir eru tiltækar og birtast á síðu myndun. Öllum reitum sem er bætt við síuna er einnig bætt við síðuna, ásamt öllum skilyrðum sem er bætt við.
+Fyrir öll ferli sem **Uppruna** flipanum gerir kleift að sía gögn við **Síu** hnappinn. Að sjálfgefnu tiltekin svæði er bætt við síu fyrir hverju ferli. Til dæmis, fyrir í **Mynda fjárhagsáætlun úr fjárhag** ferlið í **fjárhagslykil** og **aðallykils** tegundir eru tiltækar og birtast á síðu myndun. Öllum reitum sem er bætt við síuna er einnig bætt við síðuna, ásamt öllum skilyrðum sem er bætt við.
 
 ### <a name="target"></a>Mark
 
@@ -63,7 +66,7 @@ Valkosturinn **Sögulegt** valkostinn á flipanum **Mark** gerir það mögulegt
 
 Reiturinn **Steypa saman samtölu eftir** efst á síðunni ákvarðar einnig dagsetninguna sem er notuð. Þessi reitur leggur saman upphæðir og stillir einnig gildisdagsetningu á fyrsta dag fjárhagsársins eða fjárhagstímabili. 
 
-Margir reitir á flipanum **Mark** verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn **Heiti fjárhagsáætlunar** óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Bæði í **Mark** flipa og ** Uppruna ** flipanum, á **Fjárhag** svæðið er alltaf ekki tiltæk, þar sem gildið er ákvarðað af valið ferli fjárhagsáætlunargerðar. 
+Margir reitir á flipanum **Mark** verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn **Heiti fjárhagsáætlunar** óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Bæði á flipanum **Mark** og **flipanum **Uppruni , er reiturinn **Fjárhagur** alltaf óvirkur, þar sem gildið er ákvarðað af valið ferli fjárhagsáætlunargerðar. 
 
 Reiturinn **Fjárhagsáætlunarklasi** gerir kleift að stilla línur fjárhagsáætlunar sem annaðhvort kostnaðarfærslur eða tekjufærslur. Yfirleitt eru tekjufærslur kreditfærslur í fjárhagslykil og eru þar af leiðandi geymd sem neikvæðar upphæðir. Yfirleitt birtast þessar færslur einnig sem neikvæðar upphæðir í fjárhagsáætlun. Hins vegar, með því að bæta við fjárhagsáætlunarklasanum sem reit í útliti áætlunar, er hægt að virkja tekjur birtist sem upphæðir í jákvætt.
 
@@ -73,7 +76,7 @@ Reiturinn **Fjárhagsáætlunarklasi** gerir kleift að stilla línur fjárhags�
 
 Gildið í reitnum **Stuðull** er margfaldað með upprunaupphæð til að stilla upphæð í fjárhagsáætlun. Síðan er hægt að gera leiðréttingar þegar línur fjárhagsáætlunar eru stofnaðar. Til dæmis er hægt að færa inn **1,03** fyrir 3 prósent hækkun. Stuðullinn verður að vera jákvæð tala. 
 
-Reiturinn **Lágmark** gerir kleift að stilla þröskuldsupphæð til að stofna línu fjárhagsáætlunar. Ef upprunaupphæðin er lægri en þessi tala er fjárhagsáætlunarlína ekki stofnuð. Í virðis **0,00** gerir allar upphæðir en ekki takmarka línur í jákvætt upphæðir. (Ekkert gildi takmarkar upphæðir jákvæðar línur. Neikvæðar upphæðir eru alltaf og standa yfirleitt fyrir kredit færslur.)
+Reiturinn **Lágmark** gerir kleift að stilla þröskuldsupphæð til að stofna línu fjárhagsáætlunar. Ef upprunaupphæðin er lægri en þessi tala er fjárhagsáætlunarlína ekki stofnuð. Virði upp á **0,00** leyfir allar upphæðir en takmarkar ekki línur við jákvæðar upphæðir. (Ekkert gildi takmarkar línur við jákvæðar upphæðir. Neikvæðar upphæðir eru alltaf með og standa yfirleitt fyrir kreditfærslur.)
 
 Reiturinn **Sléttunarregla** gerir kleift að stilla nákvæmni fjárhagsáætlunarlínanna sem eru stofnaðar. Hægt er að slétta upphæðir í næstu 1,00, 10,00, 100,00 og svo framvegis, í gjaldmiðli.
 
@@ -86,7 +89,7 @@ Reiturinn **Sléttunarregla** gerir kleift að stilla nákvæmni fjárhagsáætl
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Mynda fjárhagsáætlun úr eignum
 
-Ferlið **Mynda fjárhagsáætlun úr eignum** hefur engan valkost fyrir söfnun eftir degi eða tímabili. Einnig er enginn valkostur til að setja áætlunarinnar sem söguleg. Hægt er að nota reglubundna ferlið með áætlaðar færslur fyrir eignir í þínu fjárhagsáætlunargerðar.
+Ferlið **Mynda fjárhagsáætlun úr eignum** hefur engan valkost fyrir söfnun eftir degi eða tímabili. Einnig er enginn valkostur til að stilla áætlunina sem sögulega. Hægt er að nota reglubundna ferlið með áætlaðar færslur fyrir eignir í þínu fjárhagsáætlunargerðar.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Mynda fjárhagsáætlun úr spástöðum
 
@@ -140,5 +143,7 @@ Veldu línu og smelltu á hnappinn **Fjárhagsáætlunarlínur** til að keyra f
 Nota skal hnappana **Birgðaspá** og **Eftirspurnarspá** til að keyra þessar fyrirspurnir. Í báðum tilvikum leitar fyrirspurnin að spálínum sem gætu hafa stofnað línur fjárhagsáætlunar. 
 
 Viðbótarskýrslur sem eru tiltækar innihalda skýrsluna **Spástöður eftir fjárhagsáætlun**. Þessi skýrsla er sérlega gagnleg þegar á að ákvarða hvort stöðu hafi verið rétt úthlutað á fjárhagsáætlanir.
+
+
 
 

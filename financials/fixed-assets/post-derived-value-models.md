@@ -1,5 +1,5 @@
 ---
-title: "Bóka með afleiddum bækur"
+title: "Bókað í afleiddar bækur"
 description: "Þessi grein lýsir því hvernig nota afleiddar Bækur."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Bóka með afleiddum bækur
+# <a name="post-with-derived-books"></a>Bókað í afleiddar bækur
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir því hvernig nota afleiddar Bækur.
 
@@ -49,11 +52,13 @@ Eftirfarandi upplýsingar sýna hvernig setja skal upp kaupfærslur með virkni 
 
 Þá er hægt að tengja bók við tilteknar eignir. 
 
-Þegar kaup eru bókuð fyrir eignina með bók VL 1, eru kaupin ekki einungis færð á vl1, heldur einnig á afleidda bók VL 2. Staða bæði eignabækur er uppfærð til að Opna.
+Þegar kaup eru færð vegna eigna með bóka VL 1 eru kaupin ekki einungis færð á VM 1, heldur einnig á afleiddu bókina VM 2. Staða beggja bóka eigna er uppfærð í Opið.
 
 > [!NOTE]                                                                                                         
 > Ef ekki eru notuð afleidd bækur skal bóka kaupin á eigninni fyrir bæði bækur VM 1 og bók VM 2.
 
-Nánari upplýsingar, sjá [Afleiddar afskriftarbækur](derived-books.md)
+Nánari upplýsingar er að finna í [Afleiddar bækur](derived-books.md)
+
+
 
 

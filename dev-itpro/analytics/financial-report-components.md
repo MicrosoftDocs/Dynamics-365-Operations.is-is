@@ -101,7 +101,7 @@ Hægt er að vista einingahóp sem þegar er til undir nýju heiti. Síðan má 
 
 ### <a name="export-a-building-block-group"></a>Einingahópur fluttur út
 
-Hægt er að flytja bygging loka flokk eða tiltekinn skýrslu grunneiningar í flokki bygging loka. Hægt er að nota flokkinn útfluttar bygging loka sem öryggisafrit. Einnig er hægt að afrita útflutt gögn milli flokka loka bygging eða Dynamics 365 til uppsetningar Aðgerðir. Hönnunarviðmót inniheldur vísað leturgerðir og víddasamstæðurnar ásamt bygging loka flokksins.
+Einnig er hægt að flytja einingahóp út eða tilteknar skýrslueiningar í einingahóp. Hægt er að nota einingahóp sem hefur verið fluttur út sem afrit. Einnig er hægt að afrita gögn sem voru flutt út milli einingahópa eða uppsettra Dynamics 365 for Operations. Skýrsluhönnun tekur með leturstíl sem vísað er til og víddasamstæður með í einingahópnum.
 1.  Á valmyndinni **Fyrirtæki** í Skýrsluhönnun er smellt á **Einingarhópar**.
 2.  Í svarglugganum **Einingarhópar** er valinn einingahópurinn sem á að flytja út og síðan er smellt á **Flytja út**.
 3.  Smellið á skýrsluskilgreiningarnar í svarglugganum **Flytja út** til að flytja út:

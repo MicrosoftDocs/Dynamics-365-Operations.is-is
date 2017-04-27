@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina samþykktarferli í verkflæði"
+title: "Skilgreining samþykktarferlis í verkflæði"
 description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Skilgreina samþykktarferli í verkflæði
+# <a name="configure-an-approval-process-in-a-workflow"></a>Skilgreining samþykktarferlis í verkflæði
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 
-Til að skilgreina samþykktarferli, í verkflæðisritlinum, hægrismellið á samþykktareining og smellið síðan á **Eiginleika** til að opna í **Eiginleika** skjámynd.
+Til að skilgreina samþykktarferli í verkflæðisritlinum, er hægrismellt á samþykktareiningu og smellið síðan á **Eiginleika** til að opna skjámyndina **Eiginleika**.
 Gefa samþykktarferlinu heiti
 -------------------------
 
@@ -40,14 +40,14 @@ Fylgið eftirfarandi skrefum til að gefa samþykktarferlinu heiti.
 Hægt er að skilgreina kerfið þannig það vinni sjálfkrafa að skjölum sem standast ákveðin skilyrði. Til dæmis, getur kerfið samþykkja kostnaðarskýrslur sem hafa heildarupphæðir sem eru lægri en 100 USD. Fylgið eftirfarandi skrefum til að tilgreina hvenær kerfið grípur til aðgerða vegna skjals.
 1.  Í vinstri glugganum, smelltu á **sjálfvirkar aðgerðir**.
 2.  Útvíkkið gátreitur **virkja sjálfvirkar aðgerðir** .
-3.  Click **Add condition**.
+3.  Smelltu á **Bæta við Aðgerð**.
 4.  Færið inn skilyrði.
 5.  Færa inn viðbótarskilyrði ef þess gerist þörf:
 6.  Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:
     1.  Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.
     2.  Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.
     3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
-    4.  Smellið á **í lagi** eða **hætta Við** til að snúa aftur í **Eiginleika** skjámynd.
+    4.  Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.
 
 7.  Í listanum **ljúka aðgerð sjálfvirkt ** skal velja aðgerðina sem kerfið á að grípa til vegna skjalsins.
 
@@ -55,11 +55,11 @@ Hægt er að skilgreina kerfið þannig það vinni sjálfkrafa að skjölum sem
 Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, hafnað, framselja eða stigmagnað, eða þegar beðið hefur verið um breytingu. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers tilkynningar eru sendar.
 1.  Á svæðinu vinstra megin, smella á **tilkynningar**.
 2.  Veldu gátreitinn sem er við hliðina á tilvikunum sem á að senda tilkynningar vegna.
-    -   **Úthluta** – Þegar skjali hefur verið úthlutað til annars notanda til samþykkis.
+    -   **Úthluta** – Úthluta skjalinu til annars notanda til samþykkis.
     -   **Hækka** – Þegar úthlutaður notandi hefur ekki bregðast á skjal í tíminn.
     -   **Samþykkja** – Þegar skjal hefur verið samþykkt.
     -   **Hafna** – Þegar skjali hefur verið hafnað.
-    -   **Biðja um breytingu** – Þegar úthlutaður notandi hefur beðið um breytingu á skjalinu sem var sent.
+    -   **Biðja um breytingu** – úthlutaður notandi hefur beðið um breytingu á skjalinu sem var sent.
 
 3.  Veljið línu fyrir tilvik sem þú valdir í skrefi 2.
 4.  Smellið á flipann **Tilkynningartexti**.
@@ -70,8 +70,8 @@ Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, 
     3.  Í listanum sem birtist skal velja staðgengilinn til að setja inn.
     4.  Smellt er á **Setja inn**.
 
-7.  Til að bæta þýðingar tilkynningarinnar skal smella á **Þýðingar**. Í skjámyndinni sem birtist, skal fylgja þessum skrefum:
-    1.  Click **Add**.
+7.  Til að bæta þýðingum á tilkynningunni við skal smella á **Þýðingar**. Í skjámyndinni sem birtist, skal fylgja þessum skrefum:
+    1.  Smellið á **Bæta við**.
     2.  Í listanum sem birtist skal velja tungumálið sem á að færa inn í textanum.
     3.  Í svæðið **þýddur texti** skal færa inn textann.
     4.  Hægt er að sérsníða texta með því að færa inn staðgengla.
@@ -112,11 +112,11 @@ Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, 
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Tiltekinn Microsoft Dynamics 365 Aðgerðir notenda</td>
+    <td><strong>Notandi</strong></td>
+    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Í <strong>Tiltækir notendur</strong>: listinn inniheldur allar Microsoft Dynamics 365 Aðgerðir notendum. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</li>
+    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Microsoft Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -150,10 +150,10 @@ Fylgið eftirfarandi skrefum ef verður að ljúka samþykktarferlinu innan tilt
 ## <a name="specify-which-actions-are-available-to-the-user"></a>Tilgreina hvaða aðgerðir verða tiltækar notandanum.
 Þegar notandi fær skjal úthlutað til samþykktar verður hann að vinna í skjalinu. Fylgið eftirfarandi skrefum til að tilgreina hvaða aðgerðir notandi getur gripið til vegna skjalsins sem lagt var fyrir.
 1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
-2.  Velja skal **Samþykkja** gátreitinn ef hægt notanda samþykkja skjalið.
-3.  Velja skal **Hafna** gátreit notandinn hægt að hafna skjalinu.
-4.  Velja á **Breytingabeiðni** gátreit notandinn hægt að biðja um breytingar á skjalinu.
-5.  Velja skal **Fulltrúa** gátreit ef notandinn úthluta skjalinu til annars notanda til samþykkis.
+2.  Veljið gátreitinn **Samþykkja** ef notendur eiga að geta samþykkt skjöl.
+3.  Veljið gátreitinn **hafna** ef notendur eiga að geta hafnað skjöl.
+4.  Veljið gátreitinn **Breytingabeiðni** ef notendur eiga að geta beðið um breytingar á skjölum.
+5.  Veljið gátreitinn **framselja** ef notandinn á að geta framselt skjalinu til annars notanda.
 
 **Athugasemd**: **Heimila aðgerðir úr verklistanum í Enterprise Portal ** gátreitur er úreltur.
 

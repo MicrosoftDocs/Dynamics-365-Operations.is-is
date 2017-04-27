@@ -1,5 +1,5 @@
 ---
-title: "Forgangsröðun og sjálfvirka jöfnun"
+title: "Sjálfvirkt uppgjör og forgangsröðun"
 description: "Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Forgangsröðun og sjálfvirka jöfnun
+# <a name="automatic-settlement-and-prioritization"></a>Sjálfvirkt uppgjör og forgangsröðun
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi.
 
-Tveir valkostir hafa þegar greiðslur með reikninga og aðrar færslur jafnaður. Hægt er að velja færslur til að gera handvirkt eða Microsoft Dynamics 365 fyrir Aðgerðir sem hægt er að velja færslurnar sjálfkrafa með því að nota sjálfvirka jöfnunaraðgerðina. Einnig er hægt að sérsníða hvernig sjálfvirkar jafnanir eru unnar með því að nota í **Forgangsraða jöfnun** valkost. Þessir valkostir eru hluti af jöfnun færibreytur sem eru skilgreindar í á **Færibreytur viðskiptakrafna** síðu. Færslur jafnaðar sjálfkrafa hvernig geta verið mismunandi, eftir þeirri aðferð sem notuð er fyrir sjálfvirka jöfnun. Eftirtaldar aðferðir eru tiltækar:
+Tveir valkostir hafa þegar greiðslur með reikninga og aðrar færslur jafnaður. Hægt er að velja færslur til jöfnunar, handvirkt eða Microsoft Dynamics 365 for Operations getur valið færslurnar sjálfkrafa með því að nota sjálfvirku jöfnunaraðgerðina. Einnig er hægt að sérsníða hvernig sjálfvirkar jafnanir eru unnar með því að nota í **Forgangsraða jöfnun** valkost. Allir þessir valkostir eru hluti af á jöfnunarfæribreytur sem eru skilgreindar á ** Færibreytur viðskiptakrafna** síðu. Færslur jafnaðar sjálfkrafa hvernig geta verið mismunandi, eftir þeirri aðferð sem notuð er fyrir sjálfvirka jöfnun. Eftirtaldar aðferðir eru tiltækar:
 
 -   Notandaskilgreind jöfnunarforgangur
 -   Sjálfgefin sjálfvirka jöfnun
@@ -45,9 +48,9 @@ Dæmi um jafnanir síðar í þessum kafla eru byggð á eftirfarandi færslur. 
 | Reikningur 1     | Ágúst 15   | 100,00 | 2%14, Net 30        | Ágúst 29          |                                                                                                                                                                                               |
 | Reikningur 2     | 1. september | 250,00 | 2%14, Net 30        | 15. september       |                                                                                                                                                                                               |
 | Reikningur 3     | 15. október  | 500,00 | 2% 14/Net 30        | 29. október         |                                                                                                                                                                                               |
-| Vaxtanóta | 15. október  | 7,00   |                     |                    | Þessi vaxtanóta er fyrir reikning 1 og 2 reiknings. Upphæðin er reiknuð sem vextir 2 prósent á upphæðir sem eru 30 eða fleiri daga fram yfir gjalddaga. Til dæmis, 0.02 × (100.00 + 250.00) = 7.00. |
+| Vaxtanóta | 15. október  | 7,00   |                     |                    | Þessi vaxtanóta er fyrir reikning 1 og 2. Upphæðin er reiknuð sem vextir 2 prósent á upphæðir sem eru 30 eða fleiri daga fram yfir gjalddaga. Til dæmis, 0.02 × (100.00 + 250.00) = 7.00. |
 
-## <a name="userdefined-settlement-priority"></a>Userdefined jöfnunarforgangur
+## <a name="userdefined-settlement-priority"></a>Notandaskilgreindur jöfnunarforgangur
 Ef þú stillir **Nota forgang fyrir sjálfvirkar jafnanir** á **Já** í **Færibreytur viðskiptakrafna** síðuna, jöfnunarforgangur sem skilgreina á síðunni **jöfnunarforgangur** er notaður þegar færslur eru valdar fyrir sjálfvirka jöfnun. Eftirfarandi forgangsröðun jöfnunar er skilgreind í þessu dæmi:
 
 1.  Færslugerð
@@ -77,6 +80,8 @@ Ef það er engin notandaskilgreindur jöfnunarforgangur, eru færslur sjálfkra
 | Reikningur 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Reikningur 3     | 10/15/2015 |         | 500,00                         | 350.00           | 150,00  | USD      |
 | Vaxtanóta | 10/15/2015 |         | 7,00                           | 0,00             | 0,00    | USD      |
+
+
 
 
 

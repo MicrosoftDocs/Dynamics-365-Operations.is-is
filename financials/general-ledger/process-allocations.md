@@ -1,6 +1,6 @@
 ---
 title: "Vinna úr úthlutunum"
-description: "Þessi skrá upplýsingar um úthlutun, valkosti fyrir vinnslu á þeim í Microsoft Dynamics 365 fyrir Aðgerðirnar og hvernig nota má þær í fjárhagsáætlunargerð. Úthlutanir eru notaðar til að dreifa upphæðum þvert á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi."
+description: "Þessi grein veitir upplýsingar um úthlutanir, valkosti fyrir vinnslu þeirra í Microsoft Dynamics 365 for Operations og hvernig nota má þær í fjárhagsáætlunargerð. Úthlutanir eru notaðar til að dreifa upphæðum þvert á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Vinna úr úthlutunum
 
-Þessi skrá upplýsingar um úthlutun, valkosti fyrir vinnslu á þeim í Microsoft Dynamics 365 fyrir Aðgerðirnar og hvernig nota má þær í fjárhagsáætlunargerð. Úthlutanir eru notaðar til að dreifa upphæðum þvert á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi.
+Þessi grein veitir upplýsingar um úthlutanir, valkosti fyrir vinnslu þeirra í Microsoft Dynamics 365 for Operations og hvernig nota má þær í fjárhagsáætlunargerð. Úthlutanir eru notaðar til að dreifa upphæðum þvert á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi.
 
-Microsoft Dynamics 365 fyrir Aðgerðir sem veitir eftirfarandi getu til að styðja þetta ferli:
+Microsoft Dynamics 365 for Operations býður upp á eftirfarandi getu til að styðja þetta ferli:
 
--   Úthluta handvirkt upphæðir með því að nota aðgerðina sem Skipta á fjárhagsupphæð eða með því að nota sjálfgefin sniðmát fjárhagsvídda við skjal. Nánari upplýsingar, sjá [dreifingar á Fjárhagsupphæð.](\accounts-payable\accounting-distributions.md)
+-   Úthluta færsluupphæðum handvirkt með því að nota aðgerðina „Skipta“ í dreifingu fjárhagsupphæðar eða með því að nota sjálfgefin sniðmát fjárhagsvídda við skjal. Frekari upplýsingar eru í [Dreifing á fjárhagsupphæð.](\accounts-payable\accounting-distributions.md)
 -   Úthluta sjálfkrafa færsluupphæðum á grundvelli úthlutunarskilmála sem eru tilgreindir á einstökum aðallyklum. Úthlutun lykilfærslna verður mynduð fyrir hverja færslubók á grundvelli hlutfalls og áfangastaðar fjárhagsreikninga hvenær sem bókhaldsfærsla uppfyllir skilyrði sem eru skilgreind sem upprunafjárhagsreikningur.
 -   Úthluta sjálfkrafa fjárhagsstöður eða föstum upphæðum samkvæmt úthlutunarreglum fjárhags. Úthlutunarreglur fjárhags eru unnar með úthlutunarbókum með reglulegu millibili. 
 

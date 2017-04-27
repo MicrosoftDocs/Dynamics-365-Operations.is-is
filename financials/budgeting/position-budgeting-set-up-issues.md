@@ -1,5 +1,5 @@
 ---
-title: "Staða fjárhagsáætlunar úrræðaleit"
+title: "Setja upp fjárhagsáætlunargerðar stöðu"
 description: "Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Staða fjárhagsáætlunar úrræðaleit
+# <a name="position-budgeting-troubleshooting"></a>Setja upp fjárhagsáætlunargerðar stöðu
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet. 
 
@@ -58,6 +61,8 @@ Dagsetningar á línu spástöðu kostnaðareiningarinnar verða að vera innan 
 -   Virkjun og starfslok dagsetningarnar stöðunnar.
 -   Virkjun og gildistíma dagsetningar kostnaðareining fjárhagsáætlunar.
 -   Upphafs- og lokadagsetningu ferlis fjárhagsáætlunar sem er tengt fjárhagsáætlunargerð fyrir spástöðuna.
+
+
 
 
 

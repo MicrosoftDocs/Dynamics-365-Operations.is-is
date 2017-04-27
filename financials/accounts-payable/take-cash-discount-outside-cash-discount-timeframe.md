@@ -1,5 +1,5 @@
 ---
-title: "Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafslátt"
+title: "Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar"
 description: "Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafslátt
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar.
 
-Apríl stofnar reikning fyrir 2,000.00 lánardrottins 3052 á 28. Júní. Reikningurinn hefur um 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur á 14 daga.
+28. júní býr Apríl til reikning uppá 2.000,00 fyrir lánardrottinn 3052. Reikningurinn er með 1 prósent afslætti ef reikningurinn er greiddur innan 14 daga.
 
 ## <a name="use-cash-discount-option--always"></a>Nota valkostinn staðgreiðsluafsláttur = Alltaf
 Apríl stofnar til greiðslu á 1. Júlí, sem er eftir dagsetningu afsláttar. Apríl opnar síðuna **Jafna færslur** til að skoða færslur sem hægt er að jafna. 
 
-Apríl merkir reikninginn til greiðslu. Enginn staðgreiðsluafsláttur er tekinn, þar sem greitt er eftir afsláttartímabil. Hins vegar lánardrottinn hefur gefið samþykki Apríl taki staðgreiðsluafsláttur samt. Þess vegna Apríl breytir gildi í á **Nota staðgreiðsluafslátt** á **Alltaf**.
+Apríl merkir reikninginn til greiðslu. Enginn staðgreiðsluafsláttur er tekinn, þar sem greitt er eftir afsláttartímabil. Hins vegar hefur lánardrottinn gefið Apríl samþykki fyrir því að taka staðgreiðsluafslátt samt. Þess vegna breytir Apríl gildi á svæðinu **Nota staðgreiðsluafslátt** í **Alltaf**.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning staðgreiðsluafsláttar | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | -5,05     |
+
+
 
 
 

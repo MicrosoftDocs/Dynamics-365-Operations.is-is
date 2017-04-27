@@ -1,6 +1,6 @@
 ---
 title: "Loka fjárhag í lok tímabils"
-description: "Í þessu efnisatriði er lýst þeim verkefnum sem eru yfirleitt þegar tímabil er lokað fyrir fjárhag."
+description: "Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabillokun er gerð fyrir fjárhag."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Loka fjárhag í lok tímabils
 
-Í þessu efnisatriði er lýst þeim verkefnum sem eru yfirleitt þegar tímabil er lokað fyrir fjárhag. 
+[!include[banner](../includes/banner.md)]
 
-Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins. Lokunarferli°undirbúa kerfið fyrir nýtt tímabil. Til að undirbúa kerfið fyrir nýja árið skal verður að keyra fyrir lokun árslokavinnsla. Hvert fyrirtæki hefur annað ferli og skrefin sem framkvæmir fyrir lok tímabils. Hér eru sum valfrjálsu skrefin tímabili lýkur:
+
+Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabillokun er gerð fyrir fjárhag. 
+
+Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins. Lokunarferli°undirbúa kerfið fyrir nýtt tímabil. Til að undirbúa kerfið fyrir nýtt ár verður að keyra ferlið Árslokavinnsla. Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils. Hér eru sum valfrjálsu skrefin fyrir lok tímabila:
 
 -   Ljúka verkefni fyrir allar aðrar kerfiseiningar, svo sem Viðskiptakröfur, Viðskiptaskuldir, og Birgðir.
 -   Staðfesta að°allar færslubækur eru bókaðar.
@@ -39,9 +42,11 @@ Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og árs
 -   Skráð færslur og fara yfir **fjárhagsbók** skýrslu.
 -   Framkvæma samlegð með því að nota samstæðufyrirtæki eða fjárhagsskýrslur.
 -   Mynda ársreikninga í lok tímabils með því að nota fjárhagsskýrslur.
--   Stilla fjárhagstímabil á **Í bið**, þannig að engin önnur bókun á sér stað. Einnig er hægt að takmarka tímabil við ákveðinn notendaflokk á meðan á aðgerðum við lok tímabils stendur, til að fá betri stýringu. Ekki er gott að setja tímabilum **Endanlega lokað**þar sem hægt er að enduropna tímabil sem hefur verið lokað.
+-   Stilla fjárhagstímabil á **Í bið**, þannig að engin önnur bókun á sér stað. Einnig er hægt að takmarka tímabil við ákveðinn notendaflokk á meðan á aðgerðum við lok tímabils stendur, til að fá betri stýringu. Ekki er gott að stilla tímabil á **Lokað fyrir fullt og allt**, þar sem ekki er hægt að enduropna tímabil sem hefur verið lokað.
 
-Fjárhagsleg tímabils loka vinnusvæði má nota til að skipuleggja og rekja verk sem þarf fyrir mismunandi ferli í lok tímabils. Vísa í [Fjárhagslegar tímabils loka vinnusvæði](financial-period-close-workspace.md) og [árslok loka](Year-end-close.md) efnisatriði fyrir frekari upplýsingar. 
+Vinnusvæði lokunar fjárhagstímabils má nota til að til að skipuleggja og rekja verkefni sem eru áskilin fyrir mismunandi lokunarferli tímabila. Vísað er í efnisatriðin [Vinnusvæði lokunar fjárhagstímabils](financial-period-close-workspace.md) og [Árslok](Year-end-close.md) fyrir frekari upplýsingar. 
+
+
 
 
 

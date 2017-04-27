@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 
 Hægt er að raða framleiðslu á stigi aðgerðina og stigi vinnslu. Öfugt við vinnsluröðun brýtur aðgerðaröðun ekki aðgerðir fyrir framleiðsluleið niður í vinnslur. Ef þú vilt hafa meiri nákvæmni í áætluninni, eins og upplýsingar um gildandi getu, er hægt að keyra vinnsluröðun þegar búið er að keyra aðgerðaröðun. Einnig er hægt að keyra eingöngu vinnsluröðun. Vinnsluröðun er yfirleitt notuð til að raða einstaka vinnslu í vinnusal og fyrir tímamörk sem eru undireins eða til stutts tíma.
@@ -76,5 +79,7 @@ Ef verið er að vinna með endanlegt magn, er áætlun einnig háð tiltækilei
 --------
 
 [Valkostir aðgerðaröðunar](operation-scheduling-options.md)
+
+
 
 

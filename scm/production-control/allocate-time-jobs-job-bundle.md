@@ -1,5 +1,5 @@
 ---
-title: "Úthluta tíma á vinnslur í búnti vinnslu"
+title: "Úthlutun tíma á vinnslur í vinnslubúnti"
 description: "Í Framkvæmd framleiðslu er hægt að sameina vinnslur. Þá er hægt að hefja margar vinnslur á sama tíma á listasíðunni Vinnslur."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Úthluta tíma á vinnslur í búnti vinnslu
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Úthlutun tíma á vinnslur í vinnslubúnti
+
+[!include[banner](../includes/banner.md)]
+
 
 Í Framkvæmd framleiðslu er hægt að sameina vinnslur. Þá er hægt að hefja margar vinnslur á sama tíma á listasíðunni Vinnslur.
 
@@ -107,5 +110,7 @@ Ef óskað er eftir að reikna út framleiðslukostnað samkvæmt raunkostnaði,
 | Vinnsla 3 | (3,33 ÷ 5) × USD 12,00                 | USD 8,00                | 5 klukkustundir        | USD 40,00         |
 
 Leiðréttur kostnaður á klukkustund og vinnslutíminn eru bókaðir í framleiðslubókina. **Ábending:** Ef valinn valkosturinn **Kostnaðartegund** á flipanum **Almennt** á síðunni **Sjálfgildi framleiðslupöntunar** er rauntími hverrar vinnslu fluttur í framleiðslubók, þar sem kostnaði er beitt á kostnaðartegund tilgreindrar vinnslu.
+
+
 
 

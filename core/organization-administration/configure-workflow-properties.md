@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Skilgreina eiginleika verkflæðis
 
+[!include[banner](../includes/banner.md)]
+
+
 Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 
 Opna verkflæðið í verkflæðisritlinum til að skilgreina eiginleika verkflæðis. Smellið á vinnusvæði verkflæðisritlinum, og smellið síðan á **Eiginleika** til að opna **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla mismunandi eiginleika fyrir verkflæðið.
@@ -147,10 +150,10 @@ Fylgið eftirfarandi skrefum til að tilgreina hvenær á að nota skilgreint ve
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tiltekin Dynamics 365 fyrir Aðgerðir sem notendur</td>
+    <td>Tilteknir notendur Dynamics 365 for Operations</td>
     <td><ol>
     <li>Á <strong>Viðtakanda</strong> flipanum, smellið <strong>notandi</strong>.</li>
-    <li>Í á <strong>Notanda</strong> flipanum, á <strong>Tiltækir notendur</strong> listinn inniheldur öll Dynamics 365 fyrir Aðgerðir sem notendur. Veldu Notendur til að senda tilkynningar á , og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Á flipanum <strong>Notendur</strong> inniheldur listinn <strong>Tiltækir notendur</strong> alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar á , og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 2.  Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3.  Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
 4.  Smellið á **Bæta við ** til að bæta athugasemdir við **ferill Athugasemda** svæði.
+
+
 
 
 

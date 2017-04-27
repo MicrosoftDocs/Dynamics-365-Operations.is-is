@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Fastir bókunarlyklar eignakaupa
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til eignast eignir.
 
 Lyklar sem eru notaðir til að bóka eignakaup geta verið mismunandi, eftir því hvaða aðferð er notuð til að kaupa eignir. Á síðunni bókunarreglur eigna, í Fjárhagsreiknings flipa, veljið Kaup og Leiðrétting kaupa til að setja upp eignalykla til að bóka í fjárhaginn. 
@@ -40,6 +43,8 @@ Mótlykill er líka efnahagslykill. Í almennu færslubókinni og í eignabókin
 
 Fyrir kaup bókuð með því að nota færslubókina eignabirgðir í fjárhagnum er eignin ekki keypt af utanaðkomandi aðila heldur færð úr eigin birgðum fyrirtækisins. Þess vegna, mótlykill er lykill birgðaúthreyfingar fyrir birgðavara í birgðastjórnun.
 
-Nánari upplýsingar, sjá [Kaupa eignir með innkaupategund](acquire-assets-procurement.md).
+Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procurement.md).
+
+
 
 

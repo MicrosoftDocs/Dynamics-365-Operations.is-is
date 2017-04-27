@@ -1,6 +1,6 @@
 ---
 title: "Efni Power BI eyðslugreining innkaupa"
-description: "Þetta efnisatriði lýsir því hvað er tekin með í eyðsla analysis innihaldi pakka fyrir Microsoft Power BI. Það útskýrt hvernig á að fá aðgang að skýrslunum sem eru innifaldar í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til innihald þjónustupakka."
+description: "Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -26,21 +26,21 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Efni Power BI eyðslugreining innkaupa
 
-Þetta efnisatriði lýsir því hvað er tekin með í eyðsla analysis innihaldi pakka fyrir Microsoft Power BI. Það útskýrt hvernig á að fá aðgang að skýrslunum sem eru innifaldar í innihald þjónustupakka og upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til innihald þjónustupakka.
+Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka.
 
 <a name="overview"></a>Yfirlit
 --------
 
-Innkaup eyðslugreining innihaldi pakka fyrir Microsoft Power BI var stofnuð fyrir innkaup stjórnendur og stjórnendum sem bera ábyrgð áætlanir. Það hefur hannað til að auðvelda þær halda við eye í útgjöldum fyrir innkaup. Það notar færslugögn innkaupa frá Microsoft Dynamics 365 aðgerða og veitir both steypa saman yfirlit fyrirtækið innkaupa tölur og sundurliðun innkaupa eyðslu eftir lánardrottni og vöru. Skýrslur auðkenna breytingar í innkaup eyðsluþök yfir tíma. Þess vegna nota má þær viðvaranir stjórnenda um leitni jákvætt og neikvætt kostnaðar við vörumerki fyrir einstaka lánardrottna og vörur. Gröf sýna innkaupapöntun útgjöldum fyrir mismunandi innkaupategundir og lánardrottnaflokka. Tegund og svæðisbundið stjórnendur gæti finnur það gagnlegt að nota þessar línurit til að aðstoða við að auðkenna breytingar í útgjöldum hegðun. Innihald þjónustupakka let's stjórnendur innkaupa og stjórnendum sem bera ábyrgð áætlanir greina innkaupa eyðsluþök á eftirfarandi hátt:
+Efnispakki eyðslugreiningar innkaupa fyrir Microsoft Power BI var stofnaður fyrir innkaupastjóra og stjórnendur sem bera ábyrgð á áætlunum. Hann er hannaður til að auðvelda þeim fylgjast með útgjöldum fyrir innkaup. Hann notar færslugögn innkaupa frá Microsoft Dynamics 365 for Operations og veitir bæði samanlagt yfirlit yfir innkaupatölur fyrirtækisins og sundurliðun innkaupaeyðslu eftir lánardrottni og vöru. Skýrslur auðkenna breytingar í útgjöldum innkaupa yfir tíma. Þess vegna er hægt að nota þær til að vara stjórnendur við jákvæðri og neikvæðri kostnaðarþróun fyrir einstaka lánardrottna og vörur. Myndrit sýna útgjöld innkaupa fyrir mismunandi innkaupategundir og lánardrottnaflokka. Flokks- og svæðisbundnum stjórnendum gæti þótt gagnlegt að nota þessi myndrit til að finna breytingar á eyðsluhegðun. Efnispakkinn fyrir Microsoft Power BI var stofnaður fyrir innkaupastjóra og stjórnendur sem bera ábyrgð á greiningu fjárhagsáætlana innkaupaútgjalda á eftirfarandi hátt.
 
--   Innkaupum á árinu (eftir lánardrottnaflokki og einstaka lánardrottna, innkaupategund og stakar afurðir og staðsetning lánardrottins)
--   Ár of ár breyting (eftir lánardrottni flokki og innkaupa tegund)
+-   Innkaup á árinu (eftir lánardrottnaflokki og stökum lánardrottnum, innkaupategund og stökum afurðum og staðsetningu lánardrottins)
+-   Breytingar á innkaupum ár frá ári (eftir lánardrottnaflokki og innkaupategund)
 
-## <a name="accessing-the-content-pack"></a>Fara í hugbúnaðarhlutartréð innihaldi pakka
-Innkaup eyðslugreining innihald þjónustupakka er birt sem innleiðingu eign í Microsoft Dynamics Lifecycle Services (LCS) og úr Microsoft Dynamics 365 aðgerða. Nánari upplýsingar um hvernig aðgangur og opna Power BI skýrslur í [Power BI efni í LCS frá Microsoft og for your viðskiptaaðila](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Farið í efnispakkann
+Efnispakki eyðslugreiningar innkaupa er gefinn út sem innleiðingu eign í Microsoft Dynamics Lifecycle Services (LCS) og úr Microsoft Dynamics 365 for Operations. Nánari upplýsingar um hvernig á að fara í og opna Power BI-skýrslur er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Einingar sem eru hafðar með í innihald þjónustupakka
-Innkaup eyðslugreining sem inniheldur innihald þjónustupakka skýrsla sem samanstendur af safni mælikvörðum. Þessar einingar eru visualized sem gröf reitir og töflur. Eftirfarandi tafla veitir yfirlit yfir sjóngervingum í innihald þjónustupakka.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Mælikvarðar sem eru hafðir með í efnispakka
+Efnispakki eyðslugreiningar innkaupa inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efnispakkanum.
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ Innkaup eyðslugreining sem inniheldur innihald þjónustupakka skýrsla sem sam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Skýrslan síðu</th>
+<th>Skýrslusíða</th>
 <th>Gröf</th>
 <th>Reitir</th>
 </tr>
@@ -59,101 +59,101 @@ Innkaup eyðslugreining sem inniheldur innihald þjónustupakka skýrsla sem sam
 <tr class="odd">
 <td>Innkaup eftir lánardrottni</td>
 <td><ul>
-<li>10 efstu lánardrottna eftir innkaupum (staflað súlurit)</li>
-<li>Samtals innkaup eftir lánardrottni flokki / lands / heiti (skífurit)</li>
-<li>Innkaup eftir lánardrottni flokki / lands / heiti (stöplarit)</li>
-<li>Meðaltal innkaup eftir lánardrottnum flokks / lands / heiti (stöplarit)</li>
+<li>Efstu 10 lánardrottnar eftir innkaupum (staflað súlurit)</li>
+<li>Samtals innkaup eftir lánardrottnaflokki / landi / heiti (skífurit)</li>
+<li>Innkaup eftir lánardrottnaflokki / landi / heiti (stöplarit)</li>
+<li>Meðaltal innkaupa eftir lánardrottnaflokki / landi / heiti (stöplarit)</li>
 </ul></td>
 <td><ul>
 <li>Heildarinnkaup</li>
-<li>Vöxt sölu milli ÁRA innkaupa</li>
-<li>Samtals # lánardrottna</li>
-<li>Samtals # virka lánardrottnar</li>
+<li>Vöxtur í innkaupum ár frá ári</li>
+<li>Samtala # lánardrottna</li>
+<li>Samtala # virkra lánardrottna</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Innkaup eftir afurð</td>
+<td>Innkaup eftir afurðum</td>
 <td><ul>
-<li>Innkaupapöntun með því að innkaupategund / afurð heiti (stöplarit)</li>
-<li>Samtala innkaup eftir innkaupategund / afurð heiti (skífurit)</li>
-<li>10 efstu afurðir eftir innkaupa (staflað súlurit)</li>
+<li>Innkaup eftir innkaupategund / afurðarheiti (stöplarit)</li>
+<li>Heildarinnkaup eftir innkaupategund / afurðarheiti (skífurit)</li>
+<li>Efstu 10 afurðir eftir innkaupum (staflað súlurit)</li>
 </ul></td>
 <td><ul>
-<li>Samtals # afurðir</li>
-<li>Afurðir alls virka hlutfall samtölu # afurðir</li>
+<li>Samtala # afurða</li>
+<li>Samtala prósentu virkra afurða af samtölu # afurða</li>
 <li>Fjöldi afurða fyrir 80% innkaupa</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Kaupa eftir tímabili *</td>
+<td>Innkaup eftir tímabili*</td>
 <td><ul>
 <li>Innkaup eftir mánuði / degi (stöplarit)</li>
-<li>Frávik á sölu milli ÁRA uppsöfnuð innkaup (waterfall línurit)</li>
-<li>Heildarinnkaup sölu milli ÁRA vöxt (stöplarit)</li>
-<li>Yfirlit innkaupa (fylki)</li>
+<li>Uppsöfnuð frávik á innkaupum ár frá ári (fossarit)</li>
+<li>Vöxtur í heildarinnkaupum ár frá ári (stöplarit)</li>
+<li>Innkaupayfirlit (fylki)</li>
 </ul></td>
 <td><ul>
-<li>Vöxt sölu milli ÁRA innkaupa</li>
-<li>% Fyrir vöxt sölu milli ÁRA innkaupa</li>
+<li>Vöxtur í innkaupum ár frá ári</li>
+<li>Ár frá ári vöxtur í innkaupum</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Innkaup eftir staðsetningu lánardrottins</td>
+<td>Innkaupaáætlun eftir staðsetningu lánardrottins</td>
 <td><ul>
-<li>Innkaupapöntun með borg</li>
-<li>Innkaupapöntun % fyrir vöxt sölu milli ÁRA</li>
+<li>Innkaup eftir borg</li>
+<li>Vöxtur í innkaupum ár frá ári í %</li>
 <li>Innkaup eftir landi</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Eyðslugreining innkaup eftir tíma</td>
+<td>Eyðslugreining innkaupa eftir tíma</td>
 <td><ul>
-<li>Innkaup núverandi árs með mánuður / degi (línurit)</li>
-<li>Núverandi og síðasta ári (lína og dálka línurit)</li>
+<li>Innkaup núverandi árs eftir mánuðum / degi (línurit)</li>
+<li>Innkaup núverandi og síðasta árs (línu- og stöplarit)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Eyðslugreining innkaup eftir lánardrottni</td>
+<td>Eyðslugreining innkaupa eftir lánardrottni</td>
 <td><ul>
-<li>Efstu 10 lánardrottins innkaupapöntun % innkaupa (trekt)</li>
-<li>10 stærstu lánardrottnar með aukinn kostnaðar við vörumerki sölu milli ÁRA</li>
-<li>10 stærstu lánardrottnar með minnkað kostnaðar við vörumerki sölu milli ÁRA</li>
+<li>Efstu 10 innkaup lánardrottna % innkaupa (trekt)</li>
+<li>Efstu 10 lánardrottnar með aukna eyðslu ár frá ári</li>
+<li>Efstu 10 lánardrottnar með minnkaða eyðslu ár frá ári</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\*Þetta ár og síðasta ári innkaupa- og vöxt samkvæmt innkaupategund
+\*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund
 
 ## <a name="data-model-and-entities"></a>Gagnalíkan og einingar
-Dynamics 365 fyrir Aðgerðir sem gögnin eru notuð fyrir skýrsluna í eyðslu analysis innihald þjónustupakka. Þessum gögnum er birtur sem uppsöfnuðum mælingum sem stig eru í versluninni Einingar sem er Microsoft SQL-gagnagrunnur sem er fínstillt fyrir greiningu. Sjá frekari upplýsingar um verslun Einingar í [Power BI samþættingu við Verslunina Einingar í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog bóka. Uppsafnaðar mælingar í þessa innihald þjónustupakka eru undirsamstæðunni uppsöfnuðum mælingum sem voru tiltæk í Innkaupateningur í Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 fyrir Aðgerðir 2012 R3. Að áfangi uppsafnaðar mælingar tenings í versluninni Einingu, verður að gera þær virkjanlegir. Nánari upplýsingar, sjá ferli fyrir sviðsetningar uppsafnaðar mælingar í verslun í Einingu sem [Power BI samþættingu við Verslunina Einingar í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog bóka. Eftirfarandi lykli uppsöfnuðum mælingum tiltækar beint úr línunum einingunni Reiknings og eru notaðar sem grunnur innihald þjónustupakka.
+Gögn Dynamics 365 for Operations eru notuð fyrir skýrsluna í efnispakka eyðslugreiningar innkaupa. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Sjá frekari upplýsingar um verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsöfnaðra mælinga sem voru tiltækar í Innkaupateningur í Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Operations 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Eftirfarandi lykiluppsafnaðar mælingar eru tiltækar beint úr reikningslínueiningunni og eru notaðar sem grunnur að efnispakka.
 
-| Eining        | Uppsafnaðar mælingar lykli | Gagnagjafi fyrir Dynamics 365 fyrir Aðgerðir | Svæði              | lýsing                           |
+| Eining        | Lykiluppsafnaðar mælingar | Gagnaveita fyrir Dynamics 365 for Operations | Svæði              | lýsing                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Línur á reikningi | Innkaup                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Upphæð í bókhaldsgjaldmiðli |
+| Línur á reikningi | Innkaup                   | VendInvoiceTrans                            | SAMTALA(LineAmountMST) | Upphæð í bókhaldsgjaldmiðli |
 
-Eftirfarandi tafla sýnir lykill mælingarnar sem eru reiknaðar í innihald þjónustupakka úr einingunni línur Reikningsins.
+Eftirfarandi tafla sýnir lykilmælingarnar sem eru reiknaðar í efnispakkanum úr reikningslínueiningunni.
 
 | Mæla               | Útreikningur                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Innkaup núverandi ár | Innkaup ár = SAMTALA ('Reikningslínur'\[Innkaupa\])                                            |
+| Innkaup núverandi árs | Innkaup núverandi árs = SAMTALA ('Reikningslínur'\[Innkaupa\])                                            |
 | Innkaup síðasta árs    | Innkaup síðasta ár = REIKNA (SAMTALA ('Reikningslínur'\[Innkaupa\]), SAMEPERIODLASTYEAR (Dagsetningar\[Dagsetning\])) |
-| Vöxt sölu milli ÁRA innkaupa   | Sölu milli ÁRA innkaupa vöxt = \[Innkaupa ár\] – \[Innkaupa síðasta árs\]                            |
+| Vöxtur í innkaupum ár frá ári   | Vöxtur í innkaupum ár frá ári = \[Innkaupa núverandi árs\] – \[Innkaupa síðasta árs\]                            |
 
-Eftirfarandi lykils í innihald þjónustupakka eru notaðar þær víddir sem síur að sneiða uppsöfnuðum mælingum þannig að ná fleiri uppskiptingin og hærra insights greiningar.
+Eftirfarandi lykilvíddir í efnispakka eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að ná meiri uppskiptingu og dýpri greiningarinnsýn.
 
 | Eining                 | Dæmi um eigindir                                |
 |------------------------|-------------------------------------------------------|
-| Lánardrottnar                | Lánardrottnaflokka, Lánardrottna land eða svæði, nafn Lánardrottins |
-| Afurðir               | Afurðarnúmer, afurðarheiti, vöruheiti flokka        |
-| Innkaupaflokkar | Innkaupategund nöfn tegund Innkaupategund      |
+| Lánardrottnar                | Lánardrottnaflokkar, Lánardrottnaland eða -svæði, nafn Lánardrottins |
+| Afurðir               | Afurðarnúmer, afurðarheiti, heiti vöruflokka        |
+| Innkaupaflokkar | Innkaupategund, nöfn innkaupategunda      |
 | Lögaðilar         | Heiti lögaðila                                     |
-| Dagsetningar                  | Dagsetningar, mótbókun Árs                                    |
+| Dagsetningar                  | Dagsetningar, Mótbókun árs                                    |
 
-Að sjálfgefnu sýnir innihald þjónustupakka gögnum fyrir núgildandi almanaksár. Hins vegar hægt að breyta dagsetningasía í hlutanum síur skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
+Sjálfgefið er að efnispakki sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:

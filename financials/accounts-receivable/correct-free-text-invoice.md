@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
 
-Til að leiðrétta textareikning sem þegar hefur verið bókuð, skal opna bókaðar textareikning. Á við **Reiknings** síðu, skal velja **hætta Við**, og veljið síðan **Réttu reikningsupplýsingunum**. Velja ástæðukóða, bæta við athugasemd og veljið°dagsetningu fyrir nýjan leiðréttan reikning. Hægt er að breyta leiðrétta reikningnum og bóka hann. 
+Til að leiðrétta textareikning sem þegar hefur verið bókaður, skal opna bókaðan textareikning. Á síðunni **Reikningur** skal velja **Hætta við**, og veljið síðan **Leiðrétta reikning**. Velja ástæðukóða, bæta við athugasemd og veljið°dagsetningu fyrir nýjan leiðréttan reikning. Hægt er að breyta leiðrétta reikningnum og bóka hann. 
 
 Þegar leiðrétti reikningurinn er bókaður, er afturköllunarreikningur stofnaður fyrir kredit-upphæð sem er jöfn upphaflegri upphæð reikningsins. Þess vegna er samanlögð staða upprunalega reikningsins og afturköllunarreikningsins 0 (núll). Afturköllunarreikningurinn er jafnaður á móti upprunalega reikningnum. 
 
@@ -43,9 +46,11 @@ Eftir að leiðrétti reikningurinn er bókaður, verða þrír reikningar:
 Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo vegu:
 
 -   Síðan **Allir reikningar með frjálsum texta** inniheldur **Leiðrétting** dálk,°þar sem hægt er að sjá hvaða reikningar eru afturköllunarreikningar og leiðréttir reikningar.
--   Haus textareikninginn sýnir stöðuna **Cancelling reiknings '\[reikningsnúmer\]'** eða **Corrected reiknings '\[reikningsnúmer\]'**.
+-   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
 
 > [!NOTE]
-> Þessi eiginleiki er tiltækur aðeins ef sem **Frjálsum texta leiðrétting** skilgreiningarlykillinn er valinn.
+> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn.
+
+
 
 

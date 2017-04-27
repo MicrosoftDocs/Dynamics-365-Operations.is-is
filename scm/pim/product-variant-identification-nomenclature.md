@@ -1,6 +1,6 @@
 ---
-title: "Afurð númer nomenclature"
-description: "Þetta efnisatriði lýsir hvernig hægt er að setja upp afurð nomenclature að skipta út fastar snið [Afurð aðalgögn númer - Skilgreining - Stærð - Litur - Stíll], með markað snið sem inniheldur sniðmát afurðarnúmer, virkar afurðarvíddir og texta afmarkanir vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali."
+title: "Nafnakerfi afurðarnúmers"
+description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll], fyrir marksnið sem inniheldur númer afurðarsniðmáts, virkar afurðarvíddir og skiltákn texta að eigin vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Afurð númer nomenclature
+# <a name="product-number-nomenclature"></a>Nafnakerfi afurðarnúmers
 
-Þetta efnisatriði lýsir hvernig hægt er að setja upp afurð nomenclature að skipta út fastar snið [Afurð aðalgögn númer - Skilgreining - Stærð - Litur - Stíll], með markað snið sem inniheldur sniðmát afurðarnúmer, virkar afurðarvíddir og texta afmarkanir vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali.
+[!include[banner](../includes/banner.md)]
+
+
+Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll], fyrir marksnið sem inniheldur númer afurðarsniðmáts, virkar afurðarvíddir og skiltákn texta að eigin vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali.
 
 Nýja nafnakerfi afurðarafbrigðisnúmers leyfir þér að innifela hluta sem eru í auðkennum afurðarafbrigðis þíns. Þessum hlutum geta innifalið númer afurðarsniðmáts, afurðavíddir, númeraraðir, textafasta, og eiginleika. Þessi virkni leyfir þér að finna á fljótan hátt tilteknar afurðarafbrigði þegar þú stofnar sölupöntun eða innkaupapöntun.
 
@@ -66,8 +69,8 @@ Stuttermabolur (TS1234) er framleidd í 3 mismunandi stærðum (S, M, L), 4 mism
 
 Númer afurðarafbrigðis fyrir Rautt, Lítil, Polo verða: TS1234-Rautt-Lítið-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclature constraintbased skilgreiningar
-Skorðumiðaðar skilgreiningar fyrir sérstakan nomenclature getur byggð fyrir skilgreiningu afurðarvídd. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Nafnakerfi skorðuskilgreininga
+Fyrir skorðuskilgreiningar, er hægt að byggja sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
 
 -   Gildi númeraraðar
 -   Textafasti
@@ -90,8 +93,8 @@ Nafnakerfi skilgreiningar er skilgreint með því að nota eftirfarandi hluta:
 
 Skilgreiningarkenni fyrir við með lengd 78 fær eftirfarandi Skilgreiningarkenni: WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclature dimensionbased skilgreiningar
-Víddaskilgreiningar, fyrir sérstakt nomenclature getur byggð afurðarvídd skilgreiningu fyrir. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Víddarbyggðrar skilgreiningar Nafnakerfis
+Fyrir skorðuskilgreiningar, er hægt að byggja sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
 
 -   Gildi númeraraðar
 -   Textafasti
@@ -132,7 +135,7 @@ Skilgreiningarkenni fyrir staðlað cabinet með klæði framgrills verður: M00
 Í þessu dæmi, er hægt að nota nafnakerfi afurðarafbrigðisnúmers sem samanstendur úr eftirfarandi hlutum:
 
 1.  Númer afurðarsniðmáts
-2.  Textafasta '\_'
+2.  Textafasti '\_'
 3.  Grunnstilling
 
 Nafnakerfi skilgreiningar getur verið úr eftirfarandi hlutum:
@@ -147,7 +150,7 @@ Hægt er að færa inn eftirfarandi gildi fyrir hluta:
 -   Efni = Plast
 -   Lengd = 12
 
-Númer vöruvíddasamsetningar afurðar verða: M0099\_PlasticAAA12.
+Númer afurðarafbrigðis verða: M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Dæmi um víddarbyggðar skilgreiningar
 
@@ -180,7 +183,7 @@ Villa mun eiga sér stað ef reynt er að handvirkt eða sjálfkrafa mynda afur�
 
 ### <a name="constraint-based-configurations"></a>Skorðuskilgreiningar
 
-Allt eftir nafnakerfiinu, getur kerfið reynt að úthluta númeri afurðarafbrigðis á skilgreiningu sem ekki er einkvæmt. Í þessu tilfelli mun kerfið nota númeraröð fyrir vídd vöruafbrigðisins sem númer vöruvíddasamsetningar afurðar í staðinn. Ef það gerist, mun viðvörun berast. Svo hægt sé að forðast þetta er ætti hafa nógu margar eigindir í nafnakerfiinu til að tryggja einkvæmni, og að tryggja að **Endurnota** valkosturinn sé kveiktur fyrir íhlutinn.
+Allt eftir nafnakerfiinu, getur kerfið reynt að úthluta númeri afurðarafbrigðis á skilgreiningu sem ekki er einkvæmt. Í þessu tilfelli mun kerfið nota númeraröð fyrir vídd skilgreiningarvíddina sem númer afurðarafbrigðis í staðinn. Ef það gerist, mun viðvörun berast. Svo hægt sé að forðast þetta er ætti hafa nógu margar eigindir í nafnakerfiinu til að tryggja einkvæmni, og að tryggja að **Endurnota** valkosturinn sé kveiktur fyrir íhlutinn.
 
 ### <a name="dimension-based-configurations"></a>Víddaskilgreiningar
 
@@ -191,8 +194,10 @@ Skilgreiningarferli inniheldur skref þar sem kerfið leggur til gildi skilgrein
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Búa til númer nomenclature afurð fyrir fyrirfram afurðarafbrigði (leiðarvísi fyrir Verk)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Búa til númer nomenclature afurð fyrir samskipaðar afurðarafbrigði (leiðarvísi fyrir Verk)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[ Stofna nafnakerfi afurðarafbrigðis fyrir skilgreind afurðarafbrigði (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

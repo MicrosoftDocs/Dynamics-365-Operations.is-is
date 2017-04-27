@@ -1,6 +1,6 @@
 ---
 title: Talnarunuyfirlit
-description: "Númeraraðir í Microsoft Dynamics 365 fyrir Aðgerðir eru notaðar til að mynda notendavænu, einkvæmt auðkenni fyrir aðalgögn færslur og færslur þar sem auðkenni. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>."
+description: "Númeraraðir í Microsoft Dynamics 365 for Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Talnarunuyfirlit
 
-Númeraraðir í Microsoft Dynamics 365 fyrir Aðgerðir eru notaðar til að mynda notendavænu, einkvæmt auðkenni fyrir aðalgögn færslur og færslur þar sem auðkenni. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>.
+[!include[banner](../includes/banner.md)]
 
-Áður en hægt er að stofna nýjar færslur fyrir tilvísun í Microsoft Dynamics 365 fyrir Aðgerðir, verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í ** Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í ** viðskiptakröfur** og **viðskiptaskuldir** , er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna. Þegar sett er upp númeraröð, verður að tilgreina svið, sem skilgreinir hvaða fyrirtæki notar númeraröðina. Umfang getur verið **Samnýtt**, **Fyrirtæki**, **lögaðila**, eða **rekstrareining**. Umfang **lögaðila** og **fyrirtækja ** má sameina við **tímabil fjárhagsdagatals** til að búa til enn sértækari númeraraðir. Talnarunu snið samanstanda af hluti. Númeraraðir með annað umfang en **samnýtt** geta innihaldið hluti sem samsvara umfangi. Til dæmis getur talnaröð með umfangið **lögaðili** innihaldið hluta lögaðila. Með því að hafa svið hluta í snið númeraraðar, er hægt að greina svið tiltekna færslu með því að líta á númeri þess. Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið ** fasta** og ** tölustafahluta** . Hlutinn ** Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota sem númerstákn (\#) til að tákna incrementing tölur og í ampersand (&) til að tákna incrementing bréfa. Til dæmis er snið \#\#\#\#\#\_2017 stofnar röð 00001\_2017, 00002\_2017 og svo á.
+
+Númeraraðir í Microsoft Dynamics 365 for Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>.
+
+Áður en hægt er að stofna nýjar færslur fyrir tilvísun í Microsoft Dynamics 365 for Operations verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í ** Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í ** viðskiptakröfur** og **viðskiptaskuldir** , er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna. Þegar sett er upp númeraröð, verður að tilgreina svið, sem skilgreinir hvaða fyrirtæki notar númeraröðina. Umfang getur verið **Samnýtt**, **Fyrirtæki**, **lögaðila**, eða **rekstrareining**. Umfang **lögaðila** og **fyrirtækja ** má sameina við **tímabil fjárhagsdagatals** til að búa til enn sértækari númeraraðir. Talnarunu snið samanstanda af hluti. Númeraraðir með annað umfang en **samnýtt** geta innihaldið hluti sem samsvara umfangi. Til dæmis getur talnaröð með umfangið **lögaðili** innihaldið hluta lögaðila. Með því að hafa svið hluta í snið númeraraðar, er hægt að greina svið tiltekna færslu með því að líta á númeri þess. Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið ** fasta** og ** tölustafahluta** . Hlutinn ** Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota númerstákn (\#) til að tákna hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið \#\#\#\#\#\_2017 stofnar t.d. röðina 00001\_2017, 00002\_2017 og svo framvegis.
 Talnarunu dæmi
 ------------------------
 
@@ -73,6 +76,8 @@ Númeraraðir geta verið samfelldar eða ósamfelldar. Samfelld númeraröð sl
 ### <a name="automatic-cleanup-of-number-sequences"></a>Sjálfvirk tiltekt númeraraðir
 
 Ef rafmagnsleysi kemur upp, villa forrits eða önnur óvænt óhöpp getur kerfið ekki endurunnið númer sjálfkrafa fyrir samfelldri númeraröð. Hægt er að keyra tiltekt handvirkt eða sjálfvirkt til að endurheimta týnd númer. Íhugaðu vandlega notkun þjóns þegar hreinsunarferli er áætlað. Mælt er með því að tiltektin sé keyrð sem runuvinnsla utan háannatíma.
+
+
 
 
 

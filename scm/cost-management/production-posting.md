@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-posting"></a>Framleiðslubókun
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um mismunandi tegundir bókana í framleiðsluferlinu.
 
 Verkþættir framleiðslubókunar fylgja framleiðsluferli sem lýst er í eftirfarandi hlutum.
 
 ## <a name="material-consumption"></a>Efnisnotkun
-Efni eru skráðar sem notuð í framleiðslu þegar tiltektarlisti framleiðslubókar er bókuð. Þetta ferli myndar úthreyfingarfærslur sem draga frá birgðum á lager. Í færibreytum framleiðslu er hægt að tilgreina hvort gildi hráefni sem eru í gangi (vinna í vinnslu \[VÍV\]) skuli bókuð í fjárhag. Gildi hráefna sem eru í vinnslu (VÍV) er síðan bókuð sérstakan lykil tiltektarlista og sérstakan mótlykil tiltektarlista.
+Efni eru skráðar sem notuð í framleiðslu þegar tiltektarlisti framleiðslubókar er bókuð. Þetta ferli myndar úthreyfingarfærslur sem draga frá birgðum á lager. Í færibreytum framleiðslu er hægt að tilgreina hvort gildi hráefna sem eru í vinnslu (verk í vinnslu \[VÍV\]) skuli bókuð í fjárhaginn. Gildi hráefna sem eru í vinnslu (VÍV) er síðan bókuð sérstakan lykil tiltektarlista og sérstakan mótlykil tiltektarlista.
 
 ## <a name="time-consumption"></a>Tímanotkun
 Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í færslubók leiðarspjalds eða vinnsluspjaldsbókinni. Þegar þessar færslubækur eru bókaðar er unnin fjárhagsbókun á sérstakan lykil fyrir tilföng sem eru í vinnslu (VÍV). Þessi bókun sýnir virði tímans sem er varið í framleiðslupöntun. Eftir að framleiðslupöntunin er skráð sem lokið, er vív-lyklar eru jafnaðir.
@@ -42,7 +45,7 @@ Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í færslubók lei
 Þegar framleiðslupöntun er skráð sem lokið, er magn fullbúinna vara sem var lokið uppfært í Birgðastjórnun í gegnum færslubókina Bóka sem tilbúið. Ef verið er að nota bókhald fyrir verk í vinnslu (VÍV), sem má setja upp í færibreytum framleiðslu, er færslubók fjárhags búin til til að minnka vív-lyklar og auka birgðir fullbúinnar vöru. Færslubók notar staðlaðan kostnað sem er skilgreint fyrir afurðina.
 
 ## <a name="ending-the-production-order"></a>Lokið við framleiðslupöntunina
-Áður er framleiðslupöntun er lokið er raunkostnaður reiknaður fyrir magnið sem var framleitt. Allur áætlaður kostnaður fyrir efni, vinnu og rekstrarkostnaði er bakfærður og skipt út fyrir raunkostnað. Heildarkostnaðurinn fyrir tilbúna afurð er debetfærður úr innhreyfinglykli birgða og kreditfærður á úthreyfingarlykil afurðar. Ef þú velur **Ljúka vinnslu** gátreitur þegar þú keyrir kostnaðarútreikningur, breytist staða framleiðslupöntunar í **Lokið**. Þessi staða kemur í veg fyrir aukalegan kostnað sé óvart bókaður á lokna framleiðslupöntun. Hægt er að tilgreina sem á að úthluta gildi villumagn sem eru skráðar við skráð sem lokið á gallalaust magn sem er skráð sem lokið. Einnig er hægt að tilgreina að virðis villumagns eigi að bóka á sérstakan rýrnunarlykil.
+Áður er framleiðslupöntun er lokið er raunkostnaður reiknaður fyrir magnið sem var framleitt. Allur áætlaður kostnaður fyrir efni, vinnu og rekstrarkostnaði er bakfærður og skipt út fyrir raunkostnað. Heildarkostnaðurinn fyrir tilbúna afurð er debetfærður úr innhreyfinglykli birgða og kreditfærður á úthreyfingarlykil afurðar. Ef þú velur **Ljúka vinnslu** gátreitur þegar þú keyrir kostnaðarútreikningur, breytist staða framleiðslupöntunar í **Lokið**. Þessi staða kemur í veg fyrir aukalegan kostnað sé óvart bókaður á lokna framleiðslupöntun. Hægt er að tilgreina að gildi villumagns sem eru skráðar sem loknar við skýrslugerðsem skuli úthluta á gallalausa magnið sem er skráð sem lokið. Einnig er hægt að tilgreina að virðis villumagns eigi að bóka á sérstakan rýrnunarlykil.
 
 ## <a name="controlling-the-level-of-ledger-posting"></a>Stýra stigi fjárhagsbókunar
 Í **færibreytur framleiðslustýringar**, er hægt að nota í **fjárhagsbókun** svæði til að stilla stig fjárhagsbókunar fyrir framleiðsluferli. Eftirtalin gildi eru tiltæk:
@@ -52,5 +55,7 @@ Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í færslubók lei
 -   **Framleiðsluflokkar** – Notið fjárhagslykla sem eru sett upp í framleiðsluflokkum fyrir bæði efni og tímanotkun. Framleiðsluflokkarnir eru tengdir við útgefnar afurðir og afritaðir í framleiðslupantanir þegar þessar pantanir eru stofnaðar. Bókun á framleiðslupantanir  mun svo fylgja framleiðsluflokkum sem eru tengdir við framleiðslupöntunina.
 
 **Athugasemd** Ef staðlaða aðferðin til að reikna út kostnað við tilbúna vöru var notuð, endurspegla lokafærslurnar það. Ef það er mismunur á raunkostnaði og útreiknuðum kostnaði með notkun stöðluðu aðferðarinnar, er mismunurinn bókaður á lykilinn sem sýnir hagnað eða tap.
+
+
 
 

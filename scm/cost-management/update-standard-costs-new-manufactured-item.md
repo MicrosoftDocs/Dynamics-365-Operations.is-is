@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði fyrir nýja framleidda vöru. 
 
 Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu nálgunin til að uppfæra staðlaðan kostnað. Í þessari nálgun inniheldur ein kostnaðarútgáfa upphaflega skilgreindan staðlaðan kostnað fyrir fryst tímabil og seinni kostnaðarútgáfan inniheldur stigvaxandi uppfærslur sem eiga við nýju framleiddu vörurnar. Stigvaxandi uppfærslur eru færðar inn sem kostnaðarfærslur innan seinni kostnaðarútgáfunnar og að lokum gerðar virkar. Tveggja útgáfu nálgunin krefst þess að skilgreind sé önnur kostnaðarútgáfa. Hér eru leiðbeiningar fyrir skilgreiningu þessarar kostnaðarútgáfu:
@@ -47,6 +50,8 @@ Ef bæta á við nýjum framleiðsluvörum í gegnum fryst tímabil, skal fylgja
 5.  Notið síðuna **Uppsetning kostnaðarútgáfu** til að breyta lokunarflaggiu til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.
 6.  Notið síðuna **Virkja verð** (sem er opnuð úr síðunni **Viðhald kostnaðarútgáfu**) til að virkja allar biðkostnaðarfærslur í seinni kostnaðarútgáfunni. Einnig er hægt að virkja kostnaðarfærslur í bið fyrir stakar vörur með því að smella á hnappinn **Virkja** á síðunni **Vöruverð**.
 7.  Notið síðuna **Uppsetning kostnaðarútgáfu**til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
+
+
 
 
 

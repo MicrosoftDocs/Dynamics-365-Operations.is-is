@@ -1,6 +1,6 @@
 ---
 title: "Uppskriftir og formúlur"
-description: "Þessi skrá veitir upplýsingar um uppskriftir (BOMs) og formúlur, sem eru hluti central skilgreiningar fyrir afurðir og afurðarafbrigði. Uppskriftir og formúlur tilgreina þarf efni eða innihaldsefni fyrir tiltekna vöru. Formúlur einnig að tilgreina aukaafurðir og hliðarafurðir sem eru mótteknar í samhengi við ákveðna framleiðslu."
+description: "Þessi grein veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Uppskriftir og formúlur
 
-Þessi skrá veitir upplýsingar um uppskriftir (BOMs) og formúlur, sem eru hluti central skilgreiningar fyrir afurðir og afurðarafbrigði. Uppskriftir og formúlur tilgreina þarf efni eða innihaldsefni fyrir tiltekna vöru. Formúlur einnig að tilgreina aukaafurðir og hliðarafurðir sem eru mótteknar í samhengi við ákveðna framleiðslu. 
+[!include[banner](../includes/banner.md)]
+
+
+Þessi grein veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
 
 <a name="bills-of-materials"></a>Uppskriftir
 ------------------
@@ -38,7 +41,7 @@ Uppskrift (BOM) skilgreinir þá íhluti sem þarf til að framleiða vöru. Íh
 
 Þegar hún er sameinað við leið eða framleiðsluflæði sem lýsir aðgerðir og tilföng sem eru nauðsynleg til að byggja afurð, myndar Uppskrift grundvöll fyrir útreikninga á áætluðum kostnaði vöru.  
 
-Uppskrift er einstakar einingar sem lýst er með því að eftirfarandi upplýsingar:
+Uppskrift er einstök eining sem lýst er með eftirfarandi upplýsingum:
 
 -   BOM-kenni
 -   Uppskriftarnafn
@@ -49,7 +52,7 @@ Einstaka uppskrift lýsir einu stigi sem er auðkennt af einkvæmu kenni. Íhlut
 
 ### <a name="formulas-co-products-and-by-products"></a>Formúlur, aukaafurðir, hliðarafurðir
 
-Formúla er undirgerðin Uppskriftar sem er yfirleitt notað fyrir framleiðsluferli. Að auki íhluta og innihaldsefnis, lýsir Formúla aukaafurðir og hliðarafurðir. Í raun útgáfu krefst skilgreiningar á aukaafurðir og hliðarafurðir formúlu fyrir útgáfu formúlu. Formúla er yfirleitt tilgreint fyrir eina tiltekna lokið afurðar (í formúla eða áætlunarvara) sem er skilgreint í formúluútgáfan.
+Formúla er undirgerðin Uppskriftar sem er yfirleitt notað fyrir framleiðsluferli. Að auki íhluta og innihaldsefnis, lýsir Formúla aukaafurðir og hliðarafurðir. Í raunútgáfu krefst skilgreiningar á aukaafurðir og hliðarafurðir fyrir formúlu formúluútgáfu. Formúla er yfirleitt tilgreind fyrir eina tiltekna lokna afurð (formúla eða áætlunarvara) sem er skilgreint í formúluútgáfan.
 
 ### <a name="boms-in-the-product-lifecycle"></a>Uppskriftir í lífsferli afurðar
 
@@ -61,7 +64,7 @@ Formúla er undirgerðin Uppskriftar sem er yfirleitt notað fyrir framleiðsluf
 -   **Framleiðsluuppskrift** – er raunverulega Uppskriftar sem er notað fyrir tiltekna framleiðslu. Framleiðsluuppskrift verður að taka mið af raunverulegu tilföng sem eru notaðar til að framleiða vöruna. Þegar framleiðslupöntun, runupöntun eða kanban er stofnuð, eru hin mörgu stigu Uppskriftir sem eru sýndir með skuggum dregin saman í eitt stig og dreift yfir aðgerðir fyrir pöntunina.
 -   **Kostnaðaruppskrift** - þessi uppskrift er notað til að reikna áætlaðan kostnað afurðar. Til dæmis er hægt að nota kostnaðaruppskrift þegar staðalkostnaður er notaður eða áætlaðan kostnað tiltekinnar vöru er reiknaður. Kostnaðaruppskrift geta vísa í tiltekna blöndu af efni og tilföng sem áætlað er að nota. Þess vegna er hægt að nota kostnaðaruppskrift til að stofna dæmigerðan áætlaðan kostnað fyrir tímabilinu og hjálpa við að koma í veg fyrir frávik yfir tímabil.
 
-Gerðir fyrir Uppskrift sem eru notuð í við innleiðingu háð því innleiðingu, og einnig viðskiptaaðstæður og þarfir. Í einfaldri framkvæmd, er hægt að móta áætlunaruppskrift, framleiðsluuppskrift og kostnaðaruppskrift sem eina Uppskrift. Í umhverfi þar sem eru tíðar verkfræðilegar breytingar og margar leiðir sem velja má um er stærri safn Uppskriftagerða sennilega þarft.
+Gerðir Uppskrifta sem eru raunverulega notaðar eru háðar innleiðingu, og einnig viðskiptaaðstæður og þarfir. Í einfaldri framkvæmd, er hægt að móta áætlunaruppskrift, framleiðsluuppskrift og kostnaðaruppskrift sem eina Uppskrift. Í umhverfi þar sem eru tíðar verkfræðilegar breytingar og margar leiðir sem velja má um er stærri safn Uppskriftagerða sennilega þarft.
 
 ### <a name="approval-of-boms-and-formulas"></a>Samþykki fyrir Uppskriftir og formúlur
 
@@ -78,7 +81,7 @@ Til að tengja ákveðna Uppskrift eða formúla við afurðarafbrigði sem hæg
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Virkjun á sjálfgefinni Uppskrift eða formúluútgáfur
 
-Til að stilla tiltekna Uppskrift eða formúlu sem sjálfgefna uppskriftarútgáfan eða formúluútgáfan sem verður notað með aðaláætlanagerð eða til að stofna framleiðslupantana, verður að virkja útgáfu. Þegar útgáfa er virkjaður er einkvæmni útgáfu fyrir tiltekið skorður (til dæmis, tímabil, svæði eða magn) er staðfest. Berast villuskilaboð ef útgáfan sem verið er að reyna að virkja rekst á við útgáfu sem er þegar virk. Þú verður annaðhvort á óvirkja útgáfa sem rekist er á eða breyta skorður útgáfu (yfirleitt tímabils) til að koma í veg fyrir tvíræðrar virkjun.
+Til að stilla tiltekna Uppskrift eða formúlu sem sjálfgefna uppskriftarútgáfan eða formúluútgáfan sem verður notað með aðaláætlanagerð eða til að stofna framleiðslupantana, verður að virkja útgáfu. Þegar útgáfa er virkjuð, er einkvæmni útgáfu fyrir tilteknar skorður (til dæmis, tímabil, svæði eða magn) staðfest. Villuskilaboð berast ef útgáfan sem verið er að reyna að virkja rekst á við útgáfu sem er þegar virk. Þú verður annaðhvort á óvirkja útgáfa sem rekist er á eða breyta skorður útgáfu (yfirleitt tímabils) til að koma í veg fyrir tvíræðrar virkjun.
 
 ### <a name="product-change-with-case-management"></a>Vörubreyting með málastjórnun
 
@@ -114,5 +117,7 @@ Velja ** Fest framboð** línugerð þegar óskað er að stofna undirframleiðs
 Veljið **lánardrottinn ** línugerð ef framleiðsluferlið notar undirverktaka og ætlunin er að stofna sjálfkrafa undirframleiðslu eða innkaupapöntun fyrir undirverktakann.  
 
 **Athugasemd um úthýst verj í Uppskrift:** þjónustan eða vinnan sem undirverktaka framkvæmir verður að vera stofnuð sem þjónustuvara sem er rakin í birgðir. Tengja verður þjónustuvöru við yfirvöruna sem uppskriftarlínu. Leiðin verður að innihalda aðgerð sem er úthlutað til rekstrartilföng undirverktakans.
+
+
 
 

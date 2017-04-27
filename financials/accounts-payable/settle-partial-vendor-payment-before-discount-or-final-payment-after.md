@@ -1,5 +1,5 @@
 ---
-title: "Jafna hluta greiðslu lánardrottins fyrir afsláttardagsetninguna með síðustu greiðslu eftir ákveðna dagsetningu staðgreiðsluafsláttar"
+title: "Jafna hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna"
 description: "Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hluta greiðslu lánardrottins fyrir afsláttardagsetninguna með síðustu greiðslu eftir ákveðna dagsetningu staðgreiðsluafsláttar
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins.
 
-Fabrikam kaupir vörur frá lánardrottni 3057. Fabrikam tekur á móti 1 prósent staðgreiðsluafsláttur ef reikningurinn er greiddur á 14 daga. Greiða þarf reikninga eftir 30 daga. Lánardrottinn veitir Fabrikam einnig staðgreiðsluafslátt á hlutagreiðslum. Jöfnun færibreytur eru staðsett á **Færibreytur viðskiptaskulda** síðu.
+Fabrikam kaupir vörur frá lánardrottni 3057. Fabrikam fær 1 prósent afslátt ef reikningurinn er greiddur innan 14 daga. Greiða þarf reikninga eftir 30 daga. Lánardrottinn veitir Fabrikam einnig staðgreiðsluafslátt á hlutagreiðslum. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptaskulda**.
 
 ## <a name="invoice-on-june-25"></a>Reikningur 25. júní
-Á 25. Júní, Apríl færir inn og bókar reikning fyrir 1000,00 fyrir afskrift 3057 lánardrottins. Arnie getur skoðað þessa færslu á síðunni **lánardrottnafærslur**.
+25. júní færir Apríl inn og bókar reikning uppá 1.000,00 fyrir lánardrottinn 3057. Arnie getur skoðað þessa færslu á síðunni **lánardrottnafærslur**.
 
 | Fylgiskjal   | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða   | Gjaldmiðill |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Reikningur          | 6/25/2015 | 10020   |                                      | 1.000,00                              | -1.000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Hlutagreiðsla 2. júlí
-Arnie vill greiða 300,00 af þessum reikningi þann 2. júlí. Greiðslan gefur rétt á afslætti, þar sem Fabrikam gefur afslætti á hlutagreiðslur. Þess vegna greiðir Arnie 297,00 og fær 3,00 afslátt. Hún stofnar greiðslubók og færir inn línu fyrir 3057 lánardrottinn. Hann opnar síðan á **Jafna færslur** síðuna, þannig að hún er hægt að merkja reiknings fyrir jöfnun.
+Arnie vill greiða 300,00 af þessum reikningi þann 2. júlí. Greiðslan gefur rétt á afslætti, þar sem Fabrikam gefur afslætti á hlutagreiðslur. Þess vegna greiðir Arnie 297,00 og fær 3,00 afslátt. Hún stofnar nýja færslubók og færir inn línu fyrir lánardrottin 3057. Hún opnar síðuna **Jafna færslur** svo að hún geti merkt reikninginn fyrir jöfnun.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ Arnie bókar síðan greiðsluna. Þegar hún opnar síðuna **lánardrottnafær
 | APP-10021  | Greiðsla          | 7/15/2015 |         | 700.00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Eftirstöðvar 15. Júlí, Nota staðgreiðsluafslátt = Alltaf
-Ef lánardrottinn leyfir þér Apríl sér í afsláttur jafnvel þó að hún er greiðslu eftir ákveðna dagsetningu staðgreiðsluafsláttar, hún hægt að breyta gildinu í í **Nota staðgreiðsluafslátt** svæðinu **Alltaf**. Í **Reikna staðgreiðsluafslætti fyrir hlutagreiðslur** stillingin er hnekkt og afslátturinn er tekið. Greiðsluupphæðin er 693,00 og afslátturinn er eftirstandandi 7,00.
+Ef lánardrottinn leyfir Arnie að fá afslátt jafnvel þó að hún sé að greiða eftir afsláttardagsetningu getur hún breytt gildinu á svæðinu **Nota staðgreiðsluafslátt** í **Alltaf**. **Reikna staðgreiðsluafslætti fyrir hlutagreiðslur** er hnekkt og afsláttur er veittur. Greiðsluupphæðin er 693,00 og afslátturinn er eftirstandandi 7,00.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ Arnie bókar síðan greiðsluna. Þegar hún opnar síðuna **lánardrottnafær
 | DISC-10020 | Staðgreiðsluafsláttur    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 | APP-10021  | Greiðsla          | 7/15/2015 |         | 693,00                               |                                       | 0,00    | USD      |
 | DISC-10021 | Staðgreiðsluafsláttur    | 7/15/2015 |         | 7,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Skýrsluskilgreining er skýrsluhlutur (eða eining) sem notast við línuskilgreiningu, dálkskilgreiningu og valfrjálsa skipuritsskilgreiningu til að búa til skýrslu. Skilgreining skýrslu jafnframt veitir valkosti og stillingar fyrir sérsníða skýrslu. 
 
-Skýrsluskilgreining er skýrsluhlutur (eða eining) sem notast við línuskilgreiningu, dálkskilgreiningu og valfrjálsa skipuritsskilgreiningu til að búa til skýrslu. Skilgreining skýrslu jafnframt valkosti og stillingar sem nota má til að sérsníða skýrslu. Þegar búið er að skilgreina línuskilgreiningar og dálkaskilgreiningar, verður að sameina þau í skýrsluskilgreiningu. Á þessum tímapunkti, er einnig skilgreint aðrir þættir skilgreiningar, eins og upplýsingastig og dagsetning skýrslu. Svo er hægt að vista og búa til skýrslu. Fjárhagsskýrslugerð býður upp á eftirfarandi upplýsingastig:
+Skýrsluskilgreining er skýrsluhlutur (eða eining) sem notast við línuskilgreiningu, dálkskilgreiningu og valfrjálsa skipuritsskilgreiningu til að búa til skýrslu. Skýrsluskilgreining veitir einnig valkosti og stillingar sem hægt er að nota til að sérsníða skýrslu. Þegar búið er að skilgreina línuskilgreiningar og dálkaskilgreiningar, verður að sameina þau í skýrsluskilgreiningu. Á þessum tímapunkti, er einnig skilgreint aðrir þættir skilgreiningar, eins og upplýsingastig og dagsetning skýrslu. Svo er hægt að vista og búa til skýrslu. Fjárhagsskýrslugerð býður upp á eftirfarandi upplýsingastig:
 
 -   Fjármál
 -   Fjárhagur og lykill
@@ -89,6 +89,6 @@ Eftirfarandi tafla lýsir flipunum í skýrsluskilgreiningu og hvernig upplýsin
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsleg skýrslugerð fyrir Microsoft Dynamics 365 fyrir Aðgerðir](financial-reporting-intro.md)
+[Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

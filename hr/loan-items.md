@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Stjórna vörum sem eru lánaðar til starfsmanna
 
+[!include[banner](includes/banner.md)]
+
+
 Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna. 
 
 Eftirfarandi atriði eru dæmi um vörur sem fyrirtæki gæti verið að lána starfsmönnum:
@@ -39,7 +42,7 @@ Hver efnislegt vara verður að hafa samsvarandi lánshlut. Hvert skrá yfir lá
 
 Þegar hlutur er lánaður, skráið útlánsdagsetningu ásamt áætluðum skiladegi. Þegar hlut er skilað skal skrá raunverulegan skiladag.
 
-Starfsmenn geta skoðað færslur fyrir vörur sem hafa verið lánaður þær með því að nota vinnusvæði sjálfsafgreiðslu Starfsmanns. Þær einnig er hægt að breyta fyrirliggjandi færslum eða færa inn nýja lánshluti ef þeir hefur verið tekið efnislega viðbótarvörur.  Hægt er að setja upp verkflæði að breytingar á leið á lánshlutum nýja eða núverandi gegnum samþykktarferli. 
+Starfsmenn geta skoðað°færslur fyrir vörur sem þeir hafa fengið lánaðar með°sjálfsafgreiðsla vinnusvæði starfsmanna. Þeir geta einnig breytt fyrirliggjandi færslum°eða fært inn°nýja lánshluti°ef þeir hafa fengið efnislegar viðbótarvörur.  Hægt er að setja upp verkflæði til að rekja breytingar á nýjum eða fyrirliggjandi lánshlutum gegnum samþykktarferli. 
 
 Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra. Þeir geta einnig fengið heimild til að bæta við nýjum lánshlutum fyrir hönd starfsmanna sinna.
 
@@ -52,6 +55,8 @@ Eyðileggist hlutur eða hann týnist skal skrá gerviskil. Þá er hægt að ey
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Human resources](index.md)
+[Mannauður](index.md)
+
+
 
 

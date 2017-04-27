@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Leita að afurðir og afurðarafbrigði við skráningu pantana
 
+[!include[banner](../includes/banner.md)]
+
+
 Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum.
 
-Þurfa stundum of samstæðuvörum einhvers ekki bestu aðstæður að vera í, og þetta er sérlega satt ef fjöldi afurða sem eru lík hvað er seld og reynt er að muna vörunúmer eða leitarnöfn afurðar til að finna hægri afurðar til að setja í sölupöntun. Hægt er að nota í **Vörunúmer** í sölupöntunarlínu eða innkaupapöntunarlínu sem leit svæði. Þú getur slegið inn hvaða hluta af vöruheitinu, númer, eða vídd og fá flettu sem sýnir öll atriðin sem passa við leitarorð.
+Stundum er ekki best að hafa of mikið af einhverju, og það er sérstaklega satt ef þú selur fjölda af vörum sem eru svipuð og þú ert að reyna að muna vörunúmer eða vöruleitarnöfn í því skyni að finna rétt vöru til að setja á sölupöntun. Hægt er að nota reitinn **Vörunúmer** í sölupöntunarlínu eða innkaupapöntunarlínu sem leitarsvæði. Þú getur slegið inn hvaða hluta af vöruheitinu, númer, eða vídd og fá flettu sem sýnir öll atriðin sem passa við leitarorð.
 
 ## <a name="how-search-works"></a>Hvernig leit virkar
 Þegar þú leitar að vörur eða afbrigði, er mikilvægt að skilja hvernig leitareiginleikarnir finnur þær vörur sem passa við textann sem þú slærð inn. Lykil leitarreglur í að afhenda leitarniðurstöður eru:
@@ -42,7 +45,7 @@ Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og a
 
 ### <a name="examples"></a>Dæmi
 
-Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:** Undir **Sölu og markaðssetningar &gt;Uppsetningu &gt;Leit &gt;Leita færibreytur**&gt;**Leita gerð**, veljið sem **Full jöfnun** valkost.
+Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:** Undir **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur** &gt; **Leitargerð**, veljið valkostinn **Full samsvörun**.
 
 | Gerð afurðar     | Afurðarnafn    | Birta afurðarnúmer | Vörunúmer | Grunnstilling |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -56,22 +59,22 @@ Ef þú slærð '05' þú verður bara að fá annað afurðarafbrigði sem nið
 
 Ef þú slærðu inn 'háta 05' kemur engum niðurstöðum. Þetta er því leitina leitar að fulla texta sem færður er inn. Leitin reynir ekki að finna 'háta' og þrengja svo að niðurstöðurnar við þær sem innihalda '05'.  
 
-Hægt er að takmarka fjölda leitarniðurstöður með því að nota í **Fjölda þeirra niðurstaðna** á á **Sölu og markaðssetningar &gt;Uppsetningu &gt;Leit &gt;Leita færibreytur** síðu. Ef svæðið er stillt á 0, verður allar leitarniðurstöður skilað. Ef þetta er stillt á 10, til dæmis, mun hún skila að hámarki 10 leitarniðurstöður.
+Hægt er að takmarka fjölda leitarniðurstöður með því að nota **Fjöldi niðurstaðna** á **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur** síðunni. Ef svæðið er stillt á 0, verður allar leitarniðurstöður skilað. Ef þetta er stillt á 10, til dæmis, mun hún skila að hámarki 10 leitarniðurstöður.
 
 ## <a name="configure-the-product-search"></a>Skilgreina leit að afurð
-Áður en hægt er að nota afurða og leitareiginleika afurðarafbrigðis, skal fylgja þessum skrefum til að skilgreina leit að afurðar. [![skref 3 til að skilgreina afurðaleit\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Áður en hægt er að nota afurða og leitareiginleika afurðarafbrigðis, skal fylgja þessum skrefum til að skilgreina leit að afurðar. [![3 skref til að skilgreina afurðarleit search\_AXAppFall ](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. skref: Hafa með allar viðeigandi afurð og auðkenni afurðarafbrigðis og víddir í leitarskilyrði
 
 Dæmi um afurð og auðkenni afurðarafbrigðis og víddir sem hægt er að leita eftir eru **vörunúmer, afurðarheiti**, **Sýna afurðarnúmer, Afbrigði, Lit, Stærð, Stíl, leitarnafn o.s.frv**.  
 
-Fara í **Sölu og markaðssetningar &gt;Uppsetningu &gt;Leit &gt;Leitarskilyrði** síðu. Á **Leitarskilyrði** síðuna gerir kleift að skilgreina skilyrði fyrir viðskiptavinurinn, viðfangs og afurðaleit. Gangið úr skugga um verið sé að sía síðuna með leitarskilyrði afurðar. Þetta er gert með því að skipta í **Afurð** í valmynd síðu.  
+Farið í **Sala og markaðssetning &gt; Uppsetning &gt; Leita &gt; Leitarskilyrði** síðuna. Á **Leitarskilyrði** síðuna gerir kleift að skilgreina skilyrði fyrir viðskiptavinurinn, viðfangs og afurðaleit. Gangið úr skugga um verið sé að sía síðuna með leitarskilyrði afurðar. Þetta er gert með því að skipta í **Afurð** í valmynd síðu.  
 
-Smellið til að bæta birtu afurðarnúmeri leitarskilyrði **Nýtt** í síðu fyrir valmyndinni. Þetta verður að bæta nýrri færslu í á **Leitarskilyrði** hnitanetinu. Opna skal **svæðisheiti** uppflettingardálk og velja **DisplayProductNumber**. Til að bæta afbrigði afurðarinnar leitarskilyrði, stofna nýja færslu í á ** Leitarskilyrði ** hnitanetinu og velja **configId** í á **svæðisheiti** dálk. Stofna færslu á sama hátt með **svæðisheiti** **InventColorId** fyrir litavíddina, **InventSizeId** fyrir stærð víddar, og **InventStyleId** fyrir stíl víddar.
+Til að birta afurðarnúmeri á leitarskilyrði, smellið á **Nýtt** í valmyndsíðu. Þetta bætir nýrri færslu við **Leitarskilyrði** hnitanetið. Opna skal **svæðisheiti** uppflettingardálk og velja **DisplayProductNumber**. Til að bæta skilgreiningu afurðar við leitarskilyrði, skal stofna nýja færslu í **Leitarskilyrði **hnitanetinu og velja **configId** í dálkinum **Reitarheiti**. Stofna færslu á sama hátt með **svæðisheiti** **InventColorId** fyrir litavíddina, **InventSizeId** fyrir stærð víddar, og **InventStyleId** fyrir stíl víddar.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. skref: Fylla gagnasafnstöflu sem notaður er fyrir afurðaleit
 
-Í **Leitarskilyrði** síðunni, smellið á **Uppfærsla fyrir leitargögn** hnappinn. Í **uppfærsla fyrir leitargögn** svarglugganum, gangið úr skugga um að **Uppruni** er stillt á **Afurð**, og smellið svo á **í lagi**. Kerfið mun steypa saman í eina töflu allra valinna leitarskilyrða tilgreind í skrefi 1. Ef lotu afurðir og afurðarafbrigði, þessi aðgerð getur verið mjög tímafrek og hægt er að fá viðvörun. Við mælum með að áætlir að fylla í leitartöfluna á runuþjóni á þeim tíma þegar þjóninn er ekki of upptekinn.  
+Í **Leitarskilyrði** síðunni, smellið á **Uppfærsla fyrir leitargögn** hnappinn. Í **uppfærsla fyrir leitargögn** svarglugganum, gangið úr skugga um að **Uppruni** er stillt á **Afurð**, og smellið svo á **í lagi**. Kerfið mun leggja saman í eina töflu allar valdar leitarskilyrði tilgreind í skrefi 1. Ef þú hefur fjölda af vörum og afurðarafbrigði, getur þetta ferli verið langt og þú getur fengið viðvörun. Við mælum með að áætlir að fylla í leitartöfluna á runuþjóni á þeim tíma þegar þjóninn er ekki of upptekinn.  
 
 Þar til taflan er fyllt út veitir afurðaleit ekki rétt niðurstöður. Ef þú færð engar leitarniðurstöður skal tryggja að þessi tafla er útfyllt.  
 
@@ -79,8 +82,10 @@ Taflan þarf aðeins að vera útfyllt þegar leitarskilyrði er breytt. Nýlega
 
 ### <a name="step-3-enable-the-lookup-for-product-search-on-sales-and-purchase-order-lines"></a>Skref 3: Virkja uppfletting fyrir afurðaleit á sölu og innkaupapöntunarlínur
 
-Hægt er að virkja þennan eiginleika með því að **Sölu og markaðssetningar &gt;Uppsetningu &gt;Leit &gt;Leita færibreytur** og stilling **uppfletting Virkja leit** að **Já** á á **Almennt** flipanum.  
+Þessar aðgerðir er hægt að virkja með því að fara í **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur** og stilla **Virkja uppflettingu fyrir leit** á **Já** á flipanum **Almennar**.  
 
 Fyrir færslu í sölupöntunarlínu, er sjálfgefna hegðun að opna **afurðaleit** síðuna þegar byrjað er að því að slá inn í **Vörunúmer** svæðinu og styðjið á **Tab** lykill. Síðan **afurðaleit** breytir samhengi við stofnun á pöntunarlínu og má telja hana óþarflega ágenga. Ef óskað er að sækja leitarniðurstöður í uppflettingu og glata ekki samhengi við innfærslu pöntunarlínu, er hægt að nota uppflettingarleit í staðinn. Ef þú leitar að afurð eða afurðarafbrigði en velur ekki neitt á uppflettingu og ýtið á **Tab** lykill, birtist **afurðaleit** síða.
+
+
 
 

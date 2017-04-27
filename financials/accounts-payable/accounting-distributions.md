@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil. 
 
 Dreifingar á fjárhagsupphæð eru geta í öllu forritinu sem er notað og framlengt af hverju upprunaskjalið, eins og  innkaupapöntun, reiknings lánardrottins, kostnaðarskýrslu og reikningur með frjálsum texta. Að sjálfgefnu er sjálfgefna dreifing á fjárhagsupphæð mynduð fyrir hverja línu upprunaskjals og peningaupphæð og er virk fyrir breytingu ef skilyrði mæla svo fyrir. 
 
 > [!Note] 
-> Sumar skjöl styður einnig haus skjals upphæða, eins og gjalda fyrir sölupantanir og reikninga. 
+> Sum skjöl styðja einnig peningaupphæðir skjals fyrir haus, eins og gjalda fyrir pantanir og reikninga. 
 
 Almenn getu dreifingar á fjárhagsupphæð veita eftirfarandi valkostum fyrir dreifingu vinnslu dreifingar á fjárhagsupphæð  :
 
@@ -44,15 +47,17 @@ Almenn getu dreifingar á fjárhagsupphæð veita eftirfarandi valkostum fyrir d
     -   **Skipta** hnappur gæti virkjaður fyrir yfirstig dreifingar. **Skipta** býr til nýja dreifing á fjárhagsupphæð og skipta getur byggt á prósentu, upphæð eða magn.
     -   ** Dreifa jafnt** er hægt að nota í samsetningu með **Skipta** til að úthluta sjálfkrafa upphæð jafnt á allar dreifingar.
     -   **Endurstilla** hnappur gæti verið virkjaður fyrir yfirstig dreifingar þegar fleiri en einn dreifingar eru til. **Endurstilla** bakfærir allar handvirkar breytingar í dreifingu með því að eyða öllum fyrirliggjandi dreifingum mynda sjálfgefna dreifingu aftur.
-    -   Allar undirskipað dreifingu, eins og afslátt, gjöld og virðisaukaskatt, fylgir alltaf yfirstig dreifingar. Hægt er að skoða vensl móðurfyrirtækis/útibús á **Tilvísun**&gt;**Yfir upplýsingar**.
+    -   Allar undirskipað dreifingu, eins og afslátt, gjöld og virðisaukaskatt, fylgir alltaf yfirstig dreifingar. Hægt er að skoða vensl yfireiningar/undireiningar á **Tilvísun** &gt; **Upplýsingar yfireiningar**.
     -   Aðallykils og fjárhagsvídda gæti verið hægt að breyta fyrir undireiningar líka.
     -   Fjárhagsvíddir í dreifingu á fjárhagsupphæð fylgja sjálfgefnu mynstur sem skjal getur  útvíkkað. Frekari upplýsingar um ferlið fást í tengdum greinum.
-    -   Frávik dreifingar gætu myndast í samsvörunaraðstæðum, eins og jöfnun milli innkaupapöntunar og reiknings lánardrottins. Hægt er að skoða jöfnunartengsl milli dreifingar á fjárhagsupphæð við **Tilvísun**&gt;**Skjalsupplýsingar**.
-    -   **Leiðrétta** hnappur birtist og er virk fyrir skjöl sem styðja leiðréttingar. **Rétt** stofnar nýja dreifingar. Fyrst skal dreifingar eru stofnaðar sem bakfæra upprunalegu dreifingar. Ekki er hægt að breyta þessar dreifingar. Næsta, nýja rétt dreifingar á fjárhagsupphæð eru stofnaðar. Hægt er að breyta þessar dreifingar hægt var að breyta upphaflegri dreifingar.
+    -   Frávik dreifingar gætu myndast í samsvörunaraðstæðum, eins og jöfnun milli innkaupapöntunar og reiknings lánardrottins. Hægt er að skoða jöfnunartengsl milli dreifingar á fjárhagsupphæð við **Tilvísun** &gt; **Skjalsupplýsingar**.
+    -   **Leiðrétta** hnappur birtist og er virk fyrir skjöl sem styðja leiðréttingar. **Leiðrétta** stofnar nýja arðgreiðslu. Fyrst skal stofna dreifingar sem bakfæra upprunalegu dreifingar. Ekki er hægt að breyta þessum dreifingum. Næst, ný leiðréttandi dreifingar á fjárhagsupphæð eru stofnaðar. Hægt er að breyta þessar dreifingar hægt var að breyta upphaflegri dreifingar.
     -   ** upplýsingar um verk** hnappurinn er virkjaður sem viðauki þegar lína er tengd  verki. Fjárhagsupphæð gerir kleift að breyta upplýsingum eins og fjármögnunaraðila og línueiginleika.
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
--   ** Skoða dreifingu ** – Skoða dreifingar á fjárhagsupphæð fyrir allar línur og upphæða á skjalinu. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
+-   ** Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir á skjali. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 
 
-Nánari upplýsingar, sjá [dreifingar á Fjárhagsupphæð og færslur í undirbók fyrir textareikninga](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+Nánari upplýsingar má nálgast á [Um bókhaldsfærslur dreifingar og undirbókar færslubók fyrir reikningur með frjálsum texta](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
 

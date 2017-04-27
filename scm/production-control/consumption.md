@@ -29,20 +29,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="calculate-material-consumption"></a>Reikna út efnisnotkunina
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein gefur upplýsingar um ýmsa valkosti sem tengjast útreikningi á efnisnotkun. 
 
 eftirfarandi valkosti sem tengjast útreikningi á hráefnisnotkun eri tiltækir í **Uppsetningu** og **Skrefanotkun** flipana í á **Línuupplýsingar** flýtiflipa í **Uppskrift** síðu.
 
 ## <a name="variable-and-constant-consumption"></a>Breytileg og föst notkun
-Í því **Notkun er** er hægt að velja hvort notkun er reiknaður sem fast magn eða breytileg. Velja **Fasti** ef fast magn eða rúmmál er nauðsynleg fyrir framleiðsluna, óháð því magni sem er framleitt. Velja **Breytilegt**, sem er sjálfgefna stillingin, sé áskilin upphæð efnis í fullbúnu vörunum í hlutfalli við fjölda fullbúnar vörur sem eru framleiddar.
+Í **Notkun er** reit er hægt að velja hvort eigi að reikna notkun út sem fast magn eða breytilegt magn. Velja **Fast** ef fast magn eða rúmmál er nauðsynleg fyrir framleiðsluna, óháð því magni sem er framleitt. Velja **Breytilegt**, sem er sjálfgefna stillingin, sé áskilin upphæð efnis í fullbúnu vörunum í hlutfalli við fjölda fullbúnar vörur sem eru framleiddar.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Formúla notuð við útreikning notkunar
 Í **Formúlu** svæði er hægt að setja upp mismunandi formúlur til að reikna út efnisnotkunina. Ef nota á sjálfgefna gildið **Staðlaða**, notkun er ekki reiknað út frá formúlu. Eftirfarandi formúlur vinna ásamt **Hæð**, **Breidd**, **Dýpt**, **Þéttleiki**, og **Fast** svæði:
 
--   Hæð \*Fast
--   Hæð \*Breidd \*Fast
--   Hæð \*Breidd \*Dýpt \*Fast
--   (Hæð \*Breidd \*Dýpt / Þéttleiki) \*Fast
+-   Hæð \* Fasti
+-   Hæð \* Breidd \* Fasti
+-   Hæð \* Breidd \* Dýpt \* Fasti
+-   (Hæð \* Breidd \* Dýpt / Þéttleiki) \* Fasti
 
 ## <a name="rounding-up-and-multiples"></a>Sléttun og margfeldi
 Saman leyfa reitirnir **Sléttun** og **Margfeldi** þér að slétta gildi efnisnotkunar . Til dæmis er hægt að slétta gildinu samkvæmt afgreiðslueiningu sem hráefni er tekin til fyrir framleiðslu. Eftirtaldir valkostir eru tiltækir í **Sléttun** svæði: **Magn**, **Mælingu**, og **Notkun**.
@@ -53,7 +56,7 @@ Ef **Magn** er valið sem sléttunar mekanismi, verður magn að vera margfeldi 
 
 ### <a name="measurement"></a>Mæling
 
-Yfirleitt, veljið **Mælingu** sem mekanisma sléttunar þegar hráefni kemur í ákveðnum stærðum. Til dæmis er stykki af 2 metra málmröri krafist fyrir fullbúin framleiðsluvara og málmrörið er geymt í 4.5 metra lengdum. Í þessu tilfelli má nota **Mælingu** mekanisma sléttunar til að reikna út hversu mörg málmrör þarf til að framleiða tiltekinn fjölda stykkja fullbúinnar framleiðsluvara. Til dæmis, í **Formúlu** er stillt á **Hæð \*Fasti**. Í **Hæð** er stillt á **2** til að tilgreina lengd tube sem er krafist fullbúin framleiðsluvara. Í **margfeldi** er stillt á **4.5** til að tilgreina í rör er tekið til í lengdir 4.5 metra. Útreikningurinn er:
+Yfirleitt, veljið **Mælingu** sem mekanisma sléttunar þegar hráefni kemur í ákveðnum stærðum. Til dæmis er stykki af 2 metra málmröri krafist fyrir fullbúin framleiðsluvara og málmrörið er geymt í 4.5 metra lengdum. Í þessu tilfelli má nota **Mælingu** mekanisma sléttunar til að reikna út hversu mörg málmrör þarf til að framleiða tiltekinn fjölda stykkja fullbúinnar framleiðsluvara. Til dæmis hér, í **Formúlu** er stillt á **Hæð \* Fasti**. Í **Hæð** er stillt á **2** til að tilgreina lengd rörs sem er krafist fyrir fullbúin framleiðsluvara. Í **margfeldi** er stillt á **4.5** til að tilgreina í rör er tekið til í lengdir 4.5 metra. Útreikningurinn er:
 
 1.  Fjöldi margfelda sem er krafist fyrir 10 stykki af fullbúin framleiðsluvara: 10 ÷ 2 = 5 stykki
 2.  Samtals notkun:  4,5 × 5 = 22.5 metrar af málmröri
@@ -78,5 +81,7 @@ Skrefanotkun er notuð til að reikna út fastanotkun í magntímabilum. Ef þú
 | 200,00      | 40.0000  |
 
 Magn uppskriftar (BOM) er 1 og framleiðslumagnið er 110. Formúla fyrir notkun er Úr röð (Magn) = Notkun. Þar sem framleiðslumagns er 110 fellur það í "Úr 100 röð." Þessvegna er magnið 20.
+
+
 
 
