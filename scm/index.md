@@ -1,6 +1,6 @@
 ---
-title: "heimasíða birgðakeðjustjórnunar"
-description: "Þessi síða bendir á tilföng sem munu hjálpa til við að nota Microsoft Dynamics 365 for Operations - Útvegað aðfangakeðju árangursríkari."
+title: "Stjórnun aðfangakeðju – heimasíða"
+description: "Þessi síða vísar á tilföng sem mun auðvelda skilvirkari notkun Microsoft Dynamics 365 for Operations – Aðfangakeðja."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,35 +25,35 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="supply-chain-management-home-page"></a>heimasíða birgðakeðjustjórnunar
+# <a name="supply-chain-management-home-page"></a>Stjórnun aðfangakeðju – heimasíða
 
 [!include[banner](includes/banner.md)]
 
-Þessi síða bendir á tilföng sem munu hjálpa til við að nota Microsoft Dynamics 365 for Operations - Útvegað aðfangakeðju árangursríkari. 
+Þessi síða vísar á tilföng sem mun auðvelda skilvirkari notkun Microsoft Dynamics 365 for Operations – Aðfangakeðja. 
 
-## <a name="whats-new-and-in-development"></a>Hvað er nýtt og þróun
-Farið í <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> til að sjá hvaða nýjar aðgerðir eru losaðar og hvað nýjar aðgerðir eru í þróunarumhverfi. 
+## <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
+Á <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
-## <a name="core-concepts-and-tasks"></a>Kjarnauppsetning hugtök og verk
-*  Í vinstri rúðunni, veljið svæði fyrir aðgerðina til að fræðast meira um þær. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Vinna innleið ASNs í vöruhúsakerfinu</a> (video) 
+## <a name="core-concepts-and-tasks"></a>Grunnhugtök og verk
+*  Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Vinnsla ASN á innleið í vöruhúsakerfi</a> (myndskeið) 
 
 
-## <a name="blogs"></a>Blogs
-Margar efnisatriði um framleiðslu og birgðakeðjustjórnun eru á á <a href="https://blogs.msdn.microsoft.com/axmfg/">Framleiðslufyrirtæki Rannsókn Dynamics AX & D Hópur Blogg</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Birgðakeðjustjórnun í Dynamics AX Rannsókn & D Hópur Blogg</a>. Flestar voru skrifuð fyrri útgáfu af Dynamics 365 for Operations en enn eru nota sömu hugtök og aðferðir sem eru lík hvað varðar gildandi útgáfu. 
+## <a name="blogs"></a>Blogg
+Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX </a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Dynamics 365 for Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
 
-Til dæmis er hægt að lesa síðustu færslurnar um: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Announcing Dynamics 365 for Operations – Warehousing</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Endurbætt fylgiseðla virkni (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Dreifing frá dreifingarstöð úr framleiðslupöntunum yfir flutningspantanir</a>
+Til dæmis er hægt að lesa nýlegar færslur um: 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Announcing Dynamics 365 for Operations – Warehousing</a> (kynning á vöruhúsum í Dynamics 365 for Operations)
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Improved packing functionality (Dynamics 365 for Operations 1611)</a> (endurbætt pökkunarvirkni (Dynamics 365 for Operations 1611))
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Dreifing frá dreifingarstöð úr framleiðslupöntunum til flutningspantana</a>
 
 ## <a name="white-papers"></a>Hvítbækur
-* Í <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - Hafist Handa með Kostnaðarbókhald</a> hvítt blað veitir grundvallarskref skilgreiningu Microsoft Dynamics 365 for Operations – Kostnaðarbókhalds svo hægt sé að gera greiningu raunverulegan kostnað. Það veitir einnig röð ferli sem hægt er að ljúka í þeirri röð sem þær birtast.
-* Í <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Yfirfærslu Framleiðsluferli: Tengd Loforð og Vinnsluröðun Kanban</a> hvítt blað sýnir upplýsingar um vinnsluröðun kanban og kynnir til sögunnar hugtakið sölupöntun hún tekur með sem notar er tengd við loforðs (CTP) aðferð sem stýringu. Hún líka er útskýrt hvernig CTP getur verið samsettur með kanbans tilvik til að sameina pöntun eða byggingu pöntun sviðsmyndir virðislíkan.
-* Í <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - Uppskriftarútreikningurinn með Kostnaðarútreikningur Kostnaðarskjals</a> hvítt blað lýsir uppsetningu kostnaðarskjals með efni og framleiðslu og sýnir hvernig uppsetningu hefur áhrif á útreikning Uppskrifta. Hægt er að gera exercises í Appendix til að komast að því tilgangi og er notuð þar sem verið er fengin frá lesa þetta skjal til að gera útreikning Uppskriftar greiningu.
+* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - Getting Started with Cost Accounting</a> (Microsoft Dynamics 365 for Operations – hafist handa við kostnaðarbókhald) inniheldur grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Operations – Kostnaðarbókhald fyrir greiningu raunkostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
+* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Lean Manufacturing: Capable to Promise and Kanban Job Scheduling</a> (Dynamics 365 for Operations – lean-framleiðsla: afhendingargeta og kanban-vinnsluröðun) lýsir kanban-vinnsluröðun og inniheldur kynningu á sölupöntunargerð sem nýtir afhendingargetumátann til að stýra (CTP) afhendingardagsetningum. Þar er einnig að finna útskýringu á hvernig hægt er að sameina CTP-afhendingargetu við tilvikskanban til að setja upp sviðsmyndir fyrir samsetningu eftir pöntun eða byggingu eftir pöntun.
+* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - BOM Calculation by Using a Costing Sheet</a> (Microsoft Dynamics 365 for Operations – útreikningur uppskriftar með notkun kostnaðarskjals) lýsir því hvernig hægt er að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Æfingar er að finna í þjálfunarviðaukanum og vitneskju sem fæst með lestri þessa skjals er hægt að nýta við greiningu uppskriftaútreiknings.
 
-## <a name="elearning-courses"></a>eLearning námskeið
-Nánari upplýsingar um Microsoft Dynamics 365 for Operations þjálfun, sjá <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Nám Portal</a>. (krefst CustomerSource lykil) 
+## <a name="elearning-courses"></a>Rafræn námskeið
+Upplýsingar um Microsoft Dynamics 365 for Operations-þjálfun eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-reiknings) 
 
 
 

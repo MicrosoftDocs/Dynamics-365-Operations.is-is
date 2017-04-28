@@ -1,6 +1,6 @@
 ---
-title: "Fjármálastjórnun – heimasíða"
-description: "Þetta efnisatriði gefur lista yfir efnisatriði hjálpar og önnur tilföng fyrir eiginleika fjármálastjórnunar í Microsoft Dynamics 365 for Operations."
+title: "Fjárhagsstjórnun – heimasíða"
+description: "Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,22 +24,22 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Fjármálastjórnun – heimasíða
+# <a name="financial-management-home-page"></a>Fjárhagsstjórnun – heimasíða
 
 [!include[banner](includes/banner.md)]
 
-Þetta efnisatriði gefur lista yfir efnisatriði hjálpar og önnur tilföng fyrir eiginleika fjármálastjórnunar í Microsoft Dynamics 365 for Operations. 
+Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Operations. 
 
-Veljið eiginleikasvæði til að fá frekari upplýsingar um það.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
+- [Viðskiptaskuldir](accounts-payable\accounts-payable.md) 
+- [Viðskiptakröfur](accounts-receivable\accounts-receivable.md) 
+- [Reiðufjár- og bankastjórnun](cash-bank-management\cash-bank-management.md)
+- [Kostnaðarbókhald](cost-accounting\cost-accounting-home-page.md)
+- [Eignir](fixed-assets\fixed-assets.md)
+- [Fjárhagur](general-ledger\general-ledger.md) 
+- [Verkefnastjórnun](project-management\overview-project-management-accounting.md)
+- [Hið opinbera](public-sector\public-sector-functionality.md) 
+- [Fjárhagsáætlun](budgeting\budgeting-overview.md) 
 
 
 

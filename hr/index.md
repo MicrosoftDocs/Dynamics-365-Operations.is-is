@@ -1,6 +1,6 @@
 ---
 title: "Mannauður"
-description: "Mannauður einfalda mörg reglubundin skráahald verk og gerir fjölda ferli sem tengjast mönnunar-fyrirtækinu sjálfvirkt. Það veitir einnig ramma starfsfólks mannauðs til að stjórna svið eftirlit. Þessara svæða með ráðningarverk starfsmanns og varðveislu, stjórnun fríðinda, þjálfun, afköst skoðunarferlum, og stjórnun breytinga."
+description: "Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,77 +25,77 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Velkomin(n) í mannauði
+# <a name="welcome-to-human-resources"></a>Velkomin(n) í mannauðsstjórnun
 
 [!include[banner](includes/banner.md)]
 
-Mannauður einfalda mörg reglubundin skráahald verk og gerir fjölda ferli sem tengjast mönnunar-fyrirtækinu sjálfvirkt. Það veitir einnig ramma starfsfólks mannauðs til að stjórna svið eftirlit. Þessara svæða með ráðningarverk starfsmanns og varðveislu, stjórnun fríðinda, þjálfun, afköst skoðunarferlum, og stjórnun breytinga.
+Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
 
-Hægt er að nota mannauð til að ljúka eftirfarandi verkum:
+Hægt er að nota „Mannauður“ til að ljúka þessum verkum:
 
-> + Sjá um stjórnskipulag
-> + Viðhalda alhliða starfsmannaupplýsingum frá ráðningu til að hætta störfum.
-> + Skilgreina og stjórna fríðindaáætlanir, skrá starfsmenn, úthluta háðar tryggingar og útnefna þiggjendur.
-> + Koma á fót og fylgjast með reglum um fjarvistir.
-> + Innleiða og rekja tímastjórnun sem byggist á forstillingum og mynda launaupplýsingar til að flytja út í launakerfi
-> + Stjórna hæfni starfsmanns.
-> + Fara yfir afköst og innleiða markmið starfsmanns.
-> + Setja upp, afhenda og greina þjálfunarnámskeið sem innihalda dagskrár, lotur og námskeiðshluta.
-> + Ráða starfsmenn og rekja umsækjendur.
+> + Stjórnun skipulagseininga fyrirtækis.
+> + Viðhald ítarlegra upplýsinga um starfskrafta frá ráðningu til starfsloka.
+> + Skilgreining og stjórnun fríðindaáætlana, skráning starfskrafta, úthlutun trygginga skjólstæðinga og tilnefning viðtakenda.
+> + Uppsetning og eftirlit með fjarvistarreglum.
+> + Innleiðing og rakning tímastjórnunar á grunni forstillingar og vinnsla launaupplýsinga fyrir útflutning í launakerfi.
+> + Stjórnun hæfni starfskrafta.
+> + Frammistöðumat og innleiðing markmiða fyrir starfskrafta.
+> + Uppsetning, afhending og greining þjálfunarnámskeiða sem innihalda dagskrá, lotur og námsleiðir.
+> + Ráðningar starfskrafta og rakning umsækjenda.
 
-<a name="develop-a-human-resources-strategy"></a>Þróa standist mannauðs
+<a name="develop-a-human-resources-strategy"></a>Þróun mannauðsáætlunar
 ---------------------------------------------------------
 
-Þegar unnið er með mannauði verður ákveðið hvernig skipulag fyrirtækis þíns með einingar eins og deildir, störf og stöður. Þetta eru milli foundational einingar sem verður að skilgreina í mannauði. Einstaka starfsmenn eru úthlutaðar stöður sem eru tengdar við vinnslur.
+Þegar unnið er með „Mannauður“ þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf í mannauðsstjórnuninni. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
 
--   [Skipulag vinnuafls með deildir, störf og stöður](departments-jobs-positions.md)
--   [Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki](set-up-company-specific-hr-parameters.md)
--   [Setja upp færibreytur mannauðs (HR) á milli lögaðila](set-up-hr-parameters-across-legal-entities.md) 
+-   [Vinnuafl skipulagt með notkun deilda, starfa og staða](departments-jobs-positions.md)
+-   [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](set-up-company-specific-hr-parameters.md)
+-   [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Ráðningar, ráða og hvetja starfsmenn
+## <a name="recruit-hire-and-motivate-employees"></a>Ráðning og umbun starfsmanna
 
-Ráðningarverkum stjórna efni notuð í auglýsingum fyrir opnar stöður og getur hjálpað við að stjórna forrit fyrir vinnslu auglýstra starfa. Hægt er að nota til að Rekja svör við vinnslubókunum fyrir tilgreint ráðningarverk, eða ákveðna umsækjendur og uppfæra stöðu opinna staða. Einnig er hægt að ráða einn starfsmenn eða stjórna "fjöldaráðningarverk," sem auðvelda ráðinn marga starfsmenn, t.d. til að mæta þörfum tillit til árstíðarbundinna viðskiptatengsl.
+Ráðningarverk stýra því hvað birtist í auglýsingum um opnar stöður og koma að gagni við meðhöndlun umsókna um störf. Hægt er að nota þau til að rekja viðbrögð við auglýstum störfum fyrir tiltekið ráðningarverk eða tiltekna umsækjendur og uppfæra stöðu auglýstra starfa. Einnig er hægt að ráða einn umsækjanda eða stjórna fjöldaráðningarverkum sem fela í sér ráðningu fjölda starfskrafta, t.d. til að anna árstíðabundnum þörfum.
 
--   [Manage a recruiting process](manage-recruiting-process.md)
--   [Mass hire projects](mass-hire-projects.md) 
+-   [Stjórnun ráðningarferlis](manage-recruiting-process.md)
+-   [Fjöldaráðningarverk](mass-hire-projects.md) 
 
-Eftir að höfum ráðið starfsfólk, er hægt er að setja upp áætlun að auðvelt sé og réttmætt stjórna launum auk stjórna vörum, eins og tölvur og símar sem fyrirtækið lánar hennar starfsmönnum. Er hægt að stofna fasta og breytilega greiðsluáætlun auk skilgreina reglur sem eiga við launafyrirkomulag sem uppfylla skilyrðin fyrir þá áætlun.
+Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
 
 -   [Launafyrirkomulag](compensation-plans.md)
--   [Stofna launafyrirkomulag fastra launa](create-fixed-compensation-plans.md)
--   [Setja upp breytilega launaáætlun.](create-variable-compensation-plans.md)
+-   [Launafyrirkomulag fastra launa stofnað](create-fixed-compensation-plans.md)
+-   [Launafyrirkomulag breytilegra launa](create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Þróa og þjálfa starfsmenn
 
-Til að aðstoða við starfsmennina sem ná markmiðum sínum career meðan afhend mikilvæg viðskiptaferli þarf að setja upp markmið, stofna skoðunarferlum afköst og rekja svörun til Að þróa þarf hæfni starfsmanna, einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námskeiðshlutans og lotanna áður en að skrá leiðbeinanda á námskeiði eða skrá einhverjum námskeiðs. Leiðbeinendur verða að vera fyrirliggjandi sem starfsmenn, umsækjendur eða tengiliðir.
+Hægt er að veita starfsmönnum stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur, sem gera starfsm0nnum kleift að öðlast viðeigandi hæfni, áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
--   [Frammistöðustjórnun](performance-management-overview.md)
--   [Raðið hæfni vinnuafl og þarfnast viðskiptaferli](skills.md)
--   [Administer training through courses](courses.md)
+-   [Árangursstjórnun](performance-management-overview.md)
+-   [Samþætting hæfni starfsfólks og rekstrarþarfa](skills.md)
+-   [Þjálfun með námskeiðum](courses.md)
 
-## <a name="create-and-maintain-benefits"></a>Stofna og viðhalda fríðindum
+## <a name="create-and-maintain-benefits"></a>Stofnun og viðhald fríðinda
 
-Auk uppbótar starfsfólk með laun, laun og kaupauka, hægt að þróa fríðinda forrit svo sem sjúkratryggingar og eftirlaunakerfi. Einnig er hægt að stjórna fríðindum svo lánshlut forrit, sem fyrirtækið lánar vörur eins og símar, eða tölvur hennar starfsmönnum.
+Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fríðindaáætlunum á borð við heilbrigðistryggingar og eftirlaunasjóði. Einnig er hægt að stjórna fríðindum á borð við lánsáætlanir þar sem fyrirtækið lánar starfsmönnum sínum hluti, t.d. tölvur og síma.
 
--   [Stjórna fríðindum forritið](manage-benefit-program.md)
--   [Benefit eligibility policies](benefit-eligibility-policies.md)
--   [Manage items lent to workers](loan-items.md)
+-   [Stjórnun fríðindaáætlunar](manage-benefit-program.md)
+-   [Stefnur um hæfni til fríðinda](benefit-eligibility-policies.md)
+-   [Stjórnun hluta sem starfskraftar fá lánaða](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Viðhalda öryggi vinnustaðar og reglufylgni
+## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
-Microsoft Dynamics AX getur hjálpað við að viðhalda örugga vinnuumhverfis sem samræmi viðeigandi lögum, þar á meðal lagaákvæðum um fatlaða Bandaríkjamenn og innflytjendur og veiting ríkisborgararéttar lögum meðal annars. Til dæmis er hægt stjórna líkamlegar þarfir fyrir tilteknar vinnslur, auk rekja beiðnir um vinnuaðstöðu sem getur hjálpað fyrirtækinu fínstilla hæfni hennar vinnuafls.
+Microsoft Dynamics AX býður upp á stuðning við viðhald öruggs vinnuumhverfis sem uppfyllir gildandi lög, þar á meðal bandarísk lög um ríkisborgara sem eiga við fötlun að stríða (e. Americans with Disabilities) og lög um innflytjendur og veitingu ríkisborgararéttar, svo fátt eitt sé nefnt. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
 
--   [Skjámyndin I-9 ráðningar sannprófunar](localizations/noam-usa-form-i-9-verification.md)
--   [Samræmist Americans with Disabilities Act](localizations/noam-usa-comply-ada.md)
+-   [Staðfesting starfs með I-9 eyðublaði](localizations/noam-usa-form-i-9-verification.md)
+-   [Eftirfylgni við lögin „Americans with Disabilities“](localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Safna upplýsingum með spurningalista
+## <a name="gather-information-using-questionnaires"></a>Upplýsingasöfnun með notkun spurningalista
 
-Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ýmissa nota. Í Eiginleiki Spurningalista er hægt að hanna og stofna spurningalista. Þegar spurningalista er tilbúið er hægt að dreifa hann mikið eða á tilteknum hóp svarendur til að ljúka. Eftir að svarendur veita svörum sínum, er hægt að yfirfara og greina niðurstöður.
+Hægt er að hanna og úthluta spurningalistum til að safna upplýsingum sem nýta má til ýmissa hluta. Spurningalistaeiginleikinn gerir þér kleift að hanna og búa til spurningalista. Þegar spurningalisti er tilbúinn er hægt að dreifa honum á alla eða tiltekinn svarenda. Þegar svarendur hafa lokið við að fylla spurningarlistann út er farið yfir svörin og niðurstöðurnar greindar.
 
--   [Questionnaires](questionnaires.md)
--   [Design a questionnaire](design-questionnaires.md)
--   [Distribute and complete a questionnaire](distribute-questionnaires.md)
--   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
+-   [Spurningarlistar](questionnaires.md)
+-   [Hönnun spurningalista](design-questionnaires.md)
+-   [Dreifing og útfylling spurningalista](distribute-questionnaires.md)
+-   [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
 
 
 

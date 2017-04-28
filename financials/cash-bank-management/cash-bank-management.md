@@ -1,6 +1,6 @@
 ---
-title: "Heimasíða fyrir færibreytur reiðufjár- og bankastjórnunar"
-description: "Hægt er að nota Reiðufé og bankakerfi til að vinna með bankareikninga sem lögaðila ásamt fjármálaskjölum sem tengjast þeim bankareikninga."
+title: "Heimasíða reiðufjár- og bankastjórnunar"
+description: "Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,53 +25,53 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="cash-and-bank-management-home-page"></a>Heimasíða fyrir færibreytur reiðufjár- og bankastjórnunar
+# <a name="cash-and-bank-management-home-page"></a>Heimasíða reiðufjár- og bankastjórnunar
 
 [!include[banner](../includes/banner.md)]
 
 
-Hægt er að nota Reiðufé og bankakerfi til að vinna með bankareikninga sem lögaðila ásamt fjármálaskjölum sem tengjast þeim bankareikninga. 
+Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum. 
 
-Þessar instruments með innborgunarseðlum, ávísunum, víxla og eigin víxla. Einnig er hægt að afstemma bankayfirlit og prenta bankagögn á staðlaðar skýrslur.
+Á meðal þeirra gerninga eru innborgunarseðlar, ávísanir, víxlar og eigin víxlar. Einnig er hægt að stemma af og prenta bankagögn út á hefðbundnum skýrslum.
 
--   [Cash discounts](cash-discounts.md)
--   [Settlement overview](settlement-overview.md)
--   [Configure settlement](configure-settlement.md)
--   [Foreign currency revaluation for Accounts payable and Accounts receivable](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
--   [Kreditbréf](letters-of-credit.md)
--   [Kreditbréf og innflutningssafn](letters-of-credit-import-collections.md)
--   [Ábyrgðarbréf](letters-of-guarantee.md)
--   [Yfirlit ítarlegrar bankaafstemmingar](advanced-bank-reconciliation-overview.md)
--   [Configure advanced bank reconciliation](configure-advanced-bank-reconciliation.md)
--   [Skilgreina ítarlegan innflutning bankaafstemmingar](set-up-advanced-bank-reconciliation-import-process.md)
--   [Afstemma bankayfirlit með ítarlegri bankaafstemmingu](reconcile-bank-statements-advanced-bank-reconciliation.md)
--   [Setja upp samsvörunarreglur afstemmingar banka](set-up-bank-reconciliation-matching-rules.md)
--   [Setja upp miðstýrð greiðsla](set-up-centralized-payments.md)
+-   [Staðgreiðsluafslættir](cash-discounts.md)
+-   [Uppgjörsyfirlit](settlement-overview.md)
+-   [Skilgreina uppgjör](configure-settlement.md)
+-   [Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [Bankaábyrgðir](letters-of-credit.md)
+-   [Bankaábyrgðir og innflutningssöfn](letters-of-credit-import-collections.md)
+-   [Ábyrgðaryfirlýsingar](letters-of-guarantee.md)
+-   [Ítarlegt bankaafstemmingaryfirlit](advanced-bank-reconciliation-overview.md)
+-   [Skilgreining ítarlegrar bankaafstemmingar](configure-advanced-bank-reconciliation.md)
+-   [Uppsetning innflutnings ítarlegrar bankaafstemmingar](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Afstemming bankayfirlits með ítarlegri bankaafstemmingu](reconcile-bank-statements-advanced-bank-reconciliation.md)
+-   [Uppsetning samsvörunarreglna bankaafstemmingar](set-up-bank-reconciliation-matching-rules.md)
+-   [Uppsetning miðstýrðra greiðslna](set-up-centralized-payments.md)
 
-## <a name="accounts-payable-payments-and-settlements"></a>Greiðslur Viðskiptaskulda og jafnanir
--   [Centralized payments for Accounts payable](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Stofna reikninga lánardrottins með greiðslutillögu](../accounts-payable/create-vendor-payments-payment-proposal.md)
--   [Reverse a vendor payment](../accounts-payable/reverse-vendor-payment.md)
--   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
--   [Fyrirframgreiðsla reikninga og yfirlit yfir fyrirframgreiðslur](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenario: Take a cash discount outside the cash discount period](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+## <a name="accounts-payable-payments-and-settlements"></a>Greiðslur og uppgjör viðskiptaskulda
+-   [Miðstýrðar greiðslur fyrir viðskiptaskuldir](../accounts-payable/centralized-payments-accounts-payable.md)
+-   [Stofnun reikninga lánardrottins með greiðslutillögu](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Bakfærsla greiðslu lánardrottins](../accounts-payable/reverse-vendor-payment.md)
+-   [Greiðslur lánardrottins fyrir hlutaupphæð](../accounts-payable/vendor-payments-partial-amount.md)
+-   [Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu lánardrottins og uppgjör lokagreiðslu fyrir afsláttardagsetninguna](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Sviðsmynd: taka afslátt sem er hærri en reiknaður afsláttur fyrir greiðslu lánardrottins](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Sviðsmynd: taka staðgreiðsluafslátt utan tímabils staðgreiðsluafsláttar](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
-## <a name="accounts-receivable-payments-and-settlements"></a>Greiðslur Viðskiptakrafna og jafnanir
--   [Centralized payments for Accounts receivable](../accounts-receivable/centralized-payments-accounts-receivable.md)
--   [Customer payments for a partial amount](../accounts-receivable/customer-payments-partial-amount.md)
--   [Reimburse customers](../accounts-receivable/reimburse-customers.md)
--   [Scenario: Automatic settlement and prioritization](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Dæmi: Meðhöndlun staðgreiðsluafslátt fyrir ofgreiðslu](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenario: Settle a partial customer payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial customer payment before the discount date with a final payment after the discount date](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Dæmi: Nota ein greiðsla viðskiptavinar til að jafna marga reikninga sem ná yfir margar afsláttartímabil](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+## <a name="accounts-receivable-payments-and-settlements"></a>Greiðslur og uppgjör viðskiptakrafna
+-   [Miðstýrðar greiðslur fyrir viðskiptakröfur](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [Greiðslur viðskiptavinar fyrir hlutaupphæð](../accounts-receivable/customer-payments-partial-amount.md)
+-   [Endurgreiðsla til viðskiptavina](../accounts-receivable/reimburse-customers.md)
+-   [Sviðsmynd: sjálfvirkt uppgjör og forgangsröðun](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Sviðsmynd: umsýsla staðgreiðsluafsláttar fyrir ofgreiðslur](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu viðskiptavinar og uppgjör lokagreiðslu fyrir afsláttardagsetninguna](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu viðskiptavinar sem er með afslætti á kreditnótum](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Sviðsmynd: uppgjör hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Sviðsmynd: ein greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
