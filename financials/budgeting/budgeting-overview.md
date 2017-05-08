@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: f7b4efc06b8e64c05da026850b41cb5b68c33ec3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: aacce0449c9490c4ab66cacb9945ed64fa40de34
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -35,29 +36,29 @@ ms.lasthandoff: 03/31/2017
 -------------------------------------
 
 Áætlanaferli tilfanga fyrir fyrirtæki samanstendur yfirleitt af áætlun, fjárhagsáætlun og spárverkþáttum.
-[![Virkniþættir fjárhagsáætlunar](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Ferli fyrir bæði stjórnunaráætlun til langtíma og árlega fjárhagsáætlunargerð eru studd með skjali fjárhagsáætlunargerðar. Skjöl fjárhagsáætlunargerðar eru samþætt náið með Microsoft Excel. Notendur geta skilgreina ótakmarkaðan peningalegir og magnbundin aðstæður, og geta einnig skilgreina stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði frá toppi og niður eða frá botni og upp fjárhagsáætlunaraðferðir. Eftir að áætlun er komið á og samþykkt í Microsoft Dynamics 365 for Operations er fjárhagsáætlun umbreytt í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri fyrir viðhald fjárhagsáætlunar og til að halda upphæðir rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoðaðu upphaflegum fjárhagsáætlunum, og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkja fjárhagsáætlunarstýringu. Stig stýringar fer eftir menningu fyrirtækisins og aldursstigi fyrirtækis. Fyrirtæki sem hafa lágan aldur gætu haft áætlun "eins og hún er" og gætu verið meira í viðbrögðum en að sýna frumkvæði þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gæti virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt. Að lokum gætu mjög þroskaðar stofnanir stofnað fyrirtækismenningu þar sem starfsmenn eru menntaðir um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og "íhuga fund á netinu í stað þess að ferðast." Dynamics 365 for Operations býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendur félagsins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndi fara yfir fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara yfir fyrirliggjandi fjármagn fjárhagsáætlunar en geta ákveðið fyrir sjálfa sig hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notað til að skilgreina hversu vel fyrirtækið er rekið gagnvart fjárlögum. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í Microsoft Dynamics 365 for Operations eru hlaupandi spár studdur gegnum skjal fjárhagsáætlunargerðar sem fyrstu verkþætti fjárhagsáætlunargerðar. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt fjárhagsáætlunarferli.
+[![Virkniþættir fjárhagsáætlunar](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg) Ferli fyrir bæði stjórnunaráætlun til langtíma og árlega fjárhagsáætlunargerð eru studd með skjali fjárhagsáætlunargerðar. Skjöl fjárhagsáætlunargerðar eru samþætt náið með Microsoft Excel. Notendur geta skilgreint ótakmarkaðar peningalegar og magnbundnar aðstæður og geta einnig skilgreint stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði fjárhagsáætlunaraðferðir að ofan og niður eða að neðan og upp. Þegar fjárhagsáætlun hefur verið komið á og samþykkt í Microsoft Dynamics 365 for Operations er henni breytt í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri til að viðhalda fjárhagsáætluninni og til að halda upphæðum rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoða upphaflegar fjárhagsáætlanir og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkjað fjárhagsáætlunarstýringu. Stig stýringar fer eftir fyrirtækjamenningu og aldri fyrirtækisins. Nýlegri fyrirtæki gætu látið áætlunina vera „eins og hún er“ og sýnt frekar viðbrögð en gagnvirkni þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gætu virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt. Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem starfsmenn fá fræðslu um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og „íhuga fund á netinu í stað þess að ferðast.“ Dynamics 365 for Operations býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendum fyrirtækisins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndu fara fram úr fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara fram úr fyrirliggjandi fjármagni fjárhagsáætlunar en geta sjálfir ákveðið hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notuð til að skilgreina hversu vel fyrirtækið er rekið í samræmi við fjárhagsáætlun. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í Microsoft Dynamics 365 for Operations eru hlaupandi spár studdar gegnum skjal fjárhagsáætlunargerðar sem fyrstu verkþættir fjárhagsáætlunargerðar. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt fjárhagsáætlunarferli.
 
--   [grunnáætlanagerð: yfirlit og skilgreining](basic-budgeting-overview-configuration.md)
+-   [Grunnáætlanagerð: yfirlit og skilgreining](basic-budgeting-overview-configuration.md)
 -   [Áætlunarstýring: yfirlit og skilgreining](budget-control-overview-configuration.md)
--   [fjárhagsáætlunargerð: yfirlit og skilgreining](budget-planning-overview-configuration.md)
+-   [Fjárhagsáætlunargerð: yfirlit og skilgreining](budget-planning-overview-configuration.md)
 -   [Stöðuspá](position-forecasting.md)
 -   [Rökstuðningsskjöl fjárhagsáætlunargerðar](budget-planning-justification-docs.md)
 -   [Microsoft Excel-sniðmát fyrir fjárhagsáætlunargerð](budget-planning-excel-templates.md)
 
-## <a name="budgeting-tools-in-dynamics-365-for-operations"></a>Fjárhagsáætlun tól í Dynamics 365 for Operations
-[![Verkfæri fjárhagsáætlunar](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+## <a name="budgeting-tools-in-dynamics-365-for-operations"></a>Fjárhagsáætlunarverkfæri í Dynamics 365 for Operations
+[![Fjárhagsáætlunarverkfæri](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-Viðbótar áætlunar og fjárhagsáætlunargeta eru tiltækar í Dynamics 365 for Operations og er samþætt við fjárhagsáætlanir.
+Hægt er að fá frekari eiginleika fyrir skipulagningu og fjárhagsáætlunargerð í Dynamics 365 for Operations sem eru samþættir við fjárhagsáætlanir.
 
--   **Fjárhagsáætlanir vinnuafls** – Vinnuafls fjárhagsáætlun felur í sér ítarlega fjárhagsáætlunargerð kostnaðaríhluta fyrir stöður, launaflokka og svo framvegis.
--   **Fjárhagsáætlanir eigna** – á grunni eignaupplýsinga, er hægt að reikna áætlaðar afskriftir og skrá aðrar áætlaðar færslur sem tengjast eignum.
--   **Fjárhagsáætlanir** – í verkeiningunni er hægt að stofna ítarlega verkspá. Verkspár felur í sér upplýsingar um áætlaðar klukkustundir, útgjöld, þóknanir og vörur.
--   **Eftirspurnarspá **- Hægt er að leggja mat á framtíðareftirspurn birgða og stofna eftirspurnarspá á grundvelli sögulegra færslugagna.
+-   **Fjárhagsáætlanir vinnuafls** – fjárhagsáætlanir vinnuafls fela í sér ítarlega skipulagningu og áætlun kostnaðarþátta fyrir ákveðnar stöður, launaflokka og svo framvegis.
+-   **Fjárhagsáætlanir eigna** – á grunni eignaupplýsinga er hægt að reikna áætlaðar afskriftir og skrá aðrar áætlaðar færslur sem tengjast eignum.
+-   **Fjárhagsáætlanir verks** – í verkeiningunni er hægt að stofna ítarlega verkspá. Verkspár fela í sér upplýsingar um áætlaðar klukkustundir, útgjöld, þóknanir og vörur.
+-   **Eftirspurnarspá** – hægt er að leggja mat á framtíðareftirspurn birgða og stofna eftirspurnarspá á grundvelli sögulegra færslugagna.
 
-Fyrir upplýsingar um hvernig á að færa gögn áætlunargerðar úr öðrum einingum í fjárhagsáætlanir, sjá [samþætting Fjárhagsáætlunargerðar við aðrar kerfiseiningar](budget-planning-integration-other-modules.md).
+Sjá upplýsingar um hvernig á að færa gögn áætlunargerðar úr öðrum einingum í fjárhagsáætlanir í [Samþætting fjárhagsáætlunargerðar við aðrar kerfiseiningar](budget-planning-integration-other-modules.md).
 
 ## <a name="user-interface-and-reporting-capabilities"></a>Notandaviðmót og skýrslugerðargeta
-Í Dynamics 365 for Operations geta notendur stofnað fjárhagsáætlun annað hvort beint í Dynamics 365 for Operations miðlaranum (með því að nota skilgreinanlega síðu fjárhagsáætlunarskjals) eða í gegnum Excel. Excel veitir nokkur viðbótar getu. Til dæmis hægt að nota ytri gagna sem á uppruna fyrir fjárhagsáætlun, gera sérsniðna útreikninga og nota Microsoft PivotTable og gröf. Hægt er að skilgreina flestum breytur í ferli fjárhagsáætlunargerðar. Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætlað og hvernig ferlið lítur út. Þó að hægt sé að nota Excel fyrir gerð fjárhagsáætlunar, er Dynamics 365 for Operations notað sem einn stakur uppruni þess sem er rétt og hjálpar að koma í veg fyrir vandamál í fjárhagsáætlunarstýringu. Hægt er að nota reglubundnar vinnslur til að færa upphafleg gögn fyrir fjárhagsáætlun í fjárhagsáætlunargerð. Fyrir skýrslugerð, Dynamics 365 for Operations býður upp á safn af staðlaða fyrirspurnarsíður þar sem hægt er að skoða og greina gögn í fjárhagsáætlun. Hægt er að nálgast gögn í gegnum Management Reporter og aðskildar aðstæður fjárhagsáætlunargerðar má birta sem dálka á skýrslu Management Reporter.
+Í Dynamics 365 for Operations geta notendur stofnað fjárhagsáætlanir annaðhvort beint í Dynamics 365 for Operations biðlaranum (með því að nota skilgreinanlega síðu fjárhagsáætlunarskjals) eða í gegnum Excel. Excel veitir nokkra viðbótareiginleika. Til dæmis er hægt að nota ytri gögn sem uppruna fyrir fjárhagsáætlun, gera sérsniðna útreikninga og nota Microsoft PivotTable og gröf. Hægt er að skilgreina flestar breyturnar í ferli fjárhagsáætlunargerðar. Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætlað og hvernig ferlið lítur út. Þó að hægt sé að nota Excel fyrir gerð fjárhagsáætlunar er Dynamics 365 for Operations notað sem stakur uppruni þess sem er rétt og hjálpar við að koma í veg fyrir vandamál í fjárhagsáætlunarstýringu. Hægt er að nota reglubundin ferli til að færa upphafleg gögn fyrir fjárhagsáætlun í fjárhagsáætlunargerðina. Dynamics 365 for Operations býður upp á safn af stöðluðum fyrirspurnarsíðum fyrir skýrslugerð þar sem hægt er að skoða og greina gögn í fjárhagsáætlun. Hægt er að nálgast fjárhagsáætlunargögn í gegnum Management Reporter og aðskildar aðstæður fjárhagsáætlunargerðar má birta sem dálka á skýrslu Management Reporter.
 
 
 

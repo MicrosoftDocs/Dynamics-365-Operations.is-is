@@ -1,6 +1,6 @@
 ---
 title: "Eignir – heimasíða"
-description: "Eignir eru hlutir sem hafa virði, eins og byggingar, ökutæki, land og tæki, sem eru í eigu einstaklings eða fyrirtækis."
+description: "Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: cdcf247f33a35ebae4af4ff22c10083642e9f97a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 9d2c591b4a3f30ac9a3a842161ee7aa0e6c1db35
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Eignir eru hlutir sem hafa virði, eins og byggingar, ökutæki, land og tæki, sem eru í eigu einstaklings eða fyrirtækis. 
+Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis. 
 
-Hægt er að setja upp og færa inn kaupupplýsingar fyrir eignir og stjórna þeim með því að afskrifa þær og velja fjármögnunarþröskuld til að skilgreina afskriftir. Þú getur reiknað úr breytingar á eign og einnig losað þær.  Þegar notaður er fjárhagur ásamt eignum, geturðu skoðað núgildandi virði allra eigna. Hátturinn sem eignir eru meðhöndlaðar verður að vera í samræmi við bæði alþjóðlegar bókhaldsreglur og lög um bókhald í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Eign virkni felur í sér margar þessa staðla og reglur.
+Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og setja upp fjármögnunarþröskulda til að ákvarða afskriftir. Hægt er að reikna út breytingar á eignum en líka losna við þær. Þegar „Fjárhagur“ er notaður ásamt „Eignum“ er hægt að skoða núgildandi virði allra eigna. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Virkni „Eigna“ felur í sér marga af þessum stöðlum og reglum.
 
 
 

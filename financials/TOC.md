@@ -170,6 +170,7 @@
 ## [Víddir kostnaðareiningar](cost-accounting/cost-elements.md)
 ## [Víddir kostnaðarhlutar](cost-accounting/cost-objects.md)
 ## [Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka](cost-accounting/map-cost-elements-dimension-members.md)
+## [Útreikningur fastakostnaðar](cost-accounting/overhead-calculation.md)
 ## [Fartækjavinnusvæði kostnaðarstýringar](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Verktilboð](project-management/project-quotations.md)
 ## [Verktilföng](project-management/project-resourcing.md)
 ## [Sundurliðanir verkþátta](project-management/work-breakdown-structures.md)
+## [Vinnustundafærsla verks á fartækjavinnusvæði](project-management/project-time-entry-mobile-workspace.md)
 # [Staðfæringar](localizations/TOC.md)
+
+# [Mannauður](/dynamics365/operations/human-resources/index)
+
+# [Smásala](/dynamics365/operations/retail/index)
+
+# [Stjórnun aðfangakeðju](/dynamics365/operations/supply-chain/index)
+
+# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+
+# Önnur tilföng
+## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

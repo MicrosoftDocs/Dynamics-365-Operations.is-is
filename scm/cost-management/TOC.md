@@ -22,10 +22,14 @@
 ## [Dagsetning vegins meðaltals](weighted-average-date.md)
 ## [Vegið meðaltal með efnislegt virði og merkingu](weighted-average-physical-value-marking.md)
 # Framleiðslukostnaður
+## [Afskrifa fastan kostnað fyrir framleidda vöru](amortize-constant-costs-manufactured-item.md)
+## [Bakfærslukostnaðaraðferð](backflush-costing.md)
+## [Útreikningur uppskrifta](bom-calculations.md)
 ## [Flokkur uppskriftarútreiknings](bom-calculation-groups.md)
 ## [Algengur uppruni framleiðslufrávika](common-sources-of-production-variances.md)
 ## [Kostnaðartegund notuð í framleiðslubeiningu](cost-categories-used-production-routings.md)
 ## [Kostnaðartegund notuð í framleiðslustýringu og verkefnastjórnunarbókhaldi](cost-categories-used-production-control-project-management-accounting.md)
+## [Birta gjöld fyrir framleidda vöru](charges-manufactured-item.md)
 ## [Kostnaðargreining framleiðslupöntunar](production-order-cost-analysis.md)
 ## [Kostnaðarmat framleiðslupöntunar](production-order-cost-estimation.md)
 ## [Framleiðslubókun](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Uppfærsla staðalkostnaðar í framleiðsluumhverfi](update-standard-costs-manufacturing-environment.md)
 ## [Uppfærsla staðalkostnaður fyrir nýja framleidda vöru](update-standard-costs-new-manufactured-item.md)
 ## [Uppfærsla staðalkostnaðar í umhverfi sem er ekki fyrir framleiðslu](update-standard-costs-non-manufacturing-environment.md)
+
 
 

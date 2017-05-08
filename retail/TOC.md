@@ -68,3 +68,16 @@
 ## [Yfirlit yfir grunnþætti viðskipta](commerce-essentials.md)
 ## [Fyrirtæki og stigveldi fyrirtækis (grunnþættir viðskipta)](organizational-hierarchies-commerce-essentials.md)
 # [Efni fyrir fagfólk á sviði upplýsingatækni og þróunaraðila](dev-itpro/TOC.md)
+
+# [Fjármál](/dynamics365/operations/financials/index)
+
+# [Mannauður](/dynamics365/operations/human-resources/index)
+
+# [Stjórnun aðfangakeðju](/dynamics365/operations/supply-chain/index)
+
+# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+
+# Önnur tilföng
+## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

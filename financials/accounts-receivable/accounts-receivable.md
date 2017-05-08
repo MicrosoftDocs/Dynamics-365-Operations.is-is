@@ -1,6 +1,6 @@
 ---
 title: "Viðskiptakröfur – heimasíða"
-description: "Nota viðskiptakröfur til að rekja reikninga og útgjöld á útleið til lánardrottins."
+description: "Notið „Viðskiptakröfur“ til að rekja reikninga viðskiptavina og greiðslur á innleið."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: 03d08f2cf75a8307bc465464917d86efc69be46f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 1afa291099362c31a7a2c972cc45b19bfc3897bf
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Nota viðskiptakröfur til að rekja reikninga og útgjöld á útleið til lánardrottins. 
+Notið „Viðskiptakröfur“ til að rekja reikninga viðskiptavina og greiðslur á innleið. 
 
-Hægt er að stofna reikninga viðskiptavina sem eru byggðar á sölupöntunum eða fylgiseðla. Einnig er hægt að færa inn reikninga með frjálsum texta sem ekki eru tengdir sölupöntunum. Hægt er að taka við greiðslum með nokkrum mismunandi greiðslugerðum. Þar á meðal víxla reiðufé, ávísanir, kreditkort og rafrænar greiðslur. Ef fyrirtækið inniheldur marga lögaðila, má nota miðstýrðar greiðslur til að skrá greiðslur í einu lögaðila fyrir hönd annarra lögaðila.
+Hægt er að stofna reikninga viðskiptavina sem byggjast á sölupöntunum eða fylgiseðlum. Einnig er hægt að færa inn reikninga með frjálsum texta sem eru ótengdir sölupöntunum. Hægt er að taka við greiðslum með nokkrum mismunandi greiðslugerðum. Þeirra á meðal eru víxlar, reiðufé, ávísanir kreditkort og rafrænar greiðslur. Ef margir lögaðilar eru í fyrirtækinu er hægt að nota miðstýrðar greiðslur til að skrá greiðslur á einn lögaðila fyrir hönd hinna lögaðilanna.
 
 
 

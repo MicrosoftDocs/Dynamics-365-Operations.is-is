@@ -42,6 +42,7 @@
 ## [Reikningskennum á sölupöntunum breytt](emea-edit-invoice-id-sales-orders.md)
 ## [Færsluvottorð ESB](emea-entry-certificates.md)
 ## [Skýrslugerð vegna ESB-sölulista](emea-eu-sales-list.md)
+## [Gengisleiðrétting](emea-exchange-rate-adjustments.md)
 ## [Skráarsnið fyrir greiðslumáta](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Afskráning eigna fyrir Eistland og Litháen](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA-millifærsluyfirlit](../accounts-payable/sepa-credit-transfer.md)
 ## [Yfirlit yfir SEPA-umboð fyrir beint debet](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](emea-set-up-signers-for-printing-forms.md)
-## [Skipting tímabila í tímabilsbókum](emea-create-post-periodic-journals.md)
-## [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](emea-amount-printing-forms.md)
-## [VSK-skýrsla](emea-vat-reporting.md)
+## [VSK-gengi](emea-vat-exchange-rate.md)
 ## [Skoðun færslna á uppgjöri](emea-transactions-settlement-form.md)
 ## Austurríki
+### [Hálfsársafskriftir](emea-aut-half-year-depreciation.md)
 ### [Umbúðaefnisgjöld](emea-aut-packing-material-fee-calculation.md)
 ### [VSK-yfirlit](emea-aut-vat-statement-details.md)
 ## Belgía
 ### [CODA-bankayfirlit](emea-bel-coda-bank-statement-import.md)
+### [Intervat-skattskýrsla](emea-bel-intervat-tax-declaration.md)
 ### [Uppsetning PRODCOM-skýrslu](emea-bel-prodcom-report.md)
 
 ## Tékkland
+### [Staðgreiðsluafsláttur á kreditnótu](emea-cze-credit-note-cash-discount.md)
 ### [Sléttun afskrifta](emea-cze-depreciation-rounding.md)
 ### [Frestun afskriftar](emea-cze-depreciation-suspension-holidays.md)
 ### [Afskriftir eigna](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Færslubókarlistaskýrsla](emea-deu-journal-list-report.md)
 ### [Prentun sérstaks miða fyrir kreditreikninga úr sölu](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungverjaland
+### [Aðferðir við afskriftir eigna](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Ódýrar eignir](emea-hun-low-cost-fixed-assets.md)
+### [Færa eign í birgðir](emea-hun-fixed-asset-to-inventory.md)
 ## Ítalía
 ### [VSK-yfirlitsupplýsingar](emea-ita-vat-statements-details.md)
 ### [Svartlistaskýrsla](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Staðfesting dagsetningar fylgiseðils á reikningum](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [VSK-bækur](emea-ita-fiscal-books.md)
 ### [Skipting greiðslu fyrir reikninga sem sendir eru til hins opinbera](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Staðgreiðsluskattur](emea-ita-withholding tax.md)
 ## Lettland
 ### [Eignabókhald](emea-lva-fixed-assets-accounting.md)
 ### [Rakning breytinga á staðsetningu eigna](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Tvítekin tölusetning sölureiknings](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Afskriftir eigna](emea-pol-fixed-assets-depreciation.md)
 ### [Framlenging afskráningarvirkni eignar](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Umbúðir sem hægt er að skila](emea-pol-returnable-packages.md)
+### [VSK-skýrslur](emea-pol-sales-tax-reports.md)
+### [Stöðluð endurskoðunarskrá (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Veltu- og stöðuyfirlit](emea-pol-turnover-balances-statement.md)
 ## Spánn
-### [Valkostir víxils](emea-esp-bill-of-exchange-options.md)
 ### [Notkun staðgreiðsluafsláttar á reikningi](emea-esp-cash-discount-applied-invoice.md)
+### [Valkostir víxils](emea-esp-bill-of-exchange-options.md)
+### [Skilyrtur virðisaukaskattur](emea-esp-conditional-sales-tax.md)
 ### [Reikningslykill fjárhagsgagna](emea-esp-fiscal-data-invoice-account.md)
 ### [Endurmat eignaflokks](emea-esp-fixed-asset-group-revaluation.md)
+### [VSK innan bandalagsins](emea-esp-intra-community-vat.md)
 ### [Einskiptisviðskiptavinir](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Valkostir eigin víxils](emea-esp-promissory-note-options.md)
 ### [Sölu- og innkaupaferlar](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Norður-Ameríka
 ## [1099-árslokaskýrsla fyrir Bandaríkin](noam-usa-year-end-1099-reporting.md)
+

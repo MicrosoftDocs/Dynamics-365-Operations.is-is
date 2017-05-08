@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: c0febeaf790fd9d2281f0e98089eb557ca1f7cec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 8bdfc9b29da86460e8f47760cf8afc051ea923fb
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir. 
 
-Hægt er að færa handvirkt inn reikninga lánardrottna eða taka á móti þeim rafrænt í gagnaeiningu. Þegar reikningar hafa verið færðir inn eða mótteknir er hægt að endurskoða og samþykkja reikninga með því að nota samþykktarbók reikninga eða síðuna **reikningur lánardrottins**. Hægt er að nota til að gera endurskoðunarferli svo sem reikninga sem standast ákveðin skilyrði eru sjálfvirkt samþykktir reikningsjöfnun reikningsreglur lánardrottins og verkflæði og eftirstandandi reikninga eru merkt til skoðunar eftir heimild notanda.
+Hægt er að færa inn reikninga lánardrottins handvirkt eða fá þá rafrænt í gegnum gagnaeiningu. Þegar reikningarnir hafa verið færðir inn eða mótteknir er hægt að skoða og samþykkja þá í gegnum færslubókarsamþykkt eða síðuna **Reikningur lánardrottnins**. Nota má reikningsjöfnun, reikningsreglur lánardrottins og verkflæði til að gera endurskoðunarferlið sjálfvirkt þannig að reikningar sem uppfylla ákveðin skilyrði eru sjálfkrafa samþykktir en aðrir merktir fyrir yfirferð af notanda með heimild.
 
 
 

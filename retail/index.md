@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations – Retail býður upp á heildstæða verslun með 
 Þessi síða vísar á tilföng sem mun auðvelda skilvirkari notkun Microsoft Dynamics 365 for Operations – Retail. Veldu eiginleikasvæði á svæðinu lengst til vinstri til að fræðast frekar um viðkomandi eiginleika. 
 
 ## <a name="set-up-retail-channels"></a>Uppsetning smásölurása
-Við uppsetningu smásölu þarftu að skilgreina og grunnstilla verslunarhúsnæðið (kallað *smásöluverslun* í Dynamics 365 for Operations) og netverslunina. 
+Við uppsetningu Retail þarftu að skilgreina og grunnstilla verslanirnar þínar – verslunarhúsnæðið, netverslunin og símaverið. 
 
-Hægt er að setja upp greiðslumáta, verðflokka, sölustaðarlausnir, tekjulykla, kostnaðarlykla og starfsfólk sérstaklega fyrir hverja smásöluverslun. Þegar búið er að stofna smásöluverslun þarf að úthluta afurðunum sem verslunin kemur til með að selja. Einnig þarf að úthluta starfsfólki, afgreiðslukössum og viðskiptavinum á verslunina. Að lokum er verslunin færð inn í stigveldi fyrirtækisins.
-
-Þegar netverslun er búin til þarf að setja upp þætti á borð við vöruúrval, eigindir, greiðslumáta og afhendingarmáta. Einnig er hægt að skilgreina verð, kynningartilboð, afslætti og afhendingarskilmála sérstaklega fyrir netverslunina.
+Hægt er að setja upp greiðslumáta, afhendingaraðferðir, verðflokka, tekju-/kostnaðarlykla, afgreiðslukassa og starfsfólk sérstaklega fyrir hverja smásöluverslun. Þegar búið er að stofna smásöluverslun þarf að stofna nýtt úrval af afurðum sem verslunin kemur til með að selja. Einnig er hægt að skilgreina sérstök verð og afslætti fyrir verslunina sem eiga við fyrir afurðir sem fást í versluninni.
 
 -   [Skilgreining smásölurása](define-maintain-retail-channels.md)
 -   [Netverslunaryfirlit](online-stores.md)
@@ -49,10 +48,10 @@ Hægt er að setja símaver upp sem ákveðna gerð smásölurásar. Í símaver
 -   [Símaversvirkni](call-center-functionality.md)
 -   [Vörulistar símavers búnir til](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Skilgreining sölustaða- og MPOS-lausna
-Retail Modern POS (MPOS) er sölustaðarforrit fyrir tölvur, spjaldtölvur og síma. Sölufólk getur unnið sölufærslur og pantanir viðskiptavina og sinnt daglegum rekstri og birgðastjórnun í fartækjum hvar sem er í versluninni, sem og í tölvustýrðum afgreiðslukössum. Sölukerfi í skýinu er sölustaður fyrir vafra. 
+## <a name="define-your-pos-solutions"></a>Skilgreining sölustaðalausna
+Retail Modern POS (MPOS) er sölustaðarforrit fyrir tölvur, spjaldtölvur og síma. Sölufólk getur unnið sölufærslur og pantanir viðskiptavina, sinnt biðlaraþjónustuaðgerðum og sinnt daglegum rekstri og birgðastjórnun í fartækjum hvar sem er í versluninni, sem og í tölvustýrðum afgreiðslukössum. Sölukerfi í skýinu er sölustaður fyrir vafra sem hægt er að opna í öllum venjulegum vöfrum. 
 
-Setja þarf upp nokkra þætti til að skilgreina tengsl á milli verslunar, afgreiðslukassa eða rása innan verslunarinnar, og smásölujaðarbúnaðar sem afgreiðslukassarnir eða rásirnar nýta til að vinna færslur. Einnig þarf að skilgreina eðli hvers tilviks sölustaðar, þar með talið vélbúnaðarsnið eða uppsetningu smásölujaðarbúnaðar sem notaður er við afgreiðslukassann, verslunina sem afgreiðslukassanum er varpað á og sjónræna upplifun notandans sem skráir sig inn á viðkomandi afgreiðslukassa.
+Setja þarf upp nokkra þætti til að skilgreina tengsl á milli verslunar, afgreiðslukassa innan verslunarinnar og smásölujaðarbúnaðar sem afgreiðslukassarnir nýta til að vinna færslur. Einnig þarf að skilgreina eðli hvers tilviks sölustaðar, þar með talið vélbúnaðarsnið eða uppsetningu smásölujaðarbúnaðar sem notaður er við afgreiðslukassann, verslunina sem afgreiðslukassanum er varpað á og sjónræna upplifun notandans sem skráir sig inn á viðkomandi afgreiðslukassa og virknina sem er í boði á þeim kassa. Einnig þarf að skilgreina hvort afgreiðslukassinn geti unnið ótengdur eða án nettengingar.
 
 -   [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](define-maintain-channel-clients-registers-hw-stations.md)
 -   [Grunnstilling og uppsetning MPOS](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Fyrir sérstillingu umhverfis eða innleiðingu og viðhald kerfis er ráðlegt 
 Á <a href="https://blogs.msdn.microsoft.com/dax/">bloggi afurðateymis Microsoft Dynamics AX</a> er að finna fjölmörg efnisatriði um smásölu. Sumar þessara færslna voru skrifaðar um eldri útgáfu Dynamics 365 for Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Blogg Microsoft Dynamics Operations-samstarfsaðila</a> veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+
+
 

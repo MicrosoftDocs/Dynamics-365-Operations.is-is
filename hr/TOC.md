@@ -60,3 +60,15 @@
 #### [Algengar spurningar um uppfærslur launagagna](localizations/noam-usa-payroll-data-updates.md)
 #### [Myndun launaskýrslna](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Fjármál](/dynamics365/operations/financials/index)
+
+# [Smásala](/dynamics365/operations/retail/index)
+
+# [Stjórnun aðfangakeðju](/dynamics365/operations/supply-chain/index)
+
+# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+
+# Önnur tilföng
+## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

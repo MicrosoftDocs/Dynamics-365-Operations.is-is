@@ -56,6 +56,7 @@
 ### [Uppskrift og formúla](production-control/bill-of-material-bom.md)
 ### [Virkni uppskriftahönnunar](production-control/bom-designer-functionality.md)
 ### [Afurðarvídd](pim/product-dimensions.md)
+### [Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði](production-control/default-order-settings.md)
 ### [Nafnakerfi afurðarnúmers](pim/product-variant-identification-nomenclature.md)
 ### [Algengar spurningar um afurðartengda þýðingu](pim/translations-product-related-information.md)
 ### [Skráning raðnúmers í söluferli](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,50 +71,78 @@
 ### [Uppsetning afbrigðalíkans afurðar](pim/set-up-maintain-product-configuration-model.md)
 ### [Kerfisskilgreind og notandaskilgreind töfluskorða](pim/system-defined-user-defined-table-constraints.md)
 # Framleiðslustýring
-## Framleiðsluferli    
-### [Verkþáttarbyggð úthýsing](production-control/activity-based-subcontracting.md)
-### [Runueigindir](production-control/batch-attributes.md)
-### [Uppskriftir og formúlur](production-control/bill-of-material-bom.md)
-### [Virkni uppskriftahönnunar](production-control/bom-designer-functionality.md)
-### [Sameinaðar runupantanir](production-control/consolidated-batch-orders.md)
-### [Stjórnun úthýsingarvinnu í framleiðslu](production-control/manage-subcontract-work-production.md)
-### [Blönduð áætlun: sameining afmörkunar, vinnslu og lean-uppruna](production-control/mixed-mode-plan.md)
-### [Framleiðsluferli](production-control/production-process-overview.md)
-### [Uppsetningarkröfur framleiðslu](production-control/production-set-up-requirements.md)
-### [Leiðir og virkni](production-control/routes-operations.md)
-## Framleiðslupantanir
-### [Stofnun framleiðslupantana](production-control/create-production-orders.md)
-### [Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði](production-control/default-order-settings.md)
-### [Framleiðslupantanir losaðar](production-control/release-production-orders.md)
-### [Bakfærsla á stöðu framleiðslupöntunar](production-control/reverse-production-order-status.md)
-### [Uppskrift tilkynnt sem lokið](production-control/report-boms-as-finished.md)
-### [Framleiðslupantanir tilkynntar sem loknar](production-control/report-production-orders-as-finished.md)
+## [Yfirlit yfir framleiðsluferli](production-control/production-process-overview.md)
+## [Blönduð áætlun: sameining afmörkunar, vinnslu og lean-uppruna](production-control/mixed-mode-plan.md)
+## [Stjórnun úthýsingarvinnu í framleiðslu](production-control/manage-subcontract-work-production.md)
+## Afmörkuð framleiðsla
+### Vinna með aðalgögn framleiðslu
+#### [Uppsetningarkröfur framleiðslu](production-control/production-set-up-requirements.md)
+#### [Uppskriftir og formúlur](production-control/bill-of-material-bom.md)
+#### [Virkni uppskriftahönnunar](production-control/bom-designer-functionality.md)
+#### [Útreikningur uppskrifta](cost-management/bom-calculations.md)
+#### [Rekstrartilföng](production-control/operations-resources.md)
+#### [Möguleikar tilfanga](production-control/resource-capabilities.md)
+#### [Leiðir og virkni](production-control/routes-operations.md)
+#### [Sjálfgildi framleiðslupöntunar í framkvæmd framleiðslu](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Vinnureglur vöruhúss](warehousing/warehouse-work-policies.md)
+### Raða framleiðsluaðgerðum
+#### [Aðgerðaröðun](production-control/operations-scheduling.md)
+#### [Vinnsluröðun](production-control/job-scheduling.md)
+#### [Valkostir aðgerðaröðunar](production-control/operation-scheduling-options.md)
+### Keyra framleiðsluverk
+#### [Stofnun framleiðslupantana](production-control/create-production-orders.md)
+#### [Framleiðslupantanir losaðar](production-control/release-production-orders.md)
+#### [Bakfærsla á stöðu framleiðslupöntunar](production-control/reverse-production-order-status.md)
+#### [Framleiðslupantanir tilkynntar sem loknar](production-control/report-production-orders-as-finished.md)
+#### [Uppskrift tilkynnt sem lokið](production-control/report-boms-as-finished.md)
+#### [Efni skipt út í framleiðslu](production-control/substitute-items-bom-lines.md)
+#### [Skráning á framkvæmd framleiðslu](production-control/registration-manufacturing-execution.md)
+#### [Endurgjöf um framleiðslu](production-control/production-feedback.md)
+#### [Skráning tíma og viðveru](production-control/time-attendance-registrations.md)
+### Stjórna fjármálum í framleiðslu
+#### [Úthlutun tíma á vinnslur í vinnslubúnti](production-control/allocate-time-jobs-job-bundle.md)
+#### [Útreikningur á efnisnotkun](production-control/consumption.md)
+#### [Framleiðslubókun](cost-management/production-posting.md)
 ## Lean-framleiðsla 
-### [Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Áætlun kanban-vinnslu fyrir lean-framleiðslu](production-control/lean-manufacturing-kanban-job-scheduling.md)
 ### [Yfirlit yfir lean-framleiðslu](production-control/lean-manufacturing-overview.md)
-### [Gerð líkans af lean-fyrirtæki](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Tímasetning virkni og vinnsla
-### [Úthlutun tíma á vinnslur í vinnslubúnti](production-control/allocate-time-jobs-job-bundle.md)
-### [Vinnsluröðun](production-control/job-scheduling.md)
-### [Valkostir aðgerðaröðunar](production-control/operation-scheduling-options.md)
-### [Aðgerðaröðun](production-control/operations-scheduling.md)
-## Tilföng
-### [Rekstrartilföng](production-control/operations-resources.md)
-### [Möguleikar tilfanga](production-control/resource-capabilities.md)
-### [Skráning tíma og viðveru](production-control/time-attendance-registrations.md)
-## Framkvæmd framleiðslu
-### [Efni skipt út í framleiðslu](production-control/substitute-items-bom-lines.md)
-### [Útreikningur á efnisnotkun](production-control/consumption.md)
-### [Endurgjöf um framleiðslu](production-control/production-feedback.md)
-### [Sjálfgildi framleiðslupöntunar í framkvæmd framleiðslu](production-control/production-order-defaults-manufacturing-execution.md)
-### [Framleiðslubókun](cost-management/production-posting.md)
-### [Skráning á framkvæmd framleiðslu](production-control/registration-manufacturing-execution.md)
+### [Verkþáttarbyggð úthýsing](production-control/activity-based-subcontracting.md)
+### Vinna með aðalgögn framleiðslu
+#### [Gerð líkans af lean-fyrirtæki](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Rekstrartilföng](production-control/operations-resources.md)
+### Áætla kanban-vinnslu
+#### [Áætlun kanban-vinnslu fyrir lean-framleiðslu](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Vinnsluröðun](production-control/job-scheduling.md)
+### Keyra kanban-vinnslur
+#### [Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Endurgjöf um framleiðslu](production-control/production-feedback.md)
+## Framleiðsluferli
+### Vinna með aðalgögn framleiðslu
+#### [Uppskriftir og formúlur](production-control/bill-of-material-bom.md)
+#### [Rekstrartilföng](production-control/operations-resources.md)
+#### [Möguleikar tilfanga](production-control/resource-capabilities.md)
+#### [Runueigindir](production-control/batch-attributes.md)
+#### [Sjálfgildi framleiðslupöntunar í framkvæmd framleiðslu](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Uppsetningarkröfur framleiðslu](production-control/production-set-up-requirements.md)
+### Raða framleiðsluaðgerðum
+#### [Aðgerðaröðun](production-control/operations-scheduling.md)
+#### [Valkostir aðgerðaröðunar](production-control/operation-scheduling-options.md)
+#### [Vinnsluröðun](production-control/job-scheduling.md)
+### Keyra framleiðsluverk
+#### [Sameinaðar runupantanir](production-control/consolidated-batch-orders.md)
+#### [Efni skipt út í framleiðslu](production-control/substitute-items-bom-lines.md)
+#### [Skráning á framkvæmd framleiðslu](production-control/registration-manufacturing-execution.md)
+#### [Endurgjöf um framleiðslu](production-control/production-feedback.md)
+#### [Skráning tíma og viðveru](production-control/time-attendance-registrations.md) 
+### Stjórna fjármálum í framleiðslu
+#### [Úthlutun tíma á vinnslur í vinnslubúnti](production-control/allocate-time-jobs-job-bundle.md)
+#### [Útreikningur á efnisnotkun](production-control/consumption.md)
+#### [Framleiðslubókun](cost-management/production-posting.md)
 # Sala og markaðsstarf
 ## [Markaðssetning](sales-marketing/overview-sales-marketing.md)
 ## Sölupantanir
 ### [Pöntun lofað](sales-marketing/delivery-dates-available-promise-calculations.md)
-### [Lokadagur fyrir skráningu pöntunarfærslna](sales-marketing/order-entry-deadlines.md)
+### [Valkostir afhendinga](sales-marketing/delivery-alternatives.md)
+### [Lokadagur fyrir skráningu pantana](sales-marketing/order-entry-deadlines.md)
 ### [Beinar afhendingar](sales-marketing/direct-deliveries.md)
 ### [Afhendingaráætlanir](sales-marketing/delivery-schedules.md)
 ### [Raðnúmer í söluferlinu](sales-marketing/register-serial-numbers-sales-process.md)
@@ -138,6 +167,7 @@
 ### [Uppsetning útlits](warehousing/warehouse-configuration.md)
 ### [Vinnureglur vöruhúss](warehousing/warehouse-work-policies.md)
 ### [Mælieining og birgðastefnur](warehousing/unit-measure-stocking-policies.md)
+### [Power BI-efni fyrir vöruhús](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Tiltekt og pökkun
 ### [Umbúðaefni og gjöld](warehousing/pack-materials-packing-material-fees.md)
 ## Birgðatalning
@@ -151,7 +181,21 @@
 ## Áfylling
 ### [Áfylling](warehousing/replenishment.md)
 ## Fartæki
+### [Setja upp og skilgreina vöruhúsaforrit ](warehousing/install-configure-warehousing-app.md)
 ### [Skilgreining svæðaheita í vöruhúsaforriti](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Uppsetning fartækja fyrir vöruhúsavinnu](warehousing/configure-mobile-devices-warehouse.md)
 ### [Gátt fyrir fartæki vöruhúss](warehousing/warehouse-mobile-devices-portal.md)
 ### [Skjástillingar fartækis vöruhúss](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Fjármál](/dynamics365/operations/financials/index)
+
+# [Mannauður](/dynamics365/operations/human-resources/index)
+
+# [Smásala](/dynamics365/operations/retail/index)
+
+# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+
+# Önnur tilföng
+## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+
