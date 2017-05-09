@@ -1,0 +1,48 @@
+# Power BI-efnispakki
+## [Kostnaðarstjórnunar-efnispakki](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Fyrirframákveðinn kostnaður
+## [Kostnaðarskjal](costing-sheets.md)
+## [Kostnaðarútgáfa](costing-versions.md)
+## [Hermt eftir kostnaðarbreytingum með kostnaðarútgáfu fyrir áætlaðan kostnað](simulate-cost-changes-costing-version-planned-costs.md)
+# Birgðakostnaður
+## [Leiðrétting kostnaðarvirðis lagerbirgða](adjust-hand-inventory-cost-values.md)
+## [Kostnaðarhlutur](cost-object.md)
+## [Kostnaðarfærsla](cost-entries.md)
+## [Kostnaðarflokkur](cost-groups.md)
+## [FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu](fifo-physical-value-marking.md)
+## [Efnislegt virði tekið með](include-physical-value.md)
+## [Virði birgðahlutar](physical-quantity.md)
+## [Birgðalokun](inventory-close.md)
+## [Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](lifo-date-physical-value-marking.md)
+## [LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](lifo-physical-value-marking.md)
+## [Hlaupandi meðaltal](moving-average.md)
+## [Efnisleg og fjárhagsleg uppfærsla](physical-financial-updates.md)
+## [Keyrsla á meðalkostnaðarverði](running-average-cost-price.md)
+## [Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd](track-running-average-cost-per-inventory-dimension.md)
+## [Dagsetning vegins meðaltals](weighted-average-date.md)
+## [Vegið meðaltal með efnislegt virði og merkingu](weighted-average-physical-value-marking.md)
+# Framleiðslukostnaður
+## [Afskrifa fastan kostnað fyrir framleidda vöru](amortize-constant-costs-manufactured-item.md)
+## [Bakfærslukostnaðaraðferð](backflush-costing.md)
+## [Útreikningur uppskrifta](bom-calculations.md)
+## [Flokkur uppskriftarútreiknings](bom-calculation-groups.md)
+## [Algengur uppruni framleiðslufrávika](common-sources-of-production-variances.md)
+## [Kostnaðartegund notuð í framleiðslubeiningu](cost-categories-used-production-routings.md)
+## [Kostnaðartegund notuð í framleiðslustýringu og verkefnastjórnunarbókhaldi](cost-categories-used-production-control-project-management-accounting.md)
+## [Birta gjöld fyrir framleidda vöru](charges-manufactured-item.md)
+## [Kostnaðargreining framleiðslupöntunar](production-order-cost-analysis.md)
+## [Kostnaðarmat framleiðslupöntunar](production-order-cost-estimation.md)
+## [Framleiðslubókun](production-posting.md)
+## [Uppsetning afurðar sem hægt er að framleiða eða kaupa](manufactured-items-treated-as-purchased-items.md)
+## [Úthlutunaraðferð heildarkostnaðar](methodology-total-cost-allocation.md)
+# Staðalkostnaður
+## [Útreikningur uppskrifta með staðalkostnaði](information-used-bom-calculations-standard-costs.md)
+## [Stjórnun uppfærslu staðalkostnaðar](manage-standard-cost-updates.md)
+## [Skilyrði fyrir umreikningi staðalkostnaðar](prerequisites-standard-cost-conversion.md)
+## [Yfirlit yfir umreikning staðalkostnaðar](standard-cost-conversion-overview.md)
+## [Uppfærsla staðalkostnaðar í framleiðsluumhverfi](update-standard-costs-manufacturing-environment.md)
+## [Uppfærsla staðalkostnaður fyrir nýja framleidda vöru](update-standard-costs-new-manufactured-item.md)
+## [Uppfærsla staðalkostnaðar í umhverfi sem er ekki fyrir framleiðslu](update-standard-costs-non-manufacturing-environment.md)
+
+
+
