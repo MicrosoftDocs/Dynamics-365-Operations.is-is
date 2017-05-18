@@ -1,9 +1,9 @@
 ---
 title: "Fjárhagsskýrslugerð fyrir Dynamics 365 for Operations"
 description: "Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations fyrir fjármála og viðskipta fagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Fjárhagsskýrslugerð fyrir Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations fyrir fjármála og viðskipta fagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
 
@@ -36,15 +40,14 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 | Íhlutur        | Aðgerðir                                                                                                                                                                                                                                                                           | Frekari°upplýsingar                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Skýrsluhönnun  | Stofna einingar sem sameinaðar eru til að skilgreina og mynda skýrslu. Skýrsluleiðsagnarforritið leiðbeinir nýjum notendum í gegn um hönnunarferlið. Reyndir notendur geta stofnað nýjar skýrslueiningar frá grunni eða breytt núverandi skýrslueiningum eftir þörfum. |                                                                                                 |
-| Vefskoðun       | Skoða fjárhagskýrslum í vafra. Vafri ekki krefjast fjárhagslegar skýrslugerð þjónsíhluta vera uppsett.                                                                                                                                                        | [Vefskoðun](financial-reporter-designer-web-client.md)            |
-| Skýrsluáætlanir | Raða einni skýrslu eða hóp skýrslur þannig að það er myndað með reglulegu millibili.                                                                                                                                                                                          | [Mynda skýrslu](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Skýrsluáætlanir | Raða einni skýrslu eða hóp skýrslur þannig að það er myndað með reglulegu millibili.                                                                                                                                                                                          | [Myndun fjárhagsskýrslu](generate-financial-report.md) |
 
 ## <a name="features"></a>Eiginleikar
 <table>
 <thead>
 <tr class="header">
 <th>Eiginleiki</th>
-<th>Lýsing</th>
+<th>lýsing</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 <li>Bæta vídd síur til að takmarka innihald skýrslunnar á tiltekinni vídd eða samsetning vídda.</li>
 <li>Bæta eigind síur til að takmarka innihald skýrslunnar á tiltekinni eigind eða samsetning eiginda.</li>
 </ul>
-Frekari upplýsingar eru í hlutanum „Gagnvirkir hlutir og skoðunareiginleikar“ í <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">viðmóti Desktop Viewer</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Sjá einnig
+[Myndun fjárhagsskýrslu](generate-financial-report.md)
 
-[Mynda fjárhagsskýrslu]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

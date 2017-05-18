@@ -3,7 +3,7 @@ title: "virkni uppskriftahönnuðar"
 description: "Þessi grein lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>virkni uppskriftahönnuðar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins.
 
@@ -95,7 +99,7 @@ Síunni sem er beitt fyrir Uppskrift og leið er birt í haus uppskriftarhönnu�
 Þegar uppskriftarhönnuði er notuð til að endurskoða eða breyta Uppskriftir sem samanstanda af einni eða fleiri stig af skuggum, nær leið sem er tengt við hæstu vöruna yfirleitt yfir allt stigveldi Uppskriftalínunnar. Til að einfalda yfirlit er hægt er að læsa efstastigs leið á skjánum með því að smella **Skoða** &gt; **Læsa leið**. Til að aflæsa leiðinni er smellt á **Skoða** &gt; **Aflæsa leið**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Bæta við og breyta Uppskriftir og uppskriftarlínum
-Nota skal **uppskriftarlínur** eða aðgerðir **uppskriftar** til að breyta uppskriftarlínum eða Uppskrift. Þegar þú velja hnút í trénu ákvarðar gerð hnúts þá eiginleika sem eru tiltækir.
+Nota skal **uppskriftarlínur** eða **eiginleika** til að breyta uppskriftarlínum eða Uppskrift. Þegar þú velja hnút í trénu ákvarðar gerð hnúts þá eiginleika sem eru tiltækir.
 
 | Aðgerð                            | lýsing                                                                                               | Hnútagerð og skilyrði                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Smellið á **Uppsetningu** til að sérsníða upplýsingarnar sem birtast í t
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uppskrift         | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar í trjáskipulagi. Uppskriftahönnuður sýnir valin skilyrði neðst í báðum flipum. |
 | Leið       | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar fyrir leiðirnar.                                                                                    |
+
+
 
 
 

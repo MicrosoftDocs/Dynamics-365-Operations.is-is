@@ -18,10 +18,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bf93b1f91679cdb520ead2a12a5e52108a83fbb2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: b93f406b818655399195bfd5a8c12e939c9a9c77
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -35,8 +36,8 @@ ms.lasthandoff: 03/31/2017
 
 Smásala og viðskipti í Microsoft Dynamics AX styður símaver sem gerð af smásölurás. Í símaveri, starfsmenn taka pantanir viðskiptavina yfir síma og stofna sölupantanir. Virkni símavers inniheldur aðgerðir sem eru hannaðar til að auðvelda símapantanir og afgreiða þjónustu við viðskiptavin í gegnum ferlið uppfyllingu pöntunar. Til dæmis, starfsmenn símavers geta slegið inn greiðsluupplýsingar beint í sölupöntun, og geta skoðað ítarlegt yfirlit yfir gjöld og greiðslur áður en þeir senda pöntunina. Starfsmenn hafa val á að stýra verðlagningu og geta fengið aðgang að ýmsum gögnum um viðskiptavini, vörur og verð úr síðunni **sölupöntun**. Þar að auka hafa Símaver einnig ítarlegri aðgerðir til að rekja sögu og pöntunarstöðu viðskiptavinar. Hvert símaver getur haft eigin notendur, greiðsluhætti, verðflokkar, fjárhagsvíddir og afhendingarmáta. Hægt er að skilgreina valkosti þegar símaver er stofnað. Þar að auki geturðu notað Síðuna **símaver** til að kveikja eða slökkva á eiginleikaflokkum sem eru sértækir fyrir símaver.
 
--   **Lok pöntunar **– Þessi flokkur inniheldur eiginleika sem tengjast greiðslum og lokum pöntunar í síðunni **sölupöntun**.
--   **Beind sala **– Þessi flokkur inniheldur aðgerðir sem tengjast frumkóðum, forskriftum og beiðnum um vörulista.
+-   **Lok pöntunar**– Þessi flokkur inniheldur eiginleika sem tengjast greiðslum og lokum pöntunar í síðunni **sölupöntun**.
+-   **Beind sala**– Þessi flokkur inniheldur aðgerðir sem tengjast frumkóðum, forskriftum og beiðnum um vörulista.
 
 Þegar þessir eiginleikar í stillingum símavers eru virkjaðar, eru þær tiltækar á síðunni **sölupöntun** fyrir notendur sem eru tengdir við símaverið. Flestar þessara aðgerða krefjast frekari uppsetningar áður en hægt er að nota þær. Áður en notendur geta stofnað pantanir símavers, verður að bæta þessum notendum við símaver sem símaversnotendum. Þetta virkjar skilgreiningu og virkni símavers sem er tengd rásum. Hér eru nokkur dæmi um aðgerðir sem verður tiltæk:
 

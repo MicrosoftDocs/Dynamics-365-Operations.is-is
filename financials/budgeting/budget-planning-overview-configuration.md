@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d5073958f8ffe90e47dc10cde67e081420e559a1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 55553e9a791201b2707d2d9e98385e549d8417f6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -115,7 +116,7 @@ Upprunalegar stillingar á **skilgreiningu fjárhagsáætlunargerðar** síðu g
 
 Úthlutunaráætlanir úthluta sjálfkrafa fjárhagsáætlunarlína við verkflæðisferli. Hægt er að framkvæma úthlutanir með því að nota eitthvað af eftirfarandi aðferðum í **úthlutunaraðferð** lista:
 
--   **Úthlutun yfir tímabil ** – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. **Ábending:** áður En hægt er að úthluta yfir tímabil, verður að setja upp úthlutunarlykla tímabils á síðunni ****Úthlutunartegundir tímabils****.
+-   **Úthlutun yfir tímabil** – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. **Ábending:** áður En hægt er að úthluta yfir tímabil, verður að setja upp úthlutunarlykla tímabils á síðunni ****Úthlutunartegundir tímabils****.
 -   **Úthluta á víddir** – Línur fjárhagsáætlunar er úthlutað úr upprunalegum aðstæðum fjárhagsáætlunar yfir fjárhagsvíddir í viðtökuaðstæðum. **Ábending:** áður En hægt er að úthluta á víddir, verður að setja upp úthlutunarskilmála fjárhagsáætlunar á síðunni ****Úthlutunarskimlálar fjárhagsáætlunar****.
 -   **Samanlagt** – Línur fjárhagsáætlunar eru safnað úr upprunaaðstæðum fjárhagsáætlunargerðar í tengdri fjárhagsáætlun í viðstökuaðstæðum í yfirskipuðu fjárhagsáætluninni.
 -   **Dreifa** – Línur fjárhagsáætlunar eru dreifðar úr upprunaaðstæðum fjárhagsáætlunargerðar í yfirskipuðu fjárhagsáætluninni í viðstökuaðstæður æu tengdri fjárhagsáætlun.
@@ -171,7 +172,7 @@ Lýsingar sem hægt er að úthluta í **Útlit** hlutanum eru notaðir til að 
 
 ## <a name="setting-up-budget-planning-processes"></a>Setja upp ferli fjárhagsáætlunargerðar
 
-Eftir að lokið hefur verið við að skilgreina fjárhagsáætlunargerð, er hægt að setja upp ferli fjárhagsáætlunargerðar á **ferli Fjárhagsáætlunargerðar ** síðu. Fjárhagsáætlunarferli eru safn reglna sem ákvarðar hvernig hægt er að uppfæra, beina, endurskoða og samþykkja fjárhagsáætlanir innan stigveldis fyrirtækisins sem gerir fjárhagsáætlunina. 
+Eftir að lokið hefur verið við að skilgreina fjárhagsáætlunargerð, er hægt að setja upp ferli fjárhagsáætlunargerðar á **ferli Fjárhagsáætlunargerðar** síðu. Fjárhagsáætlunarferli eru safn reglna sem ákvarðar hvernig hægt er að uppfæra, beina, endurskoða og samþykkja fjárhagsáætlanir innan stigveldis fyrirtækisins sem gerir fjárhagsáætlunina. 
 
 Fyrir hverja ferli fjárhagsáætlunargerðar, skal velja fyrst ferli fjárhagsáætlunar og fjárhag. Hver ferli fjárhagsáætlunargerðar tengist ferli aðeins einnar ferli fjárhagsáætlunar og eitt fjárhags. Veldu síðan stigveldi fyrirtækis fjárhagsáætlunar á **stjórnun ferlis fjárhagsáætlunargerðar** Flýtiflipa, og úthluta verkflæði fjárhagsáætlunargerðar á allar ábyrgðarstöðvar í fyrirtækinu sem birtast í hnitanetinu. 
 

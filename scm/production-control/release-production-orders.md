@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8a12f79c9b2b02198c268a293b357ef805e2f4b9
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ leiðarspjaldi veitir yfirlit yfir upplýsinga sem koma úr leið og uppsetningu
 Leiðarvinnsla er með lista yfir sérhverja vinnslu aðgerðar í smáatriðum, þar á meðal uppsetningu, ferli, röð, og flutningstíma. Til dæmis, Aðgerð eins og málun gæti til dæmis útheimt einstakar vinnslur, eins og uppsetningu tíma, keyrslutíma (fyrir málningarferlið) og biðtíma (fyrir þornun).
 
 ## <a name="job-cards"></a>Vinnsluspjöld
-vinnsluspjaldi er listi yfir einstök vinnslunúmer fyrir tiltekna aðgerð. Eitt verk birtist í hverri síðu Vinnslurnar sem eru hafðar á vinnsluspjaldi, og áætlaður tími, koma úr upplýsingum um uppsetningu leiða og aðgerða. Frá vinnsluspjaldi er hægt að opna **framleiðslubókarlínur**, **vinnsluspjald ** síðu. Einstaklingarnir sem keyra rekstrartilföng geta gefið svörun um framleiðsluferlið. Fyrirliggjandi eru svæði þar sem hægt er að færa inn talnagögn um notkun og upplýsingar eins og gallað magn.
+vinnsluspjaldi er listi yfir einstök vinnslunúmer fyrir tiltekna aðgerð. Eitt verk birtist í hverri síðu Vinnslurnar sem eru hafðar á vinnsluspjaldi, og áætlaður tími, koma úr upplýsingum um uppsetningu leiða og aðgerða. Frá vinnsluspjaldi er hægt að opna **framleiðslubókarlínur**, **vinnsluspjald** síðu. Einstaklingarnir sem keyra rekstrartilföng geta gefið svörun um framleiðsluferlið. Fyrirliggjandi eru svæði þar sem hægt er að færa inn talnagögn um notkun og upplýsingar eins og gallað magn.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Vinna vöruhúss fyrir tiltekt hráefnis.
 Vinnu fyrir tiltekt hráefnis er stofnuð á meðan á losun stendur. Vinna er mynduð aðeins fyrir magn efnis sem var efnislega tekin frá fyrir framleiðslupöntunina áður en pöntunin var losuð. Eftirfarandi uppsetning er nauðsynleg til að mynda vöruhúsavinnu fyrir tiltekt hráefnis:

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 1fd606817b06a05b9abaaedf20ea9872bd7edd5d
-ms.openlocfilehash: c036670a6bec4c5469f917b8e2905f28c036f5c2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5e3bf3600343d3018708d666cadc23e99178f430
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Hægt er að nota eftirfarandi hnappanna í   síðunni reikningur lánardrottin
 -   **Dreifa fjárhæðir** - Skoða og breyta þeim dreifing á fjárhagsupphæð fyrir einstakar línur og allar  undirlínur, svo sem skatta eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni VSK-færsla eða síðunni Gjaldfærslur.
     -   Breyta upphæðum í haus lánardrottnareiknings, svo sem gjöldum eða sléttuðum gjaldeyrisupphæðum.
     -   Breyta línuupphæðum lánardrottnareikninga.
--   **Skoða dreifingu ** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur skjals. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
+-   **Skoða dreifingu** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur skjals. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
     -   Skoða hausupplýsingar og línuupphæðir.
 
 Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta og breyta dreifingar á fjárhagsupphæð fyrir línur sem innihalda vörur sem ekki eru í birgðum. Ef reikningslínu lánardrottinsins tilvísun til innkaupapöntunarlínu, er einnig hægt að eyða fjárhagsupphæð. Ekki er hægt að skipta eða eyða línum fyrir gjöld, skatt, og línuafslætti. Hægt er að breyta fjárhagslyklinum, en ekki er hægt að breyta upphæðum eða prósentum.

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ Eins og fyrir Vinnusniðmát, er hægt er að setja upp fyrirspurn til að ákva
 
 Línur staðsetningarleiðbeiningar setja frekari takmarkanir á notkun staðsetningaleitarreglna. Hægt er að tilgreina lágmarksmagn og hámarksmagnið sem á við leiðbeiningarnar eiga að gilda um, og hægt er að tilgreina að leiðbeiningarnar eigi að vera fyrir tiltekna birgðaeiningu. Til dæmis, ef mælieiningin er bretti þá er hægt að setja vörur í brettum á tilteknum stað. Einnig er hægt að tilgreina hvort magnið sé hægt að skipta á mörgum staðsetningar. Líkt og staðsetningarleiðbeiningar haus, hver lína staðsetningarleiðbeiningar hefur raðnúmer sem ákvarðar röð sem línurnar eru metnar í. 
 
-Staðsetningarleiðbeiningar hafa eina viðbótar upplýsingastig: *aðgerðir í staðsetningarleiðbeiningum*. Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir hverja línu. Einu sinni enn, númeraröð er notuð til að ákvarða röðun sem aðgerðir eru metnar í. Á þessu stigi er hægt að setja upp fyrirspurn til að skilgreina hvernig á að finna bestu staðsetningu í vöruhúsinu. Einnig er hægt að nota forskilgreint **Stjórnunarstefnu **stillingar til að finna bestu staðsetningu.
+Staðsetningarleiðbeiningar hafa eina viðbótar upplýsingastig: *aðgerðir í staðsetningarleiðbeiningum*. Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir hverja línu. Einu sinni enn, númeraröð er notuð til að ákvarða röðun sem aðgerðir eru metnar í. Á þessu stigi er hægt að setja upp fyrirspurn til að skilgreina hvernig á að finna bestu staðsetningu í vöruhúsinu. Einnig er hægt að nota forskilgreint **Stjórnunarstefnu**stillingar til að finna bestu staðsetningu.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Dæmi um notkun staðsetningarleiðbeiningar
 

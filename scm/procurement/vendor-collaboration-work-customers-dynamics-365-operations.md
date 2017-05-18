@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 11cd2242b5a575ae87b0dbcf6f8ce268fcea5377
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9dafdc211a866aa7d0b2ea139628ec530a2b6d4
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Eftirfarandi listi sýnir fjórum síðum sem nota má til að vinna við innkau
 
 -   **Innkaupapantanir fyrir yfirferð** (sjá hér á undan)
 -   **Staðfestingarsögu lánardrottins fyrir innkaupapantanir** -Þessi síða inniheldur allar IP og útgáfur IP sem hafa verið send til lánardrottins og öllum svörum sem hafa borist frá lánardrottni.
--   **Opna staðfestar innkaupapantanir **(sjá að ofan)
+-   **Opna staðfestar innkaupapantanir**(sjá að ofan)
 -   **Allar staðfestar innkaupapantanir** -Þessi síða inniheldur allar IP sem hafa verið staðfest, þ.m.t. þær þar sem vörur eða þjónustu hafa verið mótteknar. Hægt er að nota þennan lista til að fylgjast með hvaða IP er hægt að senda reikninga fyrir.
 
 ### <a name="responding-to-purchase-orders"></a>Innkaupapöntunum svarað
@@ -56,14 +57,14 @@ Innkaupapantanir sem viðskiptavinurinn hefur sent þér til að fara yfir eru e
 -   Skipta línum fyrir mismunandi afhendingardagsetningar eða magn.
 -   Nota staðgengilsvöru. Til að gera þetta skal færa inn lýsingu á vöru og vörunúmer í **Ytri** reit í **Línuupplýsingar** hluta.
 
-Ekki hægt að breyta verðupplýsingar eða gjöld, en hægt að gera tillögur um breytingar með því að nota athugasemdir. Ef viðskiptavinur sendir þér nýja útgáfu af IP mun hún vera með viðskeyti til að gefa til kynna að það sé breytt útgáfa af Innkaupapöntun sem var áður í gangi. Í **staðfestingarsögu innkaupapantana lánardrottins ** síðu getur þú rekja sögu hverja pöntun.
+Ekki hægt að breyta verðupplýsingar eða gjöld, en hægt að gera tillögur um breytingar með því að nota athugasemdir. Ef viðskiptavinur sendir þér nýja útgáfu af IP mun hún vera með viðskeyti til að gefa til kynna að það sé breytt útgáfa af Innkaupapöntun sem var áður í gangi. Í **staðfestingarsögu innkaupapantana lánardrottins** síðu getur þú rekja sögu hverja pöntun.
 
 ## <a name="monitoring-consignment-inventory"></a>Fylgjast með vörusendingabirgðir
 Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir samstarf lánardrottna til að skoða upplýsingar um eftirfarandi síður:
 
 -   **Innkaupapantanir sem notar vörusendingabirgðir** - innkaupapantanir fyrir vörusendingabirgðir eru myndaðar þegar viðskiptavinur tekur yfir eignarhald á birgðum. Þessum innkaupapantanir vörusendinga birtast aðeins á **Innkaupapantanir sem nota vörusendingabirgðir** síðuna. Eru ekki teknar með í **Allar staðfestar innkaupapantanir** síðu.
 -   **Afurðir sem er tekið við úr vörusendingabirgðum** - Þessi síða inniheldur lista yfir allar færslur þar sem eignarhald afurða hefur verið flutt til fyrirtækis sem er að nota birgðirnar. Þú geta nota þessar upplýsingar til að reikningsfæra á viðskiptavininn.
--   **Vörusendingarbirgðir á lager ** -Þessi síða sýnir vörusendingarbirgðir á lager í eigu fyrirtækis þíns og er á lager í vöruhúsi viðskiptavinar.
+-   **Vörusendingarbirgðir á lager** -Þessi síða sýnir vörusendingarbirgðir á lager í eigu fyrirtækis þíns og er á lager í vöruhúsi viðskiptavinar.
 
 
 <a name="see-also"></a>Sjá einnig

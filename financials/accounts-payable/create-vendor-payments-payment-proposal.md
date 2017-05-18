@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 
 ## <a name="parameters"></a>Færibreytur
 -   **Velja reikninga eftir** – Reikninga innan tímabilsins sem er tilgreint í svæðunum **Frá dagsetningu** og **Til dagsetningar** er hægt að velja eftir gjalddaga, staðgreiðsluafsláttardagsetningu eða bæði. Ef dagsetning staðgreiðsluafsláttar er valin leitar kerfið fyrst eftir reikningum sem hafa dagsetningu staðgreiðsluafsláttar milli þeirra dagsetninga. Kerfið þá ákveður hvort reikningurinn er hæfur°fyrir staðgreiðsluafslátt með því að nota lotudagsetninguna til að ganga úr skugga um að dagsetning staðgreiðsluafsláttar sé ekki liðin.
--   **Frá dagsetningu** og** Til dagsetningar** – Reikningar sem hafa gjalddaga eða dagsetningu staðgreiðsluafsláttar innan þessa dagsetningabils eru valdar fyrir greiðslu.
+-   **Frá dagsetningu** og**Til dagsetningar** – Reikningar sem hafa gjalddaga eða dagsetningu staðgreiðsluafsláttar innan þessa dagsetningabils eru valdar fyrir greiðslu.
 -   **Dagsetning greiðslu** – Ef dagsetning er tilgreind eru allar greiðslur eru stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
 -   **Dagsetning lágmarksgreiðslu** – færið Inn dagsetning lágmarksgreiðslu.. Til dæmis tilgreina svæðin **Frá dagsetningu** og **Til dagsetningar** bilið 1. september til 10. september og dagsetning lágmarksgreiðslu er 5. september. Í þessu tilfelli hafa allir reikningar með gjalddaga frá 1. september til 5. september greiðsludagsetninguna 5. september. Hins vegar hafa allir reikningar með gjalddaga frá 5. september til 10. september greiðsludagsetningu sem er sú sama og gjalddagi fyrir hvern reikning.
 -   **Upphæðarmörk** – færið Inn hámarksheildarupphæð fyrir allar greiðslur.

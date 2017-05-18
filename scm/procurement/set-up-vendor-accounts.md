@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 0719a49bee069dc49be084a3fbc4ba5eb4883d03
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2f0ddf0e4cff0d799a7baf6bdc9d5c2da0622f4d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -88,8 +89,8 @@ Hægt er að setja lánardrottinn í bið fyrir ýmsar færslugerðir. Eftirtald
 -   **Engir** – Engin bið hefur verið sett á lánardrottin.
 -   **Reikningur** – Ekki má stofna neina reikninga fyrir þennan lánardrottinn.
 -   **Allir** – Lánardrottininn er í bið fyrir allar færslugerðir. Þessar færslugerðir innifela innkaupabeiðnir, reikningar og greiðslur.
--   **Greiðsla ** – Ekki er hægt að mynda neinar greiðslur fyrir þennan lánardrottin.
--   **Beiðni ** - Aðeins er hægt að stofna innkaupabeiðnir Ekki er hægt að stofna neinar aðrar færslur.
+-   **Greiðsla** – Ekki er hægt að mynda neinar greiðslur fyrir þennan lánardrottin.
+-   **Beiðni** - Aðeins er hægt að stofna innkaupabeiðnir Ekki er hægt að stofna neinar aðrar færslur.
 -   **Aldrei** – lánardrottins er aldrei sett í bið vegna óvirkni.
 
 Þegar lánardrottinn er sett í bið er einnig hægt að tilgreina ástæðu og dagsetning þegar biðstöðunni skal ljúka. Ef ekki er fært inn lokadagsetningu, endist biðstaða lánardrottins í óráðinn tíma.
@@ -98,7 +99,7 @@ Hægt er að setja lánardrottinn í bið fyrir ýmsar færslugerðir. Eftirtald
 Ef fleiri en einn lánardrottinn hefur sama aðsetur eða ef reikningsfært er á lánardrottinn í gegnum þriðja aðila, geturðu tilgreint reikningslykil á lánardrottinsfærslu. Reikningslykill er lykill sem reikningsupphæð er skuldfærð á þegar reikningur lánardrottins er stofnaður úr innkaupapöntun. Ef reikningslykill er ekki færður inn er lánardrottnalykill notaður sem reikningslykill.
 
 ## <a name="vendor-bank-accounts"></a>Bankareikningur lánardrottins
-Ef þú þarft að framkvæma greiðslur inn á bankareikning lánardrottins er hægt að færa inn upplýsingar um banka og bankareikninga lánardrottins í **bankareikningar Lánardrottins ** síðu. Þú getur einnig fær inn upplýsingar um villuleit og greiðslur fyrir valinn bankareikning. Til dæmis er hægt færa inn fyrirframkvittanir á bankareikning lánardrottins. Þessar fyrirframkvittanir má nota til að sannprófa nákvæmni reikningsgagna, svo sem leiðarnúmer og reikningsnúmer. Tilgreina verður sjálfgefinn lykill fyrir greiðslur til lánardrottins. Hins vegar þegar þú framkvæmir raunverulega greiðslu, er hægt að breyta þessum lykli í einhvern af öðrum lyklar lánardrottins.
+Ef þú þarft að framkvæma greiðslur inn á bankareikning lánardrottins er hægt að færa inn upplýsingar um banka og bankareikninga lánardrottins í **bankareikningar Lánardrottins** síðu. Þú getur einnig fær inn upplýsingar um villuleit og greiðslur fyrir valinn bankareikning. Til dæmis er hægt færa inn fyrirframkvittanir á bankareikning lánardrottins. Þessar fyrirframkvittanir má nota til að sannprófa nákvæmni reikningsgagna, svo sem leiðarnúmer og reikningsnúmer. Tilgreina verður sjálfgefinn lykill fyrir greiðslur til lánardrottins. Hins vegar þegar þú framkvæmir raunverulega greiðslu, er hægt að breyta þessum lykli í einhvern af öðrum lyklar lánardrottins.
 
 ## <a name="ledger-accounts"></a>Fjárhagslyklar
 Hægt er að tilgreina sjálfgefnir lyklar sem birtast sjálfkrafa í færslubækur fyrir reikning lánardrottins fyrir tilgreindan lánardrottin. Þessi virkni getur komið að gagni ef þú greiðir yfirleitt fyrir sömu gerðir vara eða þjónustu frá sama lánardrottni með tímanum. Þegar tilgreindur er sjálfgefinn lykill, er fljótlegt og hagkvæmt að slá inn færslur í reikningsbók. Sjálfgefnir lyklar sem þú tilgreinir eru ekki notuð fyrir innkaupapantanir eða fyrir reikninga lánardrottins sem eru færðar inn í **lánardrottinsreikning** síðu.  

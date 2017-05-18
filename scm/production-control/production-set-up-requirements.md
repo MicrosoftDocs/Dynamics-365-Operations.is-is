@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f34def96ea3b8fd6a8bd015cd120adf87d443285
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 469cf4513a970effb34a857b71a89fd0a5499e25
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna 
 1.  **Sniðmát vinnutíma** – Setja upp sniðmát vinnutíma til að skilgreina tímana sem eru í boði fyrir framleiðsluröðun.
 2.  **Dagatöl** – Setja upp vinnutímadagatal til að skilgreina daga ársins sem eru í boði fyrir framleiðsluröðun.
 3.  **Tilfangaflokkar** – Setja upp tilfangaflokka til að flokka rekstrartilföngum, þannig að hægt er að fá yfirlit yfir allar lausa afkastagetu þegar röðun er keyrð. Ekki þarf að setja upp tilfangaflokka áður en þú setur upp rekstrartilföng. Þó er mælt með að skilja hvernig skuli flokka tilföng þegar sett er upp framleiðslustýringu.
-4.  ** Tilföng** - Setja upp rekstrartilföng til að skilgreina tilföng sem notuð eru til að ljúka framleiðsluferli og til að áætla afkastagetu.
+4.  **Tilföng** - Setja upp rekstrartilföng til að skilgreina tilföng sem notuð eru til að ljúka framleiðsluferli og til að áætla afkastagetu.
 
 ## <a name="required-production-parameters-setup"></a>Skyldug uppsetning framleiðslufæribreyta
 **Færibreytur framleiðslustýringar** – Setja upp grunnfæribreytur framleiðslu til að skilgreina hvernig kerfið meðhöndlar og vinnur úr framleiðslupöntunum. Skilgreinið hvernig á að stofna, meta, raða og nota framleiðslupantanir. Einnig er hægt að velja um svörun og hvernig kostnaðarbókhald fer fram.
@@ -63,14 +64,14 @@ Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna 
 ## <a name="setup-if-you-use-operations"></a>Uppsetning ef aðgerðir eru notaðar
 Aðgerðir tákna tiltekna verkþætti sem er lokið til að framleiða endanlega afurð. **Ábending:** Þú verður að þekkja gerðir verkþátta sem eru nauðsynleg til að framleiða vöruna, og röð og forgang þeirra verkþætti. Þú Verður einnig vitað er hvaða tilföng eru innifalin, og hversu margar.
 
-1.  ** Aðgerðir** - Setja upp aðgerðir sem standa fyrir þau verk sem þarf að ljúka til að framleiða lokna afurð.
-2.  ** Tengsl** - Setja upp vensl aðgerða til að gefa ítarlegri eiginleika. Vensl aðgerða eru skilgreind með því að smella á **Tengsl** á í **Aðgerðir** síðu.
+1.  **Aðgerðir** - Setja upp aðgerðir sem standa fyrir þau verk sem þarf að ljúka til að framleiða lokna afurð.
+2.  **Tengsl** - Setja upp vensl aðgerða til að gefa ítarlegri eiginleika. Vensl aðgerða eru skilgreind með því að smella á **Tengsl** á í **Aðgerðir** síðu.
 
 ## <a name="setup-if-you-use-routes"></a>Uppsetning ef leiðir eru notaðar
 Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleiðsluleið sem sett er upp. Leiðin sýnir hvernig varan fer á milli aðgerða, og frá upphafi framleiðsluferlis til enda.
 
-1.  ** Kostnaðartegundir** - Setja upp kostnaðartegundir til að skilgreina kostnað á hverja klukkustund í tilgreindum ferlum og uppsetningartímum.
-2.  ** Kostnaðarflokkar** - Setja upp kostnaðarflokka til að stofna og hafa umsjón með mörgum gerðum kostnaðar.
+1.  **Kostnaðartegundir** - Setja upp kostnaðartegundir til að skilgreina kostnað á hverja klukkustund í tilgreindum ferlum og uppsetningartímum.
+2.  **Kostnaðarflokkar** - Setja upp kostnaðarflokka til að stofna og hafa umsjón með mörgum gerðum kostnaðar.
 3.  **Leiðarflokkar** - Setja upp leiðaflokka til að skilgreina færibreytur sem eiga við um hópa af leiðum. Það verður að setja upp leiðaflokka áður en farið er að stofna framleiðsluleiðir.
 4.  **Leiðir** Setja upp framleiðsluleiðir og skilgreinið sjálfgefnar stillingar til að stjórna röðun, kostnaðarútreikning og verðlagningu leiðaaðgerða og framvinduskýrslur.
 5.  **Leiðir** - Setja upp leiðaútgáfur til að virkja vöruafbrigði í framleiðslu.

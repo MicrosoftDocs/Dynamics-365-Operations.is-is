@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Kostnaðareining tekna sem er valin í launaflokknum er notuð þegar tekjur eru
 
 Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Dynamics 365 for Operations, óháð því hvort staða hefur verið fyllt eða ekki. 
 
-Aðgerðin **Bæta við stöðum sem til eru** birtir allar stöður fyrir fyrirtæki. Með því að stilla dagsetninguna ** Frá og með** er hægt að breyta lista yfir stöður þannig að það innihaldi staði sem voru til á dagsetningu í fortíðinni eða, sem er algengara, í framtíðinni (til dæmis upphaf næsta ferlis fjárhagsáætlunar). Veljið ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar, veljið stöður í listanum og smellið síðan á **Í lagi** til að stofna spástöðu fyrir valdar stöður. Athugið að aðeins er hægt að stofna eina spástöðu fyrir hverja fyrirliggjandi stöðu í ferli og aðstæðumar fjárhagsáætlunargerðar. Hins vegar er hægt að stofna frekari útgáfur með því að úthluta mismunandi aðstæðum fjárhagsáætlunargerðar. 
+Aðgerðin **Bæta við stöðum sem til eru** birtir allar stöður fyrir fyrirtæki. Með því að stilla dagsetninguna **Frá og með** er hægt að breyta lista yfir stöður þannig að það innihaldi staði sem voru til á dagsetningu í fortíðinni eða, sem er algengara, í framtíðinni (til dæmis upphaf næsta ferlis fjárhagsáætlunar). Veljið ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar, veljið stöður í listanum og smellið síðan á **Í lagi** til að stofna spástöðu fyrir valdar stöður. Athugið að aðeins er hægt að stofna eina spástöðu fyrir hverja fyrirliggjandi stöðu í ferli og aðstæðumar fjárhagsáætlunargerðar. Hins vegar er hægt að stofna frekari útgáfur með því að úthluta mismunandi aðstæðum fjárhagsáætlunargerðar. 
 
 Ef kostnaðareiningum fjárhagsáætlunar hefur verið úthlutað á stöðu í mannauði er þessum kostnaðareiningum fjárhagsáætlunar einnig úthlutað á spástöðu og þær nota sjálfgefnar upphæðir. Reiturinn **Úthlutaður starfsmaður** í spástöðunni er stilltur á nafn starfsmanns sem er úthlutað á stöðuna, ef starfsmanni er úthlutað. Þessi reitur er einfaldur textareitur. Engin beinn tengill er stofnaður. 
 

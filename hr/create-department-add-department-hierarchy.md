@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: ee51abe108b3bc0aabc764b991222db6d185e532
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 78bf0f63c7b752dde779901dcce88d73dbc42005
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ deild gæti innifalið hóp af kostnaðarstöðum. Hægt er að úthluta stöðu
 | Reitur               | Lýsing                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Heiti                | Færið inn heiti fyrir deildina.                                                                                                                                                                                  |
-| Deildarnúmer   | Sjálfgefið gildi kann að vera myndað sjálfkrafa ef kóði númeraraðar er úthlutað á  **tilvísunarnúmer fyrirtækis ** á síðunni **númeraröð**.                                                 |
+| Deildarnúmer   | Sjálfgefið gildi kann að vera myndað sjálfkrafa ef kóði númeraraðar er úthlutað á  **tilvísunarnúmer fyrirtækis** á síðunni **númeraröð**.                                                 |
 | Leita að nafni         | Færið inn nafn eða skammstöfun sem hægt er að nota til að leita að deildinni.                                                                                                                                            |
 | Athugasemd                | Færðu inn viðbótarupplýsingar hér.                                                                                                                                                                            |
 | Í stigveldi        | Valinn gátreitur getur til kynna að deildin er innifalin í stigveldi deildar. Upplýsingar um það hvernig skal bæta við deild við stigveldi deildar, Sjá upplýsingar síðar í þessari grein. |

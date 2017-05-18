@@ -3,7 +3,7 @@ title: "óskjalað"
 description: "Aðgerðaboð eru tillaga sem mynduð er í kerfinu til að breyta fyrirliggjandi áætlaðri eða staðfestri pöntun."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 21 - 54
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,28 +17,31 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f2ac69ddf485139b057dafa20e5f1a961fc32067
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c011ac5dbba5e98ff9f743237b02a69ea2b36a9d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="undocumented"></a>óskjalað
+# <a name="action-messages"></a>Aðgerðaboð
+
+[!include[banner](../includes/banner.md)]
+
 
 Aðgerðaboð eru tillaga sem mynduð er í kerfinu til að breyta fyrirliggjandi áætlaðri eða staðfestri pöntun.
 
-### <a name="introduction"></a>Inngangur
+## <a name="introduction"></a>Inngangur
 
 Útreikningur aðalröðunar myndar aðgerðaboð sem viðbrögð við breyttum þörfum. Til dæmis gæti sendingardagsetningu eða magn hafa verið breytt í sölupöntun sem innkaupapöntun hefur þegar verið stofuð fyrir til að uppfylla eftirspurnina. Í þessu tilfelli eru ein eða fleiri aðgerðaboð mynduð af útreikningi aðalröðunar til að uppfæra innkaupapöntunina. Þú ákveður hvort framkvæma eigi ráðlagðar breytingar.
 
 Hægt er að skilgreina hvernig aðgerðaboðin eru reiknuð fyrir þekjuhóp sem hægt er að tengja við vöru.
 
- <a name="selecting-action-messages"></a> Velja aðgerðaboð
-==========================
+## <a name="select-action-messages"></a>Skoða aðgerðarboð
 
-Á síðunni **Þekjuflokkar ** er hægt að velja aðgerðaboð sem óskað er eftir að kerfið myndi, aðgerðaboð og þekjuflokka eða vörur sem skilaboðin skulu notuð við. Hægt er að velja eftirfarandi aðgerðaboð:
+Á síðunni **Þekjuflokkar** er hægt að velja aðgerðaboð sem óskað er eftir að kerfið myndi, aðgerðaboð og þekjuflokka eða vörur sem skilaboðin skulu notuð við. Hægt er að velja eftirfarandi aðgerðaboð:
 
 | Skilaboð             | Lýsing                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,6 +50,8 @@ Hægt er að skilgreina hvernig aðgerðaboðin eru reiknuð fyrir þekjuhóp se
 | **Lækka**        | Ef þessi skilaboð eru valin þarf að draga úr framleiðslupöntunum, innkaupapöntunum eða öðrum innhreyfingum til að forðast umfram birgðastig.                                                                                                   |
 | **Hækka**        | Ef þessi skilaboð eru valin þarf að auka framleiðslupantanir, innkaupapantanir eða aðrar innhreyfingar til að forðast skortstöðu í birgðum.                                                                                                    |
 | **Afleiddar aðgerðir** | Ef þessi boð eru valin eru aðgerðaskilaboð stofnuð fyrir afleiddar þarfir, t.d. aðgerðir fyrir íhlutapantanir sem til að uppfylla framleiðslu.                                                                                                   |
+
+
 
 
 

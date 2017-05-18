@@ -1,16 +1,16 @@
 ---
 title: "Dálkaskilgreiningar í Fjárhagsskýrslum"
 description: "Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum.
 
@@ -96,7 +100,7 @@ Hólfið **Dálktakmarkanir** getur innihaldið kóða sem takmarka eða fela up
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Dálktakmörkun bætt við dálkskilgreiningu
 
 1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellt er á hólfið **Dálktakmarkanir **fyrir þann dálk sem á að takmarka.
+2.  Tvísmellt er á hólfið **Dálktakmarkanir**fyrir þann dálk sem á að takmarka.
 3.  Í svarglugganum **Dálktakmarkanir** er einn eða fleiri kóðar valdir af listanum og því næst smellt á **Í lagi**.
 
 ### <a name="column-restriction-codes"></a>Dálktakmörkunarkóðar
@@ -142,7 +146,7 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 2.  Tvísmellið á fyrirsagnarhólf.
 3.  Í svarglugganum **Dálkfyrirsögn** skal færa inn texta dálkfyrirsagnarinnar. Annar valkostur er að smella á **Setja inn sjálfvirkan texta** og velja valkost.
 4.  Veljið sniðstíl fyrir fyrirsögnina í reitnum **Sniðvalkostir**.
-5.  Færið staf dálksins sem dálkfyrirsögnin á að byrja á yfir í reitinn **Byrjar á**. Færið staf dálksins sem dálkfyrirsögnin á að enda á yfir í reitinn **Endar á **.
+5.  Færið staf dálksins sem dálkfyrirsögnin á að byrja á yfir í reitinn **Byrjar á**. Færið staf dálksins sem dálkfyrirsögnin á að enda á yfir í reitinn **Endar á**.
 6.  Undir **Jöfnun** skal velja hvort texti dálkfyrirsagnarinnar skal vera vinstri-, hægri- eða miðjujafnaður.
 7.  Smelltu á **Í lagi**.
 
@@ -192,7 +196,7 @@ Fyrirsagnir með skilyrt umfang geta náð yfir marga dálka, sem byggja á tilt
 2.  Tvísmellið á fyrirsagnarhólf.
 3.  Í svarglugganum **Dálkfyrirsögn** skal færa inn texta dálkfyrirsagnarinnar. Annar valkostur er að smella á **Setja inn sjálfvirkan texta** og velja valkost.
 4.   Veljið sniðstíl fyrir fyrirsögnina í reitnum **Sniðvalkostir**.
-5.  Tilgreinið tímabil í samræmi við grunntímabilið sem tilgreint er þegar skýrslan er mynduð. færa skal inn einn af eftirfarandi valkostum í reitina **Byrjar á** og **Endar á**: **BASE**, **BASE-X** eða **BASE+X**, þar sem X táknar fjölda tímabila úr grunntímabilinu. Til dæmis ef slegið er inn **BASE** í reitinn ** Byrjar á** byrjar texti skilyrts umfangs dálkfyrirsagnarinnar í dálkfyrirsögninni þar sem skýrsluskilgreiningin **Grunntímabil** er sama og  dálkskilgreining gildi **Tímabils** Hún endar í dálkinn sem er tilgreint í á **Enda á** svæði. Þannig að ef bilið er BASE til M og skýrsluskilgreingin **Grunntímabil** = **4** hefst fyrirsögnin frá og með dálknum með tímabilið stillt á **4** og endar með dálknum M. Hausar stöðvast og hefjast við prentun dálka eingöngu.
+5.  Tilgreinið tímabil í samræmi við grunntímabilið sem tilgreint er þegar skýrslan er mynduð. færa skal inn einn af eftirfarandi valkostum í reitina **Byrjar á** og **Endar á**: **BASE**, **BASE-X** eða **BASE+X**, þar sem X táknar fjölda tímabila úr grunntímabilinu. Til dæmis ef slegið er inn **BASE** í reitinn **Byrjar á** byrjar texti skilyrts umfangs dálkfyrirsagnarinnar í dálkfyrirsögninni þar sem skýrsluskilgreiningin **Grunntímabil** er sama og dálkskilgreining gildi **Tímabils** Hún endar í dálkinn sem er tilgreint í á **Enda á** svæði. Þannig að ef bilið er BASE til M og skýrsluskilgreingin **Grunntímabil** = **4** hefst fyrirsögnin frá og með dálknum með tímabilið stillt á **4** og endar með dálknum M. Hausar stöðvast og hefjast við prentun dálka eingöngu.
 6.  Undir **Jöfnun** skal velja hvort texti dálkfyrirsagnarinnar skal vera vinstri-, hægri- eða miðjujafnaður.
 7.  Smelltu á **Í lagi**.
 
@@ -282,7 +286,7 @@ Hólfið **Hnekking sniðs/gjaldmiðils** tilgreinir snið tugabrota-, gjaldmið
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Hnekkingu á gjaldmiðilssniði úthlutað á skýrsludálk
 
 1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils **í upphæðardálki.
+2.  Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils**í upphæðardálki.
 3.  Snið er valið í svarglugganum **Hnekkja sniði**.
 
 ### <a name="add-a-print-control-code"></a>Bæta við kóða fyrir stillingu prentunar
@@ -318,11 +322,11 @@ Hólfið **Stilling fyrir prentun** inniheldur kóða sem stilla birtingar- eða
 2.  Tvísmellið á hólfið **Stilling fyrir prentun**.
 3.  Í svarglugganum **Stilling fyrir prentun** er valinn kóði af listanum **Velja stillingarvalkosti prentunar**. Ef velja á fleiri en einn kóða skal halda niðri CTRL-takkanum um leið og kóðarnir eru valdir.
 4.  Veljið valkost í reitnum **Skilyrtir prentvalkostir**. **(ekkert)** er sjálfgefið valið. Aðeins er hægt að velja einn skilyrtan prentkóða í einu.
-5.  Smelltu á **Í lagi**.
+5.  Smellið á **Í lagi**.
 
-**Ábending:** Einnig er hægt að færa kóða stillinga fyrir prentkóða beint inn í hólfið **Prentstýringar**. Aðskiljið marga stillingakóða fyrir prentun með kommum.
+> [!TIP]
+> Einnig er hægt að slá prentkóðana beint inn í reitinn **Prentstýringar**. Aðskiljið marga stillingakóða fyrir prentun með kommum.
 
-### 
 
 ## <a name="column-types"></a>Gerðir dálka
 Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindur með gildinu í línunni **Dálkgerð** í dálkskilgreiningunni. Hver dálkskilgreining verður að innihalda að minnsta kosti einn lýsingardálk (**DESC**) og einn upphæðardálk (**FD**, **WKS** eða **CALC**). **Ábending:** Kóðarnir fyrir Dálkategund eiga ekki við fyrir öll bókhaldskerfi. Ef valin er tegund sem er ekki gild fyrir viðeigandi bókhaldskerfi birtist sá dálkur auður í skýrslunni.
@@ -507,7 +511,8 @@ Skýrsla með mörgum gjaldmiðlum getur birt upphæðir í eiginlegum gjaldmið
 -   **Birtingarmynd gjaldmiðils** – Tilgreinir tegund gjaldmiðils (eiginlegur, virkur eða skýrslugjaldmiðill) þar sem færslur eru birtar. Stundum er vísað til þessarar virkni sem umreikningur gjaldmiðils. umreikningur gjaldmiðils, gerir notanda kleift að skrá fjárhagsupphæðir í gjaldmiðli sem gæti verið annar en virkur gjaldmiðill fyrirtækisins eða annar gjaldmiðill en færslan var færð inn í.
 -   **Afmörkun gjaldmiðils** – Tilgreina afmörkun gjaldmiðils. Aðeins færslur sem færðar eru inn í gjaldmiðlinum sem valinn er birtast í skýrslunni.
 
-**Ábending:** til að stofna skýrslur sem nota marga gjaldmiðla verður að velja gátreitinn **Taka með alla skýrslugjaldmiðla** í flipanum **Skýrsla** í skýrsluskilgreiningu. Til að ákvarða virkan gjaldmiðil fyrirtækis skal að eftirfarandi skrefum:
+> [!NOTE]
+> Til að stofna skýrslur sem nota marga gjaldmiðla verður að velja gátreitinn **Taka með alla skýrslugjaldmiðla** í flipanum **Skýrsla** í skýrsluskilgreiningu. Til að ákvarða virkan gjaldmiðil fyrirtækis skal að eftirfarandi skrefum:
 
 1.  Á valmyndinni **Fyrirtæki** í Skýrsluhönnun er smellt á **Fyrirtæki**.
 2.  Í svarglugganum **Fyrirtæki** skal velja fyrirtæki og smella síðan á **Skoða**.
@@ -516,10 +521,11 @@ Skýrsla með mörgum gjaldmiðlum getur birt upphæðir í eiginlegum gjaldmið
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>tilgreindu gjaldmiðil í skýrslu með marga gjaldmiðla
 
 1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið ** Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Eiginlegur/upphaflegur gjaldmiðill**, **Virkur gjaldmiðill úr stofngögnum** eða skýrslugjaldmiðil.
+2.  Tvísmellið á hólfið **Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Eiginlegur/upphaflegur gjaldmiðill**, **Virkur gjaldmiðill úr stofngögnum** eða skýrslugjaldmiðil.
 3.  Tvísmellið á hólfið **Gjaldmiðilsafmörkun** í viðeigandi **FD** dálki og veljið svo viðeigandi gjaldmiðilskóða á listanum. Aðeins færslur sem færðar eru inn þessum gjaldmiðli birtast í skýrslunni.
 
-**Ábending:** Valkostirnir sem lýst er hér gætu verið öðruvísi, allt eftir ERP-kerfinu. Frekari upplýsingar eru í [Fylgiskjölum með Microsoft ERP kerfi](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Valkostirnir sem lýst er hér gætu verið öðruvísi, allt eftir ERP-kerfinu. Frekari upplýsingar eru í [Fylgiskjölum með Microsoft ERP kerfi](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Dæmi um hólf birtingamyndar gjaldmiðils og gjaldmiðilsafmörkunar.
 
@@ -543,7 +549,7 @@ Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað f
 
 ### <a name="calculation-column-in-a-column-definition"></a>Útreikningsdálkur í dálkskilgreiningu
 
-Dálkur af tegundinni **CALC** í dálkskilgreiningu styður flókna útreikninga í hólfinu **Formúla** og getur tekið með virkjana **+**, **-**, **\*** og **/**, ásamt yrðingunum **IF/THEN/ELSE**. Að auki getur útreikningsdálkur vísað í hvaða annan dálk sem er, þ. á m. dálka sem á eftir koma. Þar að auki, getur útreikningsdálkur einnig innifalið fjárhagsár og tímabil til að styðja hausa fyrir dálkinn. Útreikningsformúlan getur verið að hámarki 1,024 stafir að lengd. Til þess að sýna niðurstöður útreikningsins sem hlutfall skal notast við sérstaka hnekkingu sniðs. **Ábending:** Niðurstöður útreikningsformúla innihalda ekki gildin í sviðum dálka sem á ekki að prenta. Til dæmis prentar **A:D** **0 ** (núll) en **A+B+ C** fyrir gildi sem ekki á að prenta út reiknar út gildið.
+Dálkur af tegundinni **CALC** í dálkskilgreiningu styður flókna útreikninga í hólfinu **Formúla** og getur tekið með virkjana **+**, **-**, **\*** og **/**, ásamt yrðingunum **IF/THEN/ELSE**. Að auki getur útreikningsdálkur vísað í hvaða annan dálk sem er, þ. á m. dálka sem á eftir koma. Þar að auki, getur útreikningsdálkur einnig innifalið fjárhagsár og tímabil til að styðja hausa fyrir dálkinn. Útreikningsformúlan getur verið að hámarki 1,024 stafir að lengd. Til þess að sýna niðurstöður útreikningsins sem hlutfall skal notast við sérstaka hnekkingu sniðs. **Ábending:** Niðurstöður útreikningsformúla innihalda ekki gildin í sviðum dálka sem á ekki að prenta. Til dæmis prentar **A:D** út **0** (núll) þar sem **A+B+C** fyrir gildi sem ekki á að prenta út reiknar út gildið.
 
 #### <a name="operators-in-calculation-columns"></a>Virkjar í útreikningsdálkum
 
@@ -584,5 +590,7 @@ Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til 
 [Línuskilgreiningar í fjárhagsskýrslugerð](row-definitions-financial-reporting.md)
 
 [Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð](advanced-formatting-options-financial-reporting.md)
+
+
 
 

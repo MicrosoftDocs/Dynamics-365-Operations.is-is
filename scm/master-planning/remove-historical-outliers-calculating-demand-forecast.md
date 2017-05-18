@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 6f44e1ce566781f1586203528d55b13b28001a2c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cfc4a58c638181e344263f551d802698c7043d0c
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/31/2017
 
 Með því útiloka frávik er hægt að auka nákvæmni spár. Þetta verk er valfrjálst. Hér er yfirlit yfir ferlið:
 
-1.  Smellið á **Aðaláætlanagerð** &gt; ** Uppsetning** &gt; **Eftirspurnarspár** &gt; **Frávik fjarlægt** til að opna síðuna **Frávik fjarlægt** þar sem hægt er að nota fyrirspurn til að velja færslur til að útiloka.
+1.  Smellið á **Aðaláætlanagerð** &gt; **Uppsetning** &gt; **Eftirspurnarspár** &gt; **Frávik fjarlægt** til að opna síðuna **Frávik fjarlægt** þar sem hægt er að nota fyrirspurn til að velja færslur til að útiloka.
 2.  Veljið fyrirtækið sem fyrirspurnin á við og færið svo inn nafn og lýsingu. Reiturinn **Dagsetning fyrirspurnar** er sjálfkrafa stilltur á Virkt.
 3.  Velja skal gátreitinn **Virkur** gátreit til að útiloka færslur sem fyrirspurnin finnur í sögulegum gögnum. Þessi stilling tekur gildi þegar grunnlínuspá er stofnuð.
 4.  Á síðunni **Fjarlægingarfyrirspurn fyrir einfara** er hægt að bæta við, fjarlægja og velja skilyrði sem skilgreina hvaða færslur verða útilokaðar þegar grunnspá er reiknuð. Til dæmis, veljið tiltekna vöru eða pöntunarfærslu sem á að útiloka.

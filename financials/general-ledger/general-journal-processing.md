@@ -3,7 +3,7 @@ title: "Vinnsla almennrar færslubókar"
 description: "Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 for Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, og það getur einnig hjálpað við að tryggja að rétt gögn séu tekin að innra eftirlit sé ekki í hættu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 50cd203025be8857de943e458fc32315e494fb7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c020566928cecc15bd7de504164f5adbf34eda44
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessar greinar lýsir getu í Microsoft Dynamics AX sem geta hjálpað að gera vinnslu almennrar færslubókar auðveldara, og það getur einnig hjálpað að tryggja að rétt gögn er tekin og innra eftirlit er ekki í hættu.  
+Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 for Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, og það getur einnig hjálpað við að tryggja að rétt gögn séu tekin að innra eftirlit sé ekki í hættu.  
 
 Færslubókanöfn
 
@@ -52,7 +53,7 @@ Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir
 **Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
 [![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel **aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
+Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel**aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
 
 Á **Tímabilsbækur** síða, geturðu sett upp endurteknar færslubækur í til að gera sjálfvirkt færslubókarferli. 
 
@@ -82,6 +83,7 @@ Uppsetning aðallykils býður upp á marga valkosti fyrir úrvinnslu almennrar 
 Bókhaldsskipulag og skipulag ítarlegra reglna er mjög mikilvægt fyrir að tryggja gögn sem þarf fyrir fjárhagslega skýrslugerð og afkastarakningu er sótt við úrvinnslu almennrar færslubókar og allra fylgiskjala. Bókhaldslykilskipulag og skipulag ítarlegra reglna leyfa þér að klæðskerasníða upplifun af gagnainnslætti. Hægt er að leyfa innslátt gagna aðeins fyrir fjárhagsvíddir sem eiga við hverja aðstæðu, og getur framfylgt þeirri kröfu að áskilin og rétt gögn séu ávallt sótt.
 
 Frekari upplýsingar eru í [Áætlanagerð: Bókhaldslykill](plan-chart-of-accounts.md). 
+
 
 
 

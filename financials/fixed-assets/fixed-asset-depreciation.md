@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: a16df710cfba4836cbc3531e09ca6eca933500c8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0c82708209fd937a5399aa8cc64775b3fb739e6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Sérstök heimild til afskriftar eru færðar inn sem prósenta eða föst upph�
 ## <a name="depreciation-calendars"></a>Afskriftardagatöl
 Hver bók hefur dagatalið sem notað er við afskriftir eigna. Bókin notar fjárhagsdagatal sjálfgefið ef þú tiltekur ekki dagatal. Einnig þarf að velja fjárhagsdagatal fyrir bók þegar tengd afskriftarregla bókar notar fjárhagslegt afskriftaár. 
 
-Hægt er að stofna samnýtt dagatöl með síðunni **Fjárhagsdagatöl **í fjárhag.
+Hægt er að stofna samnýtt dagatöl með síðunni **Fjárhagsdagatöl**í fjárhag.
 
 Frekari upplýsingar eru í [Afskriftaaðferðir og hefðir](depreciation-methods-conventions.md)
 

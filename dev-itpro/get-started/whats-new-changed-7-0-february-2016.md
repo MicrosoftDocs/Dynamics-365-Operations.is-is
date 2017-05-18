@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Microsoft Dynamics AX 7.0. Útgáfan inniheldur bæði eiginleika verkvangs og forrits og var gefið út í Febrúar 2016 .
 
@@ -331,8 +335,8 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>Fáðu Aðgang að leiðsögn fyrir ferli (verkefnaleiðbeiningar) og hugtökum með því að smella á **Hjálp**.</td>
 <td>AX 2012 hjálparkerfi vísar til í HTML efnis sem vistaðar eru á staðbundna vefþjóninn. Viðskiptavinur og söluaðilar getur búið til þeirra eigin Hjálp.</td>
-<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið birtir einnig efni frá Microsoft wiki. Frekari upplýsingar eru í [Dynamics AX Help - Hafist handa](help-overview.md) og [Nýjar verkefnaleiðbeiningar tiltækar (febrúar 2016)](new-task-guides-available-february-2016.md).</td>
-<td>Verkefnaleiðbeiningar gefa leiðsögn, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að sækja og sérsníða verkefnaleiðbeiningar sem Microsoft veitir. wiki gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal afurðar. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</td>
+<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið birtir einnig efni frá Microsoft skráarsíðunni. Frekari upplýsingar eru í [Dynamics AX Help - Hafist handa](help-overview.md) og [Nýjar verkefnaleiðbeiningar tiltækar (febrúar 2016)](new-task-guides-available-february-2016.md).</td>
+<td>Verkefnaleiðbeiningar gefa leiðsögn, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að sækja og sérsníða verkefnaleiðbeiningar sem Microsoft veitir. Þetta efnisatriði veitir hraðari og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal afurðar. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 [Hvað er nýtt eða breytt](whats-new-changed.md)
 
 [Nýtt verk tiltæk leiðbeiningar (Febrúar 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

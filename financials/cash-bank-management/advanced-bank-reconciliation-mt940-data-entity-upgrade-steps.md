@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
-ms.openlocfilehash: 3a4868045a12f7210a4d3924b4a335a52206341a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3d44b6eb90d02844b283d7bc861b325357e3bd68
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlit
             2.  Nafn einingar = bankayfirlit.
             3.  Hlaða upp gagnaskrá = ný útgáfa SampleBankCompositeEntity.xml.
             4.  Smellið á **„Já“** til að skrifa yfir núgildandi skrá.
-            5.  Smellið á **Já ** til að mynda nýja vörpun.
+            5.  Smellið á **Já** til að mynda nýja vörpun.
             6.  Staðfestið að S**equenceNumber** er varpað.
                 -   Smellt er á **Skoða kort** á yfirlitseiningunni.
                 -   Staðfestið að **SequenceNumber** er varpað úr uppruna í sviðsetningu.

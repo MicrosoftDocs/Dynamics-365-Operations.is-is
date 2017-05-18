@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Stofna og viðhalda eigind
+
+[!include[banner](includes/banner.md)]
+
 
 Þessi grein lýsir eigindum í Microsoft Dynamics 365 for Operations. Eigindir leyfa þér að lýsa afurð og einkennum hennar gegnum notendaskilgreindra svæða.
 
@@ -34,110 +38,28 @@ Eigindir leyfa þér að lýsa afurð og einkennum hennar gegnum notendaskilgrei
 
 #### <a name="examples"></a>Dæmi
 
-Tegund
+| Tegund   | Eigind                | Möguleg gildi eru:          | Sjálfgildi |
+|------------|--------------------------|-----------------------------|---------------|
+| Sjónvarp og myndbönd | Vörumerki                    | Öll gild Vörumerki gildi       | Enginn          |
+| Sjónvarp         | Stærð skjás              | 20″–80″                     | Enginn          |
+| Sjónvarp         | Lóðrétt upplaus      | 480i, 720p, 1080i eða 1080p | 1080p         |
+| Sjónvarp         | Endurnýjunarhraða skjánum      | 60hz, 120hz eða 240hz       | 60hz          |
+| Sjónvarp         | HDMI inntök              | 0–10                        | 3             |
+| Sjónvarp         | DVI inntök               | 0–10                        | 1             |
+| Sjónvarp         | Samsettur inntök         | 0–10                        | 2             |
+| Sjónvarp         | Inntök íhluta         | 0–10                        | 1             |
+| LCD        | 3D Ready                 | Já eða Nei                   | Já           |
+| LCD        | 3D virkjað               | Já eða Nei                   | Ekkert            |
+| Plasma     | Rekstrarhitastig frá      | 32–110 gráður              | 32            |
+| Plasma     | Rekstrarhitastig til        | 32–110 gráður              | 100           |
+| Projection | Ábyrgð á túbuskjá | 6, 12 eða 18 mánuðir         | 12            |
+| Projection | #  á túbuskjám    | 1–5                         | 3             |
 
-Eigind
-
-Möguleg gildi eru:
-
-Sjálfgildi
-
-Sjónvarp og myndbönd
-
-Vörumerki
-
-Öll gild **Vörumerki** gildi
-
-Ekkert
-
-Sjónvarp
-
-Stærð skjás
-
-**20"**–**80"**
-
-Ekkert
-
-Lóðrétt upplaus
-
-**480i**, **720p**, **1080i** eða **1080p**
-
-**1080p**
-
-Endurnýjunarhraða skjánum
-
-**60hz**, **120hz** eða **240hz**
-
-**60hz**
-
-HDMI inntök
-
-**0**–**10**
-
-**3**
-
-DVI inntök
-
-**0**–**10**
-
-**1**
-
-Samsettur inntök
-
-**0**–**10**
-
-**2**
-
-Inntök íhluta
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D Ready
-
-**Já** eða **Nei**
-
-**Já**
-
-3D virkjað
-
-**Já** eða **Nei**
-
-**Nei**
-
-Plasma
-
-Rekstrarhitastig frá
-
-**32**–**110** gráður
-
-**32**
-
-Rekstrarhitastig til
-
-**32**–**110** gráður
-
-**100**
-
-Projection
-
-Ábyrgð á túbuskjá
-
-**6**, **12** eða **18** mánuðir
-
-**12**
-
-\# á túbuskjám
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Gerð eigindar
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Eigindir eru byggðar á tegundum eiginda. Eigindagerðir auðkennir gagnategundina sem hægt er að slá inn fyrir tiltekna eigind. Núna, Microsoft Dynamics 365 for Operations styður eftirfarandi gerðir eiginda:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Eigindir eru byggðar á tegundum eiginda Eigindagerðir auðkennir gagnategundina sem hægt er að slá inn fyrir tiltekna eigind. Núna, Microsoft Dynamics 365 for Operations styður eftirfarandi gerðir eiginda:
 
 -   **Gjaldmiðill** – Þessa eigindargerð styður gildi gjaldmiðils. Hægt er að hafa það afmarkað (þ.e. hægt styðja gildissvið), eða hún getur verið skilið eftir opna.
 -   **DateTime** – Þessi eigindagerð styður gildi dagsetningar og tíma. Hægt er að hafa það afmarkað (þ.e. hægt styðja gildissvið), eða hún getur verið skilið eftir opna.
@@ -174,5 +96,7 @@ Projection
 ### <a name="at-the-retail-channel-level"></a>Á stigi smásölurásar
 
   [![CreateAndManageAttribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) hægt er að hnekkja sjálfgefnum gildum eiginda fyrir einstaka vörur í ákveðnum vörulista sem eru ætlaðar fyrir tiltekinna smásölurása.
+
+
 
 

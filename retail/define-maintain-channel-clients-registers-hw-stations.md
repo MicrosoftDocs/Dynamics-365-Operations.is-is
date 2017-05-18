@@ -1,6 +1,6 @@
 ---
 title: "Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva"
-description: "Þessi wiki grein fjallar um hvernig á að tengja jaðartæki við Retail POS."
+description: "Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -17,17 +17,21 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: dee5745670ad86000795f2913f99f49c0f123a00
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: db8b059309ecf4da9728394fc3acb091d60baf4d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva
 
-Þessi wiki grein fjallar um hvernig á að tengja jaðartæki við Retail POS.
+[!include[banner](includes/banner.md)]
+
+
+Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS.
 
 **Athugasemd:** Til að fá tilteknar leiðbeiningar, sjá [vélbúnaðarstöð smásölu og uppsetning](retail-hardware-station-configuration-installation.md) og [Retail Modern POS niðurhal/uppsetning í sjálfsafgreiðslu, og virkjun tækja fyrir Modern POS og Cloud POS](retail-modern-pos-device-activation.md).
 
@@ -40,11 +44,11 @@ Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; *
 
 ### <a name="devices"></a>Tæki
 
-Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tæki geta verið tvenns konar: **Retail modern POS** (MPOS) eða **Retail Cloud POS** (sölukerfi í skýinu).
+Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tæki geta verið tvenns konar: **Nútíma Retail POS afgreiðslukassar** (MPOS) eða **Sölustaður smásöluskýs** (sölukerfi í skýinu).
 
 #### <a name="mpos"></a>MPOS
 
-MPOS er forrit fyrir POS-biðlara sem er uppsett á Windows 8.1 eða nýrri Stýrikerfum fyrir PC. Ef **Retail modern POS** hugbúnaðargerð er varpað á tæki, er hægt að tilgreina niðurhalspakka fyrir tiltekna tækið. Hægt er að breyta niðurhalspakka til að hafa mismunandi útgáfur af uppsetningarpakka. Getan til að nota mismunandi pakka veitir sveigjanleika í tilfellum þar sem mismunandi afgreiðslukassar þurfa ólíkar samþættingar. MPOS er notað með innbyggt vélbúnaðarstöð.
+MPOS er forrit fyrir POS-biðlara sem er uppsett á Windows 8.1 eða nýrri Stýrikerfum fyrir PC. Ef **Nútíma Retail POS afgreiðslukassar** hugbúnaðargerð er varpað á tæki, er hægt að tilgreina niðurhalspakka fyrir tiltekna tækið. Hægt er að breyta niðurhalspakka til að hafa mismunandi útgáfur af uppsetningarpakka. Getan til að nota mismunandi pakka veitir sveigjanleika í tilfellum þar sem mismunandi afgreiðslukassar þurfa ólíkar samþættingar. MPOS er notað með innbyggt vélbúnaðarstöð.
 
 #### <a name="cloud-pos"></a>Cloud POS
 
@@ -60,16 +64,19 @@ Fletting: Smellt er á **Smásölu og viðskipti** &gt; **miðlunarleiðir** &gt
 
 ### <a name="hardware-station-profile"></a>Forstilling Hardware Station
 
-Fletting: Smella á **Viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarstöðvarreglur**. Á meðan vélbúnaðarstöðin sjálf er skilgreind á stigi rásar og tekur einnig til upplýsinga sem tengjast einstökum tilvikum, eins og vefslóð fyrir vélbúnaðarstöð, inniheldur regla vélbúnaðarstöðvar upplýsingar sem geta verið staðbundnar eða samnýttar á milli margra vélbúnaðarstöðva. Staðbundnar upplýsingar innifela gáttina sem á að nota, pakka vélbúnaðarstöðvar, og vélbúnaðarregluna. Staðbundnar upplýsingar innifela einnig lýsingu á gerð vélbúnaðarstöðvar sem er verið að nota, eins og **Útskráningu **eða **Skil**, allt eftir því hvaða vélbúnaður er nauðsynlegur fyrir hverja tiltekna vélbúnaðarstöð.
+Fletting: Smella á **Viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarstöðvarreglur**. Á meðan vélbúnaðarstöðin sjálf er skilgreind á stigi rásar og tekur einnig til upplýsinga sem tengjast einstökum tilvikum, eins og vefslóð fyrir vélbúnaðarstöð, inniheldur regla vélbúnaðarstöðvar upplýsingar sem geta verið staðbundnar eða samnýttar á milli margra vélbúnaðarstöðva. Staðbundnar upplýsingar innifela gáttina sem á að nota, pakka vélbúnaðarstöðvar, og vélbúnaðarregluna. Staðbundnar upplýsingar innifela einnig lýsingu á gerð vélbúnaðarstöðvar sem er verið að nota, eins og **Útskráningu**eða **Skil**, allt eftir því hvaða vélbúnaður er nauðsynlegur fyrir hverja tiltekna vélbúnaðarstöð.
 
 ## <a name="scenarios"></a>Sviðsmyndir
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS með tengda jaðartæki
 
-[![Hefðbundinn, fastur sölustaður](./media/traditional-300x279.png)](./media/traditional.png) Til að tengja MPOS við jaðarbúnað smásölustaðar í hefðbundnu, föstum aðstæðum sölustaðar, farðu fyrst í afgreiðslukassann sjálfan, og úthlutaðu vélbúnaði á hann. Þú getur fundið afgreiðslukassa á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning smásölustaðar** &gt; **afgreiðslukassar**. Eftir að vélbúnaðarregluna hefur verið úthlutað skal samstilla breytingar í gagnagrunn rásar með dreifingaráætlun "Afgreiðslukassa". Þú getur fundið dreifingaráætlanir á **Smásölu og viðskipti ** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**. Næst skal setja upp "staðbundna" vélbúnaðarstöð á rásinni. Smellt er á **Smásölu og viðskipti** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **allar smásöluverslanir**. Svo á **vélbúnaðarstöðvar** flýtiflipi, smellið á **Bæta við** til að bæta við vélbúnaðarstöð. Færa inn lýsingu, færa inn **localhost** sem hýsilheiti, og samstilla síðan breytingar á smásölurásar með því að nota dreifingaráætlunina "Skilgreining Rásar". Þú getur fundið dreifingaráætlanir á **Smásölu og viðskipti ** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**. Að lokum, í MPOS, notið **Velja vélbúnaðarstöð** aðgerð til að velja á **localhost** vélbúnaðarstöð. Stilla vélbúnaðarstöð á **Virkt**. Vélbúnaðarregluna sem notað er í þessum aðstæðum ætti að koma úr afgreiðslukassanum sjálfum. vélbúnaðarreglu er ekki þörf í þessu dæmi. **Athugasemd:** Sumar breytingar á forstillingu vélabúnaðar, eins og breytingar á á peningaskúffur, krefjast þess að ný vakt sé opnuð eftir að breytingar hafa verið samstilltar við rásina. **Athugasemd:** Cloud POS verður að nota sjálfstæða vélbúnaðarstöð til samskipta við jaðartæki í smásölu.
+[![Venjulegt, fastur sölustaður](./media/traditional-300x279.png)](./media/traditional.png) 
+
+Til að tengja MPOS við jaðarbúnað smásölustaðar í hefðbundnu, föstum aðstæðum sölustaðar, farðu fyrst í afgreiðslukassann sjálfan, og úthlutaðu vélbúnaði á hann. Þú getur fundið afgreiðslukassa á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning smásölustaðar** &gt; **afgreiðslukassar**. Eftir að vélbúnaðarregluna hefur verið úthlutað skal samstilla breytingar í gagnagrunn rásar með dreifingaráætlun "Afgreiðslukassa". Þú getur fundið dreifingaráætlanir á **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**. Næst skal setja upp "staðbundna" vélbúnaðarstöð á rásinni. Smellt er á **Smásölu og viðskipti** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **allar smásöluverslanir**. Svo á **vélbúnaðarstöðvar** flýtiflipi, smellið á **Bæta við** til að bæta við vélbúnaðarstöð. Færa inn lýsingu, færa inn **localhost** sem hýsilheiti, og samstilla síðan breytingar á smásölurásar með því að nota dreifingaráætlunina "Skilgreining Rásar". Þú getur fundið dreifingaráætlanir á **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**. Að lokum, í MPOS, notið **Velja vélbúnaðarstöð** aðgerð til að velja á **localhost** vélbúnaðarstöð. Stilla vélbúnaðarstöð á **Virkt**. Vélbúnaðarregluna sem notað er í þessum aðstæðum ætti að koma úr afgreiðslukassanum sjálfum. vélbúnaðarreglu er ekki þörf í þessu dæmi. **Athugasemd:** Sumar breytingar á forstillingu vélabúnaðar, eins og breytingar á á peningaskúffur, krefjast þess að ný vakt sé opnuð eftir að breytingar hafa verið samstilltar við rásina. **Athugasemd:** Cloud POS verður að nota sjálfstæða vélbúnaðarstöð til samskipta við jaðartæki í smásölu.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS eða Cloud POS með sjálfstæðri vélbúnaðarstöð
+[![Deildur jaðarbúnaður](./media/shared-300x254.png)](./media/shared.png)
 
-\[caption id="attachment\_340041" align="alignleft" width="300"\][![Shared peripherals](./media/shared-300x254.png)](./media/shared.png) Shared peripherals\[/caption\] Í þessu dæmi er sjálfstæðri vélbúnaðarstöð deilt á meðal MPOS og cloud POS biðlara. Þessar Aðstæðurnar krefjast þess að stofnuð sé vélbúnaðarreglu til að tilgreina niðurhalspakka, gátt, og vélbúnaðarreglu sem vélbúnaðarstöðin notar. Hægt er að finna reglu vélbúnaðarstöðvarinnar á **Smásölu og viðskiptum** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **reglur vélabúnaðarstöðvar**. Eftir að búið er að stofna reglur vélbúnaðarstöðvar, flettu í tiltekna smásölurás (**Smásölu og viðskipti** &gt; **Rásir** &gt; **Smásöluverslanir** &gt; **Allar smásöluverslanir**), og bæta við nýju vélbúnaðarstöðvar. Varpa þessi nýja vélbúnaðarstöð vélbúnaðarregluna sem áður var stofnuð. Næst skal veita lýsingu sem hjálpar gjaldkerinn að tilgreina vélbúnaðarstöð. Í **hýsilheiti** svæðinu, færið inn Vefslóð hýsilvélar með eftirfarandi sniði: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Skipta út **&lt;MachineName:Port&gt;** með raunverulega vélarheiti vélbúnaðarstöðvar og gáttinni sem er tiltekin í reglu vélbúnaðarstöðvar.) Fyrir sjálfstæða vélbúnaðarstöð, ætti einnig að tilgreina kenni fyrir rafrænu kortamillifærsluna (EFT). Þetta gildi auðkennir afgreiðslustöð kortamillifærslu sem er tengd við vélbúnaðarstöð þegar greiðslutengillinn hefur samskipti við greiðsluþjónustuaðila. Næst, frá raunverulega vél vélbúnaðarstöðvarinnar, skal fara í rásina, og velja vélbúnaðarstöð. Smellið á **niðurhleðsla**, og setja upp vélbúnaðarstöðina. Næst, úr MPOS eða Cloud POS, skal nota  **Velja vélbúnaðarstöð** aðgerð til að velja vélbúnaðarstöð sem áður var sett upp. Veljið **Para** til að koma á öruggu sambandi á milli sölustaðar og vélbúnaðarstöðvar. Þetta skref verður að ljúka einu sinni fyrir hverja samsetningu Sölustaðar og vélbúnaðarstöðvar. Eftir að vélbúnaðarstöðin er pöruð saman,  er sama aðgerð notuð til að gera vélbúnaðarstöðina virka á meðan hún er notaður. Fyrir þessar aðstæður ætti vélbúnaðarstöðin að vera úthlutuð á reglu vélbúnaðarstöðvar frekar en á afgreiðslukassann sjálfan. Ef af einhverjum ástæðum að vélbúnaðarstöðin hefur ekki vélbúnaðarreglu beint úthlutað, þá er vélbúnaðarreglan sem er úthlutað á afgreiðslukassann notuð.
+Í þessu dæmi er sjálfstæðri vélbúnaðarstöð deilt á meðal MPOS og cloud POS biðlara. Þessar Aðstæðurnar krefjast þess að stofnuð sé vélbúnaðarreglu til að tilgreina niðurhalspakka, gátt, og vélbúnaðarreglu sem vélbúnaðarstöðin notar. Hægt er að finna reglu vélbúnaðarstöðvarinnar á **Smásölu og viðskiptum** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **reglur vélabúnaðarstöðvar**. Eftir að búið er að stofna reglur vélbúnaðarstöðvar, flettu í tiltekna smásölurás (**Smásölu og viðskipti** &gt; **Rásir** &gt; **Smásöluverslanir** &gt; **Allar smásöluverslanir**), og bæta við nýju vélbúnaðarstöðvar. Varpa þessi nýja vélbúnaðarstöð vélbúnaðarregluna sem áður var stofnuð. Næst skal veita lýsingu sem hjálpar gjaldkerinn að tilgreina vélbúnaðarstöð. Í **hýsilheiti** svæðinu, færið inn Vefslóð hýsilvélar með eftirfarandi sniði: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Skipta út **&lt;Vélarheiti:Gátt&gt;** með raunverulega vélarheiti vélbúnaðarstöðvar og gáttinni sem er tiltekin í reglu vélbúnaðarstöðvar.) Fyrir sjálfstæða vélbúnaðarstöð, ætti einnig að tilgreina kenni fyrir rafrænu kortamillifærsluna (EFT). Þetta gildi auðkennir afgreiðslustöð kortamillifærslu sem er tengd við vélbúnaðarstöð þegar greiðslutengillinn hefur samskipti við greiðsluþjónustuaðila. Næst, frá raunverulega vél vélbúnaðarstöðvarinnar, skal fara í rásina, og velja vélbúnaðarstöð. Smellið á **niðurhleðsla**, og setja upp vélbúnaðarstöðina. Næst, úr MPOS eða Cloud POS, skal nota  **Velja vélbúnaðarstöð** aðgerð til að velja vélbúnaðarstöð sem áður var sett upp. Veljið **Para** til að koma á öruggu sambandi á milli sölustaðar og vélbúnaðarstöðvar. Þetta skref verður að ljúka einu sinni fyrir hverja samsetningu Sölustaðar og vélbúnaðarstöðvar. Eftir að vélbúnaðarstöðin er pöruð saman,  er sama aðgerð notuð til að gera vélbúnaðarstöðina virka á meðan hún er notaður. Fyrir þessar aðstæður ætti vélbúnaðarstöðin að vera úthlutuð á reglu vélbúnaðarstöðvar frekar en á afgreiðslukassann sjálfan. Ef af einhverjum ástæðum að vélbúnaðarstöðin hefur ekki vélbúnaðarreglu beint úthlutað, þá er vélbúnaðarreglan sem er úthlutað á afgreiðslukassann notuð.
 
 ## <a name="client-maintenance"></a>Viðhald biðlara
 ### <a name="registers"></a>Afgreiðslukassar
@@ -105,9 +112,9 @@ Virkniforstilling er stillt á stigi verslana. Hann er notaður til að tilgrein
 -   **Upphæð** flýtiflipi:
     -   Hámarks og lágmarks verð sem eru leyfð.
     -   Notkun Afsláttar og útreikningur.
--   **upplýsingakóðar ** flýtiflipi
+-   **upplýsingakóðar** flýtiflipi
     -   Allar hliðar á því hvernig upplýsingakóðum eru meðhöndlaðar á Sölustaðnum. Nánari upplýsingar eru í [upplýsingakóðum](info-codes-retail.md).
--   **Kvittananúmer ** flýtiflipi´
+-   **Kvittananúmer** flýtiflipi´
     -   Tilgreina síur fyrir kvittananúmer, sem gæti innihaldið hluta fyrir verslunarnúmer, númer afgreiðslustöðvar, fasta, og hvort sala, skil, sölupantanir og tilboð skuli prentuð á aðskildum röðum, eða hvort það megi vera í sömu röðinni.
 
 #### <a name="receipt-profiles"></a>Forstillingar innhreyfingar
@@ -136,7 +143,7 @@ Reglur vélbúnaðarstöðvar eru útskýrð fyrr í þessum grein. Þær eru no
 
 ### <a name="channel-reports-configuration"></a>Skilgreining skýrslna fyrir rás
 
-Þú setur upp skýrslur sem eru tiltækar á smásölurása á á **forstilling fyrir skýrslur smásölurásar ** síðu. Hægt er að stofna nýjar skýrslur með því að veita XML-skilgreiningu fyrir skýrslu og úthluta skýrslunni á tiltekinn heimildaflokk á sölustað.
+Þú setur upp skýrslur sem eru tiltækar á smásölurása á á **forstilling fyrir skýrslur smásölurásar** síðu. Hægt er að stofna nýjar skýrslur með því að veita XML-skilgreiningu fyrir skýrslu og úthluta skýrslunni á tiltekinn heimildaflokk á sölustað.
 
 ### <a name="devices"></a>Tæki
 
@@ -152,5 +159,7 @@ Viðbótarupplýsingar tengdar virkjun inniheldur starfsmaður sem breytti virkj
 ### <a name="client-data-synchronization"></a>gagnasamstilling biðlara
 
 Allar breytingar á biðlara Sölustaðar, nema breytingar á virkjunarstöðu tækis, verður að samstilla í gagnagrunn rásar til að taka gildi. Til að samstilla breytingar á gagnagrunni rásar, fara í **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**, og keyra nauðsynlega dreifingaráætlun. Vegna Breytinga á biðlaranum, ætti að keyra "afgreiðslukassar" og "skilgreiningu rásar " dreifingaráætlanir.
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 849cffa64eaf777f9f4c9243dab41b00fa59ad79
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33bba0e037a8ccc09b3d47268ca2b350d1d25b5f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Apríl smellir **Bóka**. Hún endurskoðar síðan lokna jöfnun. Apríl sér a
 | Valdar og auðkenndar. | Venjulegt            | Inv-10070 | 3050    | 6/29/2015 | 7/29/2015 | 10070    | -1.000,00                      | USD      | 200.00          |
 | Valið                 | Venjulegt            | CR-10070  | 3050    | 7/2/2015  | 7/29/2015 | CR-10070 | 200,00                         | USD      | 198.00           |
 
-Apríl getur fara yfir lánardrottnafærslur á  **lánardrottnafærslur** síðu með því að velja lánardrottin á **Allir lánardrottnar **síðuna og síðan á Aðgerðasvæðinu skal á smellla **Færslur**. Á þessari síðu sér April að reikningurinn hefur stöðuna -800,00. Hún sér einnig kreditnótu fyrir 198.00 og afslátt 2,00.
+Apríl getur fara yfir lánardrottnafærslur á  **lánardrottnafærslur** síðu með því að velja lánardrottin á **Allir lánardrottnar**síðuna og síðan á Aðgerðasvæðinu skal á smellla **Færslur**. Á þessari síðu sér April að reikningurinn hefur stöðuna -800,00. Hún sér einnig kreditnótu fyrir 198.00 og afslátt 2,00.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

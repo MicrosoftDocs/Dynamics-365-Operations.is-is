@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Einnig er hægt að tilgreina sjálfgefið verk fyrir tilföng sem gerð áætla
 1.  Í Dynamics 365 for Operations, staðfesta að útlánafyrirtækið sé valið, og ljúka síðan ferlinu hér að framan, "Setja upp starfsmann sem tilfang verks".
 2.  Fara í ** Fjárhag **&gt; ** Bókunaruppsetning **&gt;**Samstæðubókhald**. Smellt er á **Nýtt**.
 3.  Í svæðinu ** Kenni lögaðila ** skal velja útlánafyrirtæki. Fyllið út eftirstandandi svæði eftir þörfum og smellið síðan á **Vista**.
-4.  Farið í **Verkefnastjórnun og bókhald **&gt; **Uppsetning **&gt;** Verðlag ** &gt; ** Flutningsverð**** **.
+4.  Farið í **Verkefnastjórnun og bókhald **&gt; **Uppsetning **&gt;**Verðlag ** &gt; **Flutningsverð**** **.
 5.  Í skjámyndinni ** flutningsverð ** er smellt á **Nýtt**, og í svæðinu ** Lögaðili sem fær Lánað ** skal velja viðeigandi fyrirtæki.
 6.  Ef þú vilt aðeins lána lántökufyrirtækinu þau tilföng sem voru stofnuð í upphafi þessa hluta í svæðinu **Tilföng** skal velja nafn tilfanganna sem voru stofnuð. Ef óskað er að gera öll tilföng í fyrirtækinu tiltæk lántökufyrirtæki skal skilja svæðið ** Tilföng ** eftir autt.
 7.  Fara í ** Verkefnastjórnun og bókhald **&gt; ** Uppsetningu **&gt;**Verkefnastjórnun og bókhaldsfæribreytur**, og á flipanum ** Samstæðu ** skal stilla svæðið ** Virkja samstæðuröðun tilfanga og tímablöð ** á **Já**.
@@ -116,7 +117,7 @@ Til að setja upp hæfni starfsmanns, er hægt að nota annað hvort listasíðu
 
 1.  Smellt er á **Mannauður** &gt; **Starfsmenn** &gt; **Starfsmenn**.
 2.  Í listanum **Starfsmenn**, skal velja skrá starfsmanns sem hefur áður verið sett upp hæfni fyrir og opna skrá starfsmanns.
-3.  Á Aðgerðarrúðunni, á flipanum **Verk** í flokkinum **Uppsetning** smellið á ** Úthluta verkum**.
+3.  Á Aðgerðarrúðunni, á flipanum **Verk** í flokkinum **Uppsetning** smellið á **Úthluta verkum**.
 4.  Á síðunni **Úthlutanir villuleitartegundar tilfanga** er smellt á flipann **Verk**.
 5.  Í síunni **Bæta verki við valin verk**, afmarkið verkið, XYZ Uppfærsla þrep 2
 6.  Í rúðunni **Eftirstandandi verk**, veljið verk og smellið síðan á ör til að bæta því við í **Valin verk** rúðunni.
@@ -209,7 +210,7 @@ Notið eftirfarandi aðferðir til þess að stofna verkhóp.
 1.  Á listasíðunni **Öll verk** veldu verk og smellið síðan á **Breyta**.
 2.  Á flipanum **Verkhópur Og áætlun**, á svæðinu **Áætluð lokadagsetning**, færið inn áætlaða upphafsdagsetningu plús einn mánuður. Til dæmis, ef áætluð upphafsdagsetning er 24. Júní, 2017 (24/06/2017), færa inn **24/07/2017**.
 3.  Smellið á **Bæta við**.
-4.  Í rúðunni **Bæta hlutverkum við verkið**, í svæðinu **Hlutverk **, veljið **Yfirverkefnastjóri**.
+4.  Í rúðunni **Bæta hlutverkum við verkið**, í svæðinu **Hlutverk**, veljið **Yfirverkefnastjóri**.
 5.  Smellið á **Áskilin hæfni**.
 6.  Á síðunni **Velja eiginleika**, eru þeir eiginleikar sem þú stilltir áður á hlutverk Yfirverkefnastjóra valdir sjálfkrafa. Smelltu á **Í lagi**.
 7.  Á síðunni **Bæta hlutverkum við verk**, í svæðinu **Fjöldi tilfanga** skal færa inn **1**.
@@ -242,7 +243,7 @@ Mælt er með því að nota runuvinnslu. Valkostirnir eru tiltækar í samstill
 ## <a name="set-up-roles-on-wbs-templates"></a>Setja upp hlutverk á WBS-sniðmát
 Verkefnisstjórar geta sett upp WBS-sniðmát sem hægt er að nota þegar þeir stofna WBS fyrir ný verk. Verkefnisstjórar geta bætt við hlutverkum þegar sniðmát er stofnað. Notið eftirfarandi ferli til að úthluta hlutverki til WBS-sniðmáts.** **
 
-1.  Smellt er á **Verkefnastjórnun og bókhald** &gt; ** Uppsetning** &gt; **Verk** &gt; **Sniðmát fyrir sundurliðun verkþátta**.
+1.  Smellt er á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **Verk** &gt; **Sniðmát fyrir sundurliðun verkþátta**.
 2.  Smellt er á **Upplýsingar** fyrir valið WBS-sniðmát.
 3.  Velja verk í lista og síðan, í svæðinu **Hlutverk** skal velja hlutverk til að úthluta á verkefnið.
 
@@ -316,7 +317,7 @@ Auka valkostum hefur verið bætt í WBS til að nýta betur virkni tilfanga.
 
 > [!NOTE] 
 > Það berst ekki viðvörun um að tilgreind viðföng séu nú 2, þar sem fjöldi tilfanga helst í 1.
-18. Á síðunni **Sundurliðun Verkþátta ** skal staðfesta úthlutun tilfanga á WBS og smellið síðan á **Vista**.
+18. Á síðunni **Sundurliðun Verkþátta** skal staðfesta úthlutun tilfanga á WBS og smellið síðan á **Vista**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Uppfylling tilfanga fyrir áætluð tilföng
 Verkefnastjóri getur áætlað áskilið tilfangahlutverk  við verkið. Stjórnandi tilfanga sér þessi áætluðu tilföng sem beiðnir á síðunni **Uppfyllingar Tilfanga** og getur úthlutað raunverulegum tilföngum.

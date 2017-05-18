@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 69a57cc5a2d652efc2ee14906c64b0dc741da31c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: adb1f7a2d709b607c3065f4c2fb4d24cb4849ec1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,18 +53,18 @@ Skrá er haldin yfir hvert skipti sem endurmat á erlendum gjaldmiðli er keyrð
 
 -   **Aðferð** - Aðferðin sem notuð var í vinnslu á völdu endurmats á erlendum gjaldmiðli .
     -   **Staðlað** - vinnslur endurmats á erlendum gjaldmiðli eru bókaðar óháð því hvort niðurstaðan er hagnaður eða tap.
-    -   **Lágmarks ** vinnslur endurmats á erlendum gjaldmiðli eru eingöngu bókaðar ef niðurstaðan er tap.
-    -   **Reiknigsdagsetning **vinnsla endurmats á erlendum gjaldmiðli notar upprunalegt gengi færslnanna, sem eru endurmetnar samkvæmt upprunalegu gildi þeirra í bókhaldsgjaldmiðli. Áhrif allra fyrri endurmat á erlendum gjaldmiðli er hætt við.
--   **Viðmiðunardagsetning** - Dagsetning þegar allar færslur sem hafa opnar (ekki jafnaðar) upphæðir á þeirri dagsetningu eru fundnar. Upphæðir í erlendum gjaldmiðli er endurmetnar með því gengi sem ert fært inn á síðunni **gengi Gjaldmiðils ** fyrir viðmiðunardagsetninguna. Þegar upphæðir í erlendum gjaldmiðli er endurmetnar á viðmiðunardagsetningu, verður þessi dagsetning síðasta dagsetning endurmats á erlendum gjaldmiðli fyrir færslur sem eru lagfærðar. Ef ákveðið er að keyra endurmat á erlendum gjaldmiðli fyrir viðmiðunardagsetninguna sem er á undan síðustu dagsetningu endurmats á erlendum gjaldmiðli á færslum sem þegar hafa verið leiðréttar, eru færslur sem voru opnar á fyrri skoðunardagsetningunni en sem hafa nýrri síðustu dagsetningu endurmats á erlendum gjaldmiðli ekki leiðréttar með reglubundnu vinnslunni.
+    -   **Lágmarks** vinnslur endurmats á erlendum gjaldmiðli eru eingöngu bókaðar ef niðurstaðan er tap.
+    -   **Reiknigsdagsetning**vinnsla endurmats á erlendum gjaldmiðli notar upprunalegt gengi færslnanna, sem eru endurmetnar samkvæmt upprunalegu gildi þeirra í bókhaldsgjaldmiðli. Áhrif allra fyrri endurmat á erlendum gjaldmiðli er hætt við.
+-   **Viðmiðunardagsetning** - Dagsetning þegar allar færslur sem hafa opnar (ekki jafnaðar) upphæðir á þeirri dagsetningu eru fundnar. Upphæðir í erlendum gjaldmiðli er endurmetnar með því gengi sem ert fært inn á síðunni **gengi Gjaldmiðils** fyrir viðmiðunardagsetninguna. Þegar upphæðir í erlendum gjaldmiðli er endurmetnar á viðmiðunardagsetningu, verður þessi dagsetning síðasta dagsetning endurmats á erlendum gjaldmiðli fyrir færslur sem eru lagfærðar. Ef ákveðið er að keyra endurmat á erlendum gjaldmiðli fyrir viðmiðunardagsetninguna sem er á undan síðustu dagsetningu endurmats á erlendum gjaldmiðli á færslum sem þegar hafa verið leiðréttar, eru færslur sem voru opnar á fyrri skoðunardagsetningunni en sem hafa nýrri síðustu dagsetningu endurmats á erlendum gjaldmiðli ekki leiðréttar með reglubundnu vinnslunni.
 -   **Dagsetning gengis** - Dagsetning sem ákvarðar það gengi sem notað er við færslu endurmats á erlendum gjaldmiðli.
 -   **Nota bókunarreglu úr** – bókunarregla sem er notuð til að færa inn sjálfgefinn aðallykil fyrir viðskiptakröfur eða Viðskiptaskuldir fyrir bókhaldsfærslur fyrir færslur endurmats á erlendum gjaldmiðli:
     -   **Bókun** – Bókunarregla viðskiptavinafærslunnar er notuð.
-    -   **Velja ** – færið inn bókunarregluna á svæðinu **bókunarregla**.
+    -   **Velja** – færið inn bókunarregluna á svæðinu **bókunarregla**.
 -   **Bókunarregla** - **velja** er valið í svæðinu **Nota bókunarreglu úr** ákvarðar bókunarreglan sem þú færir inn í þessum reit bókunarreglu færslu fyrir endurmat á erlendum gjaldmiðli.
 -   **Fjárhagsvíddir** - fjárhagsvíddarinnar sem eru bókaðar á bókhaldsfærslur fyrir færslur fyrir endurmat á erlendum gjaldmiðli.
     -   **Ekkert** – Engar fjárhagsvíddir eru bókaðar. Ef þú ert með áskilda fjárhagsvídd í lykilskipulagi þínu, er endumatsferlið samt keyrt og stofnar bókhaldsfærslur sem hafa engar fjárhagsvíddir. Þér mun berast viðvörunarskilaboð fyrst, þannig að hægt er að hætta við endurmatið.
     -   **Tafla** fjárhagsvíddir viðskiptavinalykils eða lánardrottnalykils eru bókaðar á færslur fyrir endurmat á erlendum gjaldmiðli.
-    -   **Bókun ** fjárhagsvíddir færslunnar sem er verið að endurmeta eru bókaðar á færslur fyrir endurmat á erlendum gjaldmiðli. Sjálfgefið er að fjárhagsvíddir úr fjárhagslykli AR/AP upprunalegra færsla verða notaðar fyrir AR/AP aðallykil fyrir endurmatsfærsluna, og fjárhagsvíddir úr fjárhagslykli eigna/kostnaðar/tekna fyrir upprunalegu færsluna verða notaðar fyrir óinnleystan aðallykil hagnaðar/taps/ fyrir  endurmatsfærsluna.
+    -   **Bókun** fjárhagsvíddir færslunnar sem er verið að endurmeta eru bókaðar á færslur fyrir endurmat á erlendum gjaldmiðli. Sjálfgefið er að fjárhagsvíddir úr fjárhagslykli AR/AP upprunalegra færsla verða notaðar fyrir AR/AP aðallykil fyrir endurmatsfærsluna, og fjárhagsvíddir úr fjárhagslykli eigna/kostnaðar/tekna fyrir upprunalegu færsluna verða notaðar fyrir óinnleystan aðallykil hagnaðar/taps/ fyrir  endurmatsfærsluna.
 
 
 

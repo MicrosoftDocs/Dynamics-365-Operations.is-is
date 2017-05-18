@@ -3,7 +3,7 @@ title: "Um FIFO með merkingu og efnislegt virði"
 description: "Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>Um FIFO með merkingu og efnislegt virði
+
+[!include[banner](../includes/banner.md)]
+
 
 Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu. 
 
@@ -50,7 +54,9 @@ Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru �
 -   5b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðinn USD 20.00 á hverja (hlaupandi meðaltal fjárhagslega uppfærðra færslna).
 -   6. Birgðalokun er framkvæmd. Á grundvelli FIFO aðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð gagnvart fyrstu fjárhagslega uppfærðu innhreyfingunni. Leiðrétting upp á 10,00 USD er gerð á úthreyfingarfærslunni.
 
-Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu færslnanna. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. ![FIFO án Taka efnislegt virði með](./media/fifowithoutincludephysicalvalue.gif)**Lykill í skýringarmynd**
+Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu færslnanna. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. ![FIFO án efnistlegs virðis](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Lykill að skýringarmynd**
 
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
@@ -64,7 +70,7 @@ Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu f
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="fifo-with-the-include-physical-value-option"></a>FIFO með valkostinum Taka efnislegt virði með
-Ef reiturinn **Taka efnislegt virði með ** er valinn fyrir vöru í skjámyndinni **Vörulíkanaflokkar**, mun kerfið nota bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út meðalkostnaðarverðið. Kerfið gerir líka breytingar á uppfærðum úthreyfingafærslum, þar sem við á. Þegar gátreiturinn **taka efnislegt virði með** er hreinsaður munu birgðalokin með FIFO-birgðalíkanið aðeins gera uppgjör í þeim færslum sem hafa verið fjárhagslega uppfærðar. Eftirfarandi skýringarmynd sýnir þessar færslur:
+Ef reiturinn **Taka efnislegt virði með** er valinn fyrir vöru í skjámyndinni **Vörulíkanaflokkar**, mun kerfið nota bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út meðalkostnaðarverðið. Kerfið gerir líka breytingar á uppfærðum úthreyfingafærslum, þar sem við á. Þegar gátreiturinn **taka efnislegt virði með** er hreinsaður munu birgðalokin með FIFO-birgðalíkanið aðeins gera uppgjör í þeim færslum sem hafa verið fjárhagslega uppfærðar. Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
@@ -78,7 +84,9 @@ Ef reiturinn **Taka efnislegt virði með ** er valinn fyrir vöru í skjámyndi
 -   6a. Efnisleg úthreyfing birgða fyrir magn 1 með kostnaðinn 21,25 USD á hverja.
 -   7. Birgðalokun er framkvæmd. Á grundvelli FIFO aðferðarinnar, verður fyrsta fjárhagslega úthreyfingarfærsla jöfnuð eða leiðrétt gagnvart fyrstu uppfærðu innhreyfingunni, annað hvort fjárhagslega eða efnislega.
 
-Færsla 5b verður jöfnuð við innhreyfingarfærslu 1b. Það verður neikvæð jöfnun upp á 11,25 USD til þessarar úthreyfingarfærslu. Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. ![FIFO með Taka efnislegt virði með](./media/fifowithincludephysicalvalue.gif)**Lykill í skýringarmynd**
+Færsla 5b verður jöfnuð við innhreyfingarfærslu 1b. Það verður neikvæð jöfnun upp á 11,25 USD til þessarar úthreyfingarfærslu. Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. ![FIFO með Taka efnislegt virði með](./media/fifowithincludephysicalvalue.gif) 
+
+**Lykill að skýringarmynd**
 
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
@@ -106,7 +114,9 @@ Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfær
 -   6a. Efnisleg úthreyfing birgða fyrir magn 1 með kostnaðinn 21,25 USD á hverja.
 -   7. Birgðalokun er framkvæmd. Þar sem fjárhagslega uppfærð FIFO-færsla er merkt á fyrirliggjandi móttöku eru þessar færslur jafnaðar hvor við aðra og engin leiðrétting er gerð.
 
-Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. ![FIFO með Merkingum](./media/fifowithmarking.gif) **Lykill að skýringarmynd**
+Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. ![FIFO með Merking](./media/fifowithmarking.gif) 
+
+**Lykill að skýringarmynd**
 
 -   Birgðafærslur eru táknaðar með lóðréttum örvum.
 -   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
@@ -118,6 +128,8 @@ Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagsl
 -   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 -   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
+
+
 
 
 

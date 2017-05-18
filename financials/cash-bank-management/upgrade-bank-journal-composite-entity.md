@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 14d58604f5c0aaa4725345f58982387ad0a23205
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 364bdff8f8d825cc50760631bb533b531f8b2121
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,14 +42,14 @@ Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við sams
     -   Tafla\\BankJournalLineStaging
 
 2.  Gagnastjórnun\\gagnaverk
-    -   Sýna **Bankafærslu ** gerð á **Upprunagögn **útlit.
+    -   Sýna **Bankafærslu** gerð á **Upprunagögn**útlit.
         -   Snið upprunagagna = XML-Element.
         -   Nafn einingar = færslubók banka
         -   Hlaða upp gagnaskrá = ný útgáfa SampleBankJournalCompositeEntity.xml
         -   Smellið á **„Já“** til að skrifa yfir núgildandi skrá.
-        -   Smellið á **Já ** til að mynda vörpun frá byrjun.
+        -   Smellið á **Já** til að mynda vörpun frá byrjun.
         -   Staðfestið að Bankafærslugerð er varpað.
-            -   Smellið á **Skoða vörpun ** á Línueiningar.
+            -   Smellið á **Skoða vörpun** á Línueiningar.
             -   Staðfestið að bankafærslugerð er varpað úr uppruna í sviðsetningu.
 
 3.  Flytja inn nýtt uppgjör.

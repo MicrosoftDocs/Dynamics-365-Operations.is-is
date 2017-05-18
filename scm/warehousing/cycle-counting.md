@@ -3,7 +3,7 @@ title: Regluleg talning
 description: "Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Regluleg talning
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
 
@@ -39,7 +43,6 @@ Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinnslu
 
 ## <a name="cycle-counting-prerequisites"></a>Skilyrði fyrir reglulega talningu
 Eftirfarandi tafla sýnir skilyrði sem verða að vera til staðar áður en byrjað er á reglulegri talningu.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Eftirfarandi tafla sýnir skilyrði sem verða að vera til staðar áður en by
 <li>Flokkun reglulegrar talningar</li>
 <li>Regluleg stundartalning</li>
 </ul>
-Nánari upplýsingar um hvernig á að nota fartæki fyrir vöruhúsavinnu má sjá í <a href="configure-mobile-devices-warehouse">Stilla fartæki fyrir vöruhúsavinnu</a>.</li>
+</li>
 <li>Setja upp valmynd fyrir fartæki.</li>
 <li>Stofna reikning notanda og úthluta valmynd fartækis til notandakennis viðkomandi.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Mismunur reglulegrar talningar kemur upp við eftirtaldar aðstæður ef valkost
 -   Talið gildi er frábrugðið magni á lager og það eru engin fráviksmörk sett.
 
 Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á síðunni **Regluleg talning bíður yfirferðar**. Endurskoðuð magntalning vörunnar getur verið staðfest á síðunni **Lagerstaða eftir staðsetningu**. Talið gildi er hafnað ef ekki er hægt að samþykkja mismun.
+
+# <a name="see-also"></a>Sjá einnig
+[Skilgreina fartæki fyrir vöruhúsvinnu](configure-mobile-devices-warehouse.md)
 
 
 

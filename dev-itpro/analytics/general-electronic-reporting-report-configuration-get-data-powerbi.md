@@ -1,9 +1,9 @@
 ---
-title: "Setja upp rafræna skýrslugerð til að sjá Power BI fyrir gögnum úr Dynamics 365 for Operations"
+title: "Skilgreina Rafræna skýrslugerð til að draga gögn inn í Power BI"
 description: "Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilviki Dynamics 365 for Operations til Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Setja upp rafræna skýrslugerð til að sjá Power BI fyrir gögnum úr Dynamics 365 for Operations
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Skilgreina Rafræna skýrslugerð til að draga gögn inn í Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilviki Dynamics 365 for Operations til Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
@@ -61,10 +65,10 @@ Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðg
 3.  Í á **Rafræna skýrslugerð** vinnusvæði, gerið nauðsynlegan veitanda virkan með því að smella á **gera virkan**. Nánari upplýsingar má fá með því að spila **Rafræn skýrslugerð velja þjónustuveitu** leiðarvísi fyrir verk.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Nota skal gagnalíkan rafrænnar skýrslugerðar sem uppruna gagna.
-Nota skal gagnalíkan rafrænnar skýrslugerðar sem uppruna gagna sem verður notaður í Power BI-skýrslur. Þessi gagnalíkan er hlaðið upp úr skilgreiningagagnasafni rafrænnar skýrslugerðar. Nánari upplýsingar, sjá [Sækja skilgreiningar rafrænnar skýrslugerðar frá Lifecycle Services](download-electronic-reporting-configuration-lcs.md), eða spila **Rafræn skýrslugerð flytja inn skilgreiningu úr Lifecycle Services** leiðarvísi fyrir verk. Veljið **Intrastat **sem gagnalíkan sem hlaðið verður upp úr valinni skilgreiningagagnasafni rafrænnar skýrslugerðar. (Í þessu dæmi er útgáfa 1 af líkaninu notuð.) Svo er hægt að fara á **Intrastat** skilgreiningu líkans fyrir rafræna skýrslugerð á síðunni **Skilgreiningar**. [![Skilgreiningasíða](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+Nota skal gagnalíkan rafrænnar skýrslugerðar sem uppruna gagna sem verður notaður í Power BI-skýrslur. Þessi gagnalíkan er hlaðið upp úr skilgreiningagagnasafni rafrænnar skýrslugerðar. Nánari upplýsingar, sjá [Sækja skilgreiningar rafrænnar skýrslugerðar frá Lifecycle Services](download-electronic-reporting-configuration-lcs.md), eða spila **Rafræn skýrslugerð flytja inn skilgreiningu úr Lifecycle Services** leiðarvísi fyrir verk. Veljið **Intrastat** sem gagnalíkan sem hlaðið verður upp úr valinni skilgreiningagagnasafni rafrænnar skýrslugerðar. (Í þessu dæmi er útgáfa 1 af líkaninu notuð.) Svo er hægt að fara á **Intrastat** skilgreiningu líkans fyrir rafræna skýrslugerð á síðunni **Skilgreiningar**. [![Skilgreiningasíða](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Hanna skilgreiningu fyrir snið rafrænnar skýrslugerðar
-Þú þarft að stofna nýtt skilgreiningu sniðs rafrænnar skýrslugerðar sem notar **Intrastat** gagnalíkan sem gagnagjafi viðskiptagagna. Þessa sniðsskilgreiningu verður að mynda niðurstöður úttaks sem rafræn skjöl á OpenXML (Excel-skrá) sniði. Til að fá frekari upplýsingar skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk. Nefndu nýja skilgreiningu **aðgerðir Innflutnings / útflutnings **, eins og sýnt er í eftirfarandi dæmi. Notaðu [gögn rafrænnar skýrslugerðar - upplýsingar um innflutning og útflutning](https://go.microsoft.com/fwlink/?linkid=845208) Excel-skrá sem sniðmát þegar sniðið rafrænnar skýrslugerðar er hönnuð. (Upplýsingar um hvernig á að flytja inn sniðmát sniðs, spila verkefnaleiðbeiningar.) [![Skilgreining á aðgerðum innflutnings/útflutnings](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) til að breyta skilgreiningu sniðsins **Aðgerðir innflutnings/útflutnings** skal gera eftirfarandi.
+Þú þarft að stofna nýtt skilgreiningu sniðs rafrænnar skýrslugerðar sem notar **Intrastat** gagnalíkan sem gagnagjafi viðskiptagagna. Þessa sniðsskilgreiningu verður að mynda niðurstöður úttaks sem rafræn skjöl á OpenXML (Excel-skrá) sniði. Til að fá frekari upplýsingar skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk. Nefndu nýja skilgreiningu **aðgerðir Innflutnings / útflutnings**, eins og sýnt er í eftirfarandi dæmi. Notaðu [gögn rafrænnar skýrslugerðar - upplýsingar um innflutning og útflutning](https://go.microsoft.com/fwlink/?linkid=845208) Excel-skrá sem sniðmát þegar sniðið rafrænnar skýrslugerðar er hönnuð. (Upplýsingar um hvernig á að flytja inn sniðmát sniðs, spila verkefnaleiðbeiningar.) [![Skilgreining á aðgerðum innflutnings/útflutnings](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) til að breyta skilgreiningu sniðsins **Aðgerðir innflutnings/útflutnings** skal gera eftirfarandi.
 
 1.  Smellið á **Hönnuður**.
 2.  Á **Snið** flipanum, nefdu skráreininguna fyrir þetta **skrá fyrir Excel-úttak** snið. [![Skráreining fyrir Excel-úttak](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
@@ -111,7 +115,7 @@ Til að stofna nýja Power BI skýrslu skal smellt á í **upplýsingar um Innfl
 Vista Power BI-skýrsla sem **skýrslu með upplýsingum um Innflutning og útflutning**. [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Athugið að kortið sýnir lönd/svæði sem nefnd eru í Excel-skránni (Austurríki og Sviss í þessu dæmi). Þessum lönd/svæði eru litaða til að sýna hlutfalli á reikningsfærðar upphæðir fyrir hvert. Uppfæra listann yfir Intrastat-færslur. Útflutningsfærslan sem á uppruna sinn á Ítalíu er bætt við. [![Listi yfir Intrastat-færslur](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) Bíða eftir næstu áætluðu keyrslu skýrslu rafrænnar skýrslugerðar og næstu áætluðu uppfærslu Power BI-gagnasafns. Yfirfara svo Power BI-skýrslu (velja að birta aðeins innflutningsfærslur) . Uppfært kort sýnir nú Ítalía. [![Uppfært kort](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-dynamics-365-for-operations"></a>Opna Power BI-skýrslu í Dynamics 365 for Operations.
-Setja upp samþættingu á milli Power BI og Dynamics 365 for Operations. Nánari upplýsingar, sjá [Skilgreining samþættingar Power BI fyrir vinnusvæði](configure-power-bi-integration.md). Á vinnusvæðissíðunni **Rafræn skýrslugerð** sem styður samþættingu Power BI (**Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Vinnusvæði rafrænnar skýrslugerðar **) skal smella á **Valkostir** &gt; **Opna skýrslulista**. Velja skal Power BI-skýrsluna **upplýsingar um Innflutning og útflutning** sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu. Smellt er á vöru til að opna Dynamics 365 for Operations síðu sem sýnir skýrslan sem þú hannaðir í Power BI. [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+Setja upp samþættingu á milli Power BI og Dynamics 365 for Operations. Nánari upplýsingar, sjá [Skilgreining samþættingar Power BI fyrir vinnusvæði](configure-power-bi-integration.md). Á vinnusvæðissíðunni **Rafræn skýrslugerð** sem styður samþættingu Power BI (**Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Vinnusvæði rafrænnar skýrslugerðar**) skal smella á **Valkostir** &gt; **Opna skýrslulista**. Velja skal Power BI-skýrsluna **upplýsingar um Innflutning og útflutning** sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu. Smellt er á vöru til að opna Dynamics 365 for Operations síðu sem sýnir skýrslan sem þú hannaðir í Power BI. [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 <a name="see-also"></a>Sjá einnig
 --------
@@ -119,5 +123,7 @@ Setja upp samþættingu á milli Power BI og Dynamics 365 for Operations. Nánar
 [Viðtökustaður rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 
 [Yfirlit yfir Rafræna skýrslugerð](general-electronic-reporting.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 7fa432ebfc433b6396589df053b2b485b2ec6dbd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ccf73e1c87a7a3e14205eee7e5510688fbf56eee
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Ef afskriftaregla fyrir eignir er sett upp og valið er **notkun** í svæðinu*
 2.  Á **Notkunarstuðull** síða, setja upp notkunarstuðull. Hvern notkunarstuðul verður að hafa Kenni og heiti, og notkunarstuðul sem er tilgreindur sem magn eða prósenta.
 3.  Á **notkunareining** síðuna setja upp notkunareiningar. Hver notkunareining verður að hafa Kenni og heiti Afskriftareiningar eru notaðar til að reikna notkunarafskrift á **notkunarafskrift** síðu. Dæmi um einingar eru kílómetrar (km), kílógrömm (kg) og klukkustund.
 4.  Á **Eignir** síðu setja upp einstaka eignir. Fyrir hverja eign, veldu Virðislíkön og afskriftarbækur sem eru með afskriftarreglur. Setja verður upp virðislíkan eða afskriftarbók fyrir notkunarafskrift ef einhver af eignum þínum notar afskriftarregla sem byggist á notkunaraðferðinni. Þessari uppsetningu er að gera annaðhvort á í **Afskriftir** flipanum á **Virðislíkön** síðu eða á í **Almennt** flýtiflipi af **afskriftareglu** síðu. Hægt er að nota sama virðislíkan fyrir margar eignir. Afskriftareglur eru hluti af virðislíkani eða afskriftarbók sem valin er fyrir hverja eign. Ekki er hægt að bæta við eða breyta afskriftareglur beint á í **Eignir** síðu. Hægt er að breyta afskriftarreglum aðeins á **afskriftabækur** síðu.
-5.  Í **virðislíkani ** síðu eða **afskriftarbók **síðu, í **notkunarafskrift** reitahópur, skal færa upplýsingar í eftirtalin svæði :
+5.  Í **virðislíkani** síðu eða **afskriftarbók**síðu, í **notkunarafskrift** reitahópur, skal færa upplýsingar í eftirtalin svæði :
     -   Notkunarstuðull
     -   Eining
     -   Einingaafskriftir

@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 3a82fdb8532c79e33c167c43554a3de7d3061fcb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 34bebe1f7a324f2d77668d0eb3d6b2303f2544a4
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 
 Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 
-Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæta segðaskorður í afbrigðalíkönum afurðar Hægt er að skilgreina útreikninga á **  afbrigðalíkan afurðar sem byggist á skorðum** skjámyndinni og síðan byggja segðir fyrir útreikninga í segðaritlinum. Nánari upplýsingar sjá stofna útreikninga.
+Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæta segðaskorður í afbrigðalíkönum afurðar Hægt er að skilgreina útreikninga á **afbrigðalíkan afurðar sem byggist á skorðum** skjámyndinni og síðan byggja segðir fyrir útreikninga í segðaritlinum. Nánari upplýsingar sjá stofna útreikninga.
 
 ## <a name="what-is-a-calculation"></a>Hvað er útreikningur?
 Útreikningur er einingu sem hægt er að nota í afbrigðalíkani afurðar. Útreikningar eru viðbót við skorður með því að leyfa þér að nota tugabrotum til að reikna gildi þegar afurð er skilgreind. Enn fremur hafa útreikningar stærri safn virknitákna tiltækt en skorður hafa.  
@@ -50,7 +51,7 @@ Markeigind er eigind sem tekur við niðurstöðu útreikningsinssegðar.
 
 **Segð:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-**DecimalAttribute1** er borðlengdin og **decimalAttribute2** er lengd borðdúksins. Þessi segð skilar gildi **"Rétt" ** á markmiðseigindin ef **decimalAttribute2** er hærra en eða jafnt og **decimalAttribute1**. Annars skilar segðin **"Rangt".** Til að mæling borðdúks sé ásættanleg ef lengd borðdúks er jöfn eða meiri en lengd borðsins.
+**DecimalAttribute1** er borðlengdin og **decimalAttribute2** er lengd borðdúksins. Þessi segð skilar gildi **"Rétt"** á markmiðseigindin ef **decimalAttribute2** er hærra en eða jafnt og **decimalAttribute1**. Annars skilar segðin **"Rangt".** Til að mæling borðdúks sé ásættanleg ef lengd borðdúks er jöfn eða meiri en lengd borðsins.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Hvaða gerðir má stilla mark eigindir eigind?
 Allar gerðir eiginda sem eru studd fyrir afurðarafbrigðastillir er hægt að stilla á markeigindir, nema fyrir texta án fasts lista.
@@ -64,7 +65,7 @@ Nei, gildi fyrir markeigindi getur ekki takmarkað gildi fyrir inntaks eigindir 
 
 **Segð:** \[If Litur == "Grænt", 1,5, 1,0\]  
 
-Þegar vara er skilgreind er lengd rafmagnssnúru stillt á **1,5** ef **Grænt** er tilgreint sem litareigindi. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt **þegar tilgreind er lengd **1,5**.
+Þegar vara er skilgreind er lengd rafmagnssnúru stillt á **1,5** ef **Grænt** er tilgreint sem litareigindi. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt**þegar tilgreind er lengd **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Hvað gerist ef útreikningur hefur markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafa?
 ef markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafi, aðeins heiltöluhluti útreiknaðrar niðurstöðu er skilað. Aukastafshluti er fjarlægð og niðurstaðan er ekki sléttuð. Til dæmis er niðurstaða 12.70 sýnd sem 12.
@@ -79,7 +80,7 @@ Hægt er að skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina nema ef 
 Til að setja eigind sem falin eða aðeins til lestrar skal fylgja þessum skrefum:
 
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
-2.  Veldu afbrigðalíkan afurðar og smellið síðan á **  breyta** á aðgerðarúðu.
+2.  Veldu afbrigðalíkan afurðar og smellið síðan á **breyta** á aðgerðarúðu.
 3.  Á **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum** síðunni, veljið eigindina sem nota á sem markeigind.
 4.  Á **Eigindir** flýtiflipi, veljið **Falið** eða **skrifvarið**.
 

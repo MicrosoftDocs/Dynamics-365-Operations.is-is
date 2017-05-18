@@ -3,7 +3,7 @@ title: Stofna innkaupapantanir
 description: "Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: de8fa93bfc0119d6f9433fb4215c326abdda2899
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b87e4be4541ce5a33b3f6ed0ffe3b08f6447d293
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt.
 
@@ -66,7 +70,7 @@ Stundum gæti verið óskað að skipta upp magnið sem þú hefur pantað, þan
 Gjöld má sjálfkrafa bæta við pöntunina ef sjálfvirk gjöld hafa verið sett upp fyrir lánardrottinn eða gjaldflokk lánardrottins, og fyrir vöruna eða gjaldflokk vörunnar. Hins eru algengrara að gjöldum er bætt við handvirkt á stigi pöntunarlínu. Til að bæta við gjaldi skal opna **vinna Með gjöld** síðu með því að nota **vinna Með gjöld** aðgerð á í **Fjárhagur** valmynd í yfirlitinu **Línur**. Kosturinn við að bæta gjöldum beint við á stigi pöntunarlínu er að gjöldunum má úthluta sem birgðakostnað. Til að setja upp gjaldakóða fyrir afurðarkostnað lykils, skal nota **Vöru** debet valkost. Þessar gerðir gjalda verður að úthluta úr haus Innkaupapöntunar á línur áður en hægt er að staðfesta pöntunina. Til dæmis viltu kannski úthluta gjöldum byggður á magninu í hverri línu. gjaldaflokkur hefur einnig áhrif á hvernig gjöld eru færð til reiknings. Til dæmis, föst gjöld tilgreina föst upphæð og prósentugjöld er reiknað sem prósenta af nettó upphæð fyrir pöntunarlínuna. Innkaupapantanir er hægt að úthluta á farm og farminum gæti falið í sér mat á áætlaða kostnaðar fyrir flutningskostnaðinn. Hægt er að úthluta þessum kostnaði úr farminum aftur á línur Innkaupapöntunar.
 
 ## <a name="purchase-order-actions"></a>Aðgerðir fyrir innkaupapöntun
-Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](/dynamics365/operations/action-search) til að finna viðeigandi valmyndaratriði.  
+Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](/dynamics365/operations/get-started/action-search) til að finna viðeigandi valmyndaratriði.  
 
 Hægt er að skilgreina vörur í pöntun þannig að þeir hafa fylgivörur. Fylgivörur eru afurðir sem verður eða er hægt að kaupa með aðrar afurðir. fylgivöru gæti verið bætt við án aukagjalda sem meðfylgjandi afurðir, eða hugsanlega er hægt að ákveða hvort á að bæta þeim við pöntunina eða ekki. Hægt er að fara yfir fylgivörur eftir hverja pöntunarlínu sem er bætt við. Hins vegar er sennilega að þér finnist þægilegra að fara yfir og bæta við fylgivöru fyrir allar pöntunarlínur með því að nota í **fylgivörur** síða sem hægt er að opna í Aðgerðarúðu.  
 
@@ -91,5 +95,7 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

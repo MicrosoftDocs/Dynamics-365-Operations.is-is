@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ ER-vélin hefur eftirfarandi getu:
 ## <a name="concepts"></a>Hugtök
 ### <a name="components"></a>Íhlutir
 
-ER styður tvær gerðir íhluta **gagnalíkan ** og **Snið **.
+ER styður tvær gerðir íhluta **gagnalíkan** og **Snið**.
 
 #### <a name="data-model-components"></a>Íhlutir gagnalíkana
 
@@ -93,9 +94,9 @@ Snið er skema skýrsluúttaks sem myndast á keyrslutíma. Skema samanstendur a
 Sögugeymnin er studd fyrir ER þætti. Eftirfarandi verkflæði er veitt fyrir stjórnun breytinga í ER þáttum:
 
 -   Útgáfan sem var upphaflega stofnuð er merkt sem **DRÖG** útgáfu. Útgáfan er hægt að breyta og er tiltæk fyrir prófunarkeyrslu.
--   ** DRÖG** útgáfa má umbreyta í **LOKIÐ** útgáfu. Hægt er að nota þessa útgáfu í staðbundna skýrslugerðarferli.
--   ** LOKIÐ** útgáfa má umbreyta í **SAMNÝTT** útgáfu. Útgáfan er birt á LCS og hægt er að nota í altæku skýrslugerðarferli.
--   ** SAMNÝTT** útgáfa MÁ umbreyta í **HÆTT VIÐ** útgáfu. Síðan er hægt að eyða þessari útgáfu.
+-   **DRÖG** útgáfa má umbreyta í **LOKIÐ** útgáfu. Hægt er að nota þessa útgáfu í staðbundna skýrslugerðarferli.
+-   **LOKIÐ** útgáfa má umbreyta í **SAMNÝTT** útgáfu. Útgáfan er birt á LCS og hægt er að nota í altæku skýrslugerðarferli.
+-   **SAMNÝTT** útgáfa MÁ umbreyta í **HÆTT VIÐ** útgáfu. Síðan er hægt að eyða þessari útgáfu.
 
 Útgáfur sem eru annað hvort með** LOKIÐ** eða **SAMNÝTT** stöðu eru tiltækar fyrir önnur gagnaskipti. Þættir sem hefur þessar stöður getur haft þessar aðgerðir framkvæmd fyrir sig:
 
@@ -104,7 +105,7 @@ Sögugeymnin er studd fyrir ER þætti. Eftirfarandi verkflæði er veitt fyrir 
 
 #### <a name="component-date-effectivity"></a>Dagsetning á virkni íhlutar
 
-ER þáttarútgáfur eru virkar eftir dagsetningum. ** Virkt frá ** dagsetning er hægt að skilgreina fyrir ER þátt til að tilgreina dagsetningu sem íhluturinn verður virkur á fyrir skýrsluferli. Dynamics 365 fyrir Operations lotudagsetning er notuð til að skilgreina hvort þáttur er gildur fyrir framkvæmd. Nýjusta útgáfa er notuð fyrir skýrsluferli þegar fleiri en ein útgáfa er í gildi fyrir tiltekna dagsetningu.
+ER þáttarútgáfur eru virkar eftir dagsetningum. **Virkt frá** dagsetning er hægt að skilgreina fyrir ER þátt til að tilgreina dagsetningu sem íhluturinn verður virkur á fyrir skýrsluferli. Dynamics 365 fyrir Operations lotudagsetning er notuð til að skilgreina hvort þáttur er gildur fyrir framkvæmd. Nýjusta útgáfa er notuð fyrir skýrsluferli þegar fleiri en ein útgáfa er í gildi fyrir tiltekna dagsetningu.
 
 #### <a name="component-access"></a>Aðgangur að þáttum
 
@@ -112,7 +113,7 @@ Aðgangur ER sniðþátta fer eftir ISO-lands-/ svæðiskóða stillingum. Þega
 
 #### <a name="configuration"></a>Stilling
 
-Stilling ER er pökkun af tilteknum þætti ER: annaðhvort **Gagnalíkan ** eða **Snið**. Stilling kann að ininhalda mismunandi útgáfur af tilteknum ER-þætti. Hver stilling er merkt sem eign tiltekinnar stillingarveitu. **DRÖG** útgáfa af stillingarþætti er má breyta þegar eigandi stillingar hefur verið valinn sem virkur veitandi í Dynamics 365 for Operations ER-stillingum. Hver líkanaskilgreining Inniheldur  **gagnalíkan** þátt. Ný skilgreining sniðs getur komið frá  (verið afleidd) úr tiltekinni skilgreiningu gagnalíkans. skilgreining sniðs sem er stofnuð verða sýnd í skilgreiningartrénu sem undireining upphaflegrar skilgreiningar gagnalíkans. skilgreining sniðs sem er stofnuð inniheldur þátt **Sniðs **. Þáttur **Gagnalíkans ** upphaflegrar skilgreiningar líkans verður sjálfkrafa sett inn í þátt **sniðs** fyrir skilgreiningu undirsniðs sem sjálfgefinn gagnagjafi. Skilgreining ER er samnýtt fyrir fyrirtæki í Dynamics 365 for Operations.
+Stilling ER er pökkun af tilteknum þætti ER: annaðhvort **Gagnalíkan** eða **Snið**. Stilling kann að ininhalda mismunandi útgáfur af tilteknum ER-þætti. Hver stilling er merkt sem eign tiltekinnar stillingarveitu. **DRÖG** útgáfa af stillingarþætti er má breyta þegar eigandi stillingar hefur verið valinn sem virkur veitandi í Dynamics 365 for Operations ER-stillingum. Hver líkanaskilgreining Inniheldur  **gagnalíkan** þátt. Ný skilgreining sniðs getur komið frá  (verið afleidd) úr tiltekinni skilgreiningu gagnalíkans. skilgreining sniðs sem er stofnuð verða sýnd í skilgreiningartrénu sem undireining upphaflegrar skilgreiningar gagnalíkans. skilgreining sniðs sem er stofnuð inniheldur þátt **Sniðs**. Þáttur **Gagnalíkans** upphaflegrar skilgreiningar líkans verður sjálfkrafa sett inn í þátt **sniðs** fyrir skilgreiningu undirsniðs sem sjálfgefinn gagnagjafi. Skilgreining ER er samnýtt fyrir fyrirtæki í Dynamics 365 for Operations.
 
 #### <a name="provider"></a>Veita
 
@@ -120,12 +121,12 @@ ER-veitan er auðkenni aðila sem er notuð til að tilgreina höfund (eiganda) 
 
 #### <a name="repository"></a>Geymsla
 
-ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem stendur: **Operations-tilföng** og **LCS-verk**. Tilfangageymsla Operations-tilfanga veitir aðgang að lista skilgreininga sem eru útgefnar sem hluti af Dynamics 365 for Operations lausnum frá Microsoft sem ER-skilgreiningarveita. Þessar stillingar er hægt að flytja inn í núverandi Dynamics 365 for Operations tilvik og nota fyrir rafræna skýrslugerð. Þær má einnig nota fyrir frekari staðfæringar og/eða sérstillingar. **LCS-verks** gagnasafn veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð leyfir þér að hlaða upp samnýttar skilgreiningar úr núverandi Dynamics 365 for Operations tilviki í tilteknar **LCS-verks** gagnasöfn. Þú getur einnig flutt inn skilgreiningar úr úr tilteknu **LCS-verks** gagnasöfn í núverandi tilvik Dynamics 365 for Operations. Hægt er að skrá nauðsynlega **LCS verks ** gagnasafn fyrir hverja skilgreiningarveitu fyrir gildandi tilvik Dynamics 365 for Operations sérstaklega. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
+ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem stendur: **Operations-tilföng** og **LCS-verk**. Tilfangageymsla Operations-tilfanga veitir aðgang að lista skilgreininga sem eru útgefnar sem hluti af Dynamics 365 for Operations lausnum frá Microsoft sem ER-skilgreiningarveita. Þessar stillingar er hægt að flytja inn í núverandi Dynamics 365 for Operations tilvik og nota fyrir rafræna skýrslugerð. Þær má einnig nota fyrir frekari staðfæringar og/eða sérstillingar. **LCS-verks** gagnasafn veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð leyfir þér að hlaða upp samnýttar skilgreiningar úr núverandi Dynamics 365 for Operations tilviki í tilteknar **LCS-verks** gagnasöfn. Þú getur einnig flutt inn skilgreiningar úr úr tilteknu **LCS-verks** gagnasöfn í núverandi tilvik Dynamics 365 for Operations. Hægt er að skrá nauðsynlega **LCS verks** gagnasafn fyrir hverja skilgreiningarveitu fyrir gildandi tilvik Dynamics 365 for Operations sérstaklega. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 ### <a name="building-a-data-model"></a>Byggja gagnalíkan
 
-ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging.  Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu) [![Dæmi um gagnalíkan](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkefnaleiðbeiningar **ER hönnun gagnalíkan fyrir sértækt gagnalíkan** (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging.  Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu) [![Dæmi um gagnalíkan](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkefnaleiðbeiningar **ER hönnun gagnalíkan fyrir sértækt gagnalíkan** (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="translating-data-model-content"></a>Þýðing á innihaldi gagnalíkans
 
@@ -138,23 +139,23 @@ Eftirfarandi skýringarmynd sýnir dæmi um hvernig innihald gagnalíkans má þ
 
 ### <a name="configuring-data-model-mappings"></a>Stilling gagna í líkanavörpunum
 
-Rafræn skýrslugerð veitir hönnuð líkanavörpunar sem leyfir notendum að varpa gagnlíkönum sem þeir hafa hannað á tilteknar gagnaveitur Dynamics 365 for Operations. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð af vörpun gagnalíkans (**SEPA kreditfærsla** líkanavörpun fyrir gagnalíkan á sviði greiðslu) [![Dæmi um vörpun gagnalíkans ](./media/pic-model-mapping-1024x551.png)](./media/pic-model-mapping.png) Spila **Rafræn skýrslugerð, Skilgreining líkanavörpunar og velja gagnagjafa** og **ER vörpun gagnalíkans í valda gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþættir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
+Rafræn skýrslugerð veitir hönnuð líkanavörpunar sem leyfir notendum að varpa gagnlíkönum sem þeir hafa hannað á tilteknar gagnaveitur Dynamics 365 for Operations. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð af vörpun gagnalíkans (**SEPA kreditfærsla** líkanavörpun fyrir gagnalíkan á sviði greiðslu) [![Dæmi um vörpun gagnalíkans ](./media/pic-model-mapping-1024x551.png)](./media/pic-model-mapping.png) Spila **Rafræn skýrslugerð, Skilgreining líkanavörpunar og velja gagnagjafa** og **ER vörpun gagnalíkans í valda gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Geyma hannaðan þátt líkans sem líkanastillingu
 
-Rafræn skýrslugerð getur geymt hannað gagnalíkan ásamt tengdum gagnavörpunum sem gagnaskilgreiningu gildandi Microsoft Dynamics 365 for Operations tilviks. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð skilgreiningar gagnalíkans (skilgreining líkans fyrir greiðslu) [![Dæmi um skilgreiningu gagnalíkans ](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) Spila **Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþættir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
+Rafræn skýrslugerð getur geymt hannað gagnalíkan ásamt tengdum gagnavörpunum sem gagnaskilgreiningu gildandi Microsoft Dynamics 365 for Operations tilviks. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð skilgreiningar gagnalíkans (skilgreining líkans fyrir greiðslu) [![Dæmi um skilgreiningu gagnalíkans ](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) Spila **Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Byggja snið sem notar gagnalíkan sem grunneiningu
 
-ER styður sniðshönnun sem þú getur notað til að setja upp snið fyrir ákveðið rafrænt skjal fyrir valið viðskiptasvæði því að velja líkanaþáttinn sem grunn. Sama ER sniðhönnun býður upp á möguleika á að varpa stofnuðu sniði á valið gagnalíkanavörpunarsvæði sem gagnagjafa. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreiningarsniðið sem styður í **BACS** greiðslusnið fyrir Bretland). [![Dæmi um snið sem er með gagnalíkan sem grunn](./media/pic-format-1024x690.png)](./media/pic-format.png) Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Rafræn skýrslugerð Hanna lénasértæk snið** verkefnaleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+ER styður sniðshönnun sem þú getur notað til að setja upp snið fyrir ákveðið rafrænt skjal fyrir valið viðskiptasvæði því að velja líkanaþáttinn sem grunn. Sama ER sniðhönnun býður upp á möguleika á að varpa stofnuðu sniði á valið gagnalíkanavörpunarsvæði sem gagnagjafa. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreiningarsniðið sem styður í **BACS** greiðslusnið fyrir Bretland). [![Dæmi um snið sem er með gagnalíkan sem grunn](./media/pic-format-1024x690.png)](./media/pic-format.png) Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Rafræn skýrslugerð Hanna lénasértæk snið** verkefnaleiðbeiningar (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Byggja skilgreiningu til að mynda rafræn skjöl í OPENXML sniði vinnublaðs
 
-ER-Sniðshönnuður má nota til að byggja tiltekna rafræna skjalið á OPENXML sniði vinnublaðs. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreining sniðs til að mynda OPENXML vinnublað með upplýsingum um valda greiðslubók):[![Pic-ER-format-Excel](./media/pic-er-format-excel.jpg)](./media/pic-er-format-excel.jpg) Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Rafræn skýrslugerð Stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** verkefnaleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) . Nota neðangreinar Excel-skrár sem vísað er í sem snið til að hanna snið fyrir Rafræn skýrslugerð til að klára skrefið fyrir innflutning sniðmáts fyrir snið í þessum verkefnaleiðbeiningar: [Sniðmát greiðsluskýrslu (SampleVendPaymWsReport.xlsx](https://go.microsoft.com/fwlink/?linkid=845202)
+ER-Sniðshönnuður má nota til að byggja tiltekna rafræna skjalið á OPENXML sniði vinnublaðs. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreining sniðs til að mynda OPENXML vinnublað með upplýsingum um valda greiðslubók):[![Pic-ER-format-Excel](./media/pic-er-format-excel.jpg)](./media/pic-er-format-excel.jpg) Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Rafræn skýrslugerð Stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** verkefnaleiðbeiningar (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) . Nota neðangreinar Excel-skrár sem vísað er í sem snið til að hanna snið fyrir Rafræn skýrslugerð til að klára skrefið fyrir innflutning sniðmáts fyrir snið í þessum verkefnaleiðbeiningar: [Sniðmát greiðsluskýrslu (SampleVendPaymWsReport.xlsx](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Geyma hannaðan sniðsþátt í skilgreiningarsniði
 
-Rafræn skýrslugerð getur geymt hannað snið með skilgreindum gagnavörpunum sem sniðsskilgreiningu fyrir núverandi tilvik Dynamics 365 for Operations. Fyrrgreint sýnidæmi sýnir dæmi af þessari gerð skilgreiningarsniðs (**BACS (UK)**, sem er undireining á **greiðslulíkan **skilgreiningu). Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER hönnun sniðs fyrir sértækt svið ** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+Rafræn skýrslugerð getur geymt hannað snið með skilgreindum gagnavörpunum sem sniðsskilgreiningu fyrir núverandi tilvik Dynamics 365 for Operations. Fyrrgreint sýnidæmi sýnir dæmi af þessari gerð skilgreiningarsniðs (**BACS (UK)**, sem er undireining á **greiðslulíkan**skilgreiningu). Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER hönnun sniðs fyrir sértækt svið** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Stilling Dynamics 365 for Operations til að byrja að nota stofnuð snið innanhúss
 
@@ -164,24 +165,24 @@ Hægt er að stilla Dynamics 365 for Operations til að byrja að nota stofnað 
 
 [![Vísað í BACS (UK) snið í greiðslumáta](media/ger-bacs-uk-format-method.png) 
 
-Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er nota snið til að mynda rafrænt skjal fyrir greiðslur** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er nota snið til að mynda rafrænt skjal fyrir greiðslur** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ## <a name="handling-er-components"></a>Meðhöndlun ER þátta
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Birting ER þátta í LCS til að bjóða það út á við (staðfærsla)
 
-Eigandi þáttar (líkan eða snið) sem hefur verið stofnað getur notað ER til að birta kláraða útgáfu þáttarins í LCS. Geymsla **LCS verks **fyrir gildandi ER stillingaveitu er krafist. Þegar staða fullunnar útgáfu þáttar er breytt úr **LOKIÐ** í **SAMNÝTT**, er útgáfan er birt í LCS. Þegar þáttur hefur verið birtur í LCS verður eigandi þess þáttar veitandi þjónustu til að styðja þennan þátt. T.d. ef þessi sniðsþáttur er hannaður til að búa til rafrænt skjal sem er krafist samkvæmt lögum (t.d. í samræmi við staðfærsluaðstæður), gerir þessi þjónusta ráð fyrir að halda sniðinu í samræmi við lögboðnar breytingar og hönnuðurinn muni gefa út nýjar útgáfur þegar styðja þarf nýjar lögbundnar kröfur. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er hlaða upp skilgreiningu í Lifecycle Services** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+Eigandi þáttar (líkan eða snið) sem hefur verið stofnað getur notað ER til að birta kláraða útgáfu þáttarins í LCS. Geymsla **LCS verks**fyrir gildandi ER stillingaveitu er krafist. Þegar staða fullunnar útgáfu þáttar er breytt úr **LOKIÐ** í **SAMNÝTT**, er útgáfan er birt í LCS. Þegar þáttur hefur verið birtur í LCS verður eigandi þess þáttar veitandi þjónustu til að styðja þennan þátt. T.d. ef þessi sniðsþáttur er hannaður til að búa til rafrænt skjal sem er krafist samkvæmt lögum (t.d. í samræmi við staðfærsluaðstæður), gerir þessi þjónusta ráð fyrir að halda sniðinu í samræmi við lögboðnar breytingar og hönnuðurinn muni gefa út nýjar útgáfur þegar styðja þarf nýjar lögbundnar kröfur. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er hlaða upp skilgreiningu í Lifecycle Services** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Flytja þátt ER úr LCS til nota innan kerfis
 
-Rafræn skýrslugerð gerir það mögulegt að flytja inn þætti Rafræn skýrslugerð úr LCS í núverandi tilvik Dynamics 365 for Operations. Geymslu af gerðinni **LCS verki** er krafist. Þegar þáttur Rafræn skýrslugerð hefur verið fluttur úr LCS í núverandi tilvik Dynamics 365 for Operations, verður eigandi þessa tilviks neytandi þjónustunnar sem er veitt af eiganda (höfundi) innflutts þáttar. Til dæmis, ef sniðsþáttur er hannaður til að mynda úr tiltekið rafrænt skjal úr Dynamics 365 for Operations á sniði sem er sértækt fyrir land-/svæði (staðfærslu aðstæður), þá gerir notkun þessarar þjónustu ráð fyrir getu til að fá allar uppfærslur á sniðinu til að halda því í samræmi við lögboðnar kröfur. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Flytja inn skilgreiningu úr Lifecycle Services** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+Rafræn skýrslugerð gerir það mögulegt að flytja inn þætti Rafræn skýrslugerð úr LCS í núverandi tilvik Dynamics 365 for Operations. Geymslu af gerðinni **LCS verki** er krafist. Þegar þáttur Rafræn skýrslugerð hefur verið fluttur úr LCS í núverandi tilvik Dynamics 365 for Operations, verður eigandi þessa tilviks neytandi þjónustunnar sem er veitt af eiganda (höfundi) innflutts þáttar. Til dæmis, ef sniðsþáttur er hannaður til að mynda úr tiltekið rafrænt skjal úr Dynamics 365 for Operations á sniði sem er sértækt fyrir land-/svæði (staðfærslu aðstæður), þá gerir notkun þessarar þjónustu ráð fyrir getu til að fá allar uppfærslur á sniðinu til að halda því í samræmi við lögboðnar kröfur. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Flytja inn skilgreiningu úr Lifecycle Services** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Byggja snið og velja annað snið sem grunn (sérsnið).
 
-ER gerir þér kleift að stofna (leita út) nýjan þátt úr gildandi útgáfu af þætti (grunni) sem var flutt úr LCS. Til dæmis, notandi vill afleiða nýja snið sem á að innleiða sérstakar þarfir fyrir rafrænt skjal (til dæmis viðbótarreit eða yfirgripsmikla lýsing) til að styðja aðstæður sérsníðingar. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Uppfæra snið með innleiðingu nýs grunns fyrir það ** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+ER gerir þér kleift að stofna (leita út) nýjan þátt úr gildandi útgáfu af þætti (grunni) sem var flutt úr LCS. Til dæmis, notandi vill afleiða nýja snið sem á að innleiða sérstakar þarfir fyrir rafrænt skjal (til dæmis viðbótarreit eða yfirgripsmikla lýsing) til að styðja aðstæður sérsníðingar. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Uppfæra snið með innleiðingu nýs grunns fyrir það** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Uppfæra snið því að velja nýja útgáfu af grunnsniði (endurreikna grunn)
 
-ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt, eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Uppfæra snið með innleiðingu nýs grunns fyrir það ** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
+ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt, eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER Uppfæra snið með innleiðingu nýs grunns fyrir það** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-dynamics-365-for-operations-solution"></a>Listinn yfir skilgreiningar Rafræn skýrslugerð sem eru sendar í Dynamics 365 for Operations lausn
 | Skilgreiningar gagnalíkana tengd ákveðnum lénum: Titill | Lén                | Gagnalíkan – háð skilgreiningarsnið: Titill | Lýsing                                                        |

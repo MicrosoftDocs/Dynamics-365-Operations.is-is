@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,10 +36,10 @@ ms.lasthandoff: 03/31/2017
 <a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
 -------------------------------
 
-Setja upp skilgreiningu aldurstímabils Skilgreining aldurstímabils skilgreinir dálka sem á að birtast í **Aldursgreindar stöður**, **innheimtuverkþætti**, og **innheimtumál** listasíðum. Hann skilgreinir einnig tímabil sem birtast í **innheimtur** síðu. Ef hópur viðskiptamanna er uppsettur, er skilgreining aldurstímabils fyrir hópinn notuð. Ef engir hópar eru settir upp, er sjálfgefin skilgreining aldurstímabils sem er tilgreind í **færibreytur viðskiptakrafa** skjámynd notuð. Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í **Skilgreining aldurstímabils ** síðu er notað.
+Setja upp skilgreiningu aldurstímabils Skilgreining aldurstímabils skilgreinir dálka sem á að birtast í **Aldursgreindar stöður**, **innheimtuverkþætti**, og **innheimtumál** listasíðum. Hann skilgreinir einnig tímabil sem birtast í **innheimtur** síðu. Ef hópur viðskiptamanna er uppsettur, er skilgreining aldurstímabils fyrir hópinn notuð. Ef engir hópar eru settir upp, er sjálfgefin skilgreining aldurstímabils sem er tilgreind í **færibreytur viðskiptakrafa** skjámynd notuð. Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í **Skilgreining aldurstímabils** síðu er notað.
 
 ## <a name="create-an-aging-snapshot"></a>Stofna aldursgreiningarmynd
-Stofna aldursgreiningarmynd færslna fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp. Upplýsingar um aldursgreiningarmynd birtist á ** Aldursgreindar stöður** listasíðu og á **innheimtur** síðu. Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna. Listasíðan sýnir upplýsingar aðeins vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir.
+Stofna aldursgreiningarmynd færslna fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp. Upplýsingar um aldursgreiningarmynd birtist á **Aldursgreindar stöður** listasíðu og á **innheimtur** síðu. Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna. Listasíðan sýnir upplýsingar aðeins vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir.
 
 ## <a name="optional-set-up-customer-pools"></a>Valfrjálst: Setja upp viðskiptavinaflokka
 Hægt er að setja upp viðskiptavinaflokka til að tákna flokka af viðskiptavinum. Hægt er að nota viðskiptavinahópa sem afmarkanir fyrir upplýsingar um viðskiptamann sem birtast í **innheimtur** listasíður á síðunni **innheimtur** eða þegar notandinn stofnar aldursgreiningarmynd.
@@ -77,18 +78,18 @@ Setja upp afskriftalykil sem er notaður fyrir afskriftarfærslu fjárhags þega
 Uppfæra bankareikningum þannig að þeir hafi rétta færslubók þegar FSF-greiðsla eru auðkenndar á **innheimtur** síðunni. Á við **gjaldmiðilsstjórnun** flipanum, á **nsf-greiðslubók** skal velja greiðslubók.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Uppsetning Outlook - stillinga fyrir notendur innheimtusíðunnar
-Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota **innheimtur ** síðu, verður að staðfesta að **samstilling Microsoft Outlook** skilgreiningarlykill er valinn, og að samstilling Outlook sé sett upp fyrir starfsmann.
+Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota **innheimtur** síðu, verður að staðfesta að **samstilling Microsoft Outlook** skilgreiningarlykill er valinn, og að samstilling Outlook sé sett upp fyrir starfsmann.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.
-Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur ** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
+Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
 
-Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi. Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur ** síðu og er sú persóna sem tölvupóstsskilaboð eru send til. 
+Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi. Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur** síðu og er sú persóna sem tölvupóstsskilaboð eru send til. 
 
 > [!NOTE] 
-> Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður ** síðu.
+> Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður** síðu.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Setja upp stillingar fyrir tölvupóst sölumanna
-Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður ** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
+Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
 
 Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskiptamanns notað. Ef aðalsölumaður er ekki tilgreindur, verða tölvupóstsskilaboð send til fyrsta sölumanns á listanum á síðunni.
 

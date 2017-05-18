@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 2f466dfe53ccf0be15ed0793b4a6dd371bdacc0d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 557ddaeb9253566d512bf76bd6a5e8f798f7d69d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -89,7 +90,7 @@ Hægt er að stofna pantanir viðskiptavinar úr biðlara sölustaðar (POS) í 
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Gera virkt að pantanir viðskiptavinar séu stofnaðar í ósamstilltum ham
 
-1.  Í Dynamics AX smellirðu á **Smásölu og viðskipti** &gt; ** uppsetning Rásar** &gt; **Uppsetning sölustaðar** &gt; ** Forstillingar sölustaðar** &gt; **virknireglur**.
+1.  Í Dynamics AX smellirðu á **Smásölu og viðskipti** &gt; **uppsetning Rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **virknireglur**.
 2.  Á flipanum **Almennt** stillirðu valkostinn **Stofna viðskiptavinapöntun í ósamstilltri stillingu** á **Já**.
 
 Þegar valkosturinn **Stofna pöntun viðskiptavinar í ósamstilltri stillingu** er stilltur á **Já** verða pantanir viðskiptavinar alltaf stofnaðar í ósamstilltum ham, jafnvel þó að Retail Transaction Service (RTS) er tiltækt. Ef þessi valkostur er stilltur á **Nei** verða pantanir viðskiptavinar alltaf stofnaðar í samstilltum ham með því að nota RTS. Þegar pantanir viðskiptavinar eru stofnaðar í ósamstilltum ham eru þær sóttar og settar inn í Dynamics AX með Pull (P) vinnsla. Samsvarandi sölupantanir eru stofnaðar i Dynamics AX þegar **Samstilla pantanir** er keyrt annaðhvort handvirkt eða með runuvinnslu.

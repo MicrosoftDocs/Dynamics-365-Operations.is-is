@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta kennsluefni útskýrir hvernig á að hlaða niður forstillingum Rafrænnar skýrslugerðar (ER) úr Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -39,13 +43,14 @@ ms.lasthandoff: 03/31/2017
 2.  Farðu í **Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð**.
 3.  Í **veitandi skilgreininga** hlutanum, veljið gluggareitinn **Microsoft**
 4.  Á **Microsoft** gluggareit, er smellt á **gagnasöfn**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  Á **gagnasöfn skilgreininga ** síðu í hnitanetinu skal velja fyrirliggjandi gagnasafn af gerðinni **LCS** . Ef þessi gagnasafn birtist ekki í hnitanetinu skal fylgja þessum skrefum:
-    1.  Smelltu á **Bæta við ** til að bæta við nýju gagnasafni.
-    2.  Veljið **LCS ** sem gerð gagnasafns.
+5.  Á **gagnasöfn skilgreininga** síðu í hnitanetinu skal velja fyrirliggjandi gagnasafn af gerðinni **LCS** . Ef þessi gagnasafn birtist ekki í hnitanetinu skal fylgja þessum skrefum:
+    1.  Smelltu á **Bæta við** til að bæta við nýju gagnasafni.
+    2.  Veljið **LCS** sem gerð gagnasafns.
     3.  Smellið á **Stofna gagnasafn**.
-    4.  Færa skal inn heiti og lýsingu fyrir gagnasafn.
-    5.  Smellið á **í lagi** til að staðfesta nýja færslu gagnasafns.
-    6.  Í hnitanetinu, veljið nýtt gagnasafn af gerðinni **LCS** .
+    4. Ef beðið er um það skal fylgja heimildarleiðbeiningunum.
+    5.  Færa skal inn heiti og lýsingu fyrir gagnasafn.
+    6.  Smellið á **í lagi** til að staðfesta nýja færslu gagnasafns.
+    7.  Í hnitanetinu, veljið nýtt gagnasafn af gerðinni **LCS** .
 
 6.  Smellið á **Opna** til að skoða lista yfir skilgreiningar rafrænnar skýrslugerðar (ER) fyrir valda gagnasafn. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Í skilgreiningatrénu í vinstri rúðunni er valið skilgreining ER sem þig vantar.
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [Yfirlit yfir Rafræna skýrslugerð](general-electronic-reporting.md)
+
+
 
 

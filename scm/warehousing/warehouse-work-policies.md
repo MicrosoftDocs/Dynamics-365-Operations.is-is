@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 5660e5c8e3329564fc4262b5ad4f2547347bbb1a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 32b401a6faa381c77845347db6aa5e89db5e38c3
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,8 +36,8 @@ Nýja reglu vinnu vöruhús er innleiddur í Microsoft Dynamics AX 7.0.1 (Maí 2
 
 Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
 
--   **Vinnuregluheiti **(einkvæmt kenni reglunnar vinna)
--   **Vinnupantanagerðir **og** aðferð fyrir stofnun Vinnu**
+-   **Vinnuregluheiti**(einkvæmt kenni reglunnar vinna)
+-   **Vinnupantanagerðir**og**aðferð fyrir stofnun Vinnu**
 -   **Birgðastaðsetningar**
 -   **Afurðir**
 

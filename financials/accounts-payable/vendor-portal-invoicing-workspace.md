@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
+
+[!include[banner](../includes/banner.md)]
+
 
 Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
 
@@ -43,7 +47,7 @@ Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
 ### <a name="tabular-lists"></a>Töflulisti
 
-Í **Töflulista **hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
+Í **Töflulista**hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
 Listasíðu fyrir alla reikninga lánardrottins
 -----------------------------
 
@@ -55,6 +59,8 @@ Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt*
 
 
 
-Nánari upplýsingar má finna í [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Nánari upplýsingar má finna í [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

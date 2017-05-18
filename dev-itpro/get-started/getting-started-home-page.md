@@ -3,7 +3,7 @@ title: "Hvar á að byrja"
 description: "Byrjaðu hér til að komast hratt af stað og læra á viðmót Microsoft Dynamics 365 for Operations."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Hvar á að byrja
+
+[!include[banner](../includes/banner.md)]
+
 
 Byrjaðu hér til að komast hratt af stað og læra á viðmót Microsoft Dynamics 365 for Operations.
 
@@ -36,7 +40,7 @@ Eftirfarandi tilföng gefa yfirlit yfir hvernig vinna á með samstarfsaðila ti
 - [Yfirlit yfir Microsoft FastTrack for Dynamics 365](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Gerast áskrifandi](../dev-tools/sign-up-preview-subscription.md) 
 - [Viðskiptavinir Lifecycle Services (LCS) for Microsoft Dynamics 365 for Operations](../lifecycle-services/lcs-works-lcs.md) 
-- [Hvernig viðskiptavinir sem keyptu Microsoft Dynamics 365 for Operations í gegnum samstarfsaðila á sviði skýjaþjónustu geta fengið staðbundna útgáfu Dynamics 365 for Operations 2012](../deployment/csp-download-customersource.md)
+- [Hvernig viðskiptavinir sem keyptu Microsoft Dynamics 365 for Operations í gegnum samstarfsaðila á sviði skýjaþjónustu geta fengið staðbundna útgáfu Dynamics AX 2012](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Notandaviðmót
 Eftirfarandi tilföng veita upplýsingar um notendaviðmót Dynamics 365 for Operations. 
@@ -71,12 +75,12 @@ Verkskráning er verkfæri í Dynamics 365 for Operations sem hægt er að nota 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna ný þjálfunarsöfn fyrir Dynamics 365 for Operations innan Lifecycle Services með Verkskráningu (ytri tengill)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
+
+
 
 

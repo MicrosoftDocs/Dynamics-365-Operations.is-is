@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9152616b81e7873426f296376b5e57c94439379d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86f2f556d1b2d8711e7419b4e85904e297097380
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 Þrjú aðalþemu sem eru innleidd í°eftirspurnarspár:
 
 -   **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
--   **Endurnýting stafla Microsoft **– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
+-   **Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
     -   Hægt er að hlaða niður Dynamics 365 for Operations Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Dynamics 365 for Operations á skipulagningu framleiðslu hefur verið keypt sem notandi á°fyrirtækissviði.
     -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem Dynamics 365 fyrir Operations Eftirspurnarspátilraunir eru°sjálfkrafa samþættar Dynamics 365 for Operations, þurfa°viðskiptavinir og samstarfsaðilar að beita samþættingu°tilrauna sem þeir hlaða niður úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana Greiningar Gallery ](https://gallery.cortanaanalytics.com/) ekki jafn einfaldar í notkun og Dynamics 365 for Operations eftirspurnarspátilraunir. Það°þarf að breyta kóða á tilraununum þannig að þær nota forritunarviðmót (API) Dynamics 365 for Operations forritsins.
     -   Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.

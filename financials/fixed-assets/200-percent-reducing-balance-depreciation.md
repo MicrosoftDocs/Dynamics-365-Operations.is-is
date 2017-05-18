@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 617d643517f4c40d6e870d1e7e676b0be28092dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c4cbbe5690fb9c8a2190b5fe5d8f506cb9cc8e10
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,17 +46,17 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 ### <a name="calendar"></a>Dagatal
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár, ****dagatal**. 
+Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár,****dagatal**. 
 
 **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt eru afskriftir bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
--   ** Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
+-   **Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
 -   **Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
 -   **Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
--   Með ** Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
+-   Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
 
 ### <a name="fiscal"></a>Fjárhagur
 

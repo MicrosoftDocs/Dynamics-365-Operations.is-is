@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 451273a8ee98f7033795182e754f76aca3788f47
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6379f63a367dab51fa3ed6465ed8422a44ef7a7a
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Reikningur er talinn ofgreiddur þegar greiðsluupphæð er hærri en á upphæ�
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Stjórnun staðgreiðsluafsláttar= Tilgreint
-Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar. Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar. Þessi Hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og upphæðin sem færð er inn í á** Hámark ofgreiðslu eða vangreiðslu** svæði, eða hvort upphæð fyrir ofgreiðslu er meira en **Hámark ofgreiðslu eða vangreiðslu** upphæð.
+Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar. Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar. Þessi Hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og upphæðin sem færð er inn í á**Hámark ofgreiðslu eða vangreiðslu** svæði, eða hvort upphæð fyrir ofgreiðslu er meira en **Hámark ofgreiðslu eða vangreiðslu** upphæð.
 
 ### <a name="scenario-1"></a>Aðstæður 1
 
@@ -71,7 +72,7 @@ Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun. **Greiðsla*
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
 | Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna)                 | 10,50        |               |
 | Viðskiptakröfur                                                                                              |              | 10,50         |
-| Staðgreiðsluafsláttur (í **staðgreiðsluafsláttur viðskiptavinar ** reitur á í **lykill fyrir sjálfvirk færsla** síðuna) |              | 0,50          |
+| Staðgreiðsluafsláttur (í **staðgreiðsluafsláttur viðskiptavinar** reitur á í **lykill fyrir sjálfvirk færsla** síðuna) |              | 0,50          |
 | Viðskiptakröfur                                                                                              | 0,50         |               |
 
 ### <a name="scenario-2"></a>Aðstæður 2

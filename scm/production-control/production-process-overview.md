@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 6a33117f454b5b0d109c8a5c460fa218eab5c0f7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 434b603fd0b2322372c7e2e7584267173fb90b94
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -62,7 +63,7 @@ Til að velja framleiðslureglu sem best á við um tiltekna vöru og tengdan ma
 Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar gerðir pöntunar í blönduðum framleiðsluham. Hins vegar eru þau ekki öll sýnd sem yfirlýst pöntunarstaða.
 
 1.  **Stofnað** – Hægt er að stofna framleiðslupöntun, runupöntun eða kanban handvirkt, eða hægt er að stilla kerfið til að mynda þau samkvæmt mismunandi eftirspurnarmerkjum. Áætlanagerð stofnar framleiðslupantanir, runupantanir eða kanban með því að staðfesta áætlaðar pantanir. Önnur eftirspurnarmerki eru sölupantanir eða fest framboðsmerki frá öðrum framleiðslupöntunum eða kanban. Fyrir kanban með föstu magni eru eftirspurnarmerki mynduð þegar kanban eru skráð sem tóm.
-2.  **Áætlað** - Hægt er að reikna áætlað efni og tilfanganotkun. Áætlunin myndar birgðafærslur fyrir hráefni sem hafa stöðuna **Í pöntun**. Kvittanir fyrir aðalafurðir, aukaafurðir og hliðarafurðir eru myndaðar þegar framleiðslupantanir eða runupantanir eru áætlaðar. Ef Uppskrift inniheldur línur af gerðinni ** Fest framboð** eru innkaupapantanir fyrir efni eða úthýst virkniþjónusta myndaðar og festar við framleiðslupöntun eða runupöntun. Vörur eða pantanir eru teknar frá samkvæmt frátektarstefnu framleiðslupöntunar og verð fullbúnu vörunnar reiknað út á grundvelli stillinga færibreyta.
+2.  **Áætlað** - Hægt er að reikna áætlað efni og tilfanganotkun. Áætlunin myndar birgðafærslur fyrir hráefni sem hafa stöðuna **Í pöntun**. Kvittanir fyrir aðalafurðir, aukaafurðir og hliðarafurðir eru myndaðar þegar framleiðslupantanir eða runupantanir eru áætlaðar. Ef Uppskrift inniheldur línur af gerðinni **Fest framboð** eru innkaupapantanir fyrir efni eða úthýst virkniþjónusta myndaðar og festar við framleiðslupöntun eða runupöntun. Vörur eða pantanir eru teknar frá samkvæmt frátektarstefnu framleiðslupöntunar og verð fullbúnu vörunnar reiknað út á grundvelli stillinga færibreyta.
 3.  **Tímasett** - Hægt er að gera áætlanir um framleiðslu byggðar á aðgerðum, einstökum vinnslum eða hvoru tveggja.
     -   **Aðgerðarröðun** – Þessi röðunaraðferð býður upp á grófa langtímaáætlun. Með þessari aðferð er hægt að gefa framleiðslupöntunum upphafs- og lokadagsetningar. Ef framleiðslupantanir eru tengdar við leiðaraðgerðir er hægt að úthluta þeim á flokka kostnaðarstaða.
     -   **Vinnsluröðun** – Þessi röðunaraðferð býður upp á nákvæma áætlun. Hver virkni er brotin niður í stakar vinnslur sem hafa tilteknar dagsetningar, tíma og úthlutuð rekstrartilföng. Ef takmörkuð afkastageta er notuð eru vinnslur úthlutaðar á frátekna afkastaveitu eftir því hvað er tiltækt. Hægt er að skoða og breyta röðuninni í Gantt-riti.
@@ -86,7 +87,7 @@ Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar ge
 
 [Afbrigðalíkön afurða](../pim/product-configuration-models.md)
 
-[Lean manufacturing](lean-manufacturing-overview.md)
+[Lean-framleiðsla](lean-manufacturing-overview.md)
 
 
 

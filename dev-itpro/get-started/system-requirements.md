@@ -3,7 +3,7 @@ title: "Kerfiskröfur"
 description: "Í þessu efnisatriði er listi yfir kerfiskröfur fyrir núverandi útgáfu Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>Kerfiskröfur
+
+[!include[banner](../includes/banner.md)]
+
 
 Í þessu efnisatriði er listi yfir kerfiskröfur fyrir núverandi útgáfu Microsoft Dynamics 365 for Operations.
 
@@ -43,6 +47,8 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 -   Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word skjöl, verður að hafa viðauka við Króm uppsett. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
 -   Hönnunarviðmót fyrir fjárhagsskýrslugerð er ræst sem ClickOnce forritsins. Það krefst 64-bita samhæfs stýrikerfis. Ef verið er að nota Króm, verður að setja upp ClickOnce viðauka til að sækja skýrslu hönnuður biðlara. Ef verið er að nota Króm með nafnlausum afhendingarmáta, ganga úr skugga um að ClickOnce viðaukanum verður einnig virkur fyrir nafnlausan ham.
+-   Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Studdir vafrar fyrir sölustað smásöluskýs
 
@@ -117,11 +123,13 @@ Tölvan verður að uppfylla alla kerfiskröfur fyrir uppsetningu og notkun efti
 -   Að minnsta kosti 10 GB af lausu rými (gagnagrunnur rásar getur þurft mikið rými.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Kröfur til þróunar á staðbundna VMs
-Sjá upplýsingar um þarfir fyrir þróun á staðbundna hýsilsheiti vélar (VMs) [VL keyrslu á verslunarsvæðis](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+Sjá upplýsingar um þarfir fyrir þróun á staðbundna hýsilsheiti vélar (VMs) [VL keyrslu á verslunarsvæðis](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Sjá einnig
 --------
 
 [Sækja við mat á afrit af Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

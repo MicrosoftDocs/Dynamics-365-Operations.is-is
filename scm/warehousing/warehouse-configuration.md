@@ -3,7 +3,7 @@ title: "Skilgreining vöruhúss"
 description: "Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Skilgreining vöruhúss
 
+[!include[banner](../includes/banner.md)]
+
+
 Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 
-**Ábending:** Þessi grein á við um aðgerðir í á** Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
+**Ábending:** Þessi grein á við um aðgerðir í á**Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
 Stjórnkerfi Vöruhúss í Microsoft Dynamics 365 for Operations býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
@@ -40,7 +44,7 @@ Stjórnkerfi Vöruhúss í Microsoft Dynamics 365 for Operations býður upp á 
 -   Hægt er að flokka staðsetningar með því að nota stillingar fyrir efnislegri afkastagetu.
 -   Hægt er að stjórna hvernig vörur eru geymdar og teknar til, byggðar á reglum sem byggjast á fyrirspurnum.
 
-Til að nota vöruhúsakerfi í Microsoft Dynamics 365 for Operations, verður að stofna vöruhús og virkja það fyrir ítarlega eða sérhæfða stjórnun verkþátta í vöruhúsum. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli **valkost.
+Til að nota vöruhúsakerfi í Microsoft Dynamics 365 for Operations, verður að stofna vöruhús og virkja það fyrir ítarlega eða sérhæfða stjórnun verkþátta í vöruhúsum. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli**valkost.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Staðaflokka, staði, staðsetningargerðum og staðsetningar
 
@@ -66,7 +70,7 @@ Til að ná bestu útleiðaferlunum, ætti að meta hvort eigi að nota fastar t
 
 ### <a name="location-setup-wizard"></a>Uppsetningarforrit staðsetningar
 
-Til að stofna staðsetningar á snöggan hátt í vöruhúsi, er hægt að nota **Uppsetning staðsetningar **leiðsagnarforritið. Sem Hluti af ferlinu er auðveldlega hægt að viðhalda snið fyrir nöfn staðsetninga.
+Til að stofna staðsetningar á snöggan hátt í vöruhúsi, er hægt að nota í **uppsetning Staðsetningar** leiðsagnarforritið. Sem Hluti af ferlinu er auðveldlega hægt að viðhalda snið fyrir nöfn staðsetninga.
 
 ## <a name="warehouse-processes"></a>Vöruhúsaferli
 Sem hluti af skilgreiningu vöruhúss, er mikilvægt að virkja ferli vöruhúsa í samræmi við viðskiptaþarfir. Mikilvægustu þættir sem þarf að skilgreina eru bylgjusniðmát, vinnusniðmát, vinnuhópa og staðsetningarleiðbeiningar.
@@ -75,7 +79,12 @@ Sem hluti af skilgreiningu vöruhúss, er mikilvægt að virkja ferli vöruhúsa
 
 Bylgjusniðmát hjálpa til við að virkja útleiðarferlið "Losun í vöruhús". Um leið og pöntunarlínurnar eru losaðar (annað hvort beint úr upprunaskjölum, gegnum runuvinnslur eða gegnum hleðslu sem þegar hafa verið stofnaðar), er virkni bylgjusniðmáts notuð. 
 
-Hægt er að stofna þrjú bylgjusniðmát: **Sendingu**, **Framleiðslupöntun** og **Kanban**. Færibreytur eru notaðar til að skilgreina hversu langt kerfið ætti að fara sjálfkrafa í vinnslu vinnu á útleið. Bylgjusniðmát er valin samkvæmt röð bylgjusniðmáts og skilyrðum sem eru tilgreindar í sniðmátinu. Ef sniðmát er skráð efst á röð, eru skilyrðin í því sniðmát athugað fyrst. Ef hægt er að uppfylla skilyrði, er bylgjusniðmátið unnið. Annars er skilyrði í næsta sniðmát athugað, o.s.frv. Því er gott að setja sniðmátið sem hefur sérstakasta skilyrði efst í róð bylgjusniðmáts, þannig að hún sé unnin fyrst. Til dæmis, óskað er að vinna alla vinnu fyrir tiltekna flutningsaðila í dag og tímabundið úrvinnslu frestað fyrir vinnu fyrir aðrar flutningsaðila. Í þessu tilfelli ætti að skrá bylgjusniðmát sem velur vinnu fyrir þann flutningsaðila að vera skráð hærri í röðinni en aðrar sniðmát. Annars gæti vinnu fyrir aðrar flutningsaðila verið unnin áður en vinnu fyrir þennan flutningsaðila er lokið. 
+Hægt er að stofna þrjú bylgjusniðmát: 
+-   **Sending**
+-   **Framleiðslupöntun**
+-   **Kanban** 
+
+Færibreytur eru notaðar til að skilgreina hversu langt kerfið ætti að fara sjálfkrafa í vinnslu vinnu á útleið. Bylgjusniðmát er valin samkvæmt röð bylgjusniðmáts og skilyrðum sem eru tilgreindar í sniðmátinu. Ef sniðmát er skráð efst á röð, eru skilyrðin í því sniðmát athugað fyrst. Ef hægt er að uppfylla skilyrði, er bylgjusniðmátið unnið. Annars er skilyrði í næsta sniðmát athugað, o.s.frv. Því er gott að setja sniðmátið sem hefur sérstakasta skilyrði efst í róð bylgjusniðmáts, þannig að hún sé unnin fyrst. Til dæmis, óskað er að vinna alla vinnu fyrir tiltekna flutningsaðila í dag og tímabundið úrvinnslu frestað fyrir vinnu fyrir aðrar flutningsaðila. Í þessu tilfelli ætti að skrá bylgjusniðmát sem velur vinnu fyrir þann flutningsaðila að vera skráð hærri í röðinni en aðrar sniðmát. Annars gæti vinnu fyrir aðrar flutningsaðila verið unnin áður en vinnu fyrir þennan flutningsaðila er lokið. 
 
 Tilgreina verður vinnsluaðferðir bylgju í hverri bylgjusniðmát. Aðferðir sem eru tiltækar eru mismunandi, það veltur á gerð bylgjusniðmáts.
 
@@ -107,6 +116,8 @@ Til að gera það auðveldara og fljótlegra að skilgreina aðgerðir sem eru 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Skilgreina staðsetningar í vöruhúsakerfisvirkjuðu vöruhúsi (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Skilgreina staðsetningar í vöruhúsakerfisvirkjuðu vöruhúsi (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

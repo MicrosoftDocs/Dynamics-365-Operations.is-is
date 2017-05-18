@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f82bf6373e8076fb6786fe9ef184f47f3cf7b84
-ms.openlocfilehash: 5ad918b72962b0a59ab35c292c2a6177fb8a9358
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: f731d0f872ac0f7e369de3744e90e0cb0179e691
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -53,7 +54,7 @@ Einnig geta notendur skoðað arðsemisgreiningu mest seldu varanna (10 til 100)
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurnar** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; ** Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
 -   **Flokka- og afurðastjórnun** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
 -   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
 

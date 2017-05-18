@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 33851ff7c9ee2c50544589ade0191798a13706e7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c7ab943d368c82e7d6c586ec5105210a928e2d31
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -68,7 +69,7 @@ Arnie bókar síðan greiðsluna. Reikningurinn hefur núna stöðuna 700,00. Ar
 | DISC-10020 | Staðgreiðsluafsláttur    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Eftirstöðvar 15. Júlí, Nota staðgreiðsluafslátt = Venjuleg
-Arnie greiðir eftirstöðvar reikningsins 15.júlí, sem er eftir afsláttartímabilið. Á síðunni **Jafna opnar færslur** , engin afsláttarupphæð birtist á **Áætlaður staðgreiðsluafsláttur **svæði og gildið á svæðinu **upphæð staðgreiðsluafsláttar** er **0,00**. Þegar Arnie greiðir eftirstandandi 700,00 verður ekki veittur frekari afsláttur.
+Arnie greiðir eftirstöðvar reikningsins 15.júlí, sem er eftir afsláttartímabilið. Á síðunni **Jafna opnar færslur** , engin afsláttarupphæð birtist á **Áætlaður staðgreiðsluafsláttur**svæði og gildið á svæðinu **upphæð staðgreiðsluafsláttar** er **0,00**. Þegar Arnie greiðir eftirstandandi 700,00 verður ekki veittur frekari afsláttur.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

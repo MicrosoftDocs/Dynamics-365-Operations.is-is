@@ -1,9 +1,9 @@
 ---
 title: "Yfirlit yfir verkflæðiskerfi"
-description: "Þessi grein lýsir verkflæðikerfi í Microsoft Dynamics 365 for Operations."
+description: "Þetta efnisatriði lýsir verkflæðiskerfinu í Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir verkflæðikerfi í Microsoft Dynamics 365 for Operations.
+Þetta efnisatriði lýsir verkflæðiskerfinu í Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Hvað er verkflæði?
 -----------------
@@ -41,9 +42,13 @@ Verkflæði er kerfi sem er uppsett innan Dynamics 365 for Operations og keyrir 
 
 ### <a name="workflow-is-a-business-process"></a>Verkflæði er viðskiptaferli
 
-Verkflæði endurspeglar viðskiptaferli. Það skilgreinir hvernig skjal flæðir eða hreyfist gegnum kerfið með því að sýna hver verður að ljúka verki, taka ákvörðun eða samþykkja skjal. Til dæmis sýnir eftirfarandi tala verkflæði fyrir kostnaðarskýrslur. ![Verkflæði með einingum sem hefur verið úthlutað til notenda](./media/workflow_user.gif) Til að skilja þetta verkflæði betur er gert ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 7,000 USD. Í þessari lýsingu þarf Ivan að endurskoða kvittanirnar sem Sam sendi til hans. Síðan verða Frank og Sue að samþykkja kostnaðarskýrsluna. Gerum nú ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 11.000. Í þessari lýsingu verður Ivan að endurskoða kvittanirnar og Frank, Sue og Ann að samþykkja kostnaðarskýrsluna.
- Kostir við notkun Verkflæðiskerfisins
--------------------------------------
+Verkflæði endurspeglar viðskiptaferli. Það skilgreinir hvernig skjal flæðir eða hreyfist gegnum kerfið með því að sýna hver verður að ljúka verki, taka ákvörðun eða samþykkja skjal. Til dæmis sýnir eftirfarandi teikning verkflæði fyrir kostnaðarskýrslur. 
+
+![Verkflæði með einingum sem hefur verið úthlutað til notenda](./media/workflow_user.gif) 
+
+Til að skilja þetta verkflæði betur er gert ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 7,000 USD. Í þessari lýsingu þarf Ivan að endurskoða kvittanirnar sem Sam sendi til hans. Síðan verða Frank og Sue að samþykkja kostnaðarskýrsluna. Gerum nú ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 11.000. Í þessari lýsingu verður Ivan að endurskoða kvittanirnar og Frank, Sue og Ann að samþykkja kostnaðarskýrsluna.
+
+## <a name="benefits-of-using-the-workflow-system"></a> Kostir við notkun Verkflæðiskerfisins
 
 Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 -   **Samræmt ferli** — Hægt er að skilgreina hversu nákvæmlega skjöl, , eins og innkaupabeiðnir og kostnaðarskýrslur, skuli vera unnin. Með því að nota verkflæðiskerfi er gengið úr skugga um að skjölin eru unnin og samþykkt með samræmdum og skilvirkum hætti.
@@ -51,6 +56,20 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 -   **Miðlægur verkefnalisti** — Notendur geta skoðað miðlægan verkefnalista sem birtir verkflæðisverk og samþykktir sem tilheyra þeim.
 
 
+## <a name="workflow-content"></a>Samhengi verkflæðis
 
-
++ [Uppbygging verkflæðis](workflow-system-architecture.md)
++ [Verkflæðiseiningar](workflow-elements.md)
++ [Verkflæðisaðgerðir](workflow-actions.md)
++ [Verkflæði stofnað](create-workflow.md)
++ [Skilgreining verkflæðiseiginleika](configure-workflow-properties.md)
++ [Skilgreina handvirkt verk í verkflæði](configure-manual-task-workflow.md)
++ [Skilgreina sjálfvirkt verki í verkflæði](configure-automated-task-workflow.md)
++ [Skilgreina samþykktarferli í verkflæði](configure-approval-process-workflow.md)
++ [Skilgreina samþykktarskref í verkflæði](configure-approval-step-workflow.md)
++ [Skilgreina handvirka ákvörðun í verkflæði](configure-manual-decision-workflow.md)
++ [Skilgreina skilyrta ákvörðun í verkflæði](configure-conditional-decision-workflow.md)
++ [Grunnstilla hliðstæðan verkþátt í verkflæði](configure-parallel-activity-workflow.md)
++ [Grunnstilla samhliða grein í verkflæði](configure-parallel-branch-workflow.md)
++ [Skilgreining verkflæðis línuatriðis](configure-line-item-workflow.md)
 

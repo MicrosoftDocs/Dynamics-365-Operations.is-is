@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 893c6d42fc3de3e07d63f0ac61a287e81685cbad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31eec04ef088fee61e30818a3bde094658c5a9c1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,14 +34,14 @@ ms.lasthandoff: 03/31/2017
 
 Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar. 
 
-Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vöruhúss ** síðu, eða afurðabundinn reikniflokkur er krafist í á **upplýsingar um losaðar afurðir** síðu. Kerfið leitar fyrst að uppsetningu reikniflokks á **upplýsingar um losaðar afurðir** síðu. Ef það finnur ekki reikniflokk þar, leitar það á síðunni **stjórnfæribreytur birgða og vöruhúss**. Ef kerfið finnur ekki reikniflokk, fær notandinn villuboð við útreikning. Reikniflokkur inniheldur reglur fyrir kostnaðarverðslíkanið, söluverðslíkan og gátlista viðvarana. Stillingar útreikninga úr reikniflokknum eru notaðar sem sjálfgefið gildi á **uppskriftarútreikning** síðu við útreikning Uppskriftar.
+Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vöruhúss** síðu, eða afurðabundinn reikniflokkur er krafist í á **upplýsingar um losaðar afurðir** síðu. Kerfið leitar fyrst að uppsetningu reikniflokks á **upplýsingar um losaðar afurðir** síðu. Ef það finnur ekki reikniflokk þar, leitar það á síðunni **stjórnfæribreytur birgða og vöruhúss**. Ef kerfið finnur ekki reikniflokk, fær notandinn villuboð við útreikning. Reikniflokkur inniheldur reglur fyrir kostnaðarverðslíkanið, söluverðslíkan og gátlista viðvarana. Stillingar útreikninga úr reikniflokknum eru notaðar sem sjálfgefið gildi á **uppskriftarútreikning** síðu við útreikning Uppskriftar.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Tilgangur flokka uppskriftarútreiknings
 Þú Úthluta flokkum uppskriftarútreiknings af nokkrum ástæðum:
 
--   Með því að stilla **kostnaðarverðslíkan **reitinn, Tilgreinirðu uppruna kostnaðarframlags keyptrar einingar á meðan verið er að reikna út áætlaður kostnaður fyrir framleidd vara. Sumir framleiðendur reikna út áætlaðan kostnað með því að nota innkaupaverð skv. viðskiptasamningum um keyptar einingar eða annan grunn, eins og innkaupaverðsfærslur innan kostnaðarútgáfunnar.
+-   Með því að stilla **kostnaðarverðslíkan**reitinn, Tilgreinirðu uppruna kostnaðarframlags keyptrar einingar á meðan verið er að reikna út áætlaður kostnaður fyrir framleidd vara. Sumir framleiðendur reikna út áætlaðan kostnað með því að nota innkaupaverð skv. viðskiptasamningum um keyptar einingar eða annan grunn, eins og innkaupaverðsfærslur innan kostnaðarútgáfunnar.
 -   Tilgreinið hvernig gögn vörunnar verða notuð til þess að reikna út það söluverð sem lagt er til (með því að stilla **söluverðlíkan**). Hægt er að tilgreina annað hvort söluverð vöru eða kostnaðarflokk. Sumir framleiðendur vilja reikna út það söluverð sem lagt er til fyrir framleiddar vörur. Útreiknað söluverð getur endurspeglað nálgun verðs með samlagningu sem byggir á söluverðsfærslu einingarinnar. Hinsvegar, getur Útreiknað söluverð endurspeglað nálgun með kostnaði plús álagningu sem byggir á kostnaði einingarinnar og viðeigandi álagningarprósentu (sem tengist kostnaðarflokki vörunnar).
--   Með því að nota reitinn **stöðva niðurbrot** tilgreinirðu að framleidd vara skuli vera meðhöndluð sem keypt vara fyrir samantekt kostnaðar við útreikning uppskriftar. Dæmigerðar aðstæður er þegar keypt vara sem er einstaka sinnum framleidd eða þegar um er að ræða framleidda vöru sem skal núna kaupa. Varan er fyrst skilgreind sem framleidd vara til að skilgreina uppskrift (BOM) og leiðarupplýsingar og til að styðja framleiðslupantanir fyrir vöruna. Aftur á móti, kemur flaggið **stöðvun niðurbrots ** í veg fyrir að kostnaðarútreikningar noti uppskrift og leið vörunnar. Þess í stað notar Útreikningur uppskrifta tilgreindan kostnað vörunnar.
+-   Með því að nota reitinn **stöðva niðurbrot** tilgreinirðu að framleidd vara skuli vera meðhöndluð sem keypt vara fyrir samantekt kostnaðar við útreikning uppskriftar. Dæmigerðar aðstæður er þegar keypt vara sem er einstaka sinnum framleidd eða þegar um er að ræða framleidda vöru sem skal núna kaupa. Varan er fyrst skilgreind sem framleidd vara til að skilgreina uppskrift (BOM) og leiðarupplýsingar og til að styðja framleiðslupantanir fyrir vöruna. Aftur á móti, kemur flaggið **stöðvun niðurbrots** í veg fyrir að kostnaðarútreikningar noti uppskrift og leið vörunnar. Þess í stað notar Útreikningur uppskrifta tilgreindan kostnað vörunnar.
 
 ## <a name="calculation-groups"></a>Reikniflokkar
 Þú skilgreinir reikniflokka í **uppsetning fyrir reglur fyrirframákveðins kostnaðar** í kostnaðarstjórnun. Reikniflokka sem eru tengdir vörum leyfa þér að tilgreina hvernig kostnaðarverð eða söluverð, eins og það er tilgreint í reikniflokkunum, er fundið fyrir útreikninginn. Á **reikniflokka** síðu er hægt að skilgreina kostnaðarverðslíkan, annað kostnaðarverðslíkan, söluverðslíkan og viðvaranir.
@@ -51,7 +52,7 @@ Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vö
 
 -   **Kostnaðarverð vöru** – kostnaðarverð úr **útgefin afurð** töflu er notuð, eða samsetningu af vöruvíddum er notað sem kostnaðarverð.
 -   **Innkaupaverð vöru** – innkaupaverð úr á **kostnaðarverð** reit á **Innkaupa** flipanum á **listi yfir útgefnar afurðir** síða er notuð.
--   **Viðskiptasamninga** – hægt er að skilgreina viðskiptasamninga fyrir tiltekna samsetningar vara og lánardrottna, eða fyrir tiltekin svæði. Svo þegar valin er **Viðskiptasamninga ** valkostinum hér, eru notuð verðsamningur sem þú stofnaðir fyrir innkaupaverð ásamt vöru og svæði.
+-   **Viðskiptasamninga** – hægt er að skilgreina viðskiptasamninga fyrir tiltekna samsetningar vara og lánardrottna, eða fyrir tiltekin svæði. Svo þegar valin er **Viðskiptasamninga** valkostinum hér, eru notuð verðsamningur sem þú stofnaðir fyrir innkaupaverð ásamt vöru og svæði.
 -   **Birgðaverð** – gildandi birgðavirði fyrir vöru er notað til að reikna einingarkostnað í útreikningi Uppskrifta. Kostnaðarverð einingar er aðeins reiknaður ef bókaða magnið og efnislegt magn er meira en 0 (núll).
 
 ### <a name="alternative-cost-price"></a>Annað kostnaðarverð

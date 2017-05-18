@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,14 +40,14 @@ Til að mynda eftirspurnarspá er farið í **Aðaláætlanagerð &gt; Spá &gt;
 
 Hægt er að velja spáramma við myndun spár. Tiltæk gildi eru: Dagur, Vika og Mánuður. 
 
-Fjöldi spáramma sem á að reikna út spána fyrir er stilltur á svæðinu** Spátími**. 
+Fjöldi spáramma sem á að reikna út spána fyrir er stilltur á svæðinu**Spátími**. 
 
 Þegar stjórnunarstefna spárinnar er stillt á **Afrita yfir sögulega eftirspurn**, er lokatími sögulegu tímamarkanna hunsaður. Kerfið afritar fjölda ramma sem tilgreindir eru á svæðinu **Spátími** yfir á eftirspurnarspána, frá dagsetningu sem er stillt á svæðinu **Frá dagsetningu** undir **Söguleg tímamörk**. Með því að afrita söguleg eftirspurn frá ákveðnni dagsetningu og áfram, geta framleiðslustjórar gert áætlun fyrir næsta fjórðung á tvo vegu:
 
 -   Með því að afrita eftirspurn úr sama fjórðung síðasta árs.
 -   Með því að afrita eftirspurn úr síðasta fjórðungi.
 
-Til að hindra°misskilning í áætlunum um framleiðslu er hægt að frysta ákveðinn fjölda spáramma. Þetta númer er stillt á **Frysta tímamörk** svæði. Á síðunni **Leiðrétt eftirspurnarspá **eru reitirnir fyrir frysta aldursgreiningarramma óvirkir, til veita sjónræn vísbendingu um að ekki ætti að breyta þessum gildum. 
+Til að hindra°misskilning í áætlunum um framleiðslu er hægt að frysta ákveðinn fjölda spáramma. Þetta númer er stillt á **Frysta tímamörk** svæði. Á síðunni **Leiðrétt eftirspurnarspá**eru reitirnir fyrir frysta aldursgreiningarramma óvirkir, til veita sjónræn vísbendingu um að ekki ætti að breyta þessum gildum. 
 
 Upphafsdagsetning grunnlínu eftirspurnarspár þarf ekki að vera núgildandi dagsetning eða dagsetning í framtíðinni. Til að setja inn aðra upphafsdagsetningu, notið svæðið **Upphafsdagsetning grunnlínuspár - Upphafsdagsetning**. Til dæmis í. Júní, geta notendur útbúið spá næsta árs. Þar sem spáramma milli lok söguleg eftirspurn og upphafsdagsetning í grunnlíkanasafnið vantar, getur verið að spárnar séu ekki nákvæmar. Ef verið er að nota Microsoft Dynamics 365 for Operations eftirspurnarspár þjónustu eru fjórir möguleikar á því að fylla út það sem vantar inn. Hægt er að velja þá aðferð sem óskað er eftir með því að stilla MISSING\_VALUE\_SUBSTITUTION færibreytuna á síðunni **Færibreytur eftirspurnarspár**. 
 

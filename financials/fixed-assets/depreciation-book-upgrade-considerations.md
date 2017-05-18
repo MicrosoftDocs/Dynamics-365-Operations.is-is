@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
-ms.openlocfilehash: d29cb7bc5acc29be93332b4211adebc4486a7a25
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2543032fe479e56586772f345f5aacb0bb8ca1d1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi fær
 
 Áður en uppfærslu gagna er keyrð, þarf að skilja kostirnir tveir sem eru tiltækar til uppfærslu færslubókarlínur afskriftarbókar í fylgiskjöl færslu, og númeraröð sem verður notað fyrir fylgiskjalarunu. 
 
-Valkostur 1: **kerfisskilgreind númeraröð ** -Þetta er sjálfgefin stilling til að besta uppfærsluframkvæmd. Uppfærslu notar ekki ramma fyrir númeraraðir, en mun í staðinn úthluta fyliskjölum með samstæðubyggð nálgun. Eftir uppfærslu, verður nýja númeraröð stofnað með **Næsta númerasetti ** og byggt upp í samræmi við uppfærða færslu. Að sjálfgefnu, verður notuð númeraröð vera á FADBUpgr\#\#\#\#\#\#\#\#\# sniði. Nokkrar færibreytur eru tiltækar til að leiðrétta sniðið þegar þessi nálgun er notuð:
+Valkostur 1: **kerfisskilgreind númeraröð** -Þetta er sjálfgefin stilling til að besta uppfærsluframkvæmd. Uppfærslu notar ekki ramma fyrir númeraraðir, en mun í staðinn úthluta fyliskjölum með samstæðubyggð nálgun. Eftir uppfærslu, verður nýja númeraröð stofnað með **Næsta númerasetti** og byggt upp í samræmi við uppfærða færslu. Að sjálfgefnu, verður notuð númeraröð vera á FADBUpgr\#\#\#\#\#\#\#\#\# sniði. Nokkrar færibreytur eru tiltækar til að leiðrétta sniðið þegar þessi nálgun er notuð:
 
 -   **Númeraraðarkóði** – Kóði til að auðkenna númeraröð. Þessi númeraraðarkóða getur ekki verið til þar sem hún verður stofnuð af uppfærslunni.
     -   Heiti fasta: **NumberSequenceDefaultCode**

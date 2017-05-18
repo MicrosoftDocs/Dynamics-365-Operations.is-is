@@ -3,7 +3,7 @@ title: "Skoða færslubókarfærslur og færslur"
 description: "Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur"
 author: RobinARH
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: a6848ea9c05536ac18a038b1864c9ccb9408964c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 021a74811212f65977407b8454086b0e7b703a2f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Skoða færslubókarfærslur og færslur
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur 
 
@@ -52,6 +56,11 @@ Hægt er að nota eftirfarandi skýrslur fjárhags til að skoða fjárhagsfærs
 -   **Uppruni færslu** – Þessi skýrsla sýnir lykla eftir færslubók og eftir færslu og bókhald og skýrslugjaldmiðil. Hún sýnir einnig hverja línu færslubókarinnar sem var notuð sem mótlykill.
 
 
-Nánari upplýsingar má finna í [Stöður fjárhagsreikninga](general-ledger-account-balances.md) [Skoðun bókhaldsuppruna](\financials\accounts-payable\accounting-source-explorer) og [Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
+##<a name="see-also"></a>Sjá einnig
+- [Fjárhagslykilstöður](general-ledger-account-balances.md) 
+- [Skoðun bókhaldsuppruna](..\accounts-payable\accounting-source-explorer.md)
+- [Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
+
+
 
 

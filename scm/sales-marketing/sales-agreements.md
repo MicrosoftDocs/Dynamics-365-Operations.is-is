@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 4dd1eae27ae33837fbab16f764083168578d0a29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69535f07cadda4f17bb5d846132ffe614495553e
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/31/2017
 
 Sölusamning er samningur sem bindur viðskiptavin til að kaupa vöru í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og sérstaka afslætti, og aðra sérstaka skilmála, eins og greiðslu og afhendingarskilmálar. Verð og afslættir af sölusamnings hunsa verð og afslætti sem eru tilgreindar í hvaða viðskiptasamninga sem ríkir.  
 
-Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu ** og  **Lokadagsetningu ** svæði í samningi. Sölupöntun viðskiptavinar uppfyllir skilyrði fyrir samningsskilmála ef umbeðin sendingardagsetning pöntunarinnar er innan gildistíma. Allar sölupöntunarlínur sem eru tengdar við sölusamning stuðlar að uppfyllingu þess sölusamnings.  
+Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu** og  **Lokadagsetningu** svæði í samningi. Sölupöntun viðskiptavinar uppfyllir skilyrði fyrir samningsskilmála ef umbeðin sendingardagsetning pöntunarinnar er innan gildistíma. Allar sölupöntunarlínur sem eru tengdar við sölusamning stuðlar að uppfyllingu þess sölusamnings.  
 
 Hægt er að stofna sölupöntun beint úr sölusamning með því að nota í **Úttektarpöntun** aðgerð. Einnig er hægt að velja virkan sölusamnings þegar verið er að taka pantanirnar (sjá í "Nota sölusamningar í pöntunarferlið" hluta í þessari grein).  
 
@@ -44,15 +45,15 @@ Hægt er að stofna sölupöntun beint úr sölusamning með því að nota í *
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í sölusamningi lýsir skuldbindingu um að selja eitthvað. Almennt séð, eru tvær tegundir af ráðstöfun:
 
--   **Virðisráðstöfun ** – Viðskiptamaðurinn samþykkir að kaupa afurð fyrir tiltekna upphæð.
--   **Magnráðstöfun ** – Viðskiptamaðurinn samþykkir að kaupa tiltekið magn afurðar.
+-   **Virðisráðstöfun** – Viðskiptamaðurinn samþykkir að kaupa afurð fyrir tiltekna upphæð.
+-   **Magnráðstöfun** – Viðskiptamaðurinn samþykkir að kaupa tiltekið magn afurðar.
 
 Þar að auki geta samningur skuldbundið viðskiptavin til að kaupa tilteknar afurðir í vörutegund. Með því að sameina þessar tvo þætti (virði miðað við magn) og tiltekinn afurðir samanborið við afurðaflokka, fáum við fjórar gerðir ráðstöfunar:
 
 -   **ráðstöfun afurðarmagns**– viðskiptavinurinn fellst á að kaupa ákveðið magn afurða. Línur sem nota þessa gerð ráðstöfunar eru skilgreindar eftir vörunúmeri, og magni og einingu sem samið var um. **Upphæð** svæði ekki tiltækt.
 -   **Virðisráðstöfun afurðar** – Viðskiptamaðurinn samþykkir að kaupa tiltekna afurð fyrir tiltekna upphæð. Línur sem nota þessa gerð ráðstöfunar eru skilgreindar eftir vörunúmeri, og upphæði sem samið var um. **Magn** og **Einingu** svæði ekki eru tiltæk.
 -   **Virðisráðstöfun afurðategundar** – Viðskiptamaðurinn samþykkir að kaupa afurð úr tiltekinni söluflokkur fyrir tiltekna upphæð. Línur sem nota þessa gerð ráðstöfunar eru skilgreindar eftir söluflokki í stigveldi sölutegunda og upphæð. **Magn** og **Einingu** svæði ekki eru tiltæk.
--   **Virðisráðstöfun ** – Viðskiptamaðurinn samþykkir að hvaða afurð eða afurðir sem er í hvaða innkaupategund sem er fyrir tiltekna upphæð. **Magn** og **Einingu** svæði ekki eru tiltæk.
+-   **Virðisráðstöfun** – Viðskiptamaðurinn samþykkir að hvaða afurð eða afurðir sem er í hvaða innkaupategund sem er fyrir tiltekna upphæð. **Magn** og **Einingu** svæði ekki eru tiltæk.
 
 Línur í sama sölusamnings getur haft mismunandi gerðir af ráðstafanir.
 
@@ -70,15 +71,15 @@ Verðskilmálra geta verið mismunandi, allt eftir skuldbindingu. Á sölupöntu
 Eftirfarandi stefnur hafa áhrif á það hvernig tengsl er milli skuldbindingar sölusamnings og samsvarandi sölupöntunarlínur virka:
 
 -   **Hámark er tryggt** - Heildarmagn eða upphæð fyrir allar pöntunarlínur geta ekki verið meiri en magnið eða upphæðin sem er tilgreind á viðkomandi skuldbindingu.
--   **Verð og afsláttur eru föst ** – Verðið á pöntunarlínu og verðið á tengdu skuldbindingu getur ekki verið mismuanndi. Ef verðið er breytt á pöntunarlínu rofnar tengiliinn við skuldbindinguna. Ef tengillinn er rofinn úthlutar pöntunarlínan ekki til uppfyllingar skuldbindingarinnar.
+-   **Verð og afsláttur eru föst** – Verðið á pöntunarlínu og verðið á tengdu skuldbindingu getur ekki verið mismuanndi. Ef verðið er breytt á pöntunarlínu rofnar tengiliinn við skuldbindinguna. Ef tengillinn er rofinn úthlutar pöntunarlínan ekki til uppfyllingar skuldbindingarinnar.
 -   **Lágmarks losunarupphæð** Og **hámarks losunarupphæð** – Ef upphæð er tilgreind birtast skilaboð ef einhver breyting er gerð á pöntunarlínu sem veldur því að pöntunarlínan verði frábrugðin tengdu skuldbindingunni.
 
 ## <a name="fulfillment-calculations-for-sales-agreements"></a>Útreikningur uppfyllingar fyrir sölusamninga
 **Uppfyllingar** flipi á **Línuupplýsingar** flýtiflipa á síðunni **sölusamningar** sýnir magn uppfyllingar og upphæðir.  
 
-Í því ** uppfyllingar**  svæði, er hægt að skoða samtals magn og upphæðir fyrir allar pöntunarlínur sem eru tengdar við tilgreinda sölusamninga. Einnig er hægt að skoða eftirstandandi upphæð eða magn sem þarf til að uppfylla ráðstöfun.  
+Í því **uppfyllingar**  svæði, er hægt að skoða samtals magn og upphæðir fyrir allar pöntunarlínur sem eru tengdar við tilgreinda sölusamninga. Einnig er hægt að skoða eftirstandandi upphæð eða magn sem þarf til að uppfylla ráðstöfun.  
 
-Í því ** samningur**  svæði, er hægt að skoða magn og upphæðir fyrir úr tilgreinda sölusamninga. Þessi magn og upphæðir eru samtals magn og upphæðir sem voru staðfest.
+Í því **samningur**  svæði, er hægt að skoða magn og upphæðir fyrir úr tilgreinda sölusamninga. Þessi magn og upphæðir eru samtals magn og upphæðir sem voru staðfest.
 
 ## <a name="confirmations-and-version-history-for-sales-agreements"></a>Staðfestinga- og útgáfusögu fyrir sölusamninga
 Þegar sölusamningur er staðfestur er núverandi útgáfa sölusamnings vistuð í sögutöflu. Ef sölusamningur er breytt hægt að staðfesta hann aftur til að geyma aðra útgáfu af sölusamningur í sögu.  
@@ -103,7 +104,7 @@ Ef hefur verið stofnað (losað) sölupöntun gagnvart sölusamning, sum svæð
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Skila vöru sem var pöntuð úr sölusamningi
 Þegar viðskiptamaður skilar afurð sem hefur verið pöntuð frá sölusamningi, getur Microsoft Dynamics 365 for Operations fundið og uppfært sjálfkrafa tengda ráðstöfun sölusamnings til að endurspegla breytingar á magni eða upphæð. Með því að stofna vöruskilapöntun byggða á upprunalegu sölupöntuninni sem er tengd við sölusamning,staðfestir þú tengsl milli sölusamnings, ráðstöfunar sölusamnings, sölusamningslína og reiknings vöruskilapöntunar.  
 
-Ef ekki á að draga frá skilavörumagnið úr ráðstöfun sölusamnings er hægt að nota stýringuna **fjarlægja hlekk** í síðunni ** skilapöntun ** til að fjarlægja tengingu milli skilapöntunar og ráðstöfunar sölusamnings . Ef þú þarft að endurstofna tengil síðar, er smellt á **stofna tengil**.  
+Ef ekki á að draga frá skilavörumagnið úr ráðstöfun sölusamnings er hægt að nota stýringuna **fjarlægja hlekk** í síðunni **skilapöntun** til að fjarlægja tengingu milli skilapöntunar og ráðstöfunar sölusamnings . Ef þú þarft að endurstofna tengil síðar, er smellt á **stofna tengil**.  
 
 **Athugasemd** Vöruskilapöntun getur aðeins tengst einum sölusamningi. Ef viðskiptamaðurinn skilar fleiri en einni afurð sem hefur verið pöntuð frá fleiri en einum sölusamningi þarf að stofna nýja skilapöntun fyrir hverja afurð og búa til tengingu í samsvarandi sölusamning.
 

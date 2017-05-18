@@ -3,7 +3,7 @@ title: "Setja upp og skilgreina Microsoft Dynamics 365 for Operations &#8211; V�
 description: "Þetta efnisatriði lýsir því hvernig á að Setja upp og grunnstilla Microsoft Dynamics 365 for Operations – Vöruhús"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Setja upp og skilgreina Microsoft Dynamics 365 for Operations &#8211; Vöruhús
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir því hvernig á að Setja upp og grunnstilla Microsoft Dynamics 365 for Operations – Vöruhús
 
@@ -67,7 +71,7 @@ Til að virkja forritið til að eiga samskipti við tiltekinn þjón fyrir Dyna
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Stofna og skilgreina notandareikning í Dynamics 365 for Operations
 Til að virkja Dynamics 365 for Operations ítil að nota Azure AD forritið þitt þarf að ljúka eftirfarandi skilgreiningarskrefum:
 
-1.  Stofna nýjan notandareikning í Azure Active Directory fyrir leigjanda Dynamics 365 for Operations. Tilgangur þessa notandareikningur er að fá aðgang að tiltekinni sérstilltri þjónustu í vöruhúsforritinu sem Dynamics 365 for Operations þjónninn birtir. Þegar þessu skrefi er lokið verður þú með skilríki WMDP-notanda, sem eru WMDP-nettfang og WMDP-aðgangsorð. Frekari upplýsingar um grunnskref við að bæta notaendum við Azure AD og Dynamics 365 for Operations, eru í þessu kennsluefni: [Skráning í áskrift að Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Stofna nýjan notandareikning í Azure Active Directory fyrir leigjanda Dynamics 365 for Operations. Tilgangur þessa notandareikningur er að fá aðgang að tiltekinni sérstilltri þjónustu í vöruhúsforritinu sem Dynamics 365 for Operations þjónninn birtir. Þegar þessu skrefi er lokið verður þú með skilríki WMDP-notanda, sem eru WMDP-nettfang og WMDP-aðgangsorð. Frekari upplýsingar um grunnskref við að bæta notaendum við Azure AD og Dynamics 365 for Operations, eru í þessu kennsluefni: [Skráning í áskrift að Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Stofnaðu Dynamics 365 for Operations notanda sem samsvarar notandaskilríkjum í vöruhússforriti.
     1.  Í Dynamics 365 for Operations er farið í **Kerfisstjórnun** &gt; **Almennir** &gt; **Notendur**.
     2.  Stofnaðu nýjan notanda
@@ -83,7 +87,7 @@ Til að virkja Dynamics 365 for Operations ítil að nota Azure AD forritið þi
 
 1.  Í forritinu, opna **Tengingarstillingar**.
 2.  Hreinsa svæðið **Sýnistilling**. [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
-3.  Færið inn eftirfarandi upplýsingar: - **Azure Active biðlarakenni ** - Biðlarakennið er sótt í skrefi 13 í „Stofna vefþjónustuforrit í Active Directory". - **Leyndarmál Azure Active Directory-viðskiptavinar** - Leyndarmál viðskiptavinar fæst í skrefi 13 í "Stofna vefþjónustuforrit í Active Directory". - **Azure Active directory tilföng** - Azure Active directory tilföng tilgreinir rótarvefslóð fyrir Dynamics 365 for Operations **Athugið**: Látið þennan reit ekki enda á framvísandi skástriki (/). - **Azure Active directory leigjandi** - Azure Active directory leigjandi sem notaður er með Dynamics 365 for Operations þjóni: https://login.windows.net/&lt;your-AD-tenant-ID&gt;. Til dæmis: https://login.windows.net/contosooperations.onmicrosoft.com. 
+3.  Færið inn eftirfarandi upplýsingar: - **Azure Active biðlarakenni** - Biðlarakennið er sótt í skrefi 13 í „Stofna vefþjónustuforrit í Active Directory". - **Leyndarmál Azure Active Directory-viðskiptavinar** - Leyndarmál viðskiptavinar fæst í skrefi 13 í "Stofna vefþjónustuforrit í Active Directory". - **Azure Active directory tilföng** - Azure Active directory tilföng tilgreinir rótarvefslóð fyrir Dynamics 365 for Operations **Athugið**: Látið þennan reit ekki enda á framvísandi skástriki (/). - **Azure Active directory leigjandi** - Azure Active directory leigjandi sem notaður er með Dynamics 365 for Operations þjóni: https://login.windows.net/&lt;your-AD-tenant-ID&gt;. Til dæmis: https://login.windows.net/contosooperations.onmicrosoft.com. 
 **Athugið**: Látið þennan reit ekki enda á framvísandi skástriki (/). - **Fyrirtæki** - Færðu inn lögaðila í Dynamics 365 for Operations sem forritið á að tengja við. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Veldu hnappinn **Til baka** í efra vinstra horni forritsins Þá tengist forritið þínum Dynamics 365 for Operations þjóni og innskráningarskjár fyrir starfsmaður í vöruhúsi birtist. [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
@@ -98,6 +102,8 @@ Ef tæki týnist eða öryggi þess er ógnað verður þú að fjarlægja aðga
 6.  Smellt er á flipann **Skilgreina** flett niður og tryggt að **Biðlarakenni**  forrits er sama og í skrefi 2 í þessum hluta.
 7.  Smellið á hnappinn **Eyða** á skipanastiku
 8.  Í staðfestingarglugganum smellirðu á **Já**.
+
+
 
 
 

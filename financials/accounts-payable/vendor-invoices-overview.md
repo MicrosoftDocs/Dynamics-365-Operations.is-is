@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: ecd32549b6067ed4c1211996e846e210f77f5013
-ms.openlocfilehash: bc6fb66e9038612cc133dc89e60eb3cb75cc7943
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a6b18343337ca7058c5027c8d4325c4301f1abed
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,12 +53,12 @@ Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota **Opna lá
 Þegar reikningur lánardrottins er opnuð úr tengdri innkaupapöntun eru reikningslínur stofnaðar úr innkaupapöntuninni. Sjálfgefið er að magn er tekið frá magn á innhreyfingarskjali afurða. Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:
 
 -   **Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar. Sjálfgefna gildið í reitnum **Magn** er tekið úr **Móttaka nú** magnsvæðinu á innkaupapöntuninni.
--   **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Sjálfgefna gildið í **Magnreit ** er tekinn úr **pantað** magnsvæðinu á innkaupapöntuninni.
--   **Skráð magn** – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í **vörulíkanaflokkur** síðu. Sjálfgefna gildið í svæðinu **magn ** er efnislega uppfærslumagnið sem hefur verið skráð.
+-   **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Sjálfgefna gildið í **Magnreit** er tekinn úr **pantað** magnsvæðinu á innkaupapöntuninni.
+-   **Skráð magn** – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í **vörulíkanaflokkur** síðu. Sjálfgefna gildið í svæðinu **magn** er efnislega uppfærslumagnið sem hefur verið skráð.
 -   **Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni. Sjálfgefna gildið í svæðinu **magn** er frá heildarmagni tiltækra innhreyfingarskjala afurða.
 -   **Skráð magn og þjónustur** – Notið þennan valkost ef magn hefur verið skráð í komubókum fyrir vörur í birgðum eða vörur sem ekki eru í birgðum. Þessi valkostur inniheldur einnig þjónustu, án tillits til þess hvort hún sé skráð.
 
-Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða ** dálkur. Einnig er hægt að nota **Jöfnunarupplýsingar** valmyndinni á **Yfirferð** flipa til að skoða niðurstöður jöfnunar magns.
+Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða** dálkur. Einnig er hægt að nota **Jöfnunarupplýsingar** valmyndinni á **Yfirferð** flipa til að skoða niðurstöður jöfnunar magns.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Bæta við línu sem ekki var á innkaupapöntun
 Hægt er að bæta við nýrri línu sem ekki var á innkaupapöntun við reikning lánardrottins. Velja verður við vörunúmer eða innkaupategund. Þá er Hægt að bæta magn, verð og upphæðir á línu. Línan verða teknar með aðeins í jöfnunarreglur fyrir heildarupphæð reiknings.

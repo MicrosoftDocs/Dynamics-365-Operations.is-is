@@ -3,7 +3,7 @@ title: "Afskriftir fyrir 175% bókfært virði"
 description: "Þessi grein gefur yfirlit yfir afskriftaraðferðina 175 prósent bókfært virði."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 175% bókfært virði
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina 175 prósent bókfært virði.
 
@@ -40,21 +44,21 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 ### <a name="calendar"></a>Dagatal
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár, ****dagatal**. 
+Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár,****dagatal**. 
 
 **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
--   ** Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
+-   **Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
 -   **Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
 -   **Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
--   Með ** Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
+-   Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
 
 ### <a name="fiscal"></a>Fjárhagur
 
-Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 175% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. Fyrir nánari upplýsingar, sjá [járhagsdagatöl, fjárhagsár, og tímabil.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
+Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 175% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. Fyrir nánari upplýsingar, sjá [járhagsdagatöl, fjárhagsár, og tímabil.](..\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
 Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert tímabil og lengd næsta fjárhagsárs ákvarðast af uppsetningu tímabila á síðunni **Fjárhagsdagatöl**. 
 
@@ -82,5 +86,7 @@ Aðferðin afskriftir fyrir 175% bókfært virði stöðu deilir 175% með líft
 
 > [!NOTE] 
 > Yfirleitt þegar upphæðin sem er reiknuð með því að nota 175% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
+
+
 
 

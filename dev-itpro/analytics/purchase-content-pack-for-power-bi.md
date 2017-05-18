@@ -3,7 +3,7 @@ title: "Efni Power BI eyðslugreining innkaupa"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Efni Power BI eyðslugreining innkaupa
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka.
 
@@ -38,6 +42,7 @@ Efnispakki eyðslugreiningar innkaupa fyrir Microsoft Power BI var stofnaður fy
 
 ## <a name="accessing-the-content-pack"></a>Farið í efnispakkann
 Efnispakki eyðslugreiningar innkaupa er gefinn út sem innleiðingu eign í Microsoft Dynamics Lifecycle Services (LCS) og úr Microsoft Dynamics 365 for Operations. Nánari upplýsingar um hvernig á að fara í og opna Power BI-skýrslur er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
+ATHUGIÐ - KB 4011327 er forskilyrði fyrir þetta Power BI-efni. Eftir að þú skrá inn á Lifecycle Services, hefurðu aðgang að KB hér: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Mælikvarðar sem eru hafðir með í efnispakka
 Efnispakki eyðslugreiningar innkaupa inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efnispakkanum.
@@ -129,7 +134,7 @@ Efnispakki eyðslugreiningar innkaupa inniheldur skýrslu sem samanstendur af sa
 \*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund
 
 ## <a name="data-model-and-entities"></a>Gagnalíkan og einingar
-Gögn Dynamics 365 for Operations eru notuð fyrir skýrsluna í efnispakka eyðslugreiningar innkaupa. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Sjá frekari upplýsingar um verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsöfnaðra mælinga sem voru tiltækar í Innkaupateningur í Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Operations 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Eftirfarandi lykiluppsafnaðar mælingar eru tiltækar beint úr reikningslínueiningunni og eru notaðar sem grunnur að efnispakka.
+Gögn Dynamics 365 for Operations eru notuð fyrir skýrsluna í efnispakka eyðslugreiningar innkaupa. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Sjá frekari upplýsingar um verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsöfnaðra mælinga sem voru tiltækar í Innkaupateningur í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Eftirfarandi lykiluppsafnaðar mælingar eru tiltækar beint úr reikningslínueiningunni og eru notaðar sem grunnur að efnispakka.
 
 | Eining        | Lykiluppsafnaðar mælingar | Gagnaveita fyrir Dynamics 365 for Operations | Svæði              | lýsing                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
 -   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Bæta Power BI-reitum við vinnusvæði](configure-power-bi-integration.md)
+
+
 
 
 

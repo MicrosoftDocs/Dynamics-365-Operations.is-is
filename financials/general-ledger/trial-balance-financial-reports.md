@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 750e2975eb75511afd75b6be0c8dfe90c8a9c89c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff868bcc202d74f94b6e2f9047a34d83e2ac149f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ Fjárhagsskýrslur prófjöfnuðar nota eftirfarandi grunneiningar.
 
 Línuskilgreining, Prófjöfnuð – Sjálfgefið, inniheldur eina línu sem sækir allar aðallykla. Þess vegna getur hver sem er búið til skýrslu án þess að þurfa að gera neinar breytingar. Þegar skýrslan er skoðuð er kafað í eina línu til að sjá upplýsingar um hvern reikning. Hægt er að breyta línuskilgreiningu þannig að hún felur í sér nánari upplýsingar. til að breyta Prófjöfnuð – Sjálfgefna línuskilgreiningu þannig að hún felur í sér raðir fyrir alla lykla. Fylgið eftirfarandi skrefum
 
-1.  Smellt er á **breyta** og svo á **Setja inn línur úr víddum**. **Setja inn línur úr víddum ** skipunin gerir kleift að velja hvaða víddir óskað er að hafa í línuskilgreiningunni. Fyrir þessa línuskilgreiningu muntu nota **Aðallykil**.
+1.  Smellt er á **breyta** og svo á **Setja inn línur úr víddum**. **Setja inn línur úr víddum** skipunin gerir kleift að velja hvaða víddir óskað er að hafa í línuskilgreiningunni. Fyrir þessa línuskilgreiningu muntu nota **Aðallykil**.
 2.  Gangið úr skugga um **Aðallykill** innihaldi öll og-merki og velja **í lagi**.
 
 Línuskilgreining inniheldur nú alla aðallykla fyrir þinn sjálfgefna lögaðila.

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Skoða og meta niðurstöður spurningalista
+
+[!include[banner](includes/banner.md)]
+
 
 Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
 
@@ -56,7 +60,8 @@ Einnig er hægt að mynda ýmsar skýrslur til að skoða niðurstöðurnar sem 
 -   **Svarskýrsla** – Þessi skýrsla sýnir svörin sem svarandi valdi fyrir hverja spurningu í spurningalistanum.
 -   **Röng svör** – Þessi skýrsla sýnir upplýsingar sem tengjast röngum svörum sem svarandi valdi.
 
-**Ábending:** **Niðurstöður** skýrsla býðst aðeins ef þú notar niðurstöðuflokka í spurningalista og ef valið er **niðurstöðusíðu** á **Spurningalista** síðu. Í **Svar** skýrslu og **Röng svör** skýrsla er aðeins tiltæk ef þú velur **Svar skýrsla** á í **Spurningalista** síðu.
+> **Ábending:**
+>  Skýrslan **Niðurstöður** býðst aðeins ef þú notar niðurstöðuflokka í spurningalista og ef valið er **Niðurstöðusíða** á síðunni **Spurningalistar**. Í **Svar** skýrslu og **Röng svör** skýrsla er aðeins tiltæk ef þú velur **Svar skýrsla** á í **Spurningalista** síðu.
 
 ## <a name="questionnaire-statistics"></a>Talnagögn spurningalista
 Hægt er að nota talnagögn spurningalista til að greina niðurstöður svaraðra spurningalista, byggðan á útreikningi sem þú skilgreinir. Til að skilgreina útreikninga, verður að ljúka eftirfarandi verkum:
@@ -79,5 +84,7 @@ Stillingarnar sem eru skilgreindar eru vistaðar og er hægt að nota þær til 
 [Nota spurningalista.](questionnaires.md)
 
 [Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
+
+
 
 

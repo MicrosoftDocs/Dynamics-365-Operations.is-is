@@ -1,9 +1,9 @@
 ---
 title: "Endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt gagnagrunns"
 description: "Þetta efnisatriði lýsir hvernig á að endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt Microsoft Dynamics 365 for Operations gagnagrunns."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt gagnagrunns
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir hvernig á að endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt Microsoft Dynamics 365 for Operations gagnagrunns. 
 
@@ -43,7 +47,11 @@ Fyrst skal flytja út skýrsluhönnun sem er staðsett í Skýrsluhönnuðinum m
 5.  Færið inn skráarnafn og veljið öruggum stað þar sem á að vista útfluttar skýrsluskilgreiningar.
 6.  Smellið á **Vista**.
 
-Skrána má afrita eða hlaða upp á öruggan stað, þar sem flytja á hana inn í annað umhverfi seinna. Hægt er að finna upplýsingar um notkun í geymslulykils Microsoft Azure í [Flytja gögn með AzCopy Command-Line Utility](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Athugasemd:** Microsoft veitir ekki geymslulykil sem hluta af samningi þínum um Dynamics 365 for Operations. Annaðhvort verður að kaupa geymslulykil eða nota geymslulykil úr aðskilinni Azure-áskrift. **Mikilvægt:** Huga að hegðun á D-drifi á sýndarvélum Azure. Ekki geyma útflutta einingahópa hér varanlega. Sjá frekari upplýsingar um tímabundin drif á [Skilningur á tímabundnum drifum í sýndarvélum Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Skrána má afrita eða hlaða upp á öruggan stað, þar sem flytja á hana inn í annað umhverfi seinna. Hægt er að finna upplýsingar um notkun í geymslulykils Microsoft Azure í [Flytja gögn með AzCopy Command-Line Utility](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft veitir ekki geymslulykil sem hluta af samningi þínum um Dynamics 365 for Operations. Annaðhvort verður að kaupa geymslulykil eða nota geymslulykil úr aðskilinni Azure-áskrift. 
+> [!WARNING]
+> Huga að hegðun á D-drifi á sýndarvélum Azure. Ekki geyma útflutta einingahópa hér varanlega. Sjá frekari upplýsingar um tímabundin drif á [Skilningur á tímabundnum drifum í sýndarvélum Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Stöðvunarþjónusta
 Remote Desktop er notuð til að tengjast öllum tölvum í umhverfinu og stöðva eftirfarandi Windows þjónustu með því að nota services.msc:
@@ -96,7 +104,9 @@ Nota services.msc að endurræsa þjónustuna sem þú hættir áður:
 Flytja inn skýrsluhönnun notanda úr Skýrsluhönnuðinum með skránni sem var búin til við útflutninginn:
 
 1.  Í Skýrsluhönnun ferðu í **Fyrirtæki** &gt; **Einingahópar**.
-2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. **Athugasemd:** Fyrir Dynamics 365 for Operations er aðeins einn einingahópur studdur **Vanskil**.
+2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. 
+    > [!NOTE]
+    > Fyrir Dynamics 365 for Operations er aðeins einn einingahópur studdur **Vanskil**.
 3.  Veldu eininguna **Vanskil** og smelltu á **Innflutning**.
 4.  Veldu skrána með útfluttum skýrsluskilgreiningum og smelltu á **Opna**.
 5.  Smellið á skýrsluskilgreiningarnar í svarglugganum Flytja inn til að flytja inn:
@@ -104,6 +114,8 @@ Flytja inn skýrsluhönnun notanda úr Skýrsluhönnuðinum með skránni sem va
     -   Til að flytja inn tilteknar skýrslur, línur, dálka, skipurit eða víddasamstæður skal velja skýrslur, línur, dálka, skipurit eða víddasamstæður sem á að flytja inn.
 
 6.  Smelltu á **Flytja inn**.
+
+
 
 
 

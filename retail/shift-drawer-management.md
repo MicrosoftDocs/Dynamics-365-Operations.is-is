@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 09c7fce1fa83d6a8d6391db667b7260d2a199390
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: bca8431e88ea73060c75774ae55611f95016e9a1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -62,7 +63,7 @@ Sjálfstæð vakt vakt tiltekin á stigi skúffunnar. Þessu ferli er útskýrt 
 6.  Færið inn upphæð reiðufés og og smellið svo á **vista** til að vista talning skiptimyntar.
 7.  Veljið **Loka vakt** til að loka vaktinni.
 
-**Athugasemd:** Aðrar aðgerðir eru mögulegar á vakt, eftir því hvaða viðskiptaferli sem eru til staðar. Aðgerðirnar **Peningaflutningur í öryggisskáp**, **peningaflutningur í Banka**, og **Skiptimynt fjarlægð** er hægt að nota til að fjarlægja peninga frá á afgreiðslukassa yfir daginn eða áður en vaktinni er lokað. Ef skúffan er með lítið magn reiðufés, er **Skiptimyntarfærsla ** aðgerð möguleg til notkunar til að bæta peningum við afgreiðslukassa.
+**Athugasemd:** Aðrar aðgerðir eru mögulegar á vakt, eftir því hvaða viðskiptaferli sem eru til staðar. Aðgerðirnar **Peningaflutningur í öryggisskáp**, **peningaflutningur í Banka**, og **Skiptimynt fjarlægð** er hægt að nota til að fjarlægja peninga frá á afgreiðslukassa yfir daginn eða áður en vaktinni er lokað. Ef skúffan er með lítið magn reiðufés, er **Skiptimyntarfærsla** aðgerð möguleg til notkunar til að bæta peningum við afgreiðslukassa.
 
 ## <a name="shared-shifts"></a>Samnýttar vaktir
 Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta peningaskúffu eða nokkrar peningaskúffur í gegnum vinnudagur. Yfirleitt eru samnýttrar vaktar notað í aðstæðum þar sem notaðir eru færanlegir sölustaðir. Í færanlegu umhverfi, er Hver gjaldkeri ekki úthlutað á og ábyrgur fyrir eina peningaskúffu. Þess í stað verða allir gjaldkerar að geta framkvæmt sölu og bæt reiðufé í hvaða peningaskúffu sem er nálægust þeim. Í þessu dæmi, eru peningaskúffur samnýttar á milli gjaldkerar og um leið teknar með í samnýttrar vaktar. Allar peningaskúffur í samnýttrar vaktar eru teknar með í sama vaktinni vegna verkþætti sem tengjast stjórnun reiðufjár fyrir þá vakt. Þess vegna skal upphafsupphæð fyrir vaktina að innifela samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. Þess vegna mun talning skiptimyntar vera samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. **Athugasemd:** Aðeins er hægt að hafa eina samnýtta vakt opna í hverri verslun í einu. Hægt er að nota samnýtta vaktir og sjálfstæðar vaktir í sama verslunarinnar.
@@ -88,13 +89,13 @@ Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta pen
 4.  Veljið **Stofna nýja vakt**.
 5.  Veljið **Gefa upp upphafsupphæð**
 6.  Færið inn upphafsupphæð allar peningaskúffur í verslunarinnar sem eru hluti af samnýttrar vaktar og smellið síðan á **Vista**.
-    -   Til að bæta við hluta upphafsupphæðar í  hverja síðari peningaskúffu skal nota **Velja vélbúnaðarstöð ** aðgerð til að gera vélbúnaðarstöðina virka.
+    -   Til að bæta við hluta upphafsupphæðar í  hverja síðari peningaskúffu skal nota **Velja vélbúnaðarstöð** aðgerð til að gera vélbúnaðarstöðina virka.
     -   Til að bæta skúffu á tiltekna peningaskúffu skal nota **Opna skúffu** aðgerð.
     -   Halda áfram þartil allar peningaskúffur í samnýttrar vaktar hafa þeirra hluta upphafsupphæðar.
 
 7.  Opna hverja peningaskúffu í lok dags og fjarlægja reiðufjár.
 8.  eftir reiðufjár hefur verið fjarlægð úr síðasta peningaskúffu skal telja allt reiðufjár úr öllum peningaskúffur.
-9.  Nota skal **telja skiptimynd ** aðgerð til að telja fram heildarupphæð reiðufjár úr öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar.
+9.  Nota skal **telja skiptimynd** aðgerð til að telja fram heildarupphæð reiðufjár úr öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar.
 10. Nota skal **Loka vakt** aðgerð til að loka samnýttrar vaktar.
 
 

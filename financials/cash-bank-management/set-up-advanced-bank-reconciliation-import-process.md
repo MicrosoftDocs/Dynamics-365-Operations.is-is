@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -63,16 +64,16 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO2002
 
 1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
 2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og  **ISO20022**.
+3.  Færa inn heiti á sniðsins, eins og **ISO20022**.
 4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti ** reitinn á **Bankayfirlit**.
-6.  Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
+5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
+6.  Til að hlaða upp innflutningsskrár, smellið á **Hlaða upp**, og flettið svo til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
 7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
 8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á „**Nýtt**“.
-10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja á** ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
+10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og velja á** BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
+12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 13. Smellið á **Nota umbreytingar**
 
 Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir ISO20022 bankayfirlit.
@@ -88,7 +89,7 @@ Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfir
 
 1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
 2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu **valkostinn á **Já**.
+3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
 4.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Setja upp innflutning á bankayfirlitum MT940
@@ -96,18 +97,18 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir MT940 b
 
 1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
 2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og  **MT940**.
+3.  Færa inn heiti á sniðsins, eins og **MT940**.
 4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti ** reitinn á **Bankayfirlit**.
+5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
 6.  Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
 7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
 8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á „**Nýtt**“.
-10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja á** MT940TXT-to-MT940XML.xslt** skrár sem vistuð var fyrr.
+9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
+10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **MT940TXT-to-MT940XML.xslt** skrár sem vistuð var fyrr.
 11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og velja á** MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Smellt er á **Nýtt**.
-14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og velja á** BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
+14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 15. Smellið á **Nota umbreytingar**
 
 Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir MT940 bankayfirlit.
@@ -123,7 +124,7 @@ Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfir
 
 1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
 2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu **valkostinn á **Já**.
+3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
 4.  Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.
 5.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **MT940**.
 
@@ -132,18 +133,18 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir BAI2 ba
 
 1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
 2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og  **BAI2**.
+3.  Færa inn heiti á sniðsins, eins og **BAI2**.
 4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti ** reitinn á **Bankayfirlit**.
+5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
 6.  Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
 7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
 8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á „**Nýtt**“.
-10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja á** BAI2CSV-to-BAI2XML.xslt** skrár sem vistuð var fyrr.
+9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
+10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja **BAI2CSV-to-BAI2XML.xslt** skrár sem vistuð var fyrr.
 11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og velja á** BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Smellt er á **Nýtt**.
-14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og velja á** BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
+14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 15. Smellið á **Nota umbreytingar**
 
 Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir BAI2 bankayfirlit.
@@ -159,7 +160,7 @@ Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfir
 
 1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
 2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu **valkostinn á **Já**.
+3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
 4.  Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.
 5.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **BAI2**.
 

@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Uppsetning rakningarvíddarflokks sem er úthlutað á afurð ákvarðar hvort s
 Hægt er að stofna hluta reikninga og fylgiseðla fyrir sölupantanir og skrá aðeins raðnúmer fyrir vörurnar sem þessir reikningar og fylgiseðlar innihalda. Ef óskað er að stofna reikning að hluta og þú ert með fleiri en einn fylgiseðil fyrir sölupöntun er hægt að hafa með raðnúmer úr fleiri en einum fylgiseðli. Hins vegar það má aðeins vera einn fylgiseðill sem inniheldur ekki öll raðnúmer. Til dæmis, ef þú hefur þrjá fylgiseðla og hver fylgiseðill inniheldur tvær raðnúmeraðar vörur, er hægt að stofna hluta reiknings fyrir eina vöru úr hverjum fylgiseðli.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Hvað geri ég þegar raðnúmer er ólæsilegt?
-Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða línu fyrir vöru með því að smella á **Ekki læsilegt **á síðunni **Raðnúmer**. Ef raðnúmer verður tiltækt seinna er hægt að uppfæra reikninginn eða fylgiseðillinn. Nánari upplýsingar má nálgast í næsta hlutanum „Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?“
+Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða línu fyrir vöru með því að smella á **Ekki læsilegt**á síðunni **Raðnúmer**. Ef raðnúmer verður tiltækt seinna er hægt að uppfæra reikninginn eða fylgiseðillinn. Nánari upplýsingar má nálgast í næsta hlutanum „Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?“
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?
 Já, hægt er að leiðrétta raðnúmer þegar eftirfarandi skilyrði eru uppfyllt:

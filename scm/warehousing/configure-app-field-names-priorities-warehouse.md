@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: ce8f6d6f7090995bc44db1ba0103a7d6c0416620
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 73fcc19b9ee17a691206019efbff29c4967f4e2f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -140,7 +141,7 @@ Til dæmis þegar starfsmaður í vöruhúsi framkvæmir verk á fartæki, ef l�
 -   Lína 2: Vörulýsing
 -   Lína 3: Stærð
 
-Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Til að fræðast nánar og sjá dæmi um notandaviðmót, vísast í bloggfærsluna [Announcing Dynamics 365 for Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Til að fræðast nánar og sjá dæmi um notandaviðmót, vísast í bloggfærsluna [Kynning á Dynamics 365 for Operations - Vöruhúsastjórnun](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Sjá einnig
 --------

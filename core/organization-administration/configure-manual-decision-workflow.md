@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: d57b00de54a0966f94b98885c9ffbf02a1838c90
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Til að skilgreina handvirka ákvörðun í verkflæðisritlinum, hægrismellt e
 Fylgið þessum skrefum til að færa inn heiti á handvirk ákvörðun.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti ** skal færa inn einkvæmt heiti fyrir handvirk ákvörðun
+2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir handvirk ákvörðun
 
 ## <a name="enter-a-subject-line-and-instructions"></a>Slá inn efnislínu og fyrirmæli
 Veita verður þeim notendum, sem úthlutað er þetta handvirk ákvörðun, efnislínu og fyrirmæli. Til dæmis, ef verið er að skilgreina ákvörðun fyrir innkaupabeiðnir, mun notanda sem er úthlutað á ákvörðun sjá efnislínuna og fyrirmælin á **Innkaupabeiðnir** síðunni. Efnislínuna birtist á skilaboðaslánni á síðunni. Notandinn getur síðan smellt á teiknið á skilaboðaslánni til að sjá leiðbeiningar. Fylgið eftirfarandi skrefum til að slá inn efnislínu og fyrirmæli.
@@ -247,8 +248,8 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að taka ákvörðunina.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
 
     Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komið fram yfir á tíma. Ákvörðun sem er komið fram yfir á tíma er stigmagnað, á grundvelli valkostanna sem þú valdir í **stigmögnun** svæðið á síðunni.
 
@@ -319,8 +320,8 @@ Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komi
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að taka ákvörðunina.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
 
 5.  Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6.  Ef notendunum í hækkunarslóðinni taka ekki ákvörðun innan tímarammans, tekur kerfið ákvörðunina. Til að tilgreina valkostinn sem kerfið velur , veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið valkost.
@@ -334,8 +335,8 @@ Fylgið eftirfarandi skrefum ef verður að taka ákvörðunina innan tiltekins 
     -   **Klukkustundir** - Færa þarf inn fjölda klukkustunda. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** - Færið inn fjölda daga. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** - Færið inn fjölda vikna.
-    -   **Mánuðir ** — velja daginn og vikuna sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku desembermánaðar.
 
 4.  Ef farið er yfir tímamörkin mun kerfið taka ákvörðunina vegna verksins. Veljið Valkost, sem kerfið á að velja, í listanum **Aðgerðir**.
 

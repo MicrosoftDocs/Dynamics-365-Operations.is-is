@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 25c2f85298bb89cb2802c7f0f7ff632c08aeca8f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e25a7657c2b859ffd57313ed7eb8da6583e7130d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Hægt er að gera leiðréttingu með því að nota **Leiðrétta reikning** hn
 
 Hægt er að nota þetta ferli til að bakfæra viðskiptavinafærslu á reikningi, þegar reikningurinn var stofnaður á rangan hátt. Ef bakfærða viðskiptavinarfærslan hefur vexti á vaxtanótu, og vaxtanótan var bókuð eru vextir á færsluna einnig bakfærðir á vaxtanótu. Hætt er við vaxtanótuna ef hún hefur ekki verið bókuð. 
 
-Hægt er að bakfæra færslur viðskiptavinar°með því að nota **Bakfæra **hnappinn á **Viðskiptavinafærslur** síðu.
+Hægt er að bakfæra færslur viðskiptavinar°með því að nota **Bakfæra**hnappinn á **Viðskiptavinafærslur** síðu.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Fella niður eða endurskipa vaxtanótur
 Hægt er að fella niður eða endurskipa öll gjöld á vaxtanótum sem valdar voru. Þegar gjöld eru felld niður, getur heildarupphæðin sem á að fella niður ekki verið hærri en upphæðartakmörk sem hafa verið valin. Hægt er að endurskipa vaxtanótu eingöngu ef hún var felld niður. 

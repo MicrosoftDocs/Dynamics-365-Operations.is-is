@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 380f1bcdf7109dc12fd898199033eac7710d863c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1f1df1e69f3933125bff3eba73d14e8615d7a2a6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Operations s
 Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Bætt við nýjum tengiliðum samstarf lánardrottna
-Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna. Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna. T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar. Nýjum tengiliðum er bætt við á **Alla tengiliði** síðu sem er opnuð í **samstarf lánardrottna ** &gt; **Tengiliði** valmyndinni. Bæta við nýjum tengiliður:
+Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna. Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna. T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar. Nýjum tengiliðum er bætt við á **Alla tengiliði** síðu sem er opnuð í **samstarf lánardrottna** &gt; **Tengiliði** valmyndinni. Bæta við nýjum tengiliður:
 
 1.  Smellt er á **Nýtt**.
 2.  Sláðu inn Upplýsingar um tengiliður

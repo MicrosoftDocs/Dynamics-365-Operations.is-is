@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 636d83ecc7732a164924352853603588cded0db4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: ec9bc4ff511c13740c6f63728bb3d0f837670293
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Greiðsluháttunum sem notaðir eru í öðrum rása í smásala og viðskipti �
 | **Gilt**                 | Í **Upphafsdagsetning** og **lokadagsetning** reitir skal færa inn dagsetningar fyrir fyrsta og síðasta daga sem afsláttarmiðinn gildir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Innifela/útiloka reglur** | Í **vörulisti** og**vörur** svæðunum, skal velja hvort allar vörulista eða vörum er tekin með eða skilinn eftir í afsláttarmiðann. Ef valið er **Taka með** eða **Útiloka**, smellið á **Setja upp**, veljið **taka Með/útiloka vörulista** eða **taka Með/útiloka afurðir**, og færa inn upplýsingar um vörulista eða vöru. Ef **ekkert** er valið í þessum svæðum, allir vörulistar eða vörur eru teknar með í afsláttarmiðann.                                                                                                                                                                                                                          |
 | **Ýmislegt**         | Ef ekki er hægt að nota þennan afsláttarmiða með öðrum afslætti, veljið þá **Sértækt** gátreitinn. Síðan, í **Uppruna** svæðinu, veljið þar sem hægt er að nota afsláttarmiðann. Ef þetta er afsláttarmiði framleiðanda, velja **Afsláttarmiði framleiðanda**  gátreitinn.                                                                                                                                                                                                                                                                                                                                                                |
-| **Framtíðarafsláttarmiðar**         | Ef þessi afsláttarmiða verður tengt við aðra afsláttarmiða sem yfireining, veljið **Yfireining afsláttarmiði ** gátreitinn. Ef þessi afsláttarmiði ætti að vera tengd sem undirstig afsláttarmiða með fyrirliggjandi afsláttarmiða, veljið **kenni yfirafsláttarmiði**  svæði. Til dæmis viltu stofna afsláttarmiða fyrir vörulistann næsta vors. Öll önnur afsláttarmiða sem þú stofnar fyrir vorvörulistann yrðu undireiningar afsláttarmiða í vorvörulistanum. Undirafsláttarmiða geta innihaldið 20 prósent afslátt fyrir nýjar pantanir viðskiptavinar, afslátt 10 prósent af nýlega útgefnar vöru eða 95,00 af pantanir upp á 1.000,00 eða meira. |
+| **Framtíðarafsláttarmiðar**         | Ef þessi afsláttarmiða verður tengt við aðra afsláttarmiða sem yfireining, veljið **Yfireining afsláttarmiði** gátreitinn. Ef þessi afsláttarmiði ætti að vera tengd sem undirstig afsláttarmiða með fyrirliggjandi afsláttarmiða, veljið **kenni yfirafsláttarmiði**  svæði. Til dæmis viltu stofna afsláttarmiða fyrir vörulistann næsta vors. Öll önnur afsláttarmiða sem þú stofnar fyrir vorvörulistann yrðu undireiningar afsláttarmiða í vorvörulistanum. Undirafsláttarmiða geta innihaldið 20 prósent afslátt fyrir nýjar pantanir viðskiptavinar, afslátt 10 prósent af nýlega útgefnar vöru eða 95,00 af pantanir upp á 1.000,00 eða meira. |
 
 Ef leggja á fram kreditkortagreiðslu úr **sölupöntun** síða og færð boð sem tilgreinir að kreditkorti fékk ekki heimild er hægt að annast heimild handvirkt. Hægt er að heimila, hafna eða endursenda kreditkortafærslu með því að nota **stjórnun heimilda** síðu. Síðu færibreytum símavers er notuð til að skilgreina viðbótarupplýsingar greiðsluvinnslu valkosti:
 

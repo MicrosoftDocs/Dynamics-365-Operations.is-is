@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Áætlanagerð og fjölsvæðiseiginleikinn
+
+[!include[banner](../includes/banner.md)]
+
 
 Aðalröðun tekur tillit til stillinga svæðis og vöruhúsabirgðavídda. 
 
@@ -37,7 +41,7 @@ Svæðisvíddin er áskilin og hægt er að stilla vöruhúsavíddina til að ve
 
 Ef stilling á vöruhúsi er ekki skyldubundin þekkist það ekki í upphaflegu þörfinni. Áætlunarforritið verður að ákvarða hvaða vöruhús á að nota, byggt á stillingum sem eru skilgreindar fyrir vöru, einstökum vöruhúsum og upplýsingum pöntunarlínu.
 
-Eftirfarandi wiki-greinar lýsa því hvernig áætlunarforritið vinnur, þegar mismunandi stillingar eru skilgreindar til þess að ákvarða hvaða vöruhús verður notað.
+Eftirfarandi efnisatriði lýsa því hvernig áætlunarforritið vinnur, þegar mismunandi stillingar eru skilgreindar til þess að ákvarða hvaða vöruhús verður notað.
 
 [Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús lögbundið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ Eftirfarandi wiki-greinar lýsa því hvernig áætlunarforritið vinnur, þegar
 [Aðaláætlanagerð- trygging svæðis,  vöruhús ekki lögbundið](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
+
+
 
 

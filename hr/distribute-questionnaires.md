@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Dreifa og ljúka spurningalista
+
+[!include[banner](includes/banner.md)]
+
 
 Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 
@@ -45,7 +49,7 @@ Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að
 
 Hægt er að stofna spurningalista úr eftirfarandi síðum:
 
--   **Spurningalistaflokkar **– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann. Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.
+-   **Spurningalistaflokkar**– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann. Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.
 -   **Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .
 
 Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**. Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum. Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.
@@ -53,7 +57,8 @@ Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** s
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Áætluð svarseta í spurningalista
 Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir. 
 
-**Ábending:** áður En hægt er að setja upp áætlaðar svarsetur, verður að hanna spurningalista. 
+> **Ábending:**
+>  Áður en hægt er að setja upp áætlaðar svarsetur verður að hanna spurningalista. 
 
 Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann. Listinn á síðunni birtir alla áætlaða spurningalista. 
 
@@ -99,7 +104,8 @@ Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka f
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Tilkynna svarendum um tiltæka spurningalista
 Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir. 
 
-**Athugasemd:** Svarandi verður að vera notandi í Microsoft Dynamics 365 for Operations til að klára spurningalista.
+> **Athugið**
+>  Svarandi verður að vera notandi í Microsoft Dynamics 365 for Operations til að ljúka spurningalista.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Tilkynna svarendum um áætlaða svarsetu
 
@@ -107,14 +113,16 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns ** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
-**Ábending:** áður En hægt er að nota virkni tölvupósti, þarf kerfisstjórinn upplýsingatækni að færa inn stillingar fyrir tölvupóst í **færibreytur tölvupósts** síðu.
+> **Ábending:**
+>  Áður en hægt er að nota tölvupóst þarf kerfisstjórinn að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Ljúka áætluðum spurningalista
 Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum. Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun. 
 
-**Athugasemd:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann og það á samt að loka röðuninni verður fyrst að eyða þeim svarendum úr listanum í síðunni **áætlaðar svarsetur**. Að því loknu er hægt að loka röðuninni.
+> **Athugið**
+>  Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann og það á samt að loka röðuninni verður fyrst að eyða þeim svarendum úr listanum í síðunni **Áætluð svarseta**. Að því loknu er hægt að loka röðuninni.
 
 ## <a name="completing-questionnaires"></a>Að klára spurningalista
 Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur. Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:
@@ -132,5 +140,7 @@ Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendah�
 [Nota spurningalista.](questionnaires.md)
 
 [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+
+
 
 

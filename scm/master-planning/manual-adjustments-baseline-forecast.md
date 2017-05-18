@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,14 +39,14 @@ ms.lasthandoff: 03/31/2017
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Hnitanetið á leiðréttri eftirspurnarspársíðu
 **Leiðrétt eftirspurnarspá** síða inniheldur hnitanet sem hefur eftirfarandi skipulag:
 
--   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykill Vöru **, og ein hausalínan í hnitanetinu er **USMF / 1 / D\_Alloc** sýnir sú lína spána fyrir USMF fyrirtækis , svæði 1, og **D\_Alloc** úthlutunarlykil vöru.
+-   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykill Vöru**, og ein hausalínan í hnitanetinu er **USMF / 1 / D\_Alloc** sýnir sú lína spána fyrir USMF fyrirtækis , svæði 1, og **D\_Alloc** úthlutunarlykil vöru.
 -   Síðari dálkar tákna spárammana sem spáin hefur verið myndaður fyrir. Hver dálkhaus er fyrsta dagsetning spáramma sem dálkurinn sýnir.
 -   Gildin í reitirnir standa fyrir spá fyrir eina vöru, úthlutunarlykill vöru og svo framvegis fyrir tiltekna spáramma.
 
 ## <a name="forecast-aggregation-and-deaggregation"></a>Uppsöfnun spár og af-uppsöfnun
 Undirfyrirsögn síðu sýnir stigið fyrir uppsöfnun spár. 
 
-Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykil / Vörunúmer / Litur / Stærð / Skilgreiningu / Stíll**, er engin uppsöfnun spár og spá er sýnd á stigi vöru víddar hennar. Ef breyta á uppsöfnun er að nota í ** Breytingu spávíddir** síðu sem hægt er að opna úr hugbúnaðarvalmyndinni. 
+Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykil / Vörunúmer / Litur / Stærð / Skilgreiningu / Stíll**, er engin uppsöfnun spár og spá er sýnd á stigi vöru víddar hennar. Ef breyta á uppsöfnun er að nota í **Breytingu spávíddir** síðu sem hægt er að opna úr hugbúnaðarvalmyndinni. 
 
 Til að breyta spánni, smellið á eitthvað hólf sem er tiltækt, og slá inn leiðrétt spárgildi. Nýju hólf verður strax feitletrað til að tilgreina að spá sem hún sýnir er ekki spáin sem þjónusta eftirspurnarspár stofnaði, en hefur verið leiðrétt handvirkt. 
 
@@ -58,7 +59,7 @@ Til dæmis, þú hefur búið spá á stigi vörunnar, en þú veist að eftirsp
 Einnig er hægt að gera handvirkar leiðréttingar á á **eftirspurnarspálínur** síðu með því að breyta annað hvort **Heildarmagn** gildi eða **Magn** hólfum í af-uppsöfnunar hnitanetinu.
 
 ## <a name="viewing-details-of-the-forecast"></a>Skoða upplýsingar um spá
-Hægt er að opna ** upplýsingar eftirspurnarspár** síðu til að skoða frekari upplýsingar um spá. 
+Hægt er að opna **upplýsingar eftirspurnarspár** síðu til að skoða frekari upplýsingar um spá. 
 
 **upplýsingar eftirspurnarspár** síða sýnir eftirfarandi upplýsingar í myndrænu og töflulegu sniði:
 

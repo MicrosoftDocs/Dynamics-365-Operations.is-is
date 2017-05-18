@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8aa0a58b03ee18e42ca7770ea3e22311c1ddba67
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9aba61178d050f4881c96b7a7fa62937b98b2beb
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,9 +37,9 @@ ms.lasthandoff: 03/31/2017
 Pöntun lofað reiknar fyrstu sendingar- og innhreyfingardagsetningu, og er byggð á stýringaraðgerð afhendingardags og flutningsdaga. Hægt er að velja á milli fjögurra stýringaraðferða afhendingardags
 
 -   **Afhendingartími sölu** – afhendingartími sölu er tíminn milli stofnunar sölupöntunarinnar og sendingu vara. Útreikningur afhendingardags er á grundvelli sjálfgefinn fjölda daga, og tekur ekki tillit til birgðastöðu, , þekktrar eftirspurnar eða áætlað framboð.
--   **ATP (tiltækt-til-loforðs) ** – ATP er magn vöru sem er tiltækur og hægt er að lofa viðskiptavini á tiltekinni dagsetningu. ATP útreikningur felur í sér óstaðfestar birgðir, afhendingartími , áætlaðar innhreyfingar og úthreyfingar.
+-   **ATP (tiltækt-til-loforðs)** – ATP er magn vöru sem er tiltækur og hægt er að lofa viðskiptavini á tiltekinni dagsetningu. ATP útreikningur felur í sér óstaðfestar birgðir, afhendingartími , áætlaðar innhreyfingar og úthreyfingar.
 -   **ATP + mörk úthreyfinga**, sendingardagsetning er sú sama og dagsetning sem er tiltækt-til-loforðs (ATP) auk marka úthreyfinga fyrir vöruna. Mörk úthreyfinga er sá tími sem þarf að undirbúa þær vörur sem á að senda.
--   **Ctp-Afhendingargetu (óhætt að lofa) **– Framboð er reiknað í gegnum niðurbrot.
+-   **Ctp-Afhendingargetu (óhætt að lofa)**– Framboð er reiknað í gegnum niðurbrot.
 
 ## <a name="atp-calculations"></a>ATP útreikninguar
 ATP-magn er reiknað út með því að nota aðferðarinnar “uppsafnað ATP með framsýni”. Helsti kostur þessa ATP reikniaðferðin er að hún getur meðhöndlað tilvik þar sem heildartala úthreyfinga á meðal innhreyfinga er meira en síðasta innhreyfing (til dæmis þegar verður að nota magn úr eldri innhreyfingu til að uppfylla kröfu). Útreikningsaðferð "uppsafnað ATP með framsýni" inniheldur allar úthreyfingar þar til uppsafnað magn til innhreyfingar er orðin meiri en uppsafnað magn til úthreyfingar. Þar af leiðandi metur ATP reikniaðferðin hvort hægt er að nota sumt magn úr eldri tímabilum í seinni tímabilum.  
