@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1255cf90498f1968568dd2fa5a1377d989f40182
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b4d4f14753f1755c251e1ae12dd9addec31d2fdd
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 Eining Microsoft Dynamics 365 for Operations sem þú ert að vinna í ákvarðar tegundir verkflæði sem þú getur búið til. Fylgið eftirfarandi skrefum til að velja gerð verkflæðis til að stofna og til að opna verkflæðisritill.
 
 1.  Fara í einingunni sem á að stofna nýtt verkflæði fyrir. Til dæmis til að stofna verkflæði fyrir innkaupabeiðnir, smellið á **innkaup og aðföng**.
-2.  Smellið á **Uppsetning ** &gt; **\[heiti Einingarinnar\] verkflæði**.
+2.  Smellið á **Uppsetning** &gt; **\[heiti Einingarinnar\] verkflæði**.
 3.  Á listasíðu sem birtist, á Aðgerðasvæðinu skal smellt á **Nýtt**.
 4.  Á **Stofna verkflæði** síðunni, veljið þá tegund verkflæðis sem á að stofna og smellið svo á **Stofna verkflæði**. Verkflæðisritill birtist Þú getur nú notað eftirfarandi ferli til að hanna verkflæði.
 
@@ -51,7 +52,7 @@ Til að tengja eina verkflæðiseiningu við aðra skal halda bendlinum yfir ein
 Fylgið eftirfarandi skrefum til að skilgreina eiginleika verkflæðis.
 
 1.  Smellt er á striga til að tryggja að enginn verkflæðiseiningunni er valinn.
-2.  Smellið á ** eiginleikar ** til að opna í **Eiginleika ** fyrir verkflæðið.
+2.  Smellið á **eiginleikar** til að opna í **Eiginleika** fyrir verkflæðið.
 3.  Farið að ferlinu í efninu [stilla eiginleika fyrir Verkflæði](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Skilgreinið einingar verkflæðisins

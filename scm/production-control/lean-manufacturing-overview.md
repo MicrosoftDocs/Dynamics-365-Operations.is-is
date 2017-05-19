@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 3c608f13c93446329702f07ef7e8bb08a29d87b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8cb9428ff6be93f9a395ec3085ef1fda05847a8a
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Lean-framleiðsla býður upp á verkfæri sem hægt er að nota til að móta l
 -   Fylgjast með og viðhalda kanban-vinnslur.
 
 Lean-framleiðsla í Microsoft Dynamics AX 7 samanstendur af framleiðsluflæði, verkþætti og kanban-reglur. Þetta skipulag er fyllilega samþætt við Microsoft Dynamics AX 7 ferli. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
-| **Mikilvægt **                                                                                                                                                                                                                                                                |
+| **Mikilvægt**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hægt er að nota Microsoft Dynamics AX 7 til að styðja innleiðingu lean-framleiðsla með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |
 

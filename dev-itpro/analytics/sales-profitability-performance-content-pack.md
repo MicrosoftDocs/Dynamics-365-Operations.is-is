@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og afköst arðsemisgreiningar Power BI-efni
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir því sem er innifalið í Dynamics 365 for Operations - Sölu- og arðsemi afköst innihaldi pakka fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka.
 
@@ -44,6 +48,7 @@ Hægt er að greina arðsemi eftir:
 
 ## <a name="accessing-the-content-pack"></a>Farið í efnispakkann
 Power BI efnispakki afkomu sölu og arðsemi er gefinn út sem innleiðingareign í Lifecycle Services (LCS) og er hægt að fara í úr Dynamics 365 for Operations. Nánari upplýsingar um hvernig á að fara í og opna Power BI-skýrslur er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
+**Athugið:** - KB 4011327 er forskilyrði fyrir þetta Power BI-efni. Eftir að þú skrá inn á Lifecycle Services, hefurðu aðgang að KB hér: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Mælikvarðar sem eru hafðir með í efnispakka
 Efnispakkinn inniheldur skýrslu sem samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efnispakkanum.
@@ -110,6 +115,8 @@ Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
 -   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Bæta Power BI-reitum við vinnusvæði](configure-power-bi-integration.md)
+
+
 
 
 

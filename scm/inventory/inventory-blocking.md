@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 0d7e37de63e6c63b5d7942a84de60ef8f3984cde
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e5cbafa86a15705e1ea46cf200f04d31e8759607
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -46,17 +47,17 @@ Hægt er að loka á magn af vöru með því að stofna færslu í síðunni **
 Hægt er að tilgreina vörurnar sem verða skoðaðar með því að stofna gæðapöntun á í **gæðapantanir** síðu. Þegar gæðapöntun er stofnuð er magn vöru sem tilgreint er lokað. Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar aðeins magni vara sem verður að skoða, ekki magni sem eru læst. magn vöru sem er færð inn á gæðapöntunina er magnið sem er lokað Óháð því magni sem er sent til skoðunar, eins og tilgreint er af úrtaksáætlun
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Læsa vörum með ferli sem myndar gæðapöntun
-Ef gæðaferli tilgreinir að vara verður að vera skoðuð, er magn af vörunni læst sjálfkrafa. Þessvegna, Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar bæði magni vara sem eru útilokaðar og magni vara sem verður að skoða. Ef valkosturinn ** full læsing** í **vöruúrtak** síðu er valinn er lokað fyrir fullt magn af til dæmis innkaupapöntunarlína við skoðun, óháð magni vörusýnishorns.
+Ef gæðaferli tilgreinir að vara verður að vera skoðuð, er magn af vörunni læst sjálfkrafa. Þessvegna, Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar bæði magni vara sem eru útilokaðar og magni vara sem verður að skoða. Ef valkosturinn **full læsing** í **vöruúrtak** síðu er valinn er lokað fyrir fullt magn af til dæmis innkaupapöntunarlína við skoðun, óháð magni vörusýnishorns.
 ### <a name="example"></a>Dæmi
 
-Í eftirfarandi dæmi er gæðapöntun mynduð þegar fylgiseðill innkaupapöntunar er bókaður. Í á **  gæðatengingar ** síðunni, tilgreindirðu að bókun fylgiseðils innkaupapöntunar er ferlið sem virkjar gæðapöntun.
+Í eftirfarandi dæmi er gæðapöntun mynduð þegar fylgiseðill innkaupapöntunar er bókaður. Í á **gæðatengingar** síðunni, tilgreindirðu að bókun fylgiseðils innkaupapöntunar er ferlið sem virkjar gæðapöntun.
 
 |Uppsetning                                                                     |Aðgerðir notanda                 |Niðurstaða             |
 |--------------------------------------------------------------------------|----------------------------|-------------------|
-| Gæðatenging tilgreinir að við bókun fylgiseðils innkaupapöntunar þarf að mynda gæðapöntun. Uppsetning vörusýna gæðapöntunar tilgreinir að 10% af magn í innkaupapöntunarlínu verða að vera skoðaðar. Enn fremur, afþví ** full læsing ** valkosturinn er valinn sýnir sýnishorn vörunnar að allt magnið í innkaupapöntunarlínunni verður að vera læst við skoðun óháð því magni sem er sent til skoðunar. | Fylgiseðillinn er bókaður. | Gæðapöntun er mynduð. Tíu prósent af magni innkaupapöntunar af hlutnum er sendur til skoðunar. Heildarmagn á innkaupapöntunarlínunni er lokað. |
+| Gæðatenging tilgreinir að við bókun fylgiseðils innkaupapöntunar þarf að mynda gæðapöntun. Uppsetning vörusýna gæðapöntunar tilgreinir að 10% af magn í innkaupapöntunarlínu verða að vera skoðaðar. Enn fremur, afþví **full læsing** valkosturinn er valinn sýnir sýnishorn vörunnar að allt magnið í innkaupapöntunarlínunni verður að vera læst við skoðun óháð því magni sem er sent til skoðunar. | Fylgiseðillinn er bókaður. | Gæðapöntun er mynduð. Tíu prósent af magni innkaupapöntunar af hlutnum er sendur til skoðunar. Heildarmagn á innkaupapöntunarlínunni er lokað. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Læsa vörum Með því að nota Birgðastöðulokun
-Hægt er að tilgreina hvaða birgðastöður eru lokunarstöður með því að nota **birgðalæsingu** færibreytur á í **Birgða stöður** síðu. Þú getur ekki notað birgðastöðu sem lokunar stöður fyrir framleiðslupantanir, sölupantanir, flutningspantanir, færslur á útleið eða samþættingar verks. Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef vörur með stöðuna **slitin ** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
+Hægt er að tilgreina hvaða birgðastöður eru lokunarstöður með því að nota **birgðalæsingu** færibreytur á í **Birgða stöður** síðu. Þú getur ekki notað birgðastöðu sem lokunar stöður fyrir framleiðslupantanir, sölupantanir, flutningspantanir, færslur á útleið eða samþættingar verks. Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef vörur með stöðuna **slitin** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
 
 
 

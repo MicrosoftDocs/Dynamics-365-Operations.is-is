@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: af1f4ba1ed5efe0e35d08d37d09e7ada4a4c1b7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cff74e825b4d61f538ce02f79860413281617354
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Til að setja upp ráðleggingar vöru þarf að gera eftirfarandi.
 
 1.  Gangið úr skugga um að réttur **Lögaðili** sé valinn.
 2.  Farið í **Einingaverslun** veljið **Smásala** og smellið á **Uppfæra**.** **Þá eru sýnigögn (eða þín eigin gögn) notuð úr virknifyrirtækisins og þau færð í einingaverslun.
-3.  Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið ** Útlit Skjás **útlit skjás valið, **Útlitshönnuður afgreiðsluskjás **,**opnaður, ** og svo sleppt ** stýringu leiðbeiningar ** þar sem þarf.
+3.  Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið ** Útlit Skjás **útlit skjás valið, **Útlitshönnuður afgreiðsluskjás**,**opnaður, ** og svo sleppt ** stýringu leiðbeiningar ** þar sem þarf.
 4.  Farið í **Smásölufæribreytir**, veljið **Vélnám** svo **Já **undir **virkja ráðleggingar sölustaðar**.
 5.  Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna **1110**. Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar **1070**.
 

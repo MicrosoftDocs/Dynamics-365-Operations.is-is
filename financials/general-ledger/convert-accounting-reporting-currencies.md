@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b75ac168ac6cc78d021c3e15f7a18722eeabc84c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5a23e5e123acf940627d8a555cecb9a0068bd016
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,7 +65,7 @@ Eftirfarandi upplýsingar útskýra hvar mismunur í sléttun getur komið upp:
 -   Opnar fjárhagsfærslur eru endurreiknaðar.
 -   Endanleg upphæð í stöðum fjárhagur er reiknaður.
 
-Ef verið er að umreikna í nýja fjárhagsbókhaldsgjaldmiðilinn og villa kom upp við endurútreikning á samtölu upphæða eða bókun á sléttunarmun, verður að loka síðunni ** Gjaldmiðilsumreikningur fjárhagsbókhalds**. Heildarupphæð verða síðan endurreiknuð og sléttunarmunur verður bókaður.
+Ef verið er að umreikna í nýja fjárhagsbókhaldsgjaldmiðilinn og villa kom upp við endurútreikning á samtölu upphæða eða bókun á sléttunarmun, verður að loka síðunni **Gjaldmiðilsumreikningur fjárhagsbókhalds**. Heildarupphæð verða síðan endurreiknuð og sléttunarmunur verður bókaður.
 
 ## <a name="processing-the-currency-conversion"></a>Vinna úr gjaldmiðilsumreikningi
 Þegar umreikningsferli gjaldmiðils er ræst verða allir notendur að skrá sig út úr kerfinu. Skilgreina°þarf nýjan fjárhag eða skýrslugjaldmiðil og gengi. Þegar smellt er á **Í lagi**, keyrir ferlið og uppfærir hverja færslu í kerfinu. Umreikningur á gjaldmiðli er mjög langt ferli. Þegar því er lokið, sést að bókhald eða skýrslugjaldmiðill er uppfært á síðunni **Fjárhagur**.
@@ -75,7 +76,7 @@ Allar afstemmingarskýrslur þurfa að vera virkjaðar aftur eftir umreikning ti
 -   Ef breyting á fjárhagsbókhaldsgjaldmiðli veldur sléttunarmun, er sá mismunur ekki bókaður með því fylgiskjali þar sem sléttunarmismunur varð. Í staðinn er mismunurinn bókaður með fylgiskjali sem fært var inn fyrir umreikningsbókun. Eftir umreikning munu allar skýrslur sem villuleita eftir fylgiskjali og dagsetningu innihalda sléttunarmuninn. Þetta er rétt og má hunsa.
 -   Ef afstemmingarskýrslur viðskiptavinar og lánardrottins sýna sitthvora upphæð í samtalslínu og enginn munur var fyrir umreikninginn þarf að bóka upphæðamismuninn. Lykillinn er safnlykill fyrir viðskiptavini og lánardrottna. Mótlykillinn er fjárhagslykill fyrir tap í umreikningi eða gróða í umreikningi.
 
-Þegar öllum fjárhagsfærslubókum hefur verið eytt, er hægt að skrá fjárhagsfærslur aftur. Smellt er á **Fjárhagur** &gt; **Tímabils** &gt; **bækur ** &gt; **Færslubókaskráning**. Hægt er að endurmeta upphæðir í erlendum gjaldmiðli eftir gjaldmiðilsumreikning, ef þörf er á endurmati. Upphæðir eru endurmetnar í erlendum gjaldmiðli með því að velja **Staðlað** í svæðinu **Aðferð** fyrir endurmat.
+Þegar öllum fjárhagsfærslubókum hefur verið eytt, er hægt að skrá fjárhagsfærslur aftur. Smellt er á **Fjárhagur** &gt; **Tímabils** &gt; **bækur** &gt; **Færslubókaskráning**. Hægt er að endurmeta upphæðir í erlendum gjaldmiðli eftir gjaldmiðilsumreikning, ef þörf er á endurmati. Upphæðir eru endurmetnar í erlendum gjaldmiðli með því að velja **Staðlað** í svæðinu **Aðferð** fyrir endurmat.
 
 
 

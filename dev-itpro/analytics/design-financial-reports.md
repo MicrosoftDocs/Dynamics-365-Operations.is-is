@@ -1,7 +1,7 @@
 ---
 title: "Skoða og setja upp fjárhagsskýrslur"
-description: "Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Dynamics 365 for Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrsla."
-author: twheeloc
+description: "Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 22. Úr skýrsluskilgreiningunni **Ítarlegur prófjöfnuður með eigindum** skal velja Ítarlegur prófjöfnuður með eigindum fyrir bæði línuskilgreininguna og línuskilgreininguna.
 23. Breyta grunnárinu í **2012.**
 24. **Vista** skýrsluskilgreiningu og **mynda**. Þegar skýrslan lýkur myndun og opnast er hægt að skoðið skýrsluna eins og gert var í fyristu æfingu. Kafaðu niður á mismunandi lyklka til að sjá hvernig viðbótareigindir eru birtar.
-25. Lokaðu skýrslunni **Ítarlegur prófjöfnuður með eigindir **.
+25. Lokaðu skýrslunni **Ítarlegur prófjöfnuður með eigindir**.
 26. Lokaðu **Skýrsluhönnuninni**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Æfing 3: Stofna fjölvíddaskýrslu með skipuriti
@@ -141,7 +142,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 1.  Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
 2.  Veldu línuna fyrir skýrslu sem ber heitið **Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefin**
 3.  Veljið **Breyta**. **Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefin** opnar í skýrsluhönnun.
-4.  Velja **Skrá ** &gt; **Vista Sem** og heiti skýrslu **Sameinaðir Efnahagsreikningar og rekstrarreikningar hlið við hlið**.
+4.  Velja **Skrá** &gt; **Vista Sem** og heiti skýrslu **Sameinaðir Efnahagsreikningar og rekstrarreikningar hlið við hlið**.
 5.  Breyta grunnárinu í 2012.
 6.  Smellið á felliörina Gerð trés og veljið **Stigveldi fyrirtækis**.
 7.  Smellið á felliörina Gerð trés og veljið **Contoso Holdings**.
@@ -165,7 +166,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 6.  Tvísmelltu í reitinn **Víddarafmörkun**.
 7.  Í glugganum **Vídd** tvísmellirðu á dálkinn **Deild**.
 8.  Í Einstaka eða afmörkun hluta svarglugganum, smellið á **úrfellingarmerkið** svo að  reiturinn **Úr** birti lista yfir deildir.
-9.  Velja deild **022**, **Sala og markaðssetning** og smellið síðan á** í lagi**.
+9.  Velja deild **022**, **Sala og markaðssetning** og smellið síðan á**í lagi**.
 10. Endurtaka skal þrep 5 til 8 fyrir deildir 23-25.
 11. Í línu **Haus 2** fyrir hvern FD-dálk skal slá inn eftirfarandi deildalýsingar:
     -   Dálkur B – Sala og markaðssetning
@@ -182,8 +183,8 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 18. **Vista** breytingarnar og **mynda**. Eftir að skýrslan lýkur myndun og opnast er hægt að skoða skýrsluna.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Fjárhagsskýrslugerð](\financials\general-ledger\financial-reporting-getting-started.md) 
-[ Skoða fjárhagsskýrslur](\financials\general-ledger\view-financial-reports.md) 
+[Fjárhagsskýrslugerð](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[ Skoða fjárhagsskýrslur](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

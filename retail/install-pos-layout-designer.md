@@ -18,26 +18,30 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Setja upp Retail POS útlitshönnuður
 
+[!include[banner](includes/banner.md)]
+
+
 Nota má eins-smells hönnuð til að hanna mismunandi Retail Modern POS (MPOS) og Cloud POS útlit, í hamnum lárétt eða lóðrétt, fyrir verslanir, afreiðslukassa, gjaldkerar og stjórnendur.
 
 Grafískri hönnun Retail POS viðmótsins er stýrt af Útliti skúffu. Útlit stýrir staðsetningu mismunandi hluta. Dæmi eru útliti samtalna, útliti vöruhnits, útliti viðskiptavinar, útlit greiðslu og útlit ýmsum valmyndarhnöppum. Útlit innifelur einnig heildar útliti söluviðmóts sem birtist starfsmenn.
 
-## <a name="install-the-oneclick-designer"></a>Setja upp ins-smells hönnuð
+## <a name="install-the-one-click-designer"></a>Setja upp eins-smells hönnuð
 1.  Í Microsoft Dynamics 365 for Operations, nota valmyndinni í efri vinstri til að fletta að **Smásala** **og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Sölustaður** &gt; **Útlit skjás**.
 2.  Veljið hvaða útlit sem er sem er með gerð forrits **Modern POS fyrir Windows** eða **Cloud POS**, og smellið síðan á **útlitshönnuður**.
 3.  Á Tilkynningarslá sem mun birtast neðst í Internet Explorer glugganum , smellið á **Opna** til að setja upp eins-smells hönnuð. (Tilkynningaslá gætu birst í aðra Staður í öðrum vöfrum).
-4.  Í **Keyra Forritið - Öryggisviðvörun** skilaboð sem birtast skal smella á **Keyra ** til að setja upp hýsil fyrir smásöluhönnuð. Framvinduvísir sem sýnir framvindu uppsetningar.
-5.  Eftir að uppsetningu er lokið á síðunni **innskráning** skal færa inn Microsoft Dynamics 365 for Operations notandanafn og aðgangsorð, og smellið svo á **Innskráningu ** til að hefja hönnuðurinn.
+4.  Í **Keyra Forritið - Öryggisviðvörun** skilaboð sem birtast skal smella á **Keyra** til að setja upp hýsil fyrir smásöluhönnuð. Framvinduvísir sem sýnir framvindu uppsetningar.
+5.  Eftir að uppsetningu er lokið á síðunni **innskráning** skal færa inn Microsoft Dynamics 365 for Operations notandanafn og aðgangsorð, og smellið svo á **Innskráningu** til að hefja hönnuðurinn.
 6.  Eftir að skilríkin þín eru villuleitaðar og hönnuður hefst er hægt að hanna þitt eigið útlit eða breyta fyrirliggjandi útliti. [![Setja upp eins-smells hönnuð](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Úrræðaleit vegna uppsetningar á útlitshönnuður
@@ -52,5 +56,7 @@ Grafískri hönnun Retail POS viðmótsins er stýrt af Útliti skúffu. Útlit 
 --------
 
 [Skilgreina, sækja, setja upp og virkja Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

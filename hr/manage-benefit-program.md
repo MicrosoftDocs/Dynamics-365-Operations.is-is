@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 9d00d8f6dfa075f53473af31c257deb57c9efa86
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa28ece8b18fba11bfa4af2fe785fbe5047965e3
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,13 +44,13 @@ Mannauður býður upp á verkfæri til að setja upp og viðhalda fríðindi, f
 ## <a name="benefit-elements"></a>Fríðindaeiningar
 Áður en byrjað er stofna fríðindi og skrá starfsmenn í þær verður að skilgreina einingar sem mynda fríðindi: gerð, áætlun, og valkosti.
 
--   **Gerð ** – Safn áætlana fyrir tiltekin fríðindi, eins og læknisþjónusta eða bílastæði.
--   **Áætlun ** – Tiltekin fríðindi sem er fenginn samkvæmt samningi frá veitanda.
--   **Valkostur ** – Tryggingarstig, svo sem starfsmaður eingöngu eða starfsmaður og maki.
+-   **Gerð** – Safn áætlana fyrir tiltekin fríðindi, eins og læknisþjónusta eða bílastæði.
+-   **Áætlun** – Tiltekin fríðindi sem er fenginn samkvæmt samningi frá veitanda.
+-   **Valkostur** – Tryggingarstig, svo sem starfsmaður eingöngu eða starfsmaður og maki.
 
 Fyrir hverja fríðindagerð, eins og sjón eða tannlæknaþjónusta, getur fyrirtæki hægt bjóða einum eða fleiri áætlunum starfsmönnum sínum. Fyrir hverja áætlun getur fyrirtækið boðið mismunandi valkostir. Starfsmenn geta til dæmis kaupa viðbótar líftryggingar sem þekja eitt, tvö eða þrisvar sinnum árleg laun þeirra. Hver samsetning áætlunar og valkosta verða fríðindi sem starfsmenn geta skrá sig í. 
 
-[![benefit pic](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![fríðindamynd](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Hæfni
 Mörgum þáttum ákvarða hæfni starfsmanns fyrir mismunandi gerðir af fríðindum sem vinnuveitandi býður uppá. Þegar fríðindi eru stofnuð í Microsoft Dynamics 365 for Operations er hægt að stilla hæfnigerð sem á við sem fríðindin. 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c59f82103371ca1a8d43a7dba22213cdd8b13c3c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7c51d5505ead8e18f17917a4a02c2e0ee8265516
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,11 +36,11 @@ ms.lasthandoff: 03/31/2017
 
 Beinar afhendingar sparar afhendingartíma og birgðakostnaður, vegna þess að þú þarft ekki að hafa afurðirnar í vöruhúsinu áður en þú sendir þær til viðskiptavinarins.  
 
-Hægt er að stofna beinar afhendingar úr ** sölupöntun**  síðu. Fyrst skal Stofna sölupöntun og pöntunarlínur Þá er farið í Aðgerðarúða og á flipann **sölupöntun** og smellt á **bein afhending** Að lokum, Tilgreina línur sem þarf að meðhöndla sem beina afhendingu. Tenging er núna stofnuð á milli sölupöntunarlínu fyrir beina afhendingu og samsvarandi innkaupapöntunarlína.  
+Hægt er að stofna beinar afhendingar úr **sölupöntun**  síðu. Fyrst skal Stofna sölupöntun og pöntunarlínur Þá er farið í Aðgerðarúða og á flipann **sölupöntun** og smellt á **bein afhending** Að lokum, Tilgreina línur sem þarf að meðhöndla sem beina afhendingu. Tenging er núna stofnuð á milli sölupöntunarlínu fyrir beina afhendingu og samsvarandi innkaupapöntunarlína.  
 
 **Athugasemd** Ef hluti af pöntuðu magni hefur þegar verið afhent, verður að skipta eftirstandandi magn. Stofna nýja línu með því magni sem þarf að afhenda beint og draga það magn af magninu í upphaflegu línunni. Til dæmis, ef upphaflega magnið var 15 og fimm hafa verið afhent, verður að stofna nýja línu fyrir eftirstöðvar 10 og minnka upphaflegt magn um þá upphæð.  
 
-Eftir að búið er að stofna beina afhendingartengilinn á milli sölupöntunarlínanna og innkaupapöntunarinnar er hægt að uppfæra sölupöntun með fylgiseðli. Keyra annað hvort fylgiseðilsuppfærslu eða reikningsuppfærslu úr innkaupapöntuninni. Þú þarft að reikningsfæra sölupöntun úr **  sölupöntun** skjámynd. Uppfærsla reiknings má ekki valda því að magnið á sölupöntun verði meira magn en það magn sem hefur verið skráð sem móttekið. Til dæmis sölupöntunarlínu er með 10 stykki, en aðeins fimm hlutar úr sölupöntunarlínu hafa verið uppfærðar með fylgiseðli. Ef valið er **  allt ** í á **  magn ** listanum þegar þú uppfærir reikning sölupöntunar, einungis þær vörur sem hafa verið efnislega mótteknar, eða uppfærðar með fylgiseðli, eru reikningsuppfærðar. Heila sölupöntunarlínunni er ekki uppfærð.
+Eftir að búið er að stofna beina afhendingartengilinn á milli sölupöntunarlínanna og innkaupapöntunarinnar er hægt að uppfæra sölupöntun með fylgiseðli. Keyra annað hvort fylgiseðilsuppfærslu eða reikningsuppfærslu úr innkaupapöntuninni. Þú þarft að reikningsfæra sölupöntun úr **sölupöntun** skjámynd. Uppfærsla reiknings má ekki valda því að magnið á sölupöntun verði meira magn en það magn sem hefur verið skráð sem móttekið. Til dæmis sölupöntunarlínu er með 10 stykki, en aðeins fimm hlutar úr sölupöntunarlínu hafa verið uppfærðar með fylgiseðli. Ef valið er **allt** í á **magn** listanum þegar þú uppfærir reikning sölupöntunar, einungis þær vörur sem hafa verið efnislega mótteknar, eða uppfærðar með fylgiseðli, eru reikningsuppfærðar. Heila sölupöntunarlínunni er ekki uppfærð.
 
 ## <a name="delivery-date"></a>Afhendingardagsetning
 þegar svæðið **umbeðin móttökudagsetning** á sölupöntunarlína er uppfært eru svæðin **afhendingardagur** og  á samsvarandi sölupöntunarlínum einnig uppfærð. Á sama hátt þegar svæðið **staðfesta** á innkaupapöntunarlínunni er uppfært eru svæðin **staðfest móttökudagsetning** og **staðfest sendingardagsetning** á samsvarandi sölupöntunarlínum einnig uppfærð.

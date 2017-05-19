@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,13 +49,13 @@ Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursen
 
 Þegar kauptilboð berast þarf að færa þau í **Svör við BUT** síðu. Ef valið er **Afrita gögn í svar** valkosturinn, eru gögn eins og magn og dagsetningar úr BUT afritaðar í svarið. Hægt er að breyta þessum gögnum til að endurspegla kauptilboð lánardrottins.  
 
-Ef önnur ítrekun svars er krafist fyrir tiltekna lánardrottna, smellið á **Skila **á ** Svör við BUT** síðu. Skilaaðgerð myndar nýja færslubók og skýrslu sem verða prentaðar, skjalaðar og send, í samræmi við prentstýringarstillingarnar.  
+Ef önnur ítrekun svars er krafist fyrir tiltekna lánardrottna, smellið á **Skila**á **Svör við BUT** síðu. Skilaaðgerð myndar nýja færslubók og skýrslu sem verða prentaðar, skjalaðar og send, í samræmi við prentstýringarstillingarnar.  
 
-Ef skilyrði fyrir stigagjöf er bætt við BUT málið skal BUT svarið hafa vettvang fyrir stigagjöf þar sem hægt er að færa inn stig. Samtals stig birtast þegar borin eru saman svör á siðuni **bera Saman svör **, þar sem hægt er að bera saman önnur svargögn, svo sem línuverð, afhendingardag og heildarverð.  
+Ef skilyrði fyrir stigagjöf er bætt við BUT málið skal BUT svarið hafa vettvang fyrir stigagjöf þar sem hægt er að færa inn stig. Samtals stig birtast þegar borin eru saman svör á siðuni **bera Saman svör**, þar sem hægt er að bera saman önnur svargögn, svo sem línuverð, afhendingardag og heildarverð.  
 
 Eftir að kauptilboð eða hluti af kauptilboði hefur verið skilgreint er hægt að samþykkja það og hafna afganginum. Samþykki á færslubókum, höfnun færslubækur og samsvarandi skýrslur eru myndaðar. Þær verða prentaðar, skjalaðar og sendar í samræmi við prentstýringarstillingarnar. Þegar þú samþykkir kauptilboð eða tilteknar línur í kauptilboði, er annaðhvort innkaupasamningur eða innkaupapöntun mynduð eða innkaupabeiðni er uppfærð, það fer eftir gerð BUT innkaupanna. Hægt er að stofna verðsamninginn sem hægt er að nota síðar fyrir hvaða svör sem er, óháð því hvort þau voru samþykkt eða þeim hafnað.  
 
-Staða BUT kemur fram í BUT hausnum og fer eftir stöðu BUT-línanna. Staðan tilgreinir að hversu miklu leyti búið er að vinna BUT. Hver beiðni um TILBOÐ hefur tvö gildi fyrir stöðu: lægstu og hæstu. Lægsta staða er ítarlega kosti stig línu í beiðni um TILBOÐ og hæsta staðan er oftast ítarlega stig línu í beiðni um TILBOÐ. Til dæmis, ef minnst ítarlegt stig í BUT er fyrir línu sem hefur verið stofnuð, er lægsta staða fyrir BUT **mynduð ** . Ef mest ítarlega stig í BUT er fyrir línu sem hefur verið send til lánadrottna, er hæsta staða fyrir BUT **Sent** . Staða er uppfærð sjálfkrafa sem er að vinna beiðni um TILBOÐ.  
+Staða BUT kemur fram í BUT hausnum og fer eftir stöðu BUT-línanna. Staðan tilgreinir að hversu miklu leyti búið er að vinna BUT. Hver beiðni um TILBOÐ hefur tvö gildi fyrir stöðu: lægstu og hæstu. Lægsta staða er ítarlega kosti stig línu í beiðni um TILBOÐ og hæsta staðan er oftast ítarlega stig línu í beiðni um TILBOÐ. Til dæmis, ef minnst ítarlegt stig í BUT er fyrir línu sem hefur verið stofnuð, er lægsta staða fyrir BUT **mynduð** . Ef mest ítarlega stig í BUT er fyrir línu sem hefur verið send til lánadrottna, er hæsta staða fyrir BUT **Sent** . Staða er uppfærð sjálfkrafa sem er að vinna beiðni um TILBOÐ.  
 
 Hægt er að skoða lægstu og hæstu stöðu fyrir BUT- haus á síðunni **Allar beiðnir um tilboð**. Hægt er að skoða lægstu og hæstu stöðu fyrir BUT-línu á flipanum **Línur** á síðunni **Beiðni um tilboð**.  
 
@@ -107,7 +108,7 @@ Ef BUT er af gerðinni **Innkaupasamningur**:
 -   BUT er notað sem samningur um að kaupa ákveðið magn eða virði vöru yfir tíma. Ef valin er þessi gerð innkaupa þarf að velja dagsetningasvið sem á við innkaupasamninginn og nafn þess einstaklings sem hefur umsjón með innkaupasamningnum.
 -   Þegar kauptilboð er samþykkt, er innkaupasamningur myndaður.
 
-Þú getur aðeins stofnað BUT úr innkaupabeiðni ef staða innkaupabeiðninnar er **í yfirferð **og  næsta verkflæðisverki er úthlutað á þig. Línur í innkaupabeiðninni eru uppfærðar sjálfkrafa þar sem hægt er að samþykkja línur úr svörum við BUT (kauptilboð) sem voru mótteknar frá lánardrottnum. Ekki er hægt að framkvæma aðgerðir í innkaupabeiðninni á borð við að ljúka henni, hafna eða samþykkja á meðan BUT er í vinnslu.  
+Þú getur aðeins stofnað BUT úr innkaupabeiðni ef staða innkaupabeiðninnar er **í yfirferð**og  næsta verkflæðisverki er úthlutað á þig. Línur í innkaupabeiðninni eru uppfærðar sjálfkrafa þar sem hægt er að samþykkja línur úr svörum við BUT (kauptilboð) sem voru mótteknar frá lánardrottnum. Ekki er hægt að framkvæma aðgerðir í innkaupabeiðninni á borð við að ljúka henni, hafna eða samþykkja á meðan BUT er í vinnslu.  
 
 Þegar BUT er stofnað er hægt að velja tiltekna gerð beiðni. Gerð beiðni ákvarðar safn skilyrða sem notuð er til að stiga svör við BUT.  
 
@@ -127,13 +128,13 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT þegar BUT er stofnuð og send t
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Aðgerð**                         | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT**                   | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
+| **Aðgerð**                         | **Lægsta hausstaða BUT** | **Hæsta hausstaða BUT**                   | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Stofna beiðni um TILBOÐ hauss og línu.    | Stofnaður                      | Stofnaður                                         | Stofnaður                    | Stofnaður                     |
 | Senda beiðni um tilboð á tiltekinn lánardrottin. | Sent                         | Sent                                            | Sent                       | Sent                        |
 | Bæta við öðrum lánardrottni.                | Stofnaður                      | Sent (BUT hefur aðeins verið send til eins lánardrottins.) | Stofnaður                    | Sent                        |
 | Senda tilboðsbeiðni til síðari lánardrottins. | Sent                         | Sent                                            | Sent                       | Sent                        |
 
-**Ábending:** Hægt er að bæta fleiri lánardrottnum við BUT hvenær sem er og lægsta og hæsta staða breytast til að endurspegla lánardrottna sem var bætt við. Til dæmis, ef kauptilboð er móttekið frá öllum lánadrottnum og minnst ein lína kauptilboðs er samþykkt er lægsta staða í haus BUT **Hafnað**, og hæsta staðan er **Samþykkt**. Ef bætt er við nýjum lánardrottni er lægsta staða í línu nú **Stofnað**. Þess vegna breytist lægsta staða í haus BUT í **Stofnað **,og hæsta staða helst **Samþykkt** .
+**Ábending:** Hægt er að bæta fleiri lánardrottnum við BUT hvenær sem er og lægsta og hæsta staða breytast til að endurspegla lánardrottna sem var bætt við. Til dæmis, ef kauptilboð er móttekið frá öllum lánadrottnum og minnst ein lína kauptilboðs er samþykkt er lægsta staða í haus BUT **Hafnað**, og hæsta staðan er **Samþykkt**. Ef bætt er við nýjum lánardrottni er lægsta staða í línu nú **Stofnað**. Þess vegna breytist lægsta staða í haus BUT í **Stofnað**,og hæsta staða helst **Samþykkt** .
 
 ## <a name="amending-an-rfq"></a>Að laga BUT
 Einstaka sinnum þarf að breyta BUT þegar búið er að senda hana. Þetta getur gerst vegna þess, að til dæmis afhendingardagsetningum hefur verið breytt eða um er að ræða fleiri vörur eða annað magn vöru. Hægt er að skilgreina ferli breytingar þannig að það er annað hvort meira eða minna takmarkandi.  
@@ -157,7 +158,7 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT eftir því sem kauptilboð eru 
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Aðgerð**                                     | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
+| **Aðgerð**                                     | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Skrá í tilboð lánardrottins, og vista.        | Sent                  | Móttekið               | Sent                         | Móttekið                      | Sent                       | Móttekið                    |
 | Skrá annað tilboð lánardrottins og vista það. | Móttekið              | Móttekið               | Móttekið                     | Móttekið                      | Móttekið                   | Móttekið                    |
 
@@ -186,7 +187,7 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT þegar kauptilboð frá lánardr
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Aðgerð**              | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT ** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
+| **Aðgerð**              | **Staða lægsta boðs** | **Staða hæsta boðs** | **Lægsta hausstaða BUT** | **Hæsta hausstaða BUT** | **Lægsta línustaða BUT** | **Hæsta línustaða BUT** |
 | Samþykkja eitt af tilboðunum. | Móttekið              | Samþ.                 | Móttekið                     | Samþ.                        | Móttekið                   | Samþ.                      |
 | Hafna öðrum kauptilboðum.  | Hafnað              | Samþ.                 | Hafnað                     | Samþ.                        | Hafnað                   | Samþ.                      |
 

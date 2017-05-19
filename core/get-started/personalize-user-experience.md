@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Allar sérstillingar, af hvaða tagi sem er, sem notandi gerir í Dynamics 365 f
 ## <a name="systemwide-options-for-the-current-user"></a>Kerfisaltækir valkostir fyrir núverandi notanda
 Í yfirlitsstiku finnurðu mynd af tannhjóli, sem kallast valmyndarhnappurinn **Stillingar**. Opnun valmyndarinnar **Stillingar** mun sýna fjölda valkosta. Val á **Valkostir** opnar síðuna **Valkostir** notanda. Þar finnurðu fjóra valkostaflipa: **Visual**, **Kjörstillingar**, **Lykil** og **Verkflæði**.
 
--   **Visual: **Notað til að velja litaþema og sjálfgefin stærð einingar á síðum fyrirtækisins.
--   **Kjörstillingar: **Hér er hægt að velja sjálfgildi fyrir hvert sinn sem Dynamics 365 for Operations er opnað, þ.m.t. fyrirtækið, upphafssíðu og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opinn til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
--   **Lykill: **Notað til að veita Notandakenni og aðra lykiltengda valkosti.
--   **Verkflæði: **Hér er hægt er að velja erkflæðistengda valkosti.
+-   **Visual:** Notað til að velja litaþema og sjálfgefin stærð einingar á síðum fyrirtækisins.
+-   **Kjörstillingar:**Hér er hægt að velja sjálfgildi fyrir hvert sinn sem Dynamics 365 for Operations er opnað, þ.m.t. fyrirtækið, upphafssíðu og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opinn til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
+-   **Lykill:**Notað til að veita Notandakenni og aðra lykiltengda valkosti.
+-   **Verkflæði:**Hér er hægt er að velja erkflæðistengda valkosti.
 
 ## <a name="implicit-personalizations"></a>Óbeinar sérstillingar
 Óbeinar sérstillingar eru þær sérstillingar sem eru framkvæmdar einfaldlega með notkun ákveðinna stýringa sem muna núverandi stöðu sína. 
@@ -106,7 +107,7 @@ Sum vinnusvæða innihalda talningarreiti (reitir með númerum á þeim) sem þ
 Stjórnborðið er oft fyrsta síðan sem birtist þegar Dynamics 365 fyrir Operations er opnað. Hægt er að sérsníða stjórnborðið til að endurnefna yfirlitsreiti vinnusvæðis, til að sýna aðeins þá reiti sem þú vilt sjá, endurnefna reiti eða til að hagræða reitum í þeirri röð sem þú vilt sjá þá. Til að sérsníða stjórnborð skal velja hvaða reit sem er og hægrismella til að opna valmynd samhengi. Í samhengisvalmyndinni velurðu **Aðlaga**. Ef valinn reitur er sá sem á að fela eða endurnefna eða sleppa er hægt að gera þá breytingu beint í glugga Eiginleika sem hefur birst. Ef óskað er að raða reitir, veljið síðan **Aðlaga þessa skjámynd** í glugganum Eiginleika til að opna tækjastiku Sérsnið. Síðan er hægt að nota verkfærið Flytja til að raða reitunum.
 
 ## <a name="administration-of-personalization"></a>Stjórnun sérstillinga
-Mögulegt er að sérsníða síðu og deila henni með öðrum notendum með því einfaldlega að flytja út sérsniðna síðu og biðja aðra notendur að fara á sérsniðnu síðuna og flytja sérsniðna skrána sem hefur verið stofnuð. Ef notandi hefur stjórnunarréttindi getur hann einnig stjórnað sérstillingum fyrir aðra notendur á síðunni **Uppsetning sérsniðs**. Fara á síðu b. Á síðunni **Aðlögun** sérðu tvo flipa, einn er merktur **Kerfið** og hinn ** Notendur**. 
+Mögulegt er að sérsníða síðu og deila henni með öðrum notendum með því einfaldlega að flytja út sérsniðna síðu og biðja aðra notendur að fara á sérsniðnu síðuna og flytja sérsniðna skrána sem hefur verið stofnuð. Ef notandi hefur stjórnunarréttindi getur hann einnig stjórnað sérstillingum fyrir aðra notendur á síðunni **Uppsetning sérsniðs**. Fara á síðu b. Á síðunni **Aðlögun** sérðu tvo flipa, einn er merktur **Kerfið** og hinn **Notendur**. 
 
 **Kerfið:** Þetta er þar sem hægt er að afvirkja tímabundið eða „slökkva“ á öllum sérstillingum í kerfinu. Þetta eyðir ekki sérstillingunum, en endurstillir í staðinn allar skjámyndir á sjálfgildi þeirra. Seinna er hægt að endurvirkja sérsnið svo að allar sérstillingar séu aftur notaðar fyrir skjámyndir hvers notanda. Einnig er hægt að eyða öllum sérstillingum fyrir alla notendur. Athugið að þegar sérstilingum er eytt er engin leið til að endurvirkja sérstillingar sjálfvirkt úr kerfinu. Gakktu úr skugga um að þú hafir flutt út þær sérstillingar sem hægt er að flytja út síðar áður en þetta skref er framkvæmt. 
 

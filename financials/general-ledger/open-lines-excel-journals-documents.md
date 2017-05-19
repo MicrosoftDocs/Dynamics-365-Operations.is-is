@@ -3,7 +3,7 @@ title: "Birta færslubókarlínur og skjöl úr Excel"
 description: "Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línur fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 087339cb3002b42bcb985c2ccfc2d97c752a817c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9726c61b69f79bdd56803ced4c06044dd517ac13
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Birta færslubókarlínur og skjöl úr Excel
+
+[!include[banner](../includes/banner.md)]
+
 
 Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línur fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn.
 
@@ -46,7 +50,9 @@ Notendur geta fært inn og birt línur fyrir fjárhagsbækur úr Microsoft Excel
 
 Þegar línur eru birtar eru þær villuleitaðar til að tryggja að þær samræmist reglum sem eru settar upp í fjárhagsbækur. Eftir að línur eru birtar geta notendur breytt eða birt fylgiskjöl úr Microsoft Dynamics 365 for Operations. 
 
-Til að bæta fjárhagsvíddum við sniðmát eru frekari breytingar nauðsynlegar. Nánari upplýsingar er að finna í [Víddum bætt við Microsoft Excel-sniðmát](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Eftir að víddum er bætt við eininguna, eru þær tiltæk í Excel hönnuði og hægt að bæta þeim við sniðmátið.
+Til að bæta fjárhagsvíddum við sniðmát eru frekari breytingar nauðsynlegar. Nánari upplýsingar er að finna í [Víddum bætt við Microsoft Excel-sniðmát](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates). Eftir að víddum er bætt við eininguna, eru þær tiltæk í Excel hönnuði og hægt að bæta þeim við sniðmátið.
+
+
 
 
 

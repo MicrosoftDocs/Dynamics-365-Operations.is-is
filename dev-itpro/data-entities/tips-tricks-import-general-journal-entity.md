@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 81a52acd1d9baa12fcfe9d848441901894fa5682
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3f13e07a1adf74982a8b220296ae72d71075e0e3
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,7 +65,7 @@ Eftirfarandi kaflar lýsa áhrif þessara stillinga og einnig útskýrir hvernig
 <!-- -->
 
 -   Þegar ekki er notuð stillingin **samstæðubyggð úrvinnsla** þarf ekki að gefa upp neitt númer fylgiskjals í innfluttu skránni. Fylgiskjalsnúmer eru stofnaðar við innflutning, byggt á uppsetningu færslubókarheitis (**Eitt fylgiskjal einungis**, **í samhengi við jöfnun**og svo framvegis). Til dæmis, ef færslubókarheiti er skilgreint sem **í samhengi við jöfnun**, fær fyrsta lína nýtt sjálfgefið fylgiskjalsnúmer. Kerfið metur síðan línu til að ákvarða hvort debet er jafn mikið og kredit. Ef mótlykill er til staðar í línunni, fær næstu línu sem flutt er inn nýtt fylgiskjalsnúmer. Ef enginn mótlykill er til staðar, metur kerfið hvort debet er jafn mikið og kredit um leið og hver ný lína er innflutt.
--   Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð ** stilling fyrir reitinn **Fylgiskjalsnúmer ** er ekki studd.
+-   Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð** stilling fyrir reitinn **Fylgiskjalsnúmer** er ekki studd.
 
 Sjálfgefið er að Eining Almennrar færslubókar noti samstæðubyggð úrvinnsla. Eftir að þú metur viðskiptaþarfir í þínu fyrirtæki, er hægt að breyta **samstæðubyggð úrvinnsla** stillingu með því að smella á **gagnaeiningar** í á **gagnastjórnun** vinnusvæði. Samstæðubyggð úrvinnsla er notuð til að flýta innflutningsferlinu. Ef þú notar ekki samstæðubyggð úrvinnsla, verður innflutningur einingar Almennrar færslubókar hægvirkari.
 

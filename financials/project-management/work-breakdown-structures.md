@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 1666691ec122e65128b74056817a0c40551f49b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c85c90feb7f314db6b47f64402f8b9455ed53d9d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Til að setja upp vinnutíma fyrir dagatal vinnudaga og eða stofna nýtt dagata
 Til að nota alla getu kostnaðarmats WBS þarf að setja upp kostnað og söluverð fyrir starfsmenn, tegundir af vinnu, kostnað, og þóknanir og vörur.
 
 -   Til að setja upp kostnað og söluverð vinnu-, útgjalda-og þóknunartegundir skal smella á **Verkefnastjórnun og bókhald** &gt; **Uppsetningu** &gt; **Verð**.
--   Til að setja upp kostnað og söluverð vara skal nota síðuna **Viðskiptasamningar **fyrir hverja vöru á listasíðunni **Útgefnum afurðum** í Upplýsingar um afurðarstjórnun.
+-   Til að setja upp kostnað og söluverð vara skal nota síðuna **Viðskiptasamningar**fyrir hverja vöru á listasíðunni **Útgefnum afurðum** í Upplýsingar um afurðarstjórnun.
 
 ## <a name="creating-a-wbs"></a>Stofna sundurliðun verkþátta
 Stofnun sundurliðunar verkþátta felur í sér þrjár aðgerðir:
@@ -164,7 +165,7 @@ Færslugerðin **Áfangareikningur** er notuð til að skrá samningsbundið sö
 
 **Meta kostnað í kostnaðarskýrslu og efni** Flipinn **Áætlaður kostnaður og tekjur** gerir þér einnig kleift að meta útgjöld og efniskostnað fyrir verk, ef þörf er á mati. 
 
-Kostnaðar- og söluverð fyrir hverja línu vinnu- eða útgjaldamats eru byggð á uppsetningu sem er skilgreind fyrir hverja tegund í verðlagningartöflum í **Verkefnastjórnun og bókhald** &gt; ** Uppsetningu** &gt; **Verðlagning**. Fyrir vörur er kostnaði og söluverði vara sjálfkrafa bætt við úr vöru- eða viðskiptasamningum á listasíðunni **Losaðar afurðir** í stjórnum afurðaupplýsinga.
+Kostnaðar- og söluverð fyrir hverja línu vinnu- eða útgjaldamats eru byggð á uppsetningu sem er skilgreind fyrir hverja tegund í verðlagningartöflum í **Verkefnastjórnun og bókhald** &gt; **Uppsetningu** &gt; **Verðlagning**. Fyrir vörur er kostnaði og söluverði vara sjálfkrafa bætt við úr vöru- eða viðskiptasamningum á listasíðunni **Losaðar afurðir** í stjórnum afurðaupplýsinga.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Rakning framvindu á WBS
 Sumar atvinnugreinar rekja framvindu verks gagnvart WBS á mjög grófan hátt en aðrar rekja framvindu á hærra stigi í WBS. Þessi hluti lýsir því hvernig hægt er að nota WBS fyrir kröfur verks. 

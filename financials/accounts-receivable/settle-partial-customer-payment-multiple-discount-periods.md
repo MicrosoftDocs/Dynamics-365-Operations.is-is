@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,13 +52,13 @@ April getur skoðað þessa færslu á síðunni **viðskiptavinarfærslur**.
 | FTI-10030 | Reikningur          | 6/25/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>hlutagreiðsla fyrir dagsetningu staðgreiðsluafsláttar
-Á 28. Júní gerir Viðskiptavinur 4031 hlutagreiðslu uppá 294.00. Þar sem 28. Júní er innan fyrsta tímabilsins staðgreiðsluafsláttar, tekur viðskiptavinar 6.00 afslátt. Á **Jafna færslur** síðu í** upphæð staðgreiðsluafsláttar** gildi er 20,00, og **upphæð staðgreiðsluafsláttar sem á að taka** gildi er 6.00 .
+Á 28. Júní gerir Viðskiptavinur 4031 hlutagreiðslu uppá 294.00. Þar sem 28. Júní er innan fyrsta tímabilsins staðgreiðsluafsláttar, tekur viðskiptavinar 6.00 afslátt. Á **Jafna færslur** síðu í**upphæð staðgreiðsluafsláttar** gildi er 20,00, og **upphæð staðgreiðsluafsláttar sem á að taka** gildi er 6.00 .
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Valið | Venjulegt            | FTI-10030 | 4031    | 6/25/2015 | 7/25/2015 | 10030   | 1.000,00                       | USD      | 294.00           |
 
-Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í **294.00 ** verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast mismunandi. Hins vegar verður 6,00 tekið sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar **fyrir þig.
+Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í **294,00** verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast mismunandi. Hins vegar verður 6,00 tekið sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar**fyrir þig.
 
 |                              |           |
 |------------------------------|-----------|

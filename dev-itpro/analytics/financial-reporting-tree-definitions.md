@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ skipuritsskilgreining inniheldur dálkana sem lýst er í eftirfarandi töflu.
 
 | Skipuritsdálkur | lýsing|
 |---|---|
-| Fyrirt.                 | Heiti fyrirtækis fyrir einingu skipurits. Í gildinu ** @ANY ** sem er yfirleitt tengt aðeins samantekt stig, gerir skipurit til að nota fyrir öll fyrirtæki. Allar undirgreinar eru tengdar við fyrirtæki.|
+| Fyrirt.                 | Heiti fyrirtækis fyrir einingu skipurits. Gildið **@ANY** sem er yfirleitt tengt aðeins samantekt stig, gerir skipurit til að nota fyrir öll fyrirtæki. Allar undirgreinar eru tengdar við fyrirtæki.|
 | Einingarheiti             | Kóðinn sem auðkennir þessa einingu skipurits í myndræna skipuritinu. Gætið þess að koma á einkvæmt kóðunarkerfi sem er samkvæmt sjálfu sér, og sem er auðvelt að skilja fyrir notendur. |
 | Lýsing einingar      | Titill skipuritseiningar kemur fram í haus eða fæti skýrslunnar ef **UnitDesc** er fært inn sem kóði í flipanum **Hausar og fætur** í skýrsluskilgreiningunni. Titillinn kemur fram í línulýsingu skýrslunnar ef **UnitDesc** er fært inn í hólfið **Lýsing** í línuskilgreiningunni.|
 | Víddir            | Eining skipurits sem sækir upplýsingar beint úr fjárhagsgögnum. Skilgreinir tölfræðilega staðsetningu og lengdir fyrir reikninginn og tengda hluta. Allar línur skipuritseiningar verða að hafa vídd í þessum dálki. Þú getur einnig sett vídd í línu samantektareiningar, (t.d. fyrir útgjöld sem eru beint tengd við þá einingu). Ef vídd er sett inn í línu samantektareiningar ættu reikningar sem notaðir eru í yfireiningum ekki að vera notaðir í undireiningum. Annars gætu upphæðir verið tvíteknir.|
@@ -115,7 +116,7 @@ Eftirfarandi gerðir eininga skipurits eru notaðar í reikningsskilum:
 -   Upplýsingaeining tekur upplýsingar beint úr fjárhagsgögnum, úr Excel-töflureiknisskrá eða úr öðru vinnublaði reikningsskila.
 -   Samantektareining tekur saman gögn úr einingum á neðri stigum.
 
-Yfireining í skipuriti er samantektareining sem safnar saman samantektarupplýsingum úr upplýsingaeiningu. samantektareining getur verið bæði upplýsingaeining og samantektareining. Þess vegna getur samantektareining tekið upplýsingar úr einingu á neðra stigi, fjárhagsgögnum, eða Excel-vinnublaði. Yfireining getur verið undireining hærra skipaðrar yfireiningar. Undireining í skipuriti getur verið upplýsingaeining sem sækir upplýsingar beint úr fjárhagsgögnum eða excel-vinnublaði. Undireining í einingu skipurits getur einnig verið millisamantektareining. Með öðrum orðum, það getur verið yfireining af einingar af neðra stigi, og einnig undireining samantektareiningar á hærra stigi. Við Algengustu aðstæður fyrir einingar í skipuriti, hafa yfireiningar auð hólf í dálknum **Víddir ** , og undireiningar hafa tengla í tilteknar víddarsamsetningar eða algildisvíddarsamsetningar
+Yfireining í skipuriti er samantektareining sem safnar saman samantektarupplýsingum úr upplýsingaeiningu. samantektareining getur verið bæði upplýsingaeining og samantektareining. Þess vegna getur samantektareining tekið upplýsingar úr einingu á neðra stigi, fjárhagsgögnum, eða Excel-vinnublaði. Yfireining getur verið undireining hærra skipaðrar yfireiningar. Undireining í skipuriti getur verið upplýsingaeining sem sækir upplýsingar beint úr fjárhagsgögnum eða excel-vinnublaði. Undireining í einingu skipurits getur einnig verið millisamantektareining. Með öðrum orðum, það getur verið yfireining af einingar af neðra stigi, og einnig undireining samantektareiningar á hærra stigi. Við Algengustu aðstæður fyrir einingar í skipuriti, hafa yfireiningar auð hólf í dálknum **Víddir** , og undireiningar hafa tengla í tilteknar víddarsamsetningar eða algildisvíddarsamsetningar
 
 ### <a name="organize-reporting-units"></a> Einingar skipurits skipulagðar
 
@@ -124,23 +125,23 @@ Hægt er að endurskipuleggja skipulag skipuritsskilgreiningarinnar með því a
 1.  Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
 2.  Veljið skipuritseiningu í myndrænu yfirliti skilgreiningar skipuritsins.
 3.  Draga einingu í nýja stöðu. Annars má líka hægrismella á eininguna og veljið síðan **Færa upp einingu skipurits** eða **Færa niður einingu skipurits**.
-4.  Smellið á **Skrá** &gt; **Vista ** til að vista breytingar.
+4.  Smellið á **Skrá** &gt; **Vista** til að vista breytingar.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Bæta inn Texta um einingu skipurits 
 
-Viðbótartextafærsla er fastur textastrengur, allt að 255 stafir, sem bætir upplýsingum við skipuritsskilgreininguna. Til dæmis getur viðbótartexti verið stutt lýsing á fyrirtæki. Hægt er að stofna allt að tíu viðbótartextafærslur fyrir hverja einingu skipurits í skipuritsskilgreiningu. Viðbótartextinn birtist í skýrslunni fyrir skipuritseininguna sem textanum var úthlutað til. Hægt er að bæta við textafærslum frá dálkinum ** Lýsing** í línuskilgreiningunni og frá flipanum **Hausar og fætur** í skýrsluskilgreiningunni.
+Viðbótartextafærsla er fastur textastrengur, allt að 255 stafir, sem bætir upplýsingum við skipuritsskilgreininguna. Til dæmis getur viðbótartexti verið stutt lýsing á fyrirtæki. Hægt er að stofna allt að tíu viðbótartextafærslur fyrir hverja einingu skipurits í skipuritsskilgreiningu. Viðbótartextinn birtist í skýrslunni fyrir skipuritseininguna sem textanum var úthlutað til. Hægt er að bæta við textafærslum frá dálkinum **Lýsing** í línuskilgreiningunni og frá flipanum **Hausar og fætur** í skýrsluskilgreiningunni.
 
 1.  Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið **Viðbótartexti ** fyrir línu einingar skipurits.
-3.  Í svarglugganum **Viðbótartexti ** í fyrstu auðu línunni, skal færa inn textann. Vísað er til fyrstu línunnar sem inniheldur texta sem UnitText1 burtséð frá stöðu hans í svarglugganum **Viðbótartexti**.
+2.  Tvísmellið á hólfið **Viðbótartexti** fyrir línu einingar skipurits.
+3.  Í svarglugganum **Viðbótartexti** í fyrstu auðu línunni, skal færa inn textann. Vísað er til fyrstu línunnar sem inniheldur texta sem UnitText1 burtséð frá stöðu hans í svarglugganum **Viðbótartexti**.
 4.  Ef bæta á við fleiri textafærslum fyrir þessa skipuritseiningu skal færa textann inn í auða línu.
 5.  Smelltu á **Í lagi**.
 
 ### <a name="remove-additional-text-from-a-reporting-unit"></a>Viðbótartexti fjarlægður úr einingu skipurits
 
 1.  Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið **Viðbótartexti ** fyrir línu einingar skipurits.
-3.  Í svarglugganum **Viðbótartexti ** skal velja færsluna sem á að fjarlægja og síðan smella á **Hreinsa **. Einnig er hægrismellt á færslu og veljið svo **Klippa**.
+2.  Tvísmellið á hólfið **Viðbótartexti** fyrir línu einingar skipurits.
+3.  Í svarglugganum **Viðbótartexti** skal velja færsluna sem á að fjarlægja og síðan smella á **Hreinsa**. Einnig er hægrismellt á færslu og veljið svo **Klippa**.
 4.  Smelltu á **Í lagi**.
 
 ### <a name="restrict-access-to-a-reporting-unit"></a>Aðgangur að einingu skipurits takmarkaður
@@ -157,13 +158,13 @@ Hægt er að koma í veg fyrir að tilteknir notendur eða hópar fái aðgang a
 ### <a name="remove-access-to-a-reporting-unit"></a>Aðgangur að einingu skipurits fjarlægður
 
 1.  Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið **Einingaröryggi ** fyrir línu skipuritsins sem á að fjarlægja aðganginn að.
-3.  Í svarglugganum **Einingaröryggi ** er heiti valið og síðan smellt á **Fjarlægja**.
+2.  Tvísmellið á hólfið **Einingaröryggi** fyrir línu skipuritsins sem á að fjarlægja aðganginn að.
+3.  Í svarglugganum **Einingaröryggi** er heiti valið og síðan smellt á **Fjarlægja**.
 4.  Smelltu á **Í lagi**.
 
 ### <a name="link-to-reports"></a>Tenglar í skýrslur
 
-Þegar dálkur af gerðinni **Skýrsla ** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
+Þegar dálkur af gerðinni **Skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Auðkenna skýrsluna í skipuritinu
 
@@ -192,7 +193,7 @@ Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga 
 
-Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum **svarglugga  Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) Skipuritsskilgreining sem verður til er raðað eftir viðskiptaeining, og svo eftir kostnaðarstað og svo eftir deild. Vídd fyrir fimmtu eining skipurits er **Viðskiptaeining = \[001\], Kostnaðarstaður =\[\], Deild = \[022\]** og auðkennir eining skipurits fyrir lykla sem tengjast viðskiptaeiningu 001 og deild 022. [![Skipurit](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum**svarglugga  Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) Skipuritsskilgreining sem verður til er raðað eftir viðskiptaeining, og svo eftir kostnaðarstað og svo eftir deild. Vídd fyrir fimmtu eining skipurits er **Viðskiptaeining = \[001\], Kostnaðarstaður =\[\], Deild = \[022\]** og auðkennir eining skipurits fyrir lykla sem tengjast viðskiptaeiningu 001 og deild 022. [![Skipurit](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Dæmi um samantekt gagna
 

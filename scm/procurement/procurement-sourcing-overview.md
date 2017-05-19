@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
   
 Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér°*beiðni um tilboð *senda mörgum mögulegum lánardrottnum. Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær. Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.  
 
-Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn *til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gátt fyrir **Lánardrottinn**,* *er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í** Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
+Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn *til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gáttina **Lánardrottinn**, er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í**Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
 
 *Vörulistar lánardrottna *er hægt að nota til að safna upplýsingum um vöruúrval sem lánardrottnar geta útvegað. Lánardrottnar geta birt sína eigin vörulista þannig að það er auðveldara að halda vörulista°uppfærðum. Mögulegt er að tengja°*samþykktur listi lánardrottins* við afurð,°og það getur hjálpað til við val á lánardrottni þegar nýjar innkaupapantanir eru opnaðar, og koma í veg fyrir að nota°lánardrottna sem ekki var ætlunin að nota.
 

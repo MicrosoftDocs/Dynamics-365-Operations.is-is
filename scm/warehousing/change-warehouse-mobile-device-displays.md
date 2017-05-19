@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 721b293d1f8c76458ca510732f9bb94f003ac6e3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 796ed86b9a351d690edbee1adc0631d62b8011ac
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Sem hluti af skilgreiningu fartækis er hægt að skilgreina mismunandi útlit f
 
 CSS og ASPX skrár verða að vera í tilteknu skráasafni svo að Internet Information Services (IIS) umsókninni hægt að sækja þær. Það gæti verið gagnlegt að skilgreina mismunandi CSS skrár ef verið er að keyra fartækjavirkni í mismunandi vöfrum eða á misminandi gerðum vélbúnaður, sem krefjast mismunandi útlitsstýringar. Auðveldlega er hægt að stýra einföldum stillingum eins og bakgrunnslit, letri og leturstærð fyrir texta, og breidd og hegðun hnappa, með notkun mismunandi CSS-skráa. ASPX skráin er notuð til að birta í fartækisvefsvæði þjóni ASP.NET umsókninni. Skráin stjórnar hvernig heildaruppbygging HTML lítur út. Góð hugmynd er að sérsníða þessa virkni aðeins ef alvarleg vandamál koma upp við uppbyggingu á HTML og JavaScript og þú þarft að breyta kóðanum fyrir tiltekin tæki fyrirtækisins. Til að kortleggja HTML-stýringar á síðu fartækja skal úthluta talnakóðum á lyklana á síðunni **Skjástillingar fartækis**, í reitnum **Flýtivísanir**. Hægt er að nota valmyndina **Skoða kóða fyrir flýtilykla** í fartæki til að finna talnakóða. Athugið að vörpununum gæti verið mismunandi eftir vélbúnaðinum sem er notað. Nota eftirfarandi málskipan til að stofna vörpun:
 
-&lt;control name&gt;(&lt;key name&gt;)=&lt;key code&gt;;
+&lt;stýringarheiti&gt;(&lt;lyklaheiti&gt;)=&lt;lyklakóði&gt;;
 
 Hér er skýring á hlutum í málskipan:
 
@@ -64,9 +65,9 @@ Request.UserHostAddress=&lt;user host address&gt;|HostName=&lt;user host name&gt
 
 Hér er skýring á hlutum segðar:
 
--   **&lt;user host address&gt;** - .NET Regluleg segð sem stemmir við IP tölu beiðanda.
--   **&lt;user host name&gt;** -  .NET Regluleg segð sem stemmir við heiti nets beiðanda.
--   **&lt;user agent&gt;**  -   .NET regluleg segð sem stemmir við kenni vafrans sem notaður er af beiðanda.
+-   **&lt;hýsiaðsetur notanda&gt;** - .NET Regluleg segð sem stemmir við IP tölu beiðanda.
+-   **&lt;hýsiheiti notanda&gt;** -  .NET Regluleg segð sem stemmir við heiti nets beiðanda.
+-   **&lt;gerandi notanda&gt;**  - .NET regluleg segð sem stemmir við kenni vafrans sem notaður er af beiðanda.
 
 Eftirfarandi dæmi auðveldar notkun á Internet Explorer 8:
 
@@ -87,7 +88,7 @@ Hægt er að nota síðuna **Textalitur fartækis** til að stýra mismunandi li
 Til að velja lit á síðunni **Velja lit** skal smella á litaspjald eða sláið inn sextándakerfislitakóði.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Skilgreina snið dagsetningar til að nota í fartækjum
-Hægt er að útvíkka lista yfir samþykkta dagsetning snið fyrir hverja uppsetningu. Þessi geta getur verið gagnleg til dæmis ef ætlunin er að veita snið sem auðveldar starfsmanni að færa inn dagsetningar í fartæki. Sjálfgefið snið ákvarðast af sjálfgefnu tungumáli notanda, sem er tilgreind í reitnum **Tungumál** á síðunni **Notendastillingar**. (Sama síðan er einnig notuð til að tengja starfsmann við tiltekið vöruhús vinnunotanda.) **Ábending:** Fartækjagátt Vöruhúss notar ekki stillinguna í reitnum **Snið dagsetningar, tíma og talna ** á síðunni **Tungumála- og svæðastillingar **. Til að breyta sniði dagsetningar, þarf að þekkja almennar segðir í Microsoft .NET Framework. Nánari upplýsingar, sjá [.NET Framework almennar segðir](http://go.microsoft.com/fwlink/?LinkId=391260). Til að skilgreina snið dagsetningar skal breyta Dates.ini skránni sem er staðsett í Content\\Settings\\Dates.ini á þjóninum Gátt fyrir Fartæki Vöruhúss. Þessi skrá notar .NET reglulegar segðir til að ákvarða snið dagsetningar. Reglulega segðin verður að innihalda undirsegðir sem stofna nefnda flokka fyrir dag, mánuð og ár (DDMMYY), eins og sýnt er í eftirfarandi dæmi:
+Hægt er að útvíkka lista yfir samþykkta dagsetning snið fyrir hverja uppsetningu. Þessi geta getur verið gagnleg til dæmis ef ætlunin er að veita snið sem auðveldar starfsmanni að færa inn dagsetningar í fartæki. Sjálfgefið snið ákvarðast af sjálfgefnu tungumáli notanda, sem er tilgreind í reitnum **Tungumál** á síðunni **Notendastillingar**. (Sama síðan er einnig notuð til að tengja starfsmann við tiltekið vöruhús vinnunotanda.) **Ábending:** Fartækjagátt Vöruhúss notar ekki stillinguna í reitnum **Snið dagsetningar, tíma og talna** á síðunni **Tungumála- og svæðastillingar**. Til að breyta sniði dagsetningar, þarf að þekkja almennar segðir í Microsoft .NET Framework. Nánari upplýsingar, sjá [.NET Framework almennar segðir](http://go.microsoft.com/fwlink/?LinkId=391260). Til að skilgreina snið dagsetningar skal breyta Dates.ini skránni sem er staðsett í Content\\Settings\\Dates.ini á þjóninum Gátt fyrir Fartæki Vöruhúss. Þessi skrá notar .NET reglulegar segðir til að ákvarða snið dagsetningar. Reglulega segðin verður að innihalda undirsegðir sem stofna nefnda flokka fyrir dag, mánuð og ár (DDMMYY), eins og sýnt er í eftirfarandi dæmi:
 
 ^(?&lt;dagur&gt;\\d{2})(?&lt;mánuður&gt;\\d{2})(?&lt;ár&gt;\\d{2})$
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 562572f45dd78fb5655466e20a0c09b125c74d39
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e3657915729360ae7f4ea721dcaf76cfbe897b01
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,13 +36,13 @@ ms.lasthandoff: 03/31/2017
 
 Áður en staðlaður kostnaðarumreikningur er keyrður, skal fylgja þessum skrefum:
 
-1.  Skilgreina **birgðalíkanaflokk ** fyrir staðalkostnað. Notið síðunni vörulíkanaflokkur til að stofna vörulíkanaflokk sem notar birgðalíkan staðalkostnaðar. Þegar umreikningur staðalkostnaðar er settur upp er þessi birgðalíkanaflokkur tengdur vörunum sem verið er að umbreyta.
+1.  Skilgreina **birgðalíkanaflokk** fyrir staðalkostnað. Notið síðunni vörulíkanaflokkur til að stofna vörulíkanaflokk sem notar birgðalíkan staðalkostnaðar. Þegar umreikningur staðalkostnaðar er settur upp er þessi birgðalíkanaflokkur tengdur vörunum sem verið er að umbreyta.
 2.  Úthluta hverri vöru **kostnaðarflokk**.
     -   Kostnaðarflokkur sem er úthlutaður keyptri vöru getur virkað sem grunnur fyrir úthlutun fjárhagslykla sem tengjast stöðluðum kostnaði. Þetta getur falið í sér úthlutun fjárhagslykla fyrir frávik innkaupaverða. Í framleiðsluumhverfi veitir kostnaðarflokkurinn sem er tengdur keyptum íhlutum einnig sundurliðun á útreiknuðum kostnaði framleiddrar vöru.
     -   Kostnaðarflokkur sem er tengdur framleiddri vöru getur virkað sem grunnur fyrir úthlutun fjárhagslykla sem tengjast staðalkostnaði, til dæmis úthlutun fjárhagslykla fyrir framleiðslufrávik.
 
-3.  Úthluta framleiddri vöru **staðlað pöntunarmagn **þegar hún hefur fastan kostnað. Staðlað pöntunarmagn fyrir framleidda vöru þjónar sem lotustærð bókhalds fyrir afborganir af eða hlutfallsdreifingu, fasts kostnaðar. Þetta getur falið í sér uppsetningartíma í leiðaraðgerðum eða fast magn íhlutar í uppskrift (BOM).
-4.  Úthluta **fjárhagslyklum ** sem eru tengdir staðalkostnaði, sérstaklega endurmatsfráviki. Nota skal **Bókun** síðu (**Birgðastjórnun** &gt; **Uppsetning**) til að úthluta fjárhagslyklum sem eru tengdir við staðalkostnað. Í útreikningi staðalkostnaðar þarf að tengja lykil endurmatsfráviks fyrir allar vörur og kostnaðarflokka. Nota síðuna **bókhaldslykill** til að skilgreina fjárhagslykla sem þarf fyrir staðalkostnað. Notið síðuna **færslusamsetningar** til að virkja kostnaðartengsl (fyrir töflur, flokka og allt) áður en bókunarreglur eru skilgreindar.
+3.  Úthluta framleiddri vöru **staðlað pöntunarmagn**þegar hún hefur fastan kostnað. Staðlað pöntunarmagn fyrir framleidda vöru þjónar sem lotustærð bókhalds fyrir afborganir af eða hlutfallsdreifingu, fasts kostnaðar. Þetta getur falið í sér uppsetningartíma í leiðaraðgerðum eða fast magn íhlutar í uppskrift (BOM).
+4.  Úthluta **fjárhagslyklum** sem eru tengdir staðalkostnaði, sérstaklega endurmatsfráviki. Nota skal **Bókun** síðu (**Birgðastjórnun** &gt; **Uppsetning**) til að úthluta fjárhagslyklum sem eru tengdir við staðalkostnað. Í útreikningi staðalkostnaðar þarf að tengja lykil endurmatsfráviks fyrir allar vörur og kostnaðarflokka. Nota síðuna **bókhaldslykill** til að skilgreina fjárhagslykla sem þarf fyrir staðalkostnað. Notið síðuna **færslusamsetningar** til að virkja kostnaðartengsl (fyrir töflur, flokka og allt) áður en bókunarreglur eru skilgreindar.
 5.  Skilgreina þær birgðafæribreytur tengjast staðalkostnaði. Nota skal **Númeraraðir** flipanum á í **færibreytur Birgða- og vöruhúsastjórnunar** síðu til að úthluta númeraröð á fylgiskjöl endurmats. Fylgiskjal endurmats er myndað þegar umreikningur staðalkostnaðar veldur breytingu á birgðavirði vöru. Notið skjámyndina **færibreytur birgða- og vöruhúsastjórnunar** til að skilgreina færibreytur kostnaðarstýringar (á flipanum **birgðabókhald**) til að skilgreina tvær færibreytur sem eru tengdar við staðalkostnað.
     -   Nota skal **sundurliðun Kostnaðar** svæðið til að velja Nei eða Undir fjárhagur. Valið á undir fjárhag kallast virk sundurliðun kostnaðar. Virk sundurliðun kostnaðar er mikilvæg við útreikning, viðhald og yfirlit yfir sundurliðun kostnaðarflokka í margstiga uppbyggingu vöru fyrir staðalkostnaðarvörur. Þegar sundurliðun kostnaðar er virk er hægt að skrá og greina eftirfarandi í einu stigi, mörgum stigum eða heildarsniði:
         1.  Birgðir

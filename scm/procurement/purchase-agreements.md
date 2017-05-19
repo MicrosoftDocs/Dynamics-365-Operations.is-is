@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 3f96d12960e90bb05497d1bc2900d4477551c091
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ee3d306eecc7eeaca57522245f86dba32b75f942
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Verðskilmálra geta verið mismunandi, allt eftir skuldbindingu. Verðskilmála
 Eftirfarandi stefnur hafa áhrif á það hvernig tengslin er milli skuldbindingar innkaupasamnings og samsvarandi innkaupapöntunarlína:
 
 -   **Hámark er tryggt** - Heildarmagn eða upphæð fyrir allar pöntunarlínur geta ekki verið meiri en magnið eða upphæðin sem er tilgreind á viðkomandi skuldbindingu.
--   **Verð og afsláttur eru föst ** – Verðið á pöntunarlínu og verðið á tengdri skuldbindingu verður að vera það sama. Ef verðið er breytt á pöntunarlínu rofnar tengiliinn við skuldbindinguna. Ef tengillinn er rofinn úthlutar pöntunarlínan ekki til uppfyllingar skuldbindingarinnar.
+-   **Verð og afsláttur eru föst** – Verðið á pöntunarlínu og verðið á tengdri skuldbindingu verður að vera það sama. Ef verðið er breytt á pöntunarlínu rofnar tengiliinn við skuldbindinguna. Ef tengillinn er rofinn úthlutar pöntunarlínan ekki til uppfyllingar skuldbindingarinnar.
 -   **Lágmarks losunarupphæð og hámarks losunarupphæð** – Ef upphæð er tilgreind birtast skilaboð ef einhver breyting er gerð á pöntunarlínu sem veldur því að pöntunarlínan verði frábrugðin tengdu skuldbindingunni.
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>Útreikningur uppfyllingar fyrir innkaupasamninga

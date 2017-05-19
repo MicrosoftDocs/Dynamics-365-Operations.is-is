@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 38bce4a843f0db575c8d1ba08b7dc2ece8366663
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d2e1ff40f5735f69a3fcdf3a85335f157e1a1a6f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Hvort sem verið er að stofna nýtt verkskráning eða byggja skráningu þína
 -   Við upphaf hvers verkskráning, er lýsingarsvæði sem gerir kleift að færa inn kynning fyrir skráninguna. Góð hugmynd er að skrifa og vista lýsingu fram í tímann í aðskilið skjal svo hægt sé að afrita og líma hana inn á verkskráningu þegar verið er að skrá verkefni. Þannig er hægt nota tíma til að fínstilla texta þegar þú ert ekki í ferlinu við að skrá. Klippa og líma texta auðveldar að gera skráningarferlið hraðara og þægilegra.
 -   Fyrir hvert skref í verkskráningu er hægt að stofna athugasemdir. Þegar verkefnaleiðbeiningar eru spilaðar birtast athugasemdir í "talblöðru" sem athugasemd fyrir ofan eða neðan textann fyrir skrefið. Þegar athugasemdir eru skoðaðar sem texti í hjálparrúðunni, birtast þær sem innlína texta í skrefi. Eins og með lýsinguna er gott að skrifa og vista athugasemdir í aðskildu skjali. Þegar verið er að skrá verkskráning, skal klippa og líma athugasemdir úr því skjali.
 
-**Skilja mismunandi gerðir af athugasemdum ** Allar athugsemdir eru valfrjáls. Aðeins bæta þeim við ef það eru gagnlegar upplýsingar fyrir notandanum.
+**Skilja mismunandi gerðir af athugasemdum** Allar athugsemdir eru valfrjáls. Aðeins bæta þeim við ef það eru gagnlegar upplýsingar fyrir notandanum.
 
 -   **Titill**: titilathugsemd birtast á undan skreftextanum sem verkskráning myndar sjálfkrafa. Í Leiðarvísi fyrir verk, birtist titilathugasemd fyrir ofan sjálfkrafa myndaða textann. Notið þessa gerð athugasemdar til að útskýra hvers vegna notandi er að gera skrefið eða til að veita viðbótarsamhengi.
 
@@ -102,7 +103,7 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 
 1.  Opna verkskráningu í Dynamics 365 for Operations. Verkskráning er staðsett í **Stillingar** valmynd.
 2.  Í rúðunni verkskráning, er smellt á **vinna Með skráningu.**
-3.  Undir **hver er skráningin **, smellið á **er í LCS safn**.
+3.  Undir **hver er skráningin**, smellið á **er í LCS safn**.
 4.  Smella á **velja LCS-safn**
 5.  Veldu Microsoft alþjóðlegt safn.
 6.  Í trénu, skal velja safnhnút viðskiptaferlis sem er verkskráning er tengd við.

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 25703ea2bde70c5c2d3de9f2dc9d3d1d889e4ac9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aae20fa2b899ab51bad5aeb54e21a7c9cbadb9be
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="design-a-questionnaire"></a>Hanna spurningalista
+
+[!include[banner](includes/banner.md)]
+
 
 Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
 
@@ -109,7 +113,7 @@ Svarflokkar og svör eru íhlutir sem mynda meginmál upplýsinga sem spurningar
 
 Hægt er að nota svarflokk fyrir fleiri en eina spurningu í sama spurningalista og einnig í einum eða fleiri spurningalistum. 
 
-**Ábending:** Ef hægt er að breyta svartexta í svarflokki sem hefur þegar verið notaður í fullkláruðum spurningalistum getur orðið erfitt að meta gögn og niðurstöður spurningalista gæti verið ekki lengur gildar. Ef breyta verður svarflokki skal athuga að stofna nýjan svarflokk í stað þess að breyta fyrirliggjandi flokki. Ekki er hægt að eyða svarflokkum sem eru tengdir spurningu eða svari eða sem hefur verið svarað.
+>**Ábending:** Ef hægt er að breyta svartexta í svarflokki sem hefur þegar verið notaður í fullkláruðum spurningalistum getur orðið erfitt að meta gögn og niðurstöður spurningalista gæti verið ekki lengur gildar. Ef breyta verður svarflokki skal athuga að stofna nýjan svarflokk í stað þess að breyta fyrirliggjandi flokki. Ekki er hægt að eyða svarflokkum sem eru tengdir spurningu eða svari eða sem hefur verið svarað.
 
 ### <a name="questions"></a>Spurningar
 
@@ -117,12 +121,13 @@ Spurningalisti verður að innihalda spurningar. Spurningar geta verið opnar e�
 
 -   Svör við opnum spurningum er ekki stjórnað og svarendur geta slegið inn svör sín.
 -   Lokaðar spurningar krefjast lista yfir fyrirfram skilgreinda valkosti svara og hægt er að byggja spurningarnar upp svo að svarandinn velji mörg svör. Spurningarnar ætti að hanna til fá fram ákveðnar upplýsingar frá svaranda og verða að vera tengdar svarflokki sem veitir svarmöguleika fyrir hverja lokaða spurningu. 
-     -  **Ábending:** Áður en hægt er að setja upp lokaðar spurningar, verður að stofna svarflokk og svör.
+    >**Ábending:** Áður en hægt er að setja upp lokaðar spurningar verður að stofna svarflokk og svör.
 
 Hægt er að raða spurningum í skilyrðisbundið spurningastigveldi svo að aukaspurningar velta á svarinu sem svarandi velur fyrir fyrri spurningu. Hægt er að skrifa spurningar fyrst og raða þeim stigveldi síðar.
 
 ## <a name="setting-up-questionnaires"></a>Uppsetning spurningalista
-**Ábending:** Áður en hægt er að setja upp spurningalista, verður að setja upp svör, spurningar og forsendur. 
+>**Ábending:**
+>  Áður en hægt er að setja upp spurningalista verður að setja upp svör, spurningar og forsendur. 
 
 Fyrir hvern spurningalista er hægt að tilgreina eftirfarandi upplýsingar:
 
@@ -158,7 +163,7 @@ Aðalsíðan sem er notuð til að setja upp spurningalista er síðan **Spurnin
 -   Eyða og bæta við spurningum.
 -   Gera breytingar á niðurstöðuflokki og raðnúmeri. 
 
-**Viðvörun:** Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
+>**Viðvörun** Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
 
 Í spurningalista er ekki hægt að eyða eftirfarandi gerðum spurninga:
 
@@ -176,7 +181,8 @@ Niðurstöðuflokkur er notaður til að reikna stig og flokka niðurstöður sp
 -   Mynda talnagögn fyrir hvern niðurstöðuflokk til að hjálpa til við að greina niðurstöður.
 -   Prenta skýrslu sem sýnir niðurstöður fyrir hvern niðurstöðuflokk og einnig valfrjáls stig/textar sem byggjast á stigum sem fengin eru í hverjum niðurstöðuflokki.
 
-**Ábending:** Áður en hægt er að setja upp niðurstöðuflokka, verður að ljúka eftirfarandi verkum:
+> **Ábending:**
+>  Áður en hægt er að setja upp niðurstöðuflokka verður að ljúka eftirfarandi verkum:
 
 -   Settu upp lokaðar spurningar. Fyrir lokaða spurningu verður inntakið á síðunni **Spurningar** að vera **Gátreitur**, **Aukahnappur** eða **Samsettur gluggi**.
 -   Skilgreindu stig fyrir svörin í svarflokkunum sem eru úthlutaðir hverri spurningu.
@@ -186,7 +192,8 @@ Til að tengja spurningar við spurningalista með niðurstöðuflokkum þarf fy
 
 Hægt er að setja upp marga niðurstöðuflokka til að meta stig sem svarandi nær í hverjum flokki. Þegar spurningalista er lokið er hægt að skoða punkta sem hefur verið náð fyrir hvern niðurstöðuflokk. 
 
-**Ábending:** Til að meta spurningalista með því að nota stig en ekki aðskilda flokka, er hægt að bæta öllum spurningum við í einn niðurstöðuflokk. 
+> **Ábending:**
+>  Til að meta spurningalista með því að nota stig en ekki aðskilda flokka, er hægt að bæta öllum spurningum við í einn niðurstöðuflokk. 
 
 Fyrir hvern niðurstöðuflokk er einnig hægt að setja upp ein eða fleiri punktabyggð skilaboð sem svarendur fá eftir að þeir ljúka við spurningalista. Textinn sem birtist getur verið breytilegur eftir þeirri einkunn sem svarandinn nær í niðurstöðuflokki. Til að nota punktabyggð skilaboð verður að skilgreina punktabil og lýsingu á hverju bili. Þegar svarandi nær stigi á tilteknu bili er textinn fyrir það bil innifalinn í niðurstöðuskýrslunni. 
 
@@ -212,13 +219,15 @@ Eftirfarandi tafla sýnir stigabyggð skilaboð sem eru skilgreind fyrir niðurs
 
 Hægt er að setja upp bil stiga og texta fyrir hvern niðurstöðuflokk á spurningalista. Textar sem samsvara stigafjölda hvers svaranda eru birtir fyrir hvern niðurstöðuflokk. 
 
-**Ábending:** Gera má breytingar á bilum og textum. Ef spurningalistinn hefur hins vegar verið útfylltur geta breytingar valdið misræmi milli eldri og nýrri niðurstöðuskýrslna.
+> **Ábending**
+>   Gera má breytingar á bilum og textum. Ef spurningalistinn hefur hins vegar verið útfylltur geta breytingar valdið misræmi milli eldri og nýrri niðurstöðuskýrslna.
 
 ### <a name="conditional-question-hierarchies"></a>Skilyrðisbundin spurningastilgveldi
 
 Skilyrðisbundin spurningastilgveldi eru valfrjáls þegar spurningarlisti er settur upp. 
 
-**Ábending:** Áður en hægt er að stofna skilyrðisbundið spurningastigveldi þarf þegar að vera búið að tengja spurningar sem svaraflokkum er úthlutað á við spurningalistann. 
+> **Ábending:**
+>  Áður en hægt er að stofna skilyrðisbundið spurningastigveldi þarf þegar að vera búið að tengja spurningar sem svaraflokkum er úthlutað á við spurningalistann. 
 
 Til að nota skilyrtar spurningar til að stofna spurningastigveldi í spurningalista verður að gera röðina sem spurningar eru settar fram í háða því hvaða svar var valið við fyrri spurningu. Með því að byggja spurningaröð á svaravali svaranda er hægt að breyta spurningalistann á meðan svarandinn lýkur honum.
 
@@ -236,5 +245,7 @@ Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar 
 [Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
 
 [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+
+
 
 

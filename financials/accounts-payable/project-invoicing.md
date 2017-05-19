@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76abfa35e53673f9780d1a6f8816bd24f9f8e48
-ms.openlocfilehash: f09aef9cf1e516b80f908c34b2b3c3397dde8a0f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8ab09d19cf22f3c57fbb92de283d9a05f38b11ff
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,13 +36,13 @@ ms.lasthandoff: 03/31/2017
 Verkgerðin ákvarðar hvaða reikningsfærsluaðferð skal beitt. Aðeins er hægt að reikningsfæra tvær ytri verkgerðir (Tíma- og efnisverk og fastverðsverk). Tíma- og efnisverk og fastverðsverk eru alltaf tengd við verksamning.
 
 -   **Fastverðsverk** – reikningsupphæð viðskiptavinar er byggð á greiðsluáætlunum reikninga. Reikningsfærsla er framkvæmd í gegnum áfangareikningsuppsetningu sem  einnig er vísað til sem greiðsluáætlunar. Hægt er að reikningsfæra fastverðsverk fyrir hvert verk eða fyrir hvern verksamning.
--   **Tíma-og efnisverk ** - Reikningsupphæðin viðskiptavinar byggist á færslulínum sem eru færðar inn í verk. Hægt er að reikningsfæra færslur fyrir hvert verk eða fyrir hvern verksamning.
+-   **Tíma-og efnisverk** - Reikningsupphæðin viðskiptavinar byggist á færslulínum sem eru færðar inn í verk. Hægt er að reikningsfæra færslur fyrir hvert verk eða fyrir hvern verksamning.
 
 Þrjár leiðir eru til að tengja tíma- og efnisverk og fastverðsverk við reikningsverkin:
 
--   **Áfangareikningsfærsla ** - Hægt er að reikningsfæra tíma- og efnisverk og fastverðsverk með áfangareikningi. Tvær gerðir af uppsetningum áfangareiknings eru nauðsynlegar, einn fyrir hverja gerð verks.
--   **Reglubundin reikningsfærsla ** - Hægt er að reikningsfæra færslur þvert á verk með reglubundnum aðgerðum. Reglubundnar aðgerðir geta veitt yfirlit yfir færslur sem á að reikningsfæra.
--   **Með því að nota kreditnótur í reikningsfærslu ** - Hægt er að stofna kreditnótu bæði fyrir tíma- og efnisverk og fastverðsverk.
+-   **Áfangareikningsfærsla** - Hægt er að reikningsfæra tíma- og efnisverk og fastverðsverk með áfangareikningi. Tvær gerðir af uppsetningum áfangareiknings eru nauðsynlegar, einn fyrir hverja gerð verks.
+-   **Reglubundin reikningsfærsla** - Hægt er að reikningsfæra færslur þvert á verk með reglubundnum aðgerðum. Reglubundnar aðgerðir geta veitt yfirlit yfir færslur sem á að reikningsfæra.
+-   **Með því að nota kreditnótur í reikningsfærslu** - Hægt er að stofna kreditnótu bæði fyrir tíma- og efnisverk og fastverðsverk.
 
 ## <a name="invoice-proposals"></a>Reikningstillögur
 Áður en reikning viðskiptavinar er stofnaður fyrir verk, er hægt að stofna bráðabirgðareikningur, eða reikningstillögu. Í reikningstillögu, hægt er að velja verkfærsla til að taka með í verkreikning. Þú getur síðan farið yfir upplýsingar um reikning áður en bókað er verkreikningur og sendir til viðskiptavinar eða öðrum uppruni fjármögnunar.
@@ -61,7 +62,7 @@ Hægt er að stofna reikningstillaga fyrir eftirfarandi færslur:
 
 Til að stofna marga reikninga viðskiptavinar fyrir verk verður að stofna reikningstillögu fyrir hvern reikning. Til dæmis er hægt að stofna reikninga sem byggjast á færslugerð. Ef óskað er að tilgreina tíma á einum reikningur viðskiptavinar og vörur á öðrum, verður að stofna reikningstillögu fyrir tímafærslur og aðskildar reikningstillögu fyrir þóknunarfærslur. 
 
-Ef verk hefur fleiri en einn uppruni fjármögnunar er hægt að stofna aðskilda reikningstillögu fyrir hvern uppruni fjármögnunar. Í ** úthlutanir fjármögnunarreglu** síðu, er hægt að tilgreina hlutfall færsluupphæðar sem á að úthluta á hvern uppruni fjármögnunar, og upprunann til að bóka sléttunarmun.
+Ef verk hefur fleiri en einn uppruni fjármögnunar er hægt að stofna aðskilda reikningstillögu fyrir hvern uppruni fjármögnunar. Í **úthlutanir fjármögnunarreglu** síðu, er hægt að tilgreina hlutfall færsluupphæðar sem á að úthluta á hvern uppruni fjármögnunar, og upprunann til að bóka sléttunarmun.
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a>Búa til reikninga viðskiptavina frá reikningstillaga
 

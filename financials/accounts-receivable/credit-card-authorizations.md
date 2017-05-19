@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 40d950b04511e85d05106c274d1580a3daac7af7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82cc16189bc8d57788711d8ba36070826271e3a9
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -66,9 +67,9 @@ Sannprófun aðsetursupplýsinga er alltaf sent í greiðsluþjónustuaðila. H�
 
 ## <a name="data-support"></a>Gagnastuðningur
 Fyrir hverja tegund kreditkorts sem er studd, er hægt að tilgreina í gagnastuðningsstig. Stigið stýrir hversu mikið af upplýsingum um færslu er flutt í greiðsluþjónustu. Gætið þess að hafa samband við veitu til að ákvarða hvort hún geti veitt þessar upplýsingar. Hér eru valkostir fyrir gagnastuðningsstig:
--   **Stig 1 ** - flytja færsludagsetningu, færsluupphæð og lýsingu.
--   **Stig 2 ** flytja upplýsingar um Stig 1 og einnig aðsetur sendingar- og söluaðila, og skattaupplýsingar.
--   **Stig 3 **flytja yfir allar upplýsingar um Stig 2, auk upplýsingar pöntunarlínu.
+-   **Stig 1** - flytja færsludagsetningu, færsluupphæð og lýsingu.
+-   **Stig 2** flytja upplýsingar um Stig 1 og einnig aðsetur sendingar- og söluaðila, og skattaupplýsingar.
+-   **Stig 3**flytja yfir allar upplýsingar um Stig 2, auk upplýsingar pöntunarlínu.
 
 ## <a name="partial-payments"></a>Hlutagreiðslur
 Ef þú flytur hluta af pöntun, er magn af hlutapöntun sótt , og heimildin, sem var fyrir upphæð allrar pöntunarinnar, er lokað. Ný heimild er þá send inn fyrir eftirstandandi fjárhæð pöntunar sem ekki hefur verið send.

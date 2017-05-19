@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 247bde0eca834ad2f465ef147bf8821028ee285e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Til að skilgreina samþykktarskref í verkflæðisritlinum, er hægrismellt á 
 Fylgið þessum skrefum til að færa inn heiti á samþykktarskrefinu.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti **skal færa inn einkvæmt heiti fyrir samþykktarskref
+2.  Á svæðinu **Heiti**skal færa inn einkvæmt heiti fyrir samþykktarskref
 
 ## <a name="enter-a-subject-line-and-instructions"></a>Slá inn efnislínu og fyrirmæli
 Veita verður þeim notendum, sem úthlutað er þessu samþykktarskref, efnislínu og fyrirmæli. Til dæmis, ef verið er að skilgreina samþykktarskref fyrir innkaupabeiðnir, mun notanda er úthlutað á skrefið sjá efnislínuna og fyrirmælin á **Innkaupabeiðnir** síðunni. Efnislínuna birtist á skilaboðaslánni á síðunni. Notandinn getur síðan smellt á teiknið á skilaboðaslánni til að sjá leiðbeiningar. Fylgið eftirfarandi skrefum til að slá inn efnislínu og fyrirmæli.
@@ -140,16 +141,16 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að bregðast við. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að bregðast við. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að bregðast við.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku desembermánaðar.
 
     Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið fram yfir á tíma. Skjal sem er komið fram yfir á tíma er stigmagnað, á grundvelli valkostanna sem þú valdir í **stigmögnun** svæðið á síðunni.
 4.  Ef samþykktarskrefið var úthlutað til margra notenda eða flokk af notendum, á **regla um lok** flipanum, veljið einn af eftirfarandi valkostum:
-    -   **Stakur samþykktaraðili ** - aðgerðin fyrir skjalið ákveðin af fyrsta aðilanum sem bregst við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja er sú fyrsta sem bregst við skjalinu þá er hennar aðgerð notuð fyrir skjalið. Ef Brynja hafnar skjalinu þá er því hafnað og sent tilbaka til Samúels. Þegar Brynja samþykkir skjalið er það sent til Önnu til samþykktar. ![Verkflæði sem er með samþykktarferli](./media/workflow_multipleusersinstep.gif)
+    -   **Stakur samþykktaraðili** - aðgerðin fyrir skjalið ákveðin af fyrsta aðilanum sem bregst við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja er sú fyrsta sem bregst við skjalinu þá er hennar aðgerð notuð fyrir skjalið. Ef Brynja hafnar skjalinu þá er því hafnað og sent tilbaka til Samúels. Þegar Brynja samþykkir skjalið er það sent til Önnu til samþykktar. ![Verkflæði sem er með samþykktarferli](./media/workflow_multipleusersinstep.gif)
     -   **Meirihluti samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar flestir af samþykktaraðilum bregðast við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið.
         -   Ef Brynja samþykkir skjalið og Guðrún hafnar því þá er því hafnað og sent tilbaka til Samúels.
         -   Ef Brynja og Guðrún samþykkja skjalið þá er skjalið sent til Önnu til samþykktar.
-    -   **Hlutfall samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar ákveðið hlutfall af samþykktaraðilum svara. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla, og þú færðir inn **50 ** sem hlutfall. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið, af því að þær uppfylla kröfurnar um 50 prósent samþykktaraðila.
+    -   **Hlutfall samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar ákveðið hlutfall af samþykktaraðilum svara. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla, og þú færðir inn **50** sem hlutfall. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið, af því að þær uppfylla kröfurnar um 50 prósent samþykktaraðila.
         -   Ef Brynja samþykkir skjalið og Guðrún hafnar því þá er því hafnað og sent tilbaka til Samúels.
         -   Ef Brynja og Guðrún samþykkja skjalið þá er skjalið sent til Önnu til samþykktar.
     -   **Allir samþykkjendur** – Allir samþykkjendur verða að samþykkja skjalið. Annars getur verkflæði ekki haldið áfram. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja og Guðrún samþykkja skjalið og Gísli hafnar því þá er því hafnað og sent tilbaka til Samúels. Ef Brynja og Guðrún samþykkja skjalið þá er skjalið sent til Önnu til samþykktar.
@@ -176,7 +177,7 @@ Fylgið eftirfarandi skrefum ef samþykktarskrefið er alltaf nauðsynleg.
     1.  Smellið á **Prófun**.
     2.  Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu.
     3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
-    4.  Smelltu á **Í lagi ** eða **hætta við ** til að fara aftur síðuna **forstillingar**.
+    4.  Smelltu á **Í lagi** eða **hætta við** til að fara aftur síðuna **forstillingar**.
 
 ## <a name="specify-what-happens-when-the-document-is-overdue"></a>Tilgreina hvað gerist þegar skjal er í vanskilum
 Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið fram yfir á tíma. Skjal sem er komið fram yfir á tíma getur verið stigmagnað eða sjálfkrafa úthlutað til annars notanda til samþykkis. Fylgið eftirfarandi skrefum til að stigmagna skjalið ef það er komið fram yfir á tíma.
@@ -245,8 +246,8 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að bregðast við. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að bregðast við. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að bregðast við.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að bregðast við fyrir. Til dæmis, notandi getur óskað þess að annar notandi bregðist við á föstudegi í þriðju viku desembermánaðar.
 
 5.  Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6.  Ef notendunum í stigmögnunarslóðinni svara ekki innan tímarammans, grípur kerfið sjálfkrafa til aðgerða varðandi skjalið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.

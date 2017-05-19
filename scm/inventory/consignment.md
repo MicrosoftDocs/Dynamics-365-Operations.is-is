@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á �
 USMF framkvæmir viðbótar reglubundnar vinnslur:
 
 -   Efnislegar hreyfingar birgða í eigu lánardrottins milli mismunandi vöruhúsa eru unnar með flutningabók.
--   Efnislegar lageribirgðir er uppfært með því að nota ** vörutalningar** færslubók. Talning geta einnig notað af lánardrottins til að uppfæra lagerbirgðir, ef þeir hafa heimild til að gera þetta.
+-   Efnislegar lageribirgðir er uppfært með því að nota **vörutalningar** færslubók. Talning geta einnig notað af lánardrottins til að uppfæra lagerbirgðir, ef þeir hafa heimild til að gera þetta.
 
 Lánardrottinn, US-104 getur fylgjast með uppfærslu með því að nota **vörusendingabirgðir á lager** síðuna.
 
@@ -67,7 +68,7 @@ Lánardrottinn, US-104 getur fylgjast með uppfærslu með því að nota **vör
 ## <a name="inventory-ownership-change-journal"></a>Færslubók eignarhaldsbreytingar birgða
 Ferlið við að breyta eiganda börgða úr lánardrottinn í lögaðila sem tekur á móti er gert með því að nota birgðabók eignarhaldsbreytinga. Ekki eru stofnaðar neinar væntanlegar birgðafærslur fyrir færslubókina. Einu birgðafærslur sem eru stofnaðar eru þær sem tengjast bókaðri færslubók. Þegar búið er að bóka færslubókina:
 
--   Birgðir í eigu lánardrottins er gefið út með því að nota **breytingu á Eignarhaldi** tilvísun með **Selt ** stöðu.
+-   Birgðir í eigu lánardrottins er gefið út með því að nota **breytingu á Eignarhaldi** tilvísun með **Selt** stöðu.
 -   Lagerbirgðir er síðan móttekin af lögaðila sem notar þær með því að nota birgðafærsla með uppfærðu innhreyfingarskjal afurða á innkaupapöntun. Þetta stillir stöðuna á pöntuninni í **Móttekið**. Innkaupapantanir notaðar fyrir vörusendingar hafa **Uppruna** svæðið stillt á **Vörusendingar**.
 
 Ekki er hægt að uppfæra magn í innkaupapöntunarlínum vörusendingar eftir að pöntun hefur verið stofnað. 
@@ -77,7 +78,7 @@ Ekki er hægt að uppfæra magn í innkaupapöntunarlínum vörusendingar eftir 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
 Viðmót samstarf lánardrottna er með þremur síður sem tengjast vinnslu vörusendingar á innleið:
 
--   **Innkaupapantanir** ** sem nota vörusendingabirgðir ** - Sýnir nákvæmar upplýsingar um innkaupapöntun tengd eignarhaldsbreytingu úr ferli vörusendingar.
+-   **Innkaupapantanir** **sem nota vörusendingabirgðir** - Sýnir nákvæmar upplýsingar um innkaupapöntun tengd eignarhaldsbreytingu úr ferli vörusendingar.
 -   **Afurðir mótteknar frá vörusendingabirgðum** -Sýnir upplýsingar um vörur og magn sem hefur innhreyfingar afurða uppfært á meðan stendur á ferli eignarhaldsbreytingar.
 -   **Vörusendingarbirgðir á lager** - Sýnir upplýsingar um vörurnar vörusendingar sem þeir áætlað að afhenda og vörurnar sem eru þegar efnislega tiltækt á svæði viðskiptavinar.
 

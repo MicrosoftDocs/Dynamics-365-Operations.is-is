@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 5f70c57f31c02178e8d909d5e0bbffa0d2b587c5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6c44ba2771bab0bc428c0c348a6c34c2deb0be26
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,13 +38,13 @@ Opna verkflæðið í verkflæðisritlinum til að skilgreina eiginleika verkfl�
 Fylgið þessum skrefum til að færa inn heiti á verkflæðinu.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir Verkflæðið Til dæmis, gefum okkur að stofna ætti verkflæði innkaupabeiðna fyrir hvert land eða svæði starfseminnar, gefa mætti verkflæði innkaupabeiðninnar heitið **Innkaupabeiðni Danmörk ** eða **Innkaupabeiðni Spánn**.
+2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir Verkflæðið Til dæmis, gefum okkur að stofna ætti verkflæði innkaupabeiðna fyrir hvert land eða svæði starfseminnar, gefa mætti verkflæði innkaupabeiðninnar heitið **Innkaupabeiðni Danmörk** eða **Innkaupabeiðni Spánn**.
 
 ## <a name="specify-the-workflow-owner"></a>Tilgreinið eiganda verkflæðis
 Eigandi verkflæðis er sá aðili sem stjórnar og viðheldur verkflæðinu. Fylgið skrefum ef tilgreina á eiganda verkflæðis.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á listanum **Eigandi ** skal velja nafn þess aðila sem á að stjórna verkflæðinu.
+2.  Á listanum **Eigandi** skal velja nafn þess aðila sem á að stjórna verkflæðinu.
 
 ## <a name="select-an-email-template"></a>Velja tölvupóstssniðmát
 Fylgið eftirfarandi skrefum til að velja sniðmát fyrir tölvupóst sem er notuð til að mynda skilaboð tilkynningar um verkflæðið.
@@ -57,7 +58,7 @@ Hægt er að veita þeim notendum leiðbeiningar sem senda skjöl til vinnslu og
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
 2.  Í **leiðbeiningar við framlagningu** svæðinu, færið inn leiðbeiningar.
 3.  Hægt er að sérsníða leiðbeiningarnar með því að færa inn staðgengla. Staðgenglar eru settir í stað viðeigandi gagna þegar leiðbeiningar birtist notendum. Fylgið eftirfarandi skrefum til að færa inn staðgengil:
-    1.  Smellið á **leiðbeiningar við framlagningu ** til þess að tilgreina hvar staðgengill á að birtast.
+    1.  Smellið á **leiðbeiningar við framlagningu** til þess að tilgreina hvar staðgengill á að birtast.
     2.  Smella á **Setja inn staðgengil**
     3.  Í listanum sem birtist skal velja staðgengilinn til að setja inn.
     4.  Smellt er á **Setja inn**.
@@ -86,8 +87,8 @@ Fylgið eftirfarandi skrefum til að tilgreina hvenær á að nota skilgreint ve
 6.  Til að sannreyna að skilyrðin sem voru færð hafi verið stilllt rétt, skal fylgja eftirfarandi skrefum:
     1.  Smellið á **Prófun**.
     2.  Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu.
-    3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú skilgreindir. Til dæmis, ef verið er að búa til verkflæði fyrir innkaupabeiðni á Spáni sýnir svæðið **Villuleita skilyrði** á síðunni lista yfir innkaupabeiðnir. Þegar smellt er á **Prófun ** mun kerfið meta valdar innkaupabeiðnir og ákveða hvort Land/svæði er ES.
-    4.  Smelltu á **Í lagi ** eða **hætta við ** til að fara aftur síðuna **forstillingar**.
+    3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú skilgreindir. Til dæmis, ef verið er að búa til verkflæði fyrir innkaupabeiðni á Spáni sýnir svæðið **Villuleita skilyrði** á síðunni lista yfir innkaupabeiðnir. Þegar smellt er á **Prófun** mun kerfið meta valdar innkaupabeiðnir og ákveða hvort Land/svæði er ES.
+    4.  Smelltu á **Í lagi** eða **hætta við** til að fara aftur síðuna **forstillingar**.
 
 ## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
 Þegar skjal er sent í vinnslu þá er verkflæðistilvik stofnað. Hægt er að senda tilkynningar til notenda þegar verkflæðistilvik á grundvelli verkflæðisins, eru sett af stað, lokið við þau, eytt, eða þau stöðvuð út af villu. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar.
@@ -167,7 +168,7 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 1.  Á vinstra svæðinu er smellt á **Athugasemdir**.
 2.  Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3.  Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
-4.  Smellið á **Bæta við ** til að bæta athugasemdir við **ferill Athugasemda** svæði.
+4.  Smellið á **Bæta við** til að bæta athugasemdir við **ferill Athugasemda** svæði.
 
 
 

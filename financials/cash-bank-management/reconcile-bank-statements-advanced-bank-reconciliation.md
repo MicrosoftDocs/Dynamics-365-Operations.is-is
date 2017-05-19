@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 14ce5042cc06aca191deffe36efc9c68db0a63ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b99e8db324592cb32ae6fba7f0e0642100a09638
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -77,7 +78,7 @@ Eftir að þú hefur flutt inn rafræn bankayfirlit og villuleita uppgjör á í
 -   Jafna færslur með bakfærslu bankayfirlitsfærslna.
 -   Merkja færslur sem **Nýtt**, þannig að hægt er að bóka þær síðar sem bankafærslu í Dynamics 365 for Operations.
 
-Til að jafna færslur handvirkt skal velja færslur í **bankayfirlitsfærslur** hnitaneti, velja samsvarandi færslur í á **Operations-bankafærslur ** hnitaneti, og smella svo á **Jafna**. Valdar færslur eru fluttar úr efri hnitanet fyrir ójafnaðar færslur í neðri hnitanet fyrir jafnaðar færslur. Þar að auki er ójöfnuð og jöfnuð heildarupphæðir uppfærðar. Hægt er að vera með eina við eina, margar við eina, og margar við margar-færslujafnanir. Samsvaranir verða að að fylgja reglur fyrir leyfðan mismun dagsetninga og vörpun færslugerða. Þessar reglur eru stilltar á **færibreytur reiðufjár- og bankastjórnunar** síðu.
+Til að jafna færslur handvirkt skal velja færslur í **bankayfirlitsfærslur** hnitaneti, velja samsvarandi færslur í á **Operations-bankafærslur** hnitaneti, og smella svo á **Jafna**. Valdar færslur eru fluttar úr efri hnitanet fyrir ójafnaðar færslur í neðri hnitanet fyrir jafnaðar færslur. Þar að auki er ójöfnuð og jöfnuð heildarupphæðir uppfærðar. Hægt er að vera með eina við eina, margar við eina, og margar við margar-færslujafnanir. Samsvaranir verða að að fylgja reglur fyrir leyfðan mismun dagsetninga og vörpun færslugerða. Þessar reglur eru stilltar á **færibreytur reiðufjár- og bankastjórnunar** síðu.
 
 Auramismunur getur komið upp í við afstemmingu. Hægt er að jafna staka bankayfirlitsfærslu og staka Operations-bankayfirlitsfærslu sem hafa auramismun ef auramismunur eru innan vikmörk upphæðar sem er skilgreindur í **Leyfður auramismunur** reitnum á bankareikningi. Upphæðin er sýnd í á **leiðréttingarupphæð** reit á jöfnuðum Operations-bankafærslum. Þegar bankaafstemming er merkt sem afstemmd, eru leiðréttingar bókaðar sjálfkrafa með því að nota aðallykil sem er skilgreind á tengda bankafærslugerð. Leiðréttingar eru ekki studdar fyrir skjalagerðir **Athuga** og **Innborgun**. 
 

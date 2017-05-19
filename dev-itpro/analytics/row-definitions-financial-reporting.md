@@ -1,16 +1,16 @@
 ---
 title: "Línuskilgreiningar í fjárhagsskýrsluhönnuði"
 description: "Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Línuskilgreiningu er hægt að sameina með dálkaskilgreiningum, skipuritsskilgreiningum og skýrsluskilgreiningum til að stofna einingahóp sem mörg fyrirtæki geta notað."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Línuskilgreiningar í fjárhagsskýrsluhönnuði
+
+[!include[banner](../includes/banner.md)]
+
 
 Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Línuskilgreiningu er hægt að sameina með dálkaskilgreiningum, skipuritsskilgreiningum og skýrsluskilgreiningum til að stofna einingahóp sem mörg fyrirtæki geta notað.
 
@@ -72,8 +76,8 @@ Til að bæta víddum við línuskilgreiningu skal fylgja eftirfarandi skrefum.
 
 1.  Report Designer smellt **Línuskilgreiningar**, og opnið síðan línuskilgreiningu til að breyta.
 2.  Á valmyndinni **Breyta** er smellt á **Setja inn línur úr víddum**.
-3.  Í **Setja inn Línur úr Víddir ** í svarglugganum, í **Víddir** línunni skal velja hólfið fyrir víddina sem á að flytja í línuskilgreininguna og smella síðan á **Öll &&&**.
-4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í ** Upphafs víddarsviðs ** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs**reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugið:** Algildisstafir (\* eða?) í víddarsviðum skila ekki endilega öllum niðurstöðum sem óskað er, eftir því hvernig ERP gagnagrunnurinn safnar gögnum.
+3.  Í **Setja inn Línur úr Víddir** í svarglugganum, í **Víddir** línunni skal velja hólfið fyrir víddina sem á að flytja í línuskilgreininguna og smella síðan á **Öll &&&**.
+4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í **Upphafs víddarsviðs** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs**reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugið:** Algildisstafir (\* eða?) í víddarsviðum skila ekki endilega öllum niðurstöðum sem óskað er, eftir því hvernig ERP gagnagrunnurinn safnar gögnum.
 5.  Í **Kóði upphafslínu** svæðið skal tilgreina línukóða fyrir fyrsta víddargildi sem á að bæta við línuskilgreiningu.
 6.  Í **Auka stig hverrar línu með** svæðið skal tilgreina bilið á milli samfelldra línukóða. Til dæmis, ef kóði fyrstu línu er 100 og stigvaxandi gildi er 30, hafa fyrstu nýju línurnar kóðana 100 130, 160, 190 og 220. Notið stigvaxandi gildi sem veitir nægt bil fyrir innsetningu nýs sniðs og formúlulínur.
 7.  Smelltu á **Í lagi**. Einni línu er bætt við línuskilgreininguna fyrir hvert valið víddargildi.
@@ -173,6 +177,8 @@ Til að auðvelda að skoða dálka sem er unnið er með í línuskilgreiningu 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
 
 

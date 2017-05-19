@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 5fbdfc037daec295028a9ac4ca4608f0abe84112
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6b244dcd6d00e065c5ce7f6707078e3665c8b368
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Til að skilgreina sjálfvirkt verk í verkflæðisritlinum, er hægrismellt á 
 Fylgið þessum skrefum til að færa inn heiti á sjálfvirkt verk.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti ** skal færa inn einkvæmt heiti fyrir verkið.
+2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir verkið.
 
 ## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
 Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið keyrt eða hætt við. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers þær eru sendar.

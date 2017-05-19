@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,12 +49,12 @@ Eftirfarandi dæmi sýna tvær leiðir til að skilgreina verkflæði fyrir innk
 ## <a name="example-1-route-a-purchase-requisition-as-a-single-document-for-review"></a>Dæmi 1: Leið innkaupabeiðni sem einu skjali til yfirferðar
 Eftirfarandi skýringarmynd sýnir hvernig innkaupabeiðni getur fara í gegnum endurskoðunarferli verkflæðis sem eitt skjal. Línur á innkaupabeiðninni er ekki settar í leið hver fyrir sig. Í þessu dæmi er eftirfarandi hlutverk teknar með í verkflæðisferlinu:
 
--   **Umsækjandinn ** – notandinn sem biður um vörur eða þjónustu. Umsækjanda getur undirbúa innkaupabeiðnina eða annars starfsmaður getur undirbúa innkaupabeiðni fyrir hönd umsækjanda. Þessi starfsmaður er sá undirbúningsaðili. Undirbúningsaðili er ábyrgur fyrir stjórnun innkaupabeiðni í gegnum yfirferðarferlið. Aðeins undirbúningsaðili innkaupabeiðnina má breyta henni.
+-   **Umsækjandinn** – notandinn sem biður um vörur eða þjónustu. Umsækjanda getur undirbúa innkaupabeiðnina eða annars starfsmaður getur undirbúa innkaupabeiðni fyrir hönd umsækjanda. Þessi starfsmaður er sá undirbúningsaðili. Undirbúningsaðili er ábyrgur fyrir stjórnun innkaupabeiðni í gegnum yfirferðarferlið. Aðeins undirbúningsaðili innkaupabeiðnina má breyta henni.
 
 **Athugasemd** Starfsmaður verður að hafa viðeigandi heimildir til að stofna innkaupabeiðni fyrir hönd einhvers annars. Nota skal **heimild innkaupabeiðnar** síðu til að setja upp þessar heimildir.
 
--   **Innkaupaaðilinn ** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
--   **Stjórnandi umsækjanda ** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
+-   **Innkaupaaðilinn** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
+-   **Stjórnandi umsækjanda** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
 
 ![endurskoðunarferli fyrir verkflæði innkaupabeiðni](./media/purchreqworkflowoverview_submission.gif)  
 Í þessu dæmi fylgir verkflæðiferlið fyrir innkaupabeiðni þessum skrefum:
@@ -69,14 +70,14 @@ Eftirfarandi dæmi sýnir hvernig einstakar innkaupabeiðnilínur má setja í l
 
 Í þessu dæmi er eftirfarandi hlutverk teknar með í verkflæðisferlinu:
 
--   **Umsækjandinn ** – notandinn sem biður um vörur eða þjónustu. Umsækjanda getur undirbúa innkaupabeiðnina eða annars starfsmaður getur undirbúa innkaupabeiðni fyrir hönd umsækjanda. Þessi starfsmaður er sá undirbúningsaðili. Undirbúningsaðili er ábyrgur fyrir stjórnun innkaupabeiðni í gegnum yfirferðarferlið. Aðeins undirbúningsaðili innkaupabeiðnina má breyta henni.
+-   **Umsækjandinn** – notandinn sem biður um vörur eða þjónustu. Umsækjanda getur undirbúa innkaupabeiðnina eða annars starfsmaður getur undirbúa innkaupabeiðni fyrir hönd umsækjanda. Þessi starfsmaður er sá undirbúningsaðili. Undirbúningsaðili er ábyrgur fyrir stjórnun innkaupabeiðni í gegnum yfirferðarferlið. Aðeins undirbúningsaðili innkaupabeiðnina má breyta henni.
 
 **Athugasemd** Starfsmaður verður að hafa viðeigandi heimildir til að stofna innkaupabeiðni fyrir hönd einhvers annars. Nota skal **heimild innkaupabeiðnar** síðu til að setja upp þessar heimildir.
 
--   **Innkaupaaðilinn ** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
--   **Stjórnandi umsækjanda ** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
--   **Deildarstjórinn **– notandinn sem framkvæmir yfirferð á útgjöldum og getur samþykkja skjalið.
--   **Hópstjórinn ** – notandinn sem framkvæmir endurskoðun fyrir undirskriftarvald og getur samþykkja skjalið.
+-   **Innkaupaaðilinn** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
+-   **Stjórnandi umsækjanda** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
+-   **Deildarstjórinn**– notandinn sem framkvæmir yfirferð á útgjöldum og getur samþykkja skjalið.
+-   **Hópstjórinn** – notandinn sem framkvæmir endurskoðun fyrir undirskriftarvald og getur samþykkja skjalið.
 
 ![endurskoðunarferli fyrir Verkflæði innkaupabeiðnilína](./media/purchreqlineworkflowoverview.gif)  
 Í þessu dæmi inniheldur verkflæðiferlið fyrir innkaupabeiðnilínur þessi skrefum:
@@ -104,7 +105,7 @@ Ekki þarf að setja upp skilgreiningu fyrir skilgreining skoðunarmanns útgjal
 
 Hægt er að setja upp skoðunarmaður útgjalda á **skoðunarmaður útgjalda fyrir Innkaupabeiðni** síðunni. Stofna skilgreining skoðunarmanns útgjalda og færa inn gildin fyrir hvern lögaðila í þínu fyrirtækið. Fyrir innkaupabeiðnir sem eru tengdir við verk, er hægt að tilgreina það hlutverk sem er ábyrgur fyrir að endurskoða innkaupabeiðnunum: verkstjóri, verkstjórnandi eða sölustjórnandi Verks. Útgjöldum verða sett í leið til þess notanda sem hefur fengið það hlutverk úthlutað. Einnig er hægt setja útgjöldum í leið til eiganda fjárhagsvíddar með því að velja viðeigandi valkost fyrir fjárhagsvídd á flipanum **dreifing á fyrirtæki**.  
 
-Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, verður að setja í **Gerð þátttakanda** valkostinn á ** þátttakendur í Útgjöldum** í á** Úthlutun** eiginleika fyrir viðkomandi verkflæðiseiningu.
+Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, verður að setja í **Gerð þátttakanda** valkostinn á **þátttakendur í Útgjöldum** í á**Úthlutun** eiginleika fyrir viðkomandi verkflæðiseiningu.
 
 <a name="see-also"></a>Sjá einnig
 --------

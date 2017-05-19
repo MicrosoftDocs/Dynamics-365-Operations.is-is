@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f82bf6373e8076fb6786fe9ef184f47f3cf7b84
-ms.openlocfilehash: 5b8104b570c7679dff7157696d08355627312f71
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: fb8f31a88b63d8c046d28478cc29175ed8c39cb6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -45,9 +46,9 @@ Sem hluti af Microsoft Dynamics 365 for Operations geta notendur fylgst með sö
 
 Þar að auki eru tvær einkvæmar skýrslur sem leyfa notendum að fylgjast með sölu og afköstum framlegðar með því að kafa niður frá efsta tegundahnúti niður á staka laufhnúta tegundarinnar í sjálfgefnu flokkastigveldi smásöluafurða. Þessar skýrslur nýta sér uppbyggingu stigveldishnita. Notendur geta einnig kafað frá efstu rekstrareiningunum niður á einstakar rásir í stigveldi fyrirtækisins sem skilgreindur er sem sjálfgefið stigveldi fyrirtækis fyrir skýrslugerð stigveldisins. Hægt er að opna skýrslurnar úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt;**Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar **&gt;** Skýrslur**
--   **Flokka- og afurðastjórnun** vinnusvæði Dynamics 365 for Operations &gt;**Smásala og viðskipti** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslunar ** &gt; ** Skýrslur**
--   **tjórnun verðlagningar og afslátta** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslunar **&gt;** Skýrslur**
+-   **Stjórnun smásöluverslunar** vinnusvæði Dynamics 365 for Operations &gt;**Smásala og viðskipti** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar**&gt;**Skýrslur**
+-   **Flokka- og afurðastjórnun** vinnusvæði Dynamics 365 for Operations &gt;**Smásala og viðskipti** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur**
+-   **tjórnun verðlagningar og afslátta** vinnusvæði Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslunar**&gt;**Skýrslur**
 -   **Fyrirspurnir og skýrslur** hlutinn Dynamics 365 for Operations &gt; **Smásala og viðskipti** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**
 
 

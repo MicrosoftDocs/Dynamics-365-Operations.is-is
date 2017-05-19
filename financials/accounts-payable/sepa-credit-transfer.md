@@ -3,7 +3,7 @@ title: "Yfirlit yfir SEPA-kreditfærslur"
 description: "Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna.
 
@@ -55,8 +59,8 @@ Greiðslusnið SEPA-kreditfærslu fyrir evrópulönd er innleitt með því að 
 Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
--   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   Þegar þú stillir greiðsluaðferðir viðskiptaskulda velurðu gátreitinn **Almenna rafræn skýrslugerð** og viðeigandi kreditfærslusnið (t.d. **ISO 20022 Credit transfer (AT)**) sem stillingar útflutningssniðs.
+-   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Þegar þú stillir greiðsluaðferðir viðskiptaskulda velurðu gátreitinn **Almenna rafræn skýrslugerð** og viðeigandi kreditfærslusnið (t.d. **ISO 20022 kreditfærsla (AT)**) sem stillingar útflutningssniðs.
 -   Einnig þarf að setja upp lögaðila einingar og bankareikningsupplýsingar í Dynamics 365 for Operations.
 -   Krafist er númer bankareiknings, IBANs og stundum SWIFT-kóða (BICs) eða annarra kenna til að stofna gildar kreditfærslugreiðslur. Þess vegna verður að setja þær upp fyrir bankareikning lánardrottins og bankareikningur fyrirtækisins sem óskar eftir flutningnum.
 -   Viðbótarupplýsingar gætu verið nauðsynlegar, svo sem virðisaukaskattsnúmer fyrir aðila sem á að vísa í kreditfærsluskilaboðum. Setja verður þessar upplýsingar upp fyrir lánardrottna og fyrir lögaðilann þegar beðið er um það.
@@ -121,5 +125,7 @@ Alþjóðlegt númer bankareiknings (IBAN) og bankaeinkenniskóði (BIC) eru not
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Hvernig sendi ég greiðsluskrá í bankann?
 Greiðsluskráin er mynduð þegar greiðslur eru myndaðar og það verður beðnir um að vista hana úr vafranum á einhverja tiltæka staðsetningu. Næsta skref er að senda xml-skrána til bankans. Þetta ferli er breytilegr frá einum banka til annars. Fylgja skal leiðbeiningunum frá bankanum til að senda inn skrár til banka fyrir vinnslu.
+
+
 
 

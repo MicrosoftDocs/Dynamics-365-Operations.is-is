@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,10 +52,10 @@ Til dæmis þú býður 2 prósent staðgreiðsluafslátt ef reikningurinn er gr
 ## <a name="credit-notes-with-discounts"></a>Kreditnótur með afslætti
 Ef viðskiptavinir skila sumum af vörunum á reikningi, gætir þú gefið út kreditnótu. Ef staðgreiðsluafsláttur var tekin af upprunalega reikningi, ætti kreditreikning til viðskiptavinar að vera nettó staðgreiðsluafsláttar sem var tekinn af viðskiptavini. Ef **Reikna staðgreiðsluafslætti fyrir kreditnótur** valkostur er stilltur á **Já** í **Færibreytur viðskiptakrafna** síðu, er afslátturinn sjálfkrafa reiknaður út fyrir kreditnótu. 
 
-Til dæmis þú býður greiðsluskilmálar sem tiltaka 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga eftir það hann er gefinn út. Reikningur fyrir 100,00 var bókuð og viðskiptavinur tók staðgreiðsluafsláttinn. Ef viðskiptavinur skilar vörur og kreditnóta er gefin út, er hægt að færa inn kreditnótu fyrir -100.00. Þegar kreditnótan er skoðuð á **Jafna opnar færslur** síðu birtist ** 98.00** í á **Upphæðin til jöfnunar** svæði, og **-2.00** birtist í á **upphæð staðgreiðsluafsláttar** svæði. Afsláttarupphæðin er bókuð á lykil fyrir staðgreiðsluafslátt.
+Til dæmis þú býður greiðsluskilmálar sem tiltaka 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga eftir það hann er gefinn út. Reikningur fyrir 100,00 var bókuð og viðskiptavinur tók staðgreiðsluafsláttinn. Ef viðskiptavinur skilar vörur og kreditnóta er gefin út, er hægt að færa inn kreditnótu fyrir -100.00. Þegar kreditnótan er skoðuð á **Jafna opnar færslur** síðu birtist **98,00** í **Upphæðin til jöfnunar** svæðinu, og **-2,00** birtist í **upphæð staðgreiðsluafsláttar** svæðinu. Afsláttarupphæðin er bókuð á lykil fyrir staðgreiðsluafslátt.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Upphæðir Ofgreiðslu eða vangreiðslu
-Þegar viðskiptavinir greiða greiðslu, gæti verið mjög lágar upphæð sem þarf samt enn að jafna. Til dæmis reikningsfærir þú viðskiptavininn fyrir 1.000,00 og viðskiptavinur greiðir 999,90. Ef eftirstandandi upphæð er lægri en upphæðin sem tilgreindur er fyrir ofgreiðslu eða vangreiðslu á í** Færibreytur viðskiptakrafna** síðu, er mismunur sjálfkrafa bókuð í fjárhagslykil ofgreiðslu/vangreiðslu.
+Þegar viðskiptavinir greiða greiðslu, gæti verið mjög lágar upphæð sem þarf samt enn að jafna. Til dæmis reikningsfærir þú viðskiptavininn fyrir 1.000,00 og viðskiptavinur greiðir 999,90. Ef eftirstandandi upphæð er lægri en upphæðin sem tilgreindur er fyrir ofgreiðslu eða vangreiðslu á í**Færibreytur viðskiptakrafna** síðu, er mismunur sjálfkrafa bókuð í fjárhagslykil ofgreiðslu/vangreiðslu.
 
 ## <a name="full-settlement"></a>Full jöfnun
 Viðskiptavinir gæti reitt fram hlutagreiðslu þar sem eftirstöðvar upphæðarinnar sem verður ekki greidd er hærri en upphæð vangreiðslu sem tilgreind er í á **færibreytur viðskiptaskulda** síðu. Ef óskað er að merkja reikning sem að fullu jafnaðan, er hægt að nota **Full jöfnun** valkostinn á **Jafna færsluna** síðu. (Hægt er að virkja aðgerðir fullrar jöfnunar með því að nota skilgreiningarlykil.) Til dæmis er reikningur bókaður fyrir 1.000,00 og viðskiptavinur greiðir inn á 990,00. Samþykkt hefur verið að viðskiptavinurinn þarf ekki að greiða eftirstandandi 10,00. Eftir að reikningur er merktur fyrir jöfnun, er einnig hægt að merkja velja **Full jöfnun**. Reikningur teljst svo að fullu jafnaður. mismunurinn 10,00 er bókaður í staðgreiðsluafsláttarlykill sem upphæð viðbótarstaðgreiðsluafsláttar.

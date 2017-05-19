@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 8d4025e805545cc518f90f8dc4786fd61d8f6d93
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e54fdf1737d8cbe74780313a2af10f92d9301746
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,7 +45,7 @@ Ekki er hægt að eyða kostnaðareiningum fjárhagsáætlunar sem er úthlutað
 Ekki er hægt að fjarlægja kostnaðareiningu. Ef upphafs- og lokadagsetningum er breytt þannig að þær falli utan dagsetningar ferlis fjárhagsáætlunargerðar verður kostnaðareiningum ekki lengur úthlutað á spástöður í því ferli fjárhagsáætlunargerðar. Til að gera þessa breytingu skal opna kostnaðareiningu fjárhagsáætlunar, og síðan, á flýtiflipanum **Kostnaðarútreikningur** skal smellt á **Breyta dagsetningum**, og breyta upphafsdagsetningu eða lokadegi. Smellið á **Í lagi** til að uppfæra sjálfkrafa allar spástöður sem kostnaðareiningu er úthlutað. **Vísbending:** Ef þessi aðferð er notuð, skal hafa í huga að hún fjarlægir kostnaðareiningu fjárhagsáætlunar úr **öllum** spástöðum þar sem upphafs- og lokadagsetningarnar eru ekki lengur innan viðeigandi tímabils. Ef þetta er ekki það sem til stóð þarf að opna hverja spástöðu sem á að fjarlægja kostnaðareiningu fjárhagsáætlunar úr og gera breytingar handvirkt.
 
 ## <a name="why-cant-i-enter-an-annual-amount-on-the-cost-calculation-fasttab-for-the-budget-cost-element"></a>Af hverju get ég ekki slegið inn árlega upphæð í flýtiflipanum Útreikningur kostnaðar fyrir kostnaðareiningu fjárhagsáætlunar?
-Ekki er hægt að slá inn árlega upphæð ef það eru kostnaðareiningar fjárhagsáætlunar á flýtiflipanum **Grundvöllur útreikninga ** því kerfið krefst prósentuhlutfalls til að reikna út gildi. Til að breyta þessu gildi skal fjarlægja allar kostnaðareiningar fjárhagsáætlunar úr flýtiflipanum **Grundvöllur útreikninga**.
+Ekki er hægt að slá inn árlega upphæð ef það eru kostnaðareiningar fjárhagsáætlunar á flýtiflipanum **Grundvöllur útreikninga** því kerfið krefst prósentuhlutfalls til að reikna út gildi. Til að breyta þessu gildi skal fjarlægja allar kostnaðareiningar fjárhagsáætlunar úr flýtiflipanum **Grundvöllur útreikninga**.
 
 ## <a name="why-cant-i-change-the-budget-cost-type-from-earning-to-another-budget-cost-type"></a>Af hverju get ég ekki breytt kostnaðargerð fjárhagsáætlunar úr tekjum í aðra kostnaðargerð fjárhagsáætlunar?
 Sumar kostnaðargerðir fjárhagsáætlunar nota kostnaðarþáttinn tekjur sem reiknigrundvöll. Til að breyta svæðinu **Kostnaðargerð fjárhagsáætlunar** skal fjarlægja kostnaðareiningu tekna úr flýtiflipanum **Grundvöllur útreikninga** í öllum einingum fjárhagsáætlunar.

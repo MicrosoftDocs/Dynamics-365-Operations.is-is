@@ -19,10 +19,11 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8854ab94a71cc363bcd073d2df47bc01a243b6cd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 43cb4ed2ca77592fc23100fd74cb2bfa23c17f47
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,13 +44,13 @@ Afurðarafbrigði eru einnig nefndar vörur. Vara er áþreifanleg afurð sem er
 ## <a name="product-dimensions"></a>Afurðarvíddir
 Eftirfarandi afurðavíddir eru tiltækar: Afbrigði, Litur, Stærð og Stíll. Hægt er að mynda afurðarafbrigði fyrir á grundvelli afurðarvíddargildi.
 
-Gildi afurðarvídda eins og Stærð, Lit og Stíl er hægt að stofna á í **Stærð**, **Litur** og **Stíll** síðum sem hægt er að komast í úr eftirfarandi staðsetningum: **Afurðarupplýsingastjórnun** &gt; **Uppsetningu** &gt; **Vídd og afbrigðaflokkar** &gt; **Stærðir/Litir/Stílar**. Afurðarvíddargildi fyrir skilgreiningarvíddir eru yfirleitt stofnaðar með afurðaafbrigðastilli eða afurðarafbrigðastillis sem byggir á víddum. Vöruvíddir er einnig hægt að stofnað og þeim viðhaldið í **  afurðarvíddir ** síðu, sem fæst frá eftirfarandi staðsetningum:
+Gildi afurðarvídda eins og Stærð, Lit og Stíl er hægt að stofna á í **Stærð**, **Litur** og **Stíll** síðum sem hægt er að komast í úr eftirfarandi staðsetningum: **Afurðarupplýsingastjórnun** &gt; **Uppsetningu** &gt; **Vídd og afbrigðaflokkar** &gt; **Stærðir/Litir/Stílar**. Afurðarvíddargildi fyrir skilgreiningarvíddir eru yfirleitt stofnaðar með afurðaafbrigðastilli eða afurðarafbrigðastillis sem byggir á víddum. Vöruvíddir er einnig hægt að stofnað og þeim viðhaldið í **afurðarvíddir** síðu, sem fæst frá eftirfarandi staðsetningum:
 -   Smellið á **Upplýsingar um afurðarstjórnun** &gt; **Afurðir** &gt; **Afurðarsniðmát**. Á **Aðgerðasvæði** skal smella á **Afurðarvíddir**.
--   Smellið á **Upplýsingastjórnun afurða ** &gt; **Afurðir** &gt; **Allar afurðir og afurðarsniðmát**. Veljið afurðarsniðmát. Á **Aðgerðasvæði** skal smella á **Afurðarvíddir**.
+-   Smellið á **Upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Allar afurðir og afurðarsniðmát**. Veljið afurðarsniðmát. Á **Aðgerðasvæði** skal smella á **Afurðarvíddir**.
 -   Smellið á **Upplýsingastjórnun afurðar** &gt; **Útgefnar afurðir**. Veljið afurðarsniðmát. Í **Aðgerðasvæði** er smellt á **Afurð**. Í reitnum **afurðarsniðmát** flokki, skal velja **afurðarvíddir**.
 
 Númer vöruvíddasamsetningar sem hægt er að stofna fyrir vöru er takmörkuð af fjölda afurð mögulegar samsetningar.
-| **Ábending **                                                                                                                                              |
+| **Ábending**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Þegar þú notar afurð á til dæmis pöntunarlínu velurðu afurðavíddir til að tilgreina afurðarafbrigði sem á að vinna með. |
 

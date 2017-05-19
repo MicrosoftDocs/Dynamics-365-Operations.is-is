@@ -3,7 +3,7 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í síðari uppfærslum úr Dynamics 365 for Operations. Það er einnig listi yfir aðgerðir sem var úrelt í Dynamics AX 7,0 útgáfu."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Úreltir eiginleikar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í síðari uppfærslum úr Dynamics 365 for Operations. Það er einnig listi yfir aðgerðir sem var úrelt í Dynamics AX 7,0 útgáfu.
 
@@ -472,7 +476,17 @@ Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microso
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Dynamics AX biðlarann Hefur verið endurhönnuð til að auka notkunargetu yfir marga vettvanga og tæki.                      |
 | Skipt út fyrir aðra eiginleika? | Nýr vefbiðlari er byggð á lýsigögnum skjáborðsmyndar og forritunarlíkans sem hefur verið breytt til að veita ríkulegan vefvettvang. |
-| Kerfi sem verða fyrir áhrifum             | Allt                                                                                                                                    |
+| Kerfi sem verða fyrir áhrifum             | Allir lyklar                                                                                                                                    |
+
+### <a name="direct-database-connection"></a>Bein gagnagrunnstenging
+
+Í Dynamics AX 2012 R3, getur Retail Modern POS tengst beint í Channel DB á svipaðan hátt og við Enterprise POS. Það var auk staðlaðar samskiptaaðferðar Retail Modern POS sem átti samskipti í gegnum Retail-þjón.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Ástæða afskrifta       | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Dynamics 365 fyrir Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
+| Skipt út fyrir aðra eiginleika? | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.    |
+| Kerfi sem verða fyrir áhrifum             | Channel DB/Retail Modern POS                                    |
 
 ### <a name="dutch-swift-mt940"></a>Hollenska SWIFT MT940
 
@@ -661,8 +675,18 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Þessi útgáfu af Dynamics AX styður ekki merkingabreytingar á keyrslutíma. |
-| Skipt út fyrir aðra eiginleika? | Nei                                                                            |
-| Kerfi sem verða fyrir áhrifum             | Vöruupplýsingastjórnun                                                |
+| Skipt út fyrir aðra eiginleika? | Ekkert                                                                            |
+| Kerfi sem verða fyrir áhrifum             | Afurðaupplýsingastjórnun                                                |
+
+### <a name="retail-server-connectivity-using-http"></a>Tengigeta Retail-þjóns athuguð
+
+Í Dynamics AX 2012 R3, gæti Retail-þjónn virkað með HTTP samskiptaaðferðar (ekki-öryggisvörðum). Þetta var til viðbótar við stöðluð samskipti með HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Ástæða afskrifta       | Vegna nýrra öryggisþarfa, aðeins öryggisvörðum samskipti með TLS 1,2 (eða ofan, sé það til staðar) er nú studd. Sjálfsafgreiðslu uppsetningarforritið mun sjálfkrafa skilgreina tölvunni þessu samskiptaaðferðar. |
+| Skipt út fyrir aðra eiginleika? | Nei. Aðeins stöðluðum HTTPS samskipti eru studd núna.                                                                           |
+| Kerfi sem verða fyrir áhrifum             | Retail-þjónn                                                |
 
 ### <a name="role-center-pages"></a>Hlutverkamiðstöðvarsíður
 
@@ -784,6 +808,8 @@ Mannauður, launaupplýsingar
 | Ástæða afskrifta       | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                                    |
 | Skipt út fyrir aðra eiginleika? | Management Reporter (merktur **fjárhagsskýrslugerð** í þessari útgáfu af Dynamics AX) |
 | Kerfi sem verða fyrir áhrifum             | Fjárhagur                                                                              |
+
+
 
 
 

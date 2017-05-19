@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Hægt er að leita að tvíteknum færslum beint úr listasíðunni **Altæk að
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Er hægt að bæta við eða eyða skrám aðila úr aðsetursbók í magni?
 Já, hægt er að bæta mörgum aðilafærslum í aðsetursbók og fjarlægja einnig margar aðilafærslur.
 
--   Til að bæta mörgum aðilafærslum í aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók ** velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Úthluta aðilum**. Veljið aðsetursbækur sem á að bæta völdum aðilafærslum við og smellið síðan á **Í lagi**. Öllum völdum aðilafærslum er bætt við valdar aðsetursbækur.
--   Til að fjarlægja margar aðilafærslur úr aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók **velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Fjarlægja aðila**. Veljið aðsetursbækur þaðan sem fjarlægja á aðila, og smellið síðan á **Í lagi**. Allar valdar aðilafærslur eru fjarlægðar úr völdum aðsetursbókum.
+-   Til að bæta mörgum aðilafærslum í aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók** velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Úthluta aðilum**. Veljið aðsetursbækur sem á að bæta völdum aðilafærslum við og smellið síðan á **Í lagi**. Öllum völdum aðilafærslum er bætt við valdar aðsetursbækur.
+-   Til að fjarlægja margar aðilafærslur úr aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók**velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Fjarlægja aðila**. Veljið aðsetursbækur þaðan sem fjarlægja á aðila, og smellið síðan á **Í lagi**. Allar valdar aðilafærslur eru fjarlægðar úr völdum aðsetursbókum.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Er hægt að breyta gerð færslu aðila eða þarf að eyða gömlum færslunni og stofna nýja?
 Einstaka sinnum gæti þurft að breyta gerð°færslu úr einstaklingur í fyrirtæki eða úr fyrirtæki í einstaklingur. Til dæmis er Nancy meðlimur söluhópsins fyrir Fabrikam U.K. Á sölusýningu í London, hittir hún sex ný viðföng. Nancy stofnar viðfangsfærslu aðila fyrir hvert viðfang. Þegar Nancy vistar færslurnar, er hver færsla einnig stofnuð í altæku aðsetursbókinni. Fabrikam hefur sett sjálfgefna aðilagerð á fyrirtæki en tvö nýju viðfanganna ættu að hafa færslugerð einstaklings. Þess vegna þarf Nancy, þegar hún kemur til baka frá sölusýningunni, að breyta gerð aðila í þessum tveimur viðfangsfærslum. Til að breyta færslu aðila úr einni gerð aðila í aðra, verður fyrst að stofna nýja færslu aðila af réttri gerð í altæku aðsetursbókinni. Síðan þarf að tengja°eldri færslu aðila við þessa nýja færslu. Eftir að hafa framkvæmt nýja tengingu aðila, þarf að eyða upprunalegri aðilafærslu sem hefur ranga færslugerð.
@@ -51,7 +52,7 @@ Einstaka sinnum gæti þurft að breyta gerð°færslu úr einstaklingur í fyri
 Hægt er að uppfæra heiti aðilafærslu og aðsetur sem tengjast færslunni, hvenær sem er.
 
 -   Opna færslu aðila til að uppfæra heiti aðilafærslu, og smellið síðan á **Breyta** á Aðgerðarúðunni. Á flýtiflipanum **Almennt**, skal°færa inn nýtt heiti fyrir aðila og vista svo færsluna.
--   Til að uppfæra aðsetur aðilafærslu, skal opna aðilafærsluna og svo velja aðsetur til að uppfæra á flýtiflipanum ** Aðsetur**. Smellið á **Breyta**, og síðan, á **Breyta aðsetri** síðunni, er hægt að gera nauðsynlegar breytingar á aðsetri eða aðsetursfæribreytum.
+-   Til að uppfæra aðsetur aðilafærslu, skal opna aðilafærsluna og svo velja aðsetur til að uppfæra á flýtiflipanum **Aðsetur**. Smellið á **Breyta**, og síðan, á **Breyta aðsetri** síðunni, er hægt að gera nauðsynlegar breytingar á aðsetri eða aðsetursfæribreytum.
 
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Er hægt að sameina tvær eða fleiri aðilafærslur í eina færslu?
 Einstaka sinnum gæti verið óskað eftir að sameina tvær eða fleiri aðilafærslur í eina færslu. Þetta getur gerst ef búin hefur verið til ein eða fleiri tvíteknar aðilafærslur, annaðhvort viljandi eða óvart. Þegar verið er að sameina aðilafærslur skal velja eina skrá til að halda. Upplýsingar úr öðrum færslum eru svo sameinaðar í þessari færslu. Til dæmis kemur í ljós að upplýsingar um Fabrikam eru geymdur í þremur aðilafærslum; A, B og C. Ákveðið er að halda aðilafærslu A. Þess vegna verða°upplýsingarnar sem eru geymdar í aðilafærslum B og C sameinaðar í aðilafærslu A. Við ákveðnar aðstæður er ekki hægt að sameina aðilafærslur:

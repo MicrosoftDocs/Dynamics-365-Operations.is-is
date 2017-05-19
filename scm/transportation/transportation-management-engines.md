@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Gögnum sem eru notuð við útreikning vaxta í Microsoft Dynamics 365 for Oper
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Krefjast allar vélaskilgreiningar lýsigagna?
 Nei, flutningsstjórnunarvélar sem eru notaðar til að sækja gögn sem krafist er fyrir taxtaútreikning frá utanaðkomandi kerfum þurfa ekki lýsigögn. Hægt að endurheimta gögnin taxta fyrir þessar véla úr ytri flutningsstöðu flutningsaðila kerfum, vanalega í gegnum vefþjónustu. Til dæmis er hægt að nota akstursvél sem sækir gögn beint úr Bing-kortum þannig að þarf ekki að lýsigögn fyrir þessa vél.
-| **Ábending **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Ábending**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Flutningsstjórnunarvélar sem eru afhentar með Microsoft Dynamics 365 for Operations reiða sig á gögn sem eru sóttar úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Microsoft Dynamics 365 for Operations Visual Studio Tools. |
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Skattyfirvöld hafa lagt sérstök gjöld á vöru. Upphæð gjaldanna er bætt 
 -   VSK = 25%, notar útreikningsaðferð fyrir prósentu af brúttóupphæð
 
 Ef nettóupphæðin er 10,00 þá er Gjald 1 1,00 (10,00 x 10%) og Gjald 2 2,00 ( 10,00 x 20%). Upphæðirnar yrðu eftirfarandi: Brúttóupphæð: Nettóupphæð + upphæð GJALD 1 + upphæð GJALD 2 (10,00 + 1,00 + 2,00) = 13,00 VSK = 13,00 x 25% = 3,25 Samtals GJÖLD og VSK: 1,00 + 2,00 + 3,25 = 6,25 Heildarupphæð: 10,00 + 6,25 = 16,25
-| **Ábending **                                                                                                                                                                                                                 |
+| **Ábending**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aðeins er hægt að nota einn VSK-kóða með Uppruna = Prósenta af brúttóupphæð fyrir færslu. Ef fleiri en einn slíkur skattkóði er ákvarðaður fyrir færslu birtist villa um að ekki sé hægt að reikna út virðisaukaskatt. |
 
@@ -68,7 +69,7 @@ Eftirfarandi VSK-kóðar eru gefnir:
 -   VSK = 25%, notar aðferð fyrir prósentu af brúttóupphæð
 
 Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Brúttóupphæð: 10,00 + 1,00 + 0,20 = 11,20 VSK: 11,20 x 25% = 2.80 Samtals GJÖLD og VSK: 1,00 + 0,20 + 2,80 = 4,00 Heildarupphæð: 10,00 + 4,00 = 14,00
-| **Ábending **                                                                                                                                                                                                                    |
+| **Ábending**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Margstiga skattur í skattaútreikningum er ekki mögulegur. Ekki er hægt að reikna út skatt á grundvelli skatts sem þegar er reiknaður út frá öðrum skatti. Hægt er að reikna marga eins stigs skatta í skattkóðum í færslu. |
 
@@ -77,7 +78,7 @@ Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Br
 ### <a name="example"></a>Dæmi
 
 Vsk-kóðinn er settur upp sem: 1,20 USD á hverja einingu = kassi Á sölureikningslínu 25 kassar af vöru eru seldir VSK er reiknaður sem 25 x 1,20 = 30,00
-| **Ábending **                                                                                                                                                                                                 |
+| **Ábending**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef færslan er færð inn í aðra einingu en einingu sem er tilgreind á VSK-kóða, umreiknast hún sjálfkrafa á grundvelli einingaumreikninga sem eru settir upp á síðunni Umreikningur eininga. |
 

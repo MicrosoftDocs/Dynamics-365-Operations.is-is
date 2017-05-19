@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 408e2bc6ca1cd506a89ba9676fb457df8fd4e214
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Til að skilgreina handvirkt verk í verkflæðisritlinum, hægrismellt er á ve
 Fylgið þessum skrefum til að færa inn heiti á handvirku verki.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti ** skal færa inn einkvæmt heiti fyrir verkið.
+2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir verkið.
 
 ## <a name="enter-a-subject-line-and-instructions"></a>Slá inn efnislínu og fyrirmæli
 Veita verður þeim notendum, sem úthlutað er þetta verk, efnislínu og fyrirmæli. Til dæmis, ef verið er að skilgreina verk fyrir innkaupabeiðnir, mun notanda sem er úthlutað á verkið sjá efnislínuna og fyrirmælin á **Innkaupabeiðnir** síðunni. Efnislínuna birtist á skilaboðaslánni á síðunni. Notandinn getur síðan smellt á teiknið á skilaboðaslánni til að sjá leiðbeiningar. Fylgið eftirfarandi skrefum til að slá inn efnislínu og fyrirmæli.
@@ -158,8 +159,8 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að klára verkið.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
 
     Ef notandinn klárar ekki verkið innan tímarammans, er verkið komið fram yfir á tíma. Verk sem er komið fram yfir á tíma er hægt að stigmagna, á grundvelli valkostanna sem þú valdir í **stigmögnun** svæðið á síðunni.
 
@@ -230,8 +231,8 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að klára verkið.
-    -   **Mánuðir ** — velja daginn og vikuna sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að klára verkið fyrir. Til dæmis getur notandinn átt að vera búinn að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
 
 5.  Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6.  Ef notendunum í stigmögnunarslóðinni klára ekki verkefni innan tímarammans, grípur kerfið til aðgerða varðandi verkið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
@@ -248,9 +249,9 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
     1.  Smellið á **Prófun**.
     2.  Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu.
     3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
-    4.  Smelltu á **Í lagi ** eða **hætta við ** til að fara aftur síðuna **forstillingar**.
+    4.  Smelltu á **Í lagi** eða **hætta við** til að fara aftur síðuna **forstillingar**.
 
-7.  Í listanum **ljúka aðgerð sjálfvirkt ** skal velja aðgerðina sem kerfið á að grípa til vegna verksins.
+7.  Í listanum **ljúka aðgerð sjálfvirkt** skal velja aðgerðina sem kerfið á að grípa til vegna verksins.
 
 ## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
 Hægt er að senda tilkynningar til fólks þegar handvirku verki hefur verið framselja, stigmagnað, lokið, eða hafnað, eða þegar beðið hefur verið um breytingu. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers tilkynningar eru sendar.
@@ -331,8 +332,8 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
     -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að klára verkið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
     -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að klára verkið.
-    -   **Mánuðir ** — velja daginn og vikuna sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
-    -   **Ár ** — velja daginn, vikuna og mánuðinn sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
+    -   **Mánuðir** — velja daginn og vikuna sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku mánaðarins.
+    -   **Ár** — velja daginn, vikuna og mánuðinn sem verður að vera búið að klára verkið fyrir. Til dæmis getur átt að vera búið að ljúka verkinu fyrir föstudaginn í þriðju viku desembermánaðar.
 
 4.  Ef farið er yfir tímamörkin mun kerfið grípa til aðgerða vegna verksins. Veljið aðgerðina, sem kerfið á að framkvæma, í listanum **Aðgerðir**.
 
@@ -342,7 +343,7 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
 1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
 2.  Veljið gátreitinn **Lokið** ef notandinn á að geta merkt við verkið sem **lokið**.
 3.  Veljið gátreitinn **hafna** ef notandinn á að geta hafnað skjalinu sem var sent inn.
-4.  Veljið gátreitinn **Biðja um breytingu ** ef notandinn á að geta beðið um breytingar á skjalinu sem sent var inn.
+4.  Veljið gátreitinn **Biðja um breytingu** ef notandinn á að geta beðið um breytingar á skjalinu sem sent var inn.
 5.  Veljið gátreitinn **framselja** ef notandinn á að geta framselt verkinu til annars notanda.
 6.  Veljið gátreitinn **endurúthluta** ef notandinn á að geta endurúthlutað verkinu til annars notanda í vinnuliðalistanum.
 7.  Veljið gátreitinn **Losa** ef notandinn á að geta endurúthlutað verkinu til vinnuliðalista. Annar notandi getur þá ljúka verkefninu.

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 5ee7a04572e350a7c08d0418bade6d332aa920c6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e186073d672c05407831f15a66b58ae44d068d0b
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/31/2017
 <td><em>gildi</em></td>
 <td>jafnt og gildið sem fært var inn.</td>
 <td>Sláið inn gildi til að finna.</td>
-<td><strong>Smith </strong> finnur &quot;Smith&quot;.</td>
+<td><strong>Smith</strong> finnur &quot;Smith&quot;.</td>
 </tr>
 <tr class="even">
 <td>!<em>-gildi</em> (upphrópunarmerki)</td>
@@ -73,7 +74,7 @@ ms.lasthandoff: 03/31/2017
 <td><em>gildi</em> (tvöfaldur punktur)</td>
 <td>Minna en eða jafnt og gildið sem fært er inn.</td>
 <td>Færa inn tvo punkta og síðan gildið.</td>
-<td><strong>..1000 </strong> finnur allar tölur sem eru minni en eða jafnar og 1000, t.d. &quot;100&quot;, &quot;999,95&quot; og &quot;1.000&quot;.</td>
+<td><strong>..1000</strong> finnur allar tölur sem eru minni en eða jafnar og 1000, t.d. &quot;100&quot;, &quot;999,95&quot; og &quot;1.000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>gildi</em>.. (tveir punktar)</td>
@@ -115,13 +116,13 @@ ms.lasthandoff: 03/31/2017
 <td>? (spurningamerki)</td>
 <td>Innihalda einn eða fleiri óþekkta stafi</td>
 <td>Færðu inn spurningamerki við stöðu óþekkts staftákns í gildinu.</td>
-<td><strong>Sm?th </strong> finnur &quot;Smith&quot; og &quot;Smyth&quot;.</td>
+<td><strong>Sm?th</strong> finnur &quot;Smith&quot; og &quot;Smyth&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>gildi</em>,<em>gildi</em> (komma)</td>
 <td>Samsvarar gildunum sem eru aðskilin með kommum.</td>
 <td>Færa inn öll þín skilyrði, og aðskiljið þau með kommu.</td>
-<td><strong>A, D, F, G </strong> finnur nákvæmlega &quot;A&quot;, &quot;D&quot;, &quot;F&quot; og &quot;G&quot;. <strong>10, 20, 30, 100</strong> finna nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
+<td><strong>A, D, F, G</strong> finnur nákvæmlega &quot;A&quot;, &quot;D&quot;, &quot;F&quot; og &quot;G&quot;. <strong>10, 20, 30, 100</strong> finna nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">Sql-strengur</span>) (Sql-strengur milli sviga)</td>
@@ -137,8 +138,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="odd">
 <td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> aðferð á milli sviga)</td>
-<td>Jöfnun gilda eða bil gilda sem eru tilgreind í færibreytum <strong>SysQueryRangeUtil </strong>aðferð</td>
-<td>Færðu inn <strong>SysQueryRangeUtil </strong>aðferð sem er með færibreytum sem tilgreina gildi eða svið gilda.</td>
+<td>Jöfnun gilda eða bil gilda sem eru tilgreind í færibreytum <strong>SysQueryRangeUtil</strong> aðferð</td>
+<td>Færðu inn <strong>SysQueryRangeUtil</strong> aðferð sem er með færibreytum sem tilgreina gildi eða svið gilda.</td>
 <td><ol>
 <li>Smellt er á <strong>Viðskiptakröfur</strong> &gt; <strong>Reikningar</strong> &gt; <strong>Opið reikning viðskiptavinar</strong>.</li>
 <li>Styðjið á Ctrl + Shift + F3 til að opna í <strong>Fyrirspurn</strong> síðu.</li>

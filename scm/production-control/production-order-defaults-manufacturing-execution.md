@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: b310e799c1ef0756291c5f7ab886531e4caf1945
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cc12a8d75ead1577cf0b31a0dbf3ac072c47dc08
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ Efnisnotkun við byrjun framleiðslupöntunar er stjórnað af á **Sjálfvirk u
 
 ### <a name="controlling-material-consumption-when-a-production-job-is-started-or-completed"></a>Stjórna efnisnotkun þegar framleiðslupöntun er ræst eða lokið.
 
-Efnisnotkun við byrjun eða lok framleiðsluverks er stjórnað af á **Sjálfvirk uppskriftanotkun** reit á í **aðgerðir ** flipa. Eftirtalin gildi eru tiltæk:
+Efnisnotkun við byrjun eða lok framleiðsluverks er stjórnað af á **Sjálfvirk uppskriftanotkun** reit á í **aðgerðir** flipa. Eftirtalin gildi eru tiltæk:
 
 -   **Losunarregla** – Þegar magn á framleiðsluverki er hafin eða lokið er magni af efni sem verður notaðar samkvæmt losunarreglu sem er stillt á uppskriftarlínum framleiðslu. Aðeins efnislínur þar sem losunarregla er stillt á **Ræsa**  **lokið** verður notuð.
 -   **Alltaf** – Magni af efni sem eru í hlutfalli við ræst magn á verki verður alltaf notað.

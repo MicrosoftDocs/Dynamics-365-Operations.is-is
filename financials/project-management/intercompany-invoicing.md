@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 8a606f81e6e66390bf0add3deeeb032ab4cbd90b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8af9f2c1f6720c5d0a7b98c250a2cc52a5641cef
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -59,11 +60,11 @@ Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutnin
 1.  Setja upp FRSI sem viðskiptavin í USSI lögaðila, og setja upp USSI sem lánardrottinn í FRSI-lögaðila. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.
     | Skref | Aðgangsstaður                                                                       | lýsing   |
     |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Lista fyrir    | Í USSI smellið á **Viðskiptakröfur ** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**. | Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                                                                                                                                                           |
-    | B    | Í FRSI, smellið á **Viðskiptaskuldir ** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar**.        | Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                                                                                                                                                               |
+    | Lista fyrir    | Í USSI smellið á **Viðskiptakröfur** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**. | Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                                                                                                                                                           |
+    | B    | Í FRSI, smellið á **Viðskiptaskuldir** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar**.        | Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                                                                                                                                                               |
     | K    | Í FRSI, Opna færslu lánardrottins sem nýverið var stofnuð.                            | Í Aðgerðasvæði, á flipanum **Almennt** í flokknum **Uppsetning** er smellt á **sinnan samstæðu**. Á á **Innan samstæðu** á síðunni á **viðskiptasamningur** flipanum, skal stilla sleðann **Virkt** til **Já**. Í **fyrirtæki Viðskiptavinar** reitnum skal velja færslu viðskiptavinar sem var stofnaður í skrefi A. |
 
-2.  Smellið á **Verkefnastjórnun og bókhald ** &gt; **Uppsetning** &gt; **færibreytur verkefnastjórnunar og bókhalds**, og smellið svo á flipann **innan samstæðu**. Aðferðin sem þú notar til að setja upp færibreytur fer eftir því hvort þú ert lögaðili sem fær lánað eða lögaðili sem lánar.
+2.  Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **færibreytur verkefnastjórnunar og bókhalds**, og smellið svo á flipann **innan samstæðu**. Aðferðin sem þú notar til að setja upp færibreytur fer eftir því hvort þú ert lögaðili sem fær lánað eða lögaðili sem lánar.
     -   Ef þú ert lögaðili sem fær lánað, skal velja innkaupategund sem á að nota til að jafna reikninga lánardrottins, sem eru myndaðar sjálfkrafa.
     -   Ef þú ert lögaðili sem lánar, fyrir hvern lögaðila sem fær lánað, veldu sjálfgefna verktegund fyrir hverja færslugerð. Verktegundir eru notaðar fyrir skattskilgreiningu þegar tegund reikningsfærslna í samstæðufærslum eru eingöngu til hjá lögaðili sem fær lánað. Hægt er að velja að safna upp tekjum fyrir færslur fyrir samstæðufærslur. Þessi uppsöfnun er gert þegar færslur eru bókaðar, og það er síðan bakfærðar þegar samstæðureikningur er bókaður.
 
@@ -84,19 +85,19 @@ USSI, lögaðilanum sem lánar, verður að stofna og bóka lánardrottinsreikni
 
 | Þrep | Aðgangsstaður                                                                                      | lýsing                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lista fyrir    | **Viðskiptaskuldir ** &gt; **Reikningar** &gt; **Opna reikning lánardrottins** &gt; **nýr reikningur lánardrottins** | Stofna nýjan reikning lánardrottins og færa inn þjónustu sem voru keypt fyrir hönd verkefnis á vegum FRSI.                                                                                                                                                                                  |
-| B    | Síðan **reikning lánardrottins**.                                                                      | Færið inn lína sem standa fyrir útselda þjónustu fyrir hönd FRSI. Á **Línuupplýsingar** flýtiflipi, á **Verks** flipanum fyrir reikningslínu á **fyrirtæki Verkefnis ** reit, skal færa inn **FRSI**. Færið inn verkefni og samsvarandi upplýsingar. Bóka síðan reikningur lánardrottins |
+| Lista fyrir    | **Viðskiptaskuldir** &gt; **Reikningar** &gt; **Opna reikning lánardrottins** &gt; **nýr reikningur lánardrottins** | Stofna nýjan reikning lánardrottins og færa inn þjónustu sem voru keypt fyrir hönd verkefnis á vegum FRSI.                                                                                                                                                                                  |
+| B    | Síðan **reikning lánardrottins**.                                                                      | Færið inn lína sem standa fyrir útselda þjónustu fyrir hönd FRSI. Á **Línuupplýsingar** flýtiflipi, á **Verks** flipanum fyrir reikningslínu á **fyrirtæki Verkefnis** reit, skal færa inn **FRSI**. Færið inn verkefni og samsvarandi upplýsingar. Bóka síðan reikningur lánardrottins |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Dæmi 4: Stofnað og bókað samstæðureikningur
 USSI, lögaðilanum sem lánar, verður að stofna og bóka samstæðureikningur. Það eru tveir komustaðir fyrir skref sem þarf fyrir þetta verk.
 
 | Skref | Aðgangsstaður                                                                                             | lýsing                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lista fyrir    | **Verkefnastjórnun og bókhald ** &gt; **Verkreikningar** &gt; **samstæðureikningur viðskiptavinar**.  | Smellið á **Nýtt** til að opna í **Stofna samstæðureikning** síðu.                                                                                  |
-| B    | **Verkefnastjórnun og bókhald ** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Á við **Stofna samstæðureikning** síðunni skal færa inn lögaðila, tilgreina færsluna sem á að taka með og smellið síðan á **Leit**. |
-| K    | **Verkefnastjórnun og bókhald ** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Velja færslur til að reikningsfæra eða smellið á **Velja allt** til að reikningsfæra allar færslur í listanum og smellið síðan á **í lagi**.                  |
+| Lista fyrir    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **samstæðureikningur viðskiptavinar**.  | Smellið á **Nýtt** til að opna í **Stofna samstæðureikning** síðu.                                                                                  |
+| B    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Á við **Stofna samstæðureikning** síðunni skal færa inn lögaðila, tilgreina færsluna sem á að taka með og smellið síðan á **Leit**. |
+| K    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Velja færslur til að reikningsfæra eða smellið á **Velja allt** til að reikningsfæra allar færslur í listanum og smellið síðan á **í lagi**.                  |
 | D    | Síðan **samstæðureikningur**                                                                       | Reikningstillaga samstæðuviðskiptavinar er sýnd.                                                                                             |
-| E    | Síðan **samstæðureikningur**                                                                       | Smella  ** bóka.**                                                                                                                                  |
+| E    | Síðan **samstæðureikningur**                                                                       | Smella  **bóka.**                                                                                                                                  |
 
 ## <a name="example-5-post-the-vendor-invoice-and-invoice-the-customer"></a>Dæmi 5: Bóka reikning lánardrottins og reikningsfæra á viðskiptavininn
 Þegar lögaðilanum sem lánar, USSI, bókar samstæðureikningur viðskiptavinar, er samsvarandi reikningur lánardrottins í bið stofnuð í lögaðili sem fær lánað, FRSI. Eftir að þessum reikningi lánardrottins er bókaður, reikningsfærir FRSI einnig viðskiptavin verks fyrir vinnustundir sem USSI færði inn. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.
@@ -105,7 +106,7 @@ USSI, lögaðilanum sem lánar, verður að stofna og bóka samstæðureikningur
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Lista fyrir    | **Viðskiptaskuldir** &gt; **Reikningar** &gt; **Reikningar frá lánardrottni í bið**                            | Skoða reikning til að staðfesta að gildi vinnukorts eru teknar með og bóka síðan reikning lánardrottins.                  |
 | B    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **Tillögur um verkreikning** | Búa til nýja verkreikning fyrir verkið, og staðfesta að tímafærslur sem voru bókaðar birtast.            |
-| K    | Síðan **verkreikningur**                                                                       | Velja verkreikning, og smellið síðan á **Skoða upplýsingar ** til að yfirfara kostnað og upphæð sölu. Bóka síðan reikninginn. |
+| K    | Síðan **verkreikningur**                                                                       | Velja verkreikning, og smellið síðan á **Skoða upplýsingar** til að yfirfara kostnað og upphæð sölu. Bóka síðan reikninginn. |
 
 
 

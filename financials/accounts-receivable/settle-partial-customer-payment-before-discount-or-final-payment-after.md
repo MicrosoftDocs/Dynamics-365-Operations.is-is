@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3234bf607ef9ce1643226894716b975a2c2a7b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a12c5b0ab85ac336592941f1fb62aa62ddc5d40d
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -100,7 +101,7 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Notaður staðgreiðsluafsláttur          | 3,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 7,00      |
 
-Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem hann lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna** Færslur viðskiptavina** sér hann að reikningurinn hefur stöðuna 0,00. Hann sér einnig að það eru tvær greiðslur. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
+Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem hann lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna**Færslur viðskiptavina** sér hann að reikningurinn hefur stöðuna 0,00. Hann sér einnig að það eru tvær greiðslur. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

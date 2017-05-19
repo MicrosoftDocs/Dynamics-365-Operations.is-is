@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Nota skal síðuna**Umreikningur staðalkostnaðar** til að auðkenna vörurnar
 Notið síðuna **Vöruverð** til þess að færa inn staðlaðan kostnað í bið í sérnýttu kostnaðarútgáfunni fyrir keypta vöru og flutningsvöru. Kostnaðarfærslur eru svæðisbundnar og nauðsynlegt er að færa inn kostnað í bið fyrir hvert svæði. Notið síðuna **Vöruverð** til að reikna kostnaðarfærslur í bið fyrir framleiddar vörur. Kostnað í bið fyrir framleidda vöru ætti að reikna fyrir hvert framleiðslusvæði nema ef svæðið stendur fyrir flutningssvæði. Í því tilfelli ætti að færa kostnað í bið inn handvirkt. Sumar vörur hafa hugsanlega vöruvíddir eins og lit, stærð eða skilgreiningu. Á síðunni **Umreikningur staðalkostnaðar** sýnir gátreiturinn **Nota kostnaðarverð eftir afbrigði** staðlaðan kostnað fyrir sérhverja samsetningu afurðarvídda. Þegar þessi gátreitur er hreinsaður þarf einungis að færa inn kostnað í bið fyrir vöruna.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Fara yfir og leysa vandamál sem geta komið upp varðandi vörur sem verið er að umreikna
-Nota skal skýrsluna** Athuganir á umreikningi staðalkostnaðar** til að auðkenna vandamál fyrir vörurnar sem verið er að umbreyta. Ef engin vandamál finnast fyrir vöru er stöðu hennar í umreikningsfærslunni breytt í **Villuleitað**. Ef vandamál finnst þarf fyrst að leysa það og síðan keyra skýrsluna aftur þar til stöðunni er breytt í **Villuleitað**. Ef ekki er hægt að leysa vandamál vöru í tæka tíð má velja að eyða vörunni úr umreikningsfærslunni og umreikna hana síðar.
+Nota skal skýrsluna**Athuganir á umreikningi staðalkostnaðar** til að auðkenna vandamál fyrir vörurnar sem verið er að umbreyta. Ef engin vandamál finnast fyrir vöru er stöðu hennar í umreikningsfærslunni breytt í **Villuleitað**. Ef vandamál finnst þarf fyrst að leysa það og síðan keyra skýrsluna aftur þar til stöðunni er breytt í **Villuleitað**. Ef ekki er hægt að leysa vandamál vöru í tæka tíð má velja að eyða vörunni úr umreikningsfærslunni og umreikna hana síðar.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Breyta stöðu umreikningsfærslu í Tilbúin
 Þegar stöðu umreikningsfærslu er breytt í **Tilbúið**, er lokayfirferð keyrð áður en staðlaður kostnaðarumreikningur er keyrður. Staðan mun einungis breytast í **Villuleitað** þegar eftirfarandi skilyrði hafa verið uppfyllt:

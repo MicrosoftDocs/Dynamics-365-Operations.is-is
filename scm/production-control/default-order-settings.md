@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/29/2017
 
 Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
-Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar **síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Útgefnum afurðum** &gt; veljið útgefna afurð &gt; á **Áætlun ** eða ****Stjórna birgðum**** Aðgerðarúðu &gt; **pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
+Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar**síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Útgefnum afurðum** &gt; veljið útgefna afurð &gt; á **Áætlun** eða ****Stjórna birgðum**** Aðgerðarúðu &gt; **pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
 
 ## <a name="default-order-settings"></a>Sjálfgefnar pöntunarstillingar
 Það eru þrjár gerðir af sjálfgefnum pantanastillingum fyrir innkaup, sölu og birgðir. Sjálfgefnar pantanastillingar fyrir innkaup eru notaðar þegar stofnaðar eru:
@@ -90,7 +91,7 @@ Sjálfgefnu pöntunarstillingar hafa forgangsröðun. Því hærra vægi í forg
 
 ### <a name="default-order-settings-for-released-products"></a>Sjálfgefnar pöntunarstillingar fyrir útgefnar afurðir
 
-Fyrir einkvæmrar útgefnar afurðir, er hægt að skilgreina almennar pöntunarstillingar eða pöntunarstillingar tiltekinna svæða. Almenn pöntunarstillingar hafa alltaf vægi núll. Ef sett er upp nýjar pöntunarstillingar fyrir sala, innkaup og birgðir á sama tíma, er mælt með því að nota **Upplýsingayfirlit** á í síðunni **Sjálfgefnar pöntunarstillingar **. Til að skipta yfir í upplýsingayfirlit, er farið í **Valkosti** Aðgerðarúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **Upplýsingayfirlit**.
+Fyrir einkvæmrar útgefnar afurðir, er hægt að skilgreina almennar pöntunarstillingar eða pöntunarstillingar tiltekinna svæða. Almenn pöntunarstillingar hafa alltaf vægi núll. Ef sett er upp nýjar pöntunarstillingar fyrir sala, innkaup og birgðir á sama tíma, er mælt með því að nota **Upplýsingayfirlit** á í síðunni **Sjálfgefnar pöntunarstillingar**. Til að skipta yfir í upplýsingayfirlit, er farið í **Valkosti** Aðgerðarúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **Upplýsingayfirlit**.
 
 ### <a name="site-specific-order-settings"></a>Pöntunarstillingar tengdar svæði
 
@@ -149,9 +150,9 @@ Sem almenn viðmið, sértækar reglur og reglur fyrir víddir sem eru mikilvæg
 
 Regla með núll vægi er öryggisnet. Sé ekki svörun frá öðrum reglum, eru notaðar sjálfgefnar pöntunarstillingar úr núll reglunni. 
 
-Þar sem númer vægis er svo mikilvægt, eru aðgerðir á aðgerðarúða **Sjálfgefnar pöntunarstillingar ** til að færa reglu upp eða niður og að endurnúmera reglur, svo þær séu alltaf með gildisaukningu 10. 
+Þar sem númer vægis er svo mikilvægt, eru aðgerðir á aðgerðarúða **Sjálfgefnar pöntunarstillingar** til að færa reglu upp eða niður og að endurnúmera reglur, svo þær séu alltaf með gildisaukningu 10. 
 
-Reglur sem eru stofnaðar fyrir útgefnar afurðir geta verið margar. Svo hægt sé að ná átta sig betur á hvað hver regla er að hnekkja og til hvers það þarf, mælum við með að nota **hnitanetsyfirlit** á ** Sjálfgefnar pöntunarstillingar** síðuna. Hægt að virkja hnitanetsyfirlit með því að fara á **Valkostir** Aðgerðarrúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **hnitanetsyfirlit**. Fjöldi dálka í hnitanetinu gætu mjög umfangsmikill, sérstaklega fyrir flipa fyrir sölu og birgða. Til að takmarka fjölda dálka í hnitanetinu, er hægt að fela flokkar dálka eða birta með því að nota hnappana á **Sjálfgefnar pöntunarstillingar** &gt; **birting Dálka** valmynd.
+Reglur sem eru stofnaðar fyrir útgefnar afurðir geta verið margar. Svo hægt sé að ná átta sig betur á hvað hver regla er að hnekkja og til hvers það þarf, mælum við með að nota **hnitanetsyfirlit** á **Sjálfgefnar pöntunarstillingar** síðuna. Hægt að virkja hnitanetsyfirlit með því að fara á **Valkostir** Aðgerðarrúðu &gt; **Valkostir síðu** &gt; **Breyta yfirliti** &gt; **hnitanetsyfirlit**. Fjöldi dálka í hnitanetinu gætu mjög umfangsmikill, sérstaklega fyrir flipa fyrir sölu og birgða. Til að takmarka fjölda dálka í hnitanetinu, er hægt að fela flokkar dálka eða birta með því að nota hnappana á **Sjálfgefnar pöntunarstillingar** &gt; **birting Dálka** valmynd.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Tilteknar pöntunarstillingar fyrir útgefin afurðarafbrigði
 

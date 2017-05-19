@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a98ce08dc115bc96cec07c2d6ced10d774785fe9
-ms.openlocfilehash: b1057caae6f47e5a17e194834fbbcb9d7d731605
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 527ca0aa977c928204a1db165a77e20483931bda
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,14 +46,14 @@ Almenn getu dreifingar á fjárhagsupphæð veita eftirfarandi valkostum fyrir d
     -   Upphæðum dreifingar eru á grundvelli tíimabilsgjaldmiðil skjalsins. Venjulega er þessi gjaldmiðill færslugjaldmiðli . gjaldmiðilsupphæðir Bókhalds og skýrslugerðar  eru myndaðar sem hluti af bókhald undirbókar.
     -   Dreifing birta bókhaldsdagsetningu og bókhaldstilvik. Yfirleitt, er bókhaldstilvik stillt á **Ekkert** þar til skjal er bókað/skráðar. Á þeim tímapunkti verður bókhaldstilvik **Upprunalegt**. Eftir að dreifingar hafa verið bókaðar geturðu ekki breytt dreifingunum.
     -   **Skipta** hnappur gæti virkjaður fyrir yfirstig dreifingar. **Skipta** býr til nýja dreifing á fjárhagsupphæð og skipta getur byggt á prósentu, upphæð eða magn.
-    -   ** Dreifa jafnt** er hægt að nota í samsetningu með **Skipta** til að úthluta sjálfkrafa upphæð jafnt á allar dreifingar.
+    -   **Dreifa jafnt** er hægt að nota í samsetningu með **Skipta** til að úthluta sjálfkrafa upphæð jafnt á allar dreifingar.
     -   **Endurstilla** hnappur gæti verið virkjaður fyrir yfirstig dreifingar þegar fleiri en einn dreifingar eru til. **Endurstilla** bakfærir allar handvirkar breytingar í dreifingu með því að eyða öllum fyrirliggjandi dreifingum mynda sjálfgefna dreifingu aftur.
     -   Allar undirskipað dreifingu, eins og afslátt, gjöld og virðisaukaskatt, fylgir alltaf yfirstig dreifingar. Hægt er að skoða vensl yfireiningar/undireiningar á **Tilvísun** &gt; **Upplýsingar yfireiningar**.
     -   Aðallykils og fjárhagsvídda gæti verið hægt að breyta fyrir undireiningar líka.
     -   Fjárhagsvíddir í dreifingu á fjárhagsupphæð fylgja sjálfgefnu mynstur sem skjal getur  útvíkkað. Frekari upplýsingar um ferlið fást í tengdum greinum.
     -   Frávik dreifingar gætu myndast í samsvörunaraðstæðum, eins og jöfnun milli innkaupapöntunar og reiknings lánardrottins. Hægt er að skoða jöfnunartengsl milli dreifingar á fjárhagsupphæð við **Tilvísun** &gt; **Skjalsupplýsingar**.
     -   **Leiðrétta** hnappur birtist og er virk fyrir skjöl sem styðja leiðréttingar. **Leiðrétta** stofnar nýja arðgreiðslu. Fyrst skal stofna dreifingar sem bakfæra upprunalegu dreifingar. Ekki er hægt að breyta þessum dreifingum. Næst, ný leiðréttandi dreifingar á fjárhagsupphæð eru stofnaðar. Hægt er að breyta þessar dreifingar hægt var að breyta upphaflegri dreifingar.
-    -   ** upplýsingar um verk** hnappurinn er virkjaður sem viðauki þegar lína er tengd  verki. Fjárhagsupphæð gerir kleift að breyta upplýsingum eins og fjármögnunaraðila og línueiginleika.
+    -   **upplýsingar um verk** hnappurinn er virkjaður sem viðauki þegar lína er tengd  verki. Fjárhagsupphæð gerir kleift að breyta upplýsingum eins og fjármögnunaraðila og línueiginleika.
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
 -   ** Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir á skjali. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 

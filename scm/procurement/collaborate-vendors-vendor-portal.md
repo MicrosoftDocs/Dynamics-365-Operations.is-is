@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: e6c731109dddb7dd47595126c4bf5f1f09425a7d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2ad5bb9db955647730c4e02fc866d1f0a31687f
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -69,7 +70,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 | Þú sendir nýja útgáfu af Innkaupapöntuninni á Gátt lánardrottins. | Ný útgáfa er skráð í Gátt lánardrottins og stöðunni er breytt í **Í Ytri Yfirferð**. |
 | Lánardrottinn samþykkir nýju útgáfuna.           | Stöðu er breytt aftur í **Samþykkt**.                                                                |
 
-Til að sjá útgáfur af Innkaupapöntunum sem hafa verið sendar lánardrottni og svör hans, farið í **Færslubækur** &gt; ** Staðfestingarbeiðnir** úr innkaupapöntuninni.  
+Til að sjá útgáfur af Innkaupapöntunum sem hafa verið sendar lánardrottni og svör hans, farið í **Færslubækur** &gt; **Staðfestingarbeiðnir** úr innkaupapöntuninni.  
 
 Pantanir sem hafa verið sendar til lánardrottins til svars og hafa stöðuna **Í ytri Yfirferð** birtast annað hvort í listanum **Innkaupapantanir sem eru sendar í Gátt lánardrottins, beðið eftir svari** eða í listanum **Innkaupapantanir sendar í Gátt lánardrottins, svar krefst aðgerða**. Þegar pöntun er breytt sem hefur verið send til lánadrottna, svo að staðan breytist aftur í **Samþykkt**, birtist hún ekki lengur í þessum listum. Til að sjá hvort það hafa áður komið svör frá lánardrottni er smellt á **Færslubækur** &gt; **Staðfestingarbeiðnir**.  
 

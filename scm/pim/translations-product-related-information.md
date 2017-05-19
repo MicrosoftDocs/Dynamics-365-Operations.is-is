@@ -18,10 +18,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: a9c991a5afaebd10b8812dfc1d67120ed4ebdfd2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 809b853634aa4a44b8aa3aebea317f6bc47da697
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,21 +49,21 @@ Hægt er að skoða þýðingar upplýsingar sem tengjast hvaða ytri uppruna sk
 
 ## <a name="how-do-i-create-translations-for-productrelated-information"></a>Hvernig get ég stofnað þýðingar fyrir afurðatengdar upplýsingar?
 Til að stofna þýðingar afurðar, skal fylgja þessum skrefum:
-1.  Smellið á **Upplýsingastjórnun afurða ** &gt; **Algent** &gt; ** Losaðar afurðir**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
 2.  Velja afurð, og á Aðgerðarúðu í flokknum **Tungumál** er smellt á **Þýðingar**.
 3.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
 4.  Í hópnum **Þýddur texti**skal slá inn þýðingar í svæðunum **Lýsing** og **Afurðaheiti**.
 
 Til að stofna þýðingar fyrir afurðareigindir, skal fylgja þessum skrefum:
-1.  Smellið á **Upplýsingastjórnun afurða ** &gt; **Algent** &gt; ** Losaðar afurðir**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
 2.  Undir **Uppsetning**, smellið á **Eigindir**, og smellið síðan á **Eigindir**.
 3.  Á síðunni **Eigindir**, smellið á **Þýða**.
 4.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
 5.  Í hópnum **Þýddur texti** skal slá þýðingar inn í svæðin **Lýsing**, **Stutt heiti** og **Hjálpartexti**.
 
 Fylgið eftirfarandi skrefum til að stofna víddargildi þýðingar afurðar:
-1.  Smellið á **Upplýsingastjórnun afurða ** &gt; **Algent** &gt; ** Losaðar afurðir**.
-2.  Veljið afurð og smellið síðan á ** Afurðarvíddir**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
+2.  Veljið afurð og smellið síðan á **Afurðarvíddir**.
 3.  Veljið einn af tenglunum fyrir afurðavíddir: **Stillingar**, **Stærðir**, **Litir**, eða **Stíll**.
 4.  Veljið víddargildi og smellið síðan á **Þýða**.
 5.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
@@ -117,7 +118,7 @@ Fylgið eftirfarandi skrefum til að stofna gildi víddarflokks:
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Uppsetning** &gt; **Afbrigðaflokkar**.
 2.  Veljið flokkana**Stærð** **,**, **Litur**, eða **Stíll**.
 3.  Smelltu á **Nýtt** og sláið síðan heiti fyrir flokkinn í reitnum **Stærð** **hópnum**, **Litaflokkur** eða **Stílflokkur**. Smellið á **Stærðir**, **Litir** eða **Stílar** til að stofna línur fyrir flokkana.
-4.  Í á **Stærð** **flokknum ** línunum **Lit** **flokknum** **línur**, eða **Stílflokkur** síðunni er smellt á ** Nýtt**, og svo stofnaðar stærðir, litir og stílar fyrir flokka.
+4.  Í á **Stærð** **flokknum** línunum **Lit** **flokknum** **línur**, eða **Stílflokkur** síðunni er smellt á **Nýtt**, og svo stofnaðar stærðir, litir og stílar fyrir flokka.
 
 Til að stjórna þýðingar fyrir gildi í víddaflokknum gildi skal fylgja þessum skrefum:
 1.  Fylgið skrefunum í fyrra ferli fyrir stofnun á gildi víddarflokks til að opna síðuna **Línur Stærðarhóps**, **Línur litahóps**, eða **Línur stílhóps**.

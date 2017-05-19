@@ -1,16 +1,16 @@
 ---
 title: "Breyta hólfum línuskilgreiningar"
 description: "Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:"
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
+
+[!include[banner](../includes/banner.md)]
+
 
 Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar: 
 
@@ -38,7 +42,9 @@ Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í lín
 
 Þörf er á línukóða fyrir allar línur. Hægt er að blanda saman tölulegum línukóðum, línukóðum úr bók- og tölustöfum og afvöldum (tómum) línukóðum innan línuskilgreiningar. Línukóðinn getur verið hvaða jákvæða heiltala sem er (undir 100.000.000) eða lýsandi merki sem auðkennir þá línu. Lýsandi merki verður að uppfylla eftirfarandi reglur:
 
--   Merki Verður að byrja á bókstaf (frá a til z eða frá A til Z) og getur verið hvaða samsetning talna og bókstafa, allt að 16 stafir. **Ábending:** merki getur notast við undirstrik (\_), en engir aðrir sérstafir eru leyfðir.
+-   Merki Verður að byrja á bókstaf (frá a til z eða frá A til Z) og getur verið hvaða samsetning talna og bókstafa, allt að 16 stafir. 
+    > [!NOTE]
+    > Merki getur notast við undirstrik (\_), en engir aðrir sérstafir eru leyfðir.
 -   Merki getur ekki notað neitt af eftirfarandi fráteknum orðum: AND, OR, IF, THEN, ELSE, PERIODS, TO, BASEROW, UNIT, NULL eða CPO, RPO.
 
 Eftirfarandi eru dæmi um gilda línukóða:
@@ -56,10 +62,14 @@ Eftirfarandi eru dæmi um gilda línukóða:
 
 1.  Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
 2.  Á valmyndinni **Breyta** er smellt á **Endurnúmera línur**.
-3.  Í **endurnúmera línur** svarglugga, Tilgreinið nýju gildin fyrir upphafskóða línu og stighækkun línukóða. Hægt er að endursetja tölulega línukóða í gildi sem eru jöfn bil. Hinsvegar endurtölusetur Skýrsluhönnun línukóða sem hefjast á tölum, til dæmis 130, 246), Hann endurtölusetur ekki línukóða sem hefjast á bókstöfum, (til dæmis INCOME\_93, TP0693). **Ábending:** Þegar línukóðar eru endurtölusettir uppfærir Skýrsluhönnun sjálfkrafa **TOT**- og **CAL** -tilvísanir. Ef **TOT**-lína vísar til dæmis til sviðs sem hefst á línukóðanum 100 og línur eru endurtölusettar þannig að þær hefjist á 90 mun fyrsta **TOT**-tilvísunin breytast úr 100 í 90.
+3.  Í **endurnúmera línur** svarglugga, Tilgreinið nýju gildin fyrir upphafskóða línu og stighækkun línukóða. Hægt er að endursetja tölulega línukóða í gildi sem eru jöfn bil. Hinsvegar endurtölusetur Skýrsluhönnun línukóða sem hefjast á tölum, til dæmis 130, 246), Hann endurtölusetur ekki línukóða sem hefjast á bókstöfum, (til dæmis INCOME\_93, TP0693). 
+> [!NOTE]
+> Þegar línukóðar eru endurtölusettir uppfærir Skýrsluhönnun sjálfkrafa **TOT-** og **CAL**-tilvísanir. Ef **TOT**-lína vísar til dæmis til sviðs sem hefst á línukóðanum 100 og línur eru endurtölusettar þannig að þær hefjist á 90 mun fyrsta **TOT**-tilvísunin breytast úr 100 í 90.
 
 ## <a name="add-a-description"></a>Bæta við Lýsing
-Í lýsingarhólfinu er lýsing á fjárhagsgögnunum í línu skýrslunnar, til dæmis Tekjur eða Nettótekjur. Textinn í hólfinu **Lýsing** birtist í skýrslunni nákvæmlega eins og hann er sleginn inn í línuskilgreiningunni. **Ábending:** Breidd lýsingardálksins í skýrslunni er stillt í dálkskilgreiningunni. Ef textinn í línuskilgreiningardálknum **Lýsing** er of langur verður að staðfesta breiddina á dálknum **DESC**. Þegar svarglugginn **Setja inn línur úr** er notaður eru gildin í dálkinum **Lýsing** hlutagildi eða víddargildi úr fjárhagsgögnunum. Hægt er að setja inn línur til að bæta við lýsandi texta, eins og fyrirsögn hluta eða samtölu hluta, og til að bæta við sniði, eins og línu á undan samtölulínu. Ef í skýrslunni er skipurit er hægt að innifela viðbótartexta sem er skilgreindur fyrir skipuritseiningarnar í skipuritinu. Einnig er hægt að takmarkaður Viðbótartexti við tiltekna einingu skipurits
+Í lýsingarhólfinu er lýsing á fjárhagsgögnunum í línu skýrslunnar, til dæmis Tekjur eða Nettótekjur. Textinn í hólfinu **Lýsing** birtist í skýrslunni nákvæmlega eins og hann er sleginn inn í línuskilgreiningunni. 
+> [!NOTE]
+> Breidd lýsingardálksins í skýrslunni er stillt í dálkskilgreiningunni. Ef textinn í línuskilgreiningardálknum **Lýsing** er of langur verður að staðfesta breiddina á dálknum **DESC**. Þegar svarglugginn **Setja inn línur úr** er notaður eru gildin í dálkinum **Lýsing** hlutagildi eða víddargildi úr fjárhagsgögnunum. Hægt er að setja inn línur til að bæta við lýsandi texta, eins og fyrirsögn hluta eða samtölu hluta, og til að bæta við sniði, eins og línu á undan samtölulínu. Ef í skýrslunni er skipurit er hægt að innifela viðbótartexta sem er skilgreindur fyrir skipuritseiningarnar í skipuritinu. Einnig er hægt að takmarkaður Viðbótartexti við tiltekna einingu skipurits
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Bæta við lýsingu á línu í skýrslu
 
@@ -81,12 +91,14 @@ Eftirfarandi eru dæmi um gilda línukóða:
 4.  Í því **Velja skýrslugerð einingu takmarkanir** svæðið, útvíkkun eða hrun skýrslugerð tréð og síðan velja skýrslugerð einingu.
 
 ## <a name="add-a-format-code"></a>Sniðkóða bætt við
-Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innihald þeirrar línu. Ef hólfið **Sniðkóði** er autt verður línan túlkuð sem upplýsingalína fjárhagsgagna. **Ábending:** Ef skýrsla inniheldur upphæðarlausar sniðmátslínur sem tengjast upphæðalínum sem hafa verið faldar, til dæmis vegna þess að þær eru með núllupphæðir, er hægt að fela prentun titil- og sniðmátslína með því að nota dálkinn **Tengdar formúlur/línur/einingar**.
+Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innihald þeirrar línu. Ef hólfið **Sniðkóði** er autt verður línan túlkuð sem upplýsingalína fjárhagsgagna. 
+> [!NOTE]
+> Ef skýrsla inniheldur upphæðarlausar sniðmátslínur sem tengjast upphæðalínum sem hafa verið faldar, til dæmis vegna þess að þær eru með núllupphæðir, er hægt að fela prentun titil- og sniðmátslína með því að nota dálkinn **Tengdar formúlur/línur/einingar**.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Sniðkóða bætt við skýrslulínu
 
 1.  Smellt er á **Línuskilgreiningar** í Skýrsluhönnun og línuskilgreining sem á að breyta því næst valin.
-2.  Tvísmellið á hólfið **Sniðkóði **.
+2.  Tvísmellið á hólfið **Sniðkóði**.
 3.  Veljið sniðkóði í listanum. Eftirfarandi tafla lýsir sniðkóðum og aðgerðir sem gilda fyrir þá.
     | Sniðkóði                   | Túlkun á sniðkóða | Aðgerð|
     |---|---|---|
@@ -140,7 +152,9 @@ Notið formúlu fyrir línusamtölu til að bæta við eða draga frá upphæði
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Sniðmátslína tengd við upphæðarlínu
 
-Í **Sniðkóði** dálkinum í línuskilgreiningu beita sniðkóðar **DES**, **LFT**, **RGT**, **CEN**, **---** og **===** sniði á raðir sem innihalda ekki upphæð. Til að forðast að prenta þetta sniðmát þegar tengdar upphæðarlínur eru faldar vegna þess að upphæðarlínur innihalda núllgildi eða ef engin virkni er á tímabilinu þarf að tengja sniðmátslínurnar við samsvarandi upphæðarlínur. Þessi virkni er gagnlegt þegar æskilegt er að fela prentun hausa eða snið tengd millisamtölum þegar engar ítarupplýsingar liggja fyrir til að prenta fyrir það tímabil. **Ábending:** Einnig er hægt að fela línur með ítarupplýsingum við prentun með því að hreinsa valkostinn um að birta línur sem hafa engar upphæðir. Þessi valkostur finnst á flipanum **Stillingar** í skýrsluskilgreiningunni. Sjálfgefið er að reikningar færsluupplýsinga með núllstöðu og enga tímabilsvirkni eru faldir í skýrslum. Til að sýna reikninga færsluupplýsinga er valinn gátreiturinn **Birta línur sem ekki innihalda upphæðir** á flipanum **Stillingar** í skýrsluskilgreiningunni.
+Í **Sniðkóði** dálkinum í línuskilgreiningu beita sniðkóðar **DES**, **LFT**, **RGT**, **CEN**, **---** og **===** sniði á raðir sem innihalda ekki upphæð. Til að forðast að prenta þetta sniðmát þegar tengdar upphæðarlínur eru faldar vegna þess að upphæðarlínur innihalda núllgildi eða ef engin virkni er á tímabilinu þarf að tengja sniðmátslínurnar við samsvarandi upphæðarlínur. Þessi virkni er gagnlegt þegar æskilegt er að fela prentun hausa eða snið tengd millisamtölum þegar engar ítarupplýsingar liggja fyrir til að prenta fyrir það tímabil. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Sniðmátslína tengd við upphæðarlínu
 
@@ -196,7 +210,9 @@ Röðunarkóðar raða reikningum og gildum, raða  raunskýrslum eða fjárhags
 1.  Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
 2.  Tvísmellið á hólfið **Sniðkóði** og veljið síðan röðunarkóða.
 3.  Í hólfið **Tengdar formúlur/línur/einingar** tilgreindu svið línukóða sem á að flokka. Til að tilgreina svið skal slá inn fyrsta línukóðann, dálk (:) og síðan síðasta línukóða Til dæmis, færa inn **160:490** til að tilgreina að sviðið er lína 160 til og með lína 490.
-4.  Í hólfið **Dálktakmörkun** skal slá inn dálkstaf skýrsludálksins sem þú vilt nota á fyrir röðunina. **Ábending:** Aðeins skal taka með upphæðarlínur í röðunarútreikningi.
+4.  Í hólfið **Dálktakmörkun** skal slá inn dálkstaf skýrsludálksins sem þú vilt nota á fyrir röðunina. 
+    > [!NOTE]
+    > Aðeins skal taka með upphæðarlínur í röðunarútreikningi.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Dæmi um hækkandi og lækkandi dálkagildi
 
@@ -220,255 +236,24 @@ Eftirfarandi dæmi um einingar sýnir hækkandi röðun gilda í dálki D í sk�
 
 Hér er dæmi um hvernig skýrslan er stofnuð.
 
-**Fráviksgreining (raðað eftir frávikum)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Fráviksgreining (raðað eftir frávikum)**|||||||
 
-**Peking- og Atlanta-svæðin**
+|**Peking- og Atlanta-svæðin**|||||||
 
-**Fyrir sjö mánuði sem lýkur 31. júlí 2013**
+|**Fyrir sjö mánuði sem lýkur 31. júlí 2013**|||||||
 
-**júlí**
+||**Júlí**|**YTD**|||||
 
-**YTD**
+||**Raunveruleg**|**Fjárhagsáætlun**|**Frávik**|**Raunverulega**|**Fjárhagsáætlun**|**Frávik**|
 
-**Rauntölur**
+|**Raðað eftir mánaðarlegum frávikum í hækkandi röð**|||||||
 
-**Fjárhagsáætlun**
+|COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273,.959)|
 
-**Frávik**
-
-**Rauntölur**
-
-**Fjárhagsáætlun**
-
-**Frávik**
-
-**Raðað eftir mánaðarlegum frávikum í hækkandi röð**
-
-Kostnaður seldra vara
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
-
-Laun
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-Söluafsláttur
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Söluskil
-
-10.917
-
-7.246
-
-(3.671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Leigukostnaður
-
-12.052
-
-9.019
-
-(3.033)
-
-80.444
-
-60.748
-
-(19.696)
-
-Skrifstofukostnaður
-
-5.023
-
-3.291
-
-(1.732)
-
-33.420
-
-22.098
-
-(11.322)
-
-Ferðakostnaður
-
-7.656
-
-7.641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Sala
-
-1.240,119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764,549
-
-4.374,739
-
-**Raðað eftir YTD-raunfrávikum í lækkandi röð**
-
-Sala
-
-1.240,119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764,549
-
-4.374,739
-
-Ferðakostnaður
-
-7.656
-
-7.641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Skrifstofukostnaður
-
-5.023
-
-3.291
-
-(1.732)
-
-33.420
-
-22.098
-
-(11.322)
-
-Söluskil
-
-10.917
-
-7.246
-
-(3.671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Leigukostnaður
-
-12.052
-
-9.019
-
-(3.033)
-
-80.444
-
-60.748
-
-(19.696)
-
-Söluafsláttur
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Laun
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-Kostnaður seldra vara
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
+|Laun|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Söluafslættir|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Söluskil|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Leigukostnaður|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Skrifstofukostnaður|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Ferðakostnaður|7,656|7,641|(15)|51,062|51,469|407| |Sala|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Raðað eftir YTD-raunfrávikum í lækkandi röð**|||||||
+|Sala|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Ferðakostnaður|7,656|7,641|(15)|51,062|51,469|407| |Skrifstofukostnaður|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Söluskil|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Leigukostnaður|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Söluafsláttur|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Laun|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Tilgreina hólf sniðshnekkingar.
 Hólfið **Hnekkja sniði** tilgreinir prentsniðið fyrir línuna. Þetta snið hnekkir sniðinu sem er tilgreint í dálkskilgreiningunni og skýrsluskilgreiningunni. Sjálfgefið er að Sniðið sem er tilgreind í þessum skilgreiningum er gjaldmiðli. Ef skýrslan birtir fjölda eigna í einni línu, t.d. fjölda bygginga, og önnur lína sýnir og fjárhagslegt gildi þeirra eigna, hægt er að hnekkja gjaldmiðilssniðinu og færa inn talnasnið fyrir línuna sem tilgreinir fjölda bygginga. Þú tilgreinir þessar upplýsingar í svarglugganum **Hnekkja sniði**. Valkostirnir fara eftir völdum sniðflokki. Sýnishorn sniða eru birt á svæðinu **Dæmi** í svarglugganum. Eftirfarandi sniðflokkar eru í boði.
@@ -492,7 +277,9 @@ Gjaldmiðilssnið er notað fyrir upphæðir í peningum og því fylgir gjaldmi
 -   **Gjaldmiðilstákn** – Gjaldmiðilstákn skýrslunnar. Þetta gildi hnekkir stillingunni **Svæðisbundnir valkostir** í upplýsingum fyrirtækisins.
 -   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
 -   **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. **Ábending:** Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+-   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+    > [!NOTE]
+    >  Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="numeric-formatting"></a>Talnasnið
 
@@ -500,7 +287,9 @@ Snið gjaldmiðils við fjárhagsárs upphæð og inniheldur gjaldmiðilstákni�
 
 -   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
 -   **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. **Ábending:** Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+-   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+    > [!NOTE]
+    >  Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="percentage-formatting"></a>Prósentusnið
 
@@ -508,16 +297,20 @@ Prósentusnið er með prósentumerki (%). Eftirtaldir valkostir eru í boði:
 
 -   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
 -   **Aukastafir** – Fjöldi aukastafa sem er birtur eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. **Ábending:** Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+-   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+    > [!NOTE]
+    >  Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="custom-formatting"></a>Sérsnið
 
 Sérsniðsflokkurinn er notaður til að velja sérsniðna hnekkingu. Eftirtaldir valkostir eru í boði:
 
 -   **Gerð** – Sérsniðið.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. **Ábending:** Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+-   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+    > [!NOTE]
+    >  Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
-Gerðin ætti að tákna jákvæða og neikvæða gildið. Yfirleitt er fært inn svipað snið sem skilur á milli jákvæðra og neikvæðra gilda. Til að tilgreina að bæði jákvætt og neikvætt gildi séu með tveimur aukastöfum, en neikvæð gildi birtast í sviga skal færa inn ** 0,00;(0,00)**. Eftirfarandi tafla inniheldur sérsnið sem hægt er að nota til að stýra sniði gilda þinna. Öll dæmi byrja frá gildi 1234.56.
+Gerðin ætti að tákna jákvæða og neikvæða gildið. Yfirleitt er fært inn svipað snið sem skilur á milli jákvæðra og neikvæðra gilda. Til að tilgreina að bæði jákvætt og neikvætt gildi séu með tveimur aukastöfum, en neikvæð gildi birtast í sviga skal færa inn **0,00;(0,00)**. Eftirfarandi tafla inniheldur sérsnið sem hægt er að nota til að stýra sniði gilda þinna. Öll dæmi byrja frá gildi 1234.56.
 
 | Snið                         | Jákvætt   | Neikvætt     | Núll    |
 |--------------------------------|------------|--------------|---------|
@@ -570,14 +363,18 @@ Innihald hólfsins **Línubreyting** í línuskilgreiningu hnekkir fjárhagsáru
 
 ### <a name="book-code-modifiers"></a>Breytingar á bókarkóða
 
-Hægt er að takmarka línu við fyrirliggjandi bókarkóða. Línuskilgreiningin verður að taka með minnst einn **FD**-dálk sem er með bókarkóða. **Ábending:** Takmörkun bókarkóða fyrir línu hnekkir öllum bókarkóðatakmörkunum sem hefur verið úthlutað í dálkskilgreiningunni fyrir þá línu.
+Hægt er að takmarka línu við fyrirliggjandi bókarkóða. Línuskilgreiningin verður að taka með minnst einn **FD**-dálk sem er með bókarkóða. 
+> [!NOTE]
+> Takmörkun bókarkóða fyrir línu hnekkir öllum bókarkóðatakmörkunum sem hefur verið úthlutað í dálkskilgreiningunni fyrir þá línu.
 
 ### <a name="account-and-transaction-attributes"></a>Reikningseigindir og færslueigindir
 
 Sum bókhaldskerfi styðja reikningseigindir og færslueigindir í fjárhagsgögnum. Þessar eigindir virka eins og sýndarhlutar reikninga og geta flutt viðbótarupplýsingar um reikninginn eða færsluna. Þessi viðbótarupplýsingar gæti verið Kenni lykla, Kenni runu, póstnúmer, eða öðrum eigindum. Ef bókhaldskerfið sem unnið er með styður notkun eiginda er hægt að nota reikningseigindir eða færslueigindir sem línubreytingar í línuskilgreiningu. Frekari upplýsingar um hvernig á að hnekkja línuupplýsingum eru í Hnekkja dálkskilgreiningum fyrr í þessari grein.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Tilgreindu Tengill í fjárhagsvíddarhólf
-Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi en hægt er að tilgreina hólf í Microsoft Excel-vinnublaði í staðinn fyrir, eða til viðbótar við, hluta- eða víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**. **Ábending:** Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: \*, \[, \] {, eða}. Ef tilgreina á upplýsingar fyrir röð sem er nú þegar í línuskilgreiningu skal bæta upplýsingunum við í hólfinu **Tengill í fjárhagsvíddir**. Ef bæta á við nýjum línum sem tengja í fjárhagsgögn skal nota svargluggann **Setja inn línur úr** til að stofna nýjar línur í skýrsluskilgreiningunni. Dálkheitið breytist eftir því hvernig dálkurinn er grunnstilltur, eins og sýnt er í eftirfarandi töflu.
+Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi en hægt er að tilgreina hólf í Microsoft Excel-vinnublaði í staðinn fyrir, eða til viðbótar við, hluta- eða víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**. 
+> [!NOTE]
+> Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Ef tilgreina á upplýsingar fyrir röð sem er nú þegar í línuskilgreiningu skal bæta upplýsingunum við í hólfinu **Tengill í fjárhagsvíddir**. Ef bæta á við nýjum línum sem tengja í fjárhagsgögn skal nota svargluggann **Setja inn línur úr** til að stofna nýjar línur í skýrsluskilgreiningunni. Dálkheitið breytist eftir því hvernig dálkurinn er grunnstilltur, eins og sýnt er í eftirfarandi töflu.
 
 | tegund tengils sem er valin       | Lýsingin í tengildálkinum breytist í þetta |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ Sjálfgefið er að Skýrsluhönnun prentar ekki línu sem hefur ekki samsvarand
 3.  Á valmyndinni **Skrá** er smellt á **Vista** til að vista breytingarnar.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Notaðu Algildisstafir og svið í línuskilgreiningu
-Þegar færð eru inn meginhlutagildi í svargluggann **Víddir** er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn **6???** í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef fært er inn **6\*** eru sömu niðurstöður fengnar, en niðurstöður sýna einnig vídd-breidd gildi, eins og **60** og **600000**. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá **12?0** til **12?4**, er algildisstafnum í **12?0** skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í **12?4** er skipt út fyrir hæsta gildið í stafamenginu. **Ábending:** Forðast ætti notkun algildistafa í sviðum fyrir upphafs- og endareikningana. Ef algildistafir eru notaðir annaðhvort fyrir upphafsreikninginn eða endareikninginn getur það skilað óvæntum niðurstöðum.
+Þegar færð eru inn meginhlutagildi í svargluggann **Víddir** er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn **6???** í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef fært er inn **6\*** eru sömu niðurstöður fengnar, en niðurstöður sýna einnig vídd-breidd gildi, eins og **60** og **600000**. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá **12?0** til **12?4**, er algildisstafnum í **12?0** skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í **12?4** er skipt út fyrir hæsta gildið í stafamenginu. 
+> [!NOTE]
+> Forðast ætti notkun algildistafa í sviðum fyrir upphafs- og endareikningana. Ef algildistafir eru notaðir annaðhvort fyrir upphafsreikninginn eða endareikninginn getur það skilað óvæntum niðurstöðum.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Svið stakra hluta eða stakra vídda
 
-Hægt er að tilgreina svið hlutagilda eða víddargilda. Kostur þess að tilgreina svið er að þá þarf ekki að uppfæra línuskilgreininguna í hvert skipti sem nýju hlutagildi eða víddargildi er bætt við fjárhagsgögnin. Til dæmis sækir sviðið **Reikningur=\[6100:6900\]** gildin frá reikningi 6100 til reiknings 6900, meðtalið, og færir í línuupphæðina. Þegar svið inniheldur algildisstaf (?) metur Skýrsluhönnun ekki sviðið bókstaf fyrir bókstaf. Þess í stað eru lágu og háu endar sviðsins skilgreindir og svo eru endagildin öll gildi á milli þeirra innifalin að auki. **Ábending:** Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: \*, \[, \] {, eða}. Aðeins er hægt að nota og-merki (&) þegar línuskilgreiningar eru búnar til sjálfkrafa með því að nota svargluggann **Setja inn línur úr víddum**.
+Hægt er að tilgreina svið hlutagilda eða víddargilda. Kostur þess að tilgreina svið er að þá þarf ekki að uppfæra línuskilgreininguna í hvert skipti sem nýju hlutagildi eða víddargildi er bætt við fjárhagsgögnin. Til dæmis sækir sviðið **Reikningur=\[6100:6900\]** gildin frá reikningi 6100 til reiknings 6900, meðtalið, og færir í línuupphæðina. Þegar svið inniheldur algildisstaf (?) metur Skýrsluhönnun ekki sviðið bókstaf fyrir bókstaf. Þess í stað eru lágu og háu endar sviðsins skilgreindir og svo eru endagildin öll gildi á milli þeirra innifalin að auki. 
+> [!NOTE]
+> Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Aðeins er hægt að nota og-merki (&) þegar línuskilgreiningar eru búnar til sjálfkrafa með því að nota svargluggann **Setja inn línur úr víddum**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Svið margra hluta eða margra vídda
 
-Þegar fært er inn svið með því að nota samsetningu margra víddargilda næst sviðssamanburðurinn á ..\fjárhagur-vídd\vídd-eftir-vídd grunni. Sviðssamanburðurinn næst ekki staf fyrir staf eða út frá ókláruðum hluta. Til dæmis inniheldur afmörkun **+ Reikningur=\[5000:6000\], Deild= \[1000:2000\] Kostnaðarstaður=\[00\]** aðeins þá reikninga sem stemma hvern hluta. Í þessu dæmi verður fyrsta vídd að vera á bilinu 5000 til 6000, önnur vídd verður að vera á bilinu 1000 til 2000 og síðusta vídd verður að vera 00. Til dæmis er **+ Reikningur=\[5100\], Deild =\[1100\], Kostnaðarstaður=\[01\]** ekki tekinn með í skýrslunni, þar sem síðasti hluti er utan tilgreinds sviðs. Ef hlutagildi inniheldur bil, ber að hafa það gildi innan hornklofa (\[ \]). Eftirfarandi gildi eru gild fyrir fjögurra stafa hluta: **\[ 234\], \[123\], \[1 34\]**. Víddargildi ættu að vera innan hornklofa (\[ \]), og Report Designer sér um að gera það fyrir þig. Þegar svið margra hluta eða margra vídda inniheldur algildisstafi (? eða \*) eru lág- og háendar alls sviðs margra hluta eða margra vídda ákvarðaðir, og þá eru endarnir og öll gildi á milli þeirra innifalin. Ef um stórt svið er að ræða, til dæmis svið allra reikninga frá 40000 til og með 99999, ætti að tilgreina gilda upphafs- og endareikninga, þegar kostur er á. **Ábending:** Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: \*, \[, \] {, eða}. Aðeins er hægt að nota og-merki (&) þegar línuskilgreiningar eru búnar til sjálfkrafa með því að nota svargluggann **Setja inn línur úr víddum**.
+Þegar fært er inn svið með því að nota samsetningu margra víddargilda næst sviðssamanburðurinn á ..\fjárhagur-vídd\vídd-eftir-vídd grunni. Sviðssamanburðurinn næst ekki staf fyrir staf eða út frá ókláruðum hluta. Til dæmis inniheldur afmörkun **+ Reikningur=\[5000:6000\], Deild= \[1000:2000\] Kostnaðarstaður=\[00\]** aðeins þá reikninga sem stemma hvern hluta. Í þessu dæmi verður fyrsta vídd að vera á bilinu 5000 til 6000, önnur vídd verður að vera á bilinu 1000 til 2000 og síðusta vídd verður að vera 00. Til dæmis er **+ Reikningur=\[5100\], Deild =\[1100\], Kostnaðarstaður=\[01\]** ekki tekinn með í skýrslunni, þar sem síðasti hluti er utan tilgreinds sviðs. Ef hlutagildi inniheldur bil, ber að hafa það gildi innan hornklofa (\[ \]). Eftirfarandi gildi eru gild fyrir fjögurra stafa hluta: **\[ 234\], \[123\], \[1 34\]**. Víddargildi ættu að vera innan hornklofa (\[ \]), og Report Designer sér um að gera það fyrir þig. Þegar svið margra hluta eða margra vídda inniheldur algildisstafi (? eða \*) eru lág- og háendar alls sviðs margra hluta eða margra vídda ákvarðaðir, og þá eru endarnir og öll gildi á milli þeirra innifalin. Ef um stórt svið er að ræða, til dæmis svið allra reikninga frá 40000 til og með 99999, ætti að tilgreina gilda upphafs- og endareikninga, þegar kostur er á. 
+> [!NOTE]
+> Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Aðeins er hægt að nota og-merki (&) þegar línuskilgreiningar eru búnar til sjálfkrafa með því að nota svargluggann **Setja inn línur úr víddum**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Bætt við og dregið frá öðrum reikningum í línuskilgreiningu
 Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupphæðum í öðrum reikningi er hægt að nota plúsmerkið (+) og mínusmerkið (-) í hólfinu **Tengill í fjárhagsvíddir**. Eftirfarandi tafla sýnir viðunandi snið þegar tenglum er bætt við eða þeir dregnir frá fjárhagsgögnum.
 
-| Aðgerð                                                                               | Nota þetta snið                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Aðgerð  | Nota þetta snið  |
+|------------|-----------------|
 | Bæta við tveimur Fullnægjandi lyklum.                                                       | +Svið=\[000\], Reikningur=\[1205\], Deild=\[00\]+Svið=\[100\], Reikningur=\[1205\], Deild=\[00\] |
 | Bæta við tveimur hlutagildum                                                                 | +Reikningur=\[1205\]+Reikningur=\[1210\]                                                                           |
 | Bæta við hlutagildum sem innihalda algildisstafi                                    | +Reikningur=\[120?+Reikningur=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 | Draga frá svið hlutagilda                                                     | -Reikningur=\[1200:1205\]                                                                                       |
 | Draga frá svið hlutagilda sem innihalda algildisstafi                    | -Reikningur=\[120?:130?\]                                                                                       |
 
-Þótt hægt sé að breyta reikningum með beinum hætti er einnig hægt að nota svargluggann **Víddir** til að nota rétt snið á fjárhagslega gagnatengla. Hvert og eitt gildi getur innihaldið algildisstafi (? eða \*). Hinsvegar getur Report Designer ekki valið reikninga, vídd eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: : &, \*, \[, \], {, eða }. **Ábending:** Ef draga á frá gildi verður að setja þau gildi innan sviga. Ef til dæmis er slegið inn **450?-(4509)** birtist það sem **+Reikningur=\[4509\]-reikningur=\[450?\]** og verið er að gefa Report Designer skipun um að draga upphæðina fyrir reikningshluta 4509 frá upphæðinni fyrir hvaða reikningshluta sem er sem byrjar á 450.
+Þótt hægt sé að breyta reikningum með beinum hætti er einnig hægt að nota svargluggann **Víddir** til að nota rétt snið á fjárhagslega gagnatengla. Hvert og eitt gildi getur innihaldið algildisstafi (? eða \*). Hinsvegar getur Report Designer ekki valið reikninga, vídd eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: : &, \*, \[, \], {, eða }. 
+> [!NOTE]
+> Til að draga á frá gildi verður að setja þau gildi innan sviga. Ef til dæmis er slegið inn **450?-(4509)** birtist það sem **+Reikningur=\[4509\]-reikningur=\[450?\]** og verið er að gefa Report Designer skipun um að draga upphæðina fyrir reikningshluta 4509 frá upphæðinni fyrir hvaða reikningshluta sem er sem byrjar á 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Reikningum bætt við eða þeir dregnir frá öðrum reikningum
 
@@ -648,7 +453,8 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 
 4.  Endurtakið skref 2 til og með 3 til að bæta við fleiri aðgerðum.
 
-**Ábending:** Virkinn á alltaf við um allar víddirnar í línunni.
+> [!NOTE]
+> Virkinn á alltaf við um allar víddirnar í línunni.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Lýsing á víddasvarglugganum
 **Vídda** svarglugginn inniheldur reitina sem lýst er í eftirfarandi töflu.
@@ -680,7 +486,9 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 2.  Á valmyndinni **Breyta** er smellt á **Vinna með samstæður víddargilda**.
 3.  Í svarglugganum **Vinna með samstæður víddargilda** er valin tegund víddar í reitnum **Vídd**.
 4.  Veljið víddargildissamstæðu sem á að uppfæra af listanum og smellið á **Breyta**.
-5.  Í svarglugganum **Breyta** er formúlugildunum breytt þannig að þau innihaldi samstæðuna. **Ábending:** Ef nýjum reikningi eða víddum er bætt við verður að tryggja að fyrirliggjandi víddargildasamstæðum sé breytt til samræmis við breytingarnar.
+5.  Í svarglugganum **Breyta** er formúlugildunum breytt þannig að þau innihaldi samstæðuna. 
+    > [!NOTE]
+    >  Ef nýjum reikningi eða víddum er bætt við verður að tryggja að fyrirliggjandi víddargildasamstæðum sé breytt til samræmis við breytingarnar.
 6.  Tvísmellið á hólfið til að velja viðeigandi virkja, **Frá**-reikning og **Til**-reikning.
 7.  Smellið á **Í lagi** til að loka svarglugganum **Breyta** og vista breytingarnar.
 
@@ -703,6 +511,8 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
 
 

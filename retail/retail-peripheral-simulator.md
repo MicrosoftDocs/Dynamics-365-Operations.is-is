@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 42dc414ff2bb6359b47d89c3bd3c510e4258f816
-ms.openlocfilehash: b2229466040351d8c2b9494b30b4c928651820b8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 11a4633b0a1254f3a8cbdcba8d7aa99bb7c936c1
+ms.contentlocale: is-is
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -155,7 +156,7 @@ Sýndarjaðarbúnaði prentara sýnir aðeins kvittanir eins og þær eru prenta
 
 #### <a name="configure-a-scale-product"></a>Grunnstilla vigtaða afurð
 
-1.  Fara í **Smásölu og ** **viðskipti** &gt; **Afurðir og tegundir** &gt; **Losaðar afurðir eftir flokki**.
+1.  Fara í **Smásölu og** **viðskipti** &gt; **Afurðir og tegundir** &gt; **Losaðar afurðir eftir flokki**.
 2.  Opna afurðarfærslu.
 3.  Veljið afurð til að vigta.
 4.  Á flýtiflipanum **Smásala** stilltu valkostinn **Vigtuð afurð** úr **Nei** í **Já**.
@@ -195,7 +196,7 @@ Eftir að gögnin eru samstillt þegar greiðslumáta er notað sem þarfnast un
 Hægt er að breyta skilgreiningarskrá jaðarbúnaðarhermis svo að hún taki betur á þeim aðstæðum sem verið er að prófa. Hægt er að finna skilgreiningarskrá á C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Skilgreiningarskránni skilgreinir einingarnar sem eru tiltækar fyrir prófun á vigtina kortategundir sem eru tiltækar fyrir prófun og strikamerkjagerðir. Til dæmis eftir textagildi í skilgreiningarskránni er breytt, er hægt að bæta nýja kortategund eða mælieiningu sem hægt er að velja í keyrslutíma. Nýju gildin sem birtast eftir að forritið er endurræst.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
-Verkþættir fyrir jaðarbúnaðarhermi eru skráðar innan jaðarbúnaðarhermis. Hægt er að finna atburðaskrána á C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Jaðarbúnaðarhermir tilkynnir einnig vandamál í tilvikakladda Windows sem hægt er að fara á **Application and Services Logs**&gt;**Microsoft**&gt;**DynamicsAX**. Ef breytingar sem gerðar voru á vélbúnaðarreglunni eða öðrum svæðum eru ekki augljósar þegar MPOS eða jaðarbúnaðarhermir eru notuð, skal athuga verk verkraðaradreifingar sem er notuð til að samstilla gögn í gagnagrunn rásar. Ef breytingar voru samstilltar en eru ekki enn augljósar í POS, skal endurræsa POS-biðlara. Breytingar á skilgreindum peningaskúffum taka ekki gildi fyrr en ný vakt er stofnuð. Þess vegna ef breytingar eru gerðar á peningaskúffum skal ganga úr skugga um að fyrirliggjandi vakt sé alltaf lokað til að prófa nýja uppsetningu peningaskúffu. Stundum ef rekill framleiðanda vörunnar er settur upp eftir almennum stýrihlutum frá Monroe Consulting Services getur rekillinn valdið því að almennir stýrihlutir hætti að virka rétt. Í þessu tilfelli ætti að enduruppsetja almenna stýrihlutir.
+Verkþættir fyrir jaðarbúnaðarhermi eru skráðar innan jaðarbúnaðarhermis. Hægt er að finna atburðaskrána á C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Jaðarbúnaðarhermir tilkynnir einnig vandamál í tilvikakladda Windows sem hægt er að fara á **Forrita- og þjónustukladdar** &gt; **Microsoft** &gt; **DynamicsAX**. Ef breytingar sem gerðar voru á vélbúnaðarreglunni eða öðrum svæðum eru ekki augljósar þegar MPOS eða jaðarbúnaðarhermir eru notuð, skal athuga verk verkraðaradreifingar sem er notuð til að samstilla gögn í gagnagrunn rásar. Ef breytingar voru samstilltar en eru ekki enn augljósar í POS, skal endurræsa POS-biðlara. Breytingar á skilgreindum peningaskúffum taka ekki gildi fyrr en ný vakt er stofnuð. Þess vegna ef breytingar eru gerðar á peningaskúffum skal ganga úr skugga um að fyrirliggjandi vakt sé alltaf lokað til að prófa nýja uppsetningu peningaskúffu. Stundum ef rekill framleiðanda vörunnar er settur upp eftir almennum stýrihlutum frá Monroe Consulting Services getur rekillinn valdið því að almennir stýrihlutir hætti að virka rétt. Í þessu tilfelli ætti að enduruppsetja almenna stýrihlutir.
 
 <a name="see-also"></a>Sjá einnig
 --------

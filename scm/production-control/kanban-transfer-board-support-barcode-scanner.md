@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f393efaf011de103fc172af625816eef5915c642
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 96eae9e3c09e895d5d81c080da18fefaca5c1d78
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
 
 -   Aðeins skannaðs kanban-vinnslu birtist.
--   Upplýsingar um valið verk eru birtar í **upplýsingar ** flýtiflipanum.
+-   Upplýsingar um valið verk eru birtar í **upplýsingar** flýtiflipanum.
 -   **Skilaboð** flýtiflipi birtir skilaboð aðeins fyrir valda vinnslu.
 -   Hægt er að breyta stöðu vinnslunnar með því að nota eiginleika sem eru tiltækir í Aðgerðarúðunni. Flutningstafla Kanbans heldur áfram til að birta aðeins einni vinnslu við þessa tíma.
 -   Hægt er að uppfæra upplýsingar í lista yfir vinnslur handvirkt með því að smella **Endurnýja** (Shift + F5) á við Aðgerðasvæði. Eftir að þú endurnýjar upplýsingarnar birtast fullar niðurstöður fyrir síu vinnslu aftur.

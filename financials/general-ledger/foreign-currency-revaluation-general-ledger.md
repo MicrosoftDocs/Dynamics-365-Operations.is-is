@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 5d6d13fe44eef7766b4dcaf274c3522bce3da816
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 54c57254bbd7c7b3402fc0d6bd4755110dd6fd27
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -58,7 +59,7 @@ Eftir uppsetningu er lokið er notuð **endurmat á Erlendum gjaldmiðli** síð
 
 Í **endurmat á Erlendum gjaldmiðli** síðu birtir sögu hverju ferli endurmat, þar á meðal þegar ferlið var keyrt hvaða skilyrðum var skilgreind tengil fylgiskjal stofnuð fyrir endurmatsins og færsla ef fyrri endurmat var bakfærð. Til að keyra endurmatsferlið , veljið **endurmat á Erlendum gjaldmiðli** hnappinn. 
 
-Í **Frá dagsetningu** og ** Til Dagsetningu** gildi skilgreina dagsetningabil til að reikna út stöðu erlendum gjaldmiðli sem verður endurmeta. Þegar þú endurmetur hagnaðar og taplykla, fjárhæð allar færslur sem eiga sér stað á dagsetningabili eru endurmetni. Þegar efnahagslykla, endurmeta hunsaðar Frá dags. Í staðinn staða til að endurmetni ákvarðast af tímann frá byrjun fjárhagsárs að Til-dagsetning. 
+Í **Frá dagsetningu** og **Til Dagsetningu** gildi skilgreina dagsetningabil til að reikna út stöðu erlendum gjaldmiðli sem verður endurmeta. Þegar þú endurmetur hagnaðar og taplykla, fjárhæð allar færslur sem eiga sér stað á dagsetningabili eru endurmetni. Þegar efnahagslykla, endurmeta hunsaðar Frá dags. Í staðinn staða til að endurmetni ákvarðast af tímann frá byrjun fjárhagsárs að Til-dagsetning. 
 
 **Gengisdagsetning** hægt að nota til að skilgreina dagsetningin sem gengið setja á sjálfgildi. Til dæmis er hægt að endurmeta stöður milli dagsetning afmörkun fyrir Janúar 1 til 31. Janúar en nota gengi sem er skilgreind fyrir 1. Febrúar. 
 

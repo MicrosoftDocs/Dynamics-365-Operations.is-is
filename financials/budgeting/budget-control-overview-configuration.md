@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -46,11 +47,11 @@ Eftirfarandi línurit sýnir stað fjárhagsáætlunarstýringar á stigum dæmi
 
 Hægt er að skilgreina fjárhagsáætlunarstýringar samkvæmt mörgum þáttum:
 
--   **Fjárhagsvíddir **- Hvaða fjárhagsvíddir þarf að nota fyrir fjárhagsáætlun og rauntölur og hvaða fjárhagsvíddir eru nauðsynlegar til að stýra fjárhagsáætlun? Eru tilteknar vöruvíddasamsetningar eða aðallykla sem krefjast tiltekna athygli? Til dæmis er krafist að rekja fjárhagsáætlun í raunupphæðir með kostnaðarstað og forriti? Þurfa ferðakostnaður sérstaka athygli
--   **Tími **- Hvaða tímarammann (fjárhagstímabil, fjárhagstímabil til dagsetningar í dag o.s.frv.,) verður notuð til að meta tiltækt fjármagn fjárhagsáætlunar?
--   **Upprunaskjöl **- Hvaða upprunaskjöl þarf að meta fyrir fjárhagsáætlunarstýringar? Á að meta skjölin á hverja línu eða fyrir hvert skjal?
--   **Útreikning á tiltæku fjármagni **- ættu skjöl eins og innkaupabeiðnir (áætluð fjárúthlutun) og innkaupapantanir (fjárúthlutanir) vera tekið tillit til í útreikningi á tiltæku fjármagni? Ættu skjölum með stöðuna drög að vera höfð í huga í útreikningi?
--   **Hnekkja heimild ** - Hver hafa heimild til að fara yfir tiltæka fjárhagsáætlun?
+-   **Fjárhagsvíddir**- Hvaða fjárhagsvíddir þarf að nota fyrir fjárhagsáætlun og rauntölur og hvaða fjárhagsvíddir eru nauðsynlegar til að stýra fjárhagsáætlun? Eru tilteknar vöruvíddasamsetningar eða aðallykla sem krefjast tiltekna athygli? Til dæmis er krafist að rekja fjárhagsáætlun í raunupphæðir með kostnaðarstað og forriti? Þurfa ferðakostnaður sérstaka athygli
+-   **Tími**- Hvaða tímarammann (fjárhagstímabil, fjárhagstímabil til dagsetningar í dag o.s.frv.,) verður notuð til að meta tiltækt fjármagn fjárhagsáætlunar?
+-   **Upprunaskjöl**- Hvaða upprunaskjöl þarf að meta fyrir fjárhagsáætlunarstýringar? Á að meta skjölin á hverja línu eða fyrir hvert skjal?
+-   **Útreikning á tiltæku fjármagni**- ættu skjöl eins og innkaupabeiðnir (áætluð fjárúthlutun) og innkaupapantanir (fjárúthlutanir) vera tekið tillit til í útreikningi á tiltæku fjármagni? Ættu skjölum með stöðuna drög að vera höfð í huga í útreikningi?
+-   **Hnekkja heimild** - Hver hafa heimild til að fara yfir tiltæka fjárhagsáætlun?
 
 Fjárhagsáætlunarstýring er fyllilega samþætt við Dynamics 365 for Operations. Þess vegna er hægt að meta tiltæka fjárhagsáætlun fyrir bæði áætluð innkaup og raunverulega innkaup. Fyrirspurnir og skýrslur um fjárhag eru tiltækar. Því geta noendur metið Fjárhagsáætlun samhliða ferli fjárhagsáætlunar og gert leiðréttingar sem þarf, í mynd endurskoðunar fjárhagsáætlunar eða flutninga. Fjárhagsáætlunarstjóri getur einnig flytja fjárhagsáætlunar og raunupphæðir í Microsoft Excel til að greina og spá betur eftir þörfum.
 
@@ -99,7 +100,7 @@ Næsta, á **Úthluta fjárhagsáætlunarlíkönum** síðu er hægt að úthlut
 Næsta, á **skilgreina reglur fjárhagsáætlunarstýringar** síðu er að stofna reglur samkvæmt fjárhagsvíddir sem eru virkjaðar fyrir fjárhagsáætlunarstýringu. Til dæmis, ef áhersla er á útgjöld eða svið útgjalda fyrir deild, þá geturðu notað skilgreiningar á þessum flipa til að skilgreina og meta þessi útgjöld. Hægt er að skilgreina mismunandi þröskulda fyrir hverja reglu fjárhagsáætlunarstýringar. 
 
 > [!Important]
-> Fjárhagsáætlunarstýring verður virkjuð fyrir alla aðallykla af gerðinni **Hagnaður og Tap**, **Kostnaður**, **Tekjuafgangur, efnahagsreikningur, Skuld, Eigið fé** eða **eign**. Ef þessi flipi inniheldur reglu sem hefur autt skilyrði , verður fjárhagsáætlunarstýring virk fyrir **allar ** samsetningar fjárhagsvídda sem innihalda aðallykla þessara gerða. Þess vegna er mikilvægt að búa til reglur fjárhagsáætlunarstýringar og skilgreina svið samsetningar fjárhagsvídda þar sem mikilvægt er að kveikt er á fjárhagsáætlunarstýringu.  
+> Fjárhagsáætlunarstýring verður virkjuð fyrir alla aðallykla af gerðinni **Hagnaður og Tap**, **Kostnaður**, **Tekjuafgangur, efnahagsreikningur, Skuld, Eigið fé** eða **eign**. Ef þessi flipi inniheldur reglu sem hefur autt skilyrði , verður fjárhagsáætlunarstýring virk fyrir **allar** samsetningar fjárhagsvídda sem innihalda aðallykla þessara gerða. Þess vegna er mikilvægt að búa til reglur fjárhagsáætlunarstýringar og skilgreina svið samsetningar fjárhagsvídda þar sem mikilvægt er að kveikt er á fjárhagsáætlunarstýringu.  
 
 ### <a name="select-main-accounts"></a>Velja aðallykla
 
@@ -107,7 +108,7 @@ Ef **aðallykils** er ekki valin sem vídd fjárhagsáætlunarstýringar á **Sk
 
 ### <a name="define-budget-groups"></a>Skilgreina fjárhagsáætlunarflokka
 
-Næsta, á **Skilgreina fjárhagsáætlunarflokkar ** flipa er einnig hægt að skilgreina einkvæmt samsetningar fjárhagsvídda þar sem tilföng fjárhagsáætlunar eru hópaðar saman fyrir aðra athugun á fjárhagsáætlun. Hægt er að stofna eina færslu sem inniheldur allt fyrirtækið eða skilgreina margir flokkar til að tákna einstaka deildir eða kostnaðarstaða.  
+Næsta, á **Skilgreina fjárhagsáætlunarflokkar** flipa er einnig hægt að skilgreina einkvæmt samsetningar fjárhagsvídda þar sem tilföng fjárhagsáætlunar eru hópaðar saman fyrir aðra athugun á fjárhagsáætlun. Hægt er að stofna eina færslu sem inniheldur allt fyrirtækið eða skilgreina margir flokkar til að tákna einstaka deildir eða kostnaðarstaða.  
 
 ### <a name="define-message-levels"></a>Skilgreina skilaboðastig
 
@@ -124,7 +125,7 @@ Athugið einnig að færslur, þar á meðal færslur fjárhagsáætlunarskrár 
 ## <a name="using-budget-control"></a>Notkun fjárhagsáætlunarstýring
 Eftir að kveikt hefur verið á fjárhagsáætlunarstýringu, notendur fá viðvörunar- og villuboð fjárhagsáætlunarstýringar í skjöl og færslubækur sem eru skilgreindar fyrir fjárhagsáætlunarstýringu. Munið að hægt að skilgreina fjárhagsáætlunarstýringu svo að notendur eru varaðir við þegar þeir fara yfir fjármagn fjárhagsáætlunar en geta samt að halda áfram að staðfesta eða bóka færsluna. Notendur geta skoðað nákvæmar upplýsingar um misheppnaðar athuganir á fjárhagsáætlun á **villur Fjárhagsáætlunarstýringar og viðvaranir** síðu.   
 
-Úr þessari síðu geta notendur kafað í **talnagögn fjárhagsáætlunarstýringar eftir tímabili ** síðu til að skoða upplýsingar um framboð fjárhagsáætlunar og frátekningar á víddarsamsetningu fjárhagsáætlunarstýringar. Notendur geta einnig kafa í **talnagögn fjárhagsáætlunarstýringar ** síðu til að skoða framboð á fjárhagsáætlun fyrir allar samsetningar fjárhagsvídda sem eru notaðar í fjárhagsáætlunarstýringu. 
+Úr þessari síðu geta notendur kafað í **talnagögn fjárhagsáætlunarstýringar eftir tímabili** síðu til að skoða upplýsingar um framboð fjárhagsáætlunar og frátekningar á víddarsamsetningu fjárhagsáætlunarstýringar. Notendur geta einnig kafa í **talnagögn fjárhagsáætlunarstýringar** síðu til að skoða framboð á fjárhagsáætlun fyrir allar samsetningar fjárhagsvídda sem eru notaðar í fjárhagsáætlunarstýringu. 
 
 Ef fjárhagsáætlunarstýring er kveikt fyrir Innkaupapantanir, getur stjórnanda fjárhagsáætlunar notað vinnusvæðið **fjárhagsáætlun og spár** til að skoða biðröð fyrir biðröðinni allar óstaðfestar innkaupapantanir sem eru með viðvaranir frá athugun á fjárhagsáætlun og villuboð. Hafi stjórnanda fjárhagsáætlunar heimildir yfir fjárhagsáætlun skilgreindar hann getur staðfesta Innkaupapöntun beint í vinnusvæðið.    
 

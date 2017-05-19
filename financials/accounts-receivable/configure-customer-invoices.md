@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3a45327aaa53bc4592e4b08cb550671b6c426a5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 055670a5aed0078a1157bd081af9f4617b1d1d76
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/31/2017
 
 **Reikningur með frjálsum texta** er ekki tengdur sölupöntun. Hann inniheldur pöntunarlínur sem fela í sér fjárhagslykla, frjálsar textalýsingar, og söluupphæð sem maður færir inn sjálfur. Ekki er hægt að færa inn vörunúmer á þessa gerð reiknings. Skylda er að færa inn viðeigandi VSK-upplýsingar. Aðallykill fyrir söluna tilgreindur á hverri reikningslínu sem hægt er að dreifa á mörgum fjárhagslykla með því að smella **Dreifingarupphæðir** á síðunni **reikningur með frjálsum texta**. Þar að auki er staða viðskiptavinarins bókuð í safnlykil úr bókunarregla sem notuð er fyrir reikningur með frjálsum texta.
 
-**Bráðabirgðareikningur ** er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort sölureikning eða reikningur með frjálsum texta.
+**Bráðabirgðareikningur** er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort sölureikning eða reikningur með frjálsum texta.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Bóka og prenta einstaka reikningur viðskiptavinar sem byggðir eru á sölupöntunum
 Notið þetta ferli til að stofna reikning sem byggist á sölupöntun. Hægt er að gera þetta ef ákveðið er að reikningsfæra viðskiptamann áður en vörurnar eða þjónustan eru afhent. 

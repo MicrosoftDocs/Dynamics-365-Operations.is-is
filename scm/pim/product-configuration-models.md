@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð.
 
@@ -75,7 +79,7 @@ Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með svi�
 <td>Takmarkanir</td>
 <td>Skorður lýsa takmörkunum á skilgreiningu framleiðslulíkans. Skorður eru notaðar til þess að tryggja að aðeins gild gildi séu valinn þegar afurð er sett upp. Skorður geta annað hvort verið segðarskorður eða töfluskorður:
 <ul>
-<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins. Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða Wiki-tengla um segðaskorður og töfluskorður.</li>
+<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins. Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða efnistengla um segðaskorður og töfluskorður.</li>
 <li>Skilgreina verður töfluskorðum áður en hægt er að nota þær á íhlut í afbrigðalíkani afurðar. Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar. Notandaskilgreind töfluskorða er gerð fylkis sem má nota til að lýsa samstæðu samsetninga fyrir eigindagildin sem eru skilgreind í eigindagerðum. Ef hátalarar eru t.d. framleidd gæti fylki fyrir notendaskilgreindrar töfluskorðu haft dálka fyrir áferð og grill.</li>
 </ul>
 <strong>Dæmi</strong> Hátalarar eru tiltækar í fjórum áferðum: Svart, eik, rósarviður og Hvítum. Hátalarar getur haft eina af þremur framgrillum: Svartur, Málmi eða Hvítum. Svart áferð er tiltækur fyrir öll grill en aðrar áferðir takmarkast við tiltekin grill. Eftirfarandi tafla sýnir dæmi um upplýsingar sem birtast í <strong>Leyfðar samsetningar</strong> flipanum á <strong>Breyta töfluskorðu</strong> síðunni.
@@ -147,6 +151,8 @@ Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undirí
 </tr>
 </tbody>
 </table>
+
+
 
 
 

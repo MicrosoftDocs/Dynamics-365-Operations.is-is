@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Stjórnun áfangastaðar fyrir rafræna skýrslugerð aðgerðir eru tiltækar �
 
 [![Stofnun viðtöðustaðar skráar](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Athugið **: hægt er að stofna eina áfangastað fyrir hverja frálagsskrá af sama sniði, eins og möppu eða skrá sem er valin í **skrárnafn ** reit. Síðan er hægt að virkja og óvirkja staka áfangastaði fyrir áfangastað skrár aðskilið í **stillingar fyrir Áfangastað** svarglugga. **Stillingar** hnappinn er notuð til að stjórna áfangastaði fyrir valinn áfangastað skrár. Í **stillingar fyrir Áfangastað** svarglugganum er hægt að stjórna hvern ákvörðunarstað sérstaklega með því að stilla **Virkt** valkost fyrir hana.
+**Athugið**: hægt er að stofna eina áfangastað fyrir hverja frálagsskrá af sama sniði, eins og möppu eða skrá sem er valin í **skrárnafn** reit. Síðan er hægt að virkja og óvirkja staka áfangastaði fyrir áfangastað skrár aðskilið í **stillingar fyrir Áfangastað** svarglugga. **Stillingar** hnappinn er notuð til að stjórna áfangastaði fyrir valinn áfangastað skrár. Í **stillingar fyrir Áfangastað** svarglugganum er hægt að stjórna hvern ákvörðunarstað sérstaklega með því að stilla **Virkt** valkost fyrir hana.
 
 [![Svargluggi áfangastaðastillinga](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg).
 
@@ -60,7 +61,7 @@ Stjórnun áfangastaðar fyrir rafræna skýrslugerð aðgerðir eru tiltækar �
 
 ### <a name="email-destination"></a>Áfangastður tölvupósts
 
-Setja **Virkt ** til **Já** til að senda frálagsskrá með tölvupósti. Eftir að þessi valkostur er virkjaður er hægt að breyta efni tölvupósts og tilgreina viðtakendur tölvupósts og meginmál tölvupósts. Hægt er að setja upp fastatexta fyrir efni og meginmál tölvupósts eða hægt er að nota formúlur rafræn skýrslugerð til að gagnvirkt stofna texta tölvupósts. Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Grunnstillingu má ljúka á sama hátt og Prentstýring eiginleiki í Dynamics 365 for Operations lýkur henni. Að öðrum kosti, er hægt að leysa úr netfangi með því að nota beina tilvísun í skilgreiningu rafræn skýrslugerð skilgreining til og með formúla.
+Setja **Virkt** til **Já** til að senda frálagsskrá með tölvupósti. Eftir að þessi valkostur er virkjaður er hægt að breyta efni tölvupósts og tilgreina viðtakendur tölvupósts og meginmál tölvupósts. Hægt er að setja upp fastatexta fyrir efni og meginmál tölvupósts eða hægt er að nota formúlur rafræn skýrslugerð til að gagnvirkt stofna texta tölvupósts. Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Grunnstillingu má ljúka á sama hátt og Prentstýring eiginleiki í Dynamics 365 for Operations lýkur henni. Að öðrum kosti, er hægt að leysa úr netfangi með því að nota beina tilvísun í skilgreiningu rafræn skýrslugerð skilgreining til og með formúla.
 
 ### <a name="email-address-types"></a>Gerðir tölvupóstfanga
 
@@ -74,7 +75,7 @@ Ef valið er **Prentstýring tölvupóstur** gerð, geturðu fært inn fast netf
 
 [![Grunnstilla Tölvupóstur vegna prentstýringar](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
-Athugið að formúlur eru við tilgreindar fyrir skilgreiningu rafrænnar skýrslugerðar. Í **formúla**, Færið inn skjalbundna tilvísun í viðskiptavin eða lánardrottinn gerð aðila. Í stað þess að slá inn, hægt að finna gagnaveituhnút sem stendur fyrir lykil viðskiptavinar eða lánardrottins, og smella á **bæta Við gagnaveitu ** hnappinn til að uppfæra formúlu. Dæmi: Ef ISO 20022 skilgreining millifærslu fjármuna er notuð, hnúta sem standa fyrir lykil lánardrottins er  **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Annars að færa inn strenggildi, eins og **DE-001**, til að vista formúlu.
+Athugið að formúlur eru við tilgreindar fyrir skilgreiningu rafrænnar skýrslugerðar. Í **formúla**, Færið inn skjalbundna tilvísun í viðskiptavin eða lánardrottinn gerð aðila. Í stað þess að slá inn, hægt að finna gagnaveituhnút sem stendur fyrir lykil viðskiptavinar eða lánardrottins, og smella á **bæta Við gagnaveitu** hnappinn til að uppfæra formúlu. Dæmi: Ef ISO 20022 skilgreining millifærslu fjármuna er notuð, hnúta sem standa fyrir lykil lánardrottins er  **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Annars að færa inn strenggildi, eins og **DE-001**, til að vista formúlu.
 
 [![Formúluhönnuður](./media/ger_formuladesignerfordestination-1024x541.jpg)](./media/ger_formuladesignerfordestination.jpg)
 
@@ -92,11 +93,11 @@ Notaðu þessa gerð tölvupósts ef skilgreiningin sem þú notar er með hnút
 
 ### <a name="archive-destination"></a>áfangastaður skjalasafns
 
-Hægt er að nota þennan valkost til að senda frálag annað hvort á Microsoft SharePoint-möppu eða Microsoft Azure Geymslu. Stilla **Virkt** á **Já ** til að senda frálag á áfangastað sem er skilgreind með völdu skjalagerðina. einungis gerð skjals þar sem flokksins er stillt á **Skrá** eru tiltækar til vals. Hægt er að Skilgreina gerðir skjala í **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Skjalagerðir**. Skilgreining fyrir áfangastaði rafrænnar skýrslugerðar er sú sama og skilgreiningin fyrir skjalastjórnunarkerfið.
+Hægt er að nota þennan valkost til að senda frálag annað hvort á Microsoft SharePoint-möppu eða Microsoft Azure Geymslu. Stilla **Virkt** á **Já** til að senda frálag á áfangastað sem er skilgreind með völdu skjalagerðina. einungis gerð skjals þar sem flokksins er stillt á **Skrá** eru tiltækar til vals. Hægt er að Skilgreina gerðir skjala í **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Skjalagerðir**. Skilgreining fyrir áfangastaði rafrænnar skýrslugerðar er sú sama og skilgreiningin fyrir skjalastjórnunarkerfið.
 
 [![Síðan Gerðir skjala](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skjalasafns** er virkjaður er hægt að vista niðurstöður skilgreiningarframkvæmdar í Vinnsla skjalasafn. Hægt er að skoða niðurstöðurnar í **Fyrirtækisstjórnun ** &gt; **Rafræn skýrslugerð** &gt; **Viðtökustaður rafrænnar skýrslugerðar**. **athugasemd:** Hægt er að velja gerð skjals fyrir Vinnsla skjalasafns í Dynamics 365 for Operations, í **Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Rafræn skýrslugerð** &gt; **Rafræn skýrslugerð færibreytur**.
+Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skjalasafns** er virkjaður er hægt að vista niðurstöður skilgreiningarframkvæmdar í Vinnsla skjalasafn. Hægt er að skoða niðurstöðurnar í **Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð** &gt; **Viðtökustaður rafrænnar skýrslugerðar**. **athugasemd:** Hægt er að velja gerð skjals fyrir Vinnsla skjalasafns í Dynamics 365 for Operations, í **Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Rafræn skýrslugerð** &gt; **Rafræn skýrslugerð færibreytur**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -110,7 +111,7 @@ Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sj�
 
 ### <a name="file-destination"></a>Viðtökustaður skráar
 
-Ef **Virkt** er stillt á **Já ** birtist opinn eða vistaður svargluggi þegar skilgreiningin hefur klárað keyrsluna.
+Ef **Virkt** er stillt á **Já** birtist opinn eða vistaður svargluggi þegar skilgreiningin hefur klárað keyrsluna.
 
 ### <a name="screen-destination"></a>Áfangastaður skjás
 
@@ -135,7 +136,7 @@ Tvær gerðir af skyldum og réttindum eru notaðar fyrir áfangastaði rafrænn
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Ég hef flutt inn rafræna skilgreiningar og ég sé þær á síðunni fyrir skilgreiningar Rafræna skýrslugerð. En af hverju sé ég ekki þær á síðu fyrir áfangastaði Rafrænnar skýrslugerðar?
 
-Gangið úr skugga um að smellt er á **Nýtt** og veldu síðan skilgreiningu í á **Tilvísun** svæði. Á **áfangastaði Rafræna skýrslugerð ** síðu er hægt að sjá aðeins skilgreiningar sem áfangastaðir hafa verið skilgreind fyrir.
+Gangið úr skugga um að smellt er á **Nýtt** og veldu síðan skilgreiningu í á **Tilvísun** svæði. Á **áfangastaði Rafræna skýrslugerð** síðu er hægt að sjá aðeins skilgreiningar sem áfangastaðir hafa verið skilgreind fyrir.
 
 ### <a name="is-there-any-way-to-define-which-azure-storage-account-and-azure-blob-storage-are-used"></a>Er einhver leið til að skilgreina hvaða Azure Geymslulykil og Azure Blob geymsla er notaður?
 
@@ -151,7 +152,7 @@ Athugið að formúlur eru sérstaklega ætlaðar fyrir skilgreiningu rafrænnar
 
 ### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Einn af mínar skilgreiningar sniðs inniheldur margar skrár sem eru flokkaðar í einni möppu (t.d. Folder1 inniheldur File1, File2 og File3). Hvernig set ég upp áfangastaði þannig að Folder1.zip var ekki stofnuð yfir höfuð, File1 er send með tölvupósti, File2 er sent til SharePoint og ég get opnað File3 strax eftir skilgreining eer keyrð?
 
-Skilyrðið er skal snið verður að vera tiltæk í skilgreiningum rafrænnar skýrslugerðar. Ef þú ert með sniðið þitt, skal opna sem **áfangastað Rafræn skýrslugerðar ** síðunni og stofna ný tilvísun í þessa skilgreiningu. Síðan verður að hafa fjóra áfangastaði skráa , ein fyrir hvern frálagsíhlut. Stofna fyrsta ákvörðunarstað skrár , gefa því heiti eins og **Möppu**, og veljið skrárnafn sem táknar möppu í þinni skilgreiningu. Smellið á **Stillingar**, og gangið úr skugga um að allar áfangastaði eru óvirkir. Fyrir þessa áfangasta skrár, verður mappan ekki stofnuð. Að sjálfgefnu, vegna tengsla stigveldis milli skrár og yfirskipaðra mappa, munu skrárnar verða hegða sér á sama hátt. Með öðrum orðum þeir ekki verða sendir neitt. Til að hnekkja þeirri sjálfgefinni hegðun, verður að stofna þrjá fleiri áfangastaði skrár , einn fyrir hverja skrá. Í stillingum áfangastaðar fyrir hverja, þarf að virkja ákvörðunarstað sem á að senda skrána á.
+Skilyrðið er skal snið verður að vera tiltæk í skilgreiningum rafrænnar skýrslugerðar. Ef þú ert með sniðið þitt, skal opna sem **áfangastað Rafræn skýrslugerðar** síðunni og stofna ný tilvísun í þessa skilgreiningu. Síðan verður að hafa fjóra áfangastaði skráa , ein fyrir hvern frálagsíhlut. Stofna fyrsta ákvörðunarstað skrár , gefa því heiti eins og **Möppu**, og veljið skrárnafn sem táknar möppu í þinni skilgreiningu. Smellið á **Stillingar**, og gangið úr skugga um að allar áfangastaði eru óvirkir. Fyrir þessa áfangasta skrár, verður mappan ekki stofnuð. Að sjálfgefnu, vegna tengsla stigveldis milli skrár og yfirskipaðra mappa, munu skrárnar verða hegða sér á sama hátt. Með öðrum orðum þeir ekki verða sendir neitt. Til að hnekkja þeirri sjálfgefinni hegðun, verður að stofna þrjá fleiri áfangastaði skrár , einn fyrir hverja skrá. Í stillingum áfangastaðar fyrir hverja, þarf að virkja ákvörðunarstað sem á að senda skrána á.
 
 # <a name="see-also"></a>Sjá einnig
 

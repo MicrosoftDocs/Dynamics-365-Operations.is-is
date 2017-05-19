@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Margar stillingar ákvarða hvernig framleiðsluáætlun eru reiknaðir. Þú sk
 
 Röðunarstefnan er grunnþáttur röðunarferlisins. Hægt er að raða framleiðslu fram eða aftur í tíma frá hvaða dagsetningu sem er, eftir tíma og áætlunarþörfum.
 
--   **Röðun áfram **– þú getur raðað framleiðslu til að byrja eins fljótt og möguleg er. Framleiðslan getur hafist í dag, á morgun eða á hvaða síðari dagsetningu sem er. áætlað er að framleiðslan hefjist á fyrstu mögulegu dagsetningu og er áætluð fram í tímann á fyrstu mögulegu lokadagsetningu.
+-   **Röðun áfram**– þú getur raðað framleiðslu til að byrja eins fljótt og möguleg er. Framleiðslan getur hafist í dag, á morgun eða á hvaða síðari dagsetningu sem er. áætlað er að framleiðslan hefjist á fyrstu mögulegu dagsetningu og er áætluð fram í tímann á fyrstu mögulegu lokadagsetningu.
 -   **Röðun afturábak** – þú getur raðað framleiðslu til að byrja eins seint og möguleg er. Áætlunin byggist á dagsetningunni sem ljúka á framleiðslunni og telur afturábak að síðustu mögulegu dagsetningu sem hefja má framleiðsluna án þess að rjúfa skilafrestinn.
 
 Eftirtaldir valkostir eru í boði:

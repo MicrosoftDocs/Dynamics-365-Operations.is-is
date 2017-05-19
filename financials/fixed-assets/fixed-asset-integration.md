@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 9184e98c8afeef496aa709154d3bea26005fe611
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 06559cba9e0a19e2530e8cf8559d8b7b272bbf16
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -85,7 +86,7 @@ Samþætting fyrir hverja pöntunarlínu er virkjuð á flipanum **Eignir** á f
 ## <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 Hægt er að tengja verkefni við eign sem verður fyrir áhrifum af verkefninu. Einnig er hægt að tengja hvern áfanga, verkefni eða undirverk við mismunandi eignir. Hægt er að tengja eina eign við hverja verkfærslu. Tenging er mynduð þegar fært er inn númer eignar í reitinn **Eign** á síðunni **Verkefni**. Gerð verks verður að vera annaðhvort **Innri** eða **Kostnað verks**. 
 
-Einnig er hægt að nota síðuna **Verkefni** til að skoða upplýsingar um eignir sem eru tengdar verkum. Á flýtiflipanum **Uppsetning** er smellt á eignatengilinn til að opna síðuna **Eignir**. Smellið síðan á **Verkefni** &gt; ** Öll verkefni** til að skoða verkefni sem eru tengd við eign. 
+Einnig er hægt að nota síðuna **Verkefni** til að skoða upplýsingar um eignir sem eru tengdar verkum. Á flýtiflipanum **Uppsetning** er smellt á eignatengilinn til að opna síðuna **Eignir**. Smellið síðan á **Verkefni** &gt; **Öll verkefni** til að skoða verkefni sem eru tengd við eign. 
 
 Yfirleitt eru eignir tengdar verkefnum þegar verkefnin tengjast vinnu, viðhaldi eða endurbótum á eigninni sjálfri. Þegar verkinu er lokið, uppfærsluleiðréttingu eignarinnar er ekki stofnuð sjálfkrafa. Þess vegna verður að stofna í uppfærsluleiðréttingu handvirkt, ef þörf er á uppfærsluleiðréttingu. 
 

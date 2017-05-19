@@ -3,7 +3,7 @@ title: "Segðarskorður og töfluskorður í afbrigðalíkönum afurðar"
 description: "Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum. 
 
@@ -40,7 +44,7 @@ Töfluskorður skrá samsetningargildi sem eru leyfðar fyrir eiginleika þegar 
 
 ### <a name="example-of-a-table-constraint"></a>Dæmi um töfluskorðu
 
-Þetta dæmi sýnir hvernig hægt er að takmarka skilgreiningu hátalara við tiltekinn frágang húss og framhliðir. Fyrsta taflan sýnir frágang húss og framhliðir sem eru almennt aðgengilegar fyrir skilgreiningu. Gildin eru skilgreind fyrir þær gerðir eiginda **Frágangs húss og **framgrills**.
+Þetta dæmi sýnir hvernig hægt er að takmarka skilgreiningu hátalara við tiltekinn frágang húss og framhliðir. Fyrsta taflan sýnir frágang húss og framhliðir sem eru almennt aðgengilegar fyrir skilgreiningu. Gildin eru skilgreind fyrir þær gerðir eiginda **frágangs húss**og **framgrills**.
 
 | Gerð eigindar | Gildi                      |
 |----------------|-----------------------------|
@@ -84,7 +88,7 @@ Hægt er að nota segðarskorður eða töfluskorður, eftir því hvernig óska
 (Color == "Black" & (size == "30" | size == "50")) | (color == "Red" & size = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Á ég nota virknitákn eða infix-tákn þegar ég að skrifa segðarskorður?
-Hægt er að skrifa segðarskorðu með því að nota annaðhvort tiltæk forliðsvirknitákn eða infix-tákn. Fyrir virknitáknin **Min**, **Max** og **Abs **er ekki hægt að nota infix-tákn. Þessi virknitákn eru tekin með sem staðaðvirknitákn í flestum forritunartungumálum.
+Hægt er að skrifa segðarskorðu með því að nota annaðhvort tiltæk forliðsvirknitákn eða infix-tákn. Fyrir virknitáknin **Min**, **Max** og **Abs** er ekki hægt að nota infix-tákn. Þessi virknitákn eru tekin með sem staðaðvirknitákn í flestum forritunartungumálum.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Hvaða virknitákn og infix-tákn get ég notað þegar ég að skrifa segðarskorður?
 Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þegar segðarskorða er skrifuð fyrir íhlut í afbrigðalíkani afurðar. Í dæmunum hér í fyrri töflunni er hægt að sjá hvernig á að skrifa segð með því að nota annaðhvort infix-tákn eða virknitákn.
@@ -248,5 +252,7 @@ Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða 
 [Stofna segð töfluskorðu (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Bæta útreikningi við afbrigðalíkan afurða (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

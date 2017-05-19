@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c0bc5b5d86956336012096c11d0d7621abab1f9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d8296dd0347a325a9ff3bd06f558d161ab4030dc
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtæki
 
 Þú Getur skilgreina einn eða fleiri umbúðaeining fyrir vöru, fyrir pökkunarflokk vörum eða fyrir öll atriði. Umbúðaeining samanstendur af ýmsum umbúðaefnum, þyngd þess, og vörufjölda sem tilheyrir umbúðaeiningu. Umbúðaefniskóða er úthlutað á hverja gerð umbúðaefnis sem  er skilgreint. Byggt á umbúðaefniskóðanum, er hægt að tilgreina verð fyrir tiltekið tímabil. Umbúðaefnisgjald er reiknað á grundvelli þessara upplýsinga.
 
-| **Ábending **                                                                                                                                             |
+| **Ábending**                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jafnvel þótt fyrirtækið greiði ekki umbúðaefnisgjald er hægt að nota aðgerðina til að reikna talnagögn fyrir umbúðaþyngd. |
 
@@ -56,9 +57,9 @@ Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtæki
 Umbúðaefnisfærslur fyrir innkaupapöntunarlínu eru ekki stofnaðar af kerfinu. Þú Stofna færslur fyrir reikningsfærðar innkaupapöntunarlínur handvirkt í **umbúðaefnisfærslur** síðu.
 
 ## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Setja upp leyfiskóða fyrir pökkunarefnisgjöld handa viðskiptavini
-Ef viðskiptavinir greiða gjöld vegna pökkunarefnis skal tilgreina leyfisnúmer umbúðaefnisgjalds viðskiptavinarins í síðunni **viðskiptavinur**. Þegar leyfisnúmer hefur verið úthlutað viðskiptavini, eru gjöld vegna pökkunarefnis reiknuð sjálfkrafa þegar sölupantanir eru reikningsfærðar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald ** hreinsaður í síðunni **umbúðaefnisfærslur** þar sem ekki er þörf á að prenta og reikna út skýrsluna . Mögulegt er að prenta þyngd umbúða á reikninginn og tilkynna viðskiptavini að hann greiði viðkomandi gjöld. 
+Ef viðskiptavinir greiða gjöld vegna pökkunarefnis skal tilgreina leyfisnúmer umbúðaefnisgjalds viðskiptavinarins í síðunni **viðskiptavinur**. Þegar leyfisnúmer hefur verið úthlutað viðskiptavini, eru gjöld vegna pökkunarefnis reiknuð sjálfkrafa þegar sölupantanir eru reikningsfærðar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald** hreinsaður í síðunni **umbúðaefnisfærslur** þar sem ekki er þörf á að prenta og reikna út skýrsluna . Mögulegt er að prenta þyngd umbúða á reikninginn og tilkynna viðskiptavini að hann greiði viðkomandi gjöld. 
 
-Ef fyrirtækið þitt greiðir gjöld fyrir umbúðir skal ekki fylla inn leyfiskóða viðskiptavinar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald ** valinn í síðunni **umbúðaefnisfærslur**. Þetta gefur til kynna að gjöldin eru reiknuð þegar skýrsla er stofnuð. Mögulegt er að prenta þyngd umbúða á reikninginn og gefa til kynna að fyrirtæki þitt greiði viðkomandi gjöld.
+Ef fyrirtækið þitt greiðir gjöld fyrir umbúðir skal ekki fylla inn leyfiskóða viðskiptavinar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald** valinn í síðunni **umbúðaefnisfærslur**. Þetta gefur til kynna að gjöldin eru reiknuð þegar skýrsla er stofnuð. Mögulegt er að prenta þyngd umbúða á reikninginn og gefa til kynna að fyrirtæki þitt greiði viðkomandi gjöld.
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Prenta þyngd pökkunarefnis á reikninga
 Mögulegt er að prenta þyngd umbúða og gefa til kynna á reikningnum hver greiðir umbúðagjöld. Þyngd er dregin saman fyrir hvern pökkunarkóða.

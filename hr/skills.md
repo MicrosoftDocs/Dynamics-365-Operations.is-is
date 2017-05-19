@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
+
+[!include[banner](includes/banner.md)]
+
 
 Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
 
@@ -52,24 +56,12 @@ Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða ten
 
 Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Ábending </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á <strong>Taka með í hæfnisvörpun</strong> val á Já í eftirfarandi síður:
-<ul>
-<li>Vinna</li>
-<li>Starfsmaður</li>
-<li>Umsækjandi</li>
-<li>Tengiliðir</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
+
+> + Vinna
+> + Starfsmaður
+> + Umsækjandi
+> + Tengiliðir
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Hæfnibilsgreining og greining hæfniforstillingar
 Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi. Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.  
@@ -80,5 +72,7 @@ Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæf
 --------
 
 [Mannauður](index.md)
+
+
 
 

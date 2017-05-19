@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bd2ba11ff4f10d3369babf10fc70659ae8a717fa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf723381ed2f9696512d17af7e882582cbfcb49e
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Ef úthlutunaraðferð úthlutunarreglunnar er Grunnur verður einnig að skilgr
 Hver úthlutunarregla hefur fjóra meginþætti: almennt, uppruna, áfangastað og mótbókun. Viðbótaríhlutur, grunnúthlutunarreglur fjárhags, er nauðsynlegur ef Grunnur er notaður seð úthlutunaraðferð. Hver íhlutur veitir mikilvægar upplýsingar sem er krafist til að keyra úthlutanir.
 
 -   **Almennt** – Þessi íhlutur er þar sem notandinn skilgreinir valkosti eins og úthlutunarreglu, stillingar samstæðureglu og hvort reglan sé virk eða ekki.
--   **Uppruni** – Þessi íhlutur er þar sem notandinn tilgreinir upprunagögn fyrir úthlutunina. Hægt er að byggja úthlutun á fjárhagsstöðum (**Gagnagjafi** = ** = Fjárhagur**) eða föstum upphæðum (**Gagnagjafi = ** = **Fast gildi**). Þegar **Gagnagjafi** er stilltur á **Fjárhag**, verður að skilgreina uppruna síuskilyrða fyrir úthlutunarreglu fjárhags (til dæmis, fyrir auglýsingakostnað).
+-   **Uppruni** – Þessi íhlutur er þar sem notandinn tilgreinir upprunagögn fyrir úthlutunina. Hægt er að byggja úthlutun á fjárhagsstöðum (**Gagnagjafi** = **= Fjárhagur**) eða föstum upphæðum (**Gagnagjafi =** = **Fast gildi**). Þegar **Gagnagjafi** er stilltur á **Fjárhag**, verður að skilgreina uppruna síuskilyrða fyrir úthlutunarreglu fjárhags (til dæmis, fyrir auglýsingakostnað).
 -   **Viðtökustaður** – Þessi íhlutur skilgreinir hvernig dreifa skal og gera grein fyrir niðurstöðu úthlutunarútreiknings. Til dæmis getur verið ein lína áfangastaðar fyrir hverja deild.
 -   **Mótlykill** – Þessi íhlutur skilgreinir hvernig ákvarða skal aðallykla og víddir fyrir mótfærslurnar sem jafna færslur á áfangastað. Þessar færslur eru yfirleitt notaðar í stað lykla og vídda sem eru byggðar á grunni uppruna. Þegar **Gagnagjafi** er stilltur á **Fast gildi**, er ekki hægt að nota **Uppruna** sem valkost.
 -   **Grunnreglur fjárhagsúthlutunar** – Þessar reglur nota eigin skilyrði upprunasíu til að ákvarða hvaða fjárhagsstöður á að nota fyrir úthlutun (til dæmis tekjur á deild). Hægt er að nota grunnreglu úthlutunar með mörgum úthlutunarreglum.

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 318c88f88277a8300b1fcda5056a9a92c9a81eae
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7edf456b09c6f77550f1dd023e712c7ef379fd1a
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,9 +51,9 @@ Ef opnuð er **Bóka sem tilbúið** síðu úr útgefin afurð, stingur síðan
 ## <a name="boms-that-have-multiple-levels"></a>Uppskriftir sem hafa mörg stig
 Þegar Uppskrift hefur mörg stig, er hægt að stjórna hvernig gert er grein fyrir efni á öllum stigum með því að nota í **Niðurbrot** svæði. Þetta svæði er tiltækt bæði í **bóka sem tilbúið** síðu og **Hám. þess em bóka má sem tilbúið** síðu. Eftirtaldir valkostir eru í boði:
 
--   **Aldrei ** – undirliggjandi uppskriftir eru ekki brotnar niður ef skortur er á efnum.
--   **Alltaf ** – allar undirliggjandi uppskriftir eru brotnar niður að fullu. Þess vegna er hvers kyns lausar lagerbirgðir fyrir hálfkláraðar hlutur vöru ekki notaðar.
--   **Skortur ** – undirliggjandi uppskriftir eru aðeins brotnar niður ef allt magn efnis sem óskað er eftir er ekki tiltækt.
+-   **Aldrei** – undirliggjandi uppskriftir eru ekki brotnar niður ef skortur er á efnum.
+-   **Alltaf** – allar undirliggjandi uppskriftir eru brotnar niður að fullu. Þess vegna er hvers kyns lausar lagerbirgðir fyrir hálfkláraðar hlutur vöru ekki notaðar.
+-   **Skortur** – undirliggjandi uppskriftir eru aðeins brotnar niður ef allt magn efnis sem óskað er eftir er ekki tiltækt.
 
 ### <a name="example"></a>Dæmi
 

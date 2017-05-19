@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tíma
 -   Starfsmenn sem eiga að skrá tíma og viðveru með reglulegu millibili, til dæmis daglega, vikulega eða hálfsmánaðarlega.
 -   Yfirmenn, stjórnendur og launafulltrúa sem reikna, samþykkja og flytja starfsmannaskráningar til frekari vinnslu.
 
-| **Ábending **                                                                                                                                                                                                                                                    |
+| **Ábending**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef Tími og viðvera er keyrð með Framkvæmdarferli framleiðslu, munu allar skráningar á verkum, verkþáttum, óbeinum verkþáttum, fjarvistarkóðum og yfirvinnu og sveigjanlegum tíma verða skráð og eru notaðir til að reikna út laun°í báðum kerfum. |
 
@@ -53,7 +54,7 @@ Eftir uppsetningu, geta starfsmenn fært inn ólíkar gerðir skráninga.
 -   Tíma- og notkun á vörum í framleiðsluvinnslu.
 -   Tími á vél í vinnslusal, ef vél hefur verið skilgreind sem tilfang.
 
-| **Ábending **                                                                                                                                                                                                                      |
+| **Ábending**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hægt er að úthluta starfsmanni sjálfkrafa tímaskráningu sem gerðar eru á tiltekinni vél í vinnslusal, ef starfsmaðurinn velur að vinna sem aðstoðarmaður á vél þegar hann eða hún°hefur framleiðsluvinnslu. |
 
@@ -82,7 +83,7 @@ Rétt eins og reikniflokki er úthlutað á starfsmann með tímaskráningu ver�
 -   Bætt við handvirkum kaupaukum.
 -   Fært inn viðbótarupplýsingar um fjarvistarskráningar.
 
-| **Ábending **                                                                                                                                                                             |
+| **Ábending**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef yfirvinna hefur verið reiknuð fyrir einstaka starfsmenn er hægt að úthluta yfirvinnunni á einstakar vinnslur yfir daginn. Þetta á við ef vinnslukostnaður er reiknaður út frá launum starfsmanna. |
 
@@ -102,7 +103,7 @@ Eftir að skráningar eru samþykktar er hægt að færa þær í°reglubundnar 
 ## <a name="reversing-transferred-registrations"></a>Bakfæra flutta skráningu.
 Hægt er að gera verkið að bakfæra færslur – afturkalla þær – þar til flutningur launa fyrir launatímabilið er keyrður. Þetta þýðir að launagögn hafi verið flutt í ytri skrá. Við bakfærslu eru allar skráningar teknar til baka og færslur sem bókaðar hafa verið á tilteknar framleiðslupantanir eða verk eru mótfærðar og þannig núllaðar út.
 
-| **Ábending **                                                 |
+| **Ábending**                                                 |
 |----------------------------------------------------------|
 | Hægt er að flytja ytri skrá inn í launakerfið. |
 

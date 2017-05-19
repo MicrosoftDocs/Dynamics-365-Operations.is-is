@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Fjöldaráðningarverk
+
+[!include[banner](includes/banner.md)]
+
 
 Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöður og ráða starfsmenn á skilvirkan hátt í þær stöður.
 
@@ -46,7 +50,7 @@ Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöð
 
 Eftir val námsmanns til að ráða fyrir starfsnámsstöður, verður að færa inn upplýsingar hvers námsmanns á **Stöðuupplýsingar** fyrir stöðu sem verið er að ráða þá í. Þegar að hafa verið færðar inn allar upplýsingar um stöðu, veljið stöðuna í fjöldaráðningarverk síðu, og smellið síðan á **Ráða**. Stöðufærsla verður stofnuð fyrir hverja stöðu og skrá starfsmanns stofnuð og úthlutað á rétta stöðu fyrir hvern einstakling sem þú ræður.
 
-## <a name="masshire-project-statuses"></a>Stöður fjöldaráðningarverks
+## <a name="mass-hire-project-statuses"></a>Stöður fjöldaráðningarverks
 ráðningarverk getur verið með eftirfarandi stöður:
 -   Stofnaður
 -   Opna
@@ -92,6 +96,8 @@ ráðningarverk getur verið með eftirfarandi stöður:
 </table>
 
  
+
+
 
 
 

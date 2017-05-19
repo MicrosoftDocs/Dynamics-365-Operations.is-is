@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7361b2e04376284238c8c9b1f91d03d18b121d24
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e414d5a5f946ff67befdf824cbf994a99dfe3eb6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Margar ástæður eru til að taka frá birgðir:
 Hægt er að taka birgðir sjálfkrafa frá þegar ný pöntunarlína er stofnuð eða taka birgðir handvirkt frá í einstökum pöntunum. Einnig er hægt að taka frá birgðir á mismunandi stigum í framleiðsluferli. Aðeins er hægt að taka frá vörur í birgðum. Ekki er hægt að taka frá þjónustu vegna þess að engar birgðir eru á lager. Hægt er að taka frá bæði efnislegar birgðir og birgðir sem eru pantaðar en ekki mótteknar. Ef meira magn er tekið frá en tiltækt er á lager birtist skilaboð um að ekki sé hægt að taka frá svo mikið magn. Síðan er hægt að taka magnið frá samt, frá eða breyta magninu sem er pantað. Hægt er að taka magnið frá eða breyta því. Ef fleiri vörur eru teknar frá en eru til á lager er mismunurinn afgreiddur næst þegar vörurnar eru tiltækar til afhendingar.
 
 ## <a name="inventory-reservation-policies"></a>Reglur um birgðafrátekningu
-Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur **síðunni á **Færibreytur birgða- og vöruhúsakerfis** síðunni og **framleiðslufæribreytur** síðuna.
+Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur**síðunni á **Færibreytur birgða- og vöruhúsakerfis** síðunni og **framleiðslufæribreytur** síðuna.
 ### <a name="policies-on-the-item-model-groups-page"></a>Reglur á síðunni vörulíkanaflokkur
 
 **Birgðareglur** kafla inniheldur eftirfarandi reglur um frátekningu.
@@ -54,7 +55,7 @@ Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur **síðunni á
 | **Frátekningarregla**  | **Lýsing**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Dagsetningarstýrt samkvæmt FIFO    | Ef valið er **dagsetningarstýrt með FIFO (fyrst inn - fyrst út)** valkostur er birgðafrátekning stjórnað af röðunardagsetningu samkvæmt FIFO meginreglunni. Runur eru teknar frá samkvæmt fyrstu dagsetningu innhreyfingar afurðar, samkvæmt meginreglu um fyrst inn, fyrst út (FIFO).                                                                                                                                                                                                                                                                       |
 | Afturábak frá sendingardagsetningu | Þessi valmöguleiki verður tiltækt ef valkosturinn **dagsetningarstýrt með FIFO (fyrst inn - fyrst út)** hefur verið valinn. Ef **Afturábak frá sendingardagsetningu** er valið, eru birgðir teknar frá afturábak frá umbeðinni sendingardagsetningin samkvæmt reglunni um síðast inn, fyrst út (LIFO). Ef engar innhreyfingar eru tiltækar fyrir sendingardagsetningm, er FIFO frátekning notuð.                                                                                                                                                                                                           |
-| Frátekning vörusölu  | Ákvarðar hvort frátekning á vöru sé sjálfvirk eða handvirk. Ef frátekning er Sjálfvirk, eru birgðir teknar frá þegar pantanalínur eru stofnaðar. Hægt er að gera frátekningar á stigi vörunúmers fyrir Uppskriftir (**Sjálfvirka** valkost), eða fyrir einstakar einingar uppskriftar (**Niðurbrot** valkost). Sjálfgefna gildið fyrir **Frátekning vörusölu** gæti erfst frá **Færibreytur viðskiptakrafna**. Á þeirri síðu er gildið sett í svæðið Frátekning á **Sjálfgildi sölu** ** hlutanum **á flipanum **Almennt**. |
+| Frátekning vörusölu  | Ákvarðar hvort frátekning á vöru sé sjálfvirk eða handvirk. Ef frátekning er Sjálfvirk, eru birgðir teknar frá þegar pantanalínur eru stofnaðar. Hægt er að gera frátekningar á stigi vörunúmers fyrir Uppskriftir (**Sjálfvirka** valkost), eða fyrir einstakar einingar uppskriftar (**Niðurbrot** valkost). Sjálfgefna gildið fyrir **Frátekning vörusölu** gæti erfst frá **Færibreytur viðskiptakrafna**. Á þeirri síðu er gildið sett í svæðið Frátekning á **Sjálfgildi sölu** **hlutanum**á flipanum **Almennt**. |
 | Val á sömu runu    | Frátekning í sömu runu gerir kleift að taka frá birgðir fyrir sölupöntunarlínu gagnvart einni runu birgða. Ef óskað er að nota þennan valkost verður einnig að stilla **Sameina kröfu** valkostinn á **Já**. Frekari stillingar eru nauðsynleg til að rekja rakningarvíddarflokk og geymsluvíddaflokk. Frekari upplýsingar eru í [Taka frá sömu runu fyrir sölupöntun](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Sameina kröfu | Þessi valkostur er svipuð og í **Sama runuval** valkostur og það sameinar birgðir sem eru teknar frá fyrir sölupöntunarlínur í eina kröfu.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Dagsetningarstýrt samkvæmt FEFO    | Þessi valkostur gerir mögulegt að taka frá runur sem er nálægt þeirra lokadagur eða fyrningardagsetning. Einnig þarf að stilla **Tiltektarskilyrði** svæðið til að velja annað hvort **lokadagur** eða **fyrningardagsetning**.                                                                                                                                                                                                                                                                                                                              |

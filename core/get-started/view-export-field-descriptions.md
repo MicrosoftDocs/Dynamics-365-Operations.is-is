@@ -3,7 +3,7 @@ title: "Skoða og flytja út svæðalýsingar"
 description: "Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Skoða og flytja út svæðalýsingar
+
+[!include[banner](../includes/banner.md)]
+
 
 Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar.
 
@@ -47,13 +51,13 @@ Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engi
 
 Til að skoða lýsingar fyrir síðu skaltu fylgja þessu skrefi.
 
--   Í svæðið ** velja síðu ** skal færa inn heiti síðunnar. Einnig er hægt að smella á örina til að opna lista yfir allar síður, og síðan flett eða sía lista.
+-   Í svæðið **velja síðu** skal færa inn heiti síðunnar. Einnig er hægt að smella á örina til að opna lista yfir allar síður, og síðan flett eða sía lista.
 
-Hægt er að nota heiti síðunnar sem er sýnt í Notendaviðmóti, (til dæmis **Viðskiptavini **)eða kóðanafn (AOT-heiti) sem er tiltæk með því að hægrismella á síðu, (til dæmis **CustTable**). 
+Hægt er að nota heiti síðunnar sem er sýnt í Notendaviðmóti, (til dæmis **Viðskiptavini**)eða kóðanafn (AOT-heiti) sem er tiltæk með því að hægrismella á síðu, (til dæmis **CustTable**). 
 
 Upplýsingar um mismunandi aðferðir til að sía lista yfir síður, sjá hlutann „Leit fyrir síðu" síðar í þessari grein. 
 
-Ef stilltur er **Hafa svæði án lýsingar** valkostur á ** Já** birtast öll svæði á síðunni, óháð því hvort þeir hafa lýsing svæðis.
+Ef stilltur er **Hafa svæði án lýsingar** valkostur á **Já** birtast öll svæði á síðunni, óháð því hvort þeir hafa lýsing svæðis.
 
 ### <a name="export-the-descriptions-for-a-page"></a>Flytja út lýsingar á síðu
 
@@ -80,11 +84,11 @@ Eftirfarandi kaflar veita upplýsingar við úrræðaleit vegna vandamála sem k
 
 ### <a name="i-cant-find-a-field-description"></a>Ég finn ekki svæðislýsingu
 
-Við höfum verið að bæta við lýsingar fyrir flóknari reitum. Ef þú þarft hjálp vegna tiltekins svæðis, skaltu láta okkur vita með því að bæta við athugasemd um þessa Wiki grein.
+Við höfum verið að bæta við lýsingar fyrir flóknari reitum. Ef þú þarft hjálp vegna tiltekins svæðis, skaltu láta okkur vita með því að bæta við athugasemd um þetta efnisatriði.
 
 ### <a name="the-field-description-isnt-helpful"></a>Svæðislýsingin er ekki gagnleg
 
-Vinsamlegast láttu okkur vita með því að bæta við athugasemd um þessa Wiki grein. Ef hægt er, lýsa viðbótarupplýsingar sem þarf.
+Láttu okkur vita með því að bæta við athugasemd um þetta efnisatriði. Ef hægt er, lýsa viðbótarupplýsingar sem þarf.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ég finnur ekki svæðið á síðunni Svæði lýsingar
 
@@ -97,6 +101,9 @@ Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Lei
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Sérsníða reit hjálp](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Sérsníða reit hjálp](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

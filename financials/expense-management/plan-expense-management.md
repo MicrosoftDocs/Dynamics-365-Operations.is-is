@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: is-is
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Kostnaðarstýring er samþætt náið með fjárhagslegar umsjón fyrirtækis �
 
 ### <a name="per-diems"></a>Dagpeningar
 
-Skilgreina verður dagpeningana sem fyrirtækið veitir starfsmanninum. Þar sem dagpeningar eru vanalega notaðir til að ná yfir útgjöld, eins og fæði, leiguhúsnæði og annan tilfallandi kostnað, er hægt að stofna reglur fyrir dagpeningaheimildir sem fyrirtækið býður. Dagpeningataxti getur byggt á árstíma, ferðastað eða hvoru tveggja. Þegar dagpeningaregla er skilgreind er hægt að tilgreina að prósenta af dagpeningataxta verði haldið eftir ef starfsmaður fær ókeypis fæði eða þjónustu. Einnig er hægt að skilgreina lög af dagpeningataxta til að setja lágmarks- og hámarksfjölda klukkustunda sem hægt er að beita á ferðalög starfsmanns. **Ákvarðanir: **
+Skilgreina verður dagpeningana sem fyrirtækið veitir starfsmanninum. Þar sem dagpeningar eru vanalega notaðir til að ná yfir útgjöld, eins og fæði, leiguhúsnæði og annan tilfallandi kostnað, er hægt að stofna reglur fyrir dagpeningaheimildir sem fyrirtækið býður. Dagpeningataxti getur byggt á árstíma, ferðastað eða hvoru tveggja. Þegar dagpeningaregla er skilgreind er hægt að tilgreina að prósenta af dagpeningataxta verði haldið eftir ef starfsmaður fær ókeypis fæði eða þjónustu. Einnig er hægt að skilgreina lög af dagpeningataxta til að setja lágmarks- og hámarksfjölda klukkustunda sem hægt er að beita á ferðalög starfsmanns. **Ákvarðanir:**
 
 -   Sjálfgefnar reglur fyrir dagpeninga fyrir fyrsta og síðasta daga:
     -   Hver er lágmarksfjöldi stunda sem starfsmaður getur krafist á dag og fengið dagpeningar fyrir?
@@ -124,10 +125,10 @@ Fyrir kostnað sem tengist sköttum verður að ákvarða hvað er tekið með e
 -   Er virðisaukaskattur innifalinn í upphæð kostnaðar?
 -   Á að virkja skattendurgreiðslur í útgjöldum?
 
-Athugið að ef, við áætlun í fjárhag, þú hefur ákveðið að nota bandarískan virðisaukaskatt og reglur neysluskatts, sem er gert með því stilla reitinn ** Beita skattlagningarreglur virðisaukaskatts** á Já, er hægt að virkja skattendurgreiðslu á útgjöldum.
+Athugið að ef, við áætlun í fjárhag, þú hefur ákveðið að nota bandarískan virðisaukaskatt og reglur neysluskatts, sem er gert með því stilla reitinn **Beita skattlagningarreglur virðisaukaskatts** á Já, er hægt að virkja skattendurgreiðslu á útgjöldum.
 
 ## <a name="policies"></a>Reglur
-Hægt er að stofna kostnaðarskýrslureglur svo að fyrirtækið geti sparað peninga og tíma þegar starfsmenn stofna til útgjalda fyrir hönd þess. Reglur tryggja að starfsmenn séu innan fjárhagsáætlunar, veiti allar nauðsynlegar upplýsingar og eyði aðeins fé eftir þörfum. Taka verður eftirfarandi ákvarðanir fyrir hverja kostnaðarreglu og hverja samþykktarreglu kostnaðarskýrslu sem þú stofnar. **Ákvarðanir: **
+Hægt er að stofna kostnaðarskýrslureglur svo að fyrirtækið geti sparað peninga og tíma þegar starfsmenn stofna til útgjalda fyrir hönd þess. Reglur tryggja að starfsmenn séu innan fjárhagsáætlunar, veiti allar nauðsynlegar upplýsingar og eyði aðeins fé eftir þörfum. Taka verður eftirfarandi ákvarðanir fyrir hverja kostnaðarreglu og hverja samþykktarreglu kostnaðarskýrslu sem þú stofnar. **Ákvarðanir:**
 
 -   Hvert er heiti reglunnar?
 -   Til hvers er kostnaðarreglan?
