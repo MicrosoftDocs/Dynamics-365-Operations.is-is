@@ -1,23 +1,23 @@
-- name: "Dynamics 365"
+- name: Dynamics 365
   tocHref: /dynamics365/
   topicHref: /dynamics365
   items:
-  - name: "Operations"
+  - name: Operations
     tocHref: /dynamics365/operations/
     topicHref: /dynamics365/operations/index
     items:
-    - name: "Hönnunaraðili og stjórnun"
+    - name: Hönnunaraðili og stjórnun
       tocHref: /dynamics365/operations/dev-itpro/
       topicHref: /dynamics365/operations/dev-itpro/index
-    - name: "Fjármál"
+    - name: Fjármál
       tocHref: /dynamics365/operations/financials/
       topicHref: /dynamics365/operations/financials/index
-    - name: "Mannauður"
+    - name: Mannauður
       tocHref: /dynamics365/operations/human-resources/
       topicHref: /dynamics365/operations/human-resources/index
-    - name: "Smásala"
+    - name: Smásala
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: "Aðfangakeðja"
+    - name: Aðfangakeðja 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index
