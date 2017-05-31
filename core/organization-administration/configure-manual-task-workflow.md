@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     <td>Notendur í tilteknu stigveldi fyrirtækis</td>
     <td><ol>
     <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til að úthluta verk á.</li>
-    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er að úthluta verk á. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir.
-    <ol>
+    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er að úthluta verk á. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
     <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
     <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
     </ol></li>
-    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu verki skal úthlutað á:
-    <ul>
+    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu verki skal úthlutað á: <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er verkinu úthlutað til allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er verkinu aðeins úthlutað til síðasta notanda á sviðinu.</li>
     <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – verkið er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
@@ -139,13 +137,11 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     <td>Vinnuliðalisti</td>
     <td><ol>
     <li>Eftir að <strong>Biðröð</strong> er valin, smellið á <strong>byggt á Biðröð</strong> flipa.</li>
-    <li>Fylgið eftirfarandi skrefum til að úthluta verki á tiltekna biðröð:
-    <ol>
+    <li>Fylgið eftirfarandi skrefum til að úthluta verki á tiltekna biðröð: <ol>
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>vinnuliðalisti</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja biðröðinni.</li>
     </ol></li>
-    <li>Ef tiltekin skilyrði ætti að ákvarða hvaða biðröð verki er úthlutað á, skal fylgja þessum skrefum:
-    <ol>
+    <li>Ef tiltekin skilyrði ætti að ákvarða hvaða biðröð verki er úthlutað á, skal fylgja þessum skrefum: <ol>
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>skilyrtir vinnuliðalistar</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja <strong>skilyrt biðröð</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
     <td>Notendur í tilteknu stigveldi fyrirtækis</td>
     <td><ol>
     <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til stigmagna verk fyrir.</li>
-    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna verk fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir.
-    <ol>
+    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna verk fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
     <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
     <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
     </ol></li>
-    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu verk skal vera stigmagnað fyrir.
-    <ul>
+    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu verk skal vera stigmagnað fyrir. <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er verk stigmagnað fyrir allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er verk stigmagnað aðeins til síðasta notanda á sviðinu.</li>
     <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – verkið er ekki stigmagnað fyrir notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>

@@ -4,6 +4,7 @@
 ## Eftirspurnarspá stofnuð
 ### [Yfirlit eftirspurnarspár](master-planning/introduction-demand-forecasting.md)
 ### [Uppsetning eftirspurnarspár](master-planning/demand-forecasting-setup.md)
+### [Flytja inn eldri gögn fyrir eftirspurnarspár](master-planning/import-historical-data.md)
 ### [Myndun tölfræðilegrar grunnlínuspár](master-planning/generate-statistical-baseline-forecast.md)
 ### [Handvirkar leiðréttingar á grunnlínuspánni](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Leiðrétt spá heimiluð](master-planning/authorize-adjusted-forecast.md)

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Þetta efnisatriði telur upp fartækja vinnusvæði sem nýlega komu út fyrir Microsoft Dynamics 365 fyrir Operations farsímaforritið.
@@ -51,9 +50,9 @@ ms.lasthandoff: 04/25/2017
 | Fartækjavinnusvæði     | lýsing                                                                                                                                                                         | Frekari upplýsingar                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kostnaðarstýring     | Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarstaðar séð afkomu kostnaðarstaðar hvenær og hvar sem er.                                                                                               | [Fartækjavinnusvæði kostnaðarstýringar](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Lagerbirgðir    | Fartækjavinnusvæði birgða á lager hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er.                                                                                                    | [Birgðir á lager eftir fartækjavinnusvæði](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Sölupantanir         | Vertu meðvitaður um sölupantanir þínar hvar og hvenær sem er.                                                                                                                          | [Sölupantanir fartækjavinnusvæði](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Samstarf lánardrottna | Lánardrottnar geta fylgst með innkaupapöntunum sem hafa verið sendar til þeirra fyrir samþykki og skoða upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði. | [Fartækjavinnusvæði samstarfs lánardrottna](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Lagerbirgðir    | Fartækjavinnusvæði birgða á lager hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er.                                                                                                    | [Birgðir á lager eftir fartækjavinnusvæði](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Sölupantanir         | Vertu meðvitaður um sölupantanir þínar hvar og hvenær sem er.                                                                                                                          | [Sölupantanir fartækjavinnusvæði](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Samstarf lánardrottna | Lánardrottnar geta fylgst með innkaupapöntunum sem hafa verið sendar til þeirra fyrir samþykki og skoða upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði. | [Fartækjavinnusvæði samstarfs lánardrottna](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Fartækja vinnusvæða starfsemi sem kom út í desember 2016
 | Fartækjavinnusvæði        | lýsing                                                                    | Frekari upplýsingar                                                                                                            |

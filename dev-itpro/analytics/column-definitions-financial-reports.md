@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>sýna fjárhagsgögn eða gögn úr Excel-vinnublað þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> eða dálkinn <strong>Tengill í vinnublað</strong> í línuskilgreiningum. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum:
-    <ul>
+    <td>sýna fjárhagsgögn eða gögn úr Excel-vinnublað þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> eða dálkinn <strong>Tengill í vinnublað</strong> í línuskilgreiningum. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
     <li><strong>Bókarkóði/Eigindaflokkur</strong> – ACTUAL</li>
     <li><strong>Bókarkóði/Eigindaflokkur</strong> – ACTUAL</li>
     <li><strong>Fjárhagsár</strong> – BASE</li>
@@ -359,7 +358,7 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     <li><strong>Tímabil sem er tekið með</strong> – PERIODIC</li>
     <li><strong>Dálkbreidd</strong> – 14</li>
     </ul>
-    Hægt er að breyta þessum sjálfgefnu stillingum.</td>
+Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -379,7 +378,7 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong><strong>'.'</strong>.</td>
+    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
@@ -387,12 +386,11 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>birta gögn sem eru sótt úr Excel-vinnublað. Þegar dálkategundin <strong>WKS</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum:
-    <ul>
+    <td>birta gögn sem eru sótt úr Excel-vinnublað. Þegar dálkategundin <strong>WKS</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
     <li><strong>Fjárhagsár</strong> – Reglubundið</li>
     <li><strong>Tímabil</strong> – BASE</li>
     </ul>
-    Hægt er að breyta þessum sjálfgefnu stillingum.</td>
+Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

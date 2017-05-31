@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Stjórnunarkostnaður er sá kostnaður sem stofnað er til fyrir rekstur fyrirt
 -   Fjárhagsár
 -   Reikningstímabil
 
-Útreikningur fastakostnaðar er keyrður óháð því hver útgáfan er. Þess vegna er hægt að reikna út áætlaða útgáfu á undan raunútgáfu. Útreikningur fastakostnaðar samanstendur af fjórum skrefum, eins og sýnt er á eftirfarandi mynd. Í hverju skrefi er færslubókarhaus stofnaður með bókarfærslum. Þessi færslubókarhaus geymir inntaksgögn fyrir hvert útreikningsþrep. Stefnur og reglur eru notaðar í hverri færslulínu og kostnaðarfærslur eru myndaðar sem úttak. Þess vegna hefurðu ávallt fullan rekjanleika. [![Útreikningur fastakostnaðar](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Útreikningur fastakostnaðar er keyrður óháð því hver útgáfan er. Þess vegna er hægt að reikna út áætlaða útgáfu á undan raunútgáfu. Útreikningur fastakostnaðar samanstendur af fjórum skrefum, eins og sýnt er á eftirfarandi mynd. Í hverju skrefi er færslubókarhaus stofnaður með bókarfærslum. Þessi færslubókarhaus geymir inntaksgögn fyrir hvert útreikningsþrep. Stefnur og reglur eru notaðar í hverri færslulínu og kostnaðarfærslur eru myndaðar sem úttak. Þess vegna hefurðu ávallt fullan rekjanleika. 
+[![Útreikningur fastakostnaðar](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Reikna og úthluta sameiginlegur kostnaði vegna rafmagns
 Í Fjárhagsbókhaldi er ákveðinn kostnaður, eins og rafmagn, skráður sem eingreiðsla. Þar af leiðandi er nákvæmar innsýn rekstrarfélags ekki veitt fyrir kostnaðarbókhald. Í kostnaðarbókhaldi verður kostnaður að flæða í gegnum fyrirtækiseiningar til að veita rétta innsýn rekstrarfélags þvert á allar fyrirtækiseiningar og stig. Þetta flæði verður að byggja á annaðhvort nákvæmri færslu notkunar eða sanngjarnri matsreglu. Í fjárhagnum er hægt að bóka rafmagnskostnað eins og sýnt er í eftirfarandi töflu.
@@ -622,7 +623,7 @@ Nákvæmar upplýsingar um reglu sameiginlegs kostnaðar er að finna í Reglu f
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Skref 4: Keyra útreikning kostnaðarúthlutunar
 
-Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Microsoft Dynamics 365 for Operations styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Microsoft Dynamics 365 for Operations styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar. [![Umhverf aðferð](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Tilgreinið kostnaðarúthlutun
 

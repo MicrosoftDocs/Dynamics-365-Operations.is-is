@@ -1,40 +1,38 @@
 ---
-title: "Nafnakerfi afurðarnúmers"
-description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll], fyrir marksnið sem inniheldur númer afurðarsniðmáts, virkar afurðarvíddir og skiltákn texta að eigin vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali."
-author: YuyuScheller
+title: "Nafnakerfi afurðarafbrigðisnúmera og -nafna"
+description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll]. Nýja nafnakerfið er með markað snið sem tekur til númers afurðarsniðmátsins, virku afurðavíddanna og skiltákna texta að eigin vali. Einnig er hægt að stofna nafnakerfi fyrir afurðaheiti. Loks er hægt að búa til nafnakerfi til að auðkenna grunnstillingar sem eru stofnaðar af skorðumiðuðum afurðarafbrigðastilli. Þessum nafnakerfi geta innihaldið eigindir að eigin vali."
+author: roxanadiaconu
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 220104
-ms.assetid: 31c9efb4-b5f6-4af3-b884-8f1e128469bd
+ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: roxanad
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: deda2b7986333e0d865aa87e6b34b6acdc8f6a6d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nafnakerfi afurðarnúmers
+# <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nafnakerfi afurðarafbrigðisnúmera og -nafna
 
-[!include[banner](../includes/banner.md)]
+Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll]. Nýja nafnakerfið er með markað snið sem tekur til númers afurðarsniðmátsins, virku afurðavíddanna og skiltákna texta að eigin vali. Einnig er hægt að stofna nafnakerfi fyrir afurðaheiti. Loks er hægt að búa til nafnakerfi til að auðkenna grunnstillingar sem eru stofnaðar af skorðumiðuðum afurðarafbrigðastilli. Þessum nafnakerfi geta innihaldið eigindir að eigin vali.
 
-
-Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll], fyrir marksnið sem inniheldur númer afurðarsniðmáts, virkar afurðarvíddir og skiltákn texta að eigin vali. Einnig er hægt að byggja upp nafnakerfi til að auðkenna skilgreiningar sem eru stofnaðar eru með afurðarafbrigðastilli sem byggir á skorðum. Þessum nafnakerfi geta innihaldið eigindir að eigin vali.
-
-Nýja nafnakerfi afurðarafbrigðisnúmers leyfir þér að innifela hluta sem eru í auðkennum afurðarafbrigðis þíns. Þessum hlutum geta innifalið númer afurðarsniðmáts, afurðavíddir, númeraraðir, textafasta, og eiginleika. Þessi virkni leyfir þér að finna á fljótan hátt tilteknar afurðarafbrigði þegar þú stofnar sölupöntun eða innkaupapöntun.
+Ný nafnakerfi fyrir afurðarafbrigðanúmer og afurðarafbrigðaheiti gera þér kleift að taka með hluta auðkennanna fyrir afurðarafbrigði. Slíkir hluta geta falið í sér afurðarsniðmát, númer og heiti, auðkenni afurðavídda og heiti, númeraraðir, textafasta og eigindir. Þessi virkni leyfir þér að finna á fljótan hátt tilteknar afurðarafbrigði þegar þú stofnar sölupöntun eða innkaupapöntun. Nafnakerfi fyrir bæði afurðarafbrigðanúmer og afurðarafbrigðaheiti eru stofnuð með því að nota síðuna **Nafnakerfi afurðar**. Til að opna þessa síðu er smellt á **afurðaupplýsingastjórnun,** &gt; **Uppsetning**.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Nafnakerfi fyrirframskilgreindra afurðarafbrigða
 Afurðarafbrigði eru myndaðar fyrir afurðarsniðmát í samræmi við eina af þremur afbrigðistækni:
@@ -43,59 +41,60 @@ Afurðarafbrigði eru myndaðar fyrir afurðarsniðmát í samræmi við eina af
 -   Skorðumiðað
 -   Víddarmiðað
 
-Hvert afurðarafbrigði hefur númer og auðkenni nafnakerfis afurðarafbrigðis leyfir þér að velja hlutana sem verða hafðir með í hverju númeri afurðarafbrigðis. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
+Hvert afurðarafbrigði hefur númer og heiti og nafnakerfi auðkennins afurðarafbrigðis leyfir þér að velja hlutana sem verða hafðir með í hverju númeri eða heiti afurðarafbrigðis. Hægt að velja eftirfarandi hluta á síðunni **Nafnakerfi afurðar**.
 
 -   Númer afurðarsniðmáts
+-   Heiti afurðarsniðmáts
 -   Gildi númeraraðar
 -   Textafasti
 -   Afurðarvíddir
-    -   Grunnstilling
-    -   Litur
-    -   Stærð
-    -   Stíll
+    -   Veljið skilgreiningarkenni eða -heiti
+    -   Kenni eða heiti litar
+    -   Kenni eða heiti stærðar
+    -   Kenni eða heiti stílsniðs
 
-Eftir að auðkenni nafnakerfis afurðarafbrigðis er skilgreing, er hægt að tengja það við afurðarvíddarflokk. Þar af leiðandi er öll afurðarsniðmát sem vísa til þessa afurðarvíddarflokk úthlutað númer afurðarafbrigðis í samræmi við nafnakerfið. Einnig er mögulegt að úthluta auðkenni nafnakerfis afurðarafbrigðis beint á afurðarsniðmát, en í því tilfelli verða afurðarafbrigði sem tilheyra þessu sniðmáti úthlutað númer afurðarafbrigðis í samræmi við nafnakerfið.
+Eftir að auðkenni nafnakerfis afurðarafbrigðis er skilgreint, er hægt að tengja það við afurðarvíddarflokk. Þá verður öllum afurðarsniðmátum sem vísa til þessa afurðarvíddarflokks úthlutað númerum afurðarafbrigða í samræmi við nafnakerfið. Nafnakerfi fyrir afurðaafbrigðaheiti er hins vegar ekki hægt að tengja við afurðavíddaflokka. Einnig má tengja nafnakerfi fyrir auðkenni afurðarafbrigðis beint við aðalsniðmát. Í því rtilviki verður afurðarafbrigðim sem tilheyra afurðasniðmátinu úthlutað afurðarafbrigðanúmerum og -heitum í samræmi við nafnakerfin.
 
 ### <a name="example"></a>Dæmi
 
-Stuttermabolur (TS1234) er framleidd í 3 mismunandi stærðum (S, M, L), 4 mismunandi litum (Rauður, Grænn, Blár, Gulur) og 2 stílum (Polo, V) og gefur samtals 24 mögulega afurðarafbrigði. Auðkenni nafnakerfis afurðarafbrigðis er stofnað með eftirfarandi hlutum:
+Stuttermabolur (TS1234) er framleiddur í þremur stærðum (S, M, L) fjórum litum (Rauður, Grænn, Blár, Gulur) og tveimur sniðum (pólóbolur, vaffhálsmál). Þar af leiðir að 24 afurðarafbrigði eru möguleg (= 3 × 4 × 2). Stofnað er nafnakerfi fyrir afurðarafbrigðisnúmer sem hefur eftirfarandi hluta:
 
 1.  Númer afurðarsniðmáts
-2.  Textafasti: '-'
+2.  Textafasti: "-"
 3.  Litur
-4.  Textafasti: '-'
+4.  Textafasti: "-"
 5.  Stærð
-6.  Textafasti: '-'
+6.  Textafasti: "-"
 7.  Stíll
 
-Númer afurðarafbrigðis fyrir Rautt, Lítil, Polo verða: TS1234-Rautt-Lítið-Polo.
+Í þessu tilviki er afurðarafbrigðisnúmer fyrir rauðan, lítill pólóbol fyrir TS1234-Red-Small-Polo.
 
 ## <a name="nomenclature-of-constraintbased-configurations"></a>Nafnakerfi skorðuskilgreininga
-Fyrir skorðuskilgreiningar, er hægt að byggja sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
+Fyrir skorðuskilgreiningar er hægt að stofna sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á síðunni **Nafnakerfi afurðar**.
 
 -   Gildi númeraraðar
 -   Textafasti
--   Eigindargildi 
+-   Eigindargildi
 
-Hver þáttur í afbrigðalíkan afurðar getur haft sitt eigið skilgreinda nafnakerfi. Aðeins má nota eiginleika sem tilheyra íhlutnum. Eigindir úr undiríhlutir eða notendakröfur eru ekki tiltækar.
+Hver þáttur í afbrigðalíkan afurðar getur haft sitt eigið skilgreinda nafnakerfi. Aðeins má nota eigindir sem tilheyra íhlutnum. Eigindir úr undiríhlutir eða notendakröfur eru ekki nothæfar.
 
 ### <a name="example"></a>Dæmi
 
-Afbrigðalíkan afurðar hefur rótaríhlut með tvo eiginleika.
+Afbrigðalíkan afurðar hefur rótaríhlut með tvær eigindir:
 
 -   Efni (Plast, viður, Stáli)
 -   Lengd (10... 100)
 
-Nafnakerfi skilgreiningar er skilgreint með því að nota eftirfarandi hluta:
+Stofnað er nafnakerfi skilgreiningar sem inniheldur eftirfarandi hluta:
 
 1.  Eigindargildi: Efni
-2.  Textafasti: 'AAA'
+2.  Textafasti: "AAA"
 3.  Eigindargildi: Lengd
 
-Skilgreiningarkenni fyrir við með lengd 78 fær eftirfarandi Skilgreiningarkenni: WoodAAA78.
+Í þessu tilfelli er skilgreiningarkenni fyrir viðarefni sem er 78 á lengd WoodAAA78.
 
 ## <a name="nomenclature-of-dimensionbased-configurations"></a>Víddarbyggðrar skilgreiningar Nafnakerfis
-Fyrir skorðuskilgreiningar, er hægt að byggja sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á **nafnakerfi afurðar** síðuna.
+Fyrir skorðuskilgreiningar er hægt að stofna sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á síðunni **Nafnakerfi afurðar**.
 
 -   Gildi númeraraðar
 -   Textafasti
@@ -105,7 +104,7 @@ Nafnakerfi skilgreiningar má skilgreina fyrir uppskrift (BOM).
 
 ### <a name="example"></a>Dæmi
 
-Uppskrift hefur 4 uppskriftarlínur skipt niður í 2 afbrigðisflokka.
+Uppskrift hefur fjórar uppskriftalínur sem er skipt í tvo skilgreiningarflokka:
 
 -   Uppskriftarlínu: M0007, Staðlaða Cabinet
     -   Afbrigðaflokkur: Cabinet
@@ -116,89 +115,87 @@ Uppskrift hefur 4 uppskriftarlínur skipt niður í 2 afbrigðisflokka.
 -   Uppskriftarlínu: M0022, framgrill stál
     -   Skilgreiningaflokkur: framgrill
 
-Nafnakerfi skilgreiningar er skilgreint með því að nota eftirfarandi hluta:
+Stofnað er nafnakerfi skilgreiningar sem inniheldur eftirfarandi hluta:
 
 1.  Afbrigðaflokkur: Cabinet
-2.  Textafasti: '&'
+2.  Textafasti: "&"
 3.  Skilgreiningaflokkur: framgrill
 
-Skilgreiningarkenni fyrir staðlað cabinet með klæði framgrills verður: M0007&M0021.
+Í þessu tilfelli er skilgreiningarkenni fyrirstaðlaðan skáp sem er með framhlið úr tauklæði M0007&M0021.
 
-## <a name="nomenclature-of-a-combination-of-product-variants-and-configurations"></a>Nafnakerfi fyrir samsetningu afurðarafbrigða og skilgreininga
-Þegar þú notar annaðhvort tæknina skorðumiðaðar eða víddarbyggðar skilgreiningar til að skilgreina afurðarafbrigði fyrir afurðarsniðmát, geta afurðarsniðmát fengið númer afurðarafbrigðis sem innihalda nafnakerfið úr vídd skilgreiningarinnar. Fylgja skal þessum skrefum til að skilgreina afbrigði:
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nafnakerfi fyrir samsetningu afurðarafbrigða og skilgreininga
+Þegar þú notar annaðhvort tæknina skorðumiðaðar eða víddarbyggðar skilgreiningar til að skilgreina afurðarafbrigði fyrir afurðarsniðmát, geta afurðarsniðmát fengið númer afurðarafbrigðis sem innihalda nafnakerfið úr vídd skilgreiningarinnar. Fylgja skal þessum skrefum til að skilgreina afbrigði.
 
-1.  Skilgreina á nafnakerfi afurðarafbrigðisnúmers sem er með skilgreiningarvídd á síðunni **nafnakerfi afurðar** síðuna.
+1.  Skilgreina á nafnakerfi afurðarafbrigðisnúmers sem er með skilgreiningarvídd á síðunni **nafnakerfi afurðar**.
 2.  Úthluta þessa nafnakerfi á afurðarvíddarflokk með skilgreiningarvídd.
 3.  Skilgreina nafnakerfi skilgreiningar fyrir íhlutina eða uppskriftirnar sem verða notaðar til að skilgreina afurðarafbrigðin.
 
+Einnig er hægt að stofna nafnakerfi fyrir afurðarafbrigðisheitin. Heiti afurðarafbrgiða er hægt að skilgreina þannig að þau innihaldi kenni eða heiti skilgreiningarinnar.
+
 ### <a name="example-for-constraint-based-configurations"></a>Dæmi um skorðuskilgreiningar
 
-Í þessu dæmi, er hægt að nota nafnakerfi afurðarafbrigðisnúmers sem samanstendur úr eftirfarandi hlutum:
+Í þessu dæmi er notað nafnakerfi afurðarafbrigðisnúmers sem samanstendur úr eftirfarandi hlutum:
 
 1.  Númer afurðarsniðmáts
-2.  Textafasti '\_'
-3.  Grunnstilling
+2.  Textafasti "\_"
+3.  Afbrigði
 
-Nafnakerfi skilgreiningar getur verið úr eftirfarandi hlutum:
+Nafnakerfi skilgreiningar inniheldur eftirfarandi hluta:
 
 1.  Eigindargildi: Efni
-2.  Textafasti: 'AAA'
+2.  Textafasti: "AAA"
 3.  Eigindargildi: Lengd
 
 Hægt er að færa inn eftirfarandi gildi fyrir hluta:
 
--   Númer afurðarsniðmáts = M0099
--   Efni = Plast
--   Lengd = 12
+-   Númer afurðarsniðmáts = **M0099**
+-   Efni = **Plast**
+-   Lengd = **12**
 
-Númer afurðarafbrigðis verða: M0099\_PlasticAAA12.
+Í þessu tilviki verður afurðarafbrigðisnúmerið M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Dæmi um víddarbyggðar skilgreiningar
 
-Í þessu dæmi, er hægt að nota nafnakerfi afurðarafbrigðisnúmers sem samanstendur úr eftirfarandi hlutum:
+Í þessu dæmi er notað nafnakerfi afurðarafbrigðisnúmers sem samanstendur úr eftirfarandi hlutum:
 
 1.  Númer afurðarsniðmáts
-2.  Textafasti '//'
-3.  Grunnstilling
+2.  Textafasti "//"
+3.  Afbrigði
 
-Nafnakerfi skilgreiningar getur verið úr eftirfarandi hlutum:
+Nafnakerfi skilgreiningar inniheldur eftirfarandi hluta:
 
 1.  Afbrigðaflokkur: Cabinet
-2.  Textafasti: '&'
+2.  Textafasti: "&"
 3.  Skilgreiningaflokkur: framgrill
 
 Hægt er að færa inn eftirfarandi gildi fyrir hluta:
 
--   Númer afurðarsniðmáts = D0123
--   Cabinet = M0008
--   Framgrill = M0022
+-   Númer afurðarsniðmáts = **D0123**
+-   Skápur = **M0008**
+-   Framhlið = **M0022**
 
-Númer afurðarafbrigðis verða: D0123//M0008&M0022.
+Í þessu tilviki verður afurðarafbrigðisnúmerið D0123//M0008&M0022.
 
 ## <a name="numbering-conflicts"></a>Árekstrar númera
-Mögulegt er að setja upp afurð nafnakerfi afurðarafbrigðisnúmers sem leiðir ekki til einkvæmra númera afurðarafbrigða. Til dæmis, þetta gæti gerst ef ein virk afurðarvídd er ekki innifalin í nafnakerfi fyrir afurðarsniðmát sem notar forskilgreind tækni til skilgreiningar afbrigða. Árekstrar eru meðhöndluð mismunandi fyrir mismunandi skilgreiningartækni.
+Mögulegt er að setja upp afurð nafnakerfi afurðarafbrigðisnúmers sem leiðir ekki til einkvæmra númera afurðarafbrigða. Til dæmis verða númer afurðarafbrigða ekki einnkvæm ef ein virk afurðarvídd er ekki innifalin í nafnakerfi fyrir afurðarsniðmát sem notar forskilgreinda tækni til skilgreiningar afbrigða. Aðferðin til að meðhöndla árekstra er breytileg eftir tækni við skilgreiningu.
 
 ### <a name="predefined-variants"></a>Forskilgreint afbrigði
 
-Villa mun eiga sér stað ef reynt er að handvirkt eða sjálfkrafa mynda afurðarafbrigði þar sem ein eða fleiri endar á því að hafa sömu númer afurðarafbrigðis. Til að forðast þetta er ætti nota allar virkar afurðarvíddir í afurðavíddaflokki, eða hafa númeraröð til að tryggja að númer afurðarafbrigðis eru einkvæm.
+Villa mun eiga sér stað ef reynt er að handvirkt eða sjálfkrafa mynda afurðarafbrigði þar sem eitt eða fleiri afurðarafbrigði endar á því að hafa sama númer afurðarafbrigðis. Til að forðast slíkt ætti frekar að nota allar virkar afurðarvíddar í afurðavíddaflokki. Einnig er hægt að hafa með númeraröð til að tryggja enn betur að afurðarafbrigðisnúmerin séu einkvæm.
 
 ### <a name="constraint-based-configurations"></a>Skorðuskilgreiningar
 
-Allt eftir nafnakerfiinu, getur kerfið reynt að úthluta númeri afurðarafbrigðis á skilgreiningu sem ekki er einkvæmt. Í þessu tilfelli mun kerfið nota númeraröð fyrir vídd skilgreiningarvíddina sem númer afurðarafbrigðis í staðinn. Ef það gerist, mun viðvörun berast. Svo hægt sé að forðast þetta er ætti hafa nógu margar eigindir í nafnakerfiinu til að tryggja einkvæmni, og að tryggja að **Endurnota** valkosturinn sé kveiktur fyrir íhlutinn.
+Allt eftir nafnakerfinu getur kerfið reynt að úthluta númeri afurðarafbrigðis sem ekki er einkvæmt á skilgreiningu. Í slíku tilfelli mun kerfið nota númeraröð fyrir vídd skilgreiningarvíddina sem númer afurðarafbrigðis í staðinn. Ef það gerist, mun viðvörun berast. Til að forðast slíkt ætti að taka með nógu margar eigindir í nafnakerfið til að stuðla að því að tryggja einkvæm afurðarafbrigðanúmer. Einnig ætti að ganga úr skugga um að kveikt sé á valkostinum **Endurnota** fyrir íhlutinn.
 
 ### <a name="dimension-based-configurations"></a>Víddaskilgreiningar
 
-Skilgreiningarferli inniheldur skref þar sem kerfið leggur til gildi skilgreiningar samkvæmt því nafnakerfi. Í þessu skrefi geturðu Handvirkt breytt gildi skilgreiningarinnar. Þegar skilgreining er vistað, mun kerfið athuga hvort gildi skilgreiningar er einkvæmt. Ef svo reynist ekki vera, birtast villuboð. Færa þarf inn gildi einkvæmrar skilgreiningar til að vista skilgreininguna.
-
-
+Á einu þrefi skilgreiningarferlisins leggur kerfið til skilgreiningargildi í samræmi við nafnakerfið. Í þessu skrefi geturðu Handvirkt breytt gildi skilgreiningarinnar. Þegar skilgreining er vistuð, mun kerfið athuga hvort gildi skilgreiningar er einkvæmt. Ef gildið sem fært er inn er ekki einkvæmt verða send villuboð. Færa þarf inn gildi einkvæmrar skilgreiningar til að vista skilgreininguna.
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[ Stofna nafnakerfi afurðarafbrigðis fyrir skilgreind afurðarafbrigði (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
-
-
+[Stofna nafnakerfi afurðarafbrigðis fyrir skilgreind afurðarafbrigði](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
 
 

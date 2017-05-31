@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Fabrikam stofnar tvær innkaupareglur. Regla A gildir um bandarískan lögaðila
 
 Í fyrri dæmi voru allar reglur um innkaup skilgreindar í einu stigveldi fyrirtækis, Fyrirtækisskipulag stigveldi. Hins vegar gæti flókið fyrirtæki skilgreint reglur fyrir mörg stigveldi fyrirtækja.  
 
+
 Contoso er stórt fyrirtæki sem krefst flókinna innkaupareglna til að stjórna innkaupabeiðnaferlinu. Contoso hefur skilgreint reglur fyrir tvö mismunandi stigveldi fyrirtækisins: Deild og Altæk stýring innkaupa.  
 
 Regla 123 er skilgreind fyrir stigveldi fyrirtækis Deild fyrir Bretlandssölu – söludeild. Í reglu 123 tilgreinir reglan fyrir stýringu innkaupabeiðna að það verður að beita takmörkuninni fyrir lágmarks magn. Í þessari reglu er **Beita takmörkunum á lágmarksmagni pöntunar** valkosturinn valinn.  
@@ -93,6 +94,9 @@ Stefnuregla tegunda skilgreinir hvernig notendur geta valið lánardrottna fyrir
 ### <a name="re-approval-rule-for-purchase-orders"></a>Endursamþykktarregla fyrir innkaupapantanir
 
 Endursamþykktarregla er valfrjáls regla sem skilgreinir skilyrði til að krefjast endursamþykktar þegar innkaupapöntun er breytt. Valdir reitir eru metnir í vinnuflæðinu fyrir innkaupapöntun þegar  „krefst endursamþykktar á innkaupapöntun“ er sett upp í vinnuflæðinu.
+
+> [!NOTE]
+> Dreifing á fjárhagsupphæð verður alltaf endurstillt þegar samþykktri innkaupapöntun, þar sem breyting á stjórnun er virkjuð, er breytt. Því ætti að hafa í huga að eigi að koma í veg fyrir endursamþykkt innkaupapöntunar þegar tilteknum reitum er breytt má EKKI taka reitinn Dreifing á fjárhagsupphæð breytt með sem valinn reit til endursamþykktar. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Tilboðsbeiðnireglur innkaupabeiðni
 

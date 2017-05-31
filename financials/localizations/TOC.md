@@ -67,6 +67,7 @@
 ### [CODA-bankayfirlit](emea-bel-coda-bank-statement-import.md)
 ### [Intervat-skattskýrsla](emea-bel-intervat-tax-declaration.md)
 ### [Uppsetning PRODCOM-skýrslu](emea-bel-prodcom-report.md)
+### [Afstemmingarskýrslur](emea-bel-reconciliation-reports.md)
 
 ## Tékkland
 ### [Staðgreiðsluafsláttur á kreditnótu](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Frestun afskriftar](emea-cze-depreciation-suspension-holidays.md)
 ### [Afskriftir eigna](emea-cze-fixed-assets-depreciation.md)
 ### [Hálfs árs afskrift](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Virðisaukaskattskýrsla ](emea-cze-intra-community-vat-transactions.md)
 ### [VSK-yfirlit](emea-cze-vat-statement-details.md)
 ## Eistland
 ### [VSK-yfirlit](emea-est-vat-statement-details.md)

@@ -3,10 +3,10 @@ title: "Vinnustundafærsla verks á fartækjavinnusvæði fyrir forritið Micros
 description: "Þetta efnisatriði veitir upplýsingar um vinnustundafærslu verks á fartækjavinnusvæði. Þessi vinnusvæði gerir notendum kleift að færa inn og vista vinnustundir sem tengist verkefni með því að nota þeirra fartæki."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Þetta efnisatriði veitir upplýsingar um vinnustundafærslu verks á fartækjavinnusvæði fyrir fartækjaforritið Dynamics 365 for Operations. Þessi vinnusvæði gerir notendum kleift að færa inn og vista vinnustundir sem tengist verkefni með því að nota þeirra fartæki.
@@ -71,7 +70,7 @@ Til þess að innleiða fartækjavinnusvæðið **Vinnustundafærsla verks** ska
 <tr class="odd">
 <td>Verður að innleiða Microsoft Dynamics 365 útgáfu 1611 með svæðisuppfærslu 3 eða síðar.</td>
 <td>Kerfisstjóri</td>
-<td>Ef Dynamics 365 for Operations er ekki þegar í fyrirtækinu getur kerfisstjórinn þinn skoðað <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Innleiðsla Microsoft Dynamics 365 fyrir Operations sýnigögn í prófunarumhverfi</a>.</td>
+<td>Ef Dynamics 365 fyrir Operations er ekki enn starfrækt í fyrirtækinu, skal kerfisstjórinn <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">setja upp Microsoft Dynamics 365 fyrir Operations í prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4018050 verður að vera innleitt.</td>
@@ -79,9 +78,9 @@ Til þess að innleiða fartækjavinnusvæðið **Vinnustundafærsla verks** ska
 <td>KB 4018050 er X++ uppfærsla eða bráðabót lýsingagna sem inniheldur fartækjavinnusvæði <strong>Vinnustundafærsla verks</strong>. Til að setja upp KB 4018050 verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
 <li>Sækja KB 4018050 af Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>ApplicationSuite</strong> og <strong>ProjectMobile</strong> virðislíkön og hlaða svo upp virkjanlegum pakka í LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>ApplicationSuite</strong> og <strong>ProjectMobile</strong> virðislíkön og hlaða svo upp virkjanlegum pakka í LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
 </ol></td>
 </tr>
 <tr class="odd">

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations.
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Ctrl+F2                                   |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |
-| Flytja í &lt;n&gt; upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Flytja í &lt;n&gt;. upplýsingakassann (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Útvíkka upplýsingareit (með áherslu á haus upplýsingareitar)                             | Bil eða Enter                            |
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations.
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
 | Flytja í næsta/fyrri flýtiflipa                   | Alt+Shift+Niðurör / Alt+Shift+Uppör    |
-| Flytja í &lt;n&gt; flýtiflipa                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Flytja í &lt;n&gt; flipa                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Flytja í &lt;n&gt;. flýtiflipann                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Flytja í &lt;n&gt;. flipann                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Útvíkka flýtiflipa (með áherslu á haus flýtiflipa) | Bil eða Enter                               |
 | Draga saman gildandi flýtilipa                        | Alt+0                                        |
 | Skipta í hnitalínuyfirlit                                 | Ctrl+Shift+G                                 |

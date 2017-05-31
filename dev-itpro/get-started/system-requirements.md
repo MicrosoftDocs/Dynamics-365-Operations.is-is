@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ Microsoft Dynamics 365 for Operations vefforrit er hægt að keyra í eftirfaran
 -   Google Chrome (nýjasta almenna útgáfa) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölva
 -   Apple Safari (nýjasta almenna útgáfa) á Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) 10.12 (Sierra) eða Apple iPad
 
-Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. **Athugasemdir :**
+Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. 
+
+**Athugasemdir :**
 
 -   Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word skjöl, verður að hafa viðauka við Króm uppsett. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
@@ -59,10 +61,12 @@ Sölustað smásöluskýs fyrir Microsoft Dynamics 365 for Operations er hægt a
 -   Chrome (síðustu almennu útgáfu) á Windows 10, Windows 8.1 eða Windows 7
 
 ## <a name="network-requirements"></a>Netþarfir
--   Dynamics 365 for Operations er hannað fyrir net með biðtíma minni en 150 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Dynamics 365 for Operations. Mælt er með er prófað biðtíma á netinu á <http://www.azurespeed.com>.
+-   Dynamics 365 for Operations er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Dynamics 365 for Operations. Mælt er með er prófað biðtíma á netinu á <http://www.azurespeed.com>.
 -   Bandvíddarþarfir fyrir Dynamics 365 for Operations fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps). Hins vegar fyrir aðstæður sem hafa miklar farmþarfir, eins og vinnusvæðin eða aðstæður sem fela í sér upp á yfirgripsmikil sérsnið, er mælt með fleiri bandvíddum.
 
-Almennt séð, er Dynamics 365 for Operations bestuð fyrir Internetið. Fjöldi ferða frá biðlara vafra Azure gagnamiðstöð eru mjög lágar og allt farmur þjöppuð. **Viðvörun:** ekki að reikna þarfir bandvídd staðsetningu biðlara með því að margfalda notendur eftir þörfum lágmarksbandvíddar. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Dynamics 365 for Operations fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
+Almennt séð, er Dynamics 365 for Operations bestuð fyrir Internetið. Fjöldi ferða frá biðlara vafra Azure gagnamiðstöð eru mjög lágar og allt farmur þjöppuð. 
+
+**Viðvörun:** ekki að reikna þarfir bandvídd staðsetningu biðlara með því að margfalda notendur eftir þörfum lágmarksbandvíddar. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Dynamics 365 for Operations fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
 
 ## <a name="net-framework-requirements"></a>.NET Framework þarfir
 Dynamics 365 for Operations krefst .NET Framework útgáfu 4.6.2 fyrir öll eins-smells forrit, eins og skjal leiðaraðgerð fulltrúa. Sjá leiðbeiningar með uppsetningu, [Uppsetningu .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
