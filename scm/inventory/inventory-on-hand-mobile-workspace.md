@@ -3,10 +3,10 @@ title: "Birgðir á lager eftir fartækjavinnusvæði"
 description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið birgðir á lager sem er tiltækt fyrir Microsoft Dynamics 365 for Operations farsímaforritið. Þetta vinnusvæði hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e703ae80800b993ebca1c7bee455af1be41c7d5f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7387df37e047d5ab7a90b696a6ffa249094499c4
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,15 +37,21 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-inventory-on-hand-mobile-workspace"></a>Yfirlit yfir fartækjavinnusvæðið birgðir á lager
 --------------------------------------------------
 
-Yfirleitt eru fyrirtæki með margar sendingar og margar vörumóttökur á degi hverjum. Slíkar hreyfingar breyta birgðastöðu á lager sífellt. Fartækjavinnusvæðið **Birgðir á lager** gerir þér kleift að sjá birgðastöðu á lager þvert á fyrirtæki og fá nýjasta yfirlit yfir birgðastöðugögn á fartækinu sem þú vilt helst nota. Hvort sem þú vinnur í vöruhúsi, í innkaupum, sölu, framleiðslu eða stjórnun eða hefur önnur hlutverk getur þú fengið yfirlit yfir birgðastöðu á lager hvar og hvenær sem er. Fartækjavinnusvæði veitir fljótlegt yfirlit yfir birgðastöðu þvert á svæði. Það veitir yfirlit yfir birgðastöðu á lager þvert á fyrritæki, núverandi efnislegar frátektir og óbókaðar birgðir á lager. Þú getur einnig fært inn vörunúmer til að spyrjast fyrir um birgðastöðu á lager og framkvæmt síaða leit að afurðum eða tilbrigðum eftir birgðastöðu á lager. Fartækjavinnusvæði tryggir einkum eftirfarandi eiginleika:
+Yfirleitt eru fyrirtæki með margar sendingar og margar vörumóttökur á degi hverjum. Slíkar hreyfingar breyta birgðastöðu á lager sífellt. Fartækjavinnusvæðið **Birgðir á lager** gerir þér kleift að sjá birgðastöðu á lager þvert á fyrirtæki og fá nýjasta yfirlit yfir birgðastöðugögn á fartækinu sem þú vilt helst nota. Hvort sem þú vinnur í vöruhúsi, í innkaupum, sölu, framleiðslu eða stjórnun eða hefur önnur hlutverk getur þú fengið yfirlit yfir birgðastöðu á lager hvar og hvenær sem er. 
+
+Fartækjavinnusvæði veitir fljótlegt yfirlit yfir birgðastöðu þvert á svæði. Það veitir yfirlit yfir birgðastöðu á lager þvert á fyrritæki, núverandi efnislegar frátektir og óbókaðar birgðir á lager. Þú getur einnig fært inn vörunúmer til að spyrjast fyrir um birgðastöðu á lager og framkvæmt síaða leit að afurðum eða tilbrigðum eftir birgðastöðu á lager. 
+
+Fartækjavinnusvæði tryggir einkum eftirfarandi eiginleika:
 
 -   Leit eftir vörunúmeri eða vöruheiti til að finna afurðir til að skoða birgðastöðu á lager fyrir þær vörur.
+
 -   Hægt er að skoða eftirfarandi upplýsingar fyrir valdar vörur:
     -   Birgðastaða á lager eftir svæðum
     -   Birgðastaða á lager eftir vöruhúsum
     -   Birgðastaða á lager eftir staðsetningu
     -   Birgðastaða á lager eftir runum (fyrir runustýrðar vörur)
     -   Birgðastaða á lager eftir birgðastöðu
+    
 -   Birgðastaða á lager fyrir vörur er sýnd með eftirfarandi hætti:
     -   Eftir efnislegum birgðum (Þetta yfirlit táknar heildarmagn).
     -   Eftir efnislegum frátektum (Þetta yfirlit táknar frátekið magn).
@@ -71,7 +77,7 @@ Yfirleitt eru fyrirtæki með margar sendingar og margar vörumóttökur á degi
 <tr class="odd">
 <td>Verður að innleiða Microsoft Dynamics 365 útgáfu 1611 með svæðisuppfærslu 3 eða síðar.</td>
 <td>Kerfisstjóri</td>
-<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
+<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 verður að vera innleitt.</td>
@@ -79,9 +85,9 @@ Yfirleitt eru fyrirtæki með margar sendingar og margar vörumóttökur á degi
 <td>KB 4013633 (X++ uppfærsla eða lýsigögn bráðabót) inniheldur fjögur fartækjavinnusvæði fyrir afgangakeðju stjórnun. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum:
 <ol>
 <li>Sækja KB 4013633 af Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -114,7 +120,7 @@ Sæktu forritið Microsoft Dynamics 365 fyrir Operations úr forritaverslun fars
 
 ## <a name="view-the-onhand-inventory-for-a-product-by-using-the-inventory-onhand-mobile-workspace"></a>Skoða tiltækar birgðir á lager fyrir vöru með því að nota vinnusvæðið lagerbirgðir.
 1.  Í farsímanum velurðu vinnusvæðið **birgðir á lager**.
-2.  Veldu **Kanna birgðir á lager fyrir vöru**. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Forritarar nálgist nánari upplýsingar í [Dynamics 365 fyrir Operations á fartækja svæði](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).
+2.  Veldu **Kanna birgðir á lager fyrir vöru**. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Forritarar nálgist nánari upplýsingar í [Dynamics 365 fyrir Operations á fartækja svæði](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
 3.  Ef þitt atriði er ekki á listanum skal velja **Leita áfram** til að framkvæma leit á netinu í  Dynamics 365 for Operations. Leitaðu eftir vörunúmeri eða skiptu í leit eftir vöruheiti.
 4.  Veljið afurð. Ef mynd fylgir vörunni er myndin sýnd.
 5.  Veldu einn af eftirfarandi valkostum til að skoða birgðastöðu á lager:

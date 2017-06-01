@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: is-is
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Dynamics 365 for Operations inniheldur hjálparkerfi sem byggð er á tveimur a�
 -   Svæði fylgiskjala
 -   Verkefnaleiðbeiningar
 
-Hægt er að nálgast bæði greinar og verkefnaleiðbeiningar úr hjálparsvæðinu í Dynamics 365 for Operations eins og sýnt er í eftirfarandi skjáskoti. [![Hjálparsvæði](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Þessi grein lýsir hjálparkerfinu og útskýrir hvernig hægt er að stofna sérsniðinn fylgiskjölum og þjálfunartilföng í þínu fyrirtæki.
+Hægt er að nálgast bæði greinar og verkefnaleiðbeiningar úr hjálparsvæðinu í Dynamics 365 for Operations eins og sýnt er í eftirfarandi skjáskoti.
+
+![Hjálparsvæði](./media/help-pane-ops-task-guides-1024x741.png)
+
+Þessi grein lýsir hjálparkerfinu og útskýrir hvernig hægt er að stofna sérsniðinn fylgiskjölum og þjálfunartilföng í þínu fyrirtæki.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
-docs.microsoft.com vefsvæðið ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) er aðaluppspretta vöruskjala fyrir Dynamics 365 for Operations. Svæðið býður upp á eftirfarandi eiginleika:
+Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) er aðaluppspretta vöruskjala fyrir Dynamics 365 for Operations. Svæðið býður upp á eftirfarandi eiginleika:
 
 -   **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 -   **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
@@ -50,13 +54,48 @@ docs.microsoft.com vefsvæðið ([docs.microsoft.com/dynamics365/operations](/dy
 
 Við höfum flutt allt efnið af fyrra wiki-hjálparsvæðinu okkar í docs. Við erum mjög spennt yfir nýja svæðinu okkar og vonum að þú verðir það líka.
 
-### <a name="when-can-we-use-it"></a>Hvenær er hægt að nota það?
+### <a name="searching-on-docsmicrosoftcom"></a>Leit á docs.microsoft.com
+Við fáum mikið af spurningum um hvernig á að leita að efni okkar. Á vefsvæðinu okkar, ef þú byrjar frá síðu um Dynamics 365 for Operations afmökrum við leitina þannig að hún varði aðeins efni um Dynamics 365 for Operations. Hægt er að fjarlægja afmörkunina með því að smella á X við hliðina á Operations í leitarreitnum. 
+![Leit](./media/search-scope.png).
 
-Þú getur lesið efni í docs núna strax -- það er alveg opinbert og hægt að leita í því án þess að skrá sig inn. Þú getur notað hvaða uppáhalds leitarvél sem þú vilt til að finna efni. Þú getur gert athugasemdir við greinar á svæðinu ef þú vilt með því að skrá þig inn.
+Einnig er hægt að finna okkar efni með hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á svæðum, svo sem site:docs.microsoft.com „leitarorð"  
+![Leita á svæðum](./media/site-search.png)
+
+![Leitarniðurstöður svæðis](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>Hvernig geta ég lagt mitt af mörkum? 
+
+Skiljið eftir athugasemd 
+
+1 Smellið á **Athugasemdir** til að sjá athugasemd neðst á síðunni.
+
+![Athugasemdir](./media/comments.png)
+
+2 Byrjið að færa inn athugasemdir og smellið síðan á **Birta athugasemd**.
+
+![Setja inn ummæli](./media/before-signin.png)
+
+3 Velja skal þá gerð reiknings sem á að skrá inn með:  
+Smelltu á eitt af táknunum vinstra megin til að tengja þetta svæði við fyrirliggjandi reikning, svo sem Twitter, Facebook, eða Microsoft reikning. 
+
+Eða 
+
+Sláðu inn netfang hér til hægri og nýtt aðgangsorð til að búa til nýjan reikning fyrir vefsvæðið. 
+
+![Innskráningarvalkostir](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>Verkefnaleiðbeiningar
-Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu. Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið. Staðfært verkleiðbeiningar eru nú í boði. [![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) til Að hefja reynslu með leiðsögn, smellið á **verkefnaleiðbeiningar fyrir upphaf verks** neðst á hjálparsvæði. Svartur bendilinn birtist og sýnir aðgerð sem þarf að framkvæma. Fylgja leiðbeiningunum sem birtist í Notendaviðmóti og færa inn gögn samkvæmt leiðbeiningum. [![Nákvæmar verkefnaleiðbeiningar](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Mikilvægt:** gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg. Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.
+Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu. Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið. Staðfært verkleiðbeiningar eru nú í boði. 
+
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)
+
+Til að byrja gagnvirka leiðsögn, smellið á **Opna verkefnaleiðbeiningar** neðst á rúðunni Hjálp. Svartur bendilinn birtist og sýnir aðgerð sem þarf að framkvæma. Fylgja leiðbeiningunum sem birtist í Notendaviðmóti og færa inn gögn samkvæmt leiðbeiningum. 
+![Fyrirmæli um skref í verkefnaleiðbeiningum](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg. Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Þetta byrjar allt á verkskráningu
 
@@ -72,7 +111,9 @@ Sjá frekari upplýsingar um Verkskráninguí [verkskráning í Dynamics 365 for
 Hægt er að stofna eigin verkskráningu, eða hægt er að sækja og sérsníða verkskráningu sem Microsoft veitir. Þess vegna er hægt að stofna sérsniðna Hjálp fyrir fyrirtækið sem endurspeglar tiltekna framkvæmd Dynamics 365 for Operations. Til að  birta verkskráningu í hjálparsvæði Dynamics 365 for Operations og spila sem verkefnaleiðbeiningar, verður að vista skráningu í BPM safn. Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Nákvæmar leiðbeiningar má sjá á [ Nota verkskráningu til að stofna fylgiskjöl eða þjálfun](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Hjálp innan vörunnar
-Til að fá aðgang að hjálparefni innan Dynamics 365 for Operations, annað hvort smella á **Hjálp** (**?**) táknið og velja svo Hjálp eða styðjið á Ctrl + Shift +?. Í báðum tilvikum opnast Hjálp rúðunni . Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar. [![Hjálparsvæði](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Til að fá aðgang að hjálparefni innan Dynamics 365 for Operations, annað hvort smella á **Hjálp** (**?**) táknið og velja svo Hjálp eða styðjið á Ctrl + Shift +?. Í báðum tilvikum opnast Hjálp rúðunni . Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar. 
+
+![Hjálparsvæði](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Opnar greinar úr hjálparsvæði
 
@@ -80,19 +121,24 @@ Til að fá aðgang að hjálparefni innan Dynamics 365 for Operations, annað h
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Fara í verkefnaleiðbeiningar úr hjálparsvæði
 
-Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara í **kerfisfæribreytur** síðuna í Dynamics 365 for Operations og skilgreina nokkrar stillingar. **Athugasemdir :**
+Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara í **kerfisfæribreytur** síðuna í Dynamics 365 for Operations og skilgreina nokkrar stillingar. 
 
--   Til að stilla hjálp, verðurðu að vera skráður inn með reikningi í sama leigjanda og leigjandinn sem verið er að nota í Dynamics 365 for Operations.
--   Ekki er hægt að tengjast LCS-safni úr tilviki Dynamics 365 for Operations sem verið er að keyra á staðbundnum sýndar hörðum disk (VHD) .
+> [!NOTE]
+> -   Til að stilla hjálp, verðurðu að vera skráður inn með reikningi í sama leigjanda og leigjandinn sem verið er að nota í Dynamics 365 for Operations.
+> -   Ekki er hægt að tengjast LCS-safni úr tilviki Dynamics 365 for Operations sem verið er að keyra á staðbundnum sýndar hörðum disk (VHD) .
 
-[![Snið kerfisfæribreyta með Stillingar fyrir hjálp ](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) á **kerfisfæribreytum** síðunni, skal fylgja þessum skrefum:
+![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis](./media/system-parameters_ops-1024x437.png)
 
-1.  **Mikilvægt:** í fyrsta skipti er sem þú opnar flipanum Hjálp, það verður að tengjast Lifecycle Services. Gætið þess að smella á tengil í miðri skjámyndinni bíða eftir tengingu, loka svarglugganum og smellið svo á í lagi til að fá í færibreytur skjámynd. [ ![Tengjast LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Á síðunni **Kerfisfæribreytur** skal fylgja þessum skrefum:
+
+1.  **Mikilvægt:** í fyrsta skipti er sem þú opnar flipanum Hjálp, það verður að tengjast Lifecycle Services. Gætið þess að smella á tengil í miðri skjámyndinni bíða eftir tengingu, loka svarglugganum og smellið svo á Í lagi til að fara í skjámynd færibreyta.
+![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  Veljið Lifecycle Services verk til að tengjast.
 3.  Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
 4.  Velja birtingarröð BPM safna. Þetta ákvarðar í hvaða röð verkskráning úr í söfn birtast á Hjálp rúðunni.
 
-Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hjálp rúðunni og smellið á **Verkleiðbeiningar** flipa. Þú sérð verkefnaleiðbeiningar sem eiga við síðu sem þú ert á í Dynamics 365 for Operations. Ef engar verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Eftir að smellt er á verkefnaleiðbeiningar í hjálparsvæði sýnir hjálparsvæðið skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar. [![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hjálp rúðunni og smellið á **Verkleiðbeiningar** flipa. Þú sérð verkefnaleiðbeiningar sem eiga við síðu sem þú ert á í Dynamics 365 for Operations. Ef engar verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Eftir að smellt er á verkefnaleiðbeiningar í hjálparsvæði sýnir hjálparsvæðið skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar. 
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Hvar eru þýddu verkefnaleiðbeiningarnar?
 

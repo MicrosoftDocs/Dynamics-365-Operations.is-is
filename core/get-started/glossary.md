@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: is-is
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -253,7 +253,7 @@ Viðskiptaferli sem leggur mat á framtíðareftirspurn og stofnar eftirspurnars
 
 Visual Studio-verkfæri sem var notað til að stofna, uppfæra og athuga líkanaeiningar.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**skilgreining byggð á víddum**
+###### <a name="dimension-based-product-configuration"></a>**afurðarafbrigði byggt á vídd**
 
 Grunnstillingartækni notuð til að stofna afurðarafbrigði með því að velja gildi fyrir afurðavíddir.
 
@@ -503,7 +503,7 @@ Hluti af afurð.
 
 ###### <a name="product-dimension"></a>**afurðarvídd**
 
-Stærð, litur eða skilgreining afurðareiginda sem eru notaðar fyrir skilgreiningu byggða á víddum.
+Stærð, litur eða skilgreining afurðareiginda sem eru notaðar fyrir afurðarafbrigði sem byggir á vídd.
 
 ###### <a name="product-family"></a>**afurðasafn**
 

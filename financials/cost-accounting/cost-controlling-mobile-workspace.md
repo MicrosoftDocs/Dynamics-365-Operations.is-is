@@ -3,10 +3,10 @@ title: "Fartækjavinnusvæði kostnaðarstýringar"
 description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði kostnaðarstýringar, sem er tiltækt fyrir Microsoft Dynamics 365 fyrir Operations farsímaforritið. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Yfirlit yfir fartækjavinnusvæði kostnaðarstýringar
 -------------------------------------------------
 
-Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöður stakra kostnaðareininga. Til dæmis er starfsmaður fær boð um að koma á erlendar ráðstefna, en fyrirtæki verða að borga öll ferðakostnaður. Starfsmaðurinn spyr yfirmann sinn hvort að hann geti farið á ráðstefnuna. Stjórnandinn opnar fartækjavinnusvæði **kostnaðarstýringar** í farsímanum sínum til að sjá hvort að til sé fjárhagsáætlun fyrir því að starfsmaðurinn fari á ráðstefnuna.
+Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöður stakra kostnaðareininga. 
+
+Til dæmis er starfsmaður fær boð um að koma á erlendar ráðstefna, en fyrirtæki verða að borga öll ferðakostnaður. Starfsmaðurinn spyr yfirmann sinn hvort að hann geti farið á ráðstefnuna. Stjórnandinn opnar fartækjavinnusvæði **kostnaðarstýringar** í farsímanum sínum til að sjá hvort að til sé fjárhagsáætlun fyrir því að starfsmaðurinn fari á ráðstefnuna.
 
 ### <a name="data-security"></a>Öryggi gagna
 
-Gögnin í fartækjavinnusvæði **Kostnaðarstýring** eru tryggð með notandaskilríkjum. Stjórnendur kostnaðarstaðar hafa aðeins leyfi til að skoða gögn fyrir eigin kostnaðarstað. Aðgangsstigs örygginu er stjórnað innan einingarinnar **Kostnaðarbókhald**. Kostnaðarbókarar skilgreina grunnstillingar fartækjavinnusvæðis **Kostnaðarstýringar** í einingunni **Kostnaðarbókhald**. Þegar vinnusvæðið hefur verið sett í Microsoft Dynamics 365 fyrir Operations farsímaforrit, er það tiltækt í fartækjaforritinu. Þannig geta allir stjórnendur kostnaðarstaða í fyrirtækinu skoðað gögn á sama sniði.
+Gögnin í fartækjavinnusvæði **Kostnaðarstýring** eru tryggð með notandaskilríkjum. Stjórnendur kostnaðarstaðar hafa aðeins leyfi til að skoða gögn fyrir eigin kostnaðarstað. Aðgangsstigs örygginu er stjórnað innan einingarinnar **Kostnaðarbókhald**. 
+
+Kostnaðarbókarar skilgreina grunnstillingar fartækjavinnusvæðis **Kostnaðarstýringar** í einingunni **Kostnaðarbókhald**. Þegar vinnusvæðið hefur verið sett í Microsoft Dynamics 365 fyrir Operations farsímaforrit, er það tiltækt í fartækjaforritinu. Þannig geta allir stjórnendur kostnaðarstaða í fyrirtækinu skoðað gögn á sama sniði.
 
 ### <a name="actions-views-and-links"></a>Aðgerðir, yfirlit og tenglar
 
@@ -87,7 +91,7 @@ Fartækjavinnusvæði **kostnaðarstýringar** fyrir forritið Dynamics 365 fyri
 <tr class="odd">
 <td>Verður að innleiða Microsoft Dynamics 365 útgáfu 1611 með svæðis uppfærslu 3 eða síðar.</td>
 <td>Kerfisstjóri</td>
-<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
+<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 verður að vera innleitt.</td>
@@ -95,9 +99,9 @@ Fartækjavinnusvæði **kostnaðarstýringar** fyrir forritið Dynamics 365 fyri
 <td>KB 4013633 (X++ uppfærsla eða lýsigögn bráðabót) inniheldur fjögur fartækjavinnusvæði fyrir afgangakeðju stjórnun. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum:
 <ol>
 <li>Sækja KB 4013633 af Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
 </ol></td>
 </tr>
 <tr class="odd">

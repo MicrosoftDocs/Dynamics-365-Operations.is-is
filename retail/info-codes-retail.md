@@ -1,15 +1,15 @@
 ---
 title: "Upplýsingakóðar"
 description: "Þessi grein veitir yfirlit yfir upplýsingakóða, flokka upplýsingakóða og hvernig skal nota þá."
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -19,10 +19,10 @@ ms.author: sijoshi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: aaf02ce5bf3af94dea12344c9bfc5c8e9be7abb9
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
 ms.contentlocale: is-is
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,12 @@ Upplýsingakóðarnir veita þér leið til að fanga gögn úr afgreiðslukassa
 -   Tengdu upplýsingakóða við aðra upplýsingakóða eða hópa upplýsingakóða til að safna upplýsingum um afurð eða færslu án þess að þurfa að skilgreina sérstakan upplýsingakóða eða tengdan upplýsingakóða fyrir hverja atburðarás.
 
 ## <a name="info-code-examples"></a>Dæmi um upplýsingakóða
-**Dæmi 1: Endurnýta upplýsingakóða** Hægt er að tengja upplýsingakóða þannig að þegar einn upplýsingakóði er ræstur er annar upplýsingakóði ræstur beint á eftir honum. Til dæmis þegar tilteknar vörur eru seldar, er hægt að hvetja gjaldkera til að spyrja viðskiptavininn ef hann vill kaupa rafhlöður og ábyrgð á vöruna. Fyrir aðrar vörur er hægt að hvetja gjaldkera til að spyrja viðskiptavininn ef hann vill kaupa rafhlöður og einnig að fá upplýsingar um póstnúmer hans. Ef stofna á tengdum upplýsingakóðum fyrir þessar aðstæður eru setja verður upp hvert afbrigði af upplýsingakóðann þannig gjaldkeri er beðinn um að biðja um hægri upplýsingar. Ef notaðir eru flokkar upplýsingakóða er hægt að setja upp einu sinni algenga upplýsingakóða, eins og að spyrja um rafhlöður, og nota þá áfram í mörgum upplýsingakóðahópum. Einnig er hægt að nota forgangsröðun í upplýsingakóðaflokkum til að auðkenna röðina sem kvaðningar eru birtar. **Dæmi 2: Tengja upplýsingakóða við upplýsingakóðahópa** Þegar þú selur tilteknar vörur, t.d. fartæki, viltu alltaf safna tilteknum upplýsingum, eins og símanúmeri, kenni fartækisbúnaðar (MEID) og raðnúmeri. Hins vegar einnig á að safna upplýsingum á fyrir spjaldtölvunni samanborið við farsíma. Þú getur sett upp upplýsingakóðahóp sem inniheldur kvaðningar fyrir símanúmer, MEID og raðnúmer og síðan tengja upplýsingakóðahópinn við einstaka upplýsingakóða.. Þegar afurðabundnar upplýsingakóðinn er ræstur, upplýsingakóðaflokks getur ræstar áfram til að gera það kleift að safna sameiginleg gögn án þess að þurfa til þess að skilgreina margar söfn tengdum upplýsingakóðum fyrir hverja tækis.
+**Dæmi 1: Endurnýta upplýsingakóða** Hægt er að tengja upplýsingakóða þannig að þegar einn upplýsingakóði er ræstur er annar upplýsingakóði ræstur beint á eftir honum. Til dæmis þegar tilteknar vörur eru seldar, er hægt að hvetja gjaldkera til að spyrja viðskiptavininn ef hann vill kaupa rafhlöður og ábyrgð á vöruna. Fyrir aðrar vörur er hægt að hvetja gjaldkera til að spyrja viðskiptavininn ef hann vill kaupa rafhlöður og einnig að fá upplýsingar um póstnúmer hans. Ef stofna á tengdum upplýsingakóðum fyrir þessar aðstæður eru setja verður upp hvert afbrigði af upplýsingakóðann þannig gjaldkeri er beðinn um að biðja um hægri upplýsingar. Ef notaðir eru flokkar upplýsingakóða er hægt að setja upp einu sinni algenga upplýsingakóða, eins og að spyrja um rafhlöður, og nota þá áfram í mörgum upplýsingakóðahópum. Einnig er hægt að nota forgangsröðun í upplýsingakóðaflokkum til að auðkenna röðina sem kvaðningar eru birtar.
+
+
+**Dæmi 2: Tengja upplýsingakóða við upplýsingakóðahópa** Þegar þú selur tilteknar vörur, t.d. fartæki, viltu alltaf safna tilteknum upplýsingum, eins og símanúmeri, kenni fartækisbúnaðar (MEID) og raðnúmeri. Hins vegar einnig á að safna upplýsingum á fyrir spjaldtölvunni samanborið við farsíma. Þú getur sett upp upplýsingakóðahóp sem inniheldur kvaðningar fyrir símanúmer, MEID og raðnúmer og síðan tengja upplýsingakóðahópinn við einstaka upplýsingakóða.. Þegar afurðabundnar upplýsingakóðinn er ræstur, upplýsingakóðaflokks getur ræstar áfram til að gera það kleift að safna sameiginleg gögn án þess að þurfa til þess að skilgreina margar söfn tengdum upplýsingakóðum fyrir hverja tækis.
 
  
--
-
-
-
 
 
 

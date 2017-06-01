@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: d3fd164ded7feabff716f3d4a71f77aab85418d9
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -77,7 +77,7 @@ Fabrikam fær greiðslu að upphæð 600.00 fyrir Fabrikam lykil viðskiptavinar
 | Viðskiptavinir (Fabrikam)  | 600,00       |               |
 | Á gjalddaga til Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East bókun**
+**Fabrikam East-bókun**
 
 | Lykill                             | Debetupphæð | Kreditupphæð |
 |-------------------------------------|--------------|---------------|
@@ -110,7 +110,7 @@ Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptav
 | Viðskiptavinir (Fabrikam)  | 580,00       |               |
 | Á gjalddaga til Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East bókun**
+**Fabrikam East-bókun**
 
 | Lykill                             | Debetupphæð | Kreditupphæð |
 |-------------------------------------|--------------|---------------|
@@ -141,7 +141,7 @@ Fabrikam tekur á móti greiðslu að upphæð 600,00 evrur fyrir Fabrikam viðs
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
 
-**Fabrikam bókun**
+**Fabrikam-bókun**
 
 | Lykill                         | Debetupphæð            | Kreditupphæð           |
 |---------------------------------|-------------------------|-------------------------|
@@ -150,7 +150,7 @@ Fabrikam tekur á móti greiðslu að upphæð 600,00 evrur fyrir Fabrikam viðs
 | Á gjalddaga til Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Innleystur gróði (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East bókun**
+**Fabrikam East-bókun**
 
 | Lykill                             | Debetupphæð            | Kreditupphæð           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -182,7 +182,7 @@ Fabrikam bókar greiðslu fyrir Fabrikam viðskiptavin 4000, Northwind Traders f
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
 
-**Fabrikam bókun**
+**Fabrikam-bókun**
 
 | Lykill                         | Debetupphæð            | Kreditupphæð           |
 |---------------------------------|-------------------------|-------------------------|
@@ -191,7 +191,7 @@ Fabrikam bókar greiðslu fyrir Fabrikam viðskiptavin 4000, Northwind Traders f
 | Á gjalddaga til Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Innleystur gróði (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East bókun**
+**Fabrikam East-bókun**
 
 | Lykill                             | Debetupphæð            | Kreditupphæð           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -228,7 +228,7 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu
 
-**Fabrikam bókun**
+**Fabrikam-bókun**
 
 | Lykill                           | Debetupphæð | Kreditupphæð |
 |-----------------------------------|--------------|---------------|
@@ -237,7 +237,7 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 | Viðskiptavinir (Fabrikam)    | 100,00       |               |
 | Á gjalddaga til Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East bókun**
+**Fabrikam East-bókun**
 
 | Lykill                             | Debetupphæð | Kreditupphæð |
 |-------------------------------------|--------------|---------------|
@@ -277,7 +277,7 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu
 
-**Fabrikam bókun**
+**Fabrikam-bókun**
 
 | Lykill                         | Debetupphæð | Kreditupphæð |
 |---------------------------------|--------------|---------------|
@@ -291,7 +291,7 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 | Viðskiptavinir (Fabrikam East)  | 25,00        |               |
 | Á gjalddaga til Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West bókun**
+**Fabrikam West-bókun**
 
 | Lykill                                | Debetupphæð | Kreditupphæð |
 |----------------------------------------|--------------|---------------|

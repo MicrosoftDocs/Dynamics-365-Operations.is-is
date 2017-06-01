@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -474,7 +474,7 @@ Svæðin Merkimiði og Lýsing skila gildum á keyrslutíma á grunni tungumála
 </tr>
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, ...])</td>
-<td>Skila tilgreint streng sem er sniðin með því að skipta út öllum tilvikum af allar tilvika á að skila <strong>%N</strong> með <em>n</em>th frumbreytu. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>real</strong> ,umreikning strengs takmarkast við sem nemur tveimur tugasætum.</td>
+<td>Skila tilgreindum streng, sem er forsniðinn með því að skipta öllum tilvikum um <strong>%N</strong> út fyrir <em>n</em>. frumbreytuna. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>real</strong> ,umreikning strengs takmarkast við sem nemur tveimur tugasætum.</td>
 <td>Í þessu dæmi skilar <strong>PaymentModel</strong> gagnagjafi lista yfir færslur viðskiptavina með þætti <strong>Viðskiptavinar</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæði. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> Í sniði rafrænnar skýrslugerðar (ER) sem er hannað til að mynda rafræna skrá fyrir valda viðskiptavini <strong>PaymentModel</strong> er valinn sem gagnagjafa og stýrir flæði ferlis. Gerð er undantekning fyrir endanotendur þegar valinn viðskiptavinur er stöðvað af dagsetning þegar skýrslan er unnin. Formúlu sem er hannað fyrir þessa gerð vinnslustýringar getur notað eftirfarandi tilföng:
 <ul>
 <li>Dynamics 365 for Operations merki SYS70894 sem hefur eftirfarandi texta:

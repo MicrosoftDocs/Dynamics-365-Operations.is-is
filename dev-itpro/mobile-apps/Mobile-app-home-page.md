@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Heimasíða fartækjaforrits Microsoft Dynamics 365 for Operations
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Notkun farsímaforritsins samanstendur af fjórum einfalt hugtök: Yfirlit, vinn
 ## <a name="implementation-process"></a>Innleiðingarverk
 Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðing Dynamics 365 fyrir Operations farsímaforrit í fyrirtækinu þínu. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Innleiðingarferli farsímaforrita](./media/mobile-implementation-process_4.png)
 
 Þessi tafla veitir tengla á tilföng sem geta hjálpað til við að útfæra Dynamics 365 fyrir Operations farsímaforrit í fyrirtækið þitt. Tölurnar í fyrsta dálkinum samsvara tölusettu skrefin í síðustu skýringarmynd.
 
@@ -85,7 +83,7 @@ Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðing Dynamics 365 fyrir 
 <td>1</td>
 <td>Kerfisstjóri</td>
 <td>Innleiða Dynamics 365 fyrir Operations í fyrirtækinu.</td>
-<td>Ef ekki er þegar Dynamics 365 fyrir Operations starfrækt í fyrirtækinu, sjáið þá <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Innleiðslu Microsoft Dynamics 365 fyrir Operations sýnigögn í prófunarumhverfi</a>.</td>
+<td>Ef ekki er þegar Dynamics 365 fyrir Operations starfrækt í fyrirtækinu, sjáið þá <a href="../deployment/deploy-demo-environment.md">Innleiðslu Microsoft Dynamics 365 fyrir Operations sýnigögn í prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðing Dynamics 365 fyrir 
 <td>Sæktu og settu upp KBs sem gera kleift að nota fartækja vinnusvæði sem eru veitt af Microsoft.</td>
 <td>Finna &quot;Skilyrði&quot; hlutann í efnisatriðum um fartækja vinnusvæði sem fyrirtækið þitt vill nota:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Birgðir á lager fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks fartækjavinnusvæði</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Birgðir á lager fartækjavinnusvæði</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks á fartækjavinnusvæði</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Útgjaldastjórnunar fartækja vinnusvæði</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Kerfisstjóri</td>
 <td>Gefa út fartækja vinnusvæði sem eru veitt af Microsoft.</td>
-<td>Finna &quot;Skilyrði&quot; hlutann í efnisatriðum um fartækja vinnusvæði sem fyrirtækið þitt vill nota:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Birgðir á lager fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks fartækjavinnusvæði</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Birta fartækjavinnusvæði</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Forritari eða óháður hugbúnaðarsali (ÓHS)</td>
 <td>Nota Dynamics 365 fyrir Operations fartækja umgjörðina til að stofna sérsniðin fartækja vinnusvæði.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dynamics 365 fyrir Operations fartækja umgjörð</a></li>
+<li><a href="mobile-platform.md">Dynamics 365 fyrir Operations fartækja umgjörð</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Dynamics 365 fyrir Operations vinnusvæði X++ APIs</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðing Dynamics 365 fyrir 
 <td>5</td>
 <td>ÓHS</td>
 <td>Stofna virkjanlegan pakka sem inniheldur sérsniðin fartækja vinnusvæði og hala pakkanum upp í Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Mynda virkjanlegan pakka</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Mynda virkjanlegan pakka</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Kerfisstjóri</td>
 <td>Nota virkjanlegan pakka sem inniheldur á sérsniðnum vinnusvæði sem eru veitt af ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Nota virkjanlegan pakka í Microsoft Dynamics 365 fyrir Operations kerfið</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Nota virkjanlegan pakka í Microsoft Dynamics 365 fyrir Operations kerfið</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Kerfisstjóri</td>
 <td>Gefa út sérsniðið fartækja vinnusvæði sem veitt eru af ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Birta fartækjavinnusvæði</a></td>
+<td><a href="publish-mobile-workspace.md">Birta fartækjavinnusvæði</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðing Dynamics 365 fyrir 
 <td>9</td>
 <td>Notandi</td>
 <td>Sæktu og settu upp fyrir Dynamics 365 for Operations farsímaforritið. Í farsímaforritinu eru fartækja vinnusvæði sem hafa verið gefin út.</td>
-<td>Microsoft hefur boðið upp á eftirfarandi fartækja vinnusvæði:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Birgðir á lager fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks fartækjavinnusvæði</a></li>
-</ul></td>
+<td>Til að skoða lista yfir fartækjavinnusvæði sem í boði eru hjá Microsoft, sjá <a href="mobile-workspaces-released.md">Nýlega útgefin fartækjavinnusvæði fyrir farsímaforritið Dynamics 365 for Operations</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Sjá einnig
---------
-
-[Fartækja vinnusvæði sem nýlega komu út fyrir Dynamics 365 fyrir Operations farsímaforritið](mobile-workspaces-released.md)
 
 
 

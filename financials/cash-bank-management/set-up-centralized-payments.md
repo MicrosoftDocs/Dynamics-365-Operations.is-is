@@ -3,10 +3,10 @@ title: "Setja upp miðstýrð greiðsla"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -41,7 +41,7 @@ Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu löga�
 -   Setja upp bókhald innan samstæðu
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Setja upp stigveldi fyrirtækis fyrir miðstýrðar greiðslur
-Setja verður upp stigveldi fyrirtækis fyrir miðstýrðar greiðslur. Sama stigveldi fyrirtækis er notað til að vinna miðstýrðar lánardrottnagreiðslur og miðstýrðar viðskiptavinagreiðslur. **Athugasemd** Skipulag stigveldisins er ekki mikilvægt fyrir miðstýrðar greiðslur. Allir lögaðilar geta unnið greiðslur fyrir hönd annars lögaðila í stigveldinu. Á **stigveldum fyrirtækja** síðu er hægt að stofna nýtt stigveldi fyrirtækis.
+Setja verður upp stigveldi fyrirtækis fyrir miðstýrðar greiðslur. Sama stigveldi fyrirtækis er notað til að vinna miðstýrðar lánardrottnagreiðslur og miðstýrðar viðskiptavinagreiðslur. **Athugasemd** Skipulag stigveldisins er ekki mikilvægt fyrir miðstýrðar greiðslur. Allir lögaðilar geta unnið greiðslur fyrir hönd annars lögaðila í stigveldinu. Á **stigveldum fyrirtækja** síðu er hægt að stofna nýtt stigveldi fyrirtækis. Í reitnum **Tilgangur** verður að velja **Miðstýrðar greiðslur**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Setjið upp samstæðubókhald fyrir miðstýrðar greiðslur
 Þegar greiðslufærslur í núverandi lögaðila er jafnað gagnvart reikningum í öðrum lögaðilum, skal stofna viðeigandi færslur á gjalddaga til og á gjalddaga frá fyrir hvern lögaðila. Tilgreina þarf lögaðila þar sem allar viðeigandi upphæðir staðgreiðsluafsláttar og allar raunupphæðir hagnaðar eða taps eru bókaðar. Áður en hafist er handa skal ákveða hvaða lögaðila á að nota til að vinna greiðslur viðskiptamanns og lánardrottins. Ef einn lögaðila vinnur lánardrottnagreiðslur en annan lögaðila vinnur viðskiptavinagreiðslur, verður að skipta yfir á hvern lögaðila. Á síðunni **samstæðubókhald** er hægt að velja vensl færsla innan samstæðu fyrir lögaðila sem á að vinna greiðslur fyrir. Á fliðanum **Miðstýrðar greiðslur** er hægt að velja hvort bóka á staðgreiðsluafslætti á lögaðila greiðslunnar (eða aðra færslu sem minnkar stöðu lánadrottinslykilsins) eða lögaðila reikningsins (eða aðra færslu sem eykur við stöðu lánadrottinslykils). Þetta val vinnur í samvinnu við **stýring staðgreiðsluafsláttar** á í **Færibreytur viðskiptaskulda** og **Færibreytur viðskiptakrafna** síður. Stilling lögaðila greiðslunnar er notuð fyrir ofgreiðslur og vikmörk á auramismun. Fyrir vangreiðslur og vikmörk á auramismun er stilling lögaðila reikningsins notuð.

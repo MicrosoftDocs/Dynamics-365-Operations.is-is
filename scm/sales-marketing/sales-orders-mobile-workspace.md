@@ -3,10 +3,10 @@ title: "Fartækjavinnusvæði sölupantana"
 description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði sölupantana, sem er tiltækt fyrir Microsoft Dynamics 365 fyrir Operations farsímaforritið. Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Yfirlit yfir fartækjavinnusvæði sölupantana
 ---------------------------------------------
 
-Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Operations og gerir þér kleift að skoða nákvæmar upplýsingar um hverja sölupöntun. Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar. Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana. Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun. Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.
+Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Operations og gerir þér kleift að skoða nákvæmar upplýsingar um hverja sölupöntun. Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar. Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana. Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun. 
+
+Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.
 
 ### <a name="view-all-sales-orders"></a>Skoða allar sölupantanir
 
@@ -50,6 +52,7 @@ Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Ope
     -   Leita eftir stöðu
     -   Leita eftir losunarstöðu
     -   Leita eftir stofndagsetningu og -tíma
+    
 -   Eftir að sölupantanir eru valdar er hægt að skoða upplýsingar um ákveðnar pantanir. Sérstaklega er hægt að skoða eftirfarandi upplýsingar:
     -   Upplýsingar um nafn og aðsetur viðskiptavinar
     -   Mismunandi dagsetningar fyrir sölupöntun, svo sem umbeðin sendingardagsetning og staðfest sendingardagsetning
@@ -65,6 +68,7 @@ Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Ope
 -   Notið eina af eftirfarandi síum til að skoða pantanir fyrir viðskiptavin:
     -   Leita eftir nafni
     -   Leita eftir lykli
+
 -   Þegar viðskiptavinur er valinn er hægt að skoða eftirfarandi upplýsingar:
     -   Heiti og flokkur viðskiptavinar
     -   Tengslaupplýsingar viðskiptavinar
@@ -96,7 +100,7 @@ Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Ope
 <tr class="odd">
 <td>Verður að innleiða Microsoft Dynamics 365 útgáfu 1611 með svæðis uppfærslu 3 eða síðar.</td>
 <td>Kerfisstjóri</td>
-<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
+<td>Ef ekki er þegar Dynamics 365 for Operations starfrækt í fyrirtækinu, skal kerfisstjóri sjá <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Deploy Microsoft Dynamics 365 fyrir Operations sýnigögn prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 verður að vera innleitt.</td>
@@ -104,9 +108,9 @@ Fartækjavinnusvæðið **Sölupantanir** tengist Microsoft Dynamics 365 for Ope
 <td>KB 4013633 (X++ uppfærsla eða lýsigögn bráðabót) inniheldur fjögur fartækjavinnusvæði fyrir afgangakeðju stjórnun. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum:
 <ol>
 <li>Sækja KB 4013633 af Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
 </ol></td>
 </tr>
 <tr class="odd">

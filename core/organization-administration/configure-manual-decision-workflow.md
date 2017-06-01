@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: is-is
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     <td>Notendur í tilteknu stigveldi fyrirtækis</td>
     <td><ol>
     <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til að úthluta ákvörðun á.</li>
-    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er að úthluta ákvörðun á. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir.
-    <ol>
+    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er að úthluta ákvörðun á. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
     <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
     <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
     </ol></li>
-    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal úthlutað á:
-    <ul>
+    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal úthlutað á: <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er Ákvörðun úthlutað til allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er ákvörðun aðeins úthlutað til síðasta notanda á sviðinu.</li>
     <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – Ákvörðun er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
@@ -228,13 +226,11 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     <td>Vinnuliðalisti</td>
     <td><ol>
     <li>Eftir að <strong>Biðröð</strong> er valin, smellið á <strong>byggt á Biðröð</strong> flipa.</li>
-    <li>Fylgið eftirfarandi skrefum til að úthluta Ákvörðun á tiltekna biðröð:
-    <ol>
+    <li>Fylgið eftirfarandi skrefum til að úthluta Ákvörðun á tiltekna biðröð: <ol>
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>vinnuliðalisti</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja biðröðinni.</li>
     </ol></li>
-    <li>Ef tiltekin skilyrði ætti að ákvarða hvaða biðröð Ákvörðun er úthlutað á, skal fylgja þessum skrefum:
-    <ol>
+    <li>Ef tiltekin skilyrði ætti að ákvarða hvaða biðröð Ákvörðun er úthlutað á, skal fylgja þessum skrefum: <ol>
     <li>Í listanum <strong>gerð biðraðar </strong> skal velja <strong>skilyrtir vinnuliðalistar</strong></li>
     <li>Í <strong>heiti biðraðar</strong> listanum skal velja <strong>skilyrt biðröð</strong>.</li>
     </ol></li>
@@ -285,13 +281,11 @@ Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komi
     <td>Notendur í tilteknu stigveldi fyrirtækis</td>
     <td><ol>
     <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til að stigmagna ákvörðun fyrir.</li>
-    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna Ákvörðun fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir.
-    <ol>
+    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna Ákvörðun fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
     <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
     <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
     </ol></li>
-    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal stigmagnað fyrir:
-    <ul>
+    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal stigmagnað fyrir: <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er ákvörðun stigmagnað fyrir allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er ákvörðun stigmagnað aðeins til síðasta notanda á sviðinu.</li>
     <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – Ákvörðun er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
