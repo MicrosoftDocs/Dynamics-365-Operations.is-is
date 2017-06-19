@@ -43,6 +43,8 @@
 ### [Uppsetning lánardrottnalykla](procurement/set-up-vendor-accounts.md)
 ### [Samstarf lánardrottna með ytri lánardrottnum](procurement/vendor-collaboration-work-external-vendors.md)
 ### [Samstarf lánardrottna með viðskiptavinum](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Nota ytri vörulista fyrir PunchOut eProcurement](procurement/use-external-catalogs-for-punchout.md)
+### [Setja upp ytri vörulista fyrir PunchOut eProcurement](procurement/set-up-external-catalog-for-punchout.md)
 ### [Samstarf með lánardrottnum í gegnum gátt lánardrottins](procurement/collaborate-vendors-vendor-portal.md)
 ### [Fartækjavinnusvæði samstarfs lánardrottna](procurement/vendor-collaboration-mobile-workspace.md)
 ### [Öryggi notanda í gátt lánardrottins](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [Innkaupasamningar](procurement/purchase-agreements.md)
 ## Innhreyfingarskjal og reikningsfærsla
 ### [Innhreyfingarskjal jafnað við innkaupapantanir](procurement/product-receipt-against-purchase-orders.md)
-### [Yfirlit yfir lánardrottnareikninga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [Bókunarreglur lánardrottins](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
-# Afurðaupplýsingastjórnun
-## Afurðarupplýsingar
-### [Uppskrift og formúla](production-control/bill-of-material-bom.md)
-### [Virkni uppskriftahönnunar](production-control/bom-designer-functionality.md)
-### [Afurðarvídd](pim/product-dimensions.md)
-### [Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði](production-control/default-order-settings.md)
-### [Nafnakerfi afurðarnúmers](pim/product-variant-identification-nomenclature.md)
-### [Algengar spurningar um afurðartengda þýðingu](pim/translations-product-related-information.md)
-### [Skráning raðnúmers í söluferli](sales-marketing/register-serial-numbers-sales-process.md)
-### [Leit að afurðum við pöntunarfærslu](pim/search-products-product-variants.md)
-## Stofnun afurðarafbrigðis
+### [Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Bókunarreglur lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+# Afurðarupplýsingastjórnun
+## [Yfirlit afurðarupplýsinga](pim/product-information.md)
+## Viðhalda afurðarflokkum
+## Viðhalda afurðarupplýsingum
+### Viðhalda afurðarskilgreiningu
+#### [Nafnakerfi afurðarnúmers](pim/product-variant-identification-nomenclature.md)
+#### Afurðasniðmát
+#### [Afurðarvídd](pim/product-dimensions.md)
+#### Afurðareigindir
+#### Myndir og viðhengi afurðar
+#### Afurðarkenni
+#### [Algengar spurningar um þýðingu afurðarupplýsinga](pim/translations-product-related-information.md)
+### Losa afurðir til lögaðila
+### Leita að afurðum
+#### [Leit að afurðum við pöntunarfærslu](pim/search-products-product-variants.md)
+### Undirbúa afurð fyrir áætlun
+#### [Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði](production-control/default-order-settings.md)
+#### Spárlíkön og úthlutunarlyklar vöru
+### Undirbúa afurð til framleiðslu
+#### Uppskrift og formúla
+##### [Uppskriftir og formúlur](production-control/bill-of-material-bom.md)
+##### [Nota uppskriftarhönnun](production-control/bom-designer-functionality.md)
+##### [Nota formúluhönnun](production-control/formula-designer.md)
+#### Leiðir
+#### Lean-framleiðsla
+### Undirbúa afurðir fyrir vöruhús og stjórnun
+### Áætla kostnað fyrir afurðir
+#### [Útreikningur uppskrifta](cost-management/bom-calculations.md)
+## Viðhalda afbrigðalíkönum afurðar
 ### [Bygging afbrigðalíkans afurðar](pim/build-product-configuration-model.md)
 ### [Algengar spurningar um afbrigðalíkan afurðar](pim/calculate-product-configuration-models.md)
 ### [Skilgreiningarregla](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [Endurnýting afurðarafbrigðis](pim/reuse-product-configurations.md)
 ### [Uppsetning afbrigðalíkans afurðar](pim/set-up-maintain-product-configuration-model.md)
 ### [Kerfisskilgreind og notandaskilgreind töfluskorða](pim/system-defined-user-defined-table-constraints.md)
+## Flytja inn gögn afurðarupplýsinga
+## Flytja út gögn afurðarupplýsinga
 # Framleiðslustýring
 ## [Yfirlit yfir framleiðsluferli](production-control/production-process-overview.md)
 ## [Blönduð áætlun: sameining afmörkunar, vinnslu og lean-uppruna](production-control/mixed-mode-plan.md)
@@ -96,6 +118,8 @@
 #### [Bakfærsla á stöðu framleiðslupöntunar](production-control/reverse-production-order-status.md)
 #### [Framleiðslupantanir tilkynntar sem loknar](production-control/report-production-orders-as-finished.md)
 #### [Uppskrift tilkynnt sem lokið](production-control/report-boms-as-finished.md)
+#### [Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið](production-control/cross-docking-opportunities.md)
+#### [Skrá efnisnotkun með fartæki](production-control/register-material-consumption-hand-held-device.md)
 #### [Efni skipt út í framleiðslu](production-control/substitute-items-bom-lines.md)
 #### [Skráning á framkvæmd framleiðslu](production-control/registration-manufacturing-execution.md)
 #### [Endurgjöf um framleiðslu](production-control/production-feedback.md)
@@ -111,7 +135,8 @@
 #### [Gerð líkans af lean-fyrirtæki](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [Rekstrartilföng](production-control/operations-resources.md)
 ### Áætla kanban-vinnslu
-#### [Áætlun kanban-vinnslu fyrir lean-framleiðslu](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Sjónræn röðun fyrir lean-framleiðslu](production-control/visual-scheduling-lean-manufacturing.md)
+#### [Röðun kanban-vinnslu fyrir lean-framleiðslu](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [Vinnsluröðun](production-control/job-scheduling.md)
 ### Keyra kanban-vinnslur
 #### [Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna](production-control/kanban-transfer-board-support-barcode-scanner.md)
@@ -128,6 +153,7 @@
 #### [Aðgerðaröðun](production-control/operations-scheduling.md)
 #### [Valkostir aðgerðaröðunar](production-control/operation-scheduling-options.md)
 #### [Vinnsluröðun](production-control/job-scheduling.md)
+#### [Gantt-rit fyrir vinnsluröðun](production-control/visual-scheduling-production.md)
 ### Keyra framleiðsluverk
 #### [Sameinaðar runupantanir](production-control/consolidated-batch-orders.md)
 #### [Efni skipt út í framleiðslu](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [Flutningsstjórnun](transportation/transportation-management-overview.md)
 ## [Flutningsvél](transportation/transportation-management-engines.md)
 # Vöruhúsakerfi
+## Ítarlegt vöruhúsakerfi
+### [Yfirfæra frá AX 2012 í Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## Uppsetning 
 ### [Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum](warehousing/control-warehouse-location-directives.md)
 ### [Stjórnun starfskrafta í vöruhúsi](warehousing/manage-warehouse-workers.md)
 ### [Uppsetning útlits](warehousing/warehouse-configuration.md)
 ### [Vinnureglur vöruhúss](warehousing/warehouse-work-policies.md)
 ### [Mælieining og birgðastefnur](warehousing/unit-measure-stocking-policies.md)
-### [Power BI-efni fyrir vöruhús](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [Power BI-efni fyrir vöruhús](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [Staðfesting lotu og númeraplötu](warehousing/batch-and-license-plate-confirmation.md)
+### [Hreyfing birgða með tengdri vinnu](warehousing/move-inventory-associated-work.md)
+### [Kerfisflokkun á opnum verkefnalista](warehousing/system-group-on-open-work-list.md)
+### [Staðfesting afurðar fyrir klasatiltekt](warehousing/cluster-picking-item-confirmation.md)
 ## Tiltekt og pökkun
 ### [Umbúðaefni og gjöld](warehousing/pack-materials-packing-material-fees.md)
+### [Staðfesting einingatiltektar](warehousing/piece-picking-confirmation.md)
 ## Birgðatalning
 ### [Birgðum læst](inventory/inventory-blocking.md)
 ### [Regluleg talning](warehousing/cycle-counting.md)
+### [Hlutastaðsetning reglulegrar talningar](warehousing/partial-location-cycle-counting.md)
 ### [Birgðabók](inventory/inventory-journals.md)
 ### [Birgðastaðsetning](inventory/inventory-locations.md)
 ### [Birgðastaða](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## Gámun 
 ## Áfylling
 ### [Áfylling](warehousing/replenishment.md)
+### [Áfylling með afturkölluðum kanban](warehousing/material-replenishment-withdrawal-kanban.md)
 ## Fartæki
 ### [Setja upp og skilgreina vöruhúsaforrit ](warehousing/install-configure-warehousing-app.md)
 ### [Skilgreining svæðaheita í vöruhúsaforriti](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [Gátt fyrir fartæki vöruhúss](warehousing/warehouse-mobile-devices-portal.md)
 ### [Skjástillingar fartækis vöruhúss](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [Fjármál](/dynamics365/operations/financials/index)
+# [Fjármál](/dynamics365/unified-operations/financials/index)
 
-# [Mannauður](/dynamics365/operations/human-resources/index)
+# [Mannauður](/dynamics365/unified-operations/talent/index)
 
-# [Smásala](/dynamics365/operations/retail/index)
+# [Smásala](/dynamics365/unified-operations/retail/index)
 
-# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+# [Hönnunaraðili og stjórnun](/dynamics365/unified-operations/dev-itpro/index)
 
 # Önnur tilföng
-## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Orðalisti Finance and Operations](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

@@ -1,4 +1,4 @@
-# [Yfirlit yfir staðfærslu](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Yfirlit yfir staðfærslu](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Asía/Kyrrahaf
 ## Ástralía
 ### [Bankaskráarsnið](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Bókun forkaupa á eign](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Póstnúmer](emea-import-create-postal-codes-manually.md)
 ## [Skráningarkenni](emea-registration-ids.md)
+## [Bakfærður VSK](emea-reverse-charge.md)
 ## [SEPA-millifærsluyfirlit](../accounts-payable/sepa-credit-transfer.md)
 ## [Yfirlit yfir SEPA-umboð fyrir beint debet](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Færslubókarlistaskýrsla](emea-deu-journal-list-report.md)
 ### [Prentun sérstaks miða fyrir kreditreikninga úr sölu](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Ungverjaland
-### [Aðferðir við afskriftir eigna](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Aðferðir við afskriftir eigna](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Ódýrar eignir](emea-hun-low-cost-fixed-assets.md)
 ### [Færa eign í birgðir](emea-hun-fixed-asset-to-inventory.md)
 ## Ítalía
@@ -138,6 +139,7 @@
 ### [Endurmat eignaflokks](emea-esp-fixed-asset-group-revaluation.md)
 ### [VSK innan bandalagsins](emea-esp-intra-community-vat.md)
 ### [Einskiptisviðskiptavinir](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Prenta ávísanir með spænskri uppsetningu](emea-esp-print-checks-with-spanish-layout.md)
 ### [Valkostir eigin víxils](emea-esp-promissory-note-options.md)
 ### [Sölu- og innkaupaferlar](emea-esp-sales-purchase-cycle.md)
 ### [Sérstakar færslur og opnunarskjöl](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Skattabækur](latam-bra-fiscal-books.md)
 #### [Fjárhagsskjöl ICMS-skatts](latam-bra-icms-tax-fiscal-documents.md)
 #### [Innflutningur fjárhagsskjala](latam-bra-import-fiscal-documents.md)
+#### [Útflutningur og innflutningur lögaðilafærslna frá fjárhagssamstæða](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Innflutningur og staðfesting NF-e XML-skjala og DANFE-skráa](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Meðhöndla rafrænar greiðslur](latam-bra-process-electronic-payment-remittances.md)
 #### [Fjárhagsskjöl](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Frátökutákn í texta fjárhagsskjals](latam-bra-fiscal-document-text-placeholders.md)
 #### [Viðbótarfjárhagsskjöl fyrir innkaup](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Stofnun færslubóka í rafrænu greiðsluskilaferli](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e-ferli](latam-bra-nf-e-process.md)
 ### [Færibreytur fyrir lögaðila](latam-bra-legal-entity-parameters.md)
+### [Kaupa CIAP-eign](latam-bra-ciap-fixed-asset.md)
+### [Losa CIAP-eign](latam-bra-ciap-fixed-asset.md)
 ### [Skattar](latam-bra-calculate-taxes.md)
 #### [Skatteigindir](latam-bra-tax-attributes.md)
 #### [Skattgreiðslur](latam-bra-tax-payments.md)

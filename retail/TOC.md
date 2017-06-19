@@ -13,10 +13,11 @@
 ## [Skilgreining smásölurása](define-maintain-retail-channels.md)
 ## [Netverslunaryfirlit](online-stores.md)
 ## [Skilgreining og uppsetning vélbúnaðarstöðvar fyrir smásölu](retail-hardware-station-configuration-installation.md)
-## [Smásölutími og -viðvera](retail-time-attendance.md)
+## [Retail-tími og -viðvera](retail-time-attendance.md)
 # Modern POS (MPOS) og sölukerfi í skýinu
-## Jaðarvélbúnaður
-### [Yfirlit yfir jaðarbúnað fyrir smásölu](retail-peripherals-overview.md)
+## Vélbúnaður og jaðarbúnaður
+### [Yfirlit yfir Retail-jaðarbúnað](retail-peripherals-overview.md)
+### [Retail-jaðarbúnaðarhermir](retail-peripheral-simulator.md)
 ### [Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](define-maintain-channel-clients-registers-hw-stations.md)
 ## Útlit afgreiðsluskjás
@@ -42,6 +43,7 @@
 ## Kvittanir
 ### [Uppsetning kvittanasniðmáta](receipt-templates-printing.md) 
 ### [Sending tölvupóstkvittana fyrir MPOS](email-receipts.md)
+## [Verkskráning og hjálp fyrir sölustað](task-recorder-retail-pos.md)
 # Eftirlit og greining
 ## [Eftirlit með sölu og framlegð](monitor-sales-margin-performance.md)
 ## [Greina leitni og mynstur í sölu](analyze-sales-trends-patterns.md)
@@ -53,14 +55,16 @@
 ## [Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
 ## [Ákvörðun bestu samsetningar afslátta sem skarast](optimal-combination-overlapping-discounts.md)
 ## [Skilgreining afslátta fyrir tiltekna rás](define-channel-specific-discounts.md)
+## [Búa til afsláttarmiða fyrir smásölu](retail-coupons.md)
 # Afurðir og smásala
-## [Smásölustigveldi](retail-hierarchies.md)
+## [Retail-stigveldi](retail-hierarchies.md)
 ## [Eigindir búnar til og þeim stjórnað](create-manage-attributes.md)
 ## [Uppsetning smásöluafurða](set-up-retail-products.md)
 ## [Uppsetning strikamerkja](set-up-bar-codes.md)
 ## [Uppsetning strikamerkja](set-up-bar-code-masks.md)
 ## [Uppsetning vöruúrvals](set-up-assortments.md)
-# Vild
+## [Sala og skil á afurðum utan vöruúrvals](sell-return-outside-assortments.md)
+# Vildarkerfi
 ## [Uppsetning vildarkerfis](set-up-customer-loyalty-program.md)
 # Birgðir
 ## [Birgðastjórnun verslunar](work-with-store-inventory.md)
@@ -69,15 +73,15 @@
 ## [Fyrirtæki og stigveldi fyrirtækis (grunnþættir viðskipta)](organizational-hierarchies-commerce-essentials.md)
 # [Efni fyrir fagfólk á sviði upplýsingatækni og þróunaraðila](dev-itpro/TOC.md)
 
-# [Fjármál](/dynamics365/operations/financials/index)
+# [Fjármál](/dynamics365/unified-operations/financials/index)
 
-# [Mannauður](/dynamics365/operations/human-resources/index)
+# [Mannauður](/dynamics365/unified-operations/talent/index)
 
-# [Stjórnun aðfangakeðju](/dynamics365/operations/supply-chain/index)
+# [Stjórnun aðfangakeðju](/dynamics365/unified-operations/supply-chain/index)
 
-# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+# [Hönnunaraðili og stjórnun](/dynamics365/unified-operations/dev-itpro/index)
 
 # Önnur tilföng
-## [Orðalisti Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Orðalisti fyrir Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

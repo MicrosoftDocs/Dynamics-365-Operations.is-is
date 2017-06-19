@@ -1,34 +1,34 @@
 # [Kynning](index.md)
 
-# [Innleiðing Dynamics 365 for Operations](get-started/onboarding-home.md)
-## Kynning á Dynamics 365 for Operations
-### [Hafist handa með Microsoft FastTrack fyrir Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-### [Áskrift](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Hvernig á að sækja Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Uppsetning sýniútgáfuumhverfis](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+# [Nýr í Finance and Operations](get-started/onboarding-home.md)
+## Kynning á Finance and Operations
+### [Hafist handa með Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+### [Áskrift](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Hvernig á að sækja Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Uppsetning sýniútgáfuumhverfis](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Notandaviðmót skoðað
 ### [Aðgerðaleit](get-started/action-search.md)
 ### [Ítarleg sía og málskipan fyrirspurna](get-started/advanced-filtering-query-options.md)
-### [Algengar spurningar um Dynamics 365 for Operations-biðlara](get-started/client-faq.md)
+### [Algengar spurningar fyrir Finance and Operations](get-started/client-faq.md)
 ### [Skilgreining og síun vinnusvæða](get-started/configure-filter-workspaces.md)
 ### [Síður birtar hlið við hlið með tákni fyrir opnun í nýjum glugga](get-started/display-pages-side-by-side.md)
 ### [Flettingaleit](get-started/navigation-search.md)
 ### [Sérsniðin notkun](get-started/personalize-user-experience.md)
 ### [Flýtilyklar](get-started/shortcut-keys.md)
 ### [Birtingastjórnun síða](get-started/window-management.md)
-### [Kynning á Lifecycle Services](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Kynning á Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Hjálp og þjónusta
-### [Hjálparyfirlit](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Tengihjálp](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Hjálparyfirlit](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Tengihjálp](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Skoðun og útflutningur svæðalýsinga](get-started/view-export-field-descriptions.md)
 
 ### Verkefnaleiðbeiningar og verkskráning
-#### [Verkskráning](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Skráning eða þjálfun búin til](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Verkskráning](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Skráning eða þjálfun búin til](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Hjálparefni fyrir land/svæði](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Hjálparefni fyrir land/svæði](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Skilgreining fyrirtækis](organization-administration/organization-administration-home-page.md)
 ## [Fyrirtæki og fyrirtækjastigveldi](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [Skilgreining runuvinnslu skilaboðaferlis](organization-administration/workflow-batch-job-critical.md)
 ## [Skýrsla um verkflæðisgerðir](organization-administration/workflow-types-report.md)
 
-# [Fjármál](/dynamics365/operations/financials/index)
+# [Fjármál](/dynamics365/unified-operations/financials/index)
 
-# [Mannauður](/dynamics365/operations/human-resources/index)
+# [Mannauður](/dynamics365/unified-operations/talent/index)
 
-# [Smásala](/dynamics365/operations/retail/index)
+# [Smásala](/dynamics365/unified-operations/retail/index)
 
-# [Stjórnun aðfangakeðju](/dynamics365/operations/supply-chain/index)
+# [Stjórnun aðfangakeðju](/dynamics365/unified-operations/supply-chain/index)
 
-# [Hönnunaraðili og stjórnun](/dynamics365/operations/dev-itpro/index)
+# [Hönnunaraðili og stjórnun](/dynamics365/unified-operations/dev-itpro/index)
 
 # Önnur tilföng
-## [Orðalisti Dynamics 365 for Operations](get-started/glossary.md)
-## [Nýjungar eða breytingar](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Orðalisti Finance and Operations](get-started/glossary.md)
+## [Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

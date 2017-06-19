@@ -1,5 +1,5 @@
 # Power BI-efnispakki
-## [Kostnaðarstjórnunar-efnispakki](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Kostnaðarstjórnunar-efnispakki](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Fyrirframákveðinn kostnaður
 ## [Kostnaðarskjal](costing-sheets.md)
 ## [Kostnaðarútgáfa](costing-versions.md)

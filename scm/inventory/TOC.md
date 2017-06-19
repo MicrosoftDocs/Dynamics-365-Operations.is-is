@@ -21,4 +21,5 @@
 # Rakning vöru og runu
 ## [Sameining birgðarunu](merge-inventory-batches.md)
 ## [Rakning vöru og hráefnis](trace-items-raw-materials-inventory-production-sales.md)
+## [Skráning raðnúmers í söluferli](../sales-marketing/register-serial-numbers-sales-process.md)
 
