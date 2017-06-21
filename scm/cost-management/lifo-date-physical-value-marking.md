@@ -3,7 +3,7 @@ title: "LIFO dagsetning með efnislegt virði og merkingu"
 description: "Síðast inn, Fyrst út  dagsetning (lifo-Dagsetning) er birgðalíkan sem byggist á lifo-grunnreglu. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. Hafi ekkert verið móttekið fyrir úthreyfinguna jafnast hún, sé notuð LIFO-dagsetning, við innhreyfingar sem kunna að verða eftir úthreyfingardagsetninguna. Fleiri en eina úthreyfingu innan sama dags má jafna í þeirri röð að sú síðasta jafnist við síðustu innhreyfingu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Línulegar líftímaafskriftir"
 description: "Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

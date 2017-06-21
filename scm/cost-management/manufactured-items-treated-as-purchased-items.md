@@ -3,7 +3,7 @@ title: "Uppsetning afurða sem hægt er að framleiða eða kaupa"
 description: "Vörur geta verið virkjaðar á ýmsa vegu - Hægt er að búa þær til (framleiða) eða versla þær (kaupa). Þessi grein lýsir nokkrum dæmigerðum atriðum til að hafa í huga þegar vörur eru skilgreindar til að styðja fjöl-uppruna."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Taka frá birgðamagn"
 description: "Þessi efnisliður útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

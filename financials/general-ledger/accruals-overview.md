@@ -3,7 +3,7 @@ title: Yfirlit yfir uppsafnanir
 description: "Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

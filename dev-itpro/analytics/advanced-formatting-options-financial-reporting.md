@@ -3,7 +3,7 @@ title: "Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð"
 description: "Þegar skýrsla er stofnuð í fjárhagsskýrslu, eru tiætækar aukalegar aðgerðir fyrir snið, þar með talið síur fyrir víddir, takmarkanir fyrir dálka og eining skipurits, línur sem ekki á að prenta og IF/THEN/ELSE-yrðingar í útreikningum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

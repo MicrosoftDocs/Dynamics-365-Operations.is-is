@@ -3,7 +3,7 @@ title: "Losa framleiðslupantanir"
 description: "Útgefin framleiðslupöntun er pöntun sem hefur verið samþykkt til framleiðslu. Hugtakið útgefið er notað til að lýsa stöðu í líftíma framleiðslupöntunar þar sem framleiðslupöntunin er tiltæk fyrir framkvæmd í framleiðsluvinnusal og fyrir ferli vöruhúss."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

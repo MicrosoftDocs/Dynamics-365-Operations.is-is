@@ -3,7 +3,7 @@ title: "Kaupa eignir með innkaupum"
 description: "Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

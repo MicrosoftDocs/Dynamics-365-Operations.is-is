@@ -3,10 +3,10 @@ title: "Uppsetning íhluta starfs"
 description: "Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User

@@ -3,7 +3,7 @@ title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)"
 description: "Þetta efni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 -- öll tungumál) APQC, Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

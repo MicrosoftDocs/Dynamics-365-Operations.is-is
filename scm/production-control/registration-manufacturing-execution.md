@@ -3,7 +3,7 @@ title: "Skráning fyrir framkvæmd framleiðslu"
 description: "Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,10 +3,10 @@ title: "Frammistöðustjórnunaryfirlit"
 description: "Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

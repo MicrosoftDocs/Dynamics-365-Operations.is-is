@@ -3,7 +3,7 @@ title: "Miðstýrðar greiðslur fyrir viðskiptaskuldir"
 description: "Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

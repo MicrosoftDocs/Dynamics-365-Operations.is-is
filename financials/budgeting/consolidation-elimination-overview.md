@@ -3,7 +3,7 @@ title: Yfirlit yfir sameiningu og losun
 description: "Þessi grein veitir almennar upplýsingar um sameiningar- og losunarferli. Í því eru svör við Algengar spurningar"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

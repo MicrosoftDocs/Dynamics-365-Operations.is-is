@@ -3,7 +3,7 @@ title: "Dreifing á fjárhagsupphæðum"
 description: "Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

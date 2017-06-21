@@ -3,7 +3,7 @@ title: "Úthlutunarreglur fjárhags"
 description: "Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

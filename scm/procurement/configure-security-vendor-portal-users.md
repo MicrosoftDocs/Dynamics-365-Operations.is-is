@@ -3,7 +3,7 @@ title: "Öryggi notanda í gátt lánardrottins"
 description: "Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

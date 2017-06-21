@@ -3,7 +3,7 @@ title: "Kostnaðarflokkar"
 description: "Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað. Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

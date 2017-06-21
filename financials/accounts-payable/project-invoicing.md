@@ -3,7 +3,7 @@ title: Verkreikningur
 description: "Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

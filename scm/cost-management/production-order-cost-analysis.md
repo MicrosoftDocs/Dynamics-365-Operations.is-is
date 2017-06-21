@@ -3,7 +3,7 @@ title: "Kostnaðargreining framleiðslupöntunar"
 description: "Þessi skrá veitir upplýsingar um kostnaðargreiningar sem er hægt að gera fyrir loknar og gildandi framleiðslupantanir. Hægt er að greina áætlaðan kostnað og raunkostnað með því að nota síðuna Útreikningur á verði eða skýrsluna Kostnaðarmat og kostnaðarútreikningur. Hægt er að skoða upplýsingar um áætlaðan kostnað og raunkostnað (og magn) fyrir hverja íhlutavöru, leiðaraðgerð og óbeinan kostnað."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

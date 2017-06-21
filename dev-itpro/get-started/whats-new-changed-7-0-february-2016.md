@@ -3,7 +3,7 @@ title: "Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)"
 description: "Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Microsoft Dynamics AX 7.0. Útgáfan inniheldur bæði eiginleika verkvangs og forrits og var gefið út í Febrúar 2016 ."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

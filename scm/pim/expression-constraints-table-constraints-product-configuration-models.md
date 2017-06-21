@@ -3,7 +3,7 @@ title: "Segðarskorður og töfluskorður í afbrigðalíkönum afurðar"
 description: "Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

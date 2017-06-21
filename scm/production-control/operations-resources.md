@@ -3,7 +3,7 @@ title: "Operations-tilföng"
 description: "Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

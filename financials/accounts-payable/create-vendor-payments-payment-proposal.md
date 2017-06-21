@@ -3,7 +3,7 @@ title: "Stofna greiðslur lánardrottins með greiðslutillögu"
 description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

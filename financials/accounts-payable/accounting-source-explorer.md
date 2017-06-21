@@ -3,7 +3,7 @@ title: "Skoðun uppruna bókhalds"
 description: "Þessari grein veitir upplýsingar um hugbúnaðinn skoðun bókhaldsuppruna, sem hægt er að nota fyrir nákvæma greiningu á upprunaupplýsingum á bakvið færslur fjárhagslykils."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

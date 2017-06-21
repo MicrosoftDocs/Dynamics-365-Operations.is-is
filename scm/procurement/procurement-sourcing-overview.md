@@ -3,7 +3,7 @@ title: "Yfirlit yfir „Innkaup og aðföng“"
 description: "Þessi grein gefur yfirlit yfir þá virkni sem er fáanleg í Innkaupa- og aðfangakerfi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

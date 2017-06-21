@@ -3,7 +3,7 @@ title: "endurmat á erlendum gjaldmiðli fyrir fjárhag"
 description: "Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

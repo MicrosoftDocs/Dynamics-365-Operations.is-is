@@ -3,7 +3,7 @@ title: "Yfirlit Uppgjörs fyrir miðstýrð greiðslur."
 description: "Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þetta eyðir þörfinni á því að færa inn sömu færsluna í mörgum lögaðilum og sparar tíma með því að einfalda greiðslutillagnaferlið, jöfnunarferlið, breytingar á opnum færslum, og breytingar á lokuðum færslum fyrir miðstýrðar greiðslur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

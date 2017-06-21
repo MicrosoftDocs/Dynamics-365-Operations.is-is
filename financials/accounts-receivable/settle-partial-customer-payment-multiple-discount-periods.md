@@ -3,7 +3,7 @@ title: "Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabi
 description: "Þessi grein sýnir hvernig skal jafna hlutagreiðslu viðskiptavinar þegar um er að ræða mörg afsláttartímabil."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

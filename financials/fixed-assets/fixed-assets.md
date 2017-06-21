@@ -3,7 +3,7 @@ title: "Eignir – heimasíða"
 description: "Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Innkaupareglur
 description: "Þessi grein gefur upplýsingar um innkaupareglur. Innkauparegla er safn reglna sem stýrir innkaupaferlinu. Innkaupareglur hjálpa innkaupastjórum að innleiða sína innkaupastefnu með því að stofna regluskipulag sem er stilltur saman við stjórnunaráætlun fyrirtækisins fyrir innkaup."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

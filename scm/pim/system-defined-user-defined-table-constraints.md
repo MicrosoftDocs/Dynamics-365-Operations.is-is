@@ -3,7 +3,7 @@ title: "kerfisskilgreindar og notandaskilgreindar taflaskorður."
 description: "Þessi grein útskýrir hinar tvær tegundir töfluskorða fyrir íhluti í skilgreiningarlíkani afurðar: Skilgreint af notanda og skilgreint af kerfi. Töfluskorður standa fyrir fylki leyfðra eigindasamsetninga þar sem hver röð skilgreinir eitt safn mögulegra eigindagilda."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

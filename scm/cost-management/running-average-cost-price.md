@@ -3,7 +3,7 @@ title: "Um keyrslu á meðalkostnaðarverði"
 description: "Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Áður en birgðalokun er keyrð reiknar kerfið samt sem áður út hlaupandi meðalkostnaðarverð sem er í flestum tilvikum notað við bókun úthreyfingafærslna."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

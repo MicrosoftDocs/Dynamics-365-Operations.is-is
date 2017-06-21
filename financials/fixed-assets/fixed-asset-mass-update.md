@@ -3,7 +3,7 @@ title: "Fjöldauppfærsla eigna"
 description: "Ef verið er að nota bækur er hægt að breyta afskriftarreglum fyrir flokk af eignum sem eru hluti af sömu bók."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

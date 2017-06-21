@@ -3,7 +3,7 @@ title: "Bakfæra greiðslu lánardrottins"
 description: "Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu. Einnig útskýrir hún aðferðirnar tvær við að bakfæra ávísun lánardrottins."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

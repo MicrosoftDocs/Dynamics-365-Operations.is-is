@@ -3,7 +3,7 @@ title: "Afbrigðareglur"
 description: "Þessi grein veitir almennar upplýsingar um skilgreiningarreglur. Skilgreiningarreglur skilgreina tengsl milli þátta í uppskrift (BOM) fyrir vörur sem nota skilgreiningartækni byggða á víddum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

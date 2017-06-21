@@ -3,7 +3,7 @@ title: "Fyrirframgreiðslureikninga miðað við fyrirframgreiðslur"
 description: "Þessi grein veitir lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

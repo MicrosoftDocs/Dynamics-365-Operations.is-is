@@ -3,7 +3,7 @@ title: "Áætlun kanban-vinnslu fyrir lean-framleiðslu"
 description: "Þessi grein veitir upplýsingar um sjónræna stjórnun á vinnsluröðun kanban-vinnsla og mismunandi leiðir til að raða kanban-vinnslum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

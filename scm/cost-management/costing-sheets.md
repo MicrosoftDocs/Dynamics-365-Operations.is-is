@@ -3,7 +3,7 @@ title: "Kostnaðarskjöl"
 description: "Uppsetning á kostnaðarskjali felur í sér tvö viðföng. Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun. Sniðna skjámyndin nefnist kostnaðarskjal. Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

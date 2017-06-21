@@ -3,7 +3,7 @@ title: "Greining algengra orsaka framleiðslufrávika"
 description: "Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

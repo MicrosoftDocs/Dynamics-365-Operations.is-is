@@ -3,7 +3,7 @@ title: "Skráning tíma og mætinga"
 description: "Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tímaskráningar, til dæmis innstimplun, útstimplun, skráningu óbeinna aðgerða og fjarvistarskráningu. Þessi grein lýsir skráningum, útreikningi þeirra, samþykki og notkun verkflæðis til að bæta skipulag og sjálfvirku samþykki ferlisins að samþykkja vinnuskýrslur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

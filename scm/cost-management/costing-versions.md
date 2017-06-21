@@ -3,7 +3,7 @@ title: "Kostnaðarútgáfa"
 description: "Þessi grein veitir upplýsingar um kostnaðarútgáfur, hvernig á að viðhalda þeim og tegundir gagna sem þú getur haft í þeim. Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

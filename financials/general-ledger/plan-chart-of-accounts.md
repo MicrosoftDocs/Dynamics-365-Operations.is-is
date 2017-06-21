@@ -3,7 +3,7 @@ title: "Áætlun bókhaldslykila"
 description: "Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

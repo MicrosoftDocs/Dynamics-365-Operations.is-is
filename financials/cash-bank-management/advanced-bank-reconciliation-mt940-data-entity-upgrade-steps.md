@@ -3,7 +3,7 @@ title: "Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsett
 description: "Raðnúmeri þarf að bæta við einingunni innflutningur bankayfirlits til að styðja MT940 sniði."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

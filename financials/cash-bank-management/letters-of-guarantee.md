@@ -3,7 +3,7 @@ title: "Ábyrgðarbréf"
 description: "Þessi grein gefur upplýsingar um Ábyrgðaryfirlýsingar. Í ábyrgðaryfirlýsingu, banka samþykkir að greiða ákveðna upphæð af peningum til einstaklings ef einn af viðskiptavinum bankans fer í vanskil á greiðslu eða skyldu til þess einstaklings."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

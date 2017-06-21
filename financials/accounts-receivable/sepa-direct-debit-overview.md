@@ -3,7 +3,7 @@ title: Yfirlit yfir SEPA beint debet
 description: "Í Einni Evru Greiðslur Svæði (SEPA) er sett upp með Evrópska Þóknun og ákvarðar hverng sem teljast rafrænar greiðslur innanlands, land/svæði þar sem einstaka viðskiptum eða fyrirtækisins og bankans er staðsettur. Það er enginn mismunur innanlandsgreiðslur og landamæri greiðslur. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) sem og Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

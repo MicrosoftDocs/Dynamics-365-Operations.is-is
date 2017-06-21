@@ -3,7 +3,7 @@ title: "Nota rakningu fyrir niðurbrot"
 description: "Þessi grein útskýrir hvernig hægt er að nota rakningu til að kanna orsakir á bak við niðurstöðu niðurbrots pöntunar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

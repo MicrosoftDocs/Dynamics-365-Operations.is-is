@@ -3,7 +3,7 @@ title: "Aðgerðröðun"
 description: "Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Stjórnun ósamkvæmni"
 description: "Þetta grein lýsir grunnuppsetningu sem er krafist til að nota ósamkvæmni. Viðbótaruppsetning er nauðsynleg ef á að nota gæðapantanir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

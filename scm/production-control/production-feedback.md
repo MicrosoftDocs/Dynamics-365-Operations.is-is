@@ -3,7 +3,7 @@ title: "Framleiðslusvörun"
 description: "Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

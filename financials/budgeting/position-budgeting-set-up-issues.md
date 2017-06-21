@@ -3,7 +3,7 @@ title: "Setja upp fjárhagsáætlunargerðar stöðu"
 description: "Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

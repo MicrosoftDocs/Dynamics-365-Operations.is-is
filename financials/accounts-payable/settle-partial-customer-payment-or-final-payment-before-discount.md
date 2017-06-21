@@ -3,7 +3,7 @@ title: "Jafna hlutagreiðsla lánardrottins og endanlega greiðslu að fullu fyr
 description: "Þessi grein gefur dæmi um aðstæður sem sýna hvernig á að skrá hlutagreiðslur fyrir viðskiptavin og taka staðgreiðsluafslátt innan staðgreiðsluafsláttartímabils."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

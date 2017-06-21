@@ -3,7 +3,7 @@ title: "Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyri
 description: "Þessi grein fer í gegnum aðstæður þar sem hlutagreiðslur eru greiddar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

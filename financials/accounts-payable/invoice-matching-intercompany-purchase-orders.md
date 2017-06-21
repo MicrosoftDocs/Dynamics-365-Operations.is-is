@@ -3,7 +3,7 @@ title: "Reikningsjöfnun og samstæðuinnkaupapöntun"
 description: "Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

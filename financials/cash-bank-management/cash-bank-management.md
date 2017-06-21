@@ -3,7 +3,7 @@ title: "Heimasíða reiðufjár- og bankastjórnunar"
 description: "Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

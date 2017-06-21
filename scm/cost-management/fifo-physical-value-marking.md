@@ -3,7 +3,7 @@ title: "Um FIFO með merkingu og efnislegt virði"
 description: "Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Flokkur uppskriftarútreiknings"
 description: "Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
