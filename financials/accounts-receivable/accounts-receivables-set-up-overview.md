@@ -3,7 +3,7 @@ title: "Stilla viðskiptakröfur og skuldir og innheimtu"
 description: "Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

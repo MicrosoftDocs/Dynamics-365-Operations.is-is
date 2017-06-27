@@ -3,7 +3,7 @@ title: "Mælieiningu og birgðareglur"
 description: "Þessi grein lýsir því hvernig sjálfgefnar einingar, röðunarflokkar eininga og umreikningur eininga eru notaðar í vöruhúsaferlum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

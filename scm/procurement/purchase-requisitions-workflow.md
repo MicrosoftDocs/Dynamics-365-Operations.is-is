@@ -3,7 +3,7 @@ title: "Verkflæði fyrir innkaupabeiðni"
 description: "Verkflæðisferlið færir innkaupabeiðnir í endurskoðunarferli úr upphaflegu stöðunni Drög í endanlegu stöðuna Samþykkt. Þegar innkaupabeiðni er sent til endurskoðunar, hefst verkflæðisferli. Eftir að innkaupabeiðnin er samþykkt getir innkaupapöntun verið myndað fyrir innkaupabeiðnilínur og send til lánardrottins fyrir uppfyllingu pöntunar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

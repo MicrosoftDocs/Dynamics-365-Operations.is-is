@@ -3,7 +3,7 @@ title: "Nýjungar eða breytingar í Dynamics AX forritaútgáfu 7.0.1 (maí 201
 description: "Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í núverandi útgáfu Microsoft Dynamics AX 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

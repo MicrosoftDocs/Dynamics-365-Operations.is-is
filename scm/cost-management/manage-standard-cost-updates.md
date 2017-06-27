@@ -3,7 +3,7 @@ title: "Stjórnun uppfærslu staðalkostnaðar"
 description: "Hægt er að stýra uppfærslum á staðalkostnaðargögnum með því að nota tvær mismunandi nálganir: eins útgáfu nálgun og tveggja útgáfu nálgun."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

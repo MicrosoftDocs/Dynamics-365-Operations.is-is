@@ -3,7 +3,7 @@ title: "Staðgreiðsluafslættir"
 description: "Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og Viðskiptaskuldir.  Tiltækur staðgreiðsluafsláttur er hægt að tilgreina á reikning viðskiptavinar eða á reikning lánardrottins og verður tekinn ef reikningurinn er greiddur innan dagsetningu staðgreiðsluafsláttar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

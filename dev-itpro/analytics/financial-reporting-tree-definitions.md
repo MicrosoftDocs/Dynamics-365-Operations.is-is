@@ -3,7 +3,7 @@ title: "Skipuritsskilgreiningar í fjárhagsskýrslum"
 description: "Þessi skrá upplýsingar um skipuritsskilgreiningar. Skipuritsskilgreining er skýrsluhluti, eða eining, sem aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

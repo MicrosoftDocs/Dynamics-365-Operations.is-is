@@ -3,7 +3,7 @@ title: "Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótu
 description: "Þessi grein fer með þig í gegnum aðstæður þar sem staðgreiðsluafsláttur er tekinn á kreditnótu þegar upphaflegi reikningurinn var einnig með staðgreiðsluafslátt."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Fella niður, endurskipa eða bakfæra vaxtagjöld"
 description: "Þessi grein útskýrir hvernig skal fella niður, endurskipa, og bakfæra gjald fyrir vextir og gjöld."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

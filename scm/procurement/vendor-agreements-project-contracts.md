@@ -1,9 +1,9 @@
 ---
 title: "Lánardrottnareikningar með „greiðist þegar greitt“"
-description: "Þessi grein útskýrir &quot;greiðist-þegar-greitt&quot; (PWP, pay-when-paid) skilmála fyrir samninga lánardrottins. Skilmálar fyrir greiðist þegar greitt gera það mögulegt að halda eftir að hluta eða fullu greiðslu til lánardrottins þar til viðskiptavinur verks greiðir þér. Þessi grein veitir einnig raunverulegt dæmi til að sýna hvernig hægt er að nota greiðist-þegar-greitt skilmála fyrir verkefni."
+description: "Þessi grein útskýrir \"greiðist-þegar-greitt\" (PWP, pay-when-paid) skilmála fyrir samninga lánardrottins. Skilmálar fyrir greiðist þegar greitt gera það mögulegt að halda eftir að hluta eða fullu greiðslu til lánardrottins þar til viðskiptavinur verks greiðir þér. Þessi grein veitir einnig raunverulegt dæmi til að sýna hvernig hægt er að nota greiðist-þegar-greitt skilmála fyrir verkefni."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

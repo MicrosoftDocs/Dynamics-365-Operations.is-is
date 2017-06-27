@@ -3,7 +3,7 @@ title: Tilfangageta
 description: "Þessi grein gefur upplýsingar um tilfangagetu. Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Greinin útskýrir hvernig getu og tengdum hugtökum, svo sem Færnistig og forgang, eru notaðar til að velja viðeigandi tilföng fyrir aðgerð."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

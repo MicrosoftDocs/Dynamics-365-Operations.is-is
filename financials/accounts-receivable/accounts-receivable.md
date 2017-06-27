@@ -3,7 +3,7 @@ title: "Viðskiptakröfur – heimasíða"
 description: "Notið „Viðskiptakröfur“ til að rekja reikninga viðskiptavina og greiðslur á innleið."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

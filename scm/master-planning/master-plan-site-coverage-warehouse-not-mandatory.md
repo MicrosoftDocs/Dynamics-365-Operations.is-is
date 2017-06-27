@@ -3,7 +3,7 @@ title: "Aðaláætlanagerð fyrir svæðistryggingu, vöruhús ekki áskilið"
 description: "Þetta efnisatriði lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

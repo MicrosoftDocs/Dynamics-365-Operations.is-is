@@ -3,7 +3,7 @@ title: "Endurmat á erlendum gjaldmiðli fyrir viðskiptakröfur og viðskiptask
 description: "Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

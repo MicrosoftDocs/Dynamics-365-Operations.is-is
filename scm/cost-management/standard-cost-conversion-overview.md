@@ -3,7 +3,7 @@ title: "Yfirlit yfir staðlaðan kostnaðarumreikning"
 description: "Þessi grein veitir yfirlit yfir vinnslu til að aðstoða við að setja upp og keyra umreikning staðalkostnaðar. Skref sem eru skráð er ætlað að vera lokið eftir að forkröfur fyrir umreikning staðalkostnaðar hafa verið uppfylltar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

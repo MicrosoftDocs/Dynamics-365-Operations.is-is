@@ -3,7 +3,7 @@ title: "Innkaupavörulistar"
 description: "Þessi grein lýsir, á hærra stigi, hvernig sérfræðingar í innkaupum geta sett upp og viðhaldið innkaupavörulistum. Innkaupavörulistar skilgreina vörur og þjónustu sem starfsmenn fyrirtækja geta pantað fyrir notkun innan fyrirtækisins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

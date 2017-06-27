@@ -3,7 +3,7 @@ title: "Skilgreining og síun vinnusvæða"
 description: "Þessi þekkingarskrá gefur yfirlit um hvernig á til að skilgreina og sía vinnusvæði."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

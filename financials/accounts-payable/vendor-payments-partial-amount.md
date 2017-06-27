@@ -3,7 +3,7 @@ title: "Greiðslur lánardrottna fyrir hlutaupphæð"
 description: "Stundum þarf að framkvæma greiðslu til lánardrottins sem er minni en upphæð reiknings. Þessi grein lýsir mismunandi valkostum til að meðhöndla þær aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

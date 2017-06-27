@@ -3,7 +3,7 @@ title: "Afskráning eigna, bókunarlykill"
 description: "Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

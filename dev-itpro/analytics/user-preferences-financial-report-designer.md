@@ -3,7 +3,7 @@ title: "Kjörstillingar notanda í hönnunarviðmót fyrir fjárhagsskýrslur"
 description: "Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið. Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

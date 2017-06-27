@@ -3,7 +3,7 @@ title: "Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu"
 description: "Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði í framleiðslulausu umhverfi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

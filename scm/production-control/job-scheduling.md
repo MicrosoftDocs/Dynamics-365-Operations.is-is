@@ -3,7 +3,7 @@ title: "Vinnsluröðun"
 description: "Þessi grein veitir upplýsingar um Vinnsluröðun sem er ítarlegri mynd röðunar en aðgerðaröðun. Hægt er að nota Vinnsluröðun til að raða einstakra vinnsla eða verslunarpöntunum, og til að stjórna framleiðsluumhverfi"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

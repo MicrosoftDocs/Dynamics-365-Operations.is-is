@@ -3,7 +3,7 @@ title: "Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Ve
 description: "Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

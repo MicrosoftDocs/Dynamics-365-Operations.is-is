@@ -3,7 +3,7 @@ title: "Aðallykilgerðir"
 description: "Þessar aðallykilgerðir ákvarða hvernig aðallykill er notaður í bókhaldslyklum."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

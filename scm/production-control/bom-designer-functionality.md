@@ -3,7 +3,7 @@ title: "virkni uppskriftahönnuðar"
 description: "Þessi grein lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

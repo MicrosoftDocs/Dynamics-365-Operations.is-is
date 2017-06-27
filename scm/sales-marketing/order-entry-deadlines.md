@@ -3,7 +3,7 @@ title: "Tímamörk skráningar pantana"
 description: "Þessi grein gefur upplýsingar um lokadag fyrir skráningu pantana. Lokadagur fyrir skráningu pantana er sá lokatími sem sker úr um það hvort pöntun viðskiptavinar er meðhöndluð (og uppfyllt) eins og hún sé móttekin á núverandi degi eða daginn eftir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

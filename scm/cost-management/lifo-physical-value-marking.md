@@ -3,7 +3,7 @@ title: "LIFO (síðast inn - fyrst út) með efnislegu virði og marki"
 description: "Síðast inn, fyrst út (LIFO) er birgðalíkan þar sem síðustu (nýjustu) innhreyfingar eru úthreyfðar fyrst. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

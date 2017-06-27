@@ -3,7 +3,7 @@ title: "Um kostnaðartegundir notaðar í leiðum framleiðslu"
 description: "Þessi skrá veitir upplýsingar um kostnaðartegundirnar sem eiga við um framleiðsluumhverfi sem nota leiðir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

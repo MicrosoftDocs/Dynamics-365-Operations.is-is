@@ -3,7 +3,7 @@ title: "Leita að afurðir og afurðarafbrigði við skráningu pantana"
 description: "Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

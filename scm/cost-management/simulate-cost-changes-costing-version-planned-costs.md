@@ -3,7 +3,7 @@ title: "Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir á�
 description: "Þessi grein útskýrir hvernig er hægt að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri kostnaðarútgáfu fyrir áætlaðan kostnað."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Birtingarstillingar fyrir fartæki vöruhúss"
 description: "Þessi grein lýsir hvernig setja á upp útlit skjás fartækisins og hvernig á að varpa flýtilyklum á stýrieiningar, til dæmis hnappar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

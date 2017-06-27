@@ -3,7 +3,7 @@ title: "Jafna hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með 
 description: "Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

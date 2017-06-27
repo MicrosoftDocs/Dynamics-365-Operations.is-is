@@ -3,7 +3,7 @@ title: "Víddir kostnaðarhluta"
 description: "Þegar greina kostnað, nota víddir kostnaðareiningar til að ákvarða hvert kostnaður streyma í. Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði. Þetta efni inniheldur upplýsingar um víddir kostnaðarhlutar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

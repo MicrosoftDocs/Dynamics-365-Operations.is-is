@@ -3,7 +3,7 @@ title: "Umbúðaefni og gjöld"
 description: "Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Umbúðaefnisgjald er reiknað út og tilkynnt en engar fjárhagsfærslur eru bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

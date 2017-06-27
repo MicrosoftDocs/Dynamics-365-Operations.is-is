@@ -3,7 +3,7 @@ title: "Kreditbréf og innflutningssafn"
 description: "Þessi grein veitir almennar upplýsingar Um kreditbréf og innflutningssafn. Báðar tegundir bankaskjala eru oft notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

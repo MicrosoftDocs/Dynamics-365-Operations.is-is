@@ -3,7 +3,7 @@ title: "Úthlutun tíma á vinnslur í vinnslubúnti"
 description: "Í Framkvæmd framleiðslu er hægt að sameina vinnslur. Þá er hægt að hefja margar vinnslur á sama tíma á listasíðunni Vinnslur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

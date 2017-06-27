@@ -3,7 +3,7 @@ title: "Rakning á vörum og hráefni í birgðum, framleiðslu og sölu"
 description: "Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

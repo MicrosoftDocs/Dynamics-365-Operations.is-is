@@ -3,7 +3,7 @@ title: "Skilgreina skilyrta ákvörðun í verkflæði"
 description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

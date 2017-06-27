@@ -3,7 +3,7 @@ title: "Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum
 description: "Þessi grein fer með þig í gegnum aðstæður þar sem kreditreikningur er jafnaður gagnvart reikningi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

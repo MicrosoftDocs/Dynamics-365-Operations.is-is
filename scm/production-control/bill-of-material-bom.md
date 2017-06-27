@@ -3,7 +3,7 @@ title: "Uppskriftir og formúlur"
 description: "Þessi grein veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

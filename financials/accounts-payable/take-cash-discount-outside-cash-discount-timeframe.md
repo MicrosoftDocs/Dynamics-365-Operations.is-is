@@ -3,7 +3,7 @@ title: "Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar"
 description: "Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

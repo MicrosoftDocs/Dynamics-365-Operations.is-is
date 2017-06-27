@@ -3,7 +3,7 @@ title: "Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem n�
 description: "Þessi grein sýnir hvernig margir reikningar eru greiddir þegar hver reikningur getur veitt staðgreiðsluafslátt. Dæmin sem gefin eru í greininni varpa ljósi á hvernig staðgreiðsluafsláttur getur verið mismunandi, með hliðsjón af því hvenær greiðslan er gerð."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Gæðastjórnunarferli"
 description: "Þessi grein gefur upplýsingar gæðastjórnunarferli fyrir ósamkvæmar afurðir. Það lýsir því hvernig hægt er að nota aðgerðir gæðaeftirlits, hvernig skuli skilgreina og vinna með ósamkvæmni og hvernig skuli meðhöndla leiðréttingar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

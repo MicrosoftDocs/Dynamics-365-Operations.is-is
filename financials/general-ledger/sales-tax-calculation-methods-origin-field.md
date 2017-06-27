@@ -3,7 +3,7 @@ title: "Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni"
 description: "Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

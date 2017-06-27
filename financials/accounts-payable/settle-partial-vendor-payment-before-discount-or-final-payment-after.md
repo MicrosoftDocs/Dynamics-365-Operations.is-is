@@ -3,7 +3,7 @@ title: "Jafna hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með l
 description: "Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

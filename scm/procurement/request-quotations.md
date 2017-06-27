@@ -3,7 +3,7 @@ title: "Beiðnir um tilboð (BUT)"
 description: "Þessi grein veitir yfirlit yfir tilboðsbeiðnir (BUT) sem fyrirtæki gefa út þegar þau þurfa að kaupa vöru eða þjónustu og vilja fá samkeppnishæf tilboð frá mörgum lánardrottnum. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint. Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi gjöld eru, eins og sendingarkostnaður, eða hvort lánardrottinn býður upp á afslátt fyrir stórar pantanir eða flýtigreiðslu reiknings lánardrottins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Birgðalokun"
 description: "Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfærslur, er einnig hægt að velja að láta uppfæra fjárhag til að endurspegla leiðréttingarnar sem hafa verið gerðar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

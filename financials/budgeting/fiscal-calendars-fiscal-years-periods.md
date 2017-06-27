@@ -3,7 +3,7 @@ title: "Fjárhagsdagatal, fjárhagsár og tímabil"
 description: "Þessi grein fjallar um fjárhagsdagatöl, reikningsár og tímabil og hvernig á að nýta þau fyrir lögaðila, eignir og fjárhagsáætlanir."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

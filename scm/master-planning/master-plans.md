@@ -3,7 +3,7 @@ title: "Áætlanir"
 description: "Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu á fót, hvað varðar t.d. innri afköst eða ánægju viðskiptavina."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
