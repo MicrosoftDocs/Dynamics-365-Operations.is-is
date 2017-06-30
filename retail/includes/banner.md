@@ -1,3 +1,2 @@
 > [!IMPORTANT]
-> Velkomin(n) í fylgiskjöl fyrir Microsoft Dynamics 365 for Operations á docs.microsoft.com. Við erum að flytja efnið okkar hingað af Wiki-hjálparsíðu Dynamics 365 for Operations. 
-
+> Þetta efnisatriði á við um Dynamics 365 for Retail (forútgáfa), Dynamics 365 for Finance and Operations, Enterprise Edition og Dynamics 365 for Operations.

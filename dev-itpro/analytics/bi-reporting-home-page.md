@@ -1,15 +1,15 @@
 ---
 title: "Viðskiptagreind og skýrslugerð – heimasíða"
-description: "Þetta efnisatriði sýnir tilföng fyrir „Viðskiptagreind og skýrslugerð“ sem eru tiltæk í Microsoft Dynamics 365 for Operations."
+description: "Þetta efnisatriði sýnir &amp; tilföng fyrir Viðskiptagreind og skýrslugerð sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,20 +17,20 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>Viðskiptagreind og skýrslugerð – heimasíða
+# <a name="bi-amp-reporting-home-page"></a>Viðskiptagreind &amp; og skýrslugerð – heimasíða
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði sýnir tilföng fyrir „Viðskiptagreind og skýrslugerð“ sem eru tiltæk í Microsoft Dynamics 365 for Operations. 
+Þetta efnisatriði sýnir &amp; tilföng fyrir Viðskiptagreind og skýrslugerð sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Unnið með samantektargögn
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>Skýrslugerð sjálfsafgreiðslu
 -   [Power BI-samþætting](power-bi-integration.md)
 -   [Power BI-samþætting fyrir vinnusvæði skilgreind](configure-power-bi-integration.md)
--   [Stofna Power BI-skýrslu með gögnum úr Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [Stofna Power BI-skýrslu með gögnum úr Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [Stofna Power BI-skýrslu og -yfirlit](create-powerbi-report-dashboard.md)
 -   [Power BI-efni fyrir frammistöðu smásölurásar](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Power BI-efni fyrir fjárhagslega frammistöðu](financial-performance-power-bi-content-pack.md)
 -   [Power BI-efni fyrir söluframmistöðu og arðsemi](sales-profitability-performance-content-pack.md)
--   [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Reynsla af greiningu felld inn í biðlara Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Reynsla af greiningu felld inn í biðlara Finance and Operations
 -   [Innfelld viðskiptagreind](analytics.md#embedded-business-intelligence)
 -   [KPI-líkanagerð og sérstilling](analytics.md#kpi-modeling-and-customization)
 -   [Viðskiptagreind bætt við vinnusvæði](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>Skjalaskýrslugerð og prentun
 -   [Document Reporting Services – yfirlit](document-reporting-services.md)
--   [Prentun í forritum Dynamics 365 for Operations](print-documents.md)
+-   [Prentun í forritum fyrir Finance and Operations](print-documents.md)
 -   [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentara](install-document-routing-agent.md)
 -   [Keyra eftirlitsbúnað skjalasendingar sem þjónustu Windows](run-document-routing-agent-as-windows-service.md)
 -   [Skýrslulausnir næstu kynslóðar búnar til](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 -   [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 -   [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (verkleiðbeiningar)
 -   [Sérstakt gagnalíkan í hönnunarléni rafrænnar skýrslugerðar](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (verkleiðbeiningar)
 -   [Skilgreina líkanavörpun og velja gagnaveitur í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (verkleiðbeiningar)
