@@ -1,12 +1,12 @@
 ---
-title: "Mannauður"
-description: "Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
+title: Microsoft Dynamics 365 for Talent
+description: "Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Velkomin(n) í mannauðsstjórnun
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Velkomin(n) í Microsoft Dynamics 365 for Talent
 
 [!include[banner](includes/banner.md)]
 
-Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
+Microsoft Dynamics 365 for Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun. Talent veitir einnig umgjörð um þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.
 
-Hægt er að nota „Mannauður“ til að ljúka þessum verkum:
+Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations, Enterprise Edition. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations, Enterprise Edition í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+
+Hægt er að nota Talent til að ljúka þessum verkum:
 
 > + Stjórnun skipulagseininga fyrirtækis.
 > + Viðhald ítarlegra upplýsinga um starfskrafta frá ráðningu til starfsloka.
@@ -42,25 +44,19 @@ Hægt er að nota „Mannauður“ til að ljúka þessum verkum:
 > + Stjórnun hæfni starfskrafta.
 > + Frammistöðumat og innleiðing markmiða fyrir starfskrafta.
 > + Uppsetning, afhending og greining þjálfunarnámskeiða sem innihalda dagskrá, lotur og námsleiðir.
-> + Ráðningar starfskrafta og rakning umsækjenda.
 
-<a name="develop-a-human-resources-strategy"></a>Þróun mannauðsáætlunar
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>Þróun mannauðsáætlunar
 ---------------------------------------------------------
 
-Þegar unnið er með „Mannauður“ þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf í mannauðsstjórnuninni. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
+Þegar unnið er með Talent þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
 
 -   [Vinnuafl skipulagt með notkun deilda, starfa og staða](departments-jobs-positions.md)
 -   [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](set-up-company-specific-hr-parameters.md)
 -   [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Ráðning og umbun starfsmanna
+## <a name="retain-and-motivate-employees"></a>Halda í og hvetja starfsmenn
 
-Ráðningarverk stýra því hvað birtist í auglýsingum um opnar stöður og koma að gagni við meðhöndlun umsókna um störf. Hægt er að nota þau til að rekja viðbrögð við auglýstum störfum fyrir tiltekið ráðningarverk eða tiltekna umsækjendur og uppfæra stöðu auglýstra starfa. Einnig er hægt að ráða einn umsækjanda eða stjórna fjöldaráðningarverkum sem fela í sér ráðningu fjölda starfskrafta, t.d. til að anna árstíðabundnum þörfum.
-
--   [Stjórnun ráðningarferlis](manage-recruiting-process.md)
--   [Fjöldaráðningarverk](mass-hire-projects.md) 
-
-Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
+Hægt er að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
 
 -   [Launafyrirkomulag](compensation-plans.md)
 -   [Launafyrirkomulag fastra launa stofnað](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fr�
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
-Microsoft Dynamics AX býður upp á stuðning við viðhald öruggs vinnuumhverfis sem uppfyllir gildandi lög, þar á meðal bandarísk lög um ríkisborgara sem eiga við fötlun að stríða (e. Americans with Disabilities) og lög um innflytjendur og veitingu ríkisborgararéttar, svo fátt eitt sé nefnt. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
+Talent getur hjálpað þér að viðhalda öruggu vinnuumhverfi sem uppfyllir gildandi lög, þar á meðal bandarísk lög um ríkisborgara sem eiga við fötlun að stríða (e. Americans with Disabilities) og lög um innflytjendur og veitingu ríkisborgararéttar, svo fátt eitt sé nefnt. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
 
--   [Staðfesting starfs með I-9 eyðublaði](localizations/noam-usa-form-i-9-verification.md)
--   [Eftirfylgni við lögin „Americans with Disabilities“](localizations/noam-usa-comply-ada.md)
+-   [Staðfesting starfs með I-9 eyðublaði](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Eftirfylgni við lögin „Americans with Disabilities“](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Upplýsingasöfnun með notkun spurningalista
 
@@ -97,7 +93,4 @@ Hægt er að hanna og úthluta spurningalistum til að safna upplýsingum sem n�
 -   [Hönnun spurningalista](design-questionnaires.md)
 -   [Dreifing og útfylling spurningalista](distribute-questionnaires.md)
 -   [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
-
-
-
 
