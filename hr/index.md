@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: is-is
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun. Talent veitir einnig umgjörð um þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.
 
-Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations, Enterprise Edition. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations, Enterprise Edition í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
-
 Hægt er að nota Talent til að ljúka þessum verkum:
 
-> + Stjórnun skipulagseininga fyrirtækis.
-> + Viðhald ítarlegra upplýsinga um starfskrafta frá ráðningu til starfsloka.
-> + Skilgreining og stjórnun fríðindaáætlana, skráning starfskrafta, úthlutun trygginga skjólstæðinga og tilnefning viðtakenda.
-> + Uppsetning og eftirlit með fjarvistarreglum.
-> + Innleiðing og rakning tímastjórnunar á grunni forstillingar og vinnsla launaupplýsinga fyrir útflutning í launakerfi.
-> + Stjórnun hæfni starfskrafta.
-> + Frammistöðumat og innleiðing markmiða fyrir starfskrafta.
-> + Uppsetning, afhending og greining þjálfunarnámskeiða sem innihalda dagskrá, lotur og námsleiðir.
++ Stjórnun skipulagseininga fyrirtækis.
++ Viðhald ítarlegra upplýsinga um starfskrafta frá ráðningu til starfsloka.
++ Skilgreining og stjórnun fríðindaáætlana, skráning starfskrafta, úthlutun trygginga skjólstæðinga og tilnefning viðtakenda.
++ Uppsetning og eftirlit með fjarvistarreglum.
++ Innleiðing og rakning tímastjórnunar á grunni forstillingar og vinnsla launaupplýsinga fyrir útflutning í launakerfi.
++ Stjórnun hæfni starfskrafta.
++ Frammistöðumat og innleiðing markmiða fyrir starfskrafta.
++ Uppsetning, afhending og greining þjálfunarnámskeiða sem innihalda dagskrá, lotur og námsleiðir.
+
+> [!NOTE] 
+> Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations, Enterprise Edition. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations, Enterprise Edition í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Þróun mannauðsáætlunar
 ---------------------------------------------------------

@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
-ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
+ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
+ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
 ms.contentlocale: is-is
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/28/2017
 
 
 ---
@@ -41,21 +41,21 @@ Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft 
 <tbody>
 <tr class="odd">
 <td><h3>Financials</h3>
-<p>Samræmi</p>
+<p><a href="../financials/general-ledger/audit-policy-rules">Samræmi</a></p>
 <p>Fjármálastjórnun</p>
-<ul><li><a href="../financials/accounts-payable/accounts-payable">Viðskiptaskuldir</a></li>
+<ul style="list-style-type:none">
+<li><a href="../financials/accounts-payable/accounts-payable">Viðskiptaskuldir</a></li>
 <li><a href="../financials/accounts-receivable/accounts-receivable">Viðskiptakröfur</a></li>
 <li><a href="../financials/budgeting/budgeting-overview">Fjárhagsáætlun</a></li>
 <li><a href="../financials/cash-bank-management/cash-bank-management">Reiðufjár- og bankastjórnun</a></li>
 <li><a href="../financials/cost-accounting/cost-accounting-home-page">Kostnaðarbókhald</a></li>
 <li><a href="../financials/fixed-assets/fixed-assets">Eignir</a></li>
 <li><a href="../financials/general-ledger/general-ledger">Fjárhagur</a></li>
-
 <li><a href="../financials/public-sector/public-sector-functionality">Hið opinbera</a></li>
 <li><a href="../dev-itpro/lcs-solutions/country-region">Svæðisbundnir eftirlitseiginleikar</a></li></ul>
 <p><a href="../financials/project-management/overview-project-management-accounting">Verkefnastjórnun</a></p>
 <H3>Mannauður</h3>
-  <ul>
+  <ul style="list-style-type:none">
 <li><a href="hr/manage-recruiting-process">Ráðningar</a></li>
 <li><a href="hr/localizations/noam-usa-payroll">Bandarísk laun</a></li>
 </ul>
@@ -63,19 +63,19 @@ Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft 
 <p><a href="../supply-chain/cost-management/costing-sheets">Kostnaðarstjórnun</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Birgðastjórnun</a></p>
 <p>Vörustjórnun</p>
-<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Flutningsstjórnun</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Vöruhúsakerfi</a></li></ul></li>
+<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Flutningsstjórnun</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Vöruhúsakerfi</a></li></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Áætlanagerð</a></p>
   <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Afurðaupplýsingastjórnun</a></p>
   <p><a href="../supply-chain/production-control/create-production-orders">Framleiðslustýring</a></p>
 <p>Pantanastjórnun</p>
-  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Innkaup og aðföng</a></li>
+  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Innkaup og aðföng</a></li>
   <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Sala og markaðsstarf</a></li></ul>
 </td>
 <td>
 <h3>Verkvangur fyrir Unified Operations</h3>
 <p>Upplýsingar</p>
-<ul><li><a href="../dev-itpro/analytics/analytics">Greiningar</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Greiningar</a></li>
  <li><a href="../dev-itpro/analytics/document-reporting-services">Viðskiptaskjöl</a></li>
 <li><a href="../dev-itpro/analytics/financial-reporting-intro">Fjárhagsskýrslugerð</a></li>
 <li><a href="../dev-itpro/analytics/general-electronic-reporting">Lögbundin skýrslugjöf</a></li></ul>
@@ -83,33 +83,34 @@ Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft 
 <p><a href="../dev-itpro/mobile-apps/mobile-platform">Fartækjaverkvangur</a></p>
 
  <p>Virkni þróunaraðila</p>
-<ul>
-<li><a href="../dev-itpro/continuous-delivery-home-page">Samfelld afhending</a></li>
+<ul style="list-style-type:none">
+<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Samfelld afhending</a></li>
 <li><a href="../dev-itpro/get-started/demo-data">Sýnigögn</a></li>
 <li><a href="../dev-itpro/dev-tools/developer-home-page">Forritunarverkfæri</a></li>
 <li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Stækkunarhæfni</a></li>
 <li><p>Samþætting</p>
-<ul><li><a href="../dev-itpro/data-entities/data-entities">Gagnaeiningar</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Gagnaeiningar</a></li>
 <li><a href="../dev-itpro/office-integration/office-integration">Office-samþætting</a></li></ul></li></ul>
 
 <p>Virkni stjórnanda<p>
-<ul>
-<li><a href="../get-started/onboarding-home">Innleiðing í fyrirtæki</a></li>
-<li><a href="../dev-itpro/deploy-demo-environment">Uppsetning og þjónusta</a></li>
+<ul style="list-style-type:none">
+<li><a href="../fin-and-ops/get-started/onboarding-home">Innleiðing í fyrirtæki</a></li>
+<li><a href="../dev-itpro/deployment/deploy-demo-environment">Uppsetning og þjónusta</a></li>
 <li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Uppfærsla</a></li>
 <li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Gagnastjórnun</a></li>
 <li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
 <li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Fyrirtækisstjórnun</a></li>
 <li><a href="../dev-itpro/sysadmin/system-administration-home-page">Kerfisstjórnun</a></li>
-<ul>
+</ul>
 </td>
 <td>
-<h3>Dynamics 365 for Talent</h3>
+<h3>Tengdar afurðir</h3>
+<h4>Dynamics 365 for Talent</h4>
 <p><a href="../talent/manage-benefit-program">Fríðindi</a></p>
 <p><a href="../talent/performance-management-overview">Þróun og þjálfun starfsmanns</a></p>
 <p><a href="../talent/questionnaires">Spurningalisti</a></p>
 
-<h3>Dynamics 365 for Retail</h3>
+<h4>Dynamics 365 for Retail</h4>
 <p><a href="../retail/call-center-functionality">Símaver</p>
 <p><a href="../retail/define-maintain-retail-channels">Uppsetning og stjórnun rásar</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS og sölukerfi í skýinu</p>
