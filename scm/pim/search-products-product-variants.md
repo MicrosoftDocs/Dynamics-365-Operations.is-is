@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum.
 
