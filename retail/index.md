@@ -80,7 +80,7 @@ Retail gerir verslunarstjórum kleift að stofna og birta vaktir og áætlanir f
 
 Samstarfsaðilar verslunarinnar fá innsýn í vaktir og úthlutaðar áætlanir, auk leiðbeininga fyrir vaktir, og auknar upplýsingar um þá samstarfsmenn sem hefur verið úthlutað vöktum. Þeir geta einnig sent inn fjarvistabeiðnir. beiðnir um vaktaskipti við samstarfsmenn og beiðnir um vaktatilboð.
 
-## <a name="customize-and-administer-retail-environments"></a>Sérstilling og stjórnun smásöluumhverfis
+## <a name="customize-and-administer-retail-environments"></a>Sérstilling og stjórnun Retail-umhverfis
 Fyrir sérstillingu umhverfis eða innleiðingu og viðhald kerfis er ráðlegt að lesa sérstakt efni um Retail fyrir þróunaraðila og kerfisstjóra, auk almennara efnis.
 
 - [Dynamics 365 for Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](dev-itpro/dev-retail-home-page.md)

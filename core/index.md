@@ -114,7 +114,7 @@ Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft 
 <p><a href="../retail/call-center-functionality">Símaver</p>
 <p><a href="../retail/define-maintain-retail-channels">Uppsetning og stjórnun rásar</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS og sölukerfi í skýinu</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Hönnunaraðili og stjórnun smásölu</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retail-hönnuður og stjórnun</p>
 
 </td>
 </tr>
