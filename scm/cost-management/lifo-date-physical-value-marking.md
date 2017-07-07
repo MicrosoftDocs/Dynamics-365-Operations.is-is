@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO dagsetning með efnislegt virði og merkingu
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Síðast inn, Fyrst út  dagsetning (lifo-Dagsetning) er birgðalíkan sem byggist á lifo-grunnreglu. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. Hafi ekkert verið móttekið fyrir úthreyfinguna jafnast hún, sé notuð LIFO-dagsetning, við innhreyfingar sem kunna að verða eftir úthreyfingardagsetninguna. Fleiri en eina úthreyfingu innan sama dags má jafna í þeirri röð að sú síðasta jafnist við síðustu innhreyfingu. 

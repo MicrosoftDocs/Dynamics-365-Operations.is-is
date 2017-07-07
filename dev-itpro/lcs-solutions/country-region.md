@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: is-is
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,6 +53,9 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 -   [Samskipti tengd reglueftirliti og uppfærslum á reglum](regulatory-watch-communication.md)
 -   [Tilkynningar til Microsoft um lögboðnar viðvaranir lands/svæðis og rakning á stöðu eftirlitseiginleika](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Dynamics 365 Roadmap
+[Dynamics 365 Roadmap](https://roadmap.dynamics.com/) sýnir hverju verið er að vinna að á skyndimynd. Nota skal þennan leiðarvísi til að finna hvað er í boði og hvað er í þróun. Allir eiginleikar og dagsetningar efnis í þróun eru byggðar á áætlunum og gætu breyst án fyrirvara.
+
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
 -   [Yfirlit yfir rafræna skýrslugerð](../analytics/general-electronic-reporting.md)
@@ -62,10 +64,12 @@ Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir ra
 -   [Listi yfir virkni rafrænnar skýrslugerðar lengdur](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Viðtökustaðir rafrænnar skýrslugerðar](../analytics/electronic-reporting-destinations.md)
 -   [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Innflutningur skilgreininga rafrænnar skýrslugerðar](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri](../analytics/generate-electronic-documents-update-application-data.md)
 
-## <a name="task-guides"></a>Verkefnaleiðbeiningar
-Verkefnaleiðbeiningar eru aðgengilegar á hjálparsvæði vörunnar og veita leiðbeiningar um helstu viðskiptaferli. Hægt er að opna verkefnaleiðbeiningar til að lesa um skrefin í viðskiptaferli eða spila myndband þar sem farið er í gegnum viðskiptaferli og upplýsingar færðar inn.
+## <a name="task-guides"></a>Verkleiðbeiningar
+Verkleiðbeiningar eru aðgengilegar á hjálparsvæði vörunnar og veita leiðbeiningar um helstu viðskiptaferli. Hægt er að opna verkefnaleiðbeiningar til að lesa um skrefin í viðskiptaferli eða spila myndband þar sem farið er í gegnum viðskiptaferli og upplýsingar færðar inn.
 
 Farið er á síðu í Microsoft Dynamics 365 for Finance and Operations og smellt á „Hjálp“ til að finna verkefnaleiðbeiningar. Verkefnaleiðbeiningar sem nota síðuna eru tilgreindar á hjálparsvæðinu. Einnig er hægt að nota hjálparsvæðið til að leita að verkefnaleiðbeiningum eftir titli.
 
@@ -83,9 +87,10 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 
 ### <a name="austria"></a>Austurríki
 
--   [Hálfsársafskriftir](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Umbúðaefnisgjöld](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [VSK-yfirlit](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Hálfsársafskriftir](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Umbúðaefnisgjöld](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Innkaupagjöld](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [VSK-yfirlit](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belgía
 
@@ -130,7 +135,6 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Hálfs árs afskrift eignalosunar fyrir Tékkland](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Frestun afskriftar (frídagar)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Afskriftaraðferðir eigna fyrir Tékkland](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [Bókun forkaupa á eign](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [VSK-yfirlit fyrir Tékkland](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Virðisaukaskattskýrsla ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Afskráning eigna](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Evrópa
--   [Handhafar fyrirframgreiðslu](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Reikningskennum á sölupöntunum breytt](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [Færsluvottorð ESB](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [Skýrslugerð vegna ESB-sölulista](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Gengisleiðrétting](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Skráarsnið fyrir greiðslumáta](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Afskráning eigna fyrir Eistland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Tölusetning reikninga og fylgiseðla fyrir Lettland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Lokadagsetningar reikningsútgáfu](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL-staðlar](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Greiðsluseðilsskýrsla](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Kassasjóður](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [Bókun forkaupa á eign](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Póstnúmer](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Skráningarkenni](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [SEPA-millifærsluyfirlit](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Skipting tímabila í tímabilsbókum](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [VSK-gengi](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [VSK-skýrsla fyrir Evrópu](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Skoðun færslna á uppgjöri](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Handhafar fyrirframgreiðslu](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Færslur handhafa fyrirframgreiðslu](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Ítarlegri reikningsfærsla](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Bankaafstemming](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Leiðréttandi reikningar](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Stofna og bóka tímabilsbækur](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Reikningskennum á sölupöntunum breytt](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [Færsluvottorð ESB](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [Skýrslugerð vegna ESB-sölulista](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Gengisleiðrétting](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Skráarsnið fyrir greiðslumáta](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Afskráning eigna fyrir Eistland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Skýrslur birgðabókar](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Tölusetning reikninga og fylgiseðla fyrir Lettland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Lokadagsetningar reikningsútgáfu](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL-staðlar](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Greiðsluseðilsskýrsla](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Kassasjóður](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [Bókun forkaupa á eign](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Póstnúmer](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Skráningarkenni](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [SEPA-millifærsluyfirlit](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Uppsetning greiðslna til viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Skattareglur](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [VSK-gengi](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [Færslur í VSK-skrá fyrir Austur-Evrópu](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [VSK-skýrslur](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Skoðun færslna á uppgjöri](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Frakkland
 -   [Númeraröð reikninga og fylgiskjala](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 #### <a name="public-sector"></a>Opinber geiri
    -   [Ráðstafanir hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Greiðslubeiðni hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [Innkaup og aðföng](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [Bókhald hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Reikningur](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Varðveisla greiðslu á reikningi lánardrottins](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Staðfesting dagsetningar fylgiseðils á reikningum fyrir Ítalíu](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Ítalskar VSK-bækur](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Skipting greiðslu fyrir reikninga sem sendir eru til hins opinbera](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Staðgreiðsluskattur](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Staðgreiðsluskattur](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Japan
 
--   [Bankagreiðsluþóknun sem greidd er af lánardrottnum](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Samstæðureikningar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Eignir
-   -  [Úthlutunarreglur eigna](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Afskriftaraðferð með jafnri skiptingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Afskriftir eigna](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Stjórnun virðisrýrnunar eignar á fjárskapandi einingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Uppsetning skuldbindingar vegna losunar eignar fyrir eignir](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Uppsetning lækkunarfærslna fyrir eignir](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Lánardrottni greitt með framsali víxils](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Samfelldur útreikningur staðgreiðsluskatts](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Bankagreiðsluþóknun sem greidd er af lánardrottnum](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Samstæðureikningar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Úthlutunarreglur eigna](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Afskriftaraðferð með jafnri skiptingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Afskriftir eigna](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Stjórnun virðisrýrnunar eignar á fjárskapandi einingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Innflutningur póstnúmera](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Uppsetning skuldbindingar vegna losunar eignar fyrir eignir](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Uppsetning lækkunarfærslna fyrir eignir](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Lánardrottni greitt með framsali víxils](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Samfelldur útreikningur staðgreiðsluskatts](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Lettland
 
@@ -254,6 +267,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 ### <a name="norway"></a>Noregur
 
 -   [Nets-innflutningssnið](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [VSK-yfirlit](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Pólland
 
@@ -291,6 +305,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 ### <a name="sweden"></a>Svíþjóð
 
 -   [Innflutningsgreiðslusnið fyrir Svíþjóð](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Afgreiðslukassar fyrir Svíþjóð](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>Sviss
 

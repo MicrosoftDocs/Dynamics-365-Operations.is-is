@@ -3,23 +3,38 @@
 ## [Hafist handa](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Áskrift](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-### [Hvernig á að sækja Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Hvernig á að sækja staðbundna útgáfu Finance and Operations](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Upplýsingar fyrir viðskiptavini sem hafa keypt Finance and Operations gegnum skýjaþjónustuveitu](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Uppsetning sýniútgáfuumhverfis](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Úreltir eiginleikar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [AX 2012-eiginleikar sem eru enn ekki innleiddir](/dynamics365/unified-operations//dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Finance and Operations, Enterprise-útgáfa, uppfærsla, júlí 2017](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 8 (júní 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 7 (maí 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 6 (apríl 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 5 (mars 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 4 (febrúar 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Operations-útgáfa 1611 (nóvember 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 3 (nóvember 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 2 (ágúst 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
+#### [Dynamics AX útgáfa 7.0.1 (maí 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkvangsuppfærsla 1 (maí 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Dynamics AX 7.0 (febrúar 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Úreltir eiginleikar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [AX 2012-eiginleikar sem eru enn ekki innleiddir](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Lifecycle-stefna](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Notandaviðmót skoðað
+#### [Algengar spurningar um notandaviðmót biðlara](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Aðgerðaleit](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Ítarleg sía og málskipan fyrirspurna](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Algengar spurningar um Dynamics 365 for Finance and Operations, Enterprise-biðlara](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skilgreining og síun vinnusvæða](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Síður birtar hlið við hlið með tákni fyrir opnun í nýjum glugga](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Flettingaleit](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Sérsniðin notkun](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Flýtilyklar](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Birtingastjórnun síða](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Flettingaleit](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Sérsniðin notkun](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Nota leit til að finna upplýsingar](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Kynning á Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Hjálp og þjónusta
@@ -28,11 +43,15 @@
 #### [Skoðun og útflutningur svæðalýsinga](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Verkefnaleiðbeiningar og verkskráning
 ##### [Verkskráning](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Skráning eða þjálfun búin til](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Hjálparefni fyrir land/svæði](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Skráning eða þjálfun búin til](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Verkefnaleiðbeiningar fyrir nóvember 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Verkefnaleiðbeiningar fyrir ágúst 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Verkefnaleiðbeiningar fyrir maí 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Verkefnaleiðbeiningar fyrir febrúar 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Staðfærslu- og eftirlitseiginleikar](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Orðalisti](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-## Reglufylgni
+## Samræmi
 ### [Reglur endurskoðunarstefnu](/dynamics365/unified-operations/financials/general-ledger/audit-policy-rules?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Brot á endurskoðunarstefnu og mál því tengd](/dynamics365/unified-operations/financials/general-ledger/audit-policy-violations-cases?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -40,50 +59,50 @@
 ### Power BI-efnispakki
 #### [Kostnaðarstjórnunar-efnispakki](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Fyrirframákveðinn kostnaður
-#### [Kostnaðarskjal](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðarútgáfa](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Hermt eftir kostnaðarbreytingum með kostnaðarútgáfu fyrir áætlaðan kostnað](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarskjal](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarútgáfa](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Hermt eftir kostnaðarbreytingum með kostnaðarútgáfu fyrir áætlaðan kostnað](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Birgðakostnaður
-#### [Leiðrétting kostnaðarvirðis lagerbirgða](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðarhlutur](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðarfærsla](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðarflokkur](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Efnislegt virði tekið með](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Virði birgðahlutar](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Birgðalokun](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Hlaupandi meðaltal](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Efnisleg og fjárhagsleg uppfærsla](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Keyrsla á meðalkostnaðarverði](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Dagsetning vegins meðaltals](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Vegið meðaltal með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Leiðrétting kostnaðarvirðis lagerbirgða](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarhlutur](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarfærsla](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarflokkur](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Efnislegt virði tekið með](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Virði birgðahlutar](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Birgðalokun](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Hlaupandi meðaltal](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Efnisleg og fjárhagsleg uppfærsla](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Keyrsla á meðalkostnaðarverði](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Dagsetning vegins meðaltals](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Vegið meðaltal með efnislegt virði og merkingu](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Framleiðslukostnaður
-#### [Afskrifa fastan kostnað fyrir framleidda vöru](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Bakfærslukostnaðaraðferð](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Útreikningur uppskrifta](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Flokkur uppskriftarútreiknings](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Algengur uppruni framleiðslufrávika](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðartegund notuð í framleiðslubeiningu](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðartegund notuð í framleiðslustýringu og verkefnastjórnunarbókhaldi](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Birta gjöld fyrir framleidda vöru](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðargreining framleiðslupöntunar](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kostnaðarmat framleiðslupöntunar](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Framleiðslubókun](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Uppsetning afurðar sem hægt er að framleiða eða kaupa](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Úthlutunaraðferð heildarkostnaðar](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Afskrifa fastan kostnað fyrir framleidda vöru](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Bakfærslukostnaðaraðferð](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Útreikningur uppskrifta](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Flokkur uppskriftarútreiknings](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Algengur uppruni framleiðslufrávika](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðartegund notuð í framleiðslubeiningu](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðartegund notuð í framleiðslustýringu og verkefnastjórnunarbókhaldi](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Birta gjöld fyrir framleidda vöru](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðargreining framleiðslupöntunar](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Kostnaðarmat framleiðslupöntunar](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Framleiðslubókun](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppsetning afurðar sem hægt er að framleiða eða kaupa](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Úthlutunaraðferð heildarkostnaðar](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Staðalkostnaður
-#### [Útreikningur uppskrifta með staðalkostnaði](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Stjórnun uppfærslu staðalkostnaðar](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilyrði fyrir umreikningi staðalkostnaðar](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Yfirlit yfir umreikning staðalkostnaðar](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Uppfærsla staðalkostnaðar í framleiðsluumhverfi](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Uppfærsla staðalkostnaður fyrir nýja framleidda vöru](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Uppfærsla staðalkostnaðar í umhverfi sem er ekki fyrir framleiðslu](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Útreikningur uppskrifta með staðalkostnaði](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Stjórnun uppfærslu staðalkostnaðar](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilyrði fyrir umreikningi staðalkostnaðar](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Yfirlit yfir umreikning staðalkostnaðar](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppfærsla staðalkostnaðar í framleiðsluumhverfi](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppfærsla staðalkostnaður fyrir nýja framleidda vöru](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppfærsla staðalkostnaðar í umhverfi sem er ekki fyrir framleiðslu](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-## [Fjármálastjórnun](/dynamics365/unified-operations/financials/TOC)
+## Fjármálastjórnun
 
 ### [Fjárhagur](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Lyklar
@@ -124,6 +143,10 @@
 ##### [VSK-greiðslur og sléttunarreglur](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Útreikningsaðferðir VSK í upprunareitnum](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### Útgjaldastýring
+##### [Áætla útgjaldastýringu](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Færibreytur útgjaldastýringar](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Fartækjavinnusvæði útgjaldastýringar](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### [Viðskiptaskuldir](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Yfirlit yfir reikninga lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -140,14 +163,14 @@
 #### [Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Reikningssamþykktir í fartækjum](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Sjálfvirkni reikninga lánardrottins](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
+#### [Sjálfvirkni reikninga lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 #### Greiðslur og uppgjör
 ##### [Miðstýrðar greiðslur fyrir viðskiptaskuldir](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skilgreining uppgjörs](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Vinnusvæði greiðslna lánardrottna](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Vinnusvæði greiðslna lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Stofnun greiðslna lánardrottins með greiðslutillögu](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Bakfærsla greiðslu lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Rafræn skýrslugerð fyrir ávísanir lánardrottins](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Rafræn skýrslugerð fyrir ávísanir lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppgjör hlutagreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -166,6 +189,7 @@
 #### [Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Bókunarreglur viðskiptavina](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppsetning kreditkorts, heimild og úthlutun](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Leiðrétting reikninga með frjálsum texta](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppsetning vaxta fyrir vaxtakóða](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -177,7 +201,7 @@
 #### Greiðslur og uppgjör
 ##### [Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Miðstýrðar greiðslur fyrir viðskiptakröfur](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Uppgjör hlutagreiðsla viðskiptavinar eða lokagreiðslu fyrir aflsátt](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
+##### [Uppgjör hlutagreiðsla viðskiptavinar eða lokagreiðslu fyrir aflsátt](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 ##### [Uppgjör hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppgjör hlutagreiðslu viðskiptavinar sem er með afslætti á kreditnótum](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppgjör hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -185,9 +209,10 @@
 ##### [Greiðslur viðskiptavinar fyrir hlutaupphæð](/dynamics365/unified-operations/financials/accounts-receivable/customer-payments-partial-amount?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### [Reiðufjár- og bankastjórnun](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Sjóðstreymisspár](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Vinnusvæði bankakerfis](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Staðgreiðsluafslættir](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Sjóðstreymisspá](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Vinnusvæði bankakerfis](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Staðgreiðsluafslættir](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Staðgreiðsluafslættir vegna ofgreiðslu](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppgjörsyfirlit](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppgjörsyfirlit fyrir miðstýrðar greiðslur](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Bankaábyrgðir](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -210,7 +235,7 @@
 ##### [Uppfærsla samsettrar einingar bankafærslubókar](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### [Eignir](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Vinnusvæði eigna](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Vinnusvæði eigna](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Yfirlit yfir uppfærslu afskriftarbókar](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Afleiddar bækur](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Sameining virðislíkana eigna og afskriftarbókar](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -256,15 +281,15 @@
 #### [Samþætting fjárhagsáætlunargerðar við aðrar einingar](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Skýrslugjöf](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fjárhagsskýrslur efnahagsreiknings](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Myndun fjárhagsskýrslu](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Myndun fjárhagsskýrslu](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
 #### [Fjárhagsskýrsla rekstrarreiknings](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fjárhagsskýrslur prófjöfnuðar](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skoðun fjárhagsskýrslna](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skýrsluhönnun](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Skýrsluhönnun](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [Kostnaðarbókhald](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Hugtök](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Verklegar æfingar (/dynamics365/unified-operations/financials/White paper)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [Verklegar æfingar (hvítbók)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [Víddir kostnaðareiningar](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Víddir kostnaðarhlutar](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -276,8 +301,8 @@
 #### [Aðgangsréttindi stjórnborðs kostnaðarhlutar](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Vinnusvæði kostnaðarstýringar](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fartækjavinnusvæði kostnaðarstýringar](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [Hið opinbera](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Áætlun fyrir virkni hins opinbera](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -316,7 +341,7 @@
 ### [Breytingar á hólfum línuskilgreiningar](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Endurstilling gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt gagnagrunns](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-### [Yfirlit yfir staðfærslu](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [Staðfærslu- og eftirlitseiginleikar](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Asía/Kyrrahaf
 #### Ástralía
 ##### [Bankaskráarsnið](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -327,25 +352,25 @@
 ##### [Samanburður uppskrifta](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Kínversk fylgiskjöl](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skilgreining skattasamþættingar](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Algengar spurningar um VSK-reikninga viðskiptavinar](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Algengar spurningar um VSK-reikninga viðskiptavinar](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Afskriftaaðferðir eigna ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Innflutningur gagnaeiningar fyrir kínverskan Golden tax-skatt](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Líkan fyrir mánaðarlegan meðalkostnað](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Bókun aðallykla birgða eftir vinnusvæðum](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppsetning neikvæðra debetupphæða og kreditupphæða ](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Japan
+##### [Úthlutunarreglur](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Bankagreiðsluþóknun sem greidd er af lánardrottnum](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Samstæðureikningar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### Eignir
-###### [Úthlutunarreglur](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Algengar spurningar um afskriftir](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Afskriftaraðferð með jafnri skiptingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Virðisrýrnunarbókhald](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Virðisrýrnunarbókhald á FSE](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning lækkunarfærslna](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Algengar spurningar um afskriftir](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Afskriftaraðferð með jafnri skiptingu](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Virðisrýrnunarbókhald](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Virðisrýrnunarbókhald á FSE](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Innflutningur póstnúmera](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 ##### [Lánardrottni greitt með framsali víxils](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Samfelldur útreikningur staðgreiðsluskatts](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Uppsetning ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Uppsetning lækkunarfærslna](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Malasía
 ##### [Vöru- og þjónustuskattur ](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Singapúr
@@ -357,13 +382,20 @@
 
 ### Evrópa
 #### [Handhafar fyrirframgreiðslu](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Færslur handhafa fyrirframgreiðslu](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Ítarlegri reikningsfærsla](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Bankaafstemming](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Leiðréttandi reikningar](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Stofna og bóka tímabilsbækur](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Reikningskennum á sölupöntunum breytt](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Færsluvottorð ESB](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skýrslugerð vegna ESB-sölulista](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Gengisleiðrétting](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skráarsnið fyrir greiðslumáta](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Afskráning eigna fyrir Eistland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Innflutningur ISO20022 skráa](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skýrslur birgðabókar](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Tölusetning reikninga og fylgiseðla fyrir Lettland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Lokadagsetningar reikningsútgáfu](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [OIOUBL-staðlar](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -372,14 +404,22 @@
 #### [Bókun forkaupa á eign](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Póstnúmer](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skráningarkenni](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [SEPA-millifærsluyfirlit](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppsetning greiðslna til viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Storno-bókhald](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skattareglur](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 #### [VSK-gengi](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Færslur í VSK-skrá fyrir Austur-Evrópu](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [VSK-skýrslur](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skoðun færslna á uppgjöri](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Austurríki
 ##### [Hálfsársafskriftir](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Umbúðaefnisgjöld](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Purchase duties](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [VSK-yfirlit](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Belgía
 ##### [CODA-bankayfirlit](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -388,7 +428,7 @@
 ##### [Afstemmingarskýrslur](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 #### Tékkland
-##### [Staðgreiðsluafsláttur á kreditnótu](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Kreditnóta á staðgreiðsluafslátt](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Sléttun afskrifta](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Frestun afskriftar](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Afskriftir eigna](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -402,6 +442,7 @@
 ###### [Bókhald hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Skuldbindingar](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Umboðsgreiðslur](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Innkaup og aðföng](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Reikningur](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Varðveisla greiðslu á reikningi lánardrottins](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Númeraröð reikninga og fylgiskjala](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -427,7 +468,7 @@
 ##### [Staðfesting dagsetningar fylgiseðils á reikningum](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [VSK-bækur](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skipting greiðslu fyrir reikninga sem sendir eru til hins opinbera](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Staðgreiðsluskattur](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Staðgreiðsluskattur](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Lettland
 ##### [Eignabókhald](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Rakning breytinga á staðsetningu eigna](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -438,6 +479,7 @@
 ##### [VSK-yfirlitsupplýsingar](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Noregur
 ##### [Nets-innflutningssnið](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [VSK-yfirlit](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 #### Pólland
 ##### [Útreikningur línuafslátta af einingarverði](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Leiðréttingarseðlar](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -474,6 +516,7 @@
 ###### [Innflutningur fjárhagsskjala](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Útflutningur og innflutningur lögaðilafærslna frá fjárhagssamstæða](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Innflutningur og staðfesting NF-e XML-skjala og DANFE-skráa](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning NF-e og DANFE-skráa](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 ###### [Meðhöndla rafrænar greiðslur](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Fjárhagsskjöl](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Frátökutákn í texta fjárhagsskjals](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -481,7 +524,7 @@
 ###### [Fjárhagsskjöl sem vísað er til](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Viðbótarfjárhagsskjöl fyrir sölu](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Rafrænt fjárhagsskjal fyrir þjónustu](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Stofnun færslubóka í rafrænu greiðsluskilaferli](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Stofnun færslubóka í rafrænu greiðsluskilaferli](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [NF-e-ferli](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Færibreytur fyrir lögaðila](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Kaupa CIAP-eign](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -495,11 +538,13 @@
 ##### [Rafrænir reikningar ](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Rafræn bókhaldsyfirlit fjárhags](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [ISR-skýrsla](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-
+### Austurlönd nær
+#### [Zakat-skýrslugerð fyrir Sádi-Arabíu](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Norður-Ameríka
 #### [1099-árslokaskýrsla fyrir Bandaríkin](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-## Mannauður
+#### [1099 fyrir opinbera](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
+## Mannauður
 ### Ráðningar
 #### [Stjórnun ráðningarferlis](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fjöldaráðningarverk](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -538,6 +583,7 @@
 ### [Aðgangur að Power BI-efni](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### [Útgáfa Power BI-efnis](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Rauntölur bornar saman við fjárhagsáætlun](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fríðindi](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Yfirlit yfir reiðufé](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [CFO-yfirlit](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -550,7 +596,7 @@
 #### [Hæfni og þróun starfsmanns](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Þróun starfsmanns](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 #### [Fjárhagsleg frammistaða](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Eignastýring](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [Eignastýring](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Nám](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Fyrirtækjaþjálfun](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Aðferðastjóri](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -559,7 +605,7 @@
 #### [Ráðningar](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Afköst smásölurásar ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Söluárangur og arðsemi](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Greiðslur lánardrottna](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [Greiðslur lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Afköst vöruhúss](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Mælikvarðar vinnuafls](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -567,6 +613,7 @@
 #### [Yfirlit Document Reporting Services](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Prentun](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Nettengd prenttæki virkjuð](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Myndun, útgáfa og prentvalkostir fylgiskjala í staðbundinni uppsetningu](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Keyrsla eftirlitsbúnaðar skjalasendingar sem þjónusta Windows](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Hjálp til að hindra að skýrslur sem hafa verið lengi í gangi renni út](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Listi yfir skýrslur SQL Server Reporting Services](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -593,6 +640,7 @@
 ### Greiningarverkfæri og myndræn framsetning
 #### [Greining, uppsafnaðar mælingar og KPI-líkanagerð](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Líkanagerð og samantektargögn](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Bæta fjárhagsvíddum við uppsafnaðar mælingar](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Samhengisháðri viðskiptagreind bætt við skjámyndir](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skýrsla fyrir uppsafnaðar mælingar](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skýrsla samantektargagnaeininga](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -600,10 +648,13 @@
 #### [Power BI-samþætting](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Samþætting Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Innfellt Power BI í vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Bæta greiningu við vinnusvæði með Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Power BI bætt við vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Power BI skýrslur festar við vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Power BI-samþætting með einingaverslun](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Power BI-skýrslur skrifaðar og þeim dreift með einingaverslun](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Flytja út eigindir í eigin Azure SQL gagnagrunn](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 
 ## Birgðastjórnun
@@ -657,6 +708,7 @@
 ##### [Kerfisflokkun á opnum verkefnalista](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Tiltekt og pökkun
 ##### [Elsta runa í fartæki tínd](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stilla skjá eldri keyrsla innan vöruhúss á fartæki](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Staðfesting einingatiltektar](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Umbúðaefni og gjöld](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Birgðatalning
@@ -677,6 +729,8 @@
 ##### [Uppsetning fartækja fyrir vöruhúsavinnu](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Gátt fyrir fartæki vöruhúss](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skjástillingar fartækis vöruhúss](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### Uppfærsla og flutningur
+##### [Yfirfæra frá AX 2012 í Finance and Operations](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 
 ## Aðaláætlanagerð
@@ -719,6 +773,7 @@
 ##### [Yfirlit yfir innkaupapöntun](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Stofnun innkaupapantana](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Samþykkt og staðfesting innkaupapanta](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Verð og afslættir
 ##### [Innkaupasamningar](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Innhreyfingarskjal og reikningsfærsla
@@ -762,6 +817,7 @@
 ### [Yfirlit yfir rafræna undirskrift](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Málastjórnunaryfirlit](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skilgreining öryggis, vinnsla og flokka mála](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Stilla skjalastjórnun](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Skráningarsniðmát búið til](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Skilgreining og sending tölvupósts](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Dagsetningar-/tímagögn og tímabelti](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -822,6 +878,9 @@
 #### Stjórna hráefnum
 ##### [Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skrá efnisnotkun með fartæki](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stjórna notkun hráefnis með því að nota birgðareglur](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
+#### Stjórna fullunnum vörum
+##### [Stilla framleiðslustað fyrir fullunna vöru](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Lean-framleiðsla 
 #### [Yfirlit yfir lean-framleiðslu](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Verkþáttarbyggð úthýsing](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -912,35 +971,17 @@
 
 ## [Þróun og stjórnun með Unified Operations-verkvangi](/dynamics365/unified-operations/dev-itpro/index)
 
-### [Yfirlit yfir þróun og stjórnun](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Kerfiskröfur](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Yfirlit yfir sýnigögn](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### Hjálparkerfi
-##### [Yfirlit yfir hjálparkerfi](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Tenging við hjálparkerfið](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-verkvangsuppfærsla 7 (maí 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-verkvangsuppfærsla 6 (apríl 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-verkvangsuppfærsla 5 (mars 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-verkvangsuppfærsla 4 (febrúar 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-útgáfa 1611 (nóvember 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Operations-verkvangsuppfærsla 3 (nóvember 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Dynamics AX-verkvangsuppfærsla 2 (ágúst 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
-##### [Dynamics AX-forrit, útgáfa 7.0.1 (maí 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Dynamics AX-verkvangsuppfærsla 1 (maí 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Dynamics AX 7.0 (febrúar 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### Uppfærðar verkefnaleiðbeiningar
-###### [Verkefnaleiðbeiningar fyrir nóvember 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Verkefnaleiðbeiningar fyrir ágúst 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Verkefnaleiðbeiningar fyrir maí 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Verkefnaleiðbeiningar fyrir febrúar 2016](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Kerfiskröfur](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Sýnigögn](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Gagnaprófun](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+
 
 
 ### [Þróun og sérstilling með Visual Studio](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Forritastöflun og skipulag þjóns](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Prufueintak sótt](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Áskrift](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Aðgangur að tilvikum Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Access-tilvik](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Þróunarkerfiskröfur](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Prufuforrit bílaflotastjórnunar
 ##### [Prufuforrit bílaflotastjórnunar](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -955,7 +996,6 @@
 ##### [Líkan og gagnalíkanseiningar búin til](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Nýr notandi búinn til á þróunarvél](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Sérstillingagreiningarskýrsla](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Þróunarverkfæri](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Einingahönnuðir](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Eininganotkun](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Útflutningur og innflutningur líkans](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -970,9 +1010,9 @@
 ##### [Villuleit í X++ með hliðsjón af afriti af framleiðslugagnagrunni](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Villuleit í X++ kóða](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [EventHandlerResult-klasar í beiðni- eða svarsviðsmyndum](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Viðskiptagrunnur skrifaður með C#### og X++ frumkóða](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Viðskiptagrunnur skrifaður með C\# og X++ frumkóða](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Stuðningur við forritunartungumál](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [LINQ-veita fyrir C#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [LINQ-veita fyrir C\#](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Bestu venjur við skrif](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Eiginleikar Application Explorer](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### Leiðbeiningar um X++ forritunarmálið
@@ -985,7 +1025,7 @@
 ###### [X++ gagnaval og beiting](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [X++ fjölvar](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [X++ eigindasía](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Samanburður á X++ og C####](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Samanburður á X++ og C\#](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ###### [Málskipan X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Þýðingartímaföll
 ##### [Þýðingartímaföll í X++](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [W-klasar](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [X-klasar](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Sérstilla með skrárendingum og yfirlögn
-##### Stækkunarhæfni
+##### [Stækkunarhæfni](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Líkanaeiningar sérstilltar með skrárendingum](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Sérstillt með skrárendingum og yfirlögn](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Klasaskráarendingar](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1048,8 +1088,11 @@
 ##### Gagnagrunnssamstilling
 #### Flytja pakka á milli umhverfa
 ##### Búa til og nota virkjanlegan pakka
-##### [Samfelld afhending](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-
+#### [Samfelld afhending – heimasíða](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Algengar spurningar um þróun og samfelld afhendingu](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Útiloka prófunarpakka úr frálagi útgáfu](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stjórnun líkana þriðja aðila og keyrslupakka með upprunastýringu](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Útgáfugerð í sjálfvirkri smíð](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 #### Heimasíða afkasta
 ##### [Rakning með rakningarþáttara](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [Síur](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [PowerApps-hýsistýring](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Gluggastjórnun
-##### [Flutningur efnisvalmyndakóða](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Kóði fyrir flutning með tvísmellingu músar](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Flutningur efnisvalmyndakóða](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Kóði fyrir flutning með tvísmellingu músar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Gagnafærsla í samhengi fyrir uppflettingu](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [HierarchyViewer-stýring](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppflettistýringar](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [Mynstur skjámyndar upplýsingareits](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Undirmynstur
 ##### [Undirmynstur sérstillts síuflokks](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Undirmynstur víddarfærslustýringar](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Undirmynstur smíðakerfis víddarsegðar](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Undirmynstur víddarfærslustýringar](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Undirmynstur smíðakerfis víddarsegðar](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Undirmynstur reita og reitaflokka](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Undirmynstur sía og tækjastiku](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Undirmynstur fyllingartexta](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1158,9 +1201,9 @@
 #### Smíða vinnusvæði
 ##### [Smíði virkra vinnusvæða](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Biðminnisvistun reits og lista fyrir vinnusvæði](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### Verkskráning
-##### [Verkskráning í Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Verkskráning](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Flýtitilvísun verkskráningar](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stofna fylgiskjöl eða þjálfun með verkskráningu](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Útgáfa lausna með Lifecycle Services
 #### [Þróun og útgáfa](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [Innsending lögboðinnar viðvörunar](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [Gagnaeiningar](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Gagnaeiningar](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Sjálfgefnar gagnaeiningar
 ##### [Gagnaeiningaskýrsla](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Gagnaeiningar: viðskiptaskuldir og skattar](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### Flutningur eininga
 ##### [Skilgreiningargagnaverk](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Skilgreining gagnasniðmáta](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Gagnapakkar fyrir grunnstillingar](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Gagnsniðmát stillingar](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+
 ###### [Afritun skilgreiningargagna á milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### Office-samþætting
 #### [Office-samþætting](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Kennsla í Office-samþættingu](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Notkun Excel-innbótarinnar](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Notkun Excel-innbótarinnar](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Opnun í Excel stofnuð](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Sniðmátum bætt við valmyndina „Opna línur í Excel“](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Valmyndin „Opna í Microsoft Office“ sérstillt](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1278,19 +1323,30 @@
 #### [Gantt-þróunarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Ný flutningsstjórnunarvél stofnuð](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-### [Smásöluþróunarsafn](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Uppsetning
-#### [Uppsetning sýniútgáfuumhverfis Microsoft Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Innleiðing Azure Resource Manager](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Uppsetning sýniútgáfuumhverfis Microsoft Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Innleiðing Azure Resource Manager](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+
+#### [Setja upp Microsoft Dynamics 365 for Finance and Operations staðbundið](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [Yfirlit Dynamics 365 for Finance and Operations, Enterprise-útgáfa (staðbundin útgáfa)](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Kerfiskröfur](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Vélbúnaðarþörf fyrir staðbundin umhverfi](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Lifecycle-stefna fyrir netþjónustu og staðbundinn hugbúnað](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Setja upp staðbundið verk í Lifecycle Services](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Setja upp og nota staðbundið umhverfi](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+
 
 #### Setja upp sérsniðinn kóða
-##### [Virkjanlegur pakki búinn til](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Virkjanlegur pakki notaður](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Uppsetning virkjanlegs pakka](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Virkjanlegur pakki búinn til](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Virkjanlegur pakki notaður](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Uppsetning virkjanlegs pakka](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-#### [Niðurhal af skýjaþjónustuveitu og Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Niðurhal af skýjaþjónustuveitu og Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### [Uppfærsla og flutningur](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Uppfærsla úr AX 2012 í Dynamics 365 for Finance and Operations](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1301,7 +1357,7 @@
 ##### [Uppfærsla – gagnauppfærsluverkefni í AX 2012](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppfærsla – gagnauppfærsla í sandkassaumhverfi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Villuleit – flutningsprófun](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Villuleit – villuleitarferli í forriti](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Sannprófun – verk sem þarf að framkvæma eftir uppfærslu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Villuleit – virkniprófun](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Villuleit – undirbúningur fyrir beina útsendingu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -1321,7 +1377,7 @@
 
 #### Uppfæra í nýjustu uppfærslu
 ##### [Undirbúningur yfirfærslu í nýjustu uppfærslu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Útgáfur og uppfærslustefna](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Lifecycle-stefna](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppfærsla í nýjustu uppfærslu verkvangs](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppfærsla Dynamics-verkvangsins í ágúst-útgáfu 2016](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Uppfærsla sandkassaumhverfis](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1341,116 +1397,118 @@
 
 
 ### Kerfisstjórnun
-#### [Algengar spurningar um mánaðarlegar uppfærslur verkvangs](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Leyfiskóðar og skilgreiningarlyklaskýrsla](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Samnýting gagna milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Viðhaldsstilling](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Algengar spurningar um mánaðarlegar uppfærslur verkvangs](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Leyfiskóðar og skilgreiningarlyklaskýrsla](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Samnýting gagna milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Viðhaldsstilling](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Öryggi
-##### [Öryggi byggt á hlutverkum](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Öryggisskipulag](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Öryggi byggt á hlutverkum](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Öryggisskipulag](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Öryggisskýrslur](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Runuvinnsla
-##### [Yfirlit runuvinnslu](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Yfirlit runuþjóns](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Yfirlit runuvinnslu](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Yfirlit runuþjóns](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Lifecycle Services
-#### [Yfirlit yfir Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [LCS fyrir viðskiptavini](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [LCS fyrir samstarfsaðila](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Nýjungar](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Þekkt vandamál](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Notkunarleiðbeiningar Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilgreining öryggis](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Vandamálaleit](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilgreiningarstjórnun](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Uppsetning skilgreiningastjórnunar ](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilgreining kóðauppfærsluþjónustu](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Aðferðafræði búin til ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Viðskiptaferlavinnsla](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Viðskiptaferlasöfn í viðskiptaferlavinnslu](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Flæðirit viðskiptaferlavinnslu](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Upphleðsla sérstilltra viðskiptaferla](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Eftirlit og greiningar ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Yfirlit yfir Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [LCS fyrir viðskiptavini](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [LCS fyrir samstarfsaðila](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Nýjungar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Þekkt vandamál](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Notkunarleiðbeiningar Dynamics Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilgreining öryggis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Vandamálaleit](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilgreiningarstjórnun](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Uppsetning skilgreiningastjórnunar ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilgreining kóðauppfærsluþjónustu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Aðferðafræði búin til ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Viðskiptaferlavinnsla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Viðskiptaferlasöfn í viðskiptaferlavinnslu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Flæðirit viðskiptaferlavinnslu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Upphleðsla sérstilltra viðskiptaferla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Eftirlit og greiningar ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Eignasafn](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 #### Eiginleikar Dynamics AX 2012 Lifecycle Services
 ##### Uppsetning
-###### [Umhverfi í skýi](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Afritun skilgreiningar](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Áætlun uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Dynamics AX 2012 R3-sýniútgáfuumhverfis](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning þróunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning stöðugs umhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Stjórnun uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Enterprise Portal-þjónar samtengdir í einu gagnaveri](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Skráning aðgangsstaða í Dynamics AX Enterprise Portal](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Retail Essentials-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning Retail Mobility-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Úrræðaleit vegna uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppfærslur fyrir Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Notkunarleiðbeiningar ramma fyrir inn- og útflutning gagna](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Uppsetning fyrir AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Uppsetning Dynamics AX 2012 R2 CU7-útgáfu fyrir SQL Server 2014](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Flutningur gagna](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Skilgreining SSIS-útgáfunnar](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Afritun og samanburður einingagagna milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Afritun gagna milli Dynamics AX-fyrirtækja](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Afritun gagna milli Dynamics AX-tilvika](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Stofnun sérstilltrar markeiningar](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Rammaeiningar fyrir inn- og útflutning gagna](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Innflutningur gagna frá CSV-gagnaveitu](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Innflutningur gagna frá ODBC-gagnaveitu](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Kynningarskrár](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Hraður innflutningur-útflutningur](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Umhverfi í skýi](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Afritun skilgreiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Áætlun uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Dynamics AX 2012 R3-sýniútgáfuumhverfis](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning þróunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning stöðugs umhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Stjórnun uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Enterprise Portal-þjónar samtengdir í einu gagnaveri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Skráning aðgangsstaða í Dynamics AX Enterprise Portal](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Retail Essentials-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning Retail Mobility-tækis/prófunarumhverfis á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Úrræðaleit vegna uppsetningar Dynamics AX 2012 R3 á Azure](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppfærslur fyrir Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Notkunarleiðbeiningar ramma fyrir inn- og útflutning gagna](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Uppsetning fyrir AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Uppsetning Dynamics AX 2012 R2 CU7-útgáfu fyrir SQL Server 2014](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Flutningur gagna](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Skilgreining SSIS-útgáfunnar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Afritun og samanburður einingagagna milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Afritun gagna milli Dynamics AX-fyrirtækja](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Afritun gagna milli Dynamics AX-tilvika](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Stofnun sérstilltrar markeiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Rammaeiningar fyrir inn- og útflutning gagna](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Innflutningur gagna frá CSV-gagnaveitu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Innflutningur gagna frá ODBC-gagnaveitu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Kynningarskrár](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Hraður innflutningur-útflutningur](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### Töflur 
-###### [Stofnun tafla](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Eiginleikar tafla](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Stofnun tafla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Eiginleikar tafla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### LCS-verkfæri í Dynamics AX 2012
-###### [Verk](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Aðferðarfræði](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Sérstillingagreining ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Áætlun grunngerðar](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Leyfaáætlun](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Svör við beiðnum um tillögu (/dynamics365/unified-operations/dev-itpro/RFP)](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Kerfisgreining](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning og keyrsla kerfisgreiningar](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppfærslugreining](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Notkunarupplýsingar](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Verk](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Aðferðarfræði](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Sérstillingagreining ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Áætlun grunngerðar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Leyfaáætlun](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Beiðnir um tillögu (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP) responses](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Kerfisgreining](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning og keyrsla kerfisgreiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppfærslugreining](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Notkunarupplýsingar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### Verkfæri í Dynamics AX 2012 sem hlaða má niður
-###### [Notkunarleiðbeiningar fyrir kóðauppfærsluverkfæri (úreltar)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Verkfæri í Lifecycle Services sem hlaða má niður](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Prófun gagnaflutningsverkfæris (beta)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Uppsetning](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Keyrsla](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Innflutningur sýnigagna fyrir AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Öryggisþróunarverkfæri](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Uppsetning](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Notkunarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Tilgreining eða breyting á heimildum aðgangsstaðar](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Hugbúnaðarþróunarsett vegna afkastaviðmiða](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Ráðgjafarverkfæri fyrir öryggisuppfærslur](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Vitrænn gagnastjórnunarrammi (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Yfirlit](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Uppsetningarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Skilgreining](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Greining](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Hreinsun og safnvistun hluta](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Safnvistunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Hreinsunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Áætlun hreinsunar- og greiningarverkefna](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Skoðun hreinsunar- eða safnvistunarvinnsla](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Viðhald](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-####### [Úrræðaleit](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Notkunarleiðbeiningar fyrir kóðauppfærsluverkfæri (úreltar)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Verkfæri í Lifecycle Services sem hlaða má niður](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Prófun gagnaflutningsverkfæris (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Uppsetning](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Keyrsla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Innflutningur sýnigagna fyrir AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Öryggisþróunarverkfæri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Uppsetning](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Notkunarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Tilgreining eða breyting á heimildum aðgangsstaðar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Hugbúnaðarþróunarsett vegna afkastaviðmiða](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Ráðgjafarverkfæri fyrir öryggisuppfærslur](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Vitrænn gagnastjórnunarrammi (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Yfirlit](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Uppsetningarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Stillingar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Greining](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Hreinsun og safnvistun hluta](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Safnvistunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Hreinsunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Áætlun hreinsunar- og greiningarverkefna](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Skoðun hreinsunar- eða safnvistunarvinnsla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Viðhald](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+####### [Úrræðaleit](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Stjórnun gagnagrunns
-#### [Afritun gagnagrunns úr Azure SQL-gagnagrunni í SQL Server-umhverfi](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Afritun gagnagrunns af SQL-þjóni í SQL Server-umhverfi fyrir vinnslu](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Endurheimt gagnagrunns í öðru umhverfi en vinnsluumhverfi](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Útflutningur afrits af gagnagrunni fyrir endurheimt seinna meir](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Afritun gagnagrunns úr Azure SQL-gagnagrunni í SQL Server-umhverfi](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Afritun gagnagrunns af SQL-þjóni í SQL Server-umhverfi fyrir vinnslu](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Endurheimt gagnagrunns í öðru umhverfi en vinnsluumhverfi](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Útflutningur afrits af gagnagrunni fyrir endurheimt seinna meir](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Stuðningur
 #### [Stuðningur fenginn fyrir Dynamics 365 for Finance and Operations, Enterprise og Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1466,6 +1524,7 @@
 
 ## Greiðslur
 ### [Greiðslumátar](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Algengar spurningar um greiðslur](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## Símaver
 ### [Yfirlit yfir símaver](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1488,6 +1547,7 @@
 ### Jaðarvélbúnaður
 #### [Yfirlit yfir jaðarbúnað fyrir smásölu](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Retail-jaðarbúnaðarhermir](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### Útlit afgreiðsluskjás
 #### [Skilgreining skjáútlits fyrir sölustað](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1512,7 +1572,7 @@
 ### Kvittanir
 #### [Uppsetning kvittanasniðmáta](/dynamics365/unified-operations/retail/receipt-templates-printing?toc=/dynamics365/unified-operations/supply-chain/toc.json) 
 #### [Sending tölvupóstkvittana fyrir MPOS](/dynamics365/unified-operations/retail/email-receipts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-### [Verkskráning og hjálp fyrir sölustað](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Verkskráning og hjálp fyrir sölustað](/dynamics365/unified-operations/retail/task-recorder-retail-pos?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ## Eftirlit og greining
 ### [Eftirlit með sölu og framlegð](/dynamics365/unified-operations/retail/monitor-sales-margin-performance?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Greina leitni og mynstur í sölu](/dynamics365/unified-operations/retail/analyze-sales-trends-patterns?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1525,7 +1585,7 @@
 ### [Verðleiðréttingar og afslættir](/dynamics365/unified-operations/retail/price-adjustments-discounts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Ákvörðun bestu samsetningar afslátta sem skarast](/dynamics365/unified-operations/retail/optimal-combination-overlapping-discounts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Skilgreining afslátta fyrir tiltekna rás](/dynamics365/unified-operations/retail/define-channel-specific-discounts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-### [Búa til afsláttarmiða fyrir smásölu](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Búa til afsláttarmiða fyrir smásölu](/dynamics365/unified-operations/retail/retail-coupons?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ## Afurðir og smásala
 ### [Retail-stigveldi](/dynamics365/unified-operations/retail/retail-hierarchies?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Eigindir búnar til og þeim stjórnað](/dynamics365/unified-operations/retail/create-manage-attributes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1533,15 +1593,12 @@
 ### [Uppsetning strikamerkja](/dynamics365/unified-operations/retail/set-up-bar-codes?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Uppsetning strikamerkja](/dynamics365/unified-operations/retail/set-up-bar-code-masks?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ### [Uppsetning vöruúrvals](/dynamics365/unified-operations/retail/set-up-assortments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-### [Sala og skil á afurðum utan vöruúrvals](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Sala og skil á afurðum utan vöruúrvals](/dynamics365/unified-operations/retail/sell-return-outside-assortments?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ## Vildarkerfi
 ### [Uppsetning vildarkerfis](/dynamics365/unified-operations/retail/set-up-customer-loyalty-program?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## Birgðir
 ### [Birgðastjórnun verslunar](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-## Grunnþættir viðskipta
-### [Yfirlit yfir grunnþætti viðskipta](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-### [Fyrirtæki og stigveldi fyrirtækis í grunnþáttum viðskipta](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## [Þróun og stjórnun smásölu](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [Samskipti smásölurásar](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Skipulag MPOS](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Útgáfuskipulag smásölunetverslunar](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Power BI-efni fyrir frammistöðu smásölurásar](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [Power BI-efni fyrir frammistöðu smásölurásar](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### Uppsetning og bráðabætur
 #### [Skilgreining og uppsetning einingarkvarða smásöluverslunar](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Smásöluverslunarkerfi, áður en hafist er handa](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilgreining og uppsetning Retail Modern POS](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Stjórnun smásölulykla og -tækja frá höfuðstöðvum](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilgreining og uppsetning Retail Modern POS](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Stjórnun smásölulykla og -tækja frá höfuðstöðvum](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Tækisvirkjun Retail POS](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Öruggt smásölukerfi í skýinu](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-#### [Skilgreining og uppsetning Retail Hardware Station](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Skilgreining og uppsetning Retail Hardware Station](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Tilvik smásöluíhluta fyrir greiningu og bilanaleit](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Virkjanlegur pakki notaður](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### Stækkunarhæfni
 #### Sölustaður
-##### [Skjáhönnun Retail POS](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-###### [Uppsetning útlitshönnuðar sölustaðar](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Skjáhönnun Retail POS](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+###### [Uppsetning útlitshönnuðar sölustaðar](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Skilgreining MPOS fyrir stillingu utan nets](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Stækkunarhæfni kveikja í MPOS og sölukerfis í skýinu](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Stofnun Retail Experience-forrits](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/supply-chain/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [Verkvangur rafrænna viðskipta](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [SDK-verkvangur rafrænna viðskipta](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### Greiðslutengill
-##### [Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [Uppsetning greiðslutengils](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 ##### [Stofnun Windows-uppsetningarforrits fyrir greiðslutengil](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [Yfirlit Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Samþætting Retail SDK við kerfi með samfellda sjálfvirkni í smíð](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Dæmi um stækkunarhæfni Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Dæmi um Retail POS samþættingu fyrir stjórntæki fyrir Svíþjóð](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Umbúðir Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 #### [Dæmi um Retail SDK ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ### Commerce Runtime
 #### [Vildarviðbót](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
-# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index)
+# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## Þróun mannauðsáætlunar
 ### [Vinnuafl skipulagt með notkun deilda, starfa og staða](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/supply-chain/toc.json)
