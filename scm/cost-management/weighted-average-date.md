@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Dagsetning vegins meðaltals er birgðalíkan sem byggist á reglunni um vegið meðaltal. Fyrir regluna um vegið meðaltal eru atriði úr birgðalíkani metin á meðaltalsvirði hlutanna sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu. Þegar birgðalokun með dagsetningu vegins meðaltals er keyrð, eru allar daglegar úthreyfingar jafnaðar gagnvart sýndarúthreyfingu. Þessi sýndarúthreyfing geymir heildar móttekið magn og virði fyrir þann dag. Sýndarinnhreyfingin hefur samsvarandi sýndarúthreyfingu sem innhreyfingar verða jafnaðar við. Þannig fá allar úthreyfingar sama meðaltalskostnað. Sýndarúthreyfingu og -innhreyfingu er hægt að sjá sem sýndarflutning sem kallast *birgðalokunarfærsla með vegnu meðaltali*. 
