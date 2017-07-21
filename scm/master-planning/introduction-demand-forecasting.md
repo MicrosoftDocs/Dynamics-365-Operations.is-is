@@ -3,27 +3,27 @@ title: "Yfirlit eftirspurnarspár"
 description: "Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72004
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d74c1d1219eb39f2a76c0009adb21dd0c8c7b7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6b4498ae05b9495918c0a079cc88903820192a59
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
 
-Til að mynda grunnlínuspá, yfirlit yfir færslur eru sendar Microsoft Azure Námsvélarþjónusta sem er hýst á Azure. Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir. Hægt er að nota Dynamics 365 fyrir Operations til að sjá°fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.
+Til að mynda grunnlínuspá, yfirlit yfir færslur eru sendar Microsoft Azure Námsvélarþjónusta sem er hýst á Azure. Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir. Hægt er að nota Finance and Operations til að sjá fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.
 
 ## <a name="key-features-of-demand-forecasting"></a>Lykilaðgerðir eftirspurnarspár
 Hér eru sumar aðal aðgerðir eftirspurnarspár:
@@ -51,27 +51,27 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 
 -   **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
 -   **Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
-    -   Hægt er að hlaða niður Dynamics 365 for Operations Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Dynamics 365 for Operations á skipulagningu framleiðslu hefur verið keypt sem notandi á°fyrirtækissviði.
-    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem Dynamics 365 fyrir Operations Eftirspurnarspátilraunir eru°sjálfkrafa samþættar Dynamics 365 for Operations, þurfa°viðskiptavinir og samstarfsaðilar að beita samþættingu°tilrauna sem þeir hlaða niður úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana Greiningar Gallery ](https://gallery.cortanaanalytics.com/) ekki jafn einfaldar í notkun og Dynamics 365 for Operations eftirspurnarspátilraunir. Það°þarf að breyta kóða á tilraununum þannig að þær nota forritunarviðmót (API) Dynamics 365 for Operations forritsins.
+    -   Hægt er að hlaða niður eftirspurnarspátilraunum Finance and Operations, breyta þeim til að uppfylla þínar viðskiptaþarfir, gefa þær út sem vefþjónustu á Azure og nota þær til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Finance and Operations fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
+    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir Finance andr Operations eru sjálfkrafa samþættar Finance and Operations, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations. Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.
     -   Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
     -   Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Sjá nánari upplýsingar um verðlagningu Vél Nám <http://aka.ms/machine-learning-price-info>.
--   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár í Dynamics 365 for Operations byggir á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
+-   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár í Finance and Operations byggja á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Grunnflæði í eftirspurnarspá
 Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir eftirspurnarspá. 
 
 [![inngangur skýringarmynd eftirspurnarspár](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Myndun eftirspurnarspár hefst í Dynamics 365 for Operations. Söguleg færslugögn úr Dynamics 365 for Operations gagnagrunninum er safnað saman og fyllir millistigsvistunartöflu. Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Gagnaveiturnar geta meðal annars verið Microsoft°Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012.  Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa. Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.
+Myndun eftirspurnarspár hefst í Finance and Operations. Sögulegum færslugögnum úr Finance and Operations gagnagrunninum er safnað saman og fyllt inn í millistigsvistunartöflu. Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Gagnaveiturnar geta meðal annars verið Microsoft°Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012.  Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa. Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.
 
-Ef notaðar°eru vélnámstilraunir fyrir eftirspurnarspár í Dynamics 365 for Operations leita þær að því sem passar best milli°fimm tímaraðir spáaðferða til að reikna út grunnlínu spár. Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Dynamics 365 for Operations. 
+Ef notaðar eru vélnámstilraunir fyrir eftirspurnarspár í Finance and Operations leita þær að því sem passar best milli fimm tímaraða spáaðferða til að reikna út grunnlínuspá. Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Finance and Operations. 
 
-Spár,°söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri umferðum eru svo tiltæk í Dynamics 365 for Operations. 
+Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri ítrekunum eru svo tiltækar í Finance and Operations. 
 
-Hægt er að nota Dynamics 365 for Operations til að sjá fyrir og breyta grunnlínuspám. Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.
+Hægt er að nota Finance and Operations til að sjá fyrir og breyta grunnlínuspám. Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.
 
 ## <a name="limitations"></a>Takmarkanir
-Eftirspurnarspá í Dynamics 365 for Operations er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna°spáferli. Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út. Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og smásölu, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.
+Eftirspurnarspá í Finance and Operations er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna spáferli. Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út. Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og smásölu, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.
 
 <a name="see-also"></a>Sjá einnig
 --------

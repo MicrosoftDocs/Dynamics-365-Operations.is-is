@@ -1,36 +1,36 @@
 ---
 title: "reikningsfærsla innan samstæðu"
-description: "Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Operations."
+description: "Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
-ms.search.validFrom: 2016-02-28
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="intercompany-invoicing"></a>reikningsfærsla innan samstæðu
+# <a name="intercompany-invoicing"></a>Reikningsfærsla innan samstæðu
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Operations.
+Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
 
 Fyrirtæki þitt gætu haft margar deildir, dótturfyrirtæki og annarra lögaðila sem flytja afurðir og þjónustu milli sín fyrir verk. Lögaðili sem sem veitir þessi þjónustu eða afurðir kallast *lögaðili sem lánar* og lögaðilann sem fær þjónustuna eða vörurnar er kallað *lögaðili sem fær lánað*. 
 
@@ -53,7 +53,7 @@ Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutnin
     -   **Framlegðarhlutfall** – númerið sem færð er inn í á **Verðlagning** er framlegðarhlutfall sem er sýnd sem prósenta af söluverði.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Dæmi 1: Setja upp færibreytur fyrir reikningsfærsla innan samstæðu
-Í þessu dæmi er USSI lögaðili sem lánar, og tilföng hennar eru að skrá tíma gagnvart lögaðila sem lánar, FRSI, sem á samninginn við endanlegan viðskiptavin. Vinnustundur og útgjöld sem USSI starfsmenn skýra frá má taka með í reikningi sem FRSI myndar. Þar að auki er til staðar þriðji uppruni færslna sem geta komið frá lögaðilanum sem lánar (USSI í þessu dæmi) þegar hún veitir samnýtta þjónustu lánardrottna fyrir dótturfyrirtæki (til dæmis FRSI) og sendir síðan þann kostnað á verkefni innan þeirra dótturfyrirtækjum. Öll samsvarandi reikningsskjöl og skattaútreikninga er lokið af Dynamics 365 for Operations. 
+Í þessu dæmi er USSI lögaðili sem lánar, og tilföng hennar eru að skrá tíma gagnvart lögaðila sem lánar, FRSI, sem á samninginn við endanlegan viðskiptavin. Vinnustundur og útgjöld sem USSI starfsmenn skýra frá má taka með í reikningi sem FRSI myndar. Þar að auki er til staðar þriðji uppruni færslna sem geta komið frá lögaðilanum sem lánar (USSI í þessu dæmi) þegar hún veitir samnýtta þjónustu lánardrottna fyrir dótturfyrirtæki (til dæmis FRSI) og sendir síðan þann kostnað á verkefni innan þeirra dótturfyrirtækjum. Öllum samsvarandi reikningsskjölum og skattaútreikningum er lokið af Finance and Operations. 
 
 Í þessu dæmi verður FRSI að vera viðskiptavinur USSI lögaðila, og USSI verður að vera lánardrottins í FRSI-lögaðila . Síðan er hægt að setja upp tengsl innan samstæðu milli tveggja lögaðila. Eftirfarandi ferli sýnir hvernig á að setja upp færibreytur þannig að bæði lögaðila geta taka þátt í reikningsfærslu innan samstæðu .
 

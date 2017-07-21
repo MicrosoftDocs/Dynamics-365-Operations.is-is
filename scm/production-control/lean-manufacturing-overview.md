@@ -1,49 +1,48 @@
 ---
 title: Yfirlit Lean manufacturing
-description: "Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Microsoft Dynamics AX."
+description: "Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Yfirlit Lean manufacturing
+# <a name="lean-manufacturing-overview"></a>Yfirlit yfir lean-framleiðslu
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Microsoft Dynamics AX.
+Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
 
 Lean-framleiðsla býður upp á verkfæri sem hægt er að nota til að móta lean-aðgerðir. Þessar verkfæri styðja og ýta undir eftirfarandi hugtök og verkþætti viðskipta:
 -   Stofna lean-framleiðslufyrirtæki með því að móta framleiðslu- og vörustjórnunarferli sem framleiðsluflæði.
 -   Innleiða lean-dráttarkerfi með því að nota kanbana til að merkja eftirspurn
 -   Fylgjast með og viðhalda kanban-vinnslur.
 
-Lean-framleiðsla í Microsoft Dynamics AX 7 samanstendur af framleiðsluflæði, verkþætti og kanban-reglur. Þetta skipulag er fyllilega samþætt við Microsoft Dynamics AX 7 ferli. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
+Lean-framleiðsla í Finance and Operations samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum. Þetta skipulag er að fullu samþætt ferlum Finance and Operations. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
 | **Mikilvægt**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hægt er að nota Microsoft Dynamics AX 7 til að styðja innleiðingu lean-framleiðsla með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |
+| Hægt er að nota Finance and Operations til að styðja innleiðingu lean-framleiðslu með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Móta framleiðslu- og vörustjórnunarferli sem framleiðsluflæði.
 Til að Stofna lean-framleiðslufyrirtæki, mótaðu framleiðslu- og vörustjórnunarferli sem framleiðsluflæði. Þessi aðgerð samanstendur af eftirfarandi verkefnum:
@@ -71,8 +70,8 @@ Eftirfarandi listi lýsir sérhæfðum kanban-borð:
 -   Kanban-borð fyrir flutningsverk - þetta borð veitir yfirlit yfir núverandi flutningsverk. Þú getur uppfært og skráð tiltektarlista, og hefja og ljúka flutningsvinnslum, og framkvæma önnur verk.
 -   Kanban-spjald fyrir vinnslukenni verks -Þessa spjald er hannað til að styðja venjulegt framleiðsluflæði og veita yfirlit yfir gildandi stöðu í einni eða mörgum vinnuflokkana. Úr þessari borði er hægt að forgangsraða Kanban tína þau eða framleiða. Borðið er einnig hannað til að styðja skannað strikamerki fyrir skýrslugerð kanbana.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a>Kanban-vinnslur og samþættingu við Microsoft Dynamics AX-ferli
-Kanban-vinnslur eru fyllilega samþætt gildandi ferli fyrir birgðafærslur í Microsoft Dynamics AX.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban-vinnslur og samþætting við ferla Finance and Operations
+Kanban-vinnslur eru fyllilega samþættar gildandi ferlum fyrir birgðafærslur í Finance and Operations.
 -   Hægt er að framkvæma tiltektarverkþáttum til að fylla á efni sem er notuð til að uppfylla kröfur kanban-vinnslur.
 -   Þú getur Prenta kanban-spjöld, virkt spjald og tiltektarlista til að styðja við notkun kanbana. Þessi skjöl eru notaðar til að tákna, rekja og skrá kanban-vinnslur í vöruhúsinu og í framleiðslu í vinnslusal.
 -   Þú getur skrá tiltektar og flutningsaðgerðir í birgðum með því að skanna strikamerki.

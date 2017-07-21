@@ -3,25 +3,24 @@ title: "Heimasíða kostnaðarbókhalds"
 description: "Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -50,7 +49,9 @@ Einingin Kostnaðarbókhald gerir kleift að gera eftirfarandi:
 
 ## <a name="get-started"></a>Hefjast handa
 
-Verklegar æfingar fyrir kostnaðarbókhald veita grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Operations – Kostnaðarbókhald fyrir greiningu kostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
+> [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
+
+Verklegar æfingar fyrir kostnaðarbókhald veita grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Finance and Operations, Enterprise – Kostnaðarbókhald fyrir greiningu kostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
 
 -   [Hefjast handa með Kostnaðarbókhald](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (hvítbók og krefst CustomerSource lykill)
 
@@ -69,10 +70,10 @@ Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarsta�
 -   [Fartækjavinnusvæði kostnaðarstýringar](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI-efni
-Microsoft Power BI-efnið Greining kostnaðarbókhalds er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýring af fyrirtæki. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn frá Kostnaðarbókhald í Microsoft Dynamics 365 for Operations og veitir samanlagt yfirlit yfir kostnaður fyrir allt fyrirtæki í einum skýrslugjaldmiðill. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
+Microsoft Power BI-efnið Greining kostnaðarbókhalds er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýring af fyrirtæki. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni Kostnaðarbókhald í Finance and Operations og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
 
--   [Kostnaðarbókhaldsgreining Power BI-efni](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Kostnaðarbókhaldsgreining Power BI-efni](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

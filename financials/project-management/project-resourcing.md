@@ -3,14 +3,14 @@ title: "Tilföng verks"
 description: "Þessi efnisatriði gefur upplýsingar um tilföng verka."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Þessi efnisatriði gefur upplýsingar um tilföng verka.
 
-Ein áskorun fyrir verkefnastjóra og forðastjóra meðan á áætlunargerð stendur er forðaúthlutun, þar sem þeir þurfa að ákvarða og taka frá rétt tilföng til vinnu á verk. Í Microsoft Dynamics 365 for Operations gerir tilfangageta verkefna kleift að skilgreina hlutverk sem eru meðhöndluð sem tímabundin tilföng sem hægt er að taka frá fyrir sérstaka úttekt eða sem hluta af úttekt. Þessi tegund tilfanga gerir verkefnisstjórum og stjórnendum tilfanga kleift að ljúka eftirfarandi verkum:
+Ein áskorun fyrir verkefnastjóra og forðastjóra meðan á áætlunargerð stendur er forðaúthlutun, þar sem þeir þurfa að ákvarða og taka frá rétt tilföng til vinnu á verk. Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition gerir tilfangageta verkefna kleift að skilgreina hlutverk sem eru meðhöndluð sem tímabundin tilföng sem hægt er að taka frá fyrir sérstaka úttekt eða sem hluta af úttekt. Þessi tegund tilfanga gerir verkefnisstjórum og stjórnendum tilfanga kleift að ljúka eftirfarandi verkum:
 
 -   Skilgreina hlutverk sem hefur nauðsynlega hæfni til að gera auðvelt að samsvara tilföng.
 -   Nota hlutverk til að skilgreina upphaflega úttekt sem er byggð á fráteknum tilföngum.
@@ -65,10 +65,10 @@ Einnig er hægt að tilgreina sjálfgefið verk fyrir tilföng sem gerð áætla
 
 **Í útlánafyrirtækinu:**
 
-1.  Í Dynamics 365 for Operations, staðfesta að útlánafyrirtækið sé valið, og ljúka síðan ferlinu hér að framan, "Setja upp starfsmann sem tilfang verks".
+1.  Staðfestu í Finance and Operations að útlánafyrirtækið sé valið og ljúktu síðan ferlinu hér að framan, „Setja upp starfsmann sem tilfang verks“.
 2.  Fara í ** Fjárhag **&gt; ** Bókunaruppsetning **&gt;**Samstæðubókhald**. Smellt er á **Nýtt**.
 3.  Í svæðinu ** Kenni lögaðila ** skal velja útlánafyrirtæki. Fyllið út eftirstandandi svæði eftir þörfum og smellið síðan á **Vista**.
-4.  Farið í **Verkefnastjórnun og bókhald **&gt; **Uppsetning **&gt;**Verðlag ** &gt; **Flutningsverð**** **.
+4.  Farðu í **Verkefnastjórnun og bókhald **&gt; **Uppsetning **&gt; **Verðlag ** &gt; **Flutningsverð**.** **
 5.  Í skjámyndinni ** flutningsverð ** er smellt á **Nýtt**, og í svæðinu ** Lögaðili sem fær Lánað ** skal velja viðeigandi fyrirtæki.
 6.  Ef þú vilt aðeins lána lántökufyrirtækinu þau tilföng sem voru stofnuð í upphafi þessa hluta í svæðinu **Tilföng** skal velja nafn tilfanganna sem voru stofnuð. Ef óskað er að gera öll tilföng í fyrirtækinu tiltæk lántökufyrirtæki skal skilja svæðið ** Tilföng ** eftir autt.
 7.  Fara í ** Verkefnastjórnun og bókhald **&gt; ** Uppsetningu **&gt;**Verkefnastjórnun og bókhaldsfæribreytur**, og á flipanum ** Samstæðu ** skal stilla svæðið ** Virkja samstæðuröðun tilfanga og tímablöð ** á **Já**.
@@ -123,7 +123,7 @@ Til að setja upp hæfni starfsmanns, er hægt að nota annað hvort listasíðu
 6.  Í rúðunni **Eftirstandandi verk**, veljið verk og smellið síðan á ör til að bæta því við í **Valin verk** rúðunni.
 7.  Lokið síðunni.
 
-Ef þörf krefur, er einnig hægt að úthluta tegundum fyrir tilföng. Gerð tegundar er annað hvort Kostnaður eða Tekjur. Þetta er ákvarðað af fyrirtækinu. Ef engar úthlutaðar tegundir eru fyrir tilföngin mun Dynamics 365 for Operations fletta upp sjálfgefinni tegund á verð á klukkustund fyrir kostnað og tekjur.
+Ef þörf krefur, er einnig hægt að úthluta tegundum fyrir tilföng. Gerð tegundar er annað hvort Kostnaður eða Tekjur. Þetta er ákvarðað af fyrirtækinu. Ef engar úthlutaðar tegundir eru fyrir tilföngin mun Finance and Operations fletta upp sjálfgefnum verðflokki á klukkustund fyrir kostnað og tekjur.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Setja upp verk tilfanga og einkenni verks
 
@@ -190,7 +190,7 @@ Hægt er að setja allan kostnað, söluverð og flutningsverð upp fyrir hlutve
 5.  Í **Verðlagning** dálki skal slá inn verð fyrir valið tilfangahlutverk.
 
 ## <a name="form-a-project-team"></a>Búa til verkhóp
-Til að nota hlutverk sem voru áður sett upp í verkefni verður verkefnastjóri að tengja hlutverk við verkið. Hægt er að tengja mörg hlutverk við verk og Dynamics 365 for Operations merkir sjálfvirkt þessi hlutverk við frátekningu til að koma í veg fyrir misskilning. Til dæmis, ef verkefnastjóri krefst þriggja hugbúnaðarverkfræðinga eru þrjú hlutverk hugbúnaðarverkfræðinga sem eru merktir sem hugbúnaðarverkfræðingur 1, hugbúnaðarverkfræðingur 2 og hugbúnaðarverkfræðingur 3, sjálfvirkt mynduð. Ef einkenni hlutverks hafa áður verið stillt fyrir hlutverkið, eru þau notuð sem sía við leit tilfanga. Hægt er að bæta frekari eiginleikum við sem þarf til að fínstilla leitina enn frekar. 
+Til að nota hlutverk sem voru áður sett upp í verkefni verður verkefnastjóri að tengja hlutverk við verkið. Hægt er að tengja mörg hlutverk við verk og Finance and Operations merkir sjálfvirkt þessi hlutverk við frátekningu til að koma í veg fyrir misskilning. Til dæmis, ef verkefnastjóri krefst þriggja hugbúnaðarverkfræðinga eru þrjú hlutverk hugbúnaðarverkfræðinga sem eru merktir sem hugbúnaðarverkfræðingur 1, hugbúnaðarverkfræðingur 2 og hugbúnaðarverkfræðingur 3, sjálfvirkt mynduð. Ef einkenni hlutverks hafa áður verið stillt fyrir hlutverkið, eru þau notuð sem sía við leit tilfanga. Hægt er að bæta frekari eiginleikum við sem þarf til að fínstilla leitina enn frekar. 
 
 Einnig er hægt að sérsníða skoðun á stillingum til að gefa betra yfirlit yfir tiltæk tilföng. Það eru valkostir til að sýna tiltæki eftir klukkustund, daglega, vikulega, mánaðarlega, ársfjórðungslega og árlega. Það er einnig valkostur að sýna tiltæka og eftirstandandi afkastagetu á tilföng. Þessi valkostur er gagnleg fyrir tímastjórnun þegar verið er að meta tiltækan tíma fyrir verkþætti eða tiltæk tilföng. 
 
@@ -277,7 +277,7 @@ Auka valkostum hefur verið bætt í WBS til að nýta betur virkni tilfanga.
 </tr>
 <tr class="even">
 <td>Mynda lið sjálfkrafa</td>
-<td>Bæta við áætluðum tilföngum sjálfkrafa með því að nota hlutverk sem eru tengd verkefni. Dynamics 365 for Operations stingur sjálfkrafa upp á áætluðum tilföngum með því að nota greiningu um ákvörðun um mörg skilyrði sem byggir á hlutverkum. Eftir að hlutverk og framlag (klukkustundir) hefur verið stillt fyrir verk í WBS og skipulag hefur verið losað er smellt á <strong>Búa Sjálfkrafa til hóp</strong>. Áskildum fjölda áætlaðra tilfanga er bætt við WBS og flipann <strong>Áætlun Verks og hóps</strong>.</td>
+<td>Bæta við áætluðum tilföngum sjálfkrafa með því að nota hlutverk sem eru tengd verkefni. Finance and Operations stingur sjálfkrafa upp á áætluðum tilföngum með því að nota greiningu um ákvörðun um mörg skilyrði sem byggir á hlutverkum. Eftir að hlutverk og framlag (klukkustundir) hefur verið stillt fyrir verk í WBS og skipulag hefur verið losað er smellt á <strong>Búa Sjálfkrafa til hóp</strong>. Áskildum fjölda áætlaðra tilfanga er bætt við WBS og flipann <strong>Áætlun Verks og hóps</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Tilföng (fellilisti)</td>

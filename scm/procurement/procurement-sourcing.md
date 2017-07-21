@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -57,11 +57,11 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
 -   [Setja upp og viðhalda samstarf lánardrottna](set-up-maintain-vendor-collaboration.md)
--   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (hvítbók)
+-   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(hvítbók)
 -   [Fylgjast með vörusendingabirgðir með samstarf lánardrottna](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics 365 for Operations)
--   [Skilgreining á öryggi fyrir notendur gátt Lánardrottins](configure-security-vendor-portal-users.md) (aðeins 2016 og Maí 2016 útgáfur Dynamics 365 for Operations)
--   [Lánardrottinn fartæki samvinnusvæði fyrir forritið Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md)  (febrúar 2016 og maí 2016 útgáfur Dynamics eingöngu)
+-   [Skilgreining á öryggi fyrir notendur gáttar lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
+-   [Vinnusvæði fartækis fyrir samstarf við lánardrottna fyrir Microsoft Dynamics 365 for Finance and Operations forrit](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Innkaupastjórnun afurða
 -   [Innkaupavörulistar](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 
 ## <a name="product-receipt-and-invoicing"></a>Innhreyfingarskjal afurða og reikningur.
 -   [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
--   [Yfirlit yfir lánardrottnareikninga](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Bókunarreglur lánardrottins](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Bókunarreglur lánardrottins](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 -   [Yfirlit yfir innkaup og aðföng](procurement-sourcing-overview.md)

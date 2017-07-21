@@ -3,26 +3,26 @@ title: "Viðtökustaður rafrænnar skýrslugerðar"
 description: "Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafrænnar skýrslugerðar (ER) og íhlut úttaks þess (möppu eða í skrá). Notendur sem fá viðeigandi aðgangsheimildir geta einnig breytt stillingar fyrir áfangastað á keyrslutíma. Þessi skrá útskýrir áfangastaðastjórnun rafrænnar skýrslugerðar, gerðir áfangastaða sem eru studdar, og öryggisatriði."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -36,9 +36,9 @@ Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafræ
 Rafræn skýrslugerð (ER) skilgreiningar sniðs innihalda yfirleitt minnst einn frálagsíhlut: skrá. Skilgreiningar innihalda yfirleitt margar frálagsíhluti skráa af mismunandi gerðum (t.d. XML, TXT eða XLSX) sem eru flokkaðar í annað hvort í einni möppu eða margar möppur. Stjórnun áfangastaðar Rafrænnar skýrslugerðar gerir kleift að forstilla hvað gerist þegar hver íhlutur er keyrður. Að sjálfgefnu þegar afbrigði er keyrð, sér notandi svarglugga sem er hægt að nota til að vista eða opna skrána. Sama hegðun er einnig notuð þegar þú flytur inn skilgreiningu rafrænnar skýrslugerðar og skilgreinir ekki tilteknu áfangastaði fyrir hana. Eftir á ákvörðunarstað hefur verið stofnuð fyrir aðal frálagsíhlut, hnekkir sá ákvörðunarstað sjálfgefinni hegðun og möppu eða skráin er send samkvæmt stillingum áfangastaðar.
 
 ## <a name="availability-and-general-prerequisites"></a>Framboð og almenn skilyrði
-Áfangastaðir rafrænnar skýrslugerðar er ekki tiltæk í útgáfu Microsoft Dynamics 365 for Operations 7.0 (febrúar 2016). Þess vegna verður að setja upp Microsoft Dynamics 365 for Operations (nóvember 2016 útgáfu) til að nota allar aðgerðir sem er lýst í þessu efnisatriði. Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarftu að athuga að þessir valkostir veita meira takmarkað rafræna skýrslugerð viðtökustaður upplifun.
+Áfangastaðir rafrænnar skýrslugerðar er ekki tiltæk í Microsoft Dynamics AX 7,0 (Febrúar 2016). Þess vegna verður að setja upp Microsoft Dynamics 365 for Operations útgáfu 1611 (nóvember 2016 útgáfu) til að nota allar aðgerðir sem er lýst í þessu efnisatriði. Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarftu að athuga að þessir valkostir veita meira takmarkað rafræna skýrslugerð viðtökustaður upplifun.
 
--   Microsoft Dynamics 365 fyrir Aðgerðir útgáfu 7.0.1 (maí 2016)
+-   Microsoft Dynamics AX útgáfa forrits 7.0.1 (May 2016)
 -   Stjórnun áfangastaður fyrir rafræna skýrslugerð [bráðabót forrits](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar skýrslugerðar sem hafa verið fluttar inn, og fyrir sniðin sem eru tiltækir í **skilgreiningar rafrænnar skýrslugerðar** síðu.
@@ -61,7 +61,7 @@ Stjórnun áfangastaðar fyrir rafræna skýrslugerð aðgerðir eru tiltækar �
 
 ### <a name="email-destination"></a>Áfangastður tölvupósts
 
-Setja **Virkt** til **Já** til að senda frálagsskrá með tölvupósti. Eftir að þessi valkostur er virkjaður er hægt að breyta efni tölvupósts og tilgreina viðtakendur tölvupósts og meginmál tölvupósts. Hægt er að setja upp fastatexta fyrir efni og meginmál tölvupósts eða hægt er að nota formúlur rafræn skýrslugerð til að gagnvirkt stofna texta tölvupósts. Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Grunnstillingu má ljúka á sama hátt og Prentstýring eiginleiki í Dynamics 365 for Operations lýkur henni. Að öðrum kosti, er hægt að leysa úr netfangi með því að nota beina tilvísun í skilgreiningu rafræn skýrslugerð skilgreining til og með formúla.
+Setja **Virkt** til **Já** til að senda frálagsskrá með tölvupósti. Eftir að þessi valkostur er virkjaður er hægt að breyta efni tölvupósts og tilgreina viðtakendur tölvupósts og meginmál tölvupósts. Hægt er að setja upp fastatexta fyrir efni og meginmál tölvupósts eða hægt er að nota formúlur rafræn skýrslugerð til að gagnvirkt stofna texta tölvupósts. Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Grunnstillingu má ljúka á sama hátt og Prentstýring eiginleiki í Finance and Operations lýkur henni. Að öðrum kosti, er hægt að leysa úr netfangi með því að nota beina tilvísun í skilgreiningu rafræn skýrslugerð skilgreining til og með formúla.
 
 ### <a name="email-address-types"></a>Gerðir tölvupóstfanga
 
@@ -89,7 +89,7 @@ Notaðu þessa gerð tölvupósts ef skilgreiningin sem þú notar er með hnút
 
 [![Úthluta gagnaveitu netfanga fyrir áfangastað tölvupósts](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Athugasemd:** SMTP-samskiptareglur (SMTP) þjóns verða að vera skilgreindar og tiltækar. Hægt er að tilgreina smtp-þjónninn í Dynamics 365 for Operations við **kerfisstjórnun** &gt; **Uppsetningu**&gt;**Tölvupósti** &gt; **færibreytur Tölvupósts**.
+**Athugasemd:** SMTP-samskiptareglur (SMTP) þjóns verða að vera skilgreindar og tiltækar. Hægt er að tilgreina smtp-þjónninn í Finance and Operations við **kerfisstjórnun** &gt; **Uppsetningu** &gt; **Tölvupósti** &gt; **færibreytur Tölvupósts**.
 
 ### <a name="archive-destination"></a>áfangastaður skjalasafns
 
@@ -97,11 +97,11 @@ Hægt er að nota þennan valkost til að senda frálag annað hvort á Microsof
 
 [![Síðan Gerðir skjala](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skjalasafns** er virkjaður er hægt að vista niðurstöður skilgreiningarframkvæmdar í Vinnsla skjalasafn. Hægt er að skoða niðurstöðurnar í **Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð** &gt; **Viðtökustaður rafrænnar skýrslugerðar**. **athugasemd:** Hægt er að velja gerð skjals fyrir Vinnsla skjalasafns í Dynamics 365 for Operations, í **Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Rafræn skýrslugerð** &gt; **Rafræn skýrslugerð færibreytur**.
+Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skjalasafns** er virkjaður er hægt að vista niðurstöður skilgreiningarframkvæmdar í Vinnsla skjalasafn. Hægt er að skoða niðurstöðurnar í **Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð** &gt; **Viðtökustaður rafrænnar skýrslugerðar**. **Athugasemd:** Hægt er að velja gerð skjals fyrir Vinnsla skjalasafns í Finance and Operations, í **Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Rafræn skýrslugerð** &gt; **Rafræn skýrslugerð færibreytur**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sjálfgefinn þjón SharePoint á **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar**á í **SharePoint** flipanum. Eftir að SharePoint-möppu er skilgreint er hægt að velja það sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistuð fyrir skráargerðina. 
+Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sjálfgefinn þjón SharePoint á **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar** á í **SharePoint** flipanum. Eftir að SharePoint-möppu er skilgreint er hægt að velja það sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistuð fyrir skráargerðina. 
 
 [![Val á SharePoint-möppu](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 
@@ -119,7 +119,7 @@ Ef **Virkt** er stillt á **Já**, er forskoðun á frálagi stofnuð. Hægt er 
 
 ### <a name="power-bi-destination"></a>Áfangastaður Power BI
 
-Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Dynamics 365 for Operations til Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Nánari upplýsingar má nálgast á [Nota skilgreiningu Rafræna skýrslugerð til að gefa Power BI gögnum úr Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md) **Ábending:** til Að hnekkja sjálfgefna hegðun (sem er, svarglugganum fyrir skilgreiningu), er hægt að stofna tilvísun áfangastaðar og áfangastað skrár fyrir aðal frálagsíhlutinn, og óvirkja svo alla áfangastaði.
+Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Finance and Operations til Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Nánari upplýsingar er að finna í [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Ábending:** til Að hnekkja sjálfgefna hegðun (sem er, svarglugganum fyrir skilgreiningu), er hægt að stofna tilvísun áfangastaðar og áfangastað skrár fyrir aðal frálagsíhlutinn, og óvirkja svo alla áfangastaði.
 
 ## <a name="security-considerations"></a>Öryggisatriði
 Tvær gerðir af skyldum og réttindum eru notaðar fyrir áfangastaði rafrænnar skýrslugerðar. Ein gerð stjórnar möguleikanum á að viðhalda almennum áfangastaði sem eru skilgreind fyrir lögaðila (það er, hún stjórnar aðgangi að **áfangastöðum rafrænnar skýrslugerðar** síðu). Önnur gerð stjórnar möguleikanum fyrir notanda forrits til að hnekkj, á keyrslutíma, stillingarnar áfangastaðar sem eru skilgreind af forritara rafrænnar skýrslugerðar eða hagnýtur ráðgjafi rafrænnar skýrslugerðar.

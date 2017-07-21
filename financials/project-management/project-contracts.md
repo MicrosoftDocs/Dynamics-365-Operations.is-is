@@ -1,28 +1,28 @@
 ---
 title: Verksamningar
-description: "Þessi grein lýsir og gefur dæmi um verksamninga sem þú getur búið til fyrir ýmsar gerðir af verkefnum og uppruna fjármögnunar, og hvernig þú getur stjórnað samningum og sent viðskiptavinum verka reikninga í Microsoft Dynamics 365 for Operations."
+description: "Þessi grein lýsir og gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
-ms.search.validFrom: 2016-02-28
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir og gefur dæmi um verksamninga sem þú getur búið til fyrir ýmsar gerðir af verkefnum og uppruna fjármögnunar, og hvernig þú getur stjórnað samningum og sent viðskiptavinum verka reikninga í Microsoft Dynamics 365 for Operations.
+Þessi grein lýsir og gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Gerð verks sem er stofnuð fyrir verksamningur ákvarðar aðferðina sem er notuð til að reikningsfæra viðskiptavini verksins. Hægt er að breyta verksamningi og tengdum verkum, en ekki er hægt að breyta gerð verks. 
 
@@ -49,7 +49,7 @@ Sumar verksamninga tilgreina að margir aðila deila ábyrgð fyrir fjármögnun
 -   Vegavinnuverk er samfjármagnað af tveimur sveitarfélaga.
 -   Á Brúarvinnuverk er fjármagnað af opinber styrkur og einkafyrirtæki.
 
-Í Microsoft Dynamics 365 for Operations er hægt að skipta reikningum fyrir einstaka færslu eða allt verkið á milli marga viðskiptavini, styrki eða fyrirtæki. 
+Í Finance and Operations er hægt að skipta reikningum fyrir einstaka færslu eða allt verkið á milli margra viðskiptavina, styrkja eða fyrirtækja. 
 
 Í verkum sem hafa mörg fjármögnunaraðila, verða allir aðilar sem eiga þátt í fjármögnunar ítarlega fjármögnunarverks kallast fjármögnunaraðilar. Eftir að viðskiptavini, fyrirtæki eða styrks er skilgreind sem fjármögnunaraðilar, má úthluta þeim á ein eða fleiri fjármögnunarreglur. Fjármögnunarreglur innihalda þau skilyrði sem ákvarða hvernig gjöldum er úthlutað á ýmsar fjármögnunaraðila fyrir verk. 
 

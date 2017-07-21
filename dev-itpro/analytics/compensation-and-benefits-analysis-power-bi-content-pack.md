@@ -1,27 +1,27 @@
 ---
 title: "Laun og fríðindi Power BI efni"
-description: "Þetta efnisatriði lýsir Power BI-efni Dynamics 365 for Operations - Compensation and Benefits. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka."
+description: "Þetta efnisatriði lýsir Finance and Operations - Compensation and Benefits Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6f8375d31cb3b6a68314eba8341d94dce2edaac2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 70e35a33e06fe7c89dd64d17703f19a71d4a157e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir Power BI-efni Dynamics 365 for Operations - Compensation and Benefits. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka.
+Þetta efnisatriði lýsir Finance and Operations - Compensation and Benefits Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka.
 
 <a name="accessing-the-content-pack"></a>Farið í efnispakkann
 --------------------------
 
-Hægt er að finna efnispakkann Bætur og fríðindi í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnispakkann og tengja hann við gögn Microsoft Dynamics 365 for Operations er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
+Hægt er að finna efnispakkann Bætur og fríðindi í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnispakkann og tengja hann við gögn Microsoft Dynamics 365 for Finance and Operations er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
-Eftir að þú hefur tengt efnispakkann við gögn Dynamics 365 for Operations, sýnir skýrslan þér fyrirtækjagögn þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
+Eftir að þú hefur tengt efnispakkann við gögn Finance and Operations, sýnir skýrslan þér fyrirtækjagögn þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
 | Skýrsla                     | Innihald                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Eftir að þú hefur tengt efnispakkann við gögn Dynamics 365 for Operations, 
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Dynamics 365 for Operations eru notuð til að mynda skýrslur í efnispakka Bóta og fríðinda. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
+Finance and Operations er notað til að mynda skýrslur í efnispakka Compensation and Benefits. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
 
 | Eining                            | Innihald                                                                                                   | Vensl við aðra lögaðila                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

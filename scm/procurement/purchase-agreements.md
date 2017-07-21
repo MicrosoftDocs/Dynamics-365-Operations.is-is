@@ -3,14 +3,14 @@ title: Innkaupasamningar
 description: "Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -71,7 +71,7 @@ Uppfyllingarmagn og -upphæðir koma fram í **Uppfyllingar** flipanum á **Lín
 
 Svæðið **Samkomulag** sýnir heildarmagn eða heildarupphæð sem sölusamningslína er gild fyrir.  
 
-Þú getur nálgast innkaupapöntunarlínur og reikningslínur sem hafa áhrif á uppfyllingarútreikninga með því að velja aðgerðina **Tengdar upplýsingar**í línum eða á haus innkaupasamnings.
+Þú getur nálgast innkaupapöntunarlínur og reikningslínur sem hafa áhrif á uppfyllingarútreikninga með því að velja aðgerðina **Tengdar upplýsingar** í línum eða á haus innkaupasamnings.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Staðfestingar og útgáfusögu fyrir innkaupasamninga
 Þegar innkaupasamningur er staðfestur er núverandi útgáfa innkaupasamningsins vistuð í sögutöflu. Ef innkaupasamnings er breytt hægt að staðfesta hann aftur til að geyma aðra útgáfu af innkaupasamnings í sögu. Ef innkaupasamningur er ekki staðfestur er enn hægt að nota hann til að stofna innkaupapantanir. Hins vegar eru söguupplýsingar innkaupasamnings ekki vistuð. Hægt er að forskoða eða prenta allar útgáfur samningsins. Svo er hægt að deila endurskoðunum til lánardrottins til að fá samþykki.
@@ -80,7 +80,7 @@ Svæðið **Samkomulag** sýnir heildarmagn eða heildarupphæð sem sölusamnin
 Þegar innkaupapöntun er stofnuð er hægt að nota innkaupasamning við hana. Upplýsingar úr skilmálum samningsins, t.d. greiðsluskilmálar, afhendingarskilmálar, og afhendingaraðsetur, eru síðan afritaðar á haus innkaupapöntunarinnar. Ef innkaupapöntunin inniheldur eina eða fleiri línur fyrir afurð eða flokka sem samkomulagið nær yfir, er verð og afsláttur úr innkaupasamningnum notað fyrir þær línur. Upphæð eða magn í pöntunarlínunni hefur áhrif á uppfyllingu samningsins í innkaupapöntuninni. Sama innkaupapöntunin getur bæði haft línur sem eru ekki tengdar við sölusamning og línur sem hafa samning fyrir innkaupapöntun.  
 
 Þú getur aðeins valið innkaupasamning þegar þú stofnar innkaupapöntunarlínu. Ekki er hægt að velja innkaupasamning eftir að°innkaupapöntunin hefur°verið stofnuð.  
-Í sumum aðstæðum þar sem innkaupapantanir eru stofnaðar óbeint er hægt að stjórna því hvort Microsoft Dynamics 365 for Operations ætti að leita sjálfvirkt að innkaupasamningum sem við eiga. Til dæmis gæti þetta verið gert þegar sjálfkrafa eru staðfestar innkaupatillögur eða stofnun innkaupapantana sem eru byggðar á sölupöntunum.
+Í sumum aðstæðum þar sem innkaupapantanir eru stofnaðar óbeint er hægt að stjórna því hvort Finance and Operations eigi að leita sjálfvirkt að innkaupasamningum sem við eiga. Til dæmis gæti þetta verið gert þegar sjálfkrafa eru staðfestar innkaupatillögur eða stofnun innkaupapantana sem eru byggðar á sölupöntunum.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Innkaupasamningar og samstæðuviðskipti.
 Hægt er að stofna vensl viðskiptasamninga samstæðunnar milli lánardrottnalykla og lykla viðskiptavinar sem eru í mismunandi lögaðila. Þegar sölupöntun eða innkaupapöntun er stofnuð fyrir einn aðilanna er pöntunarkeðja innan samstæðunnar stofnuð. Í pöntunarkeðjunni er sölupöntun og innkaupapöntun stofnuð í viðeigandi lögaðila.  

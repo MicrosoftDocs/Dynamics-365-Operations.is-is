@@ -1,39 +1,41 @@
 ---
 title: Setja upp valkosti pantanavinnslu
-description: "Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Operations - Retail."
+description: "Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Setja upp valkosti pantanavinnslu
+# <a name="set-up-order-processing-options"></a>Uppsetning valkosta pantanavinnslu
 
 [!include[banner](includes/banner.md)]
 
 
-Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Operations - Retail. 
+Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Retail. 
 
-Smásala og viðskipti í Dynamics 365 for Operations styður fjölda smásölurása, þ.m.t. netverslanir, verslanir á staðnum og símaver. Í símaverum, starfsmenn taka pantanir viðskiptavina yfir síma og stofna sölupantanir. Þetta efnisatriði lýsir hvernig stofna á símaveri og skilgreina valkosti vinnustöðvar símtalalista. Hvert símaver getur haft eigin notendur, greiðsluhætti, verðflokkar, fjárhagsvíddir og afhendingarmáta. Hægt er að skilgreina valkosti þegar símaver er stofnað. **Mikilvægt:** áður En hægt er að nota verkflæði símavers þegar núverandi Dynamics AX notandi stofnar sölupantanir, notandi verður að vera úthlutað á símaver sem notandi símavers. Síðuna **símaver** má einnig nota til að kveikja eða slökkva á eiginleikaflokkum sem eru sértækir fyrir símaver. Hægt er að virkja eftirfarandi þrjá flokka eiginleika:
+Retail styður fjölda smásölurása, þ.m.t. netverslanir og verslanir á staðnum og þjónustuver. Í símaverum, starfsmenn taka pantanir viðskiptavina yfir síma og stofna sölupantanir. Þetta efnisatriði lýsir hvernig stofna á símaveri og skilgreina valkosti vinnustöðvar símtalalista. Hvert símaver getur haft eigin notendur, greiðsluhætti, verðflokkar, fjárhagsvíddir og afhendingarmáta. Hægt er að skilgreina valkosti þegar símaver er stofnað. **Mikilvægt:** Áður en hægt er að nota verkflæði símavers þegar notandi stofnar sölupantanir verður að úthluta notanda á símaver sem notanda símavers. Síðuna **símaver** má einnig nota til að kveikja eða slökkva á eiginleikaflokkum sem eru sértækir fyrir símaver. Hægt er að virkja eftirfarandi þrjá flokka eiginleika:
 
 -   **Lok pöntunar**– Þessi flokkur inniheldur eiginleika sem tengjast greiðslum og lokum pöntunar í síðunni **sölupöntun**.
 -   **Beind sala**– Þessi flokkur inniheldur aðgerðir sem tengjast frumkóðum, forskriftum og beiðnum um vörulista.

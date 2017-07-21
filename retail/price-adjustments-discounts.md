@@ -1,28 +1,29 @@
 ---
 title: "Verðleiðréttingar og afslættir"
-description: "Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Operations."
+description: "Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a942f7876ab08598a019892056ce6be152d56985
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: caa701dfcbffe045d701442b1a39b88ea5f43125
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Operations.
+Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Retail.
 
-Í Dynamics 365 for Operations - Retail, er hægt að gera verðleiðréttingar afurða og einnig að setja upp afslátt sem er notaður á línu eða færslu á sölustað (POS) í sölupöntun vinnustöðvar símtalalista eða í pöntun á netinu. Hægt er að tengja verðleiðréttingar og afslátt við sérstaka verðflokka. Fyrir bæði verðleiðréttingar og afslátt er hægt að tilgreina eina upphafsdagsetningu og lokadag eða endurtekið tímabil, afsláttarkóða og nokkrar aðrar eigindir. Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetningar eða flokka. Ef fleiri en einn afslætti er beitt á afurð, gæti viðskiptavinur fengið annaðhvort einn afslátt eða samanlagðan afslátt eftir skilgreiningu á afslættinum. Dynamics 365 for Operations beitir afslætti sjálfkrafa eða samsetningu afsláttar sem veitir viðskiptavini besta verð. Þegar verðleiðrétting er sett upp eða afsláttur, þarf að tryggja að staðfest sé að verðflokkar séu tengdir við réttar rásir, vörulista, tengsl eða vildarkerfi sem óskað er eftir að afslátturinn gildi á. Einnig, ef þú vilt mynda afsláttarkenni sjálfkrafa getur þú sett upp númeraraðir á síðunni **Smásölufæribreytur** áður en þú skilgreinir nýjan afslátt eða verðleiðréttingu. **Ábending:** Hægt er að eyða verðleiðréttingu eða afslætti. Hins vegar munu talnagögn glatast.
+Í Dynamics 365 for Retail er hægt að gera verðleiðréttingar afurða og einnig að setja upp afslátt sem er notaður á línu eða færslu á sölustað (POS) í sölupöntun í söluveri eða í pöntun á netinu. Hægt er að tengja verðleiðréttingar og afslátt við sérstaka verðflokka. Fyrir bæði verðleiðréttingar og afslátt er hægt að tilgreina eina upphafsdagsetningu og lokadag eða endurtekið tímabil, afsláttarkóða og nokkrar aðrar eigindir. Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetningar eða flokka. Ef fleiri en einn afslætti er beitt á afurð, gæti viðskiptavinur fengið annaðhvort einn afslátt eða samanlagðan afslátt eftir skilgreiningu á afslættinum. Dynamics 365 for Retail beitir þeim afslætti sjálfkrafa eða þeirri samsetningu afsláttar sem veitir viðskiptavini besta verð. Þegar verðleiðrétting er sett upp eða afsláttur, þarf að tryggja að staðfest sé að verðflokkar séu tengdir við réttar rásir, vörulista, tengsl eða vildarkerfi sem óskað er eftir að afslátturinn gildi á. Einnig, ef þú vilt mynda afsláttarkenni sjálfkrafa getur þú sett upp númeraraðir á síðunni **Smásölufæribreytur** áður en þú skilgreinir nýjan afslátt eða verðleiðréttingu. **Ábending:** Hægt er að eyða verðleiðréttingu eða afslætti. Hins vegar munu talnagögn glatast.
 
 ### <a name="types-of-discounts"></a>Gerðir afsláttar
 

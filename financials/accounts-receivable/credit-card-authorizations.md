@@ -1,9 +1,9 @@
 ---
 title: "Uppsetningar á kreditkorti, heimild og sækja"
-description: "Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics AX. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild."
+description: "Þessi grein veitir yfirsýn yfir kreditkortaheimildir í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96a16f2ff3d092fc9448bf607abfa28ad6cb1e6d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5b3dc7710ebbce50366ca9299bfb30dffc03187
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,8 +31,10 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics AX. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
+
+Þessi grein veitir yfirsýn yfir kreditkortaheimildir í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Setja upp greiðsluþjónustu kreditkorts
 ------------------------------------------
@@ -69,7 +71,7 @@ Sannprófun aðsetursupplýsinga er alltaf sent í greiðsluþjónustuaðila. H�
 Fyrir hverja tegund kreditkorts sem er studd, er hægt að tilgreina í gagnastuðningsstig. Stigið stýrir hversu mikið af upplýsingum um færslu er flutt í greiðsluþjónustu. Gætið þess að hafa samband við veitu til að ákvarða hvort hún geti veitt þessar upplýsingar. Hér eru valkostir fyrir gagnastuðningsstig:
 -   **Stig 1** - flytja færsludagsetningu, færsluupphæð og lýsingu.
 -   **Stig 2** flytja upplýsingar um Stig 1 og einnig aðsetur sendingar- og söluaðila, og skattaupplýsingar.
--   **Stig 3**flytja yfir allar upplýsingar um Stig 2, auk upplýsingar pöntunarlínu.
+-   **Stig 3** flytja yfir allar upplýsingar um Stig 2, auk upplýsingar pöntunarlínu.
 
 ## <a name="partial-payments"></a>Hlutagreiðslur
 Ef þú flytur hluta af pöntun, er magn af hlutapöntun sótt , og heimildin, sem var fyrir upphæð allrar pöntunarinnar, er lokað. Ný heimild er þá send inn fyrir eftirstandandi fjárhæð pöntunar sem ekki hefur verið send.

@@ -3,27 +3,26 @@ title: "Stofna vörulista fyrir símaver"
 description: "Þessi grein gefur yfirlit yfir ferli þess að búa til vörulista fyrir símaver."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Þessi grein gefur yfirlit yfir ferli þess að búa til vörulista fyrir símaver. 
 
-Í  símaver, er hægt að nota vörulista til að auðkenna afurðirnar sem óskað er eftir að bjóða uppá í verslunum. Símaver nota yfirleitt prentaða vörulista. Hönnun og framleiðsla prentaðra vörulista er meðhöndluð utan Microsoft Dynamics 365 for Operations. Hins vegar er hægt að stofna og geyma stafræna skjámynd vörulista í Smásölu og Viðskipti í Dynamics 365 fyrir Operations með því að nota sömu skjámyndirnar og eru notaðar til að setja upp smásöluvörulista á netinu. Áður en hægt er að stofna vörulista verður að setja upp afurðaúrvali og úthluta þjónustumiðstöð í úrvali. Að bæta afurðir vörulista með því að velja vörur úr þessum úrvali. Eftir að afurðir hefur verið bætt við vörulista og vörulistinn er lokið, verður að villuleita vörulista til að staðfesta gögn. Vörulisti er því næst sendar til yfirferðar og samþykktar. Eftir að vörulisti er samþykktur er hægt að birta hann. Þegar vörulisti fyrir símaver er stofnaður er hægt að taka skyndimynd af vörulistagögnunum þegar°vörulistinn er gefinn út. Þessi virkni skyndimynd gerir kleift að fá aðgang að tiltekinni útgáfu vörulista, jafnvel þótt vörulistinn er síðar breytt og uppfært. Einnig er hægt að setja vörulista símavers upp til að taka með eftirfarandi valfrjálsar aðgerðir:
+Í  símaver, er hægt að nota vörulista til að auðkenna afurðirnar sem óskað er eftir að bjóða uppá í verslunum. Símaver nota yfirleitt prentaða vörulista. Hönnun og framleiðsla á prentuðum vörulista fer fram utan Microsoft Dynamics 365 for Retail. Hins vegar er hægt að stofna og geyma stafræna skjámynd vörulista með því að nota sömu form og eru notuð til að setja upp smásöluvörulista á netinu. Áður en hægt er að stofna vörulista verður að setja upp afurðaúrvali og úthluta þjónustumiðstöð í úrvali. Að bæta afurðir vörulista með því að velja vörur úr þessum úrvali. Eftir að afurðir hefur verið bætt við vörulista og vörulistinn er lokið, verður að villuleita vörulista til að staðfesta gögn. Vörulisti er því næst sendar til yfirferðar og samþykktar. Eftir að vörulisti er samþykktur er hægt að birta hann. Þegar vörulisti fyrir símaver er stofnaður er hægt að taka skyndimynd af vörulistagögnunum þegar°vörulistinn er gefinn út. Þessi virkni skyndimynd gerir kleift að fá aðgang að tiltekinni útgáfu vörulista, jafnvel þótt vörulistinn er síðar breytt og uppfært. Einnig er hægt að setja vörulista símavers upp til að taka með eftirfarandi valfrjálsar aðgerðir:
 
 -   **Frumkóðar** - kóðar sem eru notaðir til að fylgjast með viðbrögðum viðskiptavina við tilteknum pósti verslun.
 -   **Ókeypis vörur** – Vörur sem bætt er við pöntun viðskiptavinar án viðbótargjalda. Þessum vörum er sjálfkrafa bætt við pöntunina þegar frumkóði fyrir vörulistann er færður inn í pöntun.

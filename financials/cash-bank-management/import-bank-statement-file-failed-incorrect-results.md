@@ -1,27 +1,27 @@
 ---
 title: "Úrræðaleit vegna innflutnings bankayfirlitsskrár"
-description: "Það er mikilvægt að bankayfirlitsskránni frá bankanum samsvari útliti sem Microsoft Dynamics 365 fyrir Operations styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu."
+description: "Það er mikilvægt að bankayfirlitsskráin frá bankanum samsvari útliti sem Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Það er mikilvægt að bankayfirlitsskránni frá bankanum samsvari útliti sem Microsoft Dynamics 365 fyrir Operations styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu.
+Það er mikilvægt að bankayfirlitsskráin frá bankanum samsvari útliti sem Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu.
 
 <a name="what-is-the-error"></a>Hver er villan?
 ------------------
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 Þegar þú hefur reynt að flytja inn bankayfirlitsskránni, skaltu fara í vinnslusögu gagnastjórnunar og í Gögn og upplýsingar um framkvæmd til að finna villuna. Villan getur hjálpað til með því vísa til yfirlits, stöðu eða uppgjörslínu. Hins vegar er ólíklegt að hún veiti nægar upplýsingar til að auðvelda að auðkenna svæði eða einingu sem veldur vandamálinu.
 
 ## <a name="what-are-the-differences"></a>Hver er munurinn?
-Berðu saman skilgreiningu útlits bankaskrár við innflutningsskilgreiningu Microsoft Dynamics 365 for Operations, og athugið hvers kyns mismunur á svæðum og einingar. Bera saman bankayfirlitsskránni við tengdar sýnisskrár Dynamics 365 for Operations. Í ISO20022 skrárnar ætti að vera auðvelt að sjá mismun.
+Berðu saman skilgreiningu útlits bankaskrár við innflutningsskilgreiningu Finance and Operations og taktu eftir öllu misræmi í reitum og einingum. Berðu saman bankayfirlitsskrána við tengda sýnisskrá Finance and Operations. Í ISO20022 skrárnar ætti að vera auðvelt að sjá mismun.
 
 ## <a name="transformations"></a>Umbreytingar
 Yfirleitt, verður að framkvæma breytinguna í einni af þremur umbreytingum. Hver umbreyting er skrifuð fyrir tiltekna staðla.
@@ -80,7 +80,7 @@ Nánari upplýsingar, sjá <https://msdn.microsoft.com/en-us/library/ms255605.as
 
 ### <a name="adjust-the-transformation"></a>Stilla umbreytingu
 
-Stilla umbreytingu til að fá viðeigandi svæði eða einingu í bankayfirlitsskránni. Síðan varpa því svæði eða einingu á viðeigandi einingu Dynamics 365 for Operations.
+Stilla umbreytingu til að fá viðeigandi svæði eða einingu í bankayfirlitsskránni. Varpaðu svo þeim reit eða einingu á viðeigandi einingu Finance and Operations.
 
 ### <a name="debitcredit-indicator"></a>Vísir fyrir debet/kredit
 

@@ -3,25 +3,25 @@ title: "Sala og markaðsstarf"
 description: "Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -43,7 +43,7 @@ Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gög
 
 ### <a name="campaigns"></a>Herferðir
 
-Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 for Operations er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
+Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 for Finance and Operations er hægt að stofna margar gerðir herferða, eins og símsölu, póstsendingar og tölvupóstherferðir, til að hámarka mögulega viðskiptavini. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
 Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga  fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)

@@ -3,27 +3,26 @@ title: "Skýrsluhönnunarviðmót"
 description: "Þessi grein útskýrir hvernig á að fara gegnum Report Designer og hvernig á að nota mismunandi valkostir til að uppfylla sérstakar kröfur fyrirtækisins."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -53,7 +52,7 @@ Valmyndin **Skrá** er í boði fyrir alla notendur og inniheldur eftirfarandi s
 | Vista sem                           | Vista núverandi línuskilgreiningu, dálkskilgreiningu, skipuritsskilgreiningu eða skýrsluskilgreiningu undir nýju heiti.                                                                            |
 | Eiginleikar                        | Opna skal **Eiginleika** svarglugga þar sem hægt er að breyta heiti og lýsingu á skýrslu.                                                                                                   |
 | Mynda                          | Mynda núverandi skýrslu. Þessi skipun er í boði í skýrsluskilgreiningu.                                                                                                                 |
-| Skoða skýrslu                       | Opna nýjustu útgáfu skýrslunnar sem var mynduð í Dynamics 365 for Operations. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef mynduð hefur verið a.m.k. ein skýrsla.                                 |
+| Skoða skýrslu                       | Opna nýjustu útgáfu skýrslunnar sem var mynduð í Finance and Operations. Þessi skipun er tiltæk úr skilgreiningu skýrslu ef mynduð hefur verið a.m.k. ein skýrsla.                                 |
 | Nýlegar skýrsluskilgreiningar         | Sýna lista yfir skýrslur sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja skýrslu á listanum.                                                                                    |
 | Nýlegar línuskilgreiningar            | Sýna lista yfir línuskilgreiningar sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja línuskilgreiningu á listanum.                                                                    |
 | Nýlegar dálkskilgreiningar         | Sýna lista yfir dálkskilgreiningar sem hafa nýlega verið stofnaðar eða breytt. Þá er hægt að velja dálkskilgreiningu á listanum.                                                              |
@@ -101,7 +100,7 @@ Valmyndin **Skrá** er í boði fyrir alla notendur og inniheldur eftirfarandi s
 
 ### <a name="format-menu"></a>Valmyndin Snið
 
-**Snið** valmyndin er tiltæk fyrir notendur sem hafa hlutverk sem**Hönnuður** eða **Kerfisstjóri**. Þessi valmynd hefur meðal annars eftirfarandi skipanir.
+**Snið** valmyndin er tiltæk fyrir notendur sem hafa hlutverk sem **Hönnuður** eða **Kerfisstjóri**. Þessi valmynd hefur meðal annars eftirfarandi skipanir.
 
 | Skipun               | Lýsing                                                                                                                                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -133,7 +132,7 @@ Valmyndin **Áfram** er í boði fyrir alla notendur og inniheldur eftirfarandi 
 
 ### <a name="tools-menu"></a>Valmyndin Verkfæri
 
-Valmyndin**Verkfæri** er tiltæk fyrir alla notendur en sumar skipanir eru aðeins tiltækar að takmörkuðu leyti. Þessi valmynd hefur meðal annars eftirfarandi skipanir.
+Valmyndin **Verkfæri** er tiltæk fyrir alla notendur en sumar skipanir eru aðeins tiltækar að takmörkuðu leyti. Þessi valmynd hefur meðal annars eftirfarandi skipanir.
 
 | Skipun                       | Lýsing                                                                                                                                                                                                       |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -163,7 +162,7 @@ Valmyndin **Gluggi** er í boði fyrir alla notendur og inniheldur eftirfarandi 
 
 | Skipun | lýsing                                                  |
 |---------|--------------------------------------------------------------|
-| Hjálp    | Opna Dynamics 365 for Operations hjálparefnissíðu fyrir fjárhagsskýrslugerð. |
+| Hjálp    | Opna Finance and Operations hjálparefnissíðu fyrir fjárhagsskýrslugerð. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Skýrsluhönnunarverkfærahnappar

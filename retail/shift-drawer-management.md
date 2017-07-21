@@ -3,25 +3,27 @@ title: "Stjórnun vaktar og peningaskúffu"
 description: "Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Sjálfstæðar vaktir eru notaðar í hefðbundið, föst POS-aðstæður, þar 
 
 Sjálfstæð vakt vakt tiltekin á stigi skúffunnar. Þessu ferli er útskýrt hvernig á að setja upp sjálfstæða vaktinni á afgreiðslukassa Sölustaðar.
 
-1.  Smella á **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarreglur**.
+1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.
 2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
 3.  Á við **Skúffu** flýtiflipa, staðfesta að **Samnýttum skúffa vaktar** valkostur er stilltur á **Nei**.
-4.  Smellið á **Vista**.
-5.  Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
+4.  Smellt er á **Vista**.
+5.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
 6.  Veljið afgreiðslukassa sem þarf sjálfstæða vakt krefst og smellið síðan á **Breyta**.
 7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Smellið á **Vista**.
-9.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
+8.  Smellt er á **Vista**.
+9.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
 
 ### <a name="use-a-stand-alone-shift"></a>Nota sjálfstæða vakt
@@ -70,15 +72,15 @@ Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta pen
 
 ### <a name="set-up-a-shared-shift"></a>Setja upp samnýttar vaktir
 
-1.  Smella á **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarreglur**.
+1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.
 2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
 3.  Á við **Skúffu** flýtiflipa, skal stilla **Samnýttum skúffa vaktar** valkostur á **Já**.
-4.  Smellið á **Vista**.
-5.  Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
+4.  Smellt er á **Vista**.
+5.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
 6.  Veljið afgreiðslukassa sem þarf samnýtta vakt og smellið síðan á **Breyta**.
 7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Smellið á **Vista**.
-9.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
+8.  Smellt er á **Vista**.
+9.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
 
 ### <a name="use-a-shared-shift"></a>Nota samnýttra vakt.

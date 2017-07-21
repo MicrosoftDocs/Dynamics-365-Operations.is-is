@@ -3,26 +3,26 @@ title: "Kostnaðarstjórnun Power BI efni"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: sericks
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -52,7 +52,7 @@ Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara b
 Megingagnaveita fyrir CostAggregatedCostStatementEntryEntity er taflan CostStatementCache. Þessari töflu er stjórnað af ramma skyndiminnis gagnasafns. Sjálfgefið er að taflan sé uppfærð á 24 tíma fresti en hægt er að virkja handvirkar uppfærslur í skilgreiningu gagnaskyndiminnis. Síðan er hægt að gera handvirka uppfærslu á vinnusvæðinu **Kostnaðarstjórnun** eða **Kostnaðargreiningu**. Eftir að uppfærslan á CostStatementCache hefur verið keyrð verður að uppfæra OData-tenging í Power BI.com til að sjá uppfærð gögn á svæði. Frávikin (innkaup, framleiðsla) sem eru mæld í þessu Power Bi-efni snerta aðeins atriði sem eru metin af aðferð Staðalkostnaðar birgðir. Framleiðslufrávik eru reiknuð sem mismunurinn milli virks kostnaðar og innleysts kostnaðar. Framleiðslufrávik er reiknað þegar framleiðslupöntun er með stöðuna **Lokið**. Frekari upplýsingar um gerð framleiðslufrávika og hvernig hver gerð er reiknuð út er að finna í [Um greiningu frávika fyrir lokna framleiðslupöntun](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Kostnaðarstjórnun Power BI efni** er tiltækt frá PowerBI.com Nánari upplýsingar um hvernig á að tengja og hlaða gögn Microsoft Dynamics 365 for Operations, sjá [Aðgangur Power BI efni úr PowerBI.com](power-bi-home-page.md).
+**Kostnaðarstjórnun Power BI efni** er tiltækt frá PowerBI.com Nánari upplýsingar um hvernig á að tengja og hlaða gögn Microsoft Dynamics 365 for Finance and Operations er að finna í [Aðgangur að Power BI efni frá PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efni **Kostnaðarstjórnun**.
@@ -84,9 +84,9 @@ Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safn
 | |Framleiðslufrávik eftir svæðaheiti og stigi flokksheitis 3 | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Dynamics 365 for Operations eru notuð til að fylla út skýrslusíður í Power BI-efni **Kostnaðarstjórnunar**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md) Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
+Gögn Finance and Operations eru notuð til að fylla út skýrslusíður í Power BI-efninu **Kostnaðarstjórnun**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md) Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 
-| Eining            | Lykiluppsafnaðar mælingar | Gagnaveita fyrir Dynamics 365 for Operations | Svæði             | lýsing                       |
+| Eining            | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði             | lýsing                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Færslur yfirlits | Nettó breyting                | CostAggregatedCostStatementEntryEntity      | sum(\[upphæð\])   | Upphæð í bókhaldsgjaldmiðli |
 | Færslur yfirlits | Magn nettóbreytingar       | CostAggregatedCostStatementEntryEntity      | sum(\[magn\]) |                                   |

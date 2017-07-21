@@ -3,32 +3,34 @@ title: Stofna innkaupapantanir
 description: "Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt.
@@ -70,7 +72,7 @@ Stundum gæti verið óskað að skipta upp magnið sem þú hefur pantað, þan
 Gjöld má sjálfkrafa bæta við pöntunina ef sjálfvirk gjöld hafa verið sett upp fyrir lánardrottinn eða gjaldflokk lánardrottins, og fyrir vöruna eða gjaldflokk vörunnar. Hins eru algengrara að gjöldum er bætt við handvirkt á stigi pöntunarlínu. Til að bæta við gjaldi skal opna **vinna Með gjöld** síðu með því að nota **vinna Með gjöld** aðgerð á í **Fjárhagur** valmynd í yfirlitinu **Línur**. Kosturinn við að bæta gjöldum beint við á stigi pöntunarlínu er að gjöldunum má úthluta sem birgðakostnað. Til að setja upp gjaldakóða fyrir afurðarkostnað lykils, skal nota **Vöru** debet valkost. Þessar gerðir gjalda verður að úthluta úr haus Innkaupapöntunar á línur áður en hægt er að staðfesta pöntunina. Til dæmis viltu kannski úthluta gjöldum byggður á magninu í hverri línu. gjaldaflokkur hefur einnig áhrif á hvernig gjöld eru færð til reiknings. Til dæmis, föst gjöld tilgreina föst upphæð og prósentugjöld er reiknað sem prósenta af nettó upphæð fyrir pöntunarlínuna. Innkaupapantanir er hægt að úthluta á farm og farminum gæti falið í sér mat á áætlaða kostnaðar fyrir flutningskostnaðinn. Hægt er að úthluta þessum kostnaði úr farminum aftur á línur Innkaupapöntunar.
 
 ## <a name="purchase-order-actions"></a>Aðgerðir fyrir innkaupapöntun
-Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](/dynamics365/operations/get-started/action-search) til að finna viðeigandi valmyndaratriði.  
+Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) til að finna viðeigandi valmyndaratriði.  
 
 Hægt er að skilgreina vörur í pöntun þannig að þeir hafa fylgivörur. Fylgivörur eru afurðir sem verður eða er hægt að kaupa með aðrar afurðir. fylgivöru gæti verið bætt við án aukagjalda sem meðfylgjandi afurðir, eða hugsanlega er hægt að ákveða hvort á að bæta þeim við pöntunina eða ekki. Hægt er að fara yfir fylgivörur eftir hverja pöntunarlínu sem er bætt við. Hins vegar er sennilega að þér finnist þægilegra að fara yfir og bæta við fylgivöru fyrir allar pöntunarlínur með því að nota í **fylgivörur** síða sem hægt er að opna í Aðgerðarúðu.  
 
@@ -94,7 +96,7 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
-[Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

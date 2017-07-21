@@ -3,25 +3,25 @@ title: "Setja upp og mynda jákvæða greiðsluskrá launa"
 description: "Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f82ed69aaaf4d3345ef4e74a338124465dcf2358
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc4269fc8bf8319a2a2f4e3769f0ffb31d5ef79d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Setja upp jákvæða greiðslu til að búa til rafræna lista yfir ávísanir sem eru gefnar í banka. Þegar ávísun er innleyst í bankanum ber bankinn ávísunina saman við lista yfir ávísanir. Ef ávísunin stemmir við ávísun í listanum samþykkir bankinn ávísunina. Ef ávísunin stemmir ekki við ávísun í listanum heldur bankinn henni eftir til skoðunar.
 
 ## <a name="security-for-positive-pay-files"></a>Öryggi í jákvæðum greiðsluskrám
-Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Vegna þess að jákvæðar greiðsluskrár geta innihaldið viðkvæmar upplýsingar, er mikilvægt að aðeins heimilaðir notendur hafi aðgang til að mynda og skoða þessar upplýsingar í Microsoft Dynamics 365 for Operations. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
+Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Vegna þess að jákvæðar greiðsluskrár geta innihaldið viðkvæmar upplýsingar, er mikilvægt að aðeins heimilaðir notendur hafi aðgang til að mynda og skoða þessar upplýsingar í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
 
 <table>
 <colgroup>

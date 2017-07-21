@@ -3,7 +3,7 @@ title: "Aðsetursbækur"
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 568000b37fa067dfd34b4ee0642e4ba6cbe3aa54
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7b3bed2bec4b109c6e3b557b8c3651f15f25169c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Hægt er að leita að tvíteknum færslum beint úr listasíðunni **Altæk að
 Já, hægt er að bæta mörgum aðilafærslum í aðsetursbók og fjarlægja einnig margar aðilafærslur.
 
 -   Til að bæta mörgum aðilafærslum í aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók** velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Úthluta aðilum**. Veljið aðsetursbækur sem á að bæta völdum aðilafærslum við og smellið síðan á **Í lagi**. Öllum völdum aðilafærslum er bætt við valdar aðsetursbækur.
--   Til að fjarlægja margar aðilafærslur úr aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók**velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Fjarlægja aðila**. Veljið aðsetursbækur þaðan sem fjarlægja á aðila, og smellið síðan á **Í lagi**. Allar valdar aðilafærslur eru fjarlægðar úr völdum aðsetursbókum.
+-   Til að fjarlægja margar aðilafærslur úr aðsetursbók, skal, á listasíðunni **Altæk aðsetursbók** velja þá aðila í listanum. Síðan skal, í Aðgerðarrúðunni, á flipanum **Aðili** í hópnum **Vinna með** smella á **Fjarlægja aðila**. Veljið aðsetursbækur þaðan sem fjarlægja á aðila, og smellið síðan á **Í lagi**. Allar valdar aðilafærslur eru fjarlægðar úr völdum aðsetursbókum.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Er hægt að breyta gerð færslu aðila eða þarf að eyða gömlum færslunni og stofna nýja?
 Einstaka sinnum gæti þurft að breyta gerð°færslu úr einstaklingur í fyrirtæki eða úr fyrirtæki í einstaklingur. Til dæmis er Nancy meðlimur söluhópsins fyrir Fabrikam U.K. Á sölusýningu í London, hittir hún sex ný viðföng. Nancy stofnar viðfangsfærslu aðila fyrir hvert viðfang. Þegar Nancy vistar færslurnar, er hver færsla einnig stofnuð í altæku aðsetursbókinni. Fabrikam hefur sett sjálfgefna aðilagerð á fyrirtæki en tvö nýju viðfanganna ættu að hafa færslugerð einstaklings. Þess vegna þarf Nancy, þegar hún kemur til baka frá sölusýningunni, að breyta gerð aðila í þessum tveimur viðfangsfærslum. Til að breyta færslu aðila úr einni gerð aðila í aðra, verður fyrst að stofna nýja færslu aðila af réttri gerð í altæku aðsetursbókinni. Síðan þarf að tengja°eldri færslu aðila við þessa nýja færslu. Eftir að hafa framkvæmt nýja tengingu aðila, þarf að eyða upprunalegri aðilafærslu sem hefur ranga færslugerð.
@@ -67,7 +67,7 @@ Hægt er að færa inn aðilafærslur annað hvort°í altæku aðsetursbókina 
 -   **Stofna aðilafærslu þegar einingargerð er þekkt** - Ef einingargerð aðila er þekkt er hægt að stofna færslu á viðeigandi síðu fyrir þá gerð. Til dæmis skal stofna færslu fyrir viðskiptavin á síðunni **Viðskiptavinur**. Þegar færsla er stofnuð og vistuð með því að nota viðeigandi einingarsíðu er færslan stofnuð sjálfkrafa í altæku aðsetursbókinni.
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Er hægt að þýða upplýsingar um aðsetur fyrir aðilafærslur?
-Hægt er að setja upp þýðingar á upplýsingum um aðsetur,°þannig að upplýsingarnar birtast á tungumáli notanda (kerfistungumál) í Microsoft Dynamics 365 for Operations en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
+Hægt er að setja upp þýðingar á upplýsingum um aðsetur þannig að upplýsingarnar birtist á tungumáli notanda (kerfistungumál) í Microsoft Dynamics 365 for Finance and Operations, en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
 
 
 

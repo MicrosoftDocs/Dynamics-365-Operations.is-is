@@ -3,25 +3,27 @@ title: "Yfirlit pantana viðskiptavina"
 description: "Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar í Retail Modern POS (MPOS). Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ Hér eru nokkrar af færibreytur sem hægt er að stilla á síðunni **smásöl
 
 -   **Prósenta sjálfgefinnar innborgunar** – Tilgreina upphæð sem viðskiptamaðurinn verður að borga sem innistæða áður en hægt er að staðfesta pöntun. Sjálfgefin innborgunarupphæð er reiknuð sem prósenta af virði pöntunar. Það fer eftir réttindum en aðili tengdur verslun gæti hnekkt upphæð með því að nota **Hnekking innborgunar**.
 -   **Afpöntunargjald prósenta** – Ef gjald verður jafnað þegar hætt er við pöntun viðskiptavinar, skal skilgreina upphæð þess gjalds.
--   **Afpöntunargjald prósenta** – Ef gjald verður jafnað þegar hætt er við pöntun viðskiptavinar, verður það gjald endurspeglað undir gjaldakóða sölupöntunar í Microsoft Dynamics AX. Notaðu þessa færibreytu til að skilgreina kóða afpöntunargjalds.
--   **Kóði sendingargjalds** – Smásalar geta rukkað sérstaka þóknun fyrir afhendingu á varningi til viðskiptavinur. Upphæð þessa sendingargjalds verður endurspegluð undir gjaldakóða sölupöntunar í Dynamics AX. Notaðu þessa færibreytu til að varpa kóða sendingargjalds í sendingargjöld á pöntun viðskiptavinar.
+-   **Kóði afpöntunargjalds** – Ef gjald er sett á þegar pöntun frá viðskiptavini er afturkölluð, er það gjald sýnt með gjaldkóða á sölupöntuninni. Notaðu þessa færibreytu til að skilgreina kóða afpöntunargjalds.
+-   **Kóði sendingargjalds** – Smásalar geta rukkað sérstaka þóknun fyrir afhendingu á varningi til viðskiptavinur. Upphæð þess sendingargjalds er sýnt undir gjaldkóða á sölupöntuninni. Notaðu þessa færibreytu til að varpa kóða sendingargjalds í sendingargjöld á pöntun viðskiptavinar.
 -   **Endurgreiðsla sendingargjöld** – Tilgreina hvort sendingargjöld sem eru sem tengist a pöntun viðskiptavinar eru endurgreiðanleg.
 -   **Hámarksupphæð án samþykkis** – Ef sendingargjöld eru endurgreiðanleg skal tilgreina hámarksupphæð endurgreiðslu sendingargjalda í skilapöntunum. Ef farið er upp fyrir þessa upphæð er hnekkingu stjórnanda þörf til að halda áfram með endurgreiðsluna. Til að koma fyrir eftirfarandi sviðsmyndum getur endurgreiðsla á sendingargjöldum farið yfir upphæðina sem var upphaflega greidd:
     -   Gjöld eru jafnað á stigi sölupöntunarhauss, og þegar sumu magni afurðarlínu er skilað, er ekki hægt að ákvarða hámarksendurgreiðslu sendingargjalda sem er leyfileg fyrir afurðir og magn á þann hátt sem virkar fyrir alla viðskiptavini smásölu.
@@ -90,10 +92,10 @@ Hægt er að stofna pantanir viðskiptavinar úr biðlara sölustaðar (POS) í 
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Gera virkt að pantanir viðskiptavinar séu stofnaðar í ósamstilltum ham
 
-1.  Í Dynamics AX smellirðu á **Smásölu og viðskipti** &gt; **uppsetning Rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **virknireglur**.
+1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**.
 2.  Á flipanum **Almennt** stillirðu valkostinn **Stofna viðskiptavinapöntun í ósamstilltri stillingu** á **Já**.
 
-Þegar valkosturinn **Stofna pöntun viðskiptavinar í ósamstilltri stillingu** er stilltur á **Já** verða pantanir viðskiptavinar alltaf stofnaðar í ósamstilltum ham, jafnvel þó að Retail Transaction Service (RTS) er tiltækt. Ef þessi valkostur er stilltur á **Nei** verða pantanir viðskiptavinar alltaf stofnaðar í samstilltum ham með því að nota RTS. Þegar pantanir viðskiptavinar eru stofnaðar í ósamstilltum ham eru þær sóttar og settar inn í Dynamics AX með Pull (P) vinnsla. Samsvarandi sölupantanir eru stofnaðar i Dynamics AX þegar **Samstilla pantanir** er keyrt annaðhvort handvirkt eða með runuvinnslu.
+Þegar valkosturinn **Stofna pöntun viðskiptavinar í ósamstilltri stillingu** er stilltur á **Já** verða pantanir viðskiptavinar alltaf stofnaðar í ósamstilltum ham, jafnvel þó að Retail Transaction Service (RTS) er tiltækt. Ef þessi valkostur er stilltur á **Nei** verða pantanir viðskiptavinar alltaf stofnaðar í samstilltum ham með því að nota RTS. Þegar pantanir frá viðskiptavinum eru stofnaðar í ósamstilltum ham eru þær sóttar og settar inn í Retail með P-vinnslum. Samsvarandi sölupantanir eru stofnaðar í Retail þegar **Samstilla pantanir** er keyrt annaðhvort handvirkt eða með runuvinnslu.
 
 <a name="see-also"></a>Sjá einnig
 --------

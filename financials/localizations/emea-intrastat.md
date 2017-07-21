@@ -3,7 +3,7 @@ title: Intrastat
 description: "Þessi grein veitir upplýsingar um intrastat-skýrslur fyrir viðskipti með afurðir, og í sumum tilfellum, með þjónustu á milli landa/svæða innan Evrópusambandsins (ESB). Hún veitir yfirlit yfir ferli skýrslugerðar og lýsir nauðsynlegum stillingum og forsendum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5dea47c92c3891ce86b470119ea3bad8252c08d1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Eftirfarandi kaflar lýsa heildarflæði upplýsinga sem er notað við Intrasta
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Færa inn færslu sem fer yfir landamæri annars lands/svæðis í ESB
 
-Reikningur viðskiptavinar, textareikningur, innkaupareikningur, verkreikningur, fylgiseðill viðskiptavinar, innhreyfingarskjal afurða fyrir lánardrottin eða flutningspöntun er aðeins flutt í Intrastatbókina ef gerð ákvörðunarstaðar lands/svæðis (á sendingar) eða vörusendingu (á aðsent) er **ESB**. Þessi eiginleiki var framlengdur fyrir Microsoft Dynamics 365 for Operations útgáfu 1611 og gerir kleift að tilgreina aðsetur farmbréfs fyrir viðskipti innan Bandalagsins. Ef aðsetur farmbréfs er ekki það sama og heimilisfang á vinnustað lánardrottins (eða heimilisfang á vinnustað viðskiptavinar fyrir skilapöntun) mun Intrastat-skýrslugerðin nota þessar upplýsingar. Þegar sölupöntun, textareikningur, innkaupapöntun, reikningur lánardrottins, verkreikningur eða flutningspöntun eru stofnuð hafa sumir reitir sem eru tengdir erlendum viðskiptum sjálfgildi í haus skjals eða á línu. Sjálfgefinn færslukóði er fenginn úr samsvarandi reit á síðunni **Færibreytur erlendra viðskipta**. Sjálfgefinn vörukóði, upprunaland /-svæði og upprunaríki/-hérað er sótt frá vöru. Hægt er að breyta sjálfgildum og getur einnig að fylla út í aðrar upplýsingar tengdum erlend viðskiptum: talnagagnasaðferð, flutningsmáta og tengi.
+Reikningur viðskiptavinar, textareikningur, innkaupareikningur, verkreikningur, fylgiseðill viðskiptavinar, innhreyfingarskjal afurða fyrir lánardrottin eða flutningspöntun er aðeins flutt í Intrastatbókina ef gerð ákvörðunarstaðar lands/svæðis (á sendingar) eða vörusendingu (á aðsent) er **ESB**. Þessi eiginleiki var framlengdur fyrir Microsoft Dynamics 365 for Operations (1611) og gerir kleift að tilgreina aðsetur farmbréfs fyrir viðskipti innan Bandalagsins. Ef aðsetur farmbréfs er ekki það sama og heimilisfang á vinnustað lánardrottins (eða heimilisfang á vinnustað viðskiptavinar fyrir skilapöntun) mun Intrastat-skýrslugerðin nota þessar upplýsingar. Þegar sölupöntun, textareikningur, innkaupapöntun, reikningur lánardrottins, verkreikningur eða flutningspöntun eru stofnuð hafa sumir reitir sem eru tengdir erlendum viðskiptum sjálfgildi í haus skjals eða á línu. Sjálfgefinn færslukóði er fenginn úr samsvarandi reit á síðunni **Færibreytur erlendra viðskipta**. Sjálfgefinn vörukóði, upprunaland /-svæði og upprunaríki/-hérað er sótt frá vöru. Hægt er að breyta sjálfgildum og getur einnig að fylla út í aðrar upplýsingar tengdum erlend viðskiptum: talnagagnasaðferð, flutningsmáta og tengi.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Notaðu Intrastatbókina til að mynda upplýsingar um viðskipti meðal landa/svæða Evrópusambandsins.
 

@@ -3,27 +3,26 @@ title: "Hlutar fjárhagsskýrslu"
 description: "Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu. Þessar einingar eru línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. Í þessari grein er útskýrt hvernig á að skipuleggja og læsa einingum, og hvernig unnið er með einingahópa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 057c338c11518b3a1081223e432cbfd109d5e679
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -72,7 +71,7 @@ Einingar eru línuskilgreiningarnar, dálkskilgreiningarnar og skipuritsskilgrei
 ### <a name="create-a-building-block-group"></a>Einingahópur stofnaður
 
 1.  Á valmyndinni **Fyrirtæki** í Report Designer er smellt á **Einingarhópar**.
-2.  Í svarglugganum **Einingarhópar**er smellt á **Nýtt**.
+2.  Í svarglugganum **Einingarhópar** er smellt á **Nýtt**.
 3.  Færið inn einkvæmt heiti og lýsingu á einingahópnum. Hver reitur má innihalda að hámarki 256 stafi. (Þessi fjöldi inniheldur bil.)
 4.  Smellt er á **Í lagi** til að stofna nýjan einingahóp.
 
@@ -105,7 +104,7 @@ Hægt er að vista einingahóp sem þegar er til undir nýju heiti. Síðan má 
 
 ### <a name="export-a-building-block-group"></a>Einingahópur fluttur út
 
-Einnig er hægt að flytja einingahóp út eða tilteknar skýrslueiningar í einingahóp. Hægt er að nota einingahóp sem hefur verið fluttur út sem afrit. Einnig er hægt að afrita gögn sem voru flutt út milli einingahópa eða uppsettra Dynamics 365 for Operations. Skýrsluhönnun tekur með leturstíl sem vísað er til og víddasamstæður með í einingahópnum.
+Einnig er hægt að flytja einingahóp út eða tilteknar skýrslueiningar í einingahóp. Hægt er að nota einingahóp sem hefur verið fluttur út sem afrit. Einnig er hægt að afrita gögn sem voru flutt út milli einingahópa eða uppsettra Finance and Operations. Skýrsluhönnun tekur með leturstíl sem vísað er til og víddasamstæður með í einingahópnum.
 1.  Á valmyndinni **Fyrirtæki** í Skýrsluhönnun er smellt á **Einingarhópar**.
 2.  Í svarglugganum **Einingarhópar** er valinn einingahópurinn sem á að flytja út og síðan er smellt á **Flytja út**.
 3.  Smellið á skýrsluskilgreiningarnar í svarglugganum **Flytja út** til að flytja út:

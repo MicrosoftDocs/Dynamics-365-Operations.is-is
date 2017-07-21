@@ -1,28 +1,29 @@
 ---
 title: "Frumstilla grunngögn í nýju Retail-umhverfi"
-description: "Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Operations - Retail."
+description: "Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 534c9ab0f4d95f42d09f35d3197a2258c8d39526
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0ee002d733882734c9f5a21e0467cacd1b3ff318
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,12 +33,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Operations - Retail.
+Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
 
 Þegar smásölulausn hefur verið virkjuð í Microsoft Dynamics Lifecycle Services (LCS), verður að frumstilla smásöluskilgreiningu til að stofna grunnskilgreiningargögn. **Mikilvægt:** Áður en grunnstilling smásölu er frumstillt þarf að ganga úr skugga um að tungumál og póstfang fyrir hvern lögaðila hafi verið tilgreint þar sem setja verður upp verslanir fyrir smásöluverslun. Ljúka verður við þessi skref fyrir hvern lögaðila sem er notaður fyrir smásölu. Fylgið eftirfarandi skrefum til að frumstilla skilgreiningar smásölu.
 
-1.  Ræsa Dynamics 365 for Operations-biðlara.
-2.  Smellt er á **Smásala og viðskipti** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.
+1.  Ræsa Dynamics 365 for Retail-biðlara.
+2.  Smellt er á **Smásala** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.
 3.  Smellið á **Frumstilla**.
 
 Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
@@ -54,7 +55,7 @@ Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
 -   Sniðmát fyrir villuleit eininga
 -   Runuvinnsla til að hreinsa setuferil Commerce Data Exchange
 
-Þar að auki er skráning sem er tengd við greiðslukortageirann (PCI) virk fyrir Dynamics 365 for Operations-gagnagrunninn. **Ábending:** Það er valkostur til að skilgreina Retail verkraðara sérstaklega. Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar. Þegar frumstillingu er lokið verður að skilgreina viðbótarupplýsingar smásölugagna. Hér eru nokkur dæmi:
+Þar að auki er skráning sem er tengd við greiðslukortageirann (PCI) virk fyrir Dynamics 365 for Retail-gagnagrunninn. **Ábending:** Það er valkostur til að skilgreina Retail verkraðara sérstaklega. Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar. Þegar frumstillingu er lokið verður að skilgreina viðbótarupplýsingar smásölugagna. Hér eru nokkur dæmi:
 
 -   Smásölufæribreytur
 -   Færibreytur Retail Verkraðara

@@ -1,36 +1,36 @@
 ---
 title: "Afstemma bankayfirlit með ítarlegri bankaafstemmingu"
-description: "Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Operations. Þessi skrá útskýrir ferli afstemmingar."
+description: "Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir ferli afstemmingar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemma bankayfirlit með ítarlegri bankaafstemmingu
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
 [!include[banner](../includes/banner.md)]
 
 
-Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Operations. Þessi skrá útskýrir ferli afstemmingar.  
+Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir ferli afstemmingar.  
 
 <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
 -----------------------------------
@@ -44,7 +44,7 @@ Hægt er að hlaða upp bankayfirlit sem inniheldur upplýsingar annað hvort um
 
 Ef eitthvað uppgjör í rafræna skrá getur ekki verið tengt við bankareikning með auðkennandi svæðunum, verða þær ekki fluttar inn. Hins vegar er enn hægt að flytja inn önnur yfirlit í skránni. Notandinn fær skilaboð sem tilgreinir að innflutningur bankayfirlits mistókst fyrir tiltekna bankareikninga. Athugið að notandinn sem flytur inn bankayfirlitsskránni þarf að hafa aðgang að lögaðila til að flytja inn yfirlit fyrir bankareikninga þess lögaðila. 
 
-Hægt er líka að hlaða upp margar yfirlitsskrár í Microsoft Dynamics 365 for Operations í einu ferli með því að nota zip-skrár. Til að flytja margar bankayfirlitsskrár fyrir marga lykla, skal sameina allar bankayfirlitsskrár í eina zip-skrá. Í á **flytja Inn bankayfirlit** svargluggann er stilltur valkosturinn **flytja Inn yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** á **Já**. Smellið á **Fletta** til að velja zip-skrá sem inniheldur bankayfirlitsskrárnar og smellið síðan á **hlaða upp**. Innflutningsferli þekkja zip-skrá og hleður upp hverju yfirliti sem er innifalin í því, óháð lögaðila bankareikningsins. 
+Einnig er hægt að hlaða upp margar yfirlitsskrár í Finance and Operations í einu ferli með því að nota zip-skrár. Til að flytja margar bankayfirlitsskrár fyrir marga lykla, skal sameina allar bankayfirlitsskrár í eina zip-skrá. Í á **flytja Inn bankayfirlit** svargluggann er stilltur valkosturinn **flytja Inn yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** á **Já**. Smellið á **Fletta** til að velja zip-skrá sem inniheldur bankayfirlitsskrárnar og smellið síðan á **hlaða upp**. Innflutningsferli þekkja zip-skrá og hleður upp hverju yfirliti sem er innifalin í því, óháð lögaðila bankareikningsins. 
 
 Valkosturinn **Stemma af eftir innflutning** er tiltækur. Þegar þessi valkostur er stilltur á **Já**, villuleitar kerfið sjálfkrafa bankayfirlit, stofnar nýja bankaafstemmingu og vinnublað, og keyrir Sjálfgefna samsvörunarreglusettið þegar bankayfirlitið hefur verið hlaðið upp. Þessi aðgerð gerir ferliið sjálfvirkt upp að þeim punkti þar sem færslur þarft að handvirkt jafna.
 
@@ -76,7 +76,7 @@ Eftir að þú hefur flutt inn rafræn bankayfirlit og villuleita uppgjör á í
 
 -   Jafna færslur með Operations-bankafærslum.
 -   Jafna færslur með bakfærslu bankayfirlitsfærslna.
--   Merkja færslur sem **Nýtt**, þannig að hægt er að bóka þær síðar sem bankafærslu í Dynamics 365 for Operations.
+-   Merktu færslur sem **Nýtt** svo það sé hægt að bóka þær síðar sem bankafærslur í Finance and Operations.
 
 Til að jafna færslur handvirkt skal velja færslur í **bankayfirlitsfærslur** hnitaneti, velja samsvarandi færslur í á **Operations-bankafærslur** hnitaneti, og smella svo á **Jafna**. Valdar færslur eru fluttar úr efri hnitanet fyrir ójafnaðar færslur í neðri hnitanet fyrir jafnaðar færslur. Þar að auki er ójöfnuð og jöfnuð heildarupphæðir uppfærðar. Hægt er að vera með eina við eina, margar við eina, og margar við margar-færslujafnanir. Samsvaranir verða að að fylgja reglur fyrir leyfðan mismun dagsetninga og vörpun færslugerða. Þessar reglur eru stilltar á **færibreytur reiðufjár- og bankastjórnunar** síðu.
 
@@ -86,7 +86,7 @@ Bankfærslur bankayfirlitsfærslna eru jafnaðar með því að nota vinnublað 
 
 Bakfærðar Operations bankafærslur Verður að stemma af með því að nota **Operations-bankafærslur** síðu. Hægt er að stemma af tveimur Operations-bankafærslur saman ef skjölin eru með sama bankareikning, gerð skjals og greiðslutilvísun og ef þær hafa andstæðar upphæðir. Einnig er Hægt er að stemma af eina ávísun sem hætt var við til að koma í veg fyrir þær færslur birtist á vinnublað afstemmingar. 
 
-Ef til staðar eru færslur sem bankinn hefur frumkvæði að, eins og vexti, þóknanir og gjöld sem ekki eru enn í Dynamics 365 for Operations, er hægt er að bæta þeim við færslubók sem er tengt við valda afstemmingu bankayfirlits. Velja bankayfirlitsfærslu í á **bankayfirlitsfærslu** hnitaneti fyrir ójöfnuð færslur og smelltu svo á **Merkja sem nýtt**. Staða færslunnar er stillt á **Nýtt**, og færsla er færð í **bankayfirlitsfærslur** hnitaneti fyrir jafnaðar færslur. Þú munt bóka færslur sem eru merktar sem **Nýtt** síðar, úr síðunni **Bankayfirlit** . 
+Ef til staðar eru færslur sem bankinn hefur frumkvæði að, svo sem vextir, þóknanir og gjöld sem ekki eru enn í Finance and Operations, er hægt að bæta þeim við færslubók sem er tengd við valda afstemmingu bankayfirlits. Velja bankayfirlitsfærslu í á **bankayfirlitsfærslu** hnitaneti fyrir ójöfnuð færslur og smelltu svo á **Merkja sem nýtt**. Staða færslunnar er stillt á **Nýtt**, og færsla er færð í **bankayfirlitsfærslur** hnitaneti fyrir jafnaðar færslur. Þú munt bóka færslur sem eru merktar sem **Nýtt** síðar, úr síðunni **Bankayfirlit** . 
 
 Hægt er að fjarlægja jöfnun færslna sem rangt var jafnað. Velja skal jafnaða bankayfirlitsfærslu og smella síðan á **afjafna**. Allar tengdar færslur eru færð aftur í efri hnitanet fyrir ójöfnuð færslur, og jafnaðar  og ójafnaðar heildarupphæðir eru uppfærðar. 
 

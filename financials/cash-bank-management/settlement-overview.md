@@ -3,7 +3,7 @@ title: "Yfirlit Uppgjörs"
 description: "Þessi grein veitir almennar upplýsingar um uppgjörsferlið. Hún lýsir þeim færslutegundum sem hægt er að jafna, hvenær og hvernig hægt er að jafna færslur og niðurstöðum jöfnunarferlisins."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6ff44d517eb64d6472802ad057b680f4d2c7c1d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -43,7 +43,7 @@ Jöfnun innan viðskiptaskulda og viðskiptakrafna geta átt sér stað milli hv
 Hægt er að jafna færslur á tíma greiðslufærslu. Til dæmis þegar greiðsla er gerið til lánardrottins, yfirleitt velurðu reikninga til greiðslu. Með því að velja reikninga eru þeir merktir til jöfnunar gegn greiðslu. Þegar starfsmaður greiðslu fyrir viðskiptakröfur skráir viðskiptavinargreiðslu, geta þeir merkt viðeigandi reikninga fyrir jöfnun, byggt á upplýsingum sem er höfð með í greiðslu viðskiptavinar. **Jafna færslur** síða er notuð til að merkja færslur til jöfnunar. Hægt er að opna þessa síðu úr hvaða óbókaðan reikning eða greiðslu. Þegar færslan er bókuð er jöfnunin einnig bókuð Einnig er hægt að jafna færslur eftir að þær eru bókaðar. Hægt er að færa inn og bóka greiðslu viðskiptavinar án þess að það eru jafnaðar gagnvart neinum reikninga. Hins vegar gæti þurft að rannsaka fyrst, til að ganga úr skugga um að greiðslan er jöfnuð á móti rétta reikningnum. **Jafna færslur** síðan getur veri opnuð úr **Alla viðskiptavini** eða **Alla lánardrottna** síðu eða á **Færslur** síðu fyrir hvaða viðskiptavin eða lánardrottinn sem er. Er hægt að taka frá bókaðar fyrirframgreiðslur fyrir reikning með því að merkja greiðslu fyrir jöfnun gagnvart innkaupapöntun eða sölupöntun. Í þessu tilfelli hefur greiðsla enn opin staða, en hún getur ekki verið jafnaðar á móti öðrum reikningi. Greiðslan verður sjálfkrafa jöfnuð á móti reikningi sem er stofnaður úr innkaupapöntun eða sölupöntun.
 
 ## <a name="how-to-settle-transactions"></a>Hvernig á að Jafna færslur
-Hægt er að jafna færslur handvirkt, sjálfvirkt, eða sambland af aðferðunum tveimur. Val á aðferð jöfnunar fer eftir viðskiptaferli, sem er síðan hægt að beita í gegnum uppsetningu jöfnunar í færibreytum viðskiptaskuldir og færibreytur viðskiptakrafna. Hægt er að stofna greiðslur lánardrottins og greiðslur viðskiptavina með beingreiðslu sem er notuð til að velja reikninga til greiðslu. Greiðslutillaga er ræst handvirkt en svo merkir Microsoft Dynamics 365 for Operations sjálfkrafa valda reikninga fyrir jöfnun þegar greiðslur eru stofnaðar. Ef greiðslur eru stofnaðar handvirkt er hægt að nota í **Jafna færslur** síðu til að velja reikninga til jöfnunar. Hægt er að velja reikningana handvirkt eða nota **Merkja eftir forgangi** valkost til að hafa reikninga sjálfkrafa merkt til jöfnunar. Í **Merkja eftir forgangi** valkostur er einungis tiltæk fyrir viðskiptakröfur. Til að virkja þennan valkost, skal nota við **jöfnunarforgangur** síðu í færibreytum viðskiptakrafa. Ef starfsmaður greiðslna færir greiðslu, en jafnar ekki greiðslu áður en hann eða hún bókar hann, er hægt að jafna greiðsluna sjálfkrafa. Hægt er að virkja sjálfvirka jöfnun í færibreytur viðskiptakrafna og færibreytum viðskiptaskulda. Þegar sjálfvirka jöfnun er notuð er hægt að nota forskilgreint jöfnunarröð eða hægt er að skilgreina eigin jöfnunarröð í færibreytum viðskiptakrafa. Þessi eiginleiki er einungis tiltæk fyrir viðskiptakröfur.
+Hægt er að jafna færslur handvirkt, sjálfvirkt, eða sambland af aðferðunum tveimur. Val á aðferð jöfnunar fer eftir viðskiptaferli, sem er síðan hægt að beita í gegnum uppsetningu jöfnunar í færibreytum viðskiptaskuldir og færibreytur viðskiptakrafna. Hægt er að stofna greiðslur lánardrottins og greiðslur viðskiptavina með beingreiðslu sem er notuð til að velja reikninga til greiðslu. Greiðslutillaga er ræst handvirkt en svo merkir Microsoft Dynamics 365 for Finance and Operations sjálfkrafa valda reikninga fyrir jöfnun þegar greiðslur eru stofnaðar. Ef greiðslur eru stofnaðar handvirkt er hægt að nota í **Jafna færslur** síðu til að velja reikninga til jöfnunar. Hægt er að velja reikningana handvirkt eða nota **Merkja eftir forgangi** valkost til að hafa reikninga sjálfkrafa merkt til jöfnunar. Í **Merkja eftir forgangi** valkostur er einungis tiltæk fyrir viðskiptakröfur. Til að virkja þennan valkost, skal nota við **jöfnunarforgangur** síðu í færibreytum viðskiptakrafa. Ef starfsmaður greiðslna færir greiðslu, en jafnar ekki greiðslu áður en hann eða hún bókar hann, er hægt að jafna greiðsluna sjálfkrafa. Hægt er að virkja sjálfvirka jöfnun í færibreytur viðskiptakrafna og færibreytum viðskiptaskulda. Þegar sjálfvirka jöfnun er notuð er hægt að nota forskilgreint jöfnunarröð eða hægt er að skilgreina eigin jöfnunarröð í færibreytum viðskiptakrafa. Þessi eiginleiki er einungis tiltæk fyrir viðskiptakröfur.
 
 ## <a name="results-of-settlement"></a>Afleiðingar jöfnunar
 Þegar færslur eru jafnaðar er útistandandi staða hverrar færslu aukinn eða minnkaður eins og við á. Í dæmigerðum aðstæðum, þar sem reikningur og greiðsla eru jafnaðar, er stöðu og hverrar færslu er uppfærð samkvæmt eftirfarandi reglum:

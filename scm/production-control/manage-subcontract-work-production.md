@@ -1,29 +1,29 @@
 ---
 title: "Stjórnun úthýsingarvinnu í framleiðslu"
-description: "Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Operations Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni."
+description: "Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Operations Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
+Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 
 Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md)eða tilföng á lægra verði.  
 
@@ -42,7 +42,7 @@ Allt eftir því hvaða tilföng lánardrottins eru notuð í framleiðsluferli 
 
 Fyrir innri tilföng er yfirleitt úthlutað föstu verði á tilteknu tímabilil. Kostnaður við tilföng undirverktaka byggist hins vegar á innkaupaverði tengdu þjónustunnar. Þjónustan er skilgreind sem önnur vara og er notuð til að knýja innkaupaferli fyrir tiltekna undirverktakaaðgerð.  
 
-Sem stendur er ekki til nein ítarleg lýsing á hálfunnum vörum í Microsoft Dynamics 365 for Operations Fyrir framleiðslupöntun sem krefst fleiri en einnar aðgerðar til að geta breytt hráefni í fullunna vöru er fullunna varan ekki bókuð aftur inn í lager fyrr en í síðustu aðgerðinni. Hálfunnar vörur sem fyrri aðgerðir framleiða eru færðar til bókar í verk í vinnslu (WIP) en eru ekki bókaðar eða raktar í birgðum. Þótt hægt sé að skipta leiðum og uppskriftum (BOM) í margar smærri einingar eykur þessi aðferð fjölda vöru, uppskrifta og leiða sem þarf að fylgjast með.  
+Sem stendur er ekki til nein ítarleg lýsing á hálfunnum vörum í Microsoft Dynamics 365 for Finance and Operations. Fyrir framleiðslupöntun sem krefst fleiri en einnar aðgerðar til að geta breytt hráefni í fullunna vöru er fullunna varan ekki bókuð aftur inn í lager fyrr en í síðustu aðgerðinni. Hálfunnar vörur sem fyrri aðgerðir framleiða eru færðar til bókar í verk í vinnslu (WIP) en eru ekki bókaðar eða raktar í birgðum. Þótt hægt sé að skipta leiðum og uppskriftum (BOM) í margar smærri einingar eykur þessi aðferð fjölda vöru, uppskrifta og leiða sem þarf að fylgjast með.  
 
 Til eru tvær aðferðir til þess að gera líkön af undirverktakavinnu fyrir framleiðsluaðgerðir. Þessar aðferðir eru mismunandi hvað varðar hvernig hægt er að gera líkön af undirverktakaferlinu, hvernig hálfunnar vörur eru sýndar í ferlinu og hvernig kostnaðarstýring er framkvæmd.
 

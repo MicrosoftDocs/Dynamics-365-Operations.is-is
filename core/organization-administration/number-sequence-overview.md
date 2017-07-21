@@ -1,45 +1,45 @@
 ---
-title: Talnarunuyfirlit
-description: "Númeraraðir í Microsoft Dynamics 365 for Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>."
+title: "Yfirlit yfir númeraröð"
+description: "Númeraraðir í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="number-sequence-overview"></a>Talnarunuyfirlit
+# <a name="number-sequence-overview"></a>Yfirlit yfir númeraröð
 
 [!include[banner](../includes/banner.md)]
 
 
-Númeraraðir í Microsoft Dynamics 365 for Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>.
+Númeraraðir í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færsluskrár sem krefjast kenna. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem <em>tilvísun</em>.
 
-Áður en hægt er að stofna nýjar færslur fyrir tilvísun í Microsoft Dynamics 365 for Operations verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í **Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í **viðskiptakröfur** og **viðskiptaskuldir** , er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna. Þegar sett er upp númeraröð, verður að tilgreina svið, sem skilgreinir hvaða fyrirtæki notar númeraröðina. Umfang getur verið **Samnýtt**, **Fyrirtæki**, **lögaðila**, eða **rekstrareining**. Umfang **lögaðila** og **fyrirtækja** má sameina við **tímabil fjárhagsdagatals** til að búa til enn sértækari númeraraðir. Talnarunu snið samanstanda af hluti. Númeraraðir með annað umfang en **samnýtt** geta innihaldið hluti sem samsvara umfangi. Til dæmis getur talnaröð með umfangið **lögaðili** innihaldið hluta lögaðila. Með því að hafa svið hluta í snið númeraraðar, er hægt að greina svið tiltekna færslu með því að líta á númeri þess. Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið **fasta** og **tölustafahluta** . Hlutinn **Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota númerstákn (\#) til að tákna hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið \#\#\#\#\#\_2017 stofnar t.d. röðina 00001\_2017, 00002\_2017 og svo framvegis.
+Áður en hægt er að stofna nýjar færslur fyrir tilvísun í Microsoft Dynamics 365 for Finance and Operations verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í **Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í **viðskiptakröfur** og **viðskiptaskuldir** , er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna. Þegar sett er upp númeraröð, verður að tilgreina svið, sem skilgreinir hvaða fyrirtæki notar númeraröðina. Umfang getur verið **Samnýtt**, **Fyrirtæki**, **lögaðila**, eða **rekstrareining**. Umfang **lögaðila** og **fyrirtækja** má sameina við **tímabil fjárhagsdagatals** til að búa til enn sértækari númeraraðir. Talnarunu snið samanstanda af hluti. Númeraraðir með annað umfang en **samnýtt** geta innihaldið hluti sem samsvara umfangi. Til dæmis getur talnaröð með umfangið **lögaðili** innihaldið hluta lögaðila. Með því að hafa svið hluta í snið númeraraðar, er hægt að greina svið tiltekna færslu með því að líta á númeri þess. Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið **fasta** og **tölustafahluta** . Hlutinn **Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota númerstákn (\#) til að tákna hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið \#\#\#\#\#\_2017 stofnar t.d. röðina 00001\_2017, 00002\_2017 og svo framvegis.
 Talnarunu dæmi
 ------------------------
 
 Eftirfarandi dæmi sýna hvernig á að nota hluta til að stofna snið númeraraðar. Sérstaklega, sýna dæmin áhrif þess að nota sviðshluta.
 ### <a name="expense-report-numbers"></a>Númer kostnaðarskýrslu
 
-Í eftirfarandi dæmi eru kostnaðarskýrslutölur settar upp fyrir lögaðilann sem heitir **CS**. **Svæði:**Ferðir og útgjöld **Tilvísun:**númer Kostnaðarskýrslu **Umfang:**Lögaðili **Lögaðili:**CS
+Í eftirfarandi dæmi eru kostnaðarskýrslutölur settar upp fyrir lögaðilann sem heitir **CS**. **Svæði:** Ferðir og útgjöld **Tilvísun:** númer Kostnaðarskýrslu **Umfang:** Lögaðili **Lögaðili:** CS
 | Hlutar  | Hlutagerð | Gildi     |
 |-----------|--------------|-----------|
 | Hluti 1 | Lögaðili | CS        |
@@ -50,7 +50,7 @@ Eftirfarandi dæmi sýna hvernig á að nota hluta til að stofna snið númerar
 
 ### <a name="sales-order-numbers"></a>Sölupöntunarnúmer
 
-Í eftirfarandi dæmi eru númer sölupöntunar sett upp fyrir fyrirtækjakennið **CEU**. **Svæði:**sala **Tilvísun:**Sölupöntun **Umfang:**Fyrirtæki **Fyrirtæki:**CEU
+Í eftirfarandi dæmi eru númer sölupöntunar sett upp fyrir fyrirtækjakennið **CEU**. **Svæði:** sala **Tilvísun:** Sölupöntun **Umfang:** Fyrirtæki **Fyrirtæki:** CEU
 | Hlutar  | Gerð hluta | Virði    |
 |-----------|--------------|----------|
 | Hluti 1 | Fasti     | SO-      |
@@ -60,7 +60,7 @@ Eftirfarandi dæmi sýna hvernig á að nota hluta til að stofna snið númerar
 
 ### <a name="purchase-requisition-numbers"></a>Númer innkaupabeiðna
 
-Í eftirfarandi dæmi, eru númer innkaupabeiðna úr öllu fyrirtækinu. **Svæði:**innkaup **Tilvísun:**Innkaupabeiðni **Umfang:**samnýtt
+Í eftirfarandi dæmi, eru númer innkaupabeiðna úr öllu fyrirtækinu. **Svæði:** innkaup **Tilvísun:** Innkaupabeiðni **Umfang:** samnýtt
 | Hlutar  | Gerð hluta | Virði    |
 |-----------|--------------|----------|
 | Hluti 1 | Fasti     | Req      |

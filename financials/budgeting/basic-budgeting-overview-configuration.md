@@ -1,43 +1,43 @@
 ---
 title: "Yfirlit fjárhagsáætlunar"
-description: "Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Operations munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Dynamics 365 for Operations eða hlaða þeim inn úr forriti óháðs aðila."
+description: "Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition munu geta stofnað skýrslur fyrir fjárhagsáætlun samanborið við rauntölur. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations, Enterprise edition eða hlaða þeim úr forriti óháðs aðila."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar
+# <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
 [!include[banner](../includes/banner.md)]
 
 
-Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Operations munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Dynamics 365 for Operations eða hlaða þeim inn úr forriti óháðs aðila.
+Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition munu geta stofnað skýrslur fyrir fjárhagsáætlun samanborið við rauntölur. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 
 <a name="overview"></a>Yfirlit
 --------
 
 Samþykkt fjárhagsáætlun fyrir lögaðila er viðhaldið í skjalinu sem kallast á *færsla í fjárhagsáætlunarskrá*. Línur í skjali færslu í fjárhagsáætlunarskrá eru þekkt sem færsla *fjárhagsáætlunarlykils* , og innihalda upplýsingar um fjárhagsvídd, dagsetningar og upphæðir samþykktrar fjárhagsáætlunar. Skjal færslu fjárhagsáætlunarskrár er samþætt við grundvallar fjárhagsskýrslur og síður fyrirspurnarsíður þar sem raunverulegur fjárhagsupphæðir eru borin saman við upphæð fjárhagsáætlunar. 
 
-Það eru margir aðferðir til að stofna færslur fjárhagsáætlunarskráar í Dynamics 365 fyrir Operations:
+Það eru margar aðferðir til að stofna færslur í fjárhagsáætlunarskrá í Finance and Operations:
 
 -   Færa handvirkt inn upplýsingar um skjal á **færslur fjárhagsáætlunarskrár** síðu.
 -   Nota Microsoft Excel sniðmát sem hægt er að opna með því að smella á **Opna í Excel** hnappinn á **færslur fjárhagsáætlunarskrár** síðunni.
@@ -77,7 +77,7 @@ Fjárhagsáætlunarstjóri getur farið yfir gildandi stöðu í fjárhagsáætl
 > [!NOTE] 
 > **Deildarstjóri** reitur á **Fyrirtækiseiningar** síðu ákvarðar hvaða stjórnendur styðja tiltekna samsetning fjárhagsvíddar. Smellið á **Sjá meira** neðst á flipanum til að opna í **rauntölur samanb. v. Áætlun** fyrirspurnarsíðu fyrir frekari upplýsingar um upphæð fjárhagsáætlunar samanborið við raunverulega upphæðir. 
 
-**Raun samanb. v. áætlun** fyrirspurnarsíðu gerir það mögulegt að kafa í upplýsingar um fjárhagsáætlun borinn saman við raunupphæðir. Veljið línu á fyrirspurnarsíðu og smellið síðan á **stöður Tímabils** til að sjá fjárhagsáætlun og raunupphæðir dreifast yfir fjárhagstímabil. Í **færslur fjárhagsáætlunarskrár** síða gefur köfun í upplýsingar um upphæð fjárhagsáætlunar í færslu fjárhagsáætlunarskrár. **færslur í Almennri færslubók**síðu opnar fjárhagsfærslur sem eru hafðar með í útreiknaða upphæð **Rauntölur** . 
+**Raun samanb. v. áætlun** fyrirspurnarsíðu gerir það mögulegt að kafa í upplýsingar um fjárhagsáætlun borinn saman við raunupphæðir. Veljið línu á fyrirspurnarsíðu og smellið síðan á **stöður Tímabils** til að sjá fjárhagsáætlun og raunupphæðir dreifast yfir fjárhagstímabil. Í **færslur fjárhagsáætlunarskrár** síða gefur köfun í upplýsingar um upphæð fjárhagsáætlunar í færslu fjárhagsáætlunarskrár. **færslur í Almennri færslubók** síðu opnar fjárhagsfærslur sem eru hafðar með í útreiknaða upphæð **Rauntölur** . 
 
 Fyrirtækið sem er að nota virkni Fjárhagsáætlunargerðar getur stofnað og nota *fjárhagsáætlunarspár*í á **fjárhagsáætlanir og spár** vinnusvæði.
 

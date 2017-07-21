@@ -3,25 +3,26 @@ title: "Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki"
 description: "Stillingar fyrir sumar færibreytur Mannauðs (HR) eru eins milli fyrirtækja, á meðan stillingar annara færibreyta eru bundnar tilteknu fyrirtæki. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs sem eru bundnar tilteknu fyrirtæki."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,7 +37,7 @@ Stillingar fyrir sumar færibreytur Mannauðs (HR) eru eins milli fyrirtækja, �
 Tvær síður eru notaðar til að setja upp færibreytur mannauðs (HR). Fyrir Færibreytur sem fyrirtæki samnýta, notarðu **samnýttar færibreytur fyrir mannauð** síðu. Fyrir færibreytur sem eru bundin tilteknu fyrirtæki (með öðrum orðum, stillingar eiga við um eitt fyrirtæki), notarðu **færibreytum mannauðs** síðu. Á **færibreytur Mannauðs** síða, er stillingum deild á sex flipa:
 
 -   Almennt
--   Ráðning
+-   Ráðningar - þetta er ekki teki' með í Dynamics 365 for Talent
 -   Laun
 -   Númeraraðir
 -   Family and Medical Leave Act (lög um leyfi vegna fjölskyldu eða veikinda)
@@ -48,7 +49,11 @@ Stillingar á **Ráðningarverk** flipa er að skilgreina gerðir skjala sem eru
 
 Stillingar á **Laun** flipanum skilgreina hvort notendur verða staðfesta að þeir vilji að vista upplýsingar fyrir fast eða breytilegt launafyrirkomulag. Ef gátreiturinn **Virkja villuleit vistunar** er valinn fá notendur skilaboð þegar þeir loka síðu sem tengist launum þar sem spurt er hvort þeir vilji vista færsluna. Sumar síður í lausnastjórnun leyfa ekki notendum að eyða upplýsingum. Þess vegna, með því að senda kvaðningu til notenda til að staðfesta að þeir vilja að vista upplýsingar, gætirðu takmarkað magn upplýsinga sem er vistað en ekki er hægt að eyða síðar. Ef **Virkja villuleit vistunar** gátreiturinn er hreinsaður eru færslur alltaf vistaðar strax, mögulega áður en notandinn er tilbúinn. Ef þú er ekki að nota frammistöðustjórnun er leyfir **Launa** flipinn þér einnig að velja einkunnalíkan til að nota í staðinn fyrir líkanið sem er úthlutað á launafyrirkomulag þegar verið er að gefa frammistöðu einkunn. 
 
-Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða í **Númeraraðir** listasíðu (smellt er á **Fyrirtækisstjórnun** &gt; **Númeraraðir** &gt; **Númeraraðir**). 
+### <a name="previously-released-functionality"></a>Áður losaðar virkni
+Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða í **Númeraraðir** listasíðu (smellt er á **Fyrirtækisstjórnun** &gt; **Númeraraðir** &gt; **Númeraraðir**).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Ef verið er að nota Dynamics 365 til Talent
+Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða skal nota listasíðuna **Númeraraðir** (smellt er á **Kerfisstjórnun** &gt; **Tenglaflipi** &gt; **Númeraraðir** &gt; **Númeraraðir**). 
 
 Stillingar á í **FMLA** flipa skilgreina hversu margar stundir starfsmaður verður að vinna til að tækur fyrir FMLA fríðindi, tíma í starfi sem er krafist fyrir hæfni, og upphafsdagsetningu ráðningar sem er notuð til að ákvarða lengd ráðningar. stillingar Skilgreina einnig fjölda stunda FMLA stunda sem starfsmenn eiga rétt á og FMLA leyfisdagatal sem er notuð til að reikna út hversu margir FMLA klukkustundir starfsmenn hafa notað. **FMLA** flipi er einungis tiltækt fyrir fyrirtæki í Bandaríkjunum. 
 

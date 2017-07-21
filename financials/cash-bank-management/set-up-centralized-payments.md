@@ -1,6 +1,6 @@
 ---
-title: "Setja upp miðstýrð greiðsla"
-description: 
+title: "Uppsetning miðstýrðra greiðslna"
+description: "Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,27 +10,25 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/05/2017
 
 ---
 
-# <a name="set-up-centralized-payments"></a>Setja upp miðstýrð greiðsla
+# <a name="set-up-centralized-payments"></a>Uppsetning miðstýrðra greiðslna
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki. Áður en byrjað er verður að ljúka við eftirfarandi uppsetningu:
@@ -56,7 +54,7 @@ Ef þú greiðir lánadrottni úr einum lögaðila og vilt velja á reikning fyr
 Þegar greiðsla er stofnuð fyrir einn lögaðila sem jafnar reikninga fyrir aðra lögaðila verður kenni greiðsluaðferða að vera hið sama fyrir báða lögaðila. Svo tryggt sé að greiðslur séu rétt stofnaðar þarf að setja upp greiðslumáta fyrir hvern reikning lögaðila sem samsvarar greiðslumáta í notkun hjá lögaðila greiðslunnar. Skipta yfir í fyrsta lögaðili reikningsins og síðan, á í **Greiðsluhættir** síðu er hægt að stofna nýjan greiðsluhátt eða breyta fyrirliggjandi greiðsluhátt. Kostirnir sem valdir eru fyrir greiðsluhátt lögaðila reikningsins þurfa ekki að samsvara því hvernig greiðsluhátturinn er settur upp fyrir lögaðila greiðslunnar.
 
 ## <a name="set-up-default-descriptions"></a>Setja upp sjálfgefnar lýsingar
-Hægt er að skilgreina sjálfgefnar lýsingar fyrir fylgiskjöl samstæðujöfnunar. Sjálfgefna lýsingin er höfð með í færslunum á gjalddaga til og á gjalddaga frá á meðan á jöfnunarferlinu milli fyrirtækja stendur. Á **Sjálfgefnar lýsingar** síðu er hægt að stofna nýja lýsingar fyrir bæði **Samstæðujöfnun viðskiptavina**og **Samstæðujöfnun lánardrottna** með því að velja tungumál og færa síðan inn texta.
+Hægt er að skilgreina sjálfgefnar lýsingar fyrir fylgiskjöl samstæðujöfnunar. Sjálfgefna lýsingin er höfð með í færslunum á gjalddaga til og á gjalddaga frá á meðan á jöfnunarferlinu milli fyrirtækja stendur. Á **Sjálfgefnar lýsingar** síðu er hægt að stofna nýja lýsingar fyrir bæði **Samstæðujöfnun viðskiptavina** og **Samstæðujöfnun lánardrottna** með því að velja tungumál og færa síðan inn texta.
 
 
 

@@ -3,7 +3,7 @@ title: "Sniðmát fjárhagsáætlunargerðar fyrir Excel"
 description: "Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Excel-sniðmátið mun innihalda allar einingar úr útliti fjárhagsáætlunars
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Dynamics 365 for Operations gagnatengil og Microsoft Dynamics Office-innbóta.
+> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition og Microsoft Dynamics Office Add-in Data Connector.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Bæta haus við sniðmát fjárhagsáætlunarskjals.
 Til að bæta við upplýsingum úr haus velurðu efstu línuna í Excel-skránni og setur inn auðar línur. Smellið á **Hönnun** í **Gagnatengli** til að bæta við haussvæðum í Excel-skrá.
@@ -79,11 +79,11 @@ Valinn svæðaflokkur sýnir þá dálka sem eru í boði í sniðmátinu. Smell
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Til að skilgreina formúluna þarf að stofna formúluna í vinnublaðinu og afrita hana síðan í gluggann **Hönnun**. Bundin tafla í Dynamics 365 for Operations fær yfirleitt heitið „AXTable1“. Til dæmis, til að draga saman dálkana Request Q1 : Request Q4 í vinnubókinni er formúlan = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
+> Til að skilgreina formúluna þarf að stofna formúluna í vinnublaðinu og afrita hana síðan í gluggann **Hönnun**. Bundin tafla í Finance and Operations fær yfirleitt heitið „AXTable1“. Til dæmis, til að draga saman dálkana Request Q1 : Request Q4 í vinnubókinni er formúlan = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
 Endurtaktu þessi skref til að setja inn dálkinn **leiðrétting**. Notaðu formúla = AxTable1\[Samtals beiðni\]\*$I$1 fyrir þennan dálkur. Þetta mun taka gildið í hólfi I1 og margfalda gildin í dálknum **Samtals beiðni** til að reikna út leiðréttingarupphæðir.
 
-Vistaðu og lokaðu Excel-skránni. Farðu aftur í Dynamics 365 for Operations, og í **Útlit** smellirðu á  **Sniðmát &gt; Hlaða upp** til að hlaða upp vistuðu Excel-sniðmáti til að nota fyrir fjárhagsáætlun. 
+Vistaðu og lokaðu Excel-skránni. Farðu aftur í Finance and Operations og í **Útlit** og smelltu á **Sniðmát &gt; Hlaða upp** til að hlaða upp vistuðu Excel-sniðmáti til að nota fyrir fjárhagsáætlun. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

@@ -1,28 +1,27 @@
 ---
 title: "Fjárhagsvíddir"
-description: "Þessi grein útskýrir mismunandi gerðir fjárhagsvídda og hvernig þær eru settar upp."
-author: RobinARH
+description: "Þessi efnisgrein lýsir ýmsum gerðum fjárhagsvídda og hvernig þær eru settar upp."
+author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ems.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25871
-ms.assetid: af54621c-c8be-4b72-b6df-dcf886c40ce4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 01f189b8de3f0cc707dcc54f4cde75aed95b8e3f
+ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
+ms.openlocfilehash: e82d53b3f6b4c8d3e2363f26576331e1d03434d9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,53 +30,58 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Þessi efnisgrein útskýrir ýmsar gerðir fjárhagsvídda og hvernig þær eru settar upp.
 
-Þessi grein útskýrir mismunandi gerðir fjárhagsvídda og hvernig þær eru settar upp.
+Nota skal skjámyndina **Fjárhagsvíddir** til að stofna fjárhagsvíddir sem nota má sem hluta lykils fyrir bókhaldslykla. Til eru tvær gerðir fjárhagsvídda: sérsniðnar víddir og afritaðar víddir. Sérsniðnar víddir eru samnýttar á milli lögaðila og gildi eru færð inn og þeim stjórnað af notendum. Fyrir afritaðar víddir eru víddir hvers gildis skilgreindar annars staðar í kerfinu, eins og Viðskiptavinum eða Verslunum. Sumar afritaðar víddir eru samnýttar á milli lögaðila, en aðrar afritaðar víddir eru bundnar fyrirtækjum. 
 
-Nota skal skjámyndina fjárhagsvíddir til að stofna fjárhagsvíddir sem nota má sem hluta lykils fyrir bókhaldslykla. Til eru tvær gerðir fjárhagsvídda, sérsniðnar víddir og afritaðar víddir. Sérsniðnar víddir eru samnýttar á milli lögaðila og gildi eru færð inn og þeim stjórnað af notanda. Afritaðar víddir eru víddir hvers gildi eru skilgreind annars staðar í kerfinu, eins og Viðskiptavinum eða Verslunum. Sumar afritaðar víddir eru samnýttar á milli lögaðila og sumar afritaðar víddir eru bundnar fyrirtækjum. 
+Eftir að búið er að stofna fjárhagsvíddir skal nota síðuna **Fjárhagsvíddargildi** til að úthluta fleiri eiginleikum fyrir hverja fjárhagsvídd. 
 
-Eftir að búið er að stofna fjárhagsvíddir skal nota síðuna fjárhagsvíddargildi til að úthluta fleiri eiginleikum fyrir hverja fjárhagsvídd. 
+Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Ekki þarf að stofna á lögaðila í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Hins vegar eru kostnaðarjafnaðar fjárhagsvíddir ekki hannaðar til að taka á rekstrar- eða viðskiptaþörfum lögaðila. Eiginlekin millieiningabókhalds í Finance and Operations er hannaður til að eiga aðeins við bókhaldsfærslur sem eru stofnaðar fyrir hverja færslu. 
 
-Þó að þú getir notað fjárhagsvíddir til að tákna lögaðila án þess að stofna lögaðila í Microsoft Dynamics 365 for Operations, eru fjárhagsvíddir ekki hannaðar til að takast á við reksturs- eða viðskiptaþarfir lögaðila. Millieiningabókhaldseiginleikinn í Microsoft Dynamics 365 fyrir Operations er hannaður til að eiga aðeins við bókhaldsfærslur sem eru stofnaðar fyrir hverja færslu. 
+Áður en fjárhagsvíddir eru settar upp sem lögaðilar skal meta viðskiptaferli á eftirfarandi svæðum til að ákvarða hvort þessi uppsetning muni gagnast fyrirtækinu:
 
-Áður en að setja upp fjárhagsvíddir sem lögaðila , skal meta viðskiptaferlunum í eftirfarandi svæði til að ákvarða ef þessi uppsetning mun gagnast fyrir fyrirtækið:
+- Birgðir
+- Sölu og innkaup milli fjárhagsvíddir og lögaðila
+- útreikningur VSK og skýrslugerð
+- Aðgerðaskýrslugerð
 
--   Birgðir
--   Sölu og innkaup milli fjárhagsvíddir og lögaðila
--   útreikningur VSK og skýrslugerð
--   Aðgerðaskýrslugerð
+Hér eru sumar af skorðunum:
 
-Nokkur dæmi um takmarkanirnar innifela eftirfarandi:
+- Hægt er að nota virkni virðisaukaskatts ekki með fjárhagsvíddum, aðeins við lögaðila.
+- Sumar skýrslur innihalda ekki fjárhagsvíddir. Þar af leiðandi gæti þurft að breyta skýrslunum til að gera skýrslu eftir fjárhagsvídd.
 
--   Hægt er að nota virkni virðisaukaskatts ekki með fjárhagsvíddum, aðeins við lögaðila.
--   Sumar skýrslur hafa ekki fjárhagsvíddir, svo ekki er alltaf hægt að gefa skýrsluna eftir fjárhagsvídd nema þessar skýrslur hafi verið breytt.
+## <a name="custom-dimensions"></a>Sérsniðnar víddir
 
-**Sérsniðnar víddir** 
+Til að stofna notandaskilgreinda fjárhagsvídd er í reitnum **Nota gildi frá** valin **&lt; Sérsniðin vídd &gt;**. Einnig er hægt að tilgreina lykilsíu til að takmarka magn og gerð upplýsinga sem hægt er að færa inn víddargildi fyrir. Hægt er að færa inn stafi sem eru þeir sömu og fyrir hvert víddargildi eins og stafi eða bandstrik (-). Einnig er hægt að slá inn tölumerki (\#) og og-merki (&) sem frátakara fyrir stafi og tölur sem breytast í hvert skipti sem víddargildi er stofnað. Notaðu tölumerki (\#) sem frátakara fyrir tölu og og-merki (&) sem frátakara fyrir staf. Reiturinn fyrir sniðsíuna er aðeins tiltækur þegar valið er **&lt; Sérsniðin vídd &gt;** í reitnum **Nota gildi frá**.
 
-Til að stofna notandaskilgreinda fjárhagsvídd, í Nota gildi frá reit skal velja &lt; Sérsniðin vídd &gt;. Einnig er hægt að tilgreina lykilsíu til að takmarka magn og gerð upplýsinga sem hægt er að færa inn víddargildi fyrir. Hægt er að færa inn stafi sem eru þeir sömu og fyrir hvert víddargildi eins og stafi eða bandstrik. Einnig er hægt að slá inn tölumerki (\#) og og-merki (&) sem frátakara fyrir stafi og tölur sem breytast í hvert skipti sem víddargildi er stofnað. Notaðu tölumerki (\#) sem frátakara fyrir tölu og og-merki (&) sem frátakara fyrir staf. 
+**Dæmi**
 
-**Dæmi** 
+Til að takmarka víddargildi við stafina „CC“ og þrjár tölur færirðu inn **CC-\#\#\#** sem sniðsíu.
 
-Til að takmarka víddargildi við stafina CC og þrjár tölur færirðu inn CC-\#\#\# sem sniðsíu. Þessi reitur er tiltækt aðeins þegar valið &lt; Sérsniðin vídd &gt; í reitur Nota gildi frá. 
+## <a name="entity-backed-dimensions"></a>Einingastuddar víddir
 
-**Einingarstuddar víddir** 
+Að búa til einingastuddar fjárhagsvíddir skal í svæðinu **Nota gildi frá** velja kerfisskilgreindar einingar til að byggja fjárhagsvídd á. Fjárhagsvíddargildi eru síðan stofnuð úr þeirri einingu. Til dæmis skal velja Verk til að stofna víddargildi fyrir **Verk**. Víddargildi eru síðan stofnuð fyrir hvert heiti verks. Síðan **Fjárhagsvíddargildi** sýna gildi fyrir eininguna. Ef þessi gildi eru bundin tilteknu fyrirtæki sýnir síðan einnig fyrirtækið.
 
-Að búa til einingarstudd fjárhagsvíddir, í svæðinu Nota gildi frá, veljið kerfisskilgreindar einingar til að byggja fjárhagsvídd á. Fjárhagsvíddargildi eru stofnuð úr þessu vali. Til dæmis skal velja Verk tila ð stofna víddargildi fyrir verk. Víddargildi verða stofnuð fyrir hvert heiti verks. Víddargildi síðan sýnir gildi fyrir eininguna og ef þær eru bundin fyrirtæki, fyrirtækið fyrir gildið. 
+## <a name="activating-dimensions"></a>Notkun vídda
 
-**Notkun vídda** 
+Þegar fjárhagsvídd er virkjuð er taflan uppfærð þannig að hún felur í sér heiti fjárhagsvíddarinnar. Eyddar víddir eru fjarlægðar. Hægt er að færa inn víddargildi áður en fjárhagsvídd er virkjuð. Hins vegar er ekki hægt að nota fjárhagsvídd neins staðar fyrri en hún er gerð virk. Til dæmis er ekki hægt að bæta fjárhagsvídd við lykilskipulag þar til að fjárhagsvídd hefur verið virkjuð. Þegar smellt er á **Virkja** eru allar víddir uppfærðar og sýna stöðu breytingar. 
 
-Virkjun fjárhagsvíddar uppfærir töflu með fjárhagsvíddarheitinu og fjarlægir eyddum víddum. Hægt er að færa inn víddargildi áður en fjárhagsvídd er virkjuð en fjárhagsvídd er ekki hægt að nota fyrr en hún er virkjuð. Til dæmis geturðu ekki gætt við fjárhagsvídd við lykilskipulag þar til fjárhagsvídd hefur verið virkjuð. Smella á virkja uppfærir allar víddir með stöðubreytingar. 
+## <a name="translations"></a>Þýðingar
 
-**Þýðingar** 
+Á síðunni **Textaþýðing** er hægt að færa inn texta fyrir valda fjárhagsvídd á mismunandi tungumálum. Á síðunni **Þýðing aðallykils** er hægt að færa inn texta fyrir aðallykil á mismunandi tungumálum. 
 
-Textaþýðingasíðan leyfir þér að færa inn texta til að birtast á mismunandi tungumálum fyrir valda fjárhagsvídd. þýðingasíðan aðallykils er þar sem þú getur færa inn texta til að birtast á mismunandi tungumálum fyrir aðallykill. 
+## <a name="legal-entity-overrides"></a>Lögaðili hnekkir
 
-**Hnekkingar lögaðila** 
+Ekki eru allar víddir gildar fyrir alla lögaðila. Þar að auki kunna sumar víddir að vera aðeins viðeigandi fyrir tiltekið tímabil. Í þessum tilfellum er hægt að nota hlutann **Lögaðili hnekkir** til að tilgreina hvaða fyrirtæki ætti ekki að nota víddir fyrir, hver er eigandi og tímabilið sem víddin er virk.
 
-Ekki allar víddir eru gildar fyrir alla lögaðila og sumar eiga aðeins við fyrir ákveðið tímabil. Í þessum aðstæðum Lögaðili hnekkir getur verið notað til að auðkenna hvaða fyrirtæki ætti ekki að nota víddir fyrir, hver er eigandi og tímabilið sem víddin er virk.
+## <a name="deleting-financial-dimensions"></a>Eyðing fjárhagsvídda
 
+Til að viðhalda heilleika gagna er sjaldan hægt að eyða fjárhagsvíddum. Ef reynt er að eyða fjárhagsvíddum eru eftirfarandi skilyrði metin:
 
+- Hefur fjárhagsvíddin verið notuð á einhverjar bókaðar eða óbókaðar færslur eða einhverja gerð af víddarsamsetningu gilda?
+- Er fjárhagsvíddin notuð í öllu virku lykilskipulagi, ítarleg reglu skipulag fjárhagsvídd eða fjárhagsvídd set?
+- Er fjárhagsvídd hluti af sjálfgefinu samþættingarsniði fjárhagsvíddar?
+- Hefur fjárhagsvídd verið uppsett sem sjálfgefin vídd?
 
-
-
+Ef einhverjum skilyrðum er mætt er ekki hægt að eyða fjárhagsvíddinni.
 

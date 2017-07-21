@@ -3,32 +3,34 @@ title: "innhreyfingarskjal afurða gagnvart innkaupapantanir"
 description: "Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>innhreyfingarskjal afurða gagnvart innkaupapantanir
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar.
@@ -54,7 +56,7 @@ Hægt er að stofna innkaupapöntunarlínur þar sem **Nýja eign** valkosturinn
 
 Hægt er að velja margar pantanir og vinna úr móttöku á öllum þeim pöntunum saman. Þessi nálgun er ekki notuð mjög oft, en þú vilt kannski nota hana ef birgir hefur sameinað sendingar fyrir þíg í einn stakan farm. Við móttöku afurða vegna innkaupanna, er aðgerði til að framkvæma safnuppfærslur. Safnuppfærsla gera þér kleift að bóka stakan fylgiseðil frá birgi fyrir meira en eina innkaupapöntun.  
 
-Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Einnig, ef Innkaupapöntunin er Innkaupapöntun innan samstæðu gerir Microsoft Dynamics 365 for Operations móttökuna á sjálfvirkan hátt á sölupöntun innan samstæðu þegar sendingin á sér stað. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
+Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Sé um að ræða innkaupapöntun innan samstæðunnar er sölupöntunin móttekin sjálfkrafa í Microsoft Dynamics 365 for Finance and Operations við sendingu. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
 
 Eftir að innhreyfingarskjal afurða hefur verið unnið á Innkaupapöntunin, er staða Innkaupapantana stillt á **Móttekið** til að tilgreina a' hægt er að vinna reikningur fyrir pöntunina. Hægt er að skoða upplýsingar um afurðir sem hafa þegar verið móttekin með **færslubækur innhreyfingarskjals Afurða** síðu.  
 
@@ -69,7 +71,7 @@ Hægt er að opna þessa síðu úr á **Innhreyfing** aðgerðaflokk á **Innka
 
 [Staðfesting og samþykkt innkaupapöntunar](purchase-order-approval-confirmation.md)
 
-[Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

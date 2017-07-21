@@ -3,27 +3,26 @@ title: "Dálkaskilgreiningar í Fjárhagsskýrslum"
 description: "Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.reviewer: shylaw
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -100,7 +99,7 @@ Hólfið **Dálktakmarkanir** getur innihaldið kóða sem takmarka eða fela up
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Dálktakmörkun bætt við dálkskilgreiningu
 
 1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellt er á hólfið **Dálktakmarkanir**fyrir þann dálk sem á að takmarka.
+2.  Tvísmellt er á hólfið **Dálktakmarkanir** fyrir þann dálk sem á að takmarka.
 3.  Í svarglugganum **Dálktakmarkanir** er einn eða fleiri kóðar valdir af listanum og því næst smellt á **Í lagi**.
 
 ### <a name="column-restriction-codes"></a>Dálktakmörkunarkóðar
@@ -164,7 +163,7 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 
 ### <a name="create-an-automatically-generated-header"></a>Stofna sjálfvirkt myndaðan haus
 
-Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem sjálfvirkur texti kóða notast við dagatalsupplýsingar úr hlutanum Upplýsingar í dálkskilgreiningu, eru þeir aðeins studdir fyrir dálkana **CALC**, **FD**, og **WKS** dálkana. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Til dæmis: Færið inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexta: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**. **Ábending:** Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á Dynamics 365 for Operations-þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.
+Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem sjálfvirkur texti kóða notast við dagatalsupplýsingar úr hlutanum Upplýsingar í dálkskilgreiningu, eru þeir aðeins studdir fyrir dálkana **CALC**, **FD**, og **WKS** dálkana. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Til dæmis: Færið inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexta: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**. **Ábending:** Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á Finance and Operations-þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.
 
 | Valkostir sjálfvirks texta og kóði                | lýsing                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -286,7 +285,7 @@ Hólfið **Hnekking sniðs/gjaldmiðils** tilgreinir snið tugabrota-, gjaldmið
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Hnekkingu á gjaldmiðilssniði úthlutað á skýrsludálk
 
 1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2.  Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils**í upphæðardálki.
+2.  Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils** í upphæðardálki.
 3.  Snið er valið í svarglugganum **Hnekkja sniði**.
 
 ### <a name="add-a-print-control-code"></a>Bæta við kóða fyrir stillingu prentunar
@@ -488,7 +487,7 @@ Eftirfarandi dæmi sýnir hluta af dálklýsingu með eigind reiknings í línun
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Víddarafmörkun í dálkskilgreiningu
 
-Víddarafmörkun er notuð til að takmarka **FD**-dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf ..\financial-dimensions\dimension-byggt kerfi ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar fleiri en einn reikningur eru tilgreindir skal setja kommu á milli reikninga, eins og í eftirfarandi dæmi: +Account=\[1200\], +Account=\[1100\], Department=\[01?\] Til að fá allar deildir fyrir tiltekinn reikning er hægt að sleppa víddinni Deild úr víddarafmörkuninni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
+Víddarafmörkun er notuð til að takmarka **FD**-dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf ..\financial-dimensions\dimension-byggt kerfi ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar margir lyklar eru tilgreindir, er sett komma á milli lykla, líkt og í eftirfarandi dæmi: +Lykill=\[1200\], +Lykill=\[1100\], Deild=\[01?\] Til að fá allar deildir fyrir tiltekinn lykil, er hægt að útiloka deildarvíddina úr víddarsíunni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
 
 -   +Account=\[1100\],Department
 -   +Account=\[1100\]

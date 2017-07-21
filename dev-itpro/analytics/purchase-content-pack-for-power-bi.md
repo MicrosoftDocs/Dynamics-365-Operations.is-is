@@ -1,27 +1,27 @@
 ---
 title: "Efni Power BI eyðslugreining innkaupa"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka."
-author: YuyuScheller
+description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI efninu Greining á innkaupaútgjöldum Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið."
+author: FrankDahl
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ad0ee95113d05710cccc1a5e9d215b38244c2047
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -29,23 +29,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Þetta efnisatriði lýsir því hvað er innifalið í Power BI efninu **Greining á innkaupaútgjöldum**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
-Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnispakka.
+## <a name="overview"></a>Yfirlit
 
-<a name="overview"></a>Yfirlit
---------
-
-Efnispakki eyðslugreiningar innkaupa fyrir Microsoft Power BI var stofnaður fyrir innkaupastjóra og stjórnendur sem bera ábyrgð á áætlunum. Hann er hannaður til að auðvelda þeim fylgjast með útgjöldum fyrir innkaup. Hann notar færslugögn innkaupa frá Microsoft Dynamics 365 for Operations og veitir bæði samanlagt yfirlit yfir innkaupatölur fyrirtækisins og sundurliðun innkaupaeyðslu eftir lánardrottni og vöru. Skýrslur auðkenna breytingar í útgjöldum innkaupa yfir tíma. Þess vegna er hægt að nota þær til að vara stjórnendur við jákvæðri og neikvæðri kostnaðarþróun fyrir einstaka lánardrottna og vörur. Myndrit sýna útgjöld innkaupa fyrir mismunandi innkaupategundir og lánardrottnaflokka. Flokks- og svæðisbundnum stjórnendum gæti þótt gagnlegt að nota þessi myndrit til að finna breytingar á eyðsluhegðun. Efnispakkinn fyrir Microsoft Power BI var stofnaður fyrir innkaupastjóra og stjórnendur sem bera ábyrgð á greiningu fjárhagsáætlana innkaupaútgjalda á eftirfarandi hátt.
+Power BI efnið **Greining á innkaupaútgjöldum** var hannað til að auðvelda innkaupastjórum og stjórnendum sem bera ábyrgð á fjárhagsáætlunum að fylgjast með innkaupaútgjöldum. Stjórnendur geta greint útgjöld við innkaup á eftirfarandi hátt:
 
 -   Innkaup á árinu (eftir lánardrottnaflokki og stökum lánardrottnum, innkaupategund og stökum afurðum og staðsetningu lánardrottins)
 -   Breytingar á innkaupum ár frá ári (eftir lánardrottnaflokki og innkaupategund)
 
-## <a name="accessing-the-content-pack"></a>Farið í efnispakkann
-Efnispakki eyðslugreiningar innkaupa er gefinn út sem innleiðingu eign í Microsoft Dynamics Lifecycle Services (LCS) og úr Microsoft Dynamics 365 for Operations. Nánari upplýsingar um hvernig á að fara í og opna Power BI-skýrslur er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
-ATHUGIÐ - KB 4011327 er forskilyrði fyrir þetta Power BI-efni. Eftir að þú skrá inn á Lifecycle Services, hefurðu aðgang að KB hér: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+Efnið notast við innkaupafærslugögn og gefur bæði samantekið yfirlit yfir innkaupatölur fyrirtækisins og sundurliðun á útgjöldum við innkaup eftir lánardrottnum og afurðum. Skýrslur auðkenna breytingar í útgjöldum innkaupa yfir tíma. Þannig má nota skýrslurnar til að gera stjórnendum viðvart um jákvæða og neikvæða útgjaldaþróun fyrir einstaka lánardrottna og afurðir. Ennfremur sýna gröf innkaupaútgjöld fyrir mismunandi innkaupaflokka og lánardrottnahópa. Því geta flokka- og svæðastjórnendur notað gröfin til að finna breytingar á útgjaldahegðun.
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Mælikvarðar sem eru hafðir með í efnispakka
-Efnispakki eyðslugreiningar innkaupa inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efnispakkanum.
+## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition með uppfærslu frá júlí 2017 er Power BI efnið **Greining á innkaupaútgjöldum** sýnt á síðunni **Greining á innkaupum og útgjöldum** (**Innkaup og aðföng** > **Fyrirspurnir og skýrslur** > **Greining á innkaupaárangri** > **Greining á innkaupum og útgjöldum**). 
+
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
+Power BI efnið **Greining á innkaupaútgjöldum** inniheldur skýrslu sem samanstendur af safni mæligilda. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Eftirfarandi tafla sýnir myndræna framsetningu.
 
 <table>
 <colgroup>
@@ -133,14 +132,26 @@ Efnispakki eyðslugreiningar innkaupa inniheldur skýrslu sem samanstendur af sa
 
 \*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund
 
+## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
+Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu. Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana. 
+
+Hægt er að finna Power BI efnið **Greining á innkaupaútgjöldum** í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
+
+Gangið úr skugga um að sækja efnið **Greining á innkaupaútgjöldum** sem á við um þá útgáfu Dynamics 365 sem verið er að nota.
+
+> [!NOTE]
+> Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611, er KB 4011327 forsenda fyrir þessu Power BI efni. Þegar þú hefur skráð þig inn í LCS hefur þú aðgang að KB á https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="data-model-and-entities"></a>Gagnalíkan og einingar
-Gögn Dynamics 365 for Operations eru notuð fyrir skýrsluna í efnispakka eyðslugreiningar innkaupa. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Sjá frekari upplýsingar um verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsöfnaðra mælinga sem voru tiltækar í Innkaupateningur í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. Eftirfarandi lykiluppsafnaðar mælingar eru tiltækar beint úr reikningslínueiningunni og eru notaðar sem grunnur að efnispakka.
+Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efninu **Greining á innkaupaútgjöldum**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
-| Eining        | Lykiluppsafnaðar mælingar | Gagnaveita fyrir Dynamics 365 for Operations | Svæði              | lýsing                           |
-|---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| Línur á reikningi | Innkaup                   | VendInvoiceTrans                            | SAMTALA(LineAmountMST) | Upphæð í bókhaldsgjaldmiðli |
+Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í Innkaupateningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun, verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir millistigsvigtun uppsafnaðra mælinga í einingaverslun í [Yfirlit yfir Power BI samþættingu við einingaverslun](power-bi-integration-entity-store.md). Eftirfarandi uppsafnaðar lykilmælingar eru tiltækar beint úr reikningslínueiningunni og eru grunnur þessa efnispakka.
 
-Eftirfarandi tafla sýnir lykilmælingarnar sem eru reiknaðar í efnispakkanum úr reikningslínueiningunni.
+| Eining        | Lykiluppsafnaðar mælingar | Uppruni gagna                                 | Svæði              | lýsing                            |
+|---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
+| Reikningslínur | Innkaup                   | VendInvoiceTrans                            | SAMTALA(LineAmountMST) | Upphæðin í bókhaldsgjaldmiðli. |
+
+Eftirfarandi tafla sýnir lykilmælingarnar í efnispakkanum sem eru reiknaðar úr reikningslínueiningunni.
 
 | Mæla               | Útreikningur                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
@@ -148,7 +159,7 @@ Eftirfarandi tafla sýnir lykilmælingarnar sem eru reiknaðar í efnispakkanum 
 | Innkaup síðasta árs    | Innkaup síðasta ár = REIKNA (SAMTALA ('Reikningslínur'\[Innkaupa\]), SAMEPERIODLASTYEAR (Dagsetningar\[Dagsetning\])) |
 | Vöxtur í innkaupum ár frá ári   | Vöxtur í innkaupum ár frá ári = \[Innkaupa núverandi árs\] – \[Innkaupa síðasta árs\]                            |
 
-Eftirfarandi lykilvíddir í efnispakka eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að ná meiri uppskiptingu og dýpri greiningarinnsýn.
+Eftirfarandi lykilvíddir í efnispakkanum eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að ná meiri uppskiptingu og öðlast dýpri greiningarinnsýn.
 
 | Eining                 | Dæmi um eigindir                                |
 |------------------------|-------------------------------------------------------|
@@ -158,17 +169,5 @@ Eftirfarandi lykilvíddir í efnispakka eru notaðar sem síur til að sneiða u
 | Lögaðilar         | Heiti lögaðila                                     |
 | Dagsetningar                  | Dagsetningar, Mótbókun árs                                    |
 
-Sjálfgefið er að efnispakki sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
-
--   [Gagnaeiningar](..\data-entities\data-entities.md)
--   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Bæta Power BI-reitum við vinnusvæði](configure-power-bi-integration.md)
-
-
-
-
+Sjálfgefið er að efnispakkinn sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
 

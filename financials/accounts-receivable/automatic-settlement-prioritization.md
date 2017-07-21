@@ -3,7 +3,7 @@ title: "Sjálfvirkt uppgjör og forgangsröðun"
 description: "Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 890de45f8425bdc59ca2fd2ed8297ab3690cc98d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi.
 
-Tveir valkostir hafa þegar greiðslur með reikninga og aðrar færslur jafnaður. Hægt er að velja færslur til jöfnunar, handvirkt eða Microsoft Dynamics 365 for Operations getur valið færslurnar sjálfkrafa með því að nota sjálfvirku jöfnunaraðgerðina. Einnig er hægt að sérsníða hvernig sjálfvirkar jafnanir eru unnar með því að nota í **Forgangsraða jöfnun** valkost. Allir þessir valkostir eru hluti af á jöfnunarfæribreytur sem eru skilgreindar á **Færibreytur viðskiptakrafna** síðu. Færslur jafnaðar sjálfkrafa hvernig geta verið mismunandi, eftir þeirri aðferð sem notuð er fyrir sjálfvirka jöfnun. Eftirtaldar aðferðir eru tiltækar:
+Tveir valkostir hafa þegar greiðslur með reikninga og aðrar færslur jafnaður. Hægt er að velja færslur til jöfnunar handvirkt eða Microsoft Dynamics 365 for Finance and Operations getur valið færslurnar sjálfkrafa með því að nota sjálfvirku jöfnunaraðgerðina. Einnig er hægt að sérsníða hvernig sjálfvirkar jafnanir eru unnar með því að nota í **Forgangsraða jöfnun** valkost. Allir þessir valkostir eru hluti af á jöfnunarfæribreytur sem eru skilgreindar á **Færibreytur viðskiptakrafna** síðu. Færslur jafnaðar sjálfkrafa hvernig geta verið mismunandi, eftir þeirri aðferð sem notuð er fyrir sjálfvirka jöfnun. Eftirtaldar aðferðir eru tiltækar:
 
 -   Notandaskilgreind jöfnunarforgangur
 -   Sjálfgefin sjálfvirka jöfnun

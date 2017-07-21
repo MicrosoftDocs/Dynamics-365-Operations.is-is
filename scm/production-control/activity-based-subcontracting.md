@@ -3,27 +3,27 @@ title: "Verkþáttarbyggð úthýsing"
 description: "Þetta umfjöllunarefni lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Þetta umfjöllunarefni lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu.
 
-Í Microsoft Dynamics 365 for Operations eru tvær nálganir við úthýsingu: framleiðslupantanir og lean-framleiðsla. Í lean-framleiðslu er úthýsingarvinna byggðt upp sem þjónusta sem er tengd við verkþátt framleiðsluflæðis. Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM). Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu.
+Í Microsoft Dynamics 365 for Finance and Operations eru tvær nálganir við úthýsingu: framleiðslupantanir og Lean manufacturing. Í lean-framleiðslu er úthýsingarvinna byggðt upp sem þjónusta sem er tengd við verkþátt framleiðsluflæðis. Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM). Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Framleiðsluflæði sem taka til undirverktaka
 Meginregla framleiðsluflæðis breytist ekki þegar aðgerðir eru útvistaðar. Efnið flæðir enn á milli staðsetninga, ferlisaðgerðir breyta efni í afurð og flutningsaðgerðir flytja efni eða afurð af einni staðsetningu í aðra. Hægt er að byggja staðsetningar og vinnuflokka á lánardrottnastýrðu með því að úthluta lánardrottnalykli á vöruhús eða á tilföng í tilfangaflokki.  
@@ -104,7 +104,7 @@ Fólk álítur flutning oft vera ekki notaðan í framleiðslu og að hann bæti
 
 Úthýsingar byggðar á verkþáttum í lean-framleiðslu leyfa þér að samþætta flutningsaðila og flutningslánardrottna sem flytja efni og afurðir milli staðsetninga í framleiðsluflæði. Með því að gera líkan af flutningsverkþætti er hægt að úthluta flutningsaðila eða lánardrottni. Flutningsaðgerðir/vinnsla er byggð á þjónustu og innkaupasamnings, og hægt er að stofna innkaupapöntun og innhreyfingaráðgjöf, á grunni raunflutningsvinnslu. Þessi virkni er sú sama og virknin fyrir verkþætti úthýsingar.  
 
-Þess vegna styðja Dynamics 365 for Operations núna Útreikningur uppskrifta sem inniheldur flutningsþjónustu, stofnun á tengdum innkaupapöntununum, samþættri skráningu innhreyfinga, og samþættingu á flutningsþjónustukostnaður í kostnaðarútreikning framleiðsluflæðis.
+Þess vegna styður Finance and Operations nú uppskriftarútreikninga sem fela í sér flutningsþjónustu, stofnun á tengdum innkaupapöntunum, samþætta skráningu innhreyfinga og samþættingu á flutningsþjónustukostnaði í kostnaðarútreikning framleiðsluflæðis.
 
 
 

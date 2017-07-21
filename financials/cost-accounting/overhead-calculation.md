@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Nákvæmar upplýsingar um reglu sameiginlegs kostnaðar er að finna í Reglu f
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Skref 4: Keyra útreikning kostnaðarúthlutunar
 
-Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Microsoft Dynamics 365 for Operations styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar. [![Umhverf aðferð](./media/reciprocal-method.png)]
+Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Finance and Operations styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar. [![Umhverf aðferð](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Tilgreinið kostnaðarúthlutun
 
@@ -719,12 +719,12 @@ Kostnaðarhlutir CC004 Umbúðir leggur til nokkra kostnaðarhluti. Stofnað er 
 <tr>
 <td>Afurð 2</td>
 <td>Afurð 2</td>
-<td>15</td>
+<td>sept</td>
 </tr>
 </tbody>
 </table>
 
-**Athugið:** í Dynamics 365 for Operations er hægt að afleiða tölfræðiaðgerðir eins og framleiðslutíma sem vara notar frá upprunagögnum. Ítarlegri upplýsingar um veitur tölfræðiaðgerðar er að finna í Veitusniðmáti tölfræðiaðgerðar. (Athugið að þetta efnisatriði er ekki enn fullklárað en er væntanlegt.) Eftirfarandi tafla sýnir niðurstöður þegar Mannauðsþjónusta er notuð sem úthlutunargrunnur fyrir heildarkostnað (fastan kostnað og breytilegan kostnað).
+**Athugið:** Í Finance and Operations er hægt að afleiða tölfræðiaðgerðir eins og framleiðslutíma sem vara notar frá upprunagögnum. Ítarlegri upplýsingar um veitur tölfræðiaðgerðar er að finna í Veitusniðmáti tölfræðiaðgerðar. (Athugið að þetta efnisatriði er ekki enn fullklárað en er væntanlegt.) Eftirfarandi tafla sýnir niðurstöður þegar Mannauðsþjónusta er notuð sem úthlutunargrunnur fyrir heildarkostnað (fastan kostnað og breytilegan kostnað).
 
 <table>
 <thead>

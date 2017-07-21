@@ -1,37 +1,37 @@
 ---
-title: "Stjórna starfsmaður í vöruhúsi"
-description: "Þessi skrá lýsir hvernig nota má Microsoft Dynamics AX til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús."
+title: "Stjórnun starfskrafta í vöruhúsi"
+description: "Þessi grein lýsir hvernig nota má Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="manage-warehouse-workers"></a>Stjórna starfsmaður í vöruhúsi
+# <a name="manage-warehouse-workers"></a>Stjórnun starfskrafta í vöruhúsi
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi skrá lýsir hvernig nota má Microsoft Dynamics AX til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
+Þessi grein lýsir hvernig nota má Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi.
 
 Ef verið er að nota virknina í vöruhúsastjórnun, eru allar aðgerðir starfsmanns í vöruhúsi vísað til sem *vinna*. Vinna t.d. tiltekt, flutningur, og Telja lagerbirgðir er skráð með því að nota fartæki. Áður en starfsmaður í vöruhús getur framkvæmt vinnu verður hann eða hún að vera tengdur við starfsmann í mannauði. Hver **Starfsmanns** lykill getur haft mörg vinnunotendur vöruhúss tengda. Þessir vinnunotendur getur unnið í mismunandi vöruhús og geta haft mismunandi aðgangsstig að ýmsum valmyndum fartækis. Þú getur líta á vinnunotendum vöruhúss sem margar innskráningar fyrir valinn starfsmann. Hver vinnunotanda hefur sjálfgefið vöruhús og tiltekin verkflæði eru birt af valmyndaratriðum sem eru tiltæk fyrir þann vinnunotanda. 
 

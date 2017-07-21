@@ -3,32 +3,34 @@ title: "Yfirlit yfir „Innkaupapöntun“"
 description: "Þessi grein inniheldur almennar upplýsingar um innkaupapantanir (POs) og tengir viðbótar greinum sem eru tengdar við mörg stig sem Innkaupapöntun fer í gegnum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 88fa3fb97621e0f4a226a45b36809e824c807420
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/09/2017
 
 ---
 
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Þessi grein inniheldur almennar upplýsingar um innkaupapantanir (POs) og tengir viðbótar greinum sem eru tengdar við mörg stig sem Innkaupapöntun fer í gegnum.
@@ -46,7 +48,7 @@ Eftirfarandi greinum veita yfirlit yfir mismunandi stigum Innkaupapöntun fer í
 -   [Stofnun innkaupapöntunar](purchase-order-creation.md)
 -   [Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
 -   [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
--   [Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Gerðir innkaupapantana
 Það eru þrjár gerðir innkaupapantana. Þegar innkaupapöntun er stofnuð verður að tilgreina gerð. Hægt er að setja upp sjálfgefna pöntunargerð fyrir nýjar pantanir á **færibreytur Innkaupa og aðfanga** síðu.
@@ -90,7 +92,7 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
-[Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

@@ -3,7 +3,7 @@ title: "Skrársnið fyrir greiðsluhátt"
 description: "Þetta efnisatriði lýsir tveimur aðferðum til að sækja skráarsnið sem hægt er að nota fyrir greiðslumáta."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262514
 ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9b3cf1d469998389895c137fa842b73adb0eeddc
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: cbe4b57d0ad9119b0e5f6c9725a85c3afe8388ab
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -42,7 +42,7 @@ Hægt er að nota tvenns konar aðferðir til að sækja skráarsnið til að no
 
 ### <a name="method-1-electronic-reporting-file-formats"></a>Aðferð 1: Skráarsnið fyrir rafræna skýrslugerð
 
-Fyrir skráarsnið sem byggjast á skilgreiningum rafrænnar skýrslugerðar verður að flytja inn skilgreiningar frá Lifecycle Services (LCS). Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs) Eftir að þú flytur inn skilgreiningar skýrslugerðar fyrir þessi skráarsnið er hægt að velja innfluttu sniðin á síðunni **Greiðslumáta**. Ferlið fyrir innflutning og val á skráarsniðum fyrir Evrópu er svipað og í Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
+Fyrir skráarsnið sem byggjast á skilgreiningum rafrænnar skýrslugerðar verður að flytja inn skilgreiningar frá Lifecycle Services (LCS). Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs) Eftir að þú flytur inn skilgreiningar skýrslugerðar fyrir þessi skráarsnið er hægt að velja innfluttu sniðin á síðunni **Greiðslumáta**. Ferlið fyrir innflutning og val á skráarsniðum fyrir Evrópu er svipað og í Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
 
 ### <a name="method-2-x-file-formats"></a>Aðferð 2: X++ skráarsnið
 

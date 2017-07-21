@@ -3,25 +3,25 @@ title: "Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna"
 description: "Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
 
-**Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga til að Microsoft Dynamics 365 for Operations með því að nota getu verkflæðis.
+**Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga til að Microsoft Dynamics 365 Finance and Operations, Enterprise edition með því að nota getu verkflæðis.
 Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 ----------------------------------------
 
@@ -40,14 +40,14 @@ Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 
 **Samantekt** reitir veita yfirlit yfir reikninga fyrir valinn lánardrottinn. Hægt er að skoða reikninga eftir stöðu þeirra.
 -   Reikningsdrög hafa ekki verið send í verkflæði.
--   Sendar, en ekki samþykktar reikninga eru þá reikninga sem lánardrottinn hefur sent en hafa ekki verið bókaðir í Dynamics 365 for Operations.
--   Samþykktir, en ekki greiddir reikninga eru þeir sem hafa verið bókaðir í Dynamics 365 for Operations en hafa ekki enn verið að fullu greiddir.
--   Greidda reikninga eru þær sem hafa verið greidd að fullu í Dynamics 365 for Operations.
+-   Sendir, en ekki samþykktir reikningar eru þá reikningar sem lánardrottinn hefur sent en hafa ekki verið bókaðir í Finance and Operations.
+-   Samþykktir, en ekki greiddir reikninga eru þeir sem hafa verið bókaðir í Finance and Operations en hafa ekki enn verið að fullu greiddir.
+-   Greiddir reikningar eru þeir sem hafa verið greiddir að fullu í Finance and Operations.
 
 Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
 ### <a name="tabular-lists"></a>Töflulisti
 
-Í **Töflulista**hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
+Í **Töflulista** hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
 Listasíðu fyrir alla reikninga lánardrottins
 -----------------------------
 
@@ -59,7 +59,7 @@ Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt*
 
 
 
-Nánari upplýsingar má finna í [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Nánari upplýsingar má finna í [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

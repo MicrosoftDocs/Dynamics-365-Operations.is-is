@@ -3,26 +3,26 @@ title: "Birgðabækur"
 description: "Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla. 
 
-Birgðabækur í Microsoft Dynamics 365 for Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskriftir (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
+Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskrifta (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
 
 ## <a name="types-of-inventory-journals"></a>Gerðir birgðabóka
 Eftirtaldar gerðir birgðabóka eru tiltækar:
@@ -68,7 +70,7 @@ Hægt er að Nota flutningabækur til að flytja vörur milli staðsetningar bir
 
 ### <a name="item-arrival"></a>Vörumóttaka
 
-Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir). Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**. Ef heiti vörukomubókar er virkjað til að athuga fyrir tiltektarstaðsetningar, leitar Dynamics 365 for Operations að staðsetningu fyrir mótteknar vörur og, ef pláss er , myndar áfangastaði staðsetningar fyrir vörur á innleið.
+Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir). Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**. Ef heiti vörukomubókar er virkjað til að leita að tiltektarstaðsetningum, leitar Finance and Operations að staðsetningu fyrir mótteknar vörur og, ef pláss er, myndar áfangastaði fyrir vörur á innleið.
 
 ### <a name="production-input"></a>Framleiðsluinntak
 

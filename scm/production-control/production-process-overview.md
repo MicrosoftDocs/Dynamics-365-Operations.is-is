@@ -3,7 +3,7 @@ title: "Yfirlit yfir framleiðsluferli"
 description: "Þessi grein veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ Framleiðsla á vörum, ferli sem er einnig þekkt sem líftími framleiðslu, f
 
 Kerfiseiningin **Framleiðslustýring** er tengd við aðrar kerfiseiningar, eins og **Upplýsingar um afurðastjórnun**, **Birgðastjórnun**, **Fjárhagur**, **Vöruhúsakerfi**, **Verkbókhald** og **Fyrirtækisstjórnun**. Þessi samþætting styður upplýsingaflæðið sem er krafist til að klára framleiðslu afurðar.  
 
-Framleiðsluferlið verður vanalega fyrir áhrifum af kostnaðarbókhalds- og birgðamatsaðferðum sem eru valdar fyrir tiltekið framleiðsluferli. Dynamics 365 for Operations styður bæði raunkostnað (fyrst inn, fyrst út \[FIFO\]; síðast inn, fyrst út \[LIFO\]; hlaupandi meðaltal; og reglubundið vegið meðaltal) og aðferðir staðalkostnaðar. Lean-framleiðsla er innleidd byggt á reglu bakfærslukostnaðaraðgerðarar.  
+Framleiðsluferlið verður vanalega fyrir áhrifum af kostnaðarbókhalds- og birgðamatsaðferðum sem eru valdar fyrir tiltekið framleiðsluferli. Finance and Operations styður bæði raunkostnað (fyrst inn, fyrst út \[FIFO\]; síðast inn, fyrst út \[LIFO\]; hlaupandi meðaltal og reglubundið vegið meðaltal) og aðferðir staðalkostnaðar. Lean-framleiðsla er innleidd byggt á reglu bakfærslukostnaðaraðgerðarar.  
 
 Val á kostnaðarmatsaðferðunum skilgreinir einnig kröfur um skýrslugerð um efni og tilfanganotkun meðan á framleiðsluferlinu stendur. Yfirleitt krefjast raunkostnaður aðferðir nákvæmra skýrslna á vinnslustigi en reglubundnar kostnaðarútreikningsaðferðir leyfa minna grófa skýrslugerð um efni og tilföng.
 
 ## <a name="mixed-mode-manufacturing"></a>Blönduð framleiðsla
-Mismunandi afurðir og grannfræði framleiðslu krefjast beitingar á mismunandi pöntunargerðum. Dynamics 365 for Operations getur notað ýmsar gerðir pantana í blandaðri stillingu. Með öðrum orðum geta allar gerðir pantana átt sér stað á meðan vinnslum frá upphafi til enda í framleiðslu einnar endanlegrar afurðar.
+Mismunandi afurðir og grannfræði framleiðslu krefjast beitingar á mismunandi pöntunargerðum. Finance and Operations getur notað ýmsar gerðir pantana í blandaðri stillingu. Með öðrum orðum geta allar gerðir pantana átt sér stað á meðan vinnslum frá upphafi til enda í framleiðslu einnar endanlegrar afurðar.
 
 -   **Framleiðslupöntun** – Þetta er hefðbundin gerð pöntunar til að framleiða tiltekna afurð eða afurðarafbrigði í ákveðnu magni á tiltekinni dagsetningu. Framleiðslupantanir eru byggðar á uppskriftum (BOMs) og leiðum.
 -   **Runupöntun** – Þessi gerð pöntunar er notuð fyrir iðnaðarferli og aðskilin ferli þar sem umreikningur framleiðslu er byggður á formúlu, eða þar sem aukaafurðir og hliðarafurðir geta verið lokaafurðir viðbótar eða í stað aðallykil. Runupantanir nota **Formúlu** gerð uppskrifta og leiða.

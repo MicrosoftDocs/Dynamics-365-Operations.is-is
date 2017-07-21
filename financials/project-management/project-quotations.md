@@ -3,7 +3,7 @@ title: "Verktilboð"
 description: "Þessi grein inniheldur hugtakið verktilboð, sem hægt er nota til að gera viðskiptavini álitlegt tilboð sem fyrsta skrefið í áfanga verks. Tilboð verks gæti innifalið vörur og þjónustu sem í boði eru, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og mögulega skatta og álögur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23621
 ms.assetid: 1ba67109-8c5b-4ada-b730-a72cd46203fd
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2328d4b7fd7715f0ce086e04e56a6ddff409d50d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0906a1600d4bf097a27cabff4d3b51e50f986631
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Þessi grein inniheldur hugtakið verktilboð, sem hægt er nota til að gera viðskiptavini álitlegt tilboð sem fyrsta skrefið í áfanga verks. Tilboð verks gæti innifalið vörur og þjónustu sem í boði eru, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og mögulega skatta og álögur. 
 
-Getan til að fylgjast með, endurskoða og hafa stjórn á keðju verktilboða og pantana er mikilvægur þáttur verkstjórnunar. Ýmis tæki í Microsoft Dynamics 365 for Operations létta slíka stjórnun. Tæki eins og réttar skilgreiningar tilvísunargagna (tilboðsgerðir, uppruni tilboða, spár og líkindi) hjálpa til við að greina keðjuna. Hægt er að nota þessi tæki til að flokka ástæður þess að verktilboð bar árangur eða ekki og hvað tilboðið var hugsanlega mikils virði. 
+Getan til að fylgjast með, endurskoða og hafa stjórn á keðju verktilboða og pantana er mikilvægur þáttur verkstjórnunar. Ýmis tæki í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition létta slíka stjórnun. Tæki eins og réttar skilgreiningar tilvísunargagna (tilboðsgerðir, uppruni tilboða, spár og líkindi) hjálpa til við að greina keðjuna. Hægt er að nota þessi tæki til að flokka ástæður þess að verktilboð bar árangur eða ekki og hvað tilboðið var hugsanlega mikils virði. 
 
 Í verktilboði er færð inn þjónusta, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og skatta og álögur sem metið er fyrir verk. Einnig er hægt velja verkefni eða verk fyrir verkþætti, og stofna stigveldi fyrir verk og undirverk. Fyrir hvern verkþátt er hægt að færa inn upplýsingar um tímasetningu og tímalengd verkþáttar og um hæfni og reynslu sem krafist er fyrir starfsmenn sem á að framkvæma verkþáttinn. 
 

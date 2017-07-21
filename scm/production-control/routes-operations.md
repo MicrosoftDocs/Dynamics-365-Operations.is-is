@@ -3,7 +3,7 @@ title: "Leiðir og aðgerðir"
 description: "Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 <a name="overview"></a>Yfirlit
 --------
 
-Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Operations samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
+Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Finance and Operations samanstendur af fjórum aðskildum einingum sem saman lýsa framleiðsluferlinu:
 
 -   **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
 -   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
@@ -45,7 +45,7 @@ Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð e�
 -   **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
 
 ## <a name="routes"></a>Leiðir
-Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Dynamics 365 for Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
+Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Dynamics 365 for Finance and Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
 
 ### <a name="simple-routes"></a>Einfaldar leiðir
 
@@ -53,7 +53,7 @@ Einföld leið er raðbundin og er aðeins einn byrjunarreitur fyrir leiðina.
 
 [![Einföld leið](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar myndar Dynamics 365 for Operations sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
+Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar, myndar Finance and Operations sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
 
 ### <a name="route-networks"></a>Leiðanet
 
@@ -85,10 +85,10 @@ Aðalaðgerðin og aukaaðgerðir verða að hafa sama aðgerðarnúmer (30 í f
 
 Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins vegar að þegar leið er ósamþykkt, eru allar tengdar leiðarútgáfur einnig ósamþykktar. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort hæg t sé að hætta við samþykkt leiða og hvort hægt sé að breyta samþykktum leiðum.  
 
-Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Rekstur
-Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu í Dynamics 365 for Operations. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
+Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu í Finance and Operations. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
 
 | Aðgerð  | lýsing        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar a
 
 ### <a name="modifying-product-specific-routes"></a>Breyti afurðabundnum leiðum
 
-Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi fyrir hverja aðgerð sýnir Dynamics 365 for Operations aðgerðaeiginleika úr aðgerðavenslum sem samsvarar best leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
+Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi sýnir Dynamics 365 for Finance and Operations aðgerðaeiginleika fyrir hverja aðgerð úr aðgerðavenslum sem samsvarar bestu leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
 
 Á síðunni **Leið** er hægt að breyta aðgerðareiginleikum aðgerðar, eins og keyrslutíma eða kostnaðartegundum. Breytingarnar eru vistaðar í aðgerðavensl sem eiga sérstaklega við um leiðina og útgefna afurð sem vísað er í gildandi leiðarútgáfu. Ef aðgerðavensl sem eru sýnd eiga ekki sérstaklega við um leiðina og útgefna afurð áður en breytingar eru vistaðar, býr kerfið til afrit af aðgerðavenslunum. Þetta afrit *er* sértækt fyrir leiðina og útgefna afurð. Þess vegna hafa breytingarnar ekki áhrif á aðrar leiðir eða útgefnar afurðir. Til að staðfesta hvaða aðgerðavenslum er breytt á síðunni **Leið** síðunni, skal skoða svæðin **Vörukóði** og **Leiðarkóða**.  
 
@@ -150,9 +150,9 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="applying-operation-relations"></a>Beiting aðgerðavensla
 
-Í sumum tilfellum verður Dynamics 365 for Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Dynamics 365 for Operations að viðeigandi aðgerðavenslum frá sérstökustu samsetningunni að minnst sérstöku samsetningunni.  
+Í sumum tilfellum verður Dynamics 365 for Finance and Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Finance and Operations að viðeigandi aðgerðavenslum frá sértækustu samsetningunni að minnst sértæku samsetningunni.  
 
-Þegar Dynamics 365 for Operations leitar að mest viðeigandi aðgerðavenslum fyrir losaða afurð eru aðgerðavensl sem samsvara Vörukenni útgefinar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
+Þegar Dynamics 365 for Finance and Operations leitar að mest viðeigandi aðgerðavenslum fyrir útgefna afurð eru aðgerðavensl sem samsvara vörukenni útgefinnar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
 
 1.  **Vörukóði**=**Tafla** og **Vöruvensl**=&lt;vörukenni&gt;
 2.  **Vörukóði**=**Hópur** og **Vöruvensl**=&lt;vörukenni&gt;
@@ -188,7 +188,7 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="electronic-signatures"></a>Rafrænar undirskriftir
 
-Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Vörubreyting sem notar málastjórnun
 
@@ -199,9 +199,9 @@ Eftir viðskiptaþörfum ykkar, gæti verið hægt að minnka það framlag sem 
 
 ### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháðar tilföngum
 
-Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Dynamics 365 for Operations hægt að skilgreina safn þarfa sem aðgerðir tilfanga verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
+Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Dynamics 365 for Finance and Operations hægt að skilgreina safn krafna sem rekstrartilföng verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
 
-Til dæmis tilgreinir þú að aðgerð krefst aðgerða af gerðinni **Vélar** sem hefur **Stimplunar**getu upp á 20 tonn. Röðunarvélin mun síðan leysa þessar þarfir til tiltekinna aðgerðatilfanga eða tilfangaflokks þegar aðgerðin er áætluð. Þar sem hægt er að tilgreina einungis þessar þarfir í stað þess að binda aðgerð við tiltekna vél, hefurðu miklu meiri sveigjanleika. Þar að auki, verður viðhald auðveldara þegar tilföng eru flutt eða nýjum tilföngum er bætt við.  
+Til dæmis tilgreinir þú að aðgerð krefst aðgerða af gerðinni **Vélar** sem hefur **Stimplunar** getu upp á 20 tonn. Röðunarvélin mun síðan leysa þessar þarfir til tiltekinna aðgerðatilfanga eða tilfangaflokks þegar aðgerðin er áætluð. Þar sem hægt er að tilgreina einungis þessar þarfir í stað þess að binda aðgerð við tiltekna vél, hefurðu miklu meiri sveigjanleika. Þar að auki, verður viðhald auðveldara þegar tilföng eru flutt eða nýjum tilföngum er bætt við.  
 
 Nánari upplýsingar um mismunandi gerðir af tilfangaþörfum og hvernig á að nota þær er að finna í tilfangaþarfir Aðgerða og [tilfangagetu](resource-capabilities.md).
 
@@ -240,7 +240,7 @@ Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfa
 
 [Tilfangageta](resource-capabilities.md)
 
-[Yfirlit yfir rafrænar undirskriftir](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Yfirlit yfir rafræna undirskrift](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

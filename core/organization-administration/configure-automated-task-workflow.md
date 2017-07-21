@@ -3,25 +3,25 @@ title: "Skilgreining á sjálfvirku verki í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 358065dd127703191ba441d0603307a3b7e5df60
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -96,10 +96,10 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>

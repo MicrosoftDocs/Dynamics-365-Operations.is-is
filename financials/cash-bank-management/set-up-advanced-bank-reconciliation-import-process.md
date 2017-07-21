@@ -1,16 +1,16 @@
 ---
 title: "Setja upp ítarlegan innflutning bankaafstemmingarferlis"
-description: "Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið."
+description: "Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
+Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
 
-Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Microsoft Dynamics 365 for Operations styður þrjú snið bankayfirlits beint úr kassanum: ISO20022 MT940 og BAI2.
+Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Finance and Operations styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.
 
 ## <a name="sample-files"></a>Sýnisskrár
-Fyrir öll þrjú snið verður að hafa skrár sem þýða rafræna bankayfirlitið úr upprunalegu sniði á snið sem Dynamics 365 for Operations getur notað. Hægt er að finna nauðsynlegar skrár undir **Tilföng** hnút í Explorer Forritinu í Microsoft Visual Studio. Þegar búið er að finna skrár, skal afrita þær á einn þekktan stað svo að hægt sé að hlaða upp á einfaldan hátt meðan á uppsetningu stendur.
+Fyrir öll þrjú snið verður að hafa skrár sem þýða rafræna bankayfirlitið úr upprunalegu sniði á snið sem Dynamics 365 for Finance and Operations getur notað. Hægt er að finna nauðsynlegar skrár undir **Tilföng** hnút í Explorer Forritinu í Microsoft Visual Studio. Þegar búið er að finna skrár, skal afrita þær á einn þekktan stað svo að hægt sé að hlaða upp á einfaldan hátt meðan á uppsetningu stendur.
 
 | Nafn tilfangs                                           | Skrárnafn                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -71,7 +71,7 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO2002
 7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
 8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
 9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
-10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Smellt er á **Nýtt**.
 12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 13. Smellið á **Nota umbreytingar**
@@ -106,7 +106,7 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir MT940 b
 9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
 10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **MT940TXT-to-MT940XML.xslt** skrár sem vistuð var fyrr.
 11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Smellt er á **Nýtt**.
 14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 15. Smellið á **Nota umbreytingar**
@@ -142,7 +142,7 @@ Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir BAI2 ba
 9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
 10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja **BAI2CSV-to-BAI2XML.xslt** skrár sem vistuð var fyrr.
 11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Smellt er á **Nýtt**.
 14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
 15. Smellið á **Nota umbreytingar**

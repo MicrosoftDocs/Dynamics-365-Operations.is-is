@@ -3,25 +3,25 @@ title: "Verkefnastjórnun og bókhald"
 description: "Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
-ms.search.validFrom: 2016-02-28
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -37,7 +37,7 @@ Verkefnastjórnun er flokkur aðgerða til að veita þjónusta, framleiða afur
 ## <a name="projects-across-industries"></a>Verk yfir atvinnugreinar
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd. [![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
+Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
 
 ## <a name="project-phases"></a>Áfangar verks
 Þrátt fyrir að eftirfarandi vinnsluflæði sé beint gegn ytri verkum eða verkum sem er lokið fyrir einn eða fleiri viðskiptavini, á virknin einnig við um innri verk sem eru aðeins kostnaðarverk. 
@@ -75,11 +75,11 @@ Frekari upplýsingar eru í [Sundurliðanir verkþátta](work-breakdown-structur
 
 ### <a name="create-project-forecasts-and-budgets"></a>Viðhalda verkspám og fjárhagsáætlunum
 
-Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur áherslu á tekjur og kostnað sem eru afleidd af tilteknum færslum. Ef fyrirtækið leggur hins vegar meiri áherslu á fjárhagslegar upphæðir, er hægt að nota fjárhagsáætlanir. Hvor aðferð hefur sína kosti. Frekari upplýsingar eru í [Verkspár og fjárhagsáætlanir](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur áherslu á tekjur og kostnað sem eru afleidd af tilteknum færslum. Ef fyrirtækið leggur hins vegar meiri áherslu á fjárhagslegar upphæðir, er hægt að nota fjárhagsáætlanir. Hvor aðferð hefur sína kosti. Frekari upplýsingar eru í [Verkspár og fjárhagsáætlanir](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Stofna verk
 
-Hægt er að stofna sex gerðir verka í Microsoft Dynamics 365 for Operations. Hver verktegund er öðruvísi sett upp fyrir tekjuskráningu og kostnað. Gerð verks sem valin er fer eftir tilgangi verks. Eftirfarandi tafla lýsir dæmigert notkun á hverja verkgerð.
+Hægt er að stofna sex gerðir verka í Microsoft Finance and Operations. Hver verktegund er öðruvísi sett upp fyrir tekjuskráningu og kostnað. Gerð verks sem valin er fer eftir tilgangi verks. Eftirfarandi tafla lýsir dæmigert notkun á hverja verkgerð.
 
                                                                                                                                                                          |
 | Gerð verks      | Lýsing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Frekari upplýsingar eru í [Sundurliðanir verkþátta](work-breakdown-structur
 
 Til eru tvær leiðir til að hafa umsjón með og stjórna verkum: verkspár og fjárhagsáætlanir verks. Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur áherslu á tekjur og kostnað sem eru afleidd af tilteknum færslum. Ef fyrirtækið leggur hins vegar meiri áherslu á fjárhagslegar upphæðir, er hægt að nota fjárhagsáætlanir.
 
-Frekari upplýsingar eru í [Verkspár og fjárhagsáætlanir](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Frekari upplýsingar eru í [Verkspár og fjárhagsáætlanir](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Stofna framleiðslupantanir
 
@@ -210,7 +210,7 @@ Fyrir frekar upplýsingar um hvernig á að vinna úr verkreikningum, sjá [Reik
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Reikna út kostnað við að ljúka verki
 
-Þegar mat er stofnað er hægt að velja þá aðferð sem er notuð til að reikna út kostnaðinn við að ljúka verkinu. Veldu aðferð í reitnum **Aðferð kostnaðar við að ljúka**á síðunni **Stofna mat**. Aðferðinni sem er valin er beitt á hverja kostnaðarlínurna fyrir sig í kostnaðarmatinu. Þegar lína hefur stöðuna **Stofnað** er hægt að breyta aðferðinni sem er beitt á hana á síðunni **Kostnaðarmat**. 
+Þegar mat er stofnað er hægt að velja þá aðferð sem er notuð til að reikna út kostnaðinn við að ljúka verkinu. Veldu aðferð í reitnum **Aðferð kostnaðar við að ljúka** á síðunni **Stofna mat**. Aðferðinni sem er valin er beitt á hverja kostnaðarlínurna fyrir sig í kostnaðarmatinu. Þegar lína hefur stöðuna **Stofnað** er hægt að breyta aðferðinni sem er beitt á hana á síðunni **Kostnaðarmat**. 
 
 Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka verki.
 
@@ -228,7 +228,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <tbody>
 <tr class="odd">
 <td>Heildarkostnaður - Raunverulegur</td>
-<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar er ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Microsoft Dynamics 365 for Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálkinum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
+<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar er ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Samtala fjárhagsáætlunar - Raunveruleg</td>
@@ -238,7 +238,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <li>Bera spárfærslur saman við raunfærslur.</li>
 <li>Viðhalda, minnka eða auka mat fyrir næstu tímabil.</li>
 </ol>
-Microsoft Dynamics 365 for Operations minnar spáð mat ekki sjálfkrafa. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. 
+Finance and Operations minnkar spáð mat ekki sjálfkrafa. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. 
 > [!NOTE]Þegar þessi aðferð er valin skal nota að minnsta kosti tvö spárlíkön. Eitt líkan ætti að innihalda upprunalega spá. Fyrir hitt líkanið ætti að afrita spáfærslurnar úr öðru líkani. Þessi aðferð gildir aðeins fyrir fastverðsverk og fjárfestingarverk.</td>
 > </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ Samkvæmt þessum stillingum hér er greiðsludagsetning kostnaðar fyrir hverja
 
 Greiðsludagsetning kostnaðar er ekki reiknuð á biðdögum. Þegar verki er lokið og allri kostnaðar- og reikningsvinnu er lokið er bæði kostnaðurinn og sölurnar bókaðar á rekstrarreikninginn. 
 
-Þegar allri sölu og reikningum lánardrottins er lokið er hægt að skoða tengslin á milli reita á síðunni **Sjóðstreymi**og reitum á síðunni  **Verkyfirlit**.
+Þegar allri sölu og reikningum lánardrottins er lokið er hægt að skoða tengslin á milli reita á síðunni **Sjóðstreymi** og reitum á síðunni  **Verkyfirlit**.
 
 | Sjóðstreymissíða | Verkyfirlitssíða |
 |----------------|-------------------------|
@@ -333,14 +333,14 @@ Hægt er að fylgjast með kostnaðinum sem fyrirtækið stofnar til við verk �
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Skoða þær áætluðu upphæðir sem eftir eru
 
-Ef **Eftirstöðvar fjárhagsáætlunar**er valin sem kostnaðarstýringaraðferðina á síðunni **Færibreytur verkefnastjórnunar og bókhalds** reiknar síðan **Kostnaðarstýring** kostnað sem hefur ekki verið bókaður sem raunverulegur eða merktur sem ráðstafaður kostnaður. Nánar tilgreint eru upphæðir á flipanum **Almennt** í neðri rúðunni á síðunni **Kostnaðarstýring**reiknaðar á eftirfarandi hátt:
+Ef **Eftirstöðvar fjárhagsáætlunar** er valin sem kostnaðarstýringaraðferðina á síðunni **Færibreytur verkefnastjórnunar og bókhalds** reiknar síðan **Kostnaðarstýring** kostnað sem hefur ekki verið bókaður sem raunverulegur eða merktur sem ráðstafaður kostnaður. Nánar tilgreint eru upphæðir á flipanum **Almennt** í neðri rúðunni á síðunni **Kostnaðarstýring** reiknaðar á eftirfarandi hátt:
 
 -   **Raunkostnaður** – Sú heildarupphæð sem hefur verið varið í verki fyrir valda kostnaðarlínu. Raunveruleg kostnaðarupphæð er reiknuð á síðunni **Fjárhagsuppfærslur**.
 -   **Ráðstafaður kostnaður** – Viðbótarupphæð kostnaðar sem lögaðilinn hefur skuldbundið sig til að greiða. Upphæðir tilgreinds ráðstafaðs kostnaðar eru reiknaður út á síðunni **Ráðstafaður kostnaður**.
 -   **Eftirstöðvar fjárhagsáætlunar** – Upphæð upprunalega áætlaðrar upphæðar sem er enn aðgengileg fyrir valda kostnaðarlínu. Kostnaðarupphæð eftirstöðva er reiknuð á síðunni **Forskoðun fjárhags**.
 -   **Heildarkostnaður** – Samtala upphæða raunkostnaðar, ráðstafaðs kostnaðar og kostnaðarupphæð eftirstöðva.
 
-Á síðunni **Kostnaðarstýring**, á flipanum **Frávik**er hægt að skoða samanburð á heildar áætluðum kostnaði við upprunalega áætlun. Þessi samanburður sýnir allan mismun á milli þessara upphæða. Þess vegna er hægt að sjá hvar gögnin stemma ekki. Fráviksupphæðin er reiknuð út á eftirfarandi hátt:
+Á síðunni **Kostnaðarstýring**, á flipanum **Frávik** er hægt að skoða samanburð á heildar áætluðum kostnaði við upprunalega áætlun. Þessi samanburður sýnir allan mismun á milli þessara upphæða. Þess vegna er hægt að sjá hvar gögnin stemma ekki. Fráviksupphæðin er reiknuð út á eftirfarandi hátt:
 
 -   **Upprunaleg fjárhagsáætlun** – Upphæðin sem var upphaflega áætluð fyrir valda kostnaðarlínu. Upprunaleg fjárhagsáætlunarupphæð er reiknuð á síðunni **Forskoðun fjárhags**.
 -   **Heildarkostnaður** – Samtala upphæða raunkostnaðar, ráðstafaðs kostnaðar og kostnaðarupphæð eftirstöðva, eins og gefið er upp á flipanum **Almennt**.
@@ -357,7 +357,7 @@ Ef **Heildarfjárhagsáætlun** er valin sem aðferð kostnaðarstýringar á s�
 -   **Ráðstafaður kostnaður** – Sú heildarupphæð sem hefur verið ráðstafað fyrir valda kostnaðarlínu.
 -   **Frávik** – Mismunurinn á milli samtölu upphaflegs kostnaðar og ráðstafaðs kostnaðar og heildarkostnaðar. Frávikið sýnir hvort tilgreina verði aukakostnað við heildaráætlunina.
 
-Á síðunni **Kostnaðarstýring** á flipanum **Frávik**er hægt að skoða mismuninn á milli heildaráætlunarinnar og upprunalegu áætlunarinnar með því að líta á eftirfarandi reiti:
+Á síðunni **Kostnaðarstýring** á flipanum **Frávik** er hægt að skoða mismuninn á milli heildaráætlunarinnar og upprunalegu áætlunarinnar með því að líta á eftirfarandi reiti:
 
 -   **Upprunaleg fjárhagsáætlun** – Upphæðin sem var upphaflega áætluð fyrir valda kostnaðarlínu. Upprunaleg fjárhagsáætlun er reiknuð á síðunni **Forskoðun fjárhags**.
 -   **Áætlaður heildarkostnaður** – Sá heildarkostnaður sem var upphaflega áætlaður fyrir valda kostnaðarlínu. Áætlaður heildarkostnaður er reiknaður á síðunni **Forskoðun fjárhags**.

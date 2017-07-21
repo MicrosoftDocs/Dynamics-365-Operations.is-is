@@ -3,25 +3,27 @@ title: "Setja upp sniðmát fyrir strikamerki"
 description: "Þetta efnisatriði lýsir því hvernig á að setja upp stafi sniðmáts strikamerkja, sniðmát fyrir strikamerki og hvernig á að úthluta sniðmátum strikamerkja á strikamerki."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 <a name="set-up-bar-code-mask-characters"></a>Setja upp stafi fyrir sniðmát strikamerkja
 -------------------------------
 
-Sniðmát strikamerkja eru notuð til að búa til strikamerki og til að auðkenna fljótt þau strikamerki sem er skönnuð í sölustað (POS). Sniðmát eru samsett úr stöfum sem vinna sem frátakarar sem tilgreina snið fyrir strikamerki sem verða stofnuð. Til að stilla sniðmát strikamerkja, þarf að setja upp stafi fyrir sniðmát strikamerkja. Fara í **Smásölu og viðskiptum** &gt; **Birgðastjórnun** &gt; **Strikamerki og merkingar** &gt; **Stafir sniðmáts**. Smellt er á **Nýtt** til að stofna nýja stafi sniðmáts strikamerkja. Hægt er að stofna stafi fyrir sniðmát strikamerkja til að tilgreina eftirfarandi strikamerkjagögn.
+Sniðmát strikamerkja eru notuð til að búa til strikamerki og til að auðkenna fljótt þau strikamerki sem er skönnuð í sölustað (POS). Sniðmát eru samsett úr stöfum sem vinna sem frátakarar sem tilgreina snið fyrir strikamerki sem verða stofnuð. Til að stilla sniðmát strikamerkja, þarf að setja upp stafi fyrir sniðmát strikamerkja. Fara í **Smásölu** &gt; **Birgðastjórnun** &gt; **Strikamerki og merkingar** &gt; **Stafir sniðmáts**. Smellt er á **Nýtt** til að stofna nýja stafi sniðmáts strikamerkja. Hægt er að stofna stafi fyrir sniðmát strikamerkja til að tilgreina eftirfarandi strikamerkjagögn.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Sniðmát strikamerkja eru notuð til að búa til strikamerki og til að auðke
 | **Starfsmaður**         | Tilgreinir hluta strikamerkis fyrir númer starfsmanns sem er notað fyrir strikamerkisinnskráningu í POS.                                  |
 | **Viðskiptavinur**         | Sýnir hluta af kenni viðskiptavinar.                                                                                  |
 | **Gagnafærsla**       | *Enn ekki framkvæmt.*                                                                                          |
-| **Afsláttarkóði**    | Tilgreinir afsláttarkóða fyrir strikamerki sem er notað til að bæta við afslætti í sölufærslu             |
+| **Afsláttarkóði**    | *Afskrifa* frá Dynamics 365 fyrir útgáfu Retail Gerir 2017. Áður: Tilgreinir afsláttarkóða fyrir strikamerki sem er notað til að bæta við afslætti í sölufærslu.                                                                   |
+| **Afsláttarmiðakóði**      | Tilgreinir kóða útgefandi strikamerki notað til að bæta afslátt retail pöntunina. Þetta skipt kóða staðgreiðsluafsláttar.     |
 | **Gjafakort**        | Tilgreinir númer gjafakorts við útgáfu á eða borgun með gjafakorti.                                               |
 | **Vildarkort**     | Bætir vildarviðskiptavini við færsluna og er hægt að nota þegar borgað er með vildarkerfi.                             |
 
 ## <a name="define-bar-code-masks"></a>Skilgreina sniðmát fyrir strikamerki
-Eftir að stafir fyrir sniðmát strikamerkja eru tilgreindir fyrir nauðsynleg sniðmát strikamerkja skal fara á **Smásölu og viðskipti**&gt;**Birgðastjórnun**&gt;**Strikamerki og merkingar**&gt;**Uppsetning sniðmáts fyrir Strikamerki**. Á þessari síðu er hægt að skilgreina sniðmát strikamerkja sem nota áður tilgreinda stafi. Þessi strikamerki verða notuð við myndun á strikamerkjum og einnig til að auðkenna strikamerki sem eru skökkuð í POS.
+Eftir að stafir fyrir sniðmát strikamerkja eru tilgreindir fyrir nauðsynleg sniðmát strikamerkja skal fara á **Smásölu** &gt; **Birgðastjórnun** &gt; **Strikamerki og merkingar** &gt; **Uppsetning sniðmáts fyrir Strikamerki**. Á þessari síðu er hægt að skilgreina sniðmát strikamerkja sem nota áður tilgreinda stafi. Þessi strikamerki verða notuð við myndun á strikamerkjum og einnig til að auðkenna strikamerki sem eru skökkuð í POS.
 
 1.  Smellt er á **Ný** til að búa til nýtt sniðmát strikamerkis.
 2.  Færið inn gildi í svæðin **Sniðmátskenni** og **Lýsing** og veljið síðan gerð sniðmáts strikamerkja í svæðinu **Gerð**.

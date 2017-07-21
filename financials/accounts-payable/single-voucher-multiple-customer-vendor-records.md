@@ -1,27 +1,27 @@
 ---
 title: "Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins"
-description: "Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Operations, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar."
+description: "Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Operations, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
+Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
 
 Sum algeng dæmi þar sem eitt fylgiskjal er notað fyrir marga viðskiptavini eða lánardrottna innihalda stöðufærslur á milli viðskiptavina, og stöður greiðslujöfnunar milli viðskiptavina og lánardrottna í sömu stofnun/fyrirtæki. 
 
@@ -162,7 +162,7 @@ Núna, þegar INV2 er greidd verður eftirfarandi færslu gerð. Athugið fjárh
 | 14000056    | 200110-001- | Staða lánardrottins     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Eitt fylgiskjal fyrir stöðufærslum og aðstæður greiðslujöfnunar
-Tvær aðstæður sem eru oft notaðar og nota eitt fylgiskjal sem inniheldur marga viðskiptavini eða lánardrottna innihalda stöðufærslur frá einn viðskiptavinur/lánardrottinn til annars viðskiptavinur/lánardrottinn og greiðslujöfnun viðskiptavinar og lánardrottna sem eru sama fyrirtæki. Eftirfarandi tvö dæmi lýsa æskileg aðferð til að færa þessar aðstæður inn í Dynamics 365 for Operations, í stað þess að færa þær inn í eitt fylgiskjal. 
+Tvær aðstæður sem eru oft notaðar og nota eitt fylgiskjal sem inniheldur marga viðskiptavini eða lánardrottna innihalda stöðufærslur frá einn viðskiptavinur/lánardrottinn til annars viðskiptavinur/lánardrottinn og greiðslujöfnun viðskiptavinar og lánardrottna sem eru sama fyrirtæki. Eftirfarandi tvö dæmi lýsa æskileg aðferð til að færa þessar aðstæður inn í Dynamics 365 for Finance and Operations, í stað þess að færa þær inn í eitt fylgiskjal. 
 
 *Stöðufærsla* er eitt fylgiskjal með marga viðskiptavini fært inn til að flytja stöðu frá einum viðskiptavini á annan viðskiptavin (sama lánardrottna). Þessar aðstæður geta orðið þegar ábyrgð á að greiða reikninginn færist yfir á annar aðili, svo sem undirfyrirtæki sem færir ábyrgð í móðurfyrirtæki. 
 
@@ -176,7 +176,7 @@ Til að sýna, skal gera ráð fyrir að eftirfarandi sölu er gerður á viðsk
 | 401100-002-023-    | Tekjur          |           | 100        |
 | 130100-002-        | Staða viðskiptavinar | 100       |            |
 
-Næst skal notanda flytja gjaldfallin staða frá ACME til vátryggingafélagið, í eitt fylgiskjal í greiðslubók viðskiptakrafa. Í Dynamics 365 for Operations, er vátryggingafélagið sett upp sem trygging viðskiptavinar.
+Næst skal notanda flytja gjaldfallin staða frá ACME til vátryggingafélagið, í eitt fylgiskjal í greiðslubók viðskiptakrafa. Í Finance and Operations, er vátryggingafélagið sett upp sem trygging viðskiptavinar.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

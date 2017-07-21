@@ -3,25 +3,25 @@ title: "Skilgreina Skilgreina handvirka ákvörðun í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -152,10 +152,10 @@ Hægt er að senda tilkynningar til fólks þegar ákvörðun hefur verið tekin
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     </tr>
     <tr class="even">
     <td>Notandi</td>
-    <td>Tilteknir notendur Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að úthluta Ákvörðun á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að úthluta Ákvörðun á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komi
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tilteknir notendur Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>

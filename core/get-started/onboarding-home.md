@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Dynamics 365 for Operations tekið í notkun"
-description: "Þessi síða vísar á tilföng sem mun auðvelda notendum að komast inn í Microsoft Dynamics 365 for Operations."
+title: "Microsoft Dynamics 365 for Finance and Operations tekið í notkun"
+description: "Þessi síða vísar á tilföng sem munu auðvelda notendum að komast inn í Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.assetid: ad0cdfac-fd94-41df-9d0c-fbe0a91e2dce
 ms.search.region: Global
 ms.author: sericks
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f0a4f5c2f65ff5de0a54d5eac286d019426ad7e8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fc88de00a7bb9a83532b2e3b0fb25eaba10029e6
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,12 +29,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Til að hefjast handa með Microsoft Dynamics 365 for Operations er hægt að velja áskrift, finna samstarfsaðila með reynslu á viðkomandi svæði eða í viðkomandi geira og nota forritið Microsoft FastTrack til að auðvelda fyrstu skrefin.  
+Til að hefjast handa með Microsoft Dynamics 365 for Finance and Operations er hægt að velja áskrift, finna samstarfsaðila með reynslu á viðkomandi svæði eða í viðkomandi geira og nota forritið Microsoft FastTrack til að auðvelda fyrstu skrefin.  
 
-Eftirfarandi tilföng veita yfirlit yfir Lifecycle Services og hvernig vinna á með samstarfsaðila til að komast af stað í Dynamics 365 for Operations.
--   [Áskrift](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription)
+Eftirfarandi tilföng veita yfirlit yfir Lifecycle Services og hvernig vinna á með samstarfsaðila til að komast af stað í Dynamics 365 for Finance and Operations.
+-   [Áskrift](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription)
 -   [Yfirlit yfir Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
--   [Kynning á Lifecycle Services fyrir viðskiptavini](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs)
+-   [Kynning á Lifecycle Services fyrir viðskiptavini](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs)
 
 
 

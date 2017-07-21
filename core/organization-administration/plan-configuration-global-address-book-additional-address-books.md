@@ -1,9 +1,9 @@
 ---
 title: "Grunnstilla altæka aðsetursbók"
-description: "Þessi grein lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis."
+description: "Þessi grein lýsir álitamálum og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Finance and Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23341
 ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dabac8a899a07192d31f4a8f4f70b12ed5410093
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93a9c35b82a8bacd0295416015e783cb6348f550
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
+Þessi grein lýsir álitamálum og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Finance and Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
 
 <a name="global-address-book"></a>Altæk aðsetursbók
 -------------------

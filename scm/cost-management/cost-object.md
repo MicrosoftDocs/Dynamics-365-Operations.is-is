@@ -3,28 +3,27 @@ title: "Kostnaðarhlutir"
 description: "Þetta grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventCostOnhandItem
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c818bfac6645b71bcc8b2249534aa80907786651
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -76,11 +75,11 @@ Eftirfarandi tafla sýnir hvað er kostnaðarhlutur og hvað birgðahlutur.
 
 [Afurðavíddaflokkur](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Geymsluvíddaflokkur](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Geymsluvíddarflokkur](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
 [Rakningarvíddarflokkur](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Hvað er nýtt eða breytt í Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Nýjungar eða breytingar](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 [Kostnaðarfærslur](cost-entries.md)
 

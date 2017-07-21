@@ -1,28 +1,28 @@
 ---
 title: "Fylgjast með nákvæmni spár"
-description: "Þessi skrá lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin."
+description: "Þessi grein lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Finance and Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 580b45263b45e6ef730b0fac32575fcdd9c358b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 56d3f0312e684ab076f9116ac6638bcd67b52e58
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi skrá lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.
+Þessi grein lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Finance and Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.
 
-Dynamics 365 for Operations reiknar eftirfarandi gerðir af nákvæmni spár:
+Finance and Operations reiknar eftirfarandi gerðir af nákvæmnispám:
 
 -   Söguleg nákvæmni spár, með því að bera saman sögulega spá sem notar Aðaláætlanagerð með sögulega eftirspurn. Til að skoða gildi (bæði raungildi og prósentugildi) fyrir sögulega nákvæmni spár er smellt á **Sýna nákvæmni** á **Upplýsingar eftirspurnarspár** síðunni.
 -   Áætlaðuð nákvæmni spárlíkans sem er notað til að mynda spár. Hægt er að skoða nákvæmnihlutfall undir **Líkan upplýsingar - MAPE** á **Upplýsingar eftirspurnarspár** síðunni. 
 
-**Ábending:** Ef eftirspurnarspár Dynamics 365 for Operations Microsoft Azure Vél Nám þjónustan byggist útreikningur á nákvæmni innri líkans á prófunargagnasafni. Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_ SIZE\_ PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**. Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.
+**Athugaðu:** Ef þú notar eftirspurnarspár í Finance and Operations Microsoft Azure Machine Learning þjónustu, byggist útreikningur á nákvæmni innra líkans á prófunargagnsafni. Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_ SIZE\_ PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**. Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.
 
 
 <a name="see-also"></a>Sjá einnig

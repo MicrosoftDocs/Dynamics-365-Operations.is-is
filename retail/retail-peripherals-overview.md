@@ -1,27 +1,27 @@
 ---
 title: "Yfirlit yfir jaðartæki smásölu"
 description: "Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu. Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu. Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.
 
-<a name="concepts"></a>Hugtök
---------
+## <a name="concepts"></a>Hugtök
 
 ### <a name="pos-registers"></a>Afgreiðslukassar
 
-Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
+Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
 
 ### <a name="devices"></a>Tæki
 
-Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.
+Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -66,11 +65,11 @@ POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þess
 
 ### <a name="hardware-station"></a>Vélbúnaðarstöð
 
-Fletting: Smellt er á **Smásölu og viðskipti** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
+Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
 
 ### <a name="hardware-profile"></a>Vélbúnaðarregla
 
-Fletting: Smella á **Smásala og viðskipti** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **Forstillingar POS** &gt; **Vélbúnaðarreglur**. Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð. Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.
+Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð. Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.
 
 ## <a name="devices-classes"></a>Tækjaklasar
 POS-jaðarbúnaði er yfirleitt skipt niður í klasa. Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.
@@ -118,12 +117,12 @@ Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi. Greiðslut�
 ## <a name="supported-interfaces"></a>Studd viðmót
 ### <a name="opos"></a>OPOS
 
-Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja með Microsoft Dynamics 365 for Operations - Retail, er OLE fyrir POS atvinnustaðallinn aðalsmásölukerfi jaðarbúnaðar sem er studdur í Microsoft Dynamics 365 for Operations - Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
+Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Microsoft Dynamics 365 for Retail er OLE fyrir POS-iðnaðarstaðalinn aðalsmásölukerfi jaðarbúnaðar sem er stutt í Microsoft Dynamics 365 for Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
 
--   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). CCOs eru notaðir til að prófa POS-íhluti Microsoft Dynamics 365 for Operations - Retail. Þess vegna hjálpar prófun til við að tryggja að ef Microsoft Dynamics 365 for Operations - Retail styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
+-   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail. Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
 -   **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá framleiðanda fyrir vefsvæðið. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
 
-[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman. **Athugasemd:** OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-elkum. Microsoft Dynamics 365 for Operations - Retail verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
+[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman. **Athugasemd:** OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-elkum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
 
 ### <a name="windows"></a>Gluggar
 
@@ -133,7 +132,7 @@ Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera miki�
 -   Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.
 -   OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.
 
-Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentara samt að virka rétt með Microsoft Dynamics 365 for Operations - Retail.
+Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentarinn samt að virka með Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
@@ -473,7 +472,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Skilgreining fyrir studdar aðstæður
-Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md). **Athugasemd:** Fyrir Microsoft Dynamics 365 for útgáfu 1611, er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
+Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md). **Athugið:** Í Microsoft Dynamics 365 for Retail útgáfu 1611 er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð
 
@@ -482,7 +481,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 1.  Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
 2.  Varpa vélbúnaðarregluna á afgreiðslukassa.
 3.  Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað. Lýsing er valkvæð. **Athugasemd:** Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni. Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.
-4.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
+4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7.  Setja upp og virkja Modern POS fyrir Windows.
@@ -501,7 +500,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
     -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
     -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
 
-4.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
+4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7.  Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
     -   **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.
     -   **Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.
     -   **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
-    -   **Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu. Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð. Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð. Til að setja upp samnýtta vakt skal smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.
+    -   **Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu. Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð. Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð. Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.
     -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
     -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
 
 4.  Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.
-5.  Smella á **Smásölu og viðskipti** &gt; **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.
+5.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 6.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 8.  Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 14. Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.
 15. Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.
 16. Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á **Loka**.
-17. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka. **Athugasemd:** Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smella á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
+17. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka. **Athugasemd:** Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
 
 ## <a name="extensibility"></a>Stækkunarhæfni
 Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í fram
 **Athugasemd:** Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir Greiðslu Korts Atvinnugrein (PCI).
 
 ## <a name="peripheral-simulator"></a>Jaðarbúnaður
-Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](retail-peripheral-simulator.md).
+Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>Jaðartæki Microsofttested
 ### <a name="ipc-built-in-hardware-station"></a>IPC (innbyggð) vélbúnaðarstöð
@@ -806,7 +805,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Jaðarbúnaðarhermir smásölu](retail-peripheral-simulator.md)
+[Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md)
 
 
 

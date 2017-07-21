@@ -3,15 +3,15 @@ title: "Skráning raðnúmera í söluferlinu"
 description: "Þessi grein útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,16 +32,17 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Þessi grein útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
-Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Í þessum aðstæðum leyfir Microsoft Dynamics 365 for Operations að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
+Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Við þessar aðstæður leyfir Microsoft Dynamics 365 for Finance and Operations þér að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
 Eru einhver frumskilyrði?
 ----------------------------
 
-Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi tilvik eiga sér svo stað í Microsoft Dynamics 365 for Operations:
+Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi á sér svo stað í Microsoft Dynamics 365 for Finance and Operations:
 -   Á flýtiflipanum **Raðnúmer** er valkosturinn **Raðnúmerastýring** valinn. Ef þessi gátreitur er valinn þarf að skrá eitt raðnúmer fyrir hverja vöru á fylgiseðli eða reikningi.
--   Allt val á rakningarvíddaflokk fyrir raðnúmer er hreinsað, nema gátreiturinn **Auð úthreyfing leyfð**. Hægt er að velja valkostinn**Auð úthreyfing leyfð** til að hnekkja raðnúmerastjórn og leyfa afurðum að vera pakkaðar og reikningsfærðar án þess að skrá raðnúmer.
+-   Allt val á rakningarvíddaflokk fyrir raðnúmer er hreinsað, nema gátreiturinn **Auð úthreyfing leyfð**. Hægt er að velja valkostinn **Auð úthreyfing leyfð** til að hnekkja raðnúmerastjórn og leyfa afurðum að vera pakkaðar og reikningsfærðar án þess að skrá raðnúmer.
 
 ## <a name="when-do-i-register-serial-numbers-during-the-sales-process"></a>Hvenær skrái ég raðnúmer í söluferlinu?
 Hægt er að skrá raðnúmer annaðhvort á fylgiseðli sölupöntunar eða á reikningi. Þegar undirbúinn er reikningur fyrir raðaða vöru sem hefur verið send með fylgiseðli, er hægt að velja hvaða raðnúmer á fylgiseðlinum á að reikningsfæra. Fjöldi skráðra raðnúmera má ekki fara yfir magn vara sem eru sendar. Ef verið er að stofna hluta reiknings er hægt að velja færri raðnúmeraðar vörur en voru skráðar á fylgiseðlinum. Þegar fylgiseðill eða reikningur er bókaður, eru teknar með raðnúmerin sem voru skráð.
@@ -56,7 +57,7 @@ Uppsetning rakningarvíddarflokks sem er úthlutað á afurð ákvarðar hvort s
 Hægt er að stofna hluta reikninga og fylgiseðla fyrir sölupantanir og skrá aðeins raðnúmer fyrir vörurnar sem þessir reikningar og fylgiseðlar innihalda. Ef óskað er að stofna reikning að hluta og þú ert með fleiri en einn fylgiseðil fyrir sölupöntun er hægt að hafa með raðnúmer úr fleiri en einum fylgiseðli. Hins vegar það má aðeins vera einn fylgiseðill sem inniheldur ekki öll raðnúmer. Til dæmis, ef þú hefur þrjá fylgiseðla og hver fylgiseðill inniheldur tvær raðnúmeraðar vörur, er hægt að stofna hluta reiknings fyrir eina vöru úr hverjum fylgiseðli.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Hvað geri ég þegar raðnúmer er ólæsilegt?
-Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða línu fyrir vöru með því að smella á **Ekki læsilegt**á síðunni **Raðnúmer**. Ef raðnúmer verður tiltækt seinna er hægt að uppfæra reikninginn eða fylgiseðillinn. Nánari upplýsingar má nálgast í næsta hlutanum „Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?“
+Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða línu fyrir vöru með því að smella á **Ekki læsilegt** á síðunni **Raðnúmer**. Ef raðnúmer verður tiltækt seinna er hægt að uppfæra reikninginn eða fylgiseðillinn. Nánari upplýsingar má nálgast í næsta hlutanum „Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?“
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?
 Já, hægt er að leiðrétta raðnúmer þegar eftirfarandi skilyrði eru uppfyllt:

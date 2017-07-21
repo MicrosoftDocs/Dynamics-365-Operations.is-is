@@ -3,25 +3,27 @@ title: "Setja upp aukna virkni starfsmanns fyrir POS Skýi og MPOS"
 description: "Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS)."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 285758c0705a5313fcfbbca413fa2c88a722203a
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 <a name="setting-up-extended-logon"></a>Setja upp aukna innskráningu starfsmanns
 =========================
 
-Hægt er að finna uppsetningu fyrir sniðmát strikamerkja á **Smásölu og viðskiptum** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**. Flýtiflipinn **Aðgerðir** inniheldur eftirfarandi valkosti sem eru tengdir lengdri innskráningu starfsmanns.
+Hægt er að finna uppsetningu fyrir sniðmát strikamerkja á **Smásölu** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**. Flýtiflipinn **Aðgerðir** inniheldur eftirfarandi valkosti sem eru tengdir lengdri innskráningu starfsmanns.
 
 ### <a name="staff-bar-code-logon"></a>Strikamerkisinnskráning starfsmanns
 
@@ -57,7 +59,7 @@ Hægt er að finna uppsetningu fyrir sniðmát strikamerkja á **Smásölu og vi
 <a name="assigning-an-extended-logon"></a>Úthlutun aukinnar innskráningu
 ===========================
 
-Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til starfsmanna. Til að úthluta aukinni innskráningu á starfsmann er farið á **Aukin innskráning** á Sölustað. Síðan skal leita starfsmann með því að færa inn Kenni stjórnanda hans eða hennar í leitarreitnum. Veljið notanda og smellið á **Úthluta**. Á næstu síðu skal lesa eða skanna aukna innskráningu til að úthluta á starfsmanninn. Ef kortalestur eða skönnun er var lesin verður hnappuinn **Í lagi**tiltækur. Smellið á **Í lagi** til að vista aukna innskráningu fyrir þann starfsmann.
+Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til starfsmanna. Til að úthluta aukinni innskráningu á starfsmann er farið á **Aukin innskráning** á Sölustað. Síðan skal leita starfsmann með því að færa inn Kenni stjórnanda hans eða hennar í leitarreitnum. Veljið notanda og smellið á **Úthluta**. Á næstu síðu skal lesa eða skanna aukna innskráningu til að úthluta á starfsmanninn. Ef kortalestur eða skönnun er var lesin verður hnappuinn **Í lagi** tiltækur. Smellið á **Í lagi** til að vista aukna innskráningu fyrir þann starfsmann.
 
 <a name="deleting-an-extended-logon"></a>Eyðing aukinnar innskráningar
 ==========================

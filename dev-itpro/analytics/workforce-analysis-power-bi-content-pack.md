@@ -1,27 +1,27 @@
 ---
 title: "Mælikvarðar vinnuafls Power BI-efni"
-description: "Þetta efnisatriði lýsir Dynamics 365 for Operations - Mælikvarðar vinnuafls Power BI-efnis. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka."
-author: twheeloc
+description: "Þetta efnisatriði lýsir efni mælieininga vinnuafls í Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2a3f611d29e041a5f05e3f93fd2330f4218b9dd1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1f732a53eee17317417058b92706a9228d783cb5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -29,73 +29,69 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Þetta efnisatriði lýsir efni **mælieininga vinnuafls** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
-Þetta efnisatriði lýsir Dynamics 365 for Operations - Mælikvarðar vinnuafls Power BI-efnis. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum, og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnispakka.
+## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+Efnið **Mælieiningar vinnuafls** í Power BI birtist í vinnusvæðinu **Starfsmannastjórnun** ef þú notar eina af þessum vörum:
 
-<a name="accessing-the-content-pack"></a>Farið í efnispakkann
---------------------------
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, uppfærsla júlí 2017
+- Microsoft Dynamics 365 for Talent
 
-Hægt er að finna þjálfunarpakka fyrir mælikvarðar vinnuafls í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnispakkann og tengja hann við gögn Microsoft Dynamics 365 for Operations er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
+Eftirfarandi tafla sýnir mæligögn sem eru sýnd í hverri skýrslu.
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
-Eftir að þú hefur tengt efnispakkann við gögn Dynamics 365 for Operations, sýnir skýrslan þér fyrirtækjagögn þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
-
-| Skýrsla                                           | Innihald                                                                                                                                                                                                            |
+| Skýrsla                                           | Einingar                                                                                                                                                                                                            |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Fólksmælikvarðar                                   | Yfirlit yfir aðrar skýrslur                                                                                                                           |
 | Starfsmannafjöldi eftir fyrirtæki, Deild, Staðsetning | Starfsmannafjöldi eftir fyrirtæki, starfsmannafjöldi eftir deild, starfsmannafjöldi eftir staðsetningu og heildarstarfsmannafjöldi                                                                                                                           |
 | Greiningarverk starfsmannafjölda, skref, stjórnun            | Starfsmannafjöldi eftir verki, starfsmannafjöldi eftir skrefi, starfsmannafjöldi eftir stjórnanda og heildarstarfsmannafjöldi                                                                                                                                      |
 | Leitnisgreining starfsmannafjölda                         | Starfsmannafjöldi þetta ár samanborið við síðasta ár eftir fyrirtæki og starfsmannavelta síðustu 12 mánaða                                                                                                                        |
-| Lýðfræði mannafla                           | Starfsmannafjöldi eftir aldri og kyni, starfsmannafjöldi eftir þjóðerni, starfsmannafjöldi eftir uppgjafahermennskustöðu, starfsmannafjöldi eftir hjúskaparstöðu, fjöldi nemenda í fullu námi, meðaltal lengdar í starfi, meðalaldur og hlutfall kvenna og karla |
+| FTE-greining                                     | Heildar fullt jafngildi (FTE), heildarúthlutað FTE, FTE eftir deild, FTE síðustu 12 mánaða og FTE eftir vinnslu |
+| Lýðfræði mannafla                           | Starfsmannafjöldi eftir aldri og kyni, starfsmannafjöldi eftir þjóðerni, starfsmannafjöldi eftir uppgjafahermennskustöðu, starfsmannafjöldi eftir hjúskaparstöðu, fjöldi nemenda í fullu námi, meðaltal lengdar í starfi, meðalaldur, hlutfall kvenna og karla og tungumál sem starfsmenn tala |
 | Stöðugreining                                | Opnar stöður eftir deild, stöður til ráðningar, virkar-til-óvirkar stöður og stöður eftir deild                                                                                                   |
-| Slitgreining                               | Slit þetta ár samanborið við síðasta ár, slit, meðaltal lengdar einstaklinga í starfi, meðaltal aldur fólks sem fer og ástæða þess að starfsmenn fara                                                                   |
+| Slitgreining                               | Slit þetta ár andstætt síðasta ári, slit, fyrirliggjandi starfsmenn eftir aldri og kyni, meðallengd starfsmanna sem hætta, starfsmenn sem fara þennan mánuð og starfsmenn sem hætta eftir ástæðu                                                                   |
 | Fólk eftir deild                             | Starfsmenn með númeri starfsmanns eftir deild, stöðu og upphafs- og lokadagsetningu úthlutunar                                                                                                                       |
-| Starfsaldursgreining                               | Meðaltal starfsreynslu eftir fyrirtæki og starfsaldri                                                                                                                                                              |
-| Starfsaldur og starfsreynsla í árum               | Starfsmenn eftir fjölda í starfi og starfsafmæli                                                                                                                                                                    |
+| Starfsaldursgreining                               | Meðaltal starfstíma, meðaltal starfsreynslu eftir fyrirtæki og starfsaldri                                                                                                                                                              |
+| Starfsafmæli                           | Starfsafmæli í þessum mánuði, starfsafmæli næsta mánuð, starfsmenn eftir árum í þjónustu og starfsafmælum, ár í þjónustu með deild                                                                                                                                                                    |
+| Afmæli starfsmanna                               | Afmæli í þessum mánuði, afmæli í næsta mánuði, afmælisdagar starfsmanna og afmæli eftir mánuði og deild                                                                                                                                                                    |
+| Fjöldaráðningarverk                               | Heildarfjöldi fjöldaráðningar, fjöldaráðning eftir stöðu, fjöldaráðning eftir deild og eiganda, fjöldaráðningarverk eftir vinnslu og fjöldaráðningarverkum                                                                                                                                                                    |
 
-Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að afmarka og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+
+## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
+Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Finance and Operations öflugri greiningu. Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana.
+
+Hægt er að finna efni **Mælieiningar vinnuafls** í Power BI í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
+
+Gangið úr skugga um að hlaða niður efninu **Mælieiningar vinnuafls** í Power BI sem á við um útgáfu Microsoft Dynamics 365 sem verið er að nota.
+
+>[!NOTE]
+>Þær .pbix skrár sem eru tiltækar í Lifecycle Services eiga aðeins við um Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Dynamics 365 for Operations eru notuð til að mynda skýrslur í mælikvarða vinnuafls. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
+Eftirfarandi tafla sýnir einingar sem efnið var byggt á.
 
-| Eining                            | Innihald                                                                                                   | Vensl við aðra lögaðila                                                                                                                                                                                                                                                                                                |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vinnuafl\_CalendarOffset         | Mótbókanir dagatals til að sneiða skýrslur                                                                          | Vinnuafl\_PastPositionAssignment Workforce\_PositionTrend Workorce\_WorkerTrend Workforce\_TerminatedWorker                                                                                                                                                                                                                     |
-| Vinnuafl\_Company                | Fyrirtæki til að sía skýrsla eftir                                                                             | Vinnuafl\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Vinnuafl\_Compensation           | Launataxti og tíðni yfir tíma                                                                           | Vinnuafl\_CurrentCompensation Workforce\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                        |
-| Vinnuafl\_CurrentCompensation    | Launataxti og tíðni frá og með núverandi dagsetningu                                                              | Vinnuafl\_Vinnuafl fyrirtækis\_Compensation Workforce\_Demographics Workforce\_Job Workforce\_Position                                                                                                                                                                                                                            |
-| Vinnuafl\_CurrentPosition        | Stöður frá og með núgildandi dagsetningu, ígildi fulls starfs (FTE), opin staða og virkar-til-óvirkar stöður | Vinnuafl\_Job Workforce\_Position                                                                                                                                                                                                                                                                                               |
-| Vinnuafl\_CurrentWorker          | Starfsmenn frá og með núverandi dagsetningu, aldri og starfsmannafjölda                                                         | Vinnuafl\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Job Workforce\_Employment Workforce\_Position Workforce\_WorkerBenefit                                            |
-| Vinnuafl\_Dagsetning                   | Dagar, vikur, mánuðir og ár                                                                             | Vinnuafl\_PastPositionAssignment Workforce\_PositionTrend Workforce\_TerminatedWorker Workorce\_WorkerTrend                                                                                                                                                                                                                     |
-| Vinnuafl\_Lýðfræði           | Fæðingardagur, kyn, þjóðernisuppruni og hjúskapaarstaða                                                   | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_Ráðning             | Upphafsdagur, lokadagur og breytingardagur                                                                  | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_GeographicLocation     | Borg, sýsla, póstnúmer og fylki eða Sveitarfélag                                                           | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_Starf                    | Aðgerð, gerð og Titill                                                                                  | Vinnuafl\_CurrentPosition Vinnuafl\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Vinnuafl\_JobPerferredSkill      |                                                                                                            |                                                                                                                                                                                                                                                                                                                                  |
-| Vinnuafl\_PastPositionAssignment | Upphafsdagur, lokadagur, breytingardagur og vinnsla                                                           | Vinnuafl\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Staða                                                                                                                                                                                                                                                     |
-| Vinnuafl\_Performance            | Mat, lýsing og matslíkan                                                                      | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_PersonSkill            | Færni og stig                                                                                            | Vinnuafl\_Skill                                                                                                                                                                                                                                                                                                                 |
-| Vinnuafl\_PersonSkillAnalysis    | Vottun, færni og stig                                                                                | Vinnuafl\_Skill Vinnuafl\_WorkerName                                                                                                                                                                                                                                                                                           |
-| Vinnuafl\_Position               | Deild, FTE, staða, gerð stöðu og Titill                                                        | Vinnuafl\_CurrentPosition Vinnuafl\_CurrentWorker                                                                                                                                                                                                                                                                              |
-| Vinnuafl\_PositionTrend          | Staða yfir tími, FTE, og vinnsla                                                                          | Vinnuafl\_CalendarOffset Workforce\_Date Workforce\_Job Workforce\_Staða                                                                                                                                                                                                                                                     |
-| Vinnuafl\_ReportsToWorkerName    | Fornafn, eftirnafn, og fullt nafn                                                                       | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_Skill                  | Hæfni, gerð hæfni og mat                                                                              | Vinnuafl\_PersonSkill Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                                                                            |
-| Vinnuafl\_TerminatedWorker       | Starfsfólk sem er hætt, starfslokadagsetning, Titill, staða, og starf                                             | Vinnuafl\_Vinnuafl fyrirtækis\_Vinnuafl bóta\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_Position Workforce\_WorkerBenefit |
-| Vinnuafl\_WorkerBenefit          | Gildisdagsetning, fríðindavalkostur, fríðindaáætlun, og fríðindi gerð                                             | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_WorkerName             | Fornafn, eftirnafn, og fullt nafn                                                                       | Vinnuafl\_CurrentWorker Workforce\_TerminatedWorker Workorce\_WorkerTrend Workforce\_PersonSkillAnalysis                                                                                                                                                                                                                        |
-| Vinnuafl\_WorkerTitle            | Titill og starfsaldursdagsetning                                                                                   | Vinnuafl\_CurrentWorker Vinnuafl\_TerminatedWorker Vinnuafl\_WorkerTrend                                                                                                                                                                                                                                                       |
-| Vinnuafl\_WorkerTrend             | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Vinnuafl\_Vinnuafl fyrirtækis\_Vinnuafl bóta\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job Workforce\_WorkerBenefit                     |
+| Eining                   | Innihald                                                                            | Vensl við aðra lögaðila |
+|--------------------------|-------------------------------------------------------------------------------------|-----------------------------------|
+| Dagsetning starfsupphafs          | Mótbókanir dagatals til að sneiða skýrslur                                                   | Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur |
+| Fyrirt.                    | Fyrirtæki til að sía skýrsla eftir                                                      | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Núverandi staða         | Stöður frá og með núgildandi dagsetningu, ígildi fulls starfs (FTE), opin staða og virkar-til-óvirkar stöður | Starf, staða |
+| Núverandi starfsmaður         | Starfsmenn frá og með núverandi dagsetningu, aldri og starfsmannafjölda                                  | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, starfsheiti starfsmanns, lýfræði, starf, atvinna, staða |
+| Dagsetning                     | Dagar, vikur, mánuðir og ár                                                      | Úthlutun síðustu stöðu, stöðuþróun, starfsmaður sem er hættur, starfsmannaþróun |
+| Lýðfræði             | Fæðingardagur, kyn, þjóðernisuppruni og hjúskapaarstaða                            | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Ráðning               | Upphafsdagur, lokadagur og breytingardagur                                           | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Landfræðileg staðsetning      | Borg, sýsla, póstnúmer og fylki eða Sveitarfélag                                    | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Starf                      | Aðgerð, gerð og Titill                                                           | Núverandi staða, núverandi starfsmaður |
+| Úthlutun síðustu stöðu | Upphafsdagur, lokadagur, breytingardagur og vinnsla                                    | Dagsetning starfsupphafs, dagsetning, starf, staða |
+| Staða                 | Deild, FTE, staða, gerð stöðu og Titill                                 | Núverandi staða, núverandi starfsmaður |
+| Stöðuþróun           | Staða yfir tími, FTE, og vinnsla                                                   | Dagsetning starfsupphafs, dagsetning, starf, staða |
+| Heyrir undir               | Fornafn, eftirnafn, og fullt nafn                                                | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Starfsmaður sem er hættur      | Starfsfólk sem er hætt, starfslokadagsetning, Titill, staða, og starf                      | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf, staða |
+| Nafn starfsmanns            | Fornafn, eftirnafn, og fullt nafn                                                | Núverandi starfskraftur, starfsmaður sem er hættur, starfsmannaþróun |
+| Titill starfsmanns           | Titill og starfsaldursdagsetning                                                            | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                 | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf |
+| Fjöldaráðningarverk        | Fjöldi fjöldaráðningaverka, eigandi verks og staða verks                     | Fyrirtæki, fjöldaráðningarlína |
+| Fjöldaráðningarlína           | Deild, starfsheiti og staða                                           | Dagsetning, starf, fjöldaráðningarverk |
 
-Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Þessar reikuðu mælieiningar eru síðan notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efnispakkanum. Eigi taka á með viðbótarútreikning í skýrslum og mælaborði er hægt að sækja og breyta CompensationandBenefits.pbix-skrá í LCS. Þessi skrá er sjálfgefið gagnalíkan sem var notað til að stofna efnispakkann. Eftir að breytingarnar hafa verið gerðar er hægt að stofna efnispakka fyrirtækis og mælaborð sem innihalda upplýsingar sem hefur verið bætt við.
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
-
--   [Gagnaeiningar](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Bæta Power BI-reitum við vinnusvæði](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
-
-
-
-
+Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Þessar reiknuðu mælieiningar eru síðan notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísa (KPI ) og skýrslur sem eru notaðar í efnispakka Power BI. Eigi að framkvæma frekari útreikninga í skýrslum og mælaborði má sækja og breyta .pbix skránni úr LCS. Þessi skrá er sjálfgefið gagnalíkan sem var notað til að stofna efnispakka Power BI. Eftir að breytingarnar hafa verið gerðar er hægt að stofna efnispakka fyrirtækis og mælaborð sem innihalda upplýsingar sem hefur verið bætt við.
 

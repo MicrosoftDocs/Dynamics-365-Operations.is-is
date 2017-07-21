@@ -1,9 +1,9 @@
 ---
 title: "Úreltir eiginleikar"
-description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í síðari uppfærslum úr Dynamics 365 for Operations. Það er einnig listi yfir aðgerðir sem var úrelt í Dynamics AX 7,0 útgáfu."
+description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í síðari uppfærslum úr Dynamics 365 for Operations. Það er einnig listi yfir aðgerðir sem var úrelt í Dynamics AX 7,0 útgáfu.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Aðgerðir sem hafa verið úreltir í Dynamics 365 for Finance and Operations, Enterprise edition Júlí 2017 uppfærslu
+
+### <a name="warehouse-mobile-devices-portal"></a>Gátt fyrir fartæki vöruhúss
+
+Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu. Þessi íhlutur er ekki lengur studdur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Upprunalegt smáforrit sem bætir notandaupplifunina hefur komið í stað virkni WMDP. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Ástæða afskrifta**       | Afrituð virkni.                        |
+| **Skipt út fyrir aðra eiginleika?** | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Sjá frekari upplýsingar um uppsetningu og forkröfur [sett Upp og skilgreina Microsoft Dynamics 365 til Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Kerfi sem verða fyrir áhrifum**             | Vöruhúsastjórnun, flutningsstjórnun |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Jöfnunarregla ítarlegrar afstemmingar banka fyrir handvirka jöfnun
+
+Jöfnunarregla var notuð til að velja og merkja bankaskjal við handvirka jöfnun skjala í afstemmingarvinnublaðinu
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Ástæða afskrifta**       | Takmörkuð notkun.                                                                         |
+| **Skipt út fyrir aðra eiginleika?** | Nei. Síunarskilyrði dálka ætti að nota til að finna skjöl fyrir afstemmingu. |
+| **Kerfi sem verða fyrir áhrifum**             | Reiðufjár- og bankastjórnun                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8 spjaldtölvuforrit
+
+Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþykkt.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Ástæða afskrifta**       | Finance and Operations er samhæft við spjaldtölvur. Spjaldtölvuforrita er ekki lengur þörf. |
+| **Skipt út fyrir aðra eiginleika?** | Nei.                                                                                      |
+| **Kerfi sem verða fyrir áhrifum**             | Útgjaldastýring                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Eiginleikar hafa verið úreltar í Dynamics 365 for Operations 1611 með uppfærslu verkvangs 3
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ástæða afskrifta       | Frammistöðustjórnun hefur verið algerlega endurhönnuð í Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                        |
+| Ástæða afskrifta       | Frammistöðustjórnun hefur verið algerlega endurhönnuð í Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | Skipt út fyrir aðra eiginleika? | Endurhannaður Eiginleiki frammistöðustjórnunar gefur meiri stjórn yfir markmið, mælingar sem notaðar eru til að rekja framvindu, og að hengja við frekari gögn. Markmið má geyma sem sniðmát og síðan endurnotuð. Þessi eiginleiki getur hjálpað við að setja upp viðbótar markmið fyrir starfsmennina fljótlegri hátt. |
 | Kerfi sem verða fyrir áhrifum             | Mannauðsstjórnun                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microso
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Ástæða afskrifta       | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Dynamics 365 fyrir Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
+| Ástæða afskrifta       | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Dynamics 365 fyrir Finance and Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
 | Skipt út fyrir aðra eiginleika? | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.    |
 | Kerfi sem verða fyrir áhrifum             | Channel DB/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Mannauður, launaupplýsingar
 | Ástæða afskrifta       | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                                    |
 | Skipt út fyrir aðra eiginleika? | Management Reporter (merktur **fjárhagsskýrslugerð** í þessari útgáfu af Dynamics AX) |
 | Kerfi sem verða fyrir áhrifum             | Fjárhagur                                                                              |
-
-
-
-
 
 

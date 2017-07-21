@@ -1,27 +1,27 @@
 ---
 title: "Yfirlit fjárhagsáætlunarstýringar "
-description: "Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 fyrir Operations þannig að hægt er að stjórna fjármagni."
+description: "Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um skilgreiningu fjárhagsáætlunarstýringar í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition þannig að hægt sé að stýra fjárhagslegum tilföngum."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 fyrir Operations þannig að hægt er að stjórna fjármagni.
+Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um skilgreiningu fjárhagsáætlunarstýringar í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition þannig að hægt sé að stýra fjárhagslegum tilföngum.
 
 <a name="overview"></a>Yfirlit
 --------
 
-Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Operations styður Stjórnun fjárhagsleg tilföng fyrirtækis með bókhaldslykill, verkflæði, notendaflokkur, upprunaskjal og færslubók, skilgreinanlega sjóður, tiltækt útreikningur, ferli fjárhagsáætlunar, og mörk. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
+Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Finance and Operations styður við stýringu á fjárhagslegum tilföngum fyrirtækis með bókhaldslyklum, verkflæðum, notendahópum, upprunaskjölum og færslubókum, skilgreinanlegum útreikningum á tiltæku fjármagni, fjárhagsáætlunarferlum og þröskuldum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
 
-Eftir að áætlun hefur verið samþykkt í Dynamics 365 fyrir Operations, geturðu notað fjárhagsáætlanir til að mynda færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
+Eftir að áætlanir hafa verið samþykktar í Finance and Operations er hægt að nota fjárhagsáætlanir til að búa til færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
 
 Hægt er að skrá útgjöld með aðallykla og fjárhagsvíddir. Þú getur skilgreint stýringu á heildarútgjöldum til að mæta reglum og kröfum fyrirtækis, með flokkun samsetningar fjárhagsvídda og aðallykla. 
 
@@ -53,7 +53,7 @@ Hægt er að skilgreina fjárhagsáætlunarstýringar samkvæmt mörgum þáttum
 -   **Útreikning á tiltæku fjármagni**- ættu skjöl eins og innkaupabeiðnir (áætluð fjárúthlutun) og innkaupapantanir (fjárúthlutanir) vera tekið tillit til í útreikningi á tiltæku fjármagni? Ættu skjölum með stöðuna drög að vera höfð í huga í útreikningi?
 -   **Hnekkja heimild** - Hver hafa heimild til að fara yfir tiltæka fjárhagsáætlun?
 
-Fjárhagsáætlunarstýring er fyllilega samþætt við Dynamics 365 for Operations. Þess vegna er hægt að meta tiltæka fjárhagsáætlun fyrir bæði áætluð innkaup og raunverulega innkaup. Fyrirspurnir og skýrslur um fjárhag eru tiltækar. Því geta noendur metið Fjárhagsáætlun samhliða ferli fjárhagsáætlunar og gert leiðréttingar sem þarf, í mynd endurskoðunar fjárhagsáætlunar eða flutninga. Fjárhagsáætlunarstjóri getur einnig flytja fjárhagsáætlunar og raunupphæðir í Microsoft Excel til að greina og spá betur eftir þörfum.
+Fjárhagsáætlunarstýring er fyllilega samþætt við Finance and Operations. Þess vegna er hægt að meta tiltæka fjárhagsáætlun fyrir bæði áætluð innkaup og raunverulega innkaup. Fyrirspurnir og skýrslur um fjárhag eru tiltækar. Því geta noendur metið Fjárhagsáætlun samhliða ferli fjárhagsáætlunar og gert leiðréttingar sem þarf, í mynd endurskoðunar fjárhagsáætlunar eða flutninga. Fjárhagsáætlunarstjóri getur einnig flytja fjárhagsáætlunar og raunupphæðir í Microsoft Excel til að greina og spá betur eftir þörfum.
 
 ## <a name="configuring-budget-control"></a>Skilgreinir fjárhagsáætlunarstýringar
 ### <a name="budget-cycle-time-span"></a>Tímabil fjárhagsáætlunar
@@ -128,7 +128,4 @@ Eftir að kveikt hefur verið á fjárhagsáætlunarstýringu, notendur fá við
 Úr þessari síðu geta notendur kafað í **talnagögn fjárhagsáætlunarstýringar eftir tímabili** síðu til að skoða upplýsingar um framboð fjárhagsáætlunar og frátekningar á víddarsamsetningu fjárhagsáætlunarstýringar. Notendur geta einnig kafa í **talnagögn fjárhagsáætlunarstýringar** síðu til að skoða framboð á fjárhagsáætlun fyrir allar samsetningar fjárhagsvídda sem eru notaðar í fjárhagsáætlunarstýringu. 
 
 Ef fjárhagsáætlunarstýring er kveikt fyrir Innkaupapantanir, getur stjórnanda fjárhagsáætlunar notað vinnusvæðið **fjárhagsáætlun og spár** til að skoða biðröð fyrir biðröðinni allar óstaðfestar innkaupapantanir sem eru með viðvaranir frá athugun á fjárhagsáætlun og villuboð. Hafi stjórnanda fjárhagsáætlunar heimildir yfir fjárhagsáætlun skilgreindar hann getur staðfesta Innkaupapöntun beint í vinnusvæðið.    
-
-
-
 

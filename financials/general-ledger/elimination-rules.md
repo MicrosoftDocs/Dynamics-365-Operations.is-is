@@ -3,27 +3,26 @@ title: Losunarreglur
 description: "Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: robinr
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -133,7 +132,7 @@ Við lögaðila, lögaðila A, selur búnað til annars lögaðila í þínu fyr
 Allar þessar færslur stofna færslur innan samstæðu sem verða bókaðar á vostro- og nostro-lykla. Þar að auki gætu þessar færslur innihaldið upphæðir álagningar eða afsláttar þegar upphæð sölu innan fyrirtækis er ekki jöfn kostnaði varanna sem verið er að selja.
 
 ## <a name="set-up-elimination-rules"></a>Setja upp losunarreglur
-Þegar losunarreglur eru settar upp í Dynamics 365 for Operations er mælt með því að búin sé til fjárhagsvídd sérstaklega fyrir losun. Flestir viðskiptavinir kalla hana Viðskiptamaður eða eitthvað svipað. Ef þú ákveður að nota ekki fjárhagsvídd skaltu gæta þess að hafa aðallykla sem eru sértækir fyrir viðskipti innan samstæðu. 
+Þegar losunarreglur eru settar upp í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, er mælt með því að búin sé til fjárhagsvídd sérstaklega fyrir losun. Flestir viðskiptavinir kalla hana Viðskiptamaður eða eitthvað svipað. Ef þú ákveður að nota ekki fjárhagsvídd skaltu gæta þess að hafa aðallykla sem eru sértækir fyrir viðskipti innan samstæðu. 
 
 Uppsetningu fyrir losun er að finna á svæðinu Setja upp í einingunni Samstæður. Eftir að þú slærð inn lýsingu fyrir regluna þarftu að velja fyrirtækið sem losunarbókin bókar í. Þetta ætti að vera fyrirtæki sem hefur **Nota fyrir losunarferli fjárhags** valið í uppsetningu lögaðila. 
 
