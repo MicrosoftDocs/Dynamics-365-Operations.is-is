@@ -1,16 +1,16 @@
 ---
-title: "Lánardrottinn fartæki samvinnusvæði fyrir forritið Microsoft Dynamics 365 for Operations"
-description: "Með vinnusvæði samstarfs lánardrottna fyrir fartæki geta lánardrottnar fylgst með innkaupapöntunum sem hafa verið sendar til þeirra fyrir samþykki og skoða upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði."
-author: YuyuScheller
+title: "Fartækjavinnusvæði samstarfs lánardrottna"
+description: "Þetta efnisatriði veitir upplýsingar um lánardrottnasamvinnu á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði."
+author: mkirknel
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
@@ -18,130 +18,143 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e19fee87dae6e5d425f36dac0db4ea89534a8510
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Lánardrottinn fartæki samvinnusvæði fyrir forritið Microsoft Dynamics 365 for Operations
+# <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
 [!include[banner](../includes/banner.md)]
 
+Þetta efnisatriði veitir upplýsingar um **lánardrottnasamvinnu** á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
-Með vinnusvæði samstarfs lánardrottna fyrir fartæki geta lánardrottnar fylgst með innkaupapöntunum sem hafa verið sendar til þeirra fyrir samþykki og skoða upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
+Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
 
-<a name="prerequisites"></a>Forkröfur
--------------
+## <a name="overview"></a>Yfirlit 
+Fartækjavinnusvæðið **Lánardrottnasamvinna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir þannig að þeir geti séð og síðan svarað innkaupapöntunum í vefbiðlara Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fyrir lánardrottna. 
+
+>[!NOTE]
+> Vinnusvæði fartækis ætti að nota sem viðauka við vefviðmót samstarfs lánardrottna, en ekki í staðinn fyrir það. 
+
+Með vinnusvæði **samstarfs lánardrottna** fyrir fartæki geta lánardrottnarnir skoðað nýjar innkaupapantanir sem eru sendar til þeirra til samþykkis. Það birtir upplýsingar á innkaupapöntun, eins og afurðir, magn og umbeðnar afhendingardagsetningar. Upplýsingar um verð eru einnig tiltækar, eftir skilgreiningu fyrir hvern lánardrottinn. 
+
+Notandi sem skráir sig inn sem lánardrottinn sér hvaða innkaupapöntunum hefur verið svarað og hvaða innkaupapantanir bíða enn eftir aðgerð viðskiptavinar. Til dæmis gæti innkaupapöntun beðið eftir aðgerð viðskiptavinar vegna þess að lánardrottinn stakk upp á annarri afhendingardagsetningu en viðskiptavinurinn hefur ekki enn samþykkt þá dagsetnignu. Lánardrottinn mun einnig sjá lista yfir innkaupapantanir sem hafa verið staðfestar en hafa enn ekki verið afhentar. 
+
+Til að svara innkaupapöntun verður lánardrottinn að nota lánardrottins samvinnusvæði vefviðmótið sem er tiltæk í vefbiðlara Dynamics 365 for Operations. Þar getur lánardrottinn einnig fengið frekari upplýsingar um pöntunina, eins og fylgiskjöl, afhendingaraðsetrið á hverja línu og gjöld sem eru tengdar við lánardrottinn. 
+
+Lánardrottnar sem hafa sérstakt öryggishlutverk geat séð hvaða tengiliðir einstaklinga eru skráðir fyrir lykil lánardrottins. Sama öryggishlutverk gerir lánardrottni kleift að skoða stöðu allra notandabeiðna sem hafa verið sendar. 
+
+Vefmót lánardrottnasamvinnu í vefbiðlaranum verður að nota til að stofna nýja tengiliði og senda inn nýjar notandabeiðnir. 
+
+Fartækjavinnusvæðið **Samvinna lánardrottna** gerir lánardrottni kleift að framkvæma þessar aðgerðir:
+
+-   Skoða nýjar innkaupapantanir sem eru sendar lánardrottni.
+-   Skoða innkaupapantanir sem lánardrottinn hefur svarað og sem bíða eftir aðgerð viðskiptavinar.
+-   Skoða innkaupapantanir sem hafa verið staðfestar en hafa ekki enn verið mótteknar að fullu.
+-   Skoða persónuupplýsingar tengiliðar sem skráðar eru fyrir lykil lánardrottins. (Verkið krefst auka öryggishlutverks.)
+-   Skoða upplýsingar um notandabeiðni sem lánardrottinn sendi og fylgt stöðu beiðninnar. (Verkið krefst auka öryggishlutverks.)
+
+## <a name="prerequisites"></a>Frumskilyrði
+Forkröfur fyrir eru mismunandi, eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa, uppfærsla í júlí 2017 
+Hafi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition uppfærsla júlí 2017 verið innleidd í fyrirtækinu, verður kerfisstjóri að gefa út fartækjavinnusvæðið **Samvinna lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðari útgáfu
+Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3, eða síðari útgáfu, í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Skilyrði</th>
+<th>Hlutverk</th>
 <th>lýsing</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lesa um Microsoft Dynamics 365 for Operations verkvang</td>
-<td><a href="https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/">Microsoft Dynamics 365 for Operations verkvangur</a></td>
+<td>Það verður að innleiða KB 3216943 ef svæðisuppfærsla 3 er notuð.</td>
+<td>Kerfisstjóri</td>
+<td>KB 3216943 er tvíundakerfis uppfærsla sem er krafist ef svæðisuppfærsla 3 er notuð. Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
+<ol>
+<li>Sækja KB 3216943 af Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Setja upp tvíundakerfisuppfærslu, sem er afhent sem dreifanlegur pakki. Sjá upplýsingar um hvernig á að nota dreifanlega pakka <a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Nota dreifanlegan pakka</a>.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>Dynamics 365 for Operations</td>
-<td>Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016).</td>
+<td>KB 4013633 verður að vera innleitt.</td>
+<td>Kerfisstjóri</td>
+<td>KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Birgðir á lager</strong>. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Sækja bráðabót lýsigögn úr LCS</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li><li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Notaðu virkjanlega pakkann</a>.</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000">Lýsingarlína fartækis með forritið Dynamics 365 for Operations uppsett</span></td>
-<td><span style="color: #000000">Sækja forritið Dynamics 365 for Operations úr forritaverslun fartækis.</span></td>
+<td>Það verður að birta fartækjavinnusvæðið <strong>Samvinna lánardrottna</strong>.</td><td>Kerfisstjóri</td>
+<td>Sjáið <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</td>
 </tr>
 <tr class="even">
-<td>Bráðabót KB 4013633</td>
-<td>Setja upp bráðabót til að virkja skal vinnusvæðin sem veittar eru í Dynamics 365 for operations.</td>
-</tr>
-<tr class="odd">
-<td><span style="color: #ff0000"><span style="color: #000000">Bráðabót KB 3216943</span> </span></td>
-<td>Setja upp bráðabót til að virkja vinnusvæði samstarfs lánardrottna fyrir fartæki.</td>
-</tr>
-<tr class="even">
-<td>Notanda lánardrottins verður að hafa aðgang að vefviðmótið samvinnusvæði lánardrottins í Dynamics 365 for Operations og setja upp samvinnusvæði notanda lánardrottins.</td>
-<td>Fylgja skal skrefunum sem lýst er í eftirfarandi efnisatriði til að setja upp og vinna með vefviðmóti samstarfs lánardrottna.
+<td>Notandi lánardrottins verður að hafa aðgang að vefviðmótinu Samvinnusvæði lánardrottins í vefbiðlaranum og verður að setja upp samvinnusvæði notanda lánardrottins.</td><td>Innkaupasérfræðingar og kerfisstjóri</td>
+<td>Fylgja skal skrefunum í eftirfarandi efnisatriði til að setja upp og vinna með vefviðmóti samstarfs lánardrottna.
 <ul>
 <li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Nota samstarf lánardrottna við ytri lánardrottna</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Stjórnun notenda samstarfs lánardrottna</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Uppsetning og viðhald samstarfs lánardrottna</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Dynamics 365 for Operations</a></li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="overview"></a>Yfirlit
-Lánardrottinn fartæki samvinnusvæðið heldur halda sér upplýstum um nýjar innkaupapantanir þannig að þeir sjá og svara innkaupapöntunum í vefbiðlara Dynamics 365 for Operations fyrir lánardrottna. 
+## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-**Athugasemd:** Vinnusvæði fartækis ætti að nota sem viðauka við vefviðmót samstarfs lánardrottna, en ekki í staðinn. 
+Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
-Með vinnusvæði samstarfs lánardrottna fyrir fartæki geta lánardrottnar skoðað nýjar innkaupapantanir sem eru sendar til samþykkis. Það birtir upplýsingar á innkaupapöntun, eins og afurðir, magn og umbeðnar afhendingardagsetningar. Upplýsingar um Verð eru tiltækar, eftir skilgreiningu fyrir hvern lánardrottinn. 
+-   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
 
-Þegar notandi skráir sig inn sem lánardrottinn, sér hann hvaða innkaupapöntunum hefur verið svarað eða hvaða innkaupapantanir bíða enn eftir aðgerð viðskiptavinar. Lánardrottinn gæti hafa stungið upp á annarri afhendingardagsetningu sem hefur ekki enn verið samþykkt af viðskiptavini svo að innkaupapöntun bíður eftir aðgerð viðskiptavinar. Lánardrottinn mun einnig sjá lista yfir innkaupapantanir sem eru staðfestar en hafa enn ekki verið afhentar. 
+## <a name="sign-in-to-the-mobile-app"></a>Innskráning í fartækjaforritið
+1.  Ræstu forritið í fartækinu þínu.
+2.  Færðu inn vefslóð þína fyrir Microsoft Dynamics 365.
+4.  Í fyrsta sinn sem þú skráir þig inn er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
+5.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-Til að svara innkaupapöntun hefur lánardrottins til að nota lánardrottins samvinnusvæði vefviðmótið sem er tiltæk í vefbiðlara Dynamics 365 for Operations. Þetta er einnig þar sem lánardrottinn fær frekari upplýsingar um pöntunina, eins og fylgiskjöl, afhendingaraðsetrið á hverja línu og gjöld sem eru tengdar við lánardrottinn. 
+    [![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-Með sérstöku öryggishlutverki getur lánardrottinn skoðað hvaða tengiliðir einstaklinga eru skráðir fyrir lykil lánardrottins. Með sama öryggishlutverki getur lánardrottinn skoðað stöðu allra notandabeiðna sem hafa verið sendar. 
+## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Notaðu fartækjavinnusvæði samstarfs lánardrottna
+Þegar valið er vinnusvæðið **Samstarf lánardrottna** sérðu eftirfarandi valkosti.
 
-Stofna nýja tengiliðir og senda nýja notandabeiðni verður unnið í samvinnusvæði viðmót lánardrottins sem er tiltæk í vefbiðlara Dynamics 365 for Operations. 
+![Fartækjavinnusvæði samstarfs lánardrottna](./media/vendor-collaboration-mobile-app.png)
 
-Með vinnusvæði fartækias getur lánardrottinn:
+Vinnusvæðið **Samvinna lánardrottna** felur í sér eftirfarandi síður.
 
--   Skoðað staðfestar innkaupapantanir sem voru sendar lánardrottni.
--   Skoðað innkaupapantanir sem lánardrottinn hefur svarað og bíða eftir aðgerð viðskiptavinar.
--   Skoðað innkaupapantanir sem eru með staðfesta stöðu og hafa ekki verið mótteknar að fullu.
--   Skoðað upplýsingar um tengilið sem er skráður fyrir reikning lánardrottins (krefst auka öryggishlutverks).
--   Skoðað upplýsingar og fylgt stöðu notandabeiðni sem lánardrottinn sendi (krefst auka öryggishlutverks).
+### <a name="contacts"></a>Tengiliðir
+Síðan **Tengiliðir** gerir mögulegt að sjá alla tengiliði sem hafa verið settir upp fyrir lánardrottnalykil. Það sýnir nafn tengiliðar, aðalnetfang og auknefni notandans, ef tengiliðurinn hefur auknefni. Þessi síða sýnir einnig hvort notandareikningur tengiliðar er virkur. Þegar tengiliður er valinn sjást tengilið upplýsingum á borð við lögaðila sem starfsmaður tengiliður fyrir. Þú sérð einnig tengiliðarupplýsingar, eins og símanúmer eða annað netfang.
 
-## <a name="get-started"></a>Hefjast handa
-Til að hefjast handa í fartækinu þínu:
+### <a name="user-requests"></a>Notandabeiðnir
+Síðan **Notandabeiðnir** gera þér kleift að sjá allar notandabeiðnir sem þú hefur sent í gegnum vefviðmót samstarfs lánardrottna og fylgja stöðunni. Einnig er hægt að fylgja stöðu þessara beiðna. Þegar beiðni notanda er valin, er hægt sjá hvað beðið var um, bæta við eða gera notanda óvirkan, breyta öryggi og sjá hvaða öryggishlutverk voru umbeðin fyrir notanda.
 
-1.  Sæktu forritið Dynamics 365 for Operations úr forritaverslun farsímans og settu það upp.
-2.  Ræstu forritið í snjallsímanum.
-3.  Færðu inn vefslóð þína fyrir Dynamics 365.
-4.  Skráðu fyrirtækið sem á að skrá sig inn á . Til dæmis: Færið inn **USMF**.
-5.  Í fyrsta skipti sem þú skráir þig inn verðurðu beðin um notandanafn og aðgangsorð fyrir Microsoft Dynamics 365 for Operations reikninginn þinn.
+### <a name="purchase-orders-ready-for-review"></a>Innkaupapantanir tilbúnar til skoðunar
+Síðan **Innkaupapantanir sem eru tilbúnar til endurskoðunar** gera kleift að sjá allar innkaupapantanir sem viðskiptavinurinn hefur sent en sem hefur ekki enn verið svarað. Hægt er að skoða valdar upplýsingar um pöntunina, eins og hefur hvaða afurðir hefur verið beðið og hvenær á að afhenda þær afurðir. Upplýsingar um verð eru einnig tiltækar, eftir skilgreiningu fyrir lánardrottinninn.
 
-Þegar búið er að skrá inn í forritið eru vinnusvæð sýnileg. Til að skoða vinnusvæði í farsímaforritinu verður fyrst að gefa út æskileg vinnusvæði í forritið Dynamics 365 for Operations. Þú þarft heimild kerfisstjóra til að birta vinnusvæðið.
+Einnig er hægt að sjá hvort innkaupapöntunin hefur athugasemdir eða viðhengi. Hins vegar, til að skoða athugasemdir og viðhengi verður að nota vefviðmót samvinnu lánardrottna í vefbiðlara. Veldu **Innkaupapöntunarlínu** til að sjá allar línur ásamt með upplýsingunum. Fyrir hverja línu mun vísir sýna hvort að það eru athugasemdir eða viðhengi eða ef afhendingaraðsetur er annað en það sem er birt í haus.
 
-1.  Ræstu Dynamics 365 for Operations.
-2.  Opnaðu **Kerfisstjórnun** &gt; **Uppsetning** &gt; **kerfisfæribreytur**.
-3.  Veldu **Stjórna fartækjaforriti**.
-4.  Velja vinnusvæðið **Samstarf lánardrottna** til að birta í verkvangi farsíma.
-5.  Veldu **Birta vinnusvæði**.
-6.  Endurhlaða Þitt tæki til að sjá útgefin vinnusvæði.
-7.  Veldu vinnusvæðið **Samstarf lánardrottna**. Eftirfarandi síða birtist.
+Til að bregðast við innkaupapöntun, verður að nota vefviðmótið samstarf lánardrottna í vefbiðlara.
 
-    [![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
+### <a name="awaiting-customer-action"></a>Beðið eftir aðgerð viðskiptavinar
+Síðan **Beðið eftir aðgerð viðskiptavinar** gerir kleift að finna innkaupapantanir sem þú eða einhver annar innan fyrirtækisins sem hefur einnig aðgang að samstarfi lánardrottna, hefur svarað. Innkaupapantanir eru aðeins sýnilegar í þessum lista ef viðskiptavinurinn verður að framkvæma eina af eftirfarandi aðgerðum í innkaupapöntuninni:
 
-## <a name="contacts"></a>Tengiliðir
-Síðan **Tengiliðir** gerir mögulegt að sjá alla tengiliði sem hafa verið settir upp fyrir lánardrottnalykil. Hún sýnir nafn tengiliðar, aðalnetfang og auknefni notenda, ef það er tiltækt. Hún sýnir einnig hvort notandareikningur tengiliðar er virkur. Þegar tengiliður er valinn sérðu upplýsingar um tengilið, eins og hvaða lögaðila einstaklingurinn er tengiliður fyrir, og upplýsingar eins og símanúmer eða annað netfang tengiliðar.
+-   Ef innkaupapöntuninni var hafnað þarf viðskiptavinurinn annaðhvort að uppfæra eða hætta við upprunalega pöntun og síðan senda hana aftur. Þegar pöntunin er send aftur birtist hún ekki lengur á síðunni **Beðið eftir aðgerð viðskiptavinar**.
+-   Ef innkaupapöntunin var samþykkt með breytingum verður viðskiptavinur annaðhvort að uppfæra upphaflega pöntun og síðan senda hana aftur til skoðunar eða uppfæra pöntunina samkvæmt umbeðnum breytingum og síðan staðfesta hana strax. Í báðum tilfellum birtist pöntunin ekki lengur á síðunni **Bíður eftir aðgerð viðskiptavinar**.
+-   Ef innkaupapöntunin var samþykkt og birtist samt á síðunni **Beðið eftir aðgerð viðskiptavinar** er það vegna þess að innkaupapöntunin var ekki sjálfkrafa staðfest þegar hún var samþykkt. Hún bíður nú að innkaupaaðili breyti stöðu pöntunar í **Staðfest**. Venjulega myndi innkaupapöntun vera skoðuð sem samningur milli viðskiptavinar og lánardrottins um leið og lánardrottinn tekur á móti pöntuninni. Þar af leiðandi er uppfærsla í stöðuna **Staðfest** yfirleitt aðeins formlegheit.
 
-## <a name="user-requests"></a>Notandabeiðnir
-Síðan **Notandabeiðnir** gera þér kleift að sjá allar notandabeiðnir í gegnum vefviðmót samstarfs lánardrottna og fylgja stöðunni. Þegar beiðni notanda er valin, er hægt sjá hvað beðið var um, bæta við eða gera notanda óvirkan, breyta öryggi og sjá hvaða öryggishlutverk voru umbeðin fyrir notanda.
-
-## <a name="purchase-orders-ready-for-review"></a>Innkaupapantanir tilbúnar til skoðunar
-Síðan **Innkaupapantanir sem eru tilbúnar til endurskoðunar** gera kleift að sjá allar innkaupapantanir sem voru sendar af viðskiptavini og hefur ekki verið svarað. Hægt er að skoða valdar upplýsingar um pöntunina, eins og hefur verið beðið um hvaða afurðir og hvenær á að afhenda. Upplýsingar um Verð er aðeins tiltækt ef þetta er skilgreint fyrir lánardrottinn. Hægt er að sjá hvort innkaupapöntunin hefur athugasemdir eða viðhengi. Til að opna viðhengi, þarf að nota samstarf lánardrottna í vefbiðlara. Velja **Innkaupapöntunarlínu** til að sjá allar línur með upplýsingum. Athugið að fyrir hverja línu mun vísir sýna hvort að það eru athugasemdir eða viðhengi eða ef afhendingaraðsetur er annað en það sem er birt í haus. Til að bregðast við innkaupapöntun, verður að nota vefbiðlara samstarfs lánardrottna.
-
-## <a name="awaiting-customer-action"></a>Beðið eftir aðgerð viðskiptavinar
-Síðan **Beðið eftir aðgerð viðskiptavinar** gerir kleift að finna innkaupapantanir sem þú, eða einhver innan fyrirtækisins sem hefur einnig aðgang að samstarfi lánardrottna, hefur svarað. Innkaupapantanir eru aðeins sýnilegar í þessum lista ef viðskiptavinurinn þarf að framkvæma eina af eftirfarandi aðgerðum í innkaupapöntuninni.
-
--   Ef innkaupapöntunin var hafnað myndi viðskiptavinurinn annaðhvort uppfæra senda pöntun og senda hana aftur, eða hætta við pöntunina og endursenda. Þegar pöntunin er send aftur mun hún hverfa af síðunni **Beðið eftir aðgerð viðskiptavinar**.
--   Ef innkaupapöntunin var samþykkt með breytingum myndi viðskiptavinur þurfa að uppfæra upphaflega pöntun og endursenda til skoðunar eða uppfæra hana samkvæmt breytingum og staðfesta strax. Í báðum tilfellum mun pöntunin hverfa af síðunni **Bíður eftir aðgerð viðskiptavinar**.
--   Ef innkaupapöntunin var samþykkt og birtist á síðunni **Beðið eftir aðgerð viðskiptavinar** er það vegna þess að innkaupapöntunin var ekki sjálfkrafa staðfest þegar móttöku var lokið. Hún bíður þess að innkaupaaðili breyti pöntun í Staðfest. Venjulega myndi innkaupapöntun vera skoðuð sem samningur milli viðskiptavinar og lánardrottins um leið og lánardrottinn tekur á móti pöntuninni. Flutningur innkaupapöntunar í stöðuna Staðfest væri formsatriði.
-
-Með því að velja innkaupapöntun, birtast frekari upplýsingar um svarið. Hægt er að sjá upplýsingar um og svar fyrir hverja línu. Línustaðan sýnir hver eftirfarandi svara voru gefin.
+Þegar þú velur innkaupapöntun, birtast frekari upplýsingar um svarið. Hægt er að sjá upplýsingar um og svar fyrir hverja línu. Línustaðan sýnir hver eftirfarandi svara voru gefin:
 
 -   Samþ.  
 -   Hafnað
@@ -149,12 +162,14 @@ Með því að velja innkaupapöntun, birtast frekari upplýsingar um svarið. H
 -   Skipt út/Staðgengill
 -   Skipta í áætlun/áætlunarlínu
 
-Athugið að vísir sýnir **Afhendir**= já/nei, sem er notuð til að gefa til kynna að línurnar verði ekki afhentar. Þetta gæti verið þar sem línunni var hafnað eða hún sett í staðinn þar sem ekki er búist við að upprunalega verði afhentar eða lína sem hefur verið skipt í marga línur afhendingaráætlunar og ekki er búist við að upphaflega línan sé afhent eins og beðið var um í mótteknum pöntunarlínum. Allar breytingar á svari línu innkaupapöntunar birtast, nema fyrir upphlaðnar athugasemdir og viðhengi, sem hægt er að sjá með notkun vefviðmóts samstarfs lánardrottna.
+Athugið að svæðið **Afhending** er stillt á annaðhvort **Já** eða **Nei** til að gefa til kynna hvort afhenda eigi línurnar. Lína kann að verða ekki afhent vegna eftirfarandi ástæðna:
 
-## <a name="open-confirmed-orders"></a>Opna staðfestar pantanir
-Þegar innkaupapöntun er staðfest af viðskiptavini, sem þýðir að innkaupapöntun er breytt í stöðuna Staðfest, mun það birtast í opinni staðfestri pöntun. Hún verður áfram á listanum þar til hún er skráð sem móttekin af viðskiptavini.
+- Línunni var hafnað.
+- Skipti voru gerð og þess er ekki vænst að upprunaleg lína sé afhent eins og beðið er um í móttekinni pöntun.
+- Línunni var skipt upp í margar áætlunarlínur og þess er ekki vænst að upprunaleg lína sé afhent eins og beðið er um í móttekinni pöntun.
 
+Allar breytingar sem gerðar voru í svari raðarlínu eru sýndar. Hins vegar eru upphlaðnar athugasemdir og viðhengi ekki sýnd. Til að skoða athugasemdir og viðhengi verður að nota vefviðmót samvinnu lánardrottna í vefbiðlara.
 
-
-
+### <a name="open-confirmed-orders"></a>Opna staðfestar pantanir
+Þegar innkaupapöntun er staðfest af viðskiptavini (það er að segja, stöðu innkaupapöntunar er breytt í stöðuna **Staðfest**) birtist hún í opinni staðfestri pöntun. Hún verður áfram á listanum þar til hún er skráð sem móttekin af viðskiptavini.
 

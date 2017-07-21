@@ -3,27 +3,26 @@ title: "Línuskilgreiningar í fjárhagsskýrsluhönnuði"
 description: "Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Línuskilgreiningu er hægt að sameina með dálkaskilgreiningum, skipuritsskilgreiningum og skýrsluskilgreiningum til að stofna einingahóp sem mörg fyrirtæki geta notað."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.reviewer: shylaw
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -49,7 +48,7 @@ Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar rað
 Línuskilgreining getur innihaldið allt að 20.000 fjárhagsvíddaarlínur og haft eftirfarandi upplýsingar:
 
 -   Lýsandi texti sem bætir merkingu við skýrsluna með því að stofna hlutafyrirsagnir, línur og bil, s.s. **Reiðufé** eða **Heildartekjur**
--   Tenglar í fjárhagsgögn, sem geta innihaldið víddargildi í Microsoft Dynamics 365 for Operations **Athugasemd:** Er hægt að setja upp línuskilgreiningar til að sækja gögn úr kerfinu fjárhagsvíddir í hvert skipti sem skýrslan er mynduð.
+-   Tenglar í fjárhagsgögn, sem geta innihaldið víddargildi í Microsoft Dynamics 365 for Finance and Operations **Athugið:** Það er hægt að setja upp línuskilgreiningar til að sækja gögn úr fjárhagsvíddakerfinu í hvert skipti sem skýrslan er mynduð.
 -   Samtölur línu og formúlur eru byggð á tengdum fjárhagsgögnum
 
 Yfirleitt inniheldur hver lína í línuskilgreiningu eina af eftirfarandi tegundum upplýsinga:
@@ -77,7 +76,7 @@ Til að bæta víddum við línuskilgreiningu skal fylgja eftirfarandi skrefum.
 1.  Report Designer smellt **Línuskilgreiningar**, og opnið síðan línuskilgreiningu til að breyta.
 2.  Á valmyndinni **Breyta** er smellt á **Setja inn línur úr víddum**.
 3.  Í **Setja inn Línur úr Víddir** í svarglugganum, í **Víddir** línunni skal velja hólfið fyrir víddina sem á að flytja í línuskilgreininguna og smella síðan á **Öll &&&**.
-4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í **Upphafs víddarsviðs** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs**reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugið:** Algildisstafir (\* eða?) í víddarsviðum skila ekki endilega öllum niðurstöðum sem óskað er, eftir því hvernig ERP gagnagrunnurinn safnar gögnum.
+4.  Til að takmarka línuskilgreiningar við ákveðin víddargildi skal slá inn upphafsvíddargildi í **Upphafs víddarsviðs** reitinn og slá svo inn lokavíddargildið í **Lok víddarsviðs** reitinn. Til að hafa öll gildi fyrir valda vídd, skiljið þessum reitum eftir auður. **Athugið:** Algildisstafir (\* eða?) í víddarsviðum skila ekki endilega öllum niðurstöðum sem óskað er, eftir því hvernig ERP gagnagrunnurinn safnar gögnum.
 5.  Í **Kóði upphafslínu** svæðið skal tilgreina línukóða fyrir fyrsta víddargildi sem á að bæta við línuskilgreiningu.
 6.  Í **Auka stig hverrar línu með** svæðið skal tilgreina bilið á milli samfelldra línukóða. Til dæmis, ef kóði fyrstu línu er 100 og stigvaxandi gildi er 30, hafa fyrstu nýju línurnar kóðana 100 130, 160, 190 og 220. Notið stigvaxandi gildi sem veitir nægt bil fyrir innsetningu nýs sniðs og formúlulínur.
 7.  Smelltu á **Í lagi**. Einni línu er bætt við línuskilgreininguna fyrir hvert valið víddargildi.

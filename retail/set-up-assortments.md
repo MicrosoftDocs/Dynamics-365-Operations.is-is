@@ -1,37 +1,39 @@
 ---
 title: "Setja upp vöruúrval"
-description: "Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Operations - Retail."
+description: "Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15811
 ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ffa60ad4890a783c05bbde09aa00189fb30bd706
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3647d88baa544bf0fa8c7f9d752c712dc69a70d7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-assortments"></a>Setja upp vöruúrval
+# <a name="set-up-assortments"></a>Uppsetning vöruúrvals
 
 [!include[banner](includes/banner.md)]
 
 
-Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Operations - Retail.
+Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Retail.
 
 Úrval er safn tengdra afurða sem úthlutað er á smásölurás, eins og verslun á staðnum eða netverslun. Notið úrval til að auðkenna vörurnar sem eru tiltækar í hverri verslun. Úrval getur innihaldið tegundir afurða. Þess vegna, Allar afurðir sem eru tengdar valinni tegund eru með í úrvalinu. Úrval getur einnig innihaldið tilteknar vörur og tiltekinn afbrigði afurða. Með því að setja upp úrval er hægt að tengja þúsundum afurðir við smásölurásir samtímis , í hvaða samsetningu sem verslununum krefjast. Hægt er að setja upp eins mörg vöruúrval sem þú krefst. Hægt er að taka með hverja vöru í einni eða fleiri úrvali og hvert úrval er hægt að úthluta á einn eða fleiri smásölurásir. Til dæmis er geturðu skilgreint einn úrval sem inniheldur grunnsamsetningu afurða. Allar verslanir taka við þessu úrvali. Svo er er að skilgreina annað úrval sem inniheldur aðeins stóran íþróttabúnað. Aðeins stærri verslununum þínum fá úrvalið. Eftirfarandi skýringarmynd sýnir hvernig hægt er að úthluta afurðir í úrval, og hvernig þær úrvali geta tilheyrt smásölurásum. ![Vensl vöruúrvals](./media/assortments_relationship.gif)
 
@@ -42,8 +44,8 @@ ms.lasthandoff: 05/25/2017
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Setja upp smásölurás.          | Smásölurásir fela í sér verslunarhúsnæði, netverslanir og markaðstorg á netinu. Þú verður að setja upp að minnsta kosti eitt smásölurás og skilgreina valkosti fyrir verslunina. Úrval er úthlutað á verslanir til að auðkenna vörurnar sem fylgir ákveðna verslun.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Stofna stigveldi fyrirtækisins. | Eftir að setja upp smásölurása fyrir fyrirtækið, þarf að skilgreina smásölustigveldi fyrirtækisins sem táknar skipulag fyrirtækisins fyrir smásölurásir. Til dæmis getur stigveldi fyrirtækis verið notað fyrir úrval, áfyllingu eða skýrslugerð. Með því að bæta smásölurásum við stigveldi fyrirtækis, geturðu úthlutað vöruúrvali á verslunarhópa. Í stað þess að úthluta úrvalinu sérstaklega á hverja verslun, úthlutarðu úrvalið á hástigs fyrirtækishnúta. Svo í hvert sinn sem ný smásölurásar er bætt við fyrirtækishnúta á háu stigi, erfir sú smásölurásar sjálfkrafa allt úrval sem var úthlutað á fyrirtækishnút á hærra stigi. Þú getur tengt úrval aðeins við smásölurása sem eru innifaldar í stigveldi fyrirtækis sem er úthlutað á **smásöluúrvals** málefni. |
-| Skilgreina afurðir.                  | Áður en hægt er að bæta vörum við úrvalið, verður að bæta þeim í Microsoft Dynamics AX. Hægt er að bæta afurðum handvirkt eða flytja þær frá lánardrottni. Þegar búið er að bæta við afurðum, þarf að losa þær á lögaðila. Aðeins afurðir sem hafa verið losaðar til lögaðila geta verið gerðar tiltækar á smásölurásum þínum. Afurðir sem enn hefur ekki verið losað til lögaðila er hægt að bæta við úrval og hægt er að samþykkja úrvalinu. Hinsvegar, þar til afurðir sem hafa verið losaðar til lögaðila geta þær ekki verið gerðar tiltækar á smásölurásunum.                                                                                                                                                                                                                                                                                     |
-| Setja upp tegundastigveldi.      | Þegar smásöluafurðir eru stofnaðar, er hægt að flokka þær með því að nota tegundarstigveldi eiginleika í Dynamics 365 for Operations. Hægt er að stofna eina kjarnauppsetning stigveldis til að flokka öllum afurðum sem dreifa skal gegnum smásölurása. Einnig er hægt að stofna aðskildar, viðbótartegundastigveldi til að flokka afurðir fyrir sérstaka tilgangi, svo sem kynningartilboð eða í úrvali. Með því að nota tegundastigveldi er hægt að tengja allar afurðir í tiltekinni tegund við úrval. Allar afurðir sem bætt er við tegundina sem er tekin með í úrvalið er sjálfkrafa teknar með í úrvalið. Síðan, í næsta sinn sem verkraðari smásöluúrvals er keyrð, þessar afurðir verða tiltækar til smásölurása sem er tengdur við úrvalið.                                            |
+| Skilgreina afurðir.                  | Áður en hægt er að bæta vörum við úrvalið, verður að bæta þeim í Microsoft Dynamics 365 for Retail. Hægt er að bæta afurðum handvirkt eða flytja þær frá lánardrottni. Þegar búið er að bæta við afurðum, þarf að losa þær á lögaðila. Aðeins afurðir sem hafa verið losaðar til lögaðila geta verið gerðar tiltækar á smásölurásum þínum. Afurðir sem enn hefur ekki verið losað til lögaðila er hægt að bæta við úrval og hægt er að samþykkja úrvalinu. Hinsvegar, þar til afurðir sem hafa verið losaðar til lögaðila geta þær ekki verið gerðar tiltækar á smásölurásunum.                                                                                                                                                                                                                                                                                     |
+| Setja upp tegundastigveldi.      | Þegar smásöluafurðir eru stofnaðar, er hægt að flokka þær með því að nota tegundarstigveldi eiginleika. Hægt er að stofna eina kjarnauppsetning stigveldis til að flokka öllum afurðum sem dreifa skal gegnum smásölurása. Einnig er hægt að stofna aðskildar, viðbótartegundastigveldi til að flokka afurðir fyrir sérstaka tilgangi, svo sem kynningartilboð eða í úrvali. Með því að nota tegundastigveldi er hægt að tengja allar afurðir í tiltekinni tegund við úrval. Allar afurðir sem bætt er við tegundina sem er tekin með í úrvalið er sjálfkrafa teknar með í úrvalið. Síðan, í næsta sinn sem verkraðari smásöluúrvals er keyrð, þessar afurðir verða tiltækar til smásölurása sem er tengdur við úrvalið.                                            |
 
 ## <a name="setting-up-an-assortment"></a>Setja upp vöruúrval.
 Eftir að forkröfur er lokið er hægt að stofna úrval og úthluta á smásölurásir. Til að setja upp vöruúrval, Það verður að ljúka eftirfarandi verkum:

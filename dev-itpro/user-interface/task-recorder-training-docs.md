@@ -3,7 +3,7 @@ title: "Stofna fylgiskjölum eða þjálfun með verkskráningu"
 description: "Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
+Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefnaleiðbeiningar í Microsoft fyrir Unified Operations-vörur og hafa þær með í þinni Hjálp.
+
+> [!IMPORTANT]
+> Ekki er hægt að stofna leiðbeiningunum sérsniðin verkefni fyrir Dynamics 365 for Talent. Hjálparkerfinu Talent er sjálfkrafa tengdir leiðbeiningunum verkefni fyrir vöru. 
 
 <a name="learn-about-task-recorder"></a>Læra um verkskráningar
 -------------------------
 
-Verkskráning er Microsoft Dynamics 365 for Operations verkfæri sem hægt er að nota til að skrá aðgerðir sem framkvæmdar eru í notendaviðmótinu (UI) vörunnar. Þegar notuð er verkskráning eru öll atvik sótt sem framkvæmt er í Notendaviðmóti og eru keyrðir gagnvart þjóninum — þar á meðal bæta við gildum, breytt stillingum og fjarlægir gögn. Skrefin sem þú skráir kallast í sameiningu við *verkskráning*. Hægt er að nota verkskráningu á marga vegu:
+Verkskráning er Dynamics AX-verkfæri sem hægt er að nota til að skrá aðgerðir sem framkvæmdar eru í notendaviðmótinu (UI). Þegar notuð er verkskráning eru öll atvik sótt sem framkvæmt er í Notendaviðmóti og eru keyrðir gagnvart þjóninum — þar á meðal bæta við gildum, breytt stillingum og fjarlægir gögn. Skrefin sem þú skráir kallast í sameiningu við *verkskráning*. Hægt er að nota verkskráningu á marga vegu:
 
--   **Hægt er að spila verkskráningu sem verkefnaleiðbeiningar.** Leiðbeiningar um verkið eru hluti af Dynamics 365 for Operations hjálparupplifun. Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirk reynsla sem fer með þig í gegnum þrep viðskiptaferlis. Notandi er leiðbeint um að ljúka við hvert skref með sprettigluggum (eða "talblaðra"), sem verður lifandi í Notendaviðmóti og benda á UI einingar sem notandinn ætti að eiga samskipti við. "Talblaðra" veitir einnig upplýsingar um hvernig á að eiga samskipti við einingar, svo sem "Smella skal hér" eða "Í þessu svæði er fært inn gildi." Verkefnaleiðbeiningar keyra gagnvart gildandi gagnasafni notanda og gögnin sem færð er inn eru vistuð í umhverfi notanda.
+-   **Hægt er að spila verkskráningu sem verkefnaleiðbeiningar.** Verkefni leiðbeiningunum eru integral stykki hinnar Hjálp reynslu. Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirk reynsla sem fer með þig í gegnum þrep viðskiptaferlis. Notandi er leiðbeint um að ljúka við hvert skref með sprettigluggum (eða "talblaðra"), sem verður lifandi í Notendaviðmóti og benda á UI einingar sem notandinn ætti að eiga samskipti við. "Talblaðra" veitir einnig upplýsingar um hvernig á að eiga samskipti við einingar, svo sem "Smella skal hér" eða "Í þessu svæði er fært inn gildi." Verkefnaleiðbeiningar keyra gagnvart gildandi gagnasafni notanda og gögnin sem færð er inn eru vistuð í umhverfi notanda.
 -   **Verkskráning getur birst sem skref ferlis í hjálparrúðu.** Nota má hjálparrúðuna til að leita að og sýna verkskráningar. Hægt er að opna rúðuna Hjálp með því að smella á **?** táknið í efstu skoðunarrein eða hægt er að nota flýtivísunarlykilsamsetningu, **Ctrl + Shift +?**. Hægt er að lesa þrep verkskráningar í hjálparglugganum eða hægt er að kjósa að spila verkskráningu sem leiðarvísi fyrir verk, svo það leiðir notandann í gegnum Notendaviðmóti.
--   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráning í línu stigveldis í viðskiptaferlavinnsla (BPM) safnið í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningar sem hafa verið vistaðar BPM safn í Dynamics 365 for Operations sem hjálp.
+-   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráning í línu stigveldis í viðskiptaferlavinnsla (BPM) safnið í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningu sem hafa verið vistaðar í BPM-safn sem Hjálp.
 -   **Hægt er að vista verkskráningu í sem Word-skjöl.** Þannig geturðu auðveldlega búið til prentanlegar þjálfunarleiðbeiningar.
 
-Hægt er að stofna eigin verkskráningu, spila verkskráningar sem veittar eru af Microsoft eða breyta verkskráningu sem veitt er af Microsoft til að endurspegla skilgreininguna. Fyrir nánari upplýsingar um Verkskráning sjá [verkskráning í Dynamics 365 for Operations.](task-recorder.md)
+Hægt er að stofna eigin verkskráningu, spila verkskráningar sem veittar eru af Microsoft eða breyta verkskráningu sem veitt er af Microsoft til að endurspegla skilgreininguna. Sjá frekari upplýsingar um Verkskráning sjá [Verkskráning](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Áætlaðu verkskráningu þína
 Hvort sem verið er að stofna nýtt verkskráning eða byggja skráningu þína á Microsoft verkskráningu, eftirfarandi upplýsingar skal hafa í huga.
@@ -83,7 +86,7 @@ Svona lítur athugasemdarskýring út í talblöðrunni í verkefnaleiðbeiningu
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt;**verkskráning**&lt; **Bæta við upplýsingaskrefi. **Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í Notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan Dynamics 365 for Operations eða að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
+-   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt;**verkskráning**&lt; **Bæta við upplýsingaskrefi. **Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í Notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition eða að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
 
 **Ákvarða hversu lengi á að gera upptökuna**
 
@@ -101,7 +104,7 @@ Fyrir nákvæm leiðbeiningaskref sjá [Hvernig stofna á verkskráningu](task-r
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Afrita og sérsníða Microsoft fyrir verkskráningu
 Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin fylgigögn hjálpar eða þjálfunarefni. Til að sækja Microsoft verkskráningu, skal fylgja þessum skrefum:
 
-1.  Opna verkskráningu í Dynamics 365 for Operations. Verkskráning er staðsett í **Stillingar** valmynd.
+1.  Opna verkskráningu. Verkskráning er staðsett í **Stillingar** valmynd.
 2.  Í rúðunni verkskráning, er smellt á **vinna Með skráningu.**
 3.  Undir **hver er skráningin**, smellið á **er í LCS safn**.
 4.  Smella á **velja LCS-safn**
@@ -119,18 +122,13 @@ Til að sýna þína eigin sérsniðna verkskráningu í rúðunni hjálp þanni
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Hjálparsíður fyrir Dynamics 365 for Operations](..\get-started\help-overview.md)
+[Hjálparyfirlit](..\get-started\help-overview.md)
 
-[Tengjast hjálp](..\get-started\help-connect.md)
+[Tengihjálp](..\get-started\help-connect.md)
 
-[Opna verkskráningu í Dynamics 365 for Operations](task-recorder.md)
+[Verkskráning](task-recorder.md)
 
 [Nýlega viðbættar aðgerðir verkskráningar](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Stofna ný þjálfunarsöfn fyrir Dynamics AX innan Lifecycle Services með Verkskráningu (Ytri tengil)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Stofna Hjálparefni rich Client með Verkskráningar (ytri tengil)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

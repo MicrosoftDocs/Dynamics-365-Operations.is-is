@@ -1,28 +1,29 @@
 ---
 title: "Smásölustigveldi"
-description: "Þessi grein lýsir smásölustigveldi í Microsoft Dynamics AX."
+description: "Þessi grein lýsir smásölustigveldi í Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Þessi grein lýsir smásölustigveldi í Microsoft Dynamics AX.
+Þessi grein lýsir smásölustigveldi í Microsoft Dynamics 365 for Retail.
 
 Hægt er að stofna smásöluflokkastigveldi til að skipuleggja afurðirnar sem seldar eru í gegnum smásölurásir. Hægt er að nota smásölustigveldi afurðar til að flokka eða flokka afurðir. Síðan er hægt að nota þessar afurðir til að stofna afurðaúrval og vildarkerfi viðskiptavina. Einnig er hægt úthluta afurðareigindum og eiginleikum, úthluta uppbyggingu verðlagningar, taka með afurðir í kynningartilboð afurða og nota afurðir fyrir skýrslugerð. Hægt er að stofna eitt tegundastigveldi til að tákna allar afurðir og tegundir í fyrirtækjasamstæðunni, og nota síðan tegundastigveldi fyrir margan tilgang. Einnig er hægt að stofna mörg tegundastigveldi í sérstökum tilgangi, t. d. til kynningar á afurð. Þegar stofnað er stigveldi smásöluafurða verður að úthluta tegundastigveldisgerð til að auðkenna tilgang tegundastigveldisins. Til dæmis er aðeins vísað í afurðastigveldi sem er úthlutað á **Yfirlitsstigveldi smásölu** þegar flett er í afurðum eftir tegund á netinu eða á sölustað (POS).
 

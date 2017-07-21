@@ -1,31 +1,32 @@
 ---
-title: "Verkskráning og Hjálp fyrir sölustað"
+title: "Verkskráning og hjálp fyrir sölustað"
 description: "Þetta efnisatriði lýsir hvernig á að nota verkskráningu í tungumálastillingum í Cloud POS og Retail Modern POS."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
-ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Verkskráning og Hjálp fyrir sölustað
+# <a name="task-recorder-and-help-for-pos"></a>Verkskráning og hjálp fyrir sölustað
 
 Þetta efnisatriði lýsir hvernig á að nota verkskráningu í tungumálastillingum í Cloud POS og Retail Modern POS.
 
@@ -40,11 +41,11 @@ Verkskráning getur skráð aðgerðir notanda í biðlara af mikilli nákvæmni
 ## <a name="basic-configuration"></a>Einföld grunnstilling
 Fylgið eftirfarandi skrefum til að virkja verkskráningu á sölustað:
 
-1.  Smellið á **Smásala og viðskipti** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
+1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
 2.  Smellið á afgreiðslukassa til að kveikja á verkskráningu.
 3.  Á flipanum **Afgreiðslukassi** á flýtiflipanum **Almennt** skal stilla valkostinn **Kveikja á verkskráningu** á **Já**.
-4.  Smellið á **Vista**.
-5.  Fara í **Smásölu og viðskipti** &gt; **upplýsingatækni í smásölu** &gt; **dreifingaráætlun**.
+4.  Smellt er á **Vista**.
+5.  Farðu í **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 6.  Veljið verkið **Afgreiðslukassar (1090)** og smellið svo á **keyra núna**.
 
 ## <a name="create-a-recording"></a>Stofna skráningu
@@ -54,7 +55,9 @@ Fylgið þessum skrefum til að stofna nýja skráningu með því að nota Verk
 2.  Á síðunni **Stillingar** í hlutanum **Verkskráning** er smellt á **Opna verkskráningu**. Rúðan **Verkskráning** birtist. Hægt er að smella á hnappinn **Loka** (**X**) í efra hægra horni til að loka rúðunni **Verkskráning** áður en byrjað er á nýrri skráningu. Endurtakið skref 2 til að opna rúðuna aftur.
 Rúðan [![Verkskráning](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg) birtist.
 
-3.  Sláið inn nafn og lýsingu fyrir skráninguna, og smellið á **Ræsa**. Skráningarlotan hefst um leið og smellt er á **Ræsa**. **Athugið:** Ef smellt er á hnappinn **Loka** (**X**) í efra hægra horni á meðan skráning er í gangi er rúðunni fyrir **Verkskráningu** lokað en skráningarlotunni er ekki hætt. Til að enduropna rúðuna fyrir verkskráningu skal smella á Hjálpjálparhnappinn (spurningamerki) efst á skjánum. 
+3.  Sláið inn nafn og lýsingu fyrir skráninguna, og smellið á **Ræsa**. Skráningarlotan hefst um leið og smellt er á **Ræsa**.
+
+**Athugið:** Ef smellt er á hnappinn **Loka** (**X**) í efra hægra horni á meðan skráning er í gangi er rúðunni fyrir **Verkskráningu** lokað en skráningarlotunni er ekki hætt. Til að enduropna rúðuna fyrir verkskráningu skal smella á hnappinn **Hjálp** (spurningamerki) efst á skjánum. 
 
 [![Spurningarmerki](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +98,10 @@ Smellið á **Halda áfram** til að halda áfram með skráningarlotuna eftir a
 
 ### <a name="capture-screenshots"></a>Taka skjámyndir
 
-Verkskráning getur tekið skjámyndir af notendaviðmóti Retail Modern POS á meðan þú skráir viðskiptaferli. Verkskráning notar skjámyndirnar ef þú hleður skráningunni niður sem Word-skjali. Til að kveikja á eiginleikanum til að taka skjámyndir skal stilla valkostinn **Taka skjámynd** á **Já**. Athugið: Virknin Taka skjámynd er ekki studd í Cloud POS.
+Verkskráning getur tekið skjámyndir af notendaviðmóti Retail Modern POS á meðan þú skráir viðskiptaferli. Verkskráning notar skjámyndirnar ef þú hleður skráningunni niður sem Word-skjali. Til að kveikja á eiginleikanum til að taka skjámyndir skal stilla valkostinn **Taka skjámynd** á **Já**. 
+
+#### <a name="note"></a>Nóta
+> Virknin Taka skjámynd er ekki studd í Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Hefja verk og Ljúka verki
 
@@ -119,11 +125,13 @@ Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir 
 
 Texti sem færður er inn reitinn **Texti** birtist *undir* texta um skref í Verkefnaleiðbeiningum. Til að lesa textann fyrir athugasemdina þarf notandinn að víkka texta um skref í sprettiglugga. Þessi staðsetning er fyrir valfrjálst lesefni eða aðrar upplýsingar sem gætu verið gagnlegar fyrir notandann en sem notandinn þarf ekki nauðsynlega að lesa áður en hann eða hún lýkur við aðgerðina.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Hjálp á Retail Modern POS og Cloud POS
-Til að sýna þínar eigin sérsniðnu verkskráningar í rúðunni Hjálp fyrir Hjálp á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar eru í [Að tengja Hjálparkerfið.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Microsoft Dynamics AX og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp á Retail Modern POS og Cloud POS
+Til að sýna þínar eigin sérsniðnu verkskráningar í rúðunni Hjálp fyrir Hjálp á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [ tengja hjálparkerfisins ](/dynamics365/unified-operations/dev-itpro/get-started/help-connect). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Microsoft Dynamics 365 for Retail og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita. 
 
 [![Hnappurinn Hjálp](./media/help.jpg)](./media/help.jpg) 
 
-Þegar smellt er á Verkefnaleiðberiningar í leitarniðurstöðum er hægt að skoða þrepin sem hjálparefni eða flytja út þrepin í Word-skjal. Athugasemd: Hjálparkerfið í Modern POS og Cloud POS mun ekki skila þér verkefnaleiðbeiningum sem sjálfkrafa byggja á skjámyndinni þinni eða aðgerðunum, slá þarf inn verkferlisheiti í leitargluggann og smella á leitarhnappinn til að fá niðurstöðurnar.
+Þegar smellt er á Verkefnaleiðberiningar í leitarniðurstöðum er hægt að skoða þrepin sem hjálparefni eða flytja út þrepin í Word-skjal. 
+#### <a name="note"></a>Nóta
+> Hjálp í Retail POS Nútímaleg og sölukerfi í SKÝINU verður ekki reitsins verkefni leiðbeiningunum samkvæmt hvaða skjámynd sem er notað eða afskriftareglur er að gera aðgerðina. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.
 
 

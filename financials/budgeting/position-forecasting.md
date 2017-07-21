@@ -1,16 +1,16 @@
 ---
 title: "Stöðuspá"
-description: 
+description: "Útgjöld sem eru tengd starfsmönnum eru oft stórt hlutfall af kostnaði fyrirtækis. Stöðuspá leyfir þér að áætla þennan kostnað og hafa hann með í fjárhagsáætlunargerð."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Stöðuspá
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ Kostnaðareining tekna sem er valin í launaflokknum er notuð þegar tekjur eru
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Stofna spástöður fyrir fyrirliggjandi stöður
 
-Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Dynamics 365 for Operations, óháð því hvort staða hefur verið fyllt eða ekki. 
+Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Dynamics 365 for Finance and Operations, Enterprise Edition, óháð því hvort staða hefur verið fyllt eða ekki. 
 
 Aðgerðin **Bæta við stöðum sem til eru** birtir allar stöður fyrir fyrirtæki. Með því að stilla dagsetninguna **Frá og með** er hægt að breyta lista yfir stöður þannig að það innihaldi staði sem voru til á dagsetningu í fortíðinni eða, sem er algengara, í framtíðinni (til dæmis upphaf næsta ferlis fjárhagsáætlunar). Veljið ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar, veljið stöður í listanum og smellið síðan á **Í lagi** til að stofna spástöðu fyrir valdar stöður. Athugið að aðeins er hægt að stofna eina spástöðu fyrir hverja fyrirliggjandi stöðu í ferli og aðstæðumar fjárhagsáætlunargerðar. Hins vegar er hægt að stofna frekari útgáfur með því að úthluta mismunandi aðstæðum fjárhagsáætlunargerðar. 
 

@@ -1,9 +1,9 @@
 ---
 title: "Skuldir og innheimtur í viðskiptakröfum"
-description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 fyrir Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
+description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn í Microsoft Dynamics 365 for Finance and Operations, Enterprise. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 fyrir Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
+Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn í Finance and Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
 
 Áður en byrjað er að setja upp eða vinna með innheimtu þarf að skilja eftirfarandi hugtök:
 -   Aldursgreiningarmynd viðskiptavinar innihaldur upplýsingar um aldursgreind staða á ákveðnum tímapunkti.
@@ -59,9 +59,9 @@ Fyrir hvert aldurstímabil í skilgreiningu aldurstímabils, er ítarleg skýrsl
 Viðskiptavinahópar eru fyrirspurnir sem skilgreina flokk af viðskiptavinaskrám sem hægt er að birta og stjórna fyrir innheimtu eða aldursgreiningarferli. Nota viðskiptavinahópa til að sía upplýsingar á listasíðunum Aldursgreind staða, Innheimtuaðgerðir og Innheimtumál. Einnig er hægt að nota viðskiptavinahópa til að sía viðskiptavinalykla sem eru teknar með þegar aldursgreiningarmynd er stofnuð.
 
 ## <a name="collections-agents"></a>Innheimtufulltrúar
-Að sjálfgefnu geta Microsoft Dynamics 365 fyrir Operations notendur skoðað allar upplýsingar um viðskiptavini á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
+Að sjálfgefnu geta notendur Microsoft Dynamics 365 for Finance and Operations skoðað allar upplýsingar um viðskiptavini á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
 
-Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Microsoft Dynamics 365 fyrir Operations eru innheimtufulltrúar starfsmenn sem eru tengdir notendum á síðunni Uppsetning.
+Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Finance and Operations eru innheimtufulltrúar starfsmenn sem eru tengdir notendum á síðunni Notandauppsetning.
 
 ## <a name="collections-list-pages"></a>Listasíður innheimtu 
 Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu..
@@ -71,7 +71,7 @@ Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu
 
 > [!NOTE]
 > Stofna skal aldursgreiningarmynd áður en hægt er að skoða upplýsingar á þessum listasíðum. Upplýsingar birtast aðeins fyrir viðskiptavini sem stofnuð hefur verið aldursgreiningarmynd fyrir. Færslurnar sem eru birtar á listasíðunni geta verið síaðar að auki sem hér segir:
-<li>Að sjálfgefnu hefur Microsoft Dynamics 365 fyrir Operations notandi aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
+<li>Að sjálfgefnu hefur notandi Finance and Operations aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
 <li>Ef viðskiptavinahópar eru til staðar verður að setja notanda upp sem innheimtufulltrúa til að nota hópana til að sía upplýsingar í listasíður innheimtu. Upplýsingar takmarkast við viðskiptavini sem eru hafðir með í valda viðskiptavinahópnum.</li>
 <li>Ef notandi er settur upp sem innheimtufulltrúi eru aðeins þeir hópar sem eru valdar fyrir þann innheimtufulltrúa tiltækar á listasíðu. Ef breytan Leyfa fulltrúa að skoða allar viðskiptavinahópa er valin í Innheimtufulltrúa síðunni fyrir innheimtufulltrúann eru allir hópar tiltækir fyrir þann fulltrúa.</li>
 

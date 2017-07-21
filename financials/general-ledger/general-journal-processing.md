@@ -1,6 +1,6 @@
 ---
 title: "Vinnsla almennrar færslubókar"
-description: "Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 for Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, og það getur einnig hjálpað við að tryggja að rétt gögn séu tekin að innra eftirlit sé ekki í hættu."
+description: "Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfu sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 for Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, og það getur einnig hjálpað við að tryggja að rétt gögn séu tekin að innra eftirlit sé ekki í hættu.  
+Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfu sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
 
 Færslubókanöfn
 
@@ -53,7 +53,7 @@ Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir
 **Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
 [![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel**aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
+Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
 
 Á **Tímabilsbækur** síða, geturðu sett upp endurteknar færslubækur í til að gera sjálfvirkt færslubókarferli. 
 

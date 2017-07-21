@@ -1,27 +1,27 @@
 ---
 title: "Skoða fjárhagsskýrslur"
-description: "Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics AX. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa."
-author: RobinARH
+description: "Þessi grein útskýrir hvernig á að skoða og kanna fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics AX. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
+Þessi grein útskýrir hvernig á að skoða og kanna fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 
 <a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
 ----------------------------
@@ -64,7 +64,7 @@ Hægt er að uppfæra (uppfærslu) fjárhagsskýrslu þannig að það sýnir n�
 Þegar búið er að uppfæra fjárhagsskýrslu, er hægt að birta það. Önnur fólkið í fyrirtækinu getur skoða hana. Til að birta skýrslu, á Aðgerðasvæðinu skal smellt á **Birta**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Birta fjárhagsskýrslu í öðrum gjaldmiðli
-Hægt er að birta fjárhagsskýrslur í hvaða gjaldmiðli skýrsla á hvaða tíma sem er. Til að sýna skýrslu í öðrum gjaldmiðli, á Aðgerðasvæðinu skal smellt **Gjaldmiðli**, og veljið síðan gjaldmiðil. Skýrslan er þýdd yfir í þeim gjaldmiðli og niðurstöðurnar eru birtar. Allar gjaldmiðilskóða eða tákn sem eru hafðar með sem hluti af skýrsluhönnun eru uppfærðar til að endurspegla nýja gjaldmiðli. Þeim gjaldmiðlum sem birtast á listanum eru skýrslugerðargjaldmiðla sem er skilgreindur í Microsoft Dynamics AX.
+Hægt er að birta fjárhagsskýrslur í hvaða gjaldmiðli skýrsla á hvaða tíma sem er. Til að sýna skýrslu í öðrum gjaldmiðli, á Aðgerðasvæðinu skal smellt **Gjaldmiðli**, og veljið síðan gjaldmiðil. Skýrslan er þýdd yfir í þeim gjaldmiðli og niðurstöðurnar eru birtar. Allar gjaldmiðilskóða eða tákn sem eru hafðar með sem hluti af skýrsluhönnun eru uppfærðar til að endurspegla nýja gjaldmiðli. Þeim gjaldmiðlum sem birtast á listanum eru skýrslugerðargjaldmiðlar sem eru skilgreindir í Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Birta samantekin yfirlit yfir fjárhagsskýrslu
 Fjárhagsskýrsla getur innihaldið upplýsingalínur og samantektarlínur. Upplýsingalínur eru línur sem innihalda aðallykla eða víddir. Samantektarlínur eru lýsingar-, samtölu- og útreikningalínur Til að birta einungis samantektarlínur skýrslu er smellt á **Sýna**, og smellið síðan á **Samantektarlínur aðeins**. Skýrslan er dregin saman og birtir aðeins samantektarlínur. Til að skoða upplýsingalínur ásamt samantektarlínur, smellið á **Sýna**, og smellið síðan á **Samantektarlínur aðeins** aftur.
@@ -88,7 +88,8 @@ Til að flytja út fjárhagsskýrslu, á Aðgerðasvæðinu skal smellt á **Bir
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Fjárhagsskýrslur fyrir Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Fjárhagsskýrslur fyrir Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

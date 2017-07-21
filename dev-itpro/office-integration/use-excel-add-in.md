@@ -1,9 +1,9 @@
 ---
 title: "Nota Excel innbót"
-description: "Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Til að opna einingagögn er hægt að hefja úr Excel eða Microsoft Dynamics 365 for operations."
+description: "Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Til að opna einingagögn er hægt að hefja úr Excel eða Microsoft Dynamics 365 for operations.
+Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Til að opna einingagögn er hægt að hefja úr Excel eða Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Í þessu efnisatriði er útskýrt hvernig opna á einingagögn í Microsoft Excel og skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Þessi innbót krefst Microsoft Excel 2016. **Athugasemd:** Ef notanda Microsoft Azure Active Directory (Azure AD) leigjanda er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 hafið verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Opna einingagögn í Excel þegar byrjað er í Dynamics 365 for Operations
-1.  Á síðu í Microsoft Dynamics 365 for Operations, smellið á **Opna í Microsoft Office**. Ef rótargagnagjafi (tafla) fyrir listasíðu er sá sami og rótargagnagjafi fyrir allar einingar eru sjálfgefnir valkostir **Opna í Excel** myndaðir fyrir síðuna. Valkostina **Opna í Excel** má finna á algengum síðum, eins og **Allir lánardrottnar** og **Allir viðskiptavinir**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Opna einingagögn í Excel þegar byrjað er í Dynamics 365 for Finance and Operations
+1.  Á síðu í Microsoft Dynamics 365 for Finance and Operations, smellið á **Opna í Microsoft Office**. Ef rótargagnagjafi (tafla) fyrir listasíðu er sá sami og rótargagnagjafi fyrir allar einingar eru sjálfgefnir valkostir **Opna í Excel** myndaðir fyrir síðuna. Valkostina **Opna í Excel** má finna á algengum síðum, eins og **Allir lánardrottnar** og **Allir viðskiptavinir**.
 2.  Smellið á valkostinn **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
 3.  Í Excel, smellið á **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4.  Ef verið er að keyra í Excel-innbót í fyrsta sinn, er smellt á **Treysta þessari innbót**.
-5.  Ef beðið er um að skrá sig inn skal smella á **Innskráningu**, og síðan skrá sig inn með því að nota sömu skilríki og er notuð til að skrá sig inn í Dynamics 365 for Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
+5.  Ef beðið er um að skrá sig inn skal smella á **Innskráningu**, og síðan skrá sig inn með því að nota sömu skilríki og er notuð til að skrá sig inn í Dynamics 365 Finance and for Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 
@@ -48,7 +48,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 2.  Office-Verslun er leitað með í leitað með lykilorð "Dynamics", og smellið á **Bæta við** við hliðina á **Microsoft Dynamics Officel-innbót** (í Excel-innbót).
 3.  Ef verið er að keyra í Excel-innbót í fyrsta sinn, er smellt á **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4.  Smellið á **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
-5.  Afrita skal vafraslóð úr markmiði tilviki Dynamics 365 for Operations, líma hana inn í svæðið **Vefþjónsslóð** og eyða síðan öllu eftir heiti hýsilsins. Meðfylgjandi Vefslóð ætti að hafa bara hýsilheiti.
+5.  Afrita skal vafraslóð úr markmiði tilviki Dynamics 365 for Finance and Operations, líma hana inn í svæðið **Vefþjónsslóð** og eyða síðan öllu eftir heiti hýsilsins. Meðfylgjandi Vefslóð ætti að hafa bara hýsilheiti.
 Ef slóðin er t.d. https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, skal eyða öllu nema **https://xxx.dynamics.com**.
 6.  Smellt er á **Í lagi** og **Já** til að staðfesta breytinguna. Excel-innbót endurræsist og hleður lýsigögnum. Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum „Úrræðaleit" í þessu efnisatriði.
 7.  Smellið á **Hönnun**. Excel-innbót sækir lýsigögn einingar.

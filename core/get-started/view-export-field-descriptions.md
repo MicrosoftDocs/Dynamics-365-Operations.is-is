@@ -3,26 +3,26 @@ title: "Skoða og flytja út svæðalýsingar"
 description: "Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar.
 
-Lýsingum eru veittar fyrir sum flóknari reiti í Microsoft Dynamics 365 for Operations. Lýsingar á þessum birtist þegar þú músabendil yfir svæði. Í **Lýsingar svæðis** síðunni geturðu skoðað og flutt út lýsingar. 
+Microsoft Dynamics 365 for Finance and Operations er með lýsingar á sumum af flóknarði reitunum. Lýsingar á þessum birtist þegar þú músabendil yfir svæði. Í **Lýsingar svæðis** síðunni geturðu skoðað og flutt út lýsingar. 
 
 Ekki eru allar síður með lýsingum. Við viljum aðeins veita lýsingu fyrir flóknari svæði og ekki þau þar sem notkun svæðisins er augljós. Þess vegna sumar síður hafa engar lýsingum sumar síður hafa nokkrar lýsingar og sumar flóknari síðum, eins og margar síður færibreytur hafa margar lýsingar. 
 
-Ef þú hefur aðgang að þróunarumhverfinu í Microsoft Dynamics 365 for Operations geturðu bæta við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Ef þú hefur aðgang að þróunarumhverfinu í Microsoft Dynamics 365 Finance and Operations geturðu bætt við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Sjá svæðislýsingar í notendaviðmótinu
-Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engin lýsing tiltæk, er hægt að sjá heiti svæðis þegar þú setur músabendil yfir svæðið. (Athugasemd: Í útgáfu 7.0.0 svæðislýsingar er að skoða aðeins á **Svæðið lýsingar** síðu.) Eftirfarandi skýringarmynd sýnir lýsingu sem birtist þegar þú setur músabendil yfir **Læsa vörum á meðan á talningu stendur** svæði. 
+Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engin lýsing tiltæk, er hægt að sjá heiti svæðis þegar þú setur músabendil yfir svæðið. (Athugasemd: Í Dynamics AX 7.0 (Febrúar 2016) er aðeins hægt að skoða svæðislýsingar á **Svæðið lýsingar** síðu.) Eftirfarandi skýringarmynd sýnir lýsingu sem birtist þegar þú setur músabendil yfir **Læsa vörum á meðan á talningu stendur** svæði. 
 
 [![Dæmi um svæðislýsingu](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Lei
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Sérsníða reit hjálp](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Sérsníða reit hjálp](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

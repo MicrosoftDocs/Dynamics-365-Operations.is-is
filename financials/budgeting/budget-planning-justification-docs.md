@@ -3,25 +3,25 @@ title: "Rökstuðningsskjöl fjárhagsáætlunargerðar"
 description: "Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að útskýra hvers vegna tilgreind fjárhagsáætlun er nauðsynleg."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
 ms.author: ryansand
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -46,7 +46,7 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 1.  Smellið á **Hönnun** í Microsoft Dynamics Office-innbót eftir að þú hefur skráð þig inn.
 2.  Fyrir upplýsingar úr haus Smellið á hnappinn **Bæta við reitum**.
-3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Aðra lögaðilar má nota en upphleðslan til baka í Microsoft Dynamics 365 for Operations tekst ekki ef þessi eining er ekki höfð með.
+3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Hægt er að nota aðrar einingar en upphleðsla aftur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition gengur ekki ef þessi eining er ekki notuð.
 4.  Bæta við merkjunum og gildunum BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, og DocumentNumber og í Word-skjalið. **athugasemd:** Hægt er að nota sín eigin sérsniðnu merki, frekar en stöðluð merki, ef þess er þörf.
 5.  Smelltu á **Lokið** til að ljúka haushlutanum.
 6.  Fyrir upplýsingar línustigs um upphæðir fjárhagsáætlunar Smelltu á **Bæta við tafla**.
@@ -57,7 +57,7 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Setja upp Ferli fjárhagsáætlunargerðar sem nota á jöfnunarsniðmát
 
-1.  Í Microsoft Dynamics 365 for Operations er farið í **Fjárhagsáætlun** &gt; **Setja upp** &gt; **Fjárhagsáætlunargerð** &gt; **Sniðmát jöfnunarskjala**.
+1.  Í Finance and Operations er farið í **Fjárhagsáætlun** &gt; **Uppsetning** &gt; **Fjárhagsáætlunargerð** &gt; **Sniðmát jöfnunarskjala**.
 2.  Smellt er á **Nýtt** og flett að nýstofnuðu skjali í Microsoft Word.
 3.  Færa skal inn sniðmátsheiti til birtingar og lýsingu. Smellt er á **OK**.
 4.  Farðu í **Fjárhagsáætlun** &gt; **Setja upp** &gt; **Fjárhagsáætlunar** **gerð** &gt; **Ferli fjárhagsáætlunargerðar**.
@@ -66,7 +66,7 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Breyta og vista sérsniðnum rökstuðningsskjölum
 
-1.  Í Dynamics 365 for Operations, stofnarðu nýja fjárhagsáætlun eða opnar fyrirliggjandi fjárhagsáætlun.
+1.  Í Finance and Operations er stofnuð ný fjárhagsáætlun eða fyrirliggjandi fjárhagsáætlun opnuð.
 2.  Í fellilistavalmynd **Jöfnun** Velja **Stofna nýjan rökstuðning**.
 3.  Eftir útfyllingu upplýsinga, velja að hlaða upp sérsniðnu fylgiskjali æyr fellilistavalmyndinni **Rökstuðningur**.
 

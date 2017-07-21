@@ -3,26 +3,26 @@ title: "Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeining
 description: "Þessi skrá lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinnu verður framkvæmd í vöruhúsinu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Þessi skrá lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinnu verður framkvæmd í vöruhúsinu.
 
-Leiðbeiningar sem starfsmenn vöruhúss fá í farsíma ákvarðast af sniðmát vinnu sem er sett upp í Microsoft Dynamics 365 for Operations til að skilgreina hin ýmsu vöruhúsaferli og verkefni. Vinnusniðmát ákvarða vinnuna fyrir hvert vöruhúsaferli. Með því að tengja staðsetningarleiðbeiningar við vinnusniðmát getur hjálpað að tryggja að vinna á sér stað á ákveðnum efnislegum svæðum vöruhúss.
+Leiðbeiningar sem starfsmenn vöruhúss fá í farsíma ákvarðast af vinnusniðmátum sem eru sett upp í Microsoft Dynamics 365 for Finance and Operations til að skilgreina hin ýmsu vöruhúsaferli og verkefni. Vinnusniðmát ákvarða vinnuna fyrir hvert vöruhúsaferli. Með því að tengja staðsetningarleiðbeiningar við vinnusniðmát getur hjálpað að tryggja að vinna á sér stað á ákveðnum efnislegum svæðum vöruhúss.
 
 ## <a name="work-templates"></a>Vinnusniðmát
 **Vinnusniðmát** síðu gerir það mögulegt að skilgreina vinnsluaðgerðir sem þarf að framkvæma í vöruhúsinu. Yfirleitt samanstanda vinnsluaðgerðir vöruhúss af aðgerðarpari: starfsmanns í vöruhúsi tekur til lagerbirgðir á einni staðsetningu og setur síðan tíndu birgðirnar niður á annarri staðsetningu. 
@@ -57,7 +57,7 @@ Eins og fyrir Vinnusniðmát, er hægt er að setja upp fyrirspurn til að ákva
 
 Línur staðsetningarleiðbeiningar setja frekari takmarkanir á notkun staðsetningaleitarreglna. Hægt er að tilgreina lágmarksmagn og hámarksmagnið sem á við leiðbeiningarnar eiga að gilda um, og hægt er að tilgreina að leiðbeiningarnar eigi að vera fyrir tiltekna birgðaeiningu. Til dæmis, ef mælieiningin er bretti þá er hægt að setja vörur í brettum á tilteknum stað. Einnig er hægt að tilgreina hvort magnið sé hægt að skipta á mörgum staðsetningar. Líkt og staðsetningarleiðbeiningar haus, hver lína staðsetningarleiðbeiningar hefur raðnúmer sem ákvarðar röð sem línurnar eru metnar í. 
 
-Staðsetningarleiðbeiningar hafa eina viðbótar upplýsingastig: *aðgerðir í staðsetningarleiðbeiningum*. Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir hverja línu. Einu sinni enn, númeraröð er notuð til að ákvarða röðun sem aðgerðir eru metnar í. Á þessu stigi er hægt að setja upp fyrirspurn til að skilgreina hvernig á að finna bestu staðsetningu í vöruhúsinu. Einnig er hægt að nota forskilgreint **Stjórnunarstefnu**stillingar til að finna bestu staðsetningu.
+Staðsetningarleiðbeiningar hafa eina viðbótar upplýsingastig: *aðgerðir í staðsetningarleiðbeiningum*. Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir hverja línu. Einu sinni enn, númeraröð er notuð til að ákvarða röðun sem aðgerðir eru metnar í. Á þessu stigi er hægt að setja upp fyrirspurn til að skilgreina hvernig á að finna bestu staðsetningu í vöruhúsinu. Einnig er hægt að nota forskilgreint **Stjórnunarstefnu** stillingar til að finna bestu staðsetningu.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Dæmi um notkun staðsetningarleiðbeiningar
 

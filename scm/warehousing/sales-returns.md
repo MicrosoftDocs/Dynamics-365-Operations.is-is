@@ -3,25 +3,25 @@ title: "Vöruskil sölu"
 description: "Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 
-Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti vara verið gölluð eða hún er ekki að uppfylla væntingar viðskiptavinar. Skilaferlið hefst þegar viðskiptavinur gefur út beiðni um skil á vöru. Eftir að beiðni viðskiptavinar er móttekin er skilapöntun stofnuð í Microsoft Dynamics 365 for Operations.
+Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti vara verið gölluð eða hún er ekki að uppfylla væntingar viðskiptavinar. Skilaferlið hefst þegar viðskiptavinur gefur út beiðni um skil á vöru. Eftir að beiðni viðskiptavinar er móttekin er skilapöntun stofnuð í Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Skilapantanavinnsla
 Eftirfarandi mynd býður upp á yfirlit yfir skilapöntunina.  
@@ -264,7 +264,7 @@ Aðstæðurnar fela í sér tvö fyrirtæki í sama fyrirtækis, eins og sýnt e
 
 [![Einfaldar skilapantanir innan samstæðu](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnuð í kaupandi fyrirtæki eða skilapöntun viðskiptavinar er stofnuð í fyrirtæki seljanda. Dynamics 365 for Operations stofnar samsvarandi pöntun í hinu fyrirtækinu og tryggir að haus og upplýsingar um lánardrottinn skilapöntunar endurspegla stillingar á skilapöntun viðskiptavinar. Skilapöntun sem hefur verið komið getur annaðhvort tekið með eða útilokað tilvísun (**Finna sölupöntun**) í fyrirliggjandi reikningi viðskiptavinar. Fylgiseðlar og reikningar pantanna tveggja má vinna aðskilið. Til dæmis, þarf ekki að búa til fylgiseðil fyrir skilapöntun lánardrottins áður en fylgiseðill er myndaður fyrir skilapöntun viðskiptavinar.
+Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnuð í kaupandi fyrirtæki eða skilapöntun viðskiptavinar er stofnuð í fyrirtæki seljanda. Finance and Operations stofnar samsvarandi pöntun í hinu fyrirtækinu og tryggir að haus og upplýsingar um lánardrottinn skilapöntunar endurspegla stillingar á skilapöntun viðskiptavinar. Skilapöntun sem hefur verið komið getur annaðhvort tekið með eða útilokað tilvísun (**Finna sölupöntun**) í fyrirliggjandi reikningi viðskiptavinar. Fylgiseðlar og reikningar pantanna tveggja má vinna aðskilið. Til dæmis, þarf ekki að búa til fylgiseðil fyrir skilapöntun lánardrottins áður en fylgiseðill er myndaður fyrir skilapöntun viðskiptavinar.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Bein afhendingu á sendingu skilar milli þriggja aðila
 

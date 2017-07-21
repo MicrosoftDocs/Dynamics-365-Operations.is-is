@@ -1,28 +1,28 @@
 ---
 title: "Samstarf lánardrottna við viðskiptavini"
-description: "Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna Dynamics 365 for Operations til að vinna með IP og fylgjast með vörusendingabirgðum."
+description: "Þessi efni lýsir því hvernig hægt er að nota samstarf lánardrottna í Finance and Operations til að vinna með IP og fylgjast með vörusendingabirgðum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna Dynamics 365 for Operations til að vinna með IP og fylgjast með vörusendingabirgðum.
+Þessi efni lýsir því hvernig hægt er að nota samstarf lánardrottna í Finance and Operations til að vinna með IP og fylgjast með vörusendingabirgðum.
 
-Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 for Operations. Það felur í sér upplýsingar um hvernig á að fylgjast með og svara innkaupapantanir og hvernig á að fylgjast með vörusendingabirgðir. Einnig er hægt að nota samstarf lánardrottna til að vinna með reikninga. Nánari upplýsingar er að finna í [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Þessi efni lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Finance and Operations. Það felur í sér upplýsingar um hvernig á að fylgjast með og svara innkaupapantanir og hvernig á að fylgjast með vörusendingabirgðir. Einnig er hægt að nota samstarf lánardrottna til að vinna með reikninga. Nánari upplýsingar er að finna í [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Unnið með Innkaupapantanir
 Í **staðfesting á Innkaupapöntun** vinnusvæði gerir mögulegt að bregðast við Innkaupapöntunina sem hafa verið send til þín til skoðunar. Það gerir einnig kleift að skoða upplýsingar um IP sem bíða eftir aðgerð frá viðskiptavininum og IP sem hafa verið staðfest en eru enn opnar. Það eru þrjár listum í **staðfesting á Innkaupapöntun** vinnusvæðis:

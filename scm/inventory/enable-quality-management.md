@@ -1,16 +1,16 @@
 ---
 title: "Yfirlit yfir gæðastjórnun"
-description: "Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Operations til að bæta gæði afurða innan aðfangakeðju þinnar."
+description: "Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
+Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
 
-Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Þar sem greiningargerðir eru tengdar leiðréttingaskýrslum getur Microsoft Dynamics 365 for Operations raðað verk til að leiðrétta vandamál og komið í veg fyrir þau verði endurtekin.
+Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Þar sem greiningargerðir eru tengdar leiðréttingaskýrslum getur Microsoft Dynamics 365 for Finance and Operations raðað verk til að leiðrétta vandamál og komið í veg fyrir þau verði endurtekin.
 
 Auk virkni fyrir stjórnun ósamkvæmni inniheldur gæðastjórnun virkni til að rekja úthreyfingar eftir gerð vanda (jafnvel innri vandamál) og til að auðkenna lausnir sem skammtíma- eða langtímalausnir. Upplýsingar um afkastavísi (KPI) veita innsýn í sögulegan feril fyrri vandamála með ósamkvæmi og þeirra lausna sem voru notuð til að leiðrétta þau. Hægt er að nota söguleg gögn til að fara yfir skilvirkni fyrri gæðaráðstafana og ákvarða viðeigandi mælieiningar sem nota á í framtíðinni.
 
-Þegar gæðatenging er sett upp getur Microsoft Dynamics 365 for Operations myndað gæðapantanir fyrir ýmis viðskiptaferli, tilvik og skilyrði. Gæðatengingin getur náð yfir ákveðna vöru, einstökan vöruflokk eða allar vörur.
+Þegar gæðatenging er sett upp getur Finance and Operations myndað gæðapantanir fyrir ýmis viðskiptaferli, tilvik og skilyrði. Gæðatengingin getur náð yfir ákveðna vöru, einstökan vöruflokk eða allar vörur.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Dæmi um notkun á gæðastjórnun
 Gæðastjórnun er sveigjanleg og hægt er að innleiða hana á mismunandi vegu til að uppfylla kröfur um tiltekið stig í aðgerðum framboðskeðju. Eftirfarandi dæmi sýna hugsanlega notkun á þessum eiginleikum:

@@ -3,27 +3,27 @@ title: "Bygging afbrigðalíkans afurðar"
 description: "Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -72,7 +72,7 @@ Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar.
 
 Notandaskilgreind töfluskorða er byggð á notanda. Notandi velur samsetningu eigindagerðir dálka í töflunni stendur og færir gildi úr lénum valinna eigindagerða til að mynda línur í töfluskorðunni.  
 
-Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða Microsoft Dynamics 365 for Operations töflu á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Dynamics 365 for Operations töflu sem eru til staðar við skilgreiningu.  
+Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða töflu í Microsoft Dynamics 365 for Finance and Operations á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
 
 Töfluskorða er innifalin í afbrigðalíkani afurðar með því að vísa í skilgreiningu töfluskorðu og vörpun viðeigandi eiginda í líkanið í dálkum í töfluskorðunni.
 

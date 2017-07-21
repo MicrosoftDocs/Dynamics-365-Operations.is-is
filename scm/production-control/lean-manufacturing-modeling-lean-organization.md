@@ -3,27 +3,27 @@ title: "Gerð líkans af lean-fyrirtæki"
 description: "Þessi grein veitir upplýsingar um lykilhugtök í mótun lean-framleiðslu."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -41,7 +41,7 @@ Við framleiðslukringumstæður á grundvelli framleiðslupantana er efni gefi�
 
 Til að minnka biðtíma afhendingar og umfram birgðir milli vinnustöðva vegna runu framleiðslu, kynnir lean-framleiðsla kanban áfyllingu og geymslusvæði í framleiðslu- og áfyllingu. Þessi eiginleiki truflar yfirleitt framleiðslu hluta óháð kanban-ferli. Áfylling kanban fyrir hálfkláraða afurð er ekki lengur ræst af pöntun fyrir fullunna vöru. 
 
-Til að koma aftur framleiðslu- og kostnaðargildi samhengi fyrir mismunandi aðstæður kanban lögð til í Microsoft Dynamics AX, er framleiðsluflæði byggt á verkþáttum hafa verið kynnt sem grundvöllur lean framleiðslu. Allar kanban-reglur vísa í þetta fyrirfram skilgreinda skipulag. Líkan byggt á verkþætti heimilar uppsetningu á breiðara sviði aðstæðna en eru studdar af fyrri útgáfur af Lean-framleiðslu fyrir Microsoft Dynamics AX. Hinsvegar, þetta líkan flækir ekki málin fyrir starfsmenn í vinnusal og allar áætlanir nota sama notendaviðmót byggt á verkþáttum.
+Til að koma aftur á framleiðslu- og kostnaðargildissamhengi fyrir mismunandi kanban-aðstæður sem lagðar eru til í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu, hafa framleiðsluflæði byggð á verkþáttum verið kynnt sem grundvöllur lean-framleiðslu. Allar kanban-reglur vísa í þetta fyrirfram skilgreinda skipulag. Líkan byggt á verkþætti heimilar uppsetningu á breiðara sviði aðstæðna en eru studdar af fyrri útgáfur af Lean-framleiðslu fyrir Microsoft Dynamics AX. Hinsvegar, þetta líkan flækir ekki málin fyrir starfsmenn í vinnusal og allar áætlanir nota sama notendaviðmót byggt á verkþáttum.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Hálfkláraðar afurðir (ekki-uppskriftarstig)
 Lean framleiðsla fyrir Dynamics AX samþættir kanban fyrir afurðir sem búið er að skrá og hálfkláraðar afurðir í einum ramma, og býður því notandanum samræmda reynslu fyrir öll tilvik. Vegna þessarar uppbyggingar þarf ekki lengur að kynna til leiks uppskriftarstig til að virkja kanbön sem nota á fyrir hálfkláraðar afurðir. Þessi uppbygging hjálpar einnig við minnka birgðafærslur að lágmarki.

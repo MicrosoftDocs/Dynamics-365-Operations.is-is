@@ -3,14 +3,14 @@ title: "Yfirlit yfir „Innkaupabeiðni“"
 description: "Þessi grein lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Eftir að innkaupabeiðni hefur verið samþykkt er hægt að nota hana til að 
 ## <a name="creating-purchase-requisitions"></a>Stofna innkaupabeiðnir
 Hægt er að stofna innkaupabeiðni á síðunni **Mínar innkaupabeiðnir** og velja vörur og þjónustu sem þarf. Hægt er að velja atriði úr innkaupavörulista sem fyrirtækið hefur búið til, eða þú getur beðið um atriði sem ekki finnast í vörulista með því að velja innkaupategund og slá inn upplýsingar um vöruna.  
 
-Áður en hægt er að senda innkaupabeiðni í endurskoðun verður að stilla verkflæði í Microsoft Dynamics 365 for Operations. Verkflæði er notað til að flytja innkaupabeiðni gegnum endurskoðunarferli, úr á fyrstu stöðu **Drög** í endanlegu stöðuna **Samþykkt**.
+Áður en hægt er að senda innkaupabeiðni í endurskoðun verður að stilla verkflæði í Microsoft Dynamics 365 for Finance and Operations. Verkflæði er notað til að flytja innkaupabeiðni gegnum endurskoðunarferli, úr á fyrstu stöðu **Drög** í endanlegu stöðuna **Samþykkt**.
 
 ### <a name="purchase-requisition-statuses"></a>Stöður innkaupabeiðna
 
@@ -143,7 +143,7 @@ Tilgangur beiðni gera ferli uppfyllingar á innkaupabeiðni sveigjanlegri. Þeg
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Beiðnir sem hafa notkunartilgang
 
-Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Microsoft Dynamics 365 for Operations er sjálfvirkt sett upp til að stofna innkaupapantanir, eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
+Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Microsoft Dynamics 365 for Finance and Operations er sett upp til að stofna innkaupapantanir sjákfkrafa eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Beiðnir sem hafa málefnið áfyllingu
 

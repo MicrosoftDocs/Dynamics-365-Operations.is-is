@@ -1,6 +1,6 @@
 ---
 title: "Kostnaðarstýring fartækja vinnusvæði"
-description: "Þetta efnisatriði veitir upplýsingar um útgjaldastýringu fartækjavinnusvæði, sem er tiltæk fyrir Microsoft Dynamics 365 fyrir Operations farsímaforrit. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Farsímaforrit vinnusvæði einnig gerir notendum kleift að stofna færslulína með viðhengdri kvittun."
+description: "Þetta efnisatriði veitir upplýsingar um útgjaldastýringu fartækjavinnusvæði, sem er tiltæk fyrir Microsoft Dynamics 365 for Finance and Operations farsímaforrit. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Farsímaforrit vinnusvæði einnig gerir notendum kleift að stofna færslulína með viðhengdri kvittun."
 author: annbe
 manager: AnnBe
 ms.date: 04/10/2017
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e52d1c5dde7f79c4a8ac5ac2d9c3b25bba9c2cd
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði veitir upplýsingar um útgjaldastýringu fartækjavinnusvæði, sem er tiltæk fyrir Microsoft Dynamics 365 fyrir Operations farsímaforrit. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Farsímaforrit vinnusvæði einnig gerir notendum kleift að stofna færslulína með viðhengdri kvittun.
+Þetta efnisatriði veitir upplýsingar um útgjaldastýringu fartækjavinnusvæði, sem er tiltæk fyrir Microsoft Dynamics 365 for Finance and Operations farsímaforrit. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Farsímaforrit vinnusvæði einnig gerir notendum kleift að stofna færslulína með viðhengdri kvittun.
 
 <a name="overview-of-the-expense-management-mobile-workspace"></a>Yfirlit yfir útgjaldastjórnun í fartækjasvæði
 ---------------------------------------------------
 
 Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í ferðalög eða viðskipti sem tengjast kostnaðarskýrsluna sem starfsmaður sendi til að fá endurgreiðslu. **Útgjaldastjórnun** fartækjasvæðið gerir notendum kleift að stofna nýja færslulínur í fartæki að hans vali með því að nota í viðhengi mynd af kvittun. Einnig geta notendur safna myndum af kvittun og síðan tengið hana kostnaðarskýrslu síðar. Nánar til tekið, **útgjaldastjórnun** fartækjavinnusvæði gerir notanda kleift að:
 
--   Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 fyrir Operations. Notandi getur svo tengja myndina við kostnaðarskýrslu seinna.
+-   Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 for Finance and Operations. Notandi getur svo tengja myndina við kostnaðarskýrslu seinna.
 -   Senda inn skrá sem fönguð kvittun. Notandi getur svo viðhengt sem mynd í kostnaðarskýrslu seinna.
 -   Stofna nýja línu í kostnaðarskýrslu með því að nota viðhengda kvittun. Notandi getur svo bætt línuatriði við kostnaðarskýrslu síðar og sent hana til samþykktar og endurgreiðslu.
 
@@ -64,7 +64,7 @@ Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í f
 <tr class="odd">
 <td>Verður að innleiða Microsoft Dynamics 365 útgáfu 1611 með svæðisuppfærslu 3 eða síðar.</td>
 <td>Kerfisstjóri</td>
-<td>Ef Dynamics 365 fyrir Operations er ekki enn starfrækt í fyrirtækinu, skal kerfisstjórinn <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">setja upp Microsoft Dynamics 365 fyrir Operations í prófunarumhverfi</a>.</td>
+<td>Ef Finance and Operations er ekki enn komið í notkun í fyrirtækinu, þarf kerfisstjórinn að skoða <a href="/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment">setja upp Microsoft Dynamics 365 for Finance and Operations í prófunarumhverfi</a>.</td>
 </tr>
 <tr class="even">
 <td>KB 4019015 verður að vera innleitt.</td>
@@ -72,16 +72,16 @@ Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í f
 <td>KB 4019015 (X++ uppfærsla eða lýsigögn bráðabót) inniheldur fjögur fartækja vinnusvæði fyrir birgðakeðjustjórnun. Áður en KB 4019015 er sett upp, verður kerfisstjóri að fylgja eftirfarandi skrefum:
 <ol>
 <li>Sækja KB 4019015 af Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>ApplicationSuite</strong> og <strong>ExpenseMobile</strong> virðislíkön og hlaða svo upp virkjanlegum pakka í LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Microsoft Dynamics 365 fyrir Operations kerfið.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>ApplicationSuite</strong> og <strong>ExpenseMobile</strong> virðislíkön og hlaða svo upp virkjanlegum pakka í LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Setja virkjanlega pakkann</a> í þitt Finance and Operations-kerfi.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><strong>Útgjaldastýring</strong> fartækjavinnusvæðið verður að vera sett upp í Dynamics 365 fyrir Operations farsímaforritinu.</td>
+<td><strong>Útgjaldastýring</strong> fartækjavinnusvæðið verður að vera sett upp í Finance and Operations farsímaforritinu.</td>
 <td>Kerfisstjóri</td>
 <td><ol>
-<li>Opnaðu Dynamics 365 fyrir Operations í vafranum þínum.</li>
+<li>Hefja Finance and Operations í vafranum þínum.</li>
 <li>Á <strong>kerfisfæribreytum</strong> síðunni, veljið <strong>Stjórna fartækja vinnusvæði</strong>.</li>
 <li>Veljið Vinnusvæðið <strong>Útgjaldastýring</strong>.</li>
 <li>Klikkaðu á <strong>Birta fartækjavinnusvæði</strong>.</li>
@@ -90,17 +90,17 @@ Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í f
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Sæktu og settu upp Dynamics 365 fyrir Operations farsímaforrit
-Sæktu forritið Microsoft Dynamics 365 fyrir Operations úr forritaverslun farsímans og settu það upp.
+## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Sæktu og settu upp fyrir Finance and Operations farsímaforritið
+Sæktu forritið Finance and Operations úr forritaverslun farsímans og settu það upp.
 
--   Fyrir Android: [Dynamics 365 fyrir Operations í Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Fyrir iPhone: [Dynamics 365 fyrir Operations í iTunes forrita versluninni](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   Fyrir Android: [Finance and Operations í Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   Fyrir iPhone: [Finance and Operations í iTunes-forritaversluninni](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Skráðu þig inn í Dynamics 365 fyrir Operations farsímaforritið
+## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Innskráning í farsímaforritið Finance and Operations
 1.  Ræstu forritið í fartækinu þínu.
-2.  Skrifaðu þitt Dynamics 365 fyrir Operations vefslóð.
+2.  Skráðu slóð þína í Finance and Operations
 3.  Skráðu fyrirtækið sem á að skrá sig inn á . Til dæmis: Færið inn **USMF**.
-4.  Fyrsta skipti sem þú skráir þig inn verðurðu beðin(n) um notandanafn og aðgangsorð fyrir þinn Microsoft Dynamics 365 fyrir Operations reikning. Færðu inn skilríki
+4.  Fyrsta skipti sem þú skráir þig inn verðurðu beðin(n) um notandanafn og aðgangsorð fyrir reikning þinn í Finance and Operations. Færðu inn skilríki
 5.  Eftir að þú skrá inn, sérðu tiltækt vinnusvæði fyrir Þitt fyrirtæki. Athugið að ef kerfisstjóra gefur út nýtt vinnusvæði síðar, er hægt að endurræsa listann yfir fartækja vinnusvæði. 
 
 [![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
@@ -122,11 +122,11 @@ Sæktu forritið Microsoft Dynamics 365 fyrir Operations úr forritaverslun fars
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Snögg færsla útgjalda með því að nota Útgjaldastýring á fartækja vinnusvæði
 1.  Í farsímanum velurðu **Útgjaldastjórnunar** vinnusvæðið.
 2.  Veljið **Útgjöld snögg færsla**.
-3.  Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta af forritara. Forritarar ættu að skoða [Farsímaforrit fyrir Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Ef þinn flokkur er ekki á listanum skal velja **Leita áfram** til að framkvæma leit á netinu í Dynamics 365 fyrir Operations. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
+3.  Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta af forritara. Forritarar nálgist nánari upplýsingar í [Finance and Operations á fartækjasvæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ef þinn flokkur er ekki á listanum skal velja **Leita áfram** til að framkvæma leit á netinu í Finance and Operations. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
 4.  Færa inn dagsetningu færslu útgjaldanna.
 5.  Valfrjálst: Færið inn söluaðila kostnaðar.
 6.  Færið inn útgjaldaupphæð.
-7.  Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 400 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta af forritara. Forritarar nálgist nánari upplýsingar í [Dynamics 365 fyrir Operations á fartækja svæði](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform). Ef gjaldmðill er ekki á listanum skal velja **Leita áfram** til að framkvæma leit á netinu í Dynamics 365 fyrir Operations. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
+7.  Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 400 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta af forritara. Forritarar nálgist nánari upplýsingar í [Finance and Operations á fartækjasvæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Ef gjaldmiðill þinn er ekki á listanum skal velja **Leita áfram** til að framkvæma leit á netinu í Finance and Operations. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
 8.  Veljið **Taka mynd** eða **Velja mynd**.
 9.  Ef þú valdir **Taka mynd**, ertu færður yfir á myndavél fartækisins, svo þú getir myndað kvittunina. Þegar búið er að taka mynd, klikkaðu á **í lagi** til að samþykkja myndina.  Eða Ef þú valdir **Velja mynd**, velurðu mynd af listanum.
 10. Velja **Ekkert**.

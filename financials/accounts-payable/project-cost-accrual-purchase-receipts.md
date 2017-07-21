@@ -1,27 +1,27 @@
 ---
 title: "Uppsöfnun á kostnaði verks á innkaupapöntunum"
-description: "Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Operations."
+description: "Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Operations. 
+Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað úr innkaupapöntunum í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 Reikningar fyrir verk berast oft síðar en vörur og þjónusta eru afhent, sem kann að hafa töluverð áhrif á afkastavísa verkefna (Afkastavísa). Mikilvægt er að það sé hægt að rekja þessar færslur í bæði fjárhags- og verkefnaskýrslum.
 
@@ -38,7 +38,7 @@ Eftirfarandi dæmi lýsir þessum aðstæðum.
 
 Contoso Consulting hefur komið á fót nýjum skýjarekstri. Innkaupapöntun er stofnuð til að kaupa tölvu fyrir verkefnið. Tölvan mun kosta $1500 og uppsetningarþjónusta mun kosta $150. Lánardrottinn hefur afhent og sett tölvuna upp, en reikningur hefur ekki enn borist Contoso Consulting. Stjórnanda verksins langar að sjá kostnaðaruppsöfnun verkefnisins upp á $1650 áður en reikningurinn er afhentur. Þessi kostnaður ætti einnig að endurspeglast í fjárhagsskýrslum fyrirtækisins í mánuðarlok. 
 
-Uppsafnaðan kostnað þarf að skrá bæði á fjárhagslegu stigi og verkstig fyrir skýrslugerð. Í Dynamics 365 for Operations er hægt að rekja fjárhagslega uppfærslu afurðarinnar fyrir vöru- og innkaupaflokka. 
+Uppsafnaðan kostnað þarf að skrá bæði á fjárhagslegu stigi og verkstig fyrir skýrslugerð. Í Finance and Operations er hægt að rekja fjárhagslega uppfærslu afurðarinnar fyrir vöru- og innkaupaflokka. 
 
 Fyrir vörur, á síðunni **Færibreytur viðskiptaskulda**, veljið valkostinn **Bóka innhreyfingarskjöl afurða í fjárhag**.
 [![uppsafnanir1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Hægt er að varpa innkaupaflokka sem verktegundir á síðunni **Innkaupategund
 
 **3. skref:** Stofnaðu reikning lánardrottins 
 
-Í Dynamics 365 for Operations hefur bókun innhreyfingarskjals afurða ekki áhrif á upplýsingar um verk. Sem hjáleið er hægt að mynda drög að reikningi lánardrottins beint eftir bókun innhreyfingar innkaupapantana. Farðu á síðuna **Innkaupapöntun** á &gt;**Reikningsflipanum**&gt;**Mynda**&gt;**Reiknings**. Þetta stofnar reikningsskjal í bið sem uppfærir verkupplýsingar. 
+Í Finance and Operations hefur bókun innhreyfingarskjals afurða ekki áhrif á upplýsingar um verk. Sem hjáleið er hægt að mynda drög að reikningi lánardrottins beint eftir bókun innhreyfingar innkaupapantana. Farðu á síðuna **Innkaupapöntun** á &gt;**Reikningsflipanum**&gt;**Mynda**&gt;**Reiknings**. Þetta stofnar reikningsskjal í bið sem uppfærir verkupplýsingar. 
 
 Stofnun á lánardrottinsreikningsdrögum myndar verkfærslur í bið. 
 [![uppsafnanir8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

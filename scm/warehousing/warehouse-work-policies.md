@@ -1,29 +1,29 @@
 ---
 title: "Reglur vöruhúsavinnu"
-description: "Nýja reglu vinnu vöruhús er innleiddur í Microsoft Dynamics AX 7.0.1 (Maí 2016 uppfærslu). Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu."
+description: "Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
-ms.search.validFrom: 2016-05-31
+ms.search.validFrom: 2016-05-31T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Nýja reglu vinnu vöruhús er innleiddur í Microsoft Dynamics AX 7.0.1 (Maí 2016 uppfærslu). Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu.
+Vöruhúsavinnureglur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
 
 Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
 
 -   **Vinnuregluheiti**(einkvæmt kenni reglunnar vinna)
--   **Vinnupantanagerðir**og**aðferð fyrir stofnun Vinnu**
+-   **Vinnupantanagerðir** og **aðferð fyrir stofnun Vinnu**
 -   **Birgðastaðsetningar**
 -   **Afurðir**
 

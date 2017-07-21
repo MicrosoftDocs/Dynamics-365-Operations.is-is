@@ -3,26 +3,26 @@ title: "Yfirlit yfir SEPA-kreditfærslur"
 description: "Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -53,15 +53,15 @@ EPC, sem samanstendur af evrópskum bönkum, þróar heildarsöluverðmæti og t
 SEPA-kreditfærsla er greiðsla frá einu fyrirtæki eða einstaklingi í öðru fyrirtæki eða einstaklingi. Greiðslur verða að vera í evrum og verða að innihalda alþjóðleg bankareikningsnúmer (IBAN) og bankaeinkenniskóða (BIC) fyrir báða aðila. (BIC er einnig þekkt sem auðkenniskóði banka \[SWIFT\] númer].) Að auki verður færslukostnaður að deilast á báða aðila. Kreditfærslur sem eiga sér stað á milli aðila eiga að nota xml-skrár sem samræmast ISO-stöðlum 20022 um greiðsluvinnslu og xml-snið, eins og tilgreint er af EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hvernig er kreditfærsla framkvæmd?
-Greiðslusnið SEPA-kreditfærslu fyrir evrópulönd er innleitt með því að nota virknina Rafræn skýrslugerð og Greiðsluhættir í Dynamics 365 for Operations. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
+Greiðslusnið SEPA-kreditfærslu fyrir evrópulönd er innleitt með því að nota virknina Rafræn skýrslugerð og Greiðsluhættir í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Hvaða kreditflutningssnið eru nú studd í Dynamics 365 for Operations?
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Hvaða kreditflutningssnið eru nú studd í Dynamics 365 for Finance and Operations?
 Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
--   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   Þegar þú stillir greiðsluaðferðir viðskiptaskulda velurðu gátreitinn **Almenna rafræn skýrslugerð** og viðeigandi kreditfærslusnið (t.d. **ISO 20022 kreditfærsla (AT)**) sem stillingar útflutningssniðs.
--   Einnig þarf að setja upp lögaðila einingar og bankareikningsupplýsingar í Dynamics 365 for Operations.
+-   Einnig þarf að setja upp lögaðila einingar og bankareikningsupplýsingar í Finance and Operations.
 -   Krafist er númer bankareiknings, IBANs og stundum SWIFT-kóða (BICs) eða annarra kenna til að stofna gildar kreditfærslugreiðslur. Þess vegna verður að setja þær upp fyrir bankareikning lánardrottins og bankareikningur fyrirtækisins sem óskar eftir flutningnum.
 -   Viðbótarupplýsingar gætu verið nauðsynlegar, svo sem virðisaukaskattsnúmer fyrir aðila sem á að vísa í kreditfærsluskilaboðum. Setja verður þessar upplýsingar upp fyrir lánardrottna og fyrir lögaðilann þegar beðið er um það.
 -   Sumir greiðsluhætti viðskiptaskulda, helst ISO-20022 byggðir greiðsluhættir, gætu krafist viðbótaruppsetningar fyrir **Greiðslusniðskóðasetts**, eins og **Þjónustugerð** = **SLEV**. Þessir kóðar eru notaðir sem viðbótarmerking fyrir greiðslufærslur við greiðsluvinnslu. Sjálfgefin gildi greiðslukóða, t.d. **Tilgangur flokks**, **Greiðandi**, **Staðbundið stjórntæki** og **Þjónustustig** er hægt að velja á tveimur stöðum. Fyrsti staðurinn er **Haus greiðslubókar viðskiptaskulda** og annar er **Greiðsluaðferðir viðskiptaskulda**. Við stofnun greiðslubókarlína, eri greiðslukóðagildi sem stillt er í greiðslubókarhaus flutt í færslubókarlínu, ef það er ekki stillt, eru gildin úr Greiðsluhættir notuð.

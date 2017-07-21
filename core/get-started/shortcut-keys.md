@@ -1,27 +1,27 @@
 ---
 title: "Flýtilyklar"
-description: "Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations."
+description: "Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations. 
+Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Finance and Operations. 
 
 **Ábending:** Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarískst lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
 
@@ -44,7 +44,7 @@ Eftirfarandi flýtilyklar eru notaðir í Microsoft Dynamics 365 for Operations.
 | Flytja í næsta/fyrri kost í valmynd            | Örin niður / örin upp            |
 | Loka flipa í aðgerðarúðu eða valmynd          | Esc                              |
 | Líkja eftir hægrismelli                            | SHIFT+F10                        |
-| Opna efnisvalmynd Dynamics 365 for Operations | Ctrl+F10                         |
+| Opna samhengisvalmynd Fjármál og Aðgerðir | Ctrl+F10                         |
 | Framkvæma sjálfgefinn hnapp á skjámynd/svarglugga       | Alt+færslulykill                        |
 | Smellið á hnapp eða reit                            | Enter eða Bil                   |
 | Skoða endurnýjunarupplýsingar fyrir talningarreit         | Alt+Uppör                     |

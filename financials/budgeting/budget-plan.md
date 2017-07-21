@@ -1,9 +1,9 @@
 ---
 title: "Fjárhagsáætlunargerð"
-description: "Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Operations fyrir skoðun á uppfærslum á virkni Dynamics á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel"
+description: "Markmið þessarar æfingar er að veita leiðsögn í virkni uppfærslna á vinnusvæði fyrir fjárhagsáætlun í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Operations fyrir skoðun á uppfærslum á virkni Dynamics á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel 
+Markmið þessarar æfingar er að veita leiðsögn í virkni uppfærslna á vinnusvæði fyrir fjárhagsáætlun í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel 
 
-<a name="prerequisites"></a>Forkröfur 
+<a name="prerequisites"></a>Frumskilyrði 
 ------------------
 
-Fyrir þetta kennsluefni þarf að fá aðgang að 365 fyrir Operations með sýnigögnum Contoso og vera úthlutað sem stjórnanda fyrir tilvikið. Ekki nota í einkavafra, - það þarf að skrá sig út úr hvaða reikningi sem er í vafranum ef þörf krefur og skrá svo inn með Dynamics 365 for Operations notendaheimildum kerfisstjóra. Þegar skráð er inn í Microsoft Dynamics 365 for Operations **VERÐUR** að haka í "Halda mér innskráðum" gátreitinn. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í Microsoft Dynamics 365 for Operations er gerð gegnum annan vafra en IE, verður þú beðinn um að skrá inn í gegnum Excel-smáforritið. Þegar smellt er á "Skrá inn" í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR**að haka í  "Halda mér undirrituðum" gátreitinn. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
+Fyrir þetta kennsluefni þarf að fá aðgang að Finance and Operations með sýnigögnum Contoso og fá stjórnendaréttindi fyrir þetta tilvik. Ekki nota í einkavafra - það þarf að skrá sig út úr öllum reikningum í vafranum ef þörf krefur og skrá svo inn með stjórnendaréttindum Finance and Operations. Þegar skráð er inn í Finance and Operations **VERÐUR** að haka í „Halda mér innskráðum“ gátreitinn. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í Finance and Operations er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á "Skrá inn" í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í  "Halda mér undirrituðum" gátreitinn. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
 
 ## <a name="scenario-overview"></a>**Yfirlit yfir aðstæður**
 Julia vinnur sem stjórnandi fjármála í Contoso Skemmtana Kerfum í Þýskalandi (DEMF). Þegar fjárhagsárið FY2016 nálgast þarf hún að vinna í uppsetningu fjárhagsáætlunar fyrirtækisins fyrir komandi ár. Undirbúningur fjárhagsáætlunarinnar lítur svona út:
@@ -148,9 +148,9 @@ Dálkar fyrir Fjárhagsáætlunargerð er annað hvort gjaldmiðilsdálkar eða 
 
 [![Sjálfvirk útfylling](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Farðu til baka í Dynamics 365 for Operations og endurræstu síðuna. Birt gildi munu birtast í Dynamics 365 for Operations. 
+4.7. Farðu til baka í Finance and Operations og endurræstu síðuna. Birt gildi munu birtast í Finance and Operations. 
 
-[![Endurhlaða](./media/screenshot23.png)](./media/screenshot23.png)
+[![Uppfæra](./media/screenshot23.png)](./media/screenshot23.png)
 
 ## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals
 Útlit ákvarðar hvernig hnitanet fyrir fjárhagsáætlunargerðarskjalið lítur út þegar notandi opnar skjal fjárhagsáætlunargerðar. Einnig er hægt að skipta um útlit fyrir skjal fjárhagsáætlunargerðar til að sjá sömu gögn frá mismunandi sjónarhornum. Núna, þegar hún hefur skilgreint dálka til notkunar með fjárhagsáætlunargerðarskjali, þarf Julia að búa til skjal yfir útlit fjárhagsáætlunar, sem myndi líta svipað út og Excel taflan sem hún notar til að stofna fjárhagsáætlunargögn (sjá hlutann Yfirlit yfir aðstæður í þessari æfingu) 
@@ -233,7 +233,7 @@ Raunverulegar upphæðir fyrra árs verða afrituð yfir á áætlun núverandi 
 
 [![Gefa út](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Farið til baka í fjárhagsáætlunargerðarskjal í Dynamics 365 for Operations. Smellt er á Verkflæði &gt; Senda inn til samþykkja sjálfvirkt fylgiskjalið
+9.3. Farðu til baka í fjárhagsáætlunarskjal í Finance and Operations. Smellt er á Verkflæði &gt; Senda inn til samþykkja sjálfvirkt fylgiskjalið
 
 [![Sjálfvirk samþykkt](./media/screenshot37.png)](./media/screenshot37.png) 
 

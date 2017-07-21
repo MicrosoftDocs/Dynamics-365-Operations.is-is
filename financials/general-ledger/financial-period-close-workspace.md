@@ -3,7 +3,7 @@ title: "Vinnusvæði lokunar fjárhagstímabils"
 description: "Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ Valkosturinn **Ljúka verki** verður að vera handvirkt valinn þegar verkefnin
 Hægt er að skoða öll núgildandi og fyrri lokunarverk tímabils úr listasíða **Öll lokunarverk fjárhagstímabils**. Þessi listasíða hentar best fyrir sögulega greiningu á ferli við lokun, þar sem hún inniheldur upplýsingar um áætlaðan gjalddaga, raunverulega lokadagsetningu og þann sem hefur lokið verkinu. Auðveldlega er hægt að flytja upplýsingar af þessari listasíðu í Microsoft Excel fyrir skýrslugerð og endurskoðun tilgangi.
 
 ## <a name="financial-period-close-configuration-page"></a>Síðan Lokunarskilgreining fjárhagstímabils
-Áður en hægt er að nota vinnusvæðið **Lokað fjárhagstímabil**, þarf að skilgreina ferlið í Microsoft Dynamics 365 for Operations með því að nota síðuna **Lokaskilgreining fjárhagstímabils**. (Smellið á **Fjárhagur** &gt; **> Loka tímabils >** &gt; **Lokaskilgreining fjárhagstímabils**.)
+Áður en hægt er að nota vinnusvæðið **Lokað fjárhagstímabil**, þarf að skilgreina ferlið í Microsoft Dynamics 365 for Finance and Operations með því að nota síðuna **Lokaskilgreining fjárhagstímabils**. (Smellið á **Fjárhagur** &gt; **> Loka tímabils >** &gt; **Lokaskilgreining fjárhagstímabils**.)
 
 ### <a name="resources"></a>Forði
 
@@ -90,7 +90,7 @@ Lokunarsniðmát fjárhags er notað til að skilgreina öll verk sem eru hluti 
 
 Hægt er að úthluta verki í sniðmátinu einu eða fleiri fyrirtækjum þar sem verkið á við. Ef öðrum einstaklingi er úthlutað til að ljúka því vinnuframlagi í hverju fyrirtæki gæti verið gagnlegt til að stofna mörg verkefni fyrir sama framlag vinnu. Stofna eitt verk fyrir hvert fyrirtæki. 
 
-Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja verkefni lokun til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir á tengdri síðu **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Operations. Einnig er hægt að tengja við ytri vefslóð. 
+Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja verkefni lokun til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir á tengdri síðu **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Einnig er hægt að tengja við ytri vefslóð. 
 
 > [Ábending]: Ef óskað er að tengja ákveðna Management Reporter skýrslu við lokunarverk fjárhagstímabils er hægt að nota vefslóð skýrslu. Til að fá aðgang að vefslóð skýrslu skal opna skýrsluna í skýrsluhönnun og smella síðan á **Skrá** &gt; **Skoða skýrslu** til að opna skýrsluna í vafra. Síðan er hægt að afrita vefslóð í aðseturslínunni í vafra og líma þau inn í **Verkefni tengil** **Vefslóð** svæði. 
 

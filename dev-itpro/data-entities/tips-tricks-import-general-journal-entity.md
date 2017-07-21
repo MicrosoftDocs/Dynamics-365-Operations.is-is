@@ -3,25 +3,25 @@ title: "Bestu starfsvenjur til að flytja inn fylgiskjöl með því að nota ei
 description: "Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -51,20 +51,20 @@ Eftirfarandi kaflar lýsa áhrif þessara stillinga og einnig útskýrir hvernig
 ### <a name="journal-batch-number"></a>Rununúmer færslubókar
 
 -   Í **samstæðubyggð úrvinnsla** stilling á einingu Almennrar færslubókar hefur ekki áhrif á hvernig rununúmer færslubókar eru myndaðar.
--   Ef **rununúmer Færslubókar** er stillt á **sjálfmynduð**, er stifbap nýtt rununúmer færslubókar fyrir hverja línu sem er flutt inn. Þessi hegðun er ekki ráðleg. **sjálfmynduð** stilling finnst í innflutningi verks, undir **skoða kort**á í **Vörpunarupplýsingar** flipa.
+-   Ef **rununúmer Færslubókar** er stillt á **sjálfmynduð**, er stifbap nýtt rununúmer færslubókar fyrir hverja línu sem er flutt inn. Þessi hegðun er ekki ráðleg. **sjálfmynduð** stilling finnst í innflutningi verks, undir **skoða kort** á í **Vörpunarupplýsingar** flipa.
 -   Ef **rununúmer Færslubókar** er ekki stillt á **sjálfmynduð**, er rununúmer færslubókar stofnuð á eftirfarandi hátt.
-    -   Ef rununúmer færslubókar sem er skilgreint í innfluttu skránni passar við fyrirliggjandi, óbókaða færslubók í Microsoft Dynamics 365 for Operations, eru allar línur sem hafa samsvarandi rununúmer færslubókar fluttar inn í fyrirliggjandi færslubók. Línur eru aldrei fluttar inn í rununúmer bókaðrar færslubókar. Þess í stað nýtt númer er stofnað.
-    -   Ef rununúmer færslubókar sem er skilgreint í innfluttu skránni passar ekki við fyrirliggjandi, óbókaða færslubók í Dynamics 365 for Operations, eru allar línur sem hafa sama rununúmer færslubókar flokkaðar undir nýrri færslubók. Til dæmis, allar línur sem hafa rununúmer færslubókar 1 eru flutt inn í nýja færslubók og allar línur sem hafa rununúmer færslubókar 2 eru flutt inn í seinni nýja færslubók. Rununúmer færslubókar er stofnuð með því að nota númeraröð sem skilgreind er í færibreytum fjárhags.
+    -   Ef rununúmer færslubókar sem er skilgreint í innfluttu skránni passar við fyrirliggjandi, óbókaða færslubók eru allar línur sem hafa samsvarandi rununúmer færslubókar flutt inn í fyrirliggjandi færslubók. Línur eru aldrei fluttar inn í rununúmer bókaðrar færslubókar. Þess í stað nýtt númer er stofnað.
+    -   Ef rununúmer færslubókar sem er skilgreint í innfluttu skránni passar ekki við fyrirliggjandi, óbókaða færslubók eru allar línur sem hafa sama rununúmer færslubókar flokkaðar undir nýrri færslubók. Til dæmis, allar línur sem hafa rununúmer færslubókar 1 eru flutt inn í nýja færslubók og allar línur sem hafa rununúmer færslubókar 2 eru flutt inn í seinni nýja færslubók. Rununúmer færslubókar er stofnuð með því að nota númeraröð sem skilgreind er í færibreytum fjárhags.
 
 ### <a name="voucher-number"></a>Fylgiskjalsnúmer
 
--   Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Ef óskað er að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer í Dynamics 365 for Operations, hefur verið búin til bráðabót sem fyrir febrúar 2016 útgáfa. Númer bráðabótar er 3170316 og og má hlaða niður frá Lifecycle services (LCS). Nánari upplýsingar, sjá [Niðurhal bráðabóta af Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Til að virkja þessa aðgerð, á færslubókarheiti sem notað er fyrir innflutning í Dynamics 365 fyrir Operations, skal stilla **úthlutun númers við bókun** á **Já**.
-    -   Samt sem áður þarf að skilgreina númer fylgiskjals í innfluttu skránni. Hins vegar er þetta númer tímabundið og skrifað er yfir það af fylgiskjalsnúmeri Dynamics 365 fyrir Operations þegar færslubókin er bókuð. Þú verður að ganga úr skugga um að línurnar í færslubókinni eru rétt flokkaðar eftir tímabundið fylgiskjalsnúmer. Til dæmis, við bókun, finnast þrjár línur sem hafa tímabundið fylgiskjalsnúmer 1. Tímabundið fylgiskjalsnúmer fyrir allar þrjár línur er skrifað yfir af næsta númeri í númeraröð. Ef þessar þrjár línur ekki eru jafnaðar færslur, er fylgiskjal ekki bókuð. Næst, ef línur finnast sem hafa tímabundið fylgiskjalsnúmer 2, er þetta númer yfirskrifað af næsta númer fylgiskjals í númeraröð, og svo framvegis.
+-   Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Ef óskað er að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer hefur verið búin til bráðabót sem fyrir febrúar 2016 útgáfa. Númer bráðabótar er 3170316 og og má hlaða niður frá Lifecycle services (LCS). Nánari upplýsingar, sjá [Niðurhal bráðabóta af Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Til að virkja þessa aðgerð, á færslubókarheiti sem notað er fyrir innflutningi skal stilla  **úthlutun númers við bókun** á **Já**.
+    -   Samt sem áður þarf að skilgreina númer fylgiskjals í innfluttu skránni. Hins vegar er þetta númer tímabundin og skrifað er yfir það af fylgiskjalsnúmer þegar færslubókin er bókuð. Þú verður að ganga úr skugga um að línurnar í færslubókinni eru rétt flokkaðar eftir tímabundið fylgiskjalsnúmer. Til dæmis, við bókun, finnast þrjár línur sem hafa tímabundið fylgiskjalsnúmer 1. Tímabundið fylgiskjalsnúmer fyrir allar þrjár línur er skrifað yfir af næsta númeri í númeraröð. Ef þessar þrjár línur ekki eru jafnaðar færslur, er fylgiskjal ekki bókuð. Næst, ef línur finnast sem hafa tímabundið fylgiskjalsnúmer 2, er þetta númer yfirskrifað af næsta númer fylgiskjals í númeraröð, og svo framvegis.
 
 <!-- -->
 
--   Þegar ekki er notuð stillingin **samstæðubyggð úrvinnsla** þarf ekki að gefa upp neitt númer fylgiskjals í innfluttu skránni. Fylgiskjalsnúmer eru stofnaðar við innflutning, byggt á uppsetningu færslubókarheitis (**Eitt fylgiskjal einungis**, **í samhengi við jöfnun**og svo framvegis). Til dæmis, ef færslubókarheiti er skilgreint sem **í samhengi við jöfnun**, fær fyrsta lína nýtt sjálfgefið fylgiskjalsnúmer. Kerfið metur síðan línu til að ákvarða hvort debet er jafn mikið og kredit. Ef mótlykill er til staðar í línunni, fær næstu línu sem flutt er inn nýtt fylgiskjalsnúmer. Ef enginn mótlykill er til staðar, metur kerfið hvort debet er jafn mikið og kredit um leið og hver ný lína er innflutt.
+-   Þegar ekki er notuð stillingin **samstæðubyggð úrvinnsla** þarf ekki að gefa upp neitt númer fylgiskjals í innfluttu skránni. Fylgiskjalsnúmer eru stofnaðar við innflutning, byggt á uppsetningu færslubókarheitis (**Eitt fylgiskjal einungis**, **í samhengi við jöfnun** og svo framvegis). Til dæmis, ef færslubókarheiti er skilgreint sem **í samhengi við jöfnun**, fær fyrsta lína nýtt sjálfgefið fylgiskjalsnúmer. Kerfið metur síðan línu til að ákvarða hvort debet er jafn mikið og kredit. Ef mótlykill er til staðar í línunni, fær næstu línu sem flutt er inn nýtt fylgiskjalsnúmer. Ef enginn mótlykill er til staðar, metur kerfið hvort debet er jafn mikið og kredit um leið og hver ný lína er innflutt.
 -   Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð** stilling fyrir reitinn **Fylgiskjalsnúmer** er ekki studd.
 
 Sjálfgefið er að Eining Almennrar færslubókar noti samstæðubyggð úrvinnsla. Eftir að þú metur viðskiptaþarfir í þínu fyrirtæki, er hægt að breyta **samstæðubyggð úrvinnsla** stillingu með því að smella á **gagnaeiningar** í á **gagnastjórnun** vinnusvæði. Samstæðubyggð úrvinnsla er notuð til að flýta innflutningsferlinu. Ef þú notar ekki samstæðubyggð úrvinnsla, verður innflutningur einingar Almennrar færslubókar hægvirkari.

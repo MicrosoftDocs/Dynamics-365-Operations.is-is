@@ -3,26 +3,26 @@ title: "Staðfesta og samþykkja innkaupantanir"
 description: "Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum.
 
@@ -38,7 +39,7 @@ Eftir að innkaupapöntunina (PO) hefur verið stofnuð, gæti það þurft að 
 ## <a name="approval-of-purchase-orders"></a>Samþykki innkaupapantana
 Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** um leið og þær eru stofnaðar, á meðan innaupapantanir sem nota breytingastjórnun hafa stöðuna **Drög** þegar þau eru stofnuð. Innkaupapöntun sem hefur verið stofnuð með staðfestingu áætlaðrar pöntunar úr aðaláætlanagerð er alltaf stillt á stöðuna **Samþykkt**, óháð stillingum breytingastjórnunar. Innkaupapöntun Stofnar birgðafærslur þegar hún er komin í **Samþykkt** stöðu. Þess vegna birtist sú birgðir ekki eins og þær séu til staðar til frátektar erða merkingar  fyrr en pöntun er samþykkt.  
 
-Þú virkja breytingastjórnun fyrir innkaupapantanir með uppsetningu **Virkja breytingastjórnun** valkostinn á á **færibreytur innkaupa og aðfanga** síðu. Þegar breytingastjórnun er virkjuð verða innkaupapantanir að fara gegnum samþykktarverkflæði eftir að þær hafa verið lokið. Microsoft Dynamics 365 for Operations er með verkflæðisritil þar sem hægt er að skilgreina verkflæði til að tákna samþykktarferli. Þetta verkflæði getur falið í sér reglur fyrir sjálfvirkt samþykki, reglum sem ákvarða hverjum verður úthlutað til að samþykkja tilteknar innkaupapantanir, og reglur fyrir stigmanga verkflæði sem hefur beðið eftir samþykki í lengri tíma. Hægt er að virkja breytingastjórnunarferlið fyrir alla lánardrottna eða fyrir tiltekna lánardrottna. einnig Er hægt að setja upp ferlið þannig að hægt er að hnekkja því fyrir einstakar innkaupapantanir.  
+Þú virkja breytingastjórnun fyrir innkaupapantanir með uppsetningu **Virkja breytingastjórnun** valkostinn á á **færibreytur innkaupa og aðfanga** síðu. Þegar breytingastjórnun er virkjuð verða innkaupapantanir að fara gegnum samþykktarverkflæði eftir að þær hafa verið lokið. Microsoft Dynamics 365 for Finance and Operations er með verkflæðisritil þar sem hægt er að skilgreina verkflæði til að tákna samþykktarferli. Þetta verkflæði getur falið í sér reglur fyrir sjálfvirkt samþykki, reglum sem ákvarða hverjum verður úthlutað til að samþykkja tilteknar innkaupapantanir, og reglur fyrir stigmanga verkflæði sem hefur beðið eftir samþykki í lengri tíma. Hægt er að virkja breytingastjórnunarferlið fyrir alla lánardrottna eða fyrir tiltekna lánardrottna. einnig Er hægt að setja upp ferlið þannig að hægt er að hnekkja því fyrir einstakar innkaupapantanir.  
 
 Þegar breytingastjórnun er virkjuð færast innkaupapantanir í gegnum sex samþykktarstaða, úr **Drög** að **lokið**. Eftir að pöntun hefur verið samþykkt, verða notendur sem vilja breyta því að nota **Breytingabeiðni** aðgerð.
 
@@ -54,7 +55,7 @@ Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** u
 ## <a name="confirming-purchase-orders"></a>Staðfesta innkaupapantanir
 Innkaupapantanir með stöðu samþykkis **Samþykkt** geta fara gegnum viðbótarskref áður en þær eru staðfestar. Til dæmis gæti þurft að senda fyrirspurn um innkaup til lánardrottins til að spyrjast fyrir um verð, afslættir eða afhendingardagsetningar. Í þessu tilfelli er hægt að stilla Innkaupapöntun á **í ytri yfirferð** stöðu með því að nota í **Innkaupafyrirspurn** aðgerð.  
 
-Lánardrottna sem eru sett upp til að geta nota gátt Lánardrottins getur að endurskoða pantanir í gátt og samþykkja eða hafna þeim. Á meðan þetta endurskoðunarferli fer fram hefur Innkaupapöntunin stöðuna **í ytri yfirferð**. Mögulegt er að skilgreina gátt lánardrottins svo staðfesting frá lánardrottni staðfesti sjálfkrafa pöntun í Dynamics 365 for Operations. Einnig er hægt handvirkt að staðfesta Innkaupapöntun eftir að staðfesting berst frá lánardrottni. Ef lánardrottinn hafnar Innkaupapöntun, er  höfnuninni móttekin ásamt ástæðan fyrir höfnun og tillögur fyrir breytingum. Í þessu tilfelli, helst stöðu Innkaupapöntunin **í ytri yfirferð**.  
+Lánardrottna sem eru sett upp til að geta nota gátt Lánardrottins getur að endurskoða pantanir í gátt og samþykkja eða hafna þeim. Á meðan þetta endurskoðunarferli fer fram hefur Innkaupapöntunin stöðuna **í ytri yfirferð**. Mögulegt er að skilgreina gátt lánardrottins þannig að staðfesting frá lánardrottni staðfesti sjálfkrafa pöntun í Finance and Operations. Einnig er hægt handvirkt að staðfesta Innkaupapöntun eftir að staðfesting berst frá lánardrottni. Ef lánardrottinn hafnar Innkaupapöntun, er  höfnuninni móttekin ásamt ástæðan fyrir höfnun og tillögur fyrir breytingum. Í þessu tilfelli, helst stöðu Innkaupapöntunin **í ytri yfirferð**.  
 
 Einnig er kostur að mynda bráðabirgða staðfesting fyrir pöntun áður en raunveruleg staðfesting hefur verið unnin. Þessi valkostur stofnar einfaldlega skýrslu sem er hægt að deila með lánardrottins. Það stofna ekki neinar færslubókarupplýsingar.  
 
@@ -83,7 +84,7 @@ Eftir að pöntun hefur verið staðfest getur þú ekki lengur eytt henni. Hins
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
-[Yfirlit reikninga lánardrottina](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Yfirlit yfir lánardrottnareikninga](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

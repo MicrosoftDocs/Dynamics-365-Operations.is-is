@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb8fa9f5f17b8d658e2d0fea3a9659ab09562611
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -64,11 +64,11 @@ Fyrir vörur sem eru gefnar upp utan framleiðsluflæðis verður að byggja upp
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Útreikningur sem er byggður á framleiðsluflæðinu
 
-Lean-framleiðsla fyrir Microsoft Dynamics 365 for Operations er óháð leiðum. Kostnaðarútreikningur fyrir vörur sem eru gefnar úr framleiðsluflæðinu getur verið byggður á sjálfu framleiðsluflæðinu. Áður en hægt er að framkvæma útreikning verður að stofna kanban-reglu sem sér fyrir afurðinni utan framleiðsluflæðis. Ef hægt er að veita vöru úr mörgum framleiðsluflæðum á sama svæði á dagsetningu útreiknings er hægt að velja framleiðsluflæði fyrir útreikning Uppskriftar. Á síðunni **Sjálfgefið framleiðsluflæði** er hægt að skilgreina sjálfgefið framleiðsluflæði fyrir hverja vöru. Ef margar kanban-reglur eru til fyrir sömu afurð í sama framleiðsluflæðinu sem er virkt á dagsetningu útreiknings velur útreikningurinn fyrstu kanban-regluna sem er virk fyrir útreikninginn.
+Lean manufacturing fyrir Microsoft Dynamics 365 for Finance and Operations er óháð leiðum. Kostnaðarútreikningur fyrir vörur sem eru gefnar úr framleiðsluflæðinu getur verið byggður á sjálfu framleiðsluflæðinu. Áður en hægt er að framkvæma útreikning verður að stofna kanban-reglu sem sér fyrir afurðinni utan framleiðsluflæðis. Ef hægt er að veita vöru úr mörgum framleiðsluflæðum á sama svæði á dagsetningu útreiknings er hægt að velja framleiðsluflæði fyrir útreikning Uppskriftar. Á síðunni **Sjálfgefið framleiðsluflæði** er hægt að skilgreina sjálfgefið framleiðsluflæði fyrir hverja vöru. Ef margar kanban-reglur eru til fyrir sömu afurð í sama framleiðsluflæðinu sem er virkt á dagsetningu útreiknings velur útreikningurinn fyrstu kanban-regluna sem er virk fyrir útreikninginn.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Útreikningur sem er byggður á leiðinni
 
-Útreikningur sem er byggður á leið gildir sem útreikningur sem byggist á framleiðsluflæðinu. Hins vegar notar útreikningur sem er byggður á leið ekki kostnaðarútreikning fyrir virkni lean-framleiðslu. Leiðin á að nota tilfangaþörf fyrir tilfangaflokka. Til að forðast kerfisbundin frávik ætti hún einnig að nota sömu vinnureiti eða a.m.k. sömu kostnaðartegundir. Aftur ætti að forðast kostnaðartegundir fyrir uppsetningu og magn. Þær hjálpa ekki til við að reikna út kostnaðinn í grófara niðurbrot en bakfærslukostnaðaraðferð lean-framleiðslu. Til að ákvarða hvaða valmöguleika (framleiðsluflæði eða leið) ætti að nota til að reikna út kostnað, skal hafa í huga niðurstöður sundurliðunar kostnaðar. Útgáfan sem er nær stöðu og framleiðir færri frávik í heildina er betri valkosturinn. Í umhverfi lean-framleiðslu þar sem vara er úr einu framleiðsluflæði og einni kanban-reglu er útreikningur sem er byggður á framleiðsluflæðinu sennilega nákvæmari. Fyrir vöru sem er til hjá lean-framleiðslu og sölupantanir á sama svæði, eða sem getur haft mörg framleiðsluflæði eða margar kanban-reglur í sama flæði, gæti útreikningur verið nákvæmari ef hann er byggður á leiðarútgáfu sem er sérstaklega byggð upp fyrir útreikning kostnaðar, ekki fyrir framleiðsluna. Framleiðsluflæði verður að vera notað við útreikning vara sem eru tengdar undirverktaka. Í Microsoft Dynamics 365 for Operations nota kostnaðarlíkön fyrir undirverktaka í framleiðslupöntun og úthýsing í lean-framleiðslu tvær mismunandi nálganir. Lean-framleiðsla kynnir nýjan gerð kostnaðarflokks, **Beina úthýsingu**, til að reikna út útselda þjónustu.
+Útreikningur sem er byggður á leið gildir sem útreikningur sem byggist á framleiðsluflæðinu. Hins vegar notar útreikningur sem er byggður á leið ekki kostnaðarútreikning fyrir virkni lean-framleiðslu. Leiðin á að nota tilfangaþörf fyrir tilfangaflokka. Til að forðast kerfisbundin frávik ætti hún einnig að nota sömu vinnureiti eða a.m.k. sömu kostnaðartegundir. Aftur ætti að forðast kostnaðartegundir fyrir uppsetningu og magn. Þær hjálpa ekki til við að reikna út kostnaðinn í grófara niðurbrot en bakfærslukostnaðaraðferð lean-framleiðslu. Til að ákvarða hvaða valmöguleika (framleiðsluflæði eða leið) ætti að nota til að reikna út kostnað, skal hafa í huga niðurstöður sundurliðunar kostnaðar. Útgáfan sem er nær stöðu og framleiðir færri frávik í heildina er betri valkosturinn. Í umhverfi lean-framleiðslu þar sem vara er úr einu framleiðsluflæði og einni kanban-reglu er útreikningur sem er byggður á framleiðsluflæðinu sennilega nákvæmari. Fyrir vöru sem er til hjá lean-framleiðslu og sölupantanir á sama svæði, eða sem getur haft mörg framleiðsluflæði eða margar kanban-reglur í sama flæði, gæti útreikningur verið nákvæmari ef hann er byggður á leiðarútgáfu sem er sérstaklega byggð upp fyrir útreikning kostnaðar, ekki fyrir framleiðsluna. Framleiðsluflæði verður að vera notað við útreikning vara sem eru tengdar undirverktaka. Í Microsoft Dynamics 365 for Finance and Operations nota kostnaðarlíkön fyrir undirverktaka í framleiðslupöntun og úthýsing í Lean manufacturing tvær mismunandi nálganir. Lean-framleiðsla kynnir nýjan gerð kostnaðarflokks, **Beina úthýsingu**, til að reikna út útselda þjónustu.
 
 ## <a name="material-consumption"></a>Efnisnotkun
 Þegar efni er notað úr birgðum í VÍV er kostnaði við efni bætt við VÍV á raunverulegum staðalkostnaði fyrir kostnaðarflokk. Þessi aðgerð á sér stað við eftirfarandi kringumstæður:
@@ -85,7 +85,7 @@ Vörur eru mótteknar úr framleiðsluflæðinu við eftirfarandi kringumstæðu
 Vörur sem eru fengnar úr framleiðsluflæðinu eru dregnar frá VÍV.
 
 ## <a name="products-in-wip"></a>Afurðir í VÍV
-VÍV líkan fyrir lean-framleiðslu í Microsoft Dynamics 365 for Operations gerir kleift að nota stöðu efnismeðhöndlunareiningar kanbans til að stýra hráefni, hálfkláruðum afurðum og tilbúnum afurðum sem eru hluti af VÍV.
+VÍV líkan fyrir Lean manufacturing í Microsoft Dynamics 365 for Finance and Operations gerir kleift að nota stöðu efnismeðhöndlunareiningar kanbans til að stýra hráefni, hálfkláruðum afurðum og tilbúnum afurðum sem eru hluti af VÍV.
 
 -   **Úthlutað** - Kanban getur haft notað efni sem er gjaldfært í VÍV.
 -   **Móttekið** - Ef kanban sem vísar til síðasta verkþáttar þar sem **Uppfærsla birgða á kvittun** er stillt á **Nei**, sýnir hún fulla afgreiðslueiningu afurðar eða hálfkláraðrar afurðar sem eru ekki skráð í birgðir.

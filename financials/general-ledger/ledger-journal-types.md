@@ -1,16 +1,16 @@
 ---
 title: "færslubókargerðir fjárhags"
-description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna heiti færslubókar til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Operations."
+description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Notaðu síðuna Færslubókanöfn til að setja upp færslubækur sem þú getur notað í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
@@ -18,27 +18,27 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 842eee6446b1f942add37b14d3ad161bec96d22c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="ledger-journal-types"></a>færslubókargerðir fjárhags
+# <a name="ledger-journal-types"></a>Færslubókargerðir fjárhags
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna heiti færslubókar til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Operations.
+Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Notaðu síðuna Færslubókanöfn til að setja upp færslubækur sem þú getur notað í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
 
 | Færslubókargerð                      | Málefni                                                                                                                                                                                                                                                                                                                                                     | Færa inn færslur á þessari síðu                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | Úthlutun                        | Stofna úthlutun færslur í færslubók. Áður en hægt er að stofna úthlutunarbók verður að stofna úthlutunarreglu í síðunni **úthlutunarregla fjárhags**                                                                                                                                                                           | Vinna úr beiðni um úthlutun                                     |
 | Samþykki                          | Bóka samþykkta reikninga lánardrottna í rétta fjárhagslykla.                                                                                                                                                                                                                                                                            | Staðfestingarbók                                       |
 | Bakfærsla bankaávísunar               | Bakfæra bókaða ávísun. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.                                                                                                                                                                                       | Athuga Bakfærslur, bakfærsla Greiðslu                              |
-| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils**valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.                                                                                                                                                                       | Ógildingar á greiðslum bankainnborgunarseðla                             |
+| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.                                                                                                                                                                       | Ógildingar á greiðslum bankainnborgunarseðla                             |
 | Fjárhagsáætlun                            | Vinna úr fjárveitingar úr fjárhagsáætlun Til að nota þessa gerð færslubók, velja á **Leyfa fjárveitingu fjárhagsáætlunar** valkostinn á í **fjárhagsfæribreytur** síðu. Færslur í fjárhagsáætlunarbók hafa með upplýsingar á grundvelli fjárhagslykla sem eru skilgreindar í á **bókunarskilgreiningar**  síðu.                                                        |                                                                |
 | Viðskiptavinasamþykki víxils  | Stofna samþykktarfærslur viðskiptavina fyrir víxla.                                                                                                                                                                                                                                                                                              | Gefa út víxlabók– endurútgefa víxlabók. |
 | Greiðslusending viðskiptavinar          | Stofna greiðsluskrá víxils sem má senda til banka fyrirtækisins. Til að nota þessa gerð færslubókar, hreinsa í **Sjálfvirka jöfnun** valkostinn á í **viðskiptakrafna** **færibreytur** síðu.                                                                                                                                             | Greiðsla                                                     |

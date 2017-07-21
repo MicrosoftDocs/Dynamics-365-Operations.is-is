@@ -1,36 +1,36 @@
 ---
-title: "Fjárhagsskýrslugerð fyrir Dynamics 365 for Operations"
-description: "Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations fyrir fjármála og viðskipta fagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum."
+title: "Fjárhagsskýrslur for Finance and Operations"
+description: "Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.reviewer: shylaw
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>Fjárhagsskýrslugerð fyrir Dynamics 365 for Operations
+# <a name="financial-reporting-for-finance-and-operations"></a>Fjárhagsskýrslur for Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 
-Fjárhagsskýrslugerð fyrir Microsoft Dynamics 365 for Operations fyrir fjármála og viðskipta fagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
+Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
 
 Fjárhagsskýrslugerð inniheldur vídd stuðningur. Þess vegna hlutar lykla eða víddir tiltækar strax. Engin verkfæri til viðbótar eða skilgreiningu skref eru nauðsynleg.
 

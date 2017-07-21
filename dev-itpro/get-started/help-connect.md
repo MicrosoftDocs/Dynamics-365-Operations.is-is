@@ -1,9 +1,9 @@
 ---
 title: "Tenging við hjálpargögnin"
-description: "Þetta efnisatriði lýsir þætti í hjálparkerfinu fyrir Microsoft Dynamics 365 for Operations og veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp."
+description: "Þetta efnisatriði lýsir þáttum í hjálparkerfinu fyrir Microsoft Dynamics 365 for Finance and Operations og veitir yfirlit yfir hvernig eigi að tengja þá og yfirlit yfir hvernig eigi að stofna sérsniðna hjálp."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86c7cb3961ba5170c32979e77aaa5f506ffac8a1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,15 +32,19 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir þætti í hjálparkerfinu fyrir Microsoft Dynamics 365 for Operations. Það veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp. 
+Þetta efnisatriði lýsir þáttum í hjálparkerfinu fyrir Microsoft Dynamics 365 for Finance and Operations. Það veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp. 
 
-<a name="help-architecture"></a>Högun Hjálpar
------------------
+## <a name="help-architecture"></a>Högun Hjálpar
+Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins í Finance and Operations. Hjálparkerfi innan vörunnar sækir greinar úr svæði Finance and Operations á https://docs.microsoft.com auk verkefnaleiðbeininga sem eru geymdar í Viðskiptaferlavinnslu í Lifecycle Services (LCS). 
+> [!NOTE]
+> Aðgerðirnar sem eru listaðar í skýringarmyndinni með stjörnu (\*) eru á vegvísnum, en eru ekki tiltækar enn. [![Högun Hjálpar](./media/help-architecture.png)](./media/help-architecture.png)
 
-Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins í Dynamics 365 for Operations. Hjálparkerfi innan vörunnar sækir greinar úr svæði Dynamics 365 for Operations á https://docs.microsoft.com auk verkefnaleiðbeininga sem eru geymdar í Viðskiptaferlavinnslu í Lifecycle Services (LCS). 
-**Athugasemd** Aðgerðirnar sem eru listaðar í skýringarmyndinni með stjörnu (\*) eru á vegvísnum, en eru ekki tiltækar enn. [![Högun Hjálpar](./media/help-architecture.png)](./media/help-architecture.png)
 
 ## <a name="connecting-the-help-system"></a>Tenging við hjálparkerfi
+> [!NOTE]
+> Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Einnig er hægt að fá aðgerðahjálp á svæðinu docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) fyrir bæði Retail og Talent
+ 
+
 Með skjámyndinni **Kerfisfæribreytur** tengja kerfisstjórar stykki í hjálparkerfinu fyrir innleiðingu. [![Snið kerfisfæribreyta með Stillingar fyrir hjálp ](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) á **kerfisfæribreytum** síðunni, skal fylgja þessum skrefum:
 
 > [!IMPORTANT]
@@ -48,21 +52,27 @@ Með skjámyndinni **Kerfisfæribreytur** tengja kerfisstjórar stykki í hjálp
 
 1.  Veljið Lifecycle Services verk til að tengjast.
 2.  Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
+    - Ef þú notar Finance and Operations, fyrir Microsoft efni, skaltu velja febrúar 2017 QPC Unified Library fyrir Microsoft Dynamics 365 for Finance and Operations. 
+    - Við munum gefa út safn í júlí fyrir Retail. 
+    - Þú þarft ekki að velja safn fyrir Talent — búið er að setja tengingu við rétt safn fyrir þig. 
+
 3.  Velja birtingarröð BPM safna. Þetta ákvarðar í hvaða röð verkskráning úr í söfn birtast á **Hjálp** rúðunni.
 
-Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjálp** og smella á flipann **Verkleiðbeiningar**. Þú sérð verkefnaleiðbeiningar sem eiga við síðu sem þú ert á í Dynamics 365 for Operations. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
+Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjálp** og smella á flipann **Verkleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við þá síðu sem þú ert á í Finance and Operations. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
-Þýddar verkefnaleiðbeiningar voru sendar í maí 2016 APQC Unified Library, og í safninu Hafist handa (getting started). Í Dynamics 365 for Operations til að sjá staðfærða hjálp leiðarvísis fyrir verk , skal tryggja að þú sért tengd við maí safnið. Tungumálið sem leiðarvísir fyrir verk birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **> Kjörstillingar**. 
+Þýddar verkefnaleiðbeiningar voru sendar í maí 2016 APQC Unified Library, og í safninu Hafist handa (getting started). Ef þú notar Finance and Operations og vilt sjá staðbundna verkefnahjálp skaltu ganga úr skugga um að þú sért tengd(ur) við safnið fyrir maí. Tungumálið sem leiðarvísir fyrir verk birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **> Kjörstillingar**. 
 
 > [!NOTE]
-> Þó svo margar verkefnaleiðbeiningar hafi verið þýddar er Dynamics 365 for Operations-biðlarinn ekki að sýna þýdd heiti verkefnaleiðbeininga. Einnig, aðeins verkefnaleiðbeiningar sem voru gefnar út í febrúar 2016 eru í boði í þýðingu í maí safninu. Við munum gefa út uppfærða safn með fleiri þýðingum.
+> Þó að margar verkefnaleiðbeiningar hafi verið þýddar sýnir Finance and Operations-biðlarinn ekki þýdd heiti verkefnaleiðbeininga eins og er. Einnig, aðeins verkefnaleiðbeiningar sem voru gefnar út í febrúar 2016 eru í boði í þýðingu í maí safninu. Við munum gefa út uppfærða safn með fleiri þýðingum.
 > -   Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.
 > -   Ef verkefnaleiðbeiningar hefur ekki enn verið þýdd, þegar þú opnar það, bara nokkrar af textanum (Texti stjórnbúnaðar) munu birtast í valið tungumál.
 
 ## <a name="creating-custom-help"></a>Stofnun sérsniðinnar hjálpar
-Hægt er að stofna sérsniðna hjálp fyrir innleiðingu á Dynamics 365 for Operations eftir stofnun verkskráningar sem endurspegla innleiðingu og vistar þær á LCS Business Ferli Safnið. Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Frekari upplýsingar er að finna í efnisatriðinu [Hvernig stofna á verkskráningu sem nota á sem fylgigögn eða þjálfun](../user-interface/task-recorder.md).
+Hægt er að stofna sérsniðna hjálp fyrir Finance and Operations og fyrir Retail með því að stofna verkskráningar sem endurspegla innleiðingu þína og vista þær í LCS Business Process Library. Ekki er hægt að stofna sérsniðnar verkefnaleiðbeiningar fyrir Talent. 
+
+Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Frekari upplýsingar er að finna í efnisatriðinu [Hvernig stofna á verkskráningu sem nota á sem fylgigögn eða þjálfun](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Sjá einnig
 --------

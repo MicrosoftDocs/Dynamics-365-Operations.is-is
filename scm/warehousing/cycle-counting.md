@@ -3,26 +3,26 @@ title: Regluleg talning
 description: "Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endurskoða vörur á lager. Hægt er að lýsa reglulegri talningu í þremur áföngum:
 
 1.  **Stofna reglulega talningu vinnu** ─ Reglulega talningu vinna er stofnuð sjálfkrafa samkvæmt færibreytum þröskuld fyrir vörur eða með því að nota við áætlun um reglulega talningu. Einnig er hægt að stofna reglulega talningu vinnu handvirkt með því að nota færibreytur vöru eða vöruhúss á síðunni **Vinna reglulegrar talningar eftir vörum** eða á síðunni **Vinna reglulegrar talningar eftir staðsetningu**.
-2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Microsoft Dynamics 365 for Operations með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
+2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Microsoft Dynamics 365 for Finance and Operations með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
 3.  **Leysa mismun í talningargildi** -  Eftir reglulega talningu, munu allar vörur sem hafa mismunandi talningargildi hafa stöðuna **Bíður yfirferðar** í skjámyndinni **Allt**. Hægt er að leysa úr þessum mismun á síðunni **Vinna reglulegrar talningar bíður yfirferðar**.
 
 Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinnsluflæði fyrir reglulega talningu](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ Hægt er að setja upp áætlun um reglulega talningu til að stofna vinnu reglu
 Til að stofna vinnu reglulegrar talningar handvirkt er hægt að nota síðurnar **Vinna reglulegrar talningar eftir vörum** eða **Vinna reglulegrar talningar eftir staðsetningu**. Hægt er að tilgreina hámarksfjölda reglulegrar talningar sem hægt er að stofna í hvert sinn. Til dæmis, ef vöruhússtjórinn tilgreinir gildið **5** er vinna reglulegrar talningar stofnuð fyrir fimm staðsetningar jafnvel þó að varan er til staðar í 10 mismunandi stöðum. Einnig er hægt að velja vinnuhópskenni til að úthluta þeim vinnukennum reglulegrar talningar sem eru stofnuð til. Þegar vinnuhópskenni er unnið fyrir reglulega talningu, er vinnukenni reglulegrar talningar sem úthlutað er þessum vinnuhópi unnið eins og hópur.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Framkvæma reglulegar talningar með fartæki
-Það eru nokkrar aðferðir til að vinna reglulegrar talningar með því að nota Dynamics 365 for Operations í fartæki:
+Það eru nokkrar aðferðir við reglulega talningu þegar Finance and Operations er notað á fartæki:
 
 -   **Stýrt af notanda** ─ starfsmaðurinn getur tilgreint Vinnukenni reglulegrar talningar sem er í stöðunni **Opið**.
--   **Stýrt af kerfi** ─ Starfsmanninum er úthlutað vinnukenni reglulegrar talningar af Dynamics 365 for Operations.
+-   **Stýrt af kerfi** ─ Finance and Operations úthlutar starfsmanni auðkenni reglulegrar talningar.
 -   **Flokkun reglulegrar talningar** ─ starfsmaðurinn getur flokkað saman vinnukenni reglulegrar talningar sem tengjast tiltekinni staðsetningu, svæði eða vinnuhóp.
 -   **Regluleg stundartalning** ─ Starfsmaður getur talið vörur á vöruhúsi hvenær sem er án þess að skapa regluleg talningarvinnu. Til að framkvæma reglulega stundartalningu á staðsetningu, færir starfsmaðurinn inn staðsetningarauðkenni.
 
@@ -126,7 +126,7 @@ Eftirfarandi ferli er dæmi um hvernig hægt er að framkvæma reglulega stundar
 
 1.  Á farsíma, velja valmyndaratriði til að keyra vinnslu reglulegrar stundatalningar.
 2.  Skráið staðsetninguna þar sem á að framkvæma reglulega stundartalningu.
-3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:**Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar**, eða **Lokað** á síðunni **Allt**, eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
+3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:** Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar**, eða **Lokað** á síðunni **Allt**, eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
 4.  Valfrjálst: Endurtaka þrep 3 fyrir þær vörur sem eru eftir á staðsetningunni og staðfesta að það eru engar frekari vörur tiltækar fyrir talningu.
 
 ## <a name="resolve-cycle-counting-differences"></a>Leysa úr mismun á reglulegri talningu.

@@ -1,15 +1,16 @@
 ---
 title: "aðgerðaleit"
-description: "Þessi grein lýsir aðgerðaleit í Microsoft Dynamics 365 for Operations. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu."
+description: "Þessi grein lýsir aðgerðaleit í Microsoft Dynamics 365 for Finance and Operations. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir aðgerðaleit í Microsoft Dynamics 365 for Operations. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu.
+Þessi grein lýsir aðgerðaleit í Microsoft Dynamics 365 for Finance and Operations. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu.
 
 <a name="introduction"></a>Inngangur
 ------------
 
-Síður í Microsoft Dynamics 365 for Operations birta fyrst og fremst skipanir í aðgerðarúðum, bæði í staðlaðri aðgerðarúðu sem birtist efst á síðunni og á verkfærastikum sem birtast í ýmsum köflum síðunnar. Í fyrri útgáfum leyfir Lykillábending þér að fá aðgang fljótt á einhvern hnappinn á aðgerðarúðum með því að ýta á Alt-takkann og síðan röð af stöfum. 
+Síður í Microsoft Dynamics 365 for Finance and Operations birta fyrst og fremst skipanir í aðgerðarúðum, bæði í staðlaðri aðgerðarúðu sem birtist efst á síðunni og á verkfærastikum sem birtast í ýmsum köflum síðunnar. Í fyrri útgáfum leyfir Lykillábending þér að fá aðgang fljótt á einhvern hnappinn á aðgerðarúðum með því að ýta á Alt-takkann og síðan röð af stöfum. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Þó eru í gildandi útgáfu Dynamics 365 for Operations Ábendingar fyrir lykla ekki lengur tiltæk en hafa verið skipt út fyrir eiginleikann aðgerðaleit. Þessi nýi eiginleiki gerir þér kleift að leita fljótt og keyra hnapp af einhverju af sýnilegu aðgerðarúðunum.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Hins vegar eru lykilheilræði í gildandi útgáfu Finance and Operations ekki lengur tiltæk, en í þeirra stað kemur aðgerðaleitin. Þessi nýi eiginleiki gerir þér kleift að leita fljótt og keyra hnapp af einhverju af sýnilegu aðgerðarúðunum.
 
 ## <a name="using-action-search"></a>Notkun Aðgerðaleitar
 Til að nota eiginleikann aðgerðaleið, fylgið þessum skrefum.
@@ -53,7 +54,7 @@ Eftir að hnappurinn er keyrður fer áhersla á síðustu stöðu á síðunni,
 Einnig er hægt að hefja aðgerðaleit með því að ýta á Ctrl +/ eða Alt + Q. Styðjið á flýtilykli aftur til að snúa aftur áherslu að síðasta stað á síðunni.
 
 ## <a name="understanding-the-results-list"></a>Skilningur á lista yfir niðurstöður
-Oft, í Dynamics 365 for Operations, verður þú að vita bæði staðsetningu og samhengi hnapps til að fullu skilja tilgang þess hnapps. Þess vegna birtast viðbótarupplýsingar fyrir hvern hlut í listanum, til að hjálpa þér að skilja nákvæmlega hvaða hnappar birtast í listanum. Einkum er "slóð" hnappsins sýnd. Þessa slóð gætu innihaldið merki eftirfarandi eininga notendaviðmóts, eins og:
+Í Finance and Operations er oft nauðsynlegt að vita bæði staðsetningu og efni hnapps til að skilja tilgang þess hnapps til fulls. Þess vegna birtast viðbótarupplýsingar fyrir hvern hlut í listanum, til að hjálpa þér að skilja nákvæmlega hvaða hnappar birtast í listanum. Einkum er "slóð" hnappsins sýnd. Þessa slóð gætu innihaldið merki eftirfarandi eininga notendaviðmóts, eins og:
 
 -   Flipinn aðgerðarúða.
 -   Hnappaflokkur
@@ -70,7 +71,7 @@ Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Aðgerðaleita samanborið við flettingaleit
-Aðgerðaleit er ætlað að finna og keyra aðgerðir á síðu, þó er sérstakt leitarkerfi til að finna og fletta á síður í Dynamics 365 for Operations. Fyrir frekari upplýsingar um þann möguleika, að sjá greinina [Flettingaleit](navigation-search.md).
+Aðgerðaleit er ætlað að finna og keyra aðgerðir á síðu, en sérstakt leitarkerfi er til að finna og fletta á síður í Finance and Operations. Fyrir frekari upplýsingar um þann möguleika, að sjá greinina [Flettingaleit](navigation-search.md).
 
 
 

@@ -1,60 +1,60 @@
 ---
-title: "Algengar spurningar um Dynamics 365 for Operations-biðlara"
-description: "Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Operations-biðlarinn."
+title: Algengar spurningar fyrir Finance and Operations
+description: "Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations-biðlarann."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e8f09b965403298630460ccb6669fd82abb0e8c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b7618f5150b55542d26d10000a644a13a8651e82
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-client-faq"></a>Algengar spurningar um Dynamics 365 for Operations-biðlara
+# <a name="finance-and-operations-client-faq"></a>Algengar spurningar fyrir Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Operations-biðlarinn.
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations-biðlarann.
 
-<a name="why-arent-symbols-loaded-when-i-use-dynamics-365-for-operations"></a>Hvers vegna er táknum ekki hlaðið þegar ég nota Dynamics 365 for Operations?
+<a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Hvers vegna er táknum ekki hlaðið þegar ég nota Finance and Operations?
 -----------------------------------------------------------------
 
 Öryggisstillingar í vafranum geta komið í veg fyrir að táknum sé hlaðið rétt. Til að leysa þetta vandamál má reyna eitt af eftirfarandi:
 
 -   Ef þetta vandamál kemur upp í Internet Explorer skal smella á **verkfæri** og síðan í smella á **Netvalkostir**.  Á svarglugganum Netvalkostir, á **Persónuvernd** flipanum, er smellt á **Sérsniðið stig**, og ganga úr skugga um að valkosturinn **Leturgerðaniðurhal** sé valinn.
--   Annars gæti þurft að bæta Dynamics 365 for Operations svæðinu við lista yfir traust svæði.
+-   Annars gæti þurft að bæta Finance and Operations svæðinu við lista yfir traust svæði.
 
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Ég sakna borðans úr Dynamics AX 2012. Get ég haldið flipum Aðgerðarúðu opnum allar tímann?
 Við ætlum að innleiða þessa aðgerð í fljótlega. Notendur geta síðan valið að halda flipunum í Aðgerðarúðu alltaf opnum. Annars verða fliparnir felldir saman þegar ekki er verið að nota þá, til að fá meira pláss á síðunni.
 
 ## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Af hverju sé ég stundum aðrar flýtivalmyndir þegar ég hægrismelli?
-Ef hægrismellt er í breytanlegan reit (eða ef textinn er valinn), birtist flýtivalmynd vafra. Þessi valmynd veitir aðgang að skipununum **Klippa**, **Afrit** og **Líma**. Ekki er hægt að fella þessar skipanir inn í flýtivalmyndir Dynamics 365 for Operations þar sem af öryggisástæðum leyfa vafrar heimildarstillingar ekki skipulegan aðgang að klemmuspjaldi kerfisins.
+Ef hægrismellt er í breytanlegan reit (eða ef textinn er valinn), birtist flýtivalmynd vafra. Þessi valmynd veitir aðgang að skipununum **Klippa**, **Afrit** og **Líma**. Ekki er hægt að fella þessar skipanir inn í flýtivalmyndir Finance and Operations þar sem vafrar leyfa ekki forritunaraðgang að klemmuspjaldi kerfisins af öryggisástæðum.
 
-Ef þú hægrismellir á reitamerki eða gildi skrifvarins eftirlits muntu sjá flýtivalmynd Dynamics 365 for Operations.
+Ef þú hægrismellir á reitamerki eða gildi skrifvarins eftirlits muntu sjá flýtivalmynd Finance and Operations.
 
-Til að auðvelda aðgang að lyklaborði ætlum við að innleiða flýtileiðir lyklaborðs í framtíðinni sem opnar flýtivalmynd Dynamics 365 for Operations.
+Til að auðvelda aðgang að lyklaborði ætlum við að innleiða flýtileiðir lyklaborðs í framtíðinni sem opnar flýtivalmynd Finance and Operations.
 
-## <a name="where-is-the-view-details-functionality-in-dynamics-365-for-operations"></a>Hvar er virknin Skoða nánari upplýsingar í Dynamics 365 for Operations?
+## <a name="where-is-the-view-details-functionality-in-finance-and-operations"></a>Hvar er virknin Skoða upplýsingar í Finance and Operations?
 Valkosturinn **Skoða upplýsingar** er tiltækur á tvo vegu:
 
 -   Ef stýring hefur getuna **Skoða upplýsingar** og hafi stýringin gildi er gildið birt sem tengill. Hægt er að smella á tengillinn til að opna síðuna sem inniheldur viðbótarupplýsingar.
--   **Skoða upplýsingar**  er einnig valkostur í flýtivalmynd Dynamics 365 for Operations. Nánari upplýsingar um hvenær flýtivalmyndir Dynamics 365 for Operations birtast við hægrismell er að finna í fyrri hlutanum.
+-   **Skoða upplýsingar** er einnig valkostur í flýtivalmynd Finance and Operations. Nánari upplýsingar um hvenær flýtivalmyndir Finance and Operations birtast við hægrismell er að finna í fyrri hlutanum.
 
 
 

@@ -3,7 +3,7 @@ title: "Yfirlit virðisaukaskatts"
 description: "Þessi grein veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Yfirlit virðisaukaskatts
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Þessi grein veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
@@ -73,7 +75,7 @@ Eftirfarandi tafla lýsir einingar sem og röð fyrir uppsetningu skatti.
 Á hverri færslu er hægt að fletta upp reiknuðum virðisaukaskatti eftir opnun á **Vsk-færslan** síðu. Hægt er að fletta upp virðisaukaskatti fyrir línu skjals eða allt skjalið. Fyrir ákveðin skjöl (t.d.°reikning lánardrottins og almennar°færslubækur), er hægt að leiðrétta reiknaðan virðisaukaskatt ef upphaflega skjalið sýnir afbrigðilegar upphæðir.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Virðisaukauppgjör og skýrslugjöf
-Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 fyrir Operations hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
+Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
 
 Eftir°að búið er að greiða vsk ætti að jafna stöðu á reikningi virðisaukaskattsuppgjörs gagnvart bankareikningnum. Ef vsk-yfirvöld sem tilgreind eru í vsk-uppgjörstímabili eru tengd lánardrottnalykli er vsk-staða bókuð sem opinn lánardrottnareikningur og hægt að taka með í reglulegu greiðslutillögunni.
 

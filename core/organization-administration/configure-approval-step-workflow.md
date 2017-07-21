@@ -3,25 +3,25 @@ title: "Skilgreining samþykktarskrefs í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -38,7 +38,7 @@ Til að skilgreina samþykktarskref í verkflæðisritlinum, er hægrismellt á 
 Fylgið þessum skrefum til að færa inn heiti á samþykktarskrefinu.
 
 1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti**skal færa inn einkvæmt heiti fyrir samþykktarskref
+2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir samþykktarskref
 
 ## <a name="enter-a-subject-line-and-instructions"></a>Slá inn efnislínu og fyrirmæli
 Veita verður þeim notendum, sem úthlutað er þessu samþykktarskref, efnislínu og fyrirmæli. Til dæmis, ef verið er að skilgreina samþykktarskref fyrir innkaupabeiðnir, mun notanda er úthlutað á skrefið sjá efnislínuna og fyrirmælin á **Innkaupabeiðnir** síðunni. Efnislínuna birtist á skilaboðaslánni á síðunni. Notandinn getur síðan smellt á teiknið á skilaboðaslánni til að sjá leiðbeiningar. Fylgið eftirfarandi skrefum til að slá inn efnislínu og fyrirmæli.
@@ -126,10 +126,10 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     </tr>
     <tr class="even">
     <td>Notandi</td>
-    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að úthluta skrefi á, og færsa íðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að úthluta skrefi á, og færsa íðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +229,10 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
     </tr>
     <tr class="odd">
     <td>Notandi</td>
-    <td>Tilteknir notendur Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Dynamics 365 for Operations. Veldu Notendur til að stigmagna skjali fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að stigmagna skjali fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol></td>
     </tr>
     </tbody>

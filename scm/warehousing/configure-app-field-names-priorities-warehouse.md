@@ -1,29 +1,29 @@
 ---
 title: "Skilgreining svæðaheita í vöruhúsaforriti"
-description: "Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 for Operations."
+description: "Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti í Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: mafoge
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 for Operations. 
+Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti í Finance and Operations. 
 
-**Ábending:** Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Dynamics 365 for Operations - Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti og hvernig þau eru notuð í Dynamics 365 for Operations - Warehousing. Fyrir nákvæmar upplýsingar um hvernig á að skilgreina tengingu við Dynamics 365 for Operations  - Warehousing, vísast í sýniðdæmið [Setja upp og skilgreina Dynamics 365 for Operations - Warehousing](install-configure-warehousing-app.md).
+**Ábending:** Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Finance and Operations - Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Finance and Operations - Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við Finance and Operations - Warehousing má sjá í sýnidæminu [Setja upp og skilgreina Finance and Operations - Warehousing](install-configure-warehousing-app.md).
 
 <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 ===================================
 
-Þegar þú notar Dynamics 365 for Operations - Warehousing í fartækinu geturðu skilgreint hvernig lýsigögn skulu birt í tækinu á síðunni **Reitarheiti vöruhúsaforrits**. Í nýtt fyrirtæki í Dynamics 365 for Operations, velja **Stofna vanskil uppsetning** til að mynda öll reitarheiti sem verða notuð í verkflæðum vöruhússfartækja og svo úthluta æskilegan ílagsham og ílagsgerð á þau. Eftir að þú hefur myndað öll reitarheiti, geturðu valið eftirfarandi ílagsvalkosti.
+Þegar þú notar Finance and Operations - Warehousing í fartækinu geturðu skilgreint hvernig lýsigögn skulu birt í tækinu á síðunni **Reitarheiti vöruhúsaforrits**. Í nýju fyrirtæki í Finance and Operations skal velja **Stofna sjálfgefna uppsetningu** til að mynda öll reitarheiti sem verða notuð í verkflæðum vöruhússfartækja og svo úthluta æskilegan ílagsham og ílagsgerð á þau. Eftir að þú hefur myndað öll reitarheiti, geturðu valið eftirfarandi ílagsvalkosti.
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ ms.lasthandoff: 05/25/2017
 <a name="configure-warehouse-app-field-priority"></a>Grunnstilla reitaforgang vöruhúsaforrits
 ======================================
 
-Á síðunni **Svæðisforgangur vöruhúsaforrits** síða, geturðu sett reitarheiti inn í mismunandi forgangsflokka. Þetta gerir kleift að ákveða hvaða upplýsingar ætti að birta á aðalverkefnasíðunni þegar starfsmaður í vöruhúsi framkvæmir verkefni með notkun forritsins. Ef smellt er á **Stofna sjálfgefna uppsetningu**, verður sjálfgefinn hópur forgangsflokks myndaður. Hægt er að stofna eins marga forgangsflokka og þörf er á, en aðeins þrír forgangsflokkar verða sýndir á verkefnasíðunni. Þegar Dynamics 365 for Operations sendir lýsigögn í forritið mun það úthluta hverju svæði hlutfallslegum forgangi eftir forgangsflokki og forritið mun birta fyrstu þrjá forgangsflokkana sem eru birtir í lýsigögnunum á verkefni síða. Afgangurinn af yfirfylltum lýsigögnum verða birt á síðu með aukaupplýsingum. Eftirfarandi tafla sýnir dæmi um fimm forgangsflokka.
+Á síðunni **Svæðisforgangur vöruhúsaforrits** síða, geturðu sett reitarheiti inn í mismunandi forgangsflokka. Þetta gerir kleift að ákveða hvaða upplýsingar ætti að birta á aðalverkefnasíðunni þegar starfsmaður í vöruhúsi framkvæmir verkefni með notkun forritsins. Ef smellt er á **Stofna sjálfgefna uppsetningu**, verður sjálfgefinn hópur forgangsflokks myndaður. Hægt er að stofna eins marga forgangsflokka og þörf er á, en aðeins þrír forgangsflokkar verða sýndir á verkefnasíðunni. Þegar Finance and Operations sendir lýsigögn í forritið mun það úthluta hverju svæði hlutfallslegum forgangi eftir forgangsflokki og forritið mun birta fyrstu þrjá forgangsflokkana sem eru birtir í lýsigögnunum á verkefnasíðu. Afgangurinn af yfirfylltum lýsigögnum verða birt á síðu með aukaupplýsingum. Eftirfarandi tafla sýnir dæmi um fimm forgangsflokka.
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ Til dæmis þegar starfsmaður í vöruhúsi framkvæmir verk á fartæki, ef l�
 -   Lína 2: Vörulýsing
 -   Lína 3: Stærð
 
-Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Til að fræðast nánar og sjá dæmi um notandaviðmót, vísast í bloggfærsluna [Kynning á Dynamics 365 for Operations - Vöruhúsastjórnun](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Frekari upplýsingar um þetta og dæmi um notandaviðmót má sjá í bloggfærslunni [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Setja upp og grunnstilla Microsoft Dynamics 365 for Operations – Warehousing](install-configure-warehousing-app.md)
+[Setja upp og grunnstilla Microsoft Dynamics 365 for Finance and Operations – Warehousing](install-configure-warehousing-app.md)
 
 
 

@@ -3,14 +3,14 @@ title: "Uppsetning fartækja fyrir vöruhúsavinnu"
 description: "Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6a7658c56e2d0712c6aa27a4bb8ffc02bbd01d6c
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: dfb738e41f4b3f7d475a551dca0aba7a071dd989
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/25/2017
 Til að stofna valmyndaratriði fyrir verkþátt eða fyrirspurn er reiturinn **Máti** stilltur á **Óbeint**. Listi yfir valkosti **verkþáttarkóða** verður þá tiltækur, svo að hægt er að velja gerð fyrirspurnar eða aðgerðar sem valmyndaratriðið er fyrir. Til að stofna valmyndaratriði til að mynda vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna**. Listi yfir valkosti **Ferli vinnustofnunar** verður þá tiltækur. Til að stofna valmyndaratriði til að vinna úr fyrirliggjandi vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna** og svo valkosturinn **Nota fyrirliggjandi verk** á **Já**. **Ábending:** Viðbótarreitir gætu verið tiltækir fyrir valmyndaratriði, eftir þeim máta sem er valinn fyrir valmyndaratriðið og hvort valmyndaratriði er notað til að framkvæma fyrirliggjandi vinnu. Sjá hlutann „Fleiri valkostir valmyndaratriðis“ sem er seinna í þessari grein fyrir upplýsingar um valið svæði.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Skilgreina valmyndaratriði fyrir aðgerðir og fyrirspurnir
-Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint**er hægt að stofna valmyndaratriði til að framkvæma almennan verkþátt eða fyrirspurn sem stofnar ekki vinnu. Dæmi eru meðal annars endurprentun á númeraplötumerkjum og fyrirspurn um vörur á staðsetningu. Eftirfarandi tafla sýnir þá valkosti sem eru tiltækir.
+Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hægt að stofna valmyndaratriði til að framkvæma almennan verkþátt eða fyrirspurn sem stofnar ekki vinnu. Dæmi eru meðal annars endurprentun á númeraplötumerkjum og fyrirspurn um vörur á staðsetningu. Eftirfarandi tafla sýnir þá valkosti sem eru tiltækir.
 
 | Valkostur                      | Lýsing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint**er hægt
 </tr>
 <tr>
 <td>Hreyfingar eftir sniðmáti</td>
-<td>Færa vörur af einum stað á annan á hálfsjálfvirkan hátt. Starfskrafturinn velur staðsetningar til að flytja vörurnar frá og Microsoft Dynamics 365 for Operations notar staðsetningarleiðbeiningarnar til að ákvarða hvert á að færa vörurnar.</td>
+<td>Færa vörur af einum stað á annan á hálfsjálfvirkan hátt. Starfsmaðurinn velur staðsetningu til að flytja vörurnar úr og Finance and Operations notar staðsetningarleiðbeiningarnar til að ákvarða hvert á að færa vörurnar.</td>
 </tr>
 <tr>
 <td>Flutningur í vöruhús</td>
@@ -214,7 +214,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Stýrt af kerfi</td>
-<td>Microsoft Dynamics 365 for Operations stýrir gerð vinnu sem er úthlutað á starfskraft og pöntunina sem starfskrafturinn framkvæmir vinnuna á. Þegar þessi valkostur er valinn er hægt að smella á <strong>Kerfisstýrt verk</strong> í aðgerðarúðunni til að opna síðuna <strong>Kerfisleiðbeindir röðunarkostir</strong> þar sem hægt er að setja upp röðunarskilyrði fyrir vinnuna. Röðunarforsendur að stýra röðinni sem starfskraftur framkvæmir vinnuna. Hægt er að bæta við eins mörgum skilyrðum og þarf.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations stýrir gerð vinnu sem er úthlutað á starfskraft og pöntunina sem starfskrafturinn framkvæmir vinnuna á. Þegar þessi valkostur er valinn er hægt að smella á <strong>Kerfisstýrt verk</strong> í aðgerðarúðunni til að opna síðuna <strong>Kerfisleiðbeindir röðunarkostir</strong> þar sem hægt er að setja upp röðunarskilyrði fyrir vinnuna. Röðunarforsendur að stýra röðinni sem starfskraftur framkvæmir vinnuna. Hægt er að bæta við eins mörgum skilyrðum og þarf.</td>
 </tr>
 <tr class="odd">
 <td>Stýrt af notanda</td>
@@ -226,7 +226,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="odd">
 <td>Kerfisflokkun</td>
-<td>Microsoft Dynamics 365 for Operations-hópar vinna fyrir starfskraft á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
+<td>Hópar í Microsoft Dynamics 365 for Finance and Operations vinna fyrir starfsmann á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
 <ul>
 <li><strong>Kerfisflokkunarsvæði</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Kerfisflokkunarmerki</strong> - Sláðu inn texta til að leiðbeina starfsmanni um hvað ég á að skanna til að flokka verkið.</li>
@@ -247,7 +247,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Flokkun reglulegrar talningar</td>
-<td>Starfskrafturinn velur svæði, vinnuhópi eða staðsetningu, og Microsoft Dynamics 365 for Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
+<td>Starfsmaðurinn velur svæði, vinnuhóp eða staðsetningu, og Microsoft Dynamics 365 for Finance and Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
 </tr>
 </tbody>
 </table>
@@ -331,7 +331,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Frágangur hóps</td>
-<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnunni var flokkað af starfsmanni eða af Microsoft Dynamics 365 for Operations. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
+<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnan var flokkuð af starfsmanni eða af Microsoft Dynamics 365 for Finance and Operations. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
 </tr>
 <tr class="even">
 <td>Gerðir leiðréttinga á birgðaskrá </td>
@@ -364,11 +364,11 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="even">
 <td>Kerfisflokkunarsvæði</td>
-<td>Velja reitinn sem ákvarðar hvernig Microsoft Dynamics 365 for Operations flokkar tiltektarvinnu fyrir starfsmenn. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
+<td>Veldu reitinn sem ákvarðar hvernig Microsoft Dynamics 365 for Finance and Operations flokkar tiltektarvinnu fyrir starfsmenn. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
 </tr>
 <tr class="odd">
 <td>Kerfisflokkunarmerki</td>
-<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Microsoft Dynamics 365 for Operations. Til dæmis, ef verið er að nota reitinn <strong>ShipmentId</strong> til að flokka tiltektarvinnu eftir sendingu væri hægt að færa inn <strong>Sendingarkenni</strong> í reitinn. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
+<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis, ef verið er að nota reitinn <strong>ShipmentId</strong> til að flokka tiltektarvinnu eftir sendingu væri hægt að færa inn <strong>Sendingarkenni</strong> í reitinn. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
 </tr>
 <tr class="even">
 <td>Nota sjálfgefinn gagnagrunn</td>
@@ -384,13 +384,13 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
-<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Operations sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Finance and Operations sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Krefjast að starfsmenn staðfesti afurð, staðsetningu eða magn við tiltekt á vörum
-Þú getur sett upp verkstaðfestingar sem krefjast þess að starfsmaður noti fartækið til að skrá staðsetningu eða magn þegar vinna er unnin í vöruhúsi. Verkstaðfestingar hjálpa við að tryggja að starfsmaðurinn sé á réttum stað eða sé að meðhöndla rétt magn vara. Einnig er hægt að virkja Microsoft Dynamics 365 for Operations til að staðfesta skráningu starfsmanns sjálfkrafa. Ef sjálfvirk staðfesting er virkjuð er ekki hægt að krefjast einnig staðfestinga fyrir staðsetningu eða magn. Verkstaðfestingar innihalda einnig afurðir og afurðarafbrigði. Þar að auki er hægt að skrá staðfestingar með því að skanna strikamerki. Til að staðfesta afurðir og afurðarafbrigði, verður að færa inn kenni fyrir afurð eða afurðarafbrigði. Þetta kenni getur verið Afurðakenni, Afurðarkenni leit, ytri Kenni, GTIN eða strikamerki. Eftir að þú slærð inn kennið eða skannar strikamerki eru stærðir fyrir afurðarafbrigði birt á farsímanum. 
+Þú getur sett upp verkstaðfestingar sem krefjast þess að starfsmaður noti fartækið til að skrá staðsetningu eða magn þegar vinna er unnin í vöruhúsi. Verkstaðfestingar hjálpa við að tryggja að starfsmaðurinn sé á réttum stað eða sé að meðhöndla rétt magn vara. Einnig er hægt að virkja Microsoft Dynamics 365 for Finance and Operations til að staðfesta skráningu starfsmanns sjálfkrafa. Ef sjálfvirk staðfesting er virkjuð er ekki hægt að krefjast einnig staðfestinga fyrir staðsetningu eða magn. Verkstaðfestingar innihalda einnig afurðir og afurðarafbrigði. Þar að auki er hægt að skrá staðfestingar með því að skanna strikamerki. Til að staðfesta afurðir og afurðarafbrigði, verður að færa inn kenni fyrir afurð eða afurðarafbrigði. Þetta kenni getur verið Afurðakenni, Afurðarkenni leit, ytri Kenni, GTIN eða strikamerki. Eftir að þú slærð inn kennið eða skannar strikamerki eru stærðir fyrir afurðarafbrigði birt á farsímanum. 
 
 Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verkstaðfestingar með.
 

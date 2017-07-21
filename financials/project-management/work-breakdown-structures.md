@@ -1,28 +1,28 @@
 ---
 title: "Sundurliðanir verkþátta"
-description: 
+description: "Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
-ms.search.validFrom: 2016-02-28
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Sundurliðanir verkþátta Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks. WBS hefur þrennan megintilgang:
+Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks. WBS hefur þrennan megintilgang:
 
 -   Lýsa sundurliðun eða samsetningu vinnu í verkum.
 -   Tímasettu verkþáttinn.
@@ -43,7 +40,7 @@ Stig upplýsinga í WBS fer eftir því stigi nákvæmni sem krafist er í mati 
 
 Aftur á móti eru verkefni í atvinnugreinum eins og miðlun og auglýsingum, hugbúnaði og upplýsingatæknitölvukerfum yfirleitt einstök og framleiðni er í samræmi við reynslu og hæfni einstaklingsins sem framkvæmir verkið. Þess vegna nota þessar atvinnugreinar WBS til að fá áætlun á stærð verksins, en ekki til að rekja sundurliðaða framvindu verksins. 
 
-Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 for Operations til að uppfylla kröfur fyrir mat og rakningu.
+Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 for Finance and Operations til að uppfylla kröfur fyrir mat og rakningu.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Forkröfur fyrir stofnun WBS
 Til að stofna WBS, verður að vera hægt að stofna vinnuáætlun og meta kostnað vinnu.
@@ -68,7 +65,7 @@ Til að setja upp vinnutíma fyrir dagatal vinnudaga og eða stofna nýtt dagata
 Til að nota alla getu kostnaðarmats WBS þarf að setja upp kostnað og söluverð fyrir starfsmenn, tegundir af vinnu, kostnað, og þóknanir og vörur.
 
 -   Til að setja upp kostnað og söluverð vinnu-, útgjalda-og þóknunartegundir skal smella á **Verkefnastjórnun og bókhald** &gt; **Uppsetningu** &gt; **Verð**.
--   Til að setja upp kostnað og söluverð vara skal nota síðuna **Viðskiptasamningar**fyrir hverja vöru á listasíðunni **Útgefnum afurðum** í Upplýsingar um afurðarstjórnun.
+-   Til að setja upp kostnað og söluverð vara skal nota síðuna **Viðskiptasamningar** fyrir hverja vöru á listasíðunni **Útgefnum afurðum** í Upplýsingar um afurðarstjórnun.
 
 ## <a name="creating-a-wbs"></a>Stofna sundurliðun verkþátta
 Stofnun sundurliðunar verkþátta felur í sér þrjár aðgerðir:
@@ -106,10 +103,10 @@ Sem stendur er ekki hægt að sérsníða númer sundurliðunar verkþátta.
 
 ### <a name="schedule-estimation"></a>Tímasetja mat
 
-Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starfsvenjur eru að ljúka við tímasetningu áætlunar þegar búið er að stofna verk. Síðan **Sundurliðun verkþátta** í Microsoft Dynamics 365 for Operations hefur tvo hluta. Efri rúðan er ætluð fyrir tímasetningu áætlunar og sú neðri inniheldur flipann **Áætlaður kostnaður og tekjur** sem hægt er að nota fyrir kostnaðarmat. 
+Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starfsvenjur eru að ljúka við tímasetningu áætlunar þegar búið er að stofna verk. Síðan **Sundurliðun verkþátta** í Finance and Operations hefur tvo hluta. Efri rúðan er ætluð fyrir tímasetningu áætlunar og sú neðri inniheldur flipann **Áætlaður kostnaður og tekjur** sem hægt er að nota fyrir kostnaðarmat. 
 **Tengsl verkefnis** Í WBS er hægt að stofna forveravensl milli verka. Þegar forveraverkefni er úthlutað á verk getur það verk aðeins hafist eftir að öllum forveraverkum þess er lokið. Áætluð upphafsdagsetning verksins er sjálfkrafa stillt á síðustu dagsetningu allra forvera. 
 
-**Verkáætlun í Microsoft Dynamics 365 for Operations** Eftirfarandi þættir ákvarða áætlun fyrir verkefni í hnút:
+**Verkáætlun í Microsoft Dynamics 365 for Finance and Operations** Eftirfarandi þættir ákvarða áætlun fyrir verkefni í hnút:
 
 -   Forverar
 -   Framlag
@@ -126,7 +123,7 @@ Upphafsdagsetning laufhnúts verkefnis sem er ekki með forvera er sjálfkrafa s
 
 Fjöldi fólks × Tímalengd × Tímafjöldi á stöðluðum vinnudegi í verkdagatali. 
 
-Í sumum tilvikum getur verið ágætt að víkja frá þessum reglum. Hægt er að slökkva á sjálfvirkri áætlun til að koma í veg fyrir Microsoft Dynamics 365 fyrir Operations stilli sjálfkrafa eða leiðrétti eiginleika laufhnútaverka. Þegar færðar eru inn upplýsingar um verkefni sem veldur broti á áætlunarreglum er villutákn áætlunar sýnt fyrir verkið. Ef ekki á að birta áætlunarvillur er smellt á **Áætlunarvillur eru sýndar** til að slökkva á eiginleikanum. 
+Í sumum tilvikum getur verið ágætt að víkja frá þessum reglum. Hægt er að slökkva á sjálfvirkri áætlun til að koma í veg fyrir Finance and Operations stilli sjálfkrafa eða leiðrétti eiginleika laufhnútaverka. Þegar færðar eru inn upplýsingar um verkefni sem veldur broti á áætlunarreglum er villutákn áætlunar sýnt fyrir verkið. Ef ekki á að birta áætlunarvillur er smellt á **Áætlunarvillur eru sýndar** til að slökkva á eiginleikanum. 
 
 > [!NOTE] 
 > Gildi fyrir samantektar- eða uppistöðuverk eru áfram reiknuð sem summa af gildum uppistöðuverksins, óháð því hvort kveikt er eða slökkt á ráðgjöf sjálfvirkrar áætlunar. 
@@ -135,7 +132,7 @@ Fjöldi fólks × Tímalengd × Tímafjöldi á stöðluðum vinnudegi í verkda
 
 **Leiðrétting áætlunarvillna eftir verki** Þegar tvísmellt er á áætlunarvillutáknið fyrir tiltekin verk birtir svargluggi allar áætlunarvillur fyrir það verk. Hægt er að ákveða hvaða áætlunarvillur á að laga fyrir verkið. 
 
-**Leiðrétting allra áætlunarvillna** Ef þú vilt að Microsoft Dynamics 365 for Operations lagi allar áætlunarvillur í WBS skal smella á **Laga allt misræmi í áætlunargerð** í Aðgerðasvæði. 
+**Leiðrétting allra áætlunarvillna** Ef þú vilt að Finance and Operations lagi allar áætlunarvillur í WBS skal smella á **Laga allt misræmi í áætlunargerð** í Aðgerðasvæði. 
 
 > [!NOTE] 
 > Þessi eiginleiki getur valdið töluverðum breytingum á WBS. Villur eru leiðréttar í eftirfarandi röð:
@@ -170,7 +167,7 @@ Kostnaðar- og söluverð fyrir hverja línu vinnu- eða útgjaldamats eru bygg�
 ## <a name="tracking-progress-on-the-wbs"></a>Rakning framvindu á WBS
 Sumar atvinnugreinar rekja framvindu verks gagnvart WBS á mjög grófan hátt en aðrar rekja framvindu á hærra stigi í WBS. Þessi hluti lýsir því hvernig hægt er að nota WBS fyrir kröfur verks. 
 
-Microsoft Dynamics 365 fyrir Operations er með þrjú yfirlit fyrir WBS verks: Yfirlit áætlana, Rakningarskoðun framlags og Yfirsýn yfir kostnaðarrakningu.
+Finance and Operations er með þrjú yfirlit fyrir WBS verks: Yfirlit áætlana, Rakningarskoðun framlags og Yfirsýn yfir kostnaðarrakningu.
 
 ### <a name="planning-view"></a>Yfirlit áætlana
 
@@ -246,13 +243,13 @@ Tímastilling á grafi áunnins virði er birt eftir viku eða mánuði. Þessi 
 
 **Áætlað virði** EVM-kenningin tilgreinir að teiknun áætlaðra gilda stendur fyrir tíðni sem verkteymið áætlaði að ávinna virði í verkinu. 
 
-Microsoft Dynamics 365 fyrir Operations notar 0:100 tekjuregluna þegar það teiknar áætluð gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
+Finance and Operations notar 0:100 tekjuregluna þegar það teiknar áætluð gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
 
 Í verkstjórnun og bókhaldi skal færa inn lokadagsetningu laufhnúta og áætlaðan kostnað fyrir það. Þegar graf yfir áætlaða gildi er sýndur eftir vikum eru áætluð gildi samanlögð eftir vikum fyrir öll verk hnút á laufstigi fyrir tímalengd verksins. 
 
 **Áunnið virði** EVM-kenningin tilgreinir að teiknun áunnins virðis stendur fyrir tíðni sem verkteymið ávinnur sér í raun virði í verkinu. 
 
-Microsoft Dynamics 365 for Operations notar 0:100 tekjuregluna þegar það teiknar áunnið virði. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
+Finance and Operations notar 0:100 tekjuregluna þegar það teiknar áunnið gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
 
 Þegar áunnið virði er reiknað er tekið tillit til framvinduhlutfalls hvers verks. Samkvæmt 0:100 tekjureglunni er eingöngu tekið tillit til verka sem er lokið á tilteknu tímabili fyrir útreikning á áunnu virði í lok þess tímabils. Áunnið virði verks er reiknað fyrir öll verkefni sem hefur verið lokið þegar línuritið er stofnuð. 
 

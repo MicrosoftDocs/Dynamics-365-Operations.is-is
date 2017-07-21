@@ -3,25 +3,25 @@ title: "Skilgreining samþykktarferlis í verkflæði"
 description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -117,10 +117,10 @@ Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, 
     </tr>
     <tr class="odd">
     <td><strong>Notandi</strong></td>
-    <td>Tilteknir notendur Microsoft Dynamics 365 for Operations</td>
+    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li><strong>Tiltækir notendur</strong>: listinn inniheldur alla notendur í Microsoft Dynamics 365 for Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</li>
+    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Microsoft Dynamics 365 for Finance and Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</li>
     </ol></td>
     </tr>
     </tbody>

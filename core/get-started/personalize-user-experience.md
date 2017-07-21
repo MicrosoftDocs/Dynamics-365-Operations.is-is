@@ -1,61 +1,61 @@
 ---
 title: "Sérstilling viðmótsins"
-description: "Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Operations."
+description: "Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysUserSetup
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 689efef6ffa10bbee30cd734f3f09ba20957834d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="personalize-the-user-experience"></a>Sérstilling viðmótsins
+# <a name="personalize-the-user-experience"></a>Sérsniðin notkun
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Operations.
+Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations.
 
-Það eru margar gerðir sérstillinga í Microsoft Dynamics 365 for Operations. Sumar sérstillingar eru valdar í lista yfir valkosti á uppsetningarsíðunni. Sumar sérstillingar eru óbeinar, til dæmis heldur Dynamics 365 for Operations utan um breidd dálka í hnitanetinu ef það þarf að leiðrétta þá og útvíkkaða/samandregna stöðu flýtiflipa. Aðrar sérstillingar eru beinar. Fyrir beinar sérstillingar er færður inn gagnvirkur sérsniðsmáti og útliti síðu breytt með því að stjórna því hvernig einingar birtast eða bregðast við á síðunni. 
++Það eru margar gerðir sérstillinga í Microsoft Dynamics 365 for Finance and Operations. Sumar sérstillingar eru valdar í lista yfir valkosti á uppsetningarsíðunni. Sumar sérstillingar eru óbeinar, til dæmis heldur Finance and Operations utan um breidd dálka í hnitanetinu ef það þarf að leiðrétta þá og útvíkkaða/samandregna stöðu flýtiflipa. Aðrar sérstillingar eru beinar. Fyrir beinar sérstillingar er færður inn gagnvirkur sérsniðsmáti og útliti síðu breytt með því að stjórna því hvernig einingar birtast eða bregðast við á síðunni. 
 
-Allar sérstillingar, af hvaða tagi sem er, sem notandi gerir í Dynamics 365 for Operations eru aðeins fyrir þann notanda, burtséð frá fyrirtækinu sem notandinn sem vinnur með. Breytingar sem notandi gerir á síðu hafa ekki áhrif á aðra notendur kerfisins.
+Allar sérstillingar, af hvaða tagi sem er, sem notandi gerir í Finance and Operations eru aðeins fyrir þann notanda, burtséð frá fyrirtækinu sem notandinn vinnur með. Breytingar sem notandi gerir á síðu hafa ekki áhrif á aðra notendur kerfisins.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Kerfisaltækir valkostir fyrir núverandi notanda
 Í yfirlitsstiku finnurðu mynd af tannhjóli, sem kallast valmyndarhnappurinn **Stillingar**. Opnun valmyndarinnar **Stillingar** mun sýna fjölda valkosta. Val á **Valkostir** opnar síðuna **Valkostir** notanda. Þar finnurðu fjóra valkostaflipa: **Visual**, **Kjörstillingar**, **Lykil** og **Verkflæði**.
 
 -   **Visual:** Notað til að velja litaþema og sjálfgefin stærð einingar á síðum fyrirtækisins.
--   **Kjörstillingar:**Hér er hægt að velja sjálfgildi fyrir hvert sinn sem Dynamics 365 for Operations er opnað, þ.m.t. fyrirtækið, upphafssíðu og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opinn til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
--   **Lykill:**Notað til að veita Notandakenni og aðra lykiltengda valkosti.
--   **Verkflæði:**Hér er hægt er að velja erkflæðistengda valkosti.
+-   **Kjörstillingar:** Hér er hægt að velja sjálfgildi fyrir hvert skipti sem Finance and Operations er opnað, þ.m.t. fyrirtækið, upphafssíða og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opin til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
+-   **Lykill:** Notað til að veita Notandakenni og aðra lykiltengda valkosti.
+-   **Verkflæði:** Hér er hægt er að velja erkflæðistengda valkosti.
 
 ## <a name="implicit-personalizations"></a>Óbeinar sérstillingar
 Óbeinar sérstillingar eru þær sérstillingar sem eru framkvæmdar einfaldlega með notkun ákveðinna stýringa sem muna núverandi stöðu sína. 
 
-**Dálkar í hnitanetinu:** Hægt er að stilla breidd dálks í lista með því að velja stærðarstikuna til vinstri eða hægri við dálkhausinn og renna henni til vinstri eða hægri um æskilega breidd. Dynamics 365 for Operations mun geyma breiddina sem á að stilla og sýna dálkinn með þeirri breidd í hvert skipti sem síðan er opnuð sem listi. 
+**Dálkar í hnitanetinu:** Hægt er að stilla breidd dálks í lista með því að velja stærðarstikuna til vinstri eða hægri við dálkhausinn og renna henni til vinstri eða hægri um æskilega breidd. Finance and Operations geymir breiddina sem á að stilla og sýna dálkinn með þeirri breidd í hvert skipti sem síðan er opnuð sem listi. 
 
-**Flýtiflipar:** Sumar síður hafa stækkanlega hluta sem kallast flýtiflipar. Dynamics 365 for Operations mun geyma hvaða flýtiflipar hafa verið útvíkkaðir og hvaða flýtiflipar hafa verið dregnir saman. Í hvert sinn sem síðu er skilað eru þessir sömu flýtiflipar útvíkkaðir eða dregnir saman byggð á þeim var notað síðast. Í þessari grein verður útskýrt hvernig á að breyta röðun á flýtiflipunum. Í sumum tilvikum getur minnkun flýtiflipa bætt afköst því Dynamics 365 for Operations þarf ekki að sækja upplýsingar um þá flýtiflipa fyrr en flýtiflipinn er útvíkkaður. 
+**Flýtiflipar:** Sumar síður hafa stækkanlega hluta sem kallast flýtiflipar. Finance and Operations geymir hvaða flýtiflipar hafa verið útvíkkaðir og hvaða flýtiflipar hafa verið dregnir saman. Í hvert sinn sem síðu er skilað eru þessir sömu flýtiflipar útvíkkaðir eða dregnir saman byggð á þeim var notað síðast. Í þessari grein verður útskýrt hvernig á að breyta röðun á flýtiflipunum. Í sumum tilvikum getur minnkun flýtiflipa bætt afköst því Finance and Operations þarf ekki að sækja upplýsingar um þá flýtiflipa fyrr en flýtiflipinn er útvíkkaður. 
 
-**Staðreyndareitir:** Sumar síður hafa hluta sem kallast Staðreyndarúða. Þessi rúða inniheldur aðeins til lestrar upplýsingar sem tengjast gildandi efni á síðunni. Hver kafli í staðreyndarúðunni er kallaður staðreyndareitur. Hægt er að útvíkka eða draga saman staðreyndareiti og Dynamics 365 for Operations mun geyma forstillingar þínar. Í sumum tilvikum getur minnkun staðreyndareita bætt afköst því Dynamics 365 for Operations þarf ekki að sækja upplýsingar um þá staðreyndareiti fyrr en staðreyndareiturinn er útvíkkaður.
+**Staðreyndareitir:** Sumar síður hafa hluta sem kallast Staðreyndarúða. Þessi rúða inniheldur aðeins til lestrar upplýsingar sem tengjast gildandi efni á síðunni. Hver kafli í staðreyndarúðunni er kallaður staðreyndareitur. Hægt er að útvíkka eða draga saman staðreyndareiti og Finance and Operations mun geyma forstillingar þínar. Í sumum tilvikum getur minnkun staðreyndareita bætt afköst því Finance and Operations þarf ekki að sækja upplýsingar um þá staðreyndareiti fyrr en staðreyndareiturinn er útvíkkaður.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Yfirlýstar sérstillingar með sérsniðinni verkfærastiku
-Hver einstaklingur og fyrirtæki hefur mismunandi sjónarhorn um hvaða gögn eru þeim mikilvægust eða hvaða gögn er ekki þörf fyrir hátt rekstrinum þær keyrðar. Möguleikinn á að sníða hvernig upplýsingum er raðað, unnið með þær eða þær jafnvel faldar er lykillinn að því að gera Dynamics 365 for Operations persónulega. 
+Hver einstaklingur og fyrirtæki hefur mismunandi sjónarhorn um hvaða gögn eru þeim mikilvægust eða hvaða gögn er ekki þörf fyrir hátt rekstrinum þær keyrðar. Möguleikinn á að sníða hvernig upplýsingum er raðað, unnið með þær eða þær jafnvel faldar er lykillinn að því að gera Finance and Operations persónulegt og skilvirkt. 
 
 Beinar sérstillingar eru þær sérstillingar sem eru framkvæmdar beint og er ætlað að breyta útliti eða hegðun á einingu eða síðunni með því að velja sérsnið valmynd. Grunngerð beinna sérstillinga er þar sem hægrismellt er á einingu og valið **Sérsníða**. (Athugið að ekki er hægt að sérsníða allar einingar á síðunni.) Þegar þessi sérstillingaraðferð er valin sérðu eiginleikaglugga einingarinnar. 
 
@@ -67,11 +67,11 @@ Eining á síðu er breytt á þennan hátt ef einfaldlega á að breyta merki e
 
 [![Tækjastika sérstillinga](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Sérsniðin tækjastika er með fjölda aðgerða sem sérsnið. Velja skal **Velja** verkfærið þegar óskað er að velja og breyta eiginleikum yfir marga þætti, eitt í einu. Fyrst, smella á Velja verkfæri og smellið síðan á eininguna með eiginleika sem óskað er að breyta. Þegar eining er valin opnast gluggi eiginleika einingar og er hægt að breyta hvaða eiginleikumsem er fyrir þá einingu. Hægt er að endurtaka ferlið fyrir aðrar einingar í skjámyndinni sem eru sérsniðnar. Í sumum tilfellum velurðu einingu og sér að ekki er hægt að breyta sumum eiginleikunum. Þetta þýðir að byggt á því hvernig núverandi eining er notuð, Dynamics 365 for Operations getur ekki gera það mögulegt að breyta þeim eiginleika. Til dæmis er ekki hægt að fela áskilinn reit. 
+Sérsniðin tækjastika er með fjölda aðgerða sem sérsnið. Velja skal **Velja** verkfærið þegar óskað er að velja og breyta eiginleikum yfir marga þætti, eitt í einu. Fyrst, smella á Velja verkfæri og smellið síðan á eininguna með eiginleika sem óskað er að breyta. Þegar eining er valin opnast gluggi eiginleika einingar og er hægt að breyta hvaða eiginleikumsem er fyrir þá einingu. Hægt er að endurtaka ferlið fyrir aðrar einingar í skjámyndinni sem eru sérsniðnar. Í sumum tilfellum velurðu einingu og sér að ekki er hægt að breyta sumum eiginleikunum. Þetta þýðir að vegna þess hvernig núverandi eining er notuð getur Finance and Operations ekki leyft að þeim eiginleika sé breytt. Til dæmis er ekki hægt að fela áskilinn reit. 
 
-Velja skal **Færa** verkfærið þegar óskað er að velja og færa einingu á aðra staðsetningu innan núverandi einingaflokks. (Ekki er hægt að flytja einingu út fyrir yfirflokk hennar). Fyrst skal smella á verkfærið Flytja og síðan á eininguna sem á að flytja. Þegar smellt er á eininguna sem á að flytja mun Dynamics 365 fyrir Operations skanna skjámyndina til að skilja hvert er hægt að flytja eininguna og stofna raðir „sleppistaða“ sem eru sýndir sem lituð, feitletruð lína við svæði þar sem hægt er að sleppa einingunni þegar hún er dregin um með gildandi flokki. 
+Velja skal **Færa** verkfærið þegar óskað er að velja og færa einingu á aðra staðsetningu innan núverandi einingaflokks. (Ekki er hægt að flytja einingu út fyrir yfirflokk hennar). Fyrst skal smella á verkfærið Flytja og síðan á eininguna sem á að flytja. Þegar smellt er á eininguna sem á að flytja skannar Finance and Operations skjámyndina til að skilja hvert er hægt að flytja eininguna og stofna raðir „sleppistaða“, sem eru sýndir sem lituð, feitletruð lína við svæði þar sem hægt er að sleppa einingunni þegar hún er dregin um innan gildandi flokks. 
 
-Velja skal **Fela** verkfæri til að velja og fela einingar. Til að fela einingar skal einfaldlega velja verkfærði Fela og smella á þá einingu sem óskað er að fela. Þegar verkfærið Fela er valið verða allar einingar sem eru faldar gerðar sýnilegar og sýndar í skyggðu boxi þannig að hægt er að velja eininguna til að hún sé ekki lengur falin. Veldu verkfærið Velja til að sjá hvernig síðan mun líta út með valdar einingar faldar. Velja skal verkfærið **Samantekt** þegar sýna á tölustafa- eða strengjareit á samantektarsvæði flýtiflipa. Samantektarforritið á einungis við um reiti sem eru innan hluta flýtiflipa. Þegar verkfærið Samantekt er valið sýnir Dynamics 365 fyrir Operations alla reiti sem hafa verið valdir sem samantektarreitir með því að setja þá í skyggð box. Hægt er að bæta gagnvirkt við og fjarlægja reiti úr samantekt flýtiflipa með því að smella á reitinn. 
+Velja skal **Fela** verkfæri til að velja og fela einingar. Til að fela einingar skal einfaldlega velja verkfærði Fela og smella á þá einingu sem óskað er að fela. Þegar verkfærið Fela er valið verða allar einingar sem eru faldar gerðar sýnilegar og sýndar í skyggðu boxi þannig að hægt er að velja eininguna til að hún sé ekki lengur falin. Veldu verkfærið Velja til að sjá hvernig síðan mun líta út með valdar einingar faldar. Velja skal verkfærið **Samantekt** þegar sýna á tölustafa- eða strengjareit á samantektarsvæði flýtiflipa. Samantektarforritið á einungis við um reiti sem eru innan hluta flýtiflipa. Þegar verkfærið Samantekt er valið sýnir Finance and Operations alla reiti sem hafa verið valdir sem samantektarreiti með því að setja þá í skyggð box. Hægt er að bæta gagnvirkt við og fjarlægja reiti úr samantekt flýtiflipa með því að smella á reitinn. 
 
 Velja skal verkfærið **Sleppa** til að fjarlægja einingu úr röð af fliparöð lyklaborðs á síðu. Þegar valið er að Sleppa verkfæri allar einingar sem er sleppt verður sýnd í skyggðu geymir svo hægt sé að velja þær aftur til að gera þær hluti af röð flipanum með því að velja sleppt einingu. 
 
@@ -104,16 +104,17 @@ Til að bæta við reit á vinnusvæði þarf fyrst að sía lista svo að hann 
 Sum vinnusvæða innihalda talningarreiti (reitir með númerum á þeim) sem þú vilt einnig sjá á stjórnborðinu. Á vinnusvæðinu hægrismellirðu á talningarreitinn og velur **Aðlaga**. Veldu **Festa á stjórnborð**. Næst þegar farið er á (og endurnýjað) valið stjórnborð sérð það sem talningu undir yfirlitsreit vinnusvæðisins í stjórborðinu.
 
 ## <a name="explicit-personalization-personalizing-your-dashboard"></a>Yfirlýst sérsnið: Sérsníða skal stjórnborð
-Stjórnborðið er oft fyrsta síðan sem birtist þegar Dynamics 365 fyrir Operations er opnað. Hægt er að sérsníða stjórnborðið til að endurnefna yfirlitsreiti vinnusvæðis, til að sýna aðeins þá reiti sem þú vilt sjá, endurnefna reiti eða til að hagræða reitum í þeirri röð sem þú vilt sjá þá. Til að sérsníða stjórnborð skal velja hvaða reit sem er og hægrismella til að opna valmynd samhengi. Í samhengisvalmyndinni velurðu **Aðlaga**. Ef valinn reitur er sá sem á að fela eða endurnefna eða sleppa er hægt að gera þá breytingu beint í glugga Eiginleika sem hefur birst. Ef óskað er að raða reitir, veljið síðan **Aðlaga þessa skjámynd** í glugganum Eiginleika til að opna tækjastiku Sérsnið. Síðan er hægt að nota verkfærið Flytja til að raða reitunum.
+Stjórnborðið er oft fyrsta síðan sem birtist þegar Finance and Operations er opnað. Hægt er að sérsníða stjórnborðið til að endurnefna yfirlitsreiti vinnusvæðis, til að sýna aðeins þá reiti sem þú vilt sjá, endurnefna reiti eða til að hagræða reitum í þeirri röð sem þú vilt sjá þá. Til að sérsníða stjórnborð skal velja hvaða reit sem er og hægrismella til að opna valmynd samhengi. Í samhengisvalmyndinni velurðu **Aðlaga**. Ef valinn reitur er sá sem á að fela eða endurnefna eða sleppa er hægt að gera þá breytingu beint í glugga Eiginleika sem hefur birst. Ef óskað er að raða reitir, veljið síðan **Aðlaga þessa skjámynd** í glugganum Eiginleika til að opna tækjastiku Sérsnið. Síðan er hægt að nota verkfærið Flytja til að raða reitunum.
 
 ## <a name="administration-of-personalization"></a>Stjórnun sérstillinga
-Mögulegt er að sérsníða síðu og deila henni með öðrum notendum með því einfaldlega að flytja út sérsniðna síðu og biðja aðra notendur að fara á sérsniðnu síðuna og flytja sérsniðna skrána sem hefur verið stofnuð. Ef notandi hefur stjórnunarréttindi getur hann einnig stjórnað sérstillingum fyrir aðra notendur á síðunni **Uppsetning sérsniðs**. Fara á síðu b. Á síðunni **Aðlögun** sérðu tvo flipa, einn er merktur **Kerfið** og hinn **Notendur**. 
+Þegar búið er að sérsníða síðu getur þú deilt sérstillingum þínum með öðrum notendum. Flyttu bara út sérstilltu síðuna. Þú getur því næst beðið aðra notendur að fletta að sérstilltu síðunni og flytja inn sérstillingaskrána sem þú stofnaðir.
 
-**Kerfið:** Þetta er þar sem hægt er að afvirkja tímabundið eða „slökkva“ á öllum sérstillingum í kerfinu. Þetta eyðir ekki sérstillingunum, en endurstillir í staðinn allar skjámyndir á sjálfgildi þeirra. Seinna er hægt að endurvirkja sérsnið svo að allar sérstillingar séu aftur notaðar fyrir skjámyndir hvers notanda. Einnig er hægt að eyða öllum sérstillingum fyrir alla notendur. Athugið að þegar sérstilingum er eytt er engin leið til að endurvirkja sérstillingar sjálfvirkt úr kerfinu. Gakktu úr skugga um að þú hafir flutt út þær sérstillingar sem hægt er að flytja út síðar áður en þetta skref er framkvæmt. 
+Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**. Þessi síða hefur fjóra flipa: **Kerfi**, **Notendur**, **Flytja inn** og **Hreinsa**.
 
-**Notendur:** Þetta er þar sem hægt er að ákveða fyrir hvern notanda hvort þeir geti framkvæmt óbein eða yfirlýst sérsnið. Þú getur einnig ákveðið hvort notendur geti framkvæmt óbein eða yfirlýst sérsnið í tiltekinni skjámynd. Að endingu, er hægt að flytja inn eða flytja út eða eyða sérsnið fyrir hvern notanda. 
-
-**Ábending:** Í upprunalegri útgáfu leyfir stjórnun sérsniða leyfir aðeins stjórnun á grunni notanda af notanda.
+- **Kerfi:** - Þú getur afvirkjað tímabundið eða slökkt á öllum sérstillingum í kerfinu. Í þessu tilfelli er sérstillingum ekki eytt. Þess í stað endurstillirðu allar síður á sjálfgefið ástand þeirra. Ef þú endurvirkjar sérstillingarnar síðar eru þær aftur notaðar á síðu hvers notanda. Einnig er hægt að eyða öllum sérstillingum fyrir alla notendur. Athugið að þegar sérstilingum er eytt er engin leið til að endurvirkja sérstillingar sjálfvirkt úr kerfinu. Áður en þú framkvæmir þetta skref skaltu því ganga úr skugga um að þú hafir flutt allar sérstillingar út sem þú vilt mögulega flytja inn síðar.
+- **Notendur** – Hægt er að tilgreina hvort hver notandi geti sett óbeinar eða yfirlýstar sérstillingar. Þú getur einnig tilgreint hvort hver notandi geti sett óbeinar eða yfirlýstar sérstillingar á tiltekinni síðu. Að endingu geturðu flutt inn, flutt út eða eytt sérstillingu fyrir hvern notanda.
+- **Flytja inn** – Þú getur flutt inn sérstillingu fyrir einn eða fleiri notendur. Þessi flipi er notaður þegar þú hefur stofnað sérstillingu á síðu eða vinnusvæði og síðan flutt þá sérstillingu út sem sérstillingarskrá. Til að flytja inn sérstillingaskrá þína og nota hana hjá einum eða fleiri notendum skaltu velja einstaka notendur í lista yfir alla notendur eða sía eftir tilteknu hlutverki og velja svo notendur í því hlutverki. Þegar þú hefur valið notendur til að nota nota sérstillinguna þína skaltu smella á **Flytja inn** og velja sérstillingaskrá. Sérstillingin verður villuleituð og notuð hjá öllum völdum notendum næst þegar þeir opna valda síðu.
+- **Hreinsa** – Hægt er að hreinsa síðu eða sérstillingu vinnusvæðis fyrir einn eða fleiri notendur. Fyrst skal velja þá síðu eða vinnusvæði sem á að hreinsa sérstillingu fyrir. Næst skaltu velja einstaka notendur á listanum yfir alla notendur eða sía eftir tilteknu hlutverki og svo velja notendur í því hlutverki. Þegar þú hefur valið bæði síðu eða vinnusvæði og notendur skaltu smella á **Hreinsa**. Allar sérstillingar sem valdir notendur hafa notað á síðu sem hefur verið valin eða vinnusvæði eru hreinsaðar. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling hefur verið vistuð fyrir síðuna eða vinnusvæðið er hins vegar hægt að flytja þá sérstillingu inn aftur.
 
 
 

@@ -1,27 +1,27 @@
 ---
 title: "Notið uppflettingar til að finna upplýsingar"
-description: "Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu."
+description: "Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Finance and Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu.  
+Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Finance and Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu.  
 
 <a name="responsive-lookups"></a>Gagnvirkar uppflettingar
 ------------------
 
-Í fyrri útgáfum Dynamics 365 for Operations, þegar samskipti eru höfð við uppflettistýringu, myndi notandi verða að nota skýra aðgerð til að opna í fellilista. Þetta gæti hafa verið með því að færa inn stjörnu (\*) í stýringu til að sía uppflettingu samkvæmt núverandi gildi stýringarinnar, því að smella á hnappinn fellilistanum eða með því að nota **Alt**+**Niður ör** flýtilykli. Uppflettistýringum hefur verið breytt á eftirfarandi hátt til að samræmast betur gildandi vefvenjum:
+Í fyrri útgáfum Dynamics 365 for Finance and Operations, þegar samskipti eru höfð við uppflettistýringu, myndi notandi verða að nota skýra aðgerð til að opna í fellilista. Þetta gæti hafa verið með því að færa inn stjörnu (\*) í stýringu til að sía uppflettingu samkvæmt núverandi gildi stýringarinnar, því að smella á hnappinn fellilistanum eða með því að nota **Alt**+**Niður ör** flýtilykli. Uppflettistýringum hefur verið breytt á eftirfarandi hátt til að samræmast betur gildandi vefvenjum:
 
 -   Fellilistavalmyndir uppflettingar munu nú opnast sjálfkrafa eftir stutt hlé í vélritun, með efni fellilistans fyrir valmyndinni síað eftir gildi uppflettingar fjárhagsáætlunarstýringar.
     -   Athugið að gömlu hegðun sjálfvirkrar opnunar fellilista eftir ritun stjörnu (\*) hefur verið hætt.
@@ -58,7 +58,7 @@ Jafnvel þótt áhersla sé enn í uppflettistýringu er einnig hægt að nota l
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Slegið inn meira en kenni
-Við gagnainnfærslu er eðlilegt fyrir notendur að reyna að auðkenna aðila, eins og viðskiptavin eða lánardrottinn með heiti en ekki kenni fyrir eininguna. Í þessari útgáfu af Dynamics 365 for Operations leyfa margar (en ekki allar) uppflettingar samhengisháða gagnafærslu. Þessi öflugi eiginleiki leyfir notandanum að færa Kenni eða samsvarandi nafn í stýringu uppflettingu. 
+Við gagnainnfærslu er eðlilegt fyrir notendur að reyna að auðkenna aðila, eins og viðskiptavin eða lánardrottinn með heiti en ekki kenni fyrir eininguna. Í þessari útgáfu af Dynamics 365 for Finance and Operations leyfa margar (en ekki allar) uppflettingar samhengisháða gagnafærslu. Þessi öflugi eiginleiki leyfir notandanum að færa Kenni eða samsvarandi nafn í stýringu uppflettingu. 
 
 Til dæmis, íhugið svæðið **viðskiptavinalykil** þegar sölupöntun er stofnuð. Þetta svæði sýnir á **Kenni reiknings** fyrir viðskiptavin, en notandi myndi yfirleitt vilja færa inn **lykilheiti** í stað **Kennis reiknings** fyrir þetta svæði þegar sölupöntun er stofnuð, eins og "Forest Wholesales" en "US-003."
 

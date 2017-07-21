@@ -1,27 +1,27 @@
 ---
 title: "Endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt gagnagrunns"
-description: "Þetta efnisatriði lýsir hvernig á að endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt Microsoft Dynamics 365 for Operations gagnagrunns."
+description: "Þetta efnisatriði lýsir hvernig á að endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt Microsoft Dynamics 365 Finance and Operations gagnagrunns."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d227452e48914170404f0ee5163a05e6b875e69f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir hvernig á að endurstilla fjárhagslegar skýrslugerð gagnatorgs eftir endurheimt Microsoft Dynamics 365 for Operations gagnagrunns. 
+Þetta efnisatriði lýsir hvernig á að endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt Microsoft Dynamics 365 Finance and Operations gagnagrunns. 
 
-Það eru nokkrar kringumstæður þar sem þú gætir þurft að endurheimta Dynamics 365 for Operations gagnagrunn úr öryggisafriti eða afrita úr öðru umhverfi. Þegar þetta gerist einnig verður að fylgja viðeigandi skrefum til að tryggja að fjárhagsleg skýrslugerð gagnatorgs sé að nota gagnagrunn Dynamics 365 for Operations rétt. Ef þú hefur spurningar um endurstillingu fjárhagslegar skýrslugerð gagnatorgs af ástæðu sem ekki hefur að gera með endurheimt Dynamics 365 for Operations gagnagruns skaltu skoða [Endurstilling Management Reporter gagnatorgs](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) til að fá frekari upplýsingar. Athugið að skrefin í þessu ferli eru studd fyrir Dynamics 365 for Operation útgáfu í maí 2016 (Forritsútgáfa 7.0.1265.23014 og fjárhagsleg skýrslugerð útgáfa 7.0.10000.4) og nýrri útgáfur. Ef þú er með eldri útgáfu af Dynamics 365 for Operations skaltu hafa skal samband við þjónustuver okkar til að fá aðstoð.
+Það eru nokkrar kringumstæður þar sem þú gætir þurft að endurheimta Finance and Operations gagnagrunn úr öryggisafriti eða afrita úr öðru umhverfi. Þegar þetta gerist verður einnig að fylgja viðeigandi skrefum til að tryggja að gagnaskemma fyrir fjárhagsskýrslugerð noti endurheimtan gagnagrunn Finance and Operations rétt. Ef þú hefur spurningar um endurstillingu gagnaskemmu fyrir fjárhagsskýrslugerð af ástæðu sem ekki hefur að gera með endurheimt Finance and Operations gagnagrunns skaltu skoða [Endurstilling Management Reporter gagnaskemmu](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) til að fá frekari upplýsingar. Athugið að skrefin í þessu ferli eru studd fyrir Dynamics 365 for Operation útgáfu í maí 2016 (Forritsútgáfa 7.0.1265.23014 og fjárhagsleg skýrslugerð útgáfa 7.0.10000.4) og nýrri útgáfur. Ef þú ert með eldri útgáfu af Finance and Operations skaltu hafa skal samband við þjónustuver okkar til að fá aðstoð.
 
 ## <a name="export-report-definitions"></a>Flytja út skilgreiningu á skýrslum
 Fyrst skal flytja út skýrsluhönnun sem er staðsett í Skýrsluhönnuðinum með eftirfarandi skrefum:
 
 1.  Í Skýrsluhönnun ferðu í **Fyrirtæki** &gt; **Einingahópar**.
-2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. **Athugasemd:** Fyrir Dynamics 365 for Operations er aðeins einn einingahópur studdur **Vanskil**.
+2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. **Athugið:** Í Finance and Operations er aðeins einn einingahópur studdur, **Sjálfgefið**.
 3.  Veldu skýrsluskilgreiningar til að flytja út:
     -   Til að flytja út allar skýrsluskilgreiningar og tengdar einingar er smellt á **Velja allt**.
     -   Til að flytja út tilteknar skýrslur, línur, dálka, skipurit eða víddasamstæður er smellt á viðeigandi flipa og svo valin atriði til að flytja út. Haldið inni Ctrl-lyklinum til að velja mörg atriði á flipa. Þegar valdar eru skýrslur til að flytja út eru einnig valdar tengdar línur, dálkar, skipurit og víddasamstæður.
@@ -49,7 +49,7 @@ Fyrst skal flytja út skýrsluhönnun sem er staðsett í Skýrsluhönnuðinum m
 
 Skrána má afrita eða hlaða upp á öruggan stað, þar sem flytja á hana inn í annað umhverfi seinna. Hægt er að finna upplýsingar um notkun í geymslulykils Microsoft Azure í [Flytja gögn með AzCopy Command-Line Utility](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
 > [!NOTE]
-> Microsoft veitir ekki geymslulykil sem hluta af samningi þínum um Dynamics 365 for Operations. Annaðhvort verður að kaupa geymslulykil eða nota geymslulykil úr aðskilinni Azure-áskrift. 
+> Microsoft veitir ekki geymslulykil sem hluta af samningi þínum um Finance and Operations. Annaðhvort verður að kaupa geymslulykil eða nota geymslulykil úr aðskilinni Azure-áskrift. 
 > [!WARNING]
 > Huga að hegðun á D-drifi á sýndarvélum Azure. Ekki geyma útflutta einingahópa hér varanlega. Sjá frekari upplýsingar um tímabundin drif á [Skilningur á tímabundnum drifum í sýndarvélum Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
@@ -57,19 +57,19 @@ Skrána má afrita eða hlaða upp á öruggan stað, þar sem flytja á hana in
 Remote Desktop er notuð til að tengjast öllum tölvum í umhverfinu og stöðva eftirfarandi Windows þjónustu með því að nota services.msc:
 
 -   Birtingarþjónusta á vefnum (á allar AOS tölvur)
--   Runustjórnunarþjónusta Microsoft Dynamics 365 for Operations (aðeins í ekki-einka aos-tölvum)
+-   Runustjórnunarþjónusta Finance and Operations (aðeins í AOS-tölvum sem ekki eru einkatölvur)
 -   Ferlaþjónusta Management Reporter 2012 (aðeins á BI tölvum)
 
-Þessar þjónustur hafa opna tengingar við gagnagrunn Dynamics 365 for Operations.
+Þessar þjónustur hafa opna tengingar við gagnagrunn Finance and Operations.
 
 ## <a name="reset"></a>Endurstilla
 #### <a name="locate-the-latest-dataupgradezip-package"></a>Finna síðasta DataUpgrade.zip pakka
 
 Finna síðasta pakka DataUpgrade.zip með stefnum sem fundust í [Sækja forskrift DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). Stefnurnar útskýra hvernig á að finna rétta útgáfu af uppfærslu gagnapakka fyrir tölvuumhverfið.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Keyra forskriftir gagnvart gagnagrunni Dynamics 365 for Operations
+#### <a name="execute-scripts-against-finance-and-operations-database"></a>Keyra forskriftir á gagnagrunn Finance and Operations
 
-Keyra eftirfarandi forskriftir gagnvart gagnagrunni Dynamics 365 for Operations (ekki gagnvart gagnagrunni fjárhagsskýrsla).
+Keyra eftirfarandi forskriftir á gagnagrunn Finance and Operations (ekki á gagnagrunn fjárhagsskýrslna).
 
 -   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
 -   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
@@ -78,7 +78,7 @@ Keyra eftirfarandi forskriftir gagnvart gagnagrunni Dynamics 365 for Operations 
 
 #### <a name="execute-powershell-command-to-reset-database"></a>Keyra PowerShell-skipun til að endurstilla gagnagrunn
 
-Keyra eftirfarandi skipun beint á aos-tölvunni til að endurstilla samþættingu á milli Dynamics 365 for Operations og fjárhagsskýrslugerðar:
+Keyra eftirfarandi skipun beint á AOS-tölvunni til að endurstilla samþættingu á milli Finance and Operations og fjárhagsskýrslugerðar:
 
 1.  Opna Windows PowerShell sem Kerfisstjóri.
 2.  Framkvæma: F:
@@ -97,7 +97,7 @@ Keyra eftirfarandi skipun beint á aos-tölvunni til að endurstilla samþættin
 Nota services.msc að endurræsa þjónustuna sem þú hættir áður:
 
 -   Birtingarþjónusta á vefnum (á allar AOS tölvur)
--   Runustjórnunarþjónusta Microsoft Dynamics 365 for Operations (aðeins í ekki-einka aos-tölvum)
+-   Runustjórnunarþjónusta Finance and Operations (aðeins í AOS-tölvum sem ekki eru einkatölvur)
 -   Ferlaþjónusta Management Reporter 2012 (aðeins á BI tölvum)
 
 ## <a name="import-report-definitions"></a>Flytja inn skýrsluskilgreiningu
@@ -106,7 +106,7 @@ Flytja inn skýrsluhönnun notanda úr Skýrsluhönnuðinum með skránni sem va
 1.  Í Skýrsluhönnun ferðu í **Fyrirtæki** &gt; **Einingahópar**.
 2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. 
     > [!NOTE]
-    > Fyrir Dynamics 365 for Operations er aðeins einn einingahópur studdur **Vanskil**.
+    > Í Finance and Operations er aðeins einn einingahópur studdur, **Sjálfgefið**.
 3.  Veldu eininguna **Vanskil** og smelltu á **Innflutning**.
 4.  Veldu skrána með útfluttum skýrsluskilgreiningum og smelltu á **Opna**.
 5.  Smellið á skýrsluskilgreiningarnar í svarglugganum Flytja inn til að flytja inn:

@@ -3,27 +3,27 @@ title: "fjárhagslegar og efnislegar uppfærslur"
 description: "Þetta efnisatriði veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 72984b951b88bef565377a7470194437ad0137ce
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Þetta efnisatriði veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn. 
 
-Birgðafærslur er hægt að uppfæra efnislega og fjárhagslega í Microsoft Dynamics 365 for Operations. Sumar gerðir efnislegra og fjárhagsfærslna auka birgðamagn, á meðan aðrar draga úr magninu.
+Birgðafærslur er hægt að uppfæra efnislega og fjárhagslega í Microsoft Dynamics 365 for Finance and Operations. Sumar gerðir efnislegra og fjárhagsfærslna auka birgðamagn, á meðan aðrar draga úr magninu.
 
 ## <a name="physical-increases"></a>Efnisleg aukning
 Þegar efnisleg færsla er bókuð er staða færsluskránnar **"Móttekið"**. Eftirfarandi færslur skoðast sem efnisleg aukning:
@@ -53,10 +53,10 @@ Birgðafærslur er hægt að uppfæra efnislega og fjárhagslega í Microsoft Dy
 -   Birgðabækur með jákvæðu magni, svo sem hreyfing, hagnaður/tap, talningabækur, uppskriftir og flutningur
 
 ## <a name="transactions-that-increase-quantity"></a>Færslur sem auka magn
-Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Dynamics 365 for Operations reiknar út gildandi meðalkostnaðarverð sem er byggt á kostnaði hverrar slíkrar færslu fyrir hverja birgðavídd sem er fjárhagslega rakin. Sjá upplýsingar um hvernig keyra á meðalkostnaðarverð sjá [keyrsla á meðalkostnaðarverði](running-average-cost-price.md).
+Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Finance and Operations reiknar út gildandi meðalkostnaðarverð sem er byggt á kostnaði hverrar slíkrar færslu fyrir hverja birgðavídd sem er rakin fjárhagslega. Sjá upplýsingar um hvernig keyra á meðalkostnaðarverð sjá [keyrsla á meðalkostnaðarverði](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Færslur sem minnka magn
-Dynamics 365 for Operations notar reiknaða keyrslu á meðalkostnaðarverði þegar hreyfing sem minnkar magn er bókuð án tillits til hver birgðalíkan er í félagi með því birgðir. Þetta krefst þess að færslan sem minnkar magn var ekki áður merkt annarri færslu fyrir bókun. Ef efnislegar lagerbirgðir verða neikvæðar notar Dynamics 365 for Operations birgðakostnað sem er skilgreindur fyrir vöruna á síðunni **afurð**. **Athugasemd** Ef virkni fjölsíðna er virkjuð verður þessi kostnaður í staðinn vera birgðakostnaður sem er skilgreint fyrir síðuna í síðunni **sjálfgefnar pöntunarstillingar**.
+Finance and Operations notar reiknaða keyrslu á meðalkostnaðarverði þegar hreyfing sem minnkar magn er bókuð án tillits til birgðalíkansins sem er tengt þeim birgðum. Þetta krefst þess að færslan sem minnkar magn var ekki áður merkt annarri færslu fyrir bókun. Ef efnislegar lagerbirgðir verða neikvæðar notar Finance and Operations þann birgðakostnað sem er skilgreindur fyrir vöruna á síðunni **Vara**. **Athugasemd** Ef virkni fjölsíðna er virkjuð verður þessi kostnaður í staðinn vera birgðakostnaður sem er skilgreint fyrir síðuna í síðunni **sjálfgefnar pöntunarstillingar**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Efnislegar úthreyfingar miðað við fjárhagslegar úthreyfingar
 Þegar efnisleg úthreyfingarfærsla er bókuð er staða færsluskránnar **"Dregið frá"**. Eftirfarandi færslur skoðast sem efnislegar úthreyfingar:
