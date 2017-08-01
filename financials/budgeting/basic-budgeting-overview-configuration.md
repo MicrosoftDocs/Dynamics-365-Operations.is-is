@@ -58,7 +58,7 @@ Skilgreina *fjárhagsáætlunarlíkan *sem samsvarar öllum eða sumar fjárhags
 > [!NOTE] 
 > Ef fjárhagsáætlunarstýring er notuð, er hægt að tengja aðeins eitt fjárhagsáætlunarlíkan við tiltekna tímabil fjárhagsáætlunar. 
 
-Stofna *fjárhagsáætlunarkóða *sem auðkenna gerð fjárhagsáætlunarfærslu til að skrá og allar tengdar verkflæði. Fjárhagsáætlunarkóðarnir getur stutt eftirfarandi gerðir fjárhagsáætlunar:
+Stofna *fjárhagsáætlunarkóða* sem auðkenna gerð fjárhagsáætlunarfærslu til að skrá og allar tengdar verkflæði. Fjárhagsáætlunarkóðarnir getur stutt eftirfarandi gerðir fjárhagsáætlunar:
 
 -   Upprunaleg fjárhagsáætlun
 -   Flytja
