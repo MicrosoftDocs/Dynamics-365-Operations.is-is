@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: is-is
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ ms.lasthandoff: 06/29/2017
 -   [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 -   [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 -   [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (verkleiðbeiningar)
--   [Sérstakt gagnalíkan í hönnunarléni rafrænnar skýrslugerðar](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (verkleiðbeiningar)
--   [Skilgreina líkanavörpun og velja gagnaveitur í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (verkleiðbeiningar)
--   [Varpa gagnalíkani í valdar gagnaveitur í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (verkleiðbeiningar)
--   [Sérstakt snið í hönnunarléni rafrænnar skýrslugerðar](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (verkleiðbeiningar)
--   [Hlaða upp skilgreiningu inn í Lifecycle Services í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (verkleiðbeiningar)
--   [Flytja inn skilgreiningu úr Lifecycle Services í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (verkleiðbeiningar)
--   [Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (verkleiðbeiningar)
--   [Skilgreina áfangastaði í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (verkleiðbeiningar)
--   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 1: Hanna gagnalíkan)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (verkleiðbeiningar)
--   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 2: Vörpun líkans)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (verkleiðbeiningar)
--   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 3: Hanna skýrsluna)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (verkleiðbeiningar)
--   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 4: Keyra skýrsluna)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (verkleiðbeiningar)
--   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 1: Stofna snið)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (verkleiðbeiningar)
--   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 2: Skilgreina útreikninga)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (verkleiðbeiningar)
--   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 3: Nota útreikninga til að finna frálagið)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (verkefnaleiðbeiningar)
--   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 4: Keyra snið)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (verkefnaleiðbeiningar)
--   [Nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skrám í rafrænni skýrslugerð (hluti 1: Hanna snið)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (verkefnaleiðbeiningar)
--   [Nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skrám í rafrænni skýrslugerð (hluti 2: Keyra snið)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (verkefnaleiðbeiningar)
--   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 1: Undirbúa gagnalíkan)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (verkefnaleiðbeiningar)
--   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 2: Stækka gagnalíkan)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (verkefnaleiðbeiningar)
--   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 3: Stofna snið)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (verkefnaleiðbeiningar)
--   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 4: Keyra snið)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (verkefnaleiðbeiningar)
--   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 5: Breyta og keyra snið)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (verkefnaleiðbeiningar)
--   [Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (verkefnaleiðbeiningar)
--   [Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði í rafrænni skýrslugerð](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (verkefnaleiðbeiningar)
+-   [Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (verkleiðbeiningar)
+-   [Sérstakt gagnalíkan í hönnunarléni rafrænnar skýrslugerðar](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (verkleiðbeiningar)
+-   [Skilgreina líkanavörpun og velja gagnaveitur í rafrænni skýrslugerð](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (verkleiðbeiningar)
+-   [Varpa gagnalíkani í valdar gagnaveitur í rafrænni skýrslugerð](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (verkleiðbeiningar)
+-   [Sérstakt snið í hönnunarléni rafrænnar skýrslugerðar](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (verkleiðbeiningar)
+-   [Hlaða upp skilgreiningu inn í Lifecycle Services í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (verkleiðbeiningar)
+-   [Flytja inn skilgreiningu úr Lifecycle Services í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (verkleiðbeiningar)
+-   [Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (verkleiðbeiningar)
+-   [Skilgreina áfangastaði í rafrænni skýrslugerð](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (verkleiðbeiningar)
+-   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 1: Hanna gagnalíkan)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (verkleiðbeiningar)
+-   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 2: Vörpun líkans)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (verkleiðbeiningar)
+-   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 3: Hanna skýrsluna)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (verkleiðbeiningar)
+-   [Nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (hluti 4: Keyra skýrsluna)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (verkleiðbeiningar)
+-   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 1: Stofna snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (verkleiðbeiningar)
+-   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 2: Skilgreina útreikninga)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (verkleiðbeiningar)
+-   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 3: Nota útreikninga til að finna frálagið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (verkefnaleiðbeiningar)
+-   [Skilgreina snið til að telja og leggja saman í rafrænni skýrslugerð (hluti 4: Keyra snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (verkefnaleiðbeiningar)
+-   [Nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skrám í rafrænni skýrslugerð (hluti 1: Hanna snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (verkefnaleiðbeiningar)
+-   [Nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skrám í rafrænni skýrslugerð (hluti 2: Keyra snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (verkefnaleiðbeiningar)
+-   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 1: Undirbúa gagnalíkan)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (verkefnaleiðbeiningar)
+-   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 2: Stækka gagnalíkan)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (verkefnaleiðbeiningar)
+-   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 3: Stofna snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (verkefnaleiðbeiningar)
+-   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 4: Keyra snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (verkefnaleiðbeiningar)
+-   [Nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð (hluti 5: Breyta og keyra snið)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (verkefnaleiðbeiningar)
+-   [Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (verkefnaleiðbeiningar)
+-   [Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði í rafrænni skýrslugerð](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (verkefnaleiðbeiningar)
 
 
 

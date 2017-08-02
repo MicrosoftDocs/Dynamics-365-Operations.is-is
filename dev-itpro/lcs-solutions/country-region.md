@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: is-is
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -190,7 +189,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Prentun endurheimtartexta eingreiðslu á reikning viðskiptavinar](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text)
 -   [BV/LA-afskriftir](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation)
 
-#### <a name="public-sector"></a>Opinber geiri
+#### <a name="public-sector"></a>Hið opinbera
    -   [Ráðstafanir hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Greiðslubeiðni hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
    -   [Innkaup og aðföng](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)

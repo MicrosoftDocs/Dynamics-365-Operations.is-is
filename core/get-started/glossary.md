@@ -1,39 +1,37 @@
 ---
-title: "Orðalisti Dynamics 365 for Operations"
-description: "Orðalisti Microsoft Dynamics 365 for Operations skilgreinir lykilhugtök og hugmyndir í Dynamics 365 for Operations."
+title: "Orðalisti Finance and Operations"
+description: "Þessi orðalisti skilgreinir helstu hugtök í Dynamics 365 for Finance and Operations, Enterprise edition."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: is-is
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Orðalisti Dynamics 365 for Operations
+# <a name="finance-and-operations-glossary"></a>Orðalisti Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
+Þessi orðalisti skilgreinir helstu hugtök í Dynamics 365 for Finance and Operations, Enterprise edition. 
 
-Orðalisti Microsoft Dynamics 365 for Operations skilgreinir lykilhugtök og hugmyndir í Dynamics 365 for Operations. 
-
-### <a name="a"></a>**A**
+### <a name="a"></a>**B**
 
 ###### <a name="accounting-journal"></a>**bókhaldsdagbók**
 
@@ -49,23 +47,15 @@ Rafrænt millifærslukerfi í boði í Bandaríkjunum sem auðveldar flutning á
 
 ###### <a name="actual-quantity"></a>**raunverulegt magn**
 
-Mælt magn sem er sett inn í eða fæst út úr verkþætti.
+Mælt magn í inntaki eða frálagi verkþáttar.
 
-###### <a name="address-verification-service"></a>**sannprófun aðseturs**
+###### <a name="address-verification"></a>**staðfesting heimilisfangs**
 
-Þjónusta af hálfu vinnsluaðila kreditkort sem sannvottar að reikningsfærsluaðsetrið sem korthafi gefur upp passi við skráðar upplýsingar í banka sem gefur kortið út.
-
-###### <a name="adjusted-unit-price"></a>**leiðrétt einingarverð**
-
-Reiknað einingaverð á grundvelli verðlagningar sem byggist á eigindum og raunverulegum mótteknum styrkleika.
-
-###### <a name="advanced-pricing"></a>**ítarleg verðlagning**
-
-Rök notuð til að reikna út innkaupaverð styrkleikavöru.
+Þjónusta sem örgjörvi kreditkorts veitir sem staðfestir að heimilisfang greiðanda sem kortahafi gaf upp stemmi við upplýsingar á skrá hjá bankanum sem gaf kortið út.
 
 ###### <a name="aging"></a>**aldursgreining**
 
-Ferli þar sem tímabil eru flokkuð eftir aldri.
+Ferlið að flokka tímabil eftir aldri.
 
 ###### <a name="aging-period"></a>**aldurstímabil**
 
@@ -89,29 +79,28 @@ Aðferð við afstemmingu fjárhagslykils sem stendur fyrir bankareikning með �
 
 Afurðareigind vinnslurunu eða millifærslurunu.
 
-###### <a name="best-before-date"></a>**fyrningardagsetning**
+###### <a name="best-before-date"></a>**fyrningardagur**
 
-Ráðlögð dagsetning til að fá mestu gæði eða eiginleika út úr afurð.
+Ráðlögð dagsetning til að njóta bestu gæða eða eiginleika afurðar.
 
 ###### <a name="best-before-period"></a>**fyrningartímabil**
 
-Tímabil þar sem mestu gæði eða eiginleikar fást út úr afurð.
+Tímabilið þegar gæði og eiginleikar afurðar eru best.
 
 ###### <a name="bill-of-exchange"></a>**víxill**
 
-Upprunaskjal sem skráir óskilyrta beiðni til þriðja aðila um að greiða öðrum aðila eftir þörfum.
-
-###### <a name="bill-of-materials"></a>**uppskrift**
-
-Listi yfir afurðir og magn af þeim sem þarf til að framleiða eina afurð.
+Upprunaskjal sem skráir skilyrðislausa beiðni um greiðslu þriðja aðila til annars aðila eftir þörfum.
 
 ###### <a name="blocking"></a>**lokun**
 
-Sú aðgerð að setja skjal eða afurð í bið.
+Að setja skjal eða afurð í bið.
 
+###### <a name="bom-bill-of-materials"></a>**uppskrift**
+
+Listi yfir afurðir og magn þeirra sem þarf til að framleiða eina afurð.
 ###### <a name="budget-control"></a>**fjárhagsáætlunarstýring**
 
-Aðferð þar sem útgjöld eru eingöngu heimiluð þegar hægt er að taka frá fjármagn fjárhagsáætlunar til að uppfylla greiðsluskyldu í framtíðinni.
+Að heimila útgjöld einungis þegar fjármagn fjárhagsáætlunar getur mætt síðari greiðsluskuldbindingum.
 
 ###### <a name="budget-control-dimension"></a>**vídd fjárhagsáætlunarstýringar**
 
@@ -173,19 +162,11 @@ Listi yfir aðallykla.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**kostnaður seldra vara**
 
-Bókhaldsflokkur notaður til að leggja saman fjárhagslegar afleiðingar af framleiðslu afurða og birgðahaldi.
-
-###### <a name="commodity-pricing"></a>**vöruverðlagning**
-
-Verðáætlun fyrir uppfærslu verðs á söluvörum sem framleiddar eru úr grunnvörum þar sem verða tíðar verðbreytingar.
-
-###### <a name="consolidated-order"></a>**sameinuð pöntun**
-
-Upprunaskjal sem skráir fleiri en eina pöntun sem vísað er í.
+Bókhaldsflokkur sem er notaður til að leggja saman fjárhagslegar afleiðingar framleiðsluvara og birgða á lager.
 
 ###### <a name="contractor"></a>**verktaki**
 
-Hlutverk einstaklings sem tekur þátt í sambandi verktaka og vinnuveitanda við lögaðila.
+Hlutverk einstaklings sem er verktaki fyrir lögaðila.
 
 ###### <a name="co-product"></a>**aukaafurð**
 
@@ -193,11 +174,7 @@ Atriði framleitt samhliða öðru atriði.
 
 ###### <a name="cost-center"></a>**kostnaðarstaður**
 
-Rekstrareining þar sem stjórnendur eru ábyrgir fyrir áætluðum útgjöldum og raunútgjöldum.
-
-###### <a name="cost-of-goods-sold"></a>**kostnaður seldra vara**
-
-Bókhaldsflokkur notaður til að leggja saman fjárhagslegar afleiðingar af framleiðslu afurða og birgðahaldi.
+Rekstrareining undir stjórn stjórnenda sem bera ábyrgð á útgjöldum samkvæmt fjárhagsáætlun og raunútgjöldum.
 
 ###### <a name="cost-variance"></a>**kostnaðarfrávik**
 
@@ -217,13 +194,13 @@ Kennimerki í tölu- og bókstöfum sem stendur fyrir gjaldmiðilseiningu.
 
 ###### <a name="cycle-time"></a>**tími ferlis**
 
-Tími sem tók að ljúka verkþætti.
+Tíminn sem það tekur að ljúka verkþætti.
 
-### <a name="d"></a>**D**
+### <a name="d"></a>**Y**
 
 ###### <a name="dashboard"></a>**yfirlit**
 
-Dæmigerð upphafssíða í Dynamics 365 for Operations. Á yfirlitinu sjá notendur hluta fyrir hvert vinnusvæði sem þeir hafa aðgang að. Hver hluti birtir reiti úr samantektarhlutum í tengdu vinnusvæði. Yfirlitið samanstendur af heiti og hluta með reitum.
+Yfirleitt upphafssíðan í Finance and Operations. Á yfirlitinu sjá notendur hluta fyrir hvert vinnusvæði sem þeir hafa aðgang að. Hver hluti birtir reiti úr samantektarhlutum í tengdu vinnusvæði. Yfirlitið samanstendur af heiti og hluta með reitum.
 
 ###### <a name="data-entity"></a>**gagnaeining**
 
@@ -259,15 +236,11 @@ Grunnstillingartækni notuð til að stofna afurðarafbrigði með því að vel
 
 ###### <a name="distinct-product"></a>**einkvæm afurð**
 
-Afurð sem má auðkenna á einkvæman hátt.
-
-###### <a name="document-blocking"></a>**skjalalæsing**
-
-Aðferð við að setja ferli aðgerða í bið á meðan pöntuð atriði eru í gæðatryggingarferli.
+Einstök afurð.
 
 ###### <a name="document-management-system"></a>**skjalastjórnunarkerfi**
 
-Hugbúnaðarþjónusta til að geyma og meðhöndla gögn fyrirtækisins.
+Hugbúnaður sem geymir og meðhöndlar skjöl fyrirtækis.
 
 ###### <a name="duty"></a>**skylda**
 
@@ -315,15 +288,11 @@ Gjaldmiðill sem er með fast gengi í samhengi við annan gjaldmiðil.
 
 ###### <a name="fixed-quantity-kanban"></a>**kanban í föstu magni**
 
-Gerð kanban sem er notað þegar fjöldi kanbana sem er úthlutað á kanban-reglu er fastur.
-
-###### <a name="flexible-authentication"></a>**sveigjanleg sannvottun**
-
-Sannvottunarferli þar sem hægt er að sannvotta notendur í ýmsum auðkenningarstjórnkerfum.
+Gerð kanban sem er notuð þegar fjöldi kanban sem tengt er kanban-reglu er fastur.
 
 ###### <a name="formula"></a>**formúla**
 
-Töluleg vensl í inntaki og úttaki framleiðsluferlis.
+Tölulegt samband á milli inntaks og úttaks í framleiðsluferli.
 
 ###### <a name="formula-item"></a>**formúluvara**
 
@@ -377,15 +346,11 @@ Vinnslu- eða flutningsverkþáttur í framleiðsluflæðinu sem er ræst af kan
 
 ###### <a name="kanban-job-consumption"></a>**kanban-vinnslunotkun**
 
-Úttekt afurðaríhluta úr birgðum til að ljúka við kanban-vinnslur í framleiðslu.
-
-###### <a name="kanban-product-quantity"></a>**kanban-afurðarfjöldi**
-
-Fjöldi þarfa atriðis sem eru framkvæmdar á kanban sem byggt er á kanban-reglu.
+Afturköllun vöruhluta úr birgðum til að ljúka kanban-framleiðsluverkum.
 
 ###### <a name="kanban-rule"></a>**kanban-regla**
 
-Regla í lean manufacturing-kerfi sem myndar reglur um efnisáætlanir og áfyllingu með því að stýra því hvernig vinnslu- og flutningsverkþættir eru samhæfðir í framleiðsluflæði.
+Regla í lean-framleiðslukerfi sem uppfyllir efnisþörf og áfyllingarreglur með því að stjórna samræmingu ferla og verkþátta í framleiðsluflæði.
 
 ### <a name="l"></a>**L**
 
@@ -407,17 +372,13 @@ Lykill í tölu- eða bókstöfum sem veitir aðila rétt til að nota hugbúna�
 
 ###### <a name="liquidity"></a>**greiðslugeta**
 
-Geta aðila til að nota núverandi eignir til að gera upp núverandi skuldir.
+Geta þriðja aðila til að nota veltufjármuni til að gera upp skammtímaskuldir.
 
-### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**stjórnunarkostnaður framleiðslu út frá hráefni**
-
-Stjórnunarkostnaður framleiðslu er settur fram sem óbeinn formúluútreikningur kostnaðar fyrir álagsprósentu. Kostnaðarhópur sem er tengdur efnishlutum myndar grunninn fyrir útreikningsformúlu. Hægt er að skilgreina útreikningsformúlur fyrir einstök atriði eða vöruflokka sem tengjast atriðum og þannig skapa meiri sveigjanleika til að reikna út stjórnunarkostnað framleiðslu sem byggir á efnum.
+### <a name="m"></a>**R**
 
 ###### <a name="master-scheduling"></a>**röðun**
 
-Ferlið sem myndar tímatöflu til að jafna framboð að eftirspurn.
+Ferlið að búa til tímaáætlun til að framboð mæti eftirspurn.
 
 ###### <a name="model"></a>**líkan**
 
@@ -455,15 +416,11 @@ Aðferð til að sérsníða upprunakóða með því að veita nýjan upprunak�
 
 ###### <a name="package"></a>**pakki**
 
-Pakki er þýðanleg og nýtanleg eining fyrir eitt eða fleiri líkön.
+Pakki er eining eins eða fleiri líkana sem hægt er að taka saman og nota.
 
 ###### <a name="party"></a>**aðili**
 
-Eining sem gerir ráð fyrir lagalega bindandi hlutverki þegar hún tekur þátt í samningsbundnum tengslum.
-
-###### <a name="party"></a>**aðili**
-
-Einstaklingur eða fyrirtæki sem tekur þátt í efnahagslegum verkþáttum.
+Einstaklingur eða fyrirtæki sem tekur þátt í atvinnustarfsemi.
 
 ###### <a name="pegging"></a>**þarfarakning**
 
@@ -471,15 +428,11 @@ Ferlið að rekja magn atriðis sem óskað er eftir að upptökum þess.
 
 ###### <a name="pegging-event"></a>**þarfarakningartilvik**
 
-Tilfangaflæðitilvik sem gefur merki um eftirspurn eftir afurð.
-
-###### <a name="phantom-item"></a>**skuggavara**
-
-Atriði sem er framleitt en er ekki á lager.
+Tilvik í tilfangaflæði sem er merki um eftirspurn fyrir vöru.
 
 ###### <a name="planned-intercompany-demand"></a>**áætluð eftirspurn innan samstæðu**
 
-Spáð eftirspurn afurðar af lögaðila sem tekur sér hlutverk lánardrottins. Áætlaða eftirspurnin er mynduð úr áætlaðri eftirspurn eftir afurð frá lögaðila niður á við.
+Áætluð eftirspurn lögaðila í hlutverki lánardrottins eftir afurð. Áætlaða eftirspurnin er mynduð úr áætlaðri eftirspurn eftir afurð frá lögaðila niður á við.
 
 ###### <a name="post"></a>**bóka**
 
@@ -487,19 +440,11 @@ Til að skrá upphæð fjárhagstilviks inn á tiltekinn lykil eða að taka sam
 
 ###### <a name="preparer"></a>**undirbúningsaðili**
 
-Einstaklingur sem býr til upprunaskjal sem setur af stað beiðni um verðmæti.
-
-###### <a name="privilege"></a>**réttindi**
-
-Ein eða fleiri heimildir sem notandi þarf til að framkvæma verkefni.
+Sá sem býr til upprunaskjal til að gera beiðni um verðmæti.
 
 ###### <a name="procurement-catalog"></a>**innkaupavörulisti**
 
-Listi yfir afurðatillögur sem eru flokkaðar eftir innkaupategund. Innkaupavörulisti er notaður til að biðja um afurðir til innri nota hjá fyrirtæki.
-
-###### <a name="product-component"></a>**afurðaríhlutur**
-
-Hluti af afurð.
+Listi yfir framboð afurðar flokkað eftir innkaupategund. Innkaupavörulisti er notaður til að biðja um vörur notkunar í fyrirtæki.
 
 ###### <a name="product-dimension"></a>**afurðarvídd**
 
@@ -507,7 +452,7 @@ Stærð, litur eða skilgreining afurðareiginda sem eru notaðar fyrir afurðar
 
 ###### <a name="product-family"></a>**afurðasafn**
 
-Einkvæm flokkun atriða, þjónustu eða réttinda sem eru annaðhvort hluti af sömu framleiðslu eða afhendingaraðgerðum eða standa til boða á sömu markaðshlutum. Í Dynamics 365 for Operations er flokkunin táknuð með því að nota úthlutunarlykil spár.
+Einstök flokkun vara, þjónustu eða réttinda sem eru hluti af sömu framleiðslu- eða afhendingarverkþáttum eða sem er í boði fyrir sama markaðshluta. Í Finance and Operations er flokkunin sýnd með úthlutunarlykli spár.
 
 ###### <a name="product-master"></a>**afurðarsniðmát**
 
@@ -579,29 +524,22 @@ Aðferð sem er notuð til að auka eða minnka þörf samkvæmt spá í aðalá
 
 ###### <a name="register"></a>**skrá**
 
-Færsla sem er notuð til að skrá framkvæmdalegar, lagalegar og fjárhagslegar afleiðingar framleiðsluflæðitilvika í bókhaldskerfi.
-
-###### <a name="regulated-product"></a>**eftirlitsskyld afurð**
-
-Afurð sem er eftirlitsskyld af yfirvöldum og krefst reglufylgni og endurskoðunar.
+Færsla sem er notuð til að skrá rekstrarlegar, lagalegar og fjárhagslegar afleiðingar tilfangaflæðisatvika í bókhaldskerfi.
 
 ###### <a name="rfq-request-for-quotation"></a>**beiðni um tilboð**
 
-Upprunaskjal sem skráir boð um að bjóða í að veita ákveðið magn afurðar fyrir tiltekið verð og fyrir tiltekna dagsetningu.
+Upprunaskjal sem skráir boð um að bjóða í magn af vöru á tilteknu verði og fyrir tiltekna dagsetningu.
 
 ###### <a name="requester"></a>**umsækjandi**
 
-Einstaklingur sem biður um verðmæti.
+Sá sem biður um verðmæti.
 
-###### <a name="restricted-product"></a>**afurð til takmarkaðrar dreifingar**
-
-Afurð með dreifingu sem er takmörkuð eða heft af stjórnvöldum.
 
 ### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**sölusamningur**
 
-Upprunaskjal sem skráir samning á milli tveggja eða fleiri aðila og byggir á þeim skilningi að söluaðilinn skuldbindur sig til að selja tiltekið magn eða virði afurðar yfir ákveðið tímabil í skiptum fyrir ákjósanleg verð og afslætti.
+Upprunaskjal sem skráir samkomulag tveggja eða fleiri aðila á grundveli skilnings um að söluaðili muni selja tiltekið magn eða virði af vöru á tilteknu tímabili gegn hagstæðu verði eða afslætti.
 
 ###### <a name="sales-agreement-policy"></a>**sölusamningsregla**
 
@@ -645,37 +583,30 @@ Afurðarmagn sem er skráð á upprunaskjalslínu sem stofnar þarfir fyrir þar
 
 ###### <a name="statistical-baseline-forecast"></a>**tölfræðileg grunnlínuspá**
 
-Mat á framtíðareftirspurn sem er stofnað með því að beita spáreikniriti á söguleg færslugögn.
+Áætlun um eftirspurn í framtíðinni sem verður til með því að nota spáreiknirit á eldri færslugögn.
 
-###### <a name="supermarket"></a>**geymslusvæði**
 
-Birgðastaðsetning sem getur afhent með stuttum fyrirfara og hefur takmarkaða afkastgetu og er notuð til að keyra efni sem er nálægt neyslustað.
-
-###### <a name="system-defined-financial-dimension-type"></a>**kerfisskilgreind fjárhagsvíddargerð**
-
-Fjárhagsvídd sem er varpað á töflu eða yfirlit í gagnagrunninum og endurspeglar einingargerð og þau gildi sem eru í léninu af einni eigind eða af þeirri gerð einingar.
-
-### <a name="t"></a>**T**
+### <a name="t"></a>**F**
 
 ###### <a name="takt-time"></a>**framleiðslutími á einingu**
 
-Tíminn sem það tekur að framleiða eina einingu af afurð.
+Tíminn sem það tekur að framleiða eina einingu af vöru.
 
 ###### <a name="task-guide"></a>**Verkleiðbeiningar**
 
-Stýrð upplifun með leiðsögn í gegnum skrefin í verkskráningu. Verkleiðbeiningar leiða notandann í gegnum upplifunina sem var skráð. Öll hegðun hvað varðar öryggi, gögn og forrit er hin sama þegar verkefnaleiðbeiningum er lokið eins og án verkleiðbeininga. Verkleiðbeiningar nota sömu verkfæri og verkskráning til að vita hvenær notandi hefur lokið ætlaðu skrefi og geta þannig beðið notandann um að taka næsta skref í skráningunni.
+Stýrð upplifun með leiðsögn í gegnum skrefin í verkskráningu. Verkleiðbeiningar leiða notandann í gegnum upplifunina sem var skráð. Öll hegðun hvað varðar öryggi, gögn og forrit er hin sama þegar verkefnaleiðbeiningum er lokið eins og án verkleiðbeininga. Verkleiðbeiningar nota sömu mælingar og Verkskráning til að ákvarða hvort notandi hafi lokið við skref til að geta tilkynnt notanda um næsta skref í skráningu.
 
 ###### <a name="task-recorder"></a>**Verkskráning**
 
-Verkfæri sem er foruppsett í Dynamics 365 for Operations. Við skráningu skráir það öll tilvik sem notandinn færir inn í notendaviðmóti Dynamics 365 for Operations og eru keyrð gagnvart þjóninum — þar með talið gildi sem er bætt við, stillingum sem var breytt, gögn sem voru fjarlægð o.s.frv.
+Verkfæri sem er foruppsett í Finance and Operations. Þegar skráning er í gangi skráir verkfærið öll tilvik sem notandi færir inn í notandaviðmót Finance and Operations sem keyrðar eru á þjón – þar á meðal gildi sem bætt er við, breyttar stillingar, fjarlæging gagna o.s.frv.
 
 ###### <a name="task-recording"></a>**Verkskráning**
 
-Skrá sem inniheldur aðgerðir og athugasemdir sem eru skrásettar þegar verkskráning er keyrð í Microsoft Dynamics 365 for Operations.
+Skrá sem inniheldur aðgerðir og athugasemdir sem eru skráðar þegar Verkskráning er keyrð í Finance and Operations.
 
 ###### <a name="three-way-matching-policy"></a>**þríhliða jöfnunarregla**
 
-Jöfnunarregla sem þarf eitt eða fleiri reikningsverð lánardrottins til að jafna við eitt eða fleiri verð innkaupapöntunar og þarf eina eða fleiri magntölu reiknings lánardrottins til að jafna við eina eða fleiri magntölur innhreyfingarskjals afurða.
+Samsvörunarstefna sem krefst þess að eitt eða fleiri verð á reikningi lánardrottins stemmi við eitt eða fleiri verð á innkaupapöntun og að eitt magn eða meira á reikningi lánardrottins samsvari einu magni eða meira á innhreyfingarskjali afurða.
 
 ###### <a name="transfer-batch"></a>**millifærsluruna**
 
@@ -683,19 +614,13 @@ Magn eins eða fleiri atriða sem eru flutt eða sem hægt er að flytja.
 
 ###### <a name="two-way-matching-policy"></a>**tvíhliða jöfnunarregla**
 
-Jöfnunarregla sem þarf eitt eða fleiri reikningsverð lánardrottins til að jafna við eitt eða fleiri verð innkaupapöntunar.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**notandaskilgreind fjárhagsvíddargerð**
-
-Fjárhagsvídd sem er varpað á notandaskilgreindan lista með gildum.
+Samsvörunarstefna sem krefst þess að eitt eða fleiri verð á reikningi lánardrottins stemmi við eitt eða fleiri verð á innkaupapöntun.
 
 ### <a name="v"></a>**V**
 
 ###### <a name="value-stream"></a>**virðisstraumur**
 
-Rekstrareining sem stýrir einu eða fleiri framleiðsluflæði.
+Rekstrareining sem stýrir einu framleiðsluflæði eða meira.
 
 ###### <a name="variant-configuration-technology"></a>**tækni til skilgreiningar afbrigða**
 
@@ -726,7 +651,4 @@ Einstaklingur sem tekur við hlutverki starfsmanns eða verktaka og fær greitt 
 ###### <a name="workspace"></a>**vinnusvæði**
 
 Síða sem veitir yfirlit yfir einn af þeim verkþáttum sem notandi framkvæmir. Síðan notar reiti, lista og línurit til að birta vinnu í bið og tengd gögn úr mörgum upprunum og síðan birtir algeng verkefni sem tengjast þessum gögnum. Reitir sýndir í samantektarhluta vinnusvæðisins eru einnig birtir í tengda hlutanum í yfirlitinu.
-
-
-
 
