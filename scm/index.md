@@ -1,28 +1,28 @@
 ---
 title: "Stjórnun aðfangakeðju – heimasíða"
 description: "Þessi síða vísar á tilföng sem auðvelda skilvirkari notkun Microsoft Dynamics 365 for Finance and Operations – Aðfangakeðja."
-author: yuyus
+author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 4044c66833e914b1f0f2d552d827013bd48dc2db
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
 ms.contentlocale: is-is
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,25 +36,52 @@ ms.lasthandoff: 06/29/2017
 Á <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 ## <a name="core-concepts-and-tasks"></a>Grunnhugtök og verk
-*  Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Vinnsla ASN á innleið í vöruhúsakerfi</a> (myndskeið) 
 
+Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
+
+- [Kostnaðarbókhald](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/financials/toc.json)
+- [Kostnaðarstýring](cost-management\costing-sheets.md)  
+- [Birgðastjórnun](inventory\consignment.md)
+- [Aðaláætlanagerð](master-planning\introduction-demand-forecasting.md)
+- [Innkaup og aðföng](procurement\procurement-sourcing-overview.md)
+- [Afurðaupplýsingastjórnun](pim\product-information.md)
+- [Framleiðslustýring](production-control\production-process-overview.md)
+- [Sala og markaðsstarf](sales-marketing\overview-sales-marketing.md)
+- [Flutningsstjórnun](transportation\transportation-management-overview.md)
+- [Vöruhúsakerfi](warehousing\warehouse-configuration.md)
+
+## <a name="videos"></a>Myndbönd
+
+### <a name="get-started"></a>Hefjast handa  
+
+Þessi stuttu myndbönd hjálpa þér að byrja að nota nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, júlíuppfærslu 2017.
+
+-  [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
+-  [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
+-  [Nota Excel fyrir kostnaðargreiningu](https://youtu.be/-HKHYdClvx8)
+
+### <a name="tech-talk"></a>Tæknital 
+-  <a href="https://youtu.be/zotrj3SbCl4">Afurðarafbrigðastillir í Microsoft Dynamics AX</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum</a>
+-  <a href="https://youtu.be/RLXybx20B5o">Hjálp! MRP er hægt!</a>
+-  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Vinnsla ASN á innleið í vöruhúsakerfi</a> 
+-  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Fáðu sem mest úr vöruhúsakerfinu</a>
+-  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Advanced R3 vöruhúsakerfi - vinnsla á innleið og hámarks-/lágmarksáfylling</a>
+-  <a href="https://youtu.be/Og0gLlVp7jA">Advanced R3 vöruhúsakerfi - Dagur í útleiðarvinnslu og áfyllingu eftirspurnar</a>
+-  <a href="https://youtu.be/5w1MngVchBA">Merki í nýja Microsoft Dynamics AX 2012 R3 vöruhúsakerfinu</a>
+-  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Ítarlegt vöruhúsakerfi - Dagur í vinnsluframleiðslu</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">Úthýsing aðgerða og verkþátta í framleiðslu</a>
 
 ## <a name="blogs"></a>Blogg
 Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX </a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
 
-Til dæmis er hægt að lesa nýlegar færslur um: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Finance and Operations – Vöruhús kynnt til sögunnar</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Endurbætt pökkunarvirkni (Dynamics 365 for Operations 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Dreifing frá dreifingarstöð úr framleiðslupöntunum til flutningspantana</a>
-
 ## <a name="white-papers"></a>Hvítbækur
-* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Finance and Operations – hafist handa við kostnaðarbókhald</a> inniheldur grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Finance and Operations – Kostnaðarbókhald fyrir greiningu kostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
-* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Finance and Operations – lean-framleiðsla: afhendingargeta og kanban-vinnsluröðun</a> lýsir kanban-vinnsluröðun og inniheldur kynningu á sölupöntunargerð sem nýtir afhendingargetumátann til að stýra afhendingardagsetningum. Þar er einnig að finna útskýringu á hvernig hægt er að sameina CTP-afhendingargetu við tilvikskanban til að setja upp sviðsmyndir fyrir samsetningu eftir pöntun eða byggingu eftir pöntun.
-* Hvítbókin <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 Finance and Operations – útreikningur uppskriftar með notkun kostnaðarskjals</a> lýsir því hvernig hægt er að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Æfingar er að finna í þjálfunarviðaukanum og vitneskju sem fæst með lestri þessa skjals er hægt að nýta við greiningu uppskriftaútreiknings.
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Verklegar æfingar í kostnaðarbókhaldi</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean-framleiðsla: Afhendingargeta og kanban-vinnsluröðun</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Útreikningur uppskrifta með kostnaðarskjali</a>
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
-Upplýsingar um Microsoft Dynamics 365 for Finance and Operations-þjálfun eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-reiknings) 
+Upplýsingar um Microsoft Dynamics 365 Finance and Operations-þjálfun eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-reiknings) 
 
 
 
