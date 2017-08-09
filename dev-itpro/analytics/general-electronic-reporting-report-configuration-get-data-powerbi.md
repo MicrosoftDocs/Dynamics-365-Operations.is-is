@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 Á síðunni **Skilgreiningar** (**Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð** &gt; **Skilgreiningar**), í grunnstillingatrénu, skal velja skilgreininguna **Aðgerðir innflutnings/útflutnings** sem stofnuð var áður. Breyta stöðu útgáfu 1.1 úr **Drög** að **Lokið** til að gera þessi snið tiltækar. [![Skilgreiningasíða](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Veljið lokna útgáfu skilgreiningarinnar **Aðgerðir innflutnings/útflutnings** og smellið svo á **Keyra**. Athugið að skilgreindur áfangastaður notaður fyrir niðurstöður úttaks sem er mynduð í Excel-sniði. Setja **runuvinnslu** valkosturinn að **Já** til að keyra þessa skýrslu í fjarveruham. Smellið á **Endurtekningar** til að áætla nauðsynlegar endurtekningar í framkvæmdar þessarar runu. Endurtekningin tilgreinir hversu oft uppfærð gögn verða flutt úr Finance and Operations yfir í Power BI. [![Svarglugginn Rafrænar skýrslufæribreytur](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Eftir að hún er skilgreind er hægt að finna vinnsluverk skýrslu rafrænnar skýrslugerðar á síðunni **Runuvinnslur** (**Kerfisstjórnun &gt; Fyrirspurnir &gt; Runuvinnslur**). [![Síðan Runuvinnslur](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Þegar þessi vinnsla er keyrð í fyrsta sinn stofnar viðtökustaðurinn nýja Excel-skrá sem hefur skilgreinda heitið í völdu SharePoint-möppunni. Hvert síðari skipti sem vinnslan er keyrð, stofnar áfangastaðurinn nýja útgáfu Excel-skráarinnar. [![Ný útgáfa Excel-skrár](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Stofna Power BI-gagnasafns með því að nota niðurstöðu úttaks sniðs rafrænnar skýrslugerðar.
-Innskráning í Power BI og annaðhvort opna fyrirliggjandi Power BI-flokk (vinnusvæði) eða stofnið nýjan flokk. Annaðhvort smella á **Bæta við** undir **Skrár** í **Flytja inn eða tengjast gögnum** hlutanum eða smella á plúsmerkið (**+**) við hliðina á **Gagnasöfn** í vinstri glugganum. [![Gagnasafn stofnað](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Velja skal **SharePoint – teymasvæði** valkostinn og færa síðan inn slóð SharePoint-þjóns sem verið er að nota (**https://ax7partner.spoppe.com** í okkar dæmi). Flettið síðan að **/Shared Documents/GER data/PowerBI**-möppu og veljið Excel-skráin sem var stofnuð sem gagnagjafa fyrir ný Power BI-gagnasafn. [![Excel-skrá valin](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Smellið á **Tengja** og síðan á **Innflutningur**. Ný gagnasafn er stofnað sem byggir á völdum Excel-skrá. Dataset má einnig bæta við sjálfkrafa við nýlega stofnað yfirlit. [![Gagnasafn á yfirliti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Skilgreina uppfærsluáætlun fyrir þetta gagnasafn til að láta uppfæra reglubundið. Reglulegar uppfærslur virkja notkun nýrra viðskiptagagna sem koma úr Finance and Operations í gegnum reglubundna keyrslu skýrslu rafrænnar skýrslugerðar, í gegnum nýjar útgáfur af Excel-skránni sem er stofnuð á SharePoint Server.
+Innskráning í Power BI og annaðhvort opna fyrirliggjandi Power BI-flokk (vinnusvæði) eða stofnið nýjan flokk. Annaðhvort smella á **Bæta við** undir **Skrár** í **Flytja inn eða tengjast gögnum** hlutanum eða smella á plúsmerkið (**+**) við hliðina á **Gagnasöfn** í vinstri glugganum. [![Stofna gagnasafn](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Velja skal valkostinn **SharePoint – teymasvæði** færa síðan inn slóð SharePoint-þjóns sem verið er að nota (**https://ax7partner.litware.com** í okkar dæmi). Flettið síðan að **/Shared Documents/GER data/PowerBI**-möppu og veljið Excel-skráin sem var stofnuð sem gagnagjafa fyrir ný Power BI-gagnasafn. [![Excel-skrá valin](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Smellið á **Tengja** og síðan á **Innflutningur**. Ný gagnasafn er stofnað sem byggir á völdum Excel-skrá. Dataset má einnig bæta við sjálfkrafa við nýlega stofnað yfirlit. [![Gagnasafn á yfirliti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Skilgreina uppfærsluáætlun fyrir þetta gagnasafn til að láta uppfæra reglubundið. Reglulegar uppfærslur virkja notkun nýrra viðskiptagagna sem koma úr Finance and Operations í gegnum reglubundna keyrslu skýrslu rafrænnar skýrslugerðar, í gegnum nýjar útgáfur af Excel-skránni sem er stofnuð á SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Stofna Power BI skýrslu með því að nota nýja gagnasafnið.
 Til að stofna nýja Power BI skýrslu skal smellt á í **upplýsingar um Innflutning og útflutning** Power BI-gagnasafn sem þú stofnaðir. Svo skal Skilgreina myndræn útfærsla. Veljið til dæmis á **Útfyllt korti** myndræn útfærsla, og skilgreina sem hér segir:

@@ -3,25 +3,25 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: is-is
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
+Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað er að fjarlægja úr Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Aðgerðir sem hafa verið úreltir í Dynamics 365 for Finance and Operations, Enterprise edition Júlí 2017 uppfærslu
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Eiginleikar sem hafa verið gerðir úreltir fyrir allar virkjunargerðir júlí 2017 uppfærslunnar með verkvangsuppfærslu 8
+Listinn inniheldur eiginleika sem hafa verið gerðir úreltir fyrir virkjun bæði í skýi og á staðnum.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Gátt fyrir fartæki vöruhúss
 
@@ -40,7 +41,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Ástæða afskrifta**       | Afrituð virkni.                        |
-| **Skipt út fyrir aðra eiginleika?** | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Sjá frekari upplýsingar um uppsetningu og forkröfur [sett Upp og skilgreina Microsoft Dynamics 365 til Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Skipt út fyrir aðra eiginleika?** | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Sjá frekari upplýsingar um uppsetningu og forkröfur [sett Upp og skilgreina Microsoft Dynamics 365 til Finance and Operations - Warehousing](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Kerfi sem verða fyrir áhrifum**             | Vöruhúsastjórnun, flutningsstjórnun |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Jöfnunarregla ítarlegrar afstemmingar banka fyrir handvirka jöfnun
@@ -62,6 +63,28 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 | **Ástæða afskrifta**       | Finance and Operations er samhæft við spjaldtölvur. Spjaldtölvuforrita er ekki lengur þörf. |
 | **Skipt út fyrir aðra eiginleika?** | Nei.                                                                                      |
 | **Kerfi sem verða fyrir áhrifum**             | Útgjaldastýring                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Eiginleikar sem hafa verið gerðir úreltir fyrir virkjun á staðnum á júlí 2017 uppfærslunni með verkvangsuppfærslu 8
+
+### <a name="ssrs-report-viewer-control"></a>SSRS yfirlitsstýring skýrslu
+
+Þessi eiginleiki var notaður til að eiga samskipti við HTML sniðnar skýrslur í vefbiðlara Finance and Operations.
+
+|                                  |  |
+|----------------------------------|--|
+| **Ástæða afskrifta**       | SQL Reporting Services (SSRS) styður ekki yfirlitsstýringu skýrslu sem er samhæfð við vefbiðlara á staðnum.      |
+| **Skipt út fyrir aðra eiginleika?** | Skýrslur eru gerðar sem PDF skjöl af þjónustu á staðnum. Notaðu viðbætur til að virkja innfellda köfunartengla í forritaskýrslum. |
+| **Kerfi sem verða fyrir áhrifum**             | Allir    |
+
+### <a name="document-routing-agent"></a>Miðlari skjalasendingar
+
+Biðlari fyrir miðlara skjalasendingar er notaður sem þjónustuhátt til að tengjast úr skýinu í lénsvottaða prentara á neti.
+
+|                                  |  |
+|----------------------------------|--|
+| **Ástæða afskrifta**       | Virkjanir á staðnum eru hýstar á lénsvottuðum þjónum. Þetta tryggir öruggan og beinan aðgang að prenturum á neti. |
+| **Skipt út fyrir aðra eiginleika?** | Þessi þáttur er ekki nauðsynlegur fyrir virkjun á staðnum.|
+| **Kerfi sem verða fyrir áhrifum**             | Enginn               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Eiginleikar hafa verið úreltar í Dynamics 365 for Operations 1611 með uppfærslu verkvangs 3
@@ -348,7 +371,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF AxD og AxBC samþættingar
 
-Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggir á skjölum nota **Axd &lt;*Skjal*&gt; **klasar.
+Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggir á skjölum nota **Axd &lt;*Skjal*&gt;** klasar.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,11 +511,20 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microsoft Dynamics AX.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Ástæða afskrifta       | Gögn deildaskiptingar voru kynnt í Microsoft Dynamics AX 2012 R2 til að virkja einangrun gagna. Í almennum aðstæðum, er Fyrirtæki með dótturfyrirtæki og gögn úr eitt dótturfyrirtæki ætti ekki að vera sýnileg fyrir aðra dótturfyrirtæki, jafnvel þótt bæði dótturfyrirtækjum er stjórnað af sömu tæknideild. Hins vegar var þörf á aukalegar forskriftir og sameiginlegur kostnaður í forritinu til að stofna nýja deildaskiptingar og færa inn í þær gög, og afrita deildaskiptingar gagna. Í skýið, þar sem við höfum aðgang að verkvangur sem þjónusta (PaaS) gagnagrunnsþjónustu (Microsoft Azure SQL Gagnagrunnur), er mikið áhrifaríkara að nota í gagnagrunninn sem einangrunargeymi en að framkvæma einangrunina í forritinu. Óháð því hvort deildarskipging gagna er krafist fyrir dótturfyrirtæki, fyrir marga leigjendur, eða einfaldlega fyrir kvörðun, trúum við því að aðstæður megi meðhöndla betur með mörgum gagnagrunnum eða mörgum tilvikum Dynamics AX. |
-| Skipt út fyrir aðra eiginleika? | deildaskipting gagna verður skipt út fyrir stuðning við margar gagnagrunna eða Dynamics AX tilvik í framtíðarútgáfum.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Kerfi sem verða fyrir áhrifum             | Allt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Skipt út fyrir aðra eiginleika? | deildaskipting gagna verður skipt út fyrir stuðning við margar gagnagrunna eða Dynamics AX tilvik í framtíðarútgáfum.    |
+| Kerfi sem verða fyrir áhrifum             | Allir  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Gagnagrunnur og geymsla fyrir samnýttar skár fyrir viðhengi
+Microsoft Dynamics AX 2012 leyfð geymsla viðhengja í gagnagrunninum og samnýttum skrám. Báðir valkostirnir eru ekki lengur studdir.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Ástæða afskrifta       | Geymsla samnýttra skráa er ekki lengur studd því umhverfi í skýi geta ekki átt samskipti við staðbundnar samnýttar skrár. Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla. Azure Blob geymsla er sambærileg við geymslu í gagnagrunninum, þar sem aðeins er hægt að fá aðgang að skjölum í gegnum biðlaraskjámyndir Dynamics 365 for Finance and Operations. Þessu fylgir sá viðbótarkostur að bjóða upp á geymslu sem hefur ekki neikvæð áhrif á afköst gagnagrunnsins. Blob geymsla er sjálfgefið geymslukerfi fyrir Skjalastjórnum og virkar tafarlaust. |
+| Skipt út fyrir aðra eiginleika? | Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla.       |
+| Kerfi sem verða fyrir áhrifum             | Allir                   |
 
 ### <a name="delimitation"></a>Afmörkun
 
@@ -525,8 +557,8 @@ Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microso
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Almenn virkni er nú notaðar í stað staðfært virkni.                                                                                                                                                                 |
-| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. Þar að auki, innleiðing camt.053 ISO20022 innflutnings lyklayfirlits er áætluð fyrir Almennrar færslubókar í næstu uppfærslu á Dynamics AX. |
-| Kerfi sem verða fyrir áhrifum             | Allt                                                                                                                                                                                                                                   |
+| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. |
+| Kerfi sem verða fyrir áhrifum             | Allir                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL fyrir Þýskaland)
 
@@ -577,8 +609,8 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Snið gildir ekki lengur í Þýskalandi, þar sem því hefur verið skipt út fyrir virkni sameiginlegs evrópsks greiðslusvæðis (SEPA).                                                                                                                                                                 |
-| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af greiðsluútflutningur SEPA og ítarlega virkni fyrir bankaafstemming fyrir innflutning reikningsyfirlita. Þar að auki, innleiðing camt.053 ISO20022 innflutnings lyklayfirlits er áætluð fyrir Almennrar færslubókar í næstu uppfærslu á Dynamics AX. |
-| Kerfi sem verða fyrir áhrifum             | Allt                                                                                                                                                                                                                                                                                            |
+| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af greiðsluútflutningur SEPA og ítarlega virkni fyrir bankaafstemming fyrir innflutning reikningsyfirlita. |
+| Kerfi sem verða fyrir áhrifum             | Allir                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Þýska dtazv greiðslusnið
 
@@ -593,8 +625,8 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ástæða afskrifta       | Almenn virkni er nú notaðar í stað staðfært virkni.                                                                                                                                                                 |
-| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. Þar að auki, innleiðing camt.053 ISO20022 innflutnings lyklayfirlits er áætluð fyrir Almennrar færslubókar í næstu uppfærslu á Dynamics AX. |
-| Kerfi sem verða fyrir áhrifum             | Allt                                                                                                                                                                                                                                   |
+| Skipt út fyrir aðra eiginleika? | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. |
+| Kerfi sem verða fyrir áhrifum             | Allir                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Þýskur XML ESB-sölulisti
 

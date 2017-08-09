@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ Eftirfarandi skýringarmynd sýnir hönnun segðar af þessari gerð. Í þessu 
 
 ### <a name="data-formatting"></a>Gagnasnið
 
-Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður gögn sem er tekið úr gagnagjafa, þannig að gögn geta verið send sem hluti af myndandi rafrænu skjali. Ef þú ert með snið sem þarf að nota sem dæmigerða reglu sem þarf að endurnýta sem snið, geturðu lagt fram það snið það einu sinni í skilgreiningu sniðs sem umbreyting með heiti sem er með sniðsegð. Síðar þetta nefnda umbreyting er hægt að tengja við marga sniðhluti hvers úttak verður að vera sniðin í samræmi við stofnaða segð. Eftirfarandi skýringarmynd sýnir hönnun umbreytingar sem samanstendur af þessari gerð. Í þessu dæmi er **TrimmedString** umbreyting tekur gögn á innleið af gagnagerðinni **Strengur** gagnagerð, og stýfir bil í upphafi og enda þegar hann skilar aftur gildi strengsins. [![mynd-umbreytingar-hönnun](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Eftirfarandi skýringarmynd sýnir hvernig er hægt að nota umbreyting af þessari gerð. Í þessu dæmi eru margir þættir sniðs sem senda texta sem úttak í myndandi rafræna skjalið á keyrslutíma og vísa í **TrimmedString** umbreytingu eftir nafni. [![mynd-umbreytingar-notkun](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Þegar þættir sniðs vísa til TrimmedString **umbreytingar (t.d. á **partyName** þáttur í fyrri skýringarmynd) er sendur texti sem úttak í myndandi skjalið. Textinn inniheldur ekki bil fremst og aftast. Ef þú ert með snið sem þarf að nota eitt og sér, getur þú sett fram það snið sem einstaka segð bindingar fyrir tiltekna sniðsþáttinn. Eftirfarandi skýringarmynd sýnir segð sem samanstendur af þessari gerð. Í þessu dæmi er **partyType** sniðsþáttur bundin við gagnagjafa með segð sem umbreytir gögnum á innleið úr **Model.Company.RegistrationType** svæði í gagnagjafanum yfir í hástafa texta og sendir textann sem úttak til rafræna skjalið. [![mynd-binding-með-formúlu](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður gögn sem er tekið úr gagnagjafa, þannig að gögn geta verið send sem hluti af myndandi rafrænu skjali. Ef þú ert með snið sem þarf að nota sem dæmigerða reglu sem þarf að endurnýta sem snið, geturðu lagt fram það snið það einu sinni í skilgreiningu sniðs sem umbreyting með heiti sem er með sniðsegð. Síðar þetta nefnda umbreyting er hægt að tengja við marga sniðhluti hvers úttak verður að vera sniðin í samræmi við stofnaða segð. Eftirfarandi skýringarmynd sýnir hönnun umbreytingar sem samanstendur af þessari gerð. Í þessu dæmi er **TrimmedString** umbreyting tekur gögn á innleið af gagnagerðinni **Strengur** gagnagerð, og stýfir bil í upphafi og enda þegar hann skilar aftur gildi strengsins. [![mynd-umbreytingar-hönnun](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Eftirfarandi skýringarmynd sýnir hvernig er hægt að nota umbreyting af þessari gerð. Í þessu dæmi eru margir þættir sniðs sem senda texta sem úttak í myndandi rafræna skjalið á keyrslutíma og vísa í **TrimmedString** umbreytingu eftir nafni. [![mynd-umbreytingar-notkun](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Þegar þættir sniðs vísa til TrimmedString **umbreytingar** (t.d. á **partyName** þáttur í fyrri skýringarmynd) er sendur texti sem úttak í myndandi skjalið. Textinn inniheldur ekki bil fremst og aftast. Ef þú ert með snið sem þarf að nota eitt og sér, getur þú sett fram það snið sem einstaka segð bindingar fyrir tiltekna sniðsþáttinn. Eftirfarandi skýringarmynd sýnir segð sem samanstendur af þessari gerð. Í þessu dæmi er **partyType** sniðsþáttur bundin við gagnagjafa með segð sem umbreytir gögnum á innleið úr **Model.Company.RegistrationType** svæði í gagnagjafanum yfir í hástafa texta og sendir textann sem úttak til rafræna skjalið. [![mynd-binding-með-formúlu](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>Vinnsla vinnsluflæðis
 
@@ -104,7 +104,7 @@ Segðir rafrænnar skýrslugerðar geta innihaldið hverja sem er eða allar af 
 
 #### <a name="constants"></a>Fastagildi
 
-Þú getur notað texta og tölulega fastagildi (gildum sem ekki eru reiknaðar út) þegar þú hannar segðir. Til dæmis, segð **VALUE ("100") + 20 **notar tölulegt fastagildi 20 og fastagildi strengs "100“ og skilar tölulegu gildi **120**. Slepptar raðir eru studd í formúluhönnuði rafrænnar skýrslugerðar sem þýðir það þú getur tilgreina segðarstreng sem á að meðhöndla á annan hátt. Til dæmis, segðin **"Leo Tolstoy""War og Peace" "1 bindi"** skilar textastreng: **Leo Tolstoy "War og Peace" 1 bindi**
+Þú getur notað texta og tölulega fastagildi (gildum sem ekki eru reiknaðar út) þegar þú hannar segðir. Til dæmis, segð **VALUE ("100") + 20** notar tölulegt fastagildi 20 og fastagildi strengs "100“ og skilar tölulegu gildi **120**. Slepptar raðir eru studd í formúluhönnuði rafrænnar skýrslugerðar sem þýðir það þú getur tilgreina segðarstreng sem á að meðhöndla á annan hátt. Til dæmis, segðin **"Leo Tolstoy""War og Peace" "1 bindi"** skilar textastreng: **Leo Tolstoy "War og Peace" 1 bindi**
 
 #### <a name="operators"></a>Virknitákn
 
@@ -136,7 +136,7 @@ Eftirfarandi tafla sýnir samanburðarreiknitákn sem eru studd, og sem er hægt
 
 #### <a name="operator-precedence"></a>Forgangsröðun stjórnanda
 
-Röðin sem hlutar samsettrar segðar eru metnir í er mikilvæg. Til dæmis niðurstaða segðar** 1 + 4 / 2** eru mismunandi eftir því hvort samlagningaraðgerðin eða deilingaraðgerðin er framkvæmd fyrst. Hægt er að nota sviga til að skilgreina sérstaklega hvernig segð er metin. Til dæmis til að gefa til kynna að samlagningaraðgerðin ætti að framkvæma fyrst, er hægt að breyta fyrri segð í **(1 + 4) / 2**. Ef röð aðgerða sem þarf að framkvæma í segð er ekki skilgreindur sérstaklega, er röðin byggð upp á grundvelli sjálfgefins forgangs sem úthlutað er á studda virkja. Eftirfarandi töflur sýnir virkja og forgang sem úthlutað er á hvern og einn. Virkjar sem hafa hærri forgang (til dæmis 7) eru metnar á undan virkjum sem hafa lægri forgang (til dæmis 1).
+Röðin sem hlutar samsettrar segðar eru metnir í er mikilvæg. Til dæmis niðurstaða segðar **1 + 4 / 2** eru mismunandi eftir því hvort samlagningaraðgerðin eða deilingaraðgerðin er framkvæmd fyrst. Hægt er að nota sviga til að skilgreina sérstaklega hvernig segð er metin. Til dæmis til að gefa til kynna að samlagningaraðgerðin ætti að framkvæma fyrst, er hægt að breyta fyrri segð í **(1 + 4) / 2**. Ef röð aðgerða sem þarf að framkvæma í segð er ekki skilgreindur sérstaklega, er röðin byggð upp á grundvelli sjálfgefins forgangs sem úthlutað er á studda virkja. Eftirfarandi töflur sýnir virkja og forgang sem úthlutað er á hvern og einn. Virkjar sem hafa hærri forgang (til dæmis 7) eru metnar á undan virkjum sem hafa lægri forgang (til dæmis 1).
 
 | Forgangur | Virknitákn      | Málskipun                                                   |
 |------------|----------------|----------------------------------------------------------|
@@ -196,8 +196,8 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 | SESSIONNOW ()                              | Skilar núverandi setudagsetningu og tíma Finance and Operations sem dagsetningartímagildi.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (dagsetning, snið)                  | Skilar strengjaframsetningu á dagsetningu sem notar tilgreint snið.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** skilar núverandi setudagsetningu Dynamics 365 for Finance and Operations 12/24/2015 sem “**24-12-2015**” í samræmi við tilgreint sérsnið.                                                                                                                      |
 | DATEFORMAT (dagsetning, snið, menning)         | Umbreyta tilgreinda dagsetningargildi í streng á tilgreindu sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** skilar núverandi setudagsetningu Finance and Operations 12/24/2015 sem **“24.12.2015”** í samræmi við valda þýska menningu.                                                                                                                       |
-| DAYOFYEAR (dagsetning)              | Skilar heiltöluframsetningu á fjölda daga á milli 1. janúar og tilgreindrar dagsetningar.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** skilar **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** skilar **1**.                                                                                                                       |
+| DAYOFYEAR (dagsetning)              | Skilar heiltöluframsetningu á fjölda daga á milli 1. janúar og tilgreindrar dagsetningar.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** skilar **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** skilar **1**. 
+                                                                                                                      |
 
 **Gagnaumbreytingarvirkni**
 
@@ -236,7 +236,14 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <li>Runur sem reglulegir listar (<strong>Gildi </strong> þáttur)</li>
 <li>Núverandi rununúmer (<strong>BatchNumber</strong>þáttur)</li>
 </ul></td>
-<td>Í eftirfarandi dæmi er <strong>Línur</strong> gagnagjafa stofnaður sem listi yfir færslur fyrir þrjár færslur, sem er skipt í runur sem hver inniheldur allt að tvo færslur. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Þetta sýnir hannað sniðið útlit, þar sem bindingar við <strong>Línur</strong> gagnagjafa eru stofnaðar til að mynda úttak í xml-sniði sem sýnir einstaka hnúta fyrir hverja runu og færslur í henni. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Hér er niðurstaða af því að keyra hannað snið. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Í eftirfarandi dæmi er <strong>Línur</strong> gagnagjafa stofnaður sem listi yfir færslur fyrir þrjár færslur, sem er skipt í runur sem hver inniheldur allt að tvo færslur. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Þetta sýnir hannað sniðið útlit, þar sem bindingar við <strong>Línur</strong> gagnagjafa eru stofnaðar til að mynda úttak í xml-sniði sem sýnir einstaka hnúta fyrir hverja runu og færslur í henni. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Hér er niðurstaða af því að keyra hannað snið. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (record 1 [, record 2, ...])</td>
@@ -300,7 +307,14 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <li>Tilgreindar listaskráningar sem reglulegur listi(<strong>Gildi </strong> þáttur)</li>
 <li>Gildandi færsluvísir (<strong>Númer </strong>þáttur)</li>
 </ul></td>
-<td>Í eftirfarandi dæmi er <strong>tölusettur</strong> gagnagjafa er stofnaður sem tölusettur listi yfir færslur lánardrottna úr á gagnagjafa <strong>Lánardrottna</strong> sem vísar á <strong>VendTable</strong> tafla. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Hér er snið, þar sem gagnabindingar eru stofnaðar til að mynda úttak í xml-sniði sem stendur fyrir einstaka lánardrottna sem tölusettir hnútar. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Hér er niðurstaða af því að keyra hannað snið. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>Í eftirfarandi dæmi er <strong>tölusettur</strong> gagnagjafa er stofnaður sem tölusettur listi yfir færslur lánardrottna úr á gagnagjafa <strong>Lánardrottna</strong> sem vísar á <strong>VendTable</strong> tafla. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Hér er snið, þar sem gagnabindingar eru stofnaðar til að mynda úttak í xml-sniði sem stendur fyrir einstaka lánardrottna sem tölusettir hnútar. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Hér er niðurstaða af því að keyra hannað snið. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (listi)</td>
@@ -322,13 +336,24 @@ Listinn sem er búinn til samanstendur af færslum með eftirfarandi svæði:
 <li>lýsing</li>
 </ul>
 Svæðin Merkimiði og Lýsing skila gildum á keyrslutíma á grunni tungumálastillinga sniðsins.</td>
-<td>Eftirfarandi dæmi sýnir tölusetning í gagnalíkan. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Eftirfarandi dæmi sýnir:
+<td>Eftirfarandi dæmi sýnir tölusetning í gagnalíkan. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Eftirfarandi dæmi sýnir:
 <ul>
 <li>Tölusetning líkans sett inn í skýrslu sem gagnagjafa.</li>
 <li>Segð rafrænnar skýrslugerðar hannað til að nota tölusetning líkans sem færibreytu fyrir þessa aðgerð.</li>
 <li>Gagnagjafi af gerðinni færslulisti settur inn í skýrslu með því að nota stofnaða segð rafrænnar skýrslugerðar.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> Eftirfarandi dæmi sýnir sniðseiningar rafrænnar skýrslugerðar sem eru bundnar við gagnagjafa af gerðinni færslulisti sem var stofnaður með því að nota aðgerðinni LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Þetta er niðurstaða af framkvæmd hannaðs sniðs.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Athugasemd:</strong> Þýddur texti fyrir merkimiða og lýsingar er sett í sniðsúttak rafrænnar skýrslugerðar í samræmi við tungumálastillingar skilgreindar fyrir YFIRSKRÁ og sniðseiningar MÖPPU.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+Eftirfarandi dæmi sýnir sniðseiningar rafrænnar skýrslugerðar sem er bundnar við gagnagjafann af gerðinni færslulisti sem var stofnaður með aðgerðinni LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Þetta er niðurstaða af framkvæmd hannaðs sniðs.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Athugið:</strong> Þýddur texti fyrir merki og lýsingar er settur í sniðsúttak rafrænnar skýrslugerðar í samræmi við tungumálastillingar skilgreindar fyrir YFIRSKRÁ og sniðseiningar MÖPPU.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (listanum, svæðisheiti, skiltákn)</td>
@@ -338,7 +363,18 @@ Svæðin Merkimiði og Lýsing skila gildum á keyrslutíma á grunni tungumála
 <tr class="even">
 <td>SPLITLISTBYLIMIT (listanum, markgildi, uppruni marks)</td>
 <td>Skiptir uppgefins lista yfir í nýja lista yfir undirlista og skilar niðurstöðum með innihaldi færslulista. Færibreyta markgildis tilgreinir gildi marksins sem á að skipta upprunalistanum. Færibreyta uppruna marks tilgreinir þrepið sem heildarsamtalan eykst um. Markinu er ekki beitt á staka vöru á tilteknum lista þegar uppruni marsk fer fram yfir tilgreint mark.</td>
-<td>Eftirfarandi dæmi sýnir dæmi um snið með gagnagjafa. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Þetta er framkvæmd sniðs niðurstöðu sem sýnir flatan lista yfir grunnvöru.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Eftirfarandi dæmi sýnir sama sniðsins sem var aðlagað til að birta lista yfir atriði grunnvöru í runum þegar einn rununa verður að innihalda grunnvörur með heildarþyngd sem ekki ætti að fara yfir hámarki 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Þetta er niðurstaða framkvæmd leiðrétt snið. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Athugasemd: </strong> Mark er ekki beitt á síðasta hlut í upprunalistanum þar sem gildið (11) á mörkum upprunans (þyngd) er yfir skilgreinda mörkum (9). Notið annað hvort virkninga <strong>WHERE</strong> eða <strong>Virkt</strong> segð samsvarandi sniðseiningar til að hunsa (sleppa) undirlistum þegar verið er að mynda skýrslur(ef þörf krefur).</td>
+<td>Eftirfarandi dæmi sýnir dæmi um snið með gagnagjafa. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Þetta er niðurstaðar framkvæmdar sniðs sem sýnir flatan lista yfir grunnvöru.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Eftirfarandi dæmi sýnir sama snið sem var aðlagað til að birta lista yfir grunnvöruatriði í runum þar sem ein runa verður að innihalda grunnvörur með heildarþyngd sem ekki ætti að fara yfir markið 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Þetta er niðurstaða framkvæmdar leiðrétts sniðs. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Athugið:</strong> Markinu er ekki beitt á síðasta atriðið á upprunalistanum þar sem gildi (11) uppruna marks þess (þyngd) er hærra en skilgreint mark (9). Notið annað hvort virkninga <strong>WHERE</strong> eða <strong>Virkt</strong> segð samsvarandi sniðseiningar til að hunsa (sleppa) undirlistum þegar verið er að mynda skýrslur(ef þörf krefur).</td>
 </tr>
 <tr class="odd">
 <td>Afmörkun (listi, skilyrði)</td>
@@ -511,7 +547,10 @@ Svæðin Merkimiði og Lýsing skila gildum á keyrslutíma á grunni tungumála
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, ...])</td>
 <td>Skila tilgreindum streng, sem er forsniðinn með því að skipta öllum tilvikum um <strong>%N</strong> út fyrir <em>n</em>. frumbreytuna. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>real</strong> ,umreikning strengs takmarkast við sem nemur tveimur tugasætum.</td>
-<td>Í þessu dæmi skilar <strong>PaymentModel</strong> gagnagjafi lista yfir færslur viðskiptavina með þætti <strong>Viðskiptavinar</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæði. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> Í sniði rafrænnar skýrslugerðar (ER) sem er hannað til að mynda rafræna skrá fyrir valda viðskiptavini <strong>PaymentModel</strong> er valinn sem gagnagjafa og stýrir flæði ferlis. Gerð er undantekning fyrir endanotendur þegar valinn viðskiptavinur er stöðvað af dagsetning þegar skýrslan er unnin. Formúlu sem er hannað fyrir þessa gerð vinnslustýringar getur notað eftirfarandi tilföng:
+<td>Í þessu dæmi skilar <strong>PaymentModel</strong> gagnagjafi lista yfir færslur viðskiptavina með þætti <strong>Viðskiptavinar</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæði. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+Í sniði rafrænnar skýrslugerðar (ER) sem er hannað til að mynda rafræna skrá fyrir valda viðskiptavini <strong>PaymentModel</strong> er valinn sem gagnagjafa og stýrir flæði ferlis. Gerð er undantekning fyrir endanotendur þegar valinn viðskiptavinur er stöðvað af dagsetning þegar skýrslan er unnin. Formúlu sem er hannað fyrir þessa gerð vinnslustýringar getur notað eftirfarandi tilföng:
 <ul>
 <li>Finance and Operations merki SYS70894 sem hefur eftirfarandi texta:
 <ul>
@@ -526,8 +565,8 @@ Svæðin Merkimiði og Lýsing skila gildum á keyrslutíma á grunni tungumála
 </ul>
 Hér er formúlunnar sem hægt er að hanna: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Ef skýrsla er unnin fyrir <strong>viðskiptavin Litware í smásölu</strong> 17. desember 2015 á <strong>EN-US</strong> menningu og <strong>EN-US</strong> tungumáli skilar þessi formúla eftirfarandi texta sem er hægt að birta sem undantekningarskilaboð fyrir notandann: &quot;Ekkert til að prenta. Viðskiptavinur Litware smásölu er lokaður fyrir 12/17/2015.&quot; Ef sama skýrslan er unnin fyrir <strong> Viðskiptavin Litware smásölu</strong> þann 17. desember, 2015 <strong>DE</strong> í menningu og tungumálinu <strong>DE</strong> skilar þessi formúla eftirfarandi textasniði: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;<strong>Athugaðu:</strong> eftirfarandi málskipun er beitt í formúlur fyrir merki í rafrænni skýrslugerð:
 <ul>
-<li><strong>Fyrir merki úr tilföngum Finance and Operations:</strong>  <strong>@&quot;X&quot;</strong>, þar sem X er merkjakenni í hugbúnaðarhlutatrénu (AOT)</li>
-<li><strong>Fyrir merki sem eru í skilgreiningum rafrænnar skýrslugerðar:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, þar sem X er merkjakenni í skilgreiningu rafrænnar skýrslugerðar.</li>
+<li><strong>Fyrir merki úr tilföngum Finance and Operations:</strong> <strong>@&quot;X&quot;</strong> þar sem X er merkiskenni í hugbúnaðarhlutatrénu (AOT)</li>
+<li><strong>Fyrir merki sem eru í skilgreiningum rafrænnar skýrslugerðar:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong> þar sem X er merkjakenni í skilgreiningu rafrænnar skýrslugerðar</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -549,7 +588,8 @@ Hér er formúlunnar sem hægt er að hanna: FORMAT (CONCATENATE (@&quot;SYS7089
 <td>TRIM (strengur)</td>
 <td>Skilar tilteknum texta eftir að bil á undan og eftir hafa verið tekin út og fleiri en eitt bil á milli orða hafa verið fjarlægð. </td>
 <td><strong>TRIM ("     Textasýnishorn     ")</strong> skilar <strong>"Textasýnishorn".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (slóð tölusetningargagnagjafa, merkjatexti tölusetningargildis)</td>
 <td>Skilar gildi tilgreinds tölusetningargagnagjafa með tilgreindum texta þessa tölusetningarmerkis.</td>
 <td>Eftirfarandi dæmi sýnir tölusetninguna ReportDirection setta í gagnalíkan. Athugaðu að merki eru skilgreind fyrir tölusetningargildi.

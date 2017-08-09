@@ -1,5 +1,5 @@
 ---
-title: "Dreifing frá dreifingarstöð úr framleiðslupöntun til úthliða | Microsoft Docs"
+title: "Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið"
 description: "Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs."
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ Vinna af gerðinni **Frágangur á fullunnum vörum** var stofnuð og framkvæmd
 ### <a name="additional-information"></a>Viðbótarupplýsingar
 
 -   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi.
--   Ekki er hægt að skipta magninu sem verið er að skrá sem fullunnið í flutningspöntunarþörf sem er lægri. Til dæmis, ef verið er að skrá 20 stykki sem fullunnin og flutningspöntun er til fyrir 5 stykki, telst flutningspöntunin ekki vera gjaldgeng fyrir dreifingu frá dreifingarstöð.
 
 
 

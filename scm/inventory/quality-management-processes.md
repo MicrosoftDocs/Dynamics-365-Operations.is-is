@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d0af259fd6da8a57bada919f44a2902d9a5854d
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -69,7 +69,7 @@ Vöruprófun kallast venjulega gæðaeftirlit og notar gæðapantana . Með þv�
 | Innra              | Gæðapöntunarnúmer eða lotunúmer gæðapöntunarfærslu. Til dæmis gæti ósamkvæmni tengst prófunum sem eru framkvæmd sem hluti af gæðapöntun eða áhyggjum starfsmanns um gæði vöru.     |
 | Framleiðsla aukaafurðar | Ósamkvæmni aukaafurðar framleiðslupöntunar sem er tengd framleiðslupöntun runu.                                                                                                                                                    |
 
-Ósamkvæmni er tengd við gerð vandamáls. Gerðir vandamála eru skilgreindar í á **gerðir Vandamála** síðuna þar sem tilgreint er hvaða gerðir vandamála getur verið tengt við hverja gerð ósamkvæmni. Til dæmis gætu gerðir vandamála fyrir ósamkvæmni fyrir gerðina **Þjónustubeiðni** endurspeglað flokkun fyrir kvartanir viðskiptavina, en hinsvegar gerðir ósamkvæmni fyrir gerðina **Innra ** gætu staðið fyrir flokkun á gallakóðum. 
+Ósamkvæmni er tengd við gerð vandamáls. Gerðir vandamála eru skilgreindar í á **gerðir Vandamála** síðuna þar sem tilgreint er hvaða gerðir vandamála getur verið tengt við hverja gerð ósamkvæmni. Til dæmis gætu gerðir vandamála fyrir ósamkvæmni fyrir gerðina **Þjónustubeiðni** endurspeglað flokkun fyrir kvartanir viðskiptavina, en hinsvegar gerðir ósamkvæmni fyrir gerðina **Innra** gætu staðið fyrir flokkun á gallakóðum. 
 
 Þegar stofnuð er ný ósamkvæmni, þú Velja gerð ósamkvæmni og gerð vandamáls. Upphafleg samþykktarstaðan er **Nýtt**, sem stendur fyrir beiðni um aðgerðina. Næsta skref er að breyta samþykktarstöðu í **samþykkt** eða **hafnað** til að gefa til kynna hvort bregðast eigi við ósamkvæmninni eða ekki. Einnig er hægt að loka ósamkvæmni (með því að velja sérstakur gátreitur ) til að gefa til kynna að búið sé að ljúka henni eða opna ósamkvæmni aftur til að gefa til kynna að þörf sé á frekari athugun. 
 
@@ -96,13 +96,13 @@ Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með þv
 
 [Virkja stjórnun ósamkvæmni](enable-nonconformance-management.md)
 
-[Birgðalæsing](inventory-blocking.md)
+[Stöðvun í birgðum](inventory-blocking.md)
 
 [Biðgeymslupantanir](quarantine-orders.md)
 
-[Setja upp gæðapantanir (verkefnaleiðbeiningar)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
+[Setja upp gæðapantanir (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
-[Skoða gæði vara (verkefnaleiðbeiningar)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Skoða gæði vara (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

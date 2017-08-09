@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Sjálfvirkni reikninga lánardrottins
@@ -57,7 +57,7 @@ Gagnapakki er sú vinnueining sem þarf að senda til Finance and Operations, sv
 
 Skjalaviðhengi lánardrottnareikningsins er ný gagnaeining sem er kynnt sem hluti af þessari aðgerð. Hauseining lánardrottnareiknings hefur verið breytt þannig að hann styður viðhengi. Línueining lánardrottnareiknings hefur ekki verið breytt fyrir þetta sérkenni.
 
-Þetta efnisatriði veitir ekki nákvæma skilgreiningu á gagnapakka. Það útskýrir ekki heldur hvernig á að stofna gagnapakka. Þessar upplýsingar eru í [Rammi fyrir gagnaeiningar og -pakka](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Þetta efnisatriði veitir ekki nákvæma skilgreiningu á gagnapakka. Það útskýrir ekki heldur hvernig á að stofna gagnapakka. Þessar upplýsingar eru í [Rammi fyrir gagnaeiningar og -pakka](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Fylgið eftirfarandi skrefum til að mynda prófun gagna sem inniheldur reikninga og viðhengja.
 

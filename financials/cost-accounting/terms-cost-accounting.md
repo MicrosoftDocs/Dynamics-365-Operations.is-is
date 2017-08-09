@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -121,9 +121,13 @@ Rekstrarkostnað vísað gangi kostnað á rekstrareiningar fyrirtæki. Þau eru
 -   Skattar
 -   Utilities kostnaði
 
+**Kostnaðardreifing**
+
+Kostnaðardreifing er notuð til að endurúthluta kostnaði frá einum kostnaðarhlut til annars eða fleiri kostnaðarhluta með því að nota viðeigandi úthlutunargrunn. Kostnaðardreifing og kostnaðarúthlutun eru ólíkar að því leyti að kostnaðardreifing kemur alltaf upp á stigi aðalkostnaðareiningar upphaflegs verðs.
+
 **Kostnaðarúthlutun**
 
-Kostnaðarúthlutun er úthlutað og úthlutun kostnað byggðan á rót orsökum algengar kostnað. Að úthluta kostnaðarupphæðir og magn úr einn hlut kostnaðar við eitt eða fleiri hlutum kostnaðar. Til dæmis öllum aðstöðu services kostnaði er úthlutað á mismunandi deildir sem verið er að nota algengar bygging office.
+Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Finance and Operations styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar.
 
 **Kostnaðarúthlutunarstefna**
 

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ ms.lasthandoff: 06/13/2017
 ----------------
 
 -   [Yfirlit yfir númeraröð](number-sequence-overview.md)
--   [Setja upp númeraraðir með því að nota leiðsagnarforrit](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (verkefnaleiðbeiningar)
--   [Setja upp númeraröð á einstaklingsgrundvelli](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (verkefnaleiðbeiningar)
+-   [Setja upp númeraraðir með því að nota leiðsagnarforrit](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (verkefnaleiðbeiningar)
+-   [Setja upp númeraröð á einstaklingsgrundvelli](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (verkefnaleiðbeiningar)
 
 ## <a name="address-books"></a>Aðsetursbækur
 -   [Aðsetursbækur](qa-address-books.md)
@@ -67,17 +67,17 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="electronic-signatures"></a>Rafrænar undirskriftir
 -   [Yfirlit yfir rafrænar undirskriftir](electronic-signature-overview.md)
--   [Uppsetning rafræna undirskrifta](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (verkefnaleiðbeiningar)
+-   [Uppsetning rafræna undirskrifta](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (verkefnaleiðbeiningar)
 
 ## <a name="organizations"></a>Fyrirtæki
 -   [Fyrirtæki og stigveldi fyrirtækis](organizations-organizational-hierarchies.md)
 -   [Áætla stigveldi fyrirtækis](plan-organizational-hierarchy.md)
--   [Stofna rekstrareiningu](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (verkefnaleiðbeiningar)
--   [Stofna stigveldi fyrirtækis](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (verkefnaleiðbeiningar)
--   [Stofna lögaðila](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (verkefnaleiðbeiningar)
+-   [Stofna rekstrareiningu](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (verkefnaleiðbeiningar)
+-   [Stofna stigveldi fyrirtækis](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (verkefnaleiðbeiningar)
+-   [Stofna lögaðila](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (verkefnaleiðbeiningar)
 
 ## <a name="general-administration"></a>Almenn stjórnun
--   [Breyta borða eða merki fyrirtækis](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (verkefnaleiðbeiningar)
+-   [Breyta borða eða merki fyrirtækis](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (verkefnaleiðbeiningar)
 -   [Um gögn dagsetninga/tíma og tímabelti](date-time-zones.md)
 -   [Færslusniðmát](record-templates.md)
 

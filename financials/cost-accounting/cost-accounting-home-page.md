@@ -3,12 +3,13 @@ title: "Heimasíða kostnaðarbókhalds"
 description: "Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
@@ -16,11 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: e87ed2b47136deb6b9ecf33b54f248bfc85257e2
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -28,54 +29,34 @@ ms.lasthandoff: 06/13/2017
 
 [!include[banner](../includes/banner.md)]
 
+## <a name="learning-map"></a>Námskort 
 
-Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald.
+Eftirfarandi námskort sýnir stærri hugtök og verkefni með tengilínum á milli tengdra verkefna sem lýsa eðli kostnaðarbókhaldseiningarinnar.
 
-Einingin Kostnaðarbókhald gerir kleift að gera eftirfarandi:
+![Námskort fyrir kostnaðarbókhald](./media/cost-accounting-map.png)
 
--   Skilgreina víddir kostnaðareiningar og flytja inn víddarstök kostnaðareiningar og varpa víddum kostnaðareiningar.
--   Skilgreina víddir kostnaðahluta og flytja inn víddarstök kostnaðarhluta.
--   Skilgreina eða flytja inn tölfræðileg víddarstök.
--   Stofna veitusniðmát tölfræðiaðgerðar.
--   Stofna fjárhag kostnaðarbókhalds.
--   Stofna stýrieiningar kostnaðar.
--   Vinna úr fjárhagsfærslum.
--   Vinna úr áætlunarfærslum.
--   Stofna og nota reglur kostnaðarhegðunar.
--   Rekja kostnað.
--   Skilgreina víddastigveldi.
--   Stofna yfirlit sem hægt er að skoða á vinnusvæðinu.
--   Stofna skýrslur með því að nota Excel.
-
-## <a name="get-started"></a>Hefjast handa
-
-> [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
-
-Verklegar æfingar fyrir kostnaðarbókhald veita grunnskrefin við skilgreiningu Microsoft Dynamics 365 for Finance and Operations, Enterprise – Kostnaðarbókhald fyrir greiningu kostnaðar. Þar er einnig að finna ferli sem hægt er að ljúka í sömu röð og þau eru birt.
-
--   [Hefjast handa með Kostnaðarbókhald](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (hvítbók og krefst CustomerSource lykill)
-
-Til að skilja hvernig hægt er að nota kostnaðarbókhald fyrir dagleg störf, verðurðu að skilja þessi hugtök.
-
--   [Lykilhugtök í kostnaðarbókhaldi](terms-cost-accounting.md)
--   [Víddir kostnaðareiningar og víddarstök ](cost-elements.md)
--   [Varpa mismunandi víddarstök kostnaðareiningar á almennt sett víddarstök kostnaðareiningar](map-cost-elements-dimension-members.md)
--   [Stofna kostnaðareiningar](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (verkleiðbeiningar)
--   [Víddir kostnaðarhlutar](cost-objects.md)
--   [Stofna kostnaðarhluti](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (verkleiðbeiningar)
-
-## <a name="cost-control-mobile-workspace"></a>Fartækjavinnusvæði kostnaðarstýringar
-Með fartækjavinnusvæði kostnaðarstýringar geta stjórnendur kostnaðarstaðar séð afkomu kostnaðarstaðar hvenær sem er og hvar sem er.
-
--   [Fartækjavinnusvæði kostnaðarstýringar](cost-controlling-mobile-workspace.md)
-
-## <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI-efni
-Microsoft Power BI-efnið Greining kostnaðarbókhalds er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýring af fyrirtæki. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni Kostnaðarbókhald í Finance and Operations og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
-
--   [Kostnaðarbókhaldsgreining Power BI-efni](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+## <a name="get-started-videos"></a>Byrjendamyndskeið
 
 
+<table>
+<tr>
+<iframe width="280" height="158" src="https://www.youtube.com/embed/1pUDtJQZ8FU" frameborder="0" allowfullscreen></iframe>
+</tr>
+<table>
+
+
+<table>
+<tr>
+<iframe width="280" height="158" src="https://www.youtube.com/embed/imsuTg8rUVk" frameborder="0" allowfullscreen></iframe>
+</tr>
+<table>
+
+
+<table>
+<tr>
+<iframe width="280" height="158" src="https://www.youtube.com/embed/-HKHYdClvx8" frameborder="0" allowfullscreen></iframe>
+</tr>
+</table>
 
 
 

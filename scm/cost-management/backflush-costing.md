@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Þetta efnisatriði kynnir til sögunnar hugtakið bakfærslukostnaðaraðferð sem er notað fyrir lean-framleiðslu. 
 
-Kostnaður fyrir Lean-framleiðslu gerir framleiðsluflæðinu aðferð fyrirtækjasamstæðum sem er lagt til backflush kostnaðarútreikning. Í bakfærslukostnaðaraðferð er beinum efnum sem notuð eru safnað upp í kostnaðarlykil verks í vinnslu (VÍV) í framleiðsluflæðinu. Birgðalíkanaflokkur staðalkostnaðar er notaður. Vörur sem eru fengnar úr framleiðsluflæðinu eru dregnar frá VÍV á staðalkostnaðarverði þeirra. Meginmunur á bakfærslukostnaðaraðferð og staðalkostnaði er að fyrir bakfærslukostnaðaraðferð eru frávik ekki reiknuð fyrir hvert kanban eða tilbúna afurð. Þess í stað eru frávik reiknuð eftir framleiðsluflæði yfir tímabil. Þessi aðferð kynnir sannarlega lean-hugtak til að skrá efnisnotkun. Sérnýtt tiltekið magn efnisins er ekki skráð í kanban- eða framleiðslupöntun. Þess í stað eru fullar runur eða afgreiðslueiningar stigskiptar í framleiðsluflæðinu. Eftir að runur eða afgreiðslueiningar eru skráðar sem auðar eru þær skilgreindar sem notaðar. Hugsanlegt er að nota ítarlega notkun notuð eftir því hver [skilgreining framleiðsluflæðisins er](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Áður en hægt er að nota ítarlega notkun verða fyrirtæki að leyfa sjálfumsér að láta efni hverfa í VÍV-framleiðsluflæðinu. Reglubundin bakfærslukostnaðaraðferð ákvarðar virk gildi VÍV til loka tímabils. Þessi ákvörðun byggist á kanban-afgreiðslueiningum og stöðu kanban-vinnslu. Frávik milli virkra gilda og raungilda VÍV eftir kostnaðarflokki og vöru eru gjaldfærð og sýnd sem frávik.
+Kostnaður fyrir Lean-framleiðslu gerir framleiðsluflæðinu aðferð fyrirtækjasamstæðum sem er lagt til backflush kostnaðarútreikning. Í bakfærslukostnaðaraðferð er beinum efnum sem notuð eru safnað upp í kostnaðarlykil verks í vinnslu (VÍV) í framleiðsluflæðinu. Birgðalíkanaflokkur staðalkostnaðar er notaður. Vörur sem eru fengnar úr framleiðsluflæðinu eru dregnar frá VÍV á staðalkostnaðarverði þeirra. Meginmunur á bakfærslukostnaðaraðferð og staðalkostnaði er að fyrir bakfærslukostnaðaraðferð eru frávik ekki reiknuð fyrir hvert kanban eða tilbúna afurð. Þess í stað eru frávik reiknuð eftir framleiðsluflæði yfir tímabil. Þessi aðferð kynnir sannarlega lean-hugtak til að skrá efnisnotkun. Sérnýtt tiltekið magn efnisins er ekki skráð í kanban- eða framleiðslupöntun. Þess í stað eru fullar runur eða afgreiðslueiningar stigskiptar í framleiðsluflæðinu. Eftir að runur eða afgreiðslueiningar eru skráðar sem auðar eru þær skilgreindar sem notaðar. Hugsanlegt er að nota ítarlega notkun notuð eftir því hver [skilgreining framleiðsluflæðisins er](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Áður en hægt er að nota ítarlega notkun verða fyrirtæki að leyfa sjálfumsér að láta efni hverfa í VÍV-framleiðsluflæðinu. Reglubundin bakfærslukostnaðaraðferð ákvarðar virk gildi VÍV til loka tímabils. Þessi ákvörðun byggist á kanban-afgreiðslueiningum og stöðu kanban-vinnslu. Frávik milli virkra gilda og raungilda VÍV eftir kostnaðarflokki og vöru eru gjaldfærð og sýnd sem frávik.
 
 ## <a name="configuring-backflush-costing"></a>Grunnstilling bakfærslukostnaðaraðferðar
 Til að virkja kostnaðarútreikning verður að ljúka eftirfarandi uppsetningu:

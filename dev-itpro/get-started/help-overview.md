@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Þessi grein veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
 
-> [!IMPORTANT] 
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise útgáfa; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru
+> [!NOTE] 
+> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise útgáfa; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+
+Hjálparkerfið er samnýtt af öllum Unified Operations-vörum:
+- Dynamics 365 for Finance and Operations, Enterprise
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations inniheldur hjálparkerfi sem byggt er á tveimur aðalþáttum:
 
 -   Svæði fylgiskjala
--   Verkefnaleiðbeiningar
-
-Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise útgáfa; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru. 
-
-Hjálparkerfið er samnýtt af öllum Unified Operations-vörum:
-- Dynamics 365 for Finance and Operations, Enterprise útgáfa
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
+-   Verkleiðbeiningar
 
 Hægt er að nálgast bæði hjálparefni og verkefnaleiðbeiningar á hjálparsvæðinu í þeirri vöru sem þú ert að nota. Eftirfarandi skjáskot sýnir Dynamics 365 for Finance and Operations
 
-![Hjálparsvæði](./media/help-pane-ops-task-guides-1024x741.png)
+![Hjálparsvæði](./media/help-pane-ops-task-guides.png)
 
 Þetta efnisatriði lýsir hjálparkerfinu og útskýrir hvernig hægt er að stofna sérsniðin skjöl og þjálfunarefni fyrir fyrirtækið þitt.
 
 > [!IMPORTANT]
-> Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Einnig er hægt að fá aðgerðahjálp á svæðinu docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) fyrir bæði Retail og Talent
+> Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Einnig er hægt að fá aðgerðahjálp á svæðinu docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) fyrir bæði Retail og Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
-Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) er aðaluppspretta vöruskjala fyrir Finance and Operations. Svæðið býður upp á eftirfarandi eiginleika:
+Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) er aðaluppspretta vöruskjala fyrir Finance and Operations. Svæðið býður upp á eftirfarandi eiginleika:
 
 -   **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 -   **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
@@ -68,12 +65,13 @@ Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dy
 ### <a name="searching-on-docsmicrosoftcom"></a>Leit á docs.microsoft.com
 Við fáum mikið af spurningum um hvernig á að leita að efni okkar. Ef þú byrjar á síðu um Finance and Operations á vefsvæðinu okkar, afmörkum við leitina þannig að hún varði aðeins efni um Finance and Operations. Hægt er að fjarlægja afmörkunina með því að smella á X við hliðina á Operations í leitarreitnum. 
 
-![Leit](./media/search-scope.png)
+![Leit](./media/search-scope-2.png)
 
 Einnig er hægt að finna okkar efni með hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á svæðum, svo sem site:docs.microsoft.com dynamics 365 „leitarorð".  
-![Leita á svæðum](./media/site-search.png)
 
-![Leitarniðurstöður svæðis](./media/site-search-results.png)
+![Leita á svæðum](./media/site-search-1.png)
+
+![Leitarniðurstöður svæðis](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Efnisyfirlit fyrir docs.microsoft.com fyrir Unified Operations
 Allar vörur deila einu efnisyfirliti á docs-svæðinu, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru að skoða. Það gerir það einnig mögulegt að nota stýringuna Sía til að finna efnisatriði sem verið er að leita að.
@@ -105,7 +103,7 @@ Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með �
 
 Við munum gefa út mismunandi söfn verkefnaleiðbeininga fyrir hverja Unified Operations-vöru. Hlutinn Aðgangur að verkefnaleiðbeiningum í hjálparsvæðinu lýsir hvernig á að finna rétta verkefnaleiðbeiningu fyrir vöruna þína. 
 
-![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
 Til að byrja gagnvirka leiðsögn, smellið á **Opna verkefnaleiðbeiningar** neðst á rúðunni Hjálp. Svartur bendill birtist og sýnir aðgerð sem þarf að framkvæma. Fylgja leiðbeiningunum sem birtist í Notendaviðmóti og færa inn gögn samkvæmt leiðbeiningum. 
 ![Fyrirmæli um skref í verkefnaleiðbeiningum](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Hægt er að stofna eigin verkskráningu, eða hægt er að sækja og sérsníð
 ## <a name="in-product-help"></a>Hjálp innan vörunnar
 Til að fá aðgang að hjálparefni innan Finance and Operations skal smella annaðhvort á táknið **Hjálp** (**?**) og velja svo Hjálp eða ýta á Ctrl + Shift +?. Í báðum tilvikum opnast Hjálp rúðunni . Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar. 
 
-![Hjálparsvæði](./media/help-pane-wiki-1024x684.png)
+![Hjálparsvæði](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Aðgangur að hjálparefni úr hjálparsvæði
 
@@ -162,7 +160,7 @@ Til að fá aðgang að hjálparefni innan Finance and Operations skal smella an
 
 Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hjálp rúðunni og smellið á **Verkleiðbeiningar** flipa. Nú sérðu verkefnaleiðbeiningar sem eiga við um þá síðu sem þú ert á í Finance and Operations. Ef engar verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Eftir að smellt er á verkefnaleiðbeiningar í hjálparsvæði sýnir hjálparsvæðið skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar. 
 
-![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops-1024x742.png)
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Hvar eru þýddu verkefnaleiðbeiningarnar?
 
