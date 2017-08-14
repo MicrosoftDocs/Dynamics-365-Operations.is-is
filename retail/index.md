@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Velkomin(n) í Dynamics 365 for Retail
 
-[!include[banner](includes/banner.md)]
-
 Microsoft Dynamics 365 for Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
 
-Eftirfarandi þrjár vörur eru nátengdar hver annarri:
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
-- Microsoft Dynamics 365 for Retail
-- Microsoft Dynamics 365 for Talent
-
-Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheitið Microsoft Dynamics 365 for Retail í efnisatriðum sem tengjast fyrst og fremst Retail. Þar af leiðandi verður vöruheitið Microsoft Dynamics 365 for Talent í efnisatriðum sem tengjast fyrst og fremst Talent. Og vöruheitið verður Microsoft Dynamics 365 for Finance and Operations, Enterprise edition í efnisatriðum sem tengjast undirstöðuvörunni, Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> [!NOTE] 
+> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations, Enterprise edition og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti Microsoft Dynamics 365 for Retail í efnisatriðum sem tengjast Retail, í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, og í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent. 
 
 Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika.
 
