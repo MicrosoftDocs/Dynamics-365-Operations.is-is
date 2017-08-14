@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Hægt er að setja lánardrottinn í bið fyrir ýmsar færslugerðir. Eftirtald
 -   **Aldrei** – lánardrottins er aldrei sett í bið vegna óvirkni.
 
 Þegar lánardrottinn er sett í bið er einnig hægt að tilgreina ástæðu og dagsetning þegar biðstöðunni skal ljúka. Ef ekki er fært inn lokadagsetningu, endist biðstaða lánardrottins í óráðinn tíma.
+
+Hægt er að magnuppfæra biðstöðu í **Allir** fyrir lánardrottna eftir völdum skilyrðum á síðunni **Óvirkjun lánardrottins** og setja inn ástæðu þess að lánardrottinn er í bið.
+
+Eftirfarandi skilyrði eru notuð til að innifela lánardrottna sem hafa verið óvirkir á ákveðnu tímabili, innifela eða útiloka lánardrottna sem eru starfsmenn og útiloka lánardrottna sem eru með greiðslufrest fyrir næstu biðstöðu.
+
+- Byggt á þeim dagafjölda sem tilgreindur er í reitnum **Virknitímabil** á síðunni **Afvirkjun lánardrottins** reiknar forritið út síðustu dagsetninguna sem lánardrottinn getur haft einhverja virkni til að teljast óvirkur. Þ.e.a.s., núverandi dagsetning að frádregnum dagafjöldanum sem þú slærð inn. Ef einn eða fleiri reikningar eru til fyrir lánardrottinn þar sem dagsetningin er síðar en útreiknaða síðasta dagsetningin, er lánardrottinn útilokaður úr afvirkjuninni. Þetta gildir einnig ef lánardrottinn á greiðslur eftir þá dagsetningu, opnar innkaupabeiðnir, opnar innkaupapantanir, tilboðsbeiðnir eða svör.
+- Dagafjöldinn í reitnum **Greiðslufrestur fyrir næstu biðstöðu** er notaður til að reikna síðustu dagsetningu greiðslufrests. Þ.e.a.s., núverandi dagsetning að frádregnum dögunum sem þú slærð inn. Þetta á aðeins við um lánardrottna sem hafa áður verið afvirkjaðir. Þegar um er að ræða fyrri afvirkjun, skoðar forritið sögu annarra tilvika afvirkjunar fyrir lánardrottinn og athugar hvort síðasta afvirkjun hafi átt sér stað fyrir síðustu dagsetningu greiðslufrests. Sé svo er lánardrottinn innifalinn í afvirkjunarferlinu.
+- Færibreytan **Innifela starfsmenn** vísar til lánardrottna sem eru tengdir starfsmanni. Hægt er að stilla hvort þessir starfsmenn eigi að vera innifaldir.
+
+Ferlið útilokar alltaf lánardrottna þar sem gildið í reitnum **Lánardrottinn á bið** er **Aldrei**.
+
+Lánardrottnar sem standast sannprófanir eru settir á bið, sem setur gildið í reitnum **Lánardrottinn á bið** á **Allir** og **Ástæðu** á það sem hefur verið valið. Færslu í biðsögu er stofnuð fyrir lánardrottinn.
 
 ## <a name="vendor-invoice-account"></a>Reikningslykill lánardrottins
 Ef fleiri en einn lánardrottinn hefur sama aðsetur eða ef reikningsfært er á lánardrottinn í gegnum þriðja aðila, geturðu tilgreint reikningslykil á lánardrottinsfærslu. Reikningslykill er lykill sem reikningsupphæð er skuldfærð á þegar reikningur lánardrottins er stofnaður úr innkaupapöntun. Ef reikningslykill er ekki færður inn er lánardrottnalykill notaður sem reikningslykill.

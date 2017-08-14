@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 6e9402eb1fd559784a9013f91205503d806e2a44
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,58 +36,58 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 
 ## <a name="purchase-requisitions"></a>Innkaupabeiðnir
 -   [Yfirlit innkaupabeiðni](purchase-requisitions-overview.md)
--   [Stofna innkaupabeiðni fyrir notkun](http://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
--   [Stofna beiðni sem notar beiðni um TILBOÐ](http://ax.help.dynamics.com/en/wiki/create-a-requisition-that-uses-an-rfq/)
--   [Setja upp heimildir til þess að panta afurðir fyrir hönd annars](http://ax.help.dynamics.com/en/wiki/set-up-permissions-for-ordering-products-on-behalf-of-someone-else/)
+-   [Stofna innkaupabeiðni fyrir notkun](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+-   [Stofna beiðni sem notar beiðni um TILBOÐ](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-uses-rfq)
+-   [Setja upp heimildir til þess að panta afurðir fyrir hönd annars](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-permissions-ordering-products)
 
 ## <a name="requests-for-quotation"></a>Tilboðsbeiðni
 -   [Beiðni um tilboð](request-quotations.md)
--   [Stofna beiðni um tilboð](http://ax.help.dynamics.com/en/wiki/create-a-request-for-quotation/)
--   [Færa inn og bera saman kauptilboð vegna beiðni um TILBOÐ og veita aðilum samninga.](http://ax.help.dynamics.com/en/wiki/enter-and-compare-rfq-bids-and-award-contracts/)
--   [Stofna stigagjöf fyrir beiðnum um Tilboð](http://ax.help.dynamics.com/en/wiki/create-a-scoring-method-for-rfqs/)
--   [Stofna beiðniflokka og skilyrði fyrir stigagjöf fyrir beiðnum um Tilboð](http://ax.help.dynamics.com/en/wiki/create-solicitation-types-and-scoring-criteria-for-rfqs/)
+-   [Stofna beiðni um tilboð](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-request-quotation)
+-   [Færa inn og bera saman kauptilboð vegna beiðni um TILBOÐ og veita aðilum samninga.](/dynamics365/unified-operations/supply-chain/procurement/tasks/enter-compare-rfq-bids-award-contracts)
+-   [Stofna stigagjöf fyrir beiðnum um Tilboð](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-scoring-method-rfqs)
+-   [Stofna beiðniflokka og skilyrði fyrir stigagjöf fyrir beiðnum um Tilboð](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-solicitation-types-scoring-criteria-rfqs)
 
 ## <a name="vendor-management-and-collaboration"></a>Stjórnun og samvinna lánardrottna
 -   [Setja upp reikninga lánardrottins](set-up-vendor-accounts.md)
--   [Stofna lánardrottnalykil](http://ax.help.dynamics.com/en/wiki/create-a-vendor-account/)
--   [Stofna bankareikning lánardrottins](http://ax.help.dynamics.com/en/wiki/create-a-vendor-bank-account/)
--   [Leita að lánardrottnum](http://ax.help.dynamics.com/en/wiki/search-for-vendors/)
--   [Samþykkja lánardrottinn fyrir ákveðnar afurðir](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-products/)
+-   [Stofna lánardrottnalykil](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-account)
+-   [Stofna bankareikning lánardrottins](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-bank-account)
+-   [Leita að lánardrottnum](/dynamics365/unified-operations/supply-chain/procurement/tasks/search-vendors)
+-   [Samþykkja lánardrottinn fyrir ákveðnar afurðir](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-products)
 -   [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md)
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
 -   [Setja upp og viðhalda samstarf lánardrottna](set-up-maintain-vendor-collaboration.md)
 -   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(hvítbók)
--   [Fylgjast með vörusendingabirgðir með samstarf lánardrottna](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
+-   [Fylgjast með vörusendingabirgðir með samstarf lánardrottna](/dynamics365/unified-operations/supply-chain/inventory/tasks/monitor-consignment-inventory-vendor-collaboration)
 -   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md)  (febrúar 2016 og maí 2016 útgáfur Dynamics eingöngu)
 -   [Skilgreining á öryggi fyrir notendur gáttar lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
 -   [Vinnusvæði fartækis fyrir samstarf við lánardrottna fyrir Microsoft Dynamics 365 for Finance and Operations forrit](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Innkaupastjórnun afurða
 -   [Innkaupavörulistar](procurement-catalogs.md)
--   [Stofna innkaupavörulista](http://ax.help.dynamics.com/en/wiki/create-a-procurement-catalog/)
+-   [Stofna innkaupavörulista](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-procurement-catalog)
 -   [Flytja inn vörulista lánardrottins](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blogg póstur)
--   [Setja upp tegundastigveldi innkaupa](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
--   [Setja upp reglur fyrir tegundastigveldi innkaupa](http://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/)
--   [Samþykkja lánardrottnar fyrir tilteknar innkaupategundir](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/)
+-   [Setja upp tegundastigveldi innkaupa](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-procurement-category-hierarchy)
+-   [Setja upp reglur fyrir tegundastigveldi innkaupa](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies)
+-   [Samþykkja lánardrottnar fyrir tilteknar innkaupategundir](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories)
 
 ## <a name="procurement"></a>Innkaup
 -   [Yfirlit yfir „Innkaupapöntun“](purchase-order-overview.md)
 -   [Stofnun innkaupapöntunar](purchase-order-creation.md)
 -   [Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
--   [Stofna innkaupapöntun](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order/)
--   [Stofna endurtekna innkaupapöntun.](http://ax.help.dynamics.com/en/wiki/create-a-repeat-purchase-order/)
--   [Stofna innkaupapöntun úr sölupöntun](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-from-a-sales-order/)
--   [Innkaupapöntun fyrir eins skiptis birgi](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-for-a-one-time-supplier/)
--   [Stofna innkaupapöntun með afhendingaráætlun.](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-with-a-delivery-schedule/)
--   [Stofnun innkaupaskilapöntunar](http://ax.help.dynamics.com/en/wiki/create-a-purchase-return-order/)
--   [Stofna úttektarpöntun innkaupa úr innkaupasamningi](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
--   [Stofna úttektarpöntun innkaupa þegar innkaupapöntun er stofnuð](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-when-creating-the-purchase-order/)
--   [Stofna áfyllingarpöntun vörusendingar](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)
+-   [Stofna innkaupapöntun](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order)
+-   [Stofna endurtekna innkaupapöntun.](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-repeat-purchase-order)
+-   [Stofna innkaupapöntun úr sölupöntun](/dynamics365/unified-operations/supply-chain/sales-marketing/tasks/create-purchase-order-sales-order)
+-   [Innkaupapöntun fyrir eins skiptis birgi](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-one-time-supplier)
+-   [Stofna innkaupapöntun með afhendingaráætlun.](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-delivery-schedule)
+-   [Stofnun innkaupaskilapöntunar](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-return-order)
+-   [Stofna úttektarpöntun innkaupa úr innkaupasamningi](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-purchase-agreement)
+-   [Stofna úttektarpöntun innkaupa þegar innkaupapöntun er stofnuð](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-creating-purchase-order)
+-   [Stofna áfyllingarpöntun vörusendingar](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-consignment-replenishment-order)
 
 ## <a name="prices-and-discounts"></a>Verð og afslættir
 -   [Innkaupasamningar](purchase-agreements.md)
--   [Stofna innkaupasamning](http://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+-   [Stofna innkaupasamning](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-agreement)
 -   [Eftirágreiddur afsláttur lánardrottins](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (hvítbók)
 
 ## <a name="product-receipt-and-invoicing"></a>Innhreyfingarskjal afurða og reikningur.
@@ -98,11 +98,11 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 ## <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 -   [Yfirlit yfir innkaup og aðföng](procurement-sourcing-overview.md)
 -   [Verkflæði innkaupa og aðfanga](procurement-sourcing-workflows.md)
--   [Skrá móttöku á vörum á innkaupapöntun](http://ax.help.dynamics.com/en/wiki/record-receipt-of-goods-on-a-purchase-order/)
+-   [Skrá móttöku á vörum á innkaupapöntun](/dynamics365/unified-operations/supply-chain/procurement/tasks/record-receipt-goods-purchase-order)
 -   [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
 -   [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (hvítbók)
 -   [Innkaupareglur](purchase-policies.md)
--   [Stofna innkaupastefnur](http://ax.help.dynamics.com/en/wiki/create-purchasing-policies/)
+-   [Stofna innkaupastefnur](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchasing-policies)
 
 
 

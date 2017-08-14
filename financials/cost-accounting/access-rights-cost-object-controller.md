@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 4d26d690e63898bfb463177da6654f1175ff35af
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -99,12 +99,12 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
     - Myndræn framsetning gagna í Power BI sem eru innfelldar í biðlaranum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 > [!IMPORTANT]
-> - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
 > - Þetta efnisatriði sýnir nauðsynlegar forsendur þess að hægt sé að nota vinnusvæðið **Kostnaðarstýring**.
 
 Sjá einnig
 
 - [Vinnusvæði kostnaðarstýringar](cost-control-workspace.md)
 - [Víddarstigveldi](dimension-hierarchy.md)
-- [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

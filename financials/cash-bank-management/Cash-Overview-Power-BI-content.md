@@ -3,21 +3,23 @@ title: "Power BI efnisatriði, Yfirlit yfir reiðufé"
 description: "Þetta efnisatriði lýsir yfirliti yfir reiðufé í Benefits Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ ms.lasthandoff: 06/20/2017
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
 
 Ef verið er að nota Dynamics 365 for Finance and Operations, Enterprise edition uppfærslu í júlí 2017 birtast skýrslur úr **Yfirlit yfir reiðufé** í Power BI á vinnusvæðunum **Yfirlit yfir reiðufé** og **Bankakerfi**.
+
+Til að skoða sjóðstreymisspáskýrslur með gögnum verður fyrst að keyra spáútreikningsferli með því að nota aðgerðina **Reikna sjóðstreymisspár** á Reiðufjár- og bankastjórnunarsvæðinu.  Þetta þarf að gera fyrir hvert fyrirtæki í spánni.  Svo þarf að endurnýja uppsöfnuðu mælinguna LedgerCovLiquidityMeasurement á síðuni **Einingaverslun**.  
+
+Til glöggvunar geturðu bætt við sýnigögnum fyrir sjóðstreymisspá með því að nota síðuna **Mynda gögn** í Sýnigagnaeiningunni.  Þessi forskrift setur gögn inn í sjóðstreymisspátöflurnar til að færa hratt inn upplýsingar sem nauðsynlegar eru fyrir skýrslur.  Þessi eining er aðeins tiltæk ef þú hefur safnlíkan sýnigagna virkjað í umhverfinu. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 Eftirfarandi tafla veitir upplýsingar um mælikvarðana sem eru á hverri skýrslusíðu í **Yfirlit yfir reiðufé** í Power BI.

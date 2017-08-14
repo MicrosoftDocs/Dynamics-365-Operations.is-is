@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/20/2017
 Vörur eru við uppfærslu á Fjármál og Aðgerðir læstar ef þeir tengjast geymslu víddaflokki með stillingum sem ekki stemma kröfur vídd flokki geymslustillingum Fjármál og Aðgerða. Hins vegar eftir uppfærslu, er hægt að nota safn yfirfærslna valkosti í í **geymslu víddarflokk Breytingu vara** til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur. Síðan er hægt að vinna færslur fyrir þessar vörur. Sumar þessara vörurnar gæti þegar verið tengd við víddaflokkunum geymslu þar sem Setur, Vöruhús og Staðsetning birgðavíddir eru virk og efnislega rakin. Í þessu tilfelli er hægt að nota í **geymslu víddarflokk Breytingu vara** stendur til að virkja þær vörur sem nota á í þjónustustýringar vöruhús. Þessi aðgerð er gagnleg ef óskað er að nota aðgerða námskeiðsstjórnunar vöruhús fyrir núverandi vöru.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Uppfærsluferli Fjármál og Aðgerðum, AX 2012 R3 WMSII sé notuð
-Fjármál og Aðgerðum, ekki lengra styður í eldri **WMSII** kerfiseininguna úr Microsoft Dynamics AX 2012. Í staðinn er hægt að nota nýju **Vöruhúsastjórnun** kerfi. Nánari upplýsingar eru í [vöruhúsakerfi – heimasíða](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Í fyrri útgáfum væri að velja birgðavíddir Staðsetning og Brettakenni fyrir fjárhagslegra birgða. Hins vegar sem hluti af uppfærsluferlinu Brettakenni birgðavídd er ekki lengur að virkja til fjárhagslegra birgða. Allar vörur sem tengjast geymslu birgðavíddarflokk sem notar birgðavídd Brettakenni verði að loka og won't unnin.
+Fjármál og Aðgerðum, ekki lengra styður í eldri **WMSII** kerfiseininguna úr Microsoft Dynamics AX 2012. Í staðinn er hægt að nota nýju **Vöruhúsastjórnun** kerfi. Í fyrri útgáfum væri að velja birgðavíddir Staðsetning og Brettakenni fyrir fjárhagslegra birgða. Hins vegar sem hluti af uppfærsluferlinu Brettakenni birgðavídd er ekki lengur að virkja til fjárhagslegra birgða. Allar vörur sem tengjast geymslu birgðavíddarflokk sem notar birgðavídd Brettakenni verði að loka og won't unnin.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Virkjun á vörum í Fjármál og Aðgerðir
 
@@ -70,7 +70,7 @@ Ef uppruni víddaflokkunum geymslu Brettakenni birgðavídd er staðsetningar fy
 1.  Stofna að minnsta kosti eina nýju staðsetningu reglu.
 2.  Smellt er á **Vöruhúsastjórnun**&gt;**Uppsetningu**&gt;**Gera vöruhúsið þjónustustýringar**&gt;**Leyfa uppsetningu vöruhússins**.
 3.  Á við **Leyfa uppsetningu vöruhússins** síðunni, bæta við vöruhús sem á að vera virkur. Hægt er að ljúka þessi skref á síðunni eða með því að nota samþætting við Microsoft Office.
-4.  Tengið forstillingu staðsetningu allra staðsetninga. Auðveldlega er hægt að ljúka þessu skrefi með Microsoft Office samþættingu af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Tengið forstillingu staðsetningu allra staðsetninga. Auðveldlega er hægt að ljúka þessu skrefi með Microsoft Office samþættingu af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 6.  Vinna breytingarnar.
 
@@ -81,7 +81,7 @@ Ef uppruni víddaflokkunum geymslu Brettakenni birgðavídd er staðsetningar fy
 3.  Á við **Sendingarfrátekninga stigveldi** síðunni, tilgreinið nýja sendingarfrátekninga stigveldi samkvæmt geymslu vörunnar og rekja víddaflokka.
 4.  Stofna eitt eða fleiri einingar lotunúmerið sem innihalda að minnsta kosti sama einingar sem notaðar eru til í birgðaeiningum.
 5.  Smellt er á **Vöruhúsastjórnun**&gt;**Uppsetningu**&gt;**Gera vöruhúsið þjónustustýringar**&gt;**geymslu víddarflokk Breytingu vara**.
-6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Hægt er að ljúka þessi skref á síðunni með því að nota samþætting við Microsoft Office eða með því að nota einingu vinnslu gagna í [gagnastjórnun](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Hægt er að ljúka þessi skref á síðunni með því að nota samþætting við Microsoft Office eða með því að nota einingu vinnslu gagna í [gagnastjórnun](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 8.  Vinna breytingarnar. Uppfærsla á allar birgðavíddir getur framkvæmt á meðan. Hægt að fylgjast með framvindu með vinnslum runuverk.
 

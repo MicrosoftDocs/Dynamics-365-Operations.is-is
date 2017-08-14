@@ -3,26 +3,26 @@ title: "Stofna greiðslur lánardrottins með greiðslutillögu"
 description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 
 ## <a name="parameters"></a>Færibreytur
 -   **Velja reikninga eftir** – Reikninga innan tímabilsins sem er tilgreint í svæðunum **Frá dagsetningu** og **Til dagsetningar** er hægt að velja eftir gjalddaga, staðgreiðsluafsláttardagsetningu eða bæði. Ef dagsetning staðgreiðsluafsláttar er valin leitar kerfið fyrst eftir reikningum sem hafa dagsetningu staðgreiðsluafsláttar milli þeirra dagsetninga. Kerfið þá ákveður hvort reikningurinn er hæfur°fyrir staðgreiðsluafslátt með því að nota lotudagsetninguna til að ganga úr skugga um að dagsetning staðgreiðsluafsláttar sé ekki liðin.
--   **Frá dagsetningu** og**Til dagsetningar** – Reikningar sem hafa gjalddaga eða dagsetningu staðgreiðsluafsláttar innan þessa dagsetningabils eru valdar fyrir greiðslu.
--   **Dagsetning greiðslu** – Ef dagsetning er tilgreind eru allar greiðslur eru stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
+-   **Frá dagsetningu** og **Til dagsetningar** – Reikningar sem hafa gjalddaga eða dagsetningu staðgreiðsluafsláttar innan þessa dagsetningabils eru valdar fyrir greiðslu.
+-   **Greiðsludagsetning** – Þetta er aðeins notað þegar reiturinn **Tímabil** á greiðslumáta er stilltur á **Heildarupphæð**. Ef dagsetning er tilgreind eru allar greiðslur stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
 -   **Dagsetning lágmarksgreiðslu** – færið Inn dagsetning lágmarksgreiðslu.. Til dæmis tilgreina svæðin **Frá dagsetningu** og **Til dagsetningar** bilið 1. september til 10. september og dagsetning lágmarksgreiðslu er 5. september. Í þessu tilfelli hafa allir reikningar með gjalddaga frá 1. september til 5. september greiðsludagsetninguna 5. september. Hins vegar hafa allir reikningar með gjalddaga frá 5. september til 10. september greiðsludagsetningu sem er sú sama og gjalddagi fyrir hvern reikning.
 -   **Upphæðarmörk** – færið Inn hámarksheildarupphæð fyrir allar greiðslur.
 -   **Stofna greiðslur án forskoðunar á reikningi** – Ef valkosturinn er settur á **Já**, verða greiðslur stofnaðar strax á **lánardrottnagreiðslur** síðu. Síðunni **Greiðslutillaga** verður sleppt. Þess vegna greiðslur verða stofnaðar fljótlegri hátt. Enn er hægt að breyta greiðslur frá **lánardrottnagreiðslur** síðu. Einnig er hægt að fara til baka á **greiðslutillögu** síðu með því að nota **Breyta reikningum fyrir valda greiðslu** hnappinn.

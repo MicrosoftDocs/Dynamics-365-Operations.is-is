@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Til að vera talið með í áætlaun og kostnaðarútreikningi verður að bæt
 Framleiðslupöntun getur innihaldið margar aðgerðir og hverri aðgerð má úthluta á mismunandi lánardrottinn. Þar af leiðandi er hugsanlegt að framleiðslupöntun sem tekur til alls ferlisins geti orðið til að stofna margar innkaupapantanir.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Úthýsing á framleiðsluflæðiaðgerðum
-Í [lean-framleiðsla](lean-manufacturing-overview.md) er úthýsingarvinna byggð upp sem þjónusta sem er tengd við verkþátt [framleiðsluflæðis](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (efnisatriði í Verkefnaleiðbeiningum). Þess vegna er þessi gerð úthýsingar einnig kölluð [Verkþáttarbyggð úthýsing.](activity-based-subcontracting.md) Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM) fulllunnu vörunnar. Þegar lean manufacturing er notað er öll virkni skilgrein með kanbönum sem hægt er að tengja við einn eða fleiri virkniþætti framleiðsluflæðis. Fram að þessu hljómar sú útskýring bara eins og skýring á framleiðslupöntunum. Hinsvegar, á meðan framleiðslupöntunum lýkur alltaf með fullunni vöru er hægt að stofna kanbön til að útvega hálfunna vöru. Ekki þarf að koma með nýtt framleiðslustig eða uppskriftarstig.  
+Í [lean-framleiðsla](lean-manufacturing-overview.md) er úthýsingarvinna byggð upp sem þjónusta sem er tengd við verkþátt [framleiðsluflæðis](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (efnisatriði í Verkefnaleiðbeiningum). Þess vegna er þessi gerð úthýsingar einnig kölluð [Verkþáttarbyggð úthýsing.](activity-based-subcontracting.md) Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM) fulllunnu vörunnar. Þegar lean manufacturing er notað er öll virkni skilgrein með kanbönum sem hægt er að tengja við einn eða fleiri virkniþætti framleiðsluflæðis. Fram að þessu hljómar sú útskýring bara eins og skýring á framleiðslupöntunum. Hinsvegar, á meðan framleiðslupöntunum lýkur alltaf með fullunni vöru er hægt að stofna kanbön til að útvega hálfunna vöru. Ekki þarf að koma með nýtt framleiðslustig eða uppskriftarstig.  
 
 Kanbanreglur geta verið mjög gagnvirkar og því er hægt að byggja mismunandi afbrigði birgða fyrir sömu vöruna á framleiðsluflæði. Þegar notuð er lean úthýsing eru efnisflæði og fjárhagslegt flæði aðskilin með skýrum hætti. Allt efnisflæði er táknað með kanban-virkniþáttum. Innkaupapantanir fyrir þjónustuvörurnar og bókanir á móttöku slíkrar þjónustu má gera sjálfvirkar, á grundvelli stöðu kanban-vinnslu í framleiðsluflæðinu. Kanban-vinnslu má hefja og ljúka jafnvel þótt ekki sé búið að stofna innkaupapantanir. Fylgiskjöl úthýsingar (innkaupapöntun og innkaupakvittun þjónustunnar) er hægt að safna upp eftir tímabili og þjónustu. Því er hægt að halda fjölda innkaupaskjala og -lína í lágmarki, jafnvel í margendurteknum aðgerðum þar sem lánardrottnar útvega úthýsta þjónustu í eins þáttar flæði.
 

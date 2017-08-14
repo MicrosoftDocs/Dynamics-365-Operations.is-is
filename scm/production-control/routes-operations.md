@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 017985645e0f77e7f269fce2932c0ec0f6eaaa1c
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð e�
 -   **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
 
 ## <a name="routes"></a>Leiðir
-Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Dynamics 365 for Finance and Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
+Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Finance and Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
 
 ### <a name="simple-routes"></a>Einfaldar leiðir
 
@@ -87,7 +87,7 @@ Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins v
 
 Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
-## <a name="operations"></a>Rekstur
+## <a name="operations"></a>Operations
 Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu í Finance and Operations. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
 
 | Aðgerð  | lýsing        |
@@ -128,7 +128,7 @@ Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar a
 
 ### <a name="modifying-product-specific-routes"></a>Breyti afurðabundnum leiðum
 
-Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi sýnir Dynamics 365 for Finance and Operations aðgerðaeiginleika fyrir hverja aðgerð úr aðgerðavenslum sem samsvarar bestu leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
+Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi sýnir Finance and Operations aðgerðaeiginleika fyrir hverja aðgerð úr aðgerðavenslum sem samsvara bestu leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
 
 Á síðunni **Leið** er hægt að breyta aðgerðareiginleikum aðgerðar, eins og keyrslutíma eða kostnaðartegundum. Breytingarnar eru vistaðar í aðgerðavensl sem eiga sérstaklega við um leiðina og útgefna afurð sem vísað er í gildandi leiðarútgáfu. Ef aðgerðavensl sem eru sýnd eiga ekki sérstaklega við um leiðina og útgefna afurð áður en breytingar eru vistaðar, býr kerfið til afrit af aðgerðavenslunum. Þetta afrit *er* sértækt fyrir leiðina og útgefna afurð. Þess vegna hafa breytingarnar ekki áhrif á aðrar leiðir eða útgefnar afurðir. Til að staðfesta hvaða aðgerðavenslum er breytt á síðunni **Leið** síðunni, skal skoða svæðin **Vörukóði** og **Leiðarkóða**.  
 
@@ -150,9 +150,9 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="applying-operation-relations"></a>Beiting aðgerðavensla
 
-Í sumum tilfellum verður Dynamics 365 for Finance and Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Finance and Operations að viðeigandi aðgerðavenslum frá sértækustu samsetningunni að minnst sértæku samsetningunni.  
+Í sumum tilfellum verður Finance and Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Finance and Operations að viðeigandi aðgerðavenslum frá sértækustu samsetningunni að minnst sértæku samsetningunni.  
 
-Þegar Dynamics 365 for Finance and Operations leitar að mest viðeigandi aðgerðavenslum fyrir útgefna afurð eru aðgerðavensl sem samsvara vörukenni útgefinnar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
+Þegar Finance and Operations leitar að mest viðeigandi aðgerðavenslum fyrir losaða afurð eru aðgerðavensl sem samsvara vörukenni útgefinnar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
 
 1.  **Vörukóði**=**Tafla** og **Vöruvensl**=&lt;vörukenni&gt;
 2.  **Vörukóði**=**Hópur** og **Vöruvensl**=&lt;vörukenni&gt;
@@ -199,7 +199,7 @@ Eftir viðskiptaþörfum ykkar, gæti verið hægt að minnka það framlag sem 
 
 ### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháðar tilföngum
 
-Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Dynamics 365 for Finance and Operations hægt að skilgreina safn krafna sem rekstrartilföng verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
+Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Finance and Operations hægt að skilgreina safn krafna sem rekstrartilföng verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
 
 Til dæmis tilgreinir þú að aðgerð krefst aðgerða af gerðinni **Vélar** sem hefur **Stimplunar** getu upp á 20 tonn. Röðunarvélin mun síðan leysa þessar þarfir til tiltekinna aðgerðatilfanga eða tilfangaflokks þegar aðgerðin er áætluð. Þar sem hægt er að tilgreina einungis þessar þarfir í stað þess að binda aðgerð við tiltekna vél, hefurðu miklu meiri sveigjanleika. Þar að auki, verður viðhald auðveldara þegar tilföng eru flutt eða nýjum tilföngum er bætt við.  
 

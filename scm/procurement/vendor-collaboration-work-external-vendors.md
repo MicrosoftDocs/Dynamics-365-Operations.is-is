@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: is-is
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 06/15/2017
 
 Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
-Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ Ef breytingastjórnun er virkjuð fyrir Innkaupapöntun, fer Innkaupapöntunin �
 
 Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Innkaupapöntun gæti farið í gegnum þegar breytingastjórnun er virkjuð. Útgáfan er skráð þegar Innkaupapöntunin er samþykkt, ekki þegar Innkaupapöntunin er send til lánardrottins eða staðfest.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Aðgerð**                                                                                                    | **Staða og útgáfa**                                                                                                                                                                                                                                                                                                                                                                      |
-| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Finance and Operations.                                      | Staðan er **Drög**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| Innkaupapöntunin er send í samþykktarferli. (Samþykktarferli er innanhússvinnsla sem lánardrottinn tekur ekki þátt í.) | Staðan breytist úr **Drög** í **Í endurskoðun** í **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Samþykkt innkaupapöntun er skráð sem útgáfa.                                                                                                                                                                                                                     | | Innkaupapöntun er send til lánardrottins                                                                                  | Útgáfan er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í ytri endurskoðun**.                                                                                                                                                                                                                                                                       | | Þú gerir sumar breytingar sem lánardrottinn biður um annaðhvort handvirkt eða með því að nota aðgerðina í svarinu til að uppfæra innkaupapöntunina.                                                       | Stöðunni er breytt aftur í **Drög**.                                                                                                                                                                                                                                                                                                                                                    | | Innkaupapöntunin er send aftur í samþykktarferlið.                                                            | Stöðunni er breytt úr **Drög** til **Í Yfirferð** til **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Einnig er hægt að skilgreina kerfið þannig að tilteknar breytingar á reitum krefjast ekki endursamþykktar. Í þessu tilfelli fer staðan fyrst í **Drög** og er sjálfkrafa uppfærð í **Samþykkt**. Samþykkta Innkaupapöntunin er skráð sem ný útgáfa. | | Þú sendir nýja útgáfu af Innkaupapöntuninni lánardrottins.                                                             | Ný útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**.                                                                                                                                                                                                                                                                   | | Lánardrottinn samþykkir nýja útgáfu af innkaupapöntuninni.                                                                | Stöðunni er breytt í **Staðfest**, annaðhvort sjálfkrafa eða þegar móttekur svar frá lánardrottni og staðfestir síðan innkaupapöntunina.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Aðgerð**                                                               | **Staða og útgáfa**                                                                                                                                       |
+| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Finance and Operations.      | Staðan er **Drög**.  |
+| Innkaupapöntunin er send í samþykktarferli. (Samþykktarferlið er innra ferli sem lánardrottinn hefur ekki aðkomu að.)                                                           | Stöðunni er breytt úr **Drög** til **í Yfirferð** til **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Samþykkt innkaupapöntun er skráð sem útgáfa.           | 
+| Innkaupapöntunin er send á lánardrottins.                                                            | Útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**.      |
+| Þú gerir einhverjar breytingar sem lánardrottinn biður um, annaðhvort handvirkt eða með því að nota aðgerðina í svarinu til að uppfæra innkaupapöntunina.                                                            | Stöðu er breytt aftur í **Drög**.     |
+|Innkaupapöntunin er send aftur í samþykktarferlið.                                                |  Stöðunni er breytt úr **Drög** til **í Yfirferð** til **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Einnig er hægt að skilgreina kerfið þannig að tilteknar breytingar á reitum krefjast ekki endursamþykktar. Í þessu tilfelli fer staðan fyrst í **Drög** og er sjálfkrafa uppfærð í **Samþykkt**. Samþykkta Innkaupapöntunin er skráð sem ný útgáfa.                                         |
+|Þú sendir nýja útgáfu af Innkaupapöntuninni lánardrottins.                                                |  Ný útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**.                                         |
+|Lánardrottinn samþykkir nýju útgáfuna.                                                |  Stöðu er breytt í **Staðfest**, annað hvort sjálfvirkt eða þegar svarið kemur frá lánardrottni og síðan er Innkaupapöntunin staðfest. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Deila upplýsingum um vörusendingabirgðir
 Ef verið er að nota vörusendingabirgðir, geta lánardrottna notað viðmót fyrir samstarf lánardrottna til að skoða upplýsingar um eftirfarandi síður:
