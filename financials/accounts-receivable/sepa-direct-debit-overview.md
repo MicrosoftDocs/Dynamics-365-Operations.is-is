@@ -1,9 +1,9 @@
 ---
 title: Yfirlit yfir SEPA beint debet
 description: "Í Einni Evru Greiðslur Svæði (SEPA) er sett upp með Evrópska Þóknun og ákvarðar hverng sem teljast rafrænar greiðslur innanlands, land/svæði þar sem einstaka viðskiptum eða fyrirtækisins og bankans er staðsettur. Það er enginn mismunur innanlandsgreiðslur og landamæri greiðslur. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) sem og Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f3b20b033fc701204cbb3f62468a421b3bdd6a80
 ms.contentlocale: is-is
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Sjálfvirkt uppgjör og forgangsröðun"
 description: "Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: is-is
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
