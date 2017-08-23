@@ -3,7 +3,7 @@ title: "Skilgreina handvirkt verk í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Ef notandinn klárar ekki handvirka verkið innan tímarammans, er verkið komi�
 
 1.  Á vinstra svæðinu skaltu Smellt á **Stigmagna**.
 2.  Velja skal **Nota stigmögnunarslóð** gátreit til að stofna stigmögnunarslóð. Kerfið mun sjálfkrafa úthluta verk til notendanna sem skráðir eru í stigmögnunarslóðinni. Til dæmis, eftirfarandi töflu sýnir stigmögnunarslóð.
+
     | Röð | stigmögnunarslóð      |
     |----------|----------------------|
     | 1        | Úthluta til: Dísu     |
@@ -318,7 +319,9 @@ Hægt er að senda tilkynningar til fólks þegar handvirku verki hefur verið f
 8.  Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.
 
 ## <a name="set-a-time-limit"></a>Setja upp tímamörk
-Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tiltekins tíma. **Athugasemd:** Valkostirnir sem valdir eru í þessu ferli munu hnekkja valkostunum sem valdir voru í svæðunum **úthlutun** og **stigmögnun** á síðunni.
+Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tiltekins tíma. 
+
+**Athugasemd:** Valkostirnir sem valdir eru í þessu ferli munu hnekkja valkostunum sem valdir voru í svæðunum **úthlutun** og **stigmögnun** á síðunni.
 
 1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
 2.  Veldu gátreitinn **Stilla tímamörk verkflæðiseiningar**
