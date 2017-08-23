@@ -15,13 +15,13 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: e090d4af91ec979aeccdd954e4fdab99f026e150
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Lendingarsíða uppsetningar á staðnum
@@ -32,7 +32,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="get-started"></a>Hafist handa
 - [Yfirlit Dynamics 365 for Finance and Operations, Enterprise-útgáfa (staðbundin útgáfa)](on-premises-overview.md)
-- [Kerfiskröfur](../get-started/system-requirements.md)
+- [Kerfiskröfur fyrir staðbundna virkjun](../get-started/system-requirements-on-prem.md)
 - [Vélbúnaðarþörf fyrir staðbundin umhverfi](../get-started/hardware-sizing-on-premises-environments.md)
 - [Lifecycle-stefna fyrir netþjónustu og staðbundinn hugbúnað](../migration-upgrade/versions-update-policy.md)
 - [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](../get-started/purchase-on-premises.md)

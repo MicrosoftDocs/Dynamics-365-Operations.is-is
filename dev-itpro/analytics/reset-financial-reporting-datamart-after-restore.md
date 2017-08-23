@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir hvernig á að endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt Microsoft Dynamics 365 Finance and Operations gagnagrunns. 
+Þetta efnisatriði lýsir hvernig á að endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt Microsoft Dynamics 365 Finance and Operations gagnagrunns.
 
-Það eru nokkrar kringumstæður þar sem þú gætir þurft að endurheimta Finance and Operations gagnagrunn úr öryggisafriti eða afrita úr öðru umhverfi. Þegar þetta gerist verður einnig að fylgja viðeigandi skrefum til að tryggja að gagnaskemma fyrir fjárhagsskýrslugerð noti endurheimtan gagnagrunn Finance and Operations rétt. Ef þú hefur spurningar um endurstillingu gagnaskemmu fyrir fjárhagsskýrslugerð af ástæðu sem ekki hefur að gera með endurheimt Finance and Operations gagnagrunns skaltu skoða [Endurstilling Management Reporter gagnaskemmu](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) til að fá frekari upplýsingar. Athugið að skrefin í þessu ferli eru studd fyrir Dynamics 365 for Operation útgáfu í maí 2016 (Forritsútgáfa 7.0.1265.23014 og fjárhagsleg skýrslugerð útgáfa 7.0.10000.4) og nýrri útgáfur. Ef þú ert með eldri útgáfu af Finance and Operations skaltu hafa skal samband við þjónustuver okkar til að fá aðstoð.
+Ef þú endurheimtir Finance and Operations gagnagrunninn úr öryggisafritum eða afritar gagnagrunninn úr öðru umhverfi, er nauðsynlegt að fylgja skrefunum í þessu efnisatriði til að tryggja að gagnaskemma fjárhagsskýrslugerðarinnar sé að nota endurheimtan gagnagrunn Finance and Operations á réttan hátt. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> Skrefin í þessu ferli eru studd fyrir Dynamics 365 for Operation útgáfu í maí 2016 (Forritsútgáfa 7.0.1265.23014 og fjárhagsleg skýrslugerð útgáfa 7.0.10000.4) og nýrri útgáfur. Ef þú er með eldri útgáfu af Finance and Operations skaltu hafa samband við þjónustuver okkar til að fá aðstoð.
 
 ## <a name="export-report-definitions"></a>Flytja út skilgreiningu á skýrslum
 Fyrst skal flytja út skýrsluhönnun sem er staðsett í Skýrsluhönnuðinum með eftirfarandi skrefum:
 
 1.  Í Skýrsluhönnun ferðu í **Fyrirtæki** &gt; **Einingahópar**.
-2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. **Athugið:** Í Finance and Operations er aðeins einn einingahópur studdur, **Sjálfgefið**.
+2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. 
+    > [!Note] 
+    > Í Finance and Operations er aðeins einn einingahópur studdur, **Sjálfgefið**.
 3.  Veldu skýrsluskilgreiningar til að flytja út:
     -   Til að flytja út allar skýrsluskilgreiningar og tengdar einingar er smellt á **Velja allt**.
     -   Til að flytja út tilteknar skýrslur, línur, dálka, skipurit eða víddasamstæður er smellt á viðeigandi flipa og svo valin atriði til að flytja út. Haldið inni Ctrl-lyklinum til að velja mörg atriði á flipa. Þegar valdar eru skýrslur til að flytja út eru einnig valdar tengdar línur, dálkar, skipurit og víddasamstæður.
@@ -63,9 +68,9 @@ Remote Desktop er notuð til að tengjast öllum tölvum í umhverfinu og stöð
 Þessar þjónustur hafa opna tengingar við gagnagrunn Finance and Operations.
 
 ## <a name="reset"></a>Endurstilla
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Finna síðasta DataUpgrade.zip pakka
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Finna og hlaða niður síðasta MinorVersionDataUpgrade.zip pakkanum
 
-Finna síðasta pakka DataUpgrade.zip með stefnum sem fundust í [Sækja forskrift DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). Stefnurnar útskýra hvernig á að finna rétta útgáfu af uppfærslu gagnapakka fyrir tölvuumhverfið.
+Finna síðasta pakka MinorVersionDataUpgrade.zip með stefnum sem fundust í [Hlaða niður síðasta virkjanlega gagnauppfærslupakkanum](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). Stefnurnar útskýra hvernig á að finna og hlaða niður rétta útgáfu af gagnauppfærslupakka. Uppfærslu er ekki krafist til að hlaða niður MinorVersionDataUpgrade.zip pakkanum. Þú þarft einungis að ljúka skrefunum í „Hlaða niður síðasta virkjanlega gagnauppfærslupakkanum“ hlutanum án þess að framkvæma neitt af hinum skrefunum í greininni til að sækja afrit af MinorVersionDataUpgrade.zip pakkanum.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Keyra forskriftir á gagnagrunn Finance and Operations
 
@@ -105,8 +110,10 @@ Flytja inn skýrsluhönnun notanda úr Skýrsluhönnuðinum með skránni sem va
 
 1.  Í Skýrsluhönnun ferðu í **Fyrirtæki** &gt; **Einingahópar**.
 2.  Veldu einingahópinn sem á að flytja út og síðan er smellt á **Flytja út**. 
+
     > [!NOTE]
     > Í Finance and Operations er aðeins einn einingahópur studdur, **Sjálfgefið**.
+    
 3.  Veldu eininguna **Vanskil** og smelltu á **Innflutning**.
 4.  Veldu skrána með útfluttum skýrsluskilgreiningum og smelltu á **Opna**.
 5.  Smellið á skýrsluskilgreiningarnar í svarglugganum Flytja inn til að flytja inn:

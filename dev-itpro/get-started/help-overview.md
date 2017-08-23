@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 > [!NOTE] 
 > Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise útgáfa; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
-Hjálparkerfið er samnýtt af öllum Unified Operations-vörum:
+Eftirfarandi vörur samnýta Hjálparkerfið:
 - Dynamics 365 for Finance and Operations, Enterprise
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
@@ -73,7 +73,7 @@ Einnig er hægt að finna okkar efni með hvaða leitarvél sem er. Til að nið
 
 ![Leitarniðurstöður svæðis](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Efnisyfirlit fyrir docs.microsoft.com fyrir Unified Operations
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>Yfirlitið docs.microsoft.com
 Allar vörur deila einu efnisyfirliti á docs-svæðinu, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru að skoða. Það gerir það einnig mögulegt að nota stýringuna Sía til að finna efnisatriði sem verið er að leita að.
 
 ### <a name="how-can-i-contribute"></a>Hvernig geta ég lagt mitt af mörkum? 
@@ -101,7 +101,7 @@ Sláðu inn netfang hér til hægri og nýtt aðgangsorð til að búa til nýja
 ## <a name="task-guides"></a>Verkefnaleiðbeiningar
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu. Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið. Staðfært verkleiðbeiningar eru nú í boði. 
 
-Við munum gefa út mismunandi söfn verkefnaleiðbeininga fyrir hverja Unified Operations-vöru. Hlutinn Aðgangur að verkefnaleiðbeiningum í hjálparsvæðinu lýsir hvernig á að finna rétta verkefnaleiðbeiningu fyrir vöruna þína. 
+Við munum bjóða upp á mismunandi verkefnaleiðbeiningar fyrir hverja vöru, eins og Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, og Dynamics 365 for Talent. Hlutinn Aðgangur að verkefnaleiðbeiningum í hjálparsvæðinu lýsir hvernig á að finna rétta verkefnaleiðbeiningu fyrir vöruna þína. 
 
 ![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hj�
 -   Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-Í eftirfarandi töflu er listi yfir vefsvæði sem veita Unified Operations-efni. Okkar innihald vefsvæðum er skipulagt til að styðja lífsferil viðskiptavinar. Hverjum áfanga er studd af mismunandi svæðasöfnum. Svæði sem hafa stjörnu (\*) við nafnið krefjast innskráningu með því að nota reikning sem tengist þjónustuáætlun.
+Í eftirfarandi töflu er listi yfir vefsíður okkar. Okkar innihald vefsvæðum er skipulagt til að styðja lífsferil viðskiptavinar. Hverjum áfanga er studd af mismunandi svæðasöfnum. Svæði sem hafa stjörnu (\*) við nafnið krefjast innskráningu með því að nota reikning sem tengist þjónustuáætlun.
 
 | Svæði                                                                     | lýsing                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

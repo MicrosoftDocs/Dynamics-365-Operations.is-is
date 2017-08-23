@@ -3,7 +3,7 @@ title: "Vinnsla almennrar færslubókar"
 description: "Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfu sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ Uppsetning aðallykils býður upp á marga valkosti fyrir úrvinnslu almennrar 
 
 Bókhaldsskipulag og skipulag ítarlegra reglna er mjög mikilvægt fyrir að tryggja gögn sem þarf fyrir fjárhagslega skýrslugerð og afkastarakningu er sótt við úrvinnslu almennrar færslubókar og allra fylgiskjala. Bókhaldslykilskipulag og skipulag ítarlegra reglna leyfa þér að klæðskerasníða upplifun af gagnainnslætti. Hægt er að leyfa innslátt gagna aðeins fyrir fjárhagsvíddir sem eiga við hverja aðstæðu, og getur framfylgt þeirri kröfu að áskilin og rétt gögn séu ávallt sótt.
 
-Frekari upplýsingar eru í [Áætlanagerð: Bókhaldslykill](plan-chart-of-accounts.md). 
-
+Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+- [Áætlanagerð: bókhaldslykilsins](plan-chart-of-accounts.md). 
+- [Stofna ítarlegar reglur fyrir færslubækur](tasks/create-advanced-rules-journals.md)
+- [Stofna færslu í færslubók með því að nota sniðmát](tasks/create-journal-entry-template.md)
+- [Stofna og sannprófa færslubækur](tasks/create-validate-journals.md)
+- [Bóka tímabilsbækur](tasks/post-periodic-journals.md)
+- [Vinna úr færslubók kostnaðarúthlutunar](tasks/process-ledger-allocation-journal.md)
 
 
 

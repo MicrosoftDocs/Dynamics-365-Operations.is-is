@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Færðu inn kostnað með skjótum hætti með því að fartækjavinnusvæðið Kostnaðarstýring
 1. Í fartækinu opnarðu vinnusvæðið **Kostnaðarstýring**.
 2. Veljið **Útgjöld snögg færsla**.
-3. Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef flokkurinn þinn er ekki á listanum. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
+3. Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef flokkurinn þinn er ekki á listanum. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
 4. Færa inn dagsetningu færslu útgjaldanna.
 5. Valfrjálst: Færið inn söluaðila kostnaðar.
 6. Færið inn útgjaldaupphæð.
-7. Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. Sjálfgefið er að 400 gjaldmiðlar séu hlaðnir en þeirri tölu má breyta af forritara. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef gjaldmiðillinn þinn er ekki á listanum. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
+7. Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. Sjálfgefið er að 400 gjaldmiðlar séu hlaðnir en þeirri tölu má breyta af forritara. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef gjaldmiðillinn þinn er ekki á listanum. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
 8. Veljið **Taka mynd** eða **Velja mynd**.
 9. Fylgið einu af eftirfarandi skrefum:
 
@@ -166,11 +166,11 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 7. Veldu einn eða fleiri kostnaðarliði í listanum.
 8. Velja **Ekkert**.
 9. Veldu **Nýr kostnaður** til að bæta nýjum kostnaði við kostnaðarskýrsluna.
-10. Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef flokkurinn þinn er ekki á listanum. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
+10. Velja tegund fyrir útgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef flokkurinn þinn er ekki á listanum. Leita eftir flokki útgjalda eða skipta til að leita eftir tegund útgjalda.
 11. Valfrjálst: Færið inn söluaðila kostnaðar.
 12. Færa inn dagsetningu færslu útgjaldanna.
 13. Færið inn útgjaldaupphæð.
-14. Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. Sjálfgefið er að 400 gjaldmiðlar séu hlaðnir en þeirri tölu má breyta af forritara. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef gjaldmiðillinn þinn er ekki á listanum. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
+14. Veljið gjaldmiðilskóðann fyrir úgjöldin. Þá sérðu lista yfir vörur sem er hlaðið upp í forritið til notkunar utan nets. Sjálfgefið er að 400 gjaldmiðlar séu hlaðnir en þeirri tölu má breyta af forritara. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef gjaldmiðillinn þinn er ekki á listanum. Leita eftir gjaldmiðli eða skipta til að leita eftir nafni.
 15. Velja **Ekkert**.
 16. Veldu **Bæta við meiri upplýsingum** til að bæta meiri upplýsingum við kostnaðinn. Reitirnir sem eru tiltækir fara eftir því hvernig kostnaðarstýring er skilgreind fyrir þitt fyrirtæki.
 17. Veldu **Kvittanir** ef reglur fyrirtækisins gera kröfu um kvittun fyrir kostnaðinum, og fylgdu svo eftirfarandi skrefum:
@@ -216,12 +216,12 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
         - Ef þú valdir **Fyrri gestir** skal fylgja þessum skrefum:
 
-            1. Veldu einn eða fleiri fyrri gesta í listanum. Þú sérð lista af fyrri gestum sem þú hefur bætt við fyrri kostnaðarskýrslur sem er hlaðið inn í forritið þitt til að nota án nettengingar. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef fyrri gesturinn þinn er ekki á listanum. Leitaðu eftir nafni eða skiptu yfir í leit til að leita eftir fyrirtæki, landi eða starfstitli.
+            1. Veldu einn eða fleiri fyrri gesta í listanum. Þú sérð lista af fyrri gestum sem þú hefur bætt við fyrri kostnaðarskýrslur sem er hlaðið inn í forritið þitt til að nota án nettengingar. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef fyrri gesturinn þinn er ekki á listanum. Leitaðu eftir nafni eða skiptu yfir í leit til að leita eftir fyrirtæki, landi eða starfstitli.
             2. Velja **Ekkert**.
 
         - Ef valdir eru **Samstarfsmenn** skal fylgja þessum skrefum:
 
-            1. Veldu einn eða fleiri samstarfsmenn í listanum. Þá sérðu lista yfir samstarfsmenn sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef samstarfsmaðurinn þinn er ekki á listanum. Leitaðu eftir nafni eða skiptu yfir í leit til að leita eftir fyrirtæki eða starfstitli.
+            1. Veldu einn eða fleiri samstarfsmenn í listanum. Þá sérðu lista yfir samstarfsmenn sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef samstarfsmaðurinn þinn er ekki á listanum. Leitaðu eftir nafni eða skiptu yfir í leit til að leita eftir fyrirtæki eða starfstitli.
             2. Velja **Ekkert**.
 
     3. Veldu hnappinn **Til baka** til að fara aftur í kostnaðarupplýsingarnar.
@@ -230,7 +230,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
     1. Veldu fyrstu dagsetningu til að sundurliða.
     2. Veldu **Bæta við sundurliðun**.
-    3. Veldu undirflokk fyrir sundurliðun kostnaðarins. Þá sérðu lista yfir undirflokka kostnaðar sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Veldu **Leit** til að leita á netinu ef undirflokkurinn þinn er ekki á listanum. Leita eftir heiti undirflokks kostnaðar.
+    3. Veldu undirflokk fyrir sundurliðun kostnaðarins. Þá sérðu lista yfir undirflokka kostnaðar sem er hlaðið upp í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Til að fá frekari upplýsingar ættu þróunaraðilar að skoða [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Veldu **Leit** til að leita á netinu ef undirflokkurinn þinn er ekki á listanum. Leita eftir heiti undirflokks kostnaðar.
     4. Færðu inn færsluupphæðina fyrir sundurliðunina.
     5. Breyttu dagsetningu færslunnar ef þess er krafist.
     6. Velja **Ekkert**.

@@ -1,9 +1,9 @@
 ---
-title: "Sérstilling viðmótsins"
+title: "Sérsniðin notkun"
 description: "Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -38,10 +38,10 @@ ms.lasthandoff: 06/13/2017
 Allar sérstillingar, af hvaða tagi sem er, sem notandi gerir í Finance and Operations eru aðeins fyrir þann notanda, burtséð frá fyrirtækinu sem notandinn vinnur með. Breytingar sem notandi gerir á síðu hafa ekki áhrif á aðra notendur kerfisins.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Kerfisaltækir valkostir fyrir núverandi notanda
-Í yfirlitsstiku finnurðu mynd af tannhjóli, sem kallast valmyndarhnappurinn **Stillingar**. Opnun valmyndarinnar **Stillingar** mun sýna fjölda valkosta. Val á **Valkostir** opnar síðuna **Valkostir** notanda. Þar finnurðu fjóra valkostaflipa: **Visual**, **Kjörstillingar**, **Lykil** og **Verkflæði**.
+Í yfirlitsstiku finnurðu mynd af tannhjóli, sem kallast valmyndarhnappurinn **Stillingar**. Opnun valmyndarinnar **Stillingar** mun sýna fjölda valkosta. Val á **Valkostir** opnar síðuna **Valkostir** notanda. Þar finnurðu fjóra valkostaflipa: 
 
 -   **Visual:** Notað til að velja litaþema og sjálfgefin stærð einingar á síðum fyrirtækisins.
--   **Kjörstillingar:** Hér er hægt að velja sjálfgildi fyrir hvert skipti sem Finance and Operations er opnað, þ.m.t. fyrirtækið, upphafssíða og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opin til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
+-   **Kjörstillingar:** Hér er hægt að velja sjálfgildi fyrir hvert sinn sem Finance and Operations er opnað, þ.m.t. fyrirtækið, upphafssíðu og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opinn til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
 -   **Lykill:** Notað til að veita Notandakenni og aðra lykiltengda valkosti.
 -   **Verkflæði:** Hér er hægt er að velja erkflæðistengda valkosti.
 
@@ -107,15 +107,20 @@ Sum vinnusvæða innihalda talningarreiti (reitir með númerum á þeim) sem þ
 Stjórnborðið er oft fyrsta síðan sem birtist þegar Finance and Operations er opnað. Hægt er að sérsníða stjórnborðið til að endurnefna yfirlitsreiti vinnusvæðis, til að sýna aðeins þá reiti sem þú vilt sjá, endurnefna reiti eða til að hagræða reitum í þeirri röð sem þú vilt sjá þá. Til að sérsníða stjórnborð skal velja hvaða reit sem er og hægrismella til að opna valmynd samhengi. Í samhengisvalmyndinni velurðu **Aðlaga**. Ef valinn reitur er sá sem á að fela eða endurnefna eða sleppa er hægt að gera þá breytingu beint í glugga Eiginleika sem hefur birst. Ef óskað er að raða reitir, veljið síðan **Aðlaga þessa skjámynd** í glugganum Eiginleika til að opna tækjastiku Sérsnið. Síðan er hægt að nota verkfærið Flytja til að raða reitunum.
 
 ## <a name="administration-of-personalization"></a>Stjórnun sérstillinga
-Þegar búið er að sérsníða síðu getur þú deilt sérstillingum þínum með öðrum notendum. Flyttu bara út sérstilltu síðuna. Þú getur því næst beðið aðra notendur að fletta að sérstilltu síðunni og flytja inn sérstillingaskrána sem þú stofnaðir.
+Eftir að þú hefur sérstillt síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Þú getur því næst beðið aðra notendur að fletta að sérstilltu síðunni og flytja inn sérstillingaskrána sem þú stofnaðir.
 
-Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**. Þessi síða hefur fjóra flipa: **Kerfi**, **Notendur**, **Flytja inn** og **Hreinsa**.
+Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**. Þessi síða er með fjóra flipa: 
 
 - **Kerfi:** - Þú getur afvirkjað tímabundið eða slökkt á öllum sérstillingum í kerfinu. Í þessu tilfelli er sérstillingum ekki eytt. Þess í stað endurstillirðu allar síður á sjálfgefið ástand þeirra. Ef þú endurvirkjar sérstillingarnar síðar eru þær aftur notaðar á síðu hvers notanda. Einnig er hægt að eyða öllum sérstillingum fyrir alla notendur. Athugið að þegar sérstilingum er eytt er engin leið til að endurvirkja sérstillingar sjálfvirkt úr kerfinu. Áður en þú framkvæmir þetta skref skaltu því ganga úr skugga um að þú hafir flutt allar sérstillingar út sem þú vilt mögulega flytja inn síðar.
 - **Notendur** – Hægt er að tilgreina hvort hver notandi geti sett óbeinar eða yfirlýstar sérstillingar. Þú getur einnig tilgreint hvort hver notandi geti sett óbeinar eða yfirlýstar sérstillingar á tiltekinni síðu. Að endingu geturðu flutt inn, flutt út eða eytt sérstillingu fyrir hvern notanda.
 - **Flytja inn** – Þú getur flutt inn sérstillingu fyrir einn eða fleiri notendur. Þessi flipi er notaður þegar þú hefur stofnað sérstillingu á síðu eða vinnusvæði og síðan flutt þá sérstillingu út sem sérstillingarskrá. Til að flytja inn sérstillingaskrá þína og nota hana hjá einum eða fleiri notendum skaltu velja einstaka notendur í lista yfir alla notendur eða sía eftir tilteknu hlutverki og velja svo notendur í því hlutverki. Þegar þú hefur valið notendur til að nota nota sérstillinguna þína skaltu smella á **Flytja inn** og velja sérstillingaskrá. Sérstillingin verður villuleituð og notuð hjá öllum völdum notendum næst þegar þeir opna valda síðu.
 - **Hreinsa** – Hægt er að hreinsa síðu eða sérstillingu vinnusvæðis fyrir einn eða fleiri notendur. Fyrst skal velja þá síðu eða vinnusvæði sem á að hreinsa sérstillingu fyrir. Næst skaltu velja einstaka notendur á listanum yfir alla notendur eða sía eftir tilteknu hlutverki og svo velja notendur í því hlutverki. Þegar þú hefur valið bæði síðu eða vinnusvæði og notendur skaltu smella á **Hreinsa**. Allar sérstillingar sem valdir notendur hafa notað á síðu sem hefur verið valin eða vinnusvæði eru hreinsaðar. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling hefur verið vistuð fyrir síðuna eða vinnusvæðið er hins vegar hægt að flytja þá sérstillingu inn aftur.
 
+## <a name="personalization-of-inventory-dimensions"></a>Sérstilling birgðavídda
 
+Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Ef þú notar til dæmis sérstillingu til að fela dálk fyrir rununúmeri birgðavíddar og dálkurinn birtist næst þegar síðan er opnuð, getur það verið vegna þess að Sýna vídd stillingarnar stjórna því hvaða birgðavíddadálkar eru sýndir. 
 
+Sýna vídd stillingarnar eiga við á öllum síðum og þessar stillingar hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á stökum síðum. 
+
+Í dæminu um rununúmer birgðavíddar, þá verður að hreinsa þessa vídd sem hluta af **Sýna vídd** valkostinum ef taflan á ekki að sýna þennan dálk. Að lokum mun þessi breyting ekki bara eiga við á einni síðu heldur á öllum síðum.
 

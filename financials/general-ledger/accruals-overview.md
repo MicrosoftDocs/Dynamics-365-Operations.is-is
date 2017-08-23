@@ -3,7 +3,7 @@ title: Yfirlit yfir uppsafnanir
 description: "Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ Uppsöfnunarskemu eru notuð til að setja upp frestaðar tekjur og kostnað, og
 Þegar færslubók er færð inn er hægt að smella á **Fjárhagsuppsafnanir** í valmyndinni **Aðgerðir**. Síðan þegar uppsöfnunarskema er valið muntu sjá grunnupphæðina úr færslubókinni sem verður dreift yfir tímabilið, eins og ákvarðast af uppsöfnunarskemanu. Til dæmis, ef þú greiðir tryggingu starfsmanns fyrir allt árið í janúar og upphæðin er 12.000, er verður að viðurkenna þann kostnað í hverjum mánuði. Hægt er að velja upphafsdagsetningu. Einnig er hægt að tilgreina hvort upphæðin sem er safnað upp sé byggð á lyklinum eða mótlyklinum. Þegar valið hefur verið gert er smellt á **Færslur** til að skoða allar færslur sem hafa verið stofnaðar samkvæmt uppsöfnunarskemanu. Til dæmis, ef þú dreifir 12.000 af tryggingakostnaði yfir árið sjást 1.000 fyrir hvern mánuð. Þegar færslubókin er bókuð, er hægt að skoða færslurnar með því að nota fyrirspurnarsíðuna **Fylgiskjalsfærslur**. Ef ekki er hægt að nota uppsöfnunarskema (til dæmis, þegar reikningur sölupöntunar eða innkaupareikningur á í hlut) er hægt að kreditfæra fyrirframgreidda upphæð og debetupphæð kostnaðar. Síðan er hægt að velja **Mótfærsla** þegar uppsöfnunarskemanu er beitt.
 
 
-
+Nánari upplýsingar, sjá [stofna uppsöfnunarskemu](tasks/create-accrual-schemes.md) og [Stofna uppsöfnunarfærslur fjárhags](tasks/create-ledger-accrual-transactions.md).
 

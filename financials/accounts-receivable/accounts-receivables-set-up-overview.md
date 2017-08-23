@@ -1,9 +1,9 @@
 ---
 title: "Stilla viðskiptakröfur og skuldir og innheimtu"
 description: "Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og 
 |                                                      | Gjaldmiðlar                           | Stofna og skoða gjaldmiðla sem fyrirtækið notar.                                                                                                                                                                                                                       |
 |                                                      | Gengi gjaldmiðils              | Stofna og viðhalda viðeigandi gengi á milli bókhaldsgjaldmiðils og annarra gjaldmiðla.                                                                                                                                                                              |
 |                                                      | Samstæðulyklar              | Búa til lista yfir lykla sem gildandi lögaðili getur bókað. Þarf er að setja upp debet- og kreditlykla og einnig að setja upp færslubókina sem móttekur færslurnar í öðrum lögaðila.                                                                             |
-|                                                      | Greiðsluhættir - viðskiptavinur        | Stofna og viðhalda upplýsingum um greiðsluhætti fyrir viðskiptavini.                                                                                                                                                                                                           |
+|                                                      | Greiðsluhættir - viðskiptavinur        | Stofna og viðhalda upplýsingum um greiðsluhætti fyrir viðskiptavini. Nánari upplýsingar er að finna í [Koma á fót greiðsluhætti viðskiptavinar](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Stigveldi fyrirtækis             | Setja upp stigveldi fyrirtækis fyrir miðstýrðar greiðslur                                                                                                                                                                                                                        |
 |                                                      | Tilgangur fyrir stigveldi fyrirtækis      | Tilgreina tilgang fyrir miðstýrð greiðslur.                                                                                                                                                                                                                                       |
 |                                                      | Greiðsludagar                         | Skilgreina greiðsludagana sem eru notaðir til þess að reikna gjalddaga fyrir greiðslur sem munu berast frá viðskiptavinum eða verða gefnar út til lánardrottna.                                                                                                                                                |
-|                                                      | Greiðsluþóknun                          | Stofna og viðhalda greiðsluþóknunum sem eru tengdar viðskiptavinum, til dæmis gjöldum fyrir víxla.                                                                                                                                                                               |
-|                                                      | Uppsetning greiðsluþóknunar                    | Setja upp greiðsluþóknanir fyrir ýmsar samsetningar banka, greiðslumáta, greiðslugerða, greiðsluskilgreininga, gjaldmiðla og dagsetningarbila.                                                                                                                              |
+|                                                      | Greiðsluþóknun                          | Stofna og viðhalda greiðsluþóknunum sem eru tengdar viðskiptavinum, til dæmis gjöldum fyrir víxla.                                                                                                                                                                         |
+|                                                      | Uppsetning greiðsluþóknunar                    | Setja upp greiðsluþóknanir fyrir ýmsar samsetningar banka, greiðslumáta, greiðslugerða, greiðsluskilgreininga, gjaldmiðla og dagsetningarbila.  Nánari upplýsingar er að finna í [Koma á fót greiðsluþóknunum viðskiptavina](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Greiðsluáætlanir                    | Stofna greiðsluáætlanir sem er hægt að nota til að gera áætlanir fyrir afborganir frá viðskiptavinum og til birgja.                                                                                                                                                                       |
 |                                                      | Greiðsluupplýsingar                | Stofna og skoða greiðsluskilgreiningarkóða fyrir greiðsluaðferð sem valin var í skjámyndinni Greiðsluhættir. Greiðsluskilgreiningarkóði er skilgreindur samkvæmt samkomulagi við bankann sem tilgreindur er fyrir þá greiðsluaðferð sem valin er.                    |
 |                                                      | Færslutexti                     | Stofna færslutexta fyrir sjálfvirkar bókanir í Fjárhag. Hægt er að setja upp færslutexta á mismunandi tungumálum.                                                                                                                                                           |
@@ -83,7 +82,7 @@ Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og 
 |                                                      | Greiðsluhættir - viðskiptavinur        | Stofna og viðhalda upplýsingum um greiðsluhætti fyrir viðskiptavini.                                                                                                                                                                                                           |
 |                                                      | Undirskrift                            | Bæta við, breyta eða fjarlægja myndskrár, til dæmis .bmp, .jpg, eða .gif-skrár. Myndaskrá undirskriftar eru prentaðar á ávísanir sem opinber undirskrift lögaðila.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Skilgreining á talnagögnum viðskiptavina           | Skilgreiningar aldurstímabila             | Setja upp og stýra notendaskilgreindum skilgreiningum aldurstímabila sem eru notaðir til þess að greina aldur viðskiptavinalykla og lánardrottnalykla samkvæmt dagsetningunni sem er færð inn.                                                                                                         |
+| Skilgreining á talnagögnum viðskiptavina           | Skilgreiningar aldurstímabila             | Setja upp og stýra notendaskilgreindum skilgreiningum aldurstímabila sem eru notaðir til þess að greina aldur viðskiptavinalykla og lánardrottnalykla samkvæmt dagsetningunni sem er færð inn. Nánari upplýsingar er að finna í [Setja upp og mynda viðskiptakröfur fyrir aldursgreiningu](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
 |                                                      | Viðskiptatalnagögn                  | Setja upp fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu á afköstum í fyrirtækinu.                                                                                                                                                                              |
 |                                                      | Viðskiptatalnagögn             | Skoða gögn í töflusniði fyrir valin viðskiptatalnagögn.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
