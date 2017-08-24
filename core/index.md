@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft fyrir fyrirtæki. Varan gerir fólki kleift að taka betri ákvarðanir á styttri tíma í gegnum hugvitsamlegt viðmót sem veitir innsýn og aðgang að gögnum í rauntíma. Hún gerir fyrirtækjum kleift að umbreyta sér og prófa sig í gegnum margreyndan viðskiptagrunn sem býður upp á hraðari endurhönnun viðskiptaferla. Varan veitir fyrirtækjum þann sveigjanleika sem þarf til að þau geti vaxið á sínum eigin hraða og til að sinna viðskiptum nánast hvar sem er og hvenær sem er, svo þau geti sniðið starfsemi sína að viðskiptakröfum á alþjóðlegum grundvelli. 
 
-Í þessum fylgiskjölum finnurðu upplýsingar sem gera þér kleift að sníða Dynamics 365 for Finance and Operations að þörfum þíns fyrirtækis. Það er tengt fylgiskjölum fyrir tengdar vörur í Unified Operations-pakkanum, Dynamics 365 for Retail og Dynamics 365 for Talent. 
+Í þessum fylgiskjölum finnurðu upplýsingar sem gera þér kleift að sníða Dynamics 365 for Finance and Operations að þörfum þíns fyrirtækis. Það er tengt fylgiskjölum fyrir tengdar vörur: Dynamics 365 for Retail og Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -86,7 +86,7 @@ Microsoft Dynamics 365 for Finance and Operations er viðskiptaforrit Microsoft 
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">Fjárhagsskýrslugerð</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Lögbundin skýrslugjöf</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Fartækjaverkvangur</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Fartækjaverkvangur</a></h3>
 
 <h3>Virkni þróunaraðila</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Heimasíða hönnuðar</a></p>
