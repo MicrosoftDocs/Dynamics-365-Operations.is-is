@@ -1,9 +1,9 @@
 ---
 title: "Yfirlit reikninga lánardrottna"
 description: "Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfinga
 
 Þetta ferli gerir ráð fyrir að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina. Reikningur lánardrottisins er byggður á viðkomandi innhreyfingarskjali afurða og endurspeglar magnið á þeim. Fjárhagslegar upplýsingar sem koma fram á reikningnum eru byggðar á upplýsingunum sem færðar eru inn þegar reikningurinn er bókaður.
 
+Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við móttekið magn](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
 ## <a name="working-with-multiple-invoices"></a>Vinna með marga reikninga
 
 Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis. Ef stofna þarf marga reikninga eru notuð **Biðreikninga lánardrottins** síðu. Ef Bóka þarf og prenta marga reikninga lánardrottna skal nota síðuna staðfestingarbók reikninga Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
 
 
+Frekari upplýsingar er að finna á: 
 
+ - [Setja upp reglur lánardrottnareikninga](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Færa reikningsgögn inn í viðskiptaskuldir með reikningi lánardrottins](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [Skrá reikning lánardrottins í reikningabók](tasks/record-vendor-invoice-invoice-journal.md)
 
 

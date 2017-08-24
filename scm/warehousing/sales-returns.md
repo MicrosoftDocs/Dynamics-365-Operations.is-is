@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti v
 ## <a name="return-order-process"></a>Skilapantanavinnsla
 Eftirfarandi mynd býður upp á yfirlit yfir skilapöntunina.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Skilapantanavinnsla](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Til eru tvær gerðir skilapöntunarferlis: efnisleg skil og aðeins kredit.
 
@@ -213,7 +213,7 @@ Til eru tvær aðferðir til þess að stýra vöruskiptum:
 
 Í fyrirframgreiddri skiptivöru er hægt að afhenda skiptihlutinn til viðskiptavinar áður en vörunni er skilað. Þessi aðferð er gagnleg ef t.d. varan er hluti vél sem ekki er hægt að fjarlægja nema varahlutur sé tiltækur til að koma í stað hennar, eða ef þú vilt bara að viðskiptavinurinn fái staðgengilsvöru eins fljótt og auðið er. Fyrirframgreidd skiptipöntun er óháð sölupöntun. Upplýsingar í haus eru frumstilltar frá viðskiptavininum og línuupplýsingar eru frumstilltar úr skilapöntuninni. Hægt er að breyta, vinna og eyða skiptipöntuninni óháð skilapöntuninni. Þegar skiptipöntun er eytt færðu skilaboð um að pöntunin hafi verið stofnuð sem skiptipöntun. Eftirfarandi skýringarmynd sýnir ferlið fyrir fyrirframgreidda skiptivöru.  
 
-[![Ferli fyrirframgreiddrar skiptivöru](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Ferli fyrirframgreiddrar skiptivöru](./media/SalesReturn04.png)
 
 Skilapöntuninin inniheldur tilvísun í skiptipöntun. Ef fyrirframgreidd skiptipöntun er stofnuð fyrir skilapöntun áður en gölluðum vörum er skilað, er hægt að velja ráðstöfunarkóða fyrir staðgengil eftir að gölluðum vörum hefur verið skilað.
 
@@ -221,7 +221,7 @@ Skilapöntuninin inniheldur tilvísun í skiptipöntun. Ef fyrirframgreidd skipt
 
 Ef þú sendir skiptivöru til viðskiptavinarins og nota ráðstöfunaraðgerðina **Skipti og rýrnun** eða **Skipti og kredit** í skilapöntuninni, skal nota ferlið sem er sýnt í eftirfarandi dæmi.  
 
-[![Ferli skiptivöru þegar ráðstöfunarkóði er notaður](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Ferli skiptivöru þegar ráðstöfunarkóði er notaður](./media/SalesReturn05.png)
 
 Skiptivara verður afhent með því að nota sjálfstæða sölupöntun, sölupöntun skiptivöru. Þessi sölupöntun er stofnuð þegar fylgiseðillinn fyrir skilapöntun er myndaður. Pöntunarhaus notar upplýsingar frá viðskiptavininum sem vísað er í haus vöruskilapöntunarinnar. Línuupplýsingum er safnað úr þeim upplýsingum sem færðar eru inn á síðunni **Skiptivara**. Síðan **Skiptivara** verður að vera útfyllt fyrir línur sem hafa ráðstöfunaraðgerðirnar sem byrja á orðinu "skipta út." Hins vegar er hvorki magn eða kenni skiptivöru villuleitað eða takmarkað. Þessi hegðun heimilar fyrir þau tilvik þar sem viðskiptavinurinn vill sömu vöru en í annað afbrigði eða stærð, og einnig tilfellum þar sem viðskiptavinurinn vill allt aðra vöru. Sjálfgefið er að vara er færð inn á síðunni **Skiptivara**. Hins vegar er hægt að velja aðra vöru, svo lengi sem aðgerðin hefur verið sett upp. **Athugasemd:** Hægt er að breyta og eyða skiptipöntuninni sölu eftir að hún er stofnuð.
 
@@ -254,7 +254,7 @@ Hægt er að ljúka skilapöntunum milli tveggja fyrirtækja innan fyrirtækisin
 
 Eftirfarandi dæmi lágmarksuppsetningu sem er krafist fyrir tvö fyrirtæki til að taka þátt í samstæðuvenslum og nýta viðskipti innan samstæðu.  
 
-[![Lágmarkslengd](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Lágmarksuppsetning](./media/SalesReturn06.png)
 
 Í eftirfarandi dæmi er CompBuy kaupandi fyrirtæki og CompSell fyrirtæki seljanda. Vanalega sendir sölufyrirtækið vörur annaðhvort til kaupandi fyrirtækis eða, í aðstæðum beinnar afhendingar sendingar, beint til endanlegs viðskiptavinar. Í CompBuy, er lánardrottinn IC\_CompSell skilgreindur sem samstæðuendastöð sem tengist fyrirtækinu CompSell. Á sama tíma í CompSell, er viðskiptavinur IC\_CompBuy skilgreindur sem samstæðuendastöð sem tengist fyrirtækinu CompBuy. Skilgreina verður upplýsingar um reglu viðeigandi aðgerðar og gildisvörpun í báðum fyrirtækjunum. Við aðstæður beinnar afhendingar sendingar, er skilapöntun innan samstæðu, sem er einnig sölupöntun innan samstæðu, stofnuð í fyrirtæki seljanda. RMA-númer skilapöntunar innan samstæðu má taka til úr RMA-númeraröð í CompSell eða hægt er að afrita það úr RMA-númer sem úthlutað er á upprunalegu skilapöntuninni í CompBuy. Stillingar RMA í aðgerðareglunni **PurchaseRequisition** í CompBuy ákvarða þessar aðgerðir. Ef vöruskilanúmerið er samstillt þarf að áætla að lágmarka hættu á númeraárekstrum ef tvö fyrirtæki nota sömu númeraröð.
 
@@ -262,7 +262,7 @@ Eftirfarandi dæmi lágmarksuppsetningu sem er krafist fyrir tvö fyrirtæki til
 
 Aðstæðurnar fela í sér tvö fyrirtæki í sama fyrirtækis, eins og sýnt er í eftirfarandi skýringarmynd.  
 
-[![Einfaldar skilapantanir innan samstæðu](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Einfaldar skilapantanir innan samstæðu](./media/SalesReturn07.png)
 
 Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnuð í kaupandi fyrirtæki eða skilapöntun viðskiptavinar er stofnuð í fyrirtæki seljanda. Finance and Operations stofnar samsvarandi pöntun í hinu fyrirtækinu og tryggir að haus og upplýsingar um lánardrottinn skilapöntunar endurspegla stillingar á skilapöntun viðskiptavinar. Skilapöntun sem hefur verið komið getur annaðhvort tekið með eða útilokað tilvísun (**Finna sölupöntun**) í fyrirliggjandi reikningi viðskiptavinar. Fylgiseðlar og reikningar pantanna tveggja má vinna aðskilið. Til dæmis, þarf ekki að búa til fylgiseðil fyrir skilapöntun lánardrottins áður en fylgiseðill er myndaður fyrir skilapöntun viðskiptavinar.
 
@@ -270,7 +270,7 @@ Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnu�
 
 Þessar aðstæður geta komið ef fyrri sölu af gerðinni **Beina afhendingu** hefur verið lokið og ef reikningur gagnvart viðskiptavinar er til staðar í fyrirtækinu sem á samskipti við viðskiptavin. Í eftirfarandi skýringarmynd hefur fyrirtækið CompBuy áður selt og reikningsfært afurðir til Extern viðskiptavinar. Afurðir voru sendar beint frá fyrirtæki CompSell viðskiptavin í gegnum keðju pantana innan samstæðu.  
 
-[![Bein afhending á sendingu skilar milli þriggja aðila](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Bein afhending á sendingu skilar milli þriggja aðila](./media/SalesReturn08.png)
 
 Ef Extern viðskiptavinurinn vill skila afurðum er skilapöntun (RMA02) stofnuð í fyrirtæki CompBuy. Til að koma á samstæðukeðjunni verður skilapöntun að vera merkt fyrir beina afhendingu. Þegar þú notar aðgerðina **Finna sölupöntun** til að taka til reikning viðskiptavinar sem á að skila, er komið á keðju pantana innan samstæðu sem samanstendur af eftirfarandi skjölum:
 
@@ -292,7 +292,7 @@ Bókanir í fjárhag sem eru myndaðar þegar skilapöntun er reikningsfærð ve
 
 Skilapöntun vísar ekki í reikning viðskiptavinar Skiluð vara er kreditfærð. Færibreytan **Kreditleiðrétting** er ekki valin þegar reikningur eða kreditnóta skilapöntunar er mynduð.  
 
-[![Skilapöntun vísar ekki í reikning viðskiptavinar](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Skilapöntun vísar ekki í reikning viðskiptavinar](./media/SalesReturn09.png)  
 
 **Athugasemd:** Aðalsniðmát vöruverðs er notað sem sjálfgefið gildi fyrir færibreytuna **Skilakostnaðarverð**. Sjálfgefin verð er frábrugðið kostnaðarverði við úthreyfingar birgða. Þess vegna eru áhrifin þau að stofnast hefur til taps 3. Þar að auki er skilapöntun ekki með afslátt sem var veittur viðskiptavini í sölupöntuninni. Þess vegna á of mikið kredit á sér stað.
 
@@ -300,7 +300,7 @@ Skilapöntun vísar ekki í reikning viðskiptavinar Skiluð vara er kreditfær�
 
 Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er valin þegar reikningur skilapöntunar er myndaður.  
 
-[![Skilapöntun þar sem kreditleiðrétting er valin](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Skilapöntun þar sem kreditleiðrétting er valin ](./media/SalesReturn10.png)  
 
 **Athugasemd:** Bókanir í fjárhag eru færðar inn sem neikvæðar leiðréttingar.
 
@@ -308,7 +308,7 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 Í þessu dæmi er skilapöntunarlínan stofnuð með aðgerðinni **Finna sölupöntun** Færibreytan **Kreditleiðrétting** er ekki valin þegar reikningur er stofnaður.  
 
-[![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun ](./media/SalesReturn11.png)  
 
 **Athugasemd:****Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
 

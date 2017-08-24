@@ -1,9 +1,9 @@
 ---
 title: "Skuldir og innheimtur í viðskiptakröfum"
 description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn í Microsoft Dynamics 365 for Finance and Operations, Enterprise. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Hægt er að fella niður, endurskipa eða bakfæra vaxtanótur eða þóknanir 
 
 Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Fylgið skrefum í hlutanum "Stofna afskriftarfærslur í einu lagi" til að afskrifa öll gjöld sem viðskiptavinur skuldar.
 
+Frekari upplýsingar, sjá [Stofna vaxtakóða með sviði](tasks/create-interest-code-range.md) og [Reikna vexti](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Stofna afskriftafærslur 
 Þú getur afskrifað gallaðar skuldir með því að smella á Afskrifa í skjámyndinni Innheimta og á listasíðunum Aldursgreindar stöður, Viðskiptavinir og Opna reikninga viðskiptavinar. 
 
@@ -100,7 +101,10 @@ Hægt er að fella niður, endurskipa eða bakfæra vaxtanótur eða þóknanir 
 -   Þriðja gerð færslubókarlínu inniheldur upplýsingar um afskriftir fjárhags fyrir virðisaukaskatt. Færslubókarlínan er einungis stofnuð ef breytan Aðskilja virðisaukaskatt° er valin á síðunni færibreytur viðskiptakrafna. Ef merktar færslur innihalda margar samsetningar af reikningum virðisauka, víddum og virðisaukakóðum er aðskilin færslubókarlína stofnuð fyrir hverja samsetningu.
 
 Afskriftarfærslan er búin til í færslugjaldmiðlinum.
-Vinna innistæðulausar greiðslur (NSF)  
+
+Nánari upplýsingar er að finna í [Stofna afskriftabók fyrir viðskiptavin](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Vinna innistæðulausar greiðslur (NSF)  
 --------------------------------------------
 
 Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Innheimtu síðu. Þegar smellt er á þennan hnapp er hætt við greiðsluna. Ef NSF-þóknun á við um viðskiptamanninn er gjaldafærsla stofnuð í greiðslubók.. Upphæð þóknunar er grundvölluð á stillingum fyrir sjálfvirk gjöld. Sjálfvirk gjöld sem notuð eru fyrir NSF-greiðslur eru tilgreind með gjaldaflokki sem er valinn í skjámyndinni Bankareikningur fyrir bankareikninginn sem varð fyrir áhrifum.

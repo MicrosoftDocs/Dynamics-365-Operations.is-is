@@ -1,9 +1,9 @@
 ---
 title: "Reikningssamþykktir í fartækjum"
 description: "Í þessu efnisatriði er ætlað að gefa praktíska nálgun á það að hanna farsímaaðstæður í Dynamics 365 for Finance and Operations með því að taka samþykktir á reikningum lánardrottna fyrir fartæki sem notkunartilvik."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Farsímageta í Microsoft Dynamics 365 for Finance and Operations, Enterprise ú
 
 | Skilyrði                                                                                            | lýsing                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016).                   |
 | Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur skráð rangt tvær Loka skipanir fyrir felliglugga þetta er innifalið í Dynamics 365 for Operations uppfærslu verkvangs 3 (uppfærsla nóvember 2016) |
 | Setja upp bráðabót KB 3207800.                                                                              | Þessi bráðabót leyfir að viðhengi séu skoðuð í farsímabiðlara þetta er innifalið í Dynamics 365 for Operations uppfærsla verkvangs 3 (uppfærsla í nóvember 2016)           |
@@ -176,7 +176,7 @@ Til að hanna reikningsupplýsingasíðu fyrir farsíma skal nota síðuna **Ven
 1.  Í vefslóð Finance and Operations skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceHeaderDetails** til að opna skjámyndina
 2.  Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
 3.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
-4.  Veldu síðuna ** Mínir lánardrottnareikningar ** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
+4.  Veldu síðuna **Mínir lánardrottnareikningar** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
 5.  Á flipanum **Svæði** smellirðu á dálkhausinn **Hnitanet**.
 6.  Smellið á **Eiginleikar** &gt; **Bæta við síðu**. **Athugasemd:** Þegar smellt er á fyrirsögnina **Hnitanet** og síðu bætt við, er venslum við upplýsingasíðu sjálfvirkt komið á.
 7.  Færðu inn síðutitill, eins og **Upplýsingar um reikning**, og lýsingu, eins og **Skoða línuupplýsingar og reikningshausinn**.
@@ -298,7 +298,7 @@ Til að bæta við verkflæðisaðgerðum skal nota síðuna **VendMobileInvoice
 
 1.  Smellið á hnappinn **Stillingar** (tannhjól) í efra hægra horni síðunnar og svo á **Farsímaforrit**.
 2.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
-3.  Veldu síðuna **Upplýsingar um reikning ** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
+3.  Veldu síðuna **Upplýsingar um reikning** sem þú stofnaðir áður og smelltu síðan á **Breyta**.
 4.  Stilltu valkostinn **Skjalastjórnun** á **Já** eins og sýnt er hér að neðan. **Athugasemd:** Ef ekki þarf að sýna viðhengi í fartækinu er hægt að hafa þennan valkost stilltan á **Nei**, sem er sjálfgefin stilling.
 ![Skjalastjórnun](./media/docmanagement-216x300.png)
 6.  Smellið á **Lokið** til að fara úr breytingarstillinigu.

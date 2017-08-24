@@ -3,7 +3,7 @@ title: "Yfirlit virðisaukaskatts"
 description: "Þessi grein veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Eftirfarandi skýringarmynd sýnir einingar í skattauppsetningu og hvernig þæ
 
 Fyrir hvert vsk sem fyrirtæki verður að standa skil á þarf vsk-kóða að vera skilgreindur. Vsk-kóði geymir skatthlutfall og útreikningsreglur°fyrir vsk. 
 
-Hver vsk-kóði verður að vera°tengdur við vsk-tímabil. VSK-uppgjörstímabil°skilgreina með hvaða millibili á að gefa upp vsk og greiða til skattayfirvalda. Hvert vsk-uppgjörstímabil þarf að tengja við skattayfirvöld. Skattayfirvöld standa fyrir lögaðilann sem vsk er gefinn upp og greiddur til. Hann skilgreinir einnig útlit vsk-skýrslunnar. Hægt er að tengja skattayfirvöld lánardrottnalyklum. 
+Hver vsk-kóði verður að vera°tengdur við vsk-tímabil. VSK-uppgjörstímabil°skilgreina með hvaða millibili á að gefa upp vsk og greiða til skattayfirvalda. Hvert vsk-uppgjörstímabil þarf að tengja við skattayfirvöld. Skattayfirvöld standa fyrir lögaðilann sem vsk er gefinn upp og greiddur til. Hann skilgreinir einnig útlit vsk-skýrslunnar. Hægt er að tengja skattayfirvöld lánardrottnalyklum. Nánari upplýsingar, sjá [Setja upp VSK-uppgjörstímabil](tasks/set-up-sales-tax-settlement-periods.md).
 
 Hvern vsk-kóða þarf einnig að°tengja við fjárhagsbókunarflokk. Fjárhagsbókunarflokkur tilgreinir aðallykla sem upphæðir vsk-kóða varða bókaðar fyrir. 
 
@@ -60,13 +59,13 @@ Eftirfarandi tafla lýsir einingar sem og röð fyrir uppsetningu skatti.
 | Uppsetningarverkþáttur                                                  | Bundið/valfrjálst og lýsing                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stofna aðallykla.                                           | Áskilið. Áður en virðisaukaskatturinn er settur upp verður að stofna fjárhagslyklana sem fyrirtækið notar til að greiða og skrá skatta.                                                                                                                                                                             |
-| Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt.                     | Áskilið. Fjárhagsbókunarflokkar skilgreina aðallykla til að skrá og greiða°virðisaukaskatt.                                                                                                                                                                                                                            |
-| Setja upp skattayfirvöld.                                   | Áskilið. Skattayfirvöld eru þeir lögaðilar sem skattur verður tilkynntur og greiddur til.                                                                                                                                                                                                                                   |
+| Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt.                     | Áskilið. Fjárhagsbókunarflokkar skilgreina aðallykla til að skrá og greiða°virðisaukaskatt.   Frekari upplýsingar, sjá [Setja upp fjárhagsbókunarflokkur fyrir virðisaukaskattur](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Setja upp skattayfirvöld.                                   | Áskilið. Skattayfirvöld eru þeir lögaðilar sem skattur verður tilkynntur og greiddur til.    Nánari upplýsingar um það eru í [Setja upp VSK-yfirvöld](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Setja upp virðisaukaskatttímabil.                            | Áskilið. Virðisaukaskattstímabil°innihalda upplýsingar um°hvenær og hve oft eigi að tilkynna og greiða vsk. Þær eru tengdar við vsk-yfirvöld.                                                                                                                                                       |
-| Uppsetning skýrslugerðarkóða virðisaukaskatts.                               | Valfrjálst. Skýrslugerðarkóða virðisaukaskatts er hægt að úthluta til vsk-kóða til að gefa skýrslu um upphæðir fyrir marga vsk-kóða undir einum skýrslugerðarkóða virðisaukaskatts.                                                                                                                                                                 |
-| Setja upp VSK-kóða.                                         | Áskilið. Vsk-kóðar geymir skatthlutfall og°útreikningsreglur fyrir vsk. VSK-kóðar eru tengdir virðisaukaskatttímabili, og fjárhagsbókunarflokki.                                                                                                                                        |
+| Uppsetning skýrslugerðarkóða virðisaukaskatts.                               | Valfrjálst. Skýrslugerðarkóða virðisaukaskatts er hægt að úthluta til vsk-kóða til að gefa skýrslu um upphæðir fyrir marga vsk-kóða undir einum skýrslugerðarkóða virðisaukaskatts. Nánari upplýsingar um það eru í [Setja upp VSK-skýrslugerðarkóða](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Setja upp VSK-kóða.                                         | Áskilið. Vsk-kóðar geymir skatthlutfall og°útreikningsreglur fyrir vsk. VSK-kóðar eru tengdir virðisaukaskatttímabili, og fjárhagsbókunarflokki. Nánari upplýsingar um það eru í [Setja upp VSK-kóða](tasks/set-up-sales-tax-codes.md).                                |
 | Setja upp VSK-flokka.                                        | Áskilið. Vsk-flokkar inniheldur lista yfir sölukóða sem eiga við um aðila (viðskiptavinur eða lánardrottinn) færslu. Fyrir tilgreinda færslu ákveða°skurðpunktar°vsk-kóða í°vsk-flokki og vsk-flokkur vöru þá vsk-kóða sem eiga við þá færslu.                  |
-| Setja upp VSK-flokka vöru.                                   | Áskilið. Vsk-flokkar vöru innihalda lista yfir sölukóða°sem eiga við°um tilföng°(afurðir, þjónustu og svo framvegis) færslu. Fyrir tilgreinda færslu ákveða skurðpunktar°vsk-kóða í°vsk-flokki og vsk-flokkur vöru þá vsk-kóða sem eiga við þá færslu. |
+| Setja upp VSK-flokka vöru.                                   | Áskilið. Vsk-flokkar vöru innihalda lista yfir sölukóða°sem eiga við°um tilföng°(afurðir, þjónustu og svo framvegis) færslu. Fyrir tilgreinda færslu ákveða°skurðpunktar°vsk-kóða í°vsk-flokki og vsk-flokkur vöru þá vsk-kóða sem eiga við þá færslu. Frekari upplýsingar, sjá [Setja upp VSK-flokka og VSK-flokka fyrir vörur](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Setja upp færibreytur fyrir vsk á síðum forrits færibreytu. | Áskilið. Fyrir mismunandi svæði, eins og Fjárhagur, Viðskiptakröfur og viðskiptaskuldir, verður að setja upp færibreytur fyrir réttan útreikning á óbeinum sköttum. Þótt þessar færibreytur hafi flestar sjálfgildi, verður að aðlaga þær til að mæta kröfum fyrir hvert fyrirtæki.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Virðisaukaskattsfærslur
@@ -98,5 +97,5 @@ Almennt yrðir þú að gera upp og greiða 2.500 til skattyfirvalds þegar reik
 Ef þú notar hins vegar skilyrtan virðisaukaskatt er gert upp við skattyfirvöld þegar þú færð greiðslu frá viðskiptavini þann 30. júlí.
 
 
-
+Nánari upplýsingar um það eru í [Setja upp staðgreiðsluskattur](tasks/set-up-withholding-tax.md).
 

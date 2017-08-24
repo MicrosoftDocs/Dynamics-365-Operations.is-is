@@ -16,10 +16,10 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fc8b7f6901ffd5c97fb864dbd3f87c5c70a31487
 ms.contentlocale: is-is
 ms.lasthandoff: 07/27/2017
 
@@ -102,10 +102,10 @@ Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með s
 <td>Notandi lánardrottins verður að hafa aðgang að vefviðmótinu Samvinnusvæði lánardrottins í vefbiðlaranum og verður að setja upp samvinnusvæði notanda lánardrottins.</td><td>Innkaupasérfræðingar og kerfisstjóri</td>
 <td>Fylgja skal skrefunum í eftirfarandi efnisatriði til að setja upp og vinna með vefviðmóti samstarfs lánardrottna.
 <ul>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">Nota samstarf lánardrottna við ytri lánardrottna</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">Stjórnun notenda samstarfs lánardrottna</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">Uppsetning og viðhald samstarfs lánardrottna</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Nota samstarf lánardrottna við ytri lánardrottna</a></li>
+<li><a href="manage-vendor-collaboration-users.md">Stjórna notendum fyrir samstarf lánardrottna</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">Uppsetning og viðhald samstarfs lánardrottna</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>

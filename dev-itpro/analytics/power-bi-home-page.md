@@ -1,9 +1,9 @@
 ---
-title: "Tiltækt Power BI efni"
+title: Power BI-efni
 description: "Í þessu efnisatriði er talið upp Power BI efni sem er tiltækt og bent á hvar er hægt að læra meira um það."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Tiltækt Power BI efni
+# <a name="power-bi-content"></a>Power BI-efni
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ ms.lasthandoff: 07/25/2017
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI efni fyrir Dynamics 365 for Finance and Operations, Enterprise Edition, uppfærsla júlí 2017
 Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition með uppfærslu frá júlí 2017 er eftirfarandi Power BI efni tiltækt:
 
+- [Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni](ledger-budgets-power-bi.md)
 - [Efni Benefits Power BI](benefits-power-bi.md)
 - [Yfirlit yfir reiðufé - Power BI efni](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO-yfirlit - Power BI efni](CFO-power-bi.md)

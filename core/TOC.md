@@ -5,8 +5,10 @@
 #### [Skráðu þig fyrir prufuáskrift](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uppsetning sýniútgáfuumhverfis](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Veldu innleiðingarvalkost](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Uppsetning í skýinu](/dynamics365/unified-operations/dev-itpro/deployment/cloud-deployment-overview)
-##### [Notkun á staðnum](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [Uppsetning í skýinu](/dynamics365/unified-operations/dev-itpro/deployment/cloud-deployment-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Kerfiskröfur fyrir uppsetningu í skýi](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Notkun á staðnum](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Kerfiskröfur fyrir uppsetningu á staðnum](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements-on-prem?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 #### Kaupa Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -18,6 +20,7 @@
 #### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Lifecycle-stefna](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Finance and Operations, Enterprise-útgáfa, uppfærsla, júlí 2017](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Uppfærsla 9 fyrir Operations (júlí 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-9?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uppfærsla 8 fyrir Operations (júní 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Operations-verkvangsuppfærsla 7 (maí 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Operations-verkvangsuppfærsla 6 (apríl 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -71,6 +74,7 @@
 #### [Kostnaðarskjal](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Kostnaðarútgáfa](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Hermt eftir kostnaðarbreytingum með kostnaðarútgáfu fyrir áætlaðan kostnað](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
 ### Birgðakostnaður
 #### [Leiðrétting kostnaðarvirðis lagerbirgða](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Kostnaðarhlutur](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -153,6 +157,7 @@
 
 #### Flutningur eininga
 ##### [Skilgreiningargagnaverk](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Gagnapakkar fyrir grunnstillingar](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=dynamics365/unified-operations/fin-and-ops/toc.json)]
 ###### [Sniðmát skilgreiningargagna](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Afritun skilgreiningargagna á milli fyrirtækja](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -181,9 +186,9 @@
 #### [Úrræðaleit vegna sannvottunar þjónustu](/dynamics365/unified-operations/dev-itpro/data-entities/troubleshoot-service-authentication?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### [OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Endurteknar samþættingar](/dynamics365/unified-operations/dev-itpro/data-entities/recurring-integrations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Endurteknar samþættingar](/dynamics365/unified-operations/dev-itpro/data-entities/recurring-integrations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-### [Samþætting gagna með Common Data Service](/common-data-service/entity-referencedynamics-365-integration) 
+### [Samþætting gagna með Common Data Service](/common-data-service/entity-reference/dynamics-365-integration) 
 #### [Skilgreina aðstæðurnar viðfang til sjóðstreymis](/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Samstilla afurðir úr Finance and Operations við afurðir í Sales](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Samstilla lykla úr Sales við viðskiptavini í Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/accounts-template-mapping?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -739,7 +744,7 @@
 #### [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp bankareikninga fyrirtækis fyrir ISO20022-kreditfærslur](/dynamics365/unified-operations/financials/localizations/tasks/set-up-company-bank-accounts-iso20022-credit-transfers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp bankareikninga fyrirtækis fyrir ISO20022-beingreiðslur](/dynamics365/unified-operations/financials/localizations/tasks/set-up-company-bank-accounts-iso20022-direct-debits?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Setja upp greiðslur viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Setja upp greiðslur viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp viðskiptavini bankareikninga viðskiptavina fyrir ISO20022-beingreiðslur](/dynamics365/unified-operations/financials/localizations/tasks/set-up-bank-accounts-iso20022-direct-debits?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp skýrslugerð vegna ESB-sölulista](/dynamics365/unified-operations/financials/localizations/tasks/eur-00011-eu-sales-list-reporting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp greiðslumáta fyrir ISO20022-kreditfærslu](/dynamics365/unified-operations/financials/localizations/tasks/set-up-method-payment-iso20022-credit-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -804,21 +809,21 @@
 ###### [Innkaup og aðföng](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Reikningur](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ###### [Varðveisla greiðslu á reikningi lánardrottins](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Samþykkja og bóka víxla (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Samþykkja og bóka víxla](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Númeraröð reikninga og fylgiskjala](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Lyklayfirlit viðskiptavina og lánardrottna (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00002-customer-vendor-account-statements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Daglegur vaxtaútreikningur fyrir gjaldfallnar greiðslur og eingreiðsla reiknings og innheimtubréfs (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00018-daily-interest?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Lyklayfirlit viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/localizations/tasks/fr-00002-customer-vendor-account-statements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Daglegur vaxtaútreikningur fyrir gjaldfallnar greiðslur og eingreiðsla reiknings og innheimtubréfs](/dynamics365/unified-operations/financials/localizations/tasks/fr-00018-daily-interest?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Undanþáguafskriftir](/dynamics365/unified-operations/financials/localizations/emea-fra-derogatory-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Franskur víxill og eigin víxill (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Franskur víxill og eigin víxill](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [NAF-kóðar og Siret-númer](/dynamics365/unified-operations/financials/localizations/emea-fra-naf-codes-siret-numbers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Setja upp NAF-kóða og Siret-númer (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00003-naf-codes-siret-numbers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Setja upp NAF-kóða og Siret-númer](/dynamics365/unified-operations/financials/localizations/tasks/fr-00003-naf-codes-siret-numbers?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Sektir fyrir gjaldfallnar greiðslur viðskiptavina](/dynamics365/unified-operations/financials/localizations/emea-fra-apply-penalty-customer-payment-past-due?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Bóka víxlabók afsagðra víxla (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Bóka víxlabók endurútgefinna víxla (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Bóka víxlabók afsagðra víxla](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Bóka víxlabók endurútgefinna víxla](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Prentun endurheimtartexta eingreiðslu á reikning viðskiptavinar](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [BV/LA-afskriftir](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Setja upp greiðslumáta (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-setup-method-payment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Uppfæra greiðslumáta fyrir viðskiptavin (Frakkland)](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-update-method-payment-customer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Setja upp greiðsluhátt](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-setup-method-payment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Uppfæra greiðslumáta fyrir viðskiptavin](/dynamics365/unified-operations/financials/localizations/tasks/fr-00004-update-method-payment-customer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Þýskaland
 ##### [Viðbótarafskriftir kaupa](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Endurskoðunarskrá ](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -859,7 +864,7 @@
 ##### [VSK-yfirlitsupplýsingar](/dynamics365/unified-operations/financials/localizations/emea-lva-vat-statement-details?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Litháen
 ##### [Eignaviðhaldsyfirlit](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Mynda eignaflutning á milli vöruhúsaskjala (Litháen)](/dynamics365/unified-operations/financials/localizations/tasks/lt-00003-fixed-asset-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynda eignaflutning á milli vöruhúsaskjala](/dynamics365/unified-operations/financials/localizations/tasks/lt-00003-fixed-asset-transfer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [VSK-yfirlitsupplýsingar](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 #### Holland
@@ -879,7 +884,7 @@
 ##### [Framlenging afskráningarvirkni eignar](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Umbúðir sem hægt er að skila](/dynamics365/unified-operations/financials/localizations/emea-pol-returnable-packages?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [VSK-skýrslur](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-tax-reports?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Stöðluð endurskoðunarskrá (/dynamics365/unified-operations/financials/localizations/SAF)](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Stöðluð endurskoðunarskrá](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Veltu- og stöðuyfirlit](/dynamics365/unified-operations/financials/localizations/emea-pol-turnover-balances-statement?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Spánn
 ##### [Notkun staðgreiðsluafsláttar á reikningi](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -902,7 +907,6 @@
 ##### [Stofna kreditfærslu á uppgjörsafslætti](/dynamics365/unified-operations/financials/localizations/tasks/gb-00009-credit-note-settlement-discount?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Stofna innkaupapöntun sem inniheldur vörur sem falla undir bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/tasks/purchase-order-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Stofna sölupöntun sem inniheldur vörur sem falla undir bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-sales-order?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Ráða fyrirliggjandi starfsmann í gegnum ráðningarferli](/dynamics365/unified-operations/financials/localizations/tasks/hire-existing-employee-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Setja upp VSK-flokka vara fyrir bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Seta upp vöruflokka, reglur og færibreytur bakfærðra gjalda](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Setja upp VSK-flokka fyrir bakfærð gjöld](/dynamics365/unified-operations/financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1118,6 +1122,7 @@
 #### [Færa inn vinnukort verks](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-project-timesheets?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Færa inn upplýsingar um starfsmann](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enter-worker-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Ráða í gegnum ráðningarferli](/dynamics365/unified-operations/fin-and-ops/hr/tasks/hire-candidate-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Ráða fyrirliggjandi starfsmann í gegnum ráðningarferli](/dynamics365/unified-operations/fin-and-ops/hr/tasks/hire-existing-employee-through-recruiting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Auðkenna og beita verkfærum við val á umsækjendum](/dynamics365/unified-operations/fin-and-ops/hr/tasks/identify-deploy-candidate-selection-tools?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Lána starfmanni vörur](/dynamics365/unified-operations/fin-and-ops/hr/tasks/loan-item-worker?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Vinna með upplýsingar um meiðsl og veikindi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/maintain-employee-injury-illness-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1133,7 +1138,7 @@
 ## [Greind](/dynamics365/unified-operations/dev-itpro/analytics/information-access-reporting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Aðgangur að Power BI-efni](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-### [Útgáfa Power BI-efnis](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Power BI-efni](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Rauntölur bornar saman við fjárhagsáætlun](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Fríðindi](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Yfirlit yfir reiðufé](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
@@ -1162,6 +1167,7 @@
 
 ### Skjalaskýrslugerð og prentun
 #### [Yfirlit Document Reporting Services](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stilla SSRS fyrir staðbundna uppsetningu](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Prentun](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Nettengd prenttæki virkjuð](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Myndun, útgáfa og prentvalkostir fylgiskjala í staðbundinni uppsetningu](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1187,6 +1193,48 @@
 #### [Viðtökustaðir](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-destinations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uppsetning rafrænnar skýrslugerðar með Power BI](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri](/dynamics365/unified-operations/dev-itpro/analytics/generate-electronic-documents-update-application-data?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### Verkefni rafrænnar skýrslugerðar
+##### [Stofna veitanda skilgreiningar og merkja sem virkan fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Skilgreina hæði skilgreininga úr öðrum hlutum fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Skilgreina líkanavörpun og velja gagnaveitur](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna skilgreiningu fyrir myndun skýrslna á Microsoft Word-sniði fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna gagnalíkan fyrir sérstakt lén fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna skilgreiningu fyrir myndun skýrslna á OpenXML-sniði fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Skilgreina áfangastaði fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Víkka gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Búa til snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna skýrslu til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Keyra skýrslu sem notar fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Búa til skilgreiningu sniðs fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-configuration-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Búa til snið fyrir talningu og samlagningu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Skilgreina útreikninga fyrir talningu og samlagningu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Nota útreikninga til að fá frálag úr talningu og samlagningu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Keyra snið fyrir talningu og samlagningu í rafrænni skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Flytja inn skilgreiningar til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Breyta líkani og vörpun til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Breyta sniði til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Keyra snið til sem notar svæði sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Flytja inn skilgreiningu úr Lifecycle Services fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Gera skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (hluti 1) ](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Stjórna skilgreiningum á líkanavörpun fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Varpa hlutum stofnaða sniðsins á einingar gagnalíkans fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Varpa gagnalíkani á valda gagnagjafa fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Breyta sniði breytt með því að endurnýta Microsoft Excel-sniðmát fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Búa til nauðsynlegar skilgreiningar til að flytja inn gögn úr ytri skrá fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-required-configurations-import-data?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upgrade-format?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Greiningarverkfæri og myndræn framsetning
 #### [Greining, uppsafnaðar mælingar og KPI-líkanagerð](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1197,6 +1245,8 @@
 #### [Skýrsla samantektargagnaeininga](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Afkastavísisskýrsla](/dynamics365/unified-operations/dev-itpro/analytics/key-performance-indicators-report?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI-samþætting](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stofna Power BI-skýrslu og -yfirlit](/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-dashboard?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stofna Power BI-skýrslu með gögnum úr Finance and Operations](/dynamics365/unified-operations/dev-itpro/analytics/create-powerbi-report-data?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Skilgreina Power BI-samþættingu fyrir vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Samþætting Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Innfellt Power BI í vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1205,8 +1255,9 @@
 #### [Power BI bætt við vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI skýrslur festar við vinnusvæði](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Power BI-samþætting með einingaverslun](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Power BI-skýrslur skrifaðar og þeim dreift með einingaverslun](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Flytja út eigindir í eigin Azure SQL gagnagrunn](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Búa til greiningarskýrslur með Power BI Desktop](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Birta greiningarforrit í Power BI](/dynamics365/unified-operations/dev-itpro/analytics/publish-apps-powerbi?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
 ## Birgðastjórnun
@@ -1380,10 +1431,18 @@
 
 ## Farsímaforrit
 ### [Heimasíða fartækjaforrits](/dynamics365/unified-operations/dev-itpro/mobile-apps/Mobile-app-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Fartækjavinnusvæði: nýlega útgefið](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspaces-released?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Fartækjavinnusvæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspaces-released?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Skráasafn fyrirtækisins](/dynamics365/unified-operations/dev-itpro/mobile-apps/company-directory-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Kostnaðarstýring](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Útgjaldastýring](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Birgðir á lager](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Reikningssamþykktir](/dynamics365/unified-operations/dev-itpro/mobile-apps/invoice-approval-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Hópurinn minn](/dynamics365/unified-operations/dev-itpro/mobile-apps/manager-self-service-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Vinnustundafærsla verks](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Samþykkt innkaupapöntunar](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Sölupantanir](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Samstarf lánardrottna](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Fartækjavinnusvæði birt](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [X++ API fartækjavinnusvæðis](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-workspace-xpp-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Office-samþætting
 ### [Office-samþætting](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1396,8 +1455,7 @@
 ### [Úrræðaleit](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Pantanastjórnun
-### Innkaup og aðföng
-#### [Yfirlit yfir innkaup og aðföng](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Innkaup og aðföng](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Verkflæði innkaupa og aðfanga](/dynamics365/unified-operations/supply-chain/procurement/procurement-sourcing-workflows?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Innkaupareglur](/dynamics365/unified-operations/supply-chain/procurement/purchase-policies?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Innkaupavörulistar](/dynamics365/unified-operations/supply-chain/procurement/procurement-catalogs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1460,8 +1518,7 @@
 ##### [Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka](/dynamics365/unified-operations/supply-chain/procurement/tasks/submit-approve-project-budget-revision?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
-### Sala og markaðsstarf
-#### [Markaðssetning](/dynamics365/unified-operations/supply-chain/sales-marketing/overview-sales-marketing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Sala og markaðsstarf](/dynamics365/unified-operations/supply-chain/sales-marketing/overview-sales-marketing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Sölupantanir
 ##### [Pöntun lofað](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Valkostir afhendinga](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-alternatives?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1499,10 +1556,16 @@
 ## [Fyrirtækisstjórnun](/dynamics365/unified-operations/fin-and-ops/organization-administration/organization-administration-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Fyrirtæki og fyrirtækjastigveldi](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Skilgreining fyrirtækjastigveldis](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-organizational-hierarchy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stofna fyrirtækjastigveldi](/dynamics365/unified-operations/core/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stofna lögaðila](/dynamics365/unified-operations/core/organization-administration/tasks/create-legal-entity?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Stofna rekstrareiningu](/dynamics365/unified-operations/core/organization-administration/tasks/create-operating-unit?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Aðsetursbækur](/dynamics365/unified-operations/fin-and-ops/organization-administration/qa-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Altæk aðsetursbók](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Skilgreining altækra aðsetursbóka](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Skipuleggja altækar aðsetursbækur](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Skilgreina altæku aðsetursbókina](/dynamics365/unified-operations/core/organization-administration/tasks/configure-global-address-book?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Yfirlit yfir númeraröð](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Setja upp stakar númeraraðir](/dynamics365/unified-operations/core/organization-administration/tasks/set-up-number-sequences-individual-basis?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Setja upp númeraraðir með leiðsögn](/dynamics365/unified-operations/core/organization-administration/tasks/set-up-number-sequences-wizard?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Yfirlit yfir rafræna undirskrift](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Setja upp rafrænar undirskriftir](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Málastjórnunaryfirlit](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1529,6 +1592,9 @@
 ##### [Skilgreining hliðstæðrar greinar](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-parallel-branch-workflow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Skilgreining verkflæðiseiginleika](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-workflow-properties?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Skilgreining runuvinnslu skilaboðaferlis](/dynamics365/unified-operations/fin-and-ops/organization-administration/workflow-batch-job-critical?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Úthluta vinnuliðum í verkflæði](/dynamics365/unified-operations/core/organization-administration/tasks/delegate-work-items-workflow?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Skoða verkflæðissögu](/dynamics365/unified-operations/core/organization-administration/tasks/view-workflow-history?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Gera notendum kleift að fá tölvupóstskilaboð sem tengjast verkflæði](/dynamics365/unified-operations/core/organization-administration/tasks/users-receive-workflow-related-email-messages?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Skýrsla um verkflæðisgerðir](/dynamics365/unified-operations/fin-and-ops/organization-administration/workflow-types-report?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Framleiðsla
@@ -1766,6 +1832,7 @@
 ## Greiðslur
 ### [Greiðslumátar](/dynamics365/unified-operations/retail/payment-methods?toc=dynamics365/unified-operations/retail/toc.json)
 ### [Uppsetning kreditkorts, heimild og úthlutun](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=dynamics365/unified-operations/retail/toc.json)
+### [Skilgreina greiðslumáta fyrir sölustaði](/dynamics365/unified-operations/retail/cash-denominations?toc=dynamics365/unified-operations/retail/toc.json)
 ### [Algengar spurningar um greiðslur](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=dynamics365/unified-operations/retail/toc.json)
 
 ## Innkaupapantanir
@@ -1977,6 +2044,7 @@
 #### [Yfirlit Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Samþætting Retail SDK við kerfi með samfellda sjálfvirkni í smíð](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Dæmi um stækkunarhæfni Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=dynamics365/unified-operations/retail/toc.json)
+#### [Afgreiðslukassar fyrir Svíþjóð](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Dæmi um Retail POS samþættingu fyrir stjórntæki fyrir Svíþjóð](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Umbúðir Retail SDK](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=dynamics365/unified-operations/retail/toc.json)
 #### [Dæmi um Retail SDK ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=dynamics365/unified-operations/retail/toc.json)
@@ -1986,6 +2054,9 @@
 
 # [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
+## Hafist handa
+### [Kerfiskröfur og uppfærsluregla](/dynamics365/unified-operations/talent/talent-versions-update-policy?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
 ## Þróun mannauðsáætlunar
 ### [Vinnuafl skipulagt með notkun deilda, starfa og staða](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Uppsetning starfsþátta](/dynamics365/unified-operations/talent/create-job?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -1994,6 +2065,7 @@
 ### [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Algengar spurningar um aðgerðir starfsfólks](/dynamics365/unified-operations/talent/personnel-actions-faq?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Notkun verkflæðis við stjórnun starfsmannaupplýsinga](/dynamics365/unified-operations/talent/workflow-manage-employee-information?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Yfirlit yfir leyfi og fjarvistir](/dynamics365/unified-operations/talent/leave-and-absence-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Virkjun starfsmanna
 ### [Launafyrirkomulag](/dynamics365/unified-operations/talent/compensation-plans?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2023,7 +2095,8 @@
 
 # [Þróun og stjórnun með Unified Operations-verkvangi](/dynamics365/unified-operations/dev-itpro/index?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Kerfiskröfur](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Kerfiskröfur fyrir uppsetningu í skýi](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Kerfiskröfur fyrir uppsetningu á staðnum](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements-on-prem?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ## [Sýnigögn](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 
@@ -2277,6 +2350,116 @@
 #### [Flýtitilvísun verkskráningar](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Stofna fylgiskjöl eða þjálfun með verkskráningu](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
+## [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Hafist handa
+#### [Hafist handa](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-getting-started?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Atriði sem þarf að hafa í huga við högun og skipulag](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-architecture?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Grunnstilla fartækjavinnusvæði
+#### [Grunnstilla vinnusvæði með því að nota klasann SysAppWorkspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Staðfæra vinnusvæði á þjóni](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Auka öryggi fartækjavinnusvæða](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Sérstilla birtingu svæðis til að smella megi á það](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Gera svæði áskilið með því að nota vinnusvæðaklasa](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Fínstilla fartækjavinnusvæði
+#### [Birta talningu í svæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/display-count-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Þróunartilvísun þjónsmegin
+#### [Þróun þjónsmegin (vinnusvæði X++ API)](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-workspace-server-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+### Þróunartilvísun biðlaramegin
+#### [Yfirlit yfir API fyrir hönnun biðlaramegin](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [API biðlara](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/client-apis-reference?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Forrit](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-application?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Forrit](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ApplicationMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [aðal](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md#main)
+#### [Stýring](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Geymir](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControl](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControlDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [ContainerControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Svæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Svæði](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FieldDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FieldMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Skráaupphleðsla](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploader](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploaderDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [FileUploaderMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Flokkur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Flokkur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GroupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GroupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Tengill](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Tengill](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [HyperLinkDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [HyperLinkMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Mynd](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Mynd](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/ interfaces/view-model-control-image-iimage-iimagemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ImageStyleType](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md#imagestyletype)
+##### [Innsláttur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControl](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControlDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [InputControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [NumberSequenceConfig](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Listi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Listi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ListDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ListMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Lína](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Uppfletting](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Uppfletting](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [LookupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [LookupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Fjöluppfletting](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookup](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookupDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [MultiLookupMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Síðutengill](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLink](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLinkDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PageLinkMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hluti](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Hluti](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PartDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [PartMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Gildi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [GenericValue](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [Gildi](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ValueDesign](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+###### [ValueMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Stjórntæki](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ControlMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ControlType](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md#controltype)
+#### [Fresta](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [allt](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#all)
+##### [fresta](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#defer)
+##### [Frestað](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [hafna](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#reject)
+##### [leysa úr](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/defer.md#resolve)
+#### [Tilvik](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [EventHook](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [IEventListener](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md#ieventlistener)
+#### [Síða](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [CompleteEventArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Hönnun](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [NavigationArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [Síða](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageDataState](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagedatastate?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageLoadState](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pageloadstate?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageMetadata](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageOptions](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageSubmitArgs](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageTarget](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Þjónusta](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [AsyncService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [CacheService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [DataService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [ExpressionOperator](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md#expressionoperator)
+##### [MetadataService](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+##### [PageData](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+
+
 ## Útgáfa lausna með Lifecycle Services
 ### [Þróun og útgáfa](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Stig og útgáfa](/dynamics365/unified-operations/dev-itpro/lcs-solutions/marketing-content-lcs-solutions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2329,6 +2512,10 @@
 #### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### [Notkun á staðnum](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+#### [Innanhússyfirlit](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Vélbúnaðarþörf](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Búa til staðbundið verk](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Setja upp og nota staðbundið umhverfi](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Setja upp sérsniðinn kóða
 #### [Virkjanlegur pakki búinn til](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2340,8 +2527,8 @@
 #### [Greining – uppfærslugreiningarverkfærið notað til að áætla uppfærslu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-analyzer-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Greining – kóðauppfærsluþjónusta notuð til að meta vinnu við uppfærslu kóða](/dynamics365/unified-operations/dev-itpro/migration-upgrade/analyze-code-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Greining – uppsetning sandkassaumhverfis](/dynamics365/unified-operations/dev-itpro/migration-upgrade/analysis-sandbox?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Uppfærsla – gagnauppfærsla í þróunarumhverfi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/prepare-data-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Uppfærsla – gagnauppfærsluverkefni í AX 2012](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Uppfærsla – gagnauppfærsla í þróunarumhverfi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Uppfærsla – gagnauppfærsluverkefni í AX 2012](/dynamics365/unified-operations/dev-itpro/migration-upgrade/prepare-data-upgrade?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uppfærsla – gagnauppfærsla í sandkassaumhverfi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Villuleit – flutningsprófun](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Sannprófun – verk sem þarf að framkvæma eftir uppfærslu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2375,14 +2562,11 @@
 ### Bráðabætur og þjónusta
 #### [Niðurhal bráðabóta af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Uppsetning lýsigagnabráðabótar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### [Uppsetning tvíundarbráðabóta fyrir fjárhagsskýrslugerð](/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-financial-reporting-binary-hotfix?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Reporting Services lagfært í heildrænu umhverfi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/patch-reporting-service-environment?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ### Afskriftir
 #### [Úrelt API](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-apis?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Úreltir eiginleikar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-
 
 ## Kerfisstjórnun
 ### [Algengar spurningar um mánaðarlegar uppfærslur verkvangs](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2394,6 +2578,11 @@
 #### [Öryggi byggt á hlutverkum](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Öryggisskipulag](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Öryggisskýrslur](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Búa til nýja notendur](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Setja upp aðskilnað á skyldum](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/set-up-segregation-duties?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Auðkenna og leysa úr aðskilnaði á skyldum](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Úthluta notendum á öryggishlutverk](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+
 ### Runuvinnsla
 #### [Yfirlit runuvinnslu](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### [Yfirlit runuþjóns](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
@@ -2467,46 +2656,6 @@
 ##### [Uppsetning og keyrsla kerfisgreiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Uppfærslugreining](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Notkunarupplýsingar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-#### Verkfæri í Dynamics AX 2012 sem hlaða má niður
-##### [Notkunarleiðbeiningar fyrir kóðauppfærsluverkfæri (úreltar)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Verkfæri í Lifecycle Services sem hlaða má niður](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Prófun gagnaflutningsverkfæris (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Uppsetning](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Keyrsla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Innflutningur sýnigagna fyrir AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Öryggisþróunarverkfæri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Uppsetning](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Notkunarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Tilgreining eða breyting á heimildum aðgangsstaðar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Hugbúnaðarþróunarsett vegna afkastaviðmiða](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Ráðgjafarverkfæri fyrir öryggisuppfærslur](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-##### [Vitrænn gagnastjórnunarrammi (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Yfirlit](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Uppsetningarleiðbeiningar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Stillingar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Greining](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Hreinsun og safnvistun hluta](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Safnvistunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Hreinsunarhlutir búnir til](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Áætlun hreinsunar- og greiningarverkefna](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Skoðun hreinsunar- eða safnvistunarvinnsla](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Viðhald](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-###### [Úrræðaleit](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-## Stjórnun gagnagrunns
-### [Afritun gagnagrunns úr Azure SQL-gagnagrunni í SQL Server-umhverfi](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Afritun gagnagrunns af SQL-þjóni í SQL Server-umhverfi fyrir vinnslu](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Endurheimt gagnagrunns í öðru umhverfi en vinnsluumhverfi](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Útflutningur afrits af gagnagrunni fyrir endurheimt seinna meir](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-
-## Stuðningur
-### [Stuðningur fenginn fyrir Dynamics 365 for Finance and Operations, Enterprise og Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Skráning Premier-þjónustumiða](/dynamics365/unified-operations/dev-itpro/lifecycle-services/premier-support?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Sending beiðni til starfsfólks Dynamics Service Engineering](/dynamics365/unified-operations/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Uppsetning tæknilegs stuðnings fyrir Dynamics 365 for Finance and Operations, Enterprise](/dynamics365/unified-operations/dev-itpro/lifecycle-services/support-experience?toc=dynamics365/unified-operations/fin-and-ops/toc.json) 
-### [Gluggi fyrir algengar spurningar um áætlað viðhald](/dynamics365/unified-operations/dev-itpro/lifecycle-services/planned-maintenance-window-faq?toc=dynamics365/unified-operations/fin-and-ops/toc.json) 
-### [Aðgerðir og þjónusta í skýi](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-operations-servicing?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
-### [Stjórnun á upplifun stuðnings fyrir Finance and Operations](/dynamics365/unified-operations/dev-itpro/lifecycle-services/cloud-powered-support-lcs?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 #### Verkfæri í Dynamics AX 2012 sem hlaða má niður
 ##### [Notkunarleiðbeiningar fyrir kóðauppfærsluverkfæri (úreltar)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=dynamics365/unified-operations/fin-and-ops/toc.json)
 ##### [Verkfæri í Lifecycle Services sem hlaða má niður](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=dynamics365/unified-operations/fin-and-ops/toc.json)

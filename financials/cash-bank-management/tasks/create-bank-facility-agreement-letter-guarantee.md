@@ -1,0 +1,60 @@
+--- 
+title: "Stofna bankaaðstöðusamninga fyrir ábyrgðaryfirlýsingu"
+description: "Þetta verk stofnar bankaaðstöðusamning til að vinna ábyrgðarbréf."
+author: ShylaThompson
+manager: AnnBe
+ms.date: 11/10/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: leguo
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: bfdc149632f2d0b7bdb978e7c12e0afef6ba3734
+ms.contentlocale: is-is
+ms.lasthandoff: 07/27/2017
+
+---
+# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Stofna bankaaðstöðusamninga fyrir ábyrgðaryfirlýsingu
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+Þetta verk stofnar bankaaðstöðusamning til að vinna ábyrgðarbréf. Þetta verkefni notar USMF-sýnifyrirtækið. 
+
+
+## <a name="create-bank-facility-agreement"></a>Stofna bankaaðstöðusamningur
+1. Fara í Reiðufé og bankastjórnun > Ábyrgðaryfirlýsing > Bankaaðstöðusamningur.
+2. Smellið á „Nýtt“.
+3. Í svæðið Samningsnúmer er samningsnúmer banka fyrir færsluna fært inn.
+4. Í svæðið Bankareikningur er sá bankareikningur valinn fyrir hvern ábyrgðarbréf er opið. 
+5. Í listanum skal smella á tengilinn í valinni línu.
+6. Í reitnum upphafsdagur, færa inn dagsetningu og tíma.
+7. Í reitnum Lokadagur, færa inn dagsetningu og tíma.
+8. Víxla útvíkkun á liðnum Almennt.
+9. Smella á bæta Við línu.
+10. Í reitnum aðstöðugerð skal smella a fellilistahnappinn til að opna leitina.
+11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+12. Í listanum skal smella á tengilinn í valinni línu.
+13. Í reitinn Mörk færirðu inn umsamda upphæð sem samið var um við bankann.
+14. Smelltu á Vista.
+15. Víxla útvíkkun á hluta ábyrgðarbréfs.
+16. Veljið valkost í svæðinu Útreikningsaðferð.
+    * Færa inn útreikningsaðferð og prósentuupplýsingar fyrir framlegð í reiðufé, úthlutunarþóknun, framlengingarþóknun, Auka virðisþóknun eða Minnka virðisþóknun, eins og við á.   
+17. Smellið á „Vista“.
+
+## <a name="extend-bank-facility-agreement"></a>Framlengja bankaaðstöðusamning
+1. Smellt er á víkka út til að opna felligluggann.
+2. Færa inn gildi í svæðið nýtt samningsnúmer.
+3. Í reitnum Lokadagur, færa inn dagsetningu og tíma.
+4. Smellt er á Framlengja.
+5. Smellið á „Vista“.
+6. Lokið síðunni.
+
+

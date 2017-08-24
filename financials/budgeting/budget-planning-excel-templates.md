@@ -1,9 +1,9 @@
 ---
 title: "Sniðmát fjárhagsáætlunargerðar fyrir Excel"
 description: "Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: is-is
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ ms.lasthandoff: 07/27/2017
 
 Fjárhagsáætlunarskjal má skoða og breyta með einu eða fleiri útlitum. Hvert útlit getur haft an tengdar fjárhagsáætlunarskjal sniðmát til að skoða og breyta fjárhagsáætlungögnum í Excel vinnublað. Í þessu efnisatriði verður sniðmát fjárhagsáætlunarskjals myndað með fyrirliggjandi útlitsskilgreiningu. 
 
-Opnaðu **Fjárhagsáætlunarlista** (**Fjárhagsáætlun** &gt; **Fjárhagsáætlunargerðir**). Smellt er á **Ný** til að búa til nýtt fjárhagsáætlunarskjal. 
+1. Opnaðu **Fjárhagsáætlunarlista** (**Fjárhagsáætlun** &gt; **Fjárhagsáætlunargerðir**). 
+2. Smellt er á **Ný** til að búa til nýtt fjárhagsáætlunarskjal. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Fjárhagsáætlanalisti](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Notaðu **Bæta við** línuaðgerðna til að bæta við línum. Smellt er á **Útlit** til að skoða útlit skilgreining fjárhagsáætlunarskjals. 
+3. Notaðu **Bæta við** línuaðgerðna til að bæta við línum. Smellt er á **Útlit** til að skoða útlit skilgreining fjárhagsáætlunarskjals. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Fjárhagsáætlanir bæta við](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Hægt er að yfirfara grunnstillingu útlits og leiðrétta hana eftir þörfum. Farðu í **Sniðmát** &gt; **Mynda** til að stofna Excel-skrá fyrir þetta útlit. Eftir að sniðmát er myndað, skal fara í **Sniðmát** &gt; **Skoða** til að opna og yfirfara sniðmát fjárhagsáætlunarskjals. Hægt er að vista Excel-skrána á staðbundnu drifi. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Hægt er að yfirfara grunnstillingu útlits og leiðrétta hana eftir þörfum. 
+1. Farðu í **Sniðmát** &gt; **Mynda** til að stofna Excel-skrá fyrir þetta útlit. 
+2. Eftir að sniðmát er myndað, skal fara í **Sniðmát** &gt; **Skoða** til að opna og yfirfara sniðmát fjárhagsáætlunarskjals. Hægt er að vista Excel-skrána á staðbundnu drifi. 
+
+[![Vista sem](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Útlit fjárhagsáætlunarskjals getur ekki verið breytt eftir að Excel-sniðmát er tengt því. Til að breyta útlitinu þarf að eyða tengdri skrá Excel-sniðmáts og endurgera það. Þetta er áskilið til að halda svæðum í útliti og vinnublaði samstilltum. 
 
 Excel-sniðmátið mun innihalda allar einingar úr útliti fjárhagsáætlunarskjals, þar sem dálkurinn **Tiltækt í Vinnublað** dálkur er stilltur á rétt. Einingar sem skarast eru ekki leyfðar í Excel-sniðmáti. Til dæmis, ef útlitið inniheldur dálkana Request Q1, Request Q2, Request Q3, og Request Q4, og samtölubeiðnadálk sem sýnir samtölu allra 4 ársfjórðungslegra dálka, er aðeins ársfjórðungslegur dálkur eða samtöludálkur tiltækur til notkunar í Excel-sniðmáti. Excel-skráin getur ekki uppfært dálka sem skarast á meðan uppfærslu stendur, þar sem gögn í töflunni gætu úrelst og orðið ónákvæm.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Dæmi](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition og Microsoft Dynamics Office Add-in Data Connector.
@@ -63,7 +68,7 @@ Til að bæta við upplýsingum úr haus velurðu efstu línuna í Excel-skránn
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Í flipanum **Hönnun**,** **er smellt á svæðið **Bæta við** og svo valið **BudgetPlanHeader** sem gagnaveita einingar.
+Í flipanum **Hönnun** er smellt á svæðið **Bæta við** og svo valið **BudgetPlanHeader** sem gagnaveita einingar.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 

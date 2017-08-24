@@ -3,7 +3,7 @@ title: "Reikningsjöfnun viðskiptaskulda"
 description: "Reikningsjöfnun viðskiptaskulda felst í því að bera saman reikning lánardrottins, innkaupapöntun og upplýsingar á fylgiseðli."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Reikningar lánardrottna eru oft byggðir á innhreyfingarskjal afurða sem stan
 -   Færið inn reikningsupphæðir sem voru ekki með á upphaflega innkaupareikningnum svo að reikningsupplýsingarnar stemmi við reikninginn frá lánardrottninum. Hægt er að bera saman gjöld fyrir innkaupapöntunum við gjöld fyrir reikningum. Ef með þarf er hægt að bæta gjöldum við reikninga og úthluta á reikningslínur.
 -   Skoðið og samþykkið verðmisræmi milli nettó einingarverðs á reikningi og á innkaupapöntun. Hægt er að setja upp vikmarkaprósentur verðs fyrir lögaðila, lánardrottna og vörur. Ef línuverð á reikningi lánardrottins er ekki innan vikmarkanna er hægt að geyma reikninginn þar til hann er samþykktur til bókunar eða þar til leiðrétting kemur frá lánardrottni.
 
-Frekari upplýsingar eru í [Þríhliða jöfnunarreglur](three-way-matching-policies.md).
+Frekari upplýsingar eru í [Þríhliða jöfnunarreglur](three-way-matching-policies.md) og [Setja upp sannprófun reikningsjöfnunar viðskiptaskulda](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

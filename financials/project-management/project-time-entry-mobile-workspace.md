@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 2.  Veljið **Vinnustundafærsla**. Dagatalsdagsetningar fyrir gildandi viku eru sýndar.
 3.  Fyrir valda dagsetningu skal velja **Aðgerðir** &gt; **Ný færsla**.
 4.  Færið inn fjölda klukkustunda.
-5.  Veljið verkið fyrir vinnustundafærsluna. Listi sýnir verkin sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Veljið verkið fyrir vinnustundafærsluna. Listi sýnir verkin sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Veldu **Leit** ef verkið er ekki á listanum. Leita eftir nafni eða skipta yfir í leit til að leita eftir nafni eða viðskiptavini.
-7.  Veljið tegund. Listi sýnir flokkana sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Veljið tegund. Listi sýnir flokkana sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Veldu **Leit** ef flokkurinn er ekki á listanum. Leita eftir tegund eða skipta til að leita að nafni tegundar.
-9.  Velja verkþátt. Listi sýnir aðgerðirnar sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Velja verkþátt. Listi sýnir aðgerðirnar sem er hlaðið í forritið til notkunar utan nets. 50 atriðum er hlaðið sjálfgefið en þeirri tölu má breyta. Frekari upplýsingar má fá hér: [Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Veldu **Leit** ef aðgerðin er ekki á listanum. Leita eftir verkþáttarnúmer eða skipta í að leita eftir tilgangi.
 
 11. Velja línueiginleika.

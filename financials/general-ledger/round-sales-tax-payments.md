@@ -3,7 +3,7 @@ title: "Vsk-greiðslur og sléttunarreglur"
 description: "Þessi grein útskýrir hvernig uppsetning sléttunarreglu á Skattyfirvöld gengur fyrir sig og hvernig á að slétta virðisaukaskatt í ferlinu Jafna og bóka virðisaukaskatt."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ Eftirfarandi tafla sýnir hvernig upphæðin 98,765.43 er sléttuð með því a
 > [!NOTE]                                                                                  
 > Ef þú velur Eigin hagur er sléttun alltaf í hag lögaðila. 
 
-Frekari upplýsingar eru í [Yfirlit virðisaukaskatts](indirect-taxes-overview.md). 
-
+Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+- [Yfirlit virðisaukaskatts](indirect-taxes-overview.md)
+- [Stofna VSK-greiðslu](tasks/create-sales-tax-payment.md)
+- [Stofna sölufærslur á skjölum](tasks/create-sales-tax-transactions-documents.md)
+- [Skoða bókaðar VSK-færslur](tasks/view-posted-sales-tax-transactions.md)
 
 
 
