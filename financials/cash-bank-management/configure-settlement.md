@@ -1,7 +1,7 @@
 ---
 title: "Skilgreina uppgjör"
 description: "Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessi grein lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir"
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: is-is
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

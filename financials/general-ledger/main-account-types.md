@@ -1,7 +1,7 @@
 ---
 title: "Aðallykilgerðir"
 description: "Þessar aðallykilgerðir ákvarða hvernig aðallykill er notaður í bókhaldslyklum."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

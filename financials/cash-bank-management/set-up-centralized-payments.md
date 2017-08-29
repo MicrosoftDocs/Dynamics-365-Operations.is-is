@@ -1,7 +1,7 @@
 ---
 title: "Uppsetning miðstýrðra greiðslna"
 description: "Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

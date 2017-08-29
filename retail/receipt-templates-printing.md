@@ -1,7 +1,7 @@
 ---
 title: "Sniðmát kvittana og prentun"
 description: "Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuð skjámyndar sem hægt er að nota til að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: is-is
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Loka fjárhag í lok tímabils"
 description: "Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabillokun er gerð fyrir fjárhag."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

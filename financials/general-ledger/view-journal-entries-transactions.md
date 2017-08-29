@@ -1,7 +1,7 @@
 ---
 title: "Skoða færslubókarfærslur og færslur"
 description: "Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
