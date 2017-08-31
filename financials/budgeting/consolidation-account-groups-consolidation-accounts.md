@@ -1,7 +1,7 @@
 ---
 title: "Flokkar samstæðulykla og viðbótar samstæðulyklar"
 description: "Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótarsamstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Vinnusvæði bankakerfis"
 description: "Í þessu efnisatriði er að finna upplýsingar um vinnusvæði bankakerfis. Þetta vinnusvæði sýnir upplýsingar sem tengjast bankareikningum fyrirtækis og felur í sér samtöluyfirlit og greiningarsíðu. Samtöluyfirlitið sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Greiningarsíðan notar virkni Microsoft Power BI til að birta myndræna framsetningu á stöðu bankareikninga."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 05/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

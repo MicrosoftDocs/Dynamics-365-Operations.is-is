@@ -1,7 +1,7 @@
 ---
 title: "Árslokalokun"
 description: "Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

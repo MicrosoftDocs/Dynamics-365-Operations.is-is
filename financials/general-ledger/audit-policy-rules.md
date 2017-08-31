@@ -1,7 +1,7 @@
 ---
 title: "Reglur endurskoðunarstefnu"
 description: "Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reikninga lánardrottna og innkaupapantanir til að tryggja að þeir samræmast stefnureglur sem eru stofnaðar. Allar reglur sem eru tengd við endurskoðunarstefnu eru rekin í runuham, samkvæmt áætlun sem þú tilgreinir.  Hver stefnuregla er tilvik af stefnureglugerð. Fyrir hverja stefnureglugerð aðeins einn stefnureglu getur verið virk í einu."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

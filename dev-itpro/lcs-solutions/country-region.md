@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations inniheldur virkni fyrir lönd/svæði sem skráð eru í [Leiðbeiningum fyrir afurðaframboð](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
+Microsoft Dynamics 365 for Finance and Operations inniheldur virkni fyrir lönd/svæði sem skráð eru í [Alþjóðlegum leiðbeiningum fyrir afurðaframboð](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
 
-Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni fyrir lönd/svæði. 
+Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértækar lausnir, uppfærslur, áminningar og virkni fyrir lönd/svæði. 
 
 ## <a name="developing-localized-solutions"></a>Þróun staðbundinna lausna
 Eftirfarandi tilföng veita leiðbeiningar og upplýsingar sem geta gagnast þróunaraðilum og óháðum hugbúnaðarsölum við gerð sérstillinga fyrir land/svæði eða við gerð lausna fyrir lönd sem Microsoft styður ekki.
@@ -96,9 +96,13 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [CODA-bankayfirlit](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [Intervat-skattskýrsla](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [Uppsetning PRODCOM-skýrslu](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Afstemmingarskýrslur](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Brasilía
 
+-   [CIAP-eign](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Skilgreina skattabækur](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Útflutningur og innflutningur færslna fyrir fjárhagssamstæðu fyrir Brasilíu](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Skattabækur](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Frátökutákn í texta fjárhagsskjals](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Fjárhagsskjöl](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Stofnun færslubóka í rafrænu greiðsluskilaferli](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [NF-e-ferli](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Færibreytur fyrir lögaðila](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Meðhöndla rafrænar greiðslur fyrir Brasilíu](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Viðbótarfjárhagsskjöl fyrir innkaup](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Fjárhagsskjöl sem vísað er til](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Viðbótarfjárhagsskjöl fyrir sölu](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [Rafrænt fjárhagsskjal fyrir þjónustu](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [Uppsetning, innflutningur og staðfesting NF-e XML-skjala og DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Skatteigindir](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Skattgreiðslur](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [Skattar](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 - [Gengisleiðrétting](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Skráarsnið fyrir greiðslumáta](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Afskráning eigna fyrir Eistland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Innflutningur ISO20022 skráa](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Skýrslur birgðabókar](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Tölusetning reikninga og fylgiseðla fyrir Lettland og Litháen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 - [Yfirlit yfir SEPA-umboð fyrir beint debet](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Uppsetning greiðslna til viðskiptavina og lánardrottna](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Storno-bókhald](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Skattareglur](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [VSK-gengi](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 
 -   [Eignaviðhaldsyfirlit](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Tölusetning reikninga og fylgiseðla](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [VSK-yfirlitsupplýsingar](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Mexíkó
 
@@ -296,6 +305,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 -   [Eignaendurmatsflokkar](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [VSK innan bandalagsins](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Einskiptisviðskiptavinir](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [Prenta ávísanir með spænsku útliti](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [Valkostir spænsks eigin víxils](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Sölu- og innkaupaferlar](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Sérstakar færslur og opnunarskjöl](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 ### <a name="thailand"></a>Taíland
 
 -   [Skýrslur birgðaspjalds](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Staðgengils-/leiðréttingarskattreikningur fyrir Taíland](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Óinnleystur VSK](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Staðgreiðsluskattur](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,10 +333,11 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](/dynamics365/unified-operat
 
 ### <a name="united-states"></a>Bandaríkin
 
+-   [Eyðublað 1099 hjá hinu opinbera](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Staðfesting I-9 eyðublaðs](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [1099-árslokaskýrsla](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Laun](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
--   [Hið opinbera](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
+-   [Opinber geiri](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
 
 
 

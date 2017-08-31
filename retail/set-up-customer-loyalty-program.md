@@ -1,7 +1,7 @@
 ---
 title: Uppsetning vildarkerfis
 description: "Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: is-is
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

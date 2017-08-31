@@ -1,7 +1,7 @@
 ---
 title: "Brot á endurskoðun og tilvik"
 description: "Þessi grein útskýrir hvernig endurskoðunarmál eru stofnuð vegna brota á reglum endurskoðunarstefnu Þetta felur einnig í sér upplýsingar um mismunandi leiðir sem endurskoðunarstefnur nota dagsetningabil skjalavals."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 882f99beff256f96b6879c4af4c4ca8a6c4dbec3
 ms.contentlocale: is-is
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

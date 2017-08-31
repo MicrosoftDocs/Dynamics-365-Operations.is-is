@@ -1,7 +1,7 @@
 ---
 title: "Framleiðsluafköst - Power BI efni"
 description: "Þetta efnisatriði lýsir því hvað felst í Power BI efninu Framleiðsluafköst. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

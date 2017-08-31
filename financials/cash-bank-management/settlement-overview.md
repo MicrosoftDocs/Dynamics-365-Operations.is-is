@@ -1,7 +1,7 @@
 ---
 title: "Yfirlit Uppgjörs"
 description: "Þessi grein veitir almennar upplýsingar um uppgjörsferlið. Hún lýsir þeim færslutegundum sem hægt er að jafna, hvenær og hvernig hægt er að jafna færslur og niðurstöðum jöfnunarferlisins."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: is-is
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
