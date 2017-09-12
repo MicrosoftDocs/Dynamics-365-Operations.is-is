@@ -1,4 +1,4 @@
---- 
+---
 title: "Búa til nýtt vöruhúsaútlit"
 description: "Þessi verklýsing sýnir hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ ms.lasthandoff: 07/27/2017
 7. Víxla útvíkkun á liðnum heiti staðsetninga.
     * Valkostirnir í þessum hluta er að skilgreina sjálfgefið snið fyrir heiti staðsetningu. Í dæminu okkar mælt verður að innihalda gangnúmers, rekkanúmer og hillunúmer.  
 8. Stilltu valkostur hafa gang með á Já.
-9. Stilltu valkostur hafa rekka með á Já. 
+9. Stilltu valkostur hafa rekka með á Já.
 10. Færa inn gildi í svæðinu Snið fyrir rekka.
     * Til dæmis: -##  
 11. Stilltu valkostur hafa hillu með á Já.
@@ -74,5 +74,4 @@ ms.lasthandoff: 07/27/2017
 14. Smellt er á Ljúka.
 15. Lokið síðunni.
 16. Endurhlaðið síðuna.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Athuga framboð birgðaframboð"
 description: "Þessi ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 4. Smellt er á Sýna víddir.
 5. Smellið á „Í lagi“.
 6. Lokið síðunni.
-
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla. 
+Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla.
 
 Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskrifta (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
 
@@ -95,7 +95,4 @@ Færslubók getur aðeins einn notandi fengið aðgang að í einu. Ef nokkrir n
 
 ## <a name="posting-journal-lines"></a>Bókunarbókarlínur
 Hægt er að bóka færslubókarlínur sem eru stofnaðar hvenær sem er þar til þú hefur læst afurð frá aukalegum færslum. Gögnin sem færð er inn í færslubók geymast í færslubókinni, jafnvel þótt þú loka færslubókinni án þess að bóka línur.
-
-
-
 

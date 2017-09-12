@@ -1,7 +1,7 @@
 ---
 title: "Sameina birgðarunur"
 description: "Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu. 
+Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu.
 
 Þegar runur eru sameinaðar, geta útreikningar fínstillt einkenni og runueigindi sameinuðu rununnar. Eftir að upprunarunur eru valdar er hægt að endurskoða og breyta sameinaðri runu áður en hún er bókuð. Einnig er hægt að flytja runusameininguna í birgðabók til samþykktar. Síðan er hægt að taka birgðir frá eða bóka þær beint úr þeirri birgðabók. Þegar sameinuð runa er bókuð, eru birgðir leiðréttar fyrir upprunarunurnar uppruna og sameinuðu rununa.
 
@@ -142,7 +142,4 @@ Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að ég sameinaði atriði fyrir þyngd afurðar, hví sé ég ekki upplýsingar um þyngd afurðar í birgðabók?
 Hægt er að sameina runur af vörum í þyngd afurðar eins og öllum öðrum vörum. Hins vegar, eru upplýsingar um þyngd afurðar ekki birtar í birgðabók. Mælt er með því að staðfesta upplýsingar um þyngd afurðar áður en runusameiningin er flutt í birgðabók.
-
-
-
 

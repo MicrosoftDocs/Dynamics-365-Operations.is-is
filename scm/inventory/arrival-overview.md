@@ -1,7 +1,7 @@
 ---
 title: Komuyfirlit
 description: "Þetta efnisatriði veitir upplýsingar um komuyfirlitseiginleikann. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ ms.lasthandoff: 05/25/2017
 Síðan **Komuyfirlit** sýnir yfirlit yfir allar væntanlegar vörur. Hún sýnir einnig komur sem hægt er að ræsa byggt á yfirlitinu. Þetta efnisatriði fjallar um móttökuferlið.
 
 ## <a name="business-scenario"></a>Dæmi um fyrirtæki
-Íhugið eftirfarandi dæmi fyrir ferli á innleið. 
+Íhugið eftirfarandi dæmi fyrir ferli á innleið.
 
-[![Dæmi um fyrirtæki](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Dæmi um fyrirtæki](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, sem starfar í móttöku, vill fá að vita hvað muni berast viðkomandi dag. Á síðunni **Komuyfirlit** getur Sammy séð yfirlit yfir verk í gangi og gróft mati á fjölda, magni, þyngd, mismunandi gerðum o.s.frv. Síðar berast vörur á einu innhliði og Sammy fær lista yfir afhendingu. Á síðunni **Komuyfirlit** getur Sammy framkvæmt eftirfarandi verkefni:
 
@@ -69,7 +69,7 @@ Síðan **Komuyfirlit** veitir yfirlit yfir vörur sem von er á og áætluðum 
 
 Til að stofna sjálfkrafa komubækur á síðunni **Komuyfirlit** verður að skilgreina viðeigandi upplýsingar í reitarhópnum **Færslubók** svæðisflokkur á síðunni **Komuvalkostir**.
 
--   Velja þarf heiti færslubókar til að stofna nýja færslubók. 
+-   Velja þarf heiti færslubókar til að stofna nýja færslubók.
 
 [![Tilgreina heiti færslubókar](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Með því að velja margar línur á síðunni **Komuyfirlit** getur Sammy ræs
 
 ## <a name="summary"></a>Samantekt
 Síðan **Komuyfirlit** getur hjálpað vöruhússtjóra og starfskröftum að sjá yfirlit yfir væntanleg verk sem þarf að vinna sem hluta af vinnslu á innleið. Einnig er hægt að nota síðuna til að hefja komuferlið, til að aðstoða við að tryggja rakningu vara við fyrstu færslu í vöruhúsið.
-
-
-
 

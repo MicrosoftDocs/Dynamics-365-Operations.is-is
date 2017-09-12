@@ -1,4 +1,4 @@
---- 
+---
 title: "Stofna og vinna með birgðalæsingu"
 description: "Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 1. Fara í birgðastjórnun > Reglubundin verkefni >birgðalæsing.
 2. Smellið á „Nýtt“.
 3. Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.
-4. Veljið vöruna sem á að velja af listanum. 
+4. Veljið vöruna sem á að velja af listanum.
     * Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka. Ef verið er að nota USMF er hægt að velja vöru M9201.  
 5. Færið inn númer í reitnum „Magn“.
     * Ef verið er að nota vöru M9201, þarf að velja minna en 200.  
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 1. Smellið á Eyða.
 2. Smella á Já.
 3. Lokið síðunni.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Leiðrétta birgðastöðu í vöruhúsi (grunnvöruhús)"
 description: "Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðaleiðréttingabók til að leiðrétta geymslustig afurða í vöruhúsið."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 4. Smellið á „Í lagi“.
 5. Lokaðu skjámyndinni.
 6. Lokið síðunni.
-
 

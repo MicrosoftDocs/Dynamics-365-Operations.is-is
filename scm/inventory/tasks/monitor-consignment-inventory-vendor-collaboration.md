@@ -1,4 +1,4 @@
---- 
+---
 title: "Fylgjast með vörusendingabirgðum með samstarfi lánardrottna"
 description: "Þessi verklýsing sýnir hvernig á að nota Lánardrottnar í samstarfi til að sjá upplýsingar um birgðamagn sem hafa verið settar í vörusendingu hjá viðskiptavini."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ ms.lasthandoff: 07/27/2017
 ## <a name="view-on-hand-inventory"></a>Skoða lagerbirgðir
 1. Fara í Lánardrottnar í samstarfi > vörusendingabirgðir > vörusendingabirgðum á lager.
     * Síðan vörusendingabirgðir á lager sýnir birgðir sem þú átt í vöruhúsi viðskiptavinar. Hægt er að birta aðrar víddir, eins og svæði og vöruhús, með því að smella á flipann Birta víddir.   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Skilgreina birgðatalningarferli"
 description: "Þetta ferli fer í gegnum skilgreiningu á grunni birgðatalningabókar ferli með því að stofna talningarflokk og talningarbók."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. Á listanum, veljið talningarflokk
     * Hér er hægt að velja ákveðna talningarflokk sem nota á fyrir vöruna í tiltekið vöruhús sem var valið. Þegar talning fer fram í vöruhúsinu mun þessi talningarregla hnekkja almennri talningarreglu fyrir vöru.  
 8. Smellið á „Vista“.
-
 

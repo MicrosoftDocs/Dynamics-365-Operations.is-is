@@ -1,4 +1,4 @@
---- 
+---
 title: "Setja upp forsendur fyrir stjórnun"
 description: "Notið þetta ferli til að virkja sjórnunarferli ósamkvæmni."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Notið þetta ferli til að virkja sjórnunarferli ósamkvæmni. Ósamkvæmni l�
 3. Í reitinn biðgeymslusvæði skal slá inn gildi.
 4. Sláið inn gildi í reitnum „Lýsing“.
 5. Lokið síðunni.
-
 

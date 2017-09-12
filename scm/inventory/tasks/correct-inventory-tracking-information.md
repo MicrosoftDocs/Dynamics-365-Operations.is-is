@@ -1,4 +1,4 @@
---- 
+---
 title: "Leiðrétta birgðarakningarupplýsingar"
 description: "Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun á birgðaflutningabók til að leiðrétta rakningarupplýsingar birgða."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ ms.lasthandoff: 07/27/2017
 1. Smellið á birgðir.
 2. Smella á Færslur.
     * Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.   
-
 

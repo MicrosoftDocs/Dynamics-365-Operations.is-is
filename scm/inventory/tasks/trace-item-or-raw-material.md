@@ -1,4 +1,4 @@
---- 
+---
 title: "Rekja vöru eða hráefni"
 description: "Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. Í aðgerðasvæðinu er smellt á rekja.
 9. Smellt er á Sölupantanir sem voru sendar.
 10. Lokið síðunni.
-
 

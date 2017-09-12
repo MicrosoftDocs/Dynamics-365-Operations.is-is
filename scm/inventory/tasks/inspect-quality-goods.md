@@ -1,4 +1,4 @@
---- 
+---
 title: "Kanna vörugæði"
 description: "Þessi ferli sýnir hvernig meðhöndla á gæðapöntun."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 4. Smellið á Velja.
 5. Smellið á „Í lagi“.
 6. Lokið síðunni.
-
 

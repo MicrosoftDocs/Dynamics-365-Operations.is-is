@@ -1,7 +1,7 @@
 ---
 title: "Gæðastjórnunarferli"
 description: "Þessi grein gefur upplýsingar gæðastjórnunarferli fyrir ósamkvæmar afurðir. Það lýsir því hvernig hægt er að nota aðgerðir gæðaeftirlits, hvernig skuli skilgreina og vinna með ósamkvæmni og hvernig skuli meðhöndla leiðréttingar."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -56,7 +56,7 @@ Vöruprófun kallast venjulega gæðaeftirlit og notar gæðapantana . Með þv�
 -   Skrá niðurstöður prófana í gæðapöntun, bera niðurstöðurnar saman við viðunandi gæðastig og prenta greiningarskírteini sem sýnir niðurstöður prófunarinnar.
 
 ## <a name="nonconformance"></a>Ósamkvæmni
-Ósamkvæmni lýsir vöru með gæðavandamál. Ósamkvæmniferli gerir notendum kleift að stofna ósamkvæmnipöntun sem lýsir magni ósamkvæms efnis með uppruna vandans, gerð vandans og útskýringum. Hægt er að skilgreina flokkun á gerðum vanda fyrirfram fyrir greiningu á ósamkvæmu efni auðveldari. Einnig er hægt að prenta ósamkvæmnimerki og ósamkvæmniskýrslu til að veita leiðbeiningar um niðurskipan fyrir ósamkvæmu efni. Til dæmis, gætu merki og skýrslu gefið til kynna **ónýtanlegt** eða **Takmarkaðar notkun**. 
+Ósamkvæmni lýsir vöru með gæðavandamál. Ósamkvæmniferli gerir notendum kleift að stofna ósamkvæmnipöntun sem lýsir magni ósamkvæms efnis með uppruna vandans, gerð vandans og útskýringum. Hægt er að skilgreina flokkun á gerðum vanda fyrirfram fyrir greiningu á ósamkvæmu efni auðveldari. Einnig er hægt að prenta ósamkvæmnimerki og ósamkvæmniskýrslu til að veita leiðbeiningar um niðurskipan fyrir ósamkvæmu efni. Til dæmis, gætu merki og skýrslu gefið til kynna **ónýtanlegt** eða **Takmarkaðar notkun**.
 
 Í eftirfarandi töflu er listi yfir sex sjálfgefnar gerðir ósamkvæmni og lýsir upplýsingar sem verður að vera skráð fyrir hverja tegund.
 
@@ -69,23 +69,23 @@ Vöruprófun kallast venjulega gæðaeftirlit og notar gæðapantana . Með þv�
 | Innra              | Gæðapöntunarnúmer eða lotunúmer gæðapöntunarfærslu. Til dæmis gæti ósamkvæmni tengst prófunum sem eru framkvæmd sem hluti af gæðapöntun eða áhyggjum starfsmanns um gæði vöru.     |
 | Framleiðsla aukaafurðar | Ósamkvæmni aukaafurðar framleiðslupöntunar sem er tengd framleiðslupöntun runu.                                                                                                                                                    |
 
-Ósamkvæmni er tengd við gerð vandamáls. Gerðir vandamála eru skilgreindar í á **gerðir Vandamála** síðuna þar sem tilgreint er hvaða gerðir vandamála getur verið tengt við hverja gerð ósamkvæmni. Til dæmis gætu gerðir vandamála fyrir ósamkvæmni fyrir gerðina **Þjónustubeiðni** endurspeglað flokkun fyrir kvartanir viðskiptavina, en hinsvegar gerðir ósamkvæmni fyrir gerðina **Innra** gætu staðið fyrir flokkun á gallakóðum. 
+Ósamkvæmni er tengd við gerð vandamáls. Gerðir vandamála eru skilgreindar í á **gerðir Vandamála** síðuna þar sem tilgreint er hvaða gerðir vandamála getur verið tengt við hverja gerð ósamkvæmni. Til dæmis gætu gerðir vandamála fyrir ósamkvæmni fyrir gerðina **Þjónustubeiðni** endurspeglað flokkun fyrir kvartanir viðskiptavina, en hinsvegar gerðir ósamkvæmni fyrir gerðina **Innra** gætu staðið fyrir flokkun á gallakóðum.
 
-Þegar stofnuð er ný ósamkvæmni, þú Velja gerð ósamkvæmni og gerð vandamáls. Upphafleg samþykktarstaðan er **Nýtt**, sem stendur fyrir beiðni um aðgerðina. Næsta skref er að breyta samþykktarstöðu í **samþykkt** eða **hafnað** til að gefa til kynna hvort bregðast eigi við ósamkvæmninni eða ekki. Einnig er hægt að loka ósamkvæmni (með því að velja sérstakur gátreitur ) til að gefa til kynna að búið sé að ljúka henni eða opna ósamkvæmni aftur til að gefa til kynna að þörf sé á frekari athugun. 
+Þegar stofnuð er ný ósamkvæmni, þú Velja gerð ósamkvæmni og gerð vandamáls. Upphafleg samþykktarstaðan er **Nýtt**, sem stendur fyrir beiðni um aðgerðina. Næsta skref er að breyta samþykktarstöðu í **samþykkt** eða **hafnað** til að gefa til kynna hvort bregðast eigi við ósamkvæmninni eða ekki. Einnig er hægt að loka ósamkvæmni (með því að velja sérstakur gátreitur ) til að gefa til kynna að búið sé að ljúka henni eða opna ósamkvæmni aftur til að gefa til kynna að þörf sé á frekari athugun.
 
-Hægt að færa inn athugasemdir fyrir ósamkvæmni með því að tengja skjal. Er góð hugmynd að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með því að nota í **Skjalagerð** síðu. Síðan er hægt að nota í **skýrsluuppsetningu** síðu til að skilgreina hvort athugasemdir fyrir þessa skjalagerð ætti að prenta á ósamkvæmnimerki og ósamkvæmniskýrslu. Hægt er að nota ósamkvæmniskýrslu og -merki til að auðvelda efnisráðstöfun. Hægt er að mynda skýrslur og merki með byggt á valskilyrðum, sem eru tengd ósamkvæmni. Meðal skilyrðanna eru númer ósamkvæmni, vöru, viðskiptavini, lánardrottna og stöðu. 
+Hægt að færa inn athugasemdir fyrir ósamkvæmni með því að tengja skjal. Er góð hugmynd að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með því að nota í **Skjalagerð** síðu. Síðan er hægt að nota í **skýrsluuppsetningu** síðu til að skilgreina hvort athugasemdir fyrir þessa skjalagerð ætti að prenta á ósamkvæmnimerki og ósamkvæmniskýrslu. Hægt er að nota ósamkvæmniskýrslu og -merki til að auðvelda efnisráðstöfun. Hægt er að mynda skýrslur og merki með byggt á valskilyrðum, sem eru tengd ósamkvæmni. Meðal skilyrðanna eru númer ósamkvæmni, vöru, viðskiptavini, lánardrottna og stöðu.
 
 Ósamkvæmniskýrslan birtir við númer ósamkvæmni, vöru og gerð vandamáls. Eftir uppsetningarreglu skýrslu, getur skýrslan einnig birt tengdar athugasemdir um ósamkvæmni. Ósamkvæmnimerkið birtir álíka upplýsingar, og innifela einnig biðgeymslusvæðið og -gerðina (til dæmis **takmarkaða notkun** eða **ónothæft**) sem er úthlutuð ósamkvæmninni til að stýra ráðstöfun gallaða efnisins.
 
 ## <a name="approved-nonconformance"></a>Samþykkt ósamkvæmni
-Hægt er að velja að skilgreina eina eða fleiri tengdar aðgerðir fyrir samþykkta ósamkvæmni. Tengd aðgerð lýsir verkinu sem ætti að framkvæma og inniheldur lista yfir aðgerðir gæðapöntun sem hefur verið skilgreind og lýsandi texti um ástæðuna fyrir verkinu. Eftir að aðgerð er skilgreind er hægt að velja að skilgreina mismunandi gjöldin, vörurnar og vinnustundir vinnuskýrslunnar sem þarf til að framkvæma verkið. Útreiknaði kostnaðurinn er sýndur fyrir tengdu aðgerðina og útreiknaði heildarkostnaðurinn er sýndur fyrir ósamræmið. Útreiknaður kostnaður og undirliggjandi upplýsingarnar (um vörur, vinnustundir og ýmis gjöld) eru tilvísunarupplýsingar, sem eru aðeins notaðar í gæðastjórnun. 
+Hægt er að velja að skilgreina eina eða fleiri tengdar aðgerðir fyrir samþykkta ósamkvæmni. Tengd aðgerð lýsir verkinu sem ætti að framkvæma og inniheldur lista yfir aðgerðir gæðapöntun sem hefur verið skilgreind og lýsandi texti um ástæðuna fyrir verkinu. Eftir að aðgerð er skilgreind er hægt að velja að skilgreina mismunandi gjöldin, vörurnar og vinnustundir vinnuskýrslunnar sem þarf til að framkvæma verkið. Útreiknaði kostnaðurinn er sýndur fyrir tengdu aðgerðina og útreiknaði heildarkostnaðurinn er sýndur fyrir ósamræmið. Útreiknaður kostnaður og undirliggjandi upplýsingarnar (um vörur, vinnustundir og ýmis gjöld) eru tilvísunarupplýsingar, sem eru aðeins notaðar í gæðastjórnun.
 
-Hægt er að velja að stofna gæðapöntun úr ósamkvæmni með því að gera fyrst fyrirspurn fyrir gæðapantanir, og svo með því að stofna nýja gæðapöntun. Til dæmis gæti gæðapöntun gefið til kynna þörf á að prófa (eða endurprófa) gallaða efnið. Nýlega stofnaða gæðapöntunin birtir tengslin við uppruna ósamkvæmni. 
+Hægt er að velja að stofna gæðapöntun úr ósamkvæmni með því að gera fyrst fyrirspurn fyrir gæðapantanir, og svo með því að stofna nýja gæðapöntun. Til dæmis gæti gæðapöntun gefið til kynna þörf á að prófa (eða endurprófa) gallaða efnið. Nýlega stofnaða gæðapöntunin birtir tengslin við uppruna ósamkvæmni.
 
 Hægt er að velja að tengja eitt ósamræmi við annað eða stofna nýtt ósamræmi úr ósamræmi sem er til fyrir. Til dæmis gætu tengslin endurspeglað innri tengsl á milli gæðavandamála.
 
 ## <a name="correction-handling"></a>Leiðréttingarmeðhöndlun
-**Leiðréttingar** síðu gerir kleift að búa til lista yfir ósamkvæmi sem þarf að leiðrétta . Hver leiðréttingarvara er tengd gerð greiningar sem orsakaði að vandamál fundust. Síðan **Leiðréttingar** inniheldur einnig upplýsingar um hver skuli framkvæma leiðréttingaraðgerðar og hvenær. Hægt er að lýsa vandamálinu í nákvæmni og leiðréttingaraðgerðina sem krafist er með því að tengja skjal við leiðréttinguna. Eftir að búið er að taka á ósamkvæmi eða leiðrétta , er leiðréttingarvöru "lokað" með því að velja á **Lokið** valkost. Einnig er hægt að tilgreina að lausnina var skammtímalausn. 
+**Leiðréttingar** síðu gerir kleift að búa til lista yfir ósamkvæmi sem þarf að leiðrétta . Hver leiðréttingarvara er tengd gerð greiningar sem orsakaði að vandamál fundust. Síðan **Leiðréttingar** inniheldur einnig upplýsingar um hver skuli framkvæma leiðréttingaraðgerðar og hvenær. Hægt er að lýsa vandamálinu í nákvæmni og leiðréttingaraðgerðina sem krafist er með því að tengja skjal við leiðréttinguna. Eftir að búið er að taka á ósamkvæmi eða leiðrétta , er leiðréttingarvöru "lokað" með því að velja á **Lokið** valkost. Einnig er hægt að tilgreina að lausnina var skammtímalausn.
 
 Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með því að nota síðuna **Skjalagerð**. Síðan er hægt að nota síðuna **Skýrsluuppsetning** síðu til að skilgreina hvort athugasemdir fyrir þessa skjalagerð ætti að prenta á leiðréttingarskýrslu. Prentuð leiðréttingingarskýrsla birtir upplýsingar um ósamkvæmnina og tengdar athugasemdir um ósamkvæmni. Skýrslan inniheldur einnig leiðréttingarupplýsingar, eins og gerð greiningar og tengdar athugasemdir um leiðréttingar.
 
@@ -103,7 +103,4 @@ Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með þv
 [Setja upp gæðapantanir (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
 [Skoða gæði vara (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

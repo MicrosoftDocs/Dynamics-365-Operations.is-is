@@ -1,4 +1,4 @@
---- 
+---
 title: "Stofna og vinna úr samræmi"
 description: "Notaðu þetta ferli til að framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Notaðu þetta ferli til að framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun. Hægt er að keyra þessa skráningu í sýnifyrirtækinu USMF og nota ráðlögð gildi. Þetta ferli er yfirleitt framkvæmt af starfsmanni á sviði gæða.  Frumskilyrði er að keyra verkskráninguna ‚Skoða gæði vara‘. Til að keyra samþykki á ósamkvæmi verður notandi sem keyrir verkskráninguna að hafa „Heiti“ úthlutað á síðunni Notendur. Til að nota athugasemdir skjals verður notandinn einnig að hafa skjalaafgreiðslu virkjaða í valkostum notanda. 
+Notaðu þetta ferli til að framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun. Hægt er að keyra þessa skráningu í sýnifyrirtækinu USMF og nota ráðlögð gildi. Þetta ferli er yfirleitt framkvæmt af starfsmanni á sviði gæða.  Frumskilyrði er að keyra verkskráninguna ‚Skoða gæði vara‘. Til að keyra samþykki á ósamkvæmi verður notandi sem keyrir verkskráninguna að hafa „Heiti“ úthlutað á síðunni Notendur. Til að nota athugasemdir skjals verður notandinn einnig að hafa skjalaafgreiðslu virkjaða í valkostum notanda.
 
 
 ## <a name="select-a-quality-order"></a>Velja gæðapöntun.
@@ -78,5 +78,4 @@ Notaðu þetta ferli til að framkvæma stjórnun ósamkvæmis, samkvæmt fyrirl
 3. Smella á Já.
 4. Lokið síðunni.
 5. Lokið síðunni.
-
 

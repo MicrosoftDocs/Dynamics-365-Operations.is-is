@@ -1,4 +1,4 @@
---- 
+---
 title: "Stofna áfyllingarpöntun vörusendingar"
 description: "Þessi verklýsing sýnir hvernig skal stofna áfyllingarpöntun vörusendingar þar sem hægt er að rekja áætlaða afhendingu frá lánardrottni inn í vörusendingabirgðir."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/28/2017
 ## <a name="receive-items"></a>Taka á móti vörum
 1. Smellið á „Innhreyfingarskjal“.
 2. Sláið inn gildi í reitinn Ytra innhreyfingarskjal afurða.
-3. Í reitinn magn skal slá inn númer sem er lægra en númerið sem er sýnt þar. 
+3. Í reitinn magn skal slá inn númer sem er lægra en númerið sem er sýnt þar.
 4. Smellið á „Í lagi“.
 
 ## <a name="check-the-on-hand-inventory"></a>Athuga birgðir á lager.
@@ -70,5 +70,4 @@ ms.lasthandoff: 07/28/2017
     * Vörur sem hafa verið mótteknar sem vörusendingabirgðir í eigu lánardrottins eru tiltæk á lager. Eftirstandandi magn á áfyllingarpöntun vörusendingar er birt í reitnum Samtals pantað.  
 4. Lokið síðunni.
 5. Smellið á „Loka“.
-
 

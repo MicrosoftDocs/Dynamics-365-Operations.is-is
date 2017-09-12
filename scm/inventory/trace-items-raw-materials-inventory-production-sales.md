@@ -1,7 +1,7 @@
 ---
 title: "Rakning á vörum og hráefni í birgðum, framleiðslu og sölu"
 description: "Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla. 
+Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
 
 Aðgerðin vörurakning er tiltæk á síðunni **Vörurakning**. Eftirfarandi kaflar lýsa því hvernig hægt er að nota vörurakningu og hvaða valkostir og takmarkanir eru.
 
@@ -142,7 +142,4 @@ Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Get ég rakið aukaafurðir og hliðarafurðir?
 Hægt er að rekja aukaafurðir, en ekki er hægt að rekja hliðarafurð því rakningarvíddum er yfirleitt ekki úthlutað á þær. Þegar vara er rakin, eru allar tengdar aukaafurðir teknar með í rakningarupplýsingunum. Hnútur sem inniheldur aukaafurð inniheldur orðið "aukaafurð" í upplýsingar. Einnig er hægt að skoða upplýsingar um aukaafurð með því að velja hnútinn í rakningarupplýsingunum, og smella svo á flýtiflipann **Framleiðsla**.
-
-
-
 

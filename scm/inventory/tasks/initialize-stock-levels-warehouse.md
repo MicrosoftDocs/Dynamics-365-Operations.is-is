@@ -1,4 +1,4 @@
---- 
+---
 title: "Frumstilla birgðastöðu í vöruhúsi"
 description: "Þetta ferli sýnir hvernig á að uppfæra lagerbirgðir handvirkt með því að nota færslubók birgðahreyfinga."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 24. Smellið á „Í lagi“.
 25. Lokið síðunni.
 26. Lokið síðunni.
-
 

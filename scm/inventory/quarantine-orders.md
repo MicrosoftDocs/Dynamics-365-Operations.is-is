@@ -1,7 +1,7 @@
 ---
 title: "Biðgeymslupantanir"
 description: "Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum. 
+Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum.
 
 Hægt er að nota Biðgeymslupantanir til að loka birgðum. Til dæmis gætir þú viljað láta vörur í biðgeymslu vegna gæðaeftirlits. Birgðir sem hafa verið settar í biðgeymslu eru fluttar í biðgeymsluvöruhús. **Athugasemd:** Ef verið er að nota ítarlegt vöruhúsakerfisferli (í vöruhúsakerfi) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
 
@@ -69,7 +69,4 @@ Hægt er að rýra birgðir sem hluta af biðgeymslupöntunarferlinu. Við vinns
 --------
 
 [Birgðalæsing](inventory-blocking.md)
-
-
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Setja upp gæðapantanir"
 description: "Þessi verklýsing sýnir hvernig á að virkja gæðastjórnunarferli þar sem innhreyfingar birgða verða skoðaðar strax eftir komuskráningu."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ ms.lasthandoff: 07/27/2017
 15. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 16. Smellið á „Vista“.
 17. Lokið síðunni.
-
 
