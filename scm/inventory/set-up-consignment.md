@@ -1,7 +1,7 @@
 ---
 title: "Uppsetning vörusendingar"
 description: "Í þessu efnisatriði er útskýrt hvernig á að skilgreina aðgerðir vörusendingabirgða á innleið."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,49 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventJournalOwnershipChange, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220804
 ms.assetid: 88822f78-4de5-462c-a55f-1f766c572719
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b8692a3033cd665402721ea18ba8c28557c049de
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 41c1b8de0aae24efb30a670d3109b6d65e6abd9c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="set-up-consignment"></a>Uppsetning vörusendingar
+# <a name="set-up-consignment"></a><span data-ttu-id="7b6ee-103">Uppsetning vörusendingar</span><span class="sxs-lookup"><span data-stu-id="7b6ee-103">Set up consignment</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Í þessu efnisatriði er útskýrt hvernig á að skilgreina aðgerðir vörusendingabirgða á innleið. 
+<span data-ttu-id="7b6ee-104">Í þessu efnisatriði er útskýrt hvernig á að skilgreina aðgerðir vörusendingabirgða á innleið.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-104">This topic explains how to configure inbound consignment inventory operations.</span></span>
 
-Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efnisatriði lýsir uppsetningu sem þarf til að virkja ferli vörusendingar. Frekari upplýsingar um hvernig ferli vörusendinga eru í [vörusending](consignment.md).
+<span data-ttu-id="7b6ee-105">Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-105">Consignment inventory is inventory that’s owned by a vendor, but stored at your site.</span></span> <span data-ttu-id="7b6ee-106">Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-106">When you’re ready to consume or use the inventory, you take over the ownership of the inventory.</span></span> <span data-ttu-id="7b6ee-107">Þetta efnisatriði lýsir uppsetningu sem þarf til að virkja ferli vörusendingar.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-107">This topic describes the setup needed to enable consignment processes.</span></span> <span data-ttu-id="7b6ee-108">Frekari upplýsingar um hvernig ferli vörusendinga eru í [vörusending](consignment.md).</span><span class="sxs-lookup"><span data-stu-id="7b6ee-108">For more information about consignment processes, see [Consignment](consignment.md).</span></span>
 
-## <a name="inventory-owners"></a>Birgðaeigendur
-Til að skrá efnislegar vörusendingabirgðir á innleið, þarf að skilgreina lánardrottinseiganda. Þetta er gert á **eigandi birgða** síðuna. Þegar velja **lánardrottnalykil** myndar þetta sjálfgefin gildi fyrir **Heiti** og **Eigandi** svæðum. Gildið í **Eiganda** svæði verður sýnilegt til lánadrottna, svo þú gætir viljað breyta þeim, ef nöfn á lánardrottnalykill eru ekki auðvelt fyrir utanaðkomandi fólki til að bera kennsl á. Mögulegt er að breyta á **Eigandi** svæði, en aðeins fram að þeim punkti þegar vista á **eigandi birgða** færslan. Í **Heiti** svæði er fyllt út með nafn þess aðila sem lánardrottnalykill er tengd við, og þessu er ekki hægt að breyta. 
+## <a name="inventory-owners"></a><span data-ttu-id="7b6ee-109">Birgðaeigendur</span><span class="sxs-lookup"><span data-stu-id="7b6ee-109">Inventory owners</span></span>
+<span data-ttu-id="7b6ee-110">Til að skrá efnislegar vörusendingabirgðir á innleið, þarf að skilgreina lánardrottinseiganda.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-110">In order to record physical inbound consignment inventory, you need to define a vendor owner.</span></span> <span data-ttu-id="7b6ee-111">Þetta er gert á **eigandi birgða** síðuna.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-111">This is done on the **Inventory owner** page.</span></span> <span data-ttu-id="7b6ee-112">Þegar velja **lánardrottnalykil** myndar þetta sjálfgefin gildi fyrir **Heiti** og **Eigandi** svæðum.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-112">When you select a **Vendor account** this generates default values for the **Name** and **Owner** fields.</span></span> <span data-ttu-id="7b6ee-113">Gildið í **Eiganda** svæði verður sýnilegt til lánadrottna, svo þú gætir viljað breyta þeim, ef nöfn á lánardrottnalykill eru ekki auðvelt fyrir utanaðkomandi fólki til að bera kennsl á.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-113">The value in the **Owner** field will be visible to the vendor, so you might want to change it if your vendor account names aren’t easy for external people to recognize.</span></span> <span data-ttu-id="7b6ee-114">Mögulegt er að breyta á **Eigandi** svæði, en aðeins fram að þeim punkti þegar vista á **eigandi birgða** færslan.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-114">It’s possible to edit the **Owner** field, but only up to the point when you save the **Inventory owner** record.</span></span> <span data-ttu-id="7b6ee-115">Í **Heiti** svæði er fyllt út með nafn þess aðila sem lánardrottnalykill er tengd við, og þessu er ekki hægt að breyta.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-115">The **Name** field is populated with the name of the party that the vendor account is associated with, and this cannot be changed.</span></span>
 
-[![birgðaeigendur](./media/inventory-owners.png)](./media/inventory-owners.png)
+<span data-ttu-id="7b6ee-116">[![birgðaeigendur](./media/inventory-owners.png)](./media/inventory-owners.png)</span><span class="sxs-lookup"><span data-stu-id="7b6ee-116">[![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)</span></span>
 
-## <a name="tracking-dimension-group"></a>Rakningarvíddarflokkur
-Vörur sem nota á í ferli vörusendingar verður að tengjast við **rakningarvíddarflokkur** þar sem víddin **Eigandi** er stillt á **Virk**. Vídd eiganda hefur ávallt **Efnislegar birgðir** og **Fjárhagslegar birgðir** valkostir valinn. **Þekjuáætlun eftir vídd** er aldrei valin. 
+## <a name="tracking-dimension-group"></a><span data-ttu-id="7b6ee-117">Rakningarvíddarflokkur</span><span class="sxs-lookup"><span data-stu-id="7b6ee-117">Tracking dimension group</span></span>
+<span data-ttu-id="7b6ee-118">Vörur sem nota á í ferli vörusendingar verður að tengjast við **rakningarvíddarflokkur** þar sem víddin **Eigandi** er stillt á **Virk**.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-118">Items that are going to be used in consignment processes must be associated with a **Tracking dimension group** where the **Owner** dimension is set to **Active**.</span></span> <span data-ttu-id="7b6ee-119">Vídd eiganda hefur ávallt **Efnislegar birgðir** og **Fjárhagslegar birgðir** valkostir valinn.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-119">The Owner dimension always has the **Physical inventory** and **Financial inventory** options selected.</span></span> <span data-ttu-id="7b6ee-120">**Þekjuáætlun eftir vídd** er aldrei valin.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-120">The **Coverage plan by dimension** is never selected.</span></span>
 
-[![rakningarvíddarflokkur](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+<span data-ttu-id="7b6ee-121">[![rakningarvíddarflokkur](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)</span><span class="sxs-lookup"><span data-stu-id="7b6ee-121">[![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)</span></span>
 
-## <a name="inventory-ownership-change-journal"></a>Færslubók eignarhaldsbreytingar birgða
-**Birgðafærslubók fyrir breytingu á eignarhaldi** er notuð til að rekja flutninga á eignarhaldi vörusendingabirgða úr lánardrottni í núverandi lögaðila sem neytir þess. Eins og öllum birgðabók verður það að vera tilgreindur með heiti birgðabókar. Þessi nöfn eru stofnaðar á **heiti birgðabóka** síðuna og **færslubókargerð** verður að vera stillt á **breytingu á Eignarhaldi**. 
+## <a name="inventory-ownership-change-journal"></a><span data-ttu-id="7b6ee-122">Færslubók eignarhaldsbreytingar birgða</span><span class="sxs-lookup"><span data-stu-id="7b6ee-122">Inventory ownership change journal</span></span>
+<span data-ttu-id="7b6ee-123">**Birgðafærslubók fyrir breytingu á eignarhaldi** er notuð til að rekja flutninga á eignarhaldi vörusendingabirgða úr lánardrottni í núverandi lögaðila sem neytir þess.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-123">The **Inventory ownership change** journal is used to record the transfer of ownership of consignment inventory from the vendor to the legal entity that’s consuming it.</span></span> <span data-ttu-id="7b6ee-124">Eins og öllum birgðabók verður það að vera tilgreindur með heiti birgðabókar.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-124">Like any inventory journal, it must be identified with an Inventory journal name.</span></span> <span data-ttu-id="7b6ee-125">Þessi nöfn eru stofnaðar á **heiti birgðabóka** síðuna og **færslubókargerð** verður að vera stillt á **breytingu á Eignarhaldi**.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-125">These names are created on the **Inventory journal names** page, and the **Journal type** must be set to **Ownership change**.</span></span>
 
-[![færslubók eignarhaldsbreytingar birgða](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+<span data-ttu-id="7b6ee-126">[![færslubók eignarhaldsbreytingar birgða](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)</span><span class="sxs-lookup"><span data-stu-id="7b6ee-126">[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)</span></span>
 
-## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
-Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þeir nota þetta að vakta notkun á birgðum á þínu svæði. Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lánardrottna sjá[Skilgreining öryggis fyrir Notendur samstarfs lánardrottna](../procurement/configure-security-vendor-portal-users.md).
-
-
-
+## <a name="vendor-collaboration-in-consignment-processes"></a><span data-ttu-id="7b6ee-127">Samstarf lánardrottna í ferli vörusendingar</span><span class="sxs-lookup"><span data-stu-id="7b6ee-127">Vendor collaboration in consignment processes</span></span>
+<span data-ttu-id="7b6ee-128">Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þeir nota þetta að vakta notkun á birgðum á þínu svæði.</span><span class="sxs-lookup"><span data-stu-id="7b6ee-128">If your vendors are using the vendor collaboration interface, they can use this to monitor the consumption of inventory at your site.</span></span> <span data-ttu-id="7b6ee-129">Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lánardrottna sjá[Skilgreining öryggis fyrir Notendur samstarfs lánardrottna](../procurement/configure-security-vendor-portal-users.md).</span><span class="sxs-lookup"><span data-stu-id="7b6ee-129">For more information about setting up vendors to use vendor collaboration, see [Configuration of security for vendor collaboration users](../procurement/configure-security-vendor-portal-users.md).</span></span>
 

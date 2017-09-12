@@ -16,25 +16,25 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 373cd15efba507aa9b35f61ce4a8c9fd8750f60d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8b226fe4a6300cecfefdc8f4a5e3c0c82d6c625e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-open-ended-question"></a>Búa til opna spurningu
+# <a name="create-an-open-ended-question"></a><span data-ttu-id="1d669-103">Búa til opna spurningu</span><span class="sxs-lookup"><span data-stu-id="1d669-103">Create an open-ended question</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Opnar spurningar gera svarendur kleift að veita sína eigin svar. Hægt er að stjórna hvort svarið er númer, aukastafi, dagsetningu, athugasemd og svo framvegis. Þetta ferli fer í gegnum ferlið fyrir stofnun tiltekna gerð spurningu, opnar spurningar eru . Til að hefja þetta ferli, farið í Spurningalisti > Hönnun > Spurningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="1d669-104">Opnar spurningar gera svarendur kleift að veita sína eigin svar.</span><span class="sxs-lookup"><span data-stu-id="1d669-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="1d669-105">Hægt er að stjórna hvort svarið er númer, aukastafi, dagsetningu, athugasemd og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="1d669-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="1d669-106">Þetta ferli fer í gegnum ferlið fyrir stofnun tiltekna gerð spurningu, opnar spurningar eru .</span><span class="sxs-lookup"><span data-stu-id="1d669-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="1d669-107">Til að hefja þetta ferli, farið í Spurningalisti > Hönnun > Spurningar.</span><span class="sxs-lookup"><span data-stu-id="1d669-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="1d669-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="1d669-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Smellið á „Nýtt“.
-2. Veljið Gerð til að flokka spurningar sem tengjast.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-    * Inntaksgerðir Texta, heiltala, raungildi, Dagsetningu, Tíma og Athugasemd eru notaðar fyrir opnar spurningar.  
-5. Veljið valkost í svæðinu gerð Innsláttar.
-    * Inntaksgerð Texta eða Athugasemdar er notað fyrir opnar spurningar.  
-6. Færa skal spurninguna inn í textasvæði.
+1. <span data-ttu-id="1d669-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1d669-109">Click New.</span></span>
+2. <span data-ttu-id="1d669-110">Veljið Gerð til að flokka spurningar sem tengjast.</span><span class="sxs-lookup"><span data-stu-id="1d669-110">Select a Type to group related questions.</span></span>
+3. <span data-ttu-id="1d669-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1d669-111">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="1d669-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="1d669-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="1d669-113">Inntaksgerðir Texta, heiltala, raungildi, Dagsetningu, Tíma og Athugasemd eru notaðar fyrir opnar spurningar.</span><span class="sxs-lookup"><span data-stu-id="1d669-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
+5. <span data-ttu-id="1d669-114">Veljið valkost í svæðinu gerð Innsláttar.</span><span class="sxs-lookup"><span data-stu-id="1d669-114">In the Input type field, select an option.</span></span>
+    * <span data-ttu-id="1d669-115">Inntaksgerð Texta eða Athugasemdar er notað fyrir opnar spurningar.</span><span class="sxs-lookup"><span data-stu-id="1d669-115">An input type of Text or Note is used for an open-ended question.</span></span>  
+6. <span data-ttu-id="1d669-116">Færa skal spurninguna inn í textasvæði.</span><span class="sxs-lookup"><span data-stu-id="1d669-116">In the Text field, enter your question.</span></span>
 
 

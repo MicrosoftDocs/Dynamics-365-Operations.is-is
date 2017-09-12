@@ -19,73 +19,73 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 99535abef547b928eaf7d6d79a29e5e2ed245f03
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 20572163bd32d059323cbb80e606ae344d70b7be
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="150-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 150% bókfært virði
+# <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="dc114-103">Afskriftir fyrir 150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="dc114-103">150 percent reducing balance depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.
+<span data-ttu-id="dc114-104">Þessi grein gefur yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.</span><span class="sxs-lookup"><span data-stu-id="dc114-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 
-Þegar afskriftaregla fyrir eignir er sett upp og gildið **150% af bókfærðu virði**er valið í svæðinu**aðferð** á skjámyndinni**afskriftaaðferðir** eru eignaafskriftir, sem eru tengdar þessari afskriftareglu, með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftíminn fimm ár, er prósenta reiknuð sem 30 prósent (150% ÷ 5). 
+<span data-ttu-id="dc114-105">Þegar afskriftaregla fyrir eignir er sett upp og gildið **150% af bókfærðu virði**er valið í svæðinu**aðferð** á skjámyndinni**afskriftaaðferðir** eru eignaafskriftir, sem eru tengdar þessari afskriftareglu, með sama hlutfall af hundraði á hverju afskriftatímabili.</span><span class="sxs-lookup"><span data-stu-id="dc114-105">When you set up a fixed asset depreciation profile and select **150% reducing balance** in the **Method** field on the **Depreciation profiles** page, fixed assets that are assigned the depreciation profile are depreciated by the same percentage in each depreciation period.</span></span> <span data-ttu-id="dc114-106">Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar.</span><span class="sxs-lookup"><span data-stu-id="dc114-106">This percentage is calculated based on the service life of the asset.</span></span> <span data-ttu-id="dc114-107">Til dæmis, ef eign hefur líftíminn fimm ár, er prósenta reiknuð sem 30 prósent (150% ÷ 5).</span><span class="sxs-lookup"><span data-stu-id="dc114-107">For example, if an asset has a service life of five years, the percentage is calculated as 30 percent (150% ÷ 5).</span></span> 
 
-Til að setja upp afskriftir fyrir 150% bókfært virði, verður einnig að velja valkosti á svæðinu **afskriftarár** og **tímabilstíðni** á síðunni **afskriftareglur**. Valkostirnir sem eru tiltækir á svæðinu**tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.
+<span data-ttu-id="dc114-108">Til að setja upp afskriftir fyrir 150% bókfært virði, verður einnig að velja valkosti á svæðinu **afskriftarár** og **tímabilstíðni** á síðunni **afskriftareglur**.</span><span class="sxs-lookup"><span data-stu-id="dc114-108">To set up 150% reducing balance depreciation, you must also select options in the **Depreciation year** field and the **Period frequency** field on the **Depreciation profiles** page.</span></span> <span data-ttu-id="dc114-109">Valkostirnir sem eru tiltækir á svæðinu**tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.</span><span class="sxs-lookup"><span data-stu-id="dc114-109">The options that are available in the **Period frequency** field vary, depending on the value that is selected in the **Depreciation year** field.</span></span>
 
-## <a name="selection-of-depreciation-year"></a>Val afskriftarárs
-Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu **afskriftarár** á **afskriftareglu** síðunni. 
+## <a name="selection-of-depreciation-year"></a><span data-ttu-id="dc114-110">Val afskriftarárs</span><span class="sxs-lookup"><span data-stu-id="dc114-110">Selection of depreciation year</span></span>
+<span data-ttu-id="dc114-111">Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu **afskriftarár** á **afskriftareglu** síðunni.</span><span class="sxs-lookup"><span data-stu-id="dc114-111">You can select either **Calendar** or **Fiscal** in the **Depreciation year** field on the **Depreciation profiles** page.</span></span> 
 
-Sjálfgefið gildi er **Dagatal**. Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstíðni**. Þetta svæði skilgreinir bókunardagsetningar uppsafnaðra afskrifta og magn þeirra yfir almanaksárið.
+<span data-ttu-id="dc114-112">Sjálfgefið gildi er **Dagatal**.</span><span class="sxs-lookup"><span data-stu-id="dc114-112">The default value is **Calendar**.</span></span> <span data-ttu-id="dc114-113">Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstíðni**.</span><span class="sxs-lookup"><span data-stu-id="dc114-113">Your selection determines the options that are available in the **Period frequency** field.</span></span> <span data-ttu-id="dc114-114">Þetta svæði skilgreinir bókunardagsetningar uppsafnaðra afskrifta og magn þeirra yfir almanaksárið.</span><span class="sxs-lookup"><span data-stu-id="dc114-114">This field defines the depreciation accrual posting dates and amounts throughout the calendar year.</span></span>
 
-### <a name="calendar"></a>Dagatal
+### <a name="calendar"></a><span data-ttu-id="dc114-115">Dagatal</span><span class="sxs-lookup"><span data-stu-id="dc114-115">Calendar</span></span>
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár,****dagatal**. 
+<span data-ttu-id="dc114-116">Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár,****dagatal**.</span><span class="sxs-lookup"><span data-stu-id="dc114-116">You can keep the default value in the **Depreciation year** field, **Calendar**.</span></span> 
 
-**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
+<span data-ttu-id="dc114-117">**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert.</span><span class="sxs-lookup"><span data-stu-id="dc114-117">The **Calendar** option updates the depreciation base on January 1 of each year.</span></span> <span data-ttu-id="dc114-118">Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði.</span><span class="sxs-lookup"><span data-stu-id="dc114-118">Typically, the depreciation base is the net book value minus the scrap value.</span></span> <span data-ttu-id="dc114-119">Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum.</span><span class="sxs-lookup"><span data-stu-id="dc114-119">In the examples later in this topic, the depreciation base is the numerator in the first expression in the calculations column.</span></span> 
 
-Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
+<span data-ttu-id="dc114-120">Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:</span><span class="sxs-lookup"><span data-stu-id="dc114-120">If you select **Calendar** as the depreciation year, the following options are available in the **Period frequency** field:</span></span>
 
--   **Árleg** upphæð bókar 31. Desember.
--   **Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
--   **Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
--   **Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
--   Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
+-   <span data-ttu-id="dc114-121">**Árleg** upphæð bókar 31. Desember.</span><span class="sxs-lookup"><span data-stu-id="dc114-121">**Yearly** posts an amount on December 31.</span></span>
+-   <span data-ttu-id="dc114-122">**Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.</span><span class="sxs-lookup"><span data-stu-id="dc114-122">**Monthly** posts a monthly amount at the end of each calendar month.</span></span>
+-   <span data-ttu-id="dc114-123">**Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).</span><span class="sxs-lookup"><span data-stu-id="dc114-123">**Quarterly** posts a quarterly amount at the end of each calendar quarter (March 31, June 30, September 30, and December 31).</span></span>
+-   <span data-ttu-id="dc114-124">**Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).</span><span class="sxs-lookup"><span data-stu-id="dc114-124">**Half-Yearly** posts a half-yearly amount at the calendar half year (June 30 and December 31).</span></span>
+-   <span data-ttu-id="dc114-125">Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.</span><span class="sxs-lookup"><span data-stu-id="dc114-125">**Daily** posts the depreciation amount for the daily depreciation method by using one transaction for each day.</span></span>
 
-### <a name="fiscal"></a>Fjárhagur
+### <a name="fiscal"></a><span data-ttu-id="dc114-126">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="dc114-126">Fiscal</span></span>
 
-Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 150% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. 
+<span data-ttu-id="dc114-127">Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 150% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**.</span><span class="sxs-lookup"><span data-stu-id="dc114-127">If you select **Fiscal** in the **Depreciation year** field, 150% reducing balance depreciation is calculated based on the fiscal year for the fiscal calendar that is specified for the book, or for the fiscal calendar that is selected on the **Ledger** page.</span></span> <span data-ttu-id="dc114-128">Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**.</span><span class="sxs-lookup"><span data-stu-id="dc114-128">Fiscal calendars are set up on the **Fiscal calendars** page.</span></span> 
 
-Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert tímabil. Lengd næsta fjárhagsárs ákvarðast af uppsetning tímabila á síðunni**fjárhagsdagatöl**. 
+<span data-ttu-id="dc114-129">Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí.</span><span class="sxs-lookup"><span data-stu-id="dc114-129">For example, for the fiscal year July 1 through June 30, the depreciation calculation starts on July 1.</span></span> <span data-ttu-id="dc114-130">Fjárhagsár getur verið lengra eða styttra en 12 mánuðir.</span><span class="sxs-lookup"><span data-stu-id="dc114-130">The fiscal year can be longer or shorter than 12 months.</span></span> <span data-ttu-id="dc114-131">Afskriftirnar eru leiðréttar fyrir hvert tímabil.</span><span class="sxs-lookup"><span data-stu-id="dc114-131">The depreciation is adjusted for each period.</span></span> <span data-ttu-id="dc114-132">Lengd næsta fjárhagsárs ákvarðast af uppsetning tímabila á síðunni**fjárhagsdagatöl**.</span><span class="sxs-lookup"><span data-stu-id="dc114-132">The length of the next fiscal year is determined by the setup of periods on the **Fiscal calendars** page.</span></span> 
 
-Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
+<span data-ttu-id="dc114-133">Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:</span><span class="sxs-lookup"><span data-stu-id="dc114-133">If you select **Fiscal** as the depreciation year, the following options are available in the **Period frequency** field:</span></span>
 
--   **Árlega** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
--   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.
+-   <span data-ttu-id="dc114-134">**Árlega** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.</span><span class="sxs-lookup"><span data-stu-id="dc114-134">**Yearly** posts the total amount of the depreciation that is calculated for the fiscal year on the last day of the fiscal year.</span></span>
+-   <span data-ttu-id="dc114-135">**Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið.</span><span class="sxs-lookup"><span data-stu-id="dc114-135">**Fiscal period** posts the total amount of the depreciation that is calculated for the fiscal year.</span></span> <span data-ttu-id="dc114-136">Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.</span><span class="sxs-lookup"><span data-stu-id="dc114-136">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
-## <a name="example-of-150-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 150% bókfært virði
+## <a name="example-of-150-reducing-balance-depreciation"></a><span data-ttu-id="dc114-137">Dæmi um afskriftir fyrir 150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="dc114-137">Example of 150% reducing balance depreciation</span></span>
 |                                |        |
 |--------------------------------|--------|
-| Kaupverð               | 11.000 |
-| Hrakvirði                  | 1.000  |
-| Afskriftargrundvöllur              | 10.000 |
-| Líftími í árum             | 5      |
-| Föst árleg afskriftaprósenta | 30%    |
+| <span data-ttu-id="dc114-138">Kaupverð</span><span class="sxs-lookup"><span data-stu-id="dc114-138">Acquisition cost</span></span>               | <span data-ttu-id="dc114-139">11.000</span><span class="sxs-lookup"><span data-stu-id="dc114-139">11,000</span></span> |
+| <span data-ttu-id="dc114-140">Hrakvirði</span><span class="sxs-lookup"><span data-stu-id="dc114-140">Salvage value</span></span>                  | <span data-ttu-id="dc114-141">1.000</span><span class="sxs-lookup"><span data-stu-id="dc114-141">1,000</span></span>  |
+| <span data-ttu-id="dc114-142">Afskriftargrundvöllur</span><span class="sxs-lookup"><span data-stu-id="dc114-142">Depreciation base</span></span>              | <span data-ttu-id="dc114-143">10.000</span><span class="sxs-lookup"><span data-stu-id="dc114-143">10,000</span></span> |
+| <span data-ttu-id="dc114-144">Líftími í árum</span><span class="sxs-lookup"><span data-stu-id="dc114-144">Service life years</span></span>             | <span data-ttu-id="dc114-145">5</span><span class="sxs-lookup"><span data-stu-id="dc114-145">5</span></span>      |
+| <span data-ttu-id="dc114-146">Föst árleg afskriftaprósenta</span><span class="sxs-lookup"><span data-stu-id="dc114-146">Yearly depreciation percentage</span></span> | <span data-ttu-id="dc114-147">30%</span><span class="sxs-lookup"><span data-stu-id="dc114-147">30%</span></span>    |
 
-Aðferðin 150% bókfært virði stöðu deilir 150% með líftíma í árum. Það hlutfall af hundraði er margfaldað með bókuðu nettóvirði eignarinnar til að ákvarða afskriftarupphæð ársins.
+<span data-ttu-id="dc114-148">Aðferðin 150% bókfært virði stöðu deilir 150% með líftíma í árum.</span><span class="sxs-lookup"><span data-stu-id="dc114-148">The 150% reducing balance method divides 150 percent by the service life years.</span></span> <span data-ttu-id="dc114-149">Það hlutfall af hundraði er margfaldað með bókuðu nettóvirði eignarinnar til að ákvarða afskriftarupphæð ársins.</span><span class="sxs-lookup"><span data-stu-id="dc114-149">That percentage will be multiplied by the net book value of the asset to determine the depreciation amount for the year.</span></span>
 
-| Tímabil | Reiknuð upphæð árlegra afskrifta | Bókfært verð             | Nettó bókfært verð við lok árs |
+| <span data-ttu-id="dc114-150">Tímabil</span><span class="sxs-lookup"><span data-stu-id="dc114-150">Period</span></span> | <span data-ttu-id="dc114-151">Reiknuð upphæð árlegra afskrifta</span><span class="sxs-lookup"><span data-stu-id="dc114-151">Calculation of the yearly depreciation amount</span></span> | <span data-ttu-id="dc114-152">Bókfært verð</span><span class="sxs-lookup"><span data-stu-id="dc114-152">Book value</span></span>             | <span data-ttu-id="dc114-153">Nettó bókfært verð við lok árs</span><span class="sxs-lookup"><span data-stu-id="dc114-153">Net book value at the end of the year</span></span> |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| 1. ár | (11,000 – 1,000) × 30% = 3,000                | 11.000 – 3.000 = 8.000 | 11.000 – 1.000 – 3.000 = 7.000        |
-| 2. ár | 7,000 × 30% = 2,100                           | 8.000 – 2.100 = 5.900  | 7,000 – 2,100 = 4,900                 |
-| 3. ár | 4,900 × 30% = 1,470                           | 5.900 – 1.470 = 4.430  | 4,900 – 1,470 = 3,430                 |
+| <span data-ttu-id="dc114-154">1. ár</span><span class="sxs-lookup"><span data-stu-id="dc114-154">Year 1</span></span> | <span data-ttu-id="dc114-155">(11,000 – 1,000) × 30% = 3,000</span><span class="sxs-lookup"><span data-stu-id="dc114-155">(11,000 – 1,000) × 30% = 3,000</span></span>                | <span data-ttu-id="dc114-156">11.000 – 3.000 = 8.000</span><span class="sxs-lookup"><span data-stu-id="dc114-156">11,000 – 3,000 = 8,000</span></span> | <span data-ttu-id="dc114-157">11.000 – 1.000 – 3.000 = 7.000</span><span class="sxs-lookup"><span data-stu-id="dc114-157">11,000 – 1,000 – 3,000 = 7,000</span></span>        |
+| <span data-ttu-id="dc114-158">2. ár</span><span class="sxs-lookup"><span data-stu-id="dc114-158">Year 2</span></span> | <span data-ttu-id="dc114-159">7,000 × 30% = 2,100</span><span class="sxs-lookup"><span data-stu-id="dc114-159">7,000 × 30% = 2,100</span></span>                           | <span data-ttu-id="dc114-160">8.000 – 2.100 = 5.900</span><span class="sxs-lookup"><span data-stu-id="dc114-160">8,000 – 2,100 = 5,900</span></span>  | <span data-ttu-id="dc114-161">7,000 – 2,100 = 4,900</span><span class="sxs-lookup"><span data-stu-id="dc114-161">7,000 – 2,100 = 4,900</span></span>                 |
+| <span data-ttu-id="dc114-162">3. ár</span><span class="sxs-lookup"><span data-stu-id="dc114-162">Year 3</span></span> | <span data-ttu-id="dc114-163">4,900 × 30% = 1,470</span><span class="sxs-lookup"><span data-stu-id="dc114-163">4,900 × 30% = 1,470</span></span>                           | <span data-ttu-id="dc114-164">5.900 – 1.470 = 4.430</span><span class="sxs-lookup"><span data-stu-id="dc114-164">5,900 – 1,470 = 4,430</span></span>  | <span data-ttu-id="dc114-165">4,900 – 1,470 = 3,430</span><span class="sxs-lookup"><span data-stu-id="dc114-165">4,900 – 1,470 = 3,430</span></span>                 |
 
 > [!NOTE]
-> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 150% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
+> <span data-ttu-id="dc114-166">Yfirleitt þegar upphæðin sem er reiknuð með því að nota 150% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.</span><span class="sxs-lookup"><span data-stu-id="dc114-166">Typically, when the amount that is calculated by using the 150% reducing balance depreciation method becomes less than the amount that would be calculated by using the straight line method, there is a conversion to the straight line method for the remaining life.</span></span>
 
 
 

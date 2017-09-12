@@ -17,54 +17,54 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3e26f4261c4028767c20a1118107777d582bb277
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-intercompany-project-invoicing"></a>Skilgreina reikningagerð fyrir verk innan samstæðu
+# <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="932b9-103">Skilgreina reikningagerð fyrir verk innan samstæðu</span><span class="sxs-lookup"><span data-stu-id="932b9-103">Configure intercompany project invoicing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp reikningsfærslu verkefnis á milli tveggja fyrirtækja innan fyrirtækis. Þetta verkefni notar USSI-gagnasafn.
+<span data-ttu-id="932b9-104">Þessi verklýsing sýnir hvernig á að setja upp reikningsfærslu verkefnis á milli tveggja fyrirtækja innan fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="932b9-104">This procedure shows how to set up project invoicing between two companies in your organization.</span></span> <span data-ttu-id="932b9-105">Þetta verkefni notar USSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="932b9-105">This task uses the USSI data set.</span></span>
 
-1. Farið í Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í aðgerðasvæðinu er smellt á Almennt.
-4. Smellt er á Innan samstæðu.
-5. Stillið Virkt á Já til að virkja verslun innan samstæðu.
-6. Í svæði Fyrirtæki viðskiptavinar skal slá inn eða velja gildi.
-7. Sláið inn eða veljið gildi í svæði Reikningurinn minn.
-8. Smellið á „Vista“.
-9. Lokið síðunni.
-10. Lokið síðunni.
-11. Farið á Verkefnastjórnun og bókhald > Uppsetning > Færibreytur verkefnastjórnunar og bókhalds.
-12. Smellt er á flipann Innan samstæðu.
-13. Færið sleðann á Já til að virkja áætlunargerð og vinnukort fyrir tilföng innan samstæðu.
-14. Í listanum skal merkja valda línu.
-15. Smellið á Nýtt.
-16. Í listanum skal merkja valda línu.
-17. Í svæði Lögaðili sem fær lánað skal slá inn eða velja gildi.
-18. Veljið gátreitur Safna upp tekjum.
-19. Í svæði Sjálfgefinn vinnukortaflokkur skal slá inn eða velja gildi.
-20. Í svæði Sjálfgefinn kostnaðarflokkur skal slá inn eða velja gildi.
-21. Smellið á „Vista“.
-22. Lokið síðunni.
-23. Farið á Verkefnastjórnun og bókhald > Uppsetning > Bókun > Uppsetning fjárhagsbókunar.
-24. Í svæði Fjárhagslyklagerðir er valinn valkostur.
-25. Smellt er á Nýtt.
-26. Í listanum skal merkja valda línu.
-27. Í listanum skal merkja valda línu.
-28. Í reitnum aðallykill skal tilgreina gildi sem óskað er eftir.
-29. Smellið á „Vista“.
-30. Lokið síðunni.
-31. Smellt er á Verkefnastjórnun og bókhald > Uppsetning > Verð > Innanhússverð.
-32. Smellið á „Nýtt“.
-33. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
-34. Í svæði Lögaðili sem fær lánað skal slá inn eða velja gildi.
-35. Í svæði Flutningsverðslíkan er valinn valkostur.
-36. Sláðu inn tölu í svæði Verðlagning.
-37. Smellið á „Vista“.
+1. <span data-ttu-id="932b9-106">Farið í Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="932b9-106">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="932b9-107">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="932b9-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="932b9-108">Í aðgerðasvæðinu er smellt á Almennt.</span><span class="sxs-lookup"><span data-stu-id="932b9-108">On the Action Pane, click General.</span></span>
+4. <span data-ttu-id="932b9-109">Smellt er á Innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="932b9-109">Click Intercompany.</span></span>
+5. <span data-ttu-id="932b9-110">Stillið Virkt á Já til að virkja verslun innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="932b9-110">Set Active to Yes to enable intercompany trading.</span></span>
+6. <span data-ttu-id="932b9-111">Í svæði Fyrirtæki viðskiptavinar skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="932b9-111">In the Customer company field, enter or select a value.</span></span>
+7. <span data-ttu-id="932b9-112">Sláið inn eða veljið gildi í svæði Reikningurinn minn.</span><span class="sxs-lookup"><span data-stu-id="932b9-112">In the My account field, enter or select a value.</span></span>
+8. <span data-ttu-id="932b9-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="932b9-113">Click Save.</span></span>
+9. <span data-ttu-id="932b9-114">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="932b9-114">Close the page.</span></span>
+10. <span data-ttu-id="932b9-115">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="932b9-115">Close the page.</span></span>
+11. <span data-ttu-id="932b9-116">Farið á Verkefnastjórnun og bókhald > Uppsetning > Færibreytur verkefnastjórnunar og bókhalds.</span><span class="sxs-lookup"><span data-stu-id="932b9-116">Go to Project management and accounting > Setup > Project management and accounting parameters.</span></span>
+12. <span data-ttu-id="932b9-117">Smellt er á flipann Innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="932b9-117">Click the Intercompany tab.</span></span>
+13. <span data-ttu-id="932b9-118">Færið sleðann á Já til að virkja áætlunargerð og vinnukort fyrir tilföng innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="932b9-118">Move the slider to Yes to enable intercompany resource scheduling and timesheets.</span></span>
+14. <span data-ttu-id="932b9-119">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="932b9-119">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="932b9-120">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="932b9-120">Click New.</span></span>
+16. <span data-ttu-id="932b9-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="932b9-121">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="932b9-122">Í svæði Lögaðili sem fær lánað skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="932b9-122">In the Borrowing legal entity field, enter or select a value.</span></span>
+18. <span data-ttu-id="932b9-123">Veljið gátreitur Safna upp tekjum.</span><span class="sxs-lookup"><span data-stu-id="932b9-123">Select the Accrue revenue check box.</span></span>
+19. <span data-ttu-id="932b9-124">Í svæði Sjálfgefinn vinnukortaflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="932b9-124">In the Default timesheet category field, enter or select a value.</span></span>
+20. <span data-ttu-id="932b9-125">Í svæði Sjálfgefinn kostnaðarflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="932b9-125">In the Default expense category field, enter or select a value.</span></span>
+21. <span data-ttu-id="932b9-126">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="932b9-126">Click Save.</span></span>
+22. <span data-ttu-id="932b9-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="932b9-127">Close the page.</span></span>
+23. <span data-ttu-id="932b9-128">Farið á Verkefnastjórnun og bókhald > Uppsetning > Bókun > Uppsetning fjárhagsbókunar.</span><span class="sxs-lookup"><span data-stu-id="932b9-128">Go to Project management and accounting > Setup > Posting > Ledger posting setup.</span></span>
+24. <span data-ttu-id="932b9-129">Í svæði Fjárhagslyklagerðir er valinn valkostur.</span><span class="sxs-lookup"><span data-stu-id="932b9-129">In the Ledger account types field, select an option.</span></span>
+25. <span data-ttu-id="932b9-130">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="932b9-130">Click New.</span></span>
+26. <span data-ttu-id="932b9-131">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="932b9-131">In the list, mark the selected row.</span></span>
+27. <span data-ttu-id="932b9-132">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="932b9-132">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="932b9-133">Í reitnum aðallykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="932b9-133">In the Main account field, specify the desired values.</span></span>
+29. <span data-ttu-id="932b9-134">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="932b9-134">Click Save.</span></span>
+30. <span data-ttu-id="932b9-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="932b9-135">Close the page.</span></span>
+31. <span data-ttu-id="932b9-136">Smellt er á Verkefnastjórnun og bókhald > Uppsetning > Verð > Innanhússverð.</span><span class="sxs-lookup"><span data-stu-id="932b9-136">Go to Project management and accounting > Setup > Prices > Transfer price.</span></span>
+32. <span data-ttu-id="932b9-137">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="932b9-137">Click New.</span></span>
+33. <span data-ttu-id="932b9-138">Í reitnum Gildisdagsetning skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="932b9-138">In the Effective date field, enter a date.</span></span>
+34. <span data-ttu-id="932b9-139">Í svæði Lögaðili sem fær lánað skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="932b9-139">In the Borrowing legal entity field, enter or select a value.</span></span>
+35. <span data-ttu-id="932b9-140">Í svæði Flutningsverðslíkan er valinn valkostur.</span><span class="sxs-lookup"><span data-stu-id="932b9-140">In the Transfer price model field, select an option.</span></span>
+36. <span data-ttu-id="932b9-141">Sláðu inn tölu í svæði Verðlagning.</span><span class="sxs-lookup"><span data-stu-id="932b9-141">In the Pricing field, enter a number.</span></span>
+37. <span data-ttu-id="932b9-142">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="932b9-142">Click Save.</span></span>
 
 

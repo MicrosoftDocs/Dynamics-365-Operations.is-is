@@ -16,48 +16,48 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7c7f466add55fb9a24c3fb8f1f92df712a8622e3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-intercompany-plan"></a>Búa til áætlun innan samstæðu
+# <a name="create-an-intercompany-plan"></a><span data-ttu-id="7fc7c-103">Búa til áætlun innan samstæðu</span><span class="sxs-lookup"><span data-stu-id="7fc7c-103">Create an intercompany plan</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að stofna innansamstæðu áætlun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="7fc7c-104">Þessi verklýsing sýnir hvernig á að stofna innansamstæðu áætlun.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="7fc7c-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-an-intercompany-planning-group"></a>Setja upp Áætlunarflokk innan samstæðu 
-1. Fara í Áætlunarflokkar innan samstæðu.
-    * Aðaláætlanagerð > Uppsetning > Áætlunarhópar innan samstæðu.  
-2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía svæðið Heiti með virði '10'.
-3. Í listanum skal merkja valda línu.
-4. Smellið á Eyða.
-    * Þetta skref er nauðsynlegt til að stytta áætlunarkeyrslu innan samstæðu.   Áætlanagerð innan samstæðu mun keyra aðaláætlanagerð í öllum fyrirtækjum í áætlunarflokki, frá lægstu röðunarröðinni.  
-5. Smella á Já.
-6. Lokið síðunni.
+## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="7fc7c-106">Setja upp Áætlunarflokk innan samstæðu</span><span class="sxs-lookup"><span data-stu-id="7fc7c-106">Set up an intercompany planning group</span></span> 
+1. <span data-ttu-id="7fc7c-107">Fara í Áætlunarflokkar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-107">Go to Intercompany planning groups.</span></span>
+    * <span data-ttu-id="7fc7c-108">Aðaláætlanagerð > Uppsetning > Áætlunarhópar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-108">Master planning > Setup > Intercompany planning groups</span></span>  
+2. <span data-ttu-id="7fc7c-109">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="7fc7c-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="7fc7c-110">Til dæmis, sía svæðið Heiti með virði '10'.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-110">For example, filter on the Name field with a value of '10'.</span></span>
+3. <span data-ttu-id="7fc7c-111">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="7fc7c-112">Smellið á Eyða.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-112">Click Delete.</span></span>
+    * <span data-ttu-id="7fc7c-113">Þetta skref er nauðsynlegt til að stytta áætlunarkeyrslu innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="7fc7c-114">Áætlanagerð innan samstæðu mun keyra aðaláætlanagerð í öllum fyrirtækjum í áætlunarflokki, frá lægstu röðunarröðinni.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
+5. <span data-ttu-id="7fc7c-115">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-115">Click Yes.</span></span>
+6. <span data-ttu-id="7fc7c-116">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-116">Close the page.</span></span>
 
-## <a name="create-an-intercompany-plan"></a>Búa til áætlun innan samstæðu
-1. Smelltu á samstæðuáætlun
-    * Þetta er á vinnusvæði aðaláætlanagerðar.  
-2. Í reitnum Áætlunarflokkur innan samstæðu áætlunskal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum skal smella á tengilinn í valinni línu.
-    * Veldu áætlunarflokk innan samstæðu 10.  
-4. Í reitnum Fjöldi ítrekana fyrir samstæðuáætlun skal færa inn ‚2‘.
-    * Áætlunarflokkur innan samstæðu 10 er með tvo meðlimi. Til að dreifa seinkanir frá upprunafyrirtæki (USMF) til fyrirtækis viðskiptavinar (DEMF), þarf að keyra innan samstæðu í báðum fyrirtækjunum tvisvar sinnum. Fyrsta ítrekun mun dreifa eftirspurninni og auðkenna seinkanir í upprunafyrirtækinu (USMF). Önnur ítrekun mun dreifa seinkanir úr USMF til DEMF.  
-5. Veljið valkost í svæðinu fyrsta ítrekun.
-6. Í reitnum fyrsta ítrekun skal velja "Endurnýjun".
-7. Í reitnum síðari ítrekanir skal velja "Endurnýjun".
-8. Í svæðinu Fjölda þráða skal færa inn tölu.
-    * Þetta táknar fjölda samhliða þráða sem er nota við áætlanagerð.  
-9. Smellið á „Í lagi“.
+## <a name="create-an-intercompany-plan"></a><span data-ttu-id="7fc7c-117">Búa til áætlun innan samstæðu</span><span class="sxs-lookup"><span data-stu-id="7fc7c-117">Create an intercompany plan</span></span>
+1. <span data-ttu-id="7fc7c-118">Smelltu á samstæðuáætlun</span><span class="sxs-lookup"><span data-stu-id="7fc7c-118">Click Intercompany master planning.</span></span>
+    * <span data-ttu-id="7fc7c-119">Þetta er á vinnusvæði aðaláætlanagerðar.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-119">This is on the Master planning workspace.</span></span>  
+2. <span data-ttu-id="7fc7c-120">Í reitnum Áætlunarflokkur innan samstæðu áætlunskal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="7fc7c-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7fc7c-122">Veldu áætlunarflokk innan samstæðu 10.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-122">Select intercompany planning group 10.</span></span>  
+4. <span data-ttu-id="7fc7c-123">Í reitnum Fjöldi ítrekana fyrir samstæðuáætlun skal færa inn ‚2‘.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
+    * <span data-ttu-id="7fc7c-124">Áætlunarflokkur innan samstæðu 10 er með tvo meðlimi.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="7fc7c-125">Til að dreifa seinkanir frá upprunafyrirtæki (USMF) til fyrirtækis viðskiptavinar (DEMF), þarf að keyra innan samstæðu í báðum fyrirtækjunum tvisvar sinnum.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="7fc7c-126">Fyrsta ítrekun mun dreifa eftirspurninni og auðkenna seinkanir í upprunafyrirtækinu (USMF).</span><span class="sxs-lookup"><span data-stu-id="7fc7c-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="7fc7c-127">Önnur ítrekun mun dreifa seinkanir úr USMF til DEMF.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
+5. <span data-ttu-id="7fc7c-128">Veljið valkost í svæðinu fyrsta ítrekun.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-128">In the First iteration field, select an option.</span></span>
+6. <span data-ttu-id="7fc7c-129">Í reitnum fyrsta ítrekun skal velja "Endurnýjun".</span><span class="sxs-lookup"><span data-stu-id="7fc7c-129">In the First iteration field, select 'Regeneration'.</span></span>
+7. <span data-ttu-id="7fc7c-130">Í reitnum síðari ítrekanir skal velja "Endurnýjun".</span><span class="sxs-lookup"><span data-stu-id="7fc7c-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
+8. <span data-ttu-id="7fc7c-131">Í svæðinu Fjölda þráða skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-131">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="7fc7c-132">Þetta táknar fjölda samhliða þráða sem er nota við áætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-132">This represents the number of parallel threads used for planning.</span></span>  
+9. <span data-ttu-id="7fc7c-133">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-133">Click OK.</span></span>
 
-## <a name="view-the-result-of-the-plan"></a>Skoða niðurstaða áætlunar.
-1. Í reitnum Áætlun skal smella á fellilistahnappinn til að opna leitina.
-2. Í listanum skal smella á tengilinn í valinni línu.
-    * Smelltu á tengil StaticPlan. Þú þarft að vera í fyrirtæki USMF.  
-3. Smellt er á Áætlaðar pantanir.
+## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="7fc7c-134">Skoða niðurstaða áætlunar.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-134">View the result of the plan</span></span>
+1. <span data-ttu-id="7fc7c-135">Í reitnum Áætlun skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="7fc7c-136">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-136">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7fc7c-137">Smelltu á tengil StaticPlan.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="7fc7c-138">Þú þarft að vera í fyrirtæki USMF.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-138">You need to be in company USMF.</span></span>  
+3. <span data-ttu-id="7fc7c-139">Smellt er á Áætlaðar pantanir.</span><span class="sxs-lookup"><span data-stu-id="7fc7c-139">Click Planned orders.</span></span>
 
 

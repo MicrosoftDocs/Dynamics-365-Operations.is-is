@@ -17,80 +17,80 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 31349983d6f21425a2da8bb19c961f05cf1ee031
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dbedbf6cd5d366d10726a9c10846c171a297a07f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-process-activities-for-lean-manufacturing"></a>Stofna vinnsluverkþætti fyrir lean-framleiðslu
+# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="1c155-103">Stofna vinnsluverkþætti fyrir lean-framleiðslu</span><span class="sxs-lookup"><span data-stu-id="1c155-103">Create process activities for lean manufacturing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Stofna ferlisverkþátt fyrir lean-framleiðslu. 
+<span data-ttu-id="1c155-104">Stofna ferlisverkþátt fyrir lean-framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="1c155-104">Create a process activity for lean manufacturing.</span></span> 
 
-Skilyrði: 
+<span data-ttu-id="1c155-105">Skilyrði:</span><span class="sxs-lookup"><span data-stu-id="1c155-105">Prerequisites:</span></span> 
 
-1. Stofna verður framleiðsluflæði og útgáfu sem er ekki virk.
+1. <span data-ttu-id="1c155-106">Stofna verður framleiðsluflæði og útgáfu sem er ekki virk.</span><span class="sxs-lookup"><span data-stu-id="1c155-106">A production flow and version that is not active must be created.</span></span>
 
-2. Stofna verður vinnuflokk.
+2. <span data-ttu-id="1c155-107">Stofna verður vinnuflokk.</span><span class="sxs-lookup"><span data-stu-id="1c155-107">A work cell must be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a>Finndu útgáfu framleiðsluflæðis
-1. Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="1c155-108">Finndu útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="1c155-108">Find the production flow version</span></span>
+1. <span data-ttu-id="1c155-109">Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.</span><span class="sxs-lookup"><span data-stu-id="1c155-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="1c155-110">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1c155-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="1c155-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="1c155-111">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a>Stofnaðu nýja aðgerð
-1. Smellt er á Verkþætti.
-    * Tryggja skal að valið framleiðsluflæði hafi útgáfu í drögum og velja þá útgáfu.  
-2. Smellt er á verkþáttinn Stofna nýja áætlun.
-3. Smelltu á Næsta.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Í reitinn Heiti skal slá inn gildi.
-    * Athugið að heitið verður að vera einkvæmt fyrir gefið framleiðsluflæði fyrir allar útgáfur.  
-6. Í reitinn Vinna magn skal slá inn númer.
-    * Athugið að óháð því hvaða magn vinnslu verður keyrt er þetta lágmarksmagn á hverja vinnslu til að reikna út kostnað við vinnu. Ef vinnsla á magn víkja frá þessu magni, verða kostnaðarfrávik vinnu stofnuð.  
-7. Smelltu á Næsta.
+## <a name="create-a-new-activity"></a><span data-ttu-id="1c155-112">Stofnaðu nýja aðgerð</span><span class="sxs-lookup"><span data-stu-id="1c155-112">Create a new activity</span></span>
+1. <span data-ttu-id="1c155-113">Smellt er á Verkþætti.</span><span class="sxs-lookup"><span data-stu-id="1c155-113">Click Activities.</span></span>
+    * <span data-ttu-id="1c155-114">Tryggja skal að valið framleiðsluflæði hafi útgáfu í drögum og velja þá útgáfu.</span><span class="sxs-lookup"><span data-stu-id="1c155-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="1c155-115">Smellt er á verkþáttinn Stofna nýja áætlun.</span><span class="sxs-lookup"><span data-stu-id="1c155-115">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="1c155-116">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="1c155-116">Click Next.</span></span>
+4. <span data-ttu-id="1c155-117">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1c155-117">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="1c155-118">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1c155-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="1c155-119">Athugið að heitið verður að vera einkvæmt fyrir gefið framleiðsluflæði fyrir allar útgáfur.</span><span class="sxs-lookup"><span data-stu-id="1c155-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
+6. <span data-ttu-id="1c155-120">Í reitinn Vinna magn skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1c155-120">In the Process quantity field, enter a number.</span></span>
+    * <span data-ttu-id="1c155-121">Athugið að óháð því hvaða magn vinnslu verður keyrt er þetta lágmarksmagn á hverja vinnslu til að reikna út kostnað við vinnu.</span><span class="sxs-lookup"><span data-stu-id="1c155-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="1c155-122">Ef vinnsla á magn víkja frá þessu magni, verða kostnaðarfrávik vinnu stofnuð.</span><span class="sxs-lookup"><span data-stu-id="1c155-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
+7. <span data-ttu-id="1c155-123">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="1c155-123">Click Next.</span></span>
 
-## <a name="select-the-work-cell"></a>Veldu vinnuflokk
-1. Í reitnum vinnuflokkur skal smella á fellilistahnappinn til að opna leitina.
-2. Í listanum skal smella á tengilinn í valinni línu.
+## <a name="select-the-work-cell"></a><span data-ttu-id="1c155-124">Veldu vinnuflokk</span><span class="sxs-lookup"><span data-stu-id="1c155-124">Select the work cell</span></span>
+1. <span data-ttu-id="1c155-125">Í reitnum vinnuflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="1c155-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="1c155-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="1c155-126">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a>Skilgreina uppfærslur birgða
-1. Velja eða hreinsa gátreitinn Uppfærsla á innhreyfingu á lager.
-    * Ef Uppfæra á lager = Nei, er hægt að skilgreina verkþátt til að taka við hálfkláraðri afurð (verkþátturinn nær ekki næsta stigi í Uppskrift).    Einnig er hægt að velja að nota hálfkláraðar afurðir.  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="1c155-127">Skilgreina uppfærslur birgða</span><span class="sxs-lookup"><span data-stu-id="1c155-127">Define the inventory updates</span></span>
+1. <span data-ttu-id="1c155-128">Velja eða hreinsa gátreitinn Uppfærsla á innhreyfingu á lager.</span><span class="sxs-lookup"><span data-stu-id="1c155-128">Select or clear the Update on hand receipt check box.</span></span>
+    * <span data-ttu-id="1c155-129">Ef Uppfæra á lager = Nei, er hægt að skilgreina verkþátt til að taka við hálfkláraðri afurð (verkþátturinn nær ekki næsta stigi í Uppskrift).</span><span class="sxs-lookup"><span data-stu-id="1c155-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="1c155-130">Einnig er hægt að velja að nota hálfkláraðar afurðir.</span><span class="sxs-lookup"><span data-stu-id="1c155-130">You can also select to consume semi-finished products.</span></span>  
 
-## <a name="define-the-picking-activities"></a>Skilgreina tiltektarverkþættina
-1. Smelltu á Næsta.
-2. Í listanum skal merkja valda línu.
-    * Sjálfgefinn tiltektarverkþáttur er stofnaður fyrir ílagsstaðsetningu valins vinnuflokks.  
-3. Smelltu á Bæta við.
-    * Hægt er að stofna viðbótar tiltektarverkþætti fyrir tilteknar vörur sem eru ekki sett í ílagsverkþætti vinnuflokks.  
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í reitnum Vörunúmer skal slá inn gildi.
-6. Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.
-    * Með þessari skilgreiningu er allt notað efni í verkþættinum tekið úr sjálfgefnu ílagsvöruhúsi og staðsetningu nema vara sem skilgreind er í annarri tiltektaraðgerð. Þessi vara verður tekið úr öðru vöruhúsi og staðsetningu.  
-7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-8. Í listanum skal smella á tengilinn í valinni línu.
-9. Veldu eða hreinsaðu gátreitinn Skrá úrkast.
-10. Smelltu á Næsta.
+## <a name="define-the-picking-activities"></a><span data-ttu-id="1c155-131">Skilgreina tiltektarverkþættina</span><span class="sxs-lookup"><span data-stu-id="1c155-131">Define the picking activities</span></span>
+1. <span data-ttu-id="1c155-132">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="1c155-132">Click Next.</span></span>
+2. <span data-ttu-id="1c155-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="1c155-133">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="1c155-134">Sjálfgefinn tiltektarverkþáttur er stofnaður fyrir ílagsstaðsetningu valins vinnuflokks.</span><span class="sxs-lookup"><span data-stu-id="1c155-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
+3. <span data-ttu-id="1c155-135">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="1c155-135">Click Add.</span></span>
+    * <span data-ttu-id="1c155-136">Hægt er að stofna viðbótar tiltektarverkþætti fyrir tilteknar vörur sem eru ekki sett í ílagsverkþætti vinnuflokks.</span><span class="sxs-lookup"><span data-stu-id="1c155-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
+4. <span data-ttu-id="1c155-137">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1c155-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="1c155-138">Í reitnum Vörunúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1c155-138">In the Item number field, type a value.</span></span>
+6. <span data-ttu-id="1c155-139">Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="1c155-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1c155-140">Með þessari skilgreiningu er allt notað efni í verkþættinum tekið úr sjálfgefnu ílagsvöruhúsi og staðsetningu nema vara sem skilgreind er í annarri tiltektaraðgerð.</span><span class="sxs-lookup"><span data-stu-id="1c155-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="1c155-141">Þessi vara verður tekið úr öðru vöruhúsi og staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="1c155-141">This item will be picked from a different warehouse and location.</span></span>  
+7. <span data-ttu-id="1c155-142">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1c155-142">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="1c155-143">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="1c155-143">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="1c155-144">Veldu eða hreinsaðu gátreitinn Skrá úrkast.</span><span class="sxs-lookup"><span data-stu-id="1c155-144">Select or clear the Register scrap check box.</span></span>
+10. <span data-ttu-id="1c155-145">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="1c155-145">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a>Skilgreina tíma verkþátta
-1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Skilgreiningar er krafist á Keyrslutíma. Keyrslutími er notaður til að reikna út kostnað og gegnumstreymistíma kanban-vinnslurnar. Keyrslur eru ekki notaðar til að reikna álag og notkun, það er reiknað út með tíma ferlis úr verkinu útgáfu framleiðsluflæðis framleiðslu.  
-2. Í reitinn Tími skal slá inn númer.
-3. Í reitnum Eining skal slá inn gildi.
-4. Velja tímaeiningu.
-5. Í reitinn Á magn skal slá inn númer.
-6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Biðtímar eru valfrjálsir.  
-7. Í reitinn Tími skal slá inn númer.
-8. Í reitnum Eining skal slá inn gildi.
-9. Velja tímaeiningu.
-10. Í reitinn Á magn skal slá inn númer.
-11. Smelltu á Næsta.
-12. Smellt er á Ljúka.
-13. Lokið síðunni.
+## <a name="define-the-activity-times"></a><span data-ttu-id="1c155-146">Skilgreina tíma verkþátta</span><span class="sxs-lookup"><span data-stu-id="1c155-146">Define the activity times</span></span>
+1. <span data-ttu-id="1c155-147">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1c155-147">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="1c155-148">Skilgreiningar er krafist á Keyrslutíma.</span><span class="sxs-lookup"><span data-stu-id="1c155-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="1c155-149">Keyrslutími er notaður til að reikna út kostnað og gegnumstreymistíma kanban-vinnslurnar.</span><span class="sxs-lookup"><span data-stu-id="1c155-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="1c155-150">Keyrslur eru ekki notaðar til að reikna álag og notkun, það er reiknað út með tíma ferlis úr verkinu útgáfu framleiðsluflæðis framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="1c155-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="1c155-151">Í reitinn Tími skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1c155-151">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="1c155-152">Í reitnum Eining skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1c155-152">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="1c155-153">Velja tímaeiningu.</span><span class="sxs-lookup"><span data-stu-id="1c155-153">Select the Time unit.</span></span>
+5. <span data-ttu-id="1c155-154">Í reitinn Á magn skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1c155-154">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="1c155-155">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="1c155-155">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="1c155-156">Biðtímar eru valfrjálsir.</span><span class="sxs-lookup"><span data-stu-id="1c155-156">Queue times are optional.</span></span>  
+7. <span data-ttu-id="1c155-157">Í reitinn Tími skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1c155-157">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="1c155-158">Í reitnum Eining skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1c155-158">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="1c155-159">Velja tímaeiningu.</span><span class="sxs-lookup"><span data-stu-id="1c155-159">Select the Time unit.</span></span>
+10. <span data-ttu-id="1c155-160">Í reitinn Á magn skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1c155-160">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="1c155-161">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="1c155-161">Click Next.</span></span>
+12. <span data-ttu-id="1c155-162">Smellt er á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="1c155-162">Click Finish.</span></span>
+13. <span data-ttu-id="1c155-163">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="1c155-163">Close the page.</span></span>
 
 

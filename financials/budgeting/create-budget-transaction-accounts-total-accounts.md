@@ -19,33 +19,33 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Stofna fjárhagsáætlun úr færslulyklum og samtölulyklum
+# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="92601-104">Stofna fjárhagsáætlun úr færslulyklum og samtölulyklum</span><span class="sxs-lookup"><span data-stu-id="92601-104">Create a budget from transaction accounts and total accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur yfirlit yfir ferli þess að búa til fjárhagsáætlanir á grunni heildarreikninga. Hún útskýrir einnig hvernig skuli kveikja á fjárhagsáætlunarstýringu fyrir heildarreikninga, ef fjárhagsáætlunarstýringar er krafist.
+<span data-ttu-id="92601-105">Þessi grein gefur yfirlit yfir ferli þess að búa til fjárhagsáætlanir á grunni heildarreikninga.</span><span class="sxs-lookup"><span data-stu-id="92601-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="92601-106">Hún útskýrir einnig hvernig skuli kveikja á fjárhagsáætlunarstýringu fyrir heildarreikninga, ef fjárhagsáætlunarstýringar er krafist.</span><span class="sxs-lookup"><span data-stu-id="92601-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 
-Bæði fjárhagsáætlun og skjöl í fjárhagsáætlunarskrá leyfa fjárhagsáætlanagerð á aðallyklum sem hefur°tegund aðallykils°sem **Samtals**. Aðeins er hægt að bóka rauntölur í aðallykla færslur. 
+<span data-ttu-id="92601-107">Bæði fjárhagsáætlun og skjöl í fjárhagsáætlunarskrá leyfa fjárhagsáætlanagerð á aðallyklum sem hefur°tegund aðallykils°sem **Samtals**.</span><span class="sxs-lookup"><span data-stu-id="92601-107">Both budget plan and budget register entry documents allow for budgeting on main accounts that have a main account type of **Total**.</span></span> <span data-ttu-id="92601-108">Aðeins er hægt að bóka rauntölur í aðallykla færslur.</span><span class="sxs-lookup"><span data-stu-id="92601-108">Actuals can be posted only to transactional main accounts.</span></span> 
 
-Fyrir°reglubundnu vinnsluna **Mynda fjárhagsáætlun úr fjárhag** í flipanum **Uppruni** er hægt að tilgreina **Samtals** aðallykilgerð sem skilyrði. Í þessu tilfelli verður hver samtal aðallykils tekin með í°markfjárhagsáætlunina og°upphæðin jafngildir heildarupphæð á sviði°valinna°aðallykla. 
+<span data-ttu-id="92601-109">Fyrir°reglubundnu vinnsluna **Mynda fjárhagsáætlun úr fjárhag** í flipanum **Uppruni** er hægt að tilgreina **Samtals** aðallykilgerð sem skilyrði.</span><span class="sxs-lookup"><span data-stu-id="92601-109">For the **Generate budget plan from General ledger** periodic process, on the **Source** tab, you can specify the **Total** main account type as a criterion.</span></span> <span data-ttu-id="92601-110">Í þessu tilfelli verður hver samtal aðallykils tekin með í°markfjárhagsáætlunina og°upphæðin jafngildir heildarupphæð á sviði°valinna°aðallykla.</span><span class="sxs-lookup"><span data-stu-id="92601-110">In this case, each total main account will be included in the target budget plan, and the amount will equal the total amount of the range of selected main accounts.</span></span> 
 
-Hægt er að virkja°fjárhagsáætlunarstýringu fyrir aðallykla af gerðinni **Samtals**. Þessi virkni er studd gegnum notkun fjárhagsáætlunarflokka. Fyrir hvern samtals aðallykil verður fjárhagsáætlunin sem á að stýra fyrir flokk fjárhagsáætlana að vera stofnuð á **síðunni **Skilgreining fjárhagsáætlunarstýringar. Skilyrði sem er tilgreind verða að vera samtölur aðallykils og svið lykla. Til að hraða stofnun fjárhagsáætlunarflokka er hægt nýta Stýringu fjárhagsáætlunarflokka gagnaeiningar. 
+<span data-ttu-id="92601-111">Hægt er að virkja°fjárhagsáætlunarstýringu fyrir aðallykla af gerðinni **Samtals**.</span><span class="sxs-lookup"><span data-stu-id="92601-111">You can activate budget control for main accounts of the **Total** type.</span></span> <span data-ttu-id="92601-112">Þessi virkni er studd gegnum notkun fjárhagsáætlunarflokka.</span><span class="sxs-lookup"><span data-stu-id="92601-112">This functionality is supported through the use of budget groups.</span></span> <span data-ttu-id="92601-113">Fyrir hvern samtals aðallykil verður fjárhagsáætlunin sem á að stýra fyrir flokk fjárhagsáætlana að vera stofnuð á **síðunni **Skilgreining fjárhagsáætlunarstýringar.</span><span class="sxs-lookup"><span data-stu-id="92601-113">For each total main account, the budget that should be controlled for a budget group must be created on the **Budget control configuration **page.</span></span> <span data-ttu-id="92601-114">Skilyrði sem er tilgreind verða að vera samtölur aðallykils og svið lykla.</span><span class="sxs-lookup"><span data-stu-id="92601-114">The criteria that you specify must include the total main account and the range of accounts.</span></span> <span data-ttu-id="92601-115">Til að hraða stofnun fjárhagsáætlunarflokka er hægt nýta Stýringu fjárhagsáætlunarflokka gagnaeiningar.</span><span class="sxs-lookup"><span data-stu-id="92601-115">To speed up the process of creating budget groups, you can take advantage of the Budget control groups data entity.</span></span> 
 
-Þegar fjárhagsáætlun er notuð í skýrslugerð, til dæmis í fjárhagsskýrslu, er samtala áætlunarinnar fyrir samtölulykilinn samsett úr eftirfarandi upphæðum:
+<span data-ttu-id="92601-116">Þegar fjárhagsáætlun er notuð í skýrslugerð, til dæmis í fjárhagsskýrslu, er samtala áætlunarinnar fyrir samtölulykilinn samsett úr eftirfarandi upphæðum:</span><span class="sxs-lookup"><span data-stu-id="92601-116">When a budget is used in reporting, such as on a financial statement, the budget sum for the total account consists of the following amounts:</span></span>
 
--   Fjárhagsáætlanirnar sem eru stofnaðar úr hverjum færslufjárhagslykli innan bils samtölulykilsins.
--   Fjárhagsáætlunarupphæðin sem er færð beint inn á samtölulykilinn.
+-   <span data-ttu-id="92601-117">Fjárhagsáætlanirnar sem eru stofnaðar úr hverjum færslufjárhagslykli innan bils samtölulykilsins.</span><span class="sxs-lookup"><span data-stu-id="92601-117">The budgets that are created from each transaction ledger account in the interval of the total account.</span></span>
+-   <span data-ttu-id="92601-118">Fjárhagsáætlunarupphæðin sem er færð beint inn á samtölulykilinn.</span><span class="sxs-lookup"><span data-stu-id="92601-118">The budget amount that is entered directly on the total account.</span></span>
 
-Þetta°gerir kleift að stofna aðskildar fjárhagsáætlanir fyrir mikilvægustu færslulyklana innan bilsins í samtölulyklinum og að bæta eftirstandandi upphæð fjárhagsáætlunar við samtölulykilinn.
+<span data-ttu-id="92601-119">Þetta°gerir kleift að stofna aðskildar fjárhagsáætlanir fyrir mikilvægustu færslulyklana innan bilsins í samtölulyklinum og að bæta eftirstandandi upphæð fjárhagsáætlunar við samtölulykilinn.</span><span class="sxs-lookup"><span data-stu-id="92601-119">Therefore, you can create separate budgets for the most significant transaction accounts in the interval of the total account, and then add the available budget amount to the total account.</span></span>
 
 
 

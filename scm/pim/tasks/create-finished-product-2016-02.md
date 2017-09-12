@@ -1,56 +1,50 @@
 --- 
-title: "Stofna tilbúna afurð (aðeins febrúar 2016)"
-description: "Þetta verk einblínir á að búa til tilbúin afurð."
+# required metadata 
+title: Stofna tilbúna afurð (aðeins febrúar 2016)
+description: Þetta verk einblínir á að búa til tilbúin afurð.
 author: BibiSp
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a31a18ee075c865d5ad99f7cf4ca2eac7c6281c9
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="create-a-finished-product-february-2016-only"></a>Stofna tilbúna afurð (aðeins febrúar 2016)
+# <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="abfe5-103">Stofna tilbúna afurð (aðeins febrúar 2016)</span><span class="sxs-lookup"><span data-stu-id="abfe5-103">Create a finished product (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta verk einblínir á að búa til tilbúin afurð. Þetta er fyrsta verkið í línunni Útreikningur uppskrifta. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
+<span data-ttu-id="abfe5-104">Þetta verk einblínir á að búa til tilbúin afurð.</span><span class="sxs-lookup"><span data-stu-id="abfe5-104">This task focuses on creating a finished product.</span></span> <span data-ttu-id="abfe5-105">Þetta er fyrsta verkið í línunni Útreikningur uppskrifta.</span><span class="sxs-lookup"><span data-stu-id="abfe5-105">It is the first task in the BOM calculation series.</span></span> <span data-ttu-id="abfe5-106">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="abfe5-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.
-2. Smellið á „Nýtt“.
-3. Í reitinn Afurðarnúmer skal slá inn gildi.
-    * Sláðu inn BOM_1 fyrir kynning.  
-4. Í reitinn Vörulíkanaflokkur skal slá inn eða veldu gildi.
-    * Veldu STD. STD stendur fyrir staðalkostnaður og er mest notaða líkan þegar unnið með kostnaðarútreikningur.  
-5. Í reitinn Vöruflokkur skal slá inn eða velja gildi.
-    * Veljið t.d. Hljóðvinnsla. Þetta hefur engin áhrif á kostnaðarútreikningur.  
-6. Í reitinn Geymsluvíddarflokkur skal slá inn eða velja gildi.
-    * Velja SiteWH. Aðeins Svæði og vöruhús verður notað í kynning.  
-7. Í reitinn Rakningarvíddarflokkur skal slá inn eða velja gildi.
-    * Rakningarvíddir verða ekki notað í þessu dæmi, velja skal Ekkert.  
-8. Smellið á „Í lagi“.
-9. Á Aðgerðasvæðinu skal smella á Stjórna birgðum.
-10. Smellt er á sjálfgefnar pöntunarstillingar.
-11. Í svæði Sjálfgefin pöntunargerð skal velja „Framleiðsla“.
-    * Vegna þess að þetta er tilbúin afurð sem verður framleidd, velja Framleiðsla.  
-12. Í svæði „Innkaupasvæði“ slá inn eða velja gildi.
-    * Fyrir kynning, velja Svæði 1.  
-13. Í svæði Birgðasvæði slá inn eða velja gildi.
-    * Í þessu dæmi skal velja Svæði 1.  
-14. Í svæði Sölusvæði slá inn eða velja gildi.
-    * Í þessu dæmi skal velja Svæði 1.  
-15. Lokið síðunni.
-
+1. <span data-ttu-id="abfe5-107">Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="abfe5-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="abfe5-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="abfe5-108">Click New.</span></span>
+3. <span data-ttu-id="abfe5-109">Í reitinn Afurðarnúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="abfe5-110">Sláðu inn BOM_1 fyrir kynning.</span><span class="sxs-lookup"><span data-stu-id="abfe5-110">For the demonstration, type BOM_1.</span></span>  
+4. <span data-ttu-id="abfe5-111">Í reitinn Vörulíkanaflokkur skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-111">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-112">Veldu STD.</span><span class="sxs-lookup"><span data-stu-id="abfe5-112">Select STD.</span></span> <span data-ttu-id="abfe5-113">STD stendur fyrir staðalkostnaður og er mest notaða líkan þegar unnið með kostnaðarútreikningur.</span><span class="sxs-lookup"><span data-stu-id="abfe5-113">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+5. <span data-ttu-id="abfe5-114">Í reitinn Vöruflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-114">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-115">Veljið t.d. Hljóðvinnsla.</span><span class="sxs-lookup"><span data-stu-id="abfe5-115">For example, select Audio.</span></span> <span data-ttu-id="abfe5-116">Þetta hefur engin áhrif á kostnaðarútreikningur.</span><span class="sxs-lookup"><span data-stu-id="abfe5-116">This has no impact on cost calculations.</span></span>  
+6. <span data-ttu-id="abfe5-117">Í reitinn Geymsluvíddarflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-117">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-118">Velja SiteWH.</span><span class="sxs-lookup"><span data-stu-id="abfe5-118">Select SiteWH.</span></span> <span data-ttu-id="abfe5-119">Aðeins Svæði og vöruhús verður notað í kynning.</span><span class="sxs-lookup"><span data-stu-id="abfe5-119">Only Site and Warehouse will be used for the demonstration.</span></span>  
+7. <span data-ttu-id="abfe5-120">Í reitinn Rakningarvíddarflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-121">Rakningarvíddir verða ekki notað í þessu dæmi, velja skal Ekkert.</span><span class="sxs-lookup"><span data-stu-id="abfe5-121">Tracking dimensions will not be used for this example, select None.</span></span>  
+8. <span data-ttu-id="abfe5-122">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abfe5-122">Click OK.</span></span>
+9. <span data-ttu-id="abfe5-123">Á Aðgerðasvæðinu skal smella á Stjórna birgðum.</span><span class="sxs-lookup"><span data-stu-id="abfe5-123">On the Action Pane, click Manage inventory.</span></span>
+10. <span data-ttu-id="abfe5-124">Smellt er á sjálfgefnar pöntunarstillingar.</span><span class="sxs-lookup"><span data-stu-id="abfe5-124">Click Default order settings.</span></span>
+11. <span data-ttu-id="abfe5-125">Í svæði Sjálfgefin pöntunargerð skal velja „Framleiðsla“.</span><span class="sxs-lookup"><span data-stu-id="abfe5-125">In the Default order type field, select 'Production'.</span></span>
+    * <span data-ttu-id="abfe5-126">Vegna þess að þetta er tilbúin afurð sem verður framleidd, velja Framleiðsla.</span><span class="sxs-lookup"><span data-stu-id="abfe5-126">Because this is a finished product that will be produced, select Production.</span></span>  
+12. <span data-ttu-id="abfe5-127">Í svæði „Innkaupasvæði“ slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-127">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-128">Fyrir kynning, velja Svæði 1.</span><span class="sxs-lookup"><span data-stu-id="abfe5-128">For the demonstration, select Site 1.</span></span>  
+13. <span data-ttu-id="abfe5-129">Í svæði Birgðasvæði slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-129">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-130">Í þessu dæmi skal velja Svæði 1.</span><span class="sxs-lookup"><span data-stu-id="abfe5-130">For this example, select Site 1.</span></span>  
+14. <span data-ttu-id="abfe5-131">Í svæði Sölusvæði slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-131">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="abfe5-132">Í þessu dæmi skal velja Svæði 1.</span><span class="sxs-lookup"><span data-stu-id="abfe5-132">For this example, select Site 1.</span></span>  
+15. <span data-ttu-id="abfe5-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abfe5-133">Close the page.</span></span>
 

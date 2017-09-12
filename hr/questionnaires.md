@@ -19,43 +19,43 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: bcaaa846e0e88eca2c24048b483db8a031b19c43
-ms.openlocfilehash: 703174d3c9809949af2eec2eb996e1e80eac3393
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fda9e7b017d26f7145414548424e194861095d65
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="questionnaires"></a>Spurningalistar
+# <a name="questionnaires"></a><span data-ttu-id="b138b-105">Spurningalistar</span><span class="sxs-lookup"><span data-stu-id="b138b-105">Questionnaires</span></span>
 
-Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar. 
+<span data-ttu-id="b138b-106">Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="b138b-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="b138b-107">Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi.</span><span class="sxs-lookup"><span data-stu-id="b138b-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="b138b-108">Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar.</span><span class="sxs-lookup"><span data-stu-id="b138b-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 
-Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Finance and Operations, Enterprise Edition. Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:
+<span data-ttu-id="b138b-109">Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="b138b-109">You can customize a questionnaire to fit your specific requirements by using various features that are available in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span></span> <span data-ttu-id="b138b-110">Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:</span><span class="sxs-lookup"><span data-stu-id="b138b-110">Here are some examples of how questionnaires can be used:</span></span>
 
--   Prófa faglega hæfni starfsmanna og umsækjenda.
--   Meta hvort þátttakendur á námskeiðinu lærðu efni°námskeiðsins°.
--   Meta námskeiðið (til dæmis aðstöðu, efni námskeiðsins og leiðbeinanda).
--   Kanna ánægju starfsmanna og viðskiptavina.
--   Meta frammistöðu starfsmanns í starfi.
+-   <span data-ttu-id="b138b-111">Prófa faglega hæfni starfsmanna og umsækjenda.</span><span class="sxs-lookup"><span data-stu-id="b138b-111">Test the professional skills of employees and applicants.</span></span>
+-   <span data-ttu-id="b138b-112">Meta hvort þátttakendur á námskeiðinu lærðu efni°námskeiðsins°.</span><span class="sxs-lookup"><span data-stu-id="b138b-112">Evaluate whether course participants learned the course material.</span></span>
+-   <span data-ttu-id="b138b-113">Meta námskeiðið (til dæmis aðstöðu, efni námskeiðsins og leiðbeinanda).</span><span class="sxs-lookup"><span data-stu-id="b138b-113">Evaluate a course (for example, the facilities, content, and instructor).</span></span>
+-   <span data-ttu-id="b138b-114">Kanna ánægju starfsmanna og viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="b138b-114">Survey employee and customer satisfaction.</span></span>
+-   <span data-ttu-id="b138b-115">Meta frammistöðu starfsmanns í starfi.</span><span class="sxs-lookup"><span data-stu-id="b138b-115">Evaluate employee job performance.</span></span>
 
-Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista í kjarna. Smellið á tenglana fyrir frekari upplýsingar.
+<span data-ttu-id="b138b-116">Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista í kjarna.</span><span class="sxs-lookup"><span data-stu-id="b138b-116">The following table provides links to information about the core questionnaire tasks.</span></span> <span data-ttu-id="b138b-117">Smellið á tenglana fyrir frekari upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="b138b-117">Click the links for more information.</span></span>
 
-| Efni| lýsing|
+| <span data-ttu-id="b138b-118">Efni</span><span class="sxs-lookup"><span data-stu-id="b138b-118">Topic</span></span>| <span data-ttu-id="b138b-119">lýsing</span><span class="sxs-lookup"><span data-stu-id="b138b-119">Description</span></span>|
 |------|------------|
-| [Hanna spurningalista](design-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig hanna á spurningalista. Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista. |
-| [Dreifa og ljúka spurningalista](distribute-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.                                                                       |
-| [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.                                                                                        |
+| [<span data-ttu-id="b138b-120">Hanna spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-120">Design a questionnaire</span></span>](design-questionnaires.md)  | <span data-ttu-id="b138b-121">Þessi grein veitir upplýsingar um hvernig hanna á spurningalista.</span><span class="sxs-lookup"><span data-stu-id="b138b-121">This article provides information about how to design a questionnaire.</span></span> <span data-ttu-id="b138b-122">Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista.</span><span class="sxs-lookup"><span data-stu-id="b138b-122">The design process involves setting up prerequisites, answers, and questions, and then combining them into a questionnaire.</span></span> |
+| [<span data-ttu-id="b138b-123">Dreifa og ljúka spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-123">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)  | <span data-ttu-id="b138b-124">Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.</span><span class="sxs-lookup"><span data-stu-id="b138b-124">This article provides information about how to distribute a questionnaire to respondents and how to complete questionnaires.</span></span>                                                                       |
+| [<span data-ttu-id="b138b-125">Skoða og meta niðurstöður spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-125">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md) | <span data-ttu-id="b138b-126">Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.</span><span class="sxs-lookup"><span data-stu-id="b138b-126">This article provides information about how to view and evaluate the results from completed questionnaires.</span></span>                                                                                        |
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="b138b-127">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="b138b-127">See also</span></span>
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[<span data-ttu-id="b138b-128">Hönnun spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-128">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
+[<span data-ttu-id="b138b-129">Dreifa og ljúka°spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-129">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
 
-[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[<span data-ttu-id="b138b-130">Skoða og meta niðurstöður spurningalista</span><span class="sxs-lookup"><span data-stu-id="b138b-130">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 

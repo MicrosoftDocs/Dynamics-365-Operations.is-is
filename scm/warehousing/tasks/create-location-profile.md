@@ -17,28 +17,28 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d5fa99fb0665e2a93639f6ec87dbdfa8f7d209a8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a4a159b0e849a73efb362ccadb841bd25c323290
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-location-profile"></a>Stofna staðsetningarforstillingu
+# <a name="create-a-location-profile"></a><span data-ttu-id="d12ec-103">Stofna staðsetningarforstillingu</span><span class="sxs-lookup"><span data-stu-id="d12ec-103">Create a location profile</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur. Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu. Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.
+<span data-ttu-id="d12ec-104">Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur.</span><span class="sxs-lookup"><span data-stu-id="d12ec-104">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="d12ec-105">Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu.</span><span class="sxs-lookup"><span data-stu-id="d12ec-105">In this procedure we’ll create a profile for a location that doesn’t require license plate control.</span></span> <span data-ttu-id="d12ec-106">Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu.</span><span class="sxs-lookup"><span data-stu-id="d12ec-106">We’ll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="d12ec-107">Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="d12ec-107">You can use this procedure in the USMF demo data company.</span></span>
 
-1. Smellið á „Nýtt“.
-2. Færa inn gildi í reitnum Kenni forstillingar staðsetningar.
-3. Í reitinn Heiti skal slá inn gildi.
-4. Sláðu inn eða veldu gildi í reitnum Staðsetningarsnið
-5. Færa inn eða veljið gildi í svæðinu gerð staðsetningu.
-6. Í reitinn Auðkenni fyrir forstillingu dreifingarstjórnunar skal slá inn eða velja gildi.
-7. Velja skal Já í svæðinu Leyfa blandaðar vörur.
-8. Velja skal Já í svæðinu Leyfa blandað birgðastaða.
-9. Velja skal Já í svæðinu Leyfa regluleg talning.
-10. Smellið á „Vista“.
-11. Fara í vöruhúsakerfi > Uppsetning > Vöruhús > Forstillingar staðsetningar.
+1. <span data-ttu-id="d12ec-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="d12ec-108">Click New.</span></span>
+2. <span data-ttu-id="d12ec-109">Færa inn gildi í reitnum Kenni forstillingar staðsetningar.</span><span class="sxs-lookup"><span data-stu-id="d12ec-109">In the Location profile ID field, type a value.</span></span>
+3. <span data-ttu-id="d12ec-110">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="d12ec-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="d12ec-111">Sláðu inn eða veldu gildi í reitnum Staðsetningarsnið</span><span class="sxs-lookup"><span data-stu-id="d12ec-111">In the Location format field, enter or select a value.</span></span>
+5. <span data-ttu-id="d12ec-112">Færa inn eða veljið gildi í svæðinu gerð staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="d12ec-112">In the Location type field, enter or select a value.</span></span>
+6. <span data-ttu-id="d12ec-113">Í reitinn Auðkenni fyrir forstillingu dreifingarstjórnunar skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="d12ec-113">In the Dock management profile ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="d12ec-114">Velja skal Já í svæðinu Leyfa blandaðar vörur.</span><span class="sxs-lookup"><span data-stu-id="d12ec-114">Select Yes in the Allow mixed items field.</span></span>
+8. <span data-ttu-id="d12ec-115">Velja skal Já í svæðinu Leyfa blandað birgðastaða.</span><span class="sxs-lookup"><span data-stu-id="d12ec-115">Select Yes in the Allow mixed  inventory statuses field.</span></span>
+9. <span data-ttu-id="d12ec-116">Velja skal Já í svæðinu Leyfa regluleg talning.</span><span class="sxs-lookup"><span data-stu-id="d12ec-116">Select Yes in the Allow cycle counting field.</span></span>
+10. <span data-ttu-id="d12ec-117">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="d12ec-117">Click Save.</span></span>
+11. <span data-ttu-id="d12ec-118">Fara í vöruhúsakerfi > Uppsetning > Vöruhús > Forstillingar staðsetningar.</span><span class="sxs-lookup"><span data-stu-id="d12ec-118">Go to Warehouse management > Setup > Warehouse > Location profiles.</span></span>
 
 

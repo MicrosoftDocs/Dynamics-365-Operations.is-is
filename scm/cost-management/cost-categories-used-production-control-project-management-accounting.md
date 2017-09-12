@@ -17,30 +17,30 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.
+# <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="c1a95-104">Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="c1a95-104">Cost categories used in Production control and Project management accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk.
+<span data-ttu-id="c1a95-105">Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur.</span><span class="sxs-lookup"><span data-stu-id="c1a95-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="c1a95-106">Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk.</span><span class="sxs-lookup"><span data-stu-id="c1a95-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 
-Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Í þessu tilfelli er kostnaðartegundar krafist fyrir framleiðslu og verk. Þegar kostnaðartegund er notuð í framleiðslu og verk, verður að skilgreina viðbótarupplýsingar tengdar verki. Til dæmis getur tímakostnaðurinn sem er tengdur verkum verið annar en sá sem tengist framleiðslu. Hægt er að nota síðuna **Kostnaðartegundir** til að skilgreina kostnaðartegund sem er notuð í bókhaldi Framleiðslustýringar og Verkefnastjórnunar. **Athugasemd:** Kostnaðarbókhald hefur síðuna **Verktegundir** en þessi síða tengist á engan hátt þeim aðgerðum sem er lýst í þessu efnisatriði. Þegar kostnaðartegund er notuð í verk, hefur síðan **Kostnaðartegundir** viðbótarflipa sem birta nánari verktengdar upplýsingar. Þessar upplýsingar innihalda tegundaflokkinn, línueiginleika og fjárhagslykla sem eru úthlutaðir á kostnaðartegund.
+<span data-ttu-id="c1a95-107">Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur.</span><span class="sxs-lookup"><span data-stu-id="c1a95-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="c1a95-108">Í þessu tilfelli er kostnaðartegundar krafist fyrir framleiðslu og verk.</span><span class="sxs-lookup"><span data-stu-id="c1a95-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="c1a95-109">Þegar kostnaðartegund er notuð í framleiðslu og verk, verður að skilgreina viðbótarupplýsingar tengdar verki.</span><span class="sxs-lookup"><span data-stu-id="c1a95-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="c1a95-110">Til dæmis getur tímakostnaðurinn sem er tengdur verkum verið annar en sá sem tengist framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="c1a95-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="c1a95-111">Hægt er að nota síðuna **Kostnaðartegundir** til að skilgreina kostnaðartegund sem er notuð í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="c1a95-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> <span data-ttu-id="c1a95-112">**Athugasemd:** Kostnaðarbókhald hefur síðuna **Verktegundir** en þessi síða tengist á engan hátt þeim aðgerðum sem er lýst í þessu efnisatriði.</span><span class="sxs-lookup"><span data-stu-id="c1a95-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="c1a95-113">Þegar kostnaðartegund er notuð í verk, hefur síðan **Kostnaðartegundir** viðbótarflipa sem birta nánari verktengdar upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="c1a95-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="c1a95-114">Þessar upplýsingar innihalda tegundaflokkinn, línueiginleika og fjárhagslykla sem eru úthlutaðir á kostnaðartegund.</span><span class="sxs-lookup"><span data-stu-id="c1a95-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
 
--   Kostnaðartegund verður að úthluta á tegundarflokk sem styður færslugerðina **Klukkustundir**.
--   Línueiginleiki tilgreinir sjálfgefnar upplýsingar um hvernig tilkynntur tími verður reikningshæfur á verk.
--   Yfirleitt eru fjárhagslyklarnir sem tengjast kostnaði og sölu skilgreindir fyrir tegundarflokkinn sem er tengdur kostnaðartegundinni. Hins vegar er hægt að skilgreina tiltekna lykla fyrir stakar kostnaðartegundir.
+-   <span data-ttu-id="c1a95-115">Kostnaðartegund verður að úthluta á tegundarflokk sem styður færslugerðina **Klukkustundir**.</span><span class="sxs-lookup"><span data-stu-id="c1a95-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
+-   <span data-ttu-id="c1a95-116">Línueiginleiki tilgreinir sjálfgefnar upplýsingar um hvernig tilkynntur tími verður reikningshæfur á verk.</span><span class="sxs-lookup"><span data-stu-id="c1a95-116">The line property indicates default information about how reported time can be charged to a project.</span></span>
+-   <span data-ttu-id="c1a95-117">Yfirleitt eru fjárhagslyklarnir sem tengjast kostnaði og sölu skilgreindir fyrir tegundarflokkinn sem er tengdur kostnaðartegundinni.</span><span class="sxs-lookup"><span data-stu-id="c1a95-117">Typically, the ledger accounts that are related to costs and sales are defined for the category group that is assigned to the cost category.</span></span> <span data-ttu-id="c1a95-118">Hins vegar er hægt að skilgreina tiltekna lykla fyrir stakar kostnaðartegundir.</span><span class="sxs-lookup"><span data-stu-id="c1a95-118">However, specific accounts can be defined for an individual cost category.</span></span>
 
-Viðbótarhnappar á síðunni **Kostnaðartegundir** gefa aðgang að verktengdum upplýsingum um valda kostnaðartegund. T.d. er hægt að skoða verktengdar upplýsingar, skilgreina starfsmenn eða verk, skilgreina tímakostnað og söluverð og skoða skýrslur.
+<span data-ttu-id="c1a95-119">Viðbótarhnappar á síðunni **Kostnaðartegundir** gefa aðgang að verktengdum upplýsingum um valda kostnaðartegund.</span><span class="sxs-lookup"><span data-stu-id="c1a95-119">Additional buttons on the **Cost categories** page let you access project-related information about a selected cost category.</span></span> <span data-ttu-id="c1a95-120">T.d. er hægt að skoða verktengdar upplýsingar, skilgreina starfsmenn eða verk, skilgreina tímakostnað og söluverð og skoða skýrslur.</span><span class="sxs-lookup"><span data-stu-id="c1a95-120">For example, you can view project-related transactions, define employees or projects, define hourly costs and sales prices, and view reports.</span></span>
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Stöðvun í birgðum"
 description: "Þessi grein veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7d00aaa272de32d4ef2082bf1822125800ca8a1e
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: eed2f3e203808f378ce954b6cc308859fea89e60
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-blocking"></a>Stöðvun í birgðum
+# <a name="inventory-blocking"></a><span data-ttu-id="3752a-104">Stöðvun í birgðum</span><span class="sxs-lookup"><span data-stu-id="3752a-104">Inventory blocking</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
+<span data-ttu-id="3752a-105">Þessi grein veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.</span><span class="sxs-lookup"><span data-stu-id="3752a-105">This article provides an overview of inventory blocking, which is part of the quality inspection process in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="3752a-106">Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.</span><span class="sxs-lookup"><span data-stu-id="3752a-106">You can use inventory blocking to prevent items from being processed or consumed.</span></span>
 
-Hægt er að loka vörubirgðum á eftirfarandi vegu.
--   Handvirkt
--   Með því að stofna gæðapöntun
--   Með því að nota ferlið sem myndar gæðapöntun
--   Með því að nota Birgðastöðulokun
+<span data-ttu-id="3752a-107">Hægt er að loka vörubirgðum á eftirfarandi vegu.</span><span class="sxs-lookup"><span data-stu-id="3752a-107">You can block inventory items in the following ways:</span></span>
+-   <span data-ttu-id="3752a-108">Handvirkt</span><span class="sxs-lookup"><span data-stu-id="3752a-108">Manually</span></span>
+-   <span data-ttu-id="3752a-109">Með því að stofna gæðapöntun</span><span class="sxs-lookup"><span data-stu-id="3752a-109">By creating a quality order</span></span>
+-   <span data-ttu-id="3752a-110">Með því að nota ferlið sem myndar gæðapöntun</span><span class="sxs-lookup"><span data-stu-id="3752a-110">By using a process that generates a quality order</span></span>
+-   <span data-ttu-id="3752a-111">Með því að nota Birgðastöðulokun</span><span class="sxs-lookup"><span data-stu-id="3752a-111">By using inventory status blocking</span></span>
 
-## <a name="blocking-items-manually"></a>Læsa vörum handvirkt
-Hægt er að loka á magn af vöru með því að stofna færslu í síðunni **birgðalæsing**. Aðeins er hægt að læsa vörum handvirkt sem eru í boði sem lagerbirgðir. Fyrir handvirkt læst magn verður að hugleiða hvort áætlun verkþátta innihaldi viðbúnar uppskriftir sem væntanlegt magn á lager. Áætlaðar innhreyfingar eru læstar vörur sem von er á að sé tiltækt sem birgðir á lager eftir skoðun. Hægt er að viðhalda viðbúinni dagsetningu. Að sjálfgefnu **Áætlaðar innhreyfingar** valkostur er valinn fyrir vörur sem eru læstar gegnum gæðapöntun. Hægt er að afturkalla handvirka lokun á handvirkt læstu magni með því að eyða færslu á síðunni **birgðalæsing**.
+## <a name="blocking-items-manually"></a><span data-ttu-id="3752a-112">Læsa vörum handvirkt</span><span class="sxs-lookup"><span data-stu-id="3752a-112">Blocking items manually</span></span>
+<span data-ttu-id="3752a-113">Hægt er að loka á magn af vöru með því að stofna færslu í síðunni **birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="3752a-113">You can block a quantity of an item by creating a transaction on the **Inventory blocking** page.</span></span> <span data-ttu-id="3752a-114">Aðeins er hægt að læsa vörum handvirkt sem eru í boði sem lagerbirgðir.</span><span class="sxs-lookup"><span data-stu-id="3752a-114">Only items that are available as on-hand inventory can be blocked manually.</span></span> <span data-ttu-id="3752a-115">Fyrir handvirkt læst magn verður að hugleiða hvort áætlun verkþátta innihaldi viðbúnar uppskriftir sem væntanlegt magn á lager.</span><span class="sxs-lookup"><span data-stu-id="3752a-115">For manually blocked quantities, you must decide whether planning activities include expected receipts as an expected on-hand quantity.</span></span> <span data-ttu-id="3752a-116">Áætlaðar innhreyfingar eru læstar vörur sem von er á að sé tiltækt sem birgðir á lager eftir skoðun.</span><span class="sxs-lookup"><span data-stu-id="3752a-116">Expected receipts are blocked items that you expect to be available as on-hand inventory after inspection is completed.</span></span> <span data-ttu-id="3752a-117">Hægt er að viðhalda viðbúinni dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="3752a-117">You can maintain the expected date.</span></span> <span data-ttu-id="3752a-118">Að sjálfgefnu **Áætlaðar innhreyfingar** valkostur er valinn fyrir vörur sem eru læstar gegnum gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="3752a-118">By default, the **Expected receipts** option is selected for items that are blocked through a quality order.</span></span> <span data-ttu-id="3752a-119">Hægt er að afturkalla handvirka lokun á handvirkt læstu magni með því að eyða færslu á síðunni **birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="3752a-119">You can cancel a manual block on a quantity by deleting the transaction on the **Inventory blocking** page.</span></span>
 
-## <a name="blocking-items-by-creating-a-quality-order"></a>Læsa vörum með því að stofna gæðapöntun
-Hægt er að tilgreina vörurnar sem verða skoðaðar með því að stofna gæðapöntun á í **gæðapantanir** síðu. Þegar gæðapöntun er stofnuð er magn vöru sem tilgreint er lokað. Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar aðeins magni vara sem verður að skoða, ekki magni sem eru læst. magn vöru sem er færð inn á gæðapöntunina er magnið sem er lokað Óháð því magni sem er sent til skoðunar, eins og tilgreint er af úrtaksáætlun
+## <a name="blocking-items-by-creating-a-quality-order"></a><span data-ttu-id="3752a-120">Læsa vörum með því að stofna gæðapöntun</span><span class="sxs-lookup"><span data-stu-id="3752a-120">Blocking items by creating a quality order</span></span>
+<span data-ttu-id="3752a-121">Hægt er að tilgreina vörurnar sem verða skoðaðar með því að stofna gæðapöntun á í **gæðapantanir** síðu.</span><span class="sxs-lookup"><span data-stu-id="3752a-121">You can specify items that must be inspected by creating a quality order on the **Quality orders** page.</span></span> <span data-ttu-id="3752a-122">Þegar gæðapöntun er stofnuð er magn vöru sem tilgreint er lokað.</span><span class="sxs-lookup"><span data-stu-id="3752a-122">When you create a quality order, the quantity that you specify for an item is blocked.</span></span> <span data-ttu-id="3752a-123">Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar aðeins magni vara sem verður að skoða, ekki magni sem eru læst.</span><span class="sxs-lookup"><span data-stu-id="3752a-123">The sampling plan that is associated with a quality order controls only the quantity of items that must be inspected, not the quantity that is blocked.</span></span> <span data-ttu-id="3752a-124">magn vöru sem er færð inn á gæðapöntunina er magnið sem er lokað Óháð því magni sem er sent til skoðunar, eins og tilgreint er af úrtaksáætlun</span><span class="sxs-lookup"><span data-stu-id="3752a-124">The quantity that is entered on the quality order is the quantity that is blocked, regardless of the quantity that the sampling plan specifies should be sent for inspection.</span></span>
 
-## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Læsa vörum með ferli sem myndar gæðapöntun
-Ef gæðaferli tilgreinir að vara verður að vera skoðuð, er magn af vörunni læst sjálfkrafa. Þessvegna, Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar bæði magni vara sem eru útilokaðar og magni vara sem verður að skoða. Ef valkosturinn **full læsing** í **vöruúrtak** síðu er valinn er lokað fyrir fullt magn af til dæmis innkaupapöntunarlína við skoðun, óháð magni vörusýnishorns.
-### <a name="example"></a>Dæmi
+## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a><span data-ttu-id="3752a-125">Læsa vörum með ferli sem myndar gæðapöntun</span><span class="sxs-lookup"><span data-stu-id="3752a-125">Blocking items by using a process that generates a quality order</span></span>
+<span data-ttu-id="3752a-126">Ef gæðaferli tilgreinir að vara verður að vera skoðuð, er magn af vörunni læst sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="3752a-126">If a quality process specifies that an item must be inspected, a quantity of the item is blocked automatically.</span></span> <span data-ttu-id="3752a-127">Þessvegna, Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar bæði magni vara sem eru útilokaðar og magni vara sem verður að skoða.</span><span class="sxs-lookup"><span data-stu-id="3752a-127">Therefore, when a quality order is generated automatically, the item sampling plan that is associated with the quality order controls the both quantity of items that is blocked and the quantity that must be inspected.</span></span> <span data-ttu-id="3752a-128">Ef valkosturinn **full læsing** í **vöruúrtak** síðu er valinn er lokað fyrir fullt magn af til dæmis innkaupapöntunarlína við skoðun, óháð magni vörusýnishorns.</span><span class="sxs-lookup"><span data-stu-id="3752a-128">If the **Full blocking** option on the **Item sampling** page is selected, the full quantity of, for example, a purchase order line is blocked during inspection, regardless of the item sampling quantity.</span></span>
+### <a name="example"></a><span data-ttu-id="3752a-129">Dæmi</span><span class="sxs-lookup"><span data-stu-id="3752a-129">Example</span></span>
 
-Í eftirfarandi dæmi er gæðapöntun mynduð þegar fylgiseðill innkaupapöntunar er bókaður. Í á **gæðatengingar** síðunni, tilgreindirðu að bókun fylgiseðils innkaupapöntunar er ferlið sem virkjar gæðapöntun.
+<span data-ttu-id="3752a-130">Í eftirfarandi dæmi er gæðapöntun mynduð þegar fylgiseðill innkaupapöntunar er bókaður.</span><span class="sxs-lookup"><span data-stu-id="3752a-130">In the following example, a quality order is generated when a purchase order packing slip is posted.</span></span> <span data-ttu-id="3752a-131">Í á **gæðatengingar** síðunni, tilgreindirðu að bókun fylgiseðils innkaupapöntunar er ferlið sem virkjar gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="3752a-131">On the **Quality associations** page, you specified that posting of a purchase order packing slip is the process that activates a quality order.</span></span>
 
-|Uppsetning                                                                     |Aðgerðir notanda                 |Niðurstaða             |
+|<span data-ttu-id="3752a-132">Uppsetning</span><span class="sxs-lookup"><span data-stu-id="3752a-132">Setup</span></span>                                                                     |<span data-ttu-id="3752a-133">Aðgerðir notanda</span><span class="sxs-lookup"><span data-stu-id="3752a-133">User action</span></span>                 |<span data-ttu-id="3752a-134">Niðurstaða</span><span class="sxs-lookup"><span data-stu-id="3752a-134">Result</span></span>             |
 |--------------------------------------------------------------------------|----------------------------|-------------------|
-| Gæðatenging tilgreinir að við bókun fylgiseðils innkaupapöntunar þarf að mynda gæðapöntun. Uppsetning vörusýna gæðapöntunar tilgreinir að 10% af magn í innkaupapöntunarlínu verða að vera skoðaðar. Enn fremur, afþví **full læsing** valkosturinn er valinn sýnir sýnishorn vörunnar að allt magnið í innkaupapöntunarlínunni verður að vera læst við skoðun óháð því magni sem er sent til skoðunar. | Fylgiseðillinn er bókaður. | Gæðapöntun er mynduð. Tíu prósent af magni innkaupapöntunar af hlutnum er sendur til skoðunar. Heildarmagn á innkaupapöntunarlínunni er lokað. |
+| <span data-ttu-id="3752a-135">Gæðatenging tilgreinir að við bókun fylgiseðils innkaupapöntunar þarf að mynda gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="3752a-135">A quality association specifies that a quality order must be generated when a purchase order packing slip is posted.</span></span> <span data-ttu-id="3752a-136">Uppsetning vörusýna gæðapöntunar tilgreinir að 10% af magn í innkaupapöntunarlínu verða að vera skoðaðar.</span><span class="sxs-lookup"><span data-stu-id="3752a-136">The item sampling setup of the quality order specifies that 10 percent of the quantity on the purchase order line must be inspected.</span></span> <span data-ttu-id="3752a-137">Enn fremur, afþví **full læsing** valkosturinn er valinn sýnir sýnishorn vörunnar að allt magnið í innkaupapöntunarlínunni verður að vera læst við skoðun óháð því magni sem er sent til skoðunar.</span><span class="sxs-lookup"><span data-stu-id="3752a-137">Furthermore, because the **Full blocking** option selected in the item sampling setup, the full quantity of the purchase order line must be blocked during inspection, regardless of the quantity that is sent for inspection.</span></span> | <span data-ttu-id="3752a-138">Fylgiseðillinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="3752a-138">The packing slip is posted.</span></span> | <span data-ttu-id="3752a-139">Gæðapöntun er mynduð.</span><span class="sxs-lookup"><span data-stu-id="3752a-139">A quality order is generated.</span></span> <span data-ttu-id="3752a-140">Tíu prósent af magni innkaupapöntunar af hlutnum er sendur til skoðunar.</span><span class="sxs-lookup"><span data-stu-id="3752a-140">Ten percent of the purchase order quantity for the item is sent to inspection.</span></span> <span data-ttu-id="3752a-141">Heildarmagn á innkaupapöntunarlínunni er lokað.</span><span class="sxs-lookup"><span data-stu-id="3752a-141">The full quantity of the purchase order line is blocked.</span></span> |
 
-## <a name="blocking-items-by-using-inventory-status-blocking"></a>Læsa vörum Með því að nota Birgðastöðulokun
-Hægt er að tilgreina hvaða birgðastöður eru lokunarstöður með því að nota **birgðalæsingu** færibreytur á í **Birgða stöður** síðu. Þú getur ekki notað birgðastöðu sem lokunar stöður fyrir framleiðslupantanir, sölupantanir, flutningspantanir, færslur á útleið eða samþættingar verks. Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef vörur með stöðuna **slitin** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
+## <a name="blocking-items-by-using-inventory-status-blocking"></a><span data-ttu-id="3752a-142">Læsa vörum Með því að nota Birgðastöðulokun</span><span class="sxs-lookup"><span data-stu-id="3752a-142">Blocking items by using inventory status blocking</span></span>
+<span data-ttu-id="3752a-143">Hægt er að tilgreina hvaða birgðastöður eru lokunarstöður með því að nota **birgðalæsingu** færibreytur á í **Birgða stöður** síðu.</span><span class="sxs-lookup"><span data-stu-id="3752a-143">You can specify which inventory statuses are blocking statuses by using the **Inventory blocking** parameter on the **Inventory statuses** page.</span></span> <span data-ttu-id="3752a-144">Þú getur ekki notað birgðastöðu sem lokunar stöður fyrir framleiðslupantanir, sölupantanir, flutningspantanir, færslur á útleið eða samþættingar verks.</span><span class="sxs-lookup"><span data-stu-id="3752a-144">You can't use inventory statuses as blocking statuses for production orders, sales orders, transfer orders, outbound transactions, or project integrations.</span></span> <span data-ttu-id="3752a-145">Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið.</span><span class="sxs-lookup"><span data-stu-id="3752a-145">For outbound work, use items that have an available inventory status.</span></span> <span data-ttu-id="3752a-146">Ef vörur með stöðuna **slitin** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="3752a-146">If items have a status of **Broken**, and master planning is run on those items, the items are considered missing, and inventory is automatically replenished.</span></span>
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="3752a-147">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="3752a-147">See also</span></span>
 --------
 
-[Stofna og viðhalda birgðalæsingu (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
+[<span data-ttu-id="3752a-148">Stofna og viðhalda birgðalæsingu (verkleiðbeiningar)</span><span class="sxs-lookup"><span data-stu-id="3752a-148">Create and maintain an inventory blocking (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
 
-[Gæðastjórnunarferli](quality-management-processes.md)
+[<span data-ttu-id="3752a-149">Gæðastjórnunarferli</span><span class="sxs-lookup"><span data-stu-id="3752a-149">Quality management processes</span></span>](quality-management-processes.md)
 
-[Skoða gæði vara (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
+[<span data-ttu-id="3752a-150">Skoða gæði vara (verkleiðbeiningar)</span><span class="sxs-lookup"><span data-stu-id="3752a-150">Inspect the quality of goods (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 

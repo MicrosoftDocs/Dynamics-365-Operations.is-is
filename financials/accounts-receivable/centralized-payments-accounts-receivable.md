@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-receivable"></a>Miðstýrðar greiðslur fyrir viðskiptakröfur
+# <a name="centralized-payments-for-accounts-receivable"></a><span data-ttu-id="9167b-105">Miðstýrðar greiðslur fyrir viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="9167b-105">Centralized payments for Accounts receivable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
+<span data-ttu-id="9167b-106">Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="9167b-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="9167b-107">Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila.</span><span class="sxs-lookup"><span data-stu-id="9167b-107">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="9167b-108">Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.</span><span class="sxs-lookup"><span data-stu-id="9167b-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þar að auki sparar fyrirtækið tíma, þar sem ferli fyrir greiðslutillögur, jöfnun og breytingu opninna og lokaðra færslna fyrir miðstýrðar greiðslur eru aðlöguð. 
+<span data-ttu-id="9167b-109">Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="9167b-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="9167b-110">Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila.</span><span class="sxs-lookup"><span data-stu-id="9167b-110">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="9167b-111">Þar að auki sparar fyrirtækið tíma, þar sem ferli fyrir greiðslutillögur, jöfnun og breytingu opninna og lokaðra færslna fyrir miðstýrðar greiðslur eru aðlöguð.</span><span class="sxs-lookup"><span data-stu-id="9167b-111">Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined.</span></span> 
 
-Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina. Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða fyrirtæki innan samtanna muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar. 
+<span data-ttu-id="9167b-112">Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="9167b-112">In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information.</span></span> <span data-ttu-id="9167b-113">Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="9167b-113">Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="9167b-114">Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar.</span><span class="sxs-lookup"><span data-stu-id="9167b-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="9167b-115">Hægt er að tilgreina hvaða fyrirtæki innan samtanna muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar.</span><span class="sxs-lookup"><span data-stu-id="9167b-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled.</span></span> 
 
-Eftirfarandi dæmi sýna hvernig bókanir eru meðhöndlaðar í mismunandi tilvikum. Eftirfarandi skilgreining er notuð í öllum þessum dæmum:
+<span data-ttu-id="9167b-116">Eftirfarandi dæmi sýna hvernig bókanir eru meðhöndlaðar í mismunandi tilvikum.</span><span class="sxs-lookup"><span data-stu-id="9167b-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="9167b-117">Eftirfarandi skilgreining er notuð í öllum þessum dæmum:</span><span class="sxs-lookup"><span data-stu-id="9167b-117">The following configuration is assumed for all these examples:</span></span>
 
--   Lögaðilarnir eru Fabrikam, Fabrikam East og Fabrikam West. Greiðslur viðskiptavinar eru færðar inn í Fabrikam.
--   Í reitnum **Bóka staðgreiðsluafslátt** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili reikningsins**.
--   Í reitnum **Bóka hagnað eða tap af gjaldeyrisviðskiptum** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili greiðslunnar**.
--   Viðskiptavinur Fourth Coffee er settur upp sem lánadrottinn í öllum lögaðilum. Viðskiptavinir frá ýmsum lögaðilum eru auðkenndir sem sami viðskiptavinur þar sem þeir samnýta sömu altæku aðsetursbókarkenni.
+-   <span data-ttu-id="9167b-118">Lögaðilarnir eru Fabrikam, Fabrikam East og Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="9167b-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="9167b-119">Greiðslur viðskiptavinar eru færðar inn í Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="9167b-119">Customer payments are entered into Fabrikam.</span></span>
+-   <span data-ttu-id="9167b-120">Í reitnum **Bóka staðgreiðsluafslátt** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili reikningsins**.</span><span class="sxs-lookup"><span data-stu-id="9167b-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="9167b-121">Í reitnum **Bóka hagnað eða tap af gjaldeyrisviðskiptum** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili greiðslunnar**.</span><span class="sxs-lookup"><span data-stu-id="9167b-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="9167b-122">Viðskiptavinur Fourth Coffee er settur upp sem lánadrottinn í öllum lögaðilum.</span><span class="sxs-lookup"><span data-stu-id="9167b-122">Customer Northwind Traders is set up as a customer in each legal entity.</span></span> <span data-ttu-id="9167b-123">Viðskiptavinir frá ýmsum lögaðilum eru auðkenndir sem sami viðskiptavinur þar sem þeir samnýta sömu altæku aðsetursbókarkenni.</span><span class="sxs-lookup"><span data-stu-id="9167b-123">The customers from the various legal entities are identified as the same customer because they share the same global address book ID.</span></span>
 
-| Kenni aðsetursbókar | Viðskiptavinalykill | Heiti              | Lögaðili  |
+| <span data-ttu-id="9167b-124">Kenni aðsetursbókar</span><span class="sxs-lookup"><span data-stu-id="9167b-124">Address book ID</span></span> | <span data-ttu-id="9167b-125">Viðskiptavinalykill</span><span class="sxs-lookup"><span data-stu-id="9167b-125">Customer account</span></span> | <span data-ttu-id="9167b-126">Heiti</span><span class="sxs-lookup"><span data-stu-id="9167b-126">Name</span></span>              | <span data-ttu-id="9167b-127">Lögaðili</span><span class="sxs-lookup"><span data-stu-id="9167b-127">Legal entity</span></span>  |
 |-----------------|------------------|-------------------|---------------|
-| 4050            | 4000             | Northwind Traders | Fabrikam      |
-| 4050            | 4000             | Northwind Traders | Fabrikam Austur |
-| 4050            | 10000            | Northwind Traders | Fabrikam Vestur |
+| <span data-ttu-id="9167b-128">4050</span><span class="sxs-lookup"><span data-stu-id="9167b-128">4050</span></span>            | <span data-ttu-id="9167b-129">4000</span><span class="sxs-lookup"><span data-stu-id="9167b-129">4000</span></span>             | <span data-ttu-id="9167b-130">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="9167b-130">Northwind Traders</span></span> | <span data-ttu-id="9167b-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="9167b-131">Fabrikam</span></span>      |
+| <span data-ttu-id="9167b-132">4050</span><span class="sxs-lookup"><span data-stu-id="9167b-132">4050</span></span>            | <span data-ttu-id="9167b-133">4000</span><span class="sxs-lookup"><span data-stu-id="9167b-133">4000</span></span>             | <span data-ttu-id="9167b-134">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="9167b-134">Northwind Traders</span></span> | <span data-ttu-id="9167b-135">Fabrikam Austur</span><span class="sxs-lookup"><span data-stu-id="9167b-135">Fabrikam East</span></span> |
+| <span data-ttu-id="9167b-136">4050</span><span class="sxs-lookup"><span data-stu-id="9167b-136">4050</span></span>            | <span data-ttu-id="9167b-137">10000</span><span class="sxs-lookup"><span data-stu-id="9167b-137">10000</span></span>            | <span data-ttu-id="9167b-138">Northwind Traders</span><span class="sxs-lookup"><span data-stu-id="9167b-138">Northwind Traders</span></span> | <span data-ttu-id="9167b-139">Fabrikam Vestur</span><span class="sxs-lookup"><span data-stu-id="9167b-139">Fabrikam West</span></span> |
 
-## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a>Dæmi 1: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila
-Fabrikam fær greiðslu að upphæð 600.00 fyrir Fabrikam lykil viðskiptavinar 4000, Northwind Traders. Greiðslan er jöfnuð með opnum reikningi fyrir lykil viðskiptavinar 4000 í Fabrikam East.
+## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="9167b-140">Dæmi 1: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila</span><span class="sxs-lookup"><span data-stu-id="9167b-140">Example 1: Customer payment of invoice from another legal entity</span></span>
+<span data-ttu-id="9167b-141">Fabrikam fær greiðslu að upphæð 600.00 fyrir Fabrikam lykil viðskiptavinar 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="9167b-141">Fabrikam receives a payment of 600.00 for Fabrikam customer account 4000, Northwind Traders.</span></span> <span data-ttu-id="9167b-142">Greiðslan er jöfnuð með opnum reikningi fyrir lykil viðskiptavinar 4000 í Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="9167b-142">The payment is settled with an open invoice for customer account 4000 in Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a>Reikningur er bókaður í Fabrikam East fyrir viðskiptavin 4000
+### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="9167b-143">Reikningur er bókaður í Fabrikam East fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-143">Invoice is posted in Fabrikam East for customer 4000</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-144">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-144">Account</span></span>                             | <span data-ttu-id="9167b-145">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-145">Debit amount</span></span> | <span data-ttu-id="9167b-146">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-146">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam East) | 600,00       |               |
-| Sala (Fabrikam East)               |              | 600,00        |
+| <span data-ttu-id="9167b-147">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-147">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-148">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-148">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-149">Sala (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-149">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="9167b-150">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-150">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Greiðsla er móttekin og bókuð í Fabrikam fyrir viðskiptavin 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="9167b-151">Greiðsla er móttekin og bókuð í Fabrikam fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-151">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Lykill                        | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-152">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-152">Account</span></span>                        | <span data-ttu-id="9167b-153">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-153">Debit amount</span></span> | <span data-ttu-id="9167b-154">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-154">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Reiðufé (Fabrikam)                | 600,00       |               |
-| Viðskiptavinir (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="9167b-155">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-155">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-156">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-156">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-157">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-157">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-158">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-158">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="9167b-159">Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi</span><span class="sxs-lookup"><span data-stu-id="9167b-159">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam bókun**
+<span data-ttu-id="9167b-160">**Fabrikam bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-160">**Fabrikam posting**</span></span>
 
-| Lykill                         | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-161">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-161">Account</span></span>                         | <span data-ttu-id="9167b-162">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-162">Debit amount</span></span> | <span data-ttu-id="9167b-163">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-163">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam)  | 600,00       |               |
-| Á gjalddaga til Fabrikam East (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="9167b-164">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-164">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="9167b-165">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-165">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-166">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-166">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-167">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-167">600.00</span></span>        |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-168">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-168">**Fabrikam East posting**</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-169">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-169">Account</span></span>                             | <span data-ttu-id="9167b-170">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-170">Debit amount</span></span> | <span data-ttu-id="9167b-171">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-171">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Á gjalddaga frá Fabrikam (Fabrikam East)   | 600,00       |               |
-| Viðskiptavinir (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="9167b-172">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-172">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="9167b-173">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-173">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-174">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-174">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-175">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-175">600.00</span></span>        |
 
-## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Dæmi 2: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með staðgreiðsluafslætti
-Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptavin 4000, Northwind Traders. Fabrikam East hefur opinn reikning fyrir viðskiptavin 4000. Reikningurinn hefur 20.00 tiltækan staðgreiðsluafslátt. Greiðslan er jöfnuð með opnum reikningum Fabrikam East. Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann, Fabrikam East.
+## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="9167b-176">Dæmi 2: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með staðgreiðsluafslætti</span><span class="sxs-lookup"><span data-stu-id="9167b-176">Example 2: Customer payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="9167b-177">Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptavin 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="9167b-177">Fabrikam receives a payment of 580.00 for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="9167b-178">Fabrikam East hefur opinn reikning fyrir viðskiptavin 4000.</span><span class="sxs-lookup"><span data-stu-id="9167b-178">Fabrikam East has an open invoice for customer 4000.</span></span> <span data-ttu-id="9167b-179">Reikningurinn hefur 20.00 tiltækan staðgreiðsluafslátt.</span><span class="sxs-lookup"><span data-stu-id="9167b-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="9167b-180">Greiðslan er jöfnuð með opnum reikningum Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="9167b-180">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="9167b-181">Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann, Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="9167b-181">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Reikningur er bókaður á Fabrikam East fyrir Fabrikam East viðskiptavin 4000
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="9167b-182">Reikningur er bókaður á Fabrikam East fyrir Fabrikam East viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-182">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-183">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-183">Account</span></span>                             | <span data-ttu-id="9167b-184">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-184">Debit amount</span></span> | <span data-ttu-id="9167b-185">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-185">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam East) | 600,00       |               |
-| Sala (Fabrikam East)               |              | 600,00        |
+| <span data-ttu-id="9167b-186">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-186">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-187">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-187">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-188">Sala (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-188">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="9167b-189">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-189">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Greiðsla er móttekin og bókuð í Fabrikam fyrir Fabrikam viðskiptavin 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="9167b-190">Greiðsla er móttekin og bókuð í Fabrikam fyrir Fabrikam viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-190">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Lykill                        | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-191">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-191">Account</span></span>                        | <span data-ttu-id="9167b-192">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-192">Debit amount</span></span> | <span data-ttu-id="9167b-193">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-193">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Reiðufé (Fabrikam)                | 600,00       |               |
-| Viðskiptavinir (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="9167b-194">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-194">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-195">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-195">600.00</span></span>       |               |
+| <span data-ttu-id="9167b-196">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-196">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-197">600,00</span><span class="sxs-lookup"><span data-stu-id="9167b-197">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="9167b-198">Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi</span><span class="sxs-lookup"><span data-stu-id="9167b-198">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam bókun**
+<span data-ttu-id="9167b-199">**Fabrikam bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-199">**Fabrikam posting**</span></span>
 
-| Lykill                         | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-200">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-200">Account</span></span>                         | <span data-ttu-id="9167b-201">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-201">Debit amount</span></span> | <span data-ttu-id="9167b-202">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-202">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam)  | 580,00       |               |
-| Á gjalddaga til Fabrikam East (Fabrikam) |              | 580,00        |
+| <span data-ttu-id="9167b-203">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-203">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="9167b-204">580,00</span><span class="sxs-lookup"><span data-stu-id="9167b-204">580.00</span></span>       |               |
+| <span data-ttu-id="9167b-205">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-205">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-206">580,00</span><span class="sxs-lookup"><span data-stu-id="9167b-206">580.00</span></span>        |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-207">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-207">**Fabrikam East posting**</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-208">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-208">Account</span></span>                             | <span data-ttu-id="9167b-209">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-209">Debit amount</span></span> | <span data-ttu-id="9167b-210">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-210">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Á gjalddaga frá Fabrikam (Fabrikam East)   | 580,00       |               |
-| Viðskiptavinir (Fabrikam East) |              | 580,00        |
-| Staðgreiðsluafsláttur (Fabrikam East)       | 20,00        |               |
-| Viðskiptavinir (Fabrikam East) |              | 20,00         |
+| <span data-ttu-id="9167b-211">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-211">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="9167b-212">580,00</span><span class="sxs-lookup"><span data-stu-id="9167b-212">580.00</span></span>       |               |
+| <span data-ttu-id="9167b-213">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-213">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-214">580,00</span><span class="sxs-lookup"><span data-stu-id="9167b-214">580.00</span></span>        |
+| <span data-ttu-id="9167b-215">Staðgreiðsluafsláttur (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-215">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="9167b-216">20,00</span><span class="sxs-lookup"><span data-stu-id="9167b-216">20.00</span></span>        |               |
+| <span data-ttu-id="9167b-217">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-217">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-218">20,00</span><span class="sxs-lookup"><span data-stu-id="9167b-218">20.00</span></span>         |
 
-## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a>Dæmi 3: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með innleystum gengishagnaði
-Fabrikam tekur á móti greiðslu að upphæð 600,00 evrur fyrir Fabrikam viðskiptavin 4000, Northwind Traders. Greiðslan er jöfnuð með opnum reikningi fyrir viðskiptavin 4000 í Fabrikam East. Færsla gengishagnaðar stofnast um leið og jöfnunarferlið á sér stað.
+## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a><span data-ttu-id="9167b-219">Dæmi 3: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með innleystum gengishagnaði</span><span class="sxs-lookup"><span data-stu-id="9167b-219">Example 3: Customer payment of invoice from another legal entity with realized exchange rate gain</span></span>
+<span data-ttu-id="9167b-220">Fabrikam tekur á móti greiðslu að upphæð 600,00 evrur fyrir Fabrikam viðskiptavin 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="9167b-220">Fabrikam receives a payment of 600.00 euros (EUR) for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="9167b-221">Greiðslan er jöfnuð með opnum reikningi fyrir viðskiptavin 4000 í Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="9167b-221">The payment is settled with an open invoice for customer 4000 in Fabrikam East.</span></span> <span data-ttu-id="9167b-222">Færsla gengishagnaðar stofnast um leið og jöfnunarferlið á sér stað.</span><span class="sxs-lookup"><span data-stu-id="9167b-222">A currency exchange gain transaction is generated during the settlement process.</span></span>
 
--   Gengi fyrir EUR í USD frá og með reikningsdagsetningunni: 1.2062
--   Gengi fyrir EUR í USD frá greiðsludagsetningu: 1,2277
+-   <span data-ttu-id="9167b-223">Gengi fyrir EUR í USD frá og með reikningsdagsetningunni: 1.2062</span><span class="sxs-lookup"><span data-stu-id="9167b-223">Exchange rate for EUR to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="9167b-224">Gengi fyrir EUR í USD frá greiðsludagsetningu: 1,2277</span><span class="sxs-lookup"><span data-stu-id="9167b-224">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Reikningur er bókaður á Fabrikam East fyrir Fabrikam East viðskiptavin 4000
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="9167b-225">Reikningur er bókaður á Fabrikam East fyrir Fabrikam East viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-225">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Lykill                             | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-226">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-226">Account</span></span>                             | <span data-ttu-id="9167b-227">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-227">Debit amount</span></span>            | <span data-ttu-id="9167b-228">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-228">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Viðskiptavinir (Fabrikam East) | 600,00 EUR / 723,72 USD |                         |
-| Sala (Fabrikam East)               |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="9167b-229">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-229">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-230">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-230">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="9167b-231">Sala (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-231">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="9167b-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-232">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Greiðsla er móttekin og bókuð í Fabrikam fyrir Fabrikam viðskiptavin 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="9167b-233">Greiðsla er móttekin og bókuð í Fabrikam fyrir Fabrikam viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-233">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Lykill                        | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-234">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-234">Account</span></span>                        | <span data-ttu-id="9167b-235">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-235">Debit amount</span></span>            | <span data-ttu-id="9167b-236">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-236">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Reiðufé (Fabrikam)                | 600,00 EUR / 736,62 USD |                         |
-| Viðskiptavinir (Fabrikam) |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="9167b-237">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-237">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-238">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-238">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="9167b-239">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-239">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="9167b-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-240">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="9167b-241">Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi</span><span class="sxs-lookup"><span data-stu-id="9167b-241">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-bókun**
+<span data-ttu-id="9167b-242">**Fabrikam-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-242">**Fabrikam posting**</span></span>
 
-| Lykill                         | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-243">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-243">Account</span></span>                         | <span data-ttu-id="9167b-244">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-244">Debit amount</span></span>            | <span data-ttu-id="9167b-245">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-245">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Viðskiptavinir (Fabrikam)  | 600,00 EUR / 736,62 USD |                         |
-| Á gjalddaga til Fabrikam East (Fabrikam) |                         | 600,00 EUR / 736,62 USD |
-| Á gjalddaga til Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
-| Innleystur gróði (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="9167b-246">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-246">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="9167b-247">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-247">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="9167b-248">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-248">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="9167b-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-249">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="9167b-250">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-250">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="9167b-251">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-251">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="9167b-252">Innleystur gróði (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-252">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="9167b-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-253">0.00 EUR / 12.90 USD</span></span>    |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-254">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-254">**Fabrikam East posting**</span></span>
 
-| Lykill                             | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-255">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-255">Account</span></span>                             | <span data-ttu-id="9167b-256">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-256">Debit amount</span></span>            | <span data-ttu-id="9167b-257">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-257">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Á gjalddaga frá Fabrikam (Fabrikam East)   | 600,00 EUR / 736,62 USD |                         |
-| Viðskiptavinir (Fabrikam East) |                         | 600,00 EUR / 736,62 USD |
-| Viðskiptavinir (Fabrikam East) | 0,00 EUR / 12,90 USD    |                         |
-| Á gjalddaga frá Fabrikam (Fabrikam East)   |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="9167b-258">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-258">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="9167b-259">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-259">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="9167b-260">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-260">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="9167b-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-261">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="9167b-262">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-262">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-263">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-263">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="9167b-264">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-264">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="9167b-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-265">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a>Dæmi 4: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með staðgreiðsluafslætti og innleystum gengishagnaði
-Fabrikam bókar greiðslu fyrir Fabrikam viðskiptavin 4000, Northwind Traders fyrir opinn reikning í Fabrikam East. Reikningurinn hefur tiltækan staðgreiðsluafslátt og VSK-færsla er mynduð. Greiðslan er jöfnuð með opna Fabrikam East-reikningnum. Færsla gengishagnaðar stofnast um leið og jöfnunarferlið á sér stað. Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann (Fabrikam East) og gengishagnaður gjaldmiðilsins er bókaður á greiðslulögaðilann (Fabrikam).
+## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a><span data-ttu-id="9167b-266">Dæmi 4: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með staðgreiðsluafslætti og innleystum gengishagnaði</span><span class="sxs-lookup"><span data-stu-id="9167b-266">Example 4: Customer payment of invoice from another legal entity with cash discount and realized exchange rate gain</span></span>
+<span data-ttu-id="9167b-267">Fabrikam bókar greiðslu fyrir Fabrikam viðskiptavin 4000, Northwind Traders fyrir opinn reikning í Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="9167b-267">Fabrikam posts a payment for Fabrikam customer 4000, Northwind Traders, for an open invoice in Fabrikam East.</span></span> <span data-ttu-id="9167b-268">Reikningurinn hefur tiltækan staðgreiðsluafslátt og VSK-færsla er mynduð.</span><span class="sxs-lookup"><span data-stu-id="9167b-268">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="9167b-269">Greiðslan er jöfnuð með opna Fabrikam East-reikningnum.</span><span class="sxs-lookup"><span data-stu-id="9167b-269">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="9167b-270">Færsla gengishagnaðar stofnast um leið og jöfnunarferlið á sér stað.</span><span class="sxs-lookup"><span data-stu-id="9167b-270">A currency exchange gain transaction is generated during the settlement process.</span></span> <span data-ttu-id="9167b-271">Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann (Fabrikam East) og gengishagnaður gjaldmiðilsins er bókaður á greiðslulögaðilann (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="9167b-271">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange gain is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Gengi fyrir EUR til USD frá og með reikningsdagsetningunni: 1.2062
--   Gengi fyrir EUR í USD frá greiðsludagsetningu: 1,2277
+-   <span data-ttu-id="9167b-272">Gengi fyrir EUR til USD frá og með reikningsdagsetningunni: 1.2062</span><span class="sxs-lookup"><span data-stu-id="9167b-272">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="9167b-273">Gengi fyrir EUR í USD frá greiðsludagsetningu: 1,2277</span><span class="sxs-lookup"><span data-stu-id="9167b-273">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a>Textareikningur er bókaður og skattafærsla er stofnuð í Fabrikam East fyrir viðskiptavin 4000
+### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="9167b-274">Textareikningur er bókaður og skattafærsla er stofnuð í Fabrikam East fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-274">Free text invoice is posted and a tax transaction is generated in Fabrikam East for customer 4000</span></span>
 
-| Lykill                             | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-275">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-275">Account</span></span>                             | <span data-ttu-id="9167b-276">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-276">Debit amount</span></span>            | <span data-ttu-id="9167b-277">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-277">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Viðskiptavinir (Fabrikam East) | 638,22 EUR / 769,82 USD |                         |
-| Sala (Fabrikam East)               |                         | 600,00 EUR / 723,72 USD |
-| Virðisaukaskattur (Fabrikam East)           |                         | 38,22 EUR / 46,10 USD   |
+| <span data-ttu-id="9167b-278">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-278">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-279">638,22 EUR / 769,82 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-279">638.22 EUR / 769.82 USD</span></span> |                         |
+| <span data-ttu-id="9167b-280">Sala (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-280">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="9167b-281">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-281">600.00 EUR / 723.72 USD</span></span> |
+| <span data-ttu-id="9167b-282">Virðisaukaskattur (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-282">Sales tax (Fabrikam East)</span></span>           |                         | <span data-ttu-id="9167b-283">38,22 EUR / 46,10 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-283">38.22 EUR / 46.10 USD</span></span>   |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Greiðsla er móttekin og bókuð í Fabrikam fyrir viðskiptavin 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="9167b-284">Greiðsla er móttekin og bókuð í Fabrikam fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-284">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Lykill                        | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-285">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-285">Account</span></span>                        | <span data-ttu-id="9167b-286">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-286">Debit amount</span></span>            | <span data-ttu-id="9167b-287">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-287">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Reiðufé (Fabrikam)                | 626,22 EUR / 768,81 USD |                         |
-| Viðskiptavinir (Fabrikam) |                         | 626,22 EUR / 768,81 USD |
+| <span data-ttu-id="9167b-288">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-288">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-289">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-289">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="9167b-290">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-290">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="9167b-291">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-291">626.22 EUR / 768.81 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="9167b-292">Fabrikam greiðsla er jöfnuð með Fabrikam East reikningi</span><span class="sxs-lookup"><span data-stu-id="9167b-292">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-bókun**
+<span data-ttu-id="9167b-293">**Fabrikam-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-293">**Fabrikam posting**</span></span>
 
-| Lykill                         | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-294">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-294">Account</span></span>                         | <span data-ttu-id="9167b-295">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-295">Debit amount</span></span>            | <span data-ttu-id="9167b-296">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-296">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Viðskiptavinir (Fabrikam)  | 626,22 EUR / 768,81 USD |                         |
-| Á gjalddaga til Fabrikam East (Fabrikam) |                         | 626,22 EUR / 768,81 USD |
-| Á gjalddaga til Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
-| Innleystur gróði (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
+| <span data-ttu-id="9167b-297">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-297">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="9167b-298">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-298">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="9167b-299">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-299">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="9167b-300">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-300">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="9167b-301">Á gjalddaga til Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-301">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="9167b-302">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-302">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="9167b-303">Innleystur gróði (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-303">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="9167b-304">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-304">0.00 EUR / 13.46 USD</span></span>    |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-305">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-305">**Fabrikam East posting**</span></span>
 
-| Lykill                             | Debetupphæð            | Kreditupphæð           |
+| <span data-ttu-id="9167b-306">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-306">Account</span></span>                             | <span data-ttu-id="9167b-307">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-307">Debit amount</span></span>            | <span data-ttu-id="9167b-308">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-308">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Á gjalddaga frá Fabrikam (Fabrikam East)   | 626,22 EUR / 768,81 USD |                         |
-| Viðskiptavinir (Fabrikam East) |                         | 626,22 EUR / 768,81 USD |
-| Viðskiptavinir (Fabrikam East  | 0,00 EUR / 13,46 USD    |                         |
-| Á gjalddaga frá Fabrikam (Fabrikam East)   |                         | 0,00 EUR / 13,46 USD    |
-| Staðgreiðsluafsláttur (Fabrikam East)       | 12,00 EUR / 14,47 USD   |                         |
-| Viðskiptavinir (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
+| <span data-ttu-id="9167b-309">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-309">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="9167b-310">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-310">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="9167b-311">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-311">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="9167b-312">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-312">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="9167b-313">Viðskiptavinir (Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="9167b-313">Accounts receivable (Fabrikam East</span></span>  | <span data-ttu-id="9167b-314">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-314">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="9167b-315">Á gjalddaga frá Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-315">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="9167b-316">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-316">0.00 EUR / 13.46 USD</span></span>    |
+| <span data-ttu-id="9167b-317">Staðgreiðsluafsláttur (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-317">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="9167b-318">12,00 EUR / 14,47 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-318">12.00 EUR / 14.47 USD</span></span>   |                         |
+| <span data-ttu-id="9167b-319">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-319">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="9167b-320">12,00 EUR / 14,47 USD</span><span class="sxs-lookup"><span data-stu-id="9167b-320">12.00 EUR / 14.47 USD</span></span>   |
 
-## <a name="example-5-customer-credit-note-with-primary-payment"></a>Dæmi 5: Kreditnóta viðskiptavinar með aðalgreiðslu
-Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, Northwind Traders. Greiðslan er jöfnuð með opnum reikningi fyrir Fabrikam West viðskiptavin 10000 og opinni kreditnótu fyrir Fabrikam East viðskiptavin 4000. Greiðslan er valin sem aðalgreiðsla í á **Jafna færslur** síðu.
+## <a name="example-5-customer-credit-note-with-primary-payment"></a><span data-ttu-id="9167b-321">Dæmi 5: Kreditnóta viðskiptavinar með aðalgreiðslu</span><span class="sxs-lookup"><span data-stu-id="9167b-321">Example 5: Customer credit note with primary payment</span></span>
+<span data-ttu-id="9167b-322">Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="9167b-322">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="9167b-323">Greiðslan er jöfnuð með opnum reikningi fyrir Fabrikam West viðskiptavin 10000 og opinni kreditnótu fyrir Fabrikam East viðskiptavin 4000.</span><span class="sxs-lookup"><span data-stu-id="9167b-323">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="9167b-324">Greiðslan er valin sem aðalgreiðsla í á **Jafna færslur** síðu.</span><span class="sxs-lookup"><span data-stu-id="9167b-324">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Reikningur er bókaður á Fabrikam West fyrir viðskiptavin 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="9167b-325">Reikningur er bókaður á Fabrikam West fyrir viðskiptavin 10000</span><span class="sxs-lookup"><span data-stu-id="9167b-325">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Reikningur                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-326">Reikningur</span><span class="sxs-lookup"><span data-stu-id="9167b-326">Account</span></span>                             | <span data-ttu-id="9167b-327">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-327">Debit amount</span></span> | <span data-ttu-id="9167b-328">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-328">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam West) | 100,00       |               |
-| Sala (Fabrikam West)               |              | 100,00        |
+| <span data-ttu-id="9167b-329">Viðskiptavinir (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-329">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="9167b-330">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-330">100.00</span></span>       |               |
+| <span data-ttu-id="9167b-331">Sala (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-331">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="9167b-332">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-332">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Kreditnóta er bókuð á Fabrikam East fyrir viðskiptavin 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="9167b-333">Kreditnóta er bókuð á Fabrikam East fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-333">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-334">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-334">Account</span></span>                             | <span data-ttu-id="9167b-335">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-335">Debit amount</span></span> | <span data-ttu-id="9167b-336">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-336">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Söluvöruskil (Fabrikam East)       | 25,00        |               |
-| Viðskiptavinir (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="9167b-337">Söluvöruskil (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-337">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="9167b-338">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-338">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-339">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-339">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-340">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-340">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Greiðsla er bókuð á Fabrikam fyrir viðskiptavin 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="9167b-341">Greiðsla er bókuð á Fabrikam fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-341">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Lykill                        | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-342">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-342">Account</span></span>                        | <span data-ttu-id="9167b-343">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-343">Debit amount</span></span> | <span data-ttu-id="9167b-344">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-344">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Reiðufé (Fabrikam)                | 75,00        |               |
-| Viðskiptavinir (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="9167b-345">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-345">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-346">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-346">75.00</span></span>        |               |
+| <span data-ttu-id="9167b-347">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-347">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-348">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-348">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="9167b-349">Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu</span><span class="sxs-lookup"><span data-stu-id="9167b-349">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam-bókun**
+<span data-ttu-id="9167b-350">**Fabrikam-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-350">**Fabrikam posting**</span></span>
 
-| Lykill                           | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-351">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-351">Account</span></span>                           | <span data-ttu-id="9167b-352">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-352">Debit amount</span></span> | <span data-ttu-id="9167b-353">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-353">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Á gjalddaga frá Fabrikam East (Fabrikam) | 25,00        |               |
-| Viðskiptavinir (Fabrikam)    |              | 25,00         |
-| Viðskiptavinir (Fabrikam)    | 100,00       |               |
-| Á gjalddaga til Fabrikam West (Fabrikam)   |              | 100,00        |
+| <span data-ttu-id="9167b-354">Á gjalddaga frá Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-354">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="9167b-355">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-355">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-356">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-356">Accounts receivable (Fabrikam)</span></span>    |              | <span data-ttu-id="9167b-357">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-357">25.00</span></span>         |
+| <span data-ttu-id="9167b-358">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-358">Accounts receivable (Fabrikam)</span></span>    | <span data-ttu-id="9167b-359">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-359">100.00</span></span>       |               |
+| <span data-ttu-id="9167b-360">Á gjalddaga til Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-360">Due to Fabrikam West (Fabrikam)</span></span>   |              | <span data-ttu-id="9167b-361">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-361">100.00</span></span>        |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-362">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-362">**Fabrikam East posting**</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-363">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-363">Account</span></span>                             | <span data-ttu-id="9167b-364">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-364">Debit amount</span></span> | <span data-ttu-id="9167b-365">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-365">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam East) | 25,00        |               |
-| Á gjalddaga frá (Fabrikam East)     |              | 25,00         |
+| <span data-ttu-id="9167b-366">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-366">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="9167b-367">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-367">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-368">Á gjalddaga frá (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-368">Due to Fabrikam (Fabrikam East)</span></span>     |              | <span data-ttu-id="9167b-369">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-369">25.00</span></span>         |
 
-**Fabrikam West-bókun**
+<span data-ttu-id="9167b-370">**Fabrikam West-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-370">**Fabrikam West posting**</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-371">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-371">Account</span></span>                             | <span data-ttu-id="9167b-372">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-372">Debit amount</span></span> | <span data-ttu-id="9167b-373">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-373">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Á gjalddaga frá Fabrikam (Fabrikam West)   | 100,00       |               |
-| Viðskiptavinir (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="9167b-374">Á gjalddaga frá Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-374">Due from Fabrikam (Fabrikam West)</span></span>   | <span data-ttu-id="9167b-375">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-375">100.00</span></span>       |               |
+| <span data-ttu-id="9167b-376">Viðskiptavinir (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-376">Accounts receivable (Fabrikam West)</span></span> |              | <span data-ttu-id="9167b-377">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-377">100.00</span></span>        |
 
-## <a name="example-6-customer-credit-note-without-primary-payment"></a>Dæmi 6: Kreditnóta viðskiptavinar án aðalgreiðslu
-Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, Northwind Traders. Greiðslan er jöfnuð með opnum reikningi fyrir Fabrikam West viðskiptavin 10000 og opinni kreditnótu fyrir Fabrikam East viðskiptavin 4000. Greiðslan er ekki valin sem aðalgreiðsla á síðunni **Jafna færslur**.
+## <a name="example-6-customer-credit-note-without-primary-payment"></a><span data-ttu-id="9167b-378">Dæmi 6: Kreditnóta viðskiptavinar án aðalgreiðslu</span><span class="sxs-lookup"><span data-stu-id="9167b-378">Example 6: Customer credit note without primary payment</span></span>
+<span data-ttu-id="9167b-379">Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="9167b-379">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="9167b-380">Greiðslan er jöfnuð með opnum reikningi fyrir Fabrikam West viðskiptavin 10000 og opinni kreditnótu fyrir Fabrikam East viðskiptavin 4000.</span><span class="sxs-lookup"><span data-stu-id="9167b-380">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="9167b-381">Greiðslan er ekki valin sem aðalgreiðsla á síðunni **Jafna færslur**.</span><span class="sxs-lookup"><span data-stu-id="9167b-381">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Reikningur er bókaður á Fabrikam West fyrir viðskiptavin 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="9167b-382">Reikningur er bókaður á Fabrikam West fyrir viðskiptavin 10000</span><span class="sxs-lookup"><span data-stu-id="9167b-382">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Reikningur                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-383">Reikningur</span><span class="sxs-lookup"><span data-stu-id="9167b-383">Account</span></span>                             | <span data-ttu-id="9167b-384">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-384">Debit amount</span></span> | <span data-ttu-id="9167b-385">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-385">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam West) | 100,00       |               |
-| Sala (Fabrikam West)               |              | 100,00        |
+| <span data-ttu-id="9167b-386">Viðskiptavinir (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-386">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="9167b-387">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-387">100.00</span></span>       |               |
+| <span data-ttu-id="9167b-388">Sala (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-388">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="9167b-389">100,00</span><span class="sxs-lookup"><span data-stu-id="9167b-389">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Kreditnóta er bókuð á Fabrikam East fyrir viðskiptavin 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="9167b-390">Kreditnóta er bókuð á Fabrikam East fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-390">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Lykill                             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-391">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-391">Account</span></span>                             | <span data-ttu-id="9167b-392">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-392">Debit amount</span></span> | <span data-ttu-id="9167b-393">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-393">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Söluvöruskil (Fabrikam East)       | 25,00        |               |
-| Viðskiptavinir (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="9167b-394">Söluvöruskil (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-394">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="9167b-395">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-395">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-396">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-396">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-397">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-397">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Greiðsla er bókuð á Fabrikam fyrir viðskiptavin 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="9167b-398">Greiðsla er bókuð á Fabrikam fyrir viðskiptavin 4000</span><span class="sxs-lookup"><span data-stu-id="9167b-398">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Lykill                        | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-399">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-399">Account</span></span>                        | <span data-ttu-id="9167b-400">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-400">Debit amount</span></span> | <span data-ttu-id="9167b-401">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-401">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Reiðufé (Fabrikam)                | 75,00        |               |
-| Viðskiptavinir (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="9167b-402">Reiðufé (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-402">Cash (Fabrikam)</span></span>                | <span data-ttu-id="9167b-403">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-403">75.00</span></span>        |               |
+| <span data-ttu-id="9167b-404">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-404">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-405">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-405">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="9167b-406">Fabrikam greiðsla er jöfnuð með Fabrikam West reikningi og Fabrikam East kreditnótu</span><span class="sxs-lookup"><span data-stu-id="9167b-406">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam-bókun**
+<span data-ttu-id="9167b-407">**Fabrikam-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-407">**Fabrikam posting**</span></span>
 
-| Lykill                         | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-408">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-408">Account</span></span>                         | <span data-ttu-id="9167b-409">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-409">Debit amount</span></span> | <span data-ttu-id="9167b-410">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-410">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam)  | 75,00        |               |
-| Á gjalddaga til Fabrikam West (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="9167b-411">Viðskiptavinir (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-411">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="9167b-412">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-412">75.00</span></span>        |               |
+| <span data-ttu-id="9167b-413">Á gjalddaga til Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="9167b-413">Due to Fabrikam West (Fabrikam)</span></span> |              | <span data-ttu-id="9167b-414">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-414">75.00</span></span>         |
 
-**Fabrikam East-bókun**
+<span data-ttu-id="9167b-415">**Fabrikam East-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-415">**Fabrikam East posting**</span></span>
 
-| Lykill                              | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-416">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-416">Account</span></span>                              | <span data-ttu-id="9167b-417">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-417">Debit amount</span></span> | <span data-ttu-id="9167b-418">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-418">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam East)  | 25,00        |               |
-| Á gjalddaga til Fabrikam West (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="9167b-419">Viðskiptavinir (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-419">Accounts receivable (Fabrikam East)</span></span>  | <span data-ttu-id="9167b-420">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-420">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-421">Á gjalddaga til Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="9167b-421">Due to Fabrikam West (Fabrikam East)</span></span> |              | <span data-ttu-id="9167b-422">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-422">25.00</span></span>         |
 
-**Fabrikam West-bókun**
+<span data-ttu-id="9167b-423">**Fabrikam West-bókun**</span><span class="sxs-lookup"><span data-stu-id="9167b-423">**Fabrikam West posting**</span></span>
 
-| Lykill                                | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="9167b-424">Lykill</span><span class="sxs-lookup"><span data-stu-id="9167b-424">Account</span></span>                                | <span data-ttu-id="9167b-425">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-425">Debit amount</span></span> | <span data-ttu-id="9167b-426">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="9167b-426">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Á gjalddaga frá Fabrikam (Fabrikam West)      | 75,00        |               |
-| Viðskiptavinir (Fabrikam West)    |              | 75,00         |
-| Á gjalddaga frá Fabrikam East (Fabrikam West) | 25,00        |               |
-| Viðskiptavinir (Fabrikam West)    |              | 25,00         |
+| <span data-ttu-id="9167b-427">Á gjalddaga frá Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-427">Due from Fabrikam (Fabrikam West)</span></span>      | <span data-ttu-id="9167b-428">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-428">75.00</span></span>        |               |
+| <span data-ttu-id="9167b-429">Viðskiptavinir (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-429">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="9167b-430">75,00</span><span class="sxs-lookup"><span data-stu-id="9167b-430">75.00</span></span>         |
+| <span data-ttu-id="9167b-431">Á gjalddaga frá Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-431">Due from Fabrikam East (Fabrikam West)</span></span> | <span data-ttu-id="9167b-432">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-432">25.00</span></span>        |               |
+| <span data-ttu-id="9167b-433">Viðskiptavinir (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="9167b-433">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="9167b-434">25,00</span><span class="sxs-lookup"><span data-stu-id="9167b-434">25.00</span></span>         |
 
 
 

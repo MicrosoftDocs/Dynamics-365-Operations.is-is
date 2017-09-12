@@ -13,55 +13,55 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: ryansand
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5d52cce3cccb16f0645d9de1832ebeffbfaf3a09
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6e675ccd610561668dec4f5c7410530edaa122b8
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="actual-vs-budget-power-bi-content"></a>Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni
+# <a name="actual-vs-budget-power-bi-content"></a><span data-ttu-id="f96b1-104">Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="f96b1-104">Actual vs budget Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið. 
+<span data-ttu-id="f96b1-105">Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.</span><span class="sxs-lookup"><span data-stu-id="f96b1-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="f96b1-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="f96b1-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a>Yfirlit
+# <a name="overview"></a><span data-ttu-id="f96b1-107">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="f96b1-107">Overview</span></span>
 
-Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** var stofnað fyrir einstaklinga sem bera ábyrgð á því að fylgjast með rauntölum bornum saman við áætluð afköst í fyrirtækinu. Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** gefur sýnileika í frávik í fjárhagsáætlun. Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika. 
+<span data-ttu-id="f96b1-108">Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** var stofnað fyrir einstaklinga sem bera ábyrgð á því að fylgjast með rauntölum bornum saman við áætluð afköst í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="f96b1-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="f96b1-109">Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** gefur sýnileika í frávik í fjárhagsáætlun.</span><span class="sxs-lookup"><span data-stu-id="f96b1-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="f96b1-110">Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika.</span><span class="sxs-lookup"><span data-stu-id="f96b1-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu, uppfærslu í júlí 2017, eru skýrslur úr Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun** sýndar á vinnusvæðunum **Fjárhagsáætlanir og spár** og **CFO**.
+# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="f96b1-111">Farið í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="f96b1-111">Accessing the Power BI content</span></span>
+<span data-ttu-id="f96b1-112">Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu, uppfærslu í júlí 2017, eru skýrslur úr Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun** sýndar á vinnusvæðunum **Fjárhagsáætlanir og spár** og **CFO**.</span><span class="sxs-lookup"><span data-stu-id="f96b1-112">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
-Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.
+# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="f96b1-113">Skýrslur sem eru hafðir með í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="f96b1-113">Reports that are included in the Power BI content</span></span>
+<span data-ttu-id="f96b1-114">Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.</span><span class="sxs-lookup"><span data-stu-id="f96b1-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
-| Skýrsla                      | Einingar |
+| <span data-ttu-id="f96b1-115">Skýrsla</span><span class="sxs-lookup"><span data-stu-id="f96b1-115">Report</span></span>                      | <span data-ttu-id="f96b1-116">Einingar</span><span class="sxs-lookup"><span data-stu-id="f96b1-116">Metrics</span></span> |
 |-----------------------------|---------|
-| Útgjöld - rauntölur bornar saman við áætlun | <ul><li>Heildarkostnaður á þessu ári</li><li>Áætlaður heildarkostnaður á þessu ári</li></ul> |
-| Tekjur - Rauntölur bornar saman við áætlun  | <ul><li>Heildartekjur á þessu ári</li><li>Áætlaðar heildartekjur á þessu ári</li><ul> |
-| Útgjöld                     | <ul><li>Heildarkostnaður á þessu ári</li><li>Kostnaðarmarkmið eftir áætlun </li><ul> |
-| Tekjur                     | <ul><li>Heildartekjur á þessu ári</li><li>Tekjumarkmið eftir áætlun </li><ul> |
-| Nettótekjur                  | <ul><li>Nettótekjur á þessu ári</li><li>Nettó tekjumarkmið eftir áætlun </li><ul> |
+| <span data-ttu-id="f96b1-117">Útgjöld - rauntölur bornar saman við áætlun</span><span class="sxs-lookup"><span data-stu-id="f96b1-117">Expenses - Actual vs budget</span></span> | <ul><li><span data-ttu-id="f96b1-118">Heildarkostnaður á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-118">Total expenses this year</span></span></li><li><span data-ttu-id="f96b1-119">Áætlaður heildarkostnaður á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-119">Budget total expenses this year</span></span></li></ul> |
+| <span data-ttu-id="f96b1-120">Tekjur - Rauntölur bornar saman við áætlun</span><span class="sxs-lookup"><span data-stu-id="f96b1-120">Revenue - Actual vs budget</span></span>  | <ul><li><span data-ttu-id="f96b1-121">Heildartekjur á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-121">Total revenue this year</span></span></li><li><span data-ttu-id="f96b1-122">Áætlaðar heildartekjur á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-122">Budget total revenue this year</span></span></li><ul> |
+| <span data-ttu-id="f96b1-123">Útgjöld</span><span class="sxs-lookup"><span data-stu-id="f96b1-123">Expense</span></span>                     | <ul><li><span data-ttu-id="f96b1-124">Heildarkostnaður á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-124">Total expenses this year</span></span></li><li><span data-ttu-id="f96b1-125">Kostnaðarmarkmið eftir áætlun</span><span class="sxs-lookup"><span data-stu-id="f96b1-125">Goal for expenses based on budget</span></span> </li><ul> |
+| <span data-ttu-id="f96b1-126">Tekjur</span><span class="sxs-lookup"><span data-stu-id="f96b1-126">Revenue</span></span>                     | <ul><li><span data-ttu-id="f96b1-127">Heildartekjur á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-127">Total revenue this year</span></span></li><li><span data-ttu-id="f96b1-128">Tekjumarkmið eftir áætlun</span><span class="sxs-lookup"><span data-stu-id="f96b1-128">Goal for revenue based on budget</span></span> </li><ul> |
+| <span data-ttu-id="f96b1-129">Nettótekjur</span><span class="sxs-lookup"><span data-stu-id="f96b1-129">Net income</span></span>                  | <ul><li><span data-ttu-id="f96b1-130">Nettótekjur á þessu ári</span><span class="sxs-lookup"><span data-stu-id="f96b1-130">Net income this year</span></span></li><li><span data-ttu-id="f96b1-131">Nettó tekjumarkmið eftir áætlun</span><span class="sxs-lookup"><span data-stu-id="f96b1-131">Goal for net income based on budget</span></span> </li><ul> |
 
-## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
-Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu. Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana. 
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="f96b1-132">Stækkun efnis Power BI</span><span class="sxs-lookup"><span data-stu-id="f96b1-132">Extending the Power BI content</span></span>
+<span data-ttu-id="f96b1-133">Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu.</span><span class="sxs-lookup"><span data-stu-id="f96b1-133">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="f96b1-134">Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana.</span><span class="sxs-lookup"><span data-stu-id="f96b1-134">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span> 
 
-Hægt er að finna Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
+<span data-ttu-id="f96b1-135">Hægt er að finna Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** í safninu Samnýttar eignir í LCS.</span><span class="sxs-lookup"><span data-stu-id="f96b1-135">You can find the **Actual vs budget** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="f96b1-136">Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="f96b1-136">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="f96b1-137">Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.</span><span class="sxs-lookup"><span data-stu-id="f96b1-137">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-# <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
+# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="f96b1-138">Skilja gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="f96b1-138">Understanding the data model and entities</span></span>
 
-| Eining                    | Innihald |
+| <span data-ttu-id="f96b1-139">Eining</span><span class="sxs-lookup"><span data-stu-id="f96b1-139">Entity</span></span>                    | <span data-ttu-id="f96b1-140">Innihald</span><span class="sxs-lookup"><span data-stu-id="f96b1-140">Contents</span></span> |
 |---------------------------|----------|
-| Fjárhagsaðgerðir | Færsluupphæðir fyrir fjárhag |
-| Fjárhagsáætlunaraðgerðir         | Færsluupphæðir fyrir áætlunarskrá |
-| Aðallyklar             | Aðallyklar til að sía skýrslur eftir |
-| Fjárhagsdagatöl          | Fjárhagsdagatöl til að sía skýrslur eftir |
-| Fjárhagur                   | Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag |
-| Fjárhagsáætlunarkóðar              | Fjárhagsáætlunarkóðar til að sía skýrslur eftir |
-| Lögaðilar            | Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila |
+| <span data-ttu-id="f96b1-141">Fjárhagsaðgerðir</span><span class="sxs-lookup"><span data-stu-id="f96b1-141">General Ledger Activities</span></span> | <span data-ttu-id="f96b1-142">Færsluupphæðir fyrir fjárhag</span><span class="sxs-lookup"><span data-stu-id="f96b1-142">Transaction amounts for the general ledger</span></span> |
+| <span data-ttu-id="f96b1-143">Fjárhagsáætlunaraðgerðir</span><span class="sxs-lookup"><span data-stu-id="f96b1-143">Budget Activities</span></span>         | <span data-ttu-id="f96b1-144">Færsluupphæðir fyrir áætlunarskrá</span><span class="sxs-lookup"><span data-stu-id="f96b1-144">Transaction amounts for the budget register</span></span> |
+| <span data-ttu-id="f96b1-145">Aðallyklar</span><span class="sxs-lookup"><span data-stu-id="f96b1-145">Main Accounts</span></span>             | <span data-ttu-id="f96b1-146">Aðallyklar til að sía skýrslur eftir</span><span class="sxs-lookup"><span data-stu-id="f96b1-146">Main accounts to filter reports by</span></span> |
+| <span data-ttu-id="f96b1-147">Fjárhagsdagatöl</span><span class="sxs-lookup"><span data-stu-id="f96b1-147">Fiscal Calendars</span></span>          | <span data-ttu-id="f96b1-148">Fjárhagsdagatöl til að sía skýrslur eftir</span><span class="sxs-lookup"><span data-stu-id="f96b1-148">Fiscal calendars to filter reports by</span></span> |
+| <span data-ttu-id="f96b1-149">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="f96b1-149">Ledgers</span></span>                   | <span data-ttu-id="f96b1-150">Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag</span><span class="sxs-lookup"><span data-stu-id="f96b1-150">Ledgers that can be used to filter the report to the current ledger</span></span> |
+| <span data-ttu-id="f96b1-151">Fjárhagsáætlunarkóðar</span><span class="sxs-lookup"><span data-stu-id="f96b1-151">Budget Codes</span></span>              | <span data-ttu-id="f96b1-152">Fjárhagsáætlunarkóðar til að sía skýrslur eftir</span><span class="sxs-lookup"><span data-stu-id="f96b1-152">Budget codes to filter reports by</span></span> |
+| <span data-ttu-id="f96b1-153">Lögaðilar</span><span class="sxs-lookup"><span data-stu-id="f96b1-153">Legal Entities</span></span>            | <span data-ttu-id="f96b1-154">Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila</span><span class="sxs-lookup"><span data-stu-id="f96b1-154">Legal entities that can be used to filter the report to the current legal entity</span></span> |
 

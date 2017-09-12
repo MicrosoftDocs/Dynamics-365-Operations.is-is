@@ -20,53 +20,53 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: d40c37628f03a7605e04b95339072a67806f2fa1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a0286ab72d7fa6b40228dfdcabde00bee9995d74
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="define-channel-specific-discounts"></a>Skilgreina afslætti sem tengjast tilteknum rásum
+# <a name="define-channel-specific-discounts"></a><span data-ttu-id="d1ac5-104">Skilgreina afslætti sem tengjast tilteknum rásum</span><span class="sxs-lookup"><span data-stu-id="d1ac5-104">Define channel-specific discounts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás. 
+<span data-ttu-id="d1ac5-105">Smásala stilla oft inn mismunandi afslætti á mismunandi rásum.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-105">Retailers often set different discounts in different channels.</span></span> <span data-ttu-id="d1ac5-106">Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-106">This topic reviews the concepts you need to know to create a discount for a specific channel.</span></span> 
 
-<a name="channel-specific-discounts"></a>Afslættir sem tengjast tilteknum rásum
+<a name="channel-specific-discounts"></a><span data-ttu-id="d1ac5-107">Afslættir sem tengjast tilteknum rásum</span><span class="sxs-lookup"><span data-stu-id="d1ac5-107">Channel-specific discounts</span></span>
 --------------------------
 
-Smásalar bjóða oft mismunandi afslætti á mismunandi rásum. Þetta er getur verið gert til að ná til staðbundinna markaðsaðstæðna eða takast á við smásala í samkeppni.
+<span data-ttu-id="d1ac5-108">Smásalar bjóða oft mismunandi afslætti á mismunandi rásum.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-108">Retailers often offer different discounts in different channels.</span></span> <span data-ttu-id="d1ac5-109">Þetta er getur verið gert til að ná til staðbundinna markaðsaðstæðna eða takast á við smásala í samkeppni.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-109">This is may be done to address local market conditions or to deal with competing retailers.</span></span>
 
-Microsoft Dynamics 365 for Retail notar verðflokka til að skilgreina rásarafslætti. Hægt er að úthluta verðflokkum við eitt eða fleiri af eftirfarandi einingar: rásir vörulista, tengsl og vildarkerfi. Þessi skrá fjallað um rásir, en sömu hugtök eiga við vörulistaafslætti, tengslaafslætti og vildarkortaafslætti.
+<span data-ttu-id="d1ac5-110">Microsoft Dynamics 365 for Retail notar verðflokka til að skilgreina rásarafslætti.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-110">Microsoft Dynamics 365 for Retail uses price groups to define channel-specific discounts.</span></span> <span data-ttu-id="d1ac5-111">Hægt er að úthluta verðflokkum við eitt eða fleiri af eftirfarandi einingar: rásir vörulista, tengsl og vildarkerfi.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-111">Price groups can be assigned to one or more of the following entities: channels, catalogs, affiliations, and loyalty programs.</span></span> <span data-ttu-id="d1ac5-112">Þessi skrá fjallað um rásir, en sömu hugtök eiga við vörulistaafslætti, tengslaafslætti og vildarkortaafslætti.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-112">This article discusses channels, but the same concepts apply to catalog discounts, affiliations discounts, and loyalty discounts.</span></span>
 
-## <a name="price-groups"></a>Verðflokkar
+## <a name="price-groups"></a><span data-ttu-id="d1ac5-113">Verðflokkar</span><span class="sxs-lookup"><span data-stu-id="d1ac5-113">Price groups</span></span>
 
-[![Verðflokkar](./media/price-groups-1024x608.png)](./media/price-groups.png)
+<span data-ttu-id="d1ac5-114">[![Verðflokkar](./media/price-groups-1024x608.png)](./media/price-groups.png)</span><span class="sxs-lookup"><span data-stu-id="d1ac5-114">[![Price groups](./media/price-groups-1024x608.png)](./media/price-groups.png)</span></span>
 
-Skýringarmyndin að ofan sýnir tengslin á milli aðila sem geta verið á færslum (rásar, vörulista, sambands, viðskiptavinur, vildarkort) og mismunandi afsláttargerðir sem má stilla. Allar færslur eiga sér stað í rás, svo tryggt er að rás verði til staðar á færslu. Eftirstandandi einingar eru valkvæðar. Á öllum síðum aðalgagna er tengill við tengdar verðflokkasíðu þar sem hægt er að skoða og bæta við verðflokkar eftir þörfum. Verðflokkur er notuð til að tengjast fjórar tegundir eininga við afslætti, verðleiðréttingar og viðskiptasamninga. Ráðlagt er að undirbúa aðferð um það hvernig þú nefnir verðflokkana þína til að hafa þá skipulagða. Einn valkostur væri að nota bókstaf eða númersforskeyti eða viðskeyti til að greina milli mismunandi gerðum. Til dæmis 1-xxxxx fyrir verðflokka rásar og 2-xxxxx fyrir verðflokka vörulista. Til eru fjórar fyrirspurnarsíður sem áherslu leggja á hverja smásölueiningu sem geta verið með afslætti tengda við sig.
+<span data-ttu-id="d1ac5-115">Skýringarmyndin að ofan sýnir tengslin á milli aðila sem geta verið á færslum (rásar, vörulista, sambands, viðskiptavinur, vildarkort) og mismunandi afsláttargerðir sem má stilla.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-115">The diagram above illustrates the relationship between entities that may be on a transaction (channel, catalog, affiliation, customer, loyalty card) and the various discount types that can be configured.</span></span> <span data-ttu-id="d1ac5-116">Allar færslur eiga sér stað í rás, svo tryggt er að rás verði til staðar á færslu.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-116">All transactions occur in a channel, so the channel is guaranteed to be present on a transaction.</span></span> <span data-ttu-id="d1ac5-117">Eftirstandandi einingar eru valkvæðar.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-117">The remaining entities are optional.</span></span> <span data-ttu-id="d1ac5-118">Á öllum síðum aðalgagna er tengill við tengdar verðflokkasíðu þar sem hægt er að skoða og bæta við verðflokkar eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-118">On each master data pages there is a link to a related price groups page where you can view and add price groups as needed.</span></span> <span data-ttu-id="d1ac5-119">Verðflokkur er notuð til að tengjast fjórar tegundir eininga við afslætti, verðleiðréttingar og viðskiptasamninga.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-119">A price group is used to relate four different types of entities to discounts, price adjustments, and trade agreements.</span></span> <span data-ttu-id="d1ac5-120">Ráðlagt er að undirbúa aðferð um það hvernig þú nefnir verðflokkana þína til að hafa þá skipulagða.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-120">We recommend that you plan a strategy for how you will name your price groups to keep them organized.</span></span> <span data-ttu-id="d1ac5-121">Einn valkostur væri að nota bókstaf eða númersforskeyti eða viðskeyti til að greina milli mismunandi gerðum.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-121">One option would be to use a letter or number prefix or suffix to distinguish between the different types.</span></span> <span data-ttu-id="d1ac5-122">Til dæmis 1-xxxxx fyrir verðflokka rásar og 2-xxxxx fyrir verðflokka vörulista.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-122">For example, 1-xxxxx for channel price groups and 2-xxxxx for catalog price groups.</span></span> <span data-ttu-id="d1ac5-123">Til eru fjórar fyrirspurnarsíður sem áherslu leggja á hverja smásölueiningu sem geta verið með afslætti tengda við sig.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-123">There are four inquiry pages that focus on each of the retail entities that can have discounts associated to them.</span></span>
 
--   **Verðflokkar rásar í smásölu** - Þessi síða sýnir lista yfir rásir og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar vörulista** - Þessi síða sýnir lista yfir vörulista og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar vildarkerfis** - Þessi síða sýnir lista yfir vildarkerfi og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar tengsla** - Þessi síða sýnir lista yfir tengst og afslætti sem eru tengdar saman fyrir hvern verðflokk.
+-   <span data-ttu-id="d1ac5-124">**Verðflokkar rásar í smásölu** - Þessi síða sýnir lista yfir rásir og afslætti sem eru tengdar saman fyrir hvern verðflokk.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-124">**Retail channel price groups** - This page shows a list of channels and discounts linked together for each price group.</span></span>
+-   <span data-ttu-id="d1ac5-125">**Verðflokkar vörulista** - Þessi síða sýnir lista yfir vörulista og afslætti sem eru tengdar saman fyrir hvern verðflokk.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-125">**Catalog price groups** - This page shows a list of catalogs and discounts linked together for each price group.</span></span>
+-   <span data-ttu-id="d1ac5-126">**Verðflokkar vildarkerfis** - Þessi síða sýnir lista yfir vildarkerfi og afslætti sem eru tengdar saman fyrir hvern verðflokk.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-126">**Loyalty price groups** - This page shows a list of loyalty programs and discounts linked together for each price group.</span></span>
+-   <span data-ttu-id="d1ac5-127">**Verðflokkar tengsla** - Þessi síða sýnir lista yfir tengst og afslætti sem eru tengdar saman fyrir hvern verðflokk.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-127">**Affiliation price groups** - This page shows a list of affiliations and discounts linked together for each price group.</span></span>
 
-## <a name="example-channel-discount-set-up"></a>Uppsetning afsláttar fyrir dæmarás
-Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rásar.
+## <a name="example-channel-discount-set-up"></a><span data-ttu-id="d1ac5-128">Uppsetning afsláttar fyrir dæmarás</span><span class="sxs-lookup"><span data-stu-id="d1ac5-128">Example channel discount set up</span></span>
+<span data-ttu-id="d1ac5-129">Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rásar.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-129">The following example illustrates the tasks involved in setting up a channel discount.</span></span>
 
-1.  Í þessu dæmi ertu með rás sem kallast **Houston**, og það er verið að stofna nýjan afslátt kallaðan **Aftur í skólann.**
-2.  Þar sem stjórnunarstefna verðs og afsláttar inniheldur möguleika á afslætti fyrir rás, er alltaf stofnaður verðflokk bundnum við rás þegar rás er stofnuð.
-3.  Verðflokkurinn er **Houston-PG** og er úthlutað á **Houston** rás.
-4.  Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu. **Afsláttarverðflokka** síðan opnast. Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.
-5.  Nú hægt að virkja afsláttinn og færa hann í rás.
+1.  <span data-ttu-id="d1ac5-130">Í þessu dæmi ertu með rás sem kallast **Houston**, og það er verið að stofna nýjan afslátt kallaðan **Aftur í skólann.**</span><span class="sxs-lookup"><span data-stu-id="d1ac5-130">For this example, you have a channel called **Houston**, and you're going to create a new discount called **Back-to-School.**</span></span>
+2.  <span data-ttu-id="d1ac5-131">Þar sem stjórnunarstefna verðs og afsláttar inniheldur möguleika á afslætti fyrir rás, er alltaf stofnaður verðflokk bundnum við rás þegar rás er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-131">Because the pricing and discount strategy includes the possibility of channel discounts, you always create a channel-specific price group when you create a channel.</span></span>
+3.  <span data-ttu-id="d1ac5-132">Verðflokkurinn er **Houston-PG** og er úthlutað á **Houston** rás.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-132">You have the price group **Houston-PG** and it is assigned to the **Houston** channel.</span></span>
+4.  <span data-ttu-id="d1ac5-133">Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-133">After you create the new **Back-to-School** discount, you need to click **Price groups** on the top of the **Discount** page.</span></span> <span data-ttu-id="d1ac5-134">**Afsláttarverðflokka** síðan opnast.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-134">The **Discount price groups** page will open.</span></span> <span data-ttu-id="d1ac5-135">Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-135">Next, click **New** and select the **Houston-PG** price group.</span></span>
+5.  <span data-ttu-id="d1ac5-136">Nú hægt að virkja afsláttinn og færa hann í rás.</span><span class="sxs-lookup"><span data-stu-id="d1ac5-136">Now you can enable the discount and push it to the channel.</span></span>
 
  
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="d1ac5-137">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="d1ac5-137">See also</span></span>
 --------
 
-[Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
+[<span data-ttu-id="d1ac5-138">Verðleiðréttingar og afslættir</span><span class="sxs-lookup"><span data-stu-id="d1ac5-138">Price adjustments and discounts</span></span>](price-adjustments-discounts.md)
 
 
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Telja birgðir í vöruhúsi"
 description: "Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðatalningabók til að telja tiltekinnar vöru á staðsetningu í vöruhúsinu."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,56 +17,55 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1d2ecf1cd80e05b59f206fb5f684d6a86fa5733e
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="count-inventory-in-a-warehouse"></a>Telja birgðir í vöruhúsi
+# <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="ad9bb-103">Telja birgðir í vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="ad9bb-103">Count inventory in a warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðatalningabók til að telja tiltekinnar vöru á staðsetningu í vöruhúsinu. Ferlið á við "grunn vöruhús" aðgerðir, sem tiltækar eru í kerfinu birgðastjórnun, ekki á vöruhúsaaðgerð sem tiltæk er í kerfiseiningunni vöruhúsakerfi. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur. Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.
+<span data-ttu-id="ad9bb-104">Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðatalningabók til að telja tiltekinnar vöru á staðsetningu í vöruhúsinu.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="ad9bb-105">Ferlið á við "grunn vöruhús" aðgerðir, sem tiltækar eru í kerfinu birgðastjórnun, ekki á vöruhúsaaðgerð sem tiltæk er í kerfiseiningunni vöruhúsakerfi.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="ad9bb-106">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="ad9bb-107">Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="ad9bb-108">Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-counting-journal"></a>Stofna færslubóka fyrir birgðatalningu
-1. Fara í Birgðastjórnun > Færslubókarfærslur > Vörutalning > Talning.
-2. Smellið á „Nýtt“.
-3. Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.
-4. Á listanum, smella á að nota nafn birgðatalningabókar
-    * Sum svæði er fyllt út samkvæmt uppsetningu heitis birgðatalningabókar sem er valin.  
-5. Í reitnum starfskraftur skal smella á fellilistahnappinn til að opna leitina.
-6. Veljið starfsmanninn sem á að nota í listanum.
-7. Smellið á Velja.
-8. Smellið á „Í lagi“.
+## <a name="create-an-inventory-counting-journal"></a><span data-ttu-id="ad9bb-109">Stofna færslubóka fyrir birgðatalningu</span><span class="sxs-lookup"><span data-stu-id="ad9bb-109">Create an inventory counting journal</span></span>
+1. <span data-ttu-id="ad9bb-110">Fara í Birgðastjórnun > Færslubókarfærslur > Vörutalning > Talning.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-110">Go to Inventory management > Journal entries > Item counting > Counting.</span></span>
+2. <span data-ttu-id="ad9bb-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-111">Click New.</span></span>
+3. <span data-ttu-id="ad9bb-112">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="ad9bb-113">Á listanum, smella á að nota nafn birgðatalningabókar</span><span class="sxs-lookup"><span data-stu-id="ad9bb-113">In the list, click on the inventory counting journal name you want to use</span></span>
+    * <span data-ttu-id="ad9bb-114">Sum svæði er fyllt út samkvæmt uppsetningu heitis birgðatalningabókar sem er valin.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-114">Some other fields will be populated based on the setup of the inventory counting journal name that you select.</span></span>  
+5. <span data-ttu-id="ad9bb-115">Í reitnum starfskraftur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-115">In the Worker field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ad9bb-116">Veljið starfsmanninn sem á að nota í listanum.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-116">In the list, select the worker you want to use.</span></span>
+7. <span data-ttu-id="ad9bb-117">Smellið á Velja.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-117">Click Select.</span></span>
+8. <span data-ttu-id="ad9bb-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-118">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a>Stofna færslubókarlínur
-1. Smellið á „Nýtt“.
-2. Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Ef verið er að nota sýnigögn fyrirtækisins USMF velja 'A0001'.  
-4. Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Ef verið er að nota sýnigögn fyrirtækisins USMF, veljið svæði '2'.  
-6. Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.
-7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Ef verið er að nota sýnigögn fyrirtækisins USMF, skal velja vöruhúsið '24'.  
-8. Í reitnum staðsetning skal smella á fellilistahnappinn til að opna leitina.
-9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Ef verið er að nota sýnigögn fyrirtækisins USMF, velja staðsetningu ‚BULK-001'  
-10. Í reitinn Talið skal slá inn númer.
-    * Ef fært er inn talið númer sem er annað númer en er sýnd í svæðinu á lager, er magnsvæðið uppfærð til að sýna misræmið.  
-11. Smellið á „Vista“.
+## <a name="create-journal-lines"></a><span data-ttu-id="ad9bb-119">Stofna færslubókarlínur</span><span class="sxs-lookup"><span data-stu-id="ad9bb-119">Create journal lines</span></span>
+1. <span data-ttu-id="ad9bb-120">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-120">Click New.</span></span>
+2. <span data-ttu-id="ad9bb-121">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-121">In the Item number field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="ad9bb-122">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad9bb-123">Ef verið er að nota sýnigögn fyrirtækisins USMF velja 'A0001'.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-123">If you are using demo data company USMF, select 'A0001'.</span></span>  
+4. <span data-ttu-id="ad9bb-124">Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-124">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ad9bb-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad9bb-126">Ef verið er að nota sýnigögn fyrirtækisins USMF, veljið svæði '2'.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-126">If you are using demo data company USMF, select site '2'.</span></span>  
+6. <span data-ttu-id="ad9bb-127">Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-127">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="ad9bb-128">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-128">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad9bb-129">Ef verið er að nota sýnigögn fyrirtækisins USMF, skal velja vöruhúsið '24'.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-129">If you are using demo data company USMF, select warehouse '24'.</span></span>  
+8. <span data-ttu-id="ad9bb-130">Í reitnum staðsetning skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-130">In the Location field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="ad9bb-131">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ad9bb-132">Ef verið er að nota sýnigögn fyrirtækisins USMF, velja staðsetningu ‚BULK-001'</span><span class="sxs-lookup"><span data-stu-id="ad9bb-132">If you are using demo data company USMF, select location 'BULK-001'</span></span>  
+10. <span data-ttu-id="ad9bb-133">Í reitinn Talið skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-133">In the Counted field, enter a number.</span></span>
+    * <span data-ttu-id="ad9bb-134">Ef fært er inn talið númer sem er annað númer en er sýnd í svæðinu á lager, er magnsvæðið uppfærð til að sýna misræmið.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-134">If you enter a counted number that’s different to the number shown in the On-hand field, the Quantity field is updated to show the discrepancy.</span></span>  
+11. <span data-ttu-id="ad9bb-135">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-135">Click Save.</span></span>
 
-## <a name="post-the-inventory-counting-journal"></a>Bóka færslubók fyrir birgðatalningu
-1. Smellið á „Bóka“.
-    * Þegar bókað er birgðatalningabók, ef talin upphæð er önnur en upphæð sem skráð er í svæðinu á lager er innhreyfing eða úthreyfing birgða bókuð, birgðastigi og birgðagildi breytt og fjárhagsfærslur stofnaðar.  
-2. Smellið á „Í lagi“.
+## <a name="post-the-inventory-counting-journal"></a><span data-ttu-id="ad9bb-136">Bóka færslubók fyrir birgðatalningu</span><span class="sxs-lookup"><span data-stu-id="ad9bb-136">Post the inventory counting journal</span></span>
+1. <span data-ttu-id="ad9bb-137">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-137">Click Post.</span></span>
+    * <span data-ttu-id="ad9bb-138">Þegar bókað er birgðatalningabók, ef talin upphæð er önnur en upphæð sem skráð er í svæðinu á lager er innhreyfing eða úthreyfing birgða bókuð, birgðastigi og birgðagildi breytt og fjárhagsfærslur stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-138">When you post an inventory counting journal, if the counted amount differs from amount that’s reported in the On-hand field an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+2. <span data-ttu-id="ad9bb-139">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-139">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a>Skoða birgðafærslur
-1. Smellið á birgðir.
-2. Smella á Færslur.
-    * Hér er hægt að sjá tengdar færslur sem stofnast þegar talningarbók birgða er bókuð.   
-
+## <a name="view-inventory-transactions"></a><span data-ttu-id="ad9bb-140">Skoða birgðafærslur</span><span class="sxs-lookup"><span data-stu-id="ad9bb-140">View inventory transactions</span></span>
+1. <span data-ttu-id="ad9bb-141">Smellið á birgðir.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-141">Click Inventory.</span></span>
+2. <span data-ttu-id="ad9bb-142">Smella á Færslur.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-142">Click Transactions.</span></span>
+    * <span data-ttu-id="ad9bb-143">Hér er hægt að sjá tengdar færslur sem stofnast þegar talningarbók birgða er bókuð.</span><span class="sxs-lookup"><span data-stu-id="ad9bb-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
 

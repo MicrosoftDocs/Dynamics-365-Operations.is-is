@@ -16,32 +16,32 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 557ef6ddc1918d95a05c53579b1a02865eebf501
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 07a89782498fe47879a36cc9379e5af1a6f5ddce
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-journal-entries-or-transactions"></a>Skoða færslubókarfærslur
+# <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="27c48-103">Skoða færslubókarfærslur</span><span class="sxs-lookup"><span data-stu-id="27c48-103">View journal entries or transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að nota fyrirspurn um færslur Fylgiskjals til að leita að færslubókarfærslum eða færslum.
+<span data-ttu-id="27c48-104">Þetta ferli sýnir hvernig á að nota fyrirspurn um færslur Fylgiskjals til að leita að færslubókarfærslum eða færslum.</span><span class="sxs-lookup"><span data-stu-id="27c48-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
 
-1. Fara í fjárhag > Fyrirspurnir og skýrslur > Færslur fylgiskjals.
-2. Veljið reit sem tilgreina á síuskilyrði fyrir.
-3. Færðu inn síuskilyrðið fyrir valinn reit.
-    * Þú gætir síað á einu gildi eða sviði. Þegar svið er skilgreint, skal nota rétta málskipan. Gildin skal aðskilja með tvöföldum punkti (..).  
-4. Smellið á flipann Samtengingar til að bæta við viðbótartöflur sem á að sía úr.
-5. Í trénu skal velja 'Tables\General journal entry'.
-6. Smelltu á Bæta við töflusamtengingu
-7. Smella á hætta Við ef ákveðið er að bæta ekki við aukatöflu.
-8. Smellt er á flipann Svið.
-9. Smellið á Í lagi til að keyra fyrirspurn.
-10. Smella á uppruna Færslu.
-    * Ýmsir hnappar í kringum hnitanetið má nota til að rannsaka viðbótarupplýsingar um valda færslu fylgiskjalsins. Sumir hnappar eru hugsanlega ekki tiltækir, það fer eftir gerð færslu og eiginleikum færslu.  
-11. Lokið síðunni.
-12. Smelltu á upprunalegt skjal.
-13. Lokið síðunni.
+1. <span data-ttu-id="27c48-105">Fara í fjárhag > Fyrirspurnir og skýrslur > Færslur fylgiskjals.</span><span class="sxs-lookup"><span data-stu-id="27c48-105">Go to General ledger > Inquiries and reports > Voucher transactions.</span></span>
+2. <span data-ttu-id="27c48-106">Veljið reit sem tilgreina á síuskilyrði fyrir.</span><span class="sxs-lookup"><span data-stu-id="27c48-106">Select the field for which you want to define a filter criteria.</span></span>
+3. <span data-ttu-id="27c48-107">Færðu inn síuskilyrðið fyrir valinn reit.</span><span class="sxs-lookup"><span data-stu-id="27c48-107">Enter your filter critieria for the selected field.</span></span>
+    * <span data-ttu-id="27c48-108">Þú gætir síað á einu gildi eða sviði.</span><span class="sxs-lookup"><span data-stu-id="27c48-108">You could filter on a single value or a range.</span></span> <span data-ttu-id="27c48-109">Þegar svið er skilgreint, skal nota rétta málskipan.</span><span class="sxs-lookup"><span data-stu-id="27c48-109">When defining a range, make sure the correct syntax is used.</span></span> <span data-ttu-id="27c48-110">Gildin skal aðskilja með tvöföldum punkti (..).</span><span class="sxs-lookup"><span data-stu-id="27c48-110">The values should be separated by a double period (..).</span></span>  
+4. <span data-ttu-id="27c48-111">Smellið á flipann Samtengingar til að bæta við viðbótartöflur sem á að sía úr.</span><span class="sxs-lookup"><span data-stu-id="27c48-111">Click the Joins tab to add additional tables from which to filter.</span></span>
+5. <span data-ttu-id="27c48-112">Í trénu skal velja 'Tables\General journal entry'.</span><span class="sxs-lookup"><span data-stu-id="27c48-112">In the tree, select 'Tables\General journal entry'.</span></span>
+6. <span data-ttu-id="27c48-113">Smelltu á Bæta við töflusamtengingu</span><span class="sxs-lookup"><span data-stu-id="27c48-113">Click Add table join.</span></span>
+7. <span data-ttu-id="27c48-114">Smella á hætta Við ef ákveðið er að bæta ekki við aukatöflu.</span><span class="sxs-lookup"><span data-stu-id="27c48-114">Click Cancel if you decide not to add an additional table.</span></span>
+8. <span data-ttu-id="27c48-115">Smellt er á flipann Svið.</span><span class="sxs-lookup"><span data-stu-id="27c48-115">Click the Range tab.</span></span>
+9. <span data-ttu-id="27c48-116">Smellið á Í lagi til að keyra fyrirspurn.</span><span class="sxs-lookup"><span data-stu-id="27c48-116">Click OK to run the query.</span></span>
+10. <span data-ttu-id="27c48-117">Smella á uppruna Færslu.</span><span class="sxs-lookup"><span data-stu-id="27c48-117">Click Transaction origin.</span></span>
+    * <span data-ttu-id="27c48-118">Ýmsir hnappar í kringum hnitanetið má nota til að rannsaka viðbótarupplýsingar um valda færslu fylgiskjalsins.</span><span class="sxs-lookup"><span data-stu-id="27c48-118">Various buttons about the grid can be used to research additional information about the selected record of the voucher.</span></span> <span data-ttu-id="27c48-119">Sumir hnappar eru hugsanlega ekki tiltækir, það fer eftir gerð færslu og eiginleikum færslu.</span><span class="sxs-lookup"><span data-stu-id="27c48-119">Some buttons may not be available, depending on the type of transaction and characteristics of the transaction.</span></span>  
+11. <span data-ttu-id="27c48-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="27c48-120">Close the page.</span></span>
+12. <span data-ttu-id="27c48-121">Smelltu á upprunalegt skjal.</span><span class="sxs-lookup"><span data-stu-id="27c48-121">Click Original document.</span></span>
+13. <span data-ttu-id="27c48-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="27c48-122">Close the page.</span></span>
 
 

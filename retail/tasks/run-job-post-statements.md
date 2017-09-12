@@ -17,29 +17,29 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: d111e914ef24b328d26fc88c059f51180fa02ee3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0e2dae54cc9ccfc0a85046c5478e539585c3744d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-and-run-a-job-to-post-statements"></a> Skilgreina og keyra vinnslu til að bóka yfirlit
+# <a name="configure-and-run-a-job-to-post-statements"></a><span data-ttu-id="b8223-103"> Skilgreina og keyra vinnslu til að bóka yfirlit</span><span class="sxs-lookup"><span data-stu-id="b8223-103">Configure and run a job to post statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum skilgreiningu og keyrslu á runuvinnslum ítrekað til að bóka uppgjör fyrir valda verslun eða verslunarflokk. Þetta ferli notar sýnigögn fyrirtæki USRT.
+<span data-ttu-id="b8223-104">Þetta ferli fer í gegnum skilgreiningu og keyrslu á runuvinnslum ítrekað til að bóka uppgjör fyrir valda verslun eða verslunarflokk.</span><span class="sxs-lookup"><span data-stu-id="b8223-104">This procedure walks through configuring and running a recurrent batch job to post statements for a selected store or group of stores.</span></span> <span data-ttu-id="b8223-105">Þetta ferli notar sýnigögn fyrirtæki USRT.</span><span class="sxs-lookup"><span data-stu-id="b8223-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. Fara í Öll vinnusvæði > .. > Fjárhagur smásöluverslunar
-2. Smellt er á Bóka uppgjör.
-    * Velja stigveldi fyrirtækis og síðan í fyrirtækishnútur, í trénu velja einstaka verslun eða hnút. Annað hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.  
-    * Smella á örina til að bæta vali.  
-3. Smella á Keyra í bakgrunni flipanum.
-4. Kanna eða afmerkja gátreit runuvinnsla.
-5. Smellið á Endurtekning.
-6. Dagsetning er rituð í reitinn Upphafsdagur.
-7. Í reitinn upphafstími skal slá inn tíma.
-    * Velja hvort á að ljúka endurtekningu eftir tiltekinn fjölda keyrslur á tiltekinni dagsetningu eða aldrei. Velja síðan ýmsum valkostum til að skilgreina hversu oft eigi að keyra vinnsluna.  
-8. Smellið á „Í lagi“.
-9. Smellið á „Í lagi“.
+1. <span data-ttu-id="b8223-106">Fara í Öll vinnusvæði > ..</span><span class="sxs-lookup"><span data-stu-id="b8223-106">Go to All workspaces > ..</span></span> <span data-ttu-id="b8223-107">> Fjárhagur smásöluverslunar</span><span class="sxs-lookup"><span data-stu-id="b8223-107">> Retail store financials.</span></span>
+2. <span data-ttu-id="b8223-108">Smellt er á Bóka uppgjör.</span><span class="sxs-lookup"><span data-stu-id="b8223-108">Click Post statements.</span></span>
+    * <span data-ttu-id="b8223-109">Velja stigveldi fyrirtækis og síðan í fyrirtækishnútur, í trénu velja einstaka verslun eða hnút.</span><span class="sxs-lookup"><span data-stu-id="b8223-109">Select an organizational hierarchy and then in the organization nodes tree, select either an individual store or a node.</span></span> <span data-ttu-id="b8223-110">Annað hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.</span><span class="sxs-lookup"><span data-stu-id="b8223-110">Select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="b8223-111">Smella á örina til að bæta vali.</span><span class="sxs-lookup"><span data-stu-id="b8223-111">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="b8223-112">Smella á Keyra í bakgrunni flipanum.</span><span class="sxs-lookup"><span data-stu-id="b8223-112">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="b8223-113">Kanna eða afmerkja gátreit runuvinnsla.</span><span class="sxs-lookup"><span data-stu-id="b8223-113">Check or uncheck the Batch processing checkbox.</span></span>
+5. <span data-ttu-id="b8223-114">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="b8223-114">Click Recurrence.</span></span>
+6. <span data-ttu-id="b8223-115">Dagsetning er rituð í reitinn Upphafsdagur.</span><span class="sxs-lookup"><span data-stu-id="b8223-115">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="b8223-116">Í reitinn upphafstími skal slá inn tíma.</span><span class="sxs-lookup"><span data-stu-id="b8223-116">In the Start time field, enter a time.</span></span>
+    * <span data-ttu-id="b8223-117">Velja hvort á að ljúka endurtekningu eftir tiltekinn fjölda keyrslur á tiltekinni dagsetningu eða aldrei.</span><span class="sxs-lookup"><span data-stu-id="b8223-117">Choose whether you want to end the recurrence after a specific number of runs, at a specific date, or never.</span></span> <span data-ttu-id="b8223-118">Velja síðan ýmsum valkostum til að skilgreina hversu oft eigi að keyra vinnsluna.</span><span class="sxs-lookup"><span data-stu-id="b8223-118">Then choose the various options to define how frequently you want the job to run.</span></span>  
+8. <span data-ttu-id="b8223-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b8223-119">Click OK.</span></span>
+9. <span data-ttu-id="b8223-120">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b8223-120">Click OK.</span></span>
 
 

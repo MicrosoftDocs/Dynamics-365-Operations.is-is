@@ -19,66 +19,66 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d77428f07967985cf60ab252305819a6fd9d037
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6d8044b177d963842f02d787b7e40c96287f4b11
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a>Kjörstillingar notanda í hönnunarviðmót fyrir fjárhagsskýrslur
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="039dc-104">Kjörstillingar notanda í hönnunarviðmót fyrir fjárhagsskýrslur</span><span class="sxs-lookup"><span data-stu-id="039dc-104">User preferences in financial report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið. Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast. 
+<span data-ttu-id="039dc-105">Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið.</span><span class="sxs-lookup"><span data-stu-id="039dc-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="039dc-106">Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast.</span><span class="sxs-lookup"><span data-stu-id="039dc-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
 
-<a name="set-user-preferences"></a>Kjörstillingar notanda stilltar
+<a name="set-user-preferences"></a><span data-ttu-id="039dc-107">Kjörstillingar notanda stilltar</span><span class="sxs-lookup"><span data-stu-id="039dc-107">Set user preferences</span></span>
 --------------------
 
-1.  Á valmyndinni **verkfæri** í Skýrsluhönnun er smellt á **valkostir**.
-2.  Í **Valkostir** svarglugganum skal°velja kjörstillingar.
-3.  Smelltu á **Í lagi**.
+1.  <span data-ttu-id="039dc-108">Á valmyndinni **verkfæri** í Skýrsluhönnun er smellt á **valkostir**.</span><span class="sxs-lookup"><span data-stu-id="039dc-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2.  <span data-ttu-id="039dc-109">Í **Valkostir** svarglugganum skal°velja kjörstillingar.</span><span class="sxs-lookup"><span data-stu-id="039dc-109">In the **Options** dialog box, select your preferences.</span></span>
+3.  <span data-ttu-id="039dc-110">Smelltu á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="039dc-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a>Valkostir í svarglugganum Valkostir
+## <a name="options-dialog-box-options"></a><span data-ttu-id="039dc-111">Valkostir í svarglugganum Valkostir</span><span class="sxs-lookup"><span data-stu-id="039dc-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr class="header">
-<th>Valkostur notanda</th>
-<th>lýsing</th>
+<th><span data-ttu-id="039dc-112">Valkostur notanda</span><span class="sxs-lookup"><span data-stu-id="039dc-112">User option</span></span></th>
+<th><span data-ttu-id="039dc-113">lýsing</span><span class="sxs-lookup"><span data-stu-id="039dc-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Við ræsingu</td>
-<td>Veljið það sem sést þegar Report Designer ræsist. Veldu einn af eftirfarandi valkostum:
+<td><span data-ttu-id="039dc-114">Við ræsingu</span><span class="sxs-lookup"><span data-stu-id="039dc-114">At startup</span></span></td>
+<td><span data-ttu-id="039dc-115">Veljið það sem sést þegar Report Designer ræsist.</span><span class="sxs-lookup"><span data-stu-id="039dc-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="039dc-116">Veldu einn af eftirfarandi valkostum:</span><span class="sxs-lookup"><span data-stu-id="039dc-116">Select one of the following options:</span></span>
 <ul>
-<li><strong>Hlaða skýrslu sem síðast var hlaðið</strong> – Opnar skýrsluna sem síðast var skoðuð.</li>
-<li><strong>Sýna opinn glugga</strong> – Opnar gluggann <strong>Opna</strong>. Glugginn <strong>Opna</strong> opnar leitarglugga svo fljótlegt sé að finna einingar.</li>
-<li><strong>Sýna tómt umhverfi</strong> – Opnar hönnunarglugga er auð.</li>
+<li><span data-ttu-id="039dc-117"><strong>Hlaða skýrslu sem síðast var hlaðið</strong> – Opnar skýrsluna sem síðast var skoðuð.</span><span class="sxs-lookup"><span data-stu-id="039dc-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="039dc-118"><strong>Sýna opinn glugga</strong> – Opnar gluggann <strong>Opna</strong>.</span><span class="sxs-lookup"><span data-stu-id="039dc-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="039dc-119">Glugginn <strong>Opna</strong> opnar leitarglugga svo fljótlegt sé að finna einingar.</span><span class="sxs-lookup"><span data-stu-id="039dc-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="039dc-120"><strong>Sýna tómt umhverfi</strong> – Opnar hönnunarglugga er auð.</span><span class="sxs-lookup"><span data-stu-id="039dc-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Birta staðfestingu áður en Report Designer er lokað</td>
-<td>Veljið hvort á að fá viðvörun þegar farið er úr forritinu. Þessi skilaboð hjálpar til við að tryggja að ekki loka forritinu óvart.</td>
+<td><span data-ttu-id="039dc-121">Birta staðfestingu áður en Report Designer er lokað</span><span class="sxs-lookup"><span data-stu-id="039dc-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="039dc-122">Veljið hvort á að fá viðvörun þegar farið er úr forritinu.</span><span class="sxs-lookup"><span data-stu-id="039dc-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="039dc-123">Þessi skilaboð hjálpar til við að tryggja að ekki loka forritinu óvart.</span><span class="sxs-lookup"><span data-stu-id="039dc-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Nota reitaundirstrikun sjálfvirkt í dálkfyrirsögnum</td>
-<td>Veljið hvort á að Setur inn undirstrikun í hólf nýrrar dálkfyrirsagnar.</td>
+<td><span data-ttu-id="039dc-124">Nota reitaundirstrikun sjálfvirkt í dálkfyrirsögnum</span><span class="sxs-lookup"><span data-stu-id="039dc-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="039dc-125">Veljið hvort á að Setur inn undirstrikun í hólf nýrrar dálkfyrirsagnar.</span><span class="sxs-lookup"><span data-stu-id="039dc-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr class="even">
-<td>Staðsetning Management Reporter-skráa</td>
-<td>Tilgreinir sjálfgefna staðsetningu fyrir skrár. Forritið notar sjálfgefna staðsetningu þegar einingahópur flutt út.</td>
+<td><span data-ttu-id="039dc-126">Staðsetning Management Reporter-skráa</span><span class="sxs-lookup"><span data-stu-id="039dc-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="039dc-127">Tilgreinir sjálfgefna staðsetningu fyrir skrár.</span><span class="sxs-lookup"><span data-stu-id="039dc-127">Specify the default location for files.</span></span> <span data-ttu-id="039dc-128">Forritið notar sjálfgefna staðsetningu þegar einingahópur flutt út.</span><span class="sxs-lookup"><span data-stu-id="039dc-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="039dc-129">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="039dc-129">See also</span></span>
 --------
 
-[Fjárhagsskýrslugerð](financial-reporting-intro.md)
+[<span data-ttu-id="039dc-130">Fjárhagsskýrslugerð</span><span class="sxs-lookup"><span data-stu-id="039dc-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

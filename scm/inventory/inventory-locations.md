@@ -1,7 +1,7 @@
 ---
 title: "Birgðastaðsetningar"
 description: "Birgðastaðsetningar eru notaðar með grunnvöruhúsi (WMS I) til að ákveða hvar geyma skuli vörur og hvar vörur eru teknar til í WMS I vöruhúsi."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,62 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d93c9d471cc86877f35340693c171958db71df
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 22f4d0c93b0fccdb5439998a68add7b7e0e7750b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-locations"></a>Birgðastaðsetningar
+# <a name="inventory-locations"></a><span data-ttu-id="bf13f-103">Birgðastaðsetningar</span><span class="sxs-lookup"><span data-stu-id="bf13f-103">Inventory locations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Birgðastaðsetningar eru notaðar með grunnvöruhúsi (WMS I) til að ákveða hvar geyma skuli vörur og hvar vörur eru teknar til í WMS I vöruhúsi.
+<span data-ttu-id="bf13f-104">Birgðastaðsetningar eru notaðar með grunnvöruhúsi (WMS I) til að ákveða hvar geyma skuli vörur og hvar vörur eru teknar til í WMS I vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="bf13f-104">Inventory locations are used with basic warehousing (WMS I) to determine where items are stored and where items are picked from in a WMS I warehouse.</span></span>
 
-Athugasemd: Þetta efni á við aðgerðir í kerfiseiningu vöruhúsastjórnunar. Það á ekki við um aðgerðir í kerfiseiningu vöruhúsastjórnunar.
+<span data-ttu-id="bf13f-105">Athugasemd: Þetta efni á við aðgerðir í kerfiseiningu vöruhúsastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="bf13f-105">This topic applies to features in the Inventory management module.</span></span> <span data-ttu-id="bf13f-106">Það á ekki við um aðgerðir í kerfiseiningu vöruhúsastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="bf13f-106">It does not apply to features in the Warehouse management module.</span></span>
 
-Hugtakið staðsetning vísar til staðurinn sem vörur eru geymdar og gefnar út úr.
+<span data-ttu-id="bf13f-107">Hugtakið staðsetning vísar til staðurinn sem vörur eru geymdar og gefnar út úr.</span><span class="sxs-lookup"><span data-stu-id="bf13f-107">The term location refers to the place that items are stored and drawn from.</span></span>
 
-Fyrir hverja staðsetningu, staðurinn þar sem varan er sett inn einnig er hægt að tilgreina. Að sjálfgefnu þær eru þær sömu. Vörur eru yfirleitt settar í og dregnar úr sömu hlið í staðsetningu, en ekki alltaf. Til dæmis vörur sem eru vistaðar í virku geymslu rekka eru sett inn úr einum gangi og gefnir út frá öðru. Aðalinntakið er frá heiti staðsetningar sem er yfirleitt ákveðin af hnitum hennar: vöruhús, gangur, rekki, hillu og körfu. Þetta heiti eða kenni er fært inn handvirkt eða myndar úr stasetningarhnitum - til dæmis 01-02-03-4 fyrir gang 1, rekki 2, hilla 3, karfa 4 í  síðunni birgðastaðsetningar.
-Eiginleikar staðsetningar
--------------------
+<span data-ttu-id="bf13f-108">Fyrir hverja staðsetningu, staðurinn þar sem varan er sett inn einnig er hægt að tilgreina.</span><span class="sxs-lookup"><span data-stu-id="bf13f-108">For each location, the place where the item is inserted can also be specified.</span></span> <span data-ttu-id="bf13f-109">Að sjálfgefnu þær eru þær sömu.</span><span class="sxs-lookup"><span data-stu-id="bf13f-109">By default, they are the same.</span></span> <span data-ttu-id="bf13f-110">Vörur eru yfirleitt settar í og dregnar úr sömu hlið í staðsetningu, en ekki alltaf.</span><span class="sxs-lookup"><span data-stu-id="bf13f-110">Items are usually inserted and drawn from the same side of a location, but not always.</span></span> <span data-ttu-id="bf13f-111">Til dæmis vörur sem eru vistaðar í virku geymslu rekka eru sett inn úr einum gangi og gefnir út frá öðru.</span><span class="sxs-lookup"><span data-stu-id="bf13f-111">For example, items that are stored in live storage racks are inserted from one aisle and drawn from another.</span></span> <span data-ttu-id="bf13f-112">Aðalinntakið er frá heiti staðsetningar sem er yfirleitt ákveðin af hnitum hennar: vöruhús, gangur, rekki, hillu og körfu.</span><span class="sxs-lookup"><span data-stu-id="bf13f-112">The main input is given by a location name, which is usually determined by its coordinates: warehouse, aisle, rack, shelf, and bin.</span></span> <span data-ttu-id="bf13f-113">Þetta heiti eða kenni er fært inn handvirkt eða myndar úr stasetningarhnitum - til dæmis 01-02-03-4 fyrir gang 1, rekki 2, hilla 3, karfa 4 í  síðunni birgðastaðsetningar.</span><span class="sxs-lookup"><span data-stu-id="bf13f-113">This name or ID can be entered manually or generated from the location coordinates—for example, 01-02-03-4 for aisle 1, rack 2, shelf 3, bin 4 in the Inventory locations page.</span></span>
+<span data-ttu-id="bf13f-114">Eiginleikar staðsetningar</span><span class="sxs-lookup"><span data-stu-id="bf13f-114">Location properties</span></span>
 
-Staðsetning hefur eftirfarandi eiginleika:
--   Stærð (hæð, breidd, dýpt, og þar með rúmmál)
--   Vöruhús, rekka, hillu og körfustöðu.
--   Gerð staðsetningar (biðstaðsetningu, tiltektarstaðsetning, inn-hlið, út-hlið, staðsetning framleiðsluinntaks, eftirlitsstaðsetning eða kanban-geymslusvæði)
+<span data-ttu-id="bf13f-115">Staðsetning hefur eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="bf13f-115">A location has the following characteristics:</span></span>
+-   <span data-ttu-id="bf13f-116">Stærð (hæð, breidd, dýpt, og þar með rúmmál)</span><span class="sxs-lookup"><span data-stu-id="bf13f-116">Size (height, width, depth, and thereby volume)</span></span>
+-   <span data-ttu-id="bf13f-117">Vöruhús, rekka, hillu og körfustöðu.</span><span class="sxs-lookup"><span data-stu-id="bf13f-117">Warehouse, aisle, rack, shelf, and bin position</span></span>
+-   <span data-ttu-id="bf13f-118">Gerð staðsetningar (biðstaðsetningu, tiltektarstaðsetning, inn-hlið, út-hlið, staðsetning framleiðsluinntaks, eftirlitsstaðsetning eða kanban-geymslusvæði)</span><span class="sxs-lookup"><span data-stu-id="bf13f-118">Location type (bulk location, picking location, inbound dock, outbound dock, production input location, inspection location, or kanban supermarket)</span></span>
 
-Ekki er hægt að notag ávísunartexta í netkerfum til að staðfesta að virknitáknið hafi valið rétta staðsetningu fyrir tilgreint vara. Þennan stýritexta er hægt að stofna handvirkt eða sjálfkrafa.
+<span data-ttu-id="bf13f-119">Ekki er hægt að notag ávísunartexta í netkerfum til að staðfesta að virknitáknið hafi valið rétta staðsetningu fyrir tilgreint vara.</span><span class="sxs-lookup"><span data-stu-id="bf13f-119">Check text can be used in online systems to verify that the operator has selected the correct location for a specific item.</span></span> <span data-ttu-id="bf13f-120">Þennan stýritexta er hægt að stofna handvirkt eða sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="bf13f-120">This check text can be created manually or by default.</span></span>
 
-## <a name="sort-codes"></a>Raðkóðar
-Notaðu röðunarkóða til að hámarka meðferð tiltektarlína, sem lýsa upplýsingunum sem er krafist fyrir tiltektarvörur úr birgðum, þar með talið tiltektarröðun. Það er hægt að tilgreina raðkóða eftir ganginum og öðrum hnitum eða með því að úthluta þeim handvirkt fyrir staðsetninguna.
+## <a name="sort-codes"></a><span data-ttu-id="bf13f-121">Raðkóðar</span><span class="sxs-lookup"><span data-stu-id="bf13f-121">Sort codes</span></span>
+<span data-ttu-id="bf13f-122">Notaðu röðunarkóða til að hámarka meðferð tiltektarlína, sem lýsa upplýsingunum sem er krafist fyrir tiltektarvörur úr birgðum, þar með talið tiltektarröðun.</span><span class="sxs-lookup"><span data-stu-id="bf13f-122">Use sort codes to optimize the handling of picking lines, which describe the information that is required for picking items from inventory, including the picking order.</span></span> <span data-ttu-id="bf13f-123">Það er hægt að tilgreina raðkóða eftir ganginum og öðrum hnitum eða með því að úthluta þeim handvirkt fyrir staðsetninguna.</span><span class="sxs-lookup"><span data-stu-id="bf13f-123">Sort codes can be specified by the aisle and other coordinates, or assigned manually for the location.</span></span>
 
-## <a name="blocked-locations"></a>Lokaðar staðsetningar
-Stundum gæti þurft að gefa til kynna að staðsetning verði læst um ákveðinn tíma, til dæmis til að framkvæma viðgerðir. Á öðrum tímum er hugsanlegt að læsa aðeins ílag eða aðeins frálag.
-Trjáskipulag
---------------
+## <a name="blocked-locations"></a><span data-ttu-id="bf13f-124">Lokaðar staðsetningar</span><span class="sxs-lookup"><span data-stu-id="bf13f-124">Blocked locations</span></span>
+<span data-ttu-id="bf13f-125">Stundum gæti þurft að gefa til kynna að staðsetning verði læst um ákveðinn tíma, til dæmis til að framkvæma viðgerðir.</span><span class="sxs-lookup"><span data-stu-id="bf13f-125">Occasionally, you might want to indicate that a location is blocked for a period of time, for example, to allow for repairs.</span></span> <span data-ttu-id="bf13f-126">Á öðrum tímum er hugsanlegt að læsa aðeins ílag eða aðeins frálag.</span><span class="sxs-lookup"><span data-stu-id="bf13f-126">At other times, you may want to indicate blocking of only the input or only output.</span></span>
 
-Í síðu birgðastaðsetning er hægt að skoða útlit vöruhúss í tréskipulagi eftir hnitum birgðastaðsetninga í skilgreindu skjásniði.
-Viðhalda birgðastaðsetning í skjámyndinni vöruhús
----------------------------------------------------
+## <a name="tree-structure"></a><span data-ttu-id="bf13f-127">Trjáskipulag</span><span class="sxs-lookup"><span data-stu-id="bf13f-127">Tree structure</span></span>
 
-Mögulegt er að afrita staðsetningar úr einu vöruhúsi í annað og til að stofna staðsetningar með leiðsagnarforriti. Áður en leiðsagnarforritið keyrt skal ganga úr skugga sem um að þú hefur skilgreint heiti fyrir sjálfgefin staðsetning síðu Vöruhúss.
+<span data-ttu-id="bf13f-128">Í síðu birgðastaðsetning er hægt að skoða útlit vöruhúss í tréskipulagi eftir hnitum birgðastaðsetninga í skilgreindu skjásniði.</span><span class="sxs-lookup"><span data-stu-id="bf13f-128">In the Inventory locations page, you can view the warehouse layout in a tree structure based on the coordinates of inventory locations, in a defined display format.</span></span>
 
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a><span data-ttu-id="bf13f-129">Viðhalda birgðastaðsetning í skjámyndinni vöruhús</span><span class="sxs-lookup"><span data-stu-id="bf13f-129">Maintain inventory locations via the warehouse form</span></span>
+
+<span data-ttu-id="bf13f-130">Mögulegt er að afrita staðsetningar úr einu vöruhúsi í annað og til að stofna staðsetningar með leiðsagnarforriti.</span><span class="sxs-lookup"><span data-stu-id="bf13f-130">It is possible to copy locations from one warehouse to another and to create locations via a wizard.</span></span> <span data-ttu-id="bf13f-131">Áður en leiðsagnarforritið keyrt skal ganga úr skugga sem um að þú hefur skilgreint heiti fyrir sjálfgefin staðsetning síðu Vöruhúss.</span><span class="sxs-lookup"><span data-stu-id="bf13f-131">Before you run the wizard you should make sure that you have defined the default location names on the Warehouse page.</span></span>
 
 
-<a name="see-also"></a>Sjá einnig
+
+<a name="see-also"></a><span data-ttu-id="bf13f-132">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="bf13f-132">See also</span></span>
 --------
 
-[Búa til nýtt útlit vöruhúss (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
+[<span data-ttu-id="bf13f-133">Búa til nýtt útlit vöruhúss (verkleiðbeiningar)</span><span class="sxs-lookup"><span data-stu-id="bf13f-133">Create a new warehouse layout (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
 

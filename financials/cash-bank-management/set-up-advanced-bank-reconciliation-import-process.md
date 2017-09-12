@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="63ccb-104">Setja upp ítarlegan innflutning bankaafstemmingarferlis</span><span class="sxs-lookup"><span data-stu-id="63ccb-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
+<span data-ttu-id="63ccb-105">Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu.</span><span class="sxs-lookup"><span data-stu-id="63ccb-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="63ccb-106">Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Finance and Operations styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.
+<span data-ttu-id="63ccb-107">Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti.</span><span class="sxs-lookup"><span data-stu-id="63ccb-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="63ccb-108">Finance and Operations styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.</span><span class="sxs-lookup"><span data-stu-id="63ccb-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Sýnisskrár
-Fyrir öll þrjú snið verður að hafa skrár sem þýða rafræna bankayfirlitið úr upprunalegu sniði á snið sem Dynamics 365 for Finance and Operations getur notað. Hægt er að finna nauðsynlegar skrár undir **Tilföng** hnút í Explorer Forritinu í Microsoft Visual Studio. Þegar búið er að finna skrár, skal afrita þær á einn þekktan stað svo að hægt sé að hlaða upp á einfaldan hátt meðan á uppsetningu stendur.
+## <a name="sample-files"></a><span data-ttu-id="63ccb-109">Sýnisskrár</span><span class="sxs-lookup"><span data-stu-id="63ccb-109">Sample files</span></span>
+<span data-ttu-id="63ccb-110">Fyrir öll þrjú snið verður að hafa skrár sem þýða rafræna bankayfirlitið úr upprunalegu sniði á snið sem Dynamics 365 for Finance and Operations getur notað.</span><span class="sxs-lookup"><span data-stu-id="63ccb-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="63ccb-111">Hægt er að finna nauðsynlegar skrár undir **Tilföng** hnút í Explorer Forritinu í Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="63ccb-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="63ccb-112">Þegar búið er að finna skrár, skal afrita þær á einn þekktan stað svo að hægt sé að hlaða upp á einfaldan hátt meðan á uppsetningu stendur.</span><span class="sxs-lookup"><span data-stu-id="63ccb-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Nafn tilfangs                                           | Skrárnafn                            |
+| <span data-ttu-id="63ccb-113">Nafn tilfangs</span><span class="sxs-lookup"><span data-stu-id="63ccb-113">Resource name</span></span>                                           | <span data-ttu-id="63ccb-114">Skrárnafn</span><span class="sxs-lookup"><span data-stu-id="63ccb-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_í\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_í\_Afstemming\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_í\_Samsett\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_í\_Afstemming\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_í\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_í\_Afstemming\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="63ccb-115">BankStmtImport\_BAI2CSV\_í\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="63ccb-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="63ccb-117">BankStmtImport\_BAI2XML\_í\_Afstemming\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="63ccb-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="63ccb-119">BankStmtImport\_BankReconciliation\_í\_Samsett\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="63ccb-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="63ccb-121">BankStmtImport\_ISO20022XML\_í\_Afstemming\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="63ccb-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="63ccb-123">BankStmtImport\_MT940TXT\_í\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="63ccb-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="63ccb-125">BankStmtImport\_MT940XML\_í\_Afstemming\_xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="63ccb-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="63ccb-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="63ccb-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="63ccb-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="63ccb-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="63ccb-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Dæmi um bankayfirlitssnið og tæknilegar útlit
-Hér að neðan eru dæmi um innflutning ítarlega afstemmingu skilgreiningar tæknilegar útlit og þriggja tengdum skrám bankayfirlits dæmi: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="63ccb-129">Dæmi um bankayfirlitssnið og tæknilegar útlit</span><span class="sxs-lookup"><span data-stu-id="63ccb-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="63ccb-130">Hér að neðan eru dæmi um innflutning ítarlega afstemmingu skilgreiningar tæknilegar útlit og þriggja tengdum skrám bankayfirlits dæmi: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="63ccb-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Skilgreining tæknilegs útlits                             | Dæmi bankayfirlitsskránni          |
+| <span data-ttu-id="63ccb-131">Skilgreining tæknilegs útlits</span><span class="sxs-lookup"><span data-stu-id="63ccb-131">Technical layout definition</span></span>                             | <span data-ttu-id="63ccb-132">Dæmi bankayfirlitsskránni</span><span class="sxs-lookup"><span data-stu-id="63ccb-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="63ccb-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="63ccb-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="63ccb-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="63ccb-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="63ccb-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="63ccb-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="63ccb-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="63ccb-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="63ccb-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="63ccb-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="63ccb-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="63ccb-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Setja upp innflutning á bankayfirlitum ISO20022
-Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO20022 bankayfirlit með því að nota rammann fyrir gagnaeiningu.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="63ccb-139">Setja upp innflutning á bankayfirlitum ISO20022</span><span class="sxs-lookup"><span data-stu-id="63ccb-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="63ccb-140">Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO20022 bankayfirlit með því að nota rammann fyrir gagnaeiningu.</span><span class="sxs-lookup"><span data-stu-id="63ccb-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
-2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og **ISO20022**.
-4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
-6.  Til að hlaða upp innflutningsskrár, smellið á **Hlaða upp**, og flettið svo til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
-7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
-8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
-10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
-13. Smellið á **Nota umbreytingar**
+1.  <span data-ttu-id="63ccb-141">Fara á **vinnusvæði** &gt; **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="63ccb-142">Smellt er á **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="63ccb-143">Færa inn heiti á sniðsins, eins og **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="63ccb-144">Stillið **snið upprunagagna** reitinn á **XML-eining**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="63ccb-145">Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="63ccb-146">Til að hlaða upp innflutningsskrár, smellið á **Hlaða upp**, og flettið svo til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="63ccb-147">Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.</span><span class="sxs-lookup"><span data-stu-id="63ccb-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="63ccb-148">Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum.</span><span class="sxs-lookup"><span data-stu-id="63ccb-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="63ccb-149">Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="63ccb-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="63ccb-150">Á flipanum **umbreyting** smellirðu á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="63ccb-151">Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **ISO20022XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="63ccb-152">**Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="63ccb-153">Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="63ccb-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="63ccb-154">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-154">Click **New**.</span></span>
+12. <span data-ttu-id="63ccb-155">Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="63ccb-156">Smellið á **Nota umbreytingar**</span><span class="sxs-lookup"><span data-stu-id="63ccb-156">Click **Apply transforms**.</span></span>
 
-Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir ISO20022 bankayfirlit.
+<span data-ttu-id="63ccb-157">Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir ISO20022 bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="63ccb-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.
-2.  Smellt er á **Nýtt**.
-3.  Tilgreina snið yfirlits, eins og **ISO20022**.
-4.  Færið inn heiti fyrir sniðið.
-5.  Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **ISO20022**.
-6.  Vekldy **XML-skránni** gátreitinn.
+1.  <span data-ttu-id="63ccb-158">Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="63ccb-159">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-159">Click **New**.</span></span>
+3.  <span data-ttu-id="63ccb-160">Tilgreina snið yfirlits, eins og **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="63ccb-161">Færið inn heiti fyrir sniðið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="63ccb-162">Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="63ccb-163">Vekldy **XML-skránni** gátreitinn.</span><span class="sxs-lookup"><span data-stu-id="63ccb-163">Select the **XML file** check box.</span></span>
 
-Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.
+<span data-ttu-id="63ccb-164">Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.</span><span class="sxs-lookup"><span data-stu-id="63ccb-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
-2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
-4.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **ISO20022**.
+1.  <span data-ttu-id="63ccb-165">Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="63ccb-166">Velja bankareikning og opnið til að skoða upplýsingarnar.</span><span class="sxs-lookup"><span data-stu-id="63ccb-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="63ccb-167">Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="63ccb-168">Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>Setja upp innflutning á bankayfirlitum MT940
-Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir MT940 bankayfirlit með því að nota rammann fyrir gagnaeiningu.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="63ccb-169">Setja upp innflutning á bankayfirlitum MT940</span><span class="sxs-lookup"><span data-stu-id="63ccb-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="63ccb-170">Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir MT940 bankayfirlit með því að nota rammann fyrir gagnaeiningu.</span><span class="sxs-lookup"><span data-stu-id="63ccb-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
-2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og **MT940**.
-4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
-6.  Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
-7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
-8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
-10. Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **MT940TXT-to-MT940XML.xslt** skrár sem vistuð var fyrr.
-11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Smellt er á **Nýtt**.
-14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
-15. Smellið á **Nota umbreytingar**
+1.  <span data-ttu-id="63ccb-171">Fara á **vinnusvæði** &gt; **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="63ccb-172">Smellt er á **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="63ccb-173">Færa inn heiti á sniðsins, eins og **MT940**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="63ccb-174">Stillið **snið upprunagagna** reitinn á **XML-eining**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="63ccb-175">Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="63ccb-176">Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="63ccb-177">Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.</span><span class="sxs-lookup"><span data-stu-id="63ccb-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="63ccb-178">Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum.</span><span class="sxs-lookup"><span data-stu-id="63ccb-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="63ccb-179">Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="63ccb-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="63ccb-180">Á flipanum **umbreyting** smellirðu á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="63ccb-181">Fyrir Raðnúmer 1, smellið á **Hlaða upp skrá**, og veljið **MT940TXT-to-MT940XML.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="63ccb-182">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-182">Click **New**.</span></span>
+12. <span data-ttu-id="63ccb-183">Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **MT940XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="63ccb-184">**Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="63ccb-185">Þar sem bankar nota oft annað snið en þetta, þarf að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="63ccb-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="63ccb-186">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-186">Click **New**.</span></span>
+14. <span data-ttu-id="63ccb-187">Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="63ccb-188">Smellið á **Nota umbreytingar**</span><span class="sxs-lookup"><span data-stu-id="63ccb-188">Click **Apply transforms**.</span></span>
 
-Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir MT940 bankayfirlit.
+<span data-ttu-id="63ccb-189">Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir MT940 bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="63ccb-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.
-2.  Smellt er á **Nýtt**.
-3.  Tilgreina snið yfirlits, eins og **MT940**.
-4.  Færið inn heiti fyrir sniðið.
-5.  Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **MT940**.
-6.  Stillið **skáargerð** reit á **txt**.
+1.  <span data-ttu-id="63ccb-190">Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="63ccb-191">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-191">Click **New**.</span></span>
+3.  <span data-ttu-id="63ccb-192">Tilgreina snið yfirlits, eins og **MT940**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="63ccb-193">Færið inn heiti fyrir sniðið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="63ccb-194">Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **MT940**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="63ccb-195">Stillið **skáargerð** reit á **txt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-195">Set the **File type** field to **txt**.</span></span>
 
-Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.
+<span data-ttu-id="63ccb-196">Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.</span><span class="sxs-lookup"><span data-stu-id="63ccb-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
-2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
-4.  Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.
-5.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **MT940**.
+1.  <span data-ttu-id="63ccb-197">Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="63ccb-198">Velja bankareikning og opnið til að skoða upplýsingarnar.</span><span class="sxs-lookup"><span data-stu-id="63ccb-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="63ccb-199">Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="63ccb-200">Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="63ccb-201">Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **MT940**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>Setja upp innflutning á bankayfirlitum BAI2
-Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir BAI2 bankayfirlit með því að nota rammann fyrir gagnaeiningu.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="63ccb-202">Setja upp innflutning á bankayfirlitum BAI2</span><span class="sxs-lookup"><span data-stu-id="63ccb-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="63ccb-203">Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir BAI2 bankayfirlit með því að nota rammann fyrir gagnaeiningu.</span><span class="sxs-lookup"><span data-stu-id="63ccb-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Fara á **vinnusvæði** &gt; **Gagnastjórnun**.
-2.  Smellt er á **Flytja inn**.
-3.  Færa inn heiti á sniðsins, eins og **BAI2**.
-4.  Stillið **snið upprunagagna** reitinn á **XML-eining**.
-5.  Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.
-6.  Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.
-7.  Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.
-8.  Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum. Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.
-9.  Á flipanum **umbreyting** smellirðu á **Nýtt**.
-10. Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja **BAI2CSV-to-BAI2XML.xslt** skrár sem vistuð var fyrr.
-11. Smellt er á **Nýtt**.
-12. Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr. **Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið. Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Smellt er á **Nýtt**.
-14. Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.
-15. Smellið á **Nota umbreytingar**
+1.  <span data-ttu-id="63ccb-204">Fara á **vinnusvæði** &gt; **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="63ccb-205">Smellt er á **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="63ccb-206">Færa inn heiti á sniðsins, eins og **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="63ccb-207">Stillið **snið upprunagagna** reitinn á **XML-eining**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="63ccb-208">Stilltu **Einingarheiti** reitinn á **Bankayfirlit**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="63ccb-209">Til að hlaða upp innflutningsskrár, smellið á **hlaða upp**, og síðan fletta til að velja **SampleBankCompositeEntity.xml** skrár sem var vistuð fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="63ccb-210">Eftir að einingu bankayfirlits er hlaðið upp og vörpun er lokið, smellið á **Skoða kort** aðgerð fyrir eininguna.</span><span class="sxs-lookup"><span data-stu-id="63ccb-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="63ccb-211">Einingin bankayfirlit er samsett eining sem samanstendur úr fjórum mismunandi einingum.</span><span class="sxs-lookup"><span data-stu-id="63ccb-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="63ccb-212">Á listanum, veljið **BankStatementDocumentEntity**, og smellið á **Skoða kort** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="63ccb-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="63ccb-213">Á flipanum **umbreyting** smellirðu á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="63ccb-214">Fyrir Raðnúmer 1, smellið **Hlaða upp skrá**, og velja **BAI2CSV-to-BAI2XML.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="63ccb-215">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-215">Click **New**.</span></span>
+12. <span data-ttu-id="63ccb-216">Fyrir Raðnúmer 2, smellið **Hlaða upp skrá**, og veljið **BAI2XML-to-Reconciliation.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="63ccb-217">**Athugasemd:** Finance and Dynamics 365 for Operations umbreytingarskrár eru búnar til fyrir stöðluð snið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="63ccb-218">Bankar nota oft annað snið en þetta og þú kannt að þurfa að uppfæra breytingaskrá svo hún varpi í snið bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="63ccb-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="63ccb-219">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-219">Click **New**.</span></span>
+14. <span data-ttu-id="63ccb-220">Fyrir Raðnúmer 3, smellið **Hlaða upp skrá**, og veljið **BankReconciliation-to-Composite.xslt** skrár sem vistuð var fyrr.</span><span class="sxs-lookup"><span data-stu-id="63ccb-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="63ccb-221">Smellið á **Nota umbreytingar**</span><span class="sxs-lookup"><span data-stu-id="63ccb-221">Click **Apply transforms**.</span></span>
 
-Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir BAI2 bankayfirlit.
+<span data-ttu-id="63ccb-222">Eftir að vinnsluhópur sniðs hefur verið sett upp, er næsta skref að skilgreina sniðsreglur bankayfirlits fyrir BAI2 bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="63ccb-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.
-2.  Smellt er á **Nýtt**.
-3.  Tilgreina snið yfirlits, eins og **BAI2**.
-4.  Færið inn heiti fyrir sniðið.
-5.  Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **BAI2**.
-6.  Stillið **skáargerð** reit á **txt**.
+1.  <span data-ttu-id="63ccb-223">Fara í **Reiðufjár- og bankastjórnun** &gt; **Uppsetning** &gt; **Ítarleg uppsetning bankaafstemmingar** &gt; **Snið bankayfirlits**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="63ccb-224">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-224">Click **New**.</span></span>
+3.  <span data-ttu-id="63ccb-225">Tilgreina snið yfirlits, eins og **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="63ccb-226">Færið inn heiti fyrir sniðið.</span><span class="sxs-lookup"><span data-stu-id="63ccb-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="63ccb-227">Stilla skal **vinnsluhóp** reitinn á hópinn sem þú skilgreind fyrr, eins og **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="63ccb-228">Stillið **skáargerð** reit á **txt**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-228">Set the **File type** field to **txt**.</span></span>
 
-Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.
+<span data-ttu-id="63ccb-229">Síðasta skrefið er að virkja Ítarlega bankaafstemmingu og stilla snið yfirlits á bankareikning.</span><span class="sxs-lookup"><span data-stu-id="63ccb-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
-2.  Velja bankareikning og opnið til að skoða upplýsingarnar.
-3.  Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.
-4.  Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.
-5.  Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **BAI2**.
+1.  <span data-ttu-id="63ccb-230">Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="63ccb-231">Velja bankareikning og opnið til að skoða upplýsingarnar.</span><span class="sxs-lookup"><span data-stu-id="63ccb-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="63ccb-232">Á **Afstemmingu** flipanum, skal stilla **Ítarlegri bankaafstemmingu** valkostinn á **Já**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="63ccb-233">Þegar þú hefur verið beðinn um að staðfesta valið og virkjar Ítarlegri bankaafstemmingu er smellt á **í lagi**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="63ccb-234">Stilla skal **snið yfirlits** svæðið á sniðið sem var skilgreind fyrr, eins og **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Prófun á innflutningi bankayfirlits
-Síðasta skrefið er að prófa hvort hægt sé að flytja inn bankayfirliti.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="63ccb-235">Prófun á innflutningi bankayfirlits</span><span class="sxs-lookup"><span data-stu-id="63ccb-235">Test the bank statement import</span></span>
+<span data-ttu-id="63ccb-236">Síðasta skrefið er að prófa hvort hægt sé að flytja inn bankayfirliti.</span><span class="sxs-lookup"><span data-stu-id="63ccb-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.
-2.  Veljið bankareikning sem ítarlega bankaafstemming virkni er virkt fyrir.
-3.  Á **Afstemming** flipanum, smellið á **Bankayfirlit**.
-4.  Á við **Bankayfirlit** síðunni er smellt á **flytja Inn yfirlit**.
-5.  Stilla skal **bankareikning** reitinn á valinn bankareikning. **uppgjörssnið** svæði verður stillt sjálfkrafa, byggt á stillingunni á bankareikning.
-6.  Smellið á **Fletta**, og veljið rafræn bankayfirlitsskránni þíns.
-7.  Smelltu á **Senda inn**.
-8.  Smelltu á **Í lagi**.
+1.  <span data-ttu-id="63ccb-237">Farið í **Reiðufjár- og bankastjórnun** &gt; **Bankareikningar**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="63ccb-238">Veljið bankareikning sem ítarlega bankaafstemming virkni er virkt fyrir.</span><span class="sxs-lookup"><span data-stu-id="63ccb-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="63ccb-239">Á **Afstemming** flipanum, smellið á **Bankayfirlit**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="63ccb-240">Á við **Bankayfirlit** síðunni er smellt á **flytja Inn yfirlit**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="63ccb-241">Stilla skal **bankareikning** reitinn á valinn bankareikning.</span><span class="sxs-lookup"><span data-stu-id="63ccb-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="63ccb-242">**uppgjörssnið** svæði verður stillt sjálfkrafa, byggt á stillingunni á bankareikning.</span><span class="sxs-lookup"><span data-stu-id="63ccb-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="63ccb-243">Smellið á **Fletta**, og veljið rafræn bankayfirlitsskránni þíns.</span><span class="sxs-lookup"><span data-stu-id="63ccb-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="63ccb-244">Smelltu á **Senda inn**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="63ccb-245">Smelltu á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="63ccb-245">Click **OK**.</span></span>
 
-Ef innflutningurinn heppnast, munu berast boð sem tilgreinir að uppgjör þitt var flutt inn. Ef innflutningur heppnaðist ekki, í **gagnastjórnun** vinnusvæði í í **Vinnslusögu** hlutanum, finna vinnslu. Smellið á **framkvæmdaupplýsingar** fyrir vinnslu til að opna **samantekt Framkvæmdar** síðuna og smellið síðan á **Skoða aðgerðaskrá** til að skoða villur innflutnings.
+<span data-ttu-id="63ccb-246">Ef innflutningurinn heppnast, munu berast boð sem tilgreinir að uppgjör þitt var flutt inn.</span><span class="sxs-lookup"><span data-stu-id="63ccb-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="63ccb-247">Ef innflutningur heppnaðist ekki, í **gagnastjórnun** vinnusvæði í í **Vinnslusögu** hlutanum, finna vinnslu.</span><span class="sxs-lookup"><span data-stu-id="63ccb-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="63ccb-248">Smellið á **framkvæmdaupplýsingar** fyrir vinnslu til að opna **samantekt Framkvæmdar** síðuna og smellið síðan á **Skoða aðgerðaskrá** til að skoða villur innflutnings.</span><span class="sxs-lookup"><span data-stu-id="63ccb-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

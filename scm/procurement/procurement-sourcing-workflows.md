@@ -19,61 +19,61 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 67bdb8436ff379b0e55cfe1660597e8f93235eeb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
+# <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="c5986-104">Verkflæði innkaupa og aðfanga</span><span class="sxs-lookup"><span data-stu-id="c5986-104">Procurement and sourcing workflows</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Í sumum fyrirtækjum er þess krafist að innkaupabeiðnir og innkaupapantanir séu samþykktar af öðrum en þeim aðila sem setti inn færsluna. Til að setja upp samþykktarferli er hægt að stofna verkflæði.
+<span data-ttu-id="c5986-105">Í sumum fyrirtækjum er þess krafist að innkaupabeiðnir og innkaupapantanir séu samþykktar af öðrum en þeim aðila sem setti inn færsluna.</span><span class="sxs-lookup"><span data-stu-id="c5986-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="c5986-106">Til að setja upp samþykktarferli er hægt að stofna verkflæði.</span><span class="sxs-lookup"><span data-stu-id="c5986-106">To set up an approval process, you can create a workflow.</span></span>
 
-Verkflæði endurspeglar viðskiptaferli. Það skilgreinir flæði skjals í gegnum kerfið og gefur til kynna hver verður að ljúka við verk eða samþykkja skjal. Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
--   **Samræmt ferli** — Hægt er að skilgreina samþykktarferli fyrir einstök skjöl, eins og innkaupabeiðnir og kostnaðarskýrslur. Með því að nota verkflæðiskerfi má betur ganga úr skugga um að skjölin séu unnin og samþykkt með samræmdum og skilvirkum hætti.
--   **Sýnileiki ferlis** — Hægt er að rekja stöðu, sögu og afkastamælikvarða tiltekins verkflæðistilviks. Þetta auðveldar ákvörðun um hvort breyta þurfi verkflæðinu til að auka skilvirkni.
--   **Miðlægur verkefnalisti** — Notendur geta skoðað miðlægan verkefnalisti og séð verkefni í verkflæðinu og samþykktir sem tilheyra þeim þvert á allt verkflæði sem þeir taka þátt í.. Þetta er tiltæk á síðunni Vinnuliðir.
+<span data-ttu-id="c5986-107">Verkflæði endurspeglar viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="c5986-107">A workflow represents a business process.</span></span> <span data-ttu-id="c5986-108">Það skilgreinir flæði skjals í gegnum kerfið og gefur til kynna hver verður að ljúka við verk eða samþykkja skjal.</span><span class="sxs-lookup"><span data-stu-id="c5986-108">It defines how a document flows through the system and indicates who must complete a task or approve a document.</span></span> <span data-ttu-id="c5986-109">Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:</span><span class="sxs-lookup"><span data-stu-id="c5986-109">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="c5986-110">**Samræmt ferli** — Hægt er að skilgreina samþykktarferli fyrir einstök skjöl, eins og innkaupabeiðnir og kostnaðarskýrslur.</span><span class="sxs-lookup"><span data-stu-id="c5986-110">**Consistent processes**— You can define the approval process for specific documents, such as purchase requisitions and expense reports.</span></span> <span data-ttu-id="c5986-111">Með því að nota verkflæðiskerfi má betur ganga úr skugga um að skjölin séu unnin og samþykkt með samræmdum og skilvirkum hætti.</span><span class="sxs-lookup"><span data-stu-id="c5986-111">Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="c5986-112">**Sýnileiki ferlis** — Hægt er að rekja stöðu, sögu og afkastamælikvarða tiltekins verkflæðistilviks.</span><span class="sxs-lookup"><span data-stu-id="c5986-112">**Process visibility**— You can track the status, history, and performance metrics of a specific workflow instance.</span></span> <span data-ttu-id="c5986-113">Þetta auðveldar ákvörðun um hvort breyta þurfi verkflæðinu til að auka skilvirkni.</span><span class="sxs-lookup"><span data-stu-id="c5986-113">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="c5986-114">**Miðlægur verkefnalisti** — Notendur geta skoðað miðlægan verkefnalisti og séð verkefni í verkflæðinu og samþykktir sem tilheyra þeim þvert á allt verkflæði sem þeir taka þátt í..</span><span class="sxs-lookup"><span data-stu-id="c5986-114">**Centralized work list**— Users can view a centralized work list to view the workflow tasks and approvals assigned to them across all workflows they participate in.</span></span> <span data-ttu-id="c5986-115">Þetta er tiltæk á síðunni Vinnuliðir.</span><span class="sxs-lookup"><span data-stu-id="c5986-115">This is available in the Work items page.</span></span>
 
-## <a name="the-types-of-workflows-that-you-can-create"></a> Gerðir verkflæðis sem hægt er að stofna
-Eftirfarandi verkflæðisgerðir eru tiltækar fyrir innkaup og aðföng.
+## <a name="the-types-of-workflows-that-you-can-create"></a><span data-ttu-id="c5986-116"> Gerðir verkflæðis sem hægt er að stofna</span><span class="sxs-lookup"><span data-stu-id="c5986-116">The types of workflows that you can create</span></span>
+<span data-ttu-id="c5986-117">Eftirfarandi verkflæðisgerðir eru tiltækar fyrir innkaup og aðföng.</span><span class="sxs-lookup"><span data-stu-id="c5986-117">The following workflow types are available for Procurement and sourcing.</span></span>
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Gerð**                         | **Notið þessa gerð til að**                                          |
-| Endurskoða innkaupabeiðni      | Stofna endurskoðunarverkflæði fyrir innkaupabeiðni.            |
-| Endurskoða innkaupabeiðnilínu | Stofna endurskoðunarverkflæði fyrir innkaupabeiðnilína.       |
-| Verkflæði innkaupapöntunar          | Stofna endurskoðunar- og samþykkisverkflæði fyrir innkaupapantanir     |
-| Verkflæði innkaupapöntunarlínu     | stofna endurskoðunar- og samþykkisverkflæði fyrir innkaupapantanir |
+| <span data-ttu-id="c5986-118">**Gerð**</span><span class="sxs-lookup"><span data-stu-id="c5986-118">**Type**</span></span>                         | <span data-ttu-id="c5986-119">**Notið þessa gerð til að**</span><span class="sxs-lookup"><span data-stu-id="c5986-119">**Use this type to**</span></span>                                          |
+| <span data-ttu-id="c5986-120">Endurskoða innkaupabeiðni</span><span class="sxs-lookup"><span data-stu-id="c5986-120">Purchase requisition review</span></span>      | <span data-ttu-id="c5986-121">Stofna endurskoðunarverkflæði fyrir innkaupabeiðni.</span><span class="sxs-lookup"><span data-stu-id="c5986-121">Create review workflows for purchase requisitions.</span></span>            |
+| <span data-ttu-id="c5986-122">Endurskoða innkaupabeiðnilínu</span><span class="sxs-lookup"><span data-stu-id="c5986-122">Purchase requisition line review</span></span> | <span data-ttu-id="c5986-123">Stofna endurskoðunarverkflæði fyrir innkaupabeiðnilína.</span><span class="sxs-lookup"><span data-stu-id="c5986-123">Create review workflows for purchase requisition lines.</span></span>       |
+| <span data-ttu-id="c5986-124">Verkflæði innkaupapöntunar</span><span class="sxs-lookup"><span data-stu-id="c5986-124">Purchase order workflow</span></span>          | <span data-ttu-id="c5986-125">Stofna endurskoðunar- og samþykkisverkflæði fyrir innkaupapantanir</span><span class="sxs-lookup"><span data-stu-id="c5986-125">Create review and approval workflows for purchase orders.</span></span>     |
+| <span data-ttu-id="c5986-126">Verkflæði innkaupapöntunarlínu</span><span class="sxs-lookup"><span data-stu-id="c5986-126">Purchase order line workflow</span></span>     | <span data-ttu-id="c5986-127">stofna endurskoðunar- og samþykkisverkflæði fyrir innkaupapantanir</span><span class="sxs-lookup"><span data-stu-id="c5986-127">Create review and approve workflows for purchase order lines.</span></span> |
 
-## <a name="creating-a-workflow"></a>verkflæði stofnuð
-Til að stofna verkflæði er farið í Innkaup og aðföng &gt; Uppsetning &gt; verkflæði Innkaupa og uppruna og stofnað nýtt verkflæði með því að velja gerð verkflæðis sem á að stofna.  
+## <a name="creating-a-workflow"></a><span data-ttu-id="c5986-128">verkflæði stofnuð</span><span class="sxs-lookup"><span data-stu-id="c5986-128">Creating a workflow</span></span>
+<span data-ttu-id="c5986-129">Til að stofna verkflæði er farið í Innkaup og aðföng &gt; Uppsetning &gt; verkflæði Innkaupa og uppruna og stofnað nýtt verkflæði með því að velja gerð verkflæðis sem á að stofna.</span><span class="sxs-lookup"><span data-stu-id="c5986-129">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
-Í Verkflæðistriga er hægt að draga verkflæðiseiningar yfir hönnuðinn og tengja einingarnar í flæði. einingar verkflæðisins ætti að skilgreina Fyrir verkflæðiseiningar Samþykkis og verkefnis má skilgreina hvaða þátttakandi á að framkvæma aðgerðina.
-Gerð þátttakenda
+<span data-ttu-id="c5986-130">Í Verkflæðistriga er hægt að draga verkflæðiseiningar yfir hönnuðinn og tengja einingarnar í flæði.</span><span class="sxs-lookup"><span data-stu-id="c5986-130">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="c5986-131">einingar verkflæðisins ætti að skilgreina</span><span class="sxs-lookup"><span data-stu-id="c5986-131">The workflow elements should be configured.</span></span> <span data-ttu-id="c5986-132">Fyrir verkflæðiseiningar Samþykkis og verkefnis má skilgreina hvaða þátttakandi á að framkvæma aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="c5986-132">For approval and task workflow elements you can configure which participant should take action.</span></span>
+<span data-ttu-id="c5986-133">Gerð þátttakenda</span><span class="sxs-lookup"><span data-stu-id="c5986-133">Types of participants</span></span>
 ----------------------
 
-Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.
+<span data-ttu-id="c5986-134">Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.</span><span class="sxs-lookup"><span data-stu-id="c5986-134">You can assign an approval step to the following groups of participants.</span></span>
 
-| Notendaflokkur    | Lýsing                                                               |
+| <span data-ttu-id="c5986-135">Notendaflokkur</span><span class="sxs-lookup"><span data-stu-id="c5986-135">User group</span></span>    | <span data-ttu-id="c5986-136">Lýsing</span><span class="sxs-lookup"><span data-stu-id="c5986-136">Description</span></span>                                                               |
 |---------------|---------------------------------------------------------------------------|
-| Þátttakendur   | Úthluta samþykktarskrefinu til aðila í hópi eða hlutverki.                   |
-| Stigveldi     | Úthluta samþykktarskrefi til notenda í tilteknu stigveldi fyrirtækis. |
-| Verkflæðisnotandi | Úthluta samþykktarskrefinu til notenda í þessu verkflæði.                       |
-| Biðröð         | Úthluta samþykktarskrefinu til vinnuliðalista.                            |
-| Notandi          | Úthluta samþykktarskrefinu til tiltekinna notenda .                               |
+| <span data-ttu-id="c5986-137">Þátttakendur</span><span class="sxs-lookup"><span data-stu-id="c5986-137">Participant</span></span>   | <span data-ttu-id="c5986-138">Úthluta samþykktarskrefinu til aðila í hópi eða hlutverki.</span><span class="sxs-lookup"><span data-stu-id="c5986-138">Assign the approval step to members of a group or role.</span></span>                   |
+| <span data-ttu-id="c5986-139">Stigveldi</span><span class="sxs-lookup"><span data-stu-id="c5986-139">Hierarchy</span></span>     | <span data-ttu-id="c5986-140">Úthluta samþykktarskrefi til notenda í tilteknu stigveldi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="c5986-140">Assign the approval step to users in a specific organizational hierarchy.</span></span> |
+| <span data-ttu-id="c5986-141">Verkflæðisnotandi</span><span class="sxs-lookup"><span data-stu-id="c5986-141">Workflow user</span></span> | <span data-ttu-id="c5986-142">Úthluta samþykktarskrefinu til notenda í þessu verkflæði.</span><span class="sxs-lookup"><span data-stu-id="c5986-142">Assign the approval step to users of this workflow.</span></span>                       |
+| <span data-ttu-id="c5986-143">Biðröð</span><span class="sxs-lookup"><span data-stu-id="c5986-143">Queue</span></span>         | <span data-ttu-id="c5986-144">Úthluta samþykktarskrefinu til vinnuliðalista.</span><span class="sxs-lookup"><span data-stu-id="c5986-144">Assign the approval step to a work item queue.</span></span>                            |
+| <span data-ttu-id="c5986-145">Notandi</span><span class="sxs-lookup"><span data-stu-id="c5986-145">User</span></span>          | <span data-ttu-id="c5986-146">Úthluta samþykktarskrefinu til tiltekinna notenda .</span><span class="sxs-lookup"><span data-stu-id="c5986-146">Assign the approval step to specific users.</span></span>                               |
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="c5986-147">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="c5986-147">See also</span></span>
 --------
 
-[Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[<span data-ttu-id="c5986-148">Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir</span><span class="sxs-lookup"><span data-stu-id="c5986-148">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Verkflæði fyrir innkaupabeiðni](purchase-requisitions-workflow.md)
+[<span data-ttu-id="c5986-149">Verkflæði fyrir innkaupabeiðni</span><span class="sxs-lookup"><span data-stu-id="c5986-149">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
 
 

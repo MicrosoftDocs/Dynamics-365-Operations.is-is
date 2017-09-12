@@ -16,65 +16,65 @@ ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: e43b9397dd4e362eff9d78f302732e6bcc53d1db
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="manual-depreciation"></a>Handvirkar afskriftir
+# <a name="manual-depreciation"></a><span data-ttu-id="351dd-103">Handvirkar afskriftir</span><span class="sxs-lookup"><span data-stu-id="351dd-103">Manual depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.
+<span data-ttu-id="351dd-104">Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.</span><span class="sxs-lookup"><span data-stu-id="351dd-104">This article gives an overview of the manual depreciation method.</span></span>
 
-Þegar afskriftarregla fyrir eignir er sett upp og valið er **handvirkt** í svæðinu **aðferð** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu af prósentunni sem færð er inn fyrir hvert bil í almanaksárinu. Bilin sem sett eru upp sem prósentur fyrir, eru bókuð samkvæmt gildinu sem valið er í á **tímabilstíðni** reit á **Almennt** flýtiflipa í **afskriftareglur** síðu. Hér er gildin sem hægt er að velja:
+<span data-ttu-id="351dd-105">Þegar afskriftarregla fyrir eignir er sett upp og valið er **handvirkt** í svæðinu **aðferð** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu af prósentunni sem færð er inn fyrir hvert bil í almanaksárinu.</span><span class="sxs-lookup"><span data-stu-id="351dd-105">When you set up a fixed asset depreciation profile and select **Manual** in the **Method** field on the **Depreciation profiles** page, the depreciation of fixed assets that are assigned to the depreciation profile is determined by the percentage that you enter for each interval in the calendar year.</span></span> <span data-ttu-id="351dd-106">Bilin sem sett eru upp sem prósentur fyrir, eru bókuð samkvæmt gildinu sem valið er í á **tímabilstíðni** reit á **Almennt** flýtiflipa í **afskriftareglur** síðu.</span><span class="sxs-lookup"><span data-stu-id="351dd-106">The intervals that you set up percentages for are posted according to the value that you select in the **Period frequency** field on the **General** FastTab of the **Depreciation profiles** page.</span></span> <span data-ttu-id="351dd-107">Hér er gildin sem hægt er að velja:</span><span class="sxs-lookup"><span data-stu-id="351dd-107">Here are the values that you can select:</span></span>
 
--   Árlega
--   Mánaðarlega
--   Ársfjórðungslega
--   Tvisvar á ári
--   Daglega
+-   <span data-ttu-id="351dd-108">Árlega</span><span class="sxs-lookup"><span data-stu-id="351dd-108">Yearly</span></span>
+-   <span data-ttu-id="351dd-109">Mánaðarlega</span><span class="sxs-lookup"><span data-stu-id="351dd-109">Monthly</span></span>
+-   <span data-ttu-id="351dd-110">Ársfjórðungslega</span><span class="sxs-lookup"><span data-stu-id="351dd-110">Quarterly</span></span>
+-   <span data-ttu-id="351dd-111">Tvisvar á ári</span><span class="sxs-lookup"><span data-stu-id="351dd-111">Half-Yearly</span></span>
+-   <span data-ttu-id="351dd-112">Daglega</span><span class="sxs-lookup"><span data-stu-id="351dd-112">Daily</span></span>
 
-Þegar bókunarbil eru valin, smellið á **handvirk röðun** og stillið prósentur fyrir hvert bókunarbil. Saman skilgreina handvirka röðunin og bókunarbilin afskriftarmagnið, eins og sýnt er í dæmunum hér að neðan. Handvirkar afskriftir eru alltaf reiknaðar sem prósenta af kaupverði. Handvirkar afskriftir fyrir prósentutölurnar sem færðar eru inn í bilin fyrir afskriftir þurfa ekki að vera samanlagt 100 prósent. Handvirkar afskriftir eru sveigjanlega afskriftaraðferð sem oft er notuð til að skilgreina óregluleg afskriftaregla í á **bækur** síða, eins og óreglubundnar afskriftir fyrir sérstakan tilgang (t.d. skattur).
+<span data-ttu-id="351dd-113">Þegar bókunarbil eru valin, smellið á **handvirk röðun** og stillið prósentur fyrir hvert bókunarbil.</span><span class="sxs-lookup"><span data-stu-id="351dd-113">After you select the period frequency, click **Manual schedules**, and set up percentages for each posting interval.</span></span> <span data-ttu-id="351dd-114">Saman skilgreina handvirka röðunin og bókunarbilin afskriftarmagnið, eins og sýnt er í dæmunum hér að neðan.</span><span class="sxs-lookup"><span data-stu-id="351dd-114">Together, the manual schedules and the posting intervals define the depreciation amount, as shown in the examples later in this article.</span></span> <span data-ttu-id="351dd-115">Handvirkar afskriftir eru alltaf reiknaðar sem prósenta af kaupverði.</span><span class="sxs-lookup"><span data-stu-id="351dd-115">Manual depreciation is always calculated as a percentage of the acquisition price.</span></span> <span data-ttu-id="351dd-116">Handvirkar afskriftir fyrir prósentutölurnar sem færðar eru inn í bilin fyrir afskriftir þurfa ekki að vera samanlagt 100 prósent.</span><span class="sxs-lookup"><span data-stu-id="351dd-116">For manual depreciation, the percentages that you enter in the intervals of the depreciation don't have to add up to 100 percent.</span></span> <span data-ttu-id="351dd-117">Handvirkar afskriftir eru sveigjanlega afskriftaraðferð sem oft er notuð til að skilgreina óregluleg afskriftaregla í á **bækur** síða, eins og óreglubundnar afskriftir fyrir sérstakan tilgang (t.d. skattur).</span><span class="sxs-lookup"><span data-stu-id="351dd-117">Manual depreciation is a flexible depreciation method that is often used to define an extraordinary depreciation profile on the **Books** page, such as a non-periodic depreciation for special purposes (for example, tax).</span></span>
 
-## <a name="examples"></a>Dæmi
-Kaupverð: 11.000,00 Væntanlegt rýrnunarvirði: 1.000,00 eftirfarandi tafla sýnir bilin og prósentutölurnar sem settar eru upp á í **Afskriftaregluáætlanir eigna** síðu.
+## <a name="examples"></a><span data-ttu-id="351dd-118">Dæmi</span><span class="sxs-lookup"><span data-stu-id="351dd-118">Examples</span></span>
+<span data-ttu-id="351dd-119">Kaupverð: 11.000,00 Væntanlegt rýrnunarvirði: 1.000,00 eftirfarandi tafla sýnir bilin og prósentutölurnar sem settar eru upp á í **Afskriftaregluáætlanir eigna** síðu.</span><span class="sxs-lookup"><span data-stu-id="351dd-119">Acquisition price: 11,000.00 Expected scrap value: 1,000.00 The following table shows the intervals and percentages that you set up on the **Fixed asset depreciation profile schedules** page.</span></span>
 
-| Númerabil | Prósenta |
+| <span data-ttu-id="351dd-120">Númerabil</span><span class="sxs-lookup"><span data-stu-id="351dd-120">Interval number</span></span> | <span data-ttu-id="351dd-121">Prósenta</span><span class="sxs-lookup"><span data-stu-id="351dd-121">Percentage</span></span> |
 |-----------------|------------|
-| 1               | 10,00      |
-| 2               | 50,00      |
-| 3               | 8,00       |
+| <span data-ttu-id="351dd-122">1</span><span class="sxs-lookup"><span data-stu-id="351dd-122">1</span></span>               | <span data-ttu-id="351dd-123">10,00</span><span class="sxs-lookup"><span data-stu-id="351dd-123">10.00</span></span>      |
+| <span data-ttu-id="351dd-124">2</span><span class="sxs-lookup"><span data-stu-id="351dd-124">2</span></span>               | <span data-ttu-id="351dd-125">50,00</span><span class="sxs-lookup"><span data-stu-id="351dd-125">50.00</span></span>      |
+| <span data-ttu-id="351dd-126">3</span><span class="sxs-lookup"><span data-stu-id="351dd-126">3</span></span>               | <span data-ttu-id="351dd-127">8,00</span><span class="sxs-lookup"><span data-stu-id="351dd-127">8.00</span></span>       |
 
-Afskriftirnar eftir tímabilum eru reiknaðar eins og sýnt er í eftirfarandi töflu.
+<span data-ttu-id="351dd-128">Afskriftirnar eftir tímabilum eru reiknaðar eins og sýnt er í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="351dd-128">The following table shows how the depreciation for each interval is calculated.</span></span>
 
-|  Númerabil | Reiknuð upphæð árlegra afskrifta | Nettó bókfært verð við lok árs |
+|  <span data-ttu-id="351dd-129">Númerabil</span><span class="sxs-lookup"><span data-stu-id="351dd-129">Interval number</span></span> | <span data-ttu-id="351dd-130">Reiknuð upphæð árlegra afskrifta</span><span class="sxs-lookup"><span data-stu-id="351dd-130">Calculation of the yearly depreciation amount</span></span> | <span data-ttu-id="351dd-131">Nettó bókfært verð við lok árs</span><span class="sxs-lookup"><span data-stu-id="351dd-131">Net book value at the end of the interval</span></span> |
 |------------------|-----------------------------------------------|-------------------------------------------|
-| 1                | (11.000 – 1.000) × 10% = 1.000                | 10.000 (11.000 – 1.000)                   |
-| 2                | (11.000 – 1.000) × 50% = 5.000                | 5.000 (10.000 – 5.000)                    |
-| 3                | (11.000 – 1.000) × 8% = 800                   | 4.200 (5.000 – 800)                       |
+| <span data-ttu-id="351dd-132">1</span><span class="sxs-lookup"><span data-stu-id="351dd-132">1</span></span>                | <span data-ttu-id="351dd-133">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="351dd-133">(11,000 – 1,000) × 10% = 1,000</span></span>                | <span data-ttu-id="351dd-134">10.000 (11.000 – 1.000)</span><span class="sxs-lookup"><span data-stu-id="351dd-134">10,000 (11,000 – 1,000)</span></span>                   |
+| <span data-ttu-id="351dd-135">2</span><span class="sxs-lookup"><span data-stu-id="351dd-135">2</span></span>                | <span data-ttu-id="351dd-136">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="351dd-136">(11,000 – 1,000) × 50% = 5,000</span></span>                | <span data-ttu-id="351dd-137">5.000 (10.000 – 5.000)</span><span class="sxs-lookup"><span data-stu-id="351dd-137">5,000 (10,000 – 5,000)</span></span>                    |
+| <span data-ttu-id="351dd-138">3</span><span class="sxs-lookup"><span data-stu-id="351dd-138">3</span></span>                | <span data-ttu-id="351dd-139">(11.000 – 1.000) × 8% = 800</span><span class="sxs-lookup"><span data-stu-id="351dd-139">(11,000 – 1,000) × 8% = 800</span></span>                   | <span data-ttu-id="351dd-140">4.200 (5.000 – 800)</span><span class="sxs-lookup"><span data-stu-id="351dd-140">4,200 (5,000 – 800)</span></span>                       |
 
-Ef valið er **mánaðarlega** í svæðinu  **tímabilstíðni** seturðu upp 12 handvirk röðunarbil. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir fyrstu tveggja tímabila.
+<span data-ttu-id="351dd-141">Ef valið er **mánaðarlega** í svæðinu  **tímabilstíðni** seturðu upp 12 handvirk röðunarbil.</span><span class="sxs-lookup"><span data-stu-id="351dd-141">If you select **Monthly** in the **Period frequency** field, you set up 12 manual schedule intervals.</span></span> <span data-ttu-id="351dd-142">Eftirfarandi tafla sýnir afskriftarupphæðir fyrir fyrstu tveggja tímabila.</span><span class="sxs-lookup"><span data-stu-id="351dd-142">The following table shows the depreciation amounts for the first two intervals.</span></span>
 
-| Bil | Afskriftarupphæð            |
+| <span data-ttu-id="351dd-143">Bil</span><span class="sxs-lookup"><span data-stu-id="351dd-143">Interval</span></span> | <span data-ttu-id="351dd-144">Afskriftarupphæð</span><span class="sxs-lookup"><span data-stu-id="351dd-144">Depreciation amount</span></span>            |
 |----------|--------------------------------|
-| janúar  | (11.000 – 1.000) × 10% = 1.000 |
-| febrúar | (11.000 – 1.000) × 50% = 5.000 |
+| <span data-ttu-id="351dd-145">janúar</span><span class="sxs-lookup"><span data-stu-id="351dd-145">January</span></span>  | <span data-ttu-id="351dd-146">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="351dd-146">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="351dd-147">febrúar</span><span class="sxs-lookup"><span data-stu-id="351dd-147">February</span></span> | <span data-ttu-id="351dd-148">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="351dd-148">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-Ef valið er **tvisvar á ári** í svæðinu ****tímabilstíðni** seturðu upp tvo handvirk röðunarbil. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.
+<span data-ttu-id="351dd-149">Ef valið er **tvisvar á ári** í svæðinu ****tímabilstíðni** seturðu upp tvo handvirk röðunarbil.</span><span class="sxs-lookup"><span data-stu-id="351dd-149">If you select **Half-Yearly** in the ****Period frequency** field**, you set up two manual schedule intervals.</span></span> <span data-ttu-id="351dd-150">Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.</span><span class="sxs-lookup"><span data-stu-id="351dd-150">The following table shows the depreciation amounts for those two intervals.</span></span>
 
-| Bil    | Afskriftarupphæð            |
+| <span data-ttu-id="351dd-151">Bil</span><span class="sxs-lookup"><span data-stu-id="351dd-151">Interval</span></span>    | <span data-ttu-id="351dd-152">Afskriftarupphæð</span><span class="sxs-lookup"><span data-stu-id="351dd-152">Depreciation amount</span></span>            |
 |-------------|--------------------------------|
-| 30. júní     | (11.000 – 1.000) × 10% = 1.000 |
-| 31. desember | (11.000 – 1.000) × 50% = 5.000 |
+| <span data-ttu-id="351dd-153">30. júní</span><span class="sxs-lookup"><span data-stu-id="351dd-153">June 30</span></span>     | <span data-ttu-id="351dd-154">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="351dd-154">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="351dd-155">31. desember</span><span class="sxs-lookup"><span data-stu-id="351dd-155">December 31</span></span> | <span data-ttu-id="351dd-156">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="351dd-156">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100. Hins vegar munu berast skilaboð ef gildið í **heildarprósenta** á síðunni **Afskriftaregluáætlanir eigna** er ekki **100**.
+<span data-ttu-id="351dd-157">Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100.</span><span class="sxs-lookup"><span data-stu-id="351dd-157">The total of percentages for all intervals doesn't have to be 100.</span></span> <span data-ttu-id="351dd-158">Hins vegar munu berast skilaboð ef gildið í **heildarprósenta** á síðunni **Afskriftaregluáætlanir eigna** er ekki **100**.</span><span class="sxs-lookup"><span data-stu-id="351dd-158">However, you receive a message if the value in the **Cumulative percentage** field on the **Fixed asset depreciation profile schedules** page isn't **100**.</span></span>
 
 
 

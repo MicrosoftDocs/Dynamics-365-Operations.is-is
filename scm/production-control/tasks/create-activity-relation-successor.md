@@ -17,52 +17,52 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5ac47a00a8eb40658af54274ce1d80349ec23d1e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 27ed93f4ba11838a82c281a788fb2fe7aa48c369
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-activity-relation-successor"></a>Stofna verkþáttarvensl: Næsti þáttur
+# <a name="create-activity-relation-successor"></a><span data-ttu-id="f3112-103">Stofna verkþáttarvensl: Næsti þáttur</span><span class="sxs-lookup"><span data-stu-id="f3112-103">Create activity relation: Successor</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar. Þessi skráning sýnir hvernig á að stofna verkþáttarvensl.
+<span data-ttu-id="f3112-104">Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar.</span><span class="sxs-lookup"><span data-stu-id="f3112-104">The flow of activities in a lean production flow is documented through activity relations.</span></span> <span data-ttu-id="f3112-105">Þessi skráning sýnir hvernig á að stofna verkþáttarvensl.</span><span class="sxs-lookup"><span data-stu-id="f3112-105">This recording shows how to create an activity relation.</span></span>
 
-Skilyrði:
+<span data-ttu-id="f3112-106">Skilyrði:</span><span class="sxs-lookup"><span data-stu-id="f3112-106">Prerequisites:</span></span>
 
-- - Framleiðsluflæði og útgáfa í ham fyrir drög. 
+- <span data-ttu-id="f3112-107">- Framleiðsluflæði og útgáfa í ham fyrir drög.</span><span class="sxs-lookup"><span data-stu-id="f3112-107">A production flow and version in draft mode.</span></span> 
 
-- - Tveir verkþætti sem elta hvert annað í framleiðsluflæði eru stofnuð en ekki tengdar.
+- <span data-ttu-id="f3112-108">- Tveir verkþætti sem elta hvert annað í framleiðsluflæði eru stofnuð en ekki tengdar.</span><span class="sxs-lookup"><span data-stu-id="f3112-108">Two activities that follow each other in the production flow are created but not related.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a>Finndu útgáfu framleiðsluflæðis 
-1. Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í listanum skal merkja valda línu.
-5. Í listanum skal velja útgáfu draga.
-    * Hægt er að bæta við verkþáttarvenslum við bæði drög eða virkar útgáfur framleiðsluflæðis.  
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="f3112-109">Finndu útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="f3112-109">Find the production flow version</span></span> 
+1. <span data-ttu-id="f3112-110">Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.</span><span class="sxs-lookup"><span data-stu-id="f3112-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="f3112-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f3112-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="f3112-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f3112-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f3112-113">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="f3112-113">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="f3112-114">Í listanum skal velja útgáfu draga.</span><span class="sxs-lookup"><span data-stu-id="f3112-114">In the list, select a draft version.</span></span>
+    * <span data-ttu-id="f3112-115">Hægt er að bæta við verkþáttarvenslum við bæði drög eða virkar útgáfur framleiðsluflæðis.</span><span class="sxs-lookup"><span data-stu-id="f3112-115">Activity relations can be added to both draft or active versions of a production flow.</span></span>  
 
-## <a name="open-the-activity-overview"></a>Opna yfirlit verkþátta
-1. Smellt er á Verkþætti.
-    * Athugið að skjámyndin sýnir alla verkþætti framleiðsluflæðis sem er úthlutað á þá Útgáfu framleiðsluflæðis sem unnið er í.  
+## <a name="open-the-activity-overview"></a><span data-ttu-id="f3112-116">Opna yfirlit verkþátta</span><span class="sxs-lookup"><span data-stu-id="f3112-116">Open the activity overview</span></span>
+1. <span data-ttu-id="f3112-117">Smellt er á Verkþætti.</span><span class="sxs-lookup"><span data-stu-id="f3112-117">Click Activities.</span></span>
+    * <span data-ttu-id="f3112-118">Athugið að skjámyndin sýnir alla verkþætti framleiðsluflæðis sem er úthlutað á þá Útgáfu framleiðsluflæðis sem unnið er í.</span><span class="sxs-lookup"><span data-stu-id="f3112-118">Note that the form shows all activities of the production flow that are allocated to the Version of the production flows that you are working in.</span></span>  
 
-## <a name="add-a-successor"></a>Bæta við arftaka
-1. Smelltu á Bæta við arftaka.
-2. Í reitnum Verkþáttur skal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Veldu gátreitinn Skorður.
-6. Í reitinn Skorðugildi skal slá inn númer.
-    * Tími skorða er sá tími sem er áætlaður á milli áætlaðra loka forvera (gjalddagi og tími) og áætlaðs upphafs arftaka.  
-7. Í reitinn Einingar skal slá inn gildi.
-8. Færið inn tölu í reitnum Hlutfall ferlistíma.
-    * Ef báðir verkþættir eru keyrðir á sama framleiðslutíma ætti hlutfall ferlistíma að vera 1. Ef forveri sem keyrist við tvöföld þjónustuhraða, hlutfall ætti að vera 2.   Hlutfall ferlistíma eru notuð til að reikna út einstaka ferlistíma fyrir verkþætti framleiðsluflæðis.  
-9. Smellið á „Í lagi“.
-10. Lokið síðunni.
-11. Smellt er á flipann GridPanel.
-12. Lokið síðunni.
-13. Endurhlaðið síðuna.
+## <a name="add-a-successor"></a><span data-ttu-id="f3112-119">Bæta við arftaka</span><span class="sxs-lookup"><span data-stu-id="f3112-119">Add a Successor</span></span>
+1. <span data-ttu-id="f3112-120">Smelltu á Bæta við arftaka.</span><span class="sxs-lookup"><span data-stu-id="f3112-120">Click Add successor.</span></span>
+2. <span data-ttu-id="f3112-121">Í reitnum Verkþáttur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f3112-121">In the Activity field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="f3112-122">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f3112-122">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="f3112-123">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f3112-123">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="f3112-124">Veldu gátreitinn Skorður.</span><span class="sxs-lookup"><span data-stu-id="f3112-124">Select the Constraint check box.</span></span>
+6. <span data-ttu-id="f3112-125">Í reitinn Skorðugildi skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="f3112-125">In the Constraint value field, enter a number.</span></span>
+    * <span data-ttu-id="f3112-126">Tími skorða er sá tími sem er áætlaður á milli áætlaðra loka forvera (gjalddagi og tími) og áætlaðs upphafs arftaka.</span><span class="sxs-lookup"><span data-stu-id="f3112-126">The constraint time is the time to be scheduled between the scheduled end of the predecessor (due date and time) and the scheduled start of the successor.</span></span>  
+7. <span data-ttu-id="f3112-127">Í reitinn Einingar skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f3112-127">In the Units field, type a value.</span></span>
+8. <span data-ttu-id="f3112-128">Færið inn tölu í reitnum Hlutfall ferlistíma.</span><span class="sxs-lookup"><span data-stu-id="f3112-128">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="f3112-129">Ef báðir verkþættir eru keyrðir á sama framleiðslutíma ætti hlutfall ferlistíma að vera 1.</span><span class="sxs-lookup"><span data-stu-id="f3112-129">If both activities run at the same takt, the cycle time ratio should be 1.</span></span> <span data-ttu-id="f3112-130">Ef forveri sem keyrist við tvöföld þjónustuhraða, hlutfall ætti að vera 2.</span><span class="sxs-lookup"><span data-stu-id="f3112-130">If the predecessor runs at the double speed of the successor, the ratio should be 2.</span></span>   <span data-ttu-id="f3112-131">Hlutfall ferlistíma eru notuð til að reikna út einstaka ferlistíma fyrir verkþætti framleiðsluflæðis.</span><span class="sxs-lookup"><span data-stu-id="f3112-131">The cycle time ratios are used to calculate the individual cycle times of the production flow activities.</span></span>  
+9. <span data-ttu-id="f3112-132">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="f3112-132">Click OK.</span></span>
+10. <span data-ttu-id="f3112-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f3112-133">Close the page.</span></span>
+11. <span data-ttu-id="f3112-134">Smellt er á flipann GridPanel.</span><span class="sxs-lookup"><span data-stu-id="f3112-134">Click the GridPanel tab.</span></span>
+12. <span data-ttu-id="f3112-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f3112-135">Close the page.</span></span>
+13. <span data-ttu-id="f3112-136">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="f3112-136">Refresh the page.</span></span>
 
 

@@ -17,58 +17,58 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a88968072b28ab468af97a875bd76d4d6abecfde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="start-a-production-order"></a>Hefja framleiðslupöntun
+# <a name="start-a-production-order"></a><span data-ttu-id="17888-103">Hefja framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="17888-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig framleiðslupöntun er hafin í vinnslusal. Tíma- og efnisnotkun er skráð í þessa vinnslu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta er fimmta ferlið af sjö sem útskýrir lífsferil pöntunar í framleiðslu.
+<span data-ttu-id="17888-104">Þessi verklýsing sýnir hvernig framleiðslupöntun er hafin í vinnslusal.</span><span class="sxs-lookup"><span data-stu-id="17888-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="17888-105">Tíma- og efnisnotkun er skráð í þessa vinnslu.</span><span class="sxs-lookup"><span data-stu-id="17888-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="17888-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="17888-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="17888-107">Þetta er fimmta ferlið af sjö sem útskýrir lífsferil pöntunar í framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="17888-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a>Hefja framleiðslupöntun
-1. Fara í Framleiðslustýringar > Framleiðslupantanir > Allar framleiðslupantanir.
-    * Veljið framleiðslupöntun sem hefur stöðuna Losað.  
-2. Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.
-3. Smellið á „Byrja“.
-    * Á þessari síðu er hægt að staðfesta upphaf framleiðslupöntunarinnar.  
-4. Smellið á flipann „Almennt“.
-5. Í af rekstri. Nei. skal færa inn ‚10‘.
-6. Veljið ‚Alltaf‘ í reitnum Sjálfvirk leiðarnotkun.
-7. Smellt er á gátreitinn Bóka leiðarspjald núna.
-8. Veljið ‚Alltaf‘ í reitnum Sjálfvirk uppskriftarnotkun.
-9. Smellt er í gátreitinn Bóka tiltektarlista núna.
-10. Smellt er í gátreitinn Prenta tiltektarlista.
-11. Smellið á „Í lagi“.
-    * Þetta er prentaði tiltektarlistinn sem sýnir efni sem notað er fyrir framleiðslupöntunina.  
-12. Lokið síðunni.
+## <a name="start-a-production-order"></a><span data-ttu-id="17888-108">Hefja framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="17888-108">Start a production order</span></span>
+1. <span data-ttu-id="17888-109">Fara í Framleiðslustýringar > Framleiðslupantanir > Allar framleiðslupantanir.</span><span class="sxs-lookup"><span data-stu-id="17888-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="17888-110">Veljið framleiðslupöntun sem hefur stöðuna Losað.</span><span class="sxs-lookup"><span data-stu-id="17888-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="17888-111">Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="17888-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="17888-112">Smellið á „Byrja“.</span><span class="sxs-lookup"><span data-stu-id="17888-112">Click Start.</span></span>
+    * <span data-ttu-id="17888-113">Á þessari síðu er hægt að staðfesta upphaf framleiðslupöntunarinnar.</span><span class="sxs-lookup"><span data-stu-id="17888-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="17888-114">Smellið á flipann „Almennt“.</span><span class="sxs-lookup"><span data-stu-id="17888-114">Click the General tab.</span></span>
+5. <span data-ttu-id="17888-115">Í af rekstri.</span><span class="sxs-lookup"><span data-stu-id="17888-115">In the From Oper.</span></span> <span data-ttu-id="17888-116">Nei.</span><span class="sxs-lookup"><span data-stu-id="17888-116">No.</span></span> <span data-ttu-id="17888-117">skal færa inn ‚10‘.</span><span class="sxs-lookup"><span data-stu-id="17888-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="17888-118">Veljið ‚Alltaf‘ í reitnum Sjálfvirk leiðarnotkun.</span><span class="sxs-lookup"><span data-stu-id="17888-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="17888-119">Smellt er á gátreitinn Bóka leiðarspjald núna.</span><span class="sxs-lookup"><span data-stu-id="17888-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="17888-120">Veljið ‚Alltaf‘ í reitnum Sjálfvirk uppskriftarnotkun.</span><span class="sxs-lookup"><span data-stu-id="17888-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="17888-121">Smellt er í gátreitinn Bóka tiltektarlista núna.</span><span class="sxs-lookup"><span data-stu-id="17888-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="17888-122">Smellt er í gátreitinn Prenta tiltektarlista.</span><span class="sxs-lookup"><span data-stu-id="17888-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="17888-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="17888-123">Click OK.</span></span>
+    * <span data-ttu-id="17888-124">Þetta er prentaði tiltektarlistinn sem sýnir efni sem notað er fyrir framleiðslupöntunina.</span><span class="sxs-lookup"><span data-stu-id="17888-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="17888-125">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="17888-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a>Sannprófa tiltektarlistann
-1. Smellið á „Skoða“ á aðgerðarúðunni.
-2. Smellt er á tiltektarlista.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á „Breyta“.
-6. Í reitnum Notkun skal slá inn númer.
-7. Smellið á „Bóka“.
-8. Smellið á „Í lagi“.
-    * Í færslubók tiltektarlista er efni sem er notað í framleiðslupöntuninni bókað. Áður en færslubókin er bókuð er hægt að gera leiðréttingar ef munur er á áætluðu magni og raunverulega notuðu magni.  
-9. Smellt er á flipann GridPanel.
-10. Lokið síðunni.
+## <a name="validate-the-picking-list"></a><span data-ttu-id="17888-126">Sannprófa tiltektarlistann</span><span class="sxs-lookup"><span data-stu-id="17888-126">Validate the picking list</span></span>
+1. <span data-ttu-id="17888-127">Smellið á „Skoða“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="17888-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="17888-128">Smellt er á tiltektarlista.</span><span class="sxs-lookup"><span data-stu-id="17888-128">Click Picking list.</span></span>
+3. <span data-ttu-id="17888-129">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="17888-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="17888-130">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="17888-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="17888-131">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="17888-131">Click Edit.</span></span>
+6. <span data-ttu-id="17888-132">Í reitnum Notkun skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="17888-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="17888-133">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="17888-133">Click Post.</span></span>
+8. <span data-ttu-id="17888-134">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="17888-134">Click OK.</span></span>
+    * <span data-ttu-id="17888-135">Í færslubók tiltektarlista er efni sem er notað í framleiðslupöntuninni bókað.</span><span class="sxs-lookup"><span data-stu-id="17888-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="17888-136">Áður en færslubókin er bókuð er hægt að gera leiðréttingar ef munur er á áætluðu magni og raunverulega notuðu magni.</span><span class="sxs-lookup"><span data-stu-id="17888-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="17888-137">Smellt er á flipann GridPanel.</span><span class="sxs-lookup"><span data-stu-id="17888-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="17888-138">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="17888-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a>Sannprófa færslubók leiðarspjalda
-1. Smellið á „Skoða“ á aðgerðarúðunni.
-2. Smellt er á Leiðarspjald.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á „Breyta“.
-6. Í reitnum Vinnustundir skal slá inn tölu.
-7. Smellið á „Bóka“.
-8. Smellið á „Í lagi“.
-    * Í færslubók leiðarspjalda er tími sem er eytt í staðar aðgerðir skráður. Einnig er hægt að tilkynna gallað og ógallað magn.  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="17888-139">Sannprófa færslubók leiðarspjalda</span><span class="sxs-lookup"><span data-stu-id="17888-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="17888-140">Smellið á „Skoða“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="17888-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="17888-141">Smellt er á Leiðarspjald.</span><span class="sxs-lookup"><span data-stu-id="17888-141">Click Route card.</span></span>
+3. <span data-ttu-id="17888-142">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="17888-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="17888-143">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="17888-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="17888-144">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="17888-144">Click Edit.</span></span>
+6. <span data-ttu-id="17888-145">Í reitnum Vinnustundir skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="17888-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="17888-146">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="17888-146">Click Post.</span></span>
+8. <span data-ttu-id="17888-147">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="17888-147">Click OK.</span></span>
+    * <span data-ttu-id="17888-148">Í færslubók leiðarspjalda er tími sem er eytt í staðar aðgerðir skráður.</span><span class="sxs-lookup"><span data-stu-id="17888-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="17888-149">Einnig er hægt að tilkynna gallað og ógallað magn.</span><span class="sxs-lookup"><span data-stu-id="17888-149">Good and error quantity can also be reported.</span></span>  
 
 

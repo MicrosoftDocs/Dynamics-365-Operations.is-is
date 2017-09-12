@@ -17,51 +17,51 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 618b1892a330228bd281ae1c35dd181ec619b74f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cd79554b010a586e654a8718b629f749bc2937a7
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="report-progress-on-a-mobile-job-device"></a>Tilkynna um framvindu í fartæki
+# <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="06a58-103">Tilkynna um framvindu í fartæki</span><span class="sxs-lookup"><span data-stu-id="06a58-103">Report progress on a mobile job device</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir framvindu skýrslu og hvernig á að ræsa framleiðsluverk í skjámynd skráningarblöð tækis.
+<span data-ttu-id="06a58-104">Þetta ferli sýnir framvindu skýrslu og hvernig á að ræsa framleiðsluverk í skjámynd skráningarblöð tækis.</span><span class="sxs-lookup"><span data-stu-id="06a58-104">This procedure shows you how to start and report progress on a production job in the job device registration form.</span></span>
 
 
 
-Svo hægt sé að keyra þetta ferli verður þú að hafa hlutverk Kerfisstjóra eða starfsmaður á vél sem tengist notandaaðganginum.
+<span data-ttu-id="06a58-105">Svo hægt sé að keyra þetta ferli verður þú að hafa hlutverk Kerfisstjóra eða starfsmaður á vél sem tengist notandaaðganginum.</span><span class="sxs-lookup"><span data-stu-id="06a58-105">To be able to run this procedure you must have the System administator or Machine Operator role associated with the user account.</span></span>
 
-1. Fara í Framleiðslustýringar > Framkvæmd framleiðslu > Verkspjald fyrir tæki.
-2. Í svæðinu WorkerTextField færa inn inn korti starfsmanns. Gerð sýnigögn USMF '123' fyrir Christina Portra í ...
-3. Smella skal á Innskráning.
-4. Smellt er á Sía hnappur.
-5. Merkja eða afmerkja gátreitur skilgreiningu síu. Ef þú stillir sía geturðu nota framleiðslueining 110 í USMF.
-6. Í reitinn eining Framleiðslupöntun, veljið flokkinn tilfangaflokkur fyrir framleiðsluverk sem starfsmaður getur unnið á.
-7. Í listanum skal smella á tengilinn í valinni línu.
-8. Smellið á „Í lagi“.
-9. Smellið á hnappinn Byrja vinnslu.
-10. Smellið á „Í lagi“.
-11. Smellið á hnappinn framvindu Skýrslu.
-12. Smellið á „Í lagi“.
-13. Smellið á hnappinn „Áfram“.
-14. Smellt er á hnappinn Úthlutað til til að sjá yfirlit yfir alla framleiðsluverk.
-15. Lokið síðunni.
-16. Smellt er á hlé hnappur.
-17. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-18. Smellið á „Í lagi“.
-19. Smellt er á að fara hnappur.
-20. Veljið til að skrá sig út.
-21. Smellið á „Í lagi“.
-22. Í svæðinu WorkerTextField innskráning aftur. Hægt er að velja starfsmann '123' í USMF sýnigögn.
-23. Smella skal á Innskráning.
-24. Smellt er á Stöðva hlé.
-25. Smellt er á Aðgerðarhnappur
-26. Smellið á Hætta við.
-27. Smellt er á að fara hnappur.
-28. Veljið til að stimpla sig út.
-29. Smellið á „Í lagi“.
-30. Veljið ástæðu þess að eru stimpla snemma.
+1. <span data-ttu-id="06a58-106">Fara í Framleiðslustýringar > Framkvæmd framleiðslu > Verkspjald fyrir tæki.</span><span class="sxs-lookup"><span data-stu-id="06a58-106">Go to Production control > Manufacturing execution > Job card device.</span></span>
+2. <span data-ttu-id="06a58-107">Í svæðinu WorkerTextField færa inn inn korti starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="06a58-107">In the WorkerTextField field, enter the badge of a worker.</span></span> <span data-ttu-id="06a58-108">Gerð sýnigögn USMF '123' fyrir Christina Portra í ...</span><span class="sxs-lookup"><span data-stu-id="06a58-108">In the USMF demo data type '123' for Christina Portra..</span></span>
+3. <span data-ttu-id="06a58-109">Smella skal á Innskráning.</span><span class="sxs-lookup"><span data-stu-id="06a58-109">Click Log in.</span></span>
+4. <span data-ttu-id="06a58-110">Smellt er á Sía hnappur.</span><span class="sxs-lookup"><span data-stu-id="06a58-110">Click the Filter button.</span></span>
+5. <span data-ttu-id="06a58-111">Merkja eða afmerkja gátreitur skilgreiningu síu.</span><span class="sxs-lookup"><span data-stu-id="06a58-111">Check or uncheck the Apply configuration filter check box.</span></span> <span data-ttu-id="06a58-112">Ef þú stillir sía geturðu nota framleiðslueining 110 í USMF.</span><span class="sxs-lookup"><span data-stu-id="06a58-112">If you set a filter you can use production unit 110 in USMF.</span></span>
+6. <span data-ttu-id="06a58-113">Í reitinn eining Framleiðslupöntun, veljið flokkinn tilfangaflokkur fyrir framleiðsluverk sem starfsmaður getur unnið á.</span><span class="sxs-lookup"><span data-stu-id="06a58-113">In the Production unit field, select the ressource group for which production jobs the worker can work on.</span></span>
+7. <span data-ttu-id="06a58-114">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="06a58-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="06a58-115">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-115">Click OK.</span></span>
+9. <span data-ttu-id="06a58-116">Smellið á hnappinn Byrja vinnslu.</span><span class="sxs-lookup"><span data-stu-id="06a58-116">Click the Start job button.</span></span>
+10. <span data-ttu-id="06a58-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-117">Click OK.</span></span>
+11. <span data-ttu-id="06a58-118">Smellið á hnappinn framvindu Skýrslu.</span><span class="sxs-lookup"><span data-stu-id="06a58-118">Click the Report progress button.</span></span>
+12. <span data-ttu-id="06a58-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-119">Click OK.</span></span>
+13. <span data-ttu-id="06a58-120">Smellið á hnappinn „Áfram“.</span><span class="sxs-lookup"><span data-stu-id="06a58-120">Click the Next job button.</span></span>
+14. <span data-ttu-id="06a58-121">Smellt er á hnappinn Úthlutað til til að sjá yfirlit yfir alla framleiðsluverk.</span><span class="sxs-lookup"><span data-stu-id="06a58-121">Click the Assigned to see an overview of all production jobs button.</span></span>
+15. <span data-ttu-id="06a58-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="06a58-122">Close the page.</span></span>
+16. <span data-ttu-id="06a58-123">Smellt er á hlé hnappur.</span><span class="sxs-lookup"><span data-stu-id="06a58-123">Click the Break button.</span></span>
+17. <span data-ttu-id="06a58-124">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="06a58-124">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="06a58-125">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-125">Click OK.</span></span>
+19. <span data-ttu-id="06a58-126">Smellt er á að fara hnappur.</span><span class="sxs-lookup"><span data-stu-id="06a58-126">Click the Leaving button.</span></span>
+20. <span data-ttu-id="06a58-127">Veljið til að skrá sig út.</span><span class="sxs-lookup"><span data-stu-id="06a58-127">Select to log out.</span></span>
+21. <span data-ttu-id="06a58-128">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-128">Click OK.</span></span>
+22. <span data-ttu-id="06a58-129">Í svæðinu WorkerTextField innskráning aftur.</span><span class="sxs-lookup"><span data-stu-id="06a58-129">In the WorkerTextField field, log in again.</span></span> <span data-ttu-id="06a58-130">Hægt er að velja starfsmann '123' í USMF sýnigögn.</span><span class="sxs-lookup"><span data-stu-id="06a58-130">You can select worker '123' in USMF demo data.</span></span>
+23. <span data-ttu-id="06a58-131">Smella skal á Innskráning.</span><span class="sxs-lookup"><span data-stu-id="06a58-131">Click Log in.</span></span>
+24. <span data-ttu-id="06a58-132">Smellt er á Stöðva hlé.</span><span class="sxs-lookup"><span data-stu-id="06a58-132">Click Stop break.</span></span>
+25. <span data-ttu-id="06a58-133">Smellt er á Aðgerðarhnappur</span><span class="sxs-lookup"><span data-stu-id="06a58-133">Click the Activity button.</span></span>
+26. <span data-ttu-id="06a58-134">Smellið á Hætta við.</span><span class="sxs-lookup"><span data-stu-id="06a58-134">Click Cancel.</span></span>
+27. <span data-ttu-id="06a58-135">Smellt er á að fara hnappur.</span><span class="sxs-lookup"><span data-stu-id="06a58-135">Click the Leaving button.</span></span>
+28. <span data-ttu-id="06a58-136">Veljið til að stimpla sig út.</span><span class="sxs-lookup"><span data-stu-id="06a58-136">Select to clock out.</span></span>
+29. <span data-ttu-id="06a58-137">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="06a58-137">Click OK.</span></span>
+30. <span data-ttu-id="06a58-138">Veljið ástæðu þess að eru stimpla snemma.</span><span class="sxs-lookup"><span data-stu-id="06a58-138">Select a reason why you are clocking out early.</span></span>
 
 

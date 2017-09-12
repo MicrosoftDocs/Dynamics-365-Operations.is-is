@@ -20,29 +20,29 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbb07553d990c35057ba32fd56d26fbc9c6f71b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 58213d4d6e8c29ab6605eb7aa5c6cb9ca6ba4a10
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="create-production-orders"></a>Stofna framleiðslupantanir
+# <a name="create-production-orders"></a><span data-ttu-id="80a91-105">Stofna framleiðslupantanir</span><span class="sxs-lookup"><span data-stu-id="80a91-105">Create production orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þegar framleiðslupöntun er stofnuð er send beiðni um að hefja framleiðslu vöru. Framleiðslupöntunin inniheldur upplýsingar um það hvað verður framleitt, hversu mikið magn og áætluðu lokadagsetninguna. Hann inniheldur einnig upplýsingar um hvaða efni á að nota og hvaða ferli skuli fylgja til að framleiða vöruna.
+<span data-ttu-id="80a91-106">Þegar framleiðslupöntun er stofnuð er send beiðni um að hefja framleiðslu vöru.</span><span class="sxs-lookup"><span data-stu-id="80a91-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="80a91-107">Framleiðslupöntunin inniheldur upplýsingar um það hvað verður framleitt, hversu mikið magn og áætluðu lokadagsetninguna.</span><span class="sxs-lookup"><span data-stu-id="80a91-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="80a91-108">Hann inniheldur einnig upplýsingar um hvaða efni á að nota og hvaða ferli skuli fylgja til að framleiða vöruna.</span><span class="sxs-lookup"><span data-stu-id="80a91-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 
-Framleiðslupöntun gengur í gegnum stig framleiðsluferlisins. Þegar pöntun er stofnuð er henni úthlutað stöðunni°**Stofnuð**. Þegar pöntun er lokið er henni úthlutað stöðunni°**Lokið**. Færibreytustilling í hverju°stigi heimilar notandanum að skilgreina hvert°skref. Stillingin getur verið stillt fyrir°einn notanda°eða fyrir alla notendur.
+<span data-ttu-id="80a91-109">Framleiðslupöntun gengur í gegnum stig framleiðsluferlisins.</span><span class="sxs-lookup"><span data-stu-id="80a91-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="80a91-110">Þegar pöntun er stofnuð er henni úthlutað stöðunni°**Stofnuð**.</span><span class="sxs-lookup"><span data-stu-id="80a91-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="80a91-111">Þegar pöntun er lokið er henni úthlutað stöðunni°**Lokið**.</span><span class="sxs-lookup"><span data-stu-id="80a91-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="80a91-112">Færibreytustilling í hverju°stigi heimilar notandanum að skilgreina hvert°skref.</span><span class="sxs-lookup"><span data-stu-id="80a91-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="80a91-113">Stillingin getur verið stillt fyrir°einn notanda°eða fyrir alla notendur.</span><span class="sxs-lookup"><span data-stu-id="80a91-113">The setting can be set up for a single user or for all users.</span></span>
 
-Framleiðsluuppskrift og leið í framleiðslu eru aðal einingar framleiðslupöntunar. Þær eru afritaðar í framleiðslupöntunina byggt á völdu vörunni og magni sem á að framleiða. Áður en framleiðslupöntun er ræst, er hægt að breyta framleiðsluuppskrift og leið.
+<span data-ttu-id="80a91-114">Framleiðsluuppskrift og leið í framleiðslu eru aðal einingar framleiðslupöntunar.</span><span class="sxs-lookup"><span data-stu-id="80a91-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="80a91-115">Þær eru afritaðar í framleiðslupöntunina byggt á völdu vörunni og magni sem á að framleiða.</span><span class="sxs-lookup"><span data-stu-id="80a91-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="80a91-116">Áður en framleiðslupöntun er ræst, er hægt að breyta framleiðsluuppskrift og leið.</span><span class="sxs-lookup"><span data-stu-id="80a91-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
 
-Hægt er að stofna framleiðslupöntun við eftirfarandi kringumstæður:
+<span data-ttu-id="80a91-117">Hægt er að stofna framleiðslupöntun við eftirfarandi kringumstæður:</span><span class="sxs-lookup"><span data-stu-id="80a91-117">A production order can be created in the following scenarios:</span></span>
 
--   Stofnað með framkvæmd aðaláætlunar byggt á eftirspurn efnis.
--   Stofnuð beint úr sölupöntunarlínu eða þegar framleiðslupöntun á hærra stigi er stofnuð og metin (fest framboð).
--   Stofnaðar handvirkt.
+-   <span data-ttu-id="80a91-118">Stofnað með framkvæmd aðaláætlunar byggt á eftirspurn efnis.</span><span class="sxs-lookup"><span data-stu-id="80a91-118">Created by master planning execution based on material demand.</span></span>
+-   <span data-ttu-id="80a91-119">Stofnuð beint úr sölupöntunarlínu eða þegar framleiðslupöntun á hærra stigi er stofnuð og metin (fest framboð).</span><span class="sxs-lookup"><span data-stu-id="80a91-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
+-   <span data-ttu-id="80a91-120">Stofnaðar handvirkt.</span><span class="sxs-lookup"><span data-stu-id="80a91-120">Created manually.</span></span>
 
 
 

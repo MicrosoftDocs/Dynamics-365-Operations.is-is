@@ -26,68 +26,68 @@ ms.lasthandoff: 08/01/2017
 
 ---
 
-# <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
+# <a name="general-journal-processing"></a><span data-ttu-id="e6d49-103">Vinnsla almennrar færslubókar</span><span class="sxs-lookup"><span data-stu-id="e6d49-103">General journal processing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfu sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
+<span data-ttu-id="e6d49-104">Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfu sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.</span><span class="sxs-lookup"><span data-stu-id="e6d49-104">This articles describes capabilities in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition that can help make general journal processing easier, and that can also help guarantee that correct data is captured and internal control isn't compromised.</span></span>  
 
-Færslubókanöfn
+<span data-ttu-id="e6d49-105">Færslubókanöfn</span><span class="sxs-lookup"><span data-stu-id="e6d49-105">Journal names</span></span>
 
-Eitt af mikilvægustu sviðum til að setja upp eru heiti færslubókar. Góð hugmynd er að skilgreina ákveðin heiti færslubókar fyrir hvert málefni, eins og innan samstæðu, leiðrétting á uppsöfnun og villuleiðrétting. Hægt er að sníða hvert heiti færslubókar til að hjálpa við að gera gagnainnfærslu fyrir hvert málefni auðvelda og örugga. 
+<span data-ttu-id="e6d49-106">Eitt af mikilvægustu sviðum til að setja upp eru heiti færslubókar.</span><span class="sxs-lookup"><span data-stu-id="e6d49-106">One of the most important areas to set up is journal names.</span></span> <span data-ttu-id="e6d49-107">Góð hugmynd er að skilgreina ákveðin heiti færslubókar fyrir hvert málefni, eins og innan samstæðu, leiðrétting á uppsöfnun og villuleiðrétting.</span><span class="sxs-lookup"><span data-stu-id="e6d49-107">It's a good idea to define specific journal names for each purpose, such as intercompany, accrual adjustment, and error correction.</span></span> <span data-ttu-id="e6d49-108">Hægt er að sníða hvert heiti færslubókar til að hjálpa við að gera gagnainnfærslu fyrir hvert málefni auðvelda og örugga.</span><span class="sxs-lookup"><span data-stu-id="e6d49-108">You can tailor each journal name to help make data entry for each purpose easy and secure.</span></span> 
 
-Á **færslubókarheiti** síðu er hægt að setja upp eftirfarandi einingar:
+<span data-ttu-id="e6d49-109">Á **færslubókarheiti** síðu er hægt að setja upp eftirfarandi einingar:</span><span class="sxs-lookup"><span data-stu-id="e6d49-109">On the **Journal names** page, you can set up the following elements:</span></span>
 
--   **Verkflæðissamþykkt** – til Að auka innri stýringu skal skilgreina færslubókarverkflæði sem koma á umfangsmiklum mörkum fyrir yfirferð og samþykktarskref, byggt á skilyrðum eins og heildar debetupphæð. Verkflæði fyrir almennar færslubækur eru sett upp á síunni **Verkflæði fyrir fjárhag**.
--   **Sjálfgildi** – Velja sjálfgildi fyrir mótlykill, gjaldmiðill, og fjárhagsvíddir.
--   **Færslubókareftirlit** – hægt er að setja upp takmarkanir á fyrirtæki og gerð lykils og einnig í hlutagildi. 
+-   <span data-ttu-id="e6d49-110">**Verkflæðissamþykkt** – til Að auka innri stýringu skal skilgreina færslubókarverkflæði sem koma á umfangsmiklum mörkum fyrir yfirferð og samþykktarskref, byggt á skilyrðum eins og heildar debetupphæð.</span><span class="sxs-lookup"><span data-stu-id="e6d49-110">**Workflow approval** – To increase internal control, define journal workflows that establish materiality limits for review and approval steps, based on criteria such as total debit amount.</span></span> <span data-ttu-id="e6d49-111">Verkflæði fyrir almennar færslubækur eru sett upp á síunni **Verkflæði fyrir fjárhag**.</span><span class="sxs-lookup"><span data-stu-id="e6d49-111">You set up workflows for the general journals on the** General ledger workflows** page.</span></span>
+-   <span data-ttu-id="e6d49-112">**Sjálfgildi** – Velja sjálfgildi fyrir mótlykill, gjaldmiðill, og fjárhagsvíddir.</span><span class="sxs-lookup"><span data-stu-id="e6d49-112">**Default values** – Select default values for offset accounts, currency, and financial dimensions.</span></span>
+-   <span data-ttu-id="e6d49-113">**Færslubókareftirlit** – hægt er að setja upp takmarkanir á fyrirtæki og gerð lykils og einnig í hlutagildi.</span><span class="sxs-lookup"><span data-stu-id="e6d49-113">**Journal control** – You can set up restrictions on the company and account type, and also the segment values.</span></span> 
 
-**Dæmi**
+<span data-ttu-id="e6d49-114">**Dæmi**</span><span class="sxs-lookup"><span data-stu-id="e6d49-114">**Examples**</span></span>
 
-færslubókarheiti er hægt að nota fyrir leiðréttingar eingöngu. Í þessu tilfelli er hægt að tilgreina að aðeins **Fjárhags** lykilgerðin er gild fyrir öll fyrirtæki. [![Gerðir lykla fyrir færslubókareftirlit](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+<span data-ttu-id="e6d49-115">færslubókarheiti er hægt að nota fyrir leiðréttingar eingöngu.</span><span class="sxs-lookup"><span data-stu-id="e6d49-115">A journal name can be used only for adjustments.</span></span> <span data-ttu-id="e6d49-116">Í þessu tilfelli er hægt að tilgreina að aðeins **Fjárhags** lykilgerðin er gild fyrir öll fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="e6d49-116">In this case, you can specify that only the **Ledger** account type is valid across all companies.</span></span> <span data-ttu-id="e6d49-117">[![Gerðir lykla fyrir færslubókareftirlit](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span><span class="sxs-lookup"><span data-stu-id="e6d49-117">[![Journal control account types](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span></span>
 
-Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir svið aðallykla. [![Hluti færslubókareftirlits](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+<span data-ttu-id="e6d49-118">Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir svið aðallykla.</span><span class="sxs-lookup"><span data-stu-id="e6d49-118">A journal name can be used only for a specific segment or for a range for main accounts.</span></span> <span data-ttu-id="e6d49-119">[![Hluti færslubókareftirlits](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span><span class="sxs-lookup"><span data-stu-id="e6d49-119">[![Journal control segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span></span>
 
-**Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
-[![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+<span data-ttu-id="e6d49-120">**Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur.</span><span class="sxs-lookup"><span data-stu-id="e6d49-120">The **Automatic reversal** option is available in general journals.</span></span> <span data-ttu-id="e6d49-121">Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.</span><span class="sxs-lookup"><span data-stu-id="e6d49-121">For example, you have an accrual adjustment where the actual document hasn't yet been processed, as shown in the following illustration.</span></span>
+<span data-ttu-id="e6d49-122">[![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span><span class="sxs-lookup"><span data-stu-id="e6d49-122">[![General journal reversing](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span></span> 
 
-Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
+<span data-ttu-id="e6d49-123">Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna.</span><span class="sxs-lookup"><span data-stu-id="e6d49-123">The Microsoft Excel add-in for journal entry provides an additional level of automation and makes data entry easier.</span></span> <span data-ttu-id="e6d49-124">**Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður.</span><span class="sxs-lookup"><span data-stu-id="e6d49-124">The **Open lines in Excel** action is available on the **General journal** and **Journal voucher** pages.</span></span> 
 
-Á **Tímabilsbækur** síða, geturðu sett upp endurteknar færslubækur í til að gera sjálfvirkt færslubókarferli. 
+<span data-ttu-id="e6d49-125">Á **Tímabilsbækur** síða, geturðu sett upp endurteknar færslubækur í til að gera sjálfvirkt færslubókarferli.</span><span class="sxs-lookup"><span data-stu-id="e6d49-125">On the **Periodic journals** page, you can set up recurring journals to automate journal processing.</span></span> 
 
-Hægt er að nota sniðmát fyrir fylgiskjöl hvenær sem er. Á síðunni **Almennar færslubækur** má finna aðgerðirnar **Vista** og **Velja sniðmát fylgiskjals** á síðunni **Færslubókarfylgiskjal** undir **Aðgerðir** fyrir línur fylgiskjals.
+<span data-ttu-id="e6d49-126">Hægt er að nota sniðmát fyrir fylgiskjöl hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="e6d49-126">You can use voucher templates at any time.</span></span> <span data-ttu-id="e6d49-127">Á síðunni **Almennar færslubækur** má finna aðgerðirnar **Vista** og **Velja sniðmát fylgiskjals** á síðunni **Færslubókarfylgiskjal** undir **Aðgerðir** fyrir línur fylgiskjals.</span><span class="sxs-lookup"><span data-stu-id="e6d49-127">On the **General journals** page, the **Save** and **Select voucher template** actions are found on the **Journal voucher** page, under **Functions** for the voucher lines.</span></span>
 
-## <a name="related-setup"></a>Tengd uppsetning
-Eftirfarandi uppsetningar er ekki bundinn við almennar færslubækur en hjálpar að tryggja samræmda gagnainnslætti sem er rétt og auðveld.
+## <a name="related-setup"></a><span data-ttu-id="e6d49-128">Tengd uppsetning</span><span class="sxs-lookup"><span data-stu-id="e6d49-128">Related setup</span></span>
+<span data-ttu-id="e6d49-129">Eftirfarandi uppsetningar er ekki bundinn við almennar færslubækur en hjálpar að tryggja samræmda gagnainnslætti sem er rétt og auðveld.</span><span class="sxs-lookup"><span data-stu-id="e6d49-129">The following setup isn't specific to general journals, but will help guarantee that data entry is correct data and easy.</span></span>
 
-### <a name="main-account"></a>Aðallykill
+### <a name="main-account"></a><span data-ttu-id="e6d49-130">Aðallykill</span><span class="sxs-lookup"><span data-stu-id="e6d49-130">Main account</span></span>
 
-Uppsetning aðallykils býður upp á marga valkosti fyrir úrvinnslu almennrar færslubókar:
+<span data-ttu-id="e6d49-131">Uppsetning aðallykils býður upp á marga valkosti fyrir úrvinnslu almennrar færslubókar:</span><span class="sxs-lookup"><span data-stu-id="e6d49-131">The main account setup provides many options for general journal processing:</span></span>
 
--   **DC/KR krafa** – Notið þennan valkost ef aðallykil er takmarkaður við debet-eða kreditfærslur. Uppsetning er sannprófað þegar færslubók er villuleitað eða bókað.
--   **Sjálfgefinn mótlykill**
--   **Frestað** – Fresta aðallykil fyrir innslátt gagna í öllum fyrirtækjum eða fyrir tiltekin fyrirtæki/lögaðilaa.
--   **Ekki leyfa handvirkan innslátt** – koma í veg Fyrir að notendur fært inn gildi handvirkt fyrir lykilinn í færslubók.
--   **Sjálfgildur/villuleita gjaldmiðil**
--   **Hnekkja lögaðila** – Þessi uppsetning á sérstaklega við fyrirtæki/lögaðila:
-    -   **sjálfgefnir/sannprófa VSK-flokka**
-    -   **Sjálfgefin vídd** – **Ekki föst** eða **Föst gildi**. **Föst gildi** hjálpar að tryggja allar bókanir fyrir þennan aðallykil séu ávallt að nota víddargildið sem er sett upp sem **Fast**.
--   **Bókunarvilluleit**
-    -   **Villuleit notanda** – valkosturinn stýrir því hvaða notendur hafa heimild til að bóka aðallykil.
-    -   **Villuleit bókunargerðar** – valkosturinn stýrir því hvaða bókunargerð eru leyfðar fyrir aðallykil.
+-   <span data-ttu-id="e6d49-132">**DC/KR krafa** – Notið þennan valkost ef aðallykil er takmarkaður við debet-eða kreditfærslur.</span><span class="sxs-lookup"><span data-stu-id="e6d49-132">**DC/CR requirement** – Use this option if a main account is limited to debit or credit transactions.</span></span> <span data-ttu-id="e6d49-133">Uppsetning er sannprófað þegar færslubók er villuleitað eða bókað.</span><span class="sxs-lookup"><span data-stu-id="e6d49-133">The setup is verified when a journal is validated or posted.</span></span>
+-   <span data-ttu-id="e6d49-134">**Sjálfgefinn mótlykill**</span><span class="sxs-lookup"><span data-stu-id="e6d49-134">**Default offset account**</span></span>
+-   <span data-ttu-id="e6d49-135">**Frestað** – Fresta aðallykil fyrir innslátt gagna í öllum fyrirtækjum eða fyrir tiltekin fyrirtæki/lögaðilaa.</span><span class="sxs-lookup"><span data-stu-id="e6d49-135">**Suspended** – Suspend a main account for data entry across all companies or for a specific company/legal entities.</span></span>
+-   <span data-ttu-id="e6d49-136">**Ekki leyfa handvirkan innslátt** – koma í veg Fyrir að notendur fært inn gildi handvirkt fyrir lykilinn í færslubók.</span><span class="sxs-lookup"><span data-stu-id="e6d49-136">**Do not allow manual entry** – Prevent users from manually entering a value for the account in journals.</span></span>
+-   <span data-ttu-id="e6d49-137">**Sjálfgildur/villuleita gjaldmiðil**</span><span class="sxs-lookup"><span data-stu-id="e6d49-137">**Default/Validate currency**</span></span>
+-   <span data-ttu-id="e6d49-138">**Hnekkja lögaðila** – Þessi uppsetning á sérstaklega við fyrirtæki/lögaðila:</span><span class="sxs-lookup"><span data-stu-id="e6d49-138">**Legal entity override** – This setup is specific to the defined company/legal entity:</span></span>
+    -   <span data-ttu-id="e6d49-139">**sjálfgefnir/sannprófa VSK-flokka**</span><span class="sxs-lookup"><span data-stu-id="e6d49-139">**Default/Validate sales tax**</span></span>
+    -   <span data-ttu-id="e6d49-140">**Sjálfgefin vídd** – **Ekki föst** eða **Föst gildi**.</span><span class="sxs-lookup"><span data-stu-id="e6d49-140">**Default dimension** – **Not fixed** or **Fixed value**.</span></span> <span data-ttu-id="e6d49-141">**Föst gildi** hjálpar að tryggja allar bókanir fyrir þennan aðallykil séu ávallt að nota víddargildið sem er sett upp sem **Fast**.</span><span class="sxs-lookup"><span data-stu-id="e6d49-141">**Fixed value** will help guarantee that all postings for this main account always use any dimension value that is set up as **Fixed**.</span></span>
+-   <span data-ttu-id="e6d49-142">**Bókunarvilluleit**</span><span class="sxs-lookup"><span data-stu-id="e6d49-142">**Posting validation**</span></span>
+    -   <span data-ttu-id="e6d49-143">**Villuleit notanda** – valkosturinn stýrir því hvaða notendur hafa heimild til að bóka aðallykil.</span><span class="sxs-lookup"><span data-stu-id="e6d49-143">**User validation** – This option controls which users are allowed to post to a main account.</span></span>
+    -   <span data-ttu-id="e6d49-144">**Villuleit bókunargerðar** – valkosturinn stýrir því hvaða bókunargerð eru leyfðar fyrir aðallykil.</span><span class="sxs-lookup"><span data-stu-id="e6d49-144">**Posting type validation** – This option controls which posting types are allowed for a main account.</span></span>
 
-### <a name="accounting-structures-and-advanced-rules-structures"></a>Bókhaldslykilskipulag og skipulag ítarlegra reglna
+### <a name="accounting-structures-and-advanced-rules-structures"></a><span data-ttu-id="e6d49-145">Bókhaldslykilskipulag og skipulag ítarlegra reglna</span><span class="sxs-lookup"><span data-stu-id="e6d49-145">Accounting structures and advanced rules structures</span></span>
 
-Bókhaldsskipulag og skipulag ítarlegra reglna er mjög mikilvægt fyrir að tryggja gögn sem þarf fyrir fjárhagslega skýrslugerð og afkastarakningu er sótt við úrvinnslu almennrar færslubókar og allra fylgiskjala. Bókhaldslykilskipulag og skipulag ítarlegra reglna leyfa þér að klæðskerasníða upplifun af gagnainnslætti. Hægt er að leyfa innslátt gagna aðeins fyrir fjárhagsvíddir sem eiga við hverja aðstæðu, og getur framfylgt þeirri kröfu að áskilin og rétt gögn séu ávallt sótt.
+<span data-ttu-id="e6d49-146">Bókhaldsskipulag og skipulag ítarlegra reglna er mjög mikilvægt fyrir að tryggja gögn sem þarf fyrir fjárhagslega skýrslugerð og afkastarakningu er sótt við úrvinnslu almennrar færslubókar og allra fylgiskjala.</span><span class="sxs-lookup"><span data-stu-id="e6d49-146">Accounting structures and advanced rules structures are extremely important for guaranteeing that the data that is required for financial reporting and performance tracking is captured during general journal processing and any documentation.</span></span> <span data-ttu-id="e6d49-147">Bókhaldslykilskipulag og skipulag ítarlegra reglna leyfa þér að klæðskerasníða upplifun af gagnainnslætti.</span><span class="sxs-lookup"><span data-stu-id="e6d49-147">Accounting structures and advanced rules structures let you tailor the data entry experience.</span></span> <span data-ttu-id="e6d49-148">Hægt er að leyfa innslátt gagna aðeins fyrir fjárhagsvíddir sem eiga við hverja aðstæðu, og getur framfylgt þeirri kröfu að áskilin og rétt gögn séu ávallt sótt.</span><span class="sxs-lookup"><span data-stu-id="e6d49-148">You can allow data entry only for financial dimensions that are relevant in each situation, and can also enforce the requirement that mandatory and correct data always be captured.</span></span>
 
-Frekari upplýsingar er hægt að finna í eftirfarandi efni:
-- [Áætlanagerð: bókhaldslykilsins](plan-chart-of-accounts.md). 
-- [Stofna ítarlegar reglur fyrir færslubækur](tasks/create-advanced-rules-journals.md)
-- [Stofna færslu í færslubók með því að nota sniðmát](tasks/create-journal-entry-template.md)
-- [Stofna og sannprófa færslubækur](tasks/create-validate-journals.md)
-- [Bóka tímabilsbækur](tasks/post-periodic-journals.md)
-- [Vinna úr færslubók kostnaðarúthlutunar](tasks/process-ledger-allocation-journal.md)
+<span data-ttu-id="e6d49-149">Frekari upplýsingar er hægt að finna í eftirfarandi efni:</span><span class="sxs-lookup"><span data-stu-id="e6d49-149">For more information, see the following topics:</span></span>
+- <span data-ttu-id="e6d49-150">[Áætlanagerð: bókhaldslykilsins](plan-chart-of-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="e6d49-150">[Planning: Chart of accounts](plan-chart-of-accounts.md).</span></span> 
+- [<span data-ttu-id="e6d49-151">Stofna ítarlegar reglur fyrir færslubækur</span><span class="sxs-lookup"><span data-stu-id="e6d49-151">Create advanced rules for journals</span></span>](tasks/create-advanced-rules-journals.md)
+- [<span data-ttu-id="e6d49-152">Stofna færslu í færslubók með því að nota sniðmát</span><span class="sxs-lookup"><span data-stu-id="e6d49-152">Create a journal entry using a template</span></span>](tasks/create-journal-entry-template.md)
+- [<span data-ttu-id="e6d49-153">Stofna og sannprófa færslubækur</span><span class="sxs-lookup"><span data-stu-id="e6d49-153">Create and validate journals</span></span>](tasks/create-validate-journals.md)
+- [<span data-ttu-id="e6d49-154">Bóka tímabilsbækur</span><span class="sxs-lookup"><span data-stu-id="e6d49-154">Post periodic journals</span></span>](tasks/post-periodic-journals.md)
+- [<span data-ttu-id="e6d49-155">Vinna úr færslubók kostnaðarúthlutunar</span><span class="sxs-lookup"><span data-stu-id="e6d49-155">Process ledger allocation journal</span></span>](tasks/process-ledger-allocation-journal.md)
 
 
 

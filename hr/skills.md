@@ -1,77 +1,71 @@
 ---
-title: "Jafna hæfni vinnuafls við viðskiptaþarfir"
-description: "Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu."
+# required metadata
+title: Jafna hæfni vinnuafls við viðskiptaþarfir
+description: 'Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.'
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
+ms.technology: null
+ms.search.form: 'HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType'
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: 'Core, AX 7.0.0, Operations, UnifiedOperations'
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ae940cdbab2166d8fe3f2f396c84ed4a09c2ca7e
-ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
-
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
 
-# <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
+# <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="713a1-104">Jafna hæfni vinnuafls við viðskiptaþarfir</span><span class="sxs-lookup"><span data-stu-id="713a1-104">Align workforce skills with business needs</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
+<span data-ttu-id="713a1-105">Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt.</span><span class="sxs-lookup"><span data-stu-id="713a1-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="713a1-106">Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.</span><span class="sxs-lookup"><span data-stu-id="713a1-106">You can also specify the skills that are required for a specific job.</span></span>
 
-Dæmi um hæfni sem hægt er að rekja eru eftirfarandi:
--   Eftirlitsyfirvald - getan til að hafa umsjón með vinnu annarra.
--   Forysta - Geta til að leiða starfsmenn og fyriristækjasvið.
--   Áætlunargerð - hæfni til að horfa fram á við, mynda sýn og koma þeim í framkvæmd.
--   HTML-Möguleika á að skrifa html-kóða.
+<span data-ttu-id="713a1-107">Dæmi um hæfni sem hægt er að rekja eru eftirfarandi:</span><span class="sxs-lookup"><span data-stu-id="713a1-107">Examples of skills you can track include the following:</span></span>
+-   <span data-ttu-id="713a1-108">Eftirlitsyfirvald - getan til að hafa umsjón með vinnu annarra.</span><span class="sxs-lookup"><span data-stu-id="713a1-108">Supervisory – Ability to supervise the work of others.</span></span>
+-   <span data-ttu-id="713a1-109">Forysta - Geta til að leiða starfsmenn og fyriristækjasvið.</span><span class="sxs-lookup"><span data-stu-id="713a1-109">Leadership – Ability to lead employees and business domains.</span></span>
+-   <span data-ttu-id="713a1-110">Áætlunargerð - hæfni til að horfa fram á við, mynda sýn og koma þeim í framkvæmd.</span><span class="sxs-lookup"><span data-stu-id="713a1-110">Planning – Ability to look ahead, to form visions, and to see them through.</span></span>
+-   <span data-ttu-id="713a1-111">HTML-Möguleika á að skrifa html-kóða.</span><span class="sxs-lookup"><span data-stu-id="713a1-111">HTML – Ability to write HTML code.</span></span>
 
-Áður en hægt er að úthluta hæfni til einstaklings eða vinnslu, stofna leit að hæfnisvörpun, eða stofna hæfnisreglu, verður að færa inn upplýsingar um hæfni°á síðunni **Hæfni**. Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.
+<span data-ttu-id="713a1-112">Áður en hægt er að úthluta hæfni til einstaklings eða vinnslu, stofna leit að hæfnisvörpun, eða stofna hæfnisreglu, verður að færa inn upplýsingar um hæfni°á síðunni **Hæfni**.</span><span class="sxs-lookup"><span data-stu-id="713a1-112">Before you can assign a skill to a person or a job, create a skill-mapping search, or create a skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="713a1-113">Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.</span><span class="sxs-lookup"><span data-stu-id="713a1-113">For each skill, you can select a skill type and a rating model.</span></span>
 
-## <a name="rating-models"></a>Matslíkön
-Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Færa má inn allt að 10 stig fyrir einkunnalíkan.  Hvert stig í einkunnalíkani fær úthlutað stuðli.  Stuðullinn verður notaður til að staðla einkunnir vegna hæfni sem notast við mismunandi einkunnalíkön.  Stuðullinn verður að vera númer frá 0-9 og hvert stig verður að hafa einkvæman stuðul.  Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
+## <a name="rating-models"></a><span data-ttu-id="713a1-114">Matslíkön</span><span class="sxs-lookup"><span data-stu-id="713a1-114">Rating models</span></span>
+<span data-ttu-id="713a1-115">Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu.</span><span class="sxs-lookup"><span data-stu-id="713a1-115">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill that is required for a job.</span></span> <span data-ttu-id="713a1-116">Færa má inn allt að 10 stig fyrir einkunnalíkan.</span><span class="sxs-lookup"><span data-stu-id="713a1-116">You can enter up to 10 levels for a rating model.</span></span>  <span data-ttu-id="713a1-117">Hvert stig í einkunnalíkani fær úthlutað stuðli.</span><span class="sxs-lookup"><span data-stu-id="713a1-117">Each level in a rating model is assigned a factor.</span></span>  <span data-ttu-id="713a1-118">Stuðullinn verður notaður til að staðla einkunnir vegna hæfni sem notast við mismunandi einkunnalíkön.</span><span class="sxs-lookup"><span data-stu-id="713a1-118">The factor value will be used to normalize the scores of skills that use different rating models.</span></span>  <span data-ttu-id="713a1-119">Stuðullinn verður að vera númer frá 0-9 og hvert stig verður að hafa einkvæman stuðul.</span><span class="sxs-lookup"><span data-stu-id="713a1-119">The factor must be a number between 0-9 and each level must have a unique factor.</span></span>  <span data-ttu-id="713a1-120">Stig með hærri stuðul hafa meira vægi í einkunnalíkani.</span><span class="sxs-lookup"><span data-stu-id="713a1-120">Levels with higher factor values carry more weight in a rating model.</span></span>
 
-## <a name="specify-job-skills"></a>Tilgreina vinnufærni
-Þegar færðar eru inn upplýsingar um starf, er hægt að tilgreina hæfni sem einstaklingur°ætti°að hafa til að framkvæma vinnu sem er krafist fyrir starfið.  Þar að auki er hægt að tilgreina æskilegt stig fyrir hverja hæfni ásamt mikilvægi hæfninnar. Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.
+## <a name="specify-job-skills"></a><span data-ttu-id="713a1-121">Tilgreina vinnufærni</span><span class="sxs-lookup"><span data-stu-id="713a1-121">Specify job skills</span></span>
+<span data-ttu-id="713a1-122">Þegar færðar eru inn upplýsingar um starf, er hægt að tilgreina hæfni sem einstaklingur°ætti°að hafa til að framkvæma vinnu sem er krafist fyrir starfið.</span><span class="sxs-lookup"><span data-stu-id="713a1-122">When you enter information about a job, you can specify the skills that a person should have to perform the work required for the job.</span></span>  <span data-ttu-id="713a1-123">Þar að auki er hægt að tilgreina æskilegt stig fyrir hverja hæfni ásamt mikilvægi hæfninnar.</span><span class="sxs-lookup"><span data-stu-id="713a1-123">In addition you can specify the desired level for each skill as well the level of importance of the skill.</span></span> <span data-ttu-id="713a1-124">Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.</span><span class="sxs-lookup"><span data-stu-id="713a1-124">Different jobs can require different levels of importance for the same skill.</span></span>
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir
-Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir. Markhæfni er hæfni sem einstaklingur ætlar að ná. Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.
+## <a name="enter-skills-for-workers-applicants-or-contacts"></a><span data-ttu-id="713a1-125">Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir</span><span class="sxs-lookup"><span data-stu-id="713a1-125">Enter skills for workers, applicants, or contacts</span></span>
+<span data-ttu-id="713a1-126">Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir.</span><span class="sxs-lookup"><span data-stu-id="713a1-126">You can enter target skills or actual skills for workers, applicants, or contacts.</span></span> <span data-ttu-id="713a1-127">Markhæfni er hæfni sem einstaklingur ætlar að ná.</span><span class="sxs-lookup"><span data-stu-id="713a1-127">A target skill is a skill that a person plans to achieve.</span></span> <span data-ttu-id="713a1-128">Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.</span><span class="sxs-lookup"><span data-stu-id="713a1-128">An actual skill is a skill that a person currently has.</span></span>
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
-Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstaka gerð verks. Hæfnisvörpun leitar yfir hæfni, menntun, skírteini, ábyrgðarstöður og verkreynslu og skilar niðurstöðum sem samsvara gefnum skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu unnu fyrir sínu CPA.
+## <a name="skill-mapping-and-skill-mapping-profiles"></a><span data-ttu-id="713a1-129"> Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu</span><span class="sxs-lookup"><span data-stu-id="713a1-129">Skill mapping and Skill mapping profiles</span></span>
+<span data-ttu-id="713a1-130">Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstaka gerð verks.</span><span class="sxs-lookup"><span data-stu-id="713a1-130">You can create a skill-mapping search to find a worker, applicant, or contact person who is qualified to perform a specific type of task.</span></span> <span data-ttu-id="713a1-131">Hæfnisvörpun leitar yfir hæfni, menntun, skírteini, ábyrgðarstöður og verkreynslu og skilar niðurstöðum sem samsvara gefnum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="713a1-131">Skill-mapping searches look across skills, education, certificates, positions of trust and project experience and return a results that match the criteria entered.</span></span>  <span data-ttu-id="713a1-132">Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu unnu fyrir sínu CPA.</span><span class="sxs-lookup"><span data-stu-id="713a1-132">For example, it might be useful to know which workers in your organization earned their CPA.</span></span>
 
-Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
+<span data-ttu-id="713a1-133">Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.</span><span class="sxs-lookup"><span data-stu-id="713a1-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="713a1-134">Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="713a1-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="713a1-135">Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.</span><span class="sxs-lookup"><span data-stu-id="713a1-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
->**Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
+><span data-ttu-id="713a1-136">**Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum.</span><span class="sxs-lookup"><span data-stu-id="713a1-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="713a1-137">Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:</span><span class="sxs-lookup"><span data-stu-id="713a1-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
 
-> + Vinna
-> + Starfsmaður
-> + Umsækjandi
-> + Tengiliðir
+> + <span data-ttu-id="713a1-138">Vinna</span><span class="sxs-lookup"><span data-stu-id="713a1-138">Worker</span></span>
+> + <span data-ttu-id="713a1-139">Starfsmaður</span><span class="sxs-lookup"><span data-stu-id="713a1-139">Employee</span></span>
+> + <span data-ttu-id="713a1-140">Umsækjandi</span><span class="sxs-lookup"><span data-stu-id="713a1-140">Applicant</span></span>
+> + <span data-ttu-id="713a1-141">Tengiliðir</span><span class="sxs-lookup"><span data-stu-id="713a1-141">Contacts</span></span>
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Hæfnibilsgreining og greining hæfniforstillingar
-Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi. Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.  
+## <a name="skill-gap-analysis-and-skill-profile-analysis"></a><span data-ttu-id="713a1-142">Hæfnibilsgreining og greining hæfniforstillingar</span><span class="sxs-lookup"><span data-stu-id="713a1-142">Skill gap analysis and skill profile analysis</span></span>
+<span data-ttu-id="713a1-143">Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi.</span><span class="sxs-lookup"><span data-stu-id="713a1-143">You can create a skill profile analysis to view a list of the competencies of a worker, applicant, or contact person as of a specific date.</span></span> <span data-ttu-id="713a1-144">Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.</span><span class="sxs-lookup"><span data-stu-id="713a1-144">You can create a skill gap analysis to compare a person’s skills and the skills that are required for a specific job.</span></span>  
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="713a1-145">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="713a1-145">See also</span></span>
 --------
 
-[Mannauður](index.md)
-
+[<span data-ttu-id="713a1-146">Mannauður</span><span class="sxs-lookup"><span data-stu-id="713a1-146">Human resources</span></span>](index.md)
 
 
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -19,83 +19,80 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 63244357ab9c12d42dbd5dba6f0229128a3971de
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-journals"></a>Birgðabækur
+# <a name="inventory-journals"></a><span data-ttu-id="6a1e4-103">Birgðabækur</span><span class="sxs-lookup"><span data-stu-id="6a1e4-103">Inventory journals</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
 
-Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla. 
+<span data-ttu-id="6a1e4-104">Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-104">This article describes how you can use inventory journals to post various types of physical inventory transactions.</span></span>
 
-Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskrifta (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
+<span data-ttu-id="6a1e4-105">Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskrifta (BOMs) og afstemmingu efnislegra birgða.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-105">The inventory journals in Microsoft Dynamics 365 for Finance and Operations are used to post physical inventory transactions of various types, such as the posting of issues and receipts, inventory movements, the creation of bills of materials (BOMs), and the reconciliation of physical inventory.</span></span> <span data-ttu-id="6a1e4-106">Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-106">All these inventory journals are used in a similar way, but they are divided into different types.</span></span>
 
-## <a name="types-of-inventory-journals"></a>Gerðir birgðabóka
-Eftirtaldar gerðir birgðabóka eru tiltækar:
+## <a name="types-of-inventory-journals"></a><span data-ttu-id="6a1e4-107">Gerðir birgðabóka</span><span class="sxs-lookup"><span data-stu-id="6a1e4-107">Types of inventory journals</span></span>
+<span data-ttu-id="6a1e4-108">Eftirtaldar gerðir birgðabóka eru tiltækar:</span><span class="sxs-lookup"><span data-stu-id="6a1e4-108">The following types of inventory journals are available:</span></span>
 
--   Hreyfing
--   Leiðrétting birgða
--   Flytja
--   Uppskrift
--   Vörumóttaka
--   Framleiðsluinntak
--   Talning
--   Seðlatalning
+-   <span data-ttu-id="6a1e4-109">Hreyfing</span><span class="sxs-lookup"><span data-stu-id="6a1e4-109">Movement</span></span>
+-   <span data-ttu-id="6a1e4-110">Leiðrétting birgða</span><span class="sxs-lookup"><span data-stu-id="6a1e4-110">Inventory adjustment</span></span>
+-   <span data-ttu-id="6a1e4-111">Flytja</span><span class="sxs-lookup"><span data-stu-id="6a1e4-111">Transfer</span></span>
+-   <span data-ttu-id="6a1e4-112">Uppskrift</span><span class="sxs-lookup"><span data-stu-id="6a1e4-112">BOM</span></span>
+-   <span data-ttu-id="6a1e4-113">Vörumóttaka</span><span class="sxs-lookup"><span data-stu-id="6a1e4-113">Item arrival</span></span>
+-   <span data-ttu-id="6a1e4-114">Framleiðsluinntak</span><span class="sxs-lookup"><span data-stu-id="6a1e4-114">Production input</span></span>
+-   <span data-ttu-id="6a1e4-115">Talning</span><span class="sxs-lookup"><span data-stu-id="6a1e4-115">Counting</span></span>
+-   <span data-ttu-id="6a1e4-116">Seðlatalning</span><span class="sxs-lookup"><span data-stu-id="6a1e4-116">Tag counting</span></span>
 
-### <a name="movement"></a>Hreyfing
+### <a name="movement"></a><span data-ttu-id="6a1e4-117">Hreyfing</span><span class="sxs-lookup"><span data-stu-id="6a1e4-117">Movement</span></span>
 
-Þegar birgðabók hreyfingar er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við, en þú verður að úthluta aukalegum kostnað handvirkt á tiltekinn fjárhagslykil með því að tilgreina mótlykil í fjárhag þegar færslubók er stofnuð. Þessi gerð birgðabókar er gagnlegt ef óskað er eftir að kostnaðarfæra vöru gagnvart aðra deild, eða ef óskað er að fjarlægja vörur úr birgðum vegna kostnaðarmála.
+<span data-ttu-id="6a1e4-118">Þegar birgðabók hreyfingar er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við, en þú verður að úthluta aukalegum kostnað handvirkt á tiltekinn fjárhagslykil með því að tilgreina mótlykil í fjárhag þegar færslubók er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-118">When you use an inventory movement journal, you can add cost to an item when you add inventory, but you must manually allocate the additional cost to a particular general ledger account by specifying a general ledger offset account when you create the journal.</span></span> <span data-ttu-id="6a1e4-119">Þessi gerð birgðabókar er gagnlegt ef óskað er eftir að kostnaðarfæra vöru gagnvart aðra deild, eða ef óskað er að fjarlægja vörur úr birgðum vegna kostnaðarmála.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-119">This inventory journal type is useful if you want to expense an item against a different department, or if you want to remove items from inventory for expense purposes.</span></span>
 
-### <a name="inventory-adjustment"></a>Leiðrétting birgða
+### <a name="inventory-adjustment"></a><span data-ttu-id="6a1e4-120">Leiðrétting birgða</span><span class="sxs-lookup"><span data-stu-id="6a1e4-120">Inventory adjustment</span></span>
 
-Þegar leiðréttingarbók birgða er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við. Aukalegur kostnaður er sjálfvirkt bókaður á tiltekinn fjárhagslykil byggt á uppsetningu bókunarreglu vöruflokks. Nota þessa gerð birgðabókar til að uppfæra hagnaður og tap í birgðamagn þegar varan ætti að halda sínum sjálfgefinn mótlykil fjárhags. Þegar leiðréttingarbók birgða er bókuð er innhreyfing eða úthreyfing birgða bókuð, birgðagildi er breytt og fjárhagsfærslur stofnaðar.
+<span data-ttu-id="6a1e4-121">Þegar leiðréttingarbók birgða er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-121">When you use an inventory adjustment journal, you can add cost to an item when you add inventory.</span></span> <span data-ttu-id="6a1e4-122">Aukalegur kostnaður er sjálfvirkt bókaður á tiltekinn fjárhagslykil byggt á uppsetningu bókunarreglu vöruflokks.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-122">The additional cost is automatically posted to a specific general ledger account, based on the setup of the item group posting profile.</span></span> <span data-ttu-id="6a1e4-123">Nota þessa gerð birgðabókar til að uppfæra hagnaður og tap í birgðamagn þegar varan ætti að halda sínum sjálfgefinn mótlykil fjárhags.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-123">Use this inventory journal type to update gains and losses to inventory quantities when the item should keep its default general ledger offset account.</span></span> <span data-ttu-id="6a1e4-124">Þegar leiðréttingarbók birgða er bókuð er innhreyfing eða úthreyfing birgða bókuð, birgðagildi er breytt og fjárhagsfærslur stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-124">When you post an inventory adjustment journal, an inventory receipt or issue is posted, the inventory values are changed, and ledger transactions are created.</span></span>
 
-### <a name="transfer"></a>Flytja
+### <a name="transfer"></a><span data-ttu-id="6a1e4-125">Flytja</span><span class="sxs-lookup"><span data-stu-id="6a1e4-125">Transfer</span></span>
 
-Hægt er að Nota flutningabækur til að flytja vörur milli staðsetningar birgðageymslu, runur eða afurðarafbrigði án þess að tengja neinn kostnað. Til dæmis er hægt að flytja vörur úr einu vöruhúsi í annað vöruhús innan sama fyrirtækis. Þegar flutningabók er notuð, verður að tilgreina bæði á "frá" og "til" birgðavíddir (til dæmis, fyrir Svæði og Vöruhúsa). Birgðir á lager fyrir skilgreindar birgðavíddir er breytt til samræmis. Birgðaflutning endurspegla tafarlausa hreyfingu efnis. Birgðir í flutningum eru ekki raktar. Ef rekja verður birgðir í flutningi, ætti frekar að nota flutningspöntun. Þegar flutningsbók er bókuð, eru tvær birgðafærslur stofnaðar fyrir hverja færslubókarlínu:
+<span data-ttu-id="6a1e4-126">Hægt er að Nota flutningabækur til að flytja vörur milli staðsetningar birgðageymslu, runur eða afurðarafbrigði án þess að tengja neinn kostnað.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-126">You can use transfer journals to transfer items between stocking locations, batches, or product variants without associating any cost implications.</span></span> <span data-ttu-id="6a1e4-127">Til dæmis er hægt að flytja vörur úr einu vöruhúsi í annað vöruhús innan sama fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-127">For example, you can transfer items from one warehouse to another warehouse within the same company.</span></span> <span data-ttu-id="6a1e4-128">Þegar flutningabók er notuð, verður að tilgreina bæði á "frá" og "til" birgðavíddir (til dæmis, fyrir Svæði og Vöruhúsa).</span><span class="sxs-lookup"><span data-stu-id="6a1e4-128">When you use a transfer journal, you must specify both the "from" and "to" inventory dimensions (for example, for Site and Warehouse).</span></span> <span data-ttu-id="6a1e4-129">Birgðir á lager fyrir skilgreindar birgðavíddir er breytt til samræmis.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-129">The on-hand inventory for the defined inventory dimensions is changed accordingly.</span></span> <span data-ttu-id="6a1e4-130">Birgðaflutning endurspegla tafarlausa hreyfingu efnis.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-130">Inventory transfers reflect the immediate movement of material.</span></span> <span data-ttu-id="6a1e4-131">Birgðir í flutningum eru ekki raktar.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-131">In-transit inventory isn't tracked.</span></span> <span data-ttu-id="6a1e4-132">Ef rekja verður birgðir í flutningi, ætti frekar að nota flutningspöntun.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-132">If in-transit inventory must be tracked, you should use a transfer order instead.</span></span> <span data-ttu-id="6a1e4-133">Þegar flutningsbók er bókuð, eru tvær birgðafærslur stofnaðar fyrir hverja færslubókarlínu:</span><span class="sxs-lookup"><span data-stu-id="6a1e4-133">When you post a transfer journal, two inventory transactions are created for each journal line:</span></span>
 
--   Birgðaúthreyfing á "frá" staðsetningunni
--   Þinnhreyfing birgða á "til" staðsetningunni
+-   <span data-ttu-id="6a1e4-134">Birgðaúthreyfing á "frá" staðsetningunni</span><span class="sxs-lookup"><span data-stu-id="6a1e4-134">An inventory issue at the "from" location</span></span>
+-   <span data-ttu-id="6a1e4-135">Þinnhreyfing birgða á "til" staðsetningunni</span><span class="sxs-lookup"><span data-stu-id="6a1e4-135">An inventory receipt at the "to" location</span></span>
 
-### <a name="bom"></a>Uppskrift
+### <a name="bom"></a><span data-ttu-id="6a1e4-136">Uppskrift</span><span class="sxs-lookup"><span data-stu-id="6a1e4-136">BOM</span></span>
 
-Þegar þú skráir að uppskrift sé lokið, er hægt að stofna uppskriftarbók. Með því að nota uppskriftabók, er hægt að bóka Uppskrift beint. Þessi bókun myndar innhreyfingu birgða fyrir vöruna, ásamt tengda Uppskrift og úthreyfingu birgða fyrir afurðirnar sem eru innifalin í Uppskriftinni. Þessi gerð birgðabókar er gagnlegt fyrir einfalda framleiðsluaðstæður eða í miklu magni, þar sem leiðir ekki er krafist.
+<span data-ttu-id="6a1e4-137">Þegar þú skráir að uppskrift sé lokið, er hægt að stofna uppskriftarbók.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-137">When you report a BOM as finished, you can create a BOM journal.</span></span> <span data-ttu-id="6a1e4-138">Með því að nota uppskriftabók, er hægt að bóka Uppskrift beint.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-138">By using a BOM journal, you can post the BOM directly.</span></span> <span data-ttu-id="6a1e4-139">Þessi bókun myndar innhreyfingu birgða fyrir vöruna, ásamt tengda Uppskrift og úthreyfingu birgða fyrir afurðirnar sem eru innifalin í Uppskriftinni.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-139">This posting generates an inventory receipt of the product, together with an associated BOM and an inventory issue of the products that are included in the BOM.</span></span> <span data-ttu-id="6a1e4-140">Þessi gerð birgðabókar er gagnlegt fyrir einfalda framleiðsluaðstæður eða í miklu magni, þar sem leiðir ekki er krafist.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-140">This inventory journal type is useful in simple or high-volume production scenarios where routes aren't required.</span></span>
 
-### <a name="item-arrival"></a>Vörumóttaka
+### <a name="item-arrival"></a><span data-ttu-id="6a1e4-141">Vörumóttaka</span><span class="sxs-lookup"><span data-stu-id="6a1e4-141">Item arrival</span></span>
 
-Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir). Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**. Ef heiti vörukomubókar er virkjað til að leita að tiltektarstaðsetningum, leitar Finance and Operations að staðsetningu fyrir mótteknar vörur og, ef pláss er, myndar áfangastaði fyrir vörur á innleið.
+<span data-ttu-id="6a1e4-142">Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir).</span><span class="sxs-lookup"><span data-stu-id="6a1e4-142">You can use the item arrival journal to register the receipt of items (for example, from purchase orders).</span></span> <span data-ttu-id="6a1e4-143">Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-143">An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page.</span></span> <span data-ttu-id="6a1e4-144">Ef heiti vörukomubókar er virkjað til að leita að tiltektarstaðsetningum, leitar Finance and Operations að staðsetningu fyrir mótteknar vörur og, ef pláss er, myndar áfangastaði fyrir vörur á innleið.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-144">If you enable the item arrival journal name to check for picking locations, Finance and Operations looks for a location for received items and, if there is room, generates location destinations for the incoming items.</span></span>
 
-### <a name="production-input"></a>Framleiðsluinntak
+### <a name="production-input"></a><span data-ttu-id="6a1e4-145">Framleiðsluinntak</span><span class="sxs-lookup"><span data-stu-id="6a1e4-145">Production input</span></span>
 
-Framleiðsluílagsbækur virka eins og vörukomubókin en eru notaðar fyrir framleiðslupantanir.
+<span data-ttu-id="6a1e4-146">Framleiðsluílagsbækur virka eins og vörukomubókin en eru notaðar fyrir framleiðslupantanir.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-146">Production input journals work like the item arrival journals but are used for production orders.</span></span>
 
-### <a name="counting"></a>Talning
+### <a name="counting"></a><span data-ttu-id="6a1e4-147">Talning</span><span class="sxs-lookup"><span data-stu-id="6a1e4-147">Counting</span></span>
 
-Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+<span data-ttu-id="6a1e4-148">Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-148">Counting journals let you correct the current on-hand inventory that is registered for items or groups of items, and then post the actual physical count, so that you can make the adjustments that are required in order to reconcile the differences.</span></span> <span data-ttu-id="6a1e4-149">Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-149">You can associate counting policies with counting groups to help group items that have various characteristics, so that those items can be included in a counting journal.</span></span> <span data-ttu-id="6a1e4-150">Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-150">For example, you can set up counting groups to count items that have a specific frequency, or to count items when stock falls to a particular level.</span></span> <span data-ttu-id="6a1e4-151">Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).</span><span class="sxs-lookup"><span data-stu-id="6a1e4-151">For information about how to define counting groups, see [Define inventory counting processes (Task guide)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).</span></span>
 
-### <a name="tag-counting"></a>Seðlatalning
+### <a name="tag-counting"></a><span data-ttu-id="6a1e4-152">Seðlatalning</span><span class="sxs-lookup"><span data-stu-id="6a1e4-152">Tag counting</span></span>
 
-Talningabækur merkja eru notaðar til að úthluta númeruðu merki á talningalotu. Merkið ætti að innihalda merkjanúmer, vörunúmer og magn vörunnar. Til að aðstoða við að tryggja að merki er notað aðeins einu sinni, og að öll merki eru notuð, ætti hvert vörunúmer að hafa einkvæm sett merkja sem hefur sína eigin númeraröð. Hægt er að setja þrjár stöðugildi fyrir hvert merki:
+<span data-ttu-id="6a1e4-153">Talningabækur merkja eru notaðar til að úthluta númeruðu merki á talningalotu.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-153">Tag counting journals are used to assign a numbered tag to a count lot.</span></span> <span data-ttu-id="6a1e4-154">Merkið ætti að innihalda merkjanúmer, vörunúmer og magn vörunnar.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-154">The tag should contain a tag number, item number, and item quantity.</span></span> <span data-ttu-id="6a1e4-155">Til að aðstoða við að tryggja að merki er notað aðeins einu sinni, og að öll merki eru notuð, ætti hvert vörunúmer að hafa einkvæm sett merkja sem hefur sína eigin númeraröð.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-155">To help guarantee that a tag is used only one time, and that all tags are used, every item number should have a unique set of tags that has its own number sequence.</span></span> <span data-ttu-id="6a1e4-156">Hægt er að setja þrjár stöðugildi fyrir hvert merki:</span><span class="sxs-lookup"><span data-stu-id="6a1e4-156">Three status values can be set for each tag:</span></span>
 
--   **Notað** – Vörunúmer er talið fyrir þetta merki.
--   **Ógilt** – Vörunúmer er ógilt fyrir þetta merki.
--   **Vantar** – Vörunúmer vantar fyrir þetta merki.
+-   <span data-ttu-id="6a1e4-157">**Notað** – Vörunúmer er talið fyrir þetta merki.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-157">**Used** – The item number is counted for this tag.</span></span>
+-   <span data-ttu-id="6a1e4-158">**Ógilt** – Vörunúmer er ógilt fyrir þetta merki.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-158">**Voided** – The item number is voided for this tag.</span></span>
+-   <span data-ttu-id="6a1e4-159">**Vantar** – Vörunúmer vantar fyrir þetta merki.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-159">**Missing** – The item number is missing for this tag.</span></span>
 
-Þegar merkjatalningabók er bókuð, er ný talningarbók stofnuð á grundvelli talningarbókarlínum merkja. Frekari upplýsingar um merkjatalningar eru í [birgðamerkjatalning](inventory-tag-counting.md).
+<span data-ttu-id="6a1e4-160">Þegar merkjatalningabók er bókuð, er ný talningarbók stofnuð á grundvelli talningarbókarlínum merkja.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-160">When you post a tag counting journal, a new counting journal is created, based on the tag counting journal lines.</span></span> <span data-ttu-id="6a1e4-161">Frekari upplýsingar um merkjatalningar eru í [birgðamerkjatalning](inventory-tag-counting.md).</span><span class="sxs-lookup"><span data-stu-id="6a1e4-161">For more information about tag counting, see [Inventory tag counting](inventory-tag-counting.md).</span></span>
 
-## <a name="working-with-journals"></a>Unnið með færslubækur
-Færslubók getur aðeins einn notandi fengið aðgang að í einu. Ef nokkrir notendur verður fá aðgang að færslubókum í einu til að stofna færslubókarlínur, verða notendur að velja færslubækur sem eru ekki í notkun til að forðast að skrifað sé yfir upplýsingar. Í aðstæðum þar sem margar deildir nota sömu færslubókargerðina, er gagnlegt að stofna mörg færslubókarheiti (til dæmis, einn fyrir hverja deild). Það getur einnig verið gagnlegt að skipta færslubókum svo að hver bókun sé skráð í sína einkvæmu birgðafærslubók. Fyrir bókunarforskriftir sem tengjast birgðafærslum skal stofna eina færslubók með reglubundnum birgðaleiðréttingum og aðra fyrir birgðatalningu.
+## <a name="working-with-journals"></a><span data-ttu-id="6a1e4-162">Unnið með færslubækur</span><span class="sxs-lookup"><span data-stu-id="6a1e4-162">Working with journals</span></span>
+<span data-ttu-id="6a1e4-163">Færslubók getur aðeins einn notandi fengið aðgang að í einu.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-163">A journal can be accessed by only one user at a time.</span></span> <span data-ttu-id="6a1e4-164">Ef nokkrir notendur verður fá aðgang að færslubókum í einu til að stofna færslubókarlínur, verða notendur að velja færslubækur sem eru ekki í notkun til að forðast að skrifað sé yfir upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-164">If several users must access journals at the same time to create journal lines, those users must select journals that aren't currently being used, to prevent information from being overwritten.</span></span> <span data-ttu-id="6a1e4-165">Í aðstæðum þar sem margar deildir nota sömu færslubókargerðina, er gagnlegt að stofna mörg færslubókarheiti (til dæmis, einn fyrir hverja deild).</span><span class="sxs-lookup"><span data-stu-id="6a1e4-165">In situations where multiple departments use the same journal type, it's helpful to create multiple journal names (for example, one per department).</span></span> <span data-ttu-id="6a1e4-166">Það getur einnig verið gagnlegt að skipta færslubókum svo að hver bókun sé skráð í sína einkvæmu birgðafærslubók.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-166">It can also be helpful to divide journals so that each posting routine is entered in its own unique inventory journal.</span></span> <span data-ttu-id="6a1e4-167">Fyrir bókunarforskriftir sem tengjast birgðafærslum skal stofna eina færslubók með reglubundnum birgðaleiðréttingum og aðra fyrir birgðatalningu.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-167">For posting routines that are associated with inventory transactions, create one journal for periodic inventory adjustments and another for inventory counting.</span></span>
 
-## <a name="posting-journal-lines"></a>Bókunarbókarlínur
-Hægt er að bóka færslubókarlínur sem eru stofnaðar hvenær sem er þar til þú hefur læst afurð frá aukalegum færslum. Gögnin sem færð er inn í færslubók geymast í færslubókinni, jafnvel þótt þú loka færslubókinni án þess að bóka línur.
-
-
-
+## <a name="posting-journal-lines"></a><span data-ttu-id="6a1e4-168">Bókunarbókarlínur</span><span class="sxs-lookup"><span data-stu-id="6a1e4-168">Posting journal lines</span></span>
+<span data-ttu-id="6a1e4-169">Hægt er að bóka færslubókarlínur sem eru stofnaðar hvenær sem er þar til þú hefur læst afurð frá aukalegum færslum.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-169">You can post the journal lines that you create at any time until you've locked an item from additional transactions.</span></span> <span data-ttu-id="6a1e4-170">Gögnin sem færð er inn í færslubók geymast í færslubókinni, jafnvel þótt þú loka færslubókinni án þess að bóka línur.</span><span class="sxs-lookup"><span data-stu-id="6a1e4-170">The data that you enter in a journal remains in that journal, even if you close the journal without posting the lines.</span></span>
 

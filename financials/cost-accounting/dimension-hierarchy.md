@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Víddarstigveldi
+# <a name="dimension-hierarchy"></a><span data-ttu-id="71a70-104">Víddarstigveldi</span><span class="sxs-lookup"><span data-stu-id="71a70-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efni inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.  
+<span data-ttu-id="71a70-105">Þetta efni inniheldur upplýsingar um víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="71a70-106">Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Yfirlit
+## <a name="overview"></a><span data-ttu-id="71a70-107">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="71a70-107">Overview</span></span>
 
-Víddarstigveldi eru notuð á mismunandi stöðum í kostnaðarbókhaldi. Víddastigveldi gerir mögulegt að tilgreina eftirfarandi upplýsingar:
+<span data-ttu-id="71a70-108">Víddarstigveldi eru notuð á mismunandi stöðum í kostnaðarbókhaldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="71a70-109">Víddastigveldi gerir mögulegt að tilgreina eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="71a70-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Skýrsluuppbygging sem hentar þörfum fyrirtækis þíns
--  Kostnaðarreglur
--  Öryggisuppsetningin
+-  <span data-ttu-id="71a70-110">Skýrsluuppbygging sem hentar þörfum fyrirtækis þíns</span><span class="sxs-lookup"><span data-stu-id="71a70-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="71a70-111">Kostnaðarreglur</span><span class="sxs-lookup"><span data-stu-id="71a70-111">Cost policies</span></span>
+-  <span data-ttu-id="71a70-112">Öryggisuppsetningin</span><span class="sxs-lookup"><span data-stu-id="71a70-112">The security setup</span></span>
 
-Hér er dæmi um víddastigveldi.
+<span data-ttu-id="71a70-113">Hér er dæmi um víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Dæmi um víddastigveldi](./media/dimension-hierarchy.png)
 
-Hægt er að stofna víddastigveldi fyrir eftirfarandi gerðir vídda:
+<span data-ttu-id="71a70-115">Hægt er að stofna víddastigveldi fyrir eftirfarandi gerðir vídda:</span><span class="sxs-lookup"><span data-stu-id="71a70-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Víddir kostnaðareiningar
--  Víddir kostnaðarhluta
--  Tölfræðilegar víddir
+-  <span data-ttu-id="71a70-116">Víddir kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="71a70-117">Víddir kostnaðarhluta</span><span class="sxs-lookup"><span data-stu-id="71a70-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="71a70-118">Tölfræðilegar víddir</span><span class="sxs-lookup"><span data-stu-id="71a70-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Hægt er að stofna mörg víddastigveldi vídd fyrir sömu vídd ef mismunandi sjónarhorna er krafist.
-> - Víddastigveldi má aðeins tengja við eina vídd.
-> - Víddastigveldi getur haft ótakmörkuð stig í uppbyggingu sinni. Öll stig verða tiltæk í vinnusvæðinu **Kostnaðarstjórn**. Þegar Microsoft Excel eða Microsoft Power BI til skýrslugerðar eru notuð eru aðeins fyrstu 15 stig í stigveldi flutt út. Þessi takmörkun eru til staðar þar sem Excel og Power BI krefjast fasts skema.
-> - Víddastigveldi er ekki dagsetnarvirkt. Þar af leiðandi eru allar breytingar á víddastigveldi strax vistaðar í skrána og ekki er hægt að bera saman fyrri og seinni dagsetningar.
+> - <span data-ttu-id="71a70-119">Hægt er að stofna mörg víddastigveldi vídd fyrir sömu vídd ef mismunandi sjónarhorna er krafist.</span><span class="sxs-lookup"><span data-stu-id="71a70-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="71a70-120">Víddastigveldi má aðeins tengja við eina vídd.</span><span class="sxs-lookup"><span data-stu-id="71a70-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="71a70-121">Víddastigveldi getur haft ótakmörkuð stig í uppbyggingu sinni.</span><span class="sxs-lookup"><span data-stu-id="71a70-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="71a70-122">Öll stig verða tiltæk í vinnusvæðinu **Kostnaðarstjórn**.</span><span class="sxs-lookup"><span data-stu-id="71a70-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="71a70-123">Þegar Microsoft Excel eða Microsoft Power BI til skýrslugerðar eru notuð eru aðeins fyrstu 15 stig í stigveldi flutt út.</span><span class="sxs-lookup"><span data-stu-id="71a70-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="71a70-124">Þessi takmörkun eru til staðar þar sem Excel og Power BI krefjast fasts skema.</span><span class="sxs-lookup"><span data-stu-id="71a70-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="71a70-125">Víddastigveldi er ekki dagsetnarvirkt.</span><span class="sxs-lookup"><span data-stu-id="71a70-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="71a70-126">Þar af leiðandi eru allar breytingar á víddastigveldi strax vistaðar í skrána og ekki er hægt að bera saman fyrri og seinni dagsetningar.</span><span class="sxs-lookup"><span data-stu-id="71a70-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Gerð víddastigveldis
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="71a70-127">Gerð víddastigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-127">Dimension hierarchy type</span></span>
 
-Þegar nýtt víddastigveldi er búið til verður að velja tegund stigveldis. Farið í **Kostnaðarbókhald** > **Víddir** > **Víddarstigveldi**. Smellt er á **Nýtt** og valin gerð víddastigveldis. Hægt er að velja annaðhvort **Tegundastigveldi víddar** eða **Flokkunarstigveldi víddar**.
+<span data-ttu-id="71a70-128">Þegar nýtt víddastigveldi er búið til verður að velja tegund stigveldis.</span><span class="sxs-lookup"><span data-stu-id="71a70-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="71a70-129">Farið í **Kostnaðarbókhald** > **Víddir** > **Víddarstigveldi**.</span><span class="sxs-lookup"><span data-stu-id="71a70-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="71a70-130">Smellt er á **Nýtt** og valin gerð víddastigveldis.</span><span class="sxs-lookup"><span data-stu-id="71a70-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="71a70-131">Hægt er að velja annaðhvort **Tegundastigveldi víddar** eða **Flokkunarstigveldi víddar**.</span><span class="sxs-lookup"><span data-stu-id="71a70-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Stigveldi víddaflokkunar
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="71a70-132">Stigveldi víddaflokkunar</span><span class="sxs-lookup"><span data-stu-id="71a70-132">Dimension categorization hierarchy</span></span>
 
-Tegundin **Tegundastigveldi víddar** er notuð til skýrslugerðar. Hún styður einungis víddir kostnaðareininga. Þegar þessi gerð er valin gilda eftirfarandi reglur:
+<span data-ttu-id="71a70-133">Tegundin **Tegundastigveldi víddar** er notuð til skýrslugerðar.</span><span class="sxs-lookup"><span data-stu-id="71a70-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="71a70-134">Hún styður einungis víddir kostnaðareininga.</span><span class="sxs-lookup"><span data-stu-id="71a70-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="71a70-135">Þegar þessi gerð er valin gilda eftirfarandi reglur:</span><span class="sxs-lookup"><span data-stu-id="71a70-135">When you select this type, the following rules apply:</span></span>
 
--  Víddarstakið getur verið tengt oftar en einu sinni í byggingu stigveldisins.
--  Hægt er að setja víddarstak kostnaðareiningar í mismunandi hnúta með því að úthluta kostnaðarhegðun á leaf-hnút.
+-  <span data-ttu-id="71a70-136">Víddarstakið getur verið tengt oftar en einu sinni í byggingu stigveldisins.</span><span class="sxs-lookup"><span data-stu-id="71a70-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="71a70-137">Hægt er að setja víddarstak kostnaðareiningar í mismunandi hnúta með því að úthluta kostnaðarhegðun á leaf-hnút.</span><span class="sxs-lookup"><span data-stu-id="71a70-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Stigveldi víddaflokkunar
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="71a70-138">Stigveldi víddaflokkunar</span><span class="sxs-lookup"><span data-stu-id="71a70-138">Dimension classification hierarchy</span></span>
 
-Gerðin **Flokkunarstigveldi víddar** er notuð til að skilgreina reglur og til skýrslugerðar. Hún styður allar víddir á borð við kostnaðarhluti, kostnaðareiningar og tölfræðilegar víddir. Þegar þessi gerð er valin er aðeins hægt að tengja víddarstak einu sinni í byggingu stigveldisins.
+<span data-ttu-id="71a70-139">Gerðin **Flokkunarstigveldi víddar** er notuð til að skilgreina reglur og til skýrslugerðar.</span><span class="sxs-lookup"><span data-stu-id="71a70-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="71a70-140">Hún styður allar víddir á borð við kostnaðarhluti, kostnaðareiningar og tölfræðilegar víddir.</span><span class="sxs-lookup"><span data-stu-id="71a70-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="71a70-141">Þegar þessi gerð er valin er aðeins hægt að tengja víddarstak einu sinni í byggingu stigveldisins.</span><span class="sxs-lookup"><span data-stu-id="71a70-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Stofna og stjórna víddastigveldi
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="71a70-142">Stofna og stjórna víddastigveldi</span><span class="sxs-lookup"><span data-stu-id="71a70-142">Create and maintain a dimension hierarchy</span></span>
 
-Víddastigveldi stofnast sem trjáskipulag með vensl hnúta og leaf-hnúta.
+<span data-ttu-id="71a70-143">Víddastigveldi stofnast sem trjáskipulag með vensl hnúta og leaf-hnúta.</span><span class="sxs-lookup"><span data-stu-id="71a70-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Hnútur getur haft 1:_n_ undirhnúta.
--  Hnútur getur ekki haft undirhnúta og leaf-hnútar tengda við sig.
--  Aðeins er hægt að úthluta leaf-hnút á lægsta stigi í stigveldi.
+-  <span data-ttu-id="71a70-144">Hnútur getur haft 1:_n_ undirhnúta.</span><span class="sxs-lookup"><span data-stu-id="71a70-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="71a70-145">Hnútur getur ekki haft undirhnúta og leaf-hnútar tengda við sig.</span><span class="sxs-lookup"><span data-stu-id="71a70-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="71a70-146">Aðeins er hægt að úthluta leaf-hnút á lægsta stigi í stigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Dæmi
+### <a name="example"></a><span data-ttu-id="71a70-147">Dæmi</span><span class="sxs-lookup"><span data-stu-id="71a70-147">Example</span></span>
 
-Lítið fyrirtæki hefur eftirfarandi fyrirtækisskipulagið, þar sem Fjármál og mannauður eru deildir undir Stjórnun og Samsetningarinnar og Umbúðir eru deildir í Framleiðslu.
+<span data-ttu-id="71a70-148">Lítið fyrirtæki hefur eftirfarandi fyrirtækisskipulagið, þar sem Fjármál og mannauður eru deildir undir Stjórnun og Samsetningarinnar og Umbúðir eru deildir í Framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="71a70-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Dæmi um skipulag fyrirtækis](./media/dimension-hierarchy-org.png)
 
-Vídd kostnaðarhluta stendur fyrir alla kostnaðarstaði í fyrirtækinu.
+<span data-ttu-id="71a70-150">Vídd kostnaðarhluta stendur fyrir alla kostnaðarstaði í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="71a70-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Vídd kostnaðarhlutar
-    - Kostnaðarstaðir
+- <span data-ttu-id="71a70-151">Vídd kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="71a70-151">Cost object dimension</span></span>
+    - <span data-ttu-id="71a70-152">Kostnaðarstaðir</span><span class="sxs-lookup"><span data-stu-id="71a70-152">Cost centers</span></span>
 
-Vídd kostnaðarhlutar sem sýnir alla kostnaðarstaði er hægt að setja eins og sýnt er hér.
+<span data-ttu-id="71a70-153">Vídd kostnaðarhlutar sem sýnir alla kostnaðarstaði er hægt að setja eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Kostnaðarstaðir | lýsing |
+| <span data-ttu-id="71a70-154">Kostnaðarstaðir</span><span class="sxs-lookup"><span data-stu-id="71a70-154">Cost centers</span></span> | <span data-ttu-id="71a70-155">lýsing</span><span class="sxs-lookup"><span data-stu-id="71a70-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | Mannauður          |
-| CC002        | Fjármál     |
-| CC003        | Skattur         |
-| CC007        | AR/AP       |
-| CC005        | Smölun    |
-| CC006        | Pakkning   |
+| <span data-ttu-id="71a70-156">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-156">CC001</span></span>        | <span data-ttu-id="71a70-157">Mannauður</span><span class="sxs-lookup"><span data-stu-id="71a70-157">HR</span></span>          |
+| <span data-ttu-id="71a70-158">CC002</span><span class="sxs-lookup"><span data-stu-id="71a70-158">CC002</span></span>        | <span data-ttu-id="71a70-159">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-159">Finance</span></span>     |
+| <span data-ttu-id="71a70-160">CC003</span><span class="sxs-lookup"><span data-stu-id="71a70-160">CC003</span></span>        | <span data-ttu-id="71a70-161">Skattur</span><span class="sxs-lookup"><span data-stu-id="71a70-161">Tax</span></span>         |
+| <span data-ttu-id="71a70-162">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-162">CC007</span></span>        | <span data-ttu-id="71a70-163">AR/AP</span><span class="sxs-lookup"><span data-stu-id="71a70-163">AR/AP</span></span>       |
+| <span data-ttu-id="71a70-164">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-164">CC005</span></span>        | <span data-ttu-id="71a70-165">Smölun</span><span class="sxs-lookup"><span data-stu-id="71a70-165">Assembly</span></span>    |
+| <span data-ttu-id="71a70-166">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-166">CC006</span></span>        | <span data-ttu-id="71a70-167">Pakkning</span><span class="sxs-lookup"><span data-stu-id="71a70-167">Packaging</span></span>   |
 
-Vídd kostnaðareiningar stendur fyrir allar kostnaðareiningar í fyrirtækinu.
+<span data-ttu-id="71a70-168">Vídd kostnaðareiningar stendur fyrir allar kostnaðareiningar í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="71a70-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Vídd kostnaðareiningar
-    - Kostnaðareiningar
+- <span data-ttu-id="71a70-169">Vídd kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-169">Cost element dimension</span></span>
+    - <span data-ttu-id="71a70-170">Kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-170">Cost elements</span></span>
 
-Vídd kostnaðareiningar sem sýnir allar kostnaðareiningar er hægt að setja eins og sýnt er hér.
+<span data-ttu-id="71a70-171">Vídd kostnaðareiningar sem sýnir allar kostnaðareiningar er hægt að setja eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Kostnaðareiningar | lýsing |
+| <span data-ttu-id="71a70-172">Kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-172">Cost elements</span></span> | <span data-ttu-id="71a70-173">lýsing</span><span class="sxs-lookup"><span data-stu-id="71a70-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Rafmagn |
-| 10010         | Hreinsun    |
-| 10011         | Hitun     |
-| 40001         | Kostnaður seldra vara        |
+| <span data-ttu-id="71a70-174">10001</span><span class="sxs-lookup"><span data-stu-id="71a70-174">10001</span></span>         | <span data-ttu-id="71a70-175">Rafmagn</span><span class="sxs-lookup"><span data-stu-id="71a70-175">Electricity</span></span> |
+| <span data-ttu-id="71a70-176">10010</span><span class="sxs-lookup"><span data-stu-id="71a70-176">10010</span></span>         | <span data-ttu-id="71a70-177">Hreinsun</span><span class="sxs-lookup"><span data-stu-id="71a70-177">Cleaning</span></span>    |
+| <span data-ttu-id="71a70-178">10011</span><span class="sxs-lookup"><span data-stu-id="71a70-178">10011</span></span>         | <span data-ttu-id="71a70-179">Hitun</span><span class="sxs-lookup"><span data-stu-id="71a70-179">Heating</span></span>     |
+| <span data-ttu-id="71a70-180">40001</span><span class="sxs-lookup"><span data-stu-id="71a70-180">40001</span></span>         | <span data-ttu-id="71a70-181">Kostnaður seldra vara</span><span class="sxs-lookup"><span data-stu-id="71a70-181">COGS</span></span>        |
 
-Víddastigveldi sem uppfyllir skipulags tilkynningarskyldu hægt er að setja eins og sýnt er hér.
+<span data-ttu-id="71a70-182">Víddastigveldi sem uppfyllir skipulags tilkynningarskyldu hægt er að setja eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Upplýsingar um víddarstigveldi**
+<span data-ttu-id="71a70-183">**Upplýsingar um víddarstigveldi**</span><span class="sxs-lookup"><span data-stu-id="71a70-183">**Dimension hierarchy details**</span></span>
 
-| Heiti víddarstigveldis | Vídd    | Heiti gerðar víddarstigveldis      | Stigveldi aðgangslista |
+| <span data-ttu-id="71a70-184">Heiti víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-184">Dimension hierarchy name</span></span> | <span data-ttu-id="71a70-185">Vídd</span><span class="sxs-lookup"><span data-stu-id="71a70-185">Dimension</span></span>    | <span data-ttu-id="71a70-186">Heiti gerðar víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="71a70-187">Stigveldi aðgangslista</span><span class="sxs-lookup"><span data-stu-id="71a70-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Fyrirtæki             | Kostnaðarstaðir | Stigveldi víddaflokkunar | Númer                    |
+| <span data-ttu-id="71a70-188">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-188">Organization</span></span>             | <span data-ttu-id="71a70-189">Kostnaðarstaðir</span><span class="sxs-lookup"><span data-stu-id="71a70-189">Cost centers</span></span> | <span data-ttu-id="71a70-190">Stigveldi víddaflokkunar</span><span class="sxs-lookup"><span data-stu-id="71a70-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="71a70-191">Númer</span><span class="sxs-lookup"><span data-stu-id="71a70-191">No</span></span>                    |
 
-Hægt er að setja upp víddastigveldi fyrir skýrslugerð eins og sýnt er hér.
+<span data-ttu-id="71a70-192">Hægt er að setja upp víddastigveldi fyrir skýrslugerð eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Svið víddarstaks   |                         |
+|                   | <span data-ttu-id="71a70-193">Svið víddarstaks</span><span class="sxs-lookup"><span data-stu-id="71a70-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Hnútar**         | **Úr víddarstaki** | **Til víddarstaks** |
-| Fyrirtæki      |                           |                         |
-| &nbsp;&nbsp;Stjórnandi         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Mannauður        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Framleiðsla    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakkning | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Smölun  | CC006                     | CC006                   |
+| <span data-ttu-id="71a70-194">**Hnútar**</span><span class="sxs-lookup"><span data-stu-id="71a70-194">**Nodes**</span></span>         | <span data-ttu-id="71a70-195">**Úr víddarstaki**</span><span class="sxs-lookup"><span data-stu-id="71a70-195">**From dimension member**</span></span> | <span data-ttu-id="71a70-196">**Til víddarstaks**</span><span class="sxs-lookup"><span data-stu-id="71a70-196">**To dimension member**</span></span> |
+| <span data-ttu-id="71a70-197">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="71a70-198">&nbsp;&nbsp;Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="71a70-199">&nbsp;&nbsp;&nbsp;&nbsp;Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="71a70-200">CC002</span><span class="sxs-lookup"><span data-stu-id="71a70-200">CC002</span></span>                     | <span data-ttu-id="71a70-201">CC003</span><span class="sxs-lookup"><span data-stu-id="71a70-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="71a70-202">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-202">CC007</span></span>                     | <span data-ttu-id="71a70-203">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-203">CC007</span></span>                   |
+| <span data-ttu-id="71a70-204">&nbsp;&nbsp;&nbsp;&nbsp;Mannauður</span><span class="sxs-lookup"><span data-stu-id="71a70-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="71a70-205">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-205">CC001</span></span>                     | <span data-ttu-id="71a70-206">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-206">CC001</span></span>                   |
+| <span data-ttu-id="71a70-207">&nbsp;&nbsp;Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="71a70-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="71a70-208">&nbsp;&nbsp;&nbsp;&nbsp;Pakkning</span><span class="sxs-lookup"><span data-stu-id="71a70-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="71a70-209">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-209">CC005</span></span>                     | <span data-ttu-id="71a70-210">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-210">CC005</span></span>                   |
+| <span data-ttu-id="71a70-211">&nbsp;&nbsp;&nbsp;&nbsp;Smölun</span><span class="sxs-lookup"><span data-stu-id="71a70-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="71a70-212">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-212">CC006</span></span>                     | <span data-ttu-id="71a70-213">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-213">CC006</span></span>                   |
 
-Víddastigveldi sem uppfyllir reglur er hægt að setja upp eins og sýnt er hér.
+<span data-ttu-id="71a70-214">Víddastigveldi sem uppfyllir reglur er hægt að setja upp eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Upplýsingar um víddarstigveldi**
+<span data-ttu-id="71a70-215">**Upplýsingar um víddarstigveldi**</span><span class="sxs-lookup"><span data-stu-id="71a70-215">**Dimension hierarchy details**</span></span>
 
-| Heiti víddarstigveldis | Vídd     | Heiti gerðar víddarstigveldis      |
+| <span data-ttu-id="71a70-216">Heiti víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-216">Dimension hierarchy name</span></span> | <span data-ttu-id="71a70-217">Vídd</span><span class="sxs-lookup"><span data-stu-id="71a70-217">Dimension</span></span>     | <span data-ttu-id="71a70-218">Heiti gerðar víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Kostnaðarhegðun            | Kostnaðareiningar | Stigveldi víddaflokkunar |
+| <span data-ttu-id="71a70-219">Kostnaðarhegðun</span><span class="sxs-lookup"><span data-stu-id="71a70-219">Cost behavior</span></span>            | <span data-ttu-id="71a70-220">Kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-220">Cost elements</span></span> | <span data-ttu-id="71a70-221">Stigveldi víddaflokkunar</span><span class="sxs-lookup"><span data-stu-id="71a70-221">Dimension classification hierarchy</span></span> |
 
-Hægt er að setja upp víddastigveldi fyrir regluna eins og sýnt er hér.
+<span data-ttu-id="71a70-222">Hægt er að setja upp víddastigveldi fyrir regluna eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Svið víddarstaks   |                         |
+|                   | <span data-ttu-id="71a70-223">Svið víddarstaks</span><span class="sxs-lookup"><span data-stu-id="71a70-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Hnútar**         | **Úr víddarstaki** | **Til víddarstaks** |
-| Kostnaðarhegðun     |                           |                         |
-| &nbsp;&nbsp;Fastur kostnaður    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Breytilegur kostnaður | 40001                     | 40010                   |
+| <span data-ttu-id="71a70-224">**Hnútar**</span><span class="sxs-lookup"><span data-stu-id="71a70-224">**Nodes**</span></span>         | <span data-ttu-id="71a70-225">**Úr víddarstaki**</span><span class="sxs-lookup"><span data-stu-id="71a70-225">**From dimension member**</span></span> | <span data-ttu-id="71a70-226">**Til víddarstaks**</span><span class="sxs-lookup"><span data-stu-id="71a70-226">**To dimension member**</span></span> |
+| <span data-ttu-id="71a70-227">Kostnaðarhegðun</span><span class="sxs-lookup"><span data-stu-id="71a70-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="71a70-228">&nbsp;&nbsp;Fastur kostnaður</span><span class="sxs-lookup"><span data-stu-id="71a70-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="71a70-229">10001</span><span class="sxs-lookup"><span data-stu-id="71a70-229">10001</span></span>                     | <span data-ttu-id="71a70-230">10011</span><span class="sxs-lookup"><span data-stu-id="71a70-230">10011</span></span>                   |
+|<span data-ttu-id="71a70-231">&nbsp;&nbsp;Breytilegur kostnaður</span><span class="sxs-lookup"><span data-stu-id="71a70-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="71a70-232">40001</span><span class="sxs-lookup"><span data-stu-id="71a70-232">40001</span></span>                     | <span data-ttu-id="71a70-233">40010</span><span class="sxs-lookup"><span data-stu-id="71a70-233">40010</span></span>                   |
 
 > [!NOTE]
-> Undir **Bil víddarstaka** getur hnútur innihaldið 1:_n_ bil víddarstaka. Hægt er að setja inn kenni víddarstaka sem eru ekki enn fyrir hendi sem víddarstök. Þessi aðferð gerir stigveldi endingargott fyrir seinni tíma.  
+> <span data-ttu-id="71a70-234">Undir **Bil víddarstaka** getur hnútur innihaldið 1:_n_ bil víddarstaka.</span><span class="sxs-lookup"><span data-stu-id="71a70-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="71a70-235">Hægt er að setja inn kenni víddarstaka sem eru ekki enn fyrir hendi sem víddarstök.</span><span class="sxs-lookup"><span data-stu-id="71a70-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="71a70-236">Þessi aðferð gerir stigveldi endingargott fyrir seinni tíma.</span><span class="sxs-lookup"><span data-stu-id="71a70-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Afrita stigveldi
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="71a70-237">Afrita stigveldi</span><span class="sxs-lookup"><span data-stu-id="71a70-237">Copy a hierarchy</span></span>
 
-Hægt er að afrita gildandi víddastigveldi sem upphafspunkt fyrir nýtt víddastigveldi. Þessi aðferð getur verið gagnleg ef vilji er til að bera saman fyrri víddastigveldi við nýtt víddastigveldi.
+<span data-ttu-id="71a70-238">Hægt er að afrita gildandi víddastigveldi sem upphafspunkt fyrir nýtt víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="71a70-239">Þessi aðferð getur verið gagnleg ef vilji er til að bera saman fyrri víddastigveldi við nýtt víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Endurraða hnútum í stigveldi
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="71a70-240">Endurraða hnútum í stigveldi</span><span class="sxs-lookup"><span data-stu-id="71a70-240">Rearrange nodes in a hierarchy</span></span>
 
-Hægt er að færa hnút upp og niður innan núgildandi stigs í uppbyggingu. Á þennan hátt er hægt að endurraða hnútum fyrir skýrslugerð á vinnusvæðinu **Kostnaðarstjórnun**.
+<span data-ttu-id="71a70-241">Hægt er að færa hnút upp og niður innan núgildandi stigs í uppbyggingu.</span><span class="sxs-lookup"><span data-stu-id="71a70-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="71a70-242">Á þennan hátt er hægt að endurraða hnútum fyrir skýrslugerð á vinnusvæðinu **Kostnaðarstjórnun**.</span><span class="sxs-lookup"><span data-stu-id="71a70-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Þú færir hnút í nýja staðsetningu í stigveldinu með því að velja markhnútinn. Tvær leiðir eru til að færa hnút:
+<span data-ttu-id="71a70-243">Þú færir hnút í nýja staðsetningu í stigveldinu með því að velja markhnútinn.</span><span class="sxs-lookup"><span data-stu-id="71a70-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="71a70-244">Tvær leiðir eru til að færa hnút:</span><span class="sxs-lookup"><span data-stu-id="71a70-244">There are two ways to move a node:</span></span>
 
-- **Færa niður fyrir** – Færið valinn hnút úr gildandi stöðu í stigveldinu og setjið hann **undir** valinn markhnút.
-- **Færa aftur fyrir** – Færið valinn hnút úr gildandi stöðu í stigveldinu og setjið hann **aftur fyrir** valinn markhnút á stigi sínu í víddastigveldi.
+- <span data-ttu-id="71a70-245">**Færa niður fyrir** – Færið valinn hnút úr gildandi stöðu í stigveldinu og setjið hann **undir** valinn markhnút.</span><span class="sxs-lookup"><span data-stu-id="71a70-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="71a70-246">**Færa aftur fyrir** – Færið valinn hnút úr gildandi stöðu í stigveldinu og setjið hann **aftur fyrir** valinn markhnút á stigi sínu í víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Röð hnúta er ekki viðhaldið þegar gögn eru flutt út í Excel- eða Power BI, þar sem þau verkfæri nota staftöluröðun sjálfgefið. Það ætti að endurraða pöntuninni handvirkt.
+> <span data-ttu-id="71a70-247">Röð hnúta er ekki viðhaldið þegar gögn eru flutt út í Excel- eða Power BI, þar sem þau verkfæri nota staftöluröðun sjálfgefið.</span><span class="sxs-lookup"><span data-stu-id="71a70-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="71a70-248">Það ætti að endurraða pöntuninni handvirkt.</span><span class="sxs-lookup"><span data-stu-id="71a70-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Skilgreina víddastigveldi fyrir skýrslugerð
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="71a70-249">Skilgreina víddastigveldi fyrir skýrslugerð</span><span class="sxs-lookup"><span data-stu-id="71a70-249">Define dimension hierarchies for reporting</span></span>
 
-Víddastigveldi eru mikilvæg fyrir skýrslugerð. Þau gera mögulegt að skilgreina ákveðið skipulag sem passar inn í einstök fyrirtæki. Uppsafnanirnar sem gerðar eru við hnútastig í stigveldi láta hagsmunaaðila á öllum stigum fyrirtækisins sjá gögn á öllum stigum.
+<span data-ttu-id="71a70-250">Víddastigveldi eru mikilvæg fyrir skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="71a70-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="71a70-251">Þau gera mögulegt að skilgreina ákveðið skipulag sem passar inn í einstök fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="71a70-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="71a70-252">Uppsafnanirnar sem gerðar eru við hnútastig í stigveldi láta hagsmunaaðila á öllum stigum fyrirtækisins sjá gögn á öllum stigum.</span><span class="sxs-lookup"><span data-stu-id="71a70-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Víddastigveldi eru tiltæk í eftirfarandi skýrslutækjum. Þessi aðferð hjálpar til við að tryggja samræmi í skýrslugerð.
+<span data-ttu-id="71a70-253">Víddastigveldi eru tiltæk í eftirfarandi skýrslutækjum.</span><span class="sxs-lookup"><span data-stu-id="71a70-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="71a70-254">Þessi aðferð hjálpar til við að tryggja samræmi í skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="71a70-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- Vinnusvæðið **Kostnaðarstýring** (Biðlari):
+- <span data-ttu-id="71a70-255">Vinnusvæðið **Kostnaðarstýring** (Biðlari):</span><span class="sxs-lookup"><span data-stu-id="71a70-255">**Cost control** workspace (Client):</span></span>
 
-    - Stýrt af samskipan.
+    - <span data-ttu-id="71a70-256">Stýrt af samskipan.</span><span class="sxs-lookup"><span data-stu-id="71a70-256">Controlled by configuration.</span></span>
 
-- Vinnusvæði **kostnaðarstýringar** (fartækjaforrit):
+- <span data-ttu-id="71a70-257">Vinnusvæði **kostnaðarstýringar** (fartækjaforrit):</span><span class="sxs-lookup"><span data-stu-id="71a70-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Stýrt af samskipan.
+    - <span data-ttu-id="71a70-258">Stýrt af samskipan.</span><span class="sxs-lookup"><span data-stu-id="71a70-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="71a70-259">Excel</span><span class="sxs-lookup"><span data-stu-id="71a70-259">Excel</span></span>
 
-    - Býður upp á að velja tiltekið víddastigveldi á skilgreiningu útflutnings:
+    - <span data-ttu-id="71a70-260">Býður upp á að velja tiltekið víddastigveldi á skilgreiningu útflutnings:</span><span class="sxs-lookup"><span data-stu-id="71a70-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Eitt víddarstigveldi kostnaðareiningar (skylda)
-        - Eitt víddarstigveldi kostnaðarhlutar (valfrjálst)
-        - Eitt tölfræðilegt víddarstigveldi (valfrjálst)
+        - <span data-ttu-id="71a70-261">Eitt víddarstigveldi kostnaðareiningar (skylda)</span><span class="sxs-lookup"><span data-stu-id="71a70-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="71a70-262">Eitt víddarstigveldi kostnaðarhlutar (valfrjálst)</span><span class="sxs-lookup"><span data-stu-id="71a70-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="71a70-263">Eitt tölfræðilegt víddarstigveldi (valfrjálst)</span><span class="sxs-lookup"><span data-stu-id="71a70-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="71a70-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="71a70-264">Power BI:</span></span>
 
-    - Öll víddastigveldi eru tiltæk.
+    - <span data-ttu-id="71a70-265">Öll víddastigveldi eru tiltæk.</span><span class="sxs-lookup"><span data-stu-id="71a70-265">All dimension hierarchies are available.</span></span>
     
-Ef þú stofnar skýrslur með því að nota Excel eða Power BI eru aðeins fyrstu 15 stig í stigveldi flutt út. Þessi takmörkun er til staðar þar sem Excel og Power BI krefjast fasts skema. Ef stigveldi hefur fleiri en 15 stig verða aukastigin ekki flutt út. Stöðluð tafla inniheldur færslu fyrir hvert víddarstak í stigveldinu. Þess vegna verður sjálfvirk uppsöfnun. Þessi hegðun hjálpar til við að tryggja samræmda stöðu á hvern 15 tiltæk stig í stigveldinu eru enn rétt.
+<span data-ttu-id="71a70-266">Ef þú stofnar skýrslur með því að nota Excel eða Power BI eru aðeins fyrstu 15 stig í stigveldi flutt út.</span><span class="sxs-lookup"><span data-stu-id="71a70-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="71a70-267">Þessi takmörkun er til staðar þar sem Excel og Power BI krefjast fasts skema.</span><span class="sxs-lookup"><span data-stu-id="71a70-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="71a70-268">Ef stigveldi hefur fleiri en 15 stig verða aukastigin ekki flutt út.</span><span class="sxs-lookup"><span data-stu-id="71a70-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="71a70-269">Stöðluð tafla inniheldur færslu fyrir hvert víddarstak í stigveldinu.</span><span class="sxs-lookup"><span data-stu-id="71a70-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="71a70-270">Þess vegna verður sjálfvirk uppsöfnun.</span><span class="sxs-lookup"><span data-stu-id="71a70-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="71a70-271">Þessi hegðun hjálpar til við að tryggja samræmda stöðu á hvern 15 tiltæk stig í stigveldinu eru enn rétt.</span><span class="sxs-lookup"><span data-stu-id="71a70-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Eftirfarandi dæmi sýnir hvernig víddastigveldi gæti litið út í uppbyggingu skýrslu.
+<span data-ttu-id="71a70-272">Eftirfarandi dæmi sýnir hvernig víddastigveldi gæti litið út í uppbyggingu skýrslu.</span><span class="sxs-lookup"><span data-stu-id="71a70-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Víddarstigveldi kostnaðarhlutar - Stig 1 | Víddarstigveldi kostnaðarhlutar - Stig 2 | Víddarstigveldi kostnaðarhlutar - Stig 3 | Víddarstigveldi kostnaðarhlutar - Stig 4 | Víddarstigveldi kostnaðarhlutar - Stig 15 |
+| <span data-ttu-id="71a70-273">Víddarstigveldi kostnaðarhlutar - Stig 1</span><span class="sxs-lookup"><span data-stu-id="71a70-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="71a70-274">Víddarstigveldi kostnaðarhlutar - Stig 2</span><span class="sxs-lookup"><span data-stu-id="71a70-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="71a70-275">Víddarstigveldi kostnaðarhlutar - Stig 3</span><span class="sxs-lookup"><span data-stu-id="71a70-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="71a70-276">Víddarstigveldi kostnaðarhlutar - Stig 4</span><span class="sxs-lookup"><span data-stu-id="71a70-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="71a70-277">Víddarstigveldi kostnaðarhlutar - Stig 15</span><span class="sxs-lookup"><span data-stu-id="71a70-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC002                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC003                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC007                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Mannauður                                        | CC001                                     |                                            |
-| Fyrirtæki                              | Framleiðsla                                | Pakkning                                 | CC005                                     |                                            |
-| Fyrirtæki                              | Framleiðsla                                | Smölun                                  | CC006                                     |                                            |
+| <span data-ttu-id="71a70-278">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-278">Organization</span></span>                              | <span data-ttu-id="71a70-279">Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-279">Admin</span></span>                                     | <span data-ttu-id="71a70-280">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-280">Finance</span></span>                                   | <span data-ttu-id="71a70-281">CC002</span><span class="sxs-lookup"><span data-stu-id="71a70-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="71a70-282">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-282">Organization</span></span>                              | <span data-ttu-id="71a70-283">Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-283">Admin</span></span>                                     | <span data-ttu-id="71a70-284">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-284">Finance</span></span>                                   | <span data-ttu-id="71a70-285">CC003</span><span class="sxs-lookup"><span data-stu-id="71a70-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="71a70-286">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-286">Organization</span></span>                              | <span data-ttu-id="71a70-287">Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-287">Admin</span></span>                                     | <span data-ttu-id="71a70-288">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-288">Finance</span></span>                                   | <span data-ttu-id="71a70-289">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="71a70-290">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-290">Organization</span></span>                              | <span data-ttu-id="71a70-291">Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-291">Admin</span></span>                                     | <span data-ttu-id="71a70-292">Mannauður</span><span class="sxs-lookup"><span data-stu-id="71a70-292">HR</span></span>                                        | <span data-ttu-id="71a70-293">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="71a70-294">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-294">Organization</span></span>                              | <span data-ttu-id="71a70-295">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="71a70-295">Production</span></span>                                | <span data-ttu-id="71a70-296">Pakkning</span><span class="sxs-lookup"><span data-stu-id="71a70-296">Packaging</span></span>                                 | <span data-ttu-id="71a70-297">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="71a70-298">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-298">Organization</span></span>                              | <span data-ttu-id="71a70-299">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="71a70-299">Production</span></span>                                | <span data-ttu-id="71a70-300">Smölun</span><span class="sxs-lookup"><span data-stu-id="71a70-300">Assembly</span></span>                                  | <span data-ttu-id="71a70-301">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Uppfæra víddastigveldi sem eru notuð fyrir skýrslugerð 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="71a70-302">Uppfæra víddastigveldi sem eru notuð fyrir skýrslugerð</span><span class="sxs-lookup"><span data-stu-id="71a70-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Með tímanum verður að uppfæra víddastigveldi sem eru notuð í áður nefndum skýrslugerðarverkfærum. Hægt er að uppfæra víddastigveldi með endurnýjun biðlara.
+<span data-ttu-id="71a70-303">Með tímanum verður að uppfæra víddastigveldi sem eru notuð í áður nefndum skýrslugerðarverkfærum.</span><span class="sxs-lookup"><span data-stu-id="71a70-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="71a70-304">Hægt er að uppfæra víddastigveldi með endurnýjun biðlara.</span><span class="sxs-lookup"><span data-stu-id="71a70-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- Vinnusvæðið **Kostnaðarstýring** (Biðlari)
-- Vinnusvæði **kostnaðarstýringar** (fartækjaforrit)
+- <span data-ttu-id="71a70-305">Vinnusvæðið **Kostnaðarstýring** (Biðlari)</span><span class="sxs-lookup"><span data-stu-id="71a70-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="71a70-306">Vinnusvæði **kostnaðarstýringar** (fartækjaforrit)</span><span class="sxs-lookup"><span data-stu-id="71a70-306">**Cost control** workspace (Mobile application)</span></span>
 
-Uppfærslur á víddastigveldi eru tínd á 24 tíma fresti af áður vistaðri vinnslu. Eftir að útflutt gögn eru uppfærð eru uppfærð víddastigveldi tiltæk í eftirfarandi verkfærum:
+<span data-ttu-id="71a70-307">Uppfærslur á víddastigveldi eru tínd á 24 tíma fresti af áður vistaðri vinnslu.</span><span class="sxs-lookup"><span data-stu-id="71a70-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="71a70-308">Eftir að útflutt gögn eru uppfærð eru uppfærð víddastigveldi tiltæk í eftirfarandi verkfærum:</span><span class="sxs-lookup"><span data-stu-id="71a70-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="71a70-309">Excel</span><span class="sxs-lookup"><span data-stu-id="71a70-309">Excel</span></span>
+- <span data-ttu-id="71a70-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="71a70-310">Power BI</span></span>
 
 > [!NOTE] 
-> Til að kalla fram uppfærslu á skyndiminni víddastigveldi handvirkt, er hægt að stofna nýjar útflutning í Excel fyrir víddastigveldi eða stigveldi sem þarf að uppfæra.
+> <span data-ttu-id="71a70-311">Til að kalla fram uppfærslu á skyndiminni víddastigveldi handvirkt, er hægt að stofna nýjar útflutning í Excel fyrir víddastigveldi eða stigveldi sem þarf að uppfæra.</span><span class="sxs-lookup"><span data-stu-id="71a70-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Skilgreina víddastigveldi fyrir kostnaðarreglur
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="71a70-312">Skilgreina víddastigveldi fyrir kostnaðarreglur</span><span class="sxs-lookup"><span data-stu-id="71a70-312">Define dimension hierarchies for cost policies</span></span>
 
-Kostnaðarbókhald samanstendur af mörgum reglum þar sem ítarlegar reglur eru skilgreindar. Það verður að skilgreina eitt eða fleiri víddastigveldi reglna fyrir eftirfarandi reglur:
+<span data-ttu-id="71a70-313">Kostnaðarbókhald samanstendur af mörgum reglum þar sem ítarlegar reglur eru skilgreindar.</span><span class="sxs-lookup"><span data-stu-id="71a70-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="71a70-314">Það verður að skilgreina eitt eða fleiri víddastigveldi reglna fyrir eftirfarandi reglur:</span><span class="sxs-lookup"><span data-stu-id="71a70-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Kostnaðarhegðun
-- Kostnaðardreifing
-- Kostnaðarúthlutun
-- Samantekt kostnaðar
+- <span data-ttu-id="71a70-315">Kostnaðarhegðun</span><span class="sxs-lookup"><span data-stu-id="71a70-315">Cost behavior</span></span>
+- <span data-ttu-id="71a70-316">Kostnaðardreifing</span><span class="sxs-lookup"><span data-stu-id="71a70-316">Cost distribution</span></span>
+- <span data-ttu-id="71a70-317">Kostnaðarúthlutun</span><span class="sxs-lookup"><span data-stu-id="71a70-317">Cost allocation</span></span>
+- <span data-ttu-id="71a70-318">Samantekt kostnaðar</span><span class="sxs-lookup"><span data-stu-id="71a70-318">Cost rollup</span></span>
 
-Víddastigveldi auðvelda stofnun á reglum. Til að komast hjá því að stofna reglur fyrir hverja vídd, er hægt nýta uppsafnanir yfir víddarstök sem veitt eru af stigum víddastigvelda. Ef reglur skarast, verður að skilgreina tilteknar reglur sem kerfið mun hafa í huga þegar það reiknar út fastakostnað.
+<span data-ttu-id="71a70-319">Víddastigveldi auðvelda stofnun á reglum.</span><span class="sxs-lookup"><span data-stu-id="71a70-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="71a70-320">Til að komast hjá því að stofna reglur fyrir hverja vídd, er hægt nýta uppsafnanir yfir víddarstök sem veitt eru af stigum víddastigvelda.</span><span class="sxs-lookup"><span data-stu-id="71a70-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="71a70-321">Ef reglur skarast, verður að skilgreina tilteknar reglur sem kerfið mun hafa í huga þegar það reiknar út fastakostnað.</span><span class="sxs-lookup"><span data-stu-id="71a70-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Dæmi: Tilgreina reglu kostnaðarhegðunar
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="71a70-322">Dæmi: Tilgreina reglu kostnaðarhegðunar</span><span class="sxs-lookup"><span data-stu-id="71a70-322">Example: Define a cost behavior policy</span></span>
 
-Ný regla kostnaðarhegðunar er stofnuð og viðeigandi víddastigveldi er úthlutað á þá reglu, eins og sýnt er hér.
+<span data-ttu-id="71a70-323">Ný regla kostnaðarhegðunar er stofnuð og viðeigandi víddastigveldi er úthlutað á þá reglu, eins og sýnt er hér.</span><span class="sxs-lookup"><span data-stu-id="71a70-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Regla kostnaðarhegðunar**
+<span data-ttu-id="71a70-324">**Regla kostnaðarhegðunar**</span><span class="sxs-lookup"><span data-stu-id="71a70-324">**Cost behavior policy**</span></span>
 
-| Stefnuheiti   | Víddarstigveldi kostnaðareiningar | Víddarstigveldi kostnaðarhlutar | Bókhaldsgjaldmiðill |
+| <span data-ttu-id="71a70-325">Stefnuheiti</span><span class="sxs-lookup"><span data-stu-id="71a70-325">Policy name</span></span>   | <span data-ttu-id="71a70-326">Víddarstigveldi kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="71a70-327">Víddarstigveldi kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="71a70-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="71a70-328">Bókhaldsgjaldmiðill</span><span class="sxs-lookup"><span data-stu-id="71a70-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Kostnaðarhegðun | Kostnaðarhegðun                    | Fyrirtæki                    | USD                 |
+| <span data-ttu-id="71a70-329">Kostnaðarhegðun</span><span class="sxs-lookup"><span data-stu-id="71a70-329">Cost behavior</span></span> | <span data-ttu-id="71a70-330">Kostnaðarhegðun</span><span class="sxs-lookup"><span data-stu-id="71a70-330">Cost behavior</span></span>                    | <span data-ttu-id="71a70-331">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-331">Organization</span></span>                    | <span data-ttu-id="71a70-332">USD</span><span class="sxs-lookup"><span data-stu-id="71a70-332">USD</span></span>                 |
 
-**Reglur**
+<span data-ttu-id="71a70-333">**Reglur**</span><span class="sxs-lookup"><span data-stu-id="71a70-333">**Rules**</span></span>
 
-| Hnútur á víddarstigveldi kostnaðareiningar | Hnútur á víddarstigveldi kostnaðarhlutar | Föst prósenta | Föst upphæð | Gildir frá | Gildir til |
+| <span data-ttu-id="71a70-334">Hnútur á víddarstigveldi kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="71a70-335">Hnútur á víddarstigveldi kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="71a70-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="71a70-336">Föst prósenta</span><span class="sxs-lookup"><span data-stu-id="71a70-336">Fixed percentage</span></span> | <span data-ttu-id="71a70-337">Föst upphæð</span><span class="sxs-lookup"><span data-stu-id="71a70-337">Fixed amount</span></span> | <span data-ttu-id="71a70-338">Gildir frá</span><span class="sxs-lookup"><span data-stu-id="71a70-338">Valid from</span></span> | <span data-ttu-id="71a70-339">Gildir til</span><span class="sxs-lookup"><span data-stu-id="71a70-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Fastur kostnaður                            | Fyrirtæki                         | 100,00           | 0,00         | 1/1/2017   | Aldrei    |
-| 10001                                 | Fyrirtæki                         | 0,00             | 150.00       | 1/1/2017   | Aldrei    |
-| 10001 (\*)                             | Fjármál                              |                  | 50,00        | 1/1/2017   | Aldrei    |
-| Kostnaðarhegðun eða Breytilegan kostnað (\*\*)   | Fyrirtæki                         | 0,00             | 0,00         | 1/1/2017   | Aldrei    |
+| <span data-ttu-id="71a70-340">Fastur kostnaður</span><span class="sxs-lookup"><span data-stu-id="71a70-340">Fixed cost</span></span>                            | <span data-ttu-id="71a70-341">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-341">Organization</span></span>                         | <span data-ttu-id="71a70-342">100,00</span><span class="sxs-lookup"><span data-stu-id="71a70-342">100.00</span></span>           | <span data-ttu-id="71a70-343">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-343">0.00</span></span>         | <span data-ttu-id="71a70-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-344">1/1/2017</span></span>   | <span data-ttu-id="71a70-345">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-345">Never</span></span>    |
+| <span data-ttu-id="71a70-346">10001</span><span class="sxs-lookup"><span data-stu-id="71a70-346">10001</span></span>                                 | <span data-ttu-id="71a70-347">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-347">Organization</span></span>                         | <span data-ttu-id="71a70-348">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-348">0.00</span></span>             | <span data-ttu-id="71a70-349">150.00</span><span class="sxs-lookup"><span data-stu-id="71a70-349">150.00</span></span>       | <span data-ttu-id="71a70-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-350">1/1/2017</span></span>   | <span data-ttu-id="71a70-351">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-351">Never</span></span>    |
+| <span data-ttu-id="71a70-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="71a70-352">10001 (\*)</span></span>                             | <span data-ttu-id="71a70-353">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-353">Finance</span></span>                              |                  | <span data-ttu-id="71a70-354">50,00</span><span class="sxs-lookup"><span data-stu-id="71a70-354">50.00</span></span>        | <span data-ttu-id="71a70-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-355">1/1/2017</span></span>   | <span data-ttu-id="71a70-356">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-356">Never</span></span>    |
+| <span data-ttu-id="71a70-357">Kostnaðarhegðun eða Breytilegan kostnað (\*\*)</span><span class="sxs-lookup"><span data-stu-id="71a70-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="71a70-358">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-358">Organization</span></span>                         | <span data-ttu-id="71a70-359">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-359">0.00</span></span>             | <span data-ttu-id="71a70-360">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-360">0.00</span></span>         | <span data-ttu-id="71a70-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-361">1/1/2017</span></span>   | <span data-ttu-id="71a70-362">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-362">Never</span></span>    |
 
-\* Hnútur breytilegs kostnaðar er ekki nauðsynlegur. Ef kostnaður er ekki flokkaður sem fastakostnaður, verður að vera breytilegan kostnað.
+<span data-ttu-id="71a70-363">\* Hnútur breytilegs kostnaðar er ekki nauðsynlegur.</span><span class="sxs-lookup"><span data-stu-id="71a70-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="71a70-364">Ef kostnaður er ekki flokkaður sem fastakostnaður, verður að vera breytilegan kostnað.</span><span class="sxs-lookup"><span data-stu-id="71a70-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Ítarlega regla er stofnuð fyrir samsetningar á kostnaði einingarinnar stak 10001 og alla kostnaðarflokka stökum þjónustuhlutar sem eru tekin saman í á Fjármál stigsveldisstig (CC002 CC003, CC007).
+<span data-ttu-id="71a70-365">\*\* Ítarlega regla er stofnuð fyrir samsetningar á kostnaði einingarinnar stak 10001 og alla kostnaðarflokka stökum þjónustuhlutar sem eru tekin saman í á Fjármál stigsveldisstig (CC002 CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="71a70-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Fyrrgreindar reglur sýna sveigjanleika sem víddastigveldi veita. Með því að skilgreina reglur á háu stigi er hægt að lágmarka viðhald. Síðan er hægt að skilgreina nákvæmar relgur sem passa í tilteknum viðskiptum markmið.
+<span data-ttu-id="71a70-366">Fyrrgreindar reglur sýna sveigjanleika sem víddastigveldi veita.</span><span class="sxs-lookup"><span data-stu-id="71a70-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="71a70-367">Með því að skilgreina reglur á háu stigi er hægt að lágmarka viðhald.</span><span class="sxs-lookup"><span data-stu-id="71a70-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="71a70-368">Síðan er hægt að skilgreina nákvæmar relgur sem passa í tilteknum viðskiptum markmið.</span><span class="sxs-lookup"><span data-stu-id="71a70-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Ef víddastigveldi sem eru notuð í reglur eru uppfærð færir kerfið uppfærslurnar sjálfkrafa áfram.
+<span data-ttu-id="71a70-369">Ef víddastigveldi sem eru notuð í reglur eru uppfærð færir kerfið uppfærslurnar sjálfkrafa áfram.</span><span class="sxs-lookup"><span data-stu-id="71a70-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Ef ekki er lengur þörf á grófleikastigi í reglunum er hægt að afskrifa regluna.
+<span data-ttu-id="71a70-370">Ef ekki er lengur þörf á grófleikastigi í reglunum er hægt að afskrifa regluna.</span><span class="sxs-lookup"><span data-stu-id="71a70-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Til dæmis er ekki lengur þörf á hegðun reglu tilgreindan kostnað Fjármál kostnað hlutar vídd stigveldi hnútar. Í þessu tilfelli þarf að smella á **Afskrifa reglu** að afskrifa regluna.
+<span data-ttu-id="71a70-371">Til dæmis er ekki lengur þörf á hegðun reglu tilgreindan kostnað Fjármál kostnað hlutar vídd stigveldi hnútar.</span><span class="sxs-lookup"><span data-stu-id="71a70-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="71a70-372">Í þessu tilfelli þarf að smella á **Afskrifa reglu** að afskrifa regluna.</span><span class="sxs-lookup"><span data-stu-id="71a70-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Hnútur á víddarstigveldi kostnaðareiningar | Hnútur á víddarstigveldi kostnaðarhlutar | Föst prósenta | Föst upphæð | Gildir frá | Gildir til  |
+| <span data-ttu-id="71a70-373">Hnútur á víddarstigveldi kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="71a70-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="71a70-374">Hnútur á víddarstigveldi kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="71a70-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="71a70-375">Föst prósenta</span><span class="sxs-lookup"><span data-stu-id="71a70-375">Fixed percentage</span></span> | <span data-ttu-id="71a70-376">Föst upphæð</span><span class="sxs-lookup"><span data-stu-id="71a70-376">Fixed amount</span></span> | <span data-ttu-id="71a70-377">Gildir frá</span><span class="sxs-lookup"><span data-stu-id="71a70-377">Valid from</span></span> | <span data-ttu-id="71a70-378">Gildir til</span><span class="sxs-lookup"><span data-stu-id="71a70-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Fastur kostnaður                            | Fyrirtæki                         | 100,00           | 0,00         | 1/1/2017   | Aldrei     |
-| 10001                                 | Fyrirtæki                         | 0,00             | 150,00       | 1/1/2017   | Aldrei     |
-| 10001                                 | Fjármál                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Kostnaðarhegðun eða Breytilegan kostnað        | Fyrirtæki                         | 0,00             | 0,00         | 1/1/2017   | Aldrei     |
+| <span data-ttu-id="71a70-379">Fastur kostnaður</span><span class="sxs-lookup"><span data-stu-id="71a70-379">Fixed cost</span></span>                            | <span data-ttu-id="71a70-380">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-380">Organization</span></span>                         | <span data-ttu-id="71a70-381">100,00</span><span class="sxs-lookup"><span data-stu-id="71a70-381">100,00</span></span>           | <span data-ttu-id="71a70-382">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-382">0,00</span></span>         | <span data-ttu-id="71a70-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-383">1/1/2017</span></span>   | <span data-ttu-id="71a70-384">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-384">Never</span></span>     |
+| <span data-ttu-id="71a70-385">10001</span><span class="sxs-lookup"><span data-stu-id="71a70-385">10001</span></span>                                 | <span data-ttu-id="71a70-386">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-386">Organization</span></span>                         | <span data-ttu-id="71a70-387">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-387">0,00</span></span>             | <span data-ttu-id="71a70-388">150,00</span><span class="sxs-lookup"><span data-stu-id="71a70-388">150,00</span></span>       | <span data-ttu-id="71a70-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-389">1/1/2017</span></span>   | <span data-ttu-id="71a70-390">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-390">Never</span></span>     |
+| <span data-ttu-id="71a70-391">10001</span><span class="sxs-lookup"><span data-stu-id="71a70-391">10001</span></span>                                 | <span data-ttu-id="71a70-392">Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-392">Finance</span></span>                              |                  | <span data-ttu-id="71a70-393">50,00</span><span class="sxs-lookup"><span data-stu-id="71a70-393">50,00</span></span>        | <span data-ttu-id="71a70-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-394">1/1/2017</span></span>   | <span data-ttu-id="71a70-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-395">20/1/2017</span></span> |
+| <span data-ttu-id="71a70-396">Kostnaðarhegðun eða Breytilegan kostnað</span><span class="sxs-lookup"><span data-stu-id="71a70-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="71a70-397">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-397">Organization</span></span>                         | <span data-ttu-id="71a70-398">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-398">0,00</span></span>             | <span data-ttu-id="71a70-399">0,00</span><span class="sxs-lookup"><span data-stu-id="71a70-399">0,00</span></span>         | <span data-ttu-id="71a70-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="71a70-400">1/1/2017</span></span>   | <span data-ttu-id="71a70-401">Aldrei</span><span class="sxs-lookup"><span data-stu-id="71a70-401">Never</span></span>     |
 
-Allar útreikningsformúlur sem eru keyrðar eftir 20. janúar 2017 taka ekki lengur tillit til þessarar reglu.
+<span data-ttu-id="71a70-402">Allar útreikningsformúlur sem eru keyrðar eftir 20. janúar 2017 taka ekki lengur tillit til þessarar reglu.</span><span class="sxs-lookup"><span data-stu-id="71a70-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Retirnir **Gildir frá** og **Gildir til** eru dagsetningarvirkir og tímavirkir. Reglan renna út og keyrt nýtt útreikningsformúlur á þeim sama degi.
+> <span data-ttu-id="71a70-403">Retirnir **Gildir frá** og **Gildir til** eru dagsetningarvirkir og tímavirkir.</span><span class="sxs-lookup"><span data-stu-id="71a70-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="71a70-404">Reglan renna út og keyrt nýtt útreikningsformúlur á þeim sama degi.</span><span class="sxs-lookup"><span data-stu-id="71a70-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Skilgreina víddastigveldi fyrir öryggisuppsetningu
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="71a70-405">Skilgreina víddastigveldi fyrir öryggisuppsetningu</span><span class="sxs-lookup"><span data-stu-id="71a70-405">Define dimension hierarchies for security setup</span></span>
 
-Gögn kostnaðarbókhalds skulu vera tiltæk fyrir alla stjórnendur sem bera ábyrgð á skýrslueiningu. Í orðalista kostnaðarbókhalds er skýrslueining sýnd sem kostnaðarhlutur eða safn kostnaðarhluta.
+<span data-ttu-id="71a70-406">Gögn kostnaðarbókhalds skulu vera tiltæk fyrir alla stjórnendur sem bera ábyrgð á skýrslueiningu.</span><span class="sxs-lookup"><span data-stu-id="71a70-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="71a70-407">Í orðalista kostnaðarbókhalds er skýrslueining sýnd sem kostnaðarhlutur eða safn kostnaðarhluta.</span><span class="sxs-lookup"><span data-stu-id="71a70-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Mögulega munu allir stjórnendur geta opnað mjög viðkvæm viðskiptagögn slíkar tekjum og framlegð. Þess vegna er mikilvægt að setja upp öryggi svo að stjórnendur sjá aðeins gögnin sem eru viðeigandi fyrir þá. Til að stýra gögnum öryggi skal skilgreina víddastigveldi.
+<span data-ttu-id="71a70-408">Mögulega munu allir stjórnendur geta opnað mjög viðkvæm viðskiptagögn slíkar tekjum og framlegð.</span><span class="sxs-lookup"><span data-stu-id="71a70-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="71a70-409">Þess vegna er mikilvægt að setja upp öryggi svo að stjórnendur sjá aðeins gögnin sem eru viðeigandi fyrir þá.</span><span class="sxs-lookup"><span data-stu-id="71a70-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="71a70-410">Til að stýra gögnum öryggi skal skilgreina víddastigveldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Notkun víddastigvelda gildir aðeins þegar víddargildi sem valið er í víddastigveldi er vídd kostnaðarhlutar.
-- Aðeins er hægt að virkja eitt víddastigveldi á vídd kostnaðarhlutar í stigveldi aðgangslista.
+- <span data-ttu-id="71a70-411">Notkun víddastigvelda gildir aðeins þegar víddargildi sem valið er í víddastigveldi er vídd kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="71a70-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="71a70-412">Aðeins er hægt að virkja eitt víddastigveldi á vídd kostnaðarhlutar í stigveldi aðgangslista.</span><span class="sxs-lookup"><span data-stu-id="71a70-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Upplýsingar um víddarstigveldi**
+<span data-ttu-id="71a70-413">**Upplýsingar um víddarstigveldi**</span><span class="sxs-lookup"><span data-stu-id="71a70-413">**Dimension hierarchy details**</span></span>
 
-| Heiti víddarstigveldis | Vídd    | Heiti gerðar víddarstigveldis      | Stigveldi aðgangslista |
+| <span data-ttu-id="71a70-414">Heiti víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-414">Dimension hierarchy name</span></span> | <span data-ttu-id="71a70-415">Vídd</span><span class="sxs-lookup"><span data-stu-id="71a70-415">Dimension</span></span>    | <span data-ttu-id="71a70-416">Heiti gerðar víddarstigveldis</span><span class="sxs-lookup"><span data-stu-id="71a70-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="71a70-417">Stigveldi aðgangslista</span><span class="sxs-lookup"><span data-stu-id="71a70-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Fyrirtæki             | Kostnaðarstaðir | Stigveldi víddaflokkunar | **Já**               |
+| <span data-ttu-id="71a70-418">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-418">Organization</span></span>             | <span data-ttu-id="71a70-419">Kostnaðarstaðir</span><span class="sxs-lookup"><span data-stu-id="71a70-419">Cost centers</span></span> | <span data-ttu-id="71a70-420">Stigveldi víddaflokkunar</span><span class="sxs-lookup"><span data-stu-id="71a70-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="71a70-421">**Já**</span><span class="sxs-lookup"><span data-stu-id="71a70-421">**Yes**</span></span>               |
 
-Nýr flýtiflipi **Notendur** er tiltækur í stigveldishönnuði. Hér er hægt að færa inn eitt eða fleiri notandakenni í hverjum hnúti innan stigveldisins.
+<span data-ttu-id="71a70-422">Nýr flýtiflipi **Notendur** er tiltækur í stigveldishönnuði.</span><span class="sxs-lookup"><span data-stu-id="71a70-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="71a70-423">Hér er hægt að færa inn eitt eða fleiri notandakenni í hverjum hnúti innan stigveldisins.</span><span class="sxs-lookup"><span data-stu-id="71a70-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Notendur            | Svið víddarstaks   |                         |
+|                 | <span data-ttu-id="71a70-424">Notendur</span><span class="sxs-lookup"><span data-stu-id="71a70-424">Users</span></span>            | <span data-ttu-id="71a70-425">Svið víddarstaks</span><span class="sxs-lookup"><span data-stu-id="71a70-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Hnútar**       | **Notandakenni**      | **Úr víddarstaki** | **Til víddarstaks** |
-| Fyrirtæki    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Stjórnandi         | Apríl            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Mannauður        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Framleiðsla    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Pakkning | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Smölun  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="71a70-426">**Hnútar**</span><span class="sxs-lookup"><span data-stu-id="71a70-426">**Nodes**</span></span>       | <span data-ttu-id="71a70-427">**Notandakenni**</span><span class="sxs-lookup"><span data-stu-id="71a70-427">**User ID**</span></span>      | <span data-ttu-id="71a70-428">**Úr víddarstaki**</span><span class="sxs-lookup"><span data-stu-id="71a70-428">**From dimension member**</span></span> | <span data-ttu-id="71a70-429">**Til víddarstaks**</span><span class="sxs-lookup"><span data-stu-id="71a70-429">**To dimension member**</span></span> |
+| <span data-ttu-id="71a70-430">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="71a70-430">Organization</span></span>    | <span data-ttu-id="71a70-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="71a70-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="71a70-432">&nbsp;&nbsp;Stjórnandi</span><span class="sxs-lookup"><span data-stu-id="71a70-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="71a70-433">Apríl</span><span class="sxs-lookup"><span data-stu-id="71a70-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="71a70-434">&nbsp;&nbsp;&nbsp;&nbsp;Fjármál</span><span class="sxs-lookup"><span data-stu-id="71a70-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="71a70-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="71a70-435">Alicia</span></span>           | <span data-ttu-id="71a70-436">CC002</span><span class="sxs-lookup"><span data-stu-id="71a70-436">CC002</span></span>                     | <span data-ttu-id="71a70-437">CC003</span><span class="sxs-lookup"><span data-stu-id="71a70-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="71a70-438">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-438">CC007</span></span>                     | <span data-ttu-id="71a70-439">CC007</span><span class="sxs-lookup"><span data-stu-id="71a70-439">CC007</span></span>                   |
+| <span data-ttu-id="71a70-440">&nbsp;&nbsp;&nbsp;&nbsp;Mannauður</span><span class="sxs-lookup"><span data-stu-id="71a70-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="71a70-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="71a70-441">Arnie</span></span>            | <span data-ttu-id="71a70-442">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-442">CC001</span></span>                     | <span data-ttu-id="71a70-443">CC001</span><span class="sxs-lookup"><span data-stu-id="71a70-443">CC001</span></span>                   |
+| <span data-ttu-id="71a70-444">&nbsp;&nbsp;Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="71a70-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="71a70-445">David</span><span class="sxs-lookup"><span data-stu-id="71a70-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="71a70-446">&nbsp;&nbsp;&nbsp;&nbsp;Pakkning</span><span class="sxs-lookup"><span data-stu-id="71a70-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="71a70-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="71a70-447">Ellen</span></span>            | <span data-ttu-id="71a70-448">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-448">CC005</span></span>                     | <span data-ttu-id="71a70-449">CC005</span><span class="sxs-lookup"><span data-stu-id="71a70-449">CC005</span></span>                   |
+| <span data-ttu-id="71a70-450">&nbsp;&nbsp;&nbsp;&nbsp;Smölun</span><span class="sxs-lookup"><span data-stu-id="71a70-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="71a70-451">Chris</span><span class="sxs-lookup"><span data-stu-id="71a70-451">Chris</span></span>            | <span data-ttu-id="71a70-452">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-452">CC006</span></span>                     | <span data-ttu-id="71a70-453">CC006</span><span class="sxs-lookup"><span data-stu-id="71a70-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Kostnaðarbókarar skulu vera í efsta stigi stigveldisins svo þeir geti séð allar færslur í kostnaðarbókhaldi.
+> <span data-ttu-id="71a70-454">Kostnaðarbókarar skulu vera í efsta stigi stigveldisins svo þeir geti séð allar færslur í kostnaðarbókhaldi.</span><span class="sxs-lookup"><span data-stu-id="71a70-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Til að virkja stigveldi aðgangslista og öryggisstillinga hans, er farið í **kostnaðarbókhald** > **Uppsetningu** > **Færibreytur** > **Almennt**. Veldu færibreytuna **Virkja skoðunaraðgang fyrir víddarstök kostnaðarhlutar**.
+<span data-ttu-id="71a70-455">Til að virkja stigveldi aðgangslista og öryggisstillinga hans, er farið í **kostnaðarbókhald** > **Uppsetningu** > **Færibreytur** > **Almennt**.</span><span class="sxs-lookup"><span data-stu-id="71a70-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="71a70-456">Veldu færibreytuna **Virkja skoðunaraðgang fyrir víddarstök kostnaðarhlutar**.</span><span class="sxs-lookup"><span data-stu-id="71a70-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum sem birtast á eftirfarandi svæðum:
+<span data-ttu-id="71a70-457">Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum sem birtast á eftirfarandi svæðum:</span><span class="sxs-lookup"><span data-stu-id="71a70-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- Vinnusvæðið **Kostnaðarstýring** (Biðlari):
+- <span data-ttu-id="71a70-458">Vinnusvæðið **Kostnaðarstýring** (Biðlari):</span><span class="sxs-lookup"><span data-stu-id="71a70-458">**Cost control** workspace (Client):</span></span>
 
-    - Gögn í skjámyndum sem notaðar eru til að bora í gegnum tilvik
+    - <span data-ttu-id="71a70-459">Gögn í skjámyndum sem notaðar eru til að bora í gegnum tilvik</span><span class="sxs-lookup"><span data-stu-id="71a70-459">Data in forms that are used to drill through scenarios</span></span>
 
-- Vinnusvæði **kostnaðarstýringar** (fartækjaforrit):
+- <span data-ttu-id="71a70-460">Vinnusvæði **kostnaðarstýringar** (fartækjaforrit):</span><span class="sxs-lookup"><span data-stu-id="71a70-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Stöður í spjöldum
+    - <span data-ttu-id="71a70-461">Stöður í spjöldum</span><span class="sxs-lookup"><span data-stu-id="71a70-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="71a70-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="71a70-462">Power BI:</span></span>
 
-    - Gögn sem birtast í myndrænni framsetningu Power BI
-    - Myndræn framsetning gagna í Power BI sem eru innfelldar í biðlaranum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+    - <span data-ttu-id="71a70-463">Gögn sem birtast í myndrænni framsetningu Power BI</span><span class="sxs-lookup"><span data-stu-id="71a70-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="71a70-464">Myndræn framsetning gagna í Power BI sem eru innfelldar í biðlaranum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span><span class="sxs-lookup"><span data-stu-id="71a70-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Stigveldi aðgangslista tryggir ekki útflutning á gögnum í Excel. Þar af leiðandi ætti það skýrslugerðartæki aðeins að verað notað af kostnaðarbókunum og stjórnendum sem verða að hafa ótakmarkaðan aðgang til að skoða gögn.
+> - <span data-ttu-id="71a70-465">Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI.</span><span class="sxs-lookup"><span data-stu-id="71a70-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="71a70-466">Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="71a70-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="71a70-467">Stigveldi aðgangslista tryggir ekki útflutning á gögnum í Excel.</span><span class="sxs-lookup"><span data-stu-id="71a70-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="71a70-468">Þar af leiðandi ætti það skýrslugerðartæki aðeins að verað notað af kostnaðarbókunum og stjórnendum sem verða að hafa ótakmarkaðan aðgang til að skoða gögn.</span><span class="sxs-lookup"><span data-stu-id="71a70-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

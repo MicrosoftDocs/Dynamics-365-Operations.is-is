@@ -17,23 +17,23 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1b399a4fdb38958dac886cf69909418b5df246b7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
+# <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="9621b-103">Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna</span><span class="sxs-lookup"><span data-stu-id="9621b-103">Create a mobile device menu item for license plate consolidation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að stofna valmyndaratriði fartækis fyrir vinnu við samstæðu númeraplötu. Þetta gerir starfsmanna vöruhússins mögulegt að gera hluti samstæða á einni númeraplötu með hluti sem eru á annarri númeraplötu á sömu staðsetningu. Til dæmis gætu þeir notað þetta ef síðari sviðsetningarskref væru þau sömu á báðum vinnupöntununum, þannig að vinnu þarf aðeins að framkvæma einu sinni fyrir sameinaðar vörur. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Verkefnið myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+<span data-ttu-id="9621b-104">Þessi verklýsing sýnir hvernig á að stofna valmyndaratriði fartækis fyrir vinnu við samstæðu númeraplötu.</span><span class="sxs-lookup"><span data-stu-id="9621b-104">This procedure shows you how to create a mobile device menu item for license plate consolidation work.</span></span> <span data-ttu-id="9621b-105">Þetta gerir starfsmanna vöruhússins mögulegt að gera hluti samstæða á einni númeraplötu með hluti sem eru á annarri númeraplötu á sömu staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="9621b-105">This enables warehouse workers to consolidate items on one license plate with items on another license place within the same location.</span></span> <span data-ttu-id="9621b-106">Til dæmis gætu þeir notað þetta ef síðari sviðsetningarskref væru þau sömu á báðum vinnupöntununum, þannig að vinnu þarf aðeins að framkvæma einu sinni fyrir sameinaðar vörur.</span><span class="sxs-lookup"><span data-stu-id="9621b-106">For example, they might use this if subsequent staging steps were the same on both work orders, so that the work only needs to be performed once for the merged items.</span></span> <span data-ttu-id="9621b-107">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="9621b-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="9621b-108">Verkefnið myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss.</span><span class="sxs-lookup"><span data-stu-id="9621b-108">The task would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="9621b-109">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="9621b-109">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
-1. Fara í vöruhúsakerfi > Uppsetning > fartækis > Valmyndaratriði fartækis
-2. Smellið á „Nýtt“.
-3. Í svæðið heiti valmyndaratriðis, færa inn gildi.
-4. Í reitinn Titill skal slá inn gildi.
-5. Í reitnum Stilling velurðu „óbeint“.
-6. Velja 'Sameina númeraplötur' í reitnum verkþáttakóði
+1. <span data-ttu-id="9621b-110">Fara í vöruhúsakerfi > Uppsetning > fartækis > Valmyndaratriði fartækis</span><span class="sxs-lookup"><span data-stu-id="9621b-110">Go to Warehouse management > Setup > Mobile device > Mobile device menu items.</span></span>
+2. <span data-ttu-id="9621b-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9621b-111">Click New.</span></span>
+3. <span data-ttu-id="9621b-112">Í svæðið heiti valmyndaratriðis, færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="9621b-112">In the Menu item name field, type a value.</span></span>
+4. <span data-ttu-id="9621b-113">Í reitinn Titill skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="9621b-113">In the Title field, type a value.</span></span>
+5. <span data-ttu-id="9621b-114">Í reitnum Stilling velurðu „óbeint“.</span><span class="sxs-lookup"><span data-stu-id="9621b-114">In the Mode field, select 'Indirect'.</span></span>
+6. <span data-ttu-id="9621b-115">Velja 'Sameina númeraplötur' í reitnum verkþáttakóði</span><span class="sxs-lookup"><span data-stu-id="9621b-115">In the Activity code field, select 'Consolidate license plates'.</span></span>
 
 

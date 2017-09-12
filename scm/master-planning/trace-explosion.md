@@ -20,33 +20,33 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c548a2abcda261cb2bdf9d22425227e857df9c07
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4e7f765f31ba34481cca78155e77eca61b106d50
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Nota rakningu fyrir niðurbrot
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="2d5d2-103">Nota rakningu fyrir niðurbrot</span><span class="sxs-lookup"><span data-stu-id="2d5d2-103">Use tracing for explosion</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein útskýrir hvernig hægt er að nota rakningu til að kanna orsakir á bak við niðurstöðu niðurbrots pöntunar.
+<span data-ttu-id="2d5d2-104">Þessi grein útskýrir hvernig hægt er að nota rakningu til að kanna orsakir á bak við niðurstöðu niðurbrots pöntunar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-Með því að gera rakningu, er°hægt að skoða upplýsingar um þætti sem höfðu áhrif á útkomu niðurbrots ákveðinnar pöntunar. Eftirfarandi dæmi sýna hvernig hægt er að nota rakningarupplýsingarnar.
+<span data-ttu-id="2d5d2-105">Með því að gera rakningu, er°hægt að skoða upplýsingar um þætti sem höfðu áhrif á útkomu niðurbrots ákveðinnar pöntunar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="2d5d2-106">Eftirfarandi dæmi sýna hvernig hægt er að nota rakningarupplýsingarnar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-106">The following examples show how you can use the tracing information:</span></span>
 
--   Skoða tengsl milli aðgerða í áætlaðum pöntunum til að betrumbæta framboðskeðju og birgðafrátekningar.
--   Skoða tengsl við pantanir sem þegar hafa verið samþykktar. Hægt er að leggja áherslu á sjálfkrafa staðfestingu afleiddra þarfa og þannig forgangsraða pöntunum á réttari hátt.
--   Herma eftir niðurstöðum áætlunargerðar til að ákvarða hvort færibreytur áætlanagerðar eru ákjósanlegar.
--   Tilgreina hvernig upplýsingar, svo sem framleiðsludagsetningar, magn og forgangur fyrir pöntun var ákvarðaður.
+-   <span data-ttu-id="2d5d2-107">Skoða tengsl milli aðgerða í áætlaðum pöntunum til að betrumbæta framboðskeðju og birgðafrátekningar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="2d5d2-108">Skoða tengsl við pantanir sem þegar hafa verið samþykktar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="2d5d2-109">Hægt er að leggja áherslu á sjálfkrafa staðfestingu afleiddra þarfa og þannig forgangsraða pöntunum á réttari hátt.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="2d5d2-110">Herma eftir niðurstöðum áætlunargerðar til að ákvarða hvort færibreytur áætlanagerðar eru ákjósanlegar.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="2d5d2-111">Tilgreina hvernig upplýsingar, svo sem framleiðsludagsetningar, magn og forgangur fyrir pöntun var ákvarðaður.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda pöntun. Á v**Niðurbrot** síðunni er hægt að sjá upplýsingar um rakningu í flipanum **Útskýring** í efri rúðunni. Rakning á sér stað þegar pöntun er brotin niður. Til að hefja rakningu fyrir pöntun, smellið á **Uppfæra**, og veljið því næst gátreitinn **Leyfa rakningu**. Hægt er að nota svæðið **Finna texta** til að leita að sérstökum upplýsingum í kladdanum. Leitarniðurstöður eru auðkenndar í trénu.
+<span data-ttu-id="2d5d2-112">Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda pöntun.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="2d5d2-113">Á v**Niðurbrot** síðunni er hægt að sjá upplýsingar um rakningu í flipanum **Útskýring** í efri rúðunni.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="2d5d2-114">Rakning á sér stað þegar pöntun er brotin niður.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="2d5d2-115">Til að hefja rakningu fyrir pöntun, smellið á **Uppfæra**, og veljið því næst gátreitinn **Leyfa rakningu**.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="2d5d2-116">Hægt er að nota svæðið **Finna texta** til að leita að sérstökum upplýsingum í kladdanum.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="2d5d2-117">Leitarniðurstöður eru auðkenndar í trénu.</span><span class="sxs-lookup"><span data-stu-id="2d5d2-117">Search results are highlighted in the tree.</span></span>
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="2d5d2-118">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="2d5d2-118">See also</span></span>
 --------
 
-[Aðaláætlanir](master-plans.md)
+[<span data-ttu-id="2d5d2-119">Aðaláætlanir</span><span class="sxs-lookup"><span data-stu-id="2d5d2-119">Master plans</span></span>](master-plans.md)
 
 
 

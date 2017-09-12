@@ -16,36 +16,36 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a8d9fb805838be67424926ca0cd56577ae43cba
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-ledger-accrual-transactions"></a>Stofna uppsöfnunarfærslur fyrir fjárhag
+# <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="6a6e3-103">Stofna uppsöfnunarfærslur fyrir fjárhag</span><span class="sxs-lookup"><span data-stu-id="6a6e3-103">Create ledger accrual transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Verk leiðbeiningar fer í gegnum myndun uppsöfnunarfærslna höfuðbókar sem eru byggðar á grunni uppsöfnunarskema
+<span data-ttu-id="6a6e3-104">Verk leiðbeiningar fer í gegnum myndun uppsöfnunarfærslna höfuðbókar sem eru byggðar á grunni uppsöfnunarskema</span><span class="sxs-lookup"><span data-stu-id="6a6e3-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
 
-1. Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.
-2. Á listanum skal finna og velja viðeigandi færslubók eða stofna nýja.
-3. Smellið til að fylgja tenglinum í reitnum Rununúmer færslubókar.
-4. Í listanum skal merkja valda línu.
-5. Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.
-    * Í þessu dæmi skilgreinum við kostnað fyrir trygginguna. Það verður reglubundin kostnaðarupphæð.  
-6. Sláið inn gildi í reitnum „Lýsing“.
-7. Í reitnum Debet skal slá inn tölu.
-8. Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.
-9. Smellið á Aðgerðir.
-10. Smellt er á fjárhagsuppsafnanir.
-11. Í reitnum Auðkenni uppsöfnunar skal smella á fellilistahnappinn til að opna leitina.
-12. Í listanum skal finna og velja uppsöfnunarskemað sem á að beita.
-13. Í listanum skal smella á tengilinn í valinni línu.
-14. Dagsetning er rituð í reitinn Upphafsdagur.
-15. Smella á Færslur.
-16. Lokið síðunni.
-17. Smellið á „Í lagi“.
-18. Smellið á „Bóka“.
+1. <span data-ttu-id="6a6e3-105">Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-105">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="6a6e3-106">Á listanum skal finna og velja viðeigandi færslubók eða stofna nýja.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-106">In the list, find and select the desired journal or create a new one.</span></span>
+3. <span data-ttu-id="6a6e3-107">Smellið til að fylgja tenglinum í reitnum Rununúmer færslubókar.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-107">Click to follow the link in the Journal batch number field.</span></span>
+4. <span data-ttu-id="6a6e3-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-108">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="6a6e3-109">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-109">In the Account field, specify the desired values.</span></span>
+    * <span data-ttu-id="6a6e3-110">Í þessu dæmi skilgreinum við kostnað fyrir trygginguna.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-110">In this example, we are defining the expense for the insurance.</span></span> <span data-ttu-id="6a6e3-111">Það verður reglubundin kostnaðarupphæð.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-111">It will be come periodic expense amount.</span></span>  
+6. <span data-ttu-id="6a6e3-112">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-112">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="6a6e3-113">Í reitnum Debet skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-113">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="6a6e3-114">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-114">In the Offset account field, specify the desired values.</span></span>
+9. <span data-ttu-id="6a6e3-115">Smellið á Aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-115">Click Functions.</span></span>
+10. <span data-ttu-id="6a6e3-116">Smellt er á fjárhagsuppsafnanir.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-116">Click Ledger accruals.</span></span>
+11. <span data-ttu-id="6a6e3-117">Í reitnum Auðkenni uppsöfnunar skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-117">In the Accrual identification field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="6a6e3-118">Í listanum skal finna og velja uppsöfnunarskemað sem á að beita.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-118">In the list, find and select the accural scheme you want to apply.</span></span>
+13. <span data-ttu-id="6a6e3-119">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="6a6e3-120">Dagsetning er rituð í reitinn Upphafsdagur.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-120">In the Start date field, enter a date.</span></span>
+15. <span data-ttu-id="6a6e3-121">Smella á Færslur.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-121">Click Transactions.</span></span>
+16. <span data-ttu-id="6a6e3-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-122">Close the page.</span></span>
+17. <span data-ttu-id="6a6e3-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-123">Click OK.</span></span>
+18. <span data-ttu-id="6a6e3-124">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="6a6e3-124">Click Post.</span></span>
 
 

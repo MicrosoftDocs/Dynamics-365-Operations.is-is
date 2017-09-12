@@ -1,104 +1,98 @@
 --- 
-title: "Stofna afurðanúmer fyrir skilgreind afurðarafbrigði"
-description: "Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát."
+# required metadata 
+title: Stofna afurðanúmer fyrir skilgreind afurðarafbrigði
+description: Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát.
 author: BibiSp
 manager: AnnBe
 ms.date: 10/25/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8a9bf8241a0dc66f34715513d2d201569b810582
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="create-a-product-number-for-configured-product-variants"></a>Stofna afurðanúmer fyrir skilgreind afurðarafbrigði
+# <a name="create-a-product-number-for-configured-product-variants"></a><span data-ttu-id="37517-103">Stofna afurðanúmer fyrir skilgreind afurðarafbrigði</span><span class="sxs-lookup"><span data-stu-id="37517-103">Create a product number for configured product variants</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát. Þetta ferli sýnir einnig hvernig hægt er að byggja upp skilgreiningu nafnakerfis fyrir íhlut afbrigðalíkans afurðar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Nýju afurðarnúmeri nafnakerfis er úthlutað á afurðarsniðmátið D0004. Þetta verk myndi yfirleitt vera framkvæmt af hálfu vöruhönnuðar.
+<span data-ttu-id="37517-104">Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="37517-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="37517-105">Þetta ferli sýnir einnig hvernig hægt er að byggja upp skilgreiningu nafnakerfis fyrir íhlut afbrigðalíkans afurðar.</span><span class="sxs-lookup"><span data-stu-id="37517-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="37517-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="37517-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="37517-107">Nýju afurðarnúmeri nafnakerfis er úthlutað á afurðarsniðmátið D0004.</span><span class="sxs-lookup"><span data-stu-id="37517-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="37517-108">Þetta verk myndi yfirleitt vera framkvæmt af hálfu vöruhönnuðar.</span><span class="sxs-lookup"><span data-stu-id="37517-108">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a>Stofnaðu Nafnakerfi afurðarnúmers
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smelltu á Nafnakerfi afurðar.
-3. Smellt er á Nýtt.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Sláið inn gildi í reitnum „Lýsing“.
-6. Smelltu á Bæta við.
-7. Smelltu á Númer afurðarsniðmáts.
-8. Smelltu á Bæta við.
-9. Smelltu á Textafasta.
-10. Í listanum skal merkja valda línu.
-11. Í reitinn Texti skal slá inn gildi.
-12. Smelltu á Bæta við.
-13. Smelltu á Skilgreiningar.
-14. Lokið síðunni.
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="37517-109">Stofnaðu Nafnakerfi afurðarnúmers</span><span class="sxs-lookup"><span data-stu-id="37517-109">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="37517-110">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="37517-110">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="37517-111">Smelltu á Nafnakerfi afurðar.</span><span class="sxs-lookup"><span data-stu-id="37517-111">Click Product nomenclature.</span></span>
+3. <span data-ttu-id="37517-112">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="37517-112">Click New.</span></span>
+4. <span data-ttu-id="37517-113">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="37517-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="37517-114">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="37517-115">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-115">Click Add.</span></span>
+7. <span data-ttu-id="37517-116">Smelltu á Númer afurðarsniðmáts.</span><span class="sxs-lookup"><span data-stu-id="37517-116">Click Product master number.</span></span>
+8. <span data-ttu-id="37517-117">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-117">Click Add.</span></span>
+9. <span data-ttu-id="37517-118">Smelltu á Textafasta.</span><span class="sxs-lookup"><span data-stu-id="37517-118">Click Text constant.</span></span>
+10. <span data-ttu-id="37517-119">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-119">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="37517-120">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-120">In the Text field, type a value.</span></span>
+12. <span data-ttu-id="37517-121">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-121">Click Add.</span></span>
+13. <span data-ttu-id="37517-122">Smelltu á Skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="37517-122">Click Configuration.</span></span>
+14. <span data-ttu-id="37517-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-123">Close the page.</span></span>
 
-## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>Úthlutaðu nafnakerfi afurðarnúmers á afurðarsniðmát
-1. Smelltu á Afurðarsniðmát.
-2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía reitinn Vörunúmer með gildið ‚D'.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smella á Breyta.
-5. Velja skal Já í reitnum Nota nafnakerfi.
-6. Í reitnum Nafnakerfi afurðarafbrigðisnúmers skal færa inn eða velja gildi.
-7. Lokið síðunni.
-8. Lokið síðunni.
+## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="37517-124">Úthlutaðu nafnakerfi afurðarnúmers á afurðarsniðmát</span><span class="sxs-lookup"><span data-stu-id="37517-124">Assign the product number nomenclature to a product master</span></span>
+1. <span data-ttu-id="37517-125">Smelltu á Afurðarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="37517-125">Click Product masters.</span></span>
+2. <span data-ttu-id="37517-126">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="37517-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="37517-127">Til dæmis, sía reitinn Vörunúmer með gildið ‚D'.</span><span class="sxs-lookup"><span data-stu-id="37517-127">For example, filter on the Product number field with a value of 'D'.</span></span>
+3. <span data-ttu-id="37517-128">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="37517-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="37517-129">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="37517-129">Click Edit.</span></span>
+5. <span data-ttu-id="37517-130">Velja skal Já í reitnum Nota nafnakerfi.</span><span class="sxs-lookup"><span data-stu-id="37517-130">Select Yes in the Use nomenclature field.</span></span>
+6. <span data-ttu-id="37517-131">Í reitnum Nafnakerfi afurðarafbrigðisnúmers skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
+7. <span data-ttu-id="37517-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-132">Close the page.</span></span>
+8. <span data-ttu-id="37517-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-133">Close the page.</span></span>
 
-## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Stofnaðu nafnakerfi fyrir íhlut afbrigðalíkans afurðar
-1. Smella á Afbrigðalíkan afurðar
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smella á Breyta.
-5. Velja skal Já í reitnum Nota nafnakerfi skilgreiningar.
-6. Smelltu á Bæta við.
-7. Smelltu á Eigindargildi.
-8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veldu gildi í reitnum Eigind.
-10. Smelltu á Bæta við.
-11. Smelltu á Textafasta.
-12. Í listanum skal merkja valda línu.
-13. Í reitinn Texti skal slá inn gildi.
-14. Smelltu á Bæta við.
-15. Smelltu á Eigindargildi.
-16. Í listanum skal merkja valda línu.
-17. Sláið inn eða veldu gildi í reitnum Eigind.
-18. Smelltu á Bæta við.
-19. Smelltu á Textafasta.
-20. Í listanum skal merkja valda línu.
-21. Í reitinn Texti skal slá inn gildi.
-22. Smelltu á Bæta við.
-23. Smelltu á Eigindargildi.
-24. Í listanum skal merkja valda línu.
-25. Sláið inn eða veldu gildi í reitnum Eigind.
-26. Smelltu á Bæta við.
-27. Smelltu á Textafasta.
-28. Í listanum skal merkja valda línu.
-29. Í reitinn Texti skal slá inn gildi.
-30. Smelltu á Bæta við.
-31. Smelltu á Eigindargildi.
-32. Í listanum skal merkja valda línu.
-33. Sláið inn eða veldu gildi í reitnum Eigind.
-34. Smelltu á Bæta við.
-35. Smelltu á Textafasta.
-36. Í listanum skal merkja valda línu.
-37. Í reitinn Texti skal slá inn gildi.
-38. Smelltu á Bæta við.
-39. Smelltu á Gildi númeraraðar.
-40. Í listanum skal merkja valda línu.
-41. Sláið inn eða veldu gildi í reitnum Númeraröð.
-42. Lokið síðunni.
-43. Lokið síðunni.
-44. Lokið síðunni.
-
+## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="37517-134">Stofnaðu nafnakerfi fyrir íhlut afbrigðalíkans afurðar</span><span class="sxs-lookup"><span data-stu-id="37517-134">Create nomenclature for a product configuration model component</span></span>
+1. <span data-ttu-id="37517-135">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="37517-135">Click Product configuration models.</span></span>
+2. <span data-ttu-id="37517-136">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="37517-136">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="37517-137">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="37517-137">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="37517-138">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="37517-138">Click Edit.</span></span>
+5. <span data-ttu-id="37517-139">Velja skal Já í reitnum Nota nafnakerfi skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="37517-139">Select Yes in the Use configuration nomenclature field.</span></span>
+6. <span data-ttu-id="37517-140">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-140">Click Add.</span></span>
+7. <span data-ttu-id="37517-141">Smelltu á Eigindargildi.</span><span class="sxs-lookup"><span data-stu-id="37517-141">Click Attribute value.</span></span>
+8. <span data-ttu-id="37517-142">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-142">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="37517-143">Sláið inn eða veldu gildi í reitnum Eigind.</span><span class="sxs-lookup"><span data-stu-id="37517-143">In the Attribute field, enter or select a value.</span></span>
+10. <span data-ttu-id="37517-144">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-144">Click Add.</span></span>
+11. <span data-ttu-id="37517-145">Smelltu á Textafasta.</span><span class="sxs-lookup"><span data-stu-id="37517-145">Click Text constant.</span></span>
+12. <span data-ttu-id="37517-146">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-146">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="37517-147">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-147">In the Text field, type a value.</span></span>
+14. <span data-ttu-id="37517-148">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-148">Click Add.</span></span>
+15. <span data-ttu-id="37517-149">Smelltu á Eigindargildi.</span><span class="sxs-lookup"><span data-stu-id="37517-149">Click Attribute value.</span></span>
+16. <span data-ttu-id="37517-150">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-150">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="37517-151">Sláið inn eða veldu gildi í reitnum Eigind.</span><span class="sxs-lookup"><span data-stu-id="37517-151">In the Attribute field, enter or select a value.</span></span>
+18. <span data-ttu-id="37517-152">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-152">Click Add.</span></span>
+19. <span data-ttu-id="37517-153">Smelltu á Textafasta.</span><span class="sxs-lookup"><span data-stu-id="37517-153">Click Text constant.</span></span>
+20. <span data-ttu-id="37517-154">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-154">In the list, mark the selected row.</span></span>
+21. <span data-ttu-id="37517-155">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-155">In the Text field, type a value.</span></span>
+22. <span data-ttu-id="37517-156">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-156">Click Add.</span></span>
+23. <span data-ttu-id="37517-157">Smelltu á Eigindargildi.</span><span class="sxs-lookup"><span data-stu-id="37517-157">Click Attribute value.</span></span>
+24. <span data-ttu-id="37517-158">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-158">In the list, mark the selected row.</span></span>
+25. <span data-ttu-id="37517-159">Sláið inn eða veldu gildi í reitnum Eigind.</span><span class="sxs-lookup"><span data-stu-id="37517-159">In the Attribute field, enter or select a value.</span></span>
+26. <span data-ttu-id="37517-160">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-160">Click Add.</span></span>
+27. <span data-ttu-id="37517-161">Smelltu á Textafasta.</span><span class="sxs-lookup"><span data-stu-id="37517-161">Click Text constant.</span></span>
+28. <span data-ttu-id="37517-162">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-162">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="37517-163">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-163">In the Text field, type a value.</span></span>
+30. <span data-ttu-id="37517-164">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-164">Click Add.</span></span>
+31. <span data-ttu-id="37517-165">Smelltu á Eigindargildi.</span><span class="sxs-lookup"><span data-stu-id="37517-165">Click Attribute value.</span></span>
+32. <span data-ttu-id="37517-166">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-166">In the list, mark the selected row.</span></span>
+33. <span data-ttu-id="37517-167">Sláið inn eða veldu gildi í reitnum Eigind.</span><span class="sxs-lookup"><span data-stu-id="37517-167">In the Attribute field, enter or select a value.</span></span>
+34. <span data-ttu-id="37517-168">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-168">Click Add.</span></span>
+35. <span data-ttu-id="37517-169">Smelltu á Textafasta.</span><span class="sxs-lookup"><span data-stu-id="37517-169">Click Text constant.</span></span>
+36. <span data-ttu-id="37517-170">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-170">In the list, mark the selected row.</span></span>
+37. <span data-ttu-id="37517-171">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="37517-171">In the Text field, type a value.</span></span>
+38. <span data-ttu-id="37517-172">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="37517-172">Click Add.</span></span>
+39. <span data-ttu-id="37517-173">Smelltu á Gildi númeraraðar.</span><span class="sxs-lookup"><span data-stu-id="37517-173">Click Number sequence value.</span></span>
+40. <span data-ttu-id="37517-174">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="37517-174">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="37517-175">Sláið inn eða veldu gildi í reitnum Númeraröð.</span><span class="sxs-lookup"><span data-stu-id="37517-175">In the Number sequence field, enter or select a value.</span></span>
+42. <span data-ttu-id="37517-176">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-176">Close the page.</span></span>
+43. <span data-ttu-id="37517-177">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-177">Close the page.</span></span>
+44. <span data-ttu-id="37517-178">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="37517-178">Close the page.</span></span>
 

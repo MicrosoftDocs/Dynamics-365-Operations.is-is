@@ -1,49 +1,43 @@
 --- 
-title: "Stinga upp á eignakaupum"
-description: "Þetta ferli sýnir þér hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna."
+# required metadata 
+title: Stinga upp á eignakaupum
+description: Þetta ferli sýnir þér hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6d3f31bcbc2e470d0e17a6ab6b5df879aa4f8c9f
-ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
-
 ---
-# <a name="propose-fixed-asset-acquisitions"></a>Stinga upp á eignakaupum
+# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="8b7a4-103">Stinga upp á eignakaupum</span><span class="sxs-lookup"><span data-stu-id="8b7a4-103">Propose fixed asset acquisitions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir þér hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
+<span data-ttu-id="8b7a4-104">Þetta ferli sýnir þér hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="8b7a4-105">Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
-1. Fara í Eignir >°Færslubókarfærslur°> Eignabók.
-2. Smellið á „Nýtt“.
-3. Sláið inn eða veldu gildi í reitnum heiti.
-4. Smellið á „Línur“.
-5. Smellt er á Tillögur.
-6. Smelltu á kauptillögu
-7. Smellt er á Síu.
-8. Smellið á Endurstilla til að hreinsa út fyrri gildi.
-9. Veljið línu númer eignar.
-10. Í reitinn Skilyrði skal slá inn eða veldu gildi.
-    * Stilla eftirstandandi skilyrði eigna sem óskað er að öðlast með þessari greiðslutillögu.  
-11. Smellið á „Í lagi“.
-12. Smellið á „Í lagi“.
-    * Staðfesta færslulínurnar stofnaðar.  
-    * Aðeins eignir með kaupdag og kaupverðið settar á bókinni verða teknar með í kauptillögu.  
-13. Smellt er á flipanum bók.
-14. Smellið á „Bóka“.
-
+1. <span data-ttu-id="8b7a4-106">Fara í Eignir >°Færslubókarfærslur°> Eignabók.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="8b7a4-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-107">Click New.</span></span>
+3. <span data-ttu-id="8b7a4-108">Sláið inn eða veldu gildi í reitnum heiti.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-108">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="8b7a4-109">Smellið á „Línur“.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-109">Click Lines.</span></span>
+5. <span data-ttu-id="8b7a4-110">Smellt er á Tillögur.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-110">Click Proposals.</span></span>
+6. <span data-ttu-id="8b7a4-111">Smelltu á kauptillögu</span><span class="sxs-lookup"><span data-stu-id="8b7a4-111">Click Acquisition proposal.</span></span>
+7. <span data-ttu-id="8b7a4-112">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-112">Click Filter.</span></span>
+8. <span data-ttu-id="8b7a4-113">Smellið á Endurstilla til að hreinsa út fyrri gildi.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-113">Click Reset to clear out previous values.</span></span>
+9. <span data-ttu-id="8b7a4-114">Veljið línu númer eignar.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-114">Select the Fixed asset number row.</span></span>
+10. <span data-ttu-id="8b7a4-115">Í reitinn Skilyrði skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-115">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="8b7a4-116">Stilla eftirstandandi skilyrði eigna sem óskað er að öðlast með þessari greiðslutillögu.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+11. <span data-ttu-id="8b7a4-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-117">Click OK.</span></span>
+12. <span data-ttu-id="8b7a4-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-118">Click OK.</span></span>
+    * <span data-ttu-id="8b7a4-119">Staðfesta færslulínurnar stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-119">Verify the transaction lines created.</span></span>  
+    * <span data-ttu-id="8b7a4-120">Aðeins eignir með kaupdag og kaupverðið settar á bókinni verða teknar með í kauptillögu.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+13. <span data-ttu-id="8b7a4-121">Smellt er á flipanum bók.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-121">Click the Books tab.</span></span>
+14. <span data-ttu-id="8b7a4-122">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="8b7a4-122">Click Post.</span></span>
 

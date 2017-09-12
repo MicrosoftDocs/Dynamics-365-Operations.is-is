@@ -1,105 +1,99 @@
 ---
+# required metadata
 title: Setja upp Skuldir og innheimta
-description: "Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni."
+description: Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: 'Core, AX 7.0.0, Operations, UnifiedOperations'
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
-ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
-ms.contentlocale: is-is
-ms.lasthandoff: 08/03/2017
-
 ---
 
-# <a name="set-up-credit-and-collections"></a>Setja upp Skuldir og innheimta
+# <a name="set-up-credit-and-collections"></a><span data-ttu-id="ee121-103">Setja upp Skuldir og innheimta</span><span class="sxs-lookup"><span data-stu-id="ee121-103">Set up Credit and collections</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
+<span data-ttu-id="ee121-104">Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.</span><span class="sxs-lookup"><span data-stu-id="ee121-104">This article explains how to set up the collections functionality.</span></span>
 
-<a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
+<a name="set-up-aging-period-definitions"></a><span data-ttu-id="ee121-105">Setja upp skilgreiningar aldurstímabila</span><span class="sxs-lookup"><span data-stu-id="ee121-105">Set up aging period definitions</span></span>
 -------------------------------
 
-Setja upp skilgreiningu aldurstímabils Skilgreining aldurstímabils skilgreinir dálka sem á að birtast í **Aldursgreindar stöður**, **innheimtuverkþætti**, og **innheimtumál** listasíðum. Hann skilgreinir einnig tímabil sem birtast í **innheimtur** síðu. Ef hópur viðskiptamanna er uppsettur, er skilgreining aldurstímabils fyrir hópinn notuð. Ef engir hópar eru settir upp, er sjálfgefin skilgreining aldurstímabils sem er tilgreind í **færibreytur viðskiptakrafa** skjámynd notuð. Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í **Skilgreining aldurstímabils** síðu er notað.
+<span data-ttu-id="ee121-106">Setja upp skilgreiningu aldurstímabils</span><span class="sxs-lookup"><span data-stu-id="ee121-106">Set up an aging period definition.</span></span> <span data-ttu-id="ee121-107">Skilgreining aldurstímabils skilgreinir dálka sem á að birtast í **Aldursgreindar stöður**, **innheimtuverkþætti**, og **innheimtumál** listasíðum.</span><span class="sxs-lookup"><span data-stu-id="ee121-107">An aging period definition defines the columns that appear on the **Aged balances**, **Collections activities**, and **Collections cases** list pages.</span></span> <span data-ttu-id="ee121-108">Hann skilgreinir einnig tímabil sem birtast í **innheimtur** síðu.</span><span class="sxs-lookup"><span data-stu-id="ee121-108">It also defines the periods that appear on the **Collections** page.</span></span> <span data-ttu-id="ee121-109">Ef hópur viðskiptamanna er uppsettur, er skilgreining aldurstímabils fyrir hópinn notuð.</span><span class="sxs-lookup"><span data-stu-id="ee121-109">If a customer pool is set up, the aging period definition for the pool is used.</span></span> <span data-ttu-id="ee121-110">Ef engir hópar eru settir upp, er sjálfgefin skilgreining aldurstímabils sem er tilgreind í **færibreytur viðskiptakrafa** skjámynd notuð.</span><span class="sxs-lookup"><span data-stu-id="ee121-110">If no pools are set up, the default aging period definition that is specified on the **Accounts receivable parameters** page is used.</span></span> <span data-ttu-id="ee121-111">Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í **Skilgreining aldurstímabils** síðu er notað.</span><span class="sxs-lookup"><span data-stu-id="ee121-111">If no default aging period definition is specified, the first aging period definition on the **Aging period definitions** page is used.</span></span>
 
-## <a name="create-an-aging-snapshot"></a>Stofna aldursgreiningarmynd
-Stofna aldursgreiningarmynd færslna fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp. Upplýsingar um aldursgreiningarmynd birtist á **Aldursgreindar stöður** listasíðu og á **innheimtur** síðu. Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna. Listasíðan sýnir upplýsingar aðeins vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir.
+## <a name="create-an-aging-snapshot"></a><span data-ttu-id="ee121-112">Stofna aldursgreiningarmynd</span><span class="sxs-lookup"><span data-stu-id="ee121-112">Create an aging snapshot</span></span>
+<span data-ttu-id="ee121-113">Stofna aldursgreiningarmynd færslna fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp.</span><span class="sxs-lookup"><span data-stu-id="ee121-113">Create aging snapshot records for all customers or for the customers in a customer pool.</span></span> <span data-ttu-id="ee121-114">Upplýsingar um aldursgreiningarmynd birtist á **Aldursgreindar stöður** listasíðu og á **innheimtur** síðu.</span><span class="sxs-lookup"><span data-stu-id="ee121-114">Aging snapshot information appears on the **Aged balances** list page and on the **Collections** page.</span></span> <span data-ttu-id="ee121-115">Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna.</span><span class="sxs-lookup"><span data-stu-id="ee121-115">You must create an aging snapshot before you can use the list page.</span></span> <span data-ttu-id="ee121-116">Listasíðan sýnir upplýsingar aðeins vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir.</span><span class="sxs-lookup"><span data-stu-id="ee121-116">The list page shows information only for customers that an aging snapshot has been created for.</span></span>
 
-## <a name="optional-set-up-customer-pools"></a>Valfrjálst: Setja upp viðskiptavinaflokka
-Hægt er að setja upp viðskiptavinaflokka til að tákna flokka af viðskiptavinum. Hægt er að nota viðskiptavinahópa sem afmarkanir fyrir upplýsingar um viðskiptamann sem birtast í **innheimtur** listasíður á síðunni **innheimtur** eða þegar notandinn stofnar aldursgreiningarmynd.
+## <a name="optional-set-up-customer-pools"></a><span data-ttu-id="ee121-117">Valfrjálst: Setja upp viðskiptavinaflokka</span><span class="sxs-lookup"><span data-stu-id="ee121-117">Optional: Set up customer pools</span></span>
+<span data-ttu-id="ee121-118">Hægt er að setja upp viðskiptavinaflokka til að tákna flokka af viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="ee121-118">You can set up customer pools to represent groups of customers.</span></span> <span data-ttu-id="ee121-119">Hægt er að nota viðskiptavinahópa sem afmarkanir fyrir upplýsingar um viðskiptamann sem birtast í **innheimtur** listasíður á síðunni **innheimtur** eða þegar notandinn stofnar aldursgreiningarmynd.</span><span class="sxs-lookup"><span data-stu-id="ee121-119">You can use customer pools as filters for the customer information that appears on **Collections** list pages, on the **Collections** page, or when you create aging snapshots.</span></span>
 
-## <a name="optional-create-a-collections-team"></a>Valfrjálst: Búa til innheimtuhóp
-Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtuhóp. Hægt er að velja hóps á **Færibreytur viðskiptakrafna** síðunni. Ef þú ekki stofna innheimtuhóp, verður ein slík búin til sjálfkrafa þegar notandinn setur upp innheimtufulltrúa í **innheimtufulltrúi** skjámynd.
+## <a name="optional-create-a-collections-team"></a><span data-ttu-id="ee121-120">Valfrjálst: Búa til innheimtuhóp</span><span class="sxs-lookup"><span data-stu-id="ee121-120">Optional: Create a collections team</span></span>
+<span data-ttu-id="ee121-121">Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtuhóp.</span><span class="sxs-lookup"><span data-stu-id="ee121-121">If multiple people in your organization do collections work, you can set up a collections team.</span></span> <span data-ttu-id="ee121-122">Hægt er að velja hóps á **Færibreytur viðskiptakrafna** síðunni.</span><span class="sxs-lookup"><span data-stu-id="ee121-122">You can select the team on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="ee121-123">Ef þú ekki stofna innheimtuhóp, verður ein slík búin til sjálfkrafa þegar notandinn setur upp innheimtufulltrúa í **innheimtufulltrúi** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="ee121-123">If you don't create a collections team, a team is created automatically when you set up collections agents on the **Collections agent** page.</span></span>
 
-## <a name="set-up-a-collections-case-category"></a>Setja upp innheimtumálstegund
-Ef skipuleggja á innheimtuvinnu með því að nota mál skal setja upp málstegund með gerð flokks **innheimtur**. Þessi uppsetning er bara nauðsynleg ef á að nota málsvirkni á síðunni **Innheimtur**.
+## <a name="set-up-a-collections-case-category"></a><span data-ttu-id="ee121-124">Setja upp innheimtumálstegund</span><span class="sxs-lookup"><span data-stu-id="ee121-124">Set up a collections case category</span></span>
+<span data-ttu-id="ee121-125">Ef skipuleggja á innheimtuvinnu með því að nota mál skal setja upp málstegund með gerð flokks **innheimtur**.</span><span class="sxs-lookup"><span data-stu-id="ee121-125">If you will use cases to organize your collections work, set up a case category that has the **Collections** category type.</span></span> <span data-ttu-id="ee121-126">Þessi uppsetning er bara nauðsynleg ef á að nota málsvirkni á síðunni **Innheimtur**.</span><span class="sxs-lookup"><span data-stu-id="ee121-126">This setup is required only if you want to use the case functionality on the **Collections** page.</span></span>
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Setja upp færslubókarnöfn (jöfnun, afskrift, og innistæðulaus sjóður)
-Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **innheimtur** síðunni. Þetta ferli innifelur jöfnun á færslu, afskrift færslu, og vinnslu á innistæðulaust (NSF).
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a><span data-ttu-id="ee121-127">Setja upp færslubókarnöfn (jöfnun, afskrift, og innistæðulaus sjóður)</span><span class="sxs-lookup"><span data-stu-id="ee121-127">Set up journal names (settlement, writeoff, and NSF)</span></span>
+<span data-ttu-id="ee121-128">Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **innheimtur** síðunni.</span><span class="sxs-lookup"><span data-stu-id="ee121-128">Set up the journal names that are used when transactions are processed on the **Collections** page.</span></span> <span data-ttu-id="ee121-129">Þetta ferli innifelur jöfnun á færslu, afskrift færslu, og vinnslu á innistæðulaust (NSF).</span><span class="sxs-lookup"><span data-stu-id="ee121-129">This processing includes settlement of a transaction, write-off of a transaction, and processing of a not sufficient funds (NSF) payment.</span></span>
 
-| Lýsing | Færslubókargerð     |
+| <span data-ttu-id="ee121-130">Lýsing</span><span class="sxs-lookup"><span data-stu-id="ee121-130">Description</span></span> | <span data-ttu-id="ee121-131">Færslubókargerð</span><span class="sxs-lookup"><span data-stu-id="ee121-131">Journal type</span></span>     |
 |-------------|------------------|
-| Byggt svæði  | Greiðsla viðskiptavinar |
-| Afskrift   | Daglega            |
-| Innistæðulaus sjóður         | Greiðsla viðskiptavinar |
+| <span data-ttu-id="ee121-132">Byggt svæði</span><span class="sxs-lookup"><span data-stu-id="ee121-132">Settlement</span></span>  | <span data-ttu-id="ee121-133">Greiðsla viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="ee121-133">Customer payment</span></span> |
+| <span data-ttu-id="ee121-134">Afskrift</span><span class="sxs-lookup"><span data-stu-id="ee121-134">Write-off</span></span>   | <span data-ttu-id="ee121-135">Daglega</span><span class="sxs-lookup"><span data-stu-id="ee121-135">Daily</span></span>            |
+| <span data-ttu-id="ee121-136">Innistæðulaus sjóður</span><span class="sxs-lookup"><span data-stu-id="ee121-136">NSF</span></span>         | <span data-ttu-id="ee121-137">Greiðsla viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="ee121-137">Customer payment</span></span> |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Setja upp ástæðukóða fyrir afskriftarfærslur
-Setja upp sjálfgefinn ástæðukóða sem er notaður þegar færslur eru afskrifaðar á síðunni **Innheimta**. Hægt er að breyta kóða við afskriftarferli.
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a><span data-ttu-id="ee121-138">Setja upp ástæðukóða fyrir afskriftarfærslur</span><span class="sxs-lookup"><span data-stu-id="ee121-138">Set up a reason code for writeoff transactions</span></span>
+<span data-ttu-id="ee121-139">Setja upp sjálfgefinn ástæðukóða sem er notaður þegar færslur eru afskrifaðar á síðunni **Innheimta**.</span><span class="sxs-lookup"><span data-stu-id="ee121-139">Set up the default reason code that is used when transactions are written off on the **Collections** page.</span></span> <span data-ttu-id="ee121-140">Hægt er að breyta kóða við afskriftarferli.</span><span class="sxs-lookup"><span data-stu-id="ee121-140">You can change the code during the write-off process.</span></span>
 
-## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Setja upp möppu fyrir viðhengi í tölvupósti og stofna sniðmát tölvupósts
-Ef þú sendir tölvupóst úr á **innheimtur** síðu sem hefur Microsoft Excel viðhengi , er hægt að stofna valfrjáls sniðmát tölvupósts fyrir þessi skilaboð.
+## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a><span data-ttu-id="ee121-141">Setja upp möppu fyrir viðhengi í tölvupósti og stofna sniðmát tölvupósts</span><span class="sxs-lookup"><span data-stu-id="ee121-141">Set up a folder for email attachments and create email templates</span></span>
+<span data-ttu-id="ee121-142">Ef þú sendir tölvupóst úr á **innheimtur** síðu sem hefur Microsoft Excel viðhengi , er hægt að stofna valfrjáls sniðmát tölvupósts fyrir þessi skilaboð.</span><span class="sxs-lookup"><span data-stu-id="ee121-142">If you will send email messages from the **Collections** page that have Microsoft Excel attachments, you can create optional email templates for those messages.</span></span>
 
-## <a name="set-up-accounts-receivable-parameters-for-collections"></a>Setja upp færibreytur fyrir viðskiptakröfur fyrir innheimtu
-Setjið upp færibreytur viðskiptakrafna sem birtast í flipanum **innheimtur**
+## <a name="set-up-accounts-receivable-parameters-for-collections"></a><span data-ttu-id="ee121-143">Setja upp færibreytur fyrir viðskiptakröfur fyrir innheimtu</span><span class="sxs-lookup"><span data-stu-id="ee121-143">Set up accounts receivable parameters for collections</span></span>
+<span data-ttu-id="ee121-144">Setjið upp færibreytur viðskiptakrafna sem birtast í flipanum **innheimtur**</span><span class="sxs-lookup"><span data-stu-id="ee121-144">Set up the accounts receivable parameters that appear on the **Collections** tab.</span></span>
 
-## <a name="optional-set-up-collections-agents"></a>Valfrjálst: Setja upp innheimtufulltrúa
-Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtufulltrúa. Innheimtufulltrúa er starfsmaður sem er settur upp sem notandi í **notendavensl** skjámynd. Hægt er að úthluta viðskiptavinahópum, (sem eru fyrirspurnir viðskiptavinar), á innheimtufulltrúa til að aðstoða fulltrúa við að skipuleggja vinnu sína. Innheimtufulltrúum er bætt við hópinn sem er valinn á síðunni **Færibreytur viðskiptakrafna**. Ef hópur er ekki valinn á þeirri síðu, er nýr hópur með heitinu **Innheimtur** stofnaður sjálfvirkt og innheimtufulltrúa er bætt við þann hóp.
+## <a name="optional-set-up-collections-agents"></a><span data-ttu-id="ee121-145">Valfrjálst: Setja upp innheimtufulltrúa</span><span class="sxs-lookup"><span data-stu-id="ee121-145">Optional: Set up collections agents</span></span>
+<span data-ttu-id="ee121-146">Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="ee121-146">If multiple people in your organization do collections work, you can set up collections agents.</span></span> <span data-ttu-id="ee121-147">Innheimtufulltrúa er starfsmaður sem er settur upp sem notandi í **notendavensl** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="ee121-147">A collections agent is a worker who is set up as a user on the **User relations** page.</span></span> <span data-ttu-id="ee121-148">Hægt er að úthluta viðskiptavinahópum, (sem eru fyrirspurnir viðskiptavinar), á innheimtufulltrúa til að aðstoða fulltrúa við að skipuleggja vinnu sína.</span><span class="sxs-lookup"><span data-stu-id="ee121-148">You can assign customer pools (customer queries) to collections agents to help the agents organize their work.</span></span> <span data-ttu-id="ee121-149">Innheimtufulltrúum er bætt við hópinn sem er valinn á síðunni **Færibreytur viðskiptakrafna**.</span><span class="sxs-lookup"><span data-stu-id="ee121-149">The collections agents are added to the team that is selected on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="ee121-150">Ef hópur er ekki valinn á þeirri síðu, er nýr hópur með heitinu **Innheimtur** stofnaður sjálfvirkt og innheimtufulltrúa er bætt við þann hóp.</span><span class="sxs-lookup"><span data-stu-id="ee121-150">If a team isn't selected on that page, a new team that is named **Collections** is automatically created, and the collections agents are added to that team.</span></span>
 
-## <a name="set-up-a-writeoff-account"></a>Setja upp afskriftalykil
-Setja upp afskriftalykil sem er notaður fyrir afskriftarfærslu fjárhags þegar færsla er afskrifuð. Þessi lykill er geymt í bókunarreglu viðskiptavinar.
+## <a name="set-up-a-writeoff-account"></a><span data-ttu-id="ee121-151">Setja upp afskriftalykil</span><span class="sxs-lookup"><span data-stu-id="ee121-151">Set up a writeoff account</span></span>
+<span data-ttu-id="ee121-152">Setja upp afskriftalykil sem er notaður fyrir afskriftarfærslu fjárhags þegar færsla er afskrifuð.</span><span class="sxs-lookup"><span data-stu-id="ee121-152">Set up the write-off account that is used for the general ledger write-off entry when a transaction is written off.</span></span> <span data-ttu-id="ee121-153">Þessi lykill er geymt í bókunarreglu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="ee121-153">This account is stored on the customer posting profile.</span></span>
 
-## <a name="set-up-nsf-information-for-bank-accounts"></a>Setja upp upplýsingar um Innistæðulausan sjóð fyrir bankareikninga
-Uppfæra bankareikningum þannig að þeir hafi rétta færslubók þegar FSF-greiðsla eru auðkenndar á **innheimtur** síðunni. Á við **gjaldmiðilsstjórnun** flipanum, á **nsf-greiðslubók** skal velja greiðslubók.
+## <a name="set-up-nsf-information-for-bank-accounts"></a><span data-ttu-id="ee121-154">Setja upp upplýsingar um Innistæðulausan sjóð fyrir bankareikninga</span><span class="sxs-lookup"><span data-stu-id="ee121-154">Set up NSF information for bank accounts</span></span>
+<span data-ttu-id="ee121-155">Uppfæra bankareikningum þannig að þeir hafi rétta færslubók þegar FSF-greiðsla eru auðkenndar á **innheimtur** síðunni.</span><span class="sxs-lookup"><span data-stu-id="ee121-155">Update bank accounts so that they have the correct journal when NSF payments are identified on the **Collections** page.</span></span> <span data-ttu-id="ee121-156">Á við **gjaldmiðilsstjórnun** flipanum, á **nsf-greiðslubók** skal velja greiðslubók.</span><span class="sxs-lookup"><span data-stu-id="ee121-156">On the **Currency management** tab,  in the **NSF payment journal** field, select a payment journal.</span></span>
 
-## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Uppsetning Outlook - stillinga fyrir notendur innheimtusíðunnar
-Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota **innheimtur** síðu, verður að staðfesta að **samstilling Microsoft Outlook** skilgreiningarlykill er valinn, og að samstilling Outlook sé sett upp fyrir starfsmann.
+## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a><span data-ttu-id="ee121-157">Uppsetning Outlook - stillinga fyrir notendur innheimtusíðunnar</span><span class="sxs-lookup"><span data-stu-id="ee121-157">Set up Outlook settings for users of the Collections page</span></span>
+<span data-ttu-id="ee121-158">Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota **innheimtur** síðu, verður að staðfesta að **samstilling Microsoft Outlook** skilgreiningarlykill er valinn, og að samstilling Outlook sé sett upp fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="ee121-158">Before workers can create activities or send email messages by using the **Collections** page, you must verify that the **Microsoft Outlook synchronization** configuration key is selected, and that Outlook synchronization is set up for those workers.</span></span>
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.
-Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
+## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a><span data-ttu-id="ee121-159">Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.</span><span class="sxs-lookup"><span data-stu-id="ee121-159">Set up email and address settings for collections customer contacts</span></span>
+<span data-ttu-id="ee121-160">Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu.</span><span class="sxs-lookup"><span data-stu-id="ee121-160">Set up email addresses for customer contacts if you want to send email messages to those contacts from the **Collections** page.</span></span> <span data-ttu-id="ee121-161">Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="ee121-161">The collections contact is used as the default contact on the **Collections** page.</span></span> <span data-ttu-id="ee121-162">Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri.</span><span class="sxs-lookup"><span data-stu-id="ee121-162">You can set up a statement address for a customer if statements should use an address other than the primary address.</span></span> 
 
-Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi. Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur** síðu og er sú persóna sem tölvupóstsskilaboð eru send til. 
+<span data-ttu-id="ee121-163">Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi.</span><span class="sxs-lookup"><span data-stu-id="ee121-163">On the **Credit and Collections** FastTab for a customer, in the **Collections contact** field, select the person in the customer organization who works with your collections agent.</span></span> <span data-ttu-id="ee121-164">Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur** síðu og er sú persóna sem tölvupóstsskilaboð eru send til.</span><span class="sxs-lookup"><span data-stu-id="ee121-164">This person is used as the default contact on the **Collections** page, and email messages are sent to him or her.</span></span> 
 
 > [!NOTE] 
-> Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður** síðu.
+> <span data-ttu-id="ee121-165">Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað.</span><span class="sxs-lookup"><span data-stu-id="ee121-165">If a collections contact isn't specified for a customer, the primary contact for the customer is used.</span></span> <span data-ttu-id="ee121-166">Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður** síðu.</span><span class="sxs-lookup"><span data-stu-id="ee121-166">If a primary contact isn't specified, email messages are sent to the first address that is listed on the **Contacts** page.</span></span>
 
-## <a name="set-up-email-settings-for-salespeople"></a>Setja upp stillingar fyrir tölvupóst sölumanna
-Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
+## <a name="set-up-email-settings-for-salespeople"></a><span data-ttu-id="ee121-167">Setja upp stillingar fyrir tölvupóst sölumanna</span><span class="sxs-lookup"><span data-stu-id="ee121-167">Set up email settings for salespeople</span></span>
+<span data-ttu-id="ee121-168">Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu.</span><span class="sxs-lookup"><span data-stu-id="ee121-168">Set up email addresses for salespeople if you want to send email messages to salespeople from the **Collections** page.</span></span> <span data-ttu-id="ee121-169">Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki.</span><span class="sxs-lookup"><span data-stu-id="ee121-169">Set up an email address for each sales representative in each commission sales group.</span></span> <span data-ttu-id="ee121-170">Sölufulltrúi sem hefur **tengiliður** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til.</span><span class="sxs-lookup"><span data-stu-id="ee121-170">The sales representative who has the **Contact** option selected is the default salesperson that email messages are sent to.</span></span> 
 
-Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskiptamanns notað. Ef aðalsölumaður er ekki tilgreindur, verða tölvupóstsskilaboð send til fyrsta sölumanns á listanum á síðunni.
+<span data-ttu-id="ee121-171">Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskiptamanns notað.</span><span class="sxs-lookup"><span data-stu-id="ee121-171">If a sales representative isn't specified, the primary salesperson for the customer organization is used.</span></span> <span data-ttu-id="ee121-172">Ef aðalsölumaður er ekki tilgreindur, verða tölvupóstsskilaboð send til fyrsta sölumanns á listanum á síðunni.</span><span class="sxs-lookup"><span data-stu-id="ee121-172">If a primary salesperson isn't specified, email messages are sent to the first salesperson who is listed on the page.</span></span>
 
 
-Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+<span data-ttu-id="ee121-173">Frekari upplýsingar er hægt að finna í eftirfarandi efni:</span><span class="sxs-lookup"><span data-stu-id="ee121-173">For more information, see the following topics:</span></span>
 
- - [Stofna innheimtubréfaröð](tasks/create-collection-letter-sequence.md)
+ - [<span data-ttu-id="ee121-174">Stofna innheimtubréfaröð</span><span class="sxs-lookup"><span data-stu-id="ee121-174">Create a collection letter sequence</span></span>](tasks/create-collection-letter-sequence.md)
  
- - [Vinna úr innheimtubréfum](tasks/process-collection-letters.md)
+ - [<span data-ttu-id="ee121-175">Vinna úr innheimtubréfum</span><span class="sxs-lookup"><span data-stu-id="ee121-175">Process collection letters</span></span>](tasks/process-collection-letters.md)
  
- - [Fara yfir innheimtuupplýsingar](tasks/review-collections-information.md)
-
+ - [<span data-ttu-id="ee121-176">Fara yfir innheimtuupplýsingar</span><span class="sxs-lookup"><span data-stu-id="ee121-176">Review collections information</span></span>](tasks/review-collections-information.md)
 

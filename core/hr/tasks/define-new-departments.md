@@ -16,39 +16,39 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 09f8af89861c94e6327c25803e19e173be5d4fd5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 36cf78bb9d97b1551ebfac6bf5f3f17ebbc78c6f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-new-departments"></a>Skilgreina nýjar deildir
+# <a name="define-new-departments"></a><span data-ttu-id="395e7-103">Skilgreina nýjar deildir</span><span class="sxs-lookup"><span data-stu-id="395e7-103">Define new departments</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deildir eru rekstrareiningar sem standa fyrir virku svæði fyrirtækis, svo sem sölu- eða bókhald. Mörg fyrirtæki hafa stigveldi fyrirtækis sem sýna mismunandi deildir innan fyrirtækis. Þetta ferli fer í gegnum ferlið fyrir stofnun deildir og bæta þeim deildum við stigveldi fyrirtækisdeilda. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="395e7-104">Deildir eru rekstrareiningar sem standa fyrir virku svæði fyrirtækis, svo sem sölu- eða bókhald.</span><span class="sxs-lookup"><span data-stu-id="395e7-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="395e7-105">Mörg fyrirtæki hafa stigveldi fyrirtækis sem sýna mismunandi deildir innan fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="395e7-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="395e7-106">Þetta ferli fer í gegnum ferlið fyrir stofnun deildir og bæta þeim deildum við stigveldi fyrirtækisdeilda.</span><span class="sxs-lookup"><span data-stu-id="395e7-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="395e7-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="395e7-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Fara í Mannauður > Deildir > Deildir.
-2. Smellt er á Nýtt til að opna felligluggann.
-3. Í reitinn Heiti skal slá inn gildi.
-    * Dæmi: innheimta verks  
-4. Í reitinn minnisblað skal slá inn gildi.
-    * Dæmi: innheimta verks  
-5. Færa inn eða veljið gildi í svæðinu stjórnanda.
-    * Dæmi: Jodi Christiansen  
-6. Smellið á „Vista“.
-7. Lokið síðunni.
-8. Fara í Mannauður > Deildir > Stigveldi Deildir.
-9. Smellið á „Breyta“.
-10. Smellt er á Setja inn.
-11. Smellt er á Deild.
-12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Dæmi: innheimta verks  
-13. Smellið á „Í lagi“.
-14. Smellt er á Birta til að opna felligluggann.
-15. Færa inn dagsetningu og tíma í svæðinu gildisdagsetningu.
-    * Þegar birtingu stigveldi deildar, hægt er að velja hvenær á að gera breytingarnar virkar. Breytingar má dagsett fram í tímann. Til dæmis veistu hugsanlega að í upphafi fjárhagsárs þíns verður að bæta við auka deild. Hægt er að setja gildisdagsetningu í byrjun fjárhagsársins og breytingar á stigveldinu verða virkar á þeirri dagsetningu.  
-16. Í reitnum Lýsa breytingum skal slá inn gildi.
-17. Smelltu á Birta.
+1. <span data-ttu-id="395e7-108">Fara í Mannauður > Deildir > Deildir.</span><span class="sxs-lookup"><span data-stu-id="395e7-108">Go to Human resources > Departments > Departments.</span></span>
+2. <span data-ttu-id="395e7-109">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="395e7-109">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="395e7-110">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="395e7-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="395e7-111">Dæmi: innheimta verks</span><span class="sxs-lookup"><span data-stu-id="395e7-111">Example: Project billing</span></span>  
+4. <span data-ttu-id="395e7-112">Í reitinn minnisblað skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="395e7-112">In the Memo field, type a value.</span></span>
+    * <span data-ttu-id="395e7-113">Dæmi: innheimta verks</span><span class="sxs-lookup"><span data-stu-id="395e7-113">Example: Project billing</span></span>  
+5. <span data-ttu-id="395e7-114">Færa inn eða veljið gildi í svæðinu stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="395e7-114">In the Manager field, enter or select a value.</span></span>
+    * <span data-ttu-id="395e7-115">Dæmi: Jodi Christiansen</span><span class="sxs-lookup"><span data-stu-id="395e7-115">Example: Jodi Christiansen</span></span>  
+6. <span data-ttu-id="395e7-116">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="395e7-116">Click Save.</span></span>
+7. <span data-ttu-id="395e7-117">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="395e7-117">Close the page.</span></span>
+8. <span data-ttu-id="395e7-118">Fara í Mannauður > Deildir > Stigveldi Deildir.</span><span class="sxs-lookup"><span data-stu-id="395e7-118">Go to Human resources > Departments > Department hierarchy.</span></span>
+9. <span data-ttu-id="395e7-119">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="395e7-119">Click Edit.</span></span>
+10. <span data-ttu-id="395e7-120">Smellt er á Setja inn.</span><span class="sxs-lookup"><span data-stu-id="395e7-120">Click Insert.</span></span>
+11. <span data-ttu-id="395e7-121">Smellt er á Deild.</span><span class="sxs-lookup"><span data-stu-id="395e7-121">Click Department.</span></span>
+12. <span data-ttu-id="395e7-122">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="395e7-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="395e7-123">Dæmi: innheimta verks</span><span class="sxs-lookup"><span data-stu-id="395e7-123">Example: Project billing</span></span>  
+13. <span data-ttu-id="395e7-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="395e7-124">Click OK.</span></span>
+14. <span data-ttu-id="395e7-125">Smellt er á Birta til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="395e7-125">Click Publish to open the drop dialog.</span></span>
+15. <span data-ttu-id="395e7-126">Færa inn dagsetningu og tíma í svæðinu gildisdagsetningu.</span><span class="sxs-lookup"><span data-stu-id="395e7-126">In the Effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="395e7-127">Þegar birtingu stigveldi deildar, hægt er að velja hvenær á að gera breytingarnar virkar.</span><span class="sxs-lookup"><span data-stu-id="395e7-127">When publishing the department hierarchy, you can select when to make the changes effective.</span></span> <span data-ttu-id="395e7-128">Breytingar má dagsett fram í tímann.</span><span class="sxs-lookup"><span data-stu-id="395e7-128">Changes can be future dated.</span></span> <span data-ttu-id="395e7-129">Til dæmis veistu hugsanlega að í upphafi fjárhagsárs þíns verður að bæta við auka deild.</span><span class="sxs-lookup"><span data-stu-id="395e7-129">For example, you may know that at the beginning of your fiscal year you will be adding an additional department.</span></span> <span data-ttu-id="395e7-130">Hægt er að setja gildisdagsetningu í byrjun fjárhagsársins og breytingar á stigveldinu verða virkar á þeirri dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="395e7-130">You can set your effective date to the beginning of the fiscal year, and the changes to the hierarchy will be effective on that date.</span></span>  
+16. <span data-ttu-id="395e7-131">Í reitnum Lýsa breytingum skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="395e7-131">In the Describe changes field, type a value.</span></span>
+17. <span data-ttu-id="395e7-132">Smelltu á Birta.</span><span class="sxs-lookup"><span data-stu-id="395e7-132">Click Publish.</span></span>
 
 

@@ -18,38 +18,38 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df97cad657164866b83fa0ca8f10091317f92a88
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 3f5ed28400f333776ce4a5de47ce52aed49094e3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="accounting-source-explorer"></a>Skoðun uppruna bókhalds
+# <a name="accounting-source-explorer"></a><span data-ttu-id="d96bc-103">Skoðun uppruna bókhalds</span><span class="sxs-lookup"><span data-stu-id="d96bc-103">Accounting source explorer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessari grein veitir upplýsingar um hugbúnaðinn skoðun bókhaldsuppruna, sem hægt er að nota fyrir nákvæma greiningu á upprunaupplýsingum á bakvið færslur fjárhagslykils.
+<span data-ttu-id="d96bc-104">Þessari grein veitir upplýsingar um hugbúnaðinn skoðun bókhaldsuppruna, sem hægt er að nota fyrir nákvæma greiningu á upprunaupplýsingum á bakvið færslur fjárhagslykils.</span><span class="sxs-lookup"><span data-stu-id="d96bc-104">This article provides information about Accounting source explorer, which you can use for detailed analysis of the source information behind general ledger accounting entries.</span></span>
 
-Skoðun uppruna bókhalds er ný síða sem sýnir upplýsingar um uppruna. Hægt er að nota Skoðun uppruna bókhalds annaðhvort sem stakt verkfæri eða til að greina upplýsingar á bak við bókhaldsfærslur í fjárhag. Til dæmis er hægt að nota Skoðun uppruna bókhalds til°að fá sem nákvæmastar upplýsingar um uppruna fyrir stöðu á Endurskoðunarstöðu eða fylgiskjali færslu. Hægt er að nota eiginleikann Flytja yfir í MS Excel til frekari skoðunar á upplýsingunum í Microsoft Excel (til dæmis í PivotTable eða PivotTable-skýrslu).
+<span data-ttu-id="d96bc-105">Skoðun uppruna bókhalds er ný síða sem sýnir upplýsingar um uppruna.</span><span class="sxs-lookup"><span data-stu-id="d96bc-105">Accounting source explorer is a new page that shows source information.</span></span> <span data-ttu-id="d96bc-106">Hægt er að nota Skoðun uppruna bókhalds annaðhvort sem stakt verkfæri eða til að greina upplýsingar á bak við bókhaldsfærslur í fjárhag.</span><span class="sxs-lookup"><span data-stu-id="d96bc-106">You can use Accounting source explorer either as a stand-alone tool or to analyze the details behind general ledger accounting entries.</span></span> <span data-ttu-id="d96bc-107">Til dæmis er hægt að nota Skoðun uppruna bókhalds til°að fá sem nákvæmastar upplýsingar um uppruna fyrir stöðu á Endurskoðunarstöðu eða fylgiskjali færslu.</span><span class="sxs-lookup"><span data-stu-id="d96bc-107">For example, you can use Accounting source explorer to get the most detailed source information for a balance in Trail balance or for a voucher transaction.</span></span> <span data-ttu-id="d96bc-108">Hægt er að nota eiginleikann Flytja yfir í MS Excel til frekari skoðunar á upplýsingunum í Microsoft Excel (til dæmis í PivotTable eða PivotTable-skýrslu).</span><span class="sxs-lookup"><span data-stu-id="d96bc-108">You can then use the Export to MS Excel feature to further slice and dice the information in Microsoft Excel (for example, in a PivotTable or on a PivotTable report).</span></span>
 
-Skoðun uppruna lykils sýnir alltaf sömu heildarupphæð fyrir hvern fjárhagslykil°eins og fjárhagurinn sýnir (t.d. í prófjöfnuði). Eins°og í prófjöfnuði er hægt að birta hluta í aðskildum dálkum. Veljið viðeigandi fjárhagsvíddasafn. 
+<span data-ttu-id="d96bc-109">Skoðun uppruna lykils sýnir alltaf sömu heildarupphæð fyrir hvern fjárhagslykil°eins og fjárhagurinn sýnir (t.d. í prófjöfnuði).</span><span class="sxs-lookup"><span data-stu-id="d96bc-109">Accounting source explorer always shows the same total amount per ledger account as General ledger shows (for example, in Trial balance).</span></span> <span data-ttu-id="d96bc-110">Eins°og í prófjöfnuði er hægt að birta hluta í aðskildum dálkum.</span><span class="sxs-lookup"><span data-stu-id="d96bc-110">As in Trial balance, you can display segments in separate columns.</span></span> <span data-ttu-id="d96bc-111">Veljið viðeigandi fjárhagsvíddasafn.</span><span class="sxs-lookup"><span data-stu-id="d96bc-111">Just select the appropriate financial dimension set.</span></span> 
 
-Hægt er að nota færibreytur til að skilgreina tímabil fyrir greiningu. Þessi virkni svipar einnig til aðgerða í prófjöfnuði.
+<span data-ttu-id="d96bc-112">Hægt er að nota færibreytur til að skilgreina tímabil fyrir greiningu.</span><span class="sxs-lookup"><span data-stu-id="d96bc-112">You can use parameters to define a date interval for the analysis.</span></span> <span data-ttu-id="d96bc-113">Þessi virkni svipar einnig til aðgerða í prófjöfnuði.</span><span class="sxs-lookup"><span data-stu-id="d96bc-113">This functionality also resembles the functionality in Trial balance.</span></span>
 
-Fyrir öll skjöl sem eru notuð í upprunaskjalsrammanum sýnir Skoðun uppruna lykils viðbótarupplýsingar, byggðar á dreifingu á fjárhagsupphæð og, ef við á, dreifingu á fjárhagsupphæð. Þessar upplýsingar fela meðal annars í sér gerð peningaupphæðar, verk, verkþátt, tegund og línueiginleika. Hér eru nokkur°dæmi um greiningu sem hægt er að gera:
+<span data-ttu-id="d96bc-114">Fyrir öll skjöl sem eru notuð í upprunaskjalsrammanum sýnir Skoðun uppruna lykils viðbótarupplýsingar, byggðar á dreifingu á fjárhagsupphæð og, ef við á, dreifingu á fjárhagsupphæð.</span><span class="sxs-lookup"><span data-stu-id="d96bc-114">For all documents that use the source document framework, Accounting source explorer shows additional information, based on accounting distributions and, if applicable, project accounting distributions.</span></span> <span data-ttu-id="d96bc-115">Þessar upplýsingar fela meðal annars í sér gerð peningaupphæðar, verk, verkþátt, tegund og línueiginleika.</span><span class="sxs-lookup"><span data-stu-id="d96bc-115">This information includes the monetary amount type, project, activity, category, and line property.</span></span> <span data-ttu-id="d96bc-116">Hér eru nokkur°dæmi um greiningu sem hægt er að gera:</span><span class="sxs-lookup"><span data-stu-id="d96bc-116">Here are some examples of the analysis that you can do:</span></span>
 
--   Frávik milli innkaupapantana og reikninga lánardrottna, þar sem hvert frávik er táknað af peningaupphæð, t.d. gjaldfráviki.
--   Reikningshæfir eða ekki reikningshæfir tímar og útgjöld á verk, viðskiptaeiningu og aðallykil.
+-   <span data-ttu-id="d96bc-117">Frávik milli innkaupapantana og reikninga lánardrottna, þar sem hvert frávik er táknað af peningaupphæð, t.d. gjaldfráviki.</span><span class="sxs-lookup"><span data-stu-id="d96bc-117">Variances between purchase orders and vendor invoices, because each variance is represented by a monetary amount type, such as charge variance</span></span>
+-   <span data-ttu-id="d96bc-118">Reikningshæfir eða ekki reikningshæfir tímar og útgjöld á verk, viðskiptaeiningu og aðallykil.</span><span class="sxs-lookup"><span data-stu-id="d96bc-118">Billable versus non-billable hours and expenses per project, business unit, and main account</span></span>
 
-Fyrir upprunaskjöl sem nota einkennishugtakið tilvísanir í upprunaskjöl, gefur Skoðun uppruna bókhalds jafnvel nánari upplýsingar, svo sem um viðskiptavin, lánardrottin, starfsmann, afurð, magn, textaeiningu og lýsingar. Hér eru nokkur°dæmi um greiningu sem hægt er að gera:
+<span data-ttu-id="d96bc-119">Fyrir upprunaskjöl sem nota einkennishugtakið tilvísanir í upprunaskjöl, gefur Skoðun uppruna bókhalds jafnvel nánari upplýsingar, svo sem um viðskiptavin, lánardrottin, starfsmann, afurð, magn, textaeiningu og lýsingar.</span><span class="sxs-lookup"><span data-stu-id="d96bc-119">For source documents that use the source document reference identities concept, Accounting source explorer shows even more details, such as the customer, vendor, worker, product, quantity, unit text, and descriptions.</span></span> <span data-ttu-id="d96bc-120">Hér eru nokkur°dæmi um greiningu sem hægt er að gera:</span><span class="sxs-lookup"><span data-stu-id="d96bc-120">Here are some examples of the analysis that you can do:</span></span>
 
--   Hótelútgjöld eftir viðskiptaeiningu og hótel vörumerki fyrir fjárhagstímabil, byggt á kostnaðarskýrslum
--   Afsláttur fyrir lánardrottin, vöru, deild
+-   <span data-ttu-id="d96bc-121">Hótelútgjöld eftir viðskiptaeiningu og hótel vörumerki fyrir fjárhagstímabil, byggt á kostnaðarskýrslum</span><span class="sxs-lookup"><span data-stu-id="d96bc-121">Hotel expenses per business unit and hotel brand for a fiscal period, based on expense reports</span></span>
+-   <span data-ttu-id="d96bc-122">Afsláttur fyrir lánardrottin, vöru, deild</span><span class="sxs-lookup"><span data-stu-id="d96bc-122">Discounts per vendor, product, department</span></span>
 
-Fyrir þessi skjöl er einnig hægt að skoða raunveruleg upprunaskjöl úr Skoðun uppruna bókhalds.
+<span data-ttu-id="d96bc-123">Fyrir þessi skjöl er einnig hægt að skoða raunveruleg upprunaskjöl úr Skoðun uppruna bókhalds.</span><span class="sxs-lookup"><span data-stu-id="d96bc-123">For these documents, you can also navigate to the actual source document from Accounting source explorer.</span></span>
 
 
 

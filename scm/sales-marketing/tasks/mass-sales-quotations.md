@@ -16,88 +16,88 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bb32fbf14e7a96481dd78059e0299e33e754c0d7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1fcb2c4d47f0c8e701be025e0554ed476693d732
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="mass-create-sales-quotations"></a>Stofna fjölda sölutilboða
+# <a name="mass-create-sales-quotations"></a><span data-ttu-id="76ba4-103">Stofna fjölda sölutilboða</span><span class="sxs-lookup"><span data-stu-id="76ba4-103">Mass create sales quotations</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig stofna á hagkvæman hátt tilboð og bjóða úrval af vörum eða þjónustu sem á að senda mörg viðskiptavinum. Stofnun margra tilboða er byggt á tilboðssniðmát. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis.
+<span data-ttu-id="76ba4-104">Þetta ferli sýnir hvernig stofna á hagkvæman hátt tilboð og bjóða úrval af vörum eða þjónustu sem á að senda mörg viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="76ba4-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="76ba4-105">Stofnun margra tilboða er byggt á tilboðssniðmát.</span><span class="sxs-lookup"><span data-stu-id="76ba4-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="76ba4-106">Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="76ba4-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-quotation-template"></a>Stofna a sniðmát tilboðs
-1. Fara í Sölu og markaðssetningu > Uppsetning > Tilboð > Sniðmátsflokka.
-2. Smellið á „Nýtt“.
-3. Rita Kenni að eigin vali í svæðinu Flokkskenni.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Smellið á „Vista“.
-6. Lokið síðunni.
-7. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
-8. Smellið á „Nýtt“.
-9. Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.
-10. Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.
-11. Smellið á „Í lagi“.
-    * Fyrir tilboð að verða sniðmát verður að framkvæma uppsetningu skref í tilboðshausnum. Það verður gert áður en línum er bætt við tilboðið.   
-12. Í aðgerðasvæðinu er smellt á valkostir.
-13. Smellið á skoða Breytingu.
-14. Smellið á skoða Haus.
-15. Víkka út hlutann Uppsetning.
-16. Í reitinn kenni hóps skal slá inn eða velja gildi.
-17. Í reitinn Heiti sniðmáts skal slá inn gildi.
-18. Velja skal Já í Virka svæðinu.
-    * Hægt er að nota aðeins virk sniðmát þegar sniðmátsuppskrift er beitt í nýja sölutilboðið.  
-19. Í aðgerðasvæðinu er smellt á valkostir.
-20. Smellið á skoða Breytingu.
-21. Smellið á Línuyfirlit.
-22. Í reitinn vara skal slá inn eða veldu gildi.
-23. Í reitinn vara skal slá inn gildi.
-24. Lokið síðunni.
-25. Færið inn tölu í svæðinu afsláttarprósenta.
-26. Smella á bæta Við línu.
-27. Í reitinn vara skal slá inn eða veldu gildi.
-28. Í reitinn vara skal slá inn gildi.
-29. Lokið síðunni.
-30. Færa inn nýtt verð eða breyta gildandi í svæðinu einingarverð.
-31. Smella á bæta Við línu.
-32. Í reitinn vara skal slá inn eða veldu gildi.
-33. Í reitinn vara skal slá inn gildi.
-34. Lokið síðunni.
-35. Færið inn númer í reitnum „Magn“.
-36. Í reitinn afsláttur skal slá inn númer.
-37. Smellið á „Vista“.
+## <a name="create-a-quotation-template"></a><span data-ttu-id="76ba4-107">Stofna a sniðmát tilboðs</span><span class="sxs-lookup"><span data-stu-id="76ba4-107">Create a quotation template</span></span>
+1. <span data-ttu-id="76ba4-108">Fara í Sölu og markaðssetningu > Uppsetning > Tilboð > Sniðmátsflokka.</span><span class="sxs-lookup"><span data-stu-id="76ba4-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
+2. <span data-ttu-id="76ba4-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-109">Click New.</span></span>
+3. <span data-ttu-id="76ba4-110">Rita Kenni að eigin vali í svæðinu Flokkskenni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-110">In the Group ID field, type an ID of your choice.</span></span>
+4. <span data-ttu-id="76ba4-111">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="76ba4-112">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-112">Click Save.</span></span>
+6. <span data-ttu-id="76ba4-113">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-113">Close the page.</span></span>
+7. <span data-ttu-id="76ba4-114">Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.</span><span class="sxs-lookup"><span data-stu-id="76ba4-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+8. <span data-ttu-id="76ba4-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-115">Click New.</span></span>
+9. <span data-ttu-id="76ba4-116">Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-116">In the Account type field, select 'Customer'.</span></span>
+10. <span data-ttu-id="76ba4-117">Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="76ba4-117">In the Customer account field, enter or select a value.</span></span>
+11. <span data-ttu-id="76ba4-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-118">Click OK.</span></span>
+    * <span data-ttu-id="76ba4-119">Fyrir tilboð að verða sniðmát verður að framkvæma uppsetningu skref í tilboðshausnum.</span><span class="sxs-lookup"><span data-stu-id="76ba4-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="76ba4-120">Það verður gert áður en línum er bætt við tilboðið.</span><span class="sxs-lookup"><span data-stu-id="76ba4-120">This must be done before you add lines to the quotation.</span></span>   
+12. <span data-ttu-id="76ba4-121">Í aðgerðasvæðinu er smellt á valkostir.</span><span class="sxs-lookup"><span data-stu-id="76ba4-121">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="76ba4-122">Smellið á skoða Breytingu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-122">Click Change view.</span></span>
+14. <span data-ttu-id="76ba4-123">Smellið á skoða Haus.</span><span class="sxs-lookup"><span data-stu-id="76ba4-123">Click Header view.</span></span>
+15. <span data-ttu-id="76ba4-124">Víkka út hlutann Uppsetning.</span><span class="sxs-lookup"><span data-stu-id="76ba4-124">Expand the Setup section.</span></span>
+16. <span data-ttu-id="76ba4-125">Í reitinn kenni hóps skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-125">In the Group ID field, enter or select a value.</span></span>
+17. <span data-ttu-id="76ba4-126">Í reitinn Heiti sniðmáts skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-126">In the Template name field, type a value.</span></span>
+18. <span data-ttu-id="76ba4-127">Velja skal Já í Virka svæðinu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-127">Select Yes in the Active field.</span></span>
+    * <span data-ttu-id="76ba4-128">Hægt er að nota aðeins virk sniðmát þegar sniðmátsuppskrift er beitt í nýja sölutilboðið.</span><span class="sxs-lookup"><span data-stu-id="76ba4-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
+19. <span data-ttu-id="76ba4-129">Í aðgerðasvæðinu er smellt á valkostir.</span><span class="sxs-lookup"><span data-stu-id="76ba4-129">On the Action Pane, click Options.</span></span>
+20. <span data-ttu-id="76ba4-130">Smellið á skoða Breytingu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-130">Click Change view.</span></span>
+21. <span data-ttu-id="76ba4-131">Smellið á Línuyfirlit.</span><span class="sxs-lookup"><span data-stu-id="76ba4-131">Click Line view.</span></span>
+22. <span data-ttu-id="76ba4-132">Í reitinn vara skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-132">In the Item field, enter or select a value.</span></span>
+23. <span data-ttu-id="76ba4-133">Í reitinn vara skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-133">In the Item field, type a value.</span></span>
+24. <span data-ttu-id="76ba4-134">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-134">Close the page.</span></span>
+25. <span data-ttu-id="76ba4-135">Færið inn tölu í svæðinu afsláttarprósenta.</span><span class="sxs-lookup"><span data-stu-id="76ba4-135">In the Discount percent field, enter a number.</span></span>
+26. <span data-ttu-id="76ba4-136">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-136">Click Add line.</span></span>
+27. <span data-ttu-id="76ba4-137">Í reitinn vara skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-137">In the Item field, enter or select a value.</span></span>
+28. <span data-ttu-id="76ba4-138">Í reitinn vara skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-138">In the Item field, type a value.</span></span>
+29. <span data-ttu-id="76ba4-139">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-139">Close the page.</span></span>
+30. <span data-ttu-id="76ba4-140">Færa inn nýtt verð eða breyta gildandi í svæðinu einingarverð.</span><span class="sxs-lookup"><span data-stu-id="76ba4-140">In the Unit price field, enter a new price or change the current one.</span></span>
+31. <span data-ttu-id="76ba4-141">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-141">Click Add line.</span></span>
+32. <span data-ttu-id="76ba4-142">Í reitinn vara skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-142">In the Item field, enter or select a value.</span></span>
+33. <span data-ttu-id="76ba4-143">Í reitinn vara skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-143">In the Item field, type a value.</span></span>
+34. <span data-ttu-id="76ba4-144">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-144">Close the page.</span></span>
+35. <span data-ttu-id="76ba4-145">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-145">In the Quantity field, enter a number.</span></span>
+36. <span data-ttu-id="76ba4-146">Í reitinn afsláttur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="76ba4-146">In the Discount field, enter a number.</span></span>
+37. <span data-ttu-id="76ba4-147">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-147">Click Save.</span></span>
 
-## <a name="apply-the-template-to-create-a-single-quotation"></a>Nota sniðmát til að stofna eitt tilboð
-1. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
-    * Athugið að tilboð sem þú varst að stofna er merkt sem sniðmát.  
-2. Smellið á „Nýtt“.
-3. Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.
-4. Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.
-5. Stækkaðu hlutann Sniðmát.
-6. Í reitinn kenni hóps skal slá inn eða velja gildi.
-7. Sláið inn eða veldu gildi í reitnum heiti sniðmáts.
-8. Veljið í svæðinu útreikningsaðferð 'Byggt á sniðmátsgildum'.
-9. Smellið á „Í lagi“.
-    * Nýtt tilboð hefur nú verið stofnað, byggt á gögnum og skilmála sniðmátsins.  
-10. Lokið síðunni.
-11. Lokið síðunni.
+## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="76ba4-148">Nota sniðmát til að stofna eitt tilboð</span><span class="sxs-lookup"><span data-stu-id="76ba4-148">Apply the template to create a single quotation</span></span>
+1. <span data-ttu-id="76ba4-149">Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.</span><span class="sxs-lookup"><span data-stu-id="76ba4-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="76ba4-150">Athugið að tilboð sem þú varst að stofna er merkt sem sniðmát.</span><span class="sxs-lookup"><span data-stu-id="76ba4-150">Note that the quotation you have just created is marked as template.</span></span>  
+2. <span data-ttu-id="76ba4-151">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-151">Click New.</span></span>
+3. <span data-ttu-id="76ba4-152">Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-152">In the Account type field, select 'Customer'.</span></span>
+4. <span data-ttu-id="76ba4-153">Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="76ba4-153">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="76ba4-154">Stækkaðu hlutann Sniðmát.</span><span class="sxs-lookup"><span data-stu-id="76ba4-154">Expand the Template section.</span></span>
+6. <span data-ttu-id="76ba4-155">Í reitinn kenni hóps skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-155">In the Group ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="76ba4-156">Sláið inn eða veldu gildi í reitnum heiti sniðmáts.</span><span class="sxs-lookup"><span data-stu-id="76ba4-156">In the Template name field, enter or select a value.</span></span>
+8. <span data-ttu-id="76ba4-157">Veljið í svæðinu útreikningsaðferð 'Byggt á sniðmátsgildum'.</span><span class="sxs-lookup"><span data-stu-id="76ba4-157">In the Calculation method field, select 'Based on template values'.</span></span>
+9. <span data-ttu-id="76ba4-158">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-158">Click OK.</span></span>
+    * <span data-ttu-id="76ba4-159">Nýtt tilboð hefur nú verið stofnað, byggt á gögnum og skilmála sniðmátsins.</span><span class="sxs-lookup"><span data-stu-id="76ba4-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
+10. <span data-ttu-id="76ba4-160">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-160">Close the page.</span></span>
+11. <span data-ttu-id="76ba4-161">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="76ba4-161">Close the page.</span></span>
 
-## <a name="apply-the-template-to-mass-create-quotations"></a>Nota sniðmát til að stofna fjölda tilboða
-1. Fara í Sölu og markaðssetningu > Sölutilboð > Uppfærsla tilboðs > Stofna fjölda tilboða.
-2. Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.
-3. Í reitinn kenni hóps skal slá inn eða velja gildi.
-4. Sláið inn eða veldu gildi í reitnum heiti sniðmáts.
-5. Veljið í svæðinu útreikningsaðferð 'Byggt á sniðmátsgildum'.
-6. Útvíkka Færslur til að taka hluta.
-7. Smellt er á Síu.
-8. í svæðinu Skilyrði, Stilla síu til að ná yfir svið viðskiptavina sem á að taka með í þetta stofnun fjöldatilboðs. Notaðu eftirfarandi snið „Viðskiptavinur1... ViðskiptavinurN.
-    * Til dæmis væri hægt að setja síu: US-001..US-004  
-9. Smellið á „Í lagi“.
-10. Smellið á „Í lagi“.
-11. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
-    * Staðfestið að tilboð hafa verið stofnaðar fyrir alla viðskiptavini sem eru tilgreind í fjöldauppfærslu, sem byggist á völdu sniðmáti.  
+## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="76ba4-162">Nota sniðmát til að stofna fjölda tilboða</span><span class="sxs-lookup"><span data-stu-id="76ba4-162">Apply the template to mass create quotations</span></span>
+1. <span data-ttu-id="76ba4-163">Fara í Sölu og markaðssetningu > Sölutilboð > Uppfærsla tilboðs > Stofna fjölda tilboða.</span><span class="sxs-lookup"><span data-stu-id="76ba4-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
+2. <span data-ttu-id="76ba4-164">Veljið „Viðskiptavinur“ á svæðinu „Gerð lykils“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-164">In the Account type field, select 'Customer'.</span></span>
+3. <span data-ttu-id="76ba4-165">Í reitinn kenni hóps skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="76ba4-165">In the Group ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="76ba4-166">Sláið inn eða veldu gildi í reitnum heiti sniðmáts.</span><span class="sxs-lookup"><span data-stu-id="76ba4-166">In the Template name field, enter or select a value.</span></span>
+5. <span data-ttu-id="76ba4-167">Veljið í svæðinu útreikningsaðferð 'Byggt á sniðmátsgildum'.</span><span class="sxs-lookup"><span data-stu-id="76ba4-167">In the Calculation method field, select 'Based on template values'.</span></span>
+6. <span data-ttu-id="76ba4-168">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="76ba4-168">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="76ba4-169">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="76ba4-169">Click Filter.</span></span>
+8. <span data-ttu-id="76ba4-170">í svæðinu Skilyrði, Stilla síu til að ná yfir svið viðskiptavina sem á að taka með í þetta stofnun fjöldatilboðs.</span><span class="sxs-lookup"><span data-stu-id="76ba4-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="76ba4-171">Notaðu eftirfarandi snið „Viðskiptavinur1... ViðskiptavinurN.</span><span class="sxs-lookup"><span data-stu-id="76ba4-171">Use the following format "Customer1..CustomerN.</span></span>
+    * <span data-ttu-id="76ba4-172">Til dæmis væri hægt að setja síu: US-001..US-004</span><span class="sxs-lookup"><span data-stu-id="76ba4-172">For example, you could set the filter to: US-001..US-004</span></span>  
+9. <span data-ttu-id="76ba4-173">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-173">Click OK.</span></span>
+10. <span data-ttu-id="76ba4-174">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="76ba4-174">Click OK.</span></span>
+11. <span data-ttu-id="76ba4-175">Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.</span><span class="sxs-lookup"><span data-stu-id="76ba4-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="76ba4-176">Staðfestið að tilboð hafa verið stofnaðar fyrir alla viðskiptavini sem eru tilgreind í fjöldauppfærslu, sem byggist á völdu sniðmáti.</span><span class="sxs-lookup"><span data-stu-id="76ba4-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
 
 

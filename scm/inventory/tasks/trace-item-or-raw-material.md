@@ -1,4 +1,4 @@
---- 
+---
 title: "Rekja vöru eða hráefni"
 description: "Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,42 +17,41 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c4b093af672b2d4e1a2c91cd55470f9072d992c3
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="trace-an-item-or-raw-material"></a>Rekja vöru eða hráefni
+# <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="c6149-103">Rekja vöru eða hráefni</span><span class="sxs-lookup"><span data-stu-id="c6149-103">Trace an item or raw material</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun. Með þessu ferli er hægt að greina vöru, rekja hann til baka í uppruna og svo áframrekja í gegnum framleiðslu og sölu á endanlegu vöruna. Hægt er að nota ferlið til að rannsaka viðskiptavini sem verða fyrir áhrifum, sölupantana sem verða fyrir áhrifum og fleira. Þessi aðferð notar sýnigögn fyrirtækisins USP2.
+<span data-ttu-id="c6149-104">Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun.</span><span class="sxs-lookup"><span data-stu-id="c6149-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="c6149-105">Með þessu ferli er hægt að greina vöru, rekja hann til baka í uppruna og svo áframrekja í gegnum framleiðslu og sölu á endanlegu vöruna.</span><span class="sxs-lookup"><span data-stu-id="c6149-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="c6149-106">Hægt er að nota ferlið til að rannsaka viðskiptavini sem verða fyrir áhrifum, sölupantana sem verða fyrir áhrifum og fleira.</span><span class="sxs-lookup"><span data-stu-id="c6149-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="c6149-107">Þessi aðferð notar sýnigögn fyrirtækisins USP2.</span><span class="sxs-lookup"><span data-stu-id="c6149-107">This procedure uses demo data company USP2.</span></span>
 
 
-## <a name="trace-an-item-backwards-using-a-known-batch-number"></a>Rekja vöru með afturábak með þekkt rununúmer 
-1. Farið í Birgðastjórnun > Fyrirspurnir og skýrslur > Rakningarvíddir > Vörurakning.
-2. Í reitnum Vörunúmer velurðu P9100.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. í reitnum Áfram eða afturábak Veljið 'Afturábak' 
-5. Í rununúmer reitinn, velja „as-12-344-01"
-6. Í listanum skal smella á tengilinn í valinni línu.
-7. Smellið á „Í lagi“.
+## <a name="trace-an-item-backwards-using-a-known-batch-number"></a><span data-ttu-id="c6149-108">Rekja vöru með afturábak með þekkt rununúmer </span><span class="sxs-lookup"><span data-stu-id="c6149-108">Trace an item backwards using a known batch number</span></span>
+1. <span data-ttu-id="c6149-109">Farið í Birgðastjórnun > Fyrirspurnir og skýrslur > Rakningarvíddir > Vörurakning.</span><span class="sxs-lookup"><span data-stu-id="c6149-109">Go to Inventory management > Inquiries and reports > Tracking dimensions > Item tracing.</span></span>
+2. <span data-ttu-id="c6149-110">Í reitnum Vörunúmer velurðu P9100.</span><span class="sxs-lookup"><span data-stu-id="c6149-110">In the Item number field, select P9100.</span></span>
+3. <span data-ttu-id="c6149-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="c6149-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="c6149-112">í reitnum Áfram eða afturábak Veljið 'Afturábak' </span><span class="sxs-lookup"><span data-stu-id="c6149-112">In the Forward or backward field, select 'Backward'.</span></span>
+5. <span data-ttu-id="c6149-113">Í rununúmer reitinn, velja „as-12-344-01"</span><span class="sxs-lookup"><span data-stu-id="c6149-113">In the Batch number field, select as-12-344-01.</span></span>
+6. <span data-ttu-id="c6149-114">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="c6149-114">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="c6149-115">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="c6149-115">Click OK.</span></span>
 
-## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a>Auðkenna vöru, rekja áfram og gera greiningu
-    * Topphnútur trés sem birtist hér táknar magn á lager valinnar vöru og runu. Nauðsynlegt er að útvíkka hnúta í tré til að finna vöru sem á að keyra áframrakningu fyrir.   
-1. Í trénu, Útvíkka 'hnúta sem er lýst fyrir neðan og veljið svo síðasta hnútinn.
-    * Útvíkka: ' P9100 / 1 / 10 / as-12-344-01 ● 2 tunna ● 7.00 gal \P9100 ● Tiltekið ● sölupöntun 000072 22/12/2015 ● -1 tunna ● -4.00 gal ● Svæði = 1, Vöruhús = 10, rununúmer = as-12-344-01 \P9100 ● Framleiðsla B-000050 ● 12/9/2015● 7 tunna ● 27.00 gal ● Svæði =1,Vöruhús =10,Rununúmer =as-12-344-01 ● hliðarafurðir: P9101' og veldu síðan þann hnút.     
-2. í trénu, Útvíkka 'hnúta lýst fyrir neðan og veljið svo þann hnút',
-    * Frá hnút sem var nýverið valinn, Útvíkka ' M9103 ● framleiðslulínu B-000050 ● 12/9/2015 ● -160.00 lb ● Stærð = 70, Litur = í lagi, Svæði = 1, Vöruhús = 10, rununúmer = App01' og veldu síðan þann hnút.  
-3. Smellt er á Rakning frá hnút.
-4. Smellt er á Áfram.
-5. Í aðgerðasvæðinu er smellt á rekja.
-    * Það eru nokkrar rakningarkosti sem veita upplýsingar um viðskiptavini sem verða fyrir áhrifum af vörunni sem verið er að rekja, og sölupantanir sem tengjast vörunni sem hafa og hafa ekki verið sendar.   
-6. Smellt er á Viðskiptavini.
-7. Lokið síðunni.
-8. Í aðgerðasvæðinu er smellt á rekja.
-9. Smellt er á Sölupantanir sem voru sendar.
-10. Lokið síðunni.
-
+## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a><span data-ttu-id="c6149-116">Auðkenna vöru, rekja áfram og gera greiningu</span><span class="sxs-lookup"><span data-stu-id="c6149-116">Identify an item, trace it forward, and make an analysis</span></span>
+    * <span data-ttu-id="c6149-117">Topphnútur trés sem birtist hér táknar magn á lager valinnar vöru og runu.</span><span class="sxs-lookup"><span data-stu-id="c6149-117">The top node of the tree represents the on hand quantity of the selected item and batch.</span></span> <span data-ttu-id="c6149-118">Nauðsynlegt er að útvíkka hnúta í tré til að finna vöru sem á að keyra áframrakningu fyrir.</span><span class="sxs-lookup"><span data-stu-id="c6149-118">You need to expand the nodes of the tree to find the item that the forward trace should be executed on.</span></span>   
+1. <span data-ttu-id="c6149-119">Í trénu, Útvíkka 'hnúta sem er lýst fyrir neðan og veljið svo síðasta hnútinn.</span><span class="sxs-lookup"><span data-stu-id="c6149-119">In the tree, expand 'the nodes described below, and then select the last node'.</span></span>
+    * <span data-ttu-id="c6149-120">Útvíkka: ' P9100 / 1 / 10 / as-12-344-01 ● 2 tunna ● 7.00 gal \P9100 ● Tiltekið ● sölupöntun 000072 22/12/2015 ● -1 tunna ● -4.00 gal ● Svæði = 1, Vöruhús = 10, rununúmer = as-12-344-01 \P9100 ● Framleiðsla B-000050 ● 12/9/2015● 7 tunna ● 27.00 gal ● Svæði =1,Vöruhús =10,Rununúmer =as-12-344-01 ● hliðarafurðir: P9101' og veldu síðan þann hnút.</span><span class="sxs-lookup"><span data-stu-id="c6149-120">Expand: 'P9100 / 1 / 10 / as-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● Picked ● Sales order 000072 ● 12/22/2015  ● -1 keg ● -4.00 gal ● Site=1, Warehouse=10, Batch number=as-12-344-01  \P9100 ● Production B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Site=1,Warehouse=10,Batch number=as-12-344-01 ● Co-products: P9101' and then select that node.</span></span>     
+2. <span data-ttu-id="c6149-121">í trénu, Útvíkka 'hnúta lýst fyrir neðan og veljið svo þann hnút',</span><span class="sxs-lookup"><span data-stu-id="c6149-121">In the tree, expand 'the node described below and then select that node'.</span></span>
+    * <span data-ttu-id="c6149-122">Frá hnút sem var nýverið valinn, Útvíkka ' M9103 ● framleiðslulínu B-000050 ● 12/9/2015 ● -160.00 lb ● Stærð = 70, Litur = í lagi, Svæði = 1, Vöruhús = 10, rununúmer = App01' og veldu síðan þann hnút.</span><span class="sxs-lookup"><span data-stu-id="c6149-122">Starting from the node that you’ve just selected,  expand 'M9103 ● Production line B-000050 ● 12/9/2015  ● -160.00 lb ● Size=70, Color=OK, Site=1, Warehouse=10, Batch number=App01' and then select that node.</span></span>  
+3. <span data-ttu-id="c6149-123">Smellt er á Rakning frá hnút.</span><span class="sxs-lookup"><span data-stu-id="c6149-123">Click Trace from node.</span></span>
+4. <span data-ttu-id="c6149-124">Smellt er á Áfram.</span><span class="sxs-lookup"><span data-stu-id="c6149-124">Click Forward.</span></span>
+5. <span data-ttu-id="c6149-125">Í aðgerðasvæðinu er smellt á rekja.</span><span class="sxs-lookup"><span data-stu-id="c6149-125">On the Action Pane, click Tracing.</span></span>
+    * <span data-ttu-id="c6149-126">Það eru nokkrar rakningarkosti sem veita upplýsingar um viðskiptavini sem verða fyrir áhrifum af vörunni sem verið er að rekja, og sölupantanir sem tengjast vörunni sem hafa og hafa ekki verið sendar.</span><span class="sxs-lookup"><span data-stu-id="c6149-126">There are several tracing options which provide information about the customers impacted by the item that you’re tracing, and the sales orders related to the item which have and haven’t been shipped.</span></span>   
+6. <span data-ttu-id="c6149-127">Smellt er á Viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="c6149-127">Click Customers.</span></span>
+7. <span data-ttu-id="c6149-128">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="c6149-128">Close the page.</span></span>
+8. <span data-ttu-id="c6149-129">Í aðgerðasvæðinu er smellt á rekja.</span><span class="sxs-lookup"><span data-stu-id="c6149-129">On the Action Pane, click Tracing.</span></span>
+9. <span data-ttu-id="c6149-130">Smellt er á Sölupantanir sem voru sendar.</span><span class="sxs-lookup"><span data-stu-id="c6149-130">Click Shipped sales orders.</span></span>
+10. <span data-ttu-id="c6149-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="c6149-131">Close the page.</span></span>
 

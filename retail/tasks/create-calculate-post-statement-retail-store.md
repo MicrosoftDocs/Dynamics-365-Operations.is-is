@@ -17,34 +17,34 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 60bcafffc922e6d57e52a5dff104a0fbb252f6ce
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 42ab631e29a7fae1140acd41ad80c13e55ca1404
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Búa til, reikna og bóka yfirlit fyrir smásöluverslun
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="9b59e-103"> Búa til, reikna og bóka yfirlit fyrir smásöluverslun</span><span class="sxs-lookup"><span data-stu-id="9b59e-103">Create, calculate, and post a statement for a retail store</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
+<span data-ttu-id="9b59e-104">Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="9b59e-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="9b59e-105">Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk.</span><span class="sxs-lookup"><span data-stu-id="9b59e-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="9b59e-106">Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði.</span><span class="sxs-lookup"><span data-stu-id="9b59e-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="9b59e-107">Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9b59e-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="9b59e-108">Þessi skráning notar sýnigögn fyrirtæki USRT .</span><span class="sxs-lookup"><span data-stu-id="9b59e-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="9b59e-109">Þetta ferli gæti vísað til Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9b59e-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="9b59e-110">Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="9b59e-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 
-1. Fara í Öll vinnusvæði > .. > Fjárhagur smásöluverslunar
-2. Smella á Nýtt uppgjör.
-3. Í reitnum verslunarnúmer skal smella á fellilistahnappinn til að opna leitina.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á „Í lagi“.
-    * Uppsetning flokka hefur stillingarnar sem stýra hvaða færslur eru teknar með í uppgjörinu og hvernig þau eru flokkuð í uppgjörslínunum. Hægt er að opna Uppsetningu flokka og breyta þessum stillingum, eða hægt er að nota sem sjálfgildi.  
-    * svæðið uppgjörsaðferð skilgreinir hvernig uppgjörslínurnar verða flokkaðar.  
-    * Veljið afgreiðslukassa eða starfsmaður eigi að reikna uppgjör aðeins fyrir tiltekinn starfsmaður eða afgreiðslukassa.  
-6. Í reitnum lokunaraðferð skal velja valkost.
-7. Smellt er á Reikna út uppgjör.
-8. Smella á Já.
-    * Eftir að reikna uppgjör, ætti að vera eru stofnaðar línur með heildarupphæðir fyrir hvern greiðslumáta og uppgjörsaðferð sem var notaður.  
-    * Færa inn talda upphæð í hverja línu ef það þarf að færa inn eða uppfæra. Talið svæði er fyllt út með upphæðir frá í talning skiptimyntar gert í sölustaður.  
-9. Smellt er á Bóka uppgjör.
-10. Smellið á „Loka“.
-11. Fara í Smásala og viðskipti > Rásir > Efnahagur smásöluverslunar.
-12. Smellið á flipann Bókað uppgjör.
+1. <span data-ttu-id="9b59e-111">Fara í Öll vinnusvæði > ..</span><span class="sxs-lookup"><span data-stu-id="9b59e-111">Go to All workspaces > ..</span></span> <span data-ttu-id="9b59e-112">> Fjárhagur smásöluverslunar</span><span class="sxs-lookup"><span data-stu-id="9b59e-112">> Retail store financials.</span></span>
+2. <span data-ttu-id="9b59e-113">Smella á Nýtt uppgjör.</span><span class="sxs-lookup"><span data-stu-id="9b59e-113">Click New statement.</span></span>
+3. <span data-ttu-id="9b59e-114">Í reitnum verslunarnúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="9b59e-114">In the Store number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="9b59e-115">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="9b59e-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="9b59e-116">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="9b59e-116">Click OK.</span></span>
+    * <span data-ttu-id="9b59e-117">Uppsetning flokka hefur stillingarnar sem stýra hvaða færslur eru teknar með í uppgjörinu og hvernig þau eru flokkuð í uppgjörslínunum.</span><span class="sxs-lookup"><span data-stu-id="9b59e-117">The Setup group has the settings that control what transactions are included in the statement and how they are grouped into statement lines.</span></span> <span data-ttu-id="9b59e-118">Hægt er að opna Uppsetningu flokka og breyta þessum stillingum, eða hægt er að nota sem sjálfgildi.</span><span class="sxs-lookup"><span data-stu-id="9b59e-118">You can open the Setup group and change these settings, or you can use the defaults.</span></span>  
+    * <span data-ttu-id="9b59e-119">svæðið uppgjörsaðferð skilgreinir hvernig uppgjörslínurnar verða flokkaðar.</span><span class="sxs-lookup"><span data-stu-id="9b59e-119">The Statement method field defines how the statement lines will be grouped.</span></span>  
+    * <span data-ttu-id="9b59e-120">Veljið afgreiðslukassa eða starfsmaður eigi að reikna uppgjör aðeins fyrir tiltekinn starfsmaður eða afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="9b59e-120">Select a staff member or a register if you want to calculate a statement only for the specific staff member or register.</span></span>  
+6. <span data-ttu-id="9b59e-121">Í reitnum lokunaraðferð skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="9b59e-121">In the Closing method field, select an option.</span></span>
+7. <span data-ttu-id="9b59e-122">Smellt er á Reikna út uppgjör.</span><span class="sxs-lookup"><span data-stu-id="9b59e-122">Click Calculate statement.</span></span>
+8. <span data-ttu-id="9b59e-123">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="9b59e-123">Click Yes.</span></span>
+    * <span data-ttu-id="9b59e-124">Eftir að reikna uppgjör, ætti að vera eru stofnaðar línur með heildarupphæðir fyrir hvern greiðslumáta og uppgjörsaðferð sem var notaður.</span><span class="sxs-lookup"><span data-stu-id="9b59e-124">After calculating the statement, there should be lines created with total amounts for each payment method and statement method that was used.</span></span>  
+    * <span data-ttu-id="9b59e-125">Færa inn talda upphæð í hverja línu ef það þarf að færa inn eða uppfæra.</span><span class="sxs-lookup"><span data-stu-id="9b59e-125">Enter a counted amount in each line if it needs to be entered or updated.</span></span> <span data-ttu-id="9b59e-126">Talið svæði er fyllt út með upphæðir frá í talning skiptimyntar gert í sölustaður.</span><span class="sxs-lookup"><span data-stu-id="9b59e-126">The counted field is populated with amounts from tender declarations done in POS.</span></span>  
+9. <span data-ttu-id="9b59e-127">Smellt er á Bóka uppgjör.</span><span class="sxs-lookup"><span data-stu-id="9b59e-127">Click Post statement.</span></span>
+10. <span data-ttu-id="9b59e-128">Smellið á „Loka“.</span><span class="sxs-lookup"><span data-stu-id="9b59e-128">Click Close.</span></span>
+11. <span data-ttu-id="9b59e-129">Fara í Smásala og viðskipti > Rásir > Efnahagur smásöluverslunar.</span><span class="sxs-lookup"><span data-stu-id="9b59e-129">Go to Retail and commerce > Channels > Retail store financials.</span></span>
+12. <span data-ttu-id="9b59e-130">Smellið á flipann Bókað uppgjör.</span><span class="sxs-lookup"><span data-stu-id="9b59e-130">Click the Posted statements tab.</span></span>
 
 

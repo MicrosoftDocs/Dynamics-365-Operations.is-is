@@ -16,49 +16,49 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e55a1325814d9671030b36742f29056cd3117b31
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-applicant-and-application-data-manually"></a>Færa inn umsækjanda og umsóknargögn handvirkt
+# <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="282ef-103">Færa inn umsækjanda og umsóknargögn handvirkt</span><span class="sxs-lookup"><span data-stu-id="282ef-103">Enter applicant and application data manually</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina.   Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Einnig er hægt að uppfæra stöðu starfsumsókna umsækjanda og stofna bréf eða tölvupóst til að eiga samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni.       Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="282ef-104">Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina.</span><span class="sxs-lookup"><span data-stu-id="282ef-104">This procedure shows how to manually maintain information about applicants and their application.</span></span>   <span data-ttu-id="282ef-105">Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur.</span><span class="sxs-lookup"><span data-stu-id="282ef-105">You can enter and maintain personal information, interview dates and times, references, competencies, and accommodation requests for applicants.</span></span> <span data-ttu-id="282ef-106">Einnig er hægt að uppfæra stöðu starfsumsókna umsækjanda og stofna bréf eða tölvupóst til að eiga samskipti við umsækjendur.</span><span class="sxs-lookup"><span data-stu-id="282ef-106">You can also update the status of applicants’ applications for employment and create letters or email messages to communicate with applicants.</span></span> <span data-ttu-id="282ef-107">Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni.</span><span class="sxs-lookup"><span data-stu-id="282ef-107">When you create an applicant record, a person record for that applicant is created in the global address book.</span></span>       <span data-ttu-id="282ef-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="282ef-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-new-applicant-record"></a>Stofna nýja færslu umsækjanda
-1. Farið í Mannauður > Ráðningar > Umsækjendur > Umsækjendur.
-2. Smellið á „Nýtt“.
-3. Í reitinn Eiginnafn skal slá inn gildi.
-4. Í reitinn eftirnafn skal slá inn gildi.
-    * Hægt er að færa inn viðbótar upplýsingar um umsækjanda ef hún er tiltæk. Til dæmis upplýsingar geta verið hæsta gráða umsækjanda, gildandi starfsheiti eða fyrri vinnuveitanda.  
-5. Víxla útvíkkun á liðnum tengslaupplýsingar.
-6. Smelltu á Bæta við.
-7. Færðu inn 'Samskiptum tölvupósti' í svæðinu Lýsingu.
-8. Veljið valkost í svæðinu tegund.
-9. Færa inn gildi í svæðið númer/aðsetur Tengiliðar.
-    * Þetta tölvupóstfang verður notuð til að mynda tölvupósti samskiptum við umsækjanda.  
-10. Smelltu á Bæta við.
-11. Sláið inn gildi í reitnum „Lýsing“.
-12. Færa inn gildi í svæðið númer/aðsetur Tengiliðar.
-    * Persónulegar upplýsingar um umsækjanda.  
-    * Hægt er að færa inn viðbótar persónuupplýsingar umsækjandans, ef þörf krefur. Til dæmis, þetta getur falið í sér fæðingardagur þjóðernisuppruna, kyn eða hjúskaparstöðu.  
-13. Í aðgerðasvæðinu er smellt á hæfni.
-    * Hægt er að færa inn hæfniforstillingu umsækjandans , þar á meðal þeirra hæfni, faglega reynslu, menntun, prófanir eða skírteini.  
-    * Hægt er að nota þessar upplýsingar til að halda utan um hæfni umsækjandans sem tengist vinnslur sem eru skilgreindar í gögnin fyrirtækisins.   
+## <a name="create-a-new-applicant-record"></a><span data-ttu-id="282ef-109">Stofna nýja færslu umsækjanda</span><span class="sxs-lookup"><span data-stu-id="282ef-109">Create a new applicant record</span></span>
+1. <span data-ttu-id="282ef-110">Farið í Mannauður > Ráðningar > Umsækjendur > Umsækjendur.</span><span class="sxs-lookup"><span data-stu-id="282ef-110">Go to Human resources > Recruitment > Applicants > Applicants.</span></span>
+2. <span data-ttu-id="282ef-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="282ef-111">Click New.</span></span>
+3. <span data-ttu-id="282ef-112">Í reitinn Eiginnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="282ef-112">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="282ef-113">Í reitinn eftirnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="282ef-113">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="282ef-114">Hægt er að færa inn viðbótar upplýsingar um umsækjanda ef hún er tiltæk.</span><span class="sxs-lookup"><span data-stu-id="282ef-114">You can enter additional applicant information if it's available.</span></span> <span data-ttu-id="282ef-115">Til dæmis upplýsingar geta verið hæsta gráða umsækjanda, gildandi starfsheiti eða fyrri vinnuveitanda.</span><span class="sxs-lookup"><span data-stu-id="282ef-115">For example, information can include the applicant's highest degree, current job title, or previous employer.</span></span>  
+5. <span data-ttu-id="282ef-116">Víxla útvíkkun á liðnum tengslaupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="282ef-116">Toggle the expansion of the Contact information section.</span></span>
+6. <span data-ttu-id="282ef-117">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="282ef-117">Click Add.</span></span>
+7. <span data-ttu-id="282ef-118">Færðu inn 'Samskiptum tölvupósti' í svæðinu Lýsingu.</span><span class="sxs-lookup"><span data-stu-id="282ef-118">In the Description field, type 'Communications email'.</span></span>
+8. <span data-ttu-id="282ef-119">Veljið valkost í svæðinu tegund.</span><span class="sxs-lookup"><span data-stu-id="282ef-119">In the Type field, select an option.</span></span>
+9. <span data-ttu-id="282ef-120">Færa inn gildi í svæðið númer/aðsetur Tengiliðar.</span><span class="sxs-lookup"><span data-stu-id="282ef-120">In the Contact number/address field, type a value.</span></span>
+    * <span data-ttu-id="282ef-121">Þetta tölvupóstfang verður notuð til að mynda tölvupósti samskiptum við umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="282ef-121">This email address will be used to generate email communication with the applicant.</span></span>  
+10. <span data-ttu-id="282ef-122">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="282ef-122">Click Add.</span></span>
+11. <span data-ttu-id="282ef-123">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="282ef-123">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="282ef-124">Færa inn gildi í svæðið númer/aðsetur Tengiliðar.</span><span class="sxs-lookup"><span data-stu-id="282ef-124">In the Contact number/address field, type a value.</span></span>
+    * <span data-ttu-id="282ef-125">Persónulegar upplýsingar um umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="282ef-125">Applicant personal information.</span></span>  
+    * <span data-ttu-id="282ef-126">Hægt er að færa inn viðbótar persónuupplýsingar umsækjandans, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="282ef-126">You can enter additional personal information for the applicant, if needed.</span></span> <span data-ttu-id="282ef-127">Til dæmis, þetta getur falið í sér fæðingardagur þjóðernisuppruna, kyn eða hjúskaparstöðu.</span><span class="sxs-lookup"><span data-stu-id="282ef-127">For example, this can include birth date, ethnic origin, gender, or marital status.</span></span>  
+13. <span data-ttu-id="282ef-128">Í aðgerðasvæðinu er smellt á hæfni.</span><span class="sxs-lookup"><span data-stu-id="282ef-128">On the Action Pane, click Competencies.</span></span>
+    * <span data-ttu-id="282ef-129">Hægt er að færa inn hæfniforstillingu umsækjandans , þar á meðal þeirra hæfni, faglega reynslu, menntun, prófanir eða skírteini.</span><span class="sxs-lookup"><span data-stu-id="282ef-129">You can enter the applicant's competency profile, including their skills, professional experiences, education, tests, or certificates.</span></span>  
+    * <span data-ttu-id="282ef-130">Hægt er að nota þessar upplýsingar til að halda utan um hæfni umsækjandans sem tengist vinnslur sem eru skilgreindar í gögnin fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="282ef-130">This information can be used to map the applicant's skills to the skills associated with the jobs defined in your company's data.</span></span>   
 
-## <a name="create-an-application-for-the-applicant"></a>Stofna umsókn fyrir umsækjanda
-1. Smellt er á Umsóknir.
-2. Smellið á „Nýtt“.
-3. Í reitnum ráðningarverk skal smella á fellilistahnappinn til að opna leitina.
-    * Með því að velja ráðningarverk, umsækjanda mun tengjast við tiltekna opnun sem er innifalin í því ráðningarverk.  
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-    * Að sjálfgefnu er vinnsla og deild byggð á völdu ráðningarverki.  
-6. Smellið á „Vista“.
-    * eftir vistun umsóknar, Hægt er að tengja skjöl við það, þar á meðal umsækjandans reynslu, umbun og kynningarbréfi.  
+## <a name="create-an-application-for-the-applicant"></a><span data-ttu-id="282ef-131">Stofna umsókn fyrir umsækjanda</span><span class="sxs-lookup"><span data-stu-id="282ef-131">Create an application for the applicant</span></span>
+1. <span data-ttu-id="282ef-132">Smellt er á Umsóknir.</span><span class="sxs-lookup"><span data-stu-id="282ef-132">Click Applications.</span></span>
+2. <span data-ttu-id="282ef-133">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="282ef-133">Click New.</span></span>
+3. <span data-ttu-id="282ef-134">Í reitnum ráðningarverk skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="282ef-134">In the Recruitment project field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="282ef-135">Með því að velja ráðningarverk, umsækjanda mun tengjast við tiltekna opnun sem er innifalin í því ráðningarverk.</span><span class="sxs-lookup"><span data-stu-id="282ef-135">By selecting a recruitment project, the applicant will be associated with a specific opening included in that recruitment project.</span></span>  
+4. <span data-ttu-id="282ef-136">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="282ef-136">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="282ef-137">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="282ef-137">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="282ef-138">Að sjálfgefnu er vinnsla og deild byggð á völdu ráðningarverki.</span><span class="sxs-lookup"><span data-stu-id="282ef-138">By default, the job and department are based on the selected recruitment project.</span></span>  
+6. <span data-ttu-id="282ef-139">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="282ef-139">Click Save.</span></span>
+    * <span data-ttu-id="282ef-140">eftir vistun umsóknar, Hægt er að tengja skjöl við það, þar á meðal umsækjandans reynslu, umbun og kynningarbréfi.</span><span class="sxs-lookup"><span data-stu-id="282ef-140">After saving the application, you can attach documents to it, including the applicant's experience, awards, and cover letter.</span></span>  
 
 

@@ -17,27 +17,27 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 4c4d4f3d531108c931096069f49e424bfd5e908a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a281b6397e6bee64e6e10bdcd2fb5539c5f73adc
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-associate-a-device"></a> Búa til og tengja tæki
+# <a name="create-and-associate-a-device"></a><span data-ttu-id="248dc-103"> Búa til og tengja tæki</span><span class="sxs-lookup"><span data-stu-id="248dc-103">Create and associate a device</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa. Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.  Þetta verk notar sýnigögn fyrirtæki USRT . Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í smásölu, og Verslunarstjóri .
+<span data-ttu-id="248dc-104">Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="248dc-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="248dc-105">Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.</span><span class="sxs-lookup"><span data-stu-id="248dc-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="248dc-106">Þetta verk notar sýnigögn fyrirtæki USRT .</span><span class="sxs-lookup"><span data-stu-id="248dc-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="248dc-107">Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í smásölu, og Verslunarstjóri .</span><span class="sxs-lookup"><span data-stu-id="248dc-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 
-1. Fara í Smásölu og viðskipti > .. > Tæki.
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í reitnum Kenni tækis.
-4. Í reitnum gerð tækis skal smella á fellilistahnappinn til að opna leitina.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-6. Í listanum skal smella á tengilinn í valinni línu.
-7. Í reitnum númer afgreiðslukassa skal smella á fellilistahnappinn til að opna leitina.
-8. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-9. Í listanum skal smella á tengilinn í valinni línu.
-10. Smellið á „Vista“.
+1. <span data-ttu-id="248dc-108">Fara í Smásölu og viðskipti > ..</span><span class="sxs-lookup"><span data-stu-id="248dc-108">Go to Retail and commerce > ..</span></span> <span data-ttu-id="248dc-109">> Tæki.</span><span class="sxs-lookup"><span data-stu-id="248dc-109">> Devices.</span></span>
+2. <span data-ttu-id="248dc-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="248dc-110">Click New.</span></span>
+3. <span data-ttu-id="248dc-111">Færa inn gildi í reitnum Kenni tækis.</span><span class="sxs-lookup"><span data-stu-id="248dc-111">In the Device ID field, type a value.</span></span>
+4. <span data-ttu-id="248dc-112">Í reitnum gerð tækis skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="248dc-112">In the Device type field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="248dc-113">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="248dc-113">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="248dc-114">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="248dc-114">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="248dc-115">Í reitnum númer afgreiðslukassa skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="248dc-115">In the Register number field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="248dc-116">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="248dc-116">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="248dc-117">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="248dc-117">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="248dc-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="248dc-118">Click Save.</span></span>
 
 

@@ -17,43 +17,43 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f438b149bed29936b39653825199c0e3cb73a85e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a867e07eb4c9a753c10d5c1fc6fc03c4cacad08e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="submit-and-approve-project-budgets"></a>Senda inn og samþykkja fjárhagsáætlanir verka
+# <a name="submit-and-approve-project-budgets"></a><span data-ttu-id="7182e-103">Senda inn og samþykkja fjárhagsáætlanir verka</span><span class="sxs-lookup"><span data-stu-id="7182e-103">Submit and approve project budgets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig stofna og senda inn fjárhagsáætlun fyrir verkefni. 
+<span data-ttu-id="7182e-104">Þetta ferli sýnir hvernig stofna og senda inn fjárhagsáætlun fyrir verkefni.</span><span class="sxs-lookup"><span data-stu-id="7182e-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
 
-Þegar fjárhagsáætlun verks er stofnuð er hægt að slá inn áætlaðar tekjur og kostnað fyrir verkefni og nota þær síðan til að stýra raunverulegt verkfærslum. Í fjárhagsáætlun verks verður að senda allar upprunalegar fjárhagsáætlanir og endurskoðanir til verkflæðis verksins til samþykkis. Verkflæði veitir aukna stjórn á ferlinu og stofna færslusögu breytinga.
+<span data-ttu-id="7182e-105">Þegar fjárhagsáætlun verks er stofnuð er hægt að slá inn áætlaðar tekjur og kostnað fyrir verkefni og nota þær síðan til að stýra raunverulegt verkfærslum.</span><span class="sxs-lookup"><span data-stu-id="7182e-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="7182e-106">Í fjárhagsáætlun verks verður að senda allar upprunalegar fjárhagsáætlanir og endurskoðanir til verkflæðis verksins til samþykkis.</span><span class="sxs-lookup"><span data-stu-id="7182e-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="7182e-107">Verkflæði veitir aukna stjórn á ferlinu og stofna færslusögu breytinga.</span><span class="sxs-lookup"><span data-stu-id="7182e-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
 
-Þetta verkefni var stofnuð með því að nota USSI-gagnasafn.
+<span data-ttu-id="7182e-108">Þetta verkefni var stofnuð með því að nota USSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="7182e-108">This task was created using the USSI data set.</span></span>
 
-1. Farið í Verkefnastjórnun og bókhald > Verkefni > Öll verkefni.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í Aðgerðarrúðunni er smellt á Áætlun
-5. Smellt er á Fjárhagsáætlun verks.
-6. Sláið inn gildi í reitnum „Lýsing“.
-7. Víkka út hlutann Kostnaður
-8. Smellið á Nýtt.
-9. Í svæði Færslugerð skal velja valkostur.
-10. Sláið inn eða veldu gildi í reitnum flokkur.
-11. Í svæði Upprunaleg fjárhagsáætlun skal slá inn tölu.
-12. Víkka út hlutann Tekjur.
-13. Smellt er á Nýtt.
-14. Í listanum skal merkja valda línu.
-15. Í svæði Færslugerð skal velja valkostur.
-16. Sláið inn eða veldu gildi í reitnum flokkur.
-17. Í svæði Upprunaleg fjárhagsáætlun skal slá inn tölu.
-18. Smellið á „Vista“.
-19. Smellt er á Verkflæði.
-20. Smelltu á Senda.
-21. Í reitinn Athugasemd skal slá inn gildi.
-22. Smelltu á Senda.
+1. <span data-ttu-id="7182e-109">Farið í Verkefnastjórnun og bókhald > Verkefni > Öll verkefni.</span><span class="sxs-lookup"><span data-stu-id="7182e-109">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="7182e-110">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="7182e-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="7182e-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7182e-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="7182e-112">Í Aðgerðarrúðunni er smellt á Áætlun</span><span class="sxs-lookup"><span data-stu-id="7182e-112">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="7182e-113">Smellt er á Fjárhagsáætlun verks.</span><span class="sxs-lookup"><span data-stu-id="7182e-113">Click Project budget.</span></span>
+6. <span data-ttu-id="7182e-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="7182e-114">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="7182e-115">Víkka út hlutann Kostnaður</span><span class="sxs-lookup"><span data-stu-id="7182e-115">Expand the Cost section</span></span>
+8. <span data-ttu-id="7182e-116">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="7182e-116">Click New.</span></span>
+9. <span data-ttu-id="7182e-117">Í svæði Færslugerð skal velja valkostur.</span><span class="sxs-lookup"><span data-stu-id="7182e-117">In the Transaction type field, select an option.</span></span>
+10. <span data-ttu-id="7182e-118">Sláið inn eða veldu gildi í reitnum flokkur.</span><span class="sxs-lookup"><span data-stu-id="7182e-118">In the Category field, enter or select a value.</span></span>
+11. <span data-ttu-id="7182e-119">Í svæði Upprunaleg fjárhagsáætlun skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="7182e-119">In the Original budget field, enter a number.</span></span>
+12. <span data-ttu-id="7182e-120">Víkka út hlutann Tekjur.</span><span class="sxs-lookup"><span data-stu-id="7182e-120">Expand the Revenues section.</span></span>
+13. <span data-ttu-id="7182e-121">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="7182e-121">Click New.</span></span>
+14. <span data-ttu-id="7182e-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="7182e-122">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="7182e-123">Í svæði Færslugerð skal velja valkostur.</span><span class="sxs-lookup"><span data-stu-id="7182e-123">In the Transaction type field, select an option.</span></span>
+16. <span data-ttu-id="7182e-124">Sláið inn eða veldu gildi í reitnum flokkur.</span><span class="sxs-lookup"><span data-stu-id="7182e-124">In the Category field, enter or select a value.</span></span>
+17. <span data-ttu-id="7182e-125">Í svæði Upprunaleg fjárhagsáætlun skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="7182e-125">In the Original budget field, enter a number.</span></span>
+18. <span data-ttu-id="7182e-126">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="7182e-126">Click Save.</span></span>
+19. <span data-ttu-id="7182e-127">Smellt er á Verkflæði.</span><span class="sxs-lookup"><span data-stu-id="7182e-127">Click Workflow.</span></span>
+20. <span data-ttu-id="7182e-128">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="7182e-128">Click Submit.</span></span>
+21. <span data-ttu-id="7182e-129">Í reitinn Athugasemd skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7182e-129">In the Comment field, type a value.</span></span>
+22. <span data-ttu-id="7182e-130">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="7182e-130">Click Submit.</span></span>
 
 

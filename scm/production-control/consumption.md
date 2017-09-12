@@ -20,68 +20,68 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1bd3168e80719c86e9a0541200fdb1608410c8f5
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88fb31fc425c9fbd2ef96e4497f120da4440af04
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="calculate-material-consumption"></a>Reikna út efnisnotkunina
+# <a name="calculate-material-consumption"></a><span data-ttu-id="cdbb7-103">Reikna út efnisnotkunina</span><span class="sxs-lookup"><span data-stu-id="cdbb7-103">Calculate material consumption</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur upplýsingar um ýmsa valkosti sem tengjast útreikningi á efnisnotkun. 
+<span data-ttu-id="cdbb7-104">Þessi grein gefur upplýsingar um ýmsa valkosti sem tengjast útreikningi á efnisnotkun.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-104">This article provides information about various options that are related to the calculation of material consumption.</span></span> 
 
-eftirfarandi valkosti sem tengjast útreikningi á hráefnisnotkun eri tiltækir í **Uppsetningu** og **Skrefanotkun** flipana í á **Línuupplýsingar** flýtiflipa í **Uppskrift** síðu.
+<span data-ttu-id="cdbb7-105">eftirfarandi valkosti sem tengjast útreikningi á hráefnisnotkun eri tiltækir í **Uppsetningu** og **Skrefanotkun** flipana í á **Línuupplýsingar** flýtiflipa í **Uppskrift** síðu.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-105">The following options that are related to the calculation of material consumption are available on the **Setup** and **Step consumption** tabs on the **Line details** FastTab of the **Bill of materials** page.</span></span>
 
-## <a name="variable-and-constant-consumption"></a>Breytileg og föst notkun
-Í **Notkun er** reit er hægt að velja hvort eigi að reikna notkun út sem fast magn eða breytilegt magn. Velja **Fast** ef fast magn eða rúmmál er nauðsynleg fyrir framleiðsluna, óháð því magni sem er framleitt. Velja **Breytilegt**, sem er sjálfgefna stillingin, sé áskilin upphæð efnis í fullbúnu vörunum í hlutfalli við fjölda fullbúnar vörur sem eru framleiddar.
+## <a name="variable-and-constant-consumption"></a><span data-ttu-id="cdbb7-106">Breytileg og föst notkun</span><span class="sxs-lookup"><span data-stu-id="cdbb7-106">Variable and constant consumption</span></span>
+<span data-ttu-id="cdbb7-107">Í **Notkun er** reit er hægt að velja hvort eigi að reikna notkun út sem fast magn eða breytilegt magn.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-107">In the **Consumption is** field, you can select whether consumption should be calculated as a constant quantity or a variable quantity.</span></span> <span data-ttu-id="cdbb7-108">Velja **Fast** ef fast magn eða rúmmál er nauðsynleg fyrir framleiðsluna, óháð því magni sem er framleitt.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-108">Select **Constant** if a fixed quantity or volume is required for the production, regardless of the quantity that is produced.</span></span> <span data-ttu-id="cdbb7-109">Velja **Breytilegt**, sem er sjálfgefna stillingin, sé áskilin upphæð efnis í fullbúnu vörunum í hlutfalli við fjölda fullbúnar vörur sem eru framleiddar.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-109">Select **Variable**, which is the default setting, if the required amount of material in the finished goods is proportional to the number of finished goods that are produced.</span></span>
 
-## <a name="calculating-consumption-from-a-formula"></a>Formúla notuð við útreikning notkunar
-Í **Formúlu** svæði er hægt að setja upp mismunandi formúlur til að reikna út efnisnotkunina. Ef nota á sjálfgefna gildið **Staðlaða**, notkun er ekki reiknað út frá formúlu. Eftirfarandi formúlur vinna ásamt **Hæð**, **Breidd**, **Dýpt**, **Þéttleiki**, og **Fast** svæði:
+## <a name="calculating-consumption-from-a-formula"></a><span data-ttu-id="cdbb7-110">Formúla notuð við útreikning notkunar</span><span class="sxs-lookup"><span data-stu-id="cdbb7-110">Calculating consumption from a formula</span></span>
+<span data-ttu-id="cdbb7-111">Í **Formúlu** svæði er hægt að setja upp mismunandi formúlur til að reikna út efnisnotkunina.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-111">In the **Formula** field, you can set up various formulas for calculating material consumption.</span></span> <span data-ttu-id="cdbb7-112">Ef nota á sjálfgefna gildið **Staðlaða**, notkun er ekki reiknað út frá formúlu.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-112">If you use the default value, **Standard**, the consumption isn't calculated from a formula.</span></span> <span data-ttu-id="cdbb7-113">Eftirfarandi formúlur vinna ásamt **Hæð**, **Breidd**, **Dýpt**, **Þéttleiki**, og **Fast** svæði:</span><span class="sxs-lookup"><span data-stu-id="cdbb7-113">The following formulas work together with the **Height**, **Width**, **Depth**, **Density**, and **Constant** fields:</span></span>
 
--   Hæð \* Fasti
--   Hæð \* Breidd \* Fasti
--   Hæð \* Breidd \* Dýpt \* Fasti
--   (Hæð \* Breidd \* Dýpt / Þéttleiki) \* Fasti
+-   <span data-ttu-id="cdbb7-114">Hæð \* Fasti</span><span class="sxs-lookup"><span data-stu-id="cdbb7-114">Height \* Constant</span></span>
+-   <span data-ttu-id="cdbb7-115">Hæð \* Breidd \* Fasti</span><span class="sxs-lookup"><span data-stu-id="cdbb7-115">Height \* Width \* Constant</span></span>
+-   <span data-ttu-id="cdbb7-116">Hæð \* Breidd \* Dýpt \* Fasti</span><span class="sxs-lookup"><span data-stu-id="cdbb7-116">Height \* Width \* Depth \* Constant</span></span>
+-   <span data-ttu-id="cdbb7-117">(Hæð \* Breidd \* Dýpt / Þéttleiki) \* Fasti</span><span class="sxs-lookup"><span data-stu-id="cdbb7-117">(Height \* Width \* Depth / Density) \* Constant</span></span>
 
-## <a name="rounding-up-and-multiples"></a>Sléttun og margfeldi
-Saman leyfa reitirnir **Sléttun** og **Margfeldi** þér að slétta gildi efnisnotkunar . Til dæmis er hægt að slétta gildinu samkvæmt afgreiðslueiningu sem hráefni er tekin til fyrir framleiðslu. Eftirtaldir valkostir eru tiltækir í **Sléttun** svæði: **Magn**, **Mælingu**, og **Notkun**.
+## <a name="rounding-up-and-multiples"></a><span data-ttu-id="cdbb7-118">Sléttun og margfeldi</span><span class="sxs-lookup"><span data-stu-id="cdbb7-118">Rounding up and multiples</span></span>
+<span data-ttu-id="cdbb7-119">Saman leyfa reitirnir **Sléttun** og **Margfeldi** þér að slétta gildi efnisnotkunar .</span><span class="sxs-lookup"><span data-stu-id="cdbb7-119">Together, the **Rounding up** and **Multiples** fields let you round up the material consumption value.</span></span> <span data-ttu-id="cdbb7-120">Til dæmis er hægt að slétta gildinu samkvæmt afgreiðslueiningu sem hráefni er tekin til fyrir framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-120">For example, you can round up the value according to the handling unit in which the raw material is picked for production.</span></span> <span data-ttu-id="cdbb7-121">Eftirtaldir valkostir eru tiltækir í **Sléttun** svæði: **Magn**, **Mælingu**, og **Notkun**.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-121">The following options are available in the **Rounding up** field: **Quantity**, **Measurement**, and **Consumption**.</span></span>
 
-### <a name="quantity"></a>Magn
+### <a name="quantity"></a><span data-ttu-id="cdbb7-122">Magn</span><span class="sxs-lookup"><span data-stu-id="cdbb7-122">Quantity</span></span>
 
-Ef **Magn** er valið sem sléttunar mekanismi, verður magn að vera margfeldi af tilgreindu magni. Til dæmis ef þörf er á heiltölum er **1** tilgreint í svæðinu **Margfeldi**. Tölur eru svo sléttað í magn sem má deila með 1.
+<span data-ttu-id="cdbb7-123">Ef **Magn** er valið sem sléttunar mekanismi, verður magn að vera margfeldi af tilgreindu magni.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-123">If you select **Quantity** as the rounding-up mechanism, the quantity must be a multiple of the specified quantity.</span></span> <span data-ttu-id="cdbb7-124">Til dæmis ef þörf er á heiltölum er **1** tilgreint í svæðinu **Margfeldi**.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-124">For example, if whole numbers are required, select **1** in the **Multiples** field.</span></span> <span data-ttu-id="cdbb7-125">Tölur eru svo sléttað í magn sem má deila með 1.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-125">Numbers are then rounded up to a quantity that is divisible by 1.</span></span>
 
-### <a name="measurement"></a>Mæling
+### <a name="measurement"></a><span data-ttu-id="cdbb7-126">Mæling</span><span class="sxs-lookup"><span data-stu-id="cdbb7-126">Measurement</span></span>
 
-Yfirleitt, veljið **Mælingu** sem mekanisma sléttunar þegar hráefni kemur í ákveðnum stærðum. Til dæmis er stykki af 2 metra málmröri krafist fyrir fullbúin framleiðsluvara og málmrörið er geymt í 4.5 metra lengdum. Í þessu tilfelli má nota **Mælingu** mekanisma sléttunar til að reikna út hversu mörg málmrör þarf til að framleiða tiltekinn fjölda stykkja fullbúinnar framleiðsluvara. Til dæmis hér, í **Formúlu** er stillt á **Hæð \* Fasti**. Í **Hæð** er stillt á **2** til að tilgreina lengd rörs sem er krafist fyrir fullbúin framleiðsluvara. Í **margfeldi** er stillt á **4.5** til að tilgreina í rör er tekið til í lengdir 4.5 metra. Útreikningurinn er:
+<span data-ttu-id="cdbb7-127">Yfirleitt, veljið **Mælingu** sem mekanisma sléttunar þegar hráefni kemur í ákveðnum stærðum.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-127">Typically, you select **Measurement** as the rounding-up mechanism when the raw material comes in specific dimensions.</span></span> <span data-ttu-id="cdbb7-128">Til dæmis er stykki af 2 metra málmröri krafist fyrir fullbúin framleiðsluvara og málmrörið er geymt í 4.5 metra lengdum.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-128">For example, a piece of 2-meter metal tube is required for a finished good, and the metal tube is stored in 4.5-meter lengths.</span></span> <span data-ttu-id="cdbb7-129">Í þessu tilfelli má nota **Mælingu** mekanisma sléttunar til að reikna út hversu mörg málmrör þarf til að framleiða tiltekinn fjölda stykkja fullbúinnar framleiðsluvara.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-129">In this case, the **Measurement** rounding-up mechanism can be used to calculate how many metal tubes are required to produce a specific number of pieces of the finished good.</span></span> <span data-ttu-id="cdbb7-130">Til dæmis hér, í **Formúlu** er stillt á **Hæð \* Fasti**.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-130">For this example, the **Formula** field is set to **Height \* Constant**.</span></span> <span data-ttu-id="cdbb7-131">Í **Hæð** er stillt á **2** til að tilgreina lengd rörs sem er krafist fyrir fullbúin framleiðsluvara.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-131">The **Height** field is set to **2** to indicate the length of the tube that is required for the finished good.</span></span> <span data-ttu-id="cdbb7-132">Í **margfeldi** er stillt á **4.5** til að tilgreina í rör er tekið til í lengdir 4.5 metra.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-132">The **Multiple** field is set to **4.5** to indicate that the tube is picked in lengths of 4.5 meters.</span></span> <span data-ttu-id="cdbb7-133">Útreikningurinn er:</span><span class="sxs-lookup"><span data-stu-id="cdbb7-133">Here is the calculation:</span></span>
 
-1.  Fjöldi margfelda sem er krafist fyrir 10 stykki af fullbúin framleiðsluvara: 10 ÷ 2 = 5 stykki
-2.  Samtals notkun:  4,5 × 5 = 22.5 metrar af málmröri
+1.  <span data-ttu-id="cdbb7-134">Fjöldi margfelda sem er krafist fyrir 10 stykki af fullbúin framleiðsluvara: 10 ÷ 2 = 5 stykki</span><span class="sxs-lookup"><span data-stu-id="cdbb7-134">Number of multiples that are required for 10 pieces of the finished good: 10 ÷ 2 = 5 pieces</span></span>
+2.  <span data-ttu-id="cdbb7-135">Samtals notkun:  4,5 × 5 = 22.5 metrar af málmröri</span><span class="sxs-lookup"><span data-stu-id="cdbb7-135">Total consumption:  4.5 × 5 = 22.5 meters of metal tube</span></span>
 
-Gert er ráð fyrir að 0.5 metra af röri sé sett í rýrnun fyrir hver fimm stykki af rörum sem eru notaðar.
+<span data-ttu-id="cdbb7-136">Gert er ráð fyrir að 0.5 metra af röri sé sett í rýrnun fyrir hver fimm stykki af rörum sem eru notaðar.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-136">It's assumed that 0.5 meter of tube is scrapped for every five pieces of tube that are consumed.</span></span>
 
-### <a name="consumption"></a>Notkun
+### <a name="consumption"></a><span data-ttu-id="cdbb7-137">Notkun</span><span class="sxs-lookup"><span data-stu-id="cdbb7-137">Consumption</span></span>
 
-Yfirleitt, veljið **Notkun** sem mekanisma sléttunar þegar hráefni verður að vera tekið til í heilu magni tiltekinnar afgreiðslueiningar vöru. Til dæmis er 2 fjórðungar af málningu notaðir til að framleiða einu stykki hinnar fullbúnu framleiðsluvara, og málning er tekið til í 25 fjórðungsdollum. Í þessu tilfelli er hægt að nota **Notkun** mekanisma sléttunar til að slétta notkun á heilar tölur fyrir 25 fjórðungsdollum. Hér er útreikningur fyrir magn málningar sem er krafist ef framleiða þarf 180 stykki fullbúinnar framleiðsluvara:
+<span data-ttu-id="cdbb7-138">Yfirleitt, veljið **Notkun** sem mekanisma sléttunar þegar hráefni verður að vera tekið til í heilu magni tiltekinnar afgreiðslueiningar vöru.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-138">Typically, you select **Consumption** as the rounding-up mechanism when raw material must be picked in whole quantities of a specific handling unit of the product.</span></span> <span data-ttu-id="cdbb7-139">Til dæmis er 2 fjórðungar af málningu notaðir til að framleiða einu stykki hinnar fullbúnu framleiðsluvara, og málning er tekið til í 25 fjórðungsdollum.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-139">For example, 2 quarts of paint are used to produce one piece of a finished good, and the paint is picked in 25-quart cans.</span></span> <span data-ttu-id="cdbb7-140">Í þessu tilfelli er hægt að nota **Notkun** mekanisma sléttunar til að slétta notkun á heilar tölur fyrir 25 fjórðungsdollum.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-140">In this case, the **Consumption** rounding-up mechanism can be used to round up consumption to whole numbers of 25-quart cans.</span></span> <span data-ttu-id="cdbb7-141">Hér er útreikningur fyrir magn málningar sem er krafist ef framleiða þarf 180 stykki fullbúinnar framleiðsluvara:</span><span class="sxs-lookup"><span data-stu-id="cdbb7-141">Here is the calculation for the amount of paint that is required if 180 pieces of the finished good must be produced:</span></span>
 
-1.  Málning þarf án rýrnunar: 180 × 2 = 360 fjórðungar
-2.  Fjöldi dósa: 360 ÷ 25 = 14.4 sem er sléttað að 15
-3.  Málning sem þarf án rýrnunar: 15 × 25 = 375 fjórðungar
+1.  <span data-ttu-id="cdbb7-142">Málning þarf án rýrnunar: 180 × 2 = 360 fjórðungar</span><span class="sxs-lookup"><span data-stu-id="cdbb7-142">Paint that is required, excluding scrap: 180 × 2 = 360 quarts</span></span>
+2.  <span data-ttu-id="cdbb7-143">Fjöldi dósa: 360 ÷ 25 = 14.4 sem er sléttað að 15</span><span class="sxs-lookup"><span data-stu-id="cdbb7-143">Number of cans: 360 ÷ 25 = 14.4, which is rounded up to 15</span></span>
+3.  <span data-ttu-id="cdbb7-144">Málning sem þarf án rýrnunar: 15 × 25 = 375 fjórðungar</span><span class="sxs-lookup"><span data-stu-id="cdbb7-144">Paint that is required, including scrap: 15 × 25 = 375 quarts</span></span>
 
-## <a name="step-consumption"></a>Skrefanotkun
-Skrefanotkun er notuð til að reikna út fastanotkun í magntímabilum. Ef þú velur **Skrefanotkun** á **Formúlu** reit á flipanum **Uppsetning**, er hægt að bæta upplýsingar um skref á flipanum **Skrefanotkun**. Hægt er að setja upp fast notað magn í tímabilum fyrir framleitt magn. Til dæmis er skrefanotkun sett upp eins og sýnt er í eftirfarandi töflu.
+## <a name="step-consumption"></a><span data-ttu-id="cdbb7-145">Skrefanotkun</span><span class="sxs-lookup"><span data-stu-id="cdbb7-145">Step consumption</span></span>
+<span data-ttu-id="cdbb7-146">Skrefanotkun er notuð til að reikna út fastanotkun í magntímabilum.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-146">Step consumption is used to calculate constant consumption in quantity intervals.</span></span> <span data-ttu-id="cdbb7-147">Ef þú velur **Skrefanotkun** á **Formúlu** reit á flipanum **Uppsetning**, er hægt að bæta upplýsingar um skref á flipanum **Skrefanotkun**.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-147">If you select **Step consumption** in the **Formula** field on the **Setup** tab, you can add information about the steps on the **Step consumption** tab.</span></span> <span data-ttu-id="cdbb7-148">Hægt er að setja upp fast notað magn í tímabilum fyrir framleitt magn.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-148">The fixed consumed quantity can be set up in intervals of the produced quantity.</span></span> <span data-ttu-id="cdbb7-149">Til dæmis er skrefanotkun sett upp eins og sýnt er í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-149">For example, step consumption is set up as shown in the following table.</span></span>
 
-| Frá-röð | Magn |
+| <span data-ttu-id="cdbb7-150">Frá-röð</span><span class="sxs-lookup"><span data-stu-id="cdbb7-150">From series</span></span> | <span data-ttu-id="cdbb7-151">Magn</span><span class="sxs-lookup"><span data-stu-id="cdbb7-151">Quantity</span></span> |
 |-------------|----------|
-| 0,00        | 10.0000  |
-| 100,00      | 20.0000  |
-| 200,00      | 40.0000  |
+| <span data-ttu-id="cdbb7-152">0,00</span><span class="sxs-lookup"><span data-stu-id="cdbb7-152">0.00</span></span>        | <span data-ttu-id="cdbb7-153">10.0000</span><span class="sxs-lookup"><span data-stu-id="cdbb7-153">10.0000</span></span>  |
+| <span data-ttu-id="cdbb7-154">100,00</span><span class="sxs-lookup"><span data-stu-id="cdbb7-154">100.00</span></span>      | <span data-ttu-id="cdbb7-155">20.0000</span><span class="sxs-lookup"><span data-stu-id="cdbb7-155">20.0000</span></span>  |
+| <span data-ttu-id="cdbb7-156">200,00</span><span class="sxs-lookup"><span data-stu-id="cdbb7-156">200.00</span></span>      | <span data-ttu-id="cdbb7-157">40.0000</span><span class="sxs-lookup"><span data-stu-id="cdbb7-157">40.0000</span></span>  |
 
-Magn uppskriftar (BOM) er 1 og framleiðslumagnið er 110. Formúla fyrir notkun er Úr röð (Magn) = Notkun. Þar sem framleiðslumagns er 110 fellur það í "Úr 100 röð." Þessvegna er magnið 20.
+<span data-ttu-id="cdbb7-158">Magn uppskriftar (BOM) er 1 og framleiðslumagnið er 110.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-158">The bill of materials (BOM) quantity is 1, and the production quantity is 110.</span></span> <span data-ttu-id="cdbb7-159">Formúla fyrir notkun er Úr röð (Magn) = Notkun.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-159">The formula for the consumption is From series (Quantity) = Consumption.</span></span> <span data-ttu-id="cdbb7-160">Þar sem framleiðslumagns er 110 fellur það í "Úr 100 röð."</span><span class="sxs-lookup"><span data-stu-id="cdbb7-160">Because the production quantity is 110, it falls into the "From 100 series."</span></span> <span data-ttu-id="cdbb7-161">Þessvegna er magnið 20.</span><span class="sxs-lookup"><span data-stu-id="cdbb7-161">Therefore, the quantity is 20.</span></span>
 
 
 

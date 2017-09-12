@@ -16,54 +16,54 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 24f583b412e99f36adcb88c7ff090b26b0372f32
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c902f532e189753a375d4b48edd9ef0b6d74020e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-positions"></a>Setja upp stöður
+# <a name="set-up-positions"></a><span data-ttu-id="4cf96-103">Setja upp stöður</span><span class="sxs-lookup"><span data-stu-id="4cf96-103">Set up positions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis eru staðan „Sölustjóri (Austur-),“ einungis eitt af stöðum sem tengjast verkinu „Sölustjóri.“ Staða er til í deild og hugsanlega er aðeins einn starfsmaður sem tengist stöðunni. Í þessu verki verður farið í gegnum skrefin sem þarf til að stofna stöðu. Þetta er ferli er ætlað fyrir Sérfræðing mannauðs.
+<span data-ttu-id="4cf96-104">Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="4cf96-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="4cf96-105">Staða er sérstakt tilvik starfs.</span><span class="sxs-lookup"><span data-stu-id="4cf96-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="4cf96-106">Til dæmis eru staðan „Sölustjóri (Austur-),“ einungis eitt af stöðum sem tengjast verkinu „Sölustjóri.“</span><span class="sxs-lookup"><span data-stu-id="4cf96-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="4cf96-107">Staða er til í deild og hugsanlega er aðeins einn starfsmaður sem tengist stöðunni.</span><span class="sxs-lookup"><span data-stu-id="4cf96-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="4cf96-108">Í þessu verki verður farið í gegnum skrefin sem þarf til að stofna stöðu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="4cf96-109">Þetta er ferli er ætlað fyrir Sérfræðing mannauðs.</span><span class="sxs-lookup"><span data-stu-id="4cf96-109">This procedure is intended for Human Resources Specialists.</span></span>
 
-1. Smella á Stjórnun starfshóps.
-2. Smella á Opna stöðu.
-3. Smellt er á Nýtt til að opna felligluggann.
-4. Sláið inn eða veldu gildi í reitnum Verk.
-    * Þessi starfslýsing, titill og jafngildi starfsráðningarstuðuls fulls starfs er afrituð sjálfkrafa úr valda starfinu yfir í stöðuna.  
-5. Leysa breytir verki.
-6. Smellt er á Stofna staða.
-7. Sláið inn eða veldu gildi í reitnum deild.
-8. Færa inn eða veljið gildi í svæðinu gerð stöðu.
-9. Slá inn eða velja gildi í reitnum launasvæði.
-    * Reiturinn launasvæði ákvarðar hæfireglur og fastar hækkunaráætlanir um sem eiga við starfsmann í þá stöðu.  
-10. Í reitinn tiltækur í verkefni skal færa inn dagsetningu og tíma.
-11. Víkka þáttuinn tímalengd stöðu
-    * Tímalengd stöðu er færð inn sjálfvirkt samkvæmt virkjunar- og starfsloka dagsetningum sem áður voru færðar inn.  
-12. Útvíkka Skýrslurnar í hlutanum stöðu.
-    * Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna beint skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður.  
-13. Smellt er á Nýtt til að opna felligluggann.
-14. Sláið inn eða veldu gildi í reitnum veita skýrslu til.
-15. Smellið á Stofna.
-16. Víkka þáttinn verkefni starfsmanns
-17. Stækka Vensl hluti.
-    * Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp.  
-18. Smelltu á Bæta við.
-19. Í listanum skal merkja valda línu.
-20. Sláið inn eða veldu gildi í reitnum heiti stigveldis.
-21. Færa inn eða velja gildi í svæðis veitir Skýrslum til stöðu .
-22. Víkkið út hlutann laun.
-23. Sláið inn eða veldu gildi í reitnum greiðsluferli.
-24. Sláið inn eða veldu gildi í reitnum Greitt með.
-25. Í reitinn reglulegar vinnustundir á ári skal slá inn númer.
-    * Þetta er fjöldi reglulega greiddar stundir sem starfsmaðurinn í þessari stöðu er áætlað að hann vinni ár hvert .  
-26. Víkka út hlutann „Stéttarfélög“.
-27. Draga saman út hlutann „Stéttarfélög“.
-28. Útvíkka hlutann fjárhagsvíddir.
-29. Sláið inn eða veldu gildi í reitnum dreifingarsniðmát.
-30. Sláið inn eða veldu gildi í reitnum deild.
-31. Smellið á „Vista“.
+1. <span data-ttu-id="4cf96-110">Smella á Stjórnun starfshóps.</span><span class="sxs-lookup"><span data-stu-id="4cf96-110">Click Workforce management.</span></span>
+2. <span data-ttu-id="4cf96-111">Smella á Opna stöðu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-111">Click Open positions.</span></span>
+3. <span data-ttu-id="4cf96-112">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4cf96-112">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="4cf96-113">Sláið inn eða veldu gildi í reitnum Verk.</span><span class="sxs-lookup"><span data-stu-id="4cf96-113">In the Job field, enter or select a value.</span></span>
+    * <span data-ttu-id="4cf96-114">Þessi starfslýsing, titill og jafngildi starfsráðningarstuðuls fulls starfs er afrituð sjálfkrafa úr valda starfinu yfir í stöðuna.</span><span class="sxs-lookup"><span data-stu-id="4cf96-114">The Job description, title, and full-time equivalent employment factor are automatically copied from the selected job into the position.</span></span>  
+5. <span data-ttu-id="4cf96-115">Leysa breytir verki.</span><span class="sxs-lookup"><span data-stu-id="4cf96-115">ResolveChanges the Job.</span></span>
+6. <span data-ttu-id="4cf96-116">Smellt er á Stofna staða.</span><span class="sxs-lookup"><span data-stu-id="4cf96-116">Click Create position.</span></span>
+7. <span data-ttu-id="4cf96-117">Sláið inn eða veldu gildi í reitnum deild.</span><span class="sxs-lookup"><span data-stu-id="4cf96-117">In the Department field, enter or select a value.</span></span>
+8. <span data-ttu-id="4cf96-118">Færa inn eða veljið gildi í svæðinu gerð stöðu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-118">In the Position type field, enter or select a value.</span></span>
+9. <span data-ttu-id="4cf96-119">Slá inn eða velja gildi í reitnum launasvæði.</span><span class="sxs-lookup"><span data-stu-id="4cf96-119">In the Compensation region field, enter or select a value.</span></span>
+    * <span data-ttu-id="4cf96-120">Reiturinn launasvæði ákvarðar hæfireglur og fastar hækkunaráætlanir um sem eiga við starfsmann í þá stöðu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-120">The Compensation region field determines the compensation eligibility rules and fixed increase budgets that apply to an employee in that position.</span></span>  
+10. <span data-ttu-id="4cf96-121">Í reitinn tiltækur í verkefni skal færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="4cf96-121">In the Available for assignment field, enter a date and time.</span></span>
+11. <span data-ttu-id="4cf96-122">Víkka þáttuinn tímalengd stöðu</span><span class="sxs-lookup"><span data-stu-id="4cf96-122">Expand the Position duration section.</span></span>
+    * <span data-ttu-id="4cf96-123">Tímalengd stöðu er færð inn sjálfvirkt samkvæmt virkjunar- og starfsloka dagsetningum sem áður voru færðar inn.</span><span class="sxs-lookup"><span data-stu-id="4cf96-123">Position duration is entered by default based on activation and retirement dates entered earlier</span></span>  
+12. <span data-ttu-id="4cf96-124">Útvíkka Skýrslurnar í hlutanum stöðu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-124">Expand the Reports to position section.</span></span>
+    * <span data-ttu-id="4cf96-125">Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna beint skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður.</span><span class="sxs-lookup"><span data-stu-id="4cf96-125">When you assign a worker to a position that reports to another position, you create a direct reporting relationship between the workers who are assigned to the two positions.</span></span>  
+13. <span data-ttu-id="4cf96-126">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4cf96-126">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="4cf96-127">Sláið inn eða veldu gildi í reitnum veita skýrslu til.</span><span class="sxs-lookup"><span data-stu-id="4cf96-127">In the Reports to field, enter or select a value.</span></span>
+15. <span data-ttu-id="4cf96-128">Smellið á Stofna.</span><span class="sxs-lookup"><span data-stu-id="4cf96-128">Click Create.</span></span>
+16. <span data-ttu-id="4cf96-129">Víkka þáttinn verkefni starfsmanns</span><span class="sxs-lookup"><span data-stu-id="4cf96-129">Expand the Worker assignment section.</span></span>
+17. <span data-ttu-id="4cf96-130">Stækka Vensl hluti.</span><span class="sxs-lookup"><span data-stu-id="4cf96-130">Expand the Relationships section.</span></span>
+    * <span data-ttu-id="4cf96-131">Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp.</span><span class="sxs-lookup"><span data-stu-id="4cf96-131">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span>  
+18. <span data-ttu-id="4cf96-132">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="4cf96-132">Click Add.</span></span>
+19. <span data-ttu-id="4cf96-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4cf96-133">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="4cf96-134">Sláið inn eða veldu gildi í reitnum heiti stigveldis.</span><span class="sxs-lookup"><span data-stu-id="4cf96-134">In the Hierarchy name field, enter or select a value.</span></span>
+21. <span data-ttu-id="4cf96-135">Færa inn eða velja gildi í svæðis veitir Skýrslum til stöðu .</span><span class="sxs-lookup"><span data-stu-id="4cf96-135">In the Reports to position field, enter or select a value.</span></span>
+22. <span data-ttu-id="4cf96-136">Víkkið út hlutann laun.</span><span class="sxs-lookup"><span data-stu-id="4cf96-136">Expand the Payroll section.</span></span>
+23. <span data-ttu-id="4cf96-137">Sláið inn eða veldu gildi í reitnum greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="4cf96-137">In the Pay cycle field, enter or select a value.</span></span>
+24. <span data-ttu-id="4cf96-138">Sláið inn eða veldu gildi í reitnum Greitt með.</span><span class="sxs-lookup"><span data-stu-id="4cf96-138">In the Paid by field, enter or select a value.</span></span>
+25. <span data-ttu-id="4cf96-139">Í reitinn reglulegar vinnustundir á ári skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="4cf96-139">In the Annual regular hours field, enter a number.</span></span>
+    * <span data-ttu-id="4cf96-140">Þetta er fjöldi reglulega greiddar stundir sem starfsmaðurinn í þessari stöðu er áætlað að hann vinni ár hvert .</span><span class="sxs-lookup"><span data-stu-id="4cf96-140">This is the number of regularly paid hours that the worker in this position is expected to work each year.</span></span>  
+26. <span data-ttu-id="4cf96-141">Víkka út hlutann „Stéttarfélög“.</span><span class="sxs-lookup"><span data-stu-id="4cf96-141">Expand the Labor union section.</span></span>
+27. <span data-ttu-id="4cf96-142">Draga saman út hlutann „Stéttarfélög“.</span><span class="sxs-lookup"><span data-stu-id="4cf96-142">Collapse the Labor union section.</span></span>
+28. <span data-ttu-id="4cf96-143">Útvíkka hlutann fjárhagsvíddir.</span><span class="sxs-lookup"><span data-stu-id="4cf96-143">Expand the Financial dimensions section.</span></span>
+29. <span data-ttu-id="4cf96-144">Sláið inn eða veldu gildi í reitnum dreifingarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="4cf96-144">In the Distribution template field, enter or select a value.</span></span>
+30. <span data-ttu-id="4cf96-145">Sláið inn eða veldu gildi í reitnum deild.</span><span class="sxs-lookup"><span data-stu-id="4cf96-145">In the Department field, enter or select a value.</span></span>
+31. <span data-ttu-id="4cf96-146">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="4cf96-146">Click Save.</span></span>
 
 

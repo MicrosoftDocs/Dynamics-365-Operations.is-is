@@ -1,53 +1,47 @@
 --- 
-title: "Stjórna sniðmáti fyrir tölvupóst"
-description: "Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur."
+# required metadata 
+title: Stjórna sniðmáti fyrir tölvupóst
+description: Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shielas
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3cb22f122955e9c1856ede46ad483aeb5f382975
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="manage-email-templates"></a>Stjórna sniðmáti fyrir tölvupóst
+# <a name="manage-email-templates"></a><span data-ttu-id="ea23b-103">Stjórna sniðmáti fyrir tölvupóst</span><span class="sxs-lookup"><span data-stu-id="ea23b-103">Manage email templates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur. Til að gera þetta stofnarðu sniðmát sem inniheldur staðlaðan texta og einhver bókamerki þar sem kerfisgögn ætti að setja inn. Til dæmis er hægt að setja inn aðsetur og tengslaupplýsingar fyrir umsækjanda í Microsoft Word-skjal sem hægt er að nota samskiptum við þann umsækjanda . Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="ea23b-104">Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur.</span><span class="sxs-lookup"><span data-stu-id="ea23b-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="ea23b-105">Til að gera þetta stofnarðu sniðmát sem inniheldur staðlaðan texta og einhver bókamerki þar sem kerfisgögn ætti að setja inn.</span><span class="sxs-lookup"><span data-stu-id="ea23b-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="ea23b-106">Til dæmis er hægt að setja inn aðsetur og tengslaupplýsingar fyrir umsækjanda í Microsoft Word-skjal sem hægt er að nota samskiptum við þann umsækjanda .</span><span class="sxs-lookup"><span data-stu-id="ea23b-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="ea23b-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="ea23b-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Veljið hvaða bókmerki til að nota í sniðmát fyrir tölvupóst
-1. Fara á umsóknabókamerki
-2. Í listanum skal finna og velja þá samskiptaaðgerð sem óskað er eftir.
-3. Smellið á „Breyta“.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið svæðin sem á þú myndir vilja nota í sniðmát fyrir tölvupóst fyrir valda Samskiptaaðgerð og flytja þær í svæði Bókarmerki.  
-5. Lokið síðunni.
+## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a><span data-ttu-id="ea23b-108">Veljið hvaða bókmerki til að nota í sniðmát fyrir tölvupóst</span><span class="sxs-lookup"><span data-stu-id="ea23b-108">Select which bookmarks to use in your email templates</span></span>
+1. <span data-ttu-id="ea23b-109">Fara á umsóknabókamerki</span><span class="sxs-lookup"><span data-stu-id="ea23b-109">Go to Application bookmarks.</span></span>
+2. <span data-ttu-id="ea23b-110">Í listanum skal finna og velja þá samskiptaaðgerð sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ea23b-110">In the list, find and select the desired correspondence action.</span></span>
+3. <span data-ttu-id="ea23b-111">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="ea23b-111">Click Edit.</span></span>
+4. <span data-ttu-id="ea23b-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ea23b-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ea23b-113">Veljið svæðin sem á þú myndir vilja nota í sniðmát fyrir tölvupóst fyrir valda Samskiptaaðgerð og flytja þær í svæði Bókarmerki.</span><span class="sxs-lookup"><span data-stu-id="ea23b-113">Select the fields you would like to be able to use in an email template for the selected Correspondence action and move them to the Bookmark fields.</span></span>  
+5. <span data-ttu-id="ea23b-114">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ea23b-114">Close the page.</span></span>
 
-## <a name="create-an-email-template"></a>Stofna tölvupóstssniðmát
-1. Farið í Mannauður > Ráðningar > Samskipti > Sniðmát tölvupósts fyrir umsóknir.
-2. Smellið á „Nýtt“.
-3. Í svæðinu Samskiptaaðgerð , veljið 'Viðtal'.
-    * Veljið samskiptaaðgerð sem inniheldur bókmerki til að nota fyrir þessa gerð samskipta tölvupóst.  
-4. Færa inn gildi í sniðmátssvæði tölvupósts.
-5. Í reitinn Efni skal slá inn gildi.
-6. Í reitinn Texti skal slá inn gildi.
-7. Í listanum skal finna og velja þá bókamerki sem óskað er eftir.
-8. Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.
-    * Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.  
-9. Smellið á „Vista“.
-
+## <a name="create-an-email-template"></a><span data-ttu-id="ea23b-115">Stofna tölvupóstssniðmát</span><span class="sxs-lookup"><span data-stu-id="ea23b-115">Create an email template</span></span>
+1. <span data-ttu-id="ea23b-116">Farið í Mannauður > Ráðningar > Samskipti > Sniðmát tölvupósts fyrir umsóknir.</span><span class="sxs-lookup"><span data-stu-id="ea23b-116">Go to Human resources > Recruitment > Communication > Application e-mail templates.</span></span>
+2. <span data-ttu-id="ea23b-117">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ea23b-117">Click New.</span></span>
+3. <span data-ttu-id="ea23b-118">Í svæðinu Samskiptaaðgerð , veljið 'Viðtal'.</span><span class="sxs-lookup"><span data-stu-id="ea23b-118">In the Correspondence action field, select 'Interview'.</span></span>
+    * <span data-ttu-id="ea23b-119">Veljið samskiptaaðgerð sem inniheldur bókmerki til að nota fyrir þessa gerð samskipta tölvupóst.</span><span class="sxs-lookup"><span data-stu-id="ea23b-119">Select the correspondence action that contains the bookmarks to use for this type of email communication.</span></span>  
+4. <span data-ttu-id="ea23b-120">Færa inn gildi í sniðmátssvæði tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="ea23b-120">In the E-mail template field, type a value.</span></span>
+5. <span data-ttu-id="ea23b-121">Í reitinn Efni skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ea23b-121">In the Subject field, type a value.</span></span>
+6. <span data-ttu-id="ea23b-122">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ea23b-122">In the Text field, type a value.</span></span>
+7. <span data-ttu-id="ea23b-123">Í listanum skal finna og velja þá bókamerki sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ea23b-123">In the list, find and select the desired bookmark field.</span></span>
+8. <span data-ttu-id="ea23b-124">Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.</span><span class="sxs-lookup"><span data-stu-id="ea23b-124">Continue typing your email message, inserting the bookmark fields where you need them.</span></span>
+    * <span data-ttu-id="ea23b-125">Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.</span><span class="sxs-lookup"><span data-stu-id="ea23b-125">Continue typing your email message inserting the bookmark fields where desired.</span></span>  
+9. <span data-ttu-id="ea23b-126">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ea23b-126">Click Save.</span></span>
 

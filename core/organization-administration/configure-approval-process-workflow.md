@@ -15,74 +15,74 @@ ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: eedadfcbfac9d792a5ab80c1dcd8f3abfaddca08
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Skilgreining samþykktarferlis í verkflæði
+# <a name="configure-an-approval-process-in-a-workflow"></a><span data-ttu-id="6afb2-103">Skilgreining samþykktarferlis í verkflæði</span><span class="sxs-lookup"><span data-stu-id="6afb2-103">Configure an approval process in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
+<span data-ttu-id="6afb2-104">Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.</span><span class="sxs-lookup"><span data-stu-id="6afb2-104">Use the following procedure to configure the properties of the approval process.</span></span>
 
-Til að skilgreina samþykktarferli í verkflæðisritlinum, er hægrismellt á samþykktareiningu og smellið síðan á **Eiginleika** til að opna skjámyndina **Eiginleika**.
-Gefa samþykktarferlinu heiti
+<span data-ttu-id="6afb2-105">Til að skilgreina samþykktarferli í verkflæðisritlinum, er hægrismellt á samþykktareiningu og smellið síðan á **Eiginleika** til að opna skjámyndina **Eiginleika**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="6afb2-106">Gefa samþykktarferlinu heiti</span><span class="sxs-lookup"><span data-stu-id="6afb2-106">Name the approval process</span></span>
 -------------------------
 
-Fylgið eftirfarandi skrefum til að gefa samþykktarferlinu heiti.
-1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Í reitinn **Heiti** er slegið inn einkvæmt heiti fyrir samþykktarferlið.
+<span data-ttu-id="6afb2-107">Fylgið eftirfarandi skrefum til að gefa samþykktarferlinu heiti.</span><span class="sxs-lookup"><span data-stu-id="6afb2-107">Follow these steps to enter a name for the approval process.</span></span>
+1.  <span data-ttu-id="6afb2-108">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-108">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="6afb2-109">Í reitinn **Heiti** er slegið inn einkvæmt heiti fyrir samþykktarferlið.</span><span class="sxs-lookup"><span data-stu-id="6afb2-109">In the **Name** field, enter a unique name for the approval process.</span></span>
 
-## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Tilgreindu hvenær kerfið bregst sjálfkrafa við vegna skjals
-Hægt er að skilgreina kerfið þannig það vinni sjálfkrafa að skjölum sem standast ákveðin skilyrði. Til dæmis, getur kerfið samþykkja kostnaðarskýrslur sem hafa heildarupphæðir sem eru lægri en 100 USD. Fylgið eftirfarandi skrefum til að tilgreina hvenær kerfið grípur til aðgerða vegna skjals.
-1.  Í vinstri glugganum, smelltu á **sjálfvirkar aðgerðir**.
-2.  Útvíkkið gátreitur **virkja sjálfvirkar aðgerðir** .
-3.  Smelltu á **Bæta við Aðgerð**.
-4.  Færið inn skilyrði.
-5.  Færa inn viðbótarskilyrði ef þess gerist þörf:
-6.  Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:
-    1.  Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.
-    2.  Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.
-    3.  Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
-    4.  Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.
+## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="6afb2-110">Tilgreindu hvenær kerfið bregst sjálfkrafa við vegna skjals</span><span class="sxs-lookup"><span data-stu-id="6afb2-110">Specify when the system automatically acts on the document</span></span>
+<span data-ttu-id="6afb2-111">Hægt er að skilgreina kerfið þannig það vinni sjálfkrafa að skjölum sem standast ákveðin skilyrði.</span><span class="sxs-lookup"><span data-stu-id="6afb2-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="6afb2-112">Til dæmis, getur kerfið samþykkja kostnaðarskýrslur sem hafa heildarupphæðir sem eru lægri en 100 USD.</span><span class="sxs-lookup"><span data-stu-id="6afb2-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="6afb2-113">Fylgið eftirfarandi skrefum til að tilgreina hvenær kerfið grípur til aðgerða vegna skjals.</span><span class="sxs-lookup"><span data-stu-id="6afb2-113">Follow these steps to specify when the system acts on the document.</span></span>
+1.  <span data-ttu-id="6afb2-114">Í vinstri glugganum, smelltu á **sjálfvirkar aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-114">In the left pane, click **Automatic actions**.</span></span>
+2.  <span data-ttu-id="6afb2-115">Útvíkkið gátreitur **virkja sjálfvirkar aðgerðir** .</span><span class="sxs-lookup"><span data-stu-id="6afb2-115">Select the **Enable automatic actions** check box.</span></span>
+3.  <span data-ttu-id="6afb2-116">Smelltu á **Bæta við Aðgerð**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-116">Click **Add condition**.</span></span>
+4.  <span data-ttu-id="6afb2-117">Færið inn skilyrði.</span><span class="sxs-lookup"><span data-stu-id="6afb2-117">Enter a condition.</span></span>
+5.  <span data-ttu-id="6afb2-118">Færa inn viðbótarskilyrði ef þess gerist þörf:</span><span class="sxs-lookup"><span data-stu-id="6afb2-118">Enter additional conditions, if necessary.</span></span>
+6.  <span data-ttu-id="6afb2-119">Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="6afb2-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+    1.  <span data-ttu-id="6afb2-120">Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="6afb2-120">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2.  <span data-ttu-id="6afb2-121">Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="6afb2-121">Select a record in the **Validate condition** area of the form.</span></span>
+    3.  <span data-ttu-id="6afb2-122">Smellið á **Prófun**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-122">Click **Test**.</span></span> <span data-ttu-id="6afb2-123">Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.</span><span class="sxs-lookup"><span data-stu-id="6afb2-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="6afb2-124">Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
-7.  Í listanum **ljúka aðgerð sjálfvirkt** skal velja aðgerðina sem kerfið á að grípa til vegna skjalsins.
+7.  <span data-ttu-id="6afb2-125">Í listanum **ljúka aðgerð sjálfvirkt** skal velja aðgerðina sem kerfið á að grípa til vegna skjalsins.</span><span class="sxs-lookup"><span data-stu-id="6afb2-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
-Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, hafnað, framselja eða stigmagnað, eða þegar beðið hefur verið um breytingu. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers tilkynningar eru sendar.
-1.  Á svæðinu vinstra megin, smella á **tilkynningar**.
-2.  Veldu gátreitinn sem er við hliðina á tilvikunum sem á að senda tilkynningar vegna.
-    -   **Úthluta** – Úthluta skjalinu til annars notanda til samþykkis.
-    -   **Hækka** – Þegar úthlutaður notandi hefur ekki bregðast á skjal í tíminn.
-    -   **Samþykkja** – Þegar skjal hefur verið samþykkt.
-    -   **Hafna** – Þegar skjali hefur verið hafnað.
-    -   **Biðja um breytingu** – úthlutaður notandi hefur beðið um breytingu á skjalinu sem var sent.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="6afb2-126">Tilgreinið hvenær tilkynningar eru sendar út</span><span class="sxs-lookup"><span data-stu-id="6afb2-126">Specify when notifications are sent</span></span>
+<span data-ttu-id="6afb2-127">Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, hafnað, framselja eða stigmagnað, eða þegar beðið hefur verið um breytingu.</span><span class="sxs-lookup"><span data-stu-id="6afb2-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="6afb2-128">Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers tilkynningar eru sendar.</span><span class="sxs-lookup"><span data-stu-id="6afb2-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
+1.  <span data-ttu-id="6afb2-129">Á svæðinu vinstra megin, smella á **tilkynningar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-129">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="6afb2-130">Veldu gátreitinn sem er við hliðina á tilvikunum sem á að senda tilkynningar vegna.</span><span class="sxs-lookup"><span data-stu-id="6afb2-130">Select the check box next to the events to send notifications for:</span></span>
+    -   <span data-ttu-id="6afb2-131">**Úthluta** – Úthluta skjalinu til annars notanda til samþykkis.</span><span class="sxs-lookup"><span data-stu-id="6afb2-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
+    -   <span data-ttu-id="6afb2-132">**Hækka** – Þegar úthlutaður notandi hefur ekki bregðast á skjal í tíminn.</span><span class="sxs-lookup"><span data-stu-id="6afb2-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
+    -   <span data-ttu-id="6afb2-133">**Samþykkja** – Þegar skjal hefur verið samþykkt.</span><span class="sxs-lookup"><span data-stu-id="6afb2-133">**Approve** – When a document has been approved.</span></span>
+    -   <span data-ttu-id="6afb2-134">**Hafna** – Þegar skjali hefur verið hafnað.</span><span class="sxs-lookup"><span data-stu-id="6afb2-134">**Reject** – When a document has been rejected.</span></span>
+    -   <span data-ttu-id="6afb2-135">**Biðja um breytingu** – úthlutaður notandi hefur beðið um breytingu á skjalinu sem var sent.</span><span class="sxs-lookup"><span data-stu-id="6afb2-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
 
-3.  Veljið línu fyrir tilvik sem þú valdir í skrefi 2.
-4.  Smellið á flipann **Tilkynningartexti**.
-5.  Færið inn tilkynningartextann í textareitinn.
-6.  Hægt er að sérsníða textann með því að færa inn staðgengla sem skipt verður út fyrir viðeigandi gagna þegar þau birtast notendum. Fylgið eftirfarandi skrefum til að færa inn staðgengil:
-    1.  Smella skal á textareit þar sem staðgengillinn á að birtast.
-    2.  Smella á **Setja inn staðgengil**
-    3.  Í listanum sem birtist skal velja staðgengilinn til að setja inn.
-    4.  Smellt er á **Setja inn**.
+3.  <span data-ttu-id="6afb2-136">Veljið línu fyrir tilvik sem þú valdir í skrefi 2.</span><span class="sxs-lookup"><span data-stu-id="6afb2-136">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="6afb2-137">Smellið á flipann **Tilkynningartexti**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-137">Click the **Notification text** tab.</span></span>
+5.  <span data-ttu-id="6afb2-138">Færið inn tilkynningartextann í textareitinn.</span><span class="sxs-lookup"><span data-stu-id="6afb2-138">In the text box, enter the text for the notification.</span></span>
+6.  <span data-ttu-id="6afb2-139">Hægt er að sérsníða textann með því að færa inn staðgengla sem skipt verður út fyrir viðeigandi gagna þegar þau birtast notendum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="6afb2-140">Fylgið eftirfarandi skrefum til að færa inn staðgengil:</span><span class="sxs-lookup"><span data-stu-id="6afb2-140">To insert a placeholder, follow these steps:</span></span>
+    1.  <span data-ttu-id="6afb2-141">Smella skal á textareit þar sem staðgengillinn á að birtast.</span><span class="sxs-lookup"><span data-stu-id="6afb2-141">Click in the text box at the location where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="6afb2-142">Smella á **Setja inn staðgengil**</span><span class="sxs-lookup"><span data-stu-id="6afb2-142">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="6afb2-143">Í listanum sem birtist skal velja staðgengilinn til að setja inn.</span><span class="sxs-lookup"><span data-stu-id="6afb2-143">In the list that is displayed, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="6afb2-144">Smellt er á **Setja inn**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-144">Click **Insert**.</span></span>
 
-7.  Til að bæta þýðingum á tilkynningunni við skal smella á **Þýðingar**. Í skjámyndinni sem birtist, skal fylgja þessum skrefum:
-    1.  Smellið á **Bæta við**.
-    2.  Í listanum sem birtist skal velja tungumálið sem á að færa inn í textanum.
-    3.  Í svæðið **þýddur texti** skal færa inn textann.
-    4.  Hægt er að sérsníða texta með því að færa inn staðgengla.
-    5.  Smellið á **Loka**.
+7.  <span data-ttu-id="6afb2-145">Til að bæta þýðingum á tilkynningunni við skal smella á **Þýðingar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="6afb2-146">Í skjámyndinni sem birtist, skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="6afb2-146">In the form that is displayed, follow these steps:</span></span>
+    1.  <span data-ttu-id="6afb2-147">Smellið á **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-147">Click **Add**.</span></span>
+    2.  <span data-ttu-id="6afb2-148">Í listanum sem birtist skal velja tungumálið sem á að færa inn í textanum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
+    3.  <span data-ttu-id="6afb2-149">Í svæðið **þýddur texti** skal færa inn textann.</span><span class="sxs-lookup"><span data-stu-id="6afb2-149">In the **Translated text** text box, enter the text.</span></span>
+    4.  <span data-ttu-id="6afb2-150">Hægt er að sérsníða texta með því að færa inn staðgengla.</span><span class="sxs-lookup"><span data-stu-id="6afb2-150">To personalize the text, insert placeholders.</span></span>
+    5.  <span data-ttu-id="6afb2-151">Smellið á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-151">Click **Close**.</span></span>
 
-8.  Smellið á flipann **viðtakandi**.
-9.  Tilgreinið til hvers tilkynningar eru sendar. Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 10.
+8.  <span data-ttu-id="6afb2-152">Smellið á flipann **viðtakandi**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-152">Click the **Recipient** tab.</span></span>
+9.  <span data-ttu-id="6afb2-153">Tilgreinið til hvers tilkynningar eru sendar.</span><span class="sxs-lookup"><span data-stu-id="6afb2-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="6afb2-154">Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 10.</span><span class="sxs-lookup"><span data-stu-id="6afb2-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
 
     <table>
     <colgroup>
@@ -92,80 +92,80 @@ Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Valkostur</th>
-    <th>Viðtakendur tilkynninga.</th>
-    <th>Viðbótarskref</th>
+    <th><span data-ttu-id="6afb2-155">Valkostur</span><span class="sxs-lookup"><span data-stu-id="6afb2-155">Option</span></span></th>
+    <th><span data-ttu-id="6afb2-156">Viðtakendur tilkynninga.</span><span class="sxs-lookup"><span data-stu-id="6afb2-156">Notification recipients</span></span></th>
+    <th><span data-ttu-id="6afb2-157">Viðbótarskref</span><span class="sxs-lookup"><span data-stu-id="6afb2-157">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><strong>Þátttakendur</strong></td>
-    <td>Notendur sem tilheyra tilteknum hópi eða hlutverki</td>
+    <td><span data-ttu-id="6afb2-158"><strong>Þátttakendur</strong></span><span class="sxs-lookup"><span data-stu-id="6afb2-158"><strong>Participant</strong></span></span></td>
+    <td><span data-ttu-id="6afb2-159">Notendur sem tilheyra tilteknum hópi eða hlutverki</span><span class="sxs-lookup"><span data-stu-id="6afb2-159">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Eftir að <strong>Þáttakandi</strong> er valin, smellið á <strong>byggt á hlutverki</strong> flipa.</li>
-    <li>Í listanum <strong>gerð Þátttakanda</strong> skal velja gerð hóps eða hlutverk til að senda tilkynningar til.</li>
-    <li>Í listanum <strong>Þátttakanda</strong> skal velja hópi eða hlutverk til að senda tilkynningar til.</li>
+    <li><span data-ttu-id="6afb2-160">Eftir að <strong>Þáttakandi</strong> er valin, smellið á <strong>byggt á hlutverki</strong> flipa.</span><span class="sxs-lookup"><span data-stu-id="6afb2-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="6afb2-161">Í listanum <strong>gerð Þátttakanda</strong> skal velja gerð hóps eða hlutverk til að senda tilkynningar til.</span><span class="sxs-lookup"><span data-stu-id="6afb2-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="6afb2-162">Í listanum <strong>Þátttakanda</strong> skal velja hópi eða hlutverk til að senda tilkynningar til.</span><span class="sxs-lookup"><span data-stu-id="6afb2-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td><strong>Verkflæðisnotandi</strong></td>
-    <td>Notendur sem taka þátt í núverandi verkflæði</td>
+    <td><span data-ttu-id="6afb2-163"><strong>Verkflæðisnotandi</strong></span><span class="sxs-lookup"><span data-stu-id="6afb2-163"><strong>Workflow user</strong></span></span></td>
+    <td><span data-ttu-id="6afb2-164">Notendur sem taka þátt í núverandi verkflæði</span><span class="sxs-lookup"><span data-stu-id="6afb2-164">Users who participate in the current workflow</span></span></td>
     <td><ol>
-    <li>Eftir að þú velur <strong>Notanda verkflæðis</strong>, skal smellið á <strong>Notanda verkflæðis</strong> flipa.</li>
-    <li>Í <strong>verkflæðisnotandi</strong> skal velja notandann sem tekur þátt í verkflæðinu.</li>
+    <li><span data-ttu-id="6afb2-165">Eftir að þú velur <strong>Notanda verkflæðis</strong>, skal smellið á <strong>Notanda verkflæðis</strong> flipa.</span><span class="sxs-lookup"><span data-stu-id="6afb2-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
+    <li><span data-ttu-id="6afb2-166">Í <strong>verkflæðisnotandi</strong> skal velja notandann sem tekur þátt í verkflæðinu.</span><span class="sxs-lookup"><span data-stu-id="6afb2-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>Notandi</strong></td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td><span data-ttu-id="6afb2-167"><strong>Notandi</strong></span><span class="sxs-lookup"><span data-stu-id="6afb2-167"><strong>User</strong></span></span></td>
+    <td><span data-ttu-id="6afb2-168">Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6afb2-168">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Microsoft Dynamics 365 for Finance and Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</li>
+    <li><span data-ttu-id="6afb2-169">Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</span><span class="sxs-lookup"><span data-stu-id="6afb2-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="6afb2-170">Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6afb2-170">The <strong>Available users</strong>: list includes all Microsoft Dynamics 365 for Finance and Operations users.</span></span> <span data-ttu-id="6afb2-171">Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong>: lista.</span><span class="sxs-lookup"><span data-stu-id="6afb2-171">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong>: list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-10. Endurtakið skref 3 til 9 hvert tilvik sem valin var í skrefi 2.
+10. <span data-ttu-id="6afb2-172">Endurtakið skref 3 til 9 hvert tilvik sem valin var í skrefi 2.</span><span class="sxs-lookup"><span data-stu-id="6afb2-172">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
 
-## <a name="specify-a-final-approver"></a>Tilgreina hver endanlegur samþykkjandi er
-Gott gæti verið að tilnefna endanlegur samþykkjandi fyrir aðstæður þar sem samþykkjandi er sá sem sendi skjalið til samþykkis. Fylgið eftirfarandi skrefum til að tilgreina endanlegan samþykkjanda.
-1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
-2.  Veljið gátreitinn **Nota endanlegs samþykkjanda**.
-3.  Veljið notandann, sem verður endanlegi samþykkjandinn, af listanum.
+## <a name="specify-a-final-approver"></a><span data-ttu-id="6afb2-173">Tilgreina hver endanlegur samþykkjandi er</span><span class="sxs-lookup"><span data-stu-id="6afb2-173">Specify a final approver</span></span>
+<span data-ttu-id="6afb2-174">Gott gæti verið að tilnefna endanlegur samþykkjandi fyrir aðstæður þar sem samþykkjandi er sá sem sendi skjalið til samþykkis.</span><span class="sxs-lookup"><span data-stu-id="6afb2-174">You may want to designate a final approver for scenarios where the approver is the person who submitted the document for approval.</span></span> <span data-ttu-id="6afb2-175">Fylgið eftirfarandi skrefum til að tilgreina endanlegan samþykkjanda.</span><span class="sxs-lookup"><span data-stu-id="6afb2-175">Follow these steps to specify a final approver.</span></span>
+1.  <span data-ttu-id="6afb2-176">Í vinstri glugganum, smelltu á **ítarlegar stillingar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-176">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="6afb2-177">Veljið gátreitinn **Nota endanlegs samþykkjanda**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-177">Select the **Use final approver** check box.</span></span>
+3.  <span data-ttu-id="6afb2-178">Veljið notandann, sem verður endanlegi samþykkjandinn, af listanum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-178">In the list, select the user to be the final approver.</span></span>
 
-## <a name="set-a-time-limit"></a>Setja upp tímamörk
-Fylgið eftirfarandi skrefum ef verður að ljúka samþykktarferlinu innan tiltekins tíma.
-| **Ábending**                                                                                                                                                |
+## <a name="set-a-time-limit"></a><span data-ttu-id="6afb2-179">Setja upp tímamörk</span><span class="sxs-lookup"><span data-stu-id="6afb2-179">Set a time limit</span></span>
+<span data-ttu-id="6afb2-180">Fylgið eftirfarandi skrefum ef verður að ljúka samþykktarferlinu innan tiltekins tíma.</span><span class="sxs-lookup"><span data-stu-id="6afb2-180">Follow these steps if the approval process must be completed in a specific time.</span></span>
+| <span data-ttu-id="6afb2-181">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="6afb2-181">**Note**</span></span>                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Valkostirnir sem valdir í þessum skrefum munu hnekkja valkostunum sem valdir eru á flipunum **Verkefni** og **Hækkun** í hverju samþykktarskrefi. |
+| <span data-ttu-id="6afb2-182">Valkostirnir sem valdir í þessum skrefum munu hnekkja valkostunum sem valdir eru á flipunum **Verkefni** og **Hækkun** í hverju samþykktarskrefi.</span><span class="sxs-lookup"><span data-stu-id="6afb2-182">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span> |
 
-1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
-2.  Beldu **Stilla tímamörk** **verkflæðiseiningar** gátreitinn.
-3.  Í reitnum **tímalengd** tilgreinið þegar samþykktarferli á að vera lokið. Veldu einn af eftirfarandi valkostum:
-    -   **Klukkustundir** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
-    -   **Dagar** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
-    -   **Vikur** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið.
-    -   **Mánuðir** — velja daginn og vikuna sem verður að vera búið að klára samþykktarferlið fyrir. Til dæmis getur samþykktarferlið átt að vera lokið fyrir föstudaginn í þriðju viku mánaðarins.
-    -   **Ár** — velja daginn og vikuna sem verður að vera búið að klára samþykktarferlið fyrir. Til dæmis getur samþykktarferlið átt að vera lokið fyrir föstudaginn í þriðju viku desembermánaðar.
+1.  <span data-ttu-id="6afb2-183">Í vinstri glugganum, smelltu á **ítarlegar stillingar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-183">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="6afb2-184">Beldu **Stilla tímamörk** **verkflæðiseiningar** gátreitinn.</span><span class="sxs-lookup"><span data-stu-id="6afb2-184">Select the **Set a time limit for the workflow** **element** check box.</span></span>
+3.  <span data-ttu-id="6afb2-185">Í reitnum **tímalengd** tilgreinið þegar samþykktarferli á að vera lokið.</span><span class="sxs-lookup"><span data-stu-id="6afb2-185">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="6afb2-186">Veldu einn af eftirfarandi valkostum:</span><span class="sxs-lookup"><span data-stu-id="6afb2-186">Select one of the following options:</span></span>
+    -   <span data-ttu-id="6afb2-187">**Klukkustundir** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið.</span><span class="sxs-lookup"><span data-stu-id="6afb2-187">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="6afb2-188">Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="6afb2-188">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="6afb2-189">**Dagar** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið.</span><span class="sxs-lookup"><span data-stu-id="6afb2-189">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="6afb2-190">Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="6afb2-190">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="6afb2-191">**Vikur** – færið Inn fjölda klukkustunda sem samþykktarferlið verður að vera lokið.</span><span class="sxs-lookup"><span data-stu-id="6afb2-191">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
+    -   <span data-ttu-id="6afb2-192">**Mánuðir** — velja daginn og vikuna sem verður að vera búið að klára samþykktarferlið fyrir.</span><span class="sxs-lookup"><span data-stu-id="6afb2-192">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="6afb2-193">Til dæmis getur samþykktarferlið átt að vera lokið fyrir föstudaginn í þriðju viku mánaðarins.</span><span class="sxs-lookup"><span data-stu-id="6afb2-193">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="6afb2-194">**Ár** — velja daginn og vikuna sem verður að vera búið að klára samþykktarferlið fyrir.</span><span class="sxs-lookup"><span data-stu-id="6afb2-194">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="6afb2-195">Til dæmis getur samþykktarferlið átt að vera lokið fyrir föstudaginn í þriðju viku desembermánaðar.</span><span class="sxs-lookup"><span data-stu-id="6afb2-195">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
 
-4.  Ef farið er yfir tímamörkin mun kerfið grípa til aðgerða vegna skjalsins. Veljið aðgerðina, sem kerfið á að framkvæma, í listanum **Aðgerðir**.
+4.  <span data-ttu-id="6afb2-196">Ef farið er yfir tímamörkin mun kerfið grípa til aðgerða vegna skjalsins.</span><span class="sxs-lookup"><span data-stu-id="6afb2-196">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="6afb2-197">Veljið aðgerðina, sem kerfið á að framkvæma, í listanum **Aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-197">In the **Action** list, select the action that the system should take.</span></span>
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Tilgreina hvaða aðgerðir verða tiltækar notandanum.
-Þegar notandi fær skjal úthlutað til samþykktar verður hann að vinna í skjalinu. Fylgið eftirfarandi skrefum til að tilgreina hvaða aðgerðir notandi getur gripið til vegna skjalsins sem lagt var fyrir.
-1.  Í vinstri glugganum, smelltu á **ítarlegar stillingar**.
-2.  Veljið gátreitinn **Samþykkja** ef notendur eiga að geta samþykkt skjöl.
-3.  Veljið gátreitinn **hafna** ef notendur eiga að geta hafnað skjöl.
-4.  Veljið gátreitinn **Breytingabeiðni** ef notendur eiga að geta beðið um breytingar á skjölum.
-5.  Veljið gátreitinn **framselja** ef notandinn á að geta framselt skjalinu til annars notanda.
+## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="6afb2-198">Tilgreina hvaða aðgerðir verða tiltækar notandanum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-198">Specify which actions are available to the user</span></span>
+<span data-ttu-id="6afb2-199">Þegar notandi fær skjal úthlutað til samþykktar verður hann að vinna í skjalinu.</span><span class="sxs-lookup"><span data-stu-id="6afb2-199">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="6afb2-200">Fylgið eftirfarandi skrefum til að tilgreina hvaða aðgerðir notandi getur gripið til vegna skjalsins sem lagt var fyrir.</span><span class="sxs-lookup"><span data-stu-id="6afb2-200">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
+1.  <span data-ttu-id="6afb2-201">Í vinstri glugganum, smelltu á **ítarlegar stillingar**.</span><span class="sxs-lookup"><span data-stu-id="6afb2-201">In the left pane, click **Advanced settings**.</span></span>
+2.  <span data-ttu-id="6afb2-202">Veljið gátreitinn **Samþykkja** ef notendur eiga að geta samþykkt skjöl.</span><span class="sxs-lookup"><span data-stu-id="6afb2-202">Select the **Approve** check box if the user can approve the document.</span></span>
+3.  <span data-ttu-id="6afb2-203">Veljið gátreitinn **hafna** ef notendur eiga að geta hafnað skjöl.</span><span class="sxs-lookup"><span data-stu-id="6afb2-203">Select the **Reject** check box the user can reject the document.</span></span>
+4.  <span data-ttu-id="6afb2-204">Veljið gátreitinn **Breytingabeiðni** ef notendur eiga að geta beðið um breytingar á skjölum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-204">Select the **Request change** check box the user can request changes to the document.</span></span>
+5.  <span data-ttu-id="6afb2-205">Veljið gátreitinn **framselja** ef notandinn á að geta framselt skjalinu til annars notanda.</span><span class="sxs-lookup"><span data-stu-id="6afb2-205">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
 
-**Athugasemd**: **Heimila aðgerðir úr verklistanum í Enterprise Portal** gátreitur er úreltur.
+<span data-ttu-id="6afb2-206">**Athugasemd**: **Heimila aðgerðir úr verklistanum í Enterprise Portal** gátreitur er úreltur.</span><span class="sxs-lookup"><span data-stu-id="6afb2-206">**Note**: The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
 
-## <a name="configure-the-approval-steps"></a>Skilgreining samþykktarskrefs
-Samþykktarferli samanstendur af samþykktarskref. Ljúktu við eftirfarandi ferli til að bæta skrefum samþykktarferlið og skilgreina skrefum.
-1.  Tvísmellið samþykktarferlið í ritill verkflæðis. Verkflæðisritlinum birtir skref í samþykktarferlinu.
-2.  Til að bæta við samþykktarskrefi, draga skrefið í **verkflæðiseiningar** á vinnusvæði.
-3.  Til að skilgreina samþykktarskref, sjá [Skilgreina samþykktarskref](configure-approval-step-workflow.md).
+## <a name="configure-the-approval-steps"></a><span data-ttu-id="6afb2-207">Skilgreining samþykktarskrefs</span><span class="sxs-lookup"><span data-stu-id="6afb2-207">Configure the approval steps</span></span>
+<span data-ttu-id="6afb2-208">Samþykktarferli samanstendur af samþykktarskref.</span><span class="sxs-lookup"><span data-stu-id="6afb2-208">An approval process consists of approval steps.</span></span> <span data-ttu-id="6afb2-209">Ljúktu við eftirfarandi ferli til að bæta skrefum samþykktarferlið og skilgreina skrefum.</span><span class="sxs-lookup"><span data-stu-id="6afb2-209">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+1.  <span data-ttu-id="6afb2-210">Tvísmellið samþykktarferlið í ritill verkflæðis.</span><span class="sxs-lookup"><span data-stu-id="6afb2-210">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="6afb2-211">Verkflæðisritlinum birtir skref í samþykktarferlinu.</span><span class="sxs-lookup"><span data-stu-id="6afb2-211">The workflow editor displays the steps of the approval process.</span></span>
+2.  <span data-ttu-id="6afb2-212">Til að bæta við samþykktarskrefi, draga skrefið í **verkflæðiseiningar** á vinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="6afb2-212">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
+3.  <span data-ttu-id="6afb2-213">Til að skilgreina samþykktarskref, sjá [Skilgreina samþykktarskref](configure-approval-step-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="6afb2-213">To configure an approval step, see [Configure an approval step](configure-approval-step-workflow.md).</span></span>
 
 
 

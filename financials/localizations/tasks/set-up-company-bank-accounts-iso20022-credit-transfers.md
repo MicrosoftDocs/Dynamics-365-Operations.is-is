@@ -16,39 +16,39 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4e55a4727555f781b6880103abb1a38c5d0d5b78
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1d0eabdfdeb5ed7d0bdb6df87ebdfa0d41e87492
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Setja upp bankareikninga fyrirtækis fyrir ISO20022-kreditfærslur
+# <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="5ac7d-103">Setja upp bankareikninga fyrirtækis fyrir ISO20022-kreditfærslur</span><span class="sxs-lookup"><span data-stu-id="5ac7d-103">Set up company bank accounts for ISO20022 credit transfers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta Leiðbeiningar sýnir hvernig á að setja upp bankareikningsupplýsingar fyrir fyrirtæki sem þarf fyrir myndun greiðsluskrár. Setja upp upplýsingar sem þarf til að mynda ISO 20022 snið fyrir millifærsla fjármuna, en eftir sniðinu gæti þurft frekari upplýsingar, eins og kenni fyrirtækis eða bankaauðkennisnúmer (sort-kóða). 
+<span data-ttu-id="5ac7d-104">Þetta Leiðbeiningar sýnir hvernig á að setja upp bankareikningsupplýsingar fyrir fyrirtæki sem þarf fyrir myndun greiðsluskrár.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-104">This procedure shows how to set up company-specific bank account information that is required for payment file generation.</span></span> <span data-ttu-id="5ac7d-105">Setja upp upplýsingar sem þarf til að mynda ISO 20022 snið fyrir millifærsla fjármuna, en eftir sniðinu gæti þurft frekari upplýsingar, eins og kenni fyrirtækis eða bankaauðkennisnúmer (sort-kóða).</span><span class="sxs-lookup"><span data-stu-id="5ac7d-105">You set up information required to generate ISO 20022 credit transfer format but depending on the format there might be other information required, such as the Company ID or the Sort code.</span></span> 
 
-Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.
+<span data-ttu-id="5ac7d-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-106">The demo data company used to create this procedure is DEMF.</span></span>
 
-Þetta annað ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+<span data-ttu-id="5ac7d-107">Þetta annað ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-107">This is the second procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="5ac7d-108">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-iban-and-swift-code"></a>Uppsetning IBAN- og swift-kóði
-1. Farið í Reiðufjár- og bankastjórnun > Bankareikningar.
-2. Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „DEMF OPER“.
-3. Smellið á DEMF OPER til að opna upplýsingar bankareiknings
-4. Smellið á „Breyta“.
-5. Útvíkka aukakenni hluta.
-6. Í reitinn IBAN skal slá inn 'DE89370400440532013000'.
-7. Í svæðinu swift-kóði færðu inn 'DEUTDEFF' .
-    * Athugið að SWIFT\BIC er ekki krafist fyrir margar greiðslusnið hins vegar er mælt með að slíkt sé skráð fyrir bankareikning.  
-8. Smellið á „Vista“.
+## <a name="set-up-iban-and-swift-code"></a><span data-ttu-id="5ac7d-109">Uppsetning IBAN- og swift-kóði</span><span class="sxs-lookup"><span data-stu-id="5ac7d-109">Set up IBAN and SWIFT code</span></span>
+1. <span data-ttu-id="5ac7d-110">Farið í Reiðufjár- og bankastjórnun > Bankareikningar.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-110">Go to Cash and bank management > Bank accounts.</span></span>
+2. <span data-ttu-id="5ac7d-111">Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „DEMF OPER“.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-111">Use the Quick Filter to filter on the Bank account field with a value of 'DEMF OPER'.</span></span>
+3. <span data-ttu-id="5ac7d-112">Smellið á DEMF OPER til að opna upplýsingar bankareiknings</span><span class="sxs-lookup"><span data-stu-id="5ac7d-112">Click DEMF OPER to open bank account details.</span></span>
+4. <span data-ttu-id="5ac7d-113">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-113">Click Edit.</span></span>
+5. <span data-ttu-id="5ac7d-114">Útvíkka aukakenni hluta.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-114">Expand the Additional identification section.</span></span>
+6. <span data-ttu-id="5ac7d-115">Í reitinn IBAN skal slá inn 'DE89370400440532013000'.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-115">In the IBAN field, type 'DE89370400440532013000'.</span></span>
+7. <span data-ttu-id="5ac7d-116">Í svæðinu swift-kóði færðu inn 'DEUTDEFF' .</span><span class="sxs-lookup"><span data-stu-id="5ac7d-116">In the SWIFT code field, type 'DEUTDEFF'.</span></span>
+    * <span data-ttu-id="5ac7d-117">Athugið að SWIFT\BIC er ekki krafist fyrir margar greiðslusnið hins vegar er mælt með að slíkt sé skráð fyrir bankareikning.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-117">Note that SWIFT\BIC is not required for many payment formats, however it is recommended to have it registered for a bank account.</span></span>  
+8. <span data-ttu-id="5ac7d-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-118">Click Save.</span></span>
 
-## <a name="set-up-bank-account-for-the-legal-entity"></a>Setja upp bankareikning fyrir lögaðila
-1. Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.
-2. Smellið á „Breyta“.
-3. Útvíkka hlutann upplýsingar bankareiknings.
-4. Færa inn eða veljið gildi í svæðinu bankareikning.
-5. Smellið á „Vista“.
+## <a name="set-up-bank-account-for-the-legal-entity"></a><span data-ttu-id="5ac7d-119">Setja upp bankareikning fyrir lögaðila</span><span class="sxs-lookup"><span data-stu-id="5ac7d-119">Set up bank account for the legal entity</span></span>
+1. <span data-ttu-id="5ac7d-120">Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-120">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="5ac7d-121">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-121">Click Edit.</span></span>
+3. <span data-ttu-id="5ac7d-122">Útvíkka hlutann upplýsingar bankareiknings.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-122">Expand the Bank account information section.</span></span>
+4. <span data-ttu-id="5ac7d-123">Færa inn eða veljið gildi í svæðinu bankareikning.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-123">In the Bank account field, enter or select a value.</span></span>
+5. <span data-ttu-id="5ac7d-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="5ac7d-124">Click Save.</span></span>
 
 

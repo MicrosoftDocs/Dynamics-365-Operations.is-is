@@ -15,31 +15,31 @@ ms.custom:
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: ab6d22cf2c1610843de42d1e62cd93b17d74d8b8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fa5b240bc9c9f96ae5483be316eff62df915570
 ms.contentlocale: is-is
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="sell-and-return-products-outside-of-an-assortment"></a>Sala og skil á afurðum utan vöruúrvals
-Algeng aðstæður fyrir allar söluaðilann er að selja vörur til þeirra viðskiptavina eða samþykkja skil frá viðskiptavinum þeirra jafnvel þótt þeir ekki að framkvæma tilteknar vörur sínar verslun (með öðrum orðum vara eru ekki assorted í verslun).
-Hér eru nokkrar dæmigerðar aðstæður.
+# <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="4ec7c-103">Sala og skil á afurðum utan vöruúrvals</span><span class="sxs-lookup"><span data-stu-id="4ec7c-103">Sell and return products outside of an assortment</span></span>
+<span data-ttu-id="4ec7c-104">Algeng aðstæður fyrir allar söluaðilann er að selja vörur til þeirra viðskiptavina eða samþykkja skil frá viðskiptavinum þeirra jafnvel þótt þeir ekki að framkvæma tilteknar vörur sínar verslun (með öðrum orðum vara eru ekki assorted í verslun).</span><span class="sxs-lookup"><span data-stu-id="4ec7c-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
+<span data-ttu-id="4ec7c-105">Hér eru nokkrar dæmigerðar aðstæður.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-105">Here are some typical scenarios:</span></span>
 
-+ Við söluaðilann áskilinn hafa allar þeirra vara í ákveðna verslun. Eftirstandandi vörurnar eru geymdar í vöruhúsinu. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða fletting fyrir vörurnar í vöruhúsinu bæta í körfu til að og ljúka við útskráning með því að velja afhendingaraðferðina, eins og sendingar í aðsetur úr vöruhúsi eða letting viðskiptavina sem taka upp vörunni úr gildandi verslun eða frá annarri verslun.
-+ Við söluaðilann áskilinn bera ákveðnum vörum í versluninni eða áskilinn eru þær lager verslun viðskiptavinar skoðaðar fyrr en vörurnar eru tiltækar í aðrar verslanir. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða skoða vara á verslun, bæta í körfu til að og útskráning við að ljúka með því að velja afhendingaraðferðina fyrir.
-+ Við söluaðilann margar verslanir í og samkvæmt ákveðnum borgar eða póstnúmer og áskilinn á að láta viðskiptavinina aftur vörur á sömu þær voru keyptar inn í verslunina. Þess í stað getur viðskiptavinir skila vörum í hvaða annarri verslun.
++ <span data-ttu-id="4ec7c-106">Við söluaðilann áskilinn hafa allar þeirra vara í ákveðna verslun.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-106">A retailer doesn’t carry all its products in a specific store.</span></span> <span data-ttu-id="4ec7c-107">Eftirstandandi vörurnar eru geymdar í vöruhúsinu.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-107">The remaining products are stored in the warehouse.</span></span> <span data-ttu-id="4ec7c-108">Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða fletting fyrir vörurnar í vöruhúsinu bæta í körfu til að og ljúka við útskráning með því að velja afhendingaraðferðina, eins og sendingar í aðsetur úr vöruhúsi eða letting viðskiptavina sem taka upp vörunni úr gildandi verslun eða frá annarri verslun.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-108">The store associate can assist the customer by searching or browsing for the products in the warehouse, add them to the cart, and complete the checkout by selecting a delivery method, such as shipping to an address from the warehouse or letting the customer pick up the product from the current store or from another store.</span></span>
++ <span data-ttu-id="4ec7c-109">Við söluaðilann áskilinn bera ákveðnum vörum í versluninni eða áskilinn eru þær lager verslun viðskiptavinar skoðaðar fyrr en vörurnar eru tiltækar í aðrar verslanir.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-109">A retailer doesn’t carry specific products in the store or doesn’t have them in stock at the store the customer visited, but the products are available in other stores.</span></span> <span data-ttu-id="4ec7c-110">Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða skoða vara á verslun, bæta í körfu til að og útskráning við að ljúka með því að velja afhendingaraðferðina fyrir.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-110">The store associate can assist the customer by searching or browsing the products in the other store, add them to the cart, and complete the checkout by selecting a delivery method.</span></span>
++ <span data-ttu-id="4ec7c-111">Við söluaðilann margar verslanir í og samkvæmt ákveðnum borgar eða póstnúmer og áskilinn á að láta viðskiptavinina aftur vörur á sömu þær voru keyptar inn í verslunina.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-111">A retailer has many stores in and around a specific city or zip code and doesn’t want to force the customers to return products to the same store they were purchased in.</span></span> <span data-ttu-id="4ec7c-112">Þess í stað getur viðskiptavinir skila vörum í hvaða annarri verslun.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-112">Instead, customers can return products to any store.</span></span>
 
 
-Þær algengar aðstæður eru í boði fyrir smásala með Dynamics 365 for Retail. Með Retail er hægt að:
-+ Leita eða fletta að vörur í aðrar verslanir.
-+ Leita eða fletta losaðar allar vörur.
-+ Stofna cash-and-carry færslur viðskiptavinar eða pantanir.
-+ Velja valkosti fyrir viðskiptavinapöntunum afhendingar.
-+ Taka vörur í annarri verslun eða verslunarinnar.
-+ Hætta við pöntun á verslunarinnar eða annarri verslun.
-+ Pöntun með eða án móttöku á núverandi verslun eða annarri verslun aftur.
+<span data-ttu-id="4ec7c-113">Þær algengar aðstæður eru í boði fyrir smásala með Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-113">Those common scenarios are available for retailers using Dynamics 365 for Retail.</span></span> <span data-ttu-id="4ec7c-114">Með Retail er hægt að:</span><span class="sxs-lookup"><span data-stu-id="4ec7c-114">With Retail, you can:</span></span>
++ <span data-ttu-id="4ec7c-115">Leita eða fletta að vörur í aðrar verslanir.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-115">Search or browse products at other stores.</span></span>
++ <span data-ttu-id="4ec7c-116">Leita eða fletta losaðar allar vörur.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-116">Search or browse all released products.</span></span>
++ <span data-ttu-id="4ec7c-117">Stofna cash-and-carry færslur viðskiptavinar eða pantanir.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-117">Create cash-and-carry transactions or customer orders.</span></span>
++ <span data-ttu-id="4ec7c-118">Velja valkosti fyrir viðskiptavinapöntunum afhendingar.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-118">Select delivery options for customer orders.</span></span>
++ <span data-ttu-id="4ec7c-119">Taka vörur í annarri verslun eða verslunarinnar.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-119">Pick up products at the current store or another store.</span></span>
++ <span data-ttu-id="4ec7c-120">Hætta við pöntun á verslunarinnar eða annarri verslun.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-120">Cancel an order at the current store or another store.</span></span>
++ <span data-ttu-id="4ec7c-121">Pöntun með eða án móttöku á núverandi verslun eða annarri verslun aftur.</span><span class="sxs-lookup"><span data-stu-id="4ec7c-121">Return an order with or without the receipt at the current store or another store.</span></span>
 

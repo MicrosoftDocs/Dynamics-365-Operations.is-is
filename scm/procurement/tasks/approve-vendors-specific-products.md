@@ -16,58 +16,58 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7a1e0a4dcf12c921e1c92fbeb3e68dd167c1b75d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="approve-vendors-for-specific-products"></a>Samþykkja lánardrottna fyrir tilteknar afurðir
+# <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="6c0a4-103">Samþykkja lánardrottna fyrir tilteknar afurðir</span><span class="sxs-lookup"><span data-stu-id="6c0a4-103">Approve vendors for specific products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að samþykkja lánardrottna fyrir tilteknar vörur. Þetta gerir kleift að stýra hvaða lánardrottna er hægt að nota þegar vöru er bætt við innkaupapöntun. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila.
+<span data-ttu-id="6c0a4-104">Þessi verklýsing sýnir hvernig á að samþykkja lánardrottna fyrir tilteknar vörur.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-104">This procedure shows you how to approve vendors for specific products.</span></span> <span data-ttu-id="6c0a4-105">Þetta gerir kleift að stýra hvaða lánardrottna er hægt að nota þegar vöru er bætt við innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-105">This allows you to control which vendors can be used when the product is added to a purchase order.</span></span> <span data-ttu-id="6c0a4-106">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-106">You can use this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="6c0a4-107">Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-107">This task would typically be carried out by a Purchasing manager.</span></span>
 
-1. Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Víkkið út hlutann innkaup.
-    * Ef aðallánardrottinn er sýnt í svæði Lánardrottna, þá þarf að bæta þessi lánardrottinn við sem samþykktan lánardrottinn í eftirfarandi skrefum. Skráið númer lánardrottins, ef það er sýnt.  
-5. Smellið á „Innkaup“ á aðgerðarúðunni.
-6. Smellt er á Uppsetningu.
-7. Smelltu á Bæta við.
-8. Færa inn eða veljið gildi í svæðinu lánardrottinn.
-    * Veljið samþykktan lánardrottin. Minnst ein línanna verður að vera aðallánardrottinn ef það var einn slíkur í afurðarfærslu. Ef þú tókst niður númer lánardrottins áður, er það valið hér.  
-9. Í reitinn lokadagsetning, skal færa inn dagsetningu.
-    * Velja dagsetningu sem er nokkra mánuði fram í tímann.  
-10. Smelltu á Bæta við.
-11. Færa inn eða veljið gildi í svæðinu lánardrottinn.
-12. Í reitinn lokadagsetning, skal færa inn dagsetningu.
-    * Veljið dagsetningu sem er annað en fyrri lokadagsetningu.  
-13. Lokið síðunni.
-14. Smelltu á Samþykktir lánardrottnar
-15. Í reitinn lokadagsetning, skal færa inn dagsetningu.
-    * Þessi dagsetning virkar eins og sía þannig að hægt er að hverjir eru samþykkta lánardrottna, fram að tilteknum degi.  
-16. Lokið síðunni.
-17. Smelltu á Gildistímabil
-18. Í reitinn sýna lánardrottna sem renna út samkvæmt, skal færa inn dagsetningu.
-    * Nota þessa síðu til að auðkenna lánardrottnum þar sem staða samþykkis rennur út eftir tiltekna dagsetningu.  
-19. Lokið síðunni.
-20. Smellið á „Breyta“.
-21. Veljið valkost í svæðinu athugunaraðferð samþykkts Lánardrottins.
-    * Þetta svæði leyfir þér að velja reglu fyrir það hvað skuli gerast ef vöru er bætt við innkaupapöntunarlínu þar sem lánardrottinn er ekki samþykktur lánardrottinn.  
-22. Smellið á „Vista“.
-23. Lokið síðunni.
-24. Lokið síðunni.
-25. Fara í innkaup og aðföng > Lánardrottna > Lánardrottins/vöru tengsl > listi yfir Samþykkta lánardrottna eftir vöru.
-    * Þessi síða gefur yfirlit yfir allar afurðir og samþykkta lánardrottna.  
-26. Lokið síðunni.
-27. Farið í innkaup og aðföng > Lánardrottnar > Allir lánardrottnar.
-    * Einnig er hægt að byrja frá lánardrottni og fara síðan í listann yfir samþykktar afurðir fyrir þann lykil lánardrottins.  
-28. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-29. Smellið á innkaup á aðgerðarúðunni.
-30. Smelltu á listi yfir Samþykktir lánardrottinn eftir lánardrottinn
-31. Lokið síðunni.
-32. Lokið síðunni.
+1. <span data-ttu-id="6c0a4-108">Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="6c0a4-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6c0a4-110">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="6c0a4-111">Víkkið út hlutann innkaup.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-111">Expand the Purchase section.</span></span>
+    * <span data-ttu-id="6c0a4-112">Ef aðallánardrottinn er sýnt í svæði Lánardrottna, þá þarf að bæta þessi lánardrottinn við sem samþykktan lánardrottinn í eftirfarandi skrefum.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-112">If there is a primary vendor shown in the Vendor field, then you need to add this vendor as an approved vendor in the following steps.</span></span> <span data-ttu-id="6c0a4-113">Skráið númer lánardrottins, ef það er sýnt.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-113">Make a note of the vendor number, if one is shown.</span></span>  
+5. <span data-ttu-id="6c0a4-114">Smellið á „Innkaup“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-114">On the Action Pane, click Purchase.</span></span>
+6. <span data-ttu-id="6c0a4-115">Smellt er á Uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-115">Click Setup.</span></span>
+7. <span data-ttu-id="6c0a4-116">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-116">Click Add.</span></span>
+8. <span data-ttu-id="6c0a4-117">Færa inn eða veljið gildi í svæðinu lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-117">In the Vendor field, enter or select a value.</span></span>
+    * <span data-ttu-id="6c0a4-118">Veljið samþykktan lánardrottin.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-118">Select the approved vendor.</span></span> <span data-ttu-id="6c0a4-119">Minnst ein línanna verður að vera aðallánardrottinn ef það var einn slíkur í afurðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-119">At least one of the lines has to be the primary vendor if there was one in the product record.</span></span> <span data-ttu-id="6c0a4-120">Ef þú tókst niður númer lánardrottins áður, er það valið hér.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-120">If you made a note of the vendor number earlier, select it here.</span></span>  
+9. <span data-ttu-id="6c0a4-121">Í reitinn lokadagsetning, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-121">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="6c0a4-122">Velja dagsetningu sem er nokkra mánuði fram í tímann.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-122">Choose a date a that is a few months ahead.</span></span>  
+10. <span data-ttu-id="6c0a4-123">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-123">Click Add.</span></span>
+11. <span data-ttu-id="6c0a4-124">Færa inn eða veljið gildi í svæðinu lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-124">In the Vendor field, enter or select a value.</span></span>
+12. <span data-ttu-id="6c0a4-125">Í reitinn lokadagsetning, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-125">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="6c0a4-126">Veljið dagsetningu sem er annað en fyrri lokadagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-126">Choose a date that is different than the previous expiration date.</span></span>  
+13. <span data-ttu-id="6c0a4-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-127">Close the page.</span></span>
+14. <span data-ttu-id="6c0a4-128">Smelltu á Samþykktir lánardrottnar</span><span class="sxs-lookup"><span data-stu-id="6c0a4-128">Click Approved vendors.</span></span>
+15. <span data-ttu-id="6c0a4-129">Í reitinn lokadagsetning, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-129">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="6c0a4-130">Þessi dagsetning virkar eins og sía þannig að hægt er að hverjir eru samþykkta lánardrottna, fram að tilteknum degi.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-130">This date acts as a filter so you can see who the approved vendors are, up to a certain date.</span></span>  
+16. <span data-ttu-id="6c0a4-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-131">Close the page.</span></span>
+17. <span data-ttu-id="6c0a4-132">Smelltu á Gildistímabil</span><span class="sxs-lookup"><span data-stu-id="6c0a4-132">Click Effective period.</span></span>
+18. <span data-ttu-id="6c0a4-133">Í reitinn sýna lánardrottna sem renna út samkvæmt, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-133">In the Show vendors expired by field, enter a date.</span></span>
+    * <span data-ttu-id="6c0a4-134">Nota þessa síðu til að auðkenna lánardrottnum þar sem staða samþykkis rennur út eftir tiltekna dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-134">You can use this page to identify vendors where the approval status will expire after a certain date.</span></span>  
+19. <span data-ttu-id="6c0a4-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-135">Close the page.</span></span>
+20. <span data-ttu-id="6c0a4-136">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-136">Click Edit.</span></span>
+21. <span data-ttu-id="6c0a4-137">Veljið valkost í svæðinu athugunaraðferð samþykkts Lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-137">In the Approved vendor check method field, select an option.</span></span>
+    * <span data-ttu-id="6c0a4-138">Þetta svæði leyfir þér að velja reglu fyrir það hvað skuli gerast ef vöru er bætt við innkaupapöntunarlínu þar sem lánardrottinn er ekki samþykktur lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-138">This field allows you to select the policy for what should happen if the product is added to a purchase order line where the vendor is not an approved vendor.</span></span>  
+22. <span data-ttu-id="6c0a4-139">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-139">Click Save.</span></span>
+23. <span data-ttu-id="6c0a4-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-140">Close the page.</span></span>
+24. <span data-ttu-id="6c0a4-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-141">Close the page.</span></span>
+25. <span data-ttu-id="6c0a4-142">Fara í innkaup og aðföng > Lánardrottna > Lánardrottins/vöru tengsl > listi yfir Samþykkta lánardrottna eftir vöru.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-142">Go to Procurement and sourcing > Vendors > Vendor/item relations > Approved vendor list by item.</span></span>
+    * <span data-ttu-id="6c0a4-143">Þessi síða gefur yfirlit yfir allar afurðir og samþykkta lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-143">This page gives you an overview of all products and the approved vendors.</span></span>  
+26. <span data-ttu-id="6c0a4-144">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-144">Close the page.</span></span>
+27. <span data-ttu-id="6c0a4-145">Farið í innkaup og aðföng > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-145">Go to Procurement and sourcing > Vendors > All vendors.</span></span>
+    * <span data-ttu-id="6c0a4-146">Einnig er hægt að byrja frá lánardrottni og fara síðan í listann yfir samþykktar afurðir fyrir þann lykil lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-146">You can also start from a vendor and then go to the list of approved products for that vendor account.</span></span>  
+28. <span data-ttu-id="6c0a4-147">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-147">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="6c0a4-148">Smellið á innkaup á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-148">On the Action Pane, click Procurement.</span></span>
+30. <span data-ttu-id="6c0a4-149">Smelltu á listi yfir Samþykktir lánardrottinn eftir lánardrottinn</span><span class="sxs-lookup"><span data-stu-id="6c0a4-149">Click Approved vendor list by vendor.</span></span>
+31. <span data-ttu-id="6c0a4-150">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-150">Close the page.</span></span>
+32. <span data-ttu-id="6c0a4-151">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6c0a4-151">Close the page.</span></span>
 
 

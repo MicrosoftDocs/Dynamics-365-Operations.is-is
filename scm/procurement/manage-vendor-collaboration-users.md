@@ -1,98 +1,92 @@
 ---
-title: "Stjórna notendum fyrir samstarf lánardrottna"
-description: "Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna."
+# required metadata
+title: Stjórna notendum fyrir samstarf lánardrottna
+description: Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
-audience: Application User, IT Pro
+ms.technology: null
+ms.search.form: 'smmContactPerson, VendVendorContactPerson, VendVendorPortalUser'
+audience: 'Application User, IT Pro'
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: 'Core, Operations, UnifiedOperations'
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: '2016-11-30'
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
-ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
 ---
 
-# <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
+# <a name="manage-vendor-collaboration-users"></a><span data-ttu-id="175c4-103">Stjórna notendum fyrir samstarf lánardrottna</span><span class="sxs-lookup"><span data-stu-id="175c4-103">Manage vendor collaboration users</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna. 
+<span data-ttu-id="175c4-104">Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="175c4-104">This topic describes how you can request the provisioning of new vendor collaboration users, and how to add new vendor collaboration contacts.</span></span> 
 
-Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottna. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Dynamics 365 for Finance and Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+<span data-ttu-id="175c4-105">Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="175c4-105">The vendor collaboration interface in Microsoft Dynamics 365 for Finance and Operations exposes information about purchase orders, invoices, and consignment stock to external vendors.</span></span> <span data-ttu-id="175c4-106">Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir.</span><span class="sxs-lookup"><span data-stu-id="175c4-106">You can create new vendor collaboration contacts and request that new users are provisioned if you're working as an external vendor with the **Vendor admin (external)** security role, or similar permissions.</span></span> <span data-ttu-id="175c4-107">Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur.</span><span class="sxs-lookup"><span data-stu-id="175c4-107">You can also perform these tasks if you're working as a procurement professional.</span></span> <span data-ttu-id="175c4-108">Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="175c4-108">In this topic, this role refers to a procurement professional who is working within the company that owns the instance of Finance and Operations.</span></span> <span data-ttu-id="175c4-109">Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).</span><span class="sxs-lookup"><span data-stu-id="175c4-109">For more information about how to use vendor collaboration if you're an external vendor, see [Vendor with customers](vendor-collaboration-work-customers-dynamics-365-operations.md).</span></span>  
 
-Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).
+<span data-ttu-id="175c4-110">Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).</span><span class="sxs-lookup"><span data-stu-id="175c4-110">For more information about how to use vendor collaboration if you're a procurement professional, see [Vendor collaboration to with external vendors](vendor-collaboration-work-external-vendors.md).</span></span>
 
-## <a name="add-new-vendor-collaboration-contacts"></a>Bætt við nýjum tengiliðum samstarf lánardrottna
-Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna. Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna. T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar. Nýjum tengiliðum er bætt við á **Alla tengiliði** síðu sem er opnuð í **samstarf lánardrottna** &gt; **Tengiliði** valmyndinni. Bæta við nýjum tengiliður:
+## <a name="add-new-vendor-collaboration-contacts"></a><span data-ttu-id="175c4-111">Bætt við nýjum tengiliðum samstarf lánardrottna</span><span class="sxs-lookup"><span data-stu-id="175c4-111">Add new vendor collaboration contacts</span></span>
+<span data-ttu-id="175c4-112">Ef þú vilt að einhver hafi aðgang að samstarf lánardrottna þarf fyrst að bæta þeim við sem tengiliður samstarf lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="175c4-112">If you want someone to have access to vendor collaboration they first have to be added as a vendor collaboration contact.</span></span> <span data-ttu-id="175c4-113">Einnig viltu kannski bæta við tengilið fyrir starfsmaður í þínu fyrirtæki sem mun ekki nota samstarf lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="175c4-113">You may also want to add contacts for employees in your company who won't use vendor collaboration.</span></span> <span data-ttu-id="175c4-114">T.d. gætu þeir verið tengiliður fyrir annars konar innkaupaupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="175c4-114">For example, they could be the point of contact for other kinds of procurement information.</span></span> <span data-ttu-id="175c4-115">Nýjum tengiliðum er bætt við á **Alla tengiliði** síðu sem er opnuð í **samstarf lánardrottna** &gt; **Tengiliði** valmyndinni.</span><span class="sxs-lookup"><span data-stu-id="175c4-115">New contacts are added on the **All contacts** page, which is accessed from the **Vendor collaboration** &gt; **Contacts** menu.</span></span> <span data-ttu-id="175c4-116">Bæta við nýjum tengiliður:</span><span class="sxs-lookup"><span data-stu-id="175c4-116">To add a new contact:</span></span>
 
-1.  Smellt er á **Nýtt**.
-2.  Sláðu inn Upplýsingar um tengiliður
-3.  Veldu hvaða lögaðili þeir eru fulltrúi fyrir í þínu fyrirtæki, og hvaða lögaðili þeir vinna með í fyrirtækinu sem þeir vinna með. Það er gert með því að velja **lögaðila í fyrirtækið mitt**/**lögaðila í fyrirtæki viðskiptavinar** par.
-4.  Smellið á **Stofna**.
+1.  <span data-ttu-id="175c4-117">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="175c4-117">Click **New.**</span></span>
+2.  <span data-ttu-id="175c4-118">Sláðu inn Upplýsingar um tengiliður</span><span class="sxs-lookup"><span data-stu-id="175c4-118">Enter the contact person details.</span></span>
+3.  <span data-ttu-id="175c4-119">Veldu hvaða lögaðili þeir eru fulltrúi fyrir í þínu fyrirtæki, og hvaða lögaðili þeir vinna með í fyrirtækinu sem þeir vinna með.</span><span class="sxs-lookup"><span data-stu-id="175c4-119">Choose which legal entity they're representing in your company, and which legal entity they'll work with in the company that they'll collaborate with.</span></span> <span data-ttu-id="175c4-120">Það er gert með því að velja **lögaðila í fyrirtækið mitt**/**lögaðila í fyrirtæki viðskiptavinar** par.</span><span class="sxs-lookup"><span data-stu-id="175c4-120">You do this by selecting a **Legal entity in my company**/**Legal entity in customer company** pair.</span></span>
+4.  <span data-ttu-id="175c4-121">Smellið á **Stofna**.</span><span class="sxs-lookup"><span data-stu-id="175c4-121">Click **Create.**</span></span>
 
-Ef óskað er að eyða tengilið er aðeins hægt að eyða þeim sem þú hefur stofnað.
+<span data-ttu-id="175c4-122">Ef óskað er að eyða tengilið er aðeins hægt að eyða þeim sem þú hefur stofnað.</span><span class="sxs-lookup"><span data-stu-id="175c4-122">If you want to delete a contact, it's only possible to delete the ones that you've created.</span></span>
 
-## <a name="vendor-collaboration-user-requests"></a>Notendabeiðnir samstarfs lánardrottna
-Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræðingi, eða af ytri lánardrottinn sem er stjórnandi.
+## <a name="vendor-collaboration-user-requests"></a><span data-ttu-id="175c4-123">Notendabeiðnir samstarfs lánardrottna</span><span class="sxs-lookup"><span data-stu-id="175c4-123">Vendor collaboration user requests</span></span>
+<span data-ttu-id="175c4-124">Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræðingi, eða af ytri lánardrottinn sem er stjórnandi.</span><span class="sxs-lookup"><span data-stu-id="175c4-124">Vendor collaboration user requests can be raised by a procurement professional, or by an external vendor administrator.</span></span>
 
--   Ef þú ert ytri lánardrottinn sendirðu inn beiðnir frá síðunni **Alla tengiliði** innan einingarinnar **Samstarf lánardrottna**.
--   Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna. Til að gera þetta má, á færslu lánardrottins í **Uppsetningu** hlutanum í aðgerðarúðu, velja **Tengiliði** &gt; **Skoða tengiliðina**.
+-   <span data-ttu-id="175c4-125">Ef þú ert ytri lánardrottinn sendirðu inn beiðnir frá síðunni **Alla tengiliði** innan einingarinnar **Samstarf lánardrottna**.</span><span class="sxs-lookup"><span data-stu-id="175c4-125">If you're an external vendor, you submit requests from the **All contacts** page within the **Vendor collaboration** module.</span></span>
+-   <span data-ttu-id="175c4-126">Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna.</span><span class="sxs-lookup"><span data-stu-id="175c4-126">If you're a procurement professional, you submit requests from the **View contacts** page.</span></span> <span data-ttu-id="175c4-127">Til að gera þetta má, á færslu lánardrottins í **Uppsetningu** hlutanum í aðgerðarúðu, velja **Tengiliði** &gt; **Skoða tengiliðina**.</span><span class="sxs-lookup"><span data-stu-id="175c4-127">To do this, on the vendor record, in the **Setup** section in the Action pane, select **Contacts** &gt; **View contacts**.</span></span>
 
-Þú getur beðið um að gerðar séu ráðstafanir fyrir notanda, að gera notanda óvirkan, eða að breyta öryggishlutverkum. Ef þú ert ytri lánardrottinn sem er stjórnandi verður þú að vera skráður sem tengiliður fyrir lánardrottnalykla sem þú vilt gera notandabeiðnir fyrir, og þú verður að hafa aðgang að viðmóti fyrir samstarf lánardrottna fyrir þá lánardrottnalykla.  
+<span data-ttu-id="175c4-128">Þú getur beðið um að gerðar séu ráðstafanir fyrir notanda, að gera notanda óvirkan, eða að breyta öryggishlutverkum.</span><span class="sxs-lookup"><span data-stu-id="175c4-128">You can make a request to provision a user, to inactivate a user, or to modify security roles.</span></span> <span data-ttu-id="175c4-129">Ef þú ert ytri lánardrottinn sem er stjórnandi verður þú að vera skráður sem tengiliður fyrir lánardrottnalykla sem þú vilt gera notandabeiðnir fyrir, og þú verður að hafa aðgang að viðmóti fyrir samstarf lánardrottna fyrir þá lánardrottnalykla.</span><span class="sxs-lookup"><span data-stu-id="175c4-129">If you're an external vendor administrator, you must be registered as a contact person for the vendor accounts that you want to make user requests for, and you must have access to the vendor collaboration interface for those vendor accounts.</span></span>  
 
-Þegar beiðni er send þeim er bætt við í **notendabeiðnum samstarfs lánardrottna** í **samstarf lánardrottna** kerfiseiningu, og á **notandabeiðni samstarfs lánardrottna** í **Innkaup og aðföng** kerfiseiningu (Innkaup og aðföng kerfiseiningu er ekki aðgengileg fyrir ytri notendur).
+<span data-ttu-id="175c4-130">Þegar beiðni er send þeim er bætt við í **notendabeiðnum samstarfs lánardrottna** í **samstarf lánardrottna** kerfiseiningu, og á **notandabeiðni samstarfs lánardrottna** í **Innkaup og aðföng** kerfiseiningu (Innkaup og aðföng kerfiseiningu er ekki aðgengileg fyrir ytri notendur).</span><span class="sxs-lookup"><span data-stu-id="175c4-130">When a request is submitted it is added to the **Vendor collaboration user requests** list in the **Vendor collaboration** module, and to the **Vendor collaboration user request** list in the **Procurement and sourcing** module (the Procurement and sourcing module is not accessible to external users).</span></span>
 
-### <a name="provision-a-user"></a>Gera ráðstafanir fyrir notanda
+### <a name="provision-a-user"></a><span data-ttu-id="175c4-131">Gera ráðstafanir fyrir notanda</span><span class="sxs-lookup"><span data-stu-id="175c4-131">Provision a user</span></span>
 
-Áður en þú getur beðið um að gera ráðstafanir fyrir notanda, verður sá einstaklingur að vera settur upp sem tengiliður fyrir einn eða fleiri lánardrottnalykla. Stofna beiðni fyrir nýjan notanda samstarfs lánardrottna:
+<span data-ttu-id="175c4-132">Áður en þú getur beðið um að gera ráðstafanir fyrir notanda, verður sá einstaklingur að vera settur upp sem tengiliður fyrir einn eða fleiri lánardrottnalykla.</span><span class="sxs-lookup"><span data-stu-id="175c4-132">Before you can request that a new user is provisioned, that person must be set up as a contact for one or more vendor accounts.</span></span> <span data-ttu-id="175c4-133">Stofna beiðni fyrir nýjan notanda samstarfs lánardrottna:</span><span class="sxs-lookup"><span data-stu-id="175c4-133">To create a request for a new vendor collaboration user:</span></span>
 
-1.  Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.
-2.  Slá inn netfang fyrir notanda Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (ADD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Ekki er hægt að nota netföng neytenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net til að skrá notanda Finance and Operations.
-3.  Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.
-4.  Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
-5.  Smelltu á **Senda**.
+1.  <span data-ttu-id="175c4-134">Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.</span><span class="sxs-lookup"><span data-stu-id="175c4-134">On the **All contacts** page, click **Provision vendor user**.</span></span>
+2.  <span data-ttu-id="175c4-135">Slá inn netfang fyrir notanda</span><span class="sxs-lookup"><span data-stu-id="175c4-135">Enter an email address for the user.</span></span> <span data-ttu-id="175c4-136">Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="175c4-136">This address will be used by the user to log onto Finance and Operations.</span></span> <span data-ttu-id="175c4-137">Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (ADD) lykill fyrir ráðstöfunarferlið til að takist að ljúka.</span><span class="sxs-lookup"><span data-stu-id="175c4-137">If the email address belongs to a domain registered as a tenant with Microsoft Azure, then the email address has to be an existing Azure Active Directory (ADD) account in order for the provisioning process to complete successfully.</span></span> <span data-ttu-id="175c4-138">Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti.</span><span class="sxs-lookup"><span data-stu-id="175c4-138">If the email address does not belong to a domain registered with Microsoft Azure, an ADD account will be created as part of the provisioning process and the new user will receive an invitation mail.</span></span> <span data-ttu-id="175c4-139">Ekki er hægt að nota netföng neytenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net til að skrá notanda Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="175c4-139">Consumer email addresses with domains such as @hotmail.com, @gmail.com, or @comcast.net cannot be used to register a Finance and Operations user.</span></span>
+3.  <span data-ttu-id="175c4-140">Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.</span><span class="sxs-lookup"><span data-stu-id="175c4-140">Set the **Vendor collaboration access allowed** option to **Yes** for all the legal entities that the user needs access to.</span></span>
+4.  <span data-ttu-id="175c4-141">Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.</span><span class="sxs-lookup"><span data-stu-id="175c4-141">In the **Assign user roles** section, select the **Assign** check box for the security roles that the new user should have.</span></span>
+5.  <span data-ttu-id="175c4-142">Smelltu á **Senda**.</span><span class="sxs-lookup"><span data-stu-id="175c4-142">Click **Submit**.</span></span>
 
-Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður í Finance and Operations og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Finance and Operations.
+<span data-ttu-id="175c4-143">Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar.</span><span class="sxs-lookup"><span data-stu-id="175c4-143">When the vendor user request is submitted, the **Vendor collaboration access allowed** field is set to **Yes** for the selected vendor account and a user request workflow is started.</span></span> <span data-ttu-id="175c4-144">Sem hluti af verkflæði er nýr notandi stofnaður í Finance and Operations og öryggishlutverkum úthlutað.</span><span class="sxs-lookup"><span data-stu-id="175c4-144">As part of the workflow, a new user is created in Finance and Operations, and security roles are assigned.</span></span> <span data-ttu-id="175c4-145">Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="175c4-145">In addition, an Azure B2B service is activated which initiates interaction with Azure portal and associates a new or existing AAD account with the Finance and Operations user account.</span></span>
 
-### <a name="inactivate-a-user"></a>Gera notanda óvirkan
+### <a name="inactivate-a-user"></a><span data-ttu-id="175c4-146">Gera notanda óvirkan</span><span class="sxs-lookup"><span data-stu-id="175c4-146">Inactivate a user</span></span>
 
-Það eru tvær leiðir til að fjarlægja aðgang samstarf lánardrottna fyrir notanda:
+<span data-ttu-id="175c4-147">Það eru tvær leiðir til að fjarlægja aðgang samstarf lánardrottna fyrir notanda:</span><span class="sxs-lookup"><span data-stu-id="175c4-147">There are two ways to remove access to vendor collaboration for a user:</span></span>
 
--   Á **Tengiliði** síðunni fyrir lánardrottinn, stilla **aðgang leyfð fyrir samstarf lánardrottna** valkostinn á **Nei** fyrir tengiliðinn. Þetta er gert sérstaklega fyrir hvern lögaðila sem einstaklingurinn er tengiliður fyrir. Aðeins er hægt að nota þennan valkost af innkaupasérfræðingum.
--   Gera anna notandareikningurinn óvirkan með því að senda inn beiðnina **gera notanda lánardrottins óvirkan**.
+-   <span data-ttu-id="175c4-148">Á **Tengiliði** síðunni fyrir lánardrottinn, stilla **aðgang leyfð fyrir samstarf lánardrottna** valkostinn á **Nei** fyrir tengiliðinn.</span><span class="sxs-lookup"><span data-stu-id="175c4-148">On the **Contacts** page for the vendor, set the **Vendor collaboration access allowed** option to **No** for the contact.</span></span> <span data-ttu-id="175c4-149">Þetta er gert sérstaklega fyrir hvern lögaðila sem einstaklingurinn er tengiliður fyrir.</span><span class="sxs-lookup"><span data-stu-id="175c4-149">This can be done individually per legal entity that the person is a contact for.</span></span> <span data-ttu-id="175c4-150">Aðeins er hægt að nota þennan valkost af innkaupasérfræðingum.</span><span class="sxs-lookup"><span data-stu-id="175c4-150">This option can only be used by procurement professionals.</span></span>
+-   <span data-ttu-id="175c4-151">Gera anna notandareikningurinn óvirkan með því að senda inn beiðnina **gera notanda lánardrottins óvirkan**.</span><span class="sxs-lookup"><span data-stu-id="175c4-151">Inactivate the entire user account, by submitting an **Inactivate vendor user** request.</span></span>
 
-Til að biðja um að gera notanda óvirkan:
+<span data-ttu-id="175c4-152">Til að biðja um að gera notanda óvirkan:</span><span class="sxs-lookup"><span data-stu-id="175c4-152">To request that a user is inactivated:</span></span>
 
-1.  Á **Alla tengiliði** síðunni er smellt á **óvirkja** **notanda lánardrottins**.
-2.  Skrifa athugasemd við **réttlæting viðskipta** svæði.
-3.  Smelltu á **Senda**.
+1.  <span data-ttu-id="175c4-153">Á **Alla tengiliði** síðunni er smellt á **óvirkja** **notanda lánardrottins**.</span><span class="sxs-lookup"><span data-stu-id="175c4-153">On the **All contacts** page, click **Inactivate** **vendor user**.</span></span>
+2.  <span data-ttu-id="175c4-154">Skrifa athugasemd við **réttlæting viðskipta** svæði.</span><span class="sxs-lookup"><span data-stu-id="175c4-154">Write a comment in the **Business justification** field.</span></span>
+3.  <span data-ttu-id="175c4-155">Smelltu á **Senda**.</span><span class="sxs-lookup"><span data-stu-id="175c4-155">Click **Submit**.</span></span>
 
-### <a name="modify-security-roles"></a>Breyta öryggishlutverkum
+### <a name="modify-security-roles"></a><span data-ttu-id="175c4-156">Breyta öryggishlutverkum</span><span class="sxs-lookup"><span data-stu-id="175c4-156">Modify security roles</span></span>
 
-**Viðhalda notendahlutverk lánardrottins** síðu er sú sama og í **lánardrottins ráðstöfunarnotandi** síðuna nema að ekki er hægt að breyta lista yfir öryggishlutverk.  
+<span data-ttu-id="175c4-157">**Viðhalda notendahlutverk lánardrottins** síðu er sú sama og í **lánardrottins ráðstöfunarnotandi** síðuna nema að ekki er hægt að breyta lista yfir öryggishlutverk.</span><span class="sxs-lookup"><span data-stu-id="175c4-157">The **Maintain vendor user roles** page is the same as the **Provision vendor user** page except that the list of security roles can be edited.</span></span>  
 
-Til að biðja um að öryggishlutverkin er breytt fyrir notanda:
+<span data-ttu-id="175c4-158">Til að biðja um að öryggishlutverkin er breytt fyrir notanda:</span><span class="sxs-lookup"><span data-stu-id="175c4-158">To request that the security roles are modified for a user:</span></span>
 
-1.  Á **Alla tengiliði** síðunni er smellt á **Viðhalda** **hlutverkum notanda lánardrottins**.
-2.  Skrifa athugasemd við **réttlæting viðskipta** svæði.
-3.  Í Hlutinn **Viðhalda notendahlutverk** , veldu öryggishlutverk sem þú vilt úthluta, eða hreinsa þær sem þú vilt fjarlægja.
-4.  Smella á **Senda**.
-
+1.  <span data-ttu-id="175c4-159">Á **Alla tengiliði** síðunni er smellt á **Viðhalda** **hlutverkum notanda lánardrottins**.</span><span class="sxs-lookup"><span data-stu-id="175c4-159">On the **All contacts** page, click **Maintain** **vendor user roles**.</span></span>
+2.  <span data-ttu-id="175c4-160">Skrifa athugasemd við **réttlæting viðskipta** svæði.</span><span class="sxs-lookup"><span data-stu-id="175c4-160">Write a comment in the **Business justification** field.</span></span>
+3.  <span data-ttu-id="175c4-161">Í Hlutinn **Viðhalda notendahlutverk** , veldu öryggishlutverk sem þú vilt úthluta, eða hreinsa þær sem þú vilt fjarlægja.</span><span class="sxs-lookup"><span data-stu-id="175c4-161">In the **Maintain user roles** section, select the security roles that you want to assign, or clear the ones that you want to remove.</span></span>
+4.  <span data-ttu-id="175c4-162">Smella á **Senda**.</span><span class="sxs-lookup"><span data-stu-id="175c4-162">Click **Submit**.</span></span>
 
 
 

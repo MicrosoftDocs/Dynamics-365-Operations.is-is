@@ -17,23 +17,23 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3312ad115d7c4429b5a1a45c8117247a9fa97954
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d545090daea6f5d4ec2e045da07f7dc1f756f560
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Skilgreina virknireglu fyrir sölufulltrúa
+# <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="3448a-103"> Skilgreina virknireglu fyrir sölufulltrúa</span><span class="sxs-lookup"><span data-stu-id="3448a-103">Configure the functionality profile for a sales representative</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að stilla forstillingar virknireglu verslunar sem eiga við um sölufulltrúa. Þessi aðferð notar sýnifyrirtækið USRT.
+<span data-ttu-id="3448a-104">Þetta ferli sýnir hvernig á að stilla forstillingar virknireglu verslunar sem eiga við um sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="3448a-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="3448a-105">Þessi aðferð notar sýnifyrirtækið USRT.</span><span class="sxs-lookup"><span data-stu-id="3448a-105">This procedures uses the USRT demo data company.</span></span>
 
-1. Fara í Smásölu og viðskipti > Rás uppsetning > Uppsetning sölustaðar> Forstillingar sölustaðar > Virknireglur.
-2. Smellið á „Breyta“.
-3. Stækka hlutann virkni.
-    * Hægt er að Forstillingar virknireglu til að skilgreina sölustað svo sjálfkrafa sé bætt við sjálfgefnum söluflokki gjaldkera, að biðja um söluflokka, og til að krefjast söluflokka.  
-4. Veljið valkost í svæðinu kvaðning eftir sölufulltrúa.
-5. Velja skal Já í svæðinu krefjast sölufulltrúa.
+1. <span data-ttu-id="3448a-106">Fara í Smásölu og viðskipti > Rás uppsetning > Uppsetning sölustaðar> Forstillingar sölustaðar > Virknireglur.</span><span class="sxs-lookup"><span data-stu-id="3448a-106">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Functionality profiles.</span></span>
+2. <span data-ttu-id="3448a-107">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="3448a-107">Click Edit.</span></span>
+3. <span data-ttu-id="3448a-108">Stækka hlutann virkni.</span><span class="sxs-lookup"><span data-stu-id="3448a-108">Expand the Functions section.</span></span>
+    * <span data-ttu-id="3448a-109">Hægt er að Forstillingar virknireglu til að skilgreina sölustað svo sjálfkrafa sé bætt við sjálfgefnum söluflokki gjaldkera, að biðja um söluflokka, og til að krefjast söluflokka.</span><span class="sxs-lookup"><span data-stu-id="3448a-109">You can use the functionality profile settings to configure POS to automatically add the cashier's default sales group, to prompt for sales groups, and to require sales groups.</span></span>  
+4. <span data-ttu-id="3448a-110">Veljið valkost í svæðinu kvaðning eftir sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="3448a-110">In the Prompt for sales representative field, select an option.</span></span>
+5. <span data-ttu-id="3448a-111">Velja skal Já í svæðinu krefjast sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="3448a-111">Select Yes in the Require sales representative field.</span></span>
 
 

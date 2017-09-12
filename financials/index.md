@@ -15,32 +15,32 @@ ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 3482aacba9315606a7751adc5839a8a11c2d4490
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
 ms.contentlocale: is-is
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Fjárhagsstjórnun – heimasíða
+# <a name="financial-management-home-page"></a><span data-ttu-id="434d8-103">Fjárhagsstjórnun – heimasíða</span><span class="sxs-lookup"><span data-stu-id="434d8-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+<span data-ttu-id="434d8-104">Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="434d8-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
-- [Viðskiptaskuldir](accounts-payable\accounts-payable.md) 
-- [Viðskiptakröfur](accounts-receivable\accounts-receivable.md) 
-- [Reiðufjár- og bankastjórnun](cash-bank-management\cash-bank-management.md)
-- [Kostnaðarbókhald](cost-accounting\cost-accounting-home-page.md)
-- [Eignir](fixed-assets\fixed-assets.md)
-- [Fjárhagur](general-ledger\general-ledger.md) 
-- [Verkefnastjórnun](project-management\overview-project-management-accounting.md)
-- [Hið opinbera](public-sector\public-sector-functionality.md) 
-- [Fjárhagsáætlun](budgeting\budgeting-overview.md) 
+<span data-ttu-id="434d8-105">Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.</span><span class="sxs-lookup"><span data-stu-id="434d8-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="434d8-106">Viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="434d8-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="434d8-107">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="434d8-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="434d8-108">Reiðufjár- og bankastjórnun</span><span class="sxs-lookup"><span data-stu-id="434d8-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="434d8-109">Kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="434d8-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="434d8-110">Eignir</span><span class="sxs-lookup"><span data-stu-id="434d8-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="434d8-111">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="434d8-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="434d8-112">Verkefnastjórnun</span><span class="sxs-lookup"><span data-stu-id="434d8-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="434d8-113">Hið opinbera</span><span class="sxs-lookup"><span data-stu-id="434d8-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="434d8-114">Fjárhagsáætlun</span><span class="sxs-lookup"><span data-stu-id="434d8-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 

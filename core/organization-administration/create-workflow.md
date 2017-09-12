@@ -15,70 +15,70 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4d57e47fe7f38a43ecfdfbdd701d7e6a7d7800d6
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="create-a-workflow"></a>Stofna verkflæði
+# <a name="create-a-workflow"></a><span data-ttu-id="4ec40-103">Stofna verkflæði</span><span class="sxs-lookup"><span data-stu-id="4ec40-103">Create a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig á að stofna verkflæði.
+<span data-ttu-id="4ec40-104">Þetta efnisatriði útskýrir hvernig á að stofna verkflæði.</span><span class="sxs-lookup"><span data-stu-id="4ec40-104">This topics explains how to create a workflow.</span></span>
 
-<a name="open-the-workflow-editor"></a>Opnaðu ritstjóra verkflæðis
+<a name="open-the-workflow-editor"></a><span data-ttu-id="4ec40-105">Opnaðu ritstjóra verkflæðis</span><span class="sxs-lookup"><span data-stu-id="4ec40-105">Open the workflow editor</span></span>
 ------------------------
 
-Einingin Microsoft Dynamics 365 for Finance and Operations sem þú ert að vinna í ákvarðar tegundir verkflæðis sem þú getur búið til. Fylgið eftirfarandi skrefum til að velja gerð verkflæðis til að stofna og til að opna verkflæðisritill.
+<span data-ttu-id="4ec40-106">Einingin Microsoft Dynamics 365 for Finance and Operations sem þú ert að vinna í ákvarðar tegundir verkflæðis sem þú getur búið til.</span><span class="sxs-lookup"><span data-stu-id="4ec40-106">The Microsoft Dynamics 365 for Finance and Operations module that you're working in determines the types of workflow that you can create.</span></span> <span data-ttu-id="4ec40-107">Fylgið eftirfarandi skrefum til að velja gerð verkflæðis til að stofna og til að opna verkflæðisritill.</span><span class="sxs-lookup"><span data-stu-id="4ec40-107">Follow these steps to select the type of workflow to create and open the workflow editor.</span></span>
 
-1.  Fara í einingunni sem á að stofna nýtt verkflæði fyrir. Til dæmis til að stofna verkflæði fyrir innkaupabeiðnir, smellið á **innkaup og aðföng**.
-2.  Smellið á **Uppsetning** &gt; **\[heiti Einingarinnar\] verkflæði**.
-3.  Á listasíðu sem birtist, á Aðgerðasvæðinu skal smellt á **Nýtt**.
-4.  Á **Stofna verkflæði** síðunni, veljið þá tegund verkflæðis sem á að stofna og smellið svo á **Stofna verkflæði**. Verkflæðisritill birtist Þú getur nú notað eftirfarandi ferli til að hanna verkflæði.
+1.  <span data-ttu-id="4ec40-108">Fara í einingunni sem á að stofna nýtt verkflæði fyrir.</span><span class="sxs-lookup"><span data-stu-id="4ec40-108">Open the module that you want to create a new workflow for.</span></span> <span data-ttu-id="4ec40-109">Til dæmis til að stofna verkflæði fyrir innkaupabeiðnir, smellið á **innkaup og aðföng**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-109">For example, to create a workflow for purchase requisitions, click **Procurement and sourcing**.</span></span>
+2.  <span data-ttu-id="4ec40-110">Smellið á **Uppsetning** &gt; **\[heiti Einingarinnar\] verkflæði**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-110">Click **Setup** &gt; **\[Module name\] workflows**.</span></span>
+3.  <span data-ttu-id="4ec40-111">Á listasíðu sem birtist, á Aðgerðasvæðinu skal smellt á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-111">On the list page that appears, on the Action Pane, click **New**.</span></span>
+4.  <span data-ttu-id="4ec40-112">Á **Stofna verkflæði** síðunni, veljið þá tegund verkflæðis sem á að stofna og smellið svo á **Stofna verkflæði**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-112">On the **Create workflow** page, select the type of workflow to create, and then click **Create workflow**.</span></span> <span data-ttu-id="4ec40-113">Verkflæðisritill birtist</span><span class="sxs-lookup"><span data-stu-id="4ec40-113">The workflow editor appears.</span></span> <span data-ttu-id="4ec40-114">Þú getur nú notað eftirfarandi ferli til að hanna verkflæði.</span><span class="sxs-lookup"><span data-stu-id="4ec40-114">You can now use the following procedures to design the workflow.</span></span>
 
-## <a name="drag-workflow-elements-onto-the-canvas"></a>Draga verkflæðisþætti yfir á striga
-Svæði **verkflæðiseining** í verkflæðisritill inniheldur þætti sem þú getur bætt við verkflæði. Til að bæta einingar við verkflæðisins skal draga þær yfir í striga.
+## <a name="drag-workflow-elements-onto-the-canvas"></a><span data-ttu-id="4ec40-115">Draga verkflæðisþætti yfir á striga</span><span class="sxs-lookup"><span data-stu-id="4ec40-115">Drag workflow elements onto the canvas</span></span>
+<span data-ttu-id="4ec40-116">Svæði **verkflæðiseining** í verkflæðisritill inniheldur þætti sem þú getur bætt við verkflæði.</span><span class="sxs-lookup"><span data-stu-id="4ec40-116">The **Workflow elements** area of the workflow editor contains the elements that you can add to your workflow.</span></span> <span data-ttu-id="4ec40-117">Til að bæta einingar við verkflæðisins skal draga þær yfir í striga.</span><span class="sxs-lookup"><span data-stu-id="4ec40-117">To add elements to the workflow, drag them onto the canvas.</span></span>
 
-## <a name="connect-the-elements"></a>Tengja einingar
-Til að tengja eina verkflæðiseiningu við aðra skal halda bendlinum yfir einingu þar til tengipunktar birtast. Smella skal á tengipunktinn og draga hann yfir í aðra einingu. Gætið þess að tengja saman allar einingarnar.
+## <a name="connect-the-elements"></a><span data-ttu-id="4ec40-118">Tengja einingar</span><span class="sxs-lookup"><span data-stu-id="4ec40-118">Connect the elements</span></span>
+<span data-ttu-id="4ec40-119">Til að tengja eina verkflæðiseiningu við aðra skal halda bendlinum yfir einingu þar til tengipunktar birtast.</span><span class="sxs-lookup"><span data-stu-id="4ec40-119">To connect one workflow element to another, hold the pointer over an element until connection points appear.</span></span> <span data-ttu-id="4ec40-120">Smella skal á tengipunktinn og draga hann yfir í aðra einingu.</span><span class="sxs-lookup"><span data-stu-id="4ec40-120">Click a connection point, and drag it to another element.</span></span> <span data-ttu-id="4ec40-121">Gætið þess að tengja saman allar einingarnar.</span><span class="sxs-lookup"><span data-stu-id="4ec40-121">Be sure to connect all the elements.</span></span>
 
-## <a name="configure-the-properties-of-the-workflow"></a>Skilgreina eiginleika verkflæðis
-Fylgið eftirfarandi skrefum til að skilgreina eiginleika verkflæðis.
+## <a name="configure-the-properties-of-the-workflow"></a><span data-ttu-id="4ec40-122">Skilgreina eiginleika verkflæðis</span><span class="sxs-lookup"><span data-stu-id="4ec40-122">Configure the properties of the workflow</span></span>
+<span data-ttu-id="4ec40-123">Fylgið eftirfarandi skrefum til að skilgreina eiginleika verkflæðis.</span><span class="sxs-lookup"><span data-stu-id="4ec40-123">Follow these steps to configure the properties of the workflow.</span></span>
 
-1.  Smellt er á striga til að tryggja að enginn verkflæðiseiningunni er valinn.
-2.  Smellið á **eiginleikar** til að opna í **Eiginleika** fyrir verkflæðið.
-3.  Farið að ferlinu í efninu [stilla eiginleika fyrir Verkflæði](configure-workflow-properties.md).
+1.  <span data-ttu-id="4ec40-124">Smellt er á striga til að tryggja að enginn verkflæðiseiningunni er valinn.</span><span class="sxs-lookup"><span data-stu-id="4ec40-124">Click the canvas to make sure that no workflow element is selected.</span></span>
+2.  <span data-ttu-id="4ec40-125">Smellið á **eiginleikar** til að opna í **Eiginleika** fyrir verkflæðið.</span><span class="sxs-lookup"><span data-stu-id="4ec40-125">Click **Properties** to open the **Properties** page for the workflow.</span></span>
+3.  <span data-ttu-id="4ec40-126">Farið að ferlinu í efninu [stilla eiginleika fyrir Verkflæði](configure-workflow-properties.md).</span><span class="sxs-lookup"><span data-stu-id="4ec40-126">Follow the procedures in the [Configure the properties of a workflow](configure-workflow-properties.md) topic.</span></span>
 
-## <a name="configure-the-elements-of-the-workflow"></a>Skilgreinið einingar verkflæðisins
-Stilla hverja einingu sem er valinn og dreginn á striga. Nánari upplýsingar um hvernig á að skilgreina hverja verkflæðiseiningu er að finna í eftirfarandi efnisatriði.
+## <a name="configure-the-elements-of-the-workflow"></a><span data-ttu-id="4ec40-127">Skilgreinið einingar verkflæðisins</span><span class="sxs-lookup"><span data-stu-id="4ec40-127">Configure the elements of the workflow</span></span>
+<span data-ttu-id="4ec40-128">Stilla hverja einingu sem er valinn og dreginn á striga.</span><span class="sxs-lookup"><span data-stu-id="4ec40-128">Configure each element that you dragged onto the canvas.</span></span> <span data-ttu-id="4ec40-129">Nánari upplýsingar um hvernig á að skilgreina hverja verkflæðiseiningu er að finna í eftirfarandi efnisatriði.</span><span class="sxs-lookup"><span data-stu-id="4ec40-129">For information about how to configure each workflow element, see the following topics:</span></span>
 
--   [Skilgreina handvirkt verk](configure-manual-task-workflow.md)
--   [Skilgreina sjálfvirkt verk](configure-automated-task-workflow.md)
--   [Skilgreining samþykktarferlis](configure-approval-process-workflow.md)
--   [Skilgreining samþykktarskrefs](configure-approval-step-workflow.md)
--   [Skilgreina handvirka ákvörðun](configure-manual-decision-workflow.md)
--   [Skilgreina skilyrtri ákvörðun](configure-conditional-decision-workflow.md)
--   [Skilgreina Hliðstæður verkþáttur](configure-parallel-activity-workflow.md)
--   [Skilgreina Hliðstæður grein](configure-parallel-branch-workflow.md)
--   [Skilgreina Verkflæði línuatriðis](configure-line-item-workflow.md)
+-   [<span data-ttu-id="4ec40-130">Skilgreina handvirkt verk</span><span class="sxs-lookup"><span data-stu-id="4ec40-130">Configure a manual task</span></span>](configure-manual-task-workflow.md)
+-   [<span data-ttu-id="4ec40-131">Skilgreina sjálfvirkt verk</span><span class="sxs-lookup"><span data-stu-id="4ec40-131">Configure an automated task</span></span>](configure-automated-task-workflow.md)
+-   [<span data-ttu-id="4ec40-132">Skilgreining samþykktarferlis</span><span class="sxs-lookup"><span data-stu-id="4ec40-132">Configure an approval process</span></span>](configure-approval-process-workflow.md)
+-   [<span data-ttu-id="4ec40-133">Skilgreining samþykktarskrefs</span><span class="sxs-lookup"><span data-stu-id="4ec40-133">Configure an approval step</span></span>](configure-approval-step-workflow.md)
+-   [<span data-ttu-id="4ec40-134">Skilgreina handvirka ákvörðun</span><span class="sxs-lookup"><span data-stu-id="4ec40-134">Configure a manual decision</span></span>](configure-manual-decision-workflow.md)
+-   [<span data-ttu-id="4ec40-135">Skilgreina skilyrtri ákvörðun</span><span class="sxs-lookup"><span data-stu-id="4ec40-135">Configure a conditional decision</span></span>](configure-conditional-decision-workflow.md)
+-   [<span data-ttu-id="4ec40-136">Skilgreina Hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="4ec40-136">Configure a parallel activity</span></span>](configure-parallel-activity-workflow.md)
+-   [<span data-ttu-id="4ec40-137">Skilgreina Hliðstæður grein</span><span class="sxs-lookup"><span data-stu-id="4ec40-137">Configure a parallel branch</span></span>](configure-parallel-branch-workflow.md)
+-   [<span data-ttu-id="4ec40-138">Skilgreina Verkflæði línuatriðis</span><span class="sxs-lookup"><span data-stu-id="4ec40-138">Configure a line-item workflow</span></span>](configure-line-item-workflow.md)
 
-## <a name="resolve-any-errors-or-warnings"></a>Leysa allar villur eða viðvaranir
-Svæðið **Villur og athugasemdir**, neðst á verkflæðisritill, birtir skilaboð sem hafa verið búnir til fyrir verkflæði. Til að finna einingu þar sem villa eða viðvörun kemur upp, skal tvísmella á villuna eða viðvörunina. Allar villur og viðvaranir verður að leysa áður en hægt er að gera verkflæði virka.
+## <a name="resolve-any-errors-or-warnings"></a><span data-ttu-id="4ec40-139">Leysa allar villur eða viðvaranir</span><span class="sxs-lookup"><span data-stu-id="4ec40-139">Resolve any errors or warnings</span></span>
+<span data-ttu-id="4ec40-140">Svæðið **Villur og athugasemdir**, neðst á verkflæðisritill, birtir skilaboð sem hafa verið búnir til fyrir verkflæði.</span><span class="sxs-lookup"><span data-stu-id="4ec40-140">The **Errors and warnings** pane at the bottom of the workflow editor shows messages that have been generated for the workflow.</span></span> <span data-ttu-id="4ec40-141">Til að finna einingu þar sem villa eða viðvörun kemur upp, skal tvísmella á villuna eða viðvörunina.</span><span class="sxs-lookup"><span data-stu-id="4ec40-141">To find the element where an error or warning occurred, double-click the error or warning message.</span></span> <span data-ttu-id="4ec40-142">Allar villur og viðvaranir verður að leysa áður en hægt er að gera verkflæði virka.</span><span class="sxs-lookup"><span data-stu-id="4ec40-142">You must resolve all errors and warnings before you can make the workflow active.</span></span>
 
-## <a name="save-and-activate-the-workflow"></a>Vista og virkja verkflæðið
-Þegar þú ert tilbúinn til að vista og virkja verkflæði skaltu fylgja þessum skrefum.
+## <a name="save-and-activate-the-workflow"></a><span data-ttu-id="4ec40-143">Vista og virkja verkflæðið</span><span class="sxs-lookup"><span data-stu-id="4ec40-143">Save and activate the workflow</span></span>
+<span data-ttu-id="4ec40-144">Þegar þú ert tilbúinn til að vista og virkja verkflæði skaltu fylgja þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="4ec40-144">When you're ready to save and activate the workflow, follow these steps.</span></span>
 
-1.  Smellið á **Vista og loka** til að loka verkflæðisritlinum og opna í **Vista verkflæði** skjámynd.
-2.  Færðu inn athugasemdir um þær breytingar sem þú hefur gert á verkflæðinu og smelltu á **Í lagi**.
-3.  Ef villur og viðvaranir hefur verið leyst, **Virkja verkflæði** birtist. Veldu einn af eftirfarandi valkostum:
-    -   Smellið til að virkja þessa útgáfu verkflæðisins á **virkja nýja útgáfu**. Þegar verkflæði er virkt, notendur senda skjöl í hana í vinnslu.
-    -   Eigi ekki að virkja þessa útgáfu, smellið á **Ekki virkja nýju útgáfuna**. Hægt er að virkja verkflæðið síðar.
+1.  <span data-ttu-id="4ec40-145">Smellið á **Vista og loka** til að loka verkflæðisritlinum og opna í **Vista verkflæði** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="4ec40-145">Click **Save and close** to close the workflow editor and open the **Save workflow** page.</span></span>
+2.  <span data-ttu-id="4ec40-146">Færðu inn athugasemdir um þær breytingar sem þú hefur gert á verkflæðinu og smelltu á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-146">Enter comments about the changes that you've made to the workflow, and then click **OK**.</span></span>
+3.  <span data-ttu-id="4ec40-147">Ef villur og viðvaranir hefur verið leyst, **Virkja verkflæði** birtist.</span><span class="sxs-lookup"><span data-stu-id="4ec40-147">If all errors and warnings have been resolved, the **Activate workflow** page appears.</span></span> <span data-ttu-id="4ec40-148">Veldu einn af eftirfarandi valkostum:</span><span class="sxs-lookup"><span data-stu-id="4ec40-148">Select one of the following options:</span></span>
+    -   <span data-ttu-id="4ec40-149">Smellið til að virkja þessa útgáfu verkflæðisins á **virkja nýja útgáfu**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-149">To activate this version of the workflow, click **Activate the new version**.</span></span> <span data-ttu-id="4ec40-150">Þegar verkflæði er virkt, notendur senda skjöl í hana í vinnslu.</span><span class="sxs-lookup"><span data-stu-id="4ec40-150">When a workflow is active, users can submit documents to it for processing.</span></span>
+    -   <span data-ttu-id="4ec40-151">Eigi ekki að virkja þessa útgáfu, smellið á **Ekki virkja nýju útgáfuna**.</span><span class="sxs-lookup"><span data-stu-id="4ec40-151">If you don't want to activate this version, click **Do not activate the new version**.</span></span> <span data-ttu-id="4ec40-152">Hægt er að virkja verkflæðið síðar.</span><span class="sxs-lookup"><span data-stu-id="4ec40-152">You can activate the workflow later.</span></span>
 
 
 

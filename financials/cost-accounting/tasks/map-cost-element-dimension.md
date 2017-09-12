@@ -16,32 +16,32 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6b99e1b5fc86bd1972766c8154141e9dd26bb7b0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-a-cost-element-dimension"></a>Varpa kostnaðareiningarvídd
+# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="2c52e-103">Varpa kostnaðareiningarvídd</span><span class="sxs-lookup"><span data-stu-id="2c52e-103">Map a cost element dimension</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila. Þessi skráning notar USP2-sýnigagnafyrirtæki.
+<span data-ttu-id="2c52e-104">Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila.</span><span class="sxs-lookup"><span data-stu-id="2c52e-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="2c52e-105">Þessi skráning notar USP2-sýnigagnafyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="2c52e-105">This recording uses the USP2 demo data company.</span></span>
 
-1. Fara í kostnaðarbókhald > Víddir > Víddir kostnaðareininga.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Í þessu dæmi skal velja kostnaðareiningar.  
-3. Smellt er á Víddarvarpanir.
-4. Smellt er á Skilgreina varpanir frá þessari vídd.
-5. Smellið á „Nýtt“.
-6. Sláið inn eða veldu gildi í reitnum í Til víddar.
-    * Í þessu dæmi, velja MXMF kostnaðareiningar.  
-7. Smellið á „Nýtt“.
-8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
-    * Í þessu dæmi, velja víddarstak 606400 Síma & Fax útgjöld.  
-10. Sláið inn eða veldu gildi í reitnum í Til víddarstak.
-    * Í þessu dæmi, velja víddarstak 6001004 Símanr.  
-11. Smellið á „Vista“.
+1. <span data-ttu-id="2c52e-106">Fara í kostnaðarbókhald > Víddir > Víddir kostnaðareininga.</span><span class="sxs-lookup"><span data-stu-id="2c52e-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="2c52e-107">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="2c52e-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2c52e-108">Í þessu dæmi skal velja kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2c52e-108">For this example, select Cost elements.</span></span>  
+3. <span data-ttu-id="2c52e-109">Smellt er á Víddarvarpanir.</span><span class="sxs-lookup"><span data-stu-id="2c52e-109">Click Dimension mappings.</span></span>
+4. <span data-ttu-id="2c52e-110">Smellt er á Skilgreina varpanir frá þessari vídd.</span><span class="sxs-lookup"><span data-stu-id="2c52e-110">Click Configure mappings from this dimension.</span></span>
+5. <span data-ttu-id="2c52e-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2c52e-111">Click New.</span></span>
+6. <span data-ttu-id="2c52e-112">Sláið inn eða veldu gildi í reitnum í Til víddar.</span><span class="sxs-lookup"><span data-stu-id="2c52e-112">In the To dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="2c52e-113">Í þessu dæmi, velja MXMF kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2c52e-113">For this example, select MXMF Cost elements.</span></span>  
+7. <span data-ttu-id="2c52e-114">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2c52e-114">Click New.</span></span>
+8. <span data-ttu-id="2c52e-115">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="2c52e-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="2c52e-116">Sláið inn eða veldu gildi í reitnum Frá víddarstak.</span><span class="sxs-lookup"><span data-stu-id="2c52e-116">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="2c52e-117">Í þessu dæmi, velja víddarstak 606400 Síma & Fax útgjöld.</span><span class="sxs-lookup"><span data-stu-id="2c52e-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
+10. <span data-ttu-id="2c52e-118">Sláið inn eða veldu gildi í reitnum í Til víddarstak.</span><span class="sxs-lookup"><span data-stu-id="2c52e-118">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="2c52e-119">Í þessu dæmi, velja víddarstak 6001004 Símanr.</span><span class="sxs-lookup"><span data-stu-id="2c52e-119">For this example, select dimension member 6001004 Telefono.</span></span>  
+11. <span data-ttu-id="2c52e-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="2c52e-120">Click Save.</span></span>
 
 

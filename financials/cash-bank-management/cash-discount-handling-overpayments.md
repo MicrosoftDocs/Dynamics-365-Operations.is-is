@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="b5813-103">Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur</span><span class="sxs-lookup"><span data-stu-id="b5813-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið. 
+<span data-ttu-id="b5813-104">Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið.</span><span class="sxs-lookup"><span data-stu-id="b5813-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Reikningur er talinn ofgreiddur þegar greiðsluupphæð er hærri en á upphæð reiknings mínus staðgreiðsluafsláttur. Til að tilgreina hvernig fáanlegur staðgreiðsluafsláttarmismunur er unninn þegar reikningur er ofgreiddur, í **stýring staðgreiðsluafsláttar** og **Hámark ofgreiðslu eða vangreiðslu** svæði á við **Færibreytur viðskiptakrafna** síðu. Í eftirfarandi dæmi, sem viðskiptavinurinn hefur ofgreitt reikninginn um 0,50.
+<span data-ttu-id="b5813-105">Reikningur er talinn ofgreiddur þegar greiðsluupphæð er hærri en á upphæð reiknings mínus staðgreiðsluafsláttur.</span><span class="sxs-lookup"><span data-stu-id="b5813-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="b5813-106">Til að tilgreina hvernig fáanlegur staðgreiðsluafsláttarmismunur er unninn þegar reikningur er ofgreiddur, í **stýring staðgreiðsluafsláttar** og **Hámark ofgreiðslu eða vangreiðslu** svæði á við **Færibreytur viðskiptakrafna** síðu.</span><span class="sxs-lookup"><span data-stu-id="b5813-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="b5813-107">Í eftirfarandi dæmi, sem viðskiptavinurinn hefur ofgreitt reikninginn um 0,50.</span><span class="sxs-lookup"><span data-stu-id="b5813-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Heildarupphæð reiknings | Tiltækur staðgreiðsluafsláttur | Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt | Upphæð sem viðskiptavinur greiðir í raun |
+| <span data-ttu-id="b5813-108">Heildarupphæð reiknings</span><span class="sxs-lookup"><span data-stu-id="b5813-108">Invoice total</span></span> | <span data-ttu-id="b5813-109">Tiltækur staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-109">Cash discount available</span></span> | <span data-ttu-id="b5813-110">Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt</span><span class="sxs-lookup"><span data-stu-id="b5813-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="b5813-111">Upphæð sem viðskiptavinur greiðir í raun</span><span class="sxs-lookup"><span data-stu-id="b5813-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="b5813-112">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-112">105.00</span></span>        | <span data-ttu-id="b5813-113">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-113">10.50</span></span>                   | <span data-ttu-id="b5813-114">94,50</span><span class="sxs-lookup"><span data-stu-id="b5813-114">94.50</span></span>                                               | <span data-ttu-id="b5813-115">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Stjórnun staðgreiðsluafsláttar= Tilgreint
-Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar. Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar. Þessi Hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og upphæðin sem færð er inn í á**Hámark ofgreiðslu eða vangreiðslu** svæði, eða hvort upphæð fyrir ofgreiðslu er meira en **Hámark ofgreiðslu eða vangreiðslu** upphæð.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="b5813-116">Stjórnun staðgreiðsluafsláttar= Tilgreint</span><span class="sxs-lookup"><span data-stu-id="b5813-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="b5813-117">Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar.</span><span class="sxs-lookup"><span data-stu-id="b5813-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="b5813-118">Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="b5813-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="b5813-119">Þessi Hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og upphæðin sem færð er inn í á**Hámark ofgreiðslu eða vangreiðslu** svæði, eða hvort upphæð fyrir ofgreiðslu er meira en **Hámark ofgreiðslu eða vangreiðslu** upphæð.</span><span class="sxs-lookup"><span data-stu-id="b5813-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Aðstæður 1
+### <a name="scenario-1"></a><span data-ttu-id="b5813-120">Aðstæður 1</span><span class="sxs-lookup"><span data-stu-id="b5813-120">Scenario 1</span></span>
 
-Í þessum aðstæðum er  ofgreiðsluupphæð á milli 0,00 og hámarks ofgreiðslu eða vangreiðslu. Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.
+<span data-ttu-id="b5813-121">Í þessum aðstæðum er  ofgreiðsluupphæð á milli 0,00 og hámarks ofgreiðslu eða vangreiðslu.</span><span class="sxs-lookup"><span data-stu-id="b5813-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="b5813-122">Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.</span><span class="sxs-lookup"><span data-stu-id="b5813-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Heildarupphæð reiknings | Tiltækur staðgreiðsluafsláttur | Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt |
+| <span data-ttu-id="b5813-123">Heildarupphæð reiknings</span><span class="sxs-lookup"><span data-stu-id="b5813-123">Invoice total</span></span> | <span data-ttu-id="b5813-124">Tiltækur staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-124">Cash discount available</span></span> | <span data-ttu-id="b5813-125">Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt</span><span class="sxs-lookup"><span data-stu-id="b5813-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="b5813-126">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-126">105.00</span></span>        | <span data-ttu-id="b5813-127">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-127">10.50</span></span>                   | <span data-ttu-id="b5813-128">94,50</span><span class="sxs-lookup"><span data-stu-id="b5813-128">94.50</span></span>                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+<span data-ttu-id="b5813-129">Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt.</span><span class="sxs-lookup"><span data-stu-id="b5813-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="b5813-130">Greiðslu er jafnað á móti reikningi fyrir 105.00.</span><span class="sxs-lookup"><span data-stu-id="b5813-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="b5813-131">Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="b5813-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Færsla   | Upphæð | Staða |
+| <span data-ttu-id="b5813-132">Færsla</span><span class="sxs-lookup"><span data-stu-id="b5813-132">Transaction</span></span>   | <span data-ttu-id="b5813-133">Upphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-133">Amount</span></span> | <span data-ttu-id="b5813-134">Staða</span><span class="sxs-lookup"><span data-stu-id="b5813-134">Balance</span></span> |
 |---------------|--------|---------|
-| Reikningur       | 105,00 | 0,00    |
-| Greiðsla       | -95,00 | 0,00    |
-| Staðgreiðsluafsláttur | -10,50 | 0,00    |
+| <span data-ttu-id="b5813-135">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-135">Invoice</span></span>       | <span data-ttu-id="b5813-136">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-136">105.00</span></span> | <span data-ttu-id="b5813-137">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-137">0.00</span></span>    |
+| <span data-ttu-id="b5813-138">Greiðsla</span><span class="sxs-lookup"><span data-stu-id="b5813-138">Payment</span></span>       | <span data-ttu-id="b5813-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-139">-95.00</span></span> | <span data-ttu-id="b5813-140">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-140">0.00</span></span>    |
+| <span data-ttu-id="b5813-141">Staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-141">Cash discount</span></span> | <span data-ttu-id="b5813-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-142">-10.50</span></span> | <span data-ttu-id="b5813-143">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-143">0.00</span></span>    |
 
-Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun. **Greiðsla**
+<span data-ttu-id="b5813-144">Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun.</span><span class="sxs-lookup"><span data-stu-id="b5813-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="b5813-145">**Greiðsla**</span><span class="sxs-lookup"><span data-stu-id="b5813-145">**Payment**</span></span>
 
-| Reikningur             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-146">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-146">Account</span></span>             | <span data-ttu-id="b5813-147">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-147">Debit amount</span></span> | <span data-ttu-id="b5813-148">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Reiðufé                | 95,00        |               |
-| Viðskiptakröfur |              | 95,00         |
+| <span data-ttu-id="b5813-149">Reiðufé</span><span class="sxs-lookup"><span data-stu-id="b5813-149">Cash</span></span>                | <span data-ttu-id="b5813-150">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-150">95.00</span></span>        |               |
+| <span data-ttu-id="b5813-151">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-151">Accounts receivable</span></span> |              | <span data-ttu-id="b5813-152">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-152">95.00</span></span>         |
 
-**Uppgjör**
+<span data-ttu-id="b5813-153">**Uppgjör**</span><span class="sxs-lookup"><span data-stu-id="b5813-153">**Settlement**</span></span>
 
-| Reikningur                                                                                                          | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-154">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-154">Account</span></span>                                                                                                          | <span data-ttu-id="b5813-155">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-155">Debit amount</span></span> | <span data-ttu-id="b5813-156">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna)                 | 10,50        |               |
-| Viðskiptakröfur                                                                                              |              | 10,50         |
-| Staðgreiðsluafsláttur (í **staðgreiðsluafsláttur viðskiptavinar** reitur á í **lykill fyrir sjálfvirk færsla** síðuna) |              | 0,50          |
-| Viðskiptakröfur                                                                                              | 0,50         |               |
+| <span data-ttu-id="b5813-157">Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna)</span><span class="sxs-lookup"><span data-stu-id="b5813-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="b5813-158">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-158">10.50</span></span>        |               |
+| <span data-ttu-id="b5813-159">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="b5813-160">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-160">10.50</span></span>         |
+| <span data-ttu-id="b5813-161">Staðgreiðsluafsláttur (í **staðgreiðsluafsláttur viðskiptavinar** reitur á í **lykill fyrir sjálfvirk færsla** síðuna)</span><span class="sxs-lookup"><span data-stu-id="b5813-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="b5813-162">0,50</span><span class="sxs-lookup"><span data-stu-id="b5813-162">0.50</span></span>          |
+| <span data-ttu-id="b5813-163">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="b5813-164">0,50</span><span class="sxs-lookup"><span data-stu-id="b5813-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Aðstæður 2
+### <a name="scenario-2"></a><span data-ttu-id="b5813-165">Aðstæður 2</span><span class="sxs-lookup"><span data-stu-id="b5813-165">Scenario 2</span></span>
 
-Í þessum aðstæðum fer ofgreiðsla upphæðar yfir hámarks upphæð ofgreiðsla eða vangreiðsla . Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.
+<span data-ttu-id="b5813-166">Í þessum aðstæðum fer ofgreiðsla upphæðar yfir hámarks upphæð ofgreiðsla eða vangreiðsla .</span><span class="sxs-lookup"><span data-stu-id="b5813-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="b5813-167">Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.</span><span class="sxs-lookup"><span data-stu-id="b5813-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Heildarupphæð reiknings | Tiltækur staðgreiðsluafsláttur | Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt |
+| <span data-ttu-id="b5813-168">Heildarupphæð reiknings</span><span class="sxs-lookup"><span data-stu-id="b5813-168">Invoice total</span></span> | <span data-ttu-id="b5813-169">Tiltækur staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-169">Cash discount available</span></span> | <span data-ttu-id="b5813-170">Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt</span><span class="sxs-lookup"><span data-stu-id="b5813-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="b5813-171">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-171">105.00</span></span>        | <span data-ttu-id="b5813-172">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-172">10.50</span></span>                   | <span data-ttu-id="b5813-173">94,50</span><span class="sxs-lookup"><span data-stu-id="b5813-173">94.50</span></span>                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+<span data-ttu-id="b5813-174">Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt.</span><span class="sxs-lookup"><span data-stu-id="b5813-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="b5813-175">Greiðslu er jafnað á móti reikningi fyrir 105.00.</span><span class="sxs-lookup"><span data-stu-id="b5813-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="b5813-176">Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="b5813-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Færsla   | Upphæð | Staða |
+| <span data-ttu-id="b5813-177">Færsla</span><span class="sxs-lookup"><span data-stu-id="b5813-177">Transaction</span></span>   | <span data-ttu-id="b5813-178">Upphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-178">Amount</span></span> | <span data-ttu-id="b5813-179">Staða</span><span class="sxs-lookup"><span data-stu-id="b5813-179">Balance</span></span> |
 |---------------|--------|---------|
-| Reikningur       | 105,00 | 0,00    |
-| Greiðsla       | -95,00 | -0,50   |
-| Staðgreiðsluafsláttur | -10,50 | 0,00    |
+| <span data-ttu-id="b5813-180">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-180">Invoice</span></span>       | <span data-ttu-id="b5813-181">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-181">105.00</span></span> | <span data-ttu-id="b5813-182">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-182">0.00</span></span>    |
+| <span data-ttu-id="b5813-183">Greiðsla</span><span class="sxs-lookup"><span data-stu-id="b5813-183">Payment</span></span>       | <span data-ttu-id="b5813-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-184">-95.00</span></span> | <span data-ttu-id="b5813-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="b5813-185">-0.50</span></span>   |
+| <span data-ttu-id="b5813-186">Staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-186">Cash discount</span></span> | <span data-ttu-id="b5813-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-187">-10.50</span></span> | <span data-ttu-id="b5813-188">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-188">0.00</span></span>    |
 
-Ofgreiðsluupphæð 0,50 verður að vera áfram opin staða greiðslunnar og hægt er að jafna gegn annan reikning. Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun. **Greiðsla**
+<span data-ttu-id="b5813-189">Ofgreiðsluupphæð 0,50 verður að vera áfram opin staða greiðslunnar og hægt er að jafna gegn annan reikning.</span><span class="sxs-lookup"><span data-stu-id="b5813-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="b5813-190">Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun.</span><span class="sxs-lookup"><span data-stu-id="b5813-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="b5813-191">**Greiðsla**</span><span class="sxs-lookup"><span data-stu-id="b5813-191">**Payment**</span></span>
 
-| Reikningur             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-192">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-192">Account</span></span>             | <span data-ttu-id="b5813-193">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-193">Debit amount</span></span> | <span data-ttu-id="b5813-194">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Reiðufé                | 95,00        |               |
-| Viðskiptakröfur |              | 95,00         |
+| <span data-ttu-id="b5813-195">Reiðufé</span><span class="sxs-lookup"><span data-stu-id="b5813-195">Cash</span></span>                | <span data-ttu-id="b5813-196">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-196">95.00</span></span>        |               |
+| <span data-ttu-id="b5813-197">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-197">Accounts receivable</span></span> |              | <span data-ttu-id="b5813-198">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-198">95.00</span></span>         |
 
-**Uppgjör**
+<span data-ttu-id="b5813-199">**Uppgjör**</span><span class="sxs-lookup"><span data-stu-id="b5813-199">**Settlement**</span></span>
 
-| Reikningur                                                                                          | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-200">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-200">Account</span></span>                                                                                          | <span data-ttu-id="b5813-201">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-201">Debit amount</span></span> | <span data-ttu-id="b5813-202">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna) | 10,50        |               |
-| Viðskiptakröfur                                                                              |              | 10,50         |
+| <span data-ttu-id="b5813-203">Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna)</span><span class="sxs-lookup"><span data-stu-id="b5813-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="b5813-204">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-204">10.50</span></span>        |               |
+| <span data-ttu-id="b5813-205">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="b5813-206">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Stjórnun staðgreiðsluafsláttar= ótilgreint
-Þegar **ótiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er upphæð staðgreiðsluafsláttar minnkuð sem nemur upphæð ofgreiðslu. Þessi hegðun á alltaf við, óháð hvort upphæð ofgreiðslu er yfir eða undir upphæðin sem færð er inn í á **Hámark ofgreiðslu eða vangreiðslu** svæði.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="b5813-207">Stjórnun staðgreiðsluafsláttar= ótilgreint</span><span class="sxs-lookup"><span data-stu-id="b5813-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="b5813-208">Þegar **ótiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er upphæð staðgreiðsluafsláttar minnkuð sem nemur upphæð ofgreiðslu.</span><span class="sxs-lookup"><span data-stu-id="b5813-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="b5813-209">Þessi hegðun á alltaf við, óháð hvort upphæð ofgreiðslu er yfir eða undir upphæðin sem færð er inn í á **Hámark ofgreiðslu eða vangreiðslu** svæði.</span><span class="sxs-lookup"><span data-stu-id="b5813-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Aðstæður 3
+### <a name="scenario-3"></a><span data-ttu-id="b5813-210">Aðstæður 3</span><span class="sxs-lookup"><span data-stu-id="b5813-210">Scenario 3</span></span>
 
-Í þessum aðstæðum er Reikningur sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.
+<span data-ttu-id="b5813-211">Í þessum aðstæðum er Reikningur sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.</span><span class="sxs-lookup"><span data-stu-id="b5813-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Heildarupphæð reiknings | Tiltækur staðgreiðsluafsláttur | Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt |
+| <span data-ttu-id="b5813-212">Heildarupphæð reiknings</span><span class="sxs-lookup"><span data-stu-id="b5813-212">Invoice total</span></span> | <span data-ttu-id="b5813-213">Tiltækur staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-213">Cash discount available</span></span> | <span data-ttu-id="b5813-214">Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt</span><span class="sxs-lookup"><span data-stu-id="b5813-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="b5813-215">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-215">105.00</span></span>        | <span data-ttu-id="b5813-216">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-216">10.50</span></span>                   | <span data-ttu-id="b5813-217">94,50</span><span class="sxs-lookup"><span data-stu-id="b5813-217">94.50</span></span>                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan staðgreiðsluafsláttardagsetningar. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+<span data-ttu-id="b5813-218">Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan staðgreiðsluafsláttardagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b5813-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="b5813-219">Greiðslu er jafnað á móti reikningi fyrir 105.00.</span><span class="sxs-lookup"><span data-stu-id="b5813-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="b5813-220">Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="b5813-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Færsla   | Upphæð | Staða |
+| <span data-ttu-id="b5813-221">Færsla</span><span class="sxs-lookup"><span data-stu-id="b5813-221">Transaction</span></span>   | <span data-ttu-id="b5813-222">Upphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-222">Amount</span></span> | <span data-ttu-id="b5813-223">Staða</span><span class="sxs-lookup"><span data-stu-id="b5813-223">Balance</span></span> |
 |---------------|--------|---------|
-| Reikningur       | 105,00 | 0,00    |
-| Greiðsla       | -95,00 | -0,00   |
-| Staðgreiðsluafsláttur | -10,00 | 0,00    |
+| <span data-ttu-id="b5813-224">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-224">Invoice</span></span>       | <span data-ttu-id="b5813-225">105,00</span><span class="sxs-lookup"><span data-stu-id="b5813-225">105.00</span></span> | <span data-ttu-id="b5813-226">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-226">0.00</span></span>    |
+| <span data-ttu-id="b5813-227">Greiðsla</span><span class="sxs-lookup"><span data-stu-id="b5813-227">Payment</span></span>       | <span data-ttu-id="b5813-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-228">-95.00</span></span> | <span data-ttu-id="b5813-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-229">-0.00</span></span>   |
+| <span data-ttu-id="b5813-230">Staðgreiðsluafsláttur</span><span class="sxs-lookup"><span data-stu-id="b5813-230">Cash discount</span></span> | <span data-ttu-id="b5813-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="b5813-231">-10.00</span></span> | <span data-ttu-id="b5813-232">0,00</span><span class="sxs-lookup"><span data-stu-id="b5813-232">0.00</span></span>    |
 
-Upphæð staðgreiðsluafsláttar er minnkað úr í 10,50 10,00. Greiðslu og reiknings litið jöfnuð. **Greiðsla**
+<span data-ttu-id="b5813-233">Upphæð staðgreiðsluafsláttar er minnkað úr í 10,50 10,00.</span><span class="sxs-lookup"><span data-stu-id="b5813-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="b5813-234">Greiðslu og reiknings litið jöfnuð.</span><span class="sxs-lookup"><span data-stu-id="b5813-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="b5813-235">**Greiðsla**</span><span class="sxs-lookup"><span data-stu-id="b5813-235">**Payment**</span></span>
 
-| Reikningur             | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-236">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-236">Account</span></span>             | <span data-ttu-id="b5813-237">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-237">Debit amount</span></span> | <span data-ttu-id="b5813-238">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Reiðufé                | 95,00        |               |
-| Viðskiptakröfur |              | 95,00         |
+| <span data-ttu-id="b5813-239">Reiðufé</span><span class="sxs-lookup"><span data-stu-id="b5813-239">Cash</span></span>                | <span data-ttu-id="b5813-240">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-240">95.00</span></span>        |               |
+| <span data-ttu-id="b5813-241">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-241">Accounts receivable</span></span> |              | <span data-ttu-id="b5813-242">95,00</span><span class="sxs-lookup"><span data-stu-id="b5813-242">95.00</span></span>         |
 
-**Uppgjör**
+<span data-ttu-id="b5813-243">**Uppgjör**</span><span class="sxs-lookup"><span data-stu-id="b5813-243">**Settlement**</span></span>
 
-| Reikningur                                                                                          | Debetupphæð | Kreditupphæð |
+| <span data-ttu-id="b5813-244">Reikningur</span><span class="sxs-lookup"><span data-stu-id="b5813-244">Account</span></span>                                                                                          | <span data-ttu-id="b5813-245">Debetupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-245">Debit amount</span></span> | <span data-ttu-id="b5813-246">Kreditupphæð</span><span class="sxs-lookup"><span data-stu-id="b5813-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna) | 10,50        |               |
-| Viðskiptakröfur                                                                              |              | 10,50         |
+| <span data-ttu-id="b5813-247">Staðgreiðsluafsláttur ( **aðallykils fyrir afslátt viðskiptavina** svæði á í **staðgreiðsluafslætti** síðuna)</span><span class="sxs-lookup"><span data-stu-id="b5813-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="b5813-248">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-248">10.50</span></span>        |               |
+| <span data-ttu-id="b5813-249">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="b5813-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="b5813-250">10,50</span><span class="sxs-lookup"><span data-stu-id="b5813-250">10.50</span></span>         |
 
 
 

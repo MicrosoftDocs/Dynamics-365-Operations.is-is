@@ -1,48 +1,42 @@
 --- 
-title: "Gera útgáfu framleiðsluflæðis óvirka"
-description: "Þegar virkrar framleiðsluflæðisútgáfu er ekki lengur þörf er hægt að afvirkja hana."
+# required metadata 
+title: Gera útgáfu framleiðsluflæðis óvirka
+description: Þegar virkrar framleiðsluflæðisútgáfu er ekki lengur þörf er hægt að afvirkja hana.
 author: cvocph
 manager: AnnBe
 ms.date: 10/07/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 06daa5e7d2b8e88bca281dc9bcaa73927253553c
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="deactivate-a-production-flow-version"></a>Gera útgáfu framleiðsluflæðis óvirka
+# <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="b868f-103">Gera útgáfu framleiðsluflæðis óvirka</span><span class="sxs-lookup"><span data-stu-id="b868f-103">Deactivate a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þegar virkrar framleiðsluflæðisútgáfu er ekki lengur þörf er hægt að afvirkja hana. Aðeins ætti að nota þennan valkost ef öllum kanban-reglum og verkþáttum hefur verið lokið og ekki verður gert virkt aftur. Athugið að lokadagsetning allra kanban-reglna sem tengjast þessari útgáfu framleiðsluflæðis verður uppfærð með núverandi dagsetningu og tími. 
+<span data-ttu-id="b868f-104">Þegar virkrar framleiðsluflæðisútgáfu er ekki lengur þörf er hægt að afvirkja hana.</span><span class="sxs-lookup"><span data-stu-id="b868f-104">When an active production flow version is no longer needed, it can be deactivated.</span></span> <span data-ttu-id="b868f-105">Aðeins ætti að nota þennan valkost ef öllum kanban-reglum og verkþáttum hefur verið lokið og ekki verður gert virkt aftur.</span><span class="sxs-lookup"><span data-stu-id="b868f-105">You should only use this option if all kanban rules and activities have ended and will not be activated again.</span></span> <span data-ttu-id="b868f-106">Athugið að lokadagsetning allra kanban-reglna sem tengjast þessari útgáfu framleiðsluflæðis verður uppfærð með núverandi dagsetningu og tími.</span><span class="sxs-lookup"><span data-stu-id="b868f-106">Note that the expiry date of all kanban rules related to this production flow version will be updated with the current date and time.</span></span> 
 
-Til að breyta virkri útgáfu framleiðsluflæðis skaltu íhuga að stilla lokadag fyrir virka útgáfu og búa til nýja útgáfu. Þetta leyfir að haldið sé áfram framleiðslaðgerðum við undirbúning á nýrri útgáfu og tengdum kanban-reglum. 
+<span data-ttu-id="b868f-107">Til að breyta virkri útgáfu framleiðsluflæðis skaltu íhuga að stilla lokadag fyrir virka útgáfu og búa til nýja útgáfu.</span><span class="sxs-lookup"><span data-stu-id="b868f-107">To modify an active production flow version, consider setting an expiry date for the active version and create a new version.</span></span> <span data-ttu-id="b868f-108">Þetta leyfir að haldið sé áfram framleiðslaðgerðum við undirbúning á nýrri útgáfu og tengdum kanban-reglum.</span><span class="sxs-lookup"><span data-stu-id="b868f-108">This will allow you to continue your production operations while preparing the new version and related kanban rules.</span></span> 
 
-Til að fella virka framleiðsluflæðisútgáfu úr gildi þarf að setja inn lokadag. Í þeim skilningi er afvirkjun frekar undantekning en regla. 
+<span data-ttu-id="b868f-109">Til að fella virka framleiðsluflæðisútgáfu úr gildi þarf að setja inn lokadag.</span><span class="sxs-lookup"><span data-stu-id="b868f-109">To expire an active production flow version, you need to set an expiry date.</span></span> <span data-ttu-id="b868f-110">Í þeim skilningi er afvirkjun frekar undantekning en regla.</span><span class="sxs-lookup"><span data-stu-id="b868f-110">In that sense, deactivation is more like an exception than a rule.</span></span> 
 
-Fyrir þetta ferli þarf framleiðsluflæði með útgáfu sem hægt er að gera óvirka. Reyndu þetta ekki í framleiðsluumhverfi nema þú sért 100% viss um að útgáfan sé alveg úrelt.
+<span data-ttu-id="b868f-111">Fyrir þetta ferli þarf framleiðsluflæði með útgáfu sem hægt er að gera óvirka.</span><span class="sxs-lookup"><span data-stu-id="b868f-111">For this procedure you need a production flow with a version that can be deactivated.</span></span> <span data-ttu-id="b868f-112">Reyndu þetta ekki í framleiðsluumhverfi nema þú sért 100% viss um að útgáfan sé alveg úrelt.</span><span class="sxs-lookup"><span data-stu-id="b868f-112">Do not try this in a production environment unless you are 100% positive that the version is fully obsolete.</span></span>
 
 
-## <a name="deactivate-a-production-flow-version"></a>Gera útgáfu framleiðsluflæðis óvirka
-1. Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Smellið á Afvirkja.
-    * Ekki halda áfram ef notandi er ekki 100% viss um að þessi útgáfa framleiðsluflæðis sé úrelt. Með því að smella á í Lagi renna allar virkar kanban-reglur út og allar aðgerðir framleiðslu og áfyllingar stöðvast tafarlaust af þessari útgáfu framleiðsluflæðis.  
-6. Smellið á „Í lagi“.
-
+## <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="b868f-113">Gera útgáfu framleiðsluflæðis óvirka</span><span class="sxs-lookup"><span data-stu-id="b868f-113">Deactivate a production flow version</span></span>
+1. <span data-ttu-id="b868f-114">Fara í Framleiðslustýringar > Uppsetning > Framleiðsluflæði fyrir lean > Framleiðsluflæði.</span><span class="sxs-lookup"><span data-stu-id="b868f-114">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="b868f-115">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="b868f-115">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="b868f-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b868f-116">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="b868f-117">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="b868f-117">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="b868f-118">Smellið á Afvirkja.</span><span class="sxs-lookup"><span data-stu-id="b868f-118">Click Deactivate.</span></span>
+    * <span data-ttu-id="b868f-119">Ekki halda áfram ef notandi er ekki 100% viss um að þessi útgáfa framleiðsluflæðis sé úrelt.</span><span class="sxs-lookup"><span data-stu-id="b868f-119">Do not proceed if you are not 100% positive that this production flow version is obsolete.</span></span> <span data-ttu-id="b868f-120">Með því að smella á í Lagi renna allar virkar kanban-reglur út og allar aðgerðir framleiðslu og áfyllingar stöðvast tafarlaust af þessari útgáfu framleiðsluflæðis.</span><span class="sxs-lookup"><span data-stu-id="b868f-120">Clicking Ok will expire all active kanban rules and put an immediate stop to all production and replenishment activities of this production flow version.</span></span>  
+6. <span data-ttu-id="b868f-121">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b868f-121">Click OK.</span></span>
 

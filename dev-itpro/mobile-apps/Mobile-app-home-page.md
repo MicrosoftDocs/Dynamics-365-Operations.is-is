@@ -25,45 +25,45 @@ ms.lasthandoff: 08/04/2017
 
 ---
 
-# <a name="mobile-app-home-page"></a>Heimasíða fartækjaforrits
+# <a name="mobile-app-home-page"></a><span data-ttu-id="929d7-103">Heimasíða fartækjaforrits</span><span class="sxs-lookup"><span data-stu-id="929d7-103">Mobile app home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir Microsoft Dynamics 365 for Unified Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki.
+<span data-ttu-id="929d7-104">Þetta efnisatriði lýsir Microsoft Dynamics 365 for Unified Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="929d7-104">This topic describes the Microsoft Dynamics 365 for Unified Operations mobile app and provides links to resources that can help you implement it in your organization.</span></span>
 
 > [!NOTE]
-> Fartækjaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.
+> <span data-ttu-id="929d7-105">Fartækjaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.</span><span class="sxs-lookup"><span data-stu-id="929d7-105">The mobile app was previously named *Microsoft Dynamics 365 for Finance and Operations*.</span></span>
 
-<a name="overview"></a>Yfirlit
+<a name="overview"></a><span data-ttu-id="929d7-106">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="929d7-106">Overview</span></span>
 --------
 
-Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum. Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum. Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:
+<span data-ttu-id="929d7-107">Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum.</span><span class="sxs-lookup"><span data-stu-id="929d7-107">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="929d7-108">Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum.</span><span class="sxs-lookup"><span data-stu-id="929d7-108">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="929d7-109">Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:</span><span class="sxs-lookup"><span data-stu-id="929d7-109">The mobile app includes the following features that can help increase productivity:</span></span>
 
-- Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert. Þegar tæki tengist neti á ný, eru gagnaaðgerðir sem gerðar voru utan nets sjálfkrafa samstilltar við Dynamics 365 for Finance and Operations, Enterprise útgáfu eða Microsoft Dynamics 365 for Finance and Operations.
-- Upplýsingatæknistjóri eða forritarar geta byggja og birtið fartækja vinnusvæði sem hefur verið sniðið að þeirra fyrirtæki. Farsímaforritið notar fyrirliggjandi kóða eigna þinna. Þess vegna þarf ekki að færa aftur inn villuleitaraðferðir, viðskiptagrunninn eða öryggis samskipan.
-- Upplýsingatæknistjórar eða forritarar geta auðveldlega hannað fartækjavinnusvæði með því að nota benda-og-smella verkfærið sem er í vefbiðlaranum.
-- Upplýsingatæknistjórar eða forritarar geta einnig hámarka notkun vinnusvæða utan nets með því að nota Business viðskiptagrunn umgjörðina. Þar sem gögn heldur áfram að vinna þegar tæki er utan nets, eru þín farsímaforrit áfram virk og auðug, jafnvel þó ekki tæki hafa tengingu við fasta net.
+- <span data-ttu-id="929d7-110">Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert.</span><span class="sxs-lookup"><span data-stu-id="929d7-110">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="929d7-111">Þegar tæki tengist neti á ný, eru gagnaaðgerðir sem gerðar voru utan nets sjálfkrafa samstilltar við Dynamics 365 for Finance and Operations, Enterprise útgáfu eða Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="929d7-111">When a device reestablishes a network connection, offline data operations are automatically synchronized with Dynamics 365 for Finance and Operations, Enterprise edition, or Microsoft Dynamics 365 for Finance and Operations.</span></span>
+- <span data-ttu-id="929d7-112">Upplýsingatæknistjóri eða forritarar geta byggja og birtið fartækja vinnusvæði sem hefur verið sniðið að þeirra fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="929d7-112">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="929d7-113">Farsímaforritið notar fyrirliggjandi kóða eigna þinna.</span><span class="sxs-lookup"><span data-stu-id="929d7-113">The app uses your existing code assets.</span></span> <span data-ttu-id="929d7-114">Þess vegna þarf ekki að færa aftur inn villuleitaraðferðir, viðskiptagrunninn eða öryggis samskipan.</span><span class="sxs-lookup"><span data-stu-id="929d7-114">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
+- <span data-ttu-id="929d7-115">Upplýsingatæknistjórar eða forritarar geta auðveldlega hannað fartækjavinnusvæði með því að nota benda-og-smella verkfærið sem er í vefbiðlaranum.</span><span class="sxs-lookup"><span data-stu-id="929d7-115">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
+- <span data-ttu-id="929d7-116">Upplýsingatæknistjórar eða forritarar geta einnig hámarka notkun vinnusvæða utan nets með því að nota Business viðskiptagrunn umgjörðina.</span><span class="sxs-lookup"><span data-stu-id="929d7-116">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="929d7-117">Þar sem gögn heldur áfram að vinna þegar tæki er utan nets, eru þín farsímaforrit áfram virk og auðug, jafnvel þó ekki tæki hafa tengingu við fasta net.</span><span class="sxs-lookup"><span data-stu-id="929d7-117">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
 
-## <a name="elements-of-the-mobile-app"></a>Einingar farsímaforritsins
-Fletting í fartækjaforritinu byggist á fjórum meginhugtökum: mælaborði, vinnusvæðum, síðum og aðgerðum. 
+## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="929d7-118">Einingar farsímaforritsins</span><span class="sxs-lookup"><span data-stu-id="929d7-118">Elements of the mobile app</span></span>
+<span data-ttu-id="929d7-119">Fletting í fartækjaforritinu byggist á fjórum meginhugtökum: mælaborði, vinnusvæðum, síðum og aðgerðum.</span><span class="sxs-lookup"><span data-stu-id="929d7-119">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
 
-[![Notkunarhugtök í farsímaforritinu](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+<span data-ttu-id="929d7-120">[![Notkunarhugtök í farsímaforritinu](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="929d7-120">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
 
-1. Þegar þú ræsir smáforritið, er farið í **Yfirlitið**.
-2. Á mælaborðinu getur þú séð lista yfir **vinnusvæði** sem hafa verið gefin út.
-3. Í hverri vinnusvæði getur séð lista yfir **síður** sem eru tiltæk fyrir það vinnusvæðisins.
-4. Hægt er að framkvæma ýmsar aðgerðir á síðu. Hér eru nokkur dæmi:
+1. <span data-ttu-id="929d7-121">Þegar þú ræsir smáforritið, er farið í **Yfirlitið**.</span><span class="sxs-lookup"><span data-stu-id="929d7-121">When you start the app, you go to the **dashboard**.</span></span>
+2. <span data-ttu-id="929d7-122">Á mælaborðinu getur þú séð lista yfir **vinnusvæði** sem hafa verið gefin út.</span><span class="sxs-lookup"><span data-stu-id="929d7-122">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
+3. <span data-ttu-id="929d7-123">Í hverri vinnusvæði getur séð lista yfir **síður** sem eru tiltæk fyrir það vinnusvæðisins.</span><span class="sxs-lookup"><span data-stu-id="929d7-123">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
+4. <span data-ttu-id="929d7-124">Hægt er að framkvæma ýmsar aðgerðir á síðu.</span><span class="sxs-lookup"><span data-stu-id="929d7-124">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="929d7-125">Hér eru nokkur dæmi:</span><span class="sxs-lookup"><span data-stu-id="929d7-125">Here are some examples:</span></span>
 
-    - Skoða ítarleg gögn.
-    - Fletta á aðrar síður fyrir tengd gögn, eins og einingaupplýsingar eða línur.
-    - Sjá lista yfir **aðgerðir** sem eru tiltækar fyrir þá síðu. Aðgerðir gera það mögulegt að stofna eða breyta fyrirliggjandi gögnum.
+    - <span data-ttu-id="929d7-126">Skoða ítarleg gögn.</span><span class="sxs-lookup"><span data-stu-id="929d7-126">View detailed data.</span></span>
+    - <span data-ttu-id="929d7-127">Fletta á aðrar síður fyrir tengd gögn, eins og einingaupplýsingar eða línur.</span><span class="sxs-lookup"><span data-stu-id="929d7-127">Navigate to other pages for related data, such as entity details or lines.</span></span>
+    - <span data-ttu-id="929d7-128">Sjá lista yfir **aðgerðir** sem eru tiltækar fyrir þá síðu.</span><span class="sxs-lookup"><span data-stu-id="929d7-128">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="929d7-129">Aðgerðir gera það mögulegt að stofna eða breyta fyrirliggjandi gögnum.</span><span class="sxs-lookup"><span data-stu-id="929d7-129">Actions let you create or edit existing data.</span></span>
 
-## <a name="implementation-process"></a>Innleiðingarverk
-Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðingu á bæði fartækjavinnusvæðum frá Microsoft og sérsniðnum fartækjavinnusvæðum. 
+## <a name="implementation-process"></a><span data-ttu-id="929d7-130">Innleiðingarverk</span><span class="sxs-lookup"><span data-stu-id="929d7-130">Implementation process</span></span>
+<span data-ttu-id="929d7-131">Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðingu á bæði fartækjavinnusvæðum frá Microsoft og sérsniðnum fartækjavinnusvæðum.</span><span class="sxs-lookup"><span data-stu-id="929d7-131">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
 
 ![Innleiðingarferli farsímaforrita](./media/Mobile-implementation-process-5.png)
 
-Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að innleiða bæði fartækjavinnusvæði frá Microsoft og sérsniðin fartækjavinnusvæði. Tölurnar í fyrsta dálkinum samsvara tölusettu skrefin í síðustu skýringarmynd.
+<span data-ttu-id="929d7-133">Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að innleiða bæði fartækjavinnusvæði frá Microsoft og sérsniðin fartækjavinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="929d7-133">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="929d7-134">Tölurnar í fyrsta dálkinum samsvara tölusettu skrefin í síðustu skýringarmynd.</span><span class="sxs-lookup"><span data-stu-id="929d7-134">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
 
 <table>
 <colgroup>
@@ -74,80 +74,81 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 </colgroup>
 <thead>
 <tr class="header">
-<th>Þrep</th>
-<th>Hlutverk</th>
-<th>Aðgerð</th>
-<th>Tilföng til að hjálpa til við að ljúka aðgerð</th>
+<th><span data-ttu-id="929d7-135">Þrep</span><span class="sxs-lookup"><span data-stu-id="929d7-135">Step</span></span></th>
+<th><span data-ttu-id="929d7-136">Hlutverk</span><span class="sxs-lookup"><span data-stu-id="929d7-136">Role</span></span></th>
+<th><span data-ttu-id="929d7-137">Aðgerð</span><span class="sxs-lookup"><span data-stu-id="929d7-137">Action</span></span></th>
+<th><span data-ttu-id="929d7-138">Tilföng til að hjálpa til við að ljúka aðgerð</span><span class="sxs-lookup"><span data-stu-id="929d7-138">Resources to help you complete the action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>Kerfisstjóri</td>
-<td>Innleiðing Finance and Operations eða Finance and Operations í fyrirtæki þínu.</td>
-<td><ul><li>Hafir þú enn ekki tekið í notkun útgáfu af Microsoft Dynamics 365, sjá <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
+<td><span data-ttu-id="929d7-139">1</span><span class="sxs-lookup"><span data-stu-id="929d7-139">1</span></span></td>
+<td><span data-ttu-id="929d7-140">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="929d7-140">System administrator</span></span></td>
+<td><span data-ttu-id="929d7-141">Innleiðing Finance and Operations eða Finance and Operations í fyrirtæki þínu.</span><span class="sxs-lookup"><span data-stu-id="929d7-141">Implement Finance and Operations or Finance and Operations in your organization.</span></span></td>
+<td><ul><li><span data-ttu-id="929d7-142">Hafir þú enn ekki tekið í notkun útgáfu af Microsoft Dynamics 365, sjá <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.</span><span class="sxs-lookup"><span data-stu-id="929d7-142">If you haven't yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="929d7-143">Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</span><span class="sxs-lookup"><span data-stu-id="929d7-143">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>Kerfisstjóri</td>
-<td><strong>Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations útgáfu 1611:</strong> skaltu sækja og setja upp KB sem virkja fartækjavinnusvæðin frá Microsoft.</td>
-<td>Sjáðu eftirfarandi efnisatriði til að fá frekari upplýsingar:
+<td><span data-ttu-id="929d7-144">2</span><span class="sxs-lookup"><span data-stu-id="929d7-144">2</span></span></td>
+<td><span data-ttu-id="929d7-145">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="929d7-145">System administrator</span></span></td>
+<td><span data-ttu-id="929d7-146"><strong>Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations útgáfu 1611:</strong> skaltu sækja og setja upp KB sem virkja fartækjavinnusvæðin frá Microsoft.</span><span class="sxs-lookup"><span data-stu-id="929d7-146"><strong>If you're using Microsoft Dynamics 365 for Finance and Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="929d7-147">Sjáðu eftirfarandi efnisatriði til að fá frekari upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="929d7-147">See the following topics for more information:</span></span>
 <ul>
 
-<li><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Birgðir á lager eftir fartækjavinnusvæði</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
-<li><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks á fartækjavinnusvæði</a></li>
-<li><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Útgjaldastjórnunar fartækja vinnusvæði</a></li>
+<li><span data-ttu-id="929d7-148"><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Fartækjavinnusvæði kostnaðarstýringar</a></span><span class="sxs-lookup"><span data-stu-id="929d7-148"><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Cost controlling mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="929d7-149"><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Birgðir á lager eftir fartækjavinnusvæði</a></span><span class="sxs-lookup"><span data-stu-id="929d7-149"><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Inventory on-hand mobile workspace</a></span></span></li>
+<li><span data-ttu-id="929d7-150"><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Sölupantanir fartækjavinnusvæði</a></span><span class="sxs-lookup"><span data-stu-id="929d7-150"><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Sales orders mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="929d7-151"><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Fartækjavinnusvæði samstarfs lánardrottna</a></span><span class="sxs-lookup"><span data-stu-id="929d7-151"><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Vendor collaboration mobile workspace</a></span></span></li>
+<li><span data-ttu-id="929d7-152"><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Vinnustundafærsla verks á fartækjavinnusvæði</a></span><span class="sxs-lookup"><span data-stu-id="929d7-152"><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Project time entry mobile workspace</a></span></span></li>
+<li><span data-ttu-id="929d7-153"><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Útgjaldastjórnunar fartækja vinnusvæði</a></span><span class="sxs-lookup"><span data-stu-id="929d7-153"><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Expense management mobile workspace</a></span></span></li>
 
 </ul></td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>Kerfisstjóri</td>
-<td>Gefa út fartækja vinnusvæði sem eru veitt af Microsoft.</td>
-<td><a href="publish-mobile-workspace.md">Birta fartækjavinnusvæði</a>
-</td>
+<td><span data-ttu-id="929d7-154">3</span><span class="sxs-lookup"><span data-stu-id="929d7-154">3</span></span></td>
+<td><span data-ttu-id="929d7-155">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="929d7-155">System administrator</span></span></td>
+<td><span data-ttu-id="929d7-156">Gefa út fartækja vinnusvæði sem eru veitt af Microsoft.</span><span class="sxs-lookup"><span data-stu-id="929d7-156">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="929d7-157"><a href="publish-mobile-workspace.md">Birta fartækjavinnusvæði</a>
+</span><span class="sxs-lookup"><span data-stu-id="929d7-157"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
+</span></span></td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>Forritari eða óháður hugbúnaðarsali (ÓHS)</td>
-<td>Nota fartækja umgjörðina til að stofna sérsniðin fartækja vinnusvæði.</td>
-<td><a href="platform/mobile-platform-home-page.md">Fartækjaverkvangur</a></td>
+<td><span data-ttu-id="929d7-158">4</span><span class="sxs-lookup"><span data-stu-id="929d7-158">4</span></span></td>
+<td><span data-ttu-id="929d7-159">Forritari eða óháður hugbúnaðarsali (ÓHS)</span><span class="sxs-lookup"><span data-stu-id="929d7-159">Developer or independent software vendor (ISV)</span></span></td>
+<td><span data-ttu-id="929d7-160">Nota fartækja umgjörðina til að stofna sérsniðin fartækja vinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="929d7-160">Use the mobile platform to create custom mobile workspaces.</span></span></td>
+<td><span data-ttu-id="929d7-161"><a href="platform/mobile-platform-home-page.md">Fartækjaverkvangur</a></span><span class="sxs-lookup"><span data-stu-id="929d7-161"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>ÓHS</td>
-<td>Stofna virkjanlegan pakka sem inniheldur sérsniðin fartækja vinnusvæði og hala pakkanum upp í Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Mynda virkjanlegan pakka</a></td>
+<td><span data-ttu-id="929d7-162">5</span><span class="sxs-lookup"><span data-stu-id="929d7-162">5</span></span></td>
+<td><span data-ttu-id="929d7-163">ÓHS</span><span class="sxs-lookup"><span data-stu-id="929d7-163">ISV</span></span></td>
+<td><span data-ttu-id="929d7-164">Stofna virkjanlegan pakka sem inniheldur sérsniðin fartækja vinnusvæði og hala pakkanum upp í Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="929d7-164">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
+<td><span data-ttu-id="929d7-165"><a href="../deployment/create-apply-deployable-package.md">Mynda virkjanlegan pakka</a></span><span class="sxs-lookup"><span data-stu-id="929d7-165"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>Kerfisstjóri</td>
-<td>Notaðu virkjanlega pakkann sem inniheldur sérsniðin vinnusvæði frá óháðum hugbúnaðarsala (ISV).</td>
-<td><a href="../deployment/apply-deployable-package-system.md">Virkjanlegur pakki notaður</a></td>
+<td><span data-ttu-id="929d7-166">6</span><span class="sxs-lookup"><span data-stu-id="929d7-166">6</span></span></td>
+<td><span data-ttu-id="929d7-167">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="929d7-167">System administrator</span></span></td>
+<td><span data-ttu-id="929d7-168">Notaðu virkjanlega pakkann sem inniheldur sérsniðin vinnusvæði frá óháðum hugbúnaðarsala (ISV).</span><span class="sxs-lookup"><span data-stu-id="929d7-168">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
+<td><span data-ttu-id="929d7-169"><a href="../deployment/apply-deployable-package-system.md">Virkjanlegur pakki notaður</a></span><span class="sxs-lookup"><span data-stu-id="929d7-169"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>Kerfisstjóri</td>
-<td>Gefa út sérsniðið fartækja vinnusvæði sem veitt eru af ISV.</td>
-<td><a href="publish-mobile-workspace.md">Fartækjavinnusvæði birt</a></td>
+<td><span data-ttu-id="929d7-170">7</span><span class="sxs-lookup"><span data-stu-id="929d7-170">7</span></span></td>
+<td><span data-ttu-id="929d7-171">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="929d7-171">System administrator</span></span></td>
+<td><span data-ttu-id="929d7-172">Gefa út sérsniðið fartækja vinnusvæði sem veitt eru af ISV.</span><span class="sxs-lookup"><span data-stu-id="929d7-172">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
+<td><span data-ttu-id="929d7-173"><a href="publish-mobile-workspace.md">Fartækjavinnusvæði birt</a></span><span class="sxs-lookup"><span data-stu-id="929d7-173"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>Notandi</td>
-<td>Sæktu og settu upp fartækjaforritið.</td>
+<td><span data-ttu-id="929d7-174">8</span><span class="sxs-lookup"><span data-stu-id="929d7-174">8</span></span></td>
+<td><span data-ttu-id="929d7-175">Notandi</span><span class="sxs-lookup"><span data-stu-id="929d7-175">User</span></span></td>
+<td><span data-ttu-id="929d7-176">Sæktu og settu upp fartækjaforritið.</span><span class="sxs-lookup"><span data-stu-id="929d7-176">Download and install the mobile app.</span></span></td>
 <td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Fyrir Android síma</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Fyrir iPhone síma</a></li></ul>
+<li><span data-ttu-id="929d7-177"><a href="https://go.microsoft.com/fwlink/?linkid=850662">Fyrir Android síma</a></span><span class="sxs-lookup"><span data-stu-id="929d7-177"><a href="https://go.microsoft.com/fwlink/?linkid=850662">For Android phones</a></span></span></li>
+<li><span data-ttu-id="929d7-178"><a href="https://go.microsoft.com/fwlink/?linkid=850663">Fyrir iPhone síma</a></span><span class="sxs-lookup"><span data-stu-id="929d7-178"><a href="https://go.microsoft.com/fwlink/?linkid=850663">For iPhones</a></span></span></li></ul>
 </td>
 </tr>
 <tr class="odd">
-<td>9</td>
-<td>Notandi</td>
-<td>Innskráning og notkun fartækjaforritsins. Forritið hefur að geyma fartækjavinnusvæði sem hafa verið gefin út af kerfisstjóra.</td>
-<td>Lista yfir fartækjavinnusvæði frá Microsoft má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.
+<td><span data-ttu-id="929d7-179">9</span><span class="sxs-lookup"><span data-stu-id="929d7-179">9</span></span></td>
+<td><span data-ttu-id="929d7-180">Notandi</span><span class="sxs-lookup"><span data-stu-id="929d7-180">User</span></span></td>
+<td><span data-ttu-id="929d7-181">Innskráning og notkun fartækjaforritsins.</span><span class="sxs-lookup"><span data-stu-id="929d7-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="929d7-182">Forritið hefur að geyma fartækjavinnusvæði sem hafa verið gefin út af kerfisstjóra.</span><span class="sxs-lookup"><span data-stu-id="929d7-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
+<td><span data-ttu-id="929d7-183">Lista yfir fartækjavinnusvæði frá Microsoft má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</span><span class="sxs-lookup"><span data-stu-id="929d7-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
 </td>
 </tr>
 </tbody>

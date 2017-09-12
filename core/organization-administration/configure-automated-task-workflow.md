@@ -15,56 +15,56 @@ ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 56e29bd2e875b8bb729e5dfe0c5ac03fc997ecbe
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Skilgreining á sjálfvirku verki í verkflæði
+# <a name="configure-an-automated-task-in-a-workflow"></a><span data-ttu-id="a2d39-103">Skilgreining á sjálfvirku verki í verkflæði</span><span class="sxs-lookup"><span data-stu-id="a2d39-103">Configure an automated task in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks.
+<span data-ttu-id="a2d39-104">Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks.</span><span class="sxs-lookup"><span data-stu-id="a2d39-104">This topic explains how to configure the properties for an automated task.</span></span>
 
-Til að skilgreina sjálfvirkt verk í verkflæðisritlinum, er hægrismellt á samþykktarskrefið og smellið síðan á **Eiginleika** til að opna í **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir sjálfvirkt verk.
+<span data-ttu-id="a2d39-105">Til að skilgreina sjálfvirkt verk í verkflæðisritlinum, er hægrismellt á samþykktarskrefið og smellið síðan á **Eiginleika** til að opna í **Eiginleika** síðu.</span><span class="sxs-lookup"><span data-stu-id="a2d39-105">To configure an automated task in the workflow editor, right-click the task, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="a2d39-106">Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir sjálfvirkt verk.</span><span class="sxs-lookup"><span data-stu-id="a2d39-106">Then use the following procedures to configure the properties for the automated task.</span></span>
 
-## <a name="name-the-task"></a>Gefa verkinu heiti
-Fylgið þessum skrefum til að færa inn heiti á sjálfvirkt verk.
+## <a name="name-the-task"></a><span data-ttu-id="a2d39-107">Gefa verkinu heiti</span><span class="sxs-lookup"><span data-stu-id="a2d39-107">Name the task</span></span>
+<span data-ttu-id="a2d39-108">Fylgið þessum skrefum til að færa inn heiti á sjálfvirkt verk.</span><span class="sxs-lookup"><span data-stu-id="a2d39-108">Follow these steps to enter a name for the automated task.</span></span>
 
-1.  Í vinstri glugganum, smelltu á **grunnstillingar**.
-2.  Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir verkið.
+1.  <span data-ttu-id="a2d39-109">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="a2d39-110">Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="a2d39-110">In the **Name** field, enter a unique name for the task.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
-Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið keyrt eða hætt við. Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers þær eru sendar.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="a2d39-111">Tilgreinið hvenær tilkynningar eru sendar út</span><span class="sxs-lookup"><span data-stu-id="a2d39-111">Specify when notifications are sent</span></span>
+<span data-ttu-id="a2d39-112">Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið keyrt eða hætt við.</span><span class="sxs-lookup"><span data-stu-id="a2d39-112">You can send notifications to people when an automated task has been run or canceled.</span></span> <span data-ttu-id="a2d39-113">Fylgið eftirfarandi skrefum til að tilgreina hvenær senda á út tilkynningar og til hvers þær eru sendar.</span><span class="sxs-lookup"><span data-stu-id="a2d39-113">Follow these steps to specify when notifications are sent, and who they are sent to.</span></span>
 
-1.  Á svæðinu vinstra megin, smella á **tilkynningar**.
-2.  Veldu gátreitinn sem er við hliðina á tilvikunum sem á að senda tilkynningar vegna.
-    -   **Framkvæmd** – Tilkynningar eru sendar þegar verkið hefur verið keyrð.
-    -   **Hætt við** – Tilkynningar eru sendar þegar verkið hefur verið hætt við.
+1.  <span data-ttu-id="a2d39-114">Á svæðinu vinstra megin, smella á **tilkynningar**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-114">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="a2d39-115">Veldu gátreitinn sem er við hliðina á tilvikunum sem á að senda tilkynningar vegna.</span><span class="sxs-lookup"><span data-stu-id="a2d39-115">Select the check box next to the events to send notifications for:</span></span>
+    -   <span data-ttu-id="a2d39-116">**Framkvæmd** – Tilkynningar eru sendar þegar verkið hefur verið keyrð.</span><span class="sxs-lookup"><span data-stu-id="a2d39-116">**Execution** – Notifications are sent when the task has been run.</span></span>
+    -   <span data-ttu-id="a2d39-117">**Hætt við** – Tilkynningar eru sendar þegar verkið hefur verið hætt við.</span><span class="sxs-lookup"><span data-stu-id="a2d39-117">**Canceled** – Notifications are sent when the task has been canceled.</span></span>
 
-3.  Veljið línu fyrir tilvik sem þú valdir í skrefi 2.
-4.  Á **tilkynningartexti** flipanum í textareitinn, færa inn texta tilkynningarinnar.
-5.  Hægt er að sérsníða tilkynningu með því að færa inn staðgengla. Staðgenglar eru settir í stað viðeigandi gagna þegar tilkynning birtist notendum. Fylgið eftirfarandi skrefum til að færa inn staðgengil:
-    1.  Smellið á textahólfið þar sem staðgengillinn á að birtast.
-    2.  Smella á **Setja inn staðgengil**
-    3.  Í listanum sem birtist skal velja staðgengilinn til að setja inn.
-    4.  Smellt er á **Setja inn**.
+3.  <span data-ttu-id="a2d39-118">Veljið línu fyrir tilvik sem þú valdir í skrefi 2.</span><span class="sxs-lookup"><span data-stu-id="a2d39-118">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="a2d39-119">Á **tilkynningartexti** flipanum í textareitinn, færa inn texta tilkynningarinnar.</span><span class="sxs-lookup"><span data-stu-id="a2d39-119">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
+5.  <span data-ttu-id="a2d39-120">Hægt er að sérsníða tilkynningu með því að færa inn staðgengla.</span><span class="sxs-lookup"><span data-stu-id="a2d39-120">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="a2d39-121">Staðgenglar eru settir í stað viðeigandi gagna þegar tilkynning birtist notendum.</span><span class="sxs-lookup"><span data-stu-id="a2d39-121">Placeholders are replaced with appropriate data when the notification is shown to users.</span></span> <span data-ttu-id="a2d39-122">Fylgið eftirfarandi skrefum til að færa inn staðgengil:</span><span class="sxs-lookup"><span data-stu-id="a2d39-122">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="a2d39-123">Smellið á textahólfið þar sem staðgengillinn á að birtast.</span><span class="sxs-lookup"><span data-stu-id="a2d39-123">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="a2d39-124">Smella á **Setja inn staðgengil**</span><span class="sxs-lookup"><span data-stu-id="a2d39-124">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="a2d39-125">Í listanum sem birtist skal velja staðgengilinn til að setja inn.</span><span class="sxs-lookup"><span data-stu-id="a2d39-125">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="a2d39-126">Smellt er á **Setja inn**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-126">Click **Insert**.</span></span>
 
-6.  Til að bæta þýðingum við Tilkynningar skal fylgja þessum skrefum:
-    1.  Smellt er á **Þýðingar**.
-    2.  Á síðunni sem birtist er smellt á **bæta við**.
-    3.  Í listanum sem birtist skal velja tungumálið sem verið er að færa inn í textanum.
-    4.  Í svæðið **þýddur texti** skal færa inn textann.
-    5.  Til að sérsníða textann geturðu sett inn staðgengla eins og lýst er í skrefi 5.
-    6.  Smellið á **Loka**.
+6.  <span data-ttu-id="a2d39-127">Til að bæta þýðingum við Tilkynningar skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="a2d39-127">To add translations of the notification, follow these steps:</span></span>
+    1.  <span data-ttu-id="a2d39-128">Smellt er á **Þýðingar**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-128">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="a2d39-129">Á síðunni sem birtist er smellt á **bæta við**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-129">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="a2d39-130">Í listanum sem birtist skal velja tungumálið sem verið er að færa inn í textanum.</span><span class="sxs-lookup"><span data-stu-id="a2d39-130">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="a2d39-131">Í svæðið **þýddur texti** skal færa inn textann.</span><span class="sxs-lookup"><span data-stu-id="a2d39-131">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="a2d39-132">Til að sérsníða textann geturðu sett inn staðgengla eins og lýst er í skrefi 5.</span><span class="sxs-lookup"><span data-stu-id="a2d39-132">To personalize the text, you can insert placeholders as described in step 5.</span></span>
+    6.  <span data-ttu-id="a2d39-133">Smellið á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="a2d39-133">Click **Close**.</span></span>
 
-7.  Á **Viðtakanda** flipanum, tilgreinið hverjum tilkynningar eru sendar. Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 8.
+7.  <span data-ttu-id="a2d39-134">Á **Viðtakanda** flipanum, tilgreinið hverjum tilkynningar eru sendar.</span><span class="sxs-lookup"><span data-stu-id="a2d39-134">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="a2d39-135">Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 8.</span><span class="sxs-lookup"><span data-stu-id="a2d39-135">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -73,39 +73,39 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Valkostur</th>
-    <th>Viðtakendur tilkynninga.</th>
-    <th>Viðbótarskref</th>
+    <th><span data-ttu-id="a2d39-136">Valkostur</span><span class="sxs-lookup"><span data-stu-id="a2d39-136">Option</span></span></th>
+    <th><span data-ttu-id="a2d39-137">Viðtakendur tilkynninga.</span><span class="sxs-lookup"><span data-stu-id="a2d39-137">Notification recipients</span></span></th>
+    <th><span data-ttu-id="a2d39-138">Viðbótarskref</span><span class="sxs-lookup"><span data-stu-id="a2d39-138">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Þátttakendur</td>
-    <td>Notendur sem tilheyra tilteknum hópi eða hlutverki</td>
+    <td><span data-ttu-id="a2d39-139">Þátttakendur</span><span class="sxs-lookup"><span data-stu-id="a2d39-139">Participant</span></span></td>
+    <td><span data-ttu-id="a2d39-140">Notendur sem tilheyra tilteknum hópi eða hlutverki</span><span class="sxs-lookup"><span data-stu-id="a2d39-140">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Eftor að þú velur <strong>viðtakanda</strong>, Á flipanum <strong>Hlutverkamiðað</strong> , á listanum <strong>Gerð þátttakanda</strong> skal velja gerð hóps eða hlutverks til að senda tilkynningu á.</li>
-    <li>Í listanum <strong>Þátttakanda</strong> skal velja hópi eða hlutverk til að senda tilkynningar til.</li>
+    <li><span data-ttu-id="a2d39-141">Eftor að þú velur <strong>viðtakanda</strong>, Á flipanum <strong>Hlutverkamiðað</strong> , á listanum <strong>Gerð þátttakanda</strong> skal velja gerð hóps eða hlutverks til að senda tilkynningu á.</span><span class="sxs-lookup"><span data-stu-id="a2d39-141">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="a2d39-142">Í listanum <strong>Þátttakanda</strong> skal velja hópi eða hlutverk til að senda tilkynningar til.</span><span class="sxs-lookup"><span data-stu-id="a2d39-142">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Verkflæðisnotandi</td>
-    <td>Notendur sem taka þátt í núverandi verkflæði</td>
+    <td><span data-ttu-id="a2d39-143">Verkflæðisnotandi</span><span class="sxs-lookup"><span data-stu-id="a2d39-143">Workflow user</span></span></td>
+    <td><span data-ttu-id="a2d39-144">Notendur sem taka þátt í núverandi verkflæði</span><span class="sxs-lookup"><span data-stu-id="a2d39-144">Users who participate in the current workflow</span></span></td>
     <td><ul>
-    <li>Eftir að þú velur <strong>verkflæðisnotandi</strong>, á <strong>verkflæðisnotandi</strong> flipanum, á <strong>verkflæðisnotandi</strong> listanum, veldu notandann sem tekur þátt í verkflæði.</li>
+    <li><span data-ttu-id="a2d39-145">Eftir að þú velur <strong>verkflæðisnotandi</strong>, á <strong>verkflæðisnotandi</strong> flipanum, á <strong>verkflæðisnotandi</strong> listanum, veldu notandann sem tekur þátt í verkflæði.</span><span class="sxs-lookup"><span data-stu-id="a2d39-145">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Notandi</td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td><span data-ttu-id="a2d39-146">Notandi</span><span class="sxs-lookup"><span data-stu-id="a2d39-146">User</span></span></td>
+    <td><span data-ttu-id="a2d39-147">Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="a2d39-147">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+    <li><span data-ttu-id="a2d39-148">Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</span><span class="sxs-lookup"><span data-stu-id="a2d39-148">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="a2d39-149">Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="a2d39-149">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="a2d39-150">Veldu Notendur til að senda tilkynningar til, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</span><span class="sxs-lookup"><span data-stu-id="a2d39-150">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-8.  Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.
+8.  <span data-ttu-id="a2d39-151">Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.</span><span class="sxs-lookup"><span data-stu-id="a2d39-151">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
 
 
 

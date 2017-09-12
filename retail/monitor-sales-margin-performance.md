@@ -19,37 +19,37 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 6c299a1297e5721119ecfb5208453f8739fb7ad0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2442f27221e429761abb8c1b17c50a737c10795
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="monitor-sales-and-margin-performance"></a>Eftirlit með sölu og framlegð
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="c39d4-103">Eftirlit með sölu og framlegð</span><span class="sxs-lookup"><span data-stu-id="c39d4-103">Monitor sales and margin performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Hægt er að fylgjast með sölu og afköstum framlegðar í rauntíma með því að nota Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="c39d4-104">Hægt er að fylgjast með sölu og afköstum framlegðar í rauntíma með því að nota Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="c39d4-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-Það er innbyggt í Dynamics 365 for Retail að notendur geta fylgst með sölu og afköstum framlegðar í rauntíma milli mismunandi stiga í stigveldi fyrirtækis fyrir eftirfarandi víddir:
+<span data-ttu-id="c39d4-105">Það er innbyggt í Dynamics 365 for Retail að notendur geta fylgst með sölu og afköstum framlegðar í rauntíma milli mismunandi stiga í stigveldi fyrirtækis fyrir eftirfarandi víddir:</span><span class="sxs-lookup"><span data-stu-id="c39d4-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   Vörur
--   Flokkar
--   Afslættir
--   Ár sem tímabil
--   Afgreiðslukassar/afgreiðslustöðvar
--   Starfsmaður/starfsmenn
--   Viðskiptavinir
--   Rekstrareiningar
+-   <span data-ttu-id="c39d4-106">Vörur</span><span class="sxs-lookup"><span data-stu-id="c39d4-106">Products</span></span>
+-   <span data-ttu-id="c39d4-107">Flokkar</span><span class="sxs-lookup"><span data-stu-id="c39d4-107">Categories</span></span>
+-   <span data-ttu-id="c39d4-108">Afslættir</span><span class="sxs-lookup"><span data-stu-id="c39d4-108">Discounts</span></span>
+-   <span data-ttu-id="c39d4-109">Ár sem tímabil</span><span class="sxs-lookup"><span data-stu-id="c39d4-109">Years as time period</span></span>
+-   <span data-ttu-id="c39d4-110">Afgreiðslukassar/afgreiðslustöðvar</span><span class="sxs-lookup"><span data-stu-id="c39d4-110">Registers/terminals</span></span>
+-   <span data-ttu-id="c39d4-111">Starfsmaður/starfsmenn</span><span class="sxs-lookup"><span data-stu-id="c39d4-111">Staff/employees</span></span>
+-   <span data-ttu-id="c39d4-112">Viðskiptavinir</span><span class="sxs-lookup"><span data-stu-id="c39d4-112">Customers</span></span>
+-   <span data-ttu-id="c39d4-113">Rekstrareiningar</span><span class="sxs-lookup"><span data-stu-id="c39d4-113">Operating units</span></span>
 
-Þar að auki eru tvær einkvæmar skýrslur sem leyfa notendum að fylgjast með sölu og afköstum framlegðar með því að kafa niður frá efsta tegundahnúti niður á staka laufhnúta tegundarinnar í sjálfgefnu flokkastigveldi smásöluafurða. Þessar skýrslur nýta sér uppbyggingu stigveldishnita. Notendur geta einnig kafað frá efstu rekstrareiningunum niður á einstakar rásir í stigveldi fyrirtækisins sem skilgreindur er sem sjálfgefið stigveldi fyrirtækis fyrir skýrslugerð stigveldisins. Hægt er að opna skýrslurnar úr öllum af eftirfarandi stöðum:
+<span data-ttu-id="c39d4-114">Þar að auki eru tvær einkvæmar skýrslur sem leyfa notendum að fylgjast með sölu og afköstum framlegðar með því að kafa niður frá efsta tegundahnúti niður á staka laufhnúta tegundarinnar í sjálfgefnu flokkastigveldi smásöluafurða. Þessar skýrslur nýta sér uppbyggingu stigveldishnita.</span><span class="sxs-lookup"><span data-stu-id="c39d4-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="c39d4-115">Notendur geta einnig kafað frá efstu rekstrareiningunum niður á einstakar rásir í stigveldi fyrirtækisins sem skilgreindur er sem sjálfgefið stigveldi fyrirtækis fyrir skýrslugerð stigveldisins.</span><span class="sxs-lookup"><span data-stu-id="c39d4-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="c39d4-116">Hægt er að opna skýrslurnar úr öllum af eftirfarandi stöðum:</span><span class="sxs-lookup"><span data-stu-id="c39d4-116">You can open the reports from any of the following locations:</span></span>
 
--   **Stjórnun smásöluverslunar** vinnusvæði&gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Flokka- og afurðastjórnun** vinnusvæði&gt; **Smásala** &gt; **Afurð og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Stjórnun verðlagningar og afslátta** vinnusvæði &gt; **Smásala** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**
+-   <span data-ttu-id="c39d4-117">**Stjórnun smásöluverslunar** vinnusvæði&gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**</span><span class="sxs-lookup"><span data-stu-id="c39d4-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="c39d4-118">**Flokka- og afurðastjórnun** vinnusvæði&gt; **Smásala** &gt; **Afurð og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**</span><span class="sxs-lookup"><span data-stu-id="c39d4-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="c39d4-119">**Stjórnun verðlagningar og afslátta** vinnusvæði &gt; **Smásala** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**</span><span class="sxs-lookup"><span data-stu-id="c39d4-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="c39d4-120">**Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**</span><span class="sxs-lookup"><span data-stu-id="c39d4-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
 
 

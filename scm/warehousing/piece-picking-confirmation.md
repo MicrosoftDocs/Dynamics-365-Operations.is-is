@@ -14,39 +14,39 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="piece-picking-confirmation"></a>Staðfesting einingartiltektar
+# <a name="piece-picking-confirmation"></a><span data-ttu-id="d4d39-103">Staðfesting einingartiltektar</span><span class="sxs-lookup"><span data-stu-id="d4d39-103">Piece picking confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Einingatiltekt gerir þér kleift að staðfesta hverja birgðaeiningu í tiltektar- eða talningarvinnu í fartæki. Í tiltekt er hægt að staðfesta verkmagn sem fara þarf fram upp að því marki sem tilgreint er í tiltektarverki. Í talningarvinnu geturðu skannað birgðirnar sem þú ert að telja og fylgst með heildarmagninu.
+<span data-ttu-id="d4d39-104">Einingatiltekt gerir þér kleift að staðfesta hverja birgðaeiningu í tiltektar- eða talningarvinnu í fartæki.</span><span class="sxs-lookup"><span data-stu-id="d4d39-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="d4d39-105">Í tiltekt er hægt að staðfesta verkmagn sem fara þarf fram upp að því marki sem tilgreint er í tiltektarverki.</span><span class="sxs-lookup"><span data-stu-id="d4d39-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="d4d39-106">Í talningarvinnu geturðu skannað birgðirnar sem þú ert að telja og fylgst með heildarmagninu.</span><span class="sxs-lookup"><span data-stu-id="d4d39-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
-Þegar einingatiltekt er virkjuð er staðfesting afurðar sjálfkrafa valin. Fyrir verktegundina tiltekt er hámarksfjöldi eininga virkjaður. Það gerir þér kleift að setja hámark á fjölda eininga sem þarf að staðfesta í verkferlinu. Hámarksmagnið byggist á núverandi verkeiningu sem verið er að vinna. Verk af gerðinni talning leyfir ekki hámark.
+<span data-ttu-id="d4d39-107">Þegar einingatiltekt er virkjuð er staðfesting afurðar sjálfkrafa valin.</span><span class="sxs-lookup"><span data-stu-id="d4d39-107">When you enable piece picking, product confirmation is automatically selected.</span></span> <span data-ttu-id="d4d39-108">Fyrir verktegundina tiltekt er hámarksfjöldi eininga virkjaður.</span><span class="sxs-lookup"><span data-stu-id="d4d39-108">For work-type picks, a maximum number of pieces is enabled.</span></span> <span data-ttu-id="d4d39-109">Það gerir þér kleift að setja hámark á fjölda eininga sem þarf að staðfesta í verkferlinu.</span><span class="sxs-lookup"><span data-stu-id="d4d39-109">This allows you to set a maximum to the number of pieces that must be confirmed during the work process.</span></span> <span data-ttu-id="d4d39-110">Hámarksmagnið byggist á núverandi verkeiningu sem verið er að vinna.</span><span class="sxs-lookup"><span data-stu-id="d4d39-110">The maximum quantity is based on the current work unit that is being processed.</span></span> <span data-ttu-id="d4d39-111">Verk af gerðinni talning leyfir ekki hámark.</span><span class="sxs-lookup"><span data-stu-id="d4d39-111">The counting work type does not allow a maximum.</span></span>
 
-Einnig er hægt að nota magn og mælieiningu (UOM) sem tengist skönnuðu strikamerki. Þetta virkar fyrir móttöku á innflæði, þar á meðal móttöku á blandaðri númeraplötu, vöru í innkaupapöntun, vöru í flutningspöntun og hleðsluvöru. Þetta virkar einnig fyrir einingatiltekt þar sem skönnun á strikamerki bætir magninu við heildarfjölda staðfestra eining sem fara úr mælieiningu á strikamerkinu í verkeininguna. Ef talning á mælieiningu á strikamerki staðfestir að magnið er leyfilegt fyrir talningu á röðunarflokknum, er magninu bætt við heildarfjölda.
+<span data-ttu-id="d4d39-112">Einnig er hægt að nota magn og mælieiningu (UOM) sem tengist skönnuðu strikamerki.</span><span class="sxs-lookup"><span data-stu-id="d4d39-112">You can also use the quantity and unit of measure (UOM) that is associated with a scanned bar code.</span></span> <span data-ttu-id="d4d39-113">Þetta virkar fyrir móttöku á innflæði, þar á meðal móttöku á blandaðri númeraplötu, vöru í innkaupapöntun, vöru í flutningspöntun og hleðsluvöru.</span><span class="sxs-lookup"><span data-stu-id="d4d39-113">This will work for receiving on inbound flows including mixed license plate receiving, purchase order item, transfer order item, and load item.</span></span> <span data-ttu-id="d4d39-114">Þetta virkar einnig fyrir einingatiltekt þar sem skönnun á strikamerki bætir magninu við heildarfjölda staðfestra eining sem fara úr mælieiningu á strikamerkinu í verkeininguna.</span><span class="sxs-lookup"><span data-stu-id="d4d39-114">It also works for piece picking where scanning the bar code will add the quantity to the total number of confirmed pieces converting between the UOM on the bar code and the work unit.</span></span> <span data-ttu-id="d4d39-115">Ef talning á mælieiningu á strikamerki staðfestir að magnið er leyfilegt fyrir talningu á röðunarflokknum, er magninu bætt við heildarfjölda.</span><span class="sxs-lookup"><span data-stu-id="d4d39-115">If, when counting the UOM on the bar code, it is confirmed that the quantity is allowed for counting on the sequence group, the quantity will be added to the total count.</span></span>
 
-## <a name="where-it-applies"></a>Þar sem það á við
+## <a name="where-it-applies"></a><span data-ttu-id="d4d39-116">Þar sem það á við</span><span class="sxs-lookup"><span data-stu-id="d4d39-116">Where it applies</span></span>
 
-Einingatiltekt gengur fyrir alla talningavinnu og fyrir fyrstu tiltekt í öllum tegundum vinnu. Einingatiltekt á ekki við ef vörunni er stjórnað af raðnúmerum eða ef um er að ræða framleiðslutiltekt eða kanban-tiltekt úr númeraplötustaðsetningu og varan er stillt á millistigsvigtun.
+<span data-ttu-id="d4d39-117">Einingatiltekt gengur fyrir alla talningavinnu og fyrir fyrstu tiltekt í öllum tegundum vinnu.</span><span class="sxs-lookup"><span data-stu-id="d4d39-117">Piece picking works for all counting work and for the initial pick for any type of work.</span></span> <span data-ttu-id="d4d39-118">Einingatiltekt á ekki við ef vörunni er stjórnað af raðnúmerum eða ef um er að ræða framleiðslutiltekt eða kanban-tiltekt úr númeraplötustaðsetningu og varan er stillt á millistigsvigtun.</span><span class="sxs-lookup"><span data-stu-id="d4d39-118">Piece picking does not apply if the item is controlled by serial numbers or if it is a production or kanban pick from a license plate (LP) location and the item is set to staging.</span></span>
 
-## <a name="set-up-piece-picking"></a>Uppsetning einingatiltektar
+## <a name="set-up-piece-picking"></a><span data-ttu-id="d4d39-119">Uppsetning einingatiltektar</span><span class="sxs-lookup"><span data-stu-id="d4d39-119">Set up piece picking</span></span>
 
-1.  Í valmyndaratriði fartækis skaltu opna uppsetningarskjámyndina fyrir vinnustaðfestingu: Vöruhúsakerfi > **Vöruhúsakerfi** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**. 
-2. Opnaðu Uppsetning vinnustaðfestingar í valmyndaratriði fartækis.
+1.  <span data-ttu-id="d4d39-120">Í valmyndaratriði fartækis skaltu opna uppsetningarskjámyndina fyrir vinnustaðfestingu: Vöruhúsakerfi > **Vöruhúsakerfi** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.</span><span class="sxs-lookup"><span data-stu-id="d4d39-120">On a mobile device menu item, open the setup form for work confirmation: Warehouse management > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span> 
+2. <span data-ttu-id="d4d39-121">Opnaðu Uppsetning vinnustaðfestingar í valmyndaratriði fartækis.</span><span class="sxs-lookup"><span data-stu-id="d4d39-121">From the mobile device menu item, open Work confirmation setup.</span></span>
 
-Eftirfarandi valkostir verða tiltækar til vals þegar gerð vinnu er tiltekt eða talning.
+<span data-ttu-id="d4d39-122">Eftirfarandi valkostir verða tiltækar til vals þegar gerð vinnu er tiltekt eða talning.</span><span class="sxs-lookup"><span data-stu-id="d4d39-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| Valkostur        | lýsing   | 
+| <span data-ttu-id="d4d39-123">Valkostur</span><span class="sxs-lookup"><span data-stu-id="d4d39-123">Option</span></span>        | <span data-ttu-id="d4d39-124">lýsing</span><span class="sxs-lookup"><span data-stu-id="d4d39-124">Description</span></span>   | 
 | ------------- | ------------- |
-| Staðfesting einingartiltektar   | Tiltækt fyrir tínslu og talningu. Staðfesting vöru er sjálfkrafa valin. Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu. | 
-| Hámarksfjöldi eininga     | Tiltækt fyrir tiltektarvinnu ef staðfesting einingatiltektar er virkjuð. Stillir takmörkun á fjölda eininga sem þarf að staðfesta. |  
+| <span data-ttu-id="d4d39-125">Staðfesting einingartiltektar</span><span class="sxs-lookup"><span data-stu-id="d4d39-125">Piece picking confirmation</span></span>   | <span data-ttu-id="d4d39-126">Tiltækt fyrir tínslu og talningu.</span><span class="sxs-lookup"><span data-stu-id="d4d39-126">Available for pick and counting work types.</span></span> <span data-ttu-id="d4d39-127">Staðfesting vöru er sjálfkrafa valin.</span><span class="sxs-lookup"><span data-stu-id="d4d39-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="d4d39-128">Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu.</span><span class="sxs-lookup"><span data-stu-id="d4d39-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
+| <span data-ttu-id="d4d39-129">Hámarksfjöldi eininga</span><span class="sxs-lookup"><span data-stu-id="d4d39-129">Maximum number of pieces</span></span>     | <span data-ttu-id="d4d39-130">Tiltækt fyrir tiltektarvinnu ef staðfesting einingatiltektar er virkjuð.</span><span class="sxs-lookup"><span data-stu-id="d4d39-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="d4d39-131">Stillir takmörkun á fjölda eininga sem þarf að staðfesta.</span><span class="sxs-lookup"><span data-stu-id="d4d39-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
 

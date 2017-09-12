@@ -1,39 +1,33 @@
 --- 
-title: "Flytja gögn fyrir vörulíkan"
-description: "Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan."
+# required metadata 
+title: Flytja gögn fyrir vörulíkan
+description: Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan.
 author: BibiSp
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 0599c6e8af6c5c38bf0883e35d908757ddee05b2
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="transfer-data-for-product-models"></a>Flytja gögn fyrir vörulíkan
+# <a name="transfer-data-for-product-models"></a><span data-ttu-id="94227-103">Flytja gögn fyrir vörulíkan</span><span class="sxs-lookup"><span data-stu-id="94227-103">Transfer data for product models</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan. Þessi aðferð notar hágæða hátalara líkanið í USMF sýnigögn fyrirtæki til að sýna hvernig á að flytja út gögn fyrir þetta líkan.
+<span data-ttu-id="94227-104">Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan.</span><span class="sxs-lookup"><span data-stu-id="94227-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="94227-105">Þessi aðferð notar hágæða hátalara líkanið í USMF sýnigögn fyrirtæki til að sýna hvernig á að flytja út gögn fyrir þetta líkan.</span><span class="sxs-lookup"><span data-stu-id="94227-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smella á Afbrigðalíkan afurðar
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið hágæða hátalara líkan fyrir þetta ferli.  
-4. Í aðgerðasvæðinu er smellt á líkan.
-5. Smellt er á Útflutning vörulíkans.
-    * Niðurhalshegðun er breytileg frá vafra til vafra allt eftir því hvernig öryggisstillingar eru sett upp.  
-
+1. <span data-ttu-id="94227-106">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="94227-106">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="94227-107">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="94227-107">Click Product configuration models.</span></span>
+3. <span data-ttu-id="94227-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="94227-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="94227-109">Veljið hágæða hátalara líkan fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="94227-109">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="94227-110">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="94227-110">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="94227-111">Smellt er á Útflutning vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="94227-111">Click Export product model.</span></span>
+    * <span data-ttu-id="94227-112">Niðurhalshegðun er breytileg frá vafra til vafra allt eftir því hvernig öryggisstillingar eru sett upp.</span><span class="sxs-lookup"><span data-stu-id="94227-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
 

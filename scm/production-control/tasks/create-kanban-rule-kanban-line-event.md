@@ -17,55 +17,55 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: cc8c3ff5e98ccce56a7a19b16c1aceac650cdf5a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9ef7b8e920d22cbc4f96676e68a263f2da7f232c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Stofna kanban-reglu með kanban-línutilviki
+# <a name="create-a-kanban-rule-using-a-kanban-line-event"></a><span data-ttu-id="fd18a-103">Stofna kanban-reglu með kanban-línutilviki</span><span class="sxs-lookup"><span data-stu-id="fd18a-103">Create a kanban rule using a kanban line event</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli stofnar kanban-reglu með því að nota stillinguna línutilvik kanbans til að virkja sækja úr ferlisverkþætti. Kanban-reglu virkjast af kanban ferlisverkþætti, með magnið það sama eða hærri en 25 hvert. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.
+<span data-ttu-id="fd18a-104">Þetta ferli stofnar kanban-reglu með því að nota stillinguna línutilvik kanbans til að virkja sækja úr ferlisverkþætti.</span><span class="sxs-lookup"><span data-stu-id="fd18a-104">This procedure creates a kanban rule by using the kanban line event setting to trigger pull from a process activity.</span></span> <span data-ttu-id="fd18a-105">Kanban-reglu virkjast af kanban ferlisverkþætti, með magnið það sama eða hærri en 25 hvert.</span><span class="sxs-lookup"><span data-stu-id="fd18a-105">The kanban rule is triggered by a kanban process activity, with a quantity equal to or greater than 25 each.</span></span> <span data-ttu-id="fd18a-106">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="fd18a-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="fd18a-107">Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="fd18a-107">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-kanban-rule"></a>Stofna kanban-reglu
-1. Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.
-2. Smellið á „Nýtt“.
-3. Velja 'Tilvik' í reitnum Áfyllingaráætlun.
-    * Þetta myndar kanban beint úr eftirspurn. Hann er notaður til að setja upp reglur sem skilgreina framleiða eftir pöntun-aðstæður.  
-4. Færa inn eða velja gildi í reitnum Fyrsta áætlun verkþáttarins.
-    * Sláið inn eða Veljið SpeakerAssemblyAndPolish. Fyrsti verkþáttur kanban-reglu framleiðslu er ferlisverkþáttur í framleiðsluflæðinu. Þegar þú velur aðgerð, eru gildisdagsetningar verkþáttar afrituð í gildisdagsetningar kanban-reglu.  
-5. Útvíkka hlutann Upplýsingar.
-6. Í reitinn afurð skal færa inn ‚L0001‘.
-7. Útvíkka hlutann Tilvik.
-8. Í reitnum línutilvik kanbans skal velja ‚Sjálfvirkt‘.
-    * Þetta myndar tilvikskanban eftir þörfum.  Þessi reitur er notuð til að stilla kanban-reglur sem fylla efni á sem krafist er fyrir úrvinnsluaðgerð. Þegar Sjálfvirk er valið, eru tilvikskanbön stofnaðar með eftirspurn. Mælt er með þessari stillingu ef búist er við að keyra framleiðslu sama dag.  
-9. Stilla lágmarksmagn tilviks á ‚25‘.
-    * Tilvikskanban eru myndaðar þegar eftirspurnarmagn er jafnt eða meira en þetta svæði. Þetta er hentugt ef á að framleiða pöntunarmagn sem er minna en þetta svæði á einni vél og meira en þetta svæði á annarri vél.  
-10. Smellið á „Vista“.
+## <a name="create-a-kanban-rule"></a><span data-ttu-id="fd18a-108">Stofna kanban-reglu</span><span class="sxs-lookup"><span data-stu-id="fd18a-108">Create a kanban rule</span></span>
+1. <span data-ttu-id="fd18a-109">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="fd18a-109">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="fd18a-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-110">Click New.</span></span>
+3. <span data-ttu-id="fd18a-111">Velja 'Tilvik' í reitnum Áfyllingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="fd18a-111">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="fd18a-112">Þetta myndar kanban beint úr eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="fd18a-112">This generates kanbans directly from demand.</span></span> <span data-ttu-id="fd18a-113">Hann er notaður til að setja upp reglur sem skilgreina framleiða eftir pöntun-aðstæður.</span><span class="sxs-lookup"><span data-stu-id="fd18a-113">It is used to set up rules that define a make-to-order scenario.</span></span>  
+4. <span data-ttu-id="fd18a-114">Færa inn eða velja gildi í reitnum Fyrsta áætlun verkþáttarins.</span><span class="sxs-lookup"><span data-stu-id="fd18a-114">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="fd18a-115">Sláið inn eða Veljið SpeakerAssemblyAndPolish.</span><span class="sxs-lookup"><span data-stu-id="fd18a-115">Enter or select SpeakerAssemblyAndPolish.</span></span> <span data-ttu-id="fd18a-116">Fyrsti verkþáttur kanban-reglu framleiðslu er ferlisverkþáttur í framleiðsluflæðinu.</span><span class="sxs-lookup"><span data-stu-id="fd18a-116">The first activity of a manufacturing kanban rule is a process activity in the production flow.</span></span> <span data-ttu-id="fd18a-117">Þegar þú velur aðgerð, eru gildisdagsetningar verkþáttar afrituð í gildisdagsetningar kanban-reglu.</span><span class="sxs-lookup"><span data-stu-id="fd18a-117">When you select the activity, the validity dates of the activity are copied to the validity dates of the kanban rule.</span></span>  
+5. <span data-ttu-id="fd18a-118">Útvíkka hlutann Upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="fd18a-118">Expand the Details section.</span></span>
+6. <span data-ttu-id="fd18a-119">Í reitinn afurð skal færa inn ‚L0001‘.</span><span class="sxs-lookup"><span data-stu-id="fd18a-119">In the Product field, type 'L0001'.</span></span>
+7. <span data-ttu-id="fd18a-120">Útvíkka hlutann Tilvik.</span><span class="sxs-lookup"><span data-stu-id="fd18a-120">Expand the Events section.</span></span>
+8. <span data-ttu-id="fd18a-121">Í reitnum línutilvik kanbans skal velja ‚Sjálfvirkt‘.</span><span class="sxs-lookup"><span data-stu-id="fd18a-121">In the Kanban line event field, select 'Automatic'.</span></span>
+    * <span data-ttu-id="fd18a-122">Þetta myndar tilvikskanban eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="fd18a-122">This generates event kanbans on demand.</span></span>  <span data-ttu-id="fd18a-123">Þessi reitur er notuð til að stilla kanban-reglur sem fylla efni á sem krafist er fyrir úrvinnsluaðgerð.</span><span class="sxs-lookup"><span data-stu-id="fd18a-123">The field is used to configure kanban rules that replenish material that is required for a downstream process activity.</span></span> <span data-ttu-id="fd18a-124">Þegar Sjálfvirk er valið, eru tilvikskanbön stofnaðar með eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="fd18a-124">When you select Automatic, the event kanbans are created with the demand.</span></span> <span data-ttu-id="fd18a-125">Mælt er með þessari stillingu ef búist er við að keyra framleiðslu sama dag.</span><span class="sxs-lookup"><span data-stu-id="fd18a-125">This setting is recommended if you expect to execute production on the same day.</span></span>  
+9. <span data-ttu-id="fd18a-126">Stilla lágmarksmagn tilviks á ‚25‘.</span><span class="sxs-lookup"><span data-stu-id="fd18a-126">Set Minimum event quantity to '25'.</span></span>
+    * <span data-ttu-id="fd18a-127">Tilvikskanban eru myndaðar þegar eftirspurnarmagn er jafnt eða meira en þetta svæði.</span><span class="sxs-lookup"><span data-stu-id="fd18a-127">Event kanbans are generated when the demand quantity is equal to or more than this field.</span></span> <span data-ttu-id="fd18a-128">Þetta er hentugt ef á að framleiða pöntunarmagn sem er minna en þetta svæði á einni vél og meira en þetta svæði á annarri vél.</span><span class="sxs-lookup"><span data-stu-id="fd18a-128">This is useful if you want to produce an order quantity less than this field on one machine and more than this field on another machine.</span></span>  
+10. <span data-ttu-id="fd18a-129">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-129">Click Save.</span></span>
 
-## <a name="create-sales-order-and-trigger-kanban-chain"></a>Stofna sölupöntun og virkja kanban keðju
-1. Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir
-2. Smellið á „Nýtt“.
-3. Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.
-    * Veljið viðskiptavinalykill US-003 Forest Wholesales.  
-4. Smellið á „Í lagi“.
-5. Sláið inn „L0001“ á svæðinu „Vörunúmer“.
-    * L0001 er varan sem kanban-regla er stofnuð fyrir.  
-6. Stillið magn á „27“.
-    * Þar sem 27 er hærri en lágmarksmagnið 25 á kanban-reglu, mun þetta virkja tilvikskanban.  
-7. Ritað er ‚1‘ í reitnum Svæði.
-8. Sláðu inn eða veldu gildi í reitnum Vöruhús.
-    * Velja vöruhús 13.  
-9. Smellið á „Vista“.
+## <a name="create-sales-order-and-trigger-kanban-chain"></a><span data-ttu-id="fd18a-130">Stofna sölupöntun og virkja kanban keðju</span><span class="sxs-lookup"><span data-stu-id="fd18a-130">Create sales order and trigger kanban chain</span></span>
+1. <span data-ttu-id="fd18a-131">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="fd18a-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="fd18a-132">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-132">Click New.</span></span>
+3. <span data-ttu-id="fd18a-133">Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="fd18a-133">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="fd18a-134">Veljið viðskiptavinalykill US-003 Forest Wholesales.</span><span class="sxs-lookup"><span data-stu-id="fd18a-134">Select Customer account US-003, Forest Wholesales.</span></span>  
+4. <span data-ttu-id="fd18a-135">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-135">Click OK.</span></span>
+5. <span data-ttu-id="fd18a-136">Sláið inn „L0001“ á svæðinu „Vörunúmer“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-136">In the Item number field, type 'L0001'.</span></span>
+    * <span data-ttu-id="fd18a-137">L0001 er varan sem kanban-regla er stofnuð fyrir.</span><span class="sxs-lookup"><span data-stu-id="fd18a-137">L0001 is the item for which you created the kanban rule.</span></span>  
+6. <span data-ttu-id="fd18a-138">Stillið magn á „27“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-138">Set Quantity to '27'.</span></span>
+    * <span data-ttu-id="fd18a-139">Þar sem 27 er hærri en lágmarksmagnið 25 á kanban-reglu, mun þetta virkja tilvikskanban.</span><span class="sxs-lookup"><span data-stu-id="fd18a-139">Because 27 is higher than the minimum quantity of 25 on the kanban rule, this will trigger an event kanban.</span></span>  
+7. <span data-ttu-id="fd18a-140">Ritað er ‚1‘ í reitnum Svæði.</span><span class="sxs-lookup"><span data-stu-id="fd18a-140">In the Site field, type '1'.</span></span>
+8. <span data-ttu-id="fd18a-141">Sláðu inn eða veldu gildi í reitnum Vöruhús.</span><span class="sxs-lookup"><span data-stu-id="fd18a-141">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="fd18a-142">Velja vöruhús 13.</span><span class="sxs-lookup"><span data-stu-id="fd18a-142">Select warehouse 13.</span></span>  
+9. <span data-ttu-id="fd18a-143">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fd18a-143">Click Save.</span></span>
 
-## <a name="view-the-kanban-generated-by-the-kanban-rule"></a>Skoða kanban sem var myndað af kanban-reglu
-1. Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Útvíkkar kanban-hlutann.
-    * Athugið að kanban fyrir 27 var stofnað til að vinna verkþátt á grunni stofnaðrar kanban-reglu.  
-    * Þetta er síðasta skrefið  
+## <a name="view-the-kanban-generated-by-the-kanban-rule"></a><span data-ttu-id="fd18a-144">Skoða kanban sem var myndað af kanban-reglu</span><span class="sxs-lookup"><span data-stu-id="fd18a-144">View the kanban generated by the kanban rule</span></span>
+1. <span data-ttu-id="fd18a-145">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="fd18a-145">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="fd18a-146">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="fd18a-146">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="fd18a-147">Útvíkkar kanban-hlutann.</span><span class="sxs-lookup"><span data-stu-id="fd18a-147">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="fd18a-148">Athugið að kanban fyrir 27 var stofnað til að vinna verkþátt á grunni stofnaðrar kanban-reglu.</span><span class="sxs-lookup"><span data-stu-id="fd18a-148">Notice that a kanban for 27 was created to process the  activity based on the created kanban rule.</span></span>  
+    * <span data-ttu-id="fd18a-149">Þetta er síðasta skrefið</span><span class="sxs-lookup"><span data-stu-id="fd18a-149">This is the last step.</span></span>  
 
 

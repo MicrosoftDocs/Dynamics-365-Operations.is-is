@@ -16,56 +16,56 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7aac1af99f2b5a7b1a123a8e3d3d6ddcaaa39b8d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 52970c54849e91c5052ad61ffc6458e646cbb262
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Setja upp viðskiptavini bankareikninga viðskiptavina fyrir ISO20022-beingreiðslur
+# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="888cb-103">Setja upp viðskiptavini bankareikninga viðskiptavina fyrir ISO20022-beingreiðslur</span><span class="sxs-lookup"><span data-stu-id="888cb-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta verk fer í gegnum uppsetningu á bankareikning viðskiptavinar og í umboð viðskiptavinar fyrir beingreiðsla sem eru nauðsynlegar til að mynda greiðsluskrá fyrir viðskiptavin eins og ISO20022-beingreiðslu. Eftir því hvaða greiðslusnið viðskiptavar er sett upp gæti verið krafist viðbótarupplýsinga, sem ekki er fjallað um í þessu ferli, vegna viðskiptavinar eða bankareikningur viðskiptavinar. 
+<span data-ttu-id="888cb-104">Þetta verk fer í gegnum uppsetningu á bankareikning viðskiptavinar og í umboð viðskiptavinar fyrir beingreiðsla sem eru nauðsynlegar til að mynda greiðsluskrá fyrir viðskiptavin eins og ISO20022-beingreiðslu.</span><span class="sxs-lookup"><span data-stu-id="888cb-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="888cb-105">Eftir því hvaða greiðslusnið viðskiptavar er sett upp gæti verið krafist viðbótarupplýsinga, sem ekki er fjallað um í þessu ferli, vegna viðskiptavinar eða bankareikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="888cb-105">Depending on the customer payment formats tha are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
 
-Þetta verkefni var stofnuð með fyrirtækis sýnigögnum DEMF með aðalaðsetur lögaðila í Þýskalandi.
-
-
-
-Þetta er fjórða af fimm ferlum sem lýsa greiðsluferlinu viðskiptavinar með grunnstillingar fyrir rafræna skýrslugerð.
+<span data-ttu-id="888cb-106">Þetta verkefni var stofnuð með fyrirtækis sýnigögnum DEMF með aðalaðsetur lögaðila í Þýskalandi.</span><span class="sxs-lookup"><span data-stu-id="888cb-106">This task was created using the demo data company DEMF with a legal entity primary address in Germany.</span></span>
 
 
-## <a name="set-up-a-customer-bank-account"></a>Uppsetning bankareikningur viðskiptavinar
-1. Farið í Viðskiptakröfur > Viðskiptavinir > Allir viðskiptavinir.
-2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía svæðið með gildið 'DE-010'.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í aðgerðasvæðinu er smellt á Viðskiptavinur.
-5. Smellt er á bankareikninga.
-6. Smellið á „Nýtt“.
-7. Í reitinn Bankareikningar skal slá inn gildi.
-8. Í reitinn Heiti skal slá inn gildi.
-    * Til dæmis má færa inn 'EUR bank'.  
-9. Færa inn eða veljið gildi í svæðinu bankaflokkur.
-10. Í reitinn IBAN skal slá inn gildi.
-    * Til dæmis færðu inn 'DE36200400000628808808'.  
-11. Í svæðinu SWIFT-kóði færðu inn gildi.
-    * Til dæmis færðu inn 'COBADEFFXXX'.  Vinsamlegast Athugið að SWIFT\BIC er ekki krafist fyrir margar greiðslusnið hins vegar er mælt með að slíkt sé skráð fyrir bankareikning.  
-12. Smellið á „Vista“.
-13. Lokið síðunni.
-14. Smellið á „Breyta“.
-15. Útvíkka hlutann sjálfgildi Greiðslu.
-16. Færa inn eða veljið gildi í svæðinu bankareikning.
 
-## <a name="add-a-direct-debit-mandate"></a>Bæta við umboði fyrir beingreiðslu
-1. Útvíkka hlutann umboð fyrir beingreiðsla.
-2. Smelltu á Bæta við.
-3. Sláið inn eða veldu gildi í reitnum Bankareikningur Lánardrottins.
-    * Veljið til dæmis DEMF OPER.  
-4. Færðu inn dagsetningu í svæðinu dagsetning undirskriftar
-5. Smellt er á Já til að staðfesta uppfærslu dagsetningar .
-6. Sláðu inn eða veldu gildi reitnum Í staðsetning undirskriftar.
-7. Í Áætlað fjölda greiðslur svæðinu, færið inn tölu.
-8. Smellið á „Í lagi“.
-9. Smellið á „Vista“.
+<span data-ttu-id="888cb-107">Þetta er fjórða af fimm ferlum sem lýsa greiðsluferlinu viðskiptavinar með grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="888cb-107">This is the fourth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+
+
+## <a name="set-up-a-customer-bank-account"></a><span data-ttu-id="888cb-108">Uppsetning bankareikningur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="888cb-108">Set up a customer bank account</span></span>
+1. <span data-ttu-id="888cb-109">Farið í Viðskiptakröfur > Viðskiptavinir > Allir viðskiptavinir.</span><span class="sxs-lookup"><span data-stu-id="888cb-109">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="888cb-110">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="888cb-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="888cb-111">Til dæmis, sía svæðið með gildið 'DE-010'.</span><span class="sxs-lookup"><span data-stu-id="888cb-111">For example, filter on the Account field with a value of 'DE-010 '.</span></span>
+3. <span data-ttu-id="888cb-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="888cb-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="888cb-113">Í aðgerðasvæðinu er smellt á Viðskiptavinur.</span><span class="sxs-lookup"><span data-stu-id="888cb-113">On the Action Pane, click Customer.</span></span>
+5. <span data-ttu-id="888cb-114">Smellt er á bankareikninga.</span><span class="sxs-lookup"><span data-stu-id="888cb-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="888cb-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="888cb-115">Click New.</span></span>
+7. <span data-ttu-id="888cb-116">Í reitinn Bankareikningar skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="888cb-116">In the Bank account field, type a value.</span></span>
+8. <span data-ttu-id="888cb-117">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="888cb-117">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="888cb-118">Til dæmis má færa inn 'EUR bank'.</span><span class="sxs-lookup"><span data-stu-id="888cb-118">For example, enter 'EUR bank'.</span></span>  
+9. <span data-ttu-id="888cb-119">Færa inn eða veljið gildi í svæðinu bankaflokkur.</span><span class="sxs-lookup"><span data-stu-id="888cb-119">In the Bank groups field, enter or select a value.</span></span>
+10. <span data-ttu-id="888cb-120">Í reitinn IBAN skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="888cb-120">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="888cb-121">Til dæmis færðu inn 'DE36200400000628808808'.</span><span class="sxs-lookup"><span data-stu-id="888cb-121">For example, enter 'DE36200400000628808808'.</span></span>  
+11. <span data-ttu-id="888cb-122">Í svæðinu SWIFT-kóði færðu inn gildi.</span><span class="sxs-lookup"><span data-stu-id="888cb-122">In the SWIFT code field, type a value.</span></span>
+    * <span data-ttu-id="888cb-123">Til dæmis færðu inn 'COBADEFFXXX'.</span><span class="sxs-lookup"><span data-stu-id="888cb-123">For example: Enter 'COBADEFFXXX'.</span></span>  <span data-ttu-id="888cb-124">Vinsamlegast Athugið að SWIFT\BIC er ekki krafist fyrir margar greiðslusnið hins vegar er mælt með að slíkt sé skráð fyrir bankareikning.</span><span class="sxs-lookup"><span data-stu-id="888cb-124">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
+12. <span data-ttu-id="888cb-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="888cb-125">Click Save.</span></span>
+13. <span data-ttu-id="888cb-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="888cb-126">Close the page.</span></span>
+14. <span data-ttu-id="888cb-127">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="888cb-127">Click Edit.</span></span>
+15. <span data-ttu-id="888cb-128">Útvíkka hlutann sjálfgildi Greiðslu.</span><span class="sxs-lookup"><span data-stu-id="888cb-128">Expand the Payment defaults section.</span></span>
+16. <span data-ttu-id="888cb-129">Færa inn eða veljið gildi í svæðinu bankareikning.</span><span class="sxs-lookup"><span data-stu-id="888cb-129">In the Bank account field, enter or select a value.</span></span>
+
+## <a name="add-a-direct-debit-mandate"></a><span data-ttu-id="888cb-130">Bæta við umboði fyrir beingreiðslu</span><span class="sxs-lookup"><span data-stu-id="888cb-130">Add a direct debit mandate</span></span>
+1. <span data-ttu-id="888cb-131">Útvíkka hlutann umboð fyrir beingreiðsla.</span><span class="sxs-lookup"><span data-stu-id="888cb-131">Expand the Direct debit mandates section.</span></span>
+2. <span data-ttu-id="888cb-132">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="888cb-132">Click Add.</span></span>
+3. <span data-ttu-id="888cb-133">Sláið inn eða veldu gildi í reitnum Bankareikningur Lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="888cb-133">In the Creditor bank account field, enter or select a value.</span></span>
+    * <span data-ttu-id="888cb-134">Veljið til dæmis DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="888cb-134">For example, select DEMF OPER.</span></span>  
+4. <span data-ttu-id="888cb-135">Færðu inn dagsetningu í svæðinu dagsetning undirskriftar</span><span class="sxs-lookup"><span data-stu-id="888cb-135">In the Signature date field, enter a date.</span></span>
+5. <span data-ttu-id="888cb-136">Smellt er á Já til að staðfesta uppfærslu dagsetningar .</span><span class="sxs-lookup"><span data-stu-id="888cb-136">Click Yes to confirm the date update.</span></span>
+6. <span data-ttu-id="888cb-137">Sláðu inn eða veldu gildi reitnum Í staðsetning undirskriftar.</span><span class="sxs-lookup"><span data-stu-id="888cb-137">In the Signature location field, enter or select a value.</span></span>
+7. <span data-ttu-id="888cb-138">Í Áætlað fjölda greiðslur svæðinu, færið inn tölu.</span><span class="sxs-lookup"><span data-stu-id="888cb-138">In the Expected number of payments field, enter a number.</span></span>
+8. <span data-ttu-id="888cb-139">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="888cb-139">Click OK.</span></span>
+9. <span data-ttu-id="888cb-140">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="888cb-140">Click Save.</span></span>
 
 

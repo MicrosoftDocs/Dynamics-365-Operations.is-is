@@ -18,131 +18,131 @@ ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6019634c47bd97fb16ea8aaf029ea176f095b8b6
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace"></a>Fartækjavinnusvæði kostnaðarstýringar
+# <a name="cost-controlling-mobile-workspace"></a><span data-ttu-id="71a43-104">Fartækjavinnusvæði kostnaðarstýringar</span><span class="sxs-lookup"><span data-stu-id="71a43-104">Cost controlling mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
+<span data-ttu-id="71a43-105">Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**.</span><span class="sxs-lookup"><span data-stu-id="71a43-105">This topic provides information about the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="71a43-106">Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="71a43-106">This workspace lets cost center managers view information about cost center performance anytime and anywhere.</span></span>
 
-Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="71a43-107">Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="71a43-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Yfirlit
-Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöðu stakra kostnaðareininga.
+## <a name="overview"></a><span data-ttu-id="71a43-108">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="71a43-108">Overview</span></span>
+<span data-ttu-id="71a43-109">Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar.</span><span class="sxs-lookup"><span data-stu-id="71a43-109">The **Cost controlling** mobile workspace provides an instant view of the current performance of cost centers by comparing actual costs against the budgeted costs.</span></span> <span data-ttu-id="71a43-110">Hægt er að kafa niður í stöðu stakra kostnaðareininga.</span><span class="sxs-lookup"><span data-stu-id="71a43-110">You can drill down to the status of individual cost elements.</span></span>
 
-Til dæmis er starfsmaður fær boð um að koma á erlendar ráðstefna, en fyrirtæki verða að borga öll ferðakostnaður. Starfsmaðurinn spyr yfirmann sinn hvort að hann geti farið á ráðstefnuna. Stjórnandinn opnar fartækjavinnusvæði **kostnaðarstýringar** í farsímanum sínum til að sjá hvort að til sé fjárhagsáætlun fyrir því að starfsmaðurinn fari á ráðstefnuna.
+<span data-ttu-id="71a43-111">Til dæmis er starfsmaður fær boð um að koma á erlendar ráðstefna, en fyrirtæki verða að borga öll ferðakostnaður.</span><span class="sxs-lookup"><span data-stu-id="71a43-111">For example, an employee receives an invitation to an international conference, but the organization must cover all the travel expenses.</span></span> <span data-ttu-id="71a43-112">Starfsmaðurinn spyr yfirmann sinn hvort að hann geti farið á ráðstefnuna.</span><span class="sxs-lookup"><span data-stu-id="71a43-112">The employee asks his manager whether he can attend the conference.</span></span> <span data-ttu-id="71a43-113">Stjórnandinn opnar fartækjavinnusvæði **kostnaðarstýringar** í farsímanum sínum til að sjá hvort að til sé fjárhagsáætlun fyrir því að starfsmaðurinn fari á ráðstefnuna.</span><span class="sxs-lookup"><span data-stu-id="71a43-113">The manager opens the **Cost controlling** mobile workspace on her mobile device to see whether she has budget for the employee to attend the conference.</span></span>
 
-### <a name="data-security"></a>Öryggi gagna
-Gögnin í fartækjavinnusvæði **Kostnaðarstýring** eru tryggð með notandaskilríkjum. Stjórnendur kostnaðarstaðar hafa aðeins leyfi til að skoða gögn fyrir eigin kostnaðarstað. Aðgangsstigs örygginu er stjórnað innan einingarinnar **Kostnaðarbókhald**.
+### <a name="data-security"></a><span data-ttu-id="71a43-114">Öryggi gagna</span><span class="sxs-lookup"><span data-stu-id="71a43-114">Data security</span></span>
+<span data-ttu-id="71a43-115">Gögnin í fartækjavinnusvæði **Kostnaðarstýring** eru tryggð með notandaskilríkjum.</span><span class="sxs-lookup"><span data-stu-id="71a43-115">The data in the **Cost controlling** mobile workspace is secured through user credentials.</span></span> <span data-ttu-id="71a43-116">Stjórnendur kostnaðarstaðar hafa aðeins leyfi til að skoða gögn fyrir eigin kostnaðarstað.</span><span class="sxs-lookup"><span data-stu-id="71a43-116">Cost center managers are allowed to see data only for their own cost center.</span></span> <span data-ttu-id="71a43-117">Aðgangsstigs örygginu er stjórnað innan einingarinnar **Kostnaðarbókhald**.</span><span class="sxs-lookup"><span data-stu-id="71a43-117">The access-level security is managed in the **Cost accounting** module.</span></span>
 
-Kostnaðarbókarar skilgreina grunnstillingar fartækjavinnusvæðis **Kostnaðarstýringar** í einingunni **Kostnaðarbókhald**. Þegar vinnusvæðið hefur verið sett í fartækjaforritið er það tiltækt í forritinu. Þannig geta allir stjórnendur kostnaðarstaða í fyrirtækinu skoðað gögn á sama sniði.
+<span data-ttu-id="71a43-118">Kostnaðarbókarar skilgreina grunnstillingar fartækjavinnusvæðis **Kostnaðarstýringar** í einingunni **Kostnaðarbókhald**.</span><span class="sxs-lookup"><span data-stu-id="71a43-118">Cost accountants define the configuration of the **Cost controlling** mobile workspace in the **Cost accounting** module.</span></span> <span data-ttu-id="71a43-119">Þegar vinnusvæðið hefur verið sett í fartækjaforritið er það tiltækt í forritinu.</span><span class="sxs-lookup"><span data-stu-id="71a43-119">After the workspace is published to the mobile app, it's available in the app.</span></span> <span data-ttu-id="71a43-120">Þannig geta allir stjórnendur kostnaðarstaða í fyrirtækinu skoðað gögn á sama sniði.</span><span class="sxs-lookup"><span data-stu-id="71a43-120">Therefore, all cost center managers in the organization can view data in the same format.</span></span>
 
-### <a name="actions-views-and-links"></a>Aðgerðir, yfirlit og tenglar
-Fartækjavinnusvæðið **Kostnaðarstýring** býður upp á eftirfarandi aðgerðir, yfirlit og tengla:
+### <a name="actions-views-and-links"></a><span data-ttu-id="71a43-121">Aðgerðir, yfirlit og tenglar</span><span class="sxs-lookup"><span data-stu-id="71a43-121">Actions, views, and links</span></span>
+<span data-ttu-id="71a43-122">Fartækjavinnusvæðið **Kostnaðarstýring** býður upp á eftirfarandi aðgerðir, yfirlit og tengla:</span><span class="sxs-lookup"><span data-stu-id="71a43-122">The **Cost controlling** mobile workspace provides the following actions, views, and links:</span></span>
 
--   **Aðgerðir:**
+-   <span data-ttu-id="71a43-123">**Aðgerðir:**</span><span class="sxs-lookup"><span data-stu-id="71a43-123">**Actions:**</span></span>
 
-    -   Notið **Velja skilgreiningu** til að velja útlit.
-    -   Notið **Valin Hluturinn kostnaður** til að velja kostnaðarstaði til að sía gögnin á.
+    -   <span data-ttu-id="71a43-124">Notið **Velja skilgreiningu** til að velja útlit.</span><span class="sxs-lookup"><span data-stu-id="71a43-124">Use **Select configuration** to select a layout.</span></span>
+    -   <span data-ttu-id="71a43-125">Notið **Valin Hluturinn kostnaður** til að velja kostnaðarstaði til að sía gögnin á.</span><span class="sxs-lookup"><span data-stu-id="71a43-125">Use **Select cost object** to select the cost centers to filter data on.</span></span>
     
         > [!NOTE]
-        > Þeir kostnaðarstaðir sem birtast á listanum eru háðir aðgangi sem er veittur í einingunni **Kostnaðarbókhald**.
+        > <span data-ttu-id="71a43-126">Þeir kostnaðarstaðir sem birtast á listanum eru háðir aðgangi sem er veittur í einingunni **Kostnaðarbókhald**.</span><span class="sxs-lookup"><span data-stu-id="71a43-126">The cost centers that appear in the list depend on the access that is granted in the **Cost accounting** module.</span></span>
 
--   **Yfirlit:** Á grundvelli aðgerða sem eru valdar og skilgreiningar í einingunni **Kostnaðarbókhald** er hægt að skoða eftirfarandi upplýsingar á spjöldunum:
+-   <span data-ttu-id="71a43-127">**Yfirlit:** Á grundvelli aðgerða sem eru valdar og skilgreiningar í einingunni **Kostnaðarbókhald** er hægt að skoða eftirfarandi upplýsingar á spjöldunum:</span><span class="sxs-lookup"><span data-stu-id="71a43-127">**Views:** Based on the actions that are selected and the configuration in the **Cost accounting** module, you can view the following information on the cards:</span></span>
 
-    -   Raunverulegt samanb. v. fjárhagsáætlun (núgildandi tímabil)
-    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (núgildandi tímabil)
-    -   Raunverulegt samanb. v. fjárhagsáætlun (fyrra tímabil)
-    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (fyrra tímabil)
-    -   Raunverulegt samanb. v. fjárhagsáætlun (það sem af er ári)
-    -   Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (á árinu)
+    -   <span data-ttu-id="71a43-128">Raunverulegt samanb. v. fjárhagsáætlun (núgildandi tímabil)</span><span class="sxs-lookup"><span data-stu-id="71a43-128">Actual vs budget (current period)</span></span>
+    -   <span data-ttu-id="71a43-129">Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (núgildandi tímabil)</span><span class="sxs-lookup"><span data-stu-id="71a43-129">Actual vs revised budget (current period)</span></span>
+    -   <span data-ttu-id="71a43-130">Raunverulegt samanb. v. fjárhagsáætlun (fyrra tímabil)</span><span class="sxs-lookup"><span data-stu-id="71a43-130">Actual vs budget (previous period)</span></span>
+    -   <span data-ttu-id="71a43-131">Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (fyrra tímabil)</span><span class="sxs-lookup"><span data-stu-id="71a43-131">Actual vs revised budget (previous period)</span></span>
+    -   <span data-ttu-id="71a43-132">Raunverulegt samanb. v. fjárhagsáætlun (það sem af er ári)</span><span class="sxs-lookup"><span data-stu-id="71a43-132">Actual vs budget (year to date)</span></span>
+    -   <span data-ttu-id="71a43-133">Raunverulegt samanb. v. endurskoðaða fjárhagsáætlun (á árinu)</span><span class="sxs-lookup"><span data-stu-id="71a43-133">Actual vs revised budget (year to date)</span></span>
 
-    Eftirfarandi upphæðir eru sýndar á hverju spjaldi: Raunverulegar, fjárhagsáætlun, frávik og frávik %.
+    <span data-ttu-id="71a43-134">Eftirfarandi upphæðir eru sýndar á hverju spjaldi: Raunverulegar, fjárhagsáætlun, frávik og frávik %.</span><span class="sxs-lookup"><span data-stu-id="71a43-134">The following amounts are shown on every card: Actual, Budget, Variance, and Variance %.</span></span>
 
--   **Tenglar:**
+-   <span data-ttu-id="71a43-135">**Tenglar:**</span><span class="sxs-lookup"><span data-stu-id="71a43-135">**Links:**</span></span>
 
-    -   Sundurliðun fyrir núverandi tímabil
-    -   Sundurliðun fyrir fyrra tímabil
-    -   Sundurliðun fyrir það sem af er árinu
+    -   <span data-ttu-id="71a43-136">Sundurliðun fyrir núverandi tímabil</span><span class="sxs-lookup"><span data-stu-id="71a43-136">Details for current period</span></span>
+    -   <span data-ttu-id="71a43-137">Sundurliðun fyrir fyrra tímabil</span><span class="sxs-lookup"><span data-stu-id="71a43-137">Details for previous period</span></span>
+    -   <span data-ttu-id="71a43-138">Sundurliðun fyrir það sem af er árinu</span><span class="sxs-lookup"><span data-stu-id="71a43-138">Details for year to date</span></span>
 
-    Þegar tengill er valinn, spjald er sýndur fyrir hvern kostnaðarlið. Eftirfarandi upphæðir eru sýndar á spjöldunum: Raunverulegar, fjárhagsáætlun, Fjárhagsáætlunar Frávik, Fjárhagsáætlunar Frávik %, Endurskoðuð fjárhagsáætlun, Frávik endurskoðaðrar fjárhagsáætlunar og Frávik endurskoðaðrar fjárhagsáætlunar %.
+    <span data-ttu-id="71a43-139">Þegar tengill er valinn, spjald er sýndur fyrir hvern kostnaðarlið.</span><span class="sxs-lookup"><span data-stu-id="71a43-139">When you select a link, a card is shown for each cost element.</span></span> <span data-ttu-id="71a43-140">Eftirfarandi upphæðir eru sýndar á spjöldunum: Raunverulegar, fjárhagsáætlun, Fjárhagsáætlunar Frávik, Fjárhagsáætlunar Frávik %, Endurskoðuð fjárhagsáætlun, Frávik endurskoðaðrar fjárhagsáætlunar og Frávik endurskoðaðrar fjárhagsáætlunar %.</span><span class="sxs-lookup"><span data-stu-id="71a43-140">The following amounts are shown on every card: Actual, Budget, Budget variance, Budget variance %, Revised budget, Revised budget variance, and Revised budget variance %.</span></span>
     
-    [![Spjald fyrir kostnaðareiningu ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    <span data-ttu-id="71a43-141">[![Spjald fyrir kostnaðareiningu ](./media/Cost-controlling.png)](./media/Cost-controlling.png)</span><span class="sxs-lookup"><span data-stu-id="71a43-141">[![Card for a cost element](./media/Cost-controlling.png)](./media/Cost-controlling.png)</span></span>
 
-## <a name="prerequisites"></a>Frumskilyrði
-Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
+## <a name="prerequisites"></a><span data-ttu-id="71a43-142">Frumskilyrði</span><span class="sxs-lookup"><span data-stu-id="71a43-142">Prerequisites</span></span>
+<span data-ttu-id="71a43-143">Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="71a43-143">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa, uppfærsla í júlí 2017
-Hafi Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa, uppfærsla í júlí 2017 verið innleidd í fyrirtækinu, verður kerfisstjóri að gefa út fartækjavinnusvæðið **Kostnaðarstýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="71a43-144">Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa, uppfærsla í júlí 2017</span><span class="sxs-lookup"><span data-stu-id="71a43-144">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span>
+<span data-ttu-id="71a43-145">Hafi Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa, uppfærsla í júlí 2017 verið innleidd í fyrirtækinu, verður kerfisstjóri að gefa út fartækjavinnusvæðið **Kostnaðarstýring**.</span><span class="sxs-lookup"><span data-stu-id="71a43-145">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="71a43-146">Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="71a43-146">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar
-Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur.
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="71a43-147">Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar</span><span class="sxs-lookup"><span data-stu-id="71a43-147">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="71a43-148">Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur.</span><span class="sxs-lookup"><span data-stu-id="71a43-148">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Skilyrði</th>
-<th>Hlutverk</th>
-<th>lýsing</th>
+<th><span data-ttu-id="71a43-149">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="71a43-149">Prerequisite</span></span></th>
+<th><span data-ttu-id="71a43-150">Hlutverk</span><span class="sxs-lookup"><span data-stu-id="71a43-150">Role</span></span></th>
+<th><span data-ttu-id="71a43-151">lýsing</span><span class="sxs-lookup"><span data-stu-id="71a43-151">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Innleiða KB 4013633.</td>
-<td>Kerfisstjóri</td>
+<td><span data-ttu-id="71a43-152">Innleiða KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="71a43-152">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="71a43-153">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="71a43-153">System administrator</span></span></td>
 
-<td>KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Kostnaðarstýring</strong>. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.
+<td><span data-ttu-id="71a43-154">KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Kostnaðarstýring</strong>.</span><span class="sxs-lookup"><span data-stu-id="71a43-154">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Cost controlling</strong> mobile workspace.</span></span> <span data-ttu-id="71a43-155">Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.</span><span class="sxs-lookup"><span data-stu-id="71a43-155">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Sæktu lýsigagnabráðabótina á Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Notaðu virkjanlega pakkann</a>.</li>
+<li><span data-ttu-id="71a43-156"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Sæktu lýsigagnabráðabótina á Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="71a43-156"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="71a43-157"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</span><span class="sxs-lookup"><span data-stu-id="71a43-157"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="71a43-158"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</span><span class="sxs-lookup"><span data-stu-id="71a43-158"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="71a43-159"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Notaðu virkjanlega pakkann</a>.</span><span class="sxs-lookup"><span data-stu-id="71a43-159"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td>Gefðu út fartækjavinnusvæðið <strong>Kostnaðarstýring</strong>.</td>
-<td>Kerfisstjóri</td>
-<td>Sjáið <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</td>
+<td><span data-ttu-id="71a43-160">Gefðu út fartækjavinnusvæðið <strong>Kostnaðarstýring</strong>.</span><span class="sxs-lookup"><span data-stu-id="71a43-160">Publish the <strong>Cost controlling</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="71a43-161">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="71a43-161">System administrator</span></span></td>
+<td><span data-ttu-id="71a43-162">Sjáið <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</span><span class="sxs-lookup"><span data-stu-id="71a43-162">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="71a43-163">Sæktu og settu upp fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="71a43-163">Download and install the mobile app</span></span>
+<span data-ttu-id="71a43-164">Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="71a43-164">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
--   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="71a43-165">Fyrir Android síma</span><span class="sxs-lookup"><span data-stu-id="71a43-165">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="71a43-166">Fyrir iPhone síma</span><span class="sxs-lookup"><span data-stu-id="71a43-166">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Innskráning í fartækjaforritið
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="71a43-167">Innskráning í fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="71a43-167">Sign in to the mobile app</span></span>
 
-1.  Ræstu forritið í fartækinu þínu.
-2.  Færðu inn vefslóð þína fyrir Dynamics 365.
-3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
-4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
+1.  <span data-ttu-id="71a43-168">Ræstu forritið í fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="71a43-168">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="71a43-169">Færðu inn vefslóð þína fyrir Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="71a43-169">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="71a43-170">Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt.</span><span class="sxs-lookup"><span data-stu-id="71a43-170">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="71a43-171">Færðu inn skilríki</span><span class="sxs-lookup"><span data-stu-id="71a43-171">Enter your credentials.</span></span>
+4.  <span data-ttu-id="71a43-172">Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="71a43-172">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="71a43-173">Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="71a43-173">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="71a43-174">[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="71a43-174">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Skoða árangur þinn kostnaðarstaður með því að nota Kostnaðarstýra fartækja vinnusvæði
+## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a><span data-ttu-id="71a43-175">Skoða árangur þinn kostnaðarstaður með því að nota Kostnaðarstýra fartækja vinnusvæði</span><span class="sxs-lookup"><span data-stu-id="71a43-175">View the performance of your cost center by using the Cost controlling mobile workspace</span></span>
 
-1.  Í farsímanum velurðu vinnusvæðið **Kostnaðarstýring**.
-2.  Veldu **Stjórnborð kostnaðarhlutar**.
-3.  Velja **Aðgerðir**.
-4.  Smellið á **Velja grunnstillingu** til að velja útlit kostnaðarstýringar.
-5.  Velja **Ekkert**.
-6.  Velja **Aðgerðir**.
-7.  Velja **Velja kostnaðarhlut** til að velja kostnaðarstað sem þú hefur fengið aðgang að.
-8.  Velja **Ekkert**.
-9.  Skoða heildarafkomu kostnaðarstaðar.
-10. Veljið **Upplýsingar fyrir núverandi tímabil** tengil.
-11. Skoða vinnsluhraða stakra kostnaðareininga.
-12. Einnig má leita að sérstökum kostnaðareiningum.
+1.  <span data-ttu-id="71a43-176">Í farsímanum velurðu vinnusvæðið **Kostnaðarstýring**.</span><span class="sxs-lookup"><span data-stu-id="71a43-176">On your mobile device, select the **Cost controlling** workspace.</span></span>
+2.  <span data-ttu-id="71a43-177">Veldu **Stjórnborð kostnaðarhlutar**.</span><span class="sxs-lookup"><span data-stu-id="71a43-177">Select **Cost object controlling**.</span></span>
+3.  <span data-ttu-id="71a43-178">Velja **Aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="71a43-178">Select **Actions**.</span></span>
+4.  <span data-ttu-id="71a43-179">Smellið á **Velja grunnstillingu** til að velja útlit kostnaðarstýringar.</span><span class="sxs-lookup"><span data-stu-id="71a43-179">Select **Select configuration** to select a cost controlling layout.</span></span>
+5.  <span data-ttu-id="71a43-180">Velja **Ekkert**.</span><span class="sxs-lookup"><span data-stu-id="71a43-180">Select **Done**.</span></span>
+6.  <span data-ttu-id="71a43-181">Velja **Aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="71a43-181">Select **Actions**.</span></span>
+7.  <span data-ttu-id="71a43-182">Velja **Velja kostnaðarhlut** til að velja kostnaðarstað sem þú hefur fengið aðgang að.</span><span class="sxs-lookup"><span data-stu-id="71a43-182">Select **Select cost object** to select the cost centers that you've been granted access to.</span></span>
+8.  <span data-ttu-id="71a43-183">Velja **Ekkert**.</span><span class="sxs-lookup"><span data-stu-id="71a43-183">Select **Done**.</span></span>
+9.  <span data-ttu-id="71a43-184">Skoða heildarafkomu kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="71a43-184">View the overall performance of your cost center.</span></span>
+10. <span data-ttu-id="71a43-185">Veljið **Upplýsingar fyrir núverandi tímabil** tengil.</span><span class="sxs-lookup"><span data-stu-id="71a43-185">Select the **Details for current period** link.</span></span>
+11. <span data-ttu-id="71a43-186">Skoða vinnsluhraða stakra kostnaðareininga.</span><span class="sxs-lookup"><span data-stu-id="71a43-186">View the performance of individual cost elements.</span></span>
+12. <span data-ttu-id="71a43-187">Einnig má leita að sérstökum kostnaðareiningum.</span><span class="sxs-lookup"><span data-stu-id="71a43-187">You can also search for specific cost elements.</span></span>
 
 

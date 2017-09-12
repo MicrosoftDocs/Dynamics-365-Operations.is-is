@@ -22,181 +22,181 @@ ms.contentlocale: is-is
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð (ER)
+# <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="abbcc-103">Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð (ER)</span><span class="sxs-lookup"><span data-stu-id="abbcc-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER). Þetta ferli útskýrir hvernig sérsniðin útgáfu sniðs er hægt að mynda á grundvelli snið móttekið frá veitandi skilgreiningar (CP). Það útskýrir einnig hvernig eigi að taka upp nýja grunnútgáfu af því sniði.
+<span data-ttu-id="abbcc-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).</span><span class="sxs-lookup"><span data-stu-id="abbcc-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="abbcc-105">Þetta ferli útskýrir hvernig sérsniðin útgáfu sniðs er hægt að mynda á grundvelli snið móttekið frá veitandi skilgreiningar (CP).</span><span class="sxs-lookup"><span data-stu-id="abbcc-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="abbcc-106">Það útskýrir einnig hvernig eigi að taka upp nýja grunnútgáfu af því sniði.</span><span class="sxs-lookup"><span data-stu-id="abbcc-106">It also explains how to adopt a new, base version of that format.</span></span>
 
 
 
-Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum "Stofna skilgreiningarveitu og merkja hana sem virka" og "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur". Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.
+<span data-ttu-id="abbcc-107">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum "Stofna skilgreiningarveitu og merkja hana sem virka" og "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur".</span><span class="sxs-lookup"><span data-stu-id="abbcc-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="abbcc-108">Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-108">These steps can be performed in the GBSI company.</span></span>
 
 
-## <a name="select-format-configuration-for-customization"></a>Veljið skilgreiningu sniðs fyrir sérsnið
-1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Í þessu dæmi mun sýnifyrirtæki Litware, Inc. (http://www.litware.com) þjóna hlutverki skilgreiningarveitu sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tilteknu landi.    Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði. Proseware, Inc. motar snið í sumum svæðum þess lands.  
-2. Smelltu á Grunnstillingar skýrslugerðar
-3. Smellt er á Sýna síur.
-4. Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"
-    * BACS (UK Upphugsað)  
-    * Valið skilgreiningarsnið (UK sérsniðið upphugsað) BACS, er í eigu Litware, Inc.  
-5. Smellt er á Sýna síur.
-6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Útgáfa sniðs með stöðuna Lokið mun verða notað af Proseware, Inc. fyrir sérstillingu.  
+## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="abbcc-109">Veljið skilgreiningu sniðs fyrir sérsnið</span><span class="sxs-lookup"><span data-stu-id="abbcc-109">Select format configuration for customization</span></span>
+1. <span data-ttu-id="abbcc-110">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="abbcc-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="abbcc-111">Í þessu dæmi mun sýnifyrirtæki Litware, Inc. (http://www.litware.com) þjóna hlutverki skilgreiningarveitu sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tilteknu landi.</span><span class="sxs-lookup"><span data-stu-id="abbcc-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="abbcc-112">Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði.</span><span class="sxs-lookup"><span data-stu-id="abbcc-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="abbcc-113">Proseware, Inc. motar snið í sumum svæðum þess lands.</span><span class="sxs-lookup"><span data-stu-id="abbcc-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
+2. <span data-ttu-id="abbcc-114">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="abbcc-114">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="abbcc-115">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="abbcc-115">Click Show filters.</span></span>
+4. <span data-ttu-id="abbcc-116">Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"</span><span class="sxs-lookup"><span data-stu-id="abbcc-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="abbcc-117">BACS (UK Upphugsað)</span><span class="sxs-lookup"><span data-stu-id="abbcc-117">BACS (UK fictitious)</span></span>  
+    * <span data-ttu-id="abbcc-118">Valið skilgreiningarsnið (UK sérsniðið upphugsað) BACS, er í eigu Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="abbcc-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
+5. <span data-ttu-id="abbcc-119">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="abbcc-119">Click Show filters.</span></span>
+6. <span data-ttu-id="abbcc-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="abbcc-121">Útgáfa sniðs með stöðuna Lokið mun verða notað af Proseware, Inc. fyrir sérstillingu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
 
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Stofna nýja skilgreiningu fyrir sérsniðið snið rafrænna skjala
-    * Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra. Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur. Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.  Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.  
-1. Lokið síðunni.
-2. Veljið Proseware, Inc. til að gera hana að virkri veitu.
-3. Smellt á Stilla sem virkt.
-4. Smelltu á Grunnstillingar skýrslugerðar
-5. Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.
-6. Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.
-    * Velja skilgreiningu BACS (Bretland upphugsað) úr Litware, Inc.     Proseware, Inc. mun nota útgáfu 1.1 sem grunn fyrir sérsniðnu útgáfuna.  
-7. Smellt er á stofna skilgreiningu til að opna fellilistanum.
-    * Þetta gerir mögulegt að stofna nýja skilgreiningu fyrir sérsniðna greiðslusnið.  
-8. Í svæðinu Nýtt, veljið 'Leiða af nafni: BACS (UK upphugsað), Litware, Inc'.
-    * Veljið valkost afleiddur til að staðfesta notkun BACS (UK upphugsað) sem grunn til að stofna sérsniðna útgáfu.  
-9. Í reitinn Heiti skal slá inn 'BACS (UK upphugsað sérsniðið)'.
-    * BACS (Bretland sérsniðið og upphugsað)  
-10. Færið inn 'BACS greiðsla lánardrottins (UK sérsniðið upphugsað)' í svæðinu Lýsingu.
-    * BACS greiðsla lánardrottins (UK sérsniðið upphugsað)  
-    * Virkt skilgreiningarveitu (Proseware, Inc) er sjálfkrafa færð inn hér. Þessa veitu mun geta unnið með þessa skilgreiningu. Önnur veitur er hægt að nota þetta skilgreining, en geta ekki unnið með hana.  
-11. Smelltu á Stofna skilgreiningu.
+## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="abbcc-122">Stofna nýja skilgreiningu fyrir sérsniðið snið rafrænna skjala</span><span class="sxs-lookup"><span data-stu-id="abbcc-122">Create a new configuration for your custom format of electronic document</span></span>
+    * <span data-ttu-id="abbcc-123">Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra.</span><span class="sxs-lookup"><span data-stu-id="abbcc-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="abbcc-124">Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur.</span><span class="sxs-lookup"><span data-stu-id="abbcc-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="abbcc-125">Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.</span><span class="sxs-lookup"><span data-stu-id="abbcc-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="abbcc-126">Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.</span><span class="sxs-lookup"><span data-stu-id="abbcc-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
+1. <span data-ttu-id="abbcc-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-127">Close the page.</span></span>
+2. <span data-ttu-id="abbcc-128">Veljið Proseware, Inc. til að gera hana að virkri veitu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-128">Select Proseware, Inc. to make it an active provider.</span></span>
+3. <span data-ttu-id="abbcc-129">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="abbcc-129">Click Set active.</span></span>
+4. <span data-ttu-id="abbcc-130">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="abbcc-130">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="abbcc-131">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-131">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="abbcc-132">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="abbcc-133">Velja skilgreiningu BACS (Bretland upphugsað) úr Litware, Inc.     Proseware, Inc. mun nota útgáfu 1.1 sem grunn fyrir sérsniðnu útgáfuna.</span><span class="sxs-lookup"><span data-stu-id="abbcc-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
+7. <span data-ttu-id="abbcc-134">Smellt er á stofna skilgreiningu til að opna fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="abbcc-134">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="abbcc-135">Þetta gerir mögulegt að stofna nýja skilgreiningu fyrir sérsniðna greiðslusnið.</span><span class="sxs-lookup"><span data-stu-id="abbcc-135">This lets you create a new configuration for a custom payment format.</span></span>  
+8. <span data-ttu-id="abbcc-136">Í svæðinu Nýtt, veljið 'Leiða af nafni: BACS (UK upphugsað), Litware, Inc'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
+    * <span data-ttu-id="abbcc-137">Veljið valkost afleiddur til að staðfesta notkun BACS (UK upphugsað) sem grunn til að stofna sérsniðna útgáfu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
+9. <span data-ttu-id="abbcc-138">Í reitinn Heiti skal slá inn 'BACS (UK upphugsað sérsniðið)'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="abbcc-139">BACS (Bretland sérsniðið og upphugsað)</span><span class="sxs-lookup"><span data-stu-id="abbcc-139">BACS (UK fictitious custom)</span></span>  
+10. <span data-ttu-id="abbcc-140">Færið inn 'BACS greiðsla lánardrottins (UK sérsniðið upphugsað)' í svæðinu Lýsingu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="abbcc-141">BACS greiðsla lánardrottins (UK sérsniðið upphugsað)</span><span class="sxs-lookup"><span data-stu-id="abbcc-141">BACS vendor payment (UK fictitious custom)</span></span>  
+    * <span data-ttu-id="abbcc-142">Virkt skilgreiningarveitu (Proseware, Inc) er sjálfkrafa færð inn hér.</span><span class="sxs-lookup"><span data-stu-id="abbcc-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="abbcc-143">Þessa veitu mun geta unnið með þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="abbcc-144">Önnur veitur er hægt að nota þetta skilgreining, en geta ekki unnið með hana.</span><span class="sxs-lookup"><span data-stu-id="abbcc-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+11. <span data-ttu-id="abbcc-145">Smelltu á Stofna skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-145">Click Create configuration.</span></span>
 
-## <a name="customize-your-format-for-the-electronic-document"></a>Sérsníða snið fyrir rafrænt skjal
-1. Smellið á Hönnuður.
-2. Smellt er á Víkka/draga saman.
-3. Smellt er á Víkka/draga saman.
-4. Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.
-5. Smelltu á Bæta við til að opna felligluggann.
-6. Í trénu skal velja „XML/Element“.
-7. Í svæðið Heiti, færðu inn ‚IBAN-númer'.
-    * IBAN-númer  
-8. Smellið á „Í lagi“.
-9. Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.
-10. Smelltu á Bæta við til að opna felligluggann.
-11. Í trénu skal velja ‚Texti/Strengur'.
-12. Smellt er á Í lagi.
-13. Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.
-14. Í reitinn hámarkslengd skal slá inn 60.
-15. Smelltu á flipann Vörpun.
-16. Í trénu skal víkka út 'model'.
-17. Í trénu skal víkka út 'model\Payments'.
-18. Útvíkka 'model\Payments\Creditor', í trénu.
-19. Útvíkka 'model\Payments\Creditor\Account', í trénu.
-20. Í tré skal velja 'model\Payments\Creditor\Account\IBAN'.
-21. Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.
-22. Smelltu á Binda.
-23. Smellið á „Vista“.
+## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="abbcc-146">Sérsníða snið fyrir rafrænt skjal</span><span class="sxs-lookup"><span data-stu-id="abbcc-146">Customize your format for the electronic document</span></span>
+1. <span data-ttu-id="abbcc-147">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="abbcc-147">Click Designer.</span></span>
+2. <span data-ttu-id="abbcc-148">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="abbcc-148">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="abbcc-149">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="abbcc-149">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="abbcc-150">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="abbcc-151">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="abbcc-151">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="abbcc-152">Í trénu skal velja „XML/Element“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-152">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="abbcc-153">Í svæðið Heiti, færðu inn ‚IBAN-númer'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-153">In the Name field, type 'IBAN'.</span></span>
+    * <span data-ttu-id="abbcc-154">IBAN-númer</span><span class="sxs-lookup"><span data-stu-id="abbcc-154">IBAN</span></span>  
+8. <span data-ttu-id="abbcc-155">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-155">Click OK.</span></span>
+9. <span data-ttu-id="abbcc-156">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
+10. <span data-ttu-id="abbcc-157">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="abbcc-157">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="abbcc-158">Í trénu skal velja ‚Texti/Strengur'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-158">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="abbcc-159">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="abbcc-159">Click OK.</span></span>
+13. <span data-ttu-id="abbcc-160">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="abbcc-161">Í reitinn hámarkslengd skal slá inn 60.</span><span class="sxs-lookup"><span data-stu-id="abbcc-161">In the Maximum length field, enter '60'.</span></span>
+15. <span data-ttu-id="abbcc-162">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="abbcc-162">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="abbcc-163">Í trénu skal víkka út 'model'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-163">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="abbcc-164">Í trénu skal víkka út 'model\Payments'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-164">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="abbcc-165">Útvíkka 'model\Payments\Creditor', í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="abbcc-166">Útvíkka 'model\Payments\Creditor\Account', í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+20. <span data-ttu-id="abbcc-167">Í tré skal velja 'model\Payments\Creditor\Account\IBAN'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
+21. <span data-ttu-id="abbcc-168">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
+22. <span data-ttu-id="abbcc-169">Smelltu á Binda.</span><span class="sxs-lookup"><span data-stu-id="abbcc-169">Click Bind.</span></span>
+23. <span data-ttu-id="abbcc-170">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-170">Click Save.</span></span>
 
-## <a name="validate-the-customized-format"></a>Villuleita sérsniðna snið
-1. Smella á Villuleita.
-    * Villuleita sérsniðna útlit sniðs og breytingar gagnakortalagning til að tryggja að allar bindingar eru í lagi.  
-2. Lokið síðunni.
+## <a name="validate-the-customized-format"></a><span data-ttu-id="abbcc-171">Villuleita sérsniðna snið</span><span class="sxs-lookup"><span data-stu-id="abbcc-171">Validate the customized format</span></span>
+1. <span data-ttu-id="abbcc-172">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="abbcc-172">Click Validate.</span></span>
+    * <span data-ttu-id="abbcc-173">Villuleita sérsniðna útlit sniðs og breytingar gagnakortalagning til að tryggja að allar bindingar eru í lagi.</span><span class="sxs-lookup"><span data-stu-id="abbcc-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="abbcc-174">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-174">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Breyta stöðu núgildandi útgáfa grunnstillingar sérstillts sniðs
-    * Breyta stöðu hannaðs skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals.  
-1. Smellið á „Breyta stöðu“.
-    * Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.  
-2. Smelltu á Ljúka.
-3. Sláið inn gildi í reitnum „Lýsing“.
-4. Smellið á „Í lagi“.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1. Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).  
+## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="abbcc-175">Breyta stöðu núgildandi útgáfa grunnstillingar sérstillts sniðs</span><span class="sxs-lookup"><span data-stu-id="abbcc-175">Change the status of the current version of the custom format configuration</span></span>
+    * <span data-ttu-id="abbcc-176">Breyta stöðu hannaðs skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals.</span><span class="sxs-lookup"><span data-stu-id="abbcc-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="abbcc-177">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-177">Click Change status.</span></span>
+    * <span data-ttu-id="abbcc-178">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="abbcc-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="abbcc-179">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="abbcc-179">Click Complete.</span></span>
+3. <span data-ttu-id="abbcc-180">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-180">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="abbcc-181">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-181">Click OK.</span></span>
+5. <span data-ttu-id="abbcc-182">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-182">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="abbcc-183">Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="abbcc-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="abbcc-184">Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).</span><span class="sxs-lookup"><span data-stu-id="abbcc-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-to-generate-payment-files"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-    * Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition. Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.  
+## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="abbcc-185">Prófa Sérsniðnar snið til að mynda greiðsluskrár</span><span class="sxs-lookup"><span data-stu-id="abbcc-185">Test the customized format to generate payment files</span></span>
+    * <span data-ttu-id="abbcc-186">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="abbcc-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="abbcc-187">Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</span><span class="sxs-lookup"><span data-stu-id="abbcc-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="abbcc-188">Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
 
-## <a name="update-the-existing-country-specific-configuration"></a>Uppfæra fyrirliggjandi landsbunda skilgreiningu.
-    * Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið. Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.  
-    * Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc. Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.  
-1. Lokið síðunni.
-2. Velja Litware, Inc. veita.
-3. Smellt á Stilla sem virkt.
-4. Smelltu á Grunnstillingar skýrslugerðar
-5. Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.
-6. Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.
-    * Útgáfudrögin í eigu Litware, Inc. veita BACS (UK upphugsað) eru valin til að koma með breytingar til að styðja við nýjar svæðisbundnar kröfur.  
+## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="abbcc-189">Uppfæra fyrirliggjandi landsbunda skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-189">Update the existing country-specific configuration</span></span>
+    * <span data-ttu-id="abbcc-190">Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið.</span><span class="sxs-lookup"><span data-stu-id="abbcc-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="abbcc-191">Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="abbcc-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
+    * <span data-ttu-id="abbcc-192">Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="abbcc-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="abbcc-193">Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.</span><span class="sxs-lookup"><span data-stu-id="abbcc-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
+1. <span data-ttu-id="abbcc-194">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-194">Close the page.</span></span>
+2. <span data-ttu-id="abbcc-195">Velja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="abbcc-195">Select Litware, inc.</span></span> <span data-ttu-id="abbcc-196">veita.</span><span class="sxs-lookup"><span data-stu-id="abbcc-196">provider.</span></span>
+3. <span data-ttu-id="abbcc-197">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="abbcc-197">Click Set active.</span></span>
+4. <span data-ttu-id="abbcc-198">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="abbcc-198">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="abbcc-199">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-199">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="abbcc-200">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-200">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+    * <span data-ttu-id="abbcc-201">Útgáfudrögin í eigu Litware, Inc. veita BACS (UK upphugsað) eru valin til að koma með breytingar til að styðja við nýjar svæðisbundnar kröfur.</span><span class="sxs-lookup"><span data-stu-id="abbcc-201">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
 
-## <a name="localize-the-base-format-of-the-electronic-document"></a>Staðfæra grunnsnið rafræna skjalsins.
-    * Gefum okkur til staðar séu ný svæðisbundið þarfir sem Litware, Inc þarf að styðja.: - gildi fyrir lánardrottins SWIFT-kóða banka í hverri greiðslufærslu.  - Takmörkun uppá 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.  
-    * Nýjar landsbundnar kröfur  
-    * Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.  
-1. Smellið á Hönnuður.
-2. Smellt er á Víkka/draga saman.
-3. Smellt er á Víkka/draga saman.
-4. Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.
-5. Smelltu á Bæta við til að opna felligluggann.
-6. Í trénu skal velja „XML/Element“.
-7. Í svæðið Heiti, færðu inn ‚SWIFT'.
-    * SWIFT  
-8. Smellið á „Í lagi“.
-9. Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.
-10. Smelltu á Bæta við til að opna felligluggann.
-11. Í trénu skal velja ‚Texti/Strengur'.
-12. Smellt er á Í lagi.
-13. Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.
-14. Í reitinn hámarkslengd skal slá inn 100.
-15. Smelltu á flipann Vörpun.
-16. Í trénu skal víkka út 'model'.
-17. Í trénu skal víkka út 'model\Payments'.
-18. Útvíkka 'model\Payments\Creditor', í trénu.
-19. Útvíkka 'model\Payments\Creditor\Agent', í trénu.
-20. Í tré skal velja 'model\Payments\Creditor\Agent\SWIFT'.
-21. Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.
-22. Smelltu á Binda.
-23. Smellið á „Vista“.
+## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="abbcc-202">Staðfæra grunnsnið rafræna skjalsins.</span><span class="sxs-lookup"><span data-stu-id="abbcc-202">Localize the base format of the electronic document</span></span>
+    * <span data-ttu-id="abbcc-203">Gefum okkur til staðar séu ný svæðisbundið þarfir sem Litware, Inc þarf að styðja.: - gildi fyrir lánardrottins SWIFT-kóða banka í hverri greiðslufærslu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-203">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="abbcc-204">- Takmörkun uppá 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-204">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
+    * <span data-ttu-id="abbcc-205">Nýjar landsbundnar kröfur</span><span class="sxs-lookup"><span data-stu-id="abbcc-205">New country-specific requirements</span></span>  
+    * <span data-ttu-id="abbcc-206">Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.</span><span class="sxs-lookup"><span data-stu-id="abbcc-206">Select the draft version of the desired configuration to introduce required changes.</span></span>  
+1. <span data-ttu-id="abbcc-207">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="abbcc-207">Click Designer.</span></span>
+2. <span data-ttu-id="abbcc-208">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="abbcc-208">Click Expand/collapse.</span></span>
+3. <span data-ttu-id="abbcc-209">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="abbcc-209">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="abbcc-210">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-210">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
+5. <span data-ttu-id="abbcc-211">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="abbcc-211">Click Add to open the drop dialog.</span></span>
+6. <span data-ttu-id="abbcc-212">Í trénu skal velja „XML/Element“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-212">In the tree, select 'XML\Element'.</span></span>
+7. <span data-ttu-id="abbcc-213">Í svæðið Heiti, færðu inn ‚SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-213">In the Name field, type 'SWIFT'.</span></span>
+    * <span data-ttu-id="abbcc-214">SWIFT</span><span class="sxs-lookup"><span data-stu-id="abbcc-214">SWIFT</span></span>  
+8. <span data-ttu-id="abbcc-215">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-215">Click OK.</span></span>
+9. <span data-ttu-id="abbcc-216">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-216">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
+10. <span data-ttu-id="abbcc-217">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="abbcc-217">Click Add to open the drop dialog.</span></span>
+11. <span data-ttu-id="abbcc-218">Í trénu skal velja ‚Texti/Strengur'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-218">In the tree, select 'Text\String'.</span></span>
+12. <span data-ttu-id="abbcc-219">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="abbcc-219">Click OK.</span></span>
+13. <span data-ttu-id="abbcc-220">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-220">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+14. <span data-ttu-id="abbcc-221">Í reitinn hámarkslengd skal slá inn 100.</span><span class="sxs-lookup"><span data-stu-id="abbcc-221">In the Maximum length field, enter '100'.</span></span>
+15. <span data-ttu-id="abbcc-222">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="abbcc-222">Click the Mapping tab.</span></span>
+16. <span data-ttu-id="abbcc-223">Í trénu skal víkka út 'model'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-223">In the tree, expand 'model'.</span></span>
+17. <span data-ttu-id="abbcc-224">Í trénu skal víkka út 'model\Payments'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-224">In the tree, expand 'model\Payments'.</span></span>
+18. <span data-ttu-id="abbcc-225">Útvíkka 'model\Payments\Creditor', í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-225">In the tree, expand 'model\Payments\Creditor'.</span></span>
+19. <span data-ttu-id="abbcc-226">Útvíkka 'model\Payments\Creditor\Agent', í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-226">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+20. <span data-ttu-id="abbcc-227">Í tré skal velja 'model\Payments\Creditor\Agent\SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-227">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
+21. <span data-ttu-id="abbcc-228">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-228">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
+22. <span data-ttu-id="abbcc-229">Smelltu á Binda.</span><span class="sxs-lookup"><span data-stu-id="abbcc-229">Click Bind.</span></span>
+23. <span data-ttu-id="abbcc-230">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-230">Click Save.</span></span>
 
-## <a name="validate-the-localized-format"></a>Sannprófa staðbundinn snið
-1. Smella á Villuleita.
-2. Lokið síðunni.
+## <a name="validate-the-localized-format"></a><span data-ttu-id="abbcc-231">Sannprófa staðbundinn snið</span><span class="sxs-lookup"><span data-stu-id="abbcc-231">Validate the localized format</span></span>
+1. <span data-ttu-id="abbcc-232">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="abbcc-232">Click Validate.</span></span>
+2. <span data-ttu-id="abbcc-233">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-233">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Breyta stöðu á gildandi útgáfu af grunnskilgreiningarsniði
-    * Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.  
-1. Smellið á „Breyta stöðu“.
-    * Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.  
-2. Smelltu á Ljúka.
-3. Sláið inn gildi í reitnum „Lýsing“.
-4. Smellið á „Í lagi“.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="abbcc-234">Breyta stöðu á gildandi útgáfu af grunnskilgreiningarsniði</span><span class="sxs-lookup"><span data-stu-id="abbcc-234">Change the status of the current version of the base format configuration</span></span>
+    * <span data-ttu-id="abbcc-235">Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.</span><span class="sxs-lookup"><span data-stu-id="abbcc-235">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
+1. <span data-ttu-id="abbcc-236">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-236">Click Change status.</span></span>
+    * <span data-ttu-id="abbcc-237">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="abbcc-237">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="abbcc-238">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="abbcc-238">Click Complete.</span></span>
+3. <span data-ttu-id="abbcc-239">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-239">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="abbcc-240">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-240">Click OK.</span></span>
+5. <span data-ttu-id="abbcc-241">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-241">In the list, find and select the desired record.</span></span>
 
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Breyta Grunnútgáfa fyrir sérsniðna skilgreiningarsnið
-    * Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir. Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.  Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið). Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.  
-1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-2. Veldu Proseware, Inc. veitandi til að merkja það sem virkt.
-3. Smellt á Stilla sem virkt.
-4. Smelltu á Grunnstillingar skýrslugerðar
-5. Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.
-6. Í trénu, víkka út "greiðslur" (einfaldað líkan)/BACS (UK upphugsað)
-7. Í trénu skal velja 'greiðslur (einfaldað líkan)\BACS (UK upphugsað)\BACS (UK upphugsað sérsniðið)'.
-    * Velja skilgreiningu (Bretland sérsniðið upphugsað) BACS, sem er í eigu Proseware, Inc.  
-    * Nota útgáfu sem eru drög fyrir skilgreiningu sem valin er til að kynna til leiks breytingar sem þarf.  
-8. Smellt er á Endurreikna grunn.
-    * Veljið nýja útgáfu 1,2 fyrir grunnskilgreiningu til að nota sem nýjan grunn til að uppfæra skilgreininguna.  
-9. Smellið á „Í lagi“.
-    * Athugið að sumar árekstra hafa fundust milli samruna sérsniðnu útgáfunnar og nýja grunnútgáfa sem standa fyrir sumar breytingar sem ekki er hægt að sameina sjálfkrafa.  
+## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="abbcc-242">Breyta Grunnútgáfa fyrir sérsniðna skilgreiningarsnið</span><span class="sxs-lookup"><span data-stu-id="abbcc-242">Change the base version for the custom format configuration</span></span>
+    * <span data-ttu-id="abbcc-243">Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-243">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="abbcc-244">Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.</span><span class="sxs-lookup"><span data-stu-id="abbcc-244">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="abbcc-245">Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið).</span><span class="sxs-lookup"><span data-stu-id="abbcc-245">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="abbcc-246">Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.</span><span class="sxs-lookup"><span data-stu-id="abbcc-246">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
+1. <span data-ttu-id="abbcc-247">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="abbcc-247">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="abbcc-248">Veldu Proseware, Inc. veitandi til að merkja það sem virkt.</span><span class="sxs-lookup"><span data-stu-id="abbcc-248">Select the Proseware, Inc. provider to mark it as active.</span></span>
+3. <span data-ttu-id="abbcc-249">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="abbcc-249">Click Set active.</span></span>
+4. <span data-ttu-id="abbcc-250">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="abbcc-250">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="abbcc-251">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="abbcc-251">In the tree, expand 'Payments (simplified model)'.</span></span>
+6. <span data-ttu-id="abbcc-252">Í trénu, víkka út "greiðslur" (einfaldað líkan)/BACS (UK upphugsað)</span><span class="sxs-lookup"><span data-stu-id="abbcc-252">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+7. <span data-ttu-id="abbcc-253">Í trénu skal velja 'greiðslur (einfaldað líkan)\BACS (UK upphugsað)\BACS (UK upphugsað sérsniðið)'.</span><span class="sxs-lookup"><span data-stu-id="abbcc-253">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
+    * <span data-ttu-id="abbcc-254">Velja skilgreiningu (Bretland sérsniðið upphugsað) BACS, sem er í eigu Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="abbcc-254">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
+    * <span data-ttu-id="abbcc-255">Nota útgáfu sem eru drög fyrir skilgreiningu sem valin er til að kynna til leiks breytingar sem þarf.</span><span class="sxs-lookup"><span data-stu-id="abbcc-255">Use the draft version of the selected configuration to introduce required changes.</span></span>  
+8. <span data-ttu-id="abbcc-256">Smellt er á Endurreikna grunn.</span><span class="sxs-lookup"><span data-stu-id="abbcc-256">Click Rebase.</span></span>
+    * <span data-ttu-id="abbcc-257">Veljið nýja útgáfu 1,2 fyrir grunnskilgreiningu til að nota sem nýjan grunn til að uppfæra skilgreininguna.</span><span class="sxs-lookup"><span data-stu-id="abbcc-257">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
+9. <span data-ttu-id="abbcc-258">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-258">Click OK.</span></span>
+    * <span data-ttu-id="abbcc-259">Athugið að sumar árekstra hafa fundust milli samruna sérsniðnu útgáfunnar og nýja grunnútgáfa sem standa fyrir sumar breytingar sem ekki er hægt að sameina sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="abbcc-259">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
 
-## <a name="resolve-rebase-conflicts"></a>Leysa úr Árekstrar við endurreikning grunns
-1. Smellið á Hönnuður.
-    * Athugið að breytingar á mörkum á textalengd á heiti lánardrottins var ekki hægt að leysa sjálfkrafa. Þess birtist það í lista yfir árekstra. Fyrir hverja árekstur af gerðinni Uppfærsla eru eftirtaldir valkostir tiltækir:- Nota í fyrra grunngildi (hnappinn yfir hnitanetinu) til að færa í gildi fyrri grunnútgáfa (0 í okkar tilfelli).  - Nota grunngildi (hnappinn yfir hnitanetinu) til að færa í nýtt gildi grunnútgáfu (100 í okkar tilfelli).  - Halda þínu eigin gildi (sérstillt) (60 í okkar tilfelli).  Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir textalengd á heiti lánardrottins.  
-    * Athugaðu að Proseware, Inc. og Litware, Inc. hafa sérsniðnar og staðbundnar útgáfur af þessu sniði og nota IBAN og swift-kóða með tengdar íhluti sem sjálfkrafa eru sameinaðir í stjórnunarsniðið.  
-2. Smellt er á Nota grunngildi
-    * Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir heiti lánardrottins.  
-3. Smellið á „Vista“.
-    * Að Vista snið fjarlægir árekstra sem leyst hefur verið úr af listanum yfir árekstra.  
-4. Lokið síðunni.
+## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="abbcc-260">Leysa úr Árekstrar við endurreikning grunns</span><span class="sxs-lookup"><span data-stu-id="abbcc-260">Resolve rebase conflicts</span></span>
+1. <span data-ttu-id="abbcc-261">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="abbcc-261">Click Designer.</span></span>
+    * <span data-ttu-id="abbcc-262">Athugið að breytingar á mörkum á textalengd á heiti lánardrottins var ekki hægt að leysa sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="abbcc-262">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="abbcc-263">Þess birtist það í lista yfir árekstra.</span><span class="sxs-lookup"><span data-stu-id="abbcc-263">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="abbcc-264">Fyrir hverja árekstur af gerðinni Uppfærsla eru eftirtaldir valkostir tiltækir:- Nota í fyrra grunngildi (hnappinn yfir hnitanetinu) til að færa í gildi fyrri grunnútgáfa (0 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="abbcc-264">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="abbcc-265">- Nota grunngildi (hnappinn yfir hnitanetinu) til að færa í nýtt gildi grunnútgáfu (100 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="abbcc-265">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="abbcc-266">- Halda þínu eigin gildi (sérstillt) (60 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="abbcc-266">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="abbcc-267">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir textalengd á heiti lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="abbcc-267">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
+    * <span data-ttu-id="abbcc-268">Athugaðu að Proseware, Inc. og Litware, Inc. hafa sérsniðnar og staðbundnar útgáfur af þessu sniði og nota IBAN og swift-kóða með tengdar íhluti sem sjálfkrafa eru sameinaðir í stjórnunarsniðið.</span><span class="sxs-lookup"><span data-stu-id="abbcc-268">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
+2. <span data-ttu-id="abbcc-269">Smellt er á Nota grunngildi</span><span class="sxs-lookup"><span data-stu-id="abbcc-269">Click Apply base value.</span></span>
+    * <span data-ttu-id="abbcc-270">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir heiti lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="abbcc-270">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
+3. <span data-ttu-id="abbcc-271">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-271">Click Save.</span></span>
+    * <span data-ttu-id="abbcc-272">Að Vista snið fjarlægir árekstra sem leyst hefur verið úr af listanum yfir árekstra.</span><span class="sxs-lookup"><span data-stu-id="abbcc-272">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
+4. <span data-ttu-id="abbcc-273">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abbcc-273">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a>Breyta stöðu á nýju útgáfu af sérsniðnu skilgreiningarsniði
-1. Smellið á „Breyta stöðu“.
-    * Breyta stöðu uppfærða, sérsniðna skilgreiningarsniðs úr Drög í Lokið. Þetta gerir skilgreiningu sniðs tiltækt fyrir myndun greiðsluskjala. Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.  
-2. Smelltu á Ljúka.
-3. Sláið inn gildi í reitnum „Lýsing“.
-4. Smellið á „Í lagi“.
-    * Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).  
+## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="abbcc-274">Breyta stöðu á nýju útgáfu af sérsniðnu skilgreiningarsniði</span><span class="sxs-lookup"><span data-stu-id="abbcc-274">Change the status of the new version of the custom format configuration</span></span>
+1. <span data-ttu-id="abbcc-275">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-275">Click Change status.</span></span>
+    * <span data-ttu-id="abbcc-276">Breyta stöðu uppfærða, sérsniðna skilgreiningarsniðs úr Drög í Lokið.</span><span class="sxs-lookup"><span data-stu-id="abbcc-276">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="abbcc-277">Þetta gerir skilgreiningu sniðs tiltækt fyrir myndun greiðsluskjala.</span><span class="sxs-lookup"><span data-stu-id="abbcc-277">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="abbcc-278">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="abbcc-278">Note that the current version of the selected configuration is in Draft status.</span></span>  
+2. <span data-ttu-id="abbcc-279">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="abbcc-279">Click Complete.</span></span>
+3. <span data-ttu-id="abbcc-280">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-280">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="abbcc-281">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="abbcc-281">Click OK.</span></span>
+    * <span data-ttu-id="abbcc-282">Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).</span><span class="sxs-lookup"><span data-stu-id="abbcc-282">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
 
-## <a name="test-the-customized-format-for-payment-files-generation"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-    * Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition. Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
+## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="abbcc-283">Prófa Sérsniðnar snið til að mynda greiðsluskrár</span><span class="sxs-lookup"><span data-stu-id="abbcc-283">Test the customized format for payment files generation</span></span>
+    * <span data-ttu-id="abbcc-284">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="abbcc-284">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="abbcc-285">Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</span><span class="sxs-lookup"><span data-stu-id="abbcc-285">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="abbcc-286">Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-286">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="abbcc-287">Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="abbcc-287">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
 
 

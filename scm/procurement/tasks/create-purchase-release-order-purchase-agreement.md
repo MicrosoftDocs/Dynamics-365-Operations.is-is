@@ -16,52 +16,52 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ee4bec20fa2449aaa961ab19891a002702174446
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cecda03dd4d224d4319f2b0b196560389bb54195
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Stofna úttektarpöntun innkaupa úr innkaupasamningi
+# <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a><span data-ttu-id="04e44-103">Stofna úttektarpöntun innkaupa úr innkaupasamningi</span><span class="sxs-lookup"><span data-stu-id="04e44-103">Create a purchase release order from a purchase agreement</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi ferli sýnir hvernig á að nota innkaupasamning þegar innkaupapöntun er stofnuð. Innkaupasamnings verður að nota þegar innkaupapöntun er stofnuð þar almennir skilmálar sem á að afrita í haus innkaupapöntunar. Þetta verk myndi venjulega framkvæmt af innkaupaaðila. Nauðsynleg frumforsenda þessari handbók, þú verður að hafa gildan innkaupasamning með í ráðstöfun afurðarmagns fyrir lánardrottinn og vörur. Hægt er að nota sömu aðferð ef þú ert með  innkaupasamning með aðrar gerðir af ráðstafanir. Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF. Ef verið er að nota USMF er hægt að keyra "Stofna innkaupasamning" leiðarvísi fyrst til að setja upp nauðsynlegt frumskilyrði fyrir þessari handbók.
+<span data-ttu-id="04e44-104">Þessi ferli sýnir hvernig á að nota innkaupasamning þegar innkaupapöntun er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="04e44-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="04e44-105">Innkaupasamnings verður að nota þegar innkaupapöntun er stofnuð þar almennir skilmálar sem á að afrita í haus innkaupapöntunar.</span><span class="sxs-lookup"><span data-stu-id="04e44-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="04e44-106">Þetta verk myndi venjulega framkvæmt af innkaupaaðila.</span><span class="sxs-lookup"><span data-stu-id="04e44-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="04e44-107">Nauðsynleg frumforsenda þessari handbók, þú verður að hafa gildan innkaupasamning með í ráðstöfun afurðarmagns fyrir lánardrottinn og vörur.</span><span class="sxs-lookup"><span data-stu-id="04e44-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="04e44-108">Hægt er að nota sömu aðferð ef þú ert með  innkaupasamning með aðrar gerðir af ráðstafanir.</span><span class="sxs-lookup"><span data-stu-id="04e44-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="04e44-109">Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="04e44-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="04e44-110">Ef verið er að nota USMF er hægt að keyra "Stofna innkaupasamning" leiðarvísi fyrst til að setja upp nauðsynlegt frumskilyrði fyrir þessari handbók.</span><span class="sxs-lookup"><span data-stu-id="04e44-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 
 
-## <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
-1. Opna undirbúningssvæði innkaupapöntunar.
-2. Smellt er á Ný innkaupapöntun.
-3. Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Víxla útvíkkun á liðnum Almennt.
-7. Í reitnum innkaupasamningur skal smella á fellilistahnappinn til að opna leitina.
-    * Allar tiltækar samninga lánardrottins eru taldar upp hér. Finna gildan samning sem þú vilt nota.  
-8. Í listanum skal smella á tengilinn í valinni línu.
-9. Smella á Já.
-10. Smellið á „Í lagi“.
+## <a name="create-a-purchase-order"></a><span data-ttu-id="04e44-111">Stofna innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="04e44-111">Create a purchase order</span></span>
+1. <span data-ttu-id="04e44-112">Opna undirbúningssvæði innkaupapöntunar.</span><span class="sxs-lookup"><span data-stu-id="04e44-112">Open the purchase order preparation workspace.</span></span>
+2. <span data-ttu-id="04e44-113">Smellt er á Ný innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="04e44-113">Click New purchase order.</span></span>
+3. <span data-ttu-id="04e44-114">Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="04e44-114">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="04e44-115">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="04e44-115">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="04e44-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="04e44-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="04e44-117">Víxla útvíkkun á liðnum Almennt.</span><span class="sxs-lookup"><span data-stu-id="04e44-117">Toggle the expansion of the General section.</span></span>
+7. <span data-ttu-id="04e44-118">Í reitnum innkaupasamningur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="04e44-118">In the Purchase agreement field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="04e44-119">Allar tiltækar samninga lánardrottins eru taldar upp hér.</span><span class="sxs-lookup"><span data-stu-id="04e44-119">All available agreements for the vendor are listed here.</span></span> <span data-ttu-id="04e44-120">Finna gildan samning sem þú vilt nota.</span><span class="sxs-lookup"><span data-stu-id="04e44-120">Find the effective agreement that you want to use.</span></span>  
+8. <span data-ttu-id="04e44-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="04e44-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="04e44-122">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="04e44-122">Click Yes.</span></span>
+10. <span data-ttu-id="04e44-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="04e44-123">Click OK.</span></span>
 
-## <a name="add-a-line"></a>Bæta við línu
-1. Í reitnum Vörunúmer skal slá inn gildi.
-    * Ef tilteknar víddir staðsetningar eða birgða eru á ráðstöfun verður þú að færa inn sama gildi í innkaupapöntunarlínu til að geta notað samningnum.  
-2. Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.
-    * Svæðið er hugsanlega útfyllt þegar með sjálfgefnu gildi úr pöntuninni, eða frá lánardrottni. Ef svo er er hægt að sleppa þessu þrepi.  
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Færið inn númer í reitnum „Magn“.
-    * Villuleita að verð er afritað úr ráðstöfun.  
+## <a name="add-a-line"></a><span data-ttu-id="04e44-124">Bæta við línu</span><span class="sxs-lookup"><span data-stu-id="04e44-124">Add a line</span></span>
+1. <span data-ttu-id="04e44-125">Í reitnum Vörunúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="04e44-125">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="04e44-126">Ef tilteknar víddir staðsetningar eða birgða eru á ráðstöfun verður þú að færa inn sama gildi í innkaupapöntunarlínu til að geta notað samningnum.</span><span class="sxs-lookup"><span data-stu-id="04e44-126">If there are specific inventory or location dimensions on the commitment you must enter the same values on the purchase order line to make use of the agreement.</span></span>  
+2. <span data-ttu-id="04e44-127">Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="04e44-127">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="04e44-128">Svæðið er hugsanlega útfyllt þegar með sjálfgefnu gildi úr pöntuninni, eða frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="04e44-128">The site may already be populated with the default value from the order, or from the vendor.</span></span> <span data-ttu-id="04e44-129">Ef svo er er hægt að sleppa þessu þrepi.</span><span class="sxs-lookup"><span data-stu-id="04e44-129">If this is the case, skip this step.</span></span>  
+3. <span data-ttu-id="04e44-130">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="04e44-130">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="04e44-131">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="04e44-131">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="04e44-132">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="04e44-132">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="04e44-133">Villuleita að verð er afritað úr ráðstöfun.</span><span class="sxs-lookup"><span data-stu-id="04e44-133">Validate that the price is copied from the commitment.</span></span>  
 
-## <a name="look-up-the-commitment"></a>Fletta upp á ráðstöfun
-1. Smellið á „Uppfæra línu“.
-2. Smellið á „Viðhengi“.
-    * Hér er hægt að fá upplýsingar fyrir innkaupasamning. Til dæmis er hægt að sjá verð og hvort verð og afsláttur er fastur, sem þýðir að ef þú breytir verði eða afslætti á innkaupapöntun í annað gildi en á ráðstöfun, mun kerfið fjarlægja tengil svo innkaupapöntunarlínan uppfyllir ekki á ráðstöfun. Er einnig hægt að sjá hvort valkosturinn Hámark er notað er valinn, sem þýðir að magn á ráðstöfun má ekki fara fram úr með samlagningu allra innkaupa sem uppfylla ráðstöfun.  
-3. Lokið síðunni.
+## <a name="look-up-the-commitment"></a><span data-ttu-id="04e44-134">Fletta upp á ráðstöfun</span><span class="sxs-lookup"><span data-stu-id="04e44-134">Look up the commitment</span></span>
+1. <span data-ttu-id="04e44-135">Smellið á „Uppfæra línu“.</span><span class="sxs-lookup"><span data-stu-id="04e44-135">Click Update line.</span></span>
+2. <span data-ttu-id="04e44-136">Smellið á „Viðhengi“.</span><span class="sxs-lookup"><span data-stu-id="04e44-136">Click Attached.</span></span>
+    * <span data-ttu-id="04e44-137">Hér er hægt að fá upplýsingar fyrir innkaupasamning.</span><span class="sxs-lookup"><span data-stu-id="04e44-137">Here you can get details for the purchase agreement.</span></span> <span data-ttu-id="04e44-138">Til dæmis er hægt að sjá verð og hvort verð og afsláttur er fastur, sem þýðir að ef þú breytir verði eða afslætti á innkaupapöntun í annað gildi en á ráðstöfun, mun kerfið fjarlægja tengil svo innkaupapöntunarlínan uppfyllir ekki á ráðstöfun.</span><span class="sxs-lookup"><span data-stu-id="04e44-138">For example, you can see the price and whether the price and discount are fixed, which means that if you change price or discount on the purchase order to a different value than on the commitment, the system will remove the link so the purchase order line does not fulfill the commitment.</span></span> <span data-ttu-id="04e44-139">Er einnig hægt að sjá hvort valkosturinn Hámark er notað er valinn, sem þýðir að magn á ráðstöfun má ekki fara fram úr með samlagningu allra innkaupa sem uppfylla ráðstöfun.</span><span class="sxs-lookup"><span data-stu-id="04e44-139">You can also see if the Max is enforced option is selected, which means that the quantity on the commitment cannot be exceeded by summing all of the purchases that fulfill the commitment.</span></span>  
+3. <span data-ttu-id="04e44-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="04e44-140">Close the page.</span></span>
 
-## <a name="look-up-the-purchase-agreement"></a>Fletta upp á innkaupasamningur
-1. Smellið á „Almennt“ á aðgerðarúðunni.
-2. Smellt er á Innkaupasamningur.
-3. Lokið síðunni.
-4. Lokið síðunni.
+## <a name="look-up-the-purchase-agreement"></a><span data-ttu-id="04e44-141">Fletta upp á innkaupasamningur</span><span class="sxs-lookup"><span data-stu-id="04e44-141">Look up the purchase agreement</span></span>
+1. <span data-ttu-id="04e44-142">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="04e44-142">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="04e44-143">Smellt er á Innkaupasamningur.</span><span class="sxs-lookup"><span data-stu-id="04e44-143">Click Purchase agreement.</span></span>
+3. <span data-ttu-id="04e44-144">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="04e44-144">Close the page.</span></span>
+4. <span data-ttu-id="04e44-145">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="04e44-145">Close the page.</span></span>
 
 

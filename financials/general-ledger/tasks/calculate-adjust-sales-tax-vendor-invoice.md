@@ -16,37 +16,37 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bfc25580448bde8d29b0f392283057e010f180b6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 367772604bf6a3e1e0825144135da7dc12680619
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Reikna og stilla virðisaukaskatt á reikningi lánardrottins
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="aaf3e-103">Reikna og stilla virðisaukaskatt á reikningi lánardrottins</span><span class="sxs-lookup"><span data-stu-id="aaf3e-103">Calculate and adjust sales tax on a vendor invoice</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ef upphaflega upprunaskjal sýnir mismunandi skattupphæðir útreiknaðar, er hægt að leiðrétta þessar upphæðir fyrir bókun. Þetta verkefni notar DEMF-sýnifyrirtækið.
+<span data-ttu-id="aaf3e-104">Ef upphaflega upprunaskjal sýnir mismunandi skattupphæðir útreiknaðar, er hægt að leiðrétta þessar upphæðir fyrir bókun.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-104">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="aaf3e-105">Þetta verkefni notar DEMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-105">This task uses the DEMF demo company.</span></span>
 
-1. Fara í Viðskiptaskuldir > Reikningar > Reikningabók.
-2. Smellið á „Nýtt“.
-3. Í listanum skal merkja valda línu.
-4. Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smellið á Línur.
-7. Í listanum skal merkja valda línu.
-8. Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.
-9. Í reitinn Reikningur skal færa inn gildi.
-10. Í reitnum Kredit skal slá inn tölu.
-11. Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.
-12. Smellt er á vsk.
-13. Færið inn tölu í reitinn Heildarupphæð eiginlegs virðisaukaskatts.
-14. Smellið á „Í lagi“.
-15. Smelltu á Vista.
-16. Smellt er á vsk.
-17. Á flipanum Leiðrétting er hægt að leiðrétta vsk-upphæðir fyrir hvern vsk-kóða.
-18. Smella á Endurstilla rauntölur út frá reiknuðum upphæðum.
-19. Smellið á „Í lagi“.
-20. Smellið á „Vista“.
+1. <span data-ttu-id="aaf3e-106">Fara í Viðskiptaskuldir > Reikningar > Reikningabók.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-106">Go to Accounts payable > Invoices > Invoice journal.</span></span>
+2. <span data-ttu-id="aaf3e-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-107">Click New.</span></span>
+3. <span data-ttu-id="aaf3e-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="aaf3e-109">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="aaf3e-110">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-110">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="aaf3e-111">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-111">Click Lines.</span></span>
+7. <span data-ttu-id="aaf3e-112">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-112">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="aaf3e-113">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-113">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="aaf3e-114">Í reitinn Reikningur skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-114">In the Invoice field, type a value.</span></span>
+10. <span data-ttu-id="aaf3e-115">Í reitnum Kredit skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-115">In the Credit field, enter a number.</span></span>
+11. <span data-ttu-id="aaf3e-116">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-116">In the Offset account field, specify the desired values.</span></span>
+12. <span data-ttu-id="aaf3e-117">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-117">Click Sales tax.</span></span>
+13. <span data-ttu-id="aaf3e-118">Færið inn tölu í reitinn Heildarupphæð eiginlegs virðisaukaskatts.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-118">In the Total actual sales tax amount field, enter a number.</span></span>
+14. <span data-ttu-id="aaf3e-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-119">Click OK.</span></span>
+15. <span data-ttu-id="aaf3e-120">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-120">Click Save.</span></span>
+16. <span data-ttu-id="aaf3e-121">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-121">Click Sales tax.</span></span>
+17. <span data-ttu-id="aaf3e-122">Á flipanum Leiðrétting er hægt að leiðrétta vsk-upphæðir fyrir hvern vsk-kóða.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-122">On the Adjustment tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
+18. <span data-ttu-id="aaf3e-123">Smella á Endurstilla rauntölur út frá reiknuðum upphæðum.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-123">Click Reset actual from calculated amounts.</span></span>
+19. <span data-ttu-id="aaf3e-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-124">Click OK.</span></span>
+20. <span data-ttu-id="aaf3e-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="aaf3e-125">Click Save.</span></span>
 
 

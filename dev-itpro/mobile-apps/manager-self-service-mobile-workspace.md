@@ -13,90 +13,90 @@ ms.reviewer: sericks
 ms.search.scope: Talent, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: shielas
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 6178a9b1b5497672d68dee84a09800307ea60f54
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0bfbc07130e908a1326cd01522038fc90bb3465f
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði fyrir Minn hópur
+# <a name="my-team-mobile-workspace"></a><span data-ttu-id="a8c61-104">Fartækjavinnusvæði fyrir Minn hópur</span><span class="sxs-lookup"><span data-stu-id="a8c61-104">My team mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Minn hópur**. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
+<span data-ttu-id="a8c61-105">Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Minn hópur**.</span><span class="sxs-lookup"><span data-stu-id="a8c61-105">This topic provides information about the **My team** mobile workspace.</span></span> <span data-ttu-id="a8c61-106">Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk.</span><span class="sxs-lookup"><span data-stu-id="a8c61-106">This workspace lets managers view their direct reports and extended staff.</span></span> <span data-ttu-id="a8c61-107">Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.</span><span class="sxs-lookup"><span data-stu-id="a8c61-107">They can also send praise to individuals in their reporting chain.</span></span>
 
-Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="a8c61-108">Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="a8c61-108">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Yfirlit 
-Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna eftirtalin verkefni:
+## <a name="overview"></a><span data-ttu-id="a8c61-109">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="a8c61-109">Overview</span></span> 
+<span data-ttu-id="a8c61-110">Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna eftirtalin verkefni:</span><span class="sxs-lookup"><span data-stu-id="a8c61-110">The **My team** mobile workspace lets managers perform these tasks:</span></span>
 
-- Skoða lista yfir beinar skýrslur stjórnanda.
-- Skoða lista yfir allan skýrsluhóp stjórnanda.
-- Skoða nákvæmar upplýsingar um hvern meðlim hóps, eins og fæðingardag, starfsaldursdagsetningu, starfsreynslu og upplýsingar um laun og frammistöðu.
-- Senda hrós til einstaklinga í öllum skýrsluhóp stjórnandans.
+- <span data-ttu-id="a8c61-111">Skoða lista yfir beinar skýrslur stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="a8c61-111">View a list of the manager’s direct reports.</span></span>
+- <span data-ttu-id="a8c61-112">Skoða lista yfir allan skýrsluhóp stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="a8c61-112">View a list of the manager’s extended reporting team.</span></span>
+- <span data-ttu-id="a8c61-113">Skoða nákvæmar upplýsingar um hvern meðlim hóps, eins og fæðingardag, starfsaldursdagsetningu, starfsreynslu og upplýsingar um laun og frammistöðu.</span><span class="sxs-lookup"><span data-stu-id="a8c61-113">View detailed information for each team member, such as birth date, seniority date, years of service, and compensation and performance information.</span></span>
+- <span data-ttu-id="a8c61-114">Senda hrós til einstaklinga í öllum skýrsluhóp stjórnandans.</span><span class="sxs-lookup"><span data-stu-id="a8c61-114">Send praise to any individual in the manager’s extended reporting team.</span></span>
 
-## <a name="prerequisites"></a>Frumskilyrði
-Áður en hægt er að nota þetta fartækjavinnusvæði, verður að uppfylla eftirtaldar forsendur.
+## <a name="prerequisites"></a><span data-ttu-id="a8c61-115">Frumskilyrði</span><span class="sxs-lookup"><span data-stu-id="a8c61-115">Prerequisites</span></span>
+<span data-ttu-id="a8c61-116">Áður en hægt er að nota þetta fartækjavinnusvæði, verður að uppfylla eftirtaldar forsendur.</span><span class="sxs-lookup"><span data-stu-id="a8c61-116">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Skilyrði</th>
-<th>Hlutverk</th>
-<th>lýsing</th>
+<th><span data-ttu-id="a8c61-117">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="a8c61-117">Prerequisite</span></span></th>
+<th><span data-ttu-id="a8c61-118">Hlutverk</span><span class="sxs-lookup"><span data-stu-id="a8c61-118">Role</span></span></th>
+<th><span data-ttu-id="a8c61-119">lýsing</span><span class="sxs-lookup"><span data-stu-id="a8c61-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ein af eftirtöldum vörum verður að vera innleidd í fyrirtækinu:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, uppfærsla júlí 2017</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<td><span data-ttu-id="a8c61-120">Ein af eftirtöldum vörum verður að vera innleidd í fyrirtækinu:</span><span class="sxs-lookup"><span data-stu-id="a8c61-120">One of the following products must be deployed in your organization:</span></span>
+<ul><li><span data-ttu-id="a8c61-121">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, uppfærsla júlí 2017</span><span class="sxs-lookup"><span data-stu-id="a8c61-121">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span></li>
+<li><span data-ttu-id="a8c61-122">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="a8c61-122">Microsoft Dynamics 365 for Talent</span></span></li>
 </ul>
 </td>
-<td>Kerfisstjóri</td>
-<td>Hafi Finance and Operations ekki þegar verið innleitt í fyrirtækinu, sjáið <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>. Hafi Talent ekki þegar verið innleitt í fyrirtækinu, getur kerfisstjóri sótt prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent-vefsíðunni</a>.
+<td><span data-ttu-id="a8c61-123">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="a8c61-123">System administrator</span></span></td>
+<td><span data-ttu-id="a8c61-124">Hafi Finance and Operations ekki þegar verið innleitt í fyrirtækinu, sjáið <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.</span><span class="sxs-lookup"><span data-stu-id="a8c61-124">If you don't already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="a8c61-125">Hafi Talent ekki þegar verið innleitt í fyrirtækinu, getur kerfisstjóri sótt prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent-vefsíðunni</a>.</span><span class="sxs-lookup"><span data-stu-id="a8c61-125">If you don't already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td>Það verður að birta fartækjavinnusvæðið <strong>Minn hópur</strong>.</td>
-<td>Kerfisstjóri</td>
-<td>Sjáið <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</td>
+<td><span data-ttu-id="a8c61-126">Það verður að birta fartækjavinnusvæðið <strong>Minn hópur</strong>.</span><span class="sxs-lookup"><span data-stu-id="a8c61-126">The <strong>My team</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="a8c61-127">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="a8c61-127">System administrator</span></span></td>
+<td><span data-ttu-id="a8c61-128">Sjáið <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</span><span class="sxs-lookup"><span data-stu-id="a8c61-128">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="a8c61-129">Sæktu og settu upp fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="a8c61-129">Download and install the mobile app</span></span>
 
-Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
+<span data-ttu-id="a8c61-130">Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="a8c61-130">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
--   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="a8c61-131">Fyrir Android síma</span><span class="sxs-lookup"><span data-stu-id="a8c61-131">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="a8c61-132">Fyrir iPhone síma</span><span class="sxs-lookup"><span data-stu-id="a8c61-132">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Innskráning í fartækjaforritið
-1.  Ræstu forritið í fartækinu þínu.
-2.  Færðu inn vefslóð þína fyrir Microsoft Dynamics 365.
-3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
-4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="a8c61-133">Innskráning í fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="a8c61-133">Sign in to the mobile app</span></span>
+1.  <span data-ttu-id="a8c61-134">Ræstu forritið í fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="a8c61-134">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="a8c61-135">Færðu inn vefslóð þína fyrir Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="a8c61-135">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="a8c61-136">Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt.</span><span class="sxs-lookup"><span data-stu-id="a8c61-136">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="a8c61-137">Færðu inn skilríki</span><span class="sxs-lookup"><span data-stu-id="a8c61-137">Enter your credentials.</span></span>
+4.  <span data-ttu-id="a8c61-138">Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="a8c61-138">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="a8c61-139">Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="a8c61-139">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="a8c61-140">[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="a8c61-140">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Skoða meðlimi hóps með því að nota fartækjavinnusvæðið Minn hópur
-1.  Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu. Listi yfir meðlimi hóps birtist. Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.
-2.  Velja meðlim hóps. Síðan **Samantekt hópmeðlims** birtist. Á meðal upplýsinga á þessari síðu eru fæðingardagur hópmeðlims, starfsaldur, starfsreynsla, ár í núverandi stöðu og launaupplýsingar.
+## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="a8c61-141">Skoða meðlimi hóps með því að nota fartækjavinnusvæðið Minn hópur</span><span class="sxs-lookup"><span data-stu-id="a8c61-141">View team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="a8c61-142">Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu.</span><span class="sxs-lookup"><span data-stu-id="a8c61-142">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="a8c61-143">Listi yfir meðlimi hóps birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-143">A list of team members is shown.</span></span> <span data-ttu-id="a8c61-144">Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.</span><span class="sxs-lookup"><span data-stu-id="a8c61-144">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+2.  <span data-ttu-id="a8c61-145">Velja meðlim hóps.</span><span class="sxs-lookup"><span data-stu-id="a8c61-145">Select a team member.</span></span> <span data-ttu-id="a8c61-146">Síðan **Samantekt hópmeðlims** birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-146">The **Team member summary** page appears.</span></span> <span data-ttu-id="a8c61-147">Á meðal upplýsinga á þessari síðu eru fæðingardagur hópmeðlims, starfsaldur, starfsreynsla, ár í núverandi stöðu og launaupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="a8c61-147">The information on this page includes the team member's birth date, seniority date, years of service, years in his or her current position, and compensation information.</span></span>
 
-## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>Skoða alla meðlimi hóps með því að nota fartækjavinnusvæðið Minn hópur
-1.  Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu. Listi yfir meðlimi hóps birtist. Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.
-1.  Veldu tengilinn **Beinar skýrslur**. Listi yfir alla meðlimi hóps birtist.
-1.  Velja meðlim hóps. Síðan **Samantekt hópmeðlims** birtist. Á meðal upplýsinga á þessari síðu eru fæðingardagur hópmeðlims, starfsaldur, starfsreynsla, ár í núverandi stöðu og launaupplýsingar.
+## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="a8c61-148">Skoða alla meðlimi hóps með því að nota fartækjavinnusvæðið Minn hópur</span><span class="sxs-lookup"><span data-stu-id="a8c61-148">View extended team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="a8c61-149">Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu.</span><span class="sxs-lookup"><span data-stu-id="a8c61-149">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="a8c61-150">Listi yfir meðlimi hóps birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-150">A list of team members is shown.</span></span> <span data-ttu-id="a8c61-151">Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.</span><span class="sxs-lookup"><span data-stu-id="a8c61-151">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+1.  <span data-ttu-id="a8c61-152">Veldu tengilinn **Beinar skýrslur**.</span><span class="sxs-lookup"><span data-stu-id="a8c61-152">Select the **Direct reports** link.</span></span> <span data-ttu-id="a8c61-153">Listi yfir alla meðlimi hóps birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-153">A list of your extended team is shown.</span></span>
+1.  <span data-ttu-id="a8c61-154">Velja meðlim hóps.</span><span class="sxs-lookup"><span data-stu-id="a8c61-154">Select a team member.</span></span> <span data-ttu-id="a8c61-155">Síðan **Samantekt hópmeðlims** birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-155">The **Team member summary** page appears.</span></span> <span data-ttu-id="a8c61-156">Á meðal upplýsinga á þessari síðu eru fæðingardagur hópmeðlims, starfsaldur, starfsreynsla, ár í núverandi stöðu og launaupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="a8c61-156">The information on this page includes the team member's birth date, seniority date, years of service, years in his or her current position, and compensation information.</span></span>
 
-## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>Senda hrós fyrir hópmeðlimi með því að nota fartækjavinnusvæðið Minn hópur
-1.  Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu. Listi yfir meðlimi hóps birtist. Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.
-1.  Velja meðlim hóps. Síðan **Samantekt hópmeðlims** birtist.
-1.  Veldu **Senda hrós**. 
-1. Sláðu inn texta hróssins sem þú vilt senda. 
-1. Velja **Ekkert**.
+## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="a8c61-157">Senda hrós fyrir hópmeðlimi með því að nota fartækjavinnusvæðið Minn hópur</span><span class="sxs-lookup"><span data-stu-id="a8c61-157">Send praise about team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="a8c61-158">Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu.</span><span class="sxs-lookup"><span data-stu-id="a8c61-158">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="a8c61-159">Listi yfir meðlimi hóps birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-159">A list of team members is shown.</span></span> <span data-ttu-id="a8c61-160">Listinn sýnir einnig titil hvers meðlims hóps og allar beinar skýrslur sem eru til um hann eða hana.</span><span class="sxs-lookup"><span data-stu-id="a8c61-160">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+1.  <span data-ttu-id="a8c61-161">Velja meðlim hóps.</span><span class="sxs-lookup"><span data-stu-id="a8c61-161">Select a team member.</span></span> <span data-ttu-id="a8c61-162">Síðan **Samantekt hópmeðlims** birtist.</span><span class="sxs-lookup"><span data-stu-id="a8c61-162">The **Team member summary** page appears.</span></span>
+1.  <span data-ttu-id="a8c61-163">Veldu **Senda hrós**.</span><span class="sxs-lookup"><span data-stu-id="a8c61-163">Select **Send praise**.</span></span> 
+1. <span data-ttu-id="a8c61-164">Sláðu inn texta hróssins sem þú vilt senda.</span><span class="sxs-lookup"><span data-stu-id="a8c61-164">Enter the text of the praise that you want to send.</span></span> 
+1. <span data-ttu-id="a8c61-165">Velja **Ekkert**.</span><span class="sxs-lookup"><span data-stu-id="a8c61-165">Select **Done**.</span></span>
 

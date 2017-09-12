@@ -16,40 +16,40 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 01fbf4964dfcecab272204db9c3f5068ca1879cb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Skrá vörumóttöku í innkaupapöntun
+# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="6cecb-103">Skrá vörumóttöku í innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="6cecb-103">Record the receipt of goods on the purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun. Einnig er hægt að skrá innhreyfingu afurða í vöruhúsinu og síðan síðar skrá hana í innkaupapöntun. Þetta verk er yfirleitt gert af innkaupaaðila eða af samræmingaraðila viðskiptaskulda. Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins. Dæmin inniheldur skref til að stofna einfalda innkaupapöntun, þannig að hægt er að spila ferlið sem leiðarvísi fyrir verk. Ef þú værir að nota ferlið á þín eigin gögn, myndirðu byrgja á undirverkinu Færsla innhreyfingar á vörum.
+<span data-ttu-id="6cecb-104">Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="6cecb-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="6cecb-105">Einnig er hægt að skrá innhreyfingu afurða í vöruhúsinu og síðan síðar skrá hana í innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="6cecb-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="6cecb-106">Þetta verk er yfirleitt gert af innkaupaaðila eða af samræmingaraðila viðskiptaskulda.</span><span class="sxs-lookup"><span data-stu-id="6cecb-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="6cecb-107">Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="6cecb-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="6cecb-108">Dæmin inniheldur skref til að stofna einfalda innkaupapöntun, þannig að hægt er að spila ferlið sem leiðarvísi fyrir verk.</span><span class="sxs-lookup"><span data-stu-id="6cecb-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="6cecb-109">Ef þú værir að nota ferlið á þín eigin gögn, myndirðu byrgja á undirverkinu Færsla innhreyfingar á vörum.</span><span class="sxs-lookup"><span data-stu-id="6cecb-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
 
 
-## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Undirbúa nýja innkaupapöntun vegna móttöku afurða.
-1. Fara í innkaup og aðföng > innkaupapöntun  > allar innkaupapantanir.
-2. Smellið á „Nýtt“.
-3. Í svæðinu Lánardrottnalykill skal slá inn 'US-101'.
-4. Smellið á „Í lagi“.
-5. Í svæðið vörunúmer sláið inn M0001.
-6. Í reitinn magn skal slá inn 5.
-7. Smellið á „Innkaup“ á aðgerðarúðunni.
-8. Smellið á „Staðfesta“.
+## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a><span data-ttu-id="6cecb-110">Undirbúa nýja innkaupapöntun vegna móttöku afurða.</span><span class="sxs-lookup"><span data-stu-id="6cecb-110">Prepare a new purchase order for receipt of goods</span></span>
+1. <span data-ttu-id="6cecb-111">Fara í innkaup og aðföng > innkaupapöntun  > allar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="6cecb-111">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="6cecb-112">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-112">Click New.</span></span>
+3. <span data-ttu-id="6cecb-113">Í svæðinu Lánardrottnalykill skal slá inn 'US-101'.</span><span class="sxs-lookup"><span data-stu-id="6cecb-113">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="6cecb-114">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-114">Click OK.</span></span>
+5. <span data-ttu-id="6cecb-115">Í svæðið vörunúmer sláið inn M0001.</span><span class="sxs-lookup"><span data-stu-id="6cecb-115">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="6cecb-116">Í reitinn magn skal slá inn 5.</span><span class="sxs-lookup"><span data-stu-id="6cecb-116">In the Quantity field, enter 5.</span></span>
+7. <span data-ttu-id="6cecb-117">Smellið á „Innkaup“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6cecb-117">On the Action Pane, click Purchase.</span></span>
+8. <span data-ttu-id="6cecb-118">Smellið á „Staðfesta“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-118">Click Confirm.</span></span>
 
-## <a name="record-receipt-of-goods"></a>Skrásetja viðtöku varnings
-1. Smellið á „Móttaka“ á aðgerðarúðunni.
-2. Smellið á „Innhreyfingarskjal“.
-    * Magnsvæðið leyfir þér að velja mismunandi valkosti fyrir það magn sem á að taka á móti. Til dæmis, ef áður hefur verið skráð magn í vöruhúsi, er hægt að velja Skráð magn .  Í þessu dæmis, notaðu gildið Pantað magn.   
-3. Í reitinn móttaka afurða skal slá inn hvaða gildi sem er.
-    * Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.  
-4. Stækka línuhlutann.
-5. Stillið magn á „4“.
-    * Hér er hægt að tilgreina handvirkt magn sem fæst fyrir hverja línu í pöntun.  
-6. Fella saman hlutann línur.
-7. Smellið á „Í lagi“.
-    * Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta. Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.  
+## <a name="record-receipt-of-goods"></a><span data-ttu-id="6cecb-119">Skrásetja viðtöku varnings</span><span class="sxs-lookup"><span data-stu-id="6cecb-119">Record receipt of goods</span></span>
+1. <span data-ttu-id="6cecb-120">Smellið á „Móttaka“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6cecb-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="6cecb-121">Smellið á „Innhreyfingarskjal“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-121">Click Product receipt.</span></span>
+    * <span data-ttu-id="6cecb-122">Magnsvæðið leyfir þér að velja mismunandi valkosti fyrir það magn sem á að taka á móti.</span><span class="sxs-lookup"><span data-stu-id="6cecb-122">The Quantity field allows you to select different options for the quantity that you want to receive.</span></span> <span data-ttu-id="6cecb-123">Til dæmis, ef áður hefur verið skráð magn í vöruhúsi, er hægt að velja Skráð magn .</span><span class="sxs-lookup"><span data-stu-id="6cecb-123">For example, if a quantity has previously been registered in the warehouse, you can select Registered quantity.</span></span>  <span data-ttu-id="6cecb-124">Í þessu dæmis, notaðu gildið Pantað magn.</span><span class="sxs-lookup"><span data-stu-id="6cecb-124">For this example, use the value Ordered quantity.</span></span>   
+3. <span data-ttu-id="6cecb-125">Í reitinn móttaka afurða skal slá inn hvaða gildi sem er.</span><span class="sxs-lookup"><span data-stu-id="6cecb-125">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="6cecb-126">Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.</span><span class="sxs-lookup"><span data-stu-id="6cecb-126">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+4. <span data-ttu-id="6cecb-127">Stækka línuhlutann.</span><span class="sxs-lookup"><span data-stu-id="6cecb-127">Expand the Lines section.</span></span>
+5. <span data-ttu-id="6cecb-128">Stillið magn á „4“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-128">Set Quantity to '4'.</span></span>
+    * <span data-ttu-id="6cecb-129">Hér er hægt að tilgreina handvirkt magn sem fæst fyrir hverja línu í pöntun.</span><span class="sxs-lookup"><span data-stu-id="6cecb-129">Here you are able to manually specify the quantity that is being received for each line on the order.</span></span>  
+6. <span data-ttu-id="6cecb-130">Fella saman hlutann línur.</span><span class="sxs-lookup"><span data-stu-id="6cecb-130">Collapse the Lines section.</span></span>
+7. <span data-ttu-id="6cecb-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6cecb-131">Click OK.</span></span>
+    * <span data-ttu-id="6cecb-132">Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta.</span><span class="sxs-lookup"><span data-stu-id="6cecb-132">The goods have now been recorded as received on the purchase order, and a product receipt journal has been created as document to reflect this.</span></span> <span data-ttu-id="6cecb-133">Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.</span><span class="sxs-lookup"><span data-stu-id="6cecb-133">You can use the Product receipt action to review the journals created with the purchase order, and see what was received, and when.</span></span>  
 
 

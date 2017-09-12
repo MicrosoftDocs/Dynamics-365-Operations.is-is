@@ -16,60 +16,60 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 492e4a94ec0caef8c51a691043a1ffb9e6a04758
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Stofna og úthluta kostnaðardreifingarreglu fyrir kostnaðarstýringareiningu
+# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a><span data-ttu-id="9dbad-103">Stofna og úthluta kostnaðardreifingarreglu fyrir kostnaðarstýringareiningu</span><span class="sxs-lookup"><span data-stu-id="9dbad-103">Create and assign a cost distribution policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kostnaðardreifingarreglur eru notaðar til að dreifa kostnaði sem hefur verið fjárhagslega talinn á sameiginlegum kostnaðarstað. Endurskoðandi kostnaðar gengur úr skugga um að kostnaði sé dreift til kostnaðarstaða, út frá völdum úthlutunargrunni. Stefna og samsvarandi reglur er úthlutað til kostnaðarstýringareiningar. Þessar verkefnaleiðbeiningar nota dæmi til að sýna hvernig skal stofna kostnaðardreifingarstefnu og samsvarandi reglur.
+<span data-ttu-id="9dbad-104">Kostnaðardreifingarreglur eru notaðar til að dreifa kostnaði sem hefur verið fjárhagslega talinn á sameiginlegum kostnaðarstað.</span><span class="sxs-lookup"><span data-stu-id="9dbad-104">Cost distribution rules are used to distribute costs that have been financially counted on a collective cost center.</span></span> <span data-ttu-id="9dbad-105">Endurskoðandi kostnaðar gengur úr skugga um að kostnaði sé dreift til kostnaðarstaða, út frá völdum úthlutunargrunni.</span><span class="sxs-lookup"><span data-stu-id="9dbad-105">The cost accountant makes sure that the cost is distributed to the cost centers, based on the selected allocation base.</span></span> <span data-ttu-id="9dbad-106">Stefna og samsvarandi reglur er úthlutað til kostnaðarstýringareiningar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-106">A policy and the corresponding rules are assigned to a cost control unit.</span></span> <span data-ttu-id="9dbad-107">Þessar verkefnaleiðbeiningar nota dæmi til að sýna hvernig skal stofna kostnaðardreifingarstefnu og samsvarandi reglur.</span><span class="sxs-lookup"><span data-stu-id="9dbad-107">This task guide uses an example to show how to create a cost distribution policy and the corresponding rules.</span></span>
 
 
-## <a name="create-a-policy"></a>Stofna Stefnu
-1. Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðardreifingu.
-2. Smellið á „Nýtt“.
-3. Sláið inn gildi í reitinn Stefnuheiti.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.
-    * Velja Fyrirtæki  
-6. Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.
-    * Velja CDS P/L.  
-7. Sláið inn eða veljið gildi í reitnum Tölfræðileg vídd.
-    * Velja skal Tölfræðilegar einingar.  
-8. Smellið á „Vista“.
+## <a name="create-a-policy"></a><span data-ttu-id="9dbad-108">Stofna Stefnu</span><span class="sxs-lookup"><span data-stu-id="9dbad-108">Create a policy</span></span>
+1. <span data-ttu-id="9dbad-109">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðardreifingu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-109">Go to Cost accounting > Policies > Cost distribution policies.</span></span>
+2. <span data-ttu-id="9dbad-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-110">Click New.</span></span>
+3. <span data-ttu-id="9dbad-111">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="9dbad-111">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="9dbad-112">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9dbad-113">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-113">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-114">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="9dbad-114">Select Organization.</span></span>  
+6. <span data-ttu-id="9dbad-115">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-115">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-116">Velja CDS P/L.</span><span class="sxs-lookup"><span data-stu-id="9dbad-116">Select CDS P/L.</span></span>  
+7. <span data-ttu-id="9dbad-117">Sláið inn eða veljið gildi í reitnum Tölfræðileg vídd.</span><span class="sxs-lookup"><span data-stu-id="9dbad-117">In the Statistical dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-118">Velja skal Tölfræðilegar einingar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-118">Select Statistical elements.</span></span>  
+8. <span data-ttu-id="9dbad-119">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-119">Click Save.</span></span>
 
-## <a name="create-rules-for-the-policy"></a>Stofna reglur fyrir stefnuna
-1. Smellið á „Nýtt“.
-2. Í listanum skal merkja valda línu.
-3. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
-    * Útvíkka stigveldið til að velja 094.  
-4. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.
-    * Velja Annar rekstrarkostnaður og veljið síðan 605110 Hreinsun.  
-5. Veljið valkost í svæðinu Kostnaðarhegðun.
-    * Velja Fastur kostnaður.  
-6. Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.
-7. Smellið á „Nýtt“.
-8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
-    * Útvíkka stigveldið til að velja 094.  
-10. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.
-    * Velja Annar rekstrarkostnaður og veljið síðan 605150 Leiga.  
-11. Veljið valkost í svæðinu Kostnaðarhegðun.
-    * Velja Fastur kostnaður.  
-12. Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.
-13. Smellið á „Vista“.
+## <a name="create-rules-for-the-policy"></a><span data-ttu-id="9dbad-120">Stofna reglur fyrir stefnuna</span><span class="sxs-lookup"><span data-stu-id="9dbad-120">Create rules for the policy</span></span>
+1. <span data-ttu-id="9dbad-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-121">Click New.</span></span>
+2. <span data-ttu-id="9dbad-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-122">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="9dbad-123">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-123">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-124">Útvíkka stigveldið til að velja 094.</span><span class="sxs-lookup"><span data-stu-id="9dbad-124">Expand the hierarchy to select 094.</span></span>  
+4. <span data-ttu-id="9dbad-125">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-125">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-126">Velja Annar rekstrarkostnaður og veljið síðan 605110 Hreinsun.</span><span class="sxs-lookup"><span data-stu-id="9dbad-126">Select Other operating expenses and then select 605110 Cleaning.</span></span>  
+5. <span data-ttu-id="9dbad-127">Veljið valkost í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="9dbad-127">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="9dbad-128">Velja Fastur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="9dbad-128">Select Fixed cost.</span></span>  
+6. <span data-ttu-id="9dbad-129">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="9dbad-129">In the Allocation base field, enter or select a value.</span></span>
+7. <span data-ttu-id="9dbad-130">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-130">Click New.</span></span>
+8. <span data-ttu-id="9dbad-131">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-131">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="9dbad-132">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-132">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-133">Útvíkka stigveldið til að velja 094.</span><span class="sxs-lookup"><span data-stu-id="9dbad-133">Expand the hierarchy to select 094.</span></span>  
+10. <span data-ttu-id="9dbad-134">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="9dbad-134">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="9dbad-135">Velja Annar rekstrarkostnaður og veljið síðan 605150 Leiga.</span><span class="sxs-lookup"><span data-stu-id="9dbad-135">Select Other operating expenses and then select 605150 Rent.</span></span>  
+11. <span data-ttu-id="9dbad-136">Veljið valkost í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="9dbad-136">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="9dbad-137">Velja Fastur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="9dbad-137">Select Fixed cost.</span></span>  
+12. <span data-ttu-id="9dbad-138">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="9dbad-138">In the Allocation base field, enter or select a value.</span></span>
+13. <span data-ttu-id="9dbad-139">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-139">Click Save.</span></span>
 
-## <a name="assign-rules-to-a-cost-control-unit"></a>Úthluta reglum til kostnaðarstýringareiningar
-1. Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.
-2. Smellið á „Nýtt“.
-3. Í listanum skal merkja valda línu.
-4. Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.
-    * Velja 1. september í gildu fjárhagsárinu.  
-5. Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.
-6. Smellið á „Vista“.
+## <a name="assign-rules-to-a-cost-control-unit"></a><span data-ttu-id="9dbad-140">Úthluta reglum til kostnaðarstýringareiningar</span><span class="sxs-lookup"><span data-stu-id="9dbad-140">Assign rules to a cost control unit</span></span>
+1. <span data-ttu-id="9dbad-141">Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-141">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="9dbad-142">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-142">Click New.</span></span>
+3. <span data-ttu-id="9dbad-143">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-143">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="9dbad-144">Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="9dbad-144">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="9dbad-145">Velja 1. september í gildu fjárhagsárinu.</span><span class="sxs-lookup"><span data-stu-id="9dbad-145">Select September 1 in the valid fiscal year.</span></span>  
+5. <span data-ttu-id="9dbad-146">Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="9dbad-146">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="9dbad-147">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9dbad-147">Click Save.</span></span>
 
 

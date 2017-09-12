@@ -16,38 +16,38 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: c77173c5dd9f0513de5d794f7453715ceff550da
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
 ms.contentlocale: is-is
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Búa til gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðsbeiðnir
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="f1216-103">Búa til gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðsbeiðnir</span><span class="sxs-lookup"><span data-stu-id="f1216-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessari handbók sýnir hvernig á að stofna gerð beiðni og tengja þetta við aðferð við stigagjöf. Hún sýnir einnig hvernig á að nota gerð beiðni fyrir beiðni um tilboð (BUT) sem ákvarðar síðan sjálfgefna aðferð við stigagjöf. Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú þarft að hafa aðferð við stigagjöf tiltækt áður en byrjað er.
+<span data-ttu-id="f1216-104">Þessari handbók sýnir hvernig á að stofna gerð beiðni og tengja þetta við aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="f1216-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="f1216-105">Hún sýnir einnig hvernig á að nota gerð beiðni fyrir beiðni um tilboð (BUT) sem ákvarðar síðan sjálfgefna aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="f1216-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="f1216-106">Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra.</span><span class="sxs-lookup"><span data-stu-id="f1216-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="f1216-107">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="f1216-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f1216-108">Þú þarft að hafa aðferð við stigagjöf tiltækt áður en byrjað er.</span><span class="sxs-lookup"><span data-stu-id="f1216-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a>Stofna gerð beiðnar
-1. Farið í Innkaup og aðföng > Uppsetning > Tilboðsbeiðni > Gerð beiðni.
-2. Smellið á „Nýtt“.
-3. Í reitinn Heiti skal slá inn gildi.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í svæðinu aðferð við Stigagjöf, skal velja stigagjöf sem á að nota fyrir þessa gerð beiðni.
-6. Smellið á „Vista“.
-7. Lokið síðunni.
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="f1216-109">Stofna gerð beiðnar</span><span class="sxs-lookup"><span data-stu-id="f1216-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="f1216-110">Farið í Innkaup og aðföng > Uppsetning > Tilboðsbeiðni > Gerð beiðni.</span><span class="sxs-lookup"><span data-stu-id="f1216-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="f1216-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="f1216-111">Click New.</span></span>
+3. <span data-ttu-id="f1216-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f1216-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="f1216-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="f1216-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f1216-114">Í svæðinu aðferð við Stigagjöf, skal velja stigagjöf sem á að nota fyrir þessa gerð beiðni.</span><span class="sxs-lookup"><span data-stu-id="f1216-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="f1216-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f1216-115">Click Save.</span></span>
+7. <span data-ttu-id="f1216-116">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f1216-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a>Nota Gerð beiðni
-1. Fara í innkaup og aðföng  > Beiðnir um tilboð  > Allar beiðnir um tilboð.
-2. Smellið á „Nýtt“.
-3. Í reitnum gerð beiðni skal velja gerð beiðni sem þú varst að stofna. 
-4. Smellið á „Í lagi“.
-5. Afrita skilyrði fyrir stigagjöf
-    * Sýndar stigagjafir eru þær sem koma úr aðferð við stigagjöf sem þú tengdir við gerð beiðninnar. Hægt er að velja að bæta við eða eyða skilyrði á þessari síðu. Einnig er hægt að bæta við nýjum skilyrði með því að afrita þær frá öðrum aðferðir við stigagjöf .  
-6. Smella á Afrita skilyrði
-7. Færa inn eða velja gildi í reitnum aðferð við stigagjöf.
-8. Smellið á „Í lagi“.
-9. Lokið síðunni.
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="f1216-117">Nota Gerð beiðni</span><span class="sxs-lookup"><span data-stu-id="f1216-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="f1216-118">Fara í innkaup og aðföng  > Beiðnir um tilboð  > Allar beiðnir um tilboð.</span><span class="sxs-lookup"><span data-stu-id="f1216-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="f1216-119">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="f1216-119">Click New.</span></span>
+3. <span data-ttu-id="f1216-120">Í reitnum gerð beiðni skal velja gerð beiðni sem þú varst að stofna.</span><span class="sxs-lookup"><span data-stu-id="f1216-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+4. <span data-ttu-id="f1216-121">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="f1216-121">Click OK.</span></span>
+5. <span data-ttu-id="f1216-122">Afrita skilyrði fyrir stigagjöf</span><span class="sxs-lookup"><span data-stu-id="f1216-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="f1216-123">Sýndar stigagjafir eru þær sem koma úr aðferð við stigagjöf sem þú tengdir við gerð beiðninnar.</span><span class="sxs-lookup"><span data-stu-id="f1216-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="f1216-124">Hægt er að velja að bæta við eða eyða skilyrði á þessari síðu.</span><span class="sxs-lookup"><span data-stu-id="f1216-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="f1216-125">Einnig er hægt að bæta við nýjum skilyrði með því að afrita þær frá öðrum aðferðir við stigagjöf .</span><span class="sxs-lookup"><span data-stu-id="f1216-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="f1216-126">Smella á Afrita skilyrði</span><span class="sxs-lookup"><span data-stu-id="f1216-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="f1216-127">Færa inn eða velja gildi í reitnum aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="f1216-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="f1216-128">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="f1216-128">Click OK.</span></span>
+9. <span data-ttu-id="f1216-129">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f1216-129">Close the page.</span></span>
 
 

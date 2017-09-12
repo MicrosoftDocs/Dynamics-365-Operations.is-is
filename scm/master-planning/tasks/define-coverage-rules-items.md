@@ -16,96 +16,96 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3b34d2c35bc96cf75e9e699b835f7bcbbce1312b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-coverage-rules-for-items"></a>Skilgreina þekjureglur fyrir vörur
+# <a name="define-coverage-rules-for-items"></a><span data-ttu-id="90e89-103">Skilgreina þekjureglur fyrir vörur</span><span class="sxs-lookup"><span data-stu-id="90e89-103">Define coverage rules for items</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli sýnir hvernig á að stofna þekjureglur og hnekkja þekjustillingum fyrir tiltekna vöru. Hún sýnir einnig hvernig á að tilgreina sjálfgefnar birgðastillingar.
+<span data-ttu-id="90e89-104">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="90e89-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="90e89-105">Þetta ferli sýnir hvernig á að stofna þekjureglur og hnekkja þekjustillingum fyrir tiltekna vöru.</span><span class="sxs-lookup"><span data-stu-id="90e89-105">This procedure shows how to create coverage rules and override coverage settings for a specific item.</span></span> <span data-ttu-id="90e89-106">Hún sýnir einnig hvernig á að tilgreina sjálfgefnar birgðastillingar.</span><span class="sxs-lookup"><span data-stu-id="90e89-106">It also shows how to specify default inventory settings.</span></span>
 
 
-## <a name="create-a-coverage-group"></a>Stofna þekjuflokk
-1. Fara í þekjuflokka.
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í svæðinu Þekjuflokkur.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Í reitinn Dagatal skal slá inn gildi.
-    * Velja dagatalið sem aðaláætlanagerð notar til að stofna tillögur um áfyllingu fyrir vörur í þessum flokki.  
-6. Veljið valkost í svæðinu Þekjukóði.
-    * Veljið Þarfir fyrir þessa færslu.  
-7. Í reitnum Tímamörk tryggingar (dagar) skal slá inn ‚90‘.
-    * Fyrir vörur í þessum flokki, mun aðaláætlanagerð stofna tillögur að áfyllingu fyrir upp að 90 daga til framtíðar.  
-8. Fært er inn 1 í reitinn Neikvætt Dagar.
-9. Fært er inn 1 í reitinn Jákvætt Dagar.
-10. Stækka eða fella saman hlutann Annað.
-11. Í svæðinu Mörk innhreyfinga bætt við dagsetningu þarfa, færðu inn 1.
-    * Til dæmis, ef mörk innhreyfinga eru stillt á 1 dag og innkaupapöntunarlína er áætluð til móttöku þann 15. maí reikna mörk innhreyfinga móttökudagsetningu sem 16. maí.  
-12. Í svæðinu Mörk úthreyfinga dregin af dagsetningu þarfa skal færa inn 1.
-    * Til dæmis, ef öryggismörk eru stillt á 1 dag og sölupöntunarlína er áætluð til afhendingar þann 15. maí reiknar röðun leiðrétta móttökudagsetningu sem 14. maí.  
-13. Í svæðinu Endurpöntunarmagni bætt við afhendingartíma vöru skal færa inn 1.
-14. Smellið á „Vista“.
+## <a name="create-a-coverage-group"></a><span data-ttu-id="90e89-107">Stofna þekjuflokk</span><span class="sxs-lookup"><span data-stu-id="90e89-107">Create a coverage group</span></span>
+1. <span data-ttu-id="90e89-108">Fara í þekjuflokka.</span><span class="sxs-lookup"><span data-stu-id="90e89-108">Go to Coverage groups.</span></span>
+2. <span data-ttu-id="90e89-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="90e89-109">Click New.</span></span>
+3. <span data-ttu-id="90e89-110">Færa inn gildi í svæðinu Þekjuflokkur.</span><span class="sxs-lookup"><span data-stu-id="90e89-110">In the Coverage group field, type a value.</span></span>
+4. <span data-ttu-id="90e89-111">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="90e89-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="90e89-112">Í reitinn Dagatal skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="90e89-112">In the Calendar field, type a value.</span></span>
+    * <span data-ttu-id="90e89-113">Velja dagatalið sem aðaláætlanagerð notar til að stofna tillögur um áfyllingu fyrir vörur í þessum flokki.</span><span class="sxs-lookup"><span data-stu-id="90e89-113">Choose the calendar that master planning uses to create replenishment suggestions for items in this group.</span></span>  
+6. <span data-ttu-id="90e89-114">Veljið valkost í svæðinu Þekjukóði.</span><span class="sxs-lookup"><span data-stu-id="90e89-114">In the Coverage code field, select an option.</span></span>
+    * <span data-ttu-id="90e89-115">Veljið Þarfir fyrir þessa færslu.</span><span class="sxs-lookup"><span data-stu-id="90e89-115">Select Requirement for this procedure.</span></span>  
+7. <span data-ttu-id="90e89-116">Í reitnum Tímamörk tryggingar (dagar) skal slá inn ‚90‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-116">In the Coverage time fence (days) field, enter '90'.</span></span>
+    * <span data-ttu-id="90e89-117">Fyrir vörur í þessum flokki, mun aðaláætlanagerð stofna tillögur að áfyllingu fyrir upp að 90 daga til framtíðar.</span><span class="sxs-lookup"><span data-stu-id="90e89-117">For items in this group, master planning will create replenishment suggestions for up to 90 days in the future.</span></span>  
+8. <span data-ttu-id="90e89-118">Fært er inn 1 í reitinn Neikvætt Dagar.</span><span class="sxs-lookup"><span data-stu-id="90e89-118">In the Negative days field, enter '1'.</span></span>
+9. <span data-ttu-id="90e89-119">Fært er inn 1 í reitinn Jákvætt Dagar.</span><span class="sxs-lookup"><span data-stu-id="90e89-119">In the Positive days field, enter '1'.</span></span>
+10. <span data-ttu-id="90e89-120">Stækka eða fella saman hlutann Annað.</span><span class="sxs-lookup"><span data-stu-id="90e89-120">Expand or collapse the Other section.</span></span>
+11. <span data-ttu-id="90e89-121">Í svæðinu Mörk innhreyfinga bætt við dagsetningu þarfa, færðu inn 1.</span><span class="sxs-lookup"><span data-stu-id="90e89-121">In the Receipt margin added to requirement date field, enter '1'.</span></span>
+    * <span data-ttu-id="90e89-122">Til dæmis, ef mörk innhreyfinga eru stillt á 1 dag og innkaupapöntunarlína er áætluð til móttöku þann 15. maí reikna mörk innhreyfinga móttökudagsetningu sem 16. maí.</span><span class="sxs-lookup"><span data-stu-id="90e89-122">For example, if the receipt margin is set to 1 day, and a purchase order line is scheduled for receipt on May 15, master planning calculates the adjusted receipt date as May 16.</span></span>  
+12. <span data-ttu-id="90e89-123">Í svæðinu Mörk úthreyfinga dregin af dagsetningu þarfa skal færa inn 1.</span><span class="sxs-lookup"><span data-stu-id="90e89-123">In the Issue margin deducted from requirement date field, enter '1'.</span></span>
+    * <span data-ttu-id="90e89-124">Til dæmis, ef öryggismörk eru stillt á 1 dag og sölupöntunarlína er áætluð til afhendingar þann 15. maí reiknar röðun leiðrétta móttökudagsetningu sem 14. maí.</span><span class="sxs-lookup"><span data-stu-id="90e89-124">For example, if the safety margin is set to 1 day, and a sales order line is scheduled for delivery on May 15, master scheduling calculates the adjusted delivery date as May 14.</span></span>  
+13. <span data-ttu-id="90e89-125">Í svæðinu Endurpöntunarmagni bætt við afhendingartíma vöru skal færa inn 1.</span><span class="sxs-lookup"><span data-stu-id="90e89-125">In the Reorder margin added to item lead time field, enter '1'.</span></span>
+14. <span data-ttu-id="90e89-126">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="90e89-126">Click Save.</span></span>
 
-## <a name="create-a-new-product"></a>Stofna nýja afurð
-1. Farðu í Losaðar afurðir.
-2. Smellið á „Nýtt“.
-3. Í reitinn Afurðarnúmer skal slá inn gildi.
-4. Sláið inn gildi í reitinn Afurðarheiti.
-5. Í reitnum Vörulíkanaflokkur skal smella á fellilistahnappinn til að opna leitina.
-6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-7. Í listanum skal smella á tengilinn í valinni línu.
-8. Í reitnum Vöruflokkur skal smella á fellilistahnappinn til að opna leitina.
-9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-10. Í listanum skal smella á tengilinn í valinni línu.
-11. Í reitnum Geymsluvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-13. Í listanum skal smella á tengilinn í valinni línu.
-14. Í reitnum Rakningarvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-15. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-16. Í listanum skal smella á tengilinn í valinni línu.
-17. Smellið á „Í lagi“.
+## <a name="create-a-new-product"></a><span data-ttu-id="90e89-127">Stofna nýja afurð</span><span class="sxs-lookup"><span data-stu-id="90e89-127">Create a new product</span></span>
+1. <span data-ttu-id="90e89-128">Farðu í Losaðar afurðir.</span><span class="sxs-lookup"><span data-stu-id="90e89-128">Go to Released products.</span></span>
+2. <span data-ttu-id="90e89-129">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="90e89-129">Click New.</span></span>
+3. <span data-ttu-id="90e89-130">Í reitinn Afurðarnúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="90e89-130">In the Product number field, type a value.</span></span>
+4. <span data-ttu-id="90e89-131">Sláið inn gildi í reitinn Afurðarheiti.</span><span class="sxs-lookup"><span data-stu-id="90e89-131">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="90e89-132">Í reitnum Vörulíkanaflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="90e89-132">In the Item model group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="90e89-133">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="90e89-133">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="90e89-134">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="90e89-134">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="90e89-135">Í reitnum Vöruflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="90e89-135">In the Item group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="90e89-136">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="90e89-136">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="90e89-137">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="90e89-137">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="90e89-138">Í reitnum Geymsluvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="90e89-138">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="90e89-139">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="90e89-139">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="90e89-140">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="90e89-140">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="90e89-141">Í reitnum Rakningarvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="90e89-141">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="90e89-142">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="90e89-142">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="90e89-143">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="90e89-143">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="90e89-144">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="90e89-144">Click OK.</span></span>
 
-## <a name="setup-default-order-settings"></a>Setja upp sjálfgefnar pöntunarstillingar
-1. Smellið á „Áætlun“ á aðgerðarúðunni.
-2. Smellt er á sjálfgefnar pöntunarstillingar.
-3. Í svæðinu innkaupasvæði, færðu inn svæðið sem er notað sem sjálfgefið þegar innkaupapantanir eru stofnaðar.
-4. Í reitnum Birgðasvæði skal slá inn staðinn þar sem varan er geymd.
-5. Stækka eða fella saman hlutann Birgðir.
-6. Margir er stillt á '10'.
-7. Setja lágm. pöntunarmagn á ‚10‘.
-8. Setja Hám. pöntunarmagn á ‚100‘.
-9. Stilltu staðlað pöntunarmagn á ‚10‘.
-10. Í reitinn Afhendingartími innkaupa skal slá inn númer.
-11. Velja skal eða hreinsa gátreitinn Vinnudagar.
-12. Smellið á „Vista“.
-13. Í reitnum sjálfgefin gerð pöntunar velurðu „Innkaupapantanir“.
-14. Smellið á „Vista“.
-15. Lokið síðunni.
-    * Lokaðu skjámyndinni Sjálfgefnar pöntunarstillingar.  
+## <a name="setup-default-order-settings"></a><span data-ttu-id="90e89-145">Setja upp sjálfgefnar pöntunarstillingar</span><span class="sxs-lookup"><span data-stu-id="90e89-145">Setup default order settings</span></span>
+1. <span data-ttu-id="90e89-146">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="90e89-146">On the Action Pane, click Plan.</span></span>
+2. <span data-ttu-id="90e89-147">Smellt er á sjálfgefnar pöntunarstillingar.</span><span class="sxs-lookup"><span data-stu-id="90e89-147">Click Default order settings.</span></span>
+3. <span data-ttu-id="90e89-148">Í svæðinu innkaupasvæði, færðu inn svæðið sem er notað sem sjálfgefið þegar innkaupapantanir eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="90e89-148">In the Purchase site field, type the site used as default when purchase orders are created.</span></span>
+4. <span data-ttu-id="90e89-149">Í reitnum Birgðasvæði skal slá inn staðinn þar sem varan er geymd.</span><span class="sxs-lookup"><span data-stu-id="90e89-149">In the Inventory site field, type the site where the item is stored.</span></span>
+5. <span data-ttu-id="90e89-150">Stækka eða fella saman hlutann Birgðir.</span><span class="sxs-lookup"><span data-stu-id="90e89-150">Expand or collapse the Inventory section.</span></span>
+6. <span data-ttu-id="90e89-151">Margir er stillt á '10'.</span><span class="sxs-lookup"><span data-stu-id="90e89-151">Set Multiple to '10'.</span></span>
+7. <span data-ttu-id="90e89-152">Setja lágm.</span><span class="sxs-lookup"><span data-stu-id="90e89-152">Set Min.</span></span> <span data-ttu-id="90e89-153">pöntunarmagn á ‚10‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-153">order quantity to '10'.</span></span>
+8. <span data-ttu-id="90e89-154">Setja Hám.</span><span class="sxs-lookup"><span data-stu-id="90e89-154">Set Max.</span></span> <span data-ttu-id="90e89-155">pöntunarmagn á ‚100‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-155">order quantity to '100'.</span></span>
+9. <span data-ttu-id="90e89-156">Stilltu staðlað pöntunarmagn á ‚10‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-156">Set Standard order quantity to '10'.</span></span>
+10. <span data-ttu-id="90e89-157">Í reitinn Afhendingartími innkaupa skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="90e89-157">In the Purchase lead time field, enter a number.</span></span>
+11. <span data-ttu-id="90e89-158">Velja skal eða hreinsa gátreitinn Vinnudagar.</span><span class="sxs-lookup"><span data-stu-id="90e89-158">Select or clear the Working days check box.</span></span>
+12. <span data-ttu-id="90e89-159">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="90e89-159">Click Save.</span></span>
+13. <span data-ttu-id="90e89-160">Í reitnum sjálfgefin gerð pöntunar velurðu „Innkaupapantanir“.</span><span class="sxs-lookup"><span data-stu-id="90e89-160">In the Default order type field select 'Purchase order'.</span></span>
+14. <span data-ttu-id="90e89-161">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="90e89-161">Click Save.</span></span>
+15. <span data-ttu-id="90e89-162">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="90e89-162">Close the page.</span></span>
+    * <span data-ttu-id="90e89-163">Lokaðu skjámyndinni Sjálfgefnar pöntunarstillingar.</span><span class="sxs-lookup"><span data-stu-id="90e89-163">Close the Default order settings page.</span></span>  
 
-## <a name="add-an-item-to-a-coverage-group"></a>Bæta vöru við þekjuflokk
-1. Stækka eða fella saman hlutann Áætlun.
-2. Í reitnum Þekjuflokkur skal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum, Finna þekjuflokk sem hafa verið stofnaðar.
-4. Í listanum skal smella á tengilinn í valinni línu.
+## <a name="add-an-item-to-a-coverage-group"></a><span data-ttu-id="90e89-164">Bæta vöru við þekjuflokk</span><span class="sxs-lookup"><span data-stu-id="90e89-164">Add an item to a coverage group</span></span>
+1. <span data-ttu-id="90e89-165">Stækka eða fella saman hlutann Áætlun.</span><span class="sxs-lookup"><span data-stu-id="90e89-165">Expand or collapse the Plan section.</span></span>
+2. <span data-ttu-id="90e89-166">Í reitnum Þekjuflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="90e89-166">In the Coverage group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="90e89-167">Í listanum, Finna þekjuflokk sem hafa verið stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="90e89-167">In the list, find the Coverage group you have created.</span></span>
+4. <span data-ttu-id="90e89-168">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="90e89-168">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-item-coverage-rules"></a>Stofna þekjureglur vöru
-1. Smellið á „Áætlun“ á aðgerðarúðunni.
-2. Smellt er á vöruþekju.
-3. Smellið á „Nýtt“.
-4. Smellið á flipann „Almennt“.
-5. Merkið við gátreitinn á haus Hnekking þekjuflokks.
-6. Í reitnum Tímamörk tryggingar (dagar) skal slá inn ‚60‘.
-    * Jafnvel þótt vörur í þekjuflokki Þarfir séu áætlaðar 90 daga fram í tímann, verður varan áætluð 60 daga fram í tímann.  
-7. Fært er inn 2 í reitinn Neikvætt Dagar.
-8. Fært er inn 2 í reitinn Jákvætt Dagar.
-9. Smellt er á flipanum afhendingartími.
-10. Merktu í reitinn í haus Innkaupa.
-11. Í reitnum Innkaupatími skal slá inn ‚5‘.
-12. Smellið á „Vista“.
+## <a name="create-item-coverage-rules"></a><span data-ttu-id="90e89-169">Stofna þekjureglur vöru</span><span class="sxs-lookup"><span data-stu-id="90e89-169">Create item coverage rules</span></span>
+1. <span data-ttu-id="90e89-170">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="90e89-170">On the Action Pane, click Plan.</span></span>
+2. <span data-ttu-id="90e89-171">Smellt er á vöruþekju.</span><span class="sxs-lookup"><span data-stu-id="90e89-171">Click Item coverage.</span></span>
+3. <span data-ttu-id="90e89-172">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="90e89-172">Click New.</span></span>
+4. <span data-ttu-id="90e89-173">Smellið á flipann „Almennt“.</span><span class="sxs-lookup"><span data-stu-id="90e89-173">Click the General tab.</span></span>
+5. <span data-ttu-id="90e89-174">Merkið við gátreitinn á haus Hnekking þekjuflokks.</span><span class="sxs-lookup"><span data-stu-id="90e89-174">Check the box on the header of Override coverage group settings.</span></span>
+6. <span data-ttu-id="90e89-175">Í reitnum Tímamörk tryggingar (dagar) skal slá inn ‚60‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-175">In the Coverage time fence (days) field, enter '60'.</span></span>
+    * <span data-ttu-id="90e89-176">Jafnvel þótt vörur í þekjuflokki Þarfir séu áætlaðar 90 daga fram í tímann, verður varan áætluð 60 daga fram í tímann.</span><span class="sxs-lookup"><span data-stu-id="90e89-176">Although items in coverage group Requiremen are planned 90 days ahead, this item will be planned 60 days ahead.</span></span>  
+7. <span data-ttu-id="90e89-177">Fært er inn 2 í reitinn Neikvætt Dagar.</span><span class="sxs-lookup"><span data-stu-id="90e89-177">In the Negative days field, enter '2'.</span></span>
+8. <span data-ttu-id="90e89-178">Fært er inn 2 í reitinn Jákvætt Dagar.</span><span class="sxs-lookup"><span data-stu-id="90e89-178">In the Positive days field, enter '2'.</span></span>
+9. <span data-ttu-id="90e89-179">Smellt er á flipanum afhendingartími.</span><span class="sxs-lookup"><span data-stu-id="90e89-179">Click the Lead time tab.</span></span>
+10. <span data-ttu-id="90e89-180">Merktu í reitinn í haus Innkaupa.</span><span class="sxs-lookup"><span data-stu-id="90e89-180">Check the box on the header of Purchase.</span></span>
+11. <span data-ttu-id="90e89-181">Í reitnum Innkaupatími skal slá inn ‚5‘.</span><span class="sxs-lookup"><span data-stu-id="90e89-181">In the Purchase time field, enter '5'.</span></span>
+12. <span data-ttu-id="90e89-182">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="90e89-182">Click Save.</span></span>
 
 

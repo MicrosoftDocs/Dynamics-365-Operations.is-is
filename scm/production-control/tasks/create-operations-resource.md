@@ -17,67 +17,67 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 12e4a93f908c348a848e056df00115bf2dc50635
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e05eb5df2d29e90ed24fb13ed16543ad470dfe6b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-operations-resource"></a>Stofna rekstrartilföng
+# <a name="create-an-operations-resource"></a><span data-ttu-id="5da37-103">Stofna rekstrartilföng</span><span class="sxs-lookup"><span data-stu-id="5da37-103">Create an operations resource</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli. Þessi ferli sýnir hvernig á að skilgreina gæðapöntun. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+<span data-ttu-id="5da37-104">Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="5da37-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="5da37-105">Þessi ferli sýnir hvernig á að skilgreina gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="5da37-105">This procedures shows you how to define an operations resource.</span></span> <span data-ttu-id="5da37-106">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="5da37-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. Fara á tilföng
-2. Smellið á „Nýtt“.
-3. Í reitinn Tilfang skal slá inn gildi.
-4. Sláið inn gildi í reitnum „Lýsing“.
+1. <span data-ttu-id="5da37-107">Fara á tilföng</span><span class="sxs-lookup"><span data-stu-id="5da37-107">Go to Resources.</span></span>
+2. <span data-ttu-id="5da37-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="5da37-108">Click New.</span></span>
+3. <span data-ttu-id="5da37-109">Í reitinn Tilfang skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="5da37-109">In the Resource field, type a value.</span></span>
+4. <span data-ttu-id="5da37-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="5da37-110">In the Description field, type a value.</span></span>
 
-## <a name="define-capacity-and-consumption-parameters"></a>Skilgreina afkastageta og notkunarfæribreytur
-1. Stækka hlutann aðgerð.
-2. Færið inn tölu í reitinn úrkastsprósenta.
-3. Sláið inn eða veldu gildi í reitnum Setja upp flokkur.
-    * Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein fyrir kostnað við uppsetningu.  
-4. Færa inn eða veljið gildi í reitinn flokkur keyrslutíma
-    * Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein fyrir kostnað við keyrslutíma.  
-5. Sláið inn eða veldu gildi í reitnum magntegund.
-    * Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein kostnaði vegna tilfanga á grundvelli úttaksmagns.  
-6. Í reitnum Eining afkastagetu skal velja valkost.
-    * Tilgreinið eininguna til að sýna afkastagetu rekstrartilfanga.  
-7. Í reitinn Afkastageta skal slá inn tölu.
-8. Færið inn tölu í reitinn Skilvirkniprósenta.
-    * Tilgreina skilvirkni sem búist er við frá rekstrartilföng. Skilvirkniprósenta leiðréttir gegnumstreymi rekstrartilfanga og hefur áhrif á tíma sem er frátekin fyrir tilfang.  
-9. Færið inn tölu í Aðgerðaröðun prósentusvæðinu.
-    * Tilgreinið hámarkshlutfall afkastagetu rekstrartilfanga sem á að nota í aðgerðaröðun.  
-10. Veljið Já í svæðinu takmörkuð Afkastageta.
-    * Þessi valkostur stilltur á Já ef rekstrartilföng skuli raðað á grundvelli raunverulega afkastagetu sem er tiltækt, og ef taka skal tillit til fyrirliggjandi frátekningar á afkastagetu. Ef þessi valkostur er stilltur á Nei,  er gert ráð fyrir að rekstrartilföng hafa ótakmarkaða afköst, og gæti tilföngin gætu verið yfirbókaður.  
-11. Velja skal Já í svæðinu Flöskuhálstilfang.
+## <a name="define-capacity-and-consumption-parameters"></a><span data-ttu-id="5da37-111">Skilgreina afkastageta og notkunarfæribreytur</span><span class="sxs-lookup"><span data-stu-id="5da37-111">Define capacity and consumption parameters</span></span>
+1. <span data-ttu-id="5da37-112">Stækka hlutann aðgerð.</span><span class="sxs-lookup"><span data-stu-id="5da37-112">Expand the Operation section.</span></span>
+2. <span data-ttu-id="5da37-113">Færið inn tölu í reitinn úrkastsprósenta.</span><span class="sxs-lookup"><span data-stu-id="5da37-113">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="5da37-114">Sláið inn eða veldu gildi í reitnum Setja upp flokkur.</span><span class="sxs-lookup"><span data-stu-id="5da37-114">In the Setup category field, enter or select a value.</span></span>
+    * <span data-ttu-id="5da37-115">Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein fyrir kostnað við uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="5da37-115">Specify the cost category that defines how to account for the cost of setup.</span></span>  
+4. <span data-ttu-id="5da37-116">Færa inn eða veljið gildi í reitinn flokkur keyrslutíma</span><span class="sxs-lookup"><span data-stu-id="5da37-116">In the Run time category field, enter or select a value.</span></span>
+    * <span data-ttu-id="5da37-117">Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein fyrir kostnað við keyrslutíma.</span><span class="sxs-lookup"><span data-stu-id="5da37-117">Specify the cost category that defines how to account for the cost of run time.</span></span>  
+5. <span data-ttu-id="5da37-118">Sláið inn eða veldu gildi í reitnum magntegund.</span><span class="sxs-lookup"><span data-stu-id="5da37-118">In the Quantity category field, enter or select a value.</span></span>
+    * <span data-ttu-id="5da37-119">Tilgreina kostnaðartegund sem skilgreinir hvernig á að gera grein kostnaði vegna tilfanga á grundvelli úttaksmagns.</span><span class="sxs-lookup"><span data-stu-id="5da37-119">Specify the cost category that defines how to account for the resource cost based on the output quantity.</span></span>  
+6. <span data-ttu-id="5da37-120">Í reitnum Eining afkastagetu skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="5da37-120">In the Capacity unit field, select an option.</span></span>
+    * <span data-ttu-id="5da37-121">Tilgreinið eininguna til að sýna afkastagetu rekstrartilfanga.</span><span class="sxs-lookup"><span data-stu-id="5da37-121">Specify the unit in which to express the capacity of the operations resource.</span></span>  
+7. <span data-ttu-id="5da37-122">Í reitinn Afkastageta skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="5da37-122">In the Capacity field, enter a number.</span></span>
+8. <span data-ttu-id="5da37-123">Færið inn tölu í reitinn Skilvirkniprósenta.</span><span class="sxs-lookup"><span data-stu-id="5da37-123">In the Efficiency percentage field, enter a number.</span></span>
+    * <span data-ttu-id="5da37-124">Tilgreina skilvirkni sem búist er við frá rekstrartilföng.</span><span class="sxs-lookup"><span data-stu-id="5da37-124">Specify the efficiency that you expect from the operations resource.</span></span> <span data-ttu-id="5da37-125">Skilvirkniprósenta leiðréttir gegnumstreymi rekstrartilfanga og hefur áhrif á tíma sem er frátekin fyrir tilfang.</span><span class="sxs-lookup"><span data-stu-id="5da37-125">The efficiency percentage adjusts the throughput of the operations resource and affects the time that is reserved for the resource.</span></span>  
+9. <span data-ttu-id="5da37-126">Færið inn tölu í Aðgerðaröðun prósentusvæðinu.</span><span class="sxs-lookup"><span data-stu-id="5da37-126">In the Operations scheduling percentage field, enter a number.</span></span>
+    * <span data-ttu-id="5da37-127">Tilgreinið hámarkshlutfall afkastagetu rekstrartilfanga sem á að nota í aðgerðaröðun.</span><span class="sxs-lookup"><span data-stu-id="5da37-127">Specify the maximum percentage of capacity of the operations resource that you want to use in operations scheduling.</span></span>  
+10. <span data-ttu-id="5da37-128">Veljið Já í svæðinu takmörkuð Afkastageta.</span><span class="sxs-lookup"><span data-stu-id="5da37-128">Select Yes in the Finite capacity field.</span></span>
+    * <span data-ttu-id="5da37-129">Þessi valkostur stilltur á Já ef rekstrartilföng skuli raðað á grundvelli raunverulega afkastagetu sem er tiltækt, og ef taka skal tillit til fyrirliggjandi frátekningar á afkastagetu.</span><span class="sxs-lookup"><span data-stu-id="5da37-129">Set this option to Yes if the operations resource should be scheduled based on the actual capacity that is available, and if existing capacity reservations should be considered.</span></span> <span data-ttu-id="5da37-130">Ef þessi valkostur er stilltur á Nei,  er gert ráð fyrir að rekstrartilföng hafa ótakmarkaða afköst, og gæti tilföngin gætu verið yfirbókaður.</span><span class="sxs-lookup"><span data-stu-id="5da37-130">If this option is set to No, the operations resource is assumed to have infinite capacity, and the resource might be overbooked.</span></span>  
+11. <span data-ttu-id="5da37-131">Velja skal Já í svæðinu Flöskuhálstilfang.</span><span class="sxs-lookup"><span data-stu-id="5da37-131">Select Yes in the Bottleneck resource field.</span></span>
 
-## <a name="define-working-times"></a>Skilgreina vinnutíma
-1. Stækka Dagatals hluta.
-2. Smelltu á Bæta við.
-3. Sláið inn eða veldu gildi í reitnum dagatal.
-    * Tilgreina vinnutímadagatal sem skilgreinir afkastagetu (í klukkustundum) tilfanganna.  
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
+## <a name="define-working-times"></a><span data-ttu-id="5da37-132">Skilgreina vinnutíma</span><span class="sxs-lookup"><span data-stu-id="5da37-132">Define working times</span></span>
+1. <span data-ttu-id="5da37-133">Stækka Dagatals hluta.</span><span class="sxs-lookup"><span data-stu-id="5da37-133">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="5da37-134">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="5da37-134">Click Add.</span></span>
+3. <span data-ttu-id="5da37-135">Sláið inn eða veldu gildi í reitnum dagatal.</span><span class="sxs-lookup"><span data-stu-id="5da37-135">In the Calendar field, enter or select a value.</span></span>
+    * <span data-ttu-id="5da37-136">Tilgreina vinnutímadagatal sem skilgreinir afkastagetu (í klukkustundum) tilfanganna.</span><span class="sxs-lookup"><span data-stu-id="5da37-136">Specify the working time calendar that defines the capacity (in hours) of the resource.</span></span>  
+4. <span data-ttu-id="5da37-137">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5da37-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="5da37-138">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="5da37-138">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-resource-capabilities"></a>Skilgreina möguleika tilfanga
-1. Útvíkka hlutann Getu.
-2. Smelltu á Bæta við.
-    * Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Röðunarvél úthlutar tilföng með því að láta tilfangaþörfum á hvern verkþátt samsvara getu tiltækar rekstrartilföng.  
-3. Í reitinn Geta skal slá inn eða veldu gildi.
-4. Í reitinn Stig skal slá inn númer.
-    * Tilgreinið þá færni sem vinnur tilfang á getu.  
-5. Í reitinn forgangur skal slá inn númer.
-    * Tilgreinið forgang rekstrartilföng með tilliti til getu. Þegar er raðað eftir forgangi, rekstrartilföng með mesta forgang (lægsta tölugildi) er valið fyrst.  
+## <a name="define-resource-capabilities"></a><span data-ttu-id="5da37-139">Skilgreina möguleika tilfanga</span><span class="sxs-lookup"><span data-stu-id="5da37-139">Define resource capabilities</span></span>
+1. <span data-ttu-id="5da37-140">Útvíkka hlutann Getu.</span><span class="sxs-lookup"><span data-stu-id="5da37-140">Expand the Capabilities section.</span></span>
+2. <span data-ttu-id="5da37-141">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="5da37-141">Click Add.</span></span>
+    * <span data-ttu-id="5da37-142">Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt.</span><span class="sxs-lookup"><span data-stu-id="5da37-142">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="5da37-143">Röðunarvél úthlutar tilföng með því að láta tilfangaþörfum á hvern verkþátt samsvara getu tiltækar rekstrartilföng.</span><span class="sxs-lookup"><span data-stu-id="5da37-143">The scheduling engine allocates resources by matching the resource requirements of each activity to the capabilities of the available operations resources.</span></span>  
+3. <span data-ttu-id="5da37-144">Í reitinn Geta skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="5da37-144">In the Capability field, enter or select a value.</span></span>
+4. <span data-ttu-id="5da37-145">Í reitinn Stig skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="5da37-145">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="5da37-146">Tilgreinið þá færni sem vinnur tilfang á getu.</span><span class="sxs-lookup"><span data-stu-id="5da37-146">Specify the level of proficiency by which the resource processes the capability.</span></span>  
+5. <span data-ttu-id="5da37-147">Í reitinn forgangur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="5da37-147">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="5da37-148">Tilgreinið forgang rekstrartilföng með tilliti til getu.</span><span class="sxs-lookup"><span data-stu-id="5da37-148">Specify the priority of the operations resource with respect to the capability.</span></span> <span data-ttu-id="5da37-149">Þegar er raðað eftir forgangi, rekstrartilföng með mesta forgang (lægsta tölugildi) er valið fyrst.</span><span class="sxs-lookup"><span data-stu-id="5da37-149">When scheduling by priority, the operations resource with the highest priority (lowest numeric value) is selected first.</span></span>  
 
-## <a name="assign-resource-to-resource-group"></a>Úthluta tilföngum á tilfangaflokk
-1. Útvíkka hlutann tilfangaflokkur.
-2. Smelltu á Bæta við.
-    * Tilfangaflokkurinn skilgreinir svæði, framleiðslueiningu og samhengi vöruhúss fyrir rekstrartilföngum. Aðeins er hægt að raða rekstrartilföng þegar þeim er úthlutað á tilfangaflokk , og aðeins á svæði þar sem tilfangaflokkurinn er staðsettur.  
-3. Í reitinn tilfangaflokkur skal slá inn eða velja gildi.
-4. Sláðu inn eða veldu gildi Innsláttur reitnum Staðsetning inntaks.
-    * Tilgreina staðsetningu vöruhúss þar sem rekstrartilföng er að nota efni.  
+## <a name="assign-resource-to-resource-group"></a><span data-ttu-id="5da37-150">Úthluta tilföngum á tilfangaflokk</span><span class="sxs-lookup"><span data-stu-id="5da37-150">Assign resource to resource group</span></span>
+1. <span data-ttu-id="5da37-151">Útvíkka hlutann tilfangaflokkur.</span><span class="sxs-lookup"><span data-stu-id="5da37-151">Expand the Resource groups section.</span></span>
+2. <span data-ttu-id="5da37-152">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="5da37-152">Click Add.</span></span>
+    * <span data-ttu-id="5da37-153">Tilfangaflokkurinn skilgreinir svæði, framleiðslueiningu og samhengi vöruhúss fyrir rekstrartilföngum.</span><span class="sxs-lookup"><span data-stu-id="5da37-153">The resource group defines the site, production unit, and warehouse context for operations resources.</span></span> <span data-ttu-id="5da37-154">Aðeins er hægt að raða rekstrartilföng þegar þeim er úthlutað á tilfangaflokk , og aðeins á svæði þar sem tilfangaflokkurinn er staðsettur.</span><span class="sxs-lookup"><span data-stu-id="5da37-154">The operations resource can only be scheduled when assigned to a resource group, and only on the site where the resource group is located.</span></span>  
+3. <span data-ttu-id="5da37-155">Í reitinn tilfangaflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="5da37-155">In the Resource group field, enter or select a value.</span></span>
+4. <span data-ttu-id="5da37-156">Sláðu inn eða veldu gildi Innsláttur reitnum Staðsetning inntaks.</span><span class="sxs-lookup"><span data-stu-id="5da37-156">In the Input location field, enter or select a value.</span></span>
+    * <span data-ttu-id="5da37-157">Tilgreina staðsetningu vöruhúss þar sem rekstrartilföng er að nota efni.</span><span class="sxs-lookup"><span data-stu-id="5da37-157">Specify the warehouse location from where the operations resource is consuming materials.</span></span>  
 
 

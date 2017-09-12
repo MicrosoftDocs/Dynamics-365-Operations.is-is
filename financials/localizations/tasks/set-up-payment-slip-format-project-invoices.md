@@ -16,53 +16,53 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8afbcf781e917f48136e06692234d49302b077fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f2dab127a40a1a48b49077d4b2395f5b8c58116b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-payment-slip-format-for-project-invoices"></a>Setja upp greiðsluseðlasnið fyrir verkreikninga
+# <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="f32e2-103">Setja upp greiðsluseðlasnið fyrir verkreikninga</span><span class="sxs-lookup"><span data-stu-id="f32e2-103">Set up payment slip format for project invoices</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að aðstoða viðskiptavina og veita þannig greiðslutilvísun fyrir bókun og jöfnun. Hægt er að nota greiðsluseðillinn fyrir reikninga verks eða þjónustusamning , innheimtubréf, vaxtanótur og reikningsyfirlit auk sölureikninga og reikningur með frjálsum texta. Til að vinna greiðsluseðlar, fyrst uppsetning kenninúmer lánardrottins og snið greiðsluseðill í viðhengi.
+<span data-ttu-id="f32e2-104">Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að aðstoða viðskiptavina og veita þannig greiðslutilvísun fyrir bókun og jöfnun.</span><span class="sxs-lookup"><span data-stu-id="f32e2-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="f32e2-105">Hægt er að nota greiðsluseðillinn fyrir reikninga verks eða þjónustusamning , innheimtubréf, vaxtanótur og reikningsyfirlit auk sölureikninga og reikningur með frjálsum texta.</span><span class="sxs-lookup"><span data-stu-id="f32e2-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="f32e2-106">Til að vinna greiðsluseðlar, fyrst uppsetning kenninúmer lánardrottins og snið greiðsluseðill í viðhengi.</span><span class="sxs-lookup"><span data-stu-id="f32e2-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 
-Þessi aðferð notar sýnigögn DEMF fyrirtækisins. 
+<span data-ttu-id="f32e2-107">Þessi aðferð notar sýnigögn DEMF fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="f32e2-107">This procedure uses the DEMF demo company.</span></span> 
 
-Þessi Virkni er eingöngu tiltæk fyrir lögaðila með aðalaðsetur fyrir Danmörk.
+<span data-ttu-id="f32e2-108">Þessi Virkni er eingöngu tiltæk fyrir lögaðila með aðalaðsetur fyrir Danmörk.</span><span class="sxs-lookup"><span data-stu-id="f32e2-108">This functionality is available for legal entities whose primary address is in Denmark.</span></span>
 
 
-## <a name="set-up-a-creditor-id-number"></a>Setja upp Kenninúmer lánardrottins
-1. Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.
-2. Útvíkka eða draga saman hluta upplýsingar bankareiknings.
-3. Smellið á „Breyta“.
-4. Færa inn gildi í svæðið Kenni FI-Lánardrottins.
-5. Smellið á „Vista“.
-6. Lokið síðunni.
+## <a name="set-up-a-creditor-id-number"></a><span data-ttu-id="f32e2-109">Setja upp Kenninúmer lánardrottins</span><span class="sxs-lookup"><span data-stu-id="f32e2-109">Set up a creditor ID number</span></span>
+1. <span data-ttu-id="f32e2-110">Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.</span><span class="sxs-lookup"><span data-stu-id="f32e2-110">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="f32e2-111">Útvíkka eða draga saman hluta upplýsingar bankareiknings.</span><span class="sxs-lookup"><span data-stu-id="f32e2-111">Expand or collapse the Bank account information section.</span></span>
+3. <span data-ttu-id="f32e2-112">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-112">Click Edit.</span></span>
+4. <span data-ttu-id="f32e2-113">Færa inn gildi í svæðið Kenni FI-Lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="f32e2-113">In the FI-Creditor ID field, type a value.</span></span>
+5. <span data-ttu-id="f32e2-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-114">Click Save.</span></span>
+6. <span data-ttu-id="f32e2-115">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f32e2-115">Close the page.</span></span>
 
-## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Setja upp snið greiðsluseðill fyrir reikninga, seðlar, bréf og yfirlit
-1. Fara í Viðskiptakröfur > Uppsetning > Eyðublöð > Uppsetning eyðublaða.
-2. Smellið á flipann Reikningur.
-3. Í Tengd greiðslukvittun á svæði fyrir reikning viðskiptavinar, velja valkost.
-    * Ekkert – ekki prenta greiðsluseðil. Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).   FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.   FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.  
-4. Smellið á „Vista“.
-5. Smellt er á flipanum reikningur með frjálsum texta.
-6. Tengd greiðslukvittun á reikningur með frjálsum texta svæði, velja valkost.
-    * Ekkert – ekki prenta greiðsluseðil. Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).   FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.   FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.  
-7. Smellið á „Vista“.
-8. Smellið á flipann vaxtanóta.
-9. Í Tengd greiðslukvittun á svæði fyrir vaxtanóta, velja valkost.
-    * Ekkert – ekki prenta greiðsluseðil. Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).   FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.   FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.  
-10. Smellið á „Vista“.
-11. Smellt er á flipanum innheimtubréfs.
-12. Í Tengd greiðslukvittun á svæðinu innheimtubréf, velja valkost.
-    * Ekkert – ekki prenta greiðsluseðil. Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).   FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.   FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.  
-13. Smellið á „Vista“.
-14. Smellið á flipann lyklayfirlit.
-15. Í Tengd greiðslukvittun á svæðinu lyklayfirlit, velja valkost.
-    * Ekkert – ekki prenta greiðsluseðil. Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).   FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.   FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.  
-16. Smellið á „Vista“.
-17. Lokið síðunni.
+## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a><span data-ttu-id="f32e2-116">Setja upp snið greiðsluseðill fyrir reikninga, seðlar, bréf og yfirlit</span><span class="sxs-lookup"><span data-stu-id="f32e2-116">Set up a payment slip format for invoices, notes, letters, and statements</span></span>
+1. <span data-ttu-id="f32e2-117">Fara í Viðskiptakröfur > Uppsetning > Eyðublöð > Uppsetning eyðublaða.</span><span class="sxs-lookup"><span data-stu-id="f32e2-117">Go to Accounts receivable > Setup > Forms > Form setup.</span></span>
+2. <span data-ttu-id="f32e2-118">Smellið á flipann Reikningur.</span><span class="sxs-lookup"><span data-stu-id="f32e2-118">Click the Invoice tab.</span></span>
+3. <span data-ttu-id="f32e2-119">Í Tengd greiðslukvittun á svæði fyrir reikning viðskiptavinar, velja valkost.</span><span class="sxs-lookup"><span data-stu-id="f32e2-119">In the Associated payment attachment on customer invoice field, select an option.</span></span>
+    * <span data-ttu-id="f32e2-120">Ekkert – ekki prenta greiðsluseðil.</span><span class="sxs-lookup"><span data-stu-id="f32e2-120">None – Do not print a payment slip.</span></span> <span data-ttu-id="f32e2-121">Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).</span><span class="sxs-lookup"><span data-stu-id="f32e2-121">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="f32e2-122">FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.</span><span class="sxs-lookup"><span data-stu-id="f32e2-122">FIK 751 – Print an FIK 751 payment slip if you intend to manually write the payment amount and due date on the payment slip.</span></span>   <span data-ttu-id="f32e2-123">FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="f32e2-123">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+4. <span data-ttu-id="f32e2-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-124">Click Save.</span></span>
+5. <span data-ttu-id="f32e2-125">Smellt er á flipanum reikningur með frjálsum texta.</span><span class="sxs-lookup"><span data-stu-id="f32e2-125">Click the Free text invoice tab.</span></span>
+6. <span data-ttu-id="f32e2-126">Tengd greiðslukvittun á reikningur með frjálsum texta svæði, velja valkost.</span><span class="sxs-lookup"><span data-stu-id="f32e2-126">In the Associated payment attachment on free text invoice field, select an option.</span></span>
+    * <span data-ttu-id="f32e2-127">Ekkert – ekki prenta greiðsluseðil.</span><span class="sxs-lookup"><span data-stu-id="f32e2-127">None – Do not print a payment slip.</span></span> <span data-ttu-id="f32e2-128">Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).</span><span class="sxs-lookup"><span data-stu-id="f32e2-128">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="f32e2-129">FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.</span><span class="sxs-lookup"><span data-stu-id="f32e2-129">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="f32e2-130">FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="f32e2-130">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+7. <span data-ttu-id="f32e2-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-131">Click Save.</span></span>
+8. <span data-ttu-id="f32e2-132">Smellið á flipann vaxtanóta.</span><span class="sxs-lookup"><span data-stu-id="f32e2-132">Click the Interest note tab.</span></span>
+9. <span data-ttu-id="f32e2-133">Í Tengd greiðslukvittun á svæði fyrir vaxtanóta, velja valkost.</span><span class="sxs-lookup"><span data-stu-id="f32e2-133">In the Associated payment attachment on interest note field, select an option.</span></span>
+    * <span data-ttu-id="f32e2-134">Ekkert – ekki prenta greiðsluseðil.</span><span class="sxs-lookup"><span data-stu-id="f32e2-134">None – Do not print a payment slip.</span></span> <span data-ttu-id="f32e2-135">Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).</span><span class="sxs-lookup"><span data-stu-id="f32e2-135">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="f32e2-136">FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.</span><span class="sxs-lookup"><span data-stu-id="f32e2-136">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="f32e2-137">FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="f32e2-137">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+10. <span data-ttu-id="f32e2-138">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-138">Click Save.</span></span>
+11. <span data-ttu-id="f32e2-139">Smellt er á flipanum innheimtubréfs.</span><span class="sxs-lookup"><span data-stu-id="f32e2-139">Click the Collection letter tab.</span></span>
+12. <span data-ttu-id="f32e2-140">Í Tengd greiðslukvittun á svæðinu innheimtubréf, velja valkost.</span><span class="sxs-lookup"><span data-stu-id="f32e2-140">In the Associated payment attachment on collection letter field, select an option.</span></span>
+    * <span data-ttu-id="f32e2-141">Ekkert – ekki prenta greiðsluseðil.</span><span class="sxs-lookup"><span data-stu-id="f32e2-141">None – Do not print a payment slip.</span></span> <span data-ttu-id="f32e2-142">Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).</span><span class="sxs-lookup"><span data-stu-id="f32e2-142">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="f32e2-143">FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.</span><span class="sxs-lookup"><span data-stu-id="f32e2-143">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="f32e2-144">FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="f32e2-144">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+13. <span data-ttu-id="f32e2-145">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-145">Click Save.</span></span>
+14. <span data-ttu-id="f32e2-146">Smellið á flipann lyklayfirlit.</span><span class="sxs-lookup"><span data-stu-id="f32e2-146">Click the Account statement tab.</span></span>
+15. <span data-ttu-id="f32e2-147">Í Tengd greiðslukvittun á svæðinu lyklayfirlit, velja valkost.</span><span class="sxs-lookup"><span data-stu-id="f32e2-147">In the Associated payment attachment on account statement field, select an option.</span></span>
+    * <span data-ttu-id="f32e2-148">Ekkert – ekki prenta greiðsluseðil.</span><span class="sxs-lookup"><span data-stu-id="f32e2-148">None – Do not print a payment slip.</span></span> <span data-ttu-id="f32e2-149">Þessi kostur er valinn ef greiðsluupphæðin er í öðrum gjaldmiðli en danskar krónur (DKK).</span><span class="sxs-lookup"><span data-stu-id="f32e2-149">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="f32e2-150">FIK 751 – Prenta FIK 751 greiðsluseðil ef ætlunin er að skrifa greiðsluupphæðina og gjalddaga handvirkt á greiðsluseðilinn.</span><span class="sxs-lookup"><span data-stu-id="f32e2-150">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="f32e2-151">FIK 752 – Prenta FIK 752 greiðsluseðil ef ætlunin er að nota tölvugerðan greiðsluseðil sem er með fyrirframprentaða greiðsluupphæð og gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="f32e2-151">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+16. <span data-ttu-id="f32e2-152">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f32e2-152">Click Save.</span></span>
+17. <span data-ttu-id="f32e2-153">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f32e2-153">Close the page.</span></span>
 
 

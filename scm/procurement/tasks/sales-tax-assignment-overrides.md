@@ -16,46 +16,46 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 02ed6b5c7d83d9781a842c4b06a5907ad23d0969
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b3f13738044c81d32098072f26f204a4acb2d08d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="sales-tax-assignment-and-overrides"></a>Úthlutun og hnekking virðisaukaskatts
+# <a name="sales-tax-assignment-and-overrides"></a><span data-ttu-id="39c32-103">Úthlutun og hnekking virðisaukaskatts</span><span class="sxs-lookup"><span data-stu-id="39c32-103">Sales tax assignment and overrides</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að úthluta VSK-flokkur á smásölurásir. Hún á fer einnig í gegnum ferlið við að stofna nýja hnekking virðisaukaskatts og úthluta henni á fyrirliggjandi hnekkingarflokkur virðisaukaskatts. Þetta ferli
+<span data-ttu-id="39c32-104">Þetta ferli sýnir hvernig á að úthluta VSK-flokkur á smásölurásir.</span><span class="sxs-lookup"><span data-stu-id="39c32-104">This procedure demonstrates how to assign sales tax groups to retail channels.</span></span> <span data-ttu-id="39c32-105">Hún á fer einnig í gegnum ferlið við að stofna nýja hnekking virðisaukaskatts og úthluta henni á fyrirliggjandi hnekkingarflokkur virðisaukaskatts.</span><span class="sxs-lookup"><span data-stu-id="39c32-105">It also walks through the process of creating a new sales tax override and assigning it to an existing sales tax override group.</span></span> <span data-ttu-id="39c32-106">Þetta ferli</span><span class="sxs-lookup"><span data-stu-id="39c32-106">This procedure</span></span>
 
-notar fyrirtæki USRT sem sýnigögn.
+<span data-ttu-id="39c32-107">notar fyrirtæki USRT sem sýnigögn.</span><span class="sxs-lookup"><span data-stu-id="39c32-107">uses the USRT company in demo data.</span></span>
 
-1. Fara í Smásölu og viðskipti > rásir > smásöluverslanir > allar smásöluverslanir.
-2. Á listanum, smella á tengil fyrir kenni smásölurásar fyrir "Houston."
-3. Smellið á „Breyta“.
-    * VSK-flokk reiturinn inniheldur lista yfir VSK-flokka fyrir núverandi fyrirtæki. Núverandi úthlutaður flokkur er almennur "Texas VSK-flokkur". Einnig eru til vsk-flokkar fyrir „Washington" og "Washington, King County.“ Vsk-flokkar geta verið með viðeigandi skatta fyrir mörg sveitarfélög.  
-    * Reiturinn "hnekking virðisaukaskatts" er þar sem hægt er að varpa hnekkingarflokka söluskatts á rásinni. Hægt er að nota hnekkingarflokkur virðisaukaskatts til að flokka saman hnekkingar söluskatts sem starfa fyrir margar verslanir. Frekar en að úthluta handvirkt hnekkingum virðisaukaskatts einum í einum, er hægt að stofna flokkinn og úthluta beint á rásirnar til að spara tíma.  
-4. Smellið á „Vista“.
-5. Lokið síðunni.
-6. Fara í Smásala og viðskipti > Uppsetning rásar > VSK > VSK hnekkja.
-7. Smellið á „Nýtt“.
-8. Í reitnum hnekking virðisaukaskatts, gefðu nafn fyrir nýju hnekkinguna þína.
-9. Í reitinn Lýsing er færð stutt lýsing á hnekkingunni.
-10. Stilla stöðu á "Virkja".
-11. Stækka eða fella saman hlutann Hnekkja.
-12. Veljið valkost í svæðinu tegund.
-    * Vsk-flokka vöru er hægt að nota til að hnekkja skatti fyrir tilteknar vörur sem tilheyrir þeim flokki. T.d. er matvara yfirleitt skattlögð öðruvísi en efnislegar vörur og eru líklega með sinn eigin vsk-flokk.     Vsk-flokkar eru flokkar skatta sem eiga við tiltekinni rás. Til dæmis ef rás selur bæði í smásölu og milli fyrirtækja, gætu mismunandi vsk-flokka verið notaðir. Allar viðeigandi skatta myndi vera varpað á vsk-flokki.  
-    * Nú er hægt að velja á "Frá" og "Til" skatta eða "Frá skattflokki" og "Til skattflokks" til að stofna hnekkingu virðisaukaskatts.    "Frá" reiturinn tilgreinir skatta eða skattflokk sem á að hnekkja. Hnekking samkvæmt VSK-flokkur vöru veitir aðra valkosti en hnekking eftir VSK-flokkur.    Hnekkingar virðisaukaskatts má setja upp til að hnekka sköttum á heilum færslum eða á tilteknum línum í færslu.  
-13. Smellið á „Vista“.
-14. Lokið síðunni.
-15. Fara í Smásala og viðskipti > Uppsetning rásar > VSK > VSK hnekkja flokkar.
-    * Í þessu skrefi muntu úthluta nýstofnuð hnekkingu vsk á hnekkingarflokkur virðisaukaskatts sem er úthlutað á Houston rásina.  
-16. Smellið á „Breyta“.
-17. Útvíkka eða draga saman hlutann Setja upp.
-18. Smelltu á Bæta við.
-19. Í reitnum hnekking virðisaukaskatts skal smella á fellilistahnappinn til að opna leitina.
-20. Veldu Hnekking virðisaukaskatts sem þú stofnaðir áður, úr listanum.
-21. Í listanum skal smella á tengilinn í valinni línu.
-22. Smellið á „Vista“.
+1. <span data-ttu-id="39c32-108">Fara í Smásölu og viðskipti > rásir > smásöluverslanir > allar smásöluverslanir.</span><span class="sxs-lookup"><span data-stu-id="39c32-108">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+2. <span data-ttu-id="39c32-109">Á listanum, smella á tengil fyrir kenni smásölurásar fyrir "Houston."</span><span class="sxs-lookup"><span data-stu-id="39c32-109">In the list, click the Retail Channel ID link for "Houston."</span></span>
+3. <span data-ttu-id="39c32-110">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="39c32-110">Click Edit.</span></span>
+    * <span data-ttu-id="39c32-111">VSK-flokk reiturinn inniheldur lista yfir VSK-flokka fyrir núverandi fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="39c32-111">The "Sales tax group" field contains the list of sales tax groups for the current company.</span></span> <span data-ttu-id="39c32-112">Núverandi úthlutaður flokkur er almennur "Texas VSK-flokkur".</span><span class="sxs-lookup"><span data-stu-id="39c32-112">The currently assigned group is a generic "Texas" sales tax group.</span></span> <span data-ttu-id="39c32-113">Einnig eru til vsk-flokkar fyrir „Washington" og "Washington, King County.“</span><span class="sxs-lookup"><span data-stu-id="39c32-113">There are also sales tax groups for "Washington" and "Washington, King County."</span></span> <span data-ttu-id="39c32-114">Vsk-flokkar geta verið með viðeigandi skatta fyrir mörg sveitarfélög.</span><span class="sxs-lookup"><span data-stu-id="39c32-114">Sales tax groups can include applicable taxes for multiple municipalities.</span></span>  
+    * <span data-ttu-id="39c32-115">Reiturinn "hnekking virðisaukaskatts" er þar sem hægt er að varpa hnekkingarflokka söluskatts á rásinni.</span><span class="sxs-lookup"><span data-stu-id="39c32-115">The "Sales tax override" field is where sales tax override groups can be mapped to the channel.</span></span> <span data-ttu-id="39c32-116">Hægt er að nota hnekkingarflokkur virðisaukaskatts til að flokka saman hnekkingar söluskatts sem starfa fyrir margar verslanir.</span><span class="sxs-lookup"><span data-stu-id="39c32-116">Sales tax override groups can be used to group together sales tax overrides that work for multiple stores.</span></span> <span data-ttu-id="39c32-117">Frekar en að úthluta handvirkt hnekkingum virðisaukaskatts einum í einum, er hægt að stofna flokkinn og úthluta beint á rásirnar til að spara tíma.</span><span class="sxs-lookup"><span data-stu-id="39c32-117">Rather than manually assigning sales tax overrides one by one, the group can be created and assigned directly to the channels to save time.</span></span>  
+4. <span data-ttu-id="39c32-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="39c32-118">Click Save.</span></span>
+5. <span data-ttu-id="39c32-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="39c32-119">Close the page.</span></span>
+6. <span data-ttu-id="39c32-120">Fara í Smásala og viðskipti > Uppsetning rásar > VSK > VSK hnekkja.</span><span class="sxs-lookup"><span data-stu-id="39c32-120">Go to Retail and commerce > Channel setup > Sales taxes > Sales tax overrides.</span></span>
+7. <span data-ttu-id="39c32-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="39c32-121">Click New.</span></span>
+8. <span data-ttu-id="39c32-122">Í reitnum hnekking virðisaukaskatts, gefðu nafn fyrir nýju hnekkinguna þína.</span><span class="sxs-lookup"><span data-stu-id="39c32-122">In the Sales tax override field, provide a name for your new override.</span></span>
+9. <span data-ttu-id="39c32-123">Í reitinn Lýsing er færð stutt lýsing á hnekkingunni.</span><span class="sxs-lookup"><span data-stu-id="39c32-123">In the Description field, provide a description of the override.</span></span>
+10. <span data-ttu-id="39c32-124">Stilla stöðu á "Virkja".</span><span class="sxs-lookup"><span data-stu-id="39c32-124">Set the status to "Enable."</span></span>
+11. <span data-ttu-id="39c32-125">Stækka eða fella saman hlutann Hnekkja.</span><span class="sxs-lookup"><span data-stu-id="39c32-125">Expand or collapse the Override section.</span></span>
+12. <span data-ttu-id="39c32-126">Veljið valkost í svæðinu tegund.</span><span class="sxs-lookup"><span data-stu-id="39c32-126">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="39c32-127">Vsk-flokka vöru er hægt að nota til að hnekkja skatti fyrir tilteknar vörur sem tilheyrir þeim flokki.</span><span class="sxs-lookup"><span data-stu-id="39c32-127">Item sales tax groups can be used to override taxes for specific items that belong to the group.</span></span> <span data-ttu-id="39c32-128">T.d. er matvara yfirleitt skattlögð öðruvísi en efnislegar vörur og eru líklega með sinn eigin vsk-flokk.</span><span class="sxs-lookup"><span data-stu-id="39c32-128">For example, food items are typically taxed differently from hard goods, and would likely have their own sales tax group.</span></span>     <span data-ttu-id="39c32-129">Vsk-flokkar eru flokkar skatta sem eiga við tiltekinni rás.</span><span class="sxs-lookup"><span data-stu-id="39c32-129">Sales tax groups are groups of taxes that are applicable to a particular channel.</span></span> <span data-ttu-id="39c32-130">Til dæmis ef rás selur bæði í smásölu og milli fyrirtækja, gætu mismunandi vsk-flokka verið notaðir.</span><span class="sxs-lookup"><span data-stu-id="39c32-130">For example, if a channel sells both retail and business-to-business, different items sales tax groups may be used.</span></span> <span data-ttu-id="39c32-131">Allar viðeigandi skatta myndi vera varpað á vsk-flokki.</span><span class="sxs-lookup"><span data-stu-id="39c32-131">All the applicable taxes would be mapped to the sales tax group.</span></span>  
+    * <span data-ttu-id="39c32-132">Nú er hægt að velja á "Frá" og "Til" skatta eða "Frá skattflokki" og "Til skattflokks" til að stofna hnekkingu virðisaukaskatts.</span><span class="sxs-lookup"><span data-stu-id="39c32-132">Now you can select the "From" and "To" taxes or "From tax group" and "To tax group" to create your sales tax override.</span></span>    <span data-ttu-id="39c32-133">"Frá" reiturinn tilgreinir skatta eða skattflokk sem á að hnekkja.</span><span class="sxs-lookup"><span data-stu-id="39c32-133">The "From" field indicates the tax or tax group to be overridden.</span></span> <span data-ttu-id="39c32-134">Hnekking samkvæmt VSK-flokkur vöru veitir aðra valkosti en hnekking eftir VSK-flokkur.</span><span class="sxs-lookup"><span data-stu-id="39c32-134">Overriding by Item sales tax group provides different options than overriding by sales tax group.</span></span>    <span data-ttu-id="39c32-135">Hnekkingar virðisaukaskatts má setja upp til að hnekka sköttum á heilum færslum eða á tilteknum línum í færslu.</span><span class="sxs-lookup"><span data-stu-id="39c32-135">Sales tax overrides can be set up to override taxes on entire transactions or on particular lines in the transaction.</span></span>  
+13. <span data-ttu-id="39c32-136">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="39c32-136">Click Save.</span></span>
+14. <span data-ttu-id="39c32-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="39c32-137">Close the page.</span></span>
+15. <span data-ttu-id="39c32-138">Fara í Smásala og viðskipti > Uppsetning rásar > VSK > VSK hnekkja flokkar.</span><span class="sxs-lookup"><span data-stu-id="39c32-138">Go to Retail and commerce > Channel setup > Sales taxes > Sales tax override groups.</span></span>
+    * <span data-ttu-id="39c32-139">Í þessu skrefi muntu úthluta nýstofnuð hnekkingu vsk á hnekkingarflokkur virðisaukaskatts sem er úthlutað á Houston rásina.</span><span class="sxs-lookup"><span data-stu-id="39c32-139">In this step you will assigned the newly created sales tax override to the sales tax override group assigned to the Houston channel.</span></span>  
+16. <span data-ttu-id="39c32-140">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="39c32-140">Click Edit.</span></span>
+17. <span data-ttu-id="39c32-141">Útvíkka eða draga saman hlutann Setja upp.</span><span class="sxs-lookup"><span data-stu-id="39c32-141">Expand or collapse the Setup section.</span></span>
+18. <span data-ttu-id="39c32-142">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="39c32-142">Click Add.</span></span>
+19. <span data-ttu-id="39c32-143">Í reitnum hnekking virðisaukaskatts skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="39c32-143">In the Sales tax override field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="39c32-144">Veldu Hnekking virðisaukaskatts sem þú stofnaðir áður, úr listanum.</span><span class="sxs-lookup"><span data-stu-id="39c32-144">Select the previously created sales tax override from the list.</span></span>
+21. <span data-ttu-id="39c32-145">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="39c32-145">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="39c32-146">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="39c32-146">Click Save.</span></span>
 
 

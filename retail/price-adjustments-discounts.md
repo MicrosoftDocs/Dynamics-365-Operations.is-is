@@ -19,32 +19,32 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: caa701dfcbffe045d701442b1a39b88ea5f43125
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c96f7afdb095fd45b5dd88c7760a24226518f61c
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="price-adjustments-and-discounts"></a>Verðleiðréttingar og afslættir
+# <a name="price-adjustments-and-discounts"></a><span data-ttu-id="d4b1e-103">Verðleiðréttingar og afslættir</span><span class="sxs-lookup"><span data-stu-id="d4b1e-103">Price adjustments and discounts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="d4b1e-104">Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-104">This article provides information about price adjustments and discounts in Microsoft Dynamics 365 for Retail.</span></span>
 
-Í Dynamics 365 for Retail er hægt að gera verðleiðréttingar afurða og einnig að setja upp afslátt sem er notaður á línu eða færslu á sölustað (POS) í sölupöntun í söluveri eða í pöntun á netinu. Hægt er að tengja verðleiðréttingar og afslátt við sérstaka verðflokka. Fyrir bæði verðleiðréttingar og afslátt er hægt að tilgreina eina upphafsdagsetningu og lokadag eða endurtekið tímabil, afsláttarkóða og nokkrar aðrar eigindir. Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetningar eða flokka. Ef fleiri en einn afslætti er beitt á afurð, gæti viðskiptavinur fengið annaðhvort einn afslátt eða samanlagðan afslátt eftir skilgreiningu á afslættinum. Dynamics 365 for Retail beitir þeim afslætti sjálfkrafa eða þeirri samsetningu afsláttar sem veitir viðskiptavini besta verð. Þegar verðleiðrétting er sett upp eða afsláttur, þarf að tryggja að staðfest sé að verðflokkar séu tengdir við réttar rásir, vörulista, tengsl eða vildarkerfi sem óskað er eftir að afslátturinn gildi á. Einnig, ef þú vilt mynda afsláttarkenni sjálfkrafa getur þú sett upp númeraraðir á síðunni **Smásölufæribreytur** áður en þú skilgreinir nýjan afslátt eða verðleiðréttingu. **Ábending:** Hægt er að eyða verðleiðréttingu eða afslætti. Hins vegar munu talnagögn glatast.
+<span data-ttu-id="d4b1e-105">Í Dynamics 365 for Retail er hægt að gera verðleiðréttingar afurða og einnig að setja upp afslátt sem er notaður á línu eða færslu á sölustað (POS) í sölupöntun í söluveri eða í pöntun á netinu.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-105">In Dynamics 365 for Retail, you can make price adjustments to products, and can also set up discounts that are applied to a line item or a transaction at the point of sale (POS), in a call center sales order, or in an online order.</span></span> <span data-ttu-id="d4b1e-106">Hægt er að tengja verðleiðréttingar og afslátt við sérstaka verðflokka.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-106">Both price adjustments and discounts can be linked to price groups.</span></span> <span data-ttu-id="d4b1e-107">Fyrir bæði verðleiðréttingar og afslátt er hægt að tilgreina eina upphafsdagsetningu og lokadag eða endurtekið tímabil, afsláttarkóða og nokkrar aðrar eigindir.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-107">For both price adjustments and discounts, you can specify a single start date and end date or a reoccurring period, a discount code, and a few additional attributes.</span></span> <span data-ttu-id="d4b1e-108">Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetningar eða flokka.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-108">Price adjustments and discounts can be applied to products, variants, or categories.</span></span> <span data-ttu-id="d4b1e-109">Ef fleiri en einn afslætti er beitt á afurð, gæti viðskiptavinur fengið annaðhvort einn afslátt eða samanlagðan afslátt eftir skilgreiningu á afslættinum.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-109">If more than one discount applies to a product, a customer might receive either one of the discounts or a combined discount, depending on the configuration of the discount.</span></span> <span data-ttu-id="d4b1e-110">Dynamics 365 for Retail beitir þeim afslætti sjálfkrafa eða þeirri samsetningu afsláttar sem veitir viðskiptavini besta verð.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-110">Dynamics 365 for Retail automatically applies the discount or combination of discounts that gives the best price to the customer.</span></span> <span data-ttu-id="d4b1e-111">Þegar verðleiðrétting er sett upp eða afsláttur, þarf að tryggja að staðfest sé að verðflokkar séu tengdir við réttar rásir, vörulista, tengsl eða vildarkerfi sem óskað er eftir að afslátturinn gildi á.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-111">When you set up a price adjustment or a discount, be sure to confirm that price groups are assigned to the correct channels, catalogs, affiliations, or loyalty programs that you want the discount to apply to.</span></span> <span data-ttu-id="d4b1e-112">Einnig, ef þú vilt mynda afsláttarkenni sjálfkrafa getur þú sett upp númeraraðir á síðunni **Smásölufæribreytur** áður en þú skilgreinir nýjan afslátt eða verðleiðréttingu.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-112">Additionally, if you want to automatically generate the discount ID, set up number sequences on the **Retail parameters** page before you define a new price adjustment or discount.</span></span> <span data-ttu-id="d4b1e-113">**Ábending:** Hægt er að eyða verðleiðréttingu eða afslætti.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-113">**Note:** You can delete a price adjustment or a discount.</span></span> <span data-ttu-id="d4b1e-114">Hins vegar munu talnagögn glatast.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-114">However, statistical information will be lost.</span></span>
 
-### <a name="types-of-discounts"></a>Gerðir afsláttar
+### <a name="types-of-discounts"></a><span data-ttu-id="d4b1e-115">Gerðir afsláttar</span><span class="sxs-lookup"><span data-stu-id="d4b1e-115">Types of discounts</span></span>
 
-Til eru fjórar gerðir af smásöluafslætti:
+<span data-ttu-id="d4b1e-116">Til eru fjórar gerðir af smásöluafslætti:</span><span class="sxs-lookup"><span data-stu-id="d4b1e-116">There are four types of retail discounts:</span></span>
 
--   **Einfaldur afsláttur** - eitt hlutfall eða upphæð.
--   **Magnafsláttur** – Afsláttar sem er notaður þegar tvær eða fleiri vörur eru keyptar.
--   **Afsláttur blandaðs tilboðs** - Afsláttur sem er notaður þegar sérstök samsetning af vörum er keypt.
--   **Þröskuldur afsláttar** - Afsláttur sem er notaður þegar færslusamtala er hærri en tilgreind upphæð.
+-   <span data-ttu-id="d4b1e-117">**Einfaldur afsláttur** - eitt hlutfall eða upphæð.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-117">**Simple discount** – A single percentage or amount.</span></span>
+-   <span data-ttu-id="d4b1e-118">**Magnafsláttur** – Afsláttar sem er notaður þegar tvær eða fleiri vörur eru keyptar.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-118">**Quantity discount** – A discount that is applied when two or more products are purchased.</span></span>
+-   <span data-ttu-id="d4b1e-119">**Afsláttur blandaðs tilboðs** - Afsláttur sem er notaður þegar sérstök samsetning af vörum er keypt.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-119">**Mix and match discount** – A discount that is applied when a specific combination of products is purchased.</span></span>
+-   <span data-ttu-id="d4b1e-120">**Þröskuldur afsláttar** - Afsláttur sem er notaður þegar færslusamtala er hærri en tilgreind upphæð.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-120">**Threshold discount** – A discount that is applied when the transaction total is more than a specified amount.</span></span>
 
-Hægt er að tengja bæði verðleiðréttingar og afslátt við sérstaka verðflokka. Síðan er hægt að tengja verðflokka við rásir, vörulista, tengsl og vildarkerfi.
+<span data-ttu-id="d4b1e-121">Hægt er að tengja bæði verðleiðréttingar og afslátt við sérstaka verðflokka.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-121">Both price adjustments and discounts can be associated with price groups.</span></span> <span data-ttu-id="d4b1e-122">Síðan er hægt að tengja verðflokka við rásir, vörulista, tengsl og vildarkerfi.</span><span class="sxs-lookup"><span data-stu-id="d4b1e-122">Price groups can then be associated with channels, catalogs, affiliations, and loyalty programs.</span></span>
 
 
 

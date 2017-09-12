@@ -18,40 +18,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 3c08e48b22f964c3f643c5ddc4ecd687502d7fda
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: eb69b8def1d0a4fc296ccf44490af6c70591cb7b
 ms.contentlocale: is-is
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Flokkar samstæðulykla og viðbótar samstæðulyklar
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="95fd4-103">Flokkar samstæðulykla og viðbótar samstæðulyklar</span><span class="sxs-lookup"><span data-stu-id="95fd4-103">Consolidation account groups and additional consolidation accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótarsamstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
+<span data-ttu-id="95fd4-104">Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótarsamstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.</span><span class="sxs-lookup"><span data-stu-id="95fd4-104">This topic provides information about consolidation account groups and additional consolidation accounts, and explains how they are used in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-<a name="consolidation-account-groups"></a>Flokkar samstæðulykla
+<a name="consolidation-account-groups"></a><span data-ttu-id="95fd4-105">Flokkar samstæðulykla</span><span class="sxs-lookup"><span data-stu-id="95fd4-105">Consolidation account groups</span></span>
 ----------------------------
 
-Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Oftast stendur flokkur samstæðulykla fyrir stjórnvaldatilskipaðan bókhaldslykil eða varpar lyklum á flokka sem eru skilgreindir eftir höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn og heiti.
+<span data-ttu-id="95fd4-106">Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn.</span><span class="sxs-lookup"><span data-stu-id="95fd4-106">Consolidation account groups let you create groups of the accounts that you want to use to consolidate data.</span></span> <span data-ttu-id="95fd4-107">Oftast stendur flokkur samstæðulykla fyrir stjórnvaldatilskipaðan bókhaldslykil eða varpar lyklum á flokka sem eru skilgreindir eftir höfuðstöðvum fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="95fd4-107">Most often, a consolidation account group represents a government-mandated chart of accounts or maps accounts to a group that is defined by the company's headquarters.</span></span> <span data-ttu-id="95fd4-108">Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**.</span><span class="sxs-lookup"><span data-stu-id="95fd4-108">You can find consolidation account groups in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="95fd4-109">Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn og heiti.</span><span class="sxs-lookup"><span data-stu-id="95fd4-109">When you add a new group, you enter a unique identifier for the account group and a name.</span></span>
 
-## <a name="additional-consolidation-accounts"></a>Fleiri samstæðulyklar
-Fleiri samstæðulyklar gera þér kleift að úthluta lykli úr fyrirliggjandi bókhaldslykill til samstæðulykill flokkur. Síðan er hægt að tilgreina samstæðulykill gildi og heiti. 
+## <a name="additional-consolidation-accounts"></a><span data-ttu-id="95fd4-110">Fleiri samstæðulyklar</span><span class="sxs-lookup"><span data-stu-id="95fd4-110">Additional consolidation accounts</span></span>
+<span data-ttu-id="95fd4-111">Fleiri samstæðulyklar gera þér kleift að úthluta lykli úr fyrirliggjandi bókhaldslykill til samstæðulykill flokkur.</span><span class="sxs-lookup"><span data-stu-id="95fd4-111">Additional consolidation accounts let you assign an account from an existing chart of accounts to a consolidation account group.</span></span> <span data-ttu-id="95fd4-112">Síðan er hægt að tilgreina samstæðulykill gildi og heiti.</span><span class="sxs-lookup"><span data-stu-id="95fd4-112">You can then specify a consolidation account value and name.</span></span> 
 
-Hægt er að finna viðbótar samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýr samstæðulykill er stofnaður verður að tilgreina gerð eftirfarandi upplýsingar:
+<span data-ttu-id="95fd4-113">Hægt er að finna viðbótar samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**.</span><span class="sxs-lookup"><span data-stu-id="95fd4-113">You can find additional consolidation accounts in the **Setup** area of the **Consolidations** module.</span></span> <span data-ttu-id="95fd4-114">Þegar nýr samstæðulykill er stofnaður verður að tilgreina gerð eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="95fd4-114">When you create a new consolidation account, you must specify the following information:</span></span>
 
--   **Aðallykill** – Þessi reitur er uppfletting sem sýnir alla aðallykla sem eru á grunni bókhaldslykill sem var valinn á síðunni. Þegar þú velur lykil er heiti hans sjálfvirkt skráð í svæðið **Heiti reiknings**.
--   **Flokkur samstæðulykla** – Notaðu þetta svæði til að tilgreina flokk til að úthluta lykill í. Ef þú sameinar á tvo mismunandi vegu verður að bæta við sama lykli í alla fjóra flokka samstæðulykla.
--   **Samstæðulykill** – Skráðu gildi samstæðulykilsins. Þetta gildi þarf ekki að vera lykill úr bókhaldslykill. Það getur verið hvaða gildi sem þú vilt.
--   **Heiti samstæðulykils** – Skráðu heiti reikningsins eins og það á að birtast á fyrirspurnum og skýrslum.
--   **SAT stig** – Þessi reitur er notaður til að tilkynna lyklayfirlit til mexíkanskra skattayfirvalda. 
+-   <span data-ttu-id="95fd4-115">**Aðallykill** – Þessi reitur er uppfletting sem sýnir alla aðallykla sem eru á grunni bókhaldslykill sem var valinn á síðunni.</span><span class="sxs-lookup"><span data-stu-id="95fd4-115">**Main account** – This field is a lookup that shows all the main accounts that are based on the chart of accounts that you selected on the page.</span></span> <span data-ttu-id="95fd4-116">Þegar þú velur lykil er heiti hans sjálfvirkt skráð í svæðið **Heiti reiknings**.</span><span class="sxs-lookup"><span data-stu-id="95fd4-116">When you select an account, the name is automatically entered in the **Main account name** field.</span></span>
+-   <span data-ttu-id="95fd4-117">**Flokkur samstæðulykla** – Notaðu þetta svæði til að tilgreina flokk til að úthluta lykill í.</span><span class="sxs-lookup"><span data-stu-id="95fd4-117">**Consolidation account group** – Use this field to specify the group to assign the account to.</span></span> <span data-ttu-id="95fd4-118">Ef þú sameinar á tvo mismunandi vegu verður að bæta við sama lykli í alla fjóra flokka samstæðulykla.</span><span class="sxs-lookup"><span data-stu-id="95fd4-118">If you consolidate in two different ways, you must add the same account to all four consolidation account groups.</span></span>
+-   <span data-ttu-id="95fd4-119">**Samstæðulykill** – Skráðu gildi samstæðulykilsins.</span><span class="sxs-lookup"><span data-stu-id="95fd4-119">**Consolidation account** – Enter the value of the consolidation account.</span></span> <span data-ttu-id="95fd4-120">Þetta gildi þarf ekki að vera lykill úr bókhaldslykill.</span><span class="sxs-lookup"><span data-stu-id="95fd4-120">This value doesn't have to be an account from a chart of accounts.</span></span> <span data-ttu-id="95fd4-121">Það getur verið hvaða gildi sem þú vilt.</span><span class="sxs-lookup"><span data-stu-id="95fd4-121">It can be any value that you require.</span></span>
+-   <span data-ttu-id="95fd4-122">**Heiti samstæðulykils** – Skráðu heiti reikningsins eins og það á að birtast á fyrirspurnum og skýrslum.</span><span class="sxs-lookup"><span data-stu-id="95fd4-122">**Consolidation account name** – Enter the name of account as you want it to appear on inquiries and reports.</span></span>
+-   <span data-ttu-id="95fd4-123">**SAT stig** – Þessi reitur er notaður til að tilkynna lyklayfirlit til mexíkanskra skattayfirvalda.</span><span class="sxs-lookup"><span data-stu-id="95fd4-123">**SAT level** – This field is used to report account statements to the Mexican tax authorities.</span></span> 
 
-Þegar þú hefur lokið stofnun á flokkum samstæðulykla og viðbótar samstæðulykla er hægt að velja flokkinn í ferlinu Sameina á netinu.
+<span data-ttu-id="95fd4-124">Þegar þú hefur lokið stofnun á flokkum samstæðulykla og viðbótar samstæðulykla er hægt að velja flokkinn í ferlinu Sameina á netinu.</span><span class="sxs-lookup"><span data-stu-id="95fd4-124">When you've finished creating your consolidation account groups and additional consolidation accounts, you can select the group in the Consolidate online process.</span></span>
 
 
-Nánari upplýsingar er að finna í [Stofna samstæðuhópa og fleiri samstæðulykla](../general-ledger/tasks/create-consolidation-groups.md) 
+<span data-ttu-id="95fd4-125">Nánari upplýsingar er að finna í [Stofna samstæðuhópa og fleiri samstæðulykla](../general-ledger/tasks/create-consolidation-groups.md)</span><span class="sxs-lookup"><span data-stu-id="95fd4-125">For more information, see [Create consolidation groups and additional consolidation accounts](../general-ledger/tasks/create-consolidation-groups.md).</span></span> 
 
 
 

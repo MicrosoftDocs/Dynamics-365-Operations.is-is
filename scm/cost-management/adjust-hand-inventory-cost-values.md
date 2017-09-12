@@ -16,32 +16,32 @@ ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7f7c1008eea83bbda96ace92cd4aedf09c8febdc
+ms.sourcegitcommit: fb74ddfbc46047251a1f96512891bfbdca8e0389
+ms.openlocfilehash: 2b4a27465908b5ffe19e91cb7ad0d29bce49505a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/15/2017
 
 ---
 
-# <a name="adjust-on-hand-inventory-cost-values"></a>Leiðrétta kostnaðarvirði lagerbirgða
+# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="94716-103">Leiðrétta kostnaðarvirði lagerbirgða</span><span class="sxs-lookup"><span data-stu-id="94716-103">Adjust on-hand inventory cost values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Hægt er að nota síðuna Leiðrétting á lagermagni til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokun vinnslu er keyrð.
+<span data-ttu-id="94716-104">Hægt er að nota síðuna Leiðrétting á lagermagni til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokun vinnslu er keyrð.</span><span class="sxs-lookup"><span data-stu-id="94716-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 
-Hægt er að nota **Leiðrétting á lagerbirgðum** síðuna til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokunarvinnsla er keyrð. **Ábending:** til Að opna síðuna **Leiðrétting á lagerbirgðum** veljið skýrsluna um lokið birgðalokunarferli á síðunni **Lokun og leiðrétting** og smellið síðan á **Leiðrétting** &gt; **Lager**. **Dæmi:**Eftirfarandi færslur eru í febrúar:
+<span data-ttu-id="94716-105">Hægt er að nota **Leiðrétting á lagerbirgðum** síðuna til að leiðrétta kostnaðargildi magns lagerbirgða eftir að birgðalokunarvinnsla er keyrð.</span><span class="sxs-lookup"><span data-stu-id="94716-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="94716-106">**Ábending:** til Að opna síðuna **Leiðrétting á lagerbirgðum** veljið skýrsluna um lokið birgðalokunarferli á síðunni **Lokun og leiðrétting** og smellið síðan á **Leiðrétting** &gt; **Lager**.</span><span class="sxs-lookup"><span data-stu-id="94716-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="94716-107">**Dæmi:**Eftirfarandi færslur eru í febrúar:</span><span class="sxs-lookup"><span data-stu-id="94716-107">**Example:** You have the following transactions in February:</span></span>
 
--   1. febrúar: Fjárhagsleg innhreyfing birgða með magninu 2 á verðinu USD 10,00.
--   5. febrúar: Fjárhagsleg innhreyfing birgða með magninu 1 á verðinu USD 13,00.
--   19. febrúar: Fjárhagsleg úthreyfing birgða með magninu 1 á meðalkostnaðarverðinu USD 11,00.
+-   <span data-ttu-id="94716-108">1. febrúar: Fjárhagsleg innhreyfing birgða með magninu 2 á verðinu USD 10,00.</span><span class="sxs-lookup"><span data-stu-id="94716-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="94716-109">5. febrúar: Fjárhagsleg innhreyfing birgða með magninu 1 á verðinu USD 13,00.</span><span class="sxs-lookup"><span data-stu-id="94716-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="94716-110">19. febrúar: Fjárhagsleg úthreyfing birgða með magninu 1 á meðalkostnaðarverðinu USD 11,00.</span><span class="sxs-lookup"><span data-stu-id="94716-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
 
-Þessi vara var sett upp með birgðalíkaninu Fyrst inn, fyrst út (FIFO), og birgðalokunin var framkvæmd frá og með 28. febrúar. Fjárhagsleg úthreyfingarfærsla upp á 11.00 USD verður jöfnuð við fjárhagslegu innhreyfinguna þann 1. febrúar og gerð verður jöfnun upp á 1,00 USD. Eftirfarandi birgðainnhreyfingar munu þá innihalda opið birgðamagn:
+<span data-ttu-id="94716-111">Þessi vara var sett upp með birgðalíkaninu Fyrst inn, fyrst út (FIFO), og birgðalokunin var framkvæmd frá og með 28. febrúar.</span><span class="sxs-lookup"><span data-stu-id="94716-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="94716-112">Fjárhagsleg úthreyfingarfærsla upp á 11.00 USD verður jöfnuð við fjárhagslegu innhreyfinguna þann 1. febrúar og gerð verður jöfnun upp á 1,00 USD.</span><span class="sxs-lookup"><span data-stu-id="94716-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="94716-113">Eftirfarandi birgðainnhreyfingar munu þá innihalda opið birgðamagn:</span><span class="sxs-lookup"><span data-stu-id="94716-113">The following inventory receipts will then contain open inventory quantities:</span></span>
 
--   1. febrúar: Magnið 1 á verðinu 10.00 USD
--   5. febrúar: Magnið 1 á verðinu 13.00 USD
+-   <span data-ttu-id="94716-114">1. febrúar: Magnið 1 á verðinu 10.00 USD</span><span class="sxs-lookup"><span data-stu-id="94716-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="94716-115">5. febrúar: Magnið 1 á verðinu 13.00 USD</span><span class="sxs-lookup"><span data-stu-id="94716-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
 
-Ef stilla á kostnað þessara tveggja vara á USD 15.00 skal nota valkostinn um leiðréttingu lagerbirgða til að leiðrétta opna lagerbirgðamagnið frá síðasta birgðalokunartímabili. **Ábending:**Bókunardagsetning lagerbirgðaleiðréttingarfærslunnar verður dagsetning síðustu birgðalokunar. Ekki er hægt að breyta þessari dagsetningu.
+<span data-ttu-id="94716-116">Ef stilla á kostnað þessara tveggja vara á USD 15.00 skal nota valkostinn um leiðréttingu lagerbirgða til að leiðrétta opna lagerbirgðamagnið frá síðasta birgðalokunartímabili.</span><span class="sxs-lookup"><span data-stu-id="94716-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="94716-117">**Ábending:**Bókunardagsetning lagerbirgðaleiðréttingarfærslunnar verður dagsetning síðustu birgðalokunar.</span><span class="sxs-lookup"><span data-stu-id="94716-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="94716-118">Ekki er hægt að breyta þessari dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="94716-118">This date can't be modified.</span></span>
 

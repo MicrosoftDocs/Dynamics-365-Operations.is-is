@@ -20,65 +20,65 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2e39173ef6a27296a20d5f6e44ff6c728aa49c09
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b5df3c6c776a8dafdcfb3be7e2f273e01d70bcae
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="production-setup-requirements"></a>Uppsetningarkröfur framleiðslu
+# <a name="production-setup-requirements"></a><span data-ttu-id="24c99-103">Uppsetningarkröfur framleiðslu</span><span class="sxs-lookup"><span data-stu-id="24c99-103">Production setup requirements</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu. 
+<span data-ttu-id="24c99-104">Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu.</span><span class="sxs-lookup"><span data-stu-id="24c99-104">This article provides information about setup requirements before you can work with Production control.</span></span> 
 
-Framleiðslustýring er samþætt við aðgerðir í öðrum kerfiseiningum. Vegna þessara tengsla er hægt að breyta framleiðslupöntunum og tryggja að þær uppfærist sjálfkrafa í öllum öðrum ferlum og útreikningum í kerfinu. Framkvæma ætti uppsetningaraðgerðirnar í þeirri röð sem þær birtast hér fyrir neðan.
+<span data-ttu-id="24c99-105">Framleiðslustýring er samþætt við aðgerðir í öðrum kerfiseiningum.</span><span class="sxs-lookup"><span data-stu-id="24c99-105">Production control is integrated with features in other modules.</span></span> <span data-ttu-id="24c99-106">Vegna þessara tengsla er hægt að breyta framleiðslupöntunum og tryggja að þær uppfærist sjálfkrafa í öllum öðrum ferlum og útreikningum í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="24c99-106">This interconnectivity lets you change production orders and make sure that they are automatically updated in all other related processes and calculations in the system.</span></span> <span data-ttu-id="24c99-107">Framkvæma ætti uppsetningaraðgerðirnar í þeirri röð sem þær birtast hér fyrir neðan.</span><span class="sxs-lookup"><span data-stu-id="24c99-107">The following setup processes are listed in the order that you should complete them in.</span></span>
 
-## <a name="required-baseline-setup-in-other-modules"></a>Skyldug grunnuppsetning í öðrum kerfiseiningum
-Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna með framleiðslustýringu. Uppsetning felur í sér eftirfarandi verkefni:
+## <a name="required-baseline-setup-in-other-modules"></a><span data-ttu-id="24c99-108">Skyldug grunnuppsetning í öðrum kerfiseiningum</span><span class="sxs-lookup"><span data-stu-id="24c99-108">Required baseline setup in other modules</span></span>
+<span data-ttu-id="24c99-109">Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna með framleiðslustýringu.</span><span class="sxs-lookup"><span data-stu-id="24c99-109">Information in other modules must be set up before you can work with Production control.</span></span> <span data-ttu-id="24c99-110">Uppsetning felur í sér eftirfarandi verkefni:</span><span class="sxs-lookup"><span data-stu-id="24c99-110">This setup includes the following tasks:</span></span>
 
--   Setja upp almennar upplýsingar um fyrirtækið.
--   Setja upp fjárhag.
--   Skilgreina vöruflokka.
--   Setja upp fjárhagslykla fyrir vöruflokka.
--   Setja upp töflu fyrir birgðavörur í Birgðastjórnun.
--   Stofna uppskriftir (BOMs) og uppskriftaútgáfur í birgðastjórnun.
+-   <span data-ttu-id="24c99-111">Setja upp almennar upplýsingar um fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="24c99-111">Set up general company information.</span></span>
+-   <span data-ttu-id="24c99-112">Setja upp fjárhag.</span><span class="sxs-lookup"><span data-stu-id="24c99-112">Set up the general ledger.</span></span>
+-   <span data-ttu-id="24c99-113">Skilgreina vöruflokka.</span><span class="sxs-lookup"><span data-stu-id="24c99-113">Define item groups.</span></span>
+-   <span data-ttu-id="24c99-114">Setja upp fjárhagslykla fyrir vöruflokka.</span><span class="sxs-lookup"><span data-stu-id="24c99-114">Set up ledger accounts for item groups.</span></span>
+-   <span data-ttu-id="24c99-115">Setja upp töflu fyrir birgðavörur í Birgðastjórnun.</span><span class="sxs-lookup"><span data-stu-id="24c99-115">Set up the inventory item table in Inventory management.</span></span>
+-   <span data-ttu-id="24c99-116">Stofna uppskriftir (BOMs) og uppskriftaútgáfur í birgðastjórnun.</span><span class="sxs-lookup"><span data-stu-id="24c99-116">Create bills of materials (BOMs) and BOM versions in Inventory management.</span></span>
 
-## <a name="required-calendar-and-resource-setup"></a>Skyldug uppsetning dagatals og tilfanga
-Áður en þú notar framleiðslustýring, opnaðu Fyrirtækisstjórnun og stofna og skilgreina dagatal og rekstrartilföng í eftirfarandi röð:
+## <a name="required-calendar-and-resource-setup"></a><span data-ttu-id="24c99-117">Skyldug uppsetning dagatals og tilfanga</span><span class="sxs-lookup"><span data-stu-id="24c99-117">Required calendar and resource setup</span></span>
+<span data-ttu-id="24c99-118">Áður en þú notar framleiðslustýring, opnaðu Fyrirtækisstjórnun og stofna og skilgreina dagatal og rekstrartilföng í eftirfarandi röð:</span><span class="sxs-lookup"><span data-stu-id="24c99-118">Before you use Production control, open Organization administration, and create and define the calendar and operations resources in the following order:</span></span>
 
-1.  **Sniðmát vinnutíma** – Setja upp sniðmát vinnutíma til að skilgreina tímana sem eru í boði fyrir framleiðsluröðun.
-2.  **Dagatöl** – Setja upp vinnutímadagatal til að skilgreina daga ársins sem eru í boði fyrir framleiðsluröðun.
-3.  **Tilfangaflokkar** – Setja upp tilfangaflokka til að flokka rekstrartilföngum, þannig að hægt er að fá yfirlit yfir allar lausa afkastagetu þegar röðun er keyrð. Ekki þarf að setja upp tilfangaflokka áður en þú setur upp rekstrartilföng. Þó er mælt með að skilja hvernig skuli flokka tilföng þegar sett er upp framleiðslustýringu.
-4.  **Tilföng** - Setja upp rekstrartilföng til að skilgreina tilföng sem notuð eru til að ljúka framleiðsluferli og til að áætla afkastagetu.
+1.  <span data-ttu-id="24c99-119">**Sniðmát vinnutíma** – Setja upp sniðmát vinnutíma til að skilgreina tímana sem eru í boði fyrir framleiðsluröðun.</span><span class="sxs-lookup"><span data-stu-id="24c99-119">**Working time templates** – Set up working time templates to define the times that are available for production scheduling.</span></span>
+2.  <span data-ttu-id="24c99-120">**Dagatöl** – Setja upp vinnutímadagatal til að skilgreina daga ársins sem eru í boði fyrir framleiðsluröðun.</span><span class="sxs-lookup"><span data-stu-id="24c99-120">**Calendars** – Set up working time calendars to define the days of the year that are available for production scheduling.</span></span>
+3.  <span data-ttu-id="24c99-121">**Tilfangaflokkar** – Setja upp tilfangaflokka til að flokka rekstrartilföngum, þannig að hægt er að fá yfirlit yfir allar lausa afkastagetu þegar röðun er keyrð.</span><span class="sxs-lookup"><span data-stu-id="24c99-121">**Resource groups** – Set up resource groups to group the operations resources, so that you can get an overview of any free capacity when you run scheduling.</span></span> <span data-ttu-id="24c99-122">Ekki þarf að setja upp tilfangaflokka áður en þú setur upp rekstrartilföng.</span><span class="sxs-lookup"><span data-stu-id="24c99-122">You don't have to set up resource groups before you set up operations resources.</span></span> <span data-ttu-id="24c99-123">Þó er mælt með að skilja hvernig skuli flokka tilföng þegar sett er upp framleiðslustýringu.</span><span class="sxs-lookup"><span data-stu-id="24c99-123">However, we recommend that you understand how to group resources when you set up Production control.</span></span>
+4.  <span data-ttu-id="24c99-124">**Tilföng** - Setja upp rekstrartilföng til að skilgreina tilföng sem notuð eru til að ljúka framleiðsluferli og til að áætla afkastagetu.</span><span class="sxs-lookup"><span data-stu-id="24c99-124">**Resources** – Set up operations resources to define the resources that are used to complete the production process and plan for capacity.</span></span>
 
-## <a name="required-production-parameters-setup"></a>Skyldug uppsetning framleiðslufæribreyta
-**Færibreytur framleiðslustýringar** – Setja upp grunnfæribreytur framleiðslu til að skilgreina hvernig kerfið meðhöndlar og vinnur úr framleiðslupöntunum. Skilgreinið hvernig á að stofna, meta, raða og nota framleiðslupantanir. Einnig er hægt að velja um svörun og hvernig kostnaðarbókhald fer fram.
+## <a name="required-production-parameters-setup"></a><span data-ttu-id="24c99-125">Skyldug uppsetning framleiðslufæribreyta</span><span class="sxs-lookup"><span data-stu-id="24c99-125">Required production parameters setup</span></span>
+<span data-ttu-id="24c99-126">**Færibreytur framleiðslustýringar** – Setja upp grunnfæribreytur framleiðslu til að skilgreina hvernig kerfið meðhöndlar og vinnur úr framleiðslupöntunum.</span><span class="sxs-lookup"><span data-stu-id="24c99-126">**Production control parameters** – Set up basic production parameters to define how the system handles and processes production orders.</span></span> <span data-ttu-id="24c99-127">Skilgreinið hvernig á að stofna, meta, raða og nota framleiðslupantanir.</span><span class="sxs-lookup"><span data-stu-id="24c99-127">Define how production orders are created, estimated, scheduled, and consumed.</span></span> <span data-ttu-id="24c99-128">Einnig er hægt að velja um svörun og hvernig kostnaðarbókhald fer fram.</span><span class="sxs-lookup"><span data-stu-id="24c99-128">You can also select what kind of feedback you want and how cost accounting is done.</span></span>
 
-## <a name="required-journal-name-identification"></a>Skyldug auðkenning færslubókarheita
-**Heiti framleiðslubóka** – Tilgreina heiti framleiðslubóka sem eru notaðar til að skrá og bóka færslur.
+## <a name="required-journal-name-identification"></a><span data-ttu-id="24c99-129">Skyldug auðkenning færslubókarheita</span><span class="sxs-lookup"><span data-stu-id="24c99-129">Required journal name identification</span></span>
+<span data-ttu-id="24c99-130">**Heiti framleiðslubóka** – Tilgreina heiti framleiðslubóka sem eru notaðar til að skrá og bóka færslur.</span><span class="sxs-lookup"><span data-stu-id="24c99-130">**Production journal names** – Specify the production journal names that are used to record and post transactions.</span></span>
 
-## <a name="setup-if-you-use-operations"></a>Uppsetning ef aðgerðir eru notaðar
-Aðgerðir tákna tiltekna verkþætti sem er lokið til að framleiða endanlega afurð. **Ábending:** Þú verður að þekkja gerðir verkþátta sem eru nauðsynleg til að framleiða vöruna, og röð og forgang þeirra verkþætti. Þú Verður einnig vitað er hvaða tilföng eru innifalin, og hversu margar.
+## <a name="setup-if-you-use-operations"></a><span data-ttu-id="24c99-131">Uppsetning ef aðgerðir eru notaðar</span><span class="sxs-lookup"><span data-stu-id="24c99-131">Setup if you use operations</span></span>
+<span data-ttu-id="24c99-132">Aðgerðir tákna tiltekna verkþætti sem er lokið til að framleiða endanlega afurð.</span><span class="sxs-lookup"><span data-stu-id="24c99-132">Operations represent the specific activities that are completed to produce the finished product.</span></span> <span data-ttu-id="24c99-133">**Ábending:** Þú verður að þekkja gerðir verkþátta sem eru nauðsynleg til að framleiða vöruna, og röð og forgang þeirra verkþætti.</span><span class="sxs-lookup"><span data-stu-id="24c99-133">**Note:** You must know the types of activities that are required in order to produce your item, and the order and priorities of those activities.</span></span> <span data-ttu-id="24c99-134">Þú Verður einnig vitað er hvaða tilföng eru innifalin, og hversu margar.</span><span class="sxs-lookup"><span data-stu-id="24c99-134">You must also know which resources are involved, and how many.</span></span>
 
-1.  **Aðgerðir** - Setja upp aðgerðir sem standa fyrir þau verk sem þarf að ljúka til að framleiða lokna afurð.
-2.  **Tengsl** - Setja upp vensl aðgerða til að gefa ítarlegri eiginleika. Vensl aðgerða eru skilgreind með því að smella á **Tengsl** á í **Aðgerðir** síðu.
+1.  <span data-ttu-id="24c99-135">**Aðgerðir** - Setja upp aðgerðir sem standa fyrir þau verk sem þarf að ljúka til að framleiða lokna afurð.</span><span class="sxs-lookup"><span data-stu-id="24c99-135">**Operations** – Set up operations to represent the tasks that must be completed to produce the finished item.</span></span>
+2.  <span data-ttu-id="24c99-136">**Tengsl** - Setja upp vensl aðgerða til að gefa ítarlegri eiginleika.</span><span class="sxs-lookup"><span data-stu-id="24c99-136">**Relations** – Set up operation relations to establish detailed properties.</span></span> <span data-ttu-id="24c99-137">Vensl aðgerða eru skilgreind með því að smella á **Tengsl** á í **Aðgerðir** síðu.</span><span class="sxs-lookup"><span data-stu-id="24c99-137">To define operation relations, click **Relations** on the **Operations** page.</span></span>
 
-## <a name="setup-if-you-use-routes"></a>Uppsetning ef leiðir eru notaðar
-Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleiðsluleið sem sett er upp. Leiðin sýnir hvernig varan fer á milli aðgerða, og frá upphafi framleiðsluferlis til enda.
+## <a name="setup-if-you-use-routes"></a><span data-ttu-id="24c99-138">Uppsetning ef leiðir eru notaðar</span><span class="sxs-lookup"><span data-stu-id="24c99-138">Setup if you use routes</span></span>
+<span data-ttu-id="24c99-139">Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleiðsluleið sem sett er upp.</span><span class="sxs-lookup"><span data-stu-id="24c99-139">If you're working with routes, operations must be defined for every production route that you set up.</span></span> <span data-ttu-id="24c99-140">Leiðin sýnir hvernig varan fer á milli aðgerða, og frá upphafi framleiðsluferlis til enda.</span><span class="sxs-lookup"><span data-stu-id="24c99-140">The route represents the path that the item takes from operation to operation, from the start of the production process to the end.</span></span>
 
-1.  **Kostnaðartegundir** - Setja upp kostnaðartegundir til að skilgreina kostnað á hverja klukkustund í tilgreindum ferlum og uppsetningartímum.
-2.  **Kostnaðarflokkar** - Setja upp kostnaðarflokka til að stofna og hafa umsjón með mörgum gerðum kostnaðar.
-3.  **Leiðarflokkar** - Setja upp leiðaflokka til að skilgreina færibreytur sem eiga við um hópa af leiðum. Það verður að setja upp leiðaflokka áður en farið er að stofna framleiðsluleiðir.
-4.  **Leiðir** Setja upp framleiðsluleiðir og skilgreinið sjálfgefnar stillingar til að stjórna röðun, kostnaðarútreikning og verðlagningu leiðaaðgerða og framvinduskýrslur.
-5.  **Leiðir** - Setja upp leiðaútgáfur til að virkja vöruafbrigði í framleiðslu.
+1.  <span data-ttu-id="24c99-141">**Kostnaðartegundir** - Setja upp kostnaðartegundir til að skilgreina kostnað á hverja klukkustund í tilgreindum ferlum og uppsetningartímum.</span><span class="sxs-lookup"><span data-stu-id="24c99-141">**Cost categories** – Set up cost categories to define the cost per hour of specified processes and setup times.</span></span>
+2.  <span data-ttu-id="24c99-142">**Kostnaðarflokkar** - Setja upp kostnaðarflokka til að stofna og hafa umsjón með mörgum gerðum kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="24c99-142">**Cost groups** – Set up cost groups to create and maintain different types of costing.</span></span>
+3.  <span data-ttu-id="24c99-143">**Leiðarflokkar** - Setja upp leiðaflokka til að skilgreina færibreytur sem eiga við um hópa af leiðum.</span><span class="sxs-lookup"><span data-stu-id="24c99-143">**Route groups** – Set up route groups to define parameters that are related to groups of routes.</span></span> <span data-ttu-id="24c99-144">Það verður að setja upp leiðaflokka áður en farið er að stofna framleiðsluleiðir.</span><span class="sxs-lookup"><span data-stu-id="24c99-144">You must set up route groups before you can create production routes.</span></span>
+4.  <span data-ttu-id="24c99-145">**Leiðir** Setja upp framleiðsluleiðir og skilgreinið sjálfgefnar stillingar til að stjórna röðun, kostnaðarútreikning og verðlagningu leiðaaðgerða og framvinduskýrslur.</span><span class="sxs-lookup"><span data-stu-id="24c99-145">**Routes** – Set up production routes, and define default settings to control scheduling, costing, and pricing of route operations, and to control progress reporting.</span></span>
+5.  <span data-ttu-id="24c99-146">**Leiðir** - Setja upp leiðaútgáfur til að virkja vöruafbrigði í framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="24c99-146">**Routes** – Set up route versions to enable item variations in production.</span></span>
 
-## <a name="optional-advanced-settings"></a>Valfrjálsar, ítarlegar stillingar
-1.  **Framleiðsluflokkar** - Setja upp framleiðsluflokka til koma á tengslum milli framleiðslupöntunar og fjárhagslykla. Pantanir verða bókaðar í fjárhagslyklana eða flokkaðar í þá við skýrslugerð.
-2.  **Framleiðsluhópar** - Stofna framleiðsluhópa til að flokka framleiðslupantanir fyrir vinnslu mikilvægra pantana eða til að eyða og bóka flokka pantana.
-3.  **Eiginleikar** -Skilgreina eiginleika til að stofna sérstakar eigindir sem hægt er að tengja við tilföng til að stýra röð framleiðslna. Eigindirnar eru tengdar vinnutímasniðmátinu.
+## <a name="optional-advanced-settings"></a><span data-ttu-id="24c99-147">Valfrjálsar, ítarlegar stillingar</span><span class="sxs-lookup"><span data-stu-id="24c99-147">Optional advanced settings</span></span>
+1.  <span data-ttu-id="24c99-148">**Framleiðsluflokkar** - Setja upp framleiðsluflokka til koma á tengslum milli framleiðslupöntunar og fjárhagslykla.</span><span class="sxs-lookup"><span data-stu-id="24c99-148">**Production groups** – Set up production groups to establish relationships between the production order and ledger accounts.</span></span> <span data-ttu-id="24c99-149">Pantanir verða bókaðar í fjárhagslyklana eða flokkaðar í þá við skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="24c99-149">The ledger accounts are used to post or group orders for reporting.</span></span>
+2.  <span data-ttu-id="24c99-150">**Framleiðsluhópar** - Stofna framleiðsluhópa til að flokka framleiðslupantanir fyrir vinnslu mikilvægra pantana eða til að eyða og bóka flokka pantana.</span><span class="sxs-lookup"><span data-stu-id="24c99-150">**Production pools** – Create production pools to group production orders so that you can process urgent production orders, or delete and post groups of orders.</span></span>
+3.  <span data-ttu-id="24c99-151">**Eiginleikar** -Skilgreina eiginleika til að stofna sérstakar eigindir sem hægt er að tengja við tilföng til að stýra röð framleiðslna.</span><span class="sxs-lookup"><span data-stu-id="24c99-151">**Properties** – Define properties to create special attributes that you can assign to your resources to control the order of productions.</span></span> <span data-ttu-id="24c99-152">Eigindirnar eru tengdar vinnutímasniðmátinu.</span><span class="sxs-lookup"><span data-stu-id="24c99-152">These attributes are connected to the working time template.</span></span>
 
 
 

@@ -16,42 +16,42 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d89d34d4d429faf87c70943961f7141a6258d482
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1452c5d6f5dd8d0dd4cb08eb5cc9a48fd8f875f9
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-plan-for-a-site"></a>Stofna áætlun fyrir svæði
+# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="1a739-103">Stofna áætlun fyrir svæði</span><span class="sxs-lookup"><span data-stu-id="1a739-103">Create a plan for a site</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Framleiðslustjóri reiknar efnis- og afkastakröfur fyrir framleiðslu á tiltekinnar vöru. Eftir að tillögur um uppruna eru stofnaðar finnur hann pantanirnar á svæði sem hann er að gera áætlun fyrir og staðfestir pantanir, byrjar á þeim sem eru mest áríðandi. Mest áríðandi pantanir eru þær sem þarf að staðfesta á gildandi dagsetningu. Nota Sýnifyrirtækið USMF til að ljúka við þessi verk.
+<span data-ttu-id="1a739-104">Framleiðslustjóri reiknar efnis- og afkastakröfur fyrir framleiðslu á tiltekinnar vöru.</span><span class="sxs-lookup"><span data-stu-id="1a739-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="1a739-105">Eftir að tillögur um uppruna eru stofnaðar finnur hann pantanirnar á svæði sem hann er að gera áætlun fyrir og staðfestir pantanir, byrjar á þeim sem eru mest áríðandi.</span><span class="sxs-lookup"><span data-stu-id="1a739-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="1a739-106">Mest áríðandi pantanir eru þær sem þarf að staðfesta á gildandi dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="1a739-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="1a739-107">Nota Sýnifyrirtækið USMF til að ljúka við þessi verk.</span><span class="sxs-lookup"><span data-stu-id="1a739-107">Use the demo data company USMF to perform these tasks.</span></span>
 
 
-## <a name="create-a-materials-and-capacity-plan-for-an-item"></a>Stofna efnis- og afkastaáætlun fyrir vöru
-1. Smellt er á aðaláætlanagerð.
-    * Þarf að fara á sjálfgefið yfirlit.  
-2. Smellið á „Keyra“.
-3. Útvíkka Færslur til að taka hluta.
-4. Smellt er á Síu.
-5. Í listanum skal merkja valda línu.
-6. Í reitinn Skilyrði skal slá inn gildi.
-    * Til dæmis: D0001  
-7. Smellið á „Í lagi“.
-8. Smellið á „Í lagi“.
-    * Þetta getur tekið nokkrar mínútur...  
-9. Endurhlaðið síðuna.
+## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="1a739-108">Stofna efnis- og afkastaáætlun fyrir vöru</span><span class="sxs-lookup"><span data-stu-id="1a739-108">Create a materials and capacity plan for an item</span></span>
+1. <span data-ttu-id="1a739-109">Smellt er á aðaláætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="1a739-109">Click Master planning.</span></span>
+    * <span data-ttu-id="1a739-110">Þarf að fara á sjálfgefið yfirlit.</span><span class="sxs-lookup"><span data-stu-id="1a739-110">You need to navigate to the default Dashboard.</span></span>  
+2. <span data-ttu-id="1a739-111">Smellið á „Keyra“.</span><span class="sxs-lookup"><span data-stu-id="1a739-111">Click Run.</span></span>
+3. <span data-ttu-id="1a739-112">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="1a739-112">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="1a739-113">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="1a739-113">Click Filter.</span></span>
+5. <span data-ttu-id="1a739-114">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="1a739-114">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="1a739-115">Í reitinn Skilyrði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1a739-115">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="1a739-116">Til dæmis: D0001</span><span class="sxs-lookup"><span data-stu-id="1a739-116">Example: D0001</span></span>  
+7. <span data-ttu-id="1a739-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="1a739-117">Click OK.</span></span>
+8. <span data-ttu-id="1a739-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="1a739-118">Click OK.</span></span>
+    * <span data-ttu-id="1a739-119">Þetta getur tekið nokkrar mínútur...</span><span class="sxs-lookup"><span data-stu-id="1a739-119">This may take a few minutes.</span></span>  
+9. <span data-ttu-id="1a739-120">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="1a739-120">Refresh the page.</span></span>
 
-## <a name="identify-the-urgent-planned-orders-for-the-item"></a>Auðkenna áríðandi áætlaðar pantanir fyrir vöru
-1. Opna vörunúmerasíu fyrir dálkur.
-2. Notið síu í reitnum „vörunúmer“ með gildinu „D0001“ og notið til þess „byrjar á“ síu virknitákn
-3. Opnið dálkasíu pöntunardagsetningar.
-4. Nota síu á "Pöntunardagsetningu" svæðið, með gildandi dagsetningu, með síuvirkjanum "er nákvæmlega".
+## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="1a739-121">Auðkenna áríðandi áætlaðar pantanir fyrir vöru</span><span class="sxs-lookup"><span data-stu-id="1a739-121">Identify the urgent planned orders for the item</span></span>
+1. <span data-ttu-id="1a739-122">Opna vörunúmerasíu fyrir dálkur.</span><span class="sxs-lookup"><span data-stu-id="1a739-122">Open Item number column filter.</span></span>
+2. <span data-ttu-id="1a739-123">Notið síu í reitnum „vörunúmer“ með gildinu „D0001“ og notið til þess „byrjar á“ síu virknitákn</span><span class="sxs-lookup"><span data-stu-id="1a739-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
+3. <span data-ttu-id="1a739-124">Opnið dálkasíu pöntunardagsetningar.</span><span class="sxs-lookup"><span data-stu-id="1a739-124">Open Order date column filter.</span></span>
+4. <span data-ttu-id="1a739-125">Nota síu á "Pöntunardagsetningu" svæðið, með gildandi dagsetningu, með síuvirkjanum "er nákvæmlega".</span><span class="sxs-lookup"><span data-stu-id="1a739-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
 
-## <a name="firm-all-the-urgent-orders-for-the-item"></a>Staðfesta áríðandi pantanir fyrir vöru
-1. Merkið eða afmerkið allar línur í listanum.
-2. Smellið á „Fastáætla“.
-3. Smellið á „Í lagi“.
+## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="1a739-126">Staðfesta áríðandi pantanir fyrir vöru</span><span class="sxs-lookup"><span data-stu-id="1a739-126">Firm all the urgent orders for the item</span></span>
+1. <span data-ttu-id="1a739-127">Merkið eða afmerkið allar línur í listanum.</span><span class="sxs-lookup"><span data-stu-id="1a739-127">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="1a739-128">Smellið á „Fastáætla“.</span><span class="sxs-lookup"><span data-stu-id="1a739-128">Click Firm.</span></span>
+3. <span data-ttu-id="1a739-129">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="1a739-129">Click OK.</span></span>
 
 

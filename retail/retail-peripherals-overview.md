@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Yfirlit yfir jaðartæki smásölu
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="e34f6-104">Yfirlit yfir jaðartæki smásölu</span><span class="sxs-lookup"><span data-stu-id="e34f6-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu. Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.
+<span data-ttu-id="e34f6-105">Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="e34f6-106">Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Hugtök
+## <a name="concepts"></a><span data-ttu-id="e34f6-107">Hugtök</span><span class="sxs-lookup"><span data-stu-id="e34f6-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>Afgreiðslukassar
+### <a name="pos-registers"></a><span data-ttu-id="e34f6-108">Afgreiðslukassar</span><span class="sxs-lookup"><span data-stu-id="e34f6-108">POS registers</span></span>
 
-Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
+<span data-ttu-id="e34f6-109">Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="e34f6-110">Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="e34f6-111">Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Tæki
+### <a name="devices"></a><span data-ttu-id="e34f6-112">Tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-112">Devices</span></span>
 
-Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.
+<span data-ttu-id="e34f6-113">Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="e34f6-114">Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="e34f6-115">Þegar tæki er stofnað, er það varpað á afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="e34f6-116">Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="e34f6-117">Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Retail Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="e34f6-118">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="e34f6-118">Retail Modern POS</span></span>
 
-Modern POS er POS-forritið fyrir Microsoft Windows. Hægt er að nota það á stýrikerfi Windows 10 (OSs).
+<span data-ttu-id="e34f6-119">Modern POS er POS-forritið fyrir Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="e34f6-120">Hægt er að nota það á stýrikerfi Windows 10 (OSs).</span><span class="sxs-lookup"><span data-stu-id="e34f6-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a><span data-ttu-id="e34f6-121">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="e34f6-121">Cloud POS</span></span>
 
-Cloud POS er vafrabyggð útgáfa á Modern POS-forritinu sem hægt er að opna í vafra.
+<span data-ttu-id="e34f6-122">Cloud POS er vafrabyggð útgáfa á Modern POS-forritinu sem hægt er að opna í vafra.</span><span class="sxs-lookup"><span data-stu-id="e34f6-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS fyrir iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="e34f6-123">Modern POS fyrir iOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-123">Modern POS for iOS</span></span>
 
-Modern POS fyrir iOS er iOS-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á iOS-tækjum.
+<span data-ttu-id="e34f6-124">Modern POS fyrir iOS er iOS-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á iOS-tækjum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS fyrir Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="e34f6-125">Modern POS fyrir Android</span><span class="sxs-lookup"><span data-stu-id="e34f6-125">Modern POS for Android</span></span>
 
-Modern POS fyrir Android er Android-byggð útgáfa af Modern POS-forriti sem hægt er að nota á Android-tæki.
+<span data-ttu-id="e34f6-126">Modern POS fyrir Android er Android-byggð útgáfa af Modern POS-forriti sem hægt er að nota á Android-tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>POS-jaðarbúnaður
+### <a name="pos-peripherals"></a><span data-ttu-id="e34f6-127">POS-jaðarbúnaður</span><span class="sxs-lookup"><span data-stu-id="e34f6-127">POS peripherals</span></span>
 
-POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa. Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" þessa efnisatriðis.
+<span data-ttu-id="e34f6-128">POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="e34f6-129">Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="e34f6-130">Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" þessa efnisatriðis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Vélbúnaðarstöð
+### <a name="hardware-station"></a><span data-ttu-id="e34f6-131">Vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-131">Hardware station</span></span>
 
-Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
+<span data-ttu-id="e34f6-132">Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="e34f6-133">Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="e34f6-134">Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="e34f6-135">Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="e34f6-136">Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="e34f6-137">Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="e34f6-138">Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="e34f6-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="e34f6-139">Í því tilfelli er hægt að nálgast það gegnum net.</span><span class="sxs-lookup"><span data-stu-id="e34f6-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Vélbúnaðarregla
+### <a name="hardware-profile"></a><span data-ttu-id="e34f6-140">Vélbúnaðarregla</span><span class="sxs-lookup"><span data-stu-id="e34f6-140">Hardware profile</span></span>
 
-Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð. Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.
+<span data-ttu-id="e34f6-141">Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="e34f6-142">Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="e34f6-143">Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Tækjaklasar
-POS-jaðarbúnaði er yfirleitt skipt niður í klasa. Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.
+## <a name="devices-classes"></a><span data-ttu-id="e34f6-144">Tækjaklasar</span><span class="sxs-lookup"><span data-stu-id="e34f6-144">Devices classes</span></span>
+<span data-ttu-id="e34f6-145">POS-jaðarbúnaði er yfirleitt skipt niður í klasa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="e34f6-146">Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.</span><span class="sxs-lookup"><span data-stu-id="e34f6-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Prentari
+### <a name="printer"></a><span data-ttu-id="e34f6-147">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-147">Printer</span></span>
 
-Prentarar eru meðal annars venjulegur kvittanaprentari POS og heilsíðuprentarar. Prentarar eru studdir í gegnum hlutatengingu og ívaf (OLE) fyrir drifviðmót Retail POS (OPOS) og Microsoft Windows. Allt að tvo prentara má nota á sama tíma. Þessi eiginleiki styður aðstæður þar sem kvittanir viðskiptavina með reiðufé eru prentaðar á kvittanaprentara, en pantanir viðskiptavina sem bera nánari upplýsingar, eru prentaðar á heilsíðuprentara. Kvittanaprentara er hægt að tengja beint við tölvu gegnum USB, tengja neti við Ethernet eða tengja við Bluetooth.
+<span data-ttu-id="e34f6-148">Prentarar eru meðal annars venjulegur kvittanaprentari POS og heilsíðuprentarar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="e34f6-149">Prentarar eru studdir í gegnum hlutatengingu og ívaf (OLE) fyrir drifviðmót Retail POS (OPOS) og Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="e34f6-150">Allt að tvo prentara má nota á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="e34f6-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="e34f6-151">Þessi eiginleiki styður aðstæður þar sem kvittanir viðskiptavina með reiðufé eru prentaðar á kvittanaprentara, en pantanir viðskiptavina sem bera nánari upplýsingar, eru prentaðar á heilsíðuprentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="e34f6-152">Kvittanaprentara er hægt að tengja beint við tölvu gegnum USB, tengja neti við Ethernet eða tengja við Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="e34f6-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Skanni
+### <a name="scanner"></a><span data-ttu-id="e34f6-153">Skanni</span><span class="sxs-lookup"><span data-stu-id="e34f6-153">Scanner</span></span>
 
-Allt að tvo prentara má nota á sama tíma. Þessi eiginleiki styður aðstæður þar sem skanni sem er meira farsími er nauðsynlegur til að skanna stórar eða þungar vörur, en fastur ívafinn skanni er notaður fyrir flestar vörur í staðlaðri stærð, til að flýta greiðsluferli. Skannar geta verið studdir í OPOS, Universal Windows Platform (UWP) eða viðmótum lyklaborð kortalesara. Hægt er að nota USB eða Bluetooth til að tengja skanna við tölvu.
+<span data-ttu-id="e34f6-154">Allt að tvo prentara má nota á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="e34f6-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="e34f6-155">Þessi eiginleiki styður aðstæður þar sem skanni sem er meira farsími er nauðsynlegur til að skanna stórar eða þungar vörur, en fastur ívafinn skanni er notaður fyrir flestar vörur í staðlaðri stærð, til að flýta greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="e34f6-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="e34f6-156">Skannar geta verið studdir í OPOS, Universal Windows Platform (UWP) eða viðmótum lyklaborð kortalesara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="e34f6-157">Hægt er að nota USB eða Bluetooth til að tengja skanna við tölvu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>Kortalesari
+### <a name="msr"></a><span data-ttu-id="e34f6-158">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="e34f6-158">MSR</span></span>
 
-Hægt er að setja upp einn USB kortalesara (MSR) með því að nota OPOS-rekla. Ef óskað er að nota sjálfstæðan kortalesara fyrir kortamillifærslur (EFT) á greiðslufærslum verður Kortalesara að vera stjórnað af tengilínu greiðslunnar. Hægt er að nota sjálfstæða kortalesara fyrir vildarkortsfærslu viðskiptavinar, innskráningu starfsmanns og gjafakortsfærslu, óháð tengilínu greiðslunnar.
+<span data-ttu-id="e34f6-159">Hægt er að setja upp einn USB kortalesara (MSR) með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="e34f6-160">Ef óskað er að nota sjálfstæðan kortalesara fyrir kortamillifærslur (EFT) á greiðslufærslum verður Kortalesara að vera stjórnað af tengilínu greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="e34f6-161">Hægt er að nota sjálfstæða kortalesara fyrir vildarkortsfærslu viðskiptavinar, innskráningu starfsmanns og gjafakortsfærslu, óháð tengilínu greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Peningaskúffa
+### <a name="cash-drawer"></a><span data-ttu-id="e34f6-162">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="e34f6-162">Cash drawer</span></span>
 
-Tvær peningaskúffur geta verið studdar á vélbúnaðarreglu. Þessi eiginleiki gerir tvær virkar vaktir virkar á hvern afgreiðslukassa til að vera tiltækar í einu. Ef samnýtt vakt eða peningaskúffa sem er notað af mörgum POS fartæki á sama tíma er aðeins ein peningaskúffu er leyft á hverja vélbúnaðarreglu. Peningaskúffur er hægt að tengja beint við tölvu gegnum USB, tengja við net eða tengja við kvittanaprentara með RJ12-viðmóti. Í sumum tilvikum, geta peningaskúffur einnig að vera tengdur gegnum Bluetooth.
+<span data-ttu-id="e34f6-163">Tvær peningaskúffur geta verið studdar á vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="e34f6-164">Þessi eiginleiki gerir tvær virkar vaktir virkar á hvern afgreiðslukassa til að vera tiltækar í einu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="e34f6-165">Ef samnýtt vakt eða peningaskúffa sem er notað af mörgum POS fartæki á sama tíma er aðeins ein peningaskúffu er leyft á hverja vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="e34f6-166">Peningaskúffur er hægt að tengja beint við tölvu gegnum USB, tengja við net eða tengja við kvittanaprentara með RJ12-viðmóti.</span><span class="sxs-lookup"><span data-stu-id="e34f6-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="e34f6-167">Í sumum tilvikum, geta peningaskúffur einnig að vera tengdur gegnum Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="e34f6-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Línuskjár
+### <a name="line-display"></a><span data-ttu-id="e34f6-168">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-168">Line display</span></span>
 
-Línubirtingar eru notaðar til að sýna afurðir, færslustöður og aðrar gagnlegar upplýsingar til viðskiptavinar við færslu. Ein línubirting getur verið tengd við tölvu gegnum USB með því að nota OPOS-rekla.
+<span data-ttu-id="e34f6-169">Línubirtingar eru notaðar til að sýna afurðir, færslustöður og aðrar gagnlegar upplýsingar til viðskiptavinar við færslu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="e34f6-170">Ein línubirting getur verið tengd við tölvu gegnum USB með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>Sækja undirskrift
+### <a name="signature-capture"></a><span data-ttu-id="e34f6-171">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="e34f6-171">Signature capture</span></span>
 
-Undirskriftatæki eru tengd beint tölvunni gegnum USB með því að nota OPOS-rekla. Þegar sækja undirskrift er skilgreind er viðskiptavinur beðinn um að undirrita á tækinu. Eftir að undirskrift er veitt, er hún sýnd gjaldkera til að samþykkja.
+<span data-ttu-id="e34f6-172">Undirskriftatæki eru tengd beint tölvunni gegnum USB með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="e34f6-173">Þegar sækja undirskrift er skilgreind er viðskiptavinur beðinn um að undirrita á tækinu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="e34f6-174">Eftir að undirskrift er veitt, er hún sýnd gjaldkera til að samþykkja.</span><span class="sxs-lookup"><span data-stu-id="e34f6-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Vigt
+### <a name="scale"></a><span data-ttu-id="e34f6-175">Vigt</span><span class="sxs-lookup"><span data-stu-id="e34f6-175">Scale</span></span>
 
-Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla. Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir vörunni við færsluna og notar magnið sem vigtin gaf upp.
+<span data-ttu-id="e34f6-176">Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="e34f6-177">Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir vörunni við færsluna og notar magnið sem vigtin gaf upp.</span><span class="sxs-lookup"><span data-stu-id="e34f6-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>PIN-takkaborð
+### <a name="pin-pad"></a><span data-ttu-id="e34f6-178">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="e34f6-178">PIN pad</span></span>
 
-Takkaborð fyrir persónuleg auðkennisnúmer (PIN) eru studd með OPOS, en það verður að stjórna þeim í gegnum greiðslutengi.
+<span data-ttu-id="e34f6-179">Takkaborð fyrir persónuleg auðkennisnúmer (PIN) eru studd með OPOS, en það verður að stjórna þeim í gegnum greiðslutengi.</span><span class="sxs-lookup"><span data-stu-id="e34f6-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>Aukabirting
+### <a name="secondary-display"></a><span data-ttu-id="e34f6-180">Aukabirting</span><span class="sxs-lookup"><span data-stu-id="e34f6-180">Secondary display</span></span>
 
-Þegar aukabirting er skilgreind, Windows birtingu númer 2 er notuð til að sýna grunnupplýsingar. Tilgangur aukabirtingar er að styðja viðbót óháðs hugbúnaðarlánardrottins (ISV), þar sem utan reitsins er aukabirtingin ekki skilgreinanleg og sýnir takmarkað efni.
+<span data-ttu-id="e34f6-181">Þegar aukabirting er skilgreind, Windows birtingu númer 2 er notuð til að sýna grunnupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="e34f6-182">Tilgangur aukabirtingar er að styðja viðbót óháðs hugbúnaðarlánardrottins (ISV), þar sem utan reitsins er aukabirtingin ekki skilgreinanleg og sýnir takmarkað efni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Greiðslutæki
+### <a name="payment-device"></a><span data-ttu-id="e34f6-183">Greiðslutæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-183">Payment device</span></span>
 
-Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi. Greiðslutæki geta framkvæmt eina eða margar aðgerðir sem aðrir tækjaklasar veita. Til dæmis, getur greiðslutæki virkað sem MSR/kortalesari, línuskjár, sækja undirskrift eða PIN-takkaborð. Stuðningu við greiðslutæki er innleiddur óháð stuðningi sjálfstæðra tæka sem lögð er til fyrir önnur tæki sem eru innifaldar í vélbúnaðarreglu.
+<span data-ttu-id="e34f6-184">Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi.</span><span class="sxs-lookup"><span data-stu-id="e34f6-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="e34f6-185">Greiðslutæki geta framkvæmt eina eða margar aðgerðir sem aðrir tækjaklasar veita.</span><span class="sxs-lookup"><span data-stu-id="e34f6-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="e34f6-186">Til dæmis, getur greiðslutæki virkað sem MSR/kortalesari, línuskjár, sækja undirskrift eða PIN-takkaborð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="e34f6-187">Stuðningu við greiðslutæki er innleiddur óháð stuðningi sjálfstæðra tæka sem lögð er til fyrir önnur tæki sem eru innifaldar í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Studd viðmót
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="e34f6-188">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="e34f6-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-189">OPOS</span></span>
 
-Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Microsoft Dynamics 365 for Retail er OLE fyrir POS-iðnaðarstaðalinn aðalsmásölukerfi jaðarbúnaðar sem er stutt í Microsoft Dynamics 365 for Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
+<span data-ttu-id="e34f6-190">Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Microsoft Dynamics 365 for Retail er OLE fyrir POS-iðnaðarstaðalinn aðalsmásölukerfi jaðarbúnaðar sem er stutt í Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e34f6-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="e34f6-191">OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="e34f6-192">OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="e34f6-193">Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan.</span><span class="sxs-lookup"><span data-stu-id="e34f6-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="e34f6-194">OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi.</span><span class="sxs-lookup"><span data-stu-id="e34f6-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="e34f6-195">OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="e34f6-196">OPOS-stýring samanstendur af tveimur hlutum:</span><span class="sxs-lookup"><span data-stu-id="e34f6-196">An OPOS control consists of two parts:</span></span>
 
--   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail. Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
--   **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá framleiðanda fyrir vefsvæðið. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
+-   <span data-ttu-id="e34f6-197">**Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="e34f6-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs).</span><span class="sxs-lookup"><span data-stu-id="e34f6-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="e34f6-199">Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e34f6-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="e34f6-200">Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="e34f6-201">Ekki þarf að prófa sérstaklega hverja gerð tækis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="e34f6-202">**Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="e34f6-203">Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="e34f6-204">Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá framleiðanda fyrir vefsvæðið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="e34f6-205">Til dæmis gæti nýrri þjónustuhlutur verið tiltækur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="e34f6-206">Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman. **Athugasemd:** OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-elkum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
+<span data-ttu-id="e34f6-207">[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman.</span><span class="sxs-lookup"><span data-stu-id="e34f6-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="e34f6-208">**Athugasemd:** OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-elkum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="e34f6-209">Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="e34f6-210">Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs.</span><span class="sxs-lookup"><span data-stu-id="e34f6-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="e34f6-211">Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.</span><span class="sxs-lookup"><span data-stu-id="e34f6-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Gluggar
+### <a name="windows"></a><span data-ttu-id="e34f6-212">Gluggar</span><span class="sxs-lookup"><span data-stu-id="e34f6-212">Windows</span></span>
 
-Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera mikið hraðara en prentun gegnum Windows. Því er gott að nota OPOS, sérstaklega í smásöluumhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður. Fyrir flest tæki eru OPOS-stýringar notaðar. Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla. Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa. Hins vegar eru vankantar á því að nota Windows-rekla. Hér eru nokkur dæmi um þessa vankanta:
+<span data-ttu-id="e34f6-213">Prentun á kvittun á POS er bestuð fyrir OPOS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="e34f6-214">OPOS hættir til að vera mikið hraðara en prentun gegnum Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="e34f6-215">Því er gott að nota OPOS, sérstaklega í smásöluumhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður.</span><span class="sxs-lookup"><span data-stu-id="e34f6-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="e34f6-216">Fyrir flest tæki eru OPOS-stýringar notaðar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="e34f6-217">Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="e34f6-218">Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="e34f6-219">Hins vegar eru vankantar á því að nota Windows-rekla.</span><span class="sxs-lookup"><span data-stu-id="e34f6-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="e34f6-220">Hér eru nokkur dæmi um þessa vankanta:</span><span class="sxs-lookup"><span data-stu-id="e34f6-220">Here are some examples of these drawbacks:</span></span>
 
--   Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst. Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.
--   Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.
--   OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.
+-   <span data-ttu-id="e34f6-221">Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst.</span><span class="sxs-lookup"><span data-stu-id="e34f6-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="e34f6-222">Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="e34f6-223">Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir.</span><span class="sxs-lookup"><span data-stu-id="e34f6-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="e34f6-224">Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.</span><span class="sxs-lookup"><span data-stu-id="e34f6-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="e34f6-225">OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.</span><span class="sxs-lookup"><span data-stu-id="e34f6-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentarinn samt að virka með Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="e34f6-226">Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentarinn samt að virka með Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e34f6-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Universal Windows Platform
+### <a name="universal-windows-platform"></a><span data-ttu-id="e34f6-227">Universal Windows Platform</span><span class="sxs-lookup"><span data-stu-id="e34f6-227">Universal Windows Platform</span></span>
 
-UWP, ef jaðartæki smásölu, tengist stuðningi Windows fyrir Plug and Play-tæki. Þegar Plug and Play-tækið er tengt við útgáfu Windows OS sem styður sem þá gerð tækis, þarf engann rekil áskilið fyrir tækið svo að það virki eins og skyldi. Til dæmis, ef Windows greinir Bluetooth-hátalaratæki, veit OS að tækið er að klasagerðinni **Hátalari**. Þess vegna fer það með tækið sem hátalara. Engrar frekari uppsetningar er krafist. Í tilfelli POS-tækja geta mörg USB-tæki verið tengd og Windows mun þekkja þau sem Human Interface Devices (HIDs). Hins vegar er hugsanlega ekki hægt að ákvarða getu sem tækið veitir, þar sem tækið skilgreinir ekki klasa eða gerð tækis. Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við. Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum. Modern POS styður UWP-kortalesara og skanna. Þess vegna þegar hún er tilbúin fyrir inntak úr einu af þessum tækjum og tæki sem tilheyrir einum af þessum klösum er tengt, er hægt að nota tækið. Til dæmis, ef UWP-strikamerkjaskanni er tengdur í Windows 10 tölvu og strikamerkjainnskráning er skilgreind fyrir Modern POS verður strikamerkjaskanninn virkur á innskráningarskjánum. Engrar frekari uppsetningar er krafist. Viðbótarklasar UWP-tækja þjónustupunkts er bætt við Windows. Þessir klasar innifela klasa fyrir peningaskúffur og kvittanaprentara. Stuðningur fyrir þessa nýja tækjaklasa í Modern POS er í bið.
+<span data-ttu-id="e34f6-228">UWP, ef jaðartæki smásölu, tengist stuðningi Windows fyrir Plug and Play-tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="e34f6-229">Þegar Plug and Play-tækið er tengt við útgáfu Windows OS sem styður sem þá gerð tækis, þarf engann rekil áskilið fyrir tækið svo að það virki eins og skyldi.</span><span class="sxs-lookup"><span data-stu-id="e34f6-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="e34f6-230">Til dæmis, ef Windows greinir Bluetooth-hátalaratæki, veit OS að tækið er að klasagerðinni **Hátalari**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="e34f6-231">Þess vegna fer það með tækið sem hátalara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="e34f6-232">Engrar frekari uppsetningar er krafist.</span><span class="sxs-lookup"><span data-stu-id="e34f6-232">No additional setup is required.</span></span> <span data-ttu-id="e34f6-233">Í tilfelli POS-tækja geta mörg USB-tæki verið tengd og Windows mun þekkja þau sem Human Interface Devices (HIDs).</span><span class="sxs-lookup"><span data-stu-id="e34f6-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="e34f6-234">Hins vegar er hugsanlega ekki hægt að ákvarða getu sem tækið veitir, þar sem tækið skilgreinir ekki klasa eða gerð tækis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="e34f6-235">Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við.</span><span class="sxs-lookup"><span data-stu-id="e34f6-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="e34f6-236">Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="e34f6-237">Modern POS styður UWP-kortalesara og skanna.</span><span class="sxs-lookup"><span data-stu-id="e34f6-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="e34f6-238">Þess vegna þegar hún er tilbúin fyrir inntak úr einu af þessum tækjum og tæki sem tilheyrir einum af þessum klösum er tengt, er hægt að nota tækið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="e34f6-239">Til dæmis, ef UWP-strikamerkjaskanni er tengdur í Windows 10 tölvu og strikamerkjainnskráning er skilgreind fyrir Modern POS verður strikamerkjaskanninn virkur á innskráningarskjánum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="e34f6-240">Engrar frekari uppsetningar er krafist.</span><span class="sxs-lookup"><span data-stu-id="e34f6-240">No additional setup is required.</span></span> <span data-ttu-id="e34f6-241">Viðbótarklasar UWP-tækja þjónustupunkts er bætt við Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="e34f6-242">Þessir klasar innifela klasa fyrir peningaskúffur og kvittanaprentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="e34f6-243">Stuðningur fyrir þessa nýja tækjaklasa í Modern POS er í bið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Lyklaborðstenging
+### <a name="keyboard-wedge"></a><span data-ttu-id="e34f6-244">Lyklaborðstenging</span><span class="sxs-lookup"><span data-stu-id="e34f6-244">Keyboard wedge</span></span>
 
-Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er fleiri stýringar á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
+<span data-ttu-id="e34f6-245">Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="e34f6-246">Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="e34f6-247">Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði.</span><span class="sxs-lookup"><span data-stu-id="e34f6-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="e34f6-248">Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts.</span><span class="sxs-lookup"><span data-stu-id="e34f6-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="e34f6-249">Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="e34f6-250">Þess vegna eru gögnin meðhöndluð rétt.</span><span class="sxs-lookup"><span data-stu-id="e34f6-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="e34f6-251">Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er fleiri stýringar á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í.</span><span class="sxs-lookup"><span data-stu-id="e34f6-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="e34f6-252">Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.</span><span class="sxs-lookup"><span data-stu-id="e34f6-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Innbyggður prentari
+### <a name="native-printer"></a><span data-ttu-id="e34f6-253">Innbyggður prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-253">Native printer</span></span>
 
-Innbryggðir (eða "Tækis" sem gerðin sem er nefnd í vélbúnaðarreglunni) prentara er hægt að skilgreina til að biðja notandann til að velja prentara sem er skilgreindur fyrir tölvuna. Þegar prentari af gerðinni **Tækið** er grunnstilltur, ef Modern POS finnur prentskipun, er notandi beðinn um að velja prentara úr listanum. Þessi hegðun er frábrugðið hegðun fyrir Windows-rekla, þar sem prentaragerð **Windows** í vélbúnaðarregluna sýnir ekki lista yfir prentara. Þess í stað krefst hún þess að nefndur prentari sé veittur í svæðinu **tækjaheiti**.
+<span data-ttu-id="e34f6-254">Innbryggðir (eða "Tækis" sem gerðin sem er nefnd í vélbúnaðarreglunni) prentara er hægt að skilgreina til að biðja notandann til að velja prentara sem er skilgreindur fyrir tölvuna.</span><span class="sxs-lookup"><span data-stu-id="e34f6-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="e34f6-255">Þegar prentari af gerðinni **Tækið** er grunnstilltur, ef Modern POS finnur prentskipun, er notandi beðinn um að velja prentara úr listanum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="e34f6-256">Þessi hegðun er frábrugðið hegðun fyrir Windows-rekla, þar sem prentaragerð **Windows** í vélbúnaðarregluna sýnir ekki lista yfir prentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="e34f6-257">Þess í stað krefst hún þess að nefndur prentari sé veittur í svæðinu **tækjaheiti**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Gluggar
+### <a name="windows"></a><span data-ttu-id="e34f6-258">Gluggar</span><span class="sxs-lookup"><span data-stu-id="e34f6-258">Windows</span></span>
 
-Tækjagerð **Windows** er aðeins notuð fyrir prentara. Þegar Windows-prentara er skilgreind í vélbúnaðarreglu, verður að gefa upp tilgreint heiti prentara. Þegar Modern POS finnur prenttilvik, ef Windows-prentari er skilgreint verður tilvikið sent áfram til tilgreinda Windows-prentarans. Notandi verður ekki beðinn um að velja prentara.
+<span data-ttu-id="e34f6-259">Tækjagerð **Windows** er aðeins notuð fyrir prentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="e34f6-260">Þegar Windows-prentara er skilgreind í vélbúnaðarreglu, verður að gefa upp tilgreint heiti prentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="e34f6-261">Þegar Modern POS finnur prenttilvik, ef Windows-prentari er skilgreint verður tilvikið sent áfram til tilgreinda Windows-prentarans.</span><span class="sxs-lookup"><span data-stu-id="e34f6-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="e34f6-262">Notandi verður ekki beðinn um að velja prentara.</span><span class="sxs-lookup"><span data-stu-id="e34f6-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Net
+### <a name="network"></a><span data-ttu-id="e34f6-263">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-263">Network</span></span>
 
-Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.
+<span data-ttu-id="e34f6-264">Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Notkunarvalkostir vélbúnaðarstöðvar
-### <a name="ipc-built-in"></a>IPC (innbyggt)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="e34f6-265">Notkunarvalkostir vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="e34f6-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="e34f6-266">IPC (innbyggt)</span><span class="sxs-lookup"><span data-stu-id="e34f6-266">IPC (built-in)</span></span>
 
-Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows. Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar. Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar. Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.
+<span data-ttu-id="e34f6-267">Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="e34f6-268">Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="e34f6-269">Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="e34f6-270">Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="e34f6-271">Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="e34f6-272">Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.</span><span class="sxs-lookup"><span data-stu-id="e34f6-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="e34f6-273">IIS</span><span class="sxs-lookup"><span data-stu-id="e34f6-273">IIS</span></span>
 
-Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu. Lýsiorðið "IIS" gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services. Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt. Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu. Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu. Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki. Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.
+<span data-ttu-id="e34f6-274">Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="e34f6-275">Lýsiorðið "IIS" gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="e34f6-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="e34f6-276">Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt.</span><span class="sxs-lookup"><span data-stu-id="e34f6-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="e34f6-277">Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="e34f6-278">Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="e34f6-279">Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="e34f6-280">Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Sérnýtt
+#### <a name="dedicated"></a><span data-ttu-id="e34f6-281">Sérnýtt</span><span class="sxs-lookup"><span data-stu-id="e34f6-281">Dedicated</span></span>
 
-Modern POS notar vélbúnaðarstöðvar a gerðinni **Sérhæft** til að ákvarða hvort jaðartæki tengjast beint við tölvunni þar sem forritið er notað. Hins vegar er einnig hægt að nota gerðina **Sérhæft** fyrir vélbúnaðarstöðvar IIS. Í venjulegum, föstum POS-aðstæðum sem notar Cloud POS sem POS forritið er vébúnaðarstöðvargerðin **Sérhæft** notuð fyrir IIS vélbúnaðarstöðvar sem virkjuð eru á sömu tölvu sem keyrir Cloud POS. Frá sjónarhorni jaðartæki smásölu, hefur sérstakan vélbúnaðarstöð IIS betur smásölu jaðarbúnaði stuðning fyrir venjulegt, föst POS aðstæður. Sérnýtta vélbúnaðarstöðvar styðja öll jaðartæki sem eru studd í vélbúnaðarreglu.
+<span data-ttu-id="e34f6-282">Modern POS notar vélbúnaðarstöðvar a gerðinni **Sérhæft** til að ákvarða hvort jaðartæki tengjast beint við tölvunni þar sem forritið er notað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="e34f6-283">Hins vegar er einnig hægt að nota gerðina **Sérhæft** fyrir vélbúnaðarstöðvar IIS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="e34f6-284">Í venjulegum, föstum POS-aðstæðum sem notar Cloud POS sem POS forritið er vébúnaðarstöðvargerðin **Sérhæft** notuð fyrir IIS vélbúnaðarstöðvar sem virkjuð eru á sömu tölvu sem keyrir Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="e34f6-285">Frá sjónarhorni jaðartæki smásölu, hefur sérstakan vélbúnaðarstöð IIS betur smásölu jaðarbúnaði stuðning fyrir venjulegt, föst POS aðstæður.</span><span class="sxs-lookup"><span data-stu-id="e34f6-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="e34f6-286">Sérnýtta vélbúnaðarstöðvar styðja öll jaðartæki sem eru studd í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Samnýtt
+#### <a name="shared"></a><span data-ttu-id="e34f6-287">Samnýtt</span><span class="sxs-lookup"><span data-stu-id="e34f6-287">Shared</span></span>
 
-Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tækjum í gegnum daginn. Samnýttar vélbúnaðstöðvar eru bestaðar til að styðja aðeins peningaskúffur, kvittanaprentara, og afgreiðslustöðvar. Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt. Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma. Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:
+<span data-ttu-id="e34f6-288">Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tækjum í gegnum daginn.</span><span class="sxs-lookup"><span data-stu-id="e34f6-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="e34f6-289">Samnýttar vélbúnaðstöðvar eru bestaðar til að styðja aðeins peningaskúffur, kvittanaprentara, og afgreiðslustöðvar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="e34f6-290">Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt.</span><span class="sxs-lookup"><span data-stu-id="e34f6-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="e34f6-291">Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="e34f6-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="e34f6-292">Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:</span><span class="sxs-lookup"><span data-stu-id="e34f6-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið. Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á **Samnýtt** í vélbúnaðarreglu. Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.
--   **Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki. Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál. Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.
--   **Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar. Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.
+-   <span data-ttu-id="e34f6-293">**Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="e34f6-294">Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin.</span><span class="sxs-lookup"><span data-stu-id="e34f6-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="e34f6-295">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á **Samnýtt** í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="e34f6-296">Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.</span><span class="sxs-lookup"><span data-stu-id="e34f6-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="e34f6-297">**Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="e34f6-298">Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál.</span><span class="sxs-lookup"><span data-stu-id="e34f6-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="e34f6-299">Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="e34f6-300">**Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="e34f6-301">Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð. Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa. POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS. Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður. Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður. Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið. Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil. Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.
+<span data-ttu-id="e34f6-302">Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="e34f6-303">Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="e34f6-304">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="e34f6-305">POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="e34f6-306">Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður.</span><span class="sxs-lookup"><span data-stu-id="e34f6-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="e34f6-307">Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður.</span><span class="sxs-lookup"><span data-stu-id="e34f6-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="e34f6-308">Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="e34f6-309">Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil.</span><span class="sxs-lookup"><span data-stu-id="e34f6-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="e34f6-310">Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Net jaðarbúnaðar
+### <a name="network-peripherals"></a><span data-ttu-id="e34f6-311">Net jaðarbúnaðar</span><span class="sxs-lookup"><span data-stu-id="e34f6-311">Network peripherals</span></span>
 
-Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvittanaprentara og afgreiðslustöðvar séu tengdir gegnum nettengingu.
+<span data-ttu-id="e34f6-312">Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvittanaprentara og afgreiðslustöðvar séu tengdir gegnum nettengingu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS fyrir Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="e34f6-313">Modern POS fyrir Windows</span><span class="sxs-lookup"><span data-stu-id="e34f6-313">Modern POS for Windows</span></span>
 
-Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum. Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn **Grunnstilling IP-tölu** í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann. Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð. Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni **Smásöluverslanir** og nota síðan valkostinn **Grunnstilling IP-tölu** í hlutanum **Vélbúnaðarstöðvar** til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð. Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa. Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.
+<span data-ttu-id="e34f6-314">Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="e34f6-315">Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn **Grunnstilling IP-tölu** í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann.</span><span class="sxs-lookup"><span data-stu-id="e34f6-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="e34f6-316">Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="e34f6-317">Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni **Smásöluverslanir** og nota síðan valkostinn **Grunnstilling IP-tölu** í hlutanum **Vélbúnaðarstöðvar** til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="e34f6-318">Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="e34f6-319">Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS fyrir iOS og Modern POS fyrir Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="e34f6-320">Cloud POS, Modern POS fyrir iOS og Modern POS fyrir Android</span><span class="sxs-lookup"><span data-stu-id="e34f6-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu. Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.
+<span data-ttu-id="e34f6-321">Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="e34f6-322">Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.</span><span class="sxs-lookup"><span data-stu-id="e34f6-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Uppsetning og skilgreining
-### <a name="hardware-station-installation"></a>Uppsetning vélbúnaðarstöðvar
+## <a name="setup-and-configuration"></a><span data-ttu-id="e34f6-323">Uppsetning og skilgreining</span><span class="sxs-lookup"><span data-stu-id="e34f6-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="e34f6-324">Uppsetning vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="e34f6-324">Hardware station installation</span></span>
 
-Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="e34f6-325">Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Uppsetning og skilgreining á Modern POS fyrir Windows
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="e34f6-326">Uppsetning og skilgreining á Modern POS fyrir Windows</span><span class="sxs-lookup"><span data-stu-id="e34f6-326">Modern POS for Windows setup and configuration</span></span>
 
-Nánari upplýsingar er að finna í [Skilgreining og uppsetning á Retail Modern Pos](retail-modern-pos-device-activation.md).
+<span data-ttu-id="e34f6-327">Nánari upplýsingar er að finna í [Skilgreining og uppsetning á Retail Modern Pos](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>Uppsetning og skilgreining á OPOS-tæki
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="e34f6-328">Uppsetning og skilgreining á OPOS-tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-328">OPOS device setup and configuration</span></span>
 
-Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals. Venjulega eru OPOS-reklar veittir af framleiðanda tækis. Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:
+<span data-ttu-id="e34f6-329">Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals.</span><span class="sxs-lookup"><span data-stu-id="e34f6-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="e34f6-330">Venjulega eru OPOS-reklar veittir af framleiðanda tækis.</span><span class="sxs-lookup"><span data-stu-id="e34f6-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="e34f6-331">Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:</span><span class="sxs-lookup"><span data-stu-id="e34f6-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="e34f6-332">**32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="e34f6-333">**64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa. Margir tækjareklar eru vistaðir.
+<span data-ttu-id="e34f6-334">Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="e34f6-335">Margir tækjareklar eru vistaðir.</span><span class="sxs-lookup"><span data-stu-id="e34f6-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Studdar aðstæður eftir gerð vélbúnaðarstöðvar
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Biðlarastuðningur – IPC vélbúnaðarstöð miðað við IIS vélbúnaðarstöð
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="e34f6-336">Studdar aðstæður eftir gerð vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="e34f6-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="e34f6-337">Biðlarastuðningur – IPC vélbúnaðarstöð miðað við IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.
+<span data-ttu-id="e34f6-338">Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
+| <span data-ttu-id="e34f6-339">Biðlari</span><span class="sxs-lookup"><span data-stu-id="e34f6-339">Client</span></span>      | <span data-ttu-id="e34f6-340">IPC vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-340">IPC hardware station</span></span> | <span data-ttu-id="e34f6-341">IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows-forrit | Já                  | Já                  |
-| Cloud POS   | Ekkert                   | Já                  |
-| Android     | Ekkert                   | Já                  |
-| iOS         | Ekkert                   | Já                  |
+| <span data-ttu-id="e34f6-342">Windows-forrit</span><span class="sxs-lookup"><span data-stu-id="e34f6-342">Windows app</span></span> | <span data-ttu-id="e34f6-343">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-343">Yes</span></span>                  | <span data-ttu-id="e34f6-344">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-344">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="e34f6-345">Cloud POS</span></span>   | <span data-ttu-id="e34f6-346">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-346">No</span></span>                   | <span data-ttu-id="e34f6-347">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-347">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-348">Android</span><span class="sxs-lookup"><span data-stu-id="e34f6-348">Android</span></span>     | <span data-ttu-id="e34f6-349">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-349">No</span></span>                   | <span data-ttu-id="e34f6-350">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-350">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-351">iOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-351">iOS</span></span>         | <span data-ttu-id="e34f6-352">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-352">No</span></span>                   | <span data-ttu-id="e34f6-353">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Net jaðarbúnaðar
+### <a name="network-peripherals"></a><span data-ttu-id="e34f6-354">Net jaðarbúnaðar</span><span class="sxs-lookup"><span data-stu-id="e34f6-354">Network peripherals</span></span>
 
-Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásölu sem er byggð inn í forritið Modern POS fyrir Windows. Fyrir alla aðra biðlara, verður að virkja vélbúnaðarstöð á IIS.
+<span data-ttu-id="e34f6-355">Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásölu sem er byggð inn í forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="e34f6-356">Fyrir alla aðra biðlara, verður að virkja vélbúnaðarstöð á IIS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
+| <span data-ttu-id="e34f6-357">Biðlari</span><span class="sxs-lookup"><span data-stu-id="e34f6-357">Client</span></span>      | <span data-ttu-id="e34f6-358">IPC vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-358">IPC hardware station</span></span> | <span data-ttu-id="e34f6-359">IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows-forrit | Já                  | Já                  |
-| Cloud POS   | Ekkert                   | Já                  |
-| Android     | Ekkert                   | Já                  |
-| iOS         | Ekkert                   | Já                  |
+| <span data-ttu-id="e34f6-360">Windows-forrit</span><span class="sxs-lookup"><span data-stu-id="e34f6-360">Windows app</span></span> | <span data-ttu-id="e34f6-361">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-361">Yes</span></span>                  | <span data-ttu-id="e34f6-362">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-362">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="e34f6-363">Cloud POS</span></span>   | <span data-ttu-id="e34f6-364">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-364">No</span></span>                   | <span data-ttu-id="e34f6-365">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-365">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-366">Android</span><span class="sxs-lookup"><span data-stu-id="e34f6-366">Android</span></span>     | <span data-ttu-id="e34f6-367">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-367">No</span></span>                   | <span data-ttu-id="e34f6-368">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-368">Yes</span></span>                  |
+| <span data-ttu-id="e34f6-369">iOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-369">iOS</span></span>         | <span data-ttu-id="e34f6-370">Ekkert</span><span class="sxs-lookup"><span data-stu-id="e34f6-370">No</span></span>                   | <span data-ttu-id="e34f6-371">Já</span><span class="sxs-lookup"><span data-stu-id="e34f6-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Studdur tækjaklasi</th>
-<th>Studd viðmót</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Prentari</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows-rekill</li>
-<li>Tæki</li>
-<li>Net</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Prentari 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows-rekill</li>
-<li>Tæki</li>
-<li>Net</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Línuskjár</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Tvískiptur skjár</td>
-<td>Windows-rekill</td>
-</tr>
-<tr class="odd">
-<td>Kortalesari</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Engin uppsetning nauðsynleg.)</li>
-<li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Útgefandi</td>
-<td><ul>
-<li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Skúffa 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Skanni</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Engin uppsetning nauðsynleg.)</li>
-<li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Skanni 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Engin uppsetning nauðsynleg.)</li>
-<li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Vigt</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>PIN-takkaborð</td>
-<td>OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</td>
-</tr>
-<tr class="even">
-<td>Sækja undirskrift</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Greiðslustöð</td>
-<td><ul>
-<li>Stuðningur við sérsniðið tæki</li>
-<li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð
-
-**Athugasemd:** Þegar IIS vélbúnaðarstöð er "sérnýtt," eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="e34f6-372">Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="e34f6-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="e34f6-373">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Studdur tækjaklasi</th>
-<th>Studd viðmót</th>
+<th><span data-ttu-id="e34f6-374">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="e34f6-374">Supported device class</span></span></th>
+<th><span data-ttu-id="e34f6-375">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Prentari</td>
+<td><span data-ttu-id="e34f6-376">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-377">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-378">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="e34f6-378">Windows driver</span></span></li>
+<li><span data-ttu-id="e34f6-379">Tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-379">Device</span></span></li>
+<li><span data-ttu-id="e34f6-380">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Prentari 2</td>
+<td><span data-ttu-id="e34f6-381">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-rekill</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-382">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-383">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="e34f6-383">Windows driver</span></span></li>
+<li><span data-ttu-id="e34f6-384">Tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-384">Device</span></span></li>
+<li><span data-ttu-id="e34f6-385">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Línuskjár</td>
-<td>OPOS</td>
+<td><span data-ttu-id="e34f6-386">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-386">Line display</span></span></td>
+<td><span data-ttu-id="e34f6-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>Kortalesari</td>
-<td>OPOS</td>
+<td><span data-ttu-id="e34f6-388">Tvískiptur skjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-388">Dual display</span></span></td>
+<td><span data-ttu-id="e34f6-389">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="e34f6-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Útgefandi</td>
+<td><span data-ttu-id="e34f6-390">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="e34f6-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
+<li><span data-ttu-id="e34f6-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-391">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-392">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="e34f6-393">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Skúffa 2</td>
+<td><span data-ttu-id="e34f6-394">Útgefandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-395">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-396">Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Skanni</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Skanni 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Vigt</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>PIN-takkaborð</td>
-<td>OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</td>
-</tr>
-<tr class="odd">
-<td>Undirskr. sækja</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Greiðslustöð</td>
+<td><span data-ttu-id="e34f6-397">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Stuðningur við sérsniðið tæki</li>
-<li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
+<li><span data-ttu-id="e34f6-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-398">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-399">Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-400">Skanni</span><span class="sxs-lookup"><span data-stu-id="e34f6-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-401">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-402">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="e34f6-403">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-404">Skanni 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-405">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-406">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="e34f6-407">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-408">Vigt</span><span class="sxs-lookup"><span data-stu-id="e34f6-408">Scale</span></span></td>
+<td><span data-ttu-id="e34f6-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-410">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="e34f6-410">PIN pad</span></span></td>
+<td><span data-ttu-id="e34f6-411">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</span><span class="sxs-lookup"><span data-stu-id="e34f6-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-412">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="e34f6-412">Signature capture</span></span></td>
+<td><span data-ttu-id="e34f6-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-414">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-415">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-415">Custom device support</span></span></li>
+<li><span data-ttu-id="e34f6-416">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="e34f6-417">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Athugasemd:** Þegar vélbúnaðarstöð IIS er "samnýtt," geta mörg tæki notað vélbúnaðarstöð á sama tíma. Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu. Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum. Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.
+<span data-ttu-id="e34f6-418">**Athugasemd:** Þegar IIS vélbúnaðarstöð er "sérnýtt," eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Studdur tækjaklasi</th>
-<th>Studd viðmót</th>
+<th><span data-ttu-id="e34f6-419">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="e34f6-419">Supported device class</span></span></th>
+<th><span data-ttu-id="e34f6-420">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Prentari</td>
+<td><span data-ttu-id="e34f6-421">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-422">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-423">Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</span><span class="sxs-lookup"><span data-stu-id="e34f6-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="e34f6-424">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Prentari 2</td>
+<td><span data-ttu-id="e34f6-425">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-rekill</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-426">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-427">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="e34f6-427">Windows driver</span></span></li>
+<li><span data-ttu-id="e34f6-428">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Útgefandi</td>
+<td><span data-ttu-id="e34f6-429">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-429">Line display</span></span></td>
+<td><span data-ttu-id="e34f6-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-431">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="e34f6-431">MSR</span></span></td>
+<td><span data-ttu-id="e34f6-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-433">Útgefandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
+<li><span data-ttu-id="e34f6-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-434">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-435">Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Skúffa 2</td>
+<td><span data-ttu-id="e34f6-436">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Net</li>
+<li><span data-ttu-id="e34f6-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-437">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-438">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Greiðslustöð</td>
+<td><span data-ttu-id="e34f6-439">Skanni</span><span class="sxs-lookup"><span data-stu-id="e34f6-439">Scanner</span></span></td>
+<td><span data-ttu-id="e34f6-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-441">Skanni 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="e34f6-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-443">Vigt</span><span class="sxs-lookup"><span data-stu-id="e34f6-443">Scale</span></span></td>
+<td><span data-ttu-id="e34f6-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-445">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="e34f6-445">PIN pad</span></span></td>
+<td><span data-ttu-id="e34f6-446">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</span><span class="sxs-lookup"><span data-stu-id="e34f6-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-447">Undirskr.</span><span class="sxs-lookup"><span data-stu-id="e34f6-447">Sig.</span></span> <span data-ttu-id="e34f6-448">sækja</span><span class="sxs-lookup"><span data-stu-id="e34f6-448">capture</span></span></td>
+<td><span data-ttu-id="e34f6-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-450">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Stuðningur við sérsniðið tæki</li>
-<li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
+<li><span data-ttu-id="e34f6-451">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-451">Custom device support</span></span></li>
+<li><span data-ttu-id="e34f6-452">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Skilgreining fyrir studdar aðstæður
-Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md). **Athugið:** Í Microsoft Dynamics 365 for Retail útgáfu 1611 er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="e34f6-453">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð
+<span data-ttu-id="e34f6-454">**Athugasemd:** Þegar vélbúnaðarstöð IIS er "samnýtt," geta mörg tæki notað vélbúnaðarstöð á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="e34f6-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="e34f6-455">Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="e34f6-456">Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="e34f6-457">Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-Þessi skilgreining er oftast dæmigert skilgreiningu fyrir venjulegt, föst afgreiðslukassar. Á þessu dæmi, upplýsingar um forstillingu vélbúnaðar varpað beint á sjálfan afgreiðslukassann. Afgreiðslustöðvarnúmer kortamillifærslu ætti einnig að setja á afgreiðslukassa sjálfa. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="e34f6-458">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="e34f6-458">Supported device class</span></span></th>
+<th><span data-ttu-id="e34f6-459">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-460">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-461">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-462">Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</span><span class="sxs-lookup"><span data-stu-id="e34f6-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="e34f6-463">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-464">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-465">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-466">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="e34f6-466">Windows driver</span></span></li>
+<li><span data-ttu-id="e34f6-467">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-468">Útgefandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-469">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-470">Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="e34f6-471">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="e34f6-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-472">OPOS</span></span></li>
+<li><span data-ttu-id="e34f6-473">Net</span><span class="sxs-lookup"><span data-stu-id="e34f6-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="e34f6-474">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="e34f6-475">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="e34f6-475">Custom device support</span></span></li>
+<li><span data-ttu-id="e34f6-476">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
-2.  Varpa vélbúnaðarregluna á afgreiðslukassa.
-3.  Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað. Lýsing er valkvæð. **Athugasemd:** Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni. Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.
-4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Setja upp og virkja Modern POS fyrir Windows.
-8.  Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="e34f6-477">Skilgreining fyrir studdar aðstæður</span><span class="sxs-lookup"><span data-stu-id="e34f6-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="e34f6-478">Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="e34f6-479">**Athugið:** Í Microsoft Dynamics 365 for Retail útgáfu 1611 er vélbúnaðarregla ekki notuð lengur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="e34f6-480">Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="e34f6-481">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS með vélbúnaðarstöð sem aðeins notuð í einum POS afgreiðslukassa. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
+<span data-ttu-id="e34f6-482">Þessi skilgreining er oftast dæmigert skilgreiningu fyrir venjulegt, föst afgreiðslukassar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="e34f6-483">Á þessu dæmi, upplýsingar um forstillingu vélbúnaðar varpað beint á sjálfan afgreiðslukassann.</span><span class="sxs-lookup"><span data-stu-id="e34f6-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="e34f6-484">Afgreiðslustöðvarnúmer kortamillifærslu ætti einnig að setja á afgreiðslukassa sjálfa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="e34f6-485">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
-2.  Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.
-3.  Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:
-    -   **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra. **Athugasemd:** Cloud POS getur leyst **staðarhýslinum** til að ákvarða tölvunni sem keyrir Cloud POS. Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar. Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum. Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.
-    -   **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
-    -   **Vélbúnaðarregla** – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.
-    -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
-    -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+1.  <span data-ttu-id="e34f6-486">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="e34f6-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="e34f6-487">Varpa vélbúnaðarregluna á afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="e34f6-488">Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="e34f6-489">Lýsing er valkvæð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-489">A description is optional.</span></span> <span data-ttu-id="e34f6-490">**Athugasemd:** Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="e34f6-491">Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="e34f6-492">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="e34f6-493">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="e34f6-494">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="e34f6-495">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="e34f6-496">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="e34f6-497">Setja upp og virkja Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="e34f6-498">Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-8.  Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
-9.  Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
-10. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
-11. Smellið á **Stjórna**.
-12. Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.
-13. Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.
-14. Eftir vélbúnaðarstöðin er pöruð smellið **Loka**.
-15. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="e34f6-499">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð
+<span data-ttu-id="e34f6-500">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS með vélbúnaðarstöð sem aðeins notuð í einum POS afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="e34f6-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="e34f6-501">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-501">To set up this configuration, follow these steps.</span></span>
 
-Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS sem deila vélbúnaðarstöðvum með öðrum tækjum. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
+1.  <span data-ttu-id="e34f6-502">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="e34f6-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="e34f6-503">Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="e34f6-504">Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="e34f6-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="e34f6-505">**Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</span><span class="sxs-lookup"><span data-stu-id="e34f6-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="e34f6-506">**Athugasemd:** Cloud POS getur leyst **staðarhýslinum** til að ákvarða tölvunni sem keyrir Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="e34f6-507">Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="e34f6-508">Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="e34f6-509">Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="e34f6-510">**Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="e34f6-511">**Vélbúnaðarregla** – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="e34f6-512">**Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</span><span class="sxs-lookup"><span data-stu-id="e34f6-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="e34f6-513">Þetta Kenni er veitt með kreditkortagjörvanum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="e34f6-514">**Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.
-2.  Stofna vélbúnaðarstöð af gerðinni **Samnýtt** fyrir verslunina þar sem afgreiðslukassinn verður notað.
-3.  Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:
-    -   **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.
-    -   **Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.
-    -   **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
-    -   **Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu. Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð. Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð. Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.
-    -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
-    -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+4.  <span data-ttu-id="e34f6-515">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="e34f6-516">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="e34f6-517">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="e34f6-518">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="e34f6-519">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="e34f6-520">Setja upp vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-520">Install the hardware station.</span></span> <span data-ttu-id="e34f6-521">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="e34f6-522">Setja upp og virkja Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-522">Install and activate Modern POS.</span></span> <span data-ttu-id="e34f6-523">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="e34f6-524">Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="e34f6-525">Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="e34f6-526">Smellið á **Stjórna**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="e34f6-527">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="e34f6-528">Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="e34f6-529">Eftir vélbúnaðarstöðin er pöruð smellið **Loka**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="e34f6-530">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</span><span class="sxs-lookup"><span data-stu-id="e34f6-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.
-5.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-6.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-8.  Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-9.  Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
-10. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
-11. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="e34f6-531">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. Smellið á **Stjórna**.
-13. Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.
-14. Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.
-15. Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.
-16. Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á **Loka**.
-17. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka. **Athugasemd:** Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
+<span data-ttu-id="e34f6-532">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS sem deila vélbúnaðarstöðvum með öðrum tækjum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="e34f6-533">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Stækkunarhæfni
-Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="e34f6-534">Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="e34f6-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="e34f6-535">Stofna vélbúnaðarstöð af gerðinni **Samnýtt** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="e34f6-536">Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="e34f6-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="e34f6-537">**Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</span><span class="sxs-lookup"><span data-stu-id="e34f6-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="e34f6-538">**Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="e34f6-539">**Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="e34f6-540">**Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="e34f6-541">Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="e34f6-542">Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="e34f6-543">Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="e34f6-544">Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="e34f6-545">**Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</span><span class="sxs-lookup"><span data-stu-id="e34f6-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="e34f6-546">Þetta Kenni er veitt með kreditkortagjörvanum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="e34f6-547">**Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Öryggi
-Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi: **Athugasemd:** Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.
+4.  <span data-ttu-id="e34f6-548">Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="e34f6-549">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="e34f6-550">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="e34f6-551">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="e34f6-552">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="e34f6-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="e34f6-553">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="e34f6-554">Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3.</span><span class="sxs-lookup"><span data-stu-id="e34f6-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="e34f6-555">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="e34f6-556">Setja upp og virkja Modern POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-556">Install and activate Modern POS.</span></span> <span data-ttu-id="e34f6-557">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="e34f6-558">Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="e34f6-559">Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-559">Start the **Manage hardware stations** operation.</span></span>
 
--   Secure Sockets Layer (SSL) ætti að gera óvirkt.
--   Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð. **Athugasemd:** Sjálfgefið er að SSL og allar útgáfa af TLS nema TLS 1.2 eru afvirkjuð. Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:
-    1.  Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.
-    2.  Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.
-    3.  Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.
-    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.
--   Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.
--   Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.
+12. <span data-ttu-id="e34f6-560">Smellið á **Stjórna**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="e34f6-561">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="e34f6-562">Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="e34f6-563">Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="e34f6-564">Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="e34f6-565">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</span><span class="sxs-lookup"><span data-stu-id="e34f6-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="e34f6-566">**Athugasemd:** Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli.</span><span class="sxs-lookup"><span data-stu-id="e34f6-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="e34f6-567">Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="e34f6-568">Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="e34f6-569">Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Athugasemd:** Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir Greiðslu Korts Atvinnugrein (PCI).
+## <a name="extensibility"></a><span data-ttu-id="e34f6-570">Stækkunarhæfni</span><span class="sxs-lookup"><span data-stu-id="e34f6-570">Extensibility</span></span>
+<span data-ttu-id="e34f6-571">Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Jaðarbúnaður
-Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="e34f6-572">Öryggi</span><span class="sxs-lookup"><span data-stu-id="e34f6-572">Security</span></span>
+<span data-ttu-id="e34f6-573">Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi: **Athugasemd:** Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Jaðartæki Microsofttested
-### <a name="ipc-built-in-hardware-station"></a>IPC (innbyggð) vélbúnaðarstöð
+-   <span data-ttu-id="e34f6-574">Secure Sockets Layer (SSL) ætti að gera óvirkt.</span><span class="sxs-lookup"><span data-stu-id="e34f6-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="e34f6-575">Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="e34f6-576">**Athugasemd:** Sjálfgefið er að SSL og allar útgáfa af TLS nema TLS 1.2 eru afvirkjuð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="e34f6-577">Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:</span><span class="sxs-lookup"><span data-stu-id="e34f6-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="e34f6-578">Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.</span><span class="sxs-lookup"><span data-stu-id="e34f6-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="e34f6-579">Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="e34f6-580">Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="e34f6-581">Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="e34f6-582">Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:</span><span class="sxs-lookup"><span data-stu-id="e34f6-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="e34f6-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="e34f6-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="e34f6-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="e34f6-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="e34f6-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="e34f6-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="e34f6-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="e34f6-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="e34f6-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="e34f6-595">Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="e34f6-596">Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="e34f6-597">Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.</span><span class="sxs-lookup"><span data-stu-id="e34f6-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.
+<span data-ttu-id="e34f6-598">**Athugasemd:** Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir Greiðslu Korts Atvinnugrein (PCI).</span><span class="sxs-lookup"><span data-stu-id="e34f6-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Prentari
+## <a name="peripheral-simulator"></a><span data-ttu-id="e34f6-599">Jaðarbúnaður</span><span class="sxs-lookup"><span data-stu-id="e34f6-599">Peripheral simulator</span></span>
+<span data-ttu-id="e34f6-600">Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="e34f6-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Framleiðandi | Tegund    | Viðmót | Athugasemdir                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="e34f6-601">Jaðartæki Microsofttested</span><span class="sxs-lookup"><span data-stu-id="e34f6-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="e34f6-602">IPC (innbyggð) vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="e34f6-603">Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="e34f6-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="e34f6-604">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-604">Printer</span></span>
+
+| <span data-ttu-id="e34f6-605">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-605">Manufacturer</span></span> | <span data-ttu-id="e34f6-606">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-606">Model</span></span>    | <span data-ttu-id="e34f6-607">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-607">Interface</span></span> | <span data-ttu-id="e34f6-608">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi   |
-| Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
-| HP           | F7M67AA  | OPOS      | Rafhlöðu USB             |
+| <span data-ttu-id="e34f6-609">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-609">Epson</span></span>        | <span data-ttu-id="e34f6-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="e34f6-610">Tm-T88IV</span></span> | <span data-ttu-id="e34f6-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="e34f6-612">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-612">Epson</span></span>        | <span data-ttu-id="e34f6-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="e34f6-613">TM-T88V</span></span>  | <span data-ttu-id="e34f6-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="e34f6-615">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-615">Star</span></span>         | <span data-ttu-id="e34f6-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-616">TSP650II</span></span> | <span data-ttu-id="e34f6-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="e34f6-618">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-618">Star</span></span>         | <span data-ttu-id="e34f6-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-619">TSP650II</span></span> | <span data-ttu-id="e34f6-620">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-620">Custom</span></span>    | <span data-ttu-id="e34f6-621">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-621">Connected via network</span></span>   |
+| <span data-ttu-id="e34f6-622">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-622">Star</span></span>         | <span data-ttu-id="e34f6-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="e34f6-623">mPOP</span></span>     | <span data-ttu-id="e34f6-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-624">OPOS</span></span>      | <span data-ttu-id="e34f6-625">Tengt gegnum Bluetooth</span><span class="sxs-lookup"><span data-stu-id="e34f6-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="e34f6-626">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-626">HP</span></span>           | <span data-ttu-id="e34f6-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-627">F7M67AA</span></span>  | <span data-ttu-id="e34f6-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-628">OPOS</span></span>      | <span data-ttu-id="e34f6-629">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Strikamerkjaskanni
+#### <a name="bar-code-scanner"></a><span data-ttu-id="e34f6-630">Strikamerkjaskanni</span><span class="sxs-lookup"><span data-stu-id="e34f6-630">Bar code scanner</span></span>
 
-| Framleiðandi  | Tegund         | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-631">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-631">Manufacturer</span></span>  | <span data-ttu-id="e34f6-632">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-632">Model</span></span>         | <span data-ttu-id="e34f6-633">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-633">Interface</span></span> | <span data-ttu-id="e34f6-634">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Tákn        | LS2208        | OPOS      |          |
-| HP Samþætt | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="e34f6-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="e34f6-635">Motorola</span></span>      | <span data-ttu-id="e34f6-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="e34f6-636">DS9208</span></span>        | <span data-ttu-id="e34f6-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-637">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="e34f6-638">Honeywell</span></span>     | <span data-ttu-id="e34f6-639">1900</span><span class="sxs-lookup"><span data-stu-id="e34f6-639">1900</span></span>          | <span data-ttu-id="e34f6-640">UWP</span><span class="sxs-lookup"><span data-stu-id="e34f6-640">UWP</span></span>       |          |
+| <span data-ttu-id="e34f6-641">Tákn</span><span class="sxs-lookup"><span data-stu-id="e34f6-641">Symbol</span></span>        | <span data-ttu-id="e34f6-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="e34f6-642">LS2208</span></span>        | <span data-ttu-id="e34f6-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-643">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-644">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="e34f6-644">HP Integrated</span></span> | <span data-ttu-id="e34f6-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-645">E1L07AA</span></span>       | <span data-ttu-id="e34f6-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-646">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="e34f6-647">Datalogic</span></span>     | <span data-ttu-id="e34f6-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="e34f6-648">Magellan 8400</span></span> | <span data-ttu-id="e34f6-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN-takkaborð
+#### <a name="pin-pad"></a><span data-ttu-id="e34f6-650">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="e34f6-650">PIN pad</span></span>
 
-| Framleiðandi | Tegund  | Viðmót | Athugasemdir                                        |
+| <span data-ttu-id="e34f6-651">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-651">Manufacturer</span></span> | <span data-ttu-id="e34f6-652">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-652">Model</span></span>  | <span data-ttu-id="e34f6-653">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-653">Interface</span></span> | <span data-ttu-id="e34f6-654">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| Verifone     | 1000SE | OPOS      | Krefst sérsniðs greiðslutengils |
+| <span data-ttu-id="e34f6-655">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-655">VeriFone</span></span>     | <span data-ttu-id="e34f6-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="e34f6-656">1000SE</span></span> | <span data-ttu-id="e34f6-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-657">OPOS</span></span>      | <span data-ttu-id="e34f6-658">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="e34f6-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Greiðslustöð
+#### <a name="payment-terminal"></a><span data-ttu-id="e34f6-659">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-659">Payment terminal</span></span>
 
-| Framleiðandi | Tegund | Viðmót | Athugasemdir                                                                       |
+| <span data-ttu-id="e34f6-660">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-660">Manufacturer</span></span> | <span data-ttu-id="e34f6-661">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-661">Model</span></span> | <span data-ttu-id="e34f6-662">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-662">Interface</span></span> | <span data-ttu-id="e34f6-663">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Sérsniðinn    | Krefst sérsniðs greiðslutengils                                |
-| Verifone     | MX925 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
-| Verifone     | MX915 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| <span data-ttu-id="e34f6-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="e34f6-664">Equinox</span></span>      | <span data-ttu-id="e34f6-665">L5300</span><span class="sxs-lookup"><span data-stu-id="e34f6-665">L5300</span></span> | <span data-ttu-id="e34f6-666">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-666">Custom</span></span>    | <span data-ttu-id="e34f6-667">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="e34f6-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="e34f6-668">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-668">VeriFone</span></span>     | <span data-ttu-id="e34f6-669">MX925</span><span class="sxs-lookup"><span data-stu-id="e34f6-669">MX925</span></span> | <span data-ttu-id="e34f6-670">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-670">Custom</span></span>    | <span data-ttu-id="e34f6-671">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="e34f6-672">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-672">VeriFone</span></span>     | <span data-ttu-id="e34f6-673">MX915</span><span class="sxs-lookup"><span data-stu-id="e34f6-673">MX915</span></span> | <span data-ttu-id="e34f6-674">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-674">Custom</span></span>    | <span data-ttu-id="e34f6-675">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Peningaskúffa
+#### <a name="cash-drawer"></a><span data-ttu-id="e34f6-676">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="e34f6-676">Cash drawer</span></span>
 
-| Framleiðandi | Tegund     | Viðmót | Athugasemdir                |
+| <span data-ttu-id="e34f6-677">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-677">Manufacturer</span></span> | <span data-ttu-id="e34f6-678">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-678">Model</span></span>     | <span data-ttu-id="e34f6-679">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-679">Interface</span></span> | <span data-ttu-id="e34f6-680">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | Tengt gegnum Bluetooth |
-| APG          | Atwood    | Sérsniðinn    | Tengt gegnum netkerfi   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="e34f6-681">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-681">Star</span></span>         | <span data-ttu-id="e34f6-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="e34f6-682">mPOP</span></span>      | <span data-ttu-id="e34f6-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-683">OPOS</span></span>      | <span data-ttu-id="e34f6-684">Tengt gegnum Bluetooth</span><span class="sxs-lookup"><span data-stu-id="e34f6-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="e34f6-685">APG</span><span class="sxs-lookup"><span data-stu-id="e34f6-685">APG</span></span>          | <span data-ttu-id="e34f6-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="e34f6-686">Atwood</span></span>    | <span data-ttu-id="e34f6-687">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-687">Custom</span></span>    | <span data-ttu-id="e34f6-688">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-688">Connected via network</span></span>   |
+| <span data-ttu-id="e34f6-689">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-689">Star</span></span>         | <span data-ttu-id="e34f6-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="e34f6-690">SMD2-1317</span></span> | <span data-ttu-id="e34f6-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="e34f6-692">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-692">HP</span></span>           | <span data-ttu-id="e34f6-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-693">QT457AA</span></span>   | <span data-ttu-id="e34f6-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Línuskjár
+#### <a name="line-display"></a><span data-ttu-id="e34f6-695">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-695">Line display</span></span>
 
-| Framleiðandi  | Tegund   | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-696">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-696">Manufacturer</span></span>  | <span data-ttu-id="e34f6-697">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-697">Model</span></span>   | <span data-ttu-id="e34f6-698">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-698">Interface</span></span> | <span data-ttu-id="e34f6-699">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP Samþætt | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="e34f6-700">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="e34f6-700">HP integrated</span></span> | <span data-ttu-id="e34f6-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-701">G6U79AA</span></span> | <span data-ttu-id="e34f6-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-702">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-703">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-703">Epson</span></span>         | <span data-ttu-id="e34f6-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="e34f6-704">M58DC</span></span>   | <span data-ttu-id="e34f6-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Sækja undirskrift
+#### <a name="signature-capture"></a><span data-ttu-id="e34f6-706">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="e34f6-706">Signature capture</span></span>
 
-| Framleiðandi | Tegund  | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-707">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-707">Manufacturer</span></span> | <span data-ttu-id="e34f6-708">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-708">Model</span></span>  | <span data-ttu-id="e34f6-709">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-709">Interface</span></span> | <span data-ttu-id="e34f6-710">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="e34f6-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="e34f6-711">Scriptel</span></span>     | <span data-ttu-id="e34f6-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="e34f6-712">ST1550</span></span> | <span data-ttu-id="e34f6-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Vigt
+#### <a name="scale"></a><span data-ttu-id="e34f6-714">Vigt</span><span class="sxs-lookup"><span data-stu-id="e34f6-714">Scale</span></span>
 
-| Framleiðandi | Tegund         | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-715">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-715">Manufacturer</span></span> | <span data-ttu-id="e34f6-716">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-716">Model</span></span>         | <span data-ttu-id="e34f6-717">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-717">Interface</span></span> | <span data-ttu-id="e34f6-718">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="e34f6-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="e34f6-719">Datalogic</span></span>    | <span data-ttu-id="e34f6-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="e34f6-720">Magellan 8400</span></span> | <span data-ttu-id="e34f6-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>Kortalesari
+#### <a name="msr"></a><span data-ttu-id="e34f6-722">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="e34f6-722">MSR</span></span>
 
-| Framleiðandi | Tegund       | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-723">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-723">Manufacturer</span></span> | <span data-ttu-id="e34f6-724">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-724">Model</span></span>       | <span data-ttu-id="e34f6-725">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-725">Interface</span></span> | <span data-ttu-id="e34f6-726">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="e34f6-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="e34f6-727">Magtek</span></span>       | <span data-ttu-id="e34f6-728">21073075</span><span class="sxs-lookup"><span data-stu-id="e34f6-728">21073075</span></span>    | <span data-ttu-id="e34f6-729">UWP</span><span class="sxs-lookup"><span data-stu-id="e34f6-729">UWP</span></span>       |          |
+| <span data-ttu-id="e34f6-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="e34f6-730">Magtek</span></span>       | <span data-ttu-id="e34f6-731">21073062</span><span class="sxs-lookup"><span data-stu-id="e34f6-731">21073062</span></span>    | <span data-ttu-id="e34f6-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-732">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-733">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-733">HP</span></span>           | <span data-ttu-id="e34f6-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="e34f6-734">IDRA-334133</span></span> | <span data-ttu-id="e34f6-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Sérhæft IIS vélbúnaðarstöð
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="e34f6-736">Sérhæft IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-736">Dedicated IIS hardware station</span></span>
 
-Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki samnýtta) IPC vélbúnaðarstöð sem ásamt Modern POS fyrir Windows og Cloud POS.
+<span data-ttu-id="e34f6-737">Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki samnýtta) IPC vélbúnaðarstöð sem ásamt Modern POS fyrir Windows og Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Prentari
+#### <a name="printer"></a><span data-ttu-id="e34f6-738">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-738">Printer</span></span>
 
-| Framleiðandi | Tegund    | Viðmót | Athugasemdir                  |
+| <span data-ttu-id="e34f6-739">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-739">Manufacturer</span></span> | <span data-ttu-id="e34f6-740">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-740">Model</span></span>    | <span data-ttu-id="e34f6-741">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-741">Interface</span></span> | <span data-ttu-id="e34f6-742">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi     |
-| Star         | TSP100   | OPOS      | Krefst TSP650II-rekla |
-| HP           | F7M67AA  | OPOS      | Rafhlöðu USB               |
+| <span data-ttu-id="e34f6-743">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-743">Epson</span></span>        | <span data-ttu-id="e34f6-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="e34f6-744">Tm-T88IV</span></span> | <span data-ttu-id="e34f6-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-746">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-746">Epson</span></span>        | <span data-ttu-id="e34f6-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="e34f6-747">TM-T88V</span></span>  | <span data-ttu-id="e34f6-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-749">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-749">Star</span></span>         | <span data-ttu-id="e34f6-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-750">TSP650II</span></span> | <span data-ttu-id="e34f6-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-752">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-752">Star</span></span>         | <span data-ttu-id="e34f6-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-753">TSP650II</span></span> | <span data-ttu-id="e34f6-754">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-754">Custom</span></span>    | <span data-ttu-id="e34f6-755">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-755">Connected via network</span></span>     |
+| <span data-ttu-id="e34f6-756">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-756">Star</span></span>         | <span data-ttu-id="e34f6-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="e34f6-757">TSP100</span></span>   | <span data-ttu-id="e34f6-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-758">OPOS</span></span>      | <span data-ttu-id="e34f6-759">Krefst TSP650II-rekla</span><span class="sxs-lookup"><span data-stu-id="e34f6-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="e34f6-760">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-760">HP</span></span>           | <span data-ttu-id="e34f6-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-761">F7M67AA</span></span>  | <span data-ttu-id="e34f6-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-762">OPOS</span></span>      | <span data-ttu-id="e34f6-763">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Strikamerkjaskanni
+#### <a name="bar-code-scanner"></a><span data-ttu-id="e34f6-764">Strikamerkjaskanni</span><span class="sxs-lookup"><span data-stu-id="e34f6-764">Bar code scanner</span></span>
 
-| Framleiðandi  | Tegund   | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-765">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-765">Manufacturer</span></span>  | <span data-ttu-id="e34f6-766">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-766">Model</span></span>   | <span data-ttu-id="e34f6-767">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-767">Interface</span></span> | <span data-ttu-id="e34f6-768">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Tákn        | LS2208  | OPOS      |          |
-| HP Samþætt | E1L07AA | OPOS      |          |
+| <span data-ttu-id="e34f6-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="e34f6-769">Motorola</span></span>      | <span data-ttu-id="e34f6-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="e34f6-770">DS9208</span></span>  | <span data-ttu-id="e34f6-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-771">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-772">Tákn</span><span class="sxs-lookup"><span data-stu-id="e34f6-772">Symbol</span></span>        | <span data-ttu-id="e34f6-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="e34f6-773">LS2208</span></span>  | <span data-ttu-id="e34f6-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-774">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-775">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="e34f6-775">HP Integrated</span></span> | <span data-ttu-id="e34f6-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-776">E1L07AA</span></span> | <span data-ttu-id="e34f6-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN-takkaborð
+#### <a name="pin-pad"></a><span data-ttu-id="e34f6-778">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="e34f6-778">PIN pad</span></span>
 
-| Framleiðandi | Tegund  | Viðmót | Athugasemdir                                        |
+| <span data-ttu-id="e34f6-779">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-779">Manufacturer</span></span> | <span data-ttu-id="e34f6-780">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-780">Model</span></span>  | <span data-ttu-id="e34f6-781">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-781">Interface</span></span> | <span data-ttu-id="e34f6-782">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| Verifone     | 1000SE | OPOS      | Krefst sérsniðs greiðslutengils |
+| <span data-ttu-id="e34f6-783">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-783">VeriFone</span></span>     | <span data-ttu-id="e34f6-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="e34f6-784">1000SE</span></span> | <span data-ttu-id="e34f6-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-785">OPOS</span></span>      | <span data-ttu-id="e34f6-786">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="e34f6-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Greiðslustöð
+#### <a name="payment-terminal"></a><span data-ttu-id="e34f6-787">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-787">Payment terminal</span></span>
 
-| Framleiðandi | Tegund | Viðmót | Athugasemdir                                                                       |
+| <span data-ttu-id="e34f6-788">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-788">Manufacturer</span></span> | <span data-ttu-id="e34f6-789">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-789">Model</span></span> | <span data-ttu-id="e34f6-790">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-790">Interface</span></span> | <span data-ttu-id="e34f6-791">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Sérsniðinn    | Krefst sérsniðs greiðslutengils                                |
-| Verifone     | MX925 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
-| Verifone     | MX915 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| <span data-ttu-id="e34f6-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="e34f6-792">Equinox</span></span>      | <span data-ttu-id="e34f6-793">L5300</span><span class="sxs-lookup"><span data-stu-id="e34f6-793">L5300</span></span> | <span data-ttu-id="e34f6-794">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-794">Custom</span></span>    | <span data-ttu-id="e34f6-795">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="e34f6-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="e34f6-796">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-796">VeriFone</span></span>     | <span data-ttu-id="e34f6-797">MX925</span><span class="sxs-lookup"><span data-stu-id="e34f6-797">MX925</span></span> | <span data-ttu-id="e34f6-798">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-798">Custom</span></span>    | <span data-ttu-id="e34f6-799">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="e34f6-800">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-800">VeriFone</span></span>     | <span data-ttu-id="e34f6-801">MX915</span><span class="sxs-lookup"><span data-stu-id="e34f6-801">MX915</span></span> | <span data-ttu-id="e34f6-802">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-802">Custom</span></span>    | <span data-ttu-id="e34f6-803">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Peningaskúffa
+#### <a name="cash-drawer"></a><span data-ttu-id="e34f6-804">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="e34f6-804">Cash drawer</span></span>
 
-| Framleiðandi | Tegund     | Viðmót | Athugasemdir              |
+| <span data-ttu-id="e34f6-805">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-805">Manufacturer</span></span> | <span data-ttu-id="e34f6-806">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-806">Model</span></span>     | <span data-ttu-id="e34f6-807">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-807">Interface</span></span> | <span data-ttu-id="e34f6-808">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Sérsniðinn    | Tengt gegnum netkerfi |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="e34f6-809">APG</span><span class="sxs-lookup"><span data-stu-id="e34f6-809">APG</span></span>          | <span data-ttu-id="e34f6-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="e34f6-810">Atwood</span></span>    | <span data-ttu-id="e34f6-811">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-811">Custom</span></span>    | <span data-ttu-id="e34f6-812">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-812">Connected via network</span></span> |
+| <span data-ttu-id="e34f6-813">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-813">Star</span></span>         | <span data-ttu-id="e34f6-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="e34f6-814">SMD2-1317</span></span> | <span data-ttu-id="e34f6-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="e34f6-816">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-816">HP</span></span>           | <span data-ttu-id="e34f6-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-817">QT457AA</span></span>   | <span data-ttu-id="e34f6-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Línuskjár
+#### <a name="line-display"></a><span data-ttu-id="e34f6-819">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="e34f6-819">Line display</span></span>
 
-| Framleiðandi  | Tegund   | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-820">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-820">Manufacturer</span></span>  | <span data-ttu-id="e34f6-821">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-821">Model</span></span>   | <span data-ttu-id="e34f6-822">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-822">Interface</span></span> | <span data-ttu-id="e34f6-823">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP Samþætt | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="e34f6-824">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="e34f6-824">HP integrated</span></span> | <span data-ttu-id="e34f6-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-825">G6U79AA</span></span> | <span data-ttu-id="e34f6-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-826">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-827">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-827">Epson</span></span>         | <span data-ttu-id="e34f6-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="e34f6-828">M58DC</span></span>   | <span data-ttu-id="e34f6-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Sækja undirskrift
+#### <a name="signature-capture"></a><span data-ttu-id="e34f6-830">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="e34f6-830">Signature capture</span></span>
 
-| Framleiðandi | Tegund  | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-831">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-831">Manufacturer</span></span> | <span data-ttu-id="e34f6-832">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-832">Model</span></span>  | <span data-ttu-id="e34f6-833">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-833">Interface</span></span> | <span data-ttu-id="e34f6-834">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="e34f6-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="e34f6-835">Scriptel</span></span>     | <span data-ttu-id="e34f6-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="e34f6-836">ST1550</span></span> | <span data-ttu-id="e34f6-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Vigt
+#### <a name="scale"></a><span data-ttu-id="e34f6-838">Vigt</span><span class="sxs-lookup"><span data-stu-id="e34f6-838">Scale</span></span>
 
-| Framleiðandi | Tegund         | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-839">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-839">Manufacturer</span></span> | <span data-ttu-id="e34f6-840">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-840">Model</span></span>         | <span data-ttu-id="e34f6-841">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-841">Interface</span></span> | <span data-ttu-id="e34f6-842">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="e34f6-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="e34f6-843">Datalogic</span></span>    | <span data-ttu-id="e34f6-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="e34f6-844">Magellan 8400</span></span> | <span data-ttu-id="e34f6-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>Kortalesari
+#### <a name="msr"></a><span data-ttu-id="e34f6-846">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="e34f6-846">MSR</span></span>
 
-| Framleiðandi | Tegund       | Viðmót | Athugasemdir |
+| <span data-ttu-id="e34f6-847">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-847">Manufacturer</span></span> | <span data-ttu-id="e34f6-848">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-848">Model</span></span>       | <span data-ttu-id="e34f6-849">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-849">Interface</span></span> | <span data-ttu-id="e34f6-850">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="e34f6-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="e34f6-851">Magtek</span></span>       | <span data-ttu-id="e34f6-852">21073075</span><span class="sxs-lookup"><span data-stu-id="e34f6-852">21073075</span></span>    | <span data-ttu-id="e34f6-853">UWP</span><span class="sxs-lookup"><span data-stu-id="e34f6-853">UWP</span></span>       |          |
+| <span data-ttu-id="e34f6-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="e34f6-854">Magtek</span></span>       | <span data-ttu-id="e34f6-855">21073062</span><span class="sxs-lookup"><span data-stu-id="e34f6-855">21073062</span></span>    | <span data-ttu-id="e34f6-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-856">OPOS</span></span>      |          |
+| <span data-ttu-id="e34f6-857">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-857">HP</span></span>           | <span data-ttu-id="e34f6-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="e34f6-858">IDRA-334133</span></span> | <span data-ttu-id="e34f6-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Samnýtt IIS vélbúnaðarstöð
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="e34f6-860">Samnýtt IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-860">Shared IIS hardware station</span></span>
 
-Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS. **Athugasemd:** Aðeins prentari, afgreiðslustöð og peningaskúffu eru studd.
+<span data-ttu-id="e34f6-861">Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="e34f6-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="e34f6-862">**Athugasemd:** Aðeins prentari, afgreiðslustöð og peningaskúffu eru studd.</span><span class="sxs-lookup"><span data-stu-id="e34f6-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Prentari
+#### <a name="printer"></a><span data-ttu-id="e34f6-863">Prentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-863">Printer</span></span>
 
-| Framleiðandi | Tegund    | Viðmót | Athugasemdir                  |
+| <span data-ttu-id="e34f6-864">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-864">Manufacturer</span></span> | <span data-ttu-id="e34f6-865">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-865">Model</span></span>    | <span data-ttu-id="e34f6-866">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-866">Interface</span></span> | <span data-ttu-id="e34f6-867">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi     |
-| Star         | TSP100   | OPOS      | Krefst TSP650II-rekla |
-| HP           | F7M67AA  | OPOS      | Rafhlöðu USB               |
+| <span data-ttu-id="e34f6-868">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-868">Epson</span></span>        | <span data-ttu-id="e34f6-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="e34f6-869">Tm-T88IV</span></span> | <span data-ttu-id="e34f6-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-871">Epson</span><span class="sxs-lookup"><span data-stu-id="e34f6-871">Epson</span></span>        | <span data-ttu-id="e34f6-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="e34f6-872">TM-T88V</span></span>  | <span data-ttu-id="e34f6-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-874">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-874">Star</span></span>         | <span data-ttu-id="e34f6-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-875">TSP650II</span></span> | <span data-ttu-id="e34f6-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="e34f6-877">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-877">Star</span></span>         | <span data-ttu-id="e34f6-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="e34f6-878">TSP650II</span></span> | <span data-ttu-id="e34f6-879">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-879">Custom</span></span>    | <span data-ttu-id="e34f6-880">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-880">Connected via network</span></span>     |
+| <span data-ttu-id="e34f6-881">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-881">Star</span></span>         | <span data-ttu-id="e34f6-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="e34f6-882">TSP100</span></span>   | <span data-ttu-id="e34f6-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-883">OPOS</span></span>      | <span data-ttu-id="e34f6-884">Krefst TSP650II-rekla</span><span class="sxs-lookup"><span data-stu-id="e34f6-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="e34f6-885">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-885">HP</span></span>           | <span data-ttu-id="e34f6-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-886">F7M67AA</span></span>  | <span data-ttu-id="e34f6-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-887">OPOS</span></span>      | <span data-ttu-id="e34f6-888">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Greiðslustöð
+#### <a name="payment-terminal"></a><span data-ttu-id="e34f6-889">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-889">Payment terminal</span></span>
 
-| Framleiðandi | Tegund | Viðmót | Athugasemdir                                                                       |
+| <span data-ttu-id="e34f6-890">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-890">Manufacturer</span></span> | <span data-ttu-id="e34f6-891">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-891">Model</span></span> | <span data-ttu-id="e34f6-892">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-892">Interface</span></span> | <span data-ttu-id="e34f6-893">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Verifone     | MX925 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
-| Verifone     | MX915 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| <span data-ttu-id="e34f6-894">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-894">VeriFone</span></span>     | <span data-ttu-id="e34f6-895">MX925</span><span class="sxs-lookup"><span data-stu-id="e34f6-895">MX925</span></span> | <span data-ttu-id="e34f6-896">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-896">Custom</span></span>    | <span data-ttu-id="e34f6-897">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="e34f6-898">Verifone</span><span class="sxs-lookup"><span data-stu-id="e34f6-898">VeriFone</span></span>     | <span data-ttu-id="e34f6-899">MX915</span><span class="sxs-lookup"><span data-stu-id="e34f6-899">MX915</span></span> | <span data-ttu-id="e34f6-900">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-900">Custom</span></span>    | <span data-ttu-id="e34f6-901">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="e34f6-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Peningaskúffa
+#### <a name="cash-drawer"></a><span data-ttu-id="e34f6-902">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="e34f6-902">Cash drawer</span></span>
 
-| Framleiðandi | Tegund     | Viðmót | Athugasemdir              |
+| <span data-ttu-id="e34f6-903">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="e34f6-903">Manufacturer</span></span> | <span data-ttu-id="e34f6-904">Tegund</span><span class="sxs-lookup"><span data-stu-id="e34f6-904">Model</span></span>     | <span data-ttu-id="e34f6-905">Viðmót</span><span class="sxs-lookup"><span data-stu-id="e34f6-905">Interface</span></span> | <span data-ttu-id="e34f6-906">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="e34f6-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Sérsniðinn    | Tengt gegnum netkerfi |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="e34f6-907">APG</span><span class="sxs-lookup"><span data-stu-id="e34f6-907">APG</span></span>          | <span data-ttu-id="e34f6-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="e34f6-908">Atwood</span></span>    | <span data-ttu-id="e34f6-909">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="e34f6-909">Custom</span></span>    | <span data-ttu-id="e34f6-910">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="e34f6-910">Connected via network</span></span> |
+| <span data-ttu-id="e34f6-911">Star</span><span class="sxs-lookup"><span data-stu-id="e34f6-911">Star</span></span>         | <span data-ttu-id="e34f6-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="e34f6-912">SMD2-1317</span></span> | <span data-ttu-id="e34f6-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="e34f6-914">HP</span><span class="sxs-lookup"><span data-stu-id="e34f6-914">HP</span></span>           | <span data-ttu-id="e34f6-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="e34f6-915">QT457AA</span></span>   | <span data-ttu-id="e34f6-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="e34f6-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Úrræðaleit
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS getur fundið vélbúnaðarstöðina á lista sínum yfir val, en það getur ekki lokið við pörun
+## <a name="troubleshooting"></a><span data-ttu-id="e34f6-917">Úrræðaleit</span><span class="sxs-lookup"><span data-stu-id="e34f6-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="e34f6-918">Modern POS getur fundið vélbúnaðarstöðina á lista sínum yfir val, en það getur ekki lokið við pörun</span><span class="sxs-lookup"><span data-stu-id="e34f6-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:
+<span data-ttu-id="e34f6-919">**Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:</span><span class="sxs-lookup"><span data-stu-id="e34f6-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
-    -   Til að sannreyna þessi uppsetning í vefvafra, fara á eftirfarandi SLÓÐ: https://&lt;Tölvuheiti&gt;:&lt;Tengisnúmer&gt;/HardwareStation /, ping-boð.
-    -   Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis í Internet Explorer birtist lástáknið í aðseturslínunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
--   Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
--   Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.
+-   <span data-ttu-id="e34f6-920">Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.</span><span class="sxs-lookup"><span data-stu-id="e34f6-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="e34f6-921">Til að sannreyna þessi uppsetning í vefvafra, fara á eftirfarandi SLÓÐ: https://&lt;Tölvuheiti&gt;:&lt;Tengisnúmer&gt;/HardwareStation /, ping-boð.</span><span class="sxs-lookup"><span data-stu-id="e34f6-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="e34f6-922">Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst.</span><span class="sxs-lookup"><span data-stu-id="e34f6-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="e34f6-923">(Til dæmis í Internet Explorer birtist lástáknið í aðseturslínunni.</span><span class="sxs-lookup"><span data-stu-id="e34f6-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="e34f6-924">Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur.</span><span class="sxs-lookup"><span data-stu-id="e34f6-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="e34f6-925">Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)</span><span class="sxs-lookup"><span data-stu-id="e34f6-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="e34f6-926">Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.</span><span class="sxs-lookup"><span data-stu-id="e34f6-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="e34f6-927">Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS getur ekki fundið vélbúnaðarstöðina á lista sínum yfir val
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="e34f6-928">Modern POS getur ekki fundið vélbúnaðarstöðina á lista sínum yfir val</span><span class="sxs-lookup"><span data-stu-id="e34f6-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Lausn:** Annaðhvort eftirfarandi þáttum getur valdið vandamálið:
+<span data-ttu-id="e34f6-929">**Lausn:** Annaðhvort eftirfarandi þáttum getur valdið vandamálið:</span><span class="sxs-lookup"><span data-stu-id="e34f6-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum. Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.
--   Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar. Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.
+-   <span data-ttu-id="e34f6-930">Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum.</span><span class="sxs-lookup"><span data-stu-id="e34f6-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="e34f6-931">Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.</span><span class="sxs-lookup"><span data-stu-id="e34f6-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="e34f6-932">Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="e34f6-933">Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.</span><span class="sxs-lookup"><span data-stu-id="e34f6-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS endurspegla ekki nýjum stillingum peningaskúffu
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="e34f6-934">Modern POS endurspegla ekki nýjum stillingum peningaskúffu</span><span class="sxs-lookup"><span data-stu-id="e34f6-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Lausn:** Loka núverandi runu. Breytingar á peningaskúffunni eru ekki uppfærðar í Modern POS fyrr en núverandi rununni er lokað.
+<span data-ttu-id="e34f6-935">**Lausn:** Loka núverandi runu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="e34f6-936">Breytingar á peningaskúffunni eru ekki uppfærðar í Modern POS fyrr en núverandi rununni er lokað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS tilkynnir vandamál með jaðarbúnaði smásölu
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="e34f6-937">Modern POS tilkynnir vandamál með jaðarbúnaði smásölu</span><span class="sxs-lookup"><span data-stu-id="e34f6-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Lausn:** Hér eru sumar dæmigerðar orsakir vandamálsins:
+<span data-ttu-id="e34f6-938">**Lausn:** Hér eru sumar dæmigerðar orsakir vandamálsins:</span><span class="sxs-lookup"><span data-stu-id="e34f6-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað. Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.
--   Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:
-    -   Peningaskúffa
-    -   Kvittanaprentari
-    -   Greiðslustöð
+-   <span data-ttu-id="e34f6-939">Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="e34f6-940">Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.</span><span class="sxs-lookup"><span data-stu-id="e34f6-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="e34f6-941">Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:</span><span class="sxs-lookup"><span data-stu-id="e34f6-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="e34f6-942">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="e34f6-942">Cash drawer</span></span>
+    -   <span data-ttu-id="e34f6-943">Kvittanaprentari</span><span class="sxs-lookup"><span data-stu-id="e34f6-943">Receipt printer</span></span>
+    -   <span data-ttu-id="e34f6-944">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="e34f6-944">Payment terminal</span></span>
 
-    Ef jaðarbúnaðurinn tilheyrir ekki þessara tegunda, er vélbúnaðarstöðin ekki hönnuð til að virkja að jaðarbúnaðurinn sé samnýttar á milli margra POS-tæki.
--   Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt. Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti. Til að sækja almenna stýrihluti skal fara á <http://monroecs.com/oposccos_current.htm>.
--   Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig. Það er gert með því að fylgja þessum skrefum:
-    1.  Úr valmyndinni **Ræsa** skal rita **CMD**.
-    2.  Í leitarniðurstöðum, hægrismellt **skipanakvaðningu**, og smellið síðan á **Keyra sem kerfisstjóri**.
-    3.  Í glugganum **skipunarkvaðning**, sláið inn **iisreset/Restart** og styðjið á færslulykilinn.
-    4.  Endurræsa Modern POS eftir IIS hefur verið endurræst.
--   Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu. Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu. Til að loka DLL host, skal fylgja þessum skrefum:
-    1.  Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.
-    2.  Í leitarniðurstöðum, smellið á **stjórnanda Verks**.
-    3.  Í stjórnanda Verks, á við **Upplýsingar** flipanum, smellið á haus dálksins sem merktur er **Heiti** til að raða í töflu í stafrófsröð eftir heiti.
-    4.  Flettu niður þar til þú finnur dllhost.exe.
-    5.  Veljið hvern DLL-hýsil og smellið síðan á **Ljúka verki**.
-    6.  Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.
+    <span data-ttu-id="e34f6-945">Ef jaðarbúnaðurinn tilheyrir ekki þessara tegunda, er vélbúnaðarstöðin ekki hönnuð til að virkja að jaðarbúnaðurinn sé samnýttar á milli margra POS-tæki.</span><span class="sxs-lookup"><span data-stu-id="e34f6-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="e34f6-946">Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt.</span><span class="sxs-lookup"><span data-stu-id="e34f6-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="e34f6-947">Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti.</span><span class="sxs-lookup"><span data-stu-id="e34f6-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="e34f6-948">Til að sækja almenna stýrihluti skal fara á <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="e34f6-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="e34f6-949">Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig.</span><span class="sxs-lookup"><span data-stu-id="e34f6-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="e34f6-950">Það er gert með því að fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="e34f6-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="e34f6-951">Úr valmyndinni **Ræsa** skal rita **CMD**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="e34f6-952">Í leitarniðurstöðum, hægrismellt **skipanakvaðningu**, og smellið síðan á **Keyra sem kerfisstjóri**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="e34f6-953">Í glugganum **skipunarkvaðning**, sláið inn **iisreset/Restart** og styðjið á færslulykilinn.</span><span class="sxs-lookup"><span data-stu-id="e34f6-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="e34f6-954">Endurræsa Modern POS eftir IIS hefur verið endurræst.</span><span class="sxs-lookup"><span data-stu-id="e34f6-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="e34f6-955">Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="e34f6-956">Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu.</span><span class="sxs-lookup"><span data-stu-id="e34f6-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="e34f6-957">Til að loka DLL host, skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="e34f6-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="e34f6-958">Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="e34f6-959">Í leitarniðurstöðum, smellið á **stjórnanda Verks**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="e34f6-960">Í stjórnanda Verks, á við **Upplýsingar** flipanum, smellið á haus dálksins sem merktur er **Heiti** til að raða í töflu í stafrófsröð eftir heiti.</span><span class="sxs-lookup"><span data-stu-id="e34f6-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="e34f6-961">Flettu niður þar til þú finnur dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="e34f6-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="e34f6-962">Veljið hvern DLL-hýsil og smellið síðan á **Ljúka verki**.</span><span class="sxs-lookup"><span data-stu-id="e34f6-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="e34f6-963">Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.</span><span class="sxs-lookup"><span data-stu-id="e34f6-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="e34f6-964">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="e34f6-964">See also</span></span>
 --------
 
-[Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="e34f6-965">Jaðarbúnaðarhermir smásölu</span><span class="sxs-lookup"><span data-stu-id="e34f6-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

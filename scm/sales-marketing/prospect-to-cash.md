@@ -27,17 +27,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="prospect-to-cash"></a>Prospect to cash  
+# <a name="prospect-to-cash"></a><span data-ttu-id="293d0-103">Prospect to cash</span><span class="sxs-lookup"><span data-stu-id="293d0-103">Prospect to cash</span></span>  
 
 [!include[banner](../includes/banner.md)]
 
-Lausnin Prospect to cash notast við [Gagnasamþáttara](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) til að samstilla gögn í tilvikum Dynamics 365 Finance and Operations eða Dynamics 365 for Sales í gegnum Common Data Service. Sniðmát Prospect to cash sem eru tiltæk með gagnasamþáttara virkja afurðaflæði, reikning, tengilið og sölutilboðsgögn milli Dynamics 365 for Finance and Operations og Dynamics 365 for Sales. Á meðan gögn flæða milli Finance and Operations og Dynamics 365 for Sales, er hægt að framkvæma sölu- og markaðsaðgerðir í Dynamics 365 for Sales og vinna með uppfyllingu pöntunar með birgðastýringu í Finance and Operations. 
+<span data-ttu-id="293d0-104">Lausnin Prospect to cash notast við [Gagnasamþáttara](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) til að samstilla gögn í tilvikum Dynamics 365 Finance and Operations eða Dynamics 365 for Sales í gegnum Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="293d0-104">The Prospect to cash solution uses [Data Integrator](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) to synchronize data across Dynamics 365 Finance and Operations or Dynamics 365 for Sales instances via the Common Data Service.</span></span> <span data-ttu-id="293d0-105">Sniðmát Prospect to cash sem eru tiltæk með gagnasamþáttara virkja afurðaflæði, reikning, tengilið og sölutilboðsgögn milli Dynamics 365 for Finance and Operations og Dynamics 365 for Sales.</span><span class="sxs-lookup"><span data-stu-id="293d0-105">The Prospect to cash templates available with the Data Integrator enable the flow of product, account, contact, and sales quote data between Dynamics 365 for Finance and Operations and Dynamics 365 for Sales.</span></span> <span data-ttu-id="293d0-106">Á meðan gögn flæða milli Finance and Operations og Dynamics 365 for Sales, er hægt að framkvæma sölu- og markaðsaðgerðir í Dynamics 365 for Sales og vinna með uppfyllingu pöntunar með birgðastýringu í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="293d0-106">While the data is flowing between Finance and Operations and Dynamics 365 for Sales, you can carry out sales and marketing activities in Dynamics 365 for Sales and handle the order fulfillment with inventory management in Finance and Operations.</span></span> 
 
-Þessi lausn veitir samþættingu á eftirfarandi sviðum: 
+<span data-ttu-id="293d0-107">Þessi lausn veitir samþættingu á eftirfarandi sviðum:</span><span class="sxs-lookup"><span data-stu-id="293d0-107">This solution provides integration in the following areas:</span></span> 
 
--   Viðhalda reikningum í Dynamics 365 for Sales og samstilla þá við Finance and Operations.
--   Viðhalda tengiliðum í Dynamics 365 for Sales og samstilla þá við Finance and Operations.
--   Stofna sölutilboð í Dynamics 365 for Sales og samstilla þá við Finance and Operations.
--   Viðhalda afurðum í Finance and Operations og samstilla þær við Dynamics 365 for Sales.
+-   <span data-ttu-id="293d0-108">Viðhalda reikningum í Dynamics 365 for Sales og samstilla þá við Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="293d0-108">Maintain accounts in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="293d0-109">Viðhalda tengiliðum í Dynamics 365 for Sales og samstilla þá við Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="293d0-109">Maintain contacts in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="293d0-110">Stofna sölutilboð í Dynamics 365 for Sales og samstilla þá við Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="293d0-110">Create sales quotes in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="293d0-111">Viðhalda afurðum í Finance and Operations og samstilla þær við Dynamics 365 for Sales.</span><span class="sxs-lookup"><span data-stu-id="293d0-111">Maintain products in Finance and Operations and sync them to Dynamics 365 for Sales.</span></span>
 
 

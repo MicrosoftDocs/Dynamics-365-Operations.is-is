@@ -19,66 +19,66 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="factor-depreciation"></a>Stuðulafskrift
+# <a name="factor-depreciation"></a><span data-ttu-id="50a97-103">Stuðulafskrift</span><span class="sxs-lookup"><span data-stu-id="50a97-103">Factor depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.
+<span data-ttu-id="50a97-104">Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.</span><span class="sxs-lookup"><span data-stu-id="50a97-104">This article gives an overview of the factor depreciation method.</span></span>
 
-Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur  **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:
+<span data-ttu-id="50a97-105">Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir.</span><span class="sxs-lookup"><span data-stu-id="50a97-105">Factors are the percentages that are used to depreciate assets.</span></span> <span data-ttu-id="50a97-106">Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur  **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:</span><span class="sxs-lookup"><span data-stu-id="50a97-106">When you set up a fixed asset depreciation profile and select **Factor** in the **Method** field on the **Depreciation profiles** page, you can set up progressive, digressive, or straight line depreciation:</span></span>
 
--   Í stighækkandi afskrift hækkar afskriftarupphæðin með hverju afskriftartímabili.
--   Í stiglækkandi afskrift lækkar afskriftarupphæðin á tímabili með tímanum.
--   Í línuleg afskrift eru afskriftirnar eins á hverju tímabili.
+-   <span data-ttu-id="50a97-107">Í stighækkandi afskrift hækkar afskriftarupphæðin með hverju afskriftartímabili.</span><span class="sxs-lookup"><span data-stu-id="50a97-107">In progressive depreciation, the amount of depreciation increases each depreciation period.</span></span>
+-   <span data-ttu-id="50a97-108">Í stiglækkandi afskrift lækkar afskriftarupphæðin á tímabili með tímanum.</span><span class="sxs-lookup"><span data-stu-id="50a97-108">In digressive depreciation, the amount of depreciation per period decreases over time.</span></span>
+-   <span data-ttu-id="50a97-109">Í línuleg afskrift eru afskriftirnar eins á hverju tímabili.</span><span class="sxs-lookup"><span data-stu-id="50a97-109">In straight line depreciation, the depreciation is the same in each period.</span></span>
 
-Reglurnar og dæmin að sem fylgja gefa til kynna hvernig hægt er að setja upp stuðla fyrir hverja gerð afskriftar. 
+<span data-ttu-id="50a97-110">Reglurnar og dæmin að sem fylgja gefa til kynna hvernig hægt er að setja upp stuðla fyrir hverja gerð afskriftar.</span><span class="sxs-lookup"><span data-stu-id="50a97-110">The rules and examples that follow indicate how you can set up factors for each type of depreciation.</span></span> 
 
 > [!NOTE] 
-> Þegar þú velur **stuðull** í **aðferð** svæði, eru **stuðull** svæði og **Tímabil** svæði birt.
+> <span data-ttu-id="50a97-111">Þegar þú velur **stuðull** í **aðferð** svæði, eru **stuðull** svæði og **Tímabil** svæði birt.</span><span class="sxs-lookup"><span data-stu-id="50a97-111">When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.</span></span>
 
-## <a name="progressive-depreciation"></a>Stighækkandi afskriftir
-Gildið í reitnum **stuðull** er hærri en **50**.
+## <a name="progressive-depreciation"></a><span data-ttu-id="50a97-112">Stighækkandi afskriftir</span><span class="sxs-lookup"><span data-stu-id="50a97-112">Progressive depreciation</span></span>
+<span data-ttu-id="50a97-113">Gildið í reitnum **stuðull** er hærri en **50**.</span><span class="sxs-lookup"><span data-stu-id="50a97-113">The value in the **Factor** field is more than **50**.</span></span>
 
-### <a name="example"></a>Dæmi
+### <a name="example"></a><span data-ttu-id="50a97-114">Dæmi</span><span class="sxs-lookup"><span data-stu-id="50a97-114">Example</span></span>
 
-Kaupverð er 100.000, stuðull er 70, líftími er 10 ár, og afskrift hefst á 1. janúar. Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.
+<span data-ttu-id="50a97-115">Kaupverð er 100.000, stuðull er 70, líftími er 10 ár, og afskrift hefst á 1. janúar.</span><span class="sxs-lookup"><span data-stu-id="50a97-115">The acquisition price is 100,000, the factor is 70, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="50a97-116">Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.</span><span class="sxs-lookup"><span data-stu-id="50a97-116">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Ár | Tímabil      | Afskriftarupphæð | Upphæð bókaðs nettóvirðis |
+| <span data-ttu-id="50a97-117">Ár</span><span class="sxs-lookup"><span data-stu-id="50a97-117">Year</span></span> | <span data-ttu-id="50a97-118">Tímabil</span><span class="sxs-lookup"><span data-stu-id="50a97-118">Period</span></span>      | <span data-ttu-id="50a97-119">Afskriftarupphæð</span><span class="sxs-lookup"><span data-stu-id="50a97-119">Depreciation amount</span></span> | <span data-ttu-id="50a97-120">Upphæð bókaðs nettóvirðis</span><span class="sxs-lookup"><span data-stu-id="50a97-120">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31. desember | 307,69              | 99.692,31             |
-| 2    | 31. desember | 1.447,21            | 98.245,10             |
-| 3    | 31. desember | 3.104,50            | 95.140,60             |
-| 4    | 31. desember | 5.150,21            | 89.990,39             |
-| 5    | 31. desember | 7.522,95            | 82.467,44             |
-| 6    | 31. desember | 10.184,06           | 72.283,38             |
+| <span data-ttu-id="50a97-121">1</span><span class="sxs-lookup"><span data-stu-id="50a97-121">1</span></span>    | <span data-ttu-id="50a97-122">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-122">December 31</span></span> | <span data-ttu-id="50a97-123">307,69</span><span class="sxs-lookup"><span data-stu-id="50a97-123">307.69</span></span>              | <span data-ttu-id="50a97-124">99.692,31</span><span class="sxs-lookup"><span data-stu-id="50a97-124">99,692.31</span></span>             |
+| <span data-ttu-id="50a97-125">2</span><span class="sxs-lookup"><span data-stu-id="50a97-125">2</span></span>    | <span data-ttu-id="50a97-126">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-126">December 31</span></span> | <span data-ttu-id="50a97-127">1.447,21</span><span class="sxs-lookup"><span data-stu-id="50a97-127">1,447.21</span></span>            | <span data-ttu-id="50a97-128">98.245,10</span><span class="sxs-lookup"><span data-stu-id="50a97-128">98,245.10</span></span>             |
+| <span data-ttu-id="50a97-129">3</span><span class="sxs-lookup"><span data-stu-id="50a97-129">3</span></span>    | <span data-ttu-id="50a97-130">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-130">December 31</span></span> | <span data-ttu-id="50a97-131">3.104,50</span><span class="sxs-lookup"><span data-stu-id="50a97-131">3,104.50</span></span>            | <span data-ttu-id="50a97-132">95.140,60</span><span class="sxs-lookup"><span data-stu-id="50a97-132">95,140.60</span></span>             |
+| <span data-ttu-id="50a97-133">4</span><span class="sxs-lookup"><span data-stu-id="50a97-133">4</span></span>    | <span data-ttu-id="50a97-134">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-134">December 31</span></span> | <span data-ttu-id="50a97-135">5.150,21</span><span class="sxs-lookup"><span data-stu-id="50a97-135">5,150.21</span></span>            | <span data-ttu-id="50a97-136">89.990,39</span><span class="sxs-lookup"><span data-stu-id="50a97-136">89,990.39</span></span>             |
+| <span data-ttu-id="50a97-137">5</span><span class="sxs-lookup"><span data-stu-id="50a97-137">5</span></span>    | <span data-ttu-id="50a97-138">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-138">December 31</span></span> | <span data-ttu-id="50a97-139">7.522,95</span><span class="sxs-lookup"><span data-stu-id="50a97-139">7,522.95</span></span>            | <span data-ttu-id="50a97-140">82.467,44</span><span class="sxs-lookup"><span data-stu-id="50a97-140">82,467.44</span></span>             |
+| <span data-ttu-id="50a97-141">6</span><span class="sxs-lookup"><span data-stu-id="50a97-141">6</span></span>    | <span data-ttu-id="50a97-142">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-142">December 31</span></span> | <span data-ttu-id="50a97-143">10.184,06</span><span class="sxs-lookup"><span data-stu-id="50a97-143">10,184.06</span></span>           | <span data-ttu-id="50a97-144">72.283,38</span><span class="sxs-lookup"><span data-stu-id="50a97-144">72,283.38</span></span>             |
 
-## <a name="digressive-depreciation"></a>Stiglækkandi afskriftir
-Gildið í reitnum **stuðull** er lægri en **50**.
+## <a name="digressive-depreciation"></a><span data-ttu-id="50a97-145">Stiglækkandi afskriftir</span><span class="sxs-lookup"><span data-stu-id="50a97-145">Digressive depreciation</span></span>
+<span data-ttu-id="50a97-146">Gildið í reitnum **stuðull** er lægri en **50**.</span><span class="sxs-lookup"><span data-stu-id="50a97-146">The value in the **Factor** field is less than **50**.</span></span>
 
-### <a name="example"></a>Dæmi
+### <a name="example"></a><span data-ttu-id="50a97-147">Dæmi</span><span class="sxs-lookup"><span data-stu-id="50a97-147">Example</span></span>
 
-Kaupverð er 100.000, stuðull er 20, líftími er 10 ár, og afskrift hefst á 1. janúar. Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.
+<span data-ttu-id="50a97-148">Kaupverð er 100.000, stuðull er 20, líftími er 10 ár, og afskrift hefst á 1. janúar.</span><span class="sxs-lookup"><span data-stu-id="50a97-148">The acquisition price is 100,000, the factor is 20, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="50a97-149">Afskriftarupphæð og upphæð bókaðs nettóvirði eru sýnd aðeins fyrir fyrstu sex ári líftímans.</span><span class="sxs-lookup"><span data-stu-id="50a97-149">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Ár | Tímabil      | Afskriftarupphæð | Upphæð bókaðs nettóvirðis |
+| <span data-ttu-id="50a97-150">Ár</span><span class="sxs-lookup"><span data-stu-id="50a97-150">Year</span></span> | <span data-ttu-id="50a97-151">Tímabil</span><span class="sxs-lookup"><span data-stu-id="50a97-151">Period</span></span>      | <span data-ttu-id="50a97-152">Afskriftarupphæð</span><span class="sxs-lookup"><span data-stu-id="50a97-152">Depreciation amount</span></span> | <span data-ttu-id="50a97-153">Upphæð bókaðs nettóvirðis</span><span class="sxs-lookup"><span data-stu-id="50a97-153">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31. desember | 56.080,43           | 43.919,57             |
-| 2    | 31. desember | 10.665,70           | 33.253,87             |
-| 3    | 31. desember | 7.156,22            | 26,097.65             |
-| 4    | 31. desember | 5.538,06            | 20.559,59             |
-| 5    | 31. desember | 4.579,89            | 15.979,70             |
-| 6    | 31. desember | 3.937,36            | 12.042,34             |
+| <span data-ttu-id="50a97-154">1</span><span class="sxs-lookup"><span data-stu-id="50a97-154">1</span></span>    | <span data-ttu-id="50a97-155">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-155">December 31</span></span> | <span data-ttu-id="50a97-156">56.080,43</span><span class="sxs-lookup"><span data-stu-id="50a97-156">56,080.43</span></span>           | <span data-ttu-id="50a97-157">43.919,57</span><span class="sxs-lookup"><span data-stu-id="50a97-157">43,919.57</span></span>             |
+| <span data-ttu-id="50a97-158">2</span><span class="sxs-lookup"><span data-stu-id="50a97-158">2</span></span>    | <span data-ttu-id="50a97-159">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-159">December 31</span></span> | <span data-ttu-id="50a97-160">10.665,70</span><span class="sxs-lookup"><span data-stu-id="50a97-160">10,665.70</span></span>           | <span data-ttu-id="50a97-161">33.253,87</span><span class="sxs-lookup"><span data-stu-id="50a97-161">33,253.87</span></span>             |
+| <span data-ttu-id="50a97-162">3</span><span class="sxs-lookup"><span data-stu-id="50a97-162">3</span></span>    | <span data-ttu-id="50a97-163">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-163">December 31</span></span> | <span data-ttu-id="50a97-164">7.156,22</span><span class="sxs-lookup"><span data-stu-id="50a97-164">7,156.22</span></span>            | <span data-ttu-id="50a97-165">26,097.65</span><span class="sxs-lookup"><span data-stu-id="50a97-165">26,097.65</span></span>             |
+| <span data-ttu-id="50a97-166">4</span><span class="sxs-lookup"><span data-stu-id="50a97-166">4</span></span>    | <span data-ttu-id="50a97-167">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-167">December 31</span></span> | <span data-ttu-id="50a97-168">5.538,06</span><span class="sxs-lookup"><span data-stu-id="50a97-168">5,538.06</span></span>            | <span data-ttu-id="50a97-169">20.559,59</span><span class="sxs-lookup"><span data-stu-id="50a97-169">20,559.59</span></span>             |
+| <span data-ttu-id="50a97-170">5</span><span class="sxs-lookup"><span data-stu-id="50a97-170">5</span></span>    | <span data-ttu-id="50a97-171">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-171">December 31</span></span> | <span data-ttu-id="50a97-172">4.579,89</span><span class="sxs-lookup"><span data-stu-id="50a97-172">4,579.89</span></span>            | <span data-ttu-id="50a97-173">15.979,70</span><span class="sxs-lookup"><span data-stu-id="50a97-173">15,979.70</span></span>             |
+| <span data-ttu-id="50a97-174">6</span><span class="sxs-lookup"><span data-stu-id="50a97-174">6</span></span>    | <span data-ttu-id="50a97-175">31. desember</span><span class="sxs-lookup"><span data-stu-id="50a97-175">December 31</span></span> | <span data-ttu-id="50a97-176">3.937,36</span><span class="sxs-lookup"><span data-stu-id="50a97-176">3,937.36</span></span>            | <span data-ttu-id="50a97-177">12.042,34</span><span class="sxs-lookup"><span data-stu-id="50a97-177">12,042.34</span></span>             |
 
-## <a name="straight-line-depreciation"></a>Línuleg afskrift
-Gildið í reitnum **stuðull** er jafn **50**. Í þessu tilfelli eru afskriftirnar þær sömu á hverju tímabili og þú ættir að hugsa um áhrif þeirra gilda sem voru tilgreind í öðrum reitum, eins og lýst er í [línulegur líftími afskriftar](straight-line-service-life-depreciation.md)
+## <a name="straight-line-depreciation"></a><span data-ttu-id="50a97-178">Línuleg afskrift</span><span class="sxs-lookup"><span data-stu-id="50a97-178">Straight line depreciation</span></span>
+<span data-ttu-id="50a97-179">Gildið í reitnum **stuðull** er jafn **50**.</span><span class="sxs-lookup"><span data-stu-id="50a97-179">The value in the **Factor** field is equal to **50**.</span></span> <span data-ttu-id="50a97-180">Í þessu tilfelli eru afskriftirnar þær sömu á hverju tímabili og þú ættir að hugsa um áhrif þeirra gilda sem voru tilgreind í öðrum reitum, eins og lýst er í [línulegur líftími afskriftar](straight-line-service-life-depreciation.md)</span><span class="sxs-lookup"><span data-stu-id="50a97-180">In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).</span></span>
 
 
 

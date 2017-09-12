@@ -16,24 +16,24 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0ecc0d3ca4ab38603db1b03eb63a263b14a81ea6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b39b0f0acf0a0fcdc472ba0bbfc3b15451c7a274
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-a-users-preferred-time-zone"></a>Stilla kjörtímabelti notanda
+# <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="a1c12-103">Stilla kjörtímabelti notanda</span><span class="sxs-lookup"><span data-stu-id="a1c12-103">Set a user's preferred time zone</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
+<span data-ttu-id="a1c12-104">Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.</span><span class="sxs-lookup"><span data-stu-id="a1c12-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
 
-1. Farið í Kerfisstjórnun > Notendur > Notendur.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smelltu á Notandastillingar
-5. Smellið á flipann fríðindi.
-6. Veljið valkost í svæðinu Tímabelti.
-7. Smellið á „Vista“.
+1. <span data-ttu-id="a1c12-105">Farið í Kerfisstjórnun > Notendur > Notendur.</span><span class="sxs-lookup"><span data-stu-id="a1c12-105">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="a1c12-106">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a1c12-106">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="a1c12-107">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a1c12-107">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a1c12-108">Smelltu á Notandastillingar</span><span class="sxs-lookup"><span data-stu-id="a1c12-108">Click User options.</span></span>
+5. <span data-ttu-id="a1c12-109">Smellið á flipann fríðindi.</span><span class="sxs-lookup"><span data-stu-id="a1c12-109">Click the Preferences tab.</span></span>
+6. <span data-ttu-id="a1c12-110">Veljið valkost í svæðinu Tímabelti.</span><span class="sxs-lookup"><span data-stu-id="a1c12-110">In the Time zone field, select an option.</span></span>
+7. <span data-ttu-id="a1c12-111">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="a1c12-111">Click Save.</span></span>
 
 

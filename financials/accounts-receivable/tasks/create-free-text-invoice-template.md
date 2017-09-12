@@ -1,67 +1,61 @@
 --- 
-title: "Stofna sniðmát fyrir reikning með frjálsum texta"
-description: "Þessi skráning notar sýnigögn USMF fyrirtækis"
+# required metadata 
+title: Stofna sniðmát fyrir reikning með frjálsum texta
+description: Þessi skráning notar sýnigögn USMF fyrirtækis
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7382c5ddc5d0972c8756b64ca7cc4e62073c367e
-ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
-
 ---
-# <a name="create-a-free-text-invoice-template"></a>Stofna sniðmát fyrir reikning með frjálsum texta
+# <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="24c38-103">Stofna sniðmát fyrir reikning með frjálsum texta</span><span class="sxs-lookup"><span data-stu-id="24c38-103">Create a free text invoice template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi skráning notar sýnigögn USMF fyrirtækis Skráningin er ætluð fyrir notandann sem er ábyrgur fyrir stjórnun og vinnslu viðskiptakröfureikninga.
+<span data-ttu-id="24c38-104">Þessi skráning notar sýnigögn USMF fyrirtækis</span><span class="sxs-lookup"><span data-stu-id="24c38-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="24c38-105">Skráningin er ætluð fyrir notandann sem er ábyrgur fyrir stjórnun og vinnslu viðskiptakröfureikninga.</span><span class="sxs-lookup"><span data-stu-id="24c38-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 
-1. Fara í Viðskiptakröfur > Reikningar > Endurteknir reikningar > Sniðmát textareiknings.
-    * Notið þessa skjámynd til að stofna sniðmát sem getur innihaldið línur á reikningi, gjöld, sniðmát fyrir dreifingu á fjárhagsupphæð og upplýsingar um fjárhagslykil.  
-2. Smellt er á 'Nýtt' til að búa til nýja sniðmát reiknings með frjáls texti.
-3. Í reitinn Heiti sniðmáts skal slá inn gildi.
-    * 'Sniðmátsheiti' auðkennir á einkvæman hátt sniðmát reikningur með frjálsum texta. Engin tvö sniðmát til að geta haft sama 'sniðmátsheiti'.  
-4. Færið inn lýsingu á sniðmát í svæðinu Lýsing..
-5. Útvíkka flipanum reikningslína.
-6. Færið inn lýsingu á reikningslína í svæðinu Lýsing..
-7. Í aðallykill svæðinu, veljið reikning fyrir tekjur.
-    * Þú getur valið mótfærslulykil fyrir lánsfé viðskiptavinar fyrir heildarupphæð reiknings í síðunni bókunarregla Viðskiptavinar .  
-8. Í reitnum VSK-flokkur skal smella á fellilistahnappinn til að opna leitina.
-    * VSK-flokkur fyrir núgildandi reikningslínu er sjálfgefinn VSK-flokkur fyrir viðskiptavinalykill.  
-9. Í listanum skal smella á tengilinn í valinni línu.
-10. Í svæði skattflokkur vöru, velja vsk-flokk vöru fyrir gildandi reikningslínu.
-11. Í listanum skal smella á tengilinn í valinni línu.
-12. Í svæðinu einingarverð, færa inn eða skoða verð á einingu fyrir reikningslínu
-    * Magnið er margfaldað með magnsvæði til að ákvarða endanlegan upphæð línu.  
-13. Bæta við nýrri línu við sniðmát reikningur með frjálsum texta.
-14. Færið inn lýsingu á reikningslína í svæðinu Lýsing..
-15. Í aðallykill svæðinu, veljið reikning fyrir tekjur.
-    * Þú getur valið mótfærslulykil fyrir lánsfé viðskiptavinar fyrir heildarupphæð reiknings í síðunni bókunarregla Viðskiptavinar .  
-16. Í reitnum VSK-flokkur skal smella á fellilistahnappinn til að opna leitina.
-    * VSK-flokkur fyrir núgildandi reikningslínu er sjálfgefinn VSK-flokkur fyrir viðskiptavinalykill.  
-17. Í listanum skal smella á tengilinn í valinni línu.
-18. Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.
-    * VSK-flokkur vöru fyrir núgildandi reikningslínuna.  
-19. Í listanum skal smella á tengilinn í valinni línu.
-20. Færa inn eða skoða fjöldi eininga fyrir reikningslínu
-    * Númerið er margfaldað með svæði einingaverðs til að ákvarða endanlegan upphæð reikningslínu.  
-21. Færa inn eða skoða verð á einingu fyrir reikningslínu. 
-    * Magnið er margfaldað með gildinu á magnsvæði til að ákvarða endanlegan upphæð línu.  
-22. Skoða og breyta dreifingar á fjárhagsupphæð fyrir staka línu og allar línur undirstigs.
-    * Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert verður grein fyrir upphæð, eins og hvernig tekjur, skatta eða gjöld verður að teknir með á reikningi með frjáls texti  
-23. Uppfæra dreifing á fjárhagsupphæð fyrir Valið reikningslína.
-24. Smellið á „Loka“.
-
+1. <span data-ttu-id="24c38-106">Fara í Viðskiptakröfur > Reikningar > Endurteknir reikningar > Sniðmát textareiknings.</span><span class="sxs-lookup"><span data-stu-id="24c38-106">Go to Accounts receivable > Invoices > Recurring invoices > Free text invoice templates.</span></span>
+    * <span data-ttu-id="24c38-107">Notið þessa skjámynd til að stofna sniðmát sem getur innihaldið línur á reikningi, gjöld, sniðmát fyrir dreifingu á fjárhagsupphæð og upplýsingar um fjárhagslykil.</span><span class="sxs-lookup"><span data-stu-id="24c38-107">Use this form to create free text invoice templates that can include invoice lines, charges, an accounting distribution template, and ledger account information.</span></span>  
+2. <span data-ttu-id="24c38-108">Smellt er á 'Nýtt' til að búa til nýja sniðmát reiknings með frjáls texti.</span><span class="sxs-lookup"><span data-stu-id="24c38-108">Click 'New' to create a new free text invoice template.</span></span>
+3. <span data-ttu-id="24c38-109">Í reitinn Heiti sniðmáts skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="24c38-109">In the Template name field, type a value.</span></span>
+    * <span data-ttu-id="24c38-110">'Sniðmátsheiti' auðkennir á einkvæman hátt sniðmát reikningur með frjálsum texta.</span><span class="sxs-lookup"><span data-stu-id="24c38-110">‘Template name’ uniquely identifies a free text invoice template.</span></span> <span data-ttu-id="24c38-111">Engin tvö sniðmát til að geta haft sama 'sniðmátsheiti'.</span><span class="sxs-lookup"><span data-stu-id="24c38-111">No two templates can have the same ‘Template name’.</span></span>  
+4. <span data-ttu-id="24c38-112">Færið inn lýsingu á sniðmát í svæðinu Lýsing..</span><span class="sxs-lookup"><span data-stu-id="24c38-112">In the Description field, enter a description of the template.</span></span>
+5. <span data-ttu-id="24c38-113">Útvíkka flipanum reikningslína.</span><span class="sxs-lookup"><span data-stu-id="24c38-113">Expand the Invoice lines tab.</span></span>
+6. <span data-ttu-id="24c38-114">Færið inn lýsingu á reikningslína í svæðinu Lýsing..</span><span class="sxs-lookup"><span data-stu-id="24c38-114">In the Description field, enter a description of the invoice line.</span></span>
+7. <span data-ttu-id="24c38-115">Í aðallykill svæðinu, veljið reikning fyrir tekjur.</span><span class="sxs-lookup"><span data-stu-id="24c38-115">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="24c38-116">Þú getur valið mótfærslulykil fyrir lánsfé viðskiptavinar fyrir heildarupphæð reiknings í síðunni bókunarregla Viðskiptavinar .</span><span class="sxs-lookup"><span data-stu-id="24c38-116">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+8. <span data-ttu-id="24c38-117">Í reitnum VSK-flokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="24c38-117">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="24c38-118">VSK-flokkur fyrir núgildandi reikningslínu er sjálfgefinn VSK-flokkur fyrir viðskiptavinalykill.</span><span class="sxs-lookup"><span data-stu-id="24c38-118">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+9. <span data-ttu-id="24c38-119">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="24c38-120">Í svæði skattflokkur vöru, velja vsk-flokk vöru fyrir gildandi reikningslínu.</span><span class="sxs-lookup"><span data-stu-id="24c38-120">In the Item tax group field, select the item sales tax group for the current invoice line.</span></span>
+11. <span data-ttu-id="24c38-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="24c38-122">Í svæðinu einingarverð, færa inn eða skoða verð á einingu fyrir reikningslínu</span><span class="sxs-lookup"><span data-stu-id="24c38-122">In the Unit price field, enter or view the price per unit for the invoice line</span></span>
+    * <span data-ttu-id="24c38-123">Magnið er margfaldað með magnsvæði til að ákvarða endanlegan upphæð línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-123">This amount is multiplied by the Quantity field to determine the invoice line amount.</span></span>  
+13. <span data-ttu-id="24c38-124">Bæta við nýrri línu við sniðmát reikningur með frjálsum texta.</span><span class="sxs-lookup"><span data-stu-id="24c38-124">Add a new line to free text invoice template.</span></span>
+14. <span data-ttu-id="24c38-125">Færið inn lýsingu á reikningslína í svæðinu Lýsing..</span><span class="sxs-lookup"><span data-stu-id="24c38-125">In the Description field, enter a description of the invoice line.</span></span>
+15. <span data-ttu-id="24c38-126">Í aðallykill svæðinu, veljið reikning fyrir tekjur.</span><span class="sxs-lookup"><span data-stu-id="24c38-126">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="24c38-127">Þú getur valið mótfærslulykil fyrir lánsfé viðskiptavinar fyrir heildarupphæð reiknings í síðunni bókunarregla Viðskiptavinar .</span><span class="sxs-lookup"><span data-stu-id="24c38-127">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+16. <span data-ttu-id="24c38-128">Í reitnum VSK-flokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="24c38-128">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="24c38-129">VSK-flokkur fyrir núgildandi reikningslínu er sjálfgefinn VSK-flokkur fyrir viðskiptavinalykill.</span><span class="sxs-lookup"><span data-stu-id="24c38-129">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+17. <span data-ttu-id="24c38-130">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="24c38-131">Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="24c38-131">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="24c38-132">VSK-flokkur vöru fyrir núgildandi reikningslínuna.</span><span class="sxs-lookup"><span data-stu-id="24c38-132">The item sales tax group for the current invoice line.</span></span>  
+19. <span data-ttu-id="24c38-133">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-133">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="24c38-134">Færa inn eða skoða fjöldi eininga fyrir reikningslínu</span><span class="sxs-lookup"><span data-stu-id="24c38-134">Enter or view the number of units for the invoice line</span></span>
+    * <span data-ttu-id="24c38-135">Númerið er margfaldað með svæði einingaverðs til að ákvarða endanlegan upphæð reikningslínu.</span><span class="sxs-lookup"><span data-stu-id="24c38-135">This number is multiplied by the value in the Unit price field to determine the invoice line amount.</span></span>  
+21. <span data-ttu-id="24c38-136">Færa inn eða skoða verð á einingu fyrir reikningslínu.</span><span class="sxs-lookup"><span data-stu-id="24c38-136">Enter or view the price per unit for the invoice line.</span></span> 
+    * <span data-ttu-id="24c38-137">Magnið er margfaldað með gildinu á magnsvæði til að ákvarða endanlegan upphæð línu.</span><span class="sxs-lookup"><span data-stu-id="24c38-137">This amount is multiplied by the value in the Quantity field to determine the invoice line amount.</span></span>  
+22. <span data-ttu-id="24c38-138">Skoða og breyta dreifingar á fjárhagsupphæð fyrir staka línu og allar línur undirstigs.</span><span class="sxs-lookup"><span data-stu-id="24c38-138">View and modify the accounting distributions for an individual line and any child lines.</span></span>
+    * <span data-ttu-id="24c38-139">Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert verður grein fyrir upphæð, eins og hvernig tekjur, skatta eða gjöld verður að teknir með á reikningi með frjáls texti</span><span class="sxs-lookup"><span data-stu-id="24c38-139">Accounting distributions define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span>  
+23. <span data-ttu-id="24c38-140">Uppfæra dreifing á fjárhagsupphæð fyrir Valið reikningslína.</span><span class="sxs-lookup"><span data-stu-id="24c38-140">Update the accounting distributions for the selected invoice line.</span></span>
+24. <span data-ttu-id="24c38-141">Smellið á „Loka“.</span><span class="sxs-lookup"><span data-stu-id="24c38-141">Click Close.</span></span>
 

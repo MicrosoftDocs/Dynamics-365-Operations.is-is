@@ -16,39 +16,39 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 73bfc08115a9727cbdcbe9b37e1427e67341dbd8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 791ec304b9ea7c49fbea506d73c4daffd4478739
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="process-rebates-for-payment"></a>Vinna úr eftirágreiddum afslætti fyrir greiðslu
+# <a name="process-rebates-for-payment"></a><span data-ttu-id="52314-103">Vinna úr eftirágreiddum afslætti fyrir greiðslu</span><span class="sxs-lookup"><span data-stu-id="52314-103">Process rebates for payment</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að umbreyta unnar og samþykktar eftirágreiddir kreditnótur. Hægt er að nota þessari handbók USMF sýnifyrirtækisins. Forsenda fyrir þessari handbók er að hafa eina eða fleiri kröfur um eftirágreiddan afslátt sem hafa stöðuna Merkja. Ef verið er að nota USMF ættirðu að keyra sem "Mynda og vinna eftirágreidds afsláttar viðskiptavinar" leiðbeiningar áður en byrjað er að þessari handbók.
+<span data-ttu-id="52314-104">Þetta ferli sýnir hvernig á að umbreyta unnar og samþykktar eftirágreiddir kreditnótur.</span><span class="sxs-lookup"><span data-stu-id="52314-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="52314-105">Hægt er að nota þessari handbók USMF sýnifyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="52314-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="52314-106">Forsenda fyrir þessari handbók er að hafa eina eða fleiri kröfur um eftirágreiddan afslátt sem hafa stöðuna Merkja.</span><span class="sxs-lookup"><span data-stu-id="52314-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="52314-107">Ef verið er að nota USMF ættirðu að keyra sem "Mynda og vinna eftirágreidds afsláttar viðskiptavinar" leiðbeiningar áður en byrjað er að þessari handbók.</span><span class="sxs-lookup"><span data-stu-id="52314-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 
 
-## <a name="convert-rebate-claims-to-credit-note"></a>Umbreyta eftirágreiddur afsláttur í kreditnótu
-1. Fara á Alla viðskiptavini.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í aðgerðasvæðinu er smellt á innheimta.
-5. Smellt er á Gera upp færslur.
-6. Smellið á Aðgerðir.
-7. Smellt er á áætlun fyrir eftirágreiddan afslátt
-    * síða Eftirágreidds Afsláttar birtir kröfur um eftirágreiddan afslátt þú vannst í vinnusvæði eftirágreidds afsláttar viðskiptavinar og eru með stöðuna Merkja.    
-8. Smellið á „Breyta“.
-    * Setja gátmerki í svæðinu Merkja fyrir kröfur sem á að hafa með í kreditnótu.   
-9. Smellið á Aðgerðir.
-10. Smellt er á Stofna kreditnótu.
-    * Skilaboð birtast sem tilkynna að færslubókin hefur verið bókuð (Þetta er í notkunarbók viðskiptakrafa eins og tilgreint er á síðunni færibreytna fyrir viðskiptakröfur). Þetta veldur upphæð raunverulegrar skuldar (lánsfé) flyst á stöðu viðskiptavinar. Það þýðir að kreditfært hefur verið á lykil viðskiptamanns og skuldfært hefur verið á uppsöfnunarlykil eftirágreidds afsláttar.  
-11. Lokið síðunni.
-12. Smellið á Hætta við.
-    * Þetta endurnýjar síðan þannig að hægt er að finna uppfærslur.  
-13. Í aðgerðasvæðinu er smellt á innheimta.
-14. Smellt er á Gera upp færslur.
-    * Athugið að færsla fyrir mínustölu, sem stendur fyrir heildarupphæð eftirágreidds afsláttar, án tilvísunar reiknings hefur verið bætt við stöðu viðskiptavinar.   
-15. Smellið á Hætta við.
+## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="52314-108">Umbreyta eftirágreiddur afsláttur í kreditnótu</span><span class="sxs-lookup"><span data-stu-id="52314-108">Convert rebate claims to credit note</span></span>
+1. <span data-ttu-id="52314-109">Fara á Alla viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="52314-109">Go to All customers.</span></span>
+2. <span data-ttu-id="52314-110">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="52314-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="52314-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="52314-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="52314-112">Í aðgerðasvæðinu er smellt á innheimta.</span><span class="sxs-lookup"><span data-stu-id="52314-112">On the Action Pane, click Collect.</span></span>
+5. <span data-ttu-id="52314-113">Smellt er á Gera upp færslur.</span><span class="sxs-lookup"><span data-stu-id="52314-113">Click Settle transactions.</span></span>
+6. <span data-ttu-id="52314-114">Smellið á Aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="52314-114">Click Functions.</span></span>
+7. <span data-ttu-id="52314-115">Smellt er á áætlun fyrir eftirágreiddan afslátt</span><span class="sxs-lookup"><span data-stu-id="52314-115">Click Rebate program.</span></span>
+    * <span data-ttu-id="52314-116">síða Eftirágreidds Afsláttar birtir kröfur um eftirágreiddan afslátt þú vannst í vinnusvæði eftirágreidds afsláttar viðskiptavinar og eru með stöðuna Merkja.</span><span class="sxs-lookup"><span data-stu-id="52314-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
+8. <span data-ttu-id="52314-117">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="52314-117">Click Edit.</span></span>
+    * <span data-ttu-id="52314-118">Setja gátmerki í svæðinu Merkja fyrir kröfur sem á að hafa með í kreditnótu.</span><span class="sxs-lookup"><span data-stu-id="52314-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
+9. <span data-ttu-id="52314-119">Smellið á Aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="52314-119">Click Functions.</span></span>
+10. <span data-ttu-id="52314-120">Smellt er á Stofna kreditnótu.</span><span class="sxs-lookup"><span data-stu-id="52314-120">Click Create credit note.</span></span>
+    * <span data-ttu-id="52314-121">Skilaboð birtast sem tilkynna að færslubókin hefur verið bókuð (Þetta er í notkunarbók viðskiptakrafa eins og tilgreint er á síðunni færibreytna fyrir viðskiptakröfur).</span><span class="sxs-lookup"><span data-stu-id="52314-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="52314-122">Þetta veldur upphæð raunverulegrar skuldar (lánsfé) flyst á stöðu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="52314-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="52314-123">Það þýðir að kreditfært hefur verið á lykil viðskiptamanns og skuldfært hefur verið á uppsöfnunarlykil eftirágreidds afsláttar.</span><span class="sxs-lookup"><span data-stu-id="52314-123">This means that the customer’s account has been credited, and the Rebate accrual account has been debited.</span></span>  
+11. <span data-ttu-id="52314-124">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="52314-124">Close the page.</span></span>
+12. <span data-ttu-id="52314-125">Smellið á Hætta við.</span><span class="sxs-lookup"><span data-stu-id="52314-125">Click Cancel.</span></span>
+    * <span data-ttu-id="52314-126">Þetta endurnýjar síðan þannig að hægt er að finna uppfærslur.</span><span class="sxs-lookup"><span data-stu-id="52314-126">This refreshes the page so that you can see the updates.</span></span>  
+13. <span data-ttu-id="52314-127">Í aðgerðasvæðinu er smellt á innheimta.</span><span class="sxs-lookup"><span data-stu-id="52314-127">On the Action Pane, click Collect.</span></span>
+14. <span data-ttu-id="52314-128">Smellt er á Gera upp færslur.</span><span class="sxs-lookup"><span data-stu-id="52314-128">Click Settle transactions.</span></span>
+    * <span data-ttu-id="52314-129">Athugið að færsla fyrir mínustölu, sem stendur fyrir heildarupphæð eftirágreidds afsláttar, án tilvísunar reiknings hefur verið bætt við stöðu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="52314-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
+15. <span data-ttu-id="52314-130">Smellið á Hætta við.</span><span class="sxs-lookup"><span data-stu-id="52314-130">Click Cancel.</span></span>
 
 

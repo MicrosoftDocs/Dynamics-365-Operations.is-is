@@ -15,56 +15,56 @@ ms.custom: 17491
 ms.assetid: 541e6012-4680-4684-8494-e9b5ca4684ee
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acbab3c833c109576f1e1e26fefeee770a29aeaf
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 754cd81a4550318de7003d847fafb2bcc7414b32
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-and-filter-workspaces"></a>Skilgreining og síun vinnusvæða
+# <a name="configure-and-filter-workspaces"></a><span data-ttu-id="7b625-103">Skilgreining og síun vinnusvæða</span><span class="sxs-lookup"><span data-stu-id="7b625-103">Configure and filter workspaces</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi þekkingarskrá gefur yfirlit um hvernig á til að skilgreina og sía vinnusvæði.
+<span data-ttu-id="7b625-104">Þessi þekkingarskrá gefur yfirlit um hvernig á til að skilgreina og sía vinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="7b625-104">This article provides an overview about how to configure and filter workspaces.</span></span>
 
-<a name="configuring-a-workspace"></a>Grunnstilling vinnusvæðis
+<a name="configuring-a-workspace"></a><span data-ttu-id="7b625-105">Grunnstilling vinnusvæðis</span><span class="sxs-lookup"><span data-stu-id="7b625-105">Configuring a workspace</span></span>
 -----------------------
 
-Hægt er að breyta útlit og hegðun sumra vinnusvæða með uppfærslu stillinga sem eiga við allt vinnusvæðið. Þegar það er hægt að skilgreina vinnusvæði, inniheldur Aðgerðarúðu hnapp sem leiðbeinir um að smellt er á hann til að gera breytingar á skilgreiningu. Til dæmis í eftirfarandi skýringarmynd nefnist hnappurinn **Grunnstilla eigin vinnusvæði**. 
+<span data-ttu-id="7b625-106">Hægt er að breyta útlit og hegðun sumra vinnusvæða með uppfærslu stillinga sem eiga við allt vinnusvæðið.</span><span class="sxs-lookup"><span data-stu-id="7b625-106">You can change the appearance and behavior of some workspaces by updating settings that apply to the whole workspace.</span></span> <span data-ttu-id="7b625-107">Þegar það er hægt að skilgreina vinnusvæði, inniheldur Aðgerðarúðu hnapp sem leiðbeinir um að smellt er á hann til að gera breytingar á skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="7b625-107">When a workspace can be configured, the Action Pane includes a button that instructs you to click it to make configuration changes.</span></span> <span data-ttu-id="7b625-108">Til dæmis í eftirfarandi skýringarmynd nefnist hnappurinn **Grunnstilla eigin vinnusvæði**.</span><span class="sxs-lookup"><span data-stu-id="7b625-108">For example, in the following illustration, the button is named **Configure my workspace**.</span></span> 
 
-[![skilgreina-og-sía-vinnusvæði](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
+<span data-ttu-id="7b625-109">[![skilgreina-og-sía-vinnusvæði](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="7b625-109">[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)</span></span>   
 
-Þegar smellt er á hnappinn birtist svargluggi, þar sem hægt er að breyta forskilgreindu stillingum fyrir vinnusvæðið. Tilteknar stillingar í þessum svarglugga eru mismunandi eftir vinnusvæðum og fara eftir ákveðnum stýringum og viðskiptagögnum sem eru tiltæk á vinnusvæðinu. 
+<span data-ttu-id="7b625-110">Þegar smellt er á hnappinn birtist svargluggi, þar sem hægt er að breyta forskilgreindu stillingum fyrir vinnusvæðið.</span><span class="sxs-lookup"><span data-stu-id="7b625-110">When you click the button, a dialog appears, where you can modify the predefined settings for the workspace.</span></span> <span data-ttu-id="7b625-111">Tilteknar stillingar í þessum svarglugga eru mismunandi eftir vinnusvæðum og fara eftir ákveðnum stýringum og viðskiptagögnum sem eru tiltæk á vinnusvæðinu.</span><span class="sxs-lookup"><span data-stu-id="7b625-111">The specific settings that you see in this dialog vary by workspace, and depend on the specific controls and business data that are available in the workspace.</span></span> 
 
-[![skilgreina-mín-vinnusvæði](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+<span data-ttu-id="7b625-112">[![skilgreina-mín-vinnusvæði](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span><span class="sxs-lookup"><span data-stu-id="7b625-112">[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)</span></span>
 
-## <a name="filtering-a-workspace"></a>Síun vinnusvæðis
-Mörg vinnusvæða leyfa þér að sía efni sem birtist í þeim. Stýringar sem tiltækar gætu leyft þér að sía öll efni í vinnusvæðinu eða aðeins innihaldið á tiltekinn hluta vinnusvæðisins. Síur á vinnusvæði kunna að vera uppflettingar, samsettir gluggar, texstareitir með frjálsu formi eða aðrar gerðir stýringa. Hins vegar hefur hver gerð síu sömu áhrif eins og lýst er í eftirfarandi hlutum.
+## <a name="filtering-a-workspace"></a><span data-ttu-id="7b625-113">Síun vinnusvæðis</span><span class="sxs-lookup"><span data-stu-id="7b625-113">Filtering a workspace</span></span>
+<span data-ttu-id="7b625-114">Mörg vinnusvæða leyfa þér að sía efni sem birtist í þeim.</span><span class="sxs-lookup"><span data-stu-id="7b625-114">Many workspaces let you filter the content that appears in them.</span></span> <span data-ttu-id="7b625-115">Stýringar sem tiltækar gætu leyft þér að sía öll efni í vinnusvæðinu eða aðeins innihaldið á tiltekinn hluta vinnusvæðisins.</span><span class="sxs-lookup"><span data-stu-id="7b625-115">The controls that are available might let you filter all the content in the workspace or only the content in a specific section of the workspace.</span></span> <span data-ttu-id="7b625-116">Síur á vinnusvæði kunna að vera uppflettingar, samsettir gluggar, texstareitir með frjálsu formi eða aðrar gerðir stýringa.</span><span class="sxs-lookup"><span data-stu-id="7b625-116">The filters on workspaces can be lookups, combo boxes, free-form text fields, or other types of controls.</span></span> <span data-ttu-id="7b625-117">Hins vegar hefur hver gerð síu sömu áhrif eins og lýst er í eftirfarandi hlutum.</span><span class="sxs-lookup"><span data-stu-id="7b625-117">However, every type of filter has the same effects, as described in the following sections.</span></span>
 
-### <a name="workspace-wide-filters"></a>Síur fyrir allt vinnusvæðið
+### <a name="workspace-wide-filters"></a><span data-ttu-id="7b625-118">Síur fyrir allt vinnusvæðið</span><span class="sxs-lookup"><span data-stu-id="7b625-118">Workspace-wide filters</span></span>
 
-Hægt er að sía allt vinnusvæðið með því að nota síu á allt vinnusvæðið. Sía fyrir allt vinnusvæðið verður í efra vinstra horni vinnusvæðisins. Val á tilteknu gildi í fellilista veldur því að innihald vinnusvæðisins er síað út frá því vali. 
+<span data-ttu-id="7b625-119">Hægt er að sía allt vinnusvæðið með því að nota síu á allt vinnusvæðið.</span><span class="sxs-lookup"><span data-stu-id="7b625-119">You can filter the whole workspace by using a workspace-wide filter.</span></span> <span data-ttu-id="7b625-120">Sía fyrir allt vinnusvæðið verður í efra vinstra horni vinnusvæðisins.</span><span class="sxs-lookup"><span data-stu-id="7b625-120">A workspace-wide filter appears in the upper-left corner of the workspace.</span></span> <span data-ttu-id="7b625-121">Val á tilteknu gildi í fellilista veldur því að innihald vinnusvæðisins er síað út frá því vali.</span><span class="sxs-lookup"><span data-stu-id="7b625-121">When you select a specific value in the drop-down list, the contents of the workspace are filtered based on that selection.</span></span> 
 
-[![vinnusvæði-sía](./media/workspace-filter.png)](./media/workspace-filter.png) 
+<span data-ttu-id="7b625-122">[![vinnusvæði-sía](./media/workspace-filter.png)](./media/workspace-filter.png)</span><span class="sxs-lookup"><span data-stu-id="7b625-122">[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)</span></span> 
 
-Þegar smellt er til að opna síu eru nokkrir valkostir boðnir. 
+<span data-ttu-id="7b625-123">Þegar smellt er til að opna síu eru nokkrir valkostir boðnir.</span><span class="sxs-lookup"><span data-stu-id="7b625-123">When you click to open the filter, you're presented with several options.</span></span> 
 
-[![vinnusvæði-sía-útvíkkað](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
+<span data-ttu-id="7b625-124">[![vinnusvæði-sía-útvíkkað](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span><span class="sxs-lookup"><span data-stu-id="7b625-124">[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)</span></span> 
 
-Veljið valkost til að sía vinnusvæðis byggt á valkostinn.
+<span data-ttu-id="7b625-125">Veljið valkost til að sía vinnusvæðis byggt á valkostinn.</span><span class="sxs-lookup"><span data-stu-id="7b625-125">Select an option to filter the workspace based on that option.</span></span>
 
-### <a name="workspace-section-filters"></a>Síur fyrir vinnusvæðishluta
+### <a name="workspace-section-filters"></a><span data-ttu-id="7b625-126">Síur fyrir vinnusvæðishluta</span><span class="sxs-lookup"><span data-stu-id="7b625-126">Workspace section filters</span></span>
 
-Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hluta sérstaklega. Í eftirfarandi skýringarmynd er sía (svæðið sem inniheldur texta "Sía") dæmi um reitarsíu með frjálsum texta. 
+<span data-ttu-id="7b625-127">Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hluta sérstaklega.</span><span class="sxs-lookup"><span data-stu-id="7b625-127">If individual sections of the workspace have filters, you can filter each section separately.</span></span> <span data-ttu-id="7b625-128">Í eftirfarandi skýringarmynd er sía (svæðið sem inniheldur texta "Sía") dæmi um reitarsíu með frjálsum texta.</span><span class="sxs-lookup"><span data-stu-id="7b625-128">In the following illustration, the filter (the field that contains the text "Filter") is an example of a free-form text field filter.</span></span> 
 
-[![vinnusvæði-hluti-síur](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
+<span data-ttu-id="7b625-129">[![vinnusvæði-hluti-síur](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span><span class="sxs-lookup"><span data-stu-id="7b625-129">[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)</span></span> 
 
-Eins og með síu alls vinnusvæðis þarf að velja eða færa inn gildi til að sía efni hlutans.
+<span data-ttu-id="7b625-130">Eins og með síu alls vinnusvæðis þarf að velja eða færa inn gildi til að sía efni hlutans.</span><span class="sxs-lookup"><span data-stu-id="7b625-130">As with a workspace-wide filter, select or enter a value in the field to filter the contents of the section.</span></span>
 
 
 

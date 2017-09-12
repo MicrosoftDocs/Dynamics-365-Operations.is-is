@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ca2b755406fb7fce4b11457be86f6a8685004438
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-batch-job"></a>Stofna runuvinnslu
+# <a name="create-a-batch-job"></a><span data-ttu-id="fedc1-103">Stofna runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="fedc1-103">Create a batch job</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhlutarþjónstilviks) í sjálfvirka vinnslu. Runuvinnslur er keyrðar með því að nota öryggis- og notendaheimildir þess notanda sem stofnaði verkið. Fylgið eftirfarandi ferli ef stofna á runuvinnslu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="fedc1-104">Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhlutarþjónstilviks) í sjálfvirka vinnslu.</span><span class="sxs-lookup"><span data-stu-id="fedc1-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="fedc1-105">Runuvinnslur er keyrðar með því að nota öryggis- og notendaheimildir þess notanda sem stofnaði verkið.</span><span class="sxs-lookup"><span data-stu-id="fedc1-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="fedc1-106">Fylgið eftirfarandi ferli ef stofna á runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="fedc1-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="fedc1-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="fedc1-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-the-batch-job"></a>Stofna runuvinnslu
-1. Farið í Kerfisstjórnun > Fyrirspurnir > Runuvinnslur.
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í reitnum starfslýsing.
-4. Færa inn dagsetningu og tíma í reitnum áætluð upphafsdagsetning og -tími.
-5. Smellið á „Vista“.
+## <a name="create-the-batch-job"></a><span data-ttu-id="fedc1-108">Stofna runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="fedc1-108">Create the batch job</span></span>
+1. <span data-ttu-id="fedc1-109">Farið í Kerfisstjórnun > Fyrirspurnir > Runuvinnslur.</span><span class="sxs-lookup"><span data-stu-id="fedc1-109">Go to System administration > Inquiries > Batch jobs.</span></span>
+2. <span data-ttu-id="fedc1-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fedc1-110">Click New.</span></span>
+3. <span data-ttu-id="fedc1-111">Færa inn gildi í reitnum starfslýsing.</span><span class="sxs-lookup"><span data-stu-id="fedc1-111">In the Job description field, type a value.</span></span>
+4. <span data-ttu-id="fedc1-112">Færa inn dagsetningu og tíma í reitnum áætluð upphafsdagsetning og -tími.</span><span class="sxs-lookup"><span data-stu-id="fedc1-112">In the Scheduled start date/time field, enter a date and time.</span></span>
+5. <span data-ttu-id="fedc1-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fedc1-113">Click Save.</span></span>
 
-## <a name="create-a-recurrence"></a>Stofna endurtekningu
-1. Í aðgerðasvæðinu er smellt á runuvinnsla.
-2. Smellið á Endurtekning.
-    * Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.  
-3. Smellið á „Í lagi“.
+## <a name="create-a-recurrence"></a><span data-ttu-id="fedc1-114">Stofna endurtekningu</span><span class="sxs-lookup"><span data-stu-id="fedc1-114">Create a recurrence</span></span>
+1. <span data-ttu-id="fedc1-115">Í aðgerðasvæðinu er smellt á runuvinnsla.</span><span class="sxs-lookup"><span data-stu-id="fedc1-115">On the Action Pane, click Batch job.</span></span>
+2. <span data-ttu-id="fedc1-116">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="fedc1-116">Click Recurrence.</span></span>
+    * <span data-ttu-id="fedc1-117">Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.</span><span class="sxs-lookup"><span data-stu-id="fedc1-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
+3. <span data-ttu-id="fedc1-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fedc1-118">Click OK.</span></span>
 
-## <a name="add-alerts"></a>Bæta við viðvaranir
-1. Í aðgerðasvæðinu er smellt á runuvinnsla.
-2. Smellt er á Viðvörunum.
-    * Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við. Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.   
-3. Smellið á „Í lagi“.
+## <a name="add-alerts"></a><span data-ttu-id="fedc1-119">Bæta við viðvaranir</span><span class="sxs-lookup"><span data-stu-id="fedc1-119">Add alerts</span></span>
+1. <span data-ttu-id="fedc1-120">Í aðgerðasvæðinu er smellt á runuvinnsla.</span><span class="sxs-lookup"><span data-stu-id="fedc1-120">On the Action Pane, click Batch job.</span></span>
+2. <span data-ttu-id="fedc1-121">Smellt er á Viðvörunum.</span><span class="sxs-lookup"><span data-stu-id="fedc1-121">Click Alerts.</span></span>
+    * <span data-ttu-id="fedc1-122">Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við.</span><span class="sxs-lookup"><span data-stu-id="fedc1-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="fedc1-123">Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.</span><span class="sxs-lookup"><span data-stu-id="fedc1-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
+3. <span data-ttu-id="fedc1-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fedc1-124">Click OK.</span></span>
 
 

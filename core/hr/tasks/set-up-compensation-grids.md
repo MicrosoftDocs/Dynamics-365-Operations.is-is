@@ -1,96 +1,90 @@
 --- 
+# required metadata 
 title: Setja upp launanet
-description: "Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa."
+description: Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa.
 author: kherr75
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 33a95e4366dc352f28202155be7fc0b8f4c99e4a
-ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
-
 ---
-# <a name="set-up-compensation-grids"></a>Setja upp launanet
+# <a name="set-up-compensation-grids"></a><span data-ttu-id="be11d-103">Setja upp launanet</span><span class="sxs-lookup"><span data-stu-id="be11d-103">Set up compensation grids</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa. Hægt er að deila hnitanet launa milli margra áætlanir eða afrituð þegar ný launafyrirkomulag er stofnað.  Áður en launanet er stofnað, setja verður upp Stig og tilvísunarpunkta. Þessu dæmi mun búa til nýja Launaþrep gerð launanet með sýnigögn fyrir Stig- og Tilvísuninarpunkta. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="be11d-104">Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa.</span><span class="sxs-lookup"><span data-stu-id="be11d-104">Compensation grids are used to define and maintain the pay structures for fixed compensation plans.</span></span> <span data-ttu-id="be11d-105">Hægt er að deila hnitanet launa milli margra áætlanir eða afrituð þegar ný launafyrirkomulag er stofnað.</span><span class="sxs-lookup"><span data-stu-id="be11d-105">Compensation grids can be shared between multiple plans or copied when creating a new compensation plan.</span></span>  <span data-ttu-id="be11d-106">Áður en launanet er stofnað, setja verður upp Stig og tilvísunarpunkta.</span><span class="sxs-lookup"><span data-stu-id="be11d-106">Before creating a compensation grid, Levels and Reference points must be set up.</span></span> <span data-ttu-id="be11d-107">Þessu dæmi mun búa til nýja Launaþrep gerð launanet með sýnigögn fyrir Stig- og Tilvísuninarpunkta.</span><span class="sxs-lookup"><span data-stu-id="be11d-107">This example will create a new Grade type of compensation grid using demo data for the Levels and Reference points.</span></span> <span data-ttu-id="be11d-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="be11d-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-information-about-the-compensation-grid"></a>Setja upp upplýsingar um hnitanet launa
-1. Farið í Mannauður > Bætur > Föst laun >Launanet.
-2. Smellið á „Nýtt“.
-3. Í reitinn hnitanet skal slá inn gildi.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Veljið valkost í svæðinu tegund.
-6. Færa inn eða velja gildi í svæðinu uppsetningu Tilvísunar.
-7. Í reitinn gjaldmiðill skal slá inn eða veldu gildi.
-8. Í reitinn Gjaldmiðill skal slá inn gildi.
-9. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
+## <a name="set-up-information-about-the-compensation-grid"></a><span data-ttu-id="be11d-109">Setja upp upplýsingar um hnitanet launa</span><span class="sxs-lookup"><span data-stu-id="be11d-109">Set up information about the compensation grid</span></span>
+1. <span data-ttu-id="be11d-110">Farið í Mannauður > Bætur > Föst laun >Launanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-110">Go to Human resources > Compensation > Fixed compensation > Compensation grids.</span></span>
+2. <span data-ttu-id="be11d-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="be11d-111">Click New.</span></span>
+3. <span data-ttu-id="be11d-112">Í reitinn hnitanet skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="be11d-112">In the Grid field, type a value.</span></span>
+4. <span data-ttu-id="be11d-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="be11d-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="be11d-114">Veljið valkost í svæðinu tegund.</span><span class="sxs-lookup"><span data-stu-id="be11d-114">In the Type field, select an option.</span></span>
+6. <span data-ttu-id="be11d-115">Færa inn eða velja gildi í svæðinu uppsetningu Tilvísunar.</span><span class="sxs-lookup"><span data-stu-id="be11d-115">In the Reference setup field, enter or select a value.</span></span>
+7. <span data-ttu-id="be11d-116">Í reitinn gjaldmiðill skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="be11d-116">In the Currency field, enter or select a value.</span></span>
+8. <span data-ttu-id="be11d-117">Í reitinn Gjaldmiðill skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="be11d-117">In the Currency field, type a value.</span></span>
+9. <span data-ttu-id="be11d-118">Í reitnum Gildisdagsetning skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="be11d-118">In the Effective date field, enter a date.</span></span>
 
-## <a name="add-levels-to-the-compensation-structure"></a>Bæta við stigum í launaskipulag
-1. Smellt er á „Launaskipulag“.
-2. Í listanum skal merkja valda línu.
-3. Sláðu inn eða veldu gildi í reitnum stig.
-4. Smellt er á Nýtt.
-5. Í listanum skal merkja valda línu.
-6. Sláðu inn eða veldu gildi í reitnum stig.
-7. Smellt er á Nýtt.
-8. Í listanum skal merkja valda línu.
-9. Sláðu inn eða veldu gildi í reitnum stig.
-10. Smellt er á Nýtt.
-11. Í listanum skal merkja valda línu.
-12. Sláðu inn eða veldu gildi í reitnum stig.
-13. Smellt er á Nýtt.
-14. Í listanum skal merkja valda línu.
-15. Sláðu inn eða veldu gildi í reitnum stig.
+## <a name="add-levels-to-the-compensation-structure"></a><span data-ttu-id="be11d-119">Bæta við stigum í launaskipulag</span><span class="sxs-lookup"><span data-stu-id="be11d-119">Add levels to the compensation structure</span></span>
+1. <span data-ttu-id="be11d-120">Smellt er á „Launaskipulag“.</span><span class="sxs-lookup"><span data-stu-id="be11d-120">Click Compensation structure.</span></span>
+2. <span data-ttu-id="be11d-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="be11d-122">Sláðu inn eða veldu gildi í reitnum stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-122">In the Level field, enter or select a value.</span></span>
+4. <span data-ttu-id="be11d-123">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="be11d-123">Click New.</span></span>
+5. <span data-ttu-id="be11d-124">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-124">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="be11d-125">Sláðu inn eða veldu gildi í reitnum stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-125">In the Level field, enter or select a value.</span></span>
+7. <span data-ttu-id="be11d-126">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="be11d-126">Click New.</span></span>
+8. <span data-ttu-id="be11d-127">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-127">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="be11d-128">Sláðu inn eða veldu gildi í reitnum stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-128">In the Level field, enter or select a value.</span></span>
+10. <span data-ttu-id="be11d-129">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="be11d-129">Click New.</span></span>
+11. <span data-ttu-id="be11d-130">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-130">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="be11d-131">Sláðu inn eða veldu gildi í reitnum stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-131">In the Level field, enter or select a value.</span></span>
+13. <span data-ttu-id="be11d-132">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="be11d-132">Click New.</span></span>
+14. <span data-ttu-id="be11d-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-133">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="be11d-134">Sláðu inn eða veldu gildi í reitnum stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-134">In the Level field, enter or select a value.</span></span>
 
-## <a name="fill-in-the-compensation-structure-with-values"></a>Fyllið inn í launaskipulag með gildum
-1. Í listanum skal merkja valda línu.
-    * Á þessum tímapunkti handvirkt er hægt að færa inn gildi launa í hverju svæði í töflu eða breyta Margar aðgerðir sem hægt er að nota auðveldlega mörg svæði eru fyllt út og framkvæma grunnútreikninga.  
-2. Smellt er á Fjöldabreyting.
-    * Fyrir þetta hnitanet notum við fyrst gildi miðpunkts á fyrsta stigi á öll svæði í töflunni. Þetta verður sem grunnur fyrir launafylki.  
-3. Veljið valkost í svæðinu gerð leiðréttingar.
-4. Í reitinn Leiðréttingarupphæð skal slá inn númer.
-5. Merkið eða afmerkið allar línur í listanum.
-6. Smellt er á Nota á hnitanet.
-    * Nú munum við nota fjöldabreytingu til að stighækka upphæðir í hverri síðari stig með ákveðnum prósentu eða upphæð. Í þessu dæmi, hver launaþrep hafa er % 12,5 mun milli þeirra miðpunkta.  
-7. Veljið valkost í svæðinu gerð leiðréttingar.
-8. Í reitinn Leiðréttingarupphæð skal slá inn númer.
-9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-10. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-13. Smellt er á Nota á hnitanet.
-14. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-15. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-16. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-17. Smellt er á Nota á hnitanet.
-18. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-19. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-20. Smellt er á Nota á hnitanet.
-21. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-22. Smellt er á Nota á hnitanet.
-    * Nú munum við nota fjöldabreytingaraðgerð til að leiðrétta Lágmark og Hámark tilvísunarpunkta fyrir hvert stig. Þessu dæmi mun nota inn 50% mun svo tilvísunarpunktur Lágmark verður leiðrétt -20% og Hámark verður leiðrétta +20%.  
-23. Í reitinn Leiðréttingarupphæð skal slá inn númer.
-24. Færa inn eða veljið gildi í svæðinu tilvísunarpunktur.
-25. Merkið eða afmerkið allar línur í listanum.
-26. Smellt er á Nota á hnitanet.
-27. Í reitinn Leiðréttingarupphæð skal slá inn númer.
-28. Færa inn eða veljið gildi í svæðinu tilvísunarpunktur.
-29. Merkið eða afmerkið allar línur í listanum.
-30. Smellt er á Nota á hnitanet.
-
+## <a name="fill-in-the-compensation-structure-with-values"></a><span data-ttu-id="be11d-135">Fyllið inn í launaskipulag með gildum</span><span class="sxs-lookup"><span data-stu-id="be11d-135">Fill in the compensation structure with values</span></span>
+1. <span data-ttu-id="be11d-136">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="be11d-136">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="be11d-137">Á þessum tímapunkti handvirkt er hægt að færa inn gildi launa í hverju svæði í töflu eða breyta Margar aðgerðir sem hægt er að nota auðveldlega mörg svæði eru fyllt út og framkvæma grunnútreikninga.</span><span class="sxs-lookup"><span data-stu-id="be11d-137">At this point, compensation values can manually be entered into each field in the table, or the Mass change functionality can be used to easily fill in multiple fields and perform basic calculations.</span></span>  
+2. <span data-ttu-id="be11d-138">Smellt er á Fjöldabreyting.</span><span class="sxs-lookup"><span data-stu-id="be11d-138">Click Mass change.</span></span>
+    * <span data-ttu-id="be11d-139">Fyrir þetta hnitanet notum við fyrst gildi miðpunkts á fyrsta stigi á öll svæði í töflunni.</span><span class="sxs-lookup"><span data-stu-id="be11d-139">For this grid, we'll first apply the value for the midpoint of the first level's to all the fields in the table.</span></span> <span data-ttu-id="be11d-140">Þetta verður sem grunnur fyrir launafylki.</span><span class="sxs-lookup"><span data-stu-id="be11d-140">This will be the basis for the compensation matrix.</span></span>  
+3. <span data-ttu-id="be11d-141">Veljið valkost í svæðinu gerð leiðréttingar.</span><span class="sxs-lookup"><span data-stu-id="be11d-141">In the Adjustment type field, select an option.</span></span>
+4. <span data-ttu-id="be11d-142">Í reitinn Leiðréttingarupphæð skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="be11d-142">In the Adjustment amount field, enter a number.</span></span>
+5. <span data-ttu-id="be11d-143">Merkið eða afmerkið allar línur í listanum.</span><span class="sxs-lookup"><span data-stu-id="be11d-143">In the list, mark or unmark all rows.</span></span>
+6. <span data-ttu-id="be11d-144">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-144">Click Apply to grid.</span></span>
+    * <span data-ttu-id="be11d-145">Nú munum við nota fjöldabreytingu til að stighækka upphæðir í hverri síðari stig með ákveðnum prósentu eða upphæð.</span><span class="sxs-lookup"><span data-stu-id="be11d-145">Now we'll use the mass change function to increment the amounts in each subsequent level by a certain percentage or amount.</span></span> <span data-ttu-id="be11d-146">Í þessu dæmi, hver launaþrep hafa er % 12,5 mun milli þeirra miðpunkta.</span><span class="sxs-lookup"><span data-stu-id="be11d-146">In this example, each grade will have a 12.5% spread between their midpoints.</span></span>  
+7. <span data-ttu-id="be11d-147">Veljið valkost í svæðinu gerð leiðréttingar.</span><span class="sxs-lookup"><span data-stu-id="be11d-147">In the Adjustment type field, select an option.</span></span>
+8. <span data-ttu-id="be11d-148">Í reitinn Leiðréttingarupphæð skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="be11d-148">In the Adjustment amount field, enter a number.</span></span>
+9. <span data-ttu-id="be11d-149">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-149">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="be11d-150">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-150">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="be11d-151">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-151">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="be11d-152">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-152">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="be11d-153">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-153">Click Apply to grid.</span></span>
+14. <span data-ttu-id="be11d-154">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-154">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="be11d-155">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-155">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="be11d-156">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-156">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="be11d-157">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-157">Click Apply to grid.</span></span>
+18. <span data-ttu-id="be11d-158">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-158">In the list, find and select the desired record.</span></span>
+19. <span data-ttu-id="be11d-159">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-159">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="be11d-160">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-160">Click Apply to grid.</span></span>
+21. <span data-ttu-id="be11d-161">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="be11d-161">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="be11d-162">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-162">Click Apply to grid.</span></span>
+    * <span data-ttu-id="be11d-163">Nú munum við nota fjöldabreytingaraðgerð til að leiðrétta Lágmark og Hámark tilvísunarpunkta fyrir hvert stig.</span><span class="sxs-lookup"><span data-stu-id="be11d-163">Now we'll use the mass change function to adjust the Minimum and Maximum reference points for each level.</span></span> <span data-ttu-id="be11d-164">Þessu dæmi mun nota inn 50% mun svo tilvísunarpunktur Lágmark verður leiðrétt -20% og Hámark verður leiðrétta +20%.</span><span class="sxs-lookup"><span data-stu-id="be11d-164">This example will use a 50% spread so the Minimum reference point will be adjusted -20% and the Maximum will be adjusted +20%.</span></span>  
+23. <span data-ttu-id="be11d-165">Í reitinn Leiðréttingarupphæð skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="be11d-165">In the Adjustment amount field, enter a number.</span></span>
+24. <span data-ttu-id="be11d-166">Færa inn eða veljið gildi í svæðinu tilvísunarpunktur.</span><span class="sxs-lookup"><span data-stu-id="be11d-166">In the Reference point field, enter or select a value.</span></span>
+25. <span data-ttu-id="be11d-167">Merkið eða afmerkið allar línur í listanum.</span><span class="sxs-lookup"><span data-stu-id="be11d-167">In the list, mark or unmark all rows.</span></span>
+26. <span data-ttu-id="be11d-168">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-168">Click Apply to grid.</span></span>
+27. <span data-ttu-id="be11d-169">Í reitinn Leiðréttingarupphæð skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="be11d-169">In the Adjustment amount field, enter a number.</span></span>
+28. <span data-ttu-id="be11d-170">Færa inn eða veljið gildi í svæðinu tilvísunarpunktur.</span><span class="sxs-lookup"><span data-stu-id="be11d-170">In the Reference point field, enter or select a value.</span></span>
+29. <span data-ttu-id="be11d-171">Merkið eða afmerkið allar línur í listanum.</span><span class="sxs-lookup"><span data-stu-id="be11d-171">In the list, mark or unmark all rows.</span></span>
+30. <span data-ttu-id="be11d-172">Smellt er á Nota á hnitanet.</span><span class="sxs-lookup"><span data-stu-id="be11d-172">Click Apply to grid.</span></span>
 
