@@ -1,7 +1,7 @@
 --- 
 title: "Stofna hráefni (aðeins febrúar 2016)"
 description: "Þetta verk einblínir á að búa til íhluti fullunnin vara og hálfunnin vara."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
