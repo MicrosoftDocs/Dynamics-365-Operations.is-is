@@ -1,21 +1,26 @@
 --- 
-# required metadata 
-title: Stofna tilbúna afurð (aðeins febrúar 2016)
-description: Þetta verk einblínir á að búa til tilbúin afurð.
-author: BibiSp
+title: "Stofna tilbúna afurð (aðeins febrúar 2016)"
+description: "Þetta verk einblínir á að búa til tilbúin afurð."
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: a14b56b508e5d46bb2898828bd30fdf6c3c14023
+ms.contentlocale: is-is
+ms.lasthandoff: 09/14/2017
+
 ---
 # <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="abfe5-103">Stofna tilbúna afurð (aðeins febrúar 2016)</span><span class="sxs-lookup"><span data-stu-id="abfe5-103">Create a finished product (February 2016 only)</span></span>
 
@@ -47,4 +52,5 @@ ms.dyn365.ops.version: AX 7.0.0
 14. <span data-ttu-id="abfe5-131">Í svæði Sölusvæði slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="abfe5-131">In the Sales site field, enter or select a value.</span></span>
     * <span data-ttu-id="abfe5-132">Í þessu dæmi skal velja Svæði 1.</span><span class="sxs-lookup"><span data-stu-id="abfe5-132">For this example, select Site 1.</span></span>  
 15. <span data-ttu-id="abfe5-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abfe5-133">Close the page.</span></span>
+
 

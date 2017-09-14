@@ -19,50 +19,50 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 157cb807a5a5e61b022b3186dfbe67b95c2408ec
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 15984bb5ce92a86603713cdac00d464ca4901018
 ms.contentlocale: is-is
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Microsoft Dynamics 365 for Talent kerfiskröfur og uppfærsluregla
+# <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a><span data-ttu-id="72c2a-104">Microsoft Dynamics 365 for Talent kerfiskröfur og uppfærsluregla</span><span class="sxs-lookup"><span data-stu-id="72c2a-104">Microsoft Dynamics 365 for Talent system requirements and update policy</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Þetta efnisatriði inniheldur lista yfir kröfur Microsoft Dynamics 365 for Talent. Þar er uppfærslustefnuna einnig að finna.
+<span data-ttu-id="72c2a-105">Þetta efnisatriði inniheldur lista yfir kröfur Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="72c2a-105">This topic lists requirements for Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="72c2a-106">Þar er uppfærslustefnuna einnig að finna.</span><span class="sxs-lookup"><span data-stu-id="72c2a-106">The update policy is outlined, as well.</span></span>
 
-## <a name="supported-web-browsers"></a>Studdir vafrar
+## <a name="supported-web-browsers"></a><span data-ttu-id="72c2a-107">Studdir vafrar</span><span class="sxs-lookup"><span data-stu-id="72c2a-107">Supported web browsers</span></span>
 
-Microsoft Dynamics 365 for Talent vefforrit er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgreindum stýrikerfum: 
+<span data-ttu-id="72c2a-108">Microsoft Dynamics 365 for Talent vefforrit er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgreindum stýrikerfum:</span><span class="sxs-lookup"><span data-stu-id="72c2a-108">The Microsoft Dynamics 365 for Talent web application can run in any of the following web browsers that run on the specified operating systems:</span></span> 
 
-*   Microsoft Edge (nýjasta almenna útgáfa) á Windows-10
-*   Internet Explorer 11 á Windows 10, Windows 8.1 eða Windows 7
-*   Google Chrome (nýjasta almenna útgáfa) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölva
-*   Apple Safari (nýjasta almenna útgáfa) á Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) 10.12 (Sierra) eða Apple iPad
+*   <span data-ttu-id="72c2a-109">Microsoft Edge (nýjasta almenna útgáfa) á Windows-10</span><span class="sxs-lookup"><span data-stu-id="72c2a-109">Microsoft Edge (latest publicly available version) on Windows 10</span></span>
+*   <span data-ttu-id="72c2a-110">Internet Explorer 11 á Windows 10, Windows 8.1 eða Windows 7</span><span class="sxs-lookup"><span data-stu-id="72c2a-110">Internet Explorer 11 on Windows 10, Windows 8.1, or Windows 7</span></span>
+*   <span data-ttu-id="72c2a-111">Google Chrome (nýjasta almenna útgáfa) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölva</span><span class="sxs-lookup"><span data-stu-id="72c2a-111">Google Chrome (latest publicly available version) on Windows 10, Windows 8.1, Windows 8, Windows 7, or Google Nexus 10 tablet</span></span>
+*   <span data-ttu-id="72c2a-112">Apple Safari (nýjasta almenna útgáfa) á Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) 10.12 (Sierra) eða Apple iPad</span><span class="sxs-lookup"><span data-stu-id="72c2a-112">Apple Safari (latest publicly available version) on Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) or 10.12 (Sierra), or Apple iPad</span></span>
 
-Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. 
+<span data-ttu-id="72c2a-113">Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra.</span><span class="sxs-lookup"><span data-stu-id="72c2a-113">To find the latest release for each web browser, go to the software manufacturer’s website.</span></span> 
 
 > [!NOTE]
-> * Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word skjöl, verður að hafa viðauka við Króm uppsett. 
-> * Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
-> * Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
-Netþarfir
-> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent. Mælt er með er prófa biðtíma á netinu á [http://www.azurespeed.com] (http://www.azurespeed.com „Azure Biðtími Próf“).
-> * Bandvíddarþarfir fyrir Dynamics 365 for Talent fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
+> * <span data-ttu-id="72c2a-114">Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word skjöl, verður að hafa viðauka við Króm uppsett.</span><span class="sxs-lookup"><span data-stu-id="72c2a-114">To capture images that are generated from Task Recorder and include them in Microsoft Word documents, you must have a Chrome extension installed.</span></span> 
+> * <span data-ttu-id="72c2a-115">Verkflæðisritillinn er ræstur sem ClickOnce-forrit.</span><span class="sxs-lookup"><span data-stu-id="72c2a-115">The Workflow Editor is started as a ClickOnce application.</span></span> <span data-ttu-id="72c2a-116">Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit.</span><span class="sxs-lookup"><span data-stu-id="72c2a-116">Only Microsoft Edge and Internet Explorer (on a supported version of Microsoft Windows) support ClickOnce applications.</span></span> <span data-ttu-id="72c2a-117">Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.</span><span class="sxs-lookup"><span data-stu-id="72c2a-117">The Workflow Editor ClickOnce application requires a 64-bit compatible operating system.</span></span>
+> * <span data-ttu-id="72c2a-118">Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.</span><span class="sxs-lookup"><span data-stu-id="72c2a-118">To preview PDF files, we recommend that you use modern browsers like Microsoft Edge (latest publicly available version) on Windows 10, or Google Chrome (latest publicly available version) on Windows 10, Windows 8.1, Windows 8, Windows 7, or Google Nexus 10 tablet.</span></span>
+<span data-ttu-id="72c2a-119">Netþarfir</span><span class="sxs-lookup"><span data-stu-id="72c2a-119">Network requirements</span></span>
+> * <span data-ttu-id="72c2a-120">Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.).</span><span class="sxs-lookup"><span data-stu-id="72c2a-120">Dynamics 365 for Talent is designed for networks with latency of 250-300 milliseconds (ms) or less.</span></span> <span data-ttu-id="72c2a-121">Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="72c2a-121">This is the latency from a browser client to the Microsoft Azure data center that hosts Dynamics 365 for Talent.</span></span> <span data-ttu-id="72c2a-122">Mælt er með er prófa biðtíma á netinu á [http://www.azurespeed.com] (http://www.azurespeed.com „Azure Biðtími Próf“).</span><span class="sxs-lookup"><span data-stu-id="72c2a-122">We recommend that you test network latency at [www.azurespeed.com] (http://www.azurespeed.com "Azure Latency Test").</span></span>
+> * <span data-ttu-id="72c2a-123">Bandvíddarþarfir fyrir Dynamics 365 for Talent fara eftir aðstæðum.</span><span class="sxs-lookup"><span data-stu-id="72c2a-123">Bandwidth requirements for Dynamics 365 for Talent depend on your scenario.</span></span> <span data-ttu-id="72c2a-124">Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).</span><span class="sxs-lookup"><span data-stu-id="72c2a-124">Most typical scenarios require a bandwidth of more than 50 kilobytes per second (KBps).</span></span>
 
 > [!WARNING]
-> Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Dynamics 365 for Talent fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
+> <span data-ttu-id="72c2a-125">Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum.</span><span class="sxs-lookup"><span data-stu-id="72c2a-125">Don't compute bandwidth requirements from a client location by multiplying the number of users by the minimum bandwidth requirements.</span></span> <span data-ttu-id="72c2a-126">Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út.</span><span class="sxs-lookup"><span data-stu-id="72c2a-126">The concurrent usage of a given location is very difficult to calculate.</span></span> <span data-ttu-id="72c2a-127">Nota sýnisútgáfa af Dynamics 365 for Talent fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.</span><span class="sxs-lookup"><span data-stu-id="72c2a-127">For customers who are concerned about bandwidth requirements, use a trial version of Dynamics 365 for Talent.</span></span>
 
-## <a name="supported-microsoft-office-applications"></a>Studd forrit Microsoft Office
+## <a name="supported-microsoft-office-applications"></a><span data-ttu-id="72c2a-128">Studd forrit Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="72c2a-128">Supported Microsoft Office applications</span></span>
 
-*   Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting "Office samþættingu úrræðaleit").
-*   Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.
+*   <span data-ttu-id="72c2a-129">Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett.</span><span class="sxs-lookup"><span data-stu-id="72c2a-129">To run the Microsoft Excel and Word add-ins, you must have Microsoft Office 2016 for Windows or Mac installed.</span></span> <span data-ttu-id="72c2a-130">Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting "Office samþættingu úrræðaleit").</span><span class="sxs-lookup"><span data-stu-id="72c2a-130">For more details about version requirements, see [Office integration troubleshooting] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting "Office integration troubleshooting").</span></span>
+*   <span data-ttu-id="72c2a-131">Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.</span><span class="sxs-lookup"><span data-stu-id="72c2a-131">To view documents that are generated by the Export to Excel or Export to Word functionality, you must have Microsoft Office 2007 or later installed.</span></span>
 
-## <a name="update-policy"></a>Uppfæra stefnu
+## <a name="update-policy"></a><span data-ttu-id="72c2a-132">Uppfæra stefnu</span><span class="sxs-lookup"><span data-stu-id="72c2a-132">Update policy</span></span>
 
-Microsoft Dynamics 365 for Talent er þjónustað sem ský vara. Uppfærslur fyrir Dynamics 365 for Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.
+<span data-ttu-id="72c2a-133">Microsoft Dynamics 365 for Talent er þjónustað sem ský vara.</span><span class="sxs-lookup"><span data-stu-id="72c2a-133">Microsoft Dynamics 365 for Talent is serviced as a cloud offering.</span></span> <span data-ttu-id="72c2a-134">Uppfærslur fyrir Dynamics 365 for Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.</span><span class="sxs-lookup"><span data-stu-id="72c2a-134">Updates to Dynamics 365 for Talent are continuous and applied automatically by Microsoft.</span></span>
 
-Uppfærslur eru gefnar út með reglubundnum hætti, uppfærslur eru gerðar fyrir allt umhverfi.  Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy „Microsoft Support Lifecycle“), sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
+<span data-ttu-id="72c2a-135">Uppfærslur eru gefnar út með reglubundnum hætti, uppfærslur eru gerðar fyrir allt umhverfi.</span><span class="sxs-lookup"><span data-stu-id="72c2a-135">Updates are released on a regular cadence, updates will be made to all environments.</span></span>  <span data-ttu-id="72c2a-136">Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy „Microsoft Support Lifecycle“), sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.</span><span class="sxs-lookup"><span data-stu-id="72c2a-136">Dynamics 365 for Talent is supported according to the [Microsoft Support Lifecycle policy] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), which provides consistent and predictable guidelines for product support availability.</span></span>
 

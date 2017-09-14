@@ -1,21 +1,26 @@
 --- 
-# required metadata 
-title: Gefa út afurð/afurðarsniðmát fyrir lögaðila
-description: Þetta ferli fer í gegnum hvernig á að losa afurð eða afurðarsniðmát í einni eða fleiri lögaðila.
-author: BibiSp
+title: "Gefa út afurð/afurðarsniðmát fyrir lögaðila"
+description: "Þetta ferli fer í gegnum hvernig á að losa afurð eða afurðarsniðmát í einni eða fleiri lögaðila."
+author: josaw1
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw1
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 879459495e393ae19f660020ae817d6bc895426e
+ms.contentlocale: is-is
+ms.lasthandoff: 09/14/2017
+
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="93f59-103">Gefa út afurð/afurðarsniðmát fyrir lögaðila</span><span class="sxs-lookup"><span data-stu-id="93f59-103">Release a product/product master to legal entities</span></span>
 
@@ -30,4 +35,5 @@ ms.dyn365.ops.version: AX 7.0.0
 5. <span data-ttu-id="93f59-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="93f59-111">In the list, find and select the desired record.</span></span>
 6. <span data-ttu-id="93f59-112">Smelltu á Næsta.</span><span class="sxs-lookup"><span data-stu-id="93f59-112">Click Next.</span></span>
 7. <span data-ttu-id="93f59-113">Smellt er á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="93f59-113">Click Finish.</span></span>
+
 

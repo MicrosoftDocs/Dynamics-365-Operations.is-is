@@ -16,48 +16,48 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 88927a220246d11e48b210eb5648d7e7c2a7cef8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1187448393e4905ed5f2dfe826ec843fdcf0cb67
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er"></a>Skilgreina áfangastaði fyrir rafræna skýrslugerð (ER)
+# <a name="configure-destinations-for-electronic-reporting-er"></a><span data-ttu-id="fac89-103">Skilgreina áfangastaði fyrir rafræna skýrslugerð (ER)</span><span class="sxs-lookup"><span data-stu-id="fac89-103">Configure destinations for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá. Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF. Þýskaland er land/svæði fyrir aðalaðsetur lögaðila, hins vegar er hægt að nota hvaða lögaðila sem er fyrir þetta ferli. 
+<span data-ttu-id="fac89-104">Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá.</span><span class="sxs-lookup"><span data-stu-id="fac89-104">This procedure demonstrates how to set up and use different destinations for Electronic reporting (ER) output components, such as a folder or a file.</span></span> <span data-ttu-id="fac89-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.</span><span class="sxs-lookup"><span data-stu-id="fac89-105">The demo data company used to create this procedure is DEMF.</span></span> <span data-ttu-id="fac89-106">Þýskaland er land/svæði fyrir aðalaðsetur lögaðila, hins vegar er hægt að nota hvaða lögaðila sem er fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="fac89-106">Germany is the country\region of the legal entity’s primary address, however you can use any legal entity for this procedure.</span></span> 
 
-Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú getur nota hvaða snið sem hafa þegar verið fluttar. Athugið að þetta ferli er dæmi um eina skrá og eina uppsetningu áfangastaðar. Frekari upplýsingar um stjórnun viðtökustaðar Rafræna skýrslugerð finnast í Dynamics 365 for Finance and Operations Hjálp.
+<span data-ttu-id="fac89-107">Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú getur nota hvaða snið sem hafa þegar verið fluttar.</span><span class="sxs-lookup"><span data-stu-id="fac89-107">The format used in this example is ISO20022 Credit transfer, but you can use any format that you have already imported.</span></span> <span data-ttu-id="fac89-108">Athugið að þetta ferli er dæmi um eina skrá og eina uppsetningu áfangastaðar.</span><span class="sxs-lookup"><span data-stu-id="fac89-108">Note, this procedure is an example of a single file and a single destination setup.</span></span> <span data-ttu-id="fac89-109">Frekari upplýsingar um stjórnun viðtökustaðar Rafræna skýrslugerð finnast í Dynamics 365 for Finance and Operations Hjálp.</span><span class="sxs-lookup"><span data-stu-id="fac89-109">More information about Electronic reporting destination management can be found in the Dynamics 365 for Finance and Operations Help.</span></span>
 
-1. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Rafræn skýrslugerð áfangastaður.
-2. Smellt er á Nýtt til að búa til nýtt sett áfangastaða fyrir snið.
-3. Í tilvísunarsvæði er valið snið sem á að skilgreina áfangastaði fyrir.
-    * Ef ekki gildi til að velja þýðir það að þú hafa ekki flytja inn Rafræna skýrslugerð skilgreiningarsnið. Þarf að flytja inn skilgreiningarsnið áður en uppsetning áfangastaði.  
-4. Smelltu á Nýtt til að stofna nýjan viðtökustað skráa.
-    * Athugið að hægt er að stofna eina viðtökustað skráar fyrir hvert úttaksþátt í sama snið t.d. möppu eða skrá. Getur virkja og óvirkja áfangastaði sér í stillingum.  
-5. Í svæðið Heiti færið inn notendavænt heiti úttaksþáttar.
-    * Mælt er með því að nota skilmerkileg heiti "Greiðsluskrá" eða „Eftirlitsskýrsla". Þessi nöfn verða sýndar notendum á keyrslutíma með stillingar fyrir áfangastað.  
-6. Í Skrárheiti, velja skrána eða möppu sem tilheyra snið.
-7. Smellt er á stillingar
-8. Veljið Já í reitnum Virkja.
-    * Gátreiturinn Virkt á hvern flipa virkjar og óvirkjar hvern ákvörðunarstað sérstaklega. Í þessu dæmi, verður hægt að senda frálagsskrá til viðtakanda tölvupósts þegar skráin er mynduð.  
-9. Smella á Breyta til að setja upp viðtakendur tölvupósts.
-10. Smelltu á Bæta við.
-11. Smelltu á Tölvupóstur vegna prentstýringar
-12. Veljið valkost í upprunareit tölvupósts.
-    * Hægt er að mismunandi upprunagerðir tölvupósts, eins og viðskiptavin eða gerð lánardrottins. Þetta skilgreinir gerð af frumbreytu sem verður skilað með formúlu upprunareiknings tölvupósts. Formúla upprunareiknings Tölvupóstsm sen lýst er í eftirfarandi skrefi, er staðurinn þar sem þú munt bindast uppruna tölvupósts. Veljið Lánadrottinn ef formúlan skilar lánardrottnalykill. Nota Lánardrottinn ef verið er að nota ISO 20022 millifærsla fjármuna skilgreiningardæmi.  
-13. Smella á hnappinn upprunabinding tölvupósts.
-14. Í formúla, Færið inn skjalbundna tilvísun í gerð aðila sem þú valdir áður.
-    * Í stað þess að því að slá inn, er hægt að finna gagnaveituhnút sem stendur fyrir lykil aðilans, og smella á bæta Við gagnaveitu hnappinn til að uppfæra formúlu. Til dæmis: Ef ISO 20022 skilgreining fyrir millifærsla fjármuna er notuð, er hnúta sem standa fyrir lykil lánardrottins '$PaymentsForCoveringLetter'. Creditor.Identification.SourceID. Annars að færa inn strenggildi, eins og "DE-001", til að vista formúlu.  
-15. Smellið á „Vista“.
-16. Lokið síðunni.
-17. Smella á Breyta til að skilgreina upplýsingar um tengilið fyrir aðila.
-18. Veljið Já í reitnum aðaltengiliður.
-    * Hægt er að nota mismunandi valkosti til að tilgreina hvaða gerð tengiliðar aðilans ætti að nota sem tölvupóstfang fyrir þessa áfangastaðar. Aðaltengiliður er notuð í þessu dæmi.  
-19. Smellið á „Í lagi“.
-20. Smellið á „Í lagi“.
-21. Í reitinn Efni skal slá inn gildi.
-22. Smellið á „Í lagi“.
+1. <span data-ttu-id="fac89-110">Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Rafræn skýrslugerð áfangastaður.</span><span class="sxs-lookup"><span data-stu-id="fac89-110">Go to Organization administration > Electronic reporting > Electronic reporting destination.</span></span>
+2. <span data-ttu-id="fac89-111">Smellt er á Nýtt til að búa til nýtt sett áfangastaða fyrir snið.</span><span class="sxs-lookup"><span data-stu-id="fac89-111">Click New to create a new set of destinations for a format.</span></span>
+3. <span data-ttu-id="fac89-112">Í tilvísunarsvæði er valið snið sem á að skilgreina áfangastaði fyrir.</span><span class="sxs-lookup"><span data-stu-id="fac89-112">In the Reference field, select a format for which you want to configure destinations.</span></span>
+    * <span data-ttu-id="fac89-113">Ef ekki gildi til að velja þýðir það að þú hafa ekki flytja inn Rafræna skýrslugerð skilgreiningarsnið.</span><span class="sxs-lookup"><span data-stu-id="fac89-113">If you don't have a value to select, it means that you have not imported any Electronic reporting format configurations.</span></span> <span data-ttu-id="fac89-114">Þarf að flytja inn skilgreiningarsnið áður en uppsetning áfangastaði.</span><span class="sxs-lookup"><span data-stu-id="fac89-114">You must import a format configuration before setting up destinations.</span></span>  
+4. <span data-ttu-id="fac89-115">Smelltu á Nýtt til að stofna nýjan viðtökustað skráa.</span><span class="sxs-lookup"><span data-stu-id="fac89-115">Click New to create a new file destination.</span></span>
+    * <span data-ttu-id="fac89-116">Athugið að hægt er að stofna eina viðtökustað skráar fyrir hvert úttaksþátt í sama snið t.d. möppu eða skrá.</span><span class="sxs-lookup"><span data-stu-id="fac89-116">Note, you can create one file destination for each output component of the same format, such as a folder or a file.</span></span> <span data-ttu-id="fac89-117">Getur virkja og óvirkja áfangastaði sér í stillingum.</span><span class="sxs-lookup"><span data-stu-id="fac89-117">You will be able to enable and disable destinations separately in the settings.</span></span>  
+5. <span data-ttu-id="fac89-118">Í svæðið Heiti færið inn notendavænt heiti úttaksþáttar.</span><span class="sxs-lookup"><span data-stu-id="fac89-118">In the Name field, enter the user-friendly name of output component.</span></span>
+    * <span data-ttu-id="fac89-119">Mælt er með því að nota skilmerkileg heiti "Greiðsluskrá" eða „Eftirlitsskýrsla".</span><span class="sxs-lookup"><span data-stu-id="fac89-119">We recommend that you use meaningful names, such as "Payment file" or "Control report".</span></span> <span data-ttu-id="fac89-120">Þessi nöfn verða sýndar notendum á keyrslutíma með stillingar fyrir áfangastað.</span><span class="sxs-lookup"><span data-stu-id="fac89-120">These names will be presented to users at configuration runtime along with the destination settings.</span></span>  
+6. <span data-ttu-id="fac89-121">Í Skrárheiti, velja skrána eða möppu sem tilheyra snið.</span><span class="sxs-lookup"><span data-stu-id="fac89-121">In the File name, select a file or folder that is specific to the format.</span></span>
+7. <span data-ttu-id="fac89-122">Smellt er á stillingar</span><span class="sxs-lookup"><span data-stu-id="fac89-122">Click Settings.</span></span>
+8. <span data-ttu-id="fac89-123">Veljið Já í reitnum Virkja.</span><span class="sxs-lookup"><span data-stu-id="fac89-123">Select Yes in the Enabled field.</span></span>
+    * <span data-ttu-id="fac89-124">Gátreiturinn Virkt á hvern flipa virkjar og óvirkjar hvern ákvörðunarstað sérstaklega.</span><span class="sxs-lookup"><span data-stu-id="fac89-124">The Enabled check box on each tab enables and disables each destination separately.</span></span> <span data-ttu-id="fac89-125">Í þessu dæmi, verður hægt að senda frálagsskrá til viðtakanda tölvupósts þegar skráin er mynduð.</span><span class="sxs-lookup"><span data-stu-id="fac89-125">In this example, you'll enable sending an output file to a mail recipient when the file is generated.</span></span>  
+9. <span data-ttu-id="fac89-126">Smella á Breyta til að setja upp viðtakendur tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="fac89-126">Click Edit, to set up email recipients.</span></span>
+10. <span data-ttu-id="fac89-127">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="fac89-127">Click Add.</span></span>
+11. <span data-ttu-id="fac89-128">Smelltu á Tölvupóstur vegna prentstýringar</span><span class="sxs-lookup"><span data-stu-id="fac89-128">Click Print Management email.</span></span>
+12. <span data-ttu-id="fac89-129">Veljið valkost í upprunareit tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="fac89-129">In the Email source  field, select an option.</span></span>
+    * <span data-ttu-id="fac89-130">Hægt er að mismunandi upprunagerðir tölvupósts, eins og viðskiptavin eða gerð lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="fac89-130">You can select different email source types, such as a customer or a vendor type.</span></span> <span data-ttu-id="fac89-131">Þetta skilgreinir gerð af frumbreytu sem verður skilað með formúlu upprunareiknings tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="fac89-131">This defines the type of argument that will be returned by the Email source account formula.</span></span> <span data-ttu-id="fac89-132">Formúla upprunareiknings Tölvupóstsm sen lýst er í eftirfarandi skrefi, er staðurinn þar sem þú munt bindast uppruna tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="fac89-132">The Email source account formula, described in a following step, is the place where you bind an email source.</span></span> <span data-ttu-id="fac89-133">Veljið Lánadrottinn ef formúlan skilar lánardrottnalykill.</span><span class="sxs-lookup"><span data-stu-id="fac89-133">Select Vendor if your formula will return a vendor account.</span></span> <span data-ttu-id="fac89-134">Nota Lánardrottinn ef verið er að nota ISO 20022 millifærsla fjármuna skilgreiningardæmi.</span><span class="sxs-lookup"><span data-stu-id="fac89-134">Use Vendor if you are using the ISO 20022 Credit Transfer configuration example.</span></span>  
+13. <span data-ttu-id="fac89-135">Smella á hnappinn upprunabinding tölvupósts.</span><span class="sxs-lookup"><span data-stu-id="fac89-135">Click Email source bind button.</span></span>
+14. <span data-ttu-id="fac89-136">Í formúla, Færið inn skjalbundna tilvísun í gerð aðila sem þú valdir áður.</span><span class="sxs-lookup"><span data-stu-id="fac89-136">In the Formula, enter a document-specific reference to a party type that you selected earlier.</span></span>
+    * <span data-ttu-id="fac89-137">Í stað þess að því að slá inn, er hægt að finna gagnaveituhnút sem stendur fyrir lykil aðilans, og smella á bæta Við gagnaveitu hnappinn til að uppfæra formúlu.</span><span class="sxs-lookup"><span data-stu-id="fac89-137">Instead of typing, you can find a data source node that represents the party account, and click the Add data source button to update the formula.</span></span> <span data-ttu-id="fac89-138">Til dæmis: Ef ISO 20022 skilgreining fyrir millifærsla fjármuna er notuð, er hnúta sem standa fyrir lykil lánardrottins '$PaymentsForCoveringLetter'. Creditor.Identification.SourceID.</span><span class="sxs-lookup"><span data-stu-id="fac89-138">For example, if you use the ISO 20022 Credit Transfer configuration, the node representing a vendor account is '$PaymentsForCoveringLetter'.Creditor.Identification.SourceID.</span></span> <span data-ttu-id="fac89-139">Annars að færa inn strenggildi, eins og "DE-001", til að vista formúlu.</span><span class="sxs-lookup"><span data-stu-id="fac89-139">Otherwise, enter any string value, such as "DE-001", to save a formula.</span></span>  
+15. <span data-ttu-id="fac89-140">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fac89-140">Click Save.</span></span>
+16. <span data-ttu-id="fac89-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="fac89-141">Close the page.</span></span>
+17. <span data-ttu-id="fac89-142">Smella á Breyta til að skilgreina upplýsingar um tengilið fyrir aðila.</span><span class="sxs-lookup"><span data-stu-id="fac89-142">Click Edit to configure contact details for the party.</span></span>
+18. <span data-ttu-id="fac89-143">Veljið Já í reitnum aðaltengiliður.</span><span class="sxs-lookup"><span data-stu-id="fac89-143">Select Yes in the Primary contact field.</span></span>
+    * <span data-ttu-id="fac89-144">Hægt er að nota mismunandi valkosti til að tilgreina hvaða gerð tengiliðar aðilans ætti að nota sem tölvupóstfang fyrir þessa áfangastaðar.</span><span class="sxs-lookup"><span data-stu-id="fac89-144">You may use different options to indicate what contact type of the party should be used as an email address for this destination.</span></span> <span data-ttu-id="fac89-145">Aðaltengiliður er notuð í þessu dæmi.</span><span class="sxs-lookup"><span data-stu-id="fac89-145">We use primary contact in this example.</span></span>  
+19. <span data-ttu-id="fac89-146">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fac89-146">Click OK.</span></span>
+20. <span data-ttu-id="fac89-147">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fac89-147">Click OK.</span></span>
+21. <span data-ttu-id="fac89-148">Í reitinn Efni skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="fac89-148">In the Subject field, type a value.</span></span>
+22. <span data-ttu-id="fac89-149">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fac89-149">Click OK.</span></span>
 
 

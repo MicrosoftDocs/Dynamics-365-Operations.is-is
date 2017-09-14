@@ -1,21 +1,26 @@
 --- 
-# required metadata 
-title: Færa inn GTIN-kóða fyrir afurð
-description: Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins.
-author: BibiSp
+title: "Færa inn GTIN-kóða fyrir afurð"
+description: "Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins."
+author: YuyuScheller
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 07b815d58299909f7c2a9231bca1969f61f5f8a2
+ms.contentlocale: is-is
+ms.lasthandoff: 09/14/2017
+
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="791c0-103">Færa inn GTIN-kóða fyrir afurð</span><span class="sxs-lookup"><span data-stu-id="791c0-103">Enter the GTIN code for a product</span></span>
 
@@ -35,4 +40,5 @@ ms.dyn365.ops.version: AX 7.0.0
 10. <span data-ttu-id="791c0-115">Veljið valkost í reitnum GTIN-kóði.</span><span class="sxs-lookup"><span data-stu-id="791c0-115">In the GTIN code field, select an option.</span></span>
 11. <span data-ttu-id="791c0-116">Í reitinn GTIN skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="791c0-116">In the GTIN field, type a value.</span></span>
 12. <span data-ttu-id="791c0-117">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="791c0-117">Close the page.</span></span>
+
 

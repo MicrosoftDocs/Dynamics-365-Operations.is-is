@@ -1,21 +1,26 @@
 --- 
-# required metadata 
-title: Flytja gögn fyrir vörulíkan
-description: Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan.
-author: BibiSp
+title: "Flytja gögn fyrir vörulíkan"
+description: "Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan."
+author: YuyuScheller
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: e4f3d49101cdd8831bdda32abe1a19bd17adae77
+ms.contentlocale: is-is
+ms.lasthandoff: 09/14/2017
+
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="94227-103">Flytja gögn fyrir vörulíkan</span><span class="sxs-lookup"><span data-stu-id="94227-103">Transfer data for product models</span></span>
 
@@ -30,4 +35,5 @@ ms.dyn365.ops.version: AX 7.0.0
 4. <span data-ttu-id="94227-110">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="94227-110">On the Action Pane, click Model.</span></span>
 5. <span data-ttu-id="94227-111">Smellt er á Útflutning vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="94227-111">Click Export product model.</span></span>
     * <span data-ttu-id="94227-112">Niðurhalshegðun er breytileg frá vafra til vafra allt eftir því hvernig öryggisstillingar eru sett upp.</span><span class="sxs-lookup"><span data-stu-id="94227-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
+
 

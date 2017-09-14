@@ -16,7 +16,7 @@ ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: b2b1b99fd4c7c439ad89440827ad78173d371855
@@ -26,242 +26,242 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Dreifa og ljúka spurningalista
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="0725e-103">Dreifa og ljúka spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-103">Distribute and complete a questionnaire</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
+<span data-ttu-id="0725e-104">Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.</span><span class="sxs-lookup"><span data-stu-id="0725e-104">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Það eru margar leiðir til að Dreifa spurningarlista:
+<span data-ttu-id="0725e-105">Það eru margar leiðir til að Dreifa spurningarlista:</span><span class="sxs-lookup"><span data-stu-id="0725e-105">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Merktu spurningalistann sem virkan. Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.
--   Úthluta Notkunarheilmildir á flokk spurningalista. Þá er spurningalista tiltækur öllum meðlimum fyrir valinn flokk.
--   Stofna áætlaðar svarsetur. Spurningalistinn er þá aðeins tiltækur fyrir tiltekinn einstakling.
--   Stofna áætlun. Spurningalisti þá er tiltækt til fjölda fólks.
+-   <span data-ttu-id="0725e-106">Merktu spurningalistann sem virkan.</span><span class="sxs-lookup"><span data-stu-id="0725e-106">Mark the questionnaire as active.</span></span> <span data-ttu-id="0725e-107">Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.</span><span class="sxs-lookup"><span data-stu-id="0725e-107">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="0725e-108">Úthluta Notkunarheilmildir á flokk spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-108">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="0725e-109">Þá er spurningalista tiltækur öllum meðlimum fyrir valinn flokk.</span><span class="sxs-lookup"><span data-stu-id="0725e-109">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="0725e-110">Stofna áætlaðar svarsetur.</span><span class="sxs-lookup"><span data-stu-id="0725e-110">Create planned answer sessions.</span></span> <span data-ttu-id="0725e-111">Spurningalistinn er þá aðeins tiltækur fyrir tiltekinn einstakling.</span><span class="sxs-lookup"><span data-stu-id="0725e-111">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="0725e-112">Stofna áætlun.</span><span class="sxs-lookup"><span data-stu-id="0725e-112">Create a schedule.</span></span> <span data-ttu-id="0725e-113">Spurningalisti þá er tiltækt til fjölda fólks.</span><span class="sxs-lookup"><span data-stu-id="0725e-113">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Merkja spurningalistann sem virkan
-Með því að stilla svæðið á **Virk** á **Já** á í **Spurningalista** síðu er spurningalistann að nálgast fyrir alla starfsmenn til að ljúka. Svarendur geta svarað spurningalistanum mörgum sinnum. Þessi virkni er gagnlegt ef ætlunin er að safna stöðugri svörun í yfir árið. Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="0725e-114">Merkja spurningalistann sem virkan</span><span class="sxs-lookup"><span data-stu-id="0725e-114">Marking a questionnaire as active</span></span>
+<span data-ttu-id="0725e-115">Með því að stilla svæðið á **Virk** á **Já** á í **Spurningalista** síðu er spurningalistann að nálgast fyrir alla starfsmenn til að ljúka.</span><span class="sxs-lookup"><span data-stu-id="0725e-115">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="0725e-116">Svarendur geta svarað spurningalistanum mörgum sinnum.</span><span class="sxs-lookup"><span data-stu-id="0725e-116">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="0725e-117">Þessi virkni er gagnlegt ef ætlunin er að safna stöðugri svörun í yfir árið.</span><span class="sxs-lookup"><span data-stu-id="0725e-117">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="0725e-118">Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="0725e-118">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Spurningalistaflokkar
-Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að dreifa spurningalista til. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="0725e-119">Spurningalistaflokkar</span><span class="sxs-lookup"><span data-stu-id="0725e-119">Questionnaire groups</span></span>
+<span data-ttu-id="0725e-120">Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að dreifa spurningalista til.</span><span class="sxs-lookup"><span data-stu-id="0725e-120">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Hægt er að stofna spurningalista úr eftirfarandi síðum:
+<span data-ttu-id="0725e-121">Hægt er að stofna spurningalista úr eftirfarandi síðum:</span><span class="sxs-lookup"><span data-stu-id="0725e-121">You can create questionnaire groups from the following pages:</span></span>
 
--   **Spurningalistaflokkar**– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann. Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.
--   **Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .
+-   <span data-ttu-id="0725e-122">**Spurningalistaflokkar**– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-122">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="0725e-123">Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.</span><span class="sxs-lookup"><span data-stu-id="0725e-123">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="0725e-124">**Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .</span><span class="sxs-lookup"><span data-stu-id="0725e-124">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**. Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum. Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.
+<span data-ttu-id="0725e-125">Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**.</span><span class="sxs-lookup"><span data-stu-id="0725e-125">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="0725e-126">Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-126">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="0725e-127">Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.</span><span class="sxs-lookup"><span data-stu-id="0725e-127">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Áætluð svarseta í spurningalista
-Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="0725e-128">Áætluð svarseta í spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-128">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="0725e-129">Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir.</span><span class="sxs-lookup"><span data-stu-id="0725e-129">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-> **Athugið:** Áður en hægt er að setja upp áætlaða svarsetu verður að hanna spurningalista. 
+> <span data-ttu-id="0725e-130">**Athugið:** Áður en hægt er að setja upp áætlaða svarsetu verður að hanna spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-130">**Note** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann. Listinn á síðunni birtir alla áætlaða spurningalista. 
+<span data-ttu-id="0725e-131">Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="0725e-131">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="0725e-132">Listinn á síðunni birtir alla áætlaða spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-132">The list on the page displays all planned questionnaires.</span></span> 
 
-Áætlaðar svarsetur eru einnig notaðar í **áætlanir spurningalista**, þar sem hægt er að áætla spurningalista fyrir marga í einu:
+<span data-ttu-id="0725e-133">Áætlaðar svarsetur eru einnig notaðar í **áætlanir spurningalista**, þar sem hægt er að áætla spurningalista fyrir marga í einu:</span><span class="sxs-lookup"><span data-stu-id="0725e-133">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Starfsmenn
--   Þátttakendur á námskeiði
--   Skipulagseiningar
+-   <span data-ttu-id="0725e-134">Starfsmenn</span><span class="sxs-lookup"><span data-stu-id="0725e-134">Employees</span></span>
+-   <span data-ttu-id="0725e-135">Þátttakendur á námskeiði</span><span class="sxs-lookup"><span data-stu-id="0725e-135">Course participants</span></span>
+-   <span data-ttu-id="0725e-136">Skipulagseiningar</span><span class="sxs-lookup"><span data-stu-id="0725e-136">Organizational units</span></span>
 
-Hver einstaklingur getur svara spurningalista aðeins einu sinni.
+<span data-ttu-id="0725e-137">Hver einstaklingur getur svara spurningalista aðeins einu sinni.</span><span class="sxs-lookup"><span data-stu-id="0725e-137">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Röðun spurningalista
-Valfrjálst er að raða spurningalista fyrir marga svarendur.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="0725e-138">Röðun spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-138">Scheduling a questionnaire</span></span>
+<span data-ttu-id="0725e-139">Valfrjálst er að raða spurningalista fyrir marga svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-139">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Áætlunargerðir
+### <a name="planning-types"></a><span data-ttu-id="0725e-140">Áætlunargerðir</span><span class="sxs-lookup"><span data-stu-id="0725e-140">Planning types</span></span>
 
-Áætlunargerðir eru nauðsynleg ef óskað er að raða áætlaðar svarsetur fyrir marga svarendur. Áætlunargerðir eru notaðar til að flokka spurningalistaáætlanir . Þú getur t.d. raðað spurningalistum fyrir eftirfarandi málefni:
+<span data-ttu-id="0725e-141">Áætlunargerðir eru nauðsynleg ef óskað er að raða áætlaðar svarsetur fyrir marga svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-141">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="0725e-142">Áætlunargerðir eru notaðar til að flokka spurningalistaáætlanir .</span><span class="sxs-lookup"><span data-stu-id="0725e-142">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="0725e-143">Þú getur t.d. raðað spurningalistum fyrir eftirfarandi málefni:</span><span class="sxs-lookup"><span data-stu-id="0725e-143">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Mat
--   Könnun
--   Prófun
+-   <span data-ttu-id="0725e-144">Mat</span><span class="sxs-lookup"><span data-stu-id="0725e-144">Evaluation</span></span>
+-   <span data-ttu-id="0725e-145">Könnun</span><span class="sxs-lookup"><span data-stu-id="0725e-145">Survey</span></span>
+-   <span data-ttu-id="0725e-146">Prófun</span><span class="sxs-lookup"><span data-stu-id="0725e-146">Testing</span></span>
 
-Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spurningalista** síðunni.
+<span data-ttu-id="0725e-147">Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spurningalista** síðunni.</span><span class="sxs-lookup"><span data-stu-id="0725e-147">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Gerð tilvísunar fyrir Spurningalisti
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="0725e-148">Gerð tilvísunar fyrir Spurningalisti</span><span class="sxs-lookup"><span data-stu-id="0725e-148">Reference types for questionnaire</span></span>
 
-Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað. 
+<span data-ttu-id="0725e-149">Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað.</span><span class="sxs-lookup"><span data-stu-id="0725e-149">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hver tilvísunargerð samsvarar töflu í Microsoft Dynamics 365 for Finance and Operations. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
+<span data-ttu-id="0725e-150">Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-150">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="0725e-151">Hver tilvísunargerð samsvarar töflu í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0725e-151">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="0725e-152">Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast.</span><span class="sxs-lookup"><span data-stu-id="0725e-152">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir. Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.
+<span data-ttu-id="0725e-153">Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir.</span><span class="sxs-lookup"><span data-stu-id="0725e-153">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="0725e-154">Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.</span><span class="sxs-lookup"><span data-stu-id="0725e-154">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Áætlanir spurningalista
+### <a name="questionnaire-schedules"></a><span data-ttu-id="0725e-155">Áætlanir spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-155">Questionnaire schedules</span></span>
 
-Hægt er að nota spurningalisti áætlun til að Mynda margt áætlað svarseta fyrir flokka notenda, á grunni gerð tilvísunar. Stofnaðu áætlun á síðunni **áætlanir Spurningalista**. Veldu áætlunargerð til að flokka áætlun, og einnig velurðu gerð tilvísunar sem ætti að nota til að fyrirspurn kerfið um tilgreinda notendur. Til dæmis ef þú stillir gerð tilvísunar á námskeiðatöflu er hægt að velja tilgreint námskeið í svæðinu **tilvísun**. 
+<span data-ttu-id="0725e-156">Hægt er að nota spurningalisti áætlun til að Mynda margt áætlað svarseta fyrir flokka notenda, á grunni gerð tilvísunar.</span><span class="sxs-lookup"><span data-stu-id="0725e-156">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="0725e-157">Stofnaðu áætlun á síðunni **áætlanir Spurningalista**.</span><span class="sxs-lookup"><span data-stu-id="0725e-157">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="0725e-158">Veldu áætlunargerð til að flokka áætlun, og einnig velurðu gerð tilvísunar sem ætti að nota til að fyrirspurn kerfið um tilgreinda notendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-158">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="0725e-159">Til dæmis ef þú stillir gerð tilvísunar á námskeiðatöflu er hægt að velja tilgreint námskeið í svæðinu **tilvísun**.</span><span class="sxs-lookup"><span data-stu-id="0725e-159">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum. Til dæmis skal tilgreina nafn leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda. Eftir að lokið hefur verið að færa inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni. 
+<span data-ttu-id="0725e-160">Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="0725e-160">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="0725e-161">Til dæmis skal tilgreina nafn leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda.</span><span class="sxs-lookup"><span data-stu-id="0725e-161">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="0725e-162">Eftir að lokið hefur verið að færa inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni.</span><span class="sxs-lookup"><span data-stu-id="0725e-162">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Smellið á **Áætlaðar svarsetur** til að skoða svarsetur fyrir röðunina. Síðan er að stofna handvirkt viðbótar áætlaðar svarsetur eða eyða áætluðum svarsetum sem hefur ekki verið svarað. 
+<span data-ttu-id="0725e-163">Smellið á **Áætlaðar svarsetur** til að skoða svarsetur fyrir röðunina.</span><span class="sxs-lookup"><span data-stu-id="0725e-163">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="0725e-164">Síðan er að stofna handvirkt viðbótar áætlaðar svarsetur eða eyða áætluðum svarsetum sem hefur ekki verið svarað.</span><span class="sxs-lookup"><span data-stu-id="0725e-164">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur. Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann. Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.
+<span data-ttu-id="0725e-165">Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur.</span><span class="sxs-lookup"><span data-stu-id="0725e-165">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="0725e-166">Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-166">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="0725e-167">Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-167">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Tilkynna svarendum um tiltæka spurningalista
-Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="0725e-168">Tilkynna svarendum um tiltæka spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-168">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="0725e-169">Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir.</span><span class="sxs-lookup"><span data-stu-id="0725e-169">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Tilkynna svarendum um áætlaða svarsetu
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="0725e-170">Tilkynna svarendum um áætlaða svarsetu</span><span class="sxs-lookup"><span data-stu-id="0725e-170">Notifying respondents about a planned answer session</span></span>
 
-Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn beint, eins og með símtali eða tölvupósti.
+<span data-ttu-id="0725e-171">Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn beint, eins og með símtali eða tölvupósti.</span><span class="sxs-lookup"><span data-stu-id="0725e-171">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="0725e-172">Tilkynna svarendum um röðun</span><span class="sxs-lookup"><span data-stu-id="0725e-172">Notifying respondents about a scheduling</span></span>
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+<span data-ttu-id="0725e-173">Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-173">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="0725e-174">Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-174">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="0725e-175">Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda.</span><span class="sxs-lookup"><span data-stu-id="0725e-175">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="0725e-176">Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-176">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-> **Athugið:** Áður en hægt er að nota tölvupóstsvirkni þarf kerfisstjóri að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.
+> <span data-ttu-id="0725e-177">**Athugið:** Áður en hægt er að nota tölvupóstsvirkni þarf kerfisstjóri að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.</span><span class="sxs-lookup"><span data-stu-id="0725e-177">**Note** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Ljúka áætluðum spurningalista
-Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum. Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="0725e-178">Ljúka áætluðum spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-178">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="0725e-179">Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum.</span><span class="sxs-lookup"><span data-stu-id="0725e-179">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="0725e-180">Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun.</span><span class="sxs-lookup"><span data-stu-id="0725e-180">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-> **Athugið:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann en þú vilt samt loka röðuninni verður þú fyrst að eyða þeim svarendum úr listanum í síðunni **Áætluð svarseta**. Að því loknu er hægt að loka röðuninni.
+> <span data-ttu-id="0725e-181">**Athugið:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann en þú vilt samt loka röðuninni verður þú fyrst að eyða þeim svarendum úr listanum í síðunni **Áætluð svarseta**.</span><span class="sxs-lookup"><span data-stu-id="0725e-181">**Note** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="0725e-182">Að því loknu er hægt að loka röðuninni.</span><span class="sxs-lookup"><span data-stu-id="0725e-182">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Að klára spurningalista
-Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur. Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:
+## <a name="completing-questionnaires"></a><span data-ttu-id="0725e-183">Að klára spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-183">Completing questionnaires</span></span>
+<span data-ttu-id="0725e-184">Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-184">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="0725e-185">Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:</span><span class="sxs-lookup"><span data-stu-id="0725e-185">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   Í skoðunarrúðunni þarf að smella á **Spurningalista** &gt; **dreifa** &gt; **klára Spurningalistanum**.
--   Í sjálfsafgreiðslu Starfsmanns, smellið á **Spurningalista til að ljúka**.
+-   <span data-ttu-id="0725e-186">Í skoðunarrúðunni þarf að smella á **Spurningalista** &gt; **dreifa** &gt; **klára Spurningalistanum**.</span><span class="sxs-lookup"><span data-stu-id="0725e-186">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="0725e-187">Í sjálfsafgreiðslu Starfsmanns, smellið á **Spurningalista til að ljúka**.</span><span class="sxs-lookup"><span data-stu-id="0725e-187">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.
+<span data-ttu-id="0725e-188">Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.</span><span class="sxs-lookup"><span data-stu-id="0725e-188">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="0725e-189">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0725e-189">See also</span></span>
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[<span data-ttu-id="0725e-190">Hönnun spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-190">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Nota spurningalista.](questionnaires.md)
+[<span data-ttu-id="0725e-191">Nota spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-191">Using questionnaires</span></span>](questionnaires.md)
 
-[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[<span data-ttu-id="0725e-192">Skoða og meta niðurstöður spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-192">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
 
 <a name=""></a>=======
 ---
-# <a name="required-metadata"></a>nauðsynleg lýsigögn
+# <a name="required-metadata"></a><span data-ttu-id="0725e-193">nauðsynleg lýsigögn</span><span class="sxs-lookup"><span data-stu-id="0725e-193">required metadata</span></span>
 
-titill: Dreifa og ljúka lýsingu spurningalista: Þetta efnisatriði útskýrir hvernig á að dreifa spurningalistunum sem þú hannar, þannig að þeir séu tiltækir fyrir þann einstakling eða hóp einstaklinga sem mun ljúka við þá. author: twheeloc manager: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology: 
+<span data-ttu-id="0725e-194">titill: Dreifa og ljúka lýsingu spurningalista: Þetta efnisatriði útskýrir hvernig á að dreifa spurningalistunum sem þú hannar, þannig að þeir séu tiltækir fyrir þann einstakling eða hóp einstaklinga sem mun ljúka við þá.</span><span class="sxs-lookup"><span data-stu-id="0725e-194">title: Distribute and complete a questionnaire description: This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> <span data-ttu-id="0725e-195">author: twheeloc manager: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology:</span><span class="sxs-lookup"><span data-stu-id="0725e-195">author: twheeloc manager: AnnBe ms.date: 06/20/2017 ms.topic: article ms.prod: ms.service: Dynamics365Operations ms.technology:</span></span> 
 
-# <a name="optional-metadata"></a>valfrjáls lýsigögn
+# <a name="optional-metadata"></a><span data-ttu-id="0725e-196">valfrjáls lýsigögn</span><span class="sxs-lookup"><span data-stu-id="0725e-196">optional metadata</span></span>
 
-ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
-# <a name="robots"></a>ROBOTS: 
-markhópur: Notandi forrits
-# <a name="msdevlang"></a>ms.devlang: 
-ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
-# <a name="mstgtpltfrm"></a>ms.tgt_pltfrm: 
-ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global
-# <a name="mssearchindustry"></a>ms.search.industry: 
-ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+<span data-ttu-id="0725e-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span><span class="sxs-lookup"><span data-stu-id="0725e-197">ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters</span></span>
+# <a name="robots"></a><span data-ttu-id="0725e-198">ROBOTS:</span><span class="sxs-lookup"><span data-stu-id="0725e-198">ROBOTS:</span></span> 
+<span data-ttu-id="0725e-199">markhópur: Notandi forrits</span><span class="sxs-lookup"><span data-stu-id="0725e-199">audience: Application User</span></span>
+# <a name="msdevlang"></a><span data-ttu-id="0725e-200">ms.devlang:</span><span class="sxs-lookup"><span data-stu-id="0725e-200">ms.devlang:</span></span> 
+<span data-ttu-id="0725e-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span><span class="sxs-lookup"><span data-stu-id="0725e-201">ms.reviewer: twheeloc ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations</span></span>
+# <a name="mstgtpltfrm"></a><span data-ttu-id="0725e-202">ms.tgt_pltfrm:</span><span class="sxs-lookup"><span data-stu-id="0725e-202">ms.tgt_pltfrm:</span></span> 
+<span data-ttu-id="0725e-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span><span class="sxs-lookup"><span data-stu-id="0725e-203">ms.custom: 17424 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470 ms.search.region: Global</span></span>
+# <a name="mssearchindustry"></a><span data-ttu-id="0725e-204">ms.search.industry:</span><span class="sxs-lookup"><span data-stu-id="0725e-204">ms.search.industry:</span></span> 
+<span data-ttu-id="0725e-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span><span class="sxs-lookup"><span data-stu-id="0725e-205">ms.author: twheeloc ms.search.validFrom: 2016-02-28 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update</span></span>
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>Dreifing og útfylling spurningalista
+# <a name="distribute-and-complete-a-questionnaire"></a><span data-ttu-id="0725e-206">Dreifing og útfylling spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-206">Distribute and complete a questionnaire</span></span>
 
-Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
+<span data-ttu-id="0725e-207">Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.</span><span class="sxs-lookup"><span data-stu-id="0725e-207">This topic explains how distribute the questionnaires that you design, so that they are available to the person or group of people who will complete them.</span></span> 
 
-Það eru margar leiðir til að Dreifa spurningarlista:
+<span data-ttu-id="0725e-208">Það eru margar leiðir til að Dreifa spurningarlista:</span><span class="sxs-lookup"><span data-stu-id="0725e-208">There are multiple ways to distribute a questionnaire:</span></span>
 
--   Merktu spurningalistann sem virkan. Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.
--   Úthluta Notkunarheilmildir á flokk spurningalista. Þá er spurningalista tiltækur öllum meðlimum fyrir valinn flokk.
--   Stofna áætlaðar svarsetur. Spurningalistinn er þá aðeins tiltækur fyrir tiltekinn einstakling.
--   Stofna áætlun. Spurningalisti þá er tiltækt til fjölda fólks.
+-   <span data-ttu-id="0725e-209">Merktu spurningalistann sem virkan.</span><span class="sxs-lookup"><span data-stu-id="0725e-209">Mark the questionnaire as active.</span></span> <span data-ttu-id="0725e-210">Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.</span><span class="sxs-lookup"><span data-stu-id="0725e-210">The questionnaire is then available to all employees, unless a questionnaire group is set up to restrict access to it.</span></span>
+-   <span data-ttu-id="0725e-211">Úthluta Notkunarheilmildir á flokk spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-211">Assign rights to a questionnaire group.</span></span> <span data-ttu-id="0725e-212">Þá er spurningalista tiltækur öllum meðlimum fyrir valinn flokk.</span><span class="sxs-lookup"><span data-stu-id="0725e-212">The questionnaire is then available to all members of the selected group.</span></span>
+-   <span data-ttu-id="0725e-213">Stofna áætlaðar svarsetur.</span><span class="sxs-lookup"><span data-stu-id="0725e-213">Create planned answer sessions.</span></span> <span data-ttu-id="0725e-214">Spurningalistinn er þá aðeins tiltækur fyrir tiltekinn einstakling.</span><span class="sxs-lookup"><span data-stu-id="0725e-214">The questionnaire is then available only to a particular person.</span></span>
+-   <span data-ttu-id="0725e-215">Stofna áætlun.</span><span class="sxs-lookup"><span data-stu-id="0725e-215">Create a schedule.</span></span> <span data-ttu-id="0725e-216">Spurningalisti þá er tiltækt til fjölda fólks.</span><span class="sxs-lookup"><span data-stu-id="0725e-216">The questionnaire can then be available to multiple people.</span></span>
 
-## <a name="marking-a-questionnaire-as-active"></a>Merkja spurningalistann sem virkan
-Með því að stilla svæðið á **Virk** á **Já** á í **Spurningalista** síðu er spurningalistann að nálgast fyrir alla starfsmenn til að ljúka. Svarendur geta svarað spurningalistanum mörgum sinnum. Þessi virkni er gagnlegt ef ætlunin er að safna stöðugri svörun í yfir árið. Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.
+## <a name="marking-a-questionnaire-as-active"></a><span data-ttu-id="0725e-217">Merkja spurningalistann sem virkan</span><span class="sxs-lookup"><span data-stu-id="0725e-217">Marking a questionnaire as active</span></span>
+<span data-ttu-id="0725e-218">Með því að stilla svæðið á **Virk** á **Já** á í **Spurningalista** síðu er spurningalistann að nálgast fyrir alla starfsmenn til að ljúka.</span><span class="sxs-lookup"><span data-stu-id="0725e-218">By setting the **Active** field to **Yes** on the **Questionnaires** page, you make the questionnaire available for all employees to complete.</span></span> <span data-ttu-id="0725e-219">Svarendur geta svarað spurningalistanum mörgum sinnum.</span><span class="sxs-lookup"><span data-stu-id="0725e-219">Respondents can complete the questionnaire multiple times.</span></span> <span data-ttu-id="0725e-220">Þessi virkni er gagnlegt ef ætlunin er að safna stöðugri svörun í yfir árið.</span><span class="sxs-lookup"><span data-stu-id="0725e-220">This functionality is useful if you want to gather continual feedback throughout the year.</span></span> <span data-ttu-id="0725e-221">Til dæmis er hægt að gera spurningalista sem er notuð til að gefa svörun um hádegismat í mötuneyti starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="0725e-221">For example, you can make a questionnaire that employees use to give feedback about the lunch service in the cafeteria.</span></span>
 
-## <a name="questionnaire-groups"></a>Spurningalistaflokkar
-Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að dreifa spurningalista til. 
+## <a name="questionnaire-groups"></a><span data-ttu-id="0725e-222">Spurningalistaflokkar</span><span class="sxs-lookup"><span data-stu-id="0725e-222">Questionnaire groups</span></span>
+<span data-ttu-id="0725e-223">Hægt er að setja upp spurningalistaflokka og síðan taka svarendur sem á að dreifa spurningalista til.</span><span class="sxs-lookup"><span data-stu-id="0725e-223">You can set up questionnaire groups and then include the respondents that a questionnaire should be distributed to.</span></span> 
 
-Hægt er að stofna spurningalista úr eftirfarandi síðum:
+<span data-ttu-id="0725e-224">Hægt er að stofna spurningalista úr eftirfarandi síðum:</span><span class="sxs-lookup"><span data-stu-id="0725e-224">You can create questionnaire groups from the following pages:</span></span>
 
--   **Spurningalistaflokkar**– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann. Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.
--   **Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .
+-   <span data-ttu-id="0725e-225">**Spurningalistaflokkar**– Aðeins einstaklinga í spurningalistaflokkur getur lokið valda spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-225">**Questionnaire groups** – Only individuals in a questionnaire group can complete a selected questionnaire.</span></span> <span data-ttu-id="0725e-226">Til dæmis er ætlaða markhópur verktakar, þannig að þú stofna spurningalistaflokk sem tilheyra þeim svarendum.</span><span class="sxs-lookup"><span data-stu-id="0725e-226">For example, your intended audience is contractors, so you create a questionnaire group that is specific to those respondents.</span></span>
+-   <span data-ttu-id="0725e-227">**Meðlimir spurningalistaflokka** – hægt er að bæta fólki við spurningalistaflokka .</span><span class="sxs-lookup"><span data-stu-id="0725e-227">**Questionnaire group members** – You can add people to the questionnaire groups.</span></span>
 
-Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**. Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum. Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.
+<span data-ttu-id="0725e-228">Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** síða, smellt er á **Notendaheimildir**.</span><span class="sxs-lookup"><span data-stu-id="0725e-228">To assign a questionnaire group to a questionnaire, on the **Questionnaires** page, click **User rights**.</span></span> <span data-ttu-id="0725e-229">Þegar spurningalistinn hefur verið vistaður sem virkt, geta aðilar að spurningalistaflokknum lokið spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-229">After the questionnaire is saved as active, the members of the questionnaire group can complete the questionnaire.</span></span> <span data-ttu-id="0725e-230">Til að úthluta til spurningalistaflokk á spurningalista á Spurningalista síðunni er smellt á notandaréttindi.</span><span class="sxs-lookup"><span data-stu-id="0725e-230">This functionality is helpful if you want to test a questionnaire on a select group of people before you roll it out to a larger group, or if you want to target a questionnaire to a very specific audience.</span></span>
 
-## <a name="planned-answer-sessions-in-a-questionnaire"></a>Áætluð svarseta í spurningalista
-Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir. 
+## <a name="planned-answer-sessions-in-a-questionnaire"></a><span data-ttu-id="0725e-231">Áætluð svarseta í spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-231">Planned answer sessions in a questionnaire</span></span>
+<span data-ttu-id="0725e-232">Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir.</span><span class="sxs-lookup"><span data-stu-id="0725e-232">Planned answer sessions are questionnaires that you've designed and selected the respondents for.</span></span> 
 
-**Ábending:** áður En hægt er að setja upp áætlaðar svarsetur, verður að hanna spurningalista. 
+<span data-ttu-id="0725e-233">**Ábending:** áður En hægt er að setja upp áætlaðar svarsetur, verður að hanna spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-233">**Note:** Before you can set up planned answer sessions, you must design a questionnaire.</span></span> 
 
-Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann. Listinn á síðunni birtir alla áætlaða spurningalista. 
+<span data-ttu-id="0725e-234">Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="0725e-234">On the **Planned answer session** page, you can create a planned answer session for an individual employee.</span></span> <span data-ttu-id="0725e-235">Listinn á síðunni birtir alla áætlaða spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-235">The list on the page displays all planned questionnaires.</span></span> 
 
-Áætlaðar svarsetur eru einnig notaðar í **áætlanir spurningalista**, þar sem hægt er að áætla spurningalista fyrir marga í einu:
+<span data-ttu-id="0725e-236">Áætlaðar svarsetur eru einnig notaðar í **áætlanir spurningalista**, þar sem hægt er að áætla spurningalista fyrir marga í einu:</span><span class="sxs-lookup"><span data-stu-id="0725e-236">Planned answer sessions are also used on the **Questionnaire schedules** page, where you can plan questionnaires for multiple people:</span></span>
 
--   Starfsmenn
--   Þátttakendur á námskeiði
--   Skipulagseiningar
+-   <span data-ttu-id="0725e-237">Starfsmenn</span><span class="sxs-lookup"><span data-stu-id="0725e-237">Employees</span></span>
+-   <span data-ttu-id="0725e-238">Þátttakendur á námskeiði</span><span class="sxs-lookup"><span data-stu-id="0725e-238">Course participants</span></span>
+-   <span data-ttu-id="0725e-239">Skipulagseiningar</span><span class="sxs-lookup"><span data-stu-id="0725e-239">Organizational units</span></span>
 
-Hver einstaklingur getur svara spurningalista aðeins einu sinni.
+<span data-ttu-id="0725e-240">Hver einstaklingur getur svara spurningalista aðeins einu sinni.</span><span class="sxs-lookup"><span data-stu-id="0725e-240">Each person can answer the questionnaire only one time.</span></span>
 
-## <a name="scheduling-a-questionnaire"></a>Röðun spurningalista
-Valfrjálst er að raða spurningalista fyrir marga svarendur.
+## <a name="scheduling-a-questionnaire"></a><span data-ttu-id="0725e-241">Röðun spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-241">Scheduling a questionnaire</span></span>
+<span data-ttu-id="0725e-242">Valfrjálst er að raða spurningalista fyrir marga svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-242">You can optionally schedule a questionnaire for multiple respondents.</span></span>
 
-### <a name="planning-types"></a>Áætlunargerðir
+### <a name="planning-types"></a><span data-ttu-id="0725e-243">Áætlunargerðir</span><span class="sxs-lookup"><span data-stu-id="0725e-243">Planning types</span></span>
 
-Áætlunargerðir eru nauðsynleg ef óskað er að raða áætlaðar svarsetur fyrir marga svarendur. Áætlunargerðir eru notaðar til að flokka spurningalistaáætlanir . Þú getur t.d. raðað spurningalistum fyrir eftirfarandi málefni:
+<span data-ttu-id="0725e-244">Áætlunargerðir eru nauðsynleg ef óskað er að raða áætlaðar svarsetur fyrir marga svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-244">Planning types are required if you want to schedule planned answer sessions for multiple respondents.</span></span> <span data-ttu-id="0725e-245">Áætlunargerðir eru notaðar til að flokka spurningalistaáætlanir .</span><span class="sxs-lookup"><span data-stu-id="0725e-245">Planning types are used to classify questionnaire schedules.</span></span> <span data-ttu-id="0725e-246">Þú getur t.d. raðað spurningalistum fyrir eftirfarandi málefni:</span><span class="sxs-lookup"><span data-stu-id="0725e-246">For example, you can schedule questionnaires for the following purposes:</span></span>
 
--   Mat
--   Könnun
--   Prófun
+-   <span data-ttu-id="0725e-247">Mat</span><span class="sxs-lookup"><span data-stu-id="0725e-247">Evaluation</span></span>
+-   <span data-ttu-id="0725e-248">Könnun</span><span class="sxs-lookup"><span data-stu-id="0725e-248">Survey</span></span>
+-   <span data-ttu-id="0725e-249">Prófun</span><span class="sxs-lookup"><span data-stu-id="0725e-249">Testing</span></span>
 
-Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spurningalista** síðunni.
+<span data-ttu-id="0725e-250">Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spurningalista** síðunni.</span><span class="sxs-lookup"><span data-stu-id="0725e-250">You can specify planning types for a questionnaire schedule on the **Questionnaire schedules** page.</span></span>
 
-### <a name="reference-types-for-questionnaire"></a>Gerð tilvísunar fyrir Spurningalisti
+### <a name="reference-types-for-questionnaire"></a><span data-ttu-id="0725e-251">Gerð tilvísunar fyrir Spurningalisti</span><span class="sxs-lookup"><span data-stu-id="0725e-251">Reference types for questionnaire</span></span>
 
-Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað. 
+<span data-ttu-id="0725e-252">Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað.</span><span class="sxs-lookup"><span data-stu-id="0725e-252">You can use reference types to enter criteria for the respondents that you might select when you schedule a questionnaire.</span></span> 
 
-Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hvert gerð tilvísunar samsvara til tafla í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
+<span data-ttu-id="0725e-253">Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-253">Use the **Reference types** page to set up reference types for a questionnaire.</span></span> <span data-ttu-id="0725e-254">Hvert gerð tilvísunar samsvara til tafla í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="0725e-254">Each reference type corresponds to a table in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span></span> <span data-ttu-id="0725e-255">Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast.</span><span class="sxs-lookup"><span data-stu-id="0725e-255">When you create questionnaire schedules, you can specify individual records in the table or a range of records that the questionnaire will be associated with.</span></span> 
 
-Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir. Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.
+<span data-ttu-id="0725e-256">Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir.</span><span class="sxs-lookup"><span data-stu-id="0725e-256">For example, if you select the Courses table, you can decide which specific course the questionnaire will be for.</span></span> <span data-ttu-id="0725e-257">Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.</span><span class="sxs-lookup"><span data-stu-id="0725e-257">When you set up a reference for the Courses table, some fields and buttons on the **Courses** page become available.</span></span>
 
-### <a name="questionnaire-schedules"></a>Áætlanir spurningalista
+### <a name="questionnaire-schedules"></a><span data-ttu-id="0725e-258">Áætlanir spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-258">Questionnaire schedules</span></span>
 
-Hægt er að nota spurningalisti áætlun til að Mynda margt áætlað svarseta fyrir flokka notenda, á grunni gerð tilvísunar. Stofnaðu áætlun á síðunni **áætlanir Spurningalista**. Veldu áætlunargerð til að flokka áætlun, og einnig velurðu gerð tilvísunar sem ætti að nota til að fyrirspurn kerfið um tilgreinda notendur. Til dæmis ef þú stillir gerð tilvísunar á námskeiðatöflu er hægt að velja tilgreint námskeið í svæðinu **tilvísun**. 
+<span data-ttu-id="0725e-259">Hægt er að nota spurningalisti áætlun til að Mynda margt áætlað svarseta fyrir flokka notenda, á grunni gerð tilvísunar.</span><span class="sxs-lookup"><span data-stu-id="0725e-259">You can use questionnaire schedules to generate multiple planned answer sessions for a group of users, based on a reference type.</span></span> <span data-ttu-id="0725e-260">Stofnaðu áætlun á síðunni **áætlanir Spurningalista**.</span><span class="sxs-lookup"><span data-stu-id="0725e-260">Create a schedule on the **Questionnaire schedules** page.</span></span> <span data-ttu-id="0725e-261">Veldu áætlunargerð til að flokka áætlun, og einnig velurðu gerð tilvísunar sem ætti að nota til að fyrirspurn kerfið um tilgreinda notendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-261">Select the planning type to categorize the schedule, and also select the reference type that should be used to query the system for specific users.</span></span> <span data-ttu-id="0725e-262">Til dæmis ef þú stillir gerð tilvísunar á námskeiðatöflu er hægt að velja tilgreint námskeið í svæðinu **tilvísun**.</span><span class="sxs-lookup"><span data-stu-id="0725e-262">For example, if you set the reference type to the Courses table, you can select a specific course in the **Reference** field.</span></span> 
 
-Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum. Til dæmis skal tilgreina nafn leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda. Eftir að lokið hefur verið að færa inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni. 
+<span data-ttu-id="0725e-263">Smellið á **upplýsingar um Uppsetningu** til að velja spurningalista og öðrum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="0725e-263">Click **Setup details** to select the questionnaire and other criteria.</span></span> <span data-ttu-id="0725e-264">Til dæmis skal tilgreina nafn leiðbeinanda sem skilyrði ef spurningalistinn er mat á leiðbeinanda.</span><span class="sxs-lookup"><span data-stu-id="0725e-264">For example, specify the instructor's name as a criterion if the questionnaire is an evaluation of the instructor.</span></span> <span data-ttu-id="0725e-265">Eftir að lokið hefur verið að færa inn upplýsingar um uppsetningu, myndar kerfið áætlaðar svarsetur fyrir notendur sem eru teknar með í fyrirspurninni.</span><span class="sxs-lookup"><span data-stu-id="0725e-265">After you've finished entering the setup details, the system generates planned answer sessions for the users that are included in the query.</span></span> 
 
-Smellið á **Áætlaðar svarsetur** til að skoða svarsetur fyrir röðunina. Síðan er að stofna handvirkt viðbótar áætlaðar svarsetur eða eyða áætluðum svarsetum sem hefur ekki verið svarað. 
+<span data-ttu-id="0725e-266">Smellið á **Áætlaðar svarsetur** til að skoða svarsetur fyrir röðunina.</span><span class="sxs-lookup"><span data-stu-id="0725e-266">Click **Planned answer sessions** to view the answer sessions for the schedule.</span></span> <span data-ttu-id="0725e-267">Síðan er að stofna handvirkt viðbótar áætlaðar svarsetur eða eyða áætluðum svarsetum sem hefur ekki verið svarað.</span><span class="sxs-lookup"><span data-stu-id="0725e-267">You can then manually create additional planned answer sessions or delete planned answer sessions that haven't been answered.</span></span> 
 
-Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur. Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann. Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.
+<span data-ttu-id="0725e-268">Smellið á **Aðgerðir** &gt; **Ræsa** til að gera spurningalista tiltæka fyrir notendur í tengdar áætlaðar svarsetur.</span><span class="sxs-lookup"><span data-stu-id="0725e-268">Click **Functions** &gt; **Start** to make the questionnaire available to the users in related planned answer sessions.</span></span> <span data-ttu-id="0725e-269">Smellið á **Svör** til að skoða útfyllt svör fyrir spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-269">Click **Answers** to view the completed responses to the questionnaire.</span></span> <span data-ttu-id="0725e-270">Einnig er hægt að afrita stillingar fyrir áætlun spurningalista, áætlaðar svarsetur og svör við nýrri röðun spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-270">You can optionally copy the questionnaire schedule settings, planned answer sessions, and answers to a new questionnaire schedule.</span></span>
 
-## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Tilkynna svarendum um tiltæka spurningalista
-Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir. 
+## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a><span data-ttu-id="0725e-271">Tilkynna svarendum um tiltæka spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-271">Notifying respondents about questionnaires that are available to them</span></span>
+<span data-ttu-id="0725e-272">Þegar spurningalistum er dreift verður að tilkynna svarendum að spurningalistar eru þeim aðgengilegir.</span><span class="sxs-lookup"><span data-stu-id="0725e-272">When you distribute a questionnaire, you must notify respondents that questionnaires are available to them.</span></span> 
 
-**Athugasemd:** Svarandi verður að vera notandi í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition til að klára spurningalista.
+<span data-ttu-id="0725e-273">**Athugasemd:** Svarandi verður að vera notandi í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition til að klára spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-273">**Note:** Respondents must be users in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition to complete a questionnaire.</span></span>
 
-### <a name="notifying-respondents-about-a-planned-answer-session"></a>Tilkynna svarendum um áætlaða svarsetu
+### <a name="notifying-respondents-about-a-planned-answer-session"></a><span data-ttu-id="0725e-274">Tilkynna svarendum um áætlaða svarsetu</span><span class="sxs-lookup"><span data-stu-id="0725e-274">Notifying respondents about a planned answer session</span></span>
 
-Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn beint, eins og með símtali eða tölvupósti.
+<span data-ttu-id="0725e-275">Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn beint, eins og með símtali eða tölvupósti.</span><span class="sxs-lookup"><span data-stu-id="0725e-275">If you use a planned answer session, you must notify the person directly, such as by telephone or email.</span></span>
 
-### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
+### <a name="notifying-respondents-about-a-scheduling"></a><span data-ttu-id="0725e-276">Tilkynna svarendum um röðun</span><span class="sxs-lookup"><span data-stu-id="0725e-276">Notifying respondents about a scheduling</span></span>
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+<span data-ttu-id="0725e-277">Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann.</span><span class="sxs-lookup"><span data-stu-id="0725e-277">Use the **Questionnaire schedules** page to prepare and send email to all respondents who are assigned to the questionnaire.</span></span> <span data-ttu-id="0725e-278">Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-278">Enter the email text on the **E-mail for employee self service** tab.</span></span> <span data-ttu-id="0725e-279">Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda.</span><span class="sxs-lookup"><span data-stu-id="0725e-279">After the schedule has been started, click **Functions** &gt; **Send e-mail** to generate and send the email to the respondents.</span></span> <span data-ttu-id="0725e-280">Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="0725e-280">Respondents can then sign in to the website and complete the questionnaire.</span></span> 
 
-**Ábending:** áður En hægt er að nota virkni tölvupósti, þarf kerfisstjórinn upplýsingatækni að færa inn stillingar fyrir tölvupóst í **færibreytur tölvupósts** síðu.
+<span data-ttu-id="0725e-281">**Ábending:** áður En hægt er að nota virkni tölvupósti, þarf kerfisstjórinn upplýsingatækni að færa inn stillingar fyrir tölvupóst í **færibreytur tölvupósts** síðu.</span><span class="sxs-lookup"><span data-stu-id="0725e-281">**Note:** Before you can use the email functionality, your IT administrator must enter the email settings on the **E-mail parameters** page.</span></span>
 
-## <a name="ending-a-scheduled-questionnaire"></a>Ljúka áætluðum spurningalista
-Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum. Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun. 
+## <a name="ending-a-scheduled-questionnaire"></a><span data-ttu-id="0725e-282">Ljúka áætluðum spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-282">Ending a scheduled questionnaire</span></span>
+<span data-ttu-id="0725e-283">Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum.</span><span class="sxs-lookup"><span data-stu-id="0725e-283">You can end a scheduled questionnaire after all respondents have completed their assigned answer sessions.</span></span> <span data-ttu-id="0725e-284">Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun.</span><span class="sxs-lookup"><span data-stu-id="0725e-284">After a scheduled questionnaire is ended, you can't copy its settings to a new schedule.</span></span> 
 
-**Athugasemd:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann og það á samt að loka röðuninni verður fyrst að eyða þeim svarendum úr listanum í síðunni **áætlaðar svarsetur**. Að því loknu er hægt að loka röðuninni.
+<span data-ttu-id="0725e-285">**Athugasemd:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann og það á samt að loka röðuninni verður fyrst að eyða þeim svarendum úr listanum í síðunni **áætlaðar svarsetur**.</span><span class="sxs-lookup"><span data-stu-id="0725e-285">**Note:** If one or more respondents haven't completed the questionnaire, but you still want to end the scheduling, you must first delete those respondents from the list on the **Planned answer session** page.</span></span> <span data-ttu-id="0725e-286">Að því loknu er hægt að loka röðuninni.</span><span class="sxs-lookup"><span data-stu-id="0725e-286">You can then end the schedule.</span></span>
 
-## <a name="completing-questionnaires"></a>Að klára spurningalista
-Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur. Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:
+## <a name="completing-questionnaires"></a><span data-ttu-id="0725e-287">Að klára spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-287">Completing questionnaires</span></span>
+<span data-ttu-id="0725e-288">Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur.</span><span class="sxs-lookup"><span data-stu-id="0725e-288">After you've designed and distributed a questionnaire, the questionnaire can be completed by selected respondents.</span></span> <span data-ttu-id="0725e-289">Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:</span><span class="sxs-lookup"><span data-stu-id="0725e-289">You can complete the questionnaires that are available to you from two locations:</span></span>
 
--   Í skoðunarrúðunni þarf að smella á **Spurningalista** &gt; **dreifa** &gt; **klára Spurningalistanum**.
--   Í sjálfsafgreiðslu Starfsmanns, smellið á **Spurningalista til að ljúka**.
+-   <span data-ttu-id="0725e-290">Í skoðunarrúðunni þarf að smella á **Spurningalista** &gt; **dreifa** &gt; **klára Spurningalistanum**.</span><span class="sxs-lookup"><span data-stu-id="0725e-290">In the navigation pane, click **Questionnaires** &gt; **Distribute** &gt; **Complete a questionnaire**.</span></span>
+-   <span data-ttu-id="0725e-291">Í sjálfsafgreiðslu Starfsmanns, smellið á **Spurningalista til að ljúka**.</span><span class="sxs-lookup"><span data-stu-id="0725e-291">In Employee self-service, click **Questionnaires to complete**.</span></span>
 
-Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.
+<span data-ttu-id="0725e-292">Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.</span><span class="sxs-lookup"><span data-stu-id="0725e-292">Questionnaires can made be available to specific users or groups of users, or to all users in a network.</span></span>
 
-<a name="see-also"></a>Sjá einnig
+<a name="see-also"></a><span data-ttu-id="0725e-293">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0725e-293">See also</span></span>
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[<span data-ttu-id="0725e-294">Hönnun spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-294">Designing questionnaires</span></span>](design-questionnaires.md)
 
-[Nota spurningalista.](questionnaires.md)
+[<span data-ttu-id="0725e-295">Nota spurningalista.</span><span class="sxs-lookup"><span data-stu-id="0725e-295">Using questionnaires</span></span>](questionnaires.md)
 
-[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[<span data-ttu-id="0725e-296">Skoða og meta niðurstöður spurningalista</span><span class="sxs-lookup"><span data-stu-id="0725e-296">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
-master
+<span data-ttu-id="0725e-297">master</span><span class="sxs-lookup"><span data-stu-id="0725e-297">master</span></span>
 

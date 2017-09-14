@@ -17,52 +17,52 @@ ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9ae0bbb641d7517d33ad087faec231cb0bda3f78
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 172bb55358c20ba80b1c32b05f1ae8e6aff8901f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="production-order-cost-estimation"></a>Kostnaðaráætlun framleiðslupöntunar
+# <a name="production-order-cost-estimation"></a><span data-ttu-id="7c8bd-104">Kostnaðaráætlun framleiðslupöntunar</span><span class="sxs-lookup"><span data-stu-id="7c8bd-104">Production order cost estimation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur upplýsingar um mat á framleiðslukostnaði. Mat á framleiðslukostnaði veitir upplýsingar um efnis- og afkastanotkunarkostnað við framleiðslu á vöru í áætluðu framleiðslupöntunarmagni. 
+<span data-ttu-id="7c8bd-105">Þessi grein gefur upplýsingar um mat á framleiðslukostnaði.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="7c8bd-106">Mat á framleiðslukostnaði veitir upplýsingar um efnis- og afkastanotkunarkostnað við framleiðslu á vöru í áætluðu framleiðslupöntunarmagni.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 
-Eftir að þú stofnar framleiðslupöntun verður þú að meta framleiðslukostnað. Tilgangurinn er mat á vöru- og leiðanotkun fyrir framleiðsluferlið, því matið er notað sem grunnurinn að næstu röðunar- og framleiðsluferlum.
+<span data-ttu-id="7c8bd-107">Eftir að þú stofnar framleiðslupöntun verður þú að meta framleiðslukostnað.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-107">After you create a production order, you must estimate production costs.</span></span> <span data-ttu-id="7c8bd-108">Tilgangurinn er mat á vöru- og leiðanotkun fyrir framleiðsluferlið, því matið er notað sem grunnurinn að næstu röðunar- og framleiðsluferlum.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-108">The purpose is to estimate item and route consumption for the production process, because these estimates are used as the basis for subsequent scheduling and production processes.</span></span>
 
-## <a name="production-cost-estimation"></a>Framleiðslukostnaðarmat
-Mat á framleiðslukostnaði er byggt á eftirfarandi upplýsingum:
+## <a name="production-cost-estimation"></a><span data-ttu-id="7c8bd-109">Framleiðslukostnaðarmat</span><span class="sxs-lookup"><span data-stu-id="7c8bd-109">Production cost estimation</span></span>
+<span data-ttu-id="7c8bd-110">Mat á framleiðslukostnaði er byggt á eftirfarandi upplýsingum:</span><span class="sxs-lookup"><span data-stu-id="7c8bd-110">Estimates of production costs are based on the following information:</span></span>
 
--   Magni í framleiðslupöntun.
--   Íhlutir í uppskriftum (BOMs) framleiðslu.
--   Leiðaraðgerð í framleiðsluleið.
--   Óbeinn kostnaður sem eiga við íhluti og aðgerðir
--   Virk kostnaðargögn frá og með útreikningsdegi.
+-   <span data-ttu-id="7c8bd-111">Magni í framleiðslupöntun.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-111">The quantity on the production order</span></span>
+-   <span data-ttu-id="7c8bd-112">Íhlutir í uppskriftum (BOMs) framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-112">The components on the production bills of materials (BOMs)</span></span>
+-   <span data-ttu-id="7c8bd-113">Leiðaraðgerð í framleiðsluleið.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-113">The routing operations in the production route</span></span>
+-   <span data-ttu-id="7c8bd-114">Óbeinn kostnaður sem eiga við íhluti og aðgerðir</span><span class="sxs-lookup"><span data-stu-id="7c8bd-114">The indirect costs that apply to the components and operations</span></span>
+-   <span data-ttu-id="7c8bd-115">Virk kostnaðargögn frá og með útreikningsdegi.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-115">The active cost data as of the calculation date</span></span>
 
-Ef til staðar er skuggalínuvara í framleiðsluuppskriftinni endurspegla útreikningarnir þætti skuggavörunnar og leiðaaðgerða. Hægt er að nota matsverkefnið til að endurreikna áætlaðan kostnað til að endurspegla uppfærðar upplýsingar. Til dæmis gætu uppfærðu upplýsingarnar verið breytingar á magni framleiðslupöntunarinnar, íhlutunum í framleiðsluuppskriftunum, leiðaraðgerðunum í framleiðsluleiðinni, óbeina kostnaðinum sem á við um þessa þætti og aðgerðir eða virk kostnaðargögn frá og með dagsetningu endurreikningsins. Útreikningarnir á áætluðum kostnaði gefa líka til kynna söluverð fyrir framleiðsluvöruna á grundvelli nálgunarinnar kostnaður-plús-álag. Útreikningar á áætluðum kostnaði geta einnig gilt um tilvísunarpantanir sem endurspegla aðrar framleiðslupantanir sem eru tengdar við framleiðslupöntunina.
+<span data-ttu-id="7c8bd-116">Ef til staðar er skuggalínuvara í framleiðsluuppskriftinni endurspegla útreikningarnir þætti skuggavörunnar og leiðaaðgerða.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-116">If there is a phantom line item on the production BOMs, the calculations reflect the phantom’s components and route operations.</span></span> <span data-ttu-id="7c8bd-117">Hægt er að nota matsverkefnið til að endurreikna áætlaðan kostnað til að endurspegla uppfærðar upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-117">You can use the estimation task to recalculate estimated costs so that they reflect updated information.</span></span> <span data-ttu-id="7c8bd-118">Til dæmis gætu uppfærðu upplýsingarnar verið breytingar á magni framleiðslupöntunarinnar, íhlutunum í framleiðsluuppskriftunum, leiðaraðgerðunum í framleiðsluleiðinni, óbeina kostnaðinum sem á við um þessa þætti og aðgerðir eða virk kostnaðargögn frá og með dagsetningu endurreikningsins.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-118">For example, the updated information might be changes to the quantity on the production order, the components on the production BOMs, the routing operations in the production route, the indirect costs that apply to these components and operations, or the active cost data as of the recalculation date.</span></span> <span data-ttu-id="7c8bd-119">Útreikningarnir á áætluðum kostnaði gefa líka til kynna söluverð fyrir framleiðsluvöruna á grundvelli nálgunarinnar kostnaður-plús-álag.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-119">The calculations of estimated cost also suggest a sales price for the production item, based on a cost-plus-markup approach.</span></span> <span data-ttu-id="7c8bd-120">Útreikningar á áætluðum kostnaði geta einnig gilt um tilvísunarpantanir sem endurspegla aðrar framleiðslupantanir sem eru tengdar við framleiðslupöntunina.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-120">The calculations of estimated cost can optionally apply to reference orders that reflect other production orders that are linked to the production order.</span></span>
 
-## <a name="view-the-estimated-costs"></a>Skoða áætlaður kostnaður.
-Þegar mat hefur verið keyrt er hægt að skoða niðurstöður á **Verðútreikning** síðu. Matið reiknar eftirfarandi gildi:
+## <a name="view-the-estimated-costs"></a><span data-ttu-id="7c8bd-121">Skoða áætlaður kostnaður.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-121">View the estimated costs</span></span>
+<span data-ttu-id="7c8bd-122">Þegar mat hefur verið keyrt er hægt að skoða niðurstöður á **Verðútreikning** síðu.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-122">After you run estimation, you can view the results on the **Price calculation** page.</span></span> <span data-ttu-id="7c8bd-123">Matið reiknar eftirfarandi gildi:</span><span class="sxs-lookup"><span data-stu-id="7c8bd-123">The estimation calculates the following values:</span></span>
 
--   **Framleiðslukostnaður** – Framleiðslukostnaður er efsta lína matsins. Hún sýnir heildarkostnað við keyrslu framleiðslupöntunar og heildar söluverð framleiðslunnar. Hún er samtala allra kostnaðarlína í matinu.
--   **Leið eða kostnaður tilfanga** – Leið eða tilfangakostnaður er kostnaður fyrir framleiðsluaðgerðir. Þau taka með kostnað fyrir einingar eins og uppsetningartíma, keyrslutíma og umstang.
--   **Efniskostnaður** – Efniskostnaður er kostnaður og verð uppskriftaíhluta sem eru nauðsynlegir til þess að framleiða vöruna. Þessi kostnaður hefur áður verið fastsettur og færa inn í kerfið.
+-   <span data-ttu-id="7c8bd-124">**Framleiðslukostnaður** – Framleiðslukostnaður er efsta lína matsins.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-124">**Production cost** – The production cost is the top line of the estimate.</span></span> <span data-ttu-id="7c8bd-125">Hún sýnir heildarkostnað við keyrslu framleiðslupöntunar og heildar söluverð framleiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-125">It shows the complete cost of running the production order and the total sales price for the production.</span></span> <span data-ttu-id="7c8bd-126">Hún er samtala allra kostnaðarlína í matinu.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-126">It's the sum of all the cost lines on the estimate.</span></span>
+-   <span data-ttu-id="7c8bd-127">**Leið eða kostnaður tilfanga** – Leið eða tilfangakostnaður er kostnaður fyrir framleiðsluaðgerðir.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-127">**Route or resource costs** – Route or resource costs are the costs for the production operations.</span></span> <span data-ttu-id="7c8bd-128">Þau taka með kostnað fyrir einingar eins og uppsetningartíma, keyrslutíma og umstang.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-128">They include the cost of elements such as setup time, run time, and overhead.</span></span>
+-   <span data-ttu-id="7c8bd-129">**Efniskostnaður** – Efniskostnaður er kostnaður og verð uppskriftaíhluta sem eru nauðsynlegir til þess að framleiða vöruna.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-129">**Material costs** – Material costs are the costs and prices of the BOM components that are required in order to produce the item.</span></span> <span data-ttu-id="7c8bd-130">Þessi kostnaður hefur áður verið fastsettur og færa inn í kerfið.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-130">These costs have previously been established and entered into the system.</span></span>
 
-## <a name="other-uses-of-cost-estimation"></a>Önnur not kostnaðarmats
-Kostnaðarmat felur líka í sér eftirfarandi upplýsingar:
+## <a name="other-uses-of-cost-estimation"></a><span data-ttu-id="7c8bd-131">Önnur not kostnaðarmats</span><span class="sxs-lookup"><span data-stu-id="7c8bd-131">Other uses of cost estimation</span></span>
+<span data-ttu-id="7c8bd-132">Kostnaðarmat felur líka í sér eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="7c8bd-132">A cost estimate also provides the following information:</span></span>
 
--   Auðskilin verðtilboð
--   Mat á arðsemi pöntunarinnar
--   Mat á hráefnisnotkun
--   Samanburð á kostnaðarupplýsingum úr fyrri framleiðslum
--   Áætlunar- og spáupplýsingar
--   Mat á nauðsynlegri framleiðslustærð til þess að geta viðhaldið tilteknum kostnaði.
+-   <span data-ttu-id="7c8bd-133">Auðskilin verðtilboð</span><span class="sxs-lookup"><span data-stu-id="7c8bd-133">Meaningful price quotations</span></span>
+-   <span data-ttu-id="7c8bd-134">Mat á arðsemi pöntunarinnar</span><span class="sxs-lookup"><span data-stu-id="7c8bd-134">Estimates of the profitability of the order</span></span>
+-   <span data-ttu-id="7c8bd-135">Mat á hráefnisnotkun</span><span class="sxs-lookup"><span data-stu-id="7c8bd-135">Estimates of raw material usage</span></span>
+-   <span data-ttu-id="7c8bd-136">Samanburð á kostnaðarupplýsingum úr fyrri framleiðslum</span><span class="sxs-lookup"><span data-stu-id="7c8bd-136">Comparisons of cost information from previous productions</span></span>
+-   <span data-ttu-id="7c8bd-137">Áætlunar- og spáupplýsingar</span><span class="sxs-lookup"><span data-stu-id="7c8bd-137">Budget and forecasting information</span></span>
+-   <span data-ttu-id="7c8bd-138">Mat á nauðsynlegri framleiðslustærð til þess að geta viðhaldið tilteknum kostnaði.</span><span class="sxs-lookup"><span data-stu-id="7c8bd-138">Estimates of the production size that is required in order to maintain a particular cost</span></span>
 
 
 

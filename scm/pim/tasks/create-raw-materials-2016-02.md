@@ -1,21 +1,26 @@
 --- 
-# required metadata 
-title: Stofna hráefni (aðeins febrúar 2016)
-description: Þetta verk einblínir á að búa til íhluti fullunnin vara og hálfunnin vara.
-author: BibiSp
+title: "Stofna hráefni (aðeins febrúar 2016)"
+description: "Þetta verk einblínir á að búa til íhluti fullunnin vara og hálfunnin vara."
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: f6af7b93d8d1d9a6f7474f24177b16e5295e90d6
+ms.contentlocale: is-is
+ms.lasthandoff: 09/14/2017
+
 ---
 # <a name="create-raw-materials-february-2016-only"></a><span data-ttu-id="77971-103">Stofna hráefni (aðeins febrúar 2016)</span><span class="sxs-lookup"><span data-stu-id="77971-103">Create raw materials (February 2016 only)</span></span>
 
@@ -150,4 +155,5 @@ ms.dyn365.ops.version: AX 7.0.0
 25. <span data-ttu-id="77971-242">Smellt er á Virk vöruverð.</span><span class="sxs-lookup"><span data-stu-id="77971-242">Click Activate pending price(s).</span></span>
 26. <span data-ttu-id="77971-243">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="77971-243">Close the page.</span></span>
 27. <span data-ttu-id="77971-244">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="77971-244">Close the page.</span></span>
+
 

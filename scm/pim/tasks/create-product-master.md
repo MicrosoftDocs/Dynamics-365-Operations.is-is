@@ -16,54 +16,54 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: b783c41459163ab5a0644a1ff5c39b6933bcdb1b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4e8d438da1524850c115f5c38865fac2f19f3ff5
 ms.contentlocale: is-is
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product-master"></a>Stofna aðalsniðmát
+# <a name="create-a-product-master"></a><span data-ttu-id="6e6b5-103">Stofna aðalsniðmát</span><span class="sxs-lookup"><span data-stu-id="6e6b5-103">Create a product master</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Stofna afurðarsniðmát fyrir forskilgreind afbrigði. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir vöruhönnuð.
+<span data-ttu-id="6e6b5-104">Stofna afurðarsniðmát fyrir forskilgreind afbrigði.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-104">Create a product master for the predefined variants.</span></span> <span data-ttu-id="6e6b5-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6e6b5-106">Þetta ferli er ætluð fyrir vöruhönnuð.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-106">This procedure is intended for the product designer.</span></span>
 
 
-## <a name="create-a-new-product-master"></a>Stofna nýtt afurðarsniðmát
-1. Fara í Upplýsingastjórnun afurða > Afurðir > Afurðarsniðmát.
-2. Smellið á „Nýtt“.
-3. Í reitinn Afurðarnúmer skal slá inn gildi.
-    * Hvert númer verður að vera einkvæmt. Hægt er að setja inn númeraröð fyrir svæðið afurðarnúmer. Í þessu tilfelli þarf notandinn ekki að færa inn gildi.  
-4. Sláið inn gildi í reitinn Afurðarheiti.
-    * Færa inn lýsandi afurðarheiti . Gildið er sjálfgefið í leitarnafn, en hægt er að breyta því af notanda.  
-5. Í reitnum Afurðavíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Afurðavíddaflokkurinn ákvarðar hvaða 4 afurðarvíddir er hægt að nota til að stofna afurðarafbrigði. Þetta dæmi notar flokk með lit og stærð.  
-6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-7. Í listanum skal smella á tengilinn í valinni línu.
-    * Sjálfgefin afbrigðistækni er Forskilgreint afbrigði. Þetta verður notað í þessu dæmi.  
-8. Smellið á „Í lagi“.
+## <a name="create-a-new-product-master"></a><span data-ttu-id="6e6b5-107">Stofna nýtt afurðarsniðmát</span><span class="sxs-lookup"><span data-stu-id="6e6b5-107">Create a new product master</span></span>
+1. <span data-ttu-id="6e6b5-108">Fara í Upplýsingastjórnun afurða > Afurðir > Afurðarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-108">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="6e6b5-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-109">Click New.</span></span>
+3. <span data-ttu-id="6e6b5-110">Í reitinn Afurðarnúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="6e6b5-111">Hvert númer verður að vera einkvæmt.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-111">The number must be unique.</span></span> <span data-ttu-id="6e6b5-112">Hægt er að setja inn númeraröð fyrir svæðið afurðarnúmer.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-112">A number sequence can be set for the Product number field.</span></span> <span data-ttu-id="6e6b5-113">Í þessu tilfelli þarf notandinn ekki að færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-113">In this case, the user doesn't have to enter a value.</span></span>  
+4. <span data-ttu-id="6e6b5-114">Sláið inn gildi í reitinn Afurðarheiti.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-114">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="6e6b5-115">Færa inn lýsandi afurðarheiti .</span><span class="sxs-lookup"><span data-stu-id="6e6b5-115">Enter a descriptive product name.</span></span> <span data-ttu-id="6e6b5-116">Gildið er sjálfgefið í leitarnafn, en hægt er að breyta því af notanda.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-116">The value defaults to the search name, but this can be changed by the user.</span></span>  
+5. <span data-ttu-id="6e6b5-117">Í reitnum Afurðavíddarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-117">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="6e6b5-118">Afurðavíddaflokkurinn ákvarðar hvaða 4 afurðarvíddir er hægt að nota til að stofna afurðarafbrigði.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-118">The product dimension group determines which of the 4 product dimensions that can be used to create product variants.</span></span> <span data-ttu-id="6e6b5-119">Þetta dæmi notar flokk með lit og stærð.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-119">This example uses a group with color and size.</span></span>  
+6. <span data-ttu-id="6e6b5-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-120">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="6e6b5-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6e6b5-122">Sjálfgefin afbrigðistækni er Forskilgreint afbrigði.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-122">The default configuration technology is Predefined variant.</span></span> <span data-ttu-id="6e6b5-123">Þetta verður notað í þessu dæmi.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-123">This will be used for this example.</span></span>  
+8. <span data-ttu-id="6e6b5-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-124">Click OK.</span></span>
 
-## <a name="select-product-dimension-groups"></a>Velja afurðavíddaflokka
-1. Í reitnum Litaflokkur skal smella á fellilistahnappinn til að opna leitina.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í reitnum Stærðarflokkur skal smella á fellilistahnappinn til að opna leitina.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-6. Í listanum skal smella á tengilinn í valinni línu.
+## <a name="select-product-dimension-groups"></a><span data-ttu-id="6e6b5-125">Velja afurðavíddaflokka</span><span class="sxs-lookup"><span data-stu-id="6e6b5-125">Select product dimension groups</span></span>
+1. <span data-ttu-id="6e6b5-126">Í reitnum Litaflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-126">In the Color group field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="6e6b5-127">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-127">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6e6b5-128">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="6e6b5-129">Í reitnum Stærðarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-129">In the Size group field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="6e6b5-130">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-130">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="6e6b5-131">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-131">In the list, click the link in the selected row.</span></span>
 
-## <a name="add-dimension-groups"></a>Bæta við Víddaflokkar
-1. Í aðgerðasvæðinu er smellt á Afurð.
-2. Smellt er á Víddaflokkar til að opna felligluggann.
-3. Í reitnum Geymsluvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Geymsluvíddir stjórna því hvernig vörur eru geymdar og teknar út af lager. Til dæmis getur geymsluvídd innihaldið Svæði og vöruhús  
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Í reitnum Rakningarvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Rakningarvíddarflokkur ákvarðar hvaða víddaflokkar er hægt að bæta við afurð. Til dæmis má nota rununúmer og raðnúmer til að rekja birgðavörur.  
-7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-8. Í listanum skal smella á tengilinn í valinni línu.
-9. Smellt er á Í lagi.
-10. Smellið á „Vista“.
-11. Lokið síðunni.
+## <a name="add-dimension-groups"></a><span data-ttu-id="6e6b5-132">Bæta við Víddaflokkar</span><span class="sxs-lookup"><span data-stu-id="6e6b5-132">Add dimension groups</span></span>
+1. <span data-ttu-id="6e6b5-133">Í aðgerðasvæðinu er smellt á Afurð.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-133">On the Action Pane, click Product.</span></span>
+2. <span data-ttu-id="6e6b5-134">Smellt er á Víddaflokkar til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-134">Click Dimension groups to open the drop dialog.</span></span>
+3. <span data-ttu-id="6e6b5-135">Í reitnum Geymsluvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-135">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="6e6b5-136">Geymsluvíddir stjórna því hvernig vörur eru geymdar og teknar út af lager.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-136">The storage dimensions help you control how items are stored and taken from inventory.</span></span> <span data-ttu-id="6e6b5-137">Til dæmis getur geymsluvídd innihaldið Svæði og vöruhús</span><span class="sxs-lookup"><span data-stu-id="6e6b5-137">For example, a storage dimension can include Site and Warehouse.</span></span>  
+4. <span data-ttu-id="6e6b5-138">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="6e6b5-139">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-139">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="6e6b5-140">Í reitnum Rakningarvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-140">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="6e6b5-141">Rakningarvíddarflokkur ákvarðar hvaða víddaflokkar er hægt að bæta við afurð.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-141">The tracking dimension group determines which tracking dimensions you can add to a product.</span></span> <span data-ttu-id="6e6b5-142">Til dæmis má nota rununúmer og raðnúmer til að rekja birgðavörur.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-142">For example, the batch number and serial number are used to track inventory items.</span></span>  
+7. <span data-ttu-id="6e6b5-143">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-143">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="6e6b5-144">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-144">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="6e6b5-145">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-145">Click OK.</span></span>
+10. <span data-ttu-id="6e6b5-146">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-146">Click Save.</span></span>
+11. <span data-ttu-id="6e6b5-147">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6e6b5-147">Close the page.</span></span>
 
 

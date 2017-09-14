@@ -16,120 +16,120 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d6f9fc973ae9b36f6d78228d2e8ed4a2684c4875
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 121f00efea6aee8d9df45d67f8f252bbf6b97176
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="use-computations-to-make-the-output-for-counting-and-summing-for-electronic-reporting-er"></a>Nota útreikninga til að fá frálag úr talningu og samlagningu í rafrænni skýrslugerð (ER)
+# <a name="use-computations-to-make-the-output-for-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="612c3-103">Nota útreikninga til að fá frálag úr talningu og samlagningu í rafrænni skýrslugerð (ER)</span><span class="sxs-lookup"><span data-stu-id="612c3-103">Use computations to make the output for counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað. Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.
+<span data-ttu-id="612c3-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað.</span><span class="sxs-lookup"><span data-stu-id="612c3-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="612c3-105">Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.</span><span class="sxs-lookup"><span data-stu-id="612c3-105">These steps can be performed in any company.</span></span>
 
-Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 2: skilgreina útreikninga)" ferli.
+<span data-ttu-id="612c3-106">Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 2: skilgreina útreikninga)" ferli.</span><span class="sxs-lookup"><span data-stu-id="612c3-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 2: Configure computations)” procedure.</span></span>
 
-Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+<span data-ttu-id="612c3-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="612c3-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="configure-this-report-to-use-counting-and-summing-info"></a>Skilgreina þessa skýrslu til að nota upplýsingar um talningu og samlagningu
-1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-2. Smelltu á Grunnstillingar skýrslugerðar
-3. Í trénu skal víkka út 'Intrastat model'.
-4. Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.
-5. Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.
-6. Smellið á Hönnuður.
-7. Smelltu á flipann Vörpun.
-8. Smelltu á Bæta við rót til að opna felligluggann.
-    * Bæta við nýjum gagnagjafa til að fá lista yfir blokkir sem voru lagðar á minni.  
-9. Veljið 'Functions\Calculated svæðið', í trénu.
-10. Í svæðið Heiti, færðu inn '$BlocksList'.
-    * $BlocksList  
-11. Smellt er á Breyta formúla.
-12. Í trénu skal velja 'Data collection functions\COLLECTEDLIST'.
-13. Smelltu á Bæta við Aðgerð.
-14. Smellt er á Bæta við gagnagjafa.
-15. Í Formúlu svæðinu, færið inn 'COLLECTEDLIST('$BlockName', '.
-    * COLLECTEDLIST('$BlockName',  
-16. Í Formúlu svæðinu, færið inn 'COLLECTEDLIST('$BlockName', "*")'.
-    * COLLECTEDLIST('$BlockName', "*")  
-17. Smellið á „Vista“.
-    * Mynstrið “*” þýðir að allar blokkir verða teknar með í lista fyrir þessa færslu.  
-18. Lokið síðunni.
-19. Smellið á „Í lagi“.
-20. Smellið á flipann snið.
-21. Í trénu skal velja 'Intrastat\Data'.
-22. Smelltu á Bæta við til að opna felligluggann.
-23. Í trénu skal velja 'Text\Sequence'.
-24. Í svæðið Heiti, færðu inn 'Samtölur eftir blokkum'.
-    * Samtölur eftir blokkum  
-25. Í reitnum sérstafir skal velja "ný lína - Windows (CR LF)".
-26. Smellt er á Í lagi.
-27. Í trénu skal velja 'Intrastat\Data\Totals by blocks'.
-28. Smelltu á Bæta við til að opna felligluggann.
-29. Í trénu skal velja ‚Texti/Strengur'.
-30. Í svæðið Heiti, færðu inn "kóði blokkar"
-    * Kóði blokkar  
-31. Smellið á „Í lagi“.
-32. Smella á bæta Við Streng.
-33. Í svæðið Heiti, færðu inn 'talning lína'.
-    * Talning lína  
-34. Smellið á „Í lagi“.
-35. Smella á bæta Við Streng.
-36. Í svæðið Heiti, færðu inn 'heildarupphæð'.
-    * Heildarfjöldi  
-37. Smellið á „Í lagi“.
-38. Smelltu á flipann Vörpun.
-39. Í trénu skal velja '$BlocksList'.
-40. Smelltu á Binda.
-    * Stofna línu fyrir hverja blokk sem er lögð á minni.  
-41. Smellið á flipann snið.
-42. Í trénu skal velja 'Intrastat\Data\Totals by blocks\Block code'.
-43. Smelltu á flipann Vörpun.
-44. Smellt er á Breyta formúla.
-45. Í reitinn Formúla skal færa inn „„Kenni blokkar: “ & “.
-    * „Kenni blokkar: “ &  
-46. Í trénu skal víkka út '$BlocksList'.
-47. Í trénu skal velja '$BlocksList\Value'.
-48. Smellt er á Bæta við gagnagjafa.
-49. Smellið á „Vista“.
-50. Lokið síðunni.
-51. Smellið á flipann snið.
-52. Í trénu skal velja 'Intrastat\Data\Totals by blocks\Lines counting'.
-53. Smelltu á flipann Vörpun.
-54. Smellt er á Breyta formúla.
-    * Stofna úttak fyrir fjölda lína fyrir hverja blokk sem er sýnd í þessari skýrslu.  
-55. Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& “.
-    * „Fjöldi lína í þessari blokk“ &  
-56. Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(“.
-    * „fjöldi lína í þessari blokk:“ .& TEXT(  
-57. Í trénu skal velja 'Data collection functions\COUNTIFS'.
-58. Smelltu á Bæta við Aðgerð.
-59. Smellt er á Bæta við gagnagjafa.
-60. Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, “.
-    * „Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“,  
-61. Í trénu skal víkka út '$BlocksList'.
-62. Í trénu skal velja '$BlocksList\Value'.
-63. Smellt er á Bæta við gagnagjafa.
-64. Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, “.
-    * „Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value,  
-65. Í trénu skal velja '$RecName'.
-66. Smellt er á Bæta við gagnagjafa.
-67. Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))“.
-    * „Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))  
-68. Smellið á „Vista“.
-69. Lokið síðunni.
-70. Smellið á flipann snið.
-71. Í trénu skal velja 'Intrastat\Data\Totals by blocks\Total amount'.
-72. Smelltu á flipann Vörpun.
-73. Smellt er á Breyta formúla.
-    * Stofna úttak sem verður heildarupphæð reikningsfærðrar upphæðar fyrir hverja blokk sem er sýnd í þessari skýrslu.  
-74. Í reitnum formúla skal færa inn „„Samtala reikningsfærðra upphæða:"  TEXT(SUMIFS(„$InvName“, „$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))“.
-    * „Samtala reikningsfærðra upphæða:"  TEXT(SUMIFS(„$InvName“, „$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))  
-75. Smellið á „Vista“.
-76. Lokið síðunni.
-77. Smellið á „Vista“.
-78. Lokið síðunni.
+## <a name="configure-this-report-to-use-counting-and-summing-info"></a><span data-ttu-id="612c3-108">Skilgreina þessa skýrslu til að nota upplýsingar um talningu og samlagningu</span><span class="sxs-lookup"><span data-stu-id="612c3-108">Configure this report to use counting and summing info</span></span>
+1. <span data-ttu-id="612c3-109">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="612c3-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="612c3-110">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="612c3-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="612c3-111">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="612c3-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="612c3-112">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="612c3-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="612c3-113">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="612c3-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="612c3-114">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="612c3-114">Click Designer.</span></span>
+7. <span data-ttu-id="612c3-115">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="612c3-115">Click the Mapping tab.</span></span>
+8. <span data-ttu-id="612c3-116">Smelltu á Bæta við rót til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="612c3-116">Click Add root to open the drop dialog.</span></span>
+    * <span data-ttu-id="612c3-117">Bæta við nýjum gagnagjafa til að fá lista yfir blokkir sem voru lagðar á minni.</span><span class="sxs-lookup"><span data-stu-id="612c3-117">Add a new data source to get the list of memorized blocks.</span></span>  
+9. <span data-ttu-id="612c3-118">Veljið 'Functions\Calculated svæðið', í trénu.</span><span class="sxs-lookup"><span data-stu-id="612c3-118">In the tree, select 'Functions\Calculated field'.</span></span>
+10. <span data-ttu-id="612c3-119">Í svæðið Heiti, færðu inn '$BlocksList'.</span><span class="sxs-lookup"><span data-stu-id="612c3-119">In the Name field, type '$BlocksList'.</span></span>
+    * <span data-ttu-id="612c3-120">$BlocksList</span><span class="sxs-lookup"><span data-stu-id="612c3-120">$BlocksList</span></span>  
+11. <span data-ttu-id="612c3-121">Smellt er á Breyta formúla.</span><span class="sxs-lookup"><span data-stu-id="612c3-121">Click Edit formula.</span></span>
+12. <span data-ttu-id="612c3-122">Í trénu skal velja 'Data collection functions\COLLECTEDLIST'.</span><span class="sxs-lookup"><span data-stu-id="612c3-122">In the tree, select 'Data collection functions\COLLECTEDLIST'.</span></span>
+13. <span data-ttu-id="612c3-123">Smelltu á Bæta við Aðgerð.</span><span class="sxs-lookup"><span data-stu-id="612c3-123">Click Add function.</span></span>
+14. <span data-ttu-id="612c3-124">Smellt er á Bæta við gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="612c3-124">Click Add data source.</span></span>
+15. <span data-ttu-id="612c3-125">Í Formúlu svæðinu, færið inn 'COLLECTEDLIST('$BlockName', '.</span><span class="sxs-lookup"><span data-stu-id="612c3-125">In the Formula field, enter 'COLLECTEDLIST('$BlockName', '.</span></span>
+    * <span data-ttu-id="612c3-126">COLLECTEDLIST('$BlockName',</span><span class="sxs-lookup"><span data-stu-id="612c3-126">COLLECTEDLIST('$BlockName',</span></span>  
+16. <span data-ttu-id="612c3-127">Í Formúlu svæðinu, færið inn 'COLLECTEDLIST('$BlockName', "*")'.</span><span class="sxs-lookup"><span data-stu-id="612c3-127">In the Formula field, enter 'COLLECTEDLIST('$BlockName', "*")'.</span></span>
+    * <span data-ttu-id="612c3-128">COLLECTEDLIST('$BlockName', "*")</span><span class="sxs-lookup"><span data-stu-id="612c3-128">COLLECTEDLIST('$BlockName', "*")</span></span>  
+17. <span data-ttu-id="612c3-129">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="612c3-129">Click Save.</span></span>
+    * <span data-ttu-id="612c3-130">Mynstrið “*” þýðir að allar blokkir verða teknar með í lista fyrir þessa færslu.</span><span class="sxs-lookup"><span data-stu-id="612c3-130">The pattern “*” means that all blocks will be included to the list for this record.</span></span>  
+18. <span data-ttu-id="612c3-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="612c3-131">Close the page.</span></span>
+19. <span data-ttu-id="612c3-132">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="612c3-132">Click OK.</span></span>
+20. <span data-ttu-id="612c3-133">Smellið á flipann snið.</span><span class="sxs-lookup"><span data-stu-id="612c3-133">Click the Format tab.</span></span>
+21. <span data-ttu-id="612c3-134">Í trénu skal velja 'Intrastat\Data'.</span><span class="sxs-lookup"><span data-stu-id="612c3-134">In the tree, select 'Intrastat\Data'.</span></span>
+22. <span data-ttu-id="612c3-135">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="612c3-135">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="612c3-136">Í trénu skal velja 'Text\Sequence'.</span><span class="sxs-lookup"><span data-stu-id="612c3-136">In the tree, select 'Text\Sequence'.</span></span>
+24. <span data-ttu-id="612c3-137">Í svæðið Heiti, færðu inn 'Samtölur eftir blokkum'.</span><span class="sxs-lookup"><span data-stu-id="612c3-137">In the Name field, type 'Totals by blocks'.</span></span>
+    * <span data-ttu-id="612c3-138">Samtölur eftir blokkum</span><span class="sxs-lookup"><span data-stu-id="612c3-138">Totals by blocks</span></span>  
+25. <span data-ttu-id="612c3-139">Í reitnum sérstafir skal velja "ný lína - Windows (CR LF)".</span><span class="sxs-lookup"><span data-stu-id="612c3-139">In the Special characters field, select 'New line - Windows (CR LF)'.</span></span>
+26. <span data-ttu-id="612c3-140">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="612c3-140">Click OK.</span></span>
+27. <span data-ttu-id="612c3-141">Í trénu skal velja 'Intrastat\Data\Totals by blocks'.</span><span class="sxs-lookup"><span data-stu-id="612c3-141">In the tree, select 'Intrastat\Data\Totals by blocks'.</span></span>
+28. <span data-ttu-id="612c3-142">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="612c3-142">Click Add to open the drop dialog.</span></span>
+29. <span data-ttu-id="612c3-143">Í trénu skal velja ‚Texti/Strengur'.</span><span class="sxs-lookup"><span data-stu-id="612c3-143">In the tree, select 'Text\String'.</span></span>
+30. <span data-ttu-id="612c3-144">Í svæðið Heiti, færðu inn "kóði blokkar"</span><span class="sxs-lookup"><span data-stu-id="612c3-144">In the Name field, type 'Block code'.</span></span>
+    * <span data-ttu-id="612c3-145">Kóði blokkar</span><span class="sxs-lookup"><span data-stu-id="612c3-145">Block code</span></span>  
+31. <span data-ttu-id="612c3-146">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="612c3-146">Click OK.</span></span>
+32. <span data-ttu-id="612c3-147">Smella á bæta Við Streng.</span><span class="sxs-lookup"><span data-stu-id="612c3-147">Click Add String.</span></span>
+33. <span data-ttu-id="612c3-148">Í svæðið Heiti, færðu inn 'talning lína'.</span><span class="sxs-lookup"><span data-stu-id="612c3-148">In the Name field, type 'Lines counting'.</span></span>
+    * <span data-ttu-id="612c3-149">Talning lína</span><span class="sxs-lookup"><span data-stu-id="612c3-149">Lines counting</span></span>  
+34. <span data-ttu-id="612c3-150">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="612c3-150">Click OK.</span></span>
+35. <span data-ttu-id="612c3-151">Smella á bæta Við Streng.</span><span class="sxs-lookup"><span data-stu-id="612c3-151">Click Add String.</span></span>
+36. <span data-ttu-id="612c3-152">Í svæðið Heiti, færðu inn 'heildarupphæð'.</span><span class="sxs-lookup"><span data-stu-id="612c3-152">In the Name field, type 'Total amount'.</span></span>
+    * <span data-ttu-id="612c3-153">Heildarfjöldi</span><span class="sxs-lookup"><span data-stu-id="612c3-153">Total amount</span></span>  
+37. <span data-ttu-id="612c3-154">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="612c3-154">Click OK.</span></span>
+38. <span data-ttu-id="612c3-155">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="612c3-155">Click the Mapping tab.</span></span>
+39. <span data-ttu-id="612c3-156">Í trénu skal velja '$BlocksList'.</span><span class="sxs-lookup"><span data-stu-id="612c3-156">In the tree, select '$BlocksList'.</span></span>
+40. <span data-ttu-id="612c3-157">Smelltu á Binda.</span><span class="sxs-lookup"><span data-stu-id="612c3-157">Click Bind.</span></span>
+    * <span data-ttu-id="612c3-158">Stofna línu fyrir hverja blokk sem er lögð á minni.</span><span class="sxs-lookup"><span data-stu-id="612c3-158">Create a summary line for each memorized block.</span></span>  
+41. <span data-ttu-id="612c3-159">Smellið á flipann snið.</span><span class="sxs-lookup"><span data-stu-id="612c3-159">Click the Format tab.</span></span>
+42. <span data-ttu-id="612c3-160">Í trénu skal velja 'Intrastat\Data\Totals by blocks\Block code'.</span><span class="sxs-lookup"><span data-stu-id="612c3-160">In the tree, select 'Intrastat\Data\Totals by blocks\Block code'.</span></span>
+43. <span data-ttu-id="612c3-161">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="612c3-161">Click the Mapping tab.</span></span>
+44. <span data-ttu-id="612c3-162">Smellt er á Breyta formúla.</span><span class="sxs-lookup"><span data-stu-id="612c3-162">Click Edit formula.</span></span>
+45. <span data-ttu-id="612c3-163">Í reitinn Formúla skal færa inn „„Kenni blokkar: “ & “.</span><span class="sxs-lookup"><span data-stu-id="612c3-163">In the Formula field, enter '"Block id: " & '.</span></span>
+    * <span data-ttu-id="612c3-164">„Kenni blokkar: “ &</span><span class="sxs-lookup"><span data-stu-id="612c3-164">"Block id: " &</span></span>  
+46. <span data-ttu-id="612c3-165">Í trénu skal víkka út '$BlocksList'.</span><span class="sxs-lookup"><span data-stu-id="612c3-165">In the tree, expand '$BlocksList'.</span></span>
+47. <span data-ttu-id="612c3-166">Í trénu skal velja '$BlocksList\Value'.</span><span class="sxs-lookup"><span data-stu-id="612c3-166">In the tree, select '$BlocksList\Value'.</span></span>
+48. <span data-ttu-id="612c3-167">Smellt er á Bæta við gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="612c3-167">Click Add data source.</span></span>
+49. <span data-ttu-id="612c3-168">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="612c3-168">Click Save.</span></span>
+50. <span data-ttu-id="612c3-169">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="612c3-169">Close the page.</span></span>
+51. <span data-ttu-id="612c3-170">Smellið á flipann snið.</span><span class="sxs-lookup"><span data-stu-id="612c3-170">Click the Format tab.</span></span>
+52. <span data-ttu-id="612c3-171">Í trénu skal velja 'Intrastat\Data\Totals by blocks\Lines counting'.</span><span class="sxs-lookup"><span data-stu-id="612c3-171">In the tree, select 'Intrastat\Data\Totals by blocks\Lines counting'.</span></span>
+53. <span data-ttu-id="612c3-172">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="612c3-172">Click the Mapping tab.</span></span>
+54. <span data-ttu-id="612c3-173">Smellt er á Breyta formúla.</span><span class="sxs-lookup"><span data-stu-id="612c3-173">Click Edit formula.</span></span>
+    * <span data-ttu-id="612c3-174">Stofna úttak fyrir fjölda lína fyrir hverja blokk sem er sýnd í þessari skýrslu.</span><span class="sxs-lookup"><span data-stu-id="612c3-174">Create output for the number of lines for each block presented in this report.</span></span>  
+55. <span data-ttu-id="612c3-175">Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& “.</span><span class="sxs-lookup"><span data-stu-id="612c3-175">In the Formula field, enter '"Number of lines in this block: " & '.</span></span>
+    * <span data-ttu-id="612c3-176">„Fjöldi lína í þessari blokk“ &</span><span class="sxs-lookup"><span data-stu-id="612c3-176">"Number of lines in this block: " &</span></span>  
+56. <span data-ttu-id="612c3-177">Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(“.</span><span class="sxs-lookup"><span data-stu-id="612c3-177">In the Formula field, enter '"Number of lines in this block: " & TEXT('.</span></span>
+    * <span data-ttu-id="612c3-178">„fjöldi lína í þessari blokk:“ .& TEXT(</span><span class="sxs-lookup"><span data-stu-id="612c3-178">"Number of lines in this block: " & TEXT(</span></span>  
+57. <span data-ttu-id="612c3-179">Í trénu skal velja 'Data collection functions\COUNTIFS'.</span><span class="sxs-lookup"><span data-stu-id="612c3-179">In the tree, select 'Data collection functions\COUNTIFS'.</span></span>
+58. <span data-ttu-id="612c3-180">Smelltu á Bæta við Aðgerð.</span><span class="sxs-lookup"><span data-stu-id="612c3-180">Click Add function.</span></span>
+59. <span data-ttu-id="612c3-181">Smellt er á Bæta við gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="612c3-181">Click Add data source.</span></span>
+60. <span data-ttu-id="612c3-182">Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, “.</span><span class="sxs-lookup"><span data-stu-id="612c3-182">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '.</span></span>
+    * <span data-ttu-id="612c3-183">„Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“,</span><span class="sxs-lookup"><span data-stu-id="612c3-183">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName',</span></span>  
+61. <span data-ttu-id="612c3-184">Í trénu skal víkka út '$BlocksList'.</span><span class="sxs-lookup"><span data-stu-id="612c3-184">In the tree, expand '$BlocksList'.</span></span>
+62. <span data-ttu-id="612c3-185">Í trénu skal velja '$BlocksList\Value'.</span><span class="sxs-lookup"><span data-stu-id="612c3-185">In the tree, select '$BlocksList\Value'.</span></span>
+63. <span data-ttu-id="612c3-186">Smellt er á Bæta við gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="612c3-186">Click Add data source.</span></span>
+64. <span data-ttu-id="612c3-187">Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, “.</span><span class="sxs-lookup"><span data-stu-id="612c3-187">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '.</span></span>
+    * <span data-ttu-id="612c3-188">„Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value,</span><span class="sxs-lookup"><span data-stu-id="612c3-188">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value,</span></span>  
+65. <span data-ttu-id="612c3-189">Í trénu skal velja '$RecName'.</span><span class="sxs-lookup"><span data-stu-id="612c3-189">In the tree, select '$RecName'.</span></span>
+66. <span data-ttu-id="612c3-190">Smellt er á Bæta við gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="612c3-190">Click Add data source.</span></span>
+67. <span data-ttu-id="612c3-191">Í reitnum Formúla skal færa inn „„fjöldi lína í þessari blokk: “ .& TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))“.</span><span class="sxs-lookup"><span data-stu-id="612c3-191">In the Formula field, enter '"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span></span>
+    * <span data-ttu-id="612c3-192">„Fjöldi lína í þessari blokk: “ & TEXT(COUNTIFS(„$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))</span><span class="sxs-lookup"><span data-stu-id="612c3-192">"Number of lines in this block: " & TEXT(COUNTIFS('$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span></span>  
+68. <span data-ttu-id="612c3-193">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="612c3-193">Click Save.</span></span>
+69. <span data-ttu-id="612c3-194">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="612c3-194">Close the page.</span></span>
+70. <span data-ttu-id="612c3-195">Smellið á flipann snið.</span><span class="sxs-lookup"><span data-stu-id="612c3-195">Click the Format tab.</span></span>
+71. <span data-ttu-id="612c3-196">Í trénu skal velja 'Intrastat\Data\Totals by blocks\Total amount'.</span><span class="sxs-lookup"><span data-stu-id="612c3-196">In the tree, select 'Intrastat\Data\Totals by blocks\Total amount'.</span></span>
+72. <span data-ttu-id="612c3-197">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="612c3-197">Click the Mapping tab.</span></span>
+73. <span data-ttu-id="612c3-198">Smellt er á Breyta formúla.</span><span class="sxs-lookup"><span data-stu-id="612c3-198">Click Edit formula.</span></span>
+    * <span data-ttu-id="612c3-199">Stofna úttak sem verður heildarupphæð reikningsfærðrar upphæðar fyrir hverja blokk sem er sýnd í þessari skýrslu.</span><span class="sxs-lookup"><span data-stu-id="612c3-199">Create output that will be the total of the invoiced amount for each block presented in this report.</span></span>  
+74. <span data-ttu-id="612c3-200">Í reitnum formúla skal færa inn „„Samtala reikningsfærðra upphæða:"  TEXT(SUMIFS(„$InvName“, „$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))“.</span><span class="sxs-lookup"><span data-stu-id="612c3-200">In the Formula field, enter '"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.</span></span>
+    * <span data-ttu-id="612c3-201">„Samtala reikningsfærðra upphæða:"  TEXT(SUMIFS(„$InvName“, „$BlockName“, „$BlocksList“.Value, „$RecName“, „*“))</span><span class="sxs-lookup"><span data-stu-id="612c3-201">"Sum of invoiced amount: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))</span></span>  
+75. <span data-ttu-id="612c3-202">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="612c3-202">Click Save.</span></span>
+76. <span data-ttu-id="612c3-203">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="612c3-203">Close the page.</span></span>
+77. <span data-ttu-id="612c3-204">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="612c3-204">Click Save.</span></span>
+78. <span data-ttu-id="612c3-205">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="612c3-205">Close the page.</span></span>
 
 

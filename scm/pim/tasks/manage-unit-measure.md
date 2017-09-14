@@ -16,59 +16,59 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: de5baa1e5c30ee998d113f7366c445a65723dfdc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6bb7a5133e9412f4ed6fb74f0d3ee595c07a0c4b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-unit-of-measure"></a>Stjórna mælieiningu
+# <a name="manage-unit-of-measure"></a><span data-ttu-id="1229f-103">Stjórna mælieiningu</span><span class="sxs-lookup"><span data-stu-id="1229f-103">Manage unit of measure</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi ferli sýnir hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar. Hægt er að fara í gegnum þetta ferli með því að nota sýnigögn eða með því að nota eigin gögn.
+<span data-ttu-id="1229f-104">Þessi ferli sýnir hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar.</span><span class="sxs-lookup"><span data-stu-id="1229f-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="1229f-105">Hægt er að fara í gegnum þetta ferli með því að nota sýnigögn eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="1229f-105">You can walk through this procedure using demo data, or using your own data.</span></span>
 
-1. Farðu í Viðhald útgefinnar afurðar.
-2. Smellt er á Einingum.
+1. <span data-ttu-id="1229f-106">Farðu í Viðhald útgefinnar afurðar.</span><span class="sxs-lookup"><span data-stu-id="1229f-106">Go to Released product maintenance.</span></span>
+2. <span data-ttu-id="1229f-107">Smellt er á Einingum.</span><span class="sxs-lookup"><span data-stu-id="1229f-107">Click Units.</span></span>
 
-## <a name="create-a-unit-of-measure"></a>Stofna mælieiningu
-1. Smellið á „Nýtt“.
-2. Í reitnum Eining skal slá inn gildi.
-    * Færið inn Kenni eða tákn sem nota á þegar vísað er í mælieiningu.  
-3. Sláið inn gildi í reitnum „Lýsing“.
-    * Færið inn lýsandi heiti fyrir mælieiningu á tungumáli kerfisins.  
-4. Í reitnum Einingaflokkur skal velja valkost.
-    * Mælieiningaflokkurinn skilgreinir hvaða röklegu flokkun, eins og svæði, fjöldi eða magni, mælieiningin er hluti af.  
-5. Í reitinn Nákvæmni aukastafa skal slá inn númer.
-    * Tilgreina fjölda aukastafa sem verður að slétta umreiknaðar mælieiningu í þegar útreikningi er lokið fyrir mælieiningu.  
-6. Smellið á „Vista“.
+## <a name="create-a-unit-of-measure"></a><span data-ttu-id="1229f-108">Stofna mælieiningu</span><span class="sxs-lookup"><span data-stu-id="1229f-108">Create a unit of measure</span></span>
+1. <span data-ttu-id="1229f-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1229f-109">Click New.</span></span>
+2. <span data-ttu-id="1229f-110">Í reitnum Eining skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-110">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="1229f-111">Færið inn Kenni eða tákn sem nota á þegar vísað er í mælieiningu.</span><span class="sxs-lookup"><span data-stu-id="1229f-111">Enter the ID or symbol to use when referring to the unit of measure.</span></span>  
+3. <span data-ttu-id="1229f-112">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="1229f-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="1229f-113">Færið inn lýsandi heiti fyrir mælieiningu á tungumáli kerfisins.</span><span class="sxs-lookup"><span data-stu-id="1229f-113">Enter a descriptive name for the unit of measure in the system language.</span></span>  
+4. <span data-ttu-id="1229f-114">Í reitnum Einingaflokkur skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="1229f-114">In the Unit class field, select an option.</span></span>
+    * <span data-ttu-id="1229f-115">Mælieiningaflokkurinn skilgreinir hvaða röklegu flokkun, eins og svæði, fjöldi eða magni, mælieiningin er hluti af.</span><span class="sxs-lookup"><span data-stu-id="1229f-115">The unit class defines what logical grouping, such as area, mass, or quantity, the unit of measure is part of.</span></span>  
+5. <span data-ttu-id="1229f-116">Í reitinn Nákvæmni aukastafa skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="1229f-116">In the Decimal precision field, enter a number.</span></span>
+    * <span data-ttu-id="1229f-117">Tilgreina fjölda aukastafa sem verður að slétta umreiknaðar mælieiningu í þegar útreikningi er lokið fyrir mælieiningu.</span><span class="sxs-lookup"><span data-stu-id="1229f-117">Specify the number of decimals that the converted unit of measure must be rounded to when a calculation is completed for the unit of measure.</span></span>  
+6. <span data-ttu-id="1229f-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="1229f-118">Click Save.</span></span>
 
-## <a name="define-unit-translations"></a>Skilgreina þýðingar eininga
-1. Smellt er á einingatexti.
-2. Smellið á „Nýtt“.
-    * Einingatexti skal nota til að stofna þýðing fyrir Kenni eða tákn sem standa fyrir mælieiningu sem nota á á ytri skjöl í tungumálum fyrir viðskiptavin eða lánardrottin.  
-3. Í reitnum Tungumál skal færa inn eða velja gildi.
-4. Í reitinn Texti skal slá inn gildi.
-5. Smellið á „Vista“.
-6. Lokið síðunni.
-7. Smellt er á Þýddar einingalýsingar.
-8. Smellið á „Nýtt“.
-    * Skilgreina lýsingar fyrir tiltekin tungumál fyrir mælieiningu.  
-9. Í reitnum Tungumál skal færa inn eða velja gildi.
-10. Sláið inn gildi í reitnum „Lýsing“.
-11. Smellið á „Vista“.
-12. Lokið síðunni.
+## <a name="define-unit-translations"></a><span data-ttu-id="1229f-119">Skilgreina þýðingar eininga</span><span class="sxs-lookup"><span data-stu-id="1229f-119">Define unit translations</span></span>
+1. <span data-ttu-id="1229f-120">Smellt er á einingatexti.</span><span class="sxs-lookup"><span data-stu-id="1229f-120">Click Unit texts.</span></span>
+2. <span data-ttu-id="1229f-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1229f-121">Click New.</span></span>
+    * <span data-ttu-id="1229f-122">Einingatexti skal nota til að stofna þýðing fyrir Kenni eða tákn sem standa fyrir mælieiningu sem nota á á ytri skjöl í tungumálum fyrir viðskiptavin eða lánardrottin.</span><span class="sxs-lookup"><span data-stu-id="1229f-122">Use unit text to create a translation of the ID or a symbol representing the unit of measure for use on external documents in customer- or vendor-specific languages.</span></span>  
+3. <span data-ttu-id="1229f-123">Í reitnum Tungumál skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-123">In the Language field, enter or select a value.</span></span>
+4. <span data-ttu-id="1229f-124">Í reitinn Texti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-124">In the Text field, type a value.</span></span>
+5. <span data-ttu-id="1229f-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="1229f-125">Click Save.</span></span>
+6. <span data-ttu-id="1229f-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="1229f-126">Close the page.</span></span>
+7. <span data-ttu-id="1229f-127">Smellt er á Þýddar einingalýsingar.</span><span class="sxs-lookup"><span data-stu-id="1229f-127">Click Translated unit descriptions.</span></span>
+8. <span data-ttu-id="1229f-128">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1229f-128">Click New.</span></span>
+    * <span data-ttu-id="1229f-129">Skilgreina lýsingar fyrir tiltekin tungumál fyrir mælieiningu.</span><span class="sxs-lookup"><span data-stu-id="1229f-129">Define language-specific descriptions for the unit of measure.</span></span>  
+9. <span data-ttu-id="1229f-130">Í reitnum Tungumál skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-130">In the Language field, enter or select a value.</span></span>
+10. <span data-ttu-id="1229f-131">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="1229f-131">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="1229f-132">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="1229f-132">Click Save.</span></span>
+12. <span data-ttu-id="1229f-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="1229f-133">Close the page.</span></span>
 
-## <a name="define-unit-conversion-rules"></a>Skilgreina umreikningsreglur eininga
-1. Smellt er á Umreikningur eininga.
-    * Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.  
-2. Smellt er á Nýtt til að opna felligluggann.
-3. Í reitnum Stuðull skal slá inn tölu.
-    * Umreiknistuðull milli Frá einingu og Til einingar. til dæmis er umreiknistuðullinn úr sentímetrum í metra 100 þar sem 100 sentímetrar eru í einum metra.  
-4. Í reitnum Til einingar skal færa inn eða velja gildi.
-5. Í reitnum Sléttun skal velja valkost.
-    * Skilgreina hvernig slétta skal umbreytt gildi.  
-6. Smellið á „Í lagi“.
-7. Lokið síðunni.
+## <a name="define-unit-conversion-rules"></a><span data-ttu-id="1229f-134">Skilgreina umreikningsreglur eininga</span><span class="sxs-lookup"><span data-stu-id="1229f-134">Define unit conversion rules</span></span>
+1. <span data-ttu-id="1229f-135">Smellt er á Umreikningur eininga.</span><span class="sxs-lookup"><span data-stu-id="1229f-135">Click Unit conversions.</span></span>
+    * <span data-ttu-id="1229f-136">Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.</span><span class="sxs-lookup"><span data-stu-id="1229f-136">Define rules for converting the unit of measure to and from other units of measure in the selected unit class.</span></span>  
+2. <span data-ttu-id="1229f-137">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="1229f-137">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="1229f-138">Í reitnum Stuðull skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="1229f-138">In the Factor field, enter a number.</span></span>
+    * <span data-ttu-id="1229f-139">Umreiknistuðull milli Frá einingu og Til einingar.</span><span class="sxs-lookup"><span data-stu-id="1229f-139">Conversion factor between the From unit and the To unit.</span></span> <span data-ttu-id="1229f-140">til dæmis er umreiknistuðullinn úr sentímetrum í metra 100 þar sem 100 sentímetrar eru í einum metra.</span><span class="sxs-lookup"><span data-stu-id="1229f-140">For example, the conversion factor from centimeter to meter is 100 because there are 100 centimeters in one meter.</span></span>  
+4. <span data-ttu-id="1229f-141">Í reitnum Til einingar skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-141">In the To unit field, enter or select a value.</span></span>
+5. <span data-ttu-id="1229f-142">Í reitnum Sléttun skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="1229f-142">In the Rounding field, select an option.</span></span>
+    * <span data-ttu-id="1229f-143">Skilgreina hvernig slétta skal umbreytt gildi.</span><span class="sxs-lookup"><span data-stu-id="1229f-143">Define how the converted value should be rounded.</span></span>  
+6. <span data-ttu-id="1229f-144">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="1229f-144">Click OK.</span></span>
+7. <span data-ttu-id="1229f-145">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="1229f-145">Close the page.</span></span>
 
 

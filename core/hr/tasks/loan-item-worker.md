@@ -16,31 +16,31 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 38fb707622e9cc5b66376715d41bb79975e9a64a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 665dd5868b9a731caf9c847b7ca33f039fe083e3
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="loan-items-to-a-worker"></a>Lána starfmanni vörur
+# <a name="loan-items-to-a-worker"></a><span data-ttu-id="ce09c-103">Lána starfmanni vörur</span><span class="sxs-lookup"><span data-stu-id="ce09c-103">Loan items to a worker</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að lána vöru til starfsmanns og skrá starfsmanns sem skilar vöru. Starfsmenn geta einnig beðið um lánshluti gegnum sjálfsafgreiðslusíðum Starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="ce09c-104">Þessi verklýsing sýnir hvernig á að lána vöru til starfsmanns og skrá starfsmanns sem skilar vöru.</span><span class="sxs-lookup"><span data-stu-id="ce09c-104">This procedure shows how to loan an item to a worker and record the worker returning an item.</span></span> <span data-ttu-id="ce09c-105">Starfsmenn geta einnig beðið um lánshluti gegnum sjálfsafgreiðslusíðum Starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="ce09c-105">Workers can also request loan items through their Employee self-service pages.</span></span> <span data-ttu-id="ce09c-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="ce09c-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="loan-item-to-a-worker"></a>Lánshlutur fyrir starfsmann
-1. Farið í Mannauður > Starfsmenn > Lánshlutir > Lánaður búnaður.
-2. Smellið á „Nýtt“.
-3. Sláið inn eða veldu gildi í reitnum einstaklingur.
-4. Í reitinn lánshlutur skal slá inn eða velja gildi.
-5. Í Áætluð skil svæðinu, færið inn dagsetning sem starfsmaðurinn þarf að skila lánshlut.
-6. Smellið á „Vista“.
-7. Lokið síðunni.
+## <a name="loan-item-to-a-worker"></a><span data-ttu-id="ce09c-107">Lánshlutur fyrir starfsmann</span><span class="sxs-lookup"><span data-stu-id="ce09c-107">Loan item to a worker</span></span>
+1. <span data-ttu-id="ce09c-108">Farið í Mannauður > Starfsmenn > Lánshlutir > Lánaður búnaður.</span><span class="sxs-lookup"><span data-stu-id="ce09c-108">Go to Human resources > Workers > Loan items > Loaned equipment.</span></span>
+2. <span data-ttu-id="ce09c-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ce09c-109">Click New.</span></span>
+3. <span data-ttu-id="ce09c-110">Sláið inn eða veldu gildi í reitnum einstaklingur.</span><span class="sxs-lookup"><span data-stu-id="ce09c-110">In the Person field, enter or select a value.</span></span>
+4. <span data-ttu-id="ce09c-111">Í reitinn lánshlutur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="ce09c-111">In the Loan item field, enter or select a value.</span></span>
+5. <span data-ttu-id="ce09c-112">Í Áætluð skil svæðinu, færið inn dagsetning sem starfsmaðurinn þarf að skila lánshlut.</span><span class="sxs-lookup"><span data-stu-id="ce09c-112">In the Planned return field, enter the date the employee needs to return the loan item.</span></span>
+6. <span data-ttu-id="ce09c-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ce09c-113">Click Save.</span></span>
+7. <span data-ttu-id="ce09c-114">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ce09c-114">Close the page.</span></span>
 
-## <a name="return-a-loan-item"></a>Skila Lánshlut
-1. Farið í Mannauður > Starfsmenn > Lánshlutir > Lánaður búnaður.
-2. Smellið á „Breyta“.
-3. Í reitinn raunveruleg skil skal færa inn dagsetningu.
+## <a name="return-a-loan-item"></a><span data-ttu-id="ce09c-115">Skila Lánshlut</span><span class="sxs-lookup"><span data-stu-id="ce09c-115">Return a loan item</span></span>
+1. <span data-ttu-id="ce09c-116">Farið í Mannauður > Starfsmenn > Lánshlutir > Lánaður búnaður.</span><span class="sxs-lookup"><span data-stu-id="ce09c-116">Go to Human resources > Workers > Loan items > Loaned equipment.</span></span>
+2. <span data-ttu-id="ce09c-117">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="ce09c-117">Click Edit.</span></span>
+3. <span data-ttu-id="ce09c-118">Í reitinn raunveruleg skil skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="ce09c-118">In the Actual return field, enter a date.</span></span>
 
 

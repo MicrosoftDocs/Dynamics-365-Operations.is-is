@@ -16,29 +16,29 @@ ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0f7ea6d92ac198b3d86094f61c4f24f007c2d615
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-the-banner-or-logo"></a>Breyta borða eða kennimerki
+# <a name="change-the-banner-or-logo"></a><span data-ttu-id="390b9-103">Breyta borða eða kennimerki</span><span class="sxs-lookup"><span data-stu-id="390b9-103">Change the banner or logo</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+<span data-ttu-id="390b9-104">Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila.</span><span class="sxs-lookup"><span data-stu-id="390b9-104">The following procedure lists the steps that system administrators can use to update the banner or logo image that is displayed for a legal entity.</span></span> <span data-ttu-id="390b9-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="390b9-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.
-2. Velja lögaðilann sem á að uppfæra borða eða merki fyrirtækis af listanum vinstra megin. Ef hann er þegar valinn fara í næsta skref.
-3. Stækka Myndir hluti. Ef það er þegar útvíkkaður, að fara í næsta skref.
-4. Smella á Breyta.
-5. Í fyrirtækismynd yfirlits svæðinu, veljið ‚borði'.
-6. Smellt er á breyta.
-    * Ábending: Upplausn tilvalið fyrir borðamynd er 1920 x 281 dílar. Breidd tilvalið fyrir mynd með fyrirtækismerki er 350 dílar.  
-    * Þegar upphali er lokið, ættu að birtast við nýja borða eða mynd með fyrirtækismerki í hlutanum Mynd yfirlits.  
-7. Smellið á „Vista“.
-8. Fara í Almenn > Almenn > Sjálfgefið yfirlit.
-    * Ný borði eða merki fyrirtækis ættu að birtast á á yfirliti.  
-    * Hugsanlega þarf að breyta fyrirtækinu, og nota fyrirtækjaval, á það sem borða var hlaðið upp fyrir.  
+1. <span data-ttu-id="390b9-106">Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.</span><span class="sxs-lookup"><span data-stu-id="390b9-106">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="390b9-107">Velja lögaðilann sem á að uppfæra borða eða merki fyrirtækis af listanum vinstra megin.</span><span class="sxs-lookup"><span data-stu-id="390b9-107">In the list on the left, select the legal entity for which you want to update the banner or logo.</span></span> <span data-ttu-id="390b9-108">Ef hann er þegar valinn fara í næsta skref.</span><span class="sxs-lookup"><span data-stu-id="390b9-108">If it is already selected, go to the next step.</span></span>
+3. <span data-ttu-id="390b9-109">Stækka Myndir hluti.</span><span class="sxs-lookup"><span data-stu-id="390b9-109">Expand the Images section.</span></span> <span data-ttu-id="390b9-110">Ef það er þegar útvíkkaður, að fara í næsta skref.</span><span class="sxs-lookup"><span data-stu-id="390b9-110">If it is already expanded, go to the next step.</span></span>
+4. <span data-ttu-id="390b9-111">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="390b9-111">Click Edit.</span></span>
+5. <span data-ttu-id="390b9-112">Í fyrirtækismynd yfirlits svæðinu, veljið ‚borði'.</span><span class="sxs-lookup"><span data-stu-id="390b9-112">In the Dashboard company image type field, select 'Banner'.</span></span>
+6. <span data-ttu-id="390b9-113">Smellt er á breyta.</span><span class="sxs-lookup"><span data-stu-id="390b9-113">Click Change.</span></span>
+    * <span data-ttu-id="390b9-114">Ábending: Upplausn tilvalið fyrir borðamynd er 1920 x 281 dílar.</span><span class="sxs-lookup"><span data-stu-id="390b9-114">Tip: The ideal resolution for a banner image is 1920 x 281 pixels.</span></span> <span data-ttu-id="390b9-115">Breidd tilvalið fyrir mynd með fyrirtækismerki er 350 dílar.</span><span class="sxs-lookup"><span data-stu-id="390b9-115">The ideal width for a logo image is 350 pixels.</span></span>  
+    * <span data-ttu-id="390b9-116">Þegar upphali er lokið, ættu að birtast við nýja borða eða mynd með fyrirtækismerki í hlutanum Mynd yfirlits.</span><span class="sxs-lookup"><span data-stu-id="390b9-116">When the upload is complete, you should see your new banner or logo image in the Dashboard Image section.</span></span>  
+7. <span data-ttu-id="390b9-117">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="390b9-117">Click Save.</span></span>
+8. <span data-ttu-id="390b9-118">Fara í Almenn > Almenn > Sjálfgefið yfirlit.</span><span class="sxs-lookup"><span data-stu-id="390b9-118">Go to Common > Common > Default dashboard.</span></span>
+    * <span data-ttu-id="390b9-119">Ný borði eða merki fyrirtækis ættu að birtast á á yfirliti.</span><span class="sxs-lookup"><span data-stu-id="390b9-119">You should see the new banner or logo image on the dashboard.</span></span>  
+    * <span data-ttu-id="390b9-120">Hugsanlega þarf að breyta fyrirtækinu, og nota fyrirtækjaval, á það sem borða var hlaðið upp fyrir.</span><span class="sxs-lookup"><span data-stu-id="390b9-120">You may need to change your company, using the company picker, to the one you uploaded the banner for.</span></span>  
 
 
