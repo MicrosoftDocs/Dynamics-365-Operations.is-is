@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Aðgangsréttindi stjórnborðs kostnaðarhlutar
+# <a name="access-rights-of-a-cost-object-controller"></a>Aðgangsréttindi stjórnborðs kostnaðarhlutar
 
 [!include[banner](../includes/banner.md)]
 
