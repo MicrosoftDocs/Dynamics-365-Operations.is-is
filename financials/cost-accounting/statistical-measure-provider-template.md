@@ -1,7 +1,7 @@
 ---
 title: "Sniðmát meðlima tölfræðivídda og tölfræðiveita"
 description: "Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát. Meðlimi víddar vinnslu geta verið notaðir sem úthlutun grunneining í reglum eins og kostnaðar dreifingu og kostnaðarúthlutun. Þær einnig má nota til að skrá notkun peningalegt-ekki kostnað."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: b4d8ddf1990377e46502a49ffa38e7afa46273da
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: e50fa3cbc34f1e241bf33c1b53573f83d78e93ab
 ms.contentlocale: is-is
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
