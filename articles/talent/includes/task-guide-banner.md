@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="bc612-101">Breytingar á þessu efnisatriði verða ekki samþykktar þar sem það er búið til úr viðskiptaferli í Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="bc612-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
