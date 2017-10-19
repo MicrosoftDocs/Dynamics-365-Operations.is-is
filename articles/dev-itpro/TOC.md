@@ -451,6 +451,7 @@
 ### [Skipting líkana](dev-tools/model-split.md)
 ### [Notkun fulltrúa til að leysa tengsl á milli líkana](migration-upgrade/delegates-migration.md)
 
+
 ## Uppfæra í nýjustu uppfærslu
 ### [Ferli fyrir flutning í nýjustu uppfærslu](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-stefna](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Upphleðsla sérstilltra viðskiptaferla](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Eftirlit og greiningar ](lifecycle-services/monitoring-diagnostics.md)
 ## [Eignasafn](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - yfirlit yfir þýðingarþjónustu](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 - notendahandbók fyrir þýðingaþjónustu  ](lifecycle-services/use-translation-service.md)
 
 ## Eiginleikar Dynamics AX 2012 Lifecycle Services
 ### Uppsetning

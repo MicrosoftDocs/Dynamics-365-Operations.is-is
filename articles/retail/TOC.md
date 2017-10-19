@@ -1,7 +1,10 @@
 # [Velkomin(n) í Dynamics 365 for Retail](index.md)
 
+# Hefjast handa
+## [Nýjungar eða breytingar](get-started/whats-new.md)
+
 # Greiðslur
-## [Greiðsluhættir](payment-methods.md)
+## [Greiðslumátar](payment-methods.md)
 ## [Uppsetning kreditkorts, heimild og úthlutun](../financials/accounts-receivable/credit-card-authorizations.md)
 ## [Skilgreina greiðslumáta fyrir sölustaði](cash-denominations.md)
 ## [Algengar spurningar um greiðslur](dev-itpro/payments-retail.md)
@@ -173,9 +176,10 @@
 ### [Skilgreining og uppsetning Retail Modern POS](retail-modern-pos-device-activation.md)
 #### [Stjórnun smásölulykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
 #### [Tækisvirkjun Retail POS](dev-itpro/retail-device-activation.md)
-#### [Öruggt smásölukerfi í skýinu](dev-itpro/secure-retail-cloud-pos.md)
+#### [Öruggt Retail sölukerfi í skýinu](dev-itpro/secure-retail-cloud-pos.md)
 ### [Skilgreining og uppsetning Retail Hardware Station](retail-hardware-station-configuration-installation.md)
-### [Tilvik smásöluíhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir Retail](dev-itpro/retail-mass-deployment.md)
+### [Tilvik Retail íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Virkjanlegur pakki notaður](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Uppfærsla og stuðningur N-1
