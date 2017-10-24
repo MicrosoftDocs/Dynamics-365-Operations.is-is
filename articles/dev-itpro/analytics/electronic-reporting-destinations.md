@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -101,7 +101,7 @@ Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skja
 
 #### <a name="sharepoint"></a>SharePoint
 
-Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sjálfgefinn þjón SharePoint á **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar** á í **SharePoint** flipanum. Eftir að SharePoint-möppu er skilgreint er hægt að velja það sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistuð fyrir skráargerðina. 
+Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sjálfgefinn þjón SharePoint á **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar**á í **SharePoint** flipanum. Eftir að SharePoint-möppu er skilgreint er hægt að velja það sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistuð fyrir skráargerðina. 
 
 [![Val á SharePoint-möppu](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 

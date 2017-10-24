@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -117,7 +117,7 @@ Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innih
     | LINE4                         | Þykk lína og mjó lína           | Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þykk, neðasta línan er þunn.                                                                                                                       |
     | LINE5                         | Mjó lína og þykk lína           | Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þunn, neðasta línan er þykk.                                                                                                                       |
     | BXB BXC                       | Innrömmuð lína                          | Dregur ramma utan um skýrslulínuna sem hefst með **BXB**-línunni og lýkur með **BXC**-línunni.                                                                                                               |
-    | REM                           | Athugasemd                             | Auðkennir línu sem er athugasemdalína og ætti ekki að vera prentuð í skýrslunni. Til dæmis gæti athugasemdalína verið til að skýra sniðmátsaðferðir.                                                            |
+    | REM                           | Athugasemd                             | Auðkennir línu sem er athugasemdalína og ætti ekki að vera prentuð í skýrslunni. TIl dæmis gæti athugasemdalína verið til að skýra sniðmátsaðferðir.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Raða                               | Raðar kostnaðar- eða tekjuliðum, raðar raunskýrslum eða fjárhagsfrávikaskýrslum eftir mestu frávikum eða raðar línulýsingum eftir stafrófsröð.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Tilgreina Tengdar formúlur/línur/einingar
@@ -145,7 +145,7 @@ Notið formúlu fyrir línusamtölu til að bæta við eða draga frá upphæði
 
 ### <a name="create-a-row-total"></a>Línusamtala stofnuð
 
-1.  Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
+1.  Smellið á **Línuskilgreiningar** í Report Designer og opnið svo línuskilgreininguna sem á að breyta.
 2.  Tvísmellið á hólfið **Sniðkóði** í línuskilgreiningunni og veljið **TOT**.
 3.  Í hólfinu **Tengdar formúlur/línur/einingar** er slegin inn formúla fyrir samtölu.
 
@@ -221,17 +221,17 @@ Eftirfarandi dæmi um einingar sýnir hækkandi röðun gilda í dálki D í sk�
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
 | 100      | Raðað eftir mánaðarlegum frávikum í hækkandi röð       | DES         |                             |                |                    |                              |
 | 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Sala                                               |             |                             | K              |                    | 4100                         |
+| 160      | Sala                                               |             |                             | C              |                    | 4100                         |
 | 190      | Söluskil                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Vaxtatekjur                                     |             |                             | K              |                    | 7000                         |
+| 490      | Vaxtatekjur                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
 | 550      | Raðað eftir YTD-raunfrávikum í lækkandi röð | DES         |                             |                |                    |                              |
 | 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
-| 610      | Sala                                               |             |                             | K              |                    | 4100                         |
+| 610      | Sala                                               |             |                             | C              |                    | 4100                         |
 | 640      | Söluskil                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Vaxtatekjur                                     |             |                             | K              |                    | 7000                         |
+| 940      | Vaxtatekjur                                     |             |                             | C              |                    | 7000                         |
 
 Hér er dæmi um hvernig skýrslan er stofnuð.
 
@@ -383,7 +383,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 
 ### <a name="specify-a-dimension-or-range"></a>Vídd eða svið tilgreind
 
-1.  Opnið skilgreiningu raðar í Skýrsluhönnun til að gera breytingar.
+1.  Opnið skilgreiningu raðar í Report Designer til að gera breytingar.
 2.  Tvísmellið á hólfið í dálkinum **Tengill í fjárhagsvíddir**.
 3.  Í svarglugganum **Víddir** er tvísmellt á hólf undir víddarheitinu.
 4.  Í svarglugganum fyrir víddina skal velja **Stakur eða svið**.
@@ -480,7 +480,7 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 
 ### <a name="update-a-set-of-dimension-values"></a>Samstæða víddargilda uppfærð
 
-1.  Opnið línu-, dálk- eða skipuritsskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1.  Opnið línu-, dálk- eða skipuritsskilgreiningu í Report Designer til að gera breytingar.
 2.  Á valmyndinni **Breyta** er smellt á **Vinna með samstæður víddargilda**.
 3.  Í svarglugganum **Vinna með samstæður víddargilda** er valin tegund víddar í reitnum **Vídd**.
 4.  Veljið víddargildissamstæðu sem á að uppfæra af listanum og smellið á **Breyta**.
@@ -500,7 +500,7 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 
 ### <a name="delete-a-dimension-set"></a>Víddasamstæðu eytt
 
-1.  Opnið línu-, dálk- eða skipuritsskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1.  Opnið línu-, dálk- eða skipuritsskilgreiningu í Report Designer til að gera breytingar.
 2.  Á valmyndinni **Breyta** er smellt á **Vinna með samstæður víddargilda**.
 3.  Í svarglugganum **Vinna með samstæður víddargilda** er valin tegund víddar í reitnum **Vídd**.
 4.  Samstæðan sem á að eyða er valin og svo er smellt á **Eyða**. Smellið á **Já** til að eyða víddagildasamstæðunni varanlega.

@@ -16,13 +16,13 @@ ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ Dálkskilgreining getur innihaldið tvo til 255 dálka.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Dálki eytt úr dálkskilgreiningu
 
-1.  Smellið á **Dálkskilgreiningar** í Skýrsluhönnun og opnið síðan dálkskilgreininguna sem á að breyta.
+1.  Smellið á **Dálkskilgreiningar** í Report Designer og opnið síðan dálkskilgreininguna sem á að breyta.
 2.  Veljið dálkinn sem á að eyða.
 3.  Á valmyndinni **Breyta** er smellt á **Eyða dálki**.
 
@@ -209,7 +209,7 @@ Pála er að búa til skýrslu fyrir sex mánaða spá. Hún vill að orðið Ra
 | Fyrirsögn 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Fyrirsögn 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Gerð dálks         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
-| Bókarkóði/Eigind |      | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    |
+| Bókarkóði/Eigind |      | ACTUAL        | Fjárhagsáætlun2012    | ACTUAL        | Fjárhagsáætlun2012    | ACTUAL        | Fjárhagsáætlun2012    | ACTUAL        | Fjárhagsáætlun2012    | ACTUAL        | Fjárhagsáætlun2012    | ACTUAL        | Fjárhagsáætlun2012    |
 | Fjárhagsár         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Tímabil              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
 | Tímabil sem er tekið með     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
@@ -236,7 +236,7 @@ Eftir að hún hefur lokið að færa inn upplýsingar, Pála smellir á **Í la
 | Setja inn sjálfvirkan texta    | Ekkert er valið |
 | Sniðvalkostir     | Reitur                   |
 | Jöfnun      | Ekkert er valið |
-| Byrjar á        | K                     |
+| Byrjar á        | C                     |
 | Endar á          | BASE+2                |
 
 Í hvert skipti sem skýrsla er mynduð mun orðið Raunverulegt vera prentað fyrir ofan dálkana sem innihalda raungögn og að orðið Fjárhagsáætlun verði prentað fyrir ofan dálkana sem innihalda fjárhagsáætlunarspár. Þar að auki, fjölda dálka verður leiðréttir hvern mánuð.
@@ -284,7 +284,7 @@ Hólfið **Hnekking sniðs/gjaldmiðils** tilgreinir snið tugabrota-, gjaldmið
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Hnekkingu á gjaldmiðilssniði úthlutað á skýrsludálk
 
-1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1.  Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
 2.  Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils** í upphæðardálki.
 3.  Snið er valið í svarglugganum **Hnekkja sniði**.
 
@@ -317,7 +317,7 @@ Hólfið **Stilling fyrir prentun** inniheldur kóða sem stilla birtingar- eða
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Kóða stillingar fyrir prentun bætt við skýrsludálk
 
-1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1.  Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
 2.  Tvísmellið á hólfið **Stilling fyrir prentun**.
 3.  Í svarglugganum **Stilling fyrir prentun** er valinn kóði af listanum **Velja stillingarvalkosti prentunar**. Ef velja á fleiri en einn kóða skal halda niðri CTRL-takkanum um leið og kóðarnir eru valdir.
 4.  Veljið valkost í reitnum **Skilyrtir prentvalkostir**. **(ekkert)** er sjálfgefið valið. Aðeins er hægt að velja einn skilyrtan prentkóða í einu.
@@ -349,13 +349,13 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>sýna fjárhagsgögn eða gögn úr Excel-vinnublað þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> eða dálkinn <strong>Tengill í vinnublað</strong> í línuskilgreiningum. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
-    <li><strong>Bókarkóði/Eigindaflokkur</strong> – ACTUAL</li>
-    <li><strong>Bókarkóði/Eigindaflokkur</strong> – ACTUAL</li>
-    <li><strong>Fjárhagsár</strong> – BASE</li>
-    <li><strong>Tímabil</strong> – BASE</li>
-    <li><strong>Tímabil sem er tekið með</strong> – PERIODIC</li>
-    <li><strong>Dálkbreidd</strong> – 14</li>
+    <td>Sýna fjárhagsgögn eða gögn úr Excel-vinnublaði þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> eða dálkinn <strong>Tengill í vinnublað</strong> í línuskilgreiningum. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
+    <li><strong>Bókarkóði/Eigindaflokkur:</strong> – ACTUAL</li>
+    <li><strong>Bókarkóði/Eigindaflokkur:</strong> – ACTUAL</li>
+    <li><strong>Fjárhagsár:</strong> – BASE</li>
+    <li><strong>Tímabil:</strong> – BASE</li>
+    <li><strong>Tímabil sem er tekið með:</strong> – PERIODIC</li>
+    <li><strong>Dálkbreidd:</strong> 14</li>
     </ul>
 Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
@@ -373,11 +373,11 @@ Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
     <tr class="odd">
     <td>ACCT (reikningskóðar)</td>
-    <td>birta fjárhagsleg hlutagildi eða víddargildi sem eiga við hverja línu. Fyrir upplýsingaskýrslur um reikninga og skýrslur um færsluupplýsingar er prentaður fullgildur reikningur (t.d. <strong>110140-070-0101</strong>). Hafi svið verið tilgreind í dálknum <strong>Tengill í fjárhagsvíddir</strong> í tengdri línuskilgreiningu er sviðið haft í hornklofum og meðhöndlað líkt og það væri eitt stakt gildi (til dæmis, <strong>[110140:110700]-070-[0101:0200]</strong>). Fjárhagsgagnatengillinn úr línuskilgreiningunni er prentaður fyrir fjárhagsskýrslur og efra-stigs skýrslur sem eru samsetning úr nokkrum reikningum, til dæmis (t.d. <strong>1100:1200</strong>).</td>
+    <td>birta fjárhagsleg hlutagildi eða víddargildi sem eiga við hverja línu. Fyrir upplýsingaskýrslur um reikninga og skýrslur um færsluupplýsingar er prentaður heildstæður reikningur, (t.d. <strong>110140-070-0101</strong>). Hafi svið verið tilgreind í dálknum <strong>Tengill í fjárhagsvíddir</strong> í tengdri línuskilgreiningu er sviðið haft í hornklofum og meðhöndlað líkt og það væri eitt stakt gildi (til dæmis, <strong>[110140:110700]-070-[0101:0200]</strong>). Fjárhagsgagnatengillinn úr línuskilgreiningunni er prentaður fyrir fjárhagsskýrslur og efra-stigs skýrslur sem eru samsetning úr nokkrum reikningum, til dæmis <strong>1100:1200</strong>.</td>
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong> <strong>'.'</strong>.</td>
+    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong><strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
@@ -386,8 +386,8 @@ Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     <tr class="even">
     <td>WKS</td>
     <td>birta gögn sem eru sótt úr Excel-vinnublað. Þegar dálkategundin <strong>WKS</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
-    <li><strong>Fjárhagsár</strong> – Reglubundið</li>
-    <li><strong>Tímabil</strong> – BASE</li>
+    <li><strong>Fjárhagsár</strong> – PERIODIC</li>
+    <li><strong>Tímabil:</strong> – BASE</li>
     </ul>
 Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
@@ -437,7 +437,7 @@ Hægt er að fara yfir mörk fjárhagsársins í hvaða tímabilsskilgreiningu s
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Tímabilin tilgreind fyrir FD-dálk
 
-1.  Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1.  Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
 2.  Í dálkinum **FD** er tvísmellt á hólfið í línunni **Tímabil** og síðan er valkostur valinn á listanum.
 3.  Á formúlustikunni (fyrir ofan yfirlitssvæðið) eða í hólfinu **Tímabil** skal ljúka við formúluna. Skipta út öllum númerstáknum (\#) fyrir viðeigandi gildi.
 

@@ -15,13 +15,13 @@ ms.custom: 104233
 ms.assetid: 2a2ffa1e-5a15-4e2a-b18c-c4d890d38a50
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a613f5a84a7c72da3cc76eac147d4754f6259e4c
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8b5437e5652ca5111ded89cb3417db46ab4b45af
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Verkleiðbeiningar í (maí 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** Stjarna (**\****) við titillinn viðskiptaferlavinnsla (BPM) línunni táknar að leiðarvísir fyrir það viðskiptaferli var stofnað fyrir Dynamics AX maíuppfærslu 2016 og er ekki studd í eldri útgáfum af Microsoft Dynamics AX.
+(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** Stjarna (**\***) við titillinn viðskiptaferlavinnsla (BPM) línunni táknar að leiðarvísir fyrir það viðskiptaferli var stofnað fyrir Dynamics AX maíuppfærslu 2016 og er ekki studd í eldri útgáfum af Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 

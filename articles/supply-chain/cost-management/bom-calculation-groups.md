@@ -1,7 +1,7 @@
 ---
 title: "Flokkur uppskriftarútreiknings"
 description: "Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vö
 
 ### <a name="warnings"></a>Viðvaranir
 
-Á **Viðvaranir** flýtiflipa, velurðu valkosti fyrir öll viðvörunarboð sem notendur eiga að fá þegar þeir gera útreikninga Uppskrifta. Til dæmis, ef valið er **engin Uppskrift** gátreiturinn, fær notandinn viðvörun ef engin virk uppskriftarútgáfa finnst fyrir einn af íhlutina eða yfirvöru sem útreikning Uppskriftar er keyrður fyrir. ef valið er **engin leið** gátreiturinn, fær notandinn viðvörun ef engin virk leiðarútgáfa finnst. Ef verið er að nota tilföng á leiðum þínum og aðgerðum, geturðu látið kerfið athuga eftir þessum tilföngum. Svo, ef tilfang finnst ekki á hverri línu á virku leiðinni, fær notandinn viðvörun. Einnig er hægt að staðfesta og athuga notkun. Notkun er magn á tiltekinni leið. Yfirleitt stendur hún fyrir þann tíma sem krafist er til að framkvæma ákveðinni aðgerð fyrir framleiðsluferli. Hægt er að athuga hvort vara hefur ekki kostnaðarverð. Ef ekkert virkt kostnaðarverð er fyrir vöru, er engan kostnað bætt í útreikningi Uppskrifta. Einnig er hægt að athuga og staðfesta aldur kostnaðarverðs. Til dæmis, færa inn **60** til að gefa til kynna að kostnaðarverð einingar verður að vera endurmetið eftir 60 daga. Ef þessi þessum mörkum er náð, myndar kerfið viðvörun. Til dæmis var kostnaðarverð færð inn fyrir vöru í Janúar á þessu ári. Ef það er nú Ágúst, sem er meira en 60 daga eftir að kostnaðarverð var færð inn, fær notandinn viðvörun þegar Útreikningur uppskrifta er keyrð. Hægt er að færa inn prósentu í á **lágmarks framlegð** svæði. Þetta gildi gefur til kynna þann punkt sem lágmarks framlegð er ekki uppfyllt. Ef framlegð á tilteknum íhlut er ekki uppfyllt fær notandinn viðvörun. Þess vegna hjálpar svæðið að tryggja að þú verðleggir ekki undir kostnaði og viðbótar birgðahaldskostnaði sem gæti verið nauðsynleg fyrir vörurnar.
-Sjálfgefin uppsetning í Færibreytur birgða- og vöruhússstjórnunarkerfis
---------------------------------------------------------------
+Á **Viðvaranir** flýtiflipa, velurðu valkosti fyrir öll viðvörunarboð sem notendur eiga að fá þegar þeir gera útreikninga Uppskrifta. 
 
-Vegna þess að reikniflokka er krafist til að keyra útreikning, verður að setja upp sjálfgefinn reikniflokka í færibreytur birgðastjórnunar. Þessi uppsetning gerir fyrirtækjum kleift að hafa flokk staðalkostnaðar og hagnaðarstillingu fyrir allar vörur. Svo, ef tiltekin vara hefur þarfir fyrir sérstakan útreikning, getur notandi úthluta annan reikniflokk á þá vörunni. Venjulega er hægt að stilla reikniflokka á íhlut uppskriftarvörur í staðinn fyrir á uppskriftarvörur. Hins vegar þegar viðvörunarskilaboð eru sýnd, má beita reikniflokkum. Reikniflokkur sem er úthlutað á vörur hnekkir sjálfgefin gildi sem sett er upp í færibreytum birgðastjórnunar. Hægt er að setja upp sjálfgefna færibreytu á **kostnaðarstjórnun** &gt; **uppsetning á reglum birgðabókhalds** &gt; **Færibreytum** &gt; **birgðabókhald** &gt; **reikniflokkur**. Með því að setja upp sjálfgefið afbrigðisflokkur, má einnig skilgreina viðvörunarskilyrði sem láta notendur vita á meðan á ferli Útreikningur uppskrifta stendur, ef valdir íhlutir gætu valdið villum í útreikningi.
-Skoða viðvörunarskilaboð á síðunni lokið
-------------------------------------------
+Til dæmis, ef valið er **engin Uppskrift** gátreiturinn, fær notandinn viðvörun ef engin virk uppskriftarútgáfa finnst fyrir einn af íhlutina eða yfirvöru sem útreikning Uppskriftar er keyrður fyrir. ef valið er **engin leið** gátreiturinn, fær notandinn viðvörun ef engin virk leiðarútgáfa finnst. Ef verið er að nota tilföng á leiðum þínum og aðgerðum, geturðu látið kerfið athuga eftir þessum tilföngum. Svo, ef tilfang finnst ekki á hverri línu á virku leiðinni, fær notandinn viðvörun. 
+
+Einnig er hægt að staðfesta og athuga notkun. Notkun er magn á tiltekinni leið. Yfirleitt stendur hún fyrir þann tíma sem krafist er til að framkvæma ákveðinni aðgerð fyrir framleiðsluferli. Hægt er að athuga hvort vara hefur ekki kostnaðarverð. Ef ekkert virkt kostnaðarverð er fyrir vöru, er engan kostnað bætt í útreikningi Uppskrifta. 
+
+Einnig er hægt að athuga og staðfesta aldur kostnaðarverðs. Til dæmis, færa inn **60** til að gefa til kynna að kostnaðarverð einingar verður að vera endurmetið eftir 60 daga. Ef þessi þessum mörkum er náð, myndar kerfið viðvörun. Til dæmis var kostnaðarverð færð inn fyrir vöru í Janúar á þessu ári. Ef það er nú Ágúst, sem er meira en 60 daga eftir að kostnaðarverð var færð inn, fær notandinn viðvörun þegar Útreikningur uppskrifta er keyrð. Hægt er að færa inn prósentu í á **lágmarks framlegð** svæði. Þetta gildi gefur til kynna þann punkt sem lágmarks framlegð er ekki uppfyllt. Ef framlegð á tilteknum íhlut er ekki uppfyllt fær notandinn viðvörun. Þess vegna hjálpar svæðið að tryggja að þú verðleggir ekki undir kostnaði og viðbótar birgðahaldskostnaði sem gæti verið nauðsynleg fyrir vörurnar.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Sjálfgefin uppsetning í Færibreytur birgða- og vöruhússstjórnunarkerfis
+
+Vegna þess að reikniflokka er krafist til að keyra útreikning, verður að setja upp sjálfgefinn reikniflokka í færibreytur birgðastjórnunar. Þessi uppsetning gerir fyrirtækjum kleift að hafa flokk staðalkostnaðar og hagnaðarstillingu fyrir allar vörur. Svo, ef tiltekin vara hefur þarfir fyrir sérstakan útreikning, getur notandi úthluta annan reikniflokk á þá vörunni. Venjulega er hægt að stilla reikniflokka á íhlut uppskriftarvörur í staðinn fyrir á uppskriftarvörur. Hins vegar þegar viðvörunarskilaboð eru sýnd, má beita reikniflokkum. Reikniflokkur sem er úthlutað á vörur hnekkir sjálfgefin gildi sem sett er upp í færibreytum birgðastjórnunar. 
+
+Hægt er að setja upp sjálfgefna færibreytu á **kostnaðarstjórnun** &gt; **uppsetning á reglum birgðabókhalds** &gt; **Færibreytum** &gt; **birgðabókhald** &gt; **reikniflokkur**. Með því að setja upp sjálfgefið afbrigðisflokkur, má einnig skilgreina viðvörunarskilyrði sem láta notendur vita á meðan á ferli Útreikningur uppskrifta stendur, ef valdir íhlutir gætu valdið villum í útreikningi.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Skoða viðvörunarskilaboð á síðunni lokið
 
 Útreikningur uppskrifta myndar viðvörunarskilaboð. Hægt er að skoða viðvaranir um valda vöruna. Til dæmis í Sölu og markaðssetningar, stofna nýja sölupöntun fyrir vöru D0001. Síðan, á sölupöntunarlínuna, á **Uppfæra línu** valmynd, smellið á **Reikna Byggt á Uppskrift/Formúlu** til að skoða upplýsingar um útreikning og viðvaranir. Einnig er hægt að skoða niðurstöður Útreikningur uppskrifta á síðunni **Lokið**. Fyrir viðvörunarboðin, eiga einungis Tvö viðvörunarskilyrði við um framleidda vöru, en fjögur viðvörunarskilyrði eiga við um allar vörur.
 -   Greinið hvenær framleidd vara hefur ekki virkum uppskriftum.

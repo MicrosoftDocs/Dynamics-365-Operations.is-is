@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: is-is
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Hinar raunverulegu kröfur vélbúnaðarins eru breytilegar, það fer eftir gru
 - Fjöldi samhliða notenda
 
 ## <a name="minimum-infrastructure-requirements"></a>Lágmarkskröfur innviða
-Finance and Operations (innanhúss) notar Service Fabric til að hýsa AOS,  Batch, Data management, Management reporter, og Environment orchestrator þjónustuna. Microsoft SQL Server Reporting Services (SSRS) er ekki hýst í Service Fabric klasanum.
+Finance and Operations (innanhúss) notar Service Fabric til að hýsa AOS,  Batch, Data management, Management reporter, og Environment orchestrator þjónustuna. 
 
 SQL Server vertður að hafa háan tiltækileika HADRON uppsetningu sem hefur a.m.k. tvo hnúta fyrir framleiðslunotkun.
 
@@ -225,6 +225,12 @@ Frekari upplýsingar, sjá [Undirbúa Service Fabric klasann](/azure/service-fab
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition eða Enterprise Edition | Fyrir hugbúnaðarkröfur fyrir SQL Server 2016, sjá [Vélbúnaðar- og hugbúnaðarkröfur fyrir uppsetningu á SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Hugbúnaðarkröfur fyrir Þjónn hugbúnaðarhluta (AOS) 
+- SQL Server Integration Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Hugbúnaðurkröfur fyrir skýrsluþjón (BI)
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>Hugbúnaðarkröfur fyrir biðlaratölvur
 Finance and Operations vefforritið er hægt að keyra á öllum tækjum sem hefur HTML 5.0-heldan vafra. Hér eru sumar af þeim sérstöku samsetningum af tækjum/vöfrum sem Microsoft hefur staðfest:
 
@@ -244,7 +250,7 @@ Lénsstýringin verður að vera Microsoft Windows þjónn 2012 R2 eða nýrri, 
 ## <a name="supported-microsoft-office-applications"></a>Studd forrit Microsoft Office
 Eftirfarandi forrit Microsoft Office eru studd í skýi og innanhúsnýtingu Finance and Operations:
 
--   Til að nota innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Til að nota innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Vélbúnaðar- og hugbúnaðarkröfur fyrir Retail-þætti
