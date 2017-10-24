@@ -15,13 +15,13 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4d57e47fe7f38a43ecfdfbdd701d7e6a7d7800d6
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,9 +62,9 @@ Stilla hverja einingu sem er valinn og dreginn á striga. Nánari upplýsingar u
 -   [Skilgreina sjálfvirkt verk](configure-automated-task-workflow.md)
 -   [Skilgreining samþykktarferlis](configure-approval-process-workflow.md)
 -   [Skilgreining samþykktarskrefs](configure-approval-step-workflow.md)
--   [Skilgreina handvirka ákvörðun](configure-manual-decision-workflow.md)
--   [Skilgreina skilyrtri ákvörðun](configure-conditional-decision-workflow.md)
--   [Skilgreina Hliðstæður verkþáttur](configure-parallel-activity-workflow.md)
+-   [Skilgreining handvirkrar ákvörðunar](configure-manual-decision-workflow.md)
+-   [Skilgreining skilyrtrar ákvörðunar](configure-conditional-decision-workflow.md)
+-   [Skilgreining hliðstæðs verkþáttar](configure-parallel-activity-workflow.md)
 -   [Skilgreina Hliðstæður grein](configure-parallel-branch-workflow.md)
 -   [Skilgreina Verkflæði línuatriðis](configure-line-item-workflow.md)
 

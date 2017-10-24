@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Einingar eru línuskilgreiningarnar, dálkskilgreiningarnar og skipuritsskilgrei
 ### <a name="save-a-building-block-group-under-a-new-name"></a>Einingahópur vistaður undir nýju heiti
 
 Hægt er að vista einingahóp sem þegar er til undir nýju heiti. Síðan má breyta nýja einingahópnum án þess að breyta upprunalega einingahópnum.
-1.  Á valmyndinni **Fyrirtæki** í Skýrsluhönnun er smellt á **Einingarhópar**.
+1.  Á valmyndinni **Fyrirtæki** í Report Designer er smellt á **Einingarhópar**.
 2.  Í svarglugganum **Einingarhópar** er valinn einingahópurinn sem á að vista undir nýju heiti.
 3.  Smellið á **Vista sem**.
 4.  Færið inn nýtt heiti og lýsingu á einingahópnum.

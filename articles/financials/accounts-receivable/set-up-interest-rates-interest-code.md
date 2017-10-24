@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9595cf287f59ddb7543f36b2b541200f70a9c96
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 59acfaa93b1352f2be6d750dea6bdd740bac0312
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -56,7 +56,7 @@ Til dæmis til að setja upp vaxtakóða sem metur 5 prósent vexti fyrir hverja
 Hægt er að setja upp vaxtastig sem reiknar út tilgreinda upphæð fyrir hvern gjaldmiðil.
 -   Vaxtaupphæð er tilgreind fyrir hvern gjaldmiðil í vaxtakóða.
 -   Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
--   Upphæð er valin í **Reikna út vexti á grundvelli** svæðinu á **Setja upp vaxtakóða** síðunni.
+-   **Upphæð** er valin í **Reikna út vexti á grundvelli** svæðinu á **Setja upp vaxtakóða** síðunni.
 
 Til dæmis til að setja upp vaxtakóða sem metur 25,00 prósent vexti fyrir hverja 20 daga sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 20 í svæðið **reikna vexti fyrir hvern** og velja **Dagur**.
 

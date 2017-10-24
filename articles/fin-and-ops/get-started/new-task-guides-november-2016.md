@@ -15,13 +15,13 @@ ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bea93ea1e8d17d4d4d31b21e1fad6f3eaa31b3e2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a40899df4f4f0cf2b404d21bf2c172bcc8a137af
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 -- öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð.
 
-(Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** stjarna (**\****) við titillinn viðskiptaferlavinnsla (BPM) línunni sýnir leiðarvísi fyrir verk fyrir viðskiptaferli sem var stofnuð fyrir Microsoft Dynamics 365 for Operations nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
+(Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). **Athugasemd:** stjarna (**\***) við titillinn viðskiptaferlavinnsla (BPM) línunni sýnir leiðarvísi fyrir verk fyrir viðskiptaferli sem var stofnuð fyrir Microsoft Dynamics 365 for Operations nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 

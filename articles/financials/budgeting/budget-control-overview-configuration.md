@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,7 +116,7 @@ Ef ætti að fela viðvörunarboð fjárhagsáætlunarstýringar fyrir einhvern 
 
 ### <a name="activate-budget-control"></a>Virkja fjárhagsáætlunarstýringu
 
-Eftir að fjárhagsáætlunarstýringar hefur verið skilgreindur, þú getur kveikt og virkja fjárhagsáætlunarstýringu á í **Virkja fjárhagsáætlunarstýringu** flipa. Útgafan í Drögum verða þá virkar.
+Eftir að fjárhagsáætlunarstýringar hefur verið skilgreindur, þú getur kveikt og virkja fjárhagsáætlunarstýringu á í **Virkja fjárhagsáætlunarstýringu** flipa.
 > [!Important]
 > Eftir að fjárhagsáætlunarstýringu hefur verið kveikt á og virkjað, og eftir að færslur hafa verið bókaðar, það ætti ekki að slökkva á miðju ári. Þegar slökkt er á fjárhagsáætlunarstýringu, eru færslur fjárhagsáætlunar ekki skráðar vegna rakningar, og athuganir á fjárhagsáætlun eru ekki lengur framkvæmdar. Þess vegna er skjöl sem þegar hafa verið bókaðar hugsanlega ekki rétt að endurspegla allar upphæðir losunar eða stöður í fyrirspurnum og skýrslum sem tengjast fjárhagsáætlunarstýringu. Þar á meðal talnagögn fjárhagsáætlunarstýringar fyrir hvers kyns forstreymi eða leiðrétta skjöl og færslubækur. 
 

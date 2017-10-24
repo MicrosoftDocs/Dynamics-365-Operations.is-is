@@ -1,7 +1,7 @@
 ---
 title: "Vegið meðaltal með efnislegu virði og marki"
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cdbca6d9c71c901a1f4e7a8e5a2f9be1d3efb355
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 -   2a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 12,00 USD hver.
 -   2b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   3a. Efnisleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
--   3b. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
+-   3a. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
 -   4a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,00 USD hver.
 -   4b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   5. Birgðalokun er framkvæmd.
@@ -202,7 +202,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.

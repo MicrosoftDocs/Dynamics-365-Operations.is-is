@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 74a3033ffbdba2efc6c5ecd6c55019898751a146
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 111ebf578e455408c5b6168e5a7af705f3624d78
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -218,8 +218,8 @@ Eftir að unnið hefur verið úr upprunagögnum tölfræðiaðgerðar eru eftir
 
 | Kostnaðarhlutur |    | Dagsetning reikningsskila | Tölfræðilegt víddarstak |    lýsing          | Mæligildi |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | Mannauður | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 2,450.00  |
-| CC002       | FI | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 4,100.00  |
+| CC001       | Mannauður | 31-01-2017      | Rafmagn                  | Notkun electricity | 2,450.00  |
+| CC002       | FI | 31-01-2017      | Rafmagn                  | Notkun electricity | 4,100.00  |
 | CC003       | Upplýsingatækni | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 15,000.00 |
 
 Hér er dæmi um kostnaðardreifingarreglu ef úthlutunargrunnur fyrirframskilgreinds víddarstaks rafmagns er úthlutaður sem úthlutunargrunnur þess.
@@ -319,8 +319,8 @@ Rafmagnsreikningar eru oft í tveimur hlutum:
 
 | Kostnaðarhlutur | Nafn | Dagsetning reikningsskila | Tölfræðilegt víddarstak | lýsing             | Mæligildi |
 |-------------|------|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | Mannauður   | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 2,450.00  |
-| CC002       | FI   | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 4,100.00  |
+| CC001       | Mannauður   | 31-01-2017      | Rafmagn                  | Notkun electricity | 2,450.00  |
+| CC002       | FI   | 31-01-2017      | Rafmagn                  | Notkun electricity | 4,100.00  |
 | CC003       | Upplýsingatækni   | 31-01-2017      | Rafmagn                  | Rafmagnsnotkun | 15,000.00 |
 
 Þurfi nú að dreifa fastri þóknun jafnt yfir kostnaðarhluta sem nota rafmagns eru tveir valkostir við að úthluta kostnaðinum:

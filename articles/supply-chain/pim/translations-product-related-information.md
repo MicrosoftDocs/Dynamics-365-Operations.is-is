@@ -19,11 +19,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Viðskiptavinur vill kaupa litla rauðaskyrtu og nafn á skyrtunni verður birta
 <tr class="odd">
 <td>Til að stilla æskilegt tungumál viðskiptavinar, skal fylgja þessum skrefum:
 <ol>  
-<li>Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong> <strong>viðskiptavinir</strong>.</li>
+<li>Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong><strong>viðskiptavinir</strong>.</li>
 <li>Tvísmellið á viðskiptavin til að opna skjámyndina <strong>Viðskiptavinir</strong>. Á flipanum <strong>Almennt</strong>, á svæðinu <strong>Tungumál</strong> skal velja <strong>Tungumál</strong>.</li>
 </ol></td>
 </tr>

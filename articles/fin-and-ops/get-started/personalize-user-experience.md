@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: is-is
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Beinar sérstillingar eru þær sérstillingar sem eru framkvæmdar beint og er 
 
 Eining á síðu er breytt á þennan hátt ef einfaldlega á að breyta merki einingarinnar, fela eininguna svo að hún birtist ekki á síðunni (þetta breytir ekki neinum gögnum, heldur sýnir einfaldlega ekki sum gögn), hafa með upplýsingar í samantektarhluta flýtiflipa (ef eining er í flýtiflipa), sleppa reitnum við flipastjórnun eða stilla hann þannig að ekki sé hægt að breyta sumum gögnum með því að merkja hann sem „Ekki breyta.“ 
 
-Þegar óskað er að flytja eða fela einingar eða gera nokkrar breytingar, er hægt að nota sérstillingatækjastikuna sem er tiltæk úr glugganum einingar Eiginleika með því að velja **Aðlaga þessa skjámynd**. Sérstillingatækjastikan er einnig tiltæk í aðgerðarúðu skjámyndarinnar, undir Sérstillingar flokks í **Valkosti** flipa. Veldu **Aðlaga þessa skjámynd** og þú sérð sérstillingatækjastikuna. 
+Þegar óskað er að flytja eða fela einingar eða gera nokkrar breytingar, er hægt að nota sérstillingatækjastikuna sem er tiltæk úr glugganum einingar Eiginleika með því að velja **Aðlaga þessa skjámynd**. Sérstillingatækjastikan er einnig tiltæk í aðgerðarúðu skjámyndarinnar, undir Sérstillingar flokks á flipanum **Valkosti**. Veldu **Aðlaga þessa skjámynd** og þú sérð sérstillingatækjastikuna. 
 
 [![Tækjastika sérstillinga](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Velja skal hnappinn **Loka** til að loka tækjastikunni og fara aftur á síðu
 Með tækjastikunni Sérsnið er vistun óbein. Sérstillingar taka strax gildi um leið og þær eru gerðar og það er engin þörf á að smella á í **Vista** hnappinn. Í sumum tilfellum verður sést hengilás táknið við hlið einingu þegar verkfæri er valið. Þetta þýðir að til síðan virki rétt er ekki hægt að breyta eiginleikum sem tengjast völdu verkfæri. Þegar sérsniðna tækjastikan er opnuð verður síðan ógagnvirk. Hægt er að færa inn gögn eða útvíkka eða draga hlutana saman.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Bein sérstilling: Bæta reit eða lista vinnusvæði
-Sumar síður með lista hafa viðbótar sérstillingareiginleika tiltæka innan aðgerðasvæðis, undir Sérstilla flokk á flipanum Valkostir. Velja **Bæta Vinnusvæði** til að opna fellilistanum sem gefur möguleika á að sýna upplýsingar í gildandi lista (síuð og raðaðar eða sjálfgefinn) á Vinnusvæði sem lista eða yfirlit reitar (sem má nota til að sýna fjölda vara í). 
+Sumar síður með lista hafa viðbótar sérstillingareiginleika tiltæka innan aðgerðasvæðis, undir Sérstilla flokk á flipanum Valkostir. Velja **Bæta við vinnusvæði** til að opna fellilistanum sem gefur möguleika á að sýna upplýsingar í gildandi lista (síuð og raðaðar eða sjálfgefinn) á Vinnusvæði sem lista eða yfirlit reits (sem má nota til að sýna fjölda vara í). 
 
 [![Bæta við vinnusvæði](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

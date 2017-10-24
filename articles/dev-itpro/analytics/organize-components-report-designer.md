@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -115,14 +115,14 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Tímabundið</td>
 <td>Tilgreinið hvaða verkþættir eiga að vera í skýrslunni.
 <ul>
-<li><strong>Aðeins bókaðar aðgerðir</strong>− Inniheldur aðeins færslur og innistæður sem eru bókaðar í fjárhagsgögnunum.</li>
-<li><strong>Bókaðar og óbókaðar aðgerðir</strong>− Inniheldur allar færslur og innistæður sem eru færðar inn og bókaðar í fjárhagsgögnunum.</li>
-<li><strong>Aðeins óbókaðar aðgerðir</strong>− Inniheldur aðeins færslur sem eru færðar inn en eru ekki enn bókaðar í fjárhagsgögnunum.</li>
+<li><strong>Aðeins bókaðir verkþættir</strong> − Inniheldur aðeins færslur og stöðu sem eru bókaðar í fjárhagsgögnum.</li>
+<li><strong>Bókaðir og óbókaðir verkþættir</strong>− Inniheldur allar færslur og stöðu sem eru slegin inn og bókað í fjárhagsgögnum.</li>
+<li><strong>Aðeins óbókaðir verkþættir</strong> − Inniheldur aðeins færslur sem hefur veriðs legin inn, en sem hefur ekki verið bókuð í fjárhagsgögn.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Taka með alla skýrslugjaldmiðla</td>
-<td>Ef aðrir skýrslugjaldmiðlar eru grunnstilltir í ERP-kerfi Microsoft Dynamics eru þeir taldir upp hér. Veljið gátreit til að mynda viðbótarskýrslur í tilgreindum gjaldmiðlum. Hægt er að skoða skýrslurnar í Vefskoðun með því að smella á hnappinn <strong>Gjaldmiðill</strong> og velja gjaldmiðil.</td>
+<td>Ef aðrir skýrslugjaldmiðlar eru grunnstilltir í ERP-kerfi Microsoft Dynamics eru þeir taldir upp hér. Veljið gátreit til að mynda viðbótarskýrslur í tilgreindum gjaldmiðlum. Til að skoða þessar skýrslur í Web Viewer er smellt á <strong>Gjaldmiðill</strong> hnappinn og svo valinn gjaldmiðill.</td>
 </tr>
 <tr class="even">
 <td>Upplýsingar um dagsetningu ekki vistaðar með skýrsluskilgreiningu</td>

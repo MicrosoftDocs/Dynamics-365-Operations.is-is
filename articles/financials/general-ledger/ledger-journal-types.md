@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 06/13/2017
 | Greiðslusending lánardrottins            | Stofna eigin greiðsluskrá sem má senda til banka fyrirtækisins.                                                                                                                                                                                                                                                                      | Greiðslubók                                             |
 | Greiðsla til lánardrottins               | Stofna færslur greiðslu til lánardrottins                                                                                                                                                                                                                                                                                                                    | Greiðslubók                                                |
 | Gefa út eigin víxil lánardrottins       | Gefa út eigin víxla lánardrottins sem greiðsluhátt. Til að nota þessa færslubókargerð, hreinsa valkostinn **Stofna og bóka útgáfubók sjálfvirkt við bókun reikninga** á síðunni **greiðsluaðferð - lánardrottnar**                                                                                                                                          | Gefa út eigin víxilbók                                   |
-| Reikningasafn lánardrottins að frátöldu bóka | Stofna færslur reiknings lánardrottins sem hafa ekki enn verið bókaðar í tímabundinn komulykil.                                                                                                                                                                                                                                                             | Reikningahópur lánardrottins án bókunarupplýsinga                  |
+| Reikningahópur lánardrottins utan bókunar | Stofna færslur reiknings lánardrottins sem hafa ekki enn verið bókaðar í tímabundinn komulykil.                                                                                                                                                                                                                                                             | Reikningahópur lánardrottins án bókunarupplýsinga                  |
 | Reikningasafn lánardrottna               | Stofna færslur reikningasafns lánardrottna                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Skráning reiknings frá lánardrottni          | Bóka lánardrottnareikninga sem eru í færslubók.                                                                                                                                                                                                                                                                                                                 | Reikningabók                                                |
 | Lánardrottnaendurútgáfa eigin víxils     | Endurútgefa eigin víxil sem áður hefur verið samþykktur af banka fyrirtækis þíns.                                                                                                                                                                                                                                                                      | Endurútgáfubók eigin víxla                                 |
