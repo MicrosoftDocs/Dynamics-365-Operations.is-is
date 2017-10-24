@@ -17,53 +17,53 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 81f3244ff42cf13cd93ac10656c47f8a9204ef99
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-up-a-carrier-fuel-index"></a><span data-ttu-id="5667c-103">Setja upp eldsneytisvísi flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="5667c-103">Set up a carrier fuel index</span></span>
+# <a name="set-up-a-carrier-fuel-index"></a>Setja upp eldsneytisvísi flutningsaðila
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5667c-104">Þessari handbók sýnir hvernig stofna á eldsneytisvísasvæði, eldsneytisvísi og eldsneytisvísi flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="5667c-104">This guide shows how to create a fuel index region, a fuel index and a carrier fuel index.</span></span> <span data-ttu-id="5667c-105">Eldsneytisvísasvæði tilgreinir á hvaða svæðum eldsneytisvísi gilda, og eldsneytisvísir tilgreinir eldsneytisverð á tilteknu tímabili.</span><span class="sxs-lookup"><span data-stu-id="5667c-105">The fuel index region specifies which region the fuel index should apply to, and the fuel index specifies a fuel price for a particular period of time.</span></span> <span data-ttu-id="5667c-106">Til að endurspegla breytingarnar í verði eldsneytis yfir tíma, er hægt að tengja marga eldsneytisvísa við flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="5667c-106">To reflect the change in fuel prices over time, you can associate multiple fuel indexes with a carrier.</span></span>  <span data-ttu-id="5667c-107">Þessi verk eru yfirleitt gert með af samræmingaraðila flutninga.</span><span class="sxs-lookup"><span data-stu-id="5667c-107">These tasks are normally done by a transportation coordinator.</span></span> <span data-ttu-id="5667c-108">Hægt er að nota þessa aðgerð í fyrirtæki gögn sýnigögn USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="5667c-108">You can use this procedure in demo data company USMF or using your own data.</span></span>
+Þessari handbók sýnir hvernig stofna á eldsneytisvísasvæði, eldsneytisvísi og eldsneytisvísi flutningsaðila. Eldsneytisvísasvæði tilgreinir á hvaða svæðum eldsneytisvísi gilda, og eldsneytisvísir tilgreinir eldsneytisverð á tilteknu tímabili. Til að endurspegla breytingarnar í verði eldsneytis yfir tíma, er hægt að tengja marga eldsneytisvísa við flutningsaðila.  Þessi verk eru yfirleitt gert með af samræmingaraðila flutninga. Hægt er að nota þessa aðgerð í fyrirtæki gögn sýnigögn USMF eða með því að nota eigin gögn.
 
 
-## <a name="create-a-fuel-index-region"></a><span data-ttu-id="5667c-109">Stofna svæði eldsneytisvísis.</span><span class="sxs-lookup"><span data-stu-id="5667c-109">Create a fuel index region</span></span>
-1. <span data-ttu-id="5667c-110">Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Svæði eldsneytisvísis.</span><span class="sxs-lookup"><span data-stu-id="5667c-110">Go to Transportation management > Setup > Fuel indexes > Fuel index regions.</span></span>
-    * <span data-ttu-id="5667c-111">Fyrst þarf að stofna mismunandi svæðum, þar sem starfa og reikna út mismunandi eldsneytisálag.</span><span class="sxs-lookup"><span data-stu-id="5667c-111">First you have to create the different regions, where you operate and calculate different fuel surcharges.</span></span>  
-2. <span data-ttu-id="5667c-112">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="5667c-112">Click New.</span></span>
-3. <span data-ttu-id="5667c-113">Í reitnum Svæði skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="5667c-113">In the Region field, type a value.</span></span>
-4. <span data-ttu-id="5667c-114">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="5667c-114">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="5667c-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="5667c-115">Click Save.</span></span>
+## <a name="create-a-fuel-index-region"></a>Stofna svæði eldsneytisvísis.
+1. Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Svæði eldsneytisvísis.
+    * Fyrst þarf að stofna mismunandi svæðum, þar sem starfa og reikna út mismunandi eldsneytisálag.  
+2. Smellið á „Nýtt“.
+3. Í reitnum Svæði skal færa inn gildi.
+4. Í reitinn Heiti skal slá inn gildi.
+5. Smellið á „Vista“.
 
-## <a name="create-a-fuel-index"></a><span data-ttu-id="5667c-116">Búa til eldsneytisvísi</span><span class="sxs-lookup"><span data-stu-id="5667c-116">Create a fuel index</span></span>
-1. <span data-ttu-id="5667c-117">Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Eldsneytisvísa.</span><span class="sxs-lookup"><span data-stu-id="5667c-117">Go to Transportation management > Setup > Fuel indexes > Fuel indexes.</span></span>
-    * <span data-ttu-id="5667c-118">Fyrir svæði sem hefur verið sett upp þarf að færa núgildandi verð fyrir eldsneytisálag á.</span><span class="sxs-lookup"><span data-stu-id="5667c-118">For the regions you have set up you need to enter the current prices for the fuel.</span></span>  
-2. <span data-ttu-id="5667c-119">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="5667c-119">Click New.</span></span>
-3. <span data-ttu-id="5667c-120">Í reitnum Svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="5667c-120">In the Region field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="5667c-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="5667c-121">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="5667c-122">Í svæðinu Verð á gallon , færið inn tölu.</span><span class="sxs-lookup"><span data-stu-id="5667c-122">In the Price per gallon field, enter a number.</span></span>
-6. <span data-ttu-id="5667c-123">Færa inn dagsetningu og tíma í reitnum Raunveruleg upphafsdagsetning og -tími.</span><span class="sxs-lookup"><span data-stu-id="5667c-123">In the Effective start date and time field, enter a date and time.</span></span>
-7. <span data-ttu-id="5667c-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="5667c-124">Click Save.</span></span>
+## <a name="create-a-fuel-index"></a>Búa til eldsneytisvísi
+1. Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Eldsneytisvísa.
+    * Fyrir svæði sem hefur verið sett upp þarf að færa núgildandi verð fyrir eldsneytisálag á.  
+2. Smellið á „Nýtt“.
+3. Í reitnum Svæði skal smella á fellilistahnappinn til að opna leitina.
+4. Í listanum skal smella á tengilinn í valinni línu.
+5. Í svæðinu Verð á gallon , færið inn tölu.
+6. Færa inn dagsetningu og tíma í reitnum Raunveruleg upphafsdagsetning og -tími.
+7. Smellið á „Vista“.
 
-## <a name="create-a-carrier-fuel-index"></a><span data-ttu-id="5667c-125">Setja upp Eldsneytisvísi fyrir flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="5667c-125">Create a Carrier fuel index</span></span>
-1. <span data-ttu-id="5667c-126">Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Eldsneytisvísir flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="5667c-126">Go to Transportation management > Setup > Fuel indexes > Carrier fuel indexes.</span></span>
-2. <span data-ttu-id="5667c-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="5667c-127">Click New.</span></span>
-3. <span data-ttu-id="5667c-128">Færa inn gildi í reitnum eldsneytisvísir Flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="5667c-128">In the Carrier fuel index field, type a value.</span></span>
-4. <span data-ttu-id="5667c-129">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="5667c-129">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="5667c-130">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="5667c-130">Click New.</span></span>
-6. <span data-ttu-id="5667c-131">Færa inn dagsetningu og tíma í reitnum Raunveruleg upphafsdagsetning og -tími.</span><span class="sxs-lookup"><span data-stu-id="5667c-131">In the Effective start date and time field, enter a date and time.</span></span>
-7. <span data-ttu-id="5667c-132">Í reitinn PPG Úr skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="5667c-132">In the PPG From field, enter a number.</span></span>
-    * <span data-ttu-id="5667c-133">Í þessu dæmi er hægt að stilla PPG Frá svæðið sem 1.95.</span><span class="sxs-lookup"><span data-stu-id="5667c-133">In this example, you can set PPG From field to 1.95.</span></span>  
-8. <span data-ttu-id="5667c-134">Í reitinn PPG í skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="5667c-134">In the PPG To field, enter a number.</span></span>
-    * <span data-ttu-id="5667c-135">Í þessu dæmi er hægt að stilla svæðið PPG Til á 2.</span><span class="sxs-lookup"><span data-stu-id="5667c-135">In this example you can set the PPG To field to 2.</span></span>  
-9. <span data-ttu-id="5667c-136">Færið inn tölu í svæðinu prósenta.</span><span class="sxs-lookup"><span data-stu-id="5667c-136">In the Percentage field, enter a number.</span></span>
-    * <span data-ttu-id="5667c-137">Hægt er að setja prósentu til 3 í þessu dæmi.</span><span class="sxs-lookup"><span data-stu-id="5667c-137">In this example you can set the percentage to 3.</span></span>  
-10. <span data-ttu-id="5667c-138">Í reitnum gjaldmiðill skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="5667c-138">In the Currency field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="5667c-139">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5667c-139">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="5667c-140">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="5667c-140">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="5667c-141">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="5667c-141">Click Save.</span></span>
+## <a name="create-a-carrier-fuel-index"></a>Setja upp Eldsneytisvísi fyrir flutningsaðila
+1. Fara í flutningsstjórnun > Uppsetning >Eldsneytisvísa > Eldsneytisvísir flutningsaðila.
+2. Smellið á „Nýtt“.
+3. Færa inn gildi í reitnum eldsneytisvísir Flutningsaðila.
+4. Sláið inn gildi í reitnum „Lýsing“.
+5. Smellt er á Nýtt.
+6. Færa inn dagsetningu og tíma í reitnum Raunveruleg upphafsdagsetning og -tími.
+7. Í reitinn PPG Úr skal slá inn númer.
+    * Í þessu dæmi er hægt að stilla PPG Frá svæðið sem 1.95.  
+8. Í reitinn PPG í skal slá inn númer.
+    * Í þessu dæmi er hægt að stilla svæðið PPG Til á 2.  
+9. Færið inn tölu í svæðinu prósenta.
+    * Hægt er að setja prósentu til 3 í þessu dæmi.  
+10. Í reitnum gjaldmiðill skal smella á fellilistahnappinn til að opna leitina.
+11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+12. Í listanum skal smella á tengilinn í valinni línu.
+13. Smellið á „Vista“.
 
 

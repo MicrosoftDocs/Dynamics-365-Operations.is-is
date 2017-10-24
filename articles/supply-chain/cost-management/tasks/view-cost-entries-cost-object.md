@@ -1,35 +1,41 @@
 --- 
-# required metadata 
-title: Skoða kostnaðarfærslur fyrir kostnaðarhlut
-description: Þessi verklýsing sýnir hvernig á að skoða kostnaðarfærslur fyrir kostnaðarhlut.
+title: "Skoða kostnaðarfærslur fyrir kostnaðarhlut"
+description: "Þessi verklýsing sýnir hvernig á að skoða kostnaðarfærslur fyrir kostnaðarhlut."
 author: AndersGirke
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
-ms.prod: null
+ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 611d4c211d59d3077a54f92dea82a078145eb310
+ms.contentlocale: is-is
+ms.lasthandoff: 09/29/2017
+
 ---
-# <a name="view-cost-entries-for-a-cost-object"></a><span data-ttu-id="58653-103">Skoða kostnaðarfærslur fyrir kostnaðarhlut</span><span class="sxs-lookup"><span data-stu-id="58653-103">View cost entries for a cost object</span></span>
+# <a name="view-cost-entries-for-a-cost-object"></a><span data-ttu-id="f66d4-103">Skoða kostnaðarfærslur fyrir kostnaðarhlut</span><span class="sxs-lookup"><span data-stu-id="f66d4-103">View cost entries for a cost object</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="58653-104">Þessi verklýsing sýnir hvernig á að skoða kostnaðarfærslur fyrir kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="58653-104">This procedure shows how to view cost entries for a cost object.</span></span> <span data-ttu-id="58653-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="58653-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="58653-106">Þetta ferli er ætluð fyrir fjármálastjóra kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="58653-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="f66d4-104">Þessi verklýsing sýnir hvernig á að skoða kostnaðarfærslur fyrir kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="f66d4-104">This procedure shows how to view cost entries for a cost object.</span></span> <span data-ttu-id="f66d4-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="f66d4-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f66d4-106">Þetta ferli er ætluð fyrir fjármálastjóra kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="f66d4-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="58653-107">Smellt er á kostnaðarstjórnun.</span><span class="sxs-lookup"><span data-stu-id="58653-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="58653-108">Smella á Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="58653-108">Click Released products.</span></span>
-3. <span data-ttu-id="58653-109">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="58653-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="58653-110">Til dæmis, sía svæðið vörunúmer með gildið 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="58653-110">For example, filter on the Item number field with a value of 'm0004'.</span></span>
-4. <span data-ttu-id="58653-111">Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.</span><span class="sxs-lookup"><span data-stu-id="58653-111">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="58653-112">Smellt er á kostnaðarhlutur.</span><span class="sxs-lookup"><span data-stu-id="58653-112">Click Cost objects.</span></span>
-6. <span data-ttu-id="58653-113">Smellt er á kostnaðarfærslur.</span><span class="sxs-lookup"><span data-stu-id="58653-113">Click Cost entries.</span></span>
-7. <span data-ttu-id="58653-114">Nota flýtiafmörkun til að sía í reitnum númer með gildið „p000031“.</span><span class="sxs-lookup"><span data-stu-id="58653-114">Use the Quick Filter to filter on the Number field with a value of 'p000031'.</span></span>
-    * <span data-ttu-id="58653-115">Ef kostnaðarfærslur eru auð, setja Frá dagsetningu á 31. Janúar, 2012 og Til dagsetningu á 31. Desember 2012.</span><span class="sxs-lookup"><span data-stu-id="58653-115">If cost entries are blank, set From date to January 31, 2012 and To date to December 31, 2012.</span></span>  
+1. <span data-ttu-id="f66d4-107">Smellt er á kostnaðarstjórnun.</span><span class="sxs-lookup"><span data-stu-id="f66d4-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="f66d4-108">Smella á Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="f66d4-108">Click Released products.</span></span>
+3. <span data-ttu-id="f66d4-109">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="f66d4-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f66d4-110">Til dæmis, sía svæðið vörunúmer með gildið 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="f66d4-110">For example, filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="f66d4-111">Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.</span><span class="sxs-lookup"><span data-stu-id="f66d4-111">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="f66d4-112">Smellt er á kostnaðarhlutur.</span><span class="sxs-lookup"><span data-stu-id="f66d4-112">Click Cost objects.</span></span>
+6. <span data-ttu-id="f66d4-113">Smellt er á kostnaðarfærslur.</span><span class="sxs-lookup"><span data-stu-id="f66d4-113">Click Cost entries.</span></span>
+7. <span data-ttu-id="f66d4-114">Nota flýtiafmörkun til að sía í reitnum númer með gildið „p000031“.</span><span class="sxs-lookup"><span data-stu-id="f66d4-114">Use the Quick Filter to filter on the Number field with a value of 'p000031'.</span></span>
+    * <span data-ttu-id="f66d4-115">Ef kostnaðarfærslur eru auð, setja Frá dagsetningu á 31. Janúar, 2012 og Til dagsetningu á 31. Desember 2012.</span><span class="sxs-lookup"><span data-stu-id="f66d4-115">If cost entries are blank, set From date to January 31, 2012 and To date to December 31, 2012.</span></span>  
+
 

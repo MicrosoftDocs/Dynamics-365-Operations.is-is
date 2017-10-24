@@ -16,33 +16,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="process-and-trace-source-data"></a><span data-ttu-id="5c313-103">Vinna úr og rekja upprunagögn</span><span class="sxs-lookup"><span data-stu-id="5c313-103">Process and trace source data</span></span>
+# <a name="process-and-trace-source-data"></a><span data-ttu-id="84c79-103">Vinna úr og rekja upprunagögn</span><span class="sxs-lookup"><span data-stu-id="84c79-103">Process and trace source data</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5c313-104">Öll gagnavinnsla er keyrð af verkum.</span><span class="sxs-lookup"><span data-stu-id="5c313-104">All data processing is run by jobs.</span></span> <span data-ttu-id="5c313-105">Fyrir hvert verk og gagnaveitu er stofnuð færslubók til að skrá að ferlið hafi verið keyrt, og að færslurnar hafi verið unnar í núgildandi verki.</span><span class="sxs-lookup"><span data-stu-id="5c313-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="5c313-106">Nota þetta ferli til að setja upp gagnaforða og svo rekja uppruna tilgreindrar kostnaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="5c313-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="5c313-107">Þessi skráning notar USP2 sýnigagnafyrirtækið USP2.</span><span class="sxs-lookup"><span data-stu-id="5c313-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="5c313-108">Áður en þú lýkur þessum verkhluta skaltu vera viss um að spila eftifarandi verkefnaleiðbeiningar „Stofna kostnaðarbókhald fjárhags“, „Skilgreina kostnaðarstýringareiningar“ og „Stjórna gagnaforða fyrir kostnaðarbókhald fjárhags“.</span><span class="sxs-lookup"><span data-stu-id="5c313-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
+<span data-ttu-id="84c79-104">Öll gagnavinnsla er keyrð af verkum.</span><span class="sxs-lookup"><span data-stu-id="84c79-104">All data processing is run by jobs.</span></span> <span data-ttu-id="84c79-105">Fyrir hvert verk og gagnaveitu er stofnuð færslubók til að skrá að ferlið hafi verið keyrt, og að færslurnar hafi verið unnar í núgildandi verki.</span><span class="sxs-lookup"><span data-stu-id="84c79-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="84c79-106">Nota þetta ferli til að setja upp gagnaforða og svo rekja uppruna tilgreindrar kostnaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="84c79-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="84c79-107">Þessi skráning notar USP2 sýnigagnafyrirtækið USP2.</span><span class="sxs-lookup"><span data-stu-id="84c79-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="84c79-108">Áður en þú lýkur þessum verkhluta skaltu vera viss um að spila eftifarandi verkefnaleiðbeiningar „Stofna kostnaðarbókhald fjárhags“, „Skilgreina kostnaðarstýringareiningar“ og „Stjórna gagnaforða fyrir kostnaðarbókhald fjárhags“.</span><span class="sxs-lookup"><span data-stu-id="84c79-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 
-1. <span data-ttu-id="5c313-109">Fara í Kostnaðarbókhald > Fjárhags uppsetning > Kostnaðarbókhald fjárhags.</span><span class="sxs-lookup"><span data-stu-id="5c313-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="5c313-110">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5c313-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5c313-111">Velja kostnaðarbókhald fjárhagur sem búið var til áður.</span><span class="sxs-lookup"><span data-stu-id="5c313-111">Select the cost accounting ledger that you created earlier.</span></span>  
-3. <span data-ttu-id="5c313-112">Smellt er á Raunverulegar útgáfur.</span><span class="sxs-lookup"><span data-stu-id="5c313-112">Click Actual versions.</span></span>
-4. <span data-ttu-id="5c313-113">Í Aðgerðarúðunni er smellt á Upprunagögn vinnsla.</span><span class="sxs-lookup"><span data-stu-id="5c313-113">On the Action Pane, click Source data processing.</span></span>
-5. <span data-ttu-id="5c313-114">Smella á Fjárhagsfærsla flutningabóka</span><span class="sxs-lookup"><span data-stu-id="5c313-114">Click General ledger entry transfer journals.</span></span>
-6. <span data-ttu-id="5c313-115">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5c313-115">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="5c313-116">Smellt er á Færslubókarfærslur.</span><span class="sxs-lookup"><span data-stu-id="5c313-116">Click Journal entries.</span></span>
-8. <span data-ttu-id="5c313-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="5c313-117">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="5c313-118">Smellt er á kostnaðarfærslur.</span><span class="sxs-lookup"><span data-stu-id="5c313-118">Click Cost entries.</span></span>
-10. <span data-ttu-id="5c313-119">Smellt er á Upprunafærslur.</span><span class="sxs-lookup"><span data-stu-id="5c313-119">Click Source entry.</span></span>
-11. <span data-ttu-id="5c313-120">Í Aðgerðarúðunni er smellt á Upprunagögn vinnsla.</span><span class="sxs-lookup"><span data-stu-id="5c313-120">On the Action Pane, click Source data processing.</span></span>
-12. <span data-ttu-id="5c313-121">Smella á Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="5c313-121">Click General ledger.</span></span>
-13. <span data-ttu-id="5c313-122">Sláið inn eða veldu gildi í reitnum Fjárhagsdagatal tímabil.</span><span class="sxs-lookup"><span data-stu-id="5c313-122">In the Fiscal calendar period field, enter or select a value.</span></span>
-    * <span data-ttu-id="5c313-123">Í þessu dæmi, velja Fjárhags 2017 Tímabil 9.</span><span class="sxs-lookup"><span data-stu-id="5c313-123">For this example, select Fiscal 2017 Period 9.</span></span>  
-14. <span data-ttu-id="5c313-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="5c313-124">Click OK.</span></span>
+1. <span data-ttu-id="84c79-109">Fara í Kostnaðarbókhald > Fjárhags uppsetning > Kostnaðarbókhald fjárhags.</span><span class="sxs-lookup"><span data-stu-id="84c79-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="84c79-110">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="84c79-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="84c79-111">Velja kostnaðarbókhald fjárhagur sem búið var til áður.</span><span class="sxs-lookup"><span data-stu-id="84c79-111">Select the cost accounting ledger that you created earlier.</span></span>  
+3. <span data-ttu-id="84c79-112">Smellt er á Raunverulegar útgáfur.</span><span class="sxs-lookup"><span data-stu-id="84c79-112">Click Actual versions.</span></span>
+4. <span data-ttu-id="84c79-113">Í Aðgerðarúðunni er smellt á Upprunagögn vinnsla.</span><span class="sxs-lookup"><span data-stu-id="84c79-113">On the Action Pane, click Source data processing.</span></span>
+5. <span data-ttu-id="84c79-114">Smella á Fjárhagsfærsla flutningabóka</span><span class="sxs-lookup"><span data-stu-id="84c79-114">Click General ledger entry transfer journals.</span></span>
+6. <span data-ttu-id="84c79-115">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="84c79-115">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="84c79-116">Smellt er á Færslubókarfærslur.</span><span class="sxs-lookup"><span data-stu-id="84c79-116">Click Journal entries.</span></span>
+8. <span data-ttu-id="84c79-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="84c79-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="84c79-118">Smellt er á kostnaðarfærslur.</span><span class="sxs-lookup"><span data-stu-id="84c79-118">Click Cost entries.</span></span>
+10. <span data-ttu-id="84c79-119">Smellt er á Upprunafærslur.</span><span class="sxs-lookup"><span data-stu-id="84c79-119">Click Source entry.</span></span>
+11. <span data-ttu-id="84c79-120">Í Aðgerðarúðunni er smellt á Upprunagögn vinnsla.</span><span class="sxs-lookup"><span data-stu-id="84c79-120">On the Action Pane, click Source data processing.</span></span>
+12. <span data-ttu-id="84c79-121">Smella á Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="84c79-121">Click General ledger.</span></span>
+13. <span data-ttu-id="84c79-122">Sláið inn eða veldu gildi í reitnum Fjárhagsdagatal tímabil.</span><span class="sxs-lookup"><span data-stu-id="84c79-122">In the Fiscal calendar period field, enter or select a value.</span></span>
+    * <span data-ttu-id="84c79-123">Í þessu dæmi, velja Fjárhags 2017 Tímabil 9.</span><span class="sxs-lookup"><span data-stu-id="84c79-123">For this example, select Fiscal 2017 Period 9.</span></span>  
+14. <span data-ttu-id="84c79-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="84c79-124">Click OK.</span></span>
 
 

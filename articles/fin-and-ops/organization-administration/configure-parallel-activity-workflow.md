@@ -17,39 +17,39 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5473327c0665c9183746eb8125c7a368fbedc21e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a><span data-ttu-id="f48dd-103">Grunnstilla hliðstæður verkþátt í verkflæði</span><span class="sxs-lookup"><span data-stu-id="f48dd-103">Configure a parallel activity in a workflow</span></span>
+# <a name="configure-a-parallel-activity-in-a-workflow"></a><span data-ttu-id="2c018-103">Grunnstilla hliðstæður verkþátt í verkflæði</span><span class="sxs-lookup"><span data-stu-id="2c018-103">Configure a parallel activity in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="f48dd-104">Til að skilgreina samhliða verkþátt, Ljúka eftirfarandi aðgerðum í verkflæðisritill.</span><span class="sxs-lookup"><span data-stu-id="f48dd-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="2c018-104">Til að skilgreina samhliða verkþátt, Ljúka eftirfarandi aðgerðum í verkflæðisritill.</span><span class="sxs-lookup"><span data-stu-id="2c018-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="f48dd-105">Samhliða verkþáttur samanstendur úr verkflæðisgreinar sem eru keyrðar á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="f48dd-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
+<span data-ttu-id="2c018-105">Samhliða verkþáttur samanstendur úr verkflæðisgreinar sem eru keyrðar á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="2c018-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
 
-## <a name="name-a-parallel-activity"></a><span data-ttu-id="f48dd-106">Nefna Hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="f48dd-106">Name a parallel activity</span></span>
-<span data-ttu-id="f48dd-107">Fylgið þessum skrefum til að færa inn heiti á samhliða aðgerð.</span><span class="sxs-lookup"><span data-stu-id="f48dd-107">Follow these steps to enter a name for a parallel activity.</span></span>
-1.  <span data-ttu-id="f48dd-108">Hægrismellt á hliðstæður verkþáttur og smellið síðan á **Eiginleika** til að opna í **Eiginleika** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="f48dd-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
-2.  <span data-ttu-id="f48dd-109">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="f48dd-109">In the left pane, click **Basic Settings**.</span></span>
-3.  <span data-ttu-id="f48dd-110">Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="f48dd-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
-4.  <span data-ttu-id="f48dd-111">Smellið á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="f48dd-111">Click **Close**.</span></span>
+## <a name="name-a-parallel-activity"></a><span data-ttu-id="2c018-106">Nefna Hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="2c018-106">Name a parallel activity</span></span>
+<span data-ttu-id="2c018-107">Fylgið þessum skrefum til að færa inn heiti á samhliða aðgerð.</span><span class="sxs-lookup"><span data-stu-id="2c018-107">Follow these steps to enter a name for a parallel activity.</span></span>
+1.  <span data-ttu-id="2c018-108">Hægrismellt á hliðstæður verkþáttur og smellið síðan á **Eiginleika** til að opna í **Eiginleika** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="2c018-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
+2.  <span data-ttu-id="2c018-109">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="2c018-109">In the left pane, click **Basic Settings**.</span></span>
+3.  <span data-ttu-id="2c018-110">Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="2c018-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
+4.  <span data-ttu-id="2c018-111">Smellið á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="2c018-111">Click **Close**.</span></span>
 
-## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="f48dd-112">Skilgreina greinar Hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="f48dd-112">Configure the branches of a parallel activity</span></span>
-<span data-ttu-id="f48dd-113">Fylgdu eftirfarandi skrefum til að bæta við og skilgreina greinar þessa hliðstæður verkþáttur.</span><span class="sxs-lookup"><span data-stu-id="f48dd-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
-1.  <span data-ttu-id="f48dd-114">Tvísmellið á samhliða verkþáttar til að birta greinar hins samhliða verkþáttar.</span><span class="sxs-lookup"><span data-stu-id="f48dd-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
-2.  <span data-ttu-id="f48dd-115">Til að bæta við grein, dragið á **Grein** einingu úr á **verkflæðiseiningar** svæði á innskotsstaður í striga.</span><span class="sxs-lookup"><span data-stu-id="f48dd-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="f48dd-116">Eftirfarandi tala sýnir innskotsstaði. ![innskotsstaður](./media/workflow_insertionpoint.gif)</span><span class="sxs-lookup"><span data-stu-id="f48dd-116">The following figure shows an insertion point.![Insertion point](./media/workflow_insertionpoint.gif)</span></span>
-    | <span data-ttu-id="f48dd-117">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="f48dd-117">**Note**</span></span>                                                                                                         |
+## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="2c018-112">Skilgreina greinar Hliðstæður verkþáttur</span><span class="sxs-lookup"><span data-stu-id="2c018-112">Configure the branches of a parallel activity</span></span>
+<span data-ttu-id="2c018-113">Fylgdu eftirfarandi skrefum til að bæta við og skilgreina greinar þessa hliðstæður verkþáttur.</span><span class="sxs-lookup"><span data-stu-id="2c018-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
+1.  <span data-ttu-id="2c018-114">Tvísmellið á samhliða verkþáttar til að birta greinar hins samhliða verkþáttar.</span><span class="sxs-lookup"><span data-stu-id="2c018-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
+2.  <span data-ttu-id="2c018-115">Til að bæta við grein, dragið á **Grein** einingu úr á **verkflæðiseiningar** svæði á innskotsstaður í striga.</span><span class="sxs-lookup"><span data-stu-id="2c018-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="2c018-116">Eftirfarandi tala sýnir innskotsstaði. ![innskotsstaður](./media/workflow_insertionpoint.gif)</span><span class="sxs-lookup"><span data-stu-id="2c018-116">The following figure shows an insertion point.![Insertion point](./media/workflow_insertionpoint.gif)</span></span>
+    | <span data-ttu-id="2c018-117">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="2c018-117">**Note**</span></span>                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
-    | <span data-ttu-id="f48dd-118">Röðun greina er ekki mikilvæg þar sem allar greinar samhliða verkþáttar keyra á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="f48dd-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span> |
+    | <span data-ttu-id="2c018-118">Röðun greina er ekki mikilvæg þar sem allar greinar samhliða verkþáttar keyra á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="2c018-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span> |
 
-3.  <span data-ttu-id="f48dd-119">Til þess að skilgreina hver grein, sjá [Skilgreina samhliða grein](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="f48dd-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
+3.  <span data-ttu-id="2c018-119">Til þess að skilgreina hver grein, sjá [Skilgreina samhliða grein](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="2c018-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
 
 
 

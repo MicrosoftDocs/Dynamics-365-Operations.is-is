@@ -16,42 +16,42 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bef33595a09ea54ba246a04b5a838013c6d65271
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-new-benefit"></a><span data-ttu-id="c061e-103">Stofna ný fríðindi</span><span class="sxs-lookup"><span data-stu-id="c061e-103">Create a new benefit</span></span>
+# <a name="create-a-new-benefit"></a><span data-ttu-id="3f2f4-103">Stofna ný fríðindi</span><span class="sxs-lookup"><span data-stu-id="3f2f4-103">Create a new benefit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c061e-104">Þetta verk sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð.</span><span class="sxs-lookup"><span data-stu-id="c061e-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="c061e-105">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="c061e-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="c061e-106">Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="c061e-106">This task is intended for a Compensation and Benefits manager.</span></span>
+<span data-ttu-id="3f2f4-104">Þetta verk sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="3f2f4-105">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="3f2f4-106">Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-106">This task is intended for a Compensation and Benefits manager.</span></span>
 
 
-## <a name="create-benefit-elements"></a><span data-ttu-id="c061e-107">Stofna fríðindaeiningar</span><span class="sxs-lookup"><span data-stu-id="c061e-107">Create benefit elements</span></span>
-1. <span data-ttu-id="c061e-108">Farið í Mannauður > Fríðindi > Uppsetning > Fríðindi einingar.</span><span class="sxs-lookup"><span data-stu-id="c061e-108">Go to Human resources > Benefits > Setup > Benefit elements.</span></span>
-2. <span data-ttu-id="c061e-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="c061e-109">Click New.</span></span>
-3. <span data-ttu-id="c061e-110">Í reitinn Tegund er færð inn tegund þeirra fríðinda sem verið er að stofna.</span><span class="sxs-lookup"><span data-stu-id="c061e-110">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
-4. <span data-ttu-id="c061e-111">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="c061e-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="c061e-112">Í reitnum Samhliða skráning skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="c061e-112">In the Concurrent enrollment field, select an option.</span></span>
-    * <span data-ttu-id="c061e-113">Til að takmarka getu starfsmanna til að skrá sig í mörg sjúkrakerfi, veldu Ein innskráning fyrir hverja gerð.</span><span class="sxs-lookup"><span data-stu-id="c061e-113">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
-6. <span data-ttu-id="c061e-114">Í reitnum Launaflokkur skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="c061e-114">In the Payroll category field, select an option.</span></span>
-7. <span data-ttu-id="c061e-115">Smellt er á flipann Áætlanir.</span><span class="sxs-lookup"><span data-stu-id="c061e-115">Click the Plans tab.</span></span>
-8. <span data-ttu-id="c061e-116">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="c061e-116">Click New.</span></span>
-9. <span data-ttu-id="c061e-117">Í reitinn Áætlun skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="c061e-117">In the Plan field, type a value.</span></span>
-10. <span data-ttu-id="c061e-118">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="c061e-118">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="c061e-119">Færa inn eða veljið gildi í svæðinu gerð.</span><span class="sxs-lookup"><span data-stu-id="c061e-119">In the Type field, enter or select a value.</span></span>
-12. <span data-ttu-id="c061e-120">Í reitnum Áhrif á launaskrá skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="c061e-120">In the Payroll impact field, select an option.</span></span>
-13. <span data-ttu-id="c061e-121">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="c061e-121">Click Save.</span></span>
+## <a name="create-benefit-elements"></a><span data-ttu-id="3f2f4-107">Stofna fríðindaeiningar</span><span class="sxs-lookup"><span data-stu-id="3f2f4-107">Create benefit elements</span></span>
+1. <span data-ttu-id="3f2f4-108">Farið í Mannauður > Fríðindi > Uppsetning > Fríðindi einingar.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-108">Go to Human resources > Benefits > Setup > Benefit elements.</span></span>
+2. <span data-ttu-id="3f2f4-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-109">Click New.</span></span>
+3. <span data-ttu-id="3f2f4-110">Í reitinn Tegund er færð inn tegund þeirra fríðinda sem verið er að stofna.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-110">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
+4. <span data-ttu-id="3f2f4-111">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3f2f4-112">Í reitnum Samhliða skráning skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-112">In the Concurrent enrollment field, select an option.</span></span>
+    * <span data-ttu-id="3f2f4-113">Til að takmarka getu starfsmanna til að skrá sig í mörg sjúkrakerfi, veldu Ein innskráning fyrir hverja gerð.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-113">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
+6. <span data-ttu-id="3f2f4-114">Í reitnum Launaflokkur skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-114">In the Payroll category field, select an option.</span></span>
+7. <span data-ttu-id="3f2f4-115">Smellt er á flipann Áætlanir.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-115">Click the Plans tab.</span></span>
+8. <span data-ttu-id="3f2f4-116">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-116">Click New.</span></span>
+9. <span data-ttu-id="3f2f4-117">Í reitinn Áætlun skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-117">In the Plan field, type a value.</span></span>
+10. <span data-ttu-id="3f2f4-118">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-118">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="3f2f4-119">Færa inn eða veljið gildi í svæðinu gerð.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-119">In the Type field, enter or select a value.</span></span>
+12. <span data-ttu-id="3f2f4-120">Í reitnum Áhrif á launaskrá skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-120">In the Payroll impact field, select an option.</span></span>
+13. <span data-ttu-id="3f2f4-121">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-121">Click Save.</span></span>
 
-## <a name="create-a-benefit"></a><span data-ttu-id="c061e-122">Stofna fríðindi</span><span class="sxs-lookup"><span data-stu-id="c061e-122">Create a benefit</span></span>
-1. <span data-ttu-id="c061e-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="c061e-123">Close the page.</span></span>
-2. <span data-ttu-id="c061e-124">Farið í Mannauður > Fríðindi > Fríðindi.</span><span class="sxs-lookup"><span data-stu-id="c061e-124">Go to Human resources > Benefits > Benefits.</span></span>
-3. <span data-ttu-id="c061e-125">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="c061e-125">Click New to open the drop dialog.</span></span>
-4. <span data-ttu-id="c061e-126">Í reitinn áætlun skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="c061e-126">In the Plan field, enter or select a value.</span></span>
-5. <span data-ttu-id="c061e-127">Sláið inn eða veldu gildi í valkostur reitnum.</span><span class="sxs-lookup"><span data-stu-id="c061e-127">In the Option field, enter or select a value.</span></span>
-6. <span data-ttu-id="c061e-128">Færa inn dagsetningu og tíma í svæðinu gildistaka.</span><span class="sxs-lookup"><span data-stu-id="c061e-128">In the Effective field, enter a date and time.</span></span>
-7. <span data-ttu-id="c061e-129">Smellt er á Stofna fríðindi.</span><span class="sxs-lookup"><span data-stu-id="c061e-129">Click Create benefit.</span></span>
+## <a name="create-a-benefit"></a><span data-ttu-id="3f2f4-122">Stofna fríðindi</span><span class="sxs-lookup"><span data-stu-id="3f2f4-122">Create a benefit</span></span>
+1. <span data-ttu-id="3f2f4-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-123">Close the page.</span></span>
+2. <span data-ttu-id="3f2f4-124">Farið í Mannauður > Fríðindi > Fríðindi.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-124">Go to Human resources > Benefits > Benefits.</span></span>
+3. <span data-ttu-id="3f2f4-125">Smellt er á Nýtt til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-125">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="3f2f4-126">Í reitinn áætlun skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-126">In the Plan field, enter or select a value.</span></span>
+5. <span data-ttu-id="3f2f4-127">Sláið inn eða veldu gildi í valkostur reitnum.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-127">In the Option field, enter or select a value.</span></span>
+6. <span data-ttu-id="3f2f4-128">Færa inn dagsetningu og tíma í svæðinu gildistaka.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-128">In the Effective field, enter a date and time.</span></span>
+7. <span data-ttu-id="3f2f4-129">Smellt er á Stofna fríðindi.</span><span class="sxs-lookup"><span data-stu-id="3f2f4-129">Click Create benefit.</span></span>
 
 

@@ -19,28 +19,28 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: ceeb82130a3ab214ef3e9eda09294c9bcc0c7cc0
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a><span data-ttu-id="fef2b-103">Ákvarða uppskriftarútgáfu</span><span class="sxs-lookup"><span data-stu-id="fef2b-103">Determine the BOM version</span></span>
+# <a name="determine-the-bom-version"></a><span data-ttu-id="d1925-103">Ákvarða uppskriftarútgáfu</span><span class="sxs-lookup"><span data-stu-id="d1925-103">Determine the BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="fef2b-104">Á meðan á niðurbroti eftirspurnar stendur, ef vara hefur gerð sjálfgefinnar vöru stillta á framleiðslu finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði.</span><span class="sxs-lookup"><span data-stu-id="fef2b-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
+<span data-ttu-id="d1925-104">Á meðan á niðurbroti eftirspurnar stendur, ef vara hefur gerð sjálfgefinnar vöru stillta á framleiðslu finnur áætlunarforritið gilda uppskriftarútgáfu byggða á svæði.</span><span class="sxs-lookup"><span data-stu-id="d1925-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 
-<span data-ttu-id="fef2b-105">Svæðavíddin er alltaf þekkt og er tilgreind í eftirspurnarfærslu.</span><span class="sxs-lookup"><span data-stu-id="fef2b-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="fef2b-106">Aðferðin við að ákvarða hvaða uppskriftarútgáfu á að nota er sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="fef2b-106">The following process is used to determine the BOM version to use:</span></span>
+<span data-ttu-id="d1925-105">Svæðavíddin er alltaf þekkt og er tilgreind í eftirspurnarfærslu.</span><span class="sxs-lookup"><span data-stu-id="d1925-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="d1925-106">Aðferðin við að ákvarða hvaða uppskriftarútgáfu á að nota er sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="d1925-106">The following process is used to determine the BOM version to use:</span></span>
 
--   <span data-ttu-id="fef2b-107">Ef uppskriftarútgáfa hefur verið skilgreind fyrir vöruna í eftirspurnarsvæðinu, notar forritið þessa svæðistengdu uppskrift.</span><span class="sxs-lookup"><span data-stu-id="fef2b-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
--   <span data-ttu-id="fef2b-108">Ef svæðistengd uppskriftarútgáfa hefur ekki verið skilgreind fyrir vöruna í eftirspurnarsvæðinu, notar forritið almenna uppskriftarútgáfu.</span><span class="sxs-lookup"><span data-stu-id="fef2b-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="fef2b-109">Almenn uppskrift tilgreinir ekki svæði og gildir um mörg svæði.</span><span class="sxs-lookup"><span data-stu-id="fef2b-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="fef2b-110">Ef til er almenn uppskrift, notar forritið hana.</span><span class="sxs-lookup"><span data-stu-id="fef2b-110">If there is a general BOM, it is used.</span></span>
--   <span data-ttu-id="fef2b-111">Ef engin almenn uppskrift er fyrir hendi, stöðvast niðurbrot eftirspurnar á þessum tímapunkti.</span><span class="sxs-lookup"><span data-stu-id="fef2b-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
+-   <span data-ttu-id="d1925-107">Ef uppskriftarútgáfa hefur verið skilgreind fyrir vöruna í eftirspurnarsvæðinu, notar forritið þessa svæðistengdu uppskrift.</span><span class="sxs-lookup"><span data-stu-id="d1925-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
+-   <span data-ttu-id="d1925-108">Ef svæðistengd uppskriftarútgáfa hefur ekki verið skilgreind fyrir vöruna í eftirspurnarsvæðinu, notar forritið almenna uppskriftarútgáfu.</span><span class="sxs-lookup"><span data-stu-id="d1925-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="d1925-109">Almenn uppskrift tilgreinir ekki svæði og gildir um mörg svæði.</span><span class="sxs-lookup"><span data-stu-id="d1925-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="d1925-110">Ef til er almenn uppskrift, notar forritið hana.</span><span class="sxs-lookup"><span data-stu-id="d1925-110">If there is a general BOM, it is used.</span></span>
+-   <span data-ttu-id="d1925-111">Ef engin almenn uppskrift er fyrir hendi, stöðvast niðurbrot eftirspurnar á þessum tímapunkti.</span><span class="sxs-lookup"><span data-stu-id="d1925-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
 
-<span data-ttu-id="fef2b-112">Gild uppskriftarútgáfa, hvort sem hún er svæðistengd eða almenn, verður að uppfylla nauðsynlegar kröfur varðandi dagsetningu og magn.</span><span class="sxs-lookup"><span data-stu-id="fef2b-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
+<span data-ttu-id="d1925-112">Gild uppskriftarútgáfa, hvort sem hún er svæðistengd eða almenn, verður að uppfylla nauðsynlegar kröfur varðandi dagsetningu og magn.</span><span class="sxs-lookup"><span data-stu-id="d1925-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
 
 
 

@@ -1,0 +1,54 @@
+---
+title: CFO-yfirlit - Power BI efni
+description: "Þetta efnisatriði lýsir CFO-yfirliti fyrir efni Microsoft Power BI"
+author: kweekley
+manager: AnnBe
+ms.date: 06/16/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application user, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: dfc5b5f1ced098a445762653f98c672eb896a104
+ms.contentlocale: is-is
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="19674-103">CFO-yfirlit - Power BI efni</span><span class="sxs-lookup"><span data-stu-id="19674-103">CFO overview Power BI content</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="19674-104">Þetta efnisatriði lýsir **CFO-yfirliti** fyrir efni Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="19674-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> 
+
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="19674-105">Farið í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="19674-105">Accessing the Power BI content</span></span>
+
+<span data-ttu-id="19674-106">Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) eru skýrslur úr **CFO-yfirliti** Power BI efni birtar á vinnusvæðinu **CFO-yfirlit**.</span><span class="sxs-lookup"><span data-stu-id="19674-106">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), reports from the **CFO overview** Power BI content are shown in the **CFO overview** workspace.</span></span>
+
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="19674-107">Skýrslur sem eru hafðir með í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="19674-107">Reports that are included in the Power BI content</span></span>
+<span data-ttu-id="19674-108">**CFO yfirlit** í Power BI efninu er samsuða af skýrslum úr margvíslegu öðru efni Power BI, ásamt nokkrum raunstöðum og áætluðum stöðum fjárhagsáætlunar úr fjárhag.</span><span class="sxs-lookup"><span data-stu-id="19674-108">The **CFO overview** Power BI content is a composite of reports from various other Power BI content, together with some actual and budget balances from General ledger.</span></span> <span data-ttu-id="19674-109">Þannig gefur þetta efni úr Power BI fjármálastjóra (CFO) yfirlit yfir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="19674-109">Therefore, this Power BI content gives the chief financial officer (CFO) an overview of the organization.</span></span>
+
+<span data-ttu-id="19674-110">Eftirfarandi tafla sýnir Power BI efnið sem skýrslurnar eru afritaðar úr og skýrslurnar sem er að finna á vinnusvæðinu **CFO-yfirlit**.</span><span class="sxs-lookup"><span data-stu-id="19674-110">The following table shows the Power BI content that the reports are copied from and the reports that are provided in the **CFO overview** workspace.</span></span> <span data-ttu-id="19674-111">Þú finnur tengla í leiðbeiningum sem fylgja Power BI efninu.</span><span class="sxs-lookup"><span data-stu-id="19674-111">Links are provided to the documentation for the various Power BI content.</span></span>
+
+| <span data-ttu-id="19674-112">Power BI efni sem þar er að finna</span><span class="sxs-lookup"><span data-stu-id="19674-112">Power BI content that is included</span></span>     | <span data-ttu-id="19674-113">Skýrslur</span><span class="sxs-lookup"><span data-stu-id="19674-113">Reports</span></span> |
+|---------------------------------------|---------|
+| [<span data-ttu-id="19674-114">Fjárhagsleg frammistaða</span><span class="sxs-lookup"><span data-stu-id="19674-114">Financial performance</span></span>](financial-performance-power-bi-content-pack.md) | <ul><li><span data-ttu-id="19674-115">Tekjur</span><span class="sxs-lookup"><span data-stu-id="19674-115">Revenue</span></span></li><li><span data-ttu-id="19674-116">Kostnaður</span><span class="sxs-lookup"><span data-stu-id="19674-116">Expenses</span></span></li><li><span data-ttu-id="19674-117">Nettótekjur</span><span class="sxs-lookup"><span data-stu-id="19674-117">Net income</span></span></li><li><span data-ttu-id="19674-118">Brúttóframlegð</span><span class="sxs-lookup"><span data-stu-id="19674-118">Gross margin</span></span></li><li><span data-ttu-id="19674-119">Núverandi framlegð</span><span class="sxs-lookup"><span data-stu-id="19674-119">Current ratio</span></span></li><li><span data-ttu-id="19674-120">Samtala viðskiptaskulda</span><span class="sxs-lookup"><span data-stu-id="19674-120">Total accounts payable</span></span></li><li><span data-ttu-id="19674-121">Samtala viðskiptakrafa</span><span class="sxs-lookup"><span data-stu-id="19674-121">Total accounts receivable</span></span></li><li><span data-ttu-id="19674-122">Útgjöld eftir aðallykli</span><span class="sxs-lookup"><span data-stu-id="19674-122">Expenses by account category</span></span></li><li><span data-ttu-id="19674-123">Útgjöld - rauntölur bornar saman við áætlun</span><span class="sxs-lookup"><span data-stu-id="19674-123">Expenses - Actual vs budget</span></span></li><li><span data-ttu-id="19674-124">Tekjur - Rauntölur bornar saman við áætlun</span><span class="sxs-lookup"><span data-stu-id="19674-124">Revenue - Actual vs budget</span></span></li></ul> |
+| [<span data-ttu-id="19674-125">Yfirlit yfir reiðufé</span><span class="sxs-lookup"><span data-stu-id="19674-125">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li><span data-ttu-id="19674-126">Sjóðstreymisspá</span><span class="sxs-lookup"><span data-stu-id="19674-126">Cash flow forecast</span></span></li><li><span data-ttu-id="19674-127">Staða bankareiknings</span><span class="sxs-lookup"><span data-stu-id="19674-127">Bank account balance</span></span></li><li><span data-ttu-id="19674-128">Staða eftir gjaldmiðlum</span><span class="sxs-lookup"><span data-stu-id="19674-128">Balance by currency</span></span></li></ul> |
+| [<span data-ttu-id="19674-129">Sala og arðsemi</span><span class="sxs-lookup"><span data-stu-id="19674-129">Sales and profitability</span></span>](sales-profitability-performance-content-pack.md) | <ul><li><span data-ttu-id="19674-130">Tekjur eftir svæði</span><span class="sxs-lookup"><span data-stu-id="19674-130">Revenue by region</span></span></li><li><span data-ttu-id="19674-131">Efstu tíu viðskiptamenn eftir tekjum</span><span class="sxs-lookup"><span data-stu-id="19674-131">Top 10 customers by revenue</span></span></li><li><span data-ttu-id="19674-132">Efstu tíu afurðir eftir tekjum</span><span class="sxs-lookup"><span data-stu-id="19674-132">Top 10 products by revenue</span></span></li></ul> |
+| [<span data-ttu-id="19674-133">Skulda- og innheimtuumsjón</span><span class="sxs-lookup"><span data-stu-id="19674-133">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="19674-134">Viðskiptavinur kominn fram yfir gjalddaga</span><span class="sxs-lookup"><span data-stu-id="19674-134">Customer past due</span></span></li><li><span data-ttu-id="19674-135">Viðskiptavinir yfir kreditmörk</span><span class="sxs-lookup"><span data-stu-id="19674-135">Customers over credit limit</span></span></li><li><span data-ttu-id="19674-136">Aldursgreindar stöður</span><span class="sxs-lookup"><span data-stu-id="19674-136">Aged balances</span></span></li></ul> |
+| [<span data-ttu-id="19674-137">Greining á innkaupum og eyðslu</span><span class="sxs-lookup"><span data-stu-id="19674-137">Purchase spend analysis</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="19674-138">Innkaup eftir mánuði/degi</span><span class="sxs-lookup"><span data-stu-id="19674-138">Purchases by month/day</span></span></li><li><span data-ttu-id="19674-139">10 efstu lánardrottnar eftir innkaupum</span><span class="sxs-lookup"><span data-stu-id="19674-139">Top 10 vendors by purchases</span></span></li><li><span data-ttu-id="19674-140">10 efstu vörur eftir innkaupum</span><span class="sxs-lookup"><span data-stu-id="19674-140">Top 10 products by purchases</span></span></li></ul> |
+
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="19674-141">Stækkun efnis Power BI</span><span class="sxs-lookup"><span data-stu-id="19674-141">Extending the Power BI content</span></span>
+<span data-ttu-id="19674-142">Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu.</span><span class="sxs-lookup"><span data-stu-id="19674-142">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="19674-143">Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana.</span><span class="sxs-lookup"><span data-stu-id="19674-143">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span>
+
+<span data-ttu-id="19674-144">Hægt er að finna **CFO-yfirlit** í Power BI í safninu Samnýttar eignir í LCS.</span><span class="sxs-lookup"><span data-stu-id="19674-144">You can find the **CFO overview** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="19674-145">Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="19674-145">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="19674-146">Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.</span><span class="sxs-lookup"><span data-stu-id="19674-146">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
+
