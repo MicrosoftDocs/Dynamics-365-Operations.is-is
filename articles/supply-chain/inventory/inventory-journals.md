@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ Framleiðsluílagsbækur virka eins og vörukomubókin en eru notaðar fyrir fra
 
 ### <a name="counting"></a>Talning
 
-Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Seðlatalning
 

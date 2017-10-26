@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: is-is
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Farsímageta í Microsoft Dynamics 365 for Finance and Operations, Enterprise ú
 
 | Skilyrði                                                                                            | lýsing                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016).                   |
 | Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur skráð rangt tvær Loka skipanir fyrir felliglugga þetta er innifalið í Dynamics 365 for Operations uppfærslu verkvangs 3 (uppfærsla nóvember 2016) |
 | Setja upp bráðabót KB 3207800.                                                                              | Þessi bráðabót leyfir að viðhengi séu skoðuð í farsímabiðlara þetta er innifalið í Dynamics 365 for Operations uppfærsla verkvangs 3 (uppfærsla í nóvember 2016)           |

@@ -19,10 +19,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 069af29012f75aa1a15ba9df86fe1fc9e04eaf41
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Rafrænar undirskriftir í Dynamics 365 for Finance and Operations
 Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli í Dynamics 365 for Finance and Operations. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er. 
 
-Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Finance and Operations skráir upplýsingar um rafrænar undirskriftir í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (verkefnaleiðbeiningar)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
+Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Finance and Operations skráir upplýsingar um rafrænar undirskriftir í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (verkefnaleiðbeiningar)](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Notendur sem þarfnast aðgangs að rafrænar undirskriftir
 Þrenns konar notendur krefjast vanalega öryggisaðgangs að rafrænum undirskriftum: Stjórnendur rafrænna undirskrifta, áritendur og endurskoðendur rafrænna undirskrifta.

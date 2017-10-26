@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Vélbúnaðarþörf fyrir staðbundin umhverfi
-Áður en byrjað er á ferlinu fyrir vélbúnaðar- og innviðaþörf fyrir staðbundið umhverfi skaltu kynna þér [Kerfiskröfur](../get-started/system-requirements.md) og [Leiðbeiningar um uppsetningu og virkjun](../deployment/setup-deploy-on-premises-environments.md) til að fá góðan skilning á undirliggjandi innviðum. 
+Áður en byrjað er á ferlinu fyrir vélbúnaðar- og innviðaþörf fyrir staðbundið umhverfi skaltu kynna þér [Kerfiskröfur](system-requirements.md) og [Leiðbeiningar um uppsetningu og virkjun](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) til að fá góðan skilning á undirliggjandi innviðum. 
 
   **Athugið:** Kynntu þér vel bestu venjur fyrir kerfisuppsetningu til að ná mestum afköstum. 
 
@@ -89,7 +89,7 @@ Til að skilja stærðarkröfur þarftu að vita hámarksmagns færslna sem þú
 Mælt er með að notast alltaf við SQL Server í annaðhvort klasa- eða speglunaruppsetningu. Annar SQL hnúturinn ætti að hafa sama fjölda kjarna og aðalhnúturinn. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory samsteypuþjónusta (AD FS)
-Upplýsingar um stærðir AD FS er að finna í [Fylgiskjölum um afkastagetu þjóna AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Upplýsingar um stærðir AD FS er að finna í [Fylgiskjölum um afkastagetu þjóna AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 [Stærðatöflureiknir](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) er í boði til að áætla fjölda tilvika í þinni virkjun.
 

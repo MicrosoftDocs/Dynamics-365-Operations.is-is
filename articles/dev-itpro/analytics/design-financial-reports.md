@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -183,8 +182,8 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 18. **Vista** breytingarnar og **mynda**. Eftir að skýrslan lýkur myndun og opnast er hægt að skoða skýrsluna.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Fjárhagsskýrslugerð](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[ Skoða fjárhagsskýrslur](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Fjárhagsskýrslugerð](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[ Skoða fjárhagsskýrslur](../../financials/general-ledger/view-financial-reports.md) 
 [Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

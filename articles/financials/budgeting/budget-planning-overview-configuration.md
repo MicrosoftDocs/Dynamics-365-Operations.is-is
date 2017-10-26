@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ valfrjáls en mælt er með að fyrsta skrefið sé að stofna skema sem sýnir 
 
 Á **stigveldi Fyrirtækis** síðu er hægt að tilnefna stigveldi fyrirtækis sem stigveldi fjárhagsáætlunargerðar fyrir hverju ferli fjárhagsáætlunargerðar. Stigveldi fjárhagsáætlunargerðar þarf ekki að samsvara stöðluðu stigveldi fyrirtækis sem notað er í öðrum tilgangi. Þar sem þetta stigveldið er notuð til að safna og dreifa gögn, gætirðu vijað nota annað skipulag. Í dæmaskema eru söludeildirnar undir stigi höfuðstöðvar sem inniheldur deildir fjárhagsáætlunar og fjármála. Skipanin sem er notuð til að stjórna aðgerðum fyrir söludeildirnar er líklega ólík þessu skipulagi. Aðeins eitt stigveldi fyrirtækis getur verið úthlutað á hvert ferli fjárhagsáætlunargerðar. 
 
-Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Notandaöryggi
 

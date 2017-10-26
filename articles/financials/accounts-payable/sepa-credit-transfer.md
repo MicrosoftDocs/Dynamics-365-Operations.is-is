@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="what-is-a-credit-transfer-message"></a>Hvað eru kreditfærsluskilaboð?
 Kreditfærsluskilaboð er beiðni sendir aðila sem hóf greiðsluna (þínu fyrirtæki) um að flytja fjármagn af eigin reikningi til lánardrottins. Það eru margar lands/svæðis-bundnar og bankaháðar útfærslur kreditflutningsskilaboða. Sumar þeirra eru notaðar innan eins lands/svæðis, og sumar eru að verða að stöðlum. Einn þekktur altækur staðall er ISO 20022 og upphafsskilaboð hans, eins og kreditfærslur. Eftirfarandi skýringarmynd sýnir tengsl og umfang valinna kreditfærsluskilaboða. 
-![Kreditmillifærsla](./media/credit-transfer.jpg) Kredifærsluskilaboð\[/caption\] 
+![Kreditmillifærsla](./media/credit-transfer.jpg) Kreditfærsluskilaboð 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Hvað eru ISO 20022 og SPEA-greiðslur?
 Sameiginlegt evrópskt greiðslusvæði (SEPA) er sett upp af Evrópsku framkvæmdastjórninni og segir fyrir um að allar rafrænar greiðslur séu taldar vera innanlands, án tillits til lands/svæðis þar sem einstaklingur, fyrirtæki eða banki er staðsettur. Það er enginn munur milli innanlandsgreiðslna og greiðslna milli landa. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) auk Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með. Evrópska framkvæmdastjórnin kom á fót lagagrunni fyrir SEPA-greiðslur með í Tilskipun um greiðsluþjónustu (PSD). Evrópska greiðslumiðlunarráðið (EPC) styður SEPA með eftirfarandi aðgerðum:
@@ -59,7 +59,7 @@ Greiðslusnið SEPA-kreditfærslu fyrir evrópulönd er innleitt með því að 
 Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
--   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Þegar þú stillir greiðsluaðferðir viðskiptaskulda velurðu gátreitinn **Almenna rafræn skýrslugerð** og viðeigandi kreditfærslusnið (t.d. **ISO 20022 kreditfærsla (AT)**) sem stillingar útflutningssniðs.
 -   Einnig þarf að setja upp lögaðila einingar og bankareikningsupplýsingar í Finance and Operations.
 -   Krafist er númer bankareiknings, IBANs og stundum SWIFT-kóða (BICs) eða annarra kenna til að stofna gildar kreditfærslugreiðslur. Þess vegna verður að setja þær upp fyrir bankareikning lánardrottins og bankareikningur fyrirtækisins sem óskar eftir flutningnum.

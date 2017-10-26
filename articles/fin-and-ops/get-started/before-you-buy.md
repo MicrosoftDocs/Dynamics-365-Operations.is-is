@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 Nú getur þú sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu í skýi eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
-Nánari upplýsingar er að finna á: [Virkjunarvalkostir](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+Nánari upplýsingar er að finna á: [Virkjunarvalkostir](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Skref þrjú: Kaupa og hafa umsjón með áskrift
 Upplýsingar um áskriftarvalkosti er að finna á verðlagningarsíðu [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Þessi síða inniheldur nokkrar mismunandi áætlanir til að mæta þörfum fyrirtækisins þíns.
@@ -51,7 +51,7 @@ Til eru tvær leiðir til að kaupa áskrift að virkjun á staðnum
 Ef fyrirtækið þittt hefur 250 eða fleiri notendur Dynamics 365 gætirðu haft áhuga á [Magnleyfissamningi](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy.aspx). 
 
 Fyrir magnleyfi er Finance and Operations tiltækt í gegnum:
-- Enterprise samning
+- Enterprise samningur
 - Enterprise samningsáskrift
 - Skráningu fyrir námslausnir (samkvæmt skólasamningi)
 - Vöru- og þjónustusamningur Microsoft (MPSA)
@@ -60,7 +60,7 @@ Fyrir magnleyfi er Finance and Operations tiltækt í gegnum:
 Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilja þarfir fyrirtækisins þíns. [Notaðu samstarfsaðilagátt Microsoft til að finna samstarfsaðila sem uppfyllir þínar þarfir](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kaupa í gegnum Dynamics samstarfsaðila (á staðnum)
-Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Frekari upplýsingar er að finna á [Kaupa Dynamics 365 for Finance and Operations, Enterprise útgáfu (á staðnum)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Frekari upplýsingar er að finna á [Kaupa Dynamics 365 for Finance and Operations, Enterprise útgáfu (á staðnum)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Veldu þinn stuðningsvalkost
 Microsoft býður upp á sveigjanlegan og framúrskarandi stuðning, þjónustu og tilföng sem gera notendum kleift að leysa tæknileg vandamál hratt og fá sem mest út úr fjárfestingunni í Dynamics 365. Veldu áætlun sem best uppfyllir þínar viðskiptakröfur. 

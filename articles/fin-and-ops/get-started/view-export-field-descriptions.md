@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: is-is
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations er með lýsingar á sumum af 
 
 Ekki eru allar síður með lýsingum. Við viljum aðeins veita lýsingu fyrir flóknari svæði og ekki þau þar sem notkun svæðisins er augljós. Þess vegna sumar síður hafa engar lýsingum sumar síður hafa nokkrar lýsingar og sumar flóknari síðum, eins og margar síður færibreytur hafa margar lýsingar. 
 
-Ef þú hefur aðgang að þróunarumhverfinu í Microsoft Dynamics 365 Finance and Operations geturðu bætt við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
+Ef þú hefur aðgang að þróunarumhverfinu í Microsoft Dynamics 365 Finance and Operations geturðu bætt við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Sjá svæðislýsingar í notendaviðmótinu
 Hægt er að skoða lýsingar á svæðum með halda yfir á svæðið. Sé engin lýsing tiltæk, er hægt að sjá heiti svæðis þegar þú setur músabendil yfir svæðið. (Athugasemd: Í Dynamics AX 7.0 (Febrúar 2016) er aðeins hægt að skoða svæðislýsingar á **Svæðið lýsingar** síðu.) Eftirfarandi skýringarmynd sýnir lýsingu sem birtist þegar þú setur músabendil yfir **Læsa vörum á meðan á talningu stendur** svæði. 
@@ -101,7 +101,7 @@ Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Lei
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Sérsníða reit hjálp](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Sérsníða reit hjálp](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 
