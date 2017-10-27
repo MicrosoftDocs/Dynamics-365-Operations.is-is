@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d93c9d471cc86877f35340693c171958db71df
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6d40069b4116d38f25a12340df0d939afa2866e7
 ms.contentlocale: is-is
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -67,5 +67,5 @@ Mögulegt er að afrita staðsetningar úr einu vöruhúsi í annað og til að 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Búa til nýtt útlit vöruhúss (verkleiðbeiningar)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
+[Búa til nýtt útlit vöruhúss (verkleiðbeiningar)](tasks/create-new-warehouse-layout.md)
 

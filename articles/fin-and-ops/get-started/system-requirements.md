@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: is-is
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Vefforritið getur keyrt í eftirfarandi vöfrum sem keyra á tilgreindum stýri
 Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. 
 
 > [!NOTE]
-> -   Þú verður að setja upp prufuútgáfu af Chrome viðauka til að virkja Verkskráningu til að sækja skjámyndir og hafa þær með í Microsoft Word skjölum sem eru búin til. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Þú verður að setja upp prufuútgáfu af Chrome viðauka til að virkja Verkskráningu til að sækja skjámyndir og hafa þær með í Microsoft Word skjölum sem eru búin til. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritillinn í ClickOnce-hugbúnaðurinn krefst á 64-bita samhæfðs stýrikerfis.
 > -   Hönnunarviðmót fyrir fjárhagsskýrslugerð er ræst sem ClickOnce forritsins. Það krefst á 64-bita samhæfðs stýrikerfis. Ef verið er að nota Chrome, verður að setja upp ClickOnce viðauka til að sækja skýrslu hönnuður biðlara. Ef verið er að nota Chrome með nafnlausum afhendingarmáta, skal ganga úr skugga um að ClickOnce viðaukanum verður einnig virkur fyrir nafnlausan ham.
 > -   Til að forskoða PDF-skrár er mælt með því að notaðir séu vafrar eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
@@ -70,7 +70,7 @@ Finance and Operations krefst Microsoft .NET Framework útgáfu 4.6.2 fyrir öll
 ## <a name="supported-microsoft-office-applications"></a>Studd forrit Microsoft Office
 Eftirfarandi forrit Microsoft Office eru studd í skýi og innanhúsnýtingu Finance and Operations:
 
--   Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu [Office samþættingu úrræðaleit](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.
 
 ## <a name="retail-modern-pos-requirements"></a>Þarfir Retail Modern POS
@@ -153,10 +153,10 @@ Tölvan verður að uppfylla alla kerfiskröfur fyrir uppsetningu og notkun efti
 -   Að minnsta kosti 10 GB af lausu rými (gagnagrunnur rásar getur þurft mikið rými.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Kröfur til þróunar á staðbundna VMs
-Sjá upplýsingar um þarfir fyrir þróun á staðbundna hýsilsheiti vélar (VMs) [VL keyrslu á verslunarsvæðis](../dev-tools/access-instances.md).
+Sjá upplýsingar um þarfir fyrir þróun á staðbundna hýsilsheiti vélar (VMs) [VL keyrslu á verslunarsvæðis](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Sækja um mat afrit af Dynamics 365 til Fjármála og Aðgerðir Enterprise edition](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Sækja um mat afrit af Dynamics 365 til Fjármála og Aðgerðir Enterprise edition](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 
