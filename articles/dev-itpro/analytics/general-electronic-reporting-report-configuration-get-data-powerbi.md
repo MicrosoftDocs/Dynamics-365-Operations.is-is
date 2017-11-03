@@ -1,7 +1,7 @@
 ---
 title: "Skilgreina Rafræna skýrslugerð til að draga gögn inn í Power BI"
 description: "Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
