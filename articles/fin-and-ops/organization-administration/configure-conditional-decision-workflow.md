@@ -25,31 +25,31 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a><span data-ttu-id="6db85-103">Skilgreina skilyrta ákvörðun í verkflæði</span><span class="sxs-lookup"><span data-stu-id="6db85-103">Configure a conditional decision in a workflow</span></span>
+# <a name="configure-a-conditional-decision-in-a-workflow"></a><span data-ttu-id="43332-103">Skilgreina skilyrta ákvörðun í verkflæði</span><span class="sxs-lookup"><span data-stu-id="43332-103">Configure a conditional decision in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="6db85-104">Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="6db85-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
+<span data-ttu-id="43332-104">Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="43332-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
 
-<span data-ttu-id="6db85-105">Skilyrt ákvörðun er punktur þar sem verkflæði skiptist í tvær greinar.</span><span class="sxs-lookup"><span data-stu-id="6db85-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="6db85-106">Til að skilgreina skilyrta ákvörðun í verkflæðisritlinum, hægrismellt er á skilyrt ákvörðun og smellið síðan á **Eiginleika** til að opna **Eiginleika** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="6db85-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="43332-105">Skilyrt ákvörðun er punktur þar sem verkflæði skiptist í tvær greinar.</span><span class="sxs-lookup"><span data-stu-id="43332-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="43332-106">Til að skilgreina skilyrta ákvörðun í verkflæðisritlinum, hægrismellt er á skilyrt ákvörðun og smellið síðan á **Eiginleika** til að opna **Eiginleika** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="43332-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-a-decision"></a><span data-ttu-id="6db85-107">Nefndu ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="6db85-107">Name a decision</span></span>
-<span data-ttu-id="6db85-108">Fylgið þessum skrefum til að færa inn heiti á skilyrta ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="6db85-108">Follow these steps to enter a name for a conditional decision.</span></span>
-1.  <span data-ttu-id="6db85-109">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="6db85-109">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="6db85-110">Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir skilyrtu ákvörðunina.</span><span class="sxs-lookup"><span data-stu-id="6db85-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
+## <a name="name-a-decision"></a><span data-ttu-id="43332-107">Nefndu ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="43332-107">Name a decision</span></span>
+<span data-ttu-id="43332-108">Fylgið þessum skrefum til að færa inn heiti á skilyrta ákvörðun.</span><span class="sxs-lookup"><span data-stu-id="43332-108">Follow these steps to enter a name for a conditional decision.</span></span>
+1.  <span data-ttu-id="43332-109">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="43332-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="43332-110">Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir skilyrtu ákvörðunina.</span><span class="sxs-lookup"><span data-stu-id="43332-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
 
-## <a name="set-conditions"></a><span data-ttu-id="6db85-111">Stilla skilyrði</span><span class="sxs-lookup"><span data-stu-id="6db85-111">Set conditions</span></span>
-<span data-ttu-id="6db85-112">Kerfið ákveður sjálfkrafa hvaða grein á að nota með því að meta sent fylgiskjal til að ákvarða hvort það fullnægi ákveðnum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="6db85-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
-1.  <span data-ttu-id="6db85-113">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="6db85-113">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="6db85-114">Smelltu á **Bæta við Aðgerð**.</span><span class="sxs-lookup"><span data-stu-id="6db85-114">Click **Add condition**.</span></span>
-3.  <span data-ttu-id="6db85-115">Færið inn skilyrði.</span><span class="sxs-lookup"><span data-stu-id="6db85-115">Enter a condition.</span></span>
-4.  <span data-ttu-id="6db85-116">Færa inn viðbótarskilyrði ef þess gerist þörf:</span><span class="sxs-lookup"><span data-stu-id="6db85-116">Enter additional conditions, if they are required.</span></span>
-5.  <span data-ttu-id="6db85-117">Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="6db85-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
-    1.  <span data-ttu-id="6db85-118">Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="6db85-118">Click **Test** to open the **Test workflow condition** form.</span></span>
-    2.  <span data-ttu-id="6db85-119">Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="6db85-119">Select a record in the **Validate condition** area of the form.</span></span>
-    3.  <span data-ttu-id="6db85-120">Smellið á **Prófun**.</span><span class="sxs-lookup"><span data-stu-id="6db85-120">Click **Test**.</span></span> <span data-ttu-id="6db85-121">Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.</span><span class="sxs-lookup"><span data-stu-id="6db85-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
-    4.  <span data-ttu-id="6db85-122">Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.</span><span class="sxs-lookup"><span data-stu-id="6db85-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
+## <a name="set-conditions"></a><span data-ttu-id="43332-111">Stilla skilyrði</span><span class="sxs-lookup"><span data-stu-id="43332-111">Set conditions</span></span>
+<span data-ttu-id="43332-112">Kerfið ákveður sjálfkrafa hvaða grein á að nota með því að meta sent fylgiskjal til að ákvarða hvort það fullnægi ákveðnum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="43332-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
+1.  <span data-ttu-id="43332-113">Í vinstri glugganum, smelltu á **grunnstillingar**.</span><span class="sxs-lookup"><span data-stu-id="43332-113">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="43332-114">Smelltu á **Bæta við Aðgerð**.</span><span class="sxs-lookup"><span data-stu-id="43332-114">Click **Add condition**.</span></span>
+3.  <span data-ttu-id="43332-115">Færið inn skilyrði.</span><span class="sxs-lookup"><span data-stu-id="43332-115">Enter a condition.</span></span>
+4.  <span data-ttu-id="43332-116">Færa inn viðbótarskilyrði ef þess gerist þörf:</span><span class="sxs-lookup"><span data-stu-id="43332-116">Enter additional conditions, if they are required.</span></span>
+5.  <span data-ttu-id="43332-117">Til að sannreyna að skilyrðin sem voru færð hafi verið sett upp rétt, skal ljúka eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="43332-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+    1.  <span data-ttu-id="43332-118">Smellið á **Prófun** til að opna **Kanna verkflæðisskilyrði** skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="43332-118">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2.  <span data-ttu-id="43332-119">Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="43332-119">Select a record in the **Validate condition** area of the form.</span></span>
+    3.  <span data-ttu-id="43332-120">Smellið á **Prófun**.</span><span class="sxs-lookup"><span data-stu-id="43332-120">Click **Test**.</span></span> <span data-ttu-id="43332-121">Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.</span><span class="sxs-lookup"><span data-stu-id="43332-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="43332-122">Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.</span><span class="sxs-lookup"><span data-stu-id="43332-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
 
 

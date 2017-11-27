@@ -25,43 +25,43 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="dcdfa-103">Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsettrar gagnaeiningar</span><span class="sxs-lookup"><span data-stu-id="dcdfa-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="93ad3-103">Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsettrar gagnaeiningar</span><span class="sxs-lookup"><span data-stu-id="93ad3-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="dcdfa-104">Raðnúmeri þarf að bæta við einingunni innflutningur bankayfirlits til að styðja MT940 sniði.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
+<span data-ttu-id="93ad3-104">Raðnúmeri þarf að bæta við einingunni innflutningur bankayfirlits til að styðja MT940 sniði.</span><span class="sxs-lookup"><span data-stu-id="93ad3-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-<span data-ttu-id="dcdfa-105">Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlits til að styðja MT940 sniði.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
+<span data-ttu-id="93ad3-105">Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlits til að styðja MT940 sniði.</span><span class="sxs-lookup"><span data-stu-id="93ad3-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  <span data-ttu-id="dcdfa-106">Taka saman og samstilla eftirfarandi:</span><span class="sxs-lookup"><span data-stu-id="dcdfa-106">Compile and synchronize the following:</span></span>
-    -   <span data-ttu-id="dcdfa-107">Samsett eining\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="dcdfa-107">Composite Entity\\BankStatementImportEntity</span></span>
-    -   <span data-ttu-id="dcdfa-108">Eining\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="dcdfa-108">Entity\\BankStatementBalanceEntity</span></span>
-    -   <span data-ttu-id="dcdfa-109">Eining\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="dcdfa-109">Entity\\BankStatementDocumentEntity</span></span>
-    -   <span data-ttu-id="dcdfa-110">Eining\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="dcdfa-110">Entity\\BankStatementEntity</span></span>
-    -   <span data-ttu-id="dcdfa-111">Entity\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="dcdfa-111">Entity\\BankStatementLineEntity</span></span>
-    -   <span data-ttu-id="dcdfa-112">Töfbles\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="dcdfa-112">Tables\\BankStatementStaging</span></span>
+1.  <span data-ttu-id="93ad3-106">Taka saman og samstilla eftirfarandi:</span><span class="sxs-lookup"><span data-stu-id="93ad3-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="93ad3-107">Samsett eining\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="93ad3-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="93ad3-108">Eining\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="93ad3-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="93ad3-109">Eining\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="93ad3-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="93ad3-110">Eining\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="93ad3-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="93ad3-111">Entity\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="93ad3-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="93ad3-112">Töfbles\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="93ad3-112">Tables\\BankStatementStaging</span></span>
 
-2.  <span data-ttu-id="dcdfa-113">Gagnastjórnun\\gagnaverk.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-113">Data management\\data projects.</span></span>
-    1.  <span data-ttu-id="dcdfa-114">Hlaða MT940 innflutningsverk</span><span class="sxs-lookup"><span data-stu-id="dcdfa-114">Load MT940 import project(s)</span></span>
-        1.  <span data-ttu-id="dcdfa-115">Breyta XSLT.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-115">Change XSLT.</span></span>
-            -   <span data-ttu-id="dcdfa-116">Smellið á **Skoða kort**.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-116">Click **View map**.</span></span>
-            -   <span data-ttu-id="dcdfa-117">Smellt er á **Skoða kort** á skjal bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-117">Click **View map** on the bank statement document.</span></span>
-            -   <span data-ttu-id="dcdfa-118">Smelltu á **Umbreytingar**</span><span class="sxs-lookup"><span data-stu-id="dcdfa-118">Click **Transformations**</span></span>
-            -   <span data-ttu-id="dcdfa-119">Eyða skrá BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
-            -   <span data-ttu-id="dcdfa-120">Bætið nýja útgáfu af BankReconiliation-to-Composite.xsl.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
+2.  <span data-ttu-id="93ad3-113">Gagnastjórnun\\gagnaverk.</span><span class="sxs-lookup"><span data-stu-id="93ad3-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="93ad3-114">Hlaða MT940 innflutningsverk</span><span class="sxs-lookup"><span data-stu-id="93ad3-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="93ad3-115">Breyta XSLT.</span><span class="sxs-lookup"><span data-stu-id="93ad3-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="93ad3-116">Smellið á **Skoða kort**.</span><span class="sxs-lookup"><span data-stu-id="93ad3-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="93ad3-117">Smellt er á **Skoða kort** á skjal bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="93ad3-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="93ad3-118">Smelltu á **Umbreytingar**</span><span class="sxs-lookup"><span data-stu-id="93ad3-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="93ad3-119">Eyða skrá BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="93ad3-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="93ad3-120">Bætið nýja útgáfu af BankReconiliation-to-Composite.xsl.</span><span class="sxs-lookup"><span data-stu-id="93ad3-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  <span data-ttu-id="dcdfa-121">Sýna **Raðnúmer** á **Upprunagögn** útlit.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
-            1.  <span data-ttu-id="dcdfa-122">Snið upprunagagna = XML-Element.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-122">Source data format = XML-Element.</span></span>
-            2.  <span data-ttu-id="dcdfa-123">Nafn einingar = bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-123">Entity name = Bank statements.</span></span>
-            3.  <span data-ttu-id="dcdfa-124">Hlaða upp gagnaskrá = ný útgáfa SampleBankCompositeEntity.xml.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
-            4.  <span data-ttu-id="dcdfa-125">Smellið á **„Já“** til að skrifa yfir núgildandi skrá.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-125">Click **Yes** to overwrite the existing file.</span></span>
-            5.  <span data-ttu-id="dcdfa-126">Smellið á **Já** til að mynda nýja vörpun.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-126">Click **Yes** to generate a new mapping.</span></span>
-            6.  <span data-ttu-id="dcdfa-127">Staðfestið að S**equenceNumber** er varpað.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-127">Verify that S**equenceNumber** is mapped.</span></span>
-                -   <span data-ttu-id="dcdfa-128">Smellt er á **Skoða kort** á yfirlitseiningunni.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-128">Click **View Map** on the statement entity.</span></span>
-                -   <span data-ttu-id="dcdfa-129">Staðfestið að **SequenceNumber** er varpað úr uppruna í sviðsetningu.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
+        2.  <span data-ttu-id="93ad3-121">Sýna **Raðnúmer** á **Upprunagögn** útlit.</span><span class="sxs-lookup"><span data-stu-id="93ad3-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="93ad3-122">Snið upprunagagna = XML-Element.</span><span class="sxs-lookup"><span data-stu-id="93ad3-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="93ad3-123">Nafn einingar = bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="93ad3-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="93ad3-124">Hlaða upp gagnaskrá = ný útgáfa SampleBankCompositeEntity.xml.</span><span class="sxs-lookup"><span data-stu-id="93ad3-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="93ad3-125">Smellið á **„Já“** til að skrifa yfir núgildandi skrá.</span><span class="sxs-lookup"><span data-stu-id="93ad3-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="93ad3-126">Smellið á **Já** til að mynda nýja vörpun.</span><span class="sxs-lookup"><span data-stu-id="93ad3-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="93ad3-127">Staðfestið að S**equenceNumber** er varpað.</span><span class="sxs-lookup"><span data-stu-id="93ad3-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="93ad3-128">Smellt er á **Skoða kort** á yfirlitseiningunni.</span><span class="sxs-lookup"><span data-stu-id="93ad3-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="93ad3-129">Staðfestið að **SequenceNumber** er varpað úr uppruna í sviðsetningu.</span><span class="sxs-lookup"><span data-stu-id="93ad3-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="dcdfa-130">Flytja inn nýtt uppgjör.</span><span class="sxs-lookup"><span data-stu-id="dcdfa-130">Import the new statement.</span></span>
+3.  <span data-ttu-id="93ad3-130">Flytja inn nýtt uppgjör.</span><span class="sxs-lookup"><span data-stu-id="93ad3-130">Import the new statement.</span></span>
 
 
 
