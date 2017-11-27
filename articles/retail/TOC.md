@@ -2,6 +2,11 @@
 
 # Hefjast handa
 ## [Nýjungar eða breytingar](get-started/whats-new.md)
+## [Áður en þú kaupir Dynamics 365 for Retail](get-started/before-you-buy.md)
+## [Skráðu þig fyrir prufuáskrift](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Uppsetning sýniútgáfuumhverfis](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Virkjunarvalkostir](dev-itpro/choose-deployment.md)
+
 
 # Greiðslur
 ## [Greiðslumátar](payment-methods.md)
@@ -36,9 +41,11 @@
 ## [Skilgreining smásölurása](define-maintain-retail-channels.md)
 ## [Netverslunaryfirlit](online-stores.md)
 ## [Skilgreining og uppsetning vélbúnaðarstöðvar fyrir smásölu](retail-hardware-station-configuration-installation.md)
-## [Smásölutími og -viðvera](retail-time-attendance.md)
+## [Retail-tími og -viðvera](retail-time-attendance.md)
 
 # Modern POS (MPOS) og sölukerfi í skýinu
+## [POS-aðgerðir](POS-operations.md)
+## [Skjáútlit sýnigagna í MPOS/CPOS](demo-data.md)
 ## Jaðarvélbúnaður
 ### [Yfirlit yfir Retail-jaðarbúnað](retail-peripherals-overview.md)
 ### [Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,10 +67,11 @@
 ### [Blandaðar pantanir viðskiptavinar](hybrid-customer-orders.md)
 ## Sölutengiliðir
 ### [Rakning sölulauna á sölustað með söluflokkum](pos-sales-groups-track-commissions.md)
+## [Sending vöru frá annarri verslun](charge-send.md)
 ## Virkjun tækis
 ### [Grunnstilling og uppsetning MPOS](retail-modern-pos-device-activation.md)
 ### [Uppsetning ítarlegrar innskráningar fyrir sölukerfi í skýinu og MPOS](extended-logon.md)
-### [Stjórnun smásölulykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
+### [Stjórnun Retail-lykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
 ## Kvittanir
 ### [Uppsetning kvittanasniðmáta](receipt-templates-printing.md) 
 ### [Sending tölvupóstkvittana fyrir MPOS](email-receipts.md)
@@ -163,7 +171,7 @@
 # [Þróun og stjórnun smásölu](dev-itpro/dev-retail-home-page.md)
 
 ## Högun
-### [Íhlutir Microsoft Dynamics 365 for Finance and Operations, Enterprise – Retail](retail-components.md)
+### [Íhlutir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition – Retail](retail-components.md)
 ### [Skipulag Retail-þjóns](dev-itpro/retail-server-architecture.md)
 ### [Samskipti smásölurásar](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Skipulag MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -171,10 +179,10 @@
 ### [Power BI-efni fyrir frammistöðu smásölurásar](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Uppsetning og bráðabætur
-### [Skilgreining og uppsetning einingarkvarða smásöluverslunar](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Smásöluverslunarkerfi, áður en hafist er handa](dev-itpro/retail-store-system-begin.md)
+### [Yfirlit einingarkvarðapakka smásöluverslunar](dev-itpro/retail-store-system-begin.md)
+#### [Skilgreining og uppsetning einingarkvarða smásöluverslunar](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Skilgreining og uppsetning Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Stjórnun smásölulykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
+#### [Stjórnun Retail-lykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
 #### [Tækisvirkjun Retail POS](dev-itpro/retail-device-activation.md)
 #### [Öruggt Retail sölukerfi í skýinu](dev-itpro/secure-retail-cloud-pos.md)
 ### [Skilgreining og uppsetning Retail Hardware Station](retail-hardware-station-configuration-installation.md)
@@ -187,6 +195,7 @@
 ### [Uppsetning N-1 íhluta](dev-itpro/n-1-installation-configuration.md)
 
 ## Umhverfisskilgreining
+### [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Stjórna Bing-kortum](dev-itpro/manage-bing-maps.md)
 
 ## Stækkunarhæfni
@@ -196,7 +205,8 @@
 #### [Skilgreining MPOS fyrir stillingu utan nets](dev-itpro/retail-modern-pos-offline.md)
 #### [Stækkunarhæfni kveikja í MPOS og sölukerfis í skýinu](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [Bæta sérstilltri stýringu við yfirlit sölustaðar](dev-itpro/pos-custom-control.md)
-#### [Greiðsluviðbót sölustaðar](dev-itpro/pos-payment-extension.md)
+#### [Greiðsluviðbót POS](dev-itpro/pos-payment-extension.md)
+#### [Stuðningur við ytra gjafakort](dev-itpro/gift-card.md)
 ### [Stofnun Retail Experience-forrits](dev-itpro/create-retail-experience-app.md)
 ### [Yfirlit og stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md)
 
@@ -230,10 +240,16 @@
 ### [Dæmi um stækkunarhæfni Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Afgreiðslukassar fyrir Svíþjóð](localizations/emea-swe-cash-registers.md)
 ### [Dæmi um Retail POS samþættingu fyrir stjórntæki fyrir Svíþjóð](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [Afgreiðslukassar fyrir Noreg](localizations/emea-nor-cash-registers.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Noreg](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Umbúðir Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Dæmi um Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Viðbætur við gagnagrunn rása](dev-itpro/channel-db-extensions.md)
 ### [CDX-stækkunarhæfni](dev-itpro/cdx-extensibility.md)
+### [Eigindir pöntunar](dev-itpro/order-attributes.md)
+### [Eigindir viðskiptavinar](dev-itpro/customer-attributes.md)
+### [Retail Typescript og C# staðgengill](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Commerce Runtime
 ### [Vildarviðbót](dev-itpro/retail-sdk/loyalty-extension-sample.md)

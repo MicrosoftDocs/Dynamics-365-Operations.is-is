@@ -3,24 +3,24 @@ title: "Staðfærslu- og eftirlitseiginleikar"
 description: "Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni fyrir lönd/svæði."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,8 +52,8 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 -   [Samskipti tengd reglueftirliti og uppfærslum á reglum](regulatory-watch-communication.md)
 -   [Tilkynningar til Microsoft um lögboðnar viðvaranir lands/svæðis og rakning á stöðu eftirlitseiginleika](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 Roadmap
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/) sýnir hverju verið er að vinna að á skyndimynd. Nota skal þennan leiðarvísi til að finna hvað er í boði og hvað er í þróun. Allir eiginleikar og dagsetningar efnis í þróun eru byggðar á áætlunum og gætu breyst án fyrirvara.
+### <a name="dynamics-365-roadmap"></a>Dynamics 365 leiðarvísir
+[Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) sýnir hverju verið er að vinna að á skyndimynd. Nota skal þennan leiðarvísi til að finna hvað er í boði og hvað er í þróun. Allir eiginleikar og dagsetningar efnis í þróun eru byggðar á áætlunum og gætu breyst án fyrirvara.
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:

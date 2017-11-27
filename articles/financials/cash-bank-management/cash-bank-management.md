@@ -3,14 +3,14 @@ title: "Heimasíða reiðufjár- og bankastjórnunar"
 description: "Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -86,13 +86,13 @@ Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum 
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 #### <a name="blogs"></a>Blogg
 
-Hægt er að finna umfjöllun, fréttir og aðrar upplýsingar um Reiðufjár- og bankastjórnun og aðrar lausnir á [Microsoft Dynamics 365 blogginu] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Hægt er að finna umfjöllun, fréttir og aðrar upplýsingar um Reiðufjár- og bankastjórnun og aðrar lausnir á [Microsoft Dynamics 365-blogginu] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Reiðufjár- og bankastjórnun. Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Reiðufjár- og bankastjórnunar eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
+Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Reiðufjár- og bankastjórnun. Þó svo sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Reiðufjár- og bankastjórnunar eiga sömu hugtök enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 [Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
