@@ -1,9 +1,9 @@
 ---
 title: "Yfirlit virðisaukaskatts"
-description: "Þessi grein veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman."
+description: "Þetta efnisatriði veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Þessi grein veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
+Þetta efnisatriði veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
 
 <a name="overview"></a>Yfirlit
 --------
@@ -59,7 +59,7 @@ Eftirfarandi tafla lýsir einingar sem og röð fyrir uppsetningu skatti.
 | Uppsetningarverkþáttur                                                  | Bundið/valfrjálst og lýsing                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stofna aðallykla.                                           | Áskilið. Áður en virðisaukaskatturinn er settur upp verður að stofna fjárhagslyklana sem fyrirtækið notar til að greiða og skrá skatta.                                                                                                                                                                             |
-| Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt.                     | Áskilið. Fjárhagsbókunarflokkar skilgreina aðallykla til að skrá og greiða°virðisaukaskatt.   Frekari upplýsingar, sjá [Setja upp fjárhagsbókunarflokkur fyrir virðisaukaskattur](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt.                     | Áskilið. Fjárhagsbókunarflokkar skilgreina aðallykla til að skrá og greiða°virðisaukaskatt.   Nánari upplýsingar er að finna í [Setja upp bókunarflokka virðisaukaskatts](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
 | Setja upp skattayfirvöld.                                   | Áskilið. Skattayfirvöld eru þeir lögaðilar sem skattur verður tilkynntur og greiddur til.    Nánari upplýsingar um það eru í [Setja upp VSK-yfirvöld](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Setja upp virðisaukaskatttímabil.                            | Áskilið. Virðisaukaskattstímabil°innihalda upplýsingar um°hvenær og hve oft eigi að tilkynna og greiða vsk. Þær eru tengdar við vsk-yfirvöld.                                                                                                                                                       |
 | Uppsetning skýrslugerðarkóða virðisaukaskatts.                               | Valfrjálst. Skýrslugerðarkóða virðisaukaskatts er hægt að úthluta til vsk-kóða til að gefa skýrslu um upphæðir fyrir marga vsk-kóða undir einum skýrslugerðarkóða virðisaukaskatts. Nánari upplýsingar um það eru í [Setja upp VSK-skýrslugerðarkóða](tasks/set-up-sales-tax-reporting-codes.md).                                         |
@@ -74,7 +74,7 @@ Eftirfarandi tafla lýsir einingar sem og röð fyrir uppsetningu skatti.
 Á hverri færslu er hægt að fletta upp reiknuðum virðisaukaskatti eftir opnun á **Vsk-færslan** síðu. Hægt er að fletta upp virðisaukaskatti fyrir línu skjals eða allt skjalið. Fyrir ákveðin skjöl (t.d.°reikning lánardrottins og almennar°færslubækur), er hægt að leiðrétta reiknaðan virðisaukaskatt ef upphaflega skjalið sýnir afbrigðilegar upphæðir.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Virðisaukauppgjör og skýrslugjöf
-Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfa hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
+Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 for Finance and Operations, Enterprise edition hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
 
 Eftir°að búið er að greiða vsk ætti að jafna stöðu á reikningi virðisaukaskattsuppgjörs gagnvart bankareikningnum. Ef vsk-yfirvöld sem tilgreind eru í vsk-uppgjörstímabili eru tengd lánardrottnalykli er vsk-staða bókuð sem opinn lánardrottnareikningur og hægt að taka með í reglulegu greiðslutillögunni.
 

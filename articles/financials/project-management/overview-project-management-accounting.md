@@ -3,7 +3,7 @@ title: "Verkefnastjórnun og bókhald"
 description: "Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -37,7 +37,7 @@ Verkefnastjórnun er flokkur aðgerða til að veita þjónusta, framleiða afur
 ## <a name="projects-across-industries"></a>Verk yfir atvinnugreinar
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd. [![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
+Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
 
 ## <a name="project-phases"></a>Áfangar verks
 Þrátt fyrir að eftirfarandi vinnsluflæði sé beint gegn ytri verkum eða verkum sem er lokið fyrir einn eða fleiri viðskiptavini, á virknin einnig við um innri verk sem eru aðeins kostnaðarverk. 
@@ -243,7 +243,7 @@ Finance and Operations minnkar spáð mat ekki sjálfkrafa. Því er góð hugmy
 > </tr>
 <tr class="odd">
 <td>Eftirstöðvar fjárhagsáætlunar</td>
-<td>Þessi aðferð notar líkan eftirstöðva fjárhagsáætlunar til að reikna út kostnaðinn við að ljúka verkinu. Þegar þessi aðferð er notuð er raunkostnaður og spáðar upphæðir í líkan eftirstöðva áætlunar lagt saman. Niðurstaðan er heildarkostnaður. Áður en þessi aðferð er notuð, verður að setja upp líkan eftirstöðva fjárhagsáætlunar til að draga frá færslur samkvæmt raunfærslum sem eru skráðar í kerfið. Á síðunni <strong>Spálíkön</strong> þarf að ganga úr skugga um að reitir séu merktir í flokknum <strong>Sjálfvirk lækkun spár</strong>. Yfirleitt eru eftirstöðvar fjárhagsáætlunar afritaðar úr upprunalegri fjárhagsáætlun. Þegar færslur eru færðar inn minnka færslur í eftirstöðvar fjárhagsáætlunar. Eftir því sem verkinu miðar og ef ákvarðað er að leiðrétta þurfi eftirstöðvar fjárhagsáætlunar eru spáfærslur fyrir eftirstöðvar fjárhagsáætlunar gjaldfærðar. <strong>Ábending:</strong> Aðeins er hægt að beyta þessari aðferð ef spárlíkan er fest við matið.</td>
+<td>Þessi aðferð notar líkan eftirstöðva fjárhagsáætlunar til að reikna út kostnaðinn við að ljúka verkinu. Þegar þessi aðferð er notuð er raunkostnaður og spáðar upphæðir í líkan eftirstöðva áætlunar lagt saman. Niðurstaðan er heildarkostnaðurinn. Áður en þessi aðferð er notuð, verður að setja upp líkan eftirstöðva fjárhagsáætlunar til að draga frá færslur samkvæmt raunfærslum sem eru skráðar í kerfið. Á síðunni <strong>Spálíkön</strong> þarf að ganga úr skugga um að reitir séu merktir í flokknum <strong>Sjálfvirk lækkun spár</strong>. Yfirleitt eru eftirstöðvar fjárhagsáætlunar afritaðar úr upprunalegri fjárhagsáætlun. Þegar færslur eru færðar inn minnka færslur í eftirstöðvar fjárhagsáætlunar. Eftir því sem verkinu miðar og ef ákvarðað er að leiðrétta þurfi eftirstöðvar fjárhagsáætlunar eru spáfærslur fyrir eftirstöðvar fjárhagsáætlunar gjaldfærðar. <strong>Ábending:</strong> Aðeins er hægt að beyta þessari aðferð ef spárlíkan er fest við matið.</td>
 </tr>
 <tr class="even">
 <td>Sem fyrra mat</td>
@@ -251,7 +251,7 @@ Finance and Operations minnkar spáð mat ekki sjálfkrafa. Því er góð hugmy
 </tr>
 <tr class="odd">
 <td>Setja kostnað við að ljúka á núll</td>
-<td>Venjulega er þessi aðferð er notuð áður en matsverk er losað. Þessi aðferð samsvarar heildarmati með eiginlegar færslur sem voru bókaðar og hreinsar dálkinn <strong>Kostnaður við að ljúka</strong>. Hlutfall lokunar er alltaf 100 prósent. Reiturinn <strong>Spá</strong> er ekki valinn fyrir hverja kostnaðarlínu sem er stofnuð og heildarmatið er afritað úr fyrra kostnaðarmati. Raunnotkun matstímabilsins er dregin frá kostnaðinum við að ljúka verkinu. Þessa aðferð krefst ekki spálíkans.</td>
+<td>Venjulega er þessi aðferð er notuð áður en matsverk er losað. Þessi aðferð samsvarar heildarmati með eiginlegar færslur sem voru bókaðar og hreinsar dálkinn <strong>Kostnaður við að ljúka</strong>. Hlutfall lokunar er alltaf 100 prósent. Reiturinn <strong>Spá</strong> er ekki valinn fyrir hverja kostnaðarlínu sem er stofnuð og heildarmatið er afritað úr fyrra kostnaðarmati. Raunnotkun matstímabilsins er dregin frá kostnaðinum við að ljúka verkinu. Þessi aðferð krefst ekki spálíkans.</td>
 </tr>
 <tr class="even">
 <td>Úr kostnaðarsniðmátinu</td>

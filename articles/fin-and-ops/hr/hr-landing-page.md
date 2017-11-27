@@ -3,24 +3,24 @@ title: "Mannauður"
 description: "Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka o
 
 ## <a name="develop-and-train-employees"></a>Þróa og þjálfa starfsmenn
 
-Hægt er að veita starfsmönnum stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur, sem gera starfsmönnum kleift að öðlast viðeigandi hæfni, áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
+Hægt er að veita starfsfólki stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Til að hjálpa starfsmönnum við að þróa nauðsynlega færni er einnig hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námskeiðshluta og lotur áður en hægt er að skrá leiðbeinanda á námskeiði eða skrá einhvern fyrir námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
 -   [Árangursstjórnun](../../talent/performance-management-overview.md)
 -   [Samþætting hæfni starfsfólks og rekstrarþarfa](../../talent/skills.md)

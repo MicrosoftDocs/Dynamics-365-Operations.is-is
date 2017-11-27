@@ -3,7 +3,7 @@ title: "Stofna afurðanúmer fyrir forskilgreind afurðarafbrigði"
 description: "Þessari handbók sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði og hvernig því er úthlutað á viðeigandi afurðarvíddarflokknum."
 author: BibiSp
 manager: AnnBe
-ms.date: 09/26/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6294e4608b31c37aa713e3a7a2028b409b5a8366
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-product-number-for-predefined-product-variants"></a>Stofna afurðanúmer fyrir forskilgreind afurðarafbrigði
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 1. Smellið á Skilgreining afurðarafbrigðislíkans
 2. Smelltu á Nafnakerfi afurðar.
 3. Smellt er á Nýtt.
-4. Í reitnum Heiti er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis ColorSize...
+4. Í reitnum Heiti er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis ColorSize.
 5. Sláið inn gildi í reitnum „Lýsing“.
 6. Smelltu á Bæta við.
 7. Smelltu á Númer afurðarsniðmáts.

@@ -1,9 +1,8 @@
 ---
 title: "Yfirlit yfir jaðartæki smásölu"
-description: "Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu. Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS."
-author: rubencdelgado
+description: "Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Yfirlit yfir jaðartæki smásölu
+# <a name="retail-peripherals-overview"></a>Yfirlit yfir Retail-jaðarbúnað
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í fram
 ## <a name="peripheral-simulator"></a>Jaðarbúnaður
 Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Jaðartæki Microsofttested
+## <a name="microsoft-tested-peripheral-devices"></a>Jaðartæki Microsoft-tested
 ### <a name="ipc-built-in-hardware-station"></a>IPC (innbyggð) vélbúnaðarstöð
 
 Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.

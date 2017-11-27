@@ -1,5 +1,5 @@
 ---
-title: "Vörusending"
+title: "Uppsetning vörusendingar"
 description: "Í þessu efnisatriði er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið."
 author: perlynne
 manager: AnnBe
@@ -8,10 +8,10 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
@@ -19,21 +19,21 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b5f2f6d24537a6e28a820b298a88525553e1cd18
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: df5862a75646976d315fa77531d7c4fe9b1ec499
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="consignment"></a>Vörusending
+# <a name="set-up-consignment"></a>Uppsetning vörusendingar
 
 [!include[banner](../includes/banner.md)]
 
 
 Í þessu efnisatriði er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
 
-Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efni inniheldur upplýsingar um hvernig á að efnislega að taka á móti birgðum á lager í eigu lánardrottins án þess að stofna almenna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem birgðir í eigu lánardrottins má taka efnislega frá. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna. Sjá upplýsingar um hvernig á að virkja og skilgreina ferli vörusendingar á innleið, sjá [Uppsetning vörusendingar](set-up-consignment.md).
+Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efni inniheldur upplýsingar um hvernig á að efnislega að taka á móti birgðum á lager í eigu lánardrottins án þess að stofna almenna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem birgðir í eigu lánardrottins má taka efnislega frá. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna. 
 
 ## <a name="overview-of-the-consignment-process"></a>Yfirlit yfir ferli vörusendingar
 Í þessu dæmi hefur fyrirtækið USMF samkomulagi um vörusendingar við lánardrottinn US-104 fyrir hráefnið M9211CI.
@@ -43,7 +43,6 @@ Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á �
     -   Einhver sem vinnur hjá USMF sendir upplýsingar um pöntun til lánardrottins.
     -   Lánardrottinn getur einnig að fylgjast viðbúnum birgðum á lager með því að nota viðmót fyrir samstarf lánardrottna.
     -   Einhver sem vinna hjá USMF síar gögn á **lagerbirgðir** síða til að sýna einungis færslur lánardrottins US-104, þar sem er staða innhreyfingar er **Pantað**, og sendir síðan þessar upplýsingar til lánardrottins.
-
 3.  Birgðum er afhent frá US-104 USMF.
 4.  Þegar efni berst USMF, er áfyllingarpöntun vörusendingar uppfærð með innhreyfingarskjal afurða. Aðeins efnislegu magni birgða á lager í eigu lánardrottins eru skráðar. Það eru engar færslur fjárhags stofnuð vegna þess að birgðum er enn í eigu lánardrottins.
 5.  Lánardrottinn fylgist með Uppfærslur í efnislegum lagerbirgðum með **vörusendingabirgðir á lager** síðu.
@@ -61,7 +60,9 @@ USMF framkvæmir viðbótar reglubundnar vinnslur:
 Lánardrottinn, US-104 getur fylgjast með uppfærslu með því að nota **vörusendingabirgðir á lager** síðuna.
 
 ## <a name="consignment-replenishment-orders"></a>Áfyllingarpantanir vörusendingar
-Áfyllingarpöntun vörusendingar er skjal sem er notað til að biðja um og halda utan um birgðamagn afurða sem lánardrottinn ætlar að afhenda innan ákveðið tímabil með því að stofna pantaðar birgðafærslur. Yfirleitt, mun þetta byggjast á spá og raunveruleg eftirspurn tilteknar vörur. Birgðir sem tekið verður á móti gagnvart áfyllingarpöntun vörusendingar helst í eignarhaldi lánardrottins. Aðeins varsla afurða tengdar uppfærslu efnisleg innhreyfing er skráð og þar af leiðandi eiga sér ekki stað neinar uppfærslur á fjárhagsfærslum. **Eigandi** víddin er notuð til að aðskilja upplýsingar um hvaða er í eigu lánardrottins og sem er í eigu lögaðila sem tekur á móti. Áfyllingarpöntunarlínur vörusendingar hafa stöðuna **Opin pöntun** eins lengi og heildarmagn lína hefur ekki verið móttekinn eða hætt við. Þegar allt magnið hefur verið tekið á móti eða afturkallaðar, er stöðunni breytt í **Lokið**. Efnislegar lagerbirgðir sem tengjast áfyllingarpöntun vörusendingar má skrá með skráningarferli sem og ferli fyrir uppfærslu innhreyfingarskjal afurða. Hægt að gera skráningu sem hluti af komuferli vöru eða með því að uppfæra pöntunarlínurnar handvirkt. Þegar Uppfærsluferli innhreyfingarskjals Afurða er notuð, er færsla gerð í færslubók innhreyfingarskjala afurða, sem er hægt að nota til að staðfesta móttöku á vörum til lánardrottna.
+Áfyllingarpöntun vörusendingar er skjal sem er notað til að biðja um og halda utan um birgðamagn afurða sem lánardrottinn ætlar að afhenda innan ákveðið tímabil með því að stofna pantaðar birgðafærslur. Yfirleitt, mun þetta byggjast á spá og raunveruleg eftirspurn tilteknar vörur. Birgðir sem tekið verður á móti gagnvart áfyllingarpöntun vörusendingar helst í eignarhaldi lánardrottins. Aðeins varsla afurða tengdar uppfærslu efnisleg innhreyfing er skráð og þar af leiðandi eiga sér ekki stað neinar uppfærslur á fjárhagsfærslum. 
+
+**Eigandi** víddin er notuð til að aðskilja upplýsingar um hvaða er í eigu lánardrottins og sem er í eigu lögaðila sem tekur á móti. Áfyllingarpöntunarlínur vörusendingar hafa stöðuna **Opin pöntun** eins lengi og heildarmagn lína hefur ekki verið móttekinn eða hætt við. Þegar allt magnið hefur verið tekið á móti eða afturkallaðar, er stöðunni breytt í **Lokið**. Efnislegar lagerbirgðir sem tengjast áfyllingarpöntun vörusendingar má skrá með skráningarferli sem og ferli fyrir uppfærslu innhreyfingarskjal afurða. Hægt að gera skráningu sem hluti af komuferli vöru eða með því að uppfæra pöntunarlínurnar handvirkt. Þegar Uppfærsluferli innhreyfingarskjals Afurða er notuð, er færsla gerð í færslubók innhreyfingarskjala afurða, sem er hægt að nota til að staðfesta móttöku á vörum til lánardrottna.
 
 [![consignment-áfylling-pöntun](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
@@ -81,4 +82,27 @@ Viðmót samstarf lánardrottna er með þremur síður sem tengjast vinnslu vö
 -   **Innkaupapantanir** **sem nota vörusendingabirgðir** - Sýnir nákvæmar upplýsingar um innkaupapöntun tengd eignarhaldsbreytingu úr ferli vörusendingar.
 -   **Afurðir mótteknar frá vörusendingabirgðum** -Sýnir upplýsingar um vörur og magn sem hefur innhreyfingar afurða uppfært á meðan stendur á ferli eignarhaldsbreytingar.
 -   **Vörusendingarbirgðir á lager** - Sýnir upplýsingar um vörurnar vörusendingar sem þeir áætlað að afhenda og vörurnar sem eru þegar efnislega tiltækt á svæði viðskiptavinar.
+
+## <a name="inventory-owners"></a>Birgðaeigendur
+Til að skrá efnislegar vörusendingabirgðir á innleið, þarf að skilgreina lánardrottinseiganda. Þetta er gert á **eigandi birgða** síðuna. Þegar velja **lánardrottnalykil** myndar þetta sjálfgefin gildi fyrir **Heiti** og **Eigandi** svæðum. Gildið í **Eiganda** svæði verður sýnilegt til lánadrottna, svo þú gætir viljað breyta þeim, ef nöfn á lánardrottnalykill eru ekki auðvelt fyrir utanaðkomandi fólki til að bera kennsl á. Mögulegt er að breyta á **Eigandi** svæði, en aðeins fram að þeim punkti þegar vista á **eigandi birgða** færslan. Í **Heiti** svæði er fyllt út með nafn þess aðila sem lánardrottnalykill er tengd við, og þessu er ekki hægt að breyta.
+
+[![birgðaeigendur](./media/inventory-owners.png)](./media/inventory-owners.png)
+
+## <a name="tracking-dimension-group"></a>Rakningarvíddarflokkur
+Vörur sem nota á í ferli vörusendingar verður að tengjast við **rakningarvíddarflokkur** þar sem víddin **Eigandi** er stillt á **Virk**. Vídd eiganda hefur ávallt **Efnislegar birgðir** og **Fjárhagslegar birgðir** valkostir valinn. **Þekjuáætlun eftir vídd** er aldrei valin.
+
+[![rakningarvíddarflokkur](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+
+## <a name="inventory-ownership-change-journal"></a>Færslubók eignarhaldsbreytingar birgða
+**Birgðafærslubók fyrir breytingu á eignarhaldi** er notuð til að rekja flutninga á eignarhaldi vörusendingabirgða úr lánardrottni í núverandi lögaðila sem neytir þess. Eins og öllum birgðabók verður það að vera tilgreindur með heiti birgðabókar. Þessi nöfn eru stofnaðar á **heiti birgðabóka** síðuna og **færslubókargerð** verður að vera stillt á **breytingu á Eignarhaldi**.
+
+[![færslubók eignarhaldsbreytingar birgða](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+
+## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
+Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þeir nota þetta að vakta notkun á birgðum á þínu svæði. Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lánardrottna sjá[Skilgreining öryggis fyrir Notendur samstarfs lánardrottna](../procurement/configure-security-vendor-portal-users.md).
+
+
+
+
+
 

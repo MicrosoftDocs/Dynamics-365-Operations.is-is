@@ -1,9 +1,9 @@
 ---
-title: "Kaupa eignir með innkaupum"
-description: "Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir."
+title: Eignakaup
+description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 84e7e6eb17e5741a2984c570786a495864ffbc74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1e9b1dc6297f33ea25ca498895740596ebd020b8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="acquire-assets-through-procurement"></a>Kaupa eignir með innkaupum
+# <a name="acquire-assets-through-procurement"></a>Eignakaup
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
+Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
 
  Eftirfarandi leiðir eru tiltækar til þess að samþætta eignir og viðskiptaskuldir og þú verður að nota sömu aðferðina fyrir allar eignir:
 -   Stofna verður eign handvirkt áður en númeri eignar er bætt við línu í innkaupapöntun eða reikningi lánardrottins. Kaupvirðisfærsla er sjálfkrafa bókuð fyrir eignina þegar reikningur lánardrottins er bókaður. Þetta er sjálfgefin aðferð.

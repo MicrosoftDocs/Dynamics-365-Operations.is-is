@@ -3,7 +3,7 @@ title: "Skilgreina vinnuflokka lean-framleiðslu"
 description: "Vinnuflokkur er tiltekna tegund fyrir tilfangaflokka sem hægt er að nota í lean-framleiðsla verkþætti."
 author: cvocph
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Skilgreina vinnuflokka lean-framleiðslu

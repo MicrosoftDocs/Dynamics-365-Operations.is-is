@@ -1,7 +1,7 @@
 ---
 title: "BOM útreikninguar"
 description: "Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þetta efnisatriði veitir upplýsingar um útreikning uppskrifta."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Með því að nota nálgunina kostnaður-plús álagning, endurspeglar reiknað
 -   **Uppskriftarútreikningur fyrir vöru og tilgreinda kostnaðarútgáfu** − Uppskriftarútreikningurinn myndar söluverðsskrá í bið innan kostnaðarútgáfunnar. Þessi söluverðsskrá er upphafspunktur fyrir nákvæma skoðun á útreikningi, (eins og síðuna **Reikna vörukostnað**). Söluverðsskráin er aðallega til tilvísunar, og er ekki notuð sem grundvöllur fyrir söluverð á sölupöntunum.
 -   **Pöntunartengdur uppskriftarútreikningur** - Afbrigði af skjámyndinni **Uppskriftarútreikningur** er notað í samhengi við sölupantanir, sölutilboð eða vöru þjónustupöntunarlínu. Pöntunartengdur uppskriftarútreikningur býr ekki til færslu innan kostnaðarútgáfu. Í staðinn myndar hann útreikningsfærslu sem birtist á síðunni **Niðurstöður uppskriftarútreiknings**. Þessi útreikningsfærsla er upphafspunktur fyrir nákvæma skoðun á útreikningi, (eins og síðuna **Reikna vörukostnað**). Upplýsingar um valda útreikningsskrá er hægt að flytja í upphaflegu línuvöru. Til dæmis er hægt að flytja reiknað söluverð í sölupöntunarlínu.
 
-## <a name="orderspecific-bom-calculations"></a>Pöntunartengdur uppskriftarútreikningur
+## <a name="order-specific-bom-calculations"></a>Uppskriftaútreikningar fyrir tilteknar pantanir
 Uppskriftarútreikningur sem á við eina pöntun er samsetning uppskriftarútreikninga fyrir framleidda vöru. Pöntunartengdur uppskriftarútreikningur er gerður í samhengi við sölupöntun, sölutilboð eða sölupöntunarlínu. Pöntunartengdur uppskriftarútreikningur stofnar útreikningsfærslu sem birtist á síðunni **Niðurstöður uppskriftarútreiknings**. Í útreikningsfærslunni er reiknuð þyngd, reiknaður kostnaður samkvæmt virkum kostnaðarfærslum og reiknað söluverð. Útreikningsfærslan sem sérhver pöntunartengdur uppskriftarútreikningur myndar á síðunni **Niðurstöður uppskriftarútreiknings** fær einkvæmt útreikningsnúmer. Niðurstöður útreikningsfærslunnar má flytja yfir á upphaflega línuatriðið. Uppskriftarútreikningur fyrir pöntun er ólíkur uppskriftarútreikningi fyrir framleidda vöru á tvenna vegu:
 
 -   Uppskriftarútreikningur fyrir pöntun myndar ekki vörukostnaðarfærslu innan kostnaðarútgáfu. Þetta þýðir að reglur um uppskriftarútreikninga eiga ekki við um stofnun vörukostnaðarfærslu eða skrif yfir kostnaðarfærslu.

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f3853169b7452e307a36579facea0cf0ab83ca47
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -70,14 +70,14 @@ ms.lasthandoff: 09/29/2017
 | Tilgreina að staðsetningu framleiðslufrálags ekki númeraplötustýrð.                                                                                                                                                                                                                                                                                                               | Getur tilgreina að staðsetningu framleiðslufrálags ekki númeraplötustýrð. Til dæmis er þessi eiginleiki gagnlegt þegar þarfarakningu framleiðslupöntun skráir sem tilbúna beint á staðsetningu sem er eins og staðsetning framleiðsluinntaks framleiðslupöntunar niður á við vörur.                                                                                                                                                     |
 | Styðja Uppskriftir sem innihalda vörur með mismunandi afurðavíddir fyrir sömu vöruna.                                                                                                                                                                                                                                                                                                     | Þegar ein eða margar afurðarvíddum í framleiðslu er hægt að láta aðstæðum þar sem óskað er að framleiða vöru, annan vöruvíddasamsetning sömu vöru á grundvelli. Nánari upplýsingar er að finna í [þessari blogg](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
 | Framleiðslupantanir með hringvirkni á fyrsta stigi um Uppskriftir þeirra eru undanskildar úr útreikning Uppskriftar fyrir efni eftirspurnarstjórnunar stigs.                                                                                                                                                                                                                                     | Ekki er hægt að úthluta rétt uppskriftarstig afurðarafbrigði fyrir framleiðslupantanir sem veldur hringvirkni í stigveldi Uppskriftalínunnar.                                                                                                                                                                                                                                                                                                  |
-| Reikna aðskilin uppskriftarstig fyrir áætlun efnistilfanga og kostnaðarútreikning: • Efni eftirspurnarstjórnunar, stig í Uppskrift er reiknuð í nýja **ReqItemLevel** töfluna. Framleiðslupantanir sem lokið eru hunsaðar við útreikning. • útreikningi framleiðslukostnaðar uppskriftarstig er reiknaður út á **InventTable**. Framleiðslupantanir sem lokið eru teknar með við útreikning. | • Þegar efni eftirspurnarstjórnunar, til dæmis áætlun röðun og niðurbrot, áætlanagerð er keyrð aðeins uppskriftarstig sem eru notuð fyrir efni eftirspurnarstjórnunar þarf að endurreikna. Með öðrum orðum, það er engin þörf á að reikna uppskriftarstig er notað fyrir útreikning kostnaðar. • Þegar í gangi  kostnaðarútreiknings aðgerðir, til dæmis birgðalokun, aðeins uppskriftarstig sem eru notaðar við útreikning framleiðslu kostnaðarútreiknings þarf að endurreikna. |
+| Reikna aðskilin uppskriftarstig fyrir áætlun efnistilfanga og kostnaðarútreikning: • Efni eftirspurnarstjórnunar, stig í Uppskrift er reiknuð í nýja **ReqItemLevel** töfluna. Framleiðslupantanir sem lokið eru hunsaðar við útreikning. • útreikningi framleiðslukostnaðar uppskriftarstig er reiknaður út á **InventTable**. Framleiðslupantanir sem lokið eru teknar með við útreikning. | • Þegar efni eftirspurnarstjórnunar, til dæmis áætlun röðun og niðurbrot, áætlanagerð er keyrð aðeins uppskriftarstig sem eru notuð fyrir efni eftirspurnarstjórnunar þarf að endurreikna. Með öðrum orðum, það er engin þörf á að reikna uppskriftarstig er notað fyrir útreikning kostnaðar. • Þegar kostnaðaraðgerðir er í gangi, til dæmis birgðalokun, þarf aðeins að endurreikna aðeins uppskriftarstig sem eru notuð við útreikning framleiðslu kostnaðarútreiknings. |
 
  
 
 <a name="see-also"></a>Sjá einnig
 --------
 
-[Hvað er nýtt eða breytt](whats-new-changed.md)
+[Nýjungar eða breytingar](whats-new-changed.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 

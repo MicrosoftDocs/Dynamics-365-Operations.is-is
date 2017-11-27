@@ -3,7 +3,7 @@ title: "Operations-tilföng"
 description: "Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Rekstrartilföng eru úthlutuð á verkþætti þegar verks eða framleiðslu er
 
 -   **Afkastageta** – Tilgreina afkastageta rekstrartilfanga á klukkustund hvað varðar mælieiningu afkastagetu.
 -   **Runuafkastageta** – Tilgreina hámarksfjöldi stykki sem rekstrartilföng geta unnið per keyrslu.
--   **Skilvirkniprósenta** - Tilgreina skilvirkni sem búist er við frá rekstrartilföng. Skilvirkniprósenta leiðréttir gegnumstreymi rekstrartilfanga og hefur áhrif á tíma sem er frátekin fyrir tilfang. Afhendingartíma fyrir aðgerðir sem nota rekstrartilföng eru einnig breytt til samræmis. Hér er formúlan sem er notuð fyrir útreikninginn: röðunartími = tími x 100 ÷ skilvirkniprósenta Í þessari formúlu, *tími* inniheldur bæti keyrslutími og uppsetningartími.
+-   **Skilvirkniprósenta** - Tilgreina skilvirkni sem búist er við frá rekstrartilföng. Skilvirkniprósenta leiðréttir gegnumstreymi rekstrartilfanga og hefur áhrif á tíma sem er frátekin fyrir tilfang. Afhendingartíma fyrir aðgerðir sem nota rekstrartilföng eru einnig breytt til samræmis. Hér er formúlan sem er notuð fyrir útreikninginn: röðunartími = tími x 100 ÷ skilvirkniprósenta. *Tími* inniheldur bæði keyrslutíma og uppsetningartíma.
 -   **Prósenta aðgerðaröðunar** - Tilgreinið hámarkshlutfall afkastagetu rekstrartilfanga sem á að nota í aðgerðaröðun. til að leyfa sveigjanleika í afkastagetu við aðgerðarröðun á Þetta hlutfall að vera minna en 100%
 -   **Takmörkuð afkastageta** **Þessi valkostur stilltur á** ef rekstrartilföng skuli raðað á grundvelli raunverulega afkastagetu sem er tiltækt, og ef taka skal tillit til fyrirliggjandi frátekningar á afkastagetu. Ef þessi valkostur er stilltur á **Nei**,  er gert ráð fyrir að rekstrartilföng hafa ótakmarkaða afköst, og gæti tilföngin því verið yfirbókaður.
 -   **Takmarkaður eiginleiki** – þessi valkostur er Stilltur **Já** eigi rekstrartilföng að vera áætluð byggð á raunverulegum afkastagetu sem er tiltæk með tilliti til vinnutíma sem er krafist fyrir röðunareiginleika.

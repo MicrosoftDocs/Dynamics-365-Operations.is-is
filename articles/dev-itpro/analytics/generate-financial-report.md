@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila. 
 
-Til að mynda skýrslu skal opna skýrsluskilgreininguna og smella svo á hnappinn Mynda á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Vefskoðun
-| ![Athugasemd](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Athugasemd")**Athugasemd**        |
-|------------------------------------------------------------------------------------------------|
-| Aðeins er hægt að mynda skýrslur í möppum og staðsetningar sem notandi hefur aðgangsheimild að. |
+Til að mynda skýrslu skal opna skýrsluskilgreininguna og smella svo á hnappinn Mynda á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Web Viewer.
+
+> [!NOTE]
+> Aðeins er hægt að mynda skýrslur í möppum og staðsetningar sem notandi hefur aðgangsheimild að.
 
 Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir myndun á skýrslum.
 
@@ -51,9 +51,10 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir myndun á skýrsl
 Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild birtir skýrslan einungis upplýsingarnar sem notandinn hefur aðgangsheimild að, eins og um fyrirtækið sem notandinn er skráður inn í á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.
 
 Þegar skýrsluáætlanir eru stofnaðar og vistaðar eru þær birtar á yfirlitssvæðinu undir Skýrsluáætlanir. Hægt er að stofna möppur til að skipuleggja skýrslurnar. Ef ein skýrsla í ætlun er ekki keyrð er haldið áfram að keyra allar aðrar skýrslur.
-| ![Mikilvægt](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Mikilvægt")**Mikilvægt**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Til að stofna, breyta og eyða skýrsluáætlunum þarf að hafa hlutverk hönnuðar eða stjórnanda. Þegar skýrsla er keyrð eru skilríki notandans sem stofnaði áætlunina notuð til að mynda skýrsluna. |
+
+> [!IMPORTANT]
+> Til að stofna, breyta og eyða skýrsluáætlunum þarf að hafa hlutverk hönnuðar eða stjórnanda. Þegar skýrsla er keyrð eru skilríki notandans sem stofnaði áætlunina notuð til að mynda skýrsluna.
+
 
 ### <a name="create-a-report-schedule"></a>Skýrsluáætlun stofnuð
 
@@ -100,14 +101,15 @@ Smellið á hnappinn Heimildir í svarglugganum Skýrslugerð samkvæmt áætlun
 Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vantað þvert yfir línuskilgreiningar, skilgreiningar skipurits og skilgreiningar skýrslu í einingahóp. Þetta er gagnlegt þegar stofnaðir eða uppfærðir eru margir reikningar eða einingar á stuttu tímabili og staðfesta á að allar nýjar upplýsingar séu innfaldar í skýrslunum.
 
 Ákvörðun um það hvaða reikninga vantar er gerð með því að nota hæsta og lægsta gildi línuskilgreiningarinnar eða skipuritsskilgreiningarinnar og birta svo lista yfir reikninga sem ekki eru í línuskilgreiningunni eða skipuritsskilgreiningunni, en eru í fjárhagsgögnunum. Ef reikningur sem vantar er hærri eða lægri en gildin í línuskilgreiningunni er sá reikningur ekki með á listanum yfir reikninga sem vantar.
-| ![Ábending](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Ábending")**Ábending**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Hvað staðfestingu varðar ætti þetta ferli að vera keyrt áður en myndaðar eru mánaðarlegar skýrslur og þegar nýjar einingar eru stofnaðar. |
+
+> [!TIP]
+> Hvað staðfestingu varðar ætti þetta ferli að vera keyrt áður en myndaðar eru mánaðarlegar skýrslur og þegar nýjar einingar eru stofnaðar.
 
 Ólíklegra er að skýrslur sem hafa svið gilda vanti reikninga. Þegar mögulegt er skal nota svið í einingunni til að hafa nýja reikninga með þegar þeir eru stofnaðir. Ef einhver skýrsluskilgreining er stillt á @ANY fyrirtæki er hægt að skrá sig inn á tiltekið fyrirtæki og keyra greiningu á reikningum sem vantar fyrir það fyrirtæki.
-| ![Athugasemd](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Athugasemd")**Athugasemd**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ef nýju fyrirtæki hefur verið bætt við, verður að bæta nýja fyrirtækinu við skipuritið í öllum núverandi skýrslum, annars mun fyrirtækið ekki vera innfalið í greiningu á reikningum sem vantar. |
+
+> [!NOTE]
+> Ef nýju fyrirtæki hefur verið bætt við, verður að bæta nýja fyrirtækinu við skipuritið í öllum núverandi skýrslum, annars mun fyrirtækið ekki vera innfalið í greiningu á reikningum sem vantar.
+
 
 ### <a name="run-missing-account-analysis"></a>Keyrsla reikningsgreiningar sem vantar
 
@@ -117,11 +119,11 @@ Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vanta
 4.  Í reitnum Flokka eftir skal velja hvernig raða á niðurstöðunum. Hægt er að raða niðurstöðunum eftir einingunni sem verður fyrir áhrifum, en einnig er hægt að raða niðurstöðum eftir vídd og gildasamstæðum.
 5.  Farið yfir niðurstöðurnar sem birtast. Þegar atriði er valið á efra svæðinu birtast viðbótarupplýsingar um undantekninguna á neðra svæðinu. Þetta innifelur tengdar víddir, gildi og skýrslur.
 6.  Til þess að opna atriðið skal smella á tengt tákn sem birtist á svæðislistanum eða hægrismella á atriðið og velja Opna. Til að velja mörg atriði skal halda Ctrl-lyklinum niðri um leið og valin eru atriði á neðra svæðinu.
-7.  Ef einhverjum gildum, einingum eða skýrslum er skilað sem ættu ekki að vera innfalin í greiningunni skal hægrismella á atriðið og velja Útiloka eða velja gátreitinn Útiloka við hlið atriðisins til þess að fjarlægja atriðið af listanum. Útilokuð atriði eru ekki tekin með þegar listinn er endurnýjaður. Til að velja margar vörur, halda niðri Ctrl-lykilinn meðan verið er að velja vörurnar í neðri rúðunni. Til að skoða allar vörur, þ.m.t. öllum niðurstöðum sem áður var valin til að útiloka frá fyrir greiningu á Sýna útilokað grunneiningar og gildi gátreitinn, og smellið síðan á Endurnýja.
+7.  Ef einhverjum gildum, einingum eða skýrslum er skilað sem ættu ekki að vera innfalin í greiningunni skal hægrismella á atriðið og velja Útiloka eða velja gátreitinn Útiloka við hlið atriðisins til þess að fjarlægja atriðið af listanum. Útilokuð atriði eru ekki tekin með þegar listinn er endurnýjaður. Til að velja mörg atriði skal halda Ctrl-lyklinum niðri um leið og valin eru atriði á neðra svæðinu. Til þess að skoða öll atriði, þar á meðal niðurstöður sem áður hafa verið valdar til útilokunar frá greiningunni, skal velja gátreitinn Sýna útilokaðar einingar og gildi og velja síðan Endurnýja.
 8.  Smellið á Endurnýja til að endurnýja undantekningar sem hafa verið afgreiddar. Smellið á Já til að endurhlaða öllum niðurstöðunum eða Nei til þess að endurhlaða að hluta til atriði sem eru afgreidd.
-    | ![Athugasemd](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Athugasemd")**Athugasemd**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Sniðið er sjálfkrafa endurhlaðið þegar það er opnað, nema ef sniðið hefur verið opnað á síðustu 15 mínútunum. |
+
+    > [!NOTE]
+    > Sniðið er sjálfkrafa endurhlaðið þegar það er opnað, nema ef sniðið hefur verið opnað á síðustu 15 mínútunum.
 
 9.  Þegar vandamálin hafa verið leyst er smellt á Í lagi til að loka svarglugganum.
 

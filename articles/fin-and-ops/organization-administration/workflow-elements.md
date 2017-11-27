@@ -1,27 +1,27 @@
 ---
 title: "Verkflæðiseiningar"
-description: "Þessi grein lýsir hinum ýmsu þáttum sem verkflæði samanstendur af."
+description: "Þetta efnisatriði lýsir hinum ýmsu þáttum sem verkflæði samanstendur af."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
+Þetta efnisatriði lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
 
 Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einingu gerð einingar.
 
@@ -59,7 +59,7 @@ Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einin
 -   Biðja um breytingu á skjalinu.
 -   Úthluta skjalinu til annars notanda til samþykktar.
 
-## <a name="lineitem-workflow-elements"></a>Verkflæðiseining línuatriðis
+## <a name="line-item-workflow-elements"></a>Verkflæðiseining línuatriðis
 Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala.
 
 ![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða lí
 -   **Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.
 -   **Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.
 
-## <a name="flowcontrol-elements"></a>Einingar flæðistýringar
+## <a name="flow-control-elements"></a>Einingar flæðistýringar
 Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar greinar eða greinar sem keyra á sama tíma.
 
 ### <a name="manual-decision"></a>Handvirk ákvörðun

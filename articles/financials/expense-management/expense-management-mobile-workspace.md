@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 7ce4c9d13a8686c82af8acad39d68858e52ba520
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -42,7 +42,7 @@ Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í f
 
 Nánar tiltekið gerir fartækjavinnusvæðið **Kostnaðarstýring** notendum kleift að vinna þessi verk:
 
-- Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu. Þú getur svo tengt myndina við kostnaðarskýrslu seinna.
+- Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Þú getur svo tengt myndina við kostnaðarskýrslu seinna.
 - Senda inn skrá sem fönguð kvittun. Þú getur svo tengt skrána við kostnaðarskýrslu seinna.
 - Stofna nýja línu í kostnaðarskýrslu með því að nota viðhengda kvittun. Þú getur svo bætt línuatriði við kostnaðarskýrslu síðar og sent hana til samþykktar og endurgreiðslu.
 
@@ -61,7 +61,7 @@ Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edit
 Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) 
-Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Útgjaldastýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (júlí 2017) hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Útgjaldastýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar
 Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 

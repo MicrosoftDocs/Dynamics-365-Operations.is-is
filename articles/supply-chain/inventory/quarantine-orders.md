@@ -1,9 +1,9 @@
 ---
 title: "Biðgeymslupantanir"
-description: "Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum."
+description: "Þetta efnisatriði lýsir því hvernig biðgeymslupantanir eru notaðar til að loka birgðum."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Í þessari grein er lýst hvernig biðgeymslupantanir eru notaðar til að loka birgðum.
+Þetta efnisatriði lýsir því hvernig biðgeymslupantanir eru notaðar til að loka birgðum.
 
 Hægt er að nota Biðgeymslupantanir til að loka birgðum. Til dæmis gætir þú viljað láta vörur í biðgeymslu vegna gæðaeftirlits. Birgðir sem hafa verið settar í biðgeymslu eru fluttar í biðgeymsluvöruhús. **Athugasemd:** Ef verið er að nota ítarlegt vöruhúsakerfisferli (í vöruhúsakerfi) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
 
-## <a name="quarantine-onhand-inventory-items"></a>Biðgeymsla birgðavara á lager
+## <a name="quarantine-on-hand-inventory-items"></a>Vörur biðgeymslubirgða á lager
 Þegar vara er sett í biðgeymslu geturðu annað hvort stofnað biðgeymslupantanir handvirkt eða stillt kerfið til að stofna biðgeymslupantanir sjálfkrafa við ferli á innleið. Til að stofna biðgeymslupantanir sjálfkrafa, veljið **Stjórnun Biðgeymslu** valkostinn í flipanum **Birgðareglur** á síðunni **Vörulíkanaflokkar**. Einnig þarf að tilgreina sjálfgefið biðgeymsluvöruhús í svæðinu **Biðgeymsluvöruhús** fyrir móttökuvöruhúsin. Í Microsoft Dynamics 365 for Finance and Operations eru vörur í biðgeymslu sjálkrafa settar í biðgeymsluvöruhús þegar efnislegar birgðir á lager eru skráðar með innkaupapöntun eða framleiðslupöntun. Þessa hreyfing gerist vegna þess að stöðu biðgeymslupöntunar hefur verið breytt í **Byrjað**. Þegar þú stofnar biðgeymslupantanir handvirkt, þarf varan ekki að vera sett upp fyrir biðgeymslustjórnun í tengdum vörulíkanaflokkum. Fyrir þetta ferli þarf að tilgreina biðgeymsluvöruhús sem á að nota og birgðir á lager sem á að setja í biðgeymslu. Það er hægt að nota stöðu biðgeymslupöntunar til að auðvelda áætlun ferlisins.
 
 ## <a name="quarantine-order-statuses"></a>Staða biðgeymslupöntunar.

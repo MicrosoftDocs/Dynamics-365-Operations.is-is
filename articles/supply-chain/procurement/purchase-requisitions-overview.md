@@ -1,9 +1,9 @@
 ---
 title: "Yfirlit yfir „Innkaupabeiðni“"
-description: "Þessi grein lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með."
+description: "Þetta efnisatriði lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með.
+Þetta efnisatriði lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með.
 
 Eftir því hvernig fyrirtæki þitt er sett upp er hægt að stofna innkaupabeiðnir fyrir vörur sem fyrirtækið notar. Innkaupabeiðni er innra fylgiskjal sem heimila innkaupadeild að kaupa vara eða þjónusta.  
 
@@ -70,7 +70,7 @@ Heildarstaða innkaupabeiðninnar ræðst af stöðu innkaupabeiðnilínanna. Þ
 <tr class="odd">
 <td>Drög</td>
 <td>Drög</td>
-<td>Innkaupabeiðni og innkaupabeiðnilínan hafa verið stofnaðar, en þær hafa ekki verið sent til endurskoðunar. Innkaupabeiðnir og innkaupabeiðnalínur sem hafa stöðuna <strong>Drög</strong> er hægt að breyta. Innkaupabeiðni eða innkaupapöntunarlína hefur einnig verið stöðuna <strong>Drög</strong> ef hún hefur verið afturkallað en hefur ekki verið sent aftur til skoðunar. <strong>Ábending:</strong> hægt er að senda eða afturkalla innkaupabeiðni í stig skjala. Hins vegar er ekki hægt að senda eða afturkalla eina línu innkaupabeiðni.</td>
+<td>Innkaupabeiðni og innkaupabeiðnilínan hafa verið stofnaðar, en þær hafa ekki verið sent til endurskoðunar. Innkaupabeiðnir og innkaupabeiðnilínur með stöðuna <strong>Drög</strong> er hægt að breyta. Innkaupabeiðni eða innkaupapöntunarlína hefur einnig stöðuna <strong>Drög</strong> ef hún hefur verið afturkölluð en hefur ekki verið send aftur til skoðunar. <strong>Ábending:</strong> Hægt er að senda eða afturkalla innkaupabeiðni í skjalastigi. Hins vegar er ekki hægt að senda eða afturkalla eina línu innkaupabeiðni.</td>
 </tr>
 <tr class="even">
 <td>Í skoðun</td>
@@ -111,7 +111,7 @@ Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðun
 <tr class="odd">
 <td>Hætt við</td>
 <td>Hætt við</td>
-<td>Innkaupabeiðni og allar innkaupabeiðnilínur hafa verið afturkölluð. <strong>Ábending:</strong> Ef vöru sem er í innkaupabeiðnilínu er ekki lengur þörf, verður að hættavið innkaupabeiðnilínuna ef hún hefur þegar verið samþykkt. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar. Ef einhverjar innkaupabeiðnilínur eru í yfirferð mun innkaupabeiðnin hafa stöðuna <strong>í yfirferð</strong>. Í þessu tilfelli er hægt að afturkalla innkaupabeiðnina og eyða viðeigandi innkaupabeiðnilínu.</td>
+<td>Hætt hefur verið við innkaupabeiðni og allar innkaupabeiðnilínur. <strong>Ábending:</strong> Ef vöru sem er í innkaupabeiðnilínu er ekki lengur þörf, verður að hætta við innkaupabeiðnilínuna ef hún hefur þegar verið samþykkt. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar. Ef einhverjar innkaupabeiðnilínur eru í yfirferð mun innkaupabeiðnin hafa stöðuna <strong>í yfirferð</strong>. Í þessu tilfelli er hægt að afturkalla innkaupabeiðnina og eyða viðeigandi innkaupabeiðnilínu.</td>
 </tr>
 <tr class="even">
 <td>Lokað</td>

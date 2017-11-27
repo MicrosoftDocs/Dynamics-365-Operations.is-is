@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 116d2f34c0317f3246b8d9c6569430603e2cd2c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,10 +52,10 @@ Eftirfarandi dæmi sýna áhrifin þess að nota LIFO dagsetningu með þremur m
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
--   4a. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
+-   4b. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu USD 15,00 (meðaltal fjárhagslegra uppfærðra færslna).
 -   5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
 -   6. Birgðalokun er framkvæmd. Á grundvelli LIFO dagsetningaraðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð gagnvart fyrstu fjárhagslega uppfærðu innhreyfingunni samkvæmt dagsetningu. Leiðrétting upp á 5,00 USD er gerð á úthreyfingarfærslunni. Þessar færslur verða jafnaðar með hver annarri.
@@ -87,10 +87,10 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
--   4a. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
+-   4b. Fjárhagsleg úthreyfing birgða með magninu 1 á kostnaðarverðinu 18,33 USD (meðaltal fjárhagslegra uppfærðra færslna).
 -   5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
 -   6. Birgðalokun er framkvæmd. Á grundvelli LIFO dagsetningaraðferðarinnar, verður síðasta uppfærða úthreyfingin leiðrétt eða jöfnuð gagnvart síðustu uppfærðu innhreyfingunni samkvæmt dagsetningu. Þessar færslur verða ekki jafnaðar við hvor aðra þar sem fjárhagslegu innhreyfingarfærslunni er jafnað í efnislega uppfærða færslu. Í stað þess, aðeins Leiðrétting upp á 6,67 USD er gerð á úthreyfingarfærslunni.
@@ -132,7 +132,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.

@@ -3,7 +3,7 @@ title: "Setja upp gámun"
 description: "Þetta aðferð lýsir því hvernig á að gera sjálfvirka gámun á farm í vöruhúsakerfi"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>Setja upp gámun
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="set-up-a-container-group"></a>Setja upp gámaflokk
 1. Fara í vöruhúsakerfi  > Uppsetningu  > Gáma  > gámahópar.
 2. Smellið á „Nýtt“.
-    * Þú getur sett upp rökrétta flokka af gámagerðum. Fyrir hvern hóp er hægt að tilgreinir í hvaða röð gámar eru pakkaðar og fyllingarhlutfall hvers gáms. Stærð vídda vörunnar er notuð til að ákvarða hvort hún passar í gám. Geymir sem er næst er afhendingardegi stærð vídda vörunnar er notað. Ef margar gámagerðum eru í flokki, er ráðlagt að hagræða röðinni eftir stærð, þannig að stærsta gámurinn er fyrst, númer 1 í röðinni og minnsti gámurinn er síðasta.    
+    * Þú getur sett upp rökrétta flokka af gámagerðum. Fyrir hvern hóp er hægt að tilgreinir röð gámar eru pakkaðar og fyllingarhlutfall hvers gáms. Víddarstærð vörunnar er notuð til að ákvarða hvort hún passi í gám. Geymir sem er næst er afhendingardegi stærð vídda vörunnar er notað. Ef margar gámagerðum eru í flokki, er ráðlagt að hagræða röðinni eftir stærð, þannig að stærsta gámurinn er fyrst, númer 1 í röðinni og minnsti gámurinn er síðasta.    
 3. Færa inn gildi í reitnum Auðkenni gámahóps.
 4. Sláið inn gildi í reitnum „Lýsing“.
 5. Smellt er á Nýtt.
@@ -108,7 +108,7 @@ ms.lasthandoff: 09/29/2017
 6. Færa inn gildi í svæðinu bylgjuskrefakóði.
 7. Veljið gátreitinn leyfa að skipta tiltekt.
 8. Smellið á „Vista“.
-9. Smella á Blöndunartakmarkanir gáma
+9. Smella á Blöndunartakmarkanir gáma.
     * Skipti í blöndunarrökum gerir kleift að setja upp reglur fyrir úthlutunarlínur í gáma. Til dæmis ef bætt er við svæðið vörunúmer þegar vara er úthlutuð á gáma, er nýjum gámi stofnað þar sem er nýtt vörunúmer. Þetta mun koma í veg fyrir að starfsmenn pakki úthlutunarlínum fyrir tvær mismunandi viðskiptavini í sama gám.  
 10. Smellið á „Nýtt“.
 11. Í reitnum tafla skal velja valkost.

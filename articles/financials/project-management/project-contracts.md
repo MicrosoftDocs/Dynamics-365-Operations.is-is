@@ -1,9 +1,9 @@
 ---
 title: Verksamningar
-description: "Þessi grein lýsir og gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Þetta efnisatriði gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir og gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Þessi grein gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Gerð verks sem er stofnuð fyrir verksamningur ákvarðar aðferðina sem er notuð til að reikningsfæra viðskiptavini verksins. Hægt er að breyta verksamningi og tengdum verkum, en ekki er hægt að breyta gerð verks. 
 
@@ -224,7 +224,7 @@ Eftirfarandi tafla athugar þessar aðstæður í meiri smáatriðum.
 </tr>
 <tr class="odd">
 <td>Færsla 2</td>
-<td><strong>Færsluupphæð:</strong> 5.000,00<strong>Fjármögnun:</strong> Færslan er greidd samkvæmt öllum þremur reglum.<strong>Regla 1</strong>
+<td><strong>Færsluupphæð:</strong> 5.000,00<strong>Fjármögnun:</strong> Færslan er greidd í samræmi við allar þrjár reglunar. <strong>Regla 1</strong>
 <ul>
 <li>Uppruni fjármögnunar 2: 450,00</li>
 <li>Uppruni fjármögnunar 3: 450,00</li>

@@ -3,7 +3,7 @@ title: "Stjórnun úthýsingarvinnu í framleiðslu"
 description: "Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 
-Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md)eða tilföng á lægra verði.  
+Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md) eða tilföng á lægra verði.  
 
 Allt eftir því hvaða tilföng lánardrottins eru notuð í framleiðsluferli er [leið](routes-operations.md) oft með viðbótarvörustjórnunarkröfur þar sem efnið og hálfunnu vörurnar verður fyrst að flytja á vinnusvæði lánardrottins. Þá verður að flytja niðurstöðuna úr undirverktakaaðgerðinni annað hvort á staðsetninguna sem er úthlutað á næstu aðgerð eða í vöruhús fyrir fullunnar vörur.  
 

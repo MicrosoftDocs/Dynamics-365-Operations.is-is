@@ -1,9 +1,9 @@
 ---
 title: "Sölusamningar"
-description: "Þessi grein gefur upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti."
+description: "Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
+Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
 
 Sölusamning er samningur sem bindur viðskiptavin til að kaupa vöru í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og sérstaka afslætti, og aðra sérstaka skilmála, eins og greiðslu og afhendingarskilmálar. Verð og afslættir af sölusamnings hunsa verð og afslætti sem eru tilgreindar í hvaða viðskiptasamninga sem ríkir.  
 
@@ -88,7 +88,7 @@ Ef sölusamningur er ekki staðfest enn hægt að nota hann til að stofna sölu
 Hægt er að forskoða eða prenta allar endurskoðanir af staðfestingunum. Svo er hægt að deila endurskoðunum til viðskiptavinar til að fá samþykki.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Jafna sölusamninga í pöntunarferli
-Ef sölupantanir ekki er losa beint fyrir sölusamninga, er enn hægt að tengja sölusamning við pöntun í ferli pöntunarfærslu. Þegar verið er að stofna nýja sölupöntun og velja sölusamning, eru skilmálar þess samnings, eins og greiðsluskilmálar, afhendingarskilmálar, og afhendingaraðsetur, eru jafnaðar í pöntunarhaus, og tengingu milli samning og pöntunin er stofnuð. Síðan, pöntunarlínum, er hægt að velja afurðir og tegundirnar sem eru tilgreindar í sölusamningnum, verðin og afslættirnir eru afritaðir úr þeim samningi. Í sömu sölupöntun geta verið báðar línur sem eru ekki tengdar við sölusamning og línur sem hafa ráðstöfun fyrir sölusamning.
+Ef ekki er að losa sölupantanir beint fyrir sölusamninga, hægt samt að tengja sölusamning við pöntun við ferli pöntunarfærsla. Þegar verið er að stofna nýja sölupöntun og velja sölusamning, eru skilmálar þess samnings, eins og greiðsluskilmálar, afhendingarskilmálar, og afhendingaraðsetur, eru jafnaðar í pöntunarhaus, og tengingu milli samning og pöntunin er stofnuð. Síðan, pöntunarlínum, er hægt að velja afurðir og tegundirnar sem eru tilgreindar í sölusamningnum, verðin og afslættirnir eru afritaðir úr þeim samningi. Í sömu sölupöntun geta verið báðar línur sem eru ekki tengdar við sölusamning og línur sem hafa ráðstöfun fyrir sölusamning.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Breyta sölupantanir sem eru tengdar við sölusamninga
 Ef hefur verið stofnað (losað) sölupöntun gagnvart sölusamning, sum svæði í sölupöntunarlínum er hægt að breyta eingöngu ef þú fjarlægir hlekkinn í tengdar sölusamningslínur. Eftirfarandi tafla sýnir sumum þessara reita.

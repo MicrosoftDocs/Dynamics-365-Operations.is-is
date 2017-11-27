@@ -3,7 +3,7 @@ title: "Nota Excel innbót"
 description: "Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/06/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -29,75 +29,97 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Til að opna einingagögn er hægt að hefja úr Excel eða Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
-Í þessu efnisatriði er útskýrt hvernig opna á einingagögn í Microsoft Excel og skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Þessi innbót krefst Microsoft Excel 2016. **Athugasemd:** Ef notanda Microsoft Azure Active Directory (Azure AD) leigjanda er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 hafið verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
+Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum með því að nota innbót fyrir Excel. Þessi innbót krefst Microsoft Excel 2016.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Opna einingagögn í Excel þegar byrjað er í Dynamics 365 for Finance and Operations
-1.  Á síðu í Microsoft Dynamics 365 for Finance and Operations, smellið á **Opna í Microsoft Office**. Ef rótargagnagjafi (tafla) fyrir listasíðu er sá sami og rótargagnagjafi fyrir allar einingar eru sjálfgefnir valkostir **Opna í Excel** myndaðir fyrir síðuna. Valkostina **Opna í Excel** má finna á algengum síðum, eins og **Allir lánardrottnar** og **Allir viðskiptavinir**.
-2.  Smellið á valkostinn **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
-3.  Í Excel, smellið á **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
-4.  Ef verið er að keyra í Excel-innbót í fyrsta sinn, er smellt á **Treysta þessari innbót**.
-5.  Ef beðið er um að skrá sig inn skal smella á **Innskráningu**, og síðan skrá sig inn með því að nota sömu skilríki og er notuð til að skrá sig inn í Dynamics 365 Finance and for Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
+> [!NOTE]
+> Ef notanda Microsoft Azure Active Directory (Azure AD) leigjanda er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 fyrir Office hafið verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
+
+## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Opna einingagögn í Excel þegar byrjað er í Finance and Operations
+1. Á síðu í Finance and Operations skal velja **Opna í Microsoft Office**.
+
+    Ef rótargagnagjafi (tafla) fyrir listasíðu er sá sami og rótargagnagjafi fyrir allar einingar eru sjálfgefnir valkostir **Opna í Excel** myndaðir fyrir síðuna. Valkostina **Opna í Excel** má finna á algengum síðum, eins og **Allir lánardrottnar** og **Allir viðskiptavinir**.
+ 
+2. Veljið **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
+3. Í Excel, veljið **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
+4. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
+5. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá sig inn með því að nota sömu skilríki og er notuð til að skrá sig inn í Finance and Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Opna einingagögn í Excel þegar hefja úr Excel
-1.  Í Excel, á flipanum **Setja** í **innbætur** flokk er smellt á **Verslun** til að opna Office-Verslun.
-2.  Office-Verslun er leitað með í leitað með lykilorð "Dynamics", og smellið á **Bæta við** við hliðina á **Microsoft Dynamics Officel-innbót** (í Excel-innbót).
-3.  Ef verið er að keyra í Excel-innbót í fyrsta sinn, er smellt á **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
-4.  Smellið á **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
-5.  Afrita skal vafraslóð úr markmiði tilviki Dynamics 365 for Finance and Operations, líma hana inn í svæðið **Vefþjónsslóð** og eyða síðan öllu eftir heiti hýsilsins. Meðfylgjandi Vefslóð ætti að hafa bara hýsilheiti.
-Ef slóðin er t.d. https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, skal eyða öllu nema **https://xxx.dynamics.com**.
-6.  Smellt er á **Í lagi** og **Já** til að staðfesta breytinguna. Excel-innbót endurræsist og hleður lýsigögnum. Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum „Úrræðaleit" í þessu efnisatriði.
-7.  Smellið á **Hönnun**. Excel-innbót sækir lýsigögn einingar.
-8.  Smelltu á **Bæta við töflu**. Listi yfir einingar birtist. Einingar eru taldar upp á sniðinu "Heiti – Merki".
-9.  Veljið einingu á listanum, eins og **Viðskiptavinar - Viðskiptavinir**, og smellið síðan á **Næsta**.
-10. Til að bæta við svæði af listanum **Tiltæk svæði** yfir á listann **Valið svæði** skal smella á svæðið og smellið síðan á **Bæta við**. Einnig er hægt að tvísmella á svæðið.
-11. Eftir að svæðum hefur verið bætt við á listann **Valin svæði** þarf að passa að bendillinn sé á réttum stað í vinnublaðinu (t.d. hólf A1) og smella síðan á **Lokið**. Smellið síðan á **Gert** til að fara úr hönnuði.
-12. Smellið á **Endurnýja** til að sækja gagnamengi.
+1. Í Excel, á flipanum **Setja** í **innbætur** flokk er valið **Verslun** til að opna Office-Verslun.
+2. Í Office-Verslun er leitað með í leitað með lykilorðinu **Dynamics** og svo valið **Bæta við** við hliðina á **Microsoft Dynamics Office-innbót** (Excel innbótin).
+3. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
+4. Veljið **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
+5. Í vafranum skal afrita vefslóð úr marktilviki Finance and Operations, líma hana inn í svæðið **Vefþjónsslóð** og eyða síðan öllu eftir heiti hýsilsins. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
+
+    Ef slóðin er t.d. `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` skal eyða öllu nema `https://xxx.dynamics.com`.
+
+6. Veljið **Í lagi** og svo **Já** til að staðfesta breytinguna. Excel-innbót endurræsist og hleður lýsigögnum.
+
+    Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum [Úrræðaleit](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) í þessu efnisatriði.
+
+7. Veljið **Hönnun**. Excel-innbót sækir lýsigögn einingar.
+8. Velja **Bæta við töflu**. Listi yfir einingar birtist. Einingar eru taldar upp á sniðinu "Heiti – Merki".
+9. Veljið einingu á listanum, eins og **Viðskiptavinar - Viðskiptavinir**, og veljið svo **Næsta**.
+10. Til að bæta við svæði af listanum **Tiltæk svæði** yfir á listann **Valið svæði** skal velja svæðið og svo **Bæta við**. Einnig er hægt að tvísmella á svæðið í **Tiltækir reitir** listanum.
+11. Eftir að svæðum hefur verið bætt við á listann **Valin svæði** þarf að passa að bendillinn sé á réttum stað í vinnublaðinu (t.d. hólf A1) og veja svo **Lokið**. Svo skal velja **Lokið** til að fara úr hönnuði.
+12. Veljið **Endurnýja** til að sækja gagnamengi.
 
 ## <a name="view-and-update-entity-data-in-excel"></a>Skoða og uppfæra einingagögn í Excel
-Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að smella á **Endurnýja** í Excel-innbót.
+Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að velja **Endurnýja** í Excel-innbót.
 
 ## <a name="edit-entity-data-in-excel"></a>Breyta einingagögnum í Excel
-Hægt er að breyta gögnum um einingar eftir þörfum og birta þau aftur með því að smella á **Birta** í Excel-innbót. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
+Hægt er að breyta gögnum um einingar eftir þörfum og birta þau aftur með því að velja **Birta** í Excel-innbót. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
 
--   Smellið einhvers staðar í gagnagjafatöflunni, og smellið síðan á **Nýtt** í Excel-innbót.
--   Smella í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.
--   Smelltu í línuna beint undir gagnagjafatöflunni og byrjaðu að færa gögn í hólf. Þegar áhersla er flutt út úr því hólfi útvíkkast gagnagjafataflan til að hafa nýja línu.
--   Smellið á eitt af svæðunum fyrir svæðisbindings hausfærslna, og smellið síðan á **Nýtt** í Excel innbót.
+- Smellið einhvers staðar í gagnagjafatöflunni, og velja svo **Nýtt** í Excel-innbót.
+- Smellið hvar sem er í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.
+- Smellið hvar sem er í línunni beint undir gagnagjafatöflunni og byrjaðu að færa gögn í hólf. Þegar áhersla er flutt út úr því hólfi útvíkkast gagnagjafataflan til að hafa nýja línu.
+- Valið er eitt af svæðunum fyrir svæðisbindings hausfærslna, og svo **Nýtt** í Excel innbót.
 
 Athugið að aðeins hægt er að stofna nýja færslu ef öll helstu áskildu svæðin eru bundinn í vinnublaðinu eða ef sjálfgildi voru fyllt út með því að nota skilyrði síunnar.
+
 Til að eyða færslu, skal fylgja einu af eftirfarandi skrefum:
 
--   Hægri-smella á línunúmer við hlið vinnublaðslínunnar sem á að eyða og smella síðan á **Eyða**.
--   Hægri-smella í vinnublaðslínuna sem á að eyða og smella síðan á **Eyða** &gt; **Töflulínur**.
-Ef upprunagögnum hefur verið bætt við sem tengdum, er haus gefinn út fyrir línur. Ef tengsl eru á milli annarra gagnagjafa, gæti þurft að breyta sjálfgefnu útgáfuröðinni. Til að breyta útgáfuröðinni í Excel-innbótinni, smellið á **Valkostir** hnappinn (tannhjólstákn). Á flýtiflipanum **Gagnatengi** skal svo smella á **Grunnstilla birtingarröð**.
+- Hægrismellið á línunúmer við hlið vinnublaðslínunnar sem á að eyða og veljið svo **Eyða**.
+- Hægrismellið hvar sem er á línunúmer við hlið vinnublaðslínunnar sem á að eyða og veljið svo **Eyða** &gt; **Töflulínur**.
+
+Ef upprunagögnum hefur verið bætt við sem tengdu gagnaveitu, er haus gefinn út fyrir línur. Ef tengsl eru á milli annarra gagnagjafa, gæti þurft að breyta sjálfgefnu útgáfuröðinni. Til að breyta birtingarröðinni, í Excel innbótinni skal velja **Valkostir** hnappinn (tannhjólstáknið), og svo á **Gagnatengi** flipanum **Grunnstilla birta pöntun**.
 
 ## <a name="add-or-remove-columns"></a>Bæta við eða fjarlægja dálka
 Hægt er að nota hönnuðinn til að leiðrétta dálka sem er sjálfkrafa bætt við vinnublaðið.
 
-1.  Hefja hönnuð upprunagagna í Excel-innbót með því að smella á **Valkosti** hnappinn (tannhjólstákn) og velja síðan **Virkja hönnun** gátreitinn.
-2.  Smellið á **Hönnun** í Excel-viðbót. Allir gagnagjafar eru taldir upp.
-3.  Við hlið gagnagjafa, smellið á **Breyta** hnappinn (blýantstákn).
-4.  Leiðréttu listann í listanum **Valinn svæði** eftir því sem með þarf:
-    -   Til að bæta við svæði af listanum **Tiltæk svæði** yfir á listann **Valið svæði** skal smella á svæðið og smellið síðan á **Bæta við**. Einnig er hægt að tvísmella á svæðið.
-    -   Svæði er fjarlægt af listanum **Valin svæði** með því að hægrismella á það og smella því næst á **fjarlægja**. Einnig er hægt að tvísmella á svæðið.
-    -   Til að breyta röð svæða, skal smella á svæðið í **Valið svæði** listanum, smella á reit og svo á **Upp** eða **Niður**.
+> [!NOTE]
+> Ef hnappurinn **Hönnun** birtist ekki undir hnappinum **Sía** í Excel-viðbótinni þarftu að virkja hönnuð upprunagagna. Veljið **Valkostir** hnappinn (tannhjólstáknið) og svo **Kveikja á hönnun** gátreitinn.
 
-5. Til að nota breytingarnar gagnagjafa skal smella á **Uppfæra**. Smellið síðan á **Gert** til að fara úr hönnuði. 
-6. Ef svæði (dálk) var bætt við, smellið á **Endurnýja** til að sækja uppfærð gagnamengi.
+1. Í Excel-innbótinnni skal velja **Hönnun**. Allir gagnagjafar eru taldir upp.
+2. Við hlið gagnagjafa, veljið **Breyta** hnappinn (blýantstákn).
+3. Í **Valið svæði** skal stilla lista reita eftir því sem með þarf:
+
+    - Til að bæta við svæði af listanum **Tiltæk svæði** yfir á listann **Valið svæði** skal velja svæðið og svo **Bæta við**. Einnig er hægt að tvísmella á svæðið í **Tiltækir reitir** listanum.
+    - Svæði er fjarlægt af listanum **Valin svæði** með því að hægrismella á það og velja **Fjarlægja**. Einnig er hægt að tvísmella á svæðið.
+    - Til að breyta röð svæða, skal velja **Valið svæði** listann, velja reit og svo á **Upp** eða **Niður**.
+
+4. Til að nota breytingarnar gagnagjafa skal velja **Uppfæra**. Svo skal velja **Lokið** til að fara úr hönnuði.
+5. Ef svæði (dálk) var bætt við, veljið **Endurnýja** til að sækja uppfærð gagnamengi.
+
+## <a name="copy-environment-data"></a>Afrita umhverfisgögn
+Gögnin sem eru lesin inn í vinnubókina úr einu umhverfi er hægt að afrita í annað umhverfi. Hins vegar er ekki hægt að breyta tengislóðinni vegna þess að gagnaskyndiminni í vinnubókinni mun halda áfram að meðhöndla gögnin sem fyrirliggjandi gögn. Þess í stað verður þú að nota virknina Afrita umhverfisgögn til að birta gögnin í nýju umhverfi sem ný gögn.
+
+1. Veljið **Valkostir** hnappinn (tannhjólstáknið), og svo **Gagnatengi** flipann **Afrita umhverfisgögn**.
+2. Gefa þarf upp vefslóð þjóns fyrir nýja umhverfið.
+3. Veljið **Í lagi** og svo **Já** til að staðfesta aðgerðina. Excel-innbót endurræsist og tengist við nýja umhverfið. Öll gögn sem eru í vinnubókinni eru meðhöndluð sem ný gögn.
+
+    Eftir að Excel viðbótin er endurræst birtist skilaboðareitur um að vinnubókin sé í Umhverfisafritun.
+
+4. Til að afrita gögnin í nýja umhverfið sem ný gögn skal velja **Birta**. Til að hætta við að umhverfisafritun og skoða núverandi gögn í nýju umhverfi skaltu velja **Uppfæra**.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 Það eru nokkur vandamál sem hægt er að leysa með nokkrum auðveldum skrefum.
 
--   **Hnappurinn Hlaða smáforrit er sýndur.** Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist, smella á það, útskráning og síðan innskráningu aftur.
--   **Þú færð „bönnuð“ skilaboð.** Ef þér berast „bönnuð“ skilaboð á meðan Excel-innbót er að hlaða lýsigögnum, er lykillinn sem er innskráður í Excel-innbót ekki með heimild til að nota markað þjónustu tilvik eða gagnagrunninum. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist, smella á það, útskráning og síðan innskráningu aftur.
--   **Auð vefsíða sýnd yfir í Excel.** Ef auð vefsíða opnast við innskráningarvinnslu, krefst lykillinn AD FS en útgáfa Excel sem keyrir á innbótinni er ekki nógu nýleg til að hlaða svarglugga innskráningar. Uppfæra útgáfu Excel sem verið er að nota til að leysa þetta vandamál. Til að uppfæra útgáfu Excel þegar þú ert í stóru fyrirtæki sem eru á frestaðri rás skal nota [Office uppsetningarverkfæri](https://technet.microsoft.com/library/jj219422.aspx) til að [fara úr frestaður rásar yfir í núverandi rás](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-
-
+- **Hnappurinn Hlaða smáforrit er sýndur** - Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
+- **Ef þér berast „bönnuð“ skilaboð** - Ef þér berast „bönnuð“ skilaboð á meðan Excel-innbót er að hlaða lýsigögnum, er lykillinn sem er innskráður í Excel-innbót ekki með heimild til að nota markað þjónustu tilvik eða gagnagrunninum. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
+- **Auð vefsíða sýnd yfir í Excel** - Ef auð vefsíða opnast við innskráningarvinnslu, krefst lykillinn AD FS en útgáfa Excel sem keyrir á innbótinni er ekki nógu nýleg til að hlaða svarglugga innskráningar. Uppfæra útgáfu Excel sem verið er að nota til að leysa þetta vandamál. Til að uppfæra útgáfu Excel þegar þú ert í stóru fyrirtæki sem eru á frestaðri rás skal nota [Office uppsetningarverkfæri](https://technet.microsoft.com/library/jj219422.aspx) til að [fara úr frestaður rásar yfir í núverandi rás](https://technet.microsoft.com/library/mt455210.aspx).
 

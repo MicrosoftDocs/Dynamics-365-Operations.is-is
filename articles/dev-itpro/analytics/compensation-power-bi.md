@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daf7232f13b5a2d4262a46f302bfd9e7efd60ead
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: f97b1323e739196ae58369a3d66de6a65df94f83
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -48,7 +48,7 @@ Skýrslur sem fylgja í efni **Laun** í Power BI hafa bæði myndrit og töflur
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
-Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 eða Finance and Operations, Enterprise Edition (júlí 2017) er hægt að finna Power BI efni um **Laun** í skjalasafni um samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
+Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 eða Finance and Operations, Enterprise edition (júlí 2017) er hægt að finna Power BI efni um **Laun** í skjalasafni um samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
 
 Gangið úr skugga um að hlaða niður efninu **Laun** í Power BI sem á við um útgáfu Microsoft Dynamics 365 sem verið er að nota.
 

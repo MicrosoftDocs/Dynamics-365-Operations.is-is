@@ -1,6 +1,6 @@
 ---
 title: "Samstilla tengiliði frá Sales til tengiliða eða viðskiptavina í Finance and Operations"
-description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliðir) og Tengilið (Viðskiptavinir) úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu."
+description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliðir) og Tengilið (Viðskiptavinir) úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 41e27776b94df059ada13efb9a3dbf6a29d67f36
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c838fef502f643c764fade9cd79ae770ffc36974
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 > [!NOTE]
 > Áður en þú getur notað lausnina Prospect to cash þarftu að kynna þér [Dynamics 365 gagnasamþættingu](/common-data-service/entity-reference/dynamics-365-integration). 
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengiliðseiningar (Tengiliðir) og Tengilið (Viðskiptavinir) úr Microsoft Dynamics 365 for Sales (Sales) í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu (Finance and Operations).
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengiliðseiningar (Tengiliðir) og Tengilið (Viðskiptavinir) úr Microsoft Dynamics 365 for Sales (Sales) í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Finance and Operations).
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 

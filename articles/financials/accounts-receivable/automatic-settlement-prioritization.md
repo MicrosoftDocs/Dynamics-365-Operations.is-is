@@ -1,9 +1,9 @@
 ---
 title: "Sjálfvirkt uppgjör og forgangsröðun"
-description: "Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi."
+description: "Þetta efnisatriði lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi.
+Þetta efnisatriði lýsir því hvernig færslur eru jafnaðar ef valið er Sjálfvirkt uppgjör á síðunni Færibreytur viðskiptakrafna. Hún útskýrir einnig hvernig hægt er að nota sjálfvirkt uppgjör í samsetningu með greiðsluforgangi.
 
 Tveir valkostir hafa þegar greiðslur með reikninga og aðrar færslur jafnaður. Hægt er að velja færslur til jöfnunar handvirkt eða Microsoft Dynamics 365 for Finance and Operations getur valið færslurnar sjálfkrafa með því að nota sjálfvirku jöfnunaraðgerðina. Einnig er hægt að sérsníða hvernig sjálfvirkar jafnanir eru unnar með því að nota í **Forgangsraða jöfnun** valkost. Allir þessir valkostir eru hluti af á jöfnunarfæribreytur sem eru skilgreindar á **Færibreytur viðskiptakrafna** síðu. Færslur jafnaðar sjálfkrafa hvernig geta verið mismunandi, eftir þeirri aðferð sem notuð er fyrir sjálfvirka jöfnun. Eftirtaldar aðferðir eru tiltækar:
 
@@ -50,7 +50,7 @@ Dæmi um jafnanir síðar í þessum kafla eru byggð á eftirfarandi færslur. 
 | Reikningur 3     | 15. október  | 500,00 | 2% 14/Net 30        | 29. október         |                                                                                                                                                                                               |
 | Vaxtanóta | 15. október  | 7,00   |                     |                    | Þessi vaxtanóta er fyrir reikning 1 og 2. Upphæðin er reiknuð sem vextir 2 prósent á upphæðir sem eru 30 eða fleiri daga fram yfir gjalddaga. Til dæmis, 0.02 × (100.00 + 250.00) = 7.00. |
 
-## <a name="userdefined-settlement-priority"></a>Notandaskilgreindur jöfnunarforgangur
+## <a name="user-defined-settlement-priority"></a>Notandaskilgreind jöfnunarforgangur
 Ef þú stillir **Nota forgang fyrir sjálfvirkar jafnanir** á **Já** í **Færibreytur viðskiptakrafna** síðuna, jöfnunarforgangur sem skilgreina á síðunni **jöfnunarforgangur** er notaður þegar færslur eru valdar fyrir sjálfvirka jöfnun. Eftirfarandi forgangsröðun jöfnunar er skilgreind í þessu dæmi:
 
 1.  Færslugerð
