@@ -1,10 +1,9 @@
 # [Velkomin(n) í Dynamics 365 for Talent](index.md)
 
-# Hafist handa
+# [Hafist handa](talent-get-started.md)
 ## [Kerfiskröfur og uppfærsluregla](talent-versions-update-policy.md)
 
-# Þróun mannauðsáætlunar
-## [Vinnuafl skipulagt með notkun deilda, starfa og staða](departments-jobs-positions.md)
+# [Þróun mannauðsáætlunar](departments-jobs-positions.md)
 ## [Uppsetning starfsþátta](create-job.md)
 ## [Stofnun deildar og tenging hennar við deildastigveldið](create-department-add-department-hierarchy.md)
 ## [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Samþætting hæfni starfsfólks við rekstrarþarfir](skills.md)
 ## [Uppsetning námskeiða](courses.md)
 
-# Stofnun og viðhald fríðinda
-## [Stjórnun fríðindaáætlunar](manage-benefit-program.md)
-## [Stefnur um hæfni til fríðinda](benefit-eligibility-policies.md)
+# [Stofnun og viðhald fríðinda](manage-benefit-program.md)
+# [Stefnur um hæfni til fríðinda](benefit-eligibility-policies.md)
 ## [Stjórnun hluta sem starfskraftar fá lánaða](loan-items.md)
 
-# Upplýsingasöfnun með notkun spurningalista
-## [Spurningarlistar](questionnaires.md)
+# [Upplýsingasöfnun með notkun spurningalista](questionnaires.md)
 ## [Hönnun spurningalista](design-questionnaires.md)
 ## [Dreifing og útfylling spurningalista](distribute-questionnaires.md)
 ## [Mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)

@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -70,11 +70,11 @@ Setja þarf upp nokkra þætti til að skilgreina tengsl á milli verslunar, afg
 Fyrir sérstillingu umhverfis eða innleiðingu og viðhald kerfis er ráðlegt að lesa sérstakt efni um Retail fyrir þróunaraðila og kerfisstjóra, auk almennara efnis.
 
 - [Dynamics 365 for Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](dev-itpro/dev-retail-home-page.md)
-- [Þróun og stjórnun fyrir Microsoft Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Þróun og stjórnun fyrir Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="blogs"></a>Blogg
 Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) er að finna umfjöllun, fréttir og aðrar upplýsingar um Retail og aðrar hugbúnaðarlausnir.
