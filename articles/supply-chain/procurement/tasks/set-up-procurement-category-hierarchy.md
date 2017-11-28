@@ -3,7 +3,7 @@ title: Setja upp stigveldi innkaupategundar
 description: "Þetta ferli sýnir hvernig á að stofna nýja hnúta í tegundastigveldi innkaupa og hvernig á að skilgreina innkaupategund sem nota á í innkaupaferli."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Setja upp stigveldi innkaupategundar
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 
 ## <a name="add-a-new-procurement-category"></a>Bæta við nýrri innkaupategund
-1. Fara í Innkaup og uppruni > .. > Innkaupaflokkar.
+1. Fara í Innkaup og uppruni > Innkaupaflokkar.
 2. Smella á Breyta tegundastigveldi.
     * Núverandi tegundastigveldi birtist vinstra megin á síðunni. Verið er að breyta stigveldi.  
 3. Smellt er á Nýr tegundahnútur.
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 7. Smellið á „Vista“.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Bæta afurðum við nýja innkaupategund
-1. Fara í Innkaup og uppruni > .. > Innkaupaflokkar.
+1. Fara í Innkaup og uppruni > Innkaupaflokkar.
     * Velja hnút sem var nýlega bætt við. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk gæti þurft að aflæsa leiðarvísi fyrir verk til að velja hnútinn.  
 2. Víxla útvíkkun á liðnum afurð.
 3. Smella á bæta við til að tengja afurðir við innkaupategund.

@@ -1,9 +1,9 @@
 ---
 title: "Algengar spurningar um afbrigðalíkan afurðar"
-description: "Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum."
+description: "Þetta efnisatriði lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
+Þetta efnisatriði lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 
 Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæta segðaskorður í afbrigðalíkönum afurðar Hægt er að skilgreina útreikninga á **afbrigðalíkan afurðar sem byggist á skorðum** skjámyndinni og síðan byggja segðir fyrir útreikninga í segðaritlinum. Nánari upplýsingar sjá stofna útreikninga.
 
@@ -75,7 +75,7 @@ ef markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafi, a�
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Get ég skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina?
 Hægt er að skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina nema ef markmiðseigindin er stillt sem falin eða aðeins til lestrar.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Hvernig get ég sett inn markmiðseigind sem er falin eða aðeins til lestrar?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Hvernig get ég sett inn markmiðseigind sem er falin eða aðeins til lestrar?
 Til að setja eigind sem falin eða aðeins til lestrar skal fylgja þessum skrefum:
 
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.

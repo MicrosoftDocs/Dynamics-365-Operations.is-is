@@ -3,7 +3,7 @@ title: "Búa til grunnlínuspá"
 description: "Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota annað hvort spálíkön tímaraðar eða með því að afrita söguleg eftirspurn."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 111/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>Búa til grunnlínuspá
@@ -42,7 +42,7 @@ Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota anna
 7. Lokið síðunni.
 8. Lokið síðunni.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Setja upp færibreytur eftirspurnarspár
+## <a name="set-up-the-demand-forecasting-parameters"></a>Setja upp færibreytur eftirspurnarspár
 1. Fara í Aðaláætlanagerð > Uppsetning > Eftirspurnarspá > Færibreytur eftirspurnarspár.
 2. Útvíkka hlutann Færibreytur reiknirita fyrir spá.
 3. Í stjórnunarstefnu Spármyndunar svæðinu, veljið 'Afrita yfir sögulega eftirspurn'.

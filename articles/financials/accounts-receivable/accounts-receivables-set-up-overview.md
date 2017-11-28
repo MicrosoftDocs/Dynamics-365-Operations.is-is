@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,9 +36,8 @@ Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og 
 Þú getur sett upp viðskiptavinaflokka, viðskiptavini, bókunarreglur, ýmsa greiðsluvalkosti, vaxtanótur, innheimtubréf, sölulaun, breytur varðandi viðskiptavini, gjöld, afhendingar og ákvörðunarstaði, víxla og aðrar gerðir viðskiptakrafna og upplýsingar um skuldir og innheimtu.
 Í eftirfarandi töflu er listi yfir síður sem styðja stillingu og viðhald Viðskiptakröfur og Skulda og innheimtu. Töflufærslunum er raðað eftir verki og síðan í stafrófsröð eftir heiti síðu.
 
-| ![Athugasemd](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Athugasemd")**Athugasemd**          |
-|--------------------------------------------------------------------------------------------------|
-| Sumar síður í eftirfarandi töflu þarfnast upplýsinga eða færibreytustillinga til þess að hægt sé að fletta að þeim. |
+> [!NOTE]
+> Ekki er hægt er að fara í sumar síður í eftirfarandi töflu nema stillingar gagna eða færibreytu hafa verið færðar inn í aðrar síður.
 
 | Verkefni                                                 | Heiti síðu                            | Notkun                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

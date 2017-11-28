@@ -1,9 +1,9 @@
 ---
-title: "Fyrirframgreiðslureikninga miðað við fyrirframgreiðslur"
-description: "Þessi grein veitir lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna."
+title: "Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur"
+description: "Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikninga miðað við fyrirframgreiðslur
+# <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
+Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
 
 Fyrirtæki gæti gefið út fyrirframgreiðslur (fyrirframgreiðsla) til lánardrottna fyrir vörur eða þjónustu áður en þær vörur eða þjónustu hafa verið uppfylltar. Hægt er að nota tvær aðferðir til að gefa út fyrirframgreiðslur til lánardrottna. Til að lágmarka áhættu, er hægt að rekja fyrirframgreiðslur með því að skilgreina fyrirframgreiðslu á innkaupapöntun. Fyrir þessa aðferð, verður að stofna fyrirframgreiddum reikningi sem er tengd innkaupapöntun. Þessi aðferð er kallað reikningsfærsla fyrirframgreiðslu. Fyrirtæki sem vilja ekki rekja fyrirframgreiðslur jafn náið eða fá ekki fyrirframgreiðslureikning frá lánardrottni þeirra geta nota fylgiskjöl fyrirframgreiðslna í stað reikningsfærsluaðferð fyrirframgreiðslu. Hægt er að stofna færslubókafylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna. Fyrir þessa aðferð er ekki hægt að rekja hvaða fyrirframgreiðslu til lánardrottins eru gerðar á móti hvaða innkaupapantanir. Hins vegar er hægt að merkja bókaða fyrirframgreiðslu fyrir jöfnun á móti innkaupapöntun.
 

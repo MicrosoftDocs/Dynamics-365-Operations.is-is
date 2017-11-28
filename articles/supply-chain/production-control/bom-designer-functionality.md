@@ -1,9 +1,9 @@
 ---
-title: "virkni uppskriftahönnuðar"
-description: "Þessi grein lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins."
+title: "Virkni uppskriftahönnunar"
+description: "Þetta efnisatriði lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM)."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-designer-functionality"></a>virkni uppskriftahönnuðar
+# <a name="bom-designer-functionality"></a>Virkni uppskriftahönnunar
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins.
+Þetta efnisatriði lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins.
 
 Þegar þú opna **uppskriftarhönnuði** síðu frá **Útgefnum afurðum** síðu, birtir hún stigveldi uppskrifta (BOMs) sem eru virk og samþykkt fyrir völdu vöruna, fyrir sjálfgefið pöntunarsvæði eða vöru, og raunverulega dagsetningu.  
 
@@ -66,7 +66,7 @@ Síunni sem er beitt fyrir Uppskrift og leið er birt í haus uppskriftarhönnu�
 <tbody>
 <tr class="odd">
 <td>Afurðarvíddir</td>
-<td>Ef fullkláraða varan er afurðarsniðmát er hægt að skilgreina virkar afurðarvíddir fyrir aðalval. <strong>Ábending:</strong> Ef uppskriftarhönnuði fyrir afurðir sem ekki afurðarsniðmát er opnuð, er ekki hægt að velja neinar afurðavíddir á <strong>Síu</strong> svarglugga.</td>
+<td>Ef valin endanleg vara er afurðarsniðmát er hægt að skilgreina virka afurðavídd fyrir aðalvalið. <strong>Athugið:</strong> Ef uppskriftarhönnuðurinn er opnaður fyrir vöru sem er ekki afurðarsniðmát er ekki hægt að velja neinar vöruvíddir í svarglugganum <strong>Sía</strong>.</td>
 </tr>
 <tr class="even">
 <td>Svæði</td>

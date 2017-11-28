@@ -1,9 +1,9 @@
 --- 
 title: "Skráið starfsmann inn í breytilega greiðsluáætlun"
-description: "Stjórnandi Launa og Fríðinda getur skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
+description: "stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: ebb92d5ce05f2891d25fb38f6200a10f02bcc948
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Skráið starfsmann inn í breytilega greiðsluáætlun
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Stjórnandi Launa og Fríðinda getur skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þetta ferli gerir ráð fyrir að breytilega launafyrirkomulag hefur verið stofnuð með Virkja ráðningu svæðið stillt á Já og hæfnisreglur hafa verið stofnaðar fyrir breytilega launafyrirkomulag. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þetta ferli, farið í Mannauður > Starfsfólk > Starfsmenn > Laun > Skráning í breytilega áætlun
+stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þetta ferli gerir ráð fyrir að breytilega launafyrirkomulag hefur verið stofnuð með Virkja ráðningu svæðið stillt á Já og hæfnisreglur hafa verið stofnaðar fyrir breytilega launafyrirkomulag. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þetta ferli, farið í Mannauður > Starfsfólk > Starfsmenn > Laun > Skráning í breytilega áætlun
 
 1. Smellið á „Nýtt“.
 2. Í reitnum Áætlun skal smella á fellilistahnappinn til að opna leitina.

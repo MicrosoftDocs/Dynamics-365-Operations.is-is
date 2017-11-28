@@ -17,17 +17,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f88fbbacde9c0bd2b3499df5682a717d0b804ab
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="enter-project-timesheets"></a>Færa inn vinnukort verks
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýja vinnukort getur verið byggt á upplýsingar frá fyrra vinnukort, eða frá úthlutun verk og verkþáttur á Eftirlætissíðan. Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil. Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín
+Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýja vinnukort getur verið grunnur upplýsingar frá fyrra vinnukort, eða frá: verk og verkþáttur eftirlætissíða. Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil. Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín
 
 1. Til að færa inn nýtt vinnukort, smella á Nýtt.
     * Tilföng fellilistanum sýnir starfsmanns sem er úthlutað á núverandi notanda, sjálfgefið.  

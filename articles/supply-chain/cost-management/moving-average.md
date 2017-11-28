@@ -1,9 +1,9 @@
 ---
 title: "Hlaupandi meðaltal"
-description: 
+description: "Hlaupandi meðaltal er kostnaðarútreikningur sem byggist á meðaltalsreglunni, þar sem kostnaður birgða breytist ekki á meðan innkaupakostnaður gerir það. Mismunurinn er eignfærður og byggir á hlutfallsútreikningi. Eftirstandandi upphæð er skráð sem kostnaður."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+Hlaupandi meðaltal er kostnaðarútreikningur sem byggist á meðaltalsreglunni, þar sem kostnaður birgða breytist ekki á meðan innkaupakostnaður gerir það. Mismunurinn er eignfærður og byggir á hlutfallsútreikningi. Eftirstandandi upphæð er skráð sem kostnaður. 
+
+Við notkun hlaupandi meðaltals er birgðajöfnun og birgðamerkingar ekki studdar. Birgðalokun hefur ekki áhrif á vörur með hlaupandi meðaltal sem flokk birgðalíkana og hún myndar ekkert uppgjör milli færslna.
 
 Eftirfarandi eru forkröfur þegar hlaupandi meðaltal kostnaðar er notað sem aðferð kostnaðarútreiknings.
+
 1.  Á síðunni **Vörulíkanaflokkar** seturðu upp vörulíkanaflokk sem hefur hlaupandi meðaltal valið í reitnum **Birgðalíkan**. **Ábending:** Sjálfgefið er að þegar hlaupandi meðaltal er valið eru reitirnir **Bóka efnislegar birgðir** og **Bóka fjárhagslegar birgðir** einnig valdir. 
 
 2.  Á síðunni **Bókun** úthlutarðu lyklum á lyklana **Verðmunur á hlaupandi meðaltali** og **Kostnaðurendurmat á hlaupandi meðaltali** á flipanum **Birgðir**. Notaðu lykilinn **Verðmunur á hlaupandi meðaltali** þegar kostnaður hefur verið gjaldfærður hlutfallslega. Þetta gerist vegna mismunar á kostnaði á innkaupakvittun og innkaupareikningi og vegna misminar milli upprunalegs birgðamagns og núverandi lagerbirgða. Notaðu lykilinn **Kostnaðarendurmat á hlaupandi meðaltali** þegar á að leiðrétta kostnað hlaupandi meðaltals fyrir afurð í nýtt einingarverð.

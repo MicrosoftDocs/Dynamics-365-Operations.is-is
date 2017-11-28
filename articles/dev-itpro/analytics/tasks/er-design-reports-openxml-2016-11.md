@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Hanna skilgreiningu fyrir myndun skýrslna á OpenXML-sniði fyrir rafræna skýrslugerð (ER)
@@ -34,8 +34,7 @@ Eftirfarandi skref útskýra hvernig notandi úthlutað á hlutverki Kerfisstjó
 
 
 
-Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu "Stofna skilgreiningarveitu og merkja hana sem virka". Einnig verður að hafa Excel-skráin sem verður flutt inn þegar sniðmátið er stofnuð. Þessi skrá er hægt að fá aðgang að í: https://msdynamics.blob.core.windows.net/media/2016/04/SampleVendPaymWsReport.xlsx
-
+Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu "Stofna skilgreiningarveitu og merkja hana sem virka". Þú verður einnig að sækja og vista Microsoft Excel skrána, [Sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Hlaða upp skilgreiningu greiðslugagnalíkans.
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.

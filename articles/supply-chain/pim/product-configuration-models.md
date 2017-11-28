@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undirí
 </tr>
 <tr class="odd">
 <td>Notendakröfur</td>
-<td>Notendakröfur tákna sértekningu á milli notendaþarfa og tiltekinna íhluti og eiginda. Ekki er hægt að varpa notendaþörfum til vöru. Til dæmis er viðskiptamaður að versla heimabíókerfi. Sölufulltrúinn gæti spurt um stærð herbergisins þar sem viðskiptamaðurinn hyggst setja kerfið upp, til að ákvarða hversu mörg vött eru nauðsynleg. Í þessu dæmi er stærð herbergisins þörf notanda sem hjálpar til við að ákvarða viðeigandi eigindargildi fyrir tiltekna íhluti. Hægt er að fela undiríhluti þannig að þeir séu ekki birtir notandanum í skilgreiningarlotu. Eigindir, undiríhlutir og notendakröfur sem tengjast notendakröfunum eru einnig falin. Hægt er að skrifa skilyrði til að stjórna því hvort notendaþörfin getir verið falin. Þú verður að nota OML-málskipan (Optimization Modeling Language) þegar skorður eru skrifaðar.</td>
+<td>Notendakröfur tákna sértekningu á milli notendaþarfa og tiltekinna íhluti og eiginda. Ekki er hægt að varpa notendaþörfum til vöru. Til dæmis er viðskiptamaður að versla heimabíókerfi. Sölufulltrúinn gæti spurt um stærð herbergisins þar sem viðskiptamaðurinn hyggst setja kerfið upp, til að ákvarða hversu mörg vött eru nauðsynleg. Í þessu dæmi getur stærð herbergisins verið notendaþörf sem auðveldra að ákvarða viðeigandi eigindagildi fyrir tiltekinn íhlut. Hægt er að fela notendaþarfir þannig að þær séu ekki birtar notandanum í skilgreiningarlotu. Eigindir, undiríhlutir og notendakröfur sem tengjast notendakröfunum eru einnig falin. Hægt er að skrifa skilyrði til að stjórna því hvort notendaþörfin getir verið falin. Þú verður að nota OML-málskipan (Optimization Modeling Language) þegar skorður eru skrifaðar.</td>
 </tr>
 <tr class="even">
 <td>Uppskriftarlínur</td>

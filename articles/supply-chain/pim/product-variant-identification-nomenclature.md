@@ -1,9 +1,9 @@
 ---
 title: "Nafnakerfi afurðarafbrigðisnúmera og -nafna"
-description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll]. Nýja nafnakerfið er með markað snið sem tekur til númers afurðarsniðmátsins, virku afurðavíddanna og skiltákna texta að eigin vali. Einnig er hægt að stofna nafnakerfi fyrir afurðaheiti. Loks er hægt að búa til nafnakerfi til að auðkenna grunnstillingar sem eru stofnaðar af skorðumiðuðum afurðarafbrigðastilli. Þessum nafnakerfi geta innihaldið eigindir að eigin vali."
+description: "Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll]."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Stuttermabolur (TS1234) er framleiddur í þremur stærðum (S, M, L) fjórum li
 
 Í þessu tilviki er afurðarafbrigðisnúmer fyrir rauðan, lítill pólóbol fyrir TS1234-Red-Small-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nafnakerfi skorðuskilgreininga
+## <a name="nomenclature-of-constraint-based-configurations"></a>Nafnakerfi skorðuskilgreininga
 Fyrir skorðuskilgreiningar er hægt að stofna sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á síðunni **Nafnakerfi afurðar**.
 
 -   Gildi númeraraðar
@@ -92,7 +92,7 @@ Stofnað er nafnakerfi skilgreiningar sem inniheldur eftirfarandi hluta:
 
 Í þessu tilfelli er skilgreiningarkenni fyrir viðarefni sem er 78 á lengd WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Víddarbyggðrar skilgreiningar Nafnakerfis
+## <a name="nomenclature-of-dimension-based-configurations"></a>Víddarbyggðrar skilgreiningar Nafnakerfis
 Fyrir skorðuskilgreiningar er hægt að stofna sérhæft nafnakerfi fyrir skilgreiningu afurðarvídda. Hægt að velja eftirfarandi hluta á síðunni **Nafnakerfi afurðar**.
 
 -   Gildi númeraraðar

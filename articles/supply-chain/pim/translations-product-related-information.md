@@ -3,7 +3,7 @@ title: "Algengar spurningar um afurðartengdar þýðingar"
 description: "Þetta efnisatriði lýsir því hvernig stjórna þýðingar fyrir afurðir afurðarvíddargildi og afurðaeigindir."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ Hægt er að þýða upplýsingar tengdar afurðum í hvaða tungumál sem er ti
 ## <a name="where-can-i-view-the-translated-information"></a>Hvar get ég skoðað þýddar upplýsingar?
 Hægt er að skoða þýðingar upplýsingar sem tengjast hvaða ytri uppruna skjals, eins og reikning, sem notar tungumál þýðingar sem tiltæk.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Hvernig get ég stofnað þýðingar fyrir afurðatengdar upplýsingar?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Hvernig get ég stofnað þýðingar fyrir upplýsingar sem tengjast vöru?
 Til að stofna þýðingar afurðar, skal fylgja þessum skrefum:
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
 2.  Velja afurð, og á Aðgerðarúðu í flokknum **Tungumál** er smellt á **Þýðingar**.
@@ -124,7 +124,7 @@ Til að stjórna þýðingar fyrir gildi í víddaflokknum gildi skal fylgja þe
 1.  Fylgið skrefunum í fyrra ferli fyrir stofnun á gildi víddarflokks til að opna síðuna **Línur Stærðarhóps**, **Línur litahóps**, eða **Línur stílhóps**.
 2.  Smellið á **Textaþýðing**. Í skjámyndinni **Textaþýðing** í hópnum**Þýddur texti** skal slá inn þýðingar á svæðunum **Heiti** og **Lýsing**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Hvenær er hægt að stjórna þýðingum á afurðartengdum upplýsingum?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Þegar hægt þýðingar upplýsingar sem tengjast stjórnað?
 Þýðingum á upplýsingum sem tengjast vöru sem hægt er að stýra hvenær sem er. Þegar þýðingar eru uppfærðar fyrir víddargildi sem tengjast vöru, eru upplýsingar um vörur uppfærðar, án tillits til þess hvort varan sé með færslu.
 
 

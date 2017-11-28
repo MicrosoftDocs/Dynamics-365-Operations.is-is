@@ -3,14 +3,14 @@ title: "Samvinnusvæði lánardrottins með ytri lánardrottna"
 description: "Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: is-is
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir.
 
 **Samvinnusvæði lánardrottins** kerfiseining er beint að lánardrottnum sem ekki hafa samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 for Finance and Operations. Það leyfir lánardrottna til að vinna með innkaupapöntun, reikninga, og upplýsingar um vörusendingabirgðir. Þetta efnisatriði lýsir því hvernig er hægt vinna vandræðalaust með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með að vinna með Innkaupapanganir og vörusendingabirgðir. Það lýst einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar geta séð þegar þeir svara Innkaupapöntun. Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyrir samstarf lánardrottna , sjá [samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+Upplýsingarnar í þessu efnisatriði um samstarf lánardrottna gildir aðeins um núverandi útgáfu Dynamics 365 for Finance and Operations. Í febrúar og maí útgáfum 2016 af Microsoft Dynamics AX notaðirðu gátt lánardrottins fyrir samskipti við lánardrottna. Upplýsingar um gátt lánardrottins er að finna í [Samstarf með lánardrottnum í gegnum gátt lánardrottins](collaborate-vendors-vendor-portal.md).
 
 Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
@@ -148,7 +150,7 @@ Ef **vinnusvæði undirbúnings innkaupapöntunar** í Í ytri endurskoðun kref
 
 Lánardrottinn getur líka bætt við athugasemd eða viðhengi
 
-Á línunum getur lánardrottinn breytt magni og afhendingardagsetningum, bætt við athugasemdum og viðhengjum, hafnað línu, skipt línu með annarri vöru sem er slegið inn sem texti og skipt línu upp í margar afhendingar. Eftir því hvaða breytingar lánardrottinn stingur upp á mun línustaðan hafa aðrar línustöður:
+Á línunum getur lánardrottinn breytt magninu og afhendingardögum, bætt við athugasemdum og viðhengjum, hafnað línu, skipt út fyrir línu fyrir aðra vöru sem er slegin inn sem texti og skipt línu í margar sendingar. Eftir því hvaða breytingar lánardrottinn stingur upp á mun línustaðan hafa aðrar línustöður:
     
 -   **Samþykkt með breytingum**
 -   **Hafnað**
@@ -161,7 +163,7 @@ Hafi lína engar breytingar er línustaðan **Samþykkt**.
 
 Hægt er að uppfæra Innkaupapöntun með því að smella á aðgerðina **Vinna uppfærslu á innkaupapöntun** í svarinu eða í einni línu í einu. Vísir, **Hefur uppfærsla á innkaupapöntun verið keyrð?**, í haus og línum gerir kleift að sjá hvort kerfið hefur keyrt hausinn eða línur til að uppfæra innkaupapöntunina með hugsanlegum breytingumm sem eru úr svarinu. Aðeins er hægt að keyra **Keyra uppfærslu innkaupapöntunar** einu sinni á hvern haus eða línu.
 
-Ekki er hægt að uppfæra allar ráðlagðar breytingar í innkaupapöntun. Aðeins uppfærslur í haus og uppfærslur á dagsetningum og magni í línum geta verið uppfærðar sjálfkrafa í innkaupapöntun. Fyrir aðrar breytingar verður að uppfæra innkaupapöntunina handvirkt. Í þessu tilfelli sýnir **Hefur uppfærsla á innkaupapöntunni verið keyrð?** vísirinn **Handvirkar uppfærslur**. Dæmi um breytingu sem á að meðhöndla handvirkt væri þegar lánardrottinn leggur til að skipta línu niður í áætlun.
+Ekki er hægt að uppfæra allar ráðlagðar breytingar í innkaupapöntun. Aðeins uppfærslur í haus og uppfærslur á dagsetningum og magni í línum geta verið uppfærðar sjálfkrafa í innkaupapöntun. Fyrir aðrar breytingar verður að uppfæra innkaupapöntunina handvirkt. Í þessu tilfelli sýnir **Hefur uppfærsla á innkaupapöntunni verið keyrð?** vísirinn **Handvirkar uppfærslur**. Dæmi um breytingu sem þarf að meðhöndla handvirkt er þegar lánardrottinn stingur upp á að línu sé skipt upp í áætlun.
 
 Lína með stöðuna **Samþykkt** hefur staðfesta afhendingardagsetningu sem verða uppfærðar í innkaupapöntuninni þegar framkvæma á **Keyra uppfærslu innkaupapöntunar**. Athugasemdir og viðhengi færast ekki sjálfkrafa í gildandi innkaupapöntun. Athugið að þegar gildandi innkaupapöntun er uppfærð í gegnum aðgerðina **Keyra uppfærslu á innkaupapöntun** verða viðskiptasamningar ekki endurmetnir í línum innkaupapöntunar.
 

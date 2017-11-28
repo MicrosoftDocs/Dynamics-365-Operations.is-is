@@ -16,17 +16,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Stofna beiðni um notkun
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum ferlið fyrir myndun á innkaupabeiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í þínum innkaupavörulista og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður.  Þetta verk myndi venjulega framkvæmt af starfsmanni. öryggishlutverk Starfsmanns gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem Alicia.
+Þetta ferli fer í gegnum ferlið fyrir myndun á innkaupabeiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í þínu innkaupavörulista og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður.  Þetta verk myndi venjulega framkvæmt af starfsmanni. öryggishlutverk Starfsmanns gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem Alicia.
 
 
 ## <a name="create-a-new-requisition"></a>Stofna nýja innkaupabeiðni
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="add-a-line-to-the-requisition"></a>Bæta línu við í innkaupabeiðni
 1. Smellið á „Bæta við línu“.
-    * Til eru tvær leiðir á að bæta línum við innkaupabeiðnina. Ef þegar vitað afurðarnúmer eða þegar vitað að beðið er um afurð sem er ekki í vörulista, þá geturðu bætt línunni beint við með "Bæta við línu". Hin leiðin er að nota "Bæta við afurðum" þar sem hægt er að nota leit og síun til að finna vörur í vörulista.    
+    * Til eru tvær leiðir á að bæta línum við innkaupabeiðnina. Ef þegar vitað afurðarnúmer eða þegar vitað að beðið er um afurð sem er ekki í vörulista, þá geturðu bæta línunni beint með "Bæta Við línu". Hin leiðin er að nota "Bæta við afurðir" þar sem hægt er að nota leit og síun til að finna vörur í vörulista.    
 2. Smellt er á línunni sem nýverið var stofnuð.
     * Umsækjandinn er starfsmaður sem hefur beðið um beiðnina.   
     * Sjálfgefið er að einstaklingurinn sem sér um undirbúning innkaupabeiðni er starfsmaður sem hefur beðið um hana. Það þarf að veita heimild til að útbúa innkaupabeiðnilínu fyrir hönd annars starfsmanns. Ef slíkar heimildir eru til staðar munu hinir starfsmenn birtast í þessari uppflettingu.  
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/29/2017
     * Lánardrottna sem eru tiltækar í þessu svæði eru háð innkaupareglur og stöðu sem lánardrottinn hefur fyrir gildandi innkaupategundina. Auk þess að velja lánardrottin hér, hægt að smella á hnappinn Leggja til lánardrottinn.    
 18. Veljið lánardrottinn sem á að nota í listanum.
 19. Í reitnum ytra vörunúmer skal slá inn gildi.
-    * Þetta er tilvísunarnúmer fyrir afurð sem lánardrottinn þekkir. Til dæmis, gæti þetta verið vörunúmer afurðar í eigin vörulista lánardrottins.  
+    * Þetta er tilvísunarnúmer fyrir afurð sem lánardrottinn þekkir. Til dæmis, gæti þetta verið vörunúmer afurðar í eigin vörulista lánardrottins .  
 20. Smellið á „Í lagi“.
 
 ## <a name="distribute-amounts"></a>Dreifa upphæðum

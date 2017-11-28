@@ -3,7 +3,7 @@ title: "Greiðsluyfirlit lánardrottins"
 description: "Þessi leiðarvísir fyrir verk fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Greiðsluyfirlit lánardrottins
@@ -68,11 +68,11 @@ ms.lasthandoff: 09/29/2017
 26. Smella á Já.
 27. Velja Mynda greiðslu til að prenta ávísanir eða stofna rafræna greiðsluskrá.
 28. Velja greiðsluhátt sem á að mynda.
-    * Greiðslubók getur innihaldið greiðslur fyrir bæði ávísanir og rafrænar greiðslur, en einungis er hægt að mynda eina greiðslugerð í einu.  
+    * Greiðslubók getur innihaldið greiðslur fyrir bæði ávísanir, en einungis er hægt að mynda eina greiðslugerð í einu.  
 29. Velja bankareikninginn þaðan sem á að búa til greiðslur.
 30. Smellið á „Í lagi“.
     * Greiðslur verða aðeins myndaðar fyrir greiðslur sem samsvara þeim greiðsluhætti og bankareikningi sem var valinn.  
-31. Ef verið er að mynda ávísanir, veljið Skjal til að tryggja að réttur prentara sé notaður fyrir ávísanirnar.
+31. Ef verið er að mynda ávísanir, veljið Skjal til að að tryggja að rétt prentara sé notaður fyrir ávísanirnar.
 32. Smellið á „Í lagi“.
 33. Smellt er á Í lagi til að búa til greiðslur.
 34. Smellt er á Bóka ef allar greiðslur eru samþykktar og myndaðar. 

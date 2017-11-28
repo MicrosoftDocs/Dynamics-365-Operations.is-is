@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-07-13
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e590f9adcf8992704f2733f1d970176d35eb123a
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 Þetta efnisatriði sýnir hvort hver eiginleiki er tiltækur í þessum vörum.
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (ský)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (staðbundin útgáfa)
++ Dynamics 365 for Finance and Operations, Enterprise edition (staðbundin útgáfa)
 
 Í eftirfarandi töflu er listi yfir afurðasvæðin. Stuðningur fyrir ský og staðbundna notkun er talinn upp í heild fyrir þennan eiginleika. Ef tilteknir eiginleikar eru frábrugðnir því sem er á heildarsviðinu eru eiginleikarnir skráðir í aðskilinni línu í dálkinum eiginleikar.
 

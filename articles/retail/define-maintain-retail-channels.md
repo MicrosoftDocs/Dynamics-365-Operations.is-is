@@ -1,9 +1,9 @@
 ---
 title: "Skilgreina og viðhalda Smásölurásir"
-description: "Þessi skrá veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun."
+description: "Þetta efnisatriði veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun."
 author: mugunthanm
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 700b8868a68be7f0172202d737b4f1ae9813ecf3
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](includes/banner.md)]
 
 
-Þessi skrá veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
+Þetta efnisatriði veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
 
 Dynamics 365 for Retail styður fjölda smásölurása, þ.m.t. netverslanir, þjónustuver og verslanir á staðnum. Verslun á staðnum er kölluð smásöluverslun. Hvert smásöluverslun getur haft sína eigin greiðsluhætti, verðflokka, sölustað (POS) afgreiðslukassa, tekjulykla og kostnaðarlykla og starfsfólk. Setja verður upp allar þessar einingar fyrir smásöluverslun áður en hún er stofnuð. Eftir að þú stofnar smásöluverslun, úthluta þér afurðir sem þú vilt að verslunin selji. Einnig er starfsmönnum, afgreiðslukössum og viðskiptavinum úthlutað til verslunar. Að lokum bætirðu nýju versluninni við stigveldi fyrirtækis.
 

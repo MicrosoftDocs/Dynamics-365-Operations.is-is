@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b403a6f01a6c7ba95c2dd1cfd3bae8e58f0c6879
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -113,7 +113,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu skrefinu skal úthlutað á: <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er samþykktarskrefið úthlutað til allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er skrefið aðeins úthlutað til síðasta notanda á sviðinu.</li>
-    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skrefið er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
+    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skrefið er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði</strong> til að skilgreina skilyrðin.</li>
     </ul></li>
     </ol></td>
     </tr>
@@ -220,7 +220,7 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
     <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu skjalið skal vera stigmagnað fyrir. <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er skjalið stigmagnað fyrir allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er skjalið stigmagnað aðeins til síðasta notanda á sviðinu.</li>
-    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skjalið er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
+    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skjalið er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði</strong> til að skilgreina skilyrðin.</li>
     </ul></li>
     </ol></td>
     </tr>

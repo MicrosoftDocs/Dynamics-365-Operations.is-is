@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 1. Fara í birgðastjórnun > Færslubókarfærslur > Vörukoma > Vörukoma.
 2. Smellið á „Nýtt“.
 3. Í reitinn Heiti skal slá inn gildi.
-    * Ef verið er að nota USMF, er hægt að færa inn vöruhúsakerfi. Ef verið er að nota önnur gögn, verður færslubókin sem þú velur heitið á að hafa eftirfarandi eiginleika: Athuga tiltektarstaðsetningu verður að vera stillt á Nei og biðgeymslustjórnun verður að vera stillt á Nei.  
+    * Ef verið er að nota USMF, er hægt að færa inn vöruhúsakerfi. Ef verið er að nota önnur gögn, verður heiti færslubókar þú hefur valið að hafa eftirfarandi eiginleika: Athuga tiltektarstaðsetningu verður að vera stillt á Nei og biðgeymslustjórnun verður að vera stillt á nei.  
 4. Í reitinn fylgiseðill skal slá inn gildi.
     * Þetta er Kenni fylgiseðils af fylgiseðli sem er gefið út af lánardrottni. Bæta við einkvæmt númer.  
 5. Veljið innkaupapöntun í númerareitnum.

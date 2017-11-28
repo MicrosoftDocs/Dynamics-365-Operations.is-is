@@ -1,9 +1,9 @@
 ---
 title: "Áætlanagerð blandaðrar stillingar: Sameina afmarkaða, ferli og lean uppruna"
-description: "Þessi grein veitir upplýsingar um áætlanagerð í blönduðum ham. Með áætlanagerð í blönduðum ham geturðu mótað birgðakeðju þína á grundvelli efnisflæðis. Microsoft Dynamics 365 for Finance and Operations tryggir að efnisflæði fylgi þínum líkönum, óháð framboðsreglu sem er valin (kanban, framleiðslupantanir, innkaupapantanir, runupantanir eða flutningspantanir)."
+description: "Þetta efnisatriði veitir upplýsingar um áætlanagerð í blönduðum ham."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir upplýsingar um áætlanagerð í blönduðum ham. Með áætlanagerð í blönduðum ham geturðu mótað birgðakeðju þína á grundvelli efnisflæðis. Microsoft Dynamics 365 for Finance and Operations tryggir að efnisflæði fylgi þínum líkönum, óháð framboðsreglu sem er valin (kanban, framleiðslupantanir, innkaupapantanir, runupantanir eða flutningspantanir). 
+Þetta efnisatriði veitir upplýsingar um áætlanagerð í blönduðum ham. Með áætlanagerð í blönduðum ham geturðu mótað birgðakeðju þína á grundvelli efnisflæðis. Microsoft Dynamics 365 for Finance and Operations tryggir að efnisflæði fylgi þínum líkönum, óháð framboðsreglu sem er valin (kanban, framleiðslupantanir, innkaupapantanir, runupantanir eða flutningspantanir). 
 
 Hægt er að velja heildar stefnunn fyrir útvegun afurðar óháð uppbyggingu vöru.  
 
@@ -59,7 +59,7 @@ Yfirleitt, eru kanban ekki stofnuð fyrir framtíðardagsetningar, þar sem kanb
 
 Sömu rök eru til staðar fyrir allar aðrar gerðir framboðsreglna. Þess vegna er lengri tíma efnisáætlanagerð byggð á sömu rökfræði sem þú býst við keyrslu með raunverulegum pöntunum eftir að framleiðsla og framboð eru samþykktar.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Úthlutunarregla krossframboðs efnis - -Notkun tilfangs á uppskriftir
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>úthlutun efnis kross - -framboðsregla – notkun tilfangs á Uppskriftir
 Notkun tilfanga er mikilvæg aðgerð. notkun tilfangs virkjar vöruhús fyrir tínslu efnis til að vera valinn gagnvirkt, byggt á framboðreglu (gerð pöntunar), og gerir einnig viðhald á grunngögnum auðveldara.  
 
 Notkun tilfanga krefst þess að vöruhúsi sem efni eru tínd úr sé úthlutað byggt á því hvernig afurðin er veitt. Með öðrum orðum, , kerfið finnur á keyrslutíma tilföng sem á að nota fyrir framleiðslu. Samkvæmt þessum tilföngum finnur kerfið síðan tiltektarvöruhús.  

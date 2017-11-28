@@ -1,6 +1,6 @@
 ---
 title: "Jaðarbúnaður POS-vélbúnaðar"
-description: "Retaoæ Modern sölukerfi í skýinu (POS) og Cloud POS geta notað vítækt jaðartæki POS, með mörg viðmót og notkunarmöguleika til að uppfylla mismunandi viðskiptaaðstæður smásalans."
+description: "Retail Modern sölukerfi í skýinu (POS) og Cloud POS geta notað vítækt jaðartæki POS, með mörg viðmót og notkunarmöguleika til að uppfylla mismunandi viðskiptaaðstæður smásalans."
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17738e794f18fddc7320b1b40ef55376fba0de24
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4fbfb176f2504be8aaf67992d094da1daeefeb76
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

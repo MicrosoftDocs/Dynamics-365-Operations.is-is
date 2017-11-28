@@ -1,9 +1,9 @@
 ---
-title: "Þríhliða jöfnunarreglur"
-description: "Þessi grein gefur dæmi um þríhliða jöfnun."
+title: "Stefnur þríhliða jöfnunarregla"
+description: "Þetta efnisatriði gefur dæmi um þríhliða jöfnun."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="three-way-matching-policies"></a>Þríhliða jöfnunarreglur
+# <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein gefur dæmi um þríhliða jöfnun.
+Þetta efnisatriði gefur dæmi um þríhliða jöfnun.
 
 <a name="example-three-way-matching-for-items"></a>Dæmi: Þríhliða jöfnun fyrir vörur
 -------------------------------------
@@ -65,7 +65,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Hann færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
-    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
+    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
         -   Samsvörun nettóeiningaverðs – Nettóeiningaverð í reikningslínunni samsvarar nettóeiningarverði í innkaupapöntunarlínunni, innan prósentu vikmarka. Í þessu dæmi eru vikmörk nettóeiningaverðs +8%.
         -   Jöfnun samtalna verðs – Nettóupphæð í reikningslínunni er jöfnuð við nettóupphæð innkaupapöntunarlínu, innan vikmarka prósentu, upphæðar eða prósentu og upphæðar. Í þessu dæmi eru vikmörk jöfnunar samtalna verðs +15%.
 

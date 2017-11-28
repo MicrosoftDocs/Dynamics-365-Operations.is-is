@@ -3,14 +3,14 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 07/10/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Platform, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 3ebe8f2869b93050d320456ff457c0b5692c5eae
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað er að fjarlægja úr Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
+Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað er að fjarlægja úr Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Eiginleikar hafa verið úreldir í Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) með verkvangsuppfærslu 8
 
@@ -382,7 +382,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Ástæða afskrifta**       | Þetta yfirlit á ekki lengur við sum Brasilískt ríki.                                                     |
+| **Ástæða afskrifta**       | Þetta yfirlit á ekki lengur við sum Brasilískt fylki.                                                     |
 | **Skipt út fyrir aðra eiginleika?** | Nei. Notendur geta notað verkfærið Almennan Rafræna skýrslugerð til að skilgreina uppgjör ef nauðsynlegt við tilteknar aðstæður. |
 | **Kerfi sem verða fyrir áhrifum**             | Skattabækur                                                                                                          |
 
@@ -392,7 +392,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 
 |                              |                                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
-| **Ástæða afskrifta**       | Viðbúnaðarháttur er á ekki lengur við í öllum brasilískum ríkjum |
+| **Ástæða afskrifta**       | Viðbúnaðarháttur er á ekki lengur við í öllum brasilískum fylkjum |
 | **Skipt út fyrir aðra eiginleika?** | Ekkert                                                                          |
 | **Kerfi sem verða fyrir áhrifum**             | Viðskiptakröfur                                                         |
 
@@ -801,7 +801,7 @@ Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn s
 <td><b>Ástæða afskrifta</b></td>
 <td><ul>
 <li>Sýndarfyrirtæki verður að vera uppsett áður en gögn eru geymd í töflum. Að bæta sýndarfyrirtæki eftirá við yfir fyrirliggjandi framkvæmd er mjög erfitt.</li>
-<li>Þar sem hefur verið svo mikið um stöðlun gagna í gildandi útgáfu af Dynamics AX, er orðið mjög erfitt að vita hvað skuli bæta við töflusöfn. Til dæmis er erfitt að vita hvaða töflum eigi að deila. Allar töflur sem vísað er til úr töflum sem eru í sýndarfyrirtæki verður að bæta við. Vegna Stöðlun Tafla verða jafnvel einfalt aðalgögn sem er dreift yfir margar töflur að vera hluti af sýndarfyrirtækinu. Öll mistök sem gerð eru hér munu valda virknivandamálum.</li>
+<li>Þar sem hefur verið svo mikið um stöðlun gagna í gildandi útgáfu af Dynamics AX, er orðið mjög erfitt að vita hvað skuli bæta við töflusöfn. Til dæmis er erfitt að vita hvaða töflum eigi að deila. Allar töflur sem vísað er til úr töflum sem eru í sýndarfyrirtæki verður einnig að bæta við. Vegna Stöðlun Tafla verða jafnvel einfalt aðalgögn sem er dreift yfir margar töflur að vera hluti af sýndarfyrirtækinu. Öll mistök sem gerð eru hér munu valda virknivandamálum.</li>
 <li>Þegar tafla er hluti af sýndarfyrirtæki, tapar það upplýsingar um uppruna gagnanna, og aðeins sýndarfyrirtæki er skráð.</li>
 </ul></td>
 </tr>

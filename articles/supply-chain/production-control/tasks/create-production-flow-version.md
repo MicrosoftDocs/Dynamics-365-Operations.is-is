@@ -3,7 +3,7 @@ title: "Stofna útgáfu framleiðsluflæðis"
 description: "Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð."
 author: cvocph
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 58b3c9cd265b97a814541315e4ba8378010eb2b2
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/29/2017
     * Veljið rekstrareiningu af gerðinni virðisstraumur. Virðisstraumur er rekstrareining sem nær yfir allar aðgerðir og flæði virðisstraumsins. Á þessu stigi takmarkast rekstrareiningar við lögaðila og hafa engin frekari aðgerðir.  
 7. Í reitnum Framleiðsluflokkur skal smella á fellilistahnappinn til að opna leitina.
 8. Í listanum skal smella á tengilinn í valinni línu.
-    * Veljið framleiðsluflokk fyrir framleiðsluflæðið. Framleiðsluflokkar leyfa skilgreiningu á efni, vinnu og VÍV-lyklum fyrir framleiðsluferli. Til að tengja bókhaldssamhengi við framleiðsluflæði verður að velja framleiðsluflokk.  
+    * Veljið framleiðsluflokk fyrir framleiðsluflæðið. Framleiðsluflokkar leyfa skilgreiningu á efni, vinnu og vív-lyklum fyrir framleiðsluferli. Til að tengja bókhaldssamhengi við framleiðsluflæði verður að velja framleiðsluflokk.  
 9. Smellið á „Vista“.
 
 ## <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis

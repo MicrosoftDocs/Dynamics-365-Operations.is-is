@@ -3,7 +3,7 @@ title: "Gantt-rit fyrir vinnsluröðun"
 description: "Framleiðendur geta stjórnað og hámarkað framleiðsluáætlanir með Gantt-ritum."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Gantt-línurit er myndræn framsetning á áætluðum verkþáttum innan tilgrei
 -   Vinnslur úr áætluðum framleiðslupöntunum.
 -   Verkþættir með áætlaðri vinnslu af gerðinni Tímaspár.
 
-Hægt er að opna Gantt-línuritið í tveimur mismunandi yfirlitum, **Yfirlit pantana** og **Yfirlit tilfanga**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)Í **Yfirlit pantana** eru verkþættir  flokkaðir í framleiðslupantanir. Þetta getur verið gagnlegt, til dæmis, ef óskað er að viðhalda yfirsýn yfir allar vinnslur sem tilheyra sömu pöntunum. Í **Yfirlit tilfanga** eru allar vinnslur flokkaðar í stök tilföng. Þetta yfirlit getur verið gagnlegt við hámörkun áætlunar á stigi framleiðslutilfanga, t.d. á vél eða flokki véla. Gantt-línuritin á skýringamyndunum fyrir neðan sýna **Yfirlit pantana** og **Yfirlit tilfanga** með þessum aðalþáttum:
+Hægt er að opna Gantt-línuritið á tveimur skjám **Pantanayfirlit** og **Forðayfirlit**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Í **Pantanayfirlit** er virkni flokkuð undir framleiðslupöntunum. Þetta getur verið gagnlegt, til dæmis, ef óskað er að viðhalda yfirsýn yfir allar vinnslur sem tilheyra sömu pöntunum. Í **Yfirlit tilfanga** eru allar vinnslur flokkaðar í stök tilföng. Þetta yfirlit getur verið gagnlegt við hámörkun áætlunar á stigi framleiðslutilfanga, t.d. á vél eða flokki véla. Gantt-línuritin á skýringamyndunum fyrir neðan sýna **Yfirlit pantana** og **Yfirlit tilfanga** með þessum aðalþáttum:
 
 1.  Verkþáttur Gantt-línurits
 2.  Efnisskortur tákn
@@ -151,10 +151,12 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 | **Tilföng**                                                                                 | Á síðunni **Tilföng** síðu er hægt að opna gantt-línurit úr valmyndaratriði **gantt-línuritið**. Þegar valið hlaðast allar vinnslur sem eru áætlaðar í tilföngum valins tímabils í línuritið.                                                                                                                                                                                                                                                                                                   |
 | **Tilfangaflokkur**                                                                           | Á síðunni **Tilfangahópur** er hægt að opna gantt-línurit úr valmyndaratriði **gantt-línuritið**. Þegar valið verða allar vinnslur sem eru áætlaðar í tilföngum í tilfangahópnum sýndar á völdu tímabili.                                                                                                                                                                                                                                                                                    |
 | **Gantt-línurit**                                                                             | Á síðunni **Gantt-línurit** er hægt að skilgreina Gantt gröf tilföng og tilfangið flokkana. T.d. ef óskað er að stjórna framleiðsluverkþætti fyrir tiltekið svið tilfangið flokkana eða tilföng, þá er hægt að gera einstaka afbrigði þær á þá **Gantt-línurit** síðu. Síðan er hægt að opna gantt-línurit úr hverri skilgreiningu.                                                                                                                                                    |
-| **Tímaspár** (verk)                                                                 | Verkþáttum af gerðinni **Tímaspár** er hægt að vinnsluraða á tilföng. Á síðunni **Tímaspá** í valmyndinni **Áætlun** er hægt að opna gantt-ritinu í röð til að finna verkið raðað verkþætti af gerðinni tímaspá.                                                                                                                                                                                                                                                             |
+| **Tímaspár** (verk)                                                                 | Verkþáttum af gerðinni **Tímaspár** er hægt að vinnsluraða á tilföng. Á **Tímaspá** síðunni á **Röðun** valmyndinni er hægt að opna Gantt-línuritið á pöntun til að sjá tímaspá fyrir vinnsluröðun verkþátta.                                                                                                                                                                                                                                                             |
 | **Vinnslur til að ljúka** (Listann **Framleiðslu hæð stjórnun** vinnusvæði)                      | Vinnusvæðið **Vinnslur á listann í gólf stjórnun** sýnir störf framleiðslu- og rununúmer pantana sem eru í gangi í völdu tilföng fyrir það. Á valmyndatriðinu **gantt-línuritið** er hægt að opna gantt-ritinu, þar sem allar vinnslur sem eru valin í listanum eru settar í línuritinu.                                                                                                                                                                                |
 | **Framleiðslupantanir til að losa** (Opnuð á **Framleiðslu hæð stjórnun** vinnusvæði) | Síðan Framleiðslupantanir til að losa er opnuð á vinnusvæðinu **Framleiðslu hæð stjórnun**. Þessi síða sýnir áætlaðar framleiðslu- og runupantanir sem bíða útgáfu. Á þessari síðu er hægt að opna gantt-rit fyrir valdar framleiðslupantanir.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Sjá einnig  
 [Sjónrænar áætlanir með Gantt-línuritum fyrir framleiðslu og runupantanir (myndskeið)](https://youtu.be/BtbuShkGj4I)
+
+[Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

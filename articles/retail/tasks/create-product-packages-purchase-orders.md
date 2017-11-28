@@ -3,7 +3,7 @@ title: " Stofna afurðapakka fyrir innkaupapantanir"
 description: "Þetta ferli fer í gegnum stofna Umbúðir afurðar og nota það í innkaupapöntun."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 9d3ea8702c79d8aa6bb7cf7caa922277697610fa
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Stofna afurðapakka fyrir innkaupapantanir
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/29/2017
 20. Smellið á „Vista“.
 21. Lokið síðunni.
 
-## <a name="add-package-to-puchase-order"></a>Bæta umbúðum við innkaupapöntun
+## <a name="add-package-to-purchase-order"></a>Bæta umbúðum við innkaupapöntun
 1. Fara í Viðskiptaskuldir > Innkaupapantanir > Allar innkaupapantanir.
 2. Smellið á „Nýtt“.
 3. Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.

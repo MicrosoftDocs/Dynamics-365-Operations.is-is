@@ -1,16 +1,16 @@
 ---
 title: "Hjálparyfirlit"
-description: "Þessi grein veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki."
+description: "Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,21 +18,21 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Hjálparyfirlit
+# <a name="help-system-overview"></a>Yfirlit yfir hjálparkerfi
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
+Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
 
 > [!NOTE] 
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise útgáfa; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 Eftirfarandi vörur samnýta Hjálparkerfið:
 - Dynamics 365 for Finance and Operations, Enterprise
@@ -69,16 +69,17 @@ Við fáum mikið af spurningum um hvernig á að leita að efni okkar. Ef þú 
 
 Einnig er hægt að finna okkar efni með hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á svæðum, svo sem site:docs.microsoft.com dynamics 365 „leitarorð".  
 
-![Leita á svæðum](./media/site-search-1.png)
-
-![Leitarniðurstöður svæðis](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>Yfirlitið docs.microsoft.com
-Allar vörur deila einu efnisyfirliti á docs-svæðinu, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru að skoða. Það gerir það einnig mögulegt að nota stýringuna Sía til að finna efnisatriði sem verið er að leita að.
+Finance and Operations, Retail, og Talent deila öllum einu efnisyfirliti á skjalasíðunni, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru í. Það gerir þér einnig kleift að nota Afmörkunarstýringu fyrir ofan efnisyfirlitið til að finna efnisatriðin sem leitar að.
 
-### <a name="how-can-i-contribute"></a>Hvernig geta ég lagt mitt af mörkum? 
+### <a name="follow-a-topic"></a>Fylgja efnisatriði
+Til að fylgja efnisatriði skaltu smella á +Fylgja hnappinn fyrir neðan athugasemdareitinn. Þú verður að skrá þig inn til að fylgja efnisatriðinu. Upplýsingar má sjá í [Skildu eftir athugasemd](#leave-us-a-comment).  
 
-Skiljið eftir athugasemd 
+### <a name="give-feedback"></a>Láttu í ljós viðbrögð 
+Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub.
+
+##### <a name="leave-us-a-comment"></a>Skildu eftir athugasemd 
+Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.  
 
 1 Smellið á **Athugasemdir** til að sjá athugasemd neðst á síðunni.
 
@@ -98,7 +99,20 @@ Sláðu inn netfang hér til hægri og nýtt aðgangsorð til að búa til nýja
 ![Innskráningarvalkostir](./media/signin-options.png)
 
 
-## <a name="task-guides"></a>Verkefnaleiðbeiningar
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Leggja til breytingar eða leggja fram efni í gegnum GitHub
+Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda.  Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar. Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.  
+
+Til að byrja, smelltu á **Breyta** (blýantur) hnappinn á efnisatriði, eða farðu í geymsluna okkar á https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Nánari upplýsingar er að finna í leiðeiningar fyrir þátttakanda: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Við munum aðeins samþykkja framlög til enskar geymslur okkar á þessum tíma.  
+> Við samþykkjum ekki Álitamál sem tilkynnt eru í gegnum GitHub - vertu viss um að nota áhrifsbeiðni um efnistillögur. Viðbrögð tengd vöru og eiginleikum eru best meðhöndluð gegnum Dynamics 365 Hugmyndagátt: https://ideas.dynamics.com/ideas/. 
+
+
+## <a name="task-guides"></a>Verkleiðbeiningar
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu. Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið. Staðfært verkleiðbeiningar eru nú í boði. 
 
 Við munum bjóða upp á mismunandi verkefnaleiðbeiningar fyrir hverja vöru, eins og Dynamics 365 for Retail, Dynamics 365 for Finance and Operations, og Dynamics 365 for Talent. Hlutinn Aðgangur að verkefnaleiðbeiningum í hjálparsvæðinu lýsir hvernig á að finna rétta verkefnaleiðbeiningu fyrir vöruna þína. 
@@ -164,7 +178,7 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hj�
 
 ### <a name="where-are-the-translated-task-guides"></a>Hvar eru þýddu verkefnaleiðbeiningarnar?
 
-Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum. Ef þú ert að nota Finance and Operations og vilt sjá staðbundna verkefnahjálp þarftu að ganga úr skugga um að þú sért tengd(ur) við viðeigandi safn. Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **Kjörstillingar**. 
+Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum. Í Finance and Operations, til að sjá staðfærða hjálp verkleiðbeininga, skal tryggja að þú sért tengd við viðeigandi safn. Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **Kjörstillingar**. 
 -   Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.
 -   Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.
 
@@ -196,9 +210,4 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hj�
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

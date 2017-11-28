@@ -1,9 +1,9 @@
 ---
 title: "Vegið meðaltal dagsetningar"
-description: 
+description: "Dagsetning vegins meðaltals er birgðalíkan byggt á reglunni um vegið meðaltal þar sem innhreyfingar úr birgðum eru metnar á meðaltalsgildi vara sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Dagsetning vegins meðaltals er birgðalíkan sem byggist á reglunni um vegið meðaltal. Fyrir regluna um vegið meðaltal eru atriði úr birgðalíkani metin á meðaltalsvirði hlutanna sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu. 
 
-Dagsetning vegins meðaltals er birgðalíkan sem byggist á reglunni um vegið meðaltal. Fyrir regluna um vegið meðaltal eru atriði úr birgðalíkani metin á meðaltalsvirði hlutanna sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu. Þegar birgðalokun með dagsetningu vegins meðaltals er keyrð, eru allar daglegar úthreyfingar jafnaðar gagnvart sýndarúthreyfingu. Þessi sýndarúthreyfing geymir heildar móttekið magn og virði fyrir þann dag. Sýndarinnhreyfingin hefur samsvarandi sýndarúthreyfingu sem innhreyfingar verða jafnaðar við. Þannig fá allar úthreyfingar sama meðaltalskostnað. Sýndarúthreyfingu og -innhreyfingu er hægt að sjá sem sýndarflutning sem kallast *birgðalokunarfærsla með vegnu meðaltali*. 
+Þegar birgðalokun með dagsetningu vegins meðaltals er keyrð, eru allar daglegar úthreyfingar jafnaðar gagnvart sýndarúthreyfingu. Þessi sýndarúthreyfing geymir heildar móttekið magn og virði fyrir þann dag. Sýndarinnhreyfingin hefur samsvarandi sýndarúthreyfingu sem innhreyfingar verða jafnaðar við. Þannig fá allar úthreyfingar sama meðaltalskostnað. Sýndarúthreyfingu og -innhreyfingu er hægt að sjá sem sýndarflutning sem kallast *birgðalokunarfærsla með vegnu meðaltali*. 
 
 Ef einungis ein úthreyfing hefur orðið á eða fyrir dagsetninguna, þarf ekki að meta meðaltal. Þar sem allar innhreyfingar eru jafnaðar út frá þeirri úthreyfingu þarf ekki að stofna sýndarflutning. Ef einungis innhreyfingar verða á dagsetningunni, eru að sama skapi engar úthreyfingar til að meta meðaltal út frá og þá verður sýndarflutningur ekki heldur stofnaður í því tilfelli. Þegar vegið meðaltal er notað geturðu valið að merkja birgðafærslur svo að tiltekin innhreyfing vöru sé jöfnuð gagnvart tiltekinni úthreyfingu í stað þess að nota regluna um vegið meðaltal. Í þessu tilfelli er ekki notuð reglan um dagsetningu vegins meðaltals. Mælt er með mánaðarlegri birgðalokun þegar birgðalíkanið dagsetning vegins meðaltals er notað. 
 
@@ -104,7 +105,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   1a. Efnisleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   1b. Fjárhagsleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   2a. Efnisleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
--   2a. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
+-   2b. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
 
 Kerfið notar beina jöfnun fyrir dag 1. 
 

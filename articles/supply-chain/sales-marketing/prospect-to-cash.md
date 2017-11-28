@@ -3,7 +3,7 @@ title: Prospect to cash
 description: "Þetta efnisatriði veitir yfirlit yfir Prospect to cash milli Dynamics 365 for Finance and Operations, Enterprise Edition og Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: a5f1ecd5f8b46287839439a963e571531ae161a7
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -42,25 +42,39 @@ Prospect to cash lausnin notar [Gagnasamþættingu](/common-data-service/entity-
 -   [Búa til sölupantanir í Finance and Operations og samstilla þær við Sales](sales-order-template-mapping.md)
 -   [Búa til sölureikninga í Finance and Operations og samstilla þá við Sales](sales-invoice-template-mapping.md)
 
+Þessi lausn veitir beina samstillingu á eftirfarandi sviðum:
+
+-   [Viðhalda reikningum í Sales og samstilla þá beint úr Sales við Finance and Operations](accounts-template-mapping-direct.md)
+-   [Viðhalda vörum í Finance and Operations og samstilla þær beint við Sales](products-template-mapping-direct.md)
+-   [Viðhalda tengiliðum í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Finance and Operations](contacts-template-mapping-direct.md)
+-   [Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+-   [Búa til sölupantanir í Finance and Operations og samstilla þær beint við Sales](sales-order-template-mapping-direct.md)
+-  [Samstilla hausa og línur sölupöntunar beint úr Sales við Finance and Operations](sales-order-template-mapping-between-sales-fin.md)
+-   [Samstilla sölupantanir beint úr Sales við Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+-   [Búa til sölureikninga í Finance and Operations og samstilla þá beint við Sales](sales-invoice-template-mapping-direct.md)
+
+
 ## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Kerfiskröfur fyrir Dynamics 365 for Finance and Operations, Enterprise Edition
 
 Eftirfarandi verður að setja upp áður en Prospect to cash er notað:
 
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (July 2017) með verkvangsuppfærslu 8 (App 7.2.11792.56024 w/ Platform 7.0.4565.16212)
 
-- Tvær bráðabætur fyrir Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017).
+- Bráðabætur fyrir Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017).
+        
+    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) - Þessi bráðabót gerir samstillingu sölupantana við gagnasamþættingarkost mögulegan úr Sales í Finance and Operations, auk fjölda annarra viðbóta.
 
     -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) - Þessi bráðabót gerir samstillingu sölupöntunarlína við gagnasamþættingarkost mögulegan frá Finance and Operations við Sales.
         
     -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)- Þessi bráðabót gerir samstillingu sölupantana við gagnasamþættingarkost mögulegan frá Finance and Operations við Sales.
-    
-**Athugaðu**: Þú þarft aðeins að setja upp KB4036524 vegna þess að uppsetningin inniheldur breytingar frá KB4036461.
+
+**Athugaðu**: Þú þarft aðeins að setja upp KB4045570 vegna þess að uppsetningin inniheldur breytingar frá öðrum KB.
  
 ## <a name="system-requirements-for-dynamics-365-for-sales"></a>Kerfiskröfur fyrir Dynamics 365 for Sales
 
 Eftirfarandi verður að setja upp áður en Prospect to cash er notað:
 
-- Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu eða nýrri.
+- Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu.
 - Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.14.0.0 (v14) eða nýrri.
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Settu upp Prospect to cash lausn fyrir Sales

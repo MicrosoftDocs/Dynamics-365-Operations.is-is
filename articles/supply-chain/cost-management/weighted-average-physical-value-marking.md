@@ -1,9 +1,9 @@
 ---
-title: "Vegið meðaltal með efnislegu virði og marki"
-description: 
+title: "Vegið meðaltal með efnislegt virði og merkingu"
+description: "Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,20 +20,20 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegu virði og marki
+# <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili.
 
 Þegar birgðalokun er keyrð eru allar móttökur jafnaðar gagnvart sýndarúthreyfingum sem geyma heildar mótekið magn og virði. Þessi sýndarúthreyfing hefur samsvarandi sýndarinnhreyfingu þaðan sem úthreyfingar eru jafnaðar. Þannig fá allar úthreyfingar sama meðalkostnað. Sýndarúthreyfinguna og -innhreyfinguna er hægt að sjá sem sýndarfærslu sem kallast flutningur fyrir vegið meðaltal birgðalokunar
 
@@ -96,7 +96,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 -   2a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 12,00 USD hver.
 -   2b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   3a. Efnisleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
--   3a. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
+-   3b. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
 -   4a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,00 USD hver.
 -   4b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   5. Birgðalokun er framkvæmd.
@@ -202,7 +202,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.

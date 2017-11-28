@@ -1,6 +1,6 @@
 ---
 title: "Áður en þú kaupir"
-description: "Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 for Finance and Operations, Enterprise útgáfu."
+description: "Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 for Finance and Operations, Enterprise edition."
 author: margoc
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Þekkirðu ekki Dynamics 365 for Finance and Operations, Enterprise útgáfu? Við höfum sett saman nákvæmar leiðbeiningar hvort sem þú ert enn að meta Finance and Operations eða tilbúin(n) að festa kaup á því.
+Þekkirðu ekki Dynamics 365 for Finance and Operations, Enterprise edition? Við höfum sett saman nákvæmar leiðbeiningar hvort sem þú ert enn að meta Finance and Operations eða tilbúin(n) að festa kaup á því.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Skref eitt:  Prófaðu Finance and Operations ókeypis í 30 daga
 Þú getur prófað Dynamics 365 for Finance and Operations í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Fáðu upplýsingar á [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
-Nú getur þú sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu í skýi eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
+Nú getur þú sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise edition í skýi eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
 Nánari upplýsingar er að finna á: [Virkjunarvalkostir](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Skref þrjú: Kaupa og hafa umsjón með áskrift
@@ -60,7 +60,7 @@ Fyrir magnleyfi er Finance and Operations tiltækt í gegnum:
 Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilja þarfir fyrirtækisins þíns. [Notaðu samstarfsaðilagátt Microsoft til að finna samstarfsaðila sem uppfyllir þínar þarfir](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kaupa í gegnum Dynamics samstarfsaðila (á staðnum)
-Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Frekari upplýsingar er að finna á [Kaupa Dynamics 365 for Finance and Operations, Enterprise útgáfu (á staðnum)](purchase-on-premises.md)
+Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Frekari upplýsingar er að finna á [Kaupa Dynamics 365 for Finance and Operations, Enterprise edition (á staðnum)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Veldu þinn stuðningsvalkost
 Microsoft býður upp á sveigjanlegan og framúrskarandi stuðning, þjónustu og tilföng sem gera notendum kleift að leysa tæknileg vandamál hratt og fá sem mest út úr fjárfestingunni í Dynamics 365. Veldu áætlun sem best uppfyllir þínar viðskiptakröfur. 

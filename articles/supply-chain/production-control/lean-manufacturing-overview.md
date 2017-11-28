@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 34ce76fa0102d25161ca9db508f4286fee62902c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 2964083ec6cb8792e3c67722c68b038939933cbc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu.
+Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Lean-framleiðsla býður upp á verkfæri sem hægt er að nota til að móta lean-aðgerðir. Þessar verkfæri styðja og ýta undir eftirfarandi hugtök og verkþætti viðskipta:
 -   Stofna lean-framleiðslufyrirtæki með því að móta framleiðslu- og vörustjórnunarferli sem framleiðsluflæði.
