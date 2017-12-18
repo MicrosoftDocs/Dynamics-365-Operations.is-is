@@ -2,6 +2,8 @@
 
 # [Hafist handa](talent-get-started.md)
 ## [Kerfiskröfur og uppfærsluregla](talent-versions-update-policy.md)
+## [Úthluta Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Stækka virkni Talent](extend-talent-functionality.md)
 
 # [Þróun mannauðsáætlunar](departments-jobs-positions.md)
 ## [Uppsetning starfsþátta](create-job.md)

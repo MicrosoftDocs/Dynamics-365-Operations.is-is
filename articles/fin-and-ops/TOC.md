@@ -10,6 +10,7 @@
 ##### [Kerfiskröfur fyrir uppsetningu í skýi](get-started/system-requirements.md)
 ##### [Notkun á staðnum](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Kerfiskröfur fyrir uppsetningu á staðnum](get-started/system-requirements-on-prem.md)
+##### [Vöruhús fyrir uppsetningu á staðnum](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Kaupa Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [AX 2012 eiginleikar sem var frestað](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](get-started/features-not-implemented-on-prem.md)
 #### [Lifecycle-stefna](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Verkvangs update 11 (október 2017)](get-started/whats-new-platform-update-11.md)
-#### [Verkvangs update 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
+#### [Verkvangsuppfærsla 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
+#### [Verkvangsuppfærsla 11 (október 2017)](get-started/whats-new-platform-update-11.md)
+#### [Verkvangsuppfærsla 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (júlí 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [Verkvangsuppfærsla 9 (júlí 2017)](get-started/whats-new-platform-update-9.md)
 #### [Verkvangsuppfærsla 8 (júní 2017)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [Verkefnaleiðbeiningar fyrir febrúar 2016](get-started/new-task-guides-available-february-2016.md)
 
 ### Notandaviðmót skoðað
+#### [Aðgengiseiginleikar](get-started/accessibility-features.md)
 #### [Algengar spurningar um notandaviðmót biðlara](get-started/client-faq.md)
 #### [Aðgerðaleit](get-started/action-search.md)
 #### [Ítarleg sía og málskipan fyrirspurna](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [Stilla æskilegt tímabelti notanda](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Kynning á Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Hjálp og þjónusta
+### Lesið og keyrið fylgiskjölin
 #### [Hjálparyfirlit](get-started/help-overview.md)
 #### [Tengihjálp](get-started/help-connect.md)
 #### [Skoðun og útflutningur svæðalýsinga](get-started/view-export-field-descriptions.md)
@@ -152,19 +155,23 @@
 
 #### [Samþætting gagna með Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Skilgreina aðstæðurnar viðfang til sjóðstreymis](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Samstilla afurðir úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Samstilla lykla úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Samstilla tengiliði úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Samstilla hausa og línur sölutilboðs úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Samstilla hausa og línur sölupöntunar úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Samstilla hausa og línur sölureiknings úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Samstilla afurðir beint úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Samstilla hausa og línur sölupöntunar beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Vinna með lykla í Sales og samstilla þá beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Vinna með afurðir í Finance and Operations og samstilla þær beint við Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Samstilla sölutilboð beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Samstilla sölupantanir beint úr Finance and Operations við Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Samstilla sölupantanir beint milli Sales og Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Samstilla sölureikninga beint úr Finance and Operations við Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Vinna með lykla í Sales og samstilla þá við Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Vinna með tengiliði í Sales og samstilla þá við Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Vinna með afurðir í Finance and Operations og samstilla þær við Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Stofna sölutilboð í Sales og samstilla þau við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Stofna sölupantanir í Finance and Operations og samstilla þær við Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Stofna sölureikninga í Finance and Operations og samstilla þá við Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
 
-#### [Tenging ytri vefþjónustu](../dev-itpro/data-entities/consume-external-web-service.md)
+
+
+#### [Notkun ytri vefþjónustu](../dev-itpro/data-entities/consume-external-web-service.md)
 
 
 ## [Gagnastjórnun](../dev-itpro/data-entities/data-entities-data-packages.md)
@@ -894,6 +901,7 @@
 ##### [Svartlistaskýrsla](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Færsludagsetning](../financials/localizations/emea-ita-competence-date.md)
 ##### [Afskrift eigna](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Staðfesting dagsetningar fylgiseðils á reikningum](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [VSK-bækur](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Skipting greiðslu fyrir reikninga sem sendir eru til hins opinbera](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Aðaláætlanagerð
+## [Aðaláætlanagerð](../supply-chain/master-planning/master-planning-home-page.md)
+### [Aðaláætlun](../supply-chain/master-planning/master-plans.md)
+#### [Þekjustillingar](../supply-chain/master-planning/coverage-settings.md)
+#### [Skilgreina þekjureglur fyrir vörur (verkleiðbeiningar)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Mynda áætlun með skorðum (verkleiðbeiningar)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Búa til efnisáætlun fyrir aukaafurðir (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Vinna með áætlaðar pantanir](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Afgreiða seinkanir](../supply-chain/master-planning/delays.md)
+#### [Rakning niðurbrots](../supply-chain/master-planning/trace-explosion.md)
+#### [Aðgerðaboð](../supply-chain/master-planning/action-messages.md)
+#### [Fylgjast með aðaláætlunarkeyrslu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Stofna dagskrá fyrir svæði (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Stofna áætlun fyrir svæði (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Aðaláætlanir og virkni á mörgum svæðum](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Áætlun fyrir þekju svæðis, vöruhús áskilið](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Áætlun fyrir þekju svæðis, vöruhús ekki áskilið](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Áætlun fyrir þekju svæðis og vöruhúss, vöruhús áskilið](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Áætlun fyrir þekju svæðis og vöruhúss, vöruhús ekki áskilið](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [Uppskriftarútgáfa ákvörðuð](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [Niðurbrot uppskriftarútgáfu](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Búa til áætlun innan samstæðu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Skoða áætlaða eftirspurn á útleið innan samstæðu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Vinna með birgjum innri aðfangakeðju (verkleiðbeiningar)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Eftirspurnarspá](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Uppsetning eftirspurnarspár](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Flytja inn eldri gögn fyrir eftirspurnarspár](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Minnkunarlyklar](../supply-chain/master-planning/reduction-keys.md)
 #### [Stofna grunnlínuspá (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Breyta eftirspurnarspá handvirkt (verkleiðbeiningar)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Áætlun](../supply-chain/master-planning/master-plans.md)
-#### [Þekjustillingar](../supply-chain/master-planning/coverage-settings.md)
-#### [Viðhald áætlaðra pantana](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Seinkanir](../supply-chain/master-planning/delays.md)
-#### [Aðgerðaboð](../supply-chain/master-planning/action-messages.md)
-#### [Rakning niðurbrots](../supply-chain/master-planning/trace-explosion.md)
-#### [Aðaláætlanir og virkni á mörgum svæðum](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Áætlun fyrir þekju svæðis, vöruhús áskilið](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Áætlun fyrir þekju svæðis, vöruhús ekki áskilið](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Áætlun fyrir þekju svæðis og vöruhúss, vöruhús áskilið](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Áætlun fyrir þekju svæðis og vöruhúss, vöruhús ekki áskilið](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [Uppskriftarútgáfa ákvörðuð](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [Niðurbrot uppskriftarútgáfu](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Fylgjast með aðaláætlunarkeyrslu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Skilgreina þekjureglur fyrir vörur (verkleiðbeiningar)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Stofna áætlun fyrir svæði (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Stofna dagskrá fyrir svæði (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Mynda áætlun með skorðum (verkleiðbeiningar)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Búa til áætlun innan samstæðu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Búa til efnisáætlun fyrir aukaafurðir (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Skoða áætlaða eftirspurn á útleið innan samstæðu (verkleiðbeiningar)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Vinna með birgjum innri aðfangakeðju (verkleiðbeiningar)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Fartækjaforrit](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1851,9 +1858,9 @@
 #### [Setja upp endurúthlutun fyrir stutta vörutiltekt](../supply-chain/warehousing/tasks/set-up-short-picking-item-reallocation.md)
 #### [Setja upp vinnureglur vöruhúss ](../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md)
 #### [Setja upp vinnusniðmát fyrir innkaupapantanir](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
-#### [Áætla farm og sendingar með vinnusvæðinu „Farmáætlun“](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
+#### [Áætla farm og sendingar með vinnusvæðinu Farmáætlun](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Þróun og stjórnun](../dev-itpro/toc.md)
+# [Þróun og stjórnun fyrir Finance and Operations](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
