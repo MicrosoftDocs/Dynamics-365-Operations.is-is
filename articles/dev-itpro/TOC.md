@@ -124,6 +124,7 @@
 #### [Skrá undirklasa fyrir verksmiðjuaðferðir](extensibility/register-subclass-factory-methods.md)
 #### [Svara með EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [RunBase-klasi stækkaður](extensibility/extend-runbase-class.md)
+#### [Nota fulltrúa til að sérstilla ræsingu forrits](extensibility/startup-customizations.md)
 #### [Breyta fyrirliggjandi svæði í töflu](extensibility/modify-existing-field.md)
 #### [Bæta nýju svæði við fyrirliggjandi töflu](extensibility/add-field-extension.md)
 #### [Bæta atriðaskrá við fyrirliggjandi töflu](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [Setja upp og nota staðbundið umhverfi](deployment/setup-deploy-on-premises-environments.md)
 ### [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Nota uppfærslur fyrir uppsetningu á staðnum](deployment/apply-updates-on-premises.md)
+### [Setja uppsetningu á staðnum aftur upp](deployment/redeploy-on-prem.md)
+### [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise edition á staðnum](deployment/troubleshoot-on-prem.md)
 
 ## Setja upp sérsniðinn kóða
 ### [Virkjanlegur pakki búinn til](deployment/create-apply-deployable-package.md)
-### [Virkjanlegur pakki notaður](deployment/apply-deployable-package-system.md)
+### [Nota uppfærslur á umhverfi í skýi](deployment/apply-deployable-package-system.md)
 ### [Uppsetning virkjanlegs pakka](deployment/install-deployable-package.md)
 ### [Úrræðaleit vegna vandamála í forritapakka](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Uppfæra í nýjustu uppfærslu
 ### [Ferli fyrir flutning í nýjustu uppfærslu](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-stefna](migration-upgrade/versions-update-policy.md)
-### [Uppfærsla í nýjustu uppfærslu verkvangs](migration-upgrade/upgrade-latest-platform-update.md)
+### [Nota nýjustu uppfærslu verkvangs á umhverfi](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Uppfærsla Dynamics-verkvangsins í ágúst-útgáfu 2016](migration-upgrade/update-platform-each-release.md)
 ### [Uppfærsla sandkassaumhverfis](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Uppfærsla gagna í þróunar- eða sýniútgáfuumhverfi](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Uppfærsla þróunarverkfæra](dev-tools/update-development-tools.md)
+### [Nota uppfærslur fyrir uppsetningu á staðnum](deployment/apply-updates-on-premises.md)
+### [Setja uppsetningu á staðnum aftur upp](deployment/redeploy-on-prem.md)
 
 ## Bráðabætur og þjónusta
 ### [Niðurhal bráðabóta af Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Samnýting gagna milli fyrirtækja](sysadmin/cross-company-data-sharing.md)
 ## [Viðhaldsstilling](sysadmin/maintenance-mode.md)
 ## [Forstillir kerfisreikningar](sysadmin/pre-configured-system-accounts.md)
+## [Flytja notendur milli fyrirtækja í Azure AD](sysadmin/implement-b2b.md)
 ## [Öryggi byggt á hlutverkum](sysadmin/role-based-security.md)
 ### [Öryggisskipulag](sysadmin/security-architecture.md)
 ### [Öryggisskýrslur](sysadmin/security-reports.md)
