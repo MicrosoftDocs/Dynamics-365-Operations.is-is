@@ -3,7 +3,7 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microso
 
 |   |   |
 |---|---|
-| **Ástæða afskrifta**       | Gögn deildaskiptingar voru kynnt í Microsoft Dynamics AX 2012 R2 til að virkja einangrun gagna. Í almennum aðstæðum, er Fyrirtæki með dótturfyrirtæki og gögn úr eitt dótturfyrirtæki ætti ekki að vera sýnileg fyrir aðra dótturfyrirtæki, jafnvel þótt bæði dótturfyrirtækjum er stjórnað af sömu tæknideild. Hins vegar var þörf á aukalegar forskriftir og sameiginlegur kostnaður í forritinu til að stofna nýja deildaskiptingar og færa inn í þær gög, og afrita deildaskiptingar gagna. Í skýið, þar sem við höfum aðgang að verkvangur sem þjónusta (PaaS) gagnagrunnsþjónustu (Microsoft Azure SQL Gagnagrunnur), er mikið áhrifaríkara að nota í gagnagrunninn sem einangrunargeymi en að framkvæma einangrunina í forritinu. Óháð því hvort deildarskipging gagna er krafist fyrir dótturfyrirtæki, fyrir marga leigjendur, eða einfaldlega fyrir kvörðun, trúum við því að aðstæður megi meðhöndla betur með mörgum gagnagrunnum eða mörgum tilvikum Dynamics AX. |
-| **Skipt út fyrir aðra eiginleika?** | deildaskipting gagna verður skipt út fyrir stuðning við margar gagnagrunna eða Dynamics AX tilvik í framtíðarútgáfum.    |
+| **Ástæða afskrifta**       | Gögn deildaskiptingar voru kynnt í Microsoft Dynamics AX 2012 R2 til að virkja einangrun gagna. Í almennum aðstæðum, er Fyrirtæki með dótturfyrirtæki og gögn úr eitt dótturfyrirtæki ætti ekki að vera sýnileg fyrir aðra dótturfyrirtæki, jafnvel þótt bæði dótturfyrirtækjum er stjórnað af sömu tæknideild. Hins vegar var þörf á aukalegar forskriftir og sameiginlegur kostnaður í forritinu til að stofna nýja deildaskiptingar og færa inn í þær gög, og afrita deildaskiptingar gagna. Í skýið, þar sem við höfum aðgang að verkvangur sem þjónusta (PaaS) gagnagrunnsþjónustu (Microsoft Azure SQL Gagnagrunnur), er mikið áhrifaríkara að nota í gagnagrunninn sem einangrunargeymi en að framkvæma einangrunina í forritinu. Óháð því hvort deildaskipting gagna er krafist fyrir dótturfyrirtæki, fyrir marga leigjendur, eða einfaldlega fyrir kvörðun, trúum við því að aðstæður megi meðhöndla betur með mörgum tilvikum af Finance and Operations. |
+| **Skipt út fyrir aðra eiginleika?** | Viðskiptavinir sem nota deildaskiptingu gagna verða að nota mörg tilvik af Finance and Operations ef aðskilnaður gagnasafnsstiga er mikilvægt mál.    |
 | **Kerfi sem verða fyrir áhrifum**             | Allir  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Gagnagrunnur og geymsla fyrir samnýttar skár fyrir viðhengi

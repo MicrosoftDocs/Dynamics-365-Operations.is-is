@@ -3,7 +3,7 @@ title: "Flýtilyklar"
 description: "Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and Operations, Enterprise Edition"
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -33,6 +33,10 @@ ms.lasthandoff: 11/03/2017
 Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and Operations, Enterprise Edition 
 
 **Ábending:** Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarískst lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
+
+## <a name="finding-a-shorcut"></a>Að finna flýtilykil
+Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi tiltækar flýtileiðir beint frá notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni. 
+
 
 ## <a name="action-shortcuts"></a>Flýtileiðir
 |                                                   |                                  |
@@ -48,13 +52,14 @@ Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and 
 | Framkvæma sjálfgefinn hnapp á skjámynd/svarglugga   | Alt+færslulykill                        |
 | Smellið á hnapp eða reit                            | Enter eða Bil                   |
 | Skoða endurnýjunarupplýsingar fyrir talningarreit         | Alt+Uppör                     |
+| Skoða fyrirliggjandi tiltækar flýtileiðir                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Flýtileiðir dagsetningarvals
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Til að gera þetta**                        | **Styðjið á**                                 |
 | Opna dagsetningarval                  | Alt+Niðurör                            |
-| Flytja á milli dagsetninganna í dagsetningarvali | Ctrl+Örvatakkar                               |
+| Flytja á milli dagsetninganna í dagsetningarvali | Ctrl+Örvatakkar                           |
 | Færa í næsta/fyrri mánuð       | Síða niður / Síða upp                       |
 | Færa í næsta/fyrra ár        | Ctrl+Shift+Page Down / Ctrl+Shift+Page Up |
 | Fara á Í dag                         | Ctrl+Home                                 |
@@ -65,6 +70,7 @@ Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and 
 ## <a name="factbox-shortcuts"></a>Flýtivísanir upplýsingakassi
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Til að gera þetta**                                                                  | **Styðjið á**                                 |
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Alt+M,B eða Ctrl+F2                        |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |

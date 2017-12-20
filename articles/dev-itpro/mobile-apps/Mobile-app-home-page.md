@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <tr class="odd">
 <td>1</td>
 <td>Kerfisstjóri</td>
-<td>Innleiðing Finance and Operations eða Finance and Operations í fyrirtæki þínu.</td>
+<td>Innleiða Finance and Operations í þitt fyrirtæki.</td>
 <td><ul><li>Hafir þú enn ekki tekið í notkun útgáfu af Microsoft Dynamics 365, sjá <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
 </tr>
 <tr class="even">

@@ -3,7 +3,7 @@ title: "Birgðir á lager eftir fartækjavinnusvæði"
 description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Birgðir á lager. Þetta vinnusvæði hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6de8c45d6c27295a2b90cb72043d556455e65137
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c54f6f12e47ae0a185a7918517c7fd601f457fa4
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,8 +59,8 @@ Fartækjavinnusvæði tryggir einkum eftirfarandi eiginleika:
 ## <a name="prerequisites"></a>Frumskilyrði
 Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) 
-Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Lagerbirgðir**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Birgðir á lager**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar
 Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 

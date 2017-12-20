@@ -3,7 +3,7 @@ title: "Power BI-efni afkasta vöruhúss"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni afkasta vöruhúss. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Vöruhúsastjórnendur geta notað Power BI-efnið **Afköst vöruhúss** til a�
 -   **Nákvæmni staðsetningarbirgða** – Nákvæmni birgða er mikilvægt fyrir viðskiptagreind innri vöruhús (BI). Það er mjög mikilvægt að ákvarðað sé hversu nákvæmlega talning er almennt. Þó er einnig er mikilvægt að ákvarða hvernig nákvæmlega vörur eru geymdar á réttum stöðum, og að misræmisgögn séu auðkenn þannig að hægt sé að finna betri stöður fyrir vörur eða hefja allsherjartalningu á tilteknum vörum. (Eins og er, er nýja talningarvirknin afhent sem bráðabót.) Ef verið er að nota þetta Power BI-efni til að ákvarða nákvæmni lagerbirgða eftir staðsetningu, er einnig hægt að greina þjófnaði í verslunum. Einnig er hægt að ákvarða hvort staðsetningar hafa lagermagn sem er frábrugðið ERP (Enterprise Recource Planning). Staðsetningarnar gætu verið of stórar eða ómögulegt að telja. Einnig kunna sumar efnislegar staðsetningu að vera rangar, þannig að erfitt sé að hafa eina gerð vöru samstillta við gögn á lager.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Farið í Power BI-efnispakka
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) er **Afköst vöruhúss** Power BI efni sýnt á **Afköst vöruhúss** page (**Vöruhúsastjórnun** > **Fyrirspurnir og skýrslur** > **Greining á afköstum vöruhúss** > **Afköst vöruhúss**). 
+**Afköst vöruhúss** Power BI efni er sýnt á **Afköst vöruhúss** síða (**Vöruhúsastjórnun** > **Fyrirspurnir og skýrslur** > **Greining á afköstum vöruhúss** > **Afköst vöruhúss**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Power BI-efnið **Afköst vöruhúss** inniheldur skýrslu. Skýrslan samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efninu **Afköst vöruhúss**.

@@ -3,7 +3,7 @@ title: "Nota Excel innbót"
 description: "Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
-ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
+ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
+ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -104,17 +104,6 @@ Hægt er að nota hönnuðinn til að leiðrétta dálka sem er sjálfkrafa bæt
 
 4. Til að nota breytingarnar gagnagjafa skal velja **Uppfæra**. Svo skal velja **Lokið** til að fara úr hönnuði.
 5. Ef svæði (dálk) var bætt við, veljið **Endurnýja** til að sækja uppfærð gagnamengi.
-
-## <a name="copy-environment-data"></a>Afrita umhverfisgögn
-Gögnin sem eru lesin inn í vinnubókina úr einu umhverfi er hægt að afrita í annað umhverfi. Hins vegar er ekki hægt að breyta tengislóðinni vegna þess að gagnaskyndiminni í vinnubókinni mun halda áfram að meðhöndla gögnin sem fyrirliggjandi gögn. Þess í stað verður þú að nota virknina Afrita umhverfisgögn til að birta gögnin í nýju umhverfi sem ný gögn.
-
-1. Veljið **Valkostir** hnappinn (tannhjólstáknið), og svo **Gagnatengi** flipann **Afrita umhverfisgögn**.
-2. Gefa þarf upp vefslóð þjóns fyrir nýja umhverfið.
-3. Veljið **Í lagi** og svo **Já** til að staðfesta aðgerðina. Excel-innbót endurræsist og tengist við nýja umhverfið. Öll gögn sem eru í vinnubókinni eru meðhöndluð sem ný gögn.
-
-    Eftir að Excel viðbótin er endurræst birtist skilaboðareitur um að vinnubókin sé í Umhverfisafritun.
-
-4. Til að afrita gögnin í nýja umhverfið sem ný gögn skal velja **Birta**. Til að hætta við að umhverfisafritun og skoða núverandi gögn í nýju umhverfi skaltu velja **Uppfæra**.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 Það eru nokkur vandamál sem hægt er að leysa með nokkrum auðveldum skrefum.

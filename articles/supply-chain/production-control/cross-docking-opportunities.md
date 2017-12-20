@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Eins og stendur er aðeins hægt að skilgreina dreifingu frá dreifingarstöð 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Regluheiti dreifingar frá dreifingarstöð: Flutningspöntun
 
 -   Raðnúmer: 10
--   Gerð verkbeiðni: Flutningsútgáfa
+ -   Gerð verkbeiðni: Flutningsútgáfa
 -   Eftirspurn eftir dreifingu frá dreifingarstöð þarfnast staðsetningar: Rangt
 -   Áætlun fyrir dreifingu frá dreifingarstöð: Dagsetning og tími
 
@@ -102,10 +102,9 @@ Stefna fyrir dreifingu frá dreifingarstöð segir til um stefnu fyrir forgangsr
 6.  Stofna flutningspöntun Stofnaðu flutningspöntun fyrir vörunúmer L0101. Magn = 20.
 7.  Losaðu flutningspöntunina úr vinnusvæði hleðsluáætlunar. Veldu valmyndaratriðið fyrir vinnusvæði hleðsluáætlunar á flipanum **Senda** og á valmyndinni **Losun** í hleðslulínu skaltu velja **Losa í vörugeymslu**. Bylgjulína af gerðinni **Flutningsútgáfa** er nú til fyrir flutningspöntunina.
 8.  Stofna framleiðslupöntun Farðu á listasíðuna **Framleiðslupöntun** og stofnaðu framleiðslupöntun fyrir afurð L0101. Magn = 20. Áætlaðu og settu framleiðslupöntunina í gang. Athugaðu að reiturinn **Bóka tiltektarlistann nú** er áfram stilltur á **Nei**.
-9.  Skrá sem tilbúið úr fartæki. Farðu í gátt fartækisins og veldu valmyndaratriðið **Bóka sem tilbúið og ganga frá**. Skráðu nú sem fullunnið L0101 úr lófatækinu. Athugaðu að frágangsstaðsetning er **BAYDOOR**. Þessa staðsetningu er hægt að finna í staðsetningarleiðbeiningunum **Flutningsútgáfa** fyrir verkbeiðnigerðina **Frágangur**. Athugaðu einnig að verk af gerðinni **Flutningsútgáfa** hefur verið stofnað og því lokið. Farðu í upplýsingar um verk flutningspöntunar til að staðfesta verkið.
-10. Prófaðu nú að setja 20 stykki í viðbót í gang í framleiðslupöntun og prófaðu að skrá 20 ea sem fullunnin með því að nota lófatækið. Í þetta sinn er staðsetningin **LP 001** lögð til sem frágangsstaðsetning. Þessi staðsetning er fundin út frá staðsetningarleiðbeiningunum **Frágangur á fullunnum vörum**. Þessar staðsetningarleiðbeiningar eru notaðar vegna þess að ekkert tækifæri til dreifingar frá dreifingarstöð er til staðar. Flutningspöntunin fyrir LP-001 var uppfyllt að fullu af fyrsta verkþættinum fyrir dreifingu frá dreifingarstöð.
-
-Vinna af gerðinni **Frágangur á fullunnum vörum** var stofnuð og framkvæmd.
+9.  Skrá sem tilbúið úr fartæki. Farðu í gátt fartækisins og veldu valmyndaratriðið **Bóka sem tilbúið og ganga frá**. Skráðu nú sem fullunnið L0101 úr lófatækinu. Magn = 10. Athugaðu að frágangsstaðsetning er **BAYDOOR**. Þessa staðsetningu er hægt að finna í staðsetningarleiðbeiningunum **Flutningsútgáfa** fyrir verkbeiðnigerðina **Frágangur**. Athugaðu einnig að verk af gerðinni **Flutningsútgáfa** hefur verið stofnað og því lokið. Farðu í upplýsingar um verk flutningspöntunar til að staðfesta verkið.
+10. Tilkynntu nú um 10 stykki til viðbótar úr farsímanum. Athugaðu að frágangsstaðsetning aftur er **BAYDOOR**. Athugaðu einnig að nýtt verk af gerðinni **Flutningsútgáfa** hefur verið stofnað fyrir 10 stykki.
+11. Prófaðu nú að setja 20 stykki í viðbót í gang í framleiðslupöntun og prófaðu að skrá 20 ea sem fullunnin með því að nota lófatækið. Í þetta sinn er staðsetningin **LP 001** lögð til sem frágangsstaðsetning. Þessi staðsetning er fundin út frá staðsetningarleiðbeiningunum **Frágangur á fullunnum vörum**. Þessar staðsetningarleiðbeiningar eru notaðar vegna þess að ekkert tækifæri til dreifingar frá dreifingarstöð er til staðar. Flutningspöntunin fyrir LP-001 var algjörlega uppfyllt með tveimur dreifingaraðgerðum frá dreifingarstöð í 9. og 10. skrefi. Athugið að verk af gerðinni **Frágangur á fullunnum vörum** var stofnað og unnið.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Dæmi 2 - Dreifing frá dreifingarstöð frá framleiðslu í flutningspantanir með verkröðun.
 
@@ -123,7 +122,7 @@ Vinna af gerðinni **Frágangur á fullunnum vörum** var stofnuð og framkvæmd
 
 ### <a name="additional-information"></a>Viðbótarupplýsingar
 
--   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi.
+-   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi. 
 
 
 
