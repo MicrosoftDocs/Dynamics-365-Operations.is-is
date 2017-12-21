@@ -1,6 +1,6 @@
 ---
 title: "Samstilling sölupöntunar beint úr Sales við Finance and Operations"
-description: "Þetta efnisatriði ræðir sniðmát og undirliggjandi verk sem eru notuð til að keyra tvíátta samstillingu hausa sölureikninga úr beint Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði ræðir sniðmát og undirliggjandi verk sem eru notuð til að keyra tvíátta samstillingu hausa sölureikninga úr beint Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
 Til að opna fyrirliggjandi sniðmát skaltu opna [PowerApps Admin Center](https://preview.admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
 
-Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að keyra tveggja þátta samstillingu hausa og línur sölupöntunar beint milli Sales og Finance and Operations:
+Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að keyra samstillingu sölupöntunar beint milli Sales og Finance and Operations:
 
 - **Heiti sniðmátsins í Gagnaflutningi:** 
 
@@ -162,7 +162,7 @@ Staða sölupöntunar verður áfram **Virk** til að tryggja að gjöld úr Fin
 
     Sniðmátsgildi með gildisvörpun er skilgreint fyrir **SalesUnitSymbol** í **oumid.name**.
 
-## <a name="template-mapping-in-data-integration"></a>Template mapping in Data integration
+## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
 > [!NOTE]
 > Reitirnir **Greiðsluskilmálar**, **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.

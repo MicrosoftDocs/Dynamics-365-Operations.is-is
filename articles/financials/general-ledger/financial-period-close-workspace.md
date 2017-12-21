@@ -3,7 +3,7 @@ title: "Vinnusvæði lokunar fjárhagstímabils"
 description: "Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Hægt er að úthluta verki í sniðmátinu einu eða fleiri fyrirtækjum þar s
 
 Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja verkefni lokun til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir á tengdri síðu **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Einnig er hægt að tengja við ytri vefslóð. 
 
-> [Ábending]: Ef óskað er að tengja ákveðna Management Reporter skýrslu við lokunarverk fjárhagstímabils er hægt að nota vefslóð skýrslu. Til að fá aðgang að vefslóð skýrslu skal opna skýrsluna í skýrsluhönnun og smella síðan á **Skrá** &gt; **Skoða skýrslu** til að opna skýrsluna í vafra. Síðan er hægt að afrita vefslóð í aðseturslínunni í vafra og líma þau inn í **Verkefni tengil** **Vefslóð** svæði. 
+> [!TIP]
+> Ef óskað er að tengja ákveðna Management Reporter skýrslu við lokunarverk fjárhagstímabils er hægt að nota vefslóð skýrslu. Til að fá aðgang að vefslóð skýrslu skal opna skýrsluna í skýrsluhönnun og smella síðan á **Skrá** &gt; **Skoða skýrslu** til að opna skýrsluna í vafra. Síðan er hægt að afrita vefslóð í aðseturslínunni í vafra og líma þau inn í **Verkefni tengil** **Vefslóð** svæði. 
 
 Hægt er að skilgreina tengsl verks í sniðmátinu: Ef verk hefur verið sett upp með tengsl við eitt eða fleiri verkefni er ekki hægt að merkja það verk sem lokið fyrr en öllum tengslum er lokið. 
 

@@ -3,7 +3,7 @@ title: "Skráningarkenni"
 description: "Þetta efnisatriði gefur upplýsingar um uppsetningu og notkun skráningarkenna."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ Leit að aðilafærslum út frá skráningarkenni er í boði á skjámyndum sem
 | OGRN                                                          | Rússneska sambandsríkið| OGRN (lagagerð OGRN í AX 2012 R3) |
 | SNILS                                                         | Rússneska sambandsríkið| SNILS (lagagerð SNILS í AX 2012 R3)|
 | CIFTS                                                         | Rússneska sambandsríkið| CIFTS (lagagerð CIFTS í AX 2012 R3)|
+| Vegabréf                                                      | Spánn             | Vegabréf|
+| Opinbert auðkennisskírteini                              | Spánn             | Opinbert auðkennisskírteini|
+| Búsetuvottorð                                         | Spánn             | Búsetuvottorð|
+| Annars konar auðkennisskírteini                                 | Spánn             | Annars konar auðkennisskírteini|
+| Ekki talið                                                  | Spánn             | Ekki tiltækt í AX 2012 R3|
+
 
 Frekari upplýsingar um vinnslu skráningarkenna, þar á meðal áskildar forsendur, er að finna í eftirfarandi verkskráningum fyrir VSK-númer í Lifecycle Services (LCS):
 

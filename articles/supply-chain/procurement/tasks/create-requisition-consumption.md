@@ -3,7 +3,7 @@ title: "Stofna beiðni um notkun"
 description: "Þetta ferli fer í gegnum ferlið fyrir myndun á innkaupabeiðni."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
+ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
+ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Stofna beiðni um notkun
@@ -87,7 +87,7 @@ ms.lasthandoff: 11/03/2017
 2. Smellt er á Dreifa upphæðum.
     * Þetta ferli sýnir hvernig á að dreifa kostnaði í fyrstu línunni á milli 2 lykla. Einnig má gera það seinna þegar innkaupabeiðni er í yfirferð.  
 3. Smellt er á Skipta til að stofna nýja dreifingarlínu.
-4. Í svæðinu fjárhagslykill, veljið fyrst kostnaðarstaður sem á að taka hluta af kostnaðinum.
+4. Í svæðinu fjárhagslykill, veljið fyrst kostnaðarstaður sem á að taka þátt í kostnaðinum.
 5. Veljið aðra dreifingarlínuna.
 6. Í fjárhagslykil svæðinu, tilgreinið hitt kostnaðarstaðinn.
 7. Smellt er á Dreifa jafnt.

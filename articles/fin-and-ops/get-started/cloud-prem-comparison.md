@@ -3,7 +3,7 @@ title: "Samanburður á eiginleikum uppsetningar í skýi og á staðnum"
 description: "Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ ms.lasthandoff: 11/06/2017
 | | Sameining með PowerBI.com| Já | Númer |
 | | Greiningarvinnusvæði | Já | Númer |
 | | Snjallrekstrarferlar: Ráðleggingar´| Já | Númer |
+| | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri | Já | Númer |
+| | SQL Server Reporting Services (SSRS) styður kvörðun út  | Já | Númer |
+| | Telemetry er flutt í skýið | Já | Númer |
 | Birgðir| | Já | Já |
 | Lifecycle Services| | Já | Já |
 | | Skilgreinanlegir rekstrarferlar | Já | Númer |
@@ -86,7 +89,7 @@ ms.lasthandoff: 11/06/2017
 | Flutningsstjórnun| | Já | Já |
 | Samstarf lánardrottna| | Já | Já|
 | Vöruhúsakerfi| | Já | Já |
-| | Fartækjaforrit fyrir vöruhús| Já | Númer |
+| | Fartækjaforrit fyrir vöruhús| Já | Já |
 | | Power BI-skýrslur fyrir vöruhús| Já | Númer |
 | Vefbiðlari | | Já | Já |
 | | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni| Já | Númer |
@@ -103,6 +106,7 @@ ms.lasthandoff: 11/06/2017
 | Samhæfi kerfa  || Já | Já |
 | Þjónusta | | Já | Já |
 | | Þjónustuumhverfi | Já | Númer |
+| Rakningarþáttari og tímamælir fyrir afköst | | Já | Númer |
 | Uppfæra | | Já | Já |
 | | Uppfæra | Já | Númer |
 | | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já | Númer |
@@ -121,6 +125,8 @@ ms.lasthandoff: 11/06/2017
 |---|---|---|---|
 | Öll Talent-svæði | Allir Talent-eiginleikar | Já | Númer |
 
+## <a name="see-also"></a>Sjá einnig
 
+- [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](features-not-implemented-on-prem.md)
 
 

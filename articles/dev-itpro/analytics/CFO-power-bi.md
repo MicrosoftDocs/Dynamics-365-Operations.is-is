@@ -3,7 +3,7 @@ title: CFO-yfirlit - Power BI efni
 description: "Þetta efnisatriði lýsir CFO-yfirliti fyrir efni Microsoft Power BI"
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
 
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) eru skýrslur úr **CFO-yfirliti** Power BI efni birtar á vinnusvæðinu **CFO-yfirlit**.
+Skýrslur úr **CFO-yfirliti** Power BI efni eru birtar á vinnusvæðinu **CFO-yfirlit**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 **CFO yfirlit** í Power BI efninu er samsuða af skýrslum úr margvíslegu öðru efni Power BI, ásamt nokkrum raunstöðum og áætluðum stöðum fjárhagsáætlunar úr fjárhag. Þannig gefur þetta efni úr Power BI fjármálastjóra (CFO) yfirlit yfir fyrirtækið.

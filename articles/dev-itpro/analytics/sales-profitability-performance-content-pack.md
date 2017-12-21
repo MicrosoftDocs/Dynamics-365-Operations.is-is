@@ -3,7 +3,7 @@ title: "Power BI-efni fyrir söluframmistöðu og arðsemi"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni Sala og arðsemi. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Hægt er að greina arðsemi á eftirfarandi hátt:
 -   Arðsemi viðskiptavinar (eftir tekjum á móti brúttóframlegð)
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) er **Sölu- og arðsemisframmistaða** Power BI efni sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** > **Fyrirspurnir og skýrslur** > **Söluárangur** > **Sölu- og arðsemisframmistaða**). 
+**Sölu- og arðsemisframmistaða** Power BI efni er sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** > **Fyrirspurnir og skýrslur** > **Söluárangur** > **Sölu- og arðsemisframmistaða**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Í **Sölu- og afköst arðsemi** skýrsla sem samanstendur af safni mælikvörðum Power BI teknar með. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efninu.

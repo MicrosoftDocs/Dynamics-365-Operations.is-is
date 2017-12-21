@@ -3,7 +3,7 @@ title: "Efni Power BI eyðslugreining innkaupa"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI efninu Greining á innkaupaútgjöldum Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6485f36802fc4e327e223f47d65c4bdca11c1609
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Power BI efnið **Greining á innkaupaútgjöldum** var hannað til að auðveld
 Efnið notast við innkaupafærslugögn og gefur bæði samantekið yfirlit yfir innkaupatölur fyrirtækisins og sundurliðun á útgjöldum við innkaup eftir lánardrottnum og afurðum. Skýrslur auðkenna breytingar í útgjöldum innkaupa yfir tíma. Þannig má nota skýrslurnar til að gera stjórnendum viðvart um jákvæða og neikvæða útgjaldaþróun fyrir einstaka lánardrottna og afurðir. Ennfremur sýna gröf innkaupaútgjöld fyrir mismunandi innkaupaflokka og lánardrottnahópa. Því geta flokka- og svæðastjórnendur notað gröfin til að finna breytingar á útgjaldahegðun.
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017) er **Eyðslugreining innkaupa** Power BI efni sýnt á **Greining á innkaupum og eyðslu** síðunni (**Innkaup og aðföng** > **Fyrirspurnir og skýrslur** > **Greining á innkaupaárangri** > **Greining á innkaupum og eyðslu**). 
+**Eyðslugreining innkaupa** Power BI efni er sýnt á **Greining á innkaupum og eyðslu** síðunni (**Innkaup og aðföng** > **Fyrirspurnir og skýrslur** > **Greining á innkaupaárangri** > **Greining á innkaupum og eyðslu**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Power BI efnið **Greining á innkaupaútgjöldum** inniheldur skýrslu sem samanstendur af safni mæligilda. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Eftirfarandi tafla sýnir myndræna framsetningu.

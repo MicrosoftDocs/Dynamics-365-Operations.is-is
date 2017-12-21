@@ -3,7 +3,7 @@ title: "Power BI-efni fjárhagslegrar frammistöðu"
 description: "Þetta efnisatriði lýsir efni fjárhagslegra afkasta í Power BI. Það lýsir yfirliti og skýrslum sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ Hægt er að nálgast **Fjárhagsleg afköst** Power BI úr Microsoft Dynamics L
 ### <a name="available-from-lcs"></a>Tiltækt frá LCS
 **Fjárhagsleg afköst** Power BI efnið sem er tiltækt í LCS styður eftirfarandi útgáfur:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition útgáfur
 - Microsoft Dynamics 365 for Operations útgáfa 1611 
 
 Hægt er að finna efni Power BI í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnispakkann og innleiða hann í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.

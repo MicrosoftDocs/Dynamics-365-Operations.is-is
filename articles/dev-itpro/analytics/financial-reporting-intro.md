@@ -1,15 +1,15 @@
 ---
 title: "Fjárhagsskýrslur for Finance and Operations"
 description: "Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
 
 Fjárhagsskýrslugerð inniheldur vídd stuðningur. Þess vegna hlutar lykla eða víddir tiltækar strax. Engin verkfæri til viðbótar eða skilgreiningu skref eru nauðsynleg.
+
+## <a name="financial-reporting-setup"></a>Uppsetning fjárhagsskýrslugerðar
+Síðan **Fjárhagsskýrslugerð uppsetning** inniheldur lista yfir allar fjárhagsvíddir í kerfinu. **Fjárhagur** > **Uppsetning fjárhags** > **Fjárhagsskýrslugerð uppsetning**. 
+
+Á síðunni **Fjárhagsskýrslugerð uppsetning** eru tveir hlutar sem ákvarða gögnin sem þú tilkynnir um í Fjárhagsskýrslugerð:
+
+•   **Víddaflipi** - Vegna þess að mismunandi fyrirtæki nota mismunandi víddir og lykilskipulag er engin leið að ákvarða í hvaða röð sem notendur vilja skoða allar fjárhagsvíddir í skýrslum. Þessi síða gerir þér kleift að skilgreina röðina sem þú vilt að fjárhagsvíddir birtist í þegar þú býrð til og skoðar skýrslu í fjárhagsskýrslugerð.
+
+•   **Eiginleikaflipi** er þar sem þú getur valið hvort þú vilt geta notað **Lánardrottnar** og **Viðskiptamenn** sem eiginleika til afmörkunar og skýrsluhönnunar. Skýrslugerð um Lánardrottinn og Viðskiptamenn gagnast þér aðeins ef þú slærð ekki inn marga lánardrottna eða viðskiptamenn í eitt fylgiskjal þegar þú bókar færslur. Val á Lánardrottinn og/eða Viðskiptamaður mun bæta viðbótartíma við samþættingu.
+
+
 
 ## <a name="financial-reporting-components"></a>Hlutar fjárhagsskýrslugerðar
 Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, skoða og áætla skýrslur.

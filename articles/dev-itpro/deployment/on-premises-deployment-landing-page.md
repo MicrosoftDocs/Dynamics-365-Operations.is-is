@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: is-is
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Lendingarsíða uppsetningar á staðnum
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 Þú getur sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu (á staðnum). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
 
-**Athugið:** Dynamics 365 for Operations (á-staðnum) er að fá nýtt heiti. Þú munt sjá vísað til Dynamics 365 for Operations (á staðnum) í samskiptum og leyfisleiðbeiningum. Heitið sem þú munt sjá þegar þú virkjar vöruna er Dynamics 365 for Operations, Enterprise útgáfa. Bæði þessi heiti vísa til sömu vöru.
-
-## <a name="get-started"></a>Hafist handa
+## <a name="get-started"></a>Byrja
 - [Yfirlit Dynamics 365 for Finance and Operations, Enterprise-útgáfa (staðbundin útgáfa)](on-premises-overview.md)
 - [Kerfiskröfur fyrir staðbundna virkjun](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Lifecycle-stefna fyrir netþjónustu og staðbundinn hugbúnað](../migration-upgrade/versions-update-policy.md)
 - [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Samanburður á eiginleikum uppsetningar í skýi og á staðnum](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Innleiðing
 - [Setja upp staðbundið verk í Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ ms.lasthandoff: 10/05/2017
 - [Myndun, útgáfa og prentvalkostir fylgiskjala í staðbundinni uppsetningu](../analytics/printing-capabilities-on-premises.md)
 - [Setja upp tæknilegan stuðning](../lifecycle-services/support-experience.md)
 - [Úrræðaleit fyrir nettengingu biðlara](../user-interface/client-disconnected.md)
+- [Nota uppfærslur fyrir uppsetningu á staðnum](apply-updates-on-premises.md)
+- [Setja uppsetningu á staðnum aftur upp](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Önnur tilföng
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Úreltir eiginleikar](../migration-upgrade/deprecated-features.md)
+- [Lífsferilsstefna hugbúnaðar og listi yfir útgáfur](../migration-upgrade/versions-update-policy.md)
  
 
