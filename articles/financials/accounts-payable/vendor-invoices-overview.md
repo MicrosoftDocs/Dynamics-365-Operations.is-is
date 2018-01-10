@@ -3,7 +3,7 @@ title: "Yfirlit reikninga lánardrottna"
 description: "Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
