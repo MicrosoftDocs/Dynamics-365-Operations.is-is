@@ -3,7 +3,7 @@ title: "Yfirlit fjárhagsáætlunar"
 description: "Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition munu geta stofnað skýrslur fyrir fjárhagsáætlun samanborið við rauntölur. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations, Enterprise edition eða hlaða þeim úr forriti óháðs aðila."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
