@@ -3,7 +3,7 @@ title: "Vinnusvæði gagnaprófunar"
 description: "Vinnusvæði gátlista gagnavilluleitar gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

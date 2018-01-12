@@ -3,7 +3,7 @@ title: "Sjálfgefnir mótlyklar fyrir reikningabók lánardrottins og færslubó
 description: "Þetta efnisatriði aðstoðar við að ákveða hvar á að úthluta sjálfgefnum lyklum fyrir reikningabækur."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
