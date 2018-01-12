@@ -3,7 +3,7 @@ title: "Vinnusvæði eignastýringar"
 description: "Í þessu efnisatriði er að finna upplýsingar um vinnusvæði eignastýringar. Þetta vinnusvæði sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Það felur í sér samantektaryfirlit og greiningaryfirlit."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

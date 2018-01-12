@@ -3,14 +3,14 @@ title: "Flytja inn og vinna með kreditkortafærslur"
 description: "Í þessu efnisatriði er útskýrt hvernig á að flytja inn og viðhalda kostnaðartengdum kreditkortafærslum. Hægt er að setja upp þessar færslur þannig að þær séu fluttar inn sjálfkrafa á endurteknum tíma, og einnig er hægt að flytja þær inn handvirkt eftir þörfum."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global

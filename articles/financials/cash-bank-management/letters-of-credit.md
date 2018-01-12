@@ -3,7 +3,7 @@ title: "Kreditbréf"
 description: "Kreditbréf eru bankaskjöl sem eru almennt notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
