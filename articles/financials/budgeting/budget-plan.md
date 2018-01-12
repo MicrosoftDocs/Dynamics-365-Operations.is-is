@@ -3,7 +3,7 @@ title: "Fjárhagsáætlunargerð"
 description: "Markmið þessarar æfingar er að veita leiðsögn í virkni uppfærslna á vinnusvæði fyrir fjárhagsáætlun í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
