@@ -3,14 +3,14 @@ title: Losunarreglur
 description: "Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="9c9e9-182">Eftir að þú hefur skilgreint grunnatriði er hægt að skilgreina raunverulegar úrvinnslureglur með því að smella á **Línur**.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="9c9e9-183">Tveir kostir eru í boði fyrir losun, að losa upphæð nettóbreytingar eða skilgreina fasta upphæð.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="9c9e9-184">Veldu upprunareikning.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-184">Select your source account.</span></span> <span data-ttu-id="9c9e9-185">Hægt er að nota stjörnu (\*) sem algildistákn.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="9c9e9-186">Til dæmis myndi 1\* velja alla lykla sem byrja á 1 sem uppruna gagna fyrir úthlutunina.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="9c9e9-184">Veldu upprunareikning.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-184">Select your source account.</span></span> <span data-ttu-id="9c9e9-185">Hægt er að nota stjörnu (\\*) sem algildistákn.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="9c9e9-186">Til dæmis myndi 1\\* velja alla lykla sem byrja á 1 sem uppruna gagna fyrir úthlutunina.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="9c9e9-187">Þegar þú hefur valið upprunareikninga ákvarðar **Reikningslýsing** reikning viðtökufyrirtækis sem er notaður.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="9c9e9-188">Veldu **Uppruni** ef þú vilt nota sama aðalreikning og er skilgreindur í **Upprunareikningur**.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="9c9e9-189">Ef þú velur **Skilgreint af notanda** þarftu að tilgreina viðtökureikning.</span><span class="sxs-lookup"><span data-stu-id="9c9e9-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
