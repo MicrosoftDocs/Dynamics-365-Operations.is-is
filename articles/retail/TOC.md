@@ -43,7 +43,8 @@
 ## [Skilgreining og uppsetning vélbúnaðarstöðvar fyrir smásölu](retail-hardware-station-configuration-installation.md)
 ## [Retail-tími og -viðvera](retail-time-attendance.md)
 
-# Modern POS (MPOS) og sölukerfi í skýinu
+# Modern POS (MPOS) og Cloud POS
+## [Velja á milli Modern POS og Cloud POS](MPOS-or-CPOS.md)
 ## [POS-aðgerðir](POS-operations.md)
 ## [Skjáútlit sýnigagna í MPOS/CPOS](demo-data.md)
 ## Jaðarvélbúnaður
@@ -70,12 +71,17 @@
 ## [Sending vöru frá annarri verslun](charge-send.md)
 ## Virkjun tækis
 ### [Grunnstilling og uppsetning MPOS](retail-modern-pos-device-activation.md)
-### [Uppsetning ítarlegrar innskráningar fyrir sölukerfi í skýinu og MPOS](extended-logon.md)
+### [Uppsetning ítarlegrar innskráningar fyrir Cloud POS og MPOS](extended-logon.md)
 ### [Stjórnun Retail-lykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
 ## Kvittanir
 ### [Uppsetning kvittanasniðmáta](receipt-templates-printing.md) 
 ### [Sending tölvupóstkvittana fyrir MPOS](email-receipts.md)
 ## [Verkskráning og hjálp fyrir sölustað](task-recorder-retail-pos.md)
+
+# Uppfylling pöntunar
+## [Yfirlit yfir pöntunaruppfyllingu verslunar](Order-fulfillment-overview.md)
+## [Setja upp uppfyllingu í verslun](Order-fulfillment-POS-setup.md)
+## [Kveikja á tilkynningum á sölustað](Notifications-POS.md)
 
 # Eftirlit og greining
 ## [Eftirlit með sölu og framlegð](monitor-sales-margin-performance.md)
@@ -184,7 +190,7 @@
 ### [Skilgreining og uppsetning Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Stjórnun Retail-lykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
 ### [Tækisvirkjun Retail POS](dev-itpro/retail-device-activation.md)
-### [Öruggt Retail sölukerfi í skýinu](dev-itpro/secure-retail-cloud-pos.md)
+### [Öruggt Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Skilgreining og uppsetning Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir Retail](dev-itpro/retail-mass-deployment.md)
 ### [Tilvik Retail íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -205,7 +211,7 @@
 ### [Skjáhönnun Retail POS](pos-screen-layouts.md)
 ### [Uppsetning POS-útlitshönnuðar](install-pos-layout-designer.md)
 ### [Skilgreining MPOS fyrir stillingu utan nets](dev-itpro/retail-modern-pos-offline.md)
-### [Stækkunarhæfni kveikja í MPOS og sölukerfis í skýinu](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Stækkunarhæfni kveikja í MPOS og Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
 ### [Bæta sérstilltri stýringu við yfirlit sölustaðar](dev-itpro/pos-custom-control.md)
 ### [Greiðsluviðbót POS](dev-itpro/pos-payment-extension.md)
 ### [Stuðningur við ytra gjafakort](dev-itpro/gift-card.md)
@@ -257,9 +263,11 @@
 ### [Stækka fyrirliggjandi sýn á POS til að bæta við sérstilltum dálkum og hnöppum á stiku forrits](dev-itpro/pos-view-extension.md)
 ### [Bæta sérstilltum stjórntækjum við færslusíður Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [Bæta sérstilltum dálkum við hnitanet POS-færslu](dev-itpro/pos-custom-transaction-column.md)
-### [Hringja í POS API eða aðgerð úr POS-viðbót](dev-itpro/pos-api-extension.md)
-### [Stækka fyrirliggjandi sýn á POS til að bæta við sérstilltum dálkum og hnöppum á stiku forrits](dev-itpro/pos-view-extension.md)
+### [Kalla á POS API eða aðgerð úr POS-viðbót](dev-itpro/pos-api-extension.md)
 ### [Kveikjur Retail Modern POS og prentun](dev-itpro/pos-trigger-printing.md)
+### [Bæta sérstilltri stýringu við hönnunaryfirlit Retail Modern POS sem ekki birtist á skjá](dev-itpro/pos-control-non-screen.md)
+### [Búa til Retail-staðgengil fyrir sölustað og rafræn viðskipti](dev-itpro/pos-generate-retail-proxy.md)
+### [Skref við skilgreiningu fyrir þróunaraðila Retail sem vinna að þróunarverkefnum sem hýst eru í skýi](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [Vildarviðbót](dev-itpro/retail-sdk/loyalty-extension-sample.md)

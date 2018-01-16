@@ -2,6 +2,7 @@
 # [Kerfiskröfur fyrir uppsetningu í skýi](../fin-and-ops/get-started/system-requirements.md)
 # [Kerfiskröfur fyrir uppsetningu á staðnum](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Sýnigögn](../fin-and-ops/get-started/demo-data.md)
+## [Búa til sýnigögn með pökkum](data-entities/generate-demo-data-packages.md)
 
 
 # [Þróun og sérstilling með Visual Studio](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Sérsniðin þjónusta](data-entities/custom-services.md)
 ### [Endurteknar samþættingar](data-entities/recurring-integrations.md)
+### [Nota prófunarverkfæri þriðja aðila með þjónustu](data-entities/third-party-service-test.md)
 
 ## Þróun fyrir samþættingu
 ### [Samþætting gagna með gagnaeiningum](data-entities/data-management-integration-data-entity.md)
@@ -395,7 +397,8 @@
 ### [Skilgreiningargagnaverk](data-entities/configuration-data-projects.md)
 ### [Gagnapakkar fyrir grunnstillingar](data-entities/configuration-data-packages.md)
 ### [Afritun skilgreiningargagna á milli fyrirtækja](data-entities/copy-configuration.md)
-### [Gagnsniðmát stillingar](data-entities/configuration-data-templates.md)
+### [Sniðmát skilgreiningargagna](data-entities/configuration-data-templates.md)
+### [Gagnasniðmát með mörgum vinnublöðum](data-entities/excel-template-multiple.md)
 ### [Rakning breytinga til einingar](data-entities/entity-change-track.md)
 
 ## Staðlaðar gagnaeiningar
@@ -497,17 +500,20 @@
 
 ## Uppsetning í skýinu
 ### [Innleiðing Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
 
 ## [Notkun á staðnum](deployment/on-premises-deployment-landing-page.md)
 ### [Innanhússyfirlit](deployment/on-premises-overview.md)
+### [Undirbúningur fyrir staðbundna uppsetningu](deployment/plan-onprem-deployment.md)
 ### [Vélbúnaðarþörf](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-### [Búa til staðbundið verk](lifecycle-services/lbd-create-lcs-on-prem-project.md)
+### [Stofna staðbundið verk](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Setja upp og nota staðbundið umhverfi](deployment/setup-deploy-on-premises-environments.md)
 ### [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Nota uppfærslur fyrir uppsetningu á staðnum](deployment/apply-updates-on-premises.md)
 ### [Setja uppsetningu á staðnum aftur upp](deployment/redeploy-on-prem.md)
-### [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise edition á staðnum](deployment/troubleshoot-on-prem.md)
+### [Uppfæra staðbundinn eftirlitsbúnað](lifecycle-services/update-local-agent.md)
+### [Endurskilgreina umhverfi](lifecycle-services/reconfigure-environment.md)
+### [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise Edition á staðnum](deployment/troubleshoot-on-prem.md)
 
 ## Setja upp sérsniðinn kóða
 ### [Virkjanlegur pakki búinn til](deployment/create-apply-deployable-package.md)

@@ -3,7 +3,7 @@ title: Greind
 description: "Þetta efnisatriði beinir þér á tilföng sem þú getur notað til að fræðast meira um viðskiptagreindina og skýrslugerðarverkfærin sem eru þér aðgengileg í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Notendur geta átt samskipti við gögnin með því að smella á eða snerta s
  - [Innfellt Power BI í vinnusvæði](embed-power-bi-workspaces.md)
  - [Samþætting Power BI Embedded](power-bi-embedded-integration.md)
  - [Bæta greiningu við vinnusvæði með Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Birta greiningarforrit í Power BI](publish-apps-powerbi.md)
  - [Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](secure-analytical-workspaces.md)
  - [Power BI efni fyrir Finance and Operations](power-bi-home-page.md)
 
@@ -88,10 +87,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 ## <a name="technical-reference-reports"></a>Skýrslur tæknilegs tilvísunarefnis
 Eftirfarandi skýrslur veita tilvísunarupplýsingar um hluti í Finance and Operations:
 
-- [Skýrsla samantektargagnaeininga](aggregate-data-entities-report.md)
-- [Skýrsla fyrir uppsafnaðar mælingar](aggregate-measurements-report.md)
 - [Gagnaeiningaskýrsla](../data-entities/data-entities-report.md)
-- [Afkastavísaskýrsla](key-performance-indicators-report.md)
 - [Leyfiskóðar og skilgreiningarlyklaskýrsla](../sysadmin/license-codes-configuration-keys-report.md)
 - [Skýrslur SQL Server Reporting Services](SSRS-report.md)
 - [Skýrsla um verkflæðisgerðir](../../fin-and-ops/organization-administration/workflow-types-report.md)
