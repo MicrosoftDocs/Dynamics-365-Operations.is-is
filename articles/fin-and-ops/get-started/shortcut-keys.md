@@ -3,7 +3,7 @@ title: "Flýtilyklar"
 description: "Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and Operations, Enterprise Edition"
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and 
 
 **Ábending:** Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarískst lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
 
-## <a name="finding-a-shorcut"></a>Að finna flýtilykil
+## <a name="finding-a-shortcut"></a>Að finna flýtilykil
 Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi tiltækar flýtileiðir beint frá notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni. 
 
 
@@ -143,6 +143,9 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara í fyrstu færslu                                                                                               | Ctrl+Home                       |
 | Fara í síðustu færslu                                                                                                | Ctrl+End                        |
 | Framkvæma sjálfgefna aðgerð í rúðu<br><br>**Athugaðu:** Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.                 | Færa inn                           |
+| Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
+| Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
+| Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
 
 ## <a name="input-control-shortcuts"></a>Flýtivísanir inntaksstýringar
 |                                                                              |                               |

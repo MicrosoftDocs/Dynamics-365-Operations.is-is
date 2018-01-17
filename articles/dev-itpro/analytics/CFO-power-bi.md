@@ -3,7 +3,7 @@ title: CFO-yfirlit - Power BI efni
 description: "Þetta efnisatriði lýsir CFO-yfirliti fyrir efni Microsoft Power BI"
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ Eftirfarandi tafla sýnir Power BI efnið sem skýrslurnar eru afritaðar úr og
 | [Skulda- og innheimtuumsjón](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Viðskiptavinur kominn fram yfir gjalddaga</li><li>Viðskiptavinir yfir kreditmörk</li><li>Aldursgreindar stöður</li></ul> |
 | [Greining á innkaupum og eyðslu](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Innkaup eftir mánuði/degi</li><li>10 efstu lánardrottnar eftir innkaupum</li><li>10 efstu vörur eftir innkaupum</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
-Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu. Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana.
 
-Hægt er að finna **CFO-yfirlit** í Power BI í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
 

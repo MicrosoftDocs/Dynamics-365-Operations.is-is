@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Byggt á stillingum í Retail Headquarters er hægt að flokka vörur sem annað
     
 - **Raðnúmers er ekki krafist fyrir pantanir viðskiptavinar** - Viðskiptavinir geta pantað í einni verslun og sótt í aðra. Gjaldkeri sem pantar fyrir viðskiptavin þarf ekki að gefa upp raðnúmerið. Raðnúmerið verður veitt við tiltekt eða afhendingu. Hins vegar verður að gefa upp raðnúmer fyrir öll línuatriði þegar afhendingargerðin **Framkvæma** er valin. Annars er ekki hægt að ljúka færslunni.    
 - **Röðuðum vörum er ekki steypt saman á færsluskjánum** – **Steypa saman afurðum** stillingin í **Afgreiðslustöð** reitarhópnum á **Virkniregla** síðunni gerir þér kleift að steypa saman óröðuðum vörum á færsluskjánum. Þegar sömu vörur eru settar saman er auðveldara að sjá þær á færsluskjá. Þar sem raðnúmer eru yfirleitt einkvæmt, og söluaðilar Þurfa ekki að slá inn raðnúmer fyrir kaup gildir stillingin **Steypa saman afurðum** ekki um raðaðar vörur. Þessi vegna er röðuðum vörum ekki steypt saman á færsluskjánum ef **Steypa saman afurðum** stillingin er valin.
+- **Geta til að leita í færslubókum út frá raðnúmeri** - Nú er hægt að leita aukalega í færslubókum út frá raðnúmerum. Til að gera það skaltu opna „Færslubækur“ aðgerðina og ýta á „Ítarleg leit“ hnappinn á forritastikunni. Með því að nota „Bæta við síu“ hnappinn er einnig hægt að nota síu til að leita að raðnúmerum.
 

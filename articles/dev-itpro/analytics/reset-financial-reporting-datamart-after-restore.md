@@ -3,7 +3,7 @@ title: Endurstilla gagnaskemma Financial reporting
 description: "Þetta efnisatriði lýsir hvernig á að endurstilla gagnaskemma Financial reporting"
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: is-is
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/07/2017
 - Microsoft Dynamics 365 for Finance and Operations Financial reporting útgáfa 7.0.10000.4 og síðar
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (staðbundin útgáfa)
 
-Til að fá Finance and Operations Financial reporting útgáfu 7.2.6.0, geturðu halað niður KB 4052514 frá <https://support.microsoft.com/en-us/help/4052514>.
+Til að fá Finance and Operations Financial reporting útgáfu 7.2.6.0, geturðu halað niður KB 4052514 frá <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Endurstilla Financial reporting gagnaskemma fyrir Finance and Operations Financial reporting útgáfa 7.2.6.0 og síðar
 
@@ -55,7 +55,7 @@ Endurstilling gagnaskemmu ætti aðeins að vera framkvæmd á tímum þegar vin
 
 Til að endurstilla gagnaskemmuna skal á valmyndinni **verkfæri** velja **Endurstilla gagnaskemmu**. Svarglugginn sem birtist inniheldur tvo hluta: **Talnagögn** og **Endurstilla**.
 
-[![Endurstilla gagnaskemma svargluggi](./media/Statistics.png)](./media/Statistics.png)
+[![Endurstilla gagnaskemma svargluggi](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Samþættingartilraunir
 
@@ -83,8 +83,10 @@ Ef þú ákveður að þörf sé á að endurstilla gagnaskemmuna skaltu velja g
 - **Endurheimta gagnagrunn** - Finance and Operations gagnagrunnurinn var endurheimtur, en gagnagrunnurinn fyrir Financial reporting gagnaskemmuna var ekki endurreist.
 - **Annað** - Þú ert að endurstilla gagnaskemmuna af öðrum ástæðum. Ef þú hefur áhyggjur af því að upp sé komið vandamál skaltu hafa samband við notendaþjónustu til að bera kennsl á það.
 
+[![Endurstilla gagnaskemmu](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Staðfestu að samþætting allra fyrirliggjandi verka sé lokið áður en þú lýkur við skrefin. Hægt er að skoða stöðu samþættingar með því að velja **Verkfæri** &gt; **Staða samþættingar**.
+> Gakktu úr skugga um að öll endurstillingarverk gagnaskemma hafi lokið upphaflegu álagi áður en þú hefur endurstillingar. Þú getur staðfest þetta með því að leita að gildi í Síðasta Keyrsla dálknum með því að velja **Verkfæri** &gt; **Samþætting staða**.
 
 #### <a name="clear-users-and-companies"></a>Hreinsa notendur og fyrirtæki
 
@@ -94,7 +96,10 @@ Veldu **hreinsa notendur og fyrirtæki** í gátreitnum ef þú hefur endurheimt
 
 Ef þú vilt skoða stöðu samþættingarinnar skaltu velja **Verkfæri** &gt; **Staða samþættingar** til að sjá síðustu skipti sem samþættingin var keyrð og stöðuna.
 
-[![Skoða stöðu samþættingar](./media/Integration.png)](./media/Integration.png)
+[![Skoða stöðu samþættingar](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Endurstillingin er lokið þegar allar varpanir sýna stöðu RanToCompletion og gluggi Staða samþættingar segir „Samþætting lokið“ neðst í vinstri horni.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Endrustilla Financial reporting gagnaskemmu fyrir Finance and Operations Financial reporting útgáfa 7.0.10000.4 og síðar
 
@@ -142,7 +147,9 @@ Eftirfarandi Microsoft Windows þjónustur munu hafa opnar tengingar við gagnag
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Hlaða niður nýjasta MinorVersionDataUpgrade.zip pakkanum
 
-Hlaða niður nýjasta MinorVersionDataUpgrade.zip pakkanum. Fyrir leiðbeiningar um hvernig skal finna og hlaða niður réttu útgáfunni af gagnauppfærslupakkanum, sjá[Hlaða niður nýjustu útgáfu af virkjanlegum gagnauppfærslupakka](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Uppfærslu er ekki krafist til að hægt sé að hlaða niður MinorVersionDataUpgrade.zip pakkanum. Þess vegna þarftu bara að fylgja skrefunum í „Afrita nýjustu útgáfu af virkjanlegum gagnauppfærslupakka“ hlutanum í því efnisatriði. Þú getur sleppt öllum öðrum skrefum í efnisatriðinu.
+Hlaða niður nýjasta MinorVersionDataUpgrade.zip pakkanum. Fyrir leiðbeiningar um hvernig skal finna og hlaða niður réttu útgáfunni af gagnauppfærslupakkanum, sjá[Hlaða niður nýjustu útgáfu af virkjanlegum gagnauppfærslupakka](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Uppfærslu er ekki krafist til að hægt sé að hlaða niður MinorVersionDataUpgrade.zip pakkanum. Þess vegna þarftu bara að fylgja skrefunum í „Afrita nýjustu útgáfu af virkjanlegum gagnauppfærslupakka“ hlutanum í því efnisatriði. Þú getur sleppt öllum öðrum skrefum í efnisatriðinu.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Keyra forskriftir gagnvart gagnagrunni Finance and Operations
 

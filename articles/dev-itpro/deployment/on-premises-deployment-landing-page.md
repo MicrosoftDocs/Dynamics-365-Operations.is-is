@@ -3,7 +3,7 @@ title: "Uppsetning á staðnum"
 description: "Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum"
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: is-is
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Lendingarsíða uppsetningar á staðnum
@@ -32,7 +32,8 @@ ms.lasthandoff: 11/28/2017
 
 ## <a name="get-started"></a>Byrja
 - [Yfirlit Dynamics 365 for Finance and Operations, Enterprise-útgáfa (staðbundin útgáfa)](on-premises-overview.md)
-- [Kerfiskröfur fyrir staðbundna virkjun](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Undirbúningur fyrir staðbundna uppsetningu](plan-onprem-deployment.md)
+- [Kerfiskröfur fyrir uppsetningu á staðnum](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Lifecycle-stefna fyrir netþjónustu og staðbundinn hugbúnað](../migration-upgrade/versions-update-policy.md)
 - [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](../../fin-and-ops/get-started/purchase-on-premises.md)
@@ -41,6 +42,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="onboard"></a>Innleiðing
 - [Setja upp staðbundið verk í Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Setja upp og nota staðbundið umhverfi](setup-deploy-on-premises-environments.md)
+- [Setja upp nettengd prenttæki á staðnum](../analytics/install-network-printer-onprem.md)
 - [Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu](../analytics/configure-ssrs-on-premises.md)
 - [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ ms.lasthandoff: 11/28/2017
 - [Setja uppsetningu á staðnum aftur upp](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Önnur tilföng
+- [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise edition á staðnum](troubleshoot-on-prem.md)
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Úreltir eiginleikar](../migration-upgrade/deprecated-features.md)
 - [Lífsferilsstefna hugbúnaðar og listi yfir útgáfur](../migration-upgrade/versions-update-policy.md)

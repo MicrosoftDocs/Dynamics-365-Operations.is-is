@@ -1,9 +1,9 @@
 ---
 title: "Power BI-efni fjárhagslegrar frammistöðu"
-description: "Þetta efnisatriði lýsir efni fjárhagslegra afkasta í Power BI. Það lýsir yfirliti og skýrslum sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+description: "Þetta efnisatriði lýsir efni fjárhagslegra afkasta í Power BI."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir efni **Fjárhagslegra afkasta** í Microsoft Power BI. Það lýsir yfirliti og skýrslum sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
-
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-
-Hægt er að nálgast **Fjárhagsleg afköst** Power BI úr Microsoft Dynamics Lifecycle Services (LCS) og PowerBI.com.
-
-### <a name="available-from-lcs"></a>Tiltækt frá LCS
-**Fjárhagsleg afköst** Power BI efnið sem er tiltækt í LCS styður eftirfarandi útgáfur:
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition útgáfur
-- Microsoft Dynamics 365 for Operations útgáfa 1611 
-
-Hægt er að finna efni Power BI í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnispakkann og innleiða hann í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
-
-### <a name="available-from-powerbicom"></a>Tiltækt frá PowerBI.com
-**Fjárhagsleg afköst** Power BI efnið sem er tiltækt á PowerBI.com styður Microsoft Dynamics AX útgáfur 7.0 og 7.0.1. Nánari upplýsingar um hvernig á að tengja og hlaða gögn Dynamics AX, sjá [Aðgangur Power BI efni úr PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Uppsetning aðallykils
 Þar sem fyrr vilja upphæðir skulda og tekjur að birtast sem jákvætt upphæðir í skýrslur er uppsetning aðallykla mikilvæg. Til að þessir aðallyklar birtast sem jákvætt upphæðir verður aðallykilgerð að vera stillt á **Skuldir** eða **Tekjur**. Þegar þessar gerð lykils er notað verður skýrslugerð í gegnum Power BI snúa við merkjum og sýna upphæðir sem jákvætt.
@@ -101,5 +86,5 @@ Eftirfarandi einingar voru notaðar sem grunnur að Power BI efnini **Fjárhagsl
 - Fjárhagur
 - ChartofAccounts
 
-Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Reiknaðar mælieiningar eru notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efninu. Sjálfgefið er að efnið færir inn gögn fyrir síðustu þrjú árin og eitt komandi ár. Til að hafa viðbótarútreikning með á skýrslur og mælaborð er hægt að breyta [Microsoft Excel vinnubók](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Þessi vinnubók er sjálfgefið gagnalíkan sem var notað til að stofna efnið. Eftir að lokið hefur verið gera breytingarnar er hægt að stofna efnispakka fyrirtækis og mælaborð sem innihalda upplýsingar sem hefur verið bætt við.
+Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Reiknaðar mælieiningar eru notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efninu. Sjálfgefið er að efnið færir inn gögn fyrir síðustu þrjú árin og eitt komandi ár. Til að hafa viðbótarútreikning með á skýrslur og mælaborð er hægt að breyta [Microsoft Excel vinnubók](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Þessi vinnubók er sjálfgefið gagnalíkan sem var notað til að stofna efnið. 
 
