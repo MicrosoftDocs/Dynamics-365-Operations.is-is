@@ -3,16 +3,17 @@ title: "Kostnaður innan samstæðu"
 description: "Starfskraftur sem starfar hjá einum lögaðila í fyrirtæki kann að vinna verk fyrir annan lögaðila í sama fyrirtæki. Í þeim aðstæðum er hægt að nota valkost kostnaðar innan samstæðu til að úthluta kostnaði starfsmannsins á lögaðilann sem verkið var unnið fyrir."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd

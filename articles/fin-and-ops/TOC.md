@@ -17,25 +17,26 @@
 ##### [Kaupa Finance and Operations (on-premises)](get-started/purchase-on-premises.md)
 
 ### [Nýjungar eða breytingar](get-started/whats-new-changed.md)
-#### [Úreltir eiginleikar](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Eiginleikar sem hafa verið fjarlægðir eða úreltir](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [AX 2012 eiginleikar sem var frestað](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](get-started/features-not-implemented-on-prem.md)
-#### [Lifecycle-stefna](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Verkvangsuppfærsla 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
-#### [Verkvangsuppfærsla 11 (október 2017)](get-started/whats-new-platform-update-11.md)
-#### [Verkvangsuppfærsla 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
+#### [Útgáfur og reglur um stuðningstíma](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform-uppfærsla 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform-uppfærsla 11 (október 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platform-uppfærsla 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (júlí 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Verkvangsuppfærsla 9 (júlí 2017)](get-started/whats-new-platform-update-9.md)
-#### [Verkvangsuppfærsla 8 (júní 2017)](get-started/whats-new-platform-update-8.md)
-#### [Verkvangsuppfærsla 7 (maí 2017)](get-started/whats-new-platform-update-7.md)
-#### [Verkvangsuppfærsla 6 (apríl 2017)](get-started/whats-new-platform-update-6.md)
-#### [Verkvangsuppfærsla 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
-#### [Verkvangsuppfærsla 4 (febrúar 2017)](get-started/whats-new-platform-update-4.md)
+#### [Platform-uppfærsla 9 (júlí 2017)](get-started/whats-new-platform-update-9.md)
+#### [Platform-uppfærsla 8 (júní 2017)](get-started/whats-new-platform-update-8.md)
+#### [Platform-uppfærsla 7 (maí 2017)](get-started/whats-new-platform-update-7.md)
+#### [Platform-uppfærsla 6 (apríl 2017)](get-started/whats-new-platform-update-6.md)
+#### [Platform-uppfærsla 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
+#### [Platform-uppfærsla 4 (febrúar 2017)](get-started/whats-new-platform-update-4.md)
 #### [Operations-útgáfa 1611 (nóvember 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Verkvangsuppfærsla 3 (nóvember 2016)](get-started/whats-new-platform-update-3.md)
-#### [Verkvangsuppfærsla 2 (ágúst 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Platform-uppfærsla 3 (nóvember 2016)](get-started/whats-new-platform-update-3.md)
+#### [Platform-uppfærsla 2 (ágúst 2016)](get-started/whats-new-platform-update-2.md) 
 #### [Dynamics AX-forrit, útgáfa 7.0.1 (maí 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Verkvangsuppfærsla 1 (maí 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform-uppfærsla 1 (maí 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (febrúar 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Uppfærðar verkefnaleiðbeiningar
 ##### [Verkefnaleiðbeiningar fyrir nóvember 2016](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [API gagnastjórnunarpakka](../dev-itpro/data-entities/data-management-api.md)
 #### [Endastöðvar þjónustu](../dev-itpro/data-entities/services-home-page.md)
 ##### [Úrræðaleit vegna sannvottunar þjónustu](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Sérsniðin þjónusta](../dev-itpro/data-entities/custom-services.md)
 #### [Endurteknar samþættingar](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Gagnaeiningar](../dev-itpro/data-entities/data-entities.md)
 
 #### [Skilgreiningargagnaverk](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Gagnapakkar fyrir grunnstillingar](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Afritun skilgreiningargagna á milli fyrirtækja](../dev-itpro/data-entities/copy-configuration.md)
+##### [Gagnapakkar fyrir grunnstillingar (aðeins útgáfa í júlí 2017)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Sniðmát skilgreiningargagna](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Rakning breytinga til einingar](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Staðlaðar gagnaeiningar
@@ -646,6 +648,11 @@
 ##### [Uppsetning neikvæðra debetupphæða og kreditupphæða ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Aðgerðaannáll notanda samkvæmt kínverskri vinnureglu](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [Algengar spurningar um VSK-reikninga viðskiptavinar](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### Indland
+##### [Yfirlit yfir skattakerfi](../financials/general-ledger/tax-engine.md)
+##### [Samþætting skattkerfis](../financials/general-ledger/tax-engine-integration.md)
+##### [Útfærsla skattakerfis](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japan
 ##### [Kaupa eign og nota fyrir niðurgreiðslu með opinberum styrk](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1215,6 +1222,7 @@
 
 ### Skjalaskýrslugerð og prentun
 #### [Yfirlit Document Reporting Services](../dev-itpro/analytics/document-reporting-services.md)
+#### [Setja upp nettengd prenttæki á staðnum](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [Stilla SSRS fyrir staðbundna uppsetningu](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Prentun](../dev-itpro/analytics/print-documents.md)
 ##### [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentara](../dev-itpro/analytics/install-document-routing-agent.md)
@@ -1285,30 +1293,28 @@
 ##### [Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Breytingar á API rafræns skýrslugerðarramma fyrir forritsuppfærslu 7.3](../dev-itpro/analytics/er-apis-app73.md)
 
-### Greiningarverkfæri og myndræn framsetning
+### Innfelldar greiningarlausnir
+#### [Innfellt Power BI í vinnusvæði](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Samþætting Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Aðlögunarkostir með PowerBI.com
+#### [Power BI-samþætting](../dev-itpro/analytics/power-bi-integration.md)
+#### [Power BI skýrslur festar við vinnusvæði](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Verkfæri til að búa til og bæta við lausnir
 #### [Greining, uppsafnaðar mælingar og KPI-líkanagerð](../dev-itpro/analytics/analytics.md)
+#### [Búa til greiningarskýrslur með Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Líkanagerð og samantektargögn](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Bæta fjárhagsvíddum við uppsafnaðar mælingar](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Samhengisháðri viðskiptagreind bætt við skjámyndir](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Skýrsla fyrir uppsafnaðar mælingar](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Skýrsla samantektargagnaeininga](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Afkastavísisskýrsla (KPI.md)](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI-samþætting](../dev-itpro/analytics/power-bi-integration.md)
-#### [Aðgangur að Power BI-efni](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Stofna Power BI-skýrslu og -yfirlit](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Stofna Power BI-skýrslu með gögnum úr Finance and Operations](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Skilgreina Power BI-samþættingu fyrir vinnusvæði](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Samþætting Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Innfellt Power BI í vinnusvæði](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [Bæta greiningu við vinnusvæði með Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Power BI bætt við vinnusvæði](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Power BI skýrslur festar við vinnusvæði](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Stjórnunarverkfæri reynslumikilla notenda
 #### [Power BI-samþætting með einingaverslun](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Skilgreina Power BI-samþættingu fyrir vinnusvæði](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Notkun eigin gagnagrunns](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Búa til greiningarskýrslur með Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Birta greiningarforrit í Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Birgðastjórnun](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [Mynda áætlun með skorðum (verkleiðbeiningar)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Búa til efnisáætlun fyrir aukaafurðir (verkleiðbeiningar)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Vinna með áætlaðar pantanir](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Meðhöndla öryggisbirgðir](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Afgreiða seinkanir](../supply-chain/master-planning/delays.md)
 #### [Rakning niðurbrots](../supply-chain/master-planning/trace-explosion.md)
 #### [Aðgerðaboð](../supply-chain/master-planning/action-messages.md)
@@ -1438,6 +1445,8 @@
 #### [Uppsetning og viðhald samstarfs lánardrottna](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Stjórnun notenda samstarfs lánardrottna](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Uppsetning lánardrottnalykla](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Skilgreiningar lánardrottinsbeiðni](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Inntaka lánardrottins](../supply-chain/procurement/vendor-onboarding.md)
 #### [Samstarf lánardrottna með ytri lánardrottnum](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Samstarf lánardrottna með viðskiptavinum](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Setja upp ytri vörulista fyrir PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Keyra framleiðsluverk
 ##### [Stofnun framleiðslupantana](../supply-chain/production-control/create-production-orders.md)
 ##### [Framleiðslupantanir losaðar](../supply-chain/production-control/release-production-orders.md)
-##### [Bakfærsla á stöðu framleiðslupöntunar](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Innsýn í efnisundantekningar](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Losa uppskriftar- og formúlulínur í vöruhúsið](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Bakfærsla á stöðu framleiðslupöntunar](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Skrá efnisnotkun með fartæki](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Stjórna notkun hráefnis með birgðareglum](../supply-chain/production-control/flushing-principles.md) 
 ##### [Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Skráning á framkvæmd framleiðslu](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Endurgjöf um framleiðslu](../supply-chain/production-control/production-feedback.md)
 ##### [Skráning tíma og viðveru](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Fjarveruskráning í Tími og viðvera](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Fjarveruskráning í Tími og viðvera](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Stjórna fjármálum í framleiðslu
 ##### [Úthlutun tíma á vinnslur í vinnslubúnti](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Útreikningur á efnisnotkun](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Búa til afurðarsniðmát (verkleiðbeiningar)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Stofna forskilgreind afurðarafbrigði (verkleiðbeiningar)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Stofna útgefna afurð fyrir stakt fyrirtæki (verkleiðbeiningar)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Lífferilsstaða afurðar](../supply-chain/pim/product-lifecycle.md)
 #### [Stofna strikamerki fyrir afurð (verkleiðbeiningar)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Færa inn GTIN-kóða fyrir afurð (verkleiðbeiningar)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Stofna runu runueigindir fyrir afurð (verkleiðbeiningar)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [Setja upp flutningsskorður fyrir vöru](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Vöruhúsakerfi](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Skilgreining vöruhúss](../supply-chain/warehousing/warehouse-configuration.md) 
+### [Skilgreining vöruhúss](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss](../supply-chain/inventory/warehouse-template.md)
 #### [Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Mælieining og birgðastefnur](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Power BI-efni um vöruhús](../dev-itpro/analytics/warehouse-power-bi-content.md)

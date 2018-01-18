@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -53,7 +54,7 @@ Fylgið þessum skrefum til að stofna nýja skráningu með því að nota Verk
 
 1.  Ræsa Retail Modern POS eða Cloud POS, og skrá inn.
 2.  Á síðunni **Stillingar** í hlutanum **Verkskráning** er smellt á **Opna verkskráningu**. Rúðan **Verkskráning** birtist. Hægt er að smella á hnappinn **Loka** (**X**) í efra hægra horni til að loka rúðunni **Verkskráning** áður en byrjað er á nýrri skráningu. Endurtakið skref 2 til að opna rúðuna aftur.
-Rúðan [![Verkskráning](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg) birtist.
+[![Rúðan Verkskráning birtist](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3.  Sláið inn nafn og lýsingu fyrir skráninguna, og smellið á **Ræsa**. Skráningarlotan hefst um leið og smellt er á **Ræsa**.
 
@@ -98,10 +99,10 @@ Smellið á **Halda áfram** til að halda áfram með skráningarlotuna eftir a
 
 ### <a name="capture-screenshots"></a>Taka skjámyndir
 
-Verkskráning getur tekið skjámyndir af notendaviðmóti Retail Modern POS á meðan þú skráir viðskiptaferli. Verkskráning notar skjámyndirnar ef þú hleður skráningunni niður sem Word-skjali. Til að kveikja á eiginleikanum til að taka skjámyndir skal stilla valkostinn **Taka skjámynd** á **Já**. 
+Verkskráning getur tekið skjámyndir af notendaviðmóti Retail Modern POS á meðan þú skráir viðskiptaferli. Til að kveikja á eiginleikanum til að taka skjámyndir skal stilla valkostinn **Taka skjámynd** á **Já** og svo framkvæma upptökuna. Þegar upptökunni er lokið skal smella á **Stopp** og hlaða niður Word-skjalinu. Skjalið mun innihalda skrefin með viðeigandi skjámyndum.
 
-#### <a name="note"></a>Nóta
-> Virknin Taka skjámynd er ekki studd í Cloud POS.
+#### <a name="note"></a>Athugið
+> Virknin Taka skjámynd er ekki studd í Modern POS.
 
 ### <a name="start-task-and-end-task"></a>Hefja verk og Ljúka verki
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 
 > [!IMPORTANT]
-> Ekki er hægt að stofna leiðbeiningunum sérsniðin verkefni fyrir Dynamics 365 for Talent. Hjálparkerfinu Talent er sjálfkrafa tengdir leiðbeiningunum verkefni fyrir vöru. 
+> Þú getur tekið upp þínar eigin verkefnaleiðbeiningar fyrir Dynamics 365 for Talent en þú munt ekki geta vistað þær í BPM-bókasafni (Business Process Modeler) eða opnað þau úr hjálparsvæðinu á þessum tíma. Þú getur vistað þær á staðnum eða á staðarnetinu, og þá opna og endurspila þær með því að nota Verkskráningu. 
 
 <a name="learn-about-task-recorder"></a>Læra um verkskráningar
 -------------------------
@@ -42,7 +42,7 @@ Verkskráning er Dynamics AX-verkfæri sem hægt er að nota til að skrá aðge
 
 -   **Hægt er að spila verkskráningu sem verkefnaleiðbeiningar.** Verkefni leiðbeiningunum eru integral stykki hinnar Hjálp reynslu. Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirk reynsla sem fer með þig í gegnum þrep viðskiptaferlis. Notandi er leiðbeint um að ljúka við hvert skref með sprettigluggum (eða "talblaðra"), sem verður lifandi í Notendaviðmóti og benda á UI einingar sem notandinn ætti að eiga samskipti við. "Talblaðra" veitir einnig upplýsingar um hvernig á að eiga samskipti við einingar, svo sem "Smella skal hér" eða "Í þessu svæði er fært inn gildi." Verkefnaleiðbeiningar keyra gagnvart gildandi gagnasafni notanda og gögnin sem færð er inn eru vistuð í umhverfi notanda.
 -   **Verkskráning getur birst sem skref ferlis í hjálparrúðu.** Nota má hjálparrúðuna til að leita að og sýna verkskráningar. Hægt er að opna rúðuna Hjálp með því að smella á **?** táknið í efstu skoðunarrein eða hægt er að nota flýtivísunarlykilsamsetningu, **Ctrl + Shift +?**. Hægt er að lesa þrep verkskráningar í hjálparglugganum eða hægt er að kjósa að spila verkskráningu sem leiðarvísi fyrir verk, svo það leiðir notandann í gegnum Notendaviðmóti.
--   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráning í línu stigveldis í viðskiptaferlavinnsla (BPM) safnið í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningu sem hafa verið vistaðar í BPM-safn sem Hjálp.
+-   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráningu í línu stigveldis í BPM safni í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningu sem hafa verið vistaðar í BPM-safn sem Hjálp.
 -   **Hægt er að vista verkskráningu í sem Word-skjöl.** Þannig geturðu auðveldlega búið til prentanlegar þjálfunarleiðbeiningar.
 
 Hægt er að stofna eigin verkskráningu, spila verkskráningar sem veittar eru af Microsoft eða breyta verkskráningu sem veitt er af Microsoft til að endurspegla skilgreininguna. Sjá frekari upplýsingar um Verkskráning sjá [Verkskráning](task-recorder.md).

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 521 | Punktastaða vildarkorts | Sýna punktastöðu fyrir tilgreint vildarkort. | Já | Já | Númer | Númer | Númer |
 | 914 | Minnka glugga sölustaðar | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
 | 1000 | Opin skúffa | Framkvæma aðgerðina „engin sala“ og opna peningaskúffu sem er valin núna. | Já | Já | Já | Já | Númer |
+| 928 | Uppfylling pöntunar | Þessi aðgerð gerir notendum kleift að taka til, pakka, senda eða afturkalla pantanir fyrir afhendingu í verslun. | Já | Já | Já | Númer | Númer |
 | 129 | Hnekkja línuskatti | Hnekkja skatti á völdu línuatriði og nota annan tilgreindan skatt. | Já | Já | Númer | Já | Númer |
 | 130 | Hnekkja línuskatti af lista | Hnekkja skatti á línuatriði og nota skatt sem notandi velur úr lista. | Já | Já | Númer | Já | Númer |
 | 127 | Hnekkja færsluskatti | Hnekkja skatti á færslunni og nota annan tilgreindan skatt. | Já | Já | Númer | Já | Númer |

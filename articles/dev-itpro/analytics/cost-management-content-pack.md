@@ -1,9 +1,9 @@
 ---
 title: "Kostnaðarstjórnun Power BI efni"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
+description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar. 
 
 # <a name="overview"></a>Yfirlit
 
@@ -51,8 +51,6 @@ Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara b
 
 Megingagnaveita fyrir CostAggregatedCostStatementEntryEntity er taflan CostStatementCache. Þessari töflu er stjórnað af ramma skyndiminnis gagnasafns. Sjálfgefið er að taflan sé uppfærð á 24 tíma fresti en hægt er að virkja handvirkar uppfærslur í skilgreiningu gagnaskyndiminnis. Síðan er hægt að gera handvirka uppfærslu á vinnusvæðinu **Kostnaðarstjórnun** eða **Kostnaðargreiningu**. Eftir að uppfærslan á CostStatementCache hefur verið keyrð verður að uppfæra OData-tenging í Power BI.com til að sjá uppfærð gögn á svæði. Frávikin (innkaup, framleiðsla) sem eru mæld í þessu Power Bi-efni snerta aðeins atriði sem eru metin af aðferð Staðalkostnaðar birgðir. Framleiðslufrávik eru reiknuð sem mismunurinn milli virks kostnaðar og innleysts kostnaðar. Framleiðslufrávik er reiknað þegar framleiðslupöntun er með stöðuna **Lokið**. Frekari upplýsingar um gerð framleiðslufrávika og hvernig hver gerð er reiknuð út er að finna í [Um greiningu frávika fyrir lokna framleiðslupöntun](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Kostnaðarstjórnun Power BI efni** er tiltækt frá PowerBI.com Nánari upplýsingar um hvernig á að tengja og hlaða gögn Microsoft Dynamics 365 for Finance and Operations, sjá [Aðgangur Power BI efni úr PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efni **Kostnaðarstjórnun**.
@@ -136,13 +134,6 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Fjárhagur          | Gjaldmiðill, heiti, lýsing                  |
 | Svæði            | Skilríki, heiti, land, borg                      |
 
-## <a name="additional-resources"></a>Frekari upplýsingar
-Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
-
--   [Gagnaeiningar](..\data-entities\data-entities.md)
--   [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Bæta Power BI-reitum við vinnusvæði](configure-power-bi-integration.md)
 
 
 

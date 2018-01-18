@@ -3,7 +3,7 @@ title: "Framleiðsluafköst - Power BI efni"
 description: "Þetta efnisatriði lýsir því hvað felst í Power BI efninu Framleiðsluafköst. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Eftirfarandi tafla sýnir myndræna framsetningu sem fylgir.
 | Gallaþróun eftir tilföngum                  | Hlutfall galla (milljónarhluti) eftir unnu magni | |
 | Framleiðslufrávik fyrir kostnaðaraðferð vinnslupöntunar | <ul><li>Framleiðslufrávik eftir dagsetningu og gerð kostnaðarflokks</li><li>Framleiðslufrávik eftir svæði og gerð kostnaðarflokks</li><li>Efstu 10 vörur með óhagstætt framleiðslufrávik</li><li>Efstu 10 vörur með óhagstætt framleiðslufrávik eftir tilföngum</li></ul> | <ul><li>Innleystur kostnaður</li><li>Framleiðslufrávik</li><li>Framleiðslufrávik %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Stækkun efnis Power BI
-Með því að nota þjónustupakka sem eru í boði í Microsoft Dynamics Lifecycle Services (LCS) er hægt að veita fólki sem skráir sig ekki inn í Microsoft Dynamics 365 öflugri greiningu. Hægt er að breyta þessum þjónustupökkum þannig að þeir innihaldi skýrslur eða myndræna framsetningu og afhenda svo leigjanda Power BI.com þjónustupakkana.
-
-Hægt er að finna Power BI efnið **Framleiðsluafköst** í safninu Samnýttar eignir í LCS. Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](power-bi-content-microsoft-partners.md). Til að sjá sýningarmyndband um hvernig innleiða á Power BI-efnið, sjá [Power BI-efni frá Microsoft og samstarfsaðilum þínum í Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) í Office Mix.
-
-Gangið úr skugga um að sækja efnið **Framleiðsluafköst** sem á við um þá útgáfu Dynamics 365 sem notuð er.
-
-> [!NOTE]
-> Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611, er KB 4011327 forsenda fyrir þessu Power BI efni. Þegar þú hefur skráð þig inn í LCS hefur þú aðgang að KB á https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
@@ -139,12 +130,5 @@ Eftirfarandi tafla sýnir lykilvíddir sem eru notaðar sem síur til að sneið
 | Tilföng                 | Auðkenni tilfanga, heiti tilfanga, gerð tilfanga og tilfangahópur |
 | Afurðir                  | Afurðarnúmer, afurðarheiti, auðkenni vöru og vöruflokkur         |
 
-## <a name="additional-resources"></a>Frekari upplýsingar
 
-Hér eru gagnlegir tenglar sem tengjast einingar og að búa til Power BI-efni:
-
-- [Gagnaeiningar](../data-entities/data-entities.md)
-- [Stofnun efnispakka fyrirtækis ](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Gera gagnalíkön með því að nota Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Bæta Power BI-reitum við vinnusvæði](configure-power-bi-integration.md)
 

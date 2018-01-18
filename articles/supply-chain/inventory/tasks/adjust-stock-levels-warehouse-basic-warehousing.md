@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: is-is
 ms.lasthandoff: 09/29/2017
 
 ---
-# Leiðrétta birgðastöðu í vöruhúsi (grunnvöruhús)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Leiðrétta birgðastöðu í vöruhúsi (grunnvöruhús)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðaleiðréttingabók til að leiðrétta geymslustig afurða í vöruhúsið. Þú þarft að hafa með heiti birgðabókarinnar sett upp fyrir leiðréttingar á birgðum áður en þetta er hafið. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þessi verkefni eru venjulega framkvæmd af starfsmanni í vöruhúsi.
 
 
-## Stofna heiti færslubóka fyrir birgðaleiðréttingu
+## <a name="create-an-inventory-adjustment-journal"></a>Stofna heiti færslubóka fyrir birgðaleiðréttingu
 1. Fara í Birgðastjórnun > Færslubókarfærslur > Vörur > Birgðaleiðrétting.
 2. Smellið á „Nýtt“.
 3. Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/29/2017
     * Sumir aðrir reitir verða fylltir út samkvæmt uppsetningu heitis færslubókar birgðaleiðréttingar sem var valið.  
 5. Smellið á „Í lagi“.
 
-## Stofna færslubókarlínur
+## <a name="create-journal-lines"></a>Stofna færslubókarlínur
 1. Smellið á „Nýtt“.
 2. Í listanum merkirðu við reitinn Vörunúmer.
 3. Í reitnum Vörunúmer velurðu vöru. Ef verið er að nota sýnigagnafyrirtækið USMF skal slá inn 'D0001'.
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 8. Færið inn númer í reitnum „Magn“.
     * Reiturinn Kostnaðarverð tilgreinir einingarkostnað fyrir innhreyfingar birgða. Ef kostnaður er ekki tilgreindur fyrir vörunúmer eða ef þú vildir breyta því handvirkt þá er það gert hér.  
 
-## Sannprófa og bóka færslubók fyrir leiðréttingu á birgðaskrá
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Sannprófa og bóka færslubók fyrir leiðréttingu á birgðaskrá
 1. Smella á Villuleita.
 2. Smellið á „Í lagi“.
 3. Smellið á „Bóka“.

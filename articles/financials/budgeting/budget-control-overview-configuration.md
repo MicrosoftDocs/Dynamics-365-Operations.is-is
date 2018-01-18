@@ -3,11 +3,12 @@ title: "Yfirlit fjárhagsáætlunarstýringar "
 description: "Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um skilgreiningu fjárhagsáætlunarstýringar í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition þannig að hægt sé að stýra fjárhagslegum tilföngum."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
