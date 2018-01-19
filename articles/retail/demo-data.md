@@ -10,7 +10,8 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 747c0cfa36e1220342307ae665e69e02eabd3cce
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -96,13 +97,13 @@ ms.lasthandoff: 01/17/2018
 
 | <span data-ttu-id="7d60a-173">Útlitsgerð</span><span class="sxs-lookup"><span data-stu-id="7d60a-173">Layout type</span></span> | <span data-ttu-id="7d60a-174">Upplausn</span><span class="sxs-lookup"><span data-stu-id="7d60a-174">Resolution</span></span> | <span data-ttu-id="7d60a-175">Myndhlutfall</span><span class="sxs-lookup"><span data-stu-id="7d60a-175">Aspect ratio</span></span> | <span data-ttu-id="7d60a-176">Markskjár</span><span class="sxs-lookup"><span data-stu-id="7d60a-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="7d60a-177">Þjappa\\*</span><span class="sxs-lookup"><span data-stu-id="7d60a-177">Compact\\*</span></span>   | <span data-ttu-id="7d60a-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="7d60a-178">480 × 853</span></span>  | <span data-ttu-id="7d60a-179">16:9</span><span class="sxs-lookup"><span data-stu-id="7d60a-179">16:9</span></span>         | <span data-ttu-id="7d60a-180">Símar</span><span class="sxs-lookup"><span data-stu-id="7d60a-180">Phones</span></span>                  |
+| <span data-ttu-id="7d60a-177">Þjappa\*</span><span class="sxs-lookup"><span data-stu-id="7d60a-177">Compact\*</span></span>   | <span data-ttu-id="7d60a-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="7d60a-178">480 × 853</span></span>  | <span data-ttu-id="7d60a-179">16:9</span><span class="sxs-lookup"><span data-stu-id="7d60a-179">16:9</span></span>         | <span data-ttu-id="7d60a-180">Símar</span><span class="sxs-lookup"><span data-stu-id="7d60a-180">Phones</span></span>                  |
 | <span data-ttu-id="7d60a-181">Fullt</span><span class="sxs-lookup"><span data-stu-id="7d60a-181">Full</span></span>        | <span data-ttu-id="7d60a-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="7d60a-182">1024 × 768</span></span> | <span data-ttu-id="7d60a-183">4:3</span><span class="sxs-lookup"><span data-stu-id="7d60a-183">4:3</span></span>          | <span data-ttu-id="7d60a-184">Spjaldtölvur</span><span class="sxs-lookup"><span data-stu-id="7d60a-184">Tablets</span></span>                 |
-| <span data-ttu-id="7d60a-185">Fullt\\*</span><span class="sxs-lookup"><span data-stu-id="7d60a-185">Full\\*</span></span>      | <span data-ttu-id="7d60a-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="7d60a-186">1280 × 720</span></span> | <span data-ttu-id="7d60a-187">16:9</span><span class="sxs-lookup"><span data-stu-id="7d60a-187">16:9</span></span>         | <span data-ttu-id="7d60a-188">Spjaldtölvur</span><span class="sxs-lookup"><span data-stu-id="7d60a-188">Tablets</span></span>                 |
+| <span data-ttu-id="7d60a-185">Fullt\*</span><span class="sxs-lookup"><span data-stu-id="7d60a-185">Full\*</span></span>      | <span data-ttu-id="7d60a-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="7d60a-186">1280 × 720</span></span> | <span data-ttu-id="7d60a-187">16:9</span><span class="sxs-lookup"><span data-stu-id="7d60a-187">16:9</span></span>         | <span data-ttu-id="7d60a-188">Spjaldtölvur</span><span class="sxs-lookup"><span data-stu-id="7d60a-188">Tablets</span></span>                 |
 | <span data-ttu-id="7d60a-189">Fullt</span><span class="sxs-lookup"><span data-stu-id="7d60a-189">Full</span></span>        | <span data-ttu-id="7d60a-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="7d60a-190">1366 × 768</span></span> | <span data-ttu-id="7d60a-191">16:9</span><span class="sxs-lookup"><span data-stu-id="7d60a-191">16:9</span></span>         | <span data-ttu-id="7d60a-192">Spjaldtölvur, stærri skjáir</span><span class="sxs-lookup"><span data-stu-id="7d60a-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="7d60a-193">Fullt</span><span class="sxs-lookup"><span data-stu-id="7d60a-193">Full</span></span>        | <span data-ttu-id="7d60a-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="7d60a-194">1440 × 960</span></span> | <span data-ttu-id="7d60a-195">3:2</span><span class="sxs-lookup"><span data-stu-id="7d60a-195">3:2</span></span>          | <span data-ttu-id="7d60a-196">Spjaldtölvur, stærri skjáir</span><span class="sxs-lookup"><span data-stu-id="7d60a-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="7d60a-197">\\* Þessir viðbótar útlitsstærðir eru aðeins tiltækar í Adventure Works og Fabrikam útliti.</span><span class="sxs-lookup"><span data-stu-id="7d60a-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="7d60a-197">\* Þessir viðbótar útlitsstærðir eru aðeins tiltækar í Adventure Works og Fabrikam útliti.</span><span class="sxs-lookup"><span data-stu-id="7d60a-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]

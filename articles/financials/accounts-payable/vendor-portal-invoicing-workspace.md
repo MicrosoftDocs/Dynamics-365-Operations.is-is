@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: is-is
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="1dca3-113">Greiddir reikningar eru þeir sem hafa verið greiddir að fullu í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1dca3-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="1dca3-114">Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.</span><span class="sxs-lookup"><span data-stu-id="1dca3-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="1dca3-115">Töflulisti</span><span class="sxs-lookup"><span data-stu-id="1dca3-115">Tabular lists</span></span>
 
 <span data-ttu-id="1dca3-116">Í **Töflulista** hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar.</span><span class="sxs-lookup"><span data-stu-id="1dca3-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="1dca3-117">Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum.</span><span class="sxs-lookup"><span data-stu-id="1dca3-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="1dca3-118">Síðasti töflulistinn er valkostur til að finna reikninga.</span><span class="sxs-lookup"><span data-stu-id="1dca3-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="1dca3-119">Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.</span><span class="sxs-lookup"><span data-stu-id="1dca3-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="1dca3-120">Listasíðu fyrir alla reikninga lánardrottins</span><span class="sxs-lookup"><span data-stu-id="1dca3-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="1dca3-120">Listasíðu fyrir alla reikninga lánardrottins</span><span class="sxs-lookup"><span data-stu-id="1dca3-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="1dca3-121">Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu.</span><span class="sxs-lookup"><span data-stu-id="1dca3-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="1dca3-122">Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna.</span><span class="sxs-lookup"><span data-stu-id="1dca3-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="1dca3-123">Greiðslustöðurnar innifela óbókað, ógreiddur, greiddur að hluta, og greiddur að fullu.</span><span class="sxs-lookup"><span data-stu-id="1dca3-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>

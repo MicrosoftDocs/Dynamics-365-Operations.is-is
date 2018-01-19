@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ee931a46524a8f0f79f53b8371765118caf5f1f8
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 01/17/2018
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="9b5fe-340">Fastur kostnaður</span><span class="sxs-lookup"><span data-stu-id="9b5fe-340">Fixed cost</span></span>                            | <span data-ttu-id="9b5fe-341">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="9b5fe-341">Organization</span></span>                         | <span data-ttu-id="9b5fe-342">100,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-342">100.00</span></span>           | <span data-ttu-id="9b5fe-343">0,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-343">0.00</span></span>         | <span data-ttu-id="9b5fe-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9b5fe-344">1/1/2017</span></span>   | <span data-ttu-id="9b5fe-345">Aldrei</span><span class="sxs-lookup"><span data-stu-id="9b5fe-345">Never</span></span>    |
 | <span data-ttu-id="9b5fe-346">10001</span><span class="sxs-lookup"><span data-stu-id="9b5fe-346">10001</span></span>                                 | <span data-ttu-id="9b5fe-347">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="9b5fe-347">Organization</span></span>                         | <span data-ttu-id="9b5fe-348">0,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-348">0.00</span></span>             | <span data-ttu-id="9b5fe-349">150.00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-349">150.00</span></span>       | <span data-ttu-id="9b5fe-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9b5fe-350">1/1/2017</span></span>   | <span data-ttu-id="9b5fe-351">Aldrei</span><span class="sxs-lookup"><span data-stu-id="9b5fe-351">Never</span></span>    |
-| <span data-ttu-id="9b5fe-352">10001 (\\*)</span><span class="sxs-lookup"><span data-stu-id="9b5fe-352">10001 (\\*)</span></span>                             | <span data-ttu-id="9b5fe-353">Fjármál</span><span class="sxs-lookup"><span data-stu-id="9b5fe-353">Finance</span></span>                              |                  | <span data-ttu-id="9b5fe-354">50,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-354">50.00</span></span>        | <span data-ttu-id="9b5fe-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9b5fe-355">1/1/2017</span></span>   | <span data-ttu-id="9b5fe-356">Aldrei</span><span class="sxs-lookup"><span data-stu-id="9b5fe-356">Never</span></span>    |
+| <span data-ttu-id="9b5fe-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="9b5fe-352">10001 (\*)</span></span>                             | <span data-ttu-id="9b5fe-353">Fjármál</span><span class="sxs-lookup"><span data-stu-id="9b5fe-353">Finance</span></span>                              |                  | <span data-ttu-id="9b5fe-354">50,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-354">50.00</span></span>        | <span data-ttu-id="9b5fe-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9b5fe-355">1/1/2017</span></span>   | <span data-ttu-id="9b5fe-356">Aldrei</span><span class="sxs-lookup"><span data-stu-id="9b5fe-356">Never</span></span>    |
 | <span data-ttu-id="9b5fe-357">Kostnaðarhegðun eða Breytilegan kostnað (\*\*)</span><span class="sxs-lookup"><span data-stu-id="9b5fe-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="9b5fe-358">Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="9b5fe-358">Organization</span></span>                         | <span data-ttu-id="9b5fe-359">0,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-359">0.00</span></span>             | <span data-ttu-id="9b5fe-360">0,00</span><span class="sxs-lookup"><span data-stu-id="9b5fe-360">0.00</span></span>         | <span data-ttu-id="9b5fe-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="9b5fe-361">1/1/2017</span></span>   | <span data-ttu-id="9b5fe-362">Aldrei</span><span class="sxs-lookup"><span data-stu-id="9b5fe-362">Never</span></span>    |
 
-<span data-ttu-id="9b5fe-363">\\* Hnútur breytilegs kostnaðar er ekki nauðsynlegur.</span><span class="sxs-lookup"><span data-stu-id="9b5fe-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="9b5fe-364">Ef kostnaður er ekki flokkaður sem fastakostnaður, verður að vera breytilegan kostnað.</span><span class="sxs-lookup"><span data-stu-id="9b5fe-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="9b5fe-363">\* Hnútur breytilegs kostnaðar er ekki nauðsynlegur.</span><span class="sxs-lookup"><span data-stu-id="9b5fe-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="9b5fe-364">Ef kostnaður er ekki flokkaður sem fastakostnaður, verður að vera breytilegan kostnað.</span><span class="sxs-lookup"><span data-stu-id="9b5fe-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="9b5fe-365">\*\* Ítarlega regla er stofnuð fyrir samsetningar á kostnaði einingarinnar stak 10001 og alla kostnaðarflokka stökum þjónustuhlutar sem eru tekin saman í á Fjármál stigsveldisstig (CC002 CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="9b5fe-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
