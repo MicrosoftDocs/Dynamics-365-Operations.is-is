@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: is-is
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="9816a-104">Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="9816a-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="9816a-105">Línukóði tilgreindur í línuskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="9816a-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="9816a-105">Línukóði tilgreindur í línuskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="9816a-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="9816a-106">Í línuskilgreiningum eru það númer eða merki í hólfinu **Línukóði** sem auðkenna hverja línu í línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="9816a-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="9816a-107">Hægt er að tiltaka línukóðann sem á að vísa til gagna í útreikningum og samtölum.</span><span class="sxs-lookup"><span data-stu-id="9816a-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="9816a-709">Samstæðan sem á að eyða er valin og svo er smellt á **Eyða**.</span><span class="sxs-lookup"><span data-stu-id="9816a-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="9816a-710">Smellið á **Já** til að eyða víddagildasamstæðunni varanlega.</span><span class="sxs-lookup"><span data-stu-id="9816a-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="9816a-711">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9816a-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="9816a-711">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9816a-711">See also</span></span>
 
 [<span data-ttu-id="9816a-712">Fjárhagsskýrslugerð</span><span class="sxs-lookup"><span data-stu-id="9816a-712">Financial reporting</span></span>](financial-reporting-intro.md)
 

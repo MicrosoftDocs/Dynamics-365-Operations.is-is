@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-128">[![Excel-sniðmát](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="f6694-129">Æfing 1: Uppsetning</span><span class="sxs-lookup"><span data-stu-id="f6694-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="f6694-129">Æfing 1: Uppsetning</span><span class="sxs-lookup"><span data-stu-id="f6694-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="f6694-130">**Verkefni 1: Stofna stigveldi fyrirtækisins**</span><span class="sxs-lookup"><span data-stu-id="f6694-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="f6694-130">**Verkefni 1: Stofna stigveldi fyrirtækisins**</span><span class="sxs-lookup"><span data-stu-id="f6694-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="f6694-131">Þar sem allt fjárhagsáætlunarferlið gerist í fjármáladeild, þarf Julia að stofna mjög einfalda stigveldisskipan – samanstendur af aðeins fjármáladeild.</span><span class="sxs-lookup"><span data-stu-id="f6694-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="f6694-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-132">1.1.</span></span> <span data-ttu-id="f6694-133">Fara í stigveldi Fyrirtækis (fyrirtækisstjórnun &gt; Fyrirtæki &gt; stigveldi fyrirtækja) og smella á hnappinn Nýtt</span><span class="sxs-lookup"><span data-stu-id="f6694-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Stigveldi fyrirtækis](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-155">[![Gildisdagsetning](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="f6694-156">Verkefni 2: Setja upp Öryggi notanda</span><span class="sxs-lookup"><span data-stu-id="f6694-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="f6694-156">Verkefni 2: Setja upp Öryggi notanda</span><span class="sxs-lookup"><span data-stu-id="f6694-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="f6694-157">Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðgang að gögnum fjárhagsáætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="f6694-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="f6694-158">Julia þarf að veita sjálfri sér aðgang að fjárhagsáætlunargerðinni.</span><span class="sxs-lookup"><span data-stu-id="f6694-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="f6694-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-159">2.1.</span></span> <span data-ttu-id="f6694-160">Skipta yfir í DEMF-lögaðilasamhengi.</span><span class="sxs-lookup"><span data-stu-id="f6694-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-178">[![Heimila aðgang](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="f6694-179">Verkefni 3: Stofna atburðarás</span><span class="sxs-lookup"><span data-stu-id="f6694-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="f6694-179">Verkefni 3: Stofna atburðarás</span><span class="sxs-lookup"><span data-stu-id="f6694-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="f6694-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-180">3.1.</span></span> <span data-ttu-id="f6694-181">Farið á Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="f6694-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="f6694-182">Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun.</span><span class="sxs-lookup"><span data-stu-id="f6694-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="f6694-183">*Athugið: Hægt að stofna nýja atburðarás fyrir þessa æfingu og nota í staðinn.*</span><span class="sxs-lookup"><span data-stu-id="f6694-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-185">*Athugið: Þar sem Julia notar ekki formleg samþykktarferli fyrir undirbúning fjárhagsáætlunar, munum við hlaupa yfir uppsetningar Verkflæði, Stig og Verkflæðisstig í þessari æfingu og nota fyrirliggjandi uppsetningu fyrir Sjálfvirkt – samþykkja verkflæði. Sjá viðauka fyrir þessa skilgreiningu fyrir verkflæði.*</span><span class="sxs-lookup"><span data-stu-id="f6694-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="f6694-186">4. verkefni: Stofna fjárhagsáætlunardálka</span><span class="sxs-lookup"><span data-stu-id="f6694-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="f6694-186">4. verkefni: Stofna fjárhagsáætlunardálka</span><span class="sxs-lookup"><span data-stu-id="f6694-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="f6694-187">Dálkar fyrir Fjárhagsáætlunargerð er annað hvort gjaldmiðilsdálkar eða magndálkar sem er hægt að nota í skjalinu fyrir fjárhagsáætlun.u</span><span class="sxs-lookup"><span data-stu-id="f6694-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="f6694-188">Í dæminu okkar er nauðsynlegt að stofna dálk fyrir rauntölur fyrra árs og 12 dálka sem hver stendur fyrir einn mánuð fjárhagsársins.</span><span class="sxs-lookup"><span data-stu-id="f6694-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="f6694-189">Hægt er að stofna dálka annaðhvort með því að smella einfaldlega á hnappinn Bæta við og fylla inn í gildi, eða með aðstoð gagnaeiningar.</span><span class="sxs-lookup"><span data-stu-id="f6694-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="f6694-190">Í þessari æfingu munum við nota gagnaeiningu til að fylla inn i gildin.</span><span class="sxs-lookup"><span data-stu-id="f6694-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="f6694-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-191">4.1.</span></span> <span data-ttu-id="f6694-192">Í Fjárhagsáætlun&gt;Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu dálkasíðuna.</span><span class="sxs-lookup"><span data-stu-id="f6694-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="f6694-193">Smellið á hnappinn Office í efra hægra horni í skjámyndinni og veljið Dálka (óafmarkaða)</span><span class="sxs-lookup"><span data-stu-id="f6694-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-219">[![Uppfæra](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="f6694-220">Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals</span><span class="sxs-lookup"><span data-stu-id="f6694-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="f6694-220">Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals</span><span class="sxs-lookup"><span data-stu-id="f6694-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="f6694-221">Útlit ákvarðar hvernig hnitanet fyrir fjárhagsáætlunargerðarskjalið lítur út þegar notandi opnar skjal fjárhagsáætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="f6694-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="f6694-222">Einnig er hægt að skipta um útlit fyrir skjal fjárhagsáætlunargerðar til að sjá sömu gögn frá mismunandi sjónarhornum.</span><span class="sxs-lookup"><span data-stu-id="f6694-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="f6694-223">Núna, þegar hún hefur skilgreint dálka til notkunar með fjárhagsáætlunargerðarskjali, þarf Julia að búa til skjal yfir útlit fjárhagsáætlunar, sem myndi líta svipað út og Excel taflan sem hún notar til að stofna fjárhagsáætlunargögn (sjá hlutann Yfirlit yfir aðstæður í þessari æfingu)</span><span class="sxs-lookup"><span data-stu-id="f6694-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="f6694-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-224">5.1.</span></span> <span data-ttu-id="f6694-225">Í Fjárhagsáætlun &gt; Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu útlitssíðuna.</span><span class="sxs-lookup"><span data-stu-id="f6694-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="f6694-226">Búa til nýtt útlit fyrir færslu fyrir mánaðarlega fjárhagsáætlun:</span><span class="sxs-lookup"><span data-stu-id="f6694-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="f6694-240">5.3.</span></span> <span data-ttu-id="f6694-241">&lt; Valfrjálst skref&gt; Breyta Excel-sniðmáti til að það líti notendavænna út – bæta við formúlum, fyrirsagnasvæðum, sniðum o.s.frv. Vistið breytingarnar og senda skrá yfir á fjárhagsáætlunarútlit með því að smella á Útlit &gt; Senda [![Senda](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="f6694-242">Verkefni 6: Stofna ferli fjárhagsáætlunargerðar</span><span class="sxs-lookup"><span data-stu-id="f6694-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="f6694-242">Verkefni 6: Stofna ferli fjárhagsáætlunargerðar</span><span class="sxs-lookup"><span data-stu-id="f6694-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="f6694-243">Julia þarf að stofna og virkja nýja fjárhagsáætlunargerð með því að sameina alla uppsetninguna hér að ofan til að byrja að færa inn fjárhagsáætlanir.</span><span class="sxs-lookup"><span data-stu-id="f6694-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="f6694-244">Ferli fjárhagsáætlunargerðar skilgreinir hvaða fyrirtækisfjárhagsáætlanir, verkflæði, útlit og sniðmát verður notað til að stofna fjárhagsáætlunargerð.</span><span class="sxs-lookup"><span data-stu-id="f6694-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="f6694-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-245">6.1.</span></span> <span data-ttu-id="f6694-246">Fara í Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Ferli fjárhagsáætlunargerðar og stofna nýja færslu.</span><span class="sxs-lookup"><span data-stu-id="f6694-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-258">[![Virkja](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="f6694-259">Æfing 2: Eftirlíking af ferli</span><span class="sxs-lookup"><span data-stu-id="f6694-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="f6694-259">Æfing 2: Eftirlíking af ferli</span><span class="sxs-lookup"><span data-stu-id="f6694-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="f6694-260">Verkefni 7: Mynda upphafsgögn fyrir fjárhagsáætlunargerð úr Almennri höfuðbók</span><span class="sxs-lookup"><span data-stu-id="f6694-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="f6694-260">Verkefni 7: Mynda upphafsgögn fyrir fjárhagsáætlunargerð úr Almennri höfuðbók</span><span class="sxs-lookup"><span data-stu-id="f6694-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="f6694-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-261">7.1.</span></span> <span data-ttu-id="f6694-262">Fara í Fjárhagsáætlun &gt; Reglubundið &gt; Mynda fjárhagsáætlun úr Almennri höfuðbók.</span><span class="sxs-lookup"><span data-stu-id="f6694-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="f6694-263">Fylla út reglubundnar færibreytur og smellið á hnappinn Mynda.</span><span class="sxs-lookup"><span data-stu-id="f6694-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="f6694-264">[![Mynda](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-271">[![Fjárhagsáætlunarskjár](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="f6694-272">Verkefni 8: Stofna fjárhagsáætlun fyrir núverandi ár byggt á rauntölum fyrra árs.</span><span class="sxs-lookup"><span data-stu-id="f6694-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="f6694-272">Verkefni 8: Stofna fjárhagsáætlun fyrir núverandi ár byggt á rauntölum fyrra árs.</span><span class="sxs-lookup"><span data-stu-id="f6694-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="f6694-273">Hægt er að nota úthlutunaraðferðir í fjárhagsáætlunargerð til að auðveldlega afrita upplýsingar um fjárhagsáætlanir úr einum aðstæðum í aðrar / dreifa þeim yfir mörg tímabil / úthluta á víddir.</span><span class="sxs-lookup"><span data-stu-id="f6694-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="f6694-274">Við notum úthlutanir til að stofna fjárhagsáætlun fyrir núverandi ár frá rauntölum fyrra árs.</span><span class="sxs-lookup"><span data-stu-id="f6694-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="f6694-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-275">8.1.</span></span> <span data-ttu-id="f6694-276">Veljið allar línur á hnitanetinu á fjárhagsáætlunarskjalinu og smellið á hnappinn úthluta fjárhagsáætlun</span><span class="sxs-lookup"><span data-stu-id="f6694-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-282">[![Sölukúrfur](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="f6694-283">Verkefni 9: Aðlaga fjárhagsáætlunargerðarskjalið með því að nota Excel og ljúka við skjalið</span><span class="sxs-lookup"><span data-stu-id="f6694-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="f6694-283">Verkefni 9: Aðlaga fjárhagsáætlunargerðarskjalið með því að nota Excel og ljúka við skjalið</span><span class="sxs-lookup"><span data-stu-id="f6694-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="f6694-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="f6694-284">9.1.</span></span> <span data-ttu-id="f6694-285">Smellið á hnappinn Vinnublað til að opna innihald skjalsins í Excel</span><span class="sxs-lookup"><span data-stu-id="f6694-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="f6694-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="f6694-294">Þegar verkflæði er lokið breytist stig fjárhagsáætlunargerðarskjala í Samþykkt.</span><span class="sxs-lookup"><span data-stu-id="f6694-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="f6694-295">[![Samþykkt](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="f6694-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="f6694-296">Viðauki</span><span class="sxs-lookup"><span data-stu-id="f6694-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="f6694-296">Viðauki</span><span class="sxs-lookup"><span data-stu-id="f6694-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="f6694-297">Samþykkja sjálfvirkt uppsetningu verkflæðis.</span><span class="sxs-lookup"><span data-stu-id="f6694-297">Auto-Approve workflow configuration</span></span>
 

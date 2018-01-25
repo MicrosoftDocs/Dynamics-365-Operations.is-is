@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7a3ff5a00af72dd7810337d1390b39d4f849dada
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 9447b0d9eedbdd56f1e221a48f687a94a19d31c4
 ms.contentlocale: is-is
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="b4b0d-104">Þessi eiginleiki er studdur í Dynamics 365 tfor Finance and Operations (útgáfu 7.2 og seinni).</span><span class="sxs-lookup"><span data-stu-id="b4b0d-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-# <a name="introduction"></a><span data-ttu-id="b4b0d-105">Inngangur</span><span class="sxs-lookup"><span data-stu-id="b4b0d-105">Introduction</span></span>
+## <a name="introduction"></a><span data-ttu-id="b4b0d-105">Inngangur</span><span class="sxs-lookup"><span data-stu-id="b4b0d-105">Introduction</span></span>
 <span data-ttu-id="b4b0d-106">Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI-skýrslu á flipann **Greiningar** á vinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="b4b0d-107">Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á  **Greiningarflipa**.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-# <a name="prerequisites"></a><span data-ttu-id="b4b0d-108">Frumskilyrði</span><span class="sxs-lookup"><span data-stu-id="b4b0d-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="b4b0d-108">Frumskilyrði</span><span class="sxs-lookup"><span data-stu-id="b4b0d-108">Prerequisites</span></span>
 + <span data-ttu-id="b4b0d-109">Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
 + <span data-ttu-id="b4b0d-110">Greiningarskýrsla (.pbix skrá) sem var búin til með Microsoft Power BI Desktop, og sem er með gagnalíkan sem kemur úr gagnagrunni Einingarverslunarinnar.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-# <a name="overview"></a><span data-ttu-id="b4b0d-111">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="b4b0d-111">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="b4b0d-111">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="b4b0d-111">Overview</span></span>
 <span data-ttu-id="b4b0d-112">Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þitt eigið vinnusvæði geturðu notað innfelld greiningaryfirlit til að fá skýrt og gagnvirkt yfirlit yfir viðskiptagögnin þín.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="b4b0d-113">Ferlið til að bæta við greiningarvinnusvæðisflipa er í fjórum skrefum.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
 1. <span data-ttu-id="b4b0d-114">Bættu við .pbix file sem Dynamics 365 tilfangi.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="b4b0d-118">Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="b4b0d-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="b4b0d-119">Á þessari síðu er hægt að nálgast upplýsingar sem geta hjálpað þér að búa til áhugaverðar greiningarskýrslulausnir.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-# <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="b4b0d-120">Bættu við .pbix file sem tilfangi</span><span class="sxs-lookup"><span data-stu-id="b4b0d-120">Add a .pbix file as a resource</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="b4b0d-120">Bættu við .pbix file sem tilfangi</span><span class="sxs-lookup"><span data-stu-id="b4b0d-120">Add a .pbix file as a resource</span></span>
 <span data-ttu-id="b4b0d-121">Áður en hafist er handa þarf að stofna eða sækja Power BI skýrsluna sem þú munt fella inn í vinnusvæðið.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="b4b0d-122">Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="b4b0d-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
  
 <span data-ttu-id="b4b0d-123">Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio verkgervingu.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
@@ -66,7 +66,7 @@ ms.lasthandoff: 01/19/2018
   
 <span data-ttu-id="b4b0d-131">Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi geturðu fellt skýrslurnar inn í vinnusvæði og bætt við beinum tenglum með því að nota valmyndaratriði.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="b4b0d-132">Bættu flipastýringu við forritsvinnusvæðinu</span><span class="sxs-lookup"><span data-stu-id="b4b0d-132">Add a tab control to an application workspace</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="b4b0d-132">Bættu flipastýringu við forritsvinnusvæðinu</span><span class="sxs-lookup"><span data-stu-id="b4b0d-132">Add a tab control to an application workspace</span></span>
 <span data-ttu-id="b4b0d-133">Í þessu dæmi víkkum við út vinnusvæðið **Stjórnun bókana** í Bílaflotastjórnunarlíkaninu með því að bæta flipanum **Greiningar** við skilgreininguna á skjámyndinni **FMClerkWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
  
 <span data-ttu-id="b4b0d-134">Eftirfarandi skýringarmynd sýnir hvernig skjámyndin **FMClerkWorkspace** lítur út í hönnuðinum í Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
@@ -105,7 +105,7 @@ ms.lasthandoff: 01/19/2018
  
 <span data-ttu-id="b4b0d-161">Nú hefurðu klárað það verk að útvíkka skilgreiningu umsóknareyðublaðsins.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="b4b0d-162">Frekari upplýsingar um hvernig á að nota skrárendingar til að sérsníða er að finna á  [Sérsnið: yfirlögn og skrárendingar](../extensibility/customization-overlayering-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="b4b0d-162">For more information about how to use extensions to do customizations, see  [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="b4b0d-163">Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu</span><span class="sxs-lookup"><span data-stu-id="b4b0d-163">Add X++ business logic to embed a viewer control</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="b4b0d-163">Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu</span><span class="sxs-lookup"><span data-stu-id="b4b0d-163">Add X++ business logic to embed a viewer control</span></span>
 <span data-ttu-id="b4b0d-164">Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar skýrsluyfirlitsstýringuna sem er innfelld í vinnusvæðinu  **Stjórnun bókana**.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
 1. <span data-ttu-id="b4b0d-165">Opnaðu skjámyndarhönnuðinn **FMClerkWorkspace** til að víkka út hönnunarskilgreininguna.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
@@ -151,12 +151,12 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="b4b0d-172">Hægt að opna fyrirliggjandi rekstraryfirlit með því að nota vinnusvæðisflipana fyrir neðan titil síðunnar.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-# <a name="reference"></a><span data-ttu-id="b4b0d-173">Tilvísun</span><span class="sxs-lookup"><span data-stu-id="b4b0d-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="b4b0d-173">Tilvísun</span><span class="sxs-lookup"><span data-stu-id="b4b0d-173">Reference</span></span>
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="b4b0d-174">PBIReportHelper.initializeReportControl aðferð</span><span class="sxs-lookup"><span data-stu-id="b4b0d-174">PBIReportHelper.initializeReportControl method</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="b4b0d-174">PBIReportHelper.initializeReportControl aðferð</span><span class="sxs-lookup"><span data-stu-id="b4b0d-174">PBIReportHelper.initializeReportControl method</span></span>
 <span data-ttu-id="b4b0d-175">Þessi hluti veitir upplýsingar um hjálparklasann sem er notaður til að fella inn Power BI skýrslu (.pbix tilfang) í skjámyndarhópsstýringu.</span><span class="sxs-lookup"><span data-stu-id="b4b0d-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-### <a name="syntax"></a><span data-ttu-id="b4b0d-176">Málskipun</span><span class="sxs-lookup"><span data-stu-id="b4b0d-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="b4b0d-176">Málskipun</span><span class="sxs-lookup"><span data-stu-id="b4b0d-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a><span data-ttu-id="b4b0d-177">Færibreytur</span><span class="sxs-lookup"><span data-stu-id="b4b0d-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="b4b0d-177">Færibreytur</span><span class="sxs-lookup"><span data-stu-id="b4b0d-177">Parameters</span></span>
 
 | <span data-ttu-id="b4b0d-178">Nafn</span><span class="sxs-lookup"><span data-stu-id="b4b0d-178">Name</span></span> | <span data-ttu-id="b4b0d-179">lýsing</span><span class="sxs-lookup"><span data-stu-id="b4b0d-179">Description</span></span> |
 |---|---|

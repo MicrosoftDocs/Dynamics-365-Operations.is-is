@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="0546a-105">Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.</span><span class="sxs-lookup"><span data-stu-id="0546a-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="0546a-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="0546a-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="0546a-107">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="0546a-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="0546a-107">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="0546a-107">Overview</span></span>
 
 <span data-ttu-id="0546a-108">Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** var stofnað fyrir einstaklinga sem bera ábyrgð á því að fylgjast með rauntölum bornum saman við áætluð afköst í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="0546a-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="0546a-109">Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** gefur sýnileika í frávik í fjárhagsáætlun.</span><span class="sxs-lookup"><span data-stu-id="0546a-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="0546a-110">Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika.</span><span class="sxs-lookup"><span data-stu-id="0546a-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="0546a-111">Farið í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="0546a-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="0546a-111">Farið í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="0546a-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="0546a-112">Skýrslur úr **Raunverulegt samanb. v. áætlun** Power BI efni eru birtar á vinnusvæðunum **Fjárhagsáætlun og spár** og **CFO vinnusvæði**.</span><span class="sxs-lookup"><span data-stu-id="0546a-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="0546a-113">Skýrslur sem eru hafðir með í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="0546a-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="0546a-113">Skýrslur sem eru hafðir með í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="0546a-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="0546a-114">Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.</span><span class="sxs-lookup"><span data-stu-id="0546a-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="0546a-115">Skýrsla</span><span class="sxs-lookup"><span data-stu-id="0546a-115">Report</span></span>                      | <span data-ttu-id="0546a-116">Einingar</span><span class="sxs-lookup"><span data-stu-id="0546a-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="0546a-129">Nettótekjur</span><span class="sxs-lookup"><span data-stu-id="0546a-129">Net income</span></span>                  | <ul><li><span data-ttu-id="0546a-130">Nettótekjur á þessu ári</span><span class="sxs-lookup"><span data-stu-id="0546a-130">Net income this year</span></span></li><li><span data-ttu-id="0546a-131">Nettó tekjumarkmið eftir áætlun</span><span class="sxs-lookup"><span data-stu-id="0546a-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="0546a-132">Skilja gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="0546a-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="0546a-132">Skilja gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="0546a-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="0546a-133">Eining</span><span class="sxs-lookup"><span data-stu-id="0546a-133">Entity</span></span>                    | <span data-ttu-id="0546a-134">Innihald</span><span class="sxs-lookup"><span data-stu-id="0546a-134">Contents</span></span> |
 |---------------------------|----------|
