@@ -137,7 +137,7 @@ Mismunur reglulegrar talningar kemur upp við eftirtaldar aðstæður ef valkost
 
 Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á síðunni **Regluleg talning bíður yfirferðar**. Endurskoðuð magntalning vörunnar getur verið staðfest á síðunni **Lagerstaða eftir staðsetningu**. Talið gildi er hafnað ef ekki er hægt að samþykkja mismun.
 
-# <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Skilgreina fartæki fyrir vöruhúsvinnu](configure-mobile-devices-warehouse.md)
 
 

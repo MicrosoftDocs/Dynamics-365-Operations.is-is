@@ -53,10 +53,9 @@ Júlía notar eftirfarandi Excel-sniðmát til að undirbúa fjárhagsáætlun:
 
 [![Excel-sniðmát](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Æfing 1: Uppsetning
-=========================
+## <a name="exercise-1-configuration"></a>Æfing 1: Uppsetning
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Verkefni 1: Stofna stigveldi fyrirtækisins**
+### <a name="task-1-create-organizational-hierarchy"></a>**Verkefni 1: Stofna stigveldi fyrirtækisins**
 Þar sem allt fjárhagsáætlunarferlið gerist í fjármáladeild, þarf Julia að stofna mjög einfalda stigveldisskipan – samanstendur af aðeins fjármáladeild. 1.1. Fara í stigveldi Fyrirtækis (fyrirtækisstjórnun &gt; Fyrirtæki &gt; stigveldi fyrirtækja) og smella á hnappinn Nýtt
 
 ![Stigveldi fyrirtækis](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Júlía notar eftirfarandi Excel-sniðmát til að undirbúa fjárhagsáætlun:
 
 [![Gildisdagsetning](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Verkefni 2: Setja upp Öryggi notanda
+### <a name="task-2-configure-user-security"></a>Verkefni 2: Setja upp Öryggi notanda
 Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðgang að gögnum fjárhagsáætlunargerðar. Julia þarf að veita sjálfri sér aðgang að fjárhagsáætlunargerðinni. 
 
 2.1. Skipta yfir í DEMF-lögaðilasamhengi. 
@@ -109,7 +108,7 @@ Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðg
 
 [![Heimila aðgang](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Verkefni 3: Stofna atburðarás
+### <a name="task-3-create-scenarios"></a>Verkefni 3: Stofna atburðarás
 3.1. Farið á Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar. Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun. 
 
 *Athugið: Hægt að stofna nýja atburðarás fyrir þessa æfingu og nota í staðinn.* 
@@ -118,7 +117,7 @@ Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðg
 
 *Athugið: Þar sem Julia notar ekki formleg samþykktarferli fyrir undirbúning fjárhagsáætlunar, munum við hlaupa yfir uppsetningar Verkflæði, Stig og Verkflæðisstig í þessari æfingu og nota fyrirliggjandi uppsetningu fyrir Sjálfvirkt – samþykkja verkflæði. Sjá viðauka fyrir þessa skilgreiningu fyrir verkflæði.*
 
-## <a name="task-4-create-budget-plan-columns"></a>4. verkefni: Stofna fjárhagsáætlunardálka
+### <a name="task-4-create-budget-plan-columns"></a>4. verkefni: Stofna fjárhagsáætlunardálka
 Dálkar fyrir Fjárhagsáætlunargerð er annað hvort gjaldmiðilsdálkar eða magndálkar sem er hægt að nota í skjalinu fyrir fjárhagsáætlun.u Í dæminu okkar er nauðsynlegt að stofna dálk fyrir rauntölur fyrra árs og 12 dálka sem hver stendur fyrir einn mánuð fjárhagsársins. Hægt er að stofna dálka annaðhvort með því að smella einfaldlega á hnappinn Bæta við og fylla inn í gildi, eða með aðstoð gagnaeiningar. Í þessari æfingu munum við nota gagnaeiningu til að fylla inn i gildin. 
 
 4.1. Í Fjárhagsáætlun&gt;Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu dálkasíðuna. Smellið á hnappinn Office í efra hægra horni í skjámyndinni og veljið Dálka (óafmarkaða) 
@@ -151,7 +150,7 @@ Dálkar fyrir Fjárhagsáætlunargerð er annað hvort gjaldmiðilsdálkar eða 
 
 [![Uppfæra](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals
 Útlit ákvarðar hvernig hnitanet fyrir fjárhagsáætlunargerðarskjalið lítur út þegar notandi opnar skjal fjárhagsáætlunargerðar. Einnig er hægt að skipta um útlit fyrir skjal fjárhagsáætlunargerðar til að sjá sömu gögn frá mismunandi sjónarhornum. Núna, þegar hún hefur skilgreint dálka til notkunar með fjárhagsáætlunargerðarskjali, þarf Julia að búa til skjal yfir útlit fjárhagsáætlunar, sem myndi líta svipað út og Excel taflan sem hún notar til að stofna fjárhagsáætlunargögn (sjá hlutann Yfirlit yfir aðstæður í þessari æfingu) 
 
 5.1. Í Fjárhagsáætlun &gt; Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu útlitssíðuna. Búa til nýtt útlit fyrir færslu fyrir mánaðarlega fjárhagsáætlun:
@@ -171,7 +170,7 @@ Miðað við skilgreiningu á fjárhagsáætlunarútliti er hægt að stofna Exc
 
 5.3. &lt; Valfrjálst skref&gt; Breyta Excel-sniðmáti til að það líti notendavænna út – bæta við formúlum, fyrirsagnasvæðum, sniðum o.s.frv. Vistið breytingarnar og senda skrá yfir á fjárhagsáætlunarútlit með því að smella á Útlit &gt; Senda [![Senda](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Verkefni 6: Stofna ferli fjárhagsáætlunargerðar
+### <a name="task-6-create-a-budget-planning-process"></a>Verkefni 6: Stofna ferli fjárhagsáætlunargerðar
 Julia þarf að stofna og virkja nýja fjárhagsáætlunargerð með því að sameina alla uppsetninguna hér að ofan til að byrja að færa inn fjárhagsáætlanir. Ferli fjárhagsáætlunargerðar skilgreinir hvaða fyrirtækisfjárhagsáætlanir, verkflæði, útlit og sniðmát verður notað til að stofna fjárhagsáætlunargerð. 
 
 6.1. Fara í Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Ferli fjárhagsáætlunargerðar og stofna nýja færslu.
@@ -192,10 +191,9 @@ Julia þarf að stofna og virkja nýja fjárhagsáætlunargerð með því að s
 
 [![Virkja](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Æfing 2: Eftirlíking af ferli
-==============================
+## <a name="exercise-2-process-simulation"></a>Æfing 2: Eftirlíking af ferli
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Verkefni 7: Mynda upphafsgögn fyrir fjárhagsáætlunargerð úr Almennri höfuðbók
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Verkefni 7: Mynda upphafsgögn fyrir fjárhagsáætlunargerð úr Almennri höfuðbók
 7.1. Fara í Fjárhagsáætlun &gt; Reglubundið &gt; Mynda fjárhagsáætlun úr Almennri höfuðbók. Fylla út reglubundnar færibreytur og smellið á hnappinn Mynda. 
 
 [![Mynda](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia þarf að stofna og virkja nýja fjárhagsáætlunargerð með því að s
 
 [![Fjárhagsáætlunarskjár](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Verkefni 8: Stofna fjárhagsáætlun fyrir núverandi ár byggt á rauntölum fyrra árs.
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Verkefni 8: Stofna fjárhagsáætlun fyrir núverandi ár byggt á rauntölum fyrra árs.
 Hægt er að nota úthlutunaraðferðir í fjárhagsáætlunargerð til að auðveldlega afrita upplýsingar um fjárhagsáætlanir úr einum aðstæðum í aðrar / dreifa þeim yfir mörg tímabil / úthluta á víddir. Við notum úthlutanir til að stofna fjárhagsáætlun fyrir núverandi ár frá rauntölum fyrra árs. 
 
 8.1. Veljið allar línur á hnitanetinu á fjárhagsáætlunarskjalinu og smellið á hnappinn úthluta fjárhagsáætlun 
@@ -223,7 +221,7 @@ Raunverulegar upphæðir fyrra árs verða afrituð yfir á áætlun núverandi 
 
 [![Sölukúrfur](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Verkefni 9: Aðlaga fjárhagsáætlunargerðarskjalið með því að nota Excel og ljúka við skjalið
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Verkefni 9: Aðlaga fjárhagsáætlunargerðarskjalið með því að nota Excel og ljúka við skjalið
 9.1. Smellið á hnappinn Vinnublað til að opna innihald skjalsins í Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Raunverulegar upphæðir fyrra árs verða afrituð yfir á áætlun núverandi 
 
 Þegar verkflæði er lokið breytist stig fjárhagsáætlunargerðarskjala í Samþykkt. [![Samþykkt](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Viðauki
-========
+## <a name="appendix"></a>Viðauki
 
 ### <a name="auto-approve-workflow-configuration"></a>Samþykkja sjálfvirkt uppsetningu verkflæðis.
 

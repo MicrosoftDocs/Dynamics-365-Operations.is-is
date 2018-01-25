@@ -112,7 +112,7 @@ Hægt er að flytja inn einingahóp í fyrirliggjandi einingahóp. Allir eininga
 3.  Veljið einingu og smellið síðan á **Afturkalla útskráningu**.
 4.  Smellið á **Já** til að skrá inn eininguna.
 
-# <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
 

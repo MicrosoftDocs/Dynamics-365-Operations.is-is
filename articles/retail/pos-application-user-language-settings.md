@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Þetta efnisatriði lýsir hvernig á að breyta tungumálastillingum í Cloud POS og Retail Modern POS (MPOS).
 
-<a name="overview"></a>Yfirlit
-========
-
+## <a name="overview"></a>Yfirlit
 Retail Modern POS (MPOS) og Cloud POS styður umhverfi þar sem stillingar tungumáls og þýðinga kunna að vera mismunandi milli stillinga verslunar og notanda. Til dæmis gæti verslunin verið staðsett á svæði þar sem enska er algengust meðal viðskiptavina þeirra, en sumir starfsmenn kjósa heldur að nota forritið með frönskum þýðingum.
 
 ## <a name="data-language"></a>Gagnamál

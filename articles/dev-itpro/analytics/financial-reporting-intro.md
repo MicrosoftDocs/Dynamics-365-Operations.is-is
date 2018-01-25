@@ -98,7 +98,7 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 </tbody>
 </table>
 
-#<a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Myndun fjárhagsskýrslu](generate-financial-report.md)
 
 
