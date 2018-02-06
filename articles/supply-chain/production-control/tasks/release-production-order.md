@@ -1,4 +1,4 @@
---- 
+---
 title: "Gefa út framleiðslupöntun"
 description: "Þetta ferli sýnir hvernig á að losa framleiðslupöntun."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. Smellt er á gátreitinn Prenta leiðarspjald.
 6. Smellið á „Í lagi“.
 7. Lokið síðunni.
-
 

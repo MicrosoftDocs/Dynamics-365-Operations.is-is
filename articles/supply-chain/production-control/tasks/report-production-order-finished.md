@@ -1,4 +1,4 @@
---- 
+---
 title: "Tilkynna framleiðslupöntun sem lokna"
 description: "Þessi verklýsing sýnir hvernig á að skrá framleiðslupöntunina sem tilbúna."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. Í listanum skal merkja valda línu.
 4. Í listanum skal smella á tengilinn í valinni línu.
     * Bóka sem tilbúið færslubók er bókuð. Ef óskað er að leiðrétta færslubókina handvirkt er hægt að stofna nýja færslubók þar sem hægt er að gera breytingar.  
-
 

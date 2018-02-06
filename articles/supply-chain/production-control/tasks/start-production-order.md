@@ -1,4 +1,4 @@
---- 
+---
 title: "Hefja framleiðslupöntun"
 description: "Þessi verklýsing sýnir hvernig framleiðslupöntun er hafin í vinnslusal."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. Smellið á „Bóka“.
 8. Smellið á „Í lagi“.
     * Í færslubók leiðarspjalda er tími sem er eytt í staðar aðgerðir skráður. Einnig er hægt að tilkynna gallað og ógallað magn.  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Áætla framleiðslupöntun"
 description: "Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.
 1. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
 2. Smellt er á Skoða útreikningsupplýsingar.
     * Þessi síða sýnir sundurliðun kostnaðar. Til dæmis er hægt að skoða samtals kostnaðarverð á einingu fyrir endanlegu vöruna í fyrstu línunni. Síðari línurnar innihalda kostnað samkvæmt uppskrift, framleiðsluleið og óbeinum kostnaði.  
-
 
