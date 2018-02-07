@@ -1,6 +1,7 @@
 ---
 title: "Yfirlit yfir jaðartæki smásölu"
 description: "Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

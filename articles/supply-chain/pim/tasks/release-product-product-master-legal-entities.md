@@ -1,7 +1,7 @@
 --- 
 title: "Gefa út afurð/afurðarsniðmát fyrir lögaðila"
 description: "Þetta ferli fer í gegnum hvernig á að losa afurð eða afurðarsniðmát í einni eða fleiri lögaðila."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

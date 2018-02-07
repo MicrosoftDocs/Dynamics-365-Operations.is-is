@@ -1,7 +1,7 @@
 ---
 title: "Vinnusvæði eignastýringar"
 description: "Í þessu efnisatriði er að finna upplýsingar um vinnusvæði eignastýringar. Þetta vinnusvæði sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Það felur í sér samantektaryfirlit og greiningaryfirlit."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
