@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Þessi eiginleiki er hluti af markútgáfu og er aðeins í boði fyrir notendur sem hafa valið að taka þátt í CAAP (Continuous Auto-update Advantage Program). Þessi eiginleiki verður innifalinn í annarri almennri útgáfu sem er væntanleg. Nánari upplýsingar um staðlaðar útgáfur og markútgáfur er að finna í [Staðlaðar og markútgáfur verkvangs](../get-started/public-preview-releases.md).
