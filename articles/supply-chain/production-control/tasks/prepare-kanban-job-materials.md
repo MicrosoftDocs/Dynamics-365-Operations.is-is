@@ -1,4 +1,4 @@
---- 
+---
 title: "Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk"
 description: "Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
     * Ef valdar eru margar vinnslur tiltektarlista, sýna tiltektarlisti samtölu allra vara sem þarf fyrir valdar vinnslur.  
 6. Smellt er á Undirbúa.
     * Undirbúningsferli er nú lokið. Valinn gátreitur fyrir allar línur í tiltektarlistanum tilgreinir birgðastaða er tiltekin.  
-
 

@@ -1,7 +1,7 @@
 ---
 title: "Sameina birgðarunur"
 description: "Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

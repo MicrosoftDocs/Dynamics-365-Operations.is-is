@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ Hægt er að úthluta eða dreifa peningarupphæðum  á einn eða fleiri reikni
 
 [![Viðskiptaferli](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Virðisaukaskattur
+## <a name="sales-tax"></a>Virðisaukaskattur
 Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglur og taxtar eru mismunandi eftir landi/svæði, fylki, sýslu og borg.
 Þar að auki þarf að uppfæra reglur reglulega þegar kröfur skattyfirvalda breytast. Í VSK-kóða eru grunnupplýsingar um hversu mikið er innheimt og greitt til yfirvalda. Þegar settur er upp vsk-kóði, skilgreinirðu upphæðirnar og prósentur sem þarf að innheimta. Einnig skilgreinirðu ýmsar aðferðir sem notaðar eru þegar þessum upphæðum eða prósentum er beitt á færsluupphæðir. Efnisatriðin í þessum hluta veita upplýsingar um hvernig setja á upp VSK-kóða fyrir aðferðirnar og taxtana sem skattyfirvöld krefjast.
 
@@ -52,13 +53,13 @@ Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglu
  - [VSK-greiðslur og sléttunarreglur](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Frekari upplýsingar
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-#### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
+### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
 Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
-#### <a name="blogs"></a>Blogg
+### <a name="blogs"></a>Blogg
 
 Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Viðskiptaskuldir og aðrar hugbúnaðarlausnir.
 
@@ -66,10 +67,10 @@ Hægt er að finna margar færslur um fjárhag á [bloggi afurðarteymis Microso
 
 [Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
-#### <a name="task-guides"></a>Verkleiðbeiningar
+### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
-#### <a name="videos"></a>Myndbönd
+### <a name="videos"></a>Myndbönd
 
 Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

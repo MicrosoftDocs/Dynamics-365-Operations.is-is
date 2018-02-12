@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið. 
 
-# <a name="overview"></a>Yfirlit
+## <a name="overview"></a>Yfirlit
 
 Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** var stofnað fyrir einstaklinga sem bera ábyrgð á því að fylgjast með rauntölum bornum saman við áætluð afköst í fyrirtækinu. Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** gefur sýnileika í frávik í fjárhagsáætlun. Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika. 
 
-# <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
 Skýrslur úr **Raunverulegt samanb. v. áætlun** Power BI efni eru birtar á vinnusvæðunum **Fjárhagsáætlun og spár** og **CFO vinnusvæði**.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.
 
 | Skýrsla                      | Einingar |
@@ -50,7 +50,7 @@ Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrsl
 | Nettótekjur                  | <ul><li>Nettótekjur á þessu ári</li><li>Nettó tekjumarkmið eftir áætlun </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
+## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
 | Eining                    | Innihald |
 |---------------------------|----------|

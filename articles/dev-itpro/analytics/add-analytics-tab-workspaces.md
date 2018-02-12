@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Þessi eiginleiki er studdur í Dynamics 365 tfor Finance and Operations (útgáfu 7.2 og seinni).
 
-# <a name="introduction"></a>Inngangur
+## <a name="introduction"></a>Inngangur
 Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI-skýrslu á flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á  **Greiningarflipa**.
 
-# <a name="prerequisites"></a>Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.
 + Greiningarskýrsla (.pbix skrá) sem var búin til með Microsoft Power BI Desktop, og sem er með gagnalíkan sem kemur úr gagnagrunni Einingarverslunarinnar.
 
-# <a name="overview"></a>Yfirlit
+## <a name="overview"></a>Yfirlit
 Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þitt eigið vinnusvæði geturðu notað innfelld greiningaryfirlit til að fá skýrt og gagnvirkt yfirlit yfir viðskiptagögnin þín. Ferlið til að bæta við greiningarvinnusvæðisflipa er í fjórum skrefum.
 
 1. Bættu við .pbix file sem Dynamics 365 tilfangi.
@@ -48,7 +48,7 @@ Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þi
 > [!NOTE]
 > Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Á þessari síðu er hægt að nálgast upplýsingar sem geta hjálpað þér að búa til áhugaverðar greiningarskýrslulausnir.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Bættu við .pbix file sem tilfangi
+## <a name="add-a-pbix-file-as-a-resource"></a>Bættu við .pbix file sem tilfangi
 Áður en hafist er handa þarf að stofna eða sækja Power BI skýrsluna sem þú munt fella inn í vinnusvæðið. Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio verkgervingu.
@@ -66,7 +66,7 @@ Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio ver
   
 Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi geturðu fellt skýrslurnar inn í vinnusvæði og bætt við beinum tenglum með því að nota valmyndaratriði.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Bættu flipastýringu við forritsvinnusvæðinu
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Bættu flipastýringu við forritsvinnusvæðinu
 Í þessu dæmi víkkum við út vinnusvæðið **Stjórnun bókana** í Bílaflotastjórnunarlíkaninu með því að bæta flipanum **Greiningar** við skilgreininguna á skjámyndinni **FMClerkWorkspace**.
  
 Eftirfarandi skýringarmynd sýnir hvernig skjámyndin **FMClerkWorkspace** lítur út í hönnuðinum í Microsoft Visual Studio.
@@ -105,7 +105,7 @@ Nú þegar þú hefur bætt við skjámyndarstýringunum sem verða notaðar til
  
 Nú hefurðu klárað það verk að útvíkka skilgreiningu umsóknareyðublaðsins. Frekari upplýsingar um hvernig á að nota skrárendingar til að sérsníða er að finna á  [Sérsnið: yfirlögn og skrárendingar](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu
 Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar skýrsluyfirlitsstýringuna sem er innfelld í vinnusvæðinu  **Stjórnun bókana**.
 
 1. Opnaðu skjámyndarhönnuðinn **FMClerkWorkspace** til að víkka út hönnunarskilgreininguna.
@@ -151,12 +151,12 @@ Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja i
 > [!NOTE]
 > Hægt að opna fyrirliggjandi rekstraryfirlit með því að nota vinnusvæðisflipana fyrir neðan titil síðunnar.
 
-# <a name="reference"></a>Tilvísun
+## <a name="reference"></a>Tilvísun
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl aðferð
+### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl aðferð
 Þessi hluti veitir upplýsingar um hjálparklasann sem er notaður til að fella inn Power BI skýrslu (.pbix tilfang) í skjámyndarhópsstýringu.
 
-### <a name="syntax"></a>Málskipun
+#### <a name="syntax"></a>Málskipun
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Færibreytur
+#### <a name="parameters"></a>Færibreytur
 
 | Nafn | lýsing |
 |---|---|

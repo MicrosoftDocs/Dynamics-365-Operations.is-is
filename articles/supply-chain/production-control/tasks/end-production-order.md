@@ -1,4 +1,4 @@
---- 
+---
 title: "Ljúka framleiðslupöntun"
 description: "Þetta ferli sýnir hvernig á að ljúka framleiðslupöntun."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
 2. Skoða kostnaðarsamanburð
     * Þegar framleiðslupöntuninni er lokið er hægt að bera saman áætlað kostnaðarverð við raunkostnaðarverð til að fá yfirlit yfir frávik í framleiðslu.  
-
 

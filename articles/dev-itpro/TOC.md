@@ -114,6 +114,7 @@
 #### [Sérstillingar: yfirlög og viðbætur](extensibility/customization-overlayering-extensions.md)
 ### Nýjungar
 #### [Breytingar á stækkunarhæfni júlí 2017](extensibility/changes-july-2017.md)
+#### [Breytingar á stækkunarhæfni í Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### Undirstöðuatriði
 #### [Sérstillingar sem valda röskunum](extensibility/intrusive-customizations.md)
 #### [Klasaskráarendingar](extensibility/class-extensions.md)
@@ -138,14 +139,19 @@
 #### [Breyta eiginleikum eyðublaðsstýringar](extensibility/modify-control-properties.md)
 #### [Breyta merki](extensibility/change-label.md)
 #### [Umfang númeraraðar stækkað](extensibility/extend-number-sequence-scope.md)
+#### [Bæta við nýrri birgðavídd](extensibility/inventory-dimensions.md)
+#### [Breytingar á stækkunarhæfni verðs og afsláttar](extensibility/pricing-app73.md)
+#### [Töflukortaviðbót](extensibility/map-extensions.md)
+#### [Víkka töflukort sem notuð sem viðmót](extensibility/maps-as-interfaces.md)
+#### [Víkka töflukort sem notuð fyrir útgáfustjórnun](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Afköst
-### [Rakning með rakningarþáttara](perf-test/trace-trace-tutorial.md)
+### [Rakning með Trace parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK og fjölnotendaprófun með Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
-### [Greining vandamála og afkastavandamála með rakningarþáttara](perf-test/trace-parser.md)
+### [Greining vandamála og afkastavandamála með Trace parser](perf-test/trace-parser.md)
 ### [Afkastateljari](perf-test/performance-timer.md)
 ## Prófun stuðnings í Visual Studio
 ### [Prófun og villuleit](perf-test/testing-validation.md)
@@ -523,16 +529,16 @@
 
 # [Uppfærsla og flutningur](migration-upgrade/upgrade-home-page.md)
 ## [Uppfærsla úr AX 2012 í Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Greining – uppfærslugreiningarverkfærið notað til að áætla uppfærslu](migration-upgrade/upgrade-analyzer-tool.md)
-### [Greining – kóðauppfærsluþjónusta notuð til að meta vinnu við uppfærslu kóða](migration-upgrade/analyze-code-upgrade.md)
-### [Greining – uppsetning sandkassaumhverfis](migration-upgrade/analysis-sandbox.md)
-### [Uppfærsla – gagnauppfærsla í þróunarumhverfi](migration-upgrade/data-upgrade-2012.md)
-### [Uppfærsla – gagnauppfærsluverkefni í AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Uppfærsla – gagnauppfærsla í sandkassaumhverfi](migration-upgrade/upgrade-data-sandbox.md)
-### [Villuleit – flutningsprófun](migration-upgrade/upgrade-cutover-testing.md)
-### [Sannprófun – verk sem þarf að framkvæma eftir uppfærslu](migration-upgrade/app-validation-process.md)
-### [Villuleit – virkniprófun](migration-upgrade/upgrade-functional-validation.md)
-### [Villuleit – undirbúningur fyrir beina útsendingu](migration-upgrade/upgrade-go-live-prep.md)
+### [AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 uppfærsla – Nota kóðauppfærsluþjónustu til að meta vinnu](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 uppfærsla - Nota sandkassaumhverfi](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 upfærsla – Ggnauppfærsla í þróunarumhverfi](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 uppfærsla – Gagnauppfærsluverkefni í AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 uppfærsla - Flutningsprófun](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 uppfærsla – Verk til að ljúka eftir uppfærslu](migration-upgrade/app-validation-process.md)
+### [AX 2012 uppfærsla - Virkniprófun](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 uppfærsla – Undirbúningur fyrir notkun](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### Breytingar sem hafa áhrif á uppfærslu úr AX 2012
@@ -590,6 +596,8 @@
 ## [Runuvinnsla](sysadmin/batch-processing-overview.md)
 ### [Yfirlit runuþjóns](sysadmin/batch-server-overview.md)
 ### [Búa til runuvinnslu](sysadmin/tasks/create-batch-job.md)
+
+## [Búa til reglur fyrir Fínstillingarráðgjöf](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Yfirlit yfir Lifecycle Services](lifecycle-services/lcs.md)

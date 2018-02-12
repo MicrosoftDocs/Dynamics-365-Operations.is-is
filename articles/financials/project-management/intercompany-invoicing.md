@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutnin
 
 1.  Setja upp FRSI sem viðskiptavin í USSI lögaðila, og setja upp USSI sem lánardrottinn í FRSI-lögaðila. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.
     | Skref | Aðgangsstaður                                                                       | lýsing   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Lista fyrir    | Í USSI smellið á **Viðskiptakröfur** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**. | Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                                                                                                                                                           |
-    | B    | Í FRSI, smellið á **Viðskiptaskuldir** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar**.        | Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | Lista fyrir    | Í USSI smellið á **Viðskiptakröfur** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**. | Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                  |
+    | B    | Í FRSI, smellið á **Viðskiptaskuldir** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar**.        | Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                    |
     | K    | Í FRSI, Opna færslu lánardrottins sem nýverið var stofnuð.                            | Í Aðgerðasvæði, á flipanum **Almennt** í flokknum **Uppsetning** er smellt á **sinnan samstæðu**. Á á **Innan samstæðu** á síðunni á **viðskiptasamningur** flipanum, skal stilla sleðann **Virkt** til **Já**. Í **fyrirtæki Viðskiptavinar** reitnum skal velja færslu viðskiptavinar sem var stofnaður í skrefi A. |
 
 2.  Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **færibreytur verkefnastjórnunar og bókhalds**, og smellið svo á flipann **innan samstæðu**. Aðferðin sem þú notar til að setja upp færibreytur fer eftir því hvort þú ert lögaðili sem fær lánað eða lögaðili sem lánar.

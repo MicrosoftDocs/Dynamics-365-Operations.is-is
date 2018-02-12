@@ -1,4 +1,4 @@
---- 
+---
 title: "Virkja launaferli fyrir tíma og mætingu"
 description: "Þessi verklýsing sýnir hvernig á að virkja launavinnslu í tími og mæting."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. Útvíkka hlutann tímaskráning.
 7. Smellið á „Breyta“.
 8. Sláðu inn eða veldu gildi í reitnum launasamningur.
-
 

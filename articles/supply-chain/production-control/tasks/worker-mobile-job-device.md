@@ -69,4 +69,3 @@ ms.lasthandoff: 09/29/2017
 6. Í svæðið eining Framleiðslu er hægt að setja síu sjálfgefið fyrir starfsmann. Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu.
 7. Lokið síðunni.
 
-

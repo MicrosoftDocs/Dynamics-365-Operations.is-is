@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   Greiddir reikningar eru þeir sem hafa verið greiddir að fullu í Finance and Operations.
 
 Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
+
 ### <a name="tabular-lists"></a>Töflulisti
 
 Í **Töflulista** hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
-Listasíðu fyrir alla reikninga lánardrottins
+
+<a name="all-vendor-invoices-list-page"></a>Listasíðu fyrir alla reikninga lánardrottins
 -----------------------------
 
 Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu. Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna. Greiðslustöðurnar innifela óbókað, ógreiddur, greiddur að hluta, og greiddur að fullu.

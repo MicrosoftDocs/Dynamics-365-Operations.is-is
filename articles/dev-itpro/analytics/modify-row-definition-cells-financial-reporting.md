@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar: 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Línukóði tilgreindur í línuskilgreiningu
+## <a name="specify-a-row-code-in-a-row-definition"></a>Línukóði tilgreindur í línuskilgreiningu
 
 Í línuskilgreiningum eru það númer eða merki í hólfinu **Línukóði** sem auðkenna hverja línu í línuskilgreiningunni. Hægt er að tiltaka línukóðann sem á að vísa til gagna í útreikningum og samtölum.
 
@@ -506,8 +506,7 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 4.  Samstæðan sem á að eyða er valin og svo er smellt á **Eyða**. Smellið á **Já** til að eyða víddagildasamstæðunni varanlega.
 
 
-<a name="see-also"></a>Sjá einnig
---------
+## <a name="see-also"></a>Sjá einnig
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
 

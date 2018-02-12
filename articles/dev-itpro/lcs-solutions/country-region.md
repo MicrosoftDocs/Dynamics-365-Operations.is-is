@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
 ms.contentlocale: is-is
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -56,7 +57,7 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 [Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) sýnir hverju verið er að vinna að á skyndimynd. Nota skal þennan leiðarvísi til að finna hvað er í boði og hvað er í þróun. Allir eiginleikar og dagsetningar efnis í þróun eru byggðar á áætlunum og gætu breyst án fyrirvara.
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
-Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
+Rafræna skýrslugerðarverkfærið (ER) býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
 -   [Yfirlit yfir rafræna skýrslugerð](../analytics/general-electronic-reporting.md)
 -   [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Skilgreining fyrir rafræna skýrslugerð búin til](../analytics/electronic-reporting-configuration.md)
@@ -275,6 +276,8 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 
 ### <a name="norway"></a>Noregur
 
+-   [Afgreiðslukassar fyrir Noreg](../../retail/localizations/emea-nor-cash-registers.md)
+-   [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Noreg](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
 -   [Nets-innflutningssnið](../../financials/localizations/emea-nor-nets-import-format.md)
 -   [VSK-yfirlit](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
