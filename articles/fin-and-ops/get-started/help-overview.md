@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: is-is
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -60,7 +61,7 @@ Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operati
 -   **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 -   **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
 -   Svæðið **Aðgangur að mismunandi gerð efnis** gefur þér skjótan aðgang að mismunandi tegundum efnis um Finance and Operations, eins og Microsoft Office kynningum, verkefnaleiðbeiningum, myndskeiðum og efnisatriðum.
--   **Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu (Business Process Modeler (BPM)) í Microsoft Dynamics Lifecycle Services (LCS)
+-   **Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS)
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Leit á docs.microsoft.com
 Við fáum mikið af spurningum um hvernig á að leita að efni okkar. Ef þú byrjar á síðu um Finance and Operations á vefsvæðinu okkar, afmörkum við leitina þannig að hún varði aðeins efni um Finance and Operations. Hægt er að fjarlægja afmörkunina með því að smella á X við hliðina á Operations í leitarreitnum. 
@@ -74,6 +75,11 @@ Finance and Operations, Retail, og Talent deila öllum einu efnisyfirliti á skj
 
 ### <a name="follow-a-topic"></a>Fylgja efnisatriði
 Til að fylgja efnisatriði skaltu smella á +Fylgja hnappinn fyrir neðan athugasemdareitinn. Þú verður að skrá þig inn til að fylgja efnisatriðinu. Upplýsingar má sjá í [Skildu eftir athugasemd](#leave-us-a-comment).  
+
+### <a name="use-an-rss-feed"></a>Nota RSS-straum
+Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Unified Operations skal nota eftirfarandi tengil úr vafra sem styður RSS-strauma, svo sem Internet Explorer eða RSS straumstjórnun: 
+
+[RSS-straumur](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Láttu í ljós viðbrögð 
 Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub.

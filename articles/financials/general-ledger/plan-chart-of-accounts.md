@@ -3,14 +3,14 @@ title: "Áætlun bókhaldslykila"
 description: "Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Nokkra þætti þarf að hafa í huga þegar skipulag bókhaldslykla er ákveði
 -   Tilkynningarskyldur við lögaðila
 -   Sérhæfingarstig sem þörf er á, bæði fyrir ytri fyrirtæki og þitt fyrirtæki.
 
-Stofnaðu bókhaldslykil í **Bókhaldslykill** síðu. Hægt er að stofna aðallykla úr  **Bókhaldslykil** síðu eða **aðallykla** síðu. aðallyklar þínir ættu ekki að nota sérstaka stafi sem eru notaðar sem skiltákn bókhaldslykils. Ef sérstaf er hjá þér sem er sú sama og við skiltákn bókhaldslykils, gæti orðið óstöðugleiki, eða þörf á til að nota alltaf uppflettingar eða hliðarglugga þegar verið er að færa inn reikning eða samsetningar víddar. Nánari upplýsingar sjá [Stofna aðallykil](tasks/create-account-structures.md).
+Stofnaðu bókhaldslykil í **Bókhaldslykill** síðu. Hægt er að stofna aðallykla úr  **Bókhaldslykil** síðu eða **aðallykla** síðu. aðallyklar þínir ættu ekki að nota sérstaka stafi sem eru notaðar sem skiltákn bókhaldslykils. Ef sérstaf er hjá þér sem er sú sama og við skiltákn bókhaldslykils, gæti orðið óstöðugleiki, eða þörf á til að nota alltaf uppflettingar eða hliðarglugga þegar verið er að færa inn reikning eða samsetningar víddar. Nánari upplýsingar sjá [Stofna aðallykil](tasks/create-main-account.md).
 
 
 Það er góð hugmynd að tengja við aðallykla tegundir aðallykils þannig er hægt nýta sjálfgefna fjárhagsskýrslur án þess að þurfa að gera neinar breytingar. Þess vegna er hægt að hanna og viðhalda skýrslur á fljótari og auðveldari hátt. 
 
-Notið síðunni **Skilgreina lykilskipulag** til að skilgreina lykilskipulag. Lykilskipulag tilgreina gildar samsetningar. Samsetningar með aðallykla, skjámyndinni bókhaldslykla.  Nánari upplýsingar sjá [Stofna lykilsskipulag](tasks/create-main-account.md).
+Notið síðunni **Skilgreina lykilskipulag** til að skilgreina lykilskipulag. Lykilskipulag tilgreina gildar samsetningar. Samsetningar með aðallykla, skjámyndinni bókhaldslykla.  Nánari upplýsingar sjá [Stofna lykilsskipulag](tasks/create-account-structures.md).
 
 **Lögaðili hnekkir** 
 

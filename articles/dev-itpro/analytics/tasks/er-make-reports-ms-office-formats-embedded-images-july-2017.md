@@ -1,9 +1,9 @@
 --- 
-title: "Gera skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (ER) (hluti 1)"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ eða „Þróunaraðila rafrænnar skýrslulausnar“ getur hannað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) til að búa til rafræn skjöl í MS office sniði (Excel og Word) sem innihalda ívafnar myndir."
+title: "Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (hluti 1)"
+description: "Skrefin í þessu efni veita upplýsingar um hvernig á að hanna stillingar fyrir rafræna skýrslugerð (ER) sem búa til rafræn skjöl á Microsoft Office sniði (Excel og Word) sem innihalda innbyggðar myndir."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Gera skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (ER) (hluti 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (hluti 1) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ eða „Þróunaraðila rafrænnar skýrslulausnar“ getur hannað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) til að búa til rafræn skjöl í MS office sniði (Excel og Word) sem innihalda ívafnar myndir.
+Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka.“ Ferlið útskýrir hvernig á að hanna grunnstillingar fyrir rafræna skýrslugerð til að mynda ívafnar myndir í Microsoft Excel og Microsoft Word skjölum. Í þessu ferli mun notandi stofna nauðsynlega grunnstillingu rafrænnar skýrslugerðar fyrir sýnifyrirtæki, Litware, Inc. Hægt er að ljúka þessum skrefum með USMF-gagnamengi. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Áður en hafist er hand skal hlaða niður og vista skrárnar sem tilteknar eru í hjálparefninu [Innfelling mynda og forma í viðskiptaskjöl sem mynduð er með rafrænu skýrslugerðaverkfæri](../electronic-reporting-embed-images-shapes.md). Skrárnar eru: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png og Cheque template Word.docx.
 
-Í þessu dæmi muntu nota stofnaða Rafræn skýrslugerð skilgreiningar fyrir sýni fyrirtæki, „Litware, Inc.“.  Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Rafræn skýrslugerð í MS Office sniði með ívafnar myndir (Hluti 2: Endurskoða grunnstillingar)“. Hægt er að framkvæma þessi skref í „USMF“ fyrirtæki.
+## <a name="verify-prerequisites"></a>Staðfesta forkröfur  
+ 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.  
+ 2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka.“   
+ 3. Smelltu á Grunnstillingar skýrslugerðar  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Bæta við nýrri grunnstillingu líkans í Rafræn skýrslugerð  
+ 1. Í stað þess að búa til nýtt líkan er hægt að hlaða upp líkanstillingarskránn rafrænnar skýrslugerðar (Model for cheques.xml) sem var vituð áður. Þessi skrá inniheldur sýnigögn gagnalíkans fyrir greiðslu ávísana og vörpun gagnalíkans í gagnalíkan Dynamics 365 for Operations forritsins.   
+ 2. Á Útgáfur flýtiflipa skal smella á Exchange.   
+ 3. Smellt er á Hlaða úr XML-skrá.  
+ 4. Smellið á Fletta og veljið Model for cheques.xml.   
+ 5. Smellið á „Í lagi“.  
+ 6. Hlaðið líka verður notað sem gagnaveita fyrir upplýsingar til að búa til skjöl sem innihalda myndir í Excel og Word.  
 
+## <a name="add-a-new-er-format-configuration"></a>Bæta við nýrri grunnstillingu sniðs í Rafræn skýrslugerð  
+ 1. Í stað þess að búa til nýtt snið er hægt að hlaða upp líkanastillingaskrá rafrænnar skýrslugerðar (Cheques printing format.xml) sem var vistuð áður. Þessi skrá inniheldur sýniútlit sniðsins til að prenta ávísanir með forstillingarsniði og vörpun þessa sniðs í ‘Model for cheques’ gagnalíkan.   
+ 2. Smellt er á Skipta út.  
+ 3. Smellt er á Hlaða úr XML-skrá.  
+ 4. Flettið og veljið Ávísanir prentsnið format.xml skrá.   
+ 5. Smellið á „Í lagi“.  
+ 6. Í trénu skal víkka út „Líkan fyrir ávísanir“.  
+ 7. Í trénu skal velja „Líkan fyrir ávísanir\Ávísanir prentsnið“.  
+ 8. Hlaðið snið verður notað til að búa til skjöl sem innihalda myndir í Excel og Word.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Keyra snið með upphaflegu vörpun líkans
-1. Farið í Reiðufjár- og bankastjórnun > Bankareikningar > Bankareikningar.
-2. Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „USMF OPER“.
-3. Í aðgerðasvæðinu er smellt á setja upp.
-4. Smella skal á athuga.
-5. Smella á Prenta athugun.
-    * Keyra sniðið til prufu.  
-6. Veljið Já í reitnum Snið fyrir framseljanlega ávísun
-7. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að lógó fyrirtækisins er í skýrslunni ásamt undirskrift frá viðurkenndum aðila. Myndin af undirskriftinni er tekin úr reit frá „Hólf“ gagnategund úr útlitskrá ávísunar sem tengist völdum bankareikningi.  
-8. Útvíkka hluta Eintaka.
-9. Smellið á „Breyta“.
-10. Í reitnum vatnsmerki, skal færa inn „Prenta vatnsmerki sem ógilt“.
-    * Breyta stillingu vatnsmerkjasniðsins þannig að það sýni vatnsmerkjatextann í mynduðu skjali í Excel lagaðri einingu.  
-11. Smella á Prenta athugun.
-12. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að vatnsmerkið er sýnt í stofnuðu skýrslunni í samræmi við valmöguleikann.  
-13. Lokið síðunni.
-14. Í Aðgerðarrúðunni er smellt á Stjórna greiðslum.
-15. Smellið á Ávísanir.
-16. Smellt er á Sýna síur.
-17. Notið eftirfarandi síur: færðu inn síugildi "381","385","389" á reitnum "heiti ávísunarnúmer" með því að nota síuvirknitáknið „er eitt af".
-18. Í listanum er merkt við allar línur.
-19. Smellið á Prenta afrit af ávísun
-    * Keyra sniðið til að endurprenta valdar ávísanir.  
-    * Endurskoða stofnað úttak. Athugið að valdar ávísanirnar hafa verið endurprentaðar. Lógó og merkimiðar fyrirtækisins eru ekki prentaðir út því þeir birtast á forprentaða forminu.  
+## <a name="configure-er-user-parameters"></a>Skilgreina færibreytur notanda rafrænnar skýrslugerðar  
+ 1. Í Aðgerðarrúðunni er smellt á skilgreiningar.  
+ 2. Smelltu á Færibreytur notanda  
+ 3. Veljið Já í svæðinu Stillingar keyrslu.  
+  Kveikið á ‚Kerysludrög' fánann til að hefja drög að útgáfu af völdu sniði í stað þess sem lokið er.  
+ 4. Smellið á „Í lagi“.  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Breyta vörpun innflutts gagnalíkans
-1. Lokið síðunni.
-2. Lokið síðunni.
-3. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
-4. Í trénu skal velja „Líkan fyrir ávísanir“.
-5. Smellið á Hönnuður.
-6. Smellt er á Varpa líkani á gagnagjafa.
-7. Smellið á Hönnuður.
-    * Við munum breyta bindingu undirskriftarafurðar gagnalíkans til að ná í undirskriftarmyndina frá skjalinu sem hefur verið hengt við útlitsskrá ávísunarinnar sem er tengd við valinn bankareikning.  
-8. Slökkva á Sýna upplýsingar.
-9. Í trénu skal víkka út „Útlit“.
-10. Í trénu skal víkka út „Útlit\Undirskrift“.
-11. Í trénu skal velja „Útlit\Undirskrift\mynd = ávísanareikningur.„<Tengsl“.BankChequeLayout.Signature1Bmp“.
-12. Í trénu skal víkka út „ávísanareikningur“.
-13. Í trénu skal víkka út „ávísanareikningur\<Tengsl“.
-14. Í trénu skal víkka út „ávísanareikningur\<Tengsl\BankChequeLayout“.
-15. Í trénu skal víkka út „ávísanareikningur\<Tengsl\BankChequeLayout\<Tengsl“.
-16. Í trénu skal víkka út „ávísanareikningur\<Tengsl\BankChequeLayout\<Tengsl\<Skjöl“.
-17. Í trénu skal víkka út „ávísanareikningur\<Tengsl\BankChequeLayout\<Tengsl\<Skjöl\getFileContentAsContainer()“.
-18. Smelltu á Binda.
-19. Smellið á „Vista“.
-20. Lokið síðunni.
-21. Lokið síðunni.
-22. Lokið síðunni.
-23. Lokið síðunni.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Keyra snið með því að nota leiðrétta vörpun líkans
-1. Farið í Reiðufjár- og bankastjórnun > Bankareikningar > Bankareikningar.
-2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía svæðið bankareikningur með gildið 'USMF OPER'.
-3. Í aðgerðasvæðinu er smellt á setja upp.
-4. Smella skal á athuga.
-5. Smella á Prenta athugun.
-6. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að myndin frá viðhengi Skjalastjórnunar birtist sem undirskrift frá viðurkenndum aðila.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Nota MS Word skjal sem sniðmát í innflutta sniðinu
-1. Lokið síðunni.
-2. Lokið síðunni.
-3. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
-4. Í trénu skal víkka út „Líkan fyrir ávísanir“.
-5. Í trénu skal velja „Líkan fyrir ávísanir\Ávísanir prentsnið“.
-6. Smellið á Hönnuður.
-7. Smellt er á viðhengi
-8. Smellið á Eyða.
-9. Smella á Já.
-10. Smellið á „Nýtt“.
-11. Smella á Skrá
-    * Smellið á Fletta og veljið fyrirfram niðurhalað „Ávísun snið Word.docx“ skjal.  
-12. Lokið síðunni.
-13. Sláið inn eða veldu gildi í reitnum sniðmát.
-14. Smellið á „Vista“.
-15. Lokið síðunni.
-16. Smellið á „Breyta“.
-17. Veljið Já í svæðinu drög keyrslu.
-18. Lokið síðunni.
-19. Farið í Reiðufjár- og bankastjórnun > Bankareikningar > Bankareikningar.
-20. Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „USMF OPER“.
-21. Smella skal á athuga.
-22. Smella á Prenta athugun.
-23. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að úttakið hefur verið búið til sem MS Word skjal með ívafnar myndir þar sem lógó fyrirtækisins birtist, undirskrift frá viðurkenndum aðila og valinn texti vatnsmerkisins.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Grunnstilla færibreytur reiðufjár- og bankastjórnunar  
+ 1. Farið í Reiðufjár- og bankastjórnun > Bankareikningar > Bankareikningar.  
+ 2. Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „USMF OPER“.  
+ 3. Í aðgerðasvæðinu er smellt á setja upp.  
+ 4. Smella skal á athuga.  
+ 5. Víkka út hlutann Uppsetning.  
+ 6. Smellið á „Breyta“.  
+ 7. Velja Já í reitnum Lógó fyrirtækis.  
+ 8. Prenta merki fyrirtækis.  
+ 9. Smellt er á breyta.  
+ 10. Smellið á Fletta og veljið skrána sem var sótt áður Company logo.png.   
+ 11. Smellið á „Vista“.  
+ 12. Lokið síðunni.  
+ 13. Víkkið út hlutann Undirskrift.  
+ 14. Velja skal Já í svæðinu Prenta fyrstu undirskrift.  
+ 15. Smellt er á breyta.  
+ 16. Smellið á Fletta og veljið skrána sem var sótt áður Signature image.png.   
+ 17. Útvíkka hluta Eintaka.  
+ 18. Í reitnum Vatnsmerki skal velja valkost.  
+ 19. Velja skal Já í Almennan rafræna skýrslugerð svæði.  
+ 20. Veljið Veldu stillingarnar „Ávísanir prentsnið“.  
+ 21. Nú verður snið rafrænnar skýrslugerðar notað fyrir prentun ávísana.  
+ 22. Smellt er á Hengja við.  
+ 23. Smellið á „Nýtt“.  
+ 24. Smella á Skrá  
+ 25. Smellið á Fletta og veljið skrána sem var sótt áður Signature image 2.png.   
+ 26. Lokið síðunni.  
+ 27. Lokið síðunni.  
+ 28. Lokið síðunni.  
+ 29. Fara í Reiðufjár- og bankastjórnun > Uppsetning > Færibreytur reiðufjár- og bankastjórnunar.  
+ 30. Velja skal Já í Leyfa stofnun fyrirframkvittana fyrir óvirka bankareikninga: reitinn.  
+ 31. Smellið á „Vista“.  
+ 32. Lokið síðunni.  
 

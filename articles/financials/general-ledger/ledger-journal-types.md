@@ -1,6 +1,6 @@
 ---
 title: "færslubókargerðir fjárhags"
-description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Notaðu síðuna Færslubókanöfn til að setja upp færslubækur sem þú getur notað í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c05b199104af2c367266e3cd15937425e6457397
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ccd1b9056f8c18de1b2ef706f70f53bac6cc43a1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -30,23 +31,23 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Notaðu síðuna Færslubókanöfn til að setja upp færslubækur sem þú getur notað í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-| Færslubókargerð                      | Málefni                                                                                                                                                                                                                                                                                                                                                     | Færa inn færslur á þessari síðu                                |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Úthlutun                        | Stofna úthlutun færslur í færslubók. Áður en hægt er að stofna úthlutunarbók verður að stofna úthlutunarreglu í síðunni **úthlutunarregla fjárhags**                                                                                                                                                                           | Vinna úr beiðni um úthlutun                                     |
-| Samþykki                          | Bóka samþykkta reikninga lánardrottna í rétta fjárhagslykla.                                                                                                                                                                                                                                                                            | Staðfestingarbók                                       |
-| Bakfærsla bankaávísunar               | Bakfæra bókaða ávísun. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.                                                                                                                                                                                       | Athuga Bakfærslur, bakfærsla Greiðslu                              |
-| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.                                                                                                                                                                       | Ógildingar á greiðslum bankainnborgunarseðla                             |
+| Færslubókargerð                      | Málefni                       | Færa inn færslur á þessari síðu                                |
+|-----------------------------------|-------------------------------|----------------------------------------------------------------|
+| Úthlutun                        | Stofna úthlutun færslur í færslubók. Áður en hægt er að stofna úthlutunarbók verður að stofna úthlutunarreglu í síðunni **úthlutunarregla fjárhags**      | Vinna úr beiðni um úthlutun             |
+| Samþykki                          | Bóka samþykkta reikninga lánardrottna í rétta fjárhagslykla.  | Staðfestingarbók                                       |
+| Bakfærsla bankaávísunar               | Bakfæra bókaða ávísun. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.   | Athuga Bakfærslur, bakfærsla Greiðslu                   |
+| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.   | Ógildingar á greiðslum bankainnborgunarseðla            |
 | Fjárhagsáætlun                            | Vinna úr fjárveitingar úr fjárhagsáætlun Til að nota þessa gerð færslubók, velja á **Leyfa fjárveitingu fjárhagsáætlunar** valkostinn á í **fjárhagsfæribreytur** síðu. Færslur í fjárhagsáætlunarbók hafa með upplýsingar á grundvelli fjárhagslykla sem eru skilgreindar í á **bókunarskilgreiningar**  síðu.                                                        |                                                                |
-| Viðskiptavinasamþykki víxils  | Stofna samþykktarfærslur viðskiptavina fyrir víxla.                                                                                                                                                                                                                                                                                              | Gefa út víxlabók– endurútgefa víxlabók. |
-| Greiðslusending viðskiptavinar          | Stofna greiðsluskrá víxils sem má senda til banka fyrirtækisins. Til að nota þessa gerð færslubókar, hreinsa í **Sjálfvirka jöfnun** valkostinn á í **viðskiptakrafna** **færibreytur** síðu.                                                                                                                                             | Greiðsla                                                     |
-| Viðskiptavinaútgáfa víxils    | Stofna viðskiptavinaútgáfu víxils. Til að nota þessa færslubókargerð, hreinsa valkostinn **Stofna og bóka útgáfubók sjálfvirkt við bókun reikninga** á síðunni **greiðsluaðferð**                                                                                                                                         | Víxilútgáfubók                                  |
-| Greiðsla viðskiptavinar                  | Stofna greiðslufærslur viðskiptavina.                                                                                                                                                                                                                                                                                                                       | Greiðslubók                                                |
-| Viðskiptavinaafsögn víxils | Stofna færslur viðskiptavinaafsögn víxils.                                                                                                                                                                                                                                                                                                      | Víxilafsagnabók                               |
-| Viðskiptavinaendurútgáfa víxils  | Stofna færlsur viðskiptavinaendurútgáfa víxils.                                                                                                                                                                                                                                                                                                       | Víxilendurútgáfubók                                |
-| Viðskiptavinauppgjör víxils  | Stofna færslur viðskiptavinauppgjör víxils.                                                                                                                                                                                                                                                                                                       | Jafna víxlabók                                |
-| Daglega                             | Stofna daglegar færslur í almennri færslubók.                                                                                                                                                                                                                                                                                                             | Almenn færslubók                                                |
+| Viðskiptavinasamþykki víxils  | Stofna samþykktarfærslur viðskiptavina fyrir víxla.             | Gefa út víxlabók– endurútgefa víxlabók. |
+| Greiðslusending viðskiptavinar          | Stofna greiðsluskrá víxils sem má senda til banka fyrirtækisins. Til að nota þessa gerð færslubókar, hreinsa í **Sjálfvirka jöfnun** valkostinn á í **viðskiptakrafna** **færibreytur** síðu.            | Greiðsla                                                     |
+| Viðskiptavinaútgáfa víxils    | Stofna viðskiptavinaútgáfu víxils. Til að nota þessa færslubókargerð, hreinsa valkostinn **Stofna og bóka útgáfubók sjálfvirkt við bókun reikninga** á síðunni **greiðsluaðferð**   | Víxilútgáfubók                                  |
+| Greiðsla viðskiptavinar                  | Stofna greiðslufærslur viðskiptavina.                             | Greiðslubók             |
+| Viðskiptavinaafsögn víxils | Stofna færslur viðskiptavinaafsögn víxils.                    | Víxilafsagnabók                               |
+| Viðskiptavinaendurútgáfa víxils  | Stofna færlsur viðskiptavinaendurútgáfa víxils.                     | Víxilendurútgáfubók                                |
+| Viðskiptavinauppgjör víxils  | Stofna færslur viðskiptavinauppgjör víxils.                       | Jafna víxlabók                                |
+| Daglega                             | Stofna daglegar færslur í almennri færslubók.                          | Almenn færslubók                                                |
 | Útilokun                       | Stofna losunarfærslur í losunarbók. Til að nota þessa færslubókargerð, veldu **Nota fyrir losunarferli fjárhags** og **Nota fyrir sameiningarferli fjárhags** valkostina á síðunni **lögaðilar**. Stofna verður losunarreglu fjárhags í **losunarregla fjárhags** síður, áður en hægt er að nota þessa gerð færslubókar. | Útilokun                                                    |
 | Eignaáætlun                | Stofna færslur í færslubækur eignaáætlunar.                                                                                                                                                                                                                                                                                                                 | Eignaáætlun                                             |
 | Komubók                  | Skrá grunnupplýsingar um reikninga lánardrottins.                                                                                                                                                                                                                                                                                                           | Komubók                                               |

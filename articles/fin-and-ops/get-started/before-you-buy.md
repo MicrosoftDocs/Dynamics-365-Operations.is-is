@@ -1,7 +1,7 @@
 ---
 title: "Áður en þú kaupir"
 description: "Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 for Finance and Operations, Enterprise edition."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 Nú getur þú sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise edition í skýi eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
-Nánari upplýsingar er að finna á: [Virkjunarvalkostir](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+Eftirfarandi atriði þarf að taka tillit til þegar þú velur virkjun á staðnum sem valmöguleika:
+- Nauðsynleg löggjöf og reglufylgni sem er ekki tiltæk í [skýjavottunum](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Aftengt viðskiptaferli með óreglulegri nettengingu sem þarf til að fá aðgang að Microsoft Dynamics Lifecycle Services (LCS) for application lifecycle management
+- [Eiginleikar sem eru ekki framkvæmdir með virkjun á staðnum](features-not-implemented-on-prem.md)
+- [Lágmarkskröfur innviða](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> Virkjun á staðnum á Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition er ekki studd á neinu opinberum skýjakerfi, þar á meðal Azure. 
+
+Frekari upplýsingar er að finna í [Virkjunarvalkostir](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Skref þrjú: Kaupa og hafa umsjón með áskrift
 Upplýsingar um áskriftarvalkosti er að finna á verðlagningarsíðu [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Þessi síða inniheldur nokkrar mismunandi áætlanir til að mæta þörfum fyrirtækisins þíns.
