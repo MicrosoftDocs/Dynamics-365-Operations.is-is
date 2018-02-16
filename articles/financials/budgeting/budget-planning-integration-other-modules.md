@@ -3,11 +3,12 @@ title: "Samþætting fjárhagsáætlunargerðar við aðrar einingar"
 description: "Hægt er að gera fjárhagsáætlanir úr mörgum mismunandi tilföngum. Grunneiningar reglubundinnar vinnslu eru þær sömu fyrir öll tilföng."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Grunneiningar reglubundins ferlis eru þau sömu fyrir öll ferli. Flipar leyfa 
 
 Fyrir hvert myndunarferli eru þrjár aðgerðir í boði:
 
--   **Búa til nýja fjárhagsáætlun** – Stofna nýja áætlun hefur eigindir sem eru valdar í **Mark **hluta. Þessar eigindir þurfa ekki að vera einkvæmar. Þess vegna geta tvær áætlanir haft sama heiti og önnur gildi.
+-   **Búa til nýja fjárhagsáætlun** – Stofna nýja áætlun hefur eigindir sem eru valdar í á **Mark** hluta. Þessar eigindir þurfa ekki að vera einkvæmar. Þess vegna geta tvær áætlanir haft sama heiti og önnur gildi.
 -   **Skipta út fyrirliggjandi aðstæðum fjárhagsáætlunargerðar** eyðir öllum gögnum í fjárhagsáætlun marks í völdum aðstæðum fjárhagsáætlunargerðar og stofnar nýjar línur sem nota gögn valinnar upprunastöðu.
 -   **Uppfæra fyrirliggjandi aðstæður fjárhagsáætlunargerðar og bæta nýjum gögnum við** uppfærir fyrirliggjandi línur í markáætlun sem samsvarar upprunalínum og bætir við nýjum línum fyrir ný gögn. Samsvörunin er byggð á fjárhagslykli, dagsetningu, fjárhagsáætlunarklasa og ýmsum öðrum reitum. Til dæmis þegar fjárhagsáætlanir eru myndaðar úr spástöðum er staðsetningarnúmer mikilvægur reitur. Allar línur sem hafa staðsetningarnúmer sem samsvarar stöðu uppruna er skipt út fyrir nýjar línur úr frumkóða.
 
@@ -65,7 +66,7 @@ Valkosturinn **Sögulegt** valkostinn á flipanum **Mark** gerir það mögulegt
 
 Reiturinn **Steypa saman samtölu eftir** efst á síðunni ákvarðar einnig dagsetninguna sem er notuð. Þessi reitur leggur saman upphæðir og stillir einnig gildisdagsetningu á fyrsta dag fjárhagsársins eða fjárhagstímabili. 
 
-Margir reitir á flipanum **Mark** verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn **Heiti fjárhagsáætlunar** óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Bæði á flipanum **Mark** og **flipanum **Uppruni , er reiturinn **Fjárhagur** alltaf óvirkur, þar sem gildið er ákvarðað af valið ferli fjárhagsáætlunargerðar. 
+Margir reitir á flipanum **Mark** verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn **Heiti fjárhagsáætlunar** óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Bæði á flipanum **Mark** og flipanum **Uppruni**, er reiturinn **Fjárhagur** alltaf óvirkur, þar sem gildið er ákvarðað af valið ferli fjárhagsáætlunargerðar. 
 
 Reiturinn **Fjárhagsáætlunarklasi** gerir kleift að stilla línur fjárhagsáætlunar sem annaðhvort kostnaðarfærslur eða tekjufærslur. Yfirleitt eru tekjufærslur kreditfærslur í fjárhagslykil og eru þar af leiðandi geymd sem neikvæðar upphæðir. Yfirleitt birtast þessar færslur einnig sem neikvæðar upphæðir í fjárhagsáætlun. Hins vegar, með því að bæta við fjárhagsáætlunarklasanum sem reit í útliti áætlunar, er hægt að virkja tekjur birtist sem upphæðir í jákvætt.
 
@@ -110,7 +111,7 @@ Ferlið **Mynda fjárhagsáætlun úr verkspá**, eins og ferlið **Mynda fjárh
 
 Hægt er að nota fjárhagsáætlanir verks sem uppruna með því að velja spárlíkanið sem inniheldur upphæðir verkáætlunar. Munið að fjárhagsáætlanir stofna spárfærslur verks um leið og þær eru samþykktar.
 
-Til að velja aðeins kostnað eða tekjur fyrir línur fjárhagsáætlunar skal nota síuna til að velja **Áætlunaruppfærslur: gerð upphæðar = Kostnaður**. Til að velja aðeins eina gerð spár skal nota síuna til að velja **Áætlunaruppfærslur: Færslugerð = *xxx***. 
+Til að velja aðeins kostnað eða tekjur fyrir línur fjárhagsáætlunar skal nota síuna til að velja **Áætlunaruppfærslur: gerð upphæðar = Kostnaður**. Til að velja aðeins eina tegund af spá skaltu nota síuna til að velja **Fjárhagsuppfærslur: Færslugerð = *xxx***. 
 
 Hægt er að nota aðeins eitt áætlunarlíkan til að mynda aðstæður fjárhagsáætlunargerðar. Ef keyrt er ferli fyrir eitt spálíkan og síðan gerð uppfærsla og reynt að tilgreina annað líkan, verður skrifað yfir fyrsta líkanið ef verið er að nota sama verk og fjárhagslykla. Til að mynda aðstæður fjárhagsáætlunar úr fleiri en einu spálíkani, mynda í mismunandi aðstæður fjárhagsáætlunargerðar og valkosti fyrir úthlutun er notuð til að bæta við þær saman í öðrum aðstæðum. 
 

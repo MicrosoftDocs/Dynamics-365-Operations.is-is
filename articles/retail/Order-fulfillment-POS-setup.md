@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Pöntunaruppfyllingaraðgerðin eru ekki með eigin heimild út-úr-kassanum, en
 
 Að sjálfgefnu eru pöntunarlínur sem eru úthlutað á verslun merktar sem **Samþykktar**. Þetta þýðir að það er gert ráð fyrir að þær verði uppfyllt frá úthlutað versluninni og mun ekki verða háð frekari úthlutunum. Í ákveðnum tilvikum geta smásalar viljað samþykkja pantanir handvirkt áður en hægt er að uppfylla þær. Til dæmis, ef verslun er með fáa starfsmenn og ófær um að uppfylla pantanir, mun verslunarstjóri aðeins samþykkja eins mörg pantanir til vinnslu eins og þeir telja unnt að vinna með fullnægjandi hætti á tilteknum degi. Þar til pöntun er samþykkt getur henni verið endurúthlutað af bakvinnslunni í aðra verslun. Á þennan hátt veitir pöntunarsamþykki einnig leið til að gefa til kynna að pöntun hafi verið viðurkennd af verslun og verður uppfyllt. 
 
-Pöntunarlínur fyrir afhendingu í verslun eru merktar eins og alltaf merktar sem **Í bið** og eru ekki háð samþykki.
+Pöntunarlínur fyrir afhendingu í verslun eru merktar sem **Í bið** og eru ekki háðar samþykki.
 
-Til að kveikja á handvirku samþykki eða pöntunarlínum, skal fara í **Smásala** > **Rásir** > **Smásöluverslanir** > **Allar smásöluverslanir**. Veldu verslunina og smelltu á kenni verslunar til að skoða upplýsingar um verslunina. Smellið á **Breyta**. Á **Almennt** flýtiflipanum skaltu finna **Pöntunaruppfylling** undirhausinn og breyta **Handvirkt samþykki** frá **Nei** til **Já**. 
+Til að kveikja á handvirkt samþykki fyrir pöntunarlínur skal fara í **Retail** > **Rásir** > **Smásöluverslanir** > **Allar smásöluverslanir**. Veldu verslunina og smelltu á kenni verslunar til að skoða upplýsingar um verslunina. Smellið á **Breyta**. Á **Almennt** flýtiflipanum skaltu finna **Pöntunaruppfylling** undirhausinn og breyta **Handvirkt samþykki** frá **Nei** til **Já**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Virkja getu höfnunar pöntunarlínu
 
@@ -114,7 +117,7 @@ Að sjálfgefnu, munu pantanir hafa stöðuna **Samþykkt**. Pöntunarstaða er 
 
 **Pakka** - Pakka valkosturinn styður tvær aðgerðir: **Prenta fylgiseðil** mun prenta fylgiseðil fyrir valda línurnar og **Merkja sem pakkað** mun merkja línurnar sem pakkað er og merkja línurnar sem afhent á bakvinnslunni. Aðeins pöntunarlínur sem tilheyra sömu pöntun og hafa sömu flutningsmáta má pakka á sama tíma. Snið fylgiseðils eru stjórnað sem hluti af sniði innhreyfingar. Til að fá nánari upplýsingar um uppsetningu sniðs innhreyfingar skal sjá [Prentun og sniðmát innhreyfingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Senda** - Sendingaraðgerðin mun merkja völdum línum sem **Afhent** í bakvinnslunni. Eftir að línan hefur verið send að fullu birtist hún ekki lengur í yfirlit yfir uppfyllingu verslunar.
+**Senda** - Sendingaraðgerðin mun merkja völdum línum sem **Afhent** í bakvinnslunni. Eftir að línan hefur verið send að fullu birtist hún ekki lengur á skjá uppfyllingar pöntunar.
 
 **Afhending** - Afhendingaraðgerðin bætir línurnar við færsluyfirlitið fyrir afhendingu. Ef það eru aðrar línur í pöntuninni sem ekki er verið að afhenda, þá verður þeim bætt við færsluyfirlitið með magn upp á núll. Eftir að lína hefur verið að fullu afhent birtist hún ekki lengur í yfirliti yfir pöntunaruppfyllingu. 
 

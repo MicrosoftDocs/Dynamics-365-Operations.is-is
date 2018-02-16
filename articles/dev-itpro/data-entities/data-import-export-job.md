@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e79fcaa634c4b4eb601241d75da2f36f2455db4e
+ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
+ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -28,6 +28,9 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 Til að stofna og minna með inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition skal nota vinnusvæðið  **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
+
+> [!NOTE]
+> Þetta efni gerir ráð fyrir að þú þekkir [gagnaeiningar](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Inn- og útflutningsferli gagna
 Hér eru skrefin til að flytja gögn inn eða út.

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
 ms.contentlocale: is-is
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -104,7 +105,7 @@ Eftirfarandi tafla sýnir hvernig lykiluppsafnaðar mælingar eru notaðar til a
 | Seinkar               | 'Framleiðslupöntun'[Er með RAF] = TRUE && 'Framleiðslupöntun'[Fresta gildi] = 1 |
 | Er á undan áætlun                 | 'Framleiðslupöntun'[Er með RAF] = TRUE && 'Framleiðslupöntun'[Dagafjöldi seinkunar] \< 0 |
 | Er tæmandi               | 'Framleiðslupöntun'[Gallalaust magn] \>= 'Framleiðslupöntun'[Áætlað magn] |
-| Er með RAF                | 'Framleiðslupöntun'[Gildi framleiðslustöðu] = 5 \|\| 'Framleiðslupöntun'[Gildi framleiðslustöðu] = 7 |
+| Er með RAF                | ‚Framleiðslupöntun' [Stöðugildi framleiðslu] = 5 \|\| ‚Framleiðslupöntun' [Framleiðslustöðugildi] = 7 |
 | Á eftir áætlun og tæmandi           | COUNTROWS(FILTER('Framleiðslupöntun', 'Framleiðslupöntun'[Er tæmandi] = TRUE && 'Framleiðslupöntun'[Seinkar] = TRUE)) |
 | Á eftir áætlun \#                  | COUNTROWS(FILTER('Framleiðslupöntun', 'Framleiðslupöntun'[Seinkar] = TRUE)) |
 | Á eftir áætlun %                   | IFERROR( IF('Framleiðslupöntun'[Á eftir áætlun \#] \<\> 0, 'Framleiðslupöntun'[Á eftir áætlun \#], IF('Framleiðslupöntun'[Heildarpantanir] = 0, BLANK(), 0)) / 'Framleiðslupöntun'[Heildarpantanir], BLANK()) |

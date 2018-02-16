@@ -3,11 +3,12 @@ title: "greiðsla viðskiptavinar fyrir hlutaupphæð"
 description: "Stundum gera viðskiptavinur greiðslu sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ Viðskiptavinir gætu reott fra, hlutagreiðslu því var ekki nægilegt reiðuf
 Hægt er að bjóða viðskiptavinum staðgreiðsluafslátt fyrir greiðslu á reikning fyrir gjalddaga. Til dæmis færður er inn reikningur fyrir 100,00 sem tilgreinir 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga. Skilmálar gjalddaga eru 30 daga. Ef tekið er við greiðslu uppá 98.00 innan 10 daga er færð inn greiðsla fyrir 98.00. Síðan, þegar reikningur er merkt til jöfnunar, er  staðgreiðsluafsláttar telomm sjálfkrafa.
 
 ## <a name="partial-payments-with-cash-discounts"></a>hlutagreiðslur með staðgreiðsluafslætti
-Þegar viðskiptavinir reiða fram hlutagreiðslu, gætu þeir gert áætlun um að gera frekari hlutagreiðslu til að jafna reikninginn að fullu. Til að taka staðgreiðsluafslátt fyrir hlutagreiðslu, verður að stilla valkostinn **Reikna staðgreiðsluafslætti** fyrir hlutagreiðslur á **Já** á síðunni **Færibreytur viðskiptakrafna**. 
+Þegar viðskiptavinir reiða fram hlutagreiðslu, gætu þeir gert áætlun um að gera frekari hlutagreiðslu til að jafna reikninginn að fullu. Til Að taka staðgreiðsluafslátt fyrir hlutagreiðslu, verður að stilla valkostinn **Reikna staðgreiðsluafslætti fyrir hlutagreiðslur** í **Já** á í **Færibreytur viðskiptakrafna** síðu. 
 
 Til dæmis þú býður 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga eftir það hann er gefinn út. Bókaður er reikningur fyrir 100,00. Ef tekið er við greiðslu uppá 49.00 innan 10 daga er fært inn kredit uppá 49.00 í greiðslubók. Þegar hlutagreiðsla er jafnaður á í **Jafna færslur** síðu, birtist **1,00** í á **upphæð staðgreiðsluafsláttar sem á að taka** svæði. Afsláttarupphæðin er bókuð á lykil fyrir staðgreiðsluafslátt. 
 

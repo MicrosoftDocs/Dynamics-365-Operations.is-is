@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Stjórnun áfangastaðar fyrir rafræna skýrslugerð aðgerðir eru tiltækar �
 
 [![Stofnun viðtöðustaðar skráar](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Athugið**: hægt er að stofna eina áfangastað fyrir hverja frálagsskrá af sama sniði, eins og möppu eða skrá sem er valin í **skrárnafn** reit. Síðan er hægt að virkja og óvirkja staka áfangastaði fyrir áfangastað skrár aðskilið í **stillingar fyrir Áfangastað** svarglugga. **Stillingar** hnappinn er notuð til að stjórna áfangastaði fyrir valinn áfangastað skrár. Í **stillingar fyrir Áfangastað** svarglugganum er hægt að stjórna hvern ákvörðunarstað sérstaklega með því að stilla **Virkt** valkost fyrir hana.
+> ![ATHugið] Hægt er að búa mynda einn áfangastað skráar fyrir hvern frálagsíhlut af sama sniði, svo sem möppu eða skrá sem er valin í reitnum **Skráarheiti**. Síðan er hægt að virkja og óvirkja staka áfangastaði fyrir áfangastað skrár aðskilið í **stillingar fyrir Áfangastað** svarglugga. **Stillingar** hnappinn er notuð til að stjórna áfangastaði fyrir valinn áfangastað skrár. Í **stillingar fyrir Áfangastað** svarglugganum er hægt að stjórna hvern ákvörðunarstað sérstaklega með því að stilla **Virkt** valkost fyrir hana.
 
 [![Svargluggi áfangastaðastillinga](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg).
 
@@ -71,7 +71,7 @@ Setja **Virkt** til **Já** til að senda frálagsskrá með tölvupósti. Eftir
 
 #### <a name="print-management"></a>Prentstýring
 
-Ef valið er **Prentstýring tölvupóstur** gerð, geturðu fært inn fast netfang í **Til** svæði. Til að nota tölvupóstföng sem eru ekki föst, verður að velja upprunagerð tölvupósts fyrir áfangastað skrár. Eftirfarandi virði eru studd: **Viðskiptavinur**, **Lánardrottinn**, **Viðfang**, **Tengiliður**, **Samkeppnisaðili**, **Starfskraftur**, **Umsækjandi**, **Væntanlegur lánardrottinn**, og **Lánardrottinn án leyfis**. Eftir að þú velur gerð tölvupóstuppruna skal nota hnappinn áfram í **Upprunareikningur tölvupósts** svæði til að opna **Formúluhönnuður **skjámynd. Hægt er að nota þessa skjámynd til að festa formúla sem stendur fyrir valinn aðilalykil í áfangastað tölvupósts.
+Ef valið er **Prentstýring tölvupóstur** gerð, geturðu fært inn fast netfang í **Til** svæði. Til að nota tölvupóstföng sem eru ekki föst, verður að velja upprunagerð tölvupósts fyrir áfangastað skrár. Eftirfarandi virði eru studd: **Viðskiptavinur**, **Lánardrottinn**, **Viðfang**, **Tengiliður**, **Samkeppnisaðili**, **Starfskraftur**, **Umsækjandi**, **Væntanlegur lánardrottinn**, og **Lánardrottinn án leyfis**. Eftir að þú velur gerð tölvupóstuppruna skal nota hnappinn áfram í **Upprunareikningur tölvupósts** svæði til að opna **Formúluhönnuður**skjámynd. Hægt er að nota þessa skjámynd til að festa formúla sem stendur fyrir valinn aðilalykil í áfangastað tölvupósts.
 
 [![Grunnstilla Tölvupóstur vegna prentstýringar](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
@@ -131,7 +131,7 @@ Tvær gerðir af skyldum og réttindum eru notaðar fyrir áfangastaði rafrænn
 | PaymAccountsPayablePaymentsClerk    | Starfsmaður viðskiptaskuldagreiðslna            | ERFormatDestinationRuntimeConfigure | Skilgreina viðtökustað rafræns skýrslugerðarsniðs við keyrslu |
 | PaymAccountsReceivablePaymentsClerk | Starfsmaður viðskiptakröfugreiðslna         | ERFormatDestinationRuntimeConfigure | Skilgreina viðtökustað rafræns skýrslugerðarsniðs við keyrslu |
 
-**Athugasemd:** Tvær réttindi eru notuð í fyrri skyldum. Þessi réttindi hafa sama heiti og samsvarandi skyldum: **ERFormatDestinationConfigure** og **ERFormatDestinationRuntimeConfigure**.
+> ![ATHUGIÐ] Tvö réttindi eru notuð við fyrri skyldur. Þessi réttindi hafa sama heiti og samsvarandi skyldum: **ERFormatDestinationConfigure** og **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Ég hef flutt inn rafræna skilgreiningar og ég sé þær á síðunni fyrir skilgreiningar Rafræna skýrslugerð. En af hverju sé ég ekki þær á síðu fyrir áfangastaði Rafrænnar skýrslugerðar?
@@ -154,7 +154,7 @@ Athugið að formúlur eru sérstaklega ætlaðar fyrir skilgreiningu rafrænnar
 
 Skilyrðið er skal snið verður að vera tiltæk í skilgreiningum rafrænnar skýrslugerðar. Ef þú ert með sniðið þitt, skal opna sem **áfangastað Rafræn skýrslugerðar** síðunni og stofna ný tilvísun í þessa skilgreiningu. Síðan verður að hafa fjóra áfangastaði skráa , ein fyrir hvern frálagsíhlut. Stofna fyrsta ákvörðunarstað skrár , gefa því heiti eins og **Möppu**, og veljið skrárnafn sem táknar möppu í þinni skilgreiningu. Smellið á **Stillingar**, og gangið úr skugga um að allar áfangastaði eru óvirkir. Fyrir þessa áfangasta skrár, verður mappan ekki stofnuð. Að sjálfgefnu, vegna tengsla stigveldis milli skrár og yfirskipaðra mappa, munu skrárnar verða hegða sér á sama hátt. Með öðrum orðum þeir ekki verða sendir neitt. Til að hnekkja þeirri sjálfgefinni hegðun, verður að stofna þrjá fleiri áfangastaði skrár , einn fyrir hverja skrá. Í stillingum áfangastaðar fyrir hverja, þarf að virkja ákvörðunarstað sem á að senda skrána á.
 
-# <a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Yfirlit yfir Rafræna skýrslugerð](general-electronic-reporting.md)
 
