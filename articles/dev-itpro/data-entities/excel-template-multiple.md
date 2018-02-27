@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Excel sniðmát með mörgum vinnublöðum
 
+[!include[banner](../includes/banner.md)]
+
 Gagnastýring í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition styður sniðmát úr Microsoft Excel fyrir gagnaeiningar. Þessi sniðmát geta innihaldið einn eða fleiri vinnublöð. Sniðmát með mörgum vinnublöðum eru oft notaðar þegar auðvelt er að stýra gögnum í einni skrá og flytja hana inn í margar gagnaeiningar. Dæmi um þetta væri svæði og vöruhús.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Hlaða upp skrá einu sinni og varpa henni til allra eininga

@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri
 
+[!include[banner](../includes/banner.md)]
+
 Hægt er að hanna snið fyrir rafræna skýrslugerð (ER) sem nota má í forritinu Finance and Operations til að búa til rafræn skjöl á útleið. Einnig er hægt að hanna rafræn skýrslugerðarsnið sem þátta rafræn skjöl á innleið og nota innihaldið í þeim skjölum til að uppfæra gögn í forritinu. 
 
 Með þessari virkni er hægt að nota eitt rafrænt skýrslugerðarsnið til að búa til rafræn skjöl á útleið og uppfæra svo gögn í forritinu. Þessa aðgerð er einnig hægt að nota við eftirfarandi aðstæður:
