@@ -62,7 +62,7 @@ Eftirfarandi skref lýsa ferlinu við stofnun á sérstilltu svæði og koma þe
 10.   Smelltu á **Setja inn** til að setja inn merktu reitina í valda svæðið á forminu. 
 11.   **Valfrjálst:** Virkjaðu **Færa** stillinguna frá tækjastiku sérstillinga til að færa nýju reitina á viðkomandi stað á valda svæðinu. Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að nota hinar ýmsu sérstillingar til að hagræða formi til persónulegrar notkunar.  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Deiling sérsniðinna reita með öðrum notendum
+## <a name="sharing-custom-fields-with-other-users"></a>Deiling sérsniðinna reita með öðrum notendum
 Eftir að þú hefur búið til sérsniðinn reit og birt hann á sniði gætirðu viljað veita þennan uppfæra síðuskjá sem inniheldur nýja reitinn fyrir aðra notendur í kerfinu. Þetta er hægt að framkvæma á tvenns konar hátt með því að nota sérstillingarvalkosti vörunnar:
 
 -   Ráðlögð leið er í gegnum kerfisstjóra, sem getur ýtt sérsniðum til allra notenda eða undirhóps notenda. Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar. 
