@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 5c66f893b0dc26b01e7c4eb024ef543f915bfe9f
-ms.openlocfilehash: e272b846fba16445d3a48f9e6c33805d7b4f4d38
+ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
+ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
 ms.contentlocale: is-is
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 01/19/2018
 10.   <span data-ttu-id="9a452-136">Smelltu á **Setja inn** til að setja inn merktu reitina í valda svæðið á forminu.</span><span class="sxs-lookup"><span data-stu-id="9a452-136">Click **Insert** to insert the marked fields into the selected region of the form.</span></span> 
 11.   <span data-ttu-id="9a452-137">**Valfrjálst:** Virkjaðu **Færa** stillinguna frá tækjastiku sérstillinga til að færa nýju reitina á viðkomandi stað á valda svæðinu.</span><span class="sxs-lookup"><span data-stu-id="9a452-137">**Optional:** Enable **Move** mode from the personalization toolbar to move the new fields to their desired location in the selected region.</span></span> <span data-ttu-id="9a452-138">Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að nota hinar ýmsu sérstillingar til að hagræða formi til persónulegrar notkunar.</span><span class="sxs-lookup"><span data-stu-id="9a452-138">See [Personalize the user experience](personalize-user-experience.md) for more information about how to use the various personalization capabilities to optimize a form for your personal usage.</span></span>  
 
-### <a name="sharing-custom-fields-with-other-users"></a><span data-ttu-id="9a452-139">Deiling sérsniðinna reita með öðrum notendum</span><span class="sxs-lookup"><span data-stu-id="9a452-139">Sharing custom fields with other users</span></span>
+## <a name="sharing-custom-fields-with-other-users"></a><span data-ttu-id="9a452-139">Deiling sérsniðinna reita með öðrum notendum</span><span class="sxs-lookup"><span data-stu-id="9a452-139">Sharing custom fields with other users</span></span>
 <span data-ttu-id="9a452-140">Eftir að þú hefur búið til sérsniðinn reit og birt hann á sniði gætirðu viljað veita þennan uppfæra síðuskjá sem inniheldur nýja reitinn fyrir aðra notendur í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="9a452-140">After you have created a custom field and exposed it on a form, you might want to provide this updated page view that includes the new field to other users in the system.</span></span> <span data-ttu-id="9a452-141">Þetta er hægt að framkvæma á tvenns konar hátt með því að nota sérstillingarvalkosti vörunnar:</span><span class="sxs-lookup"><span data-stu-id="9a452-141">This can be accomplished in two different ways using the personalization capabilities of the product:</span></span>
 
 -   <span data-ttu-id="9a452-142">Ráðlögð leið er í gegnum kerfisstjóra, sem getur ýtt sérsniðum til allra notenda eða undirhóps notenda.</span><span class="sxs-lookup"><span data-stu-id="9a452-142">The recommended route is through the system administrator, who can push a personalization to all users or a subset of users.</span></span> <span data-ttu-id="9a452-143">Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="9a452-143">See [Personalize the user experience](personalize-user-experience.md) for more details.</span></span> 
