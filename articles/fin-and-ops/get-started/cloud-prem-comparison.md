@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Samanburður á eiginleikum uppsetningar í skýi og á staðnum
 
+[!include[banner](../includes/banner.md)]
+
 Þetta efnisatriði sýnir hvort hver eiginleiki er tiltækur í þessum vörum.
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (ský)

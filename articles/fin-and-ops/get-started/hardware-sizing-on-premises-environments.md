@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Vélbúnaðarþörf fyrir staðbundin umhverfi
+
+[!include[banner](../includes/banner.md)]
+
 Áður en byrjað er á ferlinu fyrir vélbúnaðar- og innviðaþörf fyrir staðbundið umhverfi skaltu kynna þér [Kerfiskröfur](system-requirements.md) og [Leiðbeiningar um uppsetningu og virkjun](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) til að fá góðan skilning á undirliggjandi innviðum. 
 
   **Athugið:** Kynntu þér vel bestu venjur fyrir kerfisuppsetningu til að ná mestum afköstum. 
