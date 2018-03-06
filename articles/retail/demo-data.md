@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Útlit sýnigagnaskjás í MPOS/CPOS
 
+[!include[banner](includes/banner.md)]
+
 Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Microsoft Dynamics 365 for Retail.
 
 ## <a name="overview"></a>Yfirlit
