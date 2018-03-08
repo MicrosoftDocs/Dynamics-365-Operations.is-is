@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="e3acd-103">Smásöluuppgjör</span><span class="sxs-lookup"><span data-stu-id="e3acd-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="e3acd-104">Í Microsoft Dynamics 365 for Retail, er uppgjörsbókunarferli notað til að gera grein fyrir færslum sem verða til í sölustað í skýinu (POS) eða Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="e3acd-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="e3acd-105">Uppgjörsbókunarferlið notast við dreifingaráætlunina til að sækja safn sölustaðarfærslna í höfuðbiðlara (HQ).</span><span class="sxs-lookup"><span data-stu-id="e3acd-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="e3acd-106">Færibreytur sem skilgreindar eru á síðunum **Smásölufæribreytur** og **Verslanir** eru notaðar til að velja færslurnar sem eru sóttar í einstök uppgjör.</span><span class="sxs-lookup"><span data-stu-id="e3acd-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="e3acd-107">Eftirfarandi skýringarmynd sýnir uppgjörsbókunarferlið.</span><span class="sxs-lookup"><span data-stu-id="e3acd-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="e3acd-108">Í þessu ferli eru færslur sem eru skráðar á sölustað sendar til biðlara með því að nota verkraðara smásölu.</span><span class="sxs-lookup"><span data-stu-id="e3acd-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="e3acd-109">Eftir að biðlari tekur við færslunum, er hægt að stofna, reikna og bóka færsluuppgjör fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="e3acd-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 
