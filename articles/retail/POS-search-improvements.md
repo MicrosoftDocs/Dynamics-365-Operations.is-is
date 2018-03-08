@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Yfirlit yfir vöru og viðskiptavinaleit í sölustað
 
+[!include[banner](includes/banner.md)]
+
 Modern Point of Sale  (MPOS) og Cloud Point of Sale (CPOS) bjóða upp á þægilegan leitarvirkni sem leyfir verslunarmönnum að fljótt leita að vörum og viðskiptavinum. Leitarastikan er alltaf til staðar efst á MPOS og CPOS, þannig að starfsmenn geti fljótt fundið vörur og viðskiptavini.
 
 Starfsmenn geta leitað að vörum í vöruflokkunum og vörulistunum sem tengjast núverandi verslun og í úrvali og vörulistum sem tengjast öðrum verslunum í fyrirtækinu. Þannig geta gjaldkerar selt og skilað vörum utan framboðs í vöruhúsi. Á sama hátt geta starfsmenn leitað að viðskiptavinum sem tengjast núverandi verslun eða annarri verslun í fyrirtækinu. Auk þess geta starfsmenn leitað að viðskiptavinum sem tengjast öðru fyrirtæki í móðurfyrirtækinu.

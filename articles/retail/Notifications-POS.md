@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Birta tilkynningar á Sölustað
 
+[!include[banner](includes/banner.md)]
+
 Í nútíma smásalaumhverfi dagsins í dag eru verslunarstarfsmenn úthlutað ýmsum verkefnum, svo sem að aðstoða viðskiptavini, færa inn viðskipti, framkvæma birgðatalningu og taka á móti pantanir í verslun. Biðlari sölustaðarins (POS) gerir starfsmönnum kleift að gera þetta verkefni og margt fleira, allt í einu forriti. Þar sem ýmsum verkefnum þarf að framkvæma yfir daginn, gætu starfsmenn þurft að fá tilkynningu þegar eitthvað þarf að athygli þeirra. Tilkynningaramminn í POS leysir þetta vandamál með því að leyfa smásölum að stilla hlutverkatengdar tilkynningar. Með Dynamics 365 for Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltir fyrir POS aðgerðir.
 
 Sem stendur veitir kerfið möguleika á að birta tilkynningar fyrir pöntunaruppfyllingaraðgerð, en ramminn er hins vegar hannaður til að vera teygjanlegur, þannig að þróunaraðilar muni í framtíðinni geta skrifað tilkynningarekil fyrir hvaða aðgerð sem er og birta tilkynningarnar í POS.  

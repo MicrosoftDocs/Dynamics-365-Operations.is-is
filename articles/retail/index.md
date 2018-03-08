@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Velkomin(n) í Dynamics 365 for Retail
 
+[!include[banner](includes/banner.md)]
+
 Microsoft Dynamics 365 for Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
 
 > [!NOTE] 

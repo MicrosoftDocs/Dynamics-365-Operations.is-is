@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Skoða og meta niðurstöður spurningalista
 
+[!include[banner](includes/banner.md)]
+
 Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
 
 Eftir að svarendur hafa lokið við spurningarlista eru margar leiðir til að meta niðurstöðurnar, meðal annars eftirfarandi:

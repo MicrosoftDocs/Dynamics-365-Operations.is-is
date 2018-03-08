@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Flytja vörur og vöruhúsakerfi úr AX 2012 í Finance and Operations
 
+[!include[banner](../includes/banner.md)]
+
 Í þessu efnisatriði gefur yfirlit yfir umsjón vöru og vöruhús yfirfærslna valkostir innan Microsoft Dynamics 365 til Fjármála og Aðgerðir Enterprise edition.
 
 <a name="introduction"></a>Inngangur
