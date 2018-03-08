@@ -28,6 +28,8 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
+[!include[banner](../includes/banner.md)]
+
 Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 
 <a name="introduction"></a>Inngangur

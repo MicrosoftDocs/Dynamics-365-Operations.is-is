@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Senda pöntun frá annarri verslun
 
+[!include[banner](includes/banner.md)]
+
 Með Hleðslusending eiginleikanum í Dynamics 365 for Retail getur viðskiptavinarpantanir verið sett í eina verslun og send frá öðrum verslun. Viðskiptavinapantanir á sölustað (POS) biðlari styðja margskonar uppfyllingarkosti. Nokkur dæmi um valkosti uppfyllingar eru:
 -   Sækja frá sömu verslun á annan dag.
 -   Sækja frá annarri verslun á sama degi eða öðrum degi.

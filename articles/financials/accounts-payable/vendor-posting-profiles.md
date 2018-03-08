@@ -54,10 +54,6 @@ Tilgreinið fjárhagslyklana sem eru notaðir við bókun færsla sem nota valda
 Ef óskað er eftir að allar lánardrottnafærslur hafi sömu bókunarregluna, setjið þá einungis upp eina bókunarreglu með gildinu Allt í svæðið lykilkóði. Tilgreina eftirfarandi gildum til að setja upp bókunarreglunni :
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Reitur</th>

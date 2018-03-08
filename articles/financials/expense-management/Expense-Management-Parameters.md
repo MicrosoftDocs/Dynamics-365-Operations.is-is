@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Færibreytur útgjaldastýringar
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Færibreyturnar stjórna almennri hegðun í Kostnaðarstýringu.

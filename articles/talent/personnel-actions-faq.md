@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Starfsfólksaðgerðir [Algengar spurningar]
+
+[!include[banner](includes/banner.md)]
+
 Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. Dæmi um verk sem gætu krafist aðgerða starfsfólks eru þegar að stofna nýjar stöður, breyta fyrirliggjandi gildi stöðu, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni eða segja upp starfsmönnum.
 
 **Ath:** Aðgerðir starfskrafts eru aðeins í boði ef reitirnir **Kveikja á aðgerðum starfskrafts** og **Kveikja á stöðuaðgerðum** eru stilltir á **Já**, í fliplanum **Aðgerðir starfskrafts** á síðunni **Samnýttar færibreytur fyrir mannauð**. 

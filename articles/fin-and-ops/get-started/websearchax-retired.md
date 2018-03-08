@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX lokað
 
+[!include[banner](../includes/banner.md)]
+
 Við þurftum að loka WebSearchAX síðunni. Við mælum með að þú notir vefsvæðaleit í uppáhalds leitarvélinni þinni til að skipta þv´út.  Dæmi: 
 
 site:technet.microsoft.com dynamics ax 2012 "search term"

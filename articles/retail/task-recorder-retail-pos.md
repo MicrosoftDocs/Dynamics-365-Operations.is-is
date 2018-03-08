@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Verkskráning og hjálp fyrir sölustað
 
+[!include[banner](includes/banner.md)]
+
 Þetta efnisatriði lýsir hvernig á að nota verkskráningu í tungumálastillingum í Cloud POS og Retail Modern POS.
 
 <a name="overview"></a>Yfirlit

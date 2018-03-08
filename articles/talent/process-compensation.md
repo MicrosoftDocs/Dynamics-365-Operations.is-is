@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Launaútreikningur
+
+[!include[banner](includes/banner.md)]
+
 Launaútreikningur gerir þér kleift að reikna nýjar grunnlaunaupphæðir fyrir starfsmenn þína á grundvelli launaleiðréttingar, marka verðleikaaukningar og afkasta. Þetta efnisatriði fer yfir grunnflæði launavinnslu fyrir launafyrirkomulag með föstum launum án þess að tekið sé tillit til afkasta starfsmanns.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Áætla nýjar launaupphæðir og setja saman áætlanir

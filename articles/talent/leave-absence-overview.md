@@ -27,6 +27,8 @@ ms.lasthandoff: 01/31/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Stjórnunaryfirlit leyfis og fjarvista
 
+[!include[banner](includes/banner.md)]
+
 **Stjórnun leyfa og fjarvista** kerfiseining býður upp á sveigjanlegan rammi til að skilgreina stjórnunarferlið tengt fjarvistum. Áætlanir um leyfi og fjarvistir er hægt að stofna til að ákvarða hvernig starfsmenn safna upp eða er veitt leyfi. Eftir að starfsmenn eru skráðir í áætlun, geta þeir sent inn beiðnir um leyfi fyrir stjórnendur að samþykkja. Rakning leyfis sýnir bæði fyrsta-stigs stjórnendum og mannauðsstjórum (HR) hver er í leyfi og hversu langt leyfi hver starfsmaður á ennþá inni.  
 
 Stjórnun leyfis og fjarvista býður upp á eftirfarandi eiginleika: 

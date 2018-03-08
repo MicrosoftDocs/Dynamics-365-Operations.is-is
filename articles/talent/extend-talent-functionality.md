@@ -25,6 +25,9 @@ ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Framlengja virkni Microsoft Dynamics 365 for Talent
+
+[!include[banner](includes/banner.md)]
+
 Ef þú hefur búið til einhver Microsoft PowerApps geturðu opnað þau forrit frá tenglum innan Microsoft Dynamics 365 for Talent. Til að setja upp aðgang að forritunum þínum þarftu að setja upp nokkrar upplýsingar í Talent á forstillingasíðu sem þú getur opnað frá vinnusvæði **Kerfisstjórnun**.
 
 ## <a name="configuring-embedded-powerapps-within-talent"></a>Grunnstilling innfelldra PowerApps innan Talent

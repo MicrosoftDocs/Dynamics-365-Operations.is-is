@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Skilgreiningarlyklar og gagnaeiningar
+
+[!include[banner](../includes/banner.md)]
+
 Áður en þú notar gagnaeiningar til að flytja inn eða flytja út gögn, mælum við með því að þú fyrst ákvarðir áhrif skilgreiningarlykla á gagnaeiningarnar sem þú ætlar að nota. 
 
 Til að fá frekari upplýsingar um skilgreiningarlykla í Finance and Operations, sjá [Skýrslu um leyfiskóða og skilgreiningarlykla](../sysadmin/license-codes-configuration-keys-report.md).

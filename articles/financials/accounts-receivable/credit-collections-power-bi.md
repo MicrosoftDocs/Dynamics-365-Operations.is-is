@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón í Power BI
 
+[!include[banner](../includes/banner.md)]
+
 Þetta efnisatriði lýsir því hvað er að finna í **Skulda- og innheimtuumsjón** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
