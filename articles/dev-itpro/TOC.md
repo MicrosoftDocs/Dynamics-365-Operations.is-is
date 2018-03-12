@@ -9,7 +9,7 @@
 ## [Forritastöflun og skipulag þjóns](dev-tools/application-stack-server-architecture.md)
 ## [Prufueintak sótt](dev-tools/get-evaluation-copy.md)
 ## [Áskrift](dev-tools/sign-up-preview-subscription.md)
-## [Access-tilvik](dev-tools/access-instances.md)
+## [Uppsetning þróunarumhverfis og aðgangur að því](dev-tools/access-instances.md)
 ## [Þróunarkerfiskröfur](dev-tools/development-system-requirements.md)
 ## Prufuforrit bílaflotastjórnunar
 ### [Prufuforrit bílaflotastjórnunar](dev-tools/fleet-management-sample.md)
@@ -360,7 +360,7 @@
 #### [ValueMetadata-gerð](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Samþætting gagna
-## [Samþættingarmynstur](data-entities/integration-overview.md)
+## [Velja stefnu um samþættingu gagna (innflutning/útflutning)](data-entities/integration-overview.md)
 
 ## API samþættingar gagna
 ### [API gagnastjórnunarpakka](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Samþætting gagna með Common Data Service](data-entities/data-integration-cds.md) 
 #### [Skilgreina aðstæðurnar viðfang til sjóðstreymis](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Samstilla afurðir úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Samstilla lykla úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Samstilla tengiliði úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Samstilla hausa og línur sölutilboðs úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Samstilla hausa og línur sölupöntunar úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Samstilla hausa og línur sölureiknings úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Samstilla afurðir úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Samstilla lykla úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Samstilla tengiliði úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Samstilla hausa og línur sölutilboðs úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Samstilla hausa og línur sölupöntunar úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Samstilla hausa og línur sölureiknings úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Samstilla afurðir beint úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Notkun eigin gagnagrunns](analytics/export-entities-to-your-own-database.md)
 
+## [Tilföng til að bregðast við GDPR-gagnabeiðnum](gdpr/gdpr-home-page.md)
+
 # [Samfelld afhending – heimasíða](dev-tools/continuous-delivery-home-page.md)
 ## [Algengar spurningar um þróun og samfelld afhendingu](dev-tools/continuous-delivery-faq.md)
 ## [Útiloka prófunarpakka úr frálagi útgáfu](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [Stofna staðbundið verk](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Setja upp og nota staðbundið umhverfi](deployment/setup-deploy-on-premises-environments.md)
 ### [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](deployment/develop-deploy-custom-models-on-premises.md)
+### [Skilgreina öfugan staðgengil fyrir staðbundið umhverfi](deployment/onprem-reverseproxy.md)
 ### [Nota uppfærslur fyrir uppsetningu á staðnum](deployment/apply-updates-on-premises.md)
 ### [Setja uppsetningu á staðnum aftur upp](deployment/redeploy-on-prem.md)
 ### [Uppfæra staðbundinn eftirlitsbúnað](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Uppsetning virkjanlegs pakka](deployment/install-deployable-package.md)
 ### [Úrræðaleit vegna vandamála í forritapakka](deployment/deployable-package-troubleshooting.md)
 
-# [Uppfærsla og flutningur](migration-upgrade/upgrade-home-page.md)
+# [Uppfærslur og bráðabætur](migration-upgrade/upgrade-home-page.md)
 ## [Uppfærsla úr AX 2012 í Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 uppfærsla – Nota kóðauppfærsluþjónustu til að meta vinnu](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Skipting líkana](dev-tools/model-split.md)
 ### [Notkun fulltrúa til að leysa tengsl á milli líkana](migration-upgrade/delegates-migration.md)
 
-
-## Uppfæra í nýjustu uppfærslu
+## Uppfæra í nýjustu uppfærslu (ský)
 ### [Ferli fyrir flutning í nýjustu uppfærslu](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-stefna](migration-upgrade/versions-update-policy.md)
 ### [Nota nýjustu uppfærslu verkvangs á umhverfi](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [Uppfærsla sandkassaumhverfis](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Uppfærsla gagna í þróunar- eða sýniútgáfuumhverfi](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Uppfærsla þróunarverkfæra](dev-tools/update-development-tools.md)
+
+## Uppfæra í nýjustu uppfærslu (á staðnum)
 ### [Nota uppfærslur fyrir uppsetningu á staðnum](deployment/apply-updates-on-premises.md)
 ### [Setja uppsetningu á staðnum aftur upp](deployment/redeploy-on-prem.md)
 
-## Bráðabætur og þjónusta
+## Bráðabætur
 ### [Niðurhal bráðabóta af Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Nota uppfærslur á umhverfi í skýi](deployment/apply-deployable-package-system.md)
 ### [Uppsetning lýsigagnabráðabótar](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Reporting Services lagfært í heildrænu umhverfi](migration-upgrade/patch-reporting-service-environment.md)
+### [Uppfærsla þróunarverkfæra í Visual Studio](dev-tools/update-development-tools.md)
 
 ## Afskriftir
 ### [Úrelt API](migration-upgrade/deprecated-apis.md)

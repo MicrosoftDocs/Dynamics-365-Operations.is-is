@@ -18,13 +18,15 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 346ff28be67b9f39a9e6a031781ec4f369908ede
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 2b5abc98f5788c5091e5be61688cfd0d4076a510
 ms.contentlocale: is-is
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a><span data-ttu-id="13f8e-103">Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu</span><span class="sxs-lookup"><span data-stu-id="13f8e-103">Configure SQL Server Reporting Services for an on-premises deployment</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="13f8e-104">Fylgið skrefunumm í þessu efnisatriði til að grunnstilla virkjun SQL Server Reporting Services (SSRS) fyrir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (á staðnum).</span><span class="sxs-lookup"><span data-stu-id="13f8e-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) deployment.</span></span>
 

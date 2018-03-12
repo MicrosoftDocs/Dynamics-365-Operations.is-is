@@ -183,6 +183,7 @@
 ### [Skipulag MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [Útgáfuskipulag smásölunetverslunar](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [Power BI-efni fyrir frammistöðu smásölurásar](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
 
 ## Uppsetning og bráðabætur
 ### [Yfirlit einingarkvarðapakka smásöluverslunar](dev-itpro/retail-store-system-begin.md)
