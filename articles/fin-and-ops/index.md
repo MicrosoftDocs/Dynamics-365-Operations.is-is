@@ -3,7 +3,7 @@ title: "Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations, Enterpris
 description: "Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -42,16 +42,20 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <td>
 <h3><a href="get-started/before-you-buy.md">Fyrir kaup</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Velja innleiðingarvalkost</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (on-premises)</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Innleiðing verkefnis</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Undirbúningur fyrir keyrslu</a></p>
+  
 <h3><a href="../financials/index.md">Fjármálastjórnun</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Viðskiptaskuldir</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Viðskiptakröfur</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Fjárhagsáætlun</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Reiðufjár- og bankastjórnun</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules.md">Samræmi</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules.md">Reglufylgni</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Kostnaðarbókhald</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">Eignir</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">Fjárhagur</a></p>
@@ -99,7 +103,8 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <p><a href="get-started/demo-data.md">Sýnigögn</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Stjórnun</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Uppsetning</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Uppsetning í skýinu</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Notkun á staðnum</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Uppfærsla</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Þjónusta</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Gagnastjórnunarrammi</a></p>
