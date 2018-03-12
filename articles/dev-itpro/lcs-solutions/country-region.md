@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: is-is
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 -   [Aðferðir við afskriftir eigna](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Færa eign í birgðir](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Ódýrar eignir](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Indland
+
+- [Eignir](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Flutningur fjármagnsvara til eignar](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Festa dagatal með dagaskiptingu við eignabók](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Setja upp færibreytur til að reikna út afskriftir](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Setja upp afskriftir eignaflokks fyrir afskriftarbækur](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Stofna flokk birgðalíkana fyrir fjármagnsvörur](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Hliðra útreikningi afskrifta fyrir eignir á Indlandi](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Skilgreina tegund hliðrunar og iðnaðar fyrir bækur og festa við eign](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Yfirlit yfir skattakerfi](../../financials/general-ledger/tax-engine.md)
+    - [Samþætting skattkerfis](../../financials/general-ledger/tax-engine-integration.md)
+    - [Algengar spurningar um skattþrep](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Útfærsla skattakerfis](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Ítalía
 

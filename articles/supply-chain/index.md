@@ -1,9 +1,9 @@
 ---
 title: "Stjórnun aðfangakeðju – heimasíða"
-description: "Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: is-is
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/22/2018
 Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
 - [Kostnaðarbókhald](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Kostnaðarstjórnun](cost-management/costing-sheets.md)  
+- [Kostnaðarstýring](cost-management/cost-management-home-page.md)  
 - [Birgðastjórnun](inventory/inventory-home-page.md)
 - [Aðaláætlanagerð](master-planning/master-planning-home-page.md)
 - [Innkaup og aðföng](procurement/procurement-sourcing-overview.md)
@@ -52,12 +52,13 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
 ## <a name="videos"></a>Myndbönd
 
-Þessi stuttu myndbönd hjálpa þér læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, (desember 2017).
+Þessi stuttu myndbönd hjálpa þér læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (desember 2017).
 
--  [PTC samþætting](https://youtu.be/AVV9x5x-XCg) 
+-  [PTC-samþætting](https://youtu.be/AVV9x5x-XCg) 
 -  [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Notaðu sniðmát vöruhúss til að afrita skilgreiningu](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Þessi stuttu myndbönd hjálpa þér læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, (júlí 2017).
+Þessi stuttu myndbönd hjálpa þér læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, (júlí 2017).
 
 -  [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
 -  [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
@@ -67,17 +68,36 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
 Í þessum upptökum tækniráðstefna er fjallað um virkni í eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Afurðarafbrigðastillir í Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum</a>
--  <a href="https://youtu.be/RLXybx20B5o">Hjálp! MRP er hægt!</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Vinnsla ASN á innleið í vöruhúsakerfi</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Fáðu sem mest úr vöruhúsakerfinu</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Advanced R3 vöruhúsakerfi - vinnsla á innleið og hámarks-/lágmarksáfylling</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Advanced R3 vöruhúsakerfi - Dagur í útleiðarvinnslu og áfyllingu eftirspurnar</a>
--  <a href="https://youtu.be/5w1MngVchBA">Merki í nýja Microsoft Dynamics AX 2012 R3 vöruhúsakerfinu</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Ítarlegt vöruhúsakerfi - Dagur í vinnsluframleiðslu</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Úthýsing aðgerða og verkþátta í framleiðslu</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Flutningsstjórnun í nýja Microsoft Dynamics AX</a>
+**Kostnaðarstjórnun**
+
+-  [Yfirlit yfir kostnaðarstjórnun](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Aðaláætlanagerð**
+
+-  [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum](https://youtu.be/7v8BPmEs9Dg)
+-  [Hjálp! MRP er hægt!](https://youtu.be/RLXybx20B5o)
+
+**Afurðaupplýsingastjórnun**
+
+-  [Afurðarafbrigðastillir í Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Vöruhúsakerfi** 
+
+-  [Vinnsla ASN á innleið í vöruhúsakerfi](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Fáðu sem mest úr vöruhúsakerfinu](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Advanced R3 vöruhúsakerfi - vinnsla á innleið og hámarks-/lágmarksáfylling](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Advanced R3 vöruhúsakerfi - dagur í útleiðarvinnslu og áfyllingu eftirspurnar](https://youtu.be/Og0gLlVp7jA)
+-  [Merki í nýja Microsoft Dynamics AX 2012 R3 vöruhúsakerfinu](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: Ítarlegt vöruhúsakerfi - Dagur í vinnsluframleiðslu](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Framleiðslustýring**
+
+-  [Úthýsing aðgerða og verkþátta í framleiðslu](https://youtu.be/y1jrd3A_k70)
+
+**Flutningsstjórnun**
+
+-  [Flutningsstjórnun í nýja Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogg
 Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX </a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 

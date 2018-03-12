@@ -1,7 +1,7 @@
 ---
 title: "Leiðir og aðgerðir"
 description: "Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
