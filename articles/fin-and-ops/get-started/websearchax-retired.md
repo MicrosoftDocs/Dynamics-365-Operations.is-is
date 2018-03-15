@@ -25,16 +25,16 @@ ms.lasthandoff: 03/05/2018
 
 ---
 
-# <a name="websearchax-retired"></a><span data-ttu-id="9a481-104">WebSearchAX lokað</span><span class="sxs-lookup"><span data-stu-id="9a481-104">WebSearchAX retired</span></span>
+# <a name="websearchax-retired"></a><span data-ttu-id="48bc7-104">WebSearchAX lokað</span><span class="sxs-lookup"><span data-stu-id="48bc7-104">WebSearchAX retired</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="9a481-105">Við þurftum að loka WebSearchAX síðunni.</span><span class="sxs-lookup"><span data-stu-id="9a481-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="9a481-106">Við mælum með að þú notir vefsvæðaleit í uppáhalds leitarvélinni þinni til að skipta þv´út.</span><span class="sxs-lookup"><span data-stu-id="9a481-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="9a481-107">Dæmi:</span><span class="sxs-lookup"><span data-stu-id="9a481-107">For example:</span></span> 
+<span data-ttu-id="48bc7-105">Við þurftum að loka WebSearchAX síðunni.</span><span class="sxs-lookup"><span data-stu-id="48bc7-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="48bc7-106">Við mælum með að þú notir vefsvæðaleit í uppáhalds leitarvélinni þinni til að skipta þv´út.</span><span class="sxs-lookup"><span data-stu-id="48bc7-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="48bc7-107">Dæmi:</span><span class="sxs-lookup"><span data-stu-id="48bc7-107">For example:</span></span> 
 
-<span data-ttu-id="9a481-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span><span class="sxs-lookup"><span data-stu-id="9a481-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="48bc7-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span><span class="sxs-lookup"><span data-stu-id="48bc7-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
 
-<span data-ttu-id="9a481-109">-eða-</span><span class="sxs-lookup"><span data-stu-id="9a481-109">-or-</span></span>
+<span data-ttu-id="48bc7-109">-eða-</span><span class="sxs-lookup"><span data-stu-id="48bc7-109">-or-</span></span>
 
-<span data-ttu-id="9a481-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span><span class="sxs-lookup"><span data-stu-id="9a481-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
+<span data-ttu-id="48bc7-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span><span class="sxs-lookup"><span data-stu-id="48bc7-110">site:msdn.microsoft.com dynamics ax 2012 “search term”</span></span>
 
 
