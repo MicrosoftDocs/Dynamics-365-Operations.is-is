@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Fyrir frekari upplýsingar um samþættingu Prospect to cash, skoðaðu stutt Yo
 - [Samstilla sölupantanir beint úr Finance and Operations við Sales](sales-order-template-mapping-direct.md)
 - [Samstilla sölupantanir beint á milli Sales og Finance and Operations (útgáfa á sniðmáti í vinnslu)](sales-order-template-mapping-direct-two-ways.md)
 - [Samstilla sölureikninga beint úr Finance and Operations við Sales](sales-invoice-template-mapping-direct.md)
-
-Í fyrri útgáfum veitir Prospect to cash lausnin eftirfarandi gerðir af óbeinni samstillingu:
-
-- [Viðhalda reikningum í Sales og samstilla þá við Finance and Operations](accounts-template-mapping.md)
-- [Vinna með tengiliði í Sales og samstilla þá við Finance and Operations](contacts-template-mapping.md)
-- [Vinna með afurðir í Finance and Operations og samstilla þær við Sales](products-template-mapping.md)
-- [Stofna sölutilboð í Sales og samstilla þau við Finance and Operations](sales-quotation-template-mapping.md)
-- [Stofna sölupantanir í Finance and Operations og samstilla þær við Sales](sales-order-template-mapping.md)
-- [Stofna sölureikninga í Finance and Operations og samstilla þá við Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Kerfisskilyrði fyrir Finance and Operations
 
@@ -87,7 +78,7 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Stuðningi við prospect to cash samþættingu gegnum gagnaeiningar er krafist.
     
     > [!NOTE]
-    > Eftir að hafa sett upp bráðabætur þarftu að kveikja á eftirfarandi runuvinnslu frá skjámyndinni **SalesPopulateProspectToCash**. Þetta form er falið þar sem þú þarft það aðeins einu sinni. Til að fá aðgang að forminu, skaltu skrá þig inn í umhverfið og bæta eftirfarandi við vafrafangið þitt: &mi=action:SalesPopulateProspectToCash, til dæmis, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Þegar formið opnast skaltu smella á Í lagi. Þetta mun fylla upp í nýjan **LineCreationSequnceNumber** reit í **SalesLine**, **SalesQuotationLine** og **CustInvoiceTrans** töflunum með einkvæmum gildum og endurhlaða afurðalistann. Þetta er áskilið svo að Prospect to cash samþættingin virki.
+    > Eftir að hafa sett upp bráðabætur þarftu að kveikja á eftirfarandi runuvinnslu frá skjámyndinni **SalesPopulateProspectToCash**. Þetta form er falið þar sem þú þarft það aðeins einu sinni. Til að fá aðgang að forminu skaltu skrá þig inn í umhverfið og bæta eftirfarandi við vefslóðina í vafrafanginu þínu: &mi=action:SalesPopulateProspectToCash, til dæmis, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Þegar formið opnast skaltu smella á Í lagi. Þetta mun fylla upp í nýjan **LineCreationSequnceNumber** reit í **SalesLine**, **SalesQuotationLine** og **CustInvoiceTrans** töflunum með einkvæmum gildum og endurhlaða afurðalistann. Þetta er áskilið svo að Prospect to cash samþættingin virki.
 
 
 ## <a name="system-requirements-for-sales"></a>Kerfisskilyrði fyrir Sales
@@ -96,12 +87,6 @@ Eftirfarandi einingar verður að setja upp áður en Prospect to cash lausin er
 
 - Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu
 - Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Sniðmát með útgáfu 1.0.0.0 og 1.0.0.1 eru studd á Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.14.1.0
-   >
-   > Sniðmát með útgáfu 2.0.0.0 og 2.1.0.0 eru studd á Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Settu upp Prospect to cash lausn fyrir Sales
 

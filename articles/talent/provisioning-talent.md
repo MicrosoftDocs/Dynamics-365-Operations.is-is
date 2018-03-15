@@ -18,14 +18,19 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a53c1997f74ebe572b17cc3090d2e236b6fe78f6
-ms.openlocfilehash: 8a84cfe9b73f0c72f3cb0c3843749754c6b3d538
+ms.sourcegitcommit: 8b59ea6a2ac8c1c4e5df6e251fa3390639ff3f30
+ms.openlocfilehash: e6266ef5890b5caaf33db76eeccfc8a7a6888a11
 ms.contentlocale: is-is
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/02/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Úthluta Microsoft Dynamics 365 for Talent
-Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs umhverfis fyrir Microsoft Dynamics 365 for Talent. Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Talent í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Talent og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
+
+[!include[banner](includes/banner.md)]
+
+[!include[banner](includes/banner.md)]
+
+Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 for Talent. Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Talent í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Talent og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
 
 Til að byrja, þá ætti stjórnandi á heimsvísu að skrá sig inn í [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) og búa til nýtt Talent verk. Nema vandamál tengd leyfisveitingu hindri þig frá því að úthluta Talent, er ekki þörf á aðstoð frá notendaþjónustu eða Dynamic Service Engineering (DSE) fulltrúum.
 
@@ -52,45 +57,51 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
 3. Veldu **Bæta við** og veldu síðan umhverfið sem skal úthulta Talent inn í.
 4. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
 
-    Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur alla jafna aðeins nokkrar mínútur. Ef úthlutun mistekst verður þú að hafa samband við notendaþjónustu.
+    Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur alla jafna aðeins nokkrar mínútur. Ef úthlutunarferlið mistekst þarftu að hafa samband við notendaþjónustu.
 
 6. Velja **Innskráning í Talent** til að nota nýja umhverfið þitt.
 
 > [!NOTE]
 > Ef þú hefur ekki ennþá skráð þig út á síðustu skilyrðin getur þú virkjað prufutilvik af Talent í verkinu. Þú getur síðan notað þetta tilvik til að prófa lausnina þína þar til þú skráir þig út. Ef þú notar nýtt umhverfi þitt til að prófa þarftu að endurtaka þetta ferli til að búa til framleiðsluumhverfi.
 
+> [!NOTE]
+> Talent umhverfum sem er úthlutað í gegnum LCS innihalda ekki sýnigögn sem eru stillt fyrir Mannauðsverk eða sem eru sértæk fyrir Talent. Ef þú þarft umhverfi sem inniheldur sýnigögn mælum við með að þú skráir þig fyrir ókeypis 60 daga [Talent prófunarumhverfi](https://dynamics.microsoft.com/en-us/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir mannauðskjarna. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum umhverfisins eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Búa til nýtt PowerApp umhverfi (ef þörf krefur)
+Samþætting milli Talent og PowerApps umhverfa leyfir þér að samþætta og útvíkka notkun á Talent gögnum með PowerApps verkfærum. Skilningur á tilgangi PowerApps umhverfanna mun auðvelda þér að smíða forrit sem mætir þínum þörfum við útvíkkun á Talent. Frekari upplýsingar um PowerApps umhverfin, þ.á.m. umfang umhverfis, aðgangur að umhverfi og stofnun og val á umhverfi eru í [PowerApps umhverfi kynnt til sögunnar](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). Hverjum leigjanda er sjálfkrafa úthlutað sjálfgefið PowerApps umhverfi sem er ekki endilega umhverfið sem hentar best þinni nýtingu á Talent. Hafa skal í huga gagnasamþættingu og prófunaráætlanir í þessu skrefi og því er ráðlagt að hafa í huga afleiðingarnar sem geta haft áhrif á uppsetninguna því ekki er auðvelt að breyta sumum ákvörðunum eftir á. 
 
-Sýnin á bak við samþættingu Talents við PowerApps umhverfi er að virkja gagnasamþættingu og flæði viðbóta með því að nota PowerApps verkfæri ofan á Talent gögn. Þess vegna er mikilvægt að skilja tilgang PowerApps umhverfis þegar umhverfi er valið fyrir notkun á Talent. Nánari upplýsingar um PowerApps umhverfi, þ.m.t. umfang umhverfis, aðgang að umhverfi og stofnun og val á umhverfi, sjá [Tilkynningar um PowerApps umhverfi](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/).  Þó að hverjum leigjanda sé sjálfkrafa ráðstafað venjulegu PowerApps umhverfi, gæti verið að það sé ekki besta umhverfið til að nota fyrir uppsetningu á þínum Talent. Taka skal tillit til gagnasamþættinga og prófunaraðferða meðan á þessu skrefi stendur, svo við mælum með því að þú hafir í huga hinar ýmsu afleiðingar á uppsetningunni þinni, þar sem ekki er auðvelt að breyta henni síðar.
+Þótt hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefið PowerApps umhverfi er það ekki endilega umhverfið sem hentar best þinni nýtingu á Talent. Hafa skal í huga gagnasamþættingu og prófunaráætlanir í þessu skrefi. Því er mælt með að hafa í huga hinar ýmsu afleiðingar fyrir þína nýtingu vegna þess að það er ekki auðvelt að breyta PowerApps umhverfinu eftir á.
 
-1. Veldu **Stjórna Umhverfi** í LCS. Þú ert tekin í [PowerApps Stjórnendamiðstöð](https://preview.admin.powerapps.com/environments), þar sem þú getur skoðað núverandi umhverfi og búið til ný umhverfi.
-2. Velja (**+**) **Nýtt umhverfi** hnappinn.
+1. Veljið **Stjórna umhverfi** í LCS. Þú ert tekin í [Stjórnendamiðstöð PowerApps](https://preview.admin.powerapps.com/environments) þar sem þú getur skoðað núverandi umhverfi og búið til ný umhverfi.
+2. Veljið **Nýtt umhverfi**.
 3. Færið inn einkvæmt heiti fyrir umhverfið og veljið staðsetninguna sem skal virkja á.
 
     > [!NOTE]
     > Talent er ekki tiltæk fyrir öll svæði. Vertu því viss um að athuga hvort það er í boði áður en þú velur staðsetningu umhverfis þíns.
 
 4. Þegar þú ert spurð(ur) hvort þú vilt búa til gagnagrunn skaltu velja **Búa til gagnagrunn** til að búa til Common Data Service (CDS) gagngrunn sem verður að hýsa hluta af Talent gögnunum þínum. Með því að búa til gagnagrunn, getur þú einnig samþætt PowerApps forrit með Talent.
-5. Þú ert spurð(ur) um það aðgangsstig sem þú vilt nota fyrir gagnagrunninn. Við mælum með að þú veljir **Takmarka aðgang**, vegna þess að þessi valkostur kemur í veg fyrir að Talent notendur fái beinan aðgang að viðkvæmum gögnum með því að nota PowerApps forrit.
-6. CDS gagnagrunnurinn sem er búin til inniheldur sýnigögn. Þessi sýnigögn eru gagnleg vegna þess að þú getur notað sýnigagnafyrirtækið til að prófa, eða til að búa til verkskráningar eða verkleiðbeiningar. Hins vegar bæta sýnigögnin óvirkum starfsmönnum og uppskálduðum heimilisföngum, meðal annarra upplýsinga, inn í framleiðsluumhverfi þitt. Til að fjarlægja sýnigögnin skaltu fylgja þessum skrefum eftir að þú hefur lokið við að búa til CDS gagnagrunninn:
+5. Þú ert spurð(ur) um það aðgangsstig sem á að nota fyrir gagnagrunninn. Við mælum með að þú veljir **Takmarka aðgang**, vegna þess að þessi valkostur kemur í veg fyrir að Talent notendur fái beinan aðgang að viðkvæmum gögnum með því að nota PowerApps forrit.
+6. CDS gagnarunnurinn sem er búinn til inniheldur sýnigögn sem bæta óvirkum starfsmönnum og uppskálduðum heimilisföngum, ásamt öðrum upplýsingum, inn í framleiðsluumhverfi þitt. Til að fjarlægja sýnigögnin skaltu fylgja þessum skrefum eftir að þú hefur lokið við að búa til CDS gagnagrunninn:
 
     > [!IMPORTANT]
-    > Ef þú hefur áður búið til CDS gagnagrunn og slegið inn einhver framleiðslugögn fyrirtækis þíns í það skaltu vera meðvitaður um að þessi skref fjarlæga **öll** gögnin í völdu gagnagrunninum, jafnvel framleiðslugögn fyrirtækis þíns.
+    > Ef þú hefur áður búið til CDS gagnagrunn og slegið einhver framleiðslugögn fyrirtækis þíns inn í hann munu þessi skref fjarlæga **öll** gögnin í völdum gagnagrunni, jafnvel framleiðslugögn fyrirtækis þíns.
 
-    1. Skráðu þig inn á [PowerApps](https://preview.web.powerapps.com/home) og veldu umhverfið sem þú stofnaðir í skrefi 2 úr fellilistanum hægra megin á síðunni.
-    2. Stækkaðu **Common Data Service** á yfirlitssvæðinu vinstri megin og veldu **Einingar**.
-    3. Hægra megi á síðunni skaltu velja sporöskju (**...**) hnappinn og síðan **Hreinsa öll gögn**.
-    4. Velja **Eyða gögnum** til að staðfesta að þú viljir fjarlægja gögnin. Þessi aðgerð fjarlægir öll sýnigögnin sem eru innifalin í CDS að sjálfgefnu. Það fjarlægir einnig allar aðrar upplýsingar sem hafa verið slegnar inn í valda gagnagrunninn.
-    
+    1. Skráðu þig inn á [PowerApps](https://preview.web.powerapps.com/home).
+    2. Í efra hægra horni fellilistans skal velja umhverfið sem var búið til í skrefi 2.
+    3. Á yfirlitssvæðinu vinstra megin skal útvíkka **Common Data Service** og síðan velja **Einingar**.
+    4. Hægra megi á síðunni skaltu velja sporöskju (**...**) hnappinn og síðan **Hreinsa öll gögn**.
+    5. Velja **Eyða gögnum** til að staðfesta að þú viljir fjarlægja gögnin. Þessi aðgerð fjarlægir öll sýnigögnin sem eru innifalin í CDS að sjálfgefnu. Það fjarlægir einnig allar aðrar upplýsingar sem hafa verið slegnar inn í valda gagnagrunninn.
+
 Nú er hægt að nota nýja umhverfið.
 
-## <a name="granting-access-to-the-environment"></a>Að veita aðgang að umhverfinu
-Kerfisstjórinn sem stofnaði umhverfið mun fá sjálfkrafa aðgang, en það þarf sérstaklega að veita viðbótarnotendum forritsins aðgang. Þetta er hægt að gera með því að [bæta við notendum](../dev-itpro/sysadmin/tasks/create-new-users.md) og að [úthluta þeim hlutverk](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) innan Core HR umhverfisins. Auk þess er einnig nauðsynlegt að bæta þessum notendum við PowerApps umhverfið þannig að þeir geti nálgast Attract and Onboard forritin.  Bloggfærslan [Kynning á stjórnstöð PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) gæti hjálpað þér að ljúka þessum skrefum sem eru sett fram hér:
+## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
+Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang skal [bæta við notendur](../dev-itpro/sysadmin/tasks/create-new-users.md) og [úthluta þeim viðeigandi hlutverkum](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) í kjarnaumhverfi mannauðs. Einnig þarf að bæta þessum notendum við PowerApps umhverfið svo þeir hafi aðgang að Attract and Onboard forritum. Ferlinu er lýst hér. Ef þú þarft hjálp til að ljúka skrefunum kíktu þá á bloggfærsluna [Kynning á stjórnendamiðstöð PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
 
-> 1.    Kerfissstjórinn sem setti upp Talent umhverfið ætti að fara í [PowerApps stjórnstöðina](https://preview.admin.powerapps.com/environments).   
-> 2.    Veldu viðkomandi umhverfi.
-> 3.    Undir öryggisflipanum skaltu bæta nauðsynlegum notendum við hlutverkið "Umhverfishönnuður".
+Altæki stjórnandinn sem setti upp Talent umhverfið lauk þessu ferli.
 
-Athugaðu að þetta síðasta skref að bæta notendum við PowerApps umhverfið er tímabundið. Við munum á endanum bæta við virkni til að gera þetta sjálfvirkt þegar notandanum er bætt við í Core HR.
+1. Opnið [Stjórnendamiðstöð PowerApps](https://preview.admin.powerapps.com/environments).
+2. Veljið viðeigandi umhverfi.
+3. Í flipanum **Öryggi** skal bæta nauðsynlegum notendum við hlutverk **Umhverfisstjórnanda**.
 
+Athugið að þetta lokaskref þar sem notendum er bætt handvirkt við PowerApps umhverfið er tímabundið. Það klárast að lokum sjálfkrafa þegar notendum er bætt við mannauðskjarnann.
 

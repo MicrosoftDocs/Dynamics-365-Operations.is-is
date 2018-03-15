@@ -1,5 +1,5 @@
 ---
-title: "POS-aðgerðir"
+title: "Rekstur sölustaðar, með og án nettengingar"
 description: "Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Microsoft Dynamics 365 for Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>POS-aðgerðir
+# <a name="pos-operations-online-and-offline"></a>Rekstur sölustaðar, með og án nettengingar
+
+[!include[banner](includes/banner.md)]
+
 Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Microsoft Dynamics 365 for Retail. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
 
 Eftirfarandi tafla veitir upplýsingar um aðgerðir sem eru í boði í Retail Modern POS og Cloud POS fyrir Dynamics 365 for Retail. Taflan tilgreinir einnig hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltækar þegar POS er í ótengdum ham.

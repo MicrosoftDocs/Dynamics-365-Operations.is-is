@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: is-is
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Þetta efnisatriði lýsir því hvernig eigi að grunnstilla vörugeymslur fyrir virkjun skýs. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhús fyrir virkjun á staðnum, vinsamlegast skoðaðu [Vöruhús fyrir virkjun á staðnum](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Þetta efnisatriði lýsir því hvernig eigi að grunnstilla vörugeymslur fyrir virkjun skýs. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhús fyrir virkjun á staðnum, vinsamlegast skoðaðu [Vöruhús fyrir virkjun á staðnum](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla Microsoft Dynamics 365 for Finance and Operations – Warehousing.
 
@@ -44,7 +46,7 @@ Forritið er tiltækt fyrir Android og Windows stýrikerfi. Til að nota forriti
 
 | Kerfi                    | Útgáfa                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (allar útgáfur)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, útgáfa 1611 <br>-eða- <br>Microsoft Dynamics Dynamics AX útgáfa 7.0/7.0.1 og Microsoft Dynamics AX verkvangsuppfærsla 2 með bráðabót KB 3210014 |
 
@@ -93,7 +95,7 @@ Til að virkja Finance and Operations til að nota Azure AD forritið þitt þar
     + **Biðlarakenni Azure Active-skráasafns** - Biðlarakennið er fengið í skrefi 9 „Stofnaðu vefþjónustuforrit í Active Directory“. 
     + **Leyndarmál biðlara Azure Active-skráasafns** - Leyndarmál biðlara er fengið í skrefi 11 í „Stofnaðu vefþjónustuforrit í Active Directory“. 
     + **Tilföng Azure Active-skráasafns** - Tilföng Azure Active-skráasafns tilgreina rót vefslóðar Finance and Operations. **Athugið**: Látið þennan reit ekki enda á framvísandi skástriki (/). 
-    + **Leigjandi Azure Active-skráasafns** - Leigjandi Azure AD-skráasafns sem er notaður með þjóni Finance and Operations: https://login.windows.net/your-AD-tenant-ID. Til dæmis: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Azure Active directory leigjandi** - Azure AD directory leigjandi sem er notaður með Finance and Operations þjóni: `https://login.windows.net/your-AD-tenant-ID`. Til dæmis: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Athugið**: Látið þennan reit ekki enda á framvísandi skástriki (/). 
     + **Fyrirtæki** - Færðu inn þann lögaðila í Finance and Operations sem þú vilt að tengist forritinu. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Veldu hnappinn **Til baka** í efra vinstra horni forritsins Þá tengist forritið þínum Finance and Operations þjóni og innskráningarskjár fyrir starfsmenn í vöruhúsi birtist. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ Ef tæki týnist eða öryggi þess er ógnað verður þú að fjarlægja aðga
 
 1.  Í Finance and Operations er farið í **Kerfisstjórnun** &gt; **Uppsetning** &gt; **Azure Active Directory forrit**.
 2.  Eyddu línunni sem samsvarar tækinu sem á að fjarlægja aðgang úr. Mundu **biðlararkennið** sem er notað fyrir fjarlægða tækið, þú þarft það síðar.
-3.  Skráðu þig inn á Azure vefgáttina á <https://portal.azure.com>.
+3.  Skráðu þig inn á Azure-gáttina á <https://portal.azure.com>.
 4.  Smelltu á **Active Directory** táknið á vinstri valmyndinni og vertu viss um að þú sért í réttu skráasafni.
 5.  Í listanum smelltu á **forritsskráningar** og smelltu síðan á forritið sem þú vilt skilgreina. **Stillingar** síðan birtist með grunnstillingarupplýsingum.
 6.  Vertu viss um að **biðlarakenni** forritsins sé það sama og í skrefi 2 í þessum kafla.
