@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir e
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
--  Stofna nýja lífferilsstaða afurðar
--  Stofna sjálfgefna nýja lífferilsstaða afurðar
--  Úthluta lífferilsstaða afurðar til útgefins afurðasniðmáts
--  Úthluta lífferilsstaða afurðar til útgefinnar afurðar
--  Finna úrelt afurðaafbrigði og úthluta lífferilsstaða afurðar
--  Búa til lífferilsstaða afurðar til að útiloka afurðir frá aðaláætlanagerð
+-  [Stofna nýja lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/new-product-lifecycle-state.md)
+-  [Stofna sjálfgefna lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/default-product-lifecycle-state.md)
+-  [Úthluta líftímastöðu afurðar til útgefins afurðarsniðmáts (verkleiðbeiningar)](tasks/product-lifecycle-state-released-product-master.md)
+-  [Úthluta lífferilsstöðu afurðar til útgefinnar afurðar (verkleiðbeiningar)](tasks/product-lifecycle-state-released-product.md)
+-  [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/obsolete-product-variants.md)
+-  [Stofna lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð (verkleiðbeiningar)](tasks/exclude-products-master-planning.md)
 

@@ -3,7 +3,7 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ ms.lasthandoff: 12/14/2017
 > Frá og með útgáfu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition júlí 2017 með verkvangsuppfærslu 8, eru gerðir dreifinga merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12
+
+### <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar 
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.  |
+| **Skipt út fyrir aðra eiginleika?**   | Nei. Þó eru áform um að fá þennan eiginleika aftur inn sem vægi við nýja ráðleggingarþjónustu eftir haustið 2018.   |
+| **Afurðasvæði sem haft er áhrif á**         | Sérsniðnar vöruráðleggingar á sölustað.                                                    |
+| **Dreifingarvalkostur**              | Allir                                                                                      |
+| **Staða**                         |Fjarlægt þann 15. febrúar, 2018. Þetta hefur áhrif á viðskiptavini sem keyra Dynamics 365 for Operations 1611 og eldri útgáfur.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Útvíkkun listans yfir aðgerðir Rafrænnar skýrslugerðar
 Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjáningarbyggingu (til að fá frekari upplýsingar, sjá [Útvíkka lista yfir aðgerðir Rafrænnar skýrslugerðar](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) er ekki studdur lengur. Vegna breytinga á ER API, varð API til að kalla innbyggðar aðgerðir frá ER tjáningarbyggingu innra API og ekki hægt að útvíkka lengur.
@@ -132,6 +143,19 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 | **Dreifingarvalkostur**                       | Allar einingar                                                                    |
 | **Staða**                                  | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar 
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.  |
+| **Skipt út fyrir aðra eiginleika?**   | Nei. Þó eru áform um að fá þennan eiginleika aftur inn sem vægi við nýja ráðleggingarþjónustu eftir haustið 2018.   |
+| **Afurðasvæði sem haft er áhrif á**         | Sérsniðnar vöruráðleggingar á sölustað.                                                    |
+| **Dreifingarvalkostur**              | Allir                                                                                      |
+| **Staða**                         |Fjarlægt þann 15. febrúar, 2018. Þetta hefur áhrif á viðskiptavini sem keyra Dynamics 365 for Retail 7.2 og eldri útgáfur. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition júlí 2017 með Verkvangsuppfærslu 8

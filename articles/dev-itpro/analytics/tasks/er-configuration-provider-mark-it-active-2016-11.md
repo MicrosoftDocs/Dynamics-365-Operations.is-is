@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: is-is
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Stofna veitanda skilgreiningar og merkja sem virkan fyrir rafræna skýrslugerð (ER)
@@ -33,11 +33,10 @@ Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjór
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
 2. Smelltu á skilgreiningaveitur.
 3. Smellið á „Nýtt“.
-    * Skrá veitu er einkvæmt hvað varðar heiti og vefslóð. Athuga innihald þessarar síðu og sleppa þessu ferli ef færsla fyrir Litware, Inc. (http://www.litware.com) er þegar til staðar.  
+    * Skrá veitu er einkvæmt hvað varðar heiti og vefslóð. Yfirfarið innihald þessarar síðu og sleppið ferlinu ef færsla fyrir Litware, Inc. (`http://www.litware.com`) er þegar til.  
 4. Í svæðið Heiti, færðu inn 'Litware, Inc.'.
     * Litware, Inc.  
-5. Færðu inn 'http://www.litware.com' í svæði vefsetur.
-    * http://www.litware.com  
+5. Færðu inn `http://www.litware.com` í svæði vefseturs.
 6. Smellið á „Vista“.
 7. Lokið síðunni.
 

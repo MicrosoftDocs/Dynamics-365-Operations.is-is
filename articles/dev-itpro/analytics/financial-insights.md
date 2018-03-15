@@ -3,7 +3,7 @@ title: "Fjármálainnsýn"
 description: "Fjármálainnsýn notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: is-is
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI skýrsl
 | Skoða fjármálainnsýn þvert á fyrirtæki   | • Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, er þessari skyldu ekki falið hlutverki. • Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | • Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. •    Að sjálfgefnu er virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum.             |
 
 
-## <a name="how-financial-statements-work"></a>Hvernig fjárhagsskýrslur virka
-Þótt **Fjármálainnsýn** innihaldi fjárhagsskýrslur kemur það ekki í staðinn fyrir fjárhagsskýrslugerð í Finance and Operations. Sjálfgefna fjárhagsskýrslurnar í **Fjármálainnsýn** eru takmarkaðar í umfangi og innihalda ekki allar gerðir fjárhagsskýrslna. Fjárhagsskýrslugerð er enn aðalverkfærið til að hanna, búa til og stofna lögbundnar fjárhagsskýrslur.
+## <a name="financial-reporting-vs-finanical-insights"></a>Fjárhagsskýrslugerð borin saman við fjármálainnsýn
+Þótt **Fjármálainnsýn** innihaldi fjárhagsskýrslur kemur hún ekki í staðinn fyrir fjárhagsskýrslugerð í Finance and Operations. Sjálfgefnar fjárhagsskýrslur í **Fjármálainnsýn** eru takmarkaðar að umfangi og innihalda ekki allar gerðir fjárhagsskýrslna. Fjárhagsskýrslugerð er enn aðalverkfærið til að hanna, búa til og stofna lögbundnar fjárhagsskýrslur.
 
-Til viðbótar við myndefnin frá upphaflega vinnusvæði **CFO-yfirlitsins**, ný KPI, gröf og fjárhagsskýrslur eru nú í boði. Eftirfarandi fjárhagsskýrslur eru í boði:
+Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
+
+|                                         | **Fjárhagsskýrslugerð**                            | **Fjármálainnsýn**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Breyta sjálfgefnum skýrslum**                | Já                                                | Nei                                 | | **Stofna nýjar skýrslur**                  | Já                                                | Nei                                 | | **Prenta skýrslur**                       | Já                                                | Nei                                 | | **Flytja út í Excel**                     | Já          | Takmarkaður útflutningur á hrágögnum yfir í Excel, ekki forsniðin skýrsla       | | **Styðja stigveldi skýrslugerðar/Stigveldi fyrirtækis**   | Já                               | Nei                                 | | **Skýrsla um gögn undirbókar**       | Já Takmarkast við lánardrottin, viðskiptavin    | Já Lánardrottinn, viðskiptavinur, flokkar lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv.  | | **Skýrslugjaldmiðill**      | Já Bókhaldsgjaldmiðill og umreikningur yfir á skýrslugjaldmiðil       | Nei Eingöngu bókhaldsgjaldmiðill      | | **Öryggi**                | Já Heyrir undir Finance and Operations og trjáöryggi skýrslugerðar | Takmörkun á Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi Finance and Operations) eða eingöngu virk fyrirtæki | | **Styðja mismunandi gröf bókhalds og fjárhagsára** | Já                   | Nei                   | | **skýrsla um ytri gögn**                              | Nei                   | Nei                                   | | **Styðja samsteypur**                               | Já                          | Takmörkun á Get gefið skýrslu um mörg fyrirtæki en nota eingöngu bókhaldsgjaldmiðil                                     |
+
+
+Ásamt notendaviðmótinu á upprunalega vinnusvæði **CFO-yfirlits** eru nýir afkastavísar, gröf og fjárhagsskýrslur í boði. Eftirfarandi fjárhagsskýrslur eru í boði:
 
 • Prófjöfnuður
 
@@ -113,11 +118,11 @@ Til viðbótar við myndefnin frá upphaflega vinnusvæði **CFO-yfirlitsins**, 
 
 • Rekstrarreikningur eftir svæðum
 
-• Rekstrarreikningur raunverulegur í samanburði við áætlaðan
+• Raunverulegur rekstrarreikningur borinn saman við fjárhagsáætlun
 
 • Rekstrarreikningur með frávikum
 
-• 12 mánaða þróun rekstrarreiknings
+• 12 mánaða leitni tekjuyfirlits
 
 • Kostnaður þriggja ára þróun
 

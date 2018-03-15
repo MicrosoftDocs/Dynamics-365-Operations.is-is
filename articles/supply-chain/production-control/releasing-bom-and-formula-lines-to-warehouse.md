@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
+
+[!include[banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- (BOM) og formúlulína í vöruhúsið. Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.
 
@@ -40,6 +42,9 @@ Aðferðin sem notuð er til að losunar uppskriftar- og formúlulínur er stjó
 
 - **Losa uppskriftar- og formúlu línur sem hluta af framleiðslu- eða runupöntunarlosun** - Í þessari aðferð eru BOM og formúlu línur fyrir framleiðslu eða runupöntun losaðar sem hluti af því ferli að losa pöntunina. Venjulega, þegar framleiðsla eða runupöntun er losað, eru framleiðsluverk losaðar til starfsmanna vinnusalarins og framleiðsluskjöl eru prentaðar. Á meðan þessu ferli stendur er staða pöntunar einnig breytt í **Losuð**.
 - **Losaðu BOM og formúlu línur í gegnum runuvinnslu eða sem handvirkt samskipti** - Í þessari aðferð er hægt að losa BOM og formúlu línur aðeins með **Sjálfvirk losun BOM og formúlu línum** runuvinnslu eða sem handvirk samskipti. Til að losa handvirkt BOM og formúlulínur, á listasíðu framleiðslupantana eða upplýsingasíðu um framleiðslupantana, í aðgerðarglugganum, veldu **Losa í vörugeymslu**.
+
+Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framleiðslu með runuvinnslu skal horfa á þetta stutta YouTube myndband:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Losa uppskriftarlínur og formúlulínur með því að nota runuvinnslu
 
@@ -79,6 +84,9 @@ Til að stjórna þeim aðgerðum sem efnið ætti að vera losað til, notaðu 
 Eftirfarandi mynd sýnir framleiðslupantanir sem hefur tvær aðgerðir, 10 og 20. Í þessu dæmi, ef þú takmarkar losun við aðgerð 10, verður aðeins efni M9203 losað.
 
 ![Dæmi um losun efnis fyrir hvert aðgerðarnúmer](media/two-operations.PNG)
+
+Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube myndband:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Losa efni í hlutfalli við magn fullunninnar vöru
 

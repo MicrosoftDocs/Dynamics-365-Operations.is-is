@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
+
+[!include[banner](includes/banner.md)]
 
 Margir smásalar vilja hámarka uppfyllingu pöntunar með því að gera verslanir kleift að fylla pantanir. Pöntunaruppfylling á verslunarstiginu getur hjálpað til við að draga úr hárri birgðastöðu fyrir tiltekna verslun, eða gæti verið nauðsynleg út frá skipulagslegu sjónarmiði í þeim tilvikum þar sem verslun hefur auka rúmtak eða er staðsett í minni flutningsfjarlægð frá viðskiptavininn. Til að bregðast við þessari þörf er í boði samræmd pöntunaruppfyllingaraðgerð við sölustað.
 
@@ -56,7 +58,7 @@ Hægt er að velja línur með því að nota **Velja** aðgerðina í Aðgerða
 
 ## <a name="line-details"></a>Línur, annað
 
-Hægt er að sýna upplýsingar um línur með því að nota hliðargluggavalmynd fyrir línuupplýsingar. Þegar þessi valmynd er notuð, verða tiltækir tveir flipar sem sýna aukaupplýsingar fyrir völdu línuna. Fyrsti flipinn, **Línuupplýsingar** sýnir upplýsingar fyrir línuna sjálfa, svo sem magn sem er pantað og er eftir. Viðbótarupplýsingar eru veittar, þar með talið magn sem er tekið til, pakkað og reikningsfært, ásamt flutningsmáta og afhendingaraðsetur. Flipann **Upplýsingar um pöntun** veitir upplýsingar pöntunarhauss, þ.m.t. viðskiptavinur, kenni viðskiptavinar, pöntunarnúmer, heildarupphæð pöntunar og staða.
+Hægt er að sýna upplýsingar um línur með því að nota hliðargluggavalmynd fyrir línuupplýsingar. Þegar þessi valmynd er notuð verða tiltækir þrír flipar sem sýna aukaupplýsingar fyrir völdu línuna. Fyrsti flipinn, **Línuupplýsingar** sýnir upplýsingar fyrir línuna sjálfa, svo sem magn sem er pantað og er eftir. Viðbótarupplýsingar eru veittar, þar með talið magn sem er tekið til, pakkað og reikningsfært, ásamt flutningsmáta og afhendingaraðsetur. Flipann **Upplýsingar um pöntun** veitir upplýsingar pöntunarhauss, þ.m.t. viðskiptavinur, kenni viðskiptavinar, pöntunarnúmer, heildarupphæð pöntunar og staða. Flipinn **Birgðir** sýnir upplýsingar fyrir völdu línurnar eftir efnislegum tiltækum birgðum, fráteknum birgðum og pöntuðum birgðum.
 
 Ef margar línur eru valdir, þá mun hliðargluggavalmyndin fyrir upplýsingar um pöntunarlínu aðeins benda á að margar línur eru valdir. Til að birta upplýsingar um eina línu skaltu hreinsa línurnar þar til aðeins einn lína er eftir. 
 

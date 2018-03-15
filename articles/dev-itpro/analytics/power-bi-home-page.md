@@ -3,7 +3,7 @@ title: Power BI-efni
 description: "Í þessu efnisatriði er talið upp Power BI efni sem er tiltækt og bent á hvar er hægt að læra meira um það."
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: is-is
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edit
 - [Power BI-efni kostnaðarbókhaldsgreiningar](cost-accounting-analysis-content-pack.md) 
 - [Skulda- og innheimtuumsjón - Power BI efni](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Þróun starfsmanns - Power BI efni](employee-development-PBI.md) 
+- [Fjármálainnsýn - Power BI efni](financial-insights.md)
 - [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
 - [Kostnaðarstjórnun - Power BI efni](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Nám - Power BI efni](learning-power-bi.md)
@@ -73,6 +74,9 @@ Ef þú ert að nota Microsoft Dynamics 365 for Operations útgáfu 1611, er eft
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI efni fyrir Microsoft Dynamics AX
 Ef þú ert að nota Microsoft Dynamics AX 7.0 eða Microsoft Dynamics AX 7.0.1, er eftirfarandi Power BI efni tiltækt:
+
+> [!Note]
+> Þessir efnispakkar hafa verið úreltir eins og lýst er í [Power BI efnispakkar gefnir út á PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)    
 - [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
