@@ -21,18 +21,19 @@
 #### [AX 2012 eiginleikar sem var frestað](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](get-started/features-not-implemented-on-prem.md)
 #### [Útgáfur og reglur um stuðningstíma](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Verkvangsuppfærsla 13 (janúar 2018)](get-started/whats-new-platform-update-13.md)
+#### [Uppsetning á staðnum (mars 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platform update 13 (janúar 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
-#### [Platform-uppfærsla 11 (október 2017)](get-started/whats-new-platform-update-11.md)
-#### [Platform-uppfærsla 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
+#### [Platform update 11 (október 2017)](get-started/whats-new-platform-update-11.md)
+#### [Platform update 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (júlí 2017)](get-started/whats-new-application-July-2017-update.md)
-#### [Platform-uppfærsla 9 (júlí 2017)](get-started/whats-new-platform-update-9.md)
-#### [Platform-uppfærsla 8 (júní 2017)](get-started/whats-new-platform-update-8.md)
-#### [Platform-uppfærsla 7 (maí 2017)](get-started/whats-new-platform-update-7.md)
-#### [Platform-uppfærsla 6 (apríl 2017)](get-started/whats-new-platform-update-6.md)
-#### [Platform-uppfærsla 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
-#### [Platform-uppfærsla 4 (febrúar 2017)](get-started/whats-new-platform-update-4.md)
+#### [Platform update 9 (júlí 2017)](get-started/whats-new-platform-update-9.md)
+#### [Platform update 8 (júní 2017)](get-started/whats-new-platform-update-8.md)
+#### [Platform update 7 (maí 2017)](get-started/whats-new-platform-update-7.md)
+#### [Platform update 6 (apríl 2017)](get-started/whats-new-platform-update-6.md)
+#### [Platform update 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
+#### [Platform update 4 (febrúar 2017)](get-started/whats-new-platform-update-4.md)
 #### [Operations-útgáfa 1611 (nóvember 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
 #### [Platform-uppfærsla 3 (nóvember 2016)](get-started/whats-new-platform-update-3.md)
 #### [Platform-uppfærsla 2 (ágúst 2016)](get-started/whats-new-platform-update-2.md) 
@@ -134,7 +135,7 @@
 ### [Kostnaðarstjórnun Power BI-efnispakka](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Samþætting gagna
-### [Samþættingarmynstur](../dev-itpro/data-entities/integration-overview.md)
+### [Velja stefnu um samþættingu gagna (innflutning/útflutning)](../dev-itpro/data-entities/integration-overview.md)
 
 ### API samþættingar gagna
 #### [API gagnastjórnunarpakka](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Vinna með lykla í Sales og samstilla þá beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Vinna með afurðir í Finance and Operations og samstilla þær beint við Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Samstilla sölutilboð beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Samstilla sölupantanir beint úr Finance and Operations við Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Samstilla sölupantanir beint milli Sales og Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Samstilla sölureikninga beint úr Finance and Operations við Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Vinna með sölutilboð í Sales og samstilla þau beint við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Vinna með sölupantanir í Finance and Operations og samstilla þær beint við Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Vinna með sölureikninga í Finance and Operations og samstilla þá beint við Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Notkun ytri vefþjónustu](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,9 +473,15 @@
 #### [Dreifingar á kostnaðarskýrslu](../financials/expense-management/expense-report-distributions.md)
 #### [Kostnaður innan samstæðu](../financials/expense-management/intercompany-expense.md)
 #### [Kostnaðarreglur](../financials/expense-management/travel-expense-policies.md)
+#### [Skoða kostnaðarskýrslu](../financials/expense-management/view-expense-report.md)
+#### [Bóka kostnaðarskýrslu](../financials/expense-management/post-expense.md)
+#### [Kostnaðarskýrslur og margir samþykkjendur](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Endurgreiðsla virðisaukaskatts í útgjaldastýringu](../financials/expense-management/VAT-expense-report.md)
+#### [Reglur um dagpeninga](../financials/expense-management/per-diem.md)
+#### [Ferðabeiðnir](../financials/expense-management/travel-req.md)
+#### [Persónulegur kostnaður á kostnaðarskýrslu](../financials/expense-management/personal-expenses.md)
 
-
-### [Fjárhagsáætlun](../financials/budgeting/budgeting-overview.md)
+### [Fjárhagsáætlanir](../financials/budgeting/budgeting-overview.md)
 #### [Yfirlit fjárhagsáætlunargerðar ](../financials/budgeting/budget-planning-overview-configuration.md)
 #### [Yfirlit fjárhagsáætlunarstýringar ](../financials/budgeting/budget-control-overview-configuration.md)
 #### [Yfirlit fjárhagsáætlunar ](../financials/budgeting/basic-budgeting-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Samþætting skattkerfis](../financials/general-ledger/tax-engine-integration.md)
 ##### [Algengar spurningar um skattþrep](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Útfærsla skattakerfis](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa](../retail/localizations/apac-ind-cash-registers.md)
+##### [Leiðbeiningar um uppsetningu á afgreiðslukössum](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japan
 ##### [Kaupa eign og nota fyrir niðurgreiðslu með opinberum styrk](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Greiðslusnið viðskiptavina og lánardrottna](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Greiðsla viðskiptavinar samkvæmt greiðslukenni](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Nets-innflutningssnið](../financials/localizations/emea-nor-nets-import-format.md)
-##### [VSK-yfirlit](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [VSK-yfirlit](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Afgreiðslukassar](../retail/localizations/emea-nor-cash-registers.md)
+##### [Leiðbeiningar um uppsetningu á afgreiðslukössum](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Pólland
 ##### [Útreikningur línuafslátta af einingarverði](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Leiðréttingarseðlar](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Sérstakar færslur og opnunarskjöl](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Svíþjóð
 ##### [Greiðslusnið innflutnings](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Afgreiðslukassar](../retail/localizations/emea-swe-cash-registers.md)
 #### Sviss
 ##### [Innflutningur greiðslna viðskiptavina í ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Bretland
@@ -1644,6 +1656,7 @@
 ##### [Rekstrartilföng](../supply-chain/production-control/operations-resources.md)
 ##### [Tilfangageta](../supply-chain/production-control/resource-capabilities.md)
 ##### [Runueigindir](../supply-chain/production-control/batch-attributes.md)
+##### [Röðun virkra efna í uppskrift](../supply-chain/production-control/batch-balancing.md)
 ##### [Afrita formúlu (verkleiðbeiningar)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Búa til formúlu með því að afrita úr fyrirliggjandi formúlu (verkleiðbeiningar)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu (verkleiðbeiningar)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1806,8 +1819,9 @@
 #### [Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss](../supply-chain/inventory/warehouse-template.md)
 #### [Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Mælieining og birgðastefnur](../supply-chain/warehousing/unit-measure-stocking-policies.md)
-#### [Power BI-efni um vöruhús](../dev-itpro/analytics/warehouse-power-bi-content.md)
+#### [Power BI-efni fyrir vöruhús](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Kerfisflokkun á opnum verkefnalista](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### D[Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Stuðningur við strikamerki í fartæki](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Vinnureglur vöruhúss](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Hreyfing birgða með tengdri vinnu í vöruhúsakerfi](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,7 +1832,8 @@
 #### [Móttaka blandaðrar númeraplötu](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Stilla skjá eldri keyrsla innan vöruhúss á fartæki](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Elsta runa í fartæki tínd](../supply-chain/warehousing/pick-oldest-batch.md)
-#### [Staðfesting einingartiltektar](../supply-chain/warehousing/piece-picking-confirmation.md)
+#### D[Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
+#### [Staðfesting einingatiltektar](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Staðfesting afurðar fyrir klasatiltekt](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Runulosun flutningspantana sem eru fráteknar að hluta](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Umbúðaefni og gjöld](../supply-chain/warehousing/pack-materials-packing-material-fees.md)

@@ -37,10 +37,11 @@
 ## [Greiðsluvalkostir](work-with-payments.md)
 
 # Uppsetning og stjórnun rásar
-## [Frumstilling grunngagna í smásöluumhverfi](enable-configure-retail-functionality.md)
+## [Frumstilling grunngagna í Retail-umhverfi](enable-configure-retail-functionality.md)
 ## [Skilgreining smásölurása](define-maintain-retail-channels.md)
+## [Umsjón með vöruúrvali](assortments.md)
 ## [Netverslunaryfirlit](online-stores.md)
-## [Skilgreining og uppsetning vélbúnaðarstöðvar fyrir smásölu](retail-hardware-station-configuration-installation.md)
+## [Skilgreining og uppsetning Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Retail-tími og -viðvera](retail-time-attendance.md)
 
 # Modern POS (MPOS) og Cloud POS
@@ -53,8 +54,9 @@
 ### [Retail-jaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
 ### [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](define-maintain-channel-clients-registers-hw-stations.md)
 ## Útlit afgreiðsluskjás
-### [Skilgreining skjáútlits fyrir sölustað](pos-screen-layouts.md)
+### [Skilgreining skjáútlits fyrir POS](pos-screen-layouts.md)
 ### [Uppsetning útlitshönnunarbúnaðar Retail POS](install-pos-layout-designer.md)
+### [Velja tilkynningastillingar](Notifications-POS.md)
 ### [Sölustaðarforrit og stillingar tungumáls notanda](pos-application-user-language-settings.md)
 ### [Uppsetning mynda fyrir MPOS](set-up-manage-images-retail-mpos.md)
 ## [Yfirlit upplýsingakóða](info-codes-retail.md) 
@@ -99,7 +101,8 @@
 
 # Afurðir og smásala
 ## [Yfirlit afurðarupplýsinga](../supply-chain/pim/product-information.md)
-## [Retail-stigveldi](retail-hierarchies.md)
+## [Smásölustigveldi](retail-hierarchies.md)
+## [Yfirlit yfir eigindir og eigindaflokka](attribute-attributegroups-lifecycle.md)
 ## [Eigindir búnar til og þeim stjórnað](create-manage-attributes.md)
 ## [Uppsetning smásöluafurða](set-up-retail-products.md)
 ## [Afurðarvíddir](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # Mannauður
 ## [Vinnuafl skipulagt með notkun deilda, starfa og staða](../talent/departments-jobs-positions.md)
 ## [Setja upp íhluta verks](../talent/create-job.md)
+
+# Staðfærslu- og eftirlitseiginleikar
+## Indland
+### [Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa á Indlandi](localizations/apac-ind-cash-registers.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Indland](localizations/apac-ind-loc-deployment-guidelines.md)
+## Noregur
+### [Afgreiðslukassar fyrir Noreg](localizations/emea-nor-cash-registers.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Noreg](localizations/emea-nor-loc-deployment-guidelines.md)
+## Svíþjóð
+### [Afgreiðslukassar fyrir Svíþjóð](localizations/emea-swe-cash-registers.md)
 
 # Verkefni í Retail
 ## [Stofna afurð](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Samþætting Retail SDK við kerfi með samfellda sjálfvirkni í smíð](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Dæmi um stækkunarhæfni Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Afgreiðslukassar fyrir Svíþjóð](localizations/emea-swe-cash-registers.md)
-### [Dæmi um Retail POS samþættingu fyrir stjórntæki fyrir Svíþjóð](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Afgreiðslukassar fyrir Noreg](localizations/emea-nor-cash-registers.md)
-### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Noreg](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Umbúðir Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Dæmi um Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Viðbætur við gagnagrunn rása](dev-itpro/channel-db-extensions.md)
