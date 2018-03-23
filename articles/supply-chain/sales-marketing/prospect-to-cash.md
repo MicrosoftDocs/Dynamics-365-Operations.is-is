@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: is-is
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,9 +42,8 @@ Fyrir frekari upplýsingar um samþættingu Prospect to cash, skoðaðu stutt Yo
 - [Viðhalda reikningum í Sales og samstilla þá beint úr Sales við Finance and Operations](accounts-template-mapping-direct.md)
 - [Vinna með afurðir í Finance and Operations og samstilla þær beint við Sales](products-template-mapping-direct.md)
 - [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Finance and Operations](contacts-template-mapping-direct.md)
-- [Samstilla sölutilboð beint frá Sales til Finance and Operations (útgáfa á sniðmáti í vinnslu)](sales-quotation-template-mapping-sales-fin.md)
-- [Samstilla sölupantanir beint úr Finance and Operations við Sales](sales-order-template-mapping-direct.md)
-- [Samstilla sölupantanir beint á milli Sales og Finance and Operations (útgáfa á sniðmáti í vinnslu)](sales-order-template-mapping-direct-two-ways.md)
+- [Samstilla sölutilboð beint úr Sales við Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Samstilla sölupantanir beint milli Sales og Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
 - [Samstilla sölureikninga beint úr Finance and Operations við Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Kerfisskilyrði fyrir Finance and Operations
@@ -85,7 +84,7 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
 Eftirfarandi einingar verður að setja upp áður en Prospect to cash lausin er notað:
 
-- Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu
+- Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu eða nýrri útgáfa
 - Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.15.0.0 (v15) 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Settu upp Prospect to cash lausn fyrir Sales

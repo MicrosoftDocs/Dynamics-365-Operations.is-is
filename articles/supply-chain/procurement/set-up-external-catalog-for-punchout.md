@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/08/2018
 
 ---
 
@@ -71,15 +71,15 @@ Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sni
 
 | Svæði | lýsing | 
 |---------|---------|
-|< Haus >< Úr >< Credential lén = "" >|Umdæmi í dreifing fyrirtækisins.|
-|< Haus >< Úr >< Credential >< Kenni >< /Identity > | Kenni fyrirtækisins í dreifingu.|
-|< Haus >< á >< Credential lén = "" > | Umdæmi lánardrottins í fyrirtækinu.|
-|< Haus >< á >< Credential >< Kenni >< /Identity > | Kenni fyrirtækisins lánardrottins.|
-|< Haus >< Sendanda >< Credential lén = "" > | Umdæmi í dreifing fyrirtækisins.|
-|< Haus >< Sendanda >< Credential >< Kenni >< /Identity > | Kenni fyrirtækisins í dreifingu.|
-|< Haus >< Sendanda >< Credential >< SharedSecret >< /SharedSecret >|Samnýttu secret á dreifing fyrirtækisins.|
+|< Header >< From >< Credential domain=”” >|Umdæmi í dreifing fyrirtækisins.|
+|< Header >< From >< Credential>< Identity >< /Identity > | Kenni fyrirtækisins í dreifingu.|
+|< Header >< To >< Credential domain=”” > | Umdæmi lánardrottins í fyrirtækinu.|
+|< Header >< To >< Credential>< Identity >< /Identity> | Kenni fyrirtækisins lánardrottins.|
+|< Header >< Sender >< Credential domain=”” > | Umdæmi í dreifing fyrirtækisins.|
+|< Header >< Sender >< Credential >< Identity >< /Identity> | Kenni fyrirtækisins í dreifingu.|
+|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Samnýttu secret á dreifing fyrirtækisins.|
 |< Beiðni deploymentMode = "" >|Í prófunar- eða nets.|
-|< Beiðni >< PunchOutSetupRequest >< SupplierSetup >< Vefslóð >< /URL >|Veffang lánardrottins punchout endastöð.|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Veffang lánardrottins punchout endastöð.|
 
 ### <a name="extrinsic-elements"></a>Extrinsic einingar
 
@@ -94,13 +94,13 @@ Bóka skilaboðin aftur er skilaboðin sem berast frá lánardrottni gengur úr 
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Magn|
 |< ItemIn >< ItemID >< SupplierPartID >< /SupplierPartID >|Kenni ytra atriðis|
-|< ItemDetail >< UnitPrice >< Peninga gjaldmiðill = "" >| Gjaldmiðill|
-|< ItemDetail >< UnitPrice >< Peninga >< /Money >| Einingarverð|
-|< ItemDetail >< ShortName Lýsing = "" >|Afurðarnafn|
-|< ItemDetail >< Lýsingu >< /Description >|Í vörulýsing; Heiti vöru ef ShortName er ekki tilgreindur.|
+|< ItemDetail>< UnitPrice >< Money currency=”” >| Gjaldmiðill|
+|< ItemDetail >< UnitPrice >< Money >< /Money >| Einingarverð|
+|< ItemDetail >< Description ShortName=”” >|Afurðarnafn|
+|< ItemDetail >< Description >< /Description >|Í vörulýsing; Heiti vöru ef ShortName er ekki tilgreindur.|
 |< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure >|Eining|
-|< ItemDetail >< Flokkun >< /Classification >|Í vörulýsingu|
-|< ItemDetail >< Flokkun lén = "" >|Í vörulýsingu|
+|< ItemDetail >< Classification >< /Classification >|Í vörulýsingu|
+|< ItemDetail >< Classification domain=”” >|Í vörulýsingu|
 
 ## <a name="delete-an-external-catalog"></a>Eyða ytri vörulista
 Ytri vörulista með Eyða aðgerðin á að eyða.

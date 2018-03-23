@@ -3,7 +3,7 @@ title: "Uppsetning á staðnum"
 description: "Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum"
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Lendingarsíða uppsetningar á staðnum
+# <a name="on-premises-deployment-home-page"></a>Heimasíða uppsetningar á staðnum
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/05/2018
 - [Undirbúningur fyrir staðbundna uppsetningu](plan-onprem-deployment.md)
 - [Kerfiskröfur fyrir uppsetningu á staðnum](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Lifecycle-stefna fyrir netþjónustu og staðbundinn hugbúnað](../migration-upgrade/versions-update-policy.md)
 - [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Samanburður á eiginleikum uppsetningar í skýi og á staðnum](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Innleiðing
 - [Setja upp staðbundið verk í Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Setja upp og nota staðbundið umhverfi](setup-deploy-on-premises-environments.md)
+- [Uppsetning á staðbundnu umhverfi (verkvangsútgáfa 12)](setup-deploy-on-premises-pu12.md)
+- [Uppsetning á staðbundnu umhverfi (verkvangsútgáfa 8 og 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Setja upp nettengd prenttæki á staðnum](../analytics/install-network-printer-onprem.md)
 - [Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu](../analytics/configure-ssrs-on-premises.md)
 - [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](develop-deploy-custom-models-on-premises.md)

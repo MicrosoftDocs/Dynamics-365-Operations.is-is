@@ -3,7 +3,7 @@ title: "Samstilling sölupöntunar beint úr Sales við Finance and Operations"
 description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Staða sölupöntunar verður áfram **Virk** til að tryggja að gjöld úr Fin
 
     Undir **Stillingar**&gt;**Öryggi**&gt;**Teymi**, velurðu viðkomandi teymi, smellir á **Stjórna hlutverkum** og velur hlutverk með viðkomandi heimildum, t.d. **Kerfisstjóri**.
 
+- Til að tryggja réttan útreikning á afslætti bæði í Sales og Finance and Operations verður **Reikningsaðferð reikningsafsláttar** að vera stillt á **Línuatriði**.
 - Farið í **Stillingar**&gt;**Stjórnun**&gt;**Kerfisstillingar**&gt;**Sales** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
     - **Nota reikningskerfi verðs** valkosturinn er stilltur á **Já**.
