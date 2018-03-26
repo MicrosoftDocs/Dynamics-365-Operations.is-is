@@ -3,7 +3,7 @@ title: "Hvað er nýtt eða breytt"
 description: "Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ ms.lasthandoff: 01/23/2018
 
 Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu Dynamics 365 for Operations](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Útgáfur forrits
 

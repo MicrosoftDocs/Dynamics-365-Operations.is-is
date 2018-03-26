@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 16bbca2d9eb8c3d9c33752404ebecbe4415517a2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: 5dede6024dcd7837dd4e94ecca2ccd059b11b5b9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -101,7 +101,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 > [!NOTE]
 > Vörpunin sýnir hvaða reitaupplýsingar verða samstilltar ´ru Sales í Finance and Operations.
 
-![Template mapping in Data integration](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Sniðmátsvörpun í Gagnasamþættingu](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
@@ -112,7 +112,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations](contacts-template-mapping-direct.md)
 
-[Samstilla hausa og línur sölupöntunar beint úr Sales við Finance and Operations](sales-order-template-mapping-direct.md)
+[Samstilla hausa og línur sölupöntunar beint úr Sales við Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
 
 [Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations](sales-invoice-template-mapping-direct.md)
 

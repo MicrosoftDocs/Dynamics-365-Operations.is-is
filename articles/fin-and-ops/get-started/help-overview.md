@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: is-is
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Hægt er að nálgast bæði hjálparefni og verkefnaleiðbeiningar á hjálpars
 Þetta efnisatriði lýsir hjálparkerfinu og útskýrir hvernig hægt er að stofna sérsniðin skjöl og þjálfunarefni fyrir fyrirtækið þitt.
 
 > [!IMPORTANT]
-> Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Leiðbeiningar fyrir aðstoð er einnig að finna á docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) fyrir bæði Retail og Talent.
+> Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Leiðbeiningar fyrir aðstoð er einnig að finna á docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) fyrir bæði Retail og Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
@@ -115,7 +115,7 @@ Nánari upplýsingar er að finna í leiðeiningar fyrir þátttakanda: https://
 
 > [!NOTE]
 > Við munum aðeins samþykkja framlög til enskar geymslur okkar á þessum tíma.  
-> Við samþykkjum ekki Álitamál sem tilkynnt eru í gegnum GitHub - vertu viss um að nota áhrifsbeiðni um efnistillögur. Viðbrögð tengd vöru og eiginleikum eru best meðhöndluð gegnum Dynamics 365 Hugmyndagátt: https://ideas.dynamics.com/ideas/. 
+> Við samþykkjum ekki Álitamál sem tilkynnt eru í gegnum GitHub - vertu viss um að nota áhrifsbeiðni um efnistillögur. Viðbrögð tengd vöru og eiginleikum eru best meðhöndluð gegnum Dynamics 365 Hugmyndagátt: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Verkleiðbeiningar

@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: is-is
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations - Vöruhús
+
+[!include[banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig eigi að setja upp Dynamics 365 for Finance and Operations - Vöruhús til að skanna strikamerki með myndavél á fartæki. 
 
@@ -47,8 +49,8 @@ Myndavélasíðan mun ræsast fyrir allar síður þar sem ílagssvæðið er me
 - Smellt er á myndavélina á verk- og upplýsingasíðunni til að fara aftur á myndavélasíðuna. 
 
 | Verk- og upplýsingasíða | Myndavélasíða | 
-| --------------------- | -------------------- |
-| ![myndavél-skönnun-dæmi-verk-upplýsinga-síða](media/camera-scanning-example-task-detail-page.png)          | ![myndavél-skönnun-dæmi-myndavéla-síða](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![myndavél-skönnun-dæmi-verk-upplýsinga-síða](./media/camera-scanning-example-task-detail-page50.png)          | ![myndavél-skönnun-dæmi-myndavél-síða-minni](./media/camera-scanning-example-camera-page50.png)          |
 
 Þegar smellt er á myndavélahnappinn á myndavélasíðunni mun hún sýnast deyfð á meðan reynt er að auðkenna strikamerki. Ef ekki er hægt að auðkenna strikamerki innan 5 sekúndna mun ferlið renna út á tíma og myndavélahnappurinn verður aftur tiltækur. Þá er aftur hægt að skanna strikamerki.
 
