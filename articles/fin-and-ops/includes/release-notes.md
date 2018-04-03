@@ -1,0 +1,6 @@
+> [!IMPORTANT]
+> <span data-ttu-id="f3cfb-101">**Útgáfuupplýsingar vor '18 fyrir Dynamics 365 kynntar til sögunnar**</span><span class="sxs-lookup"><span data-stu-id="f3cfb-101">**Announcing the Dynamics 365 Spring '18 release notes**</span></span>
+>
+> <span data-ttu-id="f3cfb-102">Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?</span><span class="sxs-lookup"><span data-stu-id="f3cfb-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span> 
+> 
+> <span data-ttu-id="f3cfb-103">[Hlaða niður vor '18 útgáfuupplýsingum](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span><span class="sxs-lookup"><span data-stu-id="f3cfb-103">[Download the Spring '18 release notes](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).</span></span> <span data-ttu-id="f3cfb-104">Við höfum tekið saman öll smáatriðin, enda á milli, frá hvirfli til ilja, í einu PDF-skjali sem hægt er að nota við áætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="f3cfb-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span> 
