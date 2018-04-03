@@ -1,7 +1,7 @@
 # [Þróun og stjórnun fyrir Dynamics 365 for Finance and Operations](index.md)
-# [Kerfiskröfur fyrir uppsetningu í skýi](../fin-and-ops/get-started/system-requirements.md)
-# [Kerfiskröfur fyrir uppsetningu á staðnum](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Sýnigögn](../fin-and-ops/get-started/demo-data.md)
+# [Kerfiskröfur fyrir uppsetningu í skýi](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Kerfiskröfur fyrir uppsetningu á staðnum](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Sýnigögn](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Búa til sýnigögn með pökkum](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Útflutningur og innflutningur líkans](dev-tools/models-export-import.md)
 ### [Lýsigagnaleit í Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Líkön](dev-tools/models.md)
-### [Verkefni í Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
+### [Verkefni í Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Verkfærainnbætur fyrir Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Slökkt á líkansérstillingu og afskriftavirkni](dev-tools/lock-models.md)
 ### [Uppfærsla þróunarverkfæra í Visual Studio](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Sérstillingar: yfirlög og viðbætur](extensibility/customization-overlayering-extensions.md)
 ### Nýjungar
 #### [Breytingar á stækkunarhæfni júlí 2017](extensibility/changes-july-2017.md)
-#### [Breytingar á stækkunarhæfni í Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Breytingar á stækkunarhæfni útgáfu 7.3](extensibility/extensibility-changes-73.md)
 ### Undirstöðuatriði
 #### [Sérstillingar sem valda röskunum](extensibility/intrusive-customizations.md)
 #### [Klasaskráarendingar](extensibility/class-extensions.md)
@@ -158,7 +158,7 @@
 ### [Prófun verkefna í Visual Studio](perf-test/testing-support.md)
 ### [Uppsetning með samfelldri smíði og sjálfvirkni prófunar](perf-test/continuous-build-test-automation.md)
 ## [Dagsetningarvirkni](dev-tools/date-effectivity.md)
-## [Leyfisveiting óháðra söluaðila hugbúnaðar](dev-tools/isv-licensing.md)
+## [Leyfisveiting óháðra hugbúnaðarsala](dev-tools/isv-licensing.md)
 ## [Leyfisveiting óháðra hugbúnaðarsala á staðnum](dev-tools/isv-licensing-on-prem.md)
 
 # [Þróun á notandaviðmóti](user-interface/user-interface-development-home-page.md)
@@ -168,8 +168,8 @@
 ### [Smíði yfirlits](user-interface/build-navigation.md)
 ### [Smíði vinnusvæðis](user-interface/build-workspace.md)
 ## Skjámyndir
-### [Yfirlit í Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
-### [Útlit í Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
+### [Yfirlit í Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [Útlit í Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [Leturgerð tákns](user-interface/symbol-font.md)
 ### [Prófun skjámynda með sérstilltum mynstrum](user-interface/testing-forms-custom-patterns.md)
 ### [Gerð og notkun djúptengla](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Uppsetning í skýinu
 ### [Innleiðing Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute og Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute og Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Notkun á staðnum](deployment/on-premises-deployment-landing-page.md)
 ### [Innanhússyfirlit](deployment/on-premises-overview.md)
-### [Undirbúningur fyrir staðbundna uppsetningu](deployment/plan-onprem-deployment.md)
-### [Vélbúnaðarþörf](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Undirbúningur fyrir uppsetningu á staðnum](deployment/plan-onprem-deployment.md)
+### [Vélbúnaðarþörf](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Stofna staðbundið verk](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Setja upp og nota staðbundið umhverfi](deployment/setup-deploy-on-premises-environments.md)
 #### [Setja upp innanhússumhverfi með Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Uppfæra staðbundinn eftirlitsbúnað](lifecycle-services/update-local-agent.md)
 ### [Endurskilgreina umhverfi](lifecycle-services/reconfigure-environment.md)
 ### [Internettenging biðlara](user-interface/client-disconnected.md)
-### [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise edition á staðnum](deployment/troubleshoot-on-prem.md)
+### [Úrræðaleit Dynamics 365 for Finance and Operations á staðnum](deployment/troubleshoot-on-prem.md)
 
 ## Setja upp sérsniðinn kóða
 ### [Virkjanlegur pakki búinn til](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [AX 2012 uppfærsla – Verk til að ljúka eftir uppfærslu](migration-upgrade/app-validation-process.md)
 ### [AX 2012 uppfærsla - Virkniprófun](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 uppfærsla – Undirbúningur fyrir notkun](migration-upgrade/upgrade-go-live-prep.md)
-
+### [AX 2012 uppfærsla – Bein útsending](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Breytingar sem hafa áhrif á uppfærslu úr AX 2012
 #### [Uppfærsla eins fylgiskjals og endurmats á gjaldmiðli ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [Yfirlit runuþjóns](sysadmin/batch-server-overview.md)
 ### [Búa til runuvinnslu](sysadmin/tasks/create-batch-job.md)
 
-## [Búa til reglur fyrir Fínstillingarráðgjöf](sysadmin/optimization-advisor.md)
+##  [Yfirlit yfir Fínstillingarráðgjöf](sysadmin/optimization-advisor-overview.md)
+### [Búa til reglur fyrir Fínstillingarráðgjöf](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Yfirlit yfir Lifecycle Services](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [Beiðni um uppfærslu sandkassagagnagrunns](database/database-refresh.md)
 
 # Stuðningur
-## [Stuðningur fenginn fyrir Dynamics 365 for Finance and Operations, Enterprise edition og Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Fá stuðning fyrir Dynamics 365 for Finance and Operations og Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Skráning Premier-þjónustumiða](lifecycle-services/premier-support.md)
 ## [Sending beiðni til starfsfólks Dynamics Service Engineering](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Uppsetning tæknilegs stuðnings fyrir Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
+## [Uppsetning tæknilegs stuðnings fyrir Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [Gluggi fyrir algengar spurningar um áætlað viðhald](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Aðgerðir og þjónusta í skýi](lifecycle-services/cloud-operations-servicing.md)
 ## [Stjórnun á upplifun stuðnings fyrir Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)
