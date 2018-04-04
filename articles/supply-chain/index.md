@@ -1,6 +1,6 @@
 ---
 title: "Stjórnun aðfangakeðju – heimasíða"
-description: "Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: is-is
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á <a href="https://roadmap.dynamics.com/">Dynamics 365 leiðarvísir</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 ## <a name="core-concepts-and-tasks"></a>Grunnhugtök og verk
 
@@ -106,7 +106,7 @@ Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Verklegar æfingar í kostnaðarbókhaldi</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean-framleiðsla: Afhendingargeta og kanban-vinnsluröðun</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Útreikningur uppskrifta með kostnaðarskjali</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Greitt fyrir Mobility í vöruhúsinu með Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Sveigjanleiki í vöruhúsi einfaldaður með Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
 Upplýsingar um Microsoft Dynamics 365 Finance and Operations-þjálfun eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-reiknings) 

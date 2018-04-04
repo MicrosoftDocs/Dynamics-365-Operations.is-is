@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
 
 > [!NOTE] 
-> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations, Enterprise edition og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti Microsoft Dynamics 365 for Retail í efnisatriðum sem tengjast Retail, í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, og í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent. 
+> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti Microsoft Dynamics 365 for Retail í efnisatriðum sem tengjast Retail, í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations; í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent. 
 
 Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika.
 
@@ -48,7 +48,7 @@ Hægt er að setja upp greiðslumáta, afhendingaraðferðir, verðflokka, tekju
 Auk þess hafa viðskiptavinir fjölda valkosta þegar kemur að því að fá það sem þá vantar þegar þá vantar það, á því verði sem þeir vilja greiða. Til að viðhalda viðskiptavild er hægt að nota persónusniðnar tilkynningar og tilboð sem auðvelda innkaupin.
 
 ## <a name="hardware-and-peripherals"></a>Vélbúnaður og jaðarbúnaður
-Retail Modern-sölustaður (MPOS) og sölukerfi í skýinu geta nýtt sér fjölbreytt úrval jaðarbúnaðar. Bæði MPOS og sölukerfi í skýinu bjóða upp á margs konar notendaviðmót og notkunarvalkosti sem hjálpa þér að setja upp og nota ýmiss konar viðskiptasviðsmyndir.
+Retail Modern point of sale (MPOS) og Cloud POS geta nýtt sér fjölbreytt úrval jaðarbúnaðar. Bæði MPOS og sölukerfi í skýinu bjóða upp á margs konar notendaviðmót og notkunarvalkosti sem hjálpa þér að setja upp og nota ýmiss konar viðskiptasviðsmyndir.
 
 Jaðarhermibúnaður fyrir Retail er meðal annars með sýndarveruleikahermi fyrir jaðarbúnað og POS-hermi. Jaðarhermibúnaðurinn styður fyrst og fremst prófanir á sviðsmyndum sem að öllu jöfnu krefjast efnislegra jaðartækja fyrir POS. POS-hermirinn gerir þér kleift að prófa samhæfni efnislegra jaðartækja með Retail án þess að þurfa að nota POS-viðskiptavin.
 

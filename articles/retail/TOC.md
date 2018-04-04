@@ -3,8 +3,8 @@
 # Hefjast handa
 ## [Nýjungar eða breytingar](get-started/whats-new.md)
 ## [Áður en þú kaupir Dynamics 365 for Retail](get-started/before-you-buy.md)
-## [Skráðu þig fyrir prufuáskrift](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Uppsetning sýniútgáfuumhverfis](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Skráðu þig fyrir prufuáskrift](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Uppsetning sýniútgáfuumhverfis](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Virkjunarvalkostir](dev-itpro/choose-deployment.md)
 
 
@@ -44,22 +44,24 @@
 ## [Skilgreining og uppsetning Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Retail-tími og -viðvera](retail-time-attendance.md)
 
-# Modern POS (MPOS) og Cloud POS
-## [Velja á milli Modern POS og Cloud POS](MPOS-or-CPOS.md)
-## [POS-aðgerðir](POS-operations.md)
+# Modern Point of Sale (MPOS) og Cloud POS
+## [Velja á milli Modern POS og sölukerfis í skýinu](MPOS-or-CPOS.md)
+## [POS-aðgerðir, með og án nettengingar](pos-operations.md)
 ## [Skjáútlit sýnigagna í MPOS/CPOS](demo-data.md)
+## [Yfirlit yfir afurðir og viðskiptavinaleit í Point of Sale](POS-search-improvements.md)
 ## Jaðarvélbúnaður
-### [Yfirlit yfir Retail-jaðarbúnað](retail-peripherals-overview.md)
+### [Yfirlit yfir smásölujaðarbúnað](retail-peripherals-overview.md)
 ### [Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft](microsoft-tested-pos-hardware-peripherals.md)
-### [Retail-jaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
+### [Smásölujaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
 ### [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](define-maintain-channel-clients-registers-hw-stations.md)
 ## Útlit afgreiðsluskjás
 ### [Skilgreining skjáútlits fyrir POS](pos-screen-layouts.md)
 ### [Uppsetning útlitshönnunarbúnaðar Retail POS](install-pos-layout-designer.md)
 ### [Velja tilkynningastillingar](Notifications-POS.md)
-### [Sölustaðarforrit og stillingar tungumáls notanda](pos-application-user-language-settings.md)
+### [POS-forrit og stillingar tungumáls notanda](pos-application-user-language-settings.md)
 ### [Uppsetning mynda fyrir MPOS](set-up-manage-images-retail-mpos.md)
 ## [Yfirlit upplýsingakóða](info-codes-retail.md) 
+## [Endurbætur á sölustað fyrir raðaðar afurðir](serialized-inventory.md)
 ## Afurðaráðleggingar
 ### [Yfirlit yfir sérsniðnar afurðarráðleggingar](personalized-product-recommendations.md)
 ### [Ráðleggingarstjórnun bætt við sölustaðartæki](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
 ## [Ákvörðun bestu samsetningar afslátta sem skarast](optimal-combination-overlapping-discounts.md)
 ## [Skilgreining afslátta fyrir tiltekna rás](define-channel-specific-discounts.md)
+## [Koma í veg fyrir afslætti á smásöluafurðum](prevent-discounts.md)
 ## [Búa til afsláttarmiða fyrir smásölu](retail-coupons.md)
 
 # Afurðir og smásala
@@ -105,6 +108,7 @@
 ## [Yfirlit yfir eigindir og eigindaflokka](attribute-attributegroups-lifecycle.md)
 ## [Eigindir búnar til og þeim stjórnað](create-manage-attributes.md)
 ## [Uppsetning smásöluafurða](set-up-retail-products.md)
+## [Endurbætt afurða- og flokkastjórnun](category-management-product-creation.md)
 ## [Afurðarvíddir](../supply-chain/pim/product-dimensions.md)
 ## [Uppsetning strikamerkja](set-up-bar-codes.md)
 ## [Uppsetning strikamerkja](set-up-bar-code-masks.md)
@@ -190,16 +194,17 @@
 # [Þróun og stjórnun smásölu](dev-itpro/dev-retail-home-page.md)
 
 ## Högun
-### [Íhlutir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition – Retail](retail-components.md)
-### [Skipulag Retail-þjóns](dev-itpro/retail-server-architecture.md)
+### [Íhlutir Microsoft Dynamics 365 for Finance and Operations, - Retail](retail-components.md)
+### [Skipulag Retail Server](dev-itpro/retail-server-architecture.md)
 ### [Samskipti smásölurásar](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Skipulag MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [Útgáfuskipulag smásölunetverslunar](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Power BI-efni fyrir frammistöðu smásölurásar](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Power BI-efni fyrir frammistöðu smásölurásar](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
+### [Smásölueiginleikar tiltækir fyrir uppsetningu á staðnum](retail-onprem.md)
 
 ## Uppsetning og bráðabætur
-### [Yfirlit einingarkvarðapakka smásöluverslunar](dev-itpro/retail-store-system-begin.md)
+### [Yfirlit Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
 ### [Skilgreining og uppsetning einingarkvarða smásöluverslunar](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Skilgreining og uppsetning Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Stjórnun Retail-lykla og -tækja frá höfuðstöðvum](set-up-activation-accounts-validate-devices-hq.md)
@@ -208,7 +213,7 @@
 ### [Skilgreining og uppsetning Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir Retail](dev-itpro/retail-mass-deployment.md)
 ### [Tilvik Retail íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Virkjanlegur pakki notaður](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Virkjanlegur pakki notaður](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Uppfærsla og stuðningur N-1
 ### [Yfirlit yfir uppfærslu og stuðning við N-1](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Leiðbeiningar við innleiðingu tækjastjórnunar](implementation-considerations-devices.md)
 
 ## Umhverfisskilgreining
-### [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Stjórna Bing-kortum](dev-itpro/manage-bing-maps.md)
 
 ## Stækkunarhæfni sölustaðar

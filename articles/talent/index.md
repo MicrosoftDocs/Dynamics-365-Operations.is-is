@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: is-is
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Hægt er að nota Talent til að ljúka þessum verkum:
 + Uppsetning, afhending og greining þjálfunarnámskeiða sem innihalda dagskrá, lotur og námsleiðir.
 
 > [!NOTE] 
-> Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations, Enterprise Edition. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations, Enterprise Edition í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Þróun mannauðsáætlunar
 ---------------------------------------------------------

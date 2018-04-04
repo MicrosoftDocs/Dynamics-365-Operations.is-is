@@ -1,6 +1,6 @@
 ---
 title: Greind
-description: "Þetta efnisatriði beinir þér á tilföng sem þú getur notað til að fræðast meira um viðskiptagreindina og skýrslugerðarverkfærin sem eru þér aðgengileg í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Í þessu efnisatriði eru ábendingar um tilföng sem hægt er að nota til að fræðast betur um viðskiptagreind og skýrsluverkfæri sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði beinir þér á tilföng sem þú getur notað til að fræðast meira um viðskiptagreindina (BI) og skýrslugerðarverkfærin sem eru þér aðgengileg í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Í þessu efnisatriði eru ábendingar um tilföng sem hægt er að nota til að fræðast betur um viðskiptagreind (BI) og skýrsluverkfæri sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Hefjast handa
-- [Aðgangur að upplýsingum og skýrslugerð](information-access-reporting.md)
-- [Tæknispjall: Skýrslugerðarvalkostir](https://www.youtube.com/watch?v=NzZONjKs5xA) (myndskeið)
+- [Aðgangsupplýsingar og skýrslugerð](information-access-reporting.md)
+- [Tæknital: Valkostir skýrslugerðar](https://www.youtube.com/watch?v=NzZONjKs5xA) (myndskeið)
 - [Finance and Operations: Viðskiptagreind](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blogg)
 
 ## <a name="analytical-workspaces"></a>Greiningarvinnusvæði

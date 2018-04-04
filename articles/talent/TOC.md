@@ -3,6 +3,8 @@
 # [Hafist handa](talent-get-started.md)
 ## [Kerfiskröfur og uppfærsluregla](talent-versions-update-policy.md)
 ## [Úthluta Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Fjarlægja Talent-umhverfi](remove-test-environment.md)
+## [Úthluta Microsoft Dynamics 365 for Talent Modular Apps](modular-app-tech-faq.md)
 ## [Stækka virkni Talent](extend-talent-functionality.md)
 
 # [Þróun mannauðsáætlunar](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
 
 # Öryggi og reglufylgni á vinnustað (Bandaríkin)
-## [Staðfesting starfs með I-9 eyðublaði](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [ADA fylgt](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Staðfesting starfs með I-9 eyðublaði](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [ADA fylgt](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
