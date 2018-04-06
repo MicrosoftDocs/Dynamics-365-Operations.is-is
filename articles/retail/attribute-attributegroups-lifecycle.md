@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6fde46c35d5efbb72ad97628d7d5a3f9eeba7c8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](includes/banner.md)]
 
-*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition geta eigindir tengst ýmsum Retail einingum, eins og afurðarflokkum og smásölurásum, og hægt er að stilla sjálfgildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
+*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations geta eigindi tengst ýmsum Retail eigindum, svo sem afurðaflokkum og smásölurásum og hægt er að stilla sjálfgildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
  
 Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 

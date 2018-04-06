@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Þessi grein inniheldur hugtakið verktilboð, sem hægt er nota til að gera viðskiptavini álitlegt tilboð sem fyrsta skrefið í áfanga verks. Tilboð verks gæti innifalið vörur og þjónustu sem í boði eru, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og mögulega skatta og álögur. 
 
-Getan til að fylgjast með, endurskoða og hafa stjórn á keðju verktilboða og pantana er mikilvægur þáttur verkstjórnunar. Ýmis tæki í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition létta slíka stjórnun. Tæki eins og réttar skilgreiningar tilvísunargagna (tilboðsgerðir, uppruni tilboða, spár og líkindi) hjálpa til við að greina keðjuna. Hægt er að nota þessi tæki til að flokka ástæður þess að verktilboð bar árangur eða ekki og hvað tilboðið var hugsanlega mikils virði. 
+Getan til að fylgjast með, endurskoða og hafa stjórn á keðju verktilboða og pantana er mikilvægur þáttur verkstjórnunar. Ýmis tæki í Microsoft Dynamics 365 for Finance and Operations geta auðveldað þessi verk. Tæki eins og réttar skilgreiningar tilvísunargagna (tilboðsgerðir, uppruni tilboða, spár og líkindi) hjálpa til við að greina keðjuna. Hægt er að nota þessi tæki til að flokka ástæður þess að verktilboð bar árangur eða ekki og hvað tilboðið var hugsanlega mikils virði. 
 
 Í verktilboði er færð inn þjónusta, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og skatta og álögur sem metið er fyrir verk. Einnig er hægt velja verkefni eða verk fyrir verkþætti, og stofna stigveldi fyrir verk og undirverk. Fyrir hvern verkþátt er hægt að færa inn upplýsingar um tímasetningu og tímalengd verkþáttar og um hæfni og reynslu sem krafist er fyrir starfsmenn sem á að framkvæma verkþáttinn. 
 

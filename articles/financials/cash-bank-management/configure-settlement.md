@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessi grein lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir 
 
-Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör eru unnin í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
+Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör eru unnin í Microsoft Dynamics 365 for Finance and Operations. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
 
 -   **Sjálfvirkt uppgjör** – þessi valkostur er Stilltur **Já** ef á að jafna færsluna sjálfvirkt gagnvart öðrum opnum færslum þegar hún er bókuð. Ef þessi valkostur er stilltur á **Nei**, geta notendur handvirkt jafna færslur þegar greiðslur eru færðar inn, eða seinna með því að nota í **Jafna færslur** síðu.
 -   **Stýring staðgreiðsluafsláttar** – Tilgreina hvernig skal meðhöndla [staðgreiðsluafsláttar þegar reikningur ofgreiddur](cash-discount-handling-overpayments.md). Fyrir ofgreiðslu er hægt að minnka staðgreiðsluafslátt, hægt er að meðhöndla það sem mismun eða hún getur verið áfram á reikning fyrir lánardrottinn eða viðskiptavinur.

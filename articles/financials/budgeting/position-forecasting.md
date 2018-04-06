@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Kostnaðareining tekna sem er valin í launaflokknum er notuð þegar tekjur eru
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Stofna spástöður fyrir fyrirliggjandi stöður
 
-Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Dynamics 365 for Finance and Operations, Enterprise Edition, óháð því hvort staða hefur verið fyllt eða ekki. 
+Fyrir sem nákvæmasta fjárhagsáætlunargerð er hægt að stofna spástöður með því að nota upplýsingar úr fyrirliggjandi stöðum í Microsoft Dynamics 365 for Finance and Operations, óháð því hvort staða hefur verið fyllt eða ekki. 
 
 Aðgerðin **Bæta við stöðum sem til eru** birtir allar stöður fyrir fyrirtæki. Með því að stilla dagsetninguna **Frá og með** er hægt að breyta lista yfir stöður þannig að það innihaldi staði sem voru til á dagsetningu í fortíðinni eða, sem er algengara, í framtíðinni (til dæmis upphaf næsta ferlis fjárhagsáætlunar). Veljið ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar, veljið stöður í listanum og smellið síðan á **Í lagi** til að stofna spástöðu fyrir valdar stöður. Athugið að aðeins er hægt að stofna eina spástöðu fyrir hverja fyrirliggjandi stöðu í ferli og aðstæðumar fjárhagsáætlunargerðar. Hins vegar er hægt að stofna frekari útgáfur með því að úthluta mismunandi aðstæðum fjárhagsáætlunargerðar. 
 

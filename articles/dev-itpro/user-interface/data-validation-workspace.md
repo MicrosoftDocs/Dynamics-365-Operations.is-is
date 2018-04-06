@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Fyrst verður að velja gagnaprófunarverk efst í vinnusvæðinu. Öll gögn se
 Síðasti flipinn eru fyrir nákvæman verkefnalista. Listinn sýnir fullan verkefnalista.
 Hægt er að sía lista yfir verk með nokkrum aðferðum. Smellt er á **Breyta verkefni** til að breyta stöðu verks eða úthluta verkefni. Smellt er á **Tengingar** til að skoða tengingar við verk.
 
-Heiti verksins er tengill síðu Microsoft Dynamics 365 for Finance and Operations, Enterprise edition-vefsíðu sem notandinn verður að fara á til að ljúka vinnu. Hægt er að setja þennan tengil með því að nota reitinn **Heiti valmyndaratriðis** þegar á að breyta eða stofna verk úr skjámyndinni **Skilgreina gögnum villuleit verks**.
+Verkefnið er tengill á síðu Microsoft Dynamics 365 for Finance and Operations sem notandinn verður að fara á til að ljúka vinnunni. Hægt er að setja þennan tengil með því að nota reitinn **Heiti valmyndaratriðis** þegar á að breyta eða stofna verk úr skjámyndinni **Skilgreina gögnum villuleit verks**.
 
 Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við verk með aðgerð **fylgiskjöl** Til dæmis er hægt að hengja við skýrsluskrána sem var prentuð fyrir verk. Tákn birtist í dálknum **Viðhengi** fyrir verkefni ef viðhengi eru til staðar.
 

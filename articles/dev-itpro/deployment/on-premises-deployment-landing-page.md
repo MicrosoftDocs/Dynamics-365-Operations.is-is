@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>Heimasíða uppsetningar á staðnum
 
 [!include[banner](../includes/banner.md)]
 
-Þú getur sett upp Microsoft Dynamics 365 for Finance and Operations, Enterprise útgáfu (á staðnum). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
+Þú getur sett upp Microsoft Dynamics 365 for Finance and Operations (á staðnum). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
 
 ## <a name="get-started"></a>Byrja
 - [Hvað er nýtt og breytt í staðbundnum uppsetningum fyrir Dynamics 365 for Finance and Operations, Enterprise edition 7.2 með verkvangsuppfærslu 12 (mars 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Yfirlit Dynamics 365 for Finance and Operations, Enterprise-útgáfa (staðbundin útgáfa)](on-premises-overview.md)
+- [Dynamics 365 for Finance and Operations (á staðnum) yfirlit](on-premises-overview.md)
 - [Undirbúningur fyrir staðbundna uppsetningu](plan-onprem-deployment.md)
 - [Kerfiskröfur fyrir uppsetningu á staðnum](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Kaupa Dynamics 365 for Finance and Operations, Enterprise-útgáfu (staðbundna útgáfu)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Kaupa Dynamics 365 for Finance and Operations (á staðnum)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Samanburður á eiginleikum uppsetningar í skýi og á staðnum](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Innleiðing
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/15/2018
 - [Setja uppsetningu á staðnum aftur upp](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Önnur tilföng
-- [Framkvæma úrræðaleit Dynamics 365 for Finance and Operations, Enterprise edition á staðnum](troubleshoot-on-prem.md)
+- [Úrræðaleit Dynamics 365 Dynamics for Finance and Operations á staðnum](troubleshoot-on-prem.md)
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Úreltir eiginleikar](../migration-upgrade/deprecated-features.md)
 - [Lífsferilsstefna hugbúnaðar og listi yfir útgáfur](../migration-upgrade/versions-update-policy.md)

@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e6e159f84e188bad49db7b99a43c99f2e4d744be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,7 +48,7 @@ Notendur geta fært inn og birt línur fyrir fjárhagsbækur úr Microsoft Excel
 | Greiðslubók viðskiptavinar | Reikningar: Mótlykill viðskiptamanns: Fjárhagur, samstæðulykill banka er studd.                                               | Greiðslubók viðskiptavinar                                                                |
 | Kostnaðarbók verk  | Reikningur: Verkefni, Fjárhagur, Viðskiptavinur, Mótlykill lánardrottins: Verkefni, Fjárhagur´, Viðskiptamaður, Samstæðulykill lánardrottins er studd. | Almenn kostnaðarfærslubók (undir verkefnastjórnun og bókhald)                       |
 
-Þegar línur eru birtar eru þær villuleitaðar til að tryggja að þær samræmist reglum sem eru settar upp í fjárhagsbækur. Eftir að línur eru birtar geta notendur breytt eða birt fylgiskjöl úr Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+Þegar línur eru birtar eru þær villuleitaðar til að tryggja að þær samræmist reglum sem eru settar upp í fjárhagsbækur. Eftir að línurnar eru birtar geta notendur breytt eða bókað fylgiskjölin frá Microsoft Dynamics 365 for Finance and Operations. 
 
 Til að bæta fjárhagsvíddum við sniðmát eru frekari breytingar nauðsynlegar. Nánari upplýsingar er að finna í [Víddum bætt við Microsoft Excel-sniðmát](../../dev-itpro/financial/add-dimensions-excel-templates.md). Eftir að víddum er bætt við eininguna, eru þær tiltæk í Excel hönnuði og hægt að bæta þeim við sniðmátið.
 

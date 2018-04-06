@@ -1,6 +1,6 @@
 ---
 title: "Yfirlit fjárhagsáætlunar"
-description: "Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition munu geta stofnað skýrslur fyrir fjárhagsáætlun samanborið við rauntölur. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations, Enterprise edition eða hlaða þeim úr forriti óháðs aðila."
+description: "Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition munu geta stofnað skýrslur fyrir fjárhagsáætlun samanborið við rauntölur. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
+Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 
 <a name="overview"></a>Yfirlit
 --------
@@ -42,7 +42,7 @@ Samþykkt fjárhagsáætlun fyrir lögaðila er viðhaldið í skjalinu sem kall
 
 -   Færa handvirkt inn upplýsingar um skjal á **færslur fjárhagsáætlunarskrár** síðu.
 -   Nota Microsoft Excel sniðmát sem hægt er að opna með því að smella á **Opna í Excel** hnappinn á **færslur fjárhagsáætlunarskrár** síðunni.
--   Nota skal **færslur fjárhagsáætlunarlykils** gagnaeiningu í gagnastjórnun til að flytja inn færslur fjárhagsáætlunarskrár. Ætti að íhuga að nota þennan greiðslumáta og kveikja á **Byggt á safni** **vinnslu **færibreytu þegar þarf að flytja margar fjárhagsáætlunarfærslur inn í kerfið.
+-   Nota skal **færslur fjárhagsáætlunarlykils** gagnaeiningu í gagnastjórnun til að flytja inn færslur fjárhagsáætlunarskrár. Ætti að íhuga að nota þennan greiðslumáta og kveikja á **Byggt á safni** **vinnslu** færibreytu þegar þarf að flytja margar fjárhagsáætlunarfærslur inn í kerfið.
 -   Ef fyrirtækið notar aðgerðir fjárhagsáætlunargerðar til að útbúa fjárhagsáætlunargögn, er hægt að nota í **Mynda færslu í fjárhagsáætlunarskráa** reglubundna vinnslu.
 
 Færsla fjárhagsáætlunarskrár telst lokið þegar stöður fjárhagsáætlunar hafa verið uppfærðar. Á **færslur fjárhagsáætlunarskrár** síðunni er smellt á **Uppfæra staða fjárhagsáætlunar** fyrir valda færslu fjárhagsáætlunarskrár eða margar færslur. Þegar búið er að uppfæra stöður fjárhagsáætlunar, breytist staða færslu fjárhagsáætlunarskrár í **Lokið**. Lokin færsla fjárhagsáætlunarskrár má ekki vera enduropnaður fyrir breytingar. Þess vegna ef fjárhagsáætlunargögn þarf að leiðrétta, verður að stofna nýja færslu fjárhagsáætlunarskrár í stað þess að leiðrétta gögnin í lokinni færslu fjárhagsáætlunarskrár.
@@ -54,7 +54,7 @@ Næst, ef eru reglur sem stjórna samþykki á færslum fjárhagsáætlunarskrá
 
 Á **Fjárhagsáætlunarvídir** síðu, verður að velja fjárhagsvíddir sem eru notaðar fyrir fjárhagsáætlun, byggðar á víddum sem notaðar eru í bókhaldslyklinum. Hægt er að allar fjárhagsvíddunum eða undirflokk þeirra fyrir fjárhagsáætlun.
 
-Skilgreina *fjárhagsáætlunarlíkan *sem samsvarar öllum eða sumar fjárhagsáætlunum. Hægt er að nota eitt fjárhagsáætlunarlíkan fyrir allar færslur fjárhagsáætlunarskrár. Einnig er hægt að stofna aðskildar líkön sem byggja á gerð fjárhagsáætlunar, landfræðileg staðsetning eða einhvern annan hátt sem er hægt að flokka fjárhagsáætlun. 
+Skilgreina *fjárhagsáætlunarlíkan* sem samsvarar öllum eða sumar fjárhagsáætlunum. Hægt er að nota eitt fjárhagsáætlunarlíkan fyrir allar færslur fjárhagsáætlunarskrár. Einnig er hægt að stofna aðskildar líkön sem byggja á gerð fjárhagsáætlunar, landfræðileg staðsetning eða einhvern annan hátt sem er hægt að flokka fjárhagsáætlun. 
 
 > [!NOTE] 
 > Ef fjárhagsáætlunarstýring er notuð, er hægt að tengja aðeins eitt fjárhagsáætlunarlíkan við tiltekna tímabil fjárhagsáætlunar. 

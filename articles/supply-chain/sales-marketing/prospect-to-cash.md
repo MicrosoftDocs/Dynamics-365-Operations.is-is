@@ -1,6 +1,6 @@
 ---
 title: Prospect to cash
-description: "Þetta efnisatriði veitir yfirlit yfir Prospect to cash lausnarinnar á milli Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition og Microsoft Dynamics 365 for Sales."
+description: "Þetta efnisatriði veitir yfirlit yfir Prospect to cash lausnarinnar á milli Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 02/08/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
-ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
 ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Prospect to cash lausnin veitir beina samstillingu milli Dynamics 365 for Finance and Operations, Enterprise Edition og Dynamics 365 for Sales. Prospect to cash sniðmát sem eru í boði með eiginleika gagnasamþættingar leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantanir og sölureikninga milli Finance and Operations og Sales. Á meðan gögnin flæði á milli Finance and Operations og Sales er hægt að framkvæma sölu- og markaðsstarf í Sales og meðhöndla pöntunaruppfyllingu með því að nota birgðastjórnun í Finance and Operations. 
+Prospect to cash lausnin veitir beina samstillingu milli Dynamics 365 for Finance and Operations og Dynamics 365 for Sales. Prospect to cash sniðmát sem eru í boði með eiginleika gagnasamþættingar leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantanir og sölureikninga milli Finance and Operations og Sales. Á meðan gögnin flæði á milli Finance and Operations og Sales er hægt að framkvæma sölu- og markaðsstarf í Sales og meðhöndla pöntunaruppfyllingu með því að nota birgðastjórnun í Finance and Operations. 
 
 Fyrir frekari upplýsingar um samþættingu Prospect to cash, skoðaðu stutt YouTube myndband:
 

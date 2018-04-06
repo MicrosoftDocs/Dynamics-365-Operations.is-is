@@ -1,6 +1,6 @@
 ---
 title: "Skilgreina kostnaðarstýringu"
-description: "Þetta grein lýsir álitamálum og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er að stilla kostnaðarstjórnun í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Þessi grein lýsir því sem þarf að hafa í huga og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er að skilgreina kostnaðarstýringu í Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fad62c5da11e88e07f4e9d4343c4ac1a487bdd8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er að stilla kostnaðarstýringu í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Í kostnaðarstýringu, er hægt að geyma upplýsingar um greiðslumáta, ferðabeiðnir, kostnaðarskýrslur og stefnur og svo framvegis.
+Þetta efnisatriði lýsir því sem þarf að hafa í huga og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er að skilgreina kostnaðarstýringu í Microsoft Dynamics 365 for Finance and Operations. Í kostnaðarstýringu, er hægt að geyma upplýsingar um greiðslumáta, ferðabeiðnir, kostnaðarskýrslur og stefnur og svo framvegis.
 
 Þar sem margar þeirra ákvarðana sem gerðar eru við að áætla samskipan fyrir kostnaðarstýringu byggjast á stigveldi og fjárhagslegu skipulagi fyrirtækisins, verður að vísa til skipulagningarskjala fyrir þau svæði.
 

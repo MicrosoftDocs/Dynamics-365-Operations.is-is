@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 83e8dc76350e0d40a392e9a04ddca5b4b45d0da0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Vöruhúsavinnureglur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
+Reglur vöruhúsavinnu í Microsoft Dynamics 365 for Finance and Operations stjórna hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðslu, samkvæmt gerð vinnupöntunar, birgðastaðsetningu og vöru.
 
 Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
 

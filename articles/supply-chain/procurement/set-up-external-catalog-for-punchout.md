@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Með því að nota ytri vörulista er hægt að tryggja að upplýsingar um vöru og verð sem er seinna að vinna í Dynamics 365 til Fjármála og Aðgerðir Enterprise edition 2017 Júlí sé rétt og uppfærðir. Beiðnin getur þá verið samþykkt og umbreytt í sölupöntun og pöntun geta verið staðsettir á lánardrottni.
+Með því að nota ytri vörulista er hægt að tryggja að upplýsingar um vöru og verð sem er síðan unnið úr í Dynamics 365 for Finance and Operations, júlí 2017, eru nákvæmar og uppfærðar. Beiðnin getur þá verið samþykkt og umbreytt í sölupöntun og pöntun geta verið staðsettir á lánardrottni.
 
 Þegar ytri vörulista er að setja upp og starfsmaður undirbúning beiðni verða valkost til að beina fastakostnaði ytra setur, ytri vörulista og fara aftur í innkaupakörfu sína sem var búin til á ytra setur. Þessu samskiptaaðferðar byggist á samskiptareglur cXML og það hefur á að vera uppsett á milli kerfanna af sem kaupa og fyrirtæki seljanda.
 
@@ -85,7 +85,7 @@ Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sni
 
 Extrinsic þáttur eru viðbótarupplýsingar á borð við notandanafn sem byggja á notandanum sem stimplar sig út. Extrinsic þáttur er stilltur þegar stimplað er út og hægt er að senda það í skilaboðum með beiðni um uppsetningu.
 Lánadrottninum gæti verið þarfir fyrir móttöku extrinsic einingu í uppsetningu. Í því tilfelli er eigi við extrinsic einingar yfir extrinsic einingar í í **skilaboðasniðið** hluta í **Ytri vörulista** síðu. Tilgreinið nafn extrinsic einingarinnar sem lánardrottinn getur þekkja og tengið það gildi. Valkostir gildi eru: notandanafn, tölvupósts Notanda eða Random gildi.
-Sjá frekari upplýsingar um samskiptareglur cXML: http://cxml.org/
+Fyrir nánari upplýsingar um cXML samskiptareglur skal sjá: http://cxml.org/
 
 ## <a name="post-back-message"></a>Skilaboð aftur
 Bóka skilaboðin aftur er skilaboðin sem berast frá lánardrottni gengur úr ytri svæði og til Fjármála og Aðgerðir. Bóka aftur skilaboð ekki er hægt að skilgreina. Fyrir skilaboð er byggður á skilgreiningunni cXML samskiptareglur. Hér eru upplýsingar sem hluta af bóka aftur skilaboðin sem er móttekið á línu innkaupabeiðninnar:

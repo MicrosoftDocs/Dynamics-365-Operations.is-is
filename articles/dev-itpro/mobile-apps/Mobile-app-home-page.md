@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 12/01/2017
 
 Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum. Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum. Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:
 
-- Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert. Þegar tæki tengist neti á ný, eru gagnaaðgerðir sem gerðar voru utan nets sjálfkrafa samstilltar við Dynamics 365 for Finance and Operations, Enterprise edition eða Microsoft Dynamics 365 for Finance and Operations.
+- Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert. Þegar tæki tengist neti á ný hlaðast upp upplýsingar um aðgerðir, sem gerðar voru utan nets, sjálfvirkt með Dynamics 365 for Finance and Operations.
 - Upplýsingatæknistjóri eða forritarar geta byggja og birtið fartækja vinnusvæði sem hefur verið sniðið að þeirra fyrirtæki. Farsímaforritið notar fyrirliggjandi kóða eigna þinna. Þess vegna þarf ekki að færa aftur inn villuleitaraðferðir, viðskiptagrunninn eða öryggis samskipan.
 - Upplýsingatæknistjórar eða forritarar geta auðveldlega hannað fartækjavinnusvæði með því að nota benda-og-smella verkfærið sem er í vefbiðlaranum.
 - Upplýsingatæknistjórar eða forritarar geta einnig hámarka notkun vinnusvæða utan nets með því að nota Business viðskiptagrunn umgjörðina. Þar sem gögn heldur áfram að vinna þegar tæki er utan nets, eru þín farsímaforrit áfram virk og auðug, jafnvel þó ekki tæki hafa tengingu við fasta net.
@@ -90,7 +90,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <tr class="even">
 <td>2</td>
 <td>Kerfisstjóri</td>
-<td><strong>Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations útgáfu 1611:</strong> skaltu sækja og setja upp KB sem virkja fartækjavinnusvæðin frá Microsoft.</td>
+<td><strong>Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611:</strong> Sæktu og settu upp KBs sem gera kleift að nota fartækjavinnusvæði sem eru veitt af Microsoft.</td>
 <td>Sjáðu eftirfarandi efnisatriði til að fá frekari upplýsingar:
 <ul>
 

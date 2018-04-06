@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 156cd33a0216514a70229b4e23fc86c0c68cd940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/03/2017
 **Ábending:** Þessi grein á við um aðgerðir í á **Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
-Stjórnkerfi Vöruhúss í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
+Stjórnkerfi Vöruhúss í Microsoft Dynamics 365 for Finance and Operations býður upp á sveigjanlegar leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
 
 -   Þú getur að koma á háforgangs og lágforgangs geymslusvæði fyrir bestu vistun vöru.
 -   Hægt er að skipta vöruhús í svæði til móts við mismunandi geymsluþarfir , s.s. kröfur um hitastig, eða ýmsa veltuhraði fyrir vörur.

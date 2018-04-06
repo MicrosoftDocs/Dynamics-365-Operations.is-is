@@ -1,6 +1,6 @@
 ---
 title: "Hæfni starfsmanna og þróun Power BI-efnis"
-description: "Þetta efnisatriði lýsir Power BI-efninu Finance and Operations - Hæfni starfsmanna og þróun."
+description: "Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI-efnis."
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: is-is
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/19/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir Power BI-efninu Finance and Operations - Hæfni starfsmanna og þróun. 
+Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI-efnis. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
 Eftir að þú hefur tengt efnispakkann við gögn Finance and Operations, sýnir skýrslan þér fyrirtækjagögn þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
@@ -44,7 +44,7 @@ Eftir að þú hefur tengt efnispakkann við gögn Finance and Operations, sýni
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Finance and Operations eru notuð til að fylla út í skýrslur í efnispakkanum Hæfni og þróun starfsmanna. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
+Gögn Finance and Operations eru notuð til að fylla út skýrslurnar í efnispakka starfsmannahæfni og þróunar. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
 
 | Eining                            | Innihald                                                                                                   | Vensl við aðra lögaðila                                                                                                                                                                                                                                                                       |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

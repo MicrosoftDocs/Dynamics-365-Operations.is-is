@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: is-is
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 12/23/2017
 
 Rafræn skýrslugerð styður formúluhönnuðinn. Á hönnunartíma er því hægt að skilgreina segðir sem hægt er að nota fyrir eftirfarandi verkefni á keyrslutíma:
 
-- Umbreytingu gagna úr Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition gagnagrunninum sem eiga að vera slegin inn í gagnalíkan rafrænnar skýrslugerðar sem er hannað til að vera gagnagjafi fyrir snið rafrænnar skýrslugerðar. (Til dæmis geta þessar umbreytingar innihaldið síun, flokkun og umbreytingu gagnagerða.)
+- Umbreytingu gagna úr Microsoft Dynamics 365 for Finance and Operations gagnagrunninum sem eiga að vera slegin inn í gagnalíkan rafrænnar skýrslugerðar sem er hannað til að vera gagnagjafi fyrir snið rafrænnar skýrslugerðar. (Til dæmis geta þessar umbreytingar innihaldið síun, flokkun og umbreytingu gagnagerða.)
 - Sníðing gagna sem verða að vera send á stofnað rafrænt skjal í samræmi við útlit og skilyrði tiltekins sniðs rafrænnar skýrslugerðar. (Til dæmis gæti sniðið verið gert í samræmi við viðkomandi tungumál eða menningu eða kóðunina).
 - Stjórna ferlinu sem stofnar rafræn skjöl. (Til dæmis geta segðirnar virkjað eða slökkt á framleiðsla tiltekinna eininga sniðsins, fer eftir vinnslugögnum. Þær geta einnig truflað skráarmyndunarferlið eða sent skilaboð til notenda.)
 
@@ -318,7 +318,7 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <tr class="even">
 <td>REVERSE (listi)</td>
 <td>Skila tilgreindum lista í röð sem er afturábak.</td>
-<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name () ')))</strong> skilar lista yfir seljendur sem eru flokkaðar eftir nafni í lækkandi röð.</td>
+<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name () ')) )</strong> skilar lista yfir seljendur sem eru flokkaðar eftir nafni í lækkandi röð.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (listi, skilyrði)</td>

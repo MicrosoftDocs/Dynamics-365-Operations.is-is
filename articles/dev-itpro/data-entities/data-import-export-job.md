@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: is-is
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Til að stofna og minna með inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition skal nota vinnusvæðið  **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
+Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skal nota vinnusvæðið **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
 > [!NOTE]
 > Þetta efni gerir ráð fyrir að þú þekkir [gagnaeiningar](data-entities.md).
@@ -66,7 +66,7 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 ### <a name="set-the-data-format-for-the-job"></a>Velja gagnasnið fyrir verkið.
 Þegar þú velur einingu verður þú að velja snið gagna sem verða flutt út eða inn. Þú skilgreinir snið með því að nota reitinn **Uppsetning uppruna gagna**. Mörg fyrirtæki byrja á sniðmátum sem eru sjálfgefið´tekin með í sýnigögnunum. Eftirfarandi er listi yfir nokkrar þessara sniðmáta:
 
-- AX (fyrir gögn sem verður að flytja inn eða út á sama snniði og notað er fyrir Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition)
+- AX (fyrir gögn sem þarf að flytja inn eða út á sama sniði og er notað fyrir Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

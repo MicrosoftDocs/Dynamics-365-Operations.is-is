@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Hanna segðir til að kalla á aðferðir forritaflokka (rafrænnar skýrslugerðar)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar. Hægt er að skilgreina gildi frumbreyta fyrir köllunarflokka á keyrslutíma: Til dæmis byggt á upplýsingum í þáttunarskjalinu til að tryggja réttmæti þess. Í þessum leiðbeiningum mun notandi stofna þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar. 
 
-Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Enn fremur þarf að hlaða niður og vista eftirfarandi skrár staðbundið: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Þú verður líka að hlaða niður og vista eftirfarandi skrá staðbundið: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Rafræn skýrslugerð Stofna skilgreiningaveitu og merkja hana sem virka.“
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef þessi skilgreiningarveita sést ekki, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.   
-    * Gerum ráð fyrir að þú sért að hanna aðferð til að þátta bankayfirlit á innleið fyrir uppfærslu á umsóknargögnum. Þú færð bankayfirlit á innleið sem TXT skrár sem innihalda IBAN kóða. Sem hluti af innflutningsferli bankayfirlits þarf að sannprófa réttmæti IBAN-númersins með því að nota rökfræðina sem er nú þegar í boði í Dynamics 365 for Finance and Operations, Enterprise edition.   
+    * Gerum ráð fyrir að þú sért að hanna aðferð til að þátta bankayfirlit á innleið fyrir uppfærslu á umsóknargögnum. Þú færð bankayfirlit á innleið sem TXT skrár sem innihalda IBAN kóða. Sem hluti af innflutningsferli bankareikningsins þarftu að staðfesta réttmæti þessara IBAN kóða með því að nota rökfræði sem er nú þegar í boði í Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Flytja inn nýja grunnstillingu líkans í Rafræn skýrslugerð
 1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.

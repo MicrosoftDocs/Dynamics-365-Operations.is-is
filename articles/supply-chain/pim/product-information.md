@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Afurð er fyrst og fremst skilgreind af afurðarnúmeri, heiti og lýsingu. Hins
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Dreifing, út- og innflutningur á afurðarupplýsingum
 
-Hægt er að stofna skilgreiningu afurðar í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Einnig er hægt að sækja hana úr lífsferilsstjórnun afurðar, stjórnun afurðaupplýsinga eða upplýsingakerfum um afurðarstjórnun. Þegar fleiri en eitt tilvik af Finance and Operations eru notuð er eitt tilvik yfirleitt notað sem afurðarsniðmát fyrir öll önnur tilvik. Þessi aðferð er studd af stóru safni gagnaeininga sem gera út- og innflutning mögulegan á afurðarskilgreiningargögnum úr einu tilviki í annað.
+Afurðarskilgreiningu er hægt að stofna í Microsoft Dynamics 365 for Finance and Operations. Einnig er hægt að sækja hana úr lífsferilsstjórnun afurðar, stjórnun afurðaupplýsinga eða upplýsingakerfum um afurðarstjórnun. Þegar fleiri en eitt tilvik af Finance and Operations eru notuð er eitt tilvik yfirleitt notað sem afurðarsniðmát fyrir öll önnur tilvik. Þessi aðferð er studd af stóru safni gagnaeininga sem gera út- og innflutning mögulegan á afurðarskilgreiningargögnum úr einu tilviki í annað.
 
 Finance and Operations leyfir þér að nota Common Data Service til að styðja við dreifingu afurðarupplýsinga í mörg tilvikum. Hægt er að flytja afurðarskilgreiningar úr einu tilviki Finance and Operations í Common Data Service. Síðan er hægt að nota afurðarskilgreiningar til að útvega öðrum viðskiptaforritum, eins og Microsoft Dynamics 365 for Sales, afurðarupplýsingar.
 

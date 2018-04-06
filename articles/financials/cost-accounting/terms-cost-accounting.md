@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/03/2017
 
 **Kostnaðarbókhald**
 
-Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis. Upprunagögn sem notaður er fyrir greining er óháð meðhöndlaðar í kostnaðarbókhaldi. Þess vegna ekki uppfærslur í kostnaðarbókhaldi áhrif upprunagögn. Hins vegar þegar hægt er að safna gögnum kostnaðurinn frá ýmsum stöðum og sérstaklega þegar aðallykla á að flytja úr fjárhag í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sem kostnaðareiningar er ofaukið gögn, þar sem sömu gögn sem til eru í fjárhag og kostnaðarbókhald. Ofauki þessa er krafist, þar sem nota fjárhagslegar stjórnun fyrir ytri skýrslugjöf og kostnaðarbókhalds fyrir innri skýrslugjöf.
+Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis. Upprunagögn sem notaður er fyrir greining er óháð meðhöndlaðar í kostnaðarbókhaldi. Þess vegna ekki uppfærslur í kostnaðarbókhaldi áhrif upprunagögn. Hins vegar þegar kostnaðargögnum er safnað saman frá ýmsum stöðum, og sérstaklega þegar aðallyklar eru fluttir inn frá Fjárhag í Microsoft Dynamics 365 for Finance and Operations sem kostnaðareiningar, er gögnum ofaukið, þar sem sömu gögn eru til staðar bæði í Fjárhag og Kostnaðarbókhaldi. Ofauki þessa er krafist, þar sem nota fjárhagslegar stjórnun fyrir ytri skýrslugjöf og kostnaðarbókhalds fyrir innri skýrslugjöf.
 
 **Fjárhagur kostnaðarbókhalds**
 
@@ -120,7 +120,7 @@ Kostnaðarhlutfallið er notuð til að reikna út verð á kostnað hlut. Í sk
 Kostnaðarbókhald styður samþættingu gagna frá upprunakerfum um gagnatengi. Eftirfarandi gagnatengi eru í boði:
 
 -  Innfluttar færslur (forskilgreint)
--  Dynamics 365 for Finance and Operations, Enterprise Edition (forskilgreint)
+-  Dynamics 365 for Finance and Operations (forskilgreint)
 -  Dynamics AX (stilling nauðsynleg)
 
 **Athugaðu:** Innfluttar færslur gagnatengja byggjast á gagnaeiningum.
@@ -129,7 +129,7 @@ Kostnaðarbókhald styður samþættingu gagna frá upprunakerfum um gagnatengi.
 
 Flest upprunakerfi geta veitt gögn sem samsvara einum eða fleiri gagnaveitum í Kostnaðarbókhald. Til að samræma gögn frá upprunakerfi við gagnaveitu í Kostnaðarbókhaldi þarf gagnaveita að vera valin. Eftirfarandi tafla sýnir gagnaveitur eftir gagnatengi og gagnaveitu.
 
-|  **Uppruni gagna** |  **Gagnatengi fyrir innfluttar færslur** | **Gagnatengi Dynamics 365 for Finance and Operations, Enterprise Edition**  | **Dynamics AX gagnatengi**  |
+|  **Uppruni gagna** |  **Gagnatengi fyrir innfluttar færslur** | **Gagnatengi Dynamics 365 for Finance and Operations**  | **Dynamics AX gagnatengi**  |
 |---|---|---|---|
 | Víddarstök kostnaðareiningar  |  Já | Já  | Já  |
 |  Víddarstök kostnaðarhluta |  Já | Já  | Já  |

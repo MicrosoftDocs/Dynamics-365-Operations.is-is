@@ -1,6 +1,6 @@
 --- 
 title: "Varpa gagnalíkani á valdar gagnaveitur fyrir rafræna skýrslugerð (ER)"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur varpað rafræna skýrslugerð (ER) gagnalíkani á valdar Dynamics 365 for Finance and Operations, Enterprise edition gagnaveitur."
+description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar getur varpað gagnalíkani rafrænnar skýrslugerðar (ER) á valdar gagnaveitur Dynamics 365 for Finance and Operations, Enterprise edition (nóvember 2016)."
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Varpa gagnalíkani á valdar gagnaveitur fyrir rafræna skýrslugerð (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur varpað rafræna skýrslugerð (ER) gagnalíkani á valdar Dynamics 365 for Finance and Operations, Enterprise edition gagnaveitur. Þessi líkanavörpun verður síðar notuð sem gagnaveita í skilgreiningu sniðs sem verður notað til að stjórna skjölum rafrænna greiðsla. Í þessu dæmi er varpað gagnalíkani fyrir dæmi um fyrirtæki, Litware, Inc. til gagnagjafa. Til að ljúka þessum skrefum, verður fyrst að ljúka skrefum í ferlinu "Velja gagnaveita fyrir líkanavörpun".
+Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar getur varpað gagnalíkani rafrænnar skýrslugerðar (ER) á valdar gagnveitur Dynamics 365 for Finance and Operations. Þessi líkanavörpun verður síðar notuð sem gagnaveita í skilgreiningu sniðs sem verður notað til að stjórna skjölum rafrænna greiðsla. Í þessu dæmi er varpað gagnalíkani fyrir dæmi um fyrirtæki, Litware, Inc. til gagnagjafa. Til að ljúka þessum skrefum, verður fyrst að ljúka skrefum í ferlinu "Velja gagnaveita fyrir líkanavörpun".
 
 
 ## <a name="open-er-configurations-tree"></a>Opna grunnstillingatré rafrænnar skýrslugerðar

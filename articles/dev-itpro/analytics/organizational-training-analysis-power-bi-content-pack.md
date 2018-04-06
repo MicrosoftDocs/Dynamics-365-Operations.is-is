@@ -1,5 +1,5 @@
 ---
-title: "Fyrirtækjaþjálfun Power BI efni"
+title: "Þjálfun fyrirtækis Power BI-efni"
 description: "Þetta efnisatriði lýsir Finance and Operations - Fyrirtækjaþjálfun Power BI efnis."
 author: jcart1106
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
 ms.contentlocale: is-is
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Fyrirtækjaþjálfun Power BI efni
+# <a name="organizational-training-power-bi-content"></a>Þjálfun fyrirtækis Power BI-efni
 
 [!include[banner](../includes/banner.md)]
 
@@ -43,7 +43,7 @@ Eftir að þú hefur tengt efnispakkann við gögn Finance and Operations sýnir
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Finance and Operations eru notuð til að mynda skýrslur í efnispakka fyrirtækjaþjálfunar. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
+Gögn Finance and Operations eru notuð til að fylla út skýrslurnar í efnispakka fyrirtækjaþjálfunar. Eftirfarandi tafla sýnir einingar sem efnispakkinn var byggður á.
 
 | Eining                    | Innihald                                                         | Vensl við aðra lögaðila                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

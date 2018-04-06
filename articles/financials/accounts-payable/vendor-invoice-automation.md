@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: is-is
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Sjálfvirkni reikninga lánardrottins
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
 
-Fyrirtæki sem vilja hagræða ferlum Viðskiptaskulda (AP) auðkenna oft reikningsvinnslur sem ein af aðalferlunum sem þurfa að vera skilvirkari. Í mörgum tilvikum láta þessi fyrirtæki ótengdan þjónustuaðila með ljósskynjun stafa (OCR) um vinnslu reikninga á pappír. Þeir fá síðan tölvulesanleganleg lýsigögn reiknings ásamt skannaðri mynd af hverjum reikningi. Til að aðstoða við sjálfvirkni er "síðasta kílómetra" lausn síðan myndað til að auðvelda notkun á þessum hlutum í reikningsfærslukerfinu. Núna gerir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kleift að gera þessa "síðasta kílómetra" sjálfvirkni úr kassa með á reikningi lausn sjálfvirkni.
+Fyrirtæki sem vilja hagræða ferlum Viðskiptaskulda (AP) auðkenna oft reikningsvinnslur sem ein af aðalferlunum sem þurfa að vera skilvirkari. Í mörgum tilvikum láta þessi fyrirtæki ótengdan þjónustuaðila með ljósskynjun stafa (OCR) um vinnslu reikninga á pappír. Þeir fá síðan tölvulesanleganleg lýsigögn reiknings ásamt skannaðri mynd af hverjum reikningi. Til að aðstoða við sjálfvirkni er "síðasta kílómetra" lausn síðan myndað til að auðvelda notkun á þessum hlutum í reikningsfærslukerfinu. Microsoft Dynamics 365 for Finance and Operations virkjar nú á „síðustu metrunum“ þessa sjálfvirkni beint úr kassanum með því að nota lausn sjálfvirkra reikninga.
 
 ## <a name="solution-context"></a>Lausnasamhengi
 

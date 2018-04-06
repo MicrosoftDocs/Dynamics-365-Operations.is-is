@@ -1,6 +1,6 @@
 ---
 title: "Fyrirtækisstjórnun – heimasíða"
-description: "Þessi efnisatriði bendir á tilföng sem munu hjálpa til við að nota Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition í fyrirtækinu."
+description: "Þetta efnisatriði vísar á tilföng sem munu hjálpa til við að nota Microsoft Dynamics 365 for Finance and Operations í fyrirtækinu."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi efnisatriði bendir á tilföng sem munu hjálpa notendum og stjórnendum  að skilgreina Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition í fyrirtækinu. Þetta efni mun hjálpa þeim að skilgreina kerfið til að vinna vel og skilvirkt fyrir fyrirtæki þitt og rekstur.
+Þetta efnisatriði vísar á efni sem mun hjálpa kraftnotendum og stjórnendum að skilgreina Microsoft Dynamics 365 for Finance and Operations. Þetta efni mun hjálpa þeim að skilgreina kerfið til að vinna vel og skilvirkt fyrir fyrirtæki þitt og rekstur.
 
 Mikið af því efni sem hér er að finna gildir um aðgerðir í einingunni **Stjórnun fyrirtækis** Hins vegar eru nokkrar verkefni, svo sem að búa til og nota skráarsniðmát, sem hægt er að framkvæma í hvaða mát sem er til að hjálpa fyrirtækinu að keyra á skilvirkan hátt. 
 

@@ -1,6 +1,6 @@
 ---
 title: "Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins"
-description: "Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar."
+description: "Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessi aðgerð verður stöðvuð í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations. Þess vegna mælum við með því að nota ekki þessa bókunaraðferð vegna áhrifa bókhalds á vinnslu jöfnunar."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ba160d42a808c0243a0bb589190a65ea23eba3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
+Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessi aðgerð verður stöðvuð í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations. Þess vegna mælum við með því að nota ekki þessa bókunaraðferð vegna áhrifa bókhalds á vinnslu jöfnunar. 
 
 Sum algeng dæmi þar sem eitt fylgiskjal er notað fyrir marga viðskiptavini eða lánardrottna innihalda stöðufærslur á milli viðskiptavina, og stöður greiðslujöfnunar milli viðskiptavina og lánardrottna í sömu stofnun/fyrirtæki. 
 

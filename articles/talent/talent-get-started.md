@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Hafist handa í Microsoft Dynamics 365 for Talent
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/08/2018
 Í Microsoft Dynamics 365 for Talent er auðvelt að breyta notendaviðmótinu og stilla valkosti sem gera hugbúnaðinn næmari fyrir þörfum þínum. Þetta efnisatriði inniheldur tengla á efnisatriði sem veita upplýsingar um hvernig á að laga notendaviðmótið að óskir þínar. Þetta efnisatriði inniheldur einnig tengla á upplýsingar sem aðstoða þig við að finna upplýsingar í kerfinu á skilvirkan og nákvæman hátt. 
 
 > [!NOTE] 
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 ### <a name="personalizing-talent"></a>Sérsníða Talent 
 Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Dynamics 365 for Talent sem auðvelda þér að klára vinnuna tímanlega. 

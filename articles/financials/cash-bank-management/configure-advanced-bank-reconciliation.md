@@ -1,6 +1,6 @@
 ---
 title: "Uppsetningarferli ítarlegrar bankaafstemmingar"
-description: "Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu."
+description: "Ítarleg bankaafstemming gerir mögulegt að flytja inn rafræn bankayfirlit og sjálfkrafa stemma af við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
+Ítarleg bankaafstemming gerir mögulegt að flytja inn rafræn bankayfirlit og sjálfkrafa stemma af við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
 
 Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu banki innflutning uppgjör í [Uppsetning banka innflutningsferlið uppgjör](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
 

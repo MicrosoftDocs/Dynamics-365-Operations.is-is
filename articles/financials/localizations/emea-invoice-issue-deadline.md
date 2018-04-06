@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Nota skal **Setja upp útreikning á útgáfu reiknings gjalddaga** til að setj
 Hægt er að setja upp færibreytur dagsetningarstýringar til að tryggja að reikningar viðskiptavina og kreditnótur fyrir færslur viðskiptavinar séu mynduð innan tilgreinds tímabils eftir að afhending fer fram. Hægt er að finna þessar færibreytur á svæðinu **Stýring reikningsdagsetninga** á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="example"></a>Dæmi
-Til að setja upp Microsoft Dynamics 365 for Finance and Operations, Enterprise edition til að reikna út gjalddaga reikningsútgáfu fyrir sendingar innan ESB 15. dag næsta mánaðar eftir að framboðið er afhent, skal stofna dagsetningarbilskóða og útreikning reglu með eftirfarandi stillingum.
+Til að setja upp Microsoft Dynamics 365 for Finance and Operations til að reikna út gjalddaga reikningsútgáfu fyrir sendingar innan ESB 15. dag næsta mánaðar eftir að framboðið er afhent, skal stofna dagsetningarbilskóða og útreikningsreglu sem hefur eftirfarandi stillingar.
 
 ### <a name="date-interval-code"></a>Kóði dagsetningabils
 

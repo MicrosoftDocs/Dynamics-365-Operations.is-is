@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/01/2017
 Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
 
 ## <a name="overview"></a>Yfirlit 
-Fartækjavinnusvæðið **Lánardrottnasamvinna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir þannig að þeir geti séð og síðan svarað innkaupapöntunum í vefbiðlara Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fyrir lánardrottna. 
+Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > Vinnusvæði fartækis ætti að nota sem viðauka við vefviðmót samstarfs lánardrottna, en ekki í staðinn fyrir það. 
@@ -60,8 +60,8 @@ Fartækjavinnusvæðið **Samvinna lánardrottna** gerir lánardrottni kleift a�
 ## <a name="prerequisites"></a>Frumskilyrði
 Forkröfur fyrir eru mismunandi, eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations 
+Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu, verður kerfisstjórinn að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðari útgáfu
 Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3, eða síðari útgáfu, í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 

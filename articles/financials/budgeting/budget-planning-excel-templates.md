@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ Excel-sniðmátið mun innihalda allar einingar úr útliti fjárhagsáætlunars
 [![Dæmi](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition og Microsoft Dynamics Office Add-in Data Connector.
+> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations og gagnatengi Microsoft Dynamics Office-innbótar.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Bæta haus við sniðmát fjárhagsáætlunarskjals.
 Til að bæta við upplýsingum úr haus velurðu efstu línuna í Excel-skránni og setur inn auðar línur. Smellið á **Hönnun** í **Gagnatengli** til að bæta við haussvæðum í Excel-skrá.

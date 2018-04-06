@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: d366ae53f4a9d8e676c3bc19e0450baa254cb716
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/07/2018
 ## <a name="overview"></a>Yfirlit 
 Innkaupapantanir sem þarfnast samþykkis fara í gegnum samþykktarverkflæði. Verkflæðið getur innihaldið ýmis þrep sem krefjast þess að einn eða fleiri einstaklingar grípi til aðgerða. Til dæmis gæti einstaklingur þurft að ljúka við verk eða samþykkja innkaupapöntunina. 
 
-Vinnusvæðið **Samþykkt innkaupapöntunar** gerir kleift að skoða á auðveldan hátt og bregðast við innkaupapöntunum úr fartækinu. Þetta vinnusvæði gerir þér það einnig kleift að grípa til sömu verkflæðisaðgerða og hægt er að gera úr vefbiðlara Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Vinnusvæðið **Samþykkt innkaupapöntunar** gerir kleift að skoða á auðveldan hátt og bregðast við innkaupapöntunum úr fartækinu. Þetta vinnusvæði leyfir þér einnig að grípa til sömu verkflæðisaðgerða sem þú getur gripið til í vefbiðlara Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 Forkröfur eru mismunandi eftir þeirri útgáfu Finance and Operations sem hefur verið innleidd í fyrirtækinu.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Samþykkt innkaupapöntunar**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations 
+Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækið, verður kerfisstjórinn að birta fartækjavinnusvæðið **Samþykkt innkaupapöntunar**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðari útgáfu
 Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3, eða síðari útgáfu, í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 
