@@ -1,6 +1,6 @@
 ---
 title: "Skilgreina Viðskiptaskuldir"
-description: "Þessi grein lýsir síðum sem notaðar eru til að setja upp einfalda og valfrjálsa virkni fyrir viðskiptaskuldir í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir."
+description: "Þessi grein lýsir þeim síðum sem þú notar til að setja upp grundvallaraðgerðir og valfrjálsar aðgerðir fyrir viðskiptaskuldir í Microsoft Dynamics 365 for Finance and Operations. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d01a85dad2582a6ab796b03616ef283e40e040b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Þessi grein lýsir síðum sem notaðar eru til að setja upp einfalda og valfrjálsa virkni fyrir viðskiptaskuldir í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
+Þessi grein lýsir þeim síðum sem þú notar til að setja upp grundvallaraðgerðir og valfrjálsar aðgerðir fyrir viðskiptaskuldir í Microsoft Dynamics 365 for Finance and Operations. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Skilyrði fyrir uppsetningu viðskiptaskulda
 ----------------------------------------

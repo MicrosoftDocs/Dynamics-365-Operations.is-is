@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ba38ddc5c717df29462e4316dc5045d0eef8c1a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 - Microsoft Power BI:
 
     - Gögn sem birtast í myndrænni framsetningu Power BI
-    - Myndræn framsetning gagna í Power BI sem eru innfelldar í biðlaranum Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+    - Myndræn framsetning á gögnum Power BI sem eru felld inn í biðlara Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

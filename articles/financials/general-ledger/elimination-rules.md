@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Við lögaðila, lögaðila A, selur búnað til annars lögaðila í þínu fyr
 Allar þessar færslur stofna færslur innan samstæðu sem verða bókaðar á vostro- og nostro-lykla. Þar að auki gætu þessar færslur innihaldið upphæðir álagningar eða afsláttar þegar upphæð sölu innan fyrirtækis er ekki jöfn kostnaði varanna sem verið er að selja.
 
 ## <a name="set-up-elimination-rules"></a>Setja upp losunarreglur
-Þegar losunarreglur eru settar upp í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, er mælt með því að búin sé til fjárhagsvídd sérstaklega fyrir losun. Flestir viðskiptavinir kalla hana Viðskiptamaður eða eitthvað svipað. Ef þú ákveður að nota ekki fjárhagsvídd skaltu gæta þess að hafa aðallykla sem eru sértækir fyrir viðskipti innan samstæðu. 
+Þegar þú setur upp losunarreglur í Microsoft Dynamics 365 for Finance and Operations mælum við með að þú stofnir fjárhagsvídd sérstaklega fyrir losun. Flestir viðskiptavinir kalla hana Viðskiptamaður eða eitthvað svipað. Ef þú ákveður að nota ekki fjárhagsvídd skaltu gæta þess að hafa aðallykla sem eru sértækir fyrir viðskipti innan samstæðu. 
 
 Uppsetningu fyrir losun er að finna á svæðinu Setja upp í einingunni Samstæður. Eftir að þú slærð inn lýsingu fyrir regluna þarftu að velja fyrirtækið sem losunarbókin bókar í. Þetta ætti að vera fyrirtæki sem hefur **Nota fyrir losunarferli fjárhags** valið í uppsetningu lögaðila. 
 

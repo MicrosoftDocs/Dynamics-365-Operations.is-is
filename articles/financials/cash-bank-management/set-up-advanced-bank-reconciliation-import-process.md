@@ -1,6 +1,6 @@
 ---
 title: "Setja upp ítarlegan innflutning bankaafstemmingarferlis"
-description: "Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið."
+description: "Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Ítarleg bankaafstemming gerir það mögulegt að flytja inn rafræn bankayfirlit og stemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations, Enterprise-útgáfu. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
+Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
 
 Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Finance and Operations styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.
 
@@ -49,7 +49,7 @@ Fyrir öll þrjú snið verður að hafa skrár sem þýða rafræna bankayfirli
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Dæmi um bankayfirlitssnið og tæknilegar útlit
-Hér að neðan eru dæmi um innflutning ítarlega afstemmingu skilgreiningar tæknilegar útlit og þriggja tengdum skrám bankayfirlits dæmi: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutningsskrá ítarlegrar bankaafstemmingar og þrjú skráardæmi um tengd bankayfirlit: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Skilgreining tæknilegs útlits                             | Dæmi bankayfirlitsskránni          |
 |---------------------------------------------------------|--------------------------------------|

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: is-is
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Skilgreina hæði skilgreininga úr öðrum hlutum fyrir rafræna skýrslugerð (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS).
 
-Þetta ferli sýnir hvernig skal hanna grunnstillingar fyrir Rafræna skýrslugerð og tilgreina fylgni við aðra hugbúnaðarhluta, svo þú getir hjálpað til við að tryggja að grunnstillingu sé rétt hlaðið niður á sérstaka útgáfu af Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
+Þetta ferli sýnir hvernig skal hanna grunnstillingar fyrir Rafræna skýrslugerð og tilgreina fylgni við aðra hugbúnaðarhluta svo þú getir hjálpað til við að tryggja að grunnstillingu sé rétt hlaðið niður á sérstaka útgáfu af Microsoft Dynamics 365 for Finance and Operations. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Þessi skref er hægt að framkvæma í hvaða fyrirtæki er, þar sem grunnstillingar rafrænnar skýrslugerðar eru samnýttar á milli fyrirtækja. 
 

@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: is-is
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
 
 > [!NOTE] 
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 Eftirfarandi vörur samnýta Hjálparkerfið:
-- Dynamics 365 for Finance and Operations, Enterprise
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,9 +108,9 @@ Sláðu inn netfang hér til hægri og nýtt aðgangsorð til að búa til nýja
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Leggja til breytingar eða leggja fram efni í gegnum GitHub
 Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda.  Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar. Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.  
 
-Til að byrja, smelltu á **Breyta** (blýantur) hnappinn á efnisatriði, eða farðu í geymsluna okkar á https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+Til að byrja skal smella á (blýants)hnappinn **Breyta** á efnisatriði eða fara í geymsluna okkar á https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-Nánari upplýsingar er að finna í leiðeiningar fyrir þátttakanda: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakendur: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]

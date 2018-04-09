@@ -1,6 +1,6 @@
 ---
 title: "Flýtilyklar"
-description: "Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and Operations, Enterprise Edition"
+description: "Eftirfarandi flýtilyklar eiga við alls staðar í Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Eftirfarandi flýtilyklar gilda í alls staðar í Dynamics 365 for Finance and Operations, Enterprise Edition 
+Eftirfarandi flýtilyklar eiga við alls staðar í Dynamics 365 for Finance and Operations. 
 
 **Ábending:** Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarískst lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
 
@@ -74,7 +74,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Alt+M,B eða Ctrl+F2                        |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |
-| Flytja í &lt;n&gt;. upplýsingakassann (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Flytja í &lt;n&gt; upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Útvíkka upplýsingareit (með áherslu á haus upplýsingareitar)                             | Bil eða Enter                            |
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | **Til að gera þetta**                                      | **Styðjið á**                                    |
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Flytja í &lt;n&gt;. flipann                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Flytja í &lt;n&gt; flipa                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Flytja í næsta/fyrri flýtiflipa                   | Alt+Shift+Niðurör / Alt+Shift+Uppör    |
-| Flytja í &lt;n&gt;. flýtiflipann                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Flytja í &lt;n&gt; flýtiflipa                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Fara í næsta/fyrra blað (lóðréttur flipi)      | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Fara á &lt;n&gt; blað (lóðréttur flipi)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Fara í &lt;n&gt; blað (lóðréttur flipi)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Útvíkka flýtiflipa (með áherslu á haus flýtiflipa) | Bil eða Enter                               |
 | Draga saman gildandi flýtilipa                        | Alt+0                                        |
 | Skipta í hnitalínuyfirlit                                 | Ctrl+Shift+G                                 |

@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Hér eru nokkur dæmi um meðlimi víddar dæmigerðan vinnslu.
 
 ## <a name="statistical-measure-provider-template"></a>Veitusniðmát tölfræðiaðgerðar
 
-Talnagögn mælingar geta átt sér margar gerðir aðila. Microsoft Dynamics 365 til Fjármála og Aðgerðir Enterprise edition er great uppruna fyrir útdrátt úr talnagögnum mælinga úr. Hægt er að nota sniðmát tölfræðilega mæling þjónustuveita skilgreiningu auðveldlega tölfræðilega mælieiningar sem óskað er eftir að draga.
+Talnagögn mælingar geta átt sér margar gerðir aðila. Microsoft Dynamics 365 for Finance and Operations er frábær uppspretta til að draga út skjámynd tölfræðiaðgerða. Hægt er að nota sniðmát tölfræðilega mæling þjónustuveita skilgreiningu auðveldlega tölfræðilega mælieiningar sem óskað er eftir að draga.
 
 Skilgreiningar á tölfræðilega mæling þjónustuveita sniðmát er almenna og hægt að margnota lykilorð með mörgum meðlimi víddar vinnslu.
 
@@ -132,13 +132,13 @@ Einnig er hægt að bæta einum eða fleiri afmarkanir til þess að þrengja m�
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Þessu dæmi þarf að velja á **Dynamics 365 til Fjármála og Aðgerðir Enterprise edition – Statistical mælir** gögn connector þar til að draga gögn út úr Fjármál og Aðgerða.
+Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
 
 **Uppruni gagna**
 
 | Nafn        | Gagnatengi                                                                     | Tölfræðilegt víddarstak |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| Starfsmanna í fullu Starfi D365FO | Dynamics 365 for Finance and Operations, Enterprise – Tölfræðimælingar | Starfsmanna í fullu Starfi                         |
+| Starfsmanna í fullu Starfi D365FO | Dynamics 365 for Finance and Operations – Tölfræðiaðgerðir | Starfsmanna í fullu Starfi                         |
 
 **Skilgreining gagnaveitanda**
 
@@ -220,13 +220,13 @@ Einnig er hægt að bæta sviðum þrengja mælingar uppruna töflu.
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Þessu dæmi þarf að velja á **Dynamics 365 til Fjármála og Aðgerðir Enterprise edition – Statistical mælir** gögn connector þar til að draga gögn út úr Fjármál og Aðgerða.
+Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
 
 **Uppruni gagna**
 
 | Nafn           | Gagnatengi                                                                     | Tölfræðilegt víddarstak |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakka CC D365FO | Dynamics 365 for Finance and Operations, Enterprise – Tölfræðimælingar | Þjónustupakka CC                      |
+| Pakka CC D365FO | Dynamics 365 for Finance and Operations – Tölfræðiaðgerðir | Þjónustupakka CC                      |
 
 Kerfið viðurkennir ProdRouteTrans er í töfluna þar sem hver færslan tilheyrir sérstakur lögaðili. Þess vegna er spurt verður að velja lögaðili sem á að flytja inn færslur úr.
 

@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Auk þess að stofna sniðmát, verður að tilgreina einhverjar áfyllingarstil
 ## <a name="minmax-replenishment"></a>Lágm./hám. áfylling
 í Lágm. / Hám áfylling, eru fyllt á Birgðir  þannig að þær er á milli lágmarks og hámarks mörk sem hafa verið settar. Venjulega á þetta ferli á sér stað einu sinni hvern dag til að tryggja að allar tiltektarstaðsetningar séu áfylltar upp að hæsta stig áður en tiltekt hefst. 
 
-Lágmarks- og hámarksupphæðir eru settar í áfyllingarsniðmáti. Margar aðrar stillingar í sniðmátinu líkjast stillingar í sniðmátum sem notaðar eru í áfyllingu bylgjueftirspurnar. sniðmát ætti að vera með eina línu fyrir hverja vöru og staðsetningu. Þegar keyrð er áfylling með því að nota runuvinnslu, metur Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition hvort áfyllingar er krafist með því að nota röðina sem línurnar eru skipulagðar. 
+Lágmarks- og hámarksupphæðir eru settar í áfyllingarsniðmáti. Margar aðrar stillingar í sniðmátinu líkjast stillingar í sniðmátum sem notaðar eru í áfyllingu bylgjueftirspurnar. sniðmát ætti að vera með eina línu fyrir hverja vöru og staðsetningu. Þegar keyrð er áfylling með því að nota runuvinnslu, metur Microsoft Dynamics 365 for Finance and Operations hvort áfyllingar er krafist með því að nota röðina þar sem línurnar eru skipulagðar. 
 
 Athugið að Lágm. / Hám áfyllingaráætlun getur ekki fylla á tómar staðsetningar nema staðsetning er stillt sem föst staðsetning fyrir vöruna. Ef staðsetning sem þarf að fylla á er ekki föst staðsetning getur kerfið ekki ákvarðað hvaða vöru skal fylla á. Þess vegna er krafist einhvers magns á lager áður en áfylling fer fram.
 

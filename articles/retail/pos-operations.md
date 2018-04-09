@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 - **Hnappahnit** – Aðgerðinni er hægt að úthluta til hnappa í POS hnappahnitum, sem eru hluti af POS skjár útliti.
 - **Færsluskjár** – Hægt er að kalla fram aðgerðina frá POS hnappahnitum sem eru skilgreind á POS færsluskjánum.
 - **Velkomin skjár** – Hægt er að kalla fram aðgerðina frá POS hnappahnitum sem eru skilgreind á POS velkomin skjánum.
+
+Athugið: Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Dynamics 365 for Retail. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
 
 | KENNI | Aðgerð | lýsing | Hnappahnit | Færsluskjár | Upphafsskjár | Tiltæk utan nets | Tekur sérstaklega mið af staðsetningu |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 703 | Læsa afgreiðslukassa | Læstu núverandi skrá, svo ekki sé hægt að nota hana, en ekki skrá núverandi notanda út. | Númer | Númer | Númer | Já | Númer |
 | 701 | Skrá út | Skrá núverandi notanda út úr afgreiðslukassanum. | Já | Já | Já | Já | Númer |
 | 521 | Punktastaða vildarkorts | Sýna punktastöðu fyrir tilgreint vildarkort. | Já | Já | Númer | Númer | Númer |
+| 918 | Stjórna vöktum | Sýna lista yfir vaktir sem eru virkar, frestaðar og lokaðar blint. | Já | Já | Já | Númer | Númer |
 | 914 | Minnka glugga sölustaðar | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
 | 1000 | Opin skúffa | Framkvæma aðgerðina „engin sala“ og opna peningaskúffu sem er valin núna. | Já | Já | Já | Já | Númer |
 | 928 | Uppfylling pöntunar | Þessi aðgerð gerir notendum kleift að taka til, pakka, senda eða afturkalla pantanir fyrir afhendingu í verslun. | Já | Já | Já | Númer | Númer |
@@ -162,7 +165,6 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 638 | Stilla sölufulltrúa í línu | Þessi aðgerð gerir notandanum kleift að velja einn af viðurkenndum söluflokkum þóknunar (sölumenn) fyrir línuna sem er valin nú. | Já | Já | Númer | Já | Númer |
 | 630 | Senda allar afurðir | Stilla uppfyllingarhaminn í **Senda** fyrir alla línuatriði. | Já | Já | Númer | Já\* | Númer |
 | 629 | Senda valdar afurðir | Stilltu uppfyllingarhaminn í **Sending** fyrir valdar línur. | Já | Já | Númer | Já\* | Númer |
-| 918 | Sýna vaktir sem voru lokaðar blindandi | Skoða lista yfir vaktir sem hefur verið lokað blint. | Já | Já | Já | Númer | Númer |
 | 115 | Sýna færslubók | Sýna færslubók verslunar. Þú getur skoðað viðskipti, endurprentað kvittanir og gjafakvittanir og afturköllun fyrir skil. | Já | Já | Já | Já\*\* | Númer |
 | 802 | Birgðatalning | Þessi aðgerð gerir notandanum kleift að búa til eða breyta brigðatalningabókum fyrir efnislegar birgðir eða endurteknar talningar. | Já | Já | Já | Númer | Númer |
 | 401 | Undirvalmynd | Þessi aðgerð tekur notandann í annað tengt hnappahnit. | Já | Já | Já | Já | Númer |

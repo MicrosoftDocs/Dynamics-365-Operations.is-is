@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Eftirfarandi tafla lýsir einingar sem og röð fyrir uppsetningu skatti.
 Á hverri færslu er hægt að fletta upp reiknuðum virðisaukaskatti eftir opnun á **Vsk-færslan** síðu. Hægt er að fletta upp virðisaukaskatti fyrir línu skjals eða allt skjalið. Fyrir ákveðin skjöl (t.d.°reikning lánardrottins og almennar°færslubækur), er hægt að leiðrétta reiknaðan virðisaukaskatt ef upphaflega skjalið sýnir afbrigðilegar upphæðir.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Virðisaukauppgjör og skýrslugjöf
-Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 for Finance and Operations, Enterprise edition hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
+Virðisaukaskatt verður að tilkynna og greiða til skattayfirvalda með ákvörðuðu millibili (mánaðarlega, ársfjórðungslega, og svo framvegis). Microsoft Dynamics 365 for Finance and Operations hefur virkni sem gerir kleift að jafna skattlykla fyrir tímabilið og mótfæra stöður við jöfnun skattlykils, eins og tilgreint er í flokkum fjárhagsbókunar. Þessi aðgerð er hægt að fara á **Jafna og bóka vsk** síðunni. Tilgreina verður vsk-uppgjörstímabil sem á að jafna vsk fyrir. 
 
 Eftir°að búið er að greiða vsk ætti að jafna stöðu á reikningi virðisaukaskattsuppgjörs gagnvart bankareikningnum. Ef vsk-yfirvöld sem tilgreind eru í vsk-uppgjörstímabili eru tengd lánardrottnalykli er vsk-staða bókuð sem opinn lánardrottnareikningur og hægt að taka með í reglulegu greiðslutillögunni.
 

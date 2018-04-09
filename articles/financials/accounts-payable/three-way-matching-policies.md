@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,7 +65,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Hann færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
-    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
+    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 for Finance and Operations. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
         -   Samsvörun nettóeiningaverðs – Nettóeiningaverð í reikningslínunni samsvarar nettóeiningarverði í innkaupapöntunarlínunni, innan prósentu vikmarka. Í þessu dæmi eru vikmörk nettóeiningaverðs +8%.
         -   Jöfnun samtalna verðs – Nettóupphæð í reikningslínunni er jöfnuð við nettóupphæð innkaupapöntunarlínu, innan vikmarka prósentu, upphæðar eða prósentu og upphæðar. Í þessu dæmi eru vikmörk jöfnunar samtalna verðs +15%.
 

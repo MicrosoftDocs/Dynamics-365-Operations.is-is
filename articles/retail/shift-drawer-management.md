@@ -3,7 +3,7 @@ title: "Stjórnun vaktar og peningaskúffu"
 description: "Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta pen
 9.  Nota skal **telja skiptimynd** aðgerð til að telja fram heildarupphæð reiðufjár úr öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar.
 10. Nota skal **Loka vakt** aðgerð til að loka samnýttrar vaktar.
 
+## <a name="shift-operations"></a>Vaktaaðgerðir
+Hægt er að grípa til ýmissa aðgerða til að breyta stöðu vaktar eða til að auka eða minnka magn af peningum í skúffunni. Í kaflanum hér að neðan er þessum vaktaaðgerðum lýst fyrir Dynamics 365 for Retail Modern POS og sölukerfi í skýinu.
 
+**Opna vakt**
 
+Sölustaður krefst þess að notandi hafi virka, opna vakt til að framkvæma allar aðgerðir sem myndu leiða til fjárhagsfærslu eins og sölu-, skila- eða viðskiptavinapöntun.  
 
+Þegar þú skráir þig inn á sölustað athugar kerfið fyrst hvort notandi sé með virka vakt í boði á núverandi afgreiðslukassa. Ef ekki, þá getur notandi valið að opna nýja vakt, halda áfram með vakt sem er til staðar eða fara í innskráningu í „utan skúffu“ sniði, fer allt eftir grunnstillingu kerfis og heimildum þess.
+
+**Skilgreina upphafsupphæð**
+
+Þessi aðgerð er oft fyrsta aðgerðin sem er gerð í nýlega opnaðri vakt. Notendur tilgreina upphafsupphæð reiðufjárs í skúffunni fyrir vaktina. Þetta er mikilvægt vegna þess að yfir/undir útreikningur sem á sér stað þegar vakt er lokið á við um þessa upphæð.
+
+**Skiptimyntarfærsla**
+
+Skiptimyntarfærslur eru ekki-sölufærslur sem eru gerðar á virkri vakt og þær auka upphæð reiðufés í skúffunni. Algengt dæmi um skiptimyntarfærslu væri að bæta við viðbótarskiptimynt í skúffuna þegar lítið er eftir af henni.
+
+**Skiptimynt fjarlægð**
+
+Fjarlæging skiptimyntar er ekki-sölufærslur sem eru gerðar á virkri vakt til að draga úr upphæð reiðufés í skúffunni. Þetta er oftast notað í tengslum við skiptimyntarfærslu á annarri vakt. Til dæmis, afgreiðslukassi 1 er með lítið af skiptimynt eftir, þannig að notandi á afgreiðslukassa 2 framkvæmir fjarlægingu skiptimyntar til að draga úr skúffuupphæðinni. Notandi á afgreiðslukassa 1 myndi þá framkvæma skiptimyntarfærslu til að auka upphæðina.
+
+**Ljúka vakt**
+
+Notendur geta frestað virkri vakt til að losa núverandi afgreiðslukassa fyrir annan notanda, eða fært vaktina yfir á annan afgreiðslukassa (þetta er oft nefnt „skúffuskipti"). 
+
+Að fresta vaktinni kemur í veg fyrir nýjar færslur eða breytingar á vaktinni þar til haldið er áfram með hana.
+
+**Halda vakt áfram**
+
+Þessi aðgerð gerir notandanum kleift að halda áfram á fyrri vakt sem var frestað á afgreiðslukassa sem er ekki þegar með virka vakt.
+
+**Talning skiptimyntar**
+
+Talning skiptimyntar er aðgerð sem notandi gerir til að tilgreina heildarupphæð peninga sem eru nú í skúffunni, oftast áður en vakt er lokið. Þetta er gildið sem er borið saman við væntanlega vakt til að reikna út yfir/undir upphæð.
+
+**Peningaflutningur í öryggisskáp**
+
+Hægt er að framkvæma peningaflutning í öryggisskáp hvenær sem er á virkri vakt. Þessi aðgerð fjarlægir peninga úr skúffunni þannig að hægt sé að flytja hann á öruggari stað eins og peningaskáp í bakherbergi. Heildarupphæðin sem er skráð fyrir peningaflutning í öryggisskáp er ennþá hluti af samtölu vaktar, en þarf ekki að teljast sem hluti af talning skiptimyntar.
+
+**Peningaflutningur í banka**
+
+Eins og peningaflutningur í öryggisskáp, er peningaflutningur í banka einnig framkvæmdur á virkri vakt. Þessi aðgerð fjarlægir peninga af vaktinni til að undirbúa fyrir innlögn í banka.
+
+**Loka vakt blindandi**
+
+Að loka vakt blindandi er vakt sem er ekki lengur virk en hefur ekki verið lokað að fullu. Ekki er hægt að fara aftur í „Loka vöktum blindandi“ eins og fyrir frestaða vakt, en hægt er að framkvæma ferli eins og að tilgreina upphafsupphæð og talning skiptimyntar síðar meir eða frá öðrum afgreiðslukassa.
+
+Að loka vöktum blindandi er oft notað til að losa afgreiðslukassa fyrir nýjan notanda eða vakt, án þess að þurfa að telja að fullu, afstemma og loka þessari vakt fyrst. 
+
+**Loka vakt**
+
+Þessi aðgerð reiknar samtölu vaktar, yfir/undir uppphæðir og lýkur síðan við vakt sem er virk eða lokuð blint. Ekki er hægt að halda áfram eða breyta lokuðum vöktum.  
+
+**Stjórna vöktum**
+
+Þessi aðgerð gerir notendum kleift að skoða allar vaktir sem eru virkar, frestaðar og sem hefur verið lokað blint fyrir verslunina. Það fer eftir heimildum notenda hvort þeir geta framkvæmt lokaferli lokunar, eins og talningu skiptimyntar og lokað vöktum fyrir vöktum sem er lokað blint. Þessi aðgerð mun einnig leyfa notendum að skoða og eyða ógildum vöktum í sjaldgæfum tilfellum þar sem skilið er við vakt í slæmu ástandi eftir að hafa skipt á milli stillinga með og án nettengingar. Þessar ógildu vaktir innihalda ekki fjárhagsupplýsingar eða færslugögn sem þarf fyrir afstemmingu. 
 

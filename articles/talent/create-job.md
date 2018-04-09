@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -42,7 +42,7 @@ Sumar starfsupplýsingar, eins og starfsheiti, gerð og aðgerð, eru dagsetning
 ## <a name="job-titles"></a>Starfsheiti
 Áður en hægt er að stofna vinnslur verður að setja upp titla fyrir þær vinnslur. Stöður erfa starfsheiti úr vinnslum sem þær eru tengdar við. 
 
-Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð. Á **síðunni **Titlar skal færa inn þá titla sem þú ætlar að nota fyrir störfin.
+Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð. Á síðunni **Titlar** skal færa inn þá titla sem þú ætlar að nota fyrir störfin.
 
 ## <a name="job-types"></a>Vinnslugerðir
 Þú notar vinnslugerð til að flokka svipuð störf í flokka. Starfstegundir eru ekki áskildar. Hins vegar ef ætlunin er að nota vinnslugerðir þegar setja á upp hæfnireglur fyrir greiðsluáætlunarstjórnun ætti að setja upp vinnslugerðir áður en hægt er að setja upp störf. Sum dæmi um starfstegundir eru Fullt starf og Hlutastarf, eða Laun og Tímakaup. Starfstegundum er viðhaldið með því að nota síðuna **Vinnslugerð**. Á síðunni **Starfsgerðir** skal færa inn heiti og lýsingu á starfsgerðinni. Í reitnum **Staða undanþágu** velurðu einn af eftirfarandi valkostum til að tilgreina þá stöðu undanþágu Fair Labor Standards Act (FLSA) starfa sem hafa þessa starfsgerð:
@@ -91,6 +91,6 @@ Verkefnum starfs er viðhaldið með því að nota síðuna **Verkefni starfs**
 ## <a name="areas-of-responsibility"></a>Ábyrgðarsvið
 Þú notar Ábyrgðarsvið til að gefa til kynna starfshlutverk, ferli, afurðir og aðgerðir sem starfsmaður sem er í stöðu er ábyrgur fyrir í vinnslu. Til dæmis fyrir starf sem heitir "Bókari" gæti eitt svæði ábyrgðar verið "Fjárhagsleg skýrslugerð fyrir Afurð A". Ábyrgðarsviði er viðhaldið með því að nota síðuna **Ábyrgðarsvið** sem þú getur opnað með því að nota leitaraðgerð. Á síðunni **Ábyrgðarsvið** skal færa inn heiti og lýsingu á ábyrgðinni. Í svæðinu **athugasemd** er valfrjálst hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdirnar fyrir tilgreint starf án þess að breyta athugasemdunum sem voru færðar inn hérna.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Skref til að stofna starf
+Sjá efnisatriðið [Skilgreina ný störf](../fin-and-ops/hr/tasks/define-new-jobs.md) fyrir skref fyrir skref aðferð til að stofna til nýtt starf. 
 

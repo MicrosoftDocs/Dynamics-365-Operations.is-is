@@ -3,7 +3,7 @@ title: "Hvað er nýtt eða breytt"
 description: "Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: is-is
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Update 13 fyrir verkvang</td>
-<td>7.0.4764</td>
-<td>Janúar 2018 (Þetta er útgáfa sem er aðeins í boði fyrir notendur sem hafa valið að taka þátt í CAAP (Continuous Auto-update Advantage Program).)</td>
-<td><a href="whats-new-platform-update-13.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærslu 13 (janúar 2018)</a></td><tbody>
+<td>Update 15 fyrir verkvang</td>
+<td>7.0.4839</td>
+<td>Mars 2018 (Þetta er útgáfa sem er aðeins í boði fyrir notendur sem hafa valið að taka þátt í CAAP (Continuous Auto-update Advantage Program).)</td>
+<td><a href="whats-new-platform-update-15.md">Hvað er nýtt eða breytt í Dynamics 365 for Finance and Operations, Enterprise edition, verkvangsuppfærslu 15 (mars 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 fyrir verkvang</td>

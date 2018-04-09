@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Lokunarsniðmát fjárhags er notað til að skilgreina öll verk sem eru hluti 
 
 Hægt er að úthluta verki í sniðmátinu einu eða fleiri fyrirtækjum þar sem verkið á við. Ef öðrum einstaklingi er úthlutað til að ljúka því vinnuframlagi í hverju fyrirtæki gæti verið gagnlegt til að stofna mörg verkefni fyrir sama framlag vinnu. Stofna eitt verk fyrir hvert fyrirtæki. 
 
-Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja verkefni lokun til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir á tengdri síðu **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Einnig er hægt að tengja við ytri vefslóð. 
+Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja lokunarverk til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir við tengdu síðuna **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations. Einnig er hægt að tengja við ytri vefslóð. 
 
 > [!TIP]
 > Ef óskað er að tengja ákveðna Management Reporter skýrslu við lokunarverk fjárhagstímabils er hægt að nota vefslóð skýrslu. Til að fá aðgang að vefslóð skýrslu skal opna skýrsluna í skýrsluhönnun og smella síðan á **Skrá** &gt; **Skoða skýrslu** til að opna skýrsluna í vafra. Síðan er hægt að afrita vefslóð í aðseturslínunni í vafra og líma þau inn í **Verkefni tengil** **Vefslóð** svæði. 

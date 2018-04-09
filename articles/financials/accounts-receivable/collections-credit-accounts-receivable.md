@@ -1,6 +1,6 @@
 ---
 title: "Skuldir og innheimtur í viðskiptakröfum"
-description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn í Microsoft Dynamics 365 for Finance and Operations, Enterprise. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna söfnum. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
+description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 for Finance and Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna innheimtu. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

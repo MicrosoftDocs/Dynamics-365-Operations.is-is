@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Sjálfgefnar pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
+Sjálfgefnar pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða teknar frá eða geymdar í lágmarks, hámarks, margvíslegu og staðalmagni sem verður notað fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg og aðferð lofaðrar pöntunar. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
 Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar** síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Losaðar afurðir** &gt; **Velja losaða afurð** &gt; á **Áætlun** eða **Stjórna birgðum** Aðgerðarrúða &gt; **Pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
 

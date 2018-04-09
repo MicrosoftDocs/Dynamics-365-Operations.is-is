@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e069bf65e7dcab7f3b049aa786f3daff07383f4c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
     -   Hægt er að auka virknina í hvaða snið sem er.
 
 2.  Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.
-    -   Samsvörunarregla afstemmingar er safn skilyrða sem notað er til að sía bankayfirlitslínur og bankaskjalslínur á meðan á afstemmingarferli stendur í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
+    -   Samsvörunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankafærslulínur Microsoft Dynamics 365 for Finance and Operations á meðan á afstemmingarferlinu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
 
 3.  Stemma af bankayfirlit með bankafærslum Finance and Operations.
     -   Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.

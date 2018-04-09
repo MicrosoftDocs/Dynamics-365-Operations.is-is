@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ Hægt er að stofna BUT frá áætlaðar pantanir, úr innkaupabeiðni eða úr 
 
 Eftir að búið er að útbúa BUT tilfelli og bæta við lánardrottnum, smellið á **Senda** á BUT tilfellið. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina stillingar prentstýringar fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
-Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir lánardrottinn samstarf, geta lánardrottnar fært inn kauptilboð beint í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptamenn](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Microsoft Dynamics 365 for Finance and Operations. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptamenn](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.
 

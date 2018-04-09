@@ -1,6 +1,6 @@
 ---
 title: "Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations"
-description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliðir) og Tengilið (Viðskiptavinir) einingar úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliði) og Tengilið (Viðskiptavini) einingar úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 6269b73dfca46d455784046199463d3f86e653ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 021a43c78cec83b23aff5dcc40db1a4be81aefc3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Áður en þú getur notað lausnina Prospect to cash þarftu að kynna þér [Dynamics 365 Data samþættingu](/common-data-service/entity-reference/dynamics-365-integration).
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliðir) og Tengilið (Viðskiptavinir) einingar beint úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla Tengilið (Tengiliði) og Tengilið (Viðskiptavini) einingar beint úr Microsoft Dynamics 365 for Sales í Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 

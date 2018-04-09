@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Svona lítur athugasemdarskýring út í talblöðrunni í verkefnaleiðbeiningu
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt;**verkskráning**&lt; **Bæta við upplýsingaskrefi. **Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í Notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition eða að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum).
+-   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt;**verkskráning**&lt; **Bæta við upplýsingaskrefi. **Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í Notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan Microsoft Dynamics 365 for Finance and Operations eða að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
 
 **Ákvarða hversu lengi á að gera upptökuna**
 

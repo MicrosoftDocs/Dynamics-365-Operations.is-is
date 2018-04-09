@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Nota skal skjámyndina **Fjárhagsvíddir** til að stofna fjárhagsvíddir sem 
 
 Eftir að búið er að stofna fjárhagsvíddir skal nota síðuna **Fjárhagsvíddargildi** til að úthluta fleiri eiginleikum fyrir hverja fjárhagsvídd. 
 
-Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Ekki þarf að stofna á lögaðila í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Hins vegar eru kostnaðarjafnaðar fjárhagsvíddir ekki hannaðar til að taka á rekstrar- eða viðskiptaþörfum lögaðila. Eiginlekin millieiningabókhalds í Finance and Operations er hannaður til að eiga aðeins við bókhaldsfærslur sem eru stofnaðar fyrir hverja færslu. 
+Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Ekki þarf að stofna lögaðila í Microsoft Dynamics 365 for Finance and Operations. Hins vegar eru kostnaðarjafnaðar fjárhagsvíddir ekki hannaðar til að taka á rekstrar- eða viðskiptaþörfum lögaðila. Eiginlekin millieiningabókhalds í Finance and Operations er hannaður til að eiga aðeins við bókhaldsfærslur sem eru stofnaðar fyrir hverja færslu. 
 
 Áður en fjárhagsvíddir eru settar upp sem lögaðilar skal meta viðskiptaferli á eftirfarandi svæðum til að ákvarða hvort þessi uppsetning muni gagnast fyrirtækinu:
 

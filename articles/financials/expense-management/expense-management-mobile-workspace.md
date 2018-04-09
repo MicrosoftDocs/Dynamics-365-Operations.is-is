@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,11 +42,11 @@ Mörg fyrirtæki þurfa afrit af kvittun í viðhengi, sem sýnir útgjöld í f
 
 Nánar tiltekið gerir fartækjavinnusvæðið **Kostnaðarstýring** notendum kleift að vinna þessi verk:
 
-- Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Þú getur svo tengt myndina við kostnaðarskýrslu seinna.
+- Taka mynd af kvittun og hlaða inn á Microsoft Dynamics 365 for Finance and Operations. Þú getur svo tengt myndina við kostnaðarskýrslu seinna.
 - Senda inn skrá sem fönguð kvittun. Þú getur svo tengt skrána við kostnaðarskýrslu seinna.
 - Stofna nýja línu í kostnaðarskýrslu með því að nota viðhengda kvittun. Þú getur svo bætt línuatriði við kostnaðarskýrslu síðar og sent hana til samþykktar og endurgreiðslu.
 
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, er einnig hægt að nota þessa eiginleika:
+Ef þú notar Microsoft Dynamics 365 for Finance and Operations er einnig hægt að nota þessa eiginleika:
 
 - Stofna nýja kostnaðarskýrslu.
 - Tengja kreditkortafærslur og annan kostnað sem var áður stofnaður við kostnaðarskýrslu.
@@ -60,8 +60,8 @@ Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edit
 ## <a name="prerequisites"></a>Frumskilyrði
 Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Ef Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition hefur verið beitt í þínu fyrirtæki verður kerfisstjóri að birta fartækjavinnusvæðið **Útgjaldastýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations 
+Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Útgjaldastýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar
 Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 
