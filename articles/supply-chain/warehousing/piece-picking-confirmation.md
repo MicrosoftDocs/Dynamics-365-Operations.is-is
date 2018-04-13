@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Staðfesting einingartiltektar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Einingatiltekt gerir þér kleift að staðfesta hverja birgðaeiningu í tiltektar- eða talningarvinnu í fartæki. Í tiltekt er hægt að staðfesta verkmagn sem fara þarf fram upp að því marki sem tilgreint er í tiltektarverki. Í talningarvinnu geturðu skannað birgðirnar sem þú ert að telja og fylgst með heildarmagninu.
 
@@ -46,8 +46,10 @@ Einingatiltekt gengur fyrir alla talningavinnu og fyrir fyrstu tiltekt í öllum
 
 Eftirfarandi valkostir verða tiltækar til vals þegar gerð vinnu er tiltekt eða talning.
 
-| Valkostur        | lýsing   | 
-| ------------- | ------------- |
-| Staðfesting einingartiltektar   | Tiltækt fyrir tínslu og talningu. Staðfesting vöru er sjálfkrafa valin. Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu. | 
-| Hámarksfjöldi eininga     | Tiltækt fyrir tiltektarvinnu ef staðfesting einingatiltektar er virkjuð. Stillir takmörkun á fjölda eininga sem þarf að staðfesta. |  
+
+|           Valkostur           |                                                                            lýsing                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Staðfesting einingartiltektar | Tiltækt fyrir tínslu og talningu. Staðfesting vöru er sjálfkrafa valin. Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu. |
+|  Hámarksfjöldi eininga  |                   Tiltækt fyrir tiltektarvinnu ef staðfesting einingatiltektar er virkjuð. Stillir takmörkun á fjölda eininga sem þarf að staðfesta.                   |
+
 

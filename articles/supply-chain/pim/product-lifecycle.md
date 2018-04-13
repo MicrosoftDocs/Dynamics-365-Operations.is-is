@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Lífferilsstaða afurðar 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis. Lífferilsstöður afurða eru skilgreind af notanda, yfirleitt framleiðslustjóra eða vara aðalgagna-framleiðslustjóra. Tilteknir viðskiptaferlar, svo sem aðaláætlanagerð, geta orðið fyrir áhrifum af tiltekinni lífferilsstöðu.   
- 
+
 Útgefin vara eða varaafbrigði getur tengst lífferilsstöðu afurðar sem skráir í hvaða lífferilsstöðu tiltekin afurð eða afbrigði er nú. Þú getur skilgreint hvaða fjölda lífferilsstöðu afurða sem er, með því að úthluta heiti og lýsingu á stöðunni. Þú getur valið eina lífferilsstöðu sem sjálfgefið stöðu fyrir nýjar útgefnar afurðir. Útgefin afurðaafbrigði erfa sína lífferilsstöðu afurðar frá útgefnu afurðasniðmáti þeirra við sköpun. Þegar þú breytir lífferilsstöðu á útgefnu afurðasniðmáti, getur þú valið að uppfæra öll núverandi afbrigði sem hafa sama upprunalega stöðuna.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Stofna nýja lífferilsstaða afurðar 
- 
+
 - Til að búa til nýja lífferilsstöðu afurðar, skal spila eða lesa verkefnaleiðsögnina **Búðu til nýja lífferilsstöðu afurðar**. 
 
 -  Til að búa til sjálfgefið lífferilsstaða afurðar skal spila eða lesa verkefnaleiðsögnina **Búa til sjálfgefið lífferilsstaða afurðar**.   
@@ -73,7 +72,7 @@ Nánari upplýsingar um hvernig á að nota lífferilsstöðu afurðar til að �
 
 > [!NOTE]
 > Af ástæðum tengdum afköstum, er mjög mælt með því að tengja allar úreltar afurðir eða afurðaafbrigði, sérstaklega þegar unnið er með óendurnotanleg grunnstillingaafbrigði afurða, við lífferilsstöðu afurðar sem er óvirkt fyrir aðaláætlanagerð.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Sjálfgefinn flutningur, innflutningur, og útflutningur 
 
 Lífferilsstaða afurðar eru ekki studd af gagnaeiningum, og lífferilsstaða afurðar er ekki hægt að stilla í breytilega stöðu gegnum gagnaeiningar útgefnu afurðarinnar.
@@ -81,18 +80,18 @@ Lífferilsstaða afurðar eru ekki studd af gagnaeiningum, og lífferilsstaða a
 -  Um flutning frá fyrri útgáfum verður lífferilsstaða allra afurða og afurðaafbrigða auð.  
 -  Þegar flutt eru inn útgefnar afurðir gegnum gagnaeiningu, verður sjálfgefið lífferilsstöðu afurðar beitt við stofnun.  
 -  Þegar flutt eru inn útgefnar afurðaafbrigði gegnum gagnaeiningu, verður lífferilsstaða afurðar útgefins afurðasniðmáts flutt inn.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Finna úreltar afurðir og afurðarafbrigði 
- 
+
 Þú getur keyrt hermigreiningu til að finna úreltar afurðir eða afurðaafbrigði og síðan uppfæra lífferilsstaða afurðar þeirra. Til að finna úreltar afurðir skaltu spila og lesa verkefnaleiðbeiningarnar **Finndu úrelt afurðaafbrigði og úthlutaðu lífferilsstaða afurðar**. Þessi verkefnaleiðbeiningar sýnir hvernig á að finna úreltar afurðir eða afurðaafbrigði og hvernig á að tengja lífferilsstaða afurðar við úreltar afurðir. Það sýnir einnig hvernig skal skoða herminiðurstöðurnar og meta hversu margar afurðir og afurðaafbrigði verða tengd nýjum lífferilsstaða afurðar þegar keyrð er uppfærslan án hermunar.  
- 
+
 Með því að keyra greininguna í hermistillingu, birtist afurðir og afurðaafbrigði sem eru úreltar á tilteknu formi, þar sem hægt er að endurskoða þær auðveldlega. Greiningin leitar að færslum og tilteknum aðalgögnum til að bera kennsl á afurðir sem hafa enga eftirspurn innan breytilegs tímabils og engar aðalgögn sem geta leitt til eftirspurnar. Nýjar afurðir sem gefnar eru út innan breytilegs tíma má útiloka frá greiningunni. Þegar hermigreiningin skilar áætluðum niðurstöðum getur notandinn keyrt greininguna og sett nýtt lífferilsstaða afurðar til allra afurða sem auðkenndar eru úreltar með greiningunni.  
- 
+
 > [!NOTE]
 > Athugaðu að allar greiningar og uppfærslur verða að vera gerðar innan sama lögaðila.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Viðmiðanir til að velja og uppfæra útgefnar afurðir eða afurðaafbrigði 
- 
+
 Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir eða afurðaafbrigði: 
 
 -    Lífferilsstaða afurðar eða afurðarafbrigðis verður að vera frábrugðin nýju, áformuðu ástandi. 

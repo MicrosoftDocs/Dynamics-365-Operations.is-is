@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-ledger-accrual-transactions"></a>Stofna uppsöfnunarfærslur fyrir fjárhag
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Verk leiðbeiningar fer í gegnum myndun uppsöfnunarfærslna höfuðbókar sem eru byggðar á grunni uppsöfnunarskema
 

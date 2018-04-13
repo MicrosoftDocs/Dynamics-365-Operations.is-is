@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 -- öll tungumál) APQC, Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð.
 

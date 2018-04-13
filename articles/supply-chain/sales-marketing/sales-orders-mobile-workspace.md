@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>Fartækjavinnusvæði sölupantana
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Sölupantanir**. Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er. 
 

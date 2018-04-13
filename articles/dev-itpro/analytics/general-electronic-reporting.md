@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-reporting-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 
@@ -287,6 +286,7 @@ ER gerir þér kleift að stofna (leita út) nýjan þátt úr gildandi útgáfu
 ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt, eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar **ER Uppfæra snið með innleiðingu nýs grunns af því sniði** (hluti af **7.5.5.3 Komast yfir/þróa íhluti fyrir breytta upplýsingatækniþjónustu/lausnir (10683)** viðskiptaferli).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Listi yfir skilgreiningar rafrænnar skýrslugerðar sem eru í Finance and Operations lausninni
+
 | Skilgreiningar gagnalíkana tengd ákveðnum lénum: Titill | Lén                | Gagnalíkan – háð skilgreiningarsnið: Titill | Lýsing                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Líkan endurskoðunarskrár                                 | Endurskoðun       |                                                   |                                                                    |

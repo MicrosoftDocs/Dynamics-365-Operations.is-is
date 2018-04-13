@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Síður birtar hlið við hlið með tákni fyrir opnun í nýjum glugga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig eigi að birta síður hlið við hlið í Microsoft Dynamics 365 for Finance and Operations.
 

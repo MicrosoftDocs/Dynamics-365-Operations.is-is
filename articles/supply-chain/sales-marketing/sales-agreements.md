@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Sölusamningar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
 

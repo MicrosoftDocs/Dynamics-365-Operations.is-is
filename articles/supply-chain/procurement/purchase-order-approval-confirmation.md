@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Staðfesta og samþykkja innkaupantanir
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum.
 

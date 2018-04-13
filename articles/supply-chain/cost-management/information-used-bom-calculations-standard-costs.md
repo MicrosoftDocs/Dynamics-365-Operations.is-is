@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>upplýsingar notaðar í uppskriftaútreikningum með staðalkostnaði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uppskriftarútreikningar (BOM) nota gögn frá nokkrum upprunum til að reikna út staðalkostnað framleiddrar vöru. Uppruninn felur í sér upplýsingar um vörur, leiðir víxla, óbeinan kostnað útreikningsformúla og útgáfu kostnaðarútreiknings.
 

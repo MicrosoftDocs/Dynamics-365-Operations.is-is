@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> Skilgreina vildarpunkta smásölu
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skilgreina vildarpunkta. Setja ætti upp vildarpunkta áður en að setja upp vildarkerfis. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

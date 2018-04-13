@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Vinnustundafærsla verks á fartækjavinnusvæði
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Vinnustundafærsla verks**. Þessi vinnusvæði gerir notendum kleift að færa inn og vista vinnustundir sem tengist verkefni með því að nota þeirra fartæki.
 

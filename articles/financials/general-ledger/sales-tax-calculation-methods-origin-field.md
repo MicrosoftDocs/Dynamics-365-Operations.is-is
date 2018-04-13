@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða.
 
@@ -53,11 +52,12 @@ Skattyfirvöld hafa lagt sérstök gjöld á vöru. Upphæð gjaldanna er bætt 
 -   VSK = 25%, notar útreikningsaðferð fyrir prósentu af brúttóupphæð
 
 Ef nettóupphæðin er 10,00 þá er Gjald 1 1,00 (10,00 x 10%) og Gjald 2 2,00 ( 10,00 x 20%). Upphæðirnar yrðu eftirfarandi: Brúttóupphæð: Nettóupphæð + upphæð GJALD 1 + upphæð GJALD 2 (10,00 + 1,00 + 2,00) = 13,00 VSK = 13,00 x 25% = 3,25 Samtals GJÖLD og VSK: 1,00 + 2,00 + 3,25 = 6,25 Heildarupphæð: 10,00 + 6,25 = 16,25
+
 | **Ábending**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aðeins er hægt að nota einn VSK-kóða með Uppruna = Prósenta af brúttóupphæð fyrir færslu. Ef fleiri en einn slíkur skattkóði er ákvarðaður fyrir færslu birtist villa um að ekki sé hægt að reikna út virðisaukaskatt. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Prósenta af VSK
 -----------------------
 
@@ -70,6 +70,7 @@ Eftirfarandi VSK-kóðar eru gefnir:
 -   VSK = 25%, notar aðferð fyrir prósentu af brúttóupphæð
 
 Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Brúttóupphæð: 10,00 + 1,00 + 0,20 = 11,20 VSK: 11,20 x 25% = 2.80 Samtals GJÖLD og VSK: 1,00 + 0,20 + 2,80 = 4,00 Heildarupphæð: 10,00 + 4,00 = 14,00
+
 | **Ábending**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Margstiga skattur í skattaútreikningum er ekki mögulegur. Ekki er hægt að reikna út skatt á grundvelli skatts sem þegar er reiknaður út frá öðrum skatti. Hægt er að reikna marga eins stigs skatta í skattkóðum í færslu. |
@@ -79,6 +80,7 @@ Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Br
 ### <a name="example"></a>Dæmi
 
 Vsk-kóðinn er settur upp sem: 1,20 USD á hverja einingu = kassi Á sölureikningslínu 25 kassar af vöru eru seldir VSK er reiknaður sem 25 x 1,20 = 30,00
+
 | **Ábending**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef færslan er færð inn í aðra einingu en einingu sem er tilgreind á VSK-kóða, umreiknast hún sjálfkrafa á grundvelli einingaumreikninga sem eru settir upp á síðunni Umreikningur eininga. |

@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður.
 

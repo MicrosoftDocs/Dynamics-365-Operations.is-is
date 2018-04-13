@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Skilgreina flokka í markvissri áætlanagerð
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afurðir í áætlun kanban. Hægt er að gera flokkunina sem almennan tengingu fyrir hvert fyrirtæki eða við vinnuflokkur. Hver flokkur hefur litakóði sem úthlutað er fyrir sjónræn lýsing á lístasíðum kanban-röðunar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

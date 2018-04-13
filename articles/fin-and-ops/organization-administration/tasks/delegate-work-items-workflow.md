@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðir í verkflæði
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda. Þetta ferli hjálpar að grunnstilla kerfi til að sjálfkrafa úthluta vinnuliðum á annan notandi.
 

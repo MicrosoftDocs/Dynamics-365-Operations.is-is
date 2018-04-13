@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Greining algengra orsaka framleiðslufrávika
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu. 
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Ferðabeiðnir
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Ferðabeiðni* er upprunaskjal sem sýnir kostnað sem mun eiga sér stað vegna ferðalags. Ferðabeiðni er send inn til endurskoðunar og má síðan nota til að heimila kostnað.
 

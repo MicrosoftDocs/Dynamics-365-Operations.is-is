@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Stofna kreditnótu á verkreikningum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Farið í Verkefnastjórnun og bókhald > Verkefni > Öll verkefni. 
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir. 

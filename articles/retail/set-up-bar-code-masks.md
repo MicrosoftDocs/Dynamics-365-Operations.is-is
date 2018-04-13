@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Setja upp sniðmát fyrir strikamerki
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að setja upp stafi sniðmáts strikamerkja, sniðmát fyrir strikamerki og hvernig á að úthluta sniðmátum strikamerkja á strikamerki.
 

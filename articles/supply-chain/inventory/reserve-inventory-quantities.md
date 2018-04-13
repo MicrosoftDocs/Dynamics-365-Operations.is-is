@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Taka frá birgðamagn
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi efnisliður útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.
 
@@ -50,6 +49,7 @@ Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur**síðunni á 
 ### <a name="policies-on-the-item-model-groups-page"></a>Reglur á síðunni vörulíkanaflokkur
 
 **Birgðareglur** kafla inniheldur eftirfarandi reglur um frátekningu.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Frátekningarregla**  | **Lýsing**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur**síðunni á 
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Dæmi um FIFO dagsetningarstýrt og Afturábak frá sendingardagsetningu
 
 Í þessu dæmis eru lagerbirgðir fyrir vörunúmer A til staðar fyrir þrjár mismunandi rununúmer.
+
 | Vörunúmer | Rununúmer | Magn | Dagsetning             |
 |-------------|--------------|----------|------------------|
 | Lista fyrir           | 1000         | 5        | 2. febrúar 2016 |

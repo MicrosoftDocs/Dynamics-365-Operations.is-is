@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Um kostnaðartegundir notaðar í leiðum framleiðslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá veitir upplýsingar um kostnaðartegundirnar sem eiga við um framleiðsluumhverfi sem nota leiðir.
 

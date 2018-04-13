@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Setja upp bónusafskriftir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig á að stofna sérstök heimild til afskriftar og tengja hana við eignabók. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
 

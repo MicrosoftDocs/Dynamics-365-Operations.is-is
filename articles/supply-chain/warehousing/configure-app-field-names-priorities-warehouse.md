@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>Skilgreining svæðaheita í vöruhúsaforriti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti í Finance and Operations. 
 

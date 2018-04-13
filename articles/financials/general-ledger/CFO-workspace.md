@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Bæta fjárhagsvíddum við CFO vinnusvæðið
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skal bæta fjárhagsvíddum við Fjármálastjóra (CFO) vinnusvæðið, svo hægt sé að nota þær fyrir fjárhags- og fjárhagáætlunarskýrslurnar. CFO vinnusvæðið er með **Yfirlit** flipa og **Fjármála** flipa. Skýrslurnar á þessum tveimur flipum eru studdar með tveimur mælingum: LedgerActivityMeasure and BudgetActivityMeasure. Í júlí 2017 uppfærslunni af Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition er tenging á milli þessara tveggja mælinga og DimensionCombinationEntity einingarinnar. Þar af leiðandi geturðu valið víddir.
 

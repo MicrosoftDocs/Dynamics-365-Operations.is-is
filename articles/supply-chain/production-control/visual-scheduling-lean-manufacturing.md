@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Sjónræn röðun fyrir lean-framleiðslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um Kanban-áætlunarborð, sem framleiðsluskipuleggjari getur nota' til að stýra og hámarka framleiðsluáætlunina kanban vinnslur.
 

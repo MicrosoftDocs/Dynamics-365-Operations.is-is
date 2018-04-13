@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Stofna kanban-reglu með kanban-línutilviki
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli stofnar kanban-reglu með því að nota stillinguna línutilvik kanbans til að virkja sækja úr ferlisverkþætti. Kanban-reglu virkjast af kanban ferlisverkþætti, með magnið það sama eða hærri en 25 hvert. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.
 

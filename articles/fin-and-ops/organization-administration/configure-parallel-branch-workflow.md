@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Grunnstilla samhliða grein í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Til að skilgreina samhliða grein, Ljúka eftirfarandi aðgerðum í verkflæðisritill.
 

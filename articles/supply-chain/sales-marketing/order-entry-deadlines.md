@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Tímamörk skráningar pantana
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um lokadag fyrir skráningu pantana. Lokadagur fyrir skráningu pantana er sá lokatími sem sker úr um það hvort pöntun viðskiptavinar er meðhöndluð (og uppfyllt) eins og hún sé móttekin á núverandi degi eða daginn eftir.
 

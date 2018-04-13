@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið. 
 

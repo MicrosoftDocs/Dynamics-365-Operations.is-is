@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-account-structures"></a>Stofna lykilskipulög
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísir fyrir verk fer í gegnum stofnun lykilskipulags. Skref er að nota sýnigögn fyrirtækisins USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>Setja upp vinnureglur vöruhúss  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ferli vöruhúsa ekki alltaf hafa vöruhús vinnu. Með því að skilgreina vinnustefnu, sem getur komið í veg fyrir stofnun vinnu fyrir tiltekt hráefnis og frágangur fullbúinna vara fyrir safn af afurðum á tiltekna staði. USMF sýniútgáfu fyrirtækis sem er notað til að stofna þessa skráningu. Þessi leiðarvísi fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar.
 

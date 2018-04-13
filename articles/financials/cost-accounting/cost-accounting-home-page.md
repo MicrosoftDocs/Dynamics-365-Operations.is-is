@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Námskort 
 
@@ -37,6 +37,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 [![Námskort fyrir kostnaðarbókhald](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Flýtitenglar
+
 |      |   |
 |------|---|
 |  [Grunnstilling grunneininga (eLearning)](https://mbspartner.microsoft.com/Home) (þarfnast CustomerSource reiknings)  |[Stofna víddir](cost-elements.md)  |

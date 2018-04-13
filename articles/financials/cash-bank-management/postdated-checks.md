@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Fyrirframdagsettar ávísanir
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir í Microsoft Dynamics 365 for Finance and Operations. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
 
@@ -76,14 +75,14 @@ Ef upprunaleg ávísun til lánardrottins eða frá viðskiptavini tapast eða s
 <td>Hægt er að hætta við bókaða fyrirframdagsetta ávísun í eftirfarandi aðstæðum: - Ávísuninni var skilað af bankanum.
 - Ávísunin er notuð fyrir rangan reikning.
 - Staðgreiðsla er framkvæmd í stað ávísunarinnar.
-</td>
-</tr>
-<tr class="even">
-<td>Stöðva greiðslu fyrir fyrirframdagsettri ávísun</td>
-<td>Hægt er að stöðva greiðslu á fyrirframdagsettu ávísuninni sem gefin var út á lánardrottinn vegna ástæðna svo sem ónógrar innistæðu á bankareikningnum, breytingum á skilmálum lánardrottins, sendingu á gölluðum vörum frá lánardrottni eða vöruskilum til lánardrottins. Aðeins er hægt er að stöðva greiðslu vegna ávísana sem ekki er búið að innleysa.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Stöðva greiðslu fyrir fyrirframdagsettri ávísun</td>
+  <td>Hægt er að stöðva greiðslu á fyrirframdagsettu ávísuninni sem gefin var út á lánardrottinn vegna ástæðna svo sem ónógrar innistæðu á bankareikningnum, breytingum á skilmálum lánardrottins, sendingu á gölluðum vörum frá lánardrottni eða vöruskilum til lánardrottins. Aðeins er hægt er að stöðva greiðslu vegna ávísana sem ekki er búið að innleysa.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

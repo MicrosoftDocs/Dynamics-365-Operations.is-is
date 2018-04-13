@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Velja á milli Modern POS og Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði gefur þeim sem innleiða viðbótarbakgrunn, ábendingar og leiðbeiningar um þá þætti sem þeir ættu að íhuga þegar þeir virkja Microsoft Dynamics 365 for Retail. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
 
@@ -92,8 +92,8 @@ Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og
 
     Nema tengigeta fyrir tiltekið tæki sé mjög áreiðanleg og sterk, eða nema ákveðið langur óvirkur tími sé viðunandi fyrir smásalann, mælum við með einum af eftirtöldum valkostum:
 
-    - Nota MPOS í Windows, og virkja ótengdan ham.
-    - Virkja RSSU á staðnum
+  - Nota MPOS í Windows, og virkja ótengdan ham.
+  - Virkja RSSU á staðnum
 
     Þessir tveir valkostir útiloka ekki hvorn annan. Fyrir sem áreiðanlegasta grannfræði, geta smásalar virkjað staðbundið RSSU til að þurfa ekki að vera eins háðir nettengingu eða Azure framboði, og þeir geta einnig virkjað POS afgreiðslukassa þar sem ótengdur hamur er settur í gang ef vandamál koma upp varðandi staðbundinn þjón eða net.
 

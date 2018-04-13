@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Selja eign með reikningi með frjálsum texta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir þér hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
 

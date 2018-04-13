@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Setja upp sniðmát fyrir taxta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp taxtasniðmát. stjórnandi vörustjórnunar setur yfirleitt upp taxtasniðmát, allt eftir samningum sem voru undirritað með í flutningsaðila. Í þessu tilfelli verður að setja upp taxtasniðmát fyrir flutningsaðila í lofti. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

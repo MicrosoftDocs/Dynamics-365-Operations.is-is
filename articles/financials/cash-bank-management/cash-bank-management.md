@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Heimasíða reiðufjár- og bankastjórnunar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum. 
 

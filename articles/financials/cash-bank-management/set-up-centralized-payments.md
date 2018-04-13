@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Uppsetning miðstýrðra greiðslna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki. Áður en byrjað er verður að ljúka við eftirfarandi uppsetningu:
 

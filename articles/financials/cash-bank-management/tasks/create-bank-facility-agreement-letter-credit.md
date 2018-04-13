@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Stofna bankaaðstöðusamning fyrir bankaábyrgð
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk útskýrir stofnun bankaaðstöðusamning til að vinna ábyrgðarbréf. Þú þarft að setja upp bankaaðstöður og bókunarreglur á undan þetta verk.  Þetta notar verk 'USMF' sýnigögn fyrirtækið .  
 

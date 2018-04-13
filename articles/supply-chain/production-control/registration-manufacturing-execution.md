@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Skráning fyrir framkvæmd framleiðslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu. 
 

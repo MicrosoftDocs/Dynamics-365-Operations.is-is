@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Uppskriftir og formúlur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
 

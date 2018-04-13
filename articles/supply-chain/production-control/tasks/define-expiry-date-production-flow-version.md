@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Skilgreina lokadag fyrir útgáfu framleiðsluflæðis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka gildistíma og vinnslu í útgáfu framleiðsluflæðis á tiltekinni dagsetningu eða til að áætla skipti á virkri útgáfu með nýrri útgáfu, þarf að setja inn lokadag í útgáfunni. Ekki er nauðsynlegt til að afvirkja útgáfuna.
 

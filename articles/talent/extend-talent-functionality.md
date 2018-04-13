@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Framlengja virkni Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Ef þú hefur búið til einhver Microsoft PowerApps geturðu opnað þau forrit frá tenglum innan Microsoft Dynamics 365 for Talent. Til að setja upp aðgang að forritunum þínum þarftu að setja upp nokkrar upplýsingar í Talent á forstillingasíðu sem þú getur opnað frá vinnusvæði **Kerfisstjórnun**.
 
@@ -38,10 +38,10 @@ Eftirfarandi upplýsingar eru færðar inn eða stilltar á þessari síðu:
 > - Lýsandi heiti eða kennimerki fyrir hvert PowerApps forrit.
 > - Einkvæmt kennimerki (GUID) fyrir hvert forrit sem þú bætir við á Talent síðu. Kenni forrits er tiltækt á PowerApps svæðinu [powerapps.com](http://powerapps.com/). 
 > - Síðan þaðan sem notendur geta opnað forrit eða skýrslu. Ekki allar Talent síður styðja innfelld PowerApps og Power BI skýrslur. 
-
- > [!NOTE]
- >  Sláðu inn innra nafn síðunnar, frekar en skjánafn sem birtist efst á síðunni. Til að finna innri nafnið skaltu opna síðuna sem þú þarft innra nafnið á og hægrismella hvar sem er á síðunni. Þegar valmyndin opnast skaltu sveima yfir **upplýsingar um skjámynd** atriðið. Innri skjámyndarnafnið birtist við hliðina á **Upplýsingar um skjámynd** atriðinu í valmyndinni.
- 
+> 
+> [!NOTE]
+>  Sláðu inn innra nafn síðunnar, frekar en skjánafn sem birtist efst á síðunni. Til að finna innri nafnið skaltu opna síðuna sem þú þarft innra nafnið á og hægrismella hvar sem er á síðunni. Þegar valmyndin opnast skaltu sveima yfir **upplýsingar um skjámynd** atriðið. Innri skjámyndarnafnið birtist við hliðina á **Upplýsingar um skjámynd** atriðinu í valmyndinni.
+> 
 > - Tilgreindu skjámyndarstýringuna, þaðan sem forritið getur sótt samhengisgögn. Til dæmis gæti forrit notað gögn um starfsmaður. Ef þú ferð inn á **Starfsmaður** síðuna í **Samhengi** reitnum opnast **Starfsmaður** síðan þegar þú opnar forritið. Færsla í **Samhengi** reitnum er valfrjálst. 
 > - Stilla stærð svargluggans sem PowerApps forritin munu keyrast upp í. Svargluggarnir eru sjálfgefnir sem „lítill“ eða „stór“ til að fínstilla notendaviðmótið þegar forritið þitt er keyrt í síma eða á stærri tæki, eftir því sem við á. 
 

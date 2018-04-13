@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Setja upp og mynda jákvæða greiðsluskrá launa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár. 
 

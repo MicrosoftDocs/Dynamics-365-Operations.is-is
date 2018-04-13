@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Notið skrefin í þessu efnisatriði til að grunnstilla SQL Server Reporting Services (SSRS) fyrir virkjun Microsoft Dynamics 365 for Finance and Operations (á staðnum).
 
@@ -52,13 +52,13 @@ Notið skrefin í þessu efnisatriði til að grunnstilla SQL Server Reporting S
 
     [![flipi vefgáttarslóðar](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Eftir að gáttin er grunnstillt passar flipinn **Vefgátt** við eftirfarandi mynd.
+   Eftir að gáttin er grunnstillt passar flipinn **Vefgátt** við eftirfarandi mynd.
     [![vefgáttarflipi](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Smelltu á skýrsluvefslóðina til að skoða vefgátt SQL Server Reporting Services. 
-9.  Í gáttinni skal stofna nýja möppu með nafninu **Dynamics**.
+9. Í gáttinni skal stofna nýja möppu með nafninu **Dynamics**.
 
-    [![dynamics mappa](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![dynamics mappa](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. Í **grunnstillingarstjóra skýrslugerðarþjónustu** skal smella á flipann **tölvupóststillingar** og sannreyna að stillingarnar passi við eftirfarandi mynd.
 
@@ -68,15 +68,15 @@ Notið skrefin í þessu efnisatriði til að grunnstilla SQL Server Reporting S
 
     [![keyrslureikningsflipi](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Ekki breyta sjálfgefnum stillingum á flipanum **Dulritunarlyklar**. [![flipinn dulritunarlyklar](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Ekki breyta sjálfgefnum stillingum á flipanum **Dulritunarlyklar**. [![flipinn dulritunarlyklar](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Smellið á flipann **Áskriftarstillingar** og sannreynið að stillingarnar passi við eftirfarandi mynd.
 
     [![áskriftarstillingaflipi](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Ekki breyta sjálfgefnum stillingum á flipanum **Uppsetning útvíkkunar**. [![flipinn uppsetning útvíkkunar](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Ekki breyta sjálfgefnum stillingum á flipanum **Uppsetning útvíkkunar**. [![flipinn uppsetning útvíkkunar](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Ekki breyta sjálfgefnum stillingum á flipanum **Power BI samþætting**. [![flipinn Power BI samþætting](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Ekki breyta sjálfgefnum stillingum á flipanum **Power BI samþætting**. [![flipinn Power BI samþætting](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Smelltu á **Hætta** til að loka **grunnstillingarstjóra skýrslugerðarþjónustu.**.
 

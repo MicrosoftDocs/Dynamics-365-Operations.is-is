@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM útreikninguar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þetta efnisatriði veitir upplýsingar um útreikning uppskrifta.
 

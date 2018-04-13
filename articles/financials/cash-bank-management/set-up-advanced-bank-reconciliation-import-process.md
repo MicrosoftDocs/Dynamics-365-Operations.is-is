@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
 
@@ -57,7 +56,7 @@ Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutning
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Setja upp innflutning á bankayfirlitum ISO20022
 Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO20022 bankayfirlit með því að nota rammann fyrir gagnaeiningu.

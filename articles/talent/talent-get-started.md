@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Hafist handa í Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Í Microsoft Dynamics 365 for Talent er auðvelt að breyta notendaviðmótinu og stilla valkosti sem gera hugbúnaðinn næmari fyrir þörfum þínum. Þetta efnisatriði inniheldur tengla á efnisatriði sem veita upplýsingar um hvernig á að laga notendaviðmótið að óskir þínar. Þetta efnisatriði inniheldur einnig tengla á upplýsingar sem aðstoða þig við að finna upplýsingar í kerfinu á skilvirkan og nákvæman hátt. 
 

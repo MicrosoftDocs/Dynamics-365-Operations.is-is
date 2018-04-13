@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk.
 

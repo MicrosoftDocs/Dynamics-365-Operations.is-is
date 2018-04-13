@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>Afurðarkenni 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
 

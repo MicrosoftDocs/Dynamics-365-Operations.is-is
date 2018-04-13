@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Stillingar fyrir sumar færibreytur Mannauðs (HR) eru eins milli fyrirtækja, á meðan stillingar annara færibreyta eru bundnar tilteknu fyrirtæki. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs sem eru bundnar tilteknu fyrirtæki.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Áður en þú setur upp fyrirtæki og stigveldi fyrirtækis í Microsoft Dynamics 365 for Finance and Operations skaltu áætla hvernig fyrirtækjalíkanið þitt verður. Fyrirtækjalíkan hefur töluverð áhrif á innleiðingu á Finance and Operations og í viðskiptaferlum. 
 
@@ -158,7 +157,7 @@ Ef lögum og bókhaldsreglum eru mismunandi á milli löndum/svæðum þar sem f
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ef fyrirtækið er með líkan sem rekstrareining 
 Lögum og bókhaldsreglum eru sömu milli löndum/svæðum þar sem fyrirtæki þitt er hægt að nota eitt safn ársloka ferli. Þetta þýðir að hægt model fyrirtæki sem rekstrareiningar. Allir rekstrareiningar verða að nota sama ferli fyrir lökun í árslok. 
-   
+
 ### <a name="number-sequences"></a>Númeraraðir
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ef fyrirtækið er með líkan sem lögaðili
 Hægt er að setja upp númeraraðir fyrir nokkrar tilvísanir á hvern lögaðila. Sumir númeraraðir hægt að deila. 

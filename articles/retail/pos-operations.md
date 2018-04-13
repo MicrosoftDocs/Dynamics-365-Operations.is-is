@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>Rekstur sölustaðar, með og án nettengingar
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Microsoft Dynamics 365 for Retail. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
 

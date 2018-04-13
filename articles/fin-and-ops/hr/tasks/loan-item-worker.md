@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Lána starfmanni vörur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að lána vöru til starfsmanns og skrá starfsmanns sem skilar vöru. Starfsmenn geta einnig beðið um lánshluti gegnum sjálfsafgreiðslusíðum Starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna innkaupapöntun handvirkt. Dæmigerðara er fyrir innkaupapantanir að stofnast sjálfkrafa sem afleiðing af aðaláætlanagerð, bein afhending og önnur ferli. Innkaupapöntun eru yfirleitt stofnaðar af innkaupastjórar. Dæmi sýnd hér er hægt að nota í USMF sýnigögn fyrirtækis með gildum sem eru lögð til í athugasemdir fyrir mismunandi skref.
 

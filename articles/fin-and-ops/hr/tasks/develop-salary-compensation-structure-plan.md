@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Þróa uppbyggingu launa og launafyrirkomulag
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísir fyrir verk fer í gegnum ferlið við stofnun launafyrirkomulags fastra launa og virkjun starfsmönnum að vera skráðir í launafyrirkomulag með hæfnisreglum. Sýnigagnafyrirtækisins til að stofna verkið er USMF og verkið er ætluð fyrir Launa- og Fríðindastjórnendur.
 

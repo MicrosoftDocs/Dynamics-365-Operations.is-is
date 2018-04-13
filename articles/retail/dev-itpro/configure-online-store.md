@@ -27,13 +27,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Skilgreina netverslun
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir tengla í efni sem mun hjálpa þér að stilla miðlægt og stjórna netverslun.
 
 Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Retail-þátta og Retail-versluninni í biðlaranum.
 
 ## <a name="configure-an-online-store"></a>Skilgreina netverslun
+
 | Verkefni                                                | Upplýsingar                                                                                                                                                                                                                                                                                                                                                   | Efni                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Skilgreina íhluti Retail.                        | Setja upp og viðhalda upplýsingum um smásöluaðgerðir. Þessar upplýsingar taka til verslana, skatta, afurða, gjafakorta, kynningartilboða og afsláttar.                                                                                                                                                                                                          | [Uppsetning og viðhald smásölu](https://technet.microsoft.com/en-us/library/hh597201.aspx) (TechNet-efni fyrir Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
@@ -43,6 +44,7 @@ Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Retail-þátta og Retai
 | Varpa eigindum og bæta lýsigögnum við.                   | Veldu valkosti sem sýna hvernig eigindir fyrir hverja flokks- eða rásarafurð ættu að haga sér í netversluninni á svæði Microsoft SharePoint.                                                                                                                                                                                              | [Setja upp netverslun](https://technet.microsoft.com/en-us/library/jj682095.aspx) (TechNet-efni fyrir AX 2012)                                                                                                                                                                                                                                                                                                     |
 
 ## <a name="configure-online-store-products"></a>Grunnstilla afurðum netverslunar
+
 | Verkefni                                 | Upplýsingar                                                                                                                                           | Efni                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bæta úrvali við netverslun. | Bæta við vöruúrval sem hafa með afurð sem þú býður í netverslun.                                                                  | [Setja upp netverslun](https://technet.microsoft.com/en-us/library/jj682095.aspx) (TechNet-efni fyrir AX 2012)                                                                                                                                              |
@@ -53,11 +55,12 @@ Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Retail-þátta og Retai
 | Stjórna afhendingarmátum.            | Stjórna afhendingarmátum sem eru í boði í netversluninni.                                                                                        | [Uppsetning afhendingarmáta](https://technet.microsoft.com/en-us/library/jj728719.aspx) (TechNet efni fyrir AX 2012)                                                                                                                                            |
 
 ## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Uppsetning gagnaskipta milli Microsoft Dynamics 365 fyrir Retail og netverslunar.
+
 | Verkefni                                 | Upplýsingar                                                                                                                               | Efni                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Setja upp samþættingarreglur rása. | Forstilling gera virkjar íhluti Retail til að hafa samskipti sín á milli. Setja upp forstillingar áður en stillingar gagnaskipta eru grunnstilltar. | [Uppsetning á Real-time Service sniði](https://technet.microsoft.com/en-us/library/hh580631.aspx) (TechNet efni AX 2012) [Uppsetning á rásaforstillingum](https://technet.microsoft.com/en-us/library/jj677402.aspx) (TechNet efni fyrir AX 2012) |
 
- 
+
 
 
 

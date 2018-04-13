@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="view-journal-entries-or-transactions"></a>Skoða færslubókarfærslur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að nota fyrirspurn um færslur Fylgiskjals til að leita að færslubókarfærslum eða færslum.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="workflow-elements"></a>Verkflæðiseiningar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
 

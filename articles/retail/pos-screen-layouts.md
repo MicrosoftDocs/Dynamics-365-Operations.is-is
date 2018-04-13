@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Skilgreining skjáútlits fyrir sölustað
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás á sölustað í Microsoft Dynamics 365 for Retail.
 

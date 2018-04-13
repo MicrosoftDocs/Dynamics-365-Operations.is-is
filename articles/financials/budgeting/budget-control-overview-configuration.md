@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 for Finance and Operations þannig að hægt er að stjórna fjármagni.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Skilgreining samþykktarferlis í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 
@@ -136,6 +135,7 @@ Gott gæti verið að tilnefna endanlegur samþykkjandi fyrir aðstæður þar s
 
 ## <a name="set-a-time-limit"></a>Setja upp tímamörk
 Fylgið eftirfarandi skrefum ef verður að ljúka samþykktarferlinu innan tiltekins tíma.
+
 | **Ábending**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valkostirnir sem valdir í þessum skrefum munu hnekkja valkostunum sem valdir eru á flipunum **Verkefni** og **Hækkun** í hverju samþykktarskrefi. |

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Áætlanagerð farms flutningsleiðir með mörgum stöðvun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir mismunandi einingunum sem eru notaðar til að áætla flutningsleiðir í Microsoft Dynamics 365 for Finance and Operations.
 

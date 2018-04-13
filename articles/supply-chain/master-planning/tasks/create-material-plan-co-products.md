@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Búa til efnisáætlun fyrir aukaafurðir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir formúlu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USP2.
 

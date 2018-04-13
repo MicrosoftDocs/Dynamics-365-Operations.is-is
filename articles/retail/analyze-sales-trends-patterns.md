@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Greina leitni og mynstur í sölu
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Hægt er að fylgjast með söluþróun og sölumynstri í Microsoft Dynamics 365 for Retail.
 

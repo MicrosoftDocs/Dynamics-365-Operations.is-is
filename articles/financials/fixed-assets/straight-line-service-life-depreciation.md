@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
 

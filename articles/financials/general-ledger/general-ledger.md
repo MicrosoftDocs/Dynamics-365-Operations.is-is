@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Fjárhagur 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fjárhagur er notaður til að skilgreina og stjórna fjárhagslegum færslum í lögaðila. Í fjárhag er skrá fyrir debet og kredit færslur. Þessar færslur eru flokkaðar með lyklarnir sem taldir eru upp í línuriti yfir lykla. 
 

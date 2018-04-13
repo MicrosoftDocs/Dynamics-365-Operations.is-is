@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Leggja fram fríðindaáætlun starfsmanns
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Setja upp aukagjöld stöðvar og sniðmát fyrir aukaþjónustu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig stofna á aukalegt sniðmát fyrir stöðvar í og nota sniðmátið til að stofna aukagjald stöðvar. Þessi aðferð notar gagnamengi USMF fyrirtækisins. Þessi uppsetning er yfirleitt gert af samræmingaraðili flutninga.
 

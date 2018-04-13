@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Stofna vaxtakóða með sviði
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að setja upp vaxtakóða til að reikna vexti á mismunandi upphæðir samkvæmt svið gilda. Þetta ferli sýnir hvernig á að bæta vaxtakóða og bæta afmörkun við hana.
 

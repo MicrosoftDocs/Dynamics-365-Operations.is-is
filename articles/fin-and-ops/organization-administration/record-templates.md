@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Færslusniðmát
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein kynnir hugtakið skýrslusnið og útskýrir hvernig hægt er að nota þau til að stofna skýrslur sem deila upplýsingum.
 

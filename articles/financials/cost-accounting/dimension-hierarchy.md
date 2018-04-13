@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Víddarstigveldi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efni inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.  
 

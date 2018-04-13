@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð. Fyrir þetta ferli verður að skilgreina framleiðslufæribreytur fyrir lean-framleiðslu og mælieiningar fyrir klasatíma. Einnig þarf að skilgreina virðisstraum og framleiðsluflokk. Frekari upplýsingar um framleiðsluflæði og aðgerðir í lean-framleiðslu má sjá í hvítblöð um Lean-framleiðslu í Microsoft Dynamics AX. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

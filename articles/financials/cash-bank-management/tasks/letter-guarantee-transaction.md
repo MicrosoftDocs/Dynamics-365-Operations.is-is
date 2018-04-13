@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="letter-of-guarantee-transaction"></a>Færsla ábyrgðarbréfs
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum Fyrir ferli ábyrgðarbréfs.
 

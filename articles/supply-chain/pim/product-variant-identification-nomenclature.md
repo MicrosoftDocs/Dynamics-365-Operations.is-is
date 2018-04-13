@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nafnakerfi afurðarafbrigðisnúmera og -nafna
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að setja upp nafnakerfi afurðarnúmers til að skipta út föstu sniði [Númer afurðarsniðmáts - Skilgreining - Stærð - Litur - Stíll]. Nýja nafnakerfið er með markað snið sem tekur til númers afurðarsniðmátsins, virku afurðavíddanna og skiltákna texta að eigin vali. Einnig er hægt að stofna nafnakerfi fyrir afurðaheiti. Loks er hægt að búa til nafnakerfi til að auðkenna grunnstillingar sem eru stofnaðar af skorðumiðuðum afurðarafbrigðastilli. Þessum nafnakerfi geta innihaldið eigindir að eigin vali.
 

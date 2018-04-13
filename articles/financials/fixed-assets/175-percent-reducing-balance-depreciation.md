@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175 prósenta lækkandi afskrift
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði gefur yfirlit yfir 175 prósent afskriftaraðferðina bókfært virði.
 
@@ -68,6 +67,7 @@ Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltæ
 -   **Fjárhagstímabil** reiknar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 175% bókfært virði
+
 |                                |        |
 |--------------------------------|--------|
 | Kaupverð               | 11.000 |

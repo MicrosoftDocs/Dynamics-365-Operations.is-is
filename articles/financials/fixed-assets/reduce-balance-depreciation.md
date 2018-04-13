@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Minnka bókfært virði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði.
 
@@ -80,7 +79,7 @@ Með því að nota aðferðina lækkandi afskrift eru 30 prósent af afskriftag
 | 2. ár | (7.000 - 1.000) \* 30% = 1.800            | (7,000 -1,800) = 5,200                |
 | 3. ár | (5.200 - 1.000) \* 30% = 1.260            | (5,200 - 1,260) = 3,940               |
 
- 
+
 -
 
 

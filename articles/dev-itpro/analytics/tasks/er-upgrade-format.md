@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER). Þetta ferli útskýrir hvernig sérsniðin útgáfu sniðs er hægt að mynda á grundvelli snið móttekið frá veitandi skilgreiningar (CP). Það útskýrir einnig hvernig eigi að taka upp nýja grunnútgáfu af því sniði.
 

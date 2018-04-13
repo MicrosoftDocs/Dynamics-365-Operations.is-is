@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Forkröfur fyrir umreikning staðalkostnaðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður. 
 

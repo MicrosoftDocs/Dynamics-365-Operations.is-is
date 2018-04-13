@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI-efni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvað er innifalið í **Greining kostnaðarbókhalds** í efni Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
@@ -111,18 +111,20 @@ Eftirfarandi tafla sýnir hvernig lykiluppsafnaðar mælingar eru notaðar til a
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 
-| Eining                             | Dæmi um eigindir                                                                                               |
+
+|               Eining               |                                                Dæmi um eigindir                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Fjárhagir kostnaðarbókhalds            | Fjárhagur kostnaðarbókhalds                                                                                               |
-| Stýrieiningar kostnaðar                 | Heiti stýrieiningar kostnaðar                                                                                               |
-| Víddir kostnaðareiningar            | Heiti víddar kostnaðareiningar, Heiti víddarstaks kostnaðareiningar, lýsing víddarstaka kostnaðareiningar.          |
-| Víddir kostnaðarhluta             | Heiti víddar kostnaðarhlutar, Heiti víddarstaks kostnaðarhlutar, lýsing víddarstaka kostnaðarhlutar.              |
-| Tölfræðilegar víddir             | Heiti tölfræðivíddar, Heiti tölfræðilegs víddarstaks, lýsing Tölfræðilegt víddarstaks              |
-| Víddarstigveldi kostnaðarhlutar  | Heiti stigveldis víddar kostnaðarhlutar, stigveldisstig víddar kostnaðarhlutar, lýsing stigveldistrés víddar kostnaðarhlutar.    |
+|      Fjárhagir kostnaðarbókhalds       |                                                Fjárhagur kostnaðarbókhalds                                                |
+|         Stýrieiningar kostnaðar         |                                                Heiti stýrieiningar kostnaðar                                                |
+|      Víddir kostnaðareiningar       |     Heiti víddar kostnaðareiningar, Heiti víddarstaks kostnaðareiningar, lýsing víddarstaka kostnaðareiningar.      |
+|       Víddir kostnaðarhluta       |       Heiti víddar kostnaðarhlutar, Heiti víddarstaks kostnaðarhlutar, lýsing víddarstaka kostnaðarhlutar.        |
+|       Tölfræðilegar víddir       |       Heiti tölfræðivíddar, Heiti tölfræðilegs víddarstaks, lýsing Tölfræðilegt víddarstaks        |
+| Víddarstigveldi kostnaðarhlutar  |  Heiti stigveldis víddar kostnaðarhlutar, stigveldisstig víddar kostnaðarhlutar, lýsing stigveldistrés víddar kostnaðarhlutar.   |
 | Víddarstigveldi kostnaðareiningar | Heiti stigveldis víddar kostnaðareiningar, stigveldisstig víddar kostnaðareiningar, lýsing stigveldistrés víddar kostnaðareiningar. |
-| Tölfræðileg víddarstigveldi  | Heiti stigveldis tölfræðivíddar, stigveldisstig tölfræðivíddar, lýsing stigveldistrés tölfræðivíddar.    |
-| Færsluútgáfur               | Útgáfunafn                                                                                                         |
-| Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
-| Fjárhagsár                       | Almanaksár                                                                                                        |
-| Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
+| Tölfræðileg víddarstigveldi  |  Heiti stigveldis tölfræðivíddar, stigveldisstig tölfræðivíddar, lýsing stigveldistrés tölfræðivíddar.   |
+|        Færsluútgáfur        |                                                     Útgáfunafn                                                     |
+|          Fjárhagsdagatöl          |                                            Almanak, lýsing almanaks                                            |
+|            Fjárhagsár            |                                                    Almanaksár                                                     |
+|           Fjárhagstímabil           |                                                 Tímabil almanaksárs                                                 |
+
 

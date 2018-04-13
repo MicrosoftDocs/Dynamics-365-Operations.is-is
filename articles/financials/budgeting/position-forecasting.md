@@ -28,9 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Stöðuspá
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Útgjöld sem eru tengd starfsmönnum eru oft stórt hlutfall af kostnaði fyrirtækis. Stöðuspá leyfir þér að áætla þennan kostnað og hafa hann með í fjárhagsáætlunargerð.
 

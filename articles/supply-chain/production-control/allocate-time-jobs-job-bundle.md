@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Úthlutun tíma á vinnslur í vinnslubúnti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í Framkvæmd framleiðslu er hægt að sameina vinnslur. Þá er hægt að hefja margar vinnslur á sama tíma á listasíðunni Vinnslur.
 

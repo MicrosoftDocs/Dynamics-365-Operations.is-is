@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Stjórna vörum sem eru lánaðar til starfsmanna
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna. 
 
@@ -51,7 +50,7 @@ Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra. Þeir get
 
 Eyðileggist hlutur eða hann týnist skal skrá gerviskil. Þá er hægt að eyða hlutnum úr skrá eða gefa það til kynna í lýsingu að hann sé týndur.
 
- 
+
 <a name="see-also"></a>Sjá einnig
 --------
 

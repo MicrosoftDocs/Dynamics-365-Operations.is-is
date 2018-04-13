@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Skrá og bóka fyrirframdagsetta ávísun fyrir lánardrottinn
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þú getur skráð upplýsingar fyrirframdagsett ávísun áður en þú gefur út ávísun til lánardrottinn með því að nota færslubókarfylgiskjal. Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur. Áður en fyrirframdagsett ávísun frá lánardrottni er skráð og bókuð skal ljúka eftirfarandi verkefni: 
 

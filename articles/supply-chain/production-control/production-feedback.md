@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Framleiðslusvörun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
 
@@ -55,8 +54,8 @@ Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða ten
 
 Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
 
->**Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
-
+> **Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
+> 
 > + Vinna
 > + Starfsmaður
 > + Umsækjandi

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Starfsfólksaðgerðir [Algengar spurningar]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. Dæmi um verk sem gætu krafist aðgerða starfsfólks eru þegar að stofna nýjar stöður, breyta fyrirliggjandi gildi stöðu, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni eða segja upp starfsmönnum.
 
@@ -64,9 +64,9 @@ Opnaðu einhverja listasíðu starfsfólksaðgerða og veldu starfsfólksaðger�
 Ef beiðni um aðgerð starfsfólks mistekst, skal fylgja þessum skrefum til að leysa þessa villu og endursenda beiðnina:
 
 > 1. Á **Aðgerðarúðu** skaltu smella á hnappinn **Villutexti** til að skoða skilaboðatexta sem lýsir vandamálinu.
-
+> 
 > 2. Á **Aðgerðarúðu** skaltu smella á **Endurvirkja** til að sækja nýjustu upplýsingar og stilla stöðu starfsfólksaðgerða aftur á **Drög**.
-
+> 
 > 3. Leystu villuna og smelltu svo á **Ljúka** eða **Senda**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Hvað gerist aðgerð starfsfólks sem notar verkflæði þegar lokalínu samþykktarferlisins er lokið?

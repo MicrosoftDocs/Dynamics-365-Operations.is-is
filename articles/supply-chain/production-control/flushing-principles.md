@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Stjórna notkun hráefnis með því að nota birgðareglur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Losunarreglurnar endurspegla mismunandi stefnur varðandi notkun hráefnis sem er notað í framleiðsluferlum. Notkun er það ferli sem dregur efni úr lagerbirgðum og stillir gildi notaðs efni á **Verk í vinnslu** (WIP) fyrir framleiðslupantanir og runupantanir. Hráefni er vanalega notað frá staðsetningu sem er skilgreind fyrir ferlið sem notar efnið. Þessi staðsetning kallast inntaksstaðsetning framleiðslu.
 

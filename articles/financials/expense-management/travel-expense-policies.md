@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Kostnaðarreglur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hægt er að skilgreina reglur sem starfskraftar þurfa að fylgja þegar þeir búa til og skila kostnaðarskýrslum og ferðabeiðnum.         
 Innleiðing kostnaðarreglna getur hjálpað til við að stjórna kostnaði á áhrifaríkan hátt.         
@@ -39,14 +39,14 @@ stefnan er skilgreind.
 Hægt er að stofna þrjár gerðir reglna:         
         
 - Viðvörun - Leyfir starfskrafti að leggja fram kostnaðarskýrslu eða ferðabeiðni en kostnaðurinn verður merktur fyrir alla samþykktaraðila og        
-fyrir síðari skýrslugerð.        
+  fyrir síðari skýrslugerð.        
 
 - Villa - Krefst þess að starfskrafturinn endurskoði kostnaðinn til að hann verði í samræmi við reglu áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.       
  
- - Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.        
+  - Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.        
  
- Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi. Til dæmis geta flugfargjöld á milli Danmerkur      
- og New York verið dýr yfir háannatíma á sumrin. Hægt er að skilgreina kostnaðarreglu sem takmarkar      
- flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og      
- 15. september.
+  Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi. Til dæmis geta flugfargjöld á milli Danmerkur      
+  og New York verið dýr yfir háannatíma á sumrin. Hægt er að skilgreina kostnaðarreglu sem takmarkar      
+  flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og      
+  15. september.
 

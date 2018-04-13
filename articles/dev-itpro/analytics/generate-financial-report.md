@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Mynda fjárhagsskýrslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila. 
 
@@ -50,13 +49,13 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir myndun á skýrsl
 ## <a name="generate-a-financial-report"></a>Mynda fjárhagsskýrslu
 
 Til að búa til fjárhagsskýrslu með Microsoft Dynamics 365 for Finance and Operations, skal fara í **Fjárhagur** > **Fyrirspurnir og skýrslur** > **Fjárhagsskýrslur** 
- - Velja skýrslu sem á að búa til og smella á **Búa til**. 
- - Fylla út í reitinn **Dagsetning skýrslu** og smella á **Í lagi**.
- 
- Eftir að skýrslan hefur verið búin til verður skýrslan tiltæk til skoðunar í **Skýrslur** hlutanum.
- Þú getur valið að **Skoða** eða **Eyða** skýrslunni.
- 
- 
+- Velja skýrslu sem á að búa til og smella á **Búa til**. 
+- Fylla út í reitinn **Dagsetning skýrslu** og smella á **Í lagi**.
+
+  Eftir að skýrslan hefur verið búin til verður skýrslan tiltæk til skoðunar í **Skýrslur** hlutanum.
+  Þú getur valið að **Skoða** eða **Eyða** skýrslunni.
+
+
 Til að búa til skýrslu með því að nota **Skýrsluhönnuður**, skal opna skilgreining skýrslu og smella á Búa til hnappinn á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Web Viewer.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vanta
 | Opna valda skýrsluskilgreiningu  | Ctrl+R                     |
 | Opna valda línuskilgreiningu     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Sjá einnig
 --------
 

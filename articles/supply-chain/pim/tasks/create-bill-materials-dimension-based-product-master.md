@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Stofnun farmbréf fyrir afurðarsniðmát byggt á víddum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Fyrir þetta ferli áttu að hafa lokið fyrri 4 leiðbeiningum í þessari röð af átta skráningum. Fyrstu 4 skráningar settu upp gögn sem þarf til að ljúka þessu ferli. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta verk er yfirleitt í höndum hönnuðar afurðar.
 

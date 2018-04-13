@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Netverslunaryfirlit
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein veitir upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
 

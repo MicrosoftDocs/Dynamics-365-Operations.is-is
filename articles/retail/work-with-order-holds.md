@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Pantanir í bið
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir pöntunum í bið með því að nota Dynamics 365 for Retail.
 

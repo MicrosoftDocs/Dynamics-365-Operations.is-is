@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Stofna fjölda sölutilboða
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig stofna á hagkvæman hátt tilboð og bjóða úrval af vörum eða þjónustu sem á að senda mörg viðskiptavinum. Stofnun margra tilboða er byggt á tilboðssniðmát. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis.
 

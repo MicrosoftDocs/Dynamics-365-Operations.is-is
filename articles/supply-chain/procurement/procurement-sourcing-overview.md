@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Yfirlit yfir „Innkaup og aðföng“
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir þá virkni sem er fáanleg í Innkaupa- og aðfangakerfi.
 
@@ -39,7 +38,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 Þörf fyrir vöru eða þjónustu gætu komið upp úr *innkaupabeiðnir*, til dæmis þegar starfsmaður krefst afurðar. *Vörulistar* hægt er að setja upp til að leiðbeina um val á tiltækum afurðum til að velja úr, eða beiðnir er hægt að gera fyrir afurðir sem eru°ekki enn tiltækar í vörulista,og innkaupadeild heimilað að hafa í huga hvernig hægt sé að útvega afurðina.  
 
 *Eyðsluþak* til að hafa hemil á útgjöldum í innkaupum, og°*innkaupaverkflæði* bætir við kostinum á að krefjast samþykkis áður en pöntun er gerð. Einnig er hægt að tilgreina úthlutun fjármagns fjárhagsáætlunar, ef þörf krefur.  
-  
+
 Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér°*beiðni um tilboð* senda mörgum mögulegum lánardrottnum. Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær. Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.  
 
 Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn* til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gáttina **Lánardrottinn**, er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í**Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  

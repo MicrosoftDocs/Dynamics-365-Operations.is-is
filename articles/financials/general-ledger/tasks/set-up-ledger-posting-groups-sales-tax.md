@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vsk er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbókunarflokkur. Fjárhagsbókunarflokkar eru tengdir hverri vsk-kóða. Geturðu uppsett einstaka fjárhagsbókunarflokkur fyrir hvern VSK-kóði, notað einn fjárhagsbókunarflokkur fyrir VSK-kóði eða úthluta mörgum fjárhagsbókunarflokkur í VSK-kóði. Þessi skráning notar sýnigögn DEMF fyrirtækis 
 

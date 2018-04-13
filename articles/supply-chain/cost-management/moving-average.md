@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Hlaupandi meðaltal
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hlaupandi meðaltal er kostnaðarútreikningur sem byggist á meðaltalsreglunni, þar sem kostnaður birgða breytist ekki á meðan innkaupakostnaður gerir það. Mismunurinn er eignfærður og byggir á hlutfallsútreikningi. Eftirstandandi upphæð er skráð sem kostnaður. 
 

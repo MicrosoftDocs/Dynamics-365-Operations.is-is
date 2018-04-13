@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Vinna með lokadaga fríðinda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

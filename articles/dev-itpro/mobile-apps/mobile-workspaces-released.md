@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Fartækjavinnusvæði
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna lista yfir fartækjavinnusvæði sem eru í boði með Dynamics 365 for Unified Operations fartækja smáforritinu.
 

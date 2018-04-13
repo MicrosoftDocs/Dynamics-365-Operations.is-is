@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 

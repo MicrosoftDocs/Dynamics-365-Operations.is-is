@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Kostnaðarútgáfa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um kostnaðarútgáfur, hvernig á að viðhalda þeim og tegundir gagna sem þú getur haft í þeim. Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað.
 

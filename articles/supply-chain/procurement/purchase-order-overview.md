@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þessi grein inniheldur almennar upplýsingar um innkaupapantanir (POs) og tengir viðbótar greinum sem eru tengdar við mörg stig sem Innkaupapöntun fer í gegnum.
 

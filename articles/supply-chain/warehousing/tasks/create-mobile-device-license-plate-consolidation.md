@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna valmyndaratriði fartækis fyrir vinnu við samstæðu númeraplötu. Þetta gerir starfsmanna vöruhússins mögulegt að gera hluti samstæða á einni númeraplötu með hluti sem eru á annarri númeraplötu á sömu staðsetningu. Til dæmis gætu þeir notað þetta ef síðari sviðsetningarskref væru þau sömu á báðum vinnupöntununum, þannig að vinnu þarf aðeins að framkvæma einu sinni fyrir sameinaðar vörur. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Verkefnið myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 

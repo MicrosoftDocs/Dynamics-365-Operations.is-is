@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Sniðmát fjárhagsáætlunargerðar fyrir Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum.
 
@@ -42,11 +41,11 @@ Fjárhagsáætlunarskjal má skoða og breyta með einu eða fleiri útlitum. Hv
 1. Opnaðu **Fjárhagsáætlunarlista** (**Fjárhagsáætlun** &gt; **Fjárhagsáætlunargerðir**). 
 2. Smellt er á **Ný** til að búa til nýtt fjárhagsáætlunarskjal. 
 
-  [![Fjárhagsáætlanalisti](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Fjárhagsáætlanalisti](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Notaðu **Bæta við** línuaðgerðna til að bæta við línum. Smellt er á **Útlit** til að skoða útlit skilgreining fjárhagsáætlunarskjals. 
 
-  [![Fjárhagsáætlanir bæta við](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Fjárhagsáætlanir bæta við](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Hægt er að yfirfara grunnstillingu útlits og leiðrétta hana eftir þörfum. 
 1. Farðu í **Sniðmát** &gt; **Mynda** til að stofna Excel-skrá fyrir þetta útlit. 

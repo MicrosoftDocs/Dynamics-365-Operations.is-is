@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Skilgreina ný störf
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk leggur áherslu á stofnun nýju vinnsluna. Það verður að vera lokið með því að nota handvirka innfærslu og afrita úr virkni sniðmátis. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir sérfræðings mannauðs.
 

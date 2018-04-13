@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna yfirlit yfir virkniþætti fjárhagsáætlunar, verkfæri fjárhagsáætlunar og skýrslugerðargetu í Finance and Operations. 
 

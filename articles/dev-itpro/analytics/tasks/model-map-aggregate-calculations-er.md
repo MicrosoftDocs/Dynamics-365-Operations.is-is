@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Nota grunnstillingar líkanavörpunar fyrir samanlagða útreikninga á gagnagrunnsstigi (rafrænnar skýrslugerðar) 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi aðferð gefur upplýsingar um hvernig á að hanna nýja stillingu fyrir vörpun rafrænnar skýrslugerðar og nota innbyggðar aðgerðir rafrænnar skýrslugerðar fyrir skilvirka samanlagða útreikninga. Í þessu dæmi muntu stofna skilgreiningu fyrir sýnifyrirtækið, Litware, Inc. 
 

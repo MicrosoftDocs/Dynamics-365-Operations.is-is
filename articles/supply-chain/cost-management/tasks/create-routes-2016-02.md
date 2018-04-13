@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>Stofna leiðir (aðeins febrúar 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk einblínir á að búa til framleiðsluleiðir fyrir fullunnin vara og hálfunnin vara. Þetta er fimmta verkið í línunni Útreikningur uppskrifta. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
 

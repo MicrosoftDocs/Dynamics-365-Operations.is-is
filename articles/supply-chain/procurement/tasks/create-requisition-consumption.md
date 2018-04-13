@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Stofna beiðni um notkun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum ferlið fyrir myndun á innkaupabeiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í þínu innkaupavörulista og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður.  Þetta verk myndi venjulega framkvæmt af starfsmanni. öryggishlutverk Starfsmanns gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem Alicia.
 

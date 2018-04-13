@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Setja upp fjárhagsáætlunargerðar stöðu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet. 
 

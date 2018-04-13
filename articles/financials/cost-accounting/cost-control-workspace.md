@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Yfirlit yfir kostnaðarstýringu 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vinnusvæðið **Kostnaðarstýring** er miðlægur punktur þar sem stjórnendur sem bera ábyrgð á stýringu kostnaðarhlutar eða safni kostnaðarhluta innan víddar eða milli vídda (til dæmis kostnaðarstaðir og afurðahópar), geta sótt skýrslur. Kostnaðarbókarar stýra skýrslum algjörlega á vinnusvæði, þannig að útlit og gögn skýrslugerðarinnar séu eins í öllu fyrirtækinu.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>Búa til Affordable Care Act skýrslur
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C il stuðnings þeim hluta af Affordable Care Act sem snýr að **umboði vinnuveitanda**. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum.
 

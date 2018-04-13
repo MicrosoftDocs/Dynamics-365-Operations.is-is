@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Skoða og meta niðurstöður spurningalista
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Skilgreina áfangastaði fyrir rafræna skýrslugerð (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá. Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF. Þýskaland er land/svæði fyrir aðalaðsetur lögaðila, hins vegar er hægt að nota hvaða lögaðila sem er fyrir þetta ferli. 
 

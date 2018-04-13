@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>Uppsetning bóka
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig á að stofna nýtt eignabók og tengja hana við eignaflokk. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
 

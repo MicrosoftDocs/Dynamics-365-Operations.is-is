@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Skoða færslubókarfærslur og færslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur 
 
@@ -55,7 +54,7 @@ Hægt er að nota eftirfarandi skýrslur fjárhags til að skoða fjárhagsfærs
 -   **Uppruni færslu** – Þessi skýrsla sýnir lykla eftir færslubók og eftir færslu og bókhald og skýrslugjaldmiðil. Hún sýnir einnig hverja línu færslubókarinnar sem var notuð sem mótlykill.
 
 
-##<a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 - [Fjárhagslykilstöður](general-ledger-account-balances.md) 
 - [Skoðun bókhaldsuppruna](..\accounts-payable\accounting-source-explorer.md)
 - [Fjárhagsskýrslugerð](financial-reporting-getting-started.md)

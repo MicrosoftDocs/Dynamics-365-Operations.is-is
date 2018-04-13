@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Færa inn vinnukort verks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýja vinnukort getur verið grunnur upplýsingar frá fyrra vinnukort, eða frá: verk og verkþáttur eftirlætissíða. Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil. Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín
 

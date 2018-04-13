@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Búa til opna spurningu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Opnar spurningar gera svarendur kleift að veita sína eigin svar. Hægt er að stjórna hvort svarið er númer, aukastafi, dagsetningu, athugasemd og svo framvegis. Þetta ferli fer í gegnum ferlið fyrir stofnun tiltekna gerð spurningu, opnar spurningar eru . Til að hefja þetta ferli, farið í Spurningalisti > Hönnun > Spurningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Umreikningur bókhalds- eða skýrslugjaldmiðla
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fyrirtæki°sem verður að breyta bókhaldsgjaldmiðli eða skýrslugjaldmiðli sínum hefur tvo valkostir. Fyrsti valkostur er að stofna nýtt fyrirtæki og byrja upp á nýtt. Annar kostur er að keyra umbreytingarferli bókhalds- og skýrslugjaldmiðla. Þetta er mjög langt ferli sem breytir hverri færslu í kerfinu. Einnig er krafist einhverrar uppsetningar áður en hægt er að keyra ferlið.
 

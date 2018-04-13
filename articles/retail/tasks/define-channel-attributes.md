@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Skilgreina eigindir rásar
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verður rásin við sjálfgefið stigveldi fyrirtækis áður en hægt er að skilgreina eigindir.
 

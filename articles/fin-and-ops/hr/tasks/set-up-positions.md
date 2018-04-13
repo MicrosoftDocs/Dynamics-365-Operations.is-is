@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-positions"></a>Setja upp stöður
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis eru staðan „Sölustjóri (Austur-),“ einungis eitt af stöðum sem tengjast verkinu „Sölustjóri.“ Staða er til í deild og hugsanlega er aðeins einn starfsmaður sem tengist stöðunni. Í þessu verki verður farið í gegnum skrefin sem þarf til að stofna stöðu. Þetta er ferli er ætlað fyrir Sérfræðing mannauðs.
 

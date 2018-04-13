@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-charges-for-a-manufactured-item"></a>Birta gjöld fyrir framleidda vöru
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fastur kostnaður framleiddrar vöru endurspeglar uppsetningartíma og íhlutina sem eru með föstu magni eða fastri rýrnunartölu.
 

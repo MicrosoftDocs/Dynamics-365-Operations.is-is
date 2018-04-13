@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Skilgreina birgðatalningarferli
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skilgreiningu á grunni birgðatalningabókar ferli með því að stofna talningarflokk og talningarbók. Hún líka sýnir hvernig á að virkja talningareglur á stigi vöruhúss og vöru. Þessum verkefnum myndi venjulega að framkvæma með yfirmaður vöruhús. Er skilyrði til að hafa einhverja fyrirliggjandi losaðar afurðir og vöruhús. Ef verið er að nota sýnigögn fyrirtæki er hægt að keyra þetta ferli í USMF fyrirtæki með einhverri vörur í birgðum.
 

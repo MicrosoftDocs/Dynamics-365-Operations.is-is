@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísi fyrir verk sýnir hvernig á að nota komubók til að stofna reikninga.  Nota síðan reikningasafninu til að jafna reikninginn við innkaupapöntun og ljúka kostnað á síðunni reikningur lánardrottins.
 

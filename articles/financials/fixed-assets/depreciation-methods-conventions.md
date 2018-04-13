@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Afskriftaraðferðir og venjur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Hægt er að velja á milli eftirfarandi afskriftaraðferða.
 -   150% bókfært virði
 -   125% bókfært virði
 
- 
+
 
 
 

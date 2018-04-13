@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Tenging við hjálpargögnin
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir þáttum í hjálparkerfinu fyrir Microsoft Dynamics 365 for Finance and Operations. Það veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp. 
 
@@ -42,7 +41,7 @@ Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins í Finance and Operat
 ## <a name="connecting-the-help-system"></a>Tenging við hjálparkerfi
 > [!NOTE]
 > Flipinn **Verkefnaleiðbeiningar** er ekki tiltækur eins og er í Microsoft Dynamics 365 for Talent og Microsoft Dynamics 365 for Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Leiðbeiningar fyrir aðstoð er einnig að finna á docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) fyrir bæði Retail og Talent.
- 
+
 
 Með skjámyndinni **Kerfisfæribreytur** tengja kerfisstjórar stykki í hjálparkerfinu fyrir innleiðingu. [![Snið kerfisfæribreyta með Stillingar fyrir hjálp ](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) á **kerfisfæribreytum** síðunni, skal fylgja þessum skrefum:
 

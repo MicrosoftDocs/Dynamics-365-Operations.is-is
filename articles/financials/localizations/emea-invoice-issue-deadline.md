@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Tímamörk útgáfu reiknings
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig á að setja upp færibreytur til að reikna út gjalddaga fyrir útgáfu reikninga viðskiptavina og reikninga lánardrottins innan Evrópusambandsins (ESB).
 

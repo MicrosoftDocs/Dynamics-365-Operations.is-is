@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Yfirlit afurðarupplýsinga
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Í þessu efnisatriði er að finna upplýsingar um afurðastjórnun. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
 

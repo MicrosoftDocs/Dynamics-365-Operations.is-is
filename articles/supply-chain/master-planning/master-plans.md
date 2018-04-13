@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-plans"></a>Áætlanir
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu á fót, hvað varðar t.d. innri afköst eða ánægju viðskiptavina. 
 

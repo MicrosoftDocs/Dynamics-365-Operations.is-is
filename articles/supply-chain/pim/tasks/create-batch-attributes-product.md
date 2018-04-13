@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Stofna runu runueigindir fyrir afurð
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna runueigind, úthluta sjálfgefin gildissvið, og taka eigindina með í flokk. Sýnigögn fyrirtækisins til að stofna þetta ferli er the USP2 fyrirtæki.
 

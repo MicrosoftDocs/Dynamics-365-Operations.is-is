@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir hvar á að nálgast fjárhagslega skýrslugerð í Microsoft Dynamics 365 for Finance and Operations og hvernig á að nota möguleika fjárhagsskýrslugerð. Inniheldur lýsing á sjálfgefið fjárhagsskýrslur sem er veitt.
 

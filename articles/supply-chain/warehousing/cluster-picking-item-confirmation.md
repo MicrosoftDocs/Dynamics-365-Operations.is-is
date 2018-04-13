@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Staðfesting afurðar fyrir klasatiltekt
 Klasatiltekt gerir kleift að taka til vörur fyrir margar pantanir samtímis. Þegar klasatiltekt er notuð, er vörustaðfesting nauðsynleg svo hægt sé að staðfesta þær vörur sem bætt er við klasa. Hægt er að staðfesta vörur í klasatiltekt á meðan klasatiltekt stendur yfir.
@@ -37,7 +37,8 @@ Vörustaðfesting fyrir klasatiltekt gengur eins fyrir sig og þegar vörur eru 
 1.  Opna uppsetningarskjámynd fyrir vinnustaðfestingu í valmyndaratriði fartækis: **Vöruhúsastjórnun** > **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.
 2.  Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis.
 
-| Valkostur        | lýsing   | 
-| ------------- | ------------- |
-|Staðfesting afurðar | Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er.|
+|        Valkostur        |                                    lýsing                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Staðfesting afurðar | Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er. |
+
 

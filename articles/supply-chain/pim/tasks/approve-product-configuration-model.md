@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Samþykkja afbrigðalíkan afurða
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Keyra þetta ferli krefst sem að minnsta kosti eitt afbrigðalíkan afurðar er tiltækt. Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF. Athugið að þetta líkan hefur þegar verið samþykkt en ferlinu fer í gegnum allt ferlið.
 

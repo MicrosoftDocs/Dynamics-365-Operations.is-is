@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Færa inn samsetningu fyrir lykil og vídd (sundurliðað innfærslustýring)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir því hvenir eigi að færa inn samsetningar reiknings og vídda eða fjárhagslykil. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
 
@@ -112,7 +111,7 @@ Eftirfarandi tafla lýsir flýtivísum á lyklaborði sem hægt er að nota þeg
 </tbody>
 </table>
 
- 
+
 
 
 

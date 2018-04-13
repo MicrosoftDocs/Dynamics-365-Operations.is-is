@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Skilgreina vinnuflokka lean-framleiðslu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vinnuflokkur er tiltekna tegund fyrir tilfangaflokka sem hægt er að nota í lean-framleiðsla verkþætti. Vinnuflokkana hafa ílag og staðsetningar úttaki og skilgreiningu afkastagetu samkvæmt framleiðsluflæðislíkan. Frekari upplýsingar um grunnhugtök lean-framleiðsla vinnuflokka og útreikninga afkasta má sjá í hvítblöð um Lean-framleiðsla. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF
 

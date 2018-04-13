@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp valmyndaratriði fartækis. Í þessu dæmi er Þetta valmyndaratriði notuð til að framkvæma vinnu með gerðinni innkaupapöntun. Vinnuklasi sem er tengdur við valmyndaratriði ákvarðar hvaða vinna er gild. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er yfirleitt framkvæmt af stjórnandi vöruhúss.
 

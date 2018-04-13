@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Stofna innkaupaskilapöntun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna vöruskilapöntun innkaupa, með því að nota aðgerðina kreditnótu til að afrita línur úr reikningsskjal lánardrottins í nýja Innkaupapöntun. Hún sýnir líka hvernig á að staðfesta sendingu og vinna sendingu afurðanna aftur til lánardrottins. Dæmi sem eru sýndar í þessu ferli er hægt að nota sýnigögn USMF-fyrirtækisins. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila.
 

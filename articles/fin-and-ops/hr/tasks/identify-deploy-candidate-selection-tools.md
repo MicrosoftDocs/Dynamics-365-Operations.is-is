@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Auðkenna og beita verkfærum við val á umsækjendum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Finna hæf hóp af umsækjendum til að fylla lausar stöður getur verið erfitt, sérstaklega þegar stöðu krefst sérstaks safns af hæfileikum.  Hins vegar umsækjendur með hæfni sem þarf gæti þegar verið ráðinn í þínu fyrirtæki. Hægt er að leita að sérþekkingu á meðal núverandi starfsmanna eða nýrra umsækjenda. Þetta leyfir ráðningaraðila til að safna og skoða umsækjendur sem hafa sótt um opna stöðu nú eða í áður eða til að finna möguleg umsækjendur úr þeirra fyrirliggjandi hóp starfsmanna. Þessi verkskráningu er notuð til að fræðast um hvernig virkni hæfnisskrár getur hjálpað við að finna réttan einstaklingur fyrir opna stöðu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

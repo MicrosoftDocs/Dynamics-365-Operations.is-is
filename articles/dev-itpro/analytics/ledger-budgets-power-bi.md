@@ -26,8 +26,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="actual-vs-budget-power-bi-content"></a>Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið. 
 
@@ -41,24 +40,25 @@ Skýrslur úr **Raunverulegt samanb. v. áætlun** Power BI efni eru birtar á v
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.
 
-| Skýrsla                      | Einingar |
-|-----------------------------|---------|
-| Útgjöld - rauntölur bornar saman við áætlun | <ul><li>Heildarkostnaður á þessu ári</li><li>Áætlaður heildarkostnaður á þessu ári</li></ul> |
-| Tekjur - Rauntölur bornar saman við áætlun  | <ul><li>Heildartekjur á þessu ári</li><li>Áætlaðar heildartekjur á þessu ári</li><ul> |
-| Útgjöld                     | <ul><li>Heildarkostnaður á þessu ári</li><li>Kostnaðarmarkmið eftir áætlun </li><ul> |
-| Tekjur                     | <ul><li>Heildartekjur á þessu ári</li><li>Tekjumarkmið eftir áætlun </li><ul> |
-| Nettótekjur                  | <ul><li>Nettótekjur á þessu ári</li><li>Nettó tekjumarkmið eftir áætlun </li><ul> |
 
+|           Skýrsla            |                                       Einingar                                        |
+|-----------------------------|--------------------------------------------------------------------------------------|
+| Útgjöld - rauntölur bornar saman við áætlun |  <ul><li>Heildarkostnaður á þessu ári</li><li>Áætlaður heildarkostnaður á þessu ári</li></ul>  |
+| Tekjur - Rauntölur bornar saman við áætlun  |   <ul><li>Heildartekjur á þessu ári</li><li>Áætlaðar heildartekjur á þessu ári</li><ul>    |
+|           Útgjöld           | <ul><li>Heildarkostnaður á þessu ári</li><li>Kostnaðarmarkmið eftir áætlun </li><ul> |
+|           Tekjur           |  <ul><li>Heildartekjur á þessu ári</li><li>Tekjumarkmið eftir áætlun </li><ul>  |
+|         Nettótekjur          |  <ul><li>Nettótekjur á þessu ári</li><li>Nettó tekjumarkmið eftir áætlun </li><ul>  |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-| Eining                    | Innihald |
-|---------------------------|----------|
-| Fjárhagsaðgerðir | Færsluupphæðir fyrir fjárhag |
-| Fjárhagsáætlunaraðgerðir         | Færsluupphæðir fyrir áætlunarskrá |
-| Aðallyklar             | Aðallyklar til að sía skýrslur eftir |
-| Fjárhagsdagatöl          | Fjárhagsdagatöl til að sía skýrslur eftir |
-| Fjárhagur                   | Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag |
-| Fjárhagsáætlunarkóðar              | Fjárhagsáætlunarkóðar til að sía skýrslur eftir |
-| Lögaðilar            | Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila |
+|          Eining           |                                     Innihald                                     |
+|---------------------------|----------------------------------------------------------------------------------|
+| Fjárhagsaðgerðir |                    Færsluupphæðir fyrir fjárhag                    |
+|     Fjárhagsáætlunaraðgerðir     |                   Færsluupphæðir fyrir áætlunarskrá                    |
+|       Aðallyklar       |                        Aðallyklar til að sía skýrslur eftir                        |
+|     Fjárhagsdagatöl      |                      Fjárhagsdagatöl til að sía skýrslur eftir                       |
+|          Fjárhagur          |       Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag        |
+|       Fjárhagsáætlunarkóðar        |                        Fjárhagsáætlunarkóðar til að sía skýrslur eftir                         |
+|      Lögaðilar       | Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila |
+
 

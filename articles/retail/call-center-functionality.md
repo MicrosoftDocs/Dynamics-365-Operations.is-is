@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Símaversvirkni
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir söluvirkni símavera í Microsoft Dynamics 365 for Retail.
 

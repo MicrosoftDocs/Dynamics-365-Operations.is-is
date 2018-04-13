@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Nota samfelldniáætlun
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum að selja samfelldniáætlanir og vinna úr tengdar sölupantanir. Til að ljúka við þetta ferli, þarf notandi að vera settur upp sem notandi símavers. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

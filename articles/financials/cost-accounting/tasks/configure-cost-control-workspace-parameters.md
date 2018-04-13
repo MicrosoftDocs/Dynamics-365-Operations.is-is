@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stjórnendur á ýmsum stigum í fyrirtæki geti fengið innsýn inn í kostnaðarhluta þess, eins og og kostnaðarstaði og vöruflokka. USP2 sýnifyrirtækið var notað til að stofna þessa skráningu.
 

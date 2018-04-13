@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Fylgjast með keyrslu áætlanagerðar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Framleiðslustjóri vill sjá hvort keyrslu áætlunargerðar sé í gangi. Nota Sýnifyrirtækið USMF til að ljúka þetta ferli.
 

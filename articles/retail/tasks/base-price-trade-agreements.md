@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Grunnverð og verðsamningar
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum stofnun söluverð bundnum við rás viðskiptasamninga. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

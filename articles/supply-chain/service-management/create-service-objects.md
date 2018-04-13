@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Stofna þjónustuhluta  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
    
 Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við. 
 

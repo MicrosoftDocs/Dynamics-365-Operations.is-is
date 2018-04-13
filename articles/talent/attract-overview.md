@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>Yfirlit yfir Attract
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Attract veitir færni til að stjórna ferli við ráðningu nýrra starfsmanna. Hægt er að bæta umsækjendum við opin störf og flytja stig af stigi þar til tilboð hefur verið framlengt eða umsókn er hafnað. Á hverju stigi fara umsækjendur gegnum aðgerðir á borð við að forgangsraða símtölum, mat eða bóka viðtöl. Eftir umsókn fá umsækjendur tölvupóst þar sem þei mer boðið að skrá inn í Attract og þar geta þeir fylgst með stöðu starfsins og eigin umsókn og brugðist við þeim verkefnum sem þeim er úthlutað.
 

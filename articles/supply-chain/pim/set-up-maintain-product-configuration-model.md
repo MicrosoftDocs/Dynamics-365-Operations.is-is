@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="set-up-a-product-configuration-model"></a>Setja upp afbrigðalíkan afurðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir því hvernig afbrigðalíkan afurðar er sett upp og stofnað.
 

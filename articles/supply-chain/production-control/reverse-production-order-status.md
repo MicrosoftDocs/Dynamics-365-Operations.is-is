@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-the-production-order-status"></a>Bakfæra stöðu framleiðslupöntunar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því skal bakfæra stöðu framleiðslupöntunar. 
 

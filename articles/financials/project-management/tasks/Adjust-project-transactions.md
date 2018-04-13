@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Leiðrétta verkfærslur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessar verkleiðbeiningar sýna hvernig færlsur í verki eru leiðréttar. Hins vegar er hægt að leiðrétta verkfærslur, eina í einu, eða velja úr lista yfir allar verkfærslur. Yfirmaður verks lýkur yfirleitt þessu verki. Þessar verkleiðbeiningar nota USSI-gagnasafn.
 

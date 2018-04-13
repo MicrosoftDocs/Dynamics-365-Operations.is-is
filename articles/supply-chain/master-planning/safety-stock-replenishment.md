@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Uppfylling öryggisbirgða fyrir vörur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Öryggisbirgðir gefa til kynna viðbótar magn af vöru sem er geymt í birgðum til að draga úr hættu á að varan verði uppseld. Öryggisbirgðir eru notaðar sem geymslubirgðir ef sölupantanir koma inn og birgir getur ekki afhent viðbótar vöruna til að veða við umbeðinni sendingardagsetningu viðskiptavinarins. Þegar öryggisbirgðir er notaður til að uppfylla sölupöntun verða öryggisbirgðirnar minnkaðar. Þú getur notað Aðaláætlanagerð til að sjálfkrafa færa birgðirnar aftur á öryggisstigið.    
 

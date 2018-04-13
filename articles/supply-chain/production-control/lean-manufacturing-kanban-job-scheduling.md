@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Áætlun kanban-vinnslu fyrir lean-framleiðslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um sjónræna stjórnun á vinnsluröðun kanban-vinnsla og mismunandi leiðir til að raða kanban-vinnslum.  
 

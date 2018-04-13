@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Vinna með upplýsingar um meiðsl og veikindi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Mælt er með að ljúka við "Uppsetningu meiðsla og veikinda' leiðarvísi fyrir verk fyrst þar sem sum uppsetningu upplýsingar er notuð hér. 
 

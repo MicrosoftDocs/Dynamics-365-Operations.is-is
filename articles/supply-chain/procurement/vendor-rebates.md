@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Eftirágreiddur afsláttur lánardrottins
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
 

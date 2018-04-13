@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Stofna launafyrirkomulag fastra launa
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
 

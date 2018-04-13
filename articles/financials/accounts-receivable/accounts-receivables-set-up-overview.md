@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Stilla viðskiptakröfur og skuldir og innheimtu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum.
 
@@ -107,7 +106,7 @@ Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og 
 |                                                      | Upplýsingar um innistæðulausa sjóði (NSF).                     | Setja upp NSF-upplýsingar um bankareikninginn sem verða notaðar þegar greiðsla er merkt sem NSF færsla á síðu Innheimtu.                                                                                                                                              |
 |                                                      | Upplýsingar um söluaðila              | Setja upp netfang söluaðila. Þessi netföng mun birtast á síðunni Innheimtur og hægt er að nota þær til að senda tölvupóst til söluaðila frá þeirri síðu.                                                                                                                |
 
- 
+
 Nánari upplýsingar má nálgast á [Skuldir og innheimtur í viðskiptakröfum](collections-credit-accounts-receivable.md)
 
 

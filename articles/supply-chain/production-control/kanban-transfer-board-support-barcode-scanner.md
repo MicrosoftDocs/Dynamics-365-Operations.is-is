@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
 
@@ -38,6 +37,7 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 ------------------
 
 Á **skráning Skanna** flýtiflipa er hægt að velja skráningarham sem stýrir aðgerðinni þegar kanban-spjaldnúmer er skannað eða númerið slegið handvirkt inn í númerareit kanban-spjalds.
+
 | Stilla skráningarham | Lýsing                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Hefja                 | Skrá flutningsvinnslu kanbans sem í vinnslu                                                 |

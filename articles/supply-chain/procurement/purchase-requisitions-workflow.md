@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Verkflæðisferlið færir innkaupabeiðnir í endurskoðunarferli úr upphaflegu stöðunni Drög í endanlegu stöðuna Samþykkt. Þegar innkaupabeiðni er sent til endurskoðunar, hefst verkflæðisferli. Eftir að innkaupabeiðnin er samþykkt getir innkaupapöntun verið myndað fyrir innkaupabeiðnilínur og send til lánardrottins fyrir uppfyllingu pöntunar.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyrir afsláttardagsetninguna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein fer í gegnum aðstæður þar sem hlutagreiðslur eru greiddar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn.
 

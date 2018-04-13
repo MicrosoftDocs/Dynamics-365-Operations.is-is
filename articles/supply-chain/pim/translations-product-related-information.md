@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Algengar spurningar um afurðartengdar þýðingar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig stjórna þýðingar fyrir afurðir afurðarvíddargildi og afurðaeigindir. 
 
@@ -95,8 +94,7 @@ Viðskiptavinur vill kaupa litla rauðaskyrtu og nafn á skyrtunni verður birta
 <tbody>
 <tr class="odd">
 <td>Til að stilla æskilegt tungumál viðskiptavinar, skal fylgja þessum skrefum:
-<ol>  
-<li>Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong><strong>viðskiptavinir</strong>.</li>
+<ol><br/><li>Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong><strong>viðskiptavinir</strong>.</li>
 <li>Tvísmellið á viðskiptavin til að opna skjámyndina <strong>Viðskiptavinir</strong>. Á flipanum <strong>Almennt</strong>, á svæðinu <strong>Tungumál</strong> skal velja <strong>Tungumál</strong>.</li>
 </ol></td>
 </tr>

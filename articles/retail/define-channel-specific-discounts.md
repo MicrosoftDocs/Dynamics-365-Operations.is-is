@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Skilgreina afslætti sem tengjast tilteknum rásum
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás. 
 
@@ -61,7 +60,7 @@ Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rása
 4.  Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu. **Afsláttarverðflokka** síðan opnast. Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.
 5.  Nú hægt að virkja afsláttinn og færa hann í rás.
 
- 
+
 
 <a name="see-also"></a>Sjá einnig
 --------

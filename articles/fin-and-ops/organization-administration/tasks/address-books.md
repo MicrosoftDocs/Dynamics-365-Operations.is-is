@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Grunnstilla aðsetursbækur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Notið þetta ferli og ákvarðanir sem gerðar voru í Áætlanagerð grunnstillingar fyrir altæka aðsetursbók og viðbótarefnisatriði aðsetursbóka til að setja upp viðbótaraðsetursbækur fyrir fyrirtækið.
 

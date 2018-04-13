@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Fjárhagsstjórnun – heimasíða
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations. 
 

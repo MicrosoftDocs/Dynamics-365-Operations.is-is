@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>Setja upp upplýsingar um meiðsl og veikindi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða fyrir meiðsla eða veikinda vegna hættu á vinnustað. Hægt er að nota síðuna meiðsli og veikindi til að setja upp upplýsingarnar sem auðveldar að veita skýrslu um meiðsla eða veikinda á vinnustað . Hægt er að setja upp gerðir meiðsla og veikinda, þar á meðal meðhöndlun, kostnað og niðurstöður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Margir smásalar vilja hámarka uppfyllingu pöntunar með því að gera verslanir kleift að fylla pantanir. Pöntunaruppfylling á verslunarstiginu getur hjálpað til við að draga úr hárri birgðastöðu fyrir tiltekna verslun, eða gæti verið nauðsynleg út frá skipulagslegu sjónarmiði í þeim tilvikum þar sem verslun hefur auka rúmtak eða er staðsett í minni flutningsfjarlægð frá viðskiptavininn. Til að bregðast við þessari þörf er í boði samræmd pöntunaruppfyllingaraðgerð við sölustað.
 

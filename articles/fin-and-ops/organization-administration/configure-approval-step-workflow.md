@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Skilgreining samþykktarskrefs í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs.
 
@@ -145,9 +144,9 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið fram yfir á tíma. Skjal sem er komið fram yfir á tíma er stigmagnað, á grundvelli valkostanna sem þú valdir í **stigmögnun** svæðið á síðunni.
 4.  Ef samþykktarskrefið var úthlutað til margra notenda eða flokk af notendum, á **regla um lok** flipanum, veljið einn af eftirfarandi valkostum:
     -   **Stakur samþykktaraðili** - aðgerðin fyrir skjalið ákveðin af fyrsta aðilanum sem bregst við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja er sú fyrsta sem bregst við skjalinu þá er hennar aðgerð notuð fyrir skjalið. Ef Brynja hafnar skjalinu þá er því hafnað og sent tilbaka til Samúels. Þegar Brynja samþykkir skjalið er það sent til Önnu til samþykktar. 
-    
+
     ![Verkflæði sem er með samþykktarferli](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Meirihluti samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar flestir af samþykktaraðilum bregðast við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið.
         -   Ef Brynja samþykkir skjalið og Guðrún hafnar því þá er því hafnað og sent tilbaka til Samúels.
         -   Ef Brynja og Guðrún samþykkja skjalið þá er skjalið sent til Önnu til samþykktar.

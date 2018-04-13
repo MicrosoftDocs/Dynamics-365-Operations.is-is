@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>fjárhagsskýrslur Prófjafnaðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir sjálfgefnum skýrslum fyrir prófjöfnuði. Hún lýsir einnig einingum sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslum eftir þörfum. 
 
@@ -99,7 +98,7 @@ Hver skýrslu prófjöfnuðar notar mismunandi dálkskilgreiningu. Þessar dálk
     -   **FD** – Fjárhagsgögn sem inniheldur aðeins debet fyrir síðasta ár
     -   **FD** – Fjárhagsgögn sem inniheldur aðeins kredit fyrir síðasta ár
 
- 
+
 
 <a name="see-also"></a>Sjá einnig
 --------

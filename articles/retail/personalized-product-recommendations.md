@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Yfirlit yfir sérsniðnar afurðarráðleggingar
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum. Sjá [Fjarlægðir eða úreltir eiginleikar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features) fyrir frekari upplýsingar. Farið neðst á síðuna ef vandamál koma upp vegna ráðleggingar um vörur sem þegar hafa verið virkjaðar fyrir umhverfið þitt. 
@@ -86,9 +85,9 @@ Til að setja upp ráðleggingar vöru þarf að gera eftirfarandi.
 -   Líkanaskilríki og kenni eru gerð tiltæk á CRT þannig að hægt sé að vinna ráðleggingarbeiðnir vara úr sölukerfi í skýinu og MPOS í nettengdri stillingu.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar 
->- Flettið upp á **Retail færibreytum** > **Vélnám** > **Slökkva á ráðleggingum um vörur** og keyra **Altæka skilgreiningarvinnslu [1110]**. Ef ekki er hægt að finna flipann **Vélnám** skal hafa samband við Dynamics Support. 
-
->- Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka. 
+> - Flettið upp á **Retail færibreytum** > **Vélnám** > **Slökkva á ráðleggingum um vörur** og keyra **Altæka skilgreiningarvinnslu [1110]**. Ef ekki er hægt að finna flipann **Vélnám** skal hafa samband við Dynamics Support. 
+> 
+> - Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka. 
 
 
 

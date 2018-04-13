@@ -23,14 +23,14 @@ ms.contentlocale: is-is
 ms.lasthandoff: 09/29/2017
 
 ---
-# Stofna kanban-reglu með lágmarksbirgðatilviki
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Stofna kanban-reglu með lágmarksbirgðatilviki
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-regla með því að nota tilvik lágmarksbirgða til að tryggja að tiltekinni vöru sé alltaf tiltækt á tiltekinn stað. Kanban-regla er stofnuð til að flytja efni til staðsetningar þegar birgðastigið fer niður fyrir 200 stykki. Með því að keyra vinnslu þarfarakningartilviks, eru nauðsynleg kanbön stofnaðar. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.
 
 
-## Stofna nýja kanban-reglu
+## <a name="create-a-new-kanban-rule"></a>Stofna nýja kanban-reglu
 1. Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.
 2. Smellið á „Nýtt“.
 3. Veljið í svæðinu gerð „afturköllun".
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 9. Í reitnum tilvik birgðaáfyllingar, skal velja ‚runa.
     * Þetta stofnar Kanban til að uppfylla efnisþörfum tengdri staðsetningu meðan stendur á vinnsla Þarfarakningartilvika.  
 
-## Stilltu Lágmarksmagn vöru
+## <a name="set-the-minimum-quantity-for-the-item"></a>Stilltu Lágmarksmagn vöru
 1. Smellið til að elta tengilinn í reitnum afurð.
 2. Smellið til að elta tengilinn í reitnum vörunúmer.
 3. Útvíkka Upplýsingakassa mynd Afurðar.
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
     * Stilltu Vöruhús á 12.  
 9. Lágmark er stillt á "200".
 
-## Keyra vinnsluna stofnun runutilviks
+## <a name="run-the-batch-event-creation-job"></a>Keyra vinnsluna stofnun runutilviks
 1. Fara í Framleiðslustýringar > Reglubundin verkefni > Runuvinnsla Kanban-vinnslu > Vinnsla þarfarakningartilvika.
 2. Smellið á „Í lagi“.
 3. Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.

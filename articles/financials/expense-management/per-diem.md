@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Reglur um dagpeninga
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Dagpeningur* er uppihaldskostnaður sem er greiddur starfsmönnum sem ferðast vegna vinnu. Í útgjaldastýringu er hægt að stofna dagpeningareglu fyrir mismunandi ferðaástæður. Dagpeningataxti getur byggt á árstíma, ferðastað eða hvoru tveggja. Þegar dagpeningaregla er stofnuð er hægt að tilgreina að prósenta af dagpeningataxta verði haldið eftir ef starfsmaður fær ókeypis fæði eða þjónustu. Einnig er hægt að stilla mesta og minnsta fjölda klukkustunda sem dagpeningataxtinn getur átt við á ferðalögum starfsmanns.
 

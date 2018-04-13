@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Skilgreina greiðsluskilmála lánardrottna
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Setja upp greiðsluskilmála fyrir reikninga lánardrottins. Þetta verkefni notar USMF-sýnifyrirtækið.
 

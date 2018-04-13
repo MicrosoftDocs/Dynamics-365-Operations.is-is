@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Stofna útgefna afurð fyrir stakt fyrirtæki
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig skal stofna eina losaða afurð í einni einingu lögaðila. Eftir að útgefin afurð er stofnuð er hún strax tiltæk í þessari einingu aðeins. Þú getur farið í gegnum þetta ferli í sýnifyrirtækinu USMF. Þetta verk er yfirleitt framkvæmd af vöruhönnuður.
 

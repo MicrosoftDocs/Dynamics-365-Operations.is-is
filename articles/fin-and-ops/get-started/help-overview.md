@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Yfirlit yfir hjálparkerfi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
 

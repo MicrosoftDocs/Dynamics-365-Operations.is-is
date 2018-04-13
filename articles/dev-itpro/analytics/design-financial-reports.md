@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Skoða og setja upp fjárhagsskýrslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Finance and Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Dynamics 365 for Finance and Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrslum.  
 

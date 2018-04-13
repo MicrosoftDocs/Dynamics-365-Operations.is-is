@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessi aðgerð verður stöðvuð í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations. Þess vegna mælum við með því að nota ekki þessa bókunaraðferð vegna áhrifa bókhalds á vinnslu jöfnunar. 
 
@@ -251,7 +250,7 @@ Til að forðast óæskilegar vandamál við síðari jafnanir fyrir þessa fær
 | 001         | Viðskiptavinur         | US-008      |                 |           |  75,00     | Fjárhagur          | 999999---          |
 | 002         | Lánardrottinn           | 1001        |                 |  75,00    |            | Fjárhagur          | 999999---          |
 
- 
+
 
 
 

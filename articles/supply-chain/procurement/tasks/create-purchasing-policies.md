@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-purchasing-policies"></a>Búa til innkaupastefnu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna innkaupareglur til samræmis við viðskiptaferli þín fyrir innkaup. Áður en hægt er að stofna innkaupastefnur þarf að setja upp færibreytur fyrir innkaupastefnu. Hægt er að stofna, breyta og hætta við innkaupastefna en ekki er hægt að eyða innkaupastefna. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
