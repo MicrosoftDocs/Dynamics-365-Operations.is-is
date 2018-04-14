@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4cdc0b480649bc07d423372651f50d5451ac7675
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-financial-reports"></a><span data-ttu-id="ebd3e-104">Skoða fjárhagsskýrslur</span><span class="sxs-lookup"><span data-stu-id="ebd3e-104">View financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ebd3e-105">Þessi grein lýsir hvernig eigi að skoða og kanna fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ebd3e-105">This article describes how to view and explore financial reports in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="ebd3e-106">Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.</span><span class="sxs-lookup"><span data-stu-id="ebd3e-106">It includes information about the various options that you can apply to financial reports to change their appearance and the data that they include.</span></span>
 

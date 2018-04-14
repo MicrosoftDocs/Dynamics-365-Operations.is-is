@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 15d4fce4e07030826a7c131ae323a4067471b38e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
 ms.contentlocale: is-is
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="ad373-103">Setja upp upplýsingar um meiðsl og veikindi</span><span class="sxs-lookup"><span data-stu-id="ad373-103">Set up injury and illness information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ad373-104">Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða fyrir meiðsla eða veikinda vegna hættu á vinnustað.</span><span class="sxs-lookup"><span data-stu-id="ad373-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="ad373-105">Hægt er að nota síðuna meiðsli og veikindi til að setja upp upplýsingarnar sem auðveldar að veita skýrslu um meiðsla eða veikinda á vinnustað .</span><span class="sxs-lookup"><span data-stu-id="ad373-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="ad373-106">Hægt er að setja upp gerðir meiðsla og veikinda, þar á meðal meðhöndlun, kostnað og niðurstöður.</span><span class="sxs-lookup"><span data-stu-id="ad373-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="ad373-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="ad373-107">The demo data company used to create this procedure is USMF.</span></span>
 

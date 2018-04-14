@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="e1f93-103">Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni</span><span class="sxs-lookup"><span data-stu-id="e1f93-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="e1f93-104">Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða.</span><span class="sxs-lookup"><span data-stu-id="e1f93-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="e1f93-122">VSK = 25%, notar útreikningsaðferð fyrir prósentu af brúttóupphæð</span><span class="sxs-lookup"><span data-stu-id="e1f93-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="e1f93-123">Ef nettóupphæðin er 10,00 þá er Gjald 1 1,00 (10,00 x 10%) og Gjald 2 2,00 ( 10,00 x 20%).</span><span class="sxs-lookup"><span data-stu-id="e1f93-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="e1f93-124">Upphæðirnar yrðu eftirfarandi: Brúttóupphæð: Nettóupphæð + upphæð GJALD 1 + upphæð GJALD 2 (10,00 + 1,00 + 2,00) = 13,00 VSK = 13,00 x 25% = 3,25 Samtals GJÖLD og VSK: 1,00 + 2,00 + 3,25 = 6,25 Heildarupphæð: 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="e1f93-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="e1f93-125">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="e1f93-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e1f93-126">Aðeins er hægt að nota einn VSK-kóða með Uppruna = Prósenta af brúttóupphæð fyrir færslu.</span><span class="sxs-lookup"><span data-stu-id="e1f93-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="e1f93-127">Ef fleiri en einn slíkur skattkóði er ákvarðaður fyrir færslu birtist villa um að ekki sé hægt að reikna út virðisaukaskatt.</span><span class="sxs-lookup"><span data-stu-id="e1f93-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="e1f93-128">Prósenta af VSK</span><span class="sxs-lookup"><span data-stu-id="e1f93-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="e1f93-136">VSK = 25%, notar aðferð fyrir prósentu af brúttóupphæð</span><span class="sxs-lookup"><span data-stu-id="e1f93-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="e1f93-137">Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Brúttóupphæð: 10,00 + 1,00 + 0,20 = 11,20 VSK: 11,20 x 25% = 2.80 Samtals GJÖLD og VSK: 1,00 + 0,20 + 2,80 = 4,00 Heildarupphæð: 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="e1f93-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="e1f93-138">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="e1f93-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e1f93-139">Margstiga skattur í skattaútreikningum er ekki mögulegur.</span><span class="sxs-lookup"><span data-stu-id="e1f93-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="e1f93-140">Ekki er hægt að reikna út skatt á grundvelli skatts sem þegar er reiknaður út frá öðrum skatti.</span><span class="sxs-lookup"><span data-stu-id="e1f93-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="e1f93-141">Hægt er að reikna marga eins stigs skatta í skattkóðum í færslu.</span><span class="sxs-lookup"><span data-stu-id="e1f93-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="e1f93-146">Dæmi</span><span class="sxs-lookup"><span data-stu-id="e1f93-146">Example</span></span>
 
 <span data-ttu-id="e1f93-147">Vsk-kóðinn er settur upp sem: 1,20 USD á hverja einingu = kassi Á sölureikningslínu 25 kassar af vöru eru seldir VSK er reiknaður sem 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="e1f93-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="e1f93-148">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="e1f93-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e1f93-149">Ef færslan er færð inn í aðra einingu en einingu sem er tilgreind á VSK-kóða, umreiknast hún sjálfkrafa á grundvelli einingaumreikninga sem eru settir upp á síðunni Umreikningur eininga.</span><span class="sxs-lookup"><span data-stu-id="e1f93-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

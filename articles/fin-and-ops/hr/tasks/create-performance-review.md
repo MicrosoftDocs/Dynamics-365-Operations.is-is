@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 21366e82be8ddfcc608164c0a4a98e321799a67c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
 ms.contentlocale: is-is
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="ab2db-103">Stofna frammistöðumat</span><span class="sxs-lookup"><span data-stu-id="ab2db-103">Create a performance review</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ab2db-104">Þetta ferli sýnir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar.</span><span class="sxs-lookup"><span data-stu-id="ab2db-104">This procedure shows how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="ab2db-105">Þetta ferli var stofnað með því að nota sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="ab2db-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="ab2db-106">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="ab2db-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

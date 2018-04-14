@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="20f48-103">Setja upp RFM-greiningu</span><span class="sxs-lookup"><span data-stu-id="20f48-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="20f48-104">Í þessu efnisatriði er útskýrt hvernig til að setja upp Nýleikastig, Tíðnistig og Peningastig (RFM) greiningar viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="20f48-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="20f48-126">Ef hver hluti RFM stigaskors verður að innihalda jafnan fjöldi viðskiptavinum, veljið þá **Jöfn dreifing** gátreitinn.</span><span class="sxs-lookup"><span data-stu-id="20f48-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="20f48-127">Velja skal **Bæta við stigaskori** gátreit til að steypa saman öllum þremur stigaskorum.</span><span class="sxs-lookup"><span data-stu-id="20f48-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="20f48-128">Þetta, til dæmis, myndi veita viðskiptavini RFM skor upp á 13 í stað 535.</span><span class="sxs-lookup"><span data-stu-id="20f48-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="20f48-129">Velja skal **Vista feril** gátreit til að krefja kerfið til að vista tölfræðileg gögn fyrir viðskiptavini þannig að gögnin sé hægt er að nota til að reikna út RFM skorið.</span><span class="sxs-lookup"><span data-stu-id="20f48-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="20f48-130">Á flýtiflipanum **Nýleiki** er eftirfarandi gert:</span><span class="sxs-lookup"><span data-stu-id="20f48-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="20f48-131">Í því **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út á nýleikaskor fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="20f48-132">Til dæmis, ef þú átt 100 viðskiptavinir þýðir skipting upp á 5 að það eru 20 viðskiptavina fyrir hvert stig.</span><span class="sxs-lookup"><span data-stu-id="20f48-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="20f48-133">Þeir 20 viðskiptavinir sem hafa gert innkaup nýlega hafa nýleikaskor 5.</span><span class="sxs-lookup"><span data-stu-id="20f48-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="20f48-134">Næstu 20 viðskiptavinir hafa nýleikaskor 4, og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="20f48-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="20f48-135">Ef 50 viðskiptavini, 10 viðskiptavinir hafa stig recency upp á 5, 10 hafa recency stig 4 og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="20f48-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="20f48-136">Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa nýleikafæribreytu miðað við aðrar færibreytur þegar RFM skorið er reiknuð út fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="20f48-137">Til dæmis gætirðu lagt hærra gildi á nýleikastig en á peningastig.</span><span class="sxs-lookup"><span data-stu-id="20f48-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="20f48-138">Í **Margfaldari** svæðinu, færið inn gildi sem á að margfalda nýleikaskor með.</span><span class="sxs-lookup"><span data-stu-id="20f48-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="20f48-139">Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað.</span><span class="sxs-lookup"><span data-stu-id="20f48-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="20f48-140">Í því **Tímabil** svæðinu, veljið það tímabil þar sem nýleikaskor er reiknuð.</span><span class="sxs-lookup"><span data-stu-id="20f48-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="20f48-141">Til dæmis eftir viku eða mánuð.</span><span class="sxs-lookup"><span data-stu-id="20f48-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="20f48-142">Á flýtiflipanum **Tíðni** er eftirfarandi gert:</span><span class="sxs-lookup"><span data-stu-id="20f48-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="20f48-143">Í **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út tíðniskor fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="20f48-144">Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa tíðnifæribreytu miðað við aðrar þegar RFM skorið er reiknuð út fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="20f48-145">Í **Margfaldari** svæðinu, færið inn gildi sem margfalda á tíðniskor með.</span><span class="sxs-lookup"><span data-stu-id="20f48-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="20f48-146">Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað.</span><span class="sxs-lookup"><span data-stu-id="20f48-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="20f48-147">Á flýtiflipanum **Peningalegt** er eftirfarandi gert:</span><span class="sxs-lookup"><span data-stu-id="20f48-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="20f48-148">Í **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út á peningalegt skor fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="20f48-149">Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa peningafæribreytu miðað við aðrar þegar RFM skorið er reiknuð út fyrir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="20f48-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="20f48-150">Í **Margfaldari** svæðinu, færið inn gildi sem margfalda á peningaskorið með.</span><span class="sxs-lookup"><span data-stu-id="20f48-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="20f48-151">Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað.</span><span class="sxs-lookup"><span data-stu-id="20f48-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="20f48-152">Í **Brúttó/nettó** svæðið, skal velja hvort eigi að reikna peningaskor viðskiptavinar með því að nota brúttó eða nettó reikningsupphæð.</span><span class="sxs-lookup"><span data-stu-id="20f48-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="20f48-153">Ef skilaupphæðir viðskiptavinar ætti að draga frá heildarútreikningi reiknings viðskiptavinar, veljið þá **Draga frá skil** gátreitinn.</span><span class="sxs-lookup"><span data-stu-id="20f48-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="20f48-154">Skoða rfm-stig viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="20f48-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="20f48-155">Nota þetta ferli til að samþykkja RFM-stig viðskiptamanns.</span><span class="sxs-lookup"><span data-stu-id="20f48-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

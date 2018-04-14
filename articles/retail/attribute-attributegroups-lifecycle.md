@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="c34e4-102">Eigindir, eigindaflokkar og tengingar þeirra við ýmsar Retail einingar í Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="c34e4-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c34e4-103">*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis).</span><span class="sxs-lookup"><span data-stu-id="c34e4-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="c34e4-104">Í Microsoft Dynamics 365 for Finance and Operations geta eigindi tengst ýmsum Retail eigindum, svo sem afurðaflokkum og smásölurásum og hægt er að stilla sjálfgildi fyrir þær.</span><span class="sxs-lookup"><span data-stu-id="c34e4-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="c34e4-105">Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum.</span><span class="sxs-lookup"><span data-stu-id="c34e4-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="c34e4-106">Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.</span><span class="sxs-lookup"><span data-stu-id="c34e4-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="c34e4-307">Á flýtiflipanum **Afurðir** skal velja nauðsynlega afurð og velja síðan **Eigindir** fyrir ofan afurðarhnit.</span><span class="sxs-lookup"><span data-stu-id="c34e4-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="c34e4-308">Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:</span><span class="sxs-lookup"><span data-stu-id="c34e4-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="c34e4-309">Sameiginlegir afurðamiðlar</span><span class="sxs-lookup"><span data-stu-id="c34e4-309">Shared product media</span></span>
-    - <span data-ttu-id="c34e4-310">Eigindi samnýttrar afurðar</span><span class="sxs-lookup"><span data-stu-id="c34e4-310">Shared product attributes</span></span>
-    - <span data-ttu-id="c34e4-311">Miðlar rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-311">Channel media</span></span>
-    - <span data-ttu-id="c34e4-312">Afurðareigindir rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-312">Channel product attributes</span></span>
+   - <span data-ttu-id="c34e4-309">Sameiginlegir afurðamiðlar</span><span class="sxs-lookup"><span data-stu-id="c34e4-309">Shared product media</span></span>
+   - <span data-ttu-id="c34e4-310">Eigindi samnýttrar afurðar</span><span class="sxs-lookup"><span data-stu-id="c34e4-310">Shared product attributes</span></span>
+   - <span data-ttu-id="c34e4-311">Miðlar rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-311">Channel media</span></span>
+   - <span data-ttu-id="c34e4-312">Afurðareigindir rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="c34e4-313">Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.</span><span class="sxs-lookup"><span data-stu-id="c34e4-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="c34e4-313">Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.</span><span class="sxs-lookup"><span data-stu-id="c34e4-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Vörulisti yfir eigindaflokka afurðar](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="c34e4-321">Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:</span><span class="sxs-lookup"><span data-stu-id="c34e4-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="c34e4-322">Sameiginlegir afurðamiðlar</span><span class="sxs-lookup"><span data-stu-id="c34e4-322">Shared product media</span></span>
-    - <span data-ttu-id="c34e4-323">Eigindi samnýttrar afurðar</span><span class="sxs-lookup"><span data-stu-id="c34e4-323">Shared product attributes</span></span>
-    - <span data-ttu-id="c34e4-324">Miðlar rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-324">Channel media</span></span>
-    - <span data-ttu-id="c34e4-325">Afurðareigindir rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-325">Channel product attributes</span></span>
+   - <span data-ttu-id="c34e4-322">Sameiginlegir afurðamiðlar</span><span class="sxs-lookup"><span data-stu-id="c34e4-322">Shared product media</span></span>
+   - <span data-ttu-id="c34e4-323">Eigindi samnýttrar afurðar</span><span class="sxs-lookup"><span data-stu-id="c34e4-323">Shared product attributes</span></span>
+   - <span data-ttu-id="c34e4-324">Miðlar rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-324">Channel media</span></span>
+   - <span data-ttu-id="c34e4-325">Afurðareigindir rásar</span><span class="sxs-lookup"><span data-stu-id="c34e4-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="c34e4-326">Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.</span><span class="sxs-lookup"><span data-stu-id="c34e4-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="c34e4-326">Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.</span><span class="sxs-lookup"><span data-stu-id="c34e4-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

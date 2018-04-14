@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
 ms.contentlocale: is-is
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="df219-103">Setja upp fjárhagsbókunarflokka fyrir virðisaukaskatt</span><span class="sxs-lookup"><span data-stu-id="df219-103">Set up ledger posting groups for sales tax</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="df219-104">Vsk er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbókunarflokkur.</span><span class="sxs-lookup"><span data-stu-id="df219-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="df219-105">Fjárhagsbókunarflokkar eru tengdir hverri vsk-kóða.</span><span class="sxs-lookup"><span data-stu-id="df219-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="df219-106">Geturðu uppsett einstaka fjárhagsbókunarflokkur fyrir hvern VSK-kóði, notað einn fjárhagsbókunarflokkur fyrir VSK-kóði eða úthluta mörgum fjárhagsbókunarflokkur í VSK-kóði.</span><span class="sxs-lookup"><span data-stu-id="df219-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="df219-107">Þessi skráning notar sýnigögn DEMF fyrirtækis</span><span class="sxs-lookup"><span data-stu-id="df219-107">This recording uses the DEMF demo company.</span></span> 
 

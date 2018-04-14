@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ee2295c44a5b037b66c756cd91193a8ad09f1e6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="3e296-105">Miðstýrðar greiðslur fyrir viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="3e296-105">Centralized payments for Accounts payable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3e296-106">Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="3e296-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="3e296-107">Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila.</span><span class="sxs-lookup"><span data-stu-id="3e296-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="3e296-108">Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.</span><span class="sxs-lookup"><span data-stu-id="3e296-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 

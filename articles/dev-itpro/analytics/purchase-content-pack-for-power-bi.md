@@ -19,16 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 4963cc5fb94097ef831813e7732961821c20ad25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37f3b1b4d362bd8b40977648b4aa4387011eea08
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="2d62f-104">Efni Power BI eyðslugreining innkaupa</span><span class="sxs-lookup"><span data-stu-id="2d62f-104">Purchase spend analysis Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2d62f-105">Þetta efnisatriði lýsir því hvað er innifalið í Power BI efninu **Greining á innkaupaútgjöldum**.</span><span class="sxs-lookup"><span data-stu-id="2d62f-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="2d62f-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="2d62f-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 01/17/2018
 </tbody>
 </table>
 
-<span data-ttu-id="2d62f-160">\\*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund</span><span class="sxs-lookup"><span data-stu-id="2d62f-160">\\* Purchase this year and last year, and growth by procurement category</span></span>
+<span data-ttu-id="2d62f-160">\*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund</span><span class="sxs-lookup"><span data-stu-id="2d62f-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
 ## <a name="data-model-and-entities"></a><span data-ttu-id="2d62f-161">Gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="2d62f-161">Data model and entities</span></span>
 <span data-ttu-id="2d62f-162">Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efninu **Greining á innkaupaútgjöldum**.</span><span class="sxs-lookup"><span data-stu-id="2d62f-162">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="2d62f-163">Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni.</span><span class="sxs-lookup"><span data-stu-id="2d62f-163">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="2d62f-164">Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu.</span><span class="sxs-lookup"><span data-stu-id="2d62f-164">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="2d62f-165">Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)</span><span class="sxs-lookup"><span data-stu-id="2d62f-165">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>

@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 00f7afab0bd65519f9f05773d935c9384c583332
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bafd6129dbbf3aff5f4be0cf10a71e9039f879e2
 ms.contentlocale: is-is
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="f2511-103">Taka þyngd og rúmmál gáms með í hleðslu</span><span class="sxs-lookup"><span data-stu-id="f2511-103">Include container weight and volume on load</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f2511-104">Virkni til aðtaka með taka með þyngd gáms og rúmtak í hleðslu gefur skýrt fram heildarþyngd og rúmmál gáma og vöru sem fer í farm.</span><span class="sxs-lookup"><span data-stu-id="f2511-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
 

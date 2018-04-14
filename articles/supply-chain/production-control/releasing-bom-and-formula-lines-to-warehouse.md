@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="9871f-103">Losa uppskriftar- og formúlulínur í vöruhúsið</span><span class="sxs-lookup"><span data-stu-id="9871f-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9871f-104">Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- (BOM) og formúlulína í vöruhúsið.</span><span class="sxs-lookup"><span data-stu-id="9871f-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="9871f-105">Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.</span><span class="sxs-lookup"><span data-stu-id="9871f-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/08/2018
 - <span data-ttu-id="9871f-119">**Losaðu BOM og formúlu línur í gegnum runuvinnslu eða sem handvirkt samskipti** - Í þessari aðferð er hægt að losa BOM og formúlu línur aðeins með **Sjálfvirk losun BOM og formúlu línum** runuvinnslu eða sem handvirk samskipti.</span><span class="sxs-lookup"><span data-stu-id="9871f-119">**Release BOM and formula lines via a batch job or as a manual interaction** – In this method, BOM and formula lines can be released only through the **Automatic release of BOM and formula lines** batch job or as a manual interaction.</span></span> <span data-ttu-id="9871f-120">Til að losa handvirkt BOM og formúlulínur, á listasíðu framleiðslupantana eða upplýsingasíðu um framleiðslupantana, í aðgerðarglugganum, veldu **Losa í vörugeymslu**.</span><span class="sxs-lookup"><span data-stu-id="9871f-120">To manually release BOM and formula lines, on the production order list page or the production order details page, on the Action Pane, select **Release to warehouse**.</span></span>
 
 <span data-ttu-id="9871f-121">Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framleiðslu með runuvinnslu skal horfa á þetta stutta YouTube myndband:</span><span class="sxs-lookup"><span data-stu-id="9871f-121">For a quick demonstration of how to release BOM and formula lines to production by using a batch job, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a><span data-ttu-id="9871f-122">Losa uppskriftarlínur og formúlulínur með því að nota runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="9871f-122">Releasing the BOM and formula lines by using a batch job</span></span>
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/08/2018
 ![Dæmi um losun efnis fyrir hvert aðgerðarnúmer](media/two-operations.PNG)
 
 <span data-ttu-id="9871f-177">Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube myndband:</span><span class="sxs-lookup"><span data-stu-id="9871f-177">For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a><span data-ttu-id="9871f-178">Losa efni í hlutfalli við magn fullunninnar vöru</span><span class="sxs-lookup"><span data-stu-id="9871f-178">Release material in proportion to the amount of finished goods</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5535f1627526b97ddc9ca2c210db4e332782d656
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21f9047dcea0af59c24339ebb57e8eabe3950d4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="c735b-103">Skrá söluþóknun</span><span class="sxs-lookup"><span data-stu-id="c735b-103">Register sales commissions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c735b-104">Þessi verklýsing sýnir hvernig sölulaun eru reiknuð og skráð.</span><span class="sxs-lookup"><span data-stu-id="c735b-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="c735b-105">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="c735b-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="c735b-106">Áður en þessari handbók er ræst þarf að keyra leiðbeiningar sem kallast "Setja upp reglur um söluþóknun" til að tryggja að allar nauðsynlegar uppsetningar á útreikningi sölulauna séu til staðar.</span><span class="sxs-lookup"><span data-stu-id="c735b-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: d308edfbfb614ef744cb879bd1dc9753601d39bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eea198bd72d4434b2f7408816e75cabb3ac2bff9
 ms.contentlocale: is-is
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a><span data-ttu-id="2aa8a-104">Tímamörk skráningar pantana</span><span class="sxs-lookup"><span data-stu-id="2aa8a-104">Order entry deadlines</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2aa8a-105">Þessi grein gefur upplýsingar um lokadag fyrir skráningu pantana.</span><span class="sxs-lookup"><span data-stu-id="2aa8a-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="2aa8a-106">Lokadagur fyrir skráningu pantana er sá lokatími sem sker úr um það hvort pöntun viðskiptavinar er meðhöndluð (og uppfyllt) eins og hún sé móttekin á núverandi degi eða daginn eftir.</span><span class="sxs-lookup"><span data-stu-id="2aa8a-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 

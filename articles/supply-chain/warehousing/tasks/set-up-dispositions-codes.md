@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="8f84d-103">Setja upp ráðstöfunarkóða</span><span class="sxs-lookup"><span data-stu-id="8f84d-103">Set up dispositions codes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8f84d-104">Þetta ferli leggur áherslu á uppsetningu ráðstöfunarkóða sem hægt er að nota í farsíma fyrir móttökuferli skilapöntunar.</span><span class="sxs-lookup"><span data-stu-id="8f84d-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="8f84d-105">Ráðstöfunarkóðar eru safn reglna sem hægt er að nota þegar vörur eru mótteknar.</span><span class="sxs-lookup"><span data-stu-id="8f84d-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="8f84d-106">Til dæmis þegar notandi vinnu notar fartæki til að taka á móti vörum sem var skemmt, verður notandi að skanna ráðstöfunarkóða fyrir skemmdar vörur.</span><span class="sxs-lookup"><span data-stu-id="8f84d-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="8f84d-107">birgðastaða mótteknu varanna, vinnusniðmátið, og staðsetningarleiðbeininga er hægt að ákvarða úr skannaðs ráðstöfunarkóða.</span><span class="sxs-lookup"><span data-stu-id="8f84d-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="8f84d-108">notkun ráðstöfunarkóða er valfrjáls fyrir móttökuferli innkaupapöntunar og ferlið við að skrá framleiðslupöntun sem lokinni.</span><span class="sxs-lookup"><span data-stu-id="8f84d-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="8f84d-109">notkun ráðstöfunarkóða er skylda fyrir ferlið við móttöku sölupöntunar, ef vörur eru skráðar með fartæki.</span><span class="sxs-lookup"><span data-stu-id="8f84d-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="8f84d-110">Þetta Leiðbeiningar var stofnuð með því að nota sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="8f84d-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="8f84d-111">Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="8f84d-111">This procedure is intended for the warehouse manager.</span></span> 
 

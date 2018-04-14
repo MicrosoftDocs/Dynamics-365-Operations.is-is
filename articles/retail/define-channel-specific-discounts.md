@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f68400bf10b6235decc7ac5cb82e58b369c7c0c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 34039b298e8994e50a7c06ef034698e8c1264389
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-channel-specific-discounts"></a><span data-ttu-id="f2eb0-104">Skilgreina afslætti sem tengjast tilteknum rásum</span><span class="sxs-lookup"><span data-stu-id="f2eb0-104">Define channel-specific discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="f2eb0-105">Smásala stilla oft inn mismunandi afslætti á mismunandi rásum.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-105">Retailers often set different discounts in different channels.</span></span> <span data-ttu-id="f2eb0-106">Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-106">This topic reviews the concepts you need to know to create a discount for a specific channel.</span></span> 
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 11/03/2017
 4.  <span data-ttu-id="f2eb0-133">Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-133">After you create the new **Back-to-School** discount, you need to click **Price groups** on the top of the **Discount** page.</span></span> <span data-ttu-id="f2eb0-134">**Afsláttarverðflokka** síðan opnast.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-134">The **Discount price groups** page will open.</span></span> <span data-ttu-id="f2eb0-135">Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-135">Next, click **New** and select the **Houston-PG** price group.</span></span>
 5.  <span data-ttu-id="f2eb0-136">Nú hægt að virkja afsláttinn og færa hann í rás.</span><span class="sxs-lookup"><span data-stu-id="f2eb0-136">Now you can enable the discount and push it to the channel.</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="f2eb0-137">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="f2eb0-137">See also</span></span>
 --------

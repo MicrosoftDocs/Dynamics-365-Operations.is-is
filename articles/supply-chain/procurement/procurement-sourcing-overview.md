@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: is-is
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="0b195-103">Yfirlit yfir „Innkaup og aðföng“</span><span class="sxs-lookup"><span data-stu-id="0b195-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0b195-104">Þessi grein gefur yfirlit yfir þá virkni sem er fáanleg í Innkaupa- og aðfangakerfi.</span><span class="sxs-lookup"><span data-stu-id="0b195-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="0b195-108">Þörf fyrir vöru eða þjónustu gætu komið upp úr *innkaupabeiðnir*, til dæmis þegar starfsmaður krefst afurðar.</span><span class="sxs-lookup"><span data-stu-id="0b195-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="0b195-109">*Vörulistar* hægt er að setja upp til að leiðbeina um val á tiltækum afurðum til að velja úr, eða beiðnir er hægt að gera fyrir afurðir sem eru°ekki enn tiltækar í vörulista,og innkaupadeild heimilað að hafa í huga hvernig hægt sé að útvega afurðina.</span><span class="sxs-lookup"><span data-stu-id="0b195-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="0b195-110">*Eyðsluþak* til að hafa hemil á útgjöldum í innkaupum, og°*innkaupaverkflæði* bætir við kostinum á að krefjast samþykkis áður en pöntun er gerð.</span><span class="sxs-lookup"><span data-stu-id="0b195-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="0b195-111">Einnig er hægt að tilgreina úthlutun fjármagns fjárhagsáætlunar, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="0b195-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="0b195-112">Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér°*beiðni um tilboð* senda mörgum mögulegum lánardrottnum.</span><span class="sxs-lookup"><span data-stu-id="0b195-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="0b195-113">Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær.</span><span class="sxs-lookup"><span data-stu-id="0b195-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="0b195-114">Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.</span><span class="sxs-lookup"><span data-stu-id="0b195-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="0b195-115">Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn* til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli.</span><span class="sxs-lookup"><span data-stu-id="0b195-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="0b195-116">Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina.</span><span class="sxs-lookup"><span data-stu-id="0b195-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="0b195-117">Ef lánardrottnar eru settir upp til að nota gáttina **Lánardrottinn**, er fyrirspurnaaðgerðin óvirk.</span><span class="sxs-lookup"><span data-stu-id="0b195-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="0b195-118">Í staðinn er pöntun samnýtt í**Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.</span><span class="sxs-lookup"><span data-stu-id="0b195-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

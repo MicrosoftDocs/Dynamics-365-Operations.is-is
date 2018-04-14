@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="d3901-105">Minnkunarlyklar</span><span class="sxs-lookup"><span data-stu-id="d3901-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d3901-106">Þessi grein gefur dæmi um hvernig eigi að setja upp minnkunarlykil.</span><span class="sxs-lookup"><span data-stu-id="d3901-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="d3901-107">Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig.</span><span class="sxs-lookup"><span data-stu-id="d3901-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="d3901-108">Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.</span><span class="sxs-lookup"><span data-stu-id="d3901-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="d3901-110">Þetta dæmi sýnir hvernig minnkunarlykill minnkar kröfur eftirspurnarspá í samræmi við prósentur og tímabil sem eru skilgreind af minnkunarlykli.</span><span class="sxs-lookup"><span data-stu-id="d3901-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="d3901-111">Á **Minnkunarlyklar** síðunni, setjið upp eftirfarandi línur.</span><span class="sxs-lookup"><span data-stu-id="d3901-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="d3901-112">Skiptimynt</span><span class="sxs-lookup"><span data-stu-id="d3901-112">Change</span></span> | <span data-ttu-id="d3901-113">Eining</span><span class="sxs-lookup"><span data-stu-id="d3901-113">Unit</span></span>  | <span data-ttu-id="d3901-114">Prósent</span><span class="sxs-lookup"><span data-stu-id="d3901-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="d3901-115">1</span><span class="sxs-lookup"><span data-stu-id="d3901-115">1</span></span>      | <span data-ttu-id="d3901-116">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-116">Month</span></span> | <span data-ttu-id="d3901-117">100</span><span class="sxs-lookup"><span data-stu-id="d3901-117">100</span></span>     |
-    | <span data-ttu-id="d3901-118">2</span><span class="sxs-lookup"><span data-stu-id="d3901-118">2</span></span>      | <span data-ttu-id="d3901-119">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-119">Month</span></span> | <span data-ttu-id="d3901-120">75</span><span class="sxs-lookup"><span data-stu-id="d3901-120">75</span></span>      |
-    | <span data-ttu-id="d3901-121">3</span><span class="sxs-lookup"><span data-stu-id="d3901-121">3</span></span>      | <span data-ttu-id="d3901-122">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-122">Month</span></span> | <span data-ttu-id="d3901-123">50</span><span class="sxs-lookup"><span data-stu-id="d3901-123">50</span></span>      |
-    | <span data-ttu-id="d3901-124">4</span><span class="sxs-lookup"><span data-stu-id="d3901-124">4</span></span>      | <span data-ttu-id="d3901-125">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-125">Month</span></span> | <span data-ttu-id="d3901-126">25</span><span class="sxs-lookup"><span data-stu-id="d3901-126">25</span></span>      |
+1. <span data-ttu-id="d3901-111">Á **Minnkunarlyklar** síðunni, setjið upp eftirfarandi línur.</span><span class="sxs-lookup"><span data-stu-id="d3901-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="d3901-127">Tengja þarf minnkunarlykilinn við þekjuflokk vöru.</span><span class="sxs-lookup"><span data-stu-id="d3901-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="d3901-128">Á **Aðaláætlanir** síðunni,°í **Lækkunarreglu** svæðinu, veljið **Prósenta - minnkunarlykill**.</span><span class="sxs-lookup"><span data-stu-id="d3901-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="d3901-129">Stofnið söluspá fyrir 1.000 stykki á mánuði.</span><span class="sxs-lookup"><span data-stu-id="d3901-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="d3901-112">Skiptimynt</span><span class="sxs-lookup"><span data-stu-id="d3901-112">Change</span></span> | <span data-ttu-id="d3901-113">Eining</span><span class="sxs-lookup"><span data-stu-id="d3901-113">Unit</span></span>  | <span data-ttu-id="d3901-114">Prósent</span><span class="sxs-lookup"><span data-stu-id="d3901-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="d3901-115">1</span><span class="sxs-lookup"><span data-stu-id="d3901-115">1</span></span>    | <span data-ttu-id="d3901-116">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-116">Month</span></span> |   <span data-ttu-id="d3901-117">100</span><span class="sxs-lookup"><span data-stu-id="d3901-117">100</span></span>   |
+   |   <span data-ttu-id="d3901-118">2</span><span class="sxs-lookup"><span data-stu-id="d3901-118">2</span></span>    | <span data-ttu-id="d3901-119">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-119">Month</span></span> |   <span data-ttu-id="d3901-120">75</span><span class="sxs-lookup"><span data-stu-id="d3901-120">75</span></span>    |
+   |   <span data-ttu-id="d3901-121">3</span><span class="sxs-lookup"><span data-stu-id="d3901-121">3</span></span>    | <span data-ttu-id="d3901-122">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-122">Month</span></span> |   <span data-ttu-id="d3901-123">50</span><span class="sxs-lookup"><span data-stu-id="d3901-123">50</span></span>    |
+   |   <span data-ttu-id="d3901-124">4</span><span class="sxs-lookup"><span data-stu-id="d3901-124">4</span></span>    | <span data-ttu-id="d3901-125">Mánuður</span><span class="sxs-lookup"><span data-stu-id="d3901-125">Month</span></span> |   <span data-ttu-id="d3901-126">25</span><span class="sxs-lookup"><span data-stu-id="d3901-126">25</span></span>    |
+
+
+2. <span data-ttu-id="d3901-127">Tengja þarf minnkunarlykilinn við þekjuflokk vöru.</span><span class="sxs-lookup"><span data-stu-id="d3901-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="d3901-128">Á **Aðaláætlanir** síðunni,°í **Lækkunarreglu** svæðinu, veljið **Prósenta - minnkunarlykill**.</span><span class="sxs-lookup"><span data-stu-id="d3901-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="d3901-129">Stofnið söluspá fyrir 1.000 stykki á mánuði.</span><span class="sxs-lookup"><span data-stu-id="d3901-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="d3901-130">Ef spárröðun er keyrð 1. Janúar, eru spáþarfir eftirspurnar nýttar samkvæmt prósentum sem settar eru upp á **Minnkunarlyklar** síðu.</span><span class="sxs-lookup"><span data-stu-id="d3901-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="d3901-131">Eftirfarandi þarfamagn er fært í aðaláætlun.</span><span class="sxs-lookup"><span data-stu-id="d3901-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="d3901-171">Dæmi 3: Færslur breytileg tímabil spá lækkunarreglu</span><span class="sxs-lookup"><span data-stu-id="d3901-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="d3901-172">Í flestum tilvikum eru kerfi sett upp þannig að færslur minnka eftirspurnarspár innan tiltekna spátímabila: vikur, mánuðir, og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="d3901-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="d3901-173">Þessi tímabil eru skilgreind í minnkunarlyklinum.</span><span class="sxs-lookup"><span data-stu-id="d3901-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="d3901-174">Hins vegar getur tíminn milli tveggja eftirspurnarspárlína einnig *gefið til kynna* tímabil.</span><span class="sxs-lookup"><span data-stu-id="d3901-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="d3901-175">Stofna eftirspurnarspá fyrir eftirfarandi dagsetningar og magn.</span><span class="sxs-lookup"><span data-stu-id="d3901-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="d3901-176">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="d3901-176">Date</span></span>       | <span data-ttu-id="d3901-177">Eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="d3901-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="d3901-178">1. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-178">January 1</span></span>  | <span data-ttu-id="d3901-179">1.000</span><span class="sxs-lookup"><span data-stu-id="d3901-179">1,000</span></span>           |
-    | <span data-ttu-id="d3901-180">5. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-180">January 5</span></span>  | <span data-ttu-id="d3901-181">500</span><span class="sxs-lookup"><span data-stu-id="d3901-181">500</span></span>             |
-    | <span data-ttu-id="d3901-182">12. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-182">January 12</span></span> | <span data-ttu-id="d3901-183">1.000</span><span class="sxs-lookup"><span data-stu-id="d3901-183">1,000</span></span>           |
+1. <span data-ttu-id="d3901-175">Stofna eftirspurnarspá fyrir eftirfarandi dagsetningar og magn.</span><span class="sxs-lookup"><span data-stu-id="d3901-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="d3901-184">Í þessari spá það er ekki greinilegt tímabil milli spádagsetninganna: Milli fyrstu og annarrar dagsetningar er°fjögurra daga bil og milli annarrar og þriðju dagsetningar er°sjö daga bil.</span><span class="sxs-lookup"><span data-stu-id="d3901-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="d3901-185">Þessi mismunandi bil eru breytileg tímabil.</span><span class="sxs-lookup"><span data-stu-id="d3901-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="d3901-186">Stofna Sölupöntunarlínur á eftirfarandi hátt.</span><span class="sxs-lookup"><span data-stu-id="d3901-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="d3901-187">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="d3901-187">Date</span></span>                             | <span data-ttu-id="d3901-188">Sölupöntunarmagn</span><span class="sxs-lookup"><span data-stu-id="d3901-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="d3901-189">15. Desember á fyrra ári</span><span class="sxs-lookup"><span data-stu-id="d3901-189">December 15 in the previous year</span></span> | <span data-ttu-id="d3901-190">500</span><span class="sxs-lookup"><span data-stu-id="d3901-190">500</span></span>                  |
-    | <span data-ttu-id="d3901-191">3. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-191">January 3</span></span>                        | <span data-ttu-id="d3901-192">100</span><span class="sxs-lookup"><span data-stu-id="d3901-192">100</span></span>                  |
-    | <span data-ttu-id="d3901-193">10. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-193">January 10</span></span>                       | <span data-ttu-id="d3901-194">200</span><span class="sxs-lookup"><span data-stu-id="d3901-194">200</span></span>                  |
+   | <span data-ttu-id="d3901-176">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="d3901-176">Date</span></span>       | <span data-ttu-id="d3901-177">Eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="d3901-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="d3901-178">1. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-178">January 1</span></span>  | <span data-ttu-id="d3901-179">1.000</span><span class="sxs-lookup"><span data-stu-id="d3901-179">1,000</span></span>           |
+   | <span data-ttu-id="d3901-180">5. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-180">January 5</span></span>  | <span data-ttu-id="d3901-181">500</span><span class="sxs-lookup"><span data-stu-id="d3901-181">500</span></span>             |
+   | <span data-ttu-id="d3901-182">12. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-182">January 12</span></span> | <span data-ttu-id="d3901-183">1.000</span><span class="sxs-lookup"><span data-stu-id="d3901-183">1,000</span></span>           |
+
+   <span data-ttu-id="d3901-184">Í þessari spá það er ekki greinilegt tímabil milli spádagsetninganna: Milli fyrstu og annarrar dagsetningar er°fjögurra daga bil og milli annarrar og þriðju dagsetningar er°sjö daga bil.</span><span class="sxs-lookup"><span data-stu-id="d3901-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="d3901-185">Þessi mismunandi bil eru breytileg tímabil.</span><span class="sxs-lookup"><span data-stu-id="d3901-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="d3901-186">Stofna Sölupöntunarlínur á eftirfarandi hátt.</span><span class="sxs-lookup"><span data-stu-id="d3901-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="d3901-187">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="d3901-187">Date</span></span>                             | <span data-ttu-id="d3901-188">Sölupöntunarmagn</span><span class="sxs-lookup"><span data-stu-id="d3901-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="d3901-189">15. Desember á fyrra ári</span><span class="sxs-lookup"><span data-stu-id="d3901-189">December 15 in the previous year</span></span> | <span data-ttu-id="d3901-190">500</span><span class="sxs-lookup"><span data-stu-id="d3901-190">500</span></span>                  |
+   | <span data-ttu-id="d3901-191">3. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-191">January 3</span></span>                        | <span data-ttu-id="d3901-192">100</span><span class="sxs-lookup"><span data-stu-id="d3901-192">100</span></span>                  |
+   | <span data-ttu-id="d3901-193">10. janúar</span><span class="sxs-lookup"><span data-stu-id="d3901-193">January 10</span></span>                       | <span data-ttu-id="d3901-194">200</span><span class="sxs-lookup"><span data-stu-id="d3901-194">200</span></span>                  |
 
 <span data-ttu-id="d3901-195">Spáin verður lækkuð sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="d3901-195">The forecast will be reduced as follows:</span></span>
 

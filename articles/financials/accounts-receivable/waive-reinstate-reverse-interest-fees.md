@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ae4a84f0e2823d1e7686696eae72e050a320e3f1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41daec8028b1a07c89967b9087fa125fada3bb5b
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a><span data-ttu-id="595f2-103">Fella niður, endurskipa eða bakfæra vaxtagjöld</span><span class="sxs-lookup"><span data-stu-id="595f2-103">Waive, reinstate, or reverse interest fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="595f2-104">Þessi grein útskýrir hvernig skal fella niður, endurskipa, og bakfæra gjald fyrir vextir og gjöld.</span><span class="sxs-lookup"><span data-stu-id="595f2-104">This article explains how to waive, reinstate, and reverse charges for interest and fees.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e539d92753bbbc4ac0ca88cec83c4d15135c388b
 ms.contentlocale: is-is
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-object-groups"></a><span data-ttu-id="ce328-103">Þjónustuhlutarflokkar</span><span class="sxs-lookup"><span data-stu-id="ce328-103">Service object groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ce328-104">Hlutaflokkar gagnast til þess að flokka og sía gögnin um hluti fyrir skýrslur og talnagögn.</span><span class="sxs-lookup"><span data-stu-id="ce328-104">Object groups are useful for sorting and filtering the data about objects for reports and statistics.</span></span> <span data-ttu-id="ce328-105">Til dæmis er hægt að flokka hluti eftir landfræðilegri staðsetningu eða gerð.</span><span class="sxs-lookup"><span data-stu-id="ce328-105">For example, you can group objects by geographical location or by type.</span></span>
 

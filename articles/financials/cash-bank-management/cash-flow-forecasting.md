@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c85cc9e5760f86489e1b2a27198e8c9cce25eda6
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-flow-forecasting"></a><span data-ttu-id="46469-104">Sjóðstreymisspár</span><span class="sxs-lookup"><span data-stu-id="46469-104">Cash flow forecasting</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="46469-105">Hægt er að nota verkfæri fyrir sjóðstreymisspár til að greina væntanlegt sjóðstreymi og gjaldeyrisþörf þannig að hægt sé að meta framtíðarþörf fyrirtækis fyrir lausafé.</span><span class="sxs-lookup"><span data-stu-id="46469-105">You can use the cash flow forecasting tools to analyze upcoming cash flow and currency requirements, so that you can estimate the company's future need for cash.</span></span> <span data-ttu-id="46469-106">Til að gera spá um sjóðstreymi þarf fyrst að gera eftirfarandi:</span><span class="sxs-lookup"><span data-stu-id="46469-106">To obtain a forecast of the cash flow, you must complete the following tasks:</span></span>
 

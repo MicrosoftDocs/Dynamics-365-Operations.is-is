@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 06bccae2908255db8b41816f243eb57194b4c11f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b83ced1e07fe05a5f5804d650addc83fd7a1956a
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-channel-attributes"></a><span data-ttu-id="f2a3b-103"> Skilgreina eigindir rásar</span><span class="sxs-lookup"><span data-stu-id="f2a3b-103">Define channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f2a3b-104">Bættu í rásina með því að bæta við rás og afurðaeigindir.</span><span class="sxs-lookup"><span data-stu-id="f2a3b-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="f2a3b-105">Bæta verður rásin við sjálfgefið stigveldi fyrirtækis áður en hægt er að skilgreina eigindir.</span><span class="sxs-lookup"><span data-stu-id="f2a3b-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
 

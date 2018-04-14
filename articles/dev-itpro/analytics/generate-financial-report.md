@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="a0ab1-103">Mynda fjárhagsskýrslu</span><span class="sxs-lookup"><span data-stu-id="a0ab1-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a0ab1-104">Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="a0ab1-115">Mynda fjárhagsskýrslu</span><span class="sxs-lookup"><span data-stu-id="a0ab1-115">Generate a financial report</span></span>
 
 <span data-ttu-id="a0ab1-116">Til að búa til fjárhagsskýrslu með Microsoft Dynamics 365 for Finance and Operations, skal fara í **Fjárhagur** > **Fyrirspurnir og skýrslur** > **Fjárhagsskýrslur**</span><span class="sxs-lookup"><span data-stu-id="a0ab1-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="a0ab1-117">Velja skýrslu sem á að búa til og smella á **Búa til**.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="a0ab1-118">Fylla út í reitinn **Dagsetning skýrslu** og smella á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="a0ab1-119">Eftir að skýrslan hefur verið búin til verður skýrslan tiltæk til skoðunar í **Skýrslur** hlutanum.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="a0ab1-120">Þú getur valið að **Skoða** eða **Eyða** skýrslunni.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="a0ab1-117">Velja skýrslu sem á að búa til og smella á **Búa til**.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="a0ab1-118">Fylla út í reitinn **Dagsetning skýrslu** og smella á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="a0ab1-119">Eftir að skýrslan hefur verið búin til verður skýrslan tiltæk til skoðunar í **Skýrslur** hlutanum.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="a0ab1-120">Þú getur valið að **Skoða** eða **Eyða** skýrslunni.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="a0ab1-121">Til að búa til skýrslu með því að nota **Skýrsluhönnuður**, skal opna skilgreining skýrslu og smella á Búa til hnappinn á tækjastikunni.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="a0ab1-122">Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="a0ab1-123">Myndaða skýrslur verður sjálfgefið opnuð í Web Viewer.</span><span class="sxs-lookup"><span data-stu-id="a0ab1-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="a0ab1-237">Opna valda skýrsluskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="a0ab1-237">Open the selected report definition</span></span>  | <span data-ttu-id="a0ab1-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="a0ab1-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="a0ab1-239">Opna valda línuskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="a0ab1-239">Open the selected row definition</span></span>     | <span data-ttu-id="a0ab1-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="a0ab1-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="a0ab1-241">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="a0ab1-241">See also</span></span>
 --------
 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: is-is
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="1b13c-103">Uppsetning námskeiða</span><span class="sxs-lookup"><span data-stu-id="1b13c-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1b13c-104">Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.</span><span class="sxs-lookup"><span data-stu-id="1b13c-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="1b13c-134">Verkefni námskeiðs</span><span class="sxs-lookup"><span data-stu-id="1b13c-134">Course tasks</span></span>
 <span data-ttu-id="1b13c-135">Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.</span><span class="sxs-lookup"><span data-stu-id="1b13c-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="1b13c-136">Skrá þátttakendur</span><span class="sxs-lookup"><span data-stu-id="1b13c-136">Register participants</span></span>
--   <span data-ttu-id="1b13c-137">Tilgreina lokadagsetningu skráningar</span><span class="sxs-lookup"><span data-stu-id="1b13c-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="1b13c-138">Tilgreina hámarks- og lágmarksfjölda þátttakenda.</span><span class="sxs-lookup"><span data-stu-id="1b13c-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="1b13c-139">Úthluta staðsetningu og kennslustofu á námskeið.</span><span class="sxs-lookup"><span data-stu-id="1b13c-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="1b13c-140">Mæla með hótelum fyrir þátttakendur námskeiðs.</span><span class="sxs-lookup"><span data-stu-id="1b13c-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="1b13c-141">Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna</span><span class="sxs-lookup"><span data-stu-id="1b13c-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="1b13c-136">Skrá þátttakendur</span><span class="sxs-lookup"><span data-stu-id="1b13c-136">Register participants</span></span>
+- <span data-ttu-id="1b13c-137">Tilgreina lokadagsetningu skráningar</span><span class="sxs-lookup"><span data-stu-id="1b13c-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="1b13c-138">Tilgreina hámarks- og lágmarksfjölda þátttakenda.</span><span class="sxs-lookup"><span data-stu-id="1b13c-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="1b13c-139">Úthluta staðsetningu og kennslustofu á námskeið.</span><span class="sxs-lookup"><span data-stu-id="1b13c-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="1b13c-140">Mæla með hótelum fyrir þátttakendur námskeiðs.</span><span class="sxs-lookup"><span data-stu-id="1b13c-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="1b13c-141">Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna</span><span class="sxs-lookup"><span data-stu-id="1b13c-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="1b13c-142">**Athugasemd** Aðeins er hægt að eyða námskeiði ef enginn hefur skráð sig á það.</span><span class="sxs-lookup"><span data-stu-id="1b13c-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="1b13c-143">Stöður námskeiðs</span><span class="sxs-lookup"><span data-stu-id="1b13c-143">Course statuses</span></span>
 <span data-ttu-id="1b13c-144">Í eftirfarandi töflu er listi yfir stöður mögulegar námskeiðs og aðgerðir sem hægt er að ljúka við námskeið sem hefur tiltekna stöðu.</span><span class="sxs-lookup"><span data-stu-id="1b13c-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

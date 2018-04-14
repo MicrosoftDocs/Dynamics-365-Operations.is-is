@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="78be5-104">Power BI-efni aðferðastjórnunar</span><span class="sxs-lookup"><span data-stu-id="78be5-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="78be5-105">Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Aðferðarstjóri**.</span><span class="sxs-lookup"><span data-stu-id="78be5-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="78be5-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="78be5-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="78be5-228">Eining: ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="78be5-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="78be5-229">**Gagnagjafi:** ProjTable</span><span class="sxs-lookup"><span data-stu-id="78be5-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="78be5-230">Lykiluppsafnaðar mælingar</span><span class="sxs-lookup"><span data-stu-id="78be5-230">Key aggregate measurement</span></span>       | <span data-ttu-id="78be5-231">Svæði</span><span class="sxs-lookup"><span data-stu-id="78be5-231">Field</span></span>               | <span data-ttu-id="78be5-232">lýsing</span><span class="sxs-lookup"><span data-stu-id="78be5-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="78be5-230">Lykiluppsafnaðar mælingar</span><span class="sxs-lookup"><span data-stu-id="78be5-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="78be5-231">Svæði</span><span class="sxs-lookup"><span data-stu-id="78be5-231">Field</span></span>        |                                          <span data-ttu-id="78be5-232">lýsing</span><span class="sxs-lookup"><span data-stu-id="78be5-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="78be5-233">Áætlaður kostnaður lokinna aðgerða</span><span class="sxs-lookup"><span data-stu-id="78be5-233">Completed activity planned cost</span></span> | <span data-ttu-id="78be5-234">Samtala (TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="78be5-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="78be5-235">Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið.</span><span class="sxs-lookup"><span data-stu-id="78be5-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

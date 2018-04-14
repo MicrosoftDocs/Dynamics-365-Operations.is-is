@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 273beb0acef51059b40f9842062ed4dbba770160
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-rules"></a><span data-ttu-id="7c40c-106">Reglur endurskoðunarstefnu</span><span class="sxs-lookup"><span data-stu-id="7c40c-106">Audit policy rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7c40c-107">Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reikninga lánardrottna og innkaupapantanir til að tryggja að þeir samræmast stefnureglur sem eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="7c40c-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="7c40c-108">Allar reglur sem eru tengd við endurskoðunarstefnu eru rekin í runuham, samkvæmt áætlun sem þú tilgreinir.</span><span class="sxs-lookup"><span data-stu-id="7c40c-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="7c40c-109">Hver stefnuregla er tilvik af stefnureglugerð.</span><span class="sxs-lookup"><span data-stu-id="7c40c-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="7c40c-110">Fyrir hverja stefnureglugerð aðeins einn stefnureglu getur verið virk í einu.</span><span class="sxs-lookup"><span data-stu-id="7c40c-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 

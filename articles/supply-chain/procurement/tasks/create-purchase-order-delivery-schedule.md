@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0e86c33580cbcafb16f508c2f6330d81422f12d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="461c4-103">Stofna innkaupapöntun með afhendingaráætlun</span><span class="sxs-lookup"><span data-stu-id="461c4-103">Create a purchase order with a delivery schedule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="461c4-104">Þetta ferli sýnir hvernig á að stofna afhendingaráætlun fyrir innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="461c4-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="461c4-105">Afhendingaráætlun er notaður þegar magn í pöntun eða færslubók er beðið um að sé afhent í margar sendingar.</span><span class="sxs-lookup"><span data-stu-id="461c4-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="461c4-106">Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="461c4-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="461c4-107">Þetta ferli myndi yfirleitt gert af innkaupaaðila.</span><span class="sxs-lookup"><span data-stu-id="461c4-107">This procedure would typically be done by a purchasing agent.</span></span>
 

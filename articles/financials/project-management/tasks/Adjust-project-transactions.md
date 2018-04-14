@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 94942b4dc499c225fd636e7080ef253d5370b96e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0c9c868ff68369817be8f5951b7a9ca6da488067
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="adjust-project-transactions"></a><span data-ttu-id="97869-103">Leiðrétta verkfærslur</span><span class="sxs-lookup"><span data-stu-id="97869-103">Adjust project transactions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="97869-104">Þessar verkleiðbeiningar sýna hvernig færlsur í verki eru leiðréttar.</span><span class="sxs-lookup"><span data-stu-id="97869-104">This task guide shows you how to adjust a transaction on a project.</span></span> <span data-ttu-id="97869-105">Hins vegar er hægt að leiðrétta verkfærslur, eina í einu, eða velja úr lista yfir allar verkfærslur.</span><span class="sxs-lookup"><span data-stu-id="97869-105">However, you can adjust project transactions one at a time, or select from a list of all project transactions.</span></span> <span data-ttu-id="97869-106">Yfirmaður verks lýkur yfirleitt þessu verki.</span><span class="sxs-lookup"><span data-stu-id="97869-106">This task is usually completed by the Project supervisor.</span></span> <span data-ttu-id="97869-107">Þessar verkleiðbeiningar nota USSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="97869-107">This task guide uses the USSI data set.</span></span>
 

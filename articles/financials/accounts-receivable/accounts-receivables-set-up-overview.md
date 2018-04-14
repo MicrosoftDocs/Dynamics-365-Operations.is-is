@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 43c8d0db28fb0a845c4520b279f16d7c20c6da88
 ms.contentlocale: is-is
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a><span data-ttu-id="a8cd7-103">Stilla viðskiptakröfur og skuldir og innheimtu</span><span class="sxs-lookup"><span data-stu-id="a8cd7-103">Configure Accounts receivables and Credit and collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a8cd7-104">Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="a8cd7-104">Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.</span></span>
 
@@ -107,7 +106,7 @@ ms.lasthandoff: 11/14/2017
 |                                                      | <span data-ttu-id="a8cd7-251">Upplýsingar um innistæðulausa sjóði (NSF).</span><span class="sxs-lookup"><span data-stu-id="a8cd7-251">NSF information.</span></span>                     | <span data-ttu-id="a8cd7-252">Setja upp NSF-upplýsingar um bankareikninginn sem verða notaðar þegar greiðsla er merkt sem NSF færsla á síðu Innheimtu.</span><span class="sxs-lookup"><span data-stu-id="a8cd7-252">Set up NSF information on the bank account that will be used when a payment is marked as an NSF transaction on the Collections page.</span></span>                                                                                                                                              |
 |                                                      | <span data-ttu-id="a8cd7-253">Upplýsingar um söluaðila</span><span class="sxs-lookup"><span data-stu-id="a8cd7-253">Salesperson information</span></span>              | <span data-ttu-id="a8cd7-254">Setja upp netfang söluaðila.</span><span class="sxs-lookup"><span data-stu-id="a8cd7-254">Set up the email address for salespersons.</span></span> <span data-ttu-id="a8cd7-255">Þessi netföng mun birtast á síðunni Innheimtur og hægt er að nota þær til að senda tölvupóst til söluaðila frá þeirri síðu.</span><span class="sxs-lookup"><span data-stu-id="a8cd7-255">These addresses will appear on the Collections page and you can use them to send email to a salesperson from that page.</span></span>                                                                                                                |
 
- 
+
 <span data-ttu-id="a8cd7-256">Nánari upplýsingar má nálgast á [Skuldir og innheimtur í viðskiptakröfum](collections-credit-accounts-receivable.md)</span><span class="sxs-lookup"><span data-stu-id="a8cd7-256">For more information, see [Credit and collections in Accounts receivable](collections-credit-accounts-receivable.md).</span></span>
 
 

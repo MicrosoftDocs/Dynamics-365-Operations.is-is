@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90deb42e8443d6d1ee7edbdfcedf4513c28a3bf1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="9c952-103">Bera kennsl og leysa úr árekstrum fyrir aðskilnað á skyldum</span><span class="sxs-lookup"><span data-stu-id="9c952-103">Identify and resolve conflicts in segregation of duties</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9c952-104">Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af mismunandi notendum.</span><span class="sxs-lookup"><span data-stu-id="9c952-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="9c952-105">Þetta hugtak er kallað Aðskilnaður á skyldum.</span><span class="sxs-lookup"><span data-stu-id="9c952-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="9c952-106">Þegar skilgreining á öryggishlutverki eða hlutverkaúthlutun notanda brýtur reglurnar er árekstur skráður.</span><span class="sxs-lookup"><span data-stu-id="9c952-106">When the definition of a security role or the role assignments of a user violate the rules, the conflict is logged.</span></span> <span data-ttu-id="9c952-107">Allir árekstrar verða leystir af kerfisstjóra.</span><span class="sxs-lookup"><span data-stu-id="9c952-107">All conflicts must be resolved by the administrator.</span></span> <span data-ttu-id="9c952-108">Ljúktu við eftirfarandi til að auðkenna og leysa úr árekstrum.</span><span class="sxs-lookup"><span data-stu-id="9c952-108">Complete the following procedure to identify and resolve conflicts.</span></span> <span data-ttu-id="9c952-109">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="9c952-109">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21a4aa035b55385c8b0ced3bfe91c7aaf064267
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="c2d6e-103">Inn- og útskrá ökumann vegna erindis</span><span class="sxs-lookup"><span data-stu-id="c2d6e-103">Register driver check-in and check-out for an appointment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c2d6e-104">Þessi verklýsing sýnir hvernig á að skrá inn innskráningu ökumanns og útskráningu ökumanns. Þetta er yfirleitt gert af samræmingaraðila flutninga.</span><span class="sxs-lookup"><span data-stu-id="c2d6e-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="c2d6e-105">Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="c2d6e-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="c2d6e-106">Áður en byrjað er, verður að vera sett upp mót fyrir hleðslu.</span><span class="sxs-lookup"><span data-stu-id="c2d6e-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="c2d6e-107">Til að stofna fund er hægt að keyra ferlið "Setja upp fund fyrir hleðslu" sem skilyrði.</span><span class="sxs-lookup"><span data-stu-id="c2d6e-107">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 

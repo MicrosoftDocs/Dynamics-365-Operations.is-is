@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b85da42e94fe3108bc89d05fc800a9d8a06bfc97
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-operations-online-and-offline"></a><span data-ttu-id="51c56-104">Rekstur sölustaðar, með og án nettengingar</span><span class="sxs-lookup"><span data-stu-id="51c56-104">POS operations, online and offline</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="51c56-105">Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="51c56-105">Most actions that user take in the point of sale (POS) are considered operations.</span></span> <span data-ttu-id="51c56-106">Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="51c56-106">Operations are configured and managed in the Microsoft Dynamics 365 for Retail back office.</span></span> <span data-ttu-id="51c56-107">Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu.</span><span class="sxs-lookup"><span data-stu-id="51c56-107">Many operations can be added to buttons in the POS button grid.</span></span> <span data-ttu-id="51c56-108">Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra.</span><span class="sxs-lookup"><span data-stu-id="51c56-108">Users can then select the buttons to invoke the operations and perform their function.</span></span> <span data-ttu-id="51c56-109">Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.</span><span class="sxs-lookup"><span data-stu-id="51c56-109">Other operations are part of the main POS application, and are invoked either from on-screen buttons or as part of other workflows or processes.</span></span>
 

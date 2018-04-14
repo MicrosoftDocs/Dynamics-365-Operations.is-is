@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="6854c-104">Nýjar verkefnaleiðbeiningar (febrúar 2016)</span><span class="sxs-lookup"><span data-stu-id="6854c-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6854c-105">Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.</span><span class="sxs-lookup"><span data-stu-id="6854c-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="6854c-106">Söfnin sem voru gefin út innihalda (febrúar 2016) APQC Unified Library for Microsoft Dynamics AX og (febrúar 2016) Hafist handa.</span><span class="sxs-lookup"><span data-stu-id="6854c-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-124">Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda</span><span class="sxs-lookup"><span data-stu-id="6854c-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="6854c-125">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-125">Global</span></span>             |
 | <span data-ttu-id="6854c-126">Setja upp reikningsreglur lánardrottins</span><span class="sxs-lookup"><span data-stu-id="6854c-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="6854c-127">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="6854c-128">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="6854c-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-153">Endurskoða innheimtuupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="6854c-153">Review collections information</span></span>                              | <span data-ttu-id="6854c-154">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-154">Global</span></span>             |
 | <span data-ttu-id="6854c-155">Setja upp og mynda viðskiptakröfur fyrir aldursgreiningu</span><span class="sxs-lookup"><span data-stu-id="6854c-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="6854c-156">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="6854c-157">Reiðufjár- og bankastjórnun</span><span class="sxs-lookup"><span data-stu-id="6854c-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-196">Fyrirframdagsett ávísun frá viðskiptamanni gerð upp</span><span class="sxs-lookup"><span data-stu-id="6854c-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="6854c-197">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-197">Global</span></span>             |
 | <span data-ttu-id="6854c-198">Yfirlit yfir greiðslu lánardrottins</span><span class="sxs-lookup"><span data-stu-id="6854c-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="6854c-199">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="6854c-200">Samræmi</span><span class="sxs-lookup"><span data-stu-id="6854c-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-201">**BPM-lína**</span><span class="sxs-lookup"><span data-stu-id="6854c-201">**BPM Line**</span></span>                               | <span data-ttu-id="6854c-202">**Land/svæði**</span><span class="sxs-lookup"><span data-stu-id="6854c-202">**Country/Region**</span></span> |
 | <span data-ttu-id="6854c-203">Skilgreina reglur endurskoðunarstefnu fyrir upprunaskjöl</span><span class="sxs-lookup"><span data-stu-id="6854c-203">Define audit policies for source documents</span></span> | <span data-ttu-id="6854c-204">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="6854c-205">Kostnaðarstýring</span><span class="sxs-lookup"><span data-stu-id="6854c-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-214">Skoða núgildandi VÍV staða á framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="6854c-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="6854c-215">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-215">Global</span></span>             |
 | <span data-ttu-id="6854c-216">Skoða birgðayfirlit og afkastavísi með kostnaðarhlut</span><span class="sxs-lookup"><span data-stu-id="6854c-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="6854c-217">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="6854c-218">Virkni lands/svæðis</span><span class="sxs-lookup"><span data-stu-id="6854c-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-485">GB-00009 Stofna kreditnótu í uppgjörsafslætti</span><span class="sxs-lookup"><span data-stu-id="6854c-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="6854c-486">Bretland</span><span class="sxs-lookup"><span data-stu-id="6854c-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="6854c-487">GB-00009 Setja upp færibreytur fyrir kreditnótu á kvaðningu greiðsluafsláttar</span><span class="sxs-lookup"><span data-stu-id="6854c-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="6854c-488">Bretland</span><span class="sxs-lookup"><span data-stu-id="6854c-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="6854c-489">Þróa framtíðarsýn og stefnumótun</span><span class="sxs-lookup"><span data-stu-id="6854c-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-498">Gera spurningu háð svar í fyrri spurningu (Skilyrðisbundnar spurningunar)</span><span class="sxs-lookup"><span data-stu-id="6854c-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="6854c-499">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-499">Global</span></span>             |
 | <span data-ttu-id="6854c-500">Stig spurningalista byggður á Prósentum</span><span class="sxs-lookup"><span data-stu-id="6854c-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="6854c-501">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="6854c-502">Rafræn skýrslugerð</span><span class="sxs-lookup"><span data-stu-id="6854c-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-511">Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa</span><span class="sxs-lookup"><span data-stu-id="6854c-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="6854c-512">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-512">Global</span></span>             |
 | <span data-ttu-id="6854c-513">Rafræn skýrslugerð Velja þjónustuveitu</span><span class="sxs-lookup"><span data-stu-id="6854c-513">ER Select service provider</span></span>                      | <span data-ttu-id="6854c-514">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="6854c-515">Útgjaldastýring</span><span class="sxs-lookup"><span data-stu-id="6854c-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-516">**BPM-lína**</span><span class="sxs-lookup"><span data-stu-id="6854c-516">**BPM Line**</span></span>                 | <span data-ttu-id="6854c-517">**Land/svæði**</span><span class="sxs-lookup"><span data-stu-id="6854c-517">**Country/Region**</span></span> |
 | <span data-ttu-id="6854c-518">Skilgreina kostnaðarstýringu</span><span class="sxs-lookup"><span data-stu-id="6854c-518">Configure expense management</span></span> | <span data-ttu-id="6854c-519">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="6854c-520">Eignir</span><span class="sxs-lookup"><span data-stu-id="6854c-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-549">Skipta eign</span><span class="sxs-lookup"><span data-stu-id="6854c-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="6854c-550">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-550">Global</span></span>             |
 | <span data-ttu-id="6854c-551">Millifæra eign</span><span class="sxs-lookup"><span data-stu-id="6854c-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="6854c-552">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="6854c-553">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="6854c-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-602">Skoða færslubókarfærslur eða færslur</span><span class="sxs-lookup"><span data-stu-id="6854c-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="6854c-603">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-603">Global</span></span>             |
 | <span data-ttu-id="6854c-604">Skoða tengt fylgiskjal innan samstæðu úr færslubók</span><span class="sxs-lookup"><span data-stu-id="6854c-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="6854c-605">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="6854c-606">Mannauðsstjórnun</span><span class="sxs-lookup"><span data-stu-id="6854c-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-677">Setja upp hæfnireglur fríðinda</span><span class="sxs-lookup"><span data-stu-id="6854c-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="6854c-678">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-678">Global</span></span>             |
 | <span data-ttu-id="6854c-679">Setja upp skjalagerðir i9</span><span class="sxs-lookup"><span data-stu-id="6854c-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="6854c-680">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="6854c-681">Birgðastjórnun</span><span class="sxs-lookup"><span data-stu-id="6854c-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-712">Rekja vöru eða hráefni</span><span class="sxs-lookup"><span data-stu-id="6854c-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="6854c-713">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-713">Global</span></span>             |
 | <span data-ttu-id="6854c-714">Flytja efnislegra birgða innan vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="6854c-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="6854c-715">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="6854c-716">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="6854c-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-803">Flytja efni með kanban-vinnslum</span><span class="sxs-lookup"><span data-stu-id="6854c-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="6854c-804">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-804">Global</span></span>             |
 | <span data-ttu-id="6854c-805">Sannprófa framleiðsluflæði og útgáfa</span><span class="sxs-lookup"><span data-stu-id="6854c-805">Validate production flow and version</span></span>                          | <span data-ttu-id="6854c-806">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="6854c-807">Aðaláætlanagerð</span><span class="sxs-lookup"><span data-stu-id="6854c-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-816">Auðkenna veigamikil efni og afkastagetu birgja</span><span class="sxs-lookup"><span data-stu-id="6854c-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="6854c-817">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-817">Global</span></span>             |
 | <span data-ttu-id="6854c-818">Breyta skal eftirspurnarspá handvirkt</span><span class="sxs-lookup"><span data-stu-id="6854c-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="6854c-819">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="6854c-820">Fyrirtækisstjórnun</span><span class="sxs-lookup"><span data-stu-id="6854c-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-831">Uppsetning rafrænna undirskrifta</span><span class="sxs-lookup"><span data-stu-id="6854c-831">Set up electronic signatures</span></span>              | <span data-ttu-id="6854c-832">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-832">Global</span></span>             |
 | <span data-ttu-id="6854c-833">Setja upp númeraraðir með því að nota leiðsagnarforrit</span><span class="sxs-lookup"><span data-stu-id="6854c-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="6854c-834">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="6854c-835">Áætlun</span><span class="sxs-lookup"><span data-stu-id="6854c-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-836">**BPM-lína**</span><span class="sxs-lookup"><span data-stu-id="6854c-836">**BPM Line**</span></span>           | <span data-ttu-id="6854c-837">**Land/svæði**</span><span class="sxs-lookup"><span data-stu-id="6854c-837">**Country/Region**</span></span> |
 | <span data-ttu-id="6854c-838">Ákvarða framboð</span><span class="sxs-lookup"><span data-stu-id="6854c-838">Determine availability</span></span> | <span data-ttu-id="6854c-839">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="6854c-840">Innkaup og aðföng</span><span class="sxs-lookup"><span data-stu-id="6854c-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-853">Leita að lánardrottnum</span><span class="sxs-lookup"><span data-stu-id="6854c-853">Search for vendors</span></span>                                               | <span data-ttu-id="6854c-854">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-854">Global</span></span>             |
 | <span data-ttu-id="6854c-855">Setja upp tegundastigveldi innkaupa</span><span class="sxs-lookup"><span data-stu-id="6854c-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="6854c-856">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="6854c-857">skilgreining og vöruupplýsingar</span><span class="sxs-lookup"><span data-stu-id="6854c-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-892">Gefa út ..\fjárhags-víddir\víddar-byggð afurðarsniðmát</span><span class="sxs-lookup"><span data-stu-id="6854c-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="6854c-893">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-893">Global</span></span>             |
 | <span data-ttu-id="6854c-894">Flytja gögn fyrir vörulíkön</span><span class="sxs-lookup"><span data-stu-id="6854c-894">Transfer data for product models</span></span>                      | <span data-ttu-id="6854c-895">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="6854c-896">Hið opinbera</span><span class="sxs-lookup"><span data-stu-id="6854c-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-931">Setja upp sjóð fyrir opinberi geirinn</span><span class="sxs-lookup"><span data-stu-id="6854c-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="6854c-932">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-932">Global</span></span>             |
 | <span data-ttu-id="6854c-933">Setja upp flokkanir innkaupasamnings fyrir opinberi geirinn</span><span class="sxs-lookup"><span data-stu-id="6854c-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="6854c-934">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="6854c-935">Smásala og viðskipti</span><span class="sxs-lookup"><span data-stu-id="6854c-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-1002">leiðréttingar á smásöluverði</span><span class="sxs-lookup"><span data-stu-id="6854c-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="6854c-1003">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1003">Global</span></span>             |
 | <span data-ttu-id="6854c-1004">Vista stillingar fyrir smásöluuppgjör</span><span class="sxs-lookup"><span data-stu-id="6854c-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="6854c-1005">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="6854c-1006">Sala</span><span class="sxs-lookup"><span data-stu-id="6854c-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-1035">Senda sölupantanir sem beina afhendingu</span><span class="sxs-lookup"><span data-stu-id="6854c-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="6854c-1036">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1036">Global</span></span>             |
 | <span data-ttu-id="6854c-1037">Senda sölupantanir án vöruhúss</span><span class="sxs-lookup"><span data-stu-id="6854c-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="6854c-1038">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="6854c-1039">Virðisaukaskattur</span><span class="sxs-lookup"><span data-stu-id="6854c-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-1060">Setja upp staðgreiðsluskatt</span><span class="sxs-lookup"><span data-stu-id="6854c-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="6854c-1061">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1061">Global</span></span>             |
 | <span data-ttu-id="6854c-1062">Skoða bókaðar virðisaukaskattsfærslur</span><span class="sxs-lookup"><span data-stu-id="6854c-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="6854c-1063">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="6854c-1064">Öryggi</span><span class="sxs-lookup"><span data-stu-id="6854c-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-1069">Bera kennsl og leysa úr árekstrum fyrir aðskilnað á skyldum</span><span class="sxs-lookup"><span data-stu-id="6854c-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="6854c-1070">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1070">Global</span></span>             |
 | <span data-ttu-id="6854c-1071">Setja upp aðskilnaður á skyldum</span><span class="sxs-lookup"><span data-stu-id="6854c-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="6854c-1072">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="6854c-1073">Vöruhúsakerfi og flutningar</span><span class="sxs-lookup"><span data-stu-id="6854c-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="6854c-1106">Setja upp farmflytjendur</span><span class="sxs-lookup"><span data-stu-id="6854c-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="6854c-1107">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1107">Global</span></span>             |
 | <span data-ttu-id="6854c-1108">Nota Vinnusvæði farmáætlunar til að áætla farm og sendingar</span><span class="sxs-lookup"><span data-stu-id="6854c-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="6854c-1109">Altæk</span><span class="sxs-lookup"><span data-stu-id="6854c-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="6854c-1110">verkefnaleiðbeiningar í (Febrúar 2016) Safninu Hafist handa.</span><span class="sxs-lookup"><span data-stu-id="6854c-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="6854c-1111">**BPM-lína**</span><span class="sxs-lookup"><span data-stu-id="6854c-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="6854c-1112">**Land/svæði**</span><span class="sxs-lookup"><span data-stu-id="6854c-1112">**Country/Region**</span></span> |

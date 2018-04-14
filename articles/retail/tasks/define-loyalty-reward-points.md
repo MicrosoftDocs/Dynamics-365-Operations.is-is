@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 26b5615df427fb01cc4a1764507fbaa11bf0d7a0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f4c481f37fa1cb53c63e766219fb45a5d0dd3f8
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-loyalty-reward-points"></a><span data-ttu-id="7270b-103"> Skilgreina vildarpunkta smásölu</span><span class="sxs-lookup"><span data-stu-id="7270b-103">Define loyalty reward points</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7270b-104">Þetta ferli fer í gegnum skilgreina vildarpunkta.</span><span class="sxs-lookup"><span data-stu-id="7270b-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="7270b-105">Setja ætti upp vildarpunkta áður en að setja upp vildarkerfis.</span><span class="sxs-lookup"><span data-stu-id="7270b-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="7270b-106">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="7270b-106">This procedure uses the USRT demo data company.</span></span>
 

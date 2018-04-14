@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="24288-104">Starfsfólksaðgerðir [Algengar spurningar]</span><span class="sxs-lookup"><span data-stu-id="24288-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="24288-105">Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks.</span><span class="sxs-lookup"><span data-stu-id="24288-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="24288-106">Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks.</span><span class="sxs-lookup"><span data-stu-id="24288-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="24288-107">Dæmi um verk sem gætu krafist aðgerða starfsfólks eru þegar að stofna nýjar stöður, breyta fyrirliggjandi gildi stöðu, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni eða segja upp starfsmönnum.</span><span class="sxs-lookup"><span data-stu-id="24288-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/08/2018
 <span data-ttu-id="24288-140">Ef beiðni um aðgerð starfsfólks mistekst, skal fylgja þessum skrefum til að leysa þessa villu og endursenda beiðnina:</span><span class="sxs-lookup"><span data-stu-id="24288-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="24288-141">Á **Aðgerðarúðu** skaltu smella á hnappinn **Villutexti** til að skoða skilaboðatexta sem lýsir vandamálinu.</span><span class="sxs-lookup"><span data-stu-id="24288-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="24288-142">Á **Aðgerðarúðu** skaltu smella á **Endurvirkja** til að sækja nýjustu upplýsingar og stilla stöðu starfsfólksaðgerða aftur á **Drög**.</span><span class="sxs-lookup"><span data-stu-id="24288-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="24288-143">Leystu villuna og smelltu svo á **Ljúka** eða **Senda**.</span><span class="sxs-lookup"><span data-stu-id="24288-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="24288-144">Hvað gerist aðgerð starfsfólks sem notar verkflæði þegar lokalínu samþykktarferlisins er lokið?</span><span class="sxs-lookup"><span data-stu-id="24288-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

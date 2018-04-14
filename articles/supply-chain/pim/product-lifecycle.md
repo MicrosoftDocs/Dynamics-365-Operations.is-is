@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: is-is
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="444bc-103">Lífferilsstaða afurðar</span><span class="sxs-lookup"><span data-stu-id="444bc-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="444bc-104">Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.</span><span class="sxs-lookup"><span data-stu-id="444bc-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="444bc-105">Lífferilsstöður afurða eru skilgreind af notanda, yfirleitt framleiðslustjóra eða vara aðalgagna-framleiðslustjóra.</span><span class="sxs-lookup"><span data-stu-id="444bc-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="444bc-106">Tilteknir viðskiptaferlar, svo sem aðaláætlanagerð, geta orðið fyrir áhrifum af tiltekinni lífferilsstöðu.</span><span class="sxs-lookup"><span data-stu-id="444bc-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="444bc-107">Útgefin vara eða varaafbrigði getur tengst lífferilsstöðu afurðar sem skráir í hvaða lífferilsstöðu tiltekin afurð eða afbrigði er nú.</span><span class="sxs-lookup"><span data-stu-id="444bc-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="444bc-108">Þú getur skilgreint hvaða fjölda lífferilsstöðu afurða sem er, með því að úthluta heiti og lýsingu á stöðunni.</span><span class="sxs-lookup"><span data-stu-id="444bc-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="444bc-109">Þú getur valið eina lífferilsstöðu sem sjálfgefið stöðu fyrir nýjar útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="444bc-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="444bc-110">Útgefin afurðaafbrigði erfa sína lífferilsstöðu afurðar frá útgefnu afurðasniðmáti þeirra við sköpun.</span><span class="sxs-lookup"><span data-stu-id="444bc-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="444bc-111">Þegar þú breytir lífferilsstöðu á útgefnu afurðasniðmáti, getur þú valið að uppfæra öll núverandi afbrigði sem hafa sama upprunalega stöðuna.</span><span class="sxs-lookup"><span data-stu-id="444bc-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="444bc-112">Stofna nýja lífferilsstaða afurðar</span><span class="sxs-lookup"><span data-stu-id="444bc-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="444bc-113">Til að búa til nýja lífferilsstöðu afurðar, skal spila eða lesa verkefnaleiðsögnina **Búðu til nýja lífferilsstöðu afurðar**.</span><span class="sxs-lookup"><span data-stu-id="444bc-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="444bc-114">Til að búa til sjálfgefið lífferilsstaða afurðar skal spila eða lesa verkefnaleiðsögnina **Búa til sjálfgefið lífferilsstaða afurðar**.</span><span class="sxs-lookup"><span data-stu-id="444bc-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="444bc-134">Af ástæðum tengdum afköstum, er mjög mælt með því að tengja allar úreltar afurðir eða afurðaafbrigði, sérstaklega þegar unnið er með óendurnotanleg grunnstillingaafbrigði afurða, við lífferilsstöðu afurðar sem er óvirkt fyrir aðaláætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="444bc-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="444bc-135">Sjálfgefinn flutningur, innflutningur, og útflutningur</span><span class="sxs-lookup"><span data-stu-id="444bc-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="444bc-136">Lífferilsstaða afurðar eru ekki studd af gagnaeiningum, og lífferilsstaða afurðar er ekki hægt að stilla í breytilega stöðu gegnum gagnaeiningar útgefnu afurðarinnar.</span><span class="sxs-lookup"><span data-stu-id="444bc-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="444bc-137">Um flutning frá fyrri útgáfum verður lífferilsstaða allra afurða og afurðaafbrigða auð.</span><span class="sxs-lookup"><span data-stu-id="444bc-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="444bc-138">Þegar flutt eru inn útgefnar afurðir gegnum gagnaeiningu, verður sjálfgefið lífferilsstöðu afurðar beitt við stofnun.</span><span class="sxs-lookup"><span data-stu-id="444bc-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="444bc-139">Þegar flutt eru inn útgefnar afurðaafbrigði gegnum gagnaeiningu, verður lífferilsstaða afurðar útgefins afurðasniðmáts flutt inn.</span><span class="sxs-lookup"><span data-stu-id="444bc-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="444bc-140">Finna úreltar afurðir og afurðarafbrigði</span><span class="sxs-lookup"><span data-stu-id="444bc-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="444bc-141">Þú getur keyrt hermigreiningu til að finna úreltar afurðir eða afurðaafbrigði og síðan uppfæra lífferilsstaða afurðar þeirra.</span><span class="sxs-lookup"><span data-stu-id="444bc-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="444bc-142">Til að finna úreltar afurðir skaltu spila og lesa verkefnaleiðbeiningarnar **Finndu úrelt afurðaafbrigði og úthlutaðu lífferilsstaða afurðar**.</span><span class="sxs-lookup"><span data-stu-id="444bc-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="444bc-143">Þessi verkefnaleiðbeiningar sýnir hvernig á að finna úreltar afurðir eða afurðaafbrigði og hvernig á að tengja lífferilsstaða afurðar við úreltar afurðir.</span><span class="sxs-lookup"><span data-stu-id="444bc-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="444bc-144">Það sýnir einnig hvernig skal skoða herminiðurstöðurnar og meta hversu margar afurðir og afurðaafbrigði verða tengd nýjum lífferilsstaða afurðar þegar keyrð er uppfærslan án hermunar.</span><span class="sxs-lookup"><span data-stu-id="444bc-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="444bc-145">Með því að keyra greininguna í hermistillingu, birtist afurðir og afurðaafbrigði sem eru úreltar á tilteknu formi, þar sem hægt er að endurskoða þær auðveldlega.</span><span class="sxs-lookup"><span data-stu-id="444bc-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="444bc-146">Greiningin leitar að færslum og tilteknum aðalgögnum til að bera kennsl á afurðir sem hafa enga eftirspurn innan breytilegs tímabils og engar aðalgögn sem geta leitt til eftirspurnar.</span><span class="sxs-lookup"><span data-stu-id="444bc-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="444bc-147">Nýjar afurðir sem gefnar eru út innan breytilegs tíma má útiloka frá greiningunni.</span><span class="sxs-lookup"><span data-stu-id="444bc-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="444bc-148">Þegar hermigreiningin skilar áætluðum niðurstöðum getur notandinn keyrt greininguna og sett nýtt lífferilsstaða afurðar til allra afurða sem auðkenndar eru úreltar með greiningunni.</span><span class="sxs-lookup"><span data-stu-id="444bc-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="444bc-149">Athugaðu að allar greiningar og uppfærslur verða að vera gerðar innan sama lögaðila.</span><span class="sxs-lookup"><span data-stu-id="444bc-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="444bc-150">Viðmiðanir til að velja og uppfæra útgefnar afurðir eða afurðaafbrigði</span><span class="sxs-lookup"><span data-stu-id="444bc-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="444bc-151">Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir eða afurðaafbrigði:</span><span class="sxs-lookup"><span data-stu-id="444bc-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="444bc-152">Lífferilsstaða afurðar eða afurðarafbrigðis verður að vera frábrugðin nýju, áformuðu ástandi.</span><span class="sxs-lookup"><span data-stu-id="444bc-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="c3371-105">Vinnusvæði eignastýringar</span><span class="sxs-lookup"><span data-stu-id="c3371-105">Fixed asset management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c3371-106">Vinnusvæðið **Eignastýring** sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið.</span><span class="sxs-lookup"><span data-stu-id="c3371-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="c3371-107">Þetta vinnusvæði inniheldur samantektaryfirlit og greiningayfirlit.</span><span class="sxs-lookup"><span data-stu-id="c3371-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="c3371-108">Flipinn **Mín vinna** sýnir samantektarreiti fastra eigna upplýsingar og magntengdar upplýsingar um eignir í gildandi fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="c3371-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="c3371-109">Einnig er hægt að bæta greiningarlíkönum við Power BI hluta beint í vinnusvæðið.</span><span class="sxs-lookup"><span data-stu-id="c3371-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="c3371-110">Flipinn **Samantektarlíkön – öll fyrirtækin** flipa notar gátt í Microsoft Power BI til að sýna sýnigögn sem tengjast eignum innan allra fyrirtækja.</span><span class="sxs-lookup"><span data-stu-id="c3371-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

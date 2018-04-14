@@ -19,17 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e9835af4b931ee07dd0df48c11bb916eb70f4f3
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a><span data-ttu-id="bb7f7-103">Yfirlit yfir Retail-jaðarbúnað</span><span class="sxs-lookup"><span data-stu-id="bb7f7-103">Retail peripherals overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="bb7f7-104">Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.</span><span class="sxs-lookup"><span data-stu-id="bb7f7-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="bb7f7-105">Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.</span><span class="sxs-lookup"><span data-stu-id="bb7f7-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="8ed08-103">Flýtilyklar</span><span class="sxs-lookup"><span data-stu-id="8ed08-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8ed08-104">Eftirfarandi flýtilyklar eiga við alls staðar í Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8ed08-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="8ed08-111">Flýtileiðir</span><span class="sxs-lookup"><span data-stu-id="8ed08-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="8ed08-112">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-112">**To do this**</span></span>                                    | <span data-ttu-id="8ed08-113">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-134">Skoða fyrirliggjandi tiltækar flýtileiðir</span><span class="sxs-lookup"><span data-stu-id="8ed08-134">View currently available shortcuts</span></span>                | <span data-ttu-id="8ed08-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="8ed08-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="8ed08-136">Flýtileiðir dagsetningarvals</span><span class="sxs-lookup"><span data-stu-id="8ed08-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="8ed08-137">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-137">**To do this**</span></span>                        | <span data-ttu-id="8ed08-138">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-153">Velja aldrei (eða hámarksdagar)</span><span class="sxs-lookup"><span data-stu-id="8ed08-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="8ed08-154">N</span><span class="sxs-lookup"><span data-stu-id="8ed08-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="8ed08-155">Flýtivísanir upplýsingakassi</span><span class="sxs-lookup"><span data-stu-id="8ed08-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="8ed08-156">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-156">**To do this**</span></span>                                                                  | <span data-ttu-id="8ed08-157">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-168">Draga saman gildandi upplýsingareit</span><span class="sxs-lookup"><span data-stu-id="8ed08-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="8ed08-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="8ed08-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="8ed08-170">Síun flýtivísana</span><span class="sxs-lookup"><span data-stu-id="8ed08-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="8ed08-171">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-171">**To do this**</span></span>                     | <span data-ttu-id="8ed08-172">**Styðja skal á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-181">Opna ítarlega síun/röðun</span><span class="sxs-lookup"><span data-stu-id="8ed08-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="8ed08-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="8ed08-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="8ed08-183">Flýtileiðir skjámyndar</span><span class="sxs-lookup"><span data-stu-id="8ed08-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="8ed08-184">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-184">**To do this**</span></span>                                      | <span data-ttu-id="8ed08-185">**Styðja skal á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-216">Lokið skjámyndinni og hendið öllum óvistaðum breytingum</span><span class="sxs-lookup"><span data-stu-id="8ed08-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="8ed08-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="8ed08-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="8ed08-218">Flýtileiðir flettiskjámyndar</span><span class="sxs-lookup"><span data-stu-id="8ed08-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="8ed08-219">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-219">**To do this**</span></span>                                      | <span data-ttu-id="8ed08-220">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-245">Skipta yfir í línuyfirlit</span><span class="sxs-lookup"><span data-stu-id="8ed08-245">Switch to lines view</span></span>                                | <span data-ttu-id="8ed08-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="8ed08-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="8ed08-247">Flýtileiðir hnitanets</span><span class="sxs-lookup"><span data-stu-id="8ed08-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="8ed08-248">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="8ed08-249">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-283">Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)</span><span class="sxs-lookup"><span data-stu-id="8ed08-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="8ed08-284">Færa inn</span><span class="sxs-lookup"><span data-stu-id="8ed08-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="8ed08-285">Flýtivísanir inntaksstýringar</span><span class="sxs-lookup"><span data-stu-id="8ed08-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="8ed08-286">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-286">**To do this**</span></span>                                                               | <span data-ttu-id="8ed08-287">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-306">Skitpa áherslu milli textasvæðis og tækjastiku í HTML-ritlinum</span><span class="sxs-lookup"><span data-stu-id="8ed08-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="8ed08-307">F6</span><span class="sxs-lookup"><span data-stu-id="8ed08-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="8ed08-308">Flýtileiðir skilaboða</span><span class="sxs-lookup"><span data-stu-id="8ed08-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="8ed08-309">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-309">**To do this**</span></span>           | <span data-ttu-id="8ed08-310">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-313">Fara í Skilaboðastiku</span><span class="sxs-lookup"><span data-stu-id="8ed08-313">Go to the Message Bar</span></span>    | <span data-ttu-id="8ed08-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="8ed08-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="8ed08-315">Flýtileiðir flettinga</span><span class="sxs-lookup"><span data-stu-id="8ed08-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="8ed08-316">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-316">**To do this**</span></span>                                                                | <span data-ttu-id="8ed08-317">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-348">Fara í upplýsingakassa (sem kann að fela í sér að opna hann)</span><span class="sxs-lookup"><span data-stu-id="8ed08-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="8ed08-349">Alt+M,B eða Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="8ed08-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="8ed08-350">Sérstilltar flýtileiðir</span><span class="sxs-lookup"><span data-stu-id="8ed08-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="8ed08-351">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="8ed08-352">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="8ed08-397">Loka sérstillingu (í sérstillingu)</span><span class="sxs-lookup"><span data-stu-id="8ed08-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="8ed08-398">Esc</span><span class="sxs-lookup"><span data-stu-id="8ed08-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="8ed08-399">Flýtileiðir hlutafærslna</span><span class="sxs-lookup"><span data-stu-id="8ed08-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="8ed08-400">**Til að gera þetta**</span><span class="sxs-lookup"><span data-stu-id="8ed08-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="8ed08-401">**Styðjið á**</span><span class="sxs-lookup"><span data-stu-id="8ed08-401">**Press**</span></span>                        |

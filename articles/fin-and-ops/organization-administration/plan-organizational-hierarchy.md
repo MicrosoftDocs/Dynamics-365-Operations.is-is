@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
 ms.contentlocale: is-is
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="2acf9-103">Skipuleggja fyrirtækjastigveldi</span><span class="sxs-lookup"><span data-stu-id="2acf9-103">Plan your organizational hierarchy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2acf9-104">Áður en þú setur upp fyrirtæki og stigveldi fyrirtækis í Microsoft Dynamics 365 for Finance and Operations skaltu áætla hvernig fyrirtækjalíkanið þitt verður.</span><span class="sxs-lookup"><span data-stu-id="2acf9-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="2acf9-105">Fyrirtækjalíkan hefur töluverð áhrif á innleiðingu á Finance and Operations og í viðskiptaferlum.</span><span class="sxs-lookup"><span data-stu-id="2acf9-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 04/03/2018
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a><span data-ttu-id="2acf9-254">Ef fyrirtækið er með líkan sem rekstrareining</span><span class="sxs-lookup"><span data-stu-id="2acf9-254">If the organization is modeled as an operating unit</span></span> 
 <span data-ttu-id="2acf9-255">Lögum og bókhaldsreglum eru sömu milli löndum/svæðum þar sem fyrirtæki þitt er hægt að nota eitt safn ársloka ferli.</span><span class="sxs-lookup"><span data-stu-id="2acf9-255">If laws and accounting practices are the same among the countries/regions where your organizations are located, you may use a single set of year-end procedures.</span></span> <span data-ttu-id="2acf9-256">Þetta þýðir að hægt model fyrirtæki sem rekstrareiningar.</span><span class="sxs-lookup"><span data-stu-id="2acf9-256">This means that you can model the organizations as operating units.</span></span> <span data-ttu-id="2acf9-257">Allir rekstrareiningar verða að nota sama ferli fyrir lökun í árslok.</span><span class="sxs-lookup"><span data-stu-id="2acf9-257">All operating units must use the same year-end closing procedure.</span></span> 
-   
+
 ### <a name="number-sequences"></a><span data-ttu-id="2acf9-258">Númeraraðir</span><span class="sxs-lookup"><span data-stu-id="2acf9-258">Number sequences</span></span>
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a><span data-ttu-id="2acf9-259">Ef fyrirtækið er með líkan sem lögaðili</span><span class="sxs-lookup"><span data-stu-id="2acf9-259">If the organization is modeled as a legal entity</span></span>
 <span data-ttu-id="2acf9-260">Hægt er að setja upp númeraraðir fyrir nokkrar tilvísanir á hvern lögaðila.</span><span class="sxs-lookup"><span data-stu-id="2acf9-260">Number sequences for some references can be set up per legal entity.</span></span> <span data-ttu-id="2acf9-261">Sumir númeraraðir hægt að deila.</span><span class="sxs-lookup"><span data-stu-id="2acf9-261">Some number sequences can be shared.</span></span> 

@@ -16,15 +16,15 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 954fb358a1733a4f386553a349e10c2236597096
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a><span data-ttu-id="ca865-103">Stofna bankaaðstöðusamninga fyrir ábyrgðaryfirlýsingu</span><span class="sxs-lookup"><span data-stu-id="ca865-103">Create a bank facility agreement for the letter of guarantee</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ca865-104">Þetta verk stofnar bankaaðstöðusamning til að vinna ábyrgðarbréf.</span><span class="sxs-lookup"><span data-stu-id="ca865-104">This task creates a bank facility agreement to process a letter of guarantee.</span></span> <span data-ttu-id="ca865-105">Þetta verkefni notar USMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="ca865-105">This task uses the USMF demo company.</span></span> 
 

@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ca839e091ab49ea0d47d5e039a4c6d4007c2650
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a><span data-ttu-id="76eb2-103">Búa til nauðsynlegar skilgreiningar til að flytja inn gögn úr ytri skrá fyrir rafræna skýrslugerð (ER)</span><span class="sxs-lookup"><span data-stu-id="76eb2-103">Create required configurations to import data from an external file for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="76eb2-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur hannað grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations úr ytri skrá.</span><span class="sxs-lookup"><span data-stu-id="76eb2-104">The following steps explain how a user in the System administrator or Electronic reporting developer role can design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file.</span></span> <span data-ttu-id="76eb2-105">Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar “Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Hægt er að ljúka þessum skrefum með USMF-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="76eb2-105">In this example, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the Task guide, “ER Create a configuration provider and mark it as active.”</span></span> <span data-ttu-id="76eb2-106">Skrefin er hægt að klára með því að nota USMF gagnasafnið.</span><span class="sxs-lookup"><span data-stu-id="76eb2-106">These steps can be completed using the USMF data set.</span></span> <span data-ttu-id="76eb2-107">Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span><span class="sxs-lookup"><span data-stu-id="76eb2-107">You must also download and save the following files locally using links from the Electronic reporting overview topic (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span></span>
 

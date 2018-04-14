@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0feb75e728517d24602025e3ceb12cb6ab1840f4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="lean-manufacturing-overview"></a><span data-ttu-id="3d4ee-103">Yfirlit yfir lean-framleiðslu</span><span class="sxs-lookup"><span data-stu-id="3d4ee-103">Lean manufacturing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d4ee-104">Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-104">This article provides an overview and description of the lean manufacturing features in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -40,6 +39,7 @@ ms.lasthandoff: 03/26/2018
 -   <span data-ttu-id="3d4ee-109">Fylgjast með og viðhalda kanban-vinnslur.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-109">Monitor and maintain kanban jobs.</span></span>
 
 <span data-ttu-id="3d4ee-110">Lean-framleiðsla í Finance and Operations samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-110">The lean manufacturing architecture in Finance and Operations consists of production flows, activities, and kanban rules.</span></span> <span data-ttu-id="3d4ee-111">Þetta skipulag er að fullu samþætt ferlum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-111">These structures are fully integrated with Finance and Operations processes.</span></span> <span data-ttu-id="3d4ee-112">Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-112">You can use lean manufacturing in a mixed-mode manufacturing environment that combines various supply, production, and sourcing strategies.</span></span> <span data-ttu-id="3d4ee-113">Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-113">These strategies include production orders, batch orders for process industries, purchase orders, and transfer orders.</span></span>
+
 | <span data-ttu-id="3d4ee-114">**Mikilvægt**</span><span class="sxs-lookup"><span data-stu-id="3d4ee-114">**Important**</span></span>                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="3d4ee-115">Hægt er að nota Finance and Operations til að styðja innleiðingu lean-framleiðslu með kanban.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-115">You can use Finance and Operations to support the implementation of lean manufacturing with kanbans.</span></span> <span data-ttu-id="3d4ee-116">Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi.</span><span class="sxs-lookup"><span data-stu-id="3d4ee-116">However, a successful implementation of lean principles depends on the internal business processes that you use, and the actual production conditions and environment.</span></span> |

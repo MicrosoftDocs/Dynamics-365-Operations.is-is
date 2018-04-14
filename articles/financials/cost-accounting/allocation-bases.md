@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="945c3-104">Úthlutunargrunnar</span><span class="sxs-lookup"><span data-stu-id="945c3-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="945c3-105">Úthlutunargrunnar eru grundvöllur úthlutunar rekstrarkostnaðar í kostnaðarbókhaldi.</span><span class="sxs-lookup"><span data-stu-id="945c3-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="945c3-106">Úthlutunargrunnur getur verið magn, eins og þær vélastundir sem notaðar eru, notaðar kílóvatt-stundir (kWh), eða þeir fermetrar sem eru í notkun.</span><span class="sxs-lookup"><span data-stu-id="945c3-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="945c3-107">Úthlutunargrunnar eru aðallega notaðir til að úthluta rekstrarkostnaði afurða sem framleiddar eru.</span><span class="sxs-lookup"><span data-stu-id="945c3-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="945c3-108">Til dæmis úthlutar tæknideild kostnaði sínum samkvæmt fjölda þeirra tölva sem hver deild notar.</span><span class="sxs-lookup"><span data-stu-id="945c3-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="945c3-775">Hér er dæmi um kostnaðardreifingarreglu ef formúlu úthlutunargrunns fyrir fast rafmagn er úthlutað sem úthlutunargrunnur þess.</span><span class="sxs-lookup"><span data-stu-id="945c3-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="945c3-776">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="945c3-776">Cost object</span></span> |  <span data-ttu-id="945c3-777">lýsing</span><span class="sxs-lookup"><span data-stu-id="945c3-777">Description</span></span>  | <span data-ttu-id="945c3-778">Mæligildi</span><span class="sxs-lookup"><span data-stu-id="945c3-778">Magnitude</span></span> | <span data-ttu-id="945c3-779">Úthlutunarþáttur</span><span class="sxs-lookup"><span data-stu-id="945c3-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="945c3-780">CC001</span><span class="sxs-lookup"><span data-stu-id="945c3-780">CC001</span></span>       | <span data-ttu-id="945c3-781">Mannauður</span><span class="sxs-lookup"><span data-stu-id="945c3-781">HR</span></span> | <span data-ttu-id="945c3-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="945c3-782">1,837.50</span></span>  | <span data-ttu-id="945c3-783">(1.837,50 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="945c3-784">CC002</span><span class="sxs-lookup"><span data-stu-id="945c3-784">CC002</span></span>       | <span data-ttu-id="945c3-785">FI</span><span class="sxs-lookup"><span data-stu-id="945c3-785">FI</span></span> | <span data-ttu-id="945c3-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="945c3-786">3,075.00</span></span>  | <span data-ttu-id="945c3-787">(3.075,00 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="945c3-788">CC003</span><span class="sxs-lookup"><span data-stu-id="945c3-788">CC003</span></span>       | <span data-ttu-id="945c3-789">Upplýsingatækni</span><span class="sxs-lookup"><span data-stu-id="945c3-789">IT</span></span> | <span data-ttu-id="945c3-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="945c3-790">13,250.00</span></span> | <span data-ttu-id="945c3-791">(13.250,00 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="945c3-776">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="945c3-776">Cost object</span></span> | <span data-ttu-id="945c3-777">lýsing</span><span class="sxs-lookup"><span data-stu-id="945c3-777">Description</span></span> | <span data-ttu-id="945c3-778">Mæligildi</span><span class="sxs-lookup"><span data-stu-id="945c3-778">Magnitude</span></span> |        <span data-ttu-id="945c3-779">Úthlutunarþáttur</span><span class="sxs-lookup"><span data-stu-id="945c3-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="945c3-780">CC001</span><span class="sxs-lookup"><span data-stu-id="945c3-780">CC001</span></span>    |     <span data-ttu-id="945c3-781">Mannauður</span><span class="sxs-lookup"><span data-stu-id="945c3-781">HR</span></span>      | <span data-ttu-id="945c3-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="945c3-782">1,837.50</span></span>  | <span data-ttu-id="945c3-783">(1.837,50 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="945c3-784">CC002</span><span class="sxs-lookup"><span data-stu-id="945c3-784">CC002</span></span>    |     <span data-ttu-id="945c3-785">FI</span><span class="sxs-lookup"><span data-stu-id="945c3-785">FI</span></span>      | <span data-ttu-id="945c3-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="945c3-786">3,075.00</span></span>  | <span data-ttu-id="945c3-787">(3.075,00 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="945c3-788">CC003</span><span class="sxs-lookup"><span data-stu-id="945c3-788">CC003</span></span>    |     <span data-ttu-id="945c3-789">Upplýsingatækni</span><span class="sxs-lookup"><span data-stu-id="945c3-789">IT</span></span>      | <span data-ttu-id="945c3-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="945c3-790">13,250.00</span></span> | <span data-ttu-id="945c3-791">(13.250,00 ÷ 18.162,50) × upphæð</span><span class="sxs-lookup"><span data-stu-id="945c3-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

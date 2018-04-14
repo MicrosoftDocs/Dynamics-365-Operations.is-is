@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8409586e6d4ae13da2b171da82e313c7fc5a371
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-project-purchase-order"></a><span data-ttu-id="cd7a9-103">Stofna innkaupapöntun verks</span><span class="sxs-lookup"><span data-stu-id="cd7a9-103">Create project purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd7a9-104">Þetta ferli sýnir hvernig stofna innkaupapöntun fyrir verkefni.</span><span class="sxs-lookup"><span data-stu-id="cd7a9-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="cd7a9-105">Þetta verkefni notar USSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="cd7a9-105">This task uses the USSI data set.</span></span>
 

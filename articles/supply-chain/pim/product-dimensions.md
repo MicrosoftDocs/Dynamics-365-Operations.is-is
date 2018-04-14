@@ -20,19 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ba0c5d44d58faac47b6a44265431a48c49874df
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-dimensions"></a><span data-ttu-id="e0142-105">Afurðarvíddir</span><span class="sxs-lookup"><span data-stu-id="e0142-105">Product dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="e0142-106">Það eru fjórar afurðavíddir - Litur, Skilgreining, Stærð og Stíll.</span><span class="sxs-lookup"><span data-stu-id="e0142-106">There are four product dimensions -  Color, Configuration, Size and Style.</span></span> <span data-ttu-id="e0142-107">Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="e0142-107">You combine product dimensions in dimension groups and assign dimension groups to product masters.</span></span> <span data-ttu-id="e0142-108">Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="e0142-108">The combinations of product dimensions determine how product variants are defined.</span></span>
 
@@ -51,6 +50,7 @@ ms.lasthandoff: 02/07/2018
 -   <span data-ttu-id="e0142-129">Smellið á **Upplýsingastjórnun afurðar** &gt; **Útgefnar afurðir**.</span><span class="sxs-lookup"><span data-stu-id="e0142-129">Click **Product information management** &gt; **Released products**.</span></span> <span data-ttu-id="e0142-130">Veljið afurðarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="e0142-130">Select a product master.</span></span> <span data-ttu-id="e0142-131">Í **Aðgerðasvæði** er smellt á **Afurð**.</span><span class="sxs-lookup"><span data-stu-id="e0142-131">On the **Action Pane**, click **Product**.</span></span> <span data-ttu-id="e0142-132">Í reitnum **afurðarsniðmát** flokki, skal velja **afurðarvíddir**.</span><span class="sxs-lookup"><span data-stu-id="e0142-132">In the **Product master** group, click **Product dimensions**.</span></span>
 
 <span data-ttu-id="e0142-133">Númer vöruvíddasamsetningar sem hægt er að stofna fyrir vöru er takmörkuð af fjölda afurð mögulegar samsetningar.</span><span class="sxs-lookup"><span data-stu-id="e0142-133">The number of variants that you can create for an item is limited by the number of possible product dimension combinations.</span></span>
+
 | <span data-ttu-id="e0142-134">**Ábending**</span><span class="sxs-lookup"><span data-stu-id="e0142-134">**Tip**</span></span>                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e0142-135">Þegar þú notar afurð á til dæmis pöntunarlínu velurðu afurðavíddir til að tilgreina afurðarafbrigði sem á að vinna með.</span><span class="sxs-lookup"><span data-stu-id="e0142-135">When you use a product on, for example, an order line, you select the product dimensions to identify the product variant that you want to work with.</span></span> |

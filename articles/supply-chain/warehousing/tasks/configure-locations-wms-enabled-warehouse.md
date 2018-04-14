@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fb48914491597f2eb7cc08db99ed548764213709
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="f1178-103">Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="f1178-103">Configure locations in a WMS-enabled warehouse</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f1178-104">Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli).</span><span class="sxs-lookup"><span data-stu-id="f1178-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="f1178-105">Ferlið er yfirleitt gert af stjórnanda vöruhúss.</span><span class="sxs-lookup"><span data-stu-id="f1178-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="f1178-106">Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="f1178-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="f1178-107">Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.</span><span class="sxs-lookup"><span data-stu-id="f1178-107">A precondition is that you have at least one site configured.</span></span>
 

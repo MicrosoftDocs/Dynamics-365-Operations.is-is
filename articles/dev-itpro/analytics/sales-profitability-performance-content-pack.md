@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="45a88-104">Power BI-efni fyrir söluframmistöðu og arðsemi</span><span class="sxs-lookup"><span data-stu-id="45a88-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="45a88-105">Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Sala og arðsemi**.</span><span class="sxs-lookup"><span data-stu-id="45a88-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="45a88-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="45a88-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="45a88-140">Tekjur eftir afurðum</span><span class="sxs-lookup"><span data-stu-id="45a88-140">Revenue by product</span></span>     | <span data-ttu-id="45a88-141">Tekjur & brúttóframlegð eftir söluflokki</span><span class="sxs-lookup"><span data-stu-id="45a88-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="45a88-142">Samtala \# aukaafurða</span><span class="sxs-lookup"><span data-stu-id="45a88-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="45a88-143">Efstu tíu afurðir eftir tekjum</span><span class="sxs-lookup"><span data-stu-id="45a88-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="45a88-144">Heildarfjöldi virkra afurða og prósenta af samtölu</span><span class="sxs-lookup"><span data-stu-id="45a88-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="45a88-145">Heildartekjur eftir söluflokki</span><span class="sxs-lookup"><span data-stu-id="45a88-145">Total revenue by sales category</span></span>            | <span data-ttu-id="45a88-146">Fjöldi afurða fyrir 80% tekna</span><span class="sxs-lookup"><span data-stu-id="45a88-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="45a88-147">Tekjur eftir tímabili\\*</span><span class="sxs-lookup"><span data-stu-id="45a88-147">Revenue by period\\*</span></span>    | <span data-ttu-id="45a88-148">Tekjur eftir mánuði</span><span class="sxs-lookup"><span data-stu-id="45a88-148">Revenue by month</span></span>                           | <span data-ttu-id="45a88-149">Vöxtur í tekjum ár frá ári</span><span class="sxs-lookup"><span data-stu-id="45a88-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="45a88-147">Tekjur eftir tímabili\*</span><span class="sxs-lookup"><span data-stu-id="45a88-147">Revenue by period\*</span></span>    | <span data-ttu-id="45a88-148">Tekjur eftir mánuði</span><span class="sxs-lookup"><span data-stu-id="45a88-148">Revenue by month</span></span>                           | <span data-ttu-id="45a88-149">Vöxtur í tekjum ár frá ári</span><span class="sxs-lookup"><span data-stu-id="45a88-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="45a88-150">Eftirliggjandi tekjufrávik</span><span class="sxs-lookup"><span data-stu-id="45a88-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="45a88-151">Vöxtur í tekjum ár frá ári %</span><span class="sxs-lookup"><span data-stu-id="45a88-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="45a88-152">Heildarfrávik sölu eftir landsvæði viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="45a88-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="45a88-153">Tekjur eftir staðsetningu</span><span class="sxs-lookup"><span data-stu-id="45a88-153">Revenue by location</span></span>    | <span data-ttu-id="45a88-154">Sölutekjur eftir borg</span><span class="sxs-lookup"><span data-stu-id="45a88-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="45a88-162">Efstu 15 viðskiptamenn eftir brúttóframlegð</span><span class="sxs-lookup"><span data-stu-id="45a88-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="45a88-163">Brúttóhagnaður eftir mánuði, ár frá ári</span><span class="sxs-lookup"><span data-stu-id="45a88-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="45a88-164">\\* Tekjur þessa árs og síðasta árs og vöxtur eftir söluflokki.</span><span class="sxs-lookup"><span data-stu-id="45a88-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="45a88-164">\* Tekjur þessa árs og síðasta árs og vöxtur eftir söluflokki.</span><span class="sxs-lookup"><span data-stu-id="45a88-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="45a88-165">Skilja gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="45a88-165">Understanding the data model and entities</span></span>

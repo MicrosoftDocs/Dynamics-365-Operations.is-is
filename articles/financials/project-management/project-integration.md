@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d412c60f22347a38e38ca5f2c5515bd132814f25
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-project-client-integration"></a><span data-ttu-id="aa5f9-104">Microsoft Project biðlarasamþætting</span><span class="sxs-lookup"><span data-stu-id="aa5f9-104">Microsoft Project client integration</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa5f9-105">Skipuleggja og vinna með verkáætlun getur verið flókið, þannig að verkefnastjórar þurfa að nota verkfæri sem hjálpa þeim að stjórna þessu verki.</span><span class="sxs-lookup"><span data-stu-id="aa5f9-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="aa5f9-106">Samþætting við Microsoft Project Client veitir stuðning til að opna og stjórna sundurliðun verkþátta í verki.</span><span class="sxs-lookup"><span data-stu-id="aa5f9-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="aa5f9-107">Verkefnastjórinn getur birt allar breytingar aftur í Finance and Operations sundurliðun verkþátta í verki.</span><span class="sxs-lookup"><span data-stu-id="aa5f9-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 

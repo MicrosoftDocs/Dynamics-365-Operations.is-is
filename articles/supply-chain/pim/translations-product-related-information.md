@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 87dfdf7085e185b3e0467088118838eb832546d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e10bd1453aef817e501fab326eb62c58a37e9825
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-related-translations-faq"></a><span data-ttu-id="61ffd-103">Algengar spurningar um afurðartengdar þýðingar</span><span class="sxs-lookup"><span data-stu-id="61ffd-103">Product-related translations FAQ</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="61ffd-104">Þetta efnisatriði lýsir því hvernig stjórna þýðingar fyrir afurðir afurðarvíddargildi og afurðaeigindir.</span><span class="sxs-lookup"><span data-stu-id="61ffd-104">This topic describes how to manage translations for products, product dimension values, and product attributes.</span></span> 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td><span data-ttu-id="61ffd-150">Til að stilla æskilegt tungumál viðskiptavinar, skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="61ffd-150">To set the preferred language of a customer, follow these steps:</span></span>
-<ol>  
-<li><span data-ttu-id="61ffd-151">Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong><strong>viðskiptavinir</strong>.</span><span class="sxs-lookup"><span data-stu-id="61ffd-151">Click <strong>Sales and marketing</strong> &gt; <strong>Common</strong> &gt; <strong>Customers</strong> &gt; <strong>All</strong> <strong>customers</strong>.</span></span></li>
+<ol><br/><li><span data-ttu-id="61ffd-151">Smellið á <strong>Sala og markaðssetning</strong> &gt; <strong> Almennt</strong> &gt; <strong> Viðskiptavinir</strong> &gt; <strong> Allir</strong><strong>viðskiptavinir</strong>.</span><span class="sxs-lookup"><span data-stu-id="61ffd-151">Click <strong>Sales and marketing</strong> &gt; <strong>Common</strong> &gt; <strong>Customers</strong> &gt; <strong>All</strong> <strong>customers</strong>.</span></span></li>
 <li><span data-ttu-id="61ffd-152">Tvísmellið á viðskiptavin til að opna skjámyndina <strong>Viðskiptavinir</strong>.</span><span class="sxs-lookup"><span data-stu-id="61ffd-152">Double-click a customer to open the <strong>Customers</strong> page.</span></span> <span data-ttu-id="61ffd-153">Á flipanum <strong>Almennt</strong>, á svæðinu <strong>Tungumál</strong> skal velja <strong>Tungumál</strong>.</span><span class="sxs-lookup"><span data-stu-id="61ffd-153">On the <strong>General</strong> tab, in the <strong>Language</strong> field, select the <strong>language</strong>.</span></span></li>
 </ol></td>
 </tr>

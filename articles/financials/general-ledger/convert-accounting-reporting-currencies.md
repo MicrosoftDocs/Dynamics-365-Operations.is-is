@@ -18,17 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad840f4ed2cf27615e699a13fcd8be7f3c2cd5c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="30a3b-103">Umreikningur bókhalds- eða skýrslugjaldmiðla</span><span class="sxs-lookup"><span data-stu-id="30a3b-103">Convert accounting or reporting currencies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="30a3b-104">Fyrirtæki°sem verður að breyta bókhaldsgjaldmiðli eða skýrslugjaldmiðli sínum hefur tvo valkostir.</span><span class="sxs-lookup"><span data-stu-id="30a3b-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="30a3b-105">Fyrsti valkostur er að stofna nýtt fyrirtæki og byrja upp á nýtt.</span><span class="sxs-lookup"><span data-stu-id="30a3b-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="30a3b-106">Annar kostur er að keyra umbreytingarferli bókhalds- og skýrslugjaldmiðla.</span><span class="sxs-lookup"><span data-stu-id="30a3b-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="30a3b-107">Þetta er mjög langt ferli sem breytir hverri færslu í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="30a3b-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="30a3b-108">Einnig er krafist einhverrar uppsetningar áður en hægt er að keyra ferlið.</span><span class="sxs-lookup"><span data-stu-id="30a3b-108">Some setup is also required before the process can be run.</span></span>
 

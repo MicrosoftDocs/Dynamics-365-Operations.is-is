@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: is-is
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="98cfe-103">Þróun starfsmanns efni Power BI</span><span class="sxs-lookup"><span data-stu-id="98cfe-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="98cfe-104">Þetta efnisatriði lýsir efni **þróunar starfsmanns** í Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="98cfe-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="98cfe-124">Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið.</span><span class="sxs-lookup"><span data-stu-id="98cfe-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="98cfe-125">Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="98cfe-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="98cfe-126">Skilja gagnalíkan og einingar</span><span class="sxs-lookup"><span data-stu-id="98cfe-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="98cfe-127">Eining</span><span class="sxs-lookup"><span data-stu-id="98cfe-127">Entity</span></span>                   | <span data-ttu-id="98cfe-128">Innihald</span><span class="sxs-lookup"><span data-stu-id="98cfe-128">Contents</span></span>                                                                                                   | <span data-ttu-id="98cfe-129">Vensl við aðra lögaðila</span><span class="sxs-lookup"><span data-stu-id="98cfe-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="98cfe-130">Dagsetning starfsupphafs</span><span class="sxs-lookup"><span data-stu-id="98cfe-130">Calendar Offset</span></span>          | <span data-ttu-id="98cfe-131">Mótbókanir dagatals til að sneiða skýrslur</span><span class="sxs-lookup"><span data-stu-id="98cfe-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="98cfe-132">Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur</span><span class="sxs-lookup"><span data-stu-id="98cfe-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

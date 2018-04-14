@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="d7d6c-103">Kostnaðarreglur</span><span class="sxs-lookup"><span data-stu-id="d7d6c-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d7d6c-104">Hægt er að skilgreina reglur sem starfskraftar þurfa að fylgja þegar þeir búa til og skila kostnaðarskýrslum og ferðabeiðnum.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="d7d6c-105">Innleiðing kostnaðarreglna getur hjálpað til við að stjórna kostnaði á áhrifaríkan hátt.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="d7d6c-111">Hægt er að stofna þrjár gerðir reglna:</span><span class="sxs-lookup"><span data-stu-id="d7d6c-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="d7d6c-112">Viðvörun - Leyfir starfskrafti að leggja fram kostnaðarskýrslu eða ferðabeiðni en kostnaðurinn verður merktur fyrir alla samþykktaraðila og</span><span class="sxs-lookup"><span data-stu-id="d7d6c-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="d7d6c-113">fyrir síðari skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-113">for later reporting.</span></span>        
+  <span data-ttu-id="d7d6c-113">fyrir síðari skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="d7d6c-114">Villa - Krefst þess að starfskrafturinn endurskoði kostnaðinn til að hann verði í samræmi við reglu áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="d7d6c-115">Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="d7d6c-115">Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="d7d6c-116">Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="d7d6c-117">Til dæmis geta flugfargjöld á milli Danmerkur</span><span class="sxs-lookup"><span data-stu-id="d7d6c-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="d7d6c-118">og New York verið dýr yfir háannatíma á sumrin.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="d7d6c-119">Hægt er að skilgreina kostnaðarreglu sem takmarkar</span><span class="sxs-lookup"><span data-stu-id="d7d6c-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="d7d6c-120">flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og</span><span class="sxs-lookup"><span data-stu-id="d7d6c-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="d7d6c-121">15. september.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-121">September 15.</span></span>
+  <span data-ttu-id="d7d6c-116">Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="d7d6c-117">Til dæmis geta flugfargjöld á milli Danmerkur</span><span class="sxs-lookup"><span data-stu-id="d7d6c-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="d7d6c-118">og New York verið dýr yfir háannatíma á sumrin.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="d7d6c-119">Hægt er að skilgreina kostnaðarreglu sem takmarkar</span><span class="sxs-lookup"><span data-stu-id="d7d6c-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="d7d6c-120">flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og</span><span class="sxs-lookup"><span data-stu-id="d7d6c-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="d7d6c-121">15. september.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-121">September 15.</span></span>
 

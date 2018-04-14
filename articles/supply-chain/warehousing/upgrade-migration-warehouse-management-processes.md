@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d74f4dcc4195fe4c306084ea2a01a0d4ab0ffeff
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a><span data-ttu-id="951a4-103">Flytja vörur og vöruhúsakerfi úr AX 2012 í Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="951a4-103">Migrate products and warehouse management from AX 2012 to Finance and Operations</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="951a4-104">Í þessu efnisatriði er að finna yfirlit yfir flutningsvalkosti vöru- og vöruhúsastjórnunar innan Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="951a4-104">This topic provides an overview of the product and warehouse management migration options within Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

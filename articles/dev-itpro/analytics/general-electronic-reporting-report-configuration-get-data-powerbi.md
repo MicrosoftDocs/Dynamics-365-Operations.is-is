@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: is-is
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="0f844-103">Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI</span><span class="sxs-lookup"><span data-stu-id="0f844-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0f844-104">Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu.</span><span class="sxs-lookup"><span data-stu-id="0f844-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="0f844-105">Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja.</span><span class="sxs-lookup"><span data-stu-id="0f844-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="0f844-106">Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.</span><span class="sxs-lookup"><span data-stu-id="0f844-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="0f844-217">Stofna Power BI skýrslu með því að nota nýja gagnasafnið.</span><span class="sxs-lookup"><span data-stu-id="0f844-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="0f844-218">Smellið á Power BI gagnasafnið **Upplýsingar um inn- og útflutning** sem var stofnað.</span><span class="sxs-lookup"><span data-stu-id="0f844-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="0f844-219">Skilgreinið myndrænu framsetninguna.</span><span class="sxs-lookup"><span data-stu-id="0f844-219">Configure the visualization.</span></span> <span data-ttu-id="0f844-220">Veljið til dæmis á **Útfyllt korti** myndræn útfærsla, og skilgreina sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="0f844-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="0f844-221">Úthluta skal **CountryOrigin** svæði gagnasafns til **Staðsetningu** svæðinu í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="0f844-222">Úthluta skal **upphæð** svæði gagnasafns til **litamettun** svæðinu í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="0f844-223">Bæta við **Aðgerð** og **Ár** svlpu gagnasafns í **Síur** safni svæða í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="0f844-221">Úthluta skal **CountryOrigin** svæði gagnasafns til **Staðsetningu** svæðinu í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="0f844-222">Úthluta skal **upphæð** svæði gagnasafns til **litamettun** svæðinu í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="0f844-223">Bæta við **Aðgerð** og **Ár** svlpu gagnasafns í **Síur** safni svæða í myndræn útfærsla korts.</span><span class="sxs-lookup"><span data-stu-id="0f844-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="0f844-224">Vista Power BI-skýrsla sem **skýrslu með upplýsingum um Innflutning og útflutning**.</span><span class="sxs-lookup"><span data-stu-id="0f844-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="0f844-225">[![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Athugið að kortið sýnir lönd/svæði sem nefnd eru í Excel-skránni (Austurríki og Sviss í þessu dæmi).</span><span class="sxs-lookup"><span data-stu-id="0f844-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="0f844-226">Þessum lönd/svæði eru litaða til að sýna hlutfalli á reikningsfærðar upphæðir fyrir hvert.</span><span class="sxs-lookup"><span data-stu-id="0f844-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="0f844-227">Uppfæra listann yfir Intrastat-færslur.</span><span class="sxs-lookup"><span data-stu-id="0f844-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="0f844-228">Útflutningsfærslan sem á uppruna sinn á Ítalíu er bætt við.</span><span class="sxs-lookup"><span data-stu-id="0f844-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="0f844-229">[![Listi yfir Intrastat-færslur](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="0f844-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

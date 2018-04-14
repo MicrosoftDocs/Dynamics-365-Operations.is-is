@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3806dafa6ca6ea8355db3d6a8c2432ad67cd69c2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="45eb5-104">Setja upp ítarlegan innflutning bankaafstemmingarferlis</span><span class="sxs-lookup"><span data-stu-id="45eb5-104">Set up the advanced bank reconciliation import process</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="45eb5-105">Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="45eb5-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="45eb5-106">Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.</span><span class="sxs-lookup"><span data-stu-id="45eb5-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="45eb5-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="45eb5-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="45eb5-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="45eb5-136">ISO20022StatementExample</span></span>             |
 | <span data-ttu-id="45eb5-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="45eb5-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="45eb5-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="45eb5-138">BAI2StatementExample</span></span>                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="45eb5-139">Setja upp innflutning á bankayfirlitum ISO20022</span><span class="sxs-lookup"><span data-stu-id="45eb5-139">Set up the import of ISO20022 bank statements</span></span>
 <span data-ttu-id="45eb5-140">Fyrst verður að skilgreina vinnsluhóp fyrir snið bankayfirlits fyrir ISO20022 bankayfirlit með því að nota rammann fyrir gagnaeiningu.</span><span class="sxs-lookup"><span data-stu-id="45eb5-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>

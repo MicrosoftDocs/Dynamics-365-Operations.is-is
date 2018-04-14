@@ -20,19 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06760d84cf5152f24e374cf3fb1bbea5564bbb42
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a><span data-ttu-id="b6370-103">Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði</span><span class="sxs-lookup"><span data-stu-id="b6370-103">Default order settings for dimensions and product variants</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="b6370-104">Sjálfgefnar pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða teknar frá eða geymdar í lágmarks, hámarks, margvíslegu og staðalmagni sem verður notað fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg og aðferð lofaðrar pöntunar.</span><span class="sxs-lookup"><span data-stu-id="b6370-104">Default order settings in Microsoft Dynamics 365 for Finance and Operations define the site and warehouse where items will be sourced from or stored, the minimum, maximum, multiple and standard quantities that will be used for trading or inventory management, the lead times, the stop flag, and the order promising method.</span></span> <span data-ttu-id="b6370-105">Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun.</span><span class="sxs-lookup"><span data-stu-id="b6370-105">Default order settings are used when creating purchase orders, sales orders, transfer orders, inventory journals, and by master planning for generating planned orders.</span></span> <span data-ttu-id="b6370-106">Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.</span><span class="sxs-lookup"><span data-stu-id="b6370-106">Default order settings can be item specific, site specific, product variant specific, or product dimension specific.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0c0faf0b12368273decacfae88c57707b350bf4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5fcf299cbf0a5e334ab4f30e19a563b586753dfe
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a><span data-ttu-id="bd8de-104">Setja upp öryggisbúnað fyrir Power BI-efni greiningar á kostnaðarbókhaldi</span><span class="sxs-lookup"><span data-stu-id="bd8de-104">Set up security for the Cost accounting analysis Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bd8de-105">Í þessu efnisatriði er útskýrt hvernig hægt er að yfirfæra aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="bd8de-105">This topic explains how you can propagate the access-level security in Cost accounting to row-level security in Microsoft Power BI.</span></span> <span data-ttu-id="bd8de-106">Þessi virkni hjálpar til við að tryggja að notendur sjá aðeins Power BI-gögn sem þeir fá aðgang að.</span><span class="sxs-lookup"><span data-stu-id="bd8de-106">This functionality helps guarantee that users see only Power BI data that they are granted access to.</span></span>
 

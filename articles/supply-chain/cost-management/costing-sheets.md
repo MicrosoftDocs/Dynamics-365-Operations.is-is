@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ddba210ced7c7ed5fad818945765528e5b1c1d1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="costing-sheets"></a><span data-ttu-id="15ee0-108">Kostnaðarskjöl</span><span class="sxs-lookup"><span data-stu-id="15ee0-108">Costing sheets</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="15ee0-109">Uppsetning á kostnaðarskjali felur í sér tvö viðföng.</span><span class="sxs-lookup"><span data-stu-id="15ee0-109">Setting up the costing sheet involves two objectives.</span></span> <span data-ttu-id="15ee0-110">Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun.</span><span class="sxs-lookup"><span data-stu-id="15ee0-110">As the first objective, you define the format for displaying cost of goods sold information about a manufactured item or production order.</span></span> <span data-ttu-id="15ee0-111">Sniðna skjámyndin nefnist kostnaðarskjal.</span><span class="sxs-lookup"><span data-stu-id="15ee0-111">The formatted display is termed a costing sheet.</span></span> <span data-ttu-id="15ee0-112">Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="15ee0-112">As the second objective, you define the basis for calculating indirect costs.</span></span> <span data-ttu-id="15ee0-113">Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="15ee0-113">The costing sheet setup builds on the cost group feature for displaying information and for the indirect cost calculation formulas.</span></span> <span data-ttu-id="15ee0-114">Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein.</span><span class="sxs-lookup"><span data-stu-id="15ee0-114">The two objectives of costing sheet setup are described in this article.</span></span> 
 
