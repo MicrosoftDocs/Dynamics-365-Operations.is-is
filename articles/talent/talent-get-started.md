@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="5a138-103">Hafist handa í Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="5a138-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="5a138-107">Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="5a138-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="5a138-108">Sama virkni kann að koma fyrir í öllum þremur vörunum.</span><span class="sxs-lookup"><span data-stu-id="5a138-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="5a138-109">Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5a138-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="5a138-110">Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.</span><span class="sxs-lookup"><span data-stu-id="5a138-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="5a138-111">Sérsníða Talent</span><span class="sxs-lookup"><span data-stu-id="5a138-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="5a138-111">Sérsníða Talent</span><span class="sxs-lookup"><span data-stu-id="5a138-111">Personalizing Talent</span></span> 
 <span data-ttu-id="5a138-112">Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Dynamics 365 for Talent sem auðvelda þér að klára vinnuna tímanlega.</span><span class="sxs-lookup"><span data-stu-id="5a138-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="5a138-113">[Sérsníða notandaupplifun](../fin-and-ops/get-started/personalize-user-experience.md) Þetta efnisatriði útskýrir mismunandi leiðir til að sérsníða Talent og aðlaga hluta vörunnar svo þeir mæti þörfum þínum betur.</span><span class="sxs-lookup"><span data-stu-id="5a138-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="5a138-117">[Flýtileiðir á lyklaborðinu](../fin-and-ops/get-started/shortcut-keys.md) - Þetta efnisatriði sýnir flýtilykla fyrir lyklaborð í bandarískri lyklaborðsskipan.</span><span class="sxs-lookup"><span data-stu-id="5a138-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="5a138-118">Aðgengisupplýsingar</span><span class="sxs-lookup"><span data-stu-id="5a138-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="5a138-118">Aðgengisupplýsingar</span><span class="sxs-lookup"><span data-stu-id="5a138-118">Accessing information</span></span>
 <span data-ttu-id="5a138-119">Eftirfarandi efnisatriði útskýra hvernig á að nota uppflettingar, og leitar- og afmörkunareiginleika, til að finna upplýsingar á fljótlegan máta.</span><span class="sxs-lookup"><span data-stu-id="5a138-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="5a138-120">[Notaðu uppflettingar til að finna upplýsingar](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Þetta efnisatriði sýnir hvernig uppflettingar geta hjálpað þér að finna á fljótlegan hátt rétt gildi eða æskilegt gildi.</span><span class="sxs-lookup"><span data-stu-id="5a138-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="5a138-121">Efnisatriðið lýsir því hvernig uppfletting virkar og inniheldur ráð til að hjálpa þér að fínstilla notkun þína á þeim.</span><span class="sxs-lookup"><span data-stu-id="5a138-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
