@@ -33,7 +33,7 @@ ms.lasthandoff: 03/26/2018
 > [!NOTE] 
 > Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
-### <a name="personalizing-talent"></a>Sérsníða Talent 
+## <a name="personalizing-talent"></a>Sérsníða Talent 
 Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Dynamics 365 for Talent sem auðvelda þér að klára vinnuna tímanlega. 
 
 -   [Sérsníða notandaupplifun](../fin-and-ops/get-started/personalize-user-experience.md) Þetta efnisatriði útskýrir mismunandi leiðir til að sérsníða Talent og aðlaga hluta vörunnar svo þeir mæti þörfum þínum betur.
@@ -44,7 +44,7 @@ Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Dyn
 
 -   [Flýtileiðir á lyklaborðinu](../fin-and-ops/get-started/shortcut-keys.md) - Þetta efnisatriði sýnir flýtilykla fyrir lyklaborð í bandarískri lyklaborðsskipan. 
 
-### <a name="accessing-information"></a>Aðgengisupplýsingar
+## <a name="accessing-information"></a>Aðgengisupplýsingar
 Eftirfarandi efnisatriði útskýra hvernig á að nota uppflettingar, og leitar- og afmörkunareiginleika, til að finna upplýsingar á fljótlegan máta. 
 
 -   [Notaðu uppflettingar til að finna upplýsingar](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Þetta efnisatriði sýnir hvernig uppflettingar geta hjálpað þér að finna á fljótlegan hátt rétt gildi eða æskilegt gildi. Efnisatriðið lýsir því hvernig uppfletting virkar og inniheldur ráð til að hjálpa þér að fínstilla notkun þína á þeim.
