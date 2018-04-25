@@ -52,16 +52,12 @@ Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
 
 Í **Töflulista** hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: Drög og Sent, en ekki samþykktir listar. Þegar í stöðunni drög, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
 
-<a name="all-vendor-invoices-list-page"></a>Listasíðu fyrir alla reikninga lánardrottins
------------------------------
+### <a name="all-vendor-invoices-list-page"></a>Listasíðu fyrir alla reikninga lánardrottins
 
 Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu. Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna. Greiðslustöðurnar innifela óbókað, ógreiddur, greiddur að hluta, og greiddur að fullu.
 Búa til nýr reikningur úr innkaupapöntun
---------------------------------------------
 
 Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt** aðgerð á **reikningsfærsla fyrir samstarf lánardrottna** vinnusvæði. Númer innkaupapöntunar og reikningsnúmer verður að gefa upp af lánardrottinn. Að sjálfgefnu birtast allar línur úr innkaupapöntun lánardrottins á nýjan reikning. Hægt er að breyta upplýsingum um magni og kostnað áður en senda reikning lánardrottins til verkflæðis. Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við reikning áður en hún er send.
-
-
 
 Nánari upplýsingar er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md).
 
