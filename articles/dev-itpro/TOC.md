@@ -115,6 +115,7 @@
 ### Nýjungar
 #### [Breytingar á stækkunarhæfni júlí 2017](extensibility/changes-july-2017.md)
 #### [Breytingar á stækkunarhæfni útgáfu 7.3](extensibility/extensibility-changes-73.md)
+#### [Breytingar á stækkunarhæfni útgáfu 8.0](extensibility/changes-80.md)
 ### Undirstöðuatriði
 #### [Sérstillingar sem valda röskunum](extensibility/intrusive-customizations.md)
 #### [Klasaskráarendingar](extensibility/class-extensions.md)
@@ -382,19 +383,20 @@
 
 ### [Samþætting gagna með Common Data Service](data-entities/data-integration-cds.md) 
 #### [Skilgreina aðstæðurnar viðfang til sjóðstreymis](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Samstilla afurðir úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Samstilla lykla úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Samstilla tengiliði úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Samstilla hausa og línur sölutilboðs úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Samstilla hausa og línur sölupöntunar úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Samstilla hausa og línur sölureiknings úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Samstilla afurðir beint úr Finance and Operations við afurðir í Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Samstilla hausa og línur sölupöntunar beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Samstilling sölupantana beint milli Sales og Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Skilgreina samþættingu við Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [Samstilla afurðir úr Finance and Operations við afurðir í Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
-### [Tenging ytri vefþjónustu](data-entities/consume-external-web-service.md)
+
+
+### [Notkun ytri vefþjónustu](data-entities/consume-external-web-service.md)
 
 
 # [Gagnastjórnun](data-entities/data-entities-data-packages.md)
@@ -407,7 +409,9 @@
 ### [Sniðmát skilgreiningargagna](data-entities/configuration-data-templates.md)
 ### [Gagnasniðmát með mörgum vinnublöðum](data-entities/excel-template-multiple.md)
 ### [Rakning breytinga til einingar](data-entities/entity-change-track.md)
+
 ### [Finna upplýsingar um staðlaðar gagnaeiningar](data-entities/data-entities-report.md)
+
 
 ## [Inn- og útflutningsverk gagna](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Notkun eigin gagnagrunns](analytics/export-entities-to-your-own-database.md)
 
+
+## [Sjálfvirk verkgögn](data-entities/data-task-automation.md)
+
 ## [Tilföng til að bregðast við GDPR-gagnabeiðnum](gdpr/gdpr-home-page.md)
 ### [Leiðbeiningar varðandi almennu persónuverndarreglugerðina fyrir Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Flokkun eigna](gdpr/gdpr-asset-classification-values.md)
 ### [Nota skýrslu um leit að einstaklingi](gdpr/gdpr-person-search-report.md)
 ### [Útvíkka skýrslu um leit að einstaklingi](gdpr/gdpr-extend-person-search-report.md)
 ### [Stjórnun aðgangs að viðkvæmum gögnum](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Svara beiðni um persónuleg gögn með Talent](gdpr/respond-dsr-request-talent.md)
 ### [Svara beiðni um persónuleg gögn með Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [Samfelld afhending – heimasíða](dev-tools/continuous-delivery-home-page.md)
 ## [Algengar spurningar um þróun og samfelld afhendingu](dev-tools/continuous-delivery-faq.md)
@@ -530,7 +539,8 @@
 ### [AX 2012 uppfærsla – Bein útsending](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Breytingar sem hafa áhrif á uppfærslu úr AX 2012
-#### [Uppfærsla eins fylgiskjals og endurmats á gjaldmiðli ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [Skiltákn bókhaldslykils verður að vera einkvæmt](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Uppfærsla eins fylgiskjals og endurmats á gjaldmiðli](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Gagnalíkan tilfangaáætlunar verks](migration-upgrade/data-model-changes-resource-management.md)
 #### [Breytingar á undirkerfi verkflæðis](migration-upgrade/workflow-subsystem.md)
 #### [Af hverju farið var úr teningum í samantektarlíkön](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -569,6 +579,7 @@
 
 # [Kerfisstjórnun](sysadmin/system-administration-home-page.md)
 ## [Algengar spurningar um mánaðarlegar uppfærslur verkvangs](sysadmin/faq-platform-monthly-updates.md)
+## [Algengar spurningar um sýndarvélar sem leyfa ekki stjórnandaaðgang](sysadmin/VMs-no-admin-access.md)
 ## [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](sysadmin/legal-terms-privacy-statement.md)
 ## [Leyfiskóðar og skilgreiningarlyklaskýrsla](sysadmin/license-codes-configuration-keys-report.md)
 ## [Samnýting gagna milli fyrirtækja](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [Ljúka verkefnum í BPM-safni](lifecycle-services/complete-tasks-bpm.md)
 ## [Nota verkþáttaskýringarmyndir](lifecycle-services/using-activity-diagrams.md)
 ## [Samstilling BPM-safns með Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Stofna samþykktarprófunarpakka með verkleiðbeiningum og BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Flæðirit viðskiptaferlavinnslu](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Upphleðsla sérstilltra viðskiptaferla](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Eftirlit og greiningar ](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Eignasafn](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - yfirlit fyrir þýðingaþjónustu](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 - notendahandbók fyrir þýðingaþjónustu](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 þýðingaþjónusta - þýðing fylgiskjalaskráa](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 þýðingaþjónusta - þýðingaminni](lifecycle-services/use-translation-service-tm.md)
 
 ## Eiginleikar Dynamics AX 2012 Lifecycle Services
 ### Uppsetning
