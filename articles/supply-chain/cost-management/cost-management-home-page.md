@@ -3,12 +3,12 @@ title: "Heimasíða kostnaðarstjórnunar"
 description: "Kostnaðarstjórnun leyfir notanda að sjá um mat og bókahald á hráefnum, hálfunnum vörum, fullunnum vörum og eignum í vinnslu."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
