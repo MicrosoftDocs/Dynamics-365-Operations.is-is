@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## Hefjast handa
@@ -17,14 +18,16 @@
 ##### [Kaupa Finance and Operations (á staðnum)](get-started/purchase-on-premises.md)
 
 ### [Nýjungar eða breytingar](get-started/whats-new-changed.md)
+#### [Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [Eiginleikar sem hafa verið fjarlægðir eða úreltir](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
 #### [AX 2012 eiginleikar sem var frestað](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0 (apríl 2018)](get-started/whats-new-changed-8-0-April-2018.md)
 #### [Platform update 15 (mars 2018)](get-started/whats-new-platform-update-15.md)
-#### [Útgáfur og reglur um stuðningstíma](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [Uppsetning á staðnum (mars 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Uppsetning útgáfu 7.2. á staðnum með platform update 12 (mars 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
-#### [Verkvangsuppfærsla 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 12 (nóvember 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11 (október 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (ágúst 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise edition (júlí 2017)](get-started/whats-new-application-July-2017-update.md)
@@ -35,10 +38,10 @@
 #### [Platform update 5 (mars 2017)](get-started/whats-new-platform-update-5.md)
 #### [Platform update 4 (febrúar 2017)](get-started/whats-new-platform-update-4.md)
 #### [Operations-útgáfa 1611 (nóvember 2016)](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [Platform-uppfærsla 3 (nóvember 2016)](get-started/whats-new-platform-update-3.md)
-#### [Platform-uppfærsla 2 (ágúst 2016)](get-started/whats-new-platform-update-2.md) 
+#### [Platform update 3 (nóvember 2016)](get-started/whats-new-platform-update-3.md)
+#### [Platform update 2 (ágúst 2016)](get-started/whats-new-platform-update-2.md) 
 #### [Dynamics AX-forrit, útgáfa 7.0.1 (maí 2016)](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [Platform-uppfærsla 1 (maí 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform update 1 (maí 2016)](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0 (febrúar 2016)](get-started/whats-new-changed-7-0-february-2016.md)
 #### Uppfærðar verkefnaleiðbeiningar
 ##### [Verkefnaleiðbeiningar fyrir nóvember 2016](get-started/new-task-guides-november-2016.md)
@@ -162,9 +165,13 @@
 ###### [Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [Samstilling sölupantana beint milli Sales og Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [Skilgreina samþættingu við Field Service](../supply-chain/sales-marketing/field-service.md)
+###### [Samstilla afurðir úr Finance and Operations við afurðir í Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
-#### [Tenging ytri vefþjónustu](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
+#### [Notkun ytri vefþjónustu](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
 
 
 ## [Gagnastjórnun](../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [Öryggi og gagnaeiningar](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [Notkun eigin gagnagrunns](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [Sjálfvirk verkgögn](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [Fjármálastjórnun](../financials/index.md)
 
@@ -754,6 +763,7 @@
 #### [Skráarsnið fyrir greiðslumáta](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [Samþætting fjárhagsþjónustu (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
 #### [Afskráning eigna fyrir Eistland og Litháen](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [Endurmat á erlendum gjaldmiðli](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [Mynda flutningsskjal fyrir innri birgðaflutning](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [Mynda ESB Intrastat-skattskýrslu](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [Mynda skýrslu vegna ESB-sölulista](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -809,13 +819,7 @@
 
 #### [Austurríki](../financials/localizations/austria.md)
 
-#### Belgía
-##### [CODA-bankayfirlit](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [Stofna og flytja færslur til BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Intervat-skattskýrsla](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [Uppsetning PRODCOM-skýrslu](../financials/localizations/emea-bel-prodcom-report.md)
-##### [Afstemmingarskýrslur](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [Setja upp skýrslugerð vegna greiðslustöðu](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [Belgía](../financials/localizations/belgium.md)
 
 #### [Tékkland](../financials/localizations/czech-republic.md)
 
@@ -833,6 +837,7 @@
 ##### [Setja upp greiðsluseðlasnið](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### Eistland
+##### [Beiðnir um persónulegar upplýsingar](../financials/localizations/emea-est-personal-info.md)
 ##### [VSK-yfirlit](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### Frakkland
@@ -857,8 +862,11 @@
 ##### [Bóka víxlabók endurútgefinna víxla](../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md)
 ##### [Prentun endurheimtartexta eingreiðslu á reikning viðskiptavinar](../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
 ##### [BV/LA-afskriftir](../financials/localizations/emea-fra-rbsl-depreciation.md)
-##### [Setja upp greiðsluhátt](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
+##### [Setja upp greiðslumáta](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [Uppfæra greiðslumáta fyrir viðskiptavin](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Smásala
+###### [Afgreiðslukassar](../retail/localizations/emea-fra-cash-registers.md)
+###### [Leiðbeiningar um uppsetningu á afgreiðslukössum](../retail/localizations/emea-fra-deployment.md)
 
 #### Þýskaland
 ##### [Viðbótarafskriftir kaupa](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,9 +885,10 @@
 ##### [Aðferðir við afskriftir eigna](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [Ódýrar eignir](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [Færa eign í birgðir](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Skjöl fyrir endurgreiðslu skatts](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### Ísland
-##### [Stofna lánardrottnalykill og festa verktakamiða](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
+##### [Stofna lánardrottnalykil og festa verktakamiða](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
 ##### [Setja upp verktakamiða fyrir lánardrottna](../financials/localizations/tasks/set-up-invoice-declaration-vendors.md)
 ##### [Setja upp skyldubundnar greiðslutilvísanir](../financials/localizations/tasks/set-up-mandatory-payment-references.md)
 ##### [Uppfæra verktakamiða lánardrottna og búa til skýrslu](../financials/localizations/tasks/update-vendor-invoice-declarations-report.md)
@@ -891,6 +900,7 @@
 ##### [Afskrift eigna](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Staðfesting dagsetningar fylgiseðils á reikningum](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [Bóka og prenta fylgiseðil með upplýsingum um flutning og afhendingu](../financials/localizations/emea-ita-packing-slip.md)
 ##### [VSK-bækur](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Skipting greiðslu fyrir reikninga sem sendir eru til hins opinbera](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [Staðgreiðsluskattur](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [Sölu- og innkaupaferlar](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Sérstakar færslur og opnunarskjöl](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Svíþjóð
+##### [Flytja út fjárhagsupplýsingar fyrir endurskoðendur í Svíþjóð](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [Greiðslusnið innflutnings](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [Afgreiðslukassar](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### Sviss
@@ -1219,6 +1230,7 @@
 #### [Stilla SSRS fyrir staðbundna uppsetningu](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [Prentun](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentara](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [Uppfæra eftirlitsbúnað skjalasendingar](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [Setja upp nettengda prentara á staðnum](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [Myndun, útgáfa og prentvalkostir fylgiskjala í staðbundinni uppsetningu](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [Keyrsla eftirlitsbúnaðar skjalasendingar sem þjónusta Windows](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [Rafræn skýrslugerð](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [Skilgreining rafræns skýrslugerðarramma](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [Skilgreining búin til](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [Stofna veitanda skilgreiningar og merkja sem virkan fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Hanna gagnalíkan fyrir sérstakt lén fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Skilgreina líkanavörpun og velja gagnaveitur fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [Skilgreina áfangastaði fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Hanna skilgreiningu fyrir myndun skýrslna á Microsoft Word-sniði fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Hanna skilgreiningu fyrir myndun skýrslna á OpenXML-sniði fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Breyta sniði með því að endurnýta Microsoft Excel-sniðmát fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [Rafrænu skýrslugerðarsniði breytt með því að endurnýta Microsoft Excel-sniðmát](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Skilgreina hæði skilgreininga úr öðrum hlutum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Hanna gagnalíkan til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [Hanna skýrslu til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [Keyra skýrslu sem notar fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [Stofna snið fyrir talningu og samlagningu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [Skilgreina útreikninga fyrir talningu og samlagningu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [Nota útreikninga til að fá frálag úr talningu og samlagningu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [Keyra snið fyrir talningu og samlagningu í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [Keyra snið sem notar svæði sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [Víkka gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [Búa til snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [Keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags í rafrænni skýrslugerð](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (ER) (hluti 1) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
-#### [Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [Flytja inn skilgreiningar til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [Breyta líkani og vörpun til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [Breyta sniði til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
-#### [Innfelling mynda og forma í viðskiptaskjöl sem mynduð er með rafrænu skýrslugerðaverkfæri](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+#### [Skilgreina hæði skilgreininga úr öðrum hlutum fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Hanna gagnalíkan til að nota fjárhagsvíddir sem gagnaveitu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [Hanna skýrslu til að nota fjárhagsvíddir sem gagnaveitu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [Keyra skýrslu sem notar fjárhagsvíddir sem gagnaveitu](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [Stofna snið fyrir talningu og samlagningu](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [Skilgreina útreikninga fyrir talningu og samlagningu](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [Nota útreikninga til að fá frálag úr talningu og samlagningu](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [Keyra snið fyrir talningu og samlagningu](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [Keyra snið sem notar svæði sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [Víkka gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [Búa til snið til að nota skjalastjórnunarskrár fyrir snið frálags](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [Keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Mynda skýrslur á Microsoft Office-sniði með innfelldum myndum](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [Mynda rafræn skjöl og uppfæra forritagögn með rafrænu skýrslugerðarverkfæri](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
+##### [Flytja inn skilgreiningar til að búa til skjöl með forritsgögnum](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Hanna skilgreiningar til að búa til skjöl með forritsgögnum](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [Breyta líkani og vörpun til að búa til skjöl með forritsgögnum](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [Breyta sniði til að búa til skjöl með forritsgögnum](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [Mynda skjöl með forritsgögnum](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+#### [Fella inn myndir og form í viðskiptaskjöl sem mynduð eru með rafrænu skýrslugerðaverkfæri](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
+#### [Stjórna líftíma skilgreiningar](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
+##### [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
 ##### [Flytja inn skilgreiningu úr Lifecycle Services fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-#### [Stjórnun líftíma skilgreiningar](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [Skilgreining búin til](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [Niðurhal grunnstillinga af Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [Lengja virkni rafrænnar skýrslugerðar](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [Stjórna skilgreiningum á líkanavörpun fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Niðurhal grunnstillinga af Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [Innflutningur skilgreininga rafrænnar skýrslugerðar](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [Stjórna skilgreiningum á líkanavörpun fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [Búa til nauðsynlegar skilgreiningar til að flytja inn gögn úr ytri skrá fyrir rafræna skýrslugerð](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [Innflutningur skilgreininga rafrænnar skýrslugerðar](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
 #### [Þátta móttekin skjöl til að uppfæra forritsgögn](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [Þátta móttekin skjöl á CSV-sniði](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [Lengja virkni rafrænnar skýrslugerðar](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### Innfelldar greiningarlausnir
 #### [Innfellt Power BI í vinnusvæði](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,6 +1462,7 @@
 #### [Inntaka lánardrottins](../supply-chain/procurement/vendor-onboarding.md)
 #### [Samstarf lánardrottna með ytri lánardrottnum](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Samstarf lánardrottna með viðskiptavinum](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Innflutningur vörulista lánardrottins](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [Setja upp ytri vörulista fyrir PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [Nota ytri vörulista fyrir PunchOut eProcurement](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Fartækjavinnusvæði samstarfs lánardrottna](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,14 +1610,16 @@
 ##### [Efni skipt út í framleiðslu](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [Skráning á framkvæmd framleiðslu](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Endurgjöf um framleiðslu](../supply-chain/production-control/production-feedback.md)
-##### [Skráning tíma og viðveru](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Fjarveruskráning í Tími og viðvera](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [Virkja launaferli fyrir tíma og mætingu](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Skilgreina starfsmann með fartæki](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### Stjórna fjármálum í framleiðslu
 ##### [Úthlutun tíma á vinnslur í vinnslubúnti](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Útreikningur á efnisnotkun](../supply-chain/production-control/consumption.md)
 ##### [Framleiðslubókun](../supply-chain/cost-management/production-posting.md)
+#### [Skráning tíma og viðveru](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Laun byggð á skráningum](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [Fjarveruskráning í Tími og viðvera](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Sveigjanleikaflokkar](../supply-chain/production-control/time-attendance-flex-groups.md)
 
 ### Lean-framleiðsla 
 #### [Yfirlit yfir lean-framleiðslu](../supply-chain/production-control/lean-manufacturing-overview.md)
@@ -1836,17 +1850,19 @@
 #### [Hreyfing birgða með tengdri vinnu í vöruhúsakerfi](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [Stjórnun starfskrafta í vöruhúsi](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### Tiltekt og pökkun
+#### [Setja upp klasatiltekt](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [Staðfesting lotu og númeraplötu](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Móttaka blandaðrar númeraplötu](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Stilla skjá eldri keyrsla innan vöruhúss á fartæki](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Elsta runa í fartæki tínd](../supply-chain/warehousing/pick-oldest-batch.md)
-#### D[Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
+#### [Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Staðfesting einingatiltektar](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [Staðfesting afurðar fyrir klasatiltekt](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [Hlutaafhending farmflutnings](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [Runulosun flutningspantana sem eru fráteknar að hluta](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Umbúðaefni og gjöld](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### Birgðatalning
+#### [Ástæðukóðar fyrir birgðatalningu](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [Birgðum læst](../supply-chain/inventory/inventory-blocking.md)
 #### [Regluleg talning](../supply-chain/warehousing/cycle-counting.md)
 #### [Skilgreina reglulega talningu ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1857,6 +1873,7 @@
 #### [Birgðastaða](../supply-chain/inventory/inventory-statuses.md)
 #### [Birgðatalning](../supply-chain/inventory/inventory-tag-counting.md)
 ### [Áfylling](../supply-chain/warehousing/replenishment.md)
+#### [Tafarlaus áfylling](../supply-chain/warehousing/immediate-replenishment.md)
 #### [Áfylling með afturkölluðum kanban](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [Setja upp og skilgreina vöruhúsaforrit ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [Skilgreining svæðaheita í vöruhúsaforriti](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)

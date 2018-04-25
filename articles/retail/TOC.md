@@ -31,7 +31,7 @@
 ## [Vörulistar símavers](call-center-catalogs.md)
 ## [Vörulisti símavers búinn til](create-call-center-catalogs.md)
 ## [Uppsetning svikaviðvarana](set-up-fraud-alerts.md)
-## [Uppsetning valkosta pantanavinnslu](set-up-order-processing-options.md)
+## [Uppsetning símavers](set-up-order-processing-options.md)
 ## [Uppsetning samfelldniáætlunar fyrir símaver](set-up-continuity-program.md)
 ## [Pantanir í bið](work-with-order-holds.md)
 ## [Greiðsluvalkostir](work-with-payments.md)
@@ -48,9 +48,10 @@
 ## [Velja á milli Modern POS og sölukerfis í skýinu](MPOS-or-CPOS.md)
 ## [POS-aðgerðir, með og án nettengingar](pos-operations.md)
 ## [Skjáútlit sýnigagna í MPOS/CPOS](demo-data.md)
-## [Yfirlit yfir afurðir og viðskiptavinaleit í Point of Sale](POS-search-improvements.md)
+## [Yfirlit yfir afurðir og viðskiptavinaleit í sölustað](POS-search-improvements.md)
+## [Uppfletting birgða í sölustað](product-variants-POS.md)
 ## Jaðarvélbúnaður
-### [Yfirlit yfir smásölujaðarbúnað](retail-peripherals-overview.md)
+### [Yfirlit yfir Retail-jaðarbúnað](retail-peripherals-overview.md)
 ### [Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Smásölujaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
 ### [Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva](define-maintain-channel-clients-registers-hw-stations.md)
@@ -96,6 +97,7 @@
 ## [Uppsetning RFM-greiningar](set-up-rfm-analysis.md)
 
 # Afslættir og verðleiðréttingar
+## [Verðstjórnun í smásölu](price-management.md)
 ## [Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
 ## [Ákvörðun bestu samsetningar afslátta sem skarast](optimal-combination-overlapping-discounts.md)
 ## [Skilgreining afslátta fyrir tiltekna rás](define-channel-specific-discounts.md)
@@ -139,14 +141,18 @@
 ## [Setja upp íhluta verks](../talent/create-job.md)
 
 # Staðfærslu- og eftirlitseiginleikar
+## Frakkland
+### [Afgreiðslukassar fyrir Frakkland](localizations/emea-fra-cash-registers.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum í Frakklandi](localizations/emea-fra-deployment.md)
 ## Indland
-### [Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa á Indlandi](localizations/apac-ind-cash-registers.md)
-### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Indland](localizations/apac-ind-loc-deployment-guidelines.md)
+### [Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa](localizations/apac-ind-cash-registers.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum í Indlandi](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Noregur
 ### [Afgreiðslukassar fyrir Noreg](localizations/emea-nor-cash-registers.md)
-### [Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Noreg](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Leiðbeiningar um uppsetningu á afgreiðslukössum í Noregi](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Svíþjóð
 ### [Afgreiðslukassar fyrir Svíþjóð](localizations/emea-swe-cash-registers.md)
+### [Dæmi um Retail POS samþættingu fyrir stjórntæki](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Verkefni í Retail
 ## [Stofna afurð](../supply-chain/pim/tasks/create-product.md)
@@ -260,6 +266,7 @@
 ### [SDK-verkvangur rafrænna viðskipta](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Stækkunarhæfni greiðslutengils
+### [Samþætting greiðslu með afgreiðslustöð](dev-itpro/end-to-end-payment-extension.md)
 ### [Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Uppsetning greiðslutengils](dev-itpro/deploy-payment-connector.md)
 ### [Stofnun Windows-uppsetningarforrits fyrir greiðslutengil](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,6 +276,7 @@
 ### [Dæmi um stækkunarhæfni Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Umbúðir Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Dæmi um Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Viðbótarpunktar fyrir fylgiseðla](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [Viðbætur við gagnagrunn rása](dev-itpro/channel-db-extensions.md)
 ### [CDX-stækkunarhæfni](dev-itpro/cdx-extensibility.md)
 ### [Eigindir pöntunar](dev-itpro/order-attributes.md)

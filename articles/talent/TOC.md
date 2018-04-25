@@ -3,7 +3,7 @@
 # [Hafist handa](talent-get-started.md)
 ## [Kerfiskröfur og uppfærsluregla](talent-versions-update-policy.md)
 ## [Úthluta Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [Fjarlægja Talent-umhverfi](remove-test-environment.md)
+## [Fjarlægja Talent-umhverfi](remove-talent-environment.md)
 ## [Úthluta Microsoft Dynamics 365 for Talent Modular Apps](modular-app-tech-faq.md)
 ## [Stækka virkni Talent](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md)
 ## [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](set-up-company-specific-hr-parameters.md)
 ## [Algengar spurningar um aðgerðir starfsfólks](personnel-actions-faq.md)
+## [Gera viðskiptaferli formleg](formalize-business-processes.md)
 ## [Notkun verkflæðis við stjórnun starfsmannaupplýsinga](workflow-manage-employee-information.md)
 ## [Yfirlit yfir leyfi og fjarvistir](leave-absence-overview.md)
 

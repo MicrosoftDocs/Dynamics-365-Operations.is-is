@@ -3,7 +3,7 @@ title: "Staðfærslu- og eftirlitseiginleikar"
 description: "Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni fyrir lönd/svæði."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: is-is
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations inniheldur virkni fyrir lönd/svæði sem skráð eru í [Alþjóðlegum leiðbeiningum fyrir afurðaframboð](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
 
@@ -53,11 +52,11 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 -   [Samskipti tengd reglueftirliti og uppfærslum á reglum](regulatory-watch-communication.md)
 -   [Tilkynningar til Microsoft um lögboðnar viðvaranir lands/svæðis og rakning á stöðu eftirlitseiginleika](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 leiðarvísir
-[Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) sýnir hverju verið er að vinna að á skyndimynd. Nota skal þennan leiðarvísi til að finna hvað er í boði og hvað er í þróun. Allir eiginleikar og dagsetningar efnis í þróun eru byggðar á áætlunum og gætu breyst án fyrirvara.
+### <a name="dynamics-365-release-notes"></a>Útgáfuupplýsingar Dynamics 365
+[Útgáfuupplýsingar Dynamics 365 (PDF-niðurhal)](https://aka.ms/businessappsreleasenotes) lýsa nýjum og auknum möguleikum í Dynamics 365 viðskiptaforritum og verkvöngum forrita. 
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
-Rafræna skýrslugerðarverkfærið (ER) býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
+Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
 -   [Yfirlit yfir rafræna skýrslugerð](../analytics/general-electronic-reporting.md)
 -   [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Skilgreining fyrir rafræna skýrslugerð búin til](../analytics/electronic-reporting-configuration.md)
@@ -79,25 +78,9 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 ## <a name="countryregion-specific-help-topics"></a>Sértækt hjálparefnisatriði fyrir land/svæði
 Í eftirfarandi hlutum er að finna upplýsingar um tilföng eftir landi/svæði.
 
-### <a name="australia"></a>Ástralía
-
--   [Bankaskráarsnið](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Viðskiptayfirlit ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Afskriftir lágvirðissafns](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Austurríki
-
-- [Hálfsársafskriftir](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Umbúðaefnisgjöld](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Purchase duties](../../financials/localizations/emea-aut-purchase-duties.md)
-- [VSK-yfirlit](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belgía
-
--   [CODA-bankayfirlit](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervat-skattskýrsla](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [Uppsetning PRODCOM-skýrslu](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Afstemmingarskýrslur](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Ástralía](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Austurríki](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belgía](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brasilía
 
@@ -134,22 +117,9 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 -   [Bókun aðallykla birgða eftir vinnusvæðum](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Birting debit- og kreditupphæða fyrir fjárhagslykla](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Tékkland
-
--   [Staðgreiðsluafsláttur á kreditnótu](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Sléttun afskrifta](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Hálfs árs afskrift eignalosunar fyrir Tékkland](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Frestun afskriftar (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Afskriftaraðferðir eigna fyrir Tékkland](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Bókun forkaupa á eign](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [VSK-yfirlit fyrir Tékkland](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Virðisaukaskattskýrsla ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Skipting tímabila í tímabilsbókum](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tékkland](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Eistland
-
 -   [Upplýsingar VSK-yfirlits fyrir Eistland](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Afskráning eigna](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 -   [Skýrsla um leiðréttingu vegna verðbólgu](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR-skýrsla](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Rafrænir reikningar (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malasía
 
 -   [Vöru- og þjónustuskattur (GST)](../../financials/localizations/apac-mys-gst.md)
