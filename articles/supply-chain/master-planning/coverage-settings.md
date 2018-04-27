@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Þekjustillingar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Aðalröðun notar þekjustillingar til þess að reikna vöruþarfir. 
 
@@ -46,7 +45,7 @@ Hægt er að tilgreina þekjustillingar með nokkrum aðferðum:
 
 <!-- -->
 
--   Tilgreinið þekjustillingar fyrir víddarflokk. Smellið á **Upplýsingastjórnun afurða &gt; Algengt &gt; Losaðar afurðir**. Á **síðunni **Upplýsingar um losaða afurð á flipanum **Almennt** í flokknum **Stjórnun** er smellt á tengilinn **Geymsluvíddaflokkur**. Á síðunni **Geymsluvíddarflokkur** skal velja **Þekjuáætlun eftir vídd** til að stofna þekjustillingar fyrir vídd í geymsluvíddarflokknum. Allar afurðavíddir, eins og skilgreining, litur, stærð, stíll, verða að hafa reitinn **Þekjuáætlun eftir vídd** valinn.
+- Tilgreinið þekjustillingar fyrir víddarflokk. Smellið á <strong>Upplýsingastjórnun afurða &gt; Algengt &gt; Losaðar afurðir</strong>. Á flipanum <strong>Upplýsingar um útgefna afurð **síðu, á **Almennt</strong> í flokknum <strong>Stjórnun</strong> skal smella á tengilinn <strong>Flokkur geymsluvíddar</strong>. Á síðunni <strong>Geymsluvíddarflokkur</strong> skal velja <strong>Þekjuáætlun eftir vídd</strong> til að stofna þekjustillingar fyrir vídd í geymsluvíddarflokknum. Allar afurðavíddir, eins og skilgreining, litur, stærð, stíll, verða að hafa reitinn <strong>Þekjuáætlun eftir vídd</strong> valinn.
 
 
 

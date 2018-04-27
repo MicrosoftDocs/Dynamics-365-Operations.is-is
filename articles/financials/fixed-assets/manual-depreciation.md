@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Handvirkar afskriftir
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.
 
@@ -67,7 +66,7 @@ Ef valið er **mánaðarlega** í svæðinu  **tímabilstíðni** seturðu upp 1
 | janúar  | (11.000 – 1.000) × 10% = 1.000 |
 | febrúar | (11.000 – 1.000) × 50% = 5.000 |
 
-Ef valið er **tvisvar á ári** í svæðinu ****tímabilstíðni** seturðu upp tvo handvirk röðunarbil. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.
+Ef valið er <strong>Tvisvar á ári</strong> í *<strong><em>Tímabilstíðni</em>* reitnum</strong> eru tvö handvirk röðunarbil sett upp. Eftirfarandi tafla sýnir afskriftarupphæðir fyrir þessi tvö tímabila.
 
 | Bil    | Afskriftarupphæð            |
 |-------------|--------------------------------|

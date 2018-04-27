@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 0ec45fcf7cebf530b3a5889a857214b97b3fffbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
 ms.contentlocale: is-is
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-overview"></a>Yfirlit yfir flutningsstjórnun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
 
@@ -52,17 +51,17 @@ Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og 
 <td>Nota flutningsstjórnun fyrir flutning á innleið og/eða útleið.</td>
 </tr>
 <tr class="even">
-<td>Bílafloti fyrirtækisins er tiltækur til að afhenda/sækja og afhendingargjöld eru sett á viðskiptavini.</td>
-<td>Fyrir ferli á útleið er hægt að nota Flutningsstjórnun til að ákvarða flutningsgjöld og senda þau á viðskiptavini. Hins vegar er ferli afstemmingar reikninga flutningsaðila ekki áskilið.</td>
+<td>Eiginn floti fyrirtækis er tiltækur til að afhenda/sækja og afhendingargjöld eru sett á viðskiptavini.</td>
+<td>Fyrir ferli á útleið er hægt að nota Flutningsstjórnun til að ákvarða flutningsgjöld og senda þau á viðskiptavini. Hins vegar er afstemmingarferli fyrir reikning flutningsaðila ekki nauðsynlegt.</td>
 </tr>
 <tr class="odd">
-<td>Bílafloti fyrirtækisins er tiltækur til að afhenda/sækja en afhendingargjöld eru ekki sett á viðskiptavini af því að flutningur er innifalinn í verði vöru.</td>
+<td>Eiginn floti fyrirtækis er tiltækur til að afhenda/sækja en afhendingargjöld eru ekki sett á viðskiptavini af því að flutningur er innifalinn í verði vöru.</td>
 <td>Margar aðgerðir í Flutningsstjórnun eru ekki nauðsynlegar. Hins vegar er hægt að nota flutningsstjórnun til að ákvarða flutningstaxta og leiðrétta söluverðið til samræmis við það.</td>
 </tr>
 <tr class="even">
 <td>Þjónusta tengd vöruferilsstjórnun er veitt af öðrum lögaðila í sama fyrirtæki.</td>
 <td><ul>
-<li>Nota má flutningsstjórnun með því að meðhöndla hinn lögaðilann sem hvern annan farmflytjanda. Ekki er hægt að gera sjálfvirkar efnahagslegar færslur á milli lögaðila. Þess vegna þarf að gera þessar færslur handvirkt (til dæmis með því að stofna innkaupapöntun).</li>
+<li>Nota má flutningsstjórnun með því að meðhöndla hinn lögaðilann sem hvern annan farmflytjanda. Ekki er hægt að gera efnahagslegar færslur sjálfvirkar á milli lögaðila. Þess vegna þarf að gera þessar færslur handvirkt (til dæmis með því að stofna innkaupapöntun).</li>
 <li>Lögaðila sem veitir þjónustu vörustjórnun, flutningsstjórnun má nota til að ákvarða flutningsstjórnunar taxta.</li>
 </ul></td>
 </tr>

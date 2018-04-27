@@ -1,5 +1,5 @@
 --- 
-title: "Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta gagnvirkt við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð (ER)"
+title: "Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta gagnvirkt við dálkum í Excel-skýrslur"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að mynda skýrslur sem OPENXML-vinnublöð (Excel) skrár þar sem hægt er að stofna nauðsynlega dálka gagnvirkt sem svið sem má stækka lárétt."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
-ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta gagnvirkt við dálkum í Excel-skýrslum fyrir rafræna skýrslugerð (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta gagnvirkt við dálkum í Excel-skýrslur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að mynda skýrslur sem OPENXML-vinnublöð (Excel) skrár þar sem hægt er að stofna nauðsynlega dálka gagnvirkt sem svið sem má stækka lárétt. Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.
 
@@ -36,7 +36,7 @@ Til að ljúka þessum skrefum, verður að ljúka þessum þremur verkefnaleið
 
 „Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2: líkanavörpun)“
 
-Líka þarf að hlaða niður og vista staðbundið afrit af sniðinu með sýniskýrslu sem hægt er að finna hér: [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+Einnig þarf að hlaða niður og vista staðbundið afrit af sniðinu með sýniskýrslu sem hægt er að finna hér: [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.

@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hlutabréfaveitingu. Þessari grein lýsir þáttum sem þarf að setja upp áður en þú getur notað breytileg laun og ráða starfsmann inn í breytilega greiðsluáætlun.
 
@@ -78,12 +77,12 @@ Flipinn **Stig hnekkingar** gerir kleift að hnekkja sjálfgefinni prósentu umb
 
 **Ábending:** Hæfnisreglur ákvarða hæfni fyrir launafyrirkomulag fastra launa og°breytilegrar uppbótar. Hæfnisreglur nota°eftirfarandi svæði í vinnslu, stöðu og starfsmannafærslum til að ákvarða hvort starfsmaðurinn er hæfur fyrir launafyrirkomulag:
 
--   Á síðunni **Starf**:
-    -   **Starf** svæðið
-    -   Í **Aðgerð** og **Starfstegund** svæði á flipanum **Vinnsluflokkun**
-    -   Á svæðinu **Stig**í flipanum **Laun**
--   Á síðunni **Stöður**: Svæðin **Deild** og **launasvæði**
--   Á síðunni **Starfsmenn**: Upplýsingar um verkalýðsfélög sem tengist starfsmanni undir **Persónulegar upplýsingar** &gt; **verkalýðsfélög** í ****Starfsmanns****  flipa
+- Á síðunni **Starf**:
+  -   **Starf** svæðið
+  -   Í **Aðgerð** og **Starfstegund** svæði á flipanum **Vinnsluflokkun**
+  -   Á svæðinu **Stig**í flipanum **Laun**
+- Á síðunni **Stöður**: Svæðin **Deild** og **launasvæði**
+- Á síðunni <strong>Starfskraftar</strong>: Upplýsingar um verkalýðsfélög sem tengjast starfskrafti undir <strong>Persónulegar upplýsingar</strong> &gt; <strong>Verkalýðsfélög</strong> í flipanum *<strong><em>Starfskraftur</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Stofna skráningu í launafyrirkomulag breytilegrar uppbótar
 

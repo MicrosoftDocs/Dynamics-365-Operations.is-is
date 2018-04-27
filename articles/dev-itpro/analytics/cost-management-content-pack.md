@@ -3,11 +3,12 @@ title: "Kostnaðarstjórnun Power BI efni"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: is-is
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Yfirlit
+
+Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
 
 > [!Note]
-> Þessi efnispakki hefur verið úreltur eins og lýst er í [Power BI efnispakkar gefnir út á PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Microsoft Power BI-efnið **Kostnaðarstjórnun** sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 for Finance and Operations 8.0.
+> 
+> Microsoft Power BI-efnispakkinn **Kostnaðarstjórnun** birt á PowerBI.com síðunni hefur verið úrelt. Nánari upplýsingar um úreldinguna er að finna í [Power BI-efnispakkar birtir á PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar. 
+Þetta Power BI-efnið útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
 
-Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækiisins sem bera ábyrgð á birgðum. Power BI-efnið **Kostnaðarstjórnun** veitir rekstrarfélagi innsýn í birgðir og birgðir fyrir verk í vinnslu (VÍV) og hvernig kostnaður flæðir í gegn um þær eftir flokki yfir tíma. Upplýsingarnar er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu
+Power BI-efnið er byggt á samanlagðri mælingu **CostObjectStatementCacheMonthly** sem hefur töfluna **CostObjectStatementCache** sem aðalgagnagjafa. Þessari töflu er stjórnað af ramma skyndiminnis gagnasafns. Sjálfgefið er að taflan sé uppfærð á 24 tíma fresti en hægt er að breyta uppfærslutíðninni eða virkja handvirkar uppfærslur í grunnstillingu gagnasafns skyndiminnis. Hægt er að keyra handvirkar uppfærslur í annaðhvort vinnusvæðinu **Kostnaðarstjórnun** eða vinnusvæðinu **Kostnaðargreining**.
 
-## <a name="key-measures"></a>Lykilráðstafanir
+Eftir hverja uppfærslu á töflunni **CostObjectStatementCache** verður að uppfæra samanlagðar mælingar **CostObjectStatementCacheMonthly** áður en gögn í myndrænni framsetningu Power BI eru uppfærð.
 
-+ Upphafsstaða
-+ Lokastaða
-+ Nettó breyting
-+ Nettóbreyting í %
-+ Aldursgreining
+## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
 
-## <a name="key-performance-indicators"></a>Afkastavísar
-+ Birgðahreyfing
-+ Birgðanákvæmni
+Power BI-efnið **Kostnaðarstjórnun** er sýnt í vinnusvæðunum **Kostnaðarstjórnun** og **Kostnaðargreining**.
 
-Megingagnaveita fyrir CostAggregatedCostStatementEntryEntity er taflan CostStatementCache. Þessari töflu er stjórnað af ramma skyndiminnis gagnasafns. Sjálfgefið er að taflan sé uppfærð á 24 tíma fresti en hægt er að virkja handvirkar uppfærslur í skilgreiningu gagnaskyndiminnis. Síðan er hægt að gera handvirka uppfærslu á vinnusvæðinu **Kostnaðarstjórnun** eða **Kostnaðargreiningu**. Eftir að uppfærslan á CostStatementCache hefur verið keyrð verður að uppfæra OData-tenging í Power BI.com til að sjá uppfærð gögn á svæði. Frávikin (innkaup, framleiðsla) sem eru mæld í þessu Power Bi-efni snerta aðeins atriði sem eru metin af aðferð Staðalkostnaðar birgðir. Framleiðslufrávik eru reiknuð sem mismunurinn milli virks kostnaðar og innleysts kostnaðar. Framleiðslufrávik er reiknað þegar framleiðslupöntun er með stöðuna **Lokið**. Frekari upplýsingar um gerð framleiðslufrávika og hvernig hver gerð er reiknuð út er að finna í [Um greiningu frávika fyrir lokna framleiðslupöntun](https://technet.microsoft.com/en-us/library/gg242850.aspx).
+Vinnusvæðið **Kostnaðarstjórnun** inniheldur eftirfarandi flipa:
 
+- **Yfirlit** – Þessi flipi sýnir forritsgögn.
+- **Staða birgðabókhalds** – Þessi flipi sýnir Power BI-efni.
+- **Staða framleiðslubókahalds** – Þessi flipi sýnir Power BI-efni.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
-Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efni **Kostnaðarstjórnun**.
+Vinnusvæðið **Kostnaðargreining** inniheldur eftirfarandi flipa:
 
-| Skýrslusíða | Gröf | Titlar |
-|---|---|---|
-|Heildarbirgðir (Sjálfgefið eftir núgildandi tímabili) |Nákvæmni |Birgðamælingar:<br>Lokastaða birgða<br>Nettóbreyting birgða<br>Nettóbreyting birgða %<br>|
-| |Birgðahreyfing | |
-| |Lokastaða birgða eftir tilfangaflokki | |
-| |Nettóbreyting birgða eftir stigi flokksheitis 1 og stigi flokksheitis 2| |
-| |Innkaupafrávik eftir tilfangaflokki og stigi flokksheitis 3 | |
-|Birgðir eftir svæði (Sjálfgefið eftir núgildandi tímabili) |Lokastaða birgða eftir Heiti seturs og tilfangaflokki | |
-| |Birgðahreyfingar eftir Heiti seturs og tilfangaflokki | |
-| |Lokastaða birgða eftir borg og tilfangaflokki | |
-|Birgðir eftir tilfangaflokki (Sjálfgefið eftir núgildandi tímabili) |Birgðamælingar | |
-| |Birgðanákvæmni eftir upphæð eftir tilfangaflokki | |
-| |Birgðahreyfingar eftir upphæð eftir tilfangaflokki | |
-|Birgðir ár frá ári (Sjálfgefið núgildandi ár gegn fyrra ári) |Birgðamælingar | |
-| |Afkastavísar birgða:<br>Birgðahreyfing<br>Birgðanákvæmni | |
-| |Lokastaða birgða eftir ári og tilfangaflokki | |
-| |Innkaupafrávik eftir ári og stigi flokksheitis 3 | |
-|Aldursdreifing birgða (Sjálfgefið eftir núgildandi ári) |Aldursdreifing birgða eftir ársfjórðungi og Tilfangaflokki | |
-| |Aldursdreifing birgða eftir ársfjórðungi og svæðaheiti | |
-|Heildar VÍV (Sjálfgefið eftir núgildandi tímabili) |Nettóbreyting VÍV eftir stigi flokksheitis 1 og stigi flokksheitis 2 |VÍV-mælingar vinnu í gangi:<br>Lokastaða VÍV<br>Nettóbreyting VÍV<br>Nettóbreyting VÍV %<br> |
-| |Framleiðslufrávik eftir tilfangaflokki og stigi flokksheitis 3 | |
-| |Nettóbreyting VÍV eftir tilfangaflokki | |
-|VÍV eftir svæði (Sjálfgefið eftir núgildandi tímabili) |VÍV-mælingar vinnu í gangi | |
-| |Nettóbreyting VÍV eftir svæðaheiti og stigi flokksheitis 2 | |
-| |Framleiðslufrávik eftir svæðaheiti og stigi flokksheitis 3 | |
+- **Yfirlit** – Þessi flipi sýnir forritsgögn.
+- **Greining birgðabókhalds** – Þessi flipi sýnir Power BI-efni.
+- **Greining framleiðslubókhalds** – Þessi flipi sýnir Power BI-efni.
+- **Greining staðalkostnaðarfráviks** – Þessi flipi sýnir Power BI-efni.
 
-## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Gögn Finance and Operations eru notuð til að fylla út skýrslusíður í Power BI-efninu **Kostnaðarstjórnun**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md) Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Tilkynna síður sem eru innifaldar í Power BI-efninu
 
-| Eining            | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði             | lýsing                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Færslur yfirlits | Nettó breyting                | CostAggregatedCostStatementEntryEntity      | sum(\[upphæð\])   | Upphæð í bókhaldsgjaldmiðli |
-| Færslur yfirlits | Magn nettóbreytingar       | CostAggregatedCostStatementEntryEntity      | sum(\[magn\]) |                                   |
+Power BI-efnið **Kostnaðarstjórnun** inniheldur safn af skýrslusíðum sem samanstanda af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. 
 
-Eftirfarandi tafla sýnir hvernig lykiluppsafnaðar mælingar eru notaðar til að stofna nokkrar útreikningsmælingar í gagnamengi efnisins.
+Í eftirfarandi töflum eru yfirlit yfir myndbirtingar í Power BI-efninu **Kostnaðarstjórnun**.
 
-| Mæla                                 | Hvernig mælieining er reiknuð                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Upphafsstaða                       | \[Lokastaða\]-\[Nettóbreyting\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Magn upphafsstöðu              | \[Magn lokastöðu\]-\[Magn nettóbreytingar\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Lokastaða                          | CALCULATE(SUM(\[Upphæð\]), FILTER(ALLEXCEPT(‚Fjárhagsdagatöl', ‚Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[kenni\], ‚einingar'\[Heiti\], 'Fjárhagur'\[Gjaldmiðill\], 'Fjárhagur'\[Lýsing\], 'Fjárhagur'\[Heiti\]), 'Fjárhagsdagatal'\[Date\] &lt;= MAX('Fiscal dagatal'\[Date\])))                                                                                                                                                                                           |
-| Magn lokastöðu                 | CALCULATE(SUM(\[Magn\]), FILTER(ALLEXCEPT(‚Fjárhagsdagatöl', ‚Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[kenni\], ‚einingar'\[Heiti\], 'Fjárhagur'\[Gjaldmiðill\], 'Fjárhagur'\[Lýsing\], 'Fjárhagur'\[Heiti\]), 'Fjárhagsdagatal'\[Date\] &lt;= MAX('Fiscal dagatal'\[Date\])))                                                                                                                                                                                         |
-| Upphafsstaða birgða             | CALCULATE(\[Upphafsstaða\], 'Færslur yfirlits'\[Yfirlit Gerð\] = "Birgðir")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Lokastaða birgða                | CALCULATE(\[Lokastaða\], 'Færslur yfirlits'\[Yfirlit Gerð\] = "Birgðir")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Nettóbreyting birgða                    | CALCULATE(\[Nettóbreyting\], 'Færslur yfirlits'\[Yfirlit Gerð\] = "Birgðir")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Magn nettóbreytingar birgða           | CALCULATE(\[Magn nettóbreytingar\], 'Færslur yfirlits'\[Yfirlit Gerð\] = "Birgðir")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Nettóbreyting birgða %                  | IF(\[Lokastaða birgða\] = 0, 0, \[Nettóbreyting birgða\] / \[Lokastaða birgða\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Birgðahreyfingar eftir upphæð                | if(OR(\[Meðaltalsstaða birgða\] &lt;= 0, \[Birgðir seldar eða notað vandamál\] &gt;= 0), 0, ABS(\[Birgðir seldar eða notað vandamál\])/\[Meðaltalsstaða birgða\])                                                                                                                                                                                                                                                                                                  |
-| Meðaltalsstaða birgða               | (\[Lokastaða birgða\] + \[Upphafsstaða birgða\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Birgðir seldar eða notað vandamál       | \[Birgðir seldar\] + \[Notaður efniskostnaður birgða\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Notaður efniskostnaður birgða        | CALCULATE(\[Nettóbreyting birgða\], Færslur yfirlits'\[Flokksheiti - stig 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Birgðir seldar                          | CALCULATE(\[Nettóbreyting birgða\], Færslur yfirlits'\[Flokksheiti - stig 2\_\] = „Sold")                                                                                                                                                                                                                                                                                                                                                                             |
-| Birgðanákvæmni eftir upphæð            | IF(\[Lokastaða birgða\] &lt;= 0, IF(OR(\[Talin upphæð birgða\] &lt;&gt; 0, \[Lokastaða birgða\] &lt; 0), 0, 1), MAX(0, (\[Lokastaða birgða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða birgða\]))                                                                                                                                                                                                                              |
-| Talin upphæð birgða                | CALCULATE(\[Nettóbreyting birgða\], Færslur yfirlits'\[Flokksheiti - stig 3\_\] = „Counting")                                                                                                                                                                                                                                                                                                                                                                         |
-| Aldursdreifing birgða                         | if(ISBLANK(max(‚Fjárhagsdagatal'\[Dagsetning\])), blank(), MAX(0, MIN(\[Innhreyfingamagn aldursdreifingar birgða\], \[Magn lokastöðu aldursdreifingar birgða\] - \[Innhreyfingamagn aldursdreifingar birgða í framtíðinni\]))) \* \[Meðaleiningarkostnaður birgða\]                                                                                                                                                                                                                                |
-| Innhreyfingamagn aldursdreifingar birgða       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Magn nettóbreytingar birgða\], 'Færslur yfirlits'\[Magn\] &gt; 0, FILTER(ALLEXCEPT('Fjárhagsdagatöl', 'Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[ID\], ‚einingar'\[Heiti\], 'Fjárhagur'\[Gjaldmiðill\], ‚Fjárhagur'\[Lýsing\], 'Fjárhagur'\[Heiti\]), ‚Fjárhagsdagatöl'\[Dagsetning\] &lt;= MAX(‚Fjárhagsdagatöl'\[Dagsetning\]))), CALCULATE(\[Magn nettóbreytingar birgða\], ‚Færslur yfirlits'\[Magn\] &gt; 0)) |
-| Magn lokastöðu aldursdreifingar birgða | \[Magn lokastöðu birgða\] + CALCULATE(\[Magn nettóbreytingar birgða\], FILTER(ALLEXCEPT(‚Fjárhagsdagatöl', 'Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[ID\], ‚einingar'\[Heiti\], 'Fjárhagur'\[Gjaldmiðill\], ‚Fjárhagur'\[Lýsing\], 'Fjárhagur'\[Heiti\]), 'Fjárhagsdagatöl'\[Date\] &gt; max('Fjárhagsdagatöl'\[Date\]) ))                                                                                                                                 |
-| Innhreyfingar aldursdreifingar birgða í framtíðinni  | CALCULATE(\[Nettóbreyting birgða\], 'Færslur yfirlits'\[Upphæð\] &gt; 0, FILTER(ALLEXCEPT('Fjárhagsdagatöl', 'Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[ID\], ‚einingar'\[Heiti\], ‚Fjárhagur'\[Gjaldmiðill\], ‚Fjárhagur'\[Lýsing\], ‚Fjárhagur'\[Name\]), 'Fjárhagsdagatöl'\[Date\] &gt; MAX('Fjárhagsdagatöl'\[Date\])))                                                                                                                                             |
-| Meðaleiningarkostnaður birgða                 | CALCULATE(\[Lokastaða birgða\] / \[Magn lokastöðu birgða\],ALLEXCEPT('Fjárhagsdagatöl', 'Fjárhagsdagatöl'\[LedgerRecId\], ‚einingar'\[ID\], ‚einingar'\[Name\], ‚Fjárhagur'\[Gjaldmiðill\], ‚Fjárhagur'\[Lýsing\], ‚Fjárhagur'\[Heiti\]))                                                                                                                                                                                                                 |
-| Innkaupafrávik                      | CALCULATE(SUM(\[Upphæð\]), 'Færslur yfirlits'\[Flokksheiti - stig 2\_\] = "Keypt", 'Færslur yfirlits'\[Gerð yfirlits\] = „Frávik")                                                                                                                                                                                                                                                                                                                              |
-| Upphafsstaða VÍV                   | CALCULATE(\[Upphafsstaða\], 'Færslur yfirlits'\[Gerð yfirlits\] = „VÍV")                                                                                                                                                                                                                                                                                                                                                                                            |
-| Lokastaða VÍV                      | CALCULATE(\[Lokastaða\], 'Færslur yfirlits'\[Gerð yfirlits\] = „VÍV")                                                                                                                                                                                                                                                                                                                                                                                               |
-| Nettóbreyting VÍV                          | CALCULATE(\[Nettóbreyting\], Færslur yfirlits'\[Gerð yfirlits\] = „VÍV")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Nettóbreyting VÍV %                        | IF(\[Lokastaða VÍV\] = 0, 0, \[Nettóbreyting VÍV\] / \[Lokastaða VÍV\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Framleiðslufrávik                    | CALCULATE(SUM(\[Upphæð\]), 'Færslur yfirlits'\[Flokkaheiti - stig 2\_\] = "ManufacturedCost", 'Statement entries'\[Gerð yfirlits\] = "Variance")                                                                                                                                                                                                                                                                                                                      |
-| Flokksheiti - stig 1                 | switch(\[Category name - level 1\_\], "None", "None", "NetSourcing", "Net sourcing", "NetUsage", "Net usage", "NetConversionCost", "Net conversion cost", "NetCostOfGoodsManufactured", "Net cost of goods manufactured", "BeginningBalance", "Beginning balance")                                                                                                                                                                                                         |
-| Flokksheiti - stig 2                 | switch(\[Category name - level 2\_\], "None", "None", "Procured", "Procured", "Disposed", "Disposed", "Transferred", "Transferred", "Sold", "Sold", "ConsumedMaterialsCost", "Consumed material cost", "ConsumedManufacturingCost", "Consumed manufacturing cost", "ConsumedOutsourcingCost", "Consumed outsourcing cost", "ConsumedIndirectCost", "Consumed indirect cost", "ManufacturedCost", "Manufactured cost", "Variances", "Variances")                            |
-| Flokksheiti - stig 3                 | switch(\[Category name - level 3\_\], "None", "None", "Counting", "None", "ProductionPriceVariance", "Production price", "QuantityVariance", "Quantity", "SubstitutionVariance", "Substitution", "ScrapVariance", "Scrap", "LotSizeVariance", "Lot size", "RevaluationVariance", "Revaluation", "PurchasePriceVariance", "Purchase price", "CostChangeVariance", "Cost change", "RoundingVariance", "Rounding variance")                                                   |
+### <a name="inventory-accounting-status"></a>Staða birgðabókhalds
+
+| Skýrslusíða                               | Myndbirting                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Yfirlit yfir birgðir                        | Upphafsstaða                               |
+|                                           | Nettó breyting                                      |
+|                                           | Nettóbreyting %                                    |
+|                                           | Lokastaða                                  |
+|                                           | Birgðanákvæmni                              |
+|                                           | Veltuhraði birgða                        |
+|                                           | Dagar lagerbirgða                          |
+|                                           | Virk afurð á tímabili                        |
+|                                           | Virkir kostnaðarhlutir á tímabili                   |
+|                                           | Staða eftir vöruflokki                           |
+|                                           | Staða eftir svæði                                 |
+|                                           | Yfirlit eftir flokki                           |
+|                                           | Nettóbreyting eftir fjórðungi                           |
+| Birgðayfirlit eftir svæði og vöruflokki | Birgðanákvæmni eftir svæði                      |
+|                                           | Hlutfall birgðaveltu eftir svæði                |
+|                                           | Lokastaða birgða eftir svæði                |
+|                                           | Birgðanákvæmni eftir vöruflokki                |
+|                                           | Hlutfall birgðaveltu eftir vöruflokki          |
+|                                           | Lokastaða birgða eftir svæði og vöruflokki |
+| Birgðayfirlit                       | Birgðayfirlit                             |
+| Birgðayfirlit eftir svæði               | Birgðayfirlit eftir svæði                     |
+| Birgðayfirlit eftir afurðastigveldi  | Birgðayfirlit                             |
+| Birgðayfirlit eftir afurðastigveldi  | Birgðayfirlit eftir svæði                     |
+
+### <a name="manufacturing-accounting-status"></a>Staða bókhalds framleiðslu
+
+| Skýrslusíða                | Myndbirting                       |
+|----------------------------|-------------------------------------|
+| VÍV yfirlit á árinu           | Upphafsstaða                   |
+|                            | Nettó breyting                          |
+|                            | Nettóbreyting %                        |
+|                            | Lokastaða                      |
+|                            | VÍV-veltuhlutfall                  |
+|                            | Dagar VÍV á lager                    |
+|                            | Virkur kostnaðarhlutur á tímabili        |
+|                            | Nettóbreyting eftir tilfangaflokki        |
+|                            | Staða eftir svæði                     |
+|                            | Yfirlit eftir flokki               |
+|                            | Nettóbreyting eftir fjórðungi               |
+| VÍV-yfirlit              | Upphafsstaða                   |
+|                            | Lokastaða                      |
+|                            | VÍV-yfirlit eftir flokki           |
+| VÍV-yfirlit eftir svæði      | Upphafsstaða                   |
+|                            | Lokastaða                      |
+|                            | VÍV-yfirlit eftir flokki og svæði  |
+| VÍV-yfirlit eftir stigveldi | Upphafsstaða                   |
+|                            | Lokastaða                      |
+|                            | VÍV-yfirlit eftir flokkastigveldi |
+
+### <a name="inventory-accounting-analysis"></a>Birgðabókhaldsgreining
+
+| Skýrslusíða        | Myndbirting                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Upplýsingar um birgðir  | Topp 10 tilföng eftir lokastöðu                                           |
+|                    | Topp 10 tilföng eftir aukningu á nettóbreytingu                                      |
+|                    | Topp 10 tilföng eftir minnkun á nettóbreytingu                                      |
+|                    | Topp 10 tilföng eftir hlutfalli birgðaveltu                                 |
+|                    | Tilföng eftir hlutfalli lágrar birgðaveltu og lokastöðu yfir þröskuldi |
+|                    | Topp 10 tilföng eftir lítilli nákvæmni                                             |
+| ABC-flokkun | Lokastaða birgða                                                     |
+|                    | Notað efni                                                            |
+|                    | Selt (kostnaður seldra vara)                                                                  |
+| Birgðaframvinda   | Lokastaða birgða                                                     |
+|                    | Nettóbreyting birgða                                                         |
+|                    | Veltuhraði birgða                                                     |
+|                    | Birgðanákvæmni                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Greining bókhalds framleiðslu
+
+| Skýrslusíða | Myndbirting      |
+|-------------|--------------------|
+| VÍV-framvinda  | Lokastaða VÍV |
+|             | Nettóbreyting VÍV     |
+|             | VÍV-veltuhlutfall |
+
+### <a name="std-cost-variance-analysis"></a>Greining á stöðluðum kostnaðarfrávikum
+
+| Skýrslusíða                             | Myndbirting                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Frávik innkaupsverðs (staðlaður kostnaður) á árinu | Innkaupastaða                                     |
+|                                         | Frávik innkaupsverða                              |
+|                                         | Hlutfall fráviks innkaupsverða                        |
+|                                         | Frávik eftir vöruflokki                               |
+|                                         | Frávik eftir svæði                                     |
+|                                         | Innkaupsverð eftir fjórðungi                            |
+|                                         | Innkaupsverð eftir fjórðungi og vöruflokki             |
+|                                         | Topp 10 tilföng eftir hlutfalli óhagstæðra innkaupsverða |
+|                                         | Topp 10 tilföng eftir hlutfalli hagstæðra innkaupsverða   |
+| Framleiðslufrávik (staðlaður kostnaður) á árinu     | Kostnaður við framleiðslu                                    |
+|                                         | Framleiðslufrávik                                  |
+|                                         | Hlutfall framleiðslufráviks                            |
+|                                         | Frávik eftir vöruflokki                               |
+|                                         | Frávik eftir svæði                                     |
+|                                         | Framleiðslufrávik eftir fjórðungi                       |
+|                                         | Framleiðslufrávik eftir fjórðungi og tegund fráviks     |
+|                                         | Topp 10 tilföng eftir óhagstæðum framleiðslufrávikum  |
+|                                         | Topp 10 tilföng eftir hagstæðum framleiðslufrávikum    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
+
+Gögn frá Microsoft Dynamics 365 for Finance and Operations eru notuð til að fylla skýrslusíðurnar í **Kostnaðarstjórnun** Power BI-efnis. Þessi gögn eru birt sem uppsafnaðar mælingar sem eru settar upp í einingaversluninni sem er Microsoft SQL Server-gagnagrunnur sem er fínstilltur fyrir greiningar. Nánari upplýsingar er að finna í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
+
+Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
+
+| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Upphæð                     | CostObjectStatementCache               | Upphæð              |
+| CostObjectStatementCacheMonthly | Magn                   | CostObjectStatementCache               | Magn                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
+
+| Mæla                            | Útreikningur |
+|------------------------------------|-------------|
+| Upphafsstaða                  | Upphafsstaða = [Lokastaða]-[Nettóbreyting] |
+| Upphafsstaða magns             | Upphafsstaða magns = [Lokastaða magns]-[Nettóbreyting magns] |
+| Lokastaða                     | Lokastaða magns = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Nettó breyting                         | Nettóbreyting = SUM([AMOUNT]) |
+| Nettóbreyting magns                    | Nettóbreyting magns = SUM([QTY]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR([Meðaltalsstaða birgða] \<= 0, [Vandamál með seldar eða notaðar birgðir] \>= 0), 0, ABS([Vandamál með seldar eða notaðar birgðir])/[Meðaltalsstaða birgða]) |
+| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = (([Lokastaða] + [Upphafsstaða]) / 2) |
+| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries[Hlutfall birgðaveltu eftir upphæð] |
+| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF([Lokastaða] \<= 0, IF(OR ([Talin upphæð birgða] \<\> 0, [Lokastaða] \< 0), 0, 1), MAX (0, ([Lokastaða] - ABS([Talin upphæð birgða]))/[Lokastaða])) |
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 
-| Eining           | Dæmi um eigindir                       |
-|------------------|----------------------------------------------|
-| Einingar         | Skilríki, heiti                                     |
-| Fjárhagsdagatöl | Almanakm Mánuður, Tímabil, Ársfjórðungur, Ár       |
-| Markmið KPI (afkastavísis)        | Markmið birgðanákvæmni, markmið birgðahreyfingar |
-| Fjárhagur          | Gjaldmiðill, heiti, lýsing                  |
-| Svæði            | Skilríki, heiti, land, borg                      |
 
-
-
-
+|                         Eining                          |             Dæmi um eigindir              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Afurðir                         | Afurðarnúmer, afurðarheiti, eining, vöruflokkar |
+| Flokkastigveldi (úthlutað á hlutverki Kostnaðarstjórnunar) |       Flokkastigveldi, flokkastig        |
+|                     Lögaðilar                      |               Heiti lögaðila                |
+|                    Fjárhagsdagatöl                     |  Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður  |
+|                          Svæði                           |        Kenni, nafn, heimilisfang, ríki, land        |
 
 

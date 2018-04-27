@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Skoða og flytja út svæðalýsingar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar.
 
@@ -77,7 +76,7 @@ Nokkrar leiðir eru til að leita að síðu í reitnum **Velja síðu**. Í mö
     -   Ef fleiri en einn nákvæm samsvörun er engin lýsingar sýndar. Þú verður að Opna í fellilistanum og veljið síðan sem óskað er.
     -   Ef heiti sem slegið er inn er hluta á nafni á aðra síðu sérðu lýsingu á síðunni. Hins vegar ef á fellilistann er opnuð, er að sjá aðrar síður sem innihalda nafninu.
 
-Til dæmis ekkert lýsingar eru sýnd þegar færa **Talning** í ****Velja síðu ****svæði. Ef opnað er á fellilistanum sést að það eru tvær síður með heitið **"Talning"** auk nokkrum síða sem innihalda orðið "Talning“ í nafni. Ef valin er síða með AOT-heiti **"InventJournalCount"** birtast svæðislýsingar fyrir þá síðu. Hins vegar ef fellilistinn er opnuð aftur, sést að listinn inniheldur allar síður sem hafa "InventJournalCount" sem hluti af þeirra AOT-heiti.
+Til dæmis eru engar lýsingar sýndar þegar slegið er inn <strong>Talning</strong> í reitnum *<strong><em>Velja síðu</em></strong>*. Ef opnað er á fellilistanum sést að það eru tvær síður með heitið <strong>"Talning"</strong> auk nokkrum síða sem innihalda orðið "Talning“ í nafni. Ef valin er síða með AOT-heiti <strong>"InventJournalCount"</strong> birtast svæðislýsingar fyrir þá síðu. Hins vegar ef fellilistinn er opnuð aftur, sést að listinn inniheldur allar síður sem hafa "InventJournalCount" sem hluti af þeirra AOT-heiti.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 Eftirfarandi kaflar veita upplýsingar við úrræðaleit vegna vandamála sem koma upp við notkun á svæðislýsingum.

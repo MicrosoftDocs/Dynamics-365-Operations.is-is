@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Kjörstillingar notanda í hönnunarviðmót fyrir fjárhagsskýrslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið. Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast. 
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 11/03/2017
 </tr>
 <tr class="even">
 <td>Birta staðfestingu áður en Report Designer er lokað</td>
-<td>Veljið hvort á að fá viðvörun þegar farið er úr forritinu. Þessi skilaboð hjálpar til við að tryggja að ekki loka forritinu óvart.</td>
+<td>Veljið hvort á að fá viðvörun þegar farið er úr forritinu. Þessi skilaboð hjálpa til við að tryggja að forritinu verði ekki lokað af slysni.</td>
 </tr>
 <tr class="odd">
 <td>Nota reitaundirstrikun sjálfvirkt í dálkfyrirsögnum</td>

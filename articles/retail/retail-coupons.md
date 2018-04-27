@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Búa til afsláttarmiða fyrir smásölu
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Yfirlit yfir afsláttarmiða
 
@@ -46,9 +45,12 @@ Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í si
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 
-Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörkuð. Notkunartakmörk er hægt að skilgreina á viðskiptavin eða rás, eða sem algild mörk. Þessum mörkum er beitt þegar kóði eða strikamerki er slegið inn eða skannað á sölustað eða við skráningu sölupöntunar. Afsláttarmiði er skráður sem notaður þegar pöntun sem tengd er við afsláttarmiða er lokið.
+Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörkuð. Notkunartakmörk er hægt að skilgreina á viðskiptavin eða rás, eða sem algild mörk. Þessum mörkum er beitt þegar kóði eða strikamerki er slegið inn eða skannað á sölustað eða við skráningu sölupöntunar.
 
 Þessum mörkum er beitt fyrir hvern kóða á afsláttarmiða. Til dæmis er hægt að nota einnota afsláttarmiða sem hefur tvo kóða tvisvar sinnum, einu sinni fyrir hvorn afsláttarmiðakóða. Hægt er að stilla hvorn kóðann á afsláttarmiða sem virkan, óháð hvorum öðrum.
+
+> [!NOTE]
+> Þegar kóða afsláttarmiða hefur náð notkunartakmörkum breytir kerfið *ekki* sjálfkrafa stöðu kóða afsláttarmiðans í „Notaður“. Kerfið leyfir þó ekki frekari notkun á kóða afsláttarmiða sem hefur náð notkunartakmörkum sínum. Ef staða á kóða afsláttarmiða er handvirkt stillt á allt nema „Virkur“ þá er ekki hægt að nota þennan kóða afsláttarmiða í neinni rás.
 
 ## <a name="managing-coupons"></a>Stjórnun afsláttarmiða
 
@@ -68,8 +70,8 @@ Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörku
     > [!NOTE]
     > Það verður að stilla reitinn **Gildissvið** á **Fyrirtæki** fyrir báðar númeraraðir. Í flestum tilvikum ættirðu að framkalla bæði raðnúmerin sjálfvirkt.
 
-5.  Á síðunni **Samnýttar smásölufæribreytur** á flipanum **Strikamerki** skaltu velja strikamerkið sem þú stofnaðir áður.
-6.  Á síðunni **Smásölufæribreytur** á flipanum **Númeraraðir** skaltu velja þær númeraraðir sem þú stofnaðir fyrir afsláttarmiðanúmerið og kenni afsláttarmiðakóða.
+5.  Á síðunni **Færibreytur smásölu** í flipanum **Strikamerki** skal velja strikamerkið sem var stofnað áðan.
+6.  Á síðunni **Samnýttar færibreytur smásölu** í flipanum **Númeraraðir** skal velja númeraröðina sem var stofnuð fyrir númer afsláttarmiða og auðkenniskóða afsláttarmiða.
 7.  Nú getur þú opnað síðuna **Afsláttarmiðar** og stofnað nýja afsláttarmiða.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Áhrif hlutauppfærslna á afsláttarmiða

@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: is-is
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar: 
 
@@ -104,26 +103,26 @@ Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innih
 2.  Tvísmellið á hólfið **Sniðkóði**.
 3.  Veljið sniðkóði í listanum. Eftirfarandi tafla lýsir sniðkóðum og aðgerðir sem gilda fyrir þá.
 
-| **Sniðkóði**               | **Túlkun á sniðkóðanum** | **Aðgerð**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Ekkert)                        |                                       | Hreinsar hólfið **Sniðkóði**.                                                                                                                                                                               |
-| TOT                           | Samtals                                 |  Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Samtölur innihalda einfalda virkja, til dæmis **+** eða **-**.                                                     |
-| CAL                           | Útreikningur                           | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Útreikningar innihalda flókna virkja, til dæmis **+**,**-**, **\***, **/**, og **IF/THEN/ELSE** yrðingar. |
-| DES                           | lýsing                           | Auðkennir hauslínu eða auða línu í skýrslu.                                                                                                                                                        |
-| LFT RGT CEN                   | Hægri vinstri miðja                     |  Stillir staðsetningu texta línulýsingar á skýrslusíðunni, óháð staðsetningu textans í dálkskilgreiningunni.                                                                                              |
-| CBR                           | Breyta grunnlínu                       | Auðkennir línu sem ákvarðar grunnlínu fyrir dálkaútreikninga.                                                                                                                                               |
-| DÁLKUR                        | Dálkaskil                          | Byrjar nýjan dálka í skýrslunni                                                                                                                                                                             |
-| PAGE                          | Síðuskil                            | Byrjar nýjan síðu í skýrslunni                                                                                                                                                                               |
-| \---                          | Einföld undirstrikun                      | Setur einfalda línu undir alla upphæðardálka í skýrslunni.                                                                                                                                                     |
-|  ===                          | Tvöföld undirstrikun                      | Setur tvöfalda línu undir alla upphæðardálka í skýrslunni.                                                                                                                                                     |
-| LINE1                         | Mjó lína                             | Dregur einfalda, mjóa línu þvert yfir síðuna.                                                                                                                                                                      |
-| LINE2                         | Þykk lína                            | Dregur einfalda, þykka línu þvert yfir síðuna.                                                                                                                                                                     |
-| LINE3                         | Punktalína                           | Dregur einfalda punktalínu þvert yfir síðuna.                                                                                                                                                                    |
-| LINE4                         | Þykk lína og mjó lína              | Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þykk, neðasta línan er þunn.                                                                                                                       |
-| LINE5                         | Mjó lína og þykk lína              | Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þunn, neðasta línan er þykk.                                                                                                                       |
-| BXB BXC                       | Innrömmuð lína                             | Dregur ramma utan um skýrslulínuna sem hefst með **BXB**-línunni og lýkur með **BXC**-línunni.                                                                                                               |
-| REM                           | Athugasemd                                | Auðkennir línu sem er athugasemdalína og ætti ekki að vera prentuð í skýrslunni. TIl dæmis gæti athugasemdalína verið til að skýra sniðmátsaðferðir.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Raða                                  | Raðar kostnaðar- eða tekjuliðum, raðar raunskýrslum eða fjárhagsfrávikaskýrslum eftir mestu frávikum eða raðar línulýsingum eftir stafrófsröð.                                                                   |
+| <strong>Sniðkóði</strong>  | <strong>Túlkun á sniðkóðanum</strong> |                                                                                                                             <strong>Aðgerð</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Ekkert)             |                                                    |                                                                                                                  Hreinsar hólfið <strong>Sniðkóði</strong>.                                                                                                                   |
+|              TOT              |                       Samtals                        |                                         Auðkennir línu sem notar stærðfræðilega virkja í dálkinum <strong>Tengdar formúlur/línur/einingar</strong>. Samtölur innihalda einfalda virkja, til dæmis <strong>+</strong> eða <strong>-</strong>.                                         |
+|              CAL              |                    Útreikningur                     | Auðkennir línu sem notar stærðfræðilegt virknitákn í dálkinum <strong>Tengdar formúlur/línur/einingar</strong>. Útreikningar innihalda flókin virknitákn, t.d. <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> og **IF/THEN/ELSE</em>* yrðingar. |
+|              DES              |                    lýsing                     |                                                                                                             Auðkennir hauslínu eða auða línu í skýrslu.                                                                                                              |
+|          LFT RGT CEN          |                 Hægri vinstri miðja                  |                                                                                 Stillir staðsetningu texta línulýsingar á skýrslusíðunni, óháð staðsetningu textans í dálkskilgreiningunni.                                                                                 |
+|              CBR              |                  Breyta grunnlínu                   |                                                                                                         Auðkennir línu sem ákvarðar grunnlínu fyrir dálkaútreikninga.                                                                                                         |
+|            DÁLKUR             |                    Dálkaskil                    |                                                                                                                        Byrjar nýjan dálka í skýrslunni                                                                                                                        |
+|             PAGE              |                     Síðuskil                     |                                                                                                                         Byrjar nýjan síðu í skýrslunni                                                                                                                         |
+|             \---              |                  Einföld undirstrikun                  |                                                                                                            Setur einfalda línu undir alla upphæðardálka í skýrslunni.                                                                                                            |
+|              ===              |                  Tvöföld undirstrikun                  |                                                                                                            Setur tvöfalda línu undir alla upphæðardálka í skýrslunni.                                                                                                            |
+|             LINE1             |                     Mjó lína                      |                                                                                                                    Dregur einfalda, mjóa línu þvert yfir síðuna.                                                                                                                     |
+|             LINE2             |                     Þykk lína                     |                                                                                                                    Dregur einfalda, þykka línu þvert yfir síðuna.                                                                                                                    |
+|             LINE3             |                    Punktalína                     |                                                                                                                   Dregur einfalda punktalínu þvert yfir síðuna.                                                                                                                    |
+|             LINE4             |              Þykk lína og mjó lína              |                                                                                             Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þykk, neðasta línan er þunn.                                                                                             |
+|             LINE5             |              Mjó lína og þykk lína              |                                                                                             Dregur tvöfalda punktalínu þvert yfir síðuna. Efsta línan er þunn, neðasta línan er þykk.                                                                                             |
+|            BXB BXC            |                     Innrömmuð lína                      |                                                                            Dregur ramma utan um skýrslulínuna sem hefst með <strong>BXB</strong>-línunni og lýkur með <strong>BXC</strong>-línunni.                                                                            |
+|              REM              |                       Athugasemd                       |                                                               Auðkennir línu sem er athugasemdalína og ætti ekki að vera prentuð í skýrslunni. TIl dæmis gæti athugasemdalína verið til að skýra sniðmátsaðferðir.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Raða                        |                                                                   Raðar kostnaðar- eða tekjuliðum, raðar raunskýrslum eða fjárhagsfrávikaskýrslum eftir mestu frávikum eða raðar línulýsingum eftir stafrófsröð.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Tilgreina Tengdar formúlur/línur/einingar
 Hólfið **Tengdar formúlur/línur/einingar** hefur margvíslegan tilgang. Hólfið **Tengdar formúlur/línur/einingar** getur gert eina af eftirfarandi aðgerðum, allt eftir tegund línunnar:
@@ -211,12 +210,12 @@ Röðunarkóðar raða reikningum og gildum, raða  raunskýrslum eða fjárhags
 
 ### <a name="select-a-sorting-code"></a>Röðunarkóði valinn
 
-1.  Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
-2.  Tvísmellið á hólfið **Sniðkóði** og veljið síðan röðunarkóða.
-3.  Í hólfið **Tengdar formúlur/línur/einingar** tilgreindu svið línukóða sem á að flokka. Til að tilgreina svið skal slá inn fyrsta línukóðann, dálk (:) og síðan síðasta línukóða Til dæmis, færa inn **160:490** til að tilgreina að sviðið er lína 160 til og með lína 490.
-4.  Í hólfið **Dálktakmörkun** skal slá inn dálkstaf skýrsludálksins sem þú vilt nota á fyrir röðunina. 
-> [!Note] 
-> Aðeins skal taka með upphæðarlínur í röðunarútreikningi.
+1. Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
+2. Tvísmellið á hólfið **Sniðkóði** og veljið síðan röðunarkóða.
+3. Í hólfið **Tengdar formúlur/línur/einingar** tilgreindu svið línukóða sem á að flokka. Til að tilgreina svið skal slá inn fyrsta línukóðann, dálk (:) og síðan síðasta línukóða Til dæmis, færa inn **160:490** til að tilgreina að sviðið er lína 160 til og með lína 490.
+4. Í hólfið **Dálktakmörkun** skal slá inn dálkstaf skýrsludálksins sem þú vilt nota á fyrir röðunina. 
+   > [!Note] 
+   > Aðeins skal taka með upphæðarlínur í röðunarútreikningi.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Dæmi um hækkandi og lækkandi dálkagildi
 
@@ -258,41 +257,41 @@ Hólfið **Hnekkja sniði** tilgreinir prentsniðið fyrir línuna. Þetta snið
 
 Gjaldmiðilssnið er notað fyrir upphæðir í peningum og því fylgir gjaldmiðilstákn. Eftirtaldir valkostir eru í boði:
 
--   **Gjaldmiðilstákn** – Gjaldmiðilstákn skýrslunnar. Þetta gildi hnekkir stillingunni **Svæðisbundnir valkostir** í upplýsingum fyrirtækisins.
--   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
--   **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
-> [!Note] 
-> Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+- **Gjaldmiðilstákn** – Gjaldmiðilstákn skýrslunnar. Þetta gildi hnekkir stillingunni **Svæðisbundnir valkostir** í upplýsingum fyrirtækisins.
+- **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
+- **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
+- **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+  > [!Note] 
+  > Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="numeric-formatting"></a>Talnasnið
 
 Snið gjaldmiðils við fjárhagsárs upphæð og inniheldur gjaldmiðilstáknið. Eftirtaldir valkostir eru í boði:
 
--   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
--   **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
-> [!Note] 
-> Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+- **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
+- **Aukastafir** – Fjöldi aukastafa eftir tugakommu.
+- **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+  > [!Note] 
+  > Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="percentage-formatting"></a>Prósentusnið
 
 Prósentusnið er með prósentumerki (%). Eftirtaldir valkostir eru í boði:
 
--   **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
--   **Aukastafir** – Fjöldi aukastafa sem er birtur eftir tugakommu.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
-> [!Note] 
-> Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+- **Neikvæðar tölur** – Neikvæðar tölur geta verið með mínusmerki (-), geta þau birtast í sviga, eða þær geta haft þríhyrningur (∆).
+- **Aukastafir** – Fjöldi aukastafa sem er birtur eftir tugakommu.
+- **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+  > [!Note] 
+  > Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 ### <a name="custom-formatting"></a>Sérsnið
 
 Sérsniðsflokkurinn er notaður til að velja sérsniðna hnekkingu. Eftirtaldir valkostir eru í boði:
 
--   **Gerð** – Sérsniðið.
--   **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
-> [!Note] 
-> Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
+- **Gerð** – Sérsniðið.
+- **Hnekkingartexti núllgildis** – Texti sem birtur er í skýrslunni þegar upphæðin er núll (0). Textinn birtist í síðustu línunni á svæðinu **Dæmi**. 
+  > [!Note] 
+  > Ef núllgildi eru falin við prentun eða engin virkni er á tímabilinu er þessi texti falinn.
 
 Gerðin ætti að tákna jákvæða og neikvæða gildið. Yfirleitt er fært inn svipað snið sem skilur á milli jákvæðra og neikvæðra gilda. Til að tilgreina að bæði jákvætt og neikvætt gildi séu með tveimur aukastöfum, en neikvæð gildi birtast í sviga skal færa inn **0,00;(0,00)**. Eftirfarandi tafla inniheldur sérsnið sem hægt er að nota til að stýra sniði gilda þinna. Öll dæmi byrja frá gildi 1234.56.
 
@@ -387,7 +386,7 @@ Sjálfgefið er að Skýrsluhönnun prentar ekki línu sem hefur ekki samsvarand
 3.  Á valmyndinni **Skrá** er smellt á **Vista** til að vista breytingarnar.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Notaðu Algildisstafir og svið í línuskilgreiningu
-Þegar færð eru inn meginhlutagildi í svargluggann **Víddir** er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn **6???** í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef fært er inn **6\*** eru sömu niðurstöður fengnar, en niðurstöður sýna einnig vídd-breidd gildi, eins og **60** og **600000**. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá **12?0** til **12?4**, er algildisstafnum í **12?0** skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í **12?4** er skipt út fyrir hæsta gildið í stafamenginu. 
+Þegar færð eru inn meginhlutagildi í svargluggann <strong>Víddir</strong> er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn <strong>6???</strong> í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef þú slærð inn <strong>6\</strong><em>, er sömu niðurstöðum skilað, en niðurstöðurnar innihalda einnig breytileg breiddargildi, t.d. **60</em>* og <strong>600000</strong>. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá <strong>12?0</strong> til <strong>12?4</strong>, er algildisstafnum í <strong>12?0</strong> skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í <strong>12?4</strong> er skipt út fyrir hæsta gildið í stafamenginu. 
 > [!Note] 
 > Forðast ætti notkun algildistafa í sviðum fyrir upphafs- og endareikningana. Ef algildistafir eru notaðir annaðhvort fyrir upphafsreikninginn eða endareikninginn getur það skilað óvæntum niðurstöðum.
 
@@ -466,15 +465,15 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 
 ### <a name="update-a-set-of-dimension-values"></a>Samstæða víddargilda uppfærð
 
-1.  Opnið línu-, dálk- eða skipuritsskilgreiningu í Report Designer til að gera breytingar.
-2.  Á valmyndinni **Breyta** er smellt á **Vinna með samstæður víddargilda**.
-3.  Í svarglugganum **Vinna með samstæður víddargilda** er valin tegund víddar í reitnum **Vídd**.
-4.  Veljið víddargildissamstæðu sem á að uppfæra af listanum og smellið á **Breyta**.
-5.  Í svarglugganum **Breyta** er formúlugildunum breytt þannig að þau innihaldi samstæðuna. 
-> [!Note] 
-> Ef nýjum reikningi eða víddum er bætt við verður að tryggja að fyrirliggjandi víddargildasamstæðum sé breytt til samræmis við breytingarnar.
-6.  Tvísmellið á hólfið til að velja viðeigandi virkja, **Frá**-reikning og **Til**-reikning.
-7.  Smellið á **Í lagi** til að loka svarglugganum **Breyta** og vista breytingarnar.
+1. Opnið línu-, dálk- eða skipuritsskilgreiningu í Report Designer til að gera breytingar.
+2. Á valmyndinni **Breyta** er smellt á **Vinna með samstæður víddargilda**.
+3. Í svarglugganum **Vinna með samstæður víddargilda** er valin tegund víddar í reitnum **Vídd**.
+4. Veljið víddargildissamstæðu sem á að uppfæra af listanum og smellið á **Breyta**.
+5. Í svarglugganum **Breyta** er formúlugildunum breytt þannig að þau innihaldi samstæðuna. 
+   > [!Note] 
+   > Ef nýjum reikningi eða víddum er bætt við verður að tryggja að fyrirliggjandi víddargildasamstæðum sé breytt til samræmis við breytingarnar.
+6. Tvísmellið á hólfið til að velja viðeigandi virkja, **Frá**-reikning og **Til**-reikning.
+7. Smellið á **Í lagi** til að loka svarglugganum **Breyta** og vista breytingarnar.
 
 ### <a name="copy-a-dimension-set"></a>Víddasamstæða afrituð
 

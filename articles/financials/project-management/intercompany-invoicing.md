@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Reikningsfærsla innan samstæðu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutnin
 
 Í þessu dæmi verður FRSI að vera viðskiptavinur USSI lögaðila, og USSI verður að vera lánardrottins í FRSI-lögaðila . Síðan er hægt að setja upp tengsl innan samstæðu milli tveggja lögaðila. Eftirfarandi ferli sýnir hvernig á að setja upp færibreytur þannig að bæði lögaðila geta taka þátt í reikningsfærslu innan samstæðu .
 
-1.  Setja upp FRSI sem viðskiptavin í USSI lögaðila, og setja upp USSI sem lánardrottinn í FRSI-lögaðila. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.
-    | Skref | Aðgangsstaður                                                                       | lýsing   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | Lista fyrir    | Í USSI smellið á **Viðskiptakröfur** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir**. | Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                  |
-    | B    | Í FRSI, smellið á **Viðskiptaskuldir** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar**.        | Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                    |
-    | K    | Í FRSI, Opna færslu lánardrottins sem nýverið var stofnuð.                            | Í Aðgerðasvæði, á flipanum **Almennt** í flokknum **Uppsetning** er smellt á **sinnan samstæðu**. Á á **Innan samstæðu** á síðunni á **viðskiptasamningur** flipanum, skal stilla sleðann **Virkt** til **Já**. Í **fyrirtæki Viðskiptavinar** reitnum skal velja færslu viðskiptavinar sem var stofnaður í skrefi A. |
+1. Setja upp FRSI sem viðskiptavin í USSI lögaðila, og setja upp USSI sem lánardrottinn í FRSI-lögaðila. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.
 
-2.  Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **færibreytur verkefnastjórnunar og bókhalds**, og smellið svo á flipann **innan samstæðu**. Aðferðin sem þú notar til að setja upp færibreytur fer eftir því hvort þú ert lögaðili sem fær lánað eða lögaðili sem lánar.
-    -   Ef þú ert lögaðili sem fær lánað, skal velja innkaupategund sem á að nota til að jafna reikninga lánardrottins, sem eru myndaðar sjálfkrafa.
-    -   Ef þú ert lögaðili sem lánar, fyrir hvern lögaðila sem fær lánað, veldu sjálfgefna verktegund fyrir hverja færslugerð. Verktegundir eru notaðar fyrir skattskilgreiningu þegar tegund reikningsfærslna í samstæðufærslum eru eingöngu til hjá lögaðili sem fær lánað. Hægt er að velja að safna upp tekjum fyrir færslur fyrir samstæðufærslur. Þessi uppsöfnun er gert þegar færslur eru bókaðar, og það er síðan bakfærðar þegar samstæðureikningur er bókaður.
+   | Skref |                                                       Aðgangsstaður                                                        |                                                                                                                                                                                               lýsing                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  Lista fyrir   | Í USSI smellið á <strong>Viðskiptakröfur</strong> &gt; <strong>Viðskiptavinir</strong> &gt; <strong>Allir viðskiptavinir</strong>. |                                                                                                                                                                  Búa til nýja færslu viðskiptavinar fyrir FRSI og veljið viðskiptavinaflokkur.                                                                                                                                                                  |
+   |  B   |    Í FRSI, smellið á <strong>Viðskiptaskuldir</strong> &gt; <strong>Lánardrottnar</strong> &gt; <strong>Allir lánardrottnar</strong>.     |                                                                                                                                                                    Búa til nýja færslu lánardrottins fyrir USSI, og veljið svo lánardrottnaflokkur                                                                                                                                                                    |
+   |  K   |                                  Í FRSI, Opna færslu lánardrottins sem nýverið var stofnuð.                                  | Í Aðgerðasvæði, á flipanum <strong>Almennt</strong> í flokknum <strong>Uppsetning</strong> er smellt á <strong>sinnan samstæðu</strong>. Á á <strong>Innan samstæðu</strong> á síðunni á <strong>viðskiptasamningur</strong> flipanum, skal stilla sleðann <strong>Virkt</strong> til <strong>Já</strong>. Í <strong>fyrirtæki Viðskiptavinar</strong> reitnum skal velja færslu viðskiptavinar sem var stofnaður í skrefi A. |
 
-3.  Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **Verð** &gt; **Flutningsverð**.
-4.  Velja gjaldmiðil, færslugerð og verðlíkan innanhússverðs. Gjaldmiðill sem notaður er á reikningi er sá gjaldmiðill sem skilgreindur er í færslu viðskiptavinar fyrir lögaðili sem fær lánað í lögaðilanum sem lánar. Gjaldmiðill er notaður til að jafna færslur í töflu innanhússverðs.
-5.  Smellt er á **Fjárhagur** &gt; **Uppsetning bókunar** &gt; **Samstæðulyklar** og sett upp vensl fyrir USSI og FRSI.
+
+2. Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **færibreytur verkefnastjórnunar og bókhalds**, og smellið svo á flipann **innan samstæðu**. Aðferðin sem þú notar til að setja upp færibreytur fer eftir því hvort þú ert lögaðili sem fær lánað eða lögaðili sem lánar.
+   -   Ef þú ert lögaðili sem fær lánað, skal velja innkaupategund sem á að nota til að jafna reikninga lánardrottins, sem eru myndaðar sjálfkrafa.
+   -   Ef þú ert lögaðili sem lánar, fyrir hvern lögaðila sem fær lánað, veldu sjálfgefna verktegund fyrir hverja færslugerð. Verktegundir eru notaðar fyrir skattskilgreiningu þegar tegund reikningsfærslna í samstæðufærslum eru eingöngu til hjá lögaðili sem fær lánað. Hægt er að velja að safna upp tekjum fyrir færslur fyrir samstæðufærslur. Þessi uppsöfnun er gert þegar færslur eru bókaðar, og það er síðan bakfærðar þegar samstæðureikningur er bókaður.
+
+3. Smellið á **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **Verð** &gt; **Flutningsverð**.
+4. Velja gjaldmiðil, færslugerð og verðlíkan innanhússverðs. Gjaldmiðill sem notaður er á reikningi er sá gjaldmiðill sem skilgreindur er í færslu viðskiptavinar fyrir lögaðili sem fær lánað í lögaðilanum sem lánar. Gjaldmiðill er notaður til að jafna færslur í töflu innanhússverðs.
+5. Smellt er á **Fjárhagur** &gt; **Uppsetning bókunar** &gt; **Samstæðulyklar** og sett upp vensl fyrir USSI og FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Dæmi 2: Stofnað og bókað vinnukort innan samstæðu
 USSI, lögaðilanum sem lánar, verður að stofna og bóka vinnukort fyrir verk úr FRSI, lögaðili sem fær lánað. Það eru tveir komustaðir fyrir skref sem þarf fyrir þetta verk.

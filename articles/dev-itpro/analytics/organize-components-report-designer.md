@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d575e2b0215b0e8c4b6cb1b17c0f1d908b862e9d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skipuleggja þessum hlutum þannig að þeir verði auðveldara fyrir notendum að staðsetja. Þessi skrá er útskýrt hvernig raða fyrirliggjandi skýrslur einingar og hlutum í skýrsluhönnun.
 
@@ -106,7 +105,7 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Lýsing á stigi</td>
 <td>Tilgreinið hvaða upplýsingar eiga að vera í skýrslunni.
 <ul>
-<li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sé bætt við í gegnum skipurit.</li>
+<li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sem hefur verið bætt við í gegnum skipurit.</li>
 <li><strong>Fjárhagur &amp; reikningur</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um reikning.</li>
 <li><strong>Fjárhagsreikningur &amp; færsla</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um færslur.</li>
 </ul></td>

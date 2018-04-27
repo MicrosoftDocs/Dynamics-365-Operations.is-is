@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu.  
 
@@ -83,6 +82,7 @@ Hægt er að nota spá ef fyrirtækið hefur rekstraráætlanagerð og leggur á
 Hægt er að stofna sex gerðir verka í Microsoft Finance and Operations. Hver verktegund er öðruvísi sett upp fyrir tekjuskráningu og kostnað. Gerð verks sem valin er fer eftir tilgangi verks. Eftirfarandi tafla lýsir dæmigert notkun á hverja verkgerð.
 
                                                                                                                                                                          |
+
 | Gerð verks      | Lýsing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tími og efni | Í tíma- og efnisverk, er viðskiptavinur krafinn um allur kostnaður sem myndast á verk. Þar á meðal er kostnaður fyrir klukkustundir, útgjöld, vörur og þóknun.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Hægt er að tengja verktengda framleiðslupöntun við sölupöntun eða vöru�
 
 Nota má eina af eftirfarandi aðferðum, samkvæmt samsetningu þessara þátta.
 
--   **Tilbúin vara/tengja við pöntun** – Tenging við sölupöntun eða vöruþörf. Þegar þessi aðferð er notuð er raunkostnaður verks bókaður þegar sölupöntunin er reikningsfærð eða þegar fylgiseðillinn er uppfærður vegna vöruþarfar. Kostnaðurinn verður bókaður sem tilbúin vara.
--   **Tilbúin vara/ekki tenging við pöntun** – Ekki er hægt að bóka raunkostnað fyrr en í framleiðsluferlinu fyrir vöru með stöðuna **Lokið**. Kostnaður fyrir tilbúna vöru er bókaður í einni færslu.
--   **Notuð vara/tengja við pöntun** – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Þegar fylgiseðillinn er uppfærður vegna vöruþarfar er enginn framleiðslukostnaður bókaður. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
--   ****Notuð vara/engin tenging við pöntun**** – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
+- **Tilbúin vara/tengja við pöntun** – Tenging við sölupöntun eða vöruþörf. Þegar þessi aðferð er notuð er raunkostnaður verks bókaður þegar sölupöntunin er reikningsfærð eða þegar fylgiseðillinn er uppfærður vegna vöruþarfar. Kostnaðurinn verður bókaður sem tilbúin vara.
+- **Tilbúin vara/ekki tenging við pöntun** – Ekki er hægt að bóka raunkostnað fyrr en í framleiðsluferlinu fyrir vöru með stöðuna **Lokið**. Kostnaður fyrir tilbúna vöru er bókaður í einni færslu.
+- **Notuð vara/tengja við pöntun** – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna **Hafið** eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Þegar fylgiseðillinn er uppfærður vegna vöruþarfar er enginn framleiðslukostnaður bókaður. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
+- *<strong><em>Notuð vara/engin tenging við pöntun</em></strong>* – Tengja verkið við vöruþörf. Með þessari aðferð er hægt að skoða raunkostnað verks þegar framleiðslan er með stöðuna <strong>Hafið</strong> eða er tilkynnt sem lokið. Kostnaðurinn er bókaður sem margar vörufærslur verks vegna hráefna og tíma sem framleiðslan notar. Einnig er hægt að skilgreina til hvaða stigs í uppskriftarstigveldinu skuli rekja verk í framleiðslunni.
 
 ### <a name="procure-products-and-services"></a>Kaupa vörur og þjónustu
 
@@ -229,7 +229,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <tbody>
 <tr class="odd">
 <td>Heildarkostnaður - Raunverulegur</td>
-<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar er ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
+<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Samtala fjárhagsáætlunar - Raunveruleg</td>
@@ -239,9 +239,8 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <li>Bera spárfærslur saman við raunfærslur.</li>
 <li>Viðhalda, minnka eða auka mat fyrir næstu tímabil.</li>
 </ol>
-Finance and Operations minnkar spáð mat ekki sjálfkrafa. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. 
-> [!NOTE]Þegar þessi aðferð er valin skal nota að minnsta kosti tvö spárlíkön. Eitt líkan ætti að innihalda upprunalega spá. Fyrir hitt líkanið ætti að afrita spáfærslurnar úr öðru líkani. Þessi aðferð gildir aðeins fyrir fastverðsverk og fjárfestingarverk.</td>
-> </tr>
+Finance and Operations lækkar ekki sjálfkrafa áætlaðar spár. Því er góð hugmynd að viðhalda upprunalegu spárlíkani á fastverðsverki til að gefa grunnlínu fyrir samanburð þegar verkinu er lokið. &gt; [!NOTE] &gt; Þegar þessi aðferð er valin skal nota að minnsta kosti tvö spárlíkön. Eitt líkan ætti að innihalda upprunalega spá. Fyrir hitt líkanið ætti að afrita spáfærslurnar úr öðru líkani. Þessi aðferð gildir aðeins fyrir fastverðsverk og fjárfestingarverk.</td>
+</tr>
 <tr class="odd">
 <td>Eftirstöðvar fjárhagsáætlunar</td>
 <td>Þessi aðferð notar líkan eftirstöðva fjárhagsáætlunar til að reikna út kostnaðinn við að ljúka verkinu. Þegar þessi aðferð er notuð er raunkostnaður og spáðar upphæðir í líkan eftirstöðva áætlunar lagt saman. Niðurstaðan er heildarkostnaðurinn. Áður en þessi aðferð er notuð, verður að setja upp líkan eftirstöðva fjárhagsáætlunar til að draga frá færslur samkvæmt raunfærslum sem eru skráðar í kerfið. Á síðunni <strong>Spálíkön</strong> þarf að ganga úr skugga um að reitir séu merktir í flokknum <strong>Sjálfvirk lækkun spár</strong>. Yfirleitt eru eftirstöðvar fjárhagsáætlunar afritaðar úr upprunalegri fjárhagsáætlun. Þegar færslur eru færðar inn minnka færslur í eftirstöðvar fjárhagsáætlunar. Eftir því sem verkinu miðar og ef ákvarðað er að leiðrétta þurfi eftirstöðvar fjárhagsáætlunar eru spáfærslur fyrir eftirstöðvar fjárhagsáætlunar gjaldfærðar. <strong>Ábending:</strong> Aðeins er hægt að beyta þessari aðferð ef spárlíkan er fest við matið.</td>
@@ -252,7 +251,7 @@ Finance and Operations minnkar spáð mat ekki sjálfkrafa. Því er góð hugmy
 </tr>
 <tr class="odd">
 <td>Setja kostnað við að ljúka á núll</td>
-<td>Venjulega er þessi aðferð er notuð áður en matsverk er losað. Þessi aðferð samsvarar heildarmati með eiginlegar færslur sem voru bókaðar og hreinsar dálkinn <strong>Kostnaður við að ljúka</strong>. Hlutfall lokunar er alltaf 100 prósent. Reiturinn <strong>Spá</strong> er ekki valinn fyrir hverja kostnaðarlínu sem er stofnuð og heildarmatið er afritað úr fyrra kostnaðarmati. Raunnotkun matstímabilsins er dregin frá kostnaðinum við að ljúka verkinu. Þessi aðferð krefst ekki spálíkans.</td>
+<td>Venjulega er þessi aðferð er notuð áður en matsverk er losað. Þessi aðferð samsvarar heildarmati með eiginlegar færslur sem voru bókaðar og hreinsar dálkinn <strong>Kostnaður við að ljúka</strong>. Hlutfall lokunar er alltaf 100 prósent. Reiturinn <strong>Spá</strong> er ekki valinn fyrir hverja kostnaðarlínu sem er stofnuð og heildarmatið er afritað úr fyrra kostnaðarmati. Raunnotkun matstímabilsins er dregin frá kostnaðinum við að ljúka verkinu. Þessi aðferð krefst ekki spárlíkans.</td>
 </tr>
 <tr class="even">
 <td>Úr kostnaðarsniðmátinu</td>

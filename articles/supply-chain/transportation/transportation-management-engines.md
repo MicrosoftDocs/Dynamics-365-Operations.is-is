@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun. 
 
@@ -47,7 +46,7 @@ Eftirfarandi tafla sýnir flutningsstjórnunarvélar sem eru tiltækar í Micros
 | **Svæðisvél**                  | Reiknar út svæði byggt á gildandi aðseturs og reiknar út fjölda staði sem krossa verður við fyrir ferðir frá aðsetur A til aðsetur B.                                                                                                                                                                    |
 | **Gerð farmbréfs**            | Staðlar farmreikning og línur farmbréfs og er notað fyrir sjálfvirka samsvörun farmbréfs.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Hvað véla verður að vera skilgreind til að meta sendingu?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 -   Einföld grunnstillingargögn
 
 Í flestum tilvikum getur þú smellt á hnappinn **Færibreytur** í uppsetningarskjámyndum vélar flutningsstjórnunar til að skilgreina frumstillingargögn. **Dæmi um uppsetningu á taxtavél sem vísar til kílómetravélina** Eftirfarandi dæmi sýnir uppsetningu sem krafist er fyrir taxtavél sem byggir á .NET vélargerðin Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine og vísar í akstursvél.
-| Færibreyta             | Lýsing                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan færibreytugildis samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttu striki (|). Fyrsti hluti inniheldur samsetningarinnar sem skilgreinir þá gerð assigner. Annar hlutinn skilgreinir fullgilda heiti assigner gerð. Þar á meðal nafnabil af gerðinni. |
-| *MileageEngineCode*   | Farmreiknivélakóði sem auðkennir skráningu farmvélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Almennur hreyfilkóði sem auðkennir skráningu kostnaðarskiptingavélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
- 
+|          Færibreyta           |                                                                                  Lýsing                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan færibreytugildis samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttu striki ( |
+|  <em>MileageEngineCode</em>  |                       Farmreiknivélakóði sem auðkennir skráningu farmvélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                        |
+| <em>ApportionmentEngine</em> |                        Almennur hreyfilkóði sem auðkennir skráningu kostnaðarskiptingavélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Gögnum sem eru notuð við útreikning vaxta í Microsoft Dynamics 365 for Fina
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Krefjast allar vélaskilgreiningar lýsigagna?
 Nei, flutningsstjórnunarvélar sem eru notaðar til að sækja gögn sem krafist er fyrir taxtaútreikning frá utanaðkomandi kerfum þurfa ekki lýsigögn. Hægt að endurheimta gögnin taxta fyrir þessar véla úr ytri flutningsstöðu flutningsaðila kerfum, vanalega í gegnum vefþjónustu. Til dæmis er hægt að nota akstursvél sem sækir gögn beint úr Bing-kortum þannig að þarf ekki að lýsigögn fyrir þessa vél.
+
 | **Ábending**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Flutningsstjórnunarvélar sem eru afhentar með Finance and Operations reiða sig á gögn sem eru sótt úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |

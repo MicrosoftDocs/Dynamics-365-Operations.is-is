@@ -1,9 +1,9 @@
 ---
-title: "Áætlun bókhaldslykila"
-description: "Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt."
+title: "Yfirlit yfir bókhaldslykil"
+description: "Þessi efnisatriði veita upplýsingar sem hjálpa til við að áætla bókhaldslykla fyrir fyrirtækið."
 author: aprilolson
 manager: AnnBe
-ms.date: 01/04/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,46 +19,46 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
-ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
 ms.contentlocale: is-is
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Áætlun bókhaldslykila
+# <a name="plan-your-chart-of-accounts"></a>Yfirlit yfir bókhaldslykil
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Þetta efnisatriði veitir upplýsingar sem hjálpa til við að áætla bókhaldslykla fyrir fyrirtækið.
 
-Þessi skrá upplýsingar sem hjálpa þér áætla bókhaldslykla fyrir fyrirtæki þitt.
+Til að rekja og vinna með fjárhagslegar upplýsingar í fyrirtæki er hægt að setja upp bókhaldslykil bókhaldslykil er safn af lyklum sem skilgreina fjárhagsramma. Til að rekja enn frekar færslurnar í þessum lyklum er hægt að bæta við hluta. Þessir hlutar eru þekktir sem fjárhagsvíddir. Til dæmis gæti kostnaðarlykil hafa fjárhagsvíddir með heitinu Deild, kostnaðarstað og tilgang. Notandaskilgreindar reglur ákvarða hvernig þessar fjárhagsvíddir eru tengdar við aðallykla og aðrar fjárhagsvíddir og hvernig hægt að færa inn færslur. Þessar notandaskilgreindu reglur eru þekktar sem lykilskipulag og ítarlegar reglur.
 
-Til að rekja og vinna með fjárhagslegar upplýsingar í fyrirtæki er hægt að setja upp bókhaldslykil bókhaldslykil er safn af lyklum sem skilgreina fjárhagsramma. Til að rekja frekar færslurnar í þessara lykla er hlutum, sem kallast fjárhagsvíddir, bætt við aðallyklana. Til dæmis gæti kostnaðarlykil hafa fjárhagsvíddir með heitinu Deild, kostnaðarstað og tilgang. Notandaskilgreind reglur, sem kallast ítarlegar reglur, ákvarða hvernig þessar fjárhagsvíddir eru tengdar við aðallykla og aðrar fjárhagsvíddir og hvernig hægt að færa inn færslur saman. 
+Bókhaldslykillinn er skipulagður listi yfir fjárhagslykla lögaðila. Listinn er notaður til að útbúa fjárhagsskýrslur fyrir yfirvöld og eigendur. Lyklarnir eru fyrst flokkaðir eftir gerðum þeirra og síðan lagðir saman í stærri tegundir. Á almennasta stiginu eru lyklar flokkaðir sem tekjur og kostnaður (rekstrarlykill) og eignir og skuldbindingar (stöðulykill).
 
-Bókhaldslykillinn er skipulagður listi yfir fjárhagslykla lögaðila. Listinn er notaður til að útbúa fjárhagsskýrslur fyrir yfirvöld og eigendur. Lyklarnir eru flokkaðir eftir gerðum og síðan lagðir saman í stærri tegundir. Á almennasta stiginu eru lyklar flokkaðir sem tekjur og kostnaður (rekstrarlykill) og eignir og skuldbindingar (stöðulykill). 
-
-Bókhaldslykla getur verið samnýtt og notuð af hvaða lögaðila sem er í fyrirtæki. Bókhaldslyklar sem eru notaðir hjá lögaðila eru skilgreindir á síðunni **Fjárhagur**. 
+Bókhaldslykla getur verið samnýtt og notuð af hvaða lögaðila sem er í fyrirtæki. Bókhaldslyklar sem eru notaðir hjá lögaðila eru skilgreindir á síðunni **Fjárhagur**.
 
 Nokkra þætti þarf að hafa í huga þegar skipulag bókhaldslykla er ákveðið fyrir fyrirtækið, þar á meðal:
 
--   skýrslukrafa lands/svæðis þar sem fyrirtæki þitt er staðsett.
--   Tilkynningarskyldur við lögaðila
--   Sérhæfingarstig sem þörf er á, bæði fyrir ytri fyrirtæki og þitt fyrirtæki.
+- Skýrslukrafa lands eða svæðis þar sem fyrirtæki þitt er staðsett
+- Tilkynningarskyldur við lögaðila
+- Sérhæfingarstig sem þörf er á, bæði fyrir ytri fyrirtæki og þitt fyrirtæki.
 
-Stofnaðu bókhaldslykil í **Bókhaldslykill** síðu. Hægt er að stofna aðallykla úr  **Bókhaldslykil** síðu eða **aðallykla** síðu. aðallyklar þínir ættu ekki að nota sérstaka stafi sem eru notaðar sem skiltákn bókhaldslykils. Ef sérstaf er hjá þér sem er sú sama og við skiltákn bókhaldslykils, gæti orðið óstöðugleiki, eða þörf á til að nota alltaf uppflettingar eða hliðarglugga þegar verið er að færa inn reikning eða samsetningar víddar. Nánari upplýsingar sjá [Stofna aðallykil](tasks/create-main-account.md).
+Þú stofnar bókhaldslykil á síðunni **Bókhaldslykill**. Þú getur búið til aðallykla á síðunni **Bókhaldslykill** eða á síðunni **Aðallyklar**. Aðallyklar þínir ættu ekki að nota sérstafi sem eru notaðar sem skiltákn bókhaldslykils. Annars gætir þú fundið fyrir óstöðugleika, eða þú gætir þurft að nota uppflettingar eða svarglugga þegar þú slærð inn samsetningar lykla og vídda. Nánari upplýsingar sjá [Stofna aðallykil](tasks/create-main-account.md).
 
+> [!NOTE]
+> Í Microsoft Dynamics for Finance and Operations útgáfu 8.0 (apríl 2018) er hægt að breyta skiltákni bókhaldslykils á síðunni **Færibreytur fjárhags**.
 
-Það er góð hugmynd að tengja við aðallykla tegundir aðallykils þannig er hægt nýta sjálfgefna fjárhagsskýrslur án þess að þurfa að gera neinar breytingar. Þess vegna er hægt að hanna og viðhalda skýrslur á fljótari og auðveldari hátt. 
+Það er góð hugmynd að tengja við aðallykla tegundir aðallykils þannig er hægt nýta sjálfgefna fjárhagsskýrslur án þess að þurfa að gera neinar breytingar. Þess vegna er hægt að hanna og viðhalda skýrslur á fljótari og auðveldari hátt.
 
-Notið síðunni **Skilgreina lykilskipulag** til að skilgreina lykilskipulag. Lykilskipulag tilgreina gildar samsetningar. Samsetningar með aðallykla, skjámyndinni bókhaldslykla.  Nánari upplýsingar sjá [Stofna lykilsskipulag](tasks/create-account-structures.md).
+Þú stofnar lykilskipulag á síðunni **Skilgreina lykilskipulag**. Lykilskipulag tilgreina gildar samsetningar. Þessar samsetningar, ásamt aðallyklum, mynda bókhaldslykla. Nánari upplýsingar sjá [Stofna lykilsskipulag](tasks/create-account-structures.md).
 
-**Lögaðili hnekkir** 
+**Lögaðili hnekkir**
 
-Ekki eru allir aðallyklar gildir fyrir alla lögaðila og sumir kunna aðeins að eiga við um ákveðið tímabil. Í þessum aðstæðum Lögaðili hnekkir getur verið notað til að auðkenna hvaða fyrirtæki ætti ekki að nota aðallykil fyrir, hver er eigandi og tímabilið sem víddin er virk. Hnekkingar á samnýttu stigi má ekki vera meira takmarkandi en hnekking á stigi lögaðila.
+Ekki eru allir aðallyklar gildir fyrir alla lögaðila og sumir aðallyklar kunna aðeins að eiga við um ákveðið tímabil. Í þessari atburðarás getur þú notað kaflann **Hnekkingar lögaðila** til að bera kennsl á fyrirtækin sem aðallykillinn ætti að vera lokaður fyrir, eigandinn og tímabilið þegar víddin er virk. Hnekkingar á samnýttu stigi mega ekki vera meira takmarkandi en hnekkingar á stigi lögaðila.
 
-Nánari upplýsingar eru í eftirfarandi efnisatriðum: [Fjárhagsvíddir](financial-dimensions.md)
-[Stofna og úthluta skipulagi um ítarlegar reglur](tasks/create-assign-advanced-rule-structures.md)
+Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
-
-
+- [Fjárhagsvíddir](financial-dimensions.md)
+- [Stofna og úthluta ítarlegu regluskipulagi](tasks/create-assign-advanced-rule-structures.md)
 

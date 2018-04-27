@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Laun byggð á skráningum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir ítarlega hvernig laun eru reiknuð út frá starfsmannaskráningum. Það felur í sér dæmi sem sýna hvernig hinar ýmsu samsetningar á möguleikum uppsetningar sem eru tiltækar fyrir útreikninginn hafa áhrif á niðurstöðuna. Hér eru nokkur af þeim sviðum sem verður farið yfir:
 
@@ -446,7 +446,7 @@ Fjarvistarkóði er notaður til að skrá fjarvistartímabil starfsmanns. Eins 
 Verkið byggist á fyrirspurn. Þess vegna getur þú búið til áætlaða fjarvist fyrir marga starfsmenn, t.d. starfsmenn sem tilheyra sama reikniflokknum. Ef áætluð fjarvist er fyrir einn starfsmann getur skráningin verið slegin inn annaðhvort á síðunni **Viðvera** eða á síðunni **Tímaskráning starfsmanna**.
 
 - Til að slá inn fjarvistarskráningu á síðunni **Viðvera** skaltu velja **Tími og viðvera** &gt; **Fyrirspurnir og skýrslur** &gt; **Viðvera** &gt; **Viðvera** og velja síðan **Fjarvistaskráning**.
-- Til að slá inn fjarvistarskráningu á síðunni ****Tímaskráning starfsmanna**** skal velja **Tími og viðvera** &gt; **Uppsetning** &gt; **Tímaskráning starfsmanna** og síðan á flipanum **Tími**, undir **Tímaúthlutun** skal velja **Fjarvistaskráningar**.
+- Til að slá inn fjarvistarskráningu á síðunni *<strong><em>Tímaskráning starfskrafta</em></strong>* skal velja <strong>Tími og viðvera</strong> &gt; <strong>Uppsetning</strong> &gt; <strong>Tímaskráning starfskrafta</strong> og síðan á flipanum <strong>Tími</strong>, undir <strong>Tímaúthlutun</strong> skal velja <strong>Fjarvistaskráningar</strong>.
 
 Þú getur notað skýrsluna **Áætlaðar fjarvistir** til að sjá yfirlit yfir áætlaðar fjarvistir starfsmanna. Til að opna þessa skýrslu skal velja **Tími og viðvera** &gt; **Fyrirspurnir og skýrslur** &gt; **Fjarvistaskýrslur** &gt; **Áætlaðar fjarvistir**.
 

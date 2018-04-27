@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Reglur vöruhúsavinnu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Reglur vöruhúsavinnu í Microsoft Dynamics 365 for Finance and Operations stjórna hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðslu, samkvæmt gerð vinnupöntunar, birgðastaðsetningu og vöru.
 
@@ -68,14 +67,15 @@ Velja má á vöru sem reglan vinna á við um. Hægt er að nota regluna vinnu 
 
 Hér er dæmi um vinnu regluna sem hægt er að setja upp, byggðar á þessum atriðum.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Heiti vinnureglu**<br>                 |**Gerðir vinnupöntunar**<br>                               |
-| Enginn frágangur 01                         |- Frágangur á fullunnum vörum<br>                           |
-|                                         |**Staðsetningar**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Afurðir** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Heiti vinnureglu</strong><br> | <strong>Gerðir vinnupöntunar</strong><br> |
+|         Enginn frágangur 01               |     - Frágangur á fullunnum vörum<br>      |
+|                                       |    <strong>Staðsetningar</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Afurðir</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Eftirfarandi ferli lýsa nákvæmar leiðbeiningar um hvernig setja á upp reglu vinnu vöruhús fyrir þetta dæmi. Sýnishorn uppsetningar sýnir hvernig tilkynnt framleiðslupöntun sem lokið á staðsetningu sem er ekki númeraplötustýrð eru einnig lýst.
 
@@ -126,27 +126,27 @@ SKREF (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Á listanum, veljið tilfangaflokk 5102</td>
+<td>Í listanum skal velja tilfangaflokkinn 5102.</td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td>Smella á Breyta.</td>
+<td>Smellið á „Breyta“.</td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td>Í úttaksvöruhús svæðinu veljið 51.</td>
+<td>Í reit úttaksvöruhúss skal slá inn 51.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Í staðsetning úttaks svæðinu sláið inn 001.</td>
+<td>Í reit úttaksstaðsetningu skal slá inn 001.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Staðsetning 001 ekki númeraplötustýrð staðsetningu. Hægt er að setja upp staðsetningu úttaks ekki númeraplötu aðeins ef gildandi vinnureglu er til fyrir staðsetningarinnar.</td>
+<td>Staðsetning 001 er ekki númeraplötustýrð staðsetning. Hægt er að setja upp staðsetningu úttaks ekki númeraplötu aðeins ef gildandi vinnureglu er til fyrir staðsetningarinnar.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Undirverk: Stofna framleiðslupöntun og skrá sem lokið.</strong></td>
@@ -169,17 +169,17 @@ SKREF (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Í vörunúmer svæðið sláið inn L0101.</td>
+<td>Í reit vörunúmers skal slá inn L0101.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Smellið á Stofna.</td>
+<td>Smellið á „Stofna“.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Á Aðgerðasvæðinu skal smellt á framleiðslupöntun.</td>
+<td>Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.</td>
 </tr>
 <tr>
 <td></td>
@@ -199,27 +199,27 @@ SKREF (25)
 <tr>
 <td></td>
 <td>10.</td>
-<td>Smellt er á flipannAlmennt.</td>
+<td>Smellið á flipann „Almennt“.</td>
 </tr>
 <tr>
 <td></td>
 <td>11.</td>
-<td>Veljið ‚Aldrei‘ í reitnum Sjálfvirk uppskriftarnotkun.</td>
+<td>Í reit sjálfvirkrar uppskriftarnotkun skal velja „Aldrei“.</td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td>Smellt er á Í lagi.</td>
+<td>Smellið á „Í lagi“.</td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td>Smellið á Bóka sem tilbúið.</td>
+<td>Smellið á „Bóka sem tilbúið“.</td>
 </tr>
 <tr>
 <td></td>
 <td>14.</td>
-<td>Smellt er á flipannAlmennt.</td>
+<td>Smellið á flipann „Almennt“.</td>
 </tr>
 <tr>
 <td></td>

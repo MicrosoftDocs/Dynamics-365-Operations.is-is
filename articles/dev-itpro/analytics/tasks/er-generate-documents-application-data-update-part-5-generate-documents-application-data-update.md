@@ -1,5 +1,5 @@
 --- 
-title: "Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð (ER)"
+title: "Búa til skjöl með forritsgögnum"
 description: "Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 4: Breyta sniði)“."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b2844621bf50a385ad1a4770c0df2d97623dc77a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5001adbc1c7fae96e94e7b31a64a5a04ba886dc8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Mynda skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð (ER)
+# <a name="generate-documents-with-application-data"></a>Búa til skjöl með forritsgögnum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 4: Breyta sniði)“.
 
@@ -53,7 +53,7 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 2. Í trénu skal víkka út „Intrastat (líkan)“.
 3. Í trénu skal velja „Intrastat (líkan)\Intrastat (Snið)“.
 4. Smellið á „Keyra“.
-5. Í reitinn Færið inn skráarheiti skal rita „intrastat3.xml“.
+5. Í reitinn Færið inn skráarheiti skal rita „intrastat2.xml“.
     * intrastat2.xml  
 6. Smellið á „Í lagi“.
 

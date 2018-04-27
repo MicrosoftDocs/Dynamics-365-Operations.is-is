@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð.
 
@@ -58,8 +57,8 @@ Afbrigðalíkön afurða eru stofnuð til að tákna almenna vöruuppbyggingu. �
 <td>Eigindir lýsa öllum eiginleikum afbrigðalíkans afurðar. Hægt er að nota eigindir til að tilgreina eiginleikana sem hægt er að velja þegar einkvæm afurð er skilgreind. Eigindir eru notaðar í skorðum og skilyrðum. Þegar eigindir eru stofnaðar og þeim bætt við afbrigðalíkan afurðar verður vísað í tengdar eigindagerðir. Hægt er að velja sjálfgildi fyrir eigind. Sjálfgefið gildi er notað í notandaviðmóti skilgreiningar þegar afbrigðalíkan afurðar er skilgreint. Hægt að tilgreina að eigind sé áskilin, ritvarin eða falin.
 <ul>
 <li><strong>Áskilin </strong> – Velja verður gildi fyrir eigindina þegar varan er skilgreind.</li>
-<li><strong>Skrifvarin </strong> – Eigindargildið er birt í skilgreinarlotu, en ekki er hægt að breyta því.</li>
-<li><strong>Falið </strong> – Eigindargildið er innifalið í skorðum og skilyrðum, en er ekki birt í skilgreinarlotu.</li>
+<li><strong>Skrifvarin</strong> – Eigindargildið er birt í skilgreiningarlotu, en ekki er hægt að breyta því.</li>
+<li><strong>Falið</strong> – Eigindargildið er innifalið í skorðum og skilyrðum, en er ekki birt í skilgreiningarlotu.</li>
 </ul>
 Einnig er hægt að tilgreina skilyrði fyrir eigindir. Ef skilyrðið er uppfyllt verður að færa inn gildi fyrir áskildu eigindina. Skilyrði eru segðir sem þarf að fullnægja fyrir eigindir, uppskriftarlínur og leiðaaðgerðir sem taka á með í afbrigðalíkani afurðar. Allar eigindir sem vísað er til í skilyrði verða áskildar. Ráðlagt er að velja eigind sem áskilda á flipanum <strong>Eigindir</strong>. Þetta getur auðveldað að auðkenna áskilda eiginleika. Eigindagildi eru mikilvægur þáttur í endurnýtingu afbrigða. Kerfið notar eigindagildi til að ákvarða hvort til sé skilgreining sem samsvarar valinu sem notandi gerði við skilgreiningarlotu.</td>
 </tr>
@@ -78,7 +77,7 @@ Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með svi�
 <td>Takmarkanir</td>
 <td>Skorður lýsa takmörkunum á skilgreiningu framleiðslulíkans. Skorður eru notaðar til þess að tryggja að aðeins gild gildi séu valinn þegar afurð er sett upp. Skorður geta annað hvort verið segðarskorður eða töfluskorður:
 <ul>
-<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins. Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða efnistengla um segðaskorður og töfluskorður.</li>
+<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorður fyrir íhlut geta vísað til eiginleika undiríhluta íhlutarins. Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða efnistengla um segðaskorður og töfluskorður.</li>
 <li>Skilgreina verður töfluskorðum áður en hægt er að nota þær á íhlut í afbrigðalíkani afurðar. Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar. Notandaskilgreind töfluskorða er gerð fylkis sem má nota til að lýsa samstæðu samsetninga fyrir eigindagildin sem eru skilgreind í eigindagerðum. Ef hátalarar eru t.d. framleidd gæti fylki fyrir notendaskilgreindrar töfluskorðu haft dálka fyrir áferð og grill.</li>
 </ul>
 <strong>Dæmi</strong> Hátalarar eru tiltækar í fjórum áferðum: Svart, eik, rósarviður og Hvítum. Hátalarar getur haft eina af þremur framgrillum: Svartur, Málmi eða Hvítum. Svart áferð er tiltækur fyrir öll grill en aðrar áferðir takmarkast við tiltekin grill. Eftirfarandi tafla sýnir dæmi um upplýsingar sem birtast í <strong>Leyfðar samsetningar</strong> flipanum á <strong>Breyta töfluskorðu</strong> síðunni.

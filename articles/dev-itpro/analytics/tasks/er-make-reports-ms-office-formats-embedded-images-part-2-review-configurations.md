@@ -1,5 +1,5 @@
 --- 
-title: "Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (ER)"
+title: "Fara yfir grunnstillingar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum"
 description: "Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Rafræn skýrslugerð í MS Office sniði með ívafnar myndir (Hluti 1: Setja upp færibreytur)“."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dcc162a4c0ba81079eefb7564ab037c1287acd92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (ER)
+# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Fara yfir grunnstillingar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Rafræn skýrslugerð í MS Office sniði með ívafnar myndir (Hluti 1: Setja upp færibreytur)“.
 

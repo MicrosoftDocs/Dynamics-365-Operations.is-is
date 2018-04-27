@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum. 
 
@@ -204,23 +203,24 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 
 Dæmi í næstu töflu sýna hvernig á að skrifa infix-tákn.
 
-| Infix merki    | lýsing                                                                                   |
+
+|  Infix merki   |                                          lýsing                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | samlagning                                                                                      |
-| x \* y \* z       | Margföldun                                                                                |
-| x - y             | Frádráttur tvíundakerfis er umreiknaður eins og viðbót tvíundakerfis þar sem er neitaða aðra. |
-| x ^ y ^ z         | Veldi sem hefur hægri tengslavirkni                                                   |
-| !x                | Boole-ekki                                                                                   |
-| x -: y            | Boole-leiðing                                                                           |
-| x | y | z         | Boole- eða                                                                                    |
-| x & y & z         | Boole- og                                                                                   |
-| x == y == z       | Jafngildi                                                                                      |
-| x != y != z       | Ákveðið                                                                                      |
-| x &lt; y &lt; z   | Minna en                                                                                     |
-| x &gt; y &gt; z   | Stærra en                                                                                  |
-| x &lt;= y &lt;= z | Minna en eða jafnt og                                                                         |
-| x &gt;= y &gt;= z | Stærra en eða jafnt og                                                                      |
-| (x)               | Svigaar hnekkja sjálfgefinn forgang.                                                      |
+|     x + y + z     |                                           samlagning                                            |
+|    x \* y \* z    |                                        Margföldun                                         |
+|       x - y       | Frádráttur tvíundakerfis er umreiknaður eins og viðbót tvíundakerfis þar sem er neitaða aðra. |
+|     x ^ y ^ z     |                          Veldi sem hefur hægri tengslavirkni                          |
+|        !x         |                                          Boole-ekki                                          |
+|      x -: y       |                                      Boole-leiðing                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Boole- og                                          |
+|    x == y == z    |                                           Jafngildi                                            |
+|    x != y != z    |                                           Ákveðið                                            |
+|  x &lt; y &lt; z  |                                           Minna en                                           |
+|  x &gt; y &gt; z  |                                         Stærra en                                          |
+| x &lt;= y &lt;= z |                                     Minna en eða jafnt og                                     |
+| x &gt;= y &gt;= z |                                   Stærra en eða jafnt og                                    |
+|        (x)        |                           Svigaar hnekkja sjálfgefinn forgang.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Af hverju eru mínar segðaskorður ekki sannprófaðar rétt?
 Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða undiríhlutir í afbrigðalíkani afurðar. Hér er listi yfir frátekin lykilorð sem ekki er hægt að nota:

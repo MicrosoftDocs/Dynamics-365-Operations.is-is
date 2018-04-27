@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa56911c19e9b6514829084221ba03c7cd421c92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-returns"></a>Vöruskil sölu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 
@@ -134,7 +133,7 @@ Auk þess að ákvarða hvernig skilaðar vörur eru seldar geta ráðstöfunark
 <ul>
 <li>Nægilegt traust er á milli aðila.</li>
 <li>Kostnaður skila á gölluðum vörum er hindrandi.</li>
-<li>Ekki er hægt að leyfa vörur aftur í birgðir. Vegna annarra skilyrða eru efnislega skil ekki áskilin.</li>
+<li>Ekki er hægt að leyfa vörur aftur í birgðir. Vegna annarra skilyrða er ekki krafist efnislegra skila.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -311,7 +310,7 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 ![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun ](./media/SalesReturn11.png)  
 
-**Athugasemd:****Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
+**Athugasemd:** **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
 
 
 

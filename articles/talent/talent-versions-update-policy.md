@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 954f6237739defe14aaa13b19641f9f9d27b5fac
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Microsoft Dynamics 365 for Talent kerfiskröfur og uppfærsluregla
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði inniheldur lista yfir kröfur Microsoft Dynamics 365 for Talent. Þar er uppfærslustefnuna einnig að finna.
 
@@ -47,21 +46,21 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 > * Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word skjöl, verður að hafa viðauka við Króm uppsett. 
 > * Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
 > * Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
-Netþarfir
-> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent. Mælt er með er prófað biðtíma á netinu á [www.azurespeed.com] (http://www.azurespeed.com "Azure biðtímapróf").
+>   Netþarfir
+> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent. Mælt er með því að prófa biðtíma á netinu á [www.azurespeed.com](http://www.azurespeed.com "Azure biðtímapróf").
 > * Bandvíddarþarfir fyrir Dynamics 365 for Talent fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
-
+> 
 > [!WARNING]
 > Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Dynamics 365 for Talent fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
 
 ## <a name="supported-microsoft-office-applications"></a>Studd forrit Microsoft Office
 
-*   Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Frekari upplýsingar um þarfir útgáfu er hægt að finna á [Office samþættingu úrræðaleit] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office samþættingu úrræðaleit").
-*   Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.
+* Til að nota Office-innbætur fyrir Microsoft Excel og Word verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Frekari upplýsingar um kröfur útgáfu er hægt að finna á [Úrræðaleit Office samþættingar](../dev-itpro/office-integration/office-integration-troubleshooting.md "Úrræðaleit Office samþættingar").
+* Til að skoða skjöl sem eru myndaðar Út í Excel- eða Útflutnings í Word virkni, sem verður að hafa Microsoft Office 2007 eða sett upp síðar.
 
 ## <a name="update-policy"></a>Uppfæra stefnu
 
 Microsoft Dynamics 365 for Talent er þjónustað sem ský vara. Uppfærslur fyrir Dynamics 365 for Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.
 
-Uppfærslur eru gefnar út með reglubundnum hætti, uppfærslur eru gerðar fyrir allt umhverfi.  Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
+Uppfærslur eru gefnar út með reglubundnum hætti, uppfærslur eru gerðar fyrir allt umhverfi.  Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
 

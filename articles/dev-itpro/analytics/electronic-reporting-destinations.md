@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
 ms.contentlocale: is-is
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>Viðtökustaður rafrænnar skýrslugerðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafrænnar skýrslugerðar (ER) og íhlut úttaks þess (möppu eða í skrá). Notendur sem fá viðeigandi aðgangsheimildir geta einnig breytt stillingar fyrir áfangastað á keyrslutíma. Þessi skrá útskýrir áfangastaðastjórnun rafrænnar skýrslugerðar, gerðir áfangastaða sem eru studdar, og öryggisatriði.
 
@@ -71,7 +70,7 @@ Setja **Virkt** til **Já** til að senda frálagsskrá með tölvupósti. Eftir
 
 #### <a name="print-management"></a>Prentstýring
 
-Ef valið er **Prentstýring tölvupóstur** gerð, geturðu fært inn fast netfang í **Til** svæði. Til að nota tölvupóstföng sem eru ekki föst, verður að velja upprunagerð tölvupósts fyrir áfangastað skrár. Eftirfarandi virði eru studd: **Viðskiptavinur**, **Lánardrottinn**, **Viðfang**, **Tengiliður**, **Samkeppnisaðili**, **Starfskraftur**, **Umsækjandi**, **Væntanlegur lánardrottinn**, og **Lánardrottinn án leyfis**. Eftir að þú velur gerð tölvupóstuppruna skal nota hnappinn áfram í **Upprunareikningur tölvupósts** svæði til að opna **Formúluhönnuður**skjámynd. Hægt er að nota þessa skjámynd til að festa formúla sem stendur fyrir valinn aðilalykil í áfangastað tölvupósts.
+Ef valið er **Prentstýring tölvupóstur** gerð, geturðu fært inn fast netfang í **Til** svæði. Til að nota tölvupóstföng sem eru ekki föst, verður að velja upprunagerð tölvupósts fyrir áfangastað skrár. Eftirfarandi virði eru studd: **Viðskiptavinur**, **Lánardrottinn**, **Viðfang**, **Tengiliður**, **Samkeppnisaðili**, **Starfskraftur**, **Umsækjandi**, **Væntanlegur lánardrottinn**, og **Lánardrottinn án leyfis**. Eftir að upprunagerð tölvupósts er valin skal nota næsta hnapp við reitinn **Upprunareikningur tölvupósts** til að opna skjámyndina **Formúluhönnuður**. Hægt er að nota þessa skjámynd til að festa formúla sem stendur fyrir valinn aðilalykil í áfangastað tölvupósts.
 
 [![Grunnstilla Tölvupóstur vegna prentstýringar](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 

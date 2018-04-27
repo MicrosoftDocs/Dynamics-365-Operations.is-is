@@ -1,5 +1,5 @@
 --- 
-title: "Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (ER)"
+title: "Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: a5fa6fb07fb2ba08812826acba748b38738bb468
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
 ms.contentlocale: is-is
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu í rafrænni skýrslugerð (ER)
+# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur. Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.
 

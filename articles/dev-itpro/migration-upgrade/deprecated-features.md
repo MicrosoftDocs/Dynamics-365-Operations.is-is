@@ -3,7 +3,7 @@ title: "Úreltir eiginleikar"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða úreltir fyrir Dynamics 365 for Finance and Operations.
 
@@ -37,7 +37,10 @@ ms.lasthandoff: 03/26/2018
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!Note]
-> Frá og með útgáfu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition júlí 2017 með verkvangsuppfærslu 8, eru gerðir dreifinga merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
+> Frá og með útgáfu Microsoft Dynamics 365 for Finance and Operations, júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 með verkvangsuppfærslu 15
+Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu. Verkvangsuppfærsla 15 er uppsöfnuð og inniheldur nýja eða breytta eiginleika frá verkvangsuppfærslu 13, verkvangsuppfærslu 14 og verkvangsuppfærslu 15.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12
 
@@ -96,7 +99,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 | **Skipt út fyrir aðra eiginleika?**   | Nýja notendaviðmótið, sem kallast *Aukið yfirlit*, kemur í stað gamla notendaviðmótsins.            |
 | **Afurðasvæði sem haft er áhrif á**         | Vinnusvæði gagnastjórnunar                                                     |
 | **Dreifingarvalkostur**              | Allir                                                                           |
-| **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q1 2018. |
+| **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018. |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>Vörugjald, Virðisaukaskattur, Þjónustuskattur fyrir Indland
 
@@ -1033,10 +1036,11 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 
 ### <a name="x-financial-statements"></a>X++ fjárhagsskýrslur
 
-|   |  |
-|------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                                    |
-| **Skipt út fyrir aðra eiginleika?**   | Management Reporter (merktur **fjárhagsskýrslugerð** í þessari útgáfu af Dynamics AX) |
-| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur                                                                              |
-| **Staða**                         | Fjarlægt frá og með Dynamics AX 2012                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Ástæða úreldingar/fjarlægingar</strong> |                         Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                         |
+|  <strong>Skipt út fyrir aðra eiginleika?</strong>  | Management Reporter (merktur <strong>fjárhagsskýrslugerð</strong> í þessari útgáfu af Dynamics AX) |
+|     <strong>Afurðasvæði sem haft er áhrif á</strong>     |                                              Fjárhagur                                              |
+|             <strong>Staða</strong>             |                                      Fjarlægt frá og með Dynamics AX 2012                                      |
+
 

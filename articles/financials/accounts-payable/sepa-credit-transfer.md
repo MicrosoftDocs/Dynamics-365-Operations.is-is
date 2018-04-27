@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna.
 
@@ -93,7 +92,7 @@ Listi yfir sérstakar færibreytur fer eftir kreditfærslusniði. Eftirfarandi t
 <td>Snið</td>
 <td>Veljið snið fyrir greiðsluupplýsingar eftir þörfum bankans eða landi/svæði:
 <ul>
-<li><strong>Strd</strong> – Veljið þennan valkost til að nota skipulegt snið þegar ein greiðslulína er jöfnuð við reikning. Þessi valkostur er ekki tiltækur fyrir tiltekin lands-/svæðissértæk útflutningssnið fyrir Frakkland, Þýskalandi eða Holland.</li>
+<li><strong>Strd</strong> – Veljið þennan valkost til að nota skipulegt snið þegar ein greiðslulína er jöfnuð við reikning. Þessi valkostur er ekki í boði fyrir lands-/svæðissértæk útflutningssnið fyrir Frakkland, Þýskaland eða Holland.</li>
 <li><strong>Ustrd</strong> – Veljið þennan valkost til að nota óskipulegt snið þegar greiðslan er jöfnuð við marga reikninga. Reikningsnúmer fyrir jafnaða reikninga eru tengd saman og notuð sem greiðsluupplýsingar. Samkvæmt ISO 20022 leiðbeiningum takmarkast óskilpulegar greiðsluupplýsingar við 140 stafi.</li>
 </ul></td>
 </tr>

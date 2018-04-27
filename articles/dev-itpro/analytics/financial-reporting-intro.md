@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
 ms.contentlocale: is-is
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Fjárhagsskýrslur for Finance and Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
 
@@ -87,7 +86,7 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 <td>Gagnvirk skoðun skýrslna</td>
 <td>Gagnvirkir eiginleikar leyfa þér að framkvæma eftirfarandi verk:
 <ul>
-<li>Breyta dagsetningu skýrslunnar sem verið er að skoða.</li>
+<li>Breyta dagsetningu skýrslu fyrir skýrsluna sem verið er að skoða.</li>
 <li>Breyta gjaldmiðli skýrslunnar sem verið er að skoða.</li>
 <li>Skoða skýrsluna í yfirlit samantekt eða nákvæmar skoða.</li>
 <li>Bæta vídd síur til að takmarka innihald skýrslunnar á tiltekinni vídd eða samsetning vídda.</li>

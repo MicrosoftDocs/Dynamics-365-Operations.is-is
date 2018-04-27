@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar "samsvarar" virknitákn í svarglugganum Ítarleg sía/röðun.
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>frá-gildi</em>..<em>til- gildi</em> (tvöfaldur punktur)</td>
 <td>Á milli tveggja gilda sem eru inn aðskilin með tveimur punktum.</td>
 <td>Færa inn Frá gildið, færa svo inn tvo punkta og síðan Til gildið.</td>
-<td><strong>1..10</strong> finnur öll gildi frá 1 til og með 10. Á strengjasvæði finnur <strong>A..C</strong> aftur á móti öll gildi sem byrja á &quot;A&quot; og &quot;B&quot;, og gildi sem eru alveg jöfn &quot;C&quot;. Til dæmis finnur þessi fyrirspurn ekki &quot;Ca&quot;. Til að finna öll gildi frá  &quot;A*&quot; til &quot;C*&quot;, færðu inn <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> finnur öll gildi frá 1 til og með 10. Á strengjasvæði finnur <strong>A..C</strong> aftur á móti öll gildi sem byrja á &quot;A&quot; og &quot;B&quot;, og gildi sem eru alveg jöfn &quot;C&quot;. Þessi fyrirspurn finnur t.d. ekki &quot;Ca&quot;. Til að finna öll gildi frá  &quot;A<em>&quot; til &quot;C</em>&quot;, færðu inn <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>gildi</em> (tvöfaldur punktur)</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>gildi</em>* (stjarna)</td>
 <td>Byrjar frá gildið sem fært er inn.</td>
-<td>Færa inn upphafsgildið og síðan stjörnuna (<strong>*</strong>)</td>
-<td><strong>S*</strong> finnur alla strengi sem byrja á &quot;S&quot;, eins og &quot;Stokkhólmur&quot;, &quot;Sydney&quot; og &quot;San Francisco&quot;.</td>
+<td>Færðu inn upphafsgildið og síðan stjörnu (<strong><em></strong>).</td>
+<td><strong>S</em></strong> finnur alla strengi sem byrja á &quot;S&quot;, t.d. &quot;Stokkhólmur&quot;, &quot;Sydney&quot; og &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>gildi</em> (stjarna)</td>
+<td><em><em>gildi</em> (stjarna)</td>
 <td>Endar á gildið sem fært er inn.</td>
 <td>Færa inn stjörnu og síðan endagildið.</td>
-<td><strong>*austur</strong> finnur alla strengi sem enda á &quot;austur&quot;, eins og &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
+<td><strong></em>austur</strong> finnur alla strengi sem enda á &quot;austur&quot;, t.d. &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>gildi</em>* (stjarna)</td>
+<td><em><em>gildi</em></em> (stjarna)</td>
 <td>Inniheldur gildið sem fært er inn.</td>
 <td>Færa inn stjörnu, gildi og síðan aðra stjörnu.</td>
-<td><strong>*rð*</strong> finnur alla strengi sem innihalda &quot;rð&quot;, eins og &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
+<td><strong><em>rð</em></strong> finnur alla strengi sem innihalda &quot;rð&quot;, eins og &quot;Norðaustur&quot; og &quot;Suðaustur&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (spurningamerki)</td>
@@ -131,10 +130,10 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(gagnaveita.reitarheiti != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>Þ</td>
+<td>P</td>
 <td>Dagurinn í dag</td>
 <td>gerð <strong>T</strong>.</td>
-<td><strong>T</strong> samsvarar dagurinn í dag.</td>
+<td><strong>T</strong> passar við daginn í dag.</td>
 </tr>
 <tr class="odd">
 <td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> aðferð á milli sviga)</td>

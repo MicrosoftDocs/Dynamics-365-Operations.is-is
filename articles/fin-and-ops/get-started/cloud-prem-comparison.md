@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Samanburður á eiginleikum uppsetningar í skýi og á staðnum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði sýnir hvort hver eiginleiki er tiltækur í þessum vörum.
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/26/2018
 | | Skilgreiningastýrð viðbót| Já | Númer |
 | | Flytja út gögn í eigin gagnavöruhús| Já | Já |
 | | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu | Já | Númer |
-| | Endurteknar samþættingar                 |Já | Númer|
+| | Gagnasamþættingar                 |Já | Já|
 | Skjalastjórnun| | Já| Já |
 | Fjármálastjórnun|  | Já | Já |
 | Hjálp| | Já | Númer |

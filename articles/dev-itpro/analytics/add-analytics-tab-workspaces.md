@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Þessi eiginleiki er studdur í Dynamics 365 tfor Finance and Operations (útgáfu 7.2 og seinni).
@@ -50,7 +50,7 @@ Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þi
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Bættu við .pbix file sem tilfangi
 Áður en hafist er handa þarf að stofna eða sækja Power BI skýrsluna sem þú munt fella inn í vinnusvæðið. Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio verkgervingu.
 
 1. Stofna nýtt verk í viðeigandi líkani.
@@ -63,12 +63,12 @@ Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio ver
 5. Finndu .pbix skrána sem inniheldur skilgreininguna á greiningarskýrslunnu og smelltu síðan á **Opna**.
 
     ![Veldu svarglugga Tilfangaskrár](media/analytical-workspace-select-resource.png)
-  
+
 Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi geturðu fellt skýrslurnar inn í vinnusvæði og bætt við beinum tenglum með því að nota valmyndaratriði.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Bættu flipastýringu við forritsvinnusvæðinu
 Í þessu dæmi víkkum við út vinnusvæðið **Stjórnun bókana** í Bílaflotastjórnunarlíkaninu með því að bæta flipanum **Greiningar** við skilgreininguna á skjámyndinni **FMClerkWorkspace**.
- 
+
 Eftirfarandi skýringarmynd sýnir hvernig skjámyndin **FMClerkWorkspace** lítur út í hönnuðinum í Microsoft Visual Studio.
 
 ![FMClerkWorkspace skjámynd fyrir breytingar](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 16. Hægrismelltu og veldu svo **Fjarlægja mynstur**.
 17. Hægrismelltu aftur og veldu síðan **Bæta við mynstri** > **Vinnusvæði á flipa**.
 18. Framkvæmdu byggingu til að sannreyna breytingarnar.
- 
+
 Eftirfarandi skýringarmynd sýnir hvernig hönnunin lítur út eftir að breytingarnar eru gerðar.
 
 ![FMClerkWorkspace eftir breytingar](media/analytical-workspace-definition-after.png)
 
 Nú þegar þú hefur bætt við skjámyndarstýringunum sem verða notaðar til að fella inn vinnusvæðisskýrsluna, verður þú að skilgreina stærð yfirstýringarinnar svo hún ráði við útlitið. Sjálfgefið er að bæði síðan **Síurúða** og síðan **Flipi** verða sýnilegar á skýrslunni. Hins vegar er hægt að breyta sýnileika þessara stýringa eftir þörfum fyrir markneytanda skýrslunnar.
- 
+
 > [!NOTE]
 > Fyrir innfelld vinnusvæði mælum við með að nota skrárendingar til að fela bæði síðuna **Síurúða** og síðuna **Flipi**, til að tryggja stöðugleika.
- 
+
 Nú hefurðu klárað það verk að útvíkka skilgreiningu umsóknareyðublaðsins. Frekari upplýsingar um hvernig á að nota skrárendingar til að sérsníða er að finna á  [Sérsnið: yfirlögn og skrárendingar](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Færibreytur
 
-| Nafn | lýsing |
-|---|---|
-| resourceName | Heiti .pbix tilfangsins. |
-| formGroupControl | Skjámyndarhópsstýring til að nota Power BI skýrslustýringuna á. |
-| defaultPageName | Sjálfgefið síðuheiti. |
-| showFilterPane | Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
-| showNavPane | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
-| defaultFilters | Sjálfgefnar síur Power BI skýrslunnar. |
+|       Nafn       |                                                              lýsing                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    Heiti .pbix tilfangsins.                                                     |
+| formGroupControl |                                    Skjámyndarhópsstýring til að nota Power BI skýrslustýringuna á.                                     |
+| defaultPageName  |                                                         Sjálfgefið síðuheiti.                                                         |
+|  showFilterPane  |   Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (<strong>satt</strong>) eða falið (<strong>ósatt</strong>).   |
+|   showNavPane    | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (<strong>satt</strong>) eða falið (<strong>ósatt</strong>). |
+|  defaultFilters  |                                              Sjálfgefnar síur Power BI skýrslunnar.                                              |
+
 

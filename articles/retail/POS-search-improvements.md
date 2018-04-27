@@ -1,9 +1,9 @@
 ---
 title: "Leit að vöru og leit að viðskiptavinum í POS"
-description: "Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 for Retail."
+description: "Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vörum og leitaraðgerð viðskiptavina í Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 08/16/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,30 +19,30 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: bd563610616fa72a610e0b134371765cc1edacc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Yfirlit yfir vöru og viðskiptavinaleit í sölustað
+# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Yfirlit yfir afurðir og viðskiptavinaleit í Point of Sale
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-Modern Point of Sale  (MPOS) og Cloud Point of Sale (CPOS) bjóða upp á þægilegan leitarvirkni sem leyfir verslunarmönnum að fljótt leita að vörum og viðskiptavinum. Leitarastikan er alltaf til staðar efst á MPOS og CPOS, þannig að starfsmenn geti fljótt fundið vörur og viðskiptavini.
+Nútíma Point of Sale (MPOS) og Point of Sale (CPOS) í skýi bjóða upp á auðvelda leitaraðgerð á vörum og viðskiptavinum. Leitarstikan er alltaf til staðar efst í gluggum MPOS og CPOS, þannig að starfsmenn geti leitað að vörum og viðskiptavinum á fljótlegan hátt.
 
-Starfsmenn geta leitað að vörum í vöruflokkunum og vörulistunum sem tengjast núverandi verslun og í úrvali og vörulistum sem tengjast öðrum verslunum í fyrirtækinu. Þannig geta gjaldkerar selt og skilað vörum utan framboðs í vöruhúsi. Á sama hátt geta starfsmenn leitað að viðskiptavinum sem tengjast núverandi verslun eða annarri verslun í fyrirtækinu. Auk þess geta starfsmenn leitað að viðskiptavinum sem tengjast öðru fyrirtæki í móðurfyrirtækinu.
+Starfsmenn geta leitað að vörum í vöruúrvali og vörulistum sem tengjast núverandi verslun. Þeir geta einnig leitað í vöruúrvali og vörubæklingum sem tengjast öðrum verslunum í fyrirtækinu. Þannig geta gjaldkerar selt og skilað vörum utan framboðs í vöruhúsi. Með svipuðum hætti geta starfsmenn leitað að viðskiptavinum sem tengjast núverandi verslun eða annarri verslun í fyrirtækinu. Auk þess geta starfsmenn leitað að viðskiptavinum sem tengjast öðru fyrirtæki í móðurfyrirtækinu.
 
-## <a name="product-search"></a>Afurðaleit 
+## <a name="product-search"></a>Afurðaleit
 
-Sjálfgefið er að leita að vöru í vöruúrvali verslunar. Þessi tegund leitar er þekktur sem *staðbundin vöruleit*. Hins vegar geta starfsmenn auðveldlega skipt yfir í hvaða verslun sem er í tengslum við núverandi verslun eða þeir geta leitað í annarri verslun. Þessi tegund leitar er þekktur sem *Fjartengd vöruleit*. Til að breyta vörulistanum hnappinn **Flokkar**  til vinstri á síðunni. Efst á glugganum sem birtist skaltu velja hnappinn hnappinn **Breyta vörulista**og þá velja einn af tiltækum vörulista til að skoða. Kerfið mun leita að vörum í valda vörulistanum.
+Sjálfgefið er að vöruleitir séu gerðar á vöruúrvali verslunar. Þessi tegund leitar er þekktur sem *staðbundin vöruleit*. Hins vegar geta starfsmenn auðveldlega skipt yfir í hvaða verslun sem er í tengslum við núverandi verslun eða þeir geta leitað í annarri verslun. Þessi tegund leitar er þekktur sem *Fjartengd vöruleit*. Til að breyta vörulistanum hnappinn **Flokkar**  til vinstri á síðunni. Efst á glugganum sem birtist skaltu velja hnappinn hnappinn **Breyta vörulista**og þá velja einn af tiltækum vörulista til að skoða. Kerfið mun leita að vörum í valda vörulistanum.
 
 Á síðunni **Breyta verslun** geta starfsmenn auðveldlega valið hvaða verslun sem er, eða þeir geta leitað að vörum í öllum verslunum.
 
 ![Breyting á vörulilstanum](./media/Changecatalog.png "Breyting á vörulilstanum")
  
-Staðbundin vöruleit leitar innan eftirfarandi vöru eiginleika:
+Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 
 - Afurðarnúmer
 - Afurðarnafn
@@ -53,17 +53,17 @@ Staðbundin vöruleit leitar innan eftirfarandi vöru eiginleika:
 
 ### <a name="enhancements-to-local-product-searches"></a>Viðbætur við staðbundna vöruleit
 
-Uppllifun af staðbundinni vöruleit hefur verið gerð notaendavænni. Eftirfarandi endurbætur hafa verið gerðar:
+Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbætur hafa verið gerðar:
 
 - Fellivalmyndum fyrir vöru og viðskiptavini hefrui verið bætt við leitarreitinn svo starfsmenn geti valið annaðhvort **Vara** eða **Viðskiptavinur** áður en þeir gera leitina. Sjálfgefið er **Vara**valið, eins og sýnt er á myndinni sem hér á eftir.
-- Til að leita að mörgum leitarorðum (það er fyrir leitir sem nota leitarskilyrði) geta smásalar stillt á hvort leitarniðurstöður innihalda niðurstöður sem passa við leitarniðurstöður eða aðeins niðurstöður sem passa við öll leitarorð. Þessi stilling er fáanleg í POS virknisniðinu, undir nýjum hópi sem heitir **Vöruleit** Sjálfgefna stillingin er **Samsvara hvaða leitarorði sem er**. Þetta er einnig ráðlögðstilling. Þegar **Samsvara hvaða leitarorði sem er** er notuð í leitarskilmálum eru allar vörur sem eru að fullu eða að hluta til samsvörun einum eða fleiri leitarskilmálum skilað sem niðurstöður og niðurstöðurnar eru sjálfkrafa flokkaðar í hækkandi röð af vörum sem eru mest samsvörun leitarorðs (full eða að hluta).
+- Til að leita að mörg lykilorð í leit (það er fyrir leitir sem nota leitarorð) geta smásalar stillt hvort leitarniðurstöður innihaldi niðurstöður sem passa við *eitthvert* leitarorð eða aðeins niðurstöður sem passa við *öll* leitarorð. Þessi stilling er fáanleg í POS virknisniðinu, undir nýjum hópi sem heitir **Vöruleit**. Sjálfgefna stillingin er **Samsvara hvaða leitarorði sem er**. Þetta er einnig ráðlögðstilling. Þegar stillingin **Samsvara hvaða leitarorð sem er** er notuð, er öllum vörum sem passa að fullu eða hluta til við eitt eða fleiri leitarorð skilað sem niðurstöður. Þessar niðurstöður eru sjálfkrafa flokkaðar í hækkandi röð af vörum sem hafa mestu samsvörun við leitarorðin (að fullu eða að hluta).
 
     Stillingin **Samsvara hvaða leitarorði sem er** skilar aðeins vörum sem passa við öll leitarorð (að fullu eða hluta). Þessi stilling er gagnleg þegar vörunöfnin eru löng og starfsmenn vilja sjá aðeins takmarkaðar vörur í leitarniðurstöðum. Hins vegar er þessi leit með tveimur takmörkunum:
 
     - Leitin er gerð í einstökum vörueiginleikum. Til dæmis birtast aðeins vörur sem eru með öll leitarorð í að minnsta kosti einum eiginleika voru.
     - Ekki er leitað í víddum.
 
-- Söluaðilar geta nú skilgreint vöruleit til að sýna leitarniðurstöður sem vöruheiti fyrir gerðir notenda. Ný stilling fyrir þessa virkni er að finna í POS virkni sniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
+- Söluaðilar geta nú skilgreint vöruleit til að sýna leitarniðurstöður sem vöruheiti fyrir gerðir notenda. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
 - Vöruleit reikniritin leitar nú einnig að leitarorðum í eiginleikanum **Leita í heiti** fyrir vöruna.
 
 ![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
@@ -83,7 +83,23 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 
 ![Altæk viðskiptavinarleit](./media/Globalcustomersearch.png "Altæk viðskiptavinarleit")
 
-### <a name="enhancements-to-local-customer-searches"></a>Viðbætur við staðbundnar leitir að viðskiptavinum
+### <a name="enhancements-to-local-customer-search"></a>Viðbætur við staðbundna leit að viðskiptavinum
 
-Leit í staðbundnum viðskiptavinum hjálpar starfsmönnum að finna viðskiptavini fljótt eftir símanúmeri. Starfsmenn þurfa ekki að slá inn sérstaka stafi sem hafa verið bætt við símanúmer viðskiptavinarins, svo sem bil, bandstrik eða sviga. Þó gjaldkerar geti geymt símanúmer á hvaða sniði sem er (til dæmis geta þeir innihaldið sviga, vísbendingu, tákn og svo framvegis), geta þeir leitað eftir viðskiptavinum með því að slá inn hluta símanúmer. Ef gjaldkeri hefur með sérstaka stafi þegar hann eða hún slær inn símanúmer, geta aðrir gjaldkerar fundið viðskiptavininn með því að slá inn tölurnar sem birtast eftir sérstafina. Til dæmis, ef símanúmer viðskiptavinar var skráð sem  **123-456-7890**, getur gjaldkeri leitað að viðskiptavininn með því að slá inn **123**, **456**, **7890**, eða **1234567890** eða með því að slá inn fyrstu tölurnar í símanúmerinu.
+Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Þeir geta einnig leitað eftir viðskiptavinum með því að slá inn hluta úr símanúmeri. Ef símanúmer inniheldur sérstafi er einnig hægt að finna það með því að leita að tölunum sem birtast eftir sérstafinu. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **123**, **456**, **7890** eða **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
+
+Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar nú leitað í einum sérsniðnum eiginleika, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
+
+![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
+
+Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna síðuna **Smásölufæribreytur** í Microsoft Dynamics 365 for Finance and Operations og síðan í flipanum **POS leitarskilyrði** eru öll skilyrði valin sem eiga að birtast sem flýtileiðir.
+
+![Stilla leitarflýtileiðir](./media/ConfigureShortcutsAX.png "Stilla leitarflýtileiðir")
+
+> [!NOTE]
+> Ef þú bætir við of mörgum flýtileiðum verður fellivalmyndin á leitarstikunni í POS ofhlaðin og það getur haft áhrif á reynslu starfsmanns af leitinni. Við mælum með að þú bætir aðeins við eins mörgum flýtileiðum og nauðsynlegt er.
+
+Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í POS. Skilyrðin sem eru sýnd eru innbyggðir eiginleikar sem reiknirit viðskiptavinaleitar notar til að leita að viðskiptavinum. Hins vegar geta samstarfsaðilar bætt við sérsniðnum eiginleikum sem flýtivísunum. Til að bæta við sérsniðnum eiginleikum sem flýtivísunum þarf kerfisstjórinn að lengja framlengjanlega upptalningu (fasttexti) sem er notuð við leitarskilyrði viðskiptavinar og síðan merkja sérsniðna eiginleika samstarfsaðila sem flýtileiðir. Samstarfsaðilar bera ábyrgð á að skrifa kóðann til að finna niðurstöður þegar sérsniðnar flýtileiðir eru notaðar við leitir.
+
+> [!NOTE]
+> Sérsniðnum eiginleika sem er bætt við fasttextann hefur ekki áhrif á staðlað reiknirit viðskiptavinaleitar. Með öðrum orðum mun reiknirit viðskiptavinaleitar ekki leita í sérsniðnum eiginleikum. Notendur geta aðeins notað sérsniðna eiginleika fyrir leitir ef þessum sérsniðna eiginleika er bætt við sem flýtileið eða ef sjálfgefnu reikniriti leitar er hnekkt.
 

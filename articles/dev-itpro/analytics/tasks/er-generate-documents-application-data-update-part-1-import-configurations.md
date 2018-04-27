@@ -1,5 +1,5 @@
 --- 
-title: "Flytja inn skilgreiningar til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð (ER)"
+title: "Flytja inn grunnstillingar til að búa til skjöl með forritsgögnum"
 description: "Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: 6a945eb6c733d760cc723bfa7135d73bdf502724
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="import-configurations-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Flytja inn skilgreiningar til að búa til skjöl með uppfærslu forritsgagna fyrir rafræna skýrslugerð (ER)
+# <a name="import-configurations-to-generate-documents-with-application-data"></a>Flytja inn grunnstillingar til að búa til skjöl með forritsgögnum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“.
 

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: is-is
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Power BI-efni fjárhagslegrar frammistöðu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Þessi efnispakki hefur verið úreltur eins og lýst er í [Power BI efnispakkar gefnir út á PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
@@ -58,7 +58,7 @@ Hver reitir fá stuðning frá skýrslu. Þessar skýrslur innihalda bæði grö
 
 | Skýrsla                      | Í skýrslunni koma fram eftirfarandi upplýsingar: |
 |-----------------------------|--------------------------------------|
-| Greining reiðufés               | Reiðufé eftir lögaðila, reiðufé eftir fjórðungi, samtals reiðufé, og reiðufé eftir lyklum<blockquote>[!NOTE]<br>Reiðufé eftir fjórðungi upplýsingar innihalda ekki upphafsstöður á samtölu fyrir fyrsta ársfjórðung. Hún sýnir samtala nýrra færsla sem er bóka í hverjum fjórðungi.</blockquote> |
+| Greining reiðufés               | Reiðufé eftir lögaðila, reiðufé eftir fjórðungi, samtals reiðufé, og reiðufé eftir lyklum<br><br>**Athugið:** Upplýsingar um reiðufé eftir fjórðungi inniheldur ekki upphafsstöður í samtölu fyrir fyrsta fjórðung. Hún sýnir samtala nýrra færsla sem er bóka í hverjum fjórðungi.|
 | Greining veltufjárhlutfalls      | Veltufjárhlutfall eftir lögaðila, veltufjárhlutfall eftir ársfjórðungi, og stöður fyrir veltufjármuni og skammtímaskuldir |
 | Greining lausafjárhlutfalls        | Lausafjárhlutfall eftir lögaðila, lausafjárhlutfall eftir ársfjórðungi, og stöður fyrir reiðufé, viðskiptakröfur og skammtímaskuldir |
 | Greining kostnaður seldra vara | Kostnaður seldra vara (COGS) eftir lögaðila, kostnaður seldra vara þessa árs og síðasta árs eftir ársfjórðungi, COGS gagnvart sölu eftir lögaðila, heildar COGS, og COGS gagnvart söluhlutfalli. |
@@ -69,7 +69,7 @@ Hver reitir fá stuðning frá skýrslu. Þessar skýrslur innihalda bæði grö
 | Greining hagnaðar           | Raunverluegar og áætlaðar tekjur fyrir vexti og skatta (EBIT) eftir lögaðila, Rekstrarhagnaður (EBIT) þessa árs og síðasta árs, útgjöld gagnvart tekjuhlutfalli, og raunverulegur og áætlaðar kostnaðar gagnvart tekjum. |
 | Greining tekja            | Heildartekjur, raunverulegar og áætlaðar heildartekjur eftir lögaðila, heildartekjur þessa árs og síðasta árs, fjárhagsfrávik eftir lögaðila og heildartekjur þessa tímabils og síðasta tímabils. |
 | Greining kostnaðar            | Heildarupphæð kostnaðar, raunveruleg áætlun heildarkostnaðar eftir lögaðila, raunveruleg og áætluð heildarkostnaður eftir ársfjórðingu, heildarútgjöld eftir tegund lykils, og hlutfall rekstrargjalda. |
-| Greining reikningsfærðra tekja     | Heildarviðskiptakröfur, heildarviðskiptakröfur eftir lögaðila, heildarviðskiptakröfur eftir ársfjórðungi, og stöður fyrir lykla viðskiptakrafna.<blockquote>[!NOTE]<br>Upplýsingarnar innihalda ekki upphafsstöður fyrir fjárhagslykla viðskiptakrafna. Þær sýnir samtala nýrra færsla sem er bóka viðskiptakröfur.</blockquote> |
+| Greining reikningsfærðra tekja     | Heildarviðskiptakröfur, heildarviðskiptakröfur eftir lögaðila, heildarviðskiptakröfur eftir ársfjórðungi, og stöður fyrir lykla viðskiptakrafna.<br><br>**Athugið:** Upplýsingarnar innihalda ekki upphafsstöður fyrir fjárhagslykla viðskiptakrafa. Þær sýnir samtala nýrra færsla sem er bóka viðskiptakröfur. |
 
 Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

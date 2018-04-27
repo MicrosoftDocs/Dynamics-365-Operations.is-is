@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 for Finance and Operations. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þetta efnisatriði útskýrir hvernig er hægt vinna með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með innkaupapantanir, beiðnir um tilboð og vörusendingabirgðir. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
 
@@ -115,8 +115,8 @@ Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>
 <li>Skipta línum fyrir mismunandi afhendingardagsetningar eða magn.</li>
 <li>Nota staðgengilsvöru.</li>
 </ul>
-Upplýsingar um verð og gjöld geta ekki verið breytt af lánardrottinn. Hins vegar getur lánardrottinn lagt til þessar breytingar með því að nota athugasemdir.</td>
-<td>Svar lánardrottins er skráð sem <strong>Samþykkt með breytingum</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Stöðurnar sýnir hvaða tegundir breytinga lánardrottinn hefur lagt til. Nánari upplýsingar um sjálfvirka notkun breytinga er að finna í „Uppfæra Innkaupapöntunina þegar lánardrottinn leggur til breytingar“ kafla seinna í þessu efnisatriði. </td>
+Lánardrottinn getur ekki breytt upplýsingum um verð og gjöld. Hins vegar getur lánardrottinn lagt til þessar breytingar með því að nota athugasemdir.</td>
+<td>Svar lánardrottins er skráð sem <strong>Samþykkt með breytingum</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Stöðurnar sýnir hvaða tegundir breytinga lánardrottinn hefur lagt til. Nánari upplýsingar um sjálfvirka notkun breytinga er að finna í &quot;Uppfæra Innkaupapöntunina þegar lánardrottinn leggur til breytingar&quot; kafla seinna í þessu efnisatriði. </td>
 </tr>
 </tbody>
 </table>

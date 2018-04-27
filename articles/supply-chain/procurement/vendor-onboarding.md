@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Nýir lánardrottnar geta verið teknir inn og skráðir sem lánardrottnar í Microsoft Dynamics 365 for Finance and Operations, byggt á upplýsingum sem safnað er frá einstaklingi sem kemur fram fyrir hönd lánardrottins.
@@ -164,13 +165,15 @@ Hin ýmsu stig skráningarbeiðni væntanlegs lánardrottins gefa yfirlit yfir f
 
 Með því að nota **Eyða** aðgerðina á skráningarbeiðni væntanlegs lánardrottins, getur þú hreinsað og fjarlægja keðju skráa sem hefur verið búin til og þú getur gert notandareikningnum óvirkan. Niðurstaðan af **Eyða** aðgerðinni er breytileg eftir því hvaða stöðu skráningarbeiðni væntanlegs lánardrottins er með, eins og sýnt er í eftirfarandi töflu.
 
-| Staða                   | Lýsing stöðu | Niðurstaða aðgerðarinnar Eyða |
-|--------------------------|--------------------|-----------------------------------|
-| Nýjar                      | Engar aðgerðir hafa verið beint að beiðninni. | Skráningarbeiðni væntanlegs lánardrottins er eytt. |
-| Beðið um notanda           | Þegar þú velur **Bjóða notanda** er staðan breytt í **Notanda boðið**, og beiðni væntanlegs notanda er búin til og send inn til verkflæði notandabeiðni. | Þú getur ekki eytt skráningarbeiðni væntanlegs lánardrottins sem hefur þessa stöðu, vegna þess að verkflæði notandabeiðni er ekki lokið. |
-| Notanda boðið             | Verkflæði notandabeiðni er samþykkt, og notandi er stofnaður. | Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins er eytt. |
-| Skráning í ferli | Nýja notandinn hefur skráð sig inn og hefur opnað leiðsagnarforrit fyrir skráningu lánardrottins. | Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins og gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins er eytt. |
-| Beiðni lánardrottins stofnuð   | Búið er að fara í gegnum leiðsagnarforrit fyrir skráningu lánardrottins. | Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.<blockquote>[!NOTE]<br>Þú getur ekki notað **Eyða** aðgerð þegar lánardrottnabeiðni er í endurskoðunarferli í verkflæðinu.</blockquote> |
-| Samþ.                 | Lánardrottnabeiðnin er samþykkt. | Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt. |
-| Hafnað                 | Lánardrottnabeiðninni er hafnað. | Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt. |
+
+|          Staða          |                                                                                     Lýsing stöðu                                                                                      |                                                                                                                                                            Niðurstaða aðgerðarinnar Eyða                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nýjar            |                                                                         Engar aðgerðir hafa verið beint að beiðninni.                                                                          |                                                                                                                                              Skráningarbeiðni væntanlegs lánardrottins er eytt.                                                                                                                                               |
+|      Beðið um notanda      | Þegar þú velur <strong>Bjóða notanda</strong> er staðan breytt í <strong>Notanda boðið</strong>, og beiðni væntanlegs notanda er búin til og send inn til verkflæði notandabeiðni. |                                                                                                          Þú getur ekki eytt skráningarbeiðni væntanlegs lánardrottins sem hefur þessa stöðu, vegna þess að verkflæði notandabeiðni er ekki lokið.                                                                                                          |
+|       Notanda boðið       |                                                               Verkflæði notandabeiðni er samþykkt, og notandi er stofnaður.                                                               |                                                                                                                      Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins er eytt.                                                                                                                      |
+| Skráning í ferli |                                                         Nýja notandinn hefur skráð sig inn og hefur opnað leiðsagnarforrit fyrir skráningu lánardrottins.                                                          |                                                                                     Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins og gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins er eytt.                                                                                      |
+|  Beiðni lánardrottins stofnuð  |                                                                     Búið er að fara í gegnum leiðsagnarforrit fyrir skráningu lánardrottins.                                                                      | Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.<blockquote>[!NOTE]<br>Þú getur ekki notað <strong>Eyða</strong> aðgerð þegar lánardrottnabeiðni er í endurskoðunarferli í verkflæðinu.</blockquote> |
+|         Samþ.         |                                                                               Lánardrottnabeiðnin er samþykkt.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
+|         Hafnað         |                                                                               Lánardrottnabeiðninni er hafnað.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
+
 

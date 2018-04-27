@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Inn- og útflutningsvinnsla gagna
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skal nota vinnusvæðið **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
@@ -64,13 +64,15 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 Þú getur bætt tilteknum einingum við innflutnings- eða útflutningsverk eða valið sniðmát til að nota. Sniðmát fyllir verk með lista yfir einingar. Sniðmátið **Virkja sniðmát** er í boði eftir að þú gefur verki nafn og vistar það.
 
 ### <a name="set-the-data-format-for-the-job"></a>Velja gagnasnið fyrir verkið.
-Þegar þú velur einingu verður þú að velja snið gagna sem verða flutt út eða inn. Þú skilgreinir snið með því að nota reitinn **Uppsetning uppruna gagna**. Mörg fyrirtæki byrja á sniðmátum sem eru sjálfgefið´tekin með í sýnigögnunum. Eftirfarandi er listi yfir nokkrar þessara sniðmáta:
+Þegar þú velur einingu verður þú að velja snið gagna sem verða flutt út eða inn. Þú skilgreinir snið með því að nota reitinn **Uppsetning uppruna gagna**. Snið upprunagagna er blanda af **Tegund**, **Skráarsniði**, **Línuafmörkun** og **Dálkaafmörkun**. Það eru líka aðrir eiginleikar en þetta eru lykilatriðin til að skilja. Eftirfarandi tafla sýnir gildar samsetningar.
 
-- AX (fyrir gögn sem þarf að flytja inn eða út á sama sniði og er notað fyrir Microsoft Dynamics 365 for Finance and Operations)
-- ColonSeparated
-- CSV
-- Excel
-- Pakki
+| **Skrársnið**        | **Afmarkari fyrir línu/dálk**                   | **XML-stíll**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-NA-                     |
+| XML                    | \-NA-                                      | XML-eining XML-eigind |
+| Afmarkað, föst breidd | Komma, semíkomma, flipi, lóðrétt strik, tvípunktur | \-NA-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Einingunum raðað
 Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl  er hægt að tímastilla þær fyrir samhliða inn- og útflutning.

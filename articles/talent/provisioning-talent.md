@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Úthluta Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 for Talent. Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Talent í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Talent og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
 
@@ -79,12 +79,12 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða PowerApps umhve
  
     **CDS 2.0 umhverfi** CDS 2.0 verður gerð aðgengileg 21. mars 2018; hins vegar styður Talent ekki enn CDS 2.0. Þó að þú getir skoðað og búið til CDS 2.0 gagnagrunna í stjórnunarmiðstöð PowerApps, þá munu þeir ekki vera nothæfir í Talent. Valmöguleikinn á að nota CDS 2.0 umhverfi í Talent uppsetningum verður í boði seinna meir.
    
- > [!Note]
- > Til að greina á milli CDS 1.0 og 2.0 umhverfi í stjórnunargáttinni skaltu velja umhverfi og skoða **Upplýsingar**. CDS 2.0 umhverfi vísa öll til þeirrar staðreyndar að „Þú getur stjórnað þessum stillingum í stjórnunarmiðstöð Dynamics 365,“ bendir á útgáfutilvik og hefur engan gagnagrunnsflipa. 
+   > [!Note]
+   > Til að greina á milli CDS 1.0 og 2.0 umhverfi í stjórnunargáttinni skaltu velja umhverfi og skoða **Upplýsingar**. CDS 2.0 umhverfi vísa öll til þeirrar staðreyndar að „Þú getur stjórnað þessum stillingum í stjórnunarmiðstöð Dynamics 365,“ bendir á útgáfutilvik og hefur engan gagnagrunnsflipa. 
  
    **Sjálfgefin PowerApps umhverfi** Þó að hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefnu PowerApps umhverfi, mælum við ekki með því að nota það með Talent þar sem allir leigunotendur hafa aðgang að PowerApps umhverfi og geta óvart spillt framleiðslugögnum þegar þeir prófa og kanna samþættingar PowerApps eða Flow.
    
-   **Prufukeyrsla umhverfa** Umhverfi með heiti eins og „TestDrive - alias@domain„ eru búin til með 60 daga gildistíma og lýkur eftir þann tíma og veldur því að umhverfinu þínu verði eytt sjálfkrafa.
+   <strong>Prufukeyrsla umhverfa</strong> Umhverfi með heiti eins og „TestDrive - alias@domain„ eru búin til með 60 daga gildistíma og lýkur eftir þann tíma og veldur því að umhverfinu þínu verði eytt sjálfkrafa.
    
    **Óstudd svæði** Að svo stöddu er Talent aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu eða Ástralíu.
   
@@ -115,7 +115,7 @@ Ljúktu eftirfarandi leiðbeiningum til að keyra forskriftina:
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** ætti að vera skipt út fyrir umhverfisheiti þitt. Þetta heiti birtist í LCS og verður sýnilegt þegar notendur velja hvaða Talent umhverfi skuli nota. 
+   **MyNewEmvironment** ætti að vera skipt út fyrir umhverfisheiti þitt. Þetta heiti birtist í LCS og verður sýnilegt þegar notendur velja hvaða Talent umhverfi skuli nota. 
 
    **YourLocation** ætti að vera skipt út fyrir eitt af studdu svæðunum fyrir Talent: Bandaríkjunum, Evrópu, Ástralíu. 
 
