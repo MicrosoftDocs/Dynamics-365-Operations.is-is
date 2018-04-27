@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Skilgreina Skilgreina handvirka ákvörðun í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
 
@@ -252,73 +251,74 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Tilgreina hvað gerist þegar ákvörðun er komið fram yfir á tíma
 Ef notandinn tekur ekki ákvörðunina innan tímarammans, er ákvörðunin komið fram yfir á tíma. Ákvörðun sem er komið fram yfir á tíma má stigmagna, eða úthluta sjálfkrafa á annan notanda. Fylgið eftirfarandi skrefum til að stigmagna Ákvörðun ef það er komið fram yfir á tíma.
 
-1.  Á vinstra svæðinu skaltu Smellt á **Stigmagna**.
-2.  Velja skal **Nota stigmögnunarslóð** gátreit til að stofna stigmögnunarslóð. Kerfið mun sjálfkrafa úthluta Ákvörðun til notendanna sem skráðir eru í stigmögnunarslóðinni. Til dæmis, eftirfarandi töflu sýnir stigmögnunarslóð.
-    | Röð | stigmögnunarslóð            |
-    |----------|----------------------------|
-    | 1        | Úthluta til: Dísu           |
-    | 2        | Úthluta til: Erlu            |
-    | 3        | Endanleg aðgerð: \[Val 1\] |
+1. Á vinstra svæðinu skaltu Smellt á **Stigmagna**.
+2. Velja skal **Nota stigmögnunarslóð** gátreit til að stofna stigmögnunarslóð. Kerfið mun sjálfkrafa úthluta Ákvörðun til notendanna sem skráðir eru í stigmögnunarslóðinni. Til dæmis, eftirfarandi töflu sýnir stigmögnunarslóð.
 
-    Í þessu dæmi mun kerfið sjálfkrafa úthluta Ákvörðun sem er komið fram yfir á tíma til Dísu. Ef Dísu tekur ekki ákvörðun innan tímarammans, úthlutar kerfið ákvörðuninni til Erlu. Ef Erla tekur ekki ákvörðun innan tímarammans, Velur kerfið **\[Val 1\]** sem ákvörðun.
-3.  Til að bæta notanda við stigmögnunarslóð, smella **bæta við stigmögnun**. Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 4.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Valkostur</th>
-    <th>Notendur sem Ákvörðun er stigmagnað fyrir</th>
-    <th>Viðbótarskref</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Stigveldi</td>
-    <td>Notendur í tilteknu stigveldi fyrirtækis</td>
-    <td><ol>
-    <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til að stigmagna ákvörðun fyrir.</li>
-    <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna Ákvörðun fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
-    <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
-    <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
-    </ol></li>
-    <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal stigmagnað fyrir: <ul>
-    <li><strong>Úthluta til allra sóttra notenda</strong> - þá er ákvörðun stigmagnað fyrir allra notenda á sviðinu.</li>
-    <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er ákvörðun stigmagnað aðeins til síðasta notanda á sviðinu.</li>
-    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – Ákvörðun er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Verkflæðisnotandi</td>
-    <td>Notendur í núverandi verkflæði</td>
-    <td><ul>
-    <li>Eftir að þú velur <strong>verkflæðisnotandi</strong>, á <strong>verkflæðisnotandi</strong> flipanum, á <strong>verkflæðisnotandi</strong> listanum, veldu notandann sem tekur þátt í verkflæði.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Notandi</td>
-    <td>Sértækir notendur Finance and Operations</td>
-    <td><ol>
-    <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Röð | stigmögnunarslóð            |
+   |----------|----------------------------|
+   | 1        | Úthluta til: Dísu           |
+   | 2        | Úthluta til: Erlu            |
+   | 3        | Endanleg aðgerð: \[Val 1\] |
 
-4.  Á **tímamörk** flipanum, á svæðinu **Tímalengd** , tilgreinið hve mikinn tíma notandi hefur til að taka ákvörðunina. Veldu einn af eftirfarandi valkostum:
-    -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
-    -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
-    -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að taka ákvörðunina.
-    -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
-    -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
+   Í þessu dæmi mun kerfið sjálfkrafa úthluta Ákvörðun sem er komið fram yfir á tíma til Dísu. Ef Dísu tekur ekki ákvörðun innan tímarammans, úthlutar kerfið ákvörðuninni til Erlu. Ef Erla tekur ekki ákvörðun innan tímarammans, Velur kerfið **\[Val 1\]** sem ákvörðun.
+3. Til að bæta notanda við stigmögnunarslóð, smella **bæta við stigmögnun**. Veljið einn af valkostum í eftirfarandi töflu, og fylgið svo viðbótarskref fyrir valkostinn áður en farið er í skrefi 4.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Valkostur</th>
+   <th>Notendur sem Ákvörðun er stigmagnað fyrir</th>
+   <th>Viðbótarskref</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Stigveldi</td>
+   <td>Notendur í tilteknu stigveldi fyrirtækis</td>
+   <td><ol>
+   <li>Eftir að þú velur <strong>stigveldi</strong>, á <strong>stigveldishluti</strong> flipanum, á listanum <strong>gerð stigveldis</strong> skal velja gerð stigveldis til að stigmagna ákvörðun fyrir.</li>
+   <li>Kerfið verður að sækja svið notendanafna úr stigveldinu. Þessi nöfn standa fyrir notendur sem hægt er stigmagna Ákvörðun fyrir. Farðu að þessum skrefum til að tilgreina upphafspunkt og lokapunkt sviðs notendanafna sem kerfið sækir. <ol>
+   <li>Þegar tilgreina á upphafspunkt skal velja aðila af listanum <strong>Byrja frá og með</strong>.</li>
+   <li>Hægt er að tilgreina endapunkt með því að smella á <strong>bæta við skilyrði</strong>. Til að færa inn skilyrðu sem ákvarðar hvar í stigveldinu kerfið eigi að hætta að sækja nöfn.</li>
+   </ol></li>
+   <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu ákvörðun skal stigmagnað fyrir: <ul>
+   <li><strong>Úthluta til allra sóttra notenda</strong> - þá er ákvörðun stigmagnað fyrir allra notenda á sviðinu.</li>
+   <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er ákvörðun stigmagnað aðeins til síðasta notanda á sviðinu.</li>
+   <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – Ákvörðun er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Verkflæðisnotandi</td>
+   <td>Notendur í núverandi verkflæði</td>
+   <td><ul>
+   <li>Eftir að þú velur <strong>verkflæðisnotandi</strong>, á <strong>verkflæðisnotandi</strong> flipanum, á <strong>verkflæðisnotandi</strong> listanum, veldu notandann sem tekur þátt í verkflæði.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Notandi</td>
+   <td>Sértækir notendur Finance and Operations</td>
+   <td><ol>
+   <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
+   <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Finance and Operations. Veldu Notendur til að stigmagna Ákvörðun fyrir, og færðu síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
-6.  Ef notendunum í hækkunarslóðinni taka ekki ákvörðun innan tímarammans, tekur kerfið ákvörðunina. Til að tilgreina valkostinn sem kerfið velur , veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið valkost.
+4. Á **tímamörk** flipanum, á svæðinu **Tímalengd** , tilgreinið hve mikinn tíma notandi hefur til að taka ákvörðunina. Veldu einn af eftirfarandi valkostum:
+   -   **Klukkustundir** – færið Inn fjölda klukkustunda sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
+   -   **Dagar** – færið Inn fjölda daga sem notandi hefur til að taka ákvörðunina. Þá velja dagatalið sem fyrirtækið notar og færa inn upplýsingar um vinnuviku fyrirtækisins.
+   -   **Vikur** – færið Inn fjölda vikna sem notandi hefur til að taka ákvörðunina.
+   -   **Mánuðir** — velja daginn og vikuna sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku mánaðarins.
+   -   **Ár** — velja daginn, vikuna og mánuðinn sem notandinn verður að vera búinn að taka ákvörðunina fyrir. Til dæmis, notandi getur óskað þess að annar notandi taka ákvörðunina fyrir föstudag í þriðju viku desembermánaðar.
+
+5. Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
+6. Ef notendunum í hækkunarslóðinni taka ekki ákvörðun innan tímarammans, tekur kerfið ákvörðunina. Til að tilgreina valkostinn sem kerfið velur , veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið valkost.
 
 ## <a name="set-a-time-limit"></a>Setja upp tímamörk
 Fylgið eftirfarandi skrefum ef verður að taka ákvörðunina innan tiltekins tíma. **Athugasemd:** Valkostirnir sem valdir eru í þessu ferli munu hnekkja valkostunum sem valdir voru í svæðunum **úthlutun** og **stigmögnun** á síðunni.

@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Yfirlit reikninga lánardrottna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu. 
 
@@ -87,11 +86,11 @@ Frekari upplýsingar er að finna á:
  - [Setja upp reglur lánardrottnareikninga](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Færa reikningsgögn inn í viðskiptaskuldir með reikningi lánardrottins](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Skrá reikning lánardrottins í reikningabók](tasks/record-vendor-invoice-invoice-journal.md)
 
 

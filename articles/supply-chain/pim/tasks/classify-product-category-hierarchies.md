@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Flokka afurð með flokkastigveldi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmd af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
 

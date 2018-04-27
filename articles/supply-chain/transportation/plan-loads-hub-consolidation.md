@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-loads-using-hub-consolidation"></a>Áætla hleðslur með samstæðustöð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Greinin lýsir eiginleikanum að sameina sendingar í stöðvar sem eru sendar úr mismunandi vöruhúsum til sama viðskiptavinar, eða þegar vörur eru sendar frá mörgum lánardrottnum til sama vöruhúss.
 

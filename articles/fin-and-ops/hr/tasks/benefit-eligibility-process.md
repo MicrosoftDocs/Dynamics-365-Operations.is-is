@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>Feril fyrir hæfni til fríðinda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig ferli um hæfni til fríðinda virkar. Þegar ferlinu er lokið er hægt að skoða niðurstöður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

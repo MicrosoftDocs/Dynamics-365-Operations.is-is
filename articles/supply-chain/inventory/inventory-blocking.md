@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Stöðvun í birgðum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Microsoft Dynamics 365 for Finance and Operations. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
 

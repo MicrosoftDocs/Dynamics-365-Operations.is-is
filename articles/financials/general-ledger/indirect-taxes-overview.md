@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>Yfirlit virðisaukaskatts
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þetta efnisatriði veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
 

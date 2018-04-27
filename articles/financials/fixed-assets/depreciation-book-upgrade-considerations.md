@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Yfirlit yfir uppfærslu afskriftarbókar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu. 
 

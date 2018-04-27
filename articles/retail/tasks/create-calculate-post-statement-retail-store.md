@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Búa til, reikna og bóka yfirlit fyrir smásöluverslun
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
 

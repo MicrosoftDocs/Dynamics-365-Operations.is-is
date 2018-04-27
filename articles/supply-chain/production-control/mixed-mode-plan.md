@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Áætlanagerð blandaðrar stillingar: Sameina afmarkaða, ferli og lean uppruna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um áætlanagerð í blönduðum ham. Með áætlanagerð í blönduðum ham geturðu mótað birgðakeðju þína á grundvelli efnisflæðis. Microsoft Dynamics 365 for Finance and Operations tryggir að efnisflæði fylgi þínum líkönum, óháð framboðsreglu sem er valin (kanban, framleiðslupantanir, innkaupapantanir, runupantanir eða flutningspantanir). 
 

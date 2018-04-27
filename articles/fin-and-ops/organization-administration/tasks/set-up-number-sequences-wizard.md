@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Setja upp númeraraðir með því að nota leiðsagnarforrit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Þessu ferli er útskýrt hvernig á að setja upp allar nauðsynlegar númeraraðir á sama tíma með því að nota leiðsagnarforrit. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

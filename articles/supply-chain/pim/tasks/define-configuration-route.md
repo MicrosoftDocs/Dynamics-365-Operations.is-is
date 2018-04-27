@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Skilgreina afbrigðaleiðir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leggur áherslu á skilgreiningu afbrigðaleið sem ákvarðar röðina sem skilgreiningaflokkar eru sýndir í. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta er sjötta ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu.
 

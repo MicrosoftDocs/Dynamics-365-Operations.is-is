@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Stofna aðallykil
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla. Þessi skráning notar sýnigögn USMF fyrirtækis  
 

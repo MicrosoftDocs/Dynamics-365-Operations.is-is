@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Fastir bókunarlyklar eignakaupa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til eignast eignir.
 

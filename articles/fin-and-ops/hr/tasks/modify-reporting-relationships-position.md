@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 002fffc7e8c3186eedf9060d36d2b4a77749da98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d8c82998e6b19adbd67b6b5ea3d68d2fbd08d8b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Breyta skýrslugjafarvenslum fyrir stöðu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að breyta í skýrslugerðarsambandi fyrir starfsmann. Hægt er að nota í skýrslugerðarsambandi fyrir leiðaraðgerð skjöl gegnum verkflæði. Ferlið einnig sýnir hvernig á að úthluta starfsmanns til viðbótar stigveldi. Til dæmis er starfsmaður gæti verið hluti af verkhópur með óformleg skýrslugerðarsambandi við yfirmaður verks. Hægt er að skilgreina viðbótar skýrslugerðarsamband á stöðu til að nota fyrir mismunandi verk- eða fylkisaðstæður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

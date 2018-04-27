@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Færibreytur framleiðslu í framkvæmd framleiðslu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um uppsetningu framleiðslufæribreytna í Framkvæmd framleiðslu.
 
@@ -69,17 +69,17 @@ Fyrir hvert stig gerir reiturinn **Sjálfvirk uppskriftanotkun** þér kleift a�
 
 - **Losunarregla** – Þessi valkostur er notaður í tengslum við valkost sem er skilgreindur fyrir uppskriftina í einingunni **Framleiðsla**. Smelltu á **Framleiðslustýring** &gt; **Sameiginlegt** &gt; **Framleiðslupantanir** &gt; **Allar framleiðslupantanir**. Á síðunni **Allar framleiðslupantanir** skaltu velja framleiðslupöntun á listanum og smella svo á **Uppskrift** í aðgerðarúðunni. Á síðunni **Uppskrift** á flipanum **Uppsetning**, í reitnum **Losunarregla**, skaltu velja einn af eftirfarandi valkostum:
 
-    - **Ræsa**
-    - **Ljúka**
-    - **Handvirkt**
-    - Autt (enginn valkostur er valinn.)
-    - **Tiltækt í staðsetningu**
+  - **Ræsa**
+  - **Ljúka**
+  - **Handvirkt**
+  - Autt (enginn valkostur er valinn.)
+  - **Tiltækt í staðsetningu**
 
     Sé **Losunarregla** valin Framkvæmd framleiðslu, í reitnum **Sjálfvirk uppskriftanotkun** á flipanum **Ræsa**, eru öll hráefni sem eru stillt á **Ræsa** í uppskriftinni dregin frá birgðum þegar aðgerð er hafin. Valkosturinn **Tiltækt í staðsetningu** er notaður fyrir afurðir sem eru virkjaðar fyrir ítarleg vöruhúsaferli. Sé þessi losunarregla valin er hráefni losað þegar vöruhúsavinnu fyrir hráefnatiltekt er lokið. Hráefni er einnig losað þegar uppskriftarlína sem notast við þessa losunarreglu er losuð í vöruhús og hráefnið er tiltækt í staðsetningu framleiðsluinntaks.
-    
+
     > [!NOTE]
     > Ef reiturinn **Losunarregla** er valinn á flipanum **Ræsa** í framkvæmd framleiðslu verður þú að velja sömu reglu á flipanum **Operations** eða flipanum **Tilkynna sem lokið**. Þessi krafa hjálpar til við að tryggja að efni sé dregið frá birgðum á uppskriftum sem nota **Lokið** sem losunarreglu á framleiðslupöntuninni. Ef sama losunarregla er ekki valin á flipanum **Aðgerðir** eða flipanum **Tilbúið** gæti hráefnið verið dregið tvisvar frá birgðum.
- 
+
 - **Alltaf** – Ef þessi valkostur er valinn fyrir stig er hráefni alltaf dregið frá birgðum á því stigi. Til dæmis er hráefni fyrir framleiðslu dregið frá þegar framleiðslupöntun er hafin. Þessi stilling krefst þess að **Aldrei** sé valið á flipunum **Aðgerðir** og **Tilbúið**. Þessi krafa hjálpar til við að koma í veg fyrir vörur séu dregnar frá lagerbirgðum tvisvar sinnum.
 - **Aldrei** – Ef þessi valkostur er valinn fyrir stig á engin uppskriftarnotkun sér stað á því stigi. Ef þú velur til dæmis **Aldrei** á öllum þremur flipunum (**Ræsa**, **Aðgerðir**, og **Tilbúið**) verður að draga hráefni handvirkt frá lagerbirgðum.
 
@@ -146,11 +146,13 @@ Notaðu eftirfarandi stillingar ef tiltektarbækur og uppskriftarvörunotkun eig
 
 Hægt er að nota eftirfarandi stillingar ef hráefni eiga alltaf að vera dregnar handvirkt frá lagerbirgðum. Í þessu tilfelli eru færslubækur tiltektarlista ekki bókaðar.
 
-| Flipi                | Svæði                          | Stilling    |
-|--------------------|--------------------------------|------------|
-| Byrja              | Uppfæra gangsetningu á neti           | **Staða** |
-| Byrja              | Sjálfvirk uppskriftanotkun      | **Aldrei**  |
-| Operations         | Sjálfvirk uppskriftanotkun      | **Aldrei**  |
-| Bóka tilbúið | Sjálfvirk uppskriftanotkun      | **Aldrei**  |
-| Bóka tilbúið | Uppfæra skýrslu um tilbúið á neti | **Staða** |
+
+|        Flipi         |             Svæði              |         Stilling         |
+|--------------------|--------------------------------|-------------------------|
+|       Byrja        |      Uppfæra gangsetningu á neti      | <strong>Staða</strong> |
+|       Byrja        |   Sjálfvirk uppskriftanotkun    | <strong>Aldrei</strong>  |
+|     Operations     |   Sjálfvirk uppskriftanotkun    | <strong>Aldrei</strong>  |
+| Bóka tilbúið |   Sjálfvirk uppskriftanotkun    | <strong>Aldrei</strong>  |
+| Bóka tilbúið | Uppfæra skýrslu um tilbúið á neti | <strong>Staða</strong> |
+
 

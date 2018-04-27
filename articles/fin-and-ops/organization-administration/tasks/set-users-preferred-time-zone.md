@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Stilla kjörtímabelti notanda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 

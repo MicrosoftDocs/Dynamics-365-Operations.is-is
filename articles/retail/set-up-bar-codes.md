@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>Uppsetning strikamerkja
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein lýsir hvernig nota á strikamerki í Microsoft Dynamics 365 for Retail.
 

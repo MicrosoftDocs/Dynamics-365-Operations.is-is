@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Fjöldauppfærsla eigna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ef verið er að nota bækur er hægt að breyta afskriftarreglum fyrir flokk af eignum sem eru hluti af sömu bók.
 

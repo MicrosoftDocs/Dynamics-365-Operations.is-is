@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir. 
 

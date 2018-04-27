@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Setja upp bókunarreglur fyrir eignir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísi fyrir verk setja upp bókunarreglur eigna.  Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.  Dæmi í leiðarvísi fyrir verk eru fyrir grunn bókunarreglu, þó verður að stofna bókunarreglur fyrir tiltekinn bókhaldslykil og kröfur fyrir fjárhagsskýrslu.
 

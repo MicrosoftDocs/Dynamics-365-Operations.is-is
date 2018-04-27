@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Kreditbréf
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kreditbréf eru bankaskjöl sem eru almennt notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri. 
 

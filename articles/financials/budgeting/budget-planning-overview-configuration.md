@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Yfirlit áætlunar fjárhagsáætlunargerðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta grein kynnir fjárhagsáætlunargerð og inniheldur upplýsingar til að hjálpa við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 
@@ -116,18 +115,18 @@ Upprunalegar stillingar á **skilgreiningu fjárhagsáætlunargerðar** síðu g
 
 Úthlutunaráætlanir úthluta sjálfkrafa fjárhagsáætlunarlína við verkflæðisferli. Hægt er að framkvæma úthlutanir með því að nota eitthvað af eftirfarandi aðferðum í **úthlutunaraðferð** lista:
 
--   **Úthlutun yfir tímabil** – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. **Ábending:** áður En hægt er að úthluta yfir tímabil, verður að setja upp úthlutunarlykla tímabils á síðunni ****Úthlutunartegundir tímabils****.
--   **Úthluta á víddir** – Línur fjárhagsáætlunar er úthlutað úr upprunalegum aðstæðum fjárhagsáætlunar yfir fjárhagsvíddir í viðtökuaðstæðum. **Ábending:** áður En hægt er að úthluta á víddir, verður að setja upp úthlutunarskilmála fjárhagsáætlunar á síðunni ****Úthlutunarskimlálar fjárhagsáætlunar****.
--   **Samanlagt** – Línur fjárhagsáætlunar eru safnað úr upprunaaðstæðum fjárhagsáætlunargerðar í tengdri fjárhagsáætlun í viðstökuaðstæðum í yfirskipuðu fjárhagsáætluninni.
--   **Dreifa** – Línur fjárhagsáætlunar eru dreifðar úr upprunaaðstæðum fjárhagsáætlunargerðar í yfirskipuðu fjárhagsáætluninni í viðstökuaðstæður æu tengdri fjárhagsáætlun.
--   **Nota úthlutunarreglur fjárhags** - Línur fjárhagsáætlunargerðar er dreift úr upprunaaðstæður fjárhagsáætlunargerðarinnar til viðtökuaðstæðna, á grundvelli úthlutunarreglu fjárhags sem er valin.
--   **Afrita úr fjárhagsáætlunargerð** – hægt er að velja aðra fjárhagsáætlunargerð sem nota á sem uppruna úthlutunar.
+- <strong>Úthlutun yfir tímabil </strong> – Þú notar úthlutunarlykill tímabils til að úthluta fjárhagsáætlunarlínum úr upprunaaðstæður fjárhagsáætlunargerðarinnar yfir mörg tímabil í viðtöku aðstæðum. <strong>Athugið:</strong> Áður en hægt er að úthluta yfir tímabil þarf að setja upp úthlutunarlykla tímabils á síðunni *<strong><em>Flokkar tímabilsúthlutunar</em></strong>*.
+- <strong>Úthluta á víddir</strong> – Línur fjárhagsáætlunar er úthlutað úr upprunalegum aðstæðum fjárhagsáætlunar yfir fjárhagsvíddir í viðtökuaðstæðum. <strong>Athugið:</strong> Áður en hægt er að úthluta á víddir þarf að setja upp úthlutunarskilmála fjárhagsáætlunar á síðunni *<strong><em>Úthlutunarskilmálar fjárhagsáætlunar</em></strong>*.
+- **Samanlagt** – Línur fjárhagsáætlunar eru safnað úr upprunaaðstæðum fjárhagsáætlunargerðar í tengdri fjárhagsáætlun í viðstökuaðstæðum í yfirskipuðu fjárhagsáætluninni.
+- **Dreifa** – Línur fjárhagsáætlunar eru dreifðar úr upprunaaðstæðum fjárhagsáætlunargerðar í yfirskipuðu fjárhagsáætluninni í viðstökuaðstæður æu tengdri fjárhagsáætlun.
+- **Nota úthlutunarreglur fjárhags** - Línur fjárhagsáætlunargerðar er dreift úr upprunaaðstæður fjárhagsáætlunargerðarinnar til viðtökuaðstæðna, á grundvelli úthlutunarreglu fjárhags sem er valin.
+- **Afrita úr fjárhagsáætlunargerð** – hægt er að velja aðra fjárhagsáætlunargerð sem nota á sem uppruna úthlutunar.
 
 ### <a name="stage-allocations"></a>Stigsúthlutanir
 
 Stigsúthlutanir eru notaðar til að úthluta sjálfkrafa línum fjárhagsáætlunar á meðan á verkflæðisferli stendur. Þegar stigsúthlutanir eru notaðar, er hægt að stofna og breyta fjárhagsáætlunarlínur í viðtökuaðstæðum án íhlutunar undirbúningsaðila fjárhagsáætlunargerðar eða skoðunarmanns.
 
-Þegar sett er upp stig úthlutunar tengirðu verkflæði fjárhagsáætlunargerðar og stig við áætlun úthlutunar. Verkflæði fjárhagsáætlunargerðar verður að vera tengt verkflæði Fjárhagsáætlunar sem notar sjálfvirka verkflæðið sem ****Úthlutun á stigi fjárhagsáætlunargerðar****. Þegar verkflæði nær tilgreindu stigi, á úthlutun sér sjálfkrafa stað. Hægt er að nota þessa sjálfvirku verki til að stofna línur fjárhagsáætlunargerðar í nýjar aðstæður. 
+Þegar sett er upp stig úthlutunar tengirðu verkflæði fjárhagsáætlunargerðar og stig við áætlun úthlutunar. Verkflæði fjárhagsáætlunargerðar verður að vera tengt verkflæði fjárhagsáætlunar sem notar sjálfvirka verkflæðið *<strong><em>Stigsúthlutun fjárhagsáætlunargerðar</em></strong>*. Þegar verkflæði nær tilgreindu stigi, á úthlutun sér sjálfkrafa stað. Hægt er að nota þessa sjálfvirku verki til að stofna línur fjárhagsáætlunargerðar í nýjar aðstæður. 
 
 Í dæmaskemað sem birtist fyrr í þessum grein, er úthlutun framkvæmd til að flytja upphæðir úr fjárhagsáætlun og aðstæður í Grunnlínustig höfuðstöðva í aðra fjárhagsáætlun og aðstæður í áætlunarstigi söludeildar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 

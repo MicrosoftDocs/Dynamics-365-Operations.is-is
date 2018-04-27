@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi skráning notar sýnigögn USMF fyrirtækis hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum. Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill reikningsjöfnunar sé valinn. Ef þinn lögaðili rekur kostnað, eins og farm, með því að nota gjöld, skaltu tryggja að skilgreiningarlykillinn Gjöld sé valinn.  Reikningsjöfnun viðskiptaskulda felst í því að bera saman reikning lánardrottins, innkaupapöntun og upplýsingar á fylgiseðli. Mismunur milli þessara skjala kallast misræmi í samsvörun. Misræmi er borinn saman við vikmörk sem tilgreind eru. Ef jöfnunarmisræmi fer yfir vikmarkaprósenta eða upphæð, birtast stemma frávikstákn í skjámyndinni reikningur Lánardrottins og skjámynd upplýsingar reikningsjöfnunar.
 

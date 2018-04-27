@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir. 
 

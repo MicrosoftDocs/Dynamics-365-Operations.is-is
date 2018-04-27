@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Úthlutunargrunnar 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Úthlutunargrunnar eru grundvöllur úthlutunar rekstrarkostnaðar í kostnaðarbókhaldi. Úthlutunargrunnur getur verið magn, eins og þær vélastundir sem notaðar eru, notaðar kílóvatt-stundir (kWh), eða þeir fermetrar sem eru í notkun. Úthlutunargrunnar eru aðallega notaðir til að úthluta rekstrarkostnaði afurða sem framleiddar eru. Til dæmis úthlutar tæknideild kostnaði sínum samkvæmt fjölda þeirra tölva sem hver deild notar.
 
@@ -424,9 +424,11 @@ Hér sést formúlan fyrir CC003 (UPPLÝSINGATÆKNI) betur:
 
 Hér er dæmi um kostnaðardreifingarreglu ef formúlu úthlutunargrunns fyrir fast rafmagn er úthlutað sem úthlutunargrunnur þess.
 
-| Kostnaðarhlutur |  lýsing  | Mæligildi | Úthlutunarþáttur                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | Mannauður | 1,837.50  | (1.837,50 ÷ 18.162,50) × upphæð  |
-| CC002       | FI | 3,075.00  | (3.075,00 ÷ 18.162,50) × upphæð  |
-| CC003       | Upplýsingatækni | 13,250.00 | (13.250,00 ÷ 18.162,50) × upphæð |
+
+| Kostnaðarhlutur | lýsing | Mæligildi |        Úthlutunarþáttur         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     Mannauður      | 1,837.50  | (1.837,50 ÷ 18.162,50) × upphæð  |
+|    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × upphæð  |
+|    CC003    |     Upplýsingatækni      | 13,250.00 | (13.250,00 ÷ 18.162,50) × upphæð |
+
 

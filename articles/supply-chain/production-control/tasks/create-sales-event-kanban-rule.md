@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Stofna kanban-regla sölutilviks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-reglu sem er ræst við stofnun sölupöntunar. Tilviksreglur kanbans fylla á kröfur sem eiga upphaf sitt í sölupöntunarlínum. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Það er ætlað fyrir ferlishönnuð eða virðisstraumsstjóra þegar þeir undirbúa framleiðslu nýrrar eða breyttrar afurðar.
 

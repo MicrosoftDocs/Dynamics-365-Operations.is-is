@@ -3,7 +3,7 @@ title: "Nota Excel innbót"
 description: "Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Nota Excel innbót
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Office-innbót fyrir Excel. Til að opna einingagögnin geturðu byrjað annaðhvort í Excel eða Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum 
 
 > [!NOTE]
 > Ef notanda Microsoft Azure Active Directory (Azure AD) leigjanda er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 fyrir Office hafið verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
+
+Til að fræðast meira um notkun á Excel-innbótinni skaltu horfa á þetta stutta myndband [Stofna Excel-sniðmát fyrir haus- og línumynstur í Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Opna einingagögn í Excel þegar byrjað er í Finance and Operations
 1. Á síðu í Finance and Operations skal velja **Opna í Microsoft Office**.

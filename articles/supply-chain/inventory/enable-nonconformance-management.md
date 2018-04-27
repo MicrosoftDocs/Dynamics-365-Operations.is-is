@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Stjórnun ósamkvæmni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta grein lýsir grunnuppsetningu sem er krafist til að nota ósamkvæmni. Viðbótaruppsetning er nauðsynleg ef á að nota gæðapantanir.
 

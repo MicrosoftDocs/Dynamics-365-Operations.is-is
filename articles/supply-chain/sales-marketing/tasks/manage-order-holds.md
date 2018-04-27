@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-order-holds"></a>Stjórna pöntunum í bið
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig setja sölupantanir viðskiptavina í bið, hvernig vinna með biðstöðu greiðsluferlis og hvernig fjarlægja bið af pöntun. Pöntun kann að vera sett í bið af ýmsum ástæðum. Til dæmis gætirðu verið með pöntun í bið þar til hægt er að staðfesta aðsetur  viðskiptavinar eða greiðsluhætti eða þar til stjórnandinn getur farið yfir lánamark viðskiptavinar. Þegar pöntun er í bið er ekki hægt að vinna af vörugeymslu til afhendingar. 
 

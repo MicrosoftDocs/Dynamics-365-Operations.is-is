@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Hlutar fjárhagsskýrslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu. Þessar einingar eru línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. Þetta efnisatriði útskýrir hvernig einingar eru skipulagðar og þeim læst. 
 
 Hugmyndin á bak við hönnunarviðmót fyrir fjárhagsskýrslur byggir á því að brjóta upplýsingar niður í smæstu einingar eða grunneiningar, og blanda þeim svo saman eftir þörfum. Því er skýrslusniðið aðskilið fjárhagsgögnum og hægt er að breyta útliti skýrslu án þess að breyta fjárhagsgögnunum í Microsoft Dynamics ERP-kerfinu. Með því að nota þessa nálgun eininga, er hægt að sameina texta, upphæðir og útreikninga til að útbúa skýrslur sem þarf. Að sama skapi auðveldar sveigjanleikinn notendum að skoða aðgerðir út frá mismunandi sjónarhornum og hvetur þannig til skapandi lausna. Hver eining í skýrsluskilgreiningu virkar nokkurn veginn eins og þrívíður töflureiknir, nema að hún er öflugri. Skýrsluskilgreining tilgreinir línuskilgreininguna, dálkskilgreininguna og valfrjálsa skilgreiningu skipurits sem ætti að nota í skýrslunni. Hún hefur einnig að geyma upplýsingar um hvar geyma skal skýrsluna sem er mynduð og hvernig á að sníða hana. 
 
 ## <a name="building-blocks-of-a-report"></a>Einingar skýrslu
+
 | Eining            | lýsing                     | Frekari upplýsingar                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Skilgreining línu            | Línuskilgreining tilgreinir lýsandi línur í skýrslu (til dæmis laun eða sölu). Í henni er jafnframt listi yfir hlutagildi eða víddir sem innihalda gildin fyrir hvert línuatriði auk þess sem hún inniheldur línusnið og útreikninga.                                                    | [Línuskilgreiningar](row-definitions-financial-reporting.md)                       |

@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>Skoðun uppruna bókhalds
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessari grein veitir upplýsingar um hugbúnaðinn skoðun bókhaldsuppruna, sem hægt er að nota fyrir nákvæma greiningu á upprunaupplýsingum á bakvið færslur fjárhagslykils.
 

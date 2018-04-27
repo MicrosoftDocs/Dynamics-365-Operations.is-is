@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Vinnusvæði gagnaprófunar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efni veitir yfirlit yfir **vinnusvæðið Gátlisti gagnavilluleitar** og tengdar skilgreiningar.
 

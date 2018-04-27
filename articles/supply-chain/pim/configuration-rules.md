@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="configuration-rules"></a>Afbrigðareglur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir almennar upplýsingar um skilgreiningarreglur. Skilgreiningarreglur skilgreina tengsl milli þátta í uppskrift (BOM) fyrir vörur sem nota skilgreiningartækni byggða á víddum.
 

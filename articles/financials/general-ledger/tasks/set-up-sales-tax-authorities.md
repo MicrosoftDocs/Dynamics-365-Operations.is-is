@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-authorities"></a>Setja upp skattyfirvöld
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Skattayfirvöld eru einingar sem innheimtur virðisaukaskatt þarf að vera tilkynntur til og greiddur. Þú getur greitt söluskattur til yfirvaldsins beint eða í gegnum lánardrottnalykill sem þú stofnar fyrir virðisaukaskattsyfirvald. Ef þetta er gert getur fyrirtækið notað vanalegt greiðsluferli til að borga skattayfirvöldum á réttum tíma. Ef skattayfirvöld eru ekki sett upp sem lánardrottinn verður að undirbúa handvirka greiðslu til skattayfirvalda á viðeigandi gjalddaga. Þetta verkefni notar USMF-sýnifyrirtækið.
 

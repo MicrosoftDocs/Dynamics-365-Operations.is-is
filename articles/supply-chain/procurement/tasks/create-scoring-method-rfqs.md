@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Búa til aðferð við stigagjöf fyrir tilboðsbeiðnir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna aðferð við stigagjöf. Aðferð við Stigagjöf er safn skilyrða sem hægt er að nota til að bera saman tilboð sem eru send í svari við tilboðsbeiðni (RFQ). Til dæmis gæti átt að meta lánardrottin eftir fyrri frammistöðu, eða meta hvort fyrirtækið er umhverfisvænn eða góður samstarfsaðili, eða bera saman tilboð sem er byggt á verði. Aðferð við stigagjöf getur verið tengt við gerð beiðni sem sjálfgefin aðferð við stigagjöf fyrir beiðnir um tilboð af þeirri gerð. Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Finance and Operations. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.  
 
@@ -70,26 +69,27 @@ Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota
 
 ### <a name="define-columns-and-layouts"></a>Skilgreina dálka og útlit
 
-1.  Á síðunni **Skilgreining fjárhagsáætlunargerðar** er smellt á flipann **Dálkar**. Við uppfærslu eru nýir dálkar stofnaðar sjálfkrafa á grundvelli fjárhagsætlunarlína. Dálkar nota nú kvikar dagsetningar þar sem tími og ár eru jöfnuðu úr fjárhagsárinu sem er skilgreint Ferli fjárhagsáætlunargerðar. **Athugið:** Til að skila betri afköstum meðan á uppfærslu stendur er gert ráð fyrir því öll ferli fjárhagsáætlunar tákni almanaksár, ekki fjárhagsáætlun. Ef reikningsár eru notuð verður að gera breytingar til að varpa dálkum rétt á það fjárhagsár. Til dæmis voru eftirfarandi einingar til í AX 2012:
-    -   Aðstæður fjárhagsáætlunargerðar: Rauntölur, Grunnlína, Beiðni um fjárhagsáætlun, Samþykkt fjárhagsáætlunar
-    -   Fjárhagsáætlunarlínur fyrir allar aðstæður í 2017 og Rauntölur fyrir bæði 2017 og 2016
+1. Á síðunni **Skilgreining fjárhagsáætlunargerðar** er smellt á flipann **Dálkar**. Við uppfærslu eru nýir dálkar stofnaðar sjálfkrafa á grundvelli fjárhagsætlunarlína. Dálkar nota nú kvikar dagsetningar þar sem tími og ár eru jöfnuðu úr fjárhagsárinu sem er skilgreint Ferli fjárhagsáætlunargerðar. **Athugið:** Til að skila betri afköstum meðan á uppfærslu stendur er gert ráð fyrir því öll ferli fjárhagsáætlunar tákni almanaksár, ekki fjárhagsáætlun. Ef reikningsár eru notuð verður að gera breytingar til að varpa dálkum rétt á það fjárhagsár. Til dæmis voru eftirfarandi einingar til í AX 2012:
+   -   Aðstæður fjárhagsáætlunargerðar: Rauntölur, Grunnlína, Beiðni um fjárhagsáætlun, Samþykkt fjárhagsáætlunar
+   -   Fjárhagsáætlunarlínur fyrir allar aðstæður í 2017 og Rauntölur fyrir bæði 2017 og 2016
 
-    Eftirfarandi dálkar verða stofnaðir í Finance and Operations:
-    | Dálkheiti    | Aðstæður fjárhagsáætlunargerðar | Tímabil dálka | Mótbókun árs |
-    |----------------|----------------------|--------------------|-------------|
-    | Janúaraðstæður 1 | Rauntölur              | 1                  | 0           |
-    | Janúaraðstæður 2 | Grunnlína             | 1                  | 0           |
-    | Janúaraðstæður 3 | Beiðni um fjárhagsáætlun       | 1                  | 0           |
-    | Janúaraðstæður 4 | Samþykkt fjárhagsáætlun      | 1                  | 0           |
-    | Janúaraðstæður 5 | Rauntölur              | 1                  | -1          |
-    | Febrúaraðstæður 1 | Rauntölur              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Eftirfarandi dálkar verða stofnaðir í Finance and Operations:
 
-    Í þessu dæmi er dálkur sem er nefndur **Jan dæmi 1** stofnaður fyrir nýjustu færslugögn fjárhagsáætlunar sem finnast þar sem færslan er til í janúar. Svipaður dálkur er stofnaður fyrir hverjar aðstæður með gögnum. Þegar dálkar eru til staðar fyrir öll tímabil á því ári eru dálkar stofnaðar fyrir fyrri ár.
-2.  Breyta nöfnum dálka og lýsingum, og öðrum upplýsingum, annað hvort handvirkt í biðlara eða með því að gera fjöluppfærslu í gegnum Excel-innbót sem bendir á gagnaeiningu dálka fjárhagsáætlunar. Allar síurnar sem voru áður valdar fyrir fylkissvæði eru nú stilltar innan dálka.
-3.  Stofna nýtt fjárhagsáætlunarútlit. Útlit vísar í nokkra dálka til þess að skilgreina skjá sem birtist í Excel og á biðlara. Útlit þarf fyrst að tilgreina fjárhagsvíddarsamstæðu til að ákvarða hvaða fjárhagsvíddir er hægt að færa inn. Þegar víddasamstæðan sem er tilgreint er smellt á **Lýsingar** til að velja lýsingarvídd sem taka á með í útlitinu.
-4.  Á flýtiflipanum **Útlitseiningar** skal smella á **Bæta við** til að bæta lýsigögnum við hverja línu, eins og gjaldmiðil, athugasemd eða fjárhagsáætlunarklasa sem ákvarðar tekjur gegn útgjaldalínum. Næstu skaltu bæta við dálkum fyrir tímabilið og sviðsmyndum sem eiga við um þetta ferli fjárhagsáætlunar og stig. Gera má þessar breytingar handvirkt á biðlaranum eða í gegnum í Excel innbótinni sem vísar í gagnaeiningu fjárhagsáætlunarútlitseiningarinnar.
-5.  Fyrir hverja útlitseiningu skal velja hvort dálkur skuli vera breytanlegur og hvort dálkurinn skuli einnig birtast í Excel-vinnubókinni fyrir útlitið. **Athugið:** Fyrir söguplan gætirðu haft áhuga á útliti sem sýna 12 mánaðardálka fyrir allar aðstæður fjárhagsáætlunargerðar fyrir það ferli.
+   | Dálkheiti    | Aðstæður fjárhagsáætlunargerðar | Tímabil dálka | Mótbókun árs |
+   |----------------|----------------------|--------------------|-------------|
+   | Janúaraðstæður 1 | Rauntölur              | 1                  | 0           |
+   | Janúaraðstæður 2 | Grunnlína             | 1                  | 0           |
+   | Janúaraðstæður 3 | Beiðni um fjárhagsáætlun       | 1                  | 0           |
+   | Janúaraðstæður 4 | Samþykkt fjárhagsáætlun      | 1                  | 0           |
+   | Janúaraðstæður 5 | Rauntölur              | 1                  | -1          |
+   | Febrúaraðstæður 1 | Rauntölur              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Í þessu dæmi er dálkur sem er nefndur **Jan dæmi 1** stofnaður fyrir nýjustu færslugögn fjárhagsáætlunar sem finnast þar sem færslan er til í janúar. Svipaður dálkur er stofnaður fyrir hverjar aðstæður með gögnum. Þegar dálkar eru til staðar fyrir öll tímabil á því ári eru dálkar stofnaðar fyrir fyrri ár.
+2. Breyta nöfnum dálka og lýsingum, og öðrum upplýsingum, annað hvort handvirkt í biðlara eða með því að gera fjöluppfærslu í gegnum Excel-innbót sem bendir á gagnaeiningu dálka fjárhagsáætlunar. Allar síurnar sem voru áður valdar fyrir fylkissvæði eru nú stilltar innan dálka.
+3. Stofna nýtt fjárhagsáætlunarútlit. Útlit vísar í nokkra dálka til þess að skilgreina skjá sem birtist í Excel og á biðlara. Útlit þarf fyrst að tilgreina fjárhagsvíddarsamstæðu til að ákvarða hvaða fjárhagsvíddir er hægt að færa inn. Þegar víddasamstæðan sem er tilgreint er smellt á **Lýsingar** til að velja lýsingarvídd sem taka á með í útlitinu.
+4. Á flýtiflipanum **Útlitseiningar** skal smella á **Bæta við** til að bæta lýsigögnum við hverja línu, eins og gjaldmiðil, athugasemd eða fjárhagsáætlunarklasa sem ákvarðar tekjur gegn útgjaldalínum. Næstu skaltu bæta við dálkum fyrir tímabilið og sviðsmyndum sem eiga við um þetta ferli fjárhagsáætlunar og stig. Gera má þessar breytingar handvirkt á biðlaranum eða í gegnum í Excel innbótinni sem vísar í gagnaeiningu fjárhagsáætlunarútlitseiningarinnar.
+5. Fyrir hverja útlitseiningu skal velja hvort dálkur skuli vera breytanlegur og hvort dálkurinn skuli einnig birtast í Excel-vinnubókinni fyrir útlitið. **Athugið:** Fyrir söguplan gætirðu haft áhuga á útliti sem sýna 12 mánaðardálka fyrir allar aðstæður fjárhagsáætlunargerðar fyrir það ferli.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Uppfæra ferli fjárhagsáætlunargerðar til að nota viðeigandi útlit fyrir hvert áætlunarstig
 

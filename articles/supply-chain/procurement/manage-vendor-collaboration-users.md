@@ -28,8 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna. 
 
@@ -61,11 +60,11 @@ Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræ�
 
 Áður en þú getur beðið um að gera ráðstafanir fyrir notanda, verður sá einstaklingur að vera settur upp sem tengiliður fyrir einn eða fleiri lánardrottnalykla. Stofna beiðni fyrir nýjan notanda samstarfs lánardrottna:
 
-1.  Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.
-2.  Slá inn netfang fyrir notanda Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (AAD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Ekki er hægt að nota netföng neytenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net til að skrá notanda Finance and Operations.
-3.  Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.
-4.  Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
-5.  Smelltu á **Senda**.
+1. Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.
+2. Slá inn netfang fyrir notanda Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (AAD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Ekki er hægt að nota netföng neytenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net til að skrá notanda Finance and Operations.
+3. Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.
+4. Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
+5. Smelltu á **Senda**.
 
 Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður í Finance and Operations og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Finance and Operations. Nánari upplýsingar er að finna í [Hvað er Azure AD samstarf á milli fyrirtækja](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 

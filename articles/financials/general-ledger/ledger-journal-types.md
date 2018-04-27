@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Færslubókargerðir fjárhags
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations.
 

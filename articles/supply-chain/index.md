@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Stjórnun aðfangakeðju – heimasíða
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations. 
 

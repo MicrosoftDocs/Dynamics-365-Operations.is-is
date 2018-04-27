@@ -19,19 +19,18 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
 ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="setting-up-the-components-of-a-job"></a>Uppsetning íhluta starfs
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu. 
 
@@ -75,8 +74,8 @@ Verkhlutar sem lýsa grunnatriðum verkefnis sem starfskraftur sem er í stöðu
 <tr class="odd">
 <td>Sölustjóri</td>
 <td><ul>
-<li><strong>Perf yfirferð</strong> – fara Yfir afköst hverja sölumanns.</li>
-<li><strong>Abs yfirferð</strong> – Samþykkja eða hafna fjarvistabeiðnir hvers sölumanns eða skráningar.</li>
+<li><strong>Yfirfara afköst</strong> – Yfirfara vinnuafköst hvers sölumanns fyrir sig.</li>
+<li><strong>Yfirfara fjarvistir</strong> – Samþykkja eða hafna fjarvistabeiðnum eða skráningum sölumanns.</li>
 </ul></td>
 </tr>
 <tr class="even">

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Innkaupavörulistar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir, á hærra stigi, hvernig sérfræðingar í innkaupum geta sett upp og viðhaldið innkaupavörulistum. Innkaupavörulistar skilgreina vörur og þjónustu sem starfsmenn fyrirtækja geta pantað fyrir notkun innan fyrirtækisins.
 

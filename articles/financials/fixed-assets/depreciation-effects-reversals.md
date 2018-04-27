@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Áhrif afskrifta með bakfærslum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein fjallar hugsanlega afleiðingar af því að bakfæra eignafærslu. 
 

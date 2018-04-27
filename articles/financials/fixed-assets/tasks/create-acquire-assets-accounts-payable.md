@@ -24,7 +24,7 @@ ms.lasthandoff: 10/05/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Stofna og eignast eignir úr viðskiptaskuldum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísi fyrir verk um stofnun og kaup eignar með innkaupaferlið. Það notar Bókari og starfsmaður viðskiptaskulda Og USMF sýnigögn fyrirtækisins.
 

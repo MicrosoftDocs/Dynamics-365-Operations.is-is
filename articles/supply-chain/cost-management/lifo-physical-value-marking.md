@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO (síðast inn - fyrst út) með efnislegu virði og marki
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Síðast inn, fyrst út (LIFO) er birgðalíkan þar sem síðustu (nýjustu) innhreyfingar eru úthreyfðar fyrst. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. 
 
@@ -62,16 +61,16 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 **Lykill að skýringarmynd**
 
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
--   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
--   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+- Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
+- Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO þar sem efnislegt virði er tekið með
 Ef reiturinn **Taka efnislegt virði með** er valinn fyrir vöru í skjámyndinni **Vörulíkanaflokkar**, mun kerfið nota bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út meðalkostnaðarverðið. Kerfið gerir líka breytingar á uppfærðum úthreyfingafærslum, þar sem við á. Þegar gátreiturinn **taka efnislegt virði með** er hreinsaður munu birgðalokin með LIFO-birgðalíkanið aðeins gera uppgjör í þeim færslum sem hafa verið fjárhagslega uppfærðar. 
@@ -96,16 +95,16 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir 
 
 **Lykill að skýringarmynd**
 
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
--   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
--   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+- Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
+- Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-with-marking"></a>LIFO með merkingum
 Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar þú vilt vera viss um að nákvæmur kostnaður birgðanna þegar færsla er bókuð eða birgðalokun er framkvæmd. til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptavini. Þar sem þessi pöntun er flýtipöntun verðu að greiða meira fyrir vöruna til þess að geta uppfyllt beiðni viðskiptavinarins. 
@@ -138,16 +137,16 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir 
 
 **Lykill að skýringarmynd**
 
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
--   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
--   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unit.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
+- Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
+- Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 
 

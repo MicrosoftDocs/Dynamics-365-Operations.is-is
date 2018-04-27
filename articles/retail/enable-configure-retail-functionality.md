@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>Frumstilla grunngögn í nýju Retail-umhverfi
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
 

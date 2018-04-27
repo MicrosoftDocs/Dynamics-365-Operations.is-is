@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði sýnir hvernig margir reikningar eru greiddir þegar hver reikningur getur veitt staðgreiðsluafslátt. Dæmin sem gefin eru í greininni varpa ljósi á hvernig staðgreiðsluafsláttur getur verið mismunandi, með hliðsjón af því hvenær greiðslan er gerð.
 

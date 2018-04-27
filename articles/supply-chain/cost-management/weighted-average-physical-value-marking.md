@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili.
 
@@ -74,16 +74,16 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 ![Vegið meðaltal beinnar jöfnunar án Taka efnislegt virði með](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
--   Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
--   Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
+- Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
+- Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Samantektarjöfnun vegins meðaltals án valkostarins Taka efnislegt virði með
 Vegið meðaltal notar þá jöfnunarreglu að öll innhreyfing innan lokunartímabils er tekin saman í færslu kallað birgðalokunarfærsla með Vegnu meðaltali. Allar innhreyfingar fyrir tímabilið verða jafnaðar á móti úthreyfingu nýlega stofnaðrar birgðaflutningafærslur. Allar úthreyfingar fyrir tímabilið verða jafnaðar á móti innhreyfingu nýrrar birgðaflutningafærslu. Ef birgðir á lager eru jákvæðar eftir birgðalokunina eru þær birgðir og virði birgðanna tekið saman í nýja birgðaflutningsfærslu (innhreyfing). Ef birgðir á lager eru neikvæðar eftir birgðalokunina eru birgður á lager og virði birgðanna summa einstakra úthreyfinga sem hafa ekki verið jafnaðar að fullu. Í aðstæðunum fyrir neðan hafa nokkrar fjárhagslega uppfærðar innhreyfingar og ein úthreyfing verið bókaðar. 
@@ -108,18 +108,18 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 ![Vegið meðaltal samantekinnar jöfnunar án Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
--   Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
--   Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
--   Rauðar örvar lýsa innhreyfingarfærslum sem verið er að jafna í úthreyfingarfærslu sem stofnuð er af kerfinu.
--   Græna örin táknar mótfærslu kerfismyndaðrar innhreyfingarfærslu þar sem upprunalega bókaða úthreyfingafærslan er jöfnuð
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
+- Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
+- Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
+- Rauðar örvar lýsa innhreyfingarfærslum sem verið er að jafna í úthreyfingarfærslu sem stofnuð er af kerfinu.
+- Græna örin táknar mótfærslu kerfismyndaðrar innhreyfingarfærslu þar sem upprunalega bókaða úthreyfingafærslan er jöfnuð
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Bein jöfnun vegins meðaltals með valkostinum Taka efnislegt virði með
 Færibreytan Taka með efnislegt virði virkar öðruvísi með birgðalíkani vegins meðaltals en í öðrum útgáfum vörunnar. Veljið gátreit Taka efnislegt virði fyrir vöru í skjámyndinni vörulíkanaflokkur. Kerfið notar efnislega uppfærðar innhreyfingar þegar áætlað kostnaðarverð eða meðaltal er reiknað út. Úthreyfingar eru bókaðar samkvæmt þessu áætlaða kostnaðarverði á tímabilinu. Í birgðalokuninni verða aðeins fjárhagslega uppfærðar innhreyfingar hafðar í huga í útreikningi vegins meðaltals. Við mælum með mánaðarlegri birgðalokun þegar notað er birgðalíkanið með vegið meðaltal. Í þessu dæmi um beina jöfnun á vegnu meðaltali, er birgðalíkanaflokkurinn merktur til að innihalda efnislega virðið. 
@@ -137,16 +137,16 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 ![Vegið meðaltal beinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
--   Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
--   Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
+- Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
+- Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Samantektarjöfnun vegins meðaltals með valkostinum Taka efnislegt virði með
 Færibreytan Taka með efnislegt virði virkar öðruvísi með birgðalíkani dagsetningar vegins meðaltals  en í öðrum útgáfum. Veljið gátreit Taka efnislegt virði fyrir vöru með í skjámyndinni vörulíkanaflokkur. Kerfið mun svo efnislega uppfærðar innhreyfingar þegar áætlað kostnaðarverð eða meðaltal er reiknað út. Úthreyfingar verða bókaðar á grundvelli þessa áætlaða kostnaðarverðs á tímabilinu. Í birgðalokuninni verða aðeins fjárhagslega uppfærðar innhreyfingar hafðar í huga í útreikningi vegins meðaltals. Við mælum með mánaðarlegri birgðalokun þegar notað er birgðalíkanið með vegið meðaltal. Í þessu dæmi um samantektarjöfnun á vegnu meðaltali, er birgðalíkanið merkt til að innihalda efnislega virðið. 
@@ -170,18 +170,18 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 ![Vegið meðaltal samantekinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni, til dæmis 1a. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
--   Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
--   Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
--   Rauðar örvar lýsa innhreyfingarfærslum sem verið er að jafna í úthreyfingarfærslu sem stofnuð er af kerfinu.
--   Græna örin táknar mótfærslu kerfismyndaðrar innhreyfingarfærslu þar sem upprunalega bókaða úthreyfingafærslan er jöfnuð
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni, til dæmis 1a. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
+- Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
+- Jafnanir sem eru framkvæmdar af birgðalokun eru birtar með rauðum punktaörum sem fara á ská frá móttöku að úthreyfingu.
+- Rauðar örvar lýsa innhreyfingarfærslum sem verið er að jafna í úthreyfingarfærslu sem stofnuð er af kerfinu.
+- Græna örin táknar mótfærslu kerfismyndaðrar innhreyfingarfærslu þar sem upprunalega bókaða úthreyfingafærslan er jöfnuð
 
 ## <a name="weighted-average-with-marking"></a>Vegið meðaltal með merkingu
 Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar ætlunin er að ganga úr skugga um nákvæman kostnað við birgðir þegar færsla er bókuð eða þegar birgðalokun er framkvæmd. 
@@ -218,16 +218,16 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess 
 ![Vegið meðaltal með Merking](./media/weightedaveragewithmarking.gif) 
 
 **Lykill að skýringarmynd**
--   Birgðafærslur eru táknaðar með lóðréttum örvum.
--   Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
--   Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
--   Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
--   Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
--   Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
--   Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
--   Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
--   Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
--   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
+- Birgðafærslur eru táknaðar með lóðréttum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint á sniði Magns@"Unitprice".
+- Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
+- Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
+- Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
+- Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
+- Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
+- Jöfnun sem er gerð af birgðalokun er táknuð með brotinni línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 
 

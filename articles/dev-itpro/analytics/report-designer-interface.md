@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Skýrsluhönnunarviðmót
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig á að fara gegnum Report Designer og hvernig á að nota mismunandi valkostir til að uppfylla sérstakar kröfur fyrirtækisins. 
 

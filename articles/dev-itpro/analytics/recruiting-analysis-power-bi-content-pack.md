@@ -28,7 +28,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="recruiting-power-bi-content"></a>Ráða Power BI-efni
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir efninu **Ráðningar** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 

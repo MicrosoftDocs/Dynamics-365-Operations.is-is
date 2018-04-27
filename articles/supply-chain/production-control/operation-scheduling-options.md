@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling-options"></a>Kostir aðgerðaröðunar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir valkostum í aðgerðaröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 

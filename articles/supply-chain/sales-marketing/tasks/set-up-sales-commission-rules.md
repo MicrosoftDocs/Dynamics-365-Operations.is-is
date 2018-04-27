@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Setja upp reglur söluþóknunar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp og virkja útreikning á sölulaunum og rakningu. Ferlið sýnir hvernig á að stofna bæði sölulaunaflokka viðskiptavina og vöru og svo hvernig á að tengja við valinn viðskiptavin og afurð viðkomandi flokka. Þessir flokkar eru síðan notaðir í uppsetningu á útreikningi þóknunar til að stofna samsetningu viðskiptavinar, vöru og sölufulltrúa sem jafna verður við sölupöntun til að heimila sölufulltrúum að fá þóknun. Valfrjálst er að stofna sölulaunaflokk viðskiptavinar og vöru, þar sem einnig er hægt að reikna þóknun fyrir stakan viðskiptavin og/eða vöru. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 

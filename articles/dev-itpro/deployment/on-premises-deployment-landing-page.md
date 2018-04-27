@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Heimasíða uppsetningar á staðnum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þú getur sett upp Microsoft Dynamics 365 for Finance and Operations (á staðnum). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
 

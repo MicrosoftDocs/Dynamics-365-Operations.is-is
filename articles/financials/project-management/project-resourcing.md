@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>Tilföng verks
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi efnisatriði gefur upplýsingar um tilföng verka.
 

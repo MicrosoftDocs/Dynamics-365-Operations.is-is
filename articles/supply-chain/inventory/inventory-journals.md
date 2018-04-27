@@ -1,9 +1,9 @@
 ---
 title: "Birgðabækur"
-description: "Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla."
-author: MarkusFogelberg
+description: "Í þessu efnisatriði er fjallað um hvernig hægt er að nota birgðabækur til að bóka ýmsar gerðir af efnislegum birgðafærslum."
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Birgðabækur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-Þessi grein lýsir hvernig þú getur notað birgðabækur til að bóka mismunandi tegundir efnislegra birgðafærsla.
+Í þessu efnisatriði er fjallað um hvernig hægt er að nota birgðabækur til að bóka ýmsar gerðir af efnislegum birgðafærslum.
 
 Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskrifta (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
 
@@ -51,7 +50,7 @@ Eftirtaldar gerðir birgðabóka eru tiltækar:
 
 ### <a name="movement"></a>Hreyfing
 
-Þegar birgðabók hreyfingar er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við, en þú verður að úthluta aukalegum kostnað handvirkt á tiltekinn fjárhagslykil með því að tilgreina mótlykil í fjárhag þegar færslubók er stofnuð. Þessi gerð birgðabókar er gagnlegt ef óskað er eftir að kostnaðarfæra vöru gagnvart aðra deild, eða ef óskað er að fjarlægja vörur úr birgðum vegna kostnaðarmála.
+Þegar birgðabók hreyfingar er notuð er hægt að bæta kostnaður við vöru þegar birgðum er bætt við, en þú verður að úthluta aukalegum kostnað handvirkt á tiltekinn fjárhagslykil með því að tilgreina mótlykil í fjárhag þegar færslubók er stofnuð. Þessi gerð birgðabókar er gagnleg ef þú vilt skrifa yfir sjálfgefna bókunarlykla.
 
 ### <a name="inventory-adjustment"></a>Leiðrétting birgða
 
@@ -61,8 +60,8 @@ Eftirtaldar gerðir birgðabóka eru tiltækar:
 
 Hægt er að Nota flutningabækur til að flytja vörur milli staðsetningar birgðageymslu, runur eða afurðarafbrigði án þess að tengja neinn kostnað. Til dæmis er hægt að flytja vörur úr einu vöruhúsi í annað vöruhús innan sama fyrirtækis. Þegar flutningabók er notuð, verður að tilgreina bæði á "frá" og "til" birgðavíddir (til dæmis, fyrir Svæði og Vöruhúsa). Birgðir á lager fyrir skilgreindar birgðavíddir er breytt til samræmis. Birgðaflutning endurspegla tafarlausa hreyfingu efnis. Birgðir í flutningum eru ekki raktar. Ef rekja verður birgðir í flutningi, ætti frekar að nota flutningspöntun. Þegar flutningsbók er bókuð, eru tvær birgðafærslur stofnaðar fyrir hverja færslubókarlínu:
 
--   Birgðaúthreyfing á "frá" staðsetningunni
--   Þinnhreyfing birgða á "til" staðsetningunni
+-   BirgðaÚthreyfing á "frá" staðsetningunni.
+-   Þinnhreyfing birgða á "til" staðsetningunni.
 
 ### <a name="bom"></a>Uppskrift
 
@@ -78,11 +77,11 @@ Framleiðsluílagsbækur virka eins og vörukomubókin en eru notaðar fyrir fra
 
 ### <a name="counting"></a>Talning
 
-Talningarbækur leyfa þér að leiðrétta gildandi birgðum á lager sem er skráð fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](tasks/define-inventory-counting-processes.md).
+Talningarbækur leyfa þér að leiðrétta gildandi birgðir á lager sem eru skráðar fyrir vörur eða vöruflokka og bóka síðan efnislega rauntalningu, þannig að hægt er að gera leiðréttingar sem er krafist til að stemma af mismun. Hægt er að tengja talninarreglur við talningaflokka til að aðstoða við að flokka vörur sem hafa mismunandi einkenni, svo að hægt er að taka með þau atriði í talningarbók. Til dæmis er hægt að setja upp talningarflokk til að telja vörur með tilteknu tíðni, eða til að telja vörur þegar birgðir fara niður í ákveðnu stig. Fyrir upplýsingar um hvernig á að skilgreina talningarflokka, sjá [Skilgreina ferli birgðatalningar](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Seðlatalning
 
-Talningabækur merkja eru notaðar til að úthluta númeruðu merki á talningalotu. Merkið ætti að innihalda merkjanúmer, vörunúmer og magn vörunnar. Til að aðstoða við að tryggja að merki er notað aðeins einu sinni, og að öll merki eru notuð, ætti hvert vörunúmer að hafa einkvæm sett merkja sem hefur sína eigin númeraröð. Hægt er að setja þrjár stöðugildi fyrir hvert merki:
+Talningabækur merkja eru notaðar til að úthluta númeruðu merki á talningalotu. Merkið ætti að innihalda merkjanúmer, vörunúmer og magn vörunnar. Til að tryggja að merki sé notað aðeins einu sinni, og að öll merki séu notuð, ætti hvert vörunúmer að hafa einkvæmt sett merkja sem hefur sína eigin númeraröð. Hægt er að setja þrjár stöðugildi fyrir hvert merki:
 
 -   **Notað** – Vörunúmer er talið fyrir þetta merki.
 -   **Ógilt** – Vörunúmer er ógilt fyrir þetta merki.
@@ -95,4 +94,30 @@ Færslubók getur aðeins einn notandi fengið aðgang að í einu. Ef nokkrir n
 
 ## <a name="posting-journal-lines"></a>Bókunarbókarlínur
 Hægt er að bóka færslubókarlínur sem eru stofnaðar hvenær sem er þar til þú hefur læst afurð frá aukalegum færslum. Gögnin sem færð er inn í færslubók geymast í færslubókinni, jafnvel þótt þú loka færslubókinni án þess að bóka línur.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Stuðningur gagnaeininga fyrir birgðabækur
+
+Gagnaeiningar styðja eftirfarandi gerðir af samþættingaraðstæðum:
+-    Samstillt þjónusta (OData)
+-  Ósamstillt samþætting
+
+Nánari upplýsingar er að finna í [Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> Ekki eru allar birgðabækur Odata-virkar og er því ekki hægt að nota Excel-gagnatengið til að fá gögn birt, uppfærð og flutt aftur inn í Dynamics 365 for Finance and Operations. 
+
+Annar munur milli gagnaeininga færslubókar er hæfnin til að nota samsettar einingar sem innihalda bæði haus og línugögn. Eins og er getur þú notað samsettar einingar fyrir:
+-   Birgðaleiðréttingabók
+-   Birgðahreyfingabók
+
+Þessar tvær birgðabækur styðja aðeins aðstæðurnar *Frumstilla birgðir* sem hluta af innflutningsverkefni gagnastjórnunar:
+-  Þegar númer færslubókarhauss er ekki tilgreint, en númeraröð er tilgreind fyrir færslubókargerðina, mun innflutningsvinnan sjálfkrafa búa til færslubókarhausa fyrir hverjar 1000 línur. Til dæmis munu innflutningur á 2020 línur leiða til eftirfarandi þriggja færslubókarhausa:
+    -  Haus 1: mun innihalda 1000 línur
+    -  Haus 2: mun innihalda 1000 línur
+    -  Haus 3: mun innihalda 20 línur
+-  Gert er ráð fyrir að einkvæmar línuupplýsingar séu fyrir hendi á hverja birgðavídd, ​​sem getur verið afurð, geymsla og rakningarvídd. Þess vegna er ekki hægt að flytja inn færslubókarlínur þar sem aðeins dagsetningarreiturinn er frábrugðin á línunum innan sama innflutningsverkefnis.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md)
 

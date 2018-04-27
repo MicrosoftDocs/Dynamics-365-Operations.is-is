@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Greind
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði eru ábendingar um tilföng sem hægt er að nota til að fræðast betur um viðskiptagreind (BI) og skýrsluverkfæri sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations.
 

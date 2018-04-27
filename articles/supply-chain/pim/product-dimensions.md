@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Afurðarvíddir
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Það eru fjórar afurðavíddir - Litur, Skilgreining, Stærð og Stíll. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
 
@@ -51,6 +50,7 @@ Gildi afurðarvídda eins og Stærð, Lit og Stíl er hægt að stofna á í **S
 -   Smellið á **Upplýsingastjórnun afurðar** &gt; **Útgefnar afurðir**. Veljið afurðarsniðmát. Í **Aðgerðasvæði** er smellt á **Afurð**. Í reitnum **afurðarsniðmát** flokki, skal velja **afurðarvíddir**.
 
 Númer vöruvíddasamsetningar sem hægt er að stofna fyrir vöru er takmörkuð af fjölda afurð mögulegar samsetningar.
+
 | **Ábending**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Þegar þú notar afurð á til dæmis pöntunarlínu velurðu afurðavíddir til að tilgreina afurðarafbrigði sem á að vinna með. |

@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Setja upp RFM-greiningu
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig til að setja upp Nýleikastig, Tíðnistig og Peningastig (RFM) greiningar viðskiptavinum.
 
@@ -60,25 +59,25 @@ Ef fyrirtækið notar uppsöfnuð númer, eru stigin lögð saman. Í sama dæmi
     - Ef hver hluti RFM stigaskors verður að innihalda jafnan fjöldi viðskiptavinum, veljið þá **Jöfn dreifing** gátreitinn. 
     - Velja skal **Bæta við stigaskori** gátreit til að steypa saman öllum þremur stigaskorum. Þetta, til dæmis, myndi veita viðskiptavini RFM skor upp á 13 í stað 535. 
     - Velja skal **Vista feril** gátreit til að krefja kerfið til að vista tölfræðileg gögn fyrir viðskiptavini þannig að gögnin sé hægt er að nota til að reikna út RFM skorið.
-  
+
 5.  Á flýtiflipanum **Nýleiki** er eftirfarandi gert: 
     - Í því **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út á nýleikaskor fyrir viðskiptavini. Til dæmis, ef þú átt 100 viðskiptavinir þýðir skipting upp á 5 að það eru 20 viðskiptavina fyrir hvert stig. Þeir 20 viðskiptavinir sem hafa gert innkaup nýlega hafa nýleikaskor 5. Næstu 20 viðskiptavinir hafa nýleikaskor 4, og svo framvegis. Ef 50 viðskiptavini, 10 viðskiptavinir hafa stig recency upp á 5, 10 hafa recency stig 4 og svo framvegis. 
     - Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa nýleikafæribreytu miðað við aðrar færibreytur þegar RFM skorið er reiknuð út fyrir viðskiptavini. Til dæmis gætirðu lagt hærra gildi á nýleikastig en á peningastig. 
     - Í **Margfaldari** svæðinu, færið inn gildi sem á að margfalda nýleikaskor með. Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað. 
     - Í því **Tímabil** svæðinu, veljið það tímabil þar sem nýleikaskor er reiknuð. Til dæmis eftir viku eða mánuð.
-   
+
 6.  Á flýtiflipanum **Tíðni** er eftirfarandi gert: 
     - Í **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út tíðniskor fyrir viðskiptavini. 
     - Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa tíðnifæribreytu miðað við aðrar þegar RFM skorið er reiknuð út fyrir viðskiptavini. 
     - Í **Margfaldari** svæðinu, færið inn gildi sem margfalda á tíðniskor með. Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað.
-   
+
 7.  Á flýtiflipanum **Peningalegt** er eftirfarandi gert: 
     - Í **Deildir** svæðinu, færið inn fjölda deilda eða flokka sem verður notað til að reikna út á peningalegt skor fyrir viðskiptavini. 
     - Í **Forgangur** svæðinu skal velja hversu mikið vægi á að gefa peningafæribreytu miðað við aðrar þegar RFM skorið er reiknuð út fyrir viðskiptavini. 
     - Í **Margfaldari** svæðinu, færið inn gildi sem margfalda á peningaskorið með. Ef gildi er ekki færður þeirri einkunn sem er ekki margfaldað. 
     - Í **Brúttó/nettó** svæðið, skal velja hvort eigi að reikna peningaskor viðskiptavinar með því að nota brúttó eða nettó reikningsupphæð. 
     - Ef skilaupphæðir viðskiptavinar ætti að draga frá heildarútreikningi reiknings viðskiptavinar, veljið þá **Draga frá skil** gátreitinn. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Skoða rfm-stig viðskiptavinar
 Nota þetta ferli til að samþykkja RFM-stig viðskiptamanns. 
 

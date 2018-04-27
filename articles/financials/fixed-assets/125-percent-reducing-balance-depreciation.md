@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 125% bókfært virði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 
@@ -68,6 +67,7 @@ Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltæ
 -   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 125% bókfært virði
+
 |                                |        |
 |--------------------------------|--------|
 | Kaupverð               | 11.000 |

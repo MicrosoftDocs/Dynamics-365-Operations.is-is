@@ -3,7 +3,7 @@ title: Innfella PowerApps
 description: "Þetta efnisatriði lýsir því hvernig á að fella PowerApps inn í Finance and Operations biðlarann til að auka virkni vörunnar."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,20 +16,24 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 0fd0b1e5f94e39455b3c0799c89eea5a59444ad7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
 ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="embed-powerapps"></a>Innfella PowerApps
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
-Í verkvangsuppfærslu 14 styður Microsoft Dynamics 365 for Finance and Operations samþættingu við Microsoft PowerApps, þjónusta fyrir þróunaraðila og aðra ekki tæknilega notendur til að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. PowerApps þróað af þér, fyrirtæki þínu eða breiðara vistkerfi er síðan hægt að fella inn í biðlara Finance and Operations til að auka virkni vörunnar. Til dæmis gætir þú byggt upp PowerApp til að bæta við Finance and Operations með upplýsingum sem eru sótt frá öðru kerfi.  
+Í verkvangsuppfærslu 14 styður Microsoft Dynamics 365 for Finance and Operations samþættingu við Microsoft PowerApps, þjónusta fyrir þróunaraðila og aðra ekki tæknilega notendur til að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. PowerApps þróað af þér, fyrirtæki þínu eða breiðara vistkerfi er síðan hægt að fella inn í biðlara Finance and Operations til að auka virkni vörunnar. Til dæmis gætir þú byggt upp PowerApp til að bæta við Finance and Operations með upplýsingum sem eru sótt frá öðru kerfi. 
+
+Til að fræðast meira um innfellingu PowerApps skal horfa á stutt myndband [Hvernig á að innleiða PowerApps í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+
+> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Bætir við innfelldu PowerApp á síðu
 ### <a name="overview"></a>Yfirlit

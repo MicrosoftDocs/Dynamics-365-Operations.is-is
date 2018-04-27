@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Skilgreina líkön framleiðsluflæðis
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-framleiðsla er reiknaður og honum viðhaldið. Þess vegna er skilgreiningu á framleiðsluflæðislíkan skilyrði fyrir skilgreiningar vinnuflokkana. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

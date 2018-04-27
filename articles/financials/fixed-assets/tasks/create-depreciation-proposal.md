@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-depreciation-proposal"></a>Stofna afskriftartillögu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
 

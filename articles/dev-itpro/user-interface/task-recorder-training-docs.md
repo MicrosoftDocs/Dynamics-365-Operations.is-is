@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Stofna fylgiskjölum eða þjálfun með verkskráningu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Skilgreina kostnaðarstýringareiningar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig skal skilgreina kostnaðarstýringareiningar í kostnaðarbókhaldi fjárhags. Veljið þær víddir kostnaðarhlutar sem þú vilt stjórna kostnaði fyrir í fjárhagnum. Víddarstökum kostnaðarhlutar er breytt yfir í kostnaðarhluta kostnaðarstýringareiningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USP2.
 

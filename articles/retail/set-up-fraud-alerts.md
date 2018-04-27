@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Uppsetning svikaviðvarana
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig á að setja upp skilyrði og reglur til að setja sviksamlegar sölupantanir í bið þar til frekari skoðun hefur farið fram. Skoðunarvirkni tengd svikum er notuð til að ákvarða réttmæti upplýsinga í sölupöntun. Ef upplýsingar í sölupöntun virðist vafasamar miðað við svik viðmiðanir og reglur stofnunarinnar, er hægt að setja pöntunina í bið til að fá frekari skoðun hjá stjórnanda.
 

@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Vinnuafl skipulagt með notkun deilda, starfa og staða
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
 
@@ -48,7 +47,7 @@ Eftirfarandi dæmi er notuð til að sýna hugtök sem lýst er í þessu efnisa
 |**Mannauður**|Yfirmaður mannauðs (vestur)|Yfirmaður mannauðs|
 |**Mannauður**|Yfirmaður mannauðs (miðja)|Yfirmaður mannauðs|
 
- 
+
  <a name="departments"></a>Deildir
 ------------
 

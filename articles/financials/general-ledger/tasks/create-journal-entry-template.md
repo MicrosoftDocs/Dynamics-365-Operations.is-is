@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Stofna færslu í færslubók með því að nota sniðmát
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að vista bókaða færslubókarfylgiskjal sem sniðmát Fylgiskjals og í nota fyrir nýja færslubókarfylgiskjal. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 

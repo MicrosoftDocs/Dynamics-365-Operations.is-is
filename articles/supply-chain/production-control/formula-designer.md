@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Formúluhönnuður
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að nota reikniformúluhönnuð til að greina og viðhalda formúlum í trjáyfirliti.
 
@@ -68,7 +68,7 @@ Síunni sem er beitt fyrir formúlu og leið er sýnd í haus formúluhönnuðar
 <tbody>
 <tr class="odd">
 <td>Afurðarvíddir</td>
-<td>Ef valin endanleg vara er afurðarsniðmát er hægt að skilgreina virka afurðavídd fyrir aðalvalið. Athugið að ef reikniformúluhönnuðurinn er opnaður fyrir vöru sem er ekki afurðarsniðmát er ekki hægt að velja neinar vöruvíddir í svarglugganum <strong>Sía</strong>.</p></td>
+<td>Ef valin endanleg vara er afurðarsniðmát er hægt að skilgreina virka afurðavídd fyrir aðalvalið. Athugið að ef formúluhönnuðurinn er opnaður fyrir afurð sem er ekki afurðarsniðmát verður ekki hægt að velja neinar afurðarvíddir í svarglugganum <strong>Sía</strong>.</p></td>
 </tr>
 <tr class="even">
 <td>Svæði</td>
@@ -88,7 +88,7 @@ Síunni sem er beitt fyrir formúlu og leið er sýnd í haus formúluhönnuðar
 </tr>
 <tr class="odd">
 <td>Frá-magn</td>
-<td>Sía útgáfur með því að velja tiltekin „frá“-magn. Ef þú stillir gildi gætu mismunandi útgáfur formúlu og leiða verið valdar.</td>
+<td>Sía útgáfur með því að velja tiltekin &quot;frá&quot;-magn. Ef þú stillir gildi gætu mismunandi útgáfur formúlu og leiða verið valdar.</td>
 </tr>
 <tr class="even">
 <td>Sýna aðeins gild</td>
@@ -116,8 +116,10 @@ Nota skal aðgerðirnar **Uppskriftarlínur** eða **Formúlur** til að breyta 
 ## <a name="configuring-the-tree-view"></a>Skilgreina trjáyfirlitið.
 Smellið á **Uppsetningu** til að sérsníða upplýsingarnar sem birtast í trjáyfirlitinu í formúluhönnuði.
 
-| Svæðaflokkur | lýsing |
-|-------------|-------------|
-| Uppskrift         | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar í trjáskipulagi. Formúluhönnuðurinn sýnir valin skilyrði neðst í báðum flipum. |
-| Leið       | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar fyrir leiðirnar. |
+
+| Svæðaflokkur |                                                                          lýsing                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Uppskrift     | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar í trjáskipulagi. Formúluhönnuðurinn sýnir valin skilyrði neðst í báðum flipum. |
+|    Leið    |                                           Notið þessa gátreiti til að velja skilyrðin sem eru sýndar fyrir leiðirnar.                                           |
+
 

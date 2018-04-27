@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Skilgreining vöruhúss
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 

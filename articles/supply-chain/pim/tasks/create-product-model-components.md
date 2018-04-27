@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Stofna hluta vörulíkana
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Afbrigðalíkönum afurðar sem byggir á skorðum nota íhluti sem grunneiningar til að koma á skipan vörulíkans. Íhlutina verður að stofna áður en byggð vörulíkan. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

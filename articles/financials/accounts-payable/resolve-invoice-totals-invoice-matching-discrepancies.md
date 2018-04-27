@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Leyst úr ósamræmi við jöfnun samtalna reiknings
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ein gerð villuprófunar á reikningsjöfnun er jöfnun fyrir samtölur reiknings. Til að tilgreina að kerfið eigi að framkvæma jöfnun fyrir samtölur reiknings, á **Færibreytur viðskiptaskulda** síðunni í **Reikningaprófun** flipanum skal stilla **Jafna samtölur reiknings** valkostinn á **Já**. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss. Til eru nokkrar forskilgreind skilgreiningarsniðmát sem hægt er að nota. Fyrir upplýsingar um hvernig á að nota þessi sniðmát, sjá [Sniðmát fyrir skilgreiningargögn](../../dev-itpro/data-entities/configuration-data-templates.md).
 

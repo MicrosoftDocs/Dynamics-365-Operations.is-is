@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
 
@@ -55,8 +54,8 @@ Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða ten
 
 Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
 
->**Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
-
+> **Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
+> 
 > + Vinna
 > + Starfsmaður
 > + Umsækjandi

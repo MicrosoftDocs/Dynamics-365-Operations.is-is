@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Kostnaðarskýrslur og margir samþykkjendur
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Það fer eftir samþykkisstefnu fyrirtækisins á kostnaði, en fleiri en einn einstaklingur gæti þurft að samþykkja kostnaðarskýrslu sem starfsmaður leggur fram. Þegar þú setur upp verkflæðisferli fyrir samþykki á kostnaðarskýrslu geturðu bætt við verkflæðiseiningum sem innihalda verk eða skref fyrir einn eða fleiri samþykkjendur kostnaðarskýrslu. Til dæmis gætir þú krafist þess að allar kostnaðarskýrslur séu samþykktar fyrst af yfirmanni starfsmannsins sem sendi inn skýrsluna og síðan af gjaldkera.
 

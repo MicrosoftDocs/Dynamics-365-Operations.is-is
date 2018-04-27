@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
 

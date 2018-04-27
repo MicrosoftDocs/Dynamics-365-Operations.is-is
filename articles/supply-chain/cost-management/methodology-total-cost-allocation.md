@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Úthlutunaraðferð heildarkostnaðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir leiðbeiningar fyrir notkun á Heildarúthlutun kostnaðar (TCA). Heildarúthlutun kostnaðar er aðferð til að reikna kostnað á milli mælieiningar aðalformúluvöru fyrir runupöntun og aukaafurða sem skilgreindar eru fyrir formúluna.
 

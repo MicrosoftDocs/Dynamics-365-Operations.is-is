@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að meðhöndla eftirágreiddan afslátt viðskiptavinar úr myndun kröfu til að senda þær sem uppsafnanir á viðskiptakröfur. Það fer í gegnum tiltekið dæmi til að útskýra hvernig mismunandi skilyrði í línum fyrir eftirágreiddan afslátt hafa áhrif endanleg upphæðir sem verður kreditfærð á viðskiptavininn. Nauðsynlegt er að nota USMF sýnigögn fyrirtækisins og framkvæma eftirfarandi verkefni áður en byrjað er á leiðarvísi: (1) Fara á síðu færibreytur viðskiptakrafna og útvíkka á flipanum Verð og svo flipann upplýsingar um Verð og athuga að valkosturinn Virkja verðupplýsingar er stilltur á Já. (2) fara í samningur um eftirágreiddan afslátt síðunni og velja samning um eftirágreiddan afslátt viðskiptavinar: USMF 000001. Ef svæði stöðu verkflæðissamþykkis er ekki stilltur á Samþykkt, þarf að smella á Villuleit í aðgerðarúðunni til að samþykkja hana.
 

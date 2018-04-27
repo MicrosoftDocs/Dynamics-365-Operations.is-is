@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kostnaðarbókhald gerir kleift að fá innsýn í hvernig kostnaðarflæði tengist afurðum og þjónustu sem innt er af hendi innan fyrirtækis. Mikilvægt er að kostnaðarúthlutun milli kostnaðarhluta sé byggð á viðeigandi úthlutunargrunni til að kostnaður sé gagnsær. Sjálfgefið er að kostnaðarúthlutun sé á aðalkostnaðareiningu, sem er æskilegt í sumum tilvikum, en það hefur ákveðin áhrif sem hafa þarf í huga.
 

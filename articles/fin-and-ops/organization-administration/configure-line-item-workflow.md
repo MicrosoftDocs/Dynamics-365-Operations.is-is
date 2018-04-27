@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-line-item-workflow"></a>Skilgreina Verkflæði línuatriðis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessu efnisatriði útskýrir hvernig skilgreina á verkflæðiseiningu línuatriðis.
 

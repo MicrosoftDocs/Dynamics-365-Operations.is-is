@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>Rakning hlaupandi meðaltalskostnaðar á hverja birgðavídd
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Hver einstök birgðavara verður að vera tengd við ákveðinn birgðavíddarflokk. Hlaupandi meðaltal kostnaðarverðs fyrir vöru er þess vegna reiknað út miðað við val birgðavídda sem er verið að rekja fjárhagslega.
 

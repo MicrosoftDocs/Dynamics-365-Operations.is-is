@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hægt er að nota verkfæri fyrir sjóðstreymisspár til að greina væntanlegt sjóðstreymi og gjaldeyrisþörf þannig að hægt sé að meta framtíðarþörf fyrirtækis fyrir lausafé. Til að gera spá um sjóðstreymi þarf fyrst að gera eftirfarandi:
 

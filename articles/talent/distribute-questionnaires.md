@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Dreifa og ljúka spurningalista
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Setja upp Retail POS útlitshönnuður
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Nota má eins-smells hönnuð til að hanna mismunandi Retail Modern POS (MPOS) og Cloud POS útlit, í hamnum lárétt eða lóðrétt, fyrir verslanir, afreiðslukassa, gjaldkerar og stjórnendur.
 

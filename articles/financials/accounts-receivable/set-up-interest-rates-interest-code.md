@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Setja upp vaxtastig fyrir vaxtakóða
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vaxtakóðar innihalda stillingar sem ákveða hvenær vextir eru gjaldfærðir og hvernig það er reiknað á gjaldfallna reikninga.
 
@@ -47,17 +46,17 @@ Báðar þessar taxtategundir geta verið til á sama tíma og í sama vaxtakó�
 ## <a name="interest-rates-based-on-a-percentage"></a>Setja upp vexti á grundvelli prósenta
 Hægt er að setja upp vaxtastig sem reiknar út tilgreinda prósentu.
 
--   Upphæð vaxta gildir um alla gjaldmiðla.
--   Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
--   **Prósenta** er valin í **Reikna út vexti á grundvelli** svæðinu á síðunni **Setja upp vaxtakóða**.
+- Upphæð vaxta gildir um alla gjaldmiðla.
+- Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
+- <strong>Prósenta</strong> er valinn** <strong>í **Reikna út vexti á grundvelli</strong> reitnum á síðunni <strong>Setja upp vaxtakóða</strong>.
 
 Til dæmis til að setja upp vaxtakóða sem metur 5 prósent vexti fyrir hverja tvo mánuði sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 2 í svæðið **reikna vexti fyrir hvern** og velja **Mánuður**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Vextir á grundvelli upphæða
 Hægt er að setja upp vaxtastig sem reiknar út tilgreinda upphæð fyrir hvern gjaldmiðil.
--   Vaxtaupphæð er tilgreind fyrir hvern gjaldmiðil í vaxtakóða.
--   Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
--   **Upphæð** er valin í **Reikna út vexti á grundvelli** svæðinu á **Setja upp vaxtakóða** síðunni.
+- Vaxtaupphæð er tilgreind fyrir hvern gjaldmiðil í vaxtakóða.
+- Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
+- <strong>Upphæð **er valin í **Reikna út vexti á grundvelli</strong> reitnum á síðunni <strong>Setja upp vaxtakóða</strong>.
 
 Til dæmis til að setja upp vaxtakóða sem metur 25,00 prósent vexti fyrir hverja 20 daga sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 20 í svæðið **reikna vexti fyrir hvern** og velja **Dagur**.
 
@@ -84,7 +83,7 @@ Settar eru upp upplýsingar um afmörkun sem hér segir.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Dæmi 2: Vextir eftir afmörkun = Dagar
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Settar eru upp upplýsingar um afmörkun sem hér segir.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Dæmi 3: Vextir eftir afmörkun = mánuðir
 ----------------------------------------------------
 

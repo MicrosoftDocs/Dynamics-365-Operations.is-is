@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Setja upp vinnusniðmát fyrir innkaupapantanir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leggur áherslu á setja upp einfaldar vinnusniðmáts sem nota á þegar taka á frá mótteknar vörur. Vinnusniðmát ákvarða safn leiðbeiningarnar sem birtast starfsmanns vöruhús í farsíma þegar fluttar eru vörur frá móttöku svæði. Hægt er að nota þessi ferli með gögn sem eru nefnd í sýnigögn fyrirtækisins USMF. Áður en byrjað er í þessari handbók, stofna kenni vinnuhóps. Í þessu dæmi er kenni vinnuhóps kallað inn í Á innleið notað. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Tengsl þjónustuhluta 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hægt er að stofna þjónustuhlutatengsl á milli þjónustuhlutar og þjónustusamnings eða þjónustupöntunar. Þegar tengsl eru stofnuð er þjónustuhluturinn tengdur við þjónustusamning eða þjónustupöntun.
 

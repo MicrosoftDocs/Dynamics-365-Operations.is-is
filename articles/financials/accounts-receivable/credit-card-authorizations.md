@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Uppsetningar á kreditkorti, heimild og sækja
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þessi grein veitir yfirlit yfir kreditkortaheimild í Microsoft Dynamics 365 for Finance and Operations. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Skilgreina handvirkt verk í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks.
 

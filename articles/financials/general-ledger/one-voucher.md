@@ -3,7 +3,7 @@ title: Eitt fylgiskjal
 description: "Eitt fylgiskjal fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðslubók lánardrottins, o.s.frv.) gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: is-is
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Þessi virkni verður í boði í Dynamics 365 for Finance and Operations útgáfu 8.0, sem verður fáanleg í vorútgáfu '18.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðslubók lánardrottins, o.s.frv.) gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal. Við vísum í þessa virkni sem „Eitt fylgiskjal.“ Hægt er að stofna eitt fylgiskjal með því að nota eina af eftirfarandi aðferðum:
 
--   Setjið upp færslubókarheitið (**Fjárhagur** \> **Uppsetning færslubókar** \>**Færslubókarheiti**) þannig að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjalsnúmer**. Sérhverri línu sem bætt er við færslubókina er nú að finna í sama fylgiskjalinu. Vegna þess að sérhverri línu er bætt við sama fylgiskjalið, er hægt að færa inn fylgiskjalið sem marglínu fylgiskjal, sem lykil/mótlykil í sömu línunni eða sem samsetningu.
+-   Setjið upp færslubókarheitið (**Fjárhagur** \> **Uppsetning færslubókar** \>**Færslubókarheiti**) þannig að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjalsnúmer**. * Sérhverri línu sem bætt er við færslubókina er nú að finna í sama fylgiskjalinu. Vegna þess að sérhverri línu er bætt við sama fylgiskjalið, er hægt að færa inn fylgiskjalið sem marglínu fylgiskjal, sem lykil/mótlykil í sömu línunni eða sem samsetningu.
 
 [![Stök lína](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Athugaðu að skilgreiningin á „Einu fylgiskjali“ inniheldur EKKI færslubókarheiti sem eru sett upp sem **Eitt fylgiskjalsnúmer** eingöngu og notandinn færir síðan inn fylgiskjal sem inniheldur eingöngu fjárhagslyklagerðir.  Í þessu skjali merkir „Eitt fylgiskjal“ að það sé eitt fylgiskjal sem inniheldur fleiri en einn lánardrottin, viðskiptavin, banka, eign eða verk. 
 
 -   Sláið inn marglínu fylgiskjal þar sem enginn mótlykill er.
 
@@ -68,13 +71,16 @@ Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 
 Vegna þeirra vandkvæða sem minnst var á verður virkni eins fylgiskjals gerð úreld. Hins vegar, vegna þess að það eru virknigloppur sem treysta á þessa virkni, mun virknin ekki vera úreld öll í einu. Í staðinn munum við nota eftirfarandi áætlun: 
 
--   **Vorútgáfa 2018** - Slökkt verður á virkninni sjálfgefið með færibreytu fjárhagsbókar. Hins vegar er hægt að kveikja á virkninni ef fyrirtækið hefur atburðarás sem heyrir undir atburðarás á viðskiptagloppum sem eru útlistaðar seinna í þessu efnisatriði.
+- **Vorútgáfa 2018** - Slökkt verður á virkninni sjálfgefið með færibreytu fjárhagsbókar. Hins vegar er hægt að kveikja á virkninni ef fyrirtækið hefur atburðarás sem heyrir undir atburðarás á viðskiptagloppum sem eru útlistaðar seinna í þessu efnisatriði.
 
-    -   Ef viðskiptavinur hefur viðskiptaatburðarás sem ekki krefst eins fylgiskjals skal ekki kveikja á virkninni. Við munum ekki laga „villur“ á þeim svæðum sem eru auðkenndar síðar í þessu efnisatriði ef þessi virkni er notuð jafnvel þó að önnur lausn sé til staðar.
+  -   Ef viðskiptavinur hefur viðskiptaatburðarás sem ekki krefst eins fylgiskjals skal ekki kveikja á virkninni. Við munum ekki laga „villur“ á þeim svæðum sem eru auðkenndar síðar í þessu efnisatriði ef þessi virkni er notuð jafnvel þó að önnur lausn sé til staðar.
 
-    -   Hættið að nota Eitt fylgiskjal fyrir samþættingu í Microsoft Dynamics 365 Finance and Operations, nema virknin sé nauðsynleg fyrir eina af virknigloppunum.
+  -   Hættið að nota Eitt fylgiskjal fyrir samþættingu í Microsoft Dynamics 365 Finance and Operations, nema virknin sé nauðsynleg fyrir eina af virknigloppunum.
 
--   **Haustútgáfa 2018 og síðar** - Fyllt verður upp í virknigloppurnar. Eftir að fyllt hefur verið upp í virknigloppurnar verður slökkt á virkni eins fylgiskjals til frambúðar.
+- **Haustútgáfa 2018 og síðar** - Fyllt verður upp í virknigloppurnar. Eftir að fyllt hefur verið upp í virknigloppurnar verður slökkt á virkni eins fylgiskjals til frambúðar.
+
+- > [!IMPORTANT]
+  > Athugaðu að valkosturinn **Eitt fylgiskjal eingöngu** hefur EKKI verið fjarlægður úr uppsetningu færslubókarheitis.  Þessi valkostur er ennþá studdur þegar fylgiskjalið inniheldur eingöngu fjárhagslyklagerðir.  Viðskiptavinir verða að gæta þess að nota þessa stillingu vegna þess að fylgiskjalið mun ekki bókast ef þeir nota **Eitt fylgiskjalsnúmer eingöngu**, en færa svo inn fleiri en einn viðskiptavin, lánardrottin, banka, eign eða verk.  Einnig geta viðskiptavinir ennþá fært inn lyklagerðir undirbókar, t.d. greiðslu innan eins fylgiskjals sem inniheldur lyklagerðir lánardrottins/banka.  
 
 <a name="why-use-one-voucher"></a>Af hverju að nota Eitt fylgiskjal?
 ====================
@@ -102,13 +108,13 @@ Eftirtaldar tilfelli er aðeins hægt að ná með því að nota virknina Eitt 
 
 >   Ef fyrirtæki þarf að skoða bókhaldsfærslur viðskiptatilviks saman verður að nota Eitt fylgiskjal. 
 
--   **Landsbundnar aðgerðir**
+- **Landsbundnar aðgerðir**
 
- -   Aðgerðin Eitt stjórnsýsluskjal (SAD) fyrir Pólland krefst þess eins og er að notað sé eitt fylgiskjal. Þangað til flokkunarvalkostur er tiltækur fyrir þessa aðgerð, verður að halda áfram að nota virknina Eitt fylgiskjal. Það kunna að vera til fleiri landsbundnar aðgerðir sem krefjast virknina Eitt fylgiskjal.
+  -   Aðgerðin Eitt stjórnsýsluskjal (SAD) fyrir Pólland krefst þess eins og er að notað sé eitt fylgiskjal. Þangað til flokkunarvalkostur er tiltækur fyrir þessa aðgerð, verður að halda áfram að nota virknina Eitt fylgiskjal. Það kunna að vera til fleiri landsbundnar aðgerðir sem krefjast virknina Eitt fylgiskjal.
 
--   **Greiðslubók fyrirframgreiðslu fyrir viðskiptavini sem hefur skatta á mörgum „línum"**
+- **Greiðslubók fyrirframgreiðslu fyrir viðskiptavini sem hefur skatta á mörgum „línum"**
 
- -   Viðskiptavinur greiðir fyrirframgreiðslu fyrir pöntun, og línurnar í pöntuninni hafa mismunandi skatta sem verða að vera skráðir fyrir fyrirframgreiðsluna. Fyrirframgreiðsla á greiðsla viðskiptavinar er ein færsla sem hermir eftir línum pöntunar, þannig að hægt sé að skrá viðeigandi skatt fyrir upphæðina á hverri línu.
+  -   Viðskiptavinur greiðir fyrirframgreiðslu fyrir pöntun, og línurnar í pöntuninni hafa mismunandi skatta sem verða að vera skráðir fyrir fyrirframgreiðsluna. Fyrirframgreiðsla á greiðsla viðskiptavinar er ein færsla sem hermir eftir línum pöntunar, þannig að hægt sé að skrá viðeigandi skatt fyrir upphæðina á hverri línu.
 
 Í þessari tilfelli eru viðskiptavinirnar í eina fylgiskjalinu sömu viðskiptavinirnir vegna þess að færslan líkir eftir línum fyrir pöntun viðskiptavinar. Fyrirframgreiðslan verður að vera færð inn í eitt fylgiskjal vegna þess að skattaútreikningur verður að vera gerður á „línum“ stöku greiðslunnar sem viðskiptavinurinn gerði.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Uppsetning vildarkerfis
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er.
 

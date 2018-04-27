@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eftirfarandi flýtilyklar eiga við alls staðar í Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 
 
 ## <a name="action-shortcuts"></a>Flýtileiðir
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Til að gera þetta**                                    | **Styðjið á**                        |
@@ -55,6 +55,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Skoða fyrirliggjandi tiltækar flýtileiðir                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Flýtileiðir dagsetningarvals
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Til að gera þetta**                        | **Styðjið á**                                 |
@@ -68,6 +69,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Velja aldrei (eða hámarksdagar)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Flýtivísanir upplýsingakassi
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Til að gera þetta**                                                                  | **Styðjið á**                                 |
@@ -79,6 +81,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Síun flýtivísana
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Til að gera þetta**                     | **Styðja skal á**                |
@@ -89,6 +92,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Opna ítarlega síun/röðun                                      | Ctrl+Shift+F3            | 
 
 ## <a name="form-shortcuts"></a>Flýtileiðir skjámyndar
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Til að gera þetta**                                      | **Styðja skal á**         |
@@ -110,6 +114,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Lokið skjámyndinni og hendið öllum óvistaðum breytingum       | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Flýtileiðir flettiskjámyndar
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Til að gera þetta**                                      | **Styðjið á**                                    |
@@ -128,6 +133,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Skipta yfir í línuyfirlit                                | Ctrl+Shift+L                                 |
 
 ## <a name="grid-shortcuts"></a>Flýtileiðir hnitanets
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Til að gera þetta**                                                                                                         | **Styðjið á**                       |
@@ -148,6 +154,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
 
 ## <a name="input-control-shortcuts"></a>Flýtivísanir inntaksstýringar
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Til að gera þetta**                                                               | **Styðjið á**                     |
@@ -163,6 +170,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Skitpa áherslu milli textasvæðis og tækjastiku í HTML-ritlinum | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Flýtileiðir skilaboða
+
 |                          |               |
 |--------------------------|---------------|
 | **Til að gera þetta**           | **Styðjið á**     |
@@ -170,6 +178,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara í Skilaboðastiku    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Flýtileiðir flettinga
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Til að gera þetta**                                                                | **Styðjið á**                  |
@@ -191,6 +200,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara í upplýsingakassa (sem kann að fela í sér að opna hann)                       | Alt+M,B eða Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Sérstilltar flýtileiðir
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Til að gera þetta**                                                                                                         | **Styðjið á**                           |
@@ -219,6 +229,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Loka sérstillingu (í sérstillingu)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Flýtileiðir hlutafærslna
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Til að gera þetta**                                                                                                          | **Styðjið á**                        |

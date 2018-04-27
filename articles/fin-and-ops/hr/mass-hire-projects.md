@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Fjöldaráðningarverk
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöður og ráða starfsmenn á skilvirkan hátt í þær stöður.
 
@@ -94,7 +93,7 @@ ráðningarverk getur verið með eftirfarandi stöður:
 </tbody>
 </table>
 
- 
+
 
 
 

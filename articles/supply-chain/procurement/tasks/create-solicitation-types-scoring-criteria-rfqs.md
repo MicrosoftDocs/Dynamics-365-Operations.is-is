@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Búa til gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðsbeiðnir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessari handbók sýnir hvernig á að stofna gerð beiðni og tengja þetta við aðferð við stigagjöf. Hún sýnir einnig hvernig á að nota gerð beiðni fyrir beiðni um tilboð (BUT) sem ákvarðar síðan sjálfgefna aðferð við stigagjöf. Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú þarft að hafa aðferð við stigagjöf tiltækt áður en byrjað er.
 

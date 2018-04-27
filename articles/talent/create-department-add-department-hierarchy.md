@@ -28,8 +28,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Stofna deild og tengja hana við stigveldi deildar
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði. Hægt er að nota deildir til að gefa skýrslur um virk svið. Deildir gætu haft ábyrgðarsvið fyrir hagnað og tap.
 

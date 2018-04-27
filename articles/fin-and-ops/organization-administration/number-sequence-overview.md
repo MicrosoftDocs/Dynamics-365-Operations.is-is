@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="number-sequences"></a>Númeraraðir
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem *tilvísun*.
 

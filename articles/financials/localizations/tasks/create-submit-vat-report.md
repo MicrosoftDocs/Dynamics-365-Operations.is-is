@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-submit-vat-report"></a>Stofna og senda inn VSK-skýrslu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leiðir þig í gegnum að stofna og senda inn VSK-skýrsla til þýskra yfirvalda.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Breyta afskriftarvenjum fyrir margar eignir
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verkefni uppfærir afskriftarreglu fyrir tilgreindan eignaflokk. Þessi leiðarvísi fyrir verk notar sýnigögn USMF fyrirtækis.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Skráning tíma og mætinga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tímaskráningar, til dæmis innstimplun, útstimplun, skráningu óbeinna aðgerða og fjarvistarskráningu. Þetta efnisatriði lýsir skráningum, útreikningi þeirra, samþykki og notkun verkflæðis til að bæta skipulag og sjálfvirku samþykki ferlisins að samþykkja vinnuskýrslur. 
 
@@ -95,7 +94,7 @@ Hægt er að setja upp verkflæði samþykktarferli sem samþykkir sjálfkrafa s
 | Ráðstafa dagasamtölu tíma og viðveru            | Verkflæði staðfestir skráningu gagnvart, t.d. væntanlegum fjölda vinnustunda yfir daginn. |                                                                                                                                                                                                                                                       |
 | Skráning aðgerðatíma og viðveru í færslubók. | Verkflæði staðfestir hverja gerð skráningar fyrir dagsetningu skráningar.                           | Tími og mæting • innstimplun • útstimplun • Fjarvistir • Hlé • Skiptkóði • Verk • verkþáttar • Framleiðsluvinnsla óbeins verkþáttar • Biðröð fyrir • Uppsetning • Ferli • Skörun • Flutningur • Biðröð eftir • Ræsa aðstoð • Stöðva aðstoð |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Flutningur skráðra samþykkta
 Eftir að skráningar eru samþykktar er hægt að færa þær í°reglubundnar launavinnslur. Flutt skráning er bókuð á verkþátt eða starf sem hún tengist, til dæmis, framleiðslupöntun eða verki. Launafærslur eru myndaðar fyrir hvern starfsmann samkvæmt skráningunni.  

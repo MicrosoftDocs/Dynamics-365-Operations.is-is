@@ -1,9 +1,9 @@
 ---
-title: Setja upp valkosti pantanavinnslu
-description: "Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Retail."
+title: "Setja upp rás símavers"
+description: "Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,64 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 144bee2102b8d1901d1b4964f6c92501c1cd573d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Uppsetning valkosta pantanavinnslu
+# <a name="set-up-a-call-center-channel"></a>Setja upp rás símavers
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Fyrirtæki getur skilgreint margar rásir símavers í Microsoft Dynamics 365 for Retail. Rásir símavers eru stilltar í **Retail** \> **Rásir** \> **Símaver** \> **Öll símaver** og þau eru sérstæk fyrir lögaðila.
 
-Þetta efni veitir upplýsingar um hvernig á að vinna pantanir fyrir símaver með Microsoft Dynamics 365 for Retail. 
+Þegar ný rás símavers er búin til er henni kerfisbundið úthlutað rekstrareiningarnúmeri. Vegna þess að símaver eru búin til sem rekstrareiningar geta notendur tengt rásir símavers við ýmsar Retail eiginleika, t.d. vöruúrval, vörulista og tiltekna sendingarmáta.
 
-Retail styður fjölda smásölurása, þ.m.t. netverslanir og verslanir á staðnum og þjónustuver. Í símaverum, starfsmenn taka pantanir viðskiptavina yfir síma og stofna sölupantanir. Þetta efnisatriði lýsir hvernig stofna á símaveri og skilgreina valkosti vinnustöðvar símtalalista. Hvert símaver getur haft eigin notendur, greiðsluhætti, verðflokkar, fjárhagsvíddir og afhendingarmáta. Hægt er að skilgreina valkosti þegar símaver er stofnað. **Mikilvægt:** Áður en hægt er að nota verkflæði símavers þegar notandi stofnar sölupantanir verður að úthluta notanda á símaver sem notanda símavers. Síðuna **símaver** má einnig nota til að kveikja eða slökkva á eiginleikaflokkum sem eru sértækir fyrir símaver. Hægt er að virkja eftirfarandi þrjá flokka eiginleika:
+Hægt er að stilla sjálfgefið vöruhús á rás símavers. Þegar sölupantanir eru síðan búnar til í þeirri rás er sjálfgefna vöruhúsið sjálfkrafa slegið inn í sölupöntunarhaus nema annað vöruhús hafi verið skilgreint fyrir viðskiptavininn sem er valinn fyrir sölupöntunina. Í því tilfelli er vöruhús viðskiptavinar slegið inn að sjálfgefnu.
 
--   **Lok pöntunar**– Þessi flokkur inniheldur eiginleika sem tengjast greiðslum og lokum pöntunar í síðunni **sölupöntun**.
--   **Beind sala**– Þessi flokkur inniheldur aðgerðir sem tengjast frumkóðum, forskriftum og beiðnum um vörulista.
+Notendur verða að vera tengdir við rás símavers til að nota eiginleika símavers. Sérhver sölupöntun sem notandi býr til í Retail er sjálfkrafa tengd við rás símavers notanda. Eins og er getur einn notandi ekki tengst við margar rásir símavers á sama tíma.
 
-Þegar þessir eiginleikar í stillingum símavers eru virkjaðar, eru þær tiltækar á síðunni **sölupöntun** fyrir notendur sem eru tengdir við símaverið. Flestar þessara aðgerða krefjast frekari uppsetningar áður en hægt er að nota þær. Myndir og forskriftir eru virkjuð sem hluti af stillingum beindar sölu fyrir tilteknar símaveri. Ef þessi aðgerð er virkjuð birtast forskriftir og vörumyndum í rúðu Upplýsingakassa á **sölupöntun** síðu. Sjálfgefin mynd sem er sett upp fyrir afurð er sýnd. Hægt er að skilgreina forskriftir fyrir vöru, vörulista, viðskiptavini eða vöru í vörulista. Símaver geta sýnt nánari upplýsingar um hvernig verð fyrir tilteknar pöntunarlínu var fengin. Til dæmis sýna pantanir hvaða afslættir voru notaðar. Hægt er að virkja þessa aðgerð á **Viðskiptakröfur** &gt; **Uppsetning** &gt; **Færibreytur viðskiptakrafna** &gt; **Verð** &gt; **Upplýsingar um Verð**. Hægt er að nálgast **Verð upplýsingar** síðuna úr **sölupöntunarlína** fellilistanum. Hægt er að nota rakningu pöntunaratburðar fyrir endurskoðunartilgangi, til að fara yfir aðgerðir sem eru teknar gagnvart pöntun á líftíma pöntunar, eða til að rekja aðgerðir af ákveðnum notanda. Til dæmis er hægt að skrá aðgerðina í hvert sinn sem notandi stofnar sölupöntun, setur pöntun í bið, hnekkir gjaldi eða uppfærir pöntunarlínu. Þú getur sett upp röð atburða til að rekja aðgerðir fyrir tiltekna notendur, hópa notenda eða alla notendur á tilteknu tímabili. Hægt er að skoða aðgerðirnar sem voru gerðar í skjal með því að opna **pöntunartilvik** síðuna úr á Aðgerðarúðu á síðunni fyrir það skjal. Hægt er að skilgreina pöntunartilvik á **Sölu og markaðssetningar** &gt; **Uppsetning** &gt; **Tilvik** &gt; **Pöntunartilvik**. Þegar pöntun viðskiptavinar er ekki hægt að senda á réttum tíma getur fyrirtæki sent sjálfkrafa tilkynningapóst til viðskiptavinarins til að útskýra stöðu pöntunar og veita viðskiptavini tækifæri til að hætta við pöntun. Ef seinkun nær fram yfir tilgreindum þröskuldi, hægt að hætta við pöntunina sjálfkrafa. Hægt er að senda allt að þrjú skilaboð í tölvupósti á tilteknum millibili:
+Einnig er hægt að skilgreina forstillingu fyrir tilkynningar í tölvupósti á rás símavers. Forstillingin skilgreinir sett af sniðmáti fyrir tölvupóst sem er notað þegar tölvupóstur er sendur til viðskiptavina sem leggja inn pantanir í gegnum rás símaversins. Hægt er að stilla tölvupóstsræsingar við kerfisatvik á borð við innsendingu pöntunar eða afhendingu pöntunar.
 
-1.  **Fyrsta afturköllunartilkynning** – viðskiptavinurinn hætta við pöntunina.
-2.  **-Önnur afturköllunartilkynning** – viðskiptavinurinn getur hætta við pöntunina.
-3.  **Síðasta afturköllunartilkynning** – kerfið hættir við pöntun, og viðskiptavinurinn fær tilkynningu um afturköllunina..
+Áður en hægt er að vinna úr sölum með réttum hætti í gegnum rás símavers, verður að skilgreina réttan [greiðslumáta](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) og afhendingarsnið fyrir rásina.
 
-Hægt er að veita einstökum viðskiptavinum og afurðum undanþágu frá sjálfvirkum tilkynningum og afturköllunarferli. Framlegðarviðvörun er ræst þegar vöru er bætt við pöntun. Viðvörun inniheldur mikilvægar upplýsingar um vöruna, þar á meðal framlegð af verði og arðsemi. Hægt er að nota þessar upplýsingar til að ákveða hvort er verðhnekking er viðeigandi þegar vöru er bætt við sölupöntunina. Til dæmis seturðu upp þröskulda fyrir öryggismörk viðskipta til að tilgreina þröskuldinn 40 prósent eða meira yfir kostnaði er viðunandi fyrir vöru en þröskuld uppá 20 til 39 prósent yfir kostnaður er vafasamt. Í þessu tilfelli, allar vörur sem hefur þröskuldur milli 20 og 39 prósent ræsir viðvörun. Ekki er hægt að selja neinar vörur sem hefur þröskuld fyrir minna en 20 prósent yfir kostnaður, og ekki er hægt að leiðrétta vöruverð. Hægt er að skilgreina framlegðarviðvaranir á **Viðskiptakröfur** &gt; **Uppsetning** &gt; **Færibreytur viðskiptakrafna** &gt; **Framlegðarviðvaranir**. Þegar sett er upp úthlutun vsk á grunn sjálfgefinna reglna, er hægt að ákvarða samsvarandi forgang fyrir aðsetur einingar. Til dæmis er hægt að tilgreina sem samsvörun fyrir vsk-flokk eftir Póstnúmeri hefur er hærri forgang en samsvörun fyrir vsk-flokk eftir ríki. Þegar þú slærð inn skráningar um nýja viðskiptavini, er VSK-flokkur sjálfkrafa úthlutað á grundvelli þess hvernig netfang viðskiptavinarins passar við sjálfgefna samsvörun á reglum og forgangi sem þú tilgreindir. Þessi aðgerð er hægt að skilgreina á **fjárhagsfæribreytur** síðu.
+Á stigi símaversrásar er hægt að skilgreina önnur sjálfgefin gildi sem tengjast fjárhagsvíddum sem verða tengd við pantanir sem eru búnar til af þeirri rás.
 
+## <a name="options-for-order-processing-behavior"></a>Valkostir fyrir hegðun á vinnslu pantana
 
+Þrjár stillingar í grunnstillingum símavers hafa mikil áhrif á þá eiginleika og aðgerðir sem eru í boði fyrir sölupantanir sem eru búnar til gagnvart þessu símaveri: **Virkja lok pöntunar**, **Virkja beina sölu** og **Virkja verðstýringu pöntunar**.
 
+### <a name="enable-order-completion"></a>Virkja lok pöntunar
+
+Stillingin **Virkja lok pöntunar** á rás símavers hefur mikil áhrif á vinnsluflæði pantana á sölupöntunum sem eru færðar inn í rásina. Þegar kveikt er á þessari stillingu verða allar sölupantanir að fara í gegnum sett af villuleitarreglum áður en hægt er að staðfesta þær. Hægt er að keyra þessar reglur með því að velja hnappinn **Lokið** sem er bætt við á aðgerðarsvæðinu á síðu sölupöntunar. Allar sölupantanir sem eru búnar til þegar kveikt er á stillingunni **Virkja lok pöntunar** verða að fara í gegnum lokunarferli pöntunar. Þetta ferli tryggir að náð sé í reglu greiðslu og greiðslustaðfestingar. Til viðbótar við framfylgni á greiðslu getur innsendingarferli pöntunar kveikt á [athugun á svikum](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts) sem eru skilgreindar í kerfinu. Pantanir sem falla á greiðslu eða prófun á svikum eru settar í bið og er ekki hægt að losa til frekari vinnslu (á borð við tiltekt eða afhendingu) fyrr en málið sem olli biðinni er leyst.
+
+Þegar kveikt er á stillingunni **Virkja lok pöntunar** fyrir rás símavers, ef vörulínur eru færðar inn á sölupöntun og notandi rásar reynir að loka eða fletta í burtu frá skjámynd sölupöntunar án þess að velja fyrst **Lokið**, framfylgir kerfið lokunarferli pöntunar með því að opna samantektarsíðu sölupöntunar og krefjast þess að notandi sendi pöntunina rétt. Ef ekki er hægt að senda pöntun á réttan hátt ásamt greiðslu, getur notandinn notað virknina [biðpantanir](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) til að setja pöntunina í bið. Ef notandi er að reyna að hætta við pöntun verður hann eða hún að hætta henni á réttan hátt með því að nota annaðhvort aðgerðina Hætta við eða aðgerðina Eyða, fer eftir því hvaða aðgerð öryggi notanda leyfir.
+
+Ef kveikt er á stillingunni **Virkja lok pöntunar** fyrir rás símavers, verður reiturinn **Staða greiðslu** rakinn á pöntuninni. Kerfið reiknar út **Greiðslustöðu** þegar sölupöntun er send. Aðeins pantanir sem hafa samþykkta greiðslustöðu geta farið í gegnum kerfið fyrir frekari skre í vinnslu á pöntun, svo sem tiltekt og afhending. Ef greiðslum er hafnað, mun kvikna á flagginu **ekki vinna úr** á ítarlegri pöntunarstöðu, sem setur pöntunina í bið þar til greiðsluvandinn er leystur.
+
+Að auki, ef kveikt er á stillingunni **Virkja lok pöntunar**, þegar notendur búa til sölupantanir og eru í færslusniði vörulínu, verður reiturinn **Uppruni** tiltækur í sölupöntunarhaus. Reiturinn **Uppruni** er notaður til að grípa [upprunakóða vörulista](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) við aðstæður beinnar markaðssölu. Þessi kóði getur síðan keyrt sérstök verð og kynningar.
+
+Jafnvel þótt slökkt sé á stillingunni **Virkja lok pöntunar** geta notendur enn notað upprunakóða á sölupöntun. Hins vegar verða þeir fyrst að opna upplýsingar sölupöntunarhauss til að fá aðgang að reitnum **Uppruni**. Með öðrum orðum þá er þörf á frekari smellum. Sama hegðun á við um eiginleika eins og afhendingu lokið og flýttar pantanir. Þessar aðgerðir eru tiltækir fyrir allar pantanir sem eru búnar til í símaverinu. Hins vegar þegar kveikt er á stillingunni **Virkja lok pöntunar** geta notendur séð grunnstillingar þessara aðgerða á söluhaus á meðan þeir eru í yfirliti færslulínu. Þeir þurfa ekki að kafa niður í upplýsingar sölupöntunarhauss til að finna viðeigandi stillingar og reiti.
+
+### <a name="enable-direct-selling"></a>Virkja beina sölu
+
+Ef kveikt er á stillingunni **Virkja beina sölu** fyrir rás símaver geta notendur nýtt sér eiginleika viðbótarsölu og krosssölu í Retail. Í þessu tilfelli birtast sprettigluggar við pöntunarfærslu og benda á aðrar afurðir sem notandi símavers getur boðið viðskiptavininum. Ráðlagðar afurðir byggjast á afurðinni sem var verið að panta á sölupöntunarlínu. Eins og er eru ráðleggingar viðbótarsölu og krosssölu skilgreindar á vörustigi afurða og vörulista. Ef slökkt er á stillingunni **Virkja beina sölu** fyrir rás símavers birtast sprettigluggir ekki við pöntunarfærslu, jafnvel þótt gild viðbótarsala og krosssala var skilgreind fyrir vöru sem verið er að panta.
+
+Þegar kveikt er á stillingunni **Virkja beina sölu** er einnig kveikt á eiginleikum forskrifta og mynda á síðu sölupöntunarfærslu. Í þessu tilfelli er upplýsingagluggi í boði hægra megin á síðunni við pöntunarfærslu. Þessi gluggi getur sýnt forskriftir sem tengjast almennu ferli pantanavinnslu, upprunakóða vörulista sem var notaður eða forskriftum sem tengjast vörunum sem verið er að panta. Að auki getur myndglugginn sýnt mynd afurðar fyrir vörurnar sem verið er að panta ef mynd hefur verið skilgreind fyrir vöruna í vöruuppsetningu.
+
+### <a name="enable-order-price-control"></a>Virkja verðstýringu pöntunar
+
+Þegar kveikt er á stillingunni **Virkja verðstýringu pöntunar** geta aðeins notendur með heimild breytt söluverði vöru við pöntunarfærslu. Breytingarnar verða að vera innan skilgreindra vikmarka. Notendur sem ekki hafa viðeigandi heimild þurfa að leggja fram beiðni um breytingu á verði í staðinn. Unnið verður úr beiðninni í gegnum verkferla kerfisins fyrir endurskoðun og samþykki.
+
+## <a name="channel-users"></a>Rásarnotendur
+
+Þegar rás símavers er skilgreind þarf að tengja rásarnotendur við símaverið. Annars er ekki hægt að nota símaverið í kerfinu. Þegar notendur skrá sig inn í Retail og færa inn sölupantanir eða skila pöntunum á síðu sem tengist pöntunarfærslu, er notandakenni þeirra sannprófað gagnvart stillingu símaversrásar. Ef notandi er tengdur við tiltekna rás símavers erfa pantanir sem notandi býr til einkenni og sjálfgefin gildi þeirrar rásar.
+
+Sjálfgefið er að kveikt sé á flaggi **Smásölu** á sölupöntunarhaus fyrir allar pantanir sem notandi símavers býr til. Pantanir geta síðan notfært sér eiginleika sértækra smásöluverða og kynningartilboða kerfisins.
+
+Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pöntunarfærslu í Microsoft Dynamics 365 for Finance and Operations. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Retail pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, smásöluverðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
+
+Þegar stillingu á rás símavers og skilgreiningu á rásarnotendum er lokið, til að hjálpa að tryggja æskilega kerfishegðun, skal ganga úr skugga um að allar nauðsynlegar færibreytur símavers séu skilgreindar í **Retail** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Tryggja skal að tengdar númeraraðir séu einnig skilgreindar.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Regluleg talning
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
 

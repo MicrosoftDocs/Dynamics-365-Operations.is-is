@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Setja upp ytri vörulista fyrir PunchOut eProcurement
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Með því að nota ytri vörulista er hægt að tryggja að upplýsingar um vöru og verð sem er síðan unnið úr í Dynamics 365 for Finance and Operations, júlí 2017, eru nákvæmar og uppfærðar. Beiðnin getur þá verið samþykkt og umbreytt í sölupöntun og pöntun geta verið staðsettir á lánardrottni.
 

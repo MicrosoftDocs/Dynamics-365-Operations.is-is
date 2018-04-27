@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: is-is
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>Færa inn vinnukort verks
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýja vinnukort getur verið grunnur upplýsingar frá fyrra vinnukort, eða frá: verk og verkþáttur eftirlætissíða. Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil. Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín
 

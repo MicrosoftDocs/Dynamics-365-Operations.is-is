@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Búa til formúlu með því að afrita úr fyrirliggjandi formúlu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna nýja formúlu fljótlegan hátt með því að afrita úr fyrirliggjandi formúlu. Hægt er að nota sýnigögn fyrirtækja USMF, USP2 eða USPI til að stofna þetta ferli.
 

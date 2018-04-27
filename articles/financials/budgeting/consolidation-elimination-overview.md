@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Yfirlit yfir sameiningu og losun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir almennar upplýsingar um sameiningar- og losunarferli. Í því eru svör við Algengar spurningar
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="posting-definitions"></a>Bókunarskilgreiningar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í. Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur.
 

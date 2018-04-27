@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein lýsir virkni sem er sértæk fyrir símaver fyrir vörulista í Microsoft Dynamics 365 for Retail.
 

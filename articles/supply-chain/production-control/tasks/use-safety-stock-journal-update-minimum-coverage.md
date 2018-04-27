@@ -23,21 +23,21 @@ ms.contentlocale: is-is
 ms.lasthandoff: 09/29/2017
 
 ---
-# Nota færslubók öryggisbyrgða til að uppfæra lágmarkstryggingu
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Nota færslubók öryggisbyrgða til að uppfæra lágmarkstryggingu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að reikna lágmarks þekju tillögur byggðar á sögulegum færslum og uppfæra svo vöruþekju ásamt tillögum. Þetta er gert með því að nota öryggisbirgðabók. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir framleiðslustjóra, sem hjálpar við að viðhalda lágmarks þekju.
 
 
-## Stofnið nýja heiti öryggisbirgðabókar.
+## <a name="create-a-new-safety-stock-journal-name"></a>Stofnið nýja heiti öryggisbirgðabókar.
 1. Fara í Heiti öryggisbirgðabóka
 2. Smellið á „Nýtt“.
 3. Í reitinn Heiti skal slá inn "efni".
 4. Í reitinn Lýsing skal slá inn "Efni".
 5. Lokið síðunni.
 
-## Stofna öryggisbirgðabók
+## <a name="create-a-safety-stock-journal"></a>Stofna öryggisbirgðabók
 1. Fara í Útreikningur öryggisbirgða
 2. Smellið á „Nýtt“.
 3. Sláið inn eða veldu gildi í reitnum heiti.
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Smellið á „Í lagi“.
     * Þetta stofnar línur fyrir víddir sem hafa birgðafærslur.  
 
-## Reikna tillögu
+## <a name="calculate-proposal"></a>Reikna tillögu
 1. Smella á Reikna tillögu
 2. Veldu valkostinn Nota meðaltal úthreyfinga á afhendingartíma.
 3. Stilla Margfeldisstuðullinn á "10"
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
 4. Smellið á „Í lagi“.
     * Skruna niður til að finna M0002 og M0003. Skoða dálkinn reiknað lágmarksmagn.   
 
-## Uppfæra lágmarksmagn
+## <a name="update-minimum-quantity"></a>Uppfæra lágmarksmagn
 1. Í reitinn nýtt lágmarksmagn skal slá inn númer.
     * Uppfæra nýja lágmarksmagn til að samsvara gildinu í útreiknaða lágmarksmagninu. Ef Reiknuð lágmarkið er núll er hægt að færa inn viðkomandi framvirk gildi. T.d. er hægt að færa inn Reiknuð lágmarksmagn á þessu svæði fyrir M0002 sem er með vöruhús 12 .  
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/29/2017
 3. Í reitinn nýtt lágmarksmagn skal slá inn númer.
     * Uppfæra nýja lágmarksmagn til að samsvara gildinu í útreiknaða lágmarksmagninu. Ef Reiknuð lágmarkið er núll er hægt að færa inn viðkomandi framvirk gildi.  
 
-## Bóka nýtt lágmarksmagn og villuleita niðurstöður
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Bóka nýtt lágmarksmagn og villuleita niðurstöður
 1. Smellið á „Bóka“.
 2. Smellið á „Í lagi“.
 3. Smellið til að elta tengilinn í reitnum vörunúmer.

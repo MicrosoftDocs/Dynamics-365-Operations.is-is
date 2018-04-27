@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Stofna afurð
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum að stofna nýja afurð í stigveldi smásöluafurðar. Sýnigögn gögn fyrirtækisins til að stofna verkið er USRT og þessu verki er ætluð fyrir Vörustjóri og Vöruhönnuður.
 

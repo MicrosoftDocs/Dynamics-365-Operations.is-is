@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Skilgreining á sjálfvirku verki í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks.
 

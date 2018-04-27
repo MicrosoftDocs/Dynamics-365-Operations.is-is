@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemma bankayfirlit með ítarlegri bankaafstemmingu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir ferli afstemmingar.  
 

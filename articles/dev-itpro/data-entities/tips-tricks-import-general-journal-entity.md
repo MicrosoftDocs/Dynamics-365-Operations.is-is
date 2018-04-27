@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Bestu starfsvenjur til að flytja inn fylgiskjöl með því að nota einingu Almennrar færslubókar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.  
 

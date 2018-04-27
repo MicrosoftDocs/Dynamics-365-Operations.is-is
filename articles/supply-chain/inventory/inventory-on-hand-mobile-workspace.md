@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>Birgðir á lager eftir fartækjavinnusvæði
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Birgðir á lager**. Þetta vinnusvæði hjálpar þér að fá yfirsýn yfir fráteknar og tiltækar birgðir, hvar og hvenær sem er.
 

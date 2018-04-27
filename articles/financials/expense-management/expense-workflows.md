@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 19d725f15f00afce1a2ae4b336226f1dafa94b41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Setja upp verkflæði fyrir kostnað
 
-[!include[banner](../includes/banner.md)] Hægt er að setja upp verkflæði sem er notað til að skoða og samþykkja ferða- og kostnaðarskjöl. Meðal annars er hægt að skilgreina verkflæði fyrir kostnaðarskýrslur, ferðabeiðnir og beiðni um fyrirframgreiðslu.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Hægt er að setja upp verkflæði sem er notað til að skoða og samþykkja ferða- og kostnaðarskjöl. Meðal annars er hægt að skilgreina verkflæði fyrir kostnaðarskýrslur, ferðabeiðnir og beiðni um fyrirframgreiðslu.
 
 Verkflæði endurspeglar viðskiptaferli. Það skilgreinir flæði skjals í gegnum kerfið og gefur til kynna hver verður að ljúka við verk eða samþykkja skjal. Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 
@@ -42,13 +44,15 @@ Verkflæði endurspeglar viðskiptaferli. Það skilgreinir flæði skjals í ge
 
 Í eftirfarandi töflu er listi yfir gerðir verkflæðis sem hægt er að stofna í **Kostnaður**.
 
-| **Gerð**                           | **Notið þessa gerð til að**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **Kostnaðarskýrsla**                 | Stofna samþykkisverkflæði fyrir kostnaðarskýrslur.                       |      
-| **Sjálfvirk bókun á kostnaðarskýrslu**    | Búa sjálfkrafa til bókunarverkflæði fyrir kostnaðarskýrslur              |     
-| **Kostnaðarlínuvara**              | Búa til samþykkisverkflæði fyrir línuatriði fyrir kostnaðarskýrslur.         |     
-| **Sjálfvirk bókun kostnaðarlínuatriða** | Búa til sjálfvirk bókunarverkflæði fyrir línuatriði fyrir kostnaðarskýrslur.|
-| **Ferðabeiðni**             | Stofna samþykktarverkflæði fyrir ferðabeiðnir.                   |    
-| **Beiðni um fyrirframgreiðslu**           | Stofna samþykktarverkflæði fyrir beiðni um fyrirframgreiðslu.                 |     
-| **Endurgreiðsla VSK**               | Stofna samþykktarverkflæði fyrir endurgreiðslu virðisaukaskatts. |       
+
+|              <strong>Gerð</strong>              |                   <strong>Notið þessa gerð til að</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>Kostnaðarskýrsla</strong>         |            Stofna samþykkisverkflæði fyrir kostnaðarskýrslur.             |
+|  <strong>Sjálfvirk bókun á kostnaðarskýrslu</strong>   |        Búa sjálfkrafa til bókunarverkflæði fyrir kostnaðarskýrslur        |
+|       <strong>Kostnaðarlínuvara</strong>        |     Búa til samþykkisverkflæði fyrir línuatriði fyrir kostnaðarskýrslur.      |
+| <strong>Sjálfvirk bókun kostnaðarlínuatriða</strong> | Búa til sjálfvirk bókunarverkflæði fyrir línuatriði fyrir kostnaðarskýrslur. |
+|       <strong>Ferðabeiðni</strong>       |          Stofna samþykktarverkflæði fyrir ferðabeiðnir.           |
+|      <strong>Beiðni um fyrirframgreiðslu</strong>      |         Stofna samþykktarverkflæði fyrir beiðni um fyrirframgreiðslu.          |
+|        <strong>Endurgreiðsla VSK</strong>        | Stofna samþykktarverkflæði fyrir endurgreiðslu virðisaukaskatts.  |
+
 

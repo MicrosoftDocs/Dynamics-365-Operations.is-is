@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Stofna og viðhalda eigind
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein lýsir eigindum í Microsoft Dynamics 365 for Retail. Eigindir leyfa þér að lýsa afurð og einkennum hennar gegnum notendaskilgreindra svæða.
 
@@ -58,7 +57,7 @@ Eigindir leyfa þér að lýsa afurð og einkennum hennar gegnum notendaskilgrei
 
 ## <a name="attribute-type"></a>Gerð eigindar
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Eigindir eru byggðar á tegundum eiginda Eigindagerðir auðkennir gagnategundina sem hægt er að slá inn fyrir tiltekna eigind. Eins og er styður Microsoft Dynamics 365 for Retail eftirfarandi gerðir eiginda:
 
 -   **Gjaldmiðill** – Þessa eigindargerð styður gildi gjaldmiðils. Hægt er að hafa það afmarkað (þ.e. hægt styðja gildissvið), eða hún getur verið skilið eftir opna.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Nota rakningu fyrir niðurbrot
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig hægt er að nota rakningu til að kanna orsakir á bak við niðurstöðu niðurbrots pöntunar.
 

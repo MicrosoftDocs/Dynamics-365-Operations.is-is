@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir uppsetningarverk sem þarf að framkvæma til að undirbúa eftirspurnarspár.  
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Skilgreina skilyrta ákvörðun í verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun.
 

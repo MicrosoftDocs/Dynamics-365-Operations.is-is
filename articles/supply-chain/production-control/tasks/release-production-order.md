@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>Gefa út framleiðslupöntun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að losa framleiðslupöntun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta er fjórða ferli af sjö sem útskýrir lífsferil framleiðslupöntunar.
 

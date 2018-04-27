@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 
@@ -76,10 +76,10 @@ Eins og stendur er aðeins hægt að skilgreina dreifingu frá dreifingarstöð 
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Regluheiti dreifingar frá dreifingarstöð: Flutningspöntun
 
--   Raðnúmer: 10
- -   Gerð verkbeiðni: Flutningsútgáfa
--   Eftirspurn eftir dreifingu frá dreifingarstöð þarfnast staðsetningar: Rangt
--   Áætlun fyrir dreifingu frá dreifingarstöð: Dagsetning og tími
+- Raðnúmer: 10
+  -   Gerð verkbeiðni: Flutningsútgáfa
+- Eftirspurn eftir dreifingu frá dreifingarstöð þarfnast staðsetningar: Rangt
+- Áætlun fyrir dreifingu frá dreifingarstöð: Dagsetning og tími
 
 ### <a name="sequence-number"></a>Raðnúmer
 

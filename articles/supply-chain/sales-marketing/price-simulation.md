@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Verðherming
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um verðhermingu fyrir tilboð. Verðherming hjálpar til við að meta áhrif frádráttar á söluverð í framtíðinni í tilboðsferlinu, áður en staðfest er sérstakt verð.
 

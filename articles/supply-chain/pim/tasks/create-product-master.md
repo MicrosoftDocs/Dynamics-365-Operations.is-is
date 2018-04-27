@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Stofna aðalsniðmát
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Stofna afurðarsniðmát fyrir forskilgreind afbrigði. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir vöruhönnuð.
 

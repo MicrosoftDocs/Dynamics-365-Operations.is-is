@@ -1,5 +1,5 @@
 --- 
-title: "Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (hluti 1)"
+title: "Hanna grunnstillingar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum"
 description: "Skrefin í þessu efni veita upplýsingar um hvernig á að hanna stillingar fyrir rafræna skýrslugerð (ER) sem búa til rafræn skjöl á Microsoft Office sniði (Excel og Word) sem innihalda innbyggðar myndir."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: is-is
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum fyrir rafræna skýrslugerð (hluti 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Hanna grunnstillingar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka.“ Ferlið útskýrir hvernig á að hanna grunnstillingar fyrir rafræna skýrslugerð til að mynda ívafnar myndir í Microsoft Excel og Microsoft Word skjölum. Í þessu ferli mun notandi stofna nauðsynlega grunnstillingu rafrænnar skýrslugerðar fyrir sýnifyrirtæki, Litware, Inc. Hægt er að ljúka þessum skrefum með USMF-gagnamengi. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Áður en hafist er hand skal hlaða niður og vista skrárnar sem tilteknar eru í hjálparefninu [Innfelling mynda og forma í viðskiptaskjöl sem mynduð er með rafrænu skýrslugerðaverkfæri](../electronic-reporting-embed-images-shapes.md). Skrárnar eru: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png og Cheque template Word.docx.
 

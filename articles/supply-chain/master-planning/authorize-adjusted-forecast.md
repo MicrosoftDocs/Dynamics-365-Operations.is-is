@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="authorize-an-adjusted-forecast"></a>Leiðrétt spá heimiluð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ekki skal samþykkja öll spágögn strax. Þessi grein útskýrir hvernig hægt er að tilgreina tímabilið sem spá er heimiluð fyrir. Hún útskýrir líka hvernig á að heimila spá fyrir tiltekin fyrirtæki og spárlíkön.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.  Söfnin sem voru gefin út innihalda (febrúar 2016) APQC Unified Library for Microsoft Dynamics AX og (febrúar 2016) Hafist handa.
 
@@ -50,8 +49,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda       | Altæk             |
 | Setja upp reikningsreglur lánardrottins                            | Altæk             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Viðskiptakröfur
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Endurskoða innheimtuupplýsingar.                              | Altæk             |
 | Setja upp og mynda viðskiptakröfur fyrir aldursgreiningu   | Altæk             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Reiðufjár- og bankastjórnun
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Fyrirframdagsett ávísun frá viðskiptamanni gerð upp                             | Altæk             |
 | Yfirlit yfir greiðslu lánardrottins                                              | Altæk             |
 
- 
 
+ 
 ### <a name="compliance"></a>Samræmi
 
 |                                            |                    |
@@ -108,8 +107,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | **BPM-lína**                               | **Land/svæði** |
 | Skilgreina reglur endurskoðunarstefnu fyrir upprunaskjöl | Altæk             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Kostnaðarstýring
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Skoða núgildandi VÍV staða á framleiðslupöntun                       | Altæk             |
 | Skoða birgðayfirlit og afkastavísi með kostnaðarhlut                     | Altæk             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | GB-00009 Stofna kreditnótu í uppgjörsafslætti                                               | Bretland                  |
 | GB-00009 Setja upp færibreytur fyrir kreditnótu á kvaðningu greiðsluafsláttar                                   | Bretland                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Þróa framtíðarsýn og stefnumótun
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Gera spurningu háð svar í fyrri spurningu (Skilyrðisbundnar spurningunar) | Altæk             |
 | Stig spurningalista byggður á Prósentum                                                   | Altæk             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Rafræn skýrslugerð
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa      | Altæk             |
 | Rafræn skýrslugerð Velja þjónustuveitu                      | Altæk             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Útgjaldastýring
 
 |                              |                    |
@@ -298,8 +297,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | **BPM-lína**                 | **Land/svæði** |
 | Skilgreina kostnaðarstýringu | Altæk             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Eignir
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Skipta eign                                       | Altæk             |
 | Millifæra eign                                    | Altæk             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Fjárhagur
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Skoða færslubókarfærslur eða færslur                              | Altæk             |
 | Skoða tengt fylgiskjal innan samstæðu úr færslubók                    | Altæk             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Mannauðsstjórnun
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Setja upp hæfnireglur fríðinda                             | Altæk             |
 | Setja upp skjalagerðir i9                                     | Altæk             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Birgðastjórnun
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Rekja vöru eða hráefni                                                     | Altæk             |
 | Flytja efnislegra birgða innan vöruhúsi                                  | Altæk             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Framleiðsla
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Flytja efni með kanban-vinnslum                            | Altæk             |
 | Sannprófa framleiðsluflæði og útgáfa                          | Altæk             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Aðaláætlanagerð
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Auðkenna veigamikil efni og afkastagetu birgja | Altæk             |
 | Breyta skal eftirspurnarspá handvirkt                 | Altæk             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Fyrirtækisstjórnun
 
 |                                           |                    |
@@ -501,8 +500,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Uppsetning rafrænna undirskrifta              | Altæk             |
 | Setja upp númeraraðir með því að nota leiðsagnarforrit | Altæk             |
 
- 
 
+ 
 ### <a name="planning"></a>Áætlun
 
 |                        |                    |
@@ -510,8 +509,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | **BPM-lína**           | **Land/svæði** |
 | Ákvarða framboð | Altæk             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Innkaup og aðföng
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Leita að lánardrottnum                                               | Altæk             |
 | Setja upp tegundastigveldi innkaupa                          | Altæk             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>skilgreining og vöruupplýsingar
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Gefa út ..\fjárhags-víddir\víddar-byggð afurðarsniðmát              | Altæk             |
 | Flytja gögn fyrir vörulíkön                      | Altæk             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Hið opinbera
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Setja upp sjóð fyrir opinberi geirinn                                                         | Altæk             |
 | Setja upp flokkanir innkaupasamnings fyrir opinberi geirinn                             | Altæk             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Smásala og viðskipti
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | leiðréttingar á smásöluverði                                                                  | Altæk             |
 | Vista stillingar fyrir smásöluuppgjör                                                | Altæk             |
 
- 
 
+ 
 ### <a name="sales"></a>Sala
 
 |                                            |                    |
@@ -642,8 +641,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Senda sölupantanir sem beina afhendingu           | Altæk             |
 | Senda sölupantanir án vöruhúss      | Altæk             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Virðisaukaskattur
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Setja upp staðgreiðsluskatt                             | Altæk             |
 | Skoða bókaðar virðisaukaskattsfærslur                 | Altæk             |
 
- 
 
+ 
 ### <a name="security"></a>Öryggi
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Bera kennsl og leysa úr árekstrum fyrir aðskilnað á skyldum | Altæk             |
 | Setja upp aðskilnaður á skyldum                            | Altæk             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Vöruhúsakerfi og flutningar
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 | Setja upp farmflytjendur                                                          | Altæk             |
 | Nota Vinnusvæði farmáætlunar til að áætla farm og sendingar                       | Altæk             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>verkefnaleiðbeiningar í (Febrúar 2016) Safninu Hafist handa.
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM-lína**                                       | **Land/svæði** |

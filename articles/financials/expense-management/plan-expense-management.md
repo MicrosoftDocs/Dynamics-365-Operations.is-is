@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Skilgreina kostnaðarstýringu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því sem þarf að hafa í huga og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er að skilgreina kostnaðarstýringu í Microsoft Dynamics 365 for Finance and Operations. Í kostnaðarstýringu, er hægt að geyma upplýsingar um greiðslumáta, ferðabeiðnir, kostnaðarskýrslur og stefnur og svo framvegis.
 

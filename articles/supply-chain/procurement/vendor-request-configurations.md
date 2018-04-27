@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Skilgreiningar lánardrottinsbeiðni
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Til að ljúka lánardrottnabeiðni þarf tengiliður lánardrottins að fara í gegnum leiðsagnarforrit fyrir skráningu væntanlegs lánardrottins.
 
@@ -39,12 +39,12 @@ Sjálfgefið er að lánardrottins grunnstilling sé tiltæk í skjámynd grunns
 
 Ekki er hægt að velja land/svæði fyrir sjálfgefna grunnstillingu, þannig að ekki er hægt að breyta **Löndum/svæðum**.
 
-1.  Smelltu á **Innkaup og aðföng** > **Uppsetning** > **Lánardrottnar**, og smelltu síðan á **Grunnstillingar lánardrottinsbeiðni**.
-2.  Smelltu á flipann **Svæði** til að stilla staða skráðra svæða.
--   Falið (ekki sýnilegt)
--   Sýnt (sýnilegt en ekki skylt)
--   Nauðsynlegt (sýnilegt og skylt)
-3.  Smelltu á flipann **Innihald** til að tilgreina hvort textinn á að sjást í leiðsagnarforritinu og hvort það ætti að vera viðurkenning á því að væntanlegur lánardrottna notandi verður að samþykkja þetta áður en hann fer í næsta skref í leiðsagnarforritinu. Beðið verður um viðurkenninguna fyrir hvaða skilmála og skilyrði sem notandinn verður að samþykkja til að halda áfram.
+1. Smelltu á **Innkaup og aðföng** > **Uppsetning** > **Lánardrottnar**, og smelltu síðan á **Grunnstillingar lánardrottinsbeiðni**.
+2. Smelltu á flipann **Svæði** til að stilla staða skráðra svæða.
+3. Falið (ekki sýnilegt)
+4. Sýnt (sýnilegt en ekki skylt)
+5. Nauðsynlegt (sýnilegt og skylt)
+6. Smelltu á flipann **Innihald** til að tilgreina hvort textinn á að sjást í leiðsagnarforritinu og hvort það ætti að vera viðurkenning á því að væntanlegur lánardrottna notandi verður að samþykkja þetta áður en hann fer í næsta skref í leiðsagnarforritinu. Beðið verður um viðurkenninguna fyrir hvaða skilmála og skilyrði sem notandinn verður að samþykkja til að halda áfram.
 
 Þú getur einnig slegið inn staðfestingarskilaboð sem munu birtast þegar búið er að fara í gegnum leiðsagnarforritið, og þú getur bætt við einni eða fleiri spurningalistum.
 

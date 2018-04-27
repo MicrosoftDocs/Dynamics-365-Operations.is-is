@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Setja upp forsendur fyrir stjórnun
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Notið þetta ferli til að virkja sjórnunarferli ósamkvæmni. Ósamkvæmni lýsir ferli eða vöru sem uppfyllir ekki gæðastaðla, þar sem uppruni og gerð vandamálsins eru í lýsandi upplýsingum. Þessi aðferð notar sýnifyrirtækið USMF. Þetta ferli er yfirleitt framkvæmt af starfsmanni á sviði gæða.
 

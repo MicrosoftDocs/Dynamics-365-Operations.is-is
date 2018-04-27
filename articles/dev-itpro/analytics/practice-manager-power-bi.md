@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Power BI-efni aðferðastjórnunar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Aðferðarstjóri**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
@@ -118,7 +118,9 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efni
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Eining: ProjectAccountingCube\_TotalEstimatedCosts 
 **Gagnagjafi:** ProjTable
 
-| Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
-|---------------------------------|---------------------|-------------|
+
+|    Lykiluppsafnaðar mælingar    |        Svæði        |                                          lýsing                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
+
 

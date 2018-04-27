@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Hugtök kostnaðarbókhalds
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessa efnisatriðis skilgreinir lykill afhendingarskilmála sem notaðir eru í kostnaðarbókhalds.
 
@@ -150,14 +149,14 @@ Formúla úthlutunargrunns gerir þér kleift að skilgreina ítarlegar formúlu
 |  + |  samlagning |
 |  – |  Frádráttur |
 | *  | Margföldun  |
-    
+
 Venjulegar IF-skýrslur eru ekki studdar. Hins vegar er hægt að stofna yrðingar og villuleita til að ganga úr skugga um að þær séu sannar.
 
 |  **Staðfesting yfirlits** | **Niðurstaða**  |
 |---|---|
 |  a > b| True  |
 |  a > b |  False |
-    
+
 **Óbeinn kostnaður**
 
 Rekstrarkostnað vísað gangi kostnað á rekstrareiningar fyrirtæki. Þau eru kostnaður sem getur ekki tengst beint tilteknum viðskiptum. Hér eru nokkur dæmi um skilyrði:

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Mat á sölu eftir afurð
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Microsoft Dynamics 365 for Retail. 
 

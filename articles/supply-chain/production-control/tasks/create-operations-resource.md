@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Stofna rekstrartilföng
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli. Þessi ferli sýnir hvernig á að skilgreina rekstrartilföng. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 

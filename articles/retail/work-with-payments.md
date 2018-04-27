@@ -1,9 +1,9 @@
 ---
 title: "Greiðsluhættir í símaveri"
-description: "Þetta efnisatriði fjallar um mismunandi greiðslumáta sem hægt er að nota í símaveri í Dynamics 365 for Retail."
+description: "Þetta efnisatriði lýsir hinum ýmsu greiðslumátum sem hægt er að nota í símaveri Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,36 +20,38 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
 ms.contentlocale: is-is
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a>Greiðsluhættir í símaveri
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Í Microsoft Dynamics 365 for Retail inniheldur grunnstilling á rás símavers stillingu sem er kölluð **Virkja lok pöntunar**. Þessi stilling hjálpar til við að tryggja að allar pantanir sem notendur rásar búa til séu gefnar út til úrvinnslu pantana aðeins ef fyrirframgreiðsla eða fyrirframheimiluð greiðsla er til staðar sem er innan heimilaðra vikmarka. Ef kveikt er á stilllingunni **Virkja lok pöntunar** geta notendur símavers fært inn greiðslur gagnvart sölupöntun fyirr viðskiptavini með því að nota eiginleika greiðsluvinnslu símavers. Ef slökkt er á stillingunni geta notendur símavers ekki notað eiginleika greiðsluvinnslu, en þeir geta samt sem áður notað fyrirframgreiðslur á sölupöntunum með því að nota virknina venjulegar viðskiptakröfur.
 
-Þetta efnisatriði fjallar um mismunandi greiðslumáta sem hægt er að nota í símaveri í Dynamics 365 for Retail.
+Sem hluti af rásarstillingunni getur fyrirtæki skilgreint greiðslumáta sem eru heimilaðir fyrir rás símavers. Rás símavers notar sömu greiðslumátana og eru skilgreindir fyrir rásir smásöluverslunar.
 
-Greiðsluháttunum sem notaðir eru í öðrum rásum, eins og reiðufé ávísanir, kreditkort og gjafakort, einnig er hægt að nota í símaverum. Eftir að þú hefur sett upp greiðslumáta fyrir símaver, birtist það sem einn af valkostunum í hlutanum **greiðslur** í **sölupöntun** síðunni fyrir notendur símavers. Þú getur að auki sett upp á afsláttarmiða til bjóða afslátt til viðskiptavina sem setja inn pöntun hjá símaþjónustuver fyrirtækis þíns. Afsláttarmiðar getur verið föst upphæð afsláttar eða prósentu vöruverð eða heildarupphæð pöntunar. Til dæmis upphæð afsláttarmiða gæti verið að bjóða viðskiptavinum 75.00 afslátt þegar viðskiptavinurinn eyðir 750.00 eða meiru. Hægt að stofna mismunandi gerðir af afsláttarmiða, setja upp móðurfyrirtækis/útibús afsláttarmiða, og afrita eða ógilda afsláttarmiða. Notið valkostina í eftirfarandi töflu til að stofna afsláttarmiða.
+Til að stilla greiðslumáta fyrir rás símavers skal fara í **Smásala** \> **Rásir** \> **Símaver** \> **Öll símaver** og síðan í valmyndinni **Setja upp** skal velja valkostinn **Greiðslumáti**.
 
-|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Eigind**             | Í **innlausnartaxti** svæðinu, færið inn gildi áætlaða innlausnartaxti fyrir afsláttarmiða sem prósentu, og veljið hvort afsláttarmiðinn er einnota, verður sjálfkrafa endurútgefinn eða á við tiltekinn viðskiptavin.                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Gilt**                 | Í **Upphafsdagsetning** og **lokadagsetning** reitir skal færa inn dagsetningar fyrir fyrsta og síðasta daga sem afsláttarmiðinn gildir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Innifela/útiloka reglur** | Í **vörulisti** og **vörur** svæðunum, skal velja hvort allar vörulista eða vörum er tekin með eða skilinn eftir í afsláttarmiðann. Ef valið er **Taka með** eða **Útiloka**, smellið á **Setja upp**, veljið **taka Með/útiloka vörulista** eða **taka Með/útiloka afurðir**, og færa inn upplýsingar um vörulista eða vöru. Ef **ekkert** er valið í þessum svæðum, allir vörulistar eða vörur eru teknar með í afsláttarmiðann.                                                                                                                                                                                                                          |
-| **Ýmislegt**         | Ef ekki er hægt að nota þennan afsláttarmiða með öðrum afslætti, veljið þá **Sértækt** gátreitinn. Síðan, í **Uppruna** svæðinu, veljið þar sem hægt er að nota afsláttarmiðann. Ef þetta er afsláttarmiði framleiðanda, velja **Afsláttarmiði framleiðanda**  gátreitinn.                                                                                                                                                                                                                                                                                                                                                                |
-| **Framtíðarafsláttarmiðar**         | Ef þessi afsláttarmiða verður tengt við aðra afsláttarmiða sem yfireining, veljið **Yfireining afsláttarmiði** gátreitinn. Ef þessi afsláttarmiði ætti að vera tengd sem undirstig afsláttarmiða með fyrirliggjandi afsláttarmiða, veljið **kenni yfirafsláttarmiði**  svæði. Til dæmis viltu stofna afsláttarmiða fyrir vörulistann næsta vors. Öll önnur afsláttarmiða sem þú stofnar fyrir vorvörulistann yrðu undireiningar afsláttarmiða í vorvörulistanum. Undirafsláttarmiða geta innihaldið 20 prósent afslátt fyrir nýjar pantanir viðskiptavinar, afslátt 10 prósent af nýlega útgefnar vöru eða 95,00 af pantanir upp á 1.000,00 eða meira. |
+Þegar greiðslumáti er búinn til eru fimm aðgerðir greiðslumáta sem hægt er að úthluta.
 
-Ef leggja á fram kreditkortagreiðslu úr **sölupöntun** síða og færð boð sem tilgreinir að kreditkorti fékk ekki heimild er hægt að annast heimild handvirkt. Hægt er að heimila, hafna eða endursenda kreditkortafærslu með því að nota **stjórnun heimilda** síðu. Síðu færibreytum símavers er notuð til að skilgreina viðbótarupplýsingar greiðsluvinnslu valkosti:
+| Aðgerð            | lýsing |
+|---------------------|-------------|
+| Venjulegt              | Notaðu aðgerðina **Venjulegur** á greiðslumátanum þínum þegar þú skilgreinir greiðslumáta eins og reiðufé eða fylgiskjal. Þegar þessar tegundir greiðslna eru notaðar á sölupöntun í símaveri eru þær strax settar bókaðar sem fyrirframgreiðslur á viðskiptavinalyklinum. Fyrirframgreitt fylgiskjal er bókað í viðskiptaferli viðskiptavinar þar sem það verður kerfisbundið jafnað á móti reikningi fyrir sölupöntunina þegar reikningar eru búnar til. |
+| Merkja               | Notaðu aðgerðina **Ávísun** þegar bankaávísun er skilgreind sem greiðslumáti. Þegar þessi tegund greiðslu er notuð í sölupöntun verður notandinn að færa inn ávísananúmer viðskiptavinar sem hluta af greiðslujöfnunarferlinu. Ávísanagreiðslur eru alltaf meðhöndlaðar sem fyrirframgreiðslur þegar þær eru notaðar. Hvað varðar greiðsluaðgerðina **Venjulegt** verða þessi fyrirframgreiddu fylgiskjöl kerfisbundið jöfnuð á móti reikningum sem eru búnir til fyrir pöntunina. |
+| Kort               | Gerðir kortagreiðslna eiga við um hvers konar greiðslu sem krefst innsláttar kortanúmers sem hefur verið skilgreint á greiðslukorti viðskiptavinar. Dæmi eru kreditkort og gjafakort. Þegar þessar tegundir greiðslna eru stilltar þarf að nota valmyndina **Kortuppsetning** til að skilgreina kenni korts sem tengjast þessum greiðslumáta. Við pöntunarfærslu geta notendur tekið fram hvort kortagreiðslan verði fyrirframgreiðsla með því að nota valkostinn **Fyrirframgreiða** sem birtist á síðu greiðslufærslu. Nema viðskiptin krefjast fyrirframgreiðslna, er dæmigert flæði réttrar kreditkortagreiðslu ferli í tveimur skrefum, þar sem heimild er fengin við pöntunarfærslu og síðan er greiðsla afgreidd og innheimt frá kort viðskiptavinar þegar kemur að reikningsfærslu. Fyrir greiðslur með gjafakorti er mælt með fyrirframgreiðslu vegna þess að staða gjafakorts ætti að minnka strax svo viðskiptavinurinn geti ekki notað sama virðið einhvers staðar annars staðar. |
+| Viðskiptavinur            | Aðgerðin **Viðskiptavinur** á greiðslumáta gefur í skyn að greiðslan verði jöfnuð við lánamark viðskiptavinar eða sett á „reikning“. Í Retail er hægt að úthluta viðskiptavini lánamati sem hægt er að sannprófa við pöntunarfærslu. Greiðslur sem eru gerðar með því að nota greiðslumáta sem tengist aðgerðinni **Viðskiptavinur** skapar skuld á móti reikningi viðskiptavinari. Þegar sölupöntunin er reikningsfærð birtist gjaldfallin staða. Í þessum tilvikum senda viðskiptavinir venjulega greiðslur samkvæmt skilmálum sem hafa verið gefnir. Að öðrum kosti er hægt að nota áður opið inneignaskjal á reikningi viðskiptavinar til að jafna á móti gjaldfallinni stöðu. Athugaðu að jafnvel þótt þú skilgreinir þennan greiðslumáta birtist hann ekki í vali á greiðslumöguleikum í pöntunarfærslu símavers nema að flaggið **Leyfa á reikningi** sé stillt á viðskiptavinafærslu fyrir viðskiptavininn sem þú ert að vinna með. Þetta flagg er að finna í flipanum **Sjálfgefnar greiðslur** í færslu viðskiptavinar. |
+| Fjarlægja skiptimynt | Aðgerðin **Fjarlægja skiptimynt** er ekki notuð af símaverinu. Það gildir aðeins þegar þú skilgreinir greiðslumáta sem forrit sölustaðar notar í rás verslunar. |
 
--   Ávísanabið láta fjármálastarfsfólk vinna pantanir sem hafa verið sett í bið þar sem ávísun var notuð sem greiðslumáti og ávísunin bið farið var yfir þröskuldsupphæð. Bið hægt að losa handvirkt eða sjálfvirkt eða það rennur út í lok skilgreindu tímabili.
--   Hægt er að setja þröskulda, fyrir ofan þá þurfa ávísanir og kreditkort að fá handvirka samþykkt vegna endurgreiðslna. Endurgreiðsla sem fer yfir þröskuldsgildi upphæð er bætt við samþykki biðröð. Eftir að þú samþykkja endurgreiðslu er hægt að reikningsfæra skilasölupöntunina.
+Úr því að greiðslumátar eru skilgreindir, eiga þeir að tengjast við fjárhag eða bankareikning. Ef þú sleppir þessu skrefi munu notendur fá upp villur þegar þeir reyna að vista greiðslugerð.
 
+## <a name="refund-payment-methods"></a>Endurgreiðslumátar
 
+Fyrir úrvinnslu á endurgreiðslum notar símaverið einnig suma greiðslumátana sem eru skilgreindir í viðskiptakröfum. Til að stilla þessa greiðslumáta skaltu fara í **Smásala** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Endurgreiðslumátar símavers**. Þú verður að ljúka þessum stillingum til að afgreiða endurgreiðsluávísanir til viðskiptavina. Til dæmis, ef viðskiptavinur sem upphaflega greiddi fyrir pöntun með því að nota reiðufé eða ávísun, gæti notandinn viljað senda viðskiptavininum endurgreiðsluávísun í gegnum viðskiptakröfur. Í þessu tilfelli verður að varpa greiðslumáta reiðufés og ávísunar í símaveri á réttan greiðslumáta í viðskiptakröfum til að tryggja að endurgreiðslan sé rétt afgreidd.
 
-
+Að auki, ef notandi er að vinna úr skilapöntun sem notandi símavers í Retail, en getur ekki tengt skilin við upprunalega sölu verður greiðslumátinn fyrir **Skila** að vera stilltur í færibreytum símavers. Farðu í **Smásala** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers** og síðan á flipanum **RMA/Skila** í reitnum **Greiðslumáti** skal tryggja að greiðslumáti sé skilgreindur. Greiðslumátinn verður greiðslumátinn sem er notaður fyrir endurgreiðslur. Venjulega verður hann skilgreindur sem annaðhvort prófunaraðferð eða aðferð viðskiptavinalykils.
 

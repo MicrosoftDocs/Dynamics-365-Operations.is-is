@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun. Nota beina afhendingu þegar á að senda vörurnar viðskiptavininum beint frá lánardrottni í staðinn fyrir sendingu þær í eigin vöruhúsi fyrirtækisins fyrst. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Til að ljúka seinni undirverki "Stofna beinar afhendingar úr vinnusvæði", ganga úr skugga um vöru sem er valin á sölupöntun hefur sjálfgefið Lánardrottins tilgreindan á Flýtiflipanum Innkaupa fyrir Útgefnar afurðarsniðmát.
 

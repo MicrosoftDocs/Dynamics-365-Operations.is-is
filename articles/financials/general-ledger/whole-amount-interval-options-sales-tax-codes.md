@@ -28,19 +28,17 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þessi grein útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
 
 Hægt er að setja upp vsk-kóða til að reikna út byggt á heildarupphæð eða tímabilsupphæð. Í síðu vsk kóða, skal nota aðferð Útreiknings svæðið á Flýtiflipanum Útreikningur til að velja hvernig á að reikna vsk-kóða.
--   Heildarupphæð – Skatthlutfall er notað fyrir alla skattskyldu upphæðina.
--   Tímabil – Skattskyldu upphæðinni er skipt í hluta, en hver þeirra fellur undir upphæðarbil með sérstöku skatthlutfalli. Hlutur upphæðarinnar sem fellur undir tiltekið bil er skattlagt í samræmi við skatthlutfallið fyrir það bil. Virðisaukaskatturinn er samtala skattupphæðanna sem eru reiknaðar fyrir hvert upphæðarbil.
-> [!NOTE]                                                                                                                              
-> valkostur tímabils er aðeins tiltækt þegar Lína er valin í svæðinu Útreikningsaðferð í svæðinu virðisaukaskattur af síðunni færibreytur fjárhags. 
+- Heildarupphæð – Skatthlutfall er notað fyrir alla skattskyldu upphæðina.
+- Tímabil – Skattskyldu upphæðinni er skipt í hluta, en hver þeirra fellur undir upphæðarbil með sérstöku skatthlutfalli. Hlutur upphæðarinnar sem fellur undir tiltekið bil er skattlagt í samræmi við skatthlutfallið fyrir það bil. Virðisaukaskatturinn er samtala skattupphæðanna sem eru reiknaðar fyrir hvert upphæðarbil.
+  > [!NOTE]                                                                                                                              
+  > valkostur tímabils er aðeins tiltækt þegar Lína er valin í svæðinu Útreikningsaðferð í svæðinu virðisaukaskattur af síðunni færibreytur fjárhags. 
 
 Tímabil eru sett upp í síðunni gildi virðisaukaskatts með því að færa inn Lágmarks og Hámarks upphæðir fyrir hvern skatthlutfall. Til þess að geta reiknað skatt af öllum skattskyldum upphæðum, óháð því hvaða útreikningsaðferð er valin, verða bil að vera samkvæmt eftirfarandi reglum:
 -   Fyrsta bilið verður að vera með lágmark núll.
@@ -51,6 +49,7 @@ Ef upphæð er hámark fyrra bils og lágmark næsta bils, mun söluskattshlutfa
 
 ## <a name="example-whole-amount-method-of-calculation"></a> Útreikningsaðferð heildarupphæðar: Dæmi
 Í síðunni gildi VSK-kóði, eru Skatthlutfall virðisaukaskatts sett upp í eftirfarandi tímabilum:
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | **Neðri mörk** | **Hámarksgildi** | **Skatthlutfall** |
@@ -86,7 +85,7 @@ Virðisaukaskatturinn er samtala skattupphæðanna sem eru reiknaðar fyrir hver
 | 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
 | 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
- 
+
 
 Nánari upplýsingar er að finna í [Ákvarða skatthlutfall virðisaukaskatts á grundvelli reitanna Jaðargrunnur og Útreikningsaðferð](marginal-base-field.md)
 

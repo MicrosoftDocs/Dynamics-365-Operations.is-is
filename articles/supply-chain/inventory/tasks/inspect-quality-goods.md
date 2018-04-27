@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Kanna vörugæði
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig meðhöndla á gæðapöntun. Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF. Áður en byrjað er á þessu dæmaferli, þarf að staðfesta innkaupapöntun "000016" og bóka innhreyfingarskjal afurða. Þetta stofna sjálfkrafa gæðapöntun. Gæðaeftirlit eru yfirleitt framkvæmd með því að starfsmaður á sviði gæða.
 

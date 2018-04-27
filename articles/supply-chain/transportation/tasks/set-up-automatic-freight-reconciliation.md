@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Setja upp sjálfvirka afstemmingu farms
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp gögn fyrir sjálfvirka afstemmingu farms. Þetta er yfirleitt gert af stjórnanda vöruhúss. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 

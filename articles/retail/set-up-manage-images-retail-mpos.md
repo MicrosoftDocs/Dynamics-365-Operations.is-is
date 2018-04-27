@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Uppsetning og umsjón með myndum fyrir Retail Modern POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi grein útskýrir þrepin sem á þarf að halda fyrir uppsetningu og umsjón með myndum fyrir hinar ýmsu einingar sem koma fram í Retail Modern POS (MPOS).
 
@@ -141,7 +140,7 @@ Myndir afurðar sem þarf að nota í ótengdum ham má setja upp með því að
 6.  Á meðan MPOS er í tengdum ham, keyrðu vörulistavinnslu í HQ til að tryggja að gögnin séu send að minnsta kosti einu sinni í ótengdur gagnagrunnur
 7.  Setja MPOS í Ótengda stillingu. Þú ættir að sjá mynd sem hlaðið er upp fyrir tiltekna vöru í HQ. [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Setja upp myndir vörulista, tegund, starfsmanna og viðskiptavina sem birtast í Ótengda stillingu fyrir MPOS
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> Stofna sjónræna reglu fyrir sölustað  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum stofnun nýja sjónræna forstillingu fyrir sölustaði. A sjónræn forstilling inniheldur grunnatriði upplýsingar sem ákvarða the útlit afgreiðslukassa. Hægt er að stofna nokkrar sjónrænar forstillingar og úthluta tilteknum forstillingum til að keyra þær á tilteknum afgreiðslukössum. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

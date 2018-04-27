@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir áætlaðan kostnað
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig er hægt að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri kostnaðarútgáfu fyrir áætlaðan kostnað.
 

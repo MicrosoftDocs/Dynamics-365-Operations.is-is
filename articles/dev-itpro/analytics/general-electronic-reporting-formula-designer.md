@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formúluhönnuður í rafrænni skýrslugerð
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER). Þegar þú hannar snið fyrir tiltekið rafrænt skjal í ER má nota formúlur til að umbreyta gögnum þannig að þau uppfylli kröfur um gerð og snið skjalsins. Þessar formúlur líkjast formúlum í Microsoft Excel. Ýmsar tegundir aðgerða eru studdar í formúlunum: texti, dagsetning og tími, stærðfræðilegar, röklegar, upplýsingar, umbreyting á gagnagerð og annað (virkni sem er lénsértæk fyrir viðskipti).
 
@@ -292,12 +292,12 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 </tr>
 <tr class="odd">
 <td>FIRST (listi)</td>
-<td>Skila fyrsta færslan af tilgreindum lista,ef að sú færsla er ekki tómt. Annars er beitt undantekningu.</td>
+<td>Skila fyrstu færslu yfir tilgreindan lista, ef færslan er ekki tóm. Annars er beitt undantekningu.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>FIRSTORNULL (list)</td>
-<td>Skila fyrsta færslan af tilgreindum lista,ef að sú færsla er ekki tómt. Annars skal skila <strong>núll</strong> færslu.</td>
+<td>Skila fyrstu færslu yfir tilgreindan lista, ef færslan er ekki tóm. Annars skal skila <strong>núll</strong> færslu.</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -313,12 +313,12 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <tr class="odd">
 <td>ORDERBY (listi [, segð 1, segð 2, …])</td>
 <td>Skila tilgreindum lista eftir að hann hefur verið flokkaður samkvæmt tilgreindum frumbreytum. Þessi frumbreytur geta verið skilgreindar sem segðir.</td>
-<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar, sem vísar til VendTable borðinu, <strong>ORDERBY (Smásali, Vendors.'name () ')</strong> skilar lista af söluaðilum sem flokkaðar eftir nafni í hækkandi röð.</td>
+<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>ORDERBY (Lánardrottnar, Vendors.&#39;name()&#39;)</strong> skilar lista yfir lánardrottna sem er raðaður eftir heiti í hækkandi röð.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (listi)</td>
 <td>Skila tilgreindum lista í röð sem er afturábak.</td>
-<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name () ')) )</strong> skilar lista yfir seljendur sem eru flokkaðar eftir nafni í lækkandi röð.</td>
+<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>REVERSE (ORDERBY (Lánardrottnar, Vendors.&#39;name()&#39;)) )</strong> skilar lista yfir lánardrottna sem er raðað eftir heiti í lækkandi röð.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (listi, skilyrði)</td>
@@ -341,7 +341,7 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 </tr>
 <tr class="odd">
 <td>COUNT (listi)</td>
-<td>Skila fjölda skráninga í tilgreindum lista, ef listinn er ekki tómur. Skila annars <strong>0</strong> (núll).</td>
+<td>Skila fjölda færslna í tilgreindum lista ef listinn er ekki tómur. Skila annars <strong>0</strong> (núll).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> skilar <strong>2</strong>, þar sem <strong>SPLIT</strong> aðgerð býr til lista sem samanstendur af tveimur færslum.</td>
 </tr>
 <tr class="even">
@@ -358,7 +358,7 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <li>Merkimiði</li>
 <li>lýsing</li>
 </ul>
-Á keyrslutíma skilar reitir <strong>Merkimiða</strong> og <strong>Lýsingar</strong> gildum sem eru byggð á stillingu tungumálasniðs.</td>
+Á keyrslutíma skila reitirnir <strong>Merkimiði</strong> og <strong>Lýsing</strong> gildum sem eru byggð á sniði tungumálastillinga.</td>
 <td>Í eftirfarandi mynd er kynnt upptalning í gagnalíkönum.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>Eftirfarandi mynd sýnir þessar upplýsingar:</p>
@@ -384,7 +384,7 @@ Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur 
 <li>lýsing</li>
 <li>Þýtt</li>
 </ul>
-<p>Á keyrslutíma skila svæði <strong>Merkimiða</strong> og <strong>Lýsingar</strong> gildum sem eru byggð á tungumálastillingum sniðsins og tilgreint tungumál. <strong>Er þýtt</strong> svæðið gefur til kynna að svæði <strong>Merkimiða</strong> hafi verið þýtt yfir á tilgreint tungumál.</td>
+<p>Á keyrslutíma skila reitirnir <strong>Merkimiði</strong> og <strong>Lýsing</strong> gildum sem eru byggð á sniði tungumálastillinga og tilgreindu tungumáli. <strong>Er þýtt</strong> svæðið gefur til kynna að svæði <strong>Merkimiða</strong> hafi verið þýtt yfir á tilgreint tungumál.</td>
 <td>Til dæmis notar þú <strong>Útreiknað svæði</strong> gagnagjafann til að stilla <strong>enumType_de</strong> og <strong>enumType_deCH</strong> gagnagjafa fyrir <strong>enumType</strong> gagnalíkan tölusetningar:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
@@ -395,7 +395,9 @@ Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur 
 <tr class="even">
 <td>STRINGJOIN (listanum, svæðisheiti, skiltákn)</td>
 <td>Skilar streng sem samanstendur af samsettum gildum tiltekins svæðis úr tilgreindum lista. Gildin eru aðskilin með tilgreindri afmörkun.</td>
-<td>Ef þú slærð inn <strong>Skipta (&quot;abc&quot;, 1)</strong> sem gagnagjafa (DS), mun segðin <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> skila <strong>&quot;A: B: c&quot;</strong>.</td>
+
+<td>Ef slegið er inn <strong>SPLIT(&quot;abc&quot; , 1)</strong> sem gagnagjafi mun segðin <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> skila <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (listanum, markgildi, uppruni marks)</td>
@@ -411,12 +413,12 @@ Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur 
 <p>Eftirfarandi mynd sýnir niðurstöðurnar þegar stillt snið er keyrt.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
 <blockquote>[!NOTE]<br>
-Mark er ekki beitt á síðasta hlut í upprunalistanum, vegna þess að gildi (11) mörkum upprunans (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote></td>
+Mark er ekki beitt á síðustu vöruna í upprunalistanum vegna þess að gildið (11) á upprunamarkinu (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote></td>
 </tr>
 <tr class="even">
 <td>Afmörkun (listi, skilyrði)</td>
 <td>Skila inn tilgreindan lista eftir að fyrirspurnin hefur verið breytt til að sía fyrir tilgreind skilyrði. Þessi aðgerð er frábrugðin <strong>WHERE</strong> aðgerðinni, vegna þess að tilgreint skilyrði er beitt á hvaða gagnagjafa rafrænnar skýrslugerðar af gerðinni <strong>Töflufærslur</strong> á gagnagrunnsstigi. Listinn og forsendurnar er hægt að skilgreina með því að nota töflur og samskipti.</td>
-  <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>FILTER (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar aðeins lista yfir seljendur sem tilheyra söluhópi 40. Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til <strong>VendTable</strong> töflunnar og <strong>parmVendorBankGroup</strong> sem er stillt sem gagnagjafi rafrænnar skýrslugerðar skilar gildinu af gagnagerðinni strengur, <strong>FILTER (seljanda.'&lt;Relations'. VendBankAccount, söluaðili.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> skilar lista yfir bara reikninga söluaðila sem tilheyra ákveðnum bankaflokki.</td>
+  <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>FILTER (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar aðeins lista yfir seljendur sem tilheyra söluhópi 40. Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til <strong>VendTable</strong> töflunnar og <strong>parmVendorBankGroup</strong> sem er stillt sem gagnagjafi rafrænnar skýrslugerðar skilar gildinu af gagnagerðinni strengur, <strong>FILTER (Vendor.&lt;Relations.VendBankAccount, Vendor.&lt;Relations.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> skilar lista yfir bara reikninga lánardrottna sem tilheyra ákveðnum bankaflokki.</td>
 </tr>
 </tbody>
 </table>
@@ -540,7 +542,7 @@ Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <st
 </tr>
 <tr class="even">
 <td>FORMAT (strengur 1, strengur 2[, strengur 3, ...])</td>
-<td>Skila tilgreindum streng eftir að hann hefur verið sniðinn með því að skipta öllum tilvikum af <strong>%N</strong> með <em>n</em> frumbreytunni. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umreikningur strengs við sem nemur tveimur tugasætum.</td>
+<td>Skila tilgreindum streng eftir að hann hefur verið sniðinn með því að skipta öllum tilvikum af <strong>%N</strong> með <em>n</em> frumbreytunni. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytunni skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umreikningur strengs við sem nemur tveimur tugasætum.</td>
 <td>Í eftirtöldum myndum skilar <strong>PaymentModel</strong> gagnagjafinn færslulista viðskiptavina með þætti <strong>viðskiptavini</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæðið.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Í sniði rafrænnar skýrslugerðar (ER) sem er hannað til að mynda rafræna skrá fyrir valda viðskiptavini <strong>PaymentModel</strong> er valinn sem gagnagjafa og stýrir flæði ferlis. Beitt er undantekningu til að upplýsa notandann þegar valinn viðskiptavinur er hættur á deginum sem skýrslan er unnin. Formúlu sem er hannað fyrir þessa gerð vinnslustýringar getur notað eftirfarandi tilföng:</p>
@@ -561,7 +563,7 @@ Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <st
 <p>Ef skýrsla er unnin fyrir <strong>Litware Retail</strong> viðskiptavin 17. desember 2015, í <strong>EN-US</strong> menningu og <strong>EN-US</strong> tungumáli, skilar þessi formúla eftirfarandi texta, sem hægt er að birta sem undantekningarskilaboð fyrir notandann:</p>
 <p>&quot;Ekkert til að prenta. Viðskiptavinur Litware Smásölu er lokaður fyrir 17/12/2015.&quot;</p>
 <p>Ef sama skýrslu er unnin fyrir <strong>Litware Retail</strong> á 17. Desember 2015 í <strong>DE</strong> menningu og <strong>DE</strong> tungumáli, skilar þessi formúla eftirfarandi texta sem notar annað snið dagsetningar:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor Litware Retail wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
 <ul>
@@ -576,7 +578,7 @@ Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fy
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT (númer, tungumál, gjaldmiðil, prenta flaggheiti gjaldmiðils, tugakomma)</td>
-<td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt) í textastreng á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er tungumálakóðinn fyrir samhengi keyrslunnar notað í staðinn. (Tungumálakóðinn í samhengi keyrslunnar er skilgreindur fyrir myndaða möppu eða skrá.) Gjaldmiðilskóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
+<td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt) í textastreng á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er tungumálakóðinn fyrir samhengi keyrslunnar notaður í staðinn. (Tungumálakóðinn í samhengi keyrslunnar er skilgreindur fyrir myndaða möppu eða skrá.) Gjaldmiðilskóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
 <blockquote>[!NOTE]<br>
 Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir prentun gjaldeyrisheitis aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote></td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> Skilar <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot; false, 0)</strong> skilar <strong>&quot;“Sto dwadzieścia”&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> skilar <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>

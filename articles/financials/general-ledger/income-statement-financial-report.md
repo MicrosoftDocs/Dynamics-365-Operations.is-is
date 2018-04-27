@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Fjárhagsskýrsla rekstrarreiknings
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum. 
 
@@ -60,7 +59,7 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
     -   **FD** – fjárhagsgögn fyrir gildandi tímabil
     -   **FD** – fjárhagsgögn fyrir það sem af er ári
 
- 
+
 
 <a name="see-also"></a>Sjá einnig
 --------

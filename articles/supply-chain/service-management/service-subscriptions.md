@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Þjónustuáskriftir
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Áskriftir byggjast á verki tíma og efnis. Hægt er að stofna áskriftir út frá verki, út frá síðunni **Þjónustuáskriftir**, eða með því að nota þjónustuáskriftarflokk.
 

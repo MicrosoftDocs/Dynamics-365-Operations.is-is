@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-segregation-of-duties"></a>Setja upp aðskilnaður á skyldum
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af mismunandi notendum. Þetta hugtak er kallað Aðskilnaður á skyldum. Til dæmis gætirðu viljað að sama manneskjan staðfesti ekki bæði móttöku á vörum og vinni úr greiðslu til lánardrottins. Aðskilnaður á skyldum hjálpar við að minnka áhætta á svikum og það hjálpar einnig við að greina villur. Þú getur einnig notað aðskilnað á skyldum til að lögbinda reglur um innra eftirlit. Ljúktu við eftirfarandi ferli til að stofna reglu. Þú verður að vera kerfisstjóri til að ljúka ferlinu. Sýnigögn gögn fyrirtækisins til að stofna þetta ferli er DAT. 
 

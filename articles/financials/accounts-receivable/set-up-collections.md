@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Setja upp Skuldir og innheimta
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
 
@@ -97,9 +96,9 @@ Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskipta
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
  - [Stofna innheimtubréfaröð](tasks/create-collection-letter-sequence.md)
- 
+
  - [Vinna úr innheimtubréfum](tasks/process-collection-letters.md)
- 
+
  - [Fara yfir innheimtuupplýsingar](tasks/review-collections-information.md)
 
 

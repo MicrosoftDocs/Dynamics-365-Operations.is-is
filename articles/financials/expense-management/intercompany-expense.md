@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Kostnaður innan samstæðu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Starfskraftur sem starfar hjá einum lögaðila í fyrirtæki kann að vinna verk fyrir annan lögaðila í sama fyrirtæki. Í þeim aðstæðum er hægt að nota valkost kostnaðar innan samstæðu til að úthluta kostnaði starfsmannsins á lögaðilann sem verkið var unnið fyrir. Lögaðilinn sem starfsmaðurinn vinnur hjá er kallaður lögaðili sem lánar. Lögaðilinn sem starfskrafturinn stofnar til kostnaðarins fyrir kallast lögaðili sem fær lánað. 
 

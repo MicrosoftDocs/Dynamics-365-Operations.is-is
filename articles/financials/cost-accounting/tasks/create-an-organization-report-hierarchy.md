@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Stofna stigveldi fyrirtækis fyrir skýrslur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtækis. Tilgangur þessarar skráningar er að leiða þig í gegnum víddarstigveldið svo þú getir haldið áfram þar til öll skipan skýrslugerðar fyrirtækisins hefur verið stofnuð. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 

@@ -17,16 +17,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-parameters"></a>Færibreytur útgjaldastýringar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 -----------------------------
 
@@ -87,9 +87,10 @@ Færibreyturnar stjórna almennri hegðun í Kostnaðarstýringu.
 
 ### <a name="anti-corruption"></a>Gegn spillingu
 
-| **Reitur**                             | **Lýsing**      |
-|---------------------------------------|------------------------------------------------------------------------|
-|**Birta staðfestingu gegn spillingu**   | Veldu þennan valkost til að birta texta gegn spillingu þegar ný kostnaðarskýrsla er búin til. Þá er hægt að virkja tiltekna kostnaðarflokka sem krefjast þess að staðfesting gegn spillingu sé valin á kostnaðarskýrslunni. Til dæmis kann gjafaflokkur sem tengist kostnaði vegna opinbers starfsmann að krefjast þess að starfsmaður staðfesti að kostnaðurinn uppfylli reglur fyrirtækisins um opinbera starfsmenn. |
-|**Skilaboð gegn spillingu fyrir þann sem leggur fram** | Færðu inn textann sem birtist starfsmanni þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn **Þýðingar** til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.         |
-|**Skilaboð gegn spillingu fyrir samþykkjanda**  | Færðu inn textann sem birtist samþykkjanda þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn **Þýðingar** til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.        |
+|                 <strong>Reitur</strong>                 |                                                                                                                                                                                            <strong>Lýsing</strong>                                                                                                                                                                                             |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Birta staðfestingu gegn spillingu</strong>  | Veldu þennan valkost til að birta texta gegn spillingu þegar ný kostnaðarskýrsla er búin til. Þá er hægt að virkja tiltekna kostnaðarflokka sem krefjast þess að staðfesting gegn spillingu sé valin á kostnaðarskýrslunni. Til dæmis kann gjafaflokkur sem tengist kostnaði vegna opinbers starfsmann að krefjast þess að starfsmaður staðfesti að kostnaðurinn uppfylli reglur fyrirtækisins um opinbera starfsmenn. |
+| <strong>Skilaboð gegn spillingu fyrir þann sem leggur fram</strong> |                                                                                             Færðu inn textann sem birtist starfsmanni þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn <strong>Þýðingar</strong> til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.                                                                                             |
+| <strong>Skilaboð gegn spillingu fyrir samþykkjanda</strong>  |                                                                                             Færðu inn textann sem birtist samþykkjanda þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn <strong>Þýðingar</strong> til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.                                                                                             |
+
 

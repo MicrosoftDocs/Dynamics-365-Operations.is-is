@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Breyta dagsetningu lotunnar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sjálfgefið er núverandi dagsetning notuð þegar slegið inn og bókað færslubókarfærslur eða upprunaskjal. Hægt er að breyta dagsetningunni sem er notuð í núverandi lotu. Nota þennan eiginleiki til að breyta dagsetningu í færslubókarfærslu eða upprunaskjal eftir á, ef þarf.
 

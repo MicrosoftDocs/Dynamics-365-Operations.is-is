@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: is-is
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
 
@@ -129,7 +128,7 @@ Eftir að þú hefur keyrt rakningu er hægt að nota valkostina á hnappnum **R
 Viljir þú nota valkostina **Nýtt afturábak** eða **Nýtt fram á við**, verður að nota aðgerðina **Opna í nýjum glugga** til að hafa nýja rakningu í nýjum glugga.
 
 ## <a name="can-i-save-the-trace-details"></a>Get ég vista rakningaratriðunum?
-Hægt er að vista upplýsingar sem xml skrá í flipanum **Upplýsingar** með því að smella á **Flytja út** fyrir neðan aðgerðina ****Rakning**** á aðgerðarrúðunni. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn **Sýna skjal** til að skoða skrána þegar í stað. **Athugið:**Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja **Opna með**, og velja síðan forritið sem nota skal til að birta efnið.
+Hægt er að vista upplýsingar sem xml-skrá í flipanum <strong>Upplýsingar</strong> með því að smella á <strong>Flytja út</strong> fyrir neðan aðgerðina *<strong><em>Rakning</em></strong>* á aðgerðasvæðinu. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn <strong>Sýna skjal</strong> til að skoða skrána þegar í stað. <strong>Athugið:</strong>Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja <strong>Opna með</strong>, og velja síðan forritið sem nota skal til að birta efnið.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Get ég að reiknað út stöðu fyrir tiltekna vöru eða innihaldsefnisins?
 Hægt er að flytja upplýsingar úr samantektarskjámyndum yfir í Microsoft Excel. Opnið viðeigandi síðu, smellið á táknið **Opna í Microsoft Office** og veljið svo **Flytja út í Microsoft Excel**. Þetta er sérlega gagnlegt þegar á að reikna út fjöldajanfvægi fyrir vöru eða efni frá síðunni **Samantekt á færslum**. Á síðunni **Samantekt á færslum** er hægt að afmarka vöruna eða efnið, og framleiðslulotu ef óskað er, og flytja síðan upplýsingarnar til Excel. Í Excel er til dæmis hægt að einangra magn á lager, magn sem var selt, og upphæð sem var notuð í framleiðslu.

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Stofna bráðabirgðafjárhagsáætlun fyrir hið opinbera
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að stofna forvinnslu færslur fjárhagsáætlunarskrár fyrir tiltekna fjárhagsáætlunarlíkan og víddar-gildi. Eftir raunveruleg áætlun er samþykkt er hægt að stofna upprunalega færslu fjárhagsáætlunarskrár. Þetta ferli var stofnuð með PSUS sýnigögn fyrirtæki í hlutanum opinberi geirinn.
 

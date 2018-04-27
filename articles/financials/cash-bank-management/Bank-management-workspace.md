@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="bank-management-workspace"></a>Vinnusvæði bankakerfis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vinnusvæðið **Bankakerfi** birtir upplýsingar sem tengjast bankareikningum fyrirtækis. Í þessu vinnusvæði er yfirlitið **Samtölur** og síðan **Greiningar**. Yfirlitið **Samtölur** sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Síðan **Greiningar** notar virkni Microsoft Power BI til að birta myndræna framsetningu á stöðu bankareikninga.
 

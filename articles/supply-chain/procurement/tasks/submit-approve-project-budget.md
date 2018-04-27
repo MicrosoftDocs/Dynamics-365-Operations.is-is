@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budgets"></a>Senda inn og samþykkja fjárhagsáætlanir verka
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig stofna og senda inn fjárhagsáætlun fyrir verkefni. 
 

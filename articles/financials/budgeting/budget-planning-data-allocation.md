@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Gagnaúthlutun fjárhagsáætlunargerðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations og hvernig hægt er að nota þær.  
 

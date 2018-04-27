@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Áfylling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi. Upplýsingarnar í þessu efnisatriði á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
 
@@ -67,13 +67,15 @@ Athugið að Lágm. / Hám áfyllingaráætlun getur ekki fylla á tómar staðs
 Í stað þess að þurfa að draga saman eftirspurn í lok úthlutunarferlisins og endurnýja á grundvelli samandregins magns, getur þú strax notað umsvifalausa áfyllingaráætlun. Þegar þú notar þessa áætlun er hægt að endurnýja birgðir strax eftir að lína staðsetningarleiðbeiningar mistekst. Þess vegna er hægt að setja upp áfyllinguna þannig að hún sé takmörkuð af sérstökum einingum og noti því magn sem er stillt fyrir tilteknar staðsetningar.
 
 ## <a name="replenishment-prerequisites"></a>Skilyrði fyrir áfyllingu
-| Skilyrði            | lýsing |
-|-------------------------|-------------|
-| Vara                    | Varan verður að vera virkur fyrir vöruhúsakerfisferli. |
-| Vöruhús               | Vöruhús verður að vera virkur fyrir vöruhúsakerfisferli. Til að virkja vöruhús fyrir vöruhúsakerfisferli, skal velja vöruhús í skjámyndinni **Vöruhús** og velja síðan valkostinn **Nota vöruhúsakerfisferli**. |
-| Sniðmát áfyllingar | Minnst ein áfyllingarsniðmát verður að vera sett upp fyrir Lágm. / Hám áfyllingu, áfyllingu bylgueftirspurnar, eða farmeftirspurnar. |
-| Staðsetningar               | verður að stofna staðsetningar og tengja við staðsetningarforstilling |
-| Forstillingar staðsetningar       | Staðsetningarforstillingar eru nauðsynlegar til að stofna staðsetningar. |
-| Staðsetningarleiðbeiningar     | Staðsetningarleiðbeiningar eru nauðsynleg til leiða vinnu til staðsetninga þar sem áfylling er nauðsynlegt, og til staðsetningar þar sem birgðir eru upprunnar frá. |
-| Vinnusniðmát          | Vinnusniðmát af gerðinni **Áfylling** er krafist til að geta stofna áfyllingarvinnu svo að birgðir sé hægt að færa í æskilega staðsetningu. |
+
+|      Skilyrði       |                                                                                                                                lýsing                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Vara           |                                                                                                        Varan verður að vera virkur fyrir vöruhúsakerfisferli.                                                                                                        |
+|        Vöruhús        | Vöruhús verður að vera virkur fyrir vöruhúsakerfisferli. Til að virkja vöruhús fyrir vöruhúsakerfisferli, skal velja vöruhús í skjámyndinni <strong>Vöruhús</strong> og velja síðan valkostinn <strong>Nota vöruhúsakerfisferli</strong>. |
+| Sniðmát áfyllingar |                                                                   Minnst ein áfyllingarsniðmát verður að vera sett upp fyrir Lágm. / Hám áfyllingu, áfyllingu bylgueftirspurnar, eða farmeftirspurnar.                                                                   |
+|        Staðsetningar        |                                                                                                       verður að stofna staðsetningar og tengja við staðsetningarforstilling                                                                                                       |
+|    Forstillingar staðsetningar    |                                                                                                        Staðsetningarforstillingar eru nauðsynlegar til að stofna staðsetningar.                                                                                                        |
+|   Staðsetningarleiðbeiningar   |                                                       Staðsetningarleiðbeiningar eru nauðsynleg til leiða vinnu til staðsetninga þar sem áfylling er nauðsynlegt, og til staðsetningar þar sem birgðir eru upprunnar frá.                                                        |
+|     Vinnusniðmát      |                                                   Vinnusniðmát af gerðinni <strong>Áfylling</strong> er krafist til að geta stofna áfyllingarvinnu svo að birgðir sé hægt að færa í æskilega staðsetningu.                                                    |
+
 

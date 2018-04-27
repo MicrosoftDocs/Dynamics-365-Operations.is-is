@@ -3,7 +3,7 @@ title: "Stofna greiðslur lánardrottins með greiðslutillögu"
 description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 07/17/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 454a370e73e6e0d33f0aeb1ca2b3f9d6d9f8cb98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofna greiðslur lánardrottins með greiðslutillögu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar. 
 
@@ -40,25 +39,26 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 ## <a name="parameters"></a>Færibreytur
 -   **Velja reikninga eftir** – Reikninga innan tímabilsins sem er tilgreint í svæðunum **Frá dagsetningu** og **Til dagsetningar** er hægt að velja eftir gjalddaga, staðgreiðsluafsláttardagsetningu eða bæði. Ef dagsetning staðgreiðsluafsláttar er valin leitar kerfið fyrst eftir reikningum sem hafa dagsetningu staðgreiðsluafsláttar milli þeirra dagsetninga. Kerfið þá ákveður hvort reikningurinn er hæfur°fyrir staðgreiðsluafslátt með því að nota lotudagsetninguna til að ganga úr skugga um að dagsetning staðgreiðsluafsláttar sé ekki liðin.
 -   **Frá dagsetningu** og **Til dagsetningar** – Reikningar sem hafa gjalddaga eða dagsetningu staðgreiðsluafsláttar innan þessa dagsetningabils eru valdar fyrir greiðslu.
--   **Greiðsludagsetning** – Þetta er aðeins notað þegar reiturinn **Tímabil** á greiðslumáta er stilltur á **Heildarupphæð**. Ef dagsetning er tilgreind eru allar greiðslur stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
 -   **Dagsetning lágmarksgreiðslu** – færið Inn dagsetning lágmarksgreiðslu.. Til dæmis tilgreina svæðin **Frá dagsetningu** og **Til dagsetningar** bilið 1. september til 10. september og dagsetning lágmarksgreiðslu er 5. september. Í þessu tilfelli hafa allir reikningar með gjalddaga frá 1. september til 5. september greiðsludagsetninguna 5. september. Hins vegar hafa allir reikningar með gjalddaga frá 5. september til 10. september greiðsludagsetningu sem er sú sama og gjalddagi fyrir hvern reikning.
 -   **Upphæðarmörk** – færið Inn hámarksheildarupphæð fyrir allar greiðslur.
 -   **Stofna greiðslur án forskoðunar á reikningi** – Ef valkosturinn er settur á **Já**, verða greiðslur stofnaðar strax á **lánardrottnagreiðslur** síðu. Síðunni **Greiðslutillaga** verður sleppt. Þess vegna greiðslur verða stofnaðar fljótlegri hátt. Enn er hægt að breyta greiðslur frá **lánardrottnagreiðslur** síðu. Einnig er hægt að fara til baka á **greiðslutillögu** síðu með því að nota **Breyta reikningum fyrir valda greiðslu** hnappinn.
 
 ## <a name="advanced-options"></a>Ítarlegir valkostir
--   **Athuga stöðu lánardrottins** – Ef þessi valkostur er stilltur á **Já**, staðfestir kerfið að lánardrottinn er ekki með debet-staða áður en neinn reikningur er greiddur. Ef lánardrottinn er með debet-stöðu, engin greiðsla er stofnuð. Til dæmis gæti lánardrottinn haft kreditreikningar eða greiðslur sem hafa verið bókaðar en ekki enn verið jafnaðar. Í þessum tilfellum ætti ekki að greiða lánardrottni. Þess í stað ætti að jafna kreditreikningar eða greiðslur á móti útistandandi reikningum.
--   **Eyða neikvæðum greiðslum** – valkosturinn virkar öðruvísi, eftir því hvort greiðslur eru gerðar fyrir einstaka reikninga eða samtölu reikninga sem uppfylla skilyrði greiðslu. Þessi hegðun er skilgreind á greiðsluhætti.
--   **Greiðsla fyrir hvern reikning** – Ef **Eyða neikvæðum greiðslum**°valkostur er stilltur á°**Já**, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, aðeins reikninginn er valinn fyrir greiðslu. Greiðslan°er ekki jafnað á móti reikningi. Ef í **Eyða neikvæðum greiðslum** valkostur er stilltur á **Nei**, og reiknings og greiðslu ekki eru kostnaðarjafnaðar jafnaðar, reikningur og greiðsla eru valdar fyrir greiðslu. Greiðsla er stofnuð fyrir greiðsluna og endurgreiðsla (neikvæð greiðsla) er stofnuð fyrir greiðsluna.
--   **Greiðsla fyrir samtölu reikninga**°-° Ef **Eyða neikvæðum greiðslum**°valkostur er stilltur á°**Já**, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, bæði ójafnaði reikningurinn og greiðsla eru valdar fyrir greiðslu og upphæðir er bætt saman til að fá fram heildarupphæð greiðslu. Eina undantekning eref samtalan leiðir til endurgreiðslu. Í þessu tilfelli er hvorki reikningur eða greiðsla valinn. Ef **Eyða neikvæðum greiðslum** valkostur er stilltur á **Nei** og reikningur og greiðsla eru ekki jöfnuð eru bæði reikningurinn og greiðslan valdar fyrir greiðslu og upphæðir er bætt saman til að fá fram heildarupphæð greiðslu.
--   **Prenta skýrslu eingöngu** – þessi valkostur er Stilltur á **Já** til að sjá niðurstöður greiðslutillagna í skýrslu, en°án þess að stofna neinar greiðslur.
--   **Taka með reikninga lánardrottna frá öðrum lögaðilum** – Ef fyrirtækið hefur miðstýrðar vinnslu til greiðslu og greiðslutillagan á að taka með reikninga frá öðrum lögaðilum sem eru teknar með í leitarskilyrðum, setjið þennan valkost á **Já**.
--   **Bjóða aðskildar greiðslur lánardrottins fyrir hvern lögaðila** – Ef þessi valkostur er stilltur á **Já**, er aðskilin greiðsla stofnuð fyrir hvern lögaðila fyrir hvern lánardrottinn. Lánardrottinn greiðslunnar er lánardrottinn úr reikningi frá hverjum lögaðila. Ef þessi valkostur er stilltur á **Nei**, og sami lánardrottinn á reikninga í mörgum lögaðilum, er ein greiðsla stofnuð fyrir heildarupphæð valinna reikninga. Lánardrottinn greiðslunnar er lánardrottinn núverandi lögaðila. Ef lánardrottnalykillinn er ekki til í núverandi lögaðila, er notaður lánardrottnalykill fyrsta reikningsins sem þarf að greiða.
--   **Greiðslugjaldmiðill** – Þetta svæði tilgreinir þann gjaldmiðil sem allar greiðslur eru stofnaðar í. Ef gjaldmiðill er ekki skilgreindur, er hver reikningur greiddur í gjaldmiðli reikningsins.
--   **Greiðsluvikudagur** – færið Inn dag vikunnar þegar greiðsla á að fara fram. Þetta svæði er bara notað ef greiðslumátinn er sett upp með samtals reikninga til greiðslu á ákveðnum degi vikunnar.
--   **Gerð mótlykils** og **Mótlykill** – Stilla þessi svæði til að skilgreina gerð lykils (eins og **Fjárhag** eða **Banka**) og mótlykil (til dæmis tiltekins bankareiknings). Greiðsluhátt fyrir reikninginn skilgreinir sjálfgefna gerð mótlykils og mótlykil, en hægt er að nota svæðin til að hnekkja sjálfgefnum gildum.
--   **Auka síur** – Á flýtiflipanum **Færslur til að taka með** er hægt að skilgreina aukabil skilyrða. Fyrir dæmi, ef þú vilt greiða aðeins svið lánardrottna, geturðu skilgreint afmörkun fyrir lánardrottnasvið. Þessi virkni er oft notuð til að að velja reikninga fyrir greiðslumáta. Til dæmis, ef skilgreind er sía þar sem **Greiðsluaðferð** = **Ávísun**, eru aðeins þeir reikningar sem hafa þann greiðslumáta valdir fyrir greiðslu, svo lengi sem þeir einnig uppfyllir önnur skilyrði sem eru tilgreindir í fyrirspurn.
+- **Athuga stöðu lánardrottins** – Ef þessi valkostur er stilltur á **Já**, staðfestir kerfið að lánardrottinn er ekki með debet-staða áður en neinn reikningur er greiddur. Ef lánardrottinn er með debet-stöðu, engin greiðsla er stofnuð. Til dæmis gæti lánardrottinn haft kreditreikningar eða greiðslur sem hafa verið bókaðar en ekki enn verið jafnaðar. Í þessum tilfellum ætti ekki að greiða lánardrottni. Þess í stað ætti að jafna kreditreikningar eða greiðslur á móti útistandandi reikningum.
+- **Eyða neikvæðum greiðslum** – valkosturinn virkar öðruvísi, eftir því hvort greiðslur eru gerðar fyrir einstaka reikninga eða samtölu reikninga sem uppfylla skilyrði greiðslu. Þessi hegðun er skilgreind á greiðsluhætti.
+- **Greiðsla fyrir hvern reikning** – Ef **Eyða neikvæðum greiðslum**°valkostur er stilltur á°**Já**, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, aðeins reikninginn er valinn fyrir greiðslu. Greiðslan°er ekki jafnað á móti reikningi. Ef í **Eyða neikvæðum greiðslum** valkostur er stilltur á **Nei**, og reiknings og greiðslu ekki eru kostnaðarjafnaðar jafnaðar, reikningur og greiðsla eru valdar fyrir greiðslu. Greiðsla er stofnuð fyrir greiðsluna og endurgreiðsla (neikvæð greiðsla) er stofnuð fyrir greiðsluna.
+- <strong>Greiðsla fyrir samtölu reikninga</strong>°-° Ef <strong>Eyða neikvæðum greiðslum</strong>°valkostur er stilltur á°<strong>Já</strong>, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, bæði ójafnaði reikningurinn og greiðsla eru valdar fyrir greiðslu og upphæðir er bætt saman til að fá fram heildarupphæð greiðslu. Eina undantekning eref samtalan leiðir til endurgreiðslu. Í þessu tilfelli er hvorki reikningur eða greiðsla valinn. Ef <strong>Eyða neikvæðum greiðslum **valkosturinn er stilltur á **Nei</strong> og reikningur og greiðsla eru ekki jöfnuð eru bæði reikningurinn og greiðslan valin fyrir greiðslu og upphæðunum er bætt saman til að fá fram heildarupphæð greiðslu.
+- **Prenta skýrslu eingöngu** – þessi valkostur er Stilltur á **Já** til að sjá niðurstöður greiðslutillagna í skýrslu, en°án þess að stofna neinar greiðslur.
+- **Taka með reikninga lánardrottna frá öðrum lögaðilum** – Ef fyrirtækið hefur miðstýrðar vinnslu til greiðslu og greiðslutillagan á að taka með reikninga frá öðrum lögaðilum sem eru teknar með í leitarskilyrðum, setjið þennan valkost á **Já**.
+- **Bjóða aðskildar greiðslur lánardrottins fyrir hvern lögaðila** – Ef þessi valkostur er stilltur á **Já**, er aðskilin greiðsla stofnuð fyrir hvern lögaðila fyrir hvern lánardrottinn. Lánardrottinn greiðslunnar er lánardrottinn úr reikningi frá hverjum lögaðila. Ef þessi valkostur er stilltur á **Nei**, og sami lánardrottinn á reikninga í mörgum lögaðilum, er ein greiðsla stofnuð fyrir heildarupphæð valinna reikninga. Lánardrottinn greiðslunnar er lánardrottinn núverandi lögaðila. Ef lánardrottnalykillinn er ekki til í núverandi lögaðila, er notaður lánardrottnalykill fyrsta reikningsins sem þarf að greiða.
+- **Greiðslugjaldmiðill** – Þetta svæði tilgreinir þann gjaldmiðil sem allar greiðslur eru stofnaðar í. Ef gjaldmiðill er ekki skilgreindur, er hver reikningur greiddur í gjaldmiðli reikningsins.
+- **Greiðsluvikudagur** – færið Inn dag vikunnar þegar greiðsla á að fara fram. Þetta svæði er bara notað ef greiðslumátinn er sett upp með samtals reikninga til greiðslu á ákveðnum degi vikunnar.
+- **Gerð mótlykils** og **Mótlykill** – Stilla þessi svæði til að skilgreina gerð lykils (eins og **Fjárhag** eða **Banka**) og mótlykil (til dæmis tiltekins bankareiknings). Greiðsluhátt fyrir reikninginn skilgreinir sjálfgefna gerð mótlykils og mótlykil, en hægt er að nota svæðin til að hnekkja sjálfgefnum gildum.
+- **Samantekin greiðsludagsetning** – Þetta er aðeins notað þegar reiturinn **Tímabil** á greiðslumáta er stilltur á **Samtals**. Ef dagsetning er tilgreind eru allar greiðslur stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
+- **Auka síur** – Á flýtiflipanum **Færslur til að taka með** er hægt að skilgreina aukabil skilyrða. Fyrir dæmi, ef þú vilt greiða aðeins svið lánardrottna, geturðu skilgreint afmörkun fyrir lánardrottnasvið. Þessi virkni er oft notuð til að að velja reikninga fyrir greiðslumáta. Til dæmis, ef skilgreind er sía þar sem **Greiðsluaðferð** = **Ávísun**, eru aðeins þeir reikningar sem hafa þann greiðslumáta valdir fyrir greiðslu, svo lengi sem þeir einnig uppfyllir önnur skilyrði sem eru tilgreindir í fyrirspurn.
 
 ## <a name="scenarios"></a>Sviðsmyndir
+
 | Lánardrottinn | Reikningur | Dagsetning reiknings | Reikningsupphæð | Gjalddagi | Dagsetning staðgreiðsluafsláttar | Upphæð staðgreiðsluafsláttar |
 |--------|---------|--------------|----------------|----------|--------------------|----------------------|
 | 3050   | 1001    | 15. júní      | 500,00         | 15. júlí  | 29. júní            | 10,00                |

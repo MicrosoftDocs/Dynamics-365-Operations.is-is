@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-analysis"></a>Kostnaðargreining framleiðslupöntunar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá veitir upplýsingar um kostnaðargreiningar sem er hægt að gera fyrir loknar og gildandi framleiðslupantanir. Hægt er að greina áætlaðan kostnað og raunkostnað með því að nota síðuna Útreikningur á verði eða skýrsluna Kostnaðarmat og kostnaðarútreikningur. Hægt er að skoða upplýsingar um áætlaðan kostnað og raunkostnað (og magn) fyrir hverja íhlutavöru, leiðaraðgerð og óbeinan kostnað.
 

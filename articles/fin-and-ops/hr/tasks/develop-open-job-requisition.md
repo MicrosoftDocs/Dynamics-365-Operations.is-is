@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Þróa og opna tilkynningar um lausa stöðu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert ráðningarverk, getur þú sett upp upplýsingar, svo sem verk sem ráðningu er fyrir, nafn ráðningaraðila, stöðu verkefnisins og deild sem starfið verður staðsett í. Eftir stofnun ráðningarverks, er hægt skrifa atvinnuauglýsingu fyrir verkið, birta auglýsinguna í sjálfsafgreiðslusíðum Starfsmanna, tengja starfsumsóknir við verkið og rekja aðgerðir fyrir verkið. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja ferlið, farið í Mannauður > Ráðningar > Ráðningarverk > Ráðningarverk
 

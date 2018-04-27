@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Bakfærslukostnaðaraðferð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði kynnir til sögunnar hugtakið bakfærslukostnaðaraðferð sem er notað fyrir lean-framleiðslu. 
 

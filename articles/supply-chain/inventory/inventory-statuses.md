@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-statuses"></a>Birgðastöður
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir því hvernig þú getur notað birgðastöðu til að flokka og fylgjast með birgðum.
 

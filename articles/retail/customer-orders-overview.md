@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="customer-orders-overview"></a>Yfirlit pantana viðskiptavina
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar í Retail Modern POS (MPOS). Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
 

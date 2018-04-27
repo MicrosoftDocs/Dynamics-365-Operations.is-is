@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Yfirlit yfir Fínstillingarráðgjöf
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta uppsetningu á Microsoft Dynamics 365 for Finance and Operations.
 

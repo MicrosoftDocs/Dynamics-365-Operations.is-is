@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Þjónustuhlutarflokkar 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hlutaflokkar gagnast til þess að flokka og sía gögnin um hluti fyrir skýrslur og talnagögn. Til dæmis er hægt að flokka hluti eftir landfræðilegri staðsetningu eða gerð.
 

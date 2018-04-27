@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Birtingarstillingar fyrir fartæki vöruhúss
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir hvernig setja á upp útlit skjás fartækisins og hvernig á að varpa flýtilyklum á stýrieiningar, til dæmis hnappar. 
 

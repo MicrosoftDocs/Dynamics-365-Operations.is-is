@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Jaðarbúnaður POS-vélbúnaðar
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Retaoæ Modern sölukerfi í skýinu (POS) og Cloud POS geta notað vítækt jaðartæki POS, með mörg viðmót og notkunarmöguleika til að uppfylla mismunandi viðskiptaaðstæður smásalans. 
 

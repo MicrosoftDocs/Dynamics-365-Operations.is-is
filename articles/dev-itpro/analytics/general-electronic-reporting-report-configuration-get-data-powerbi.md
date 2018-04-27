@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
@@ -118,9 +117,9 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Stofna Power BI skýrslu með því að nota nýja gagnasafnið.
 1. Smellið á Power BI gagnasafnið **Upplýsingar um inn- og útflutning** sem var stofnað. 
 2. Skilgreinið myndrænu framsetninguna. Veljið til dæmis á **Útfyllt korti** myndræn útfærsla, og skilgreina sem hér segir:
- -   Úthluta skal **CountryOrigin** svæði gagnasafns til **Staðsetningu** svæðinu í myndræn útfærsla korts.
- -   Úthluta skal **upphæð** svæði gagnasafns til **litamettun** svæðinu í myndræn útfærsla korts.
- -   Bæta við **Aðgerð** og **Ár** svlpu gagnasafns í **Síur** safni svæða í myndræn útfærsla korts.
+   -   Úthluta skal **CountryOrigin** svæði gagnasafns til **Staðsetningu** svæðinu í myndræn útfærsla korts.
+   -   Úthluta skal **upphæð** svæði gagnasafns til **litamettun** svæðinu í myndræn útfærsla korts.
+   -   Bæta við **Aðgerð** og **Ár** svlpu gagnasafns í **Síur** safni svæða í myndræn útfærsla korts.
 
 3. Vista Power BI-skýrsla sem **skýrslu með upplýsingum um Innflutning og útflutning**. [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Athugið að kortið sýnir lönd/svæði sem nefnd eru í Excel-skránni (Austurríki og Sviss í þessu dæmi). Þessum lönd/svæði eru litaða til að sýna hlutfalli á reikningsfærðar upphæðir fyrir hvert. 
 4. Uppfæra listann yfir Intrastat-færslur. Útflutningsfærslan sem á uppruna sinn á Ítalíu er bætt við. [![Listi yfir Intrastat-færslur](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

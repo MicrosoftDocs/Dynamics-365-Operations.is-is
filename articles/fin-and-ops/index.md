@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -25,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Kynning á Microsoft Dynamics 365 for Finance and Operations
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Kynntu þér hvernig Microsoft Dynamics 365 for Finance and Operations getur unnið fyrir þitt fyrirtæki með því að nota tilföngin hér fyrir neðan til að finna gott efni handa notendum, þróunaraðilum og fagfólki á svið upplýsingatækni. 
 

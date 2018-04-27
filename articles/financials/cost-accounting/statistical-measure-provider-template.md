@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Sniðmát meðlima tölfræðivídda og tölfræðiveita
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tölfræðileg vídd og aðildarfélögum eru notaðir til að skrá og stjórna ekki-peningalegt færslur í kostnaðarbókhald. Hægt er að nota meðlimi víddar talnagagna fyrir tvenns konar tilgang:
 

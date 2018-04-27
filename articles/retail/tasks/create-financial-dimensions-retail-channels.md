@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að stofna fjárhagsvíddir smásölurása með víddargildum og skref til að skilgreina gildi fjárhagsvídda á smásöluverslanir. Efnið tekur ekki með önnur tengd skref, s.s. að stofna víddarsamstæður og lykilskipulag. Þetta ferli notar sýnigögn fyrirtæki USRT.
 

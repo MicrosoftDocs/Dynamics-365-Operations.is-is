@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations - Vöruhús
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig eigi að setja upp Dynamics 365 for Finance and Operations - Vöruhús til að skanna strikamerki með myndavél á fartæki. 
 

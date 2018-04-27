@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón í Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvað er að finna í **Skulda- og innheimtuumsjón** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
@@ -69,22 +69,24 @@ Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð.
 
 Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Skulda- og innheimtuumsjón** í Power BI. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
 
-| Eining                                      | Lykiluppsafnaðar mælingar           | Uppruni gagna                                 | Svæði                                                      | lýsing |
-|---------------------------------------------|--------------------------------------|---------------------------------------------|------------------------------------------------------------|-------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  | smmActivities                               | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) | Talning lokaðra aðgerða og meðaltími til stefnu til lokunar þeirra aðgerða. |
-| CustCollectionsBIActivitiesOpen             | ActivityNumber                       | smmActivities                               | Count(ActivityNumber)                                      | Talning á opnum aðgerðum. |
-| CustCollectionsBIAgedBalances               | AgedBalances                         | CustCollectionsBIAgedBalancesView           | Sum(SystemCurrencyBalance)                                 | Samtala á aldursgreindum stöðum. |
-| CustCollectionsBIBalancesDue                | SystemCurrencyAmount                 | CustCollectionsBIBalanceDueView             | Sum(SystemCurrencyAmount)                                  | Upphæðir sem eru komnir fram yfir gjalddaga. |
-| CustCollectionsBICaseAverageCloseTIme       | NumOfCases, CaseAverageClosedTime    | CustCollectionsCaseDetail                   | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) | Talning lokaðra tilvika og meðaltími til stefnu til lokunar þeirra tilvika. |
-| CustCollectionsBICasesOpen                  | CaseId                               | CustCollectionsCaseDetail                   | Count(CaseId)                                              | Talning á opnum tilvikum. |
-| CustCollectionsBICollectionLetter           | CollectionLetterNum                  | CustCollectionLetterJour                    | Count(CollectionLetterNum)                                 | Talning á opnum innheimtubréfum. |
-| CustCollectionsBICollectionLetterAmount     | CollectionLetterAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Staða bókaða innheimtubréfa. |
-| CustCollectionsBICollectionStatus           | CollectionStatusAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Staða færslna með innheimtustöðu. |
-| CustCollectionsBICredit                     | CreditExposed AmountOverCreditLimit | CustCollectionsBICreditView                 | Sum(CreditExposed), Sum(AmountOverCreditLimit)             | Samtala á váhrifum lánamarka og upphæðum þar sem viðskiptavinir eru yfir lánamörkum sínum. |
-| CustCollectionsBICustOnHold                 | Læst                              | CustCollectionsBICustTable                  | Count(Blocked)                                             | Fjöldi viðskiptavina á bið. |
-| CustCollectionsBIDSO                        | DSO30                                | CustCollectionsBIDSOView                    | AverageOfChildren(DSO30)                                   | Útistandandi sala fyrir 30 daga. |
-| CustCollectionsBIExpectedPayment            | ExpectedPayment                      | CustCollectionsBIExpectedPaymentView        | Sum(SystemCurrencyAmounts)                                 | Samtala væntanlegra greiðslna innan næsta árs. |
-| CustCollectionsBIInterestNote               | InterestNote                         | CustInterestJour                            | Count(InterestNote)                                        | Fjöldi stofnaðra vaxtanóta. |
-| CustCollectionsBISalesOnHold                | SalesId                              | SalesTable                                  | Count(SalesId)                                             | Fjöldi heildarsölupantana sem eru á bið. |
-| CustCollectionsBIWriteOff                   | WriteOffAmount                       | CustCollectionsBIWriteOffView               | Sum(SystemCurrencyAmount)                                  | Samtala færslna sem hafa verið afskrifaðar. |
+
+|                   Eining                    |      Lykiluppsafnaðar mælingar      |             Uppruni gagna              |                           Svæði                            |                                    lýsing                                     |
+|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Talning lokaðra aðgerða og meðaltími til stefnu til lokunar þeirra aðgerða.     |
+|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Talning á opnum aðgerðum.                            |
+|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Samtala á aldursgreindum stöðum.                              |
+|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Upphæðir sem eru komnir fram yfir gjalddaga.                            |
+|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Talning lokaðra tilvika og meðaltími til stefnu til lokunar þeirra tilvika.        |
+|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Talning á opnum tilvikum.                              |
+|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Talning á opnum innheimtubréfum.                        |
+|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Staða bókaða innheimtubréfa.                      |
+|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Staða færslna með innheimtustöðu.                 |
+|           CustCollectionsBICredit           | CreditExposed AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Samtala á váhrifum lánamarka og upphæðum þar sem viðskiptavinir eru yfir lánamörkum sínum. |
+|         CustCollectionsBICustOnHold         |               Læst                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Fjöldi viðskiptavina á bið.                      |
+|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Útistandandi sala fyrir 30 daga.                         |
+|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Samtala væntanlegra greiðslna innan næsta árs.                 |
+|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Fjöldi stofnaðra vaxtanóta.                |
+|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Fjöldi heildarsölupantana sem eru á bið.                 |
+|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Samtala færslna sem hafa verið afskrifaðar.                 |
+
 

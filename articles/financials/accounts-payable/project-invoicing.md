@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="project-invoicing"></a>Verkreikningur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 

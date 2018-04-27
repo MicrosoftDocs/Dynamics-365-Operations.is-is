@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Eignir – heimasíða
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis. 
 

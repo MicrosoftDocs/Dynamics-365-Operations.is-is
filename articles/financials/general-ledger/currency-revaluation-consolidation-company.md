@@ -28,10 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Endurmat á gjaldmiðli í samstæðufyrirtæki
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þegar gögn frá einum bókhaldsgjaldmiðill til annars eru sameinuð, verður samt að keyra gjaldmiðilsendurmatið ef breyting á gjaldmiðla verður , þannig að lykilsstöður þínar séu rétt endurmetnar. Þegar gögnum eru sameinuð í upphafi, nota á **umreikningur Gjaldmiðils** flipa til að velja fyrstu gengi fyrir þýðingu á meðan á sameiningarferlinu stendur. Eftir að nýtt gengi er fært inn (til dæmis í næsta mánuð), verður að endurmeta stöðu lykils. Óinnleystur hagnaður eða tap er síðan uppfærð til samræmis, byggt á nýju gengi og dagsetningu. Eftirfarandi dæmi sýnir bókhaldsfærslur sem eru stofnaðar á meðan vinnslu stendur.
 
@@ -52,6 +49,7 @@ ms.lasthandoff: 11/03/2017
 | 10/11/2015 | 130100 – Viðskiptakröfur | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Gengi gjaldmiðla
+
 | Úr gjaldmiðli | Í gjaldmiðil | Upphafsdagsetning | Gengi |
 |---------------|-------------|------------|---------------|
 | EUR           | USD         | 10/1/2015  | 200           |

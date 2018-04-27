@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: is-is
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a>Þróun starfsmanns efni Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir efni **þróunar starfsmanns** í Microsoft Power BI.
 
@@ -45,6 +45,7 @@ Skýrslur sem fylgja í efni **Þróun starfsmanns** í Power BI hafa bæði myn
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
+
 | Eining                   | Innihald                                                                                                   | Vensl við aðra lögaðila |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Dagsetning starfsupphafs          | Mótbókanir dagatals til að sneiða skýrslur                                                                          | Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur 

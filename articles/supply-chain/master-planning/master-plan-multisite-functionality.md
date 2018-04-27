@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Áætlanagerð og fjölsvæðiseiginleikinn
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Aðalröðun tekur tillit til stillinga svæðis og vöruhúsabirgðavídda. 
 

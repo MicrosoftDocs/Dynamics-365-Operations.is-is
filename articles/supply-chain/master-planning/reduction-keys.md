@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Minnkunarlyklar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur dæmi um hvernig eigi að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 Þetta dæmi sýnir hvernig minnkunarlykill minnkar kröfur eftirspurnarspá í samræmi við prósentur og tímabil sem eru skilgreind af minnkunarlykli.
 
-1.  Á **Minnkunarlyklar** síðunni, setjið upp eftirfarandi línur.
-    | Skiptimynt | Eining  | Prósent |
-    |--------|-------|---------|
-    | 1      | Mánuður | 100     |
-    | 2      | Mánuður | 75      |
-    | 3      | Mánuður | 50      |
-    | 4      | Mánuður | 25      |
+1. Á **Minnkunarlyklar** síðunni, setjið upp eftirfarandi línur.
 
-2.  Tengja þarf minnkunarlykilinn við þekjuflokk vöru.
-3.  Á **Aðaláætlanir** síðunni,°í **Lækkunarreglu** svæðinu, veljið **Prósenta - minnkunarlykill**.
-4.  Stofnið söluspá fyrir 1.000 stykki á mánuði.
+   | Skiptimynt | Eining  | Prósent |
+   |--------|-------|---------|
+   |   1    | Mánuður |   100   |
+   |   2    | Mánuður |   75    |
+   |   3    | Mánuður |   50    |
+   |   4    | Mánuður |   25    |
+
+
+2. Tengja þarf minnkunarlykilinn við þekjuflokk vöru.
+3. Á **Aðaláætlanir** síðunni,°í **Lækkunarreglu** svæðinu, veljið **Prósenta - minnkunarlykill**.
+4. Stofnið söluspá fyrir 1.000 stykki á mánuði.
 
 Ef spárröðun er keyrð 1. Janúar, eru spáþarfir eftirspurnar nýttar samkvæmt prósentum sem settar eru upp á **Minnkunarlyklar** síðu. Eftirfarandi þarfamagn er fært í aðaláætlun.
 
@@ -88,20 +89,21 @@ Ef sama söluspá fyrir 1.000 stykki á mánuði er notuð er eftirfarandi þarf
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Dæmi 3: Færslur breytileg tímabil spá lækkunarreglu
 Í flestum tilvikum eru kerfi sett upp þannig að færslur minnka eftirspurnarspár innan tiltekna spátímabila: vikur, mánuðir, og svo framvegis. Þessi tímabil eru skilgreind í minnkunarlyklinum. Hins vegar getur tíminn milli tveggja eftirspurnarspárlína einnig *gefið til kynna* tímabil.
 
-1.  Stofna eftirspurnarspá fyrir eftirfarandi dagsetningar og magn.
-    | Dagsetning       | Eftirspurnarspá |
-    |------------|-----------------|
-    | 1. janúar  | 1.000           |
-    | 5. janúar  | 500             |
-    | 12. janúar | 1.000           |
+1. Stofna eftirspurnarspá fyrir eftirfarandi dagsetningar og magn.
 
-    Í þessari spá það er ekki greinilegt tímabil milli spádagsetninganna: Milli fyrstu og annarrar dagsetningar er°fjögurra daga bil og milli annarrar og þriðju dagsetningar er°sjö daga bil. Þessi mismunandi bil eru breytileg tímabil.
-2.  Stofna Sölupöntunarlínur á eftirfarandi hátt.
-    | Dagsetning                             | Sölupöntunarmagn |
-    |----------------------------------|----------------------|
-    | 15. Desember á fyrra ári | 500                  |
-    | 3. janúar                        | 100                  |
-    | 10. janúar                       | 200                  |
+   | Dagsetning       | Eftirspurnarspá |
+   |------------|-----------------|
+   | 1. janúar  | 1.000           |
+   | 5. janúar  | 500             |
+   | 12. janúar | 1.000           |
+
+   Í þessari spá það er ekki greinilegt tímabil milli spádagsetninganna: Milli fyrstu og annarrar dagsetningar er°fjögurra daga bil og milli annarrar og þriðju dagsetningar er°sjö daga bil. Þessi mismunandi bil eru breytileg tímabil.
+2. Stofna Sölupöntunarlínur á eftirfarandi hátt.
+   | Dagsetning                             | Sölupöntunarmagn |
+   |----------------------------------|----------------------|
+   | 15. Desember á fyrra ári | 500                  |
+   | 3. janúar                        | 100                  |
+   | 10. janúar                       | 200                  |
 
 Spáin verður lækkuð sem hér segir:
 

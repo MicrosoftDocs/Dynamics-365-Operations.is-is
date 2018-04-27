@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-overview"></a>Yfirlit yfir verkflæði
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir verkflæðiskerfinu í Microsoft Dynamics 365 for Finance and Operations.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar.
 

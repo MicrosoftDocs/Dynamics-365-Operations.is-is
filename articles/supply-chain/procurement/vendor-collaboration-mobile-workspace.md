@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um **lánardrottnasamvinnu** á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
@@ -76,9 +76,9 @@ Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með s
 </thead>
 <tbody>
 <tr class="odd">
-<td>Það verður að innleiða KB 3216943 ef svæðisuppfærsla 3 er notuð.</td>
+<td>KB 3216943 verður að vera innleitt ef verkvangsuppfærsla 3 er notuð.</td>
 <td>Kerfisstjóri</td>
-<td>KB 3216943 er tvíundakerfis uppfærsla sem er krafist ef svæðisuppfærsla 3 er notuð. Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
+<td>KB 3216943 er tvíundaruppfærsla sem er nauðsynleg ef verkvangsuppfærsla 3 er notuð. Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
 <li>Sækja KB 3216943 af Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Setja upp tvíundakerfisuppfærslu, sem er afhent sem dreifanlegur pakki. Sjá upplýsingar um hvernig á að nota dreifanlega pakka <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Nota dreifanlegan pakka</a>.</li>

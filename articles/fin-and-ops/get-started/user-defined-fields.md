@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Sérstillt svæði
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Þótt Microsoft Dynamics 365 for Finance and Operations veiti víðtækt úrval svæða út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Til að mæta þessari þörf leyfir Finance and Operations þér að búa til sérsniðin svæði til að laga forritið að þínum viðskiptum, að því tilskildu að þú hafir heimild fyrir eiginleikanum. 
 

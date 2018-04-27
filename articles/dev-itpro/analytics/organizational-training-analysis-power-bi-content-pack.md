@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="organizational-training-power-bi-content"></a>Þjálfun fyrirtækis Power BI-efni
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir Finance and Operations - Fyrirtækjaþjálfun Power BI efnis. 
 

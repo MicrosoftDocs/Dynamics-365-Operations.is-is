@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vendor-portal-user-security"></a>Öryggi notanda í gátt lánardrottins
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá útskýrir hvernig á að setja upp öryggisbúnað fyrir utanaðkomandi lánardrottna sem nota Gátt Lánardrottins. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX.
 

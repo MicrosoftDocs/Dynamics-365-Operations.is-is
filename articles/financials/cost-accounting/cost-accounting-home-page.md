@@ -3,12 +3,12 @@ title: "Heimasíða kostnaðarbókhalds"
 description: "Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Námskort 
 
@@ -37,6 +37,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 [![Námskort fyrir kostnaðarbókhald](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Flýtitenglar
+
 |      |   |
 |------|---|
 |  [Grunnstilling grunneininga (eLearning)](https://mbspartner.microsoft.com/Home) (þarfnast CustomerSource reiknings)  |[Stofna víddir](cost-elements.md)  |

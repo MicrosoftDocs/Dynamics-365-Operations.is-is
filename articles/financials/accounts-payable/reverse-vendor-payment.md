@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Bakfæra greiðslu lánardrottins
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu. Einnig útskýrir hún aðferðirnar tvær við að bakfæra ávísun lánardrottins. 
 

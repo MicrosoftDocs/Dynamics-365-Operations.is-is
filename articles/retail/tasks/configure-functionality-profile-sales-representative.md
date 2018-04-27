@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Skilgreina virknireglu fyrir sölufulltrúa
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stilla forstillingar virknireglu verslunar sem eiga við um sölufulltrúa. Þessi aðferð notar sýnifyrirtækið USRT.
 

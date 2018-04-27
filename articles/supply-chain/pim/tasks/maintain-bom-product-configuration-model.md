@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Vinna með uppskrift fyrir afbrigðalíkan afurðar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Keyra þetta ferli krefst fyrirliggjandi skilgreiningu afbrigðalíkan afurðar. Hágæða hátalara líkan í fyrirtækinu sýnigögn USMF er notað til að stofna þetta ferli.
 

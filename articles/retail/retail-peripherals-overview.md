@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="retail-peripherals-overview"></a>Yfirlit yfir Retail-jaðarbúnað
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu. Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.
 

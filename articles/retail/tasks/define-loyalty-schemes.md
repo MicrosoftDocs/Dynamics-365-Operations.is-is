@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Skilgreina vildarkerfi
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að skilgreina vildarkerfi. Vildarkerfi eru umbun og innleysingarreglur fyrir vildarkerfis. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Villuleita í framleiðsluflæði og útgáfu
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna nýtt framleiðsluflæði og fyrstu útgáfu fyrir lean-framleiðslu. Frumskilyrði: Skilgreina þarf framleiðslufæribreytur fyrir Lean-framleiðslu og mælieiningar fyrir klasatíma. Það þarf að skilgreina virðisstraum og framleiðsluflokk. Skoðið hvítblöð í Lean-framleiðslu til að kynna þér hugtökin framleiðsluflæði og verkþætti. Þetta ferli vísar í lögaðilinn USMF í sýnigögnum. Hins vegar, ef við gerum ráð fyrir að lögaðilinn sé skilgreindur fyrir Lean-framleiðslu, er hægt að nota aðra lögaðila.
 

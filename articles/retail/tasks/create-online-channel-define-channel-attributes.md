@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Stofna netrásir og skilgreina eigindir rása
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer með þig í gegnum til að stofna nýja netrás og henni er bætt við stigveldi fyrirtækisins. Þú verður að Stofna stigveldi fyrirtækis áður en hægt er að stofna nýja netrás. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

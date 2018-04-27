@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Breyta eftirspurnarspá handvirkt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að breyta spá fyrir vöru. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þessi skrá er ætluð fyrir framleiðslustjóri. 
 

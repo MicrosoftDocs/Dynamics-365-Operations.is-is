@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="design-a-questionnaire"></a>Hanna spurningalista
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
 

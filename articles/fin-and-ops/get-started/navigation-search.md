@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Flettingaleit
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skuli nota leitaraðgerðina til að fletta á síður í Microsoft Dynamics 365 for Finance and Operations.
 

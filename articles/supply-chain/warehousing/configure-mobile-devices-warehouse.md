@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 
@@ -175,7 +174,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 </tr>
 <tr>
 <td>Hleðsla númeraplötu</td>
-<td>Notið þennan valkost þegar vöruhúsið er sett upp í fyrsta sinn. Skanna allra númeraplötur í öllum staðsetningum í vöruhúsi. Staðsetningar verða að vera númeraplötustýrðar. Ekki er hægt að nota þennan valkost ef <strong>Raðnúmer</strong> eða <strong>Rununúmer</strong> er talið fyrir ofan <strong>Staðsetning</strong> í frátekningarstigveldi birgða.</td>
+<td>Notið þennan valkost þegar vöruhúsið er sett upp í fyrsta sinn. Skanna allra númeraplötur í öllum staðsetningum í vöruhúsi. Staðsetningar verða að vera númeraplötustýrðar. Ekki er hægt að nota þennan valkost ef <strong>Raðnúmer</strong> eða <strong>Rununúmer</strong> er talið fyrir ofan <strong>Staðsetningu</strong> í frátekningarstigveldi birgða.</td>
 </tr>
 <tr>
 <td>Regluleg talning</td>
@@ -204,12 +203,12 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 <thead>
 <tr class="header">
 <th>Valkostur</th>
-<th>Lýsing</th>
+<th>lýsing</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ekkert</td>
+<td>None</td>
 <td>Þetta sjálfgildi vinnur ekki úr vinnu.</td>
 </tr>
 <tr class="even">
@@ -239,7 +238,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 <li><strong>Reit stýrt af staðfestum notanda</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Merkimiða stýrt af staðfestum notanda</strong> - Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af kerfinu.</li>
 </ul>
-Þessi valkostur er til dæmis gagnlegur þegar mörg bretti eru sett upp fyrir hleðslu. Ef reiturinn <strong>LoadId</strong> í <strong>Stýrt af staðfestum notanda</strong> er valinn getur starfsmaðurinn tekið öll bretti sem eru tengd við hleðslu. Starfsmaðurinn fær villuboð ef hann skannar vöru sem er ekki tengd við hleðslu.</td>
+Þessi valkostur er til dæmis gagnlegur þegar mörg bretti eru sett upp fyrir hleðslu. Ef reiturinn <strong>LoadId</strong> í <strong>Stýrt af staðfestum notanda</strong> er valinn getur starfsmaðurinn tekið öll bretti sem eru tengd við hleðslu. Starfskrafturinn fær villuboð ef hann skannar vöru sem er ekki tengd við hleðslu.</td>
 </tr>
 <tr class="odd">
 <td>Klasatiltekt</td>
@@ -303,11 +302,11 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Gera þröskuld fyrir reglulega talningu óvirkan</td>
-<td>Veljið þennan valkost til að hunsa þröskulda fyrir reglulega talningu. Ef þessi valkostur er valinn stofnast vinna reglulegrar talningar ekki þegar farið er yfir þröskuldargildi.</td>
+<td>Veljið þennan valkost til að hunsa þröskulda fyrir reglulega talningu. Ef þessi valkostur er valinn stofnast ekki vinna reglulegrar talningar þegar farið er yfir þröskuldsgildi.</td>
 </tr>
 <tr class="even">
 <td>Birta ráðstöfunarkóða runu</td>
-<td>Veljið þennan valkost til að birta ráðstöfunarkóða runu. Til dæmis er hægt að birta ráðstöfunarkóða runu við móttöku skilaðrar runu. Síðan geta starfsmenn metið stöðu eða gæði runu og valið viðeigandi kóða. Reglur um ráðstöfunarkóða runu ákvarða hvort runuvinnslan verður tiltæk í öðru ferli vöruhúsa. Ef þessi valkostur er ekki valinn er einn eftirfarandi ráðstöfunarkóða runu notaður:
+<td>Veljið þennan valkost til að birta ráðstöfunarkóða runu. Til dæmis er hægt að birta ráðstöfunarkóða runu við móttöku skilaðrar runu. Síðan geta starfsmenn metið stöðu eða gæði runu og valið viðeigandi kóða. Reglur um ráðstöfunarkóða runu ákvarða hvort runuvinnslan verður tiltæk í öðru ferli vöruhúsa. Ef þessi valkostur er ekki valinn er einn af eftirfarandi ráðstöfunarkóðum notaður:
 <ul>
 <li>Ef nýtt rununúmer er móttekið er sjálfgefinn ráðstöfunarkóði runu sem er tilgreint í vörulíkanaflokk</li>
 <li>Ráðstöfunarkóði runu sem er þegar úthlutaður á rununa</li>
@@ -354,8 +353,8 @@ Eftirfarandi tafla lýsir þessum valkostum.
 <td>Gefa til kynna hvort starfsmaður verði að velja elstu rununa í staðsetningu fyrst. Eftirtaldir valkostir eru í boði:
 <ul>
 <li><strong>Ekkert</strong> - Starfsmaður getur tekið til hvaða lotu sem er á staðnum. Starfsmaðurinn fær engin skilaboð.</li>
-<li><strong>Vara við</strong> - Starfsmaður getur valið hvaða lotu sem er á stað, en hann fær viðvörunarboð ef lotan er ekki elsta lotan.</li>
-<li><strong>Þvinga</strong> - Starfsmaður verður að taka til elstu lotu á staðnum. Starfsmaðurinn fær villuboð ef lotan er ekki elsta lotan. <strong>Ábending:</strong> Þessi valkostur er aðeins viðeigandi ef <strong>Rununúmer</strong> er lægra en <strong>Staðsetning</strong> í frátekningarstigveldinu sem er úthluta á vöruna.</li>
+<li><strong>Vara við</strong> - Starfskraftur getur valið hvaða lotu sem er á staðnum, en hann fær viðvörunarboð ef lotan er ekki elsta lotan.</li>
+<li><strong>Þvinga</strong> - Starfsmaður verður að taka til elstu lotu á staðnum. Starfskraftur fær villuboð ef lotan er ekki elsta lotan. <strong>Ábending:</strong> Þessi valkostur er aðeins viðeigandi ef <strong>Rununúmer</strong> er lægra en <strong>Staðsetning</strong> í frátekningarstigveldinu sem er úthluta á vöruna.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -368,7 +367,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kerfisflokkunarmerki</td>
-<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis, ef verið er að nota reitinn <strong>ShipmentId</strong> til að flokka tiltektarvinnu eftir sendingu væri hægt að færa inn <strong>Sendingarkenni</strong> í reitinn. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
+<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis ef verið er að nota reitinn <strong>ShipmentId</strong> til að flokka tiltektarvinnu eftir sendingu væri hægt að færa inn <strong>Sendingarkenni</strong> í reitinn. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
 </tr>
 <tr class="even">
 <td>Nota sjálfgefinn gagnagrunn</td>
@@ -384,7 +383,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
-<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Finance and Operations sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Operations sniðmáti samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
 </tr>
 </tbody>
 </table>

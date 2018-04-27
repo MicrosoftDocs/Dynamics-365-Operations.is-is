@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Stofna afurðapakka fyrir innkaupapantanir
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum stofna Umbúðir afurðar og nota það í innkaupapöntun. Innkaupapöntun verður notuð til að stofna pöntun fyrir fyrirfram skilgreindan afurðasett. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

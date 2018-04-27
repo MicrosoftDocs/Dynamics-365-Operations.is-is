@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Bygging afbrigðalíkans afurðar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl.
 

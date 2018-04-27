@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Skráning raðnúmera í söluferli
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 

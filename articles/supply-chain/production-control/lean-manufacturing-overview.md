@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Yfirlit yfir lean-framleiðslu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations.
 
@@ -40,6 +39,7 @@ Lean-framleiðsla býður upp á verkfæri sem hægt er að nota til að móta l
 -   Fylgjast með og viðhalda kanban-vinnslur.
 
 Lean-framleiðsla í Finance and Operations samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum. Þetta skipulag er að fullu samþætt ferlum Finance and Operations. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
+
 | **Mikilvægt**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hægt er að nota Finance and Operations til að styðja innleiðingu lean-framleiðslu með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |

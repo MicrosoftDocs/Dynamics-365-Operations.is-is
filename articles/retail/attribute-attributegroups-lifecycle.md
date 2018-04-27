@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Eigindir, eigindaflokkar og tengingar þeirra við ýmsar Retail einingar í Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations geta eigindi tengst ýmsum Retail eigindum, svo sem afurðaflokkum og smásölurásum og hægt er að stilla sjálfgildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
  
@@ -227,13 +227,13 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 5. Á flýtiflipanum **Afurðir** skal velja nauðsynlega afurð og velja síðan **Eigindir** fyrir ofan afurðarhnit.
 6. Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:
 
-    - Sameiginlegir afurðamiðlar
-    - Eigindi samnýttrar afurðar
-    - Miðlar rásar
-    - Afurðareigindir rásar
+   - Sameiginlegir afurðamiðlar
+   - Eigindi samnýttrar afurðar
+   - Miðlar rásar
+   - Afurðareigindir rásar
 
-    > [!NOTE]
-    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+     > [!NOTE]
+     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
 
 ![Vörulisti yfir eigindaflokka afurðar](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 
 5. Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:
 
-    - Sameiginlegir afurðamiðlar
-    - Eigindi samnýttrar afurðar
-    - Miðlar rásar
-    - Afurðareigindir rásar
+   - Sameiginlegir afurðamiðlar
+   - Eigindi samnýttrar afurðar
+   - Miðlar rásar
+   - Afurðareigindir rásar
 
-    > [!NOTE]
-    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+     > [!NOTE]
+     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
 

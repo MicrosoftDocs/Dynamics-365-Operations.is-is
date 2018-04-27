@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-controlling-mobile-workspace"></a>Fartækjavinnusvæði kostnaðarstýringar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
 

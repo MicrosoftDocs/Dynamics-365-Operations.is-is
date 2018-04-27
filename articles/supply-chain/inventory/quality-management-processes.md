@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Gæðastjórnunarferli
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar gæðastjórnunarferli fyrir ósamkvæmar afurðir. Það lýsir því hvernig hægt er að nota aðgerðir gæðaeftirlits, hvernig skuli skilgreina og vinna með ósamkvæmni og hvernig skuli meðhöndla leiðréttingar.
 

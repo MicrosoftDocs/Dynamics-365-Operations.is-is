@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77dd52848819f11a0a03eb70eebbdacdad2d1852
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Skráasafn fyrirtækis**. Þetta vinnusvæði gerir notendum kleift að sjá og hafa samband við annað starfsfólk í fyrirtækinu.
 
@@ -58,7 +58,7 @@ Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vin
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Hafi Finance and Operations ekki þegar verið innleitt í fyrirtækinu, sjáið <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>. Hafi Talent ekki þegar verið innleitt í fyrirtækinu, getur kerfisstjóri sótt prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent-vefsíðunni</a>.
+<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>. Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.
 </td>
 </tr>
 <tr class="even">

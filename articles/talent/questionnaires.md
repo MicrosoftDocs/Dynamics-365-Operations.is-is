@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Spurningalistar
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar. 
 

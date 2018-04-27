@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>Kostnaðaráætlun framleiðslupöntunar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um mat á framleiðslukostnaði. Mat á framleiðslukostnaði veitir upplýsingar um efnis- og afkastanotkunarkostnað við framleiðslu á vöru í áætluðu framleiðslupöntunarmagni. 
 

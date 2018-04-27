@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Uppsetning námskeiða
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
 
@@ -81,15 +80,15 @@ Hægt er að nota námskeiðsgerðir til að flokka námskeið samkvæmt skipan 
 
 ## <a name="course-tasks"></a>Verkefni námskeiðs
 Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
--   Skrá þátttakendur
--   Tilgreina lokadagsetningu skráningar
--   Tilgreina hámarks- og lágmarksfjölda þátttakenda.
--   Úthluta staðsetningu og kennslustofu á námskeið.
--   Mæla með hótelum fyrir þátttakendur námskeiðs.
--   Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna
+- Skrá þátttakendur
+- Tilgreina lokadagsetningu skráningar
+- Tilgreina hámarks- og lágmarksfjölda þátttakenda.
+- Úthluta staðsetningu og kennslustofu á námskeið.
+- Mæla með hótelum fyrir þátttakendur námskeiðs.
+- Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna
 
   >**Athugasemd** Aðeins er hægt að eyða námskeiði ef enginn hefur skráð sig á það. 
-    
+
 ## <a name="course-statuses"></a>Stöður námskeiðs
 Í eftirfarandi töflu er listi yfir stöður mögulegar námskeiðs og aðgerðir sem hægt er að ljúka við námskeið sem hefur tiltekna stöðu.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>Skilgreiningarlyklar og gagnaeiningar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Áður en þú notar gagnaeiningar til að flytja inn eða flytja út gögn, mælum við með því að þú fyrst ákvarðir áhrif skilgreiningarlykla á gagnaeiningarnar sem þú ætlar að nota. 
 

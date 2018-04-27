@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Vinnusvæði eignastýringar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vinnusvæðið **Eignastýring** sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Þetta vinnusvæði inniheldur samantektaryfirlit og greiningayfirlit. Flipinn **Mín vinna** sýnir samantektarreiti fastra eigna upplýsingar og magntengdar upplýsingar um eignir í gildandi fyrirtæki. Einnig er hægt að bæta greiningarlíkönum við Power BI hluta beint í vinnusvæðið. Flipinn **Samantektarlíkön – öll fyrirtækin** flipa notar gátt í Microsoft Power BI til að sýna sýnigögn sem tengjast eignum innan allra fyrirtækja.
 

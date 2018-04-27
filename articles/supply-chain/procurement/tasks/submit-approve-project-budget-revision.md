@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli gefur upplýsingar um hvernig á að fara yfir fjárhagsáætlun verks. Hægt er að endurskoða fjárhagsáætlun verks eins oft og þörf krefur, en ekki er hægt að sjá upphæð stakra breytinga ef áætluninni hefur verið breytt oftar en einu sinni. 
 

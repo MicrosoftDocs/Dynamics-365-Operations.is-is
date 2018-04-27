@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í grunninn gerir Aðaláætlanagerð fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins. Aðaláætlanagerð metur eftirfarandi: 
 
@@ -58,6 +57,7 @@ Eftirfarandi námskort sýnir helstu hugtök og verkefni sem finna má í grunns
 [![Námskort fyrir aðaláætlanagerð](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Flýtitenglar
+
 |      |   |
 |------|---|
 |        [Aðaláætlanir](master-plans.md)       |     [Mynda áætlun með skorðum](./tasks/constrained-plan.md)  |

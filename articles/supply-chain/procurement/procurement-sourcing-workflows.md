@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í sumum fyrirtækjum er þess krafist að innkaupabeiðnir og innkaupapantanir séu samþykktar af öðrum en þeim aðila sem setti inn færsluna. Til að setja upp samþykktarferli er hægt að stofna verkflæði.
 

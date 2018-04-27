@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nýjungar eða breytingar í Dynamics AX forritaútgáfu 7.0.1 (maí 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í núverandi útgáfu Microsoft Dynamics AX 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ ms.lasthandoff: 11/03/2017
 | Skilgreina ER áfangastaði sem úttaks niðurstaða snið beint er til ákveðna áfangastað: skráin, tölvupósti eða safn (Microsoft SharePoint-möppu eða Geymslu Microsoft Azure). | Áður þegar ER skilgreining sem keyrði skilaboðagluggi birtist sem aðgerð notanda sem þarf til að vista eða opna skrá. Hægt er að forskilgreina áfangastað fyrir hverja skilgreiningarsnið og íhlut úttaks þess (möppu eða í skrá) sér. Notendur sem eru veittar viðeigandi aðgangsheimildir einnig er hægt að breyta stillingar fyrir áfangastað á keyrslutíma. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Hvað hægt er að gera?**           | **Hví er þetta mikilvægt?**                                                                                                                                                              |
 | Nota Google Chrome vafra. | Smásala nú hægt að hefja Sölukerfi úr skýi úr vafra Chrome og getur reynslu allar aðgerðir sem er tiltækt í Microsoft Edge og Internet Explorer útgáfu sölukerfi í skýinu. |
 
 ## <a name="financial-reporting"></a>Fjárhagsskýrslugerð
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Hvað hægt er að gera?**                                                | **Hví er þetta mikilvægt?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ ms.lasthandoff: 11/03/2017
 | Ekki lengur hægt að velja skýrsluhönnun valkostina sem ekki eru gilda. | Nokkrar skýrsluhönnun valkostina sem voru notaðir í útgáfur markaðinn í Management reporter ekki nota í þessari útgáfu Dynamics AX. Þessir valkostir voru tengdir fjárhagslega skýrsluhönnun, úttak og tengingu. Þessir valkostir hafa verið fjarlægðir úr fjárhagsskýrsluhönnuði til að koma í veg fyrir að notandavillur. |
 
 ## <a name="financial-management"></a>Fjármálastjórnun
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Hvað hægt er að gera?**                                       | **Hví er þetta mikilvægt?**                                       |
 | Mynda jákvæðar greiðsluskrár fyrir greiðslur viðskiptaskuldir. | Mynda jákvæðar skrár til að hjálpa að koma í veg fyrir ávísanafals. |
 
 ## <a name="warehouse-and-production"></a>Vöruhús og framleiðsla
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Hvað hægt er að gera?**                                                                                                                                                                                                                                                                                                                                                                    | **Hví er þetta mikilvægt?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ ms.lasthandoff: 11/03/2017
 | Framleiðslupantanir með hringvirkni á fyrsta stigi um Uppskriftir þeirra eru undanskildar úr útreikning Uppskriftar fyrir efni eftirspurnarstjórnunar stigs.                                                                                                                                                                                                                                     | Ekki er hægt að úthluta rétt uppskriftarstig afurðarafbrigði fyrir framleiðslupantanir sem veldur hringvirkni í stigveldi Uppskriftalínunnar.                                                                                                                                                                                                                                                                                                  |
 | Reikna aðskilin uppskriftarstig fyrir áætlun efnistilfanga og kostnaðarútreikning: • Efni eftirspurnarstjórnunar, stig í Uppskrift er reiknuð í nýja **ReqItemLevel** töfluna. Framleiðslupantanir sem lokið eru hunsaðar við útreikning. • útreikningi framleiðslukostnaðar uppskriftarstig er reiknaður út á **InventTable**. Framleiðslupantanir sem lokið eru teknar með við útreikning. | • Þegar efni eftirspurnarstjórnunar, til dæmis áætlun röðun og niðurbrot, áætlanagerð er keyrð aðeins uppskriftarstig sem eru notuð fyrir efni eftirspurnarstjórnunar þarf að endurreikna. Með öðrum orðum, það er engin þörf á að reikna uppskriftarstig er notað fyrir útreikning kostnaðar. • Þegar kostnaðaraðgerðir er í gangi, til dæmis birgðalokun, þarf aðeins að endurreikna aðeins uppskriftarstig sem eru notuð við útreikning framleiðslu kostnaðarútreiknings. |
 
- 
+
 
 <a name="see-also"></a>Sjá einnig
 --------

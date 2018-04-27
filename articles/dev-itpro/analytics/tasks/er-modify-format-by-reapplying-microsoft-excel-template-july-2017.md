@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Breyta sniði með því að endurnýta Microsoft Excel-sniðmát fyrir rafræna skýrslugerð (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, Rafræn skýrslugerð - Hanna grunnstillingu til að mynda skýrslur í OPENXML-sniði.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir hvernig eigi að skoða og kanna fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
 

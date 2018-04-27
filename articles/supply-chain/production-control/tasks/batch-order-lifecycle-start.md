@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Ferill runupöntunar frá stofnun til upphafs
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum fyrsti hluti lífsferlisins runupöntun.
 

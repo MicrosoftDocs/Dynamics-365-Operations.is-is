@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="explosion-of-a-bom-version"></a>Niðurbrot uppskriftarútgáfu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein útskýrir aðstæður aðaláætlanagerðar sem felur í sér niðurbrot uppskriftarútgáfu.
 

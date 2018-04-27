@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Fartækjavinnusvæði útgjaldastýringar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Notendur geta einnig með skjótum hætti búið til kostnaðarlínu með því að nota viðhengda kvittun, og búa til og hafa umsjón með kostnaðarskýrslum þeirra. Þar að auki geta samþykkjendur notað fartækjavinnusvæðið **Kostnaðarstýring** til að skoða kostnaðarskýrslur sem þeim er úthlutað, og annaðhvort samþykkt eða hafnað þeim.
 

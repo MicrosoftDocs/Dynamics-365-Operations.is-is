@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Dynamics 365 for Operations, útgáfu 1611.
 
@@ -113,6 +112,7 @@ ms.lasthandoff: 11/03/2017
 </table>
 
 ## <a name="expense-management"></a>Útgjaldastýring
+
 | Það sem hægt er að gera                                                            | Hvers vegna er þetta mikilvægt?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Endurúthluta kreditkortafærslum starfsmanns sem sagt hefur verið upp.                     | Stundum þegar starfsmanni er sagt upp er lykill lénsþjónustu Active Directory (AD DS) hans er gerður óvirkur þegar virkar kreditkortafærslur sem verður að gjaldfæra eru fluttar inn. Áður ekki var hægt að úthluta fulltrúa kostnaðarfærslu eða tengja kreditkortafærslur við kostnaðarskýrslu. Nú er hægt að nota síðuna **Kreditkortafærslur** til að endurúthluta starfsmanni fyrir allar kreditkortafærslur þar sem tengdum starfsmanni hefur verið sagt upp störfum. Eftir endurúthlutun kreditkortafærslunnar er hægt að velja færsluna fyrir kostnaðarskýrslu og greiða hana með reglulegu ferli fyrir endurgreiðslu kostnaðarskýrslu. |
@@ -225,6 +225,7 @@ ms.lasthandoff: 11/03/2017
 </table>
 
 ## <a name="human-capital-management"></a>Mannauðsstjórnun
+
 | Það sem hægt er að gera                                                                                | Hvers vegna er þetta mikilvægt?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stofna frammistöðubók.                                                                  | Áður en yfirferðinni er lokið er oft safnað upplýsingum um verkþætti eða tilvik sem leiddu til árangurs þíns sem starfsmanns á endurskoðunartímabilinu. Hægt er að bæta færslu við frammistöðubókina til að skrá þær aðgerðir og tilvik. Einnig er hægt að tengjast þessar aðgerðir og tilvik við markmið eða frammistöðumat til að veita endurskoðanda meiri upplýsingar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ Eftirfarandi lönd krefjast einnig staðfærslu Smásölu. Staðfærslu smásöl
 </table>
 
 ## <a name="planning-and-scheduling"></a>Áætlanagerð
+
 | Það sem hægt er að gera                                                                                                                                                                                                      | Hvers vegna er þetta mikilvægt?                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stilltu sjálfgefnar pantanastillingar fyrir sölu og innkaup samkvæmt öllum virkum afurðarvíddum í afurðarsniðmátinu. Þess vegna er hægt að skilgreina sjálfgefnar pantanastillingar fyrir birgðahaldseiningu (SKU) eða hluta birgðahaldseiningar. | Hægt er að tilgreina sjálfgefnar pantanastillingar sem eiga við afurðarvídd eða samsetningu afurðavídda. **Dæmi** Afurð sem nefnist pólóskyrta er seld. Þessi afurð er til í tveimur litum: Bláum og grænum. Hún er einnig er til í tveimur stærðum: Lítið og miðstærð. Litur og Stærð eru virkar afurðarvíddir fyrir pólóskyrtuna. Hægt er að læsa innkaupum á öllum grænum pólóskyrtum, án tillits til stærðar þeirra. |
@@ -624,6 +626,7 @@ Eftirfarandi lönd krefjast einnig staðfærslu Smásölu. Staðfærslu smásöl
 </table>
 
 ## <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
+
 | Það sem hægt er að gera                                                                                                           | Hvers vegna er þetta mikilvægt?                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Notaðu Valið síðar þegar verið er að bóka reikningstillögu í runu.                                                            | Bókhaldarar verks geta sett upp runuvinnslu til að sækja reikningstillögur sjálfkrafa fyrir bókun, ef þær tillögur uppfylla skilyrðin sem eru tilgreind í runuvinnslunni. Þessi eiginleiki endurbætir sjálfvirkni við bókun reiknings, þar sem runuvinnslan getur keyrt stöðugt og tekur sjálfkrafa upp tillögur fyrir bókun. |

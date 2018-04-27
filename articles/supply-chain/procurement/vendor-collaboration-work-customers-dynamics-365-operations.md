@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með viðskiptavini í Microsoft Dynamics 365 for Finance and Operations. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 

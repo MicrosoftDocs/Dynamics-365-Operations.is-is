@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>Yfirlit yfir framleiðsluferli
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins. 
 

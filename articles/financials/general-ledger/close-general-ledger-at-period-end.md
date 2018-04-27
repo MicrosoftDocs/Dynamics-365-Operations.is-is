@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Loka fjárhag í lok tímabils
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabillokun er gerð fyrir fjárhag. 
 

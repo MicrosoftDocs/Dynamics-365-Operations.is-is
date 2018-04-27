@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Skilgreina þekjureglur fyrir vörur
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli sýnir hvernig á að stofna þekjureglur og hnekkja þekjustillingum fyrir tiltekna vöru. Hún sýnir einnig hvernig á að tilgreina sjálfgefnar birgðastillingar.
 

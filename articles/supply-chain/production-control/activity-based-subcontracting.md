@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Verkþáttarbyggð úthýsing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta umfjöllunarefni lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu.
 

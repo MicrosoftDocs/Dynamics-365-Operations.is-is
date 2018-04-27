@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Yfirlit yfir staðlaðan kostnaðarumreikning
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir vinnslu til að aðstoða við að setja upp og keyra umreikning staðalkostnaðar. Skref sem eru skráð er ætlað að vera lokið eftir að forkröfur fyrir umreikning staðalkostnaðar hafa verið uppfylltar. 
 

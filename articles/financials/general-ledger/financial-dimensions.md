@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions"></a>Fjárhagsvíddir
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi efnisgrein útskýrir ýmsar gerðir fjárhagsvídda og hvernig þær eru settar upp.
 

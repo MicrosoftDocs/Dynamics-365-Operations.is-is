@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Fjármálainnsýn
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er fellt inn í Microsoft Dynamics 365 Finance and Operations.
 **Fjármálainnsýn** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 
@@ -107,8 +107,20 @@ Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI skýrsl
 
 Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
 
-|                                         | **Fjárhagsskýrslugerð**                            | **Fjármálainnsýn**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Breyta sjálfgefnum skýrslum**                | Já                                                | Nei                                 | | **Stofna nýjar skýrslur**                  | Já                                                | Nei                                 | | **Prenta skýrslur**                       | Já                                                | Nei                                 | | **Flytja út í Excel**                     | Já          | Takmarkaður útflutningur á hrágögnum yfir í Excel, ekki forsniðin skýrsla       | | **Styðja stigveldi skýrslugerðar/Stigveldi fyrirtækis**   | Já                               | Nei                                 | | **Skýrsla um gögn undirbókar**       | Já Takmarkast við lánardrottin, viðskiptavin    | Já Lánardrottinn, viðskiptavinur, flokkar lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv.  | | **Skýrslugjaldmiðill**      | Já Bókhaldsgjaldmiðill og umreikningur yfir á skýrslugjaldmiðil       | Nei Eingöngu bókhaldsgjaldmiðill      | | **Öryggi**                | Já Heyrir undir Finance and Operations og trjáöryggi skýrslugerðar | Takmörkun á Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi Finance and Operations) eða eingöngu virk fyrirtæki | | **Styðja mismunandi gröf bókhalds og fjárhagsára** | Já                   | Nei                   | | **skýrsla um ytri gögn**                              | Nei                   | Nei                                   | | **Styðja samsteypur**                               | Já                          | Takmörkun á Get gefið skýrslu um mörg fyrirtæki en nota eingöngu bókhaldsgjaldmiðil                                     |
 
+|                                                                       |               <strong>Fjárhagsskýrslugerð</strong>                |                                      <strong>Fjármálainnsýn</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Breyta sjálfgefnum skýrslum</strong>                 |                                Já                                |                                                      Númer                                                       |
+|                  <strong>Búa til nýjar skýrslur</strong>                  |                                Já                                |                                                      Númer                                                       |
+|                    <strong>Prenta skýrslur</strong>                     |                                Já                                |                                                      Númer                                                       |
+|                   <strong>Flytja út í Excel</strong>                    |                                Já                                |                           Takmarkaður útflutningur hrágagna til Excel, ekki forsniðin skýrsla                           |
+|  <strong>Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis</strong>  |                                Já                                |                                                      Númer                                                       |
+|               <strong>Skýrsla um gögn undirbókar</strong>               |               Já Takmarkast aðeins við lánardrottin, viðskiptavin                |                 Já Lánardrottinn, viðskiptavinur, flokkur lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv.                 |
+|                  <strong>Skýrslugjaldmiðill</strong>                  |    Já Bókhaldsgjaldmiðill og þýða yfir í skýrslugjaldmiðil    |                                          Nei Bókhaldsgjaldmiðill eingöngu                                          |
+|                       <strong>Öryggi</strong>                       | Já Fylgir Finance and Operations og öryggi skipurits | Takmarkað Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi Finance and Operations) eða aðeins virkt fyrirtæki |
+| <strong>Stuðningur við mismunandi bókhaldslykla og fjárhagsár</strong> |                                Já                                |                                                      Númer                                                       |
+|               <strong>skýrsla um ytri gögn</strong>                |                                Númer                                 |                                                      Númer                                                       |
+|                <strong>Stuðningur við samsteypur</strong>                |                                Já                                |                   Takmarkað Getur greint frá mörgum fyrirtækjum en aðeins notað bókhaldsgjaldmiðil                   |
 
 Ásamt notendaviðmótinu á upprunalega vinnusvæði **CFO-yfirlits** eru nýir afkastavísar, gröf og fjárhagsskýrslur í boði. Eftirfarandi fjárhagsskýrslur eru í boði:
 

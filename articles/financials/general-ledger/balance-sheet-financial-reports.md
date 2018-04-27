@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Fjárhagsskýrslur efnahagsreikninga
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum. 
 
@@ -71,7 +70,7 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
     -   **DESC** – Lýsing úr línuskilgreiningunni.
     -   **FD** – Fjárhagsgögn til dags. fyrir gildandi ár
 
- 
+
 
 <a name="see-also"></a>Sjá einnig
 --------

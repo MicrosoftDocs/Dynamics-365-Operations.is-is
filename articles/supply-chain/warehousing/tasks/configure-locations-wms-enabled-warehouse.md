@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Skoða kostnaðarskýrslu
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þegar keyrð er fyrirspurn um að skoða færslur í fjárhag eða innkaupum og aðföngum, getur fyrirspurnin skilað of miklu upplýsingum. Þú gætir því prófað að þrengja leitina. Til að fá þær upplýsingar sem þú þarfnast getur þú kafa niður í færslu til að sjá kostnaðarskýrsluna sem hún birtist á.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Ýta afurðum úr dreifingarmiðstöð í verslun með dreifingu frá lager
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skrefin til að stofna og vinna með dreifing á lager til að dreifa vörum úr einni staðsetningu á eina eða margar verslanir. Notandinn getur stillt margar skilgreiningar og láta kerfið leggja til hvernig á að dreifa afurðir eða færa inn handvirkt þangað sem afurðir eru dreift og hversu miklu er dreift á hverja verslun. Þetta ferli ekki taka með uppsetningargögn sem hægt er að nota í dreifing á lager, eins og áfyllingarreglur, stigveldi fyrirtækis og geyma þyngd. Þessi aðferð notar sýnigögn USRT fyrirtækisins.
 

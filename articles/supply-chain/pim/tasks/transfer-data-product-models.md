@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Flytja gögn fyrir vörulíkan
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan. Þessi aðferð notar hágæða hátalara líkanið í USMF sýnigögn fyrirtæki til að sýna hvernig á að flytja út gögn fyrir þetta líkan.
 

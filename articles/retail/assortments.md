@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Stjórnun vöruúrvals
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Yfirlit
 Microsoft Dynamics 365 for Retail veitir *vöruúrval* sem gerir þér kleift að stjórna afurðaframboði yfir rásum. Vöruúrval ákvarðar hvaða afurðir eru í boði í tilteknum verslunum og á tilteknu tímabili.

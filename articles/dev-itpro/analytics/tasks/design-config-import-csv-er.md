@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Hanna grunnstillingar til að flytja inn gögn úr ytri skrá á CSV-sniði (rafrænni skýrslugerð)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Notaðu þetta ferli til að hanna grunnstillingar rafrænnar skýrslugerðar (ER) til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations úr ytri skrá á CSV-sniði. Í þessu ferli mun notandi flytja inn þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka skrefum ferlisins „Rafræn skýrslugerð Stofna grunnstillingarveitu og merkja hana sem virka“. 
 

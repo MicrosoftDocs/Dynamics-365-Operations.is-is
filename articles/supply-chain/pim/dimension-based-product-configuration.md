@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Afurðarafbrigði byggt á vídd
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Afurðarafbrigði sem byggist á víddum stendur fyrir einfalda lausn til að búa til mörg afbrigði vöru frá einum afurðarsniðmáti og uppskrift þess.
 

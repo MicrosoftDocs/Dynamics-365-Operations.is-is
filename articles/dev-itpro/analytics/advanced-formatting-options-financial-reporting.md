@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þegar skýrsla er stofnuð í fjárhagsskýrslu, eru tiætækar aukalegar aðgerðir fyrir snið, þar með talið síur fyrir víddir, takmarkanir fyrir dálka og eining skipurits, línur sem ekki á að prenta og IF/THEN/ELSE-yrðingar í útreikningum. 
 
@@ -66,12 +65,13 @@ Eftirfarandi dæmi sýna hvernig á að sníða línuskilgreiningu og skilgreini
 
 Eftirfarandi tafla sýnir dæmi um línuskilgreiningu sem notar grunnþvingun.
 
-| Línukóði | lýsing                      | Sniðkóði | Tengdar formúlur/línur/einingar | Línubreyting | Tengill í fjárhagsvíddir |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Lausafé við upphaf tímabils (NP) |             |                             | Breyting á reikningi = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Reiðufé í upphafi tímabils      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Línukóði |           lýsing            | Sniðkóði | Tengdar formúlur/línur/einingar |        Línubreyting        | Tengill í fjárhagsvíddir |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Lausafé við upphaf tímabils (NP) |             |                             | Breyting á reikningi = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Reiðufé í upphafi tímabils    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Tómir dálkar voru fjarlægðir úr fyrri töflu til kynningar: Hnekking sniðs, Venjuleg staða, Prentstýringar, Takmarkanir dálka dálkar eru ekki sýndir.
@@ -180,11 +180,11 @@ Hólfið **Dálktakmörkun** í línuskilgreiningu hefur margvíslegan tilgang. 
 -   Hólfið getur tilgreint upphæðadálkinn sem á að raða.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Útreikningsformúla notuð í línuskilgreiningu
-Reikniformúla í línuskilgreiningu getur innihaldið reiknimerkin **+**, **-**, **\***, og **/** og einnig **IF/THEN/ELSE**-yrðingar. Þar að auki getur útreikningur varðað einstök hólf og raunupphæðir (rauntölur sem hafðar eru í formúlunni). Hver formúla getur innihaldið allt að 1.024 stafi. Ekki er hægt að beita útreikningum á línur sem innihalda hólf af tegundinni **Tengill í fjárhagsvíddir** (FD). Hins vegar er hægt að taka með útreikninga á samfelldar línur, fela prentun þessara lína og finna síðan samtölu þessara útreikningslína.
+Reikniformúla í línuskilgreiningu getur innihaldið reiknimerkin <strong>+</strong>, <strong>-</strong>, <strong>\\</strong>, og **/** og einnig <strong>IF/THEN/ELSE</strong>-yrðingar. Þar að auki getur útreikningur varðað einstök hólf og raunupphæðir (rauntölur sem hafðar eru í formúlunni). Hver formúla getur innihaldið allt að 1.024 stafi. Ekki er hægt að beita útreikningum á línur sem innihalda hólf af tegundinni <strong>Tengill í fjárhagsvíddir</strong> (FD). Hins vegar er hægt að taka með útreikninga á samfelldar línur, fela prentun þessara lína og finna síðan samtölu þessara útreikningslína.
 
 ### <a name="operators-in-a-calculation-formula"></a>Virkjar í reikniformúlu
 
-Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vegar hægt að nota reiknimerkin **\*** og **/** ásamt frekari reiknimerkjum til að margfalda (\*) og deila (/) upphæðum. Til að nota svið eða samtölu í reikniformúlu verður að nota á-merkið (@) framan við alla línukóða, nema verið sé að nota dálk í línuskilgreiningunni. Ef til dæmis á að bæta upphæðinni í röð 100 við upphæðina í röð 330 er hægt að nota formúlu fyrir línusamtölu **100+330**, eða reikniformúluna **@100+@330**. **Athugið:**Nota verður á-merkið (@) á undan hverjum línukóða sem notaður er í reikniformúlu. Annars er talan lesin sem raunupphæð. Til dæmis bætir reikniformúlan **@100+330** 330 USD við upphæðina í línu 100. Þegar vísað er til dálks í reikniformúlu er ekki þörf fyrir á-merkið (@).
+Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vegar getur þú notað <strong>\\</strong>* og <strong>/</strong> virkja ásamt fleiri virkjum til að margfalda (\*) og deila (/) upphæðum. Til að nota svið eða samtölu í reikniformúlu verður að nota á-merkið (@) framan við alla línukóða, nema verið sé að nota dálk í línuskilgreiningunni. Ef til dæmis á að bæta upphæðinni í röð 100 við upphæðina í röð 330 er hægt að nota formúlu fyrir línusamtölu <strong>100+330</strong>, eða reikniformúluna <strong>@100+@330</strong>. <strong>Athugið:</strong>Nota verður á-merkið (@) á undan hverjum línukóða sem notaður er í reikniformúlu. Annars er talan lesin sem raunupphæð. Til dæmis bætir reikniformúlan <strong>@100+330</strong> 330 USD við upphæðina í línu 100. Þegar vísað er til dálks í reikniformúlu er ekki þörf fyrir á-merkið (@).
 
 ### <a name="create-a-calculation-formula"></a>Reikniformúla stofnuð
 
@@ -202,7 +202,7 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 | 370      | Reiðufé í upphafi árs   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Reiðufé í upphafi tímabils | TOT         | 340+370                    |               |              |                              |
 
-Þegar línu í línuskilgreiningu er með sniðkóðann **CAL**, og notandi færir inn reikniformúlu í hólfið **Tengdar formúlur/línur/einingar** verður einnig að færa inn staf tengda dálksins og línunnar í skýrslunni. Til dæmis færirðu inn **A.120** til að tákna dálk A, línu 120.  Einnig er hægt að nota á-merkið (@) til að tilgreina allra dálka. Til dæmis færirðu inn **@120** til að tákna alla dálka í línu 120. Allar reikniformúlur sem eru ekki með dálkstaf eða @-tákn teljast vera tölustafur. **Ábending:** Ef línukóðamerki er notað til að vísa í línu verður að nota punkt (.) sem skiltákn milli dálkstafs og merkis (t.d. **A.GROSS\_MARGIN/A.SALES**). Ef nota á-merki (@) er skiltákn óþarfi (t.d. **@GROSS\_MARGIN/@SALES**).
+Þegar línu í línuskilgreiningu er með sniðkóðann <strong>CAL</strong>, og notandi færir inn reikniformúlu í hólfið <strong>Tengdar formúlur/línur/einingar</strong> verður einnig að færa inn staf tengda dálksins og línunnar í skýrslunni. Til dæmis færirðu inn <strong>A.120</strong> til að tákna dálk A, línu 120.  Einnig er hægt að nota á-merkið (@) til að tilgreina allra dálka. Til dæmis færirðu inn <strong>@120</strong> til að tákna alla dálka í línu 120. Allar reikniformúlur sem eru ekki með dálkstaf eða @-tákn teljast vera tölustafur. <strong>Ábending:</strong> Ef línukóðamerki er notað til að vísa í línu verður að nota punkt (.) sem skiltákn milli dálkstafs og merkis (t.d. <strong>A.GROSS\_MARGIN/A.SALES</strong>). Ef nota á-merki (@) er skiltákn óþarfi (t.d. <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Dæmi um útreikningsformúlu fyrir tiltekinn dálk
 
@@ -255,17 +255,17 @@ Hugtakið **Tímabil** í **IF**-yrðingu stendur fyrir fjölda tímabila fyrir 
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Útreikningur takmarkaður við einingu skipurits í línuskilgreiningu
 
-Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin sem út kemur sé ekki færð upp á einingu á hærra stigi er hægt að nota **@Unit** kóðann í hólfinu **Tengdar formúlur/línur/einingar** í línuskilgreiningunni. Í **@Unit** kóði hefur verið skráður í dálkur B skýrslugerð trés **Einingarnafn**. Þegar kóðinn **@Unit** er notaður eru gildin ekki færð upp en útreikningurinn er metinn á hverju stigi skipuritsins. **Athugið:**Ef nota á þessa aðgerð verður skipuritið að vera tengt línuskilgreiningunni. Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið **Tengdar formúlur/línur/einingar** í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningurinn verður að nota skilyrtan útreikning sem hefst á **IF @Unit**. Hér er dæmi: IF @Unit(SALES) THEN @100 ELSE 0 Þessi útreikningur felur í sér upphæðina úr línu 100 í hverjum dálki í skýrslunni, en eingöngu fyrir SALES-einingar. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka **OR**-samsetningar með í **IF**-yrðingu. Hér er dæmi: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Hægt er að tilgreina einingu í takmörkun af útreikningsgerð á einn af eftirfarandi háttum:
+Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin sem út kemur sé ekki færð upp á einingu á hærra stigi er hægt að nota <strong>@Unit</strong> kóðann í hólfinu <strong>Tengdar formúlur/línur/einingar</strong> í línuskilgreiningunni. Í <strong>@Unit</strong> kóði hefur verið skráður í dálkur B skýrslugerð trés <strong>Einingarnafn</strong>. Þegar kóðinn <strong>@Unit</strong> er notaður eru gildin ekki færð upp en útreikningurinn er metinn á hverju stigi skipuritsins. <strong>Athugið:</strong>Ef nota á þessa aðgerð verður skipuritið að vera tengt línuskilgreiningunni. Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið <strong>Tengdar formúlur/línur/einingar</strong> í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningurinn verður að nota skilyrtan útreikning sem hefst á <strong>IF @Unit</strong>. Hér er dæmi: IF @Unit(SALES) THEN @100 ELSE 0 Þessi útreikningur felur í sér upphæðina úr línu 100 í hverjum dálki í skýrslunni, en eingöngu fyrir SALES-einingar. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka <strong>OR</strong>-samsetningar með í <strong>IF</strong>-yrðingu. Hér er dæmi: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Hægt er að tilgreina einingu í takmörkun af útreikningsgerð á einn af eftirfarandi háttum:
 
--   Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis býður **IF @Unit(SALES)** upp á að reikna út fyrir hverja einingu sem kallast SALES, jafnvel þótt nokkrar einingar með heitinu SALES séu í skipuritinu.
--   Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis færirðu inn **IF @Unit(ACME: SALES**) til að takmarka útreikning í SALES-eininga í ACME fyrirtækisinu.
--   Færið inn fullan stigveldiskóðann úr skipuritinu til að takmarka útreikninginn við tiltekna einingu. Til dæmis færirðu inn **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Athugið:** Til að finna fulla stigveldiskóðann skal hægrismella á skilgreiningu skipuritsins og velja síðan **Afrita kenni einingar skipurits (H-kóði)**.
+- Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis býður <strong>IF @Unit(SALES)</strong> upp á að reikna út fyrir hverja einingu sem kallast SALES, jafnvel þótt nokkrar einingar með heitinu SALES séu í skipuritinu.
+- Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis færirðu inn <strong>IF @Unit(ACME: SALES</strong>) til að takmarka útreikning í SALES-eininga í ACME fyrirtækisinu.
+- Færið inn fullan stigveldiskóðann úr skipuritinu til að takmarka útreikninginn við tiltekna einingu. Til dæmis færirðu inn <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Athugið:</strong> Til að finna fulla stigveldiskóðann skal hægrismella á skilgreiningu skipuritsins og velja síðan <strong>Afrita kenni einingar skipurits (H-kóði)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Útreikningur takmarkaður við einingu skipurits
 
-1.  Smellið á **Línuskilgreiningar** í Report Designer og opnið svo línuskilgreininguna sem á að breyta.
-2.  Tvísmellið á hólfið **Sniðkóði** og veljið síðan **CAL**.
-3.  Smellið á hólfið **Tengdar formúlur/línur/einingar** og færið síðan inn skilyrta útreikninginn sem byrjar á **IF @Unit**.
+1. Smellið á **Línuskilgreiningar** í Report Designer og opnið svo línuskilgreininguna sem á að breyta.
+2. Tvísmellið á hólfið **Sniðkóði** og veljið síðan **CAL**.
+3. Smellið á hólfið <strong>Tengdar formúlur/línur/einingar</strong> og færið síðan inn skilyrta útreikninginn sem byrjar á <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE-yrðingar í dálkskilgreiningu
 

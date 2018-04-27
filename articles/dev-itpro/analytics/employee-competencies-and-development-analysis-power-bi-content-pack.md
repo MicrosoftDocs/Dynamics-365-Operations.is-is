@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Hæfni starfsmanna og þróun Power BI-efnis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI-efnis. 
 

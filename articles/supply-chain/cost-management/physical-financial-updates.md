@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>fjárhagslegar og efnislegar uppfærslur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn. 
 

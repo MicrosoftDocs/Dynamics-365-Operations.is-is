@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-work-class"></a>Stofna vinnuklasa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp vinnuklasa. Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmaður í vöruhúsi er hægt að vinna í farsíma. Línur sem starfsmanns getur unnið ákvarðast af vinnuklösum á valmyndaratriði fartækis sem starfsmaður í vöruhúsi hefur aðgang að og vinnuklasa sem er tilgreind á vinnulínum. Einnig er hægt að nota vinnuklösum til að villuleita frágangsstaðsetningu fyrir pöntunarlínu vinnu. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

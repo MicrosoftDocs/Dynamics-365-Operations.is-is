@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði fyrir nýja framleidda vöru. 
 

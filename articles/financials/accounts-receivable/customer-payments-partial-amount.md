@@ -28,8 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>greiðsla viðskiptavinar fyrir hlutaupphæð
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Stundum gera viðskiptavinur greiðslu sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins.
 

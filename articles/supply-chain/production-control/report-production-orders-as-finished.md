@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>Skrá framleiðslupöntun sem tilbúna
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bóka sem tilbúið er framleiðslustig. Á þessu stigi er endanleg vara skráð og flutt úr framleiðslupöntuninni í birgðir.
 
