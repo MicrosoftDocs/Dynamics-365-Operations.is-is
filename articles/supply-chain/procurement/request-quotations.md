@@ -57,8 +57,8 @@ Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursen
 
 Ef krafist er annarrar ítrekunar um svar frá lánardrottni skal velja **Skila** á síðunni **Beiðni um tilboð**. Skilaaðgerð myndar nýja færslubók og skýrslu sem verða prentaðar, skjalaðar og sendar í samræmi við prentstillingar.
 
-[!NOTE]
-Heiti síðunnar **Beiðni um tilboð** hefur verið breytt. Í fyrri útgáfum Dynamics 365 for Finance and Operations er þessi síða kölluð **Svar við beiðni um tilboð**.
+> [!NOTE]
+> Heiti síðunnar **Beiðni um tilboð** hefur verið breytt. Í fyrri útgáfum Dynamics 365 for Finance and Operations er þessi síða kölluð **Svar við beiðni um tilboð**.
 
 Ef skilyrði fyrir stigagjöf er bætt við BUT-verkið mun BUT hafa vettvang fyrir stigagjöf þar sem hægt er að færa inn stig. Samtals stig birtast á BUT og þegar borin eru saman svör á síðunni **Bera saman svör**. Á síðunni **Bera saman svör** er einnig hægt að bera saman önnur svargögn, svo sem línuverð, afhendingardag og heildarverð.
 
@@ -126,8 +126,8 @@ Ef óskað er að nota ástæðukóða á tilboði til að tilgreina hvers vegna
 
 Hægt er að skilgreina útlit prentaðra eða vistaðra BUT-skjala á síðunni **Uppsetning eyðublaða** í Innkaup og aðföng.
 
-[!NOTE]
-Í grunnstillingum fyrir hið opinbera verður þú að nota leiðréttingarferlið til að breyta BUT sem hefur þegar verið sent. Þegar BUT er sent eru reitir læstir.
+> [!NOTE]
+> Í grunnstillingum fyrir hið opinbera verður þú að nota leiðréttingarferlið til að breyta BUT sem hefur þegar verið sent. Þegar BUT er sent eru reitir læstir.
 Þar af leiðir, að til þess að gera breytingar á BUT verður þú að velja **Búa til** til að hefja lagfæringuna, eins og lýst er hér að framan. Læsingar hegðun er stjórnað af **Læsa BUT þegar þeir eru sendir** valkostur á **Innkaup og aðföng færibreytur** síðunni. Sjálfgefið er þessi færibreyta stilltur á **Já** í grunnstillingum fyrir hið opinbera, ekki er hægt að breyta sjálfgefin stilling. Þess vegna, þótt lagfæringarferlið geti verið meðhöndluð handvirkt í grunnstillingum fyrir óopinbera aðila, verður að nota það í grunnstillingum fyrir opinbera aðila.
 
 Þegar BUT-verk er stofnað af gerð innkaupapöntunar og birgðavöru er bætt við BUT, er birgðafærsla mynduð sem hefur innhreyfingarstöðuna **Innhreyfing tilboðs**. Aðeins BUT-línur sem hafa þessa stöðu eru teknar til greina þegar aðaláætlun er notuð til að reikna vistir. Ef óskað er eftir að aðaláætlun innihaldi BUT-verklínur sem áætluð innhreyfing þarf að skilgreina þessa hegðun í uppsetningu á aðaláætlanagerð.
