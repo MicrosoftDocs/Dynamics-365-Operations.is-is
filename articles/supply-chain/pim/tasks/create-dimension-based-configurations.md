@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Stofna skilgreiningar sem byggja á víddum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að skilgreina vöru sem byggja á víddum. Þetta er síðasta ferli af röðinni sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu. Framkvæmd þessa ferlis byggir á gögn sem voru stofnuð í fyrri sjö skráningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Hefja framleiðslupöntun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig framleiðslupöntun er hafin í vinnslusal. Tíma- og efnisnotkun er skráð í þessa vinnslu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta er fimmta ferlið af sjö sem útskýrir lífsferil pöntunar í framleiðslu.
 

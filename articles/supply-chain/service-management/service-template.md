@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Þjónustusniðmát
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hægt er að skilgreina þjónustusamning sem sniðmát og síðar afritað línur sniðmátsins í annan þjónustusamning eða þjónustupöntun.
 

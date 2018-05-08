@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 

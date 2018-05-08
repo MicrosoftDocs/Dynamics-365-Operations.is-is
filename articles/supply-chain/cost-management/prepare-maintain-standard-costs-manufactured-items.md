@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði fjallar um skrefin til að undirbúa viðhald kostnaðar fyrir framleiddar vörur. Skrefin fyrir framleiddar vörur eru örlítið frábrugðin skrefunum fyrir keyptar vörur.
 

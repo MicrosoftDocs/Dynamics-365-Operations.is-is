@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Setja upp skýrslugerðarkóða virðisaukaskatts
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Skýrslugerðakóðar söluskatts vísa í númer svæða í söluskattskýrslu. Þær eru notaðar á tiltekna skýrsluútlit lands og söluskattgreiðsla eftir kóða skýrslu til prenta söluskattsupphæðir fyrir jöfnunartímabil samantekið eftir skýrslugerðarkóði. Eftir að þú stofnar skýrslugerðarkóða söluskatts, er hægt að vísa í þá á skýrsluuppsetningu flýtiflipa í síðunni kóði söluskatts. 
 

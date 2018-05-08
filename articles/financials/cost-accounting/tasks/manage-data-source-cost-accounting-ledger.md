@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald fjárhags. Áður en þú lýkur þessum verkhluta skaltu vera viss um að spila verkefnaleiðbeiningarnar „Stofna kostnaðarbókhald fjárhags“ og „Skilgreina kostnaðarstýringareiningar“. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 

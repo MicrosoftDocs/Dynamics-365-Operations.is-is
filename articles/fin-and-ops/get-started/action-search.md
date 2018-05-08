@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>aðgerðaleit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein lýsir aðgerðaleit í Microsoft Dynamics 365 for Finance and Operations. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu.
 

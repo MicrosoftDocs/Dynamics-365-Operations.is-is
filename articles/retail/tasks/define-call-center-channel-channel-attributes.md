@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Skilgreina rás símavers og eigindir rásar
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer með þig í gegnum það að stofna nýja smásölurás og skilgreina eigindir rásarinnar. Sýnigögn fyrirtækisins til að stofna verkið er USRT. Þetta ferli er ætluð fyrir smásala IT hlutverk.
 

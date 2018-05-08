@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur. 
 

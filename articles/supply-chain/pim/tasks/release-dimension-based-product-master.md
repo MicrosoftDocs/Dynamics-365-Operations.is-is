@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Gefa út afurðarsniðmát sem byggir á víddum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að losa afurðarsniðmát sem notað verður fyrir á víddaskilgreiningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Það er frumskilyrði að þú hafir stofnað afurðarsniðmát með skilgreiningartækni sem byggist á víddum. Þetta er annað ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreining.
 

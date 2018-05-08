@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Eftirlit með sölu og framlegð
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Hægt er að fylgjast með sölu og afköstum framlegðar í rauntíma með því að nota Microsoft Dynamics 365 for Retail.
 

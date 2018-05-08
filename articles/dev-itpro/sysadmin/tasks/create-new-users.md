@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>Nýir notendur stofnaðir
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notendur eru innri starfsmenn fyrirtækisins, eða ytri viðskiptavinir og lánardrottnar sem þurfa aðgang að kerfinu til að framkvæma vinnslum. Kerfisstjórar geta lokið við þetta ferli til að bæta við notendum í kerfinu. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. 
 

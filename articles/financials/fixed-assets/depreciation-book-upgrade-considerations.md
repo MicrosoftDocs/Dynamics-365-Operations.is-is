@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Yfirlit yfir uppfærslu afskriftarbókar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu. 
 
@@ -62,17 +62,17 @@ Möguleiki 2: **Fyrirliggjandi notandaskilgreindur númeraröð** - Þennan valk
 Færibreyturnar eru staðsett í upphafi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans flokks. 
 
 *//Skilgreindu æskilega nálgun á úthlutun fylgiskjala* 
-*//satt ef óskað er að nota fyrirliggjandi kóða númeraraðar* 
-*// rangt ef ætlunin er að nota kerfisskilgreindar númeraröð (sjálfgefið)* const boolean NumberSequenceUseExistingCode = rangt;  
+ *//satt ef óskað er að nota fyrirliggjandi kóða númeraraðar* 
+ *// rangt ef ætlunin er að nota kerfisskilgreindar númeraröð (sjálfgefið)* const boolean NumberSequenceUseExistingCode = rangt;  
 
 *// Ef nota á náglun kerfisskilgreindar númeraröð skal tilgreina færibreytur fyrir númeraröð.*
-*//Nýja númeraröð verður stofnuð með þessar færibreytur.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *//Nýja númeraröð verður stofnuð með þessar færibreytur.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Ef á að nota nálgunina fyrirliggjandi númeraraðakóði, skal tilgreina fyrirliggjandi kóða númeraraðar.* 
-*//Úthlutun fylgiskjals mun fara röð eftir röð fyrir núverandi númeraröð.* const str NumberSequenceExistingCode = '‘; *// Tilgreina umfang fyrirliggjandi númeraraðakóða* 
-*//satt ef tilgreind númeraröð er samnýtt* 
+ *//Úthlutun fylgiskjals mun fara röð eftir röð fyrir núverandi númeraröð.* const str NumberSequenceExistingCode = '‘; *// Tilgreina umfang fyrirliggjandi númeraraðakóða* 
+ *//satt ef tilgreind númeraröð er samnýtt* 
 *rangt ef tilgreind númeraröð er á hvert fyrirtæki* 
-*//Sjálfgefna kerfisskilgreindar númeraröðinni verður notaður ef númeraraðarkóða með tilgreindu umfangi fannst ekki.* const boolean NumberSequenceExistingIsShared = satt; 
+ *//Sjálfgefna kerfisskilgreindar númeraröðinni verður notaður ef númeraraðarkóða með tilgreindu umfangi fannst ekki.* const boolean NumberSequenceExistingIsShared = satt; 
 
 Endurbyggja verksins sem inniheldur flokkinn eftir að fastarnir hafa verið breyttir. 
 

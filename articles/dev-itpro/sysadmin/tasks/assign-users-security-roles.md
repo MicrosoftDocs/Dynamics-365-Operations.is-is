@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations þurfa notendur að fá úthlutað öryggishlutverki. Þessu ferli útskýrt hvernig kerfisstjórum hægt úthluta notendum á hlutverk sjálfkrafa, byggt á viðskiptagögn. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

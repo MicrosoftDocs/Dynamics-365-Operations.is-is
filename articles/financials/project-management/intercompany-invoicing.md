@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Reikningsfærsla innan samstæðu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar og dæmi um reikningsfærslu innan samstæðu fyrir verk í Microsoft Dynamics 365 for Finance and Operations.
 

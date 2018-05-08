@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Stofna þjónustusamningsflokka 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga.
 

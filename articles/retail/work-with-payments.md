@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Greiðsluhættir í símaveri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Í Microsoft Dynamics 365 for Retail inniheldur grunnstilling á rás símavers stillingu sem er kölluð **Virkja lok pöntunar**. Þessi stilling hjálpar til við að tryggja að allar pantanir sem notendur rásar búa til séu gefnar út til úrvinnslu pantana aðeins ef fyrirframgreiðsla eða fyrirframheimiluð greiðsla er til staðar sem er innan heimilaðra vikmarka. Ef kveikt er á stilllingunni **Virkja lok pöntunar** geta notendur símavers fært inn greiðslur gagnvart sölupöntun fyirr viðskiptavini með því að nota eiginleika greiðsluvinnslu símavers. Ef slökkt er á stillingunni geta notendur símavers ekki notað eiginleika greiðsluvinnslu, en þeir geta samt sem áður notað fyrirframgreiðslur á sölupöntunum með því að nota virknina venjulegar viðskiptakröfur.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Tafarlaus áfylling
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tafarlaus áfylling gerir þér kleift að fylla á birgðir strax eftir að lína staðsetningarleiðbeiningar tekst ekki að úthluta birgðum. Áfyllingin byggist á einni línu í uppsetningu staðsetningarleiðbeiningarinnar. Ef birgðir eru ekki á lager í mælieiningunni sem er tilgreind af þeirri línu, á sér stað áfylling á þessari mælieiningu þegar í stað.
 

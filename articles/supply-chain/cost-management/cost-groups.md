@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Kostnaðarflokkar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað. Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar. 
 

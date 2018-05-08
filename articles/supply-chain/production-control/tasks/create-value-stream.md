@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Stofna virðisstraum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Virðisstraumar eru rekstrareining sem flokka eitt eða fleiri framleiðsluflæði. Til að skilgreina framleiðsluflæði verður fyrst að skilgreina virðisstraum.
 

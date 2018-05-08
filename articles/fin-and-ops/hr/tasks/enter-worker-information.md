@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enter-worker-information"></a>Færa inn upplýsingar um starfsmann
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftir að ráðningaraðila hefur stofnuð fjöldaráðningaverk og stöður, næsta skref er að færa inn upplýsingar starfsmanna fyrir fólk sem er verið að ráða. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Sýnigögnin inniheldur opna fjöldaráðningarverk. Til að hefja þetta ferli, farið í Mannauður > Ráðning > Fjöldaráðningarverk.
 

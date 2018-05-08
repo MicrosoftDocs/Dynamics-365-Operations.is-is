@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="welcome-to-human-resources"></a>Velkomin(n) í mannauðsstjórnun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
 

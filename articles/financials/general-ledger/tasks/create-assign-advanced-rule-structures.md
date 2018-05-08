@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Stofna og úthluta ítarlegu regluskipulagi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessar verkefnaleiðbeiningar fara í gegnum stofnun og úthlutun ítarlegs regluskipulags á lykilskipulag. Þessi handbók notar sýnifyrirtækið USMF.
 

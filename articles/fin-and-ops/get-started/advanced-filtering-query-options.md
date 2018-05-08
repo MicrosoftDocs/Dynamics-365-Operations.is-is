@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi skrá lýsir valkostum síunar- og fyrirspurna sem eru tiltækar þegar þú notar "samsvarar" virknitákn í svarglugganum Ítarleg sía/röðun.
 

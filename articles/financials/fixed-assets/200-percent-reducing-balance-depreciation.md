@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 200% bókfært virði
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina 200 prósent bókfært virði.
 

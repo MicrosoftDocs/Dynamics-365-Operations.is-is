@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Hanna grunnstillingar til að þátta skjöl á innleið fyrir gagnauppfærslur forrits (rafrænar skýrslugerðir)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til að þátta móttekin rafræn skjöl. Í þessu ferli mun notandi flytja inn þær grunnstillingar rafrænnar skýrslugerðar sem krafist er, sem hafa verið stofnaðar fyrir sýnifyrirtækið, Litware, Inc., og nota þær til að þátta rafræn skjöl á innleið. Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“.
 

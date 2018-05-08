@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>Varpa kostnaðareiningarvídd
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 

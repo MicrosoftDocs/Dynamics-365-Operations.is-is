@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Umbúðaefni og gjöld
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Umbúðaefnisgjald er reiknað út og tilkynnt en engar fjárhagsfærslur eru bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum.
 

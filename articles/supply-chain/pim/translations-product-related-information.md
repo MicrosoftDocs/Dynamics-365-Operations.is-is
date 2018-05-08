@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Algengar spurningar um afurðartengdar þýðingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig stjórna þýðingar fyrir afurðir afurðarvíddargildi og afurðaeigindir. 
 

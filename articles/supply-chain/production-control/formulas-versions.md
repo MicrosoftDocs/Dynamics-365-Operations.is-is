@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formúlur og formúluútgáfar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Formúla skilgreinir efni, innihaldsefni og niðurstöður tiltekins ferils í framleiðsluferli. Ásamt samsvarandi leið skilgreinir formúlan allt ferlið í framleiðsluferli. Formúlur eru notaðar til að skipuleggja og framleiða vörur í framleiðsluferli.
 

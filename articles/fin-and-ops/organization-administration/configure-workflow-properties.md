@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 

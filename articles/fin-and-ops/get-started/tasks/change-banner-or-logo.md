@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Breyta borða eða kennimerki
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

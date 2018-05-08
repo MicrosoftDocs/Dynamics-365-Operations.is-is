@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Afskriftarreglur eigna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Afskriftarreglur eru notaðar til að ákvarða hvenær og hvernig afskrift er reiknuð bæði fyrir árið þegar eignin er keypt og árið þegar eignin er losuð.
 

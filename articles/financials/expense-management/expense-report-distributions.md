@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Dreifingar á kostnaðarskýrslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Þegar þú slærð inn gjöld á kostnaðarskýrslu getur þú dreift kostnaðinum yfir mörg verkefni, fjárhagsvíddir eða reikninga í fyrirtækinu þínu.
 

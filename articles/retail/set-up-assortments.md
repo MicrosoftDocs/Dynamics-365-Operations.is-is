@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Uppsetning vöruúrvals
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Retail.
 

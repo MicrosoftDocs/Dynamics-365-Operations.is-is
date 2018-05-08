@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Finance and Operations. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.  
 

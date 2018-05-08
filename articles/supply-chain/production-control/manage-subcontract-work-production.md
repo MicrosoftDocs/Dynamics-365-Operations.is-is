@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Stjórnun úthýsingarvinnu í framleiðslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 

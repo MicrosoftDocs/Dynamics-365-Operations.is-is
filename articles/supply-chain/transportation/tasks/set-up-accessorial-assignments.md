@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Setja upp úthlutun á aukaþjónustu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp aukalegu úthlutun. Þetta er yfirleitt gert af samræmingaraðila flutninga. Áður en þessari handbók er notuð þarf að keyra í "Setja upp aukagjald og aukalegt sniðmát".
 

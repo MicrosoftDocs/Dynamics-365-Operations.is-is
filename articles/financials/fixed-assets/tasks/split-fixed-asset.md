@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Skipta eign
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísi fyrir verk mun skipta hlutfall eitt eignabók á nýtt eignabók.  Það notar hlutverk Bókhaldara og sýnigögn USMF.
 

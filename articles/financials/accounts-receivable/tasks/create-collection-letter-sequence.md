@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Stofna innheimtubréfaröð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notið þessa leiðarvísi fyrir verk til að stofna innheimtubréfaröð. Þetta verkefni notar USMF-sýnifyrirtækið.
 

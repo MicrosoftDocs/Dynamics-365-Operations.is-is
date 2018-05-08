@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Gengi innflutningsgjaldmiðils
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ef lögaðili hefur móttekið reikningur í erlendum gjaldmiðli er nauðsynlegt að umreikna erlendan gjaldmiðil í staðbundinn gjaldmiðill. Þetta þýðir að nýjasta gengi mismunandi gjaldmiðla er áskilið. Þetta umfjöllunarefni veitir yfirlit yfir áskilið stillingar og ferli fyrir innflutningur tilvísana í gengi erlendra gjaldmiðla sem birt er á netinu af gengisveitum, svo sem Seðlabanki Evrópu og og Seðlabanki Rússlands.
 

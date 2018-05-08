@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Leita að lánardrottnum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyrðum. Þetta dæmi sýnir hvernig á að leita að lánardrottnum sem hafa verið samþykktar fyrir tiltekna innkaupategund og hafa aðalaðsetur í tilteknu landi. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa.
 

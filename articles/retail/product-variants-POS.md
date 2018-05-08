@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Uppfletting birgða á sölustað 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Uppfletting birgða á sölustað (POS) hjálpar smásölum að ná gæðarekstri í rauntíma og fá innsýn með því að tengja verslanir, POS og bakvinnslu. Þessi virkni veitir nákvæmt yfirlit í rauntíma yfir birgðastöðu afurða yfir verslanir og dreifingarmiðstöðvar. Hún hjálpar einnig smásölum að keyra aukna hagkvæmni og sparnað með því að betrumbæta birgðaáætlanagerð í rauntíma.
 

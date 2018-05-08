@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Verðleiðréttingar og afslættir
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Smásala og viðskipti í Microsoft Dynamics 365 for Retail.
 

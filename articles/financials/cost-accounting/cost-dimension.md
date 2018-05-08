@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Stofna víddir og flytja inn víddarstök
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kostnaðarbókhald er sjálfstæð eining sem krefst notkunar gagna úr öðrum einingum. Slík gögn eru flokkuð á eftirfarandi hátt:
 

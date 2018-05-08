@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Uppsetning smásöluafurða
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig smásöluafurðir eru settar upp í Dynamics 365 for Retail.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Vinna úr leiðréttingum á vildarkerfispunktum
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig til að fletta upp upplýsingar um vildarkort og leiðrétta vildarpunkta. Sýnigögn fyrirtækisins til að stofna verkið er USRT. Þetta verk er ætluð fyrir hlutverk stjórnanda Smásölu aðgerðir eða hlutverk stjórnanda þjónustudeildar.
 

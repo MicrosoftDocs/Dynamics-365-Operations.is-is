@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
 

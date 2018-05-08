@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Með notkun á hreyfingu birgða er hægt að skera úr um hvaða starfsmenn í vöruhúsi megi hreyfa fráteknar birgðir. Þetta gefur sveigjanleika í stýrðum vöruhúsum, þar sem þú getur ákveðið að heimila ekki starfsmanni að velja nýja tiltektarstaðsetningu fyrir tínsluvinnu sem hefur þegar verið stofnuð. Það gerir vöruhúsastjóra einnig kleift að stýra hvaða heimildir reynsluminni starfsmenn eiga að hafa.
 

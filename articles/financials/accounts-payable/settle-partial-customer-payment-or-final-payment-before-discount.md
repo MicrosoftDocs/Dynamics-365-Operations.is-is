@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanlega greiðslu að fullu fyrir afsláttardagsetninguna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur dæmi um aðstæður sem sýna hvernig á að skrá hlutagreiðslur fyrir viðskiptavin og taka staðgreiðsluafslátt innan staðgreiðsluafsláttartímabils.
 

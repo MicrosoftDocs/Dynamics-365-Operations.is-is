@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Bæta við frammistöðubók og senda hrós
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Frammistöðubók inniheldur upplýsingar sem tengjast því hvernig þú náðir markmiðum þínum eða frammistöðu þinni á tímabilinu. Einnig er hægt að hrósa aðgerðum sameiginlegs samstarfsmanns úr færslubókinni. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 

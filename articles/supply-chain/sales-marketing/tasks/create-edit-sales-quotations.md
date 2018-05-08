@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Stofna og breyta sölutilboðum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna og uppfæra sölutilboð. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis.
 

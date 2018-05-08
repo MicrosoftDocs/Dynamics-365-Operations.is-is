@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Viðbót við eign færð inn
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að bæta viðbót við eign. Tilgangur eignaviðbætur er til að rekja viðbætur vöru, viðhalds eða lagfæringar fyrir eign og er einungis til upplýsingar. Verða vera gerðar breytingar á eign gildi þjónustu eða líftíma sérstaklega.   
 

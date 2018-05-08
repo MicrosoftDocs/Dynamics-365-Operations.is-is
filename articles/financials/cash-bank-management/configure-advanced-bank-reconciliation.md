@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-setup-process"></a>Uppsetningarferli ítarlegrar bankaafstemmingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ítarleg bankaafstemming gerir mögulegt að flytja inn rafræn bankayfirlit og sjálfkrafa stemma af við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
 

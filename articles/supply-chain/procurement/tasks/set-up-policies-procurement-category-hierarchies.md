@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Setja upp reglur fyrir stigveldi innkaupategunda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notið þetta ferli til að setja upp reglur til þess að panta afurðir í tegund. Þessar reglur eru skilgreindar fyrir tiltekna innkaupastefnu. Regla tegundaraðgangs ákvarðar hvaða innkaupategundir starfsmenn hafa aðgang að þegar þeir stofna beiðnir. Þegar beiðni er stofnuð skal innkaupastefnu og reglu tegundaraðgangs sem á að nota vera ákvörðuð af lögaðilanum og rekstrareiningum sem starfsmaðurinn tilheyrir. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila.
 

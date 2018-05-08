@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Búa til kynningar fyrir nýliða
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þegar það er gert á árangursríkan hátt hjálpar það starfsfólki að sinna starfi sínu betur sem og að öðlast tilfinningu fyrir nýju hlutverki sínu. Ráðstafanir vegna nýrra starfsmanna geta hjálpað nýjum starfsmönnum að skilja hlutverk sitt hraðar og nákvæmar en þeir myndu annars gera og að mynda samband sem getur hjálpað þeim að ná árangri. Að öðrum kosti kynnu þeir að efast um ákvörðun sína að ganga til liðs við fyrirtækið. Við rannsókn Gartner árið 2014 kom í ljós að næstum þriðjungur þeirra 1.005 svarenda sem létu af störfum á fyrstu sex mánuðum gerðu það vegna þess að leiðbeiningarnar sem þeir fengu voru ekki ljósa, þjálfun var ekki árangursrík eða vegna þess að þeir náðu ekki ð mynda árangursrík sambönd í nýju umhverfi sínu.
 

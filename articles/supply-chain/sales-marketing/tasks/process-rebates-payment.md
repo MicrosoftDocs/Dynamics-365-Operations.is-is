@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>Vinna úr eftirágreiddum afslætti fyrir greiðslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að umbreyta unnar og samþykktar eftirágreiddir kreditnótur. Hægt er að nota þessari handbók USMF sýnifyrirtækisins. Forsenda fyrir þessari handbók er að hafa eina eða fleiri kröfur um eftirágreiddan afslátt sem hafa stöðuna Merkja. Ef verið er að nota USMF ættirðu að keyra sem "Mynda og vinna eftirágreidds afsláttar viðskiptavinar" leiðbeiningar áður en byrjað er að þessari handbók.
 

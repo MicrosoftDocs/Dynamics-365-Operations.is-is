@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-new-benefit"></a>Stofna ný fríðindi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp einfaldar staðsetningarleiðbeiningar. Dæmið sem er sýnt stofnar staðsetningarleiðbeiningar til að nota til að ákvarða hvar á að setja vörur sem hafa verið mótteknar fyrir innkaupapöntun. Hægt er að nota þessar verkefnaleiðbeiningar með nefndum gögnum með notkun sýnifyrirtækisins USMF. Frumskilyrði: Þú þarft að stofna ráðstöfunarkóða. Í þessu ferli notum við ráðstöfunarkóða sem kallast Endurmerkja. Ef þú ert að stofna staðsetningarleiðbeiningar í eigin gögnum þarftu að hafa sett upp ítarlegt vöruhúsakerfi fyrir vöruhúsið þitt og vörurnar.  Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

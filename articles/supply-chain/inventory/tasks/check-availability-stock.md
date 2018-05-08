@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="check-the-availability-of-stock"></a>Athuga framboð birgðaframboð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer. Hún líka sýnir hvernig á að fá upplýsingar um framboð tengdar vöru. Lagerbirgðir sem eru efnislegar birgðir eru tiltækar birgðir á lager – sem hefur verið keypt, móttekin og skráð. Lagerbirgðir inniheldur tiltækar birgðir á lager, en einnig birgðirnar sem hefur verið pöntuð er vænst en hefur enn ekki verið móttekin og skráð. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota USMF má nota dæmagildin sem eru sýndar. Þessum verkefnum myndi venjulega að framkvæma með starfsmaður í vöruhúsi.
 

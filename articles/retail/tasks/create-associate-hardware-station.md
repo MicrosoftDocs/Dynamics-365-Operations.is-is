@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Búa til og tengja vélbúnaðarstöð
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að stofna nýja vébúnaðarstöð Ný forstilling vélbúnaðar verður stofnuð og notuð til að bæta nýjum vélbúnaðarstöðvar við fyrirfram skilgreindu verslunar (rás). Þetta ferli notar sýnigögn fyrirtæki USRT.
 

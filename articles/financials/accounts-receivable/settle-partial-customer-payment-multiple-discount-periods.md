@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir hvernig skal jafna hlutagreiðslu viðskiptavinar þegar um er að ræða mörg afsláttartímabil.
 

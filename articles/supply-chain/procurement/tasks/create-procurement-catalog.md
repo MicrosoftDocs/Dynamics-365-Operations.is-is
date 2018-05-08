@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Stofna innkaupavörulista
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna innkaupavörulista. Þetta verk myndi venjulega framkvæmt af fagmanni á sviði innkaupa. Einnig muntu læra hvernig starfsmenn geta notað vörulista þegar þeir stofna beiðni. Áður en hægt er að stofna vörulista verður að vera tegundastigveldi innkaupa í kerfinu. Stigveldið er erft af nýjum vörulista, ásamt öllum afurðum sem eru í stigveldinu. Hægt er að nota þessari handbók í sýnigögnum USMF-fyrirtækisins þar sem tegundastigveldi innkaupa er tiltækt, sem og dæmi sem notað er í skrefum ferlisins.
 

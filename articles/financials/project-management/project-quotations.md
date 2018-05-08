@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Verktilboð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein inniheldur hugtakið verktilboð, sem hægt er nota til að gera viðskiptavini álitlegt tilboð sem fyrsta skrefið í áfanga verks. Tilboð verks gæti innifalið vörur og þjónustu sem í boði eru, grunnupplýsingar um tengilið, sérstaka viðskiptasamninga og afslætti og mögulega skatta og álögur. 
 

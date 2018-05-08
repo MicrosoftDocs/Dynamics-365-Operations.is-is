@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Skilgreiningar greiðslna fyrir smásöluyfirlit
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir skilgreiningar fyrir greiðsluaðferðir Smásöluverslunar sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Persónulegur kostnaður á kostnaðarskýrslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í viðskiptaferðum getur það gerst að starfsmaður setji stundum persónulegan kostnað á kreditkort fyrirtækisins. Ef ekkert ferli er skilgreint um hvernig haldið er utan um persónulegan kostnað gæti samþykktarferli kostnaðarskýrslu truflast þegar starfsmaður sendir sundurliðaða kostnaðarskýrslu. 
 

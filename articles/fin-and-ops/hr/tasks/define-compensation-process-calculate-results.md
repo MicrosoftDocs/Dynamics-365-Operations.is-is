@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Skilgreina launavinnslu og reikna niðurstöður
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyrir starfsmenn sem eru skráðir í fyrirkomulag fastra launa og breytilegrar uppbótar. Hægt er að keyra launavinnslu margsinnis til að framkvæma „hvað ef" greiningar til að staðfesta breytingar og stillingar séu réttar. Þetta ferli mun stofna launavinnsla, keyra vinnsluna og skoða niðurstöður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

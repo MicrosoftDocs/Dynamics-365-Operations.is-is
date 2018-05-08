@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS.
 

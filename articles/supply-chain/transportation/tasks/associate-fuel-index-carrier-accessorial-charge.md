@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Tengja eldsneytisvísi flutningsaðila sem aukagjald
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila. Það Þarf að vera uppsettur eldsneytisvísi flutningsaðila áður en þessari leiðbeiningar er keyrð. Hægt er að nota "Setja upp eldsneytisvísi flutningsaðila" leiðbeiningar til að gera þetta. Þessi uppsetningarverk eru yfirleitt gert með stjórnanda í Vörustjórnun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

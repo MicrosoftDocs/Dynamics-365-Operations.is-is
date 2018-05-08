@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Laun byggð á skráningum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir ítarlega hvernig laun eru reiknuð út frá starfsmannaskráningum. Það felur í sér dæmi sem sýna hvernig hinar ýmsu samsetningar á möguleikum uppsetningar sem eru tiltækar fyrir útreikninginn hafa áhrif á niðurstöðuna. Hér eru nokkur af þeim sviðum sem verður farið yfir:
 

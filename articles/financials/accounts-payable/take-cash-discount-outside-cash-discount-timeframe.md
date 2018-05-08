@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar.
 

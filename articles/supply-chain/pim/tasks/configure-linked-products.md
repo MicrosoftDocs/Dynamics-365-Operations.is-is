@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Skilgreina tengdar afurðir
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skilgreining tengdra afurða. Þetta ferli notar sýnigögn USRT og gerir ráð fyrir bæði vörur hafa þegar verið stofnuð og losuð.
 

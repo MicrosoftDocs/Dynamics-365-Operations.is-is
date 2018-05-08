@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði fyrir Minn hópur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Minn hópur**. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
 

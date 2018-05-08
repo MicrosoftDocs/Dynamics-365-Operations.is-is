@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Stofna nýja afurð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk sýnir hvernig á að stofna nýja samnýttra afurðar. Því er yfirleitt framkvæmd af vöruhönnuður. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
 

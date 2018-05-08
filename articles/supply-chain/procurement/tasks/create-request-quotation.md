@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Stofna beiðni um tilboð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna beiðni um tilboð. Þetta verk myndi yfirleitt gert af innkaupaaðila. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú Þarft að hafa sett upp beiðnigerðir áður en byrjað er. Þegar þessu verki hefur verið lokið og stofnuð og send hefur verið beiðni um TILBOÐ, er hægt að færa svör fyrir hvern lánardrottinn, gera samanburð á þeim og veita samninga.
 

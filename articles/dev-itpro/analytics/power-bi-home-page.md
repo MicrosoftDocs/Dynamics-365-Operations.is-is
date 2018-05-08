@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 
 # <a name="power-bi-content"></a>Power BI-efni
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er talið upp Microsoft Power BI efni sem er tiltækt og bent á hvar er hægt að læra meira um það.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Bóka kostnaðarskýrslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Eftir að kostnaðarskýrsla hefur verið samþykkt og flutt í almennu færslubókina er hægt að bóka hana í fjárhag. Þegar kostnaðarskýrsla er bókuð er kostnaður sem er gjaldgengur til endurheimtu virðisaukaskatts (VSK) auðkenndur. Verkið við að sannprófa og endurheimta VSK greiðslur er úthlutað til starfsmannsins sem ber ábyrgð á að sannreyna kostnaðarskýrsluna.
 

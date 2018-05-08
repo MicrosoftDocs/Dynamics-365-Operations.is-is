@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Setja upp lágmark og hámark fyrir áfyllingarferli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun. Þegar birgðir fara niður fyrir lágmarkið, verður stofnuð vinna til að fylla á staðsetninguna. Ferlið sýnir einnig hvernig á að nota fast tiltektarstaðsetningar til að leyfa endurnýjun stofna jafnvel þótt birgðir fara niður fyrir lágmark stig og hvernig á að virkja áfyllingarvinnslu til að keyra reglulega með því að nota runuvinnslu. Þessi verkefni myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Hægt er að keyra þetta ferli á USMF sýnifyrirtæki með dæmagildum úr glósum eða hægt er að keyra hana á eigin gögn. Ef verið er að nota eigin gögn, skal ganga úr skugga um að hafa vöruhús sem er virkt fyrir vöruhúsakerfisferli.
 

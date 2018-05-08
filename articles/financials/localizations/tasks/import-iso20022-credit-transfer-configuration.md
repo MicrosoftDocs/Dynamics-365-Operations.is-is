@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Flytja inn skilgreiningu ISO20022-kreditfærslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að flytja inn skilgreiningu rafrænnar skýrslugerðar fyrir greiðslu lánardrottins. Þýska ISO 20022 snið millifærsla fjármuna er notað sem dæmi. Hægt að nota þetta ferli fyrir aðrar tiltækt snið fyrir rafræna skýrslugerð. 
 

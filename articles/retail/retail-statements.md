@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Smásöluuppgjör
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Í Microsoft Dynamics 365 for Retail, er uppgjörsbókunarferli notað til að gera grein fyrir færslum sem verða til í sölustað í skýinu (POS) eða Modern POS (MPOS). Uppgjörsbókunarferlið notast við dreifingaráætlunina til að sækja safn sölustaðarfærslna í höfuðbiðlara (HQ). Færibreytur sem skilgreindar eru á síðunum **Smásölufæribreytur** og **Verslanir** eru notaðar til að velja færslurnar sem eru sóttar í einstök uppgjör.  
 

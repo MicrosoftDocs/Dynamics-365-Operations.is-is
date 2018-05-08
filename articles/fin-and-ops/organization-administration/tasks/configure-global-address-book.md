@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>Grunnstilla altæka aðsetursbók
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notið þetta ferli til að setja upp sjálfgildi og öryggisreglur fyrir altæka aðsetursbók. 
 

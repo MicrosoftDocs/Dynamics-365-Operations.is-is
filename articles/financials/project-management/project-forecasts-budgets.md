@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>Verkspár og fjárhagsáætlanir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tvær leiðir eru til að hafa umsjón með og stjórna verkum í Microsoft Dynamics 365 for Finance and Operations: verkspár og fjárhagsáætlanir verks. 
 

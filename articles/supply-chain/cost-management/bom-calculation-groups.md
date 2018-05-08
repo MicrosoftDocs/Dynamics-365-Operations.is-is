@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>Flokkur uppskriftarútreiknings
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar. 
 

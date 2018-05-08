@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 

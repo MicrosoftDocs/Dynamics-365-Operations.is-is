@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cycle-counting"></a>Skilgreina reglulega talningu  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endurskoða vörur á lager. Þetta verk sýnir hvernig á að: setja upp sjálfgefinn verkforgang talningar; virkja valmyndaratriði fartækis til að keyra bæði tínslu- og talningaraðgerðir; virkja kveikju þröskulds talningar þegar staðsetning tæmist; virkja áætlun um reglulega talningu fyrir tiltekna vöru innan tiltekins vöruhúss. Þessi verk eru yfirleitt unnin af stjórnanda vöruhúss. Hægt er að fara í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn.
 

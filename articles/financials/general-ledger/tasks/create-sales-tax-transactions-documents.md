@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Búa til VSK-færslur í skjölum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vsk-flokk Vöru á línur upprunaskjals. Þær eru sjálfgefnar úr aðalgögnum en því má breyta handvirkt ef þörf krefur. Hægt er að athuga reiknaðan virðisaukaskatt á stigi línu og skjals. Þetta verkefni notar USMF-sýnifyrirtækið.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Komuyfirlit
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um komuyfirlitseiginleikann. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
 

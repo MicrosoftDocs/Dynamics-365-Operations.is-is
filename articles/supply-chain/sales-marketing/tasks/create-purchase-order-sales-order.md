@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Stofna innkaupapöntun úr sölupöntun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna innkaupapöntun sem byggist á sölupöntun. Magn afurðarinnar á innkaupapöntuninni eru síðan hannaðir til að uppfylla eftirspurn upphaflegrar sölupöntunar. Uppfylling þannig að sölueftirspurn er annar valkostur við yfirgripsmeiri og bestuð aðferð við Dreifingu Kröfum Áætlanagerðar. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 

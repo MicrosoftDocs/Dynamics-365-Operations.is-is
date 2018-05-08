@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-account"></a>Stofna lánardrottnalykil
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna lánardrottnalykill, og bæta við aðsetur og tengslaupplýsingar. Ferli sem sýna ekki hvernig á að fylla út alla reiti fyrir málefni innkaupa og fjármála. Frekari upplýsingar um þessi svæði, vinsamlegast lesið í lýsingum svæða. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Lánardrottnalykla eru yfirleitt stofnaðar eftir fagmanns á sviði innkaupa eða starfsfólks í viðskiptakröfum.
 

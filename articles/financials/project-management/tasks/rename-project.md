@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Endurnefna eða breyta verkstigi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Verkstig er hægt að nota sem leiðbeiningar fyrir verkferil. Hægt er að tilgreina verkstig sem á að hafa í verkum í svæðinu Verkstig á síðunni Verkefnastjórnun og bókhaldsfæribreytur. Dynamics 365 for Finance and Operations er með fimm sjálfgefin verkstig og þrjú eru tilgreind af notanda. Hægt er að uppfæra heiti verkstigs sem er verið að nota til að fylgjast með ferli verka. Einnig er hægt að veita heiti fyrir notendaskilgreind stöðuheiti. Þetta verk sýnir hvernig á að endurnefna eða breyta verkstigi og notar USSI gagnasafnið.
 

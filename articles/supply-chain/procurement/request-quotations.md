@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Beiðnir um tilboð (BUT)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint.
 Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi gjöld eru, eins og sendingarkostnaður, eða hvort lánardrottinn býður upp á afslátt fyrir stórar pantanir eða flýtigreiðslu reiknings lánardrottins.

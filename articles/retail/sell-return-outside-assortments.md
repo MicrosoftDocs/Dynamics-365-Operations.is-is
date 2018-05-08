@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Sala og skil á afurðum utan vöruúrvals
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Algeng aðstæður fyrir allar söluaðilann er að selja vörur til þeirra viðskiptavina eða samþykkja skil frá viðskiptavinum þeirra jafnvel þótt þeir ekki að framkvæma tilteknar vörur sínar verslun (með öðrum orðum vara eru ekki assorted í verslun).
 Hér eru nokkrar dæmigerðar aðstæður.

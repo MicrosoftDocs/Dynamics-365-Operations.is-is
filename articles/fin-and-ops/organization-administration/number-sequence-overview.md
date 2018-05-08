@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="number-sequences"></a>Númeraraðir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem *tilvísun*.
 
@@ -51,7 +51,7 @@ Eftirfarandi dæmi sýna hvernig á að nota hluta til að stofna snið númerar
 
 - **Svið:** Ferðalög og kostnaður 
 - **Tilvísun:** Númer kostnaðarskýrslu 
-- **Umfang:**lögaðila 
+- **Umfang:** lögaðila 
 - **Lögaðili:** CS
 
 | Hlutar  | Hlutagerð | Gildi     |

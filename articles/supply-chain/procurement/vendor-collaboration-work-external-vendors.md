@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 for Finance and Operations. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þetta efnisatriði útskýrir hvernig er hægt vinna með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með innkaupapantanir, beiðnir um tilboð og vörusendingabirgðir. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
 

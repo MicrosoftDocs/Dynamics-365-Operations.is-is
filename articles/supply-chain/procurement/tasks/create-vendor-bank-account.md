@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>Stofna bankareikning lánardrottins
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna bankareikning fyrir lánardrottinn. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Operations-tilföng
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu. 
 

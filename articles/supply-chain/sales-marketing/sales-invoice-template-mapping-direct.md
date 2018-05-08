@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla hausa og línur sölureiknings beint úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Sales.
 

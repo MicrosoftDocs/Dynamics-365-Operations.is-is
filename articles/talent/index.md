@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Velkomin(n) í Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun. Talent veitir einnig umgjörð um þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.
 

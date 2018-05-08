@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í grunninn gerir Aðaláætlanagerð fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins. Aðaláætlanagerð metur eftirfarandi: 
 

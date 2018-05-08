@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Dreifa spurningalistum með áætlanagerð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalistum á marga svarendur. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Fella niður, endurskipa eða bakfæra vaxtagjöld
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig skal fella niður, endurskipa, og bakfæra gjald fyrir vextir og gjöld.
 

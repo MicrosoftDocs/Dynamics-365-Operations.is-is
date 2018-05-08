@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-departments"></a>Skilgreina nýjar deildir
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deildir eru rekstrareiningar sem standa fyrir virku svæði fyrirtækis, svo sem sölu- eða bókhald. Mörg fyrirtæki hafa stigveldi fyrirtækis sem sýna mismunandi deildir innan fyrirtækis. Þetta ferli fer í gegnum ferlið fyrir stofnun deildir og bæta þeim deildum við stigveldi fyrirtækisdeilda. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

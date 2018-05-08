@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Raða framleiðsluvinnslum fyrir framleiðsluferli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli notar málningu afurðir sem dæmi til að sýna hvernig raða á áætlaðar pantanir eftir forgang lit og stærð pakka. Sýnigögn fyrirtækisins til að stofna þetta ferli er USPI. Þetta ferli er ætluð fyrir framleiðslustjóri
 

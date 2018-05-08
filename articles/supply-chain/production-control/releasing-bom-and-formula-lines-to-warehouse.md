@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- (BOM) og formúlulína í vöruhúsið. Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.
 

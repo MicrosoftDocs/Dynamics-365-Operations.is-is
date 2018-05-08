@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Skilgreining samþykktarferlis í verkflæði
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 

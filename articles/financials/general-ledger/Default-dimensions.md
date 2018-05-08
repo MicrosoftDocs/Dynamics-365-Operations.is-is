@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þetta efnisatriði útskýrir hvað hlutinn er og hvernig hlutarnir vinna saman.
 

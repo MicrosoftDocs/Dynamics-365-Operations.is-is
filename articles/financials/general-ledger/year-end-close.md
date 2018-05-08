@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="year-end-close"></a>Árslokalokun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Hanna tengsl milli eininga fyrirtækisins
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig hanna skal tengslin á milli fyrirtækiseininga. Verður að stofna nýtt málefni fyrirtækis áður en vensl  eru skilgreind, eða hægt er að nota fyrirliggjandi málefni fyrirtækis. Sýnigögn fyrirtækisins fyrir að ljúka þetta ferli er USRT. Þetta verk er ætluð fyrir á hlutverk stjórnanda.
 

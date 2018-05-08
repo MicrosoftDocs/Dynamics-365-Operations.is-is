@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-leave-of-absence"></a>Stjórna fjarvistarleyfi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum stofnun færslna orlof starfsmanns. Hægt er að fylgjast með leyfi tíma ástæðum sem innihalda sjúkra-, menntunar- eða yfirverkþætti. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

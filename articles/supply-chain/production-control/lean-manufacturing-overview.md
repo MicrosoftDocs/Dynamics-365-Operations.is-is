@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Yfirlit yfir lean-framleiðslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit og lýsingu á aðgerðum lean-framleiðslu í Microsoft Dynamics 365 for Finance and Operations.
 

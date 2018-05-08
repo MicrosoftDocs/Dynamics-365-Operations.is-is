@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Úthluta lífferilsstöðu afurðar til útgefinnar afurðar
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi aðferð sýnir hvernig á að úthluta lífferilsstöðu afurðar til útgefinnar afurðar. Forkröfur: Þú þarft að spila verkefnastjórnunina "Búa til nýjan lífferil afurðar" fyrst til að ganga úr skugga um að minnsta kosti eitt afurðatímabil sé búið til áður en þú getur spilað þessar verkefnaleiðbeiningar.
 

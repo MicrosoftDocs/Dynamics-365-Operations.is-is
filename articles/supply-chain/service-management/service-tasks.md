@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Þjónustuverk  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Notið þjónustuverk til að lýsa verkinu sem á að ljúka í þjónustupöntun.
 Bæði tæknimenn og viðskiptavinir geta séð þessar upplýsingar.

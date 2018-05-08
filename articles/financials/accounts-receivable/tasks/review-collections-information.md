@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Fara yfir innheimtuupplýsingar
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtu færslur. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 

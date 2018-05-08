@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Varpa hlutum stofnaða sniðsins á einingar gagnalíkans fyrir rafræna skýrslugerð (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili Rafræn skýrslugerð getur varpað gagnalíkanaeiningar í íhluti af stofnaðri grunnstillingu Rafræn skýrslugerð, sem skilgreinir snið rafrænt skjal fyrir viðskiptalén greiðslna. Þetta snið verður notað síðar til að stofna rafræn skjöl fyrir úrvinnsla á greiðslum. Í þessu dæmi muntu stofna grunnstilling sniðs fyrir sýnifyrirtækið, Litware, Inc. Þessi skref er hægt að framkvæma í hvaða fyrirtæki þar sem grunnstillingar rafrænnar skýrslugerðar eru samnýttar í öllum fyrirtækjum. Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna grunnstillingu sniðs“.
 

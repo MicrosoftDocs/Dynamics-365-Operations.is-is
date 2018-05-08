@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Stofna eiginleika áætlunargerðar vinnutíma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Forstillingar fyrir áætlun vinnutíma eru notaðir til að flokka tímabil vinnutíma og skilgreina stillingar sem rekstraraðilar verður að taka mið af. Þetta ferli sýnir hvernig skilgreina á forstillingu fyrir áætlun vinnutíma og tengd gildi forstillingar. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 

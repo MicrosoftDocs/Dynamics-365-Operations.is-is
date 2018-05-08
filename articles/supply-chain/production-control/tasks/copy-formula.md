@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Afrita formúlu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli leggur áherslu á stofnun formúlu sem inniheldur sömu efni og fyrirliggjandi formúla, en með minniháttar breytingum. til að stofna línur í formúlu, er Hægt að nota afritunaraðgerðina til að afrita fyrirliggjandi formúlu sem inniheldur flest efnanna sem þarf  Síðan er hægt að gera nauðsynlegar breytingar á einstaka línur í nýju útgáfunni. Með því að nota afritunaraðgerðina þarf ekki að stofna margar formúlur sem eru nánast eins. Sýnigögn gögn fyrirtækisins til að stofna verkið er USP2.
 

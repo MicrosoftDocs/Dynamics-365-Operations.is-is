@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir á starfsmaður á vél.
 

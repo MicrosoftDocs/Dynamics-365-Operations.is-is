@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product-number-for-configured-product-variants"></a>Stofna afurðanúmer fyrir skilgreind afurðarafbrigði
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát. Þetta ferli sýnir einnig hvernig hægt er að byggja upp skilgreiningu nafnakerfis fyrir íhlut afbrigðalíkans afurðar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Nýju afurðarnúmeri nafnakerfis er úthlutað á afurðarsniðmátið D0004. Þetta verk myndi yfirleitt vera framkvæmt af hálfu vöruhönnuðar.
 

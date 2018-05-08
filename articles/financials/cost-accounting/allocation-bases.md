@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Úthlutunargrunnar 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Úthlutunargrunnar eru grundvöllur úthlutunar rekstrarkostnaðar í kostnaðarbókhaldi. Úthlutunargrunnur getur verið magn, eins og þær vélastundir sem notaðar eru, notaðar kílóvatt-stundir (kWh), eða þeir fermetrar sem eru í notkun. Úthlutunargrunnar eru aðallega notaðir til að úthluta rekstrarkostnaði afurða sem framleiddar eru. Til dæmis úthlutar tæknideild kostnaði sínum samkvæmt fjölda þeirra tölva sem hver deild notar.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Stofna vörulista fyrir símaver
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir ferli þess að búa til vörulista fyrir símaver. 
 

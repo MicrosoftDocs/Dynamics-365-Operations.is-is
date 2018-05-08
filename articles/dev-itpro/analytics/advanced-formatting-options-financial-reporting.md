@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þegar skýrsla er stofnuð í fjárhagsskýrslu, eru tiætækar aukalegar aðgerðir fyrir snið, þar með talið síur fyrir víddir, takmarkanir fyrir dálka og eining skipurits, línur sem ekki á að prenta og IF/THEN/ELSE-yrðingar í útreikningum. 
 

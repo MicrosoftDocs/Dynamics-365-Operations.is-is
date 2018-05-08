@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Verksamningar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur dæmi um verksamninga sem hægt er að búa til fyrir ýmsar gerðir verka og uppruna fjármögnunar og hvernig hægt er að vinna með samninga og senda viðskiptavinum reikninga vegna verka í Microsoft Dynamics 365 for Finance and Operations.
 

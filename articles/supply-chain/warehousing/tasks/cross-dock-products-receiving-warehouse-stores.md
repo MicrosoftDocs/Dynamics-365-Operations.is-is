@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skrefin til að stofna og vinna hjáskipun til að dreifa afurðir úr staðsetning móttökustaðar innkaupapöntunar til ein eða margar verslanir. Notandinn getur stillt margar skilgreiningar og láta kerfið leggja til hvernig á að dreifa afurðir eða færa inn handvirkt þangað sem afurðir eru dreift og hversu miklu er dreift á hverja verslun. Aðferðin felur ekki í sér uppsetningu gagna sem nota má á hjáskipun, eins og áfyllingarreglur, stigveldi fyrirtækis og geyma þyngd. Ferlið notar sýnigögn fyrir USRT fyrirtækið.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Nota þetta ferli til að skilgreina aðgangsréttindi eftirlitsmanns kostnaðarhlutar. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 

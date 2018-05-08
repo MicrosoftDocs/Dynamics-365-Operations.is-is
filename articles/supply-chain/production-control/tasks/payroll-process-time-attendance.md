@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Virkja launaferli fyrir tíma og mætingu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að virkja launavinnslu í tími og mæting. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

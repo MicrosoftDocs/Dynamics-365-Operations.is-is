@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>Upplýsingakóðar
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir upplýsingakóða, flokka upplýsingakóða og hvernig skal nota þá.
 

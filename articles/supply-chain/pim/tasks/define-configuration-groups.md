@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>Skilgreina afbrigðaflokka
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að skilgreina afbrigðisflokkur með því að stofna tvo flokka í sýnigögn gögn fyrirtækisins USMF Fyrirtækisins. Þetta er fjórða ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreining.
 

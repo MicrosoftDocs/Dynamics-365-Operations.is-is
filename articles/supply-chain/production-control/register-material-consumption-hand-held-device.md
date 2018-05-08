@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Skrá efnisnotkun með fartæki
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir verkflæði sem gerir kleift að skrá hráefnanotkun í framleiðslu með því að nota lófatæki.
 

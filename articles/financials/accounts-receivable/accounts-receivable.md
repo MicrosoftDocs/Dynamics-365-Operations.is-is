@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Viðskiptakröfur – heimasíða
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Notið „Viðskiptakröfur“ til að rekja reikninga viðskiptavina og greiðslur á innleið. 
 

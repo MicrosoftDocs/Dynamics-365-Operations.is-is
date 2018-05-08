@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Setja upp RFM-greiningu
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig til að setja upp Nýleikastig, Tíðnistig og Peningastig (RFM) greiningar viðskiptavinum.
 

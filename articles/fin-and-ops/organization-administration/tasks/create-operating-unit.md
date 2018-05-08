@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-operating-unit"></a>Stofna rekstrareiningu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Rekstrareining er fyrirtæki sem er notað til að skipta stýringu verðmæta og rekstrarferlis í viðskiptum. Fólk í rekstrareiningu hefur skyldu til að hámarka notkun takmarkaðra auðlinda, bæta ferli og bera ábyrgð á afköstum sínum. Tegundir rekstrareininga ná yfir kostnaðarstaðir, viðskiptaeiningar, deildir og virðisstraumar. Notaðu eftirfarandi ferli til að stofna rekstrareining. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Ráða í gegnum ráðningarferli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli gerir ráðningaraðila kleift að ráða starfsmann sem sendi umsókn í gegnum tiltekið ráðningarverk. Þegar umsækjandi er ráðinn í gegnum ráðningarverk, verður að stofna nýja færslu starfsmanns og færslu umsækjandans verður að hafa stöðuna Ráðinn. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að ljúka þessu ferli, farið í Mannauður > Ráðningarverk > Umsóknir > Umsóknir 
 

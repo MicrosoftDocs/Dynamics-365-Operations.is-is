@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Dagsetning vegins meðaltals er birgðalíkan sem byggist á reglunni um vegið meðaltal. Fyrir regluna um vegið meðaltal eru atriði úr birgðalíkani metin á meðaltalsvirði hlutanna sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu. 
 

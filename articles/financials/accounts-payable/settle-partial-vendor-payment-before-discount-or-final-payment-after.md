@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins.
 

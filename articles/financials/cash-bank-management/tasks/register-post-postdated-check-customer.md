@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Skrá og bóka fyrirframdagsetta ávísun fyrir viðskiptavin
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin frá viðskiptavini. Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.   Ljúkið eftirtöldum verkefnum áður en hægt er að skrá og bóka fyrirframdagsettar ávísanir sem bárust frá viðskiptavini: • Setja upp fyrirframdagsettar ávísanir á síðunni Reiðufjár- og bankastjórnun • Setja upp greiðsluhátt fyrir fyrirframdagsettar ávísanir Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 

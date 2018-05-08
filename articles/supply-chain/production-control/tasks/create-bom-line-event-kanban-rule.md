@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Stofna tilviksreglu kanbans fyrir uppskriftarlínu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk leggur áherslu á uppsetningu þarf að stofna kanban-tilviksreglu til að tryggja að birgðir fyrir framleiðsluuppskriftarlínur í blönduðum lean og classic vinnsluumhverfi. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar.
 

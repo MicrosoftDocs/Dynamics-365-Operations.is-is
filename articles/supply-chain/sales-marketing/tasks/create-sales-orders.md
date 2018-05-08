@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Stofnað sölupantanir
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna sölupöntun. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF. Sölupantanir eru yfirleitt stofnaðar af sölupantanavinnslu. 
 

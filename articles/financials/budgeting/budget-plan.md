@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning"></a>Fjárhagsáætlunargerð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Finance and Operations fyrir skoðun á uppfærslum á virkni á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel 
 
