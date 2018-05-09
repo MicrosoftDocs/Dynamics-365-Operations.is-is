@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f83c495ba7f8ebcdf282d0fe1aa73ad878acac2c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e5934fa99e0c674430aa456881e0eb2073a5e2f7
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="costing-versions"></a><span data-ttu-id="a4857-104">Kostnaðarútgáfa</span><span class="sxs-lookup"><span data-stu-id="a4857-104">Costing versions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a4857-105">Þessi grein veitir upplýsingar um kostnaðarútgáfur, hvernig á að viðhalda þeim og tegundir gagna sem þú getur haft í þeim.</span><span class="sxs-lookup"><span data-stu-id="a4857-105">This article provides information about costing versions, how to maintain them, and the types of data that you can include in them.</span></span> <span data-ttu-id="a4857-106">Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað.</span><span class="sxs-lookup"><span data-stu-id="a4857-106">The primary purpose of a costing version is to contain cost records about items, cost categories, and calculation formulas for indirect costs.</span></span>
 

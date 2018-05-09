@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 829a0bbb1b5ab01728c096872b0ada27cfc570c9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aaa5b503af95883c2c7fdfb2ad7f3e3062d28961
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-vendor-account"></a><span data-ttu-id="c8cb3-103">Stofna lánardrottnalykil</span><span class="sxs-lookup"><span data-stu-id="c8cb3-103">Create a vendor account</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c8cb3-104">Þessi verklýsing sýnir hvernig á að stofna lánardrottnalykill, og bæta við aðsetur og tengslaupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="c8cb3-104">This procedure shows how to create a vendor account, and add an address and contact information.</span></span> <span data-ttu-id="c8cb3-105">Ferli sem sýna ekki hvernig á að fylla út alla reiti fyrir málefni innkaupa og fjármála.</span><span class="sxs-lookup"><span data-stu-id="c8cb3-105">The procedure does not show how to populate all fields for purchasing and financial purposes.</span></span> <span data-ttu-id="c8cb3-106">Frekari upplýsingar um þessi svæði, vinsamlegast lesið í lýsingum svæða.</span><span class="sxs-lookup"><span data-stu-id="c8cb3-106">To learn more about those fields, please read the field descriptions.</span></span> <span data-ttu-id="c8cb3-107">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="c8cb3-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="c8cb3-108">Lánardrottnalykla eru yfirleitt stofnaðar eftir fagmanns á sviði innkaupa eða starfsfólks í viðskiptakröfum.</span><span class="sxs-lookup"><span data-stu-id="c8cb3-108">Vendor accounts are typically created by a procurement professional or accounts receivable personnel.</span></span>
 

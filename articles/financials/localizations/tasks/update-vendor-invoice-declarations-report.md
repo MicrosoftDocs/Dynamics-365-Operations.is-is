@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e540054488e2ff5c8ea8feab9e416b93744df803
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fce6396aefcb59ae6d01304eb054121f2a83dc9b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="update-vendor-invoice-declarations-and-generate-the-report-iceland"></a><span data-ttu-id="1a38f-103">Uppfæra reikningsskýrslu lánardrottins og mynda skýrsluna (Ísland)</span><span class="sxs-lookup"><span data-stu-id="1a38f-103">Update vendor invoice declarations and generate the report (Iceland)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1a38f-104">Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða.</span><span class="sxs-lookup"><span data-stu-id="1a38f-104">This procedure walks you through posting a vendor invoice with invoice declaration information attached and generating an invoice declaration report.</span></span> <span data-ttu-id="1a38f-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF með land aðalaðsetur lögaðila uppfært í Ísland.</span><span class="sxs-lookup"><span data-stu-id="1a38f-105">The demo data company used to create this procedure is DEMF with the country of legal entity primary address updated to Iceland.</span></span>
 

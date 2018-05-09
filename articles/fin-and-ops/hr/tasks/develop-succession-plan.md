@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7c03cb914db83de1f3229e1b659eab02698e5e8a
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-a-succession-plan"></a><span data-ttu-id="3799a-103">Þróa áætlun um röðun starfsmanna</span><span class="sxs-lookup"><span data-stu-id="3799a-103">Develop a succession plan</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3799a-104">Eftir því sem fyrirtækið stækkar og þú ferð að íhuga ráðningu eftirmanna ættirðu að reyna að finna einhvern sem hefur svipaða hæfni við annan einstakling.</span><span class="sxs-lookup"><span data-stu-id="3799a-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="3799a-105">Hæfnisskrá gerir kleift að greina fyrirliggjandi starfsmönnum og umsækjendum til að sjá ef þær passi við hæfnisafn vel metins starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="3799a-105">Skill mapping allows you to analyze your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="3799a-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="3799a-106">The demo data company used to create this procedure is USMF.</span></span>
 

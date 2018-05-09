@@ -17,16 +17,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 437e6e0cd3052083bb1094f42bb741d491b27242
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 341cba34366fee61d5e65ac73326c5d3c9c274a9
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="welcome-to-human-resources"></a><span data-ttu-id="82d55-105">Velkomin(n) í mannauðsstjórnun</span><span class="sxs-lookup"><span data-stu-id="82d55-105">Welcome to human resources</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="82d55-106">Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka.</span><span class="sxs-lookup"><span data-stu-id="82d55-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="82d55-107">Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.</span><span class="sxs-lookup"><span data-stu-id="82d55-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="82d55-108">Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.</span><span class="sxs-lookup"><span data-stu-id="82d55-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 

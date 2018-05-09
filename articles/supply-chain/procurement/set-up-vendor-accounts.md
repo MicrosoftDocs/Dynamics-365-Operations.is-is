@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5aab5dec6d9346ffb38cb4eccdc241135cda318d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f6c5bc43c4a4af610bfc056a97dcd1181f626470
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-vendor-accounts"></a><span data-ttu-id="b18c5-103">Setja upp lánardrottnalykla</span><span class="sxs-lookup"><span data-stu-id="b18c5-103">Set up vendor accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b18c5-104">Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="b18c5-104">This topic describes the types of information that you must specify when you create a new vendor account.</span></span>
 

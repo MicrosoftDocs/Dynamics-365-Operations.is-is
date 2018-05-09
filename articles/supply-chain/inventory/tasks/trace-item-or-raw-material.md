@@ -17,15 +17,15 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c8126322f85b317a9737978295ec0ebd2fd7cdc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86868fc3a5d1543e46b3ebd4dcc31cbc3a78479b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="60349-103">Rekja vöru eða hráefni</span><span class="sxs-lookup"><span data-stu-id="60349-103">Trace an item or raw material</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60349-104">Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun.</span><span class="sxs-lookup"><span data-stu-id="60349-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="60349-105">Með þessu ferli er hægt að greina vöru, rekja hann til baka í uppruna og svo áframrekja í gegnum framleiðslu og sölu á endanlegu vöruna.</span><span class="sxs-lookup"><span data-stu-id="60349-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="60349-106">Hægt er að nota ferlið til að rannsaka viðskiptavini sem verða fyrir áhrifum, sölupantana sem verða fyrir áhrifum og fleira.</span><span class="sxs-lookup"><span data-stu-id="60349-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="60349-107">Þessi aðferð notar sýnigögn fyrirtækisins USP2.</span><span class="sxs-lookup"><span data-stu-id="60349-107">This procedure uses demo data company USP2.</span></span>
 

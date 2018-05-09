@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30d91d2ffab74250b3a8a46d7b7c5441a94d8dfd
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="87090-103">Setja upp heimildir fyrir pöntun afurða fyrir hönd annarra</span><span class="sxs-lookup"><span data-stu-id="87090-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="87090-104">Þessi verklýsing sýnir hvernig á að veita starfsmönnum heimild til að undirbúa innkaupabeiðnir fyrir hönd annarra starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="87090-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="87090-105">Með öðrum orðum getur „undirbúningsaðili“ innkaupabeiðni stofnað beiðni fyrir aðra „umsækjanda.“</span><span class="sxs-lookup"><span data-stu-id="87090-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="87090-106">Ferlið sýnir einnig hvernig á að veita starfskrafti heimild til að panta vörur og þjónustu í öðrum lögaðilum eða rekstrareiningum.</span><span class="sxs-lookup"><span data-stu-id="87090-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="87090-107">Þessi verk eru yfirleitt gert af innkaupastjóra.</span><span class="sxs-lookup"><span data-stu-id="87090-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="87090-108">Hægt er að nota þetta ferli í annað hvort fyrir gögn fyrir sýnigögn USMF- fyrirtækisins eða þín eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="87090-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

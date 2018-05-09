@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cd00227ed6d288a4b2041630bc7a604ac94d3c70
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d00dcdf5bbc30f2e3b3c4a8f344701b0347638f8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="21a53-103">Skrá og bóka fyrirframdagsetta ávísun fyrir lánardrottinn</span><span class="sxs-lookup"><span data-stu-id="21a53-103">Register and post a postdated check for a vendor</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="21a53-104">Þú getur skráð upplýsingar fyrirframdagsett ávísun áður en þú gefur út ávísun til lánardrottinn með því að nota færslubókarfylgiskjal.</span><span class="sxs-lookup"><span data-stu-id="21a53-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="21a53-105">Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.</span><span class="sxs-lookup"><span data-stu-id="21a53-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="21a53-106">Áður en fyrirframdagsett ávísun frá lánardrottni er skráð og bókuð skal ljúka eftirfarandi verkefni:</span><span class="sxs-lookup"><span data-stu-id="21a53-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 

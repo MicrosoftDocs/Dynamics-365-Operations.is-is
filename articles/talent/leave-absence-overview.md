@@ -19,15 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66e4be092a7728f061cb9b09157712ffcf37c923
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5568482424f5afca6773fa66ca43691bcd1e95e2
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="54b57-103">Stjórnunaryfirlit leyfis og fjarvista</span><span class="sxs-lookup"><span data-stu-id="54b57-103">Leave and absence management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="54b57-104">**Stjórnun leyfa og fjarvista** kerfiseining býður upp á sveigjanlegan rammi til að skilgreina stjórnunarferlið tengt fjarvistum.</span><span class="sxs-lookup"><span data-stu-id="54b57-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="54b57-105">Áætlanir um leyfi og fjarvistir er hægt að stofna til að ákvarða hvernig starfsmenn safna upp eða er veitt leyfi.</span><span class="sxs-lookup"><span data-stu-id="54b57-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="54b57-106">Eftir að starfsmenn eru skráðir í áætlun, geta þeir sent inn beiðnir um leyfi fyrir stjórnendur að samþykkja.</span><span class="sxs-lookup"><span data-stu-id="54b57-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="54b57-107">Rakning leyfis sýnir bæði fyrsta-stigs stjórnendum og mannauðsstjórum (HR) hver er í leyfi og hversu langt leyfi hver starfsmaður á ennþá inni.</span><span class="sxs-lookup"><span data-stu-id="54b57-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

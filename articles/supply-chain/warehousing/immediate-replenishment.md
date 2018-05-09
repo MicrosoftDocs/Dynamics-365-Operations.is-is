@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a11a26df85647aa36cd30c42f81be4ec2af4409b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1f24ffbba0c28b241de66f484546844bc72b90c9
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="immediate-replenishment"></a><span data-ttu-id="2a74d-103">Tafarlaus áfylling</span><span class="sxs-lookup"><span data-stu-id="2a74d-103">Immediate replenishment</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2a74d-104">Tafarlaus áfylling gerir þér kleift að fylla á birgðir strax eftir að lína staðsetningarleiðbeiningar tekst ekki að úthluta birgðum.</span><span class="sxs-lookup"><span data-stu-id="2a74d-104">Immediate replenishment lets you replenish inventory immediately after a location directive line fails to allocate inventory.</span></span> <span data-ttu-id="2a74d-105">Áfyllingin byggist á einni línu í uppsetningu staðsetningarleiðbeiningarinnar.</span><span class="sxs-lookup"><span data-stu-id="2a74d-105">The replenishment is based on a single line in the setup of the location directive.</span></span> <span data-ttu-id="2a74d-106">Ef birgðir eru ekki á lager í mælieiningunni sem er tilgreind af þeirri línu, á sér stað áfylling á þessari mælieiningu þegar í stað.</span><span class="sxs-lookup"><span data-stu-id="2a74d-106">If inventory isn't on hand in the unit of measure that is specified by that line, replenishment of that unit of measure occurs immediately.</span></span>
 

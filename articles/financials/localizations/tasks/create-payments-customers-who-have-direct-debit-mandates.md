@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e1f6fea560db0e1f96123040f80e79f5fe80886
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2b28ed8682d4b1b2cd3e25d8f8845785f36303de
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a><span data-ttu-id="d30a1-103">Stofna greiðslur fyrir viðskiptavin sem hefur beingreiðsluumboð</span><span class="sxs-lookup"><span data-stu-id="d30a1-103">Create payments for a customer who have direct debit mandates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d30a1-104">Þetta verk fer í gegnum hvernig á að mynda ISO20022-beingreiðsluskrá fyrir viðskiptavin sem hefur skilgreint beingreiðslu og reikning til greiðslu.</span><span class="sxs-lookup"><span data-stu-id="d30a1-104">This procedure shows how to generate an ISO20022 direct debit payment file for a customer who has direct debit configured and an invoice to be paid.</span></span> <span data-ttu-id="d30a1-105">Stofna og bóka reikning er valfrjáls.</span><span class="sxs-lookup"><span data-stu-id="d30a1-105">Creating and posting an invoice is optional.</span></span> <span data-ttu-id="d30a1-106">Í stað þess að láta borga reikning geturðu valið umboð í færslubók áður en mynduð er greiðsluskrá, til að styðja við aðstæður fyrirframgreiðslu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="d30a1-106">Instead of having an invoice to be paid you can select a mandate in a journal prior to generating a payment file, to support a customer prepayment scenario.</span></span>
 

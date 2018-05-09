@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c12980fed5e6b26cc23aed93ce1f5ed71ea05b2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6cbf5473419e9a390cd223706d12ba1e3c887bb
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="1fd31-103"> Búa til og tengja tæki</span><span class="sxs-lookup"><span data-stu-id="1fd31-103">Create and associate a device</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1fd31-104">Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="1fd31-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="1fd31-105">Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.</span><span class="sxs-lookup"><span data-stu-id="1fd31-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="1fd31-106">Þetta verk notar sýnigögn fyrirtæki USRT .</span><span class="sxs-lookup"><span data-stu-id="1fd31-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="1fd31-107">Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í smásölu, og Verslunarstjóri .</span><span class="sxs-lookup"><span data-stu-id="1fd31-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 

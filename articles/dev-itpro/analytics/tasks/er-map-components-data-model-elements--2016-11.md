@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 921e00051e8d9647f16b1e29dfbda8821f28c7e5
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="65466-103">Varpa hlutum stofnaða sniðsins á einingar gagnalíkans fyrir rafræna skýrslugerð (ER)</span><span class="sxs-lookup"><span data-stu-id="65466-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="65466-104">Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili Rafræn skýrslugerð getur varpað gagnalíkanaeiningar í íhluti af stofnaðri grunnstillingu Rafræn skýrslugerð, sem skilgreinir snið rafrænt skjal fyrir viðskiptalén greiðslna.</span><span class="sxs-lookup"><span data-stu-id="65466-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="65466-105">Þetta snið verður notað síðar til að stofna rafræn skjöl fyrir úrvinnsla á greiðslum.</span><span class="sxs-lookup"><span data-stu-id="65466-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="65466-106">Í þessu dæmi muntu stofna grunnstilling sniðs fyrir sýnifyrirtækið, Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="65466-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="65466-107">Þessi skref er hægt að framkvæma í hvaða fyrirtæki þar sem grunnstillingar rafrænnar skýrslugerðar eru samnýttar í öllum fyrirtækjum.</span><span class="sxs-lookup"><span data-stu-id="65466-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="65466-108">Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna grunnstillingu sniðs“.</span><span class="sxs-lookup"><span data-stu-id="65466-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

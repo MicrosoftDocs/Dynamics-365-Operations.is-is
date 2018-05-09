@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6919e2bf8555ac49e086fc9aa46ae6a25099ede4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ef240b63cbd39b5a924289c835d76933e00c27b3
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a><span data-ttu-id="6ea28-104">Áætlun fyrir uppsetningu altækrar aðsetursbókar og viðbótar aðsetursbækur</span><span class="sxs-lookup"><span data-stu-id="6ea28-104">Plan how to configure the global address book and additional address books</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6ea28-105">Þetta efnisatriði lýsir álitamálum og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6ea28-105">This topic describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="6ea28-106">Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="6ea28-106">Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.</span></span>
 

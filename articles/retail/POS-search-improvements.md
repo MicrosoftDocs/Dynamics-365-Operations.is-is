@@ -19,16 +19,16 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7807a3c09bbc236f7f88d8372b2fa3a73038f0b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a><span data-ttu-id="b2faf-103">Yfirlit yfir afurðir og viðskiptavinaleit í Point of Sale</span><span class="sxs-lookup"><span data-stu-id="b2faf-103">Overview of product and customer search in Point of Sale</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="b2faf-104">Nútíma Point of Sale (MPOS) og Point of Sale (CPOS) í skýi bjóða upp á auðvelda leitaraðgerð á vörum og viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="b2faf-104">Modern Point of Sale (MPOS) and Cloud Point of Sale (CPOS) provide easy-to-use search functionality for products and customers.</span></span> <span data-ttu-id="b2faf-105">Leitarstikan er alltaf til staðar efst í gluggum MPOS og CPOS, þannig að starfsmenn geti leitað að vörum og viðskiptavinum á fljótlegan hátt.</span><span class="sxs-lookup"><span data-stu-id="b2faf-105">Because the search bar is always present at the top of the MPOS and CPOS windows, employees can quickly search for products and customers.</span></span>
 

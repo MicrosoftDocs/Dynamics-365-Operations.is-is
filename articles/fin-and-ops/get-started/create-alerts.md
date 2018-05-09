@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93e8f97dbd3f60be72793c04eb729623321016f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbec520054ab41e3b2d92e422d1b5f5276d44e2c
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="bec4f-103">Búa til viðvaranir</span><span class="sxs-lookup"><span data-stu-id="bec4f-103">Create alerts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="bec4f-104">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="bec4f-104">Getting started</span></span>
 <span data-ttu-id="bec4f-105">Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir.</span><span class="sxs-lookup"><span data-stu-id="bec4f-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="bec4f-106">Þegar þú veist hvaða tilvik þú vilt fá tilkynningu um skaltu finna, í Microsoft Dynamics 365 for Finance and Operations, síðuna með gögnunum sem eru þess valdandi að tilvikið birtist.</span><span class="sxs-lookup"><span data-stu-id="bec4f-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="bec4f-107">Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað.</span><span class="sxs-lookup"><span data-stu-id="bec4f-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="bec4f-108">Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til.</span><span class="sxs-lookup"><span data-stu-id="bec4f-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="bec4f-109">Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.</span><span class="sxs-lookup"><span data-stu-id="bec4f-109">After you have this information, you can create the alert rule.</span></span>

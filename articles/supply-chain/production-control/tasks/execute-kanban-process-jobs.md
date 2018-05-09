@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c10fa829e5b696c951d041f11e3475d200b7751b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f0579e9bccdcf240d33bb7b936bd9f9f7619028
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="9f799-103">Keyra kanban-vinnsluverk</span><span class="sxs-lookup"><span data-stu-id="9f799-103">Execute kanban process jobs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9f799-104">Þetta ferli leggur áherslu á framkvæmd kanban-ferlisvinnslu.</span><span class="sxs-lookup"><span data-stu-id="9f799-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="9f799-105">Fyrsta vinnslan er lokið með áætlað magn og hefur engar villur.</span><span class="sxs-lookup"><span data-stu-id="9f799-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="9f799-106">Annari vinnslu er lokið með villum.</span><span class="sxs-lookup"><span data-stu-id="9f799-106">The second job is completed with errors.</span></span> <span data-ttu-id="9f799-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="9f799-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9f799-108">Þetta ferli er ætluð fyrir á starfsmaður á vél.</span><span class="sxs-lookup"><span data-stu-id="9f799-108">This procedure is intended for the machine operator.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a6c93252f95e3c07e1929d70467f6aa8d43af593
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aec5393c956007a88671f111f90c16f9545633e4
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-object-dimensions"></a><span data-ttu-id="90262-105">Víddir kostnaðarhluta</span><span class="sxs-lookup"><span data-stu-id="90262-105">Cost object dimensions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="90262-106">Þegar greina kostnað, nota víddir kostnaðareiningar til að ákvarða hvert kostnaður streyma í.</span><span class="sxs-lookup"><span data-stu-id="90262-106">When you analyze costs, you use cost element dimensions to determine where costs flow to.</span></span> <span data-ttu-id="90262-107">Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði.</span><span class="sxs-lookup"><span data-stu-id="90262-107">You use cost object dimensions to determine where you should assign costs.</span></span> <span data-ttu-id="90262-108">Þetta efni inniheldur upplýsingar um víddir kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="90262-108">This topic provides information about cost object dimensions.</span></span>
 

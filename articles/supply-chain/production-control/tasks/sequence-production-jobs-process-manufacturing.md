@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cf90ff7be59150e20d61a831e57062f9d9996d5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eacf61e432bd9b8c6b90f25e2cf0a2528a2ad932
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="e9128-103">Raða framleiðsluvinnslum fyrir framleiðsluferli</span><span class="sxs-lookup"><span data-stu-id="e9128-103">Sequence production jobs for process manufacturing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9128-104">Þessi ferli notar málningu afurðir sem dæmi til að sýna hvernig raða á áætlaðar pantanir eftir forgang lit og stærð pakka.</span><span class="sxs-lookup"><span data-stu-id="e9128-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="e9128-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USPI.</span><span class="sxs-lookup"><span data-stu-id="e9128-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="e9128-106">Þetta ferli er ætluð fyrir framleiðslustjóri</span><span class="sxs-lookup"><span data-stu-id="e9128-106">This procedure is intended for the production planner.</span></span>
 

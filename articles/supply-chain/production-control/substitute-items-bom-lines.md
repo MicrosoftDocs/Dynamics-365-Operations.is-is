@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bf26d93272a4759d997eabe30c285fb9f3ead032
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ebf0582af5a9feec89625ec7b34432e50cf3c7b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="material-substitution-in-manufacturing"></a><span data-ttu-id="c6bc9-103">Útskipting efna í framleiðslu</span><span class="sxs-lookup"><span data-stu-id="c6bc9-103">Material substitution in manufacturing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c6bc9-104">Þetta efnisatriði lýsir því hvernig skal skipta út efni á meðan á framleiðsluferli stendur.</span><span class="sxs-lookup"><span data-stu-id="c6bc9-104">This topic describes how to substitute materials during the production process.</span></span> 
 

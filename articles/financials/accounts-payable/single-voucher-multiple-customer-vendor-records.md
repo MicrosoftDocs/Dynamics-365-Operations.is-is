@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7348706006dd5baec207ed8ef1d208b032a8e16a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 67c81d0360e90cde44a29fedee280406135771de
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a><span data-ttu-id="37b65-104">Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins</span><span class="sxs-lookup"><span data-stu-id="37b65-104">Single voucher with multiple customer or vendor records</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="37b65-105">Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð.</span><span class="sxs-lookup"><span data-stu-id="37b65-105">This topic provides an overview of what happens when you post a single voucher with multiple customer or vendor records.</span></span> <span data-ttu-id="37b65-106">Þessi aðgerð verður stöðvuð í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations. Þess vegna mælum við með því að nota ekki þessa bókunaraðferð vegna áhrifa bókhalds á vinnslu jöfnunar.</span><span class="sxs-lookup"><span data-stu-id="37b65-106">This functionality will be discontinued in future versions of Microsoft Dynamics 365 for Finance and Operations, as a result, we do not recommend using this method of posting because of the accounting impact to settlement processing.</span></span> 
 

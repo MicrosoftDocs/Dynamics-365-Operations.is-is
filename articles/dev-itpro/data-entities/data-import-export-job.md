@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ba174973cd730a8ddbde84c877acdee340deda8c
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a><span data-ttu-id="0f748-103">Inn- og útflutningsvinnsla gagna</span><span class="sxs-lookup"><span data-stu-id="0f748-103">Data import and export jobs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0f748-104">Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skal nota vinnusvæðið **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="0f748-104">To create and manage data import and export jobs in Microsoft Dynamics 365 for Finance and Operations, you use the **Data management** workspace.</span></span> <span data-ttu-id="0f748-105">Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum.</span><span class="sxs-lookup"><span data-stu-id="0f748-105">By default, the data import and export process creates a staging table for each entity in the target database.</span></span> <span data-ttu-id="0f748-106">Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.</span><span class="sxs-lookup"><span data-stu-id="0f748-106">Staging tables let you verify, clean up, or convert data before you move it.</span></span>
 

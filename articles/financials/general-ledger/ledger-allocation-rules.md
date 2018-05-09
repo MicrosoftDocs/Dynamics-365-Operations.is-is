@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e5eb9d79fee7ec2e288db24aee9535d6414fdeed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 33428c4b811cfebda306cb721871f04cbab18b70
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="ledger-allocation-rules"></a><span data-ttu-id="1c49b-104">Úthlutunarreglur fjárhags</span><span class="sxs-lookup"><span data-stu-id="1c49b-104">Ledger allocation rules</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1c49b-105">Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags.</span><span class="sxs-lookup"><span data-stu-id="1c49b-105">This article provides information about ledger allocation rules.</span></span> <span data-ttu-id="1c49b-106">Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.</span><span class="sxs-lookup"><span data-stu-id="1c49b-106">It describes the various components of these allocation rules and the allocation methods that can be used for them.</span></span>
 

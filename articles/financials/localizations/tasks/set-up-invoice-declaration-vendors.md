@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0697d28c520508d8de4002acdd3adbf8e48a0beb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ed2b9f86e807f7283e3d3f4f56835fd2e7d9ab17
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-an-invoice-declaration-for-vendors-iceland"></a><span data-ttu-id="91ce1-103">Setja upp verktakamiða fyrir lánardrottinn (Ísland)</span><span class="sxs-lookup"><span data-stu-id="91ce1-103">Set up an invoice declaration for vendors (Iceland)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="91ce1-104">Þetta ferli fer í gegnum stofnun á íslenskum verktakamiða.</span><span class="sxs-lookup"><span data-stu-id="91ce1-104">This procedure walks you through setting up the Icelandic invoice declaration.</span></span> <span data-ttu-id="91ce1-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF með land aðalaðsetur lögaðila uppfært í Ísland.</span><span class="sxs-lookup"><span data-stu-id="91ce1-105">The demo data company used to create this procedure is DEMF with the country of legal entity primary address updated to Iceland.</span></span>
 

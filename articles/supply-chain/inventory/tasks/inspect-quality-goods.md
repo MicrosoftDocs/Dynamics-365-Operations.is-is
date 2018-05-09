@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab536047340bdebecb7c8317e20208c87a4776f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3afa22d99f1915015b49964d9e22a6df15ecf6f9
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="89e30-103">Kanna vörugæði</span><span class="sxs-lookup"><span data-stu-id="89e30-103">Inspect the quality of goods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="89e30-104">Þessi ferli sýnir hvernig meðhöndla á gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="89e30-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="89e30-105">Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="89e30-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="89e30-106">Áður en byrjað er á þessu dæmaferli, þarf að staðfesta innkaupapöntun "000016" og bóka innhreyfingarskjal afurða.</span><span class="sxs-lookup"><span data-stu-id="89e30-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="89e30-107">Þetta stofna sjálfkrafa gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="89e30-107">This will automatically create a quality order.</span></span> <span data-ttu-id="89e30-108">Gæðaeftirlit eru yfirleitt framkvæmd með því að starfsmaður á sviði gæða.</span><span class="sxs-lookup"><span data-stu-id="89e30-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 

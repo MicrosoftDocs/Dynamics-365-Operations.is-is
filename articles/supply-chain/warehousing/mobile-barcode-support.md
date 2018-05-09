@@ -18,16 +18,16 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cf870974b2f772e82fbf828e83f065dc945d377
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 720f14b0e46d1571dd5b3f57a4ecce102b81945b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-bar-code-support"></a><span data-ttu-id="76d74-103">Strikamerkjastuðningur fyrir farsíma</span><span class="sxs-lookup"><span data-stu-id="76d74-103">Mobile bar code support</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="76d74-104">Vegna þess að Android er opinn uppruni verkefni, getur hvaða framleiðandi vélbúnaðar fyrir strikamerkjaskönnun vöruhúsa sem er búið til tæki til að keyra Android stýrikerfið.</span><span class="sxs-lookup"><span data-stu-id="76d74-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="76d74-105">Tæki er aðeins Android-samhæft ef það getur keyrt forrit sem eru skrifuð fyrir Android framkvæmdarumhverfi.</span><span class="sxs-lookup"><span data-stu-id="76d74-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
 <span data-ttu-id="76d74-106">Hins vegar getur vélbúnaðarsöluaðili breytt og búið til yfirborð fyrir Android útgáfuna sem er keyrð á vélbúnaði hans.</span><span class="sxs-lookup"><span data-stu-id="76d74-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="76d74-107">Microsoft getur ekki tekið neina ábyrgð á því að tryggja að strikamerki skannaforrit fyrir Android sé samhæft við strikamerki skanna vélbúnaðar framleiðanda og Android útgáfuna sem er keyrð á henni.</span><span class="sxs-lookup"><span data-stu-id="76d74-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 

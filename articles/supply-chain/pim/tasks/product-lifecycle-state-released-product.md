@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d6d3bc10b3fbde9cc3410d6fa3afd8c6d9cc2266
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4da27f7a7d03da91bada9ea99befa864f00e87b
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="99229-103">Úthluta lífferilsstöðu afurðar til útgefinnar afurðar</span><span class="sxs-lookup"><span data-stu-id="99229-103">Assign a product lifecycle state to a released product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="99229-104">Þessi aðferð sýnir hvernig á að úthluta lífferilsstöðu afurðar til útgefinnar afurðar.</span><span class="sxs-lookup"><span data-stu-id="99229-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="99229-105">Forkröfur: Þú þarft að spila verkefnastjórnunina "Búa til nýjan lífferil afurðar" fyrst til að ganga úr skugga um að minnsta kosti eitt afurðatímabil sé búið til áður en þú getur spilað þessar verkefnaleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="99229-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
 

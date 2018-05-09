@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c90de64ccc61a6515298c55dacaec44b79b19a3b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a><span data-ttu-id="a0bf8-103">Fletta upp gildandi verði og afslætti</span><span class="sxs-lookup"><span data-stu-id="a0bf8-103">Look up applicable prices and discounts</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a0bf8-104">Þessi ferli sýnir hvernig á að finna verð og/eða afsláttur fyrir afurð sem er gild fyrir ákveðinn viðskiptavin, án þess að stofna sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="a0bf8-104">This procedure shows how to find the price and/or discount for a product which is currently valid for a specific customer, without creating a sales order.</span></span> <span data-ttu-id="a0bf8-105">Ferlið fer í gegnum tiltekið dæmi og þú þarft að fylgja dæminu sem notar USMF sýnigögn fyrirtæki til að velja nauðsynleg gildi.</span><span class="sxs-lookup"><span data-stu-id="a0bf8-105">The procedure walks through a specific example, and you need follow the example using the USMF demo company in order to select the necessary values.</span></span>
 

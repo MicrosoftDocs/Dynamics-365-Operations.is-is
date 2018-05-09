@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6201088892a3e056077239c3efb6a53634dd397d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9b58654e445dbae34796bf821c2cb4c0a04f09c3
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-mandatory-payment-references-iceland"></a><span data-ttu-id="bb652-103">Setja upp skyldubundnar greiðslutilvísanir (Ísland)</span><span class="sxs-lookup"><span data-stu-id="bb652-103">Set up mandatory payment references (Iceland)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bb652-104">Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.</span><span class="sxs-lookup"><span data-stu-id="bb652-104">Use this procedure to set up mandatory payment reference for a specific ledger account and post a payment.</span></span> <span data-ttu-id="bb652-105">Þegar fjárhagslykill er valin í færslubók verður að tilgreina tilvísun greiðslu fyrir færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="bb652-105">When you select the ledger account in the journal you must specify a payment reference for the journal line.</span></span>
 

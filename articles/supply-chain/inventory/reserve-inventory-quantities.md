@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c705f51e32cc03d201eb00b6a1aa8048e59ff59e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f1cbf7604b6ea5622b7484b8ff9557ad0203caf
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reserve-inventory-quantities"></a><span data-ttu-id="f3806-103">Taka frá birgðamagn</span><span class="sxs-lookup"><span data-stu-id="f3806-103">Reserve inventory quantities</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f3806-104">Þessi efnisliður útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.</span><span class="sxs-lookup"><span data-stu-id="f3806-104">This topic describes the different options that are available for reserving inventory.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b09efb93b0ad5604ab4f7a8560f3297b2da0656b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ddb7963c73aea65a9be2a56d14854430e8dff9dd
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="39c4a-103">Setja upp skýrslugerðarkóða virðisaukaskatts</span><span class="sxs-lookup"><span data-stu-id="39c4a-103">Set up sales tax reporting codes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="39c4a-104">Skýrslugerðakóðar söluskatts vísa í númer svæða í söluskattskýrslu.</span><span class="sxs-lookup"><span data-stu-id="39c4a-104">The Sales tax reporting codes refer to a field number on a sales tax report.</span></span> <span data-ttu-id="39c4a-105">Þær eru notaðar á tiltekna skýrsluútlit lands og söluskattgreiðsla eftir kóða skýrslu til prenta söluskattsupphæðir fyrir jöfnunartímabil samantekið eftir skýrslugerðarkóði.</span><span class="sxs-lookup"><span data-stu-id="39c4a-105">They are used on country specific report layouts and the Sales tax payment by code report to print sales tax amounts for a settlement period summarized per reporting code.</span></span> <span data-ttu-id="39c4a-106">Eftir að þú stofnar skýrslugerðarkóða söluskatts, er hægt að vísa í þá á skýrsluuppsetningu flýtiflipa í síðunni kóði söluskatts.</span><span class="sxs-lookup"><span data-stu-id="39c4a-106">After you create Sales tax reporting codes, you can refer to them on the Report setup FastTabs in the Sales tax code page.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73533bb4a30cef126f4f8322fa0b85331a53de48
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 92ad8afe8eb2943377a1a130f466b0dd833b8015
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="04bab-103">Setja upp flutningsskorður fyrir vöru</span><span class="sxs-lookup"><span data-stu-id="04bab-103">Set up transportation constraints for an item</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="04bab-104">Þetta ferli setur upp flutningsstjórnunarskorðu til að koma í veg fyrir að valin vara sé flutt í gegnum valda stöð.</span><span class="sxs-lookup"><span data-stu-id="04bab-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="04bab-105">Þetta verk myndi venjulega vera framkvæmt af samræmingaraðila flutninga.</span><span class="sxs-lookup"><span data-stu-id="04bab-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="04bab-106">Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="04bab-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 

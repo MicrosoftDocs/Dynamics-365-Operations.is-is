@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9bd8a506fc0bbf4d4d8127afa71fe371be10b55b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d07df2c2779833485bd70240c47bb569622800f8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="f07e4-103">Setja upp bókunarreglur fyrir eignir</span><span class="sxs-lookup"><span data-stu-id="f07e4-103">Set up fixed asset posting profiles</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f07e4-104">Þessi leiðarvísi fyrir verk setja upp bókunarreglur eigna.</span><span class="sxs-lookup"><span data-stu-id="f07e4-104">This task guide will set up Fixed asset posting profiles.</span></span>  <span data-ttu-id="f07e4-105">Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.</span><span class="sxs-lookup"><span data-stu-id="f07e4-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>  <span data-ttu-id="f07e4-106">Dæmi í leiðarvísi fyrir verk eru fyrir grunn bókunarreglu, þó verður að stofna bókunarreglur fyrir tiltekinn bókhaldslykil og kröfur fyrir fjárhagsskýrslu.</span><span class="sxs-lookup"><span data-stu-id="f07e4-106">Examples given in the task guide are for a basic posting profile, though posting profiles must be created for your specific chart of accounts and financial reporting requirements.</span></span>
 

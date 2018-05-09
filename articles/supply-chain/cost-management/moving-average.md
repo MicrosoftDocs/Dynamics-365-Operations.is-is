@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 05ac3b28c4d0806f71f1e0cb069c0d48137a4332
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="222ff-105">Hlaupandi meðaltal</span><span class="sxs-lookup"><span data-stu-id="222ff-105">Moving average</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="222ff-106">Hlaupandi meðaltal er kostnaðarútreikningur sem byggist á meðaltalsreglunni, þar sem kostnaður birgða breytist ekki á meðan innkaupakostnaður gerir það.</span><span class="sxs-lookup"><span data-stu-id="222ff-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="222ff-107">Mismunurinn er eignfærður og byggir á hlutfallsútreikningi.</span><span class="sxs-lookup"><span data-stu-id="222ff-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="222ff-108">Eftirstandandi upphæð er skráð sem kostnaður.</span><span class="sxs-lookup"><span data-stu-id="222ff-108">The amount that remains is expensed.</span></span> 
 

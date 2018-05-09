@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36be19615ebc38581c4b68998cc1b3d4c1c85175
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-settlement"></a><span data-ttu-id="39a8d-104">Skilgreina uppgjör</span><span class="sxs-lookup"><span data-stu-id="39a8d-104">Configure settlement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="39a8d-105">Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns.</span><span class="sxs-lookup"><span data-stu-id="39a8d-105">How and when transactions are settled can be complex subjects, so it's essential that you understand and correctly define the parameters to meet your business requirements.</span></span> <span data-ttu-id="39a8d-106">Þessi grein lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="39a8d-106">This article describes the parameters that are used for settlement for both Accounts payable and Accounts receivable.</span></span> 
 

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="d096f-103">Fjármálainnsýn</span><span class="sxs-lookup"><span data-stu-id="d096f-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d096f-104">**Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.</span><span class="sxs-lookup"><span data-stu-id="d096f-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="d096f-105">Power BI er fellt inn í Microsoft Dynamics 365 Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d096f-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="d096f-106">**Fjármálainnsýn** leggur áherslu á greiningarskýrslu.</span><span class="sxs-lookup"><span data-stu-id="d096f-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="d096f-107">Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst.</span><span class="sxs-lookup"><span data-stu-id="d096f-107">Personas across an organization can view, research, understand, and act.</span></span> 

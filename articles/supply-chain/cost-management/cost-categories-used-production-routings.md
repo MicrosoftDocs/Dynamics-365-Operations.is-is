@@ -20,22 +20,22 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bda8d9d656f1760061599d100ca4af9186742ea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1eb7da2ce5323fe0c06c57855435510f88f0601f
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-routing"></a><span data-ttu-id="0fa9c-103">Um kostnaðartegundir notaðar í leiðum framleiðslu</span><span class="sxs-lookup"><span data-stu-id="0fa9c-103">Cost categories used in production routing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0fa9c-104">Þessi skrá veitir upplýsingar um kostnaðartegundirnar sem eiga við um framleiðsluumhverfi sem nota leiðir.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-104">This article provides information about cost categories that apply to manufacturing environments that use routing.</span></span>
 
 <span data-ttu-id="0fa9c-105">Kostnaðartegundir eiga við um framleiðsluumhverfi sem nota leiðir.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-105">Cost categories apply to manufacturing environments that use routing.</span></span> <span data-ttu-id="0fa9c-106">Kostnaðartegundir eru úthlutaðar rekstrartilföngum og leiðaraðgerðum í þeim tilgangi að skilgreina tímakostnað og hluta kostnaðarframlegð útreiknuðum kostnaði framleiddrar vöru.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-106">They are assigned to operations resources and routing operations to define hourly costs and to segment cost contributions in a manufactured item’s calculated costs.</span></span> <span data-ttu-id="0fa9c-107">Kostnaðarflokkurinn sem er úthlutaður kostnaðartegundinni flokkar framlegð framleiðslukostnaðar eftir rekstrartilföngum og gerð verkþáttar eins og uppsetningar- og keyrslutíma.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-107">The cost groups that are assigned to cost categories classify manufacturing cost contributions, based on the operation resources and the type of activity, such as setup time and run time.</span></span> <span data-ttu-id="0fa9c-108">Sérhæfni úthlutunar kostnaðarflokka gerir kleift að reikna út grundvöllinn fyrir framleiðslurekstrarkostnaði á grundvelli leiðarupplýsinga.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-108">The specificity of cost group assignments enables manufacturing overhead to be calculated based on routing information.</span></span> 
 
-<span data-ttu-id="0fa9c-109">**Athugið:**Kostnaðartegundir hafa nokkur samheiti innan framleiðsluumhverfa eins og vinnutaxtakóðar eða vélataxtakóðar.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-109">**Note:** In manufacturing environments, cost categories are known by several other names, such as labor rate codes or machine rate codes.</span></span> 
+<span data-ttu-id="0fa9c-109">**Athugið:** Kostnaðartegundir hafa nokkur samheiti innan framleiðsluumhverfa eins og vinnutaxtakóðar eða vélataxtakóðar.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-109">**Note:** In manufacturing environments, cost categories are known by several other names, such as labor rate codes or machine rate codes.</span></span> 
 
 <span data-ttu-id="0fa9c-110">Hver kostnaðartegund hefur sína tengda kostnaðarfærslu og úthlutaðan kostnaðarflokk.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-110">Each cost category has associated cost records and an assigned cost group.</span></span> <span data-ttu-id="0fa9c-111">Mismunandi kostnaðartegundir þarf til að styðja mismunandi framleiðslutilgang.</span><span class="sxs-lookup"><span data-stu-id="0fa9c-111">Different cost categories are required for different production purposes.</span></span>
 

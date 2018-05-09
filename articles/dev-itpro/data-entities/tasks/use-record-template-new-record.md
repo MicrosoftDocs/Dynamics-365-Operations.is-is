@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f25dbd255178c09586665cfb0ad8faf595d5a73c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d99c7eae4e3b70d24ce8d8077d7cb0b24a9fcc35
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a><span data-ttu-id="96fa7-103">Nota færslusniðmát til að búa til nýja færslu</span><span class="sxs-lookup"><span data-stu-id="96fa7-103">Use a record template to create a new record</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="96fa7-104">Þetta ferli sýnir hvernig nota fyrirfram skilgreint færslusniðmát til að stofna ný færsla.</span><span class="sxs-lookup"><span data-stu-id="96fa7-104">This procedure shows how to use a previously defined record template to create a new record.</span></span> <span data-ttu-id="96fa7-105">Til að ljúka við þetta ferli verður fyrst að ljúka við ferlið „Stofna færslusniðmát til að auðvelda gagnaskráning“.</span><span class="sxs-lookup"><span data-stu-id="96fa7-105">To complete this procedure, you must first complete the "Create a record template to facilitate data entry" procedure.</span></span>
 

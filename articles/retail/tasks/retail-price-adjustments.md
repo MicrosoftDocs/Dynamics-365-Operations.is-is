@@ -17,15 +17,15 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 191f48bc5b56bef9fe08c266db8cd49ce7cbc620
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75f76b4f8780160e8fd7528e4230ec6cd8743491
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="retail-price-adjustments"></a><span data-ttu-id="11e74-103"> Leiðréttingar á smásöluverði</span><span class="sxs-lookup"><span data-stu-id="11e74-103">Retail price adjustments</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="11e74-104">Þetta ferli mun fara í gegnum stofnun verðleiðrétting smásölu.</span><span class="sxs-lookup"><span data-stu-id="11e74-104">This procedure will walk through creating a retail price adjustment.</span></span> <span data-ttu-id="11e74-105">Verðleiðrétting smásölu getur setja söluverði vöru beint eða breyta hennar grunn söluverði eða söluverði verðsamnings.</span><span class="sxs-lookup"><span data-stu-id="11e74-105">A retail price adjustment can set an item's sale price directly, or modify its base sale price or trade agreement sale price.</span></span> <span data-ttu-id="11e74-106">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="11e74-106">This procedure uses the USRT demo data company.</span></span>
 

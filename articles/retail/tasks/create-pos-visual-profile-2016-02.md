@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d57ff9a780d33d8f4314e658fc27503431a83a90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e8d7c431410c3e048912a7b07d00d6efbe1c1a41
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-pos-visual-profile"></a><span data-ttu-id="9a17b-103"> Stofna sjónræna reglu fyrir sölustað </span><span class="sxs-lookup"><span data-stu-id="9a17b-103">Create a POS visual profile</span></span> 
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9a17b-104">Þetta ferli fer í gegnum stofnun nýja sjónræna forstillingu fyrir sölustaði.</span><span class="sxs-lookup"><span data-stu-id="9a17b-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="9a17b-105">A sjónræn forstilling inniheldur grunnatriði upplýsingar sem ákvarða the útlit afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="9a17b-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="9a17b-106">Hægt er að stofna nokkrar sjónrænar forstillingar og úthluta tilteknum forstillingum til að keyra þær á tilteknum afgreiðslukössum.</span><span class="sxs-lookup"><span data-stu-id="9a17b-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="9a17b-107">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="9a17b-107">This procedure uses the USRT demo data company.</span></span>
 

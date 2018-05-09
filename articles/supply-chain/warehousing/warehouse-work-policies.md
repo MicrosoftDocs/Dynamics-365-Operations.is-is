@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6023f74972bcc3c3110b8efb5ce9bb1558aa2efb
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a><span data-ttu-id="b900c-103">Reglur vöruhúsavinnu</span><span class="sxs-lookup"><span data-stu-id="b900c-103">Warehouse work policies</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b900c-104">Reglur vöruhúsavinnu í Microsoft Dynamics 365 for Finance and Operations stjórna hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðslu, samkvæmt gerð vinnupöntunar, birgðastaðsetningu og vöru.</span><span class="sxs-lookup"><span data-stu-id="b900c-104">Warehouse work policies in Microsoft Dynamics 365 for Finance and Operations control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
 

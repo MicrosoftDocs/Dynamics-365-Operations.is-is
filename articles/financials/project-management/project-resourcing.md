@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 55cfdd24dc13305f716e2ad0425ca3f24567e7b9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6d5d21cebc42cb044172d61916f26b815bb96737
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-resourcing"></a><span data-ttu-id="6ccc8-103">Tilföng verks</span><span class="sxs-lookup"><span data-stu-id="6ccc8-103">Project resourcing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6ccc8-104">Þessi efnisatriði gefur upplýsingar um tilföng verka.</span><span class="sxs-lookup"><span data-stu-id="6ccc8-104">This topic provides information about project resourcing.</span></span>
 
@@ -107,7 +107,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="create-a-new-project"></a><span data-ttu-id="6ccc8-172">Stofna nýtt verk</span><span class="sxs-lookup"><span data-stu-id="6ccc8-172">Create a new project</span></span>
 1. <span data-ttu-id="6ccc8-173">Á **Verkefnastjórnun** skal velja **Nýtt verk** og færa eftirfarandi gildi inn:</span><span class="sxs-lookup"><span data-stu-id="6ccc8-173">On the **Project management** page, select **New project**, and enter the following values:</span></span>
 
-    - <span data-ttu-id="6ccc8-174">**Gerð verks:**Tími og efni</span><span class="sxs-lookup"><span data-stu-id="6ccc8-174">**Project type:** Time and material</span></span>
+    - <span data-ttu-id="6ccc8-174">**Gerð verks:** Tími og efni</span><span class="sxs-lookup"><span data-stu-id="6ccc8-174">**Project type:** Time and material</span></span>
     - <span data-ttu-id="6ccc8-175">**Verkheiti:** XYZ Uppfærsla þrep 2</span><span class="sxs-lookup"><span data-stu-id="6ccc8-175">**Project name:** XYZ Upgrade Phase 2</span></span>
     - <span data-ttu-id="6ccc8-176">**Verkflokkur:** TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="6ccc8-176">**Project group:** TM\_WIP</span></span>
     - <span data-ttu-id="6ccc8-177">**Auðkenni verksamnings:** 00000002</span><span class="sxs-lookup"><span data-stu-id="6ccc8-177">**Project contract ID:** 00000002</span></span>

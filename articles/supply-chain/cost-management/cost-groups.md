@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 750853de01213187b4df273087c53321abe25d5d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0c2ac0442be0aaec415c69a018fbc607b87742f
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-groups"></a><span data-ttu-id="35a26-104">Kostnaðarflokkar</span><span class="sxs-lookup"><span data-stu-id="35a26-104">Cost groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="35a26-105">Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað.</span><span class="sxs-lookup"><span data-stu-id="35a26-105">Cost groups provide the basis for segmenting and analyzing cost contributions in a manufactured item’s calculated cost, such as the cost contributions for material, labor, and overhead.</span></span> <span data-ttu-id="35a26-106">Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="35a26-106">Cost group segmentation has several synonyms within manufacturing environments, such as cost breakdown, cost decomposition, or cost classification.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="eebb2-103">Færa inn vinnukort verks</span><span class="sxs-lookup"><span data-stu-id="eebb2-103">Enter project timesheets</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eebb2-104">Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort .</span><span class="sxs-lookup"><span data-stu-id="eebb2-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="eebb2-105">Nýja vinnukort getur verið grunnur upplýsingar frá fyrra vinnukort, eða frá: verk og verkþáttur eftirlætissíða.</span><span class="sxs-lookup"><span data-stu-id="eebb2-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="eebb2-106">Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil.</span><span class="sxs-lookup"><span data-stu-id="eebb2-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="eebb2-107">Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="eebb2-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="eebb2-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI.</span><span class="sxs-lookup"><span data-stu-id="eebb2-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="eebb2-109">Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín</span><span class="sxs-lookup"><span data-stu-id="eebb2-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

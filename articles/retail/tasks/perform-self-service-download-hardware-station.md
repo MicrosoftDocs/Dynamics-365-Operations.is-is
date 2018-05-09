@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58df4768f33bc4a98c5a229b698754692ce6edbb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ca1a96e83b29c2d782ae5c4daceeaddbc461de7a
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="d8c28-103"> Framkvæma sjálfsafgreiðslu til að sækja vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="d8c28-103">Perform self-service to download hardware station</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d8c28-104">Þetta ferli fer í gegnum hvernig á að hlaða niður nýja fyrirfram skilgreinda vébúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="d8c28-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="d8c28-105">Sýnigögn fyrirtækisins fyrir þetta ferli er USRT.</span><span class="sxs-lookup"><span data-stu-id="d8c28-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="d8c28-106">verður að hafa stofnuð er ný forstilling vélbúnaðarstöðvar og vélbúnaðarstöð áður en verkið er ræst.</span><span class="sxs-lookup"><span data-stu-id="d8c28-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
 

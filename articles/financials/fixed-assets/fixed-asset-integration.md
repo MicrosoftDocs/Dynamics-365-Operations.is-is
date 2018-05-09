@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93764a8eb116924df7c887cfd8d36f60a2a89c81
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd78323c4fd02a6682c26c825e5e73dfe2c83e4c
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-assets-integration"></a><span data-ttu-id="ed40a-104">Samþætting eigna</span><span class="sxs-lookup"><span data-stu-id="ed40a-104">Fixed assets integration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ed40a-105">Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir.</span><span class="sxs-lookup"><span data-stu-id="ed40a-105">Fixed assets can be integrated with General ledger, Inventory management, Accounts receivable, and Accounts payable.</span></span> <span data-ttu-id="ed40a-106">Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.</span><span class="sxs-lookup"><span data-stu-id="ed40a-106">You can also set up Fixed assets so that it is integrated with purchase orders.</span></span>
 

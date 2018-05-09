@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc2431a8008ce6518974e240d12dc07f097bdbb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1047af93727f98fc0f15a82c93b388de5d9860f0
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-an-expense-report"></a><span data-ttu-id="599f9-103">Skoða kostnaðarskýrslu</span><span class="sxs-lookup"><span data-stu-id="599f9-103">View an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="599f9-104">Þegar keyrð er fyrirspurn um að skoða færslur í fjárhag eða innkaupum og aðföngum, getur fyrirspurnin skilað of miklu upplýsingum.</span><span class="sxs-lookup"><span data-stu-id="599f9-104">When you run a query to view transactions in General ledger or Procurement and sourcing, the query might return too much information.</span></span> <span data-ttu-id="599f9-105">Þú gætir því prófað að þrengja leitina.</span><span class="sxs-lookup"><span data-stu-id="599f9-105">Therefore, you might want to narrow your search.</span></span> <span data-ttu-id="599f9-106">Til að fá þær upplýsingar sem þú þarfnast getur þú kafa niður í færslu til að sjá kostnaðarskýrsluna sem hún birtist á.</span><span class="sxs-lookup"><span data-stu-id="599f9-106">To get the information that you require, you can drill down into a transaction to see the expense report that it appeared on.</span></span>
 

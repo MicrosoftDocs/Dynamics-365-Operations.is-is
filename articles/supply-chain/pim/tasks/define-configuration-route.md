@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 26fb7dc7113411bb5117476ddfa02ae9d81cf287
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 945c83a72fc640d0eed0cd8ba14a701bffe1acd8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-configuration-routes"></a><span data-ttu-id="cb880-103">Skilgreina afbrigðaleiðir</span><span class="sxs-lookup"><span data-stu-id="cb880-103">Define configuration routes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cb880-104">Þetta ferli leggur áherslu á skilgreiningu afbrigðaleið sem ákvarðar röðina sem skilgreiningaflokkar eru sýndir í.</span><span class="sxs-lookup"><span data-stu-id="cb880-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="cb880-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="cb880-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cb880-106">Þetta er sjötta ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="cb880-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
