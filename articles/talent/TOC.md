@@ -6,6 +6,7 @@
 ## [Fjarlægja Talent-umhverfi](remove-talent-environment.md)
 ## [Úthluta Microsoft Dynamics 365 for Talent Modular Apps](modular-app-tech-faq.md)
 ## [Stækka virkni Talent](extend-talent-functionality.md)
+## [Fá aðgang að forskoðunaraðgerðum í Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
 # [Þróun mannauðsáætlunar](departments-jobs-positions.md)
 ## [Uppsetning starfsþátta](create-job.md)

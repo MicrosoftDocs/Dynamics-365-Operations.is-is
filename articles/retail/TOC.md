@@ -24,6 +24,7 @@
 # Virðisaukaskattur
 ## [Yfirlit virðisaukaskatts](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Útreikningsaðferðir VSK í upprunareitnum](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Úthlutun og hnekking virðisaukaskatts](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Símaver
@@ -165,8 +166,9 @@
 ## [ Skilgreina ráðleggingar um afurðir sem byggir á vélnámi](tasks/configure-machine-learning-product-recommendations.md)
 ## [ Búa til og tengja tæki](tasks/create-associate-device.md)
 ## [ Búa til og tengja vélbúnaðarstöð](tasks/create-associate-hardware-station.md)
-## [ Búa til og tengja afgreiðslukassa](tasks/create-associate-registers.md)
-## [ Búa til, reikna og bóka yfirlit fyrir smásöluverslun](tasks/create-calculate-post-statement-retail-store.md)
+## [Stofna og tengja afgreiðslukassa](tasks/create-associate-registers.md)
+## [Stofna, reikna og bóka yfirlit fyrir smásöluverslun](tasks/create-calculate-post-statement-retail-store.md)
+## [Endurbætur á bókun uppgjörs](statement-posting-EOD.md)
 ## [ Stofna pantanir fyrir símaver](tasks/create-call-center-orders.md)
 ## [ Stofna fjárhagsvíddir fyrir afgreiðslukassa og skilgreina víddagildi í afgreiðslukössum](tasks/create-financial-dimensions-pos.md)
 ## [ Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum](tasks/create-financial-dimensions-retail-channels.md)
@@ -289,7 +291,6 @@
 ### [Kalla á POS API eða aðgerð úr POS-viðbót](dev-itpro/pos-api-extension.md)
 ### [Kveikjur Retail Modern POS og prentun](dev-itpro/pos-trigger-printing.md)
 ### [Bæta sérstilltri stýringu við hönnunaryfirlit Retail Modern POS sem ekki birtist á skjá](dev-itpro/pos-control-non-screen.md)
-### [Búa til Retail-staðgengil fyrir sölustað og rafræn viðskipti](dev-itpro/pos-generate-retail-proxy.md)
 ### [Skref við skilgreiningu fyrir þróunaraðila Retail sem vinna að þróunarverkefnum sem hýst eru í skýi](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime

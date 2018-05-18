@@ -10,7 +10,12 @@
 ## [Prufueintak sótt](dev-tools/get-evaluation-copy.md)
 ## [Áskrift](dev-tools/sign-up-preview-subscription.md)
 ## [Uppsetning þróunarumhverfis og aðgangur að því](dev-tools/access-instances.md)
-## [Þróunarkerfiskröfur](dev-tools/development-system-requirements.md)
+### [Skilgreina sýndarvél þróunaraðila](dev-tools/configure-developer-vm.md)
+### [Nýr notandi búinn til á þróunarvél](dev-tools/enable-development-machine.md)
+### [Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang](sysadmin/VMs-no-admin-access.md)
+### [Endurnefna vinnuumhverfi til að virkja aðgang að Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [Þróunarkerfiskröfur](dev-tools/development-system-requirements.md)
+## [Útgáfueftirlit, leit að lýsigögnum og yfirlit](dev-tools/version-control-metadata-navigation.md)
 ## Prufuforrit bílaflotastjórnunar
 ### [Prufuforrit bílaflotastjórnunar](dev-tools/fleet-management-sample.md)
 ### [Yfirlit yfir prufuforrit bílaflotastjórnunar](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [Smíðaaðgerðir](dev-tools/build-operations.md)
 ### [Kóðaritill](dev-tools/code-editor.md)
 ### [Líkan og gagnalíkanseiningar búin til](dev-tools/create-data-model-elements.md)
-### [Nýr notandi búinn til á þróunarvél](dev-tools/enable-development-machine.md)
+#### [Leiðbeiningar um nöfn](extensibility/NamingGuidelines.md)
+#### [Slökkt á líkansérstillingu og afskriftavirkni](dev-tools/lock-models.md)
 ### [Sérstillingagreiningarskýrsla](dev-tools/customization-analysis-report.md)
 ### [Einingahönnuðir](dev-tools/element-designers.md)
 ### [Eininganotkun](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [Líkön](dev-tools/models.md)
 ### [Verkefni í Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Verkfærainnbætur fyrir Visual Studio](dev-tools/developer-tools-add-ins.md)
-### [Slökkt á líkansérstillingu og afskriftavirkni](dev-tools/lock-models.md)
 ### [Uppfærsla þróunarverkfæra í Visual Studio](dev-tools/update-development-tools.md)
 ## X++ forritunartungumál
 ### [X++ og kembieiginleikar ](dev-tools/new-x-debugger-features.md)
@@ -104,7 +109,7 @@
 #### [W-klasar](dev-ref/w-classes.md)
 #### [X-klasar](dev-ref/x-classes.md)
 
-## [Heimasíða stækkunarhæfni](extensibility/extensibility-home-page.md)
+## [Stækkunarhæfni](extensibility/extensibility-home-page.md)
 ### Kynning og fyrstu skref
 #### [Stækkunarmöguleikar forrits](extensibility/extensibility-roadmap.md)
 #### [Stækkunarbeiðnir](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [Stofna fylgiskjöl eða þjálfun með verkskráningu](user-interface/task-recorder-training-docs.md)
 
 # [Fartækjaverkvangur](mobile-apps/platform/mobile-platform-home-page.md)
-## Hafist handa
-### [Hafist handa](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Hafist handa](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Högun](mobile-apps/platform/mobile-platform-architecture.md)
+### [Yfirlit tilvika viðskiptagrunns](mobile-apps/platform/business-logic-events-overview.md)
 ### [Leiðbeiningar fyrir síðuhönnun](mobile-apps/platform/page-design-guidelines.md)
 ### [Leiðbeiningar fyrir aðgerðahönnun](mobile-apps/platform/action-design-guidelines.md)
 ### [Leiðbeiningar fyrir eyðublaðahönnun](mobile-apps/platform/form-design-requirements.md)
@@ -408,16 +413,17 @@
 ### [Afritun skilgreiningargagna á milli fyrirtækja](data-entities/copy-configuration.md)
 ### [Sniðmát skilgreiningargagna](data-entities/configuration-data-templates.md)
 ### [Gagnasniðmát með mörgum vinnublöðum](data-entities/excel-template-multiple.md)
-### [Rakning breytinga til einingar](data-entities/entity-change-track.md)
-
+### [Rekja breytingar til einingar](data-entities/entity-change-track.md)
+### [Skilgreiningarlyklar og gagnaeiningar](data-entities/config-key-entities.md)
 ### [Finna upplýsingar um staðlaðar gagnaeiningar](data-entities/data-entities-report.md)
 
 
-## [Inn- og útflutningsverk gagna](data-entities/data-import-export-job.md)
+## [Inn- og útflutningsvinnsla gagna](data-entities/data-import-export-job.md)
 
 ### [Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu](data-entities/tips-tricks-import-general-journal-entity.md)
 
-## Þróun gagnaeininga
+## Þróun fyrir gagnaeiningar
+### [Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar](dev-tools/design-best-practices.md)
 ### [Stofna nýjar gagnaeiningar](data-entities/build-consuming-data-entities.md)
 ### [Eiginleikar gagnaeininga](data-entities/behavioral-properties-data-entities.md)
 ### [Stofna útreikning dálka og sýndarreita](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [Eiginleikar lýsigagna](data-entities/behavioral-properties-data-entities.md)
 ### [Villuleitir, sjálfgildi og óvarpaðir reitir](data-entities/validations-defaults-unmapped-fields.md)
 ### [Öryggi og gagnaeiningar](data-entities/security-data-entities.md)
+### [Búa til skrifvarða einingu sem sýnir fjárhagsvíddir](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Notkun eigin gagnagrunns](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [Sjálfvirk verkgögn](data-entities/data-task-automation.md)
 
 ## [Tilföng til að bregðast við GDPR-gagnabeiðnum](gdpr/gdpr-home-page.md)
-### [Leiðbeiningar varðandi almennu persónuverndarreglugerðina fyrir Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Leiðbeiningar varðandi almennu persónuverndarreglugerðina fyrir Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-guide.md)
 ### [Flokkun eigna](gdpr/gdpr-asset-classification-values.md)
 ### [Nota skýrslu um leit að einstaklingi](gdpr/gdpr-person-search-report.md)
 ### [Útvíkka skýrslu um leit að einstaklingi](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [Svara beiðni um persónuleg gögn með Talent](gdpr/respond-dsr-request-talent.md)
 ### [Svara beiðni um persónuleg gögn með Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [Vinnusvæði gagnaprófunar](user-interface/data-validation-workspace.md)
 
-# [Samfelld afhending – heimasíða](dev-tools/continuous-delivery-home-page.md)
+# [Samfelld afhending](dev-tools/continuous-delivery-home-page.md)
 ## [Algengar spurningar um þróun og samfelld afhendingu](dev-tools/continuous-delivery-faq.md)
 ## [Útiloka prófunarpakka úr frálagi útgáfu](dev-tools/exclude-test-packages.md)
 ## [Stjórnun líkana þriðja aðila og keyrslupakka með upprunastýringu](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [Færibreytuaðferðir hlutafærslustýringar](financial/segmented-entry-control-parm-method-specification.md)
 ## [Möguleika á að fletta upp gildum fyrir fjárhagsvíddir í Microsoft Excel-sniðmátum bætt við](financial/add-dimensions-excel-templates.md)
 ## [Gengisveitur stofnaðar](financial/create-exchange-rate-providers.md)
+## [Stofna gengisveitur í Microsoft Dynamics Finance and Operations útgáfu 8.0](financial/create-exchange-rate-8.md)
 
 # Þróun aðfangakeðja
 ## [Gantt-þróunarleiðbeiningar](user-interface/gantt-development-guide.md)
@@ -579,7 +590,6 @@
 
 # [Kerfisstjórnun](sysadmin/system-administration-home-page.md)
 ## [Algengar spurningar um mánaðarlegar uppfærslur verkvangs](sysadmin/faq-platform-monthly-updates.md)
-## [Algengar spurningar um sýndarvélar sem leyfa ekki stjórnandaaðgang](sysadmin/VMs-no-admin-access.md)
 ## [Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins](sysadmin/legal-terms-privacy-statement.md)
 ## [Leyfiskóðar og skilgreiningarlyklaskýrsla](sysadmin/license-codes-configuration-keys-report.md)
 ## [Samnýting gagna milli fyrirtækja](sysadmin/cross-company-data-sharing.md)
