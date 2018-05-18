@@ -18,29 +18,29 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0f89579cd921b1036ea102ccc89f3863fb40ac3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="29500-103">Fjárhagsstjórnun – heimasíða</span><span class="sxs-lookup"><span data-stu-id="29500-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="3c7c7-103">Fjárhagsstjórnun – heimasíða</span><span class="sxs-lookup"><span data-stu-id="3c7c7-103">Financial management home page</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="29500-104">Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="29500-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="3c7c7-104">Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3c7c7-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="29500-105">Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.</span><span class="sxs-lookup"><span data-stu-id="29500-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="29500-106">Viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="29500-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
-- [<span data-ttu-id="29500-107">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="29500-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
-- [<span data-ttu-id="29500-108">Reiðufjár- og bankastjórnun</span><span class="sxs-lookup"><span data-stu-id="29500-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
-- [<span data-ttu-id="29500-109">Kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="29500-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
-- [<span data-ttu-id="29500-110">Eignir</span><span class="sxs-lookup"><span data-stu-id="29500-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
-- [<span data-ttu-id="29500-111">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="29500-111">General ledger</span></span>](general-ledger\general-ledger.md) 
-- [<span data-ttu-id="29500-112">Verkefnastjórnun</span><span class="sxs-lookup"><span data-stu-id="29500-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
-- [<span data-ttu-id="29500-113">Hið opinbera</span><span class="sxs-lookup"><span data-stu-id="29500-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
-- [<span data-ttu-id="29500-114">Fjárhagsáætlun</span><span class="sxs-lookup"><span data-stu-id="29500-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
+<span data-ttu-id="3c7c7-105">Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.</span><span class="sxs-lookup"><span data-stu-id="3c7c7-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="3c7c7-106">Viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="3c7c7-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+- [<span data-ttu-id="3c7c7-107">Viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="3c7c7-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md) 
+- [<span data-ttu-id="3c7c7-108">Reiðufjár- og bankastjórnun</span><span class="sxs-lookup"><span data-stu-id="3c7c7-108">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+- [<span data-ttu-id="3c7c7-109">Kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="3c7c7-109">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="3c7c7-110">Eignir</span><span class="sxs-lookup"><span data-stu-id="3c7c7-110">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+- [<span data-ttu-id="3c7c7-111">Fjárhagur</span><span class="sxs-lookup"><span data-stu-id="3c7c7-111">General ledger</span></span>](general-ledger/general-ledger.md) 
+- [<span data-ttu-id="3c7c7-112">Verkefnastjórnun</span><span class="sxs-lookup"><span data-stu-id="3c7c7-112">Project management</span></span>](project-management/overview-project-management-accounting.md)
+- [<span data-ttu-id="3c7c7-113">Hið opinbera</span><span class="sxs-lookup"><span data-stu-id="3c7c7-113">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+- [<span data-ttu-id="3c7c7-114">Fjárhagsáætlun</span><span class="sxs-lookup"><span data-stu-id="3c7c7-114">Budgeting</span></span>](budgeting/budgeting-overview.md) 
 
 
 
