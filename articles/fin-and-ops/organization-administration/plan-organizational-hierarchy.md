@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Áður en þú setur upp fyrirtæki og stigveldi fyrirtækis í Microsoft Dynamics 365 for Finance and Operations skaltu áætla hvernig fyrirtækjalíkanið þitt verður. Fyrirtækjalíkan hefur töluverð áhrif á innleiðingu á Finance and Operations og í viðskiptaferlum. 
 

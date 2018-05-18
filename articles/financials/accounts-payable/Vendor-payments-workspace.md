@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Vinnusvæði greiðslna lánardrottna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vinnusvæði **Greiðslur Lánardrottins** sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna. Í þessu vinnusvæði er yfirlitið **Mín vinna** og síðan **Greiningar**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar** notar virkni Microsoft Power BI til að birta myndræna framsetningu á lánardrottnagreiðslum.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="close-the-fiscal-year"></a>Loka fjárhagsári
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fara í gegnum árslokaferli sem flytja stöður yfir á nýtt fjárhagsár.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Fyrirtækisstjórnun – heimasíða
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði vísar á efni sem mun hjálpa kraftnotendum og stjórnendum að skilgreina Microsoft Dynamics 365 for Finance and Operations. Þetta efni mun hjálpa þeim að skilgreina kerfið til að vinna vel og skilvirkt fyrir fyrirtæki þitt og rekstur.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Flytja inn og vinna með kreditkortafærslur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kostnaðartengdar kreditkortafærslur er hægt að setja upp þannig að þær séu fluttar inn sjálfkrafa á endurteknum tíma. Einnig er hægt að flytja viðskiptin inn handvirkt eftir þörfum. Kreditkortafærslurnar eru fluttar inn gagnaeiningunni Kreditkortafærslur.
 

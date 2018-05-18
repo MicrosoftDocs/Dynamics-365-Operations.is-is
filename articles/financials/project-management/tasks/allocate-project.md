@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Úthluta fjárhagsáætlun verks eða endurskoðun fjárhagsáætlunar á mörg tímabil
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Þegar búið er að færa inn fjárhagsáætlun eða endurskoðun á fjárhagsáætlun verks og áður en hún er send til samþykktar er hægt að úthluta upphæðum milli tímabila. Ef fjárhagsáætlunin eða endurskoðun fjárhagsáætlunar er hafnað er einnig hægt að úthluta upphæðum áður en hún er send aftur. 
 

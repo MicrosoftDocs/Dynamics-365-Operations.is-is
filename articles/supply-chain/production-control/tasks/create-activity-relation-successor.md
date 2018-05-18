@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Stofna verkþáttarvensl: Næsti þáttur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar. Þessi skráning sýnir hvernig á að stofna verkþáttarvensl.
 

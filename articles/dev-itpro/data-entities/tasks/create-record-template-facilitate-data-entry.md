@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Búa til færslusniðmát til að greiða fyrir skráningu gagna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla. Í þessu ferli er stofnað ný færsla fyrir nýjar fartölvur sem ætti að bæta við þínar eignir. Þetta ferli notar USMF sýnifyrirtæki.
 

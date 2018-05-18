@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Stofna reglur fyrir Fínstillingarráðgjöf
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að stofna nýjar reglur fyrir **Fínstillingarráðgjöf**. Til dæmis getur þú búið til nýja reglu sem tilgreinir hvaða tilfelli af tilboðsbeiðnum (RFQ) hafa tóman titil. Með því að nota titla á málum er auðveldlega hægt að greina þau og leita að þeim. Á einfaldan hátt sýnir þetta dæmi hverju hægt er að ná fram með fínstillingarreglum. 
 

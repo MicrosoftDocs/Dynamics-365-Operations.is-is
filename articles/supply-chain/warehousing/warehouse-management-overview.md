@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Vöruhúsakerfi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Eining vöruhúsakerfis fyrir Dynamics 365 for Finance and Operations gerir þér kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum. Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er. Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.
 

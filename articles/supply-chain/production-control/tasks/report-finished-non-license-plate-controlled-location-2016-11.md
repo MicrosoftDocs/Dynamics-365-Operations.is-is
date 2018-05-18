@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Bóka sem tilbúið fyrir plötustýrða staðsetningu  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verkefnaleiðbeiningar sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki – númeraplötustýrð. Gildandi vinnureglu er skilyrði fyrir þetta verk. Fyrri verkefnaleiðbeiningar sýna uppsetningu vinnureglu. Þessi leiðarvísi fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar.
 

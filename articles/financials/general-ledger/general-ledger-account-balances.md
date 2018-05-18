@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Stöður fjárhagsreikninga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein útskýrir tvær leiðir til að skoða stöðu fjárhagslykils - listasíðu prófjöfnuðar og fjárhagsskýrslur. Greinin einnig fjallar um það hvernig á að uppfæra stöður víddasamstæðna.
 

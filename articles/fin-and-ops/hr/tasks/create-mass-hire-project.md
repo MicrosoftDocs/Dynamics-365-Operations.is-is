@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Stofna fjöldaráðningarverk
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum ferlið fyrir uppsetningu fjöldaráðningarverk. Ráðningaraðila er getur notað fjöldaráðningarverk til að stofna margar stöður auðveldlega og ráða fjöldi starfsmanna í þær stöður. Til að hefja þetta ferli, farið í Mannauður > Ráðning > Fjöldaráðningarverk. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

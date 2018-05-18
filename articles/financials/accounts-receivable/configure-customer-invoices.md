@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini. Þessi gerð reikningur viðskiptavinar er stofnaður á grundvelli sölupöntunar, sem felur í sér pöntunarlínur og vörunúmer. Vörunúmer eru tilgreind og bókuð í fjárhaginn. Færslur undirbókar eru ekki tiltæk fyrir reikning viðskiptavinar fyrir sölupöntun. Frekari upplýsingar má sjá í [Stofna sölupöntunarreikninga](tasks/create-sales-order-invoices.md).
 

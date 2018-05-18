@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-closed-ended-question"></a>Búa til afmarkaða spurningu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að velja úr. Fyrst þarf að stofna svarflokkinn með svör, þá spurningu sem á að nota svarsafnið. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

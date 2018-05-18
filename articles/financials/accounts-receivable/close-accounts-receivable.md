@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Viðskiptakröfum lokað
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í eftirfarandi töflu er listi yfir síður sem styðja viðskiptaferlið Loka viðskiptakröfum
 

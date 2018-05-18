@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Sala og markaðsstarf
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu.
 

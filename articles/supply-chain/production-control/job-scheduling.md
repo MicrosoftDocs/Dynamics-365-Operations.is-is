@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Vinnsluröðun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um Vinnsluröðun sem er ítarlegri mynd röðunar en aðgerðaröðun. Hægt er að nota Vinnsluröðun til að raða einstakra vinnsla eða verslunarpöntunum, og til að stjórna framleiðsluumhverfi
 

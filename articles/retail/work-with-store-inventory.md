@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>Stjórna Birgðir verslunar
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein lýsir gerðum skjala sem hægt er að nota til að stýra birgðum.
 

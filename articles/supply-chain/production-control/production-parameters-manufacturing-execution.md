@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Færibreytur framleiðslu í framkvæmd framleiðslu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um uppsetningu framleiðslufæribreytna í Framkvæmd framleiðslu.
 

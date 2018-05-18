@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Taka frá birgðamagn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi efnisliður útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.
 

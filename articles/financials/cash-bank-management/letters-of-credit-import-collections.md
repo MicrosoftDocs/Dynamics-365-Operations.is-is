@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kreditbréf og innflutningssafn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir almennar upplýsingar Um kreditbréf og innflutningssafn. Báðar tegundir bankaskjala eru oft notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri.
 

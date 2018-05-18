@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>POS endurbætur fyrir raðaðar vörur
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Yfirlit 
 Byggt á stillingum í Retail Headquarters er hægt að flokka vörur sem annaðhvort raðaðar eða óraðaðar. Þegar vörur eru raðaðar er hægt að úthluta einkvæmu númeri  á hverja vöru sem hjálpar til við að rekja ábyrgð, vörur og staðfesta eignarhald. Þó svo að hægt sé að veita raðnúmer fyrir raðaðar vörur í Modern/Cloud Point of Sale (POS) hafa nokkrar endurbætur verið gerðar til að hjálpa gjaldkerum að spara tíma og auka afköst.  

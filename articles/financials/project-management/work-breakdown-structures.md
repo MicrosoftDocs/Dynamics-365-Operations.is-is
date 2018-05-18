@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Sundurliðanir verkþátta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks. WBS hefur þrennan megintilgang:
 

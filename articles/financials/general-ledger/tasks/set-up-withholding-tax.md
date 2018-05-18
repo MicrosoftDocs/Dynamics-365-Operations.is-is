@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Setja upp staðgreiðsluskatt
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Staðgreiðsluskattur er skattur á lánardrottna sem ekki stofnar VSK-færslur. Staðgreiðsluskattur sem er reiknaður á greiðslur lánardrottins er skuld. Þess vegna eru bara efnahagslyklar eða afsláttarlyklar gildir við bókun á staðgreiðsluskatti. Þessi leiðarvísi fyrir verk sýnir hvernig á að setja upp staðgreiðsluskatt.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Búa til og tengja afgreiðslukassa
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna Afgreiðslukassi á sölustað (POS). Þessi aðferð notar sýnifyrirtækið USRT.
 

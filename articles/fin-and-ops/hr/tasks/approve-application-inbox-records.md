@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Samþykkja innhólfsfærslur forrits
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að endurskoða umsóknir sem tekið með í sjálfsafgreiðslusíðum Starfsmanna. Auk þess að endurskoða umsóknir, hægt að staðfesta umsóknina í kassareitnum sem valinn er. Innhólfsfærslur umsóknar tákna starfsumsóknir sem sendar voru til fyrirtækis til athugunar. Eftir að samþykkja færslu, verður stofnum færsla umsækjanda fyrir þann sem sendi inn í umsóknina. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

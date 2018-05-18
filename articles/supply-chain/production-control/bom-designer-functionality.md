@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Virkni uppskriftahönnunar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig þú getur notað hönnuð uppskriftar til að hanna og vinna með uppskriftatréskipulag (BOM). Hægt er smella á uppsetningu til að velja ólíkar skilgreiningar og tilgreina hvaða upplýsingar á að sýna í línum trésins.
 

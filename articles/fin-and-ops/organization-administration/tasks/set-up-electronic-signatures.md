@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Uppsetning rafrænna undirskrifta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notaðu þetta ferli til að setja upp rafrænar undirskriftir. Rafræn undirskrift staðfestir deili á þeim aðila sem er í þann mund að hefja eða samþykkja ferli. Sýnigögn gögn fyrirtækisins til að stofna þetta ferli er DAT.
 

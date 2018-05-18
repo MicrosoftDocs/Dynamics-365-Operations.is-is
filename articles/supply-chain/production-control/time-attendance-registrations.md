@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Skráning tíma og mætinga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tímaskráningar, til dæmis innstimplun, útstimplun, skráningu óbeinna aðgerða og fjarvistarskráningu. Þetta efnisatriði lýsir skráningum, útreikningi þeirra, samþykki og notkun verkflæðis til að bæta skipulag og sjálfvirku samþykki ferlisins að samþykkja vinnuskýrslur. 
 

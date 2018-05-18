@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Gefa út afurð/afurðarsniðmát fyrir lögaðila
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að losa afurð eða afurðarsniðmát í einni eða fleiri lögaðila. Sýnigögn fyrirtækisins til að stofna verkið er USRT og verkið er ætluð fyrir Vörustjóri og Vöruhönnuður.
 

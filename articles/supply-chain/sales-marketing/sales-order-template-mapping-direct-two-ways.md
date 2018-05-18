@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Samstilling sölupöntunar beint úr Sales við Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Búa til og tengja tæki
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa. Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.  Þetta verk notar sýnigögn fyrirtæki USRT . Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í smásölu, og Verslunarstjóri .
 

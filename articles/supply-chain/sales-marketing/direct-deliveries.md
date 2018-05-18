@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Beinar afhendingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um beinar afhendingar. Beinar afhendingar sendingar sem eru sendar beint frá lánardrottni til viðskiptavinar.
 

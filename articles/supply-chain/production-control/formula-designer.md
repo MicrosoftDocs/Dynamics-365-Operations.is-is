@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>Formúluhönnuður
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að nota reikniformúluhönnuð til að greina og viðhalda formúlum í trjáyfirliti.
 

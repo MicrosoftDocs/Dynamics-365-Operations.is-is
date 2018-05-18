@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð.
 

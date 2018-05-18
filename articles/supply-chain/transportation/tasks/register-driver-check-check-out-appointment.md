@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Inn- og útskrá ökumann vegna erindis
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að skrá inn innskráningu ökumanns og útskráningu ökumanns. Þetta er yfirleitt gert af samræmingaraðila flutninga. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF. Áður en byrjað er, verður að vera sett upp mót fyrir hleðslu. Til að stofna fund er hægt að keyra ferlið "Setja upp fund fyrir hleðslu" sem skilyrði.
 

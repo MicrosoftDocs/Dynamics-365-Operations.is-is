@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Virkja útgáfu framleiðsluflæðis
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Áður en hægt er að stofna kanban-vinnslur og aðgerðir má vinna fyrir útgáfu framleiðsluflæðis, ætti að virkja útgáfu. Besta venja er að virkja útgáfu áður en raunverulegur upphafsdagur hennar og tími rennur út. Til að ljúka þessu verki, þarf að hafa framleiðsluflæðisútgáfu sem hefur stöðuna Drög til að virkja útgáfu. 
 

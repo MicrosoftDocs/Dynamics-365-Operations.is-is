@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 [Kostnaðarstjórnun (myndband)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) leyfir notanda að vinna með mat og bókhald á hráefnum, hálfunnum vörum, fullunnum vörum og eignum í vinnslu. Þetta er skilgreiningar-, stjórnunar- og skýrsluferli [Birgðabókhalds](cost-object.md) og [Bókhalds framleiðslu](bom-calculations.md).
 

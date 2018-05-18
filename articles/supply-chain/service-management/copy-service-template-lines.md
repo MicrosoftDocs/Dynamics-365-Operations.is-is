@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Afrita línur þjónustusniðmáta 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hægt er að afrita sniðmátsupplýsingar annað hvort í þjónustusamning eða þjónustupöntun.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>CFO-yfirlit - Power BI efni
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 Þetta efnisatriði lýsir **CFO-yfirliti** fyrir efni Microsoft Power BI. Þetta Power BI efni á við þá sem nota Microsoft Dynamics 365 for Finance and Operations útgáfu 7.2. Styðjast skal við [Fjármálainnsýn](financial-insights.md) ef notuð er útgáfa 7.3 eða eldri.
 

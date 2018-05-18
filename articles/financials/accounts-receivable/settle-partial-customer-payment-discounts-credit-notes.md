@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein fer með þig í gegnum aðstæður þar sem staðgreiðsluafsláttur er tekinn á kreditnótu þegar upphaflegi reikningurinn var einnig með staðgreiðsluafslátt. 
 

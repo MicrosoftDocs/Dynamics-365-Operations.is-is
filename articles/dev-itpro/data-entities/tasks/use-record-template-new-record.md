@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Nota færslusniðmát til að búa til nýja færslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig nota fyrirfram skilgreint færslusniðmát til að stofna ný færsla. Til að ljúka við þetta ferli verður fyrst að ljúka við ferlið „Stofna færslusniðmát til að auðvelda gagnaskráning“.
 

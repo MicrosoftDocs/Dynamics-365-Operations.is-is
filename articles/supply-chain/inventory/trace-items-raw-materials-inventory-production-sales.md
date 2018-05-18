@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
 

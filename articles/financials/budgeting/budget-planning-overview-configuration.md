@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Yfirlit áætlunar fjárhagsáætlunargerðar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta grein kynnir fjárhagsáætlunargerð og inniheldur upplýsingar til að hjálpa við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 

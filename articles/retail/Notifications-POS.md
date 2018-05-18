@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Sýna pöntunartilkynningar á sölustað
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Í nútíma smásöluumhverfi eru verslunarstarfsmönnum úthlutað ýmsum verkum, svo sem að aðstoða viðskiptavini, færa inn færslur, framkvæma birgðatalningu og taka á móti pöntunum í verslun. Biðlari sölustaðarins (POS) gerir starfsmönnum kleift að framkvæma öll þessi verk og mörg önnur í einu forriti. Þar sem þarf að framkvæma ýmis verk yfir daginn, gætu starfsmenn þurft að fá tilkynningu þegar eitthvað krefst athygli þeirra. Tilkynningaramminn á sölustað leyfir smásölum að stilla hlutverkatengdar tilkynningar. Með Microsoft Dynamics 365 for Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltar fyrir aðgerðir á sölustað.
 

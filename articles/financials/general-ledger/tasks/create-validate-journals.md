@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Stofna og sannprófa færslubækur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessar verkefnaleiðbeiningar stofna og staðfesta færslubækur og færslubókarlínur. Þessir verkhlutar nota USMF sýnigögn fyrirtæki.  
 

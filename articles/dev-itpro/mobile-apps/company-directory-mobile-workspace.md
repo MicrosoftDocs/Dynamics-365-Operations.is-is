@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Skráasafn fyrirtækis**. Þetta vinnusvæði gerir notendum kleift að sjá og hafa samband við annað starfsfólk í fyrirtækinu.
 

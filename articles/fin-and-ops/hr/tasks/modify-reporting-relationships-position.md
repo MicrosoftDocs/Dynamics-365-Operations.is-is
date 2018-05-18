@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Breyta skýrslugjafarvenslum fyrir stöðu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að breyta í skýrslugerðarsambandi fyrir starfsmann. Hægt er að nota í skýrslugerðarsambandi fyrir leiðaraðgerð skjöl gegnum verkflæði. Ferlið einnig sýnir hvernig á að úthluta starfsmanns til viðbótar stigveldi. Til dæmis er starfsmaður gæti verið hluti af verkhópur með óformleg skýrslugerðarsambandi við yfirmaður verks. Hægt er að skilgreina viðbótar skýrslugerðarsamband á stöðu til að nota fyrir mismunandi verk- eða fylkisaðstæður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

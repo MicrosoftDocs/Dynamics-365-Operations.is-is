@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Ráða fyrirliggjandi starfsmann í gegnum ráðningarferli
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar starfsmenn í fyrirtækinu þínu. Þetta ferli fer í gegnum skrefin í ráðningu fyrirliggjandi starfsmanns með ráðningaferlinu. Í þessu ferli, hefur þegar verið sett upp ráðningarverk og fyrirliggjandi starfsmanns hefur þegar sent inn umsókn fyrir ráðningarverkið. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

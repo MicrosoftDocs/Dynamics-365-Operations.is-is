@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Skilgreina ráðleggingar um afurðir sem byggir á vélnámi
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli endurnýjar gögnin í einingaverslun sem er notuð af machine-learning kerfinu sem knýr ráðleggingar um vörur, og virkjar svo ráðleggingar vöru á biðlurum Sölustaðar. Þetta ferli notar sýnigögn fyrirtæki USRT.
 

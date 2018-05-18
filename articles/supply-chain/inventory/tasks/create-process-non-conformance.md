@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-process-a-conformance"></a>Stofna og vinna úr samræmi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Notaðu þetta ferli til að framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun. Hægt er að keyra þessa skráningu í sýnifyrirtækinu USMF og nota ráðlögð gildi. Þetta ferli er yfirleitt framkvæmt af starfsmanni á sviði gæða.  Frumskilyrði er að keyra verkskráninguna ‚Skoða gæði vara‘. Til að keyra samþykki á ósamkvæmi verður notandi sem keyrir verkskráninguna að hafa „Heiti“ úthlutað á síðunni Notendur. Til að nota athugasemdir skjals verður notandinn einnig að hafa skjalaafgreiðslu virkjaða í valkostum notanda.
 

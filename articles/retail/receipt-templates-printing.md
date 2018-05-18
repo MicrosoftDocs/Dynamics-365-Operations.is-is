@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Sniðmát kvittana og prentun
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuð skjámyndar sem hægt er að nota til að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
 

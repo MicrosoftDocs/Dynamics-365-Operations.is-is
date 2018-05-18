@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Áætla framleiðslupöntun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum. Í báðum tilvikum þarf að hafa opna framleiðslupöntun með stöðuna Stofnað. Þetta er annað ferli af sjö sem útskýrir líftíma framleiðslupöntunar.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Setja upp auknefni fjárhagslykla
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna auknefni fjárhagslykils sem veitir flýtivísun til að færa inn lykilnúmer. Þetta ferli notar sýnifyrirtækið USMF.
 

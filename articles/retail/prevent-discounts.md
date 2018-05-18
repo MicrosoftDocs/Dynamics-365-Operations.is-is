@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Koma í veg fyrir afslætti á smásöluafurðum
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Það eru ýmsar ástæður fyrir því að smásalar gætu viljað koma í veg fyrir afslætti á sumum vörum, annað hvort frá kynningu eða á meðan sölu á sölustað stendur.
 

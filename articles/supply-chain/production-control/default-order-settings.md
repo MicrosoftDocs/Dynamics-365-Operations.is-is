@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Sjálfgefnar pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða teknar frá eða geymdar í lágmarks, hámarks, margvíslegu og staðalmagni sem verður notað fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg og aðferð lofaðrar pöntunar. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> Leiðréttingar á smásöluverði
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli mun fara í gegnum stofnun verðleiðrétting smásölu. Verðleiðrétting smásölu getur setja söluverði vöru beint eða breyta hennar grunn söluverði eða söluverði verðsamnings. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

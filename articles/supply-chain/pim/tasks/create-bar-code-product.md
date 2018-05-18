@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Stofna strikamerki fyrir afurð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

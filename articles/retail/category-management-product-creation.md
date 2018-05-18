@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Stjórna flokkum smásöluafurða og afurða
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Þetta efnisatriði lýsir betri leið til að stjórna flokkum smásöluafurða og afurða í Microsoft Dynamics 365 for Retail. Viðbæturnar gera vörustjórum kleift að skoða byggingu á eiginleikum afurðar sem er deilt milli stigveldis smásöluafurðar og upplýsinga um losaðar afurðir.
 

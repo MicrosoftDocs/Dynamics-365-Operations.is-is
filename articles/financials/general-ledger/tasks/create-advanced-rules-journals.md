@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Stofna ítarlegar reglur fyrir færslubækur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig stofnaðar eru ítarlegar reglur fyrir færslubækur. Þar á meðal uppsetningu færslubókareftirlits og bókunartakmarkana notanda. Þessi aðferð notar sýnifyrirtækið USMF.
 

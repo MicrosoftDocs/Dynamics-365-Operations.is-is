@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Minnka bókfært virði
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði.
 

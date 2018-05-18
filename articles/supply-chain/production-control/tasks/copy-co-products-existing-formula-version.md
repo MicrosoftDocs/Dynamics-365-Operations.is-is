@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð. Það er skilyrði að minnsta kosti eitt formúluútgáfan tengist aukaafurðir. Gögn fyrirtækisins sýnigögn USP2 er notuð til að stofna þetta ferli.
 

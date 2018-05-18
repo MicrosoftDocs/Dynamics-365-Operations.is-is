@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Setja upp samfelldniáætlanirnar fyrir símaver
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þessi grein lýsir hvernig setja á upp samfelldniáætlanirnar fyrir símaver.
 

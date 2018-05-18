@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Setja upp og búa til afskriftarreglur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Afskriftareglur ákvarða tegund og tíðni afskriftar fyrir eigna.   Þessi skráning notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
 

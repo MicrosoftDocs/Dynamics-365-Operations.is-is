@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>Algengar spurningar um aðsetursbækur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>Hvernig leita ég að tvíteknum skráasafnsfærslum?
 -------------------------------------

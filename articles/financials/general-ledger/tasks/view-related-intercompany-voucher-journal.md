@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Skoða tengt fylgiskjal innan samstæðu úr færslubók
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 glugginn Tengt fylgiskjal sýnir fylgiskjal úr mótfyrirtæki þegar samstæðufærsla úr almennri færslubók er bókuð úr almenn færslubók
 

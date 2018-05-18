@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Skýrsla fyrir framlengingu eigna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Framlenging eigna** skýrslan veitir á auðlesanlegu Microsoft Excel snið nákvæmar upplýsingar um gögn á eignum sem þú þarfnast fyrir tímabil lokunar, fjárhagsskýrslna og skattaskýrslna. Í skýrslunni eru upphafs- og lokastaða á eignum ásamt verðmætaskiptum á tímabilinu og öll ný eignakaup og afskráningar sem áttu sér stað á tímabilinu. Gögn eru tilkynnt um einstaka eignir og einnig er virði tekið saman fyrir eignaflokka og lögaðila.
 

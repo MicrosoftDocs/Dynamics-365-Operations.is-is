@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>Birgðabækur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Í þessu efnisatriði er fjallað um hvernig hægt er að nota birgðabækur til að bóka ýmsar gerðir af efnislegum birgðafærslum.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Stofna samstæðuhópa og fleiri samstæðulykla
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig stofna á flokk samstæðulykla og bæta síðan lykla í flokkinn. Þessi aðferð notar sýnifyrirtækið USMF.
 

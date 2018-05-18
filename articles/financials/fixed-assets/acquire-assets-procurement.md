@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Eignakaup
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
 

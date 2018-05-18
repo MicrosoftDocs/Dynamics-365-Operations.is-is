@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum.
 

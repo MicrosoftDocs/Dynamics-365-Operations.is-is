@@ -29,7 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Forsendur fyrir staðalkostnaði
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði fjallar um grundvallarskref við notkun staðalkostnaðar. Eftirfarandi skref fara eftir starfsemi fyrirtækisins. Til dæmis eru skrefin mismunandi fyrir umhverfi sem er ekki með framleiðslu, framleiðsluumhverfi sem notar ekki leiðir og framleiðsluumhverfi sem notar leiðir. 
 

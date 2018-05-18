@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Mynda og bóka endurtekna reikninga með frjálsum texta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Endurteknir reikningar eru notaðar til að reikningsfæra viðskiptavini reglulega fyrir sömu upphæð. Þessi skráning notar sýnigögn USMF fyrirtækis Skráningin er ætluð fyrir einstaklinginn sem er ábyrgur fyrir stjórnun og vinnslu viðskiptakröfureikninga.
 

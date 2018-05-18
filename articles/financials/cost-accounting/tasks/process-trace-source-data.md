@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>Vinna úr og rekja upprunagögn
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Öll gagnavinnsla er keyrð af verkum. Fyrir hvert verk og gagnaveitu er stofnuð færslubók til að skrá að ferlið hafi verið keyrt, og að færslurnar hafi verið unnar í núgildandi verki. Nota þetta ferli til að setja upp gagnaforða og svo rekja uppruna tilgreindrar kostnaðarfærslu. Þessi skráning notar USP2 sýnigagnafyrirtækið USP2. Áður en þú lýkur þessum verkhluta skaltu vera viss um að spila eftifarandi verkefnaleiðbeiningar „Stofna kostnaðarbókhald fjárhags“, „Skilgreina kostnaðarstýringareiningar“ og „Stjórna gagnaforða fyrir kostnaðarbókhald fjárhags“.
 

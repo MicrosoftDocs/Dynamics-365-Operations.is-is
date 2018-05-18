@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Skrá og fjarlægja fríðindi starfsmanna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig hægt er að skrá einn starfsmann í einu eða fleiri fríðindi, auk marga starfsmenn er hægt að skráður fyrir fríðindum. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

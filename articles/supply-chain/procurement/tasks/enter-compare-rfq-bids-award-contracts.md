@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum kauptilboðið. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Áður en byrjað er, verður að hafa beiðni um TILBOÐ með tveimur línum sem hefur verið send til a.m.k. tveimur lánardrottnum. Hægt er að keyra ferlinu "Stofna beiðni um tilboð" sem forsendu til að stofna þessi. Það Þarf að vera uppsettur skilyrði fyrir stigagjöf áður en þessari ferli er keyrð.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>Reglur vöruhúsavinnu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Reglur vöruhúsavinnu í Microsoft Dynamics 365 for Finance and Operations stjórna hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðslu, samkvæmt gerð vinnupöntunar, birgðastaðsetningu og vöru.
 

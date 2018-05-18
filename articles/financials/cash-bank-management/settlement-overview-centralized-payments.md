@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Yfirlit Uppgjörs fyrir miðstýrð greiðslur.
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þetta eyðir þörfinni á því að færa inn sömu færsluna í mörgum lögaðilum og sparar tíma með því að einfalda greiðslutillagnaferlið, jöfnunarferlið, breytingar á opnum færslum, og breytingar á lokuðum færslum fyrir miðstýrðar greiðslur. 
 

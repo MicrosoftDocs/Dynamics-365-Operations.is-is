@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu.  
 

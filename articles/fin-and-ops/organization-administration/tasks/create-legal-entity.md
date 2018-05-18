@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Stofna lögaðila
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Lögaðili er fyrirtæki sem er auðkennt með skráningu til löggiltra yfirvalda. Lögaðila er hægt að færa inn í samninga og eru þeir krafnir um að útbúa yfirlit sem segir til um frammistöðu þeirra. Notið eftirfarandi aðferðir til þess að stofna lögaðili. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

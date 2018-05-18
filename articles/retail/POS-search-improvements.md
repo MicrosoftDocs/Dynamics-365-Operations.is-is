@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Yfirlit yfir afurðir og viðskiptavinaleit í Point of Sale
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Nútíma Point of Sale (MPOS) og Point of Sale (CPOS) í skýi bjóða upp á auðvelda leitaraðgerð á vörum og viðskiptavinum. Leitarstikan er alltaf til staðar efst í gluggum MPOS og CPOS, þannig að starfsmenn geti leitað að vörum og viðskiptavinum á fljótlegan hátt.
 

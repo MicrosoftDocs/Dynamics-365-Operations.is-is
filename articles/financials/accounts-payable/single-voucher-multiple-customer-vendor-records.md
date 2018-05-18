@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessi aðgerð verður stöðvuð í síðari útgáfum Microsoft Dynamics 365 for Finance and Operations. Þess vegna mælum við með því að nota ekki þessa bókunaraðferð vegna áhrifa bókhalds á vinnslu jöfnunar. 
 

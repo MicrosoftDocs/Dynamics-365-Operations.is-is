@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Keyra Gagnaflutningsverkfæri prófunargagna (beta) fyrir Dynamics AX (AX 2012)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tilgangur Flýti inn útflutning er að láta innflutningur og útflutningur með skrefunum færri.
 

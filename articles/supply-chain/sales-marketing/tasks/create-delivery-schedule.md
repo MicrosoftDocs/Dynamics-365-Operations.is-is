@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Stofna afhendingaráætlun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna afhendingaráætlun fyrir sölupöntun. Afhendingaráætlun er notaður þegar magn í pöntun beðið er um að afhenda í margar sendingar. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 

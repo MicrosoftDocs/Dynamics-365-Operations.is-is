@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="printing-in-finance-and-operations-applications"></a>Prentun í forritum fyrir Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í Microsoft Dynamics 365 for Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengd tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
 

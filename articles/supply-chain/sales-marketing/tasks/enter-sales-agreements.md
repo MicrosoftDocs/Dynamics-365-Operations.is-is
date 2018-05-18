@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="enter-sales-agreements"></a>Færa inn sölusamninga
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig stofna á sölusamningi sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkt upphæð yfir tímanum in skiptum fyrir sérstakan afslátt. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 

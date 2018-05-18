@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Útgjaldastýring
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nota skal Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt er að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins. Einnig er hægt að skilgreina kostnaðarreglur og gera endurgreiðslu ferðaútgjalda sjálfvirka. 
 

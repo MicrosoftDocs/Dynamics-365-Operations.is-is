@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Búa til afurðarsniðmát sem byggir á víddum
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig á að stofna nýjan afurðarsniðmát með skilgreiningartækni sem byggist á víddum. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta er fyrsta ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu.
 

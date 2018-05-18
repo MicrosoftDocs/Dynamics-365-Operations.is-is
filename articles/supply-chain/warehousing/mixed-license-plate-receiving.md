@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Móttaka blandaðrar númeraplötu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Móttaka á blönduðum númeraplötum gerir þér kleift að búa til númeraplötu sem samanstendur af mörgum vörum áður en þú skráir og stofnar frágangsvinnu. 
 

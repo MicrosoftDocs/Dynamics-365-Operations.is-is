@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Stjórnun starfskrafta í vöruhúsi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein lýsir hvernig nota má Microsoft Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi.
 

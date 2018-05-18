@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Fjárhagsvíddir og aðallykla í tungumáli sem fer frá hægri til vinstri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir.
 

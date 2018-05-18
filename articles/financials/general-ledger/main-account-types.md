@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Aðallykilgerðir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessar aðallykilgerðir ákvarða hvernig aðallykill er notaður í bókhaldslyklum.
 

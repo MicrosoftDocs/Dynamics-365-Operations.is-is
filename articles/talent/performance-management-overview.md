@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Frammistöðustjórnunaryfirlit
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.  
 

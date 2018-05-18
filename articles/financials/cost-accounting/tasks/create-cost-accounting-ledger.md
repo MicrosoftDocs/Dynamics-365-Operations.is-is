@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Stofna fjárhag kostnaðarbókhalds
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kostnaðarbókhald fjárhags sýnir skráningareininguna í heild. Það er skilgreint út frá kostnaðareiningarvídd, tölfræðilegri vídd, fjárhagsdagatali og gjaldmiðli. Í því felast efasemdir um hugtakið lögaðilar. Lögaðili og gögn hans geta tengst margvíslegu kostnaðarbókhaldi fjárhags. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 

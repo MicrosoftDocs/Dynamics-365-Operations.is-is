@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>Sameina birgðarunur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu.
 

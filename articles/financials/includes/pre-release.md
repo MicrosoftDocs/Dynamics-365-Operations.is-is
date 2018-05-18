@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Þessi eiginleiki er aðeins í boði fyrir Dynamics 365 for Finance and Operations, útgáfu 8.0, og fyrir valda notendur sem hafa valið að taka þátt í CAAP (Continuous Auto-update Advantage Program) fyrir verkvangsuppfærslur. Nánari upplýsingar um staðlaðar útgáfur og markútgáfur er að finna í [Staðlaðar og markútgáfur verkvangs](../../fin-and-ops/get-started/public-preview-releases.md).
+> Þessi eiginleiki er í boði fyrir Platform update 15 (7.0.4841) eða síðari. Eins og stendur er þessi uppfærsla í boði fyrir ákveðinn markhóp en verður í boði fyrir alla notendur frá og með júní 2018.

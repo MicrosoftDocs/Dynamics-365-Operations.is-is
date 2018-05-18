@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Stofna bankaaðstöðusamninga fyrir ábyrgðaryfirlýsingu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta verk stofnar bankaaðstöðusamning til að vinna ábyrgðarbréf. Þetta verkefni notar USMF-sýnifyrirtækið. 
 

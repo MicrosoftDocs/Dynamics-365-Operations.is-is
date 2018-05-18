@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Tilfangageta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um tilfangagetu. Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Greinin útskýrir hvernig getu og tengdum hugtökum, svo sem Færnistig og forgang, eru notaðar til að velja viðeigandi tilföng fyrir aðgerð.
 

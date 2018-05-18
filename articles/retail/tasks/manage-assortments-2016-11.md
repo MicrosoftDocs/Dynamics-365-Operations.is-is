@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Stjórna úrvali  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna og Birta nýtt vöruúrval og notar sýnifyrirtækið USRT. Þetta ferli fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar, og Dynamics AX verkvang 7.1.  
 

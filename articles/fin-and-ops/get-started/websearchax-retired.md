@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX lokað
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Við þurftum að loka WebSearchAX síðunni. Við mælum með að þú notir vefsvæðaleit í uppáhalds leitarvélinni þinni til að skipta þv´út.  Dæmi: 
 

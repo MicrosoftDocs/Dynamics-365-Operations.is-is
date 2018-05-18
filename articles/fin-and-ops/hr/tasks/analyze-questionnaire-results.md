@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="analyze-questionnaire-results"></a>Greina niðurstöður úr spurningalista
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að nota talnagögn spurningalista til að reikna út meðaltöl, samtölur og prósentur samkvæmt lýðfræðilegum gögn. Til að hefja ferlið, farið í Spurningalist > Skoða og greina niðurstöður > Talnagögn spurningalista. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

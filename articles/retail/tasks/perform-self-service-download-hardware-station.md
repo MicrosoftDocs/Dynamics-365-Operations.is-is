@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Framkvæma sjálfsafgreiðslu til að sækja vélbúnaðarstöð
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að hlaða niður nýja fyrirfram skilgreinda vébúnaðarstöð Sýnigögn fyrirtækisins fyrir þetta ferli er USRT. verður að hafa stofnuð er ný forstilling vélbúnaðarstöðvar og vélbúnaðarstöð áður en verkið er ræst.
 

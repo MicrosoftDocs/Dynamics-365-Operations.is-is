@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Bóka tímabilsbækur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæð, texti og aðrar upplýsingar eru endurteknar í hvert sinn sem er sótt í tímabilsbók. Þegar þú stofnar reglulega tímabilsdagbók tilgreinirðu tímabilið sem líður á milli endurkomu, svo sem daga eða mánuði. Þessar verkefnaleiðbeiningar munu stofna tímabilsbækur með mánaðarlegum endurtekningum.
 

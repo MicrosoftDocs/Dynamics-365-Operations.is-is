@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>Tilföng verks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi efnisatriði gefur upplýsingar um tilföng verka.
 
@@ -107,7 +107,7 @@ Til að setja upp hæfni starfsmanns, er hægt að nota annað hvort listasíðu
 ## <a name="create-a-new-project"></a>Stofna nýtt verk
 1. Á **Verkefnastjórnun** skal velja **Nýtt verk** og færa eftirfarandi gildi inn:
 
-    - **Gerð verks:**Tími og efni
+    - **Gerð verks:** Tími og efni
     - **Verkheiti:** XYZ Uppfærsla þrep 2
     - **Verkflokkur:** TM\_WIP
     - **Auðkenni verksamnings:** 00000002

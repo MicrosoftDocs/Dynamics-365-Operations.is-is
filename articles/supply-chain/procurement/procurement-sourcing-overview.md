@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Yfirlit yfir „Innkaup og aðföng“
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur yfirlit yfir þá virkni sem er fáanleg í Innkaupa- og aðfangakerfi.
 

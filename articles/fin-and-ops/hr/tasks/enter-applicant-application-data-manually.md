@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Færa inn umsækjanda og umsóknargögn handvirkt
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina.   Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Einnig er hægt að uppfæra stöðu starfsumsókna umsækjanda og stofna bréf eða tölvupóst til að eiga samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni.       Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

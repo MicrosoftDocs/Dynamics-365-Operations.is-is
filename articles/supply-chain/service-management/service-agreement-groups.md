@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Þjónustusamningsflokkar 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga. Nota skal þjónustusamningaflokka til að flokka þjónustusamninga eftir, til að mynda, stærð fyrirtækis, landfræðilegri staðsetningu eða gerð atvinnugreinar. Einnig er hægt að nota samningaflokka til að flokka þjónustusamninga eftir því þjónustustigi sem er boðið viðskiptavini.
 

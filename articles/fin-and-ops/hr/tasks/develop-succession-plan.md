@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Þróa áætlun um röðun starfsmanna
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eftir því sem fyrirtækið stækkar og þú ferð að íhuga ráðningu eftirmanna ættirðu að reyna að finna einhvern sem hefur svipaða hæfni við annan einstakling.  Hæfnisskrá gerir kleift að greina fyrirliggjandi starfsmönnum og umsækjendum til að sjá ef þær passi við hæfnisafn vel metins starfsmanns. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

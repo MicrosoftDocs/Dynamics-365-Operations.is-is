@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Stofna innkaupapöntun með afhendingaráætlun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna afhendingaráætlun fyrir innkaupapöntun. Afhendingaráætlun er notaður þegar magn í pöntun eða færslubók er beðið um að sé afhent í margar sendingar. Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins. Þetta ferli myndi yfirleitt gert af innkaupaaðila.
 

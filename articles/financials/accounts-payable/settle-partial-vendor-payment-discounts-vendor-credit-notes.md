@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein fer með þig í gegnum aðstæður þar sem kreditreikningur er jafnaður gagnvart reikningi.
 

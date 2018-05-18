@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Hugtök kostnaðarbókhalds
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessa efnisatriðis skilgreinir lykill afhendingarskilmála sem notaðir eru í kostnaðarbókhalds.
 

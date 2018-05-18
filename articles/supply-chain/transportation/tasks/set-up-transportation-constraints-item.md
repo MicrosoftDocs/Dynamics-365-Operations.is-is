@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Setja upp flutningsskorður fyrir vöru
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli setur upp flutningsstjórnunarskorðu til að koma í veg fyrir að valin vara sé flutt í gegnum valda stöð. Þetta verk myndi venjulega vera framkvæmt af samræmingaraðila flutninga. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn.
 

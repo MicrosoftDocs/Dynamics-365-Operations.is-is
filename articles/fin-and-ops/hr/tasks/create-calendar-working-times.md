@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Stofna dagatal og mynda vinnutíma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þetta ferli mun aðstoða við að skilgreina dagatal vinnu miðað við sniðmát vinnutíma. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 

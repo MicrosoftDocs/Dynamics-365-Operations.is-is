@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Lánamark fyrir viðskiptavininn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Með því að setja lánamark er hægt að tilgreina hámarksfjölda lána til viðskiptavina þinna. Ef lánamark er tilgreint er það kannað sjálfkrafa þegar notandi reynir að uppfæra skjal. Ef farið er yfir lánamark birtist skilaboð til notandans. Í þessari grein er að finna yfirlit yfir hvernig lánamark virkar og svör við eftirfarandi spurningum:
 

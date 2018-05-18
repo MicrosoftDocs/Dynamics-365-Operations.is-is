@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Setja upp greiðsluseðlasnið fyrir verkreikninga
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að aðstoða viðskiptavina og veita þannig greiðslutilvísun fyrir bókun og jöfnun. Hægt er að nota greiðsluseðillinn fyrir reikninga verks eða þjónustusamning , innheimtubréf, vaxtanótur og reikningsyfirlit auk sölureikninga og reikningur með frjálsum texta. Til að vinna greiðsluseðlar, fyrst uppsetning kenninúmer lánardrottins og snið greiðsluseðill í viðhengi.
 

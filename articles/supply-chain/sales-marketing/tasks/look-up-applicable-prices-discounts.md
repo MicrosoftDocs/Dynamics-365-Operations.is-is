@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Fletta upp gildandi verði og afslætti
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi ferli sýnir hvernig á að finna verð og/eða afsláttur fyrir afurð sem er gild fyrir ákveðinn viðskiptavin, án þess að stofna sölupöntun. Ferlið fer í gegnum tiltekið dæmi og þú þarft að fylgja dæminu sem notar USMF sýnigögn fyrirtæki til að velja nauðsynleg gildi.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Fjármálainnsýn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er fellt inn í Microsoft Dynamics 365 Finance and Operations.
 **Fjármálainnsýn** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 

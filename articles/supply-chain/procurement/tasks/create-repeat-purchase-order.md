@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Stofna endurtekna innkaupapöntun
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna endurtaka innkaupapöntunina (PO) með því að afrita línur úr eldri innkaupapöntunarskjalinu í nýja Innkaupapöntun eða fyrirliggjandi Innkaupapantana. Það eru tvær aðferðir til þess að stofna endurtakar pantanir. Hægt er að nota aðgerðirnar sem eru tiltækar á stigi skjalsins úr Aðgerðarúðunni, eða hægt er að nota aðgerðir línuupplýsingar. Aðgerðir á skjalastigi eru aðallega ætlaðar til að stofna nýja innkaupapöntun með því að bæta upplýsingum úr haus og línum úr annarri pöntun, meðan aðgerð línuupplýsinga er aðallega til að bæta línum við fyrirliggjandi pöntun. Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila.
 

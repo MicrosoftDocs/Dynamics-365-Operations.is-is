@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Greiðsluyfirlit lánardrottins
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi leiðarvísir fyrir verk fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 

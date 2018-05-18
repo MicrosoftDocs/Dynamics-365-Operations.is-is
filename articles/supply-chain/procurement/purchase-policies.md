@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Innkaupareglur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um innkaupareglur. Innkauparegla er safn reglna sem stýrir innkaupaferlinu. Innkaupareglur hjálpa innkaupastjórum að innleiða sína innkaupastefnu með því að stofna regluskipulag sem er stilltur saman við stjórnunaráætlun fyrirtækisins fyrir innkaup.
 

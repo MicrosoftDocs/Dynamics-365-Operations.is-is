@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>Yfirlit yfir flutningsstjórnun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
 

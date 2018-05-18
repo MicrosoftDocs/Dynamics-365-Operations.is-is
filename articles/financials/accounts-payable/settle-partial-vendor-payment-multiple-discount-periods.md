@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti. 
 

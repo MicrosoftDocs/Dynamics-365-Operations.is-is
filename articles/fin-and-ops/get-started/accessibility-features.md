@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Aðgengiseiginleikar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun að nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
 

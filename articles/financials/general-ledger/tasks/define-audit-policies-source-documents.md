@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp og keyra reglu endurskoðunarstefnu. Dæmi notar kostnaðarskýrslur með hótel kostnaðargerð. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Endurskoðandahlutverkið inniheldur réttar heimildir til að framkvæma þessi verk.
 

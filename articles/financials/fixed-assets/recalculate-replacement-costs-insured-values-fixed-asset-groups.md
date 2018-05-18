@@ -27,7 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Endurreikna endurnýjunarverð og vátryggt virði fyrir eignaflokka
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein útskýrir ferlið að uppfæra endurnýjunarverð og vátryggt virði fyrir eignir.
 

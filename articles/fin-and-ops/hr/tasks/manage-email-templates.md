@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Stjórna sniðmáti fyrir tölvupóst
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur. Til að gera þetta stofnarðu sniðmát sem inniheldur staðlaðan texta og einhver bókamerki þar sem kerfisgögn ætti að setja inn. Til dæmis er hægt að setja inn aðsetur og tengslaupplýsingar fyrir umsækjanda í Microsoft Word-skjal sem hægt er að nota samskiptum við þann umsækjanda . Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

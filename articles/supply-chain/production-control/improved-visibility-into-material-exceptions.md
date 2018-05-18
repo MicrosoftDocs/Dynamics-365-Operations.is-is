@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>Innsýn í efnisundantekningar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Á vinnusvæðinu **Stjórnun á framleiðslugólfi**, gefa þrír reitir betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir:
 

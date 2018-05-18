@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="calculate-material-consumption"></a>Reikna út efnisnotkunina
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um ýmsa valkosti sem tengjast útreikningi á efnisnotkun. 
 

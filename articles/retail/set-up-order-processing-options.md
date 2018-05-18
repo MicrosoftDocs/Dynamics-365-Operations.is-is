@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Setja upp rás símavers
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Fyrirtæki getur skilgreint margar rásir símavers í Microsoft Dynamics 365 for Retail. Rásir símavers eru stilltar í **Retail** \> **Rásir** \> **Símaver** \> **Öll símaver** og þau eru sérstæk fyrir lögaðila.
 

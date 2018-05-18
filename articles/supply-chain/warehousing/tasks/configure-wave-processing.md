@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Skilgreina bylgjuvinnslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Í þessum leiðbeiningum er lýst hvernig eigi að setja upp skilyrði sem ákvarða hvort bylgjur eru unnar handvirkt eða sjálfvirkt og vinnu sem er mynduð fyrir vöruhús þegar unnið er úr bylgju. Tilgreina skal skilyrði með því að setja upp bylgjusniðmát og fyrirspurnir sem samsvara bylgju með losaðar línur í sölupantanir, framleiðslupantanir og kanban pantanir. Bylgjuvinnslu er notað í vöruhús sem nota aðgerðirnar í vöruhúsakerfiseiningunni og ekki þau sem nota aðgerðirnar í kerfinu birgðastjórnun. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF.
 

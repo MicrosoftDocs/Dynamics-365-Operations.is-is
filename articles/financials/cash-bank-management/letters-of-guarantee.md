@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Ábyrgðarbréf
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um Ábyrgðaryfirlýsingar. Í ábyrgðaryfirlýsingu, banka samþykkir að greiða ákveðna upphæð af peningum til einstaklings ef einn af viðskiptavinum bankans fer í vanskil á greiðslu eða skyldu til þess einstaklings. 
 

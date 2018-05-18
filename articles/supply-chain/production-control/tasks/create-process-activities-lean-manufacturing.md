@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>Stofna vinnsluverkþætti fyrir lean-framleiðslu
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Stofna ferlisverkþátt fyrir lean-framleiðslu. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Endurmat á erlendum gjaldmiðli fyrir viðskiptakröfur og viðskiptaskuldir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum. 
 

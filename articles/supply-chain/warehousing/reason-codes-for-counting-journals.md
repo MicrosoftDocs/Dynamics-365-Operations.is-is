@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Ástæðukóðar fyrir birgðatalningu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ástæðukóðar gera þér kleift að greina niðurstöður talningarferlis og hvers kyns misræmi sem á sér stað í því ferli. Hægt er að tilgreina ástæðuna fyrir því að gera talningu, t.d. brotið bretti eða lagerleiðrétting sem byggist á sýnishornum birgða.
 

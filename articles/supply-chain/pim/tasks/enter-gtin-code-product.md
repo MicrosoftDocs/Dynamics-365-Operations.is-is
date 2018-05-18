@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Færa inn GTIN-kóða fyrir afurð
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins. Í þessu dæmi, verður að færa inn kóða fyrir afurðarnúmer M0001 í sýnigagnafyrirtækinu USMF.
 
