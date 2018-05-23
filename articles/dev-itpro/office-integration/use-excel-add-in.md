@@ -38,9 +38,6 @@ Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum 
 
 Til að fræðast meira um notkun á Excel-innbótinni skaltu horfa á þetta stutta myndband [Stofna Excel-sniðmát fyrir haus- og línumynstur í Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Opna einingagögn í Excel þegar byrjað er í Finance and Operations
 1. Á síðu í Finance and Operations skal velja **Opna í Microsoft Office**.
 
