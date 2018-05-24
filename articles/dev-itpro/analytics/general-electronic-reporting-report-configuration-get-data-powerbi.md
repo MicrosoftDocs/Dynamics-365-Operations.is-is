@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: is-is
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
@@ -132,12 +132,12 @@ Setja upp samþættingu á milli Finance and Operations og Power BI. Nánari upp
 2. Velja skal Power BI-skýrsluna **upplýsingar um Innflutning og útflutning** sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu. 
 3. Smelltu á aðgerðaratriði til að opna Finance and Operations síðuna sem sýnir skýrsluna sem þú hannaðir í Power BI. [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Viðtökustaður rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
+[Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 
-[Yfirlit yfir Rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 
 

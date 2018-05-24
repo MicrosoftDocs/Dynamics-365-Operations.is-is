@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Skilgreining vöruhúss
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 
@@ -112,7 +112,7 @@ Eins og nafn gefur til kynna, eru staðsetningarleiðbeiningar notaðar til að 
 
 Til að gera það auðveldara og fljótlegra að skilgreina aðgerðir sem eru tengd hverri línu fyrir staðsetningarleiðbeiningar, nota einn af skilgreindum aðferðum. Til dæmis er hægt að nota í **Auð staðsetning með engu verki á innleið** stjórnunarstefnu til að leita að lausum staðsetningar í vöruhúsi, eða hægt er að nota **FEFO runufrátekt** stjórnunarstefnu fyrir tiltekt fyrir sölu á útleið.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Skilgreina staðsetningar í vöruhúsakerfisvirkjuðu vöruhúsi (verkefnaleiðbeiningar)](tasks/configure-locations-wms-enabled-warehouse.md)

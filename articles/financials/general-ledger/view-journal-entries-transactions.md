@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Skoða færslubókarfærslur og færslur
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur 
 
@@ -54,9 +54,9 @@ Hægt er að nota eftirfarandi skýrslur fjárhags til að skoða fjárhagsfærs
 -   **Uppruni færslu** – Þessi skýrsla sýnir lykla eftir færslubók og eftir færslu og bókhald og skýrslugjaldmiðil. Hún sýnir einnig hverja línu færslubókarinnar sem var notuð sem mótlykill.
 
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="additional-resources"></a>Frekari upplýsingar
 - [Fjárhagslykilstöður](general-ledger-account-balances.md) 
-- [Skoðun bókhaldsuppruna](..\accounts-payable\accounting-source-explorer.md)
+- [Skoðun bókhaldsuppruna](../accounts-payable/accounting-source-explorer.md)
 - [Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
 - [Skoða færslur í færslubók](tasks/view-journal-entries-or-transactions.md)
 

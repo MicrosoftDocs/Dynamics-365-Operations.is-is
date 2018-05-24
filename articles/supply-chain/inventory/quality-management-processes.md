@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Gæðastjórnunarferli
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar gæðastjórnunarferli fyrir ósamkvæmar afurðir. Það lýsir því hvernig hægt er að nota aðgerðir gæðaeftirlits, hvernig skuli skilgreina og vinna með ósamkvæmni og hvernig skuli meðhöndla leiðréttingar.
 
@@ -88,7 +88,7 @@ Hægt er að velja að tengja eitt ósamræmi við annað eða stofna nýtt ósa
 
 Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með því að nota síðuna **Skjalagerð**. Síðan er hægt að nota síðuna **Skýrsluuppsetning** síðu til að skilgreina hvort athugasemdir fyrir þessa skjalagerð ætti að prenta á leiðréttingarskýrslu. Prentuð leiðréttingingarskýrsla birtir upplýsingar um ósamkvæmnina og tengdar athugasemdir um ósamkvæmni. Skýrslan inniheldur einnig leiðréttingarupplýsingar, eins og gerð greiningar og tengdar athugasemdir um leiðréttingar.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Virkja Gæðastjórnun](enable-quality-management.md)

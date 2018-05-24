@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hlutabréfaveitingu. Þessari grein lýsir þáttum sem þarf að setja upp áður en þú getur notað breytileg laun og ráða starfsmann inn í breytilega greiðsluáætlun.
 
@@ -100,7 +100,7 @@ Hægt er að nota flipann **Hnekkja** gildum fyrir starfsmanninn. Til dæmis, ef
 
 **Hnekkingar fyrirtækis** eru notaðar til að byggja umbun starfsmanns á afköstum einnar eða fleiri deilda. Prósenta sem er úthlutað á milli deilda ætti samanlagt að vera 100 prósent. Einnig er tekið tillit til einstaklingsframmistöðu starfsmanns. Þessar stillingar eru aðeins notaðar ef **árangurstengd Laun** er valið þegar verið er að keyra launavinnsluna.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Launafyrirkomulag](compensation-plans.md)

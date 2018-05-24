@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Stofna launafyrirkomulag fastra launa
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
 
@@ -101,7 +101,7 @@ Nú er hægt að tengja starfsmann við launafyrirkomulag fastra launa. Opna ska
 
 Kerfið°staðfestir launafjárhæðina sem tilgreind er í launafyrirkomulagi af því stigi eða braut°sem er innan lágmarks- og hámarkspunkta fyrir tiltekið launastig starfs viðkomandi starfsmanns. Ef laun eru utan leyfilegra marka,°munu viðvörun°eða villuboð birtast , eftir því vikmarkastigi sem fasta launafyrirkomulagið er stillt á.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Launafyrirkomulag](compensation-plans.md)

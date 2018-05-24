@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Vöruskil sölu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 
@@ -88,7 +88,7 @@ Eftir að lokið hefur verið við skilahaus er hægt að stofna skilalínur me�
 -   Færa handvirkt inn upplýsingar um vöru, magn og aðrar upplýsingar fyrir hverja línu skila.
 -   Stofna skilalínu með því að nota aðgerðina **Finna sölupöntun**. Mælt er með því að nota þessa aðgerð þegar vöruskilapöntun er stofnuð. Aðgerðin **Finna sölupöntun** kemur á tilvísun úr skilalínunni í reikningsfærða sölupöntunarlínu og sækir línuupplýsingar eins og vörunúmer, magn, verð, afslætti og kostnaðargildi úr sölulínunni. Tilvísun hjálpar til við að tryggja að þegar vörunni er skilað til fyrirtækisins sé hún metin á sama einingarkostnaði og hún var seld á. Tilvísun sannprófar einnig að skilapantanir séu ekki stofnaðar fyrir meira magn en það magn sem var selt á reikningnum.
 
-**Athugasemd:** Skilalínur með tilvísun í sölupöntun eru meðhöndlaðar sem leiðréttingar eða bakfærsla á sölu. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhag“ síðar í þessu efnisatriði.
+>[Athugasemd!] Skilalínur með tilvísun í sölupöntun eru meðhöndlaðar sem leiðréttingar eða bakfærsla á sölu. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhag“ síðar í þessu efnisatriði.
 
 ### <a name="charges"></a>Gjöld
 
@@ -193,15 +193,26 @@ Við komuferli eru skil samþætt við almenn ferli fyrir móttöku vöruhúss. 
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Auðkenna afurðir í listanum yfirlit Komu
 
-Síðan **komuyfirlit** inniheldur lista yfir öll í áætlaða innleið komur. **Athugasemd:** Komur úr skilapöntunum verður að vinna aðskilið frá öðrum gerðum af færslum afhendingar. Þegar verið er að auðkenna innleið pakka á síðunni **Komuyfirlit** (til dæmis með því að nota meðfylgjandi RMA-skjal), í Aðgerðarúðunni er smellt á **Upphafskoma** til að stofna og ræsa komubók sem samsvarar komu.
+Síðan **komuyfirlit** inniheldur lista yfir öll í áætlaða innleið komur. 
+>[Athugasemd!] Komur úr skilapöntunum verður að vinna aðskilið frá öðrum gerðum af færslum afhendingar. Þegar verið er að auðkenna innleið pakka á síðunni **Komuyfirlit** (til dæmis með því að nota meðfylgjandi RMA-skjal), í Aðgerðarúðunni er smellt á **Upphafskoma** til að stofna og ræsa komubók sem samsvarar komu.
 
 ### <a name="edit-the-arrival-journal"></a>Breyta færslubók
 
-Með því að stilla á valkostinn **Stjórnun biðgeymslu** á **Já**, er hægt að stofna biðgeymslupöntun fyrir skilalínu. Ef lína hefur verið send í biðgeymslu til skoðunar, er hægt að tilgreina ráðstöfunarkóða. **Athugasemd:** Ef þú stillir valkostinn **stjórnun Biðgeymslu** á **Já** í birgðalíkanaflokki vörunnar verður valkosturinn **Stjórnun biðgeymslu** á síðunni **Færslubókarlínur** fyrir komubókarlínuna merktur og ekki er hægt að breyta honum. Ef línan er send í biðgeymslu, verður að tilgreina viðeigandi biðgeymsluvöruhús. Ef komulína er ekki send til skoðunar, verður starfsmaður komu í vöruhús að tilgreina ráðstöfunarkóða beint í komubókarlínunni og bóka síðan komubókina. Ef ekki á að úthluta sama ráðstöfunarkóða á allt magn skilalínunnar eða ef fullt magn línunnar hefur ekki verið móttekið verður að skipta línunni. Þegar skipt er upp á komubókarlínunni er einnig skipt skilalínunni (**SalesLine**) og stofnað nýtt lotukenni. Hægt er að skipta línunni með því að draga úr magni í komubókarlínunni. Þegar færslubókin er bókuð er ný skilalína stofnuð sem hefur stöðuna **Áætlað** fyrir eftirstandandi magn. Einnig er hægt að skipta línunni með því að smella á **Aðgerðir**&gt;**Skipta**.
+Með því að stilla á valkostinn **Stjórnun biðgeymslu** á **Já**, er hægt að stofna biðgeymslupöntun fyrir skilalínu. Ef lína hefur verið send í biðgeymslu til skoðunar, er hægt að tilgreina ráðstöfunarkóða. 
+ 
+Ef þú stillir valkostinn **stjórnun biðgeymslu** á **Já** í birgðalíkanaflokki vörunnar verður valkosturinn **Stjórnun biðgeymslu** á síðunni **Færslubókarlínur** fyrir komubókarlínuna merktur og ekki er hægt að breyta honum. Ef línan er send í biðgeymslu, verður að tilgreina viðeigandi biðgeymsluvöruhús. 
+
+Ef komulína er ekki send til skoðunar, verður starfsmaður komu í vöruhús að tilgreina ráðstöfunarkóða beint í komubókarlínunni og bóka síðan komubókina. Ef ekki á að úthluta sama ráðstöfunarkóða á allt magn skilalínunnar eða ef fullt magn línunnar hefur ekki verið móttekið verður að skipta línunni. Þegar skipt er upp á komubókarlínunni er einnig skipt skilalínunni (**SalesLine**) og stofnað nýtt lotukenni. Hægt er að skipta línunni með því að draga úr magni í komubókarlínunni. Þegar færslubókin er bókuð er ný skilalína stofnuð sem hefur stöðuna **Áætlað** fyrir eftirstandandi magn. Einnig er hægt að skipta línunni með því að smella á **Aðgerðir**&gt;**Skipta**.
 
 ### <a name="process-the-quarantine-order"></a>Keyra biðgeymslupöntunina
 
-Ef skilaafurð er send til skoðunar í vöruhúsi biðgeymslu er öllum viðbótarferlum lokið í biðgeymslupöntun. Ein biðgeymslupöntun er stofnuð fyrir hverja línu komu sem er send í biðgeymslu. Ráðstöfunarkóði tilgreinir niðurstöðu ferlisins skoðun. Hægt er að skipta biðgeymslupöntuninni, rétt eins og hægt er að skipta komubók. Ef þú skiptir biðgeymslupöntuninni veldur það samsvarandi skiptum skilalínunnar. Eftir að ráðstöfunarkóðinn hefur verið færður inn skal ljúka biðgeymslupöntuninni með því að nota annaðhvort aðgerðina **Lok** eða aðgerðina **Bóka sem tilbúið**. Ef valið er **Bóka sem tilbúið**, stofnast ný koma í merkt vöruhús. Síðan er hægt að vinna þessa komustjórn með því að nota síðuna **Komuyfirlit**. Ef komn á uppruna í biðgeymslupöntun er hægt að breyta ráðstöfunarkóða sem er tengdur við skoðun. Ef biðgeymslupöntun er lokið með því að nota aðgerðina **Lok** er lotan sjálfkrafa skráð. Stundum gæti vara verið send aftur úr biðgeymslu í Sendingar- og móttökudeild. Til dæmis gæti eftirlitsaðili biðgeymslu hugsanlega ekki vitað hvar á að geyma vöru í birgðum. Í þessu tilfelli verður að uppfæra samsvarandi fylgiseðil til að vera rétt skráður og virka með ráðstöfunarkóða sem tilgreindur er vegna biðgeymslunnar. Hægt er að senda staðfestingu á innhreyfingu til viðskiptavinar þegar skilalína er skráð. Skýrslan **Skilastaðfesting** svipar til skilapöntunarskjalsins. Skýrslan **Skilastaðfesting** er ekki skráð í bók eða skráð annars staðar í kerfið og hún er ekki nauðsynlegt skref í ferli skilapöntunar.
+Ef skilaafurð er send til skoðunar í vöruhúsi biðgeymslu er öllum viðbótarferlum lokið í biðgeymslupöntun. Ein biðgeymslupöntun er stofnuð fyrir hverja línu komu sem er send í biðgeymslu. Ráðstöfunarkóði tilgreinir niðurstöðu ferlisins skoðun. 
+
+Hægt er að skipta biðgeymslupöntuninni, rétt eins og hægt er að skipta komubók. Ef þú skiptir biðgeymslupöntuninni veldur það samsvarandi skiptum skilalínunnar. Eftir að ráðstöfunarkóðinn hefur verið færður inn skal ljúka biðgeymslupöntuninni með því að nota annaðhvort aðgerðina **Lok** eða aðgerðina **Bóka sem tilbúið**. Ef valið er **Bóka sem tilbúið**, stofnast ný koma í merkt vöruhús. Síðan er hægt að vinna þessa komustjórn með því að nota síðuna **Komuyfirlit**. 
+
+Ef komn á uppruna í biðgeymslupöntun er hægt að breyta ráðstöfunarkóða sem er tengdur við skoðun. Ef biðgeymslupöntun er lokið með því að nota aðgerðina **Lok** er lotan sjálfkrafa skráð. Stundum gæti vara verið send aftur úr biðgeymslu í Sendingar- og móttökudeild. Til dæmis gæti eftirlitsaðili biðgeymslu hugsanlega ekki vitað hvar á að geyma vöru í birgðum. Í þessu tilfelli verður að uppfæra samsvarandi fylgiseðil til að vera rétt skráður og virka með ráðstöfunarkóða sem tilgreindur er vegna biðgeymslunnar. 
+
+Hægt er að senda staðfestingu á innhreyfingu til viðskiptavinar þegar skilalína er skráð. Skýrslan **Skilastaðfesting** svipar til skilapöntunarskjalsins. Skýrslan **Skilastaðfesting** er ekki skráð í bók eða skráð annars staðar í kerfið og hún er ekki nauðsynlegt skref í ferli skilapöntunar.
 
 ## <a name="replace-a-product"></a>Skipta um afurð
 Til eru tvær aðferðir til þess að stýra vöruskiptum:
@@ -223,7 +234,9 @@ Ef þú sendir skiptivöru til viðskiptavinarins og nota ráðstöfunaraðgerð
 
 ![Ferli skiptivöru þegar ráðstöfunarkóði er notaður](./media/SalesReturn05.png)
 
-Skiptivara verður afhent með því að nota sjálfstæða sölupöntun, sölupöntun skiptivöru. Þessi sölupöntun er stofnuð þegar fylgiseðillinn fyrir skilapöntun er myndaður. Pöntunarhaus notar upplýsingar frá viðskiptavininum sem vísað er í haus vöruskilapöntunarinnar. Línuupplýsingum er safnað úr þeim upplýsingum sem færðar eru inn á síðunni **Skiptivara**. Síðan **Skiptivara** verður að vera útfyllt fyrir línur sem hafa ráðstöfunaraðgerðirnar sem byrja á orðinu "skipta út." Hins vegar er hvorki magn eða kenni skiptivöru villuleitað eða takmarkað. Þessi hegðun heimilar fyrir þau tilvik þar sem viðskiptavinurinn vill sömu vöru en í annað afbrigði eða stærð, og einnig tilfellum þar sem viðskiptavinurinn vill allt aðra vöru. Sjálfgefið er að vara er færð inn á síðunni **Skiptivara**. Hins vegar er hægt að velja aðra vöru, svo lengi sem aðgerðin hefur verið sett upp. **Athugasemd:** Hægt er að breyta og eyða skiptipöntuninni sölu eftir að hún er stofnuð.
+Skiptivara verður afhent með því að nota sjálfstæða sölupöntun, sölupöntun skiptivöru. Þessi sölupöntun er stofnuð þegar fylgiseðillinn fyrir skilapöntun er myndaður. Pöntunarhaus notar upplýsingar frá viðskiptavininum sem vísað er í haus vöruskilapöntunarinnar. Línuupplýsingum er safnað úr þeim upplýsingum sem færðar eru inn á síðunni **Skiptivara**. Síðan **Skiptivara** verður að vera útfyllt fyrir línur sem hafa ráðstöfunaraðgerðirnar sem byrja á orðinu "skipta út." Hins vegar er hvorki magn eða kenni skiptivöru villuleitað eða takmarkað. Þessi hegðun heimilar fyrir þau tilvik þar sem viðskiptavinurinn vill sömu vöru en í annað afbrigði eða stærð, og einnig tilfellum þar sem viðskiptavinurinn vill allt aðra vöru. Sjálfgefið er að vara er færð inn á síðunni **Skiptivara**. Hins vegar er hægt að velja aðra vöru, svo lengi sem aðgerðin hefur verið sett upp. 
+
+>[Athugasemd!] Hægt er að breyta og eyða skiptipöntuninni sölu eftir að hún er stofnuð.
 
 ## <a name="generate-a-packing-slip"></a>Mynda fylgiseðil
 Áður en hægt er að taka á móti skilavöru í birgðum, þarf að uppfæra fylgiseðil fyrir pöntunina sem hún tilheyrir. Á sama hátt og uppfærsluferli reiknings er uppfærsla fjárhagsfærslunnar, er uppfærsluferli fylgiseðils efnisleg uppfærsla birgðafærslunnar. Með öðrum orðum, þetta ferli sendir breytingarnar í birgðum. Þegar um er að ræða skil, eru skrefin sem hafa verið úthlutuð fyrir ráðstöfunaraðgerð innleidd á meðan á fylgiseðilsuppfærslu stendur. Þegar fylgiseðillinn er myndaður á eftirfarandi tilvik sér stað:
@@ -233,14 +246,19 @@ Skiptivara verður afhent með því að nota sjálfstæða sölupöntun, sölup
 -   Vörur sem eru merktar með ráðstöfunaraðgerðinni **Skil til viðskiptavinar** eru mótteknar og afhentar viðskiptavininum. Þessar vörur hafa engin nettóáhrif á birgðir.
 -   Sölupöntun fyrir skiptivöru hefur verið stofnuð. Þessi sölupöntun byggist á upplýsingum um síðuna **Skiptivara**.
 
-Hægt er að mynda fylgiseðil einungis fyrir línur með skilastöðuna **Skráðar**, og einungis fyrir allt magn skilalínunnar. Ef nokkrar línur í skilapöntuninni hafa stöðuna **Skráð** er hægt að mynda fylgiseðil fyrir hlutmengi lína með því að eyða öðrum línum af síðunni **Bóka fylgiseðil**. Hlutaafhendingar eru skilgreindar í skilapöntunarlínum, ekki vöruskilasendingum. Þess vegna, ef tekið er á móti öllu magninu sem fram kemur í einni skilapöntunarlínu en engu úr öðrum línum í skilapöntuninni, er afhendingin ekki hlutaafhending. Hins vegar, ef skilapöntunarlína segir fyrir um tíu einingar af tiltekinni vöru sem á að skila, en einungis er tekið á móti fjórum, er um að ræða hlutaafhendingu. Ef allar áætlaðar skilavörur hafa ekki borist er hægt að setja sendinguna til hliðar og bíða þar til að afgangurinn af skiluðu magni berst. Einnig er hægt að skrá og bóka hluta af magninu. Hluti ferlisins við bókun fylgiseðla er að hægt er að tengja tilvísunarnúmer fylgiseðils úr sendingarskjölum viðskiptavinar við pöntunarlínur. Þessi tenging er valfrjáls og er aðeins til tilvísunar. Hún stofnar ekki neinar færslubókarupplýsingar. Almennt séð er hægt að sleppa umbúðaeiningum fylgiseðils og fara beint í reikningsfærslu. Í þessu tilfelli er skrefum sem myndu hafa verið framkvæmd við myndun fylgiseðils lokið við reikningsfærslu.
+Hægt er að mynda fylgiseðil einungis fyrir línur með skilastöðuna **Skráðar**, og einungis fyrir allt magn skilalínunnar. Ef nokkrar línur í skilapöntuninni hafa stöðuna **Skráð** er hægt að mynda fylgiseðil fyrir hlutmengi lína með því að eyða öðrum línum af síðunni **Bóka fylgiseðil**. 
+
+Hlutaafhendingar eru skilgreindar í skilapöntunarlínum, ekki vöruskilasendingum. Þess vegna, ef tekið er á móti öllu magninu sem fram kemur í einni skilapöntunarlínu en engu úr öðrum línum í skilapöntuninni, er afhendingin ekki hlutaafhending. Hins vegar, ef skilapöntunarlína segir fyrir um tíu einingar af tiltekinni vöru sem á að skila, en einungis er tekið á móti fjórum, er um að ræða hlutaafhendingu. Ef allar áætlaðar skilavörur hafa ekki borist er hægt að setja sendinguna til hliðar og bíða þar til að afgangurinn af skiluðu magni berst. Einnig er hægt að skrá og bóka hluta af magninu. Hluti ferlisins við bókun fylgiseðla er að hægt er að tengja tilvísunarnúmer fylgiseðils úr sendingarskjölum viðskiptavinar við pöntunarlínur. Þessi tenging er valfrjáls og er aðeins til tilvísunar. Hún stofnar ekki neinar færslubókarupplýsingar. 
+
+Almennt séð er hægt að sleppa umbúðaeiningum fylgiseðils og fara beint í reikningsfærslu. Í þessu tilfelli er skrefum sem myndu hafa verið framkvæmd við myndun fylgiseðils lokið við reikningsfærslu.
 
 ## <a name="generate-an-invoice"></a>Mynda reikning
 Þó að síðan **Skilapöntun** innihaldi upplýsingar og aðgerðir sem þarf til að meðhöndla sérstaka vörustjórnunarþætti skilapöntunarinnar, verður að nota síðuna **Sölupöntun** til að ljúka reikningsfærslunni. Fyrirtækið getur síðan reikningsfært skilapantanir og sölupantanir á sama tíma og sami einstaklingur getur svo lokið reikningsfærslunni, eftir þörfum. Til að skoða skilapöntun á síðunni **Sölupöntun** er smellt á tengilinn fyrir sölupöntunarnúmer til að opna tengda sölupöntun. Einnig er hægt að finna skilapöntun á síðunni **Allar sölupantanir**. Skilapantanir eru sölupantanir sem hafa pöntun af gerðinni **Skilapöntun**.
 
 ### <a name="credit-correction"></a>Kreditleiðrétting
 
-Hluti af reikningsfærslunni er að staðfesta að gjöld séu rétt. Til að orsaka að bókanir í fjárhag verði leiðréttingar (Storno) verða að íhuga að nota valkostinn **Kreditleiðrétting** á flipanum **Annað** á síðunni **Bókun reiknings** þegar reikningur/kreditnóta er bókuð. **Athugasemd:** Sjálfgefið er að valkosturinn **Kreditleiðrétting** sé virkjaður ef valkosturinn **Kreditnóta sem leiðrétting** á síðunni **Færibreytur viðskiptakrafna** hefur verið gerður virkur. Þó er mælt með að bóka ekki með Storno.
+Hluti af reikningsfærslunni er að staðfesta að gjöld séu rétt. Til að orsaka að bókanir í fjárhag verði leiðréttingar (Storno) verða að íhuga að nota valkostinn **Kreditleiðrétting** á flipanum **Annað** á síðunni **Bókun reiknings** þegar reikningur/kreditnóta er bókuð. 
+>[Athugasemd!] Sjálfgefni **Kredit leiðrétting** valkosturinn er virkjaður ef á **kreditnótu sem leiðréttingu** valkostinn á í **Færibreytur viðskiptakrafna** síðu hefur verið gerður virkur. Þó er mælt með að bóka ekki með Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Stofna samstæðuskilapantanir
 Hægt er að ljúka skilapöntunum milli tveggja fyrirtækja innan fyrirtækisins. Eftirfarandi aðstæðuar eru studdar:
@@ -294,7 +312,7 @@ Skilapöntun vísar ekki í reikning viðskiptavinar Skiluð vara er kreditfær�
 
 ![Skilapöntun vísar ekki í reikning viðskiptavinar](./media/SalesReturn09.png)  
 
-**Athugasemd:** Aðalsniðmát vöruverðs er notað sem sjálfgefið gildi fyrir færibreytuna **Skilakostnaðarverð**. Sjálfgefin verð er frábrugðið kostnaðarverði við úthreyfingar birgða. Þess vegna eru áhrifin þau að stofnast hefur til taps 3. Þar að auki er skilapöntun ekki með afslátt sem var veittur viðskiptavini í sölupöntuninni. Þess vegna á of mikið kredit á sér stað.
+>[Athugasemd!] Aðalsniðmát vöruverðs er notað sem sjálfgefið gildi fyrir færibreytuna **Skilakostnaðarverð**. Sjálfgefin verð er frábrugðið kostnaðarverði við úthreyfingar birgða. Þess vegna eru áhrifin þau að stofnast hefur til taps 3. Þar að auki er skilapöntun ekki með afslátt sem var veittur viðskiptavini í sölupöntuninni. Þess vegna á of mikið kredit á sér stað.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Dæmi 2: Kreditleiðrétting er valin fyrir skilapöntun
 
@@ -302,7 +320,7 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 ![Skilapöntun þar sem kreditleiðrétting er valin ](./media/SalesReturn10.png)  
 
-**Athugasemd:** Bókanir í fjárhag eru færðar inn sem neikvæðar leiðréttingar.
+>[Athugasemd!] Bókanir í fjárhag eru færðar inn sem neikvæðar leiðréttingar.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Dæmi 3: Skilapöntunarlínan eru stofnuð með aðgerðinni Finna sölupöntun
 
@@ -310,7 +328,7 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 ![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun ](./media/SalesReturn11.png)  
 
-**Athugasemd:** **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
+>[Athugasemd!] **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
 
 
 

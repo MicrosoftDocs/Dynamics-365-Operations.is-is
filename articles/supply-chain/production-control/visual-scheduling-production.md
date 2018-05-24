@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Gantt-rit fyrir vinnsluröðun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gantt-línuritið er hannað til að gera framleiðsluskipuleggjendum kleift að stjórna og besta framleiðsluáætlun. Gantt-línuritið gerir aðgerðaflæðið gegnsætt og auðveldar framleiðsluröðun meðan hún tekur með í reikninginn skort á efni eða tilföngum. Þetta hjálpar skipuleggjendum að nota tiltæk tilföng á sem bestan hátt, lágmarka verk í vinnslu og bæta afköst tíma fyrir framleiðslupantanir.
 
@@ -156,7 +156,7 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 |           <strong>Vinnslur til að ljúka</strong> (Listann <strong>Framleiðslu hæð stjórnun</strong> vinnusvæði)            |                                                                                               Vinnusvæðið <strong>Vinnslur á listann í gólf stjórnun</strong> sýnir störf framleiðslu- og rununúmer pantana sem eru í gangi í völdu tilföng fyrir það. Á valmyndatriðinu <strong>gantt-línuritið</strong> er hægt að opna gantt-ritinu, þar sem allar vinnslur sem eru valin í listanum eru settar í línuritinu.                                                                                               |
 | <strong>Framleiðslupantanir til að losa</strong> (Opnuð á <strong>Framleiðslu hæð stjórnun</strong> vinnusvæði) |                                                                                                                                         Síðan Framleiðslupantanir til að losa er opnuð á vinnusvæðinu <strong>Framleiðslu hæð stjórnun</strong>. Þessi síða sýnir áætlaðar framleiðslu- og runupantanir sem bíða útgáfu. Á þessari síðu er hægt að opna gantt-rit fyrir valdar framleiðslupantanir.                                                                                                                                          |
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="additional-resources"></a>Frekari upplýsingar  
 [Sjónrænar áætlanir með Gantt-línuritum fyrir framleiðslu og runupantanir (myndskeið)](https://youtu.be/BtbuShkGj4I)
 
 [Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

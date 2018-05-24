@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Setja upp Retail POS útlitshönnuður
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Nota má eins-smells hönnuð til að hanna mismunandi Retail Modern POS (MPOS) og Cloud POS útlit, í hamnum lárétt eða lóðrétt, fyrir verslanir, afreiðslukassa, gjaldkerar og stjórnendur.
 
@@ -51,7 +51,7 @@ Grafískri hönnun Retail POS viðmótsins er stýrt af Útliti skúffu. Útlit 
 
 **Þekkt vandamál:** hönnuðurinn vinnur ekki rétt í Google Chrome og Mozilla Firefox vöfrum. Við höfum unnið til að laga þetta vandamál.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Skilgreina, sækja, setja upp og virkja Retail Modern POS](retail-modern-pos-device-activation.md)

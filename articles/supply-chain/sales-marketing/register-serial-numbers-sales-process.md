@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Skráning raðnúmera í söluferli
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
 Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Við þessar aðstæður leyfir Microsoft Dynamics 365 for Finance and Operations þér að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
-Eru einhver frumskilyrði?
-----------------------------
 
 Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi á sér svo stað í Microsoft Dynamics 365 for Finance and Operations:
 -   Á flýtiflipanum **Raðnúmer** er valkosturinn **Raðnúmerastýring** valinn. Ef þessi gátreitur er valinn þarf að skrá eitt raðnúmer fyrir hverja vöru á fylgiseðli eða reikningi.
@@ -71,8 +69,8 @@ Nei, þú getur ekki skoðað raðnúmerað vörur sem þú hefur á lager þar 
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Get ég skrá raðnúmer fyrir atriði fyrir þyngd afurðar?
 Nei, í söluferli getur þú ekki skráð raðnúmer fyrir atriði fyrir þyngd afurðar. Þar að auki, ef afurð er sett upp eins og atriði fyrir þyngd afurðar, er ekki hægt úthluta afuðinni til rakningarvíddarhópsins sem er settur upp fyrir notkun á raðnúmerum eingöngu á meðan söluferli stendur.
-Get ég skráð raðnúmer í Smásala POS?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Get ég skráð raðnúmer í Smásala POS?
 
 Já, Smásala (POS) mun biðja notanda að færa inn raðnúmer þegar notandinn selur vöru sem er úthlutað til rakningarvíddarhópsins sem er settur upp fyrir notkun á raðnúmerum eingöngu á meðan söluferli stendur.
 

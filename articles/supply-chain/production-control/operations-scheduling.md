@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 
@@ -75,7 +75,7 @@ Aðgerðaröðun keyrir líka aðaláætlanagerð, sem ákvarðar hráefnisþarf
 ## <a name="finite-materials"></a>takmarkað efni
 Ef verið er að vinna með endanlegt magn, er áætlun einnig háð tiltækileika hráefna sem eru nauðsynleg við framleiðsluna. Ef ekki eru til nægilega margir íhlutir fyrir framleiðsluna, má fresta framleiðslunni. Hægt er að byggja röðun á efnisnotkun með því að tilgreina efni sem verður að vera tiltækt fyrir framleiðslu. Þegar þú fínstilla bæði forðagetu og tiltækt hráefni er framleiðslan reiknuð samkvæmt þessar takmarkanir. Ekki er hægt að raða framleiðslupöntun fyrr en afköst og hráefni eru tiltæk á sama tíma og í nauðsynlegu magni.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Valkostir aðgerðaröðunar](operation-scheduling-options.md)

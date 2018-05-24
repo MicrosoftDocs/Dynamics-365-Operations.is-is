@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d667f2abbc7bd00d46f40178b9f6e9d21c6f79f3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-catalogs"></a>Innkaupavörulistar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein lýsir, á hærra stigi, hvernig sérfræðingar í innkaupum geta sett upp og viðhaldið innkaupavörulistum. Innkaupavörulistar skilgreina vörur og þjónustu sem starfsmenn fyrirtækja geta pantað fyrir notkun innan fyrirtækisins.
 
@@ -70,7 +70,7 @@ Uppfærslur eru birt annað hvort sjálfvirkt eða handvirkt, eftir því hvað 
 -   **Bæði** – Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **Fasta**, það verður að uppfæra handvirkt þegar þær eru uppfærðar. Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **gagnvirkt**, er hann sjálfkrafa uppfærður hvenær sem honum er breytt.
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Setja upp tegundastigveldi innkaupa (verkefnaleiðbeiningar)](tasks/set-up-procurement-category-hierarchy.md)

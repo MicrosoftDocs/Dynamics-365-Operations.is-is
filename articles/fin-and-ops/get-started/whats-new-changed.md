@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Nýjungar eða breytingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu Dynamics 365 for Operations](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Útgáfur forrits
 
@@ -129,12 +129,12 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 15 fyrir verkvang</td>
 <td>7.0.4839</td>
-<td>Mars 2018 (Þetta er útgáfa sem er aðeins í boði fyrir notendur sem hafa valið að taka þátt í CAAP (Continuous Auto-update Advantage Program). Verkvangsuppfærsla 15 er einnig fáanleg í Dynamics 365 for Finance and Operations útgáfa 8.0.)</td>
+<td>Verkvangsuppfærsla 15 er markútgáfa, sem þýðir að hún verður í boði fyrir alla notendur í júní 2018.</td>
 <td><a href="whats-new-platform-update-15.md">Hvað er nýtt eða breytt í Dynamics 365 for Finance and Operations, Enterprise edition, verkvangsuppfærslu 15 (mars 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 fyrir verkvang</td>
-<td>7.0.4709</td>
+<td>7.0.4841</td>
 <td>Nóvember 2017</td>
 <td><a href="whats-new-platform-update-12.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition Verkvangsuppfærsla 12 (nóvember 2017)</a></td>
 <tbody><tr class="odd">

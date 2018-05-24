@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Yfirlit yfir framleiðsluferli
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins. 
 
@@ -78,10 +78,10 @@ Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar ge
 12. **Tímabilslokuin** – Sumar kostnaðarbókhaldsreglur, eins og reglubundið meðaltal, til baka kostnaðarútreikningur, FIFO eða LIFO krefjast reglubundnar aðgerðir til að loka birgðum eða fjárhagstímabil. Yfirleitt, reynir kerfið að skrá allt efni og tilfanganotkun og einnig leiðréttingar á birgðum og rýrnun, áður en tímabili er lokað. Þessi skýrsla er yfirleitt gerð með því að nota birgðahreyfingabækur eða færslubækur birgðaleiðréttinga. Markmiðið er að meta fjárhagslega frammistöðu rekstrareininga á hverju tímabili. Í sumum tilfellum, þegar langtíma framleiðslupantanir eru notaðar sem ná yfir fjárhagsskýrslutímabil, eru framleiðslubækur notaðar til að tilkynna framvindu framleiðslu og tilfanganotkun í lok tímabils.
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Framleiðslusvörun](production-feedback.md)
+[Endurgjöf um framleiðslu](production-feedback.md)
 
 [Afbrigðalíkön afurða](../pim/product-configuration-models.md)
 

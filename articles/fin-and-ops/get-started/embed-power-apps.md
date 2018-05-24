@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 Til að fræðast meira um innfellingu PowerApps skal horfa á stutt myndband [Hvernig á að innleiða PowerApps í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Bætir við innfelldu PowerApp á síðu
 ### <a name="overview"></a>Yfirlit
 Áður en PowerApp er fellt inn í biðlara Finance and Operations þarftu fyrst að finna eða byggja upp PowerApp með viðkomandi myndefni og/eða virkni. Við munum ekki lýsa í smáatriðum ferlinu um hvernig skuli byggja upp PowerApp hér. Efnisatriðið [Inngangur að PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started) er góður upphafsstaður ef þú ert nýr í PowerApps.

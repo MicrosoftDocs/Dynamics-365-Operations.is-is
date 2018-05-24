@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Tímamörk skráningar pantana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um lokadag fyrir skráningu pantana. Lokadagur fyrir skráningu pantana er sá lokatími sem sker úr um það hvort pöntun viðskiptavinar er meðhöndluð (og uppfyllt) eins og hún sé móttekin á núverandi degi eða daginn eftir.
 
@@ -103,7 +103,7 @@ Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur um
 
 **Athugasemd** Ef leiðrétting fyrir birtusparnaðartíma er virk, eru lokadagur fyrir skráningu pantana leiðréttir eftir því.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Afhendingaráætlanir](delivery-schedules.md)

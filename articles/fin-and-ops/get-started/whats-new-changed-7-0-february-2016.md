@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Microsoft Dynamics AX 7.0. Útgáfan inniheldur bæði eiginleika verkvangs og forrits og var gefið út í Febrúar 2016 .
 
@@ -536,7 +536,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 </tr>
 <tr class="odd">
 <td>(ESB) Gefa skýrslu um magn fyrir viðbótareiningar fyrir Intrastat með því að nota stillingu fyrir  umreikning eininga.</td>
-<td>Intrastat-vörukóða hefur textasvæði til að auðkenna viðbótareiningar, og korti fyrir** Afurð** hefur svæði til að auðkenna magn viðbótareininga í kílóum.</td>
+<td>Intrastat-vörukóða hefur textasvæði til að auðkenna viðbótareiningar, og korti fyrir <strong>Afurð</strong> hefur svæði til að auðkenna magn viðbótareininga í kílóum.</td>
 <td>Viðbótareiningar fyrir intrastat-vörukóða er valið úr lista yfir Einingar. Magn viðbótareininga er reiknað í gegnum stillingar fyrir umreikningur eininga.</td>
 <td>Þetta sameinar nálgunin fyrir umreikning úr færslueiningum í viðbótareiningar.</td>
 </tr>
@@ -569,7 +569,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Hvað hægt er að gera?**                                                                                                       | **Dynamics AX 2012**                                                                                                                                                                                                                                                                          | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                               | **Hví er þetta mikilvægt?**                                                                                                                              |
-| vara notandann við ef sölupöntun eða framleiðslupöntun er ekki tilbúin til afhendingar fyrir áætlaða dagsetningu.                         | Viðvaranir sem eru stofnaðar af aðaláætlanagerð kallast *framvirk skilaboð*. *Framvirk* er samningur milli tveggja aðila um að kaupa eða selja eign fyrir verð sem er umsamin í dag (í *framvirk verð*), jafnvel þótt afhendingu og greiðslan eiga sér stað á síðari tímapunkti (í *afhendingardagsetningu*. | *Framvirk skilaboð* og *framvirkar dagsetningar* hafa verið endurnefndar *reiknaðar seinkanir* og *frestaðar dagsetningar, *í þessari röð.                                                                                                                                                                                                                                                   | Orðalisti sem er notað í AX 2012 var ónákvæmur og leiddi til rangra þýðinga.                                                               |
+| vara notandann við ef sölupöntun eða framleiðslupöntun er ekki tilbúin til afhendingar fyrir áætlaða dagsetningu.                         | Viðvaranir sem eru stofnaðar af aðaláætlanagerð kallast *framvirk skilaboð*. *Framvirkur* er samningur milli tveggja aðila um að kaupa eða selja eign fyrir verð sem er umsamin í dag (í *framvirk verð*), jafnvel þótt afhendingu og greiðslan eiga sér stað á síðari tímapunkti (í *afhendingardagsetning*). | *Framvirk skilaboð* og *framvirkar dagsetningar* hafa verið endurnefndar *reiknaðar seinkanir* og *frestaðar dagsetningar*, í þessari röð.                                                                                                                                                                                                                                                   | Orðalisti sem er notað í AX 2012 var ónákvæmur og leiddi til rangra þýðinga.                                                               |
 | Fá skjóta innsýn í stöðu keyrslu aðaláætlanagerðar, áríðandi áætlaðar pantanir og áætlaðar pantanir sem valda seinkanir. | Upplýsingar eru tiltækar, en hún er dreifð í margar skjámyndir.                                                                                                                                                                                                                       | **Aðaláætlanagerð** vinnusvæðið býður upp á upplýsingar í fljótu bragði um það hvenær síðasta áætlanagerðarlotu lauk, hvort einhverjar villur komu upp, hverjar áríðandi áætlaðar pantanir eru, og hvaða áætlaðar pantanir valda seinkunum.                                                                                                                                   | Þú færð ávinning af yfirlitinu sem vinnusvæðið veitir. Viðeigandi upplýsingar eru tekin saman í til handleiðslu við aðaláætlanagerð og auka framleiðni. |
 | Notið Excel til að uppfæra eftirspurnarspár.                                                                                      | Ekki tiltækt                                                                                                                                                                                                                                                                                 | Þú getur nýta heilsteypta samþættingu við Excel þegar er fært inn eftirspurnarspár , uppfærir og eyðir eftirspurnarspár.                                                                                                                                                                                                                             | Það hjálpar til við að auka skilvirkni og afköst.                                                                                                          |
 | Meta má framtíðareftirspurn og stofna eftirspurnarspá á grundvelli færslugagna.                                  | Í Microsoft Dynamics AX 2012 R3, eru spálíkön í Microsoft SQL Server Analysis Service notuð til að stofna spár fyrir eftirspurnarspár.                                                                                                                                                | Áætla síðari eftirspurn með afli og miklu umfangi þjónustu Microsoft Azure Machine Learning skýinu. Það er auðvelt að nota og framlengja spálíkön í Machine Learning til að uppfylla kröfur viðskiptavinar. Þjónustan framkvæmir besta val á líkönum og býður upp á afkastavísar (KPI) sem hægt er að nota til að reikna út nákvæmni spár. | Mynda nákvæmari spá með Machine Learning tækni.                                                                              |
@@ -1081,7 +1081,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Hvað er nýtt eða breytt](whats-new-changed.md)

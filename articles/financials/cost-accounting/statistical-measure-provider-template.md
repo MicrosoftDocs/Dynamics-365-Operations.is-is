@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Sniðmát meðlima tölfræðivídda og tölfræðiveita
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tölfræðileg vídd og aðildarfélögum eru notaðir til að skrá og stjórna ekki-peningalegt færslur í kostnaðarbókhald. Hægt er að nota meðlimi víddar talnagagna fyrir tvenns konar tilgang:
 
@@ -344,7 +344,7 @@ Ef Electricity fyrirfram vídd stak úthlutunargrunn er úthlutað sem grunnur v
 | CC002       | FI | 4,100.00  | (4.100 ÷ 21.550) × upphæð  |
 | CC003       | Upplýsingatækni | 15,000.00 | (15.000 ÷ 21.550) × upphæð |
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Úthlutunargrunnar](allocation-bases.md)
 

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Yfirlit yfir Fínstillingarráðgjöf
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta uppsetningu á Microsoft Dynamics 365 for Finance and Operations.
 
@@ -50,8 +50,6 @@ Staðlaðar öryggisreglur gilda um fínstillingartækifæri. Til dæmis eru fí
 Þegar gripið er til aðgerða á ákveðnum fínstillingartækifærum reiknar kerfið áhrif tækifærisins á hvað varðar styttingu á keyrslutíma viðskiptaferla. Því miður er þessi eiginleiki ekki tiltækur fyrir öll fínstillingartækifæri.
 
 Til að læra meira um hagræðingarráðgjöf skal horfa á myndskeiðið [Fínstillingarráðgjöf í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Fínstillingarreglur
 
@@ -93,7 +91,7 @@ Ef tækifæri á ekki við um hlutverk þitt getur þú valið **Fela frá lista
 
 Til að gera mat óvirkt á tilgreindum reglum skal velja tækifærið sem reglan bjó til og velja síðan **Gera greiningu óvirka**.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna nýjar reglur](./create-rules-optimization-advisor.md)
 

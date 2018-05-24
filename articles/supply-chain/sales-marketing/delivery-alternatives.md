@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Valkostir afhendinga
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Þeir sem taka við sölupöntun geta notað valkostir afhendingar síðuna til sjá aðra pöntun uppfyllingar valkostir.
+Þeir sem taka við sölupöntun geta notað síðuna **Valkostir afhendingar** til sjá aðra valkosti uppfyllingar á pöntun.
 
-Í Microsoft Dynamics 365 fyrir Operations útgáfu 1611 (Nóvember 2016) sölupöntun viðtakendur getur notað **Valkostir afhendinga** blaðsíðu til að sjá aðra pöntun uppfyllingar valkostir. Endurhönnuð útlitssíða veitir betra yfirlit yfir alla aðra valkosti. Hún gerir kleift viðtakendum pöntunar að leita yfir núverandi fyrirtæki uppfyllingu möguleikar. Þeir geta nú bæði skoðað innan fyrirtækjasamstæðu möguleika og möguleika frá ytri lánardrottnum. Með því að raða valkostir með afhendingardagsetningu, viðtakendur sölupöntun geta skoðað skynsamlegan lista yfir valkosti afhendingar. Að auki hjálpa færibreytur að stjórna betur áætlaðri afhendingu. Þar sem flutningstími geta haft áhrif á afhendingardagsetningar, viðtakendur sölupöntun geta skoðað meira af mismunandi flutningsleiðum aðilum tilboð. Þar sem ítarlegar upplýsingar er sýndur fyrir hverja greiðslutillögulínuna, viðtakendur pöntunar getur tekið ákvarðanir upplýstar beint úr á **Afhendingu valkosti** síðu.
+Síðuuppsetning á **Valkostir afhendingar** gefur yfirlit yfir alla aðra valkosti. Hún gerir kleift viðtakendum pöntunar að leita yfir núverandi fyrirtæki uppfyllingu möguleikar. Þeir geta nú bæði skoðað innan fyrirtækjasamstæðu möguleika og möguleika frá ytri lánardrottnum. Með því að raða valkostir með afhendingardagsetningu, viðtakendur sölupöntun geta skoðað skynsamlegan lista yfir valkosti afhendingar. Að auki hjálpa færibreytur að stjórna betur áætlaðri afhendingu. Þar sem flutningstími geta haft áhrif á afhendingardagsetningar, viðtakendur sölupöntun geta skoðað meira af mismunandi flutningsleiðum aðilum tilboð. Þar sem ítarlegar upplýsingar er sýndur fyrir hverja greiðslutillögulínuna, viðtakendur pöntunar getur tekið ákvarðanir upplýstar beint úr á **Afhendingu valkosti** síðu.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Opna síðuna Afhendingu valkosti
-Þú getur opnað **Afhending** **valkosti** síðuna úr sölupöntunarlínunni.
+Þú getur opnað **Afhending** síðuna úr sölupöntunarlínunni.
 
 1.  Smellt er á **Vara og framboð** &gt; **Afhendingu valkosti**.
 2.  Smellt er á **Línu upplýsingar** &gt; **Afhendingu** &gt; **valkosti Afhendingar.**
@@ -146,7 +146,7 @@ Upplýsingarnar á þessum flipa eru tengduarr afhendingu annarrar línu sem val
 
 Þessi flipi sýnir áhrif völdu afhendingar valkosturinn. Ef smellt er á **í lagi**, sölulínu uppfærist með auðkennda gilda í dálkunum VALIÐ. Athugið að, ef magnið á völdu afhendingarvalkostur er minna en magnið í sölulínu, afhendingáætlun er stofnuð og pöntunarlínan er skipt í tvær línur: eina línu fyrir valda magnið og eina línu fyrir eftirstandandi magn. Einnig er hægt að uppfæra viðskipta lína þannig að stemmir við áætlaðar línum og hefur áhrif á verðinu.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Pöntun lofað](delivery-dates-available-promise-calculations.md)

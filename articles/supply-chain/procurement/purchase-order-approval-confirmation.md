@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Staðfesta og samþykkja innkaupantanir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Þessi skrá lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum.
 
@@ -75,14 +75,14 @@ Ef hluti af pöntuðu magni fyrir línu Innkaupapöntunar hefur verið afhent, e
 
 Eftir að pöntun hefur verið staðfest getur þú ekki lengur eytt henni. Hins vegar er hægt að hætta við heildarmagn eða eftirstöðvum magns í pöntun, svo lengi sem ekki hefur verið móttekið magnið eða reikningsfært magnið.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
 [Stofnun innkaupapöntunar](purchase-order-creation.md)
 
-[innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
+[Innhreyfingarskjal jafnað við innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
 

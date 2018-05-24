@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: is-is
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ Verkefni: **Reikningslínur**
 Gakktu úr skugga um að sjálfgefið gildi fyrir Finance and Operations reitinn **Birt gildi aðallykils** sé uppfært til að passa við æskilegt gildi.
 
 Sjálfgefið sniðmátsgildi er **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
+
+Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Samningsreikningar (Field Service to Fin og Ops): Reikningshausar
+
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Samningsreikningar (Field Service to Fin og Ops): Reikningslínur
+
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

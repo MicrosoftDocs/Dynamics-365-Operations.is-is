@@ -1,6 +1,6 @@
 ---
 title: "Leita að afurðir og afurðarafbrigði við skráningu pantana"
-description: "Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum."
+description: "Nota skal **Vörunúmer** svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu. Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Leita að afurðir og afurðarafbrigði við skráningu pantana
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Nota skal <strong>Vörunúmer </strong>svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum.
+Nota skal **Vörunúmer** svæðið til að leita að afurðir og afurðarafbrigði þegar handvirkt eru stofnaðar á sölupöntunarlínu eða innkaupapöntunarlínu.  Þannig er hægt að finna afurðarafbrigði á skjótan hátt þegar aðeins er tiltækur skilgreiningarstrengur eða afurðarvíddum.
 
 Stundum er ekki best að hafa of mikið af einhverju, og það er sérstaklega satt ef þú selur fjölda af vörum sem eru svipuð og þú ert að reyna að muna vörunúmer eða vöruleitarnöfn í því skyni að finna rétt vöru til að setja á sölupöntun. Hægt er að nota reitinn **Vörunúmer** í sölupöntunarlínu eða innkaupapöntunarlínu sem leitarsvæði. Þú getur slegið inn hvaða hluta af vöruheitinu, númer, eða vídd og fá flettu sem sýnir öll atriðin sem passa við leitarorð.
 
@@ -47,7 +47,7 @@ Stundum er ekki best að hafa of mikið af einhverju, og það er sérstaklega s
 
 ### <a name="examples"></a>Dæmi
 
-Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:** Undir **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur** &gt; **Leitargerð**, veljið valkostinn **Full samsvörun**.
+Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:** Undir **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur &gt; Leitargerð**, veljið valkostinn **Full samsvörun**.
 
 | Gerð afurðar     | Afurðarnafn    | Birta afurðarnúmer | Vörunúmer | Grunnstilling |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Dæmi um afurð og auðkenni afurðarafbrigðis og víddir sem hægt er að leit
 
 Farið í **Sala og markaðssetning &gt; Uppsetning &gt; Leita &gt; Leitarskilyrði** síðuna. Á **Leitarskilyrði** síðuna gerir kleift að skilgreina skilyrði fyrir viðskiptavinurinn, viðfangs og afurðaleit. Gangið úr skugga um verið sé að sía síðuna með leitarskilyrði afurðar. Þetta er gert með því að skipta í **Afurð** í valmynd síðu.  
 
-Til að birta afurðarnúmeri á leitarskilyrði, smellið á <strong>Nýtt</strong> í valmyndsíðu. Þetta bætir nýrri færslu við <strong>Leitarskilyrði</strong> hnitanetið. Opna skal <strong>svæðisheiti</strong> uppflettingardálk og velja <strong>DisplayProductNumber</strong>. Til að bæta skilgreiningu afurðar við leitarskilyrði skal stofna nýja færslu í <strong>**Hnitaneti leitarskilyrða og velja **configId</strong> í dálkinum <strong>Reitarheiti</strong>. Stofna færslu á sama hátt með <strong>svæðisheiti</strong> <strong>InventColorId</strong> fyrir litavíddina, <strong>InventSizeId</strong> fyrir stærð víddar, og <strong>InventStyleId</strong> fyrir stíl víddar.
+Til að birta afurðarnúmeri á leitarskilyrði, smellið á **Nýtt** í valmyndsíðu. Þetta bætir nýrri færslu við **Leitarskilyrði** hnitanetið. Opna skal **svæðisheiti** uppflettingardálk og velja **DisplayProductNumber**. Til að bæta skilgreiningu afurðar við leitarskilyrði, skal stofna nýja færslu í **Leitarskilyrði** hnitanetinu og velja **configId** í **svæðisheiti** dálk. Stofna færslu á sama hátt með **svæðisheiti** **InventColorId** fyrir litavíddina, **InventSizeId** fyrir stærð víddar, og **InventStyleId** fyrir stíl víddar.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. skref: Fylla gagnasafnstöflu sem notaður er fyrir afurðaleit
 
