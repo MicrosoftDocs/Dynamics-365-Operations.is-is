@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX.
 
@@ -96,7 +96,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 |                           Þú sendir nýja útgáfu af Innkaupapöntuninni á Gátt lánardrottins.                            |                                                                                                                                                                    Nýja útgáfan er skráð í Gátt lánardrottins og stöðu er breytt í <strong>Í Ytri Yfirferð</strong>.                                                                                                                                                                     |
 |                                Lánardrottinn samþykkir nýju útgáfuna.                                 |                                                                                                                                                     Stöðu er breytt í <strong>Staðfest</strong>, annað hvort sjálfvirkt eða þegar svarið kemur frá lánardrottni og síðan er Innkaupapöntunin staðfest.                                                                                                                                                     |
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Skilgreining öryggis fyrir Notendur samstarfs lánardrottna](configure-security-vendor-portal-users.md)

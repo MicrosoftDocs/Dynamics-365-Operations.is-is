@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Yfirlit yfir hjálparkerfi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
 
@@ -60,7 +60,7 @@ Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operati
 
 -   **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 -   **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
--   Svæðið **Aðgangur að mismunandi gerð efnis** gefur þér skjótan aðgang að mismunandi tegundum efnis um Finance and Operations, eins og Microsoft Office kynningum, verkefnaleiðbeiningum, myndskeiðum og efnisatriðum.
+-   **Aðgangur að mismunandi tegundir af innihaldi** – Þessi síða gerir þér kleift að fljótt fá aðgang að mismunandi gerðum efnis um Finance and Operations, svo sem verkefnaleiðbeiningar, myndbönd og efni.
 -   **Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS)
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Leit á docs.microsoft.com
@@ -204,7 +204,7 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hj�
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 [Finance and Operations hjálparkerfi (upplýsingablað sem hlaða má niður)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

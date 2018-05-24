@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi skrá veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá. 
 
@@ -64,7 +64,7 @@ Myndun eftirspurnarspár getur haft nafn og athugasemdir til að aðstoða noten
 
 Ef spá er ekki mynduð fyrir stórt safn af vörum en, til dæmis, fyrir eina vöru eða einn úthlutunarlykil vöru í einu, þá er hægt, til að ná betri afköstum, að velja gátreitinn **Nota stillingu til að biðja um svör** á flipanum **Aðaláætlanagerð - Uppsetning - Eftirspurnarspá** - **Færibreytur eftirspurnarspár - Azure vélnám**.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Uppsetning eftirspurnarspár](demand-forecasting-setup.md)

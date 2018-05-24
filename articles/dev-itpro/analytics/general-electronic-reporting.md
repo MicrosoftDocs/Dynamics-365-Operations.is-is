@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f0bc18dd7ead37e970b659afbb10243dac5f967
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 
@@ -317,8 +317,7 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 |                                                  |                       | FEC-bókhaldsgagna XML (FR)                      | Útflutningur FEC-bókhaldsgagna - XML-snið fyrir frakkland                   |
 | Þýska endurskoðunarskrá                                | Endurskoðun       |                                                   |                                                                    |
 |                                                  |                       | Þýskt úttak endurskoðunarskrár                          | Úttak endurskoðunarskrár fyrir Þýskaland og Austurríki.                          |
-| Intrastat-líkan
-                                    | Viðskiptaskýrslugjöf       |                                                   |                                                                    |
+| Intrastat-líkan                                  | Viðskiptaskýrslugjöf       |                                                   |                                                                    |
 |                                                  |                       | Intrastat-(DE)                                    | Intrastat-snið fyrir Þýskaland                                       |
 |                                                  |                       | Intrastat-(DK)                                    | Intrastat-snið fyrir Danmörk                                       |
 |                                                  |                       | Intrastat-INTRACOM (FR)                           | Intrastat-INTRACOM snið fyrir Frakkland                               |
@@ -370,7 +369,7 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)

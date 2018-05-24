@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: faccf695642d236dbf74a324ccecaf91f62638be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a>innhreyfingarskjal afurða gagnvart innkaupapantanir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar.
 
@@ -61,14 +61,14 @@ Eftir að innhreyfingarskjal afurða hefur verið unnið á Innkaupapöntunin, e
 
 Hægt er að opna þessa síðu úr á **Innhreyfing** aðgerðaflokk á **Innkaupapöntun** síðu. Upplýsingarnar í færslubækurnar inniheldur upplýsingar um magn, dagsetningar og víddir.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Yfirlit yfir Innkaupapöntun](purchase-order-overview.md)
+[Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
 [Stofnun innkaupapöntunar](purchase-order-creation.md)
 
-[Staðfesting og samþykkt innkaupapöntunar](purchase-order-approval-confirmation.md)
+[Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
 
 [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
 

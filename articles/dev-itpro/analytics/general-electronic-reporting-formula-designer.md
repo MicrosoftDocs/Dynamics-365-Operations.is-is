@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formúluhönnuður í rafrænni skýrslugerð
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER). Þegar þú hannar snið fyrir tiltekið rafrænt skjal í ER má nota formúlur til að umbreyta gögnum þannig að þau uppfylli kröfur um gerð og snið skjalsins. Þessar formúlur líkjast formúlum í Microsoft Excel. Ýmsar tegundir aðgerða eru studdar í formúlunum: texti, dagsetning og tími, stærðfræðilegar, röklegar, upplýsingar, umbreyting á gagnagerð og annað (virkni sem er lénsértæk fyrir viðskipti).
 
@@ -647,7 +647,7 @@ Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfar
 
 Rafræn skýrslugerð styður möguleikann á að útvíkka listann yfir aðgerðir sem eru notaðar í segðir rafrænnar skýrslugerðar. Þetta krefst smá verkfræðikunnáttu. Fyrir ítarlegar upplýsingar sjá [Útvíkka listann fyrir aðgerðir rafrænnar skýrslugerðar](general-electronic-reporting-formulas-list-extension.md)
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 

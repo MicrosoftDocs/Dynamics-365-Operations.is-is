@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kostnaðarbókhald gerir kleift að fá innsýn í hvernig kostnaðarflæði tengist afurðum og þjónustu sem innt er af hendi innan fyrirtækis. Mikilvægt er að kostnaðarúthlutun milli kostnaðarhluta sé byggð á viðeigandi úthlutunargrunni til að kostnaður sé gagnsær. Sjálfgefið er að kostnaðarúthlutun sé á aðalkostnaðareiningu, sem er æskilegt í sumum tilvikum, en það hefur ákveðin áhrif sem hafa þarf í huga.
 
@@ -297,9 +297,9 @@ Skýr aðgreining milli **Kostnaðarúthlutunar** og **Stefnu fyrir samantekt ko
 
 
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="additional-resources"></a>Frekari upplýsingar
 -  [Víddir kostnaðarhlutar](cost-objects.md)
 -  [Víddir kostnaðareiningar](cost-elements.md)
--  [Víddarstigveldi](dimension-hierarchy.md)
+-  [Víddastigveldi](dimension-hierarchy.md)
 -  [Útreikningur fastakostnaðar](overhead-calculation.md)
 

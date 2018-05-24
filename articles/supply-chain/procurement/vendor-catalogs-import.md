@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -53,13 +53,13 @@ Til að flytja inn vörulistagögn lánardrottins þarf að ljúka eftirfarandi 
 
 6.  Hlaða upp CMR-skránni.
 
-7.  Yfirfara, samþykkja eða hafna afurðum í vörulista lánardrottins. Afurðunum er sjálfkrafa varpað á innkaupaflokka í Dynamics 365 for Finance and Operations. 
+7.  Yfirfara, samþykkja eða hafna afurðum í vörulista lánardrottins. Vörunum er sjálfkrafa varpað á innkaupaflokka í Dynamics 365 for Finance and Operations. 
     
 Samþykktum afurðum er bætt við afurðarsniðmát og sendar til valins lögaðila. Aðeins er hægt að bæta samþykktum afurðum við innkaupavörulistann.
 
 ## <a name="generate-a-catalog-import-file-template"></a>Mynda sniðmát fyrir innflutningsskrá vörulista
 
-Sniðmát fyrir innflutningsskrá vörulista er XSD-skrá iðnaðarstaðals sem notaður er til að stofna CMR - skrá fyrir afurðir lánardrottinsins. Hægt er að nota CMR-skrána til að stofna nýjan vörulista, skipta út fyrirliggjandi vörulista eða breyta fyrirliggjandi vörulista.
+Sniðmát fyrir innflutningsskrá vörulista er XSD-skrá sem notuð er til að stofna CMR-skrá fyrir afurðir lánardrottins. Hægt er að nota CMR-skrána til að stofna nýjan vörulista, skipta út fyrirliggjandi vörulista eða breyta fyrirliggjandi vörulista.
 
 1.  Veldu **Innkaup og aðföng** \> **Vörulistar** \> **Vörulistar lánardrottins** og tvísmelltu á vörulistann sem þú vilt vinna með.
 

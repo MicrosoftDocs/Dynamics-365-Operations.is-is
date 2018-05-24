@@ -3,7 +3,7 @@ title: "Stjórnun smásöluverðs"
 description: "Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun smásöluverðs í Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Stjórnun smásöluverðs
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun söluverða í Microsoft Dynamics 365 for Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express er oft notaður fyrir gagnagrunnarásir vegna kostn
 Þegar þú setur söluverð í Microsoft Dynamics 365, tilgreinir þú ekki hvort verðgildið sem þú setur inn sé með eða án skatta. Gildið er aðeins verðið. Hins vegar gerir stillingin **Verð með söluskatti** á smásölurásunum þér kleift að skilgreina smásölurásir þannig að verðin eru annaðhvort með eða án skatta. Þessi stilling er sett í rásinni og getur breyst, jafnvel í einu fyrirtæki.
 
 Ef þú vinnur með bæði innifaldar og undanskildar gerðir af sköttum er mjög mikilvægt að setja rétt verð vegna þess að heildarupphæðin sem viðskiptavinurinn greiðir mun breytast ef stillingin **Verð með söluskatti** á rásinni er breytt.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Áhrif stillingarinnar „Verð með söluskatti“ á fjárhagslegar bókanir
-Allar upphæðir sem eru bókaðar í fjárhag fyrir tekju- og afsláttarlykla verða fyrir áhrifum af völdum stillingarinnar **Verð með söluskatti** stillingu. Eftirfarandi dæmi sýnir hvernig þessi stilling hefur áhrif á fjárhagslegar bókanir.
-
-Í dæminu er aðeins fjallað um sölubókanir vegna þess að stillingin **Verð með söluskatti** hefur ekki áhrif á bókanir birgðakostnaðar.
-
-#### <a name="example"></a>Dæmi
-Í þessu dæmi eru afsláttarupphæðir skilgreindar þannig að bókanir séu aðskildar frá tekjum.
-
-Þú selur $100 vöru sem hefur skatthlutfall upp á 10 prósent og 5 prósent afsláttur er settur á. Eftirfarandi reikningar frá USRT sýnigögnum eru notaðir:
-
-- **Tekjur:** 401100
-- **Afsláttur:** 403200
-- **Skattur:** 202100
-
-**Tilfelli 1: Skattur undanskilinn (einnig þekktur sem söluskattur)**
-
-- **Tekjur:** $100
-- **Afsláttur:** $5
-- **Skattur:** $9,5 (= 10 prósent af $95)
-
-**Tilfelli 2: Skattur innifalinn (einnig þekktur sem virðisaukaskattur \[VSK\])**
-
-- **Tekjur:** $90
-- **Afsláttur:** $4,5 (= 5 prósent af $90)
-- **Skattur:** $10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Mismunur á smásöluverði og verði sem snýr ekki að smásölu
 Ein verðlagningarvél er notuð til að reikna smásöluverð yfir allar rásir: símaver, smásöluverslun og vefverslanir. Þetta hjálpar til við að virkja atburðarásir sameinaðra viðskipta. 

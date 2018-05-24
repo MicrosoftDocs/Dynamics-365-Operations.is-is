@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Úthluta Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 for Talent. Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Talent í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Talent og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
 
@@ -54,17 +54,18 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
     > Til að skoða núverandi umhverfi eða búa til ný umhverfi, verður leigjanda sem stjórnar, sem úthlutar Talent, að vera úthlutað á PowerApps P2 leyfið. Ef fyrirtækið þitt hefur ekki PowerApps P2 leyfi geturðu fengið slíkt frá þínu CSP eða [PowerApps verðlagsíðunni](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Veldu **Bæta við** og veldu síðan umhverfið sem skal úthulta Talent inn í.
-5. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
+5. Veldu valkostinn „Hafa sýnigögn með“ ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Talent.  Þetta er gagnlegt fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi.  Athugaðu að þú verður að velja þennan möguleika við upphaflega uppsetningu og getur ekki seinna meir uppfært uppsetningu sem fyrir er.
+6. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
 
     Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur alla jafna aðeins nokkrar mínútur. Ef úthlutunarferlið mistekst þarftu að hafa samband við notendaþjónustu.
 
-6. Velja **Innskráning í Talent** til að nota nýja umhverfið þitt.
+7. Velja **Innskráning í Talent** til að nota nýja umhverfið þitt.
 
 > [!NOTE]
 > Ef þú hefur ekki ennþá skráð þig út á síðustu skilyrðin getur þú virkjað prufutilvik af Talent í verkinu. Þú getur síðan notað þetta tilvik til að prófa lausnina þína þar til þú skráir þig út. Ef þú notar nýtt umhverfi þitt til að prófa þarftu að endurtaka þetta ferli til að búa til framleiðsluumhverfi.
 
 > [!NOTE]
-> Talent umhverfum sem er úthlutað í gegnum LCS innihalda ekki sýnigögn sem eru stillt fyrir Mannauðsverk eða sem eru sértæk fyrir Talent. Ef þú þarft umhverfi sem inniheldur sýnigögn mælum við með að þú skráir þig fyrir ókeypis 60 daga [Talent prófunarumhverfi](https://dynamics.microsoft.com/en-us/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir mannauðskjarna. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum umhverfisins eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+> Þar sem aðeins tvö LCS-umhverfi eru leyfð sem hluti af Talent-áskriftinni getur þú einnig íhugað að nota ókeypis 60 daga [Talent prófunarumhverfi](https://dynamics.microsoft.com/en-us/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir mannauðskjarna. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum í því eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
 ## <a name="select-a-powerapps-environment"></a>Velja PowerApps umhverfi
 
@@ -104,35 +105,29 @@ Ljúktu eftirfarandi leiðbeiningum til að keyra forskriftina:
 
 1. Sækja skrána ProvisionCDSEnvironment.zip frá eftirfarandi staðsetningu: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Afþjappaðu öllu innihaldi ProvisionCDSEnviroinment.zip skráarinnar í möppu.
+2. Frá niðurhalsmöppunni skaltu hægrismella á ProvisionCDSEnvironment.zip skrána sem sótt var rétt í þessu og velja **Eiginleikar**.  Ef athugasemd um öryggi er neðst í glugganum sem segir „Þessi skrá kom frá annarri tölvu og gæti verið lokað á til að vernda þessa tölvu“ skaltu merkja gátreitinn sem **Opna fyrir**, síðan smella á **Nota** og síðan **Í lagi**.
 
-3. Keyrðu Windows PowerShell eða Windows PowerShell ISE forritið sem stjórnandi.
+3. Afþjappaðu öllu innihaldi ProvisionCDSEnviroinment.zip skráarinnar í möppu, annarri en rótarmöppunni þinni.
 
-   Farðu í efnisatriðið [Stilla notkunarreglu](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) til að fræðast meira um stillingu notkunarreglu þannig að hægt sé að keyra forskriftir.
+4. Keyrðu Windows PowerShell eða Windows PowerShell ISE forritið sem stjórnandi.
+
+   Farðu í efnisatriðið [Stilla notkunarreglu](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) til að fræðast meira um stillingu notkunarreglu þannig að hægt sé að keyra forskriftir. Við mælum með því að nota eftirfarandi, „Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process“, en vertu viss um að fylgja öryggisstefnu fyrirtækisins og lokaðu PowerShell glugganum þegar lokið. 
   
-4. Innan PowerShell, flettu að möppunni þar sem þú afþjappaðir skránni og keyrðu eftirfarandi skipun, skiptu út gildum eins og er leiðbeint hér að neðan:
+5. Innan PowerShell, flettu að möppunni þar sem þú afþjappaðir skránni og keyrðu eftirfarandi skipun, skiptu út gildum eins og er leiðbeint hér að neðan:
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
    **MyNewEmvironment** ætti að vera skipt út fyrir umhverfisheiti þitt. Þetta heiti birtist í LCS og verður sýnilegt þegar notendur velja hvaða Talent umhverfi skuli nota. 
 
-   **YourLocation** ætti að vera skipt út fyrir eitt af studdu svæðunum fyrir Talent: Bandaríkjunum, Evrópu, Ástralíu. 
+   **Þín staðsetning** ætti að vera skipt út fyrir eitt af studdu svæðunum fyrir Talent: Bandaríkjunum, Evrópu, Ástralíu. 
 
    **-Verbose** er valfrjálst og mun veita nákvæmar upplýsingar til að senda til stuðnings ef vandamál koma upp.
 
-5. Halda áfram með ráðstöfunarferlinu.
+6. Halda áfram með ráðstöfunarferlinu.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
-Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang skal [bæta við notendur](../dev-itpro/sysadmin/tasks/create-new-users.md) og [úthluta þeim viðeigandi hlutverkum](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) í kjarnaumhverfi mannauðs. Einnig þarf að bæta þessum notendum við PowerApps umhverfið svo þeir hafi aðgang að Attract and Onboard forritum. Ferlinu er lýst hér. Ef þú þarft hjálp til að ljúka skrefunum kíktu þá á bloggfærsluna [Kynning á stjórnendamiðstöð PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang skal [bæta við notendur](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [úthluta þeim viðeigandi hlutverkum](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) í kjarnaumhverfi mannauðs. Altæki stjórnandinn, sem virkjaði Talent, verður einnig að ræsa bæði forritin Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur.  Þar til þetta gerist munu aðrir notendur ekki geta opnað forritin Attract og Onboard og fá upp villur vegna brots á aðgangi.
 
-Altæki stjórnandinn sem setti upp Talent umhverfið lauk þessu ferli.
-
-1. Opnið [Stjórnendamiðstöð PowerApps](https://preview.admin.powerapps.com/environments).
-2. Veljið viðeigandi umhverfi.
-3. Í flipanum **Öryggi** skal bæta nauðsynlegum notendum við hlutverk **Umhverfisstjórnanda**.
-
-    Athugið að þetta lokaskref þar sem notendum er bætt handvirkt við PowerApps umhverfið er tímabundið. Það klárast að lokum sjálfkrafa þegar notendum er bætt við mannauðskjarnann.
 

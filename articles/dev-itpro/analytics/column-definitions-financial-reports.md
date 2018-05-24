@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: is-is
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum.
 
@@ -583,7 +583,7 @@ Hægt er að stofna dálk sem birtir öll gildi í tilgreindum dálki sem próse
 
 Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til dæmis skiptir formúlan  **B/Tímabil** gildinu í dálki B eftir fjölda tímabila sem gefinn er upp í dálki B. Ef útreikningurinn nær yfir marga dálka þarf að tilgreina fjölda tímabila sem nota á í útreikningnum. Til dæmist bætir **(B+C)/Tímabil** formúlan við upphæðunum í dálki B og dálki C og deilir svo í niðurstöðuna með tímabilsgildinu.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Línuskilgreiningar í fjárhagsskýrslugerð](row-definitions-financial-reporting.md)

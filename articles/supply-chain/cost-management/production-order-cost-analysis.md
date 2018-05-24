@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Kostnaðargreining framleiðslupöntunar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi skrá veitir upplýsingar um kostnaðargreiningar sem er hægt að gera fyrir loknar og gildandi framleiðslupantanir. Hægt er að greina áætlaðan kostnað og raunkostnað með því að nota síðuna Útreikningur á verði eða skýrsluna Kostnaðarmat og kostnaðarútreikningur. Hægt er að skoða upplýsingar um áætlaðan kostnað og raunkostnað (og magn) fyrir hverja íhlutavöru, leiðaraðgerð og óbeinan kostnað.
 
@@ -59,10 +59,10 @@ Aðskildar skýrslur veita upplýsingar fyrir hverja færslugerð. Notið þessa
 -   **Afurðir í vinnslu**− Skýrslan telur upp núverandi framleiðslupantanir og færslurnar sem skráðar eru sem lokið frá og með tiltekinni færsludagsetningu.
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Algengar orsakir framleiðslufrávika](common-sources-of-production-variances.md)
+[Algengur uppruni framleiðslufrávika](common-sources-of-production-variances.md)
 
 
 

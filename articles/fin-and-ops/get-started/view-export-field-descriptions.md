@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Skoða og flytja út svæðalýsingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein er lýst hvernig á að skoða lýsingar á svæðum og hvernig á að nota síðuna lýsingar Svæðið til að flytja út lýsingar.
 
@@ -97,7 +97,7 @@ Til að sýna alla reiti á síðu skal stilla valkostinn **Hafa með reiti án 
 
 Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Leit fyrir síðu" fyrr í þessari grein. Ef nákvæmt heiti síðunnar hefur verið fært inn, kunna lýsingar á svæðum ekki að vera sýndar ef er meira en eina síða er með sama heiti. Smella á örina í kassanum **Velja síðu** til að opna síaða lista yfir tiltækar síður.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Sérsníða reit hjálp](../../dev-itpro/user-interface/customize-field-help.md)

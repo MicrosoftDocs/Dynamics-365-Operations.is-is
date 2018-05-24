@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Yfirlit yfir staðlaðan kostnaðarumreikning
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein veitir yfirlit yfir vinnslu til að aðstoða við að setja upp og keyra umreikning staðalkostnaðar. Skref sem eru skráð er ætlað að vera lokið eftir að forkröfur fyrir umreikning staðalkostnaðar hafa verið uppfylltar. 
 
@@ -96,7 +96,7 @@ Skýrslan **Yfirlit fráviksgreiningar** gerir það mögulegt að greina frávi
 -   Greina bakfærðar birgðahreyfingar. Notið skýrsluna **Birgðavirði** til þess að skoða bakfærðar birgðahreyfingar sem voru færðar inn eftir umreikning. Notið skýrsluvalkostinn fyrir Frá og Til dagsetningar, svo þær samsvari upphafsdagsetningu og umreikningsdagsetningu að frádregnum einum degi. Valskilyrði skýrslu eiga að endurspegla umreiknaðar vörur. Skýrslan birtir birgðahreyfingar gerðar með stöðluðum kostnaði þegar umreikningsferlið stóð yfir.
 
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Forkröfur fyrir umreikning staðalkostnaðar](prerequisites-standard-cost-conversion.md)

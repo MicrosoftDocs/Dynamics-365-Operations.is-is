@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: is-is
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Birtingarstillingar fyrir fartæki vöruhúss
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein lýsir hvernig setja á upp útlit skjás fartækisins og hvernig á að varpa flýtilyklum á stýrieiningar, til dæmis hnappar. 
 
@@ -97,7 +97,7 @@ Hver undirsegð krefst eins til tveggja tölustafa fyrir daginn og mánuðinn og
 
 Hægt er að tilgreina fleiri en eina segð í sömu skránni. Hver segð verður að vera í aðskilinni línu. Fyrsta segðin sem er jöfnuð er notuð til að þátta dagsetninguna.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Skilgreining fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md)

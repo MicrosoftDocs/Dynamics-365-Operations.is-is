@@ -3,27 +3,28 @@ title: "Stjórnun vöruúrvals"
 description: "Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Microsoft Dynamics 365 for Retail og hugleiðingar um framkvæmd verka."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: is-is
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Stjórnun vöruúrvals
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Yfirlit
 Microsoft Dynamics 365 for Retail veitir *vöruúrval* sem gerir þér kleift að stjórna afurðaframboði yfir rásum. Vöruúrval ákvarðar hvaða afurðir eru í boði í tilteknum verslunum og á tilteknu tímabili.
@@ -35,25 +36,25 @@ Heildarsamsetning afurða í rás er ákvörðuð af útgefnu vöruúrvali sem e
 ### <a name="basic-assortment-setup"></a>Grunnuppsetning vöruúrvals
 Í eftirfarandi dæmi er einkvæmt vöruúrval skilgreint fyrir hverja verslun. Í þessu tilviki er aðeins afurð 1 í boði í verslun 1 og aðeins afurð 2 er í boði í verslun 2.
 
-![Hver afurð er fáanleg í einni verslun](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Hver afurð er fáanleg í einni verslun")
+![Hver vara er í boði í einni verslun](./media/Managing-assortments-figure1.png)
 
 Til að bjóða upp á afurð 2 í verslun 1 geturðu bætt afurðinni við vöruúrval 1.
 
-![Afurð 2 bætt við vöruúrval 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Afurð 2 bætt við vöruúrval 1")
+![Vara 2 bætt við vöruúrval 1](./media/Managing-assortments-figure2.png)
 
 Að öðrum kosti er hægt að bæta verslun 1 við vöruúrval 2.
 
-![Verslun 1 bætt við vöruúrval 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Verslun 1 bætt við vöruúrval 2")
+![Verslun 1 bætt við vöruúrval 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 Í tilfellum þar sem margar rásir deila sama vöruúrvalinu er hægt að skilgreina vöruúrvalið með því að nota stigveldi fyrirtækis fyrir Retail úrval. Þegar hnútum frá þessu stigveldi er bætt við verða allar rásir í þessum hnút og undirhnútum innifaldar.
 
-![Stigveldi fyrirtækis](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Stigveldi fyrirtækis")
+![Stigveldi fyrirtækis](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Afurðartegundir
 Á svipaðan hátt er hægt að bæta við afurðaflokkum með því að nota stigveldi afurðartegunda á afurðasíðunni. Þú getur skilgreint vöruúrval með því bæta við einum eða fleiri hnútum tegundastigveldis. Í þessu tilfelli mun vöruúrvalið innihalda allar afurðir í þessum tegundarhnút og undirhnútum hans.
 
-![Afurðartegundir](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Afurðartegundir")
+![Afurðartegundir](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Útilokaðar afurðir eða tegundir
 Til viðbótar við að innihalda afurðir og tegundir í vöruúrvali er hægt að nota útilokunarvalkostinn til að skilgreina tilteknar afurðir eða tegundir sem ættu að vera útilokaðar frá vöruúrvali. Í eftirfarandi dæmi viltu hafa með allar afurðir í tiltekinni tegund nema afurð 2. Í þessu tilfelli þarf ekki að skilgreina afurð vöruúrvals eftir afurð eða stofna fleiri tegundarhnúta. Í staðinn er einfaldlega hægt að bæta tegundinni við en útiloka afurðina.
@@ -61,7 +62,7 @@ Til viðbótar við að innihalda afurðir og tegundir í vöruúrvali er hægt 
 > [!NOTE]
 > Ef afurð er bæði innifalinn og útilokuð í einu eða fleiri gerðum vöruúrvals samkvæmt skilgreiningu, verður afurðin alltaf talin útilokuð.
 
-![Útilokuð afurð](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Útilokuð afurð")
+![Útilokuð vara](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Alþjóðlegar og útgefnar afurðir
 Vöruúrval er skilgreint á alþjóðavísu og getur innihaldið rásir frá mörgum lögaðilum. Afurðirnar og tegundirnar sem eru í vöruúrvalinu er einnig deilt þvert yfir lögaðila. Hins vegar verður að gefa út afurð áður en hægt er að selja, panta, telja eða taka á móti henni í rásinni (til dæmis á sölustaðnum \[Sölustaður\]). Því þrátt fyrir að tvær verslanir ólíkra lögaðila geti deilt vöruúrvali sem inniheldur sömu afurðir eru afurðirnar aðeins tiltækar ef þær hafa verið gefnar út til þessara lögaðila.

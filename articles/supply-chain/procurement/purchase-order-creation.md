@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt.
 
@@ -86,12 +86,12 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 Þú gætir þurft að fresta lokun Innkaupapöntunar. Til dæmis gætirðu þurft aukalegar upplýsingar um afurðir eða þjónustu, eða gæti þurft að fá heimild fyrir eyðsla. Það eru nokkrar aðferðir til að halda aftur pöntun. Til dæmis er hægt að bíða með að staðfesta pöntunina. Einnig, ef verkflæði breytingastjórnunar er í notkun, ekki senda pöntun til samþykktar. Ef verður að útiloka allar pantanir fyrir tiltekinn lánardrottin, er einnig hægt að merkja lánardrottins sem **í bið** fyrir vinnslu í lánardrottinssniðmát. Einnig eru aðstæður sem gætu komið í veg fyrir vinnsu pöntunar. Til dæmis, vinnslu gæti verið stöðvuð ef farið hefur verið fram yfir lánamark, eða ef nauðsynlegt áætlunarfjármagn  eru ekki tiltæk.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
-[Staðfesting og samþykkt innkaupapöntunar](purchase-order-approval-confirmation.md)
+[Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
 
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 

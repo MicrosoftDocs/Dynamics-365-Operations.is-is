@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Samþætting fjárhagsáætlunargerðar við aðrar einingar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Hægt er að mynda fjárhagsáætlanir úr nokkrum mismunandi tilföngum. Grunneiningar reglubundinnar vinnslu eru þær sömu fyrir öll tilföng. 
 
@@ -68,7 +68,7 @@ Valkosturinn **Sögulegt** valkostinn á flipanum **Mark** gerir það mögulegt
 
 Reiturinn **Steypa saman samtölu eftir** efst á síðunni ákvarðar einnig dagsetninguna sem er notuð. Þessi reitur leggur saman upphæðir og stillir einnig gildisdagsetningu á fyrsta dag fjárhagsársins eða fjárhagstímabili. 
 
-Margir reitir á flipanum <strong>Mark</strong> verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn <strong>Heiti fjárhagsáætlunar</strong> óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Á bæði flipanum <strong>Mark</strong> og <strong>Uppruni **flipanum, ** Fjárhagur</strong> er reiturinn alltaf ótiltækur vegna þess að gildið er ákvarðað með völdu ferli fjárhagsáætlunargerðar. 
+Margir reitir á flipanum <strong>Mark</strong> verða breytanlegir eða aðeins til lestrar, eftir hvaða aðgerð er valin á flipanum. Þegar er breytt úr stofnun nýrrar fjárhagsáætlunar í uppfærslu fyrirliggjandi áætlunar verður reiturinn **Heiti fjárhagsáætlunar** óvirkur og reitir sem eru tengdir vali á fyrirliggjandi áætlun verða tiltækir. Bæði á flipanum **Mark** og flipanum **Uppruni**, er reiturinn **Fjárhagur** alltaf óvirkur, þar sem gildið er ákvarðað af valið ferli fjárhagsáætlunargerðar. 
 
 Reiturinn **Fjárhagsáætlunarklasi** gerir kleift að stilla línur fjárhagsáætlunar sem annaðhvort kostnaðarfærslur eða tekjufærslur. Yfirleitt eru tekjufærslur kreditfærslur í fjárhagslykil og eru þar af leiðandi geymd sem neikvæðar upphæðir. Yfirleitt birtast þessar færslur einnig sem neikvæðar upphæðir í fjárhagsáætlun. Hins vegar, með því að bæta við fjárhagsáætlunarklasanum sem reit í útliti áætlunar, er hægt að virkja tekjur birtist sem upphæðir í jákvætt.
 

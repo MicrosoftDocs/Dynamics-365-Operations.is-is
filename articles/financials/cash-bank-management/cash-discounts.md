@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og Viðskiptaskuldir.  Tiltækur staðgreiðsluafsláttur er hægt að tilgreina á reikning viðskiptavinar eða á reikning lánardrottins og verður tekinn ef reikningurinn er greiddur innan dagsetningu staðgreiðsluafsláttar. 
 
-<a name="cash-discounts"></a>Staðgreiðsluafslættir
---------------
+## <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
 Hægt er að stofna staðgreiðsluafslátt fyrir bæði viðskiptavini eða lánardrottna á síðunni staðgreiðsluafslætti. Hægt er að skilgreina einnig , með því að nota Næsta afsláttarkóðasvæði , röð af staðgreiðsluafsláttum sem koma í kjölfar hver annars sem þegar fyrri staðgreiðsluafsláttardagsetningar renna út. Nánari upplýsingar eru í "Dæmi: Röð af staðgreiðsluafslættum" síðar í þessu efnisatriði. Ef reikningur, kreditfærsla (annað hvort í greiðslu eða kreditnótu) eða bæði eru færð inn í öðrum gjaldmiðli en bókhaldsgjaldmiðli lögaðilans er staðgreiðsluafsláttur reiknaður með því að nota gengi byggt á dagsetningu greiðslu eða kreditnótu. Ef reiknings- og kreditskjalið eru færðar inn í mismunandi lögaðila og ef gjaldmiðlar bókhalds fyrir lögaðila er mismunandi, er gengið tekið úr lögaðili reikningsins, frá og með dagsetningu kreditskjals . Nánari upplýsingar eru í "Dæmi: gengi fyrir staðgreiðsluafslættum" síðar í þessu efnisatriði.
-Sjálfgefin röðun staðgreiðsluafsláttar fyrir  aðallykil
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Sjálfgefin röðun staðgreiðsluafsláttar fyrir  aðallykil
 
 Ef reikningur er jafnaður með fyrirvara svo veittur sé staðgreiðsluafsláttur, þá er afslátturinn bókaður sjálfkrafa í aðallykil staðgreiðsluafsláttar, samkvæmt eftirfarandi sjálfgefinni forgangsröðun :
 1.  Aðallykillinn sem tilgreindur er í svæðinu Annar staðgreiðsluafsláttur á síðu Jafna opnar færslur fyrir viðskiptavini eða á síðu Jafna opnar færslur fyrir lánardrottna.
@@ -65,15 +64,7 @@ Bókhaldsgjaldmiðill fyrir við lögaðilann er EUR og eftirfarandi gengi eru t
 
 Reikningur fyrir 1000 USD með skilmála staðgreiðsluafsláttar 20D2% er bókaður á 15. febrúar. Gjaldmiðilsupphæð reiknings er 1100 EUR. Greiðsla fyrir 980 USD er jöfnuð með reikningi 1. mars. Upphæð staðgreiðsluafsláttar er 20 USD. Upphæð bókhaldsgjaldmiðils fyrir greiðslu er 784 EUR. Gjaldmiðilsupphæð staðgreiðsluafsláttar er reiknuð með því að nota gengið frá 1. mars: 20 \* 80 / 100 = 16 EUR.
 
-| **Athugasemd**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. 
 
 

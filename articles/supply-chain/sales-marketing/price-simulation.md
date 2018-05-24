@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Verðherming
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi grein gefur upplýsingar um verðhermingu fyrir tilboð. Verðherming hjálpar til við að meta áhrif frádráttar á söluverð í framtíðinni í tilboðsferlinu, áður en staðfest er sérstakt verð.
 
@@ -36,7 +36,7 @@ Verðherming fyrir tilboð sýnir nýja heildarupphæð, á grundvelli tillögu 
 
 Verðherming breyta ekki verðið í tilboðið. Ef verðhermun er beitt á allt tilboðið, er hún meðhöndluð sem sérstakur afsláttur í tilboðshausnum. Ef verðhermun er beitt á tiltekna vöru, er hún meðhöndluð sem sérstakur afsláttur í tilboðslínunum. Einingarsöluverð á tilboðslínunni sem er stofnuð breytist ekki þegar verðherming er notuð. Þess í stað er notuð afsláttarprósenta sem samsvarar verðlækkuninni í tilboðslínunni. Þegar verðhermingin er notuð, er einingarsöluverð og afsláttarprósentan flutt í tilboðslínuna eða tilboðshausinn.  
 
-**Athugasemd** Þegar verðherming er framkvæmd er eingöngu gildandi sölugjaldmiðill notaður til þess að stofna herminguna. Hinsvegar, Þegar samtölur tilboða eru skoðaðar sjást hins vegar samsetning sölugjaldmiðils og fyrirtækisgjaldmiðils.  
+>[Athugasemd!] Þegar verðherming er framkvæmd er eingöngu gildandi sölugjaldmiðill notaður til þess að stofna herminguna. Hinsvegar, Þegar samtölur tilboða eru skoðaðar sjást hins vegar samsetning sölugjaldmiðils og fyrirtækisgjaldmiðils.  
 
 Fylgivörur sem bætt er við tilboðslínur gæti sett af stað línuafsláttar eða samvalsafsláttar. Þær gætu einnig virkja heildarafslátt sem breyta framlegð og framlegðarstigi tilboðslínanna tilboðslína og alls afsláttarins.  
 

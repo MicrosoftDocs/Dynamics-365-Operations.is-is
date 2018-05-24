@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Skilgreining skjáútlits fyrir sölustað
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás á sölustað í Microsoft Dynamics 365 for Retail.
 
@@ -91,10 +91,10 @@ Skilgreina verður hverja útlitsstærð innan skjáútlits með útlitshönnuð
 
 **Afurðir sem mælt er með** - Ef þetta er skilgreint fyrir umhverfið mun stýring ráðlagðra afurða sýna afurðatillögur byggðar á forritun vélar. Stýring ráðlagðra afurða er aðeins tiltæk fyrir fullt útlit í Dynamics 365 for Retail útgáfu 1611. **Sérstillt stýring**- Sérstillt stýring þjónar sem frátakari innan útlits skjásins sem gerir notendum kleift að taka frá pláss fyrir sérsniðið efni. Sérstillt stýring er aðeins tiltæk fyrir fullt útlit.
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Setja upp Retail POS útlitshönnuður](install-pos-layout-designer.md)
+[Uppsetning útlitshönnunarbúnaðar Retail POS](install-pos-layout-designer.md)
 
 
 

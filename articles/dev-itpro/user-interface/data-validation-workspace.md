@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Vinnusvæði gagnaprófunar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta efni veitir yfirlit yfir **vinnusvæðið Gátlisti gagnavilluleitar** og tengdar skilgreiningar.
-
-## <a name="data-validation-checklist-workspace"></a>Vinnusvæði gátlista gagnaprófunar
 
 **Vinnusvæði gátlista gagnavilluleitar** gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu. Samkvæmt yfirliti í vinnusvæðinu **Gátlisti gagnavilluleitar** muntu sjá annaðhvort öll verk og stöður fyrir gagnaprófunarverk eða aðeins þau verkefni sem þér er úthlutað.
 
 Fyrst verður að velja gagnaprófunarverk efst í vinnusvæðinu. Öll gögn sem birtast á vinnusvæðinu eru síðan síuð með völdu gagnaprófunarverki.
 
-### <a name="summary-tiles"></a>Samantektarreitir
+## <a name="summary-tiles"></a>Samantektarreitir
 
 **Samantektarreitir** veita yfirlit yfir ferlið og vísar hjálpa til við að halda gagnavilluleit á áætlun. Hægt er að sjá öll útistandandi verkefni, lokin verk, verk í vinnslu og verk sem ekki hefur verið byrjað á fyrir ferlið. Þessar upplýsingar eru fyrir öll fyrirtæki sem eru tekin með í völdu gagnaprófunarferli.
 
-### <a name="tasks-and-status-section"></a>Hlutinn Verkefni og staða
+## <a name="tasks-and-status-section"></a>Hlutinn Verkefni og staða
 
 Í hlutanum **Verkefni og staða** er staða gagnaprófunarverks birt á mismunandi vegu: staða eftir lögaðila, eftir svæðum og eftir verkefnalista. Hægt er að velja síu til að skoða stöðu fyrir tiltekið fyrirtæki. Hver stöðuflipi veitir sundurliðun eftir bæði prósentu sem hefur verið lokið og fjölda verka sem eftir eru.
 
@@ -52,11 +50,11 @@ Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við verk með aðger�
 
 Valkosturinn **Svarað** er sjálfkrafa fylltur út þegar verkinu er lokið með nafni starfsmanns sem lauk verkinu. Þegar verkefni er merkt sem lokið er reiturinn **Lokadagsetning** sjálfkrafa uppfært á núgildandi dagsetningu og tíma.
 
-### <a name="configure-data-validation-project-page"></a>Skilgreina síðu gagnaprófunarverks
+## <a name="configure-data-validation-project-page"></a>Skilgreina síðu gagnaprófunarverks
 
 Áður en hægt er að nota vinnusvæðið **Gátlisti gagnaprófunar** þarf að skilgreina ferlið með því að nota síðuns **Skilgreina gögn villuleitarverks**. (Smellt er á **Vinnusvæði** \> **Gátlisti gagnavilluleitar** \> **Skilgreina gögn villuleitarverks**.)
 
-### <a name="task-areas"></a>Verksvæði
+## <a name="task-areas"></a>Verksvæði
 
 Verksvæði eruð notuð til að flokka gagnaprófunarverk í röklegt svæði eignarhalds innan fyrirtækisins. Til dæmis gætu Viðskiptaskuldir, Viðskiptakröfur eða Fjárhagur verið notuð sem verksvæði.
 

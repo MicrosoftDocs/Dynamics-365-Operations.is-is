@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Stofna fylgiskjölum eða þjálfun með verkskráningu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 
@@ -118,7 +118,7 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Taka verkskráningu með í rúðunni Hjálp
 Til að sýna þína eigin sérsniðna verkskráningu í rúðunni hjálp þannig að hægt er að spila þau sem verkefnaleiðbeiningar eða skoða texta , þarf að vista verkskráningu í eigin safn BPM og síðan uppfæra færibreytum hjálparkerfis til að vísa í safn fyrir BPM. Fyrir nánari upplýsingar sjá [Tengja við hjálpargögnin.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>Sjá einnig
+<a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Hjálparyfirlit](../../fin-and-ops/get-started/help-overview.md)

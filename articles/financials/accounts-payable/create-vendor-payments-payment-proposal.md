@@ -1,6 +1,6 @@
 ---
 title: "Stofna greiðslur lánardrottins með greiðslutillögu"
-description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar."
+description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofna greiðslur lánardrottins með greiðslutillögu
+# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofnun greiðslna lánardrottins með greiðslutillögu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka. Greiðslutillögur eru oft notaðar til að stofna greiðslur lánardrottna, þar sem hægt er að nota fyrirspurnina til að velja á skjótan hátt reikninga lánardrottins til greiðslu, á grundvelli skilyrða svo sem gjalddaga og staðgreiðsluafsláttar. 
 
@@ -47,7 +47,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 - **Athuga stöðu lánardrottins** – Ef þessi valkostur er stilltur á **Já**, staðfestir kerfið að lánardrottinn er ekki með debet-staða áður en neinn reikningur er greiddur. Ef lánardrottinn er með debet-stöðu, engin greiðsla er stofnuð. Til dæmis gæti lánardrottinn haft kreditreikningar eða greiðslur sem hafa verið bókaðar en ekki enn verið jafnaðar. Í þessum tilfellum ætti ekki að greiða lánardrottni. Þess í stað ætti að jafna kreditreikningar eða greiðslur á móti útistandandi reikningum.
 - **Eyða neikvæðum greiðslum** – valkosturinn virkar öðruvísi, eftir því hvort greiðslur eru gerðar fyrir einstaka reikninga eða samtölu reikninga sem uppfylla skilyrði greiðslu. Þessi hegðun er skilgreind á greiðsluhætti.
 - **Greiðsla fyrir hvern reikning** – Ef **Eyða neikvæðum greiðslum**°valkostur er stilltur á°**Já**, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, aðeins reikninginn er valinn fyrir greiðslu. Greiðslan°er ekki jafnað á móti reikningi. Ef í **Eyða neikvæðum greiðslum** valkostur er stilltur á **Nei**, og reiknings og greiðslu ekki eru kostnaðarjafnaðar jafnaðar, reikningur og greiðsla eru valdar fyrir greiðslu. Greiðsla er stofnuð fyrir greiðsluna og endurgreiðsla (neikvæð greiðsla) er stofnuð fyrir greiðsluna.
-- <strong>Greiðsla fyrir samtölu reikninga</strong>°-° Ef <strong>Eyða neikvæðum greiðslum</strong>°valkostur er stilltur á°<strong>Já</strong>, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, bæði ójafnaði reikningurinn og greiðsla eru valdar fyrir greiðslu og upphæðir er bætt saman til að fá fram heildarupphæð greiðslu. Eina undantekning eref samtalan leiðir til endurgreiðslu. Í þessu tilfelli er hvorki reikningur eða greiðsla valinn. Ef <strong>Eyða neikvæðum greiðslum **valkosturinn er stilltur á **Nei</strong> og reikningur og greiðsla eru ekki jöfnuð eru bæði reikningurinn og greiðslan valin fyrir greiðslu og upphæðunum er bætt saman til að fá fram heildarupphæð greiðslu.
+- **Greiðsla fyrir samtölu reikninga**°-° Ef **Eyða neikvæðum greiðslum**°valkostur er stilltur á°**Já**, og ójafnaður reikningur og greiðsla er til fyrir lánardrottin, bæði ójafnaði reikningurinn og greiðsla eru valdar fyrir greiðslu og upphæðir er bætt saman til að fá fram heildarupphæð greiðslu. Eina undantekning eref samtalan leiðir til endurgreiðslu. Í þessu tilfelli er hvorki reikningur eða greiðsla valinn. Ef valkosturinn **Eyða neikvæðum greiðslum** valkosturinn er stilltur á **Nei** og reikningur og greiðsla eru ekki jöfnuð eru bæði reikningurinn og greiðslan valin fyrir greiðslu og upphæðum er bætt við til að fá heildarupphæð greiðslu.
 - **Prenta skýrslu eingöngu** – þessi valkostur er Stilltur á **Já** til að sjá niðurstöður greiðslutillagna í skýrslu, en°án þess að stofna neinar greiðslur.
 - **Taka með reikninga lánardrottna frá öðrum lögaðilum** – Ef fyrirtækið hefur miðstýrðar vinnslu til greiðslu og greiðslutillagan á að taka með reikninga frá öðrum lögaðilum sem eru teknar með í leitarskilyrðum, setjið þennan valkost á **Já**.
 - **Bjóða aðskildar greiðslur lánardrottins fyrir hvern lögaðila** – Ef þessi valkostur er stilltur á **Já**, er aðskilin greiðsla stofnuð fyrir hvern lögaðila fyrir hvern lánardrottinn. Lánardrottinn greiðslunnar er lánardrottinn úr reikningi frá hverjum lögaðila. Ef þessi valkostur er stilltur á **Nei**, og sami lánardrottinn á reikninga í mörgum lögaðilum, er ein greiðsla stofnuð fyrir heildarupphæð valinna reikninga. Lánardrottinn greiðslunnar er lánardrottinn núverandi lögaðila. Ef lánardrottnalykillinn er ekki til í núverandi lögaðila, er notaður lánardrottnalykill fyrsta reikningsins sem þarf að greiða.
@@ -115,7 +115,8 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 -   **Víddarstýring** svæðið er virkjað án þess að skilgreina víddir frekar. Án þess að taka tillit til vídda verða stofnaðar greiðslutillögur. Stofnuð færsla erfir engar víddir úr notaðri færslu.
 -   **Víddarstýring** svæðið er virkjað og frekari víddir eru virkjaðar. Nú skilgreinirðu hvernig víddir verða afritaðar í færslubókina. Til dæmis: • Veljið gátreitinn **BusinessUnit** til þess að stofna greiðslutillögu fyrir hverja viðskiptaeiningu sem greiðslumáta, • Veljið gátreitinn **kostnaðarstaður** til þess að stofna greiðslutillögu sem greiðsluhátt fyrir hvern kostnaðarstað
 
-**Athugasemd:** Ef fleiri en ein vídd er valin í þriðja valkostinum, er greiðslutillaga stofnuð fyrir víddarsamsetninguna.
+> [[!NOTE]
+> Ef þú velur fleiri en eina vídd í þriðja valkostinum er greiðslutillaga búin til fyrir víddarsamsetninguna.
 
 #### <a name="bank-account-selection"></a>Val á bankareikningi
 
