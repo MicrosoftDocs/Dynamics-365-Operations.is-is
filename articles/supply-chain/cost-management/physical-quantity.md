@@ -20,33 +20,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f30227d90be5f957c4e23a08069c6dba9b07bb35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="inventory-object-values"></a><span data-ttu-id="182a2-103">Gildi birgðahlutar</span><span class="sxs-lookup"><span data-stu-id="182a2-103">Inventory object values</span></span>
+# <a name="inventory-object-values"></a><span data-ttu-id="03122-103">Gildi birgðahlutar</span><span class="sxs-lookup"><span data-stu-id="03122-103">Inventory object values</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="182a2-104">Þessi grein veitir upplýsingar um hvernig gildi birgðahlutar eru reiknuð.</span><span class="sxs-lookup"><span data-stu-id="182a2-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
+<span data-ttu-id="03122-104">Þessi grein veitir upplýsingar um hvernig gildi birgðahlutar eru reiknuð.</span><span class="sxs-lookup"><span data-stu-id="03122-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-<span data-ttu-id="182a2-105">Ný aðgerð sem kallast **efnislegt magn** gerir það mögulegt að sjá gildi tilgreinds birgðahutar.</span><span class="sxs-lookup"><span data-stu-id="182a2-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
+<span data-ttu-id="03122-105">Ný aðgerð sem kallast **efnislegt magn** gerir það mögulegt að sjá gildi tilgreinds birgðahutar.</span><span class="sxs-lookup"><span data-stu-id="03122-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-<span data-ttu-id="182a2-106">Kostnaðarhlutur táknar einingarstig þar sem birgðabókhald er framkvæmt.</span><span class="sxs-lookup"><span data-stu-id="182a2-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="182a2-107">Nánari upplýsingar um kostnaðarhluti er í [Kostnaðarhlutir](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="182a2-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
+<span data-ttu-id="03122-106">Kostnaðarhlutur táknar einingarstig þar sem birgðabókhald er framkvæmt.</span><span class="sxs-lookup"><span data-stu-id="03122-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="03122-107">Nánari upplýsingar um kostnaðarhluti er í [Kostnaðarhlutir](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="03122-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-<span data-ttu-id="182a2-108">Til að sjá gildi tiltekins birgðahlutar skal smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="182a2-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="182a2-109">Hér er sýnt hvernig gildi birgðahlutar er reiknað:</span><span class="sxs-lookup"><span data-stu-id="182a2-109">Here is how the value of an inventory object is calculated:</span></span> 
+<span data-ttu-id="03122-108">Til að sjá gildi tiltekins birgðahlutar skal smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="03122-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="03122-109">Hér er sýnt hvernig gildi birgðahlutar er reiknað:</span><span class="sxs-lookup"><span data-stu-id="03122-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-<span data-ttu-id="182a2-110">Birgðahlutur.Virði = Kostnaðarhlutur.Meðaltal einingarkostnaðar x Birgðahlutur.Magn</span><span class="sxs-lookup"><span data-stu-id="182a2-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
+<span data-ttu-id="03122-110">Birgðahlutur.Virði = Kostnaðarhlutur.Meðaltal einingarkostnaðar x Birgðahlutur.Magn</span><span class="sxs-lookup"><span data-stu-id="03122-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-<span data-ttu-id="182a2-111">Sem eftirfarandi dæmi sýnir hvernig gildi birgðahlutar og kostnaðarhlutar eru reiknuð.</span><span class="sxs-lookup"><span data-stu-id="182a2-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="182a2-112">Tvö innhreyfingarskjöl afurða eru skráð á vöru A:</span><span class="sxs-lookup"><span data-stu-id="182a2-112">Two product receipt events are registered on item A:</span></span>
+<span data-ttu-id="03122-111">Sem eftirfarandi dæmi sýnir hvernig gildi birgðahlutar og kostnaðarhlutar eru reiknuð.</span><span class="sxs-lookup"><span data-stu-id="03122-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="03122-112">Tvö innhreyfingarskjöl afurða eru skráð á vöru A:</span><span class="sxs-lookup"><span data-stu-id="03122-112">Two product receipt events are registered on item A:</span></span>
 
--   <span data-ttu-id="182a2-113">Innhreyfingarskjal afurða 1: Magn = 100 stykki, Upphæð = $1000,00, Svæði = 1, Vöruhús = 11, Rununr.</span><span class="sxs-lookup"><span data-stu-id="182a2-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="182a2-114">= B1</span><span class="sxs-lookup"><span data-stu-id="182a2-114">= B1</span></span>
--   <span data-ttu-id="182a2-115">Innhreyfingarskjal afurða 2: Magn = 50 stykki, Upphæð = $800,00, Svæði = 1, Vöruhús = 11, Rununr.</span><span class="sxs-lookup"><span data-stu-id="182a2-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="182a2-116">= B2</span><span class="sxs-lookup"><span data-stu-id="182a2-116">= B2</span></span>
+-   <span data-ttu-id="03122-113">Innhreyfingarskjal afurða 1: Magn = 100 stykki, Upphæð = $1000,00, Svæði = 1, Vöruhús = 11, Rununr.</span><span class="sxs-lookup"><span data-stu-id="03122-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="03122-114">= B1</span><span class="sxs-lookup"><span data-stu-id="03122-114">= B1</span></span>
+-   <span data-ttu-id="03122-115">Innhreyfingarskjal afurða 2: Magn = 50 stykki, Upphæð = $800,00, Svæði = 1, Vöruhús = 11, Rununr.</span><span class="sxs-lookup"><span data-stu-id="03122-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="03122-116">= B2</span><span class="sxs-lookup"><span data-stu-id="03122-116">= B2</span></span>
 
-<span data-ttu-id="182a2-117">Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="182a2-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="182a2-118">Hægt er að skoða niðurstöður á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="182a2-118">You can view the result on the **Cost object** page.</span></span>
+<span data-ttu-id="03122-117">Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="03122-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="03122-118">Hægt er að skoða niðurstöður á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="03122-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -60,29 +60,29 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="182a2-119">Gerð hlutar</span><span class="sxs-lookup"><span data-stu-id="182a2-119">Object type</span></span></th>
-<th><span data-ttu-id="182a2-120">Vörunúmer</span><span class="sxs-lookup"><span data-stu-id="182a2-120">Item number</span></span></th>
-<th><span data-ttu-id="182a2-121">Svæði</span><span class="sxs-lookup"><span data-stu-id="182a2-121">Site</span></span></th>
-<th><span data-ttu-id="182a2-122">Magn</span><span class="sxs-lookup"><span data-stu-id="182a2-122">Quantity</span></span></th>
-<th><span data-ttu-id="182a2-123">Birgðaeining</span><span class="sxs-lookup"><span data-stu-id="182a2-123">Inventory unit</span></span></th>
-<th><span data-ttu-id="182a2-124">Gildi</span><span class="sxs-lookup"><span data-stu-id="182a2-124">Value</span></span></th>
-<th><span data-ttu-id="182a2-125">Meðaleiningarkostnaður</span><span class="sxs-lookup"><span data-stu-id="182a2-125">Average unit cost</span></span></th>
+<th><span data-ttu-id="03122-119">Gerð hlutar</span><span class="sxs-lookup"><span data-stu-id="03122-119">Object type</span></span></th>
+<th><span data-ttu-id="03122-120">Vörunúmer</span><span class="sxs-lookup"><span data-stu-id="03122-120">Item number</span></span></th>
+<th><span data-ttu-id="03122-121">Svæði</span><span class="sxs-lookup"><span data-stu-id="03122-121">Site</span></span></th>
+<th><span data-ttu-id="03122-122">Magn</span><span class="sxs-lookup"><span data-stu-id="03122-122">Quantity</span></span></th>
+<th><span data-ttu-id="03122-123">Birgðaeining</span><span class="sxs-lookup"><span data-stu-id="03122-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="03122-124">Gildi</span><span class="sxs-lookup"><span data-stu-id="03122-124">Value</span></span></th>
+<th><span data-ttu-id="03122-125">Meðaleiningarkostnaður</span><span class="sxs-lookup"><span data-stu-id="03122-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="182a2-126">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="182a2-126">Cost object</span></span></td>
-<td><span data-ttu-id="182a2-127">Lista fyrir</span><span class="sxs-lookup"><span data-stu-id="182a2-127">A</span></span></td>
-<td><span data-ttu-id="182a2-128">1</span><span class="sxs-lookup"><span data-stu-id="182a2-128">1</span></span></td>
-<td><span data-ttu-id="182a2-129">150</span><span class="sxs-lookup"><span data-stu-id="182a2-129">150</span></span></td>
-<td><span data-ttu-id="182a2-130">Stk.</span><span class="sxs-lookup"><span data-stu-id="182a2-130">Pcs.</span></span></td>
-<td><p><span data-ttu-id="182a2-131">$1800,00</span><span class="sxs-lookup"><span data-stu-id="182a2-131">$1800.00</span></span></p></td>
-<td><p><span data-ttu-id="182a2-132">$12,00</span><span class="sxs-lookup"><span data-stu-id="182a2-132">$12.00</span></span></p></td>
+<td><span data-ttu-id="03122-126">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="03122-126">Cost object</span></span></td>
+<td><span data-ttu-id="03122-127">Lista fyrir</span><span class="sxs-lookup"><span data-stu-id="03122-127">A</span></span></td>
+<td><span data-ttu-id="03122-128">1</span><span class="sxs-lookup"><span data-stu-id="03122-128">1</span></span></td>
+<td><span data-ttu-id="03122-129">150</span><span class="sxs-lookup"><span data-stu-id="03122-129">150</span></span></td>
+<td><span data-ttu-id="03122-130">Stk.</span><span class="sxs-lookup"><span data-stu-id="03122-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="03122-131">$1800,00</span><span class="sxs-lookup"><span data-stu-id="03122-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="03122-132">$12,00</span><span class="sxs-lookup"><span data-stu-id="03122-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="182a2-133">Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut.</span><span class="sxs-lookup"><span data-stu-id="182a2-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="182a2-134">Hægt er að skoða niðurstöðurnar með því að smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="182a2-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
+<span data-ttu-id="03122-133">Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut.</span><span class="sxs-lookup"><span data-stu-id="03122-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="03122-134">Hægt er að skoða niðurstöðurnar með því að smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**.</span><span class="sxs-lookup"><span data-stu-id="03122-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -98,53 +98,53 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="182a2-135">Gerð hlutar</span><span class="sxs-lookup"><span data-stu-id="182a2-135">Object type</span></span></th>
-<th><span data-ttu-id="182a2-136">Vörunúmer</span><span class="sxs-lookup"><span data-stu-id="182a2-136">Item number</span></span></th>
-<th><span data-ttu-id="182a2-137">Svæði</span><span class="sxs-lookup"><span data-stu-id="182a2-137">Site</span></span></th>
-<th><span data-ttu-id="182a2-138">Vöruhús</span><span class="sxs-lookup"><span data-stu-id="182a2-138">Warehouse</span></span></th>
-<th><span data-ttu-id="182a2-139">Rununr.</span><span class="sxs-lookup"><span data-stu-id="182a2-139">Batch No.</span></span></th>
-<th><span data-ttu-id="182a2-140">Magn</span><span class="sxs-lookup"><span data-stu-id="182a2-140">Quantity</span></span></th>
-<th><span data-ttu-id="182a2-141">Birgðaeining</span><span class="sxs-lookup"><span data-stu-id="182a2-141">Inventory unit</span></span></th>
-<th><span data-ttu-id="182a2-142">Gildi</span><span class="sxs-lookup"><span data-stu-id="182a2-142">Value</span></span></th>
-<th><span data-ttu-id="182a2-143">Meðaleiningarkostnaður</span><span class="sxs-lookup"><span data-stu-id="182a2-143">Average unit cost</span></span></th>
+<th><span data-ttu-id="03122-135">Gerð hlutar</span><span class="sxs-lookup"><span data-stu-id="03122-135">Object type</span></span></th>
+<th><span data-ttu-id="03122-136">Vörunúmer</span><span class="sxs-lookup"><span data-stu-id="03122-136">Item number</span></span></th>
+<th><span data-ttu-id="03122-137">Svæði</span><span class="sxs-lookup"><span data-stu-id="03122-137">Site</span></span></th>
+<th><span data-ttu-id="03122-138">Vöruhús</span><span class="sxs-lookup"><span data-stu-id="03122-138">Warehouse</span></span></th>
+<th><span data-ttu-id="03122-139">Rununr.</span><span class="sxs-lookup"><span data-stu-id="03122-139">Batch No.</span></span></th>
+<th><span data-ttu-id="03122-140">Magn</span><span class="sxs-lookup"><span data-stu-id="03122-140">Quantity</span></span></th>
+<th><span data-ttu-id="03122-141">Birgðaeining</span><span class="sxs-lookup"><span data-stu-id="03122-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="03122-142">Gildi</span><span class="sxs-lookup"><span data-stu-id="03122-142">Value</span></span></th>
+<th><span data-ttu-id="03122-143">Meðaleiningarkostnaður</span><span class="sxs-lookup"><span data-stu-id="03122-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="182a2-144">Birgðahlutur</span><span class="sxs-lookup"><span data-stu-id="182a2-144">Inventory object</span></span></td>
-<td><span data-ttu-id="182a2-145">Lista fyrir</span><span class="sxs-lookup"><span data-stu-id="182a2-145">A</span></span></td>
-<td><span data-ttu-id="182a2-146">1</span><span class="sxs-lookup"><span data-stu-id="182a2-146">1</span></span></td>
-<td><span data-ttu-id="182a2-147">11</span><span class="sxs-lookup"><span data-stu-id="182a2-147">11</span></span></td>
-<td><span data-ttu-id="182a2-148">B1</span><span class="sxs-lookup"><span data-stu-id="182a2-148">B1</span></span></td>
-<td><span data-ttu-id="182a2-149">100</span><span class="sxs-lookup"><span data-stu-id="182a2-149">100</span></span></td>
-<td><span data-ttu-id="182a2-150">Stk.</span><span class="sxs-lookup"><span data-stu-id="182a2-150">Pcs.</span></span></td>
-<td><p><span data-ttu-id="182a2-151">$1200.00</span><span class="sxs-lookup"><span data-stu-id="182a2-151">$1200.00</span></span></p></td>
-<td><p><span data-ttu-id="182a2-152">$12,00</span><span class="sxs-lookup"><span data-stu-id="182a2-152">$12.00</span></span></p></td>
+<td><span data-ttu-id="03122-144">Birgðahlutur</span><span class="sxs-lookup"><span data-stu-id="03122-144">Inventory object</span></span></td>
+<td><span data-ttu-id="03122-145">Lista fyrir</span><span class="sxs-lookup"><span data-stu-id="03122-145">A</span></span></td>
+<td><span data-ttu-id="03122-146">1</span><span class="sxs-lookup"><span data-stu-id="03122-146">1</span></span></td>
+<td><span data-ttu-id="03122-147">11</span><span class="sxs-lookup"><span data-stu-id="03122-147">11</span></span></td>
+<td><span data-ttu-id="03122-148">B1</span><span class="sxs-lookup"><span data-stu-id="03122-148">B1</span></span></td>
+<td><span data-ttu-id="03122-149">100</span><span class="sxs-lookup"><span data-stu-id="03122-149">100</span></span></td>
+<td><span data-ttu-id="03122-150">Stk.</span><span class="sxs-lookup"><span data-stu-id="03122-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="03122-151">$1200.00</span><span class="sxs-lookup"><span data-stu-id="03122-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="03122-152">$12,00</span><span class="sxs-lookup"><span data-stu-id="03122-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="182a2-153">Birgðahlutur</span><span class="sxs-lookup"><span data-stu-id="182a2-153">Inventory object</span></span></td>
-<td><span data-ttu-id="182a2-154">Lista fyrir</span><span class="sxs-lookup"><span data-stu-id="182a2-154">A</span></span></td>
-<td><span data-ttu-id="182a2-155">1</span><span class="sxs-lookup"><span data-stu-id="182a2-155">1</span></span></td>
-<td><span data-ttu-id="182a2-156">11</span><span class="sxs-lookup"><span data-stu-id="182a2-156">11</span></span></td>
-<td><span data-ttu-id="182a2-157">B2</span><span class="sxs-lookup"><span data-stu-id="182a2-157">B2</span></span></td>
-<td><span data-ttu-id="182a2-158">50</span><span class="sxs-lookup"><span data-stu-id="182a2-158">50</span></span></td>
-<td><span data-ttu-id="182a2-159">Stk.</span><span class="sxs-lookup"><span data-stu-id="182a2-159">Pcs.</span></span></td>
-<td><p><span data-ttu-id="182a2-160">$600.00</span><span class="sxs-lookup"><span data-stu-id="182a2-160">$600.00</span></span></p></td>
-<td><p><span data-ttu-id="182a2-161">$12,00</span><span class="sxs-lookup"><span data-stu-id="182a2-161">$12.00</span></span></p></td>
+<td><span data-ttu-id="03122-153">Birgðahlutur</span><span class="sxs-lookup"><span data-stu-id="03122-153">Inventory object</span></span></td>
+<td><span data-ttu-id="03122-154">A</span><span class="sxs-lookup"><span data-stu-id="03122-154">A</span></span></td>
+<td><span data-ttu-id="03122-155">1</span><span class="sxs-lookup"><span data-stu-id="03122-155">1</span></span></td>
+<td><span data-ttu-id="03122-156">11</span><span class="sxs-lookup"><span data-stu-id="03122-156">11</span></span></td>
+<td><span data-ttu-id="03122-157">B2</span><span class="sxs-lookup"><span data-stu-id="03122-157">B2</span></span></td>
+<td><span data-ttu-id="03122-158">50</span><span class="sxs-lookup"><span data-stu-id="03122-158">50</span></span></td>
+<td><span data-ttu-id="03122-159">Stk.</span><span class="sxs-lookup"><span data-stu-id="03122-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="03122-160">$600.00</span><span class="sxs-lookup"><span data-stu-id="03122-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="03122-161">$12,00</span><span class="sxs-lookup"><span data-stu-id="03122-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="182a2-162">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="182a2-162">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="03122-162">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="03122-162">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="182a2-163">Kostnaðarhlutir</span><span class="sxs-lookup"><span data-stu-id="182a2-163">Cost objects</span></span>](cost-object.md)
+[<span data-ttu-id="03122-163">Kostnaðarhlutir</span><span class="sxs-lookup"><span data-stu-id="03122-163">Cost objects</span></span>](cost-object.md)
 
-[<span data-ttu-id="182a2-164">Kostnaðarfærslur</span><span class="sxs-lookup"><span data-stu-id="182a2-164">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="03122-164">Kostnaðarfærslur</span><span class="sxs-lookup"><span data-stu-id="03122-164">Cost entries</span></span>](cost-entries.md)
 
-[<span data-ttu-id="182a2-165">Nýjungar og breytingar</span><span class="sxs-lookup"><span data-stu-id="182a2-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="03122-165">Nýjungar og breytingar</span><span class="sxs-lookup"><span data-stu-id="03122-165">What's new and changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 

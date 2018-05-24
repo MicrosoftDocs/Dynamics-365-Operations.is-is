@@ -20,33 +20,33 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d1025619d799cb94af73571f8ca78eca578782f4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="4913b-103">Fylgjast með nákvæmni spár</span><span class="sxs-lookup"><span data-stu-id="4913b-103">Monitor forecast accuracy</span></span>
+# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="7ff89-103">Fylgjast með nákvæmni spár</span><span class="sxs-lookup"><span data-stu-id="7ff89-103">Monitor forecast accuracy</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4913b-104">Þessi grein lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Finance and Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.</span><span class="sxs-lookup"><span data-stu-id="4913b-104">This article describes the types of forecast accuracy that Microsoft Dynamics 365 for Finance and Operations calculates, and explains how you can view the accuracy values.</span></span>
+<span data-ttu-id="7ff89-104">Þessi grein lýsir gerðum nákvæmnispáa sem Microsoft Microsoft Dynamics 365 for Finance and Operations reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.</span><span class="sxs-lookup"><span data-stu-id="7ff89-104">This article describes the types of forecast accuracy that Microsoft Dynamics 365 for Finance and Operations calculates, and explains how you can view the accuracy values.</span></span>
 
-<span data-ttu-id="4913b-105">Finance and Operations reiknar eftirfarandi gerðir af nákvæmnispám:</span><span class="sxs-lookup"><span data-stu-id="4913b-105">Finance and Operations calculates the following types of forecast accuracy:</span></span>
+<span data-ttu-id="7ff89-105">Finance and Operations reiknar eftirfarandi gerðir af nákvæmnispám:</span><span class="sxs-lookup"><span data-stu-id="7ff89-105">Finance and Operations calculates the following types of forecast accuracy:</span></span>
 
--   <span data-ttu-id="4913b-106">Söguleg nákvæmni spár, með því að bera saman sögulega spá sem notar Aðaláætlanagerð með sögulega eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="4913b-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="4913b-107">Til að skoða gildi (bæði raungildi og prósentugildi) fyrir sögulega nákvæmni spár er smellt á **Sýna nákvæmni** á **Upplýsingar eftirspurnarspár** síðunni.</span><span class="sxs-lookup"><span data-stu-id="4913b-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
--   <span data-ttu-id="4913b-108">Áætlaðuð nákvæmni spárlíkans sem er notað til að mynda spár.</span><span class="sxs-lookup"><span data-stu-id="4913b-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="4913b-109">Hægt er að skoða nákvæmnihlutfall undir **Líkan upplýsingar - MAPE** á **Upplýsingar eftirspurnarspár** síðunni.</span><span class="sxs-lookup"><span data-stu-id="4913b-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
+-   <span data-ttu-id="7ff89-106">Söguleg nákvæmni spár, með því að bera saman sögulega spá sem notar Aðaláætlanagerð með sögulega eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="7ff89-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="7ff89-107">Til að skoða gildi (bæði raungildi og prósentugildi) fyrir sögulega nákvæmni spár er smellt á **Sýna nákvæmni** á **Upplýsingar eftirspurnarspár** síðunni.</span><span class="sxs-lookup"><span data-stu-id="7ff89-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
+-   <span data-ttu-id="7ff89-108">Áætlaðuð nákvæmni spárlíkans sem er notað til að mynda spár.</span><span class="sxs-lookup"><span data-stu-id="7ff89-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="7ff89-109">Hægt er að skoða nákvæmnihlutfall undir **Líkan upplýsingar - MAPE** á **Upplýsingar eftirspurnarspár** síðunni.</span><span class="sxs-lookup"><span data-stu-id="7ff89-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
 
-<span data-ttu-id="4913b-110">**Athugaðu:** Ef þú notar eftirspurnarspár í Finance and Operations Microsoft Azure Machine Learning þjónustu, byggist útreikningur á nákvæmni innra líkans á prófunargagnsafni.</span><span class="sxs-lookup"><span data-stu-id="4913b-110">**Note:** If you use the Finance and Operations Demand forecasting Microsoft Azure Machine Learning service, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="4913b-111">Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_ SIZE\_ PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**.</span><span class="sxs-lookup"><span data-stu-id="4913b-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="4913b-112">Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.</span><span class="sxs-lookup"><span data-stu-id="4913b-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
+<span data-ttu-id="7ff89-110">**Athugaðu:** Ef þú notar eftirspurnarspár í Finance and Operations Microsoft Azure Machine Learning þjónustu, byggist útreikningur á nákvæmni innra líkans á prófunargagnsafni.</span><span class="sxs-lookup"><span data-stu-id="7ff89-110">**Note:** If you use the Finance and Operations Demand forecasting Microsoft Azure Machine Learning service, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="7ff89-111">Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_ SIZE\_ PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**.</span><span class="sxs-lookup"><span data-stu-id="7ff89-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="7ff89-112">Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.</span><span class="sxs-lookup"><span data-stu-id="7ff89-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="4913b-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="4913b-113">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="7ff89-113">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="7ff89-113">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="4913b-114">Heimila leiðrétta spá</span><span class="sxs-lookup"><span data-stu-id="4913b-114">Authorizing the adjusted forecast</span></span>](authorize-adjusted-forecast.md)
+[<span data-ttu-id="7ff89-114">Heimila leiðrétta spá</span><span class="sxs-lookup"><span data-stu-id="7ff89-114">Authorizing the adjusted forecast</span></span>](authorize-adjusted-forecast.md)
 
-[<span data-ttu-id="4913b-115">Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="4913b-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
+[<span data-ttu-id="7ff89-115">Fjarlægja einfara úr sögulegum færslugögnum við útreikning á eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="7ff89-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
 
 
 
