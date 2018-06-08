@@ -3,7 +3,7 @@ title: "Búa til viðvaranir"
 description: "Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 03/23/2018
 # <a name="create-alerts"></a>Búa til viðvaranir
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>Hafist handa
 Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir. Þegar þú veist hvaða tilvik þú vilt fá tilkynningu um skaltu finna, í Microsoft Dynamics 365 for Finance and Operations, síðuna með gögnunum sem eru þess valdandi að tilvikið birtist. Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað. Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til. Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.

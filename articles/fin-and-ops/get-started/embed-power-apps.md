@@ -3,7 +3,7 @@ title: Innfella PowerApps
 description: "Þetta efnisatriði lýsir því hvernig á að fella PowerApps inn í Finance and Operations biðlarann til að auka virkni vörunnar."
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -26,8 +26,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="embed-powerapps"></a>Innfella PowerApps
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Í verkvangsuppfærslu 14 styður Microsoft Dynamics 365 for Finance and Operations samþættingu við Microsoft PowerApps, þjónusta fyrir þróunaraðila og aðra ekki tæknilega notendur til að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. PowerApps þróað af þér, fyrirtæki þínu eða breiðara vistkerfi er síðan hægt að fella inn í biðlara Finance and Operations til að auka virkni vörunnar. Til dæmis gætir þú byggt upp PowerApp til að bæta við Finance and Operations með upplýsingum sem eru sótt frá öðru kerfi. 
 
