@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ Samstilling á gildunum **Metið** á móti gildunum **Notað** er stjórnað me
     - **Afurðalína:** Metið magn = 5ea, Notað magn = 6ea, Línustaða = Notað, Úthlutað = Já
     - **Þjónustulína:** Metið magn = 2t, Notað magn = 1,5t, Línustaða = Metin
 
-    Í þessu dæmi er gildið **Notað magn** fyrir afurðina **6** og **Metið magn** fyrir þjónustuna **1,5t** samstillt við Finance and Operations.
+    Í þessu dæmi er gildið **Notað magn** fyrir afurðina **6** og **Notað magn** fyrir þjónustuna **1,5t** samstillt við Finance and Operations.
 
 ## <a name="sales-order-origin-and-status"></a>Uppruni og staða sölupöntunar
 

@@ -1,9 +1,9 @@
 ---
 title: "Setja upp viðvaranir vegna svika"
-description: "Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Hægt er að skilgreina ákveðna kóða sem nota á til að sjálfvirkt eða handvirkt setja grunsamlegar pantanir í bið."
+description: "Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,53 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f57cdb44d5ed3b078478cf47b74d1a79ba10323c
+ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
+ms.openlocfilehash: 2534e687623ab750f349287a762a354bc0fcf12b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/17/2018
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Uppsetning svikaviðvarana
+# <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp skilyrði og reglur til að setja sviksamlegar sölupantanir í bið þar til frekari skoðun hefur farið fram. Skoðunarvirkni tengd svikum er notuð til að ákvarða réttmæti upplýsinga í sölupöntun. Ef upplýsingar í sölupöntun virðist vafasamar miðað við svik viðmiðanir og reglur stofnunarinnar, er hægt að setja pöntunina í bið til að fá frekari skoðun hjá stjórnanda.
+Þetta efni útskýrir hvernig á að setja upp viðmiðanir og reglur til að setja hugsanlega sviksamlega sölupantanir í bið til frekari endurskoðunar. Eiginleikinn fyrir svikaathugun er notuð til að ákvarða réttmæti upplýsinganna í sölupöntun. Ef upplýsingar í sölupöntun virðist vafasamar, miðað við svik viðmiðanir og reglur stofnunarinnar, er hægt að setja pöntunina í bið til frekari endurskoðunar. Í þessu tilfelli er ekki hægt að gefa út pöntunina í vörugeymsluna til frekari vinnslu fyrr en biðin hefur verið hreinsað.
 
 > [!NOTE]
-> Þennan eiginleiki er eingöngu hægt að nota með úrvinnslu sölupöntunar á rás símavers smásölu. 
+> Þessi eiginleiki er aðeins hægt að nota með sölupöntunarvinnslu fyrir smásölurás símavers.
 
-Þegar rás símavers er skilgreind verður að stilla **Virkja lok pöntunar** á **Já**. Þegar lok pöntunar eru virkjuð getur notendur skoðað samantekt pöntunar og smellt á **Senda inn** til að ljúka pöntuninni. Notendur munu einnig fá valkosti til að setja sölupantanir sem eru í svikaskoðun handvirkt í bið. Sölupantanir sem notandi lætur vita af gegnum símaver eru settar í ferli tengt reglum og skilyrðum svika á meðan innsendingarúrvinnslunni stendur.
+## <a name="turning-on-the-fraud-check-feature"></a>Kveikja á eiginleika fyrir svikaathugun
 
-Það eru tvær tegundir af svikaskilyrðum sem kerfið muni vísa til þegar athugað er hvort pöntun ætti að vera haldið eftir og hún sett í svikaskoðun:
+Til að nota eiginleika fyrir svikaathugun verður þú að stilla **Virkja lok pöntunar** valmöguleikann á rásinni á **Já** þegar símaversrásin er [skilgreind](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-order-processing-options). Þegar kveikt er á lokum pöntunar, verða notendur símavers að velja **Ljúka** á sölupöntunarsíðunni fyrir allar sölupantanir sem eru búnar til. Ljúka aðgerðin veldur því að **Sölupöntunarsamantekt** síðan opnast. Eftir að notendur hafa slegið inn nauðsynleg greiðslugögn á **Sölupöntunarsamantekt** síðunni skal velja **Senda inn** til að ljúka pöntuninni. Þegar pöntunin er send inn er kveikt á svikaathuguninni og allir reglur sem eru virkir í kerfinu eru sjálfkrafa sannprófaðar.
 
--   **Fastar reglur** nota tiltekið gildi, eins og símanúmer sem hefur verið sett á svartan lista eða netfang sem hefur verið flaggað vegna sviksamlegra færslna í fortíðinni. Á síðunni **Föst sviksamleg gögn** er hægt að bæta við upplýsingum um svik handvirkt eða með því að flytja inn gögn þar sem stig eru meðfylgjandi sviksamlegum upplýsingum. Ef kveikt er á svikakönnun, mun sérhver sölupöntun sem færð er inn borin saman við föstu gögnin. Ef gögnin finnast í annaðhvort innheimtu- eða afhendingaraðsetur viðskiptavinarins eða ef gögnin eru að finna í afhendingaraðsetri á sölulínunni verða stig allra einstakrar samsvörunar lögð saman.  
--   **Gagnvirkar reglur** er búnar til úr breytum og skilyrðum sem eru skilgreind fyrir þessar breytur. Með gagnvirkum reglum er hægt að athuga önnur skilyrði sem ekki eru skilgreind í kyrrstæðum reglum. Hægt er að nota flóknari „OG/EÐA“ yfirlýsingar til skoða margskonar aðstæður til að ákvarða hvort jákvæð samsvörun sé á milli regluskilyrða og sölupöntunar sem lögð er fram. Til dæmis, ef notandi vill halda eftir og setja í svikaskoðun pantanir fyrir viðskiptavini sem eru bundnir við tiltekið viðskiptavina hópvirði og sem pöntuðu ákveðna vöru, yrðu skilyrði fyrir að staðfesta viðskiptavin og staðfesta vörur skilgreind á síðunni **Reglur** með „OG“ skilyrði. Röðin myndi falla í bið vegna svika aðeins ef báðir skilyrðin voru sönn og ef stigagildi sem er úthlutað til reglunnar setti heildar svikastigafjölda pöntunarinnar yfir lágmarks svikastigafjölda eins og skilgreint er í færibreytum Símavers.
+Notendur símavers geta einnig handvirkt sett sölupantanir í bið til að gera svikakönnun áður en þeir velja **Senda inn**. Til að setja sölupöntun handvirkt í bið, á **Sölupöntunarsamantekt** síðunni skaltu velja **Í bið** \> **Handvirk bið vegna svika**. Þú ert þá beðinn um að slá inn athugasemd til að útskýra ástæður þínar fyrir að setja pöntunina í bið. Þessi athugasemd munu birtast í [Pantanir í bið](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) vinnusvæði til að veita samhengi við notandann sem skoðar pantanir sem eru í bið til að ákvarða hvort pöntunin skuli losuð.
 
-Notandi símavers getur einnig handvirkt lagt pöntun inn í biðröð pantana sem eru í bið vegna svika. Ef notandinn sem færir inn pöntunina telur að viðskiptavinurinn sem leggur pöntunina gæti verið grunsamlegur og vill að einhver annar fari yfir pöntunarstaðfestinguna áður en hún er unnin, þá getur notandinn sem færir inn pöntunina valið **Handvirkt í bið vegna svika** valmöguleikann í fellivalmyndinni **Í bið** á síðunni **Samantekt sölupantana** (þetta birtist eftir að **Ljúka** pöntun virknin er kölluð fram). Notandinn verður hvattur til að færa inn athugasemd til að útskýra frekar hvers vegna þeir telja að pöntunin sé sviksamleg svo að sá sem fer yfir málið hafi meira samhengi.
+Til viðbótar við að grunnstilla **Virkja lok pöntunar** valkost á rásinni, verður þú að grunnstilla eiginleika svikaathugunar í færibreytur símavers. Farið í **Smásala** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Á **Færibreytur símavers** síðunni, á **Biðstöður** flipanum, stilltu **Svikaathugun** valkosturinn á **Já**.
 
-Allar pantanir sem haldið er eftir í gegnum handvirkt í bið vegna svika eða með kerfisbundinni útreikningi á svikastigafjölda munu birtast á **Pantanir í bið** síðunni, þar sem pöntunin er hægt að endurskoða og síðan annaðhvort hætt við eða sleppt til vinnslu.
+Á **Biðstöður** flipanum ættir þú einnig að skilgreina þá [Biðkóðar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) sem verður beitt í pöntun sem er annaðhvort handvirkt eða sjálfkrafa sett í bið til svikaathugunar. Stilltu biðkóðana í **Handvirk bið sökum svika** og **Biðkóði sökum svika** reitina. Þú gætir þótt gagnlegt að búa til tvo einstaka biðkóða, þannig að notendur sem vinna í vinnusvæði fyrir bið geta auðveldlega afmarkað og greint sjálfvirka bið frá handvirkri bið.
+
+Til að eiginleikinn fyrir svikaathugun sé skilvirkur, verður þú einnig að stilla **Lágmarksfjöldi stiga** reitinn. Sérhver svikaviðmiðun og regla sem er skilgreind í kerfinu hefur ákveðinn fjölda stiga. Þegar sölupöntun er skoðuð fyrir sviksamsvörun, ef ein eða fleiri samsvörun finnast, eru stigin bætt saman til að gefa pöntunina heildarfjölda svikastiga. Ef heildarfjöldi svikastiga fyrir pöntun fer yfir gildi **Lágmarksfjöldi stiga** reitsins er pöntunin sjálfkrafa sett í bið. Þú getur valið aðra stigatengda reiti á **Biðstöður** flipanum til að skilgreina tölvupóstsskorið, símaskorið, póstnúmeraskorið og útvíkkað póstnúmeraskorið. Ef þú tilgreinir ekki skor fyrir neina af þessum föstu svikaviðmiðum þegar þú skilgreina þær á **Föst svikaviðmið** síðunni mun kerfið ákvarða skorin með því að nota sjálfgefið skor sem þú tilgreinir á **Biðtímar** flipanum á **Færibreytur símavers** síðunni.
+
+Að lokum skaltu nota **Gerð athugasemdar svik** reitinn til að tilgreina þá tegund skjals sem ætti að nota þegar notendur slá inn athugasemdir þegar þeir setja pöntun handvirkt í bið fyrir svik endurskoðun. Oftast er þetta reit sett á **Athugasemd**.
+
+## <a name="defining-fraud-criteria-and-rules"></a>Skilgreina svikaviðmið og reglur
+
+Kerfið vísar til tvær tegundir af svikaviðmiðum til að ákvarða hvort pöntun verði sett í bið fyrir svik endurskoðun:
+
+- **Föst svikagögn** nota tiltekið gildi, eins og símanúmer sem hefur verið sett á svartan lista eða netfang sem hefur verið flaggað vegna sviksamlegra færslna í fortíðinni. Til að setja upp föst svikagögn, farðu í **Smásala** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Svik** \> **Föst svikagögn**. Á **Föst svikagögn** síðunni er hægt að bæta svikaviðmiðum handvirkt eða með gagnainnflutningi. Skor er fest við sviksamlegar upplýsingar. Ef kveikt er á eiginleika fyrir svikaathugun, mun sérhver sölupöntun sem færð er inn borin saman við föstu gögnin. Ef gögnin er að finna í annaðhvort greiðsluaðsetri viðskiptavinarins eða afhendingaraðsetri sem er tengt við pöntunarhausinn eða ef gögnin finnast á afhendingaraðsetri sem tengjast einhverjum af línum sölupöntunarinnar, er skor fyrir einstæða samsvörun bætt saman og borinn saman við **Lágmarksfjöldi stiga** gildi til að ákvarða hvort pöntunin ætti að vera í bið.
+- **Svikareglur** samanstanda af notendaskilgreindum breytur og skilyrðum sem eru skilgreind fyrir þessar breytur. Til að búa til reglur skaltu fara í **Smásala** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Svik** \> **Reglur**. Svikareglur leyfa fyrirtækinu að grunnstilla flóknara regluverk sem getur innihaldið **OG** eða **EÐA** staðhæfingar til að meta margvíslegar skilyrði. Til dæmis vill notandi allar pantanir fyrir viðskiptavini sem tilheyra tilteknum hópi viðskiptavina og sem pantaði tiltekna vöru til að setja í bið fyrir svikaleit. Í þessu tilviki, skilyrði til að sannprófa viðskiptavininn og vörur eru skilgreindar á **Reglur** síðu, og OG ástand er notað. Röð er því aðeins sett í bið ef báðir aðstæður eru sönn og ef gildi skors sem er úthlutað til þessa reglu, auk gildi skors annarra reglna sem pöntunin samsvarar, veldur því að heildarfjöldi svikastiga pöntunarinnar fer yfir **Lágmarksfjöldi stiga** gildið sem er skilgreint á **Færibreytur símavea** síðu.
 
 > [!NOTE]
-> Notkun margra reglna eða of flókinna reglna mun leiða til slæmrar frammistöðu kerfis þegar sölupantanir eru send inn. Svik viðvörun eiginleikinn hefur ekki verið fínstilltur til að geta afgreitt mikið magn fastra svikagagnafærslna og margar virkar reglur. Mikilvægt er að hafa í huga að sérhver regla er metin meðan á innsendingarvirkni sölupöntunarfærslna í símaver stendur. Reglurnar eru metnar í samræmi við sölupöntunarhausinn og allar pöntunarlínur. Því fleiri reglur og því flóknari sem regluyfirlýsingarnar eru, því lengri tíma tekur úrvinnslan. Ef þú ert með fjölda línuatriða í pöntun þinni, fjölda virkra reglna og fastgagnafærslur, getur þetta kerfisbundna ferli við að endurskoða og staðfesta öll gögnin og reikna svikatölur haft veruleg áhrif á afköst.  Stofnanir sem nota þessa eiginleika ættu alltaf að prófa og staðfesta að vinnslutími innsendingar á pöntun sé viðunandi áður en reglubreytingar eða föst svikaskilyrði eru sett í notkun í framleiðsluumhverfinu.
+> Mörg reglur eða of flóknar reglur munu hafa áhrif á afköst kerfisins þegar sölupantanir eru sendar inn. Eiginleikinn fyrir svikaathugun hefur ekki verið fínstilltur til að geta afgreitt mikið magn fastra svikagagnafærslna og margar virkar reglur. Mundu að hver regla er metin þegar notendur símavers velja **Senda inn** á meðan sölupöntunarfærslu stendur. Reglurnar eru metnar í samræmi við sölupöntunarhausinn og allar pöntunarlínur. Því fleiri reglur sem eru til staðar og því flóknari sem regluyfirlýsingarnar eru, því lengri tíma tekur úrvinnslan. Ef fjöldi línuatriða eru í pöntun, og fjöldi virkra reglna og fastgagnafærslur, getur þetta sjálfvirka ferli við að endurskoða og staðfesta öll gögnin og reikna svikatölur haft veruleg áhrif á afköst. Stofnanir sem nota þessa eiginleika ættu alltaf að prófa og staðfesta að vinnslutími fyrir innsendingu á pöntun er ásættanlegt áður en þær virkja nokkrar breytingar á reglur eða föst svikaviðmið í framleiðslu umhverfið.
+
+## <a name="identifying-orders-that-are-on-hold-for-fraud-review"></a>Bera kennsl á pantanir sem eru í bið vegna svikakönnunar
+
+Þegar notendur símavers senda inn sölupöntun, ef pöntunin passar við svikaviðmiðanir eða reglur, og ef skorið fer yfir lágmarkið fá notendur viðvörunarboð sem kveða á um að pöntunin hafi verið sett í bið. Notendur geta lokað þessum skilaboðum vegna þess að þær eru aðeins til upplýsinga. Notendur geta mögulega miðlað þessum upplýsingum til viðskiptavina. Fyrirtækið ætti að ákvarða samskiptareglur sem notendur fylgja við þessar aðstæður.
+
+Pöntunin er vistuð, en **Ekki setja í ferli** flaggið er stillt á hana. Þetta flagg hjálpar til við að tryggja að pöntunin verði ekki sleppt í vörugeymsluna. Hvenær sem er, geta notendur skoðað stillinguna fyrir **Ekki setja í ferli** flaggið fyrir hvaða sölupöntun sem er á **Ítarleg staða** síðunni. Þessi síða er hægt að opna frá **Allar sölupantanir** og **Notendaþjónusta** síður. Kerfið uppfærir einnig gildi **Ítarleg staða** reitinn fyrir pöntunina til **Í bið sökum svika**.
+
+Til að skoða og stjórna pöntununum sem eru í bið fyrir svikakönnun skaltu fara í **Smásala** \> **Viðskiptavinir** \> **Pantanir í bið**. Á síðunni **Pantanir í bið** skal velja færslu í listanum og smella svo á **Pöntun í bið** til að sjá frekari upplýsingar sem innihalda ástæðuupplýsingar. Á flipanum **Upplýsingar um svik** er hægt að skoða kerfisbundin svikaviðmið sem fundust fyrir pöntunina og stigin sem voru notuð. Ef pöntunin var sett í bið handvirkt er hægt að skoða allar athugasemdir sem notandinn sem setti pöntunina í bið sló inn með því að skoða **Athugasemdir um svik** hlutann í flýtiflipanum **Athugasemdir**.
+
+Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds).
 

@@ -1,28 +1,28 @@
 ---
 title: "Þjónustustjórnun"
 description: "Notið þjónustustjórnun til að koma á þjónustusamningum og þjónustuáskriftum, afgreiða þjónustupantanir og fyrirspurnir viðskiptavina og til að stjórna og greina afhendingu þjónustu til viðskiptavina."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: is-is
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Hægt er að stofna þjónustupantanir til að stjórna upplýsingum um áætla�
 
 4.  Allar gjöld og gjöld sem tengjast þjónustu eða viðgerð
 
-Viðskiptavinir geta sent þjónustubeiðnir í gegnum internetið með því að nota Enterprise Portal. Hægt er að taka á móti, vinna og senda út þessar beiðnir. Eftir að þú hefur stofnað þjónustupöntun, getur þú notað stig þjónustubeiðnar til að fylgjast með framvindu og tilgreina reglur sem stjórna hvað aðgerðir eru virk í hverju stigi. Þegar þjónustupöntun er lokið er hægt að útskrá pöntunina sem á að staðfesta að henni sé lokið og bóka síðan pöntun til að hefja reiknings.
+Hægt er að taka á móti, vinna og senda út þjónustubeiðnir. Eftir að þú hefur stofnað þjónustupöntun, getur þú notað stig þjónustubeiðnar til að fylgjast með framvindu og tilgreina reglur sem stjórna hvað aðgerðir eru virk í hverju stigi. Þegar þjónustupöntun er lokið er hægt að útskrá pöntunina sem á að staðfesta að henni sé lokið og bóka síðan pöntun til að hefja reiknings.
 
 Notið skýrslugerðarverkfæri til að fylgjast með þjónustupöntunar og áskriftarfærslum og prenta verklýsingar og innhreyfingar.
 
@@ -56,47 +56,19 @@ Eftirfarandi skýringarmynd sýnir viðskiptaferla á háu stigi fyrir **Þjónu
 
 ## <a name="service-management-at-a-glance"></a>Þjónustustjórnun í fljótu bragði
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Mikilvæg verkefni</p></th>
-<th><p>Aðal skjámyndir</p></th>
-<th><p>Algengustu skýrslur</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Uppfylla þjónustusamninga</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Þjónustusamningar (skjámynd)</a></p></td>
-<td><p><strong>Framlegð þjónustupöntunar</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Vinna með fyrirspurnir viðskiptavina</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Þjónustupantanir (skjámynd)</a></p></td>
-<td><p><strong>Verklýsing</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Sendingartafla (skjámynd)</a></p></td>
-<td><p><strong>Færsla - Áskrift</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Færslur vegna áskriftarþóknunar</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Mikilvæg verkefni           | Aðalsíður                         |Algengustu skýrslur              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Uppfylla þjónustusamninga|Þjónustusamningar                     |Framlegð þjónustupöntunar         |
+|Vinna með fyrirspurnir viðskiptavina |Þjónustupantanir                         |Verklýsing             |
+|                          |Sendingartafla                         |Færsla - Áskrift   |
+|                          |                                       |Færslur vegna áskriftarþóknunar|
 
 
 ## <a name="integration-of-service-management"></a>Samþætting þjónustukerfa
 
-Þjónustustjórnun geta verið samþætt við eftirfarandi kerfiseiningar í Microsoft Dynamics 365 for Finance and Operations:
+Þjónustustjórnun geta verið samþætt við eftirfarandi einingar:
 
   - [Sala og markaðsstarf](../sales-marketing/overview-sales-marketing.md)
-
   - [Mannauður](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

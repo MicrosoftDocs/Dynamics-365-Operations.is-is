@@ -3,7 +3,7 @@ title: "Sérsniðin notkun"
 description: "Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 3d969069dd5f447b449df84b097527d3814aa338
+ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
+ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
 ms.contentlocale: is-is
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -32,105 +32,122 @@ ms.lasthandoff: 11/20/2017
 
 Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations.
 
-Það eru margar gerðir sérstillinga í Microsoft Dynamics 365 for Finance and Operations. Sumar sérstillingar eru valdar í lista yfir valkosti á uppsetningarsíðunni. Sumar sérstillingar eru óbeinar, til dæmis heldur Finance and Operations utan um breidd dálka í hnitanetinu ef það þarf að leiðrétta þá og útvíkkaða/samandregna stöðu flýtiflipa. Aðrar sérstillingar eru beinar. Fyrir beinar sérstillingar er færður inn gagnvirkur sérsniðsmáti og útliti síðu breytt með því að stjórna því hvernig einingar birtast eða bregðast við á síðunni. 
+Það eru þrjár grunnflokkar sérstillinga í Finance and Operations. 
+- Sérstillingar gerðar á uppsetningarsíðu. Til dæmis stillingar á litaþema og tímabelti.
+- Sérstillingar sem tengjast notkun á síðum og kallast *óbeinar* sérstillingar. Til dæmis fylgist Finance and Operations með breidd dálka í hnitaneti ef þú stillir þá, og hvort flýtiflipar eru útvíkkaðir eða samandregnir. 
+- Sérstillingar sem notandi gerir til að breyta útliti á síðu með því að breyta því hvernig eining birtist eða virkar á þeirri síðu, oft í gegnum gagnvirkan sérstillingarham. Þessar sérstillingar eru kallaðar *beinar* sérstillingar. Til dæmis getur notandinn bætt við, falið eða endurskipuleggja einingar á síðunni.
 
-Allar sérstillingar, af hvaða tagi sem er, sem notandi gerir í Finance and Operations eru aðeins fyrir þann notanda, burtséð frá fyrirtækinu sem notandinn vinnur með. Breytingar sem notandi gerir á síðu hafa ekki áhrif á aðra notendur kerfisins.
+Allar sérstillingar sem notandi gerir í Finance and Operations eru aðeins fyrir þann notanda, óháð gerð sérstillingar eða því fyrirtæki sem notandinn á í samskiptum við á þeim tíma. Breytingarnar sem notandi gerir á síðu hefur ekki áhrif á aðra notendur í kerfinu.
 
 ## <a name="system-wide-options-for-the-current-user"></a>Kerfisaltækir valkostir fyrir núverandi notanda
-Í yfirlitsstiku finnurðu mynd af tannhjóli, sem kallast valmyndarhnappurinn **Stillingar**. Opnun valmyndarinnar **Stillingar** mun sýna fjölda valkosta. Val á **Valkostir** opnar síðuna **Valkostir** notanda. Þar finnurðu fjóra valkostaflipa: 
+**Notandavalkostir** síðan inniheldur nokkrar kerfisaltækar stillingar fyrir núverandi notanda. Til að opna **Notandavalkostir** síðuna skaltu velja **Stillingar** valmyndina (táknið fyrir gír) á yfirlitsstikunni og velja síðan **Notandavalkostir**. **Notandavalkostir** síðan hefur fjóra flipa sem innihalda ýmsar notandastillingar:
 
--   **Visual:** Notað til að velja litaþema og sjálfgefin stærð einingar á síðum fyrirtækisins.
--   **Kjörstillingar:** Hér er hægt að velja sjálfgildi fyrir hvert sinn sem Finance and Operations er opnað, þ.m.t. fyrirtækið, upphafssíðu og sjálfgefið yfirlit/breytingahamur (sem ákveður hvort síðu er læst fyrir skoðun eða opinn til breytinga í hvert sinn sem hún er opnuð). Einnig er verður hægt að finna tungumál, tímabelti og dagsetningu, tíma- og númer snið valkosti. Að endingu inniheldur þessi síða fjölda ýmissa kjörstillinga sem eru breytilegar frá losun til að losa.
--   **Lykill:** Notað til að veita Notandakenni og aðra lykiltengda valkosti.
--   **Verkflæði:** Hér er hægt er að velja erkflæðistengda valkosti.
+- **Sjónrænt** - Veldu litaþema og sjálfgefna stærð eininga á síðum.
+- **Kjörstillingar** - Veldu sjálfgefin gildi sem eru notuð í hvert skipti sem þú opnar Finance and Operations. Þessi gildi eru meðal annars fyrirtækið, upphafssíðan og sjálfgefið skoða/breyta hamurinn. (Skoða/breyta hamurinn ákvarðar hvort síða sé læst í skoðun eða opin fyrir breytingar í hvert skipti sem þú opnar hana.) Þessi flipi inniheldur einnig valkosti fyrir tungumálið, tímabeltið og dagsetningu, tíma og númerasnið. Að lokum inniheldur þessi flipi nokkrar fjölbreytilegar kjörstillingar sem eru mismunandi frá útgáfu til útgáfu.
+- **Notandareikningur** - Stilla notandanafnið þitt og aðrar valkosti sem tengjast notandareikningi.
+- **Vinnuflæði** - Veldu verkflæðatengda valkosti.
 
 ## <a name="implicit-personalizations"></a>Óbeinar sérstillingar
-Óbeinar sérstillingar eru þær sérstillingar sem eru framkvæmdar einfaldlega með notkun ákveðinna stýringa sem muna núverandi stöðu sína. 
+Óbeinar sérstillingar eru þær sérstillingar sem þú gerir aðeins með því að hafa samskipti við stjórntæki sem „muna“ núverandi sýnilegt ástand þeirra.
 
-- **Dálkar í hnitanetinu:** Hægt er að stilla breidd dálks í lista með því að velja stærðarstikuna til vinstri eða hægri við dálkhausinn og renna henni til vinstri eða hægri um æskilega breidd. Finance and Operations geymir breiddina sem á að stilla og sýna dálkinn með þeirri breidd í hvert skipti sem síðan er opnuð sem listi. 
+- **Dálkar í hnitaneti** - Hægt er að stilla breidd dálks í hnitaneti með því að velja stækkunarstikuna vinstra eða hægra megin við dálkhausinn og síðan renna henni til vinstri eða hægri þar til dálkurinn nær ákjósanlegri breidd. Finance and Operations geymir breiddina sem þú stillir fyrir dálk. Forritið breytir síðan dálknum í þá breidd í hvert sinn sem þú opnar síðuna sem inniheldur það hnitanet.
+- **Flýtiflipar** - Sumar síður hafa stækkanlega hluta sem eru þekktir sem *Flýtiflipar*. Finance and Operations geymir upplýsingar um flýtiflipana sem þú hefur víkkað út og dregið saman. Í hvert skipti sem þú kemur síðan aftur á síðuna, verða sömu flýtifliparnir annaðhvort víkkaðir út eða dregnir saman, byggt á síðustu samskiptum þínum við síðuna. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman flýtiflipa, því Finance and Operations þarf ekki að sækja upplýsingar um þann flýtiflipa þar til hann er stækkaður. Eins og útskýrt er síðar í þessu efnisatriði geturðu einnig breytt röð flýtiflipanna á síðu.
+- **Upplýsingareitir** - Sumar síður hafa hluta sem kallast *Upplýsingareitssvæði*. Þetta svæði inniheldur skrifvarðar upplýsingar sem tengjast efninu á síðunni. Sérhver hluti í upplýsingareitssvæði kallast *Upplýsingareitur*. Þú getur falið eða sýnt allt upplýsingareitssvæðið, og þú getur einnig útvíkkað eða dregið saman einstaka upplýsingareiti. Finance and Operations geymir kjörstillingar þínar. Í hvert skipti sem þú ferð síðan aftur inn á síðuna verður staða upplýsingareitssvæðisins og einstakra upplýsingareita endurheimt, byggt á síðustu samskiptum þínum við síðuna. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman upplýsingareit, því að Finance and Operations þarf ekki að sækja upplýsingar um þann upplýsingareit þar til hann er stækkaður.
+- **Aðgerðarsvæði** - *Aðgerðarsvæði* birtist ofarlega á flestum síðum. Aðgerðarsvæðið inniheldur hnappa fyrir margar af aðgerðunum sem þú getur framkvæmt á þessari síðu. Þessum hnöppum er oft raðað niður á flipa. Þú getur opnað alla aðgerðarsíðuna og fest hana þannig, eða þú getur valið að hafa hana samandregna að sjálfgefnu. Næst þegar þú síðan opnar síðuna, mun Finance and Operations endurheimta festa stöðu aðgerðarsíðunnar. Ef aðgerðarsýningin er opnuð og fest þannig, birtir Finance and Operations einnig flipann með aðgerðum sem þú notar síðast.
+- **QuickFilters** - A *QuickFilter* birtist fyrir ofan mörg hnitanet. QuickFilter leyfir þér að afmarka hnitanetið, byggt á dálki sem þú velur. Finance and Operations geymir dálkinn sem þú byggðir afmörkunina á. Næst þegar þú síðan opnar síðuna sem inniheldur þetta hnitanet verður hnitanetið afmarkað út frá sömu dálki. Hins vegar geturðu síðan afmarkað hnitanetið út frá öðrum dálki.
+- **Dálkhausaafmarkanir** - Þegar þú afmarkar hnitanet með því að nota *Dálkhausaafmarkanir*, geturðu breytt virknitákni afmörkunar eftir þörfum til að finna gögnin sem þú vilt. Til dæmis getur þú breytt virknitákninu frá **byrjar á** til **er nákvæmlega**. Í hvert skipti sem þú notar dálkhausaafmörkun og breytir virknitákni afmörkunar, geymir Finance and Operations breytinguna. Forritið mun síðan endurheimta virknitákn afmörkunar næst þegar þú afmarkar út frá þessum dálki.
+- **Yfirlitssvæði** - Þú getur opnað *Yfirlitssvæði* með því að velja **Valmynd** hnappinn vinstra megin á hvaða síðu sem er. (**Valmynd** hnappurinn er stundum nefndur *hamborgari*, *hamborgaravalmynd* eða *hamborgarahnappur*.) Hægt er að opna yfirlitssvæði og festa það þannig, eða þú getur haldið því samandregnu að sjálfgefnu. Eftir að þú hefur opnað yfirlitssvæði og fest það þannig, mun Finance and Operations halda því opinni þar til þú dregur það saman.
 
-- **Flýtiflipar:** - Sumar síður hafa stækkanlega hluta sem kallast *flýtiflipar*. Finance and Operations geymir hvaða flýtiflipar hafa verið útvíkkaðir og hvaða flýtiflipar hafa verið dregnir saman. Í hvert sinn sem síðu er skilað eru þessir sömu flýtiflipar útvíkkaðir eða dregnir saman byggð á þeim var notað síðast. Í þessari grein verður útskýrt hvernig á að breyta röðun á flýtiflipunum. Í sumum tilvikum getur minnkun flýtiflipa bætt afköst því Finance and Operations þarf ekki að sækja upplýsingar um þá flýtiflipa fyrr en flýtiflipinn er útvíkkaður. 
+## <a name="explicit-personalizations"></a>Beinar sérstillingar
+Mismunandi fólk og fyrirtæki hafa mismunandi sjónarhorn á gögnin sem eru mikilvægustu fyrir þá, eða á gögnin sem þau þarfnast ekki vegna þess hvernig reksturinn er uppbyggður. Í Finance and Operations getur þú sérsniðið hvernig upplýsingarnar þínar eru skipulagðar og notaðar. Þú getur einnig tilgreint að einhverjar upplýsingar ætti að vera falin. Þessir eiginleikar er lykillinn að persónulegum og árangursríkum upplifun og eru dæmi um beinar sérstillingar. Beinar sérstillingar eru sérstillingar sem þú setur inn beint, með það fyrir augum að breyta útliti eða hegðun einingar eða síðu.
 
-- **Staðreyndareitir** - Sumar síður hafa hluta sem kallast *Staðreyndareitir*. Þessi rúða inniheldur aðeins til lestrar upplýsingar sem tengjast gildandi efni á síðunni. Hver kafli í staðreyndarúðunni er kallaður staðreyndareitur. Hægt er að útvíkka eða draga saman staðreyndareiti og Finance and Operations mun geyma forstillingar þínar. Í sumum tilvikum getur minnkun staðreyndareita bætt afköst því Finance and Operations þarf ekki að sækja upplýsingar um þá staðreyndareiti fyrr en staðreyndareiturinn er útvíkkaður.
+### <a name="shortcut-menu-options"></a>Flýtivalmynd valkostir
+Flýtivalmyndir bjóða upp á nokkrar leiðir til að breyta síðum beint til að verða betur við kröfum þínar eða fyrirtækis þíns. (Flýtivalmynd er einnig þekkt sem *valmynd þegar er hægrismellt* eða *samhengisvalmynd*.)
 
-## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Yfirlýstar sérstillingar með sérsniðinni verkfærastiku
-Hver einstaklingur og fyrirtæki hefur mismunandi sjónarhorn um hvaða gögn eru þeim mikilvægust eða hvaða gögn er ekki þörf fyrir hátt rekstrinum þær keyrðar. Möguleikinn á að sníða hvernig upplýsingum er raðað, unnið með þær eða þær jafnvel faldar er lykillinn að því að gera Finance and Operations persónulegt og skilvirkt. 
+Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á síðu er hægt að gera beint með því að nota valkostir í flýtivalmynd. Til dæmis, til að bæta við eða fela dálka í hnitaneti er nóg að hægrismella á dálkhaus í hnitaneti og velja síðan **Bæta við dálkum** eða **Fela þennan dálk**.
 
-Beinar sérstillingar eru þær sérstillingar sem eru framkvæmdar beint og er ætlað að breyta útliti eða hegðun á einingu eða síðunni með því að velja sérsnið valmynd. Grunngerð beinna sérstillinga er þar sem hægrismellt er á einingu og valið **Sérsníða**. (Athugið að ekki er hægt að sérsníða allar einingar á síðunni.) Þegar þessi sérstillingaraðferð er valin sérðu eiginleikaglugga einingarinnar. 
+Að auki eru helstu tegundir beinna sérstillinga tiltækar með því að hægrismella á einingu og síðan velja **Sérsníða**. (Athugaðu að ekki er hægt að sérsníða allar einingar á síðunni þinni.) Þegar þú notar þessa sérstillingaraðferð birtist eiginleikagluggi einingarinnar.
 
-[![Sérsníða eiginleika í einingu](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg) 
+[![Sérsníða eiginleika í einingu](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
 
-Eining á síðu er breytt á þennan hátt ef einfaldlega á að breyta merki einingarinnar, fela eininguna svo að hún birtist ekki á síðunni (þetta breytir ekki neinum gögnum, heldur sýnir einfaldlega ekki sum gögn), hafa með upplýsingar í samantektarhluta flýtiflipa (ef eining er í flýtiflipa), sleppa reitnum við flipastjórnun eða stilla hann þannig að ekki sé hægt að breyta sumum gögnum með því að merkja hann sem „Ekki breyta.“ 
+Þú getur notað eiginleikagluggann til að sérsníða einingu á eftirfarandi hátt:
 
-Þegar óskað er að flytja eða fela einingar eða gera nokkrar breytingar, er hægt að nota sérstillingatækjastikuna sem er tiltæk úr glugganum einingar Eiginleika með því að velja **Aðlaga þessa skjámynd**. Sérstillingatækjastikan er einnig tiltæk í aðgerðarúðu skjámyndarinnar, undir **Sérstillingar** flokkur á flipanum **Valkostir**. Velja **Sérstilla þessa skjámynd** og þá sérðu Sérstillingatækjastikuna. 
+- Breyta merkimiða einingarinnar.
+- Fela eininguna þannig að hún verði ekki sjáanleg á síðunni. Gögnin í reitnum hefur ekki verið eytt eða breytt. Upplýsingarnar birtast bara ekki lengur á síðunni.
+- Hafa upplýsingarnar í samantektarhlutanum fyrir flýtiflipa (ef einingin er á flýtiflipa).
+- Sleppa reitnum þegar þú ýtir á dálklykilinn til að fara á milli reitanna á síðunni.
+- Koma í veg fyrir breytingar á gögnum í reitnum (fyrir allar skrár).
 
-[![Tækjastika sérstillinga](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en það fer eftir einingunni. Til dæmis gæti eiginleikagluggi fyrir flís gefið þér kost á að færa þá flís yfir á mælaborð, og eiginleikaglugginn fyrir mælaborð gæti gefið þér kost á að búa til nýtt vinnusvæði á þeim mælaborði.
 
-Sérsniðin tækjastika er með fjölda aðgerða sem sérsnið. 
+### <a name="the-personalization-toolbar"></a>Tækjastika sérstillinga
+Þegar þú vilt færa eða fela einingar eða gera nokkrar breytingar á síðu geturðu notað tækjastiku **Sérstillingar**. Til að opna tækjastiku **Sérstillingar** skal velja **Sérsníða þessa skjámynd** í eiginleikaglugga einingar. Þú getur líka valið **Sérsníða þessa skjámynd** í **Sérsníða** hópnum á flipanum **Valkostir** á aðgerðarsíðu hvers síðu.
 
-- Velja skal **Velja** verkfærið þegar óskað er að velja og breyta eiginleikum yfir marga þætti, eitt í einu. Fyrst, smella á Velja verkfæri og smellið síðan á eininguna með eiginleika sem óskað er að breyta. Þegar eining er valin opnast gluggi eiginleika einingar og er hægt að breyta hvaða eiginleikumsem er fyrir þá einingu. Hægt er að endurtaka ferlið fyrir aðrar einingar í skjámyndinni sem eru sérsniðnar. Í sumum tilfellum velurðu einingu og sér að ekki er hægt að breyta sumum eiginleikunum. Þetta þýðir að vegna þess hvernig núverandi eining er notuð getur Finance and Operations ekki leyft að þeim eiginleika sé breytt. Til dæmis er ekki hægt að fela áskilinn reit. 
+[![Verkfæraslá sérstillingar](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-- Velja skal **Færa** verkfærið þegar óskað er að velja og færa einingu á aðra staðsetningu innan núverandi einingaflokks. (Ekki er hægt að flytja einingu út fyrir yfirflokk hennar). Fyrst skal smella á verkfærið Flytja og síðan á eininguna sem á að flytja. Þegar smellt er á eininguna sem á að flytja mun Finance and Operations skanna skjámyndina til að skilja hvert er hægt að flytja eininguna og stofna raðir „sleppistaða“ sem eru sýndir sem lituð, feitletruð lína við svæði þar sem hægt er að sleppa einingunni þegar hún er dregin um innan gildandi flokks. 
+Þó að **Sérstillingar** tækjastikan sé opin er síðan ekki gagnvirk. Þess vegna getur þú ekki slegið inn gögn, eða víkkað út eða dregið saman hluta. Þú getur bara breytt þeim einingum sem síðan er sett saman úr.
 
-- Velja skal **Fela** verkfæri til að velja og fela einingar. Til að fela einingar skal einfaldlega velja verkfærði Fela og smella á þá einingu sem óskað er að fela. Þegar verkfærið Fela er valið verða allar einingar sem eru faldar gerðar sýnilegar og sýndar í skyggðu boxi þannig að hægt er að velja eininguna til að hún sé ekki lengur falin. 
+Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 
-- Veldu verkfærið **Velja** til að sjá hvernig síðan mun líta út með valdar einingar faldar. 
+- Nota **Velja** verkfæri til að velja og breyta eiginleikum einingar. Velja **Velja** verkfæri, og velja síðan eininguna sem breyta á eiginleikunum í. Þegar þú velur einingu birtist eiginleikagluggi einingarinnar og þú getur breytt öllum eiginleikum þeirrar einingar. Þú getur endurtekið ferlið fyrir aðrar einingar sem hægt er að sérsníða á síðunni. En vegna þess hvernig sumir einingar eru notaðir, mun Finance and Operations ekki gef þér kost á að breyta einhverjum af eiginleikum þeirra. Þess vegna, þegar þú velur einingu gætirðu séð að ekki er hægt að breyta sumum eiginleikum þess. Til dæmis getur þú ekki falið reit sem er nauðsynlegur.
+- Nota **Færa** verkfærið til að færa einingar á annan stað innan þess hóps eininga sem fyrir er. (Þú getur ekki fært einingu utan yfirhóps hennar). Velja **Færa** verkfærið, og svo eininguna sem þú vilt færa. Þegar þú velur einingu skannar Finance and Operations síðunni til að ákvarða hvert er hægt að færa eininguna. Það býr þá til röð „sleppisvæða.“ Þegar þú færir eininguna til innan hópsins sem fyrir er, er hvert „sleppisvæði“ sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
+- Nota **Fela** verkfærið til að fela einingu á síðunni. Velja **Fela** verkfærið, og svo eininguna sem þú vilt fela. Þegar þú velur **Fela** verkfærið, eru allar einingar sem eru faldar sem stendur gerðar sýnilegar og sýndar í skyggðum geymi. Þú getur þá fært þær úr felum. Með því að velja **Velja** verkfærið geturðu séð hvernig síðunni mun líta út þegar völdu einingarnar eru faldar.
+- Nota **Yfirlit** verkfærið þegar þú vilt að eining birtist í samantektarhlutanum fyrir flýtiflipa. Samantektarverkfærið gildir aðeins um reiti sem eru í flýtiflipahluta. Þegar þú velur **Samantekt** verkfærið, eru öll reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum geymi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum í samantekt flýtiflipa.
+- Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur **Sleppa** verkfærið eru allar einingar sem nú þegar er sleppt sýndar í skyggðum geymi. Þú getur þá gert þær hluti af fliparöðinni aftur.
+- Nota **Breyta** verkfærið til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur **Breyta** verkfærið, eru allar einingar sem eru nú þegar óbreytanlegar sýndar í skyggðum geymi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
+- Nota **Setja inn** hnappinn til að sjá lista yfir einingar sem hægt er að setja inn á síðu.
 
-- Velja skal verkfærið **Samantekt** þegar sýna á tölustafa- eða strengjareit á samantektarsvæði flýtiflipa. Samantektarforritið á einungis við um reiti sem eru innan hluta flýtiflipa. Þegar verkfærið Samantekt er valið sýnir Finance and Operations alla reiti sem hafa verið valdir sem samantektarreiti með því að setja þá í skyggð box. Hægt er að bæta gagnvirkt við og fjarlægja reiti úr samantekt flýtiflipa með því að smella á reitinn. 
+    - Velja **Reitur** verkfærið undir **Setja inn** til að bæta við reit á síðuna þína. Þegar þú notar **Reitur** verkfærið getur þú aðeins bætt við reitum sem eru hluti af skilgreiningu síðunnar og eru ekki sjáanlegar á síðunni sem stendur. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Sérsniðnir reitir](user-defined-fields.md). Eftir að þú velur **Reitur** verkfærið, þarftu fyrst að velja hópinn eða svæðið þar sem þú vilt bæta við reit. Svargluggi sýnir lista yfir reiti sem tengjast völdum hópi eða svæði. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Setja inn**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+    - Velja **PowerApp** verkfærið undir **Setja inn** til að fella forrit inn í síðuna sem var búið til með því að nota Microsoft PowerApps. Nánari upplýsingar um hvernig á að fella PowerApps forrit inn í síðu er að finna í [Innfelling PowerApps](embed-power-apps.md).
 
-- Velja skal verkfærið **Sleppa** til að fjarlægja einingu úr röð af fliparöð lyklaborðs á síðu. Þegar valið er að Sleppa verkfæri allar einingar sem er sleppt verður sýnd í skyggðu geymir svo hægt sé að velja þær aftur til að gera þær hluti af röð flipanum með því að velja sleppt einingu. 
+- Velja **Stjórna** hnappinn til að skoða lista yfir stjórnunarvalmöguleika sem tengjast öllum sérstillingum fyrir núverandi síðu.
 
-- Velja skal verkfærið **Breyta** þegar merkja á einingu sem *Breytanlegt* eða *Ekki hægt að breyta*. Þegar verkfærið Fela er valið verða allar faldar einingar gerðar sýnilegar í skyggðu boxi þannig að hægt er að velja einingu til að gera þær sýnilegar. Athugið sumir reitir eru áskildir og ekki verður hægt að gera þá óbreytanlega. Þessir reitir birtast með hengilás táknið við hlið þeirra. 
+    - Velja **Hreinsa** til að endurstilla síðuna í sjálfgefið, uppsett ástand. Búið er að hreinsa allar sérstillingar á núverandi síðu. Það er engin afturköllunaraðgerð til. Þess vegna skaltu aðeins nota þennan möguleika ef þú ert viss um að þú viljir endurstilla síðuna.
+    - Velja **Flytja inn** til að hlaða inn sérstillingu úr skrá sem þú eða einhver annar bjó til fyrir síðuna áður. Allar núgildandi sérstillingar þínar fyrir síðuna eru skipt út fyrir sérstillingar úr valinni skrá.
+    - Velja **Flytja út** til að vista sérstillingar þínar fyrir síðuna í skrá. Þú getur deilt sérstillingunum þínum með öðrum notendum. Þessir notendur þurfa bara að flytja inn skrána sem inniheldur sérstillingarnar þínar fyrir síðuna.
 
-- Velja skal verkfærið **Bæta við** til að bæta reit við á síðuna. Með verkfæri bæta við, er ekki hægt að stofna nýja reiti, en hægt er að bæta við reitum sem eru hluti af gildandi síðuskilgreiningu, en ekki sýndir á síðunni. Þegar Bæta við verkfæri er valið þarf fyrst að velja flokk eða svæði þar sem bæta á við reit. Svargluggi mun birta lista yfir reiti sem tengjast hluta sem er valinn. Úr þeim svarglugga er hægt að velja einn eða fleiri reiti til að bæta við og smella á **Setja inn**. Ef þú vilt síðar fjarlægja reit sem þú hefur bætt við áður þarftu að endurtaka ferlið, en hreinsar einfaldlega reitinn sem áður var bætt við. 
+- Velja **Loka** hnappinn til að loka tækjastikunni fyrir **Sérstillingar** og færa síðuna í fyrri gagnvirka stöðu hennar.
 
-- Veldu hnappinn **Stjórna** til að sjá lista yfir valkosti notendastjórnunar sem tengjast öllum sérstillingum fyrir núverandi síðu. 
+Þegar **Sérstillingar** tækjastika er notað, eru vistunaraðgerðir óbeinar. Sérstillingar þínar öðlast gildi um leið og þú skráir þær og þú þarft ekki að velja **Vista** hnapp. Í sumum tilfellum, þegar þú velur verkfæri, birtist hengilásatákn við hliðina á einingu. Þetta tákn gefur til kynna að þú getir ekki breytt einingareiginleikum sem tengjast völdu verkfæri, vegna þess að breytingar á þessum eiginleikum koma í veg fyrir að síðunni virkar rétt.
 
-- Velja **Hreinsa** til að endurstilla síðuna á sjálfgildi hennar. Allar sérstillingar á núverandi síðu verða hreinsaðar. Það er engin afturköllunaraðgerð, þannig að þú skalt aðeins nota þennan valkost þegar þú ert viss um að endurstilla eigi síðuna. 
+### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Bætir við flísum, lista eða hlekkur á vinnusvæði
+Fyrir sumar síður sem innihalda lista eru viðbótareiginleikar fyrir sérstillingar í boði. **Bæta við vinnusvæði** hnappurinn í **Sérsníða** hópnum á **Valkostir** flipanum í aðgerðarrúðunni gerir þér kleift að birta upplýsingar úr núverandi lista á tilteknu vinnusvæði. Þú getur sýnt upplýsingar í vinnusvæðinu út frá afmörkun og uppröðun, eða þú getur sýnt þær með sjálfgefnum hætti. Þú getur einnig tilgreint hvort upplýsingarnar birtist í vinnusvæði sem listi, sem samantektarflís sem sýnir fjölda atriða á listanum eða sem tengill.
 
-- Velja **Innflutning** til að nota sérsnið úr sérsniðaskrá sem þú eða einhver annar stofnaði áður fyrir þessa síðu. Innflutningur á sérsniði hreinsar allar sérstillingar sem hafa verið gerðar á allri síðunni og notar í staðinn allar sérstillingar úr valinni skrá. Ef óskað er að vista eða deila sérsniði verður að velja valkostinn **Flytja út** til að vista sérstillingar í skrá. 
+[![Bæta við vinnusvæði](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
-- Velja skal hnappinn **Loka** til að loka tækjastikunni og skila síðunni aftur í fyrri stöðu hennar. 
+- Til að bæta lista við vinnusvæði skal fyrst flokka eða afmarka listann á síðunni þannig að hún birti upplýsingarnar eins og þú vilt að þær birtist á vinnusvæðinu. Síðan er **Bæta við vinnusvæði** valið. Velja vinnusvæði, og svo, í **Framsetning** reitnum skal velja **Listi**. Eftir að þú velur **Grunnstilla** birtist gluggi þar sem þú getur valið dálkana sem eiga að birtast á listanum í vinnusvæðinu. Þú getur einnig tilgreint merkið sem á að nota fyrir listann á vinnusvæðinu.
+- Til að bæta við flís á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hann birti gögnin sem þú vilt að séu samantekin eða vilt fá skjótan aðgang að. Síðan er **Bæta við vinnusvæði** valið. Velja vinnusvæði og svo í reitnum **Framsetning** skal velja **Flís**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir flís á vinnusvæðinu. Þú getur einnig tilgreint hvort flísin ættu að sýna fjölda. Eftir að flís er bætt við vinnusvæðið geturðu valið hana til að opna núverandi síðu frá vinnusvæðinu og skoða afmarkaða listann sem tengist flísinni.
+- Til að bæta við tengli á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hún birti gögnin sem þú hefur áhuga á. Síðan er **Bæta við vinnusvæði** valið. Veldu vinnusvæði, og síðan, í **Framsetning** reitnum, skal velja **Tengill**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir tengilinn. Þú getur einnig valið tiltekið merki fyrir nýjan hluta sem mun innihalda þennan tengil.
 
-Með tækjastikunni Sérsnið er vistun óbein. Sérstillingar taka strax gildi um leið og þær eru gerðar og það er engin þörf á að smella á í **Vista** hnappinn. Í sumum tilfellum verður sést hengilás táknið við hlið einingu þegar verkfæri er valið. Þetta þýðir að til síðan virki rétt er ekki hægt að breyta eiginleikum sem tengjast völdu verkfæri. Þegar sérsniðna tækjastikan er opnuð verður síðan ógagnvirk. Hægt er að færa inn gögn eða útvíkka eða draga hlutana saman.
+Eftir að listinn þinn, flís eða tengill hefur verið bætt við vinnusvæði getur þú opnað vinnusvæðið og endurraðað einingunum í því eins og þú vilt.
 
-## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Bein sérstilling: Bæta reit eða lista vinnusvæði
-Sumar síður með listum munu hafa aukaeiginleika fyrir sérstillingar í boðin innan Aðgerðarúðu þeirra, undir **Sérsníða** flokkur á **Valkosta** flipanum. Velja **Bæta Vinnusvæði** til að opna fellilistanum sem gefur möguleika á að sýna upplýsingar í núgildandi lista (síaðar og raðaðar eða sjálfgefnar) á vinnusvæði í formi lista eða samantektarreits (sem má nota til að sýna fjölda atriða á listanum). 
+### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Bæti við samantekt frá vinnusvæði til yfirlits
+Sum vinnusvæði innihalda talningarflísar (það er, flísar með tölum), og þú vilt kannski að þessi flísar birtast á yfirlitinu þínu líka. Í vinnusvæði, hægrismelltu á talningarflís og veldu síðan **Sérsníða**. Þá skaltu velja **Festa í yfirlit** í eiginleikaglugga flísarinnar. Í næsta skipti sem þú opnar (og endurglæðir) valið yfirlit, birtist fjöldinn fyrir neðan yfirlitsflísina fyrir það vinnusvæði. Þú getur valið þá talningu til að fara beint á þau gögn sem hún stendur fyrir.
 
-[![Bæta við vinnusvæði](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
+### <a name="personalizing-your-dashboard"></a>Sérsníða yfirlitið þitt
+Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar Finance and Operations. Þú getur sérsniðið yfirlitið þannig að það sýnir aðeins vinnusvæðisflísarnar sem þú vilt sjá. Þú getur einnig umraðað flísunum þannig að þær séu í þeirri röð sem þú vilt sjá þær í, endurnefnt yfirlitsflísar á vinnusvæði eða bæta við alveg nýjum vinnusvæðisflís.
 
-Til að bæta lista við vinnusvæði þarf fyrst að flokka eða sía lista með upplýsingum eins og óskað er eftir að sjá þær í sérhverju vinnusvæði, svo velja **Bæta við Vinnusvæðið** svarglugga. Næst skal velja viðeigandi vinnusvæði og velja **Lista** úr fellilistanum **Kynning**. Þegar **Listi** er valinn opnast svargluggi þar sem hægt er að taka til dálka sem óskað er að finna í lista og merki fyrir lista eins og það mun birtast á vinnusvæðið. 
+Til að sérsníða yfirlitið, hægri-smelltu á hvaða flís sem er og veldu síðan **Sérsníða** til að opna eiginleikaglugga flísarinnar.
 
-Til að bæta við reit á vinnusvæði þarf fyrst að sía lista svo að hann sýni þau gögn sem þú vilt taka saman (eða fá skjótan aðgang að). Síðan opnarðu felligluggavalmynd **Bæta við vinnusvæði**. Næst skal velja viðeigandi vinnusvæði og velja **Reitur** úr **Framsetning** fellilistavalmynd. Þegar **Reitur** er valinn opnast svargluggi þar sem hægt er að veita reit merki og ákveða hvort reiturinn sýni talningu. Þegar reiturinn er settur í vinnusvæði verður kleift að opna gildandi síðu úr vinnusvæðinu og sýna lista yfir upplýsingar sem tengjast reitnum. 
-
-Þegar lista eða reit er bætt við vinnusvæði er síðan hægt að opna það vinnusvæði og endurraða listanum eða reitnum í flokknum sem honum var bætt við.
-
-## <a name="explicit-personalization-adding-a-summary-from-a-workspace-to-a-dashboard"></a>Yfirlýst sérsnið: Bæta samantekt úr vinnusvæði í stjórnborð
-Sum vinnusvæða innihalda talningarreiti (reitir með númerum á þeim) sem þú vilt einnig sjá á stjórnborðinu. Á vinnusvæði skal hægrismella á talningarreitinn og velja **Sérsníða**, og svo velja **Festa við stjórnborð**. Næst þegar farið er á (og endurnýjað) valið stjórnborð sérð það sem talningu undir yfirlitsreit vinnusvæðisins í stjórborðinu.
-
-## <a name="explicit-personalization-personalizing-your-dashboard"></a>Yfirlýst sérsnið: Sérsníða skal stjórnborð
-Stjórnborðið er oft fyrsta síðan sem birtist þegar Finance and Operations er opnað. Hægt er að sérsníða stjórnborðið til að endurnefna yfirlitsreiti vinnusvæðis, til að sýna aðeins þá reiti sem þú vilt sjá, endurnefna reiti eða til að hagræða reitum í þeirri röð sem þú vilt sjá þá. 
-
-Til að sérsníða stjórnborð skal velja hvaða reit sem er og hægrismella til að opna valmynd samhengi. Í samhengisvalmyndinni velurðu **Aðlaga**. Ef valinn reitur er sá sem á að fela eða endurnefna eða sleppa er hægt að gera þá breytingu beint í glugga Eiginleika sem hefur birst. Ef óskað er að raða reitir, veljið síðan **Aðlaga þessa skjámynd** í glugganum Eiginleika til að opna tækjastiku Sérsnið. Síðan er hægt að nota verkfærið **Flytja** til að raða reitunum.
+- Ef þú vilt fela eða endurnefna valda flís, getur þú breytt því beint í eiginleikaglugganum.
+- Til að endurraða vinnusvæðisflísar skaltu velja **Sérsníða þetta form** í einginleikaglugganum, til að opna **Sérstillingar** tækjastikuna. Þú getur síðan notað **Færa** verkfærið til að raða flísunum eins og þú vilt.
+- Til að búa til nýja vinnusvæðisflís skaltu velja **Bæta við vinnusvæði** í eiginleikaglugganum. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Þú getur einnig bætt við listum, flísum og tenglum á vinnusvæðið eins og lýst er í [Bæta við listum, flísum eða tenglum á vinnusvæði](personalize-user-experience.md#adding-a-tile-list-or-link-to-a-workspace) kafla þessa efnisatriðis.
 
 ## <a name="administration-of-personalization"></a>Stjórnun sérstillinga
-Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Þú getur þá beðið hina notendur að fara á sérstilltu síðuna og flytja inn sérstillingarskrá sem þú bjóst til, eða þú getur gefið sérstillingar þínar til notanda sem hefur stjórnandi réttindi sem getur síðan sett sérstillingar þínar í virkni hjá mörgum notendum í einu.
+Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Þú getur þá beðið aðra notendur að opna sérsniðnu síðuna og flytja inn sérstillingarskrána sem þú bjóst til. Að öðrum kosti getur þú gefið notanda, sem hefur stjórnunarheimildir, sérstillinguna þína. Þessi notandi getur síðan virkjað sérstillingarskrána þína í þágu margra notenda á sama tíma.
 
-Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**. Þessi síða er með fjóra flipa: 
+Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**. Þessi síða er með fjóra flipa:
 
-- **Virkja** - Hægt er að flytja inn eða velja sérstillingu fyrir einn eða fleiri notendur. Til að setja sérstillingu í virkni hjá einum eða fleiri notendum, skal velja hlutverk og síðan notendur innan þess hlutverks. Síðan skal velja fyrirliggjandi sérstillingar eða flytja inn sérstillingarskrá til að setja í virkni hjá þeim notendum sem hafa verið valdir. Sérstillingin verður villuleituð og notuð hjá öllum völdum notendum næst þegar þeir opna valda síðu.
-
-- **Hreinsa** – Hægt er að hreinsa síðu eða sérstillingu vinnusvæðis fyrir einn eða fleiri notendur. Veljið síðu til að sjá lista yfir þá notendur sem hafa sérstillt þá síðu. Veljið síðan þá notendur sem á að fjarlægja sérstillingar þeirrar síðu fyrir og veljið **Hreinsa**. Allar sérstillingar sem valdir notendur hafa notað á síðu sem hefur verið valin eða vinnusvæði eru hreinsaðar. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling hefur verið vistuð fyrir síðuna eða vinnusvæðið er hins vegar hægt að flytja þá sérstillingu inn aftur.
-
-- **Framkvæmdastjóri á notanda** - Veldu notanda til að sjá lista yfir síður sem sá einstaklingur hefur sérstillt.  Síðan er hægt að virkja eða afvirkja möguleika þeirra á að nota aðlögun fyrir ákveðnar síður eða fyrir kerfið í heild.  Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar fyrir þennan notanda.
-
-- **Kerfi** - Einnig er hægt að aftengja öllum sérstillingum allra notendur kerfisins tímabundið. Það mun ekki eyða sérstillingum heldur einfaldlega endurstilla allar síður í sjálfgefið ástand fyrir alla notendur. Ef þú endurvirkjar sérstillingar seinna, verða allar sérstillingar settar í virkni á ný. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Gætið þess að flytja út allar þær sérstillingar sem hugsanlegt er að þú viljir nota síðar áður en það er gert, þar sem ekki er hægt að endurheimta síðar sérstillingar sem hefur verið eytt. 
+- **Virkja** - Hægt er að flytja inn eða velja sérstillingu fyrir einn eða fleiri notendur. Til að virkja sérstillingu í þágu eins eða fleiri notenda, skal velja fyrst hlutverk og notendur sem hafa það hlutverk. Síðan skal velja annaðhvort fyrirliggjandi sérstillingu til að virkja í þágu valdra notenda, eða flytja inn sérstillingarskrá. Sérstillingin er sannprófuð og verður virkjuð í þágu allra valdra notenda næst þegar þeir opna völdu síðuna.
+- **Hreinsa** - Þú getur hreinsað allar sérstillingar fyrir síðu eða vinnusvæði fyrir einn eða fleiri notendur. Veldu fyrst síðu eða vinnusvæði til að sjá lista yfir notendur sem hafa notað sérstillingu á það. Veldu síðan þá notendur sem hreinsa skal sérstillingar síðu eða vinnusvæðis hjá og veldu **Hreinsa**. Allar sérstillingar sem völdu notendur hafa virkjað á valdri síðu eða vinnusvæði er eytt. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling var hins vegar var vistuð fyrir síðuna eða vinnusvæðið, er hægt að flytja þá sérstillingu inn aftur.
+- **Stjórnandi á hvern notanda** - Veldu notanda til að sjá lista yfir síður sem hann eða hún hefur sérstillt. Þú getur þá virkjað eða gert óvirka getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar valins notanda.
+- **Kerfi** - Einnig er hægt að aftengja öllum sérstillingum allra notendur kerfisins tímabundið. Í þessu tilviki er sérstillingunum eytt. Allar síður eru endurstilltar í sjálfgefna stöðu fyrir alla notendur. Ef þú endurvirkjar sérstillingar seinna, verða allar sérstillingar settar í virkni á ný. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Það er engin leið til að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Sérstilling birgðavídda
 
-Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Ef þú notar til dæmis sérstillingu til að fela dálk fyrir rununúmeri birgðavíddar og dálkurinn birtist næst þegar síðan er opnuð, getur það verið vegna þess að Sýna vídd stillingarnar stjórna því hvaða birgðavíddadálkar eru sýndir. 
+Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Til dæmis notar þú sérstillingu til að fela dálk sem inniheldur birgðavídd rununúmers, en dálkurinn birtist næst þegar síðunni er opnuð. Þessi hegðun á sér stað vegna þess að **Birting vídda** stillingarnar stjórna birgðavíddadálkunum sem eru sýndir.
 
-Sýna vídd stillingarnar eiga við á öllum síðum og þessar stillingar hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á stökum síðum. 
+**Birting vídda** stillingarnar eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á einstökum síðum.
 
-Í dæminu um rununúmer birgðavíddar, þá verður að hreinsa þessa vídd sem hluta af **Sýna vídd** valkostinum ef taflan á ekki að sýna þennan dálk. Að lokum mun þessi breyting ekki bara eiga við á einni síðu heldur á öllum síðum.
+Þess vegna, ef þú vilt ekki að dálkur sem inniheldur birgðavídd rununúmers birtist í framangreindu dæmi, verður þú að hreinsa þá vídd sem hluti af **Sýna víddir** valkostinum fyrir töfluna. Að lokum mun þessi breyting ekki aðeins gilda á einni tilteknu síðu heldur á öllum síðum.
 

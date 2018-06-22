@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ Valmyndin **Endurröðun** er í boði þegar margar einingar eru valdar. Hægt 
 
 #### <a name="sorting"></a>Röðun
 Hægt er að nota valkostinn **Raða eftir** til að skoða einingalistann í röð.
+
+### <a name="truncating"></a>Stýfing
+Fyrir innflutt verk er hægt að velja að stýfa færslur í einingunum fyrir innflutning. Þetta er gagnlegt ef það þarf að flytja færslur inn í autt töflusafn. Þessi stilling er sjálfkrafa óvirk.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Staðfesta að heimildargögn og markgögn sé varpað rétt
 Vörpun er aðgerð sem gildir um bæði innflutnings- og útflutningsverk.
