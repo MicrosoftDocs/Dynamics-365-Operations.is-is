@@ -1,0 +1,84 @@
+- name: Velkomin(n) í Dynamics 365 for Talent
+  href: index.md
+- name: Hafist handa
+  href: talent-get-started.md
+  items:
+    - name: Kerfiskröfur og uppfærsluregla
+      href: talent-versions-update-policy.md
+    - name: Úthluta Microsoft Dynamics 365 for Talent
+      href: provisioning-talent.md
+    - name: Fjarlægja Talent-umhverfi
+      href: remove-talent-environment.md
+    - name: Úthluta Microsoft Dynamics 365 for Talent Modular Apps
+      href: modular-app-tech-faq.md
+    - name: Stækka virkni Talent
+      href: extend-talent-functionality.md
+    - name: Fá aðgang að forskoðunaraðgerðum í Dynamics 365 for Talent
+      href: access-preview-feature.md
+- name: Þróun mannauðsáætlunar
+  href: departments-jobs-positions.md
+  items:
+    - name: Uppsetning starfsþátta
+      href: create-job.md
+    - name: Stofnun deildar og tenging hennar við deildastigveldið
+      href: create-department-add-department-hierarchy.md
+    - name: Uppsetning mannauðsfæribreyta þvert á lögaðila
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
+      href: set-up-company-specific-hr-parameters.md
+    - name: Algengar spurningar um aðgerðir starfsfólks
+      href: personnel-actions-faq.md
+    - name: Gera viðskiptaferli formleg
+      href: formalize-business-processes.md
+    - name: Notkun verkflæðis við stjórnun starfsmannaupplýsinga
+      href: workflow-manage-employee-information.md
+    - name: Yfirlit yfir leyfi og fjarvistir
+      href: leave-absence-overview.md
+- name: Mönnun fyrirtækis
+  items:
+    - name: Yfirlit yfir Attract
+      href: attract-overview.md
+    - name: Yfirlit yfir nýliðaforritið
+      href: create-onboarding-experience.md
+- name: Virkjun starfsmanna
+  items:
+    - name: Launafyrirkomulag
+      href: compensation-plans.md
+    - name: Launafyrirkomulag fastra launa stofnað
+      href: create-fixed-compensation-plans.md
+    - name: Launafyrirkomulag breytilegra launa
+      href: create-variable-compensation-plans.md
+    - name: Launaútreikningur
+      href: process-compensation.md
+- name: Þróa og þjálfa starfsmenn
+  items:
+    - name: Árangursstjórnunaryfirlit
+      href: performance-management-overview.md
+    - name: Samþætting hæfni starfsfólks við rekstrarþarfir
+      href: skills.md
+    - name: Uppsetning námskeiða
+      href: courses.md
+- name: Stofnun og viðhald fríðinda
+  href: manage-benefit-program.md
+- name: Stefnur um hæfni til fríðinda
+  href: benefit-eligibility-policies.md
+  items:
+    - name: Stjórnun hluta sem starfskraftar fá lánaða
+      href: loan-items.md
+- name: Upplýsingasöfnun með notkun spurningalista
+  href: questionnaires.md
+  items:
+    - name: Hönnun spurningalista
+      href: design-questionnaires.md
+    - name: Dreifing og útfylling spurningalista
+      href: distribute-questionnaires.md
+    - name: Mat á niðurstöðum spurningalista
+      href: evaluate-questionnaire-results.md
+- name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
+  items:
+    - name: Svara beiðni um persónuleg gögn með Talent
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+    - name: Staðfesting starfs með I-9 eyðublaði
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+    - name: ADA fylgt
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
