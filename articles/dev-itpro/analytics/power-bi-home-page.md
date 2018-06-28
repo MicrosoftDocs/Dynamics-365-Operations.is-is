@@ -1,9 +1,9 @@
 ---
-title: Power BI-efni
-description: "Í þessu efnisatriði er talið upp Power BI efni sem er tiltækt og bent á hvar er hægt að læra meira um það."
+title: Lausnir PowerBI.com
+description: "Í þessu efnisatriði eru sýndar lausnir PowerBI.com sem eru tiltækar og benda á tilföng þar sem hægt er að fræðast betur um lausnirnar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Power BI-efni
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>Lausnir PowerBI.com
+Eftirfarandi lausnir PowerBI.com eru tiltækar fyrir umhverfi Dynamics 365 for Finance and Operations. 
 
-Í þessu efnisatriði er talið upp Microsoft Power BI efni sem er tiltækt og bent á hvar er hægt að læra meira um það.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Tiltækar lausnir PowerBI.com frá Lifecycle Services (LCS)
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Power BI efni fyrir Dynamics 365 for Finance and Operations
-Ef þú notar Microsoft Dynamics 365 for Finance and Operations er eftirfarandi Power BI efni tiltækt:
-
-- [Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni](ledger-budgets-power-bi.md)
-- [Efni Benefits Power BI](benefits-power-bi.md)
-- [Yfirlit yfir reiðufé - Power BI efni](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [CFO-yfirlit - Power BI efni](CFO-power-bi.md)
-- [Laun - Power BI efni](compensation-power-bi.md)
-- [Power BI-efni kostnaðarbókhaldsgreiningar](cost-accounting-analysis-content-pack.md) 
-- [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)    
-- [Skulda- og innheimtuumsjón - Power BI efni](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Þróun starfsmanns - Power BI efni](employee-development-PBI.md) 
-- [Fjármálainnsýn - Power BI efni](financial-insights.md)
-- [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
-- [Kostnaðarstjórnun - Power BI efni](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Nám - Power BI efni](learning-power-bi.md)
-- [Aðferðastjórnun - Power BI efni](practice-manager-power-bi.md)
-- [Framleiðsluafköst - Power BI efni](production-performance-power-bi.md)
-- [Eyðslugreining innkaupa Power BI efni](purchase-content-pack-for-power-bi.md) 
-- [Ráða Power BI-efni](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI-efni fyrir söluframmistöðu og arðsemi](sales-profitability-performance-content-pack.md)
-- [Greiðslur lánardrottna - Power BI efni](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Power BI-efni fjárhagslegrar frammistöðu](warehouse-power-bi-content.md)
-- [Mælikvarðar vinnuafls Power BI-efni](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI efni fyrir Dynamics 365 for Operations útgáfu 1611
-Ef þú ert að nota Microsoft Dynamics 365 for Operations útgáfu 1611, er eftirfarandi Power BI efni tiltækt:
-
-- [Laun og fríðindi Power BI-efni](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Power BI-efni kostnaðarbókhaldsgreiningar](cost-accounting-analysis-content-pack.md) 
-- [Skulda- og innheimtuumsjón - Power BI efni](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Hæfni starfsmanna og þróun Power BI-efnis](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
-- [Þjálfun fyrirtækis Power BI-efni](organizational-training-analysis-power-bi-content-pack.md) 
-- [Aðferðastjórnun - Power BI efni](practice-manager-power-bi.md)
-- [Framleiðsluafköst - Power BI efni](production-performance-power-bi.md)
-- [Eyðslugreining innkaupa Power BI efni](purchase-content-pack-for-power-bi.md) 
-- [Ráða Power BI-efni](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI-efni fyrir söluframmistöðu og arðsemi](sales-profitability-performance-content-pack.md)
-- [Power BI-efni fjárhagslegrar frammistöðu](warehouse-power-bi-content.md)
-- [Mælikvarðar vinnuafls Power BI-efni](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI efni fyrir Microsoft Dynamics AX
-Ef þú ert að nota Microsoft Dynamics AX 7.0 eða Microsoft Dynamics AX 7.0.1, er eftirfarandi Power BI efni tiltækt:
+Eftirfarandi lausnir PowerBI.com eru tiltækar í samnýttu eignasafni LCS. Vísar til upplýsingar um útgáfu í samnýttu eignasafninu til að sækja rétta útgáfu fyrir umhverfið þitt. 
 
 > [!Note]
-> Þessir efnispakkar hafa verið úreltir eins og lýst er í [Power BI efnispakkar gefnir út á PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Flestar lausnir PowerBI.com í eftirfarandi lista hafa verið innfelldar í greiningarvinnusvæði í nýlegum útgáfum af Dynamics 365 for Finance and Operations. Notkun á greiningarvinnusvæðum útilokar nauðsyn þess að sækja þessar lausnir frá samnýtta eignasafninu í LCS. Efnisatriðin í þessum lista gefa til kynna hvar þessar lausnir PowerBI.com hafa verið innleiddar í Finance and Operations, þar sem við á. 
 
-- [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)    
-- [Power BI-efni fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
-- [Afköst smásölurásar - Power BI efni](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Rauntölur bornar saman við fjárhagsáætlun](ledger-budgets-power-bi.md)
+- [Yfirlit yfir reiðufé](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Laun og fríðindi](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Greining kostnaðarbókhalds](cost-accounting-analysis-content-pack.md) 
+- [Skulda- og innheimtuumsjón](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Hæfni og þróun starfsmanns](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Fjárhagsleg frammistaða](financial-performance-power-bi-content-pack.md)
+- [Eignastýring](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Fyrirtækjaþjálfun](organizational-training-analysis-power-bi-content-pack.md) 
+- [Aðferðastjóri](practice-manager-power-bi.md)
+- [Framleiðsluafköst](production-performance-power-bi.md)
+- [Greining á innkaupum og eyðslu](purchase-content-pack-for-power-bi.md) 
+- [Ráðningar](recruiting-analysis-power-bi-content-pack.md)
+- [Söluárangur og arðsemi](sales-profitability-performance-content-pack.md)
+- [Greiðslur lánardrottna](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Afköst vöruhúss](warehouse-power-bi-content.md)
+- [Mælikvarðar vinnuafls](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>Tiltækar lausnir PowerBI.com frá AppSource
 
+Eftirfarandi lausnir PowerBI.com eru í tiltækar frá [Microsoft AppSource](https://appsource.microsoft.com).
+
+> [!Note]
+> Þessar lausnir hafa verið úreltar eins og er skjalfest í [Tiltækir efnispakkar Power BI í AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+
+- Kostnaðarstjórnun    
+- [Fjárhagsleg frammistaða](financial-performance-power-bi-content-pack.md)
+- [Afköst smásölurásar ](retail-channel-performance-dashboard-power-bi-data.md) 
 

@@ -1,6 +1,6 @@
 ---
-title: "Power BI-efni fjárhagslegrar frammistöðu"
-description: "Þetta efnisatriði lýsir efni fjárhagslegra afkasta í Power BI."
+title: "PowerBI.com lausn fjárhagslegrar frammistöðu"
+description: "Þetta efnisatriði útskýrir PowerBI.com lausn fjárhagslegrar frammistöðu."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: is-is
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Power BI-efni fjárhagslegrar frammistöðu
+# <a name="financial-performance-powerbicom-solution"></a>PowerBI.com lausn fjárhagslegrar frammistöðu
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Þessi efnispakki hefur verið gerður úreltur eins og skjalfest er í [Power BI efnispakkanum sem er tilætækur á AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Innihaldspakkar Power BI í boði í AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Þetta efnisatriði lýsir efni **Fjárhagslegra afkasta** í Microsoft Power BI. Það lýsir yfirliti og skýrslum sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði útskýrir PowerBI.com lausnir **Fjárhagslegrar frammistöðu**. Það útskýrir yfirlitið og skýrslurnar sem eru með og veitir upplýsingar um gagnalíkanið og einingarnar sem voru notaðar til að smíða lausnina.
 
 ## <a name="main-account-setup"></a>Uppsetning aðallykils
 Þar sem fyrr vilja upphæðir skulda og tekjur að birtast sem jákvætt upphæðir í skýrslur er uppsetning aðallykla mikilvæg. Til að þessir aðallyklar birtast sem jákvætt upphæðir verður aðallykilgerð að vera stillt á **Skuldir** eða **Tekjur**. Þegar þessar gerð lykils er notað verður skýrslugerð í gegnum Power BI snúa við merkjum og sýna upphæðir sem jákvætt.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Yfirlit og skýrslur sem eru hafðar með í Power BI efni
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Yfirlit og skýrslur sem eru í PowerBI.com lausninni
 Mælaborð inniheldur samantekna gagnareiti sem byggjast á undirliggjandi skýrslum. Hver reitur inniheldur samanteknar upplýsingar fyrir núverandi ár yfir öll fyrirtæki í samstæðu. Hér eru sum af reitir:
 
 - Innlausn
@@ -74,7 +74,7 @@ Hver reitir fá stuðning frá skýrslu. Þessar skýrslur innihalda bæði grö
 Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi einingar voru notaðar sem grunnur að Power BI efnini **Fjárhagsleg frammistaða**:
+Eftirfarandi einingar voru notaðar sem grunnurinn á PowerBI.com lausn **Fjárhagslegrar frammistöðu**:
 
 **Einingar samantekinna gagna**
 

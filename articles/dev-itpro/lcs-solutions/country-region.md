@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ Frekari upplýsingar eru í [Verkefnaleiðbeiningar](../../fin-and-ops/get-start
 -   [Skattgreiðslur](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Skattar](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>Kína
--   [Samanburður uppskrifta](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Kínversk fylgiskjöl](../../financials/localizations/apac-chn-vouchers.md)
--   [Skilgreining skattasamþættingar](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Algengar spurningar um VSK-reikninga viðskiptavinar](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Afskriftaaðferðir eigna ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [Innflutningur gagnaeiningar fyrir kínverskan Golden tax-skatt](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Líkan fyrir mánaðarlegan meðalkostnað](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Bókun aðallykla birgða eftir vinnusvæðum](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Birting debit- og kreditupphæða fyrir fjárhagslykla](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[Kína](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tékkland](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Eistland
--   [Upplýsingar VSK-yfirlits fyrir Eistland](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Afskráning eigna](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Eistland](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Evrópa
 - [Handhafar fyrirframgreiðslu](../../financials/localizations/emea-advance-holders.md)

@@ -1,0 +1,1403 @@
+- name: Þróun og stjórnun fyrir Dynamics 365 for Finance and Operations
+  href: index.md
+- name: Kerfiskröfur fyrir uppsetningu í skýi
+  href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
+- name: Kerfiskröfur fyrir uppsetningu á staðnum
+  href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
+- name: Sýnigögn
+  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+  items:
+    - name: Búa til sýnigögn með pökkum
+      href: data-entities/generate-demo-data-packages.md
+- name: Þróun og sérstilling með Visual Studio
+  href: dev-tools/developer-home-page.md
+  items:
+    - name: Forritastöflun og skipulag þjóns
+      href: dev-tools/application-stack-server-architecture.md
+    - name: Prufueintak sótt
+      href: dev-tools/get-evaluation-copy.md
+    - name: Skrá í áskrift
+      href: dev-tools/sign-up-preview-subscription.md
+    - name: Uppsetning þróunarumhverfis og aðgangur að því
+      href: dev-tools/access-instances.md
+      items:
+        - name: Skilgreina sýndarvél þróunaraðila
+          href: dev-tools/configure-developer-vm.md
+        - name: Nýr notandi búinn til á þróunarvél
+          href: dev-tools/enable-development-machine.md
+        - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
+          href: sysadmin/VMs-no-admin-access.md
+        - name: Endurnefna vinnuumhverfi til að virkja aðgang að Visual Studio Team Services
+          href: migration-upgrade/vso-machine-renaming.md
+        - name: Þróunarkerfiskröfur
+          href: dev-tools/development-system-requirements.md
+    - name: 'Útgáfueftirlit, leit að lýsigögnum og yfirlit'
+      href: dev-tools/version-control-metadata-navigation.md
+    - name: Prufuforrit bílaflotastjórnunar
+      items:
+        - name: Prufuforrit bílaflotastjórnunar
+          href: dev-tools/fleet-management-sample.md
+        - name: Yfirlit yfir prufuforrit bílaflotastjórnunar
+          href: dev-tools/introduction-fleet-management-sample.md
+    - name: Visual Studio-verkfæri
+      items:
+        - name: Yfirlit yfir þróunarverkfæri
+          href: dev-tools/development-tools-overview.md
+        - name: Kennsla á þróunarverkfæri
+          href: dev-tools/introduction-visual-studio.md
+        - name: Application Explorer
+          href: dev-tools/application-explorer.md
+        - name: Verkefni smíðað og kembt
+          href: dev-tools/build-debug-project.md
+        - name: Smíðaaðgerðir
+          href: dev-tools/build-operations.md
+        - name: Kóðaritill
+          href: dev-tools/code-editor.md
+        - name: Líkan og gagnalíkanseiningar búin til
+          href: dev-tools/create-data-model-elements.md
+          items:
+            - name: Leiðbeiningar um nöfn
+              href: extensibility/NamingGuidelines.md
+            - name: Slökkt á líkansérstillingu og afskriftavirkni
+              href: dev-tools/lock-models.md
+        - name: Sérstillingagreiningarskýrsla
+          href: dev-tools/customization-analysis-report.md
+        - name: Einingahönnuðir
+          href: dev-tools/element-designers.md
+        - name: Eininganotkun
+          href: dev-tools/element-usage.md
+        - name: Útflutningur og innflutningur líkans
+          href: dev-tools/models-export-import.md
+        - name: Lýsigagnaleit í Visual Studio
+          href: dev-tools/metadata-search-visual-studio.md
+        - name: Líkön
+          href: dev-tools/models.md
+        - name: Verkefni í Dynamics 365 for Finance and Operations
+          href: dev-tools/projects.md
+        - name: Verkfærainnbætur fyrir Visual Studio
+          href: dev-tools/developer-tools-add-ins.md
+        - name: Uppfærsla þróunarverkfæra í Visual Studio
+          href: dev-tools/update-development-tools.md
+    - name: X++ forritunartungumál
+      items:
+        - name: 'X++ og kembieiginleikar  '
+          href: dev-tools/new-x-debugger-features.md
+        - name: Villuleit í X++ með hliðsjón af afriti af framleiðslugagnagrunni
+          href: dev-tools/debug-x-issue-against-copy-of-production.md
+        - name: Villuleit í X++ kóða
+          href: dev-tools/debug-xpp.md
+        - name: EventHandlerResult-klasar í beiðni- eða svarsviðsmyndum
+          href: dev-tools/event-handler-result-class.md
+        - name: 'Viðskiptagrunnur skrifaður með C\# og X++ frumkóða'
+          href: dev-tools/write-business-logic.md
+        - name: Stuðningur við forritunartungumál
+          href: dev-tools/programming-language-support.md
+        - name: 'LINQ-veita fyrir C\#'
+          href: dev-tools/linq-provider-c.md
+        - name: Bestu venjur við skrif
+          href: dev-tools/author-best-practice-rules.md
+        - name: Eiginleikar Application Explorer
+          href: dev-ref/application-explorer-aot-properties.md
+        - name: Leiðbeiningar um X++ forritunarmálið
+          items:
+            - name: Leiðbeiningar um X++ forritunarmálið
+              href: dev-ref/xpp-language-reference.md
+            - name: X++ breytur og gagnagerðir
+              href: dev-ref/xpp-variables-data-types.md
+            - name: 'Meðhöndlun X++ setninga, lykkja og frávika'
+              href: dev-ref/xpp-statements-loops.md
+            - name: X++ virkjar
+              href: dev-ref/xpp-operators.md
+            - name: Forgangur X++ virkis
+              href: dev-ref/xpp-operator-precedence.md
+            - name: X++ klasar og aðferðir
+              href: dev-ref/xpp-classes-methods.md
+            - name: X++ gagnaval og beiting
+              href: dev-ref/xpp-data-query.md
+            - name: X++ fjölvar
+              href: dev-ref/xpp-macros.md
+            - name: X++ eigindasía
+              href: dev-ref/xpp-attribute-classes.md
+            - name: 'Samanburður á X++ og C\#'
+              href: dev-ref/xpp-cs-comparison.md
+            - name: Málskipan X++
+              href: dev-ref/xpp-syntax.md
+    - name: 'API, klasi og töflutilvísun'
+      href: dev-ref/api-reference.md
+      items:
+        - name: Þýðingartímaföll í X++
+          href: dev-ref/xpp-compile-time-functions.md
+        - name: Keyrslutímaföll í X++
+          href: dev-ref/xpp-run-time-functions.md
+          items:
+            - name: Viðskiptakeyrslutímaföll í X++
+              href: dev-ref/xpp-business-run-time-functions.md
+            - name: Geymiskeyrslutímaföll í X++
+              href: dev-ref/xpp-container-run-time-functions.md
+            - name: Umreikniskeyrslutímaföll í X++
+              href: dev-ref/xpp-conversion-run-time-functions.md
+            - name: Dagsetningarkeyrslutímaföll í X++
+              href: dev-ref/xpp-date-run-time-functions.md
+            - name: Stærðfræðikeyrslutímaföll í X++
+              href: dev-ref/xpp-math-run-time-functions.md
+            - name: Speglunarkeyrslutímaföll í X++
+              href: dev-ref/xpp-reflection-run-time-functions.md
+            - name: Lotukeyrslutímaföll í X++
+              href: dev-ref/xpp-session-run-time-functions.md
+            - name: Strengskeyrslutímaföll í X++
+              href: dev-ref/xpp-string-run-time-functions.md
+        - name: Kerfistöflur
+          href: dev-ref/system-tables.md
+        - name: Kerfisklasar
+          items:
+            - name: A-klasar
+              href: dev-ref/a-classes.md
+            - name: B-klasar
+              href: dev-ref/b-classes.md
+            - name: C-klasar
+              href: dev-ref/c-classes.md
+            - name: D-klasar
+              href: dev-ref/d-classes.md
+            - name: E-klasar
+              href: dev-ref/e-classes.md
+            - name: 'F-klasar: FieldBinding í FormBuildAnimateControl'
+              href: dev-ref/fieldbinding-classes.md
+            - name: 'F-klasar: FormBuildButtonControl í FormBuildFastTabSummarySeparator'
+              href: dev-ref/formbuildbuttoncontrol-classes.md
+            - name: 'F-klasar: FormBuildFilterPaneControl í FormBuildRealControl'
+              href: dev-ref/formbuildfilterpanecontrol-classes.md
+            - name: 'F-klasar: FormBuildReferenceControl í FormButtonSeparatorControl'
+              href: dev-ref/formbuildreferencecontrol-classes.md
+            - name: 'F-klasar: FormChangeTracker í FormControlEventArgs'
+              href: dev-ref/formchangetracker-classes.md
+            - name: 'F-klasar: FormDataObject í FormFastTabHeaderControl'
+              href: dev-ref/formdataobject-classes.md
+            - name: 'F-klasar: FormFastTabSummarySeparator í FormGridControl'
+              href: dev-ref/formfasttabsummaryseparator-classes.md
+            - name: 'F-klasar: FormGroupControl í FormIntControl'
+              href: dev-ref/formgroupcontrol-classes.md
+            - name: 'F-klasar: FormListBoxControl í FormNotifyEventArgs'
+              href: dev-ref/formlistboxcontrol-classes.md
+            - name: 'F-klasar: FormObject í FormRealControl'
+              href: dev-ref/formobject-classes.md
+            - name: 'F-klasar: FormReferenceControl í FormStringControl'
+              href: dev-ref/formreferencecontrol-classes.md
+            - name: 'F-klasar: FormTabControl í FormWindowControl'
+              href: dev-ref/formtabcontrol-classes.md
+            - name: G-klasar
+              href: dev-ref/g-classes.md
+            - name: H-klasar
+              href: dev-ref/h-classes.md
+            - name: I-klasar
+              href: dev-ref/i-classes.md
+            - name: J-klasar
+              href: dev-ref/j-classes.md
+            - name: K-klasar
+              href: dev-ref/k-classes.md
+            - name: L-klasar
+              href: dev-ref/l-classes.md
+            - name: M-klasar
+              href: dev-ref/m-classes.md
+            - name: N-klasar
+              href: dev-ref/n-classes.md
+            - name: O-klasar
+              href: dev-ref/o-classes.md
+            - name: P-klasar
+              href: dev-ref/p-classes.md
+            - name: Q-klasar
+              href: dev-ref/q-classes.md
+            - name: R-klasar
+              href: dev-ref/r-classes.md
+            - name: S-klasar
+              href: dev-ref/s-classes.md
+            - name: T-klasar
+              href: dev-ref/t-classes.md
+            - name: U-klasar
+              href: dev-ref/u-classes.md
+            - name: V-klasar
+              href: dev-ref/v-classes.md
+            - name: W-klasar
+              href: dev-ref/w-classes.md
+            - name: X-klasar
+              href: dev-ref/x-classes.md
+    - name: Stækkunarhæfni
+      href: extensibility/extensibility-home-page.md
+      items:
+        - name: Kynning og fyrstu skref
+          items:
+            - name: Stækkunarmöguleikar forrits
+              href: extensibility/extensibility-roadmap.md
+            - name: Stækkunarbeiðnir
+              href: extensibility/extensibility-requests.md
+            - name: Algengar spurningar
+              href: extensibility/app-sealing-faq.md
+            - name: Flytja úr yfirlögn í viðbætur
+              href: extensibility/migrate-overlayer-extension.md
+            - name: Líkanaeiningar sérstilltar með skrárendingum (leiðsögn)
+              href: extensibility/customize-model-elements-extensions.md
+            - name: 'Sérstillingar: yfirlög og viðbætur'
+              href: extensibility/customization-overlayering-extensions.md
+        - name: Nýjungar
+          items:
+            - name: Breytingar á stækkunarhæfni júlí 2017
+              href: extensibility/changes-july-2017.md
+            - name: Breytingar á stækkunarhæfni útgáfu 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Breytingar á stækkunarhæfni útgáfu 8.0
+              href: extensibility/changes-80.md
+        - name: Undirstöðuatriði
+          items:
+            - name: Sérstillingar sem valda röskunum
+              href: extensibility/intrusive-customizations.md
+            - name: Klasaskráarendingar
+              href: extensibility/class-extensions.md
+            - name: 'Klasaskráarending: aðferðarpökkun og skipanakeðja'
+              href: extensibility/method-wrapping-coc.md
+            - name: Leiðbeiningar um nöfn
+              href: extensibility/naming-guidelines-extensions.md
+            - name: Draga úr líkanatakmörkunum til að virkja endurgerð yfirlaga í viðbætur
+              href: extensibility/refactoring-over-layering.md
+        - name: Hvernig geri ég?
+          items:
+            - name: Bæta við fasttextagildi
+              href: extensibility/add-enum-value.md
+            - name: Breyta aukinni gagnagerð
+              href: extensibility/modify-edt.md
+            - name: Skrá undirklasa fyrir verksmiðjuaðferðir
+              href: extensibility/register-subclass-factory-methods.md
+            - name: Svara með EventHandlerResult
+              href: extensibility/respond-event-handler-result.md
+            - name: RunBase-klasi stækkaður
+              href: extensibility/extend-runbase-class.md
+            - name: Nota fulltrúa til að sérstilla ræsingu forrits
+              href: extensibility/startup-customizations.md
+            - name: Breyta fyrirliggjandi svæði í töflu
+              href: extensibility/modify-existing-field.md
+            - name: Bæta nýju svæði við fyrirliggjandi töflu
+              href: extensibility/add-field-extension.md
+            - name: Bæta atriðaskrá við fyrirliggjandi töflu
+              href: extensibility/add-index.md
+            - name: Bæta tengslum við fyrirliggjandi töflu
+              href: extensibility/add-relation.md
+            - name: Breyta eiginleikum í fyrirliggjandi töflu
+              href: extensibility/modify-properties.md
+            - name: Bæta aðferð við töflu
+              href: extensibility/add-method-table.md
+            - name: Framkvæma viðskiptaaðgerðir á líftíma töflufærslu
+              href: extensibility/subscribe-table-events.md
+            - name: Bæta nýjum gagnagjafa við eyðublað
+              href: extensibility/add-datasource.md
+            - name: Breyta fyrirsögn eyðublaðs
+              href: extensibility/change-caption-form.md
+            - name: Breyta eiginleikum eyðublaðsstýringar
+              href: extensibility/modify-control-properties.md
+            - name: Breyta merki
+              href: extensibility/change-label.md
+            - name: Umfang númeraraðar stækkað
+              href: extensibility/extend-number-sequence-scope.md
+            - name: Bæta við nýrri birgðavídd
+              href: extensibility/inventory-dimensions.md
+            - name: Breytingar á stækkunarhæfni verðs og afsláttar
+              href: extensibility/pricing-app73.md
+            - name: Töflukortaviðbót
+              href: extensibility/map-extensions.md
+            - name: Víkka töflukort sem notuð sem viðmót
+              href: extensibility/maps-as-interfaces.md
+            - name: Víkka töflukort sem notuð fyrir útgáfustjórnun
+              href: extensibility/maps-with-versioning.md
+    - name: Afköst
+      items:
+        - name: Rakning með rakningarþáttara
+          href: perf-test/trace-trace-tutorial.md
+        - name: PerfSDK og fjölnotendaprófun með Visual Studio Team Services
+          href: perf-test/perfsdk-tutorial.md
+        - name: Greining vandamála og afkastavandamála með rakningarþáttara
+          href: perf-test/trace-parser.md
+        - name: Afkastateljari
+          href: perf-test/performance-timer.md
+    - name: Prófun stuðnings í Visual Studio
+      items:
+        - name: Prófun og villuleit
+          href: perf-test/testing-validation.md
+        - name: Prófun verkefna í Visual Studio
+          href: perf-test/testing-support.md
+        - name: Uppsetning með samfelldri smíði og sjálfvirkni prófunar
+          href: perf-test/continuous-build-test-automation.md
+    - name: Dagsetningarvirkni
+      href: dev-tools/date-effectivity.md
+    - name: Leyfisveiting óháðra hugbúnaðarsala
+      href: dev-tools/isv-licensing.md
+    - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
+      href: dev-tools/isv-licensing-on-prem.md
+- name: Þróun á notandaviðmóti
+  href: user-interface/user-interface-development-home-page.md
+  items:
+    - name: Kennsla
+      items:
+        - name: Smíði skjámyndar leigugjaldsgerðar
+          href: user-interface/build-rental-charge-type-form.md
+        - name: Smíði skjámyndarinnar „Viðskiptavinur“
+          href: user-interface/build-customer-form.md
+        - name: Smíði yfirlits
+          href: user-interface/build-navigation.md
+        - name: Smíði vinnusvæðis
+          href: user-interface/build-workspace.md
+    - name: Skjámyndir
+      items:
+        - name: Yfirlit í Dynamics 365 for Finance and Operations
+          href: user-interface/page-navigation.md
+        - name: Útlit í Dynamics 365 for Finance and Operations
+          href: user-interface/page-layout.md
+        - name: Leturgerð tákns
+          href: user-interface/symbol-font.md
+        - name: Prófun skjámynda með sérstilltum mynstrum
+          href: user-interface/testing-forms-custom-patterns.md
+        - name: Gerð og notkun djúptengla
+          href: user-interface/create-deep-links.md
+        - name: 'Aðgengi í skjámyndum, afurðum og stýringum'
+          href: user-interface/enable-accessibility.md
+        - name: Sérstilling hjálpar í reit
+          href: user-interface/customize-field-help.md
+    - name: Stýringar
+      items:
+        - name: Aðgerðastýringar
+          href: user-interface/action-controls.md
+        - name: Inntaksstýringar og dálkstærðir í hnitaneti
+          href: user-interface/sizing-input-controls-grid-columns.md
+        - name: Gátreitsstuðningur í tréstýringum
+          href: user-interface/check-box-tree-controls.md
+        - name: Síur
+          href: user-interface/filtering.md
+        - name: PowerApps-hýsistýring
+          href: user-interface/powerapps-host-control.md
+    - name: Gluggastjórnun
+      items:
+        - name: Flutningur efnisvalmyndakóða
+          href: migration-upgrade/code-migration-context-menus.md
+        - name: Kóði fyrir flutning með tvísmellingu músar
+          href: migration-upgrade/code-migration-double-click.md
+        - name: Gagnafærsla í samhengi fyrir uppflettingu
+          href: user-interface/contextual-data-entry-lookups.md
+        - name: HierarchyViewer-stýring
+          href: user-interface/hierarchy-viewer-control.md
+        - name: Uppflettistýringar
+          href: user-interface/lookups-controls.md
+        - name: Stýringar skráaupphleðslu
+          href: user-interface/file-upload-control.md
+        - name: Kerfisskilgreindir hnappar
+          href: user-interface/system-defined-buttons.md
+        - name: Myndir
+          href: user-interface/images-form-grid.md
+        - name: 'Letur- og bakgrunnslitir fyrir innsláttar-, töflu- og hnitanetsstýringar'
+          href: user-interface/specify-color-font-background-controls.md
+        - name: Stuðningur við tungumál sem ritað er frá hægri til vinstri og tvíátta texta
+          href: user-interface/bidirectional-support.md
+        - name: Tákn búin til fyrir vinnusvæðisreiti
+          href: user-interface/create-icons-workspace-tiles.md
+        - name: Stækkanlegar stýringar – opin JavaScript-API
+          href: user-interface/public-javascript-apis.md
+        - name: Stýringagátlisti
+          href: user-interface/control-checklist.md
+    - name: Skilaboð
+      items:
+        - name: Sleði og MessageBox
+          href: user-interface/slider-messagebox.md
+        - name: 'Skilaboðamiðstöð, skilaboðastika og API fyrir upplýsingar um skilaboð'
+          href: user-interface/messaging-api-center-bar-details.md
+        - name: 'Skilaboðamiðstöð, skilaboðastika og algengar spurningar um upplýsingar um skilaboð'
+          href: user-interface/messaging-user.md
+    - name: Mynsturleiðbeiningar fyrir aðalskjámynd
+      items:
+        - name: Val á mynstri skjámyndar
+          href: user-interface/select-form-pattern.md
+        - name: Skjámyndastílar og mynstur
+          href: user-interface/form-styles-patterns.md
+        - name: Innbætur fyrir skjámyndamynstur
+          href: user-interface/form-pattern-add-ins.md
+    - name: Skjámyndamynstur
+      items:
+        - name: Almennar leiðbeiningar fyrir skjámyndir
+          href: user-interface/general-form-guidelines.md
+        - name: Mynstur aðalskjámyndar upplýsinga
+          href: user-interface/details-master-form-pattern.md
+        - name: Mynstur færsluskjámyndar upplýsinga
+          href: user-interface/details-transaction-form-pattern.md
+        - name: Mynstur listaskjámyndar skjámyndarhluta
+          href: user-interface/section-list-form-pattern.md
+        - name: Mynstur listasíðuskjámyndar
+          href: user-interface/list-page-form-pattern.md
+        - name: Mynstur einfaldrar upplýsingaskjámyndar
+          href: user-interface/simple-details-form-pattern.md
+        - name: Mynstur einfaldrar lista- og upplýsingaskjámyndar
+          href: user-interface/simple-list-details-form-pattern.md
+        - name: Mynstur einfaldrar listaskjámyndar
+          href: user-interface/simple-list-form-pattern.md
+        - name: Mynstur efnisyfirlitsskjámyndar
+          href: user-interface/table-of-contents-form-pattern.md
+        - name: Mynstur tvöfaldrar skjámyndar verkefnis
+          href: user-interface/task-double-form-pattern.md
+        - name: Mynstur einfaldrar skjámyndar verkefnis
+          href: user-interface/task-single-form-pattern.md
+        - name: Mynstur skjámyndar leiðsagnarforrits
+          href: user-interface/wizard-form-pattern.md
+        - name: Mynstur skjámyndar vinnusvæðis
+          href: user-interface/workspace-form-pattern.md
+    - name: Mynstur aukaskjámyndar
+      items:
+        - name: Mynstur skjámyndar fyrir ítarlegt val
+          href: user-interface/advanced-selection-form-pattern.md
+        - name: Mynstur svargluggaskjámyndar
+          href: user-interface/dialog-form-pattern.md
+        - name: Mynstur skjámyndar felliglugga
+          href: user-interface/drop-dialog-form-pattern.md
+        - name: Mynstur uppflettingarskjámyndar
+          href: user-interface/lookup-form-pattern.md
+        - name: Mynstur skjámyndar upplýsingareits
+          href: user-interface/factbox-form-patterns.md
+    - name: Undirmynstur
+      items:
+        - name: Undirmynstur sérstillts síuflokks
+          href: user-interface/custom-filter-group-subpattern.md
+        - name: Undirmynstur víddarfærslustýringar
+          href: financial/dimension-entry-control-subpattern.md
+        - name: Undirmynstur smíðakerfis víddarsegðar
+          href: financial/dimension-expression-builder-subpattern.md
+        - name: Undirmynstur reita og reitaflokka
+          href: user-interface/fields-field-groups-subpattern.md
+        - name: Undirmynstur sía og tækjastiku
+          href: user-interface/filters-toolbar-subpattern.md
+        - name: Undirmynstur fyllingartexta
+          href: user-interface/fill-text-subpattern.md
+        - name: Undirmynstur láréttra reita og hnappaflokka
+          href: user-interface/horizontal-fields-buttons-group-subpattern.md
+        - name: Undirmynstur myndaforskoðunar
+          href: user-interface/image-preview-subpattern.md
+        - name: Undirmynstur listaglugga
+          href: user-interface/list-panel-subpattern.md
+        - name: Undirmynstur faldaðs einfalds lista og upplýsinga
+          href: user-interface/nested-simple-list-details-subpattern.md
+        - name: Mynstur myndritsskjámyndar hluta
+          href: user-interface/section-chart-form-pattern.md
+        - name: Power BI-undirmynstur hluta
+          href: user-interface/section-powerbi-subpattern.md
+        - name: Undirmynstur tengdra tengla hluta
+          href: user-interface/section-related-links-subpattern.md
+        - name: Undirmynstur staflaðs myndrits hluta
+          href: user-interface/section-stacked-chart-subpattern.md
+        - name: Undirmynstur flipalista hluta
+          href: user-interface/section-tabbed-list-subpattern.md
+        - name: Undirmynstur hlutareita
+          href: user-interface/section-tiles-subpattern.md
+        - name: Undirmynstur töflureita
+          href: user-interface/tabular-fields-subpattern.md
+        - name: Undirmynstur tækjastiku og reita
+          href: user-interface/toolbar-fields-subpattern.md
+        - name: Undirmynstur tækjastiku og lista
+          href: user-interface/toolbar-list-subpattern.md
+        - name: Undirmynstur síuflokks vinnusvæðissíðu
+          href: user-interface/workspace-filter-group-subpattern.md
+    - name: Stækkunarhæfni stýringar
+      items:
+        - name: Smíði stækkanlegrar stýringar
+          href: user-interface/build-extensible-control.md
+        - name: Flýtilyklar fyrir stækkanlegar stýringar
+          href: user-interface/keyboard-shortcuts-controls.md
+        - name: Tilvísun í forritun stækkanlegrar stýringar
+          href: user-interface/extensible-control-programming-reference.md
+        - name: Stækkunarhæfni stýringar
+          href: user-interface/control-extensibility.md
+        - name: Þýðanleg merki búin til
+          href: user-interface/create-localizable-labels-client.md
+        - name: Leiðbeiningar fyrir útlit stækkanlegrar stýringar
+          href: user-interface/extensible-controls-layout.md
+        - name: Stjórnun textans sem verkskráning myndar fyrir stýringu
+          href: user-interface/task-recorder-control-text.md
+    - name: Smíða vinnusvæði
+      items:
+        - name: Smíði virkra vinnusvæða
+          href: user-interface/build-workspaces.md
+        - name: Biðminnisvistun reits og lista fyrir vinnusvæði
+          href: user-interface/tile-list-caching-workspaces.md
+    - name: Verkskráning
+      href: user-interface/task-recorder.md
+      items:
+        - name: Flýtitilvísun verkskráningar
+          href: user-interface/task-recorder-quick-reference.md
+        - name: Stofna fylgiskjöl eða þjálfun með verkskráningu
+          href: user-interface/task-recorder-training-docs.md
+- name: Fartækjaverkvangur
+  href: mobile-apps/platform/mobile-platform-home-page.md
+  items:
+    - name: Hafist handa
+      href: mobile-apps/platform/mobile-platform-getting-started.md
+      items:
+        - name: Högun
+          href: mobile-apps/platform/mobile-platform-architecture.md
+        - name: Yfirlit tilvika viðskiptagrunns
+          href: mobile-apps/platform/business-logic-events-overview.md
+        - name: Leiðbeiningar fyrir síðuhönnun
+          href: mobile-apps/platform/page-design-guidelines.md
+        - name: Leiðbeiningar fyrir aðgerðahönnun
+          href: mobile-apps/platform/action-design-guidelines.md
+        - name: Leiðbeiningar fyrir eyðublaðahönnun
+          href: mobile-apps/platform/form-design-requirements.md
+    - name: Algeng verkefni
+      items:
+        - name: Grunnstilla vinnusvæði með því að nota klasann SysAppWorkspace
+          href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+        - name: Sérstilla birtingu svæðis til að smella megi á það
+          href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+        - name: Birta talningu í svæði
+          href: mobile-apps/platform/scenarios/display-count-workspace.md
+        - name: Auka öryggi fartækjavinnusvæða
+          href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+        - name: Staðfæra vinnusvæði á þjóni
+          href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+        - name: Gera svæði áskilið með því að nota vinnusvæðaklasa
+          href: mobile-apps/platform/scenarios/make-field-mandatory.md
+    - name: Þróunartilvísun þjónsmegin
+      items:
+        - name: Þróun þjónsmegin (vinnusvæði X++ API)
+          href: mobile-apps/platform/mobile-workspace-server-apis.md
+    - name: Þróunartilvísun biðlaramegin
+      items:
+        - name: Yfirlit yfir API fyrir hönnun biðlaramegin
+          href: mobile-apps/platform/scenarios/client-api-design-overview.md
+        - name: API biðlara
+          href: mobile-apps/platform/client-apis/client-apis-reference.md
+          items:
+            - name: PageState-tölusetning
+              href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+            - name: Forritshluti
+              href: mobile-apps/platform/client-apis/modules/services-application.md
+            - name: Frestunareining
+              href: mobile-apps/platform/client-apis/modules/defer.md
+            - name: Tilvikseining
+              href: mobile-apps/platform/client-apis/modules/event-ievent.md
+            - name: Stjórneining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+            - name: Hólfeining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+            - name: Reitaeining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+            - name: Skráaupphleðslueining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+            - name: Flokkseining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+            - name: Tengilseining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+            - name: Myndeining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+            - name: Inntakseining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+            - name: Listaeining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+            - name: Uppflettieining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+            - name: Fjöluppflettieining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+            - name: Síðueining
+              href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+            - name: Síðutengilseining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+            - name: Hlutareining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+            - name: Þjónustueining
+              href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+            - name: Gildiseining
+              href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+            - name: Hugbúnaðargerð
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+            - name: ApplicationMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+            - name: AsyncService-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+            - name: CacheService-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+            - name: CompleteEventArgs-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+            - name: ContainerControl-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+            - name: ContainerControlDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+            - name: ContainerControlMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+            - name: ControlMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+            - name: DataService-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+            - name: Deferred-gerð
+              href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+            - name: Design-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+            - name: EventHook-gerð
+              href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+            - name: Reitagerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+            - name: FieldDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+            - name: FieldMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+            - name: FileUploader-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+            - name: FileUploaderDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+            - name: FileUploaderMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+            - name: GenericValue-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+            - name: getDataSource
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+            - name: Flokksgerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+            - name: GroupDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+            - name: GroupMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+            - name: HyperLink-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+            - name: HyperLinkDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+            - name: HyperLinkMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+            - name: Myndagerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+            - name: ImageDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+            - name: ImageMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+            - name: InputControl-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+            - name: InputControlDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+            - name: InputControlMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+            - name: Listagerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+            - name: ListDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+            - name: ListMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+            - name: Uppflettigerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+            - name: LookupDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+            - name: LookupMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+            - name: MetadataService-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+            - name: MultiLookup-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+            - name: MultiLookupDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+            - name: MultiLookupMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+            - name: NavigationArgs-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+            - name: NumberSequenceConfig-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+            - name: Síðugerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+            - name: PageData-gerð
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+            - name: PageLink-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+            - name: PageLinkDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+            - name: PageLinkMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+            - name: PageMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+            - name: PageOptions-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+            - name: PageSubmitArgs-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+            - name: PageTarget-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+            - name: Hlutargerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+            - name: PartDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+            - name: PartMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+            - name: Raðargerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+            - name: Gildisgerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+            - name: ValueDesign-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+            - name: ValueMetadata-gerð
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+- name: Samþætting gagna
+  items:
+    - name: Velja stefnu um samþættingu gagna (innflutning/útflutning)
+      href: data-entities/integration-overview.md
+    - name: API samþættingar gagna
+      items:
+        - name: API gagnastjórnunarpakka
+          href: data-entities/data-management-api.md
+        - name: Endastöðvar þjónustu
+          href: data-entities/services-home-page.md
+          items:
+            - name: Úrræðaleit vegna sannvottunar þjónustu
+              href: data-entities/troubleshoot-service-authentication.md
+        - name: OData
+          href: data-entities/odata.md
+        - name: Sérsniðin þjónusta
+          href: data-entities/custom-services.md
+        - name: Endurteknar samþættingar
+          href: data-entities/recurring-integrations.md
+        - name: Nota prófunarverkfæri þriðja aðila með þjónustu
+          href: data-entities/third-party-service-test.md
+    - name: Þróun fyrir samþættingu
+      items:
+        - name: Samþætting gagna með gagnaeiningum
+          href: data-entities/data-management-integration-data-entity.md
+          items:
+            - name: Þróun einingar fyrir gagnaflutning
+              href: data-entities/develop-entity-for-data-migration.md
+            - name: Þróun samsettra gagnaeininga
+              href: data-entities/develop-composite-data-entities.md
+            - name: Skilgreina samnýtingu fjárhagslegra gagna milli fyrirtækja
+              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
+            - name: Búa til færslusniðmát til að greiða fyrir skráningu gagna
+              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
+            - name: Nota færslusniðmát til að búa til nýja færslu
+              href: data-entities/tasks/use-record-template-new-record.md
+        - name: Samþætting gagna með Common Data Service
+          href: data-entities/data-integration-cds.md
+          items:
+            - name: Skilgreina aðstæðurnar viðfang til sjóðstreymis
+              href: ../supply-chain/sales-marketing/prospect-to-cash.md
+              items:
+                - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
+                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
+                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
+                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
+                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                - name: Samstilling sölupantana beint milli Sales og Finance and Operations
+                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
+                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+            - name: Skilgreina samþættingu við Field Service
+              href: ../supply-chain/sales-marketing/field-service.md
+              items:
+                - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
+                  href: ../supply-chain/sales-marketing/field-service-product.md
+                - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
+                  href: ../supply-chain/sales-marketing/field-service-work-order.md
+                - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
+                  href: ../supply-chain/sales-marketing/field-service-invoice.md
+        - name: Notkun ytri vefþjónustu
+          href: data-entities/consume-external-web-service.md
+- name: Gagnastjórnun
+  href: data-entities/data-entities-data-packages.md
+  items:
+    - name: Gagnaeiningar
+      href: data-entities/data-entities.md
+      items:
+        - name: Skilgreiningargagnaverk
+          href: data-entities/configuration-data-projects.md
+        - name: Skilgreiningargagnapakkar
+          href: data-entities/configuration-data-packages.md
+        - name: Afritun skilgreiningargagna á milli fyrirtækja
+          href: data-entities/copy-configuration.md
+        - name: Sniðmát skilgreiningargagna
+          href: data-entities/configuration-data-templates.md
+        - name: Gagnasniðmát með mörgum vinnublöðum
+          href: data-entities/excel-template-multiple.md
+        - name: Rekja breytingar til einingar
+          href: data-entities/entity-change-track.md
+        - name: Skilgreiningarlyklar og gagnaeiningar
+          href: data-entities/config-key-entities.md
+        - name: Finna upplýsingar um staðlaðar gagnaeiningar
+          href: data-entities/data-entities-report.md
+    - name: Inn- og útflutningsvinnsla gagna
+      href: data-entities/data-import-export-job.md
+      items:
+        - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
+          href: data-entities/tips-tricks-import-general-journal-entity.md
+    - name: Þróun fyrir gagnaeiningar
+      items:
+        - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
+          href: dev-tools/design-best-practices.md
+        - name: Stofna nýjar gagnaeiningar
+          href: data-entities/build-consuming-data-entities.md
+        - name: Eiginleikar gagnaeininga
+          href: data-entities/behavioral-properties-data-entities.md
+        - name: Stofna útreikning dálka og sýndarreita
+          href: data-entities/data-entity-computed-columns-virtual-fields.md
+        - name: Hegðun á milli fyrirtækja
+          href: data-entities/cross-company-behavior.md
+        - name: Meðhöndlun lands-/svæðiskóða
+          href: data-entities/countryregion-codes-configuration-keys.md
+        - name: Erfðamynstur
+          href: data-entities/support-super-type-sub-type.md
+        - name: Reglur leiðsagnarforrits gagnaeiningar
+          href: data-entities/data-entity-wizard-rules.md
+        - name: Eiginleikar lýsigagna
+          href: data-entities/behavioral-properties-data-entities.md
+        - name: 'Villuleitir, sjálfgildi og óvarpaðir reitir'
+          href: data-entities/validations-defaults-unmapped-fields.md
+        - name: Öryggi og gagnaeiningar
+          href: data-entities/security-data-entities.md
+        - name: Búa til skrifvarða einingu sem sýnir fjárhagsvíddir
+          href: financial/read-only-entity-financial.md
+    - name: Notkun eigin gagnagrunns
+      href: analytics/export-entities-to-your-own-database.md
+    - name: Sjálfvirk verkgögn
+      href: data-entities/data-task-automation.md
+    - name: Tilföng til að bregðast við GDPR-gagnabeiðnum
+      href: gdpr/gdpr-home-page.md
+      items:
+        - name: Leiðbeiningar varðandi almennu persónuverndarreglugerðina fyrir Microsoft Dynamics 365 for Finance and Operations
+          href: gdpr/gdpr-guide.md
+        - name: Flokkun eigna
+          href: gdpr/gdpr-asset-classification-values.md
+        - name: Nota skýrslu um leit að einstaklingi
+          href: gdpr/gdpr-person-search-report.md
+        - name: Útvíkka skýrslu um leit að einstaklingi
+          href: gdpr/gdpr-extend-person-search-report.md
+        - name: Stjórnun aðgangs að viðkvæmum gögnum
+          href: gdpr/gdpr-auditing-sensitive-data.md
+        - name: Svara beiðni um persónuleg gögn með Talent
+          href: gdpr/respond-dsr-request-talent.md
+        - name: Svara beiðni um persónuleg gögn með Microsoft Dynamics AX 2012
+          href: gdpr/gdpr-ax2012.md
+        - name: GDPR gagnabeiðnir fyrir LCS
+          href: gdpr/gdpr-lcs.md
+    - name: Vinnusvæði gagnaprófunar
+      href: user-interface/data-validation-workspace.md
+- name: Samfelld afhending
+  href: dev-tools/continuous-delivery-home-page.md
+  items:
+    - name: Algengar spurningar um þróun og samfellda afhendingu
+      href: dev-tools/continuous-delivery-faq.md
+    - name: Útiloka prófunarpakka úr frálagi útgáfu
+      href: dev-tools/exclude-test-packages.md
+    - name: Stjórnun líkana þriðja aðila og keyrslupakka með upprunastýringu
+      href: dev-tools/manage-runtime-packages.md
+    - name: Útgáfugerð í sjálfvirkri smíð
+      href: dev-tools/version-models-build.md
+- name: Útgáfa lausna með Lifecycle Services
+  items:
+    - name: Þróun og útgáfa
+      href: lcs-solutions/lcs-solutions-app-source.md
+    - name: Stig og útgáfa
+      href: lcs-solutions/marketing-content-lcs-solutions.md
+    - name: Aðferðafræði bætt við
+      href: lcs-solutions/methodologies-lcs-solutions.md
+    - name: Uppsetning viðskiptaferlavinnslusafna
+      href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+    - name: Flutningur kóða
+      href: lcs-solutions/code-migration-lcs-solutions.md
+    - name: Villuleit í forriti
+      href: lcs-solutions/app-validation-lcs-solutions.md
+    - name: Vinnsla og notkun gagnapakka
+      href: lcs-solutions/process-data-packages-lcs-solutions.md
+    - name: Öryggisafritun lausnagagnagrunns
+      href: lcs-solutions/database-backup-lcs-solutions.md
+    - name: Þýðingar
+      href: lcs-solutions/country-region.md
+      items:
+        - name: Flokkun staðfærslueiginleika
+          href: lcs-solutions/classify-localization-features.md
+        - name: Lands-/svæðissamhengi
+          href: lcs-solutions/apply-country-context.md
+        - name: Regluvottanir
+          href: lcs-solutions/regulatory-certifications.md
+        - name: Regluuppfærslur
+          href: lcs-solutions/regulatory-watch-communication.md
+        - name: Aðskilin staðfærslulíkön
+          href: lcs-solutions/separate-localization-models.md
+        - name: Innsending lögboðinnar viðvörunar
+          href: lcs-solutions/submit-localization-alerts.md
+- name: Fjármálaþróun
+  href: financial/financial-dev-home-page.md
+  items:
+    - name: Víddir
+      href: financial/dimensions.md
+    - name: Víddum bætt við Excel-sniðmát
+      href: financial/dimensions-overview.md
+    - name: Svargluggastuðningur víddarfærslustýringar
+      href: financial/dimension-entry-control-dialog-support.md
+    - name: 'Flutningur víddarfærslustýringar  '
+      href: financial/dimension-entry-control-migration.md
+    - name: Upptaka víddarfærslustýringar
+      href: financial/dimension-entry-control-uptake.md
+    - name: Undirmynstur smíðakerfis víddarsegðar
+      href: financial/dimension-expression-builder-subpattern.md
+    - name: Fjárhagsvíddarskilgreining fyrir samþættingu forrita
+      href: financial/financial-dimension-configuration-integration.md
+    - name: Fjárhagsvíddir virkjaðar
+      href: financial/activate-financial-dimensions.md
+    - name: Fjárhagsvíddir og aðallyklar í tungumáli sem ritað er frá hægri til vinstri
+      href: financial/financial-dimensions-main-accounts-right-left-language.md
+    - name: Stuðningstafla gerð nýtileg í fjárhagsvídd
+      href: financial/dimensionable-entities.md
+    - name: 'Flutningur hlutafærslustýringar  '
+      href: financial/segmented-entry-control-conversion.md
+    - name: Svargluggastuðningur hlutafærslustýringar
+      href: financial/segmented-entry-control-dialog-support.md
+    - name: Lýsigögn hlutafærslustýringar
+      href: financial/segmented-entry-control-metadata-specification.md
+    - name: Flutningsleiðbeiningar hlutafærslustýringar
+      href: financial/segmented-entry-control-migration-guidance.md
+    - name: Færibreytuaðferðir hlutafærslustýringar
+      href: financial/segmented-entry-control-parm-method-specification.md
+    - name: Möguleika á að fletta upp gildum fyrir fjárhagsvíddir í Microsoft Excel-sniðmátum bætt við
+      href: financial/add-dimensions-excel-templates.md
+    - name: Stofna gengisveitur
+      href: financial/create-exchange-rate-providers.md
+    - name: Stofna gengisveitur í Microsoft Dynamics Finance and Operations útgáfu 8.0
+      href: financial/create-exchange-rate-8.md
+- name: Þróun aðfangakeðja
+  items:
+    - name: Gantt-þróunarleiðbeiningar
+      href: user-interface/gantt-development-guide.md
+    - name: Ný flutningsstjórnunarvél stofnuð
+      href: ../supply-chain/transportation/create-new-transportation-management-engine.md
+- name: Uppsetning
+  items:
+    - name: Uppsetning sýniútgáfuumhverfis
+      href: deployment/deploy-demo-environment.md
+    - name: Uppsetning í skýinu
+      items:
+        - name: Innleiðing Azure Resource Manager
+          href: deployment/arm-onboarding.md
+        - name: Azure ExpressRoute og Dynamics 365 for Finance and Operations
+          href: deployment/expressroute.md
+        - name: Skipulag Finance and Operations
+          href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+    - name: Notkun á staðnum
+      href: deployment/on-premises-deployment-landing-page.md
+      items:
+        - name: Innanhússyfirlit
+          href: deployment/on-premises-overview.md
+        - name: Undirbúningur fyrir uppsetningu á staðnum
+          href: deployment/plan-onprem-deployment.md
+        - name: Vélbúnaðarþörf
+          href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+        - name: Stofna staðbundið verk
+          href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+        - name: Setja upp og nota staðbundið umhverfi
+          href: deployment/setup-deploy-on-premises-environments.md
+          items:
+            - name: Setja upp innanhússumhverfi með Platform update 12
+              href: deployment/setup-deploy-on-premises-pu12.md
+            - name: Setja upp innanhússumhverfi með Platform update 8 og 11
+              href: deployment/setup-deploy-on-premises-pu8-pu11.md
+        - name: Þróa og setja upp og nota líkön fyrir staðbundið umhverfi
+          href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Skilgreina öfugan staðgengil fyrir staðbundið umhverfi
+          href: deployment/onprem-reverseproxy.md
+        - name: Nota uppfærslur fyrir uppsetningu á staðnum
+          href: deployment/apply-updates-on-premises.md
+        - name: Setja uppsetningu á staðnum aftur upp
+          href: deployment/redeploy-on-prem.md
+        - name: Uppfæra staðbundinn eftirlitsbúnað
+          href: lifecycle-services/update-local-agent.md
+        - name: Endurskilgreina umhverfi
+          href: lifecycle-services/reconfigure-environment.md
+        - name: Internettenging biðlara
+          href: user-interface/client-disconnected.md
+        - name: Úrræðaleit Dynamics 365 for Finance and Operations á staðnum
+          href: deployment/troubleshoot-on-prem.md
+    - name: Setja upp sérsniðinn kóða
+      items:
+        - name: Virkjanlegur pakki búinn til
+          href: deployment/create-apply-deployable-package.md
+        - name: Nota uppfærslur á umhverfi í skýi
+          href: deployment/apply-deployable-package-system.md
+        - name: Uppsetning virkjanlegs pakka
+          href: deployment/install-deployable-package.md
+        - name: Úrræðaleit vegna vandamála í forritapakka
+          href: deployment/deployable-package-troubleshooting.md
+- name: Uppfærslur og bráðabætur
+  href: migration-upgrade/upgrade-home-page.md
+  items:
+    - name: Uppfærsla úr AX 2012 í Dynamics 365 for Finance and Operations
+      href: migration-upgrade/upgrade-overview-2012.md
+      items:
+        - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
+          href: migration-upgrade/upgrade-analyzer-tool.md
+        - name: AX 2012 uppfærsla – Nota kóðauppfærsluþjónustu til að meta vinnu
+          href: migration-upgrade/analyze-code-upgrade.md
+        - name: AX 2012 uppfærsla - Nota sandkassaumhverfi
+          href: migration-upgrade/analysis-sandbox.md
+        - name: AX 2012 upfærsla – Ggnauppfærsla í þróunarumhverfi
+          href: migration-upgrade/data-upgrade-2012.md
+        - name: AX 2012 uppfærsla – Gagnauppfærsluverkefni í AX 2012
+          href: migration-upgrade/prepare-data-upgrade.md
+        - name: AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi
+          href: migration-upgrade/upgrade-data-sandbox.md
+        - name: AX 2012 uppfærsla - Flutningsprófun
+          href: migration-upgrade/upgrade-cutover-testing.md
+        - name: AX 2012 uppfærsla – Verk til að ljúka eftir uppfærslu
+          href: migration-upgrade/app-validation-process.md
+        - name: AX 2012 uppfærsla - Virkniprófun
+          href: migration-upgrade/upgrade-functional-validation.md
+        - name: AX 2012 uppfærsla – Undirbúningur fyrir notkun
+          href: migration-upgrade/upgrade-go-live-prep.md
+        - name: AX 2012 uppfærsla – Bein útsending
+          href: migration-upgrade/2012-upgrade-cutover.md
+        - name: Breytingar sem hafa áhrif á uppfærslu úr AX 2012
+          items:
+            - name: Skiltákn bókhaldslykils verður að vera einkvæmt
+              href: migration-upgrade/chart-accounts-delimiter-unique.md
+            - name: Uppfærsla eins fylgiskjals og endurmats á gjaldmiðli
+              href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+            - name: Gagnalíkan tilfangaáætlunar verks
+              href: migration-upgrade/data-model-changes-resource-management.md
+            - name: Breytingar á undirkerfi verkflæðis
+              href: migration-upgrade/workflow-subsystem.md
+            - name: Af hverju farið var úr teningum í samantektarlíkön
+              href: migration-upgrade/in-memory-real-time-aggregate-models.md
+            - name: Flutningur uppfærðs sölutenings í einingaverslunina
+              href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+            - name: Uppfæra fjárhagsáætlunargerð
+              href: migration-upgrade/upgrade-budget-planning.md
+    - name: Kóðaflutningur og uppfærsla
+      href: migration-upgrade/code-migration-home-page.md
+      items:
+        - name: Undirbúningur undir flutning kóða
+          href: migration-upgrade/prepare-migration.md
+        - name: Skilgreining vörpunar Visual Studio Team Services við kóðaflutning
+          href: migration-upgrade/configure-vso-solution.md
+        - name: Skipting líkana
+          href: dev-tools/model-split.md
+        - name: Notkun fulltrúa til að leysa tengsl á milli líkana
+          href: migration-upgrade/delegates-migration.md
+    - name: Uppfæra í nýjustu uppfærslu (ský)
+      items:
+        - name: Ferli fyrir flutning í nýjustu uppfærslu
+          href: migration-upgrade/upgrade-latest-update.md
+        - name: Lifecycle-stefna
+          href: migration-upgrade/versions-update-policy.md
+        - name: Nota nýjustu uppfærslu verkvangs á umhverfi
+          href: migration-upgrade/upgrade-latest-platform-update.md
+        - name: Uppfærsla Dynamics-verkvangsins í ágúst-útgáfu 2016
+          href: migration-upgrade/update-platform-each-release.md
+        - name: Uppfærsla sandkassaumhverfis
+          href: migration-upgrade/upgrade-sandbox-environment.md
+        - name: Uppfærsla gagna í þróunar- eða sýniútgáfuumhverfi
+          href: migration-upgrade/upgrade-data-to-latest-update.md
+        - name: Uppfærsla þróunarverkfæra
+          href: dev-tools/update-development-tools.md
+    - name: Uppfæra í nýjustu uppfærslu (á staðnum)
+      items:
+        - name: Nota uppfærslur fyrir uppsetningu á staðnum
+          href: deployment/apply-updates-on-premises.md
+        - name: Setja uppsetningu á staðnum aftur upp
+          href: deployment/redeploy-on-prem.md
+    - name: Bráðabætur
+      items:
+        - name: Niðurhal bráðabóta af Lifecycle Services
+          href: migration-upgrade/download-hotfix-lcs.md
+        - name: Nota uppfærslur á umhverfi í skýi
+          href: deployment/apply-deployable-package-system.md
+        - name: Uppsetning lýsigagnabráðabótar
+          href: migration-upgrade/install-metadata-hotfix-package.md
+        - name: Reporting Services lagfært í heildrænu umhverfi
+          href: migration-upgrade/patch-reporting-service-environment.md
+        - name: Uppfærsla þróunarverkfæra í Visual Studio
+          href: dev-tools/update-development-tools.md
+    - name: Afskriftir
+      items:
+        - name: Úrelt API
+          href: migration-upgrade/deprecated-apis.md
+        - name: Úreltir eiginleikar
+          href: migration-upgrade/deprecated-features.md
+- name: Kerfisstjórnun
+  href: sysadmin/system-administration-home-page.md
+  items:
+    - name: Algengar spurningar um mánaðarlegar uppfærslur verkvangs
+      href: sysadmin/faq-platform-monthly-updates.md
+    - name: Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins
+      href: sysadmin/legal-terms-privacy-statement.md
+    - name: Leyfiskóðar og skilgreiningarlyklaskýrsla
+      href: sysadmin/license-codes-configuration-keys-report.md
+    - name: Samnýting gagna milli fyrirtækja
+      href: sysadmin/cross-company-data-sharing.md
+    - name: Viðhaldsstilling
+      href: sysadmin/maintenance-mode.md
+    - name: Forstillir kerfisreikningar
+      href: sysadmin/pre-configured-system-accounts.md
+    - name: Flytja notendur milli fyrirtækja í Azure AD
+      href: sysadmin/implement-b2b.md
+    - name: Öryggi byggt á hlutverkum
+      href: sysadmin/role-based-security.md
+      items:
+        - name: Öryggisskipulag
+          href: sysadmin/security-architecture.md
+        - name: Öryggisskýrslur
+          href: sysadmin/security-reports.md
+        - name: Búa til nýja notendur
+          href: sysadmin/tasks/create-new-users.md
+        - name: Flytja inn marga notendur í einu
+          href: sysadmin/tasks/import-bulk-users.md
+        - name: Setja upp aðskilnað á skyldum
+          href: sysadmin/tasks/set-up-segregation-duties.md
+        - name: Auðkenna og leysa úr aðskilnaði á skyldum
+          href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+        - name: Úthluta notendum á öryggishlutverk
+          href: sysadmin/tasks/assign-users-security-roles.md
+    - name: Runuvinnsla
+      href: sysadmin/batch-processing-overview.md
+      items:
+        - name: Yfirlit runuþjóns
+          href: sysadmin/batch-server-overview.md
+        - name: Búa til runuvinnslu
+          href: sysadmin/tasks/create-batch-job.md
+    - name: Yfirlit yfir Fínstillingarráðgjöf
+      href: sysadmin/optimization-advisor-overview.md
+      items:
+        - name: Búa til reglur fyrir Fínstillingarráðgjöf
+          href: sysadmin/create-rules-optimization-advisor.md
+- name: Lifecycle Services
+  items:
+    - name: Yfirlit yfir Lifecycle Services
+      href: lifecycle-services/lcs.md
+      items:
+        - name: LCS fyrir viðskiptavini
+          href: lifecycle-services/lcs-works-lcs.md
+        - name: LCS fyrir samstarfsaðila
+          href: lifecycle-services/getting-started-lcs.md
+        - name: Nýjungar
+          href: lifecycle-services/whats-new-lcs.md
+        - name: Þekkt vandamál
+          href: lifecycle-services/known-issues.md
+    - name: Notkunarleiðbeiningar Dynamics Lifecycle Services
+      href: lifecycle-services/lcs-user-guide.md
+    - name: Áskriftaráætlun
+      href: lifecycle-services/subscription-estimator.md
+    - name: Skilgreining öryggis
+      href: lifecycle-services/configure-lcs-security.md
+    - name: Vandamálaleit
+      href: lifecycle-services/issue-search-lcs.md
+    - name: Skilgreiningarstjórnun
+      href: lifecycle-services/configuration-manager-lcs.md
+      items:
+        - name: Uppsetning skilgreiningastjórnunar
+          href: lifecycle-services/set-up-configuration-manager-lcs.md
+    - name: Skilgreining kóðauppfærsluþjónustu
+      href: lifecycle-services/configure-execute-code-upgrade.md
+    - name: 'Aðferðafræði búin til  '
+      href: lifecycle-services/create-methodology.md
+    - name: Viðskiptaferlavinnsla
+      href: lifecycle-services/bpm-overview.md
+    - name: Viðskiptaferlasöfn í viðskiptaferlavinnslu
+      href: lifecycle-services/business-process-libraries-business-process-modeler.md
+    - name: 'Stofna, breyta, eða fletta í BPM-safni'
+      href: lifecycle-services/creating-editing-browsing.md
+    - name: Ljúka verkefnum í BPM-safni
+      href: lifecycle-services/complete-tasks-bpm.md
+    - name: Nota verkþáttaskýringarmyndir
+      href: lifecycle-services/using-activity-diagrams.md
+    - name: Samstilling BPM-safns með Visual Studio Team Services (VSTS)
+      href: lifecycle-services/synchronize-bpm-vsts.md
+    - name: Stofna samþykktarprófunarpakka með verkleiðbeiningum og BPM
+      href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+    - name: Flæðirit viðskiptaferlavinnslu
+      href: lifecycle-services/flowcharts-business-process-modeler.md
+    - name: Upphleðsla sérstilltra viðskiptaferla
+      href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+    - name: 'Eftirlit og greiningar '
+      href: lifecycle-services/monitoring-diagnostics.md
+    - name: Endurræsa umhverfisþjónustu
+      href: lifecycle-services/restart-environment-services.md
+    - name: Eftirfylgni innskráninga notenda
+      href: lifecycle-services/user-logins.md
+    - name: Eignasafn
+      href: lifecycle-services/asset-library.md
+    - name: Microsoft Dynamics 365 - yfirlit fyrir þýðingaþjónustu
+      href: lifecycle-services/translation-service-overview.md
+      items:
+        - name: 'Microsoft Dynamics 365 - notendahandbók fyrir þýðingaþjónustu  '
+          href: lifecycle-services/use-translation-service.md
+        - name: Microsoft Dynamics 365 þýðingaþjónusta - þýðing fylgiskjalaskráa
+          href: lifecycle-services/use-translation-service-ua.md
+        - name: Microsoft Dynamics 365 þýðingaþjónusta - þýðingaminni
+          href: lifecycle-services/use-translation-service-tm.md
+    - name: Eiginleikar Dynamics AX 2012 Lifecycle Services
+      items:
+        - name: Uppsetning
+          items:
+            - name: Umhverfi í skýi
+              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
+            - name: Afritun skilgreiningar
+              href: lifecycle-services/copy-configuration-lcs.md
+            - name: Áætlun uppsetningar Dynamics AX 2012 R3 á Azure
+              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
+            - name: Uppsetning Dynamics AX 2012 R3 á Azure
+              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
+            - name: Uppsetning Dynamics AX 2012 R3-sýniútgáfuumhverfis
+              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
+            - name: Uppsetning þróunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
+            - name: Uppsetning stöðugs umhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
+            - name: Uppsetning prófunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
+            - name: Stjórnun uppsetningar Dynamics AX 2012 R3 á Azure
+              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
+            - name: Enterprise Portal-þjónar samtengdir í einu gagnaveri
+              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
+            - name: Skráning aðgangsstaða í Dynamics AX Enterprise Portal
+              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
+            - name: Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
+            - name: Uppsetning Retail E-commerce-tækis/prófunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
+            - name: Uppsetning Retail Essentials-tækis/prófunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
+            - name: Uppsetning Retail Mobility-tækis/prófunarumhverfis á Azure
+              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
+            - name: Úrræðaleit vegna uppsetningar Dynamics AX 2012 R3 á Azure
+              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
+            - name: Uppfærslur fyrir Dynamics AX 2012 R3
+              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
+        - name: Notkunarleiðbeiningar ramma fyrir inn- og útflutning gagna
+          href: lifecycle-services/ax-2012/user-guide-dixf.md
+          items:
+            - name: Uppsetning
+              href: lifecycle-services/ax-2012/install-dixf.md
+              items:
+                - name: Uppsetning fyrir AX 2012 R3
+                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
+                - name: Uppsetning Dynamics AX 2012 R2 CU7-útgáfu fyrir SQL Server 2014
+                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
+            - name: Flutningur gagna
+              href: lifecycle-services/ax-2012/migrate-data-dixf.md
+            - name: Skilgreining SSIS-útgáfunnar
+              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
+            - name: Afritun og samanburður einingagagna milli fyrirtækja
+              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
+            - name: Afritun gagna milli Dynamics AX-fyrirtækja
+              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
+            - name: Afritun gagna milli Dynamics AX-tilvika
+              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
+            - name: Stofnun sérstilltrar markeiningar
+              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
+            - name: Rammaeiningar fyrir inn- og útflutning gagna
+              href: lifecycle-services/ax-2012/entities-dixf.md
+            - name: Innflutningur gagna frá CSV-gagnaveitu
+              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
+            - name: Innflutningur gagna frá ODBC-gagnaveitu
+              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
+            - name: Kynningarskrár
+              href: lifecycle-services/ax-2012/demo-files-dixf.md
+            - name: Hraður innflutningur-útflutningur
+              href: lifecycle-services/ax-2012/quick-import-export.md
+        - name: Töflur
+          items:
+            - name: Stofnun tafla
+              href: lifecycle-services/ax-2012/create-tables.md
+            - name: Eiginleikar tafla
+              href: lifecycle-services/ax-2012/table-properties.md
+        - name: LCS-verkfæri í Dynamics AX 2012
+          items:
+            - name: Verk
+              href: lifecycle-services/ax-2012/projects-lcs.md
+            - name: Aðferðarfræði
+              href: lifecycle-services/ax-2012/methodologies-lcs.md
+            - name: 'Sérstillingagreining  '
+              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
+            - name: Vélbúnaðaráætlun
+              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
+            - name: Leyfaáætlun
+              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
+            - name: Svör við beiðnum um tillögu (lifecycle-services/RFP.md)
+              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
+            - name: Kerfisgreining
+              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
+            - name: Uppsetning og keyrsla kerfisgreiningar
+              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
+            - name: Uppfærslugreining
+              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
+            - name: Notkunarupplýsingar
+              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
+        - name: Verkfæri í Dynamics AX 2012 sem hlaða má niður
+          items:
+            - name: Notkunarleiðbeiningar fyrir kóðauppfærsluverkfæri (úreltar)
+              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
+            - name: Verkfæri í Lifecycle Services sem hlaða má niður
+              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
+            - name: Prófun gagnaflutningsverkfæris (beta)
+              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
+              items:
+                - name: Uppsetning
+                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
+                - name: Keyrsla
+                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
+                - name: Innflutningur sýnigagna fyrir AX 2012 R3
+                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
+            - name: Öryggisþróunarverkfæri
+              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
+              items:
+                - name: Uppsetning
+                  href: lifecycle-services/ax-2012/install-security-development-tool.md
+                - name: Notkunarleiðbeiningar
+                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
+                - name: Tilgreining eða breyting á heimildum aðgangsstaðar
+                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
+            - name: Hugbúnaðarþróunarsett vegna afkastaviðmiða
+              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
+            - name: Ráðgjafarverkfæri fyrir öryggisuppfærslur
+              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
+            - name: Vitrænn gagnastjórnunarrammi (IDMF)
+              href: lifecycle-services/ax-2012/microsoft-idmf.md
+              items:
+                - name: Yfirlit
+                  href: lifecycle-services/ax-2012/overview-idmf.md
+                - name: Uppsetningarleiðbeiningar
+                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
+                - name: Stillingar
+                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
+                - name: Greining
+                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
+                - name: Hreinsun og safnvistun hluta
+                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
+                - name: Safnvistunarhlutir búnir til
+                  href: lifecycle-services/ax-2012/create-archive-objects.md
+                - name: Hreinsunarhlutir búnir til
+                  href: lifecycle-services/ax-2012/create-purge-objects.md
+                - name: Áætlun hreinsunar- og greiningarverkefna
+                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
+                - name: Skoðun hreinsunar- eða safnvistunarvinnsla
+                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
+                - name: Viðhald
+                  href: lifecycle-services/ax-2012/maintain-idmf.md
+                - name: Úrræðaleit
+                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
+- name: Stjórnun gagnagrunns
+  items:
+    - name: Afritun gagnagrunns úr Azure SQL-gagnagrunni í SQL Server-umhverfi
+      href: database/copy-database-from-azure-sql-to-sql-server.md
+    - name: Afritun gagnagrunns af SQL-þjóni í SQL Server-umhverfi fyrir vinnslu
+      href: database/copy-database-from-sql-server-to-azure-sql.md
+    - name: Endurheimt gagnagrunns í öðru umhverfi en vinnsluumhverfi
+      href: database/request-point-in-time-restore.md
+    - name: Útflutningur afrits af gagnagrunni fyrir endurheimt seinna meir
+      href: database/copy-operations-database.md
+    - name: Beiðni um uppfærslu sandkassagagnagrunns
+      href: database/database-refresh.md
+- name: Stuðningur
+  items:
+    - name: Fá stuðning fyrir Dynamics 365 for Finance and Operations og Lifecycle Services
+      href: lifecycle-services/lcs-support.md
+    - name: Skráning Premier-þjónustumiða
+      href: lifecycle-services/premier-support.md
+    - name: Sending beiðni til starfsfólks Dynamics Service Engineering
+      href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+    - name: Uppsetning tæknilegs stuðnings fyrir Dynamics 365 for Finance and Operations
+      href: lifecycle-services/support-experience.md
+    - name: Gluggi fyrir algengar spurningar um áætlað viðhald
+      href: lifecycle-services/planned-maintenance-window-faq.md
+    - name: Aðgerðir og þjónusta í skýi
+      href: lifecycle-services/cloud-operations-servicing.md
+    - name: Stjórnun á upplifun stuðnings fyrir Finance and Operations
+      href: lifecycle-services/cloud-powered-support-lcs.md

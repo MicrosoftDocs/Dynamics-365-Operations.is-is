@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að vi�
     > Störf sem eru auglýst eru aðeins sýnilegar fyrir viðskiptavini sem gerast áskrifandi að einum eða fleiri LinkedIn atvinnuskráningarvöru. Annars sjá viðskiptavinir aðeins starf ef þeir leita sérstaklega að því. Töf verður þegar störf eru auglýst á LinkedIn. Það gæti tekið allt að nokkrar klukkustundir fyrir starf að birtast eftir að hafa verið send frá Attract.
 
 - **Umsókn Umsækjanda** – Bæði innri og ytri umsækjendur geta nú sótt um beint frá vinnusíðunni á starfsframasvæðinu.
-- **Mat** – Sem hluti af stillanlegu ráðningarferlinu, annaðhvort fyrir tiltekið starf eða þegar starf sniðmát er notað, hafa notendur nú aðgang að nýrri **Mat** tegund aðgerðar. Þeir geta síðan notað Verkefni: "Gauge" smáforritið í Talent til að byggja upp grunnmat sem þeir geta sent til umsækjendur. Verkefni: "Gauge" er einnig í opinberri forskoðun. Viðbótar veitendum verður bætt við í framtíðinni.
-- **Verkefni: "Gauge"** - Verkefni: "Gauge" er smáforrit í Talent sem gerir notendum kleift að búa til einfalt mat eða kannanir.
 - **Tilboðsstjórnun** – Notendur geta nú búið til tilboðsbréf úr sniðmátum sem innihalda staðgengla. Þegar umsækjendur fara yfir Tilboðsstigið geta mannauðs- og ráðningarstjórar notað Tilboðsverkfærið til að undirbúa formlegt tilboð frambjóðanda með sniðmátum, senda tilboðið til innra samþykkis og loks senda tilboðið til umsækjanda til undirskriftar. Margur nýr möguleiki verður bætt við Tilboðsverkfærið með tímanum og forskoðunareiginleikinn verður uppfærður með þessum möguleikum þegar við erum tilbúin til að sleppa þeim til forskoðunar.
 
 ### <a name="core-hr"></a>Kjarni HR
@@ -90,7 +88,7 @@ Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að vi�
     - [Laða að hugmyndir](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Kjarni HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þekkst á) í athugasemdum þínum eða vöruúrskurðum. Upplýsingar sem safnað er kunna að vera greindar frekar og verður ekki notaðar til að svara beiðnum samkvæmt gildandi lögum um persónuvernd. Persónuleg gögn sem er safnað sérstaklega með þessum forritum er háð [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/en-us/privacystatement).
+Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þekkst á) í athugasemdum þínum eða vöruúrskurðum. Upplýsingar sem safnað er kunna að vera greindar frekar og verður ekki notaðar til að svara beiðnum samkvæmt gildandi lögum um persónuvernd. Persónuleg gögn sem er safnað sérstaklega með þessum forritum er háð [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Vistaðu slóðina á þetta efnisatriði og skoðaðu oft aftur til að halda þér upplýstri/upplýstum um nýjar forskoðunareiginleikar þegar við gefum þá út.

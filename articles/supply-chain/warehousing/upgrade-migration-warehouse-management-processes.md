@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Uppfæra vöruhúsakerfis úr Microsoft Dynamics AX 2012 í Finance and Operations
 
+
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir uppfærsluferlið frá Microsoft Dynamics AX 2012 R3, sem keyrir WMSII-eininguna, í Microsoft Dynamics 365 for Finance and Operations.

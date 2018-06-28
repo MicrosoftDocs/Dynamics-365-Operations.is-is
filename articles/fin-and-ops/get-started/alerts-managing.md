@@ -3,7 +3,7 @@ title: "Runuframkvæmd fyrir viðvaranir"
 description: "Þetta efnisatriði gefur upplýsingar um runuvinnslu viðvarana í Microsoft Dynamics 365 for Finance and Operations."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>Runuvinnsla fyrir viðvaranir
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Unnið er úr viðvörunum með runuvinnsluaðgerð í Microsoft Dynamics 365 for Finance and Operations. Þú verður að setja upp runuvinnslu áður en hægt er að senda viðvaranir.
 

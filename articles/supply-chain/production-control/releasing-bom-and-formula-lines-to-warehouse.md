@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ Aðferðin sem notuð er til að losunar uppskriftar- og formúlulínur er stjó
 - **Losa uppskriftar- og formúlu línur sem hluta af framleiðslu- eða runupöntunarlosun** - Í þessari aðferð eru BOM og formúlu línur fyrir framleiðslu eða runupöntun losaðar sem hluti af því ferli að losa pöntunina. Venjulega, þegar framleiðsla eða runupöntun er losað, eru framleiðsluverk losaðar til starfsmanna vinnusalarins og framleiðsluskjöl eru prentaðar. Á meðan þessu ferli stendur er staða pöntunar einnig breytt í **Losuð**.
 - **Losaðu BOM og formúlu línur í gegnum runuvinnslu eða sem handvirkt samskipti** - Í þessari aðferð er hægt að losa BOM og formúlu línur aðeins með **Sjálfvirk losun BOM og formúlu línum** runuvinnslu eða sem handvirk samskipti. Til að losa handvirkt BOM og formúlulínur, á listasíðu framleiðslupantana eða upplýsingasíðu um framleiðslupantana, í aðgerðarglugganum, veldu **Losa í vörugeymslu**.
 
-Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framleiðslu með runuvinnslu skal horfa á þetta stutta YouTube myndband:
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framleiðslu með runuvinnslu skal horfa á þetta stutta YouTube myndband: [Losa framleiðslutiltekt til vöruhúss í runu](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Losa uppskriftarlínur og formúlulínur með því að nota runuvinnslu
 
@@ -85,8 +84,7 @@ Eftirfarandi mynd sýnir framleiðslupantanir sem hefur tvær aðgerðir, 10 og 
 
 ![Dæmi um losun efnis fyrir hvert aðgerðarnúmer](media/two-operations.PNG)
 
-Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube myndband:
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube myndband: [Endurbætur á losunarferli framleiðslupöntunar í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Losa efni í hlutfalli við magn fullunninnar vöru
 

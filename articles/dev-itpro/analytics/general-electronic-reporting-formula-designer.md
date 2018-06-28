@@ -3,7 +3,7 @@ title: "Formúluhönnuður í Rafræna Skýrslugerð"
 description: "Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -76,7 +76,7 @@ Við keyrslutíma námundar hannaða formúlan **ROUND (Intrastat.AmountMST, 2)*
 
 Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður gögn sem er tekið úr gagnagjafa, þannig að gögn geta verið send sem hluti af myndandi rafrænu skjali. Þú gætir haft snið sem þarf að nota sem dæmigerða reglu sem þarf að endurnýta sem snið. Í þessu tilviki getur þú lagt sniðið fram einu sinni í skilgreiningu sniðs, sem nefnda umbreytingu sem hefur sniðsegð. Þessi nefnda umbreyting er síðan hægt að tengja við margar sniðseiningar þar sem úttakið verður að vera sniðið í samræmi við sniðsegðina sem þú bjóst til.
 
-Eftirfarandi skýringarmynd sýnir hönnun umbreytingar sem samanstendur af þessari gerð. Í þessu dæmi styttir **TrimmedString** umbreytingin gögn á innleið af gagnagerðinni **Strengur** með því að fjarlægja bil fyrir framan og aftan. Itd skilar síðan styttu strengjagildi.
+Eftirfarandi skýringarmynd sýnir hönnun umbreytingar sem samanstendur af þessari gerð. Í þessu dæmi styttir **TrimmedString** umbreytingin gögn á innleið af gagnagerðinni **Strengur** með því að fjarlægja bil fyrir framan og aftan. Hún skilar þá styttu strengagildi.
 
 [![Umbreyting](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
@@ -175,7 +175,7 @@ Ef segð felur í sér margar aðgerðir sem hafa sama forgang, eru þessar aðg
 
 #### <a name="references"></a>Tilvísanir
 
-Öll gagnasöfn í núverandi hluta rafrænnar skýrslugerðar sem eru tiltækar við hönnun segðar geta verið notaðir sem tilvísanir með heiti. (Núverandi hluti rafrænnar skýrslugerðar getur verið annaðhvort líkan eða snið.) Til dæmis inniheldur núverandi gagnalíkan rafrænnar skýrslugerðar **ReportingDate** gagnagjafa og þessi gagnagjafi skilar gildi **DATETIME** gagnagerðarinnar. Til að forsníða þetta gildi rétt í skjalinu sem er búið til geturðu vísað til gagnagjafans í segðinni sem **" DATETIMEFORMAT" (ReportingDate, "dd-MM-yyyy")**.
+Öll gagnasöfn í núverandi hluta rafrænnar skýrslugerðar sem eru tiltækar við hönnun segðar geta verið notaðir sem tilvísanir með heiti. (Núverandi hluti rafrænnar skýrslugerðar getur verið annaðhvort líkan eða snið.) Til dæmis inniheldur núverandi gagnalíkan rafrænnar skýrslugerðar **ReportingDate** gagnagjafa og þessi gagnagjafi skilar gildi **DATETIME** gagnagerðarinnar. Til að forsníða þetta gildi á réttan hátt í skjalinu sem er búið til geturðu vísað til gagnagjafans í segðinni sem **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
 
 Allir stafir í heiti á tilvísandi gagnagjafa sem ekki tákna staf í stafrófinu skulu hafa einfaldar gæsalappir (') fyrir framan. Ef heitið á tilvísandi gagnagjafa inniheldur að minnsta kosti eitt tákn sem ekki táknar stafina í stafrófinu, skal nafnið vera fyrir innan einfaldra gæsalappa. (Til dæmis geta þessi tákn sem eru ekki í stafrófinu verið greinarmerki eða önnur skrifuð tákn.) Hér eru nokkur dæmi:
 
@@ -217,13 +217,13 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 | NULLDATE () | Skilar gagnagildi með **núlli**. | |
 | NULLDATETIME () | Skilar **núll** dagsetningu / tíma gildi. | |
 | DATETIMEFORMAT (datetime, format) | Breytir tilgreindri dagsetningu / tíma gildi í streng á tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "dd-mm-áááá")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, 24. desember, 2015, sem **"24-12-2015"**, miðað við tilgreint sérsniðið snið. |
-| DATETIMEFORMAT (datetime, format, culture) | Breytir tilgreindri dagsetningu / tíma gildi í streng í tilgreindum sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW (), "D", "de")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
+| DATETIMEFORMAT (datetime, format, culture) | Breytir tilgreindri dagsetningu / tíma gildi í streng í tilgreindum sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "D", "de")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
 | SESSIONTODAY () | Skilar núverandi setudagsetningu Finance and Operations sem dagsetningargildi. | |
 | SESSIONNOW () | Skilar núverandi setudagsetningu Finance and Operations og tíma sem dagsetningu/tíma. | |
 | DATEFORMAT (dagsetning, snið) | Skilar streng með framsetningu tiltekinnar dagsetningu í tilgreint snið. | **DATEFORMAT (SESSIONTODAY (), "dd-mm-áááá")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24-12-2015"**, miðað við tilgreint sérsniðið snið. |
-| DATEFORMAT (dagsetning, snið, menning) | Umbreyta tilgreinda dagsetningargildi í streng á tilgreindu sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "D", "de")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
+| DATEFORMAT (dagsetning, snið, menning) | Umbreyta tilgreinda dagsetningargildi í streng á tilgreindu sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "D", "de")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
 | DAYOFYEAR (dagsetning) | Skilar heiltölu sem sýnir fjölda daga milli 1. janúar og tilgreindrar dagsetningu. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** skilar **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** skilar **1**. |
-| DAGAR (dagsetning 1, dagsetning 2) | Skilar fjölda daga milli fyrri tilgreindu dagsetningunni og seinni tilgreindu dagsetningunni. Skilar jákvæðu gildi þegar fyrsta dagsetningin er seinna en seinni dagsetningin, skilaðu **0** (núll) þegar fyrsta dagsetningin er jafngild annarri dagsetningu, eða skila neikvæðu gildi annars. | **DAYS (TODAY (), DATEVALUE (DATETIMEFORMAT (ADDDAYS (NÚNA (), 1), "yyyyMMdd"), "yyyyMMdd"))** skilar **-1**. |
+| DAGAR (dagsetning 1, dagsetning 2) | Skilar fjölda daga milli fyrri tilgreindu dagsetningunni og seinni tilgreindu dagsetningunni. Skilar jákvæðu gildi þegar fyrsta dagsetningin er seinna en seinni dagsetningin, skilar **0** (núll) þegar fyrsta dagsetningin er jafngild annarri dagsetningu, eða skilar neikvæðu gildi þegar fyrsta dagsetningin er á undan seinni dagsetningunni. | **DAYS (TODAY (), DATEVALUE (DATETIMEFORMAT (ADDDAYS (NÚNA (), 1), "yyyyMMdd"), "yyyyMMdd"))** skilar **-1**. |
 
 ### <a name="data-conversion-functions"></a>Gagnaumbreytingarvirkni
 
@@ -231,120 +231,132 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 |----------|-------------|---------|
 | DATETODATETIME (dagsetning) | Breytir tilgreindum dagsetningargildum í dagsetningu / tíma. | **DATETODATETIME (CompInfo. "GetCurrentDate () ')** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **12/24/2015 12:00:00 fyrir hádegi**. Í þessu dæmi er **CompInfo** gagnagjafi rafrænnar skýrslugerðar fyrir **Finance and Operations/tafla** gerð og vísar til CompanyInfo töflunni. |
 | DATEVALUE (strengur, snið) | Skilar framsetningu á dagsetningu á tilteknum streng í tilgreindu sniði. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** skilar dagsetning 21. desember 2016, byggt á tilgreindu sérsniðnu sniði og sjálfgefna **EN-US** menningu hugbúnaðar. |
-| DATEVALUE (strengur, snið, menning) | Skilar framsetningu dagsetningar af tiltekins strengs í tilgreindum sniði og menningu. | **DATEVALUE ("21-Gen-2016", "dd-MMM-YYYY", "ÞAÐ")** skilar dagsetningunni 21. janúar 2016, byggt á tilgreindu sérsniðnu sniði og menningu. Hins vegar, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** mun senda undantekningu til að upplýsa notandann um að tilgreindur strengur sé ekki viðurkenndur sem gildur dagur. |
+| DATEVALUE (strengur, snið, menning) | Skilar framsetningu dagsetningar af tiltekins strengs í tilgreindum sniði og menningu. | **DATEVALUE ("21-Gen-2016", "dd-MMM-YYYY", "ÞAÐ")** skilar dagsetningunni 21. janúar 2016, byggt á tilgreindu sérsniðnu sniði og menningu. Hins vegar beitir **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** undantekningu til að upplýsa notandann um að tilgreindur strengur sé ekki viðurkenndur sem gild dagsetning. |
 | DATETIMEVALUE (strengur, snið) | Skilar dagsetningu / tíma framsetning á tiltekins strengs í tilgreint snið. | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh: mm: ss")** skilar 2:55:00 fyrir hádegi þann 21 desember 2016, byggt á tilgreindu sérsniðnu sniði og sjálfgefinni **EN-US** menningu hugbúnaðar. |
-| DATETIMEVALUE (strengur, snið, menning) | Tilgreina dagsetningu / tíma sem sýnir tiltekinn streng í tilgreindu sniði og menningu. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-YYYY hh: mm: ss", "IT")** skilar 2:55:00 fyrir hádegi þann 21. desember 2016, byggt á tilgreindu sérsniðið snið og menning. Hins vegar, **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh: mm: ss", "EN-US")** mun senda undantekningu til að upplýsa notandann um að tilgreindur strengur er ekki viðurkennt sem gild dagsetning / tími. |
+| DATETIMEVALUE (strengur, snið, menning) | Tilgreina dagsetningu / tíma sem sýnir tiltekinn streng í tilgreindu sniði og menningu. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-YYYY hh: mm: ss", "IT")** skilar 2:55:00 fyrir hádegi þann 21. desember 2016, byggt á tilgreindu sérsniðið snið og menning. Hins vegar beitir **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh: mm: ss", "EN-US")** undantekningu til að upplýsa notandann um að tilgreindur strengur sé ekki viðurkenndur sem gild dagsetning/tími. |
 
 ### <a name="list-functions"></a>Listavirkni
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Aðgerð</th>
 <th>lýsing</th>
 <th>Dæmi</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>SPLIT (input, length)</td>
 <td>Skipta tilgreindum intaksstreng í undirstrengi, sem hvert um sig hefur tilgreinda lengd. Skila niðurstöðu sem nýja lista.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> skilar nýjum lista sem samanstendur af tveimur færslum sem eru með reit <strong>STRING</strong>. Reitur í fyrstu færslunni inniheldur texta <strong>&quot;abc&quot;</strong>, og reitur í önnur færsla inniheldur texta <strong>&quot;d&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SPLITLIST (listi, númer)</td>
 <td>Tilgreindur listi er skipt í runur sem hver inniheldur tilgreindan fjölda færslna. Skila niðurstöðu sem nýja lista yfir runur sem inniheldur eftirfarandi einingar:
 <ul>
 <li>Runur sem reglulegir listar (<strong>Gildi </strong> þáttur)</li>
 <li>Núverandi rununúmer (<strong>BatchNumber</strong>þáttur)</li>
-</ul></td>
+</ul>
+</td>
 <td>Í eftirfarandi mynd er gagnagjafi <strong>Lína</strong> búinn til sem færslulisti af þremur færslum. Þessi listi er skiptur í runur, sem hver um sig inniheldur allt að tvær færslur.
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>Eftirfarandi mynd sýnir hannað útlit sniðs. Í þessu sniðmáti eru tengsl við gagnagjafann <strong>Línur</strong> mynduð til að búa til úttak á XML sniði. Þessi útkoma kynnir einstaka hnúta fyrir hverja runu og færslurnar í henni.</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðuna þegar hannaða sniðið er keyrt.</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (færsla 1 [, færsla 2, ...])</td>
 <td>Skila nýjum lista sem er myndaður úr tilgreindum frumbreytum.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> skilar tóm færsla, þar sem listi yfir reiti inniheldur alla reiti <strong>MainData</strong> og <strong>OtherData</strong> skráningar lista.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (listi 1, listi 2, ...)</td>
 <td>Skila sameinuðum lista sem er myndaður úr listum úr tilgreindum frumbreytum.</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> skilar lista yfir sex færslur, þar sem einn reitur af gagnagerðinni <strong>STRING</strong> inniheldur staka stafi.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY (listi)</td>
 <td>Skilar <strong>TRUE</strong> ef tilgreind listi inniheldur engin atriði. Skila annars <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST (listi)</td>
 <td>Skila tómum lista með því að nota tilgreindan lista sem uppruna fyrir skipulag lista.</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> skilar nýjum tómum lista sem hefur sömu uppbyggingu og listinn sem skilað er með <strong>SPLIT</strong> aðgerðinni.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST (listi)</td>
 <td>Skila fyrstu færslu yfir tilgreindan lista, ef færslan er ekki tóm. Annars er beitt undantekningu.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL (list)</td>
 <td>Skila fyrstu færslu yfir tilgreindan lista, ef færslan er ekki tóm. Annars skal skila <strong>núll</strong> færslu.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM (list)</td>
 <td>Skilar lista sem inniheldur aðeins fyrsta atriði tilgreinds lista.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS (path)</td>
-<td>Skilar nýjum útflöttum lista sem nær til allra atriða sem hafa samsvörun við tilgreinda slóð. Slóðin verður að vera skilgreind sem gild slóð gagnagjafa á einingu gagnagjafa með gögnum á formi færslulista. Gagnaeiningar eins og slóð strengs og dagsetning ætti að gefa upp villu í segðasmíði rafrænnar skýrslugerðar á tíma hönnunar.</td>
+<td>Þessi aðgerð keyrir sem val í minni. Hún skilar nýjum útflöttum lista sem nær til allra atriða sem hafa samsvörun við tilgreinda slóð. Slóðin verður að vera skilgreind sem gild slóð gagnagjafa á einingu gagnagjafa með gögnum á formi færslulista. Gagnaeiningar eins og slóð strengs og dagsetning ætti að gefa upp villu í segðasmíði rafrænnar skýrslugerðar á tíma hönnunar.</td>
 <td>Ef fært er inn <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> sem gagnaveita (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> skilar <strong>3</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY (slóð)</td>
+<td>Þessi aðgerð keyrir sem sameinuð SQL-fyrirspurn. Hún skilar nýjum útflöttum lista sem nær til allra atriða sem hafa samsvörun við tilgreinda slóð. Slóðin verður að vera skilgreind sem gild slóð gagnagjafa á einingu gagnagjafa af gagnagerð færslulista og hún verður að innihalda að minnsta kosti ein tengsl. Gagnaeiningar eins og slóð strengs og dagsetning ætti að gefa upp villu í segðasmíði rafrænnar skýrslugerðar á tíma hönnunar.</td>
+<td>Skilgreindu eftirfarandi gagnagjafa í líkanavörpun þinni:
+<ul>
+<li><strong>CustInv</strong> (gerðin <strong>Töflufærslur</strong>) sem vísar til töflunnar CustInvoiceTable</li> 
+<li><strong>FilteredInv</strong> (gerðin <strong>Útreiknaður reitur</strong>) sem inniheldur segðina <strong>FILTER (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong> (gerðin <strong>Útreiknaður reitur</strong>) sem inniheldur segðina <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relation'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>Þegar þú keyrir líkanavörpun þína til að kalla á gagnagjafann <strong>JourLines</strong> keyrist eftirfarandi SQL-skipun:</p>
+VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CUSTINVOICETRANS T3 ÞAR SEM...
+</td>
+</tr>
+<tr>
 <td>ORDERBY (listi [, segð 1, segð 2, …])</td>
 <td>Skila tilgreindum lista eftir að hann hefur verið flokkaður samkvæmt tilgreindum frumbreytum. Þessi frumbreytur geta verið skilgreindar sem segðir.</td>
 <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>ORDERBY (Lánardrottnar, Vendors.&#39;name()&#39;)</strong> skilar lista yfir lánardrottna sem er raðaður eftir heiti í hækkandi röð.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE (listi)</td>
 <td>Skila tilgreindum lista í röð sem er afturábak.</td>
 <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>REVERSE (ORDERBY (Lánardrottnar, Vendors.&#39;name()&#39;)) )</strong> skilar lista yfir lánardrottna sem er raðað eftir heiti í lækkandi röð.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE (listi, skilyrði)</td>
 <td>Skilar tilgreindum lista eftir að hann hefur verið síaður í samræmi við tilgreind skilyrði. Tilgreint skilyrði er beitt á listann í minni. Þannig er <strong>WHERE</strong> virknin frábrugðin <strong>FILTER</strong> aðgerðinni.</td>
 <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>WHERE (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar lista yfir seljendur sem tilheyra söluhópi 40.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE (listi)</td>
 <td>Skila nýjum lista sem samanstendur af tölusettur færslur tilgreinds lista, og sem birtir eftirfarandi einingar:
 <ul>
 <li>Tilgreindar listaskráningar sem reglulegur listi(<strong>Gildi </strong> þáttur)</li>
 <li>Gildandi færsluvísir (<strong>Númer </strong>þáttur)</li>
-</ul></td>
+</ul>
+</td>
 <td>Í eftirfarandi mynd er búinn til <strong>Tölusettur</strong> gagnagjafi sem tölusettur listi yfir færslur seljanda frá <strong>Lánardrottnum</strong> gagnagjafans sem vísar til VendTable töflunnar.
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>Eftirfarandi mynd sýnir sniðið. Í þessu sniði eru gagnatengsl mynduð til að búa til úttak á XML sniði. Þetta úttak kynnir einstaka söluaðila sem upptalda hnúta.</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðuna þegar hannaða sniðið er keyrt.</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT (listi)</td>
 <td>Skila fjölda færslna í tilgreindum lista ef listinn er ekki tómur. Skila annars <strong>0</strong> (núll).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> skilar <strong>2</strong>, þar sem <strong>SPLIT</strong> aðgerð býr til lista sem samanstendur af tveimur færslum.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS (slóð)</td>
 <td>Skilar færslulista sem er búinn til úr frumbreytu af einni af eftirfarandi gerðum:
 <ul>
@@ -358,7 +370,8 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <li>Merkimiði</li>
 <li>lýsing</li>
 </ul>
-Á keyrslutíma skila reitirnir <strong>Merkimiði</strong> og <strong>Lýsing</strong> gildum sem eru byggð á sniði tungumálastillinga.</td>
+Á keyrslutíma skilar reitir <strong>Merkimiða</strong> og <strong>Lýsingar</strong> gildum sem eru byggð á stillingu tungumálasniðs.
+</td>
 <td>Í eftirfarandi mynd er kynnt upptalning í gagnalíkönum.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>Eftirfarandi mynd sýnir þessar upplýsingar:</p>
@@ -372,10 +385,10 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðuna þegar hannaða sniðið er keyrt.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur texti fyrir merki og lýsingar sleginn inn sem úttak sniðs rafrænnar skýrslugerðar.</blockquote></td>
+<blockquote>[!NOTE]<br>Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur texti fyrir merki og lýsingar sleginn inn sem úttak sniðs rafrænnar skýrslugerðar.</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (slóð, tungumál)</td>
 <td>Skilar færslulista sem er búin til úr frumbreytu, svo sem tölusetningarlíkani, tölusetningarsniði eða geymis. Listinn sem er búinn til samanstendur af færslum sem hafa eftirfarandi svæði:
 <ul>
@@ -384,26 +397,27 @@ Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur 
 <li>lýsing</li>
 <li>Þýtt</li>
 </ul>
-<p>Á keyrslutíma skila reitirnir <strong>Merkimiði</strong> og <strong>Lýsing</strong> gildum sem eru byggð á sniði tungumálastillinga og tilgreindu tungumáli. <strong>Er þýtt</strong> svæðið gefur til kynna að svæði <strong>Merkimiða</strong> hafi verið þýtt yfir á tilgreint tungumál.</td>
+Á keyrslutíma skila svæði <strong>Merkimiða</strong> og <strong>Lýsingar</strong> gildum sem eru byggð á tungumálastillingum sniðsins og tilgreint tungumál. <strong>Er þýtt</strong> svæðið gefur til kynna að svæði <strong>Merkimiða</strong> hafi verið þýtt yfir á tilgreint tungumál.
+</td>
 <td>Til dæmis notar þú <strong>Útreiknað svæði</strong> gagnagjafann til að stilla <strong>enumType_de</strong> og <strong>enumType_deCH</strong> gagnagjafa fyrir <strong>enumType</strong> gagnalíkan tölusetningar:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Í þessu tilfelli er hægt að nota eftirfarandi segð til að fá merkið á tölusetningargildinu á svissneskri þýsku, ef þessi þýðing er í boði. Ef svissnesk þýska þýðingin er ekki tiltæk er merkið á þýsku: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+Í þessu tilfelli er hægt að nota eftirfarandi segð til að fá merkið á tölusetningargildinu á svissneskri þýsku, ef þessi þýðing er í boði. Ef svissnesk þýska þýðingin er ekki tiltæk er merkið á þýsku: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN (listanum, svæðisheiti, skiltákn)</td>
 <td>Skilar streng sem samanstendur af samsettum gildum tiltekins svæðis úr tilgreindum lista. Gildin eru aðskilin með tilgreindri afmörkun.</td>
-
-<td>Ef slegið er inn <strong>SPLIT(&quot;abc&quot; , 1)</strong> sem gagnagjafi mun segðin <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> skila <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
-
+<td>Ef slegið er inn <strong>SKIPTA(&quot;abc&quot;, 1)</strong> sem gagnagjafa (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> skilar <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT (listanum, markgildi, uppruni marks)</td>
-<td>Skipta tilgreindum lista í nýjan lista af undirlínur og skila niðurstöðum sem innihald færslulista. Viðmiðunarmörk breytu skilgreinir gildi marksins til að skipta upprunalistanum. Færibreyta upprunamarks skilgreinir skrefið sem heildarupphæðin er aukin á. Markinu er ekki beitt á staka vöru á upprunalega listanum ef upprunamarkið fer yfir skilgreind mörk.</td>
-<td>Eftirfarandi myndir sýna snið og gagnagjafana sem eru notaðir til þess. 
+<td>Skipta tilgreindum lista í nýjan lista af undirlínur og skila niðurstöðum sem innihald færslulista. <strong>Viðmiðunarmörk</strong> breytu skilgreinir gildi marksins til að skipta upprunalistanum. Færibreyta <strong>upprunamarks</strong> skilgreinir skrefið sem heildarupphæðin er aukin á. Markinu er ekki beitt á staka vöru á upprunalega listanum ef upprunamarkið fer yfir skilgreind mörk.</td>
+<td>Eftirfarandi skýringarmynd sýnir snið. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>Eftirfarandi skýringarmynd sýnir gagnagjafana sem eru notaðir fyrir sniðið.</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðuna þegar sniðið er keyrt. Í þessu tilviki er úttakið flatur listi yfir vörutegundir.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur 
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðurnar þegar stillt snið er keyrt.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-Mark er ekki beitt á síðustu vöruna í upprunalistanum vegna þess að gildið (11) á upprunamarkinu (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote></td>
+<blockquote>[!NOTE]<br>Mark er ekki beitt á síðasta hlut í upprunalistanum, vegna þess að gildi (11) mörkum upprunans (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Afmörkun (listi, skilyrði)</td>
 <td>Skila inn tilgreindan lista eftir að fyrirspurnin hefur verið breytt til að sía fyrir tilgreind skilyrði. Þessi aðgerð er frábrugðin <strong>WHERE</strong> aðgerðinni, vegna þess að tilgreint skilyrði er beitt á hvaða gagnagjafa rafrænnar skýrslugerðar af gerðinni <strong>Töflufærslur</strong> á gagnagrunnsstigi. Listinn og forsendurnar er hægt að skilgreina með því að nota töflur og samskipti.</td>
-  <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>FILTER (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar aðeins lista yfir seljendur sem tilheyra söluhópi 40. Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til <strong>VendTable</strong> töflunnar og <strong>parmVendorBankGroup</strong> sem er stillt sem gagnagjafi rafrænnar skýrslugerðar skilar gildinu af gagnagerðinni strengur, <strong>FILTER (Vendor.&lt;Relations.VendBankAccount, Vendor.&lt;Relations.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> skilar lista yfir bara reikninga lánardrottna sem tilheyra ákveðnum bankaflokki.</td>
+<td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>FILTER (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar aðeins lista yfir seljendur sem tilheyra söluhópi 40. Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til <strong>VendTable</strong> töflunnar og <strong>parmVendorBankGroup</strong> er stillt sem gagnagjafi rafrænnar skýrslugerðar sem skilar gildi af gagnagerðinni <strong>Strengur</strong> <strong>SÍA Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> skilar lista yfir bara lánardrottnalykla sem tilheyra ákveðnum bankaflokki.</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ Mark er ekki beitt á síðustu vöruna í upprunalistanum vegna þess að gildi
 | POWER (númer, valdheimild) | Skilan niðurstöðum af því að hækka tilgreinda jákvæða tölu upp að tilgreindri valdheimild. | **POWER (10, 2)** skilar **100**. |
 | NUMBERVALUE (streng aukastaf, skiltákn stafaflokkunar) | Umbreyta strengnum í númer. Tilgreint tugabrot er notað á milli heiltala og aukastafa fyrir tölu í tugakerfinu. Tilgreint skiltákn talna er notað til að skipta niður í þúsundasta hluta. | **NUMBERVALUE("1 234,56", ",", " ")** skilar gildinu **1234.56**. |
 | VALUE (strengur) | Umbreyta strengnum í númer. Kommur og punktar (.) skoðast sem skiltákn aukastafa, og bandstrik fremst (-) er notað sem neikvætt formerki. Beita undantekningu ef tilgreindur strengur inniheldur önnur tákn sem eru ekki tölur. | **VALUE ("1 234,56")** beitir undantekningu. |
-| ROUND (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð að tilgreindum fjölda aukastafa:<ul><li>Ef gildi aukastafanna er meira en 0 (núll), er tilgreind tala námunduð að þetta mörgum aukastöfum.</li><li>Ef gildi aukastafa er **0** (núll), er tilgreind tala námunduð að næstu heiltölu.</li><li>Ef gildi aukastafa er minna en 0 (núll), er tilgreind tala námunduð til vinstri við tugastafinn.</li></ul> | **ROUND (1200.767, 2)** sléttar tvo aukastafi og skilar **1200.77**. **ROUND (1200.767, -3)** sléttar næsta margfeldi svæðisins 1.000 og skilar **1000**. |
-| ROUNDDOWN (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð niður í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og <strong>ROUND</strong>, en hún námundar alltaf tilgreindri tölu niður (í átt að núlli).</blockquote> | **ROUNDDOWN (1200.767, 2)** sléttar niður á við tvo aukastafi og skilar **1200.76**. **ROUNDDOWN (1700.767, -3)** sléttar niður á við næsta margfeldi svæðisins 1.000 og skilar **1000**. |
-| ROUNDUP (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð upp í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og <strong>ROUND</strong>, en hún námundar tilgreindri tölu upp (í átt frá núlli).</blockquote> | **ROUNDUP (1200.763, 2)** sléttar upp að tvo aukastafi og skilar **1200.77**. **ROUNDUP (1200.767, -3)** sléttar upp að næsta margfeldi svæðisins 1.000 og skilar **2000**. |
+| ROUND (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð að tilgreindum fjölda aukastafa:<ul><li>Ef gildi **aukastafanna** er meira en 0 (núll), er tilgreind tala námunduð að þetta mörgum aukastöfum.</li><li>Ef gildi **aukastafa** er **0** (núll), er tilgreind tala námunduð að næstu heiltölu.</li><li>Ef gildi **aukastafa** er minna en 0 (núll), er tilgreind tala námunduð til vinstri við tugastafinn.</li></ul> | **ROUND (1200.767, 2)** sléttar tvo aukastafi og skilar **1200.77**. **ROUND (1200.767, -3)** sléttar næsta margfeldi svæðisins 1.000 og skilar **1000**. |
+| ROUNDDOWN (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð niður í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar alltaf tilgreindri tölu niður (í átt að núlli).</blockquote> | **ROUNDDOWN (1200.767, 2)** sléttar niður á við tvo aukastafi og skilar **1200.76**. **ROUNDDOWN (1700.767, -3)** sléttar niður á við næsta margfeldi svæðisins 1.000 og skilar **1000**. |
+| ROUNDUP (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð upp í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar tilgreindri tölu upp (í átt frá núlli).</blockquote> | **ROUNDUP (1200.763, 2)** sléttar upp að tvo aukastafi og skilar **1200.77**. **ROUNDUP (1200.767, -3)** sléttar upp að næsta margfeldi svæðisins 1.000 og skilar **2000**. |
 
 ### <a name="data-conversion-functions"></a>Gagnaumbreytingarvirkni
 
@@ -460,87 +474,80 @@ Mark er ekki beitt á síðustu vöruna í upprunalistanum vegna þess að gildi
 
 | Aðgerð | lýsing | Dæmi |
 |----------|-------------|---------|
-| NULLCONTAINER (listi) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Þessi aðgerð er úrelt. Notið <strong>EMPTYRECORD</strong> í staðinn.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** skilar nýja tóma skráningu sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
-| EMPTYRECORD (skráning) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Færsla <strong>núll</strong> er færsla þar sem allir reitir eru með tómt gildi. Tómt gildi er <strong>0</strong> (núll) fyrir tölur, tóman streng fyrir strengi og svo framvegis.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** skilar nýja tóma lista sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
+| NULLCONTAINER (listi) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Þessi aðgerð er úrelt. Notið **EMPTYRECORD** í staðinn.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** skilar nýja tóma skráningu sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
+| EMPTYRECORD (skráning) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Færsla **núll** er færsla þar sem allir reitir eru með tómt gildi. Tómt gildi er **0** (núll) fyrir tölur, tóman streng fyrir strengi og svo framvegis.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** skilar nýja tóma lista sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
 
 ### <a name="text-functions"></a>Textavirkni
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Aðgerð</th>
 <th>lýsing</th>
 <th>Dæmi</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER (strengur)</td>
 <td>Skila tilgreindum streng eftir að honum hefur verið breytt í hástafi.</td>
 <td><strong>UPPER(&quot;Dæmi&quot;)</strong> skilar <strong>&quot;DÆMI&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER (strengur)</td>
 <td>Skila tilgreindum streng eftir að honum hefur verið breytt í lágstafir.</td>
 <td><strong>LOWER (&quot;Dæmi&quot;)</strong> skilar <strong>&quot;dæmi&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT (streng, fjölda stafa)</td>
 <td>Skilar tilteknum fjölda stafa úr upphafi tiltekins strengs.</td>
 <td><strong>LEFT (&quot;Dæmi&quot;, 3)</strong> skilar <strong>&quot;Sam&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT (streng, fjölda stafa)</td>
 <td>Skilar tilteknum fjölda stafa úr enda tiltekins strengs.</td>
 <td><strong>RIGHT (&quot;Dæmi&quot;, 3)</strong> skilar <strong>&quot;ple&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID (streng, byrjunarstöðu, fjölda stafa )</td>
 <td>Skilar tilteknum fjölda stafa úr enda tiltekins strengs, og byrjar í tiltekinni stöðu.</td>
 <td><strong>MID (&quot;Dæmi&quot;, 2, 3)</strong> skilar <strong>&quot;amp&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN (strengur)</td>
 <td>Skilar fjölda stafa í tilteknum streng..</td>
 <td><strong>LEN (&quot;Dæmi&quot;)</strong> skilar <strong>6</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR (númer)</td>
 <td>Skila streng af stöfum sem vísað er til með tilgreinda Unicode númerinu.</td>
 <td><strong>CHAR (255)</strong> skilar <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Strengurinn sem þessi aðgerð skilar veltur á kóðuninni sem er valin í yfireiningu FILE sniðsins. Fyrir listann yfir studdar kóðanir, sjá <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kóðunarflokkur</a>.</blockquote>
+<blockquote>[!NOTE]<br>Strengurinn sem þessi aðgerð skilar veltur á kóðuninni sem er valin í yfireiningu FILE sniðsins. Fyrir listann yfir studdar kóðanir, sjá <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kóðunarflokkur</a>.</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE (string 1 [, string 2, …])</td>
 <td>Skila öllum tilgreindum textastrengjum eftir að þeir hafa verið tengdir í eina streng.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> skilar <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE]<br>Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE (strengur mynstur, útskipting)</td>
 <td>Skila tilgreindum streng eftir að öll tilfelli stafa í tilgreindum mynsturstreng hafa verið skipt út fyrir stafina í samsvarandi stöðu í tilgreindum skiptistreng.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> kemur í stað mynstursins <strong>&quot;cd&quot;</strong> með strengur <strong>&quot;GH&quot;</strong> og skilar <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE (streng, mynstur, útskipting, er flagg fyrir reglulega segð)</td>
 <td>Þegar tilgreint flagg reglulegrar segðar er <strong>sönn</strong>, skila tilgreindum streng eftir að honum hefur verið breytt með því að beita reglulegu segðinni sem er tilgreind sem mynstur frumbreytu fyrir þessa aðgerð. Þessi segð er notuð til að finna stafi sem verður að skipta út. Stafir tilgreindrar frumbreytu eru notaðar til að skipta út stöfum sem finnast. Regluleg tilgreint flatt reglulegrar segðar er <strong>rangt</strong>, hegðar þessi virkni sér eins og <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> notar reglulega segð sem fjarlægja öll tákn sem ekki eru tölur og skilar <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> kemur í stað mynsturs <strong>&quot;cd&quot;</strong> með strengur <strong>&quot;GH&quot;</strong> og skilar <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT (inntak)</td>
 <td>Skila tilgreindu inntaki eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki Finance and Operations. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umbreyting strengs við sem nemur tveimur tugasætum.</td>
 <td>Ef þjónsstaðsetning á tilviki Finance and Operations er skilgreint sem <strong>EN-US</strong>, <strong>TEXTI (nú ())</strong> skilar núverandi setudagsetningu Finance and Operations, desember 17, 2015, sem textastreng <strong>&quot;12/17/2015 07:59:23 fyrir hádegi&quot;</strong>. <strong>TEXT (1/3)</strong> skilar <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (strengur 1, strengur 2[, strengur 3, ...])</td>
 <td>Skila tilgreindum streng eftir að hann hefur verið sniðinn með því að skipta öllum tilvikum af <strong>%N</strong> með <em>n</em> frumbreytunni. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytunni skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umreikningur strengs við sem nemur tveimur tugasætum.</td>
 <td>Í eftirtöldum myndum skilar <strong>PaymentModel</strong> gagnagjafinn færslulista viðskiptavina með þætti <strong>viðskiptavini</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæðið.
@@ -562,38 +569,39 @@ Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <st
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
 <p>Ef skýrsla er unnin fyrir <strong>Litware Retail</strong> viðskiptavin 17. desember 2015, í <strong>EN-US</strong> menningu og <strong>EN-US</strong> tungumáli, skilar þessi formúla eftirfarandi texta, sem hægt er að birta sem undantekningarskilaboð fyrir notandann:</p>
 <p>&quot;Ekkert til að prenta. Viðskiptavinur Litware Smásölu er lokaður fyrir 17/12/2015.&quot;</p>
-<p>Ef sama skýrslu er unnin fyrir <strong>Litware Retail</strong> á 17. Desember 2015 í <strong>DE</strong> menningu og <strong>DE</strong> tungumáli, skilar þessi formúla eftirfarandi texta sem notar annað snið dagsetningar:</p>
-<p>&quot;Nichts zu drucken. Debitor Litware Retail wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
+<p>Ef sama skýrslan er unnin fyrir viðskiptavininn <strong>Litware Retail</strong> þann 17. desember 2015 í menningunni <strong>DE</strong> og tungumálinu <strong>DE</strong> skilar formúlan eftirfarandi texta, sem notar annað snið dagsetningar:</p>
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
 <ul>
 <li><strong>Fyrir merki úr tilföngum Finance and Operations:</strong> <strong>@&quot;X&quot;</strong> þar sem X er merkiskenni í hugbúnaðarhlutatrénu (AOT)</li>
 <li><strong>Fyrir merki sem eru í skilgreiningum rafrænnar skýrslugerðar:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong> þar sem X er merkjakenni í skilgreiningu rafrænnar skýrslugerðar</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT (númer, snið)</td>
 <td>Skila streng með framsetningu tiltekinnar tölu í tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">staðlað</a> og <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">sérsniðna</a>.) Samhengi sem þessi aðgerð er keyrð í ákvarðar þá menningu sem er notuð til að sníða vörunúmer.</td>
 <td>Fyrir EN-US menningu, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> skilar <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> skilar <strong>&quot;10&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT (númer, tungumál, gjaldmiðil, prenta flaggheiti gjaldmiðils, tugakomma)</td>
-<td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt) í textastreng á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er tungumálakóðinn fyrir samhengi keyrslunnar notaður í staðinn. (Tungumálakóðinn í samhengi keyrslunnar er skilgreindur fyrir myndaða möppu eða skrá.) Gjaldmiðilskóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
-<blockquote>[!NOTE]<br>
-Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir prentun gjaldeyrisheitis aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote></td>
+<td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt í textastreng) á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur er tungumálakóðinn fyrir samhengið sem er í keyrslu notaður. (Tungumálakóðinn fyrir samhengið sem er keyrt er skilgreint fyrir myndaða möppu eða skrá.) Tungumálakóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
+<blockquote>[!NOTE]<br><strong>Prentun gjaldeyrisheitis</strong> og breytur <strong>aukastafa</strong> eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir <strong>prentun gjaldeyrisheitis</strong> aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> Skilar <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot; false, 0)</strong> skilar <strong>&quot;“Sto dwadzieścia”&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> skilar <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT (strengur, lengd, stafir til fyllingar)</td>
 <td>Skila streng af tilgreindri lengd, þar sem upphaf tilgreinds strengs er fyllt með tilgreindum stöfum.</td>
 <td><strong>PADLEFT (&quot;“1234”&quot;, 10, &quot;&nbsp;&quot;)</strong> skilar textastreng <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“1234”&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM (strengur)</td>
 <td>Skila tilgreindum textastreng eftir að bilum fyrir framan og aftan hefur verið eytt, og eftir að samfelld bil milli orðanna hafa verið fjarlægð.</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dæmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> skilar <strong>&quot;sýnishornatexta&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME (slóð tölusetningargagnagjafa, merkjatexti tölusetningargildis)</td>
 <td>Skila gildi á tilgreindum tölusetningum gagnagjafa, byggt á tilgreindum texta tölusetningarmerkis.</td>
 <td>Í eftirfarandi mynd er <strong>ReportDirection</strong> upptalningin kynnt í gagnalíkani. Athugaðu að merki eru skilgreind fyrir tölusetningargildi.
@@ -603,7 +611,24 @@ Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfar
 <li><strong>ReportDirection</strong> tölusetningarlíkanið er sett í skýrslu sem gagnagjafi, <strong>$ Direction</strong>.</li>
 <li>Segð rafrænnar skýrslugerðar, <strong>$ IsArrivals</strong>, er hönnuð til að nota tölusetningarlíkanið sem breytu af þessari aðgerð. Gildi þessarar segðar er <strong>TRUE</strong>.</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE (inntak)</td>
+<td>Umbreyta tilgreindu inntaki af gagnagerðinni <strong>Strengur</strong> í gagnaatriði af gagngerðinni <strong>GUID</strong>.</td>
+<td>Þú skilgreinir eftirfarandi gagnagjafa í líkanavörpun þinni:
+<ul>
+<li><strong>myID</strong> (gerðin <strong>Reiknaður reitur</strong>) sem inniheldur segðina <strong>GUIDVALUE (&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>Notendur</strong> (gerðin <strong>Töflufærslur</strong>) sem vísar til töflunnar UserInfo</li>
+</ul>
+Þegar þessir gagnagjafar eru skilgreindir er hægt að nota segð eins og <strong>SÍA (Users, Users.objectId = myID)</strong> til að sía UserInfo töfluna með reitnum <strong>objectId</strong> af gagnagerðinni <strong>GUID</strong>.
+</td>
+</tr>
+<tr>
+<td>JSONVALUE (auðkenni, slóð)</td>
+<td>Þátta gögn í JavaScript Object Notation (JSON) sniði sem er aðgengilegt með tilgreindri slóð til að draga út tölugildi sem byggist á tilgreindu auðkenni.</td>
+<td>Gagnagjafinn <strong>$JsonField</strong> inniheldur eftirfarandi gögn í JSON sniði: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Fyrir þennan gagnagjafa skilar </strong>JSONVALUE (&quot;BuildNumber&quot;, $JsonField)</strong> gildinu <strong>7.3.1234.1</strong> af gagngerðinni <strong>Strengur</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfar
 | Aðgerð | lýsing | Dæmi |
 |----------|-------------|---------|
 | TEXT (inntak) | Skila tilgreindu inntaki eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki Finance and Operations. Fyrir gildi í af gerðinni **real** ,umreikning strengs takmarkast við sem nemur tveimur tugasætum. | Ef þjónsstaðsetning á tilviki Finance and Operations er skilgreind sem **EN-US**, **TEXTI (nú ())** skilar núverandi setudagsetningu Finance and Operations, desember 17, 2015, sem textastrenginn **"12/17/2015 07:59:23 fyrir hádegi"**. **TEXT (1/3)** skilar **"0.33"**. |
-| QRCODE (strengur) | Skila QR kóða mynd á base64 tvíundartölusniði fyrir tilgreindan streng. | **QRCODE ("Sample Text")** skilar **U2FtcGxlIHRleHQ =**. |
+| QRCODE (strengur) | Skila mynd QR-kóða (Quick Response Code) í base64 tvíundarsniði fyrir tilgreindan streng. | **QRCODE ("Sample Text")** skilar **U2FtcGxlIHRleHQ =**. |
 
 ### <a name="data-collection-functions"></a>Gagnasöfnunaraðgerðir
 
@@ -623,19 +648,19 @@ Prentun gjaldeyrisheiti og breytur aukastafa eru greindar aðeins fyrir eftirfar
 | SUMIFS (lykilstrengur fyrir samlagningu, skilyrði svið1, skilyrði gildi1 strengur \[, skilyrði svið2 strengur skilyrði gildi2 strengur, …\]) | Skila summunni af gildum XML-hnúta (þar sem heitið er skilgreint sem lykill) sem hefur verið safnað við keyrslu sniðsins og það sem uppfyllir tilgreind skilyrði (samstæður sviða og gilda). Skila **0** (núll) gildi þegar slökkt er á **Safna upplýsingum úttaks** flaggi núverandi skráar. | |
 | SUMIF (lykilstreng fyrir samlagningu strengur, strengur skilyrðasviðs, strengur skilyrðagilda...]) | Skila summunni af gildum XML-hnúta (þar sem nafnið er skilgreint sem lykill) sem hefur verið safnað við keyrslu sniðsins og það sem uppfyllir tilgreint skilyrði (svið og gildi). Skila **0** (núll) gildi þegar slökkt er á **Safna upplýsingum úttaks** flaggi núverandi skráar. | |
 | COUNTIFS (skilyrði svið1 strengur, skilyrði gildi1 strengur \[, skilyrði svið2 strengur, skilyrði gildi2 strengur, …\]) | Skila fjölda XML hnúta sem hefur verið safnað við keyrslu sniðsins og það sem uppfyllir tilgreind skilyrði (samstæður sviða og gilda). Skila **0** (núll) gildi þegar slökkt er á **Safna upplýsingum úttaks** flaggi núverandi skráar. | |
-| COUNTIF (strengur skilyrðasviðs, strengur skilyrðagildis) | Skila fjölda XML hnúta sem hefur verið safnað við keyrslu sniðsins og sem uppfyllir innslegin skilyrði (svið og gildi). Skila **0** (núll) gildi flaggsins þegar slökk er á **Safna upplýsingum úttaks** flaggi núverandi skráa. | |
-| COLLECTEDLIST (skilyrði svið1 strengur, skilyrði gildi1 strengur \[, skilyrði svið2 strengur, skilyrði gildi2 strengur, …\]) | Skila lista yfir gildi XML-hnúta af XML sem hefur verið safnað við keyrslu sniðsins og það sem uppfyllir innslegin skilyrði (svið og gildi). Skila tómum lista þegar slökkt er á **Safna upplýsingum úttaks** flaggi núverandi skráa. | |
+| COUNTIF (strengur skilyrðasviðs, strengur skilyrðagildis) | Skila fjölda XML-hnúta sem hefur verið safnað við keyrslu sniðsins og sem uppfyllir tilgreind skilyrði (svið og gildi). Skila **0** (núll) gildi flaggsins þegar slökk er á **Safna upplýsingum úttaks** flaggi núverandi skráa. | |
+| COLLECTEDLIST (skilyrði svið1 strengur, skilyrði gildi1 strengur \[, skilyrði svið2 strengur, skilyrði gildi2 strengur, …\]) | Skila lista yfir gildi XML-hnúta af XML sem hefur verið safnað við keyrslu sniðsins og það sem uppfyllir tilgreind skilyrði (svið og gildi). Skila tómum lista þegar slökkt er á **Safna upplýsingum úttaks** flaggi núverandi skráa. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Other (lénsértæk virkni fyrir viðskipti)
 
 | Aðgerð | lýsing | Dæmi |
 |----------|-------------|---------|
 | CONVERTCURRENCY (upphæð, frumgjaldmiðils, mark gjaldmiðil, dagsetning, fyrirtækisins) | Umreikna tilgreinda peningaupphæð frá tilgreindum upprunagjaldmiðli til tilgreinds markgjaldmiðils með því að nota stillingar tilgreinds Finance and Operations fyrirtækis á tilteknum degi. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** skilar jafngildi einni evru í Bandarískum dollurum á dagsetningu núverandi setu, byggða á stillingum DEMF-fyrirtækisins. |
-| ROUNDAMOUNT (tölu, aukastafi, sléttunarreglu) | Námunda tilgreinda upphæð í tilgreindan fjölda aukastafa í samræmi við tilgreinda námundunarreglu.<blockquote>[!NOTE]<br>Námundunarreglan verður að vera skilgreind sem tölusetningargildi <strong>RoundOffType</strong> Finance and Operations.</blockquote> | Ef **model.RoundOff** færibreyta er stillt á **Niður**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000,78**. Ef **model.RoundOff** færibreyta er stillt á annað hvort **Venjuleg** eða **Sléttun**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000.79**. |
+| ROUNDAMOUNT (tölu, aukastafi, sléttunarreglu) | Námunda tilgreinda upphæð í tilgreindan fjölda aukastafa í samræmi við tilgreinda námundunarreglu.<blockquote>[!NOTE]<br>Námundunarreglan verður að vera skilgreind sem tölusetningargildi **RoundOffType** Finance and Operations.</blockquote> | Ef **model.RoundOff** færibreyta er stillt á **Niður**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000,78**. Ef **model.RoundOff** færibreyta er stillt á annað hvort **Venjuleg** eða **Sléttun**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000.79**. |
 | CURCredRef (tölur) | Skila Tilvísun lánardrottins, byggt á tölustöfum í tilgreint reikningsnúmeri. | **CURCredRef ("VEND-200002")** skilar **"2200002"**. |
 | MOD\_97 (tölustafir) | Skila Tilvísun lánardrottins, sem MOD97 segð, byggt á tölustöfum tilgreinds reikningsnúmers. | **MOD\_97 ("VEND-200002")** skilar **"20000285"**. |
 | ISOCredRef  (tölur) | Skila tilvísun alþjóðaviðskiptastofnunar um staðla (ISO), byggt á tölustöfum og stafrófstáknum í tilgreindu númeri vörureiknings.<blockquote>[!NOTE]<br>Til að útiloka tákn frá stafrófum sem ekki eru í samræmi við ISO skal inntakshbreytan þýdd áður en hún er sett inn í þessa aðgerð.</blockquote> | **ISOCredRef ("VEND-200002")** skilar **"RF23VEND-200002"**. |
-| CN\_GBT\_AdditionalDimensionID (strengur, númer) | Sækja fjárhagsleg viðbótarvíddarkenni Víddir eru táknaðir í þessum streng sem auðkenni sem eru aðskilin með kommum. Í þessum streng skilgreina tölur raðnúmer á umbeðinni vídd. | **CN\_GBT\_AdditionalDimensionID ("AA, BB, CC, DD, EE, FF, GG, HH", 3)** skilar **"CC"**. |
+| CN\_GBT\_AdditionalDimensionID (strengur, númer) | Sækja tilgreint fjárhagslegt viðbótarvíddarkenni. Í færibreytunni **strengur** eru víddir táknaðar sem auðkenni sem eru aðskilin með kommum. Færibreytan **númer** skilgreinir kóða númeraraðar af umbeðinni vídd í strengnum. | **CN\_GBT\_AdditionalDimensionID ("AA, BB, CC, DD, EE, FF, GG, HH", 3)** skilar **"CC"**. |
 | GetCurrentCompany () | Skila textaframsetningu á kóðanum fyrir lögaðilann (fyrirtæki) sem notandi er skráður inn á. | **GETCURRENTCOMPANY ()** skilar **USMF** fyrir notanda sem er skráður inn á **Contoso Entertainment System USA** fyrirtæki í Finance and Operations. |
 | CH\_BANK\_MOD\_10 (tölustafir) | Skila tilvísun kröfuhafa sem MOD10 segð, byggt á tölum á tilgreindu númeri vörureiknings. | **CH\_BANK\_MOD\_10 ("VEND-200002")** skilar **3**. |
 | FA\_SUM (kóði eignar, kóði virðislíkans, upphafsdagsetning, lokadagsetning) | Skila tilbúnum gagnageymi með stöðu eignar fyrir tilgreint tímabil. | **FA\_SUM (""COMP-000001", "Current", Date1, Date2)** skilar tilbúnum gagnageymi eignarinnar **"COMP-000001"** sem hefur **"Núverandi“** gildislíkan fyrir tímabil frá **Date1** til **Date2**. |
