@@ -3,7 +3,7 @@ title: "Sérstillt svæði"
 description: "Þetta efnisatriði sýnir hvernig Microsoft Dynamics 365 for Finance and Operations gerir sumum notendum kleift að búa til sérsniðin svæði til að laga forritið að sínum viðskiptum."
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -27,8 +27,6 @@ ms.lasthandoff: 05/23/2018
 # <a name="custom-fields"></a>Sérstillt svæði
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Þótt Microsoft Dynamics 365 for Finance and Operations veiti víðtækt úrval svæða út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Til að mæta þessari þörf leyfir Finance and Operations þér að búa til sérsniðin svæði til að laga forritið að þínum viðskiptum, að því tilskildu að þú hafir heimild fyrir eiginleikanum. 
 
