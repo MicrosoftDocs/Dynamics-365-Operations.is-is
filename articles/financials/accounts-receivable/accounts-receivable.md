@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 49d6cab206725bb994d367bb8401481e7591d5fa
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -43,29 +43,18 @@ Hægt er að stofna reikninga viðskiptavina sem byggjast á sölupöntunum eða
 
 Notið viðskiptakröfur til að rekja reikninga viðskiptavina og greiðslur sem berast frá viðskiptavinum. Þú getur sett upp viðskiptavinaflokka, viðskiptavini, bókunarreglur, vaxtanótur, innheimtubréf, sölulaun og breytur varðandi viðskiptavini, gjöld, afhendingu og ákvörðunarstaði, víxla og aðrar gerðir viðskiptakröfuupplýsinga. 
 
-[Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::lína::: :::dálkur::: - [Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Bókunarreglur viðskiptavina](customer-posting-profiles.md)
+        - [Uppsetning kreditkorts, heimild og úthlutun](credit-card-authorizations.md)
+        - [Stofnun reiknings viðskiptavinar](configure-customer-invoices.md)
+        - [Uppsetning og vinnsla endurtekinna reikninga](set-up-process-recurring-invoices.md)
+        - [Leiðrétting reikninga með frjálsum texta](correct-free-text-invoice.md) :::dálkur-ljúka::: :::dálkur::: - [Uppsetning víxils](set-up-bills-exchange.md)
+        - [Uppsetning vaxta fyrir vaxtakóða](set-up-interest-rates-interest-code.md)
+        - [Niðurfelling, endurskipun eða bakfærsla vaxta eða gjalda](waive-reinstate-reverse-interest-fees.md)
+        - [Yfirlit yfir SEPA-umboð fyrir beint debet](sepa-direct-debit-overview.md)
+        - [Uppsetning SEPA-umboðs fyrir beint debet](sepa-direct-debit-mandate.md)
+        - [Viðskiptakröfum lokað](close-accounts-receivable.md) :::dálkur-ljúka::: :::lína-ljúka:::
 
-[Bókunarreglur viðskiptavina](customer-posting-profiles.md)
-
-[Uppsetning kreditkorts, heimild og úthlutun](credit-card-authorizations.md)
-
-[Stofnun reiknings viðskiptavinar](configure-customer-invoices.md)
-
-[Uppsetning og vinnsla endurtekinna reikninga](set-up-process-recurring-invoices.md)
-
-[Leiðrétting reikninga með frjálsum texta](correct-free-text-invoice.md)
-
-[Uppsetning víxils](set-up-bills-exchange.md)
-
-[Uppsetning vaxta fyrir vaxtakóða](set-up-interest-rates-interest-code.md)
-
-[Niðurfelling, endurskipun eða bakfærsla vaxta eða gjalda](waive-reinstate-reverse-interest-fees.md)
-
-[Yfirlit yfir SEPA-umboð fyrir beint debet](sepa-direct-debit-overview.md)
-
-[Setja upp tilskipun fyrir SEPA-umboð fyrir beint debet](sepa-direct-debit-mandate.md)
-
-[Viðskiptakröfum lokað](close-accounts-receivable.md)
 
 ## <a name="set-up-credit-and-collections"></a>Uppsetning skulda og innheimtu
 
@@ -81,21 +70,14 @@ Upplýsingum um viðskiptakröfuinnheimtu er stjórnað í einu miðlægu yfirli
 
 Samþykkja mismunandi gerðir af greiðslum frá viðskiptavinum, til dæmis víxla, reiðufé, ávísanir, kreditkort, og rafrænar greiðslur. 
 
-[Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::lína::: :::dálkur::: - [Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Miðstýrðar greiðslur fyrir viðskiptakröfur](centralized-payments-accounts-receivable.md)
+        - [Uppgjör hlutagreiðslu viðskiptavinar og uppgjör lokagreiðslu fyrir afsláttardagsetninguna](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [Uppgjör hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::dálkur-ljúka::: :::dálkur::: - [Uppgjör hlutagreiðslu viðskiptavinar sem er með afslætti á kreditnótum](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Uppgjör hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [Endurgreiðsla til viðskiptavina](reimburse-customers.md)
+        - [Greiðslur viðskiptavinar fyrir hlutaupphæð](customer-payments-partial-amount.md) :::dálkur-ljúka::: :::lína-ljúka:::
 
-[Miðstýrðar greiðslur fyrir viðskiptakröfur](centralized-payments-accounts-receivable.md)
-
-[Uppgjör hlutagreiðslu viðskiptavinar og uppgjör lokagreiðslu fyrir afsláttardagsetninguna](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-
-[Uppgjör hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-
-[Uppgjör hlutagreiðslu viðskiptavinar sem er með afslætti á kreditnótum](settle-partial-customer-payment-discounts-credit-notes.md)
-
-[Uppgjör hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil](settle-partial-customer-payment-multiple-discount-periods.md)
-
-[Endurgreiðsla til viðskiptavina](reimburse-customers.md)
-
-[Greiðslur viðskiptavinar fyrir hlutaupphæð](customer-payments-partial-amount.md)
 
 ### <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -116,7 +98,7 @@ Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Sme
 
 #### <a name="videos"></a>Myndbönd
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

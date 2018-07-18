@@ -1010,10 +1010,12 @@
       items:
         - name: Virkjanlegur pakki búinn til
           href: deployment/create-apply-deployable-package.md
-        - name: Nota uppfærslur á umhverfi í skýi
+        - name: Nota uppfærslur fyrir skýjaumhverfi
           href: deployment/apply-deployable-package-system.md
         - name: Uppsetning virkjanlegs pakka
           href: deployment/install-deployable-package.md
+        - name: Fjarlægja pakka
+          href: deployment/uninstall-deployable-package.md
         - name: Úrræðaleit vegna vandamála í forritapakka
           href: deployment/deployable-package-troubleshooting.md
 - name: Uppfærslur og bráðabætur
