@@ -1653,6 +1653,7 @@
                 - name: Árslokalokun
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Danmörk
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Úthluta sniði greiðsluseðils á viðskiptavinalykil
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: VSK-yfirlit
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Frakkland
+              href: ../financials/localizations/france.md
               items:
                 - name: Hið opinbera
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Setja upp rafræna skattskýrslu
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Ungverjaland
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Útreikningur gengis
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Árslokalokun
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Ísland
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Stofna lánardrottnalykil og festa verktakamiða
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Uppfæra verktakamiða lánardrottna og búa til skýrslu
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Ítalía
+              href: ../financials/localizations/italy.md
               items:
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Staðgreiðsluskattur
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Lettland
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Eignabókhald
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Litháen
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Eignaviðhaldsyfirlit
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Holland
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Rafrænar skattskýrslur (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL samþætting
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Noregur
+              href: ../financials/localizations/norway.md
               items:
                 - name: Greiðslusnið viðskiptavina og lánardrottna
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Pólland
+              href: ../financials/localizations/poland.md
               items:
                 - name: Útreikningur línuafslátta af einingarverði
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Veltu- og stöðuyfirlit
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Spánn
+              href: ../financials/localizations/spain.md
               items:
                 - name: Notkun staðgreiðsluafsláttar á reikningi
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Sérstakar færslur og opnunarskjöl
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Svíþjóð
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Flytja út fjárhagsupplýsingar fyrir endurskoðendur í Svíþjóð
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Afgreiðslukassar
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Sviss
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Innflutningur greiðslna viðskiptavina í ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Bretland
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Skema byggingariðnaðar '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
