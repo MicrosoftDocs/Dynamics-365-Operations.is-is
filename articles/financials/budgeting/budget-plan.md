@@ -1,16 +1,16 @@
 ---
 title: "Fjárhagsáætlunargerð"
-description: "Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Finance and Operations fyrir skoðun á uppfærslum á virkni á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel"
-author: twheeloc
+description: "Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Finance and Operations fyrir skoðun á uppfærslum á virkni á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Finance and Operations fyrir skoðun á uppfærslum á virkni á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi kennsla mun leggja sérstaka áhersla á eftirfarandi viðskiptaferli eða verk -    - að Stofna stigveldisskipan fyrir áætlanagerð og öryggisskilgreining notanda   - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunardálka, útlit og sniðmát fyrir Excel   - Stofna og virkja ferli fjárhagsáætlunargerðar   - Stofna fjárhagsáætlunarskjal með því að sækja rauntölur úr fjárhag   - Nota úthlutanir til að stilla gögn fjárhagsáætlunarskjals   - Breyta gögnum fjárhagsáætlunarskjals í Excel 
+Markmiðið þessarar kennslu er að veita leiðsögn í Microsoft Dynamics 365 for Finance and Operations fyrir skoðun á uppfærslum á virkni á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi æfing mun leggja sérstaka áherslu á eftirfarandi viðskiptaferla eða verk:
+- Búa til stigveldi fyrirtækis fyrir fjárhagsáætlun og grunnstilla öryggi notenda
+- Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunarsúlur, útlit og Excel sniðmát
+- Búa til og virkja ferli fjárhagsáætlunargerðar
+- Búa til fjárhagsáætlunarskjal með því að draga í rauntölur frá fjárhag
+- Nota úthlutanir til að lagfæra gögn fjárhagsáætlunarskjals
+- Breyta gögnum fjárhagsáætlunarskjals í Excel 
 
 <a name="prerequisites"></a>Frumskilyrði 
 ------------------
@@ -104,8 +110,6 @@ Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðg
 2.5. Veljið "Veita skilgreindum fyrirtækjum aðgengi". Veljið Stigveldi fyrirtækis sem var búið til í fyrsta þrepinu. Veljið fjárhagstengipunkt og smellið á Styrksjóður fyrir börn 
 
 ***Mikilvægt!*** *Gangið úr skugga um að vera í DEMF-lögaðilasamhengi þegar þetta er gert, þar sem fyrirtækisöryggi er notað fyrir hvern lögaðila* 
-
-[![Heimila aðgang](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>Verkefni 3: Stofna atburðarás
 3.1. Farið á Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar. Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun. 

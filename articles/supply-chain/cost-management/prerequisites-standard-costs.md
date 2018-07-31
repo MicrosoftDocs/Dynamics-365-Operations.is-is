@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Notaðu síðu **Bókunar** til að úthluta fjárhagslyklum sem tengjast frávi
 
 **4. Skilgreina birgðafæribreytur sem tengjast staðalkostnaði.** 
 
--  Notaðu flipann **Uppskriftir** á síðunni **Birgðafæribreytur** til að skilgreina tvær kostnaðarstýrðar færibreytur sem tengjast staðalkostnaði. 
+-  Notaðu **Birgðabókhald** flipann á **Uppsetning reglna fyrir birgðabókhald > Færibreytur** síðunni til að skilgreina tvær færibreytur kostnaðarstýringar sem tengjast staðalkostnaði.
 
     -  Í reitnum **Sundurliðun kostnaðar** veldu **Ekkert** eða **Undirfjárhag**. Ef þú velur **Undirfjárhag** er sundurliðun kostnaðar *virk* sundurliðun kostnaðar. Virk sundurliðun kostnaðar er mikilvæg við útreikning, viðhald og yfirlit yfir sundurliðun kostnaðarflokka í margstiga uppbyggingu vöru fyrir staðalkostnaðarvörur. Þegar sundurliðun kostnaðar er virk getur þú skráð og greint birgðir, verk í vinnslu (WIP) og kostnaður seldra vara (COGS) fyrir hvern kostnaðarflokk í einstiga, margstiga eða heildarsniði. Þegar sundurliðun kostnaðar er virk, ef þú virkjar kostnað framleiddra vara, verður sundurliðun kostnaðarflokka geymd í kostnaðarfærslu vörunnar. 
 

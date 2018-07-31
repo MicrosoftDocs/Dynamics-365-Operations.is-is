@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: is-is
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Sem hluti af endurbótum á eiginleikanum fyrir bókun uppgjörs hafa þrjár n�
 - **Gera þarf talningu óvirka** - Þegar þessi valkostur er stilltur á **Já** heldur bókunarferli á uppgjöri áfram, jafnvel þótt mismunurinn á talinni upphæð og færsluupphæð í uppgjörinu sé utan markanna sem eru skilgreind í flýtiflipanum **Uppgjör** fyrir smásöluverslun.
 
 Þar að auki hefur reiturinn **Hámarksfjöldi samhliða uppgjörsbókana** verið kynntur til sögunnar á flýtiflipanum **Runuvinnsla**. Þessi reitur skilgreinir fjölda runuverka sem ætti að keyra á sama tíma. Eins og er þarftu að stilla gildið á þessum reit handvirkt.
+
+Einnig, með nýja bókunarferlinu, nauðsynlegt er að skilgreina **Gjafakortsvara** á **Gjafakort** flýtiflipanum á **Bókun** flipanum á síðunni **Færibreytur smásölu**. Þetta á við, jafnvel þótt engin gjafakort séu notuð af fyrirtækinu. 
 
 Athugaðu að allar stillingar og færibreytur sem tengjast bókun uppgjörs og sem eru skilgreindar í smásöluverslun og á síðunni **Færibreytur smásöluverslana** eiga við í endurbættum eiginleika fyrir bókun uppgjörs.
 

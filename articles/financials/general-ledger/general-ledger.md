@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,9 +54,13 @@ Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglu
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
+### <a name="whats-new"></a>Nýjungar
 
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Farðu í [Útgáfuupplýsingar](https://docs.microsoft.com/en-us/business-applications-release-notes/) til að sjá hvaða nýju eiginleikar hafa verið gefnar út. 
+
+### <a name="videos"></a>Myndbönd
+
+Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Blogg
 
@@ -66,11 +70,8 @@ Hægt er að finna margar færslur um fjárhag á [bloggi afurðarteymis Microso
 
 [Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
-### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
+#### <a name="community-blogs"></a>Samfélagsblogg
 
-### <a name="videos"></a>Myndbönd
-
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+- [Það sem þú ættir að vita um fjárhag í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
