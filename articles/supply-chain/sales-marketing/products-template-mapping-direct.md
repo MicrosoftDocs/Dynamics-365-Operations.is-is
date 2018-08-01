@@ -3,7 +3,7 @@ title: "Samstilla afurðir beint úr Finance and Operations við afurðir í Sal
 description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vörur úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Reiturinn **Er viðhaldið að utan** hjálpar til við að tryggja að aðeins 
 Vörum sem er viðhaldið að utan er sjálfkrafa bætt við fyrsta gilda verðlistann með sama gjaldmiðil. Verðlistar eru skipulagðir í stafrófsröð. Söluverð vöru úr Finance and Operations er notað sem verð á verðlistanum. Því verður verðlisti að vera til staðar í Sales fyrir alla sölugjaldmiðla vöru í Finance and Operations. Gengi gjaldmiðilsins á seljanlegu vörunni er stillt á bókhaldsgjaldmiðilinn í lögaðilanum sem varan er flutt út frá.
 
 > [!NOTE]
-> Samstilling vara mun ekki takast nema verðlisti sé til staðar með samsvarandi gjaldmiðli.
+> - Vörusamstilling mun ekki heppnast nema til sé verðlisti sem hefur samsvarandi gjaldmiðil.
+> - Þú getur stjórnað verðskránni sem er notuð með samþættingunni með vörpun pricelevelid.name [Sjálfgildi Verðlisti (Nafn)] í Gagnasamþætting verkefninu. Inntakið verður að vera í lágstöfum eingöngu. Til dæmis yrði sjálfgildið fyrir verðlista í Sölu sem kallast „Staðlaður“: Áfangasvæði: pricelevelid.name [Sjálfgildi Verðskrá (Nafn)] og Kortategund: [ {"transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 

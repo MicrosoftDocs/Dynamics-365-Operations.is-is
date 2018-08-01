@@ -410,151 +410,6 @@
     - name: Fjármálastjórnun
       href: ../financials/index.md
       items:
-        - name: Fjárhagur
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Lyklar
-              items:
-                - name: Yfirlit yfir uppsafnanir
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Niðurfellingarreglur
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Lykla- og víddasamsetningar
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Jafnaðar færslubækur fyrir millieiningabókhald
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Bókunarskilgreiningar
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Dæmi um bókunarskilgreiningar '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Fjárhagslykilstöður
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Skilgreina fjárhagsvíddir
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Viðhalda sjálfgefnum sniðmátum fjárhagsvídda
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Stofna lykilskipulög
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Stofna uppsöfnunarskemu
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Stofna samstæðuhópa og fleiri samstæðulykla
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Aðallykilgerðir
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Stofna aðallykil
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Yfirlit yfir bókhaldslykil
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Gera upp færslur á milli fjárhagslykla
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Setja upp auknefni fjárhagslykla
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Setja upp aðallykla flokka
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Skoðun bókhaldsuppruna
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Dreifing á fjárhagsupphæð
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Vinna úr úthlutunum
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Fjárhagsvíddir
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Umreikningur bókhalds- eða skýrslugjaldmiðla
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Samstæðulykilflokkar og lyklar
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Yfirlit yfir samstæðu og niðurfellingu
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Skilgreina lykilskipulög
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Færslubækur og fjárhagur
-              items:
-                - name: Vinnsla almennrar færslubókar
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Bóka tímabilsbækur
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Vinna úr færslubók kostnaðarúthlutunar
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Uppsetning samstæðulykils
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Úthlutunarreglur fjárhags
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Stofna ítarlegar reglur fyrir færslubækur
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Stofna og úthluta ítarlegu regluskipulagi
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Færslubókargerðir fjárhags
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Stofna og sannprófa færslubækur
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Skoða færslubókarfærslur
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Skoða tengt fylgiskjal innan samstæðu úr færslubók
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Stofna færslu í færslubók með því að nota sniðmát
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Stofna höfuðbókaruppsöfnunarfærslu
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Birting færslubókarlína og skjala úr Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Skoðun færslubókarfærslna
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Skrá bókaðar bókarfærslur
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Endurmat á gjaldmiðli í samstæðufyrirtæki
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Innflutningur gengis
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Lokun tímabils
-              items:
-                - name: Lokun fjárhags við lok tímabils
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Vinnusvæði lokunar fjárhagstímabils
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Árslokalokun
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Loka fjárhagsári
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Fjöldalokun fjárhagstímabils
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Virðisaukaskattur
-              items:
-                - name: Yfirlit virðisaukaskatts
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: VSK-greiðslur og sléttunarreglur
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Útreikningsaðferðir VSK í upprunareitnum
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Stofna VSK-greiðslu
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Stofna VSK-færslur í skjölum
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Setja upp bókunarflokka virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Setja upp yfirvöld virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Setja upp VSK-kóða
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Setja upp VSK-flokka og VSK-flokka vöru
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Setja upp skýrslugerðarkóða virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Setja upp VSK-uppgjörstímabil
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Setja upp staðgreiðsluskatt
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Skoða bókaðar VSK-færslur
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Viðskiptaskuldir
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,6 +517,10 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Uppsetning kreditkorts, heimild og úthlutun'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: Stofna reikning með frjálsum texta
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Stofna sniðmát fyrir reikning með frjálsum texta
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Leiðrétting reikninga með frjálsum texta
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Uppsetning vaxta fyrir vaxtakóða
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: Stofna innheimtubréfaröð
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Stofna beingreiðsluumboð fyrir viðskiptavin
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Stofna reikning með frjálsum texta
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Stofna sniðmát fyrir reikning með frjálsum texta
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: Stofna vaxtakóða með sviði
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: Stofna sölupantanareikninga
@@ -732,10 +585,35 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Greiðslur viðskiptavinar fyrir hlutaupphæð
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Fjárhagsáætlun
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Yfirlit fjárhagsáætlunargerðar '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Yfirlit fjárhagsáætlunarstýringar '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Yfirlit fjárhagsáætlunar  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Stöðuspá
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Rökstuðningsskjöl fjárhagsáætlunargerðar
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Stofnun fjárhagsáætlunar úr færslulyklum og samtölulyklum
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Sniðmát fjárhagsáætlunargerðar fyrir Excel
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Stöðuúrræðaleit fjárhagsáætlunar
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Fjárhagsáætlunargerð
+              href: ../financials/budgeting/budget-plan.md
+            - name: Gagnaúthlutun fjárhagsáætlunargerðar
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Samþætting fjárhagsáætlunargerðar við aðrar einingar
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Reiðufjár- og bankastjórnun
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
-            - name: Sjóðstreymisspá
+            - name: Sjóðstreymisspár
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Vinnusvæði bankakerfis
               href: ../financials/cash-bank-management/Bank-management-workspace.md
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Uppfærsla samsettrar einingar bankafærslubókar
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Kostnaðarbókhald
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Hugtök fyrir kostnaðarbókhald
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Fjárhagsvíddir
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Lykilskipulög
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Stofna lykilskipulög
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: Yfirlit fjárhagsáætlunar
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Stofna víddir og flytja inn víddarstök
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Víddir kostnaðareiningar
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Stofna kostnaðareiningar
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Víddir kostnaðarhlutar
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Stofna kostnaðarhluti
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Varpa kostnaðareiningarvídd
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Víddarstigveldi
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Stofna stigveldi fyrirtækis fyrir skýrslur
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Aðgangsréttindi stjórnborðs kostnaðarhlutar
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: Skilgreina kostnaðarstýringareiningar
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Stofna fjárhag kostnaðarbókhalds
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: Sniðmát meðlima tölfræðivídda og tölfræðiveita
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Úthlutunargrunnar
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Stofna og úthluta kostnaðardreifingarreglu fyrir kostnaðarstýringareiningu
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Stofna reglu fyrir samantekt kostnaðar
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Stjórna gagnaveitu fyrir fjárhag kostnaðarbókhalds
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Vinna úr og rekja upprunagögn
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Útreikningur fastakostnaður
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Skilgreina vinnusvæði kostnaðarstýringar
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Skilja öryggi aðgangslista og RLS í Microsoft Power BI
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Nota efnispakka fyrir skýrslugerð Microsoft Power BI
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Nota vinnusvæði kostnaðarstýringar fyrir farsímaforrit Finance and Operations
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Útgjaldastýring
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Áætla útgjaldastýringu
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Færibreytur útgjaldastýringar
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Fartækjavinnusvæði útgjaldastýringar
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Setja upp verkflæði fyrir kostnaðarstýringu
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Verkflæði kostnaðarstýringar
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Flytja inn og vinna með kreditkortafærslur
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Dreifingar á kostnaðarskýrslu
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Kostnaður innan samstæðu
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Kostnaðarreglur
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Skoða kostnaðarskýrslu
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Bóka kostnaðarskýrslu
+              href: ../financials/expense-management/post-expense.md
+            - name: Kostnaðarskýrslur og margir samþykkjendur
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: Endurgreiðsla virðisaukaskatts í útgjaldastýringu
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Reglur um dagpeninga
+              href: ../financials/expense-management/per-diem.md
+            - name: Ferðabeiðnir
+              href: ../financials/expense-management/travel-req.md
+            - name: Persónulegur kostnaður á kostnaðarskýrslu
+              href: ../financials/expense-management/personal-expenses.md
         - name: Eignir
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,153 +900,152 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Flytja eign
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Útgjaldastýring
-          href: ../financials/expense-management/expense-management.md
+        - name: Fjárhagur
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Áætla útgjaldastýringu
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Færibreytur útgjaldastýringar
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Fartækjavinnusvæði útgjaldastýringar
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Setja upp verkflæði fyrir kostnaðarstýringu
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Verkflæði kostnaðarstýringar
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Flytja inn og vinna með kreditkortafærslur
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Dreifingar á kostnaðarskýrslu
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Kostnaður innan samstæðu
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Kostnaðarreglur
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Skoða kostnaðarskýrslu
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Bóka kostnaðarskýrslu
-              href: ../financials/expense-management/post-expense.md
-            - name: Kostnaðarskýrslur og margir samþykkjendur
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: Endurgreiðsla virðisaukaskatts í útgjaldastýringu
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Reglur um dagpeninga
-              href: ../financials/expense-management/per-diem.md
-            - name: Ferðabeiðnir
-              href: ../financials/expense-management/travel-req.md
-            - name: Persónulegur kostnaður á kostnaðarskýrslu
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Fjárhagsáætlanir
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Yfirlit fjárhagsáætlunargerðar '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Yfirlit fjárhagsáætlunarstýringar '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Yfirlit fjárhagsáætlunar  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Stöðuspá
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Rökstuðningsskjöl fjárhagsáætlunargerðar
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Stofnun fjárhagsáætlunar úr færslulyklum og samtölulyklum
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Sniðmát fjárhagsáætlunargerðar fyrir Excel
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Stöðuúrræðaleit fjárhagsáætlunar
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Fjárhagsáætlunargerð
-              href: ../financials/budgeting/budget-plan.md
-            - name: Gagnaúthlutun fjárhagsáætlunargerðar
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Samþætting fjárhagsáætlunargerðar við aðrar einingar
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Skýrslugjöf
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Fjárhagsskýrslur efnahagsreiknings
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Myndun fjárhagsskýrslu
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Fjárhagsskýrsla rekstrarreiknings
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Fjárhagsskýrslur prófjöfnuðar
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Skoðun fjárhagsskýrslna
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Skýrsluhönnun
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kostnaðarbókhald
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Hugtök kostnaðarbókhalds
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Fjárhagsvíddir
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Lykilskipulög
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Stofna lykilskipulög
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Yfirlit fjárhagsáætlunar
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Stofna víddir og flytja inn víddarstök
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Víddir kostnaðareiningar
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Stofna kostnaðareiningar
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Víddir kostnaðarhlutar
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Stofna kostnaðarhluti
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Varpa kostnaðareiningarvídd
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Víddarstigveldi
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Stofna stigveldi fyrirtækis fyrir skýrslur
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Aðgangsréttindi stjórnborðs kostnaðarhlutar
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: Skilgreina kostnaðarstýringareiningar
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Stofna fjárhag kostnaðarbókhalds
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Sniðmát meðlima tölfræðivídda og tölfræðiveita
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Úthlutunargrunnar
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Stofna og úthluta kostnaðardreifingarreglu fyrir kostnaðarstýringareiningu
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Stofna reglu fyrir samantekt kostnaðar
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Stjórna gagnaveitu fyrir fjárhag kostnaðarbókhalds
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Vinna úr og rekja upprunagögn
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Útreikningur fastakostnaður
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Skilgreina vinnusvæði kostnaðarstýringar
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Skilja öryggi aðgangslista og RLS í Microsoft Power BI
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Nota efnispakka fyrir skýrslugerð Microsoft Power BI
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Nota vinnusvæði kostnaðarstýringar fyrir fartækjaforrit Finance and Operations
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
-        - name: Opinberi geirinn
+            - name: Lyklar
+              items:
+                - name: Yfirlit yfir uppsafnanir
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Niðurfellingarreglur
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Lykla- og víddasamsetningar
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Jafnaðar færslubækur fyrir millieiningabókhald
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Bókunarskilgreiningar
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Dæmi um bókunarskilgreiningar '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Fjárhagslykilstöður
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Skilgreina fjárhagsvíddir
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Viðhalda sjálfgefnum sniðmátum fjárhagsvídda
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Stofna lykilskipulög
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Stofna uppsöfnunarskemu
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Stofna samstæðuhópa og fleiri samstæðulykla
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Aðallykilgerðir
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Stofna aðallykil
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Yfirlit yfir bókhaldslykil
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Gera upp færslur á milli fjárhagslykla
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Setja upp auknefni fjárhagslykla
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Setja upp aðallykla flokka
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Skoðun bókhaldsuppruna
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Dreifing á fjárhagsupphæð
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Vinna úr úthlutunum
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Fjárhagsvíddir
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Umreikningur bókhalds- eða skýrslugjaldmiðla
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Samstæðulykilflokkar og lyklar
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Yfirlit yfir samstæðu og niðurfellingu
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Skilgreina lykilskipulög
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Færslubækur og fjárhagur
+              items:
+                - name: Vinnsla almennrar færslubókar
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Bóka tímabilsbækur
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Vinna úr færslubók kostnaðarúthlutunar
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Uppsetning samstæðulykils
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Úthlutunarreglur fjárhags
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Stofna ítarlegar reglur fyrir færslubækur
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Stofna og úthluta ítarlegu regluskipulagi
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Færslubókargerðir fjárhags
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Stofna og sannprófa færslubækur
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Skoða færslubókarfærslur
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Skoða tengt fylgiskjal innan samstæðu úr færslubók
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Stofna færslu í færslubók með því að nota sniðmát
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Stofna höfuðbókaruppsöfnunarfærslu
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Birting færslubókarlína og skjala úr Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Skoðun færslubókarfærslna
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Skrá bókaðar bókarfærslur
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Endurmat á gjaldmiðli í samstæðufyrirtæki
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Innflutningur gengis
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Lokun tímabils
+              items:
+                - name: Lokun fjárhags við lok tímabils
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Vinnusvæði lokunar fjárhagstímabils
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Árslokalokun
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Loka fjárhagsári
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Fjöldalokun fjárhagstímabils
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Virðisaukaskattur
+              items:
+                - name: Yfirlit virðisaukaskatts
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: VSK-greiðslur og sléttunarreglur
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Útreikningsaðferðir VSK í upprunareitnum
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Stofna VSK-greiðslu
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Stofna VSK-færslur í skjölum
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Setja upp bókunarflokka virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Setja upp yfirvöld virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Setja upp VSK-kóða
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Setja upp VSK-flokka og VSK-flokka vöru
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Setja upp skýrslugerðarkóða virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Setja upp VSK-uppgjörstímabil
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Setja upp staðgreiðsluskatt
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Skoða bókaðar VSK-færslur
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+        - name: Hið opinbera
           href: ../financials/public-sector/public-sector-functionality.md
           items:
             - name: Áætlun fyrir virkni hins opinbera
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Setja upp flokkanir innkaupasamninga fyrir hið opinbera
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Fjárhagsskýrslugerð
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Myndun fjárhagsskýrslu
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Fjárhagsskýrsluhlutar
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Skýrsluhönnun
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kjörstillingar notanda
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Ítarlegir sniðsvalkostir
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Skipulag skýrsluhluta
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Skýrsluskilgreiningar
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Línuskilgreiningar
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Dálkskilgreiningar
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Breytingar á hólfum línuskilgreiningar
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Endurstilling gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt gagnagrunns
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Fjárhagsskýrslugerð
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Yfirlitssíða fjárhagsskýrslugerðar
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Fjárhagsskýrsluhlutar
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Fjárhagsskýrslur efnahagsreiknings
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Myndun fjárhagsskýrslu
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Fjárhagsskýrsla rekstrarreiknings
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Fjárhagsskýrslur prófjöfnuðar
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Skoðun fjárhagsskýrslna
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Skýrsluhönnun
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Kjörstillingar notanda
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Ítarlegir sniðsvalkostir
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Skipulag skýrsluhluta
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Skýrsluskilgreiningar
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Línuskilgreiningar
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Dálkskilgreiningar
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Breytingar á hólfum línuskilgreiningar
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Endurstilling gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt gagnagrunns
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Staðfærslu- og eftirlitseiginleikar
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: Árslokalokun
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Danmörk
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Úthluta sniði greiðsluseðils á viðskiptavinalykil
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: VSK-yfirlit
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Frakkland
+              href: ../financials/localizations/france.md
               items:
                 - name: Hið opinbera
                   items:
@@ -1767,6 +1762,7 @@
                 - name: Setja upp rafræna skattskýrslu
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Ungverjaland
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Útreikningur gengis
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: Árslokalokun
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Ísland
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Stofna lánardrottnalykil og festa verktakamiða
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: Uppfæra verktakamiða lánardrottna og búa til skýrslu
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Ítalía
+              href: ../financials/localizations/italy.md
               items:
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: Staðgreiðsluskattur
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Lettland
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Eignabókhald
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Litháen
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Eignaviðhaldsyfirlit
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: VSK-yfirlitsupplýsingar
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Holland
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Rafrænar skattskýrslur (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL samþætting
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Noregur
+              href: ../financials/localizations/norway.md
               items:
                 - name: Greiðslusnið viðskiptavina og lánardrottna
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Pólland
+              href: ../financials/localizations/poland.md
               items:
                 - name: Útreikningur línuafslátta af einingarverði
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: Veltu- og stöðuyfirlit
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Spánn
+              href: ../financials/localizations/spain.md
               items:
                 - name: Notkun staðgreiðsluafsláttar á reikningi
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: Sérstakar færslur og opnunarskjöl
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Svíþjóð
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Flytja út fjárhagsupplýsingar fyrir endurskoðendur í Svíþjóð
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: Afgreiðslukassar
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Sviss
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Innflutningur greiðslna viðskiptavina í ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Bretland
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Skema byggingariðnaðar '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml

@@ -3,7 +3,7 @@ title: "Yfirlit viðvarana"
 description: "Þetta efnisatriði gefur almennar upplýsingar um viðvaranir í Microsoft Dynamics 365 for Finance and Operations. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Yfirlit viðvarana
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Um viðvaranir
 Viðvaranir skapa tilkynningarkerfi fyrir mikilvæga atburði í Microsoft Dynamics 365 for Finance and Operations. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur. Þú getur auðveldlega búið til þitt eigið sett af viðvörunarreglum þannig að þú fáir viðvaranir um afhendingar sem er komnar fram yfir á tíma, pantanir sem eru eyddar, verð sem breytast eða aðra atburði sem þú verður að bregðast við.

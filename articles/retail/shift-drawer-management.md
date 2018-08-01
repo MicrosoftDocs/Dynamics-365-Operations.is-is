@@ -1,9 +1,9 @@
 ---
-title: "Stjórnun vaktar og peningaskúffu"
-description: "Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu."
-author: rubencdelgado
+title: "Vakta- og peningaskúffustjórnun"
+description: "Þetta efnisatriði útskýrir hvernig á að setja upp og nota vaktir á sölustað (POS)."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,138 +20,120 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
-# <a name="shift-and-cash-drawer-management"></a>Stjórnun vaktar og peningaskúffu
+# <a name="shift-and-cash-drawer-management"></a>Vakta- og peningaskúffustjórnun
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig skal setja upp ot nota tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : Samnýttur og sjálfstæður. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum, en hægt er að nota sjálfstæða vaktir með aðeins einn starfsmann í einu.
+Þetta efnisatriði útskýrir hvernig á að setja upp og nota vaktir á sölustað (POS). 
 
-Til eru tvær gerðir af vöktum fyrir sölustaður í smásölu (POS) : sjálfstæður og samnýttur. Sjálfstæðar vaktir geta aðeins verið notaðar af einum starfskrafti í einu. Hægt er að nota samnýtta vaktir með marga notendur á mörgum stöðum. Þess vegna stofna þeir á árangursríkan hátt eina vakt fyrir marga starfskrafta í verslun.
+Í Microsoft Dynamics 365 for Retail, lýsir hugtakið *vakt* söfnun POS færslugagna og aðgerða á milli tveggja tímapunkta. Fyrir hverja vakt er fjárhæðin sem búist er við borin saman við upphæðina sem var talin og gefin upp.
 
-## <a name="standalone-shifts"></a>Sjálfstæðar vaktir
-Sjálfstæðar vaktir eru notaðar í hefðbundið, föst POS-aðstæður, þar sem reiðufé er stemmt af sérstaklega fyrir hvern afgreiðslukassa. Til dæmis, í stillingu matvöruverslunar, eru yfirleitt nokkrum fasta afgreiðslukassar og gjaldkeri er úthlutað á hverjum afgreiðslukassa. Í þessu tilfelli notar hvern afgreiðslukassa líklegt sjálfstæða vakt og gjaldkeri er ábyrgur fyrir skúffunni og efnislegu reiðufé á kassanum. Sjálfstæðar vaktir innifela allar aðgerðir á þeim afgreiðslukassa á meðan stendur á vakt gjaldkera. Aðgerðir getur innihaldið upphæð við opnun sem er lögð er inn á afgreiðslukassa, allar úttektir og viðbætur reiðufjár gegnum aðgerðir eins og peningaflutningur í banka og skiptimyntarfærslu, og talning skiptimyntar í lok vaktar.
+Venjulega eru vaktir opnaðar í byrjun vinnudags. Á þeim tímapunkti gefur notandi upp byrjunarupphæðina sem peningaskúffan inniheldur. Sölufærslur eru síðan framkvæmdar yfir daginn. Að lokum, í lok dagsins, er skúffan talin og lokaupphæðin er gefin upp. Vaktinni er lokað og Z skýrsla er búin til. Z skýrslan sýnir hvort upphæðin er of há eða of lág.
 
-### <a name="set-up-a-stand-alone-shift"></a>Setja upp sjálfstæða vakt
+## <a name="typical-shift-scenarios"></a>Dæmigerð atburðarás á vakt
+Retail býður upp á nokkra valkosti fyrir grunnstillingar og POS-aðgerðir til að styðja við fjölda viðskiptaferla sem keyrðir eru í lok dags fyrir POS. Þessi hluti lýsir nokkrum dæmigerðum atburðarásum á vakt.
 
-Sjálfstæð vakt vakt tiltekin á stigi skúffunnar. Þessu ferli er útskýrt hvernig á að setja upp sjálfstæða vaktinni á afgreiðslukassa Sölustaðar.
+### <a name="fixed-till"></a>Föst skúffa
+Þessi atburðarás hefur oftast verið notuð. Hún er enn mikið notuð. Á „föst skúffa“ vakt, er vaktin og skúffan tengd við ákveðinn afgreiðslukassa. Þau eru ekki flutt frá einum afgreiðslukassa til annars. „Föst skúffa“ vakt er hægt að nota af einum notanda eða deilt meðal margra notenda. „Föst skúffa“ vaktir þurfa ekki neina sérstaka grunnstillingu.
 
-1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.
-2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
-3.  Á við **Skúffu** flýtiflipa, staðfesta að **Samnýttum skúffa vaktar** valkostur er stilltur á **Nei**.
-4.  Smellt er á **Vista**.
-5.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
-6.  Veljið afgreiðslukassa sem þarf sjálfstæða vakt krefst og smellið síðan á **Breyta**.
-7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Smellt er á **Vista**.
-9.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
+### <a name="floating-till"></a>Fljótandi skúffa
+Á „Fljótandi skúffa“ vakt er hægt að færa vakt og peningaskúffu frá einum afgreiðslukassa til annars. Þó að afgreiðslukassi megi aðeins hafa eina virka vakt á hverja peningaskúffu, er hægt að fresta vöktum og síðan halda áfram síðar eða á öðrum afgreiðslukassa.
 
-### <a name="use-a-stand-alone-shift"></a>Nota sjálfstæða vakt
+Til dæmis hefur verslun tvo afgreiðslukassa. Hvert afgreiðslukassi er opnað í byrjun dags þegar gjaldkeri opnar nýjan vakt og gefur upp byrjunarupphæðina. Þegar einn gjaldkeri er tilbúinn til að taka hlé, frestar þessi gjaldkeri vaktinni sinni og fjarlægir skúffuna úr peningaskúffunni. Þessi afgreiðslukassi verður þá tiltækur fyrir aðra gjaldkera. Annar gjaldkeri getur skráð sig inn og opnað vaktina sína á afgreiðslukassanum. Eftir að vinnuhléi fyrsta gjaldkeri er lokið, getur sá gjaldkeri haldið áfram vaktinni sinni þegar einhver af hinum afgreiðslukassi verður tiltækur. „Fljótandi skúffa“ vaktir þurfa ekki sérstaka grunnstillingu eða heimild.
 
-1.  Skráðu þig inn POS
-2.  Ef engin vakt er opin veldu **Opna nýja vakt**.
-3.  Farið í **Gefa upp upphafsupphæð** aðgerð, og tilgreina upphæð reiðufjár sem hefur verið bætt við skúffuna til að hefja vinnudagur.
-4.  Framkvæma nokkrar færslur
-5.  Við lok dagsins, veljið **Telja skiptimynt** til að gefa upp upphæð reiðufjár sem eftir er í peningaskúffu.
-6.  Færið inn upphæð reiðufés og og smellið svo á **vista** til að vista talning skiptimyntar.
-7.  Veljið **Loka vakt** til að loka vaktinni.
+### <a name="single-user"></a>Einn notandi
+Margir smásalar kjósa að leyfa aðeins einn notanda á hverja vakt, til að tryggja hæsta stigs ábyrgð fyrir reiðufénu í peningaskúffunni. Ef aðeins einn notandi er heimilt að nota skúffuna sem tengist vaktinni, getur þessi notandi verið einvörðungu ábyrgur fyrir misræmi. Ef fleiri en einn notandi nota vaktina, er erfitt að ákvarða hver gerði villu eða hver gæti verið að reyna að stela úr skúffunni.
 
-**Athugasemd:** Aðrar aðgerðir eru mögulegar á vakt, eftir því hvaða viðskiptaferli sem eru til staðar. Aðgerðirnar **Peningaflutningur í öryggisskáp**, **peningaflutningur í Banka**, og **Skiptimynt fjarlægð** er hægt að nota til að fjarlægja peninga frá á afgreiðslukassa yfir daginn eða áður en vaktinni er lokað. Ef skúffan er með lítið magn reiðufés, er **Skiptimyntarfærsla** aðgerð möguleg til notkunar til að bæta peningum við afgreiðslukassa.
+### <a name="multiple-users"></a>Margir notendur
+Sumir smásalar eru reiðubúnir að fórna þeirri hæsta stigs ábyrgð sem vaktir fyrir einn notanda veita og leyfa fleiri en einn notanda á hverja vakt. Þessi aðferð er dæmigerð þegar notendur eru fleiri en tiltækir afgreiðslukassar, og þörfin fyrir sveigjanleika og hraða vegur þyngra en hugsanlegt tap. Það er líka dæmigerð þegar verslunarstjórnendur eru ekki með sínar eigin vaktir en geta, eftir því sem þörf krefur, notað vaktir einhverra gjaldkeri þeirra. Til að skrá þig inn á og nota vakt sem opnað var af öðrum notanda, verður notandi að hafa **Heimila fjölinnskráningu á vakt** POS leyfið.
 
-## <a name="shared-shifts"></a>Samnýttar vaktir
-Samnýttrar vaktar er notað í umhverfi þar sem margir gjaldkerar samnýta peningaskúffu eða nokkrar peningaskúffur í gegnum vinnudagur. Yfirleitt eru samnýttrar vaktar notað í aðstæðum þar sem notaðir eru færanlegir sölustaðir. Í færanlegu umhverfi, er Hver gjaldkeri ekki úthlutað á og ábyrgur fyrir eina peningaskúffu. Þess í stað verða allir gjaldkerar að geta framkvæmt sölu og bæt reiðufé í hvaða peningaskúffu sem er nálægust þeim. Í þessu dæmi, eru peningaskúffur samnýttar á milli gjaldkerar og um leið teknar með í samnýttrar vaktar. Allar peningaskúffur í samnýttrar vaktar eru teknar með í sama vaktinni vegna verkþætti sem tengjast stjórnun reiðufjár fyrir þá vakt. Þess vegna skal upphafsupphæð fyrir vaktina að innifela samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. Þess vegna mun talning skiptimyntar vera samtala allra reiðufjár í öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar. **Athugasemd:** Aðeins er hægt að hafa eina samnýtta vakt opna í hverri verslun í einu. Hægt er að nota samnýtta vaktir og sjálfstæðar vaktir í sama verslunarinnar.
+### <a name="shared-shift"></a>Samnýtt vakt
+„Samnýtt vakt“ grunnstilling gerir smásala kleift að vera með eina vakt sem nær yfir margar afgreiðslukassa, peningaskúffur og notendur. Samnýtt vakt hefur eina byrjunarupphæð og einn lokaupphæð sem er tekin saman úr öllum peningaskúffum. Samnýttar vaktir eru mest dæmigerðar þegar fartæki eru notaðar. Í þessari atburðarás er ekki sérstakt peningaskúffa frátekið fyrir hvert afgreiðslukassa. Í staðinn geta allir afgreiðslukassar deilt einni peningaskúffu.
 
-### <a name="set-up-a-shared-shift"></a>Setja upp samnýttar vaktir
+Ef nota á samnýttar vaktir í verslun, verður peningaskúffan að vera grunnstillt sem „samnýtt vakt skúffa“ í **Smásala \> Uppsetning rásar \> POS uppsetning \> POS forstillingar \> Vélbúnaðar snið \> Skúffa**. Að auki þurfa notendur að hafa einn eða báðar heimildir fyrir sameiginlegri vakt (Leyfa stjórnun á samnýtt vakt og Leyfa notkun á samnýtt vakt).
 
-1.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.
-2.  Veljið vélbúnaðarregluna sem á að nota fyrir sjálfstæðu vaktina.
-3.  Á við **Skúffu** flýtiflipa, skal stilla **Samnýttum skúffa vaktar** valkostur á **Já**.
-4.  Smellt er á **Vista**.
-5.  Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.
-6.  Veljið afgreiðslukassa sem þarf samnýtta vakt og smellið síðan á **Breyta**.
-7.  Í því **vélbúnaðarreglu** svæðinu, veljið vélbúnaðarregluna sem var valin í skrefi 2.
-8.  Smellt er á **Vista**.
-9.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-10. Veljið í **1090** dreifingaráætlun og smelltu svo á **Keyra nú** til að samstilla breytingar á Sölustað.
+> [!NOTE]
+> Aðeins einn samnýtt vakt getur verið opin í einu í hverri verslun. Hægt er að nota samnýtta vaktir og sjálfstæðar vaktir í sama verslunarinnar.
 
-### <a name="use-a-shared-shift"></a>Nota samnýttra vakt.
+## <a name="shift-and-drawer-operations"></a>Vakta- og skúffuaðgerðir
+Ýmsar aðgerðir er hægt að framkvæma til að breyta stöðu vaktar, eða til að auka eða minnka peningamagn í peningaskúffunni. Þessi kafli lýsir þessum vaktaaðgerðum fyrir Microsoft Dynamics 365 for Retail Modern POS og Cloud POS.
 
-1.  Skráðu þig inn POS
-2.  Ef Sölustað er ekki enn tengt við vélbúnaðarstöð, veljið **aðgerð utan skúffu**, og því næst **Velja vélbúnaðarstöð** aðgerð til að virkja vélbúnaðarstöð fyrir samnýttrar vaktar. Þetta skref er nauðsynlegt aðeins í fyrsta sinn sem afgreiðslukassa er bætt við umhverfi samnýttrar vaktar.
-3.  Skrá út af Sölustað og síðan skrá aftur inn.
-4.  Veljið **Stofna nýja vakt**.
-5.  Veljið **Gefa upp upphafsupphæð**
-6.  Færið inn upphafsupphæð allar peningaskúffur í verslunarinnar sem eru hluti af samnýttrar vaktar og smellið síðan á **Vista**.
-    -   Til að bæta við hluta upphafsupphæðar í  hverja síðari peningaskúffu skal nota **Velja vélbúnaðarstöð** aðgerð til að gera vélbúnaðarstöðina virka.
-    -   Til að bæta skúffu á tiltekna peningaskúffu skal nota **Opna skúffu** aðgerð.
-    -   Halda áfram þartil allar peningaskúffur í samnýttrar vaktar hafa þeirra hluta upphafsupphæðar.
+### <a name="open-shift"></a>Opna vakt
+POS krefst þess að notendur hafi virka, opna vakt til að geta framkvæmt allar þær aðgerðir sem hafa í för með sér fjárhagsfærslu, eins og t.d. sala, skil eða pöntun viðskiptavinar.
 
-7.  Opna hverja peningaskúffu í lok dags og fjarlægja reiðufjár.
-8.  eftir reiðufjár hefur verið fjarlægð úr síðasta peningaskúffu skal telja allt reiðufjár úr öllum peningaskúffur.
-9.  Nota skal **telja skiptimynd** aðgerð til að telja fram heildarupphæð reiðufjár úr öllum peningaskúffur sem eru innifaldar í samnýttrar vaktar.
-10. Nota skal **Loka vakt** aðgerð til að loka samnýttrar vaktar.
+Þegar notandi skráir sig í POS, staðfestir kerfið fyrst hvort virkt vakt sé í boði fyrir þann notanda á fyrirliggjandi afgreiðslukassa. Ef virk vakt er ekki tiltæk, getur notandinn opnað nýjan vakt, halda áfram með núverandi vakt eða skráð sig inn í „engin-skúffa“ stillingu, allt eftir grunnstillingu kerfis og heimildum notandans.
 
-## <a name="shift-operations"></a>Vaktaaðgerðir
-Hægt er að grípa til ýmissa aðgerða til að breyta stöðu vaktar eða til að auka eða minnka magn af peningum í skúffunni. Í kaflanum hér að neðan er þessum vaktaaðgerðum lýst fyrir Dynamics 365 for Retail Modern POS og sölukerfi í skýinu.
+### <a name="declare-start-amount"></a>Skilgreina upphafsupphæð
+Þessi aðgerð er oft fyrsta aðgerðin sem er gerð fyrir nýlega opnað vakt. Fyrir þessa aðgerð, tilgreina notendur byrjunarupphæð reiðufjár í peningaskúffunni fyrir vaktina. Þessi aðgerð er mikilvægt vegna þess að útreikningur á ofgreiðslu/ávöntun sem á sér stað þegar vakt er lokað tekur mið af byrjunarupphæðina.
 
-**Opna vakt**
+### <a name="float-entry"></a>Skiptimyntarfærsla
+*Skiptimyntafærslur* eru ekki-sölufærslur sem eru gerðar á virkri vakt til að auka reiðufjármagn í peningaskúffunni. Einkennandi dæmi um skiptimyntafærslu er færsla til að bæta við viðbótar skiptimynt í skúffuna þegar hún er í lágmarki.
 
-Sölustaður krefst þess að notandi hafi virka, opna vakt til að framkvæma allar aðgerðir sem myndu leiða til fjárhagsfærslu eins og sölu-, skila- eða viðskiptavinapöntun.  
+### <a name="tender-removal"></a>Skiptimynt fjarlægð
+*Skiptimynt fjarlægð* eru ekki-sölufærslur sem eru gerðar á virkri vakt til að draga úr reiðufjármagni í peningaskúffu. Þessi aðgerð er oftast notuð í tengslum við skiptimyntarfærsluaðgerð á annarri vakt. Til dæmis, vegna þess að skiptimynt í afgreiðslukassi 1 er í lágmarki, framkvæmir notandinn á afgreiðslukassa 2 aðgerðina skiptimynt fjarlægð til að draga úr upphæðinni í peningaskúffu sinni. Notandinn á afgreiðslukassa 1 framkvæmir þá skiptimyntarfærslu til að auka upphæðina í peningaskúffu sinni.
 
-Þegar þú skráir þig inn á sölustað athugar kerfið fyrst hvort notandi sé með virka vakt í boði á núverandi afgreiðslukassa. Ef ekki, þá getur notandi valið að opna nýja vakt, halda áfram með vakt sem er til staðar eða fara í innskráningu í „utan skúffu“ sniði, fer allt eftir grunnstillingu kerfis og heimildum þess.
+### <a name="suspend-shift"></a>Ljúka vakt
+Notendur geta frestað virkri vakt sinni til að losa um núverandi afgreiðslukassa fyrir annan notanda eða færa vaktina sína í annað afgreiðslukassa (í þessu tilviki er vaktin oft nefndur „fljótandi skúffa“ vakt).
 
-**Skilgreina upphafsupphæð**
+Frestun vaktar kemur í veg fyrir nýjar færslur eða breytingar á vaktinni þar til hún er hafin aftur.
 
-Þessi aðgerð er oft fyrsta aðgerðin sem er gerð í nýlega opnaðri vakt. Notendur tilgreina upphafsupphæð reiðufjárs í skúffunni fyrir vaktina. Þetta er mikilvægt vegna þess að yfir/undir útreikningur sem á sér stað þegar vakt er lokið á við um þessa upphæð.
+### <a name="resume-shift"></a>Halda vakt áfram
+Þessi aðgerð gerir notendum kleift að halda áfram frestuðum vöktum á öllum afgreiðslukössum sem er ekki þegar með virkan vakt.
 
-**Skiptimyntarfærsla**
+### <a name="tender-declaration"></a>Talning skiptimyntar
+Þessi aðgerð er framkvæmd til að tilgreina fyrirliggjandi heildarfjárhæð í peningaskúffunni. Notendur framkvæma oftast þessa aðgerð áður en þeir loka vakt. Tilgreind upphæð er borin saman við vaktaupphæð sem búist var við til að reikna upphæð ofgreiðslu/ávöntunar.
 
-Skiptimyntarfærslur eru ekki-sölufærslur sem eru gerðar á virkri vakt og þær auka upphæð reiðufés í skúffunni. Algengt dæmi um skiptimyntarfærslu væri að bæta við viðbótarskiptimynt í skúffuna þegar lítið er eftir af henni.
+### <a name="safe-drop"></a>Peningaflutningur í öryggisskáp
+Hægt er að framkvæma peningaflutning í öryggisskáp hvenær sem er á virkri vakt. Þessi aðgerð fjarlægir peninga úr peningaskúffunni þannig að hægt sé að flytja hann á öruggari stað eins og peningaskáp í bakherbergi. Heildarupphæðin sem er skráð fyrir peningaflutning í öryggisskáp er innifalin í samtölu vaktar, en þarf ekki að teljast sem hluti af talning skiptimyntar.
 
-**Skiptimynt fjarlægð**
-
-Fjarlæging skiptimyntar er ekki-sölufærslur sem eru gerðar á virkri vakt til að draga úr upphæð reiðufés í skúffunni. Þetta er oftast notað í tengslum við skiptimyntarfærslu á annarri vakt. Til dæmis, afgreiðslukassi 1 er með lítið af skiptimynt eftir, þannig að notandi á afgreiðslukassa 2 framkvæmir fjarlægingu skiptimyntar til að draga úr skúffuupphæðinni. Notandi á afgreiðslukassa 1 myndi þá framkvæma skiptimyntarfærslu til að auka upphæðina.
-
-**Ljúka vakt**
-
-Notendur geta frestað virkri vakt til að losa núverandi afgreiðslukassa fyrir annan notanda, eða fært vaktina yfir á annan afgreiðslukassa (þetta er oft nefnt „skúffuskipti"). 
-
-Að fresta vaktinni kemur í veg fyrir nýjar færslur eða breytingar á vaktinni þar til haldið er áfram með hana.
-
-**Halda vakt áfram**
-
-Þessi aðgerð gerir notandanum kleift að halda áfram á fyrri vakt sem var frestað á afgreiðslukassa sem er ekki þegar með virka vakt.
-
-**Talning skiptimyntar**
-
-Talning skiptimyntar er aðgerð sem notandi gerir til að tilgreina heildarupphæð peninga sem eru nú í skúffunni, oftast áður en vakt er lokið. Þetta er gildið sem er borið saman við væntanlega vakt til að reikna út yfir/undir upphæð.
-
-**Peningaflutningur í öryggisskáp**
-
-Hægt er að framkvæma peningaflutning í öryggisskáp hvenær sem er á virkri vakt. Þessi aðgerð fjarlægir peninga úr skúffunni þannig að hægt sé að flytja hann á öruggari stað eins og peningaskáp í bakherbergi. Heildarupphæðin sem er skráð fyrir peningaflutning í öryggisskáp er ennþá hluti af samtölu vaktar, en þarf ekki að teljast sem hluti af talning skiptimyntar.
-
-**Peningaflutningur í banka**
-
+### <a name="bank-drop"></a>Peningaflutningur í banka
 Eins og peningaflutningur í öryggisskáp, er peningaflutningur í banka einnig framkvæmdur á virkri vakt. Þessi aðgerð fjarlægir peninga af vaktinni til að undirbúa fyrir innlögn í banka.
 
-**Loka vakt blindandi**
+### <a name="blind-close-shift"></a>Loka vakt blindandi
+*Vaktir sem lokað er blint* eru ekki lengur virkir en hefur ekki verið lokað að fullu. Ólíkt vöktum í bið, er vaktir sem lokað er blint ekki hægt að opna aftur. Hins vegar, aðgerðir eins og gefa upp byrjunarupphæð og talning skiptimyntar er hægt að framkvæma á þeim seinna eða frá öðrum afgreiðslukassa.
 
-Að loka vakt blindandi er vakt sem er ekki lengur virk en hefur ekki verið lokað að fullu. Ekki er hægt að fara aftur í „Loka vöktum blindandi“ eins og fyrir frestaða vakt, en hægt er að framkvæma ferli eins og að tilgreina upphafsupphæð og talning skiptimyntar síðar meir eða frá öðrum afgreiðslukassa.
+Vaktir sem lokað er blint eru oft notaðar til að losa um afgreiðslukassa fyrir nýjan notanda eða vakt án þess að þurfa fyrst að fullu telja, afstemma og loka vaktinni.
 
-Að loka vöktum blindandi er oft notað til að losa afgreiðslukassa fyrir nýjan notanda eða vakt, án þess að þurfa að telja að fullu, afstemma og loka þessari vakt fyrst. 
+### <a name="close-shift"></a>Loka vakt
+Þessi aðgerð reiknar samtölu vaktar og ofgreiðslu/ávöntun fjárhæðir, og lýkur síðan virkri vakt eða vakt sem er lokað blint. Z-skýrsla er einnig prentuð fyrir vaktina, en það fer eftir heimildum notandans. Ekki er hægt að halda áfram með eða breyta lokaðar vaktir.
 
-**Loka vakt**
+### <a name="print-x"></a>Prenta X
+Þessi aðgerð býr til og prentar X-skýrslu fyrir núverandi virka vakt.
 
-Þessi aðgerð reiknar samtölu vaktar, yfir/undir uppphæðir og lýkur síðan við vakt sem er virk eða lokuð blint. Ekki er hægt að halda áfram eða breyta lokuðum vöktum.  
+### <a name="reprint-z"></a>Endurprenta Z
+Þessi aðgerð endurprentar síðustu Z skýrsluna sem kerfið bjó til þegar vakt var lokað.
 
-**Stjórna vöktum**
+### <a name="manage-shifts"></a>Stjórna vöktum
+Þessi aðgerð gerir notendum kleift að skoða allar vaktir sem eru virkar, frestaðar og sem hefur verið lokað blint fyrir verslunina. Notendur geta framkvæmt lokunarferli sín, svo sem Talning skiptimyntar og Loka vakt aðgerðir fyrir vaktir sem er lokað blint, en það fer eftir heimildum þeirra. Þessi aðgerð leyfir einnig notendum að skoða og eyða ógildum vöktum, þá sjaldan að skilið er við vakt í slæmu ástandi eftir að skipt hefur verið á milli stillinga með og án nettengingar. Þessar ógildar vaktir innihalda ekki neinar fjárhagsupplýsingar eða færslugögn sem þarf til afstemmingar.
 
-Þessi aðgerð gerir notendum kleift að skoða allar vaktir sem eru virkar, frestaðar og sem hefur verið lokað blint fyrir verslunina. Það fer eftir heimildum notenda hvort þeir geta framkvæmt lokaferli lokunar, eins og talningu skiptimyntar og lokað vöktum fyrir vöktum sem er lokað blint. Þessi aðgerð mun einnig leyfa notendum að skoða og eyða ógildum vöktum í sjaldgæfum tilfellum þar sem skilið er við vakt í slæmu ástandi eftir að hafa skipt á milli stillinga með og án nettengingar. Þessar ógildu vaktir innihalda ekki fjárhagsupplýsingar eða færslugögn sem þarf fyrir afstemmingu. 
+## <a name="shift-and-drawer-permissions"></a>Vakta- og skúffuheimildir
+Eftirfarandi POS heimildir hafa áhrif á það sem notandi getur og getur ekki gert í ýmsum tilfellum:
+
+- **Leyfa blinda lokun**
+- **Leyfa prentun X-skýrslu**
+- **Leyfa prentun á Z-skýrslu**
+- **Leyfa talningu skiptimyntar**
+- **Leyfa skilgreiningu skiptimyntar**
+- **Opna skúffu án sölu**
+- **Leyfa fjölinnskráningu á vakt** - Þessi heimild leyfir notandanum að skrá sig inn og nota vakt sem annar notandi opnaði. Notendur sem ekki hafa þessa heimild geta skráð sig inn og notað aðeins vaktir sem þeir hafa opnað.
+- **Leyfa stjórnun samnýttar vaktar** - Notendur verða að hafa þetta leyfi til að opna eða loka samnýttri vakt.
+- **Leyfa notkun samnýttrar vaktar** - Notendur verða að hafa þetta leyfi til að skrá sig inn og nota samnýtta vakt.
+
+## <a name="back-office-end-of-day-considerations"></a>Umhugsunarefni í bakvinnslu að degi loknum
+Það hvernig vaktir og afstemming peningaskúffur er notuð í POS er frábrugðið því hvernig færslugögn eru tekin saman við útreikning uppgjörs. Það er mikilvægt að þú skiljir þessa mismun. Vaktargögnin í POS (Z skýrslunni) og reiknuð uppgjör í bakvinnslu geta gefið þér mismunandi niðurstöður, allt eftir grunnstillingum þínum og viðskiptaferlum. Þessi munur þýðir ekki endilega að annað hvort vaktargögnin eða reiknuð uppgjör sé rangt eða að það sé vandamál með gögnin. Það þýðir bara að færibreyturnar sem eru veittar gætu falið í sér viðbótarfærslu eða færri færslur, eða að færslurnar hafi verið tekin saman á mismunandi hátt.
+
+Þótt sérhver smásali hafi mismunandi viðskiptaskilyrði mælum við með því að þú setjir upp kerfið þitt á eftirfarandi hátt til að forðast aðstæður þar sem mismunur af þessu tagi kemur fram:
+
+Farðu í **Smásala \> Rásir \> Smásöluverslanir \> Allar smásöluverslanir \> Uppgjör/lokun**, og fyrir hverja verslun skal stilla bæði **Uppgjörsaðferð** reitinn og **Lokunaraðferð** reitinn á **Vakt**.
+
+Þessi uppsetning hjálpar til við að tryggja að bakvinnsluuppgjör innihaldi sömu færslur og vaktir í POS, og að gögnin séu tekin saman af þeirri vakt.
+
+Frekari upplýsingar um uppgjör og lokunaraðferðir, sjá [Grunnstillingar verslunar fyrir smásöluuppgjör](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
