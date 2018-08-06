@@ -3,7 +3,7 @@ title: "Stofna sniðmát fyrir reikning með frjálsum texta"
 description: "Þessi aðferð sýnir hvernig á að búa til sniðmát fyrir reikningur með frjálsum texta."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
