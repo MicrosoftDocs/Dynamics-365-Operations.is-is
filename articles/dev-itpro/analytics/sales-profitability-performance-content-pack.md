@@ -1,7 +1,7 @@
 ---
 title: "Power BI-efni fyrir söluframmistöðu og arðsemi"
 description: "Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni Sala og arðsemi. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
