@@ -1,7 +1,7 @@
 --- 
 title: "Áætla farm og sendingar með vinnusvæðinu Farmáætlun"
 description: "Þessi gerli sýnir hvernig á að nota vinnusvæði farmáætlunar til að stofna hleðslu fyrir sölupöntun."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3f08049ad8d670be808c3a51bb8735ac489eda94
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="ba896-103">Áætla farm og sendingar með vinnusvæðinu Farmáætlun</span><span class="sxs-lookup"><span data-stu-id="ba896-103">Plan loads and shipments using the Load planning workbench</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: "Búa til VSK-færslur í skjölum"
 description: "Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vsk-flokk Vöru á línur upprunaskjals."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5adb8076f33e3c0af002c2a799e81c8de44d12f6
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: afc5d0dd2d5a39c8e4b6709d9f659b53b8aa2a1e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a><span data-ttu-id="89b7c-103">Búa til VSK-færslur í skjölum</span><span class="sxs-lookup"><span data-stu-id="89b7c-103">Create sales tax transactions on documents</span></span>
