@@ -1,7 +1,7 @@
 ---
 title: "Uppsetning samsvörunarreglna bankaafstemmingar"
 description: "Þetta efnisatriði útskýrir hvernig Hægt er að setja upp jöfnunarreglur afstemmingar og jöfnunarreglusett bankaafstemmingar til að aðstoða við afstemmingarferli bankans. Samsvörunarreglur afstemmingar eru safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur á meðan á afsemmingarferlinu stendur."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6

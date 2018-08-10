@@ -1,7 +1,7 @@
 ---
 title: "Samþætting eigna"
 description: "Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec

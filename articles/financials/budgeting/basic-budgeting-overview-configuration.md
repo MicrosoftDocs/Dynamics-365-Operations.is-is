@@ -1,7 +1,7 @@
 ---
 title: "Yfirlit fjárhagsáætlunar"
 description: "Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df

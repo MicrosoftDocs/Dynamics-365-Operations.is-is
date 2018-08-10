@@ -1,7 +1,7 @@
 ---
 title: Runueigindir
 description: "Þetta efnisatriði gefur upplýsingar um runueigindir. Runueigindi eru einkenni hráefnis og fullunninna afurða sem birgðakeyrslur samanstanda af. Þetta efnisatriði útskýrir einnig hvernig á að úthluta runueigindum, og hvernig hægt er að leita í þeim þegar runur eru teknar frá."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 19271
 ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

@@ -1,7 +1,7 @@
 ---
 title: "Vinnsla almennrar færslubókar"
 description: "Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef

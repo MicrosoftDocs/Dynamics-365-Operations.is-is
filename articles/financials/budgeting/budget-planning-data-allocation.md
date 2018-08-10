@@ -1,7 +1,7 @@
 ---
 title: "Úthlutunargögn fjárhagsáætlunargerðar"
 description: "Þessi grein lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations og hvernig hægt er að nota þær."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
