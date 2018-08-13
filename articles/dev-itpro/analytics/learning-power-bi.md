@@ -65,5 +65,3 @@ Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **N�
 | Nafn starfsmanns    | Fornafn, eftirnafn, og fullt nafn                             | Þátttakendur námskeiðs |
 | Titill starfsmanns   | Titill og starfsaldursdagsetning                                         | Þátttakendur námskeiðs |
 
-
-

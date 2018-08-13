@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -34,44 +34,40 @@ ms.lasthandoff: 05/08/2018
 
 Skýrsluskilgreining er skýrsluhlutur (eða eining) sem notast við línuskilgreiningu, dálkskilgreiningu og valfrjálsa skipuritsskilgreiningu til að búa til skýrslu. Skýrsluskilgreining veitir einnig valkosti og stillingar sem hægt er að nota til að sérsníða skýrslu. Þegar búið er að skilgreina línuskilgreiningar og dálkaskilgreiningar, verður að sameina þau í skýrsluskilgreiningu. Á þessum tímapunkti, er einnig skilgreint aðrir þættir skilgreiningar, eins og upplýsingastig og dagsetning skýrslu. Svo er hægt að vista og búa til skýrslu. Fjárhagsskýrslugerð býður upp á eftirfarandi upplýsingastig:
 
--   Fjármál
--   Fjárhagur og lykill
--   Fjárhagur, lyklar og færslur
+- Fjármál
+- Fjárhagur og lykill
+- Fjárhagur, lyklar og færslur
 
 Hins vegar eru færsluupplýsingar hugsanlega ekki tiltækar í skýrslum, sem veltur á því hvernig gögn eru geymd í Microsoft Dynamics ERP kerfinu.
 
 ## <a name="create-a-report-definition"></a>Stofna skýrsluskilgreiningu
-1.  Á valmyndinni **Skrá** í Skýrsluhönnun er smellt á **Nýtt** og svo er **Skýrsluskilgreining** valin.
-2.  Tilgreinið viðeigandi upplýsingar í **Skýrsla**, **Úttak og dreifing**, **Fyrirsagnir og síðufætur** og **stillingar** flipunum.
+1. Á valmyndinni **Skrá** í Skýrsluhönnun er smellt á **Nýtt** og svo er **Skýrsluskilgreining** valin.
+2. Tilgreinið viðeigandi upplýsingar í **Skýrsla**, **Úttak og dreifing**, **Fyrirsagnir og síðufætur** og **stillingar** flipunum.
 
 ## <a name="contents-of-a-report-definition"></a>Innihald skýrsluskilgreiningar
 Eftirfarandi tafla lýsir flipunum í skýrsluskilgreiningu og hvernig upplýsingarnar eru notaðar.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Dálklykill</th>
 <th>Lýsing</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Skýrsla</td>
 <td>Stofna skýrslu, grunnstilla skýrslu eða breyta fyrirliggjandi skýrslu.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Frálag og dreifing</td>
 <td>Breyta úttaksgerð og áfangastað fyrir skýrsluna.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Hausar og fætur</td>
 <td>Skilgreina og sníða fyrirsagnir og síðufætur fyrir skýrsluna. Til dæmis er hægt að bæta texta eða myndum við hausa eða fætur. Fjárhagsskýrslugerð styður .bmp, .jpg, og .png myndaskrár. Einnig er hægt að bæta við autotext-kóða til að setja inn aðrar upplýsingar, eins og nafn fyrirtækis, skýrsluheiti eða blaðsíðunúmer.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Stillingar</td>
 <td>Tilgreina skýrsluskilgreiningarstillingar, til dæmis eftirfarandi stillingar:
 <ul>
@@ -81,18 +77,13 @@ Eftirfarandi tafla lýsir flipunum í skýrsluskilgreiningu og hvernig upplýsin
 <li>Mynda undantekningarskýrslu</li>
 <li>Tilgreina umreikning gjaldmiðils</li>
 <li>Upplýsingar um millisamtölu og afmörkun reiknings</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-
 

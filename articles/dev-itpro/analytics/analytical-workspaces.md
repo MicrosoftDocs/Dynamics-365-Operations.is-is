@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: is-is
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [CFO-yfirlit - Power BI efni](CFO-power-bi.md)
 - [Laun - Power BI efni](compensation-power-bi.md)
 - [Power BI-efni kostnaðarbókhaldsgreiningar](cost-accounting-analysis-content-pack.md) 
-- [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)    
+- [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)
 - [Skulda- og innheimtuumsjón - Power BI efni](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Þróun starfsmanns - Power BI efni](employee-development-PBI.md) 
 - [Fjármálainnsýn - Power BI efni](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Power BI-efni fyrir söluframmistöðu og arðsemi](sales-profitability-performance-content-pack.md)
 - [Greiðslur lánardrottna - Power BI efni](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI-efni fjárhagslegrar frammistöðu](warehouse-power-bi-content.md)
-- [Mælikvarðar vinnuafls Power BI-efni](workforce-analysis-power-bi-content-pack.md)  
+- [Mælikvarðar vinnuafls Power BI-efni](workforce-analysis-power-bi-content-pack.md)
 
