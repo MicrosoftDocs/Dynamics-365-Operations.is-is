@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="41f49-105">Þetta efnisatriði lýsir efninu **Ráðningar** í Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="41f49-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="41f49-106">Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.</span><span class="sxs-lookup"><span data-stu-id="41f49-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="41f49-107">Farið í Power BI-efni</span><span class="sxs-lookup"><span data-stu-id="41f49-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="41f49-108">**Ráðning** Power BI efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.</span><span class="sxs-lookup"><span data-stu-id="41f49-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="41f49-108">**Ráðning** Power BI efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.</span><span class="sxs-lookup"><span data-stu-id="41f49-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="41f49-109">Skýrslur og myndræn framsetning á vinnusvæðinu Umsjón með ráðningum</span><span class="sxs-lookup"><span data-stu-id="41f49-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="41f49-110">**Umsjón með ráðningum** inniheldur **Greiningar**-flipa. Þessi flipi inniheldur innfellda Power BI-efnið fyrir mannaráðningar.</span><span class="sxs-lookup"><span data-stu-id="41f49-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="41f49-111">Það samanstendur af yfirlitsflipa og fleiri flipum sem hafa að geyma upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="41f49-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="41f49-112">Eftirfarandi tafla lýsir skýrslunum á hverjum flipa.</span><span class="sxs-lookup"><span data-stu-id="41f49-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="41f49-163">Afköst</span><span class="sxs-lookup"><span data-stu-id="41f49-163">Performance</span></span>          | <span data-ttu-id="41f49-164">Mat, lýsing og matslíkan</span><span class="sxs-lookup"><span data-stu-id="41f49-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="41f49-165">Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp</span><span class="sxs-lookup"><span data-stu-id="41f49-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="41f49-166">Ráðningarverk</span><span class="sxs-lookup"><span data-stu-id="41f49-166">Recruitment Project</span></span>  | <span data-ttu-id="41f49-167">Lýsing á verki, staða verks og opnanir</span><span class="sxs-lookup"><span data-stu-id="41f49-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="41f49-168">Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp</span><span class="sxs-lookup"><span data-stu-id="41f49-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="41f49-169">Umsækjandi sem er sagt upp</span><span class="sxs-lookup"><span data-stu-id="41f49-169">Terminated Applicant</span></span> | <span data-ttu-id="41f49-170">Umsækendur sem var hafna, ástæða, frammistaða og starfslokadagur</span><span class="sxs-lookup"><span data-stu-id="41f49-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="41f49-171">Fyrirtæki, dagsetning starfsupphafs, dagsetning, landfræðileg staðsetning, afköst, lýðfræði, atvinna, miðlar, ráðningarverk, nafn umsækjanda</span><span class="sxs-lookup"><span data-stu-id="41f49-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 
