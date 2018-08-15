@@ -1,7 +1,7 @@
 ---
 title: "Afurðarkenni"
 description: "Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
