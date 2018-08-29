@@ -1,5 +1,5 @@
 ---
-title: "Uppsetning og umsjón með myndum fyrir Retail Modern POS"
+title: "Uppsetning og umsjón með myndum fyrir Retail Modern POS (MPOS)"
 description: "Þessi grein útskýrir þrepin sem á þarf að halda fyrir uppsetningu og umsjón með myndum fyrir hinar ýmsu einingar sem koma fram í Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Uppsetning og umsjón með myndum fyrir Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Uppsetning og umsjón með myndum fyrir Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,11 +48,11 @@ Myndir sem birtast í Retail Modern POS (MPOS) verða að vera hýstar í ytra k
 
 1.  Smellið á **Smásala** &gt; **Vörulistastjórnun** &gt; **Vörulistamyndir**.
 2.  Á **Vörulistamyndir** síðuna á Aðgerðasvæðinu skal smellt **Skilgreina sniðmát miðla**. á **Skilgreina sniðmát miðla** svarglugganum í **Einingar** svæðinu ætti **Vörulista** að vera valinn að sjálfgefnu.
-3.  Á við **slóð Miðils** flýtiflipa, færið inn eftirstandandi slóð staðsetningar myndar. Slóð miðils styður **LanguageID** sem breytu. Til dæmis , fyrir sýnigögnum, er hægt að stofna **Vörulista** möppu fyrir allar vörulistamyndir undir grunnvefslóð miðils fyrir miðlaþjón (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Hægt er að hafa möppu fyrir hvert tungumál eins og is-IS eða fr-FR og afrita viðeigandi myndir í hverri möppu. Ef þú ert ekki með mismunandi myndir fyrir mismunandi tungumálum, er hægt að sleppa **LanguageID** breytu úr möppuskipulag- og vísa beint í Vörulistamöppuna sem inniheldur myndir vörulista. **Ábending:** gildandi útgáfu af Dynamics 365 for Retail styður **{LanguageId}** tákn fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki studd fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virk frá Microsoft Dynamics AX 6.x.)
+3.  Á við **slóð Miðils** flýtiflipa, færið inn eftirstandandi slóð staðsetningar myndar. Slóð miðils styður **LanguageID** sem breytu. Til dæmis, fyrir sýnigögnum, er hægt að stofna **Vörulista** möppu fyrir allar vörulistamyndir undir grunnvefslóð miðils fyrir miðlaþjón (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Hægt er að hafa möppu fyrir hvert tungumál eins og is-IS eða fr-FR og afrita viðeigandi myndir í hverri möppu. Ef þú ert ekki með mismunandi myndir fyrir mismunandi tungumálum, er hægt að sleppa **LanguageID** breytu úr möppuskipulag- og vísa beint í Vörulistamöppuna sem inniheldur myndir vörulista. **Ábending:** gildandi útgáfu af Dynamics 365 for Retail styður **{LanguageId}** tákn fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki studd fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virk frá Microsoft Dynamics AX 6.x.)
 4.  Fyrir Myndir er skrárheitissniðið harðkóðaða í heiti vörulista og ekki er hægt að breyta. Þess vegna skal endurnefna myndir þannig að þeir hafi viðeigandi vörulistanöfn til að aðstoða við að tryggja að MPOS annast þær rétt.
 5.  Í **Nafnauka skrár** skal velja áætluð nafnauka skrár, eftir gerð myndir sem þú ert með. Til dæmis, í sýnigögnum, eru myndir í vörulista stillt á nafnauka .jpg. (Myndaskrár eru einnig endurnefnd þannig að þeir hafa nöfn vörulista).
 6.  Smellið á **Í lagi**.
-7.  Til að staðfesta að sniðmát miðla fyrir myndum hefur verið vistuð rétt, á **Vörulistamyndir** síðunni er smellt á **Skilgreina sniðmát miðla** aftur. Til að villuleita sniðmát án þess að loka **Skilgreina sniðmát miðla** svarglugganum, er hægt að nota **Mynda Myndvefslóðir fyrir Excel** flýtiflipi. Athuga útlit útlit og myndvefslóðar, og staðfesta að vefslóð samræmist staðlaða sniðmátið sem var áður nefnd. **Skilgreina sniðmát miðla** svarglugga hefur nú sett slóð mynda skilyrðislaust fyrir allar vörulistamyndir sem nota þessa sameiginlegu Vefslóð (url). Þessari Vefslóð (url) á við allar myndir vörulista nema skrifað sé yfir hana. Fyrsti hluti myndaslóð er sótt í Grunnvefslóð miðla sem er skilgreind í forstillingu rásar. Eftirstandandi hluta slóð er sótt úr slóðina sem var skilgreint í sniðmáti miðla. Hlutarnir tveir eru eige eingöngu að veita þér staðsetningar fulla vefslóð myndar . Til dæmis er vörulista í sýnigögnin sem nefnist Fabrikam Grunnvörulista. Þess vegna þarf heiti myndar að vera Fabrikam grunnvörulisti.jpg þannig að það notar heiti vörulista og .jpg skrárendingu sem er skilgreindur í sniðmátinu. Í þessu tilfelli, eftir einskorðun, verður Vefslóð https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam grunnvörulisti.jpg.
+7.  Til að staðfesta að sniðmát miðla fyrir myndum hefur verið vistuð rétt, á **Vörulistamyndir** síðunni er smellt á **Skilgreina sniðmát miðla** aftur. Til að villuleita sniðmát án þess að loka **Skilgreina sniðmát miðla** svarglugganum, er hægt að nota **Mynda Myndvefslóðir fyrir Excel** flýtiflipi. Athuga útlit útlit og myndvefslóðar, og staðfesta að vefslóð samræmist staðlaða sniðmátið sem var áður nefnd. **Skilgreina sniðmát miðla** svarglugga hefur nú sett slóð mynda skilyrðislaust fyrir allar vörulistamyndir sem nota þessa sameiginlegu Vefslóð (url). Þessari Vefslóð (url) á við allar myndir vörulista nema skrifað sé yfir hana. Fyrsti hluti myndaslóð er sótt í Grunnvefslóð miðla sem er skilgreind í forstillingu rásar. Eftirstandandi hluta slóð er sótt úr slóðina sem var skilgreint í sniðmáti miðla. Hlutarnir tveir eru eige eingöngu að veita þér staðsetningar fulla vefslóð myndar . Til dæmis er vörulista í sýnigögnin sem nefnist Fabrikam Grunnvörulista. Þess vegna þarf heiti myndar að vera Fabrikam grunnvörulisti.jpg þannig að það notar heiti vörulista og .jpg skrárendingu sem er skilgreindur í sniðmátinu. Eftir samtengingu verður vefsláðin https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Keyra samstillingarvinnslu til að færa nýja sniðmátið í gagnagrunn rásar þannig að MPOS geti notað sniðmátið til að fá aðgang að myndirnar.
 9.  Til að uppfæra miðlasniðmát fyrir vörulistamyndir rásarmegin skal gæta þess að keyra **Vörulistavinnsla 1150** úr **Upplýsingatækni í smásölu** &gt; **Dreifingaráætlun**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 

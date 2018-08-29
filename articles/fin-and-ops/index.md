@@ -1,6 +1,6 @@
 ---
-title: "Skjöl Microsoft Dynamics 365 for Finance and Operations"
-description: "Skjöl fyrir Microsoft Dynamics 365 for Finance and Operations."
+title: "Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations"
+description: "Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations."
 author: margoc
 manager: AnnBe
 ms.date: 03/02/2018
@@ -18,17 +18,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
-ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
 ms.contentlocale: is-is
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Kynning á Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 [!include [banner](includes/banner.md)]
 
-Kynntu þér hvernig Microsoft Dynamics 365 for Finance and Operations getur unnið fyrir þitt fyrirtæki með því að nota tilföngin hér fyrir neðan til að finna gott efni handa notendum, þróunaraðilum og fagfólki á svið upplýsingatækni. 
+Lærðu að nýta Microsoft Dynamics 365 for Finance and Operations í þágu fyrirtækisins. Í neðangreindum tilföngum er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
 
 Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 for Retail og Microsoft Dynamics 365 for Talent. 
 

@@ -1,5 +1,5 @@
 ---
-title: "Fjárhagsvíddir og aðallykla í tungumáli sem fer frá hægri til vinstri"
+title: "Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri"
 description: "Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir."
 author: aprilolson
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -18,14 +18,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9859023853b235aa2695ee5c595627571a4d746c
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Fjárhagsvíddir og aðallykla í tungumáli sem fer frá hægri til vinstri
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri
 
 [!include [banner](../includes/banner.md)]
 

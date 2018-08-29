@@ -1,5 +1,5 @@
 ---
-title: "Formúluhönnuður í Rafræna Skýrslugerð"
+title: "Formúluhönnuður í rafrænni skýrslugerð (ER)"
 description: "Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER)."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Formúluhönnuður í rafrænni skýrslugerð
+# <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðuna þegar hannaða sniðið er keyrt.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur texti fyrir merki og lýsingar sleginn inn sem úttak sniðs rafrænnar skýrslugerðar.</blockquote>
+<blockquote>[!NOTE] Byggt á tungumálastillingum á yfirsniðseiningum FILE og FOLDER, er þýddur texti fyrir merki og lýsingar sleginn inn sem úttak sniðs rafrænnar skýrslugerðar.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Eftirfarandi mynd sýnir niðurstöðurnar þegar stillt snið er keyrt.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Mark er ekki beitt á síðasta hlut í upprunalistanum, vegna þess að gildi (11) mörkum upprunans (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote>
+<blockquote>[!NOTE] Mark er ekki beitt á síðasta hlut í upprunalistanum, vegna þess að gildi (11) mörkum upprunans (þyngd) fer yfir skilgreind mörk (9). Notaðu annaðhvort <strong>WHERE</strong> aðgerðina eða <strong>Virkjað</strong> segðina á samsvarandi sniðseiningu til að hunsa (sleppa) undirlistum meðan á skýrslugerð stendur, eins og þurfa þykir.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 | NUMBERVALUE (streng aukastaf, skiltákn stafaflokkunar) | Umbreyta strengnum í númer. Tilgreint tugabrot er notað á milli heiltala og aukastafa fyrir tölu í tugakerfinu. Tilgreint skiltákn talna er notað til að skipta niður í þúsundasta hluta. | **NUMBERVALUE("1 234,56", ",", " ")** skilar gildinu **1234.56**. |
 | VALUE (strengur) | Umbreyta strengnum í númer. Kommur og punktar (.) skoðast sem skiltákn aukastafa, og bandstrik fremst (-) er notað sem neikvætt formerki. Beita undantekningu ef tilgreindur strengur inniheldur önnur tákn sem eru ekki tölur. | **VALUE ("1 234,56")** beitir undantekningu. |
 | ROUND (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð að tilgreindum fjölda aukastafa:<ul><li>Ef gildi **aukastafanna** er meira en 0 (núll), er tilgreind tala námunduð að þetta mörgum aukastöfum.</li><li>Ef gildi **aukastafa** er **0** (núll), er tilgreind tala námunduð að næstu heiltölu.</li><li>Ef gildi **aukastafa** er minna en 0 (núll), er tilgreind tala námunduð til vinstri við tugastafinn.</li></ul> | **ROUND (1200.767, 2)** sléttar tvo aukastafi og skilar **1200.77**. **ROUND (1200.767, -3)** sléttar næsta margfeldi svæðisins 1.000 og skilar **1000**. |
-| ROUNDDOWN (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð niður í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar alltaf tilgreindri tölu niður (í átt að núlli).</blockquote> | **ROUNDDOWN (1200.767, 2)** sléttar niður á við tvo aukastafi og skilar **1200.76**. **ROUNDDOWN (1700.767, -3)** sléttar niður á við næsta margfeldi svæðisins 1.000 og skilar **1000**. |
-| ROUNDUP (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð upp í tilgreindan fjölda aukastafa.<blockquote>[!NOTE]<br>Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar tilgreindri tölu upp (í átt frá núlli).</blockquote> | **ROUNDUP (1200.763, 2)** sléttar upp að tvo aukastafi og skilar **1200.77**. **ROUNDUP (1200.767, -3)** sléttar upp að næsta margfeldi svæðisins 1.000 og skilar **2000**. |
+| ROUNDDOWN (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð niður í tilgreindan fjölda aukastafa.<blockquote>[!NOTE] Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar alltaf tilgreindri tölu niður (í átt að núlli).</blockquote> | **ROUNDDOWN (1200.767, 2)** sléttar niður á við tvo aukastafi og skilar **1200.76**. **ROUNDDOWN (1700.767, -3)** sléttar niður á við næsta margfeldi svæðisins 1.000 og skilar **1000**. |
+| ROUNDUP (númer, aukastafir) | Skila tilgreindri tölu eftir að hún hefur verið námunduð upp í tilgreindan fjölda aukastafa.<blockquote>[!NOTE] Þessi aðgerð hegðar sér eins og **ROUND**, en hún námundar tilgreindri tölu upp (í átt frá núlli).</blockquote> | **ROUNDUP (1200.763, 2)** sléttar upp að tvo aukastafi og skilar **1200.77**. **ROUNDUP (1200.767, -3)** sléttar upp að næsta margfeldi svæðisins 1.000 og skilar **2000**. |
 
 ### <a name="data-conversion-functions"></a>Gagnaumbreytingarvirkni
 
@@ -474,8 +474,8 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 
 | Aðgerð | lýsing | Dæmi |
 |----------|-------------|---------|
-| NULLCONTAINER (listi) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Þessi aðgerð er úrelt. Notið **EMPTYRECORD** í staðinn.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** skilar nýja tóma skráningu sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
-| EMPTYRECORD (skráning) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE]<br>Færsla **núll** er færsla þar sem allir reitir eru með tómt gildi. Tómt gildi er **0** (núll) fyrir tölur, tóman streng fyrir strengi og svo framvegis.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** skilar nýja tóma lista sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
+| NULLCONTAINER (listi) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE] Þessi aðgerð er úrelt. Notið **EMPTYRECORD** í staðinn.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** skilar nýja tóma skráningu sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
+| EMPTYRECORD (skráning) | Skila **núll** færslu sem hefur sömu skipan og tilgreind færsluskrár eða færsla.<blockquote>[!NOTE] Færsla **núll** er færsla þar sem allir reitir eru með tómt gildi. Tómt gildi er **0** (núll) fyrir tölur, tóman streng fyrir strengi og svo framvegis.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** skilar nýja tóma lista sem hefur sömu skipan sem listanum sem var skilað af **SPLIT** aðgerð. |
 
 ### <a name="text-functions"></a>Textavirkni
 
@@ -522,14 +522,14 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <td>CHAR (númer)</td>
 <td>Skila streng af stöfum sem vísað er til með tilgreinda Unicode númerinu.</td>
 <td><strong>CHAR (255)</strong> skilar <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>Strengurinn sem þessi aðgerð skilar veltur á kóðuninni sem er valin í yfireiningu FILE sniðsins. Fyrir listann yfir studdar kóðanir, sjá <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kóðunarflokkur</a>.</blockquote>
+<blockquote>[!NOTE] Strengurinn sem þessi aðgerð skilar veltur á kóðuninni sem er valin í yfireiningu FILE sniðsins. Fyrir listann yfir studdar kóðanir, sjá <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kóðunarflokkur</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (string 1 [, string 2, …])</td>
 <td>Skila öllum tilgreindum textastrengjum eftir að þeir hafa verið tengdir í eina streng.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> skilar <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] Segðin <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> skilar einnig <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <p>&quot;Ekkert til að prenta. Viðskiptavinur Litware Smásölu er lokaður fyrir 17/12/2015.&quot;</p>
 <p>Ef sama skýrslan er unnin fyrir viðskiptavininn <strong>Litware Retail</strong> þann 17. desember 2015 í menningunni <strong>DE</strong> og tungumálinu <strong>DE</strong> skilar formúlan eftirfarandi texta, sem notar annað snið dagsetningar:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
+<blockquote>[!NOTE] Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
 <ul>
 <li><strong>Fyrir merki úr tilföngum Finance and Operations:</strong> <strong>@&quot;X&quot;</strong> þar sem X er merkiskenni í hugbúnaðarhlutatrénu (AOT)</li>
 <li><strong>Fyrir merki sem eru í skilgreiningum rafrænnar skýrslugerðar:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong> þar sem X er merkjakenni í skilgreiningu rafrænnar skýrslugerðar</li>
@@ -587,7 +587,7 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <tr>
 <td>NUMERALSTOTEXT (númer, tungumál, gjaldmiðil, prenta flaggheiti gjaldmiðils, tugakomma)</td>
 <td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt í textastreng) á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur er tungumálakóðinn fyrir samhengið sem er í keyrslu notaður. (Tungumálakóðinn fyrir samhengið sem er keyrt er skilgreint fyrir myndaða möppu eða skrá.) Tungumálakóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
-<blockquote>[!NOTE]<br><strong>Prentun gjaldeyrisheitis</strong> og breytur <strong>aukastafa</strong> eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir <strong>prentun gjaldeyrisheitis</strong> aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote>
+<blockquote>[!NOTE] <strong>Prentun gjaldeyrisheitis</strong> og breytur <strong>aukastafa</strong> eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir <strong>prentun gjaldeyrisheitis</strong> aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> Skilar <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot; false, 0)</strong> skilar <strong>&quot;“Sto dwadzieścia”&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> skilar <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 | Aðgerð | lýsing | Dæmi |
 |----------|-------------|---------|
 | CONVERTCURRENCY (upphæð, frumgjaldmiðils, mark gjaldmiðil, dagsetning, fyrirtækisins) | Umreikna tilgreinda peningaupphæð frá tilgreindum upprunagjaldmiðli til tilgreinds markgjaldmiðils með því að nota stillingar tilgreinds Finance and Operations fyrirtækis á tilteknum degi. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** skilar jafngildi einni evru í Bandarískum dollurum á dagsetningu núverandi setu, byggða á stillingum DEMF-fyrirtækisins. |
-| ROUNDAMOUNT (tölu, aukastafi, sléttunarreglu) | Námunda tilgreinda upphæð í tilgreindan fjölda aukastafa í samræmi við tilgreinda námundunarreglu.<blockquote>[!NOTE]<br>Námundunarreglan verður að vera skilgreind sem tölusetningargildi **RoundOffType** Finance and Operations.</blockquote> | Ef **model.RoundOff** færibreyta er stillt á **Niður**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000,78**. Ef **model.RoundOff** færibreyta er stillt á annað hvort **Venjuleg** eða **Sléttun**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000.79**. |
+| ROUNDAMOUNT (tölu, aukastafi, sléttunarreglu) | Námunda tilgreinda upphæð í tilgreindan fjölda aukastafa í samræmi við tilgreinda námundunarreglu.<blockquote>[!NOTE] Námundunarreglan verður að vera skilgreind sem tölusetningargildi **RoundOffType** Finance and Operations.</blockquote> | Ef **model.RoundOff** færibreyta er stillt á **Niður**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000,78**. Ef **model.RoundOff** færibreyta er stillt á annað hvort **Venjuleg** eða **Sléttun**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000.79**. |
 | CURCredRef (tölur) | Skila Tilvísun lánardrottins, byggt á tölustöfum í tilgreint reikningsnúmeri. | **CURCredRef ("VEND-200002")** skilar **"2200002"**. |
 | MOD\_97 (tölustafir) | Skila Tilvísun lánardrottins, sem MOD97 segð, byggt á tölustöfum tilgreinds reikningsnúmers. | **MOD\_97 ("VEND-200002")** skilar **"20000285"**. |
-| ISOCredRef  (tölur) | Skila tilvísun alþjóðaviðskiptastofnunar um staðla (ISO), byggt á tölustöfum og stafrófstáknum í tilgreindu númeri vörureiknings.<blockquote>[!NOTE]<br>Til að útiloka tákn frá stafrófum sem ekki eru í samræmi við ISO skal inntakshbreytan þýdd áður en hún er sett inn í þessa aðgerð.</blockquote> | **ISOCredRef ("VEND-200002")** skilar **"RF23VEND-200002"**. |
+| ISOCredRef  (tölur) | Skila tilvísun alþjóðaviðskiptastofnunar um staðla (ISO), byggt á tölustöfum og stafrófstáknum í tilgreindu númeri vörureiknings.<blockquote>[!NOTE] Til að útiloka tákn frá stafrófum sem ekki eru í samræmi við ISO skal inntakshbreytan þýdd áður en hún er sett inn í þessa aðgerð.</blockquote> | **ISOCredRef ("VEND-200002")** skilar **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (strengur, númer) | Sækja tilgreint fjárhagslegt viðbótarvíddarkenni. Í færibreytunni **strengur** eru víddir táknaðar sem auðkenni sem eru aðskilin með kommum. Færibreytan **númer** skilgreinir kóða númeraraðar af umbeðinni vídd í strengnum. | **CN\_GBT\_AdditionalDimensionID ("AA, BB, CC, DD, EE, FF, GG, HH", 3)** skilar **"CC"**. |
 | GetCurrentCompany () | Skila textaframsetningu á kóðanum fyrir lögaðilann (fyrirtæki) sem notandi er skráður inn á. | **GETCURRENTCOMPANY ()** skilar **USMF** fyrir notanda sem er skráður inn á **Contoso Entertainment System USA** fyrirtæki í Finance and Operations. |
 | CH\_BANK\_MOD\_10 (tölustafir) | Skila tilvísun kröfuhafa sem MOD10 segð, byggt á tölum á tilgreindu númeri vörureiknings. | **CH\_BANK\_MOD\_10 ("VEND-200002")** skilar **3**. |

@@ -1,5 +1,5 @@
 --- 
-title: "Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum"
+title: "Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e0c01a44bde47860b3ad587da73dc2760e9ef4fc
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum 
+# <a name="run-formats-to-use-document-management-files-in-er-output"></a>Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

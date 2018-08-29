@@ -1,5 +1,5 @@
 ---
-title: "Búa til Affordable Care Act skýrslur"
+title: "Mynda Affordable Care Act (ACA) skýrslur"
 description: "Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að umboði vinnuveitanda. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum."
 author: kherr75
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
 ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="generate-affordable-care-act-reports"></a>Búa til Affordable Care Act skýrslur
+# <a name="generate-affordable-care-act-aca-reports"></a>Mynda Affordable Care Act (ACA) skýrslur
 
 [!include [banner](includes/banner.md)]
 

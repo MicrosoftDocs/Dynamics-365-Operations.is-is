@@ -1,5 +1,5 @@
 ---
-title: "AxErd lokað"
+title: "AxErd-síðunni hefur verið lokað"
 description: "Við þurftum að loka AxErd síðunni. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í GitHub-geymslu."
 author: margoc
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: aa67ac4f29703fff516d648f9c74dbf785d0637a
-ms.openlocfilehash: a1049dbaca80161a6b6638eb74c253fb75e9c391
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 5250a75655b23f1bc92b332a48dfec094af049cf
 ms.contentlocale: is-is
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="axerd-retired"></a>AxErd lokað
+# <a name="axerd-page-has-been-retired"></a>AxErd-síðunni hefur verið lokað
 
-Því miður þurftum við að loka AxErd vefsíðunni sem útvegaði skýringarmyndir einingavensla (ERD) fyrir margar Microsoft Dynamics AX 2012 töflur. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í GitHub-geymslu: https://github.com/Microsoft/ax-2012-doc-tools
+Því miður þurftum við að loka AxErd vefsíðunni sem útvegaði skýringarmyndir einingavensla (ERD) fyrir margar Microsoft Dynamics AX 2012 töflur. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í Github-geymslu: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-síðurnar eru í geymslunni á slóðinni [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
 

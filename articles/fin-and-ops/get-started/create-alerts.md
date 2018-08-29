@@ -1,5 +1,5 @@
 ---
-title: "Búa til viðvaranir"
+title: "Viðvörunarreglur stofnaðar"
 description: "Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað."
 author: tjvass
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 5bcd02e08a4ce5b601615b39bf95362cf92d3fec
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
 ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="create-alerts"></a>Búa til viðvaranir
+# <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
 [!include [banner](../includes/banner.md)]
 

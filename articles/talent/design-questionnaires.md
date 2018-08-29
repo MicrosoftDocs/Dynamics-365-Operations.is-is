@@ -1,5 +1,5 @@
 ---
-title: Hanna spurningalista
+title: Hanna spurningarlista
 description: "Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu."
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cc25f4fde93df03145baedafb9c6b093659594d0
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="design-a-questionnaire"></a>Hanna spurningalista
+# <a name="design-questionnaires"></a>Hanna spurningarlista
 
 [!include [banner](includes/banner.md)]
 
