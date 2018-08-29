@@ -1,5 +1,5 @@
 --- 
-title: " Nota samfelldniáætlun"
+title: "Samfelldniáætlanir fyrir sölu og vinnsla tengdra sölupantana"
 description: "Þetta ferli fer í gegnum að selja samfelldniáætlanir og vinna úr tengdar sölupantanir."
 author: scott-tucker
 manager: AnnBe
@@ -17,48 +17,48 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 38d9f3a2e58d121e58ff0117ea4bcf480edb241c
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-continuity-program"></a><span data-ttu-id="4d94d-103"> Nota samfelldniáætlun</span><span class="sxs-lookup"><span data-stu-id="4d94d-103">Use a continuity program</span></span>
+# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a><span data-ttu-id="b9464-103">Samfelldniáætlanir fyrir sölu og vinnsla tengdra sölupantana</span><span class="sxs-lookup"><span data-stu-id="b9464-103">Selling continuity programs and processing related sales orders</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4d94d-104">Þetta ferli fer í gegnum að selja samfelldniáætlanir og vinna úr tengdar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="4d94d-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="4d94d-105">Til að ljúka við þetta ferli, þarf notandi að vera settur upp sem notandi símavers.</span><span class="sxs-lookup"><span data-stu-id="4d94d-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="4d94d-106">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="4d94d-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="b9464-104">Þetta ferli fer í gegnum að selja samfelldniáætlanir og vinna úr tengdar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="b9464-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="b9464-105">Til að ljúka við þetta ferli, þarf notandi að vera settur upp sem notandi símavers.</span><span class="sxs-lookup"><span data-stu-id="b9464-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="b9464-106">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="b9464-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="4d94d-107">Fara í Smásölu og viðskipti > viðskiptavinur > viðskiptavinur þjónusta.</span><span class="sxs-lookup"><span data-stu-id="4d94d-107">Go to Retail and commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="4d94d-108">Í svæðinu SearchText, færðu inn 'Karen' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="4d94d-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
-    * <span data-ttu-id="4d94d-109">Svargluggi Ítarleg leit ætti að birtast.</span><span class="sxs-lookup"><span data-stu-id="4d94d-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="4d94d-110">Ef það gerist ekki skal smella á Leit hægra megin við þetta svæði.</span><span class="sxs-lookup"><span data-stu-id="4d94d-110">If it doesn't, click Search to the right of this field.</span></span>  
-3. <span data-ttu-id="4d94d-111">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4d94d-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="4d94d-112">Aðeins ætti að birtast ein línan með Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="4d94d-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="4d94d-113">Velja línuna með því að smella á gátmerki-dálknum lengst til vinstri í hnitanetinu.</span><span class="sxs-lookup"><span data-stu-id="4d94d-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
-4. <span data-ttu-id="4d94d-114">Smellið á Velja.</span><span class="sxs-lookup"><span data-stu-id="4d94d-114">Click Select.</span></span>
-5. <span data-ttu-id="4d94d-115">Smelltu á Ný sölupöntun</span><span class="sxs-lookup"><span data-stu-id="4d94d-115">Click New sales order.</span></span>
-    * <span data-ttu-id="4d94d-116">Gott er að taka niður númer sölupöntunar.</span><span class="sxs-lookup"><span data-stu-id="4d94d-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="4d94d-117">Þarf hana síðar í þessu ferli.</span><span class="sxs-lookup"><span data-stu-id="4d94d-117">You'll need it later in this procedure.</span></span>  
-6. <span data-ttu-id="4d94d-118">Í svæðinu vörunúmer, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="4d94d-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="4d94d-119">Þetta er Samfelldnivara í sýnigögn USRT.</span><span class="sxs-lookup"><span data-stu-id="4d94d-119">This is a continuity item in the USRT demo data.</span></span>  
-7. <span data-ttu-id="4d94d-120">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="4d94d-120">Click Complete.</span></span>
-8. <span data-ttu-id="4d94d-121">Færa inn "Visa" í svæðinu greiðslumáti.</span><span class="sxs-lookup"><span data-stu-id="4d94d-121">In the Payment method field, enter 'Visa'.</span></span>
-9. <span data-ttu-id="4d94d-122">Smelltu á Bæta við kreditkorti</span><span class="sxs-lookup"><span data-stu-id="4d94d-122">Click Add credit card.</span></span>
-    * <span data-ttu-id="4d94d-123">Færðu inn nauðsynlegt upplýsingar um kreditkort á þessari síðu.</span><span class="sxs-lookup"><span data-stu-id="4d94d-123">Enter the required credit card information on this page.</span></span>  
-10. <span data-ttu-id="4d94d-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4d94d-124">Click OK.</span></span>
-11. <span data-ttu-id="4d94d-125">Stækkið hlutann Greiðslur.</span><span class="sxs-lookup"><span data-stu-id="4d94d-125">Expand the Payment section.</span></span>
-    * <span data-ttu-id="4d94d-126">Til að senda pöntun símavers, þarf að færa inn greiðslur fyrir pöntuninni.</span><span class="sxs-lookup"><span data-stu-id="4d94d-126">To submit a call center order, payments have to be entered for the order.</span></span>  
-12. <span data-ttu-id="4d94d-127">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4d94d-127">Click OK.</span></span>
-13. <span data-ttu-id="4d94d-128">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="4d94d-128">Click Submit.</span></span>
-    * <span data-ttu-id="4d94d-129">Þú ert búinn að stofna nýja samfelldnipöntun.</span><span class="sxs-lookup"><span data-stu-id="4d94d-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="4d94d-130">Næst, muntu keyra tvær runuvinnslur sem eru notuð við vinnslu á samfelldnipöntunum.</span><span class="sxs-lookup"><span data-stu-id="4d94d-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
-14. <span data-ttu-id="4d94d-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="4d94d-131">Close the page.</span></span>
-15. <span data-ttu-id="4d94d-132">Fara í Smásölu og viðskipti > Samfelldni > Vinnsla samfelldnigreiðslna.</span><span class="sxs-lookup"><span data-stu-id="4d94d-132">Go to Retail and commerce > Continuity > Process continuity payments.</span></span>
-16. <span data-ttu-id="4d94d-133">Í svæðinu Samfelldnivara, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="4d94d-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-17. <span data-ttu-id="4d94d-134">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4d94d-134">Click OK.</span></span>
-18. <span data-ttu-id="4d94d-135">Fara í Smásölu og viðskipti > Samfelldni > Stofna samfelldni undirpantanir.</span><span class="sxs-lookup"><span data-stu-id="4d94d-135">Go to Retail and commerce > Continuity > Create continuity child orders.</span></span>
-    * <span data-ttu-id="4d94d-136">Þetta ferli mun stofna nýjar sölupantanir byggt á stillingum samfelldniáætlanir.</span><span class="sxs-lookup"><span data-stu-id="4d94d-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
-19. <span data-ttu-id="4d94d-137">Í svæðinu Samfelldnivara, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="4d94d-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="4d94d-138">Vara "88000" er Samfelldnivara í sýnigögn USRT.</span><span class="sxs-lookup"><span data-stu-id="4d94d-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
-20. <span data-ttu-id="4d94d-139">Í reitinn sölupöntun skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="4d94d-139">In the Sales order field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d94d-140">Færið inn númer sölupöntunar sem var tekið niður fyrr í ferlinu.</span><span class="sxs-lookup"><span data-stu-id="4d94d-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="4d94d-141">Þetta mun halda vinnslutíma í lágmarki fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="4d94d-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="4d94d-142">Reiturinn sölupöntun er valfrjáls - hægt er að vinna allar pantanir fyrir hverja staka áætlun.</span><span class="sxs-lookup"><span data-stu-id="4d94d-142">The Sales order field is optional--you could process all orders for any one program.</span></span>  
-21. <span data-ttu-id="4d94d-143">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4d94d-143">Click OK.</span></span>
+1. <span data-ttu-id="b9464-107">Fara í Smásölu og viðskipti > viðskiptavinur > viðskiptavinur þjónusta.</span><span class="sxs-lookup"><span data-stu-id="b9464-107">Go to Retail and commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="b9464-108">Í svæðinu SearchText, færðu inn 'Karen' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="b9464-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="b9464-109">Svargluggi Ítarleg leit ætti að birtast.</span><span class="sxs-lookup"><span data-stu-id="b9464-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="b9464-110">Ef það gerist ekki skal smella á Leit hægra megin við þetta svæði.</span><span class="sxs-lookup"><span data-stu-id="b9464-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="b9464-111">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b9464-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b9464-112">Aðeins ætti að birtast ein línan með Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="b9464-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="b9464-113">Velja línuna með því að smella á gátmerki-dálknum lengst til vinstri í hnitanetinu.</span><span class="sxs-lookup"><span data-stu-id="b9464-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="b9464-114">Smellið á Velja.</span><span class="sxs-lookup"><span data-stu-id="b9464-114">Click Select.</span></span>
+5. <span data-ttu-id="b9464-115">Smelltu á Ný sölupöntun</span><span class="sxs-lookup"><span data-stu-id="b9464-115">Click New sales order.</span></span>
+    * <span data-ttu-id="b9464-116">Gott er að taka niður númer sölupöntunar.</span><span class="sxs-lookup"><span data-stu-id="b9464-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="b9464-117">Þarf hana síðar í þessu ferli.</span><span class="sxs-lookup"><span data-stu-id="b9464-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="b9464-118">Í svæðinu vörunúmer, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="b9464-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="b9464-119">Þetta er Samfelldnivara í sýnigögn USRT.</span><span class="sxs-lookup"><span data-stu-id="b9464-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="b9464-120">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="b9464-120">Click Complete.</span></span>
+8. <span data-ttu-id="b9464-121">Færa inn "Visa" í svæðinu greiðslumáti.</span><span class="sxs-lookup"><span data-stu-id="b9464-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="b9464-122">Smelltu á Bæta við kreditkorti</span><span class="sxs-lookup"><span data-stu-id="b9464-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="b9464-123">Færðu inn nauðsynlegt upplýsingar um kreditkort á þessari síðu.</span><span class="sxs-lookup"><span data-stu-id="b9464-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="b9464-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b9464-124">Click OK.</span></span>
+11. <span data-ttu-id="b9464-125">Stækkið hlutann Greiðslur.</span><span class="sxs-lookup"><span data-stu-id="b9464-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="b9464-126">Til að senda pöntun símavers, þarf að færa inn greiðslur fyrir pöntuninni.</span><span class="sxs-lookup"><span data-stu-id="b9464-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="b9464-127">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b9464-127">Click OK.</span></span>
+13. <span data-ttu-id="b9464-128">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="b9464-128">Click Submit.</span></span>
+    * <span data-ttu-id="b9464-129">Þú ert búinn að stofna nýja samfelldnipöntun.</span><span class="sxs-lookup"><span data-stu-id="b9464-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="b9464-130">Næst, muntu keyra tvær runuvinnslur sem eru notuð við vinnslu á samfelldnipöntunum.</span><span class="sxs-lookup"><span data-stu-id="b9464-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="b9464-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b9464-131">Close the page.</span></span>
+15. <span data-ttu-id="b9464-132">Fara í Smásölu og viðskipti > Samfelldni > Vinnsla samfelldnigreiðslna.</span><span class="sxs-lookup"><span data-stu-id="b9464-132">Go to Retail and commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="b9464-133">Í svæðinu Samfelldnivara, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="b9464-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="b9464-134">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b9464-134">Click OK.</span></span>
+18. <span data-ttu-id="b9464-135">Fara í Smásölu og viðskipti > Samfelldni > Stofna samfelldni undirpantanir.</span><span class="sxs-lookup"><span data-stu-id="b9464-135">Go to Retail and commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="b9464-136">Þetta ferli mun stofna nýjar sölupantanir byggt á stillingum samfelldniáætlanir.</span><span class="sxs-lookup"><span data-stu-id="b9464-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="b9464-137">Í svæðinu Samfelldnivara, færðu inn '88000' og styðja á Tab-lykil.</span><span class="sxs-lookup"><span data-stu-id="b9464-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="b9464-138">Vara "88000" er Samfelldnivara í sýnigögn USRT.</span><span class="sxs-lookup"><span data-stu-id="b9464-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="b9464-139">Í reitinn sölupöntun skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="b9464-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="b9464-140">Færið inn númer sölupöntunar sem var tekið niður fyrr í ferlinu.</span><span class="sxs-lookup"><span data-stu-id="b9464-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="b9464-141">Þetta mun halda vinnslutíma í lágmarki fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="b9464-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="b9464-142">Reiturinn sölupöntun er valfrjáls - hægt er að vinna allar pantanir fyrir hverja staka áætlun.</span><span class="sxs-lookup"><span data-stu-id="b9464-142">The Sales order field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="b9464-143">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b9464-143">Click OK.</span></span>
 
 

@@ -8,24 +8,24 @@
           items:
             - name: Skráðu þig fyrir prufuáskrift
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
-            - name: Uppsetning sýniútgáfuumhverfis
+            - name: Setja upp sýniútgáfuumhverfi
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
-            - name: Samanburður á eiginleikum uppsetningar í skýi og á staðnum
+            - name: Samanburður á skýi og eiginleikum á staðnum
               href: get-started/cloud-prem-comparison.md
-            - name: Veldu innleiðingarvalkost
+            - name: Uppsetningarvalkostir
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Uppsetning í skýinu
+                - name: Uppsetning skýs
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu í skýi
                   href: get-started/system-requirements.md
-                - name: Notkun á staðnum
+                - name: Uppsetning á staðnum
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu á staðnum
                   href: get-started/system-requirements-on-prem.md
-                - name: Vöruhús fyrir uppsetningu á staðnum
+                - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Staðlaðar og markútgáfur verkvangs
+            - name: Staðlaðar útgáfur og markútgáfur verkvangs
               href: get-started/public-preview-releases.md
             - name: Kaupa Finance and Operations
               items:
@@ -44,11 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations 8.0 (apríl 2018)
+            - name: 'Finance and Operations, útgáfa 8.0 (apríl 2018)'
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (mars 2018)
               href: get-started/whats-new-platform-update-15.md
-            - name: Uppsetning útgáfu 7.2. á staðnum með platform update 12 (mars 2018)
+            - name: 'Uppsetning Finance and Operations, Enterprise Edition 7.2 á staðnum með Platform update 12 (mars 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise Edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
@@ -82,11 +82,11 @@
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
             - name: Platform update 1 (maí 2016)
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
-            - name: Dynamics AX 7.0 (febrúar 2016)
+            - name: AX 7.0 (febrúar 2016)
               href: get-started/whats-new-changed-7-0-february-2016.md
-            - name: Uppfærðar verkefnaleiðbeiningar
+            - name: Uppfærðar verkleiðbeiningar
               items:
-                - name: Verkefnaleiðbeiningar fyrir desember 2017
+                - name: Verkleiðbeiningar fyrir desember 2017
                   href: get-started/new-task-guides-dec-2017.md
                 - name: Verkefnaleiðbeiningar fyrir nóvember 2016
                   href: get-started/new-task-guides-november-2016.md
@@ -100,7 +100,7 @@
           items:
             - name: Aðgengiseiginleikar
               href: get-started/accessibility-features.md
-            - name: Algengar spurningar um notandaviðmót biðlara
+            - name: Algengar spurningar biðlara
               href: get-started/client-faq.md
             - name: Aðgerðaleit
               href: get-started/action-search.md
@@ -108,33 +108,33 @@
               href: get-started/advanced-filtering-query-options.md
             - name: Skilgreining og síun vinnusvæða
               href: get-started/configure-filter-workspaces.md
-            - name: Síður birtar hlið við hlið með tákni fyrir opnun í nýjum glugga
+            - name: Birta síður hlið við hlið með því að nota „Opna í nýjum glugga“-eiginleikann
               href: get-started/display-pages-side-by-side.md
             - name: Flýtilyklar
               href: get-started/shortcut-keys.md
-            - name: Breyta borða eða kennimerki
+            - name: Breyta borðum eða kennimerkismyndum fyrir lögaðila
               href: get-started/tasks/change-banner-or-logo.md
             - name: Flettingaleit
               href: get-started/navigation-search.md
             - name: Sérsníða notandaupplifun
               href: get-started/personalize-user-experience.md
-            - name: Sérstilltir reitir
+            - name: Stofna og vinna með sérstillt svæði
               href: get-started/user-defined-fields.md
-            - name: Innfella PowerApps
+            - name: Innfella PowerApps-forrit
               href: get-started/embed-power-apps.md
-            - name: Nota leit til að finna upplýsingar
+            - name: Leita að upplýsingum með uppflettingum
               href: get-started/use-lookups-to-find-information.md
-            - name: Breyta dagsetningu lotunnar
+            - name: Breyta dagsetningu lotu
               href: organization-administration/tasks/change-date-session.md
             - name: Stilla æskilegt tímabelti notanda
               href: organization-administration/tasks/set-users-preferred-time-zone.md
             - name: Kynning á Lifecycle Services
               href: ../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json
-        - name: Lesið og keyrið fylgiskjölin
+        - name: Lesa og keyra fylgiskjölin
           items:
-            - name: Hjálparyfirlit
+            - name: Hjálparkerfi
               href: get-started/help-overview.md
-            - name: Tengihjálp
+            - name: Tenging við hjálparkerfið
               href: get-started/help-connect.md
             - name: Skoðun og útflutningur svæðalýsinga
               href: get-started/view-export-field-descriptions.md
@@ -142,36 +142,36 @@
               items:
                 - name: Verkskráning
                   href: ../dev-itpro/user-interface/task-recorder.md?toc=/fin-and-ops/toc.json
-                - name: Skráning eða þjálfun búin til
+                - name: Fylgiskjöl eða þjálfun búin til
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Orðalisti
               href: get-started/glossary.md
-        - name: Myndbönd um Dynamics 365 for Finance and Operations
+        - name: Myndskeið fyrir Finance and Operations
           href: get-started/videos.md
-    - name: Skildu innleiðingarferlið
+    - name: Stjórnun innleiðingarferlis
       href: imp-lifecycle/implementation-lifecycle.md
       items:
         - name: Skipulag Finance and Operations
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack for Dynamics 365
+        - name: Microsoft FastTrack fyrir Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
-        - name: Ráðstafanir vegna nýrra starfsmanna
+        - name: Taka inn innleiðingarverk
           href: imp-lifecycle/onboard.md
-        - name: Undirbúningur fyrir keyrslu
+        - name: Undirbúa keyrslu
           href: imp-lifecycle/prepare-go-live.md
         - name: Algengar spurningar um keyrslu
           href: imp-lifecycle/go-live-faq.md
         - name: Senda þjónustubeiðni
           href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
-        - name: 'Áskriftir, LCS-verk og algengar spurningar um Azure Active Directory leigjendur'
+        - name: 'Áskriftir, LCS-verk og algengar spurningar um Azure AD-leigjendur'
           href: get-started/subscription-overview.md
-        - name: Færa umhverfi milli gagnamiðstöðvar
+        - name: Færa umhverfi milli gagnamiðstöðva
           href: get-started/move-environments-data-center.md
         - name: Færa leyfi á milli samningsgerða
           href: get-started/move-licenses-between-agreement-types.md
-        - name: Færa LCS-innleiðingarverk í annan Azure Active Directory leigjanda
+        - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
           href: get-started/move-lcs-implementation-project-tenant.md
-        - name: Innleiða mörg LCS-verk og vinnsluumhverfi á sama Azure Active Directory leigjanda
+        - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Reglufylgni
       items:
@@ -347,8 +347,23 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Notkun ytri vefþjónustu
-              href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+                - name: Skilgreina samþættingu Project Service Automation
+                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                  items:
+                    - name: Færibreytur samþættingar Project Service Automation
+                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Samstilla verksamninga og verk
+                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Samstilla verk verkefnis
+                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                    - name: Samstilla flokka verkkostnaðar
+                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Samstilla verkáætlun og verkspár
+                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Samstilla rauntölur verks og færslubók verksamþættingar
+                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                - name: Notkun ytri vefþjónustu
+                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Gagnastjórnun
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -357,10 +372,10 @@
           items:
             - name: Skilgreiningargagnaverk
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
-            - name: Afritun skilgreiningargagna á milli fyrirtækja
+            - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Skilgreiningargagnapakkar (aðeins útgáfa í júlí 2017)
+                - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Sniðmát skilgreiningargagna
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
@@ -381,9 +396,9 @@
           items:
             - name: Stofna nýjar gagnaeiningar
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
-            - name: Eiginleikar gagnaeininga
+            - name: Eiginleikar gagnaeiningar
               href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/fin-and-ops/toc.json
-            - name: Stofna útreikning dálka og sýndarreita
+            - name: Stofna útreiknaða dálka og sýndarreiti
               href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/fin-and-ops/toc.json
             - name: Hegðun á milli fyrirtækja
               href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/fin-and-ops/toc.json
@@ -466,13 +481,15 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Skilgreina uppgjör
                   href: ../financials/cash-bank-management/configure-settlement.md
-                - name: Vinnusvæði greiðslna lánardrottna
+                - name: Vinnusvæði fyrir lánardrottnagreiðslur
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
+                - name: Tilgreina meðalgengi
+                  href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Skilgreina greiðsluþóknanir lánardrottna
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
                 - name: Skilgreina greiðsluskilmála lánardrottna
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-terms.md
-                - name: Stofnun greiðslna lánardrottins með greiðslutillögu
+                - name: Stofna lánardrottnagreiðslur með greiðslutillögu
                   href: ../financials/accounts-payable/create-vendor-payments-payment-proposal.md
                 - name: Bakfærsla greiðslu lánardrottins
                   href: ../financials/accounts-payable/reverse-vendor-payment.md
@@ -588,11 +605,11 @@
         - name: Fjárhagsáætlun
           href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: 'Yfirlit fjárhagsáætlunargerðar '
+            - name: Yfirlit fjárhagsáætlunargerðar
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Yfirlit fjárhagsáætlunarstýringar '
+            - name: Yfirlit fjárhagsáætlunarstýringar
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Yfirlit fjárhagsáætlunar  '
+            - name: 'Yfirlit fjárhagsáætlunar '
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Stöðuspá
               href: ../financials/budgeting/position-forecasting.md
@@ -622,7 +639,7 @@
             - name: Staðgreiðsluafslættir vegna ofgreiðslu
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Uppgjörsyfirlit
-              href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
+              href: ../financials/cash-bank-management/settlement-overview.md
             - name: Uppgjörsyfirlit fyrir miðstýrðar greiðslur
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Bankaábyrgðir
@@ -700,6 +717,8 @@
               href: ../financials/general-ledger/financial-dimensions.md
             - name: Lykilskipulög
               href: ../financials/general-ledger/Default-dimensions.md
+            - name: Bæta fjárhagsvíddum við vinnusvæði fjármálastjóra
+              href: ../financials/general-ledger/CFO-workspace.md
             - name: Stofna lykilskipulög
               href: ../financials/general-ledger/tasks/create-account-structures.md
             - name: Yfirlit fjárhagsáætlunar
@@ -830,6 +849,8 @@
                   href: ../financials/fixed-assets/fixed-asset-integration.md
             - name: Afskriftaraðferðir
               items:
+                - name: Afskriftarreglur
+                  href: ../financials/fixed-assets/Fixed-asset-depreciation-conventions.md
                 - name: 125 prósenta lækkandi afskrift
                   href: ../financials/fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: 150 prósenta lækkandi afskrift
@@ -886,7 +907,7 @@
                   href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
                 - name: Setja upp bónusafskriftir
                   href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Uppsetning afskriftabóka  '
+                - name: 'Uppsetning afskriftabóka '
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
                 - name: Setja upp og búa til afskriftarreglur
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
@@ -915,7 +936,7 @@
                   href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Bókunarskilgreiningar
                   href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Dæmi um bókunarskilgreiningar '
+                - name: Dæmi um bókunarskilgreiningar
                   href: ../financials/general-ledger/example-posting-definitions.md
                 - name: Fjárhagslykilstöður
                   href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -997,8 +1018,10 @@
                   href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
                 - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
                   href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Innflutningur gengis
+                - name: Flytja inn gengi gjaldmiðla
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Eitt fylgiskjal
+                  href: ../financials/general-ledger/one-voucher.md
             - name: Lokun tímabils
               items:
                 - name: Lokun fjárhags við lok tímabils
@@ -1141,21 +1164,21 @@
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
             - name: Fjárhagsskýrslur efnahagsreiknings
               href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Myndun fjárhagsskýrslu
+            - name: Búa til fjárhagsskýrslur
               href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
             - name: Fjárhagsskýrsla rekstrarreiknings
               href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Fjárhagsskýrslur prófjöfnuðar
+            - name: Fjárhagsskýrslur prófjafnaðar
               href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Skoðun fjárhagsskýrslna
+            - name: Skoða fjárhagsskýrslur
               href: ../financials/general-ledger/view-financial-reports.md
-            - name: Skýrsluhönnun
+            - name: Viðmót skýrsluhönnunar
               href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-            - name: Kjörstillingar notanda
+            - name: Kjörstillingar notanda í fjárhagsskýrsluhönnun
               href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Ítarlegir sniðsvalkostir
               href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Skipulag skýrsluhluta
+            - name: Skipuleggja skýrsluhluta í skýrsluhönnun
               href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Skýrsluskilgreiningar
               href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
@@ -1163,9 +1186,9 @@
               href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Dálkskilgreiningar
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-            - name: Breytingar á hólfum línuskilgreiningar
+            - name: Breyta hólfum línuskilgreiningar
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Endurstilling gagnaskemmu fyrir fjárhagsskýrslugerð eftir endurheimt gagnagrunns
+            - name: Endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Staðfærslu- og eftirlitseiginleikar
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
@@ -1223,6 +1246,7 @@
                 - name: Algengar spurningar um VSK-reikninga viðskiptavinar
                   href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: Indland
+              href: ../financials/localizations/india.md
               items:
                 - name: Eignir
                   href: ../financials/localizations/apac-ind-fixed-assets.md
@@ -1268,6 +1292,7 @@
                 - name: Algengar spurningar um skattþrep
                   href: ../financials/localizations/apac-ind-tax-thresholds.md
             - name: Japan
+              href: ../financials/localizations/japan.md
               items:
                 - name: Kaupa eign og nota fyrir niðurgreiðslu með opinberum styrk
                   href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -1426,6 +1451,7 @@
                 - name: Nota sundurhlutunarlista fyrir eignir
                   href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Malasía
+              href: ../financials/localizations/malaysia.md
               items:
                 - name: Mynda kreditfærslu viðskiptavinar fyrir verksölu
                   href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -1448,10 +1474,12 @@
                 - name: Setja upp VÞS-afléttingarákvæði
                   href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
             - name: Singapúr
+              href: ../financials/localizations/singapore.md
               items:
                 - name: Mynda GST-05 skýrslu
                   href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
             - name: Taíland
+              href: ../financials/localizations/thailand.md
               items:
                 - name: Skýrslur birgðaspjalds
                   href: ../financials/localizations/apac-tha-stock-card-reports.md
@@ -1619,7 +1647,7 @@
                   href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
                 - name: Afstemmingarskýrslur
                   href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Setja upp skýrslugerð vegna greiðslustöðu '
+                - name: Setja upp skýrslugerð vegna greiðslustöðu
                   href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Setja upp og vinna með PRODCOM
                   href: ../financials/localizations/emea-bel-prodcom-report.md
@@ -1693,7 +1721,7 @@
                       href: ../financials/localizations/emea-fra-public-sector-accounting.md
                     - name: Skuldbindingar
                       href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Umboðsgreiðslur
+                    - name: Mandats de paiement
                       href: ../financials/localizations/emea-fra-mandats-de-paiement.md
                     - name: Innkaup og aðföng
                       href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
@@ -1744,7 +1772,7 @@
               items:
                 - name: Viðbótarafskriftir kaupa
                   href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: 'Endurskoðunarskrá '
+                - name: Endurskoðunarskrá
                   href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                   items:
                     - name: Sérstilla skilgreiningu endurskoðunarskrár
@@ -1759,7 +1787,7 @@
                   href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Færslubókarlistaskýrsla
                   href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Setja upp rafræna skattskýrslu
+                - name: Uppsetning rafrænna skattskýrslna
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Ungverjaland
               href: ../financials/localizations/hungary.md
@@ -1925,7 +1953,7 @@
             - name: Bretland
               href: ../financials/localizations/united-kingdom.md
               items:
-                - name: 'Skema byggingariðnaðar '
+                - name: Skema byggingariðnaðar
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
                 - name: Stofna kreditfærslu á uppgjörsafslætti
                   href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -1937,12 +1965,15 @@
                   href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
                 - name: 'Seta upp vöruflokka, reglur og færibreytur bakfærðra gjalda'
                   href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: Setja upp VSK-flokka fyrir bakfærð gjöld
+                - name: Uppsetning VSK-flokka fyrir bakfærð gjöld
                   href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: Rómanska Ameríka
+        - name: Mið- og Suður-Ameríka
           items:
             - name: Brasilía
+              href: ../financials/localizations/brazil.md
               items:
+                - name: Umfang þýðinga
+                  href: ../financials/localizations/latam-bra-scope.md
                 - name: Skattabækur
                   href: ../financials/localizations/latam-bra-fiscal-books.md
                   items:
@@ -2032,7 +2063,7 @@
                       href: ../financials/localizations/latam-bra-tax-payments.md
                     - name: Skattur í sölutilboðum
                       href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Staðgreiðsluskattur '
+                    - name: Staðgreiðsluskattur
                       href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
                     - name: Staðgreiðsluskattar viðskiptavinagreiðslna
                       href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -2105,6 +2136,7 @@
                     - name: PIS- og COFINS-eignir
                       href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
             - name: Mexíkó
+              href: ../financials/localizations/mexico.md
               items:
                 - name: Umfang þýðinga
                   href: ../financials/localizations/latam-mex-scope.md
@@ -2120,7 +2152,7 @@
                   href: ../financials/localizations/latam-mex-diot-declaration-statement.md
                 - name: Rafrænir reikningar CFDI
                   href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: 'Rafrænir reikningar '
+                - name: Rafrænir reikningar
                   href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
                 - name: Rafræn bókhaldsyfirlit fjárhags
                   href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
@@ -2142,19 +2174,21 @@
                   href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
                 - name: Tilgreina RFC-skráningarkenni fyrir mexíkóska bankareikninga
                   href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: Skoða skráningarkenni
+                - name: Skráningarkenni lánardrottna
                   href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Austurlönd nær
+        - name: Sádi-Arabía
+          href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Virðisaukaskattur
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Zakat-skýrslugerð fyrir Sádi-Arabíu
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: Norður-Ameríka
+        - name: Bandaríkin
+          href: ../financials/localizations/united-states.md
           items:
-            - name: 1099-árslokaskýrsla fyrir Bandaríkin
+            - name: 1099-árslokaskýrslugerð fyrir Bandaríkin
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
-            - name: 1099 fyrir opinbera
+            - name: Eyðublað 1099 fyrir hið opinbera
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Mannauður
       href: hr/hr-landing-page.md
@@ -2173,15 +2207,15 @@
               href: ../talent/set-up-company-specific-hr-parameters.md
             - name: Algengar spurningar um aðgerðir starfsfólks
               href: ../talent/personnel-actions-faq.md
-            - name: Notkun verkflæðis við stjórnun starfsmannaupplýsinga
+            - name: Nota verkflæði til að haga starfsmannaupplýsingum
               href: ../talent/workflow-manage-employee-information.md
         - name: Ráðningar
           items:
-            - name: Stjórnun ráðningarferlis
+            - name: Stjórna ráðningarferlum
               href: hr/manage-recruiting-process.md
             - name: Fjöldaráðningarverk
               href: hr/mass-hire-projects.md
-        - name: Virkjun starfsmanna
+        - name: Virkja starfsmenn
           items:
             - name: Launafyrirkomulag
               href: ../talent/compensation-plans.md
@@ -2215,53 +2249,57 @@
               href: ../talent/design-questionnaires.md
             - name: Dreifing og útfylling spurningalista
               href: ../talent/distribute-questionnaires.md
-            - name: Mat á niðurstöðum spurningalista
+            - name: Meta niðurstöður spurningalista
               href: ../talent/evaluate-questionnaire-results.md
         - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
           items:
-            - name: Staðfesting starfs með I-9 eyðublaði
+            - name: Staðfesting I-9 eyðublaðs
               href: hr/localizations/noam-usa-form-i-9-verification.md
-            - name: Staðfesting á atvinnu með eyðublaði I-9
+            - name: Staðfesta gjaldgengi starfs með því að nota I-9 eyðublaðið
               href: hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: Setja upp I-9 skjalagerðir
+            - name: Uppsetning I-9 skjalagerða
               href: hr/localizations/tasks/set-up-i9-document-types.md
-            - name: ADA fylgt
+            - name: Eftirfylgni við lögin „Americans with Disabilities“
               href: hr/localizations/noam-usa-comply-ada.md
-            - name: Stjórna gististöðum starfsfólks
+            - name: Haga aðlögun starfsfólks
               href: hr/localizations/tasks/manage-worker-accommodations.md
         - name: Bandarísk laun
           href: hr/localizations/noam-usa-payroll.md
           items:
             - name: Uppsetning launaskrár
               items:
-                - name: Uppsetning launa fyrir starfskrafta
+                - name: Uppsetning launa fyrir starfsfólk
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Uppsetning vinnulota og vinnutímabila
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Uppsetning áætlana vegna uppsafnaðra fríðinda  '
+                - name: Uppsetning áætlana vegna uppsafnaðra fríðinda
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Uppsetning fríðinda
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
             - name: Tíðni og ferli
-            - name: Greiðsluferlis- og launatímabilsverk
+            - name: Uppsetning greiðsluferlis og launatímabils
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
-            - name: Útreikningur launa og endurtekin verk
+            - name: Uppsetning útreikningstíðni launa
               href: hr/localizations/noam-usa-payroll-calculation-frequencies-tasks.md
-            - name: Vinnuáætlunar- og frídagaverk
+            - name: Uppsetning vinnuáætlunar og frídaga
               href: hr/localizations/noam-usa-work-schedule-leave-tasks.md
             - name: Kóðar og skattar
               items:
-                - name: Tekjukóða- og tekjukóðaflokksverk
+                - name: Uppsetning tekjukóða og tekjukóðaflokka
                   href: hr/localizations/noam-usa-earning-code-group-tasks.md
-                - name: Skattaupplýsingaverk
+                - name: 'Uppsetning skatta, skattumdæma, skattkóða og skattflokka'
                   href: hr/localizations/noam-usa-tax-information-tasks.md
+                - name: 'Algengar spurningar um skattkóða, skattflokka og bókunarskilgreiningar'
+                  href: hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
+                - name: Slá inn upphafsstöður launa
+                  href: hr/localizations/noam-usa-enter-beginning-balances.md
             - name: 'Frádráttur frá launum, skattálagning og bónusgreiðslur'
               items:
                 - name: Uppsetning frádráttar frá launum og skattaálagningar
                   href: hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
-                - name: Skráning starfskrafta í frádrátt frá launum og skattaálagningu
+                - name: Skráning starfsfólks í frádrátt frá launum eða skattaálagningu
                   href: hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: 'Uppsetning bónusgreiðslna '
+                - name: Uppsetning bónusgreiðslna
                   href: hr/localizations/noam-usa-premium-earning-setup-tasks.md
                 - name: 'Algengar spurningar um frádrátt frá launum, skattálagningu og umsýslugjöld'
                   href: hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
@@ -2269,57 +2307,59 @@
               href: hr/localizations/noam-usa-track-time-for-fmla.md
             - name: Launavinnsluverk
               items:
-                - name: Myndun tekna
+                - name: Algengar spurningar um hagnað og hagnaðarmyndun
                   href: hr/localizations/noam-usa-earnings-generation-process.md
+                - name: Mynda hagnað fyrir starfsmenn
+                  href: hr/localizations/noam-usa-generate-earnings.md
                 - name: Greiðslur til starfskrafts
                   href: hr/localizations/noam-usa-issue-worker-payments.md
-                - name: Bókun launa og myndun reikninga lánardrottna
+                - name: Bóka launadreifingar og búa til reikninga fyrir lánardrottna
                   href: hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: Algengar spurningar um launayfirlit og myndun greiðslna
+                - name: Algengar spurningar um launayfirlit og greiðslumyndun
                   href: hr/localizations/noam-usa-pay-statements-payment-generation-process.md
-            - name: Greiðsluferli lokið
+            - name: Ljúka greiðsluferlinu
               items:
-                - name: Vinnsla fyrirliggjandi launagreiðslna
+                - name: Setja fyrirliggjandi launagreiðslur í vinnslu
                   href: hr/localizations/noam-usa-existing-payroll-payments.md
-                - name: Vinnsla fyrirliggjandi tekna
+                - name: Setja fyrirliggjandi tekjur í vinnslu
                   href: hr/localizations/noam-usa-existing-earnings.md
-                - name: Vinnsla launayfirlits
+                - name: Búa til og vinna með launayfirlit
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Viðhald og skýrslugerð
               items:
                 - name: Algengar spurningar um uppfærslur launagagna
                   href: hr/localizations/noam-usa-payroll-data-updates.md
-                - name: Myndun launaskýrslna
+                - name: Hefðbundnar launaskýrslur
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: Mannauðsverkefni
+        - name: Mannauðsverk
           items:
-            - name: Bæta við frammistöðubók og senda hrós
+            - name: Bæta upplýsingum við frammistöðubók og senda hrós
               href: hr/tasks/add-your-performance-journal-send-praise-someone.md
             - name: Greina niðurstöður úr spurningalista
               href: hr/tasks/analyze-questionnaire-results.md
             - name: Samþykkja innhólfsfærslur forrits
               href: hr/tasks/approve-application-inbox-records.md
-            - name: Feril fyrir hæfni til fríðinda
+            - name: Ferli tengt hæfni til fríðinda
               href: hr/tasks/benefit-eligibility-process.md
-            - name: Stofna dagatal og mynda vinnutíma
+            - name: Stofna dagatöl og mynda vinnutíma
               href: hr/tasks/create-calendar-working-times.md
-            - name: Búa til afmarkaða spurningu
+            - name: Búa til lokaðar spurningar
               href: hr/tasks/create-closed-ended-question.md
             - name: Búa til markmið
               href: hr/tasks/create-goal.md
-            - name: Stofna lánshluti
+            - name: Stofna lánaliði
               href: hr/tasks/create-loan-items.md
             - name: Stofna fjöldaráðningarverk
               href: hr/tasks/create-mass-hire-project.md
             - name: Stofna ný fríðindi
               href: hr/tasks/create-new-benefit.md
-            - name: Búa til opna spurningu
+            - name: Búa til opnar spurningar
               href: hr/tasks/create-open-ended-question.md
-            - name: Stofna frammistöðumat
+            - name: Stofna afkomuendurskoðun
               href: hr/tasks/create-performance-review.md
             - name: Skilgreina reglur og stefnur um hæfi til fríðinda
               href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Skilgreina launavinnslu og reikna niðurstöður
+            - name: Skilgreina launavinnslur og reikna niðurstöður
               href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Skilgreina nýjar deildir
               href: hr/tasks/define-new-departments.md
@@ -2327,7 +2367,7 @@
               href: hr/tasks/define-new-jobs.md
             - name: Leggja fram fríðindaáætlun starfsmanns
               href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Þróa og opna tilkynningar um lausa stöðu
+            - name: Þróa og opna tilkynningar um lausar stöður
               href: hr/tasks/develop-open-job-requisition.md
             - name: Þróa uppbyggingu launa og launafyrirkomulag
               href: hr/tasks/develop-salary-compensation-structure-plan.md
@@ -2335,11 +2375,11 @@
               href: hr/tasks/develop-succession-plan.md
             - name: Dreifa spurningalistum með áætlanagerð
               href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Skrá starfsmann í launafyrirkomulag fastra launa
+            - name: Skrá starfsmenn í launafyrirkomulag fastra launa
               href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Skrá starfsmann í launafyrirkomulag breytilegra launa
+            - name: Skrá starfsmenn í breytilegt launafyrirkomulag
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Skrá og fjarlægja fríðindi starfsmanna
+            - name: Skrá starfsfólk í fríðindi og taka fríðindi af starfsfólki
               href: hr/tasks/enroll-remove-benefits-workers.md
             - name: Færa inn umsækjanda og umsóknargögn handvirkt
               href: hr/tasks/enter-applicant-application-data-manually.md
@@ -2347,29 +2387,29 @@
               href: hr/tasks/enter-project-timesheets.md
             - name: Færa inn upplýsingar um starfsmann
               href: hr/tasks/enter-worker-information.md
-            - name: Ráða í gegnum ráðningarferli
+            - name: Ráða umsækjendur gegnum ráðningarferli
               href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Ráða fyrirliggjandi starfsmann í gegnum ráðningarferli
+            - name: Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli
               href: hr/tasks/hire-existing-employee-through-recruiting.md
             - name: Auðkenna og beita verkfærum við val á umsækjendum
               href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Lána starfmanni vörur
+            - name: Lána starfsfólki vörur
               href: hr/tasks/loan-item-worker.md
-            - name: Vinna með upplýsingar um meiðsl og veikindi
+            - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
               href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Búa til spurningu sem er háð svari við fyrri spurningu
+            - name: Gera spurningar háðar svarinu sem gefið var við spurningunni sem kom á undan
               href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: Vinna með lokadaga fríðinda
+            - name: Haga lokadögum fríðinda
               href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: Stjórna sniðmáti fyrir tölvupóst
+            - name: Haga sniðmáti fyrir tölvupóst
               href: hr/tasks/manage-email-templates.md
-            - name: Stjórna fjarvistarleyfi
+            - name: Haga fjarvistarleyfi
               href: hr/tasks/manage-leave-absence.md
-            - name: Breyta skýrslugjafarvenslum fyrir stöðu
+            - name: Breyta skýrslugjafarvenslum fyrir stöður
               href: hr/tasks/modify-reporting-relationships-position.md
-            - name: Setja upp launanet
+            - name: Uppsetning launanets
               href: hr/tasks/set-up-compensation-grids.md
-            - name: Setja upp upplýsingar um meiðsl og veikindi
+            - name: Uppsetning upplýsinga um meiðsl og veikindi
               href: hr/tasks/set-up-injury-illness-information.md
             - name: Setja upp stöður
               href: hr/tasks/set-up-positions.md
@@ -2396,7 +2436,7 @@
             - name: Greining kostnaðarbókhalds
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Öryggi fyrir greiningu kostnaðarbókhalds
+                - name: Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kostnaðarstjórnun
               href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2424,7 +2464,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Ráðningar
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'Afköst smásölurásar  '
+            - name: 'Afköst smásölurásar '
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: Söluárangur og arðsemi
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2438,168 +2478,170 @@
           items:
             - name: Yfirlit Document Reporting Services
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: Stilla SSRS fyrir uppsetningu á staðnum
+            - name: Skilgreina SSRS fyrir uppsetningu á staðnum
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Prentun
               href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentara
+                - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Uppfæra eftirlitsbúnað skjalasendingar
                   href: ../dev-itpro/analytics/upgrade-document-routing-agent.md
                 - name: Setja upp nettengda prentara á staðnum
                   href: ../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json
-                - name: 'Myndun, útgáfa og prentvalkostir fylgiskjala í staðbundinni uppsetningu'
+                - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                   href: ../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json
-                - name: Keyrsla eftirlitsbúnaðar skjalasendingar sem þjónusta Windows
+                - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
                   href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
-            - name: Hjálp til að hindra að skýrslur sem hafa verið lengi í gangi renni út
+            - name: Hjálpa til við að hindra að eldri skýrslur fari yfir tímamörk
               href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-            - name: Listi yfir skýrslur SQL Server Reporting Services
+            - name: Tiltækar skrár yfir SQL Server Reporting Services
               href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
-            - name: Skýrslulausn búin til
+            - name: Stofna skýrslulausnir
               href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
             - name: Uppsetning skýrsluhönnunarsniðmáta
               href: ../dev-itpro/analytics/install-modern-report-design-templates.md?toc=/fin-and-ops/toc.json
-            - name: Sérstilla App Suite skýrslur með viðbótum
+            - name: Sérstilla App Suite skýrslur með notkun viðbóta
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
-            - name: Útvíkka Application Suite gagnasöfn skýrslu
+            - name: Útvíkka gagnasöfn skýrslu í Application Suite
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: Valmyndaratriði í skýrslu stækkuð
+            - name: Stækka valmyndaratriði í skýrslu til að framsenda notandayfirlit
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
-            - name: Sérsniðin hönnun viðskiptaskjala
+            - name: Búa til sérstakt snið fyrir viðskiptaskjöl
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
         - name: Rafræn skýrslugerð
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
           items:
-            - name: Skilgreining rafræns skýrslugerðarramma
+            - name: Skilgreina rafrænan skýrslugerðarramma
               href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-            - name: Skilgreining búin til
+            - name: Stofna skilgreiningar
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Stofna veitanda skilgreiningar og merkja sem virkan fyrir rafræna skýrslugerð
+                - name: Stofna skilgreiningarveitendur og merkja þá sem virka
                   href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Hanna gagnalíkan fyrir sérstakt lén fyrir rafræna skýrslugerð
+                - name: Hanna gagnalíkön sértæk fyrir lén
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Skilgreina líkanavörpun og velja gagnaveitur fyrir rafræna skýrslugerð
+                - name: Skilgreina vörpun líkana og velja gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Varpa gagnalíkani á valdar gagnaveitur fyrir rafræna skýrslugerð
+                - name: Varpa gagnalíkönum á valdar gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Stofna skilgreiningu sniðs fyrir rafræna skýrslugerð
+                - name: Stofna skilgreiningar fyrir snið
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Varpa hlutum stofnaða sniðsins á einingar gagnalíkans fyrir rafræna skýrslugerð
+                - name: Varpa hlutum sniða á einingar gagnalíkans
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs í rafrænni skýrslugerð
+                - name: Búa til rafræn skjöl fyrir greiðslur með því að nota skilgreiningar sniðs
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði fyrir rafræna skýrslugerð
+                - name: Uppfæra snið með því að nota nýja grunnútgáfur
                   href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
             - name: Formúluhönnuður í rafrænni skýrslugerð
               href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Uppsetning rafrænnar skýrslugerðar með Power BI
+            - name: Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI
               href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
             - name: Viðtökustaðir
               href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Skilgreina áfangastaði fyrir rafræna skýrslugerð
+                - name: Skilgreina áfangastaði
                   href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Hanna skilgreiningu fyrir myndun skýrslna á Microsoft Word-sniði fyrir rafræna skýrslugerð
+            - name: Hanna skilgreiningar til að búa til skýrslur á Word-sniði
               href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Hanna skilgreiningu fyrir myndun skýrslna á OpenXML-sniði fyrir rafræna skýrslugerð
+            - name: Hanna skilgreiningar til að búa til skýrslur á OpenXML-sniði
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Rafrænu skýrslugerðarsniði breytt með því að endurnýta Microsoft Excel-sniðmát
+            - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Microsoft Excel-sniðmát
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð
+            - name: Velja skilgreiningu gagnalíkans þegar snið er búið til
               href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Skilgreina hæði skilgreininga úr öðrum hlutum fyrir rafræna skýrslugerð
+            - name: Skilgreina hversu mikil áhrif skilgreiningar hafa á aðra hluta
               href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Hanna gagnalíkan til að nota fjárhagsvíddir sem gagnaveitu
+                - name: Hanna gagnalíkön til að nota fjárhagsvíddir sem gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitu
+                - name: Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Hanna skýrslu til að nota fjárhagsvíddir sem gagnaveitu
+                - name: Hanna skýrslur til að nota fjárhagsvíddir sem gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: Keyra skýrslu sem notar fjárhagsvíddir sem gagnaveitu
+                - name: Keyra skýrslur sem nota fjárhagsvíddir sem gagnaveitur
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Stofna snið fyrir talningu og samlagningu
+                - name: Stofna snið til að framkvæma talningu og samlagningu
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
                 - name: Skilgreina útreikninga fyrir talningu og samlagningu
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Nota útreikninga til að fá frálag úr talningu og samlagningu
+                - name: Nota útreikninga til að mynda frálagið fyrir talningu og samlagningu
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Keyra snið fyrir talningu og samlagningu
+                - name: Keyra snið til að framkvæma talningu og samlagningu
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Hanna snið til að nota svið sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum
+                - name: Hanna snið sem hægt er að stækka lárétt til að bæta við dálkum á gagnvirkan hátt
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Keyra snið sem notar svæði sem hægt er að stækka lárétt til að bæta sjálfkrafa við dálkum í Excel-skýrslum
+                - name: Keyra snið sem hægt er að stækka lárétt til að bæta við dálkum á gagnvirkan hátt
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags
+                - name: Undirbúa gagnalíkön til að nota skjalastjórnunarskrár í frálagi
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Víkka gagnalíkan til að nota skjalastjórnunarskrár fyrir snið frálags
+                - name: Stækka gagnalíkön til að nota skjalastjórnunarskrár í frálagi
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Búa til snið til að nota skjalastjórnunarskrár fyrir snið frálags
+                - name: Stofna snið til að nota skjalastjórnunarskrár í frálagi
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags
+                - name: Keyra snið til að nota skjalastjórnunarskrár í frálagi
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir snið frálags
+                - name: Breyta og keyra snið til að nota skjalastjórnunarskrár í frálagi
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Hanna skilgreiningar til að mynda skýrslur á Microsoft Office-sniði með innfelldum myndum
+                - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Fara yfir skilgreiningar til að búa til skýrslur á Microsoft Office-sniði með innfelldum myndum
+                - name: Endurskoða skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Mynda skýrslur á Microsoft Office-sniði með innfelldum myndum
+                - name: Búa til skýrslur á Office-sniði með innfelldum myndum
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri
+            - name: Búa til rafræn skjöl og uppfæra forritsgögn
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Flytja inn skilgreiningar til að búa til skjöl með forritsgögnum
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Hanna skilgreiningar til að búa til skjöl með forritsgögnum
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Breyta líkani og vörpun til að búa til skjöl með forritsgögnum
+                - name: Breyta líkönum og vörpunum til að búa til skjöl með forritsgögnum
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Breyta sniði til að búa til skjöl með forritsgögnum
+                - name: Breyta sniðum til að búa til skjöl með forritsgögnum
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: Mynda skjöl með forritsgögnum
+                - name: Búa til skjöl með forritsgögnum
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: Búa til skýrslur með því að bæta við efni sem hráu XML
+            - name: Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
+              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: Búa til skýrslur með því að setja inn efni í óunnu XML-formi
               href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
             - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
               href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
             - name: Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð
               href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Innfelling mynda og forma í viðskiptaskjöl sem mynduð er með rafrænu skýrslugerðaverkfæri
+            - name: Fella inn myndir og form í viðskiptaskjöl sem búin eru til
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Stjórnun líftíma skilgreiningar
+            - name: Haga líftíma skilgreiningar
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð
+                - name: Hlaða skilgreiningum upp í Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Flytja inn skilgreiningu úr Lifecycle Services fyrir rafræna skýrslugerð
+                - name: Flytja inn skilgreiningar úr Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Niðurhal grunnstillinga af Lifecycle Services
+                - name: Hlaða niður skilgreiningum úr Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Innflutningur skilgreininga rafrænnar skýrslugerðar
+                - name: Flytja inn skilgreiningar
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Stjórna skilgreiningum á líkanavörpun fyrir rafræna skýrslugerð
+            - name: Haga skilgreiningum á líkanavörpun
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Búa til nauðsynlegar skilgreiningar til að flytja inn gögn úr ytri skrá fyrir rafræna skýrslugerð
+                - name: Stofna skilgreiningar til að flytja inn gögn úr ytri skrám
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
                 - name: Skilgreina gagnainnflutning úr SharePoint
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Þátta móttekin skjöl í Microsoft Excel
+            - name: Þátta skjöl á innleið á Excel-sniði
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: Þátta móttekin skjöl til að uppfæra forritsgögn
+            - name: Þátta skjöl á innleið til að uppfæra forritsgögn
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: Þátta móttekin skjöl á CSV-sniði
+            - name: Þátta skjöl á innleið á CSV-sniði
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: Skipta mynduðum skrám út frá skráarstærð og efnismagni
+            - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Lengja virkni rafrænnar skýrslugerðar
+                - name: Lengja lista yfir virkni rafrænnar skýrslugerðar
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3
+                - name: Breytingar á API rafræns skýrslugerðarramma fyrir forritsuppfærslu 7.3
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
         - name: Innfelldar greiningarlausnir
           items:
@@ -2609,29 +2651,29 @@
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
         - name: Aðlögunarkostir með PowerBI.com
           items:
-            - name: Power BI-samþætting
+            - name: Eiginleikar og þjónusta tiltæk gegnum Power BI-samþættingu
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
-            - name: Power BI skýrslur festar við vinnusvæði
+            - name: Festa Power BI-skýrslur við vinnusvæði
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
-        - name: Verkfæri til að búa til og bæta við lausnir
+        - name: Verkfæri til að búa til lausnir og bæta við þær
           items:
             - name: 'Greining, uppsafnaðar mælingar og KPI-líkanagerð'
               href: ../dev-itpro/analytics/analytics.md?toc=/fin-and-ops/toc.json
             - name: Búa til greiningarskýrslur með Power BI Desktop
               href: ../dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/fin-and-ops/toc.json
-            - name: Líkanagerð og samantektargögn
+            - name: Gera líkan af uppsöfnuðum gögnum
               href: ../dev-itpro/analytics/model-aggregate-data.md?toc=/fin-and-ops/toc.json
             - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
               href: ../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/fin-and-ops/toc.json
             - name: Bæta greiningu við vinnusvæði með Power BI Embedded
               href: ../dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/fin-and-ops/toc.json
-            - name: Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded
+            - name: Hjálpa til við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded
               href: ../dev-itpro/analytics/secure-analytical-workspaces.md?toc=/fin-and-ops/toc.json
         - name: Stjórnunarverkfæri reynslumikilla notenda
           items:
             - name: Power BI-samþætting með einingaverslun
               href: ../dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/fin-and-ops/toc.json
-            - name: Viðhald einingaverslunar
+            - name: Leysa vandamál að loknu viðhaldi einingaverslunar
               href: ../dev-itpro/analytics/entity-store-maintenance.md
             - name: Skilgreina Power BI-samþættingu fyrir vinnusvæði
               href: ../dev-itpro/analytics/configure-power-bi-integration.md?toc=/fin-and-ops/toc.json
@@ -2803,10 +2845,10 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Breyta eftirspurnarspá handvirkt
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Fartækjaforrit
+    - name: Dynamics 365 for Unified Operations (fartækjaforrit)
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Fartækjavinnusvæði
+        - name: Tiltæk fartækjavinnusvæði
           href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
           items:
             - name: Skráasafn fyrirtækisins
@@ -2829,16 +2871,16 @@
               href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
             - name: Samstarf lánardrottna
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
-        - name: Fartækjavinnusvæði birt
+        - name: Birta fartækjavinnusvæði
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office-samþætting
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
         - name: Kennsla í Office-samþættingu
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
-        - name: Notkun Excel-innbótarinnar
+        - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json
-        - name: Opnun í Excel stofnuð
+        - name: Búa til „Opna í Excel“-upplifanir
           href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/fin-and-ops/toc.json
         - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
           href: ../dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/fin-and-ops/toc.json
@@ -2985,90 +3027,92 @@
         - name: Númeraraðir
           href: organization-administration/number-sequence-overview.md
           items:
-            - name: Setja upp stakar númeraraðir
+            - name: Uppsetning númeraraða á einstaklingsgrunni
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
-            - name: Setja upp númeraraðir með leiðsögn
+            - name: Uppsetning númeraraða með leiðsögn
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Fyrirtæki og fyrirtækjastigveldi
           href: organization-administration/organizations-organizational-hierarchies.md
           items:
-            - name: Skipuleggja fyrirtækjastigveldi
+            - name: Skipuleggja stigveldi fyrirtækisins
               href: organization-administration/plan-organizational-hierarchy.md
-            - name: Stofna fyrirtækjastigveldi
+            - name: Stofna stigveldi fyrirtækis/stofnunar
               href: organization-administration/tasks/create-organization-hierarchy.md
             - name: Stofna lögaðila
               href: organization-administration/tasks/create-legal-entity.md
-            - name: Stofna rekstrareiningu
+            - name: Stofna rekstrareiningar
               href: organization-administration/tasks/create-operating-unit.md
         - name: Altæk aðsetursbók
           href: organization-administration/overview-global-address-book.md
           items:
-            - name: Skipuleggja hvernig á að skilgreina altæku aðsetursbókina
+            - name: Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Skilgreina altæku aðsetursbókina
               href: organization-administration/tasks/configure-global-address-book.md
             - name: Algengar spurningar um aðsetursbækur
               href: organization-administration/qa-address-books.md
-        - name: Verkflæði
+            - name: Skilgreina aðsetursbók
+              href: organization-administration/tasks/address-books.md
+        - name: Verkflæðiskerfi
           href: organization-administration/overview-workflow-system.md
           items:
-            - name: Uppbygging verkflæðiskerfis
+            - name: Kerfisskipulag verkflæðis
               href: organization-administration/workflow-system-architecture.md
             - name: Verkflæðiseiningar
               href: organization-administration/workflow-elements.md
             - name: Verkflæðisaðgerðir
               href: organization-administration/workflow-actions.md
-            - name: Verkflæði stofnað
+            - name: Stofna verkflæði
               href: organization-administration/create-workflow.md
               items:
-                - name: Skilgreining verkflæðiseiginleika
+                - name: Skilgreina verkflæðiseiginleika
                   href: organization-administration/configure-workflow-properties.md
-                - name: Skilgreining handvirks verks
+                - name: Skilgreina handvirk verk
                   href: organization-administration/configure-manual-task-workflow.md
-                - name: Skilgreining sjálfvirks verks
+                - name: Skilgreina sjálfvirk verk
                   href: organization-administration/configure-automated-task-workflow.md
-                - name: Skilgreining samþykktarferlis
+                - name: Skilgreina samþykktarferli
                   href: organization-administration/configure-approval-process-workflow.md
-                - name: Skilgreining samþykktarskrefs
+                - name: Skilgreina samþykktarskref
                   href: organization-administration/configure-approval-step-workflow.md
-                - name: Skilgreining handvirkrar ákvörðunar
+                - name: Skilgreina handvirkar ákvarðanir
                   href: organization-administration/configure-manual-decision-workflow.md
-                - name: Skilgreining skilyrtrar ákvörðunar
+                - name: Skilgreina skilyrtar ákvarðanir
                   href: organization-administration/configure-conditional-decision-workflow.md
-                - name: Skilgreining hliðstæðs verkþáttar
+                - name: Skilgreina hliðstæða verkþætti
                   href: organization-administration/configure-parallel-activity-workflow.md
-                - name: Skilgreining hliðstæðrar greinar
+                - name: Skilgreina hliðstæð útibú
                   href: organization-administration/configure-parallel-branch-workflow.md
-                - name: Skilgreining verkflæðis línuatriðis
+                - name: Skilgreina verkflæði línuatriða
                   href: organization-administration/configure-line-item-workflow.md
-            - name: Skilgreining runuvinnslu skilaboðaferlis
+            - name: Skilgreina runuvinnslu skilaboðaferlis fyrir verkflæði sem mikilvægt
               href: organization-administration/workflow-batch-job-critical.md
             - name: Úthluta vinnuliðum í verkflæði
               href: organization-administration/tasks/delegate-work-items-workflow.md
             - name: Skoða verkflæðissögu
               href: organization-administration/tasks/view-workflow-history.md
-            - name: Gera notendum kleift að fá tölvupóstskilaboð sem tengjast verkflæði
+            - name: Skilgreina kerfið til að senda tölvupósta tengda verkflæði til notenda
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
             - name: Skýrsla um verkflæðisgerðir
               href: organization-administration/workflow-types-report.md
         - name: Viðvaranir
           href: get-started/alerts-overview.md
           items:
-            - name: Stofna viðvaranir
+            - name: Stofna viðvörunarreglur
               href: get-started/create-alerts.md
-            - name: Runuvinnsla fyrir viðvaranir
+            - name: Runuvinnsla viðvarana
               href: get-started/alerts-managing.md
         - name: Rafrænar undirskriftir
           href: organization-administration/electronic-signature-overview.md
           items:
-            - name: Setja upp rafrænar undirskriftir
+            - name: Uppsetning rafrænna undirskrifta
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Málastjórnun
           href: organization-administration/cases.md
           items:
-            - name: 'Skilgreining öryggis, vinnsla og flokka mála'
+            - name: 'Skipuleggja öryggi, vinnslu og flokkun mála'
               href: organization-administration/plan-case-management.md
-        - name: Færslusniðmát
+        - name: Skrá sniðmát
           href: organization-administration/record-templates.md
           items:
             - name: Stofna færslusniðmát
@@ -3792,7 +3836,7 @@
                       href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
                     - name: Sjá þjónustupantanir sem ekki hafa verið sendar
                       href: ../supply-chain/service-management/view-undispatched-service-orders.md
-                    - name: 'Breyta þjónustuuppskrift  '
+                    - name: 'Breyta þjónustuuppskrift '
                       href: ../supply-chain/service-management/modify-service-bom.md
                 - name: Veita þjónustu
                   items:
@@ -3893,7 +3937,7 @@
         - name: Vinnureglur vöruhúss
           href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
-            - name: 'Setja upp vinnureglur vöruhúss  '
+            - name: 'Setja upp vinnureglur vöruhúss '
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
               href: ../supply-chain/warehousing/move-inventory-associated-work.md
@@ -3935,11 +3979,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: Regluleg talning
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'Skilgreina reglulega talningu  '
+            - name: 'Skilgreina reglulega talningu '
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: Hlutastaðsetning reglulegrar talningar
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'Skilgreina hlutastaðsetning reglulegrar talningar  '
+            - name: 'Skilgreina hlutastaðsetning reglulegrar talningar '
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017-update.md
             - name: Birgðabók
               href: ../supply-chain/inventory/inventory-journals.md
@@ -3958,7 +4002,7 @@
               href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
             - name: Setja upp lágmark og hámark fyrir áfyllingarferli
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-        - name: 'Setja upp og skilgreina vöruhúsaforrit '
+        - name: Setja upp og skilgreina vöruhúsaforrit
           href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
             - name: Skilgreining svæðaheita í vöruhúsaforriti

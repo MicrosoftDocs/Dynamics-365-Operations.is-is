@@ -1,31 +1,35 @@
-- name: Dynamics 365 for Talent
+- name: Velkomin(n) í Dynamics 365 for Talent
   href: index.md
   items:
     - name: Hafist handa
       href: talent-get-started.md
       items:
+        - name: Nýjungar eða breytingar
+          items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (júlí 2018)
+              href: whats-new-talent-july2018.md
         - name: Kerfiskröfur og uppfærsluregla
           href: talent-versions-update-policy.md
-        - name: Úthluta Microsoft Dynamics 365 for Talent
+        - name: Úthluta Talent
           href: provisioning-talent.md
         - name: Fjarlægja Talent-umhverfi
           href: remove-talent-environment.md
-        - name: Úthluta Microsoft Dynamics 365 for Talent Modular Apps
+        - name: Úthlutun Talent MOD-forrita
           href: modular-app-tech-faq.md
-        - name: Stækka virkni Talent
+        - name: Auka virkni Talent
           href: extend-talent-functionality.md
-        - name: Fá aðgang að forskoðunaraðgerðum í Dynamics 365 for Talent
+        - name: Fá aðgang að eiginleikum í forútgáfu
           href: access-preview-feature.md
-        - name: Skilgreining Talent til að styðja samþættingu launaskrár
+        - name: Skilgreina launasamþættingu milli Talent og Dayforce
           href: configure-payroll-integration.md
-    - name: Þróun mannauðsáætlunar
+    - name: 'Skipuleggja vinnuafl með notkun deilda, starfa og staða'
       href: departments-jobs-positions.md
       items:
-        - name: Uppsetning starfsþátta
+        - name: Setja upp íhluti verks
           href: create-job.md
-        - name: Stofnun deildar og tenging hennar við deildastigveldið
+        - name: Stofna deildir og hafa þær með í stigveldi deilda
           href: create-department-add-department-hierarchy.md
-        - name: Uppsetning mannauðsfæribreyta þvert á lögaðila
+        - name: Setja upp mannauðsfæribreytur þvert á lögaðila
           href: set-up-hr-parameters-across-legal-entities.md
         - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
           href: set-up-company-specific-hr-parameters.md
@@ -33,17 +37,17 @@
           href: personnel-actions-faq.md
         - name: Gera viðskiptaferli formleg
           href: formalize-business-processes.md
-        - name: Notkun verkflæðis við stjórnun starfsmannaupplýsinga
+        - name: Nota verkflæði til að haga starfsmannaupplýsingum
           href: workflow-manage-employee-information.md
-        - name: Yfirlit yfir leyfi og fjarvistir
+        - name: Umsjón leyfa og fjarvista
           href: leave-absence-overview.md
     - name: Mönnun fyrirtækis
       items:
-        - name: Yfirlitssíða Attract
+        - name: Laða að eiginleika og færni
           href: attract-overview.md
-        - name: Yfirlitssíða Onboard
+        - name: Búa til aðlaðandi innleiðingarupplifun
           href: create-onboarding-experience.md
-    - name: Virkjun starfsmanna
+    - name: Virkja starfsmenn
       items:
         - name: Launafyrirkomulag
           href: compensation-plans.md
@@ -55,33 +59,150 @@
           href: process-compensation.md
     - name: Þróa og þjálfa starfsmenn
       items:
-        - name: Árangursstjórnunaryfirlit
+        - name: Árangursstjórnun
           href: performance-management-overview.md
-        - name: Samþætting hæfni starfsfólks við rekstrarþarfir
+        - name: Samþætting hæfni starfsfólks og rekstrarþarfa
           href: skills.md
         - name: Uppsetning námskeiða
           href: courses.md
-    - name: Stofnun og viðhald fríðinda
+    - name: Skilgreina og stjórna fríðindaáætlun
       href: manage-benefit-program.md
     - name: Stefnur um hæfni til fríðinda
       href: benefit-eligibility-policies.md
       items:
         - name: Stjórnun hluta sem starfskraftar fá lánaða
           href: loan-items.md
-    - name: Upplýsingasöfnun með notkun spurningalista
+    - name: Safna upplýsingum með notkun spurningalista
       href: questionnaires.md
       items:
-        - name: Hönnun spurningalista
+        - name: Hanna spurningarlista
           href: design-questionnaires.md
-        - name: Dreifing og útfylling spurningalista
+        - name: Dreifa spurningalistum á ákveðnum tímum
           href: distribute-questionnaires.md
-        - name: Mat á niðurstöðum spurningalista
+        - name: Yfirferð og mat á niðurstöðum spurningalista
           href: evaluate-questionnaire-results.md
     - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
       items:
-        - name: Svara beiðni um persónuleg gögn með Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: Svara umsókn um notkun persónugagna með Talent
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Staðfesting starfs með I-9 eyðublaði
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: ADA fylgt
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Greind
+      items:
+        - name: Innfellt Power BI í vinnusvæði
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Fartækjaforrit
+      items:
+        - name: Fartækjavinnusvæði
+          items:
+            - name: Skráasafn fyrirtækisins
+              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Hópurinn minn
+              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Birta fartækjavinnusvæði
+          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Office-samþætting
+      items:
+        - name: Kennsla í Office-samþættingu
+          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Nota Excel-innbótina
+          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Búa til „Opna í Excel“-upplifanir
+          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Bilanagreining Office-samþættingar
+          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Fyrirtækisstjórnun
+      items:
+        - name: Númeraraðir
+          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Uppsetning númeraraða á einstaklingsgrunni
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Setja upp númeraraðir með leiðsögn
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Fyrirtæki og fyrirtækjastigveldi
+          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Skipuleggja fyrirtækjastigveldi
+              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna fyrirtækjastigveldi
+              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna lögaðila
+              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna rekstrareiningu
+              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Altæk aðsetursbók
+          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Skipuleggja hvernig á að skilgreina altæku aðsetursbókina
+              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skilgreina altæku aðsetursbókina
+              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Algengar spurningar um aðsetursbækur
+              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Verkflæði
+          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Verkflæðiseiningar
+              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Verkflæðisaðgerðir
+              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Verkflæði stofnað
+              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+              items:
+                - name: Skilgreining verkflæðiseiginleika
+                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining handvirks verks
+                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining sjálfvirks verks
+                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining samþykktarferlis
+                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining samþykktarskrefs
+                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining handvirkrar ákvörðunar
+                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining skilyrtrar ákvörðunar
+                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining hliðstæðs verkþáttar
+                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining hliðstæðrar greinar
+                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreining verkflæðis línuatriðis
+                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skilgreining runuvinnslu skilaboðaferlis
+              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Úthluta vinnuliðum í verkflæði
+              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skoða verkflæðissögu
+              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Gera notendum kleift að fá tölvupóstskilaboð sem tengjast verkflæði
+              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Viðvaranir
+          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Stofna viðvaranir
+              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Runuvinnsla fyrir viðvaranir
+              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Málastjórnun
+          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: 'Skilgreining öryggis, vinnslu og flokkunar'
+              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Stilla skjalastjórnun
+          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Skilgreining og sending tölvupósts
+          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Dagsetningar-/tímagögn og tímabelti
+          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Mannauðsverk
+      items:
+        - name: Bæta við frammistöðubók og senda hrós
+          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Búa til markmið
+          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Stofna frammistöðumat
+          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
