@@ -1,5 +1,5 @@
 ---
-title: Innfella PowerApps
+title: Innfelld PowerApps-forrit
 description: "Þetta efnisatriði lýsir því hvernig á að fella PowerApps inn í Finance and Operations biðlarann til að auka virkni vörunnar."
 author: jasongre
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 3b0bb61a52721f1e2eaf6df53e17b6cc162d8409
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="embed-powerapps"></a>Innfella PowerApps
+# <a name="embed-powerapps-apps"></a>Innfelld PowerApps-forrit
 
 [!include [banner](../includes/banner.md)]
 

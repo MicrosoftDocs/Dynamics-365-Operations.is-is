@@ -1,5 +1,5 @@
 ---
-title: "Áætlun fyrir uppsetningu altækrar aðsetursbókar og viðbótar aðsetursbækur"
+title: "Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur"
 description: "Þetta efnisatriði lýsir álitamálum og ákvörðunum sem þarf að taka í áætlunarferli áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur í Microsoft Dynamics 365 for Finance and Operations. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis."
 author: ShivamPandey-msft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b872603f987b72faacc0a987aa44c31e773636f8
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 69f1136e113fae5859d34a9a467da9c9cf4bf7dc
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Áætlun fyrir uppsetningu altækrar aðsetursbókar og viðbótar aðsetursbækur
+# <a name="plan-for-the-global-address-book-and-other-address-books"></a>Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
 
 [!include [banner](../includes/banner.md)]
 

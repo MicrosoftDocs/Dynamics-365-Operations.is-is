@@ -1,9 +1,9 @@
 ---
-title: "Uppsetning á staðnum"
+title: "Heimasíða uppsetningar á staðnum"
 description: "Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum"
 author: kfend
 manager: AnnBe
-ms.date: 03/15/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="on-premises-deployment-home-page"></a>Heimasíða uppsetningar á staðnum
+# <a name="on-premises-deployments-home-page"></a>Heimasíða uppsetningar á staðnum
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,6 +61,6 @@ ms.lasthandoff: 03/26/2018
 - [Úrræðaleit Dynamics 365 Dynamics for Finance and Operations á staðnum](troubleshoot-on-prem.md)
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Úreltir eiginleikar](../migration-upgrade/deprecated-features.md)
-- [Lífsferilsstefna hugbúnaðar og listi yfir útgáfur](../migration-upgrade/versions-update-policy.md)
+- [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
 

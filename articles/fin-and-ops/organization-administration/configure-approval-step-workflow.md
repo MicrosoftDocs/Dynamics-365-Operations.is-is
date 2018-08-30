@@ -1,5 +1,5 @@
 ---
-title: "Skilgreining samþykktarskrefs í verkflæði"
+title: "Grunnstilla samþykktarskref í verkflæði"
 description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Skilgreining samþykktarskrefs í verkflæði
+# <a name="configure-approval-steps-in-a-workflow"></a>Grunnstilla samþykktarskref í verkflæði
 
 [!include [banner](../includes/banner.md)]
 
@@ -112,7 +112,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu skrefinu skal úthlutað á: <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er samþykktarskrefið úthlutað til allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er skrefið aðeins úthlutað til síðasta notanda á sviðinu.</li>
-    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skrefið er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði</strong> til að skilgreina skilyrðin.</li>
+    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skrefið er ekki úthlutað á notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
     </ul></li>
     </ol></td>
     </tr>
@@ -219,7 +219,7 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
     <li>Á <strong>stigveldisvalkostir</strong> flipanum skal tilgreina hvaða notendur á sviðinu skjalið skal vera stigmagnað fyrir. <ul>
     <li><strong>Úthluta til allra sóttra notenda</strong> - þá er skjalið stigmagnað fyrir allra notenda á sviðinu.</li>
     <li><strong>Úthluta eingöngu til síðasta sótta notanda</strong> - þá er skjalið stigmagnað aðeins til síðasta notanda á sviðinu.</li>
-    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skjalið er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði</strong> til að skilgreina skilyrðin.</li>
+    <li><strong>Sleppa notendum með eftirfarandi skilyrði</strong> – skjalið er ekki stigmagnað fyrir neina notendur innan sviðsins sem uppfylla ákveðið skilyrði. Smellið á <strong>bæta við skilyrði </strong> til að skilgreina skilyrðin.</li>
     </ul></li>
     </ol></td>
     </tr>

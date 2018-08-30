@@ -1,5 +1,5 @@
 --- 
-title: "Varpa gagnalíkani á valdar gagnaveitur fyrir rafræna skýrslugerð (ER)"
+title: "Varpa gagnalíkani rafrænnar skýrslugerðar (ER) á valdar gagnaveitur"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar getur varpað gagnalíkani rafrænnar skýrslugerðar (ER) á valdar gagnaveitur Dynamics 365 for Finance and Operations, Enterprise edition (nóvember 2016)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Varpa gagnalíkani á valdar gagnaveitur fyrir rafræna skýrslugerð (ER)
+# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>Varpa gagnalíkani rafrænnar skýrslugerðar (ER) á valdar gagnaveitur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

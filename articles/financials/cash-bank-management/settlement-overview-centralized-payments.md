@@ -1,16 +1,16 @@
 ---
-title: "Yfirlit Uppgjörs fyrir miðstýrð greiðslur."
-description: "Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þetta eyðir þörfinni á því að færa inn sömu færsluna í mörgum lögaðilum og sparar tíma með því að einfalda greiðslutillagnaferlið, jöfnunarferlið, breytingar á opnum færslum, og breytingar á lokuðum færslum fyrir miðstýrðar greiðslur."
+title: "Uppgjörsyfirlit fyrir miðstýrðar greiðslur"
+description: "Í þessu efnisatriði er jöfnunum fyrir miðstýrðar greiðslur fyrir Microsoft Dynamics 365 for Finance and Operations lýst."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,14 +19,14 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="settlement-overview-for-centralized-payments"></a>Yfirlit Uppgjörs fyrir miðstýrð greiðslur.
+# <a name="settlement-overview-for-centralized-payments"></a>Uppgjörsyfirlit fyrir miðstýrðar greiðslur
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,8 +35,8 @@ Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum
 Þegar viðskiptavinar- eða lánardrottinsgreiðsla er færð inn í einu lögaðila og jöfnuð með reikningi sem var færður inn í öðru lögaðila er viðkomandi jöfnun og færslur sjálfkrafa gerðar fyrir hvort lögaðila. Jöfnunarfærsla er stofnuð fyrir hverja samsetningu reiknings og greiðslu í færslunni. Hver jöfnunarfærsla fær úthlutað nýju fylgisjalsnúmeri sem er byggð á númeraröð greiðsluskjals sem tilgreind er á í**Færibreytur viðskiptakrafna** síðu fyrir viðskiptavini og á **Færibreytur viðskiptaskulda** síðu fyrir lánardrottna. 
 
 Ef viðbótar jöfnunarfærslur eru búnar til fyrir greiðsluafslætti, endurmat á erlendum gjaldmiðli, auramismun, ofgreiðslu eða vangreiðslu fá þær úthlutað síðari dagsetningu greiðslu- eða reikningsfærslunnar. Ef jöfnun á sér stað eftir að greiðslan er bókuð nota jöfnunarfærslurnar jöfnunarbókunardagsetninguna sem er tilgreind í skjámyndinni **Jafna opnar færslur**.
-Bókunargerðir, færslugerðir og sjálfgefnar lýsingar
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Bókunargerðir, færslugerðir og sjálfgefnar lýsingar
 
 Færslur fyrir fylgiskjöl samstæðujöfnunar nota bókunargerð samstæðujöfnunar, og samstæðujöfnun viðskiptavinar og færslugerðina samstæðujöfnun lánardrottins. Setja verður upp upplýsingar um færslugerðina í síðunni **sjálfgefnar lýsingar**. 
 
@@ -50,8 +50,7 @@ Eftirfarandi færslugerðir eru tiltækar til notkunar í eins fyrirtækis jöfn
 
 Hægt er einnig að skilgreina sjálfgefnar lýsingar fyrir fylgiskjöl samstæðujöfnunar.
 
-<a name="currency-exchange-gains-or-losses"></a>Gengistap og -hagnaður
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Gengistap og -hagnaður
 
 Gengið sem er notað í viðskiptavina- eða lánardrottnafærslum er geymt með færslunni. Innleyst tap eða hagnaður af gengi gjaldmiðils er bókað annaðhvort á reikningslögaðilann eða greiðslulögaðilann, eftir því hvað er valið Í reitnum **Bóka hagnað eða tap af gjaldeyrisviðskiptum** á síðunni **Bókhald innan samstæðu** fyrir Lögaðili greiðslunnar. Eftirfarandi dæmi nota þessa gjaldmiðla
 -   Bókhaldsgjaldmiðill greiðslu: EUR
@@ -59,7 +58,7 @@ Gengið sem er notað í viðskiptavina- eða lánardrottnafærslum er geymt me�
 -   Gjaldmiðill greiðslufærslu: DKK
 -   Gjaldmiðill reikningsfærslu: CAD
 
-#### <a name="currency-calculations"></a>Gjaldmiðilsútreikningar
+### <a name="currency-calculations"></a>Gjaldmiðilsútreikningar
 
 Þegar reikningur er jafnaður í einu lögaðili með greiðslu sem er færð inn í öðru lögaðili er færslugjaldmiðill greiðslunnar (DKK) umreiknaður í þremur áföngum:
 1.  Umreiknað í bókhaldsgjaldmiðli greiðslunnar (EUR) samkvæmt gengi greiðslulögaðilans.
@@ -75,17 +74,15 @@ Umreikningsferlið notar gengi greiðsludagsetningarinnar. Ef greiðsluupphæði
 
 Greiðsluupphæðin sem er reiknuð er flutt í greiðslubókarlínuna þegar síðunni **jafna opnar færslur** er lokað.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Bókun hagnaðar eða taps vegna mismunandi bókhaldsgjaldmiðla
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Bókun hagnaðar eða taps vegna mismunandi bókhaldsgjaldmiðla
 
 Ef um gengishagnað eða -tap er að ræða er tap eða hagnaður bókað á lögaðili sem er tilgreint í svæðinu **Bóka gengishagnað eða -tap** síðunni **Bókhald innan samstæðu** fyrir greiðslulögaðila. Upphæðin er umreiknuð í bókhaldsgjaldmiðill lögaðila þar sem hagnaður eða tap er bókuð með því að nota gengið sem er skilgreint fyrir þann lögaðili.
 
-<a name="cash-discounts"></a>Staðgreiðsluafslættir
---------------
+## <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
 Staðgreiðsluafslættir sem verða til í jöfnunarferlinu milli fyrirtækja eru bókaðir annaðhvort á reikningslögaðila eða greiðslulögaðila eftir því hvað er valið í svæðinu **Bóka staðgreiðsluafslátt** í síðunni **Bókhald innan samstæðu** fyrir greiðslulögaðila. Samsvarandi jöfnunarfærsla er búin til í reikningslögaðila.
 
-<a name="overpayments-and-underpayments"></a>Ofgreiðslur og vangreiðslur
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Ofgreiðslur og vangreiðslur
 
 Ofgreiðslur, vangreiðslur og vikmörk auramismunar eru ákveðin samkvæmt greiðslulögaðilanum þegar um ofgreiðslu er að ræða og samkvæmt reikningslögaðilanum ef um vangreiðslu er að ræða. Bókunarlykillinn sem er notaður ræðst af stillingunni í **stýring staðgreiðsluafsláttar** reit í síðunni **Færibreytur viðskiptakrafna** fyrir viðskiptavini, og **stýring staðgreiðsluafsláttar** reit á **Færibreytur viðskiptaskulda** síðu fyrir lánardrottna.
 
@@ -112,9 +109,4 @@ Ef um lánardrottinnsgreiðslur er að ræða nota færslurnar í greiðslulöga
 
 ## <a name="withholding-tax"></a>Staðgreiðsluskattur
 Lánardrottnalykillinn sem reikningurinn tengist er notað til að ákvarða hvort á að reikna skuli staðgreiðsluskatt. Ef staðgreiðsluskattur á við hann reiknaður í lögaðila sem tengist reikningnum. Ef lögaðila nota aðra gjaldmiðla, er notað gengi frá lögaðila sem tengist reikningnum.
-
-
-
-
-
 

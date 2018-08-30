@@ -1,5 +1,5 @@
 ---
-title: Uppsetning vildarkerfis
+title: "Setja upp vildarkerfi viðskiptavina"
 description: "Þessi grein lýsir því hvernig setja á upp vildarkerfi. Vildarkerfi geta verið hjálpleg við að auka hollustu viðskiptavinar með því að verðlauna þá fyrir að kaupa vörur í þínum smásöluverslunum. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er."
 author: scott-tucker
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fbedaa33e7cfd717a074828e47d44473d466ba5a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Uppsetning vildarkerfis
+# <a name="set-up-customer-loyalty-programs"></a>Setja upp vildarkerfi viðskiptavina
 
 [!include [banner](includes/banner.md)]
 
@@ -70,7 +70,7 @@ Eftirfarandi tafla lýsir ferla sem þarf að keyra til að senda vildarskilgrei
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (vildarupplýsingar)           | Keyra þetta ferli til að senda vildargögn úr Dynamics 365 for Retail í smásöluverslun. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana.                                                                                                                                                                                               | Dreifingaráætlun                |
 | Vinna úr vildarkerfi              | Keyra þetta ferli til að tengja vildarkerfi með smásölurásir sem er tengdur við vildarkerfi. Hægt er að raða þetta ferli til að keyra sem runuvinnslu. Keyra þarf þetta ferli ef skilgreiningargögn vildarpunkta er breytt, eins og vildarkerfi, vildaráætlanir, eða vildarpunktar vildarkerfis.                                                                                               | Vinna úr vildarkerfi              |
-| Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Ferlið gildir aðeins ef **Safna án nettengingar** gátreiturinn er valinn á síðunni **samnýttar smásölufæribreytur ** þannig að umbun getur fengist án nettengingar.                                                                                                                                               | Vinna úr vildarfærslum utan nets |
+| Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Ferlið gildir aðeins ef **Safna án nettengingar** gátreiturinn er valinn á síðunni **samnýttar smásölufæribreytur** þannig að umbun getur fengist án nettengingar.                                                                                                                                               | Vinna úr vildarfærslum utan nets |
 | Uppfæra vildarkortalög            | Keyra þetta ferli til að meta viðskiptavinar tekjuaðgerðir gagnvart reglur vildarlags fyrir vildarkerfis og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum  vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög            |
 
 

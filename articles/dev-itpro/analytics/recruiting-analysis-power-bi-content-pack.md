@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Þetta efnisatriði lýsir efninu **Ráðningar** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Ráðning** Power BI efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**. 
+**Ráðning** Power BI efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Skýrslur og myndræn framsetning á vinnusvæðinu Umsjón með ráðningum
 **Umsjón með ráðningum** inniheldur **Greiningar**-flipa. Þessi flipi inniheldur innfellda Power BI-efnið fyrir mannaráðningar. Það samanstendur af yfirlitsflipa og fleiri flipum sem hafa að geyma upplýsingar. Eftirfarandi tafla lýsir skýrslunum á hverjum flipa.
@@ -66,6 +66,4 @@ Eftirfarandi tafla sýnir þær einingar sem Power BI efnið **Ráðningar** var
 | Afköst          | Mat, lýsing og matslíkan                            | Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp |
 | Ráðningarverk  | Lýsing á verki, staða verks og opnanir                | Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp |
 | Umsækjandi sem er sagt upp | Umsækendur sem var hafna, ástæða, frammistaða og starfslokadagur | Fyrirtæki, dagsetning starfsupphafs, dagsetning, landfræðileg staðsetning, afköst, lýðfræði, atvinna, miðlar, ráðningarverk, nafn umsækjanda |
-
-
 

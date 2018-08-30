@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: is-is
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
-:::row::: :::column::: - [Viðskiptaskuldir](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Viðskiptaskuldir](accounts-payable/accounts-payable.md) 
         - [Viðskiptakröfur](accounts-receivable/accounts-receivable.md)
         - [Fjárhagsáætlun](budgeting/budgeting-overview.md) 
         - [Reiðufjár- og bankastjórnun](cash-bank-management/cash-bank-management.md)
-        - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Kostnaðarstýring](expense-management/expense-management.md)
+        - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Útgjaldastýring](expense-management/expense-management.md)
         - [Fjárhagsskýrslugerð](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Eignir](fixed-assets/fixed-assets.md)
         - [Fjárhagur](general-ledger/general-ledger.md) 
         - [Verkefnastjórnun](project-management/overview-project-management-accounting.md)
-        - [Hið opinbera](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Hið opinbera](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

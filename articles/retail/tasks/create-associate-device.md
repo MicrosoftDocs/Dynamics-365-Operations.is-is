@@ -1,5 +1,5 @@
 --- 
-title: " Búa til og tengja tæki"
+title: "Búa til tæki og tengja þau við afurðir"
 description: "Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 7df1111a00fc8ad7f684075fb772b1e33916b687
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-and-associate-a-device"></a> Búa til og tengja tæki
+# <a name="create-devices-and-associate-them-with-registers"></a>Búa til tæki og tengja þau við afurðir
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

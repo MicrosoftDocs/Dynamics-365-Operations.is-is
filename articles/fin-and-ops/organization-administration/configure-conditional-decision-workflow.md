@@ -1,5 +1,5 @@
 ---
-title: "Skilgreina skilyrta ákvörðun í verkflæði"
+title: "Skilgreina skilyrtar ákvöarðanir í verkflæði"
 description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 597a6a254dcd623f9e7c59a0309eeedee1b5adee
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 64e8b2ed5c538cb982f9f03c1db24e38472be868
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Skilgreina skilyrta ákvörðun í verkflæði
+# <a name="configure-conditional-decisions-in-a-workflow"></a>Skilgreina skilyrtar ákvöarðanir í verkflæði
 
 [!include [banner](../includes/banner.md)]
 

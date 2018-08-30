@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="overview"></a>Yfirlit
 
-**Greining kostnaðarbókhalds** í Power BI er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýringar fyrirtækis. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni **Kostnaðarbókhald** og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar. 
+**Greining kostnaðarbókhalds** í Power BI er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýringar fyrirtækis. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni **Kostnaðarbókhald** og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
 
-Þar sem **Greining kostnaðarbókhalds** sýnir muninn milli raunverulegs og áætlaðs kostnaðar, geta stjórnendur verið upplýstir um jákvæða og neikvæða þróun innan sinnar rekstrareiningar. Stjórnendur geta kafað niður í stigveldi kostnaðareininga eða stakar kostnaðareiningar. Þannig geta stjórnendur öðlast mikið innsæi í hvernig kostnaðarfrávik eru tilkomin og gripið svo til viðeigandi ráðstafana. 
+Þar sem **Greining kostnaðarbókhalds** sýnir muninn milli raunverulegs og áætlaðs kostnaðar, geta stjórnendur verið upplýstir um jákvæða og neikvæða þróun innan sinnar rekstrareiningar. Stjórnendur geta kafað niður í stigveldi kostnaðareininga eða stakar kostnaðareiningar. Þannig geta stjórnendur öðlast mikið innsæi í hvernig kostnaðarfrávik eru tilkomin og gripið svo til viðeigandi ráðstafana.
 
-**Greining kostnaðarbókhalds** gerir kostnaðarbókurum kleift að greina hvernig kostnaður flæðir í gegnum kostnaðarhluti alls fyrirtækisins. 
+**Greining kostnaðarbókhalds** gerir kostnaðarbókurum kleift að greina hvernig kostnaður flæðir í gegnum kostnaðarhluti alls fyrirtækisins.
 
-Í frekari upplýsingar um Kostnaðarbókhald, sjá [Kostnaðarbókhald heimasíða](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Í frekari upplýsingar um Kostnaðarbókhald, sjá [Kostnaðarbókhald heimasíða](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Með því að skilgreina öryggi á aðgangsstigi í Kostnaðarbókhaldi og sameina það við öryggi á línustigi í Power BI, er hægt að veita öllum eigendum kostnaðarhluta aðgang í Power BI-efni **Kostnaðarbókhald greining**. Öll gögn í myndbirtingar verða síðan afmörkuð á grunni þess aðgangsstig sem er stjórnað í Kostnaðarbókhald. Frekari upplýsingar um öryggi á aðgangsstigi og öryggi línutstigi, sjá [Öryggi sett upp fyrir Power BI-efni kostnaðarbókhalds](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Hægt er að finna Power BI-efnið **Greining kostnaðarbókhalds** í safninu Samnýttar eignar í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+Hægt er að finna Power BI-efnið **Greining kostnaðarbókhalds** í safninu Samnýttar eignar í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safn
 |                                  | Raunverulegur kostnaður eftir heiti víddarstaks kostnaðarhlutar og heiti víddarstaks kostnaðareiningar                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **Greining kostnaðarbókhalds** í Power BI. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md) 
+Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **Greining kostnaðarbókhalds** í Power BI. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
 Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 
@@ -113,20 +113,18 @@ Eftirfarandi tafla sýnir hvernig lykiluppsafnaðar mælingar eru notaðar til a
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 
-
-|               Eining               |                                                Dæmi um eigindir                                                |
+| Eining                             | Dæmi um eigindir                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Fjárhagir kostnaðarbókhalds       |                                                Fjárhagur kostnaðarbókhalds                                                |
-|         Stýrieiningar kostnaðar         |                                                Heiti stýrieiningar kostnaðar                                                |
-|      Víddir kostnaðareiningar       |     Heiti víddar kostnaðareiningar, Heiti víddarstaks kostnaðareiningar, lýsing víddarstaka kostnaðareiningar.      |
-|       Víddir kostnaðarhluta       |       Heiti víddar kostnaðarhlutar, Heiti víddarstaks kostnaðarhlutar, lýsing víddarstaka kostnaðarhlutar.        |
-|       Tölfræðilegar víddir       |       Heiti tölfræðivíddar, Heiti tölfræðilegs víddarstaks, lýsing Tölfræðilegt víddarstaks        |
-| Víddarstigveldi kostnaðarhlutar  |  Heiti stigveldis víddar kostnaðarhlutar, stigveldisstig víddar kostnaðarhlutar, lýsing stigveldistrés víddar kostnaðarhlutar.   |
+| Fjárhagir kostnaðarbókhalds            | Fjárhagur kostnaðarbókhalds                                                                                               |
+| Stýrieiningar kostnaðar                 | Heiti stýrieiningar kostnaðar                                                                                               |
+| Víddir kostnaðareiningar            | Heiti víddar kostnaðareiningar, Heiti víddarstaks kostnaðareiningar, lýsing víddarstaka kostnaðareiningar.          |
+| Víddir kostnaðarhluta             | Heiti víddar kostnaðarhlutar, Heiti víddarstaks kostnaðarhlutar, lýsing víddarstaka kostnaðarhlutar.              |
+| Tölfræðilegar víddir             | Heiti tölfræðivíddar, Heiti tölfræðilegs víddarstaks, lýsing Tölfræðilegt víddarstaks              |
+| Víddarstigveldi kostnaðarhlutar  | Heiti stigveldis víddar kostnaðarhlutar, stigveldisstig víddar kostnaðarhlutar, lýsing stigveldistrés víddar kostnaðarhlutar.    |
 | Víddarstigveldi kostnaðareiningar | Heiti stigveldis víddar kostnaðareiningar, stigveldisstig víddar kostnaðareiningar, lýsing stigveldistrés víddar kostnaðareiningar. |
-| Tölfræðileg víddarstigveldi  |  Heiti stigveldis tölfræðivíddar, stigveldisstig tölfræðivíddar, lýsing stigveldistrés tölfræðivíddar.   |
-|        Færsluútgáfur        |                                                     Útgáfunafn                                                     |
-|          Fjárhagsdagatöl          |                                            Almanak, lýsing almanaks                                            |
-|            Fjárhagsár            |                                                    Almanaksár                                                     |
-|           Fjárhagstímabil           |                                                 Tímabil almanaksárs                                                 |
-
+| Tölfræðileg víddarstigveldi  | Heiti stigveldis tölfræðivíddar, stigveldisstig tölfræðivíddar, lýsing stigveldistrés tölfræðivíddar.    |
+| Færsluútgáfur               | Útgáfunafn                                                                                                         |
+| Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
+| Fjárhagsár                       | Almanaksár                                                                                                        |
+| Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
 

@@ -1,5 +1,5 @@
 ---
-title: "Notið uppflettingar til að finna upplýsingar"
+title: "Leita að upplýsingum með því að nota uppflettingar"
 description: "Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi í Microsoft Dynamics 365 for Finance and Operations. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessu efnisatriði muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu."
 author: jasongre
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Notið uppflettingar til að finna upplýsingar
+# <a name="find-information-by-using-lookups"></a>Leita að upplýsingum með því að nota uppflettingar
 
 [!include [banner](../includes/banner.md)]
 
@@ -74,7 +74,7 @@ Endurbætur á uppflettingu sem fjallað er um í fyrri tveimur köflum auka get
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Þess í stað þarf notandinn að hreinsa gildi uppflettistýringar, opna fellilista uppfletting og sía fellilista með dálkfyrirsögn hnitanets, eins og sýnt er hér að neðan. Notandi músar (eða snertiskjás) getur einfaldlega smellt (eða snert) hvaða dálkhaus sem er til að komast í valkosti síunar og röðunar fyrir þann dálk. Fyrir notanda lyklaborðs þarf notandinn einfaldlega að ýta á **Alt**+**Niður****ör** aftur til að færa áhersluna inn í fellilista, en eftir það getur notandinn farið í réttan dálk rétt og stutt síðan á **Ctrl**+**G** til að opna fellilista dálkfyrirsagar í hnitanetinu. 
+Þess í stað þarf notandinn að hreinsa gildi uppflettistýringar, opna fellilista uppfletting og sía fellilista með dálkfyrirsögn hnitanets, eins og sýnt er hér að neðan. Notandi músar (eða snertiskjás) getur einfaldlega smellt (eða snert) hvaða dálkhaus sem er til að komast í valkosti síunar og röðunar fyrir þann dálk. Fyrir notanda lyklaborðs þarf notandinn einfaldlega að ýta á **Alt**+**Niður** **ör** aftur til að færa áhersluna inn í fellilista, en eftir það getur notandinn farið í réttan dálk rétt og stutt síðan á **Ctrl**+**G** til að opna fellilista dálkfyrirsagar í hnitanetinu. 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 

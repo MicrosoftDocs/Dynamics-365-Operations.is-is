@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Hægt er að rekja niðurstöður fyrir snið rafrænnar skýrslugerðar sem býr til rafræn skjöl á útleið. Þegar kveikt er á rakningu myndunar (færibreyta notanda rafrænnar skýrslugerðar **Keyra í kembiham**) er búin til ný rakningarfærsla í aðgerðarskráningu rafrænnar skýrslugerðar í hvert sinn sem skýra rafrænnar skýrslugerðar er keyrð. Eftirfarandi upplýsingar eru geymdar í hverri rakningu sem er mynduð:
 
 - Allar viðvaranir sem voru myndaðar eftir villuleitarreglum
-- Allar villur sem voru myndaðar eftir villuleitarreglum 
+- Allar villur sem voru myndaðar eftir villuleitarreglum
 - Allir myndaðar skrár sem eru geymdar sem viðhengi rakningarfærslunnar
 
 Hægt er að geyma einstakar hugbúnaðarskrár grunnlínu fyrir hvaða snið rafrænnar skýrslugerðar sem er. Skrár eru álitnar grunnlínuskrár þegar þær lýsa væntanlegum niðurstöðum skýrslna sem eru keyrðar. Ef grunnlínuskrá er tiltæk fyrir snið rafrænnar skýrslugerðar sem var keyrt á meðan kveikt var á rakningarmyndun geymir rakningin, til viðbótar við upplýsingarnar sem minnst var á áður, niðurstöður á samanburðinum á milli myndaða rafræna skjalsins og grunnlínuskráarinnar. Í einum smelli er einnig hægt að fá myndaða rafræna skjalið og grunnlínuskrána í einni zip-skrá. Síðan er hægt að gera ítarlegan samanburð með því að nota ytri verkfæri eins og Windiff.

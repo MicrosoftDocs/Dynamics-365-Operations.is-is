@@ -1,24 +1,55 @@
 - name: Velkomin(n) í Dynamics 365 for Retail
   href: index.md
-- name: Hefjast handa
+- name: Hafist handa
   items:
     - name: Nýjungar eða breytingar
       href: get-started/whats-new.md
-    - name: Áður en þú kaupir Dynamics 365 for Retail
+    - name: Áður en þú kaupir Retail
       href: get-started/before-you-buy.md
-    - name: Skráðu þig fyrir prufuáskrift
+    - name: Skaltu skrá þig fyrir prufuáskrift
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Uppsetning sýniútgáfuumhverfis
+    - name: Setja upp sýniútgáfuumhverfi
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
-    - name: Virkjunarvalkostir
+    - name: Uppsetningarvalkostir
       href: dev-itpro/choose-deployment.md
+- name: Lærðu á innleiðingarferlið
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Ráðstafanir vegna nýrra starfsmanna
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Undirbúningur fyrir keyrslu
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Algengar spurningar um keyrslu
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Senda þjónustubeiðni
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Áskriftir, LCS-verk og algengar spurningar um Azure Active Directory leigjendur'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Færa umhverfi milli gagnamiðstöðvar
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Færa leyfi á milli samningsgerða
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Færa LCS-innleiðingarverk í annan Azure Active Directory leigjanda
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Innleiða mörg LCS-verk og vinnsluumhverfi á sama Azure Active Directory leigjanda
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Innleiða Finance and Operations Retail-verk
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Setja upp nýtt umhverfi, VSTS og útibú fyrir Retail-verk'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Uppfæra kóða og umhverfi fyrir Retail-verk
+      href: dev-itpro/updating-environments.md
+    - name: Vandamál tengd prófun og afköstum
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: Greiðslur
   items:
     - name: Greiðslumátar
       href: payment-methods.md
     - name: 'Uppsetning kreditkorts, heimild og úthlutun'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Skilgreina greiðslumáta fyrir sölustaði
+    - name: Skilgreina verðgildi reiðufjár fyrir POS
       href: cash-denominations.md
     - name: Algengar spurningar um greiðslur
       href: dev-itpro/payments-retail.md
@@ -26,7 +57,7 @@
   items:
     - name: Yfirlit yfir innkaupapöntun
       href: ../supply-chain/procurement/purchase-order-overview.md
-    - name: Stofnun innkaupapantana
+    - name: Stofna innkaupapantanir
       href: ../supply-chain/procurement/purchase-order-creation.md
     - name: Innhreyfingarskjal jafnað við innkaupapantanir
       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
@@ -36,21 +67,21 @@
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
 - name: Yfirlit
   items:
-    - name: Yfirlit yfir smásöluuppgjör
+    - name: Smásöluuppgjör
       href: retail-statements.md
     - name: 'Stofna, reikna og bóka yfirlit fyrir smásöluverslun'
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: Endurbætur á bókun uppgjörs
+    - name: Endurbætur á virkni yfirlitsbókunar
       href: statement-posting-EOD.md
-    - name: Skilgreiningar færibreyta fyrir smásöluyfirlit
+    - name: Skilgreina færibreytur í Retail sem hafa áhrif á smásöluyfirlit
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Skilgreiningar greiðslna fyrir smásöluyfirlit
+    - name: Skilgreina greiðslumátastillingar sem hafa áhrif á smásöluyfirlit
       href: tasks/payment-configurations-retail-statements.md
     - name: Skilgreina og keyra vinnslu til að reikna yfirlit
       href: tasks/run-job-calculate-statements.md
     - name: Skilgreina og keyra vinnslu til að bóka yfirlit
       href: tasks/run-job-post-statements.md
-    - name: Skilgreiningar verslunar fyrir smásöluyfirlit
+    - name: Skilgreina verslunarstillingar sem hafa áhrif á smásöluyfirlit
       href: tasks/store-configurations-retail-statements.md
 - name: Virðisaukaskattur
   items:
@@ -64,121 +95,121 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Símaver
   items:
-    - name: Yfirlit yfir símaver
+    - name: Söluvirkni símavers
       href: call-center-functionality.md
     - name: Vörulistar símavers
       href: call-center-catalogs.md
-    - name: Vörulisti símavers búinn til
+    - name: Búa til vörulista símavers
       href: create-call-center-catalogs.md
     - name: Skilgreina afhendingarmáta og gjöld
       href: configure-call-center-delivery.md
-    - name: Uppsetning svikaviðvarana
+    - name: Setja upp og vinna með svikaviðvaranir
       href: set-up-fraud-alerts.md
-    - name: Uppsetning símavers
+    - name: Setja upp símaversrásir
       href: set-up-order-processing-options.md
-    - name: Uppsetning samfelldniáætlunar fyrir símaver
+    - name: Setja upp samfelldniáætlanir fyrir símaver
       href: set-up-continuity-program.md
-    - name: Símaverspantanir í bið
+    - name: Skilgreina og vinna með símaverspantanir í bið
       href: work-with-order-holds.md
-    - name: Greiðsluvalkostir
+    - name: Greiðslumátar
       href: work-with-payments.md
 - name: Uppsetning og stjórnun rásar
   items:
-    - name: Frumstilling grunngagna í Retail-umhverfi
+    - name: Frumstilla grunngögn í nýju Retail-umhverfi
       href: enable-configure-retail-functionality.md
-    - name: Skilgreining smásölurása
+    - name: Skilgreina og vinna með smásölurásir
       href: define-maintain-retail-channels.md
-    - name: Umsjón með vöruúrvali
+    - name: Stjórn vöruúrvals
       href: assortments.md
-    - name: Netverslunaryfirlit
+    - name: Setja upp netverslanir
       href: online-stores.md
-    - name: Skilgreining og uppsetning Retail hardware station
+    - name: Skilgreina og setja upp Retail hardware station
       href: retail-hardware-station-configuration-installation.md
-    - name: Retail-tími og -viðvera
+    - name: Tími og viðvera í Retail
       href: retail-time-attendance.md
-- name: Modern Point of Sale (MPOS) og Cloud POS
+- name: Nútíma sölustaður (MPOS) og sölukerfi í skýinu
   items:
-    - name: Velja á milli Modern POS og Cloud POS
+    - name: Velja á milli MPOS og sölukerfis í skýinu
       href: MPOS-or-CPOS.md
-    - name: 'POS-aðgerðir, með og án nettengingar'
+    - name: Aðgerðir sölustaðar á neti og utan nets
       href: pos-operations.md
-    - name: Skjáútlit sýnigagna í MPOS/CPOS
+    - name: Skjáútlit sýnigagna í MPOS og sölukerfi í skýinu
       href: demo-data.md
-    - name: Yfirlit yfir afurðir og viðskiptavinaleit í sölustað
+    - name: Afurða- og viðskiptavinaleit í sölustaðnum
       href: POS-search-improvements.md
-    - name: Uppfletting birgða í sölustað
+    - name: Uppfletting birgða í sölustaðnum
       href: product-variants-POS.md
     - name: Jaðarvélbúnaður
       items:
-        - name: Yfirlit yfir Retail-jaðarbúnað
+        - name: Smásölujaðarbúnaður
           href: retail-peripherals-overview.md
         - name: Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft
           href: microsoft-tested-pos-hardware-peripherals.md
-        - name: Retail-jaðarbúnaðarhermir
+        - name: Smásölujaðarbúnaðarhermir
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: 'Skilgreining og viðhald rásabiðlara, afgreiðslukassa og vélbúnaðarstöðva'
+        - name: Tengja jaðarbúnað við sölustaðinn
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: Útlit afgreiðsluskjás
+    - name: Skjáútlit
       items:
-        - name: Skilgreining skjáútlits fyrir POS
+        - name: Skjáútlit fyrir sölustaðinn
           href: pos-screen-layouts.md
-        - name: Uppsetning útlitshönnunarbúnaðar Retail POS
+        - name: Setja upp útlitshönnunarbúnað Retail POS
           href: install-pos-layout-designer.md
         - name: Velja tilkynningastillingar
           href: Notifications-POS.md
         - name: POS-forrit og stillingar tungumáls notanda
           href: pos-application-user-language-settings.md
-        - name: Uppsetning mynda fyrir MPOS
+        - name: Setja upp og stjórna myndum fyrir MPOS
           href: set-up-manage-images-retail-mpos.md
-    - name: Yfirlit upplýsingakóða
+    - name: Upplýsingakóðar og upplýsingakóðaflokkar
       href: info-codes-retail.md
     - name: Endurbætur á sölustað fyrir raðaðar afurðir
       href: serialized-inventory.md
     - name: Afurðaráðleggingar
       items:
-        - name: Yfirlit yfir sérsniðnar afurðarráðleggingar
+        - name: Sérsniðnar afurðaráðleggingar
           href: personalized-product-recommendations.md
-        - name: Ráðleggingarstjórnun bætt við sölustaðartæki
+        - name: Bæta ráðleggingarstjórnun við sölustaðartæki
           href: add-recommendations-control-pos-screen.md
-    - name: Virkni sölustaðar án tengingar
+    - name: Virkni sölustaðar án nets
       href: pos-offline-functionality.md
     - name: Vakta- og peningaskúffustjórnun
       href: shift-drawer-management.md
     - name: Pantanir viðskiptavinar
       items:
-        - name: Yfirlit pantana viðskiptavina
+        - name: Pantanir viðskiptavinar í MPOS
           href: customer-orders-overview.md
         - name: Blandaðar pantanir viðskiptavinar
           href: hybrid-customer-orders.md
     - name: Sölutengiliðir
       items:
-        - name: Rakning sölulauna á sölustað með söluflokkum
+        - name: Rekja sölulaun á sölustað með söluflokkum
           href: pos-sales-groups-track-commissions.md
-    - name: Sending vöru frá annarri verslun
+    - name: Afgreiða pantanir frá annarri verslun
       href: charge-send.md
     - name: Virkjun tækis
       items:
-        - name: Grunnstilling og uppsetning MPOS
+        - name: 'Skilgreina, setja upp og virkja MPOS'
           href: retail-modern-pos-device-activation.md
-        - name: Uppsetning ítarlegrar innskráningar fyrir Cloud POS og MPOS
+        - name: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
           href: extended-logon.md
-        - name: Stjórnun Retail-lykla og -tækja frá höfuðstöðvum
+        - name: Stjórna Retail-virknilyklum og sannprófa tæki
           href: set-up-activation-accounts-validate-devices-hq.md
     - name: Kvittanir
       items:
-        - name: Uppsetning kvittanasniðmáta
+        - name: Setja upp og hanna kvittunarsnið
           href: receipt-templates-printing.md
-        - name: Sending tölvupóstkvittana fyrir MPOS
+        - name: Senda tölvupóstkvittanir frá MPOS
           href: email-receipts.md
-    - name: Verkskráning og hjálp fyrir sölustað
+    - name: Verkskráning og hjálp fyrir MPOS og sölukerfi í skýinu
       href: task-recorder-retail-pos.md
 - name: Uppfylling pöntunar
   items:
-    - name: Yfirlit yfir pöntunaruppfyllingu verslunar
+    - name: Uppfylling verslunarpöntunar
       href: Order-fulfillment-overview.md
-    - name: Setja upp uppfyllingu í verslun
+    - name: Setja upp pöntunaruppfyllingu fyrir verslanir
       href: Order-fulfillment-POS-setup.md
-    - name: Kveikja á tilkynningum á sölustað
+    - name: Sýna pöntunartilkynningar í sölustaðnum
       href: Notifications-POS.md
 - name: Eftirlit og greining
   items:
@@ -192,21 +223,21 @@
       href: assess-customer-product-profitability.md
     - name: Frammistöðugreining verslunar
       href: store-performance-information.md
-    - name: Uppsetning RFM-greiningar
+    - name: 'Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)'
       href: set-up-rfm-analysis.md
 - name: Afslættir og verðleiðréttingar
   items:
-    - name: Verðstjórnun í smásölu
+    - name: Verðstjórnun í Retail
       href: price-management.md
     - name: Verðleiðréttingar og afslættir
       href: price-adjustments-discounts.md
-    - name: Ákvörðun bestu samsetningar afslátta sem skarast
+    - name: Ákvarða bestu samsetningar afslátta sem skarast
       href: optimal-combination-overlapping-discounts.md
     - name: Skilgreining afslátta fyrir tiltekna rás
       href: define-channel-specific-discounts.md
-    - name: Koma í veg fyrir afslætti á smásöluafurðum
+    - name: Valkostir til að koma í veg afslætti á smásöluafurðir
       href: prevent-discounts.md
-    - name: Búa til afsláttarmiða fyrir smásölu
+    - name: Setja upp afsláttarmiða fyrir smásölu
       href: retail-coupons.md
 - name: Afurðir og smásala
   items:
@@ -214,23 +245,23 @@
       href: ../supply-chain/pim/product-information.md
     - name: Smásölustigveldi
       href: retail-hierarchies.md
-    - name: Yfirlit yfir eigindir og eigindaflokka
+    - name: Eigindir og eigindaflokkar
       href: attribute-attributegroups-lifecycle.md
-    - name: Eigindir búnar til og þeim stjórnað
+    - name: Búa til og stjórna eigindum
       href: create-manage-attributes.md
-    - name: Uppsetning smásöluafurða
+    - name: Setja upp smásöluafurðir
       href: set-up-retail-products.md
-    - name: Endurbætt afurða- og flokkastjórnun
+    - name: Stjórna Retail-afurðaflokkum og afurðum
       href: category-management-product-creation.md
     - name: Afurðarvíddir
       href: ../supply-chain/pim/product-dimensions.md
-    - name: Uppsetning strikamerkja
+    - name: Setja upp strikamerki
       href: set-up-bar-codes.md
-    - name: Uppsetning strikamerkja
+    - name: Setja upp strikamerkjasíur
       href: set-up-bar-code-masks.md
-    - name: Uppsetning vöruúrvals
+    - name: Setja upp úrval
       href: set-up-assortments.md
-    - name: Sala og skil á afurðum utan vöruúrvals
+    - name: Sala og skil á afurðum sem ekki eru í úrvali verslunar
       href: sell-return-outside-assortments.md
     - name: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
       href: ../supply-chain/production-control/default-order-settings.md
@@ -238,13 +269,13 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Vildarkerfi
   items:
-    - name: Uppsetning vildarkerfis
+    - name: Setja upp vildarkerfi viðskiptavina
       href: set-up-customer-loyalty-program.md
 - name: Birgðir
   items:
     - name: Birgðastjórnun verslunar
       href: work-with-store-inventory.md
-    - name: Skráning raðnúmera í söluferli
+    - name: Skrá raðnúmer í söluferlinu
       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
     - name: Birgðabækur
       href: ../supply-chain/inventory/inventory-journals.md
@@ -276,29 +307,29 @@
   items:
     - name: Frakkland
       items:
-        - name: Afgreiðslukassar fyrir Frakkland
+        - name: Afgreiðslukassavirkni
           href: localizations/emea-fra-cash-registers.md
-        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum í Frakklandi
+        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
           href: localizations/emea-fra-deployment.md
     - name: Indland
       items:
-        - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
+        - name: Samþætting vöru- og þjónustuskatts (VÞS) fyrir afgreiðslukassa
           href: localizations/apac-ind-cash-registers.md
-        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum í Indlandi
+        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: Noregur
       items:
-        - name: Afgreiðslukassar fyrir Noreg
+        - name: Afgreiðslukassavirkni
           href: localizations/emea-nor-cash-registers.md
-        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum í Noregi
+        - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: Svíþjóð
       items:
-        - name: Afgreiðslukassar fyrir Svíþjóð
+        - name: Afgreiðslukassavirkni
           href: localizations/emea-swe-cash-registers.md
-        - name: Dæmi um Retail POS samþættingu fyrir stjórntæki
+        - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
-- name: Verkefni í Retail
+- name: Retail-verk
   items:
     - name: Stofna afurð
       href: ../supply-chain/pim/tasks/create-product.md
@@ -306,41 +337,41 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: Gefa út afurð/afurðarsniðmát fyrir lögaðila
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: Grunnverð og verðsamningar
+    - name: Búa til viðskiptasamninga fyrir tilgreindar rásir
       href: tasks/base-price-trade-agreements.md
-    - name: Verðlagsreglur fyrir flokka til að búa til verðsamninga
+    - name: Nota verðlagsreglur fyrir flokka til að búa til viðskiptasamninga
       href: tasks/category-pricing-rules-trade-agreements.md
-    - name: ' Skilgreina kreditkortavinnslu'
+    - name: Skilgreina kreditkortavinnslu
       href: tasks/configure-credit-card-processing.md
-    - name: ' Skilgreina virknireglu fyrir sölufulltrúa'
+    - name: Skilgreina virknireglur fyrir sölufulltrúa
       href: tasks/configure-functionality-profile-sales-representative.md
-    - name: ' Skilgreina ráðleggingar um afurðir sem byggir á vélnámi'
+    - name: Skilgreina afurðaráðleggingar út frá vélnámi
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' Búa til og tengja tæki'
+    - name: Búa til tæki og tengja þau við afurðir
       href: tasks/create-associate-device.md
-    - name: Búa til og tengja vélbúnaðarstöð
+    - name: Stofna vélbúnaðarstöðvar
       href: tasks/create-associate-hardware-station.md
-    - name: Stofna og tengja afgreiðslukassa
+    - name: Stofna afgreiðslukassa
       href: tasks/create-associate-registers.md
-    - name: Stofna pantanir fyrir símaver
+    - name: Stofna símaverspantanir
       href: tasks/create-call-center-orders.md
-    - name: Stofna fjárhagsvíddir fyrir afgreiðslukassa og skilgreina víddagildi í afgreiðslukössum
+    - name: Stofna fjárhagsvíddir fyrir POS-afgreiðslukassa og skilgreina víddagildi í afgreiðslukössum
       href: tasks/create-financial-dimensions-pos.md
-    - name: ' Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum'
+    - name: Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum
       href: tasks/create-financial-dimensions-retail-channels.md
-    - name: ' Stofna netrásir og skilgreina eigindir rása'
+    - name: Stofna netrásir og skilgreina eigindir rása
       href: tasks/create-online-channel-define-channel-attributes.md
-    - name: ' Stofna heimildaflokka sölustaða'
+    - name: Stofna heimildaflokka sölustaða
       href: tasks/create-pos-permission-groups.md
-    - name: ' Stofna sjónræna reglu fyrir sölustað  '
+    - name: Búa til sjónrænar forstillingar sölustaðar
       href: tasks/create-pos-visual-profile-2016-02.md
-    - name: ' Stofna afurðapakka fyrir innkaupapantanir'
+    - name: Stofna afurðapakka fyrir innkaupapantanir
       href: tasks/create-product-packages-purchase-orders.md
-    - name: ' Skilgreina rás símavers og eigindir rásar'
+    - name: Stofna símaversrásir og skilgreina eigindir rása
       href: tasks/define-call-center-channel-channel-attributes.md
-    - name: ' Skilgreina eigindir rásar'
+    - name: Skilgreina eigindir rása
       href: tasks/define-channel-attributes.md
-    - name: ' Skilgreina samfelldniáætlanir'
+    - name: Skilgreina samfelldniáætlanir
       href: tasks/define-continuity-schedules.md
     - name: ' Skilgreina vildarkerfi'
       href: tasks/define-loyalty-programs.md
@@ -348,44 +379,44 @@
       href: tasks/define-loyalty-reward-points.md
     - name: ' Skilgreina vildarkerfi'
       href: tasks/define-loyalty-schemes.md
-    - name: Hanna tengsl milli skipulagseininga
+    - name: Hanna vensl milli skipulagseininga
       href: tasks/design-relationships-between-organizational-units.md
     - name: Stjórna úrvali
       href: tasks/manage-assortments-2016-11.md
-    - name: Framkvæma sjálfsafgreiðslu til að sækja vélbúnaðarstöð
+    - name: Sækja vélbúnaðarstöðvar með sjálfsafgreiðslu
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Bóka netsölu og -greiðslur
       href: tasks/posting-online-sales-payments.md
-    - name: ' Vinna úr leiðréttingum á vildarkerfispunktum'
+    - name: Setja leiðréttingu vildarpunkta í ferli
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: Ýta afurðum úr dreifingarmiðstöð í verslun með dreifingu frá lager
+    - name: Ýta afurðum úr dreifingarmiðstöðvum í verslanir með dreifingu frá lager
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: Leiðréttingar á smásöluverði
+    - name: Stofna leiðréttingar á smásöluverði
       href: tasks/retail-price-adjustments.md
-    - name: Mynda og keyra tilbúnar skýrslur
+    - name: Búa til og keyra tilbúnar skýrslur
       href: tasks/run-out-box-reports.md
     - name: Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: Nota samfelldniáætlun
+    - name: Samfelldniáætlanir fyrir sölu og vinnsla sölupantana
       href: tasks/use-continuity-program.md
-    - name: Skilgreina starfskraft
+    - name: Skilgreina starfsmenn í smásölu
       href: tasks/worker.md
-- name: Þróun og stjórnun smásölu
+- name: Hönnun og stjórnun Retail
   href: dev-itpro/dev-retail-home-page.md
   items:
-    - name: Högun
+    - name: Skipulag
       items:
-        - name: 'Íhlutir Microsoft Dynamics 365 for Finance and Operations, - Retail'
+        - name: Retail-íhlutir
           href: retail-components.md
         - name: Skipulag Retail Server
           href: dev-itpro/retail-server-architecture.md
-        - name: Samskipti smásölurásar
+        - name: Commerce Data Exchange og samskipti smásölurásar
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: Skipulag MPOS
+        - name: Skipulag Retail Modern POS
           href: dev-itpro/retail-modern-pos-architecture.md
         - name: Útgáfuskipulag smásölunetverslunar
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: Power BI-efni fyrir frammistöðu smásölurásar
+        - name: Retail Channel Performance Power BI-efni
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)
           href: dev-itpro/PA-DSS-Certification.md
@@ -393,31 +424,31 @@
           href: retail-onprem.md
     - name: Uppsetning og bráðabætur
       items:
-        - name: Yfirlit Retail Store Scale Unit
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
-        - name: Skilgreining og uppsetning Retail Store Scale Unit
+        - name: Skilgreina og setja upp Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
         - name: Skilgreining og uppsetning Retail Modern POS
           href: retail-modern-pos-device-activation.md
-        - name: Stjórnun Retail-lykla og -tækja frá höfuðstöðvum
+        - name: Stjórna Retail-lyklum og -tækjum frá höfuðstöðvum
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: Tækisvirkjun Retail POS
           href: dev-itpro/retail-device-activation.md
-        - name: Öruggt smásölukerfi í skýinu
+        - name: Hjálpa til við að tryggja sölukerfi í skýinu í samnýttu umhverfi
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: Skilgreining og uppsetning Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
-        - name: Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir Retail
+        - name: Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir smásölu
           href: dev-itpro/retail-mass-deployment.md
-        - name: Tilvik Retail-íhluta fyrir greiningu og bilanaleit
+        - name: Tilvik smásöluíhluta fyrir greiningu og bilanaleit
           href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
-        - name: Virkjanlegur pakki notaður
+        - name: Nota virkjanlegan pakka
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
-    - name: Uppfærsla og stuðningur N-1
+    - name: Uppfærsla og N-1 stuðningur
       items:
-        - name: Yfirlit yfir uppfærslu og stuðning við N-1
+        - name: Uppfærsla og N-1 stuðningur við Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: Uppsetning N-1 íhluta
+        - name: 'Stigvaxandi útfærsla (N-1) uppsetningar, skilgreiningar og kerfaskiptingar'
           href: dev-itpro/n-1-installation-configuration.md
     - name: Leiðbeiningar fyrir innleiðingu
       items:
@@ -433,63 +464,63 @@
       href: dev-itpro/extension-resource-localization.md
     - name: Stækkunarhæfni sölustaðar
       items:
-        - name: Skjáhönnun Retail POS
+        - name: Skjáútlit Retail POS
           href: pos-screen-layouts.md
-        - name: Uppsetning útlitshönnuðar sölustaðar
+        - name: Setja upp útlitshönnuð sölustaðar
           href: install-pos-layout-designer.md
-        - name: Skilgreining MPOS fyrir stillingu utan nets
+        - name: Retail Modern POS án nets
           href: dev-itpro/retail-modern-pos-offline.md
-        - name: Framlengja skjámynd POS Dual
+        - name: Víkka út POS Dual-skjá
           href: dev-itpro/pos-dual-display-extension.md
-        - name: Stækkunarhæfni kveikja í MPOS og sölukerfis í skýinu
+        - name: Retail Modern POS og sölukerfi í skýinu framkalla stækkunarhæfni
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: Bæta sérstilltri stýringu við yfirlit sölustaðar
+        - name: Bæta sérstilltum stjórntækjum við gagnabirtingu sölustaðar
           href: dev-itpro/pos-custom-control.md
-        - name: Bæta við nýrri sölustaðavirkni við sölustaðaútlit
+        - name: Bæta POS-aðgerðum við POS-útlit með hnappahnitshönnuði
           href: dev-itpro/add-POS-operations.md
         - name: Greiðsluviðbót sölustaðar
           href: dev-itpro/pos-payment-extension.md
-        - name: Stuðningur við ytra gjafakort
+        - name: Stuðningur við utanaðkomandi gjafakort
           href: dev-itpro/gift-card.md
-        - name: Stofnun Retail Experience-forrits
+        - name: Búa til og beita vörumerkjaþróun í Retail Experience-forritinu
           href: dev-itpro/create-retail-experience-app.md
-    - name: Yfirlit og stækkunarhæfni vélbúnaðarstöðvar
+    - name: Vélbúnaðarstöð og stækkunarhæfni
       href: dev-itpro/hardware-station-extensibility.md
-    - name: Stækkunarhæfni Retail-þjóns
+    - name: Stækkunarhæfni Retail Server
       items:
-        - name: Stækkun á Retail Server OData-stýringu
+        - name: Stækka Retail Server OData-stýringu
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: Vef-API og OData-stýringar
+        - name: Stofna API-vefstýringu fyrir Retail Server
           href: dev-itpro/odata-controllers-api.md
-        - name: API viðskiptavinar og neytanda á Retail-þjóni
+        - name: API viðskiptavinar og neytanda á Retail Server
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: Stækkun lýsigagna
+        - name: Stækka sjálfgefna lýsigagnastýringu Retail Server
           href: dev-itpro/extend-metadata.md
-        - name: Stækkun á Commerce Runtime til að styðja við ótengdan sölustað
+        - name: Hringja í CRT-þjónustuna án nets
           href: dev-itpro/call-crt-service-offline.md
-    - name: Stækkunarhæfni Commerce Runtime
+    - name: Stækkunarhæfni Commerce Runtime (CRT)
       items:
-        - name: Yfirlit yfir Commerce Runtime
+        - name: Skipulag og skilgreining CRT
           href: dev-itpro/commerce-runtime-overview.md
-        - name: Commerce Runtime þjónusta
+        - name: CRT-þjónusta
           href: dev-itpro/crt-services.md
-        - name: Stækkunarhæfni Commerce Runtime og Retail Server
+        - name: Stækkunarhæfni CRT og Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Kjörstillingargögnum viðskiptavinar bætt við gagnagrunn rásar
+        - name: Bæta kjörstillingargögnum viðskiptavinar við gagnagrunn rásar
           href: dev-itpro/add-customer-preference-channel.md
-        - name: Eiginleikum bætt við sölupöntun
+        - name: Bæta eiginleikum við sölupantanir
           href: dev-itpro/add-properties-sales-order.md
-        - name: Stækkunarhæfni og kveikjur Commerce Runtime
+        - name: Stækkunarhæfni og kveikjur CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'Dæmi um kveikju: lokunarfærsla'
+        - name: Útiloka færslur með kveikjum
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'Dæmi um kveikju: skilaregla'
+        - name: Innleiða reglur um vöruskil með kveikjum
           href: dev-itpro/trigger-example-return-policy.md
     - name: Stækkunarhæfni rafrænna viðskipta
       items:
-        - name: Skilgreining verslunar á netinu
+        - name: Skilgreina netverslanir
           href: dev-itpro/configure-online-store.md
-        - name: Skilgreining sannvottunarveita
+        - name: Skilgreina sannvottunarveitur
           href: dev-itpro/configure-authentication-providers.md
         - name: Verkvangur rafrænna viðskipta
           href: dev-itpro/ecommerce-platform.md
@@ -497,55 +528,57 @@
           href: dev-itpro/ecommerce-platform-sdk.md
     - name: Stækkunarhæfni greiðslutengils
       items:
-        - name: Samþætting greiðslu með afgreiðslustöð
+        - name: Stofna greiðslusamþættingu fyrir greiðslustöð
           href: dev-itpro/end-to-end-payment-extension.md
         - name: Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: Uppsetning greiðslutengils
+        - name: Uppsetning greiðslutengla
           href: dev-itpro/deploy-payment-connector.md
-        - name: Stofnun Windows-uppsetningarforrits fyrir greiðslutengil
+        - name: Stofna sérsniðin og staðbundin villuboð fyrir greiðslustöðvarviðbætur
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Stofna Windows-uppsetningarforrit fyrir greiðslutengla
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: Samþætting Retail SDK við kerfi með samfellda sjálfvirkni í smíð
+        - name: Sameina byggingarkerfin fyrir Retail og Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Dæmi um stækkunarhæfni Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: Umbúðir Retail SDK
+        - name: Búa til virkjanlegan smásölupakka
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'Dæmi um Retail SDK '
+        - name: Dæmi um Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: Viðbótarpunktar fyrir fylgiseðla
               href: dev-itpro/extensions-shipping-carrier-integration.md
-        - name: Viðbætur við gagnagrunn rása
+        - name: Viðbætur fyrir gagnagrunna rása
           href: dev-itpro/channel-db-extensions.md
-        - name: Stækkunarhæfni CDX
+        - name: Virkja sérstillta CDX-samstillingu gegnum viðbót
           href: dev-itpro/cdx-extensibility.md
-        - name: Bæta sérstilltum svæðum við svæði sölustaðar
+        - name: Bæta sérstilltum reitum við samtölusvæði sölustaðar
           href: dev-itpro/custom-field-pos-totals.md
-        - name: Eigindir pöntunar
+        - name: Skilgreina og stilla pöntunareigindir
           href: dev-itpro/order-attributes.md
         - name: Eigindir viðskiptavinar
           href: dev-itpro/customer-attributes.md
-        - name: 'Retail Typescript og C# proxy'
+        - name: 'Retail Typescript og C#-staðgengill'
           href: dev-itpro/typescript-proxy-retail-pos.md
-        - name: Keyra dæmi um Retail POS
+        - name: Keyra Retail POS-dæmi
           href: dev-itpro/pos-run-samples.md
-        - name: Stækka fyrirliggjandi sýn á POS til að bæta við sérstilltum dálkum og hnöppum á stiku forrits
+        - name: Stækka gagnabirtingu á sölustað til að bæta við sérstilltum dálkum og hnöppum á forritastiku
           href: dev-itpro/pos-view-extension.md
         - name: Bæta sérstilltum stjórntækjum við færslusíður Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
         - name: Bæta sérstilltum dálkum við hnitanet POS-færslu
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: Kalla á POS API eða aðgerð úr POS-viðbót
+        - name: Hringja í API sölustaðar eða aðgerðir úr smásöluviðbótum
           href: dev-itpro/pos-api-extension.md
-        - name: Kveikjur Retail Modern POS og prentun
+        - name: Kveikjur og prentun í Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
-        - name: Bæta sérstilltri stýringu við hönnunaryfirlit Retail Modern POS sem ekki birtist á skjá
+        - name: Bæta sérstilltum stjórntækjum við þá gerð gagnabirtingar sölustaðar sem ekki er hönnuð sérstaklega fyrir skjá
           href: dev-itpro/pos-control-non-screen.md
-        - name: Skref við skilgreiningu fyrir þróunaraðila Retail sem vinna að þróunarverkefnum sem hýst eru í skýi
+        - name: Þróun í þróunarumhverfi sem hýst er í skýi án stjórnandaaðgangs
           href: dev-itpro/cloud-dev-box.md
     - name: Commerce Runtime
       items:

@@ -1,5 +1,5 @@
 ---
-title: "tími og mæting smásölu"
+title: "Stjórnun tíma og viðveru í Retail"
 description: "Þetta efnisatriði lýsir aðstæðum sem eru studdar hvað varðar tíma- og mætingastjórnun í Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Retail-tími og -viðvera
+# <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="plan-worker-schedules"></a>Áætla áætlanir starfsmanns
 
--   Nota forstillingar með vinnuáætlun Nánari upplýsingar, sjá <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Nota forstillingar með vinnuáætlun Frekari upplýsingar er að finna í <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
 
 Sjá upplýsingar um skilgreiningarskref <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 

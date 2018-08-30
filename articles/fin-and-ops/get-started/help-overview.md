@@ -1,9 +1,9 @@
 ---
-title: "Hjálparyfirlit"
+title: "Hjálparkerfi Finance and Operations"
 description: "Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="help-system-overview"></a>Yfirlit yfir hjálparkerfi
+# <a name="finance-and-operations-help-system"></a>Hjálparkerfi Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Un
 [RSS-straumur](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Láttu í ljós viðbrögð 
-Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub.
+Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub. Nánari upplýsingar um ábendingarkerfið okkar er að finna í [þessari bloggfærslu](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>Skildu eftir athugasemd 
+##### <a name="leave-us-feedback"></a>Skildu eftir ábendingu 
 Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.  
 
-1 Smellið á **Athugasemdir** til að sjá athugasemd neðst á síðunni.
+1. Smelltu á **Ábendingar** til að sjá athugasemdir neðst á síðunni og smelltu síðan á annaðhvort **Ábending um vöru** eða **Skrá inn á til að skrá inn ábendingu**.
 
-![Athugasemdir](./media/comments.png)
+![Ábendingar](./media/comments.png)
 
-2 Byrjið að færa inn athugasemdir og smellið síðan á **Birta athugasemd**.
+2. Byrjaðu að færa inn athugasemdir og smelltu síðan á **Birta ábendingu**.
 
-![Setja inn ummæli](./media/before-signin.png)
+![Setja inn ummæli](./media/feedback.png)
 
-3 Veldu þá gerð reiknings sem á að skrá inn með:  
-Smelltu á eitt af táknunum vinstra megin til að tengja þetta svæði við fyrirliggjandi reikning, svo sem Twitter, Facebook, eða Microsoft reikning. 
-
-Eða 
-
-Sláðu inn netfang hér til hægri og nýtt aðgangsorð til að búa til nýjan reikning fyrir vefsvæðið. 
-
-![Innskráningarvalkostir](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Leggja til breytingar eða leggja fram efni í gegnum GitHub
@@ -115,7 +107,6 @@ Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakend
 
 > [!NOTE]
 > Við munum aðeins samþykkja framlög til enskar geymslur okkar á þessum tíma.  
-> Við samþykkjum ekki Álitamál sem tilkynnt eru í gegnum GitHub - vertu viss um að nota áhrifsbeiðni um efnistillögur. Viðbrögð tengd vöru og eiginleikum eru best meðhöndluð gegnum Dynamics 365 Hugmyndagátt: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Verkleiðbeiningar

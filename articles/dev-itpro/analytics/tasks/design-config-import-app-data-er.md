@@ -1,5 +1,5 @@
 --- 
-title: "Hanna grunnstillingar til að þátta skjöl á innleið fyrir gagnauppfærslur forrits (rafrænar skýrslugerðir)"
+title: "Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið"
 description: "Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til að þátta móttekin rafræn skjöl."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Hanna grunnstillingar til að þátta skjöl á innleið fyrir gagnauppfærslur forrits (rafrænar skýrslugerðir)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

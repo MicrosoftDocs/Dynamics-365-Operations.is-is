@@ -1,6 +1,6 @@
 ---
-title: Greind
-description: "Í þessu efnisatriði eru ábendingar um tilföng sem hægt er að nota til að fræðast betur um viðskiptagreind og skýrsluverkfæri sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations."
+title: "Viðskiptagreind (BI) og skýrslugerð – heimasíða"
+description: "Í þessu efnisatriði er bent á tilföng sem nota má til að fræðast um viðskiptagreind og verkfæri til skýrslugerðar, sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,18 +18,18 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Greind
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Viðskiptagreind (BI) og skýrslugerð – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði eru ábendingar um tilföng sem hægt er að nota til að fræðast betur um viðskiptagreind (BI) og skýrsluverkfæri sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations.
+Í þessu efnisatriði er bent á tilföng sem nota má til að fræðast um viðskiptagreind (BI) og verkfæri til skýrslugerðar, sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Hefjast handa
 - [Aðgangsupplýsingar og skýrslugerð](information-access-reporting.md)
@@ -43,13 +43,13 @@ Notendur geta átt samskipti við gögnin með því að smella á eða snerta s
 
 ![Dæmi um Power BI í vinnusvæði](./media/Power-BI-in-D365-Workspace.png)
 
- Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
- - [Innfellt Power BI í vinnusvæði](embed-power-bi-workspaces.md)
- - [Samþætting Power BI Embedded](power-bi-embedded-integration.md)
- - [Bæta greiningu við vinnusvæði með Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](secure-analytical-workspaces.md)
- - [Power BI efni fyrir Finance and Operations](power-bi-home-page.md)
+- [Innfellt Power BI í vinnusvæði](embed-power-bi-workspaces.md)
+- [Samþætting Power BI Embedded](power-bi-embedded-integration.md)
+- [Bæta greiningu við vinnusvæði með Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Hjálpa við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](secure-analytical-workspaces.md)
+- [Power BI efni fyrir Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Viðskiptaskjöl og útprentun
 Skýrslugerðarlausnir eru oft notaðar til að fanga og miðla upplýsingum um viðskiptafærslur. Þess vegna þarf skýrslugerðarlausn að geta komið viðskiptagögnum á áþreifanlegt form með því að nota fyrirliggjandi tæki, eins og nettengda prentara. Dæmi um viðskiptaskjöl innihalda sölureikninga, viðskiptavinayfirlit og ávísanir.

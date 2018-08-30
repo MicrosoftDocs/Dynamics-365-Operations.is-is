@@ -1,5 +1,5 @@
 --- 
-title: "Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð (ER)"
+title: "Velja skilgreiningar gagnalíkans þegar snið er búið til"
 description: "Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 70d928b0f0807731a5f96ef5497fb6060fbfebf5
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a>Velja skilgreiningu gagnalíkans þegar snið er búið til fyrir rafræna skýrslugerð (ER)
+# <a name="select-data-model-definitions-when-you-create-formats"></a>Velja skilgreiningar gagnalíkans þegar snið er búið til
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

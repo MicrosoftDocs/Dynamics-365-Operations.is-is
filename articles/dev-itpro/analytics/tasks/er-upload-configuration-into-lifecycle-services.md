@@ -1,5 +1,5 @@
 --- 
-title: "Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð (ER)"
+title: "Hlaða skilgreiningum rafrænnar skýrslugerðar í Lifecycle Services"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6aa6bf7e08285d18210741ba6618878955009280
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð (ER)
+# <a name="upload-electronic-reporting-configurations-into-lifecycle-services"></a>Hlaða skilgreiningum rafrænnar skýrslugerðar í Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -92,6 +92,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 10. Smellt er á Opin.
     * Velja lcs-gagnasafn og opna hana.  
     * Athugið að valin skilgreining er sýnd sem eign valins LCS verks.  
-    * Opna LCS með því að nota https://lcs.dynamics.com. Opna verk sem var notuð áður til skráningar gagnasafns, opna 'eignasafn' þessa verks og útvíkka innihald eignagerðarinnar 'GER skilgreining' – upphlaðin skilgreining Rafrænnar skýrslugerðar verður tiltæk. Athugið að upphlaðna LCS skilgreiningin er hægt að flytja inn í annað tilvik af Microsoft Dynamics 365 for Finance and Operations ef veiturnar hafa aðgang að þessu LCS verki.  
+    * Opna LCS með https://lcs.dynamics.com. Opna verkið sem var notuð áður til skráningar gagnasafns, opna 'eignasafni' þessa verks og útvíkka innihald eignagerðarinnar 'GER skilgreining' – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk. Athugið að upphlaðna LCS skilgreiningin er hægt að flytja inn í annað tilvik af Microsoft Dynamics 365 for Finance and Operations ef veiturnar hafa aðgang að þessu LCS verki.  
 
 

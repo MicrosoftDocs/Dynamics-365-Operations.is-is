@@ -1,5 +1,5 @@
 ---
-title: "Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu"
+title: "Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu"
 description: "Þetta efnisatriði veitir upplýsingar um grunnstillingu á SQL Server Reporting Services (SSRS) fyrir virkjun á staðnum."
 author: sarvanisathish
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b18050aa3c01db5667f0a529e3eb0c5eba971dc8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Stilla SQL Server Reporting Services fyrir staðbundna uppsetningu
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu
 
 [!include [banner](../includes/banner.md)]
 
