@@ -3,7 +3,7 @@ title: "Yfirlit Uppgjörs"
 description: "Þessi grein veitir almennar upplýsingar um uppgjörsferlið. Hún lýsir þeim færslutegundum sem hægt er að jafna, hvenær og hvernig hægt er að jafna færslur og niðurstöðum jöfnunarferlisins."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,8 +16,8 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
@@ -51,7 +51,6 @@ Hægt er að jafna færslur handvirkt, sjálfvirkt, eða sambland af aðferðunu
 -   Ef greiðsluupphæðin er jafnt og upphæð reikningsins, er bæði greiðslu og reiknings lokaðar, og stöðu bæði er 0,00.
 
 Ef [greiðslu er lægri en reikningsupphæðin](../accounts-payable/vendor-payments-partial-amount.md) vegna staðgreiðsluafsláttar, afskriftar eða vangreiðslu, gætu reiknings og greiðslu enn verið lokað, eftir uppsetningu á jöfnun í færibreytum viðskiptaskulda og færibreytur viðskiptakrafna. Jöfnun getur einnig myndað færslur. Til dæmis gæti jöfnun reiknings og greiðslu framleitt staðgreiðsluafslátt, innleystan hagnaður eða tap, leiðréttingar virðisaukaskatts, afskriftir eða auramismun.
-
 
 
 
