@@ -55,11 +55,13 @@ Viðskiptavinur getur haft mörg sniðmát sem hafa mismunandi tíðnir.
 
 ## <a name="generate-the-recurring-invoices"></a>Búa til endurtekna reikninga
 Á síðunni **Endurteknir reikningar** er verk sem vinnur úr endurteknum reikningum. Þú tilgreinir dagsetningu reiknings og sniðmát til að mynda reikninga úr. Reikningar verða myndaðir og úthlutað á eitt kenni endurtekningar fyrir hvern flokk af reikningum sem eru unnir.
-Bóka endurtekna textareikninga
+
+<a name="post-recurring-free-text-invoices"></a>Bóka endurtekna textareikninga
 ---------------------------------
 
 Eftir að endurteknir reikningar eru búnir til birtast kenni endurtekinna reikninga í bókunarverki á síðunni **Endurteknir reikningar**. Hægt er að skoða alla reikninga fyrir kenni endurtekningar með því að smella á tengilinn. Við endurskoðun reikninga fyrir kenni endurtekningar er hægt að eyða einstökum reikningum. Endurtekningarstillingar viðskiptavinar verða endurstilltar fyrir sniðmátið, þannig að hægt er að endurmynda það síðar. Hægt er að bóka einn, marga eða alla reikninga fyrir endurtekningu. Ef verkflæði eru virkjuð þarf að smella á **Senda** áður en hægt er að bóka reikninga.
-Prenta endurtekna textareikninga
+
+<a name="print-recurring-free-text-invoices"></a>Prenta endurtekna textareikninga
 ----------------------------------
 
 Eftir að endurteknir reikningar hafa verið bókaðir er hægt að prenta reikningana úr listasíðu textareikningsins. Hægt er að prenta reikninga sem eru valdar, eða hægt er að velja bil reikninga sem á að prenta.

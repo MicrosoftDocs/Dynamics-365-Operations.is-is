@@ -3,7 +3,7 @@ title: "Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations"
 description: "Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations."
 author: margoc
 manager: AnnBe
-ms.date: 03/02/2018
+ms.date: 08/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,6 +26,7 @@ ms.lasthandoff: 08/09/2018
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
+
 [!include [banner](includes/banner.md)]
 
 Lærðu að nýta Microsoft Dynamics 365 for Finance and Operations í þágu fyrirtækisins. Í neðangreindum tilföngum er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
