@@ -1,26 +1,27 @@
----
+--- 
 title: "Breyta eiganda vörusendingabirgða samkvæmt eftirspurn eftir framleiðslu"
 description: "Þessi verklýsing sýnir hvernig á að breyta eiganda vörusendingabirgða úr lánardrottni í þinn lögaðila þegar eftirspurn er til staðar fyrir birgðirnar í framleiðslu."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="8a15c-103">Breyta eiganda vörusendingabirgða samkvæmt eftirspurn eftir framleiðslu</span><span class="sxs-lookup"><span data-stu-id="8a15c-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="8a15c-131">Þegar færslubókin er bókuð, eru birgðir í eigu lánardrottins losaðar með "Breytingu á Eignarhaldi" tilvísun.</span><span class="sxs-lookup"><span data-stu-id="8a15c-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="8a15c-132">Birgðum er síðan móttekin sem Á lager með því að nota birgðafærslu sem er uppfærð með innhreyfingarskjali afurðar fyrir innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="8a15c-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="8a15c-133">Athugið að aðeins eru stofnaðar færslur sem tengjast bókaðri færslubók.</span><span class="sxs-lookup"><span data-stu-id="8a15c-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="8a15c-134">Ekki eru stofnaðar neinar væntanlegar birgðafærslur.</span><span class="sxs-lookup"><span data-stu-id="8a15c-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="8a15c-135">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8a15c-135">Click OK.</span></span>
 3. <span data-ttu-id="8a15c-136">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="8a15c-136">Close the page.</span></span>
+
 

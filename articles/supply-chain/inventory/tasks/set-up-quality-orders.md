@@ -1,26 +1,27 @@
----
+--- 
 title: "Setja upp gæðapantanir"
 description: "Þessi verklýsing sýnir hvernig á að virkja gæðastjórnunarferli þar sem innhreyfingar birgða verða skoðaðar strax eftir komuskráningu."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: f43c2cb9dca441a796d1ec2ec2e17da063dddaa9
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c36e35f45709d32db7bc1a625d4bcc30cf543fb0
 ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="8383a-103">Setja upp gæðapantanir</span><span class="sxs-lookup"><span data-stu-id="8383a-103">Set up quality orders</span></span>
@@ -142,4 +143,5 @@ ms.lasthandoff: 08/07/2018
 15. <span data-ttu-id="8383a-218">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="8383a-218">In the list, find and select the desired record.</span></span>
 16. <span data-ttu-id="8383a-219">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="8383a-219">Click Save.</span></span>
 17. <span data-ttu-id="8383a-220">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="8383a-220">Close the page.</span></span>
+
 

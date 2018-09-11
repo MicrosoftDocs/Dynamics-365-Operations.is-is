@@ -3,23 +3,24 @@ title: "Stjórna sniðmáti fyrir tölvupóst"
 description: "Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f09d18e39c58385cfdbbbbb0ff398d1a11bbcbe0
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: dbe665688d9fb10ce200f25b6552f49349cfc42e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="f0409-103">Stjórna sniðmáti fyrir tölvupóst</span><span class="sxs-lookup"><span data-stu-id="f0409-103">Manage email templates</span></span>
