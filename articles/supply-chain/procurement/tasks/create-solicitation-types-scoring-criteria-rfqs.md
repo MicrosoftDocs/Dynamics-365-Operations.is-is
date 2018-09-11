@@ -3,18 +3,19 @@ title: "Búa til gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðs
 description: "Þessari handbók sýnir hvernig á að stofna gerð beiðni og tengja þetta við aðferð við stigagjöf."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ ms.lasthandoff: 09/29/2017
 1. Fara í innkaup og aðföng  > Beiðnir um tilboð  > Allar beiðnir um tilboð.
 2. Smellið á „Nýtt“.
 3. Í reitnum gerð beiðni skal velja gerð beiðni sem þú varst að stofna. 
+    *   
 4. Smellið á „Í lagi“.
 5. Afrita skilyrði fyrir stigagjöf
     * Sýndar stigagjafir eru þær sem koma úr aðferð við stigagjöf sem þú tengdir við gerð beiðninnar. Hægt er að velja að bæta við eða eyða skilyrði á þessari síðu. Einnig er hægt að bæta við nýjum skilyrði með því að afrita þær frá öðrum aðferðir við stigagjöf .  

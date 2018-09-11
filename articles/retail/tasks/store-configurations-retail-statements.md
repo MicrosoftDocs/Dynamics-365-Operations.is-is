@@ -1,31 +1,32 @@
 --- 
-title: "Skilgreina verslunarstillingar sem hafa áhrif á smásöluyfirlit"
+title: " Skilgreiningar verslunar fyrir smásöluyfirlit"
 description: "Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-store-settings-that-affect-retail-statements"></a>Skilgreina verslunarstillingar sem hafa áhrif á smásöluyfirlit
+# <a name="store-configurations-for-retail-statements"></a> Skilgreiningar verslunar fyrir smásöluyfirlit
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð. Fjárhagsvíddir í smásöluverslunum eru til umfjöllunar í öðru ferli. Þessi aðferð notar sýnigögn USRT fyrirtækisins.
 

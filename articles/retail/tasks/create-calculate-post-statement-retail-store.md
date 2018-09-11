@@ -1,31 +1,32 @@
 --- 
-title: "Stofna, reikna og bóka yfirlit fyrir smásöluverslun"
+title: " Búa til, reikna og bóka yfirlit fyrir smásöluverslun"
 description: "Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun."
 author: jashanno
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1c31c849c4c72762f0fdeb3f1d256cd3529394b2
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Stofna, reikna og bóka yfirlit fyrir smásöluverslun
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Búa til, reikna og bóka yfirlit fyrir smásöluverslun
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
 
