@@ -3,7 +3,7 @@ title: "Grunnstilla altæka aðsetursbók"
 description: "Notið þetta ferli til að setja upp sjálfgildi og öryggisreglur fyrir altæka aðsetursbók."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

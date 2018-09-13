@@ -3,7 +3,7 @@ title: "Búa til markmið"
 description: "Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar og tengja markmið við fyrir yfirferð."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

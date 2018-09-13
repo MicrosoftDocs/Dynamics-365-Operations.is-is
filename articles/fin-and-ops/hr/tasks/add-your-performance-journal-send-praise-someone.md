@@ -3,7 +3,7 @@ title: "Bæta við frammistöðubók og senda hrós"
 description: "Frammistöðubók inniheldur upplýsingar sem tengjast því hvernig þú náðir markmiðum þínum eða frammistöðu þinni á tímabilinu."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
