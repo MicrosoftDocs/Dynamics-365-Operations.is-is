@@ -3,7 +3,7 @@ title: Reikna vexti
 description: "Þessi verklýsing sýnir hvernig á að stofna, prenta og bóka vaxtanótur."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

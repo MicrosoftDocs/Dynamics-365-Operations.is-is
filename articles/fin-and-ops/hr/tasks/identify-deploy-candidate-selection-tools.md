@@ -3,7 +3,7 @@ title: "Auðkenna og beita verkfærum við val á umsækjendum"
 description: "Finna hæf hóp af umsækjendum til að fylla lausar stöður getur verið erfitt, sérstaklega þegar stöðu krefst sérstaks safns af hæfileikum."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

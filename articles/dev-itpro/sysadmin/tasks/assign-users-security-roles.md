@@ -3,7 +3,7 @@ title: "Skipa notendum í öryggishlutverk"
 description: "Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition verður að hafa úthlutað notendum öryggishlutverk."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

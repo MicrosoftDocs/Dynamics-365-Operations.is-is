@@ -3,7 +3,7 @@ title: "Mynda og vinna úr eftirágreiddum afslætti viðskiptavina"
 description: "Þetta ferli sýnir hvernig á að meðhöndla eftirágreiddan afslátt viðskiptavinar úr myndun kröfu til að senda þær sem uppsafnanir á viðskiptakröfur."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

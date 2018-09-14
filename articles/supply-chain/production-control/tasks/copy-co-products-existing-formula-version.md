@@ -3,7 +3,7 @@ title: "Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu"
 description: "Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

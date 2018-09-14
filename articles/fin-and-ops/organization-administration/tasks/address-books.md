@@ -3,7 +3,7 @@ title: "Grunnstilla aðsetursbækur"
 description: "Notið þetta ferli og ákvarðanir sem gerðar voru í Áætlanagerð grunnstillingar fyrir altæka aðsetursbók og viðbótarefnisatriði aðsetursbóka til að setja upp viðbótaraðsetursbækur fyrir fyrirtækið."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

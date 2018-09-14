@@ -3,7 +3,7 @@ title: "Setja upp greiðsluþóknanir viðskiptavina"
 description: "Stofna greiðsluþóknanir fyrir greiðsluar viðskiptavinar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

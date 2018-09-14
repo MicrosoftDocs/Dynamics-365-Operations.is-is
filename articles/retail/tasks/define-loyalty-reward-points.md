@@ -3,7 +3,7 @@ title: " Skilgreina vildarpunkta smásölu"
 description: "Þetta ferli fer í gegnum skilgreina vildarpunkta."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

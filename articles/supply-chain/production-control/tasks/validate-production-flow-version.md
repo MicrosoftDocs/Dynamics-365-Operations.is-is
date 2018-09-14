@@ -3,7 +3,7 @@ title: "Villuleita í framleiðsluflæði og útgáfu"
 description: "Þessi verklýsing sýnir hvernig á að stofna nýtt framleiðsluflæði og fyrstu útgáfu fyrir lean-framleiðslu."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

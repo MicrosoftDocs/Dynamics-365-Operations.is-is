@@ -3,7 +3,7 @@ title: "Skilgreina afbrigðaflokka"
 description: "Þessi verklýsing sýnir hvernig á að skilgreina afbrigðisflokkur með því að stofna tvo flokka í sýnigögn gögn fyrirtækisins USMF Fyrirtækisins."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

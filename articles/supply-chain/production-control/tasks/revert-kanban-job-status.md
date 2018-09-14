@@ -3,7 +3,7 @@ title: "Bakfæra stöðu kanban-vinnslu"
 description: "Þetta ferli leggur áherslu á skipti aftur rangt staða kanban-vinnsla."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

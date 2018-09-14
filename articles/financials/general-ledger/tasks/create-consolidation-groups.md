@@ -3,7 +3,7 @@ title: "Stofna samstæðuhópa og fleiri samstæðulykla"
 description: "Þessi verklýsing sýnir hvernig stofna á flokk samstæðulykla og bæta síðan lykla í flokkinn."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

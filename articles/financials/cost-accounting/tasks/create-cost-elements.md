@@ -3,7 +3,7 @@ title: "Stofna kostnaðareiningar  "
 description: "Það eru nokkrar aðferðir til að stofna kostnaðareiningar í kostnaðarbókhaldi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

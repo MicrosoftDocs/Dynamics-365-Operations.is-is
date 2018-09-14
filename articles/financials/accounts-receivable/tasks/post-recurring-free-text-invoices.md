@@ -3,7 +3,7 @@ title: "Mynda og bóka endurtekna reikninga með frjálsum texta"
 description: "Endurteknir reikningar eru notaðar til að reikningsfæra viðskiptavini reglulega fyrir sömu upphæð."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

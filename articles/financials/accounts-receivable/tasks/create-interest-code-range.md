@@ -3,7 +3,7 @@ title: "Stofna vaxtakóða með sviði"
 description: "Hægt er að setja upp vaxtakóða til að reikna vexti á mismunandi upphæðir samkvæmt svið gilda."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

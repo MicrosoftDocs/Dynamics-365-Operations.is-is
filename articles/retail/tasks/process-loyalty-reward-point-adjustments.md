@@ -3,7 +3,7 @@ title: " Vinna úr leiðréttingum á vildarkerfispunktum"
 description: "Þetta ferli sýnir hvernig til að fletta upp upplýsingar um vildarkort og leiðrétta vildarpunkta."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

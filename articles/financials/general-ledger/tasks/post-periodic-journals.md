@@ -3,7 +3,7 @@ title: "Bóka tímabilsbækur"
 description: "Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæð, texti og aðrar upplýsingar eru endurteknar í hvert sinn sem er sótt í tímabilsbók."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

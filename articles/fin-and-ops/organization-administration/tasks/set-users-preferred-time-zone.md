@@ -3,7 +3,7 @@ title: "Stilla kjörtímabelti notanda"
 description: "Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

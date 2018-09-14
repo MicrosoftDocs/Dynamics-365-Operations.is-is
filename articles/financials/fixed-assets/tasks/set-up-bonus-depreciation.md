@@ -3,7 +3,7 @@ title: "Setja upp bónusafskriftir"
 description: "Þessi ferli sýnir hvernig á að stofna sérstök heimild til afskriftar og tengja hana við eignabók."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

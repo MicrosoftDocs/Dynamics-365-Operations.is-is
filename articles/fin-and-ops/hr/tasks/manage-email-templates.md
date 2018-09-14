@@ -3,7 +3,7 @@ title: "Stjórna sniðmáti fyrir tölvupóst"
 description: "Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki í nýju skjali og nota hana sem sniðmát sem auðvelda að eiga samskipti hagkvæman hátt með umsækjendur og umsækjendur."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

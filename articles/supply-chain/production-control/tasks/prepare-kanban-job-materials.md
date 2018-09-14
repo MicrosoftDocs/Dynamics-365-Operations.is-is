@@ -3,7 +3,7 @@ title: "Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk
 description: "Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

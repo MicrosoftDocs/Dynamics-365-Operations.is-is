@@ -3,7 +3,7 @@ title: "Gefa út afurð/afurðarsniðmát fyrir lögaðila"
 description: "Þetta ferli fer í gegnum hvernig á að losa afurð eða afurðarsniðmát í einni eða fleiri lögaðila."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Stofna beiðni um tilboð"
 description: "Þessi verklýsing sýnir hvernig á að stofna beiðni um tilboð."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Setja upp reglur fyrir stigveldi innkaupategunda
 description: "Notið þetta ferli til að setja upp reglur til þess að panta afurðir í tegund."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

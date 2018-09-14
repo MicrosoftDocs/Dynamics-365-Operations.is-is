@@ -3,7 +3,7 @@ title: "Færa inn sölusamninga"
 description: "Þessi verklýsing sýnir hvernig stofna á sölusamningi sem bindur einum viðskiptavini til að kaupa vöru fyrir samþykkt upphæð yfir tímanum í skiptum fyrir sérstakan afslátt."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

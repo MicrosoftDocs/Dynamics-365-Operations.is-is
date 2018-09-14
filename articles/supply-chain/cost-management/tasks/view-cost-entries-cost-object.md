@@ -3,7 +3,7 @@ title: "Skoða kostnaðarfærslur fyrir kostnaðarhlut"
 description: "Þessi verklýsing sýnir hvernig á að skoða kostnaðarfærslur fyrir kostnaðarhlut."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

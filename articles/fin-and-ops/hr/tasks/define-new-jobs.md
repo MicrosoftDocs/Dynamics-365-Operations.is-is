@@ -3,7 +3,7 @@ title: "Skilgreina ný störf"
 description: "Þetta verk leggur áherslu á stofnun nýju vinnsluna."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

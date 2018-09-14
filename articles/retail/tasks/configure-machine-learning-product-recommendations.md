@@ -3,7 +3,7 @@ title: " Skilgreina ráðleggingar um afurðir sem byggir á vélnámi"
 description: "Þetta ferli endurnýjar gögnin í einingaverslun sem er notuð af machine-learning kerfinu sem knýr ráðleggingar um vörur, og virkjar svo ráðleggingar vöru á biðlurum Sölustaðar."
 author: ashishmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: " Skilgreina starfsmann"
 description: "Þetta ferli sýnir hvernig á að skilgreina starfsmaður í smásölu sem sölufulltrúa sem er hæfur fyrir sölulaun fyrir sölu á Sölustað."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

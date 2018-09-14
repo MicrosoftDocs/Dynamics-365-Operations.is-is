@@ -3,7 +3,7 @@ title: "Setja upp upplýsingar um meiðsl og veikindi"
 description: "Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða fyrir meiðsla eða veikinda vegna hættu á vinnustað."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

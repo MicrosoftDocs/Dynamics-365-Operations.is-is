@@ -3,7 +3,7 @@ title: "Ljúka grunnuppsetningu útgefins afurðarsniðmáts"
 description: "Þessi verklýsing sýnir hvernig á að ljúka lágmarksuppsetningu sem er krafist áður en hægt er að nota afurðarsniðmát í uppskriftarútgáfum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Búa til afmarkaða spurningu"
 description: "Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að velja úr."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

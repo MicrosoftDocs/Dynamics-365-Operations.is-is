@@ -3,7 +3,7 @@ title: "Greiðsluyfirlit viðskiptavina"
 description: "Þessar verkefnaleiðbeiningar fara yfir ýmsar aðferðir sem notaðar eru til að færa inn greiðslur viðskiptavina."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

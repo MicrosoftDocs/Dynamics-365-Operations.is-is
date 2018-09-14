@@ -3,7 +3,7 @@ title: "Stofna strikamerki fyrir afurð"
 description: "Þessi verklýsing sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

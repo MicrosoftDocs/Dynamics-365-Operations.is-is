@@ -3,7 +3,7 @@ title: "Bera saman virkan, áætlaðan og innleystan kostnað í framleiðslupö
 description: "Þessi verklýsing sýnir hvernig á að skoða ástæður fyrir mikinn framleiðslufrávik fyrir framleiðslupöntun."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

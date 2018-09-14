@@ -3,7 +3,7 @@ title: "Setja upp stöður"
 description: "Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

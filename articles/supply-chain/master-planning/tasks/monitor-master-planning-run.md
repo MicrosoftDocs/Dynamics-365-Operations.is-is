@@ -3,7 +3,7 @@ title: "Fylgjast með keyrslu áætlanagerðar"
 description: "Framleiðslustjóri vill sjá hvort keyrslu áætlunargerðar sé í gangi."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

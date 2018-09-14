@@ -3,7 +3,7 @@ title: "Skilgreina reikningagerð fyrir verk innan samstæðu"
 description: "Þessi verklýsing sýnir hvernig á að setja upp reikningsfærslu verkefnis á milli tveggja fyrirtækja innan fyrirtækis."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

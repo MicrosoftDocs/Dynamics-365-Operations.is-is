@@ -3,7 +3,7 @@ title: "Stofna bankaaðstöðusamning fyrir bankaábyrgð"
 description: "Þetta verk útskýrir stofnun bankaaðstöðusamning til að vinna ábyrgðarbréf."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

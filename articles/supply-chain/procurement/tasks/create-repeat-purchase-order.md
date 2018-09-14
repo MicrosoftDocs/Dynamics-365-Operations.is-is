@@ -3,7 +3,7 @@ title: "Stofna endurtekna innkaupapöntun"
 description: "Þessi verklýsing sýnir hvernig á að stofna endurtaka innkaupapöntunina (PO) með því að afrita línur úr eldri innkaupapöntunarskjalinu í nýja Innkaupapöntun eða fyrirliggjandi Innkaupapantana."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

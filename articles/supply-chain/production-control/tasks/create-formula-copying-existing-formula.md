@@ -3,7 +3,7 @@ title: "Búa til formúlu með því að afrita úr fyrirliggjandi formúlu"
 description: "Þessi verklýsing sýnir hvernig á að stofna nýja formúlu fljótlegan hátt með því að afrita úr fyrirliggjandi formúlu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

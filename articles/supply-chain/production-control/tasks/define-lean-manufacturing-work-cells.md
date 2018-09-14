@@ -3,7 +3,7 @@ title: "Skilgreina vinnuflokka lean-framleiðslu"
 description: "Vinnuflokkur er tiltekna tegund fyrir tilfangaflokka sem hægt er að nota í lean-framleiðsla verkþætti."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

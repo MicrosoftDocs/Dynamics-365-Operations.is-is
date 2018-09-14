@@ -3,7 +3,7 @@ title: "Skilgreina flokka í markvissri áætlanagerð"
 description: "flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afurðir í áætlun kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

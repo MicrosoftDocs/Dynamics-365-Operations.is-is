@@ -3,7 +3,7 @@ title: "Stofna virðisstraum"
 description: "Virðisstraumar eru rekstrareining sem flokka eitt eða fleiri framleiðsluflæði."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

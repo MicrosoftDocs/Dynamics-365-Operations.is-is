@@ -3,7 +3,7 @@ title: "Skilgreina greiðsluskilmála lánardrottna"
 description: "Setja upp greiðsluskilmála fyrir reikninga lánardrottins."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

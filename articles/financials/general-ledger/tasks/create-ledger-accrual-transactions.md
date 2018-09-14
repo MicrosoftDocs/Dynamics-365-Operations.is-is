@@ -3,7 +3,7 @@ title: "Stofna uppsöfnunarfærslur fyrir fjárhag"
 description: "Þessar verkleiðbeiningar fara í gegnum myndun uppsöfnunarfærslna höfuðbókar sem eru byggðar á grunni uppsöfnunarskema."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

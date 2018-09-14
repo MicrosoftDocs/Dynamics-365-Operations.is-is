@@ -3,7 +3,7 @@ title: "Færa inn GTIN-kóða fyrir afurð"
 description: "Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

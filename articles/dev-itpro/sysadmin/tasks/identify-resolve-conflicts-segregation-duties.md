@@ -3,7 +3,7 @@ title: "Bera kennsl og leysa úr árekstrum fyrir aðskilnað á skyldum"
 description: "Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af mismunandi notendum."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

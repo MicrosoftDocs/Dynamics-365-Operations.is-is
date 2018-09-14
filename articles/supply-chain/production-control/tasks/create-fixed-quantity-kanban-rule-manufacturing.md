@@ -3,7 +3,7 @@ title: "Stofna kanban í föstu magni fyrir framleiðslu"
 description: "Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna fasta kanban-reglu framleiðslu til að kveikja umbreytingarverkþætti, á vinnuflokk, í lean-umhverfi."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

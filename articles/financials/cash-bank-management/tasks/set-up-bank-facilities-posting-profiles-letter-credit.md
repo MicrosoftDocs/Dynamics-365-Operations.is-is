@@ -3,7 +3,7 @@ title: "Setja upp starfsstöðvar banka og bókunarreglur fyrir bankaábyrgð"
 description: "Þetta ferli fer í gegnum stofnun Bankaaðstöðu og bókunarreglu sem þarf til að vinna kreditbréf."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

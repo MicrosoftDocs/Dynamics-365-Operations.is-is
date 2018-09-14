@@ -3,7 +3,7 @@ title: Breyta dagsetningu lotunnar
 description: "Sjálfgefið er núverandi dagsetning notuð þegar slegið inn og bókað færslubókarfærslur eða upprunaskjal."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

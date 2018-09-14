@@ -3,7 +3,7 @@ title: "Stofna eiginleika áætlunargerðar vinnutíma"
 description: "Forstillingar fyrir áætlun vinnutíma eru notaðir til að flokka tímabil vinnutíma og skilgreina stillingar sem rekstraraðilar verður að taka mið af."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

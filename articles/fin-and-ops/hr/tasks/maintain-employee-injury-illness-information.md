@@ -3,7 +3,7 @@ title: "Vinna með upplýsingar um meiðsl og veikindi"
 description: "Mælt er með að ljúka við \"Uppsetningu meiðsla og veikinda' leiðarvísi fyrir verk fyrst þar sem sum uppsetningu upplýsingar er notuð hér."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

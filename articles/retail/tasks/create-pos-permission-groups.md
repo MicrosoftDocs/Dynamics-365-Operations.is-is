@@ -3,7 +3,7 @@ title: " Stofna heimildaflokka sölustaða"
 description: "Þetta ferli mun sýna hvernig á að stofna heimildaflokk Sölustaðar."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

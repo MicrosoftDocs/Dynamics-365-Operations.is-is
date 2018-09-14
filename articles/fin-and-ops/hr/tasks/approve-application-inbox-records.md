@@ -3,7 +3,7 @@ title: "Samþykkja innhólfsfærslur forrits"
 description: "Þessi verklýsing sýnir hvernig á að endurskoða umsóknir sem tekið með í sjálfsafgreiðslusíðum Starfsmanna."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

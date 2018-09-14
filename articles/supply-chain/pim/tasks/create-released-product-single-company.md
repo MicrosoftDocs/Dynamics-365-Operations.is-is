@@ -3,7 +3,7 @@ title: "Stofna útgefna afurð fyrir stakt fyrirtæki"
 description: "Þetta ferli fer í gegnum hvernig skal stofna eina losaða afurð í einni einingu lögaðila."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

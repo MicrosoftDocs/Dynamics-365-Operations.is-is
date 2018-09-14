@@ -3,7 +3,7 @@ title: "Búa til afurðarsniðmát sem byggir á víddum"
 description: "Þessi ferli sýnir hvernig á að stofna nýjan afurðarsniðmát með skilgreiningartækni sem byggist á víddum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

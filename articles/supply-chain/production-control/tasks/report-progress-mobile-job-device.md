@@ -3,7 +3,7 @@ title: "Tilkynna um framvindu í fartæki"
 description: "Þetta ferli sýnir framvindu skýrslu og hvernig á að ræsa framleiðsluverk í skjámynd skráningarblöð tækis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

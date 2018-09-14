@@ -3,7 +3,7 @@ title: Skilgreina bylgjuvinnslu
 description: "Í þessum leiðbeiningum er lýst hvernig eigi að setja upp skilyrði sem ákvarða hvort bylgjur eru unnar handvirkt eða sjálfvirkt og vinnu sem er mynduð fyrir vöruhús þegar unnið er úr bylgju."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

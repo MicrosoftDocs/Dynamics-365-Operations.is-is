@@ -3,7 +3,7 @@ title: "Skilgreina líkön framleiðsluflæðis"
 description: "Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-framleiðsla er reiknaður og honum viðhaldið."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

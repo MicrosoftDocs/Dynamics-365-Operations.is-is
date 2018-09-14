@@ -3,7 +3,7 @@ title: "Stofna hluta vörulíkana"
 description: "Afbrigðalíkönum afurðar sem byggir á skorðum nota íhluti sem grunneiningar til að koma á skipan vörulíkans."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Setja upp skýrslugerðarkóða virðisaukaskatts"
 description: "Skýrslugerðakóðar söluskatts vísa í númer svæða í söluskattskýrslu."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

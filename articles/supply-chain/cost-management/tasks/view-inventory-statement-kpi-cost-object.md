@@ -3,7 +3,7 @@ title: "Skoða birgðayfirlit og afkastavísi eftir kostnaðarhlut"
 description: "Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

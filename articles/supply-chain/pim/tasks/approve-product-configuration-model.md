@@ -3,7 +3,7 @@ title: "Samþykkja afbrigðalíkan afurða"
 description: "Keyra þetta ferli krefst sem að minnsta kosti eitt afbrigðalíkan afurðar er tiltækt."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

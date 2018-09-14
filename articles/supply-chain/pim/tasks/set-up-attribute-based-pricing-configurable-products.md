@@ -3,7 +3,7 @@ title: "Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir"
 description: "Þessi verklýsing sýnir hvernig á að setja upp eigindabyggða úthlutun."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

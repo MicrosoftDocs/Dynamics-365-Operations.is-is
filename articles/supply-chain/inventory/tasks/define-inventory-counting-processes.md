@@ -3,7 +3,7 @@ title: "Skilgreina birgðatalningarferli"
 description: "Þetta ferli fer í gegnum skilgreiningu á grunni birgðatalningabókar ferli með því að stofna talningarflokk og talningarbók."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

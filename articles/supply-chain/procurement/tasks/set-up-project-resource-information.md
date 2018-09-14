@@ -3,7 +3,7 @@ title: "Setja upp upplýsingar um tilföng verks"
 description: "Þetta ferli sýnir hvernig á að setja upp tilföng verks."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

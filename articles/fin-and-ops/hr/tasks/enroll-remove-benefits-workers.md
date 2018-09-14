@@ -3,7 +3,7 @@ title: "Skrá og fjarlægja fríðindi starfsmanna"
 description: "Þetta ferli sýnir hvernig hægt er að skrá einn starfsmann í einu eða fleiri fríðindi, auk marga starfsmenn er hægt að skráður fyrir fríðindum."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

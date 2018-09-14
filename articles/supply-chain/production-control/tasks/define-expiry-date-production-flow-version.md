@@ -3,7 +3,7 @@ title: "Skilgreina lokadag fyrir útgáfu framleiðsluflæðis"
 description: "Til að ljúka gildistíma og vinnslu í útgáfu framleiðsluflæðis á tiltekinni dagsetningu eða til að áætla skipti á virkri útgáfu með nýrri útgáfu, þarf að setja inn lokadag í útgáfunni."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

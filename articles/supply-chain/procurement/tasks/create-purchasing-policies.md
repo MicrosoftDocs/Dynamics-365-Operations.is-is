@@ -3,7 +3,7 @@ title: "Búa til innkaupastefnu"
 description: "Þessi verklýsing sýnir hvernig á að stofna innkaupareglur til samræmis við viðskiptaferli þín fyrir innkaup."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

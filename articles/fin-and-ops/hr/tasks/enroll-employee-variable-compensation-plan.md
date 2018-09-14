@@ -3,7 +3,7 @@ title: "Skráið starfsmann inn í breytilega greiðsluáætlun"
 description: "Stjórnandi Launa og Fríðinda getur skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

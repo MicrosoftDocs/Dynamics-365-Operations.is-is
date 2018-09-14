@@ -3,7 +3,7 @@ title: "Stofna innkaupapöntun verks"
 description: "Þetta ferli sýnir hvernig stofna innkaupapöntun fyrir verkefni."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

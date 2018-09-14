@@ -3,7 +3,7 @@ title: "Skilgreina launavinnslu og reikna niðurstöður"
 description: "Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyrir starfsmenn sem eru skráðir í fyrirkomulag fastra launa og breytilegrar uppbótar."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

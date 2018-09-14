@@ -3,7 +3,7 @@ title: "Stofna verkþáttarvensl: næsti þáttur"
 description: "Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

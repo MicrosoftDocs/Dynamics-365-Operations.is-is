@@ -3,7 +3,7 @@ title: "Færa inn upplýsingar um starfsmann"
 description: "Eftir að ráðningaraðila hefur stofnuð fjöldaráðningaverk og stöður, næsta skref er að færa inn upplýsingar starfsmanna fyrir fólk sem er verið að ráða."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

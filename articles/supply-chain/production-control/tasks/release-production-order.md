@@ -3,7 +3,7 @@ title: "Gefa út framleiðslupöntun"
 description: "Þetta ferli sýnir hvernig á að losa framleiðslupöntun."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

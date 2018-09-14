@@ -3,7 +3,7 @@ title: "Breyta borða eða kennimerki"
 description: "Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

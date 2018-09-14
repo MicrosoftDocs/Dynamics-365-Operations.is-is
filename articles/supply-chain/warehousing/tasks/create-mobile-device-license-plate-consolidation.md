@@ -3,7 +3,7 @@ title: "Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna"
 description: "Þessi verklýsing sýnir hvernig á að stofna valmyndaratriði fartækis fyrir vinnu við samstæðu númeraplötu."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

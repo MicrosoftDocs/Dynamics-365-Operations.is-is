@@ -3,7 +3,7 @@ title: "Stofna aðallykil"
 description: "Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

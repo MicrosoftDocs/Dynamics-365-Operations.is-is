@@ -3,7 +3,7 @@ title: "Bæta útreikningi við afbrigðalíkan afurðar"
 description: "Þessi verklýsing sýnir hvernig á að bæta nýjan útreikning við afbrigðalíkani afurðar."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

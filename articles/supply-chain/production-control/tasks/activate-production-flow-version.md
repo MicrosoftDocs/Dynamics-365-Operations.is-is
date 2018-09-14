@@ -3,7 +3,7 @@ title: "Virkja útgáfu framleiðsluflæðis"
 description: "Áður en hægt er að stofna kanban-vinnslur og aðgerðir má vinna fyrir útgáfu framleiðsluflæðis, ætti að virkja útgáfu."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

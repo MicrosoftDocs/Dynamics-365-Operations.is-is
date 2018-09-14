@@ -3,7 +3,7 @@ title: "Áætla framleiðslupöntun með rekstrar- og vinnuröðun"
 description: "Þetta ferli áherslu á röðun á framleiðslupöntun með aðgerðaröðun og vinnsluröðun."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Setja upp greiðsluseðlasnið fyrir verkreikninga"
 description: "Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að aðstoða viðskiptavina og veita þannig greiðslutilvísun fyrir bókun og jöfnun."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

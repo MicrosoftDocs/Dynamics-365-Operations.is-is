@@ -3,7 +3,7 @@ title: "Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur"
 description: "Þetta verk leggur áherslu á uppsetningu valmyndaratriði fartækis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Vinna með lokadaga fríðinda"
 description: "Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

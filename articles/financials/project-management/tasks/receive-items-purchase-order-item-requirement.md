@@ -3,7 +3,7 @@ title: "Taka við atriðum í innkaupapöntun fyrir vöruþörf"
 description: "Þetta ferli sýnir hvernig á að taka við vörum í innkaupapöntun úr vöruþörf."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

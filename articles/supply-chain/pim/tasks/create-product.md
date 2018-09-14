@@ -3,7 +3,7 @@ title: "Stofna afurð"
 description: "Þetta ferli fer í gegnum að stofna nýja afurð í stigveldi smásöluafurðar."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

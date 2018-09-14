@@ -3,7 +3,7 @@ title: "Setja upp vinnusniðmát fyrir innkaupapantanir"
 description: "Þetta ferli leggur áherslu á setja upp einfaldar vinnusniðmáts sem nota á þegar taka á frá mótteknar vörur."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

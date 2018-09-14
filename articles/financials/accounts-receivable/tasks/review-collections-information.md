@@ -3,7 +3,7 @@ title: "Fara yfir innheimtuupplýsingar"
 description: "Þetta ferli fer í gegnum hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtu færslur."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

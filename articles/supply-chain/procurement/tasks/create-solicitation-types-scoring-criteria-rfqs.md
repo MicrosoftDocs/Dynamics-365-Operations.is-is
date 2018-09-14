@@ -3,7 +3,7 @@ title: "Búa til gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðs
 description: "Þessari handbók sýnir hvernig á að stofna gerð beiðni og tengja þetta við aðferð við stigagjöf."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
