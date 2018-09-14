@@ -3,7 +3,7 @@ title: "Setja upp lágmark og hámark fyrir áfyllingarferli"
 description: "Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9521dbded6171074b9d1e1dec3652f73dc76d33e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5fc03e0cf0ceb27a5cc406860bf5bd877e95460c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="78050-103">Setja upp lágmark og hámark fyrir áfyllingarferli</span><span class="sxs-lookup"><span data-stu-id="78050-103">Set up a min-max replenishment process</span></span>

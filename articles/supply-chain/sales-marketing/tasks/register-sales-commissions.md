@@ -3,7 +3,7 @@ title: "Skrá söluþóknun"
 description: "Þessi verklýsing sýnir hvernig sölulaun eru reiknuð og skráð."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 23ab5f9885983f2409794fc7f51a727a97f40ff4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2c39b2fcf521106dfb58466bc45a316c0b506345
 ms.contentlocale: is-is
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="c735b-103">Skrá söluþóknun</span><span class="sxs-lookup"><span data-stu-id="c735b-103">Register sales commissions</span></span>

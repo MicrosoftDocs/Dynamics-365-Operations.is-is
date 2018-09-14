@@ -6,6 +6,8 @@
       items:
         - name: Nýjungar eða breytingar
           items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (ágúst 2018)
+              href: whats-new-talent-august2018.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (júlí 2018)
               href: whats-new-talent-july2018.md
         - name: Kerfiskröfur og uppfærsluregla
@@ -16,8 +18,8 @@
           href: remove-talent-environment.md
         - name: Úthlutun Talent MOD-forrita
           href: modular-app-tech-faq.md
-        - name: Auka virkni Talent
-          href: extend-talent-functionality.md
+        - name: Innfella PowerApps-forrit
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Fá aðgang að eiginleikum í forútgáfu
           href: access-preview-feature.md
         - name: Skilgreina launasamþættingu milli Talent og Dayforce

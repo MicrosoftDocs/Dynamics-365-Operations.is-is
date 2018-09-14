@@ -3,7 +3,7 @@ title: "Stofna innkaupapöntun úr sölupöntun"
 description: "Þessi verklýsing sýnir hvernig á að stofna innkaupapöntun sem byggist á sölupöntun."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ca2bd03b6bd8e59fb278ba25239519b535cc8bec
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7991476b86ace92cda513ae8906c62ba7fbbe915
 ms.contentlocale: is-is
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="18c9d-103">Stofna innkaupapöntun úr sölupöntun</span><span class="sxs-lookup"><span data-stu-id="18c9d-103">Create a purchase order from a sales order</span></span>

@@ -3,7 +3,7 @@ title: "Skilgreina fjárhagsvíddir"
 description: "Þessi leiðarvísir fyrir verk sýnir hvernig bætt er við einingu afrita fjárhagsvídd og sérstillta fjárhagsvídd."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 147702c1036c0ada41719c27a033dd646de811f4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
 ms.contentlocale: is-is
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-financial-dimensions"></a><span data-ttu-id="f366c-103">Skilgreina fjárhagsvíddir</span><span class="sxs-lookup"><span data-stu-id="f366c-103">Define financial dimensions</span></span>

@@ -8,7 +8,7 @@
       href: get-started/before-you-buy.md
     - name: Skaltu skrá þig fyrir prufuáskrift
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Setja upp sýniútgáfuumhverfi
+    - name: Uppsetning sýniútgáfuumhverfis
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Uppsetningarvalkostir
       href: dev-itpro/choose-deployment.md
@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Vörulistar símavers
       href: call-center-catalogs.md
-    - name: Búa til vörulista símavers
-      href: create-call-center-catalogs.md
     - name: Skilgreina afhendingarmáta og gjöld
       href: configure-call-center-delivery.md
     - name: Setja upp og vinna með svikaviðvaranir
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: Aðgerðir sölustaðar á neti og utan nets
       href: pos-operations.md
+    - name: Virkjun tækis á sérsniðnu Retail Modern POS
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Skjáútlit sýnigagna í MPOS og sölukerfi í skýinu
       href: demo-data.md
     - name: Afurða- og viðskiptavinaleit í sölustaðnum
