@@ -1,6 +1,6 @@
 --- 
 title: "Færa inn sölusamninga"
-description: "Þessi verklýsing sýnir hvernig stofna á sölusamningi sem bindur einum viðskiptavini til að kaupa vöru fyrir samþykkt upphæð yfir tímanum í skiptum fyrir sérstakan afslátt."
+description: "Þessi verklýsing sýnir hvernig stofna á sölusamningi sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkt upphæð yfir tímanum in skiptum fyrir sérstakan afslátt."
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
@@ -18,19 +18,17 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a>Færa inn sölusamninga
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig stofna á sölusamningi sem bindur einum viðskiptavini þinna til að kaupa vöru fyrir
-
-samþykkt upphæð yfir tímanum í skiptum fyrir sérstakan afslátt. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
+Þessi verklýsing sýnir hvernig stofna á sölusamningi sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkt upphæð yfir tímanum in skiptum fyrir sérstakan afslátt. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Setja upp Haus sölusamnings

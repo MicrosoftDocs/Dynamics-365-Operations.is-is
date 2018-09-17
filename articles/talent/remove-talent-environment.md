@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>Fjarlægja Talent-umhverfi
 
+[!include [banner](includes/banner.md)]
+
 Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Að fjarlægja prufukeyrsluumhverfi

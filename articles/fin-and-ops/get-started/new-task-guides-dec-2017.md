@@ -25,6 +25,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (desember 2017)
 
+[!include [banner](../includes/banner.md)]
+
 Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (desember 2016 -- öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations.
 
 

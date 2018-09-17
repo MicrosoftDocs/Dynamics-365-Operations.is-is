@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>AxErd-síðunni hefur verið lokað
 
+[!include [banner](../includes/banner.md)]
+
 Því miður þurftum við að loka AxErd vefsíðunni sem útvegaði skýringarmyndir einingavensla (ERD) fyrir margar Microsoft Dynamics AX 2012 töflur. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í Github-geymslu: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-síðurnar eru í geymslunni á slóðinni [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

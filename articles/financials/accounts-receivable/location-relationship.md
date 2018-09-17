@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Bæta við staðsetningarhlutverkum og aðilatengslagerðum 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Bæta við staðsetningarhlutverkum
 
 Það eru tvær leiðir til að bæta við nýjum staðsetningarhlutverkum fyrir aðsetur og tengslaupplýsingar:
