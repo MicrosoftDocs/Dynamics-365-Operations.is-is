@@ -1,7 +1,7 @@
 --- 
 title: "Athuga framboð birgðaframboð"
 description: "Þessi ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer."
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
