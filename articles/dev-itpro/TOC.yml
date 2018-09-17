@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Draga úr líkanatakmörkunum til að endurþátta yfirlög í viðbætur
               href: extensibility/refactoring-over-layering.md
-        - name: Hvernig skal?
+        - name: Búa til viðbætur
           items:
-            - name: Bæta gildum við enums
+            - name: Bæta gildum við fasttexta
               href: extensibility/add-enum-value.md
             - name: Breyta auknum gagnagerðum
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Stækka töflukort sem eru notuð fyrir útgáfustjórnun
               href: extensibility/maps-with-versioning.md
+        - name: Búa til stækkanlegar lausnir
+          items:
+            - name: Skrifa stækkanlegan kóða
+              href: extensibility/writing-extensible-code.md
+            - name: Klasar
+              href: extensibility/extensible-classes.md
+            - name: Aðferðir
+              href: extensibility/extensible-methods.md
+            - name: Skjámyndir
+              href: extensibility/extensible-forms.md
+            - name: Auknar gagnagerðir
+              href: extensibility/extensible-edts.md
+            - name: Stækkanlegir fasttextar
+              href: extensibility/extensible-enums.md
+            - name: Fulltrúar
+              href: extensibility/extensible-code-delegates.md
+            - name: Töflur
+              href: extensibility/extensible-tables.md
+            - name: Stækkunarhæfniseigindir fyrir aðferðir
+              href: extensibility/extensibility-attributes.md
+            - name: Breytingum skipt
+              href: extensibility/breaking-changes.md
     - name: Afköst
       items:
-        - name: Taka rakningar með rakningarþáttara
+        - name: Taka rakningar með Trace-þáttara
           href: perf-test/trace-trace-tutorial.md
         - name: SDK fyrir afköst og fjölnotendaprófun með Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: SDK fyrir afköst og fjölnotendaprófun í innanhússumhverfi
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Greina vandamál og afköst með rakningarþáttara
+        - name: Greina vandamál og afköst með Trace-þáttara
           href: perf-test/trace-parser.md
         - name: Afkastateljari
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Búa til reglur fyrir fínstillingarráðgjöf
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Tilkynna framleiðslustöðvun
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Tilföng fyrir Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Endurræsa umhverfisþjónustu
       href: lifecycle-services/restart-environment-services.md
+    - name: Tilkynna framleiðslustöðvun
+      href: lifecycle-services/report-production-outage.md
     - name: Rekja innskráningar notenda
       href: lifecycle-services/user-logins.md
     - name: Eignasafn

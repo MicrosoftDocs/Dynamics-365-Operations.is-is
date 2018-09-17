@@ -1,21 +1,22 @@
----
+--- 
 title: "Leiðrétta birgðastöðu í vöruhúsi (grunnvöruhús)"
 description: "Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun birgðaleiðréttingabók til að leiðrétta geymslustig afurða í vöruhúsið."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 9ca5841fe857990cae8d9551ccf79c3c0fd490ae
@@ -58,4 +59,5 @@ ms.lasthandoff: 09/29/2017
 4. Smellið á „Í lagi“.
 5. Lokaðu skjámyndinni.
 6. Lokið síðunni.
+
 

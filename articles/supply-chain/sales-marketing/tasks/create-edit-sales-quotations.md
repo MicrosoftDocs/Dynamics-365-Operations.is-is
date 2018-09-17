@@ -3,23 +3,24 @@ title: "Stofna og breyta sölutilboðum"
 description: "Þetta ferli sýnir hvernig á að stofna og uppfæra sölutilboð."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SalesQuotationTotals, SalesQuotationPriceSimulation, SalesQuotationEditLines, SrsReportViewerForm, smmSetNumSeqIfManual, CustTable, SalesTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 7ffa4fe8d87db5b3f8293ec9dbc042496d09d6e3
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f56b495131836689395a2124d5a834579e1646b7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-and-edit-sales-quotations"></a>Stofna og breyta sölutilboðum
@@ -50,7 +51,7 @@ ms.lasthandoff: 11/03/2017
 15. Smellið á „Sölutilboðslína“.
 16. Smellið á „Verð“.
     * Í síðunni Keyra verðhermingu er hægt að gera tilraunir með leiðrétta áætlaðar tekjur eða arðsemisgreiningu af tilboði byggt á viðkomandi einingarverð, afsláttarupphæð, afsláttarprósenta, heildarupphæð, framlegð, eða framlegðarhlutfall.   Þegar þú ert ánægður með tölur, nota sem tillaga fyrir tilboðslínuna og verðtengd svæði verða uppfærðar samkvæmt því.  
-    * Hægt er að stofna eins margar verðhermingar og óskað er. Þegar smellt er á Nýtt, eru verðskilyrði úr núgildandi tilboðslínu afrituð á síðu. Síðan er hægt að breyta gildi í hvaða verð-tengdum svæðum í þau sem eru markmiðið. Breyting á eitt af svæðunum kveikir endurútreikningur í öllum öðrum svæðum. Til þess að reikna út framlegð sölu og framlegðarhlutfall, verður einingarkostnað afurðar að vera þekkt. Notið flipann hermunarverð fyrir ítarlegri yfirlit yfir upphaflegt verð, lögð til breytingar og áhrif þeirra á tilboðssamtölur.   Almenna reglan er að þegar hermun stillir nýja upphæð er notað í tilboðslínunni, endurreiknar kerfið og færir inn nýtt gildi í reitinn einingarverð. Ef hermunina er byggð á nýja framlegð eða nýtt framlegðarhlutfall, er aðeins nettóupphæð svæðið er uppfært og einingarverð er autt. Í báðum tilvikum afsláttum sem voru í tilboðslínunni fyrir hermun verður eytt.  
+    * Þú getur stofna eins margar verðherming sem óskað er. Þegar smellt er á Nýtt, eru verðskilyrði úr núgildandi tilboðslínu afrituð á síðu. Síðan er hægt að breyta gildi í hvaða verð-tengdum svæðum í þau sem eru markmiðið. Breyting á eitt af svæðunum kveikir endurútreikningur í öllum öðrum svæðum. Til þess að reikna út framlegð sölu og framlegðarhlutfall, verður einingarkostnað afurðar að vera þekkt. Notið flipann hermunarverð fyrir ítarlegri yfirlit yfir upphaflegt verð, lögð til breytingar og áhrif þeirra á tilboðssamtölur.   Almenna reglan er að þegar hermun stillir nýja upphæð er notað í tilboðslínunni, endurreiknar kerfið og færir inn nýtt gildi í reitinn einingarverð. Ef hermunina er byggð á nýja framlegð eða nýtt framlegðarhlutfall, er aðeins nettóupphæð svæðið er uppfært og einingarverð er autt. Í báðum tilvikum afsláttum sem voru í tilboðslínunni fyrir hermun verður eytt.  
 17. Lokið síðunni.
 18. Smellið á „Tilboð“ á aðgerðarúðunni.
 19. Smellið á „Senda tilboð“.

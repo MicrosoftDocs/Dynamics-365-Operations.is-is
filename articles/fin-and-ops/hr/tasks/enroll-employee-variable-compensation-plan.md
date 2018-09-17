@@ -1,32 +1,33 @@
 --- 
-title: "Skrá starfsmenn í breytilegt launafyrirkomulag"
-description: "stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
+title: "Skráið starfsmann inn í breytilega greiðsluáætlun"
+description: "Stjórnandi Launa og Fríðinda getur skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 6546026da906156573b15488fb63a78c4c1df4ca
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="enroll-employees-in-a-variable-compensation-plan"></a>Skrá starfsmenn í breytilegt launafyrirkomulag
+# <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Skráið starfsmann inn í breytilega greiðsluáætlun
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þetta ferli gerir ráð fyrir að breytilega launafyrirkomulag hefur verið stofnuð með Virkja ráðningu svæðið stillt á Já og hæfnisreglur hafa verið stofnaðar fyrir breytilega launafyrirkomulag. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þetta ferli, farið í Mannauður > Starfsfólk > Starfsmenn > Laun > Skráning í breytilega áætlun
+Stjórnandi Launa og Fríðinda getur skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þetta ferli gerir ráð fyrir að breytilega launafyrirkomulag hefur verið stofnuð með Virkja ráðningu svæðið stillt á Já og hæfnisreglur hafa verið stofnaðar fyrir breytilega launafyrirkomulag. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þetta ferli, farið í Mannauður > Starfsfólk > Starfsmenn > Laun > Skráning í breytilega áætlun
 
 1. Smellið á „Nýtt“.
 2. Í reitnum Áætlun skal smella á fellilistahnappinn til að opna leitina.

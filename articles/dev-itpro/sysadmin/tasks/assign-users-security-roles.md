@@ -1,32 +1,33 @@
 --- 
 title: "Skipa notendum í öryggishlutverk"
-description: "Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations þurfa notendur að fá úthlutað öryggishlutverki."
+description: "Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition verður að hafa úthlutað notendum öryggishlutverk."
 author: maertenm
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: da96ec8357ea209fd958e32ab438b13e668735df
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
+# <a name="assign-users-to-security-roles"></a>Skipa notendum í öryggishlutverk
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations þurfa notendur að fá úthlutað öryggishlutverki. Þessu ferli útskýrt hvernig kerfisstjórum hægt úthluta notendum á hlutverk sjálfkrafa, byggt á viðskiptagögn. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition verður að hafa úthlutað notendum öryggishlutverk. Þessu ferli útskýrt hvernig kerfisstjórum hægt úthluta notendum á hlutverk sjálfkrafa, byggt á viðskiptagögn. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Sjálfkrafa skipa notendum í hlutverkin

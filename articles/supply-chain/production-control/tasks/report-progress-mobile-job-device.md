@@ -3,24 +3,25 @@ title: "Tilkynna um framvindu í fartæki"
 description: "Þetta ferli sýnir framvindu skýrslu og hvernig á að ræsa framleiðsluverk í skjámynd skráningarblöð tækis."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Tilkynna um framvindu í fartæki
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 Svo hægt sé að keyra þetta ferli verður þú að hafa hlutverk Kerfisstjóra eða starfsmaður á vél sem tengist notandaaðganginum.
 
 1. Fara í Framleiðslustýringar > Framkvæmd framleiðslu > Verkspjald fyrir tæki.
-2. Í svæðinu WorkerTextField færa inn inn korti starfsmanns. Gerð sýnigögn USMF '123' fyrir Christina Portra í.
+2. Í svæðinu WorkerTextField færa inn inn korti starfsmanns. Gerð sýnigögn USMF '123' fyrir Christina Portra í ...
 3. Smella skal á Innskráning.
 4. Smellt er á Sía hnappur.
 5. Merkja eða afmerkja gátreitur skilgreiningu síu. Ef þú stillir sía geturðu nota framleiðslueining 110 í USMF.

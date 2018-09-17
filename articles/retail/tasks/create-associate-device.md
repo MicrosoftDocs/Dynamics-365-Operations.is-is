@@ -1,31 +1,32 @@
 --- 
-title: "Búa til tæki og tengja þau við afurðir"
+title: " Búa til og tengja tæki"
 description: "Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailDevice
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 7df1111a00fc8ad7f684075fb772b1e33916b687
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-devices-and-associate-them-with-registers"></a>Búa til tæki og tengja þau við afurðir
+# <a name="create-and-associate-a-device"></a> Búa til og tengja tæki
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa. Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.  Þetta verk notar sýnigögn fyrirtæki USRT . Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í smásölu, og Verslunarstjóri .
 

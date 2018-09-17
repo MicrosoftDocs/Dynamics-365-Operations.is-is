@@ -1,31 +1,32 @@
 --- 
-title: "Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager"
+title: " Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager"
 description: "Þetta ferli sýnir skrefum til að stofna áfyllingarreglur."
 author: josaw1
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailReplenishmentRuleTable, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 08f047ab38aea4958da97d80d7d274644b735cd7
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: f3a20b7bf476cae854c7f7c86d89d73e44b6749b
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager
+# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir skrefum til að stofna áfyllingarreglur. Áfyllingarreglur má nota til að stýra hvernig vörur eru dreift á verslanir þegar notuð eru Dreifing frá dreifingarstöð og dreifingar frá lager. Áfyllingarreglur er hægt er að setja upp fyrir verslanir eða verslunarflokka. Þyngd sem er skilgreint fyrir hverja línu í reglu stjórnar því hvernig magn afurða verður dreift á milli verslana þegar notaðar eru áfyllingarreglur sem dreifingaraðferðina dreifing frá dreifingarstöð eða dreifing frá lager. Þessi aðferð notar sýnigögn USRT fyrirtækisins.
 

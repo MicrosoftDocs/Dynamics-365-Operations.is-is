@@ -3,23 +3,24 @@ title: "Setja upp reglur söluþóknunar"
 description: "Þessi verklýsing sýnir hvernig á að setja upp og virkja útreikning á sölulaunum og rakningu."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Setja upp reglur söluþóknunar
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/03/2017
     * Söluflokkur Þóknunar tilgreinir starfsmenn í hlutverki sölufulltrúa sem eru hæfir til að fá þóknun þegar viðskiptavinur tengdur viðeigandi söluflokk kaupir tilteknar vörur.  
     * Í sýnifyrirtækinu USMF er söluflokkur sem heitir „Sölufulltrúar US“.  
 13. Smellið á „Almennt“ á aðgerðarúðunni.
-14. Smellt er á Sölufulltrúa.
+14. Smellt er á Sölufulltrúa...
     * Síðan Sölufulltrúi sýnir lista yfir sölufulltrúa fyrirtækisins sem tengjast ákveðnum þóknunarflokki. Hægt er að úthluta mörgum sölufulltrúum á sama flokk og skilgreina viðkomandi hluta þeirra í heildarþóknun sem prósentugildi. Heildarþóknunarhluti yfir alla starfsmenn má ekki fara yfir 100.  
 15. Í listanum skal merkja valda línu.
 16. Smellið á „Breyta“.

@@ -44,11 +44,13 @@ Til að nota kreditkort, verður að setja upp og virkja greiðsluþjónustu á 
 
 ## <a name="adding-a-new-credit-card"></a>Bæta við nýju kreditkorti
 Hægt er að stofna nýjar kreditkortafærslur á síðunni Viðskiptavinir með því að nota Viðskiptavinur, Setja upp, kreditkort. Einnig er hægt að stofna kreditkortafærslur þegar sölupantanir eru færðar inn á síðunni Vsk, með því að nota Stjórna, Viðskiptavinur, kreditkort, Afgreiðslukassi.
-Kreditkorti bætt við sölupöntun
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Kreditkorti bætt við sölupöntun
 -------------------------------------
 
 Hægt er að bæta kreditkort við sölupöntun með því að velja greiðslukort í uppflettingu kreditkorta í Verð og afslátt flýtiflipa á síðunni Vsk. Til að hefja heimildarferlið, á aðgerðarúðunni, á flipanum Stjórna, veljið kreditkort og heimila.
-Heimila kreditkort
+
+<a name="authorizing-a-credit-card"></a>Heimila kreditkort
 -------------------------
 
 Þegar kreditkort er gefin heimild, er kortanúmerið og nafn handhafa  sannvottuð og tiltæk lánsheimild staðfest. Valkvætt er að staðfesta aðsetur og CVV-númer í korthafa. Tiltæk Lánsheimild viðskiptavinar er síðan minnkuð sem nemur reikningnum.. Greiðsluþjónusta sendir upplýsingar um að kreditkortið hefur verið samþykkt eða hafnað. Þegar sölupöntun er reikningsfærð, er kreditkortið rukkað (sótt) um upphæð reikningsins.

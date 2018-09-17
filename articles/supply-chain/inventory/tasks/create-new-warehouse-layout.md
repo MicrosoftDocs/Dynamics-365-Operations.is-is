@@ -1,21 +1,22 @@
----
+--- 
 title: "Búa til nýtt vöruhúsaútlit"
 description: "Þessi verklýsing sýnir hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Víxla útvíkkun á liðnum heiti staðsetninga.
     * Valkostirnir í þessum hluta er að skilgreina sjálfgefið snið fyrir heiti staðsetningu. Í dæminu okkar mælt verður að innihalda gangnúmers, rekkanúmer og hillunúmer.  
 8. Stilltu valkostur hafa gang með á Já.
-9. Stilltu valkostur hafa rekka með á Já.
+9. Stilltu valkostur hafa rekka með á Já. 
 10. Færa inn gildi í svæðinu Snið fyrir rekka.
     * Til dæmis: -##  
 11. Stilltu valkostur hafa hillu með á Já.
@@ -74,4 +75,5 @@ ms.lasthandoff: 09/29/2017
 14. Smellt er á Ljúka.
 15. Lokið síðunni.
 16. Endurhlaðið síðuna.
+
 
