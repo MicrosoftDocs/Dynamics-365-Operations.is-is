@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Upphæðir í efni eru sýndar í gjaldmiðli kerfisins. Hægt er að stilla gja
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
 
 **Aðferðastjóri** Power BI efni er sýnt í vinnusvæðinu **Verkefnastjórnun**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 
@@ -85,8 +84,7 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efni
 
 | Lykiluppsafnaðar mælingar | Svæði                                             | lýsing |
 |---------------------------|---------------------------------------------------|-------------|
-| Fjöldi verka        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Fjöldi tiltækra verka. |
-
+| Fjöldi verka        | COUNTA(ProjectAccountingCube\_Verkefni\[VERKEFNI\]) | Fjöldi tiltækra verka. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Eining: ProjectAccountingCube\_Forecasts
 **Gagnagjafi:** ProjTransBudget
@@ -109,18 +107,16 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efni
 
 | Lykiluppsafnaðar mælingar    | Svæði | lýsing |
 |------------------------------|-------|-------------|
-| Vísi kostnaðarafkomu       | ProjectAccountingCube\_Projects[Áunnið virði] ÷ ProjectAccountingCube\_Projects[heildarraunkostnaður við lokin verk] | Útreikningur á samtölu áunnins virðis deilt með heildarraunkostnaði. |
-| Vísir fyrir áætluð afköst   | ProjectAccountingCube\_Projects[Áunnið virði] ÷ ProjectAccountingCube\_Projects[Áætlaður heildarkostnaður við lokin verk] | Útreikningur á samtölu áunnins virðis deilt með áætluðum heildarkostnaði. |
-| Prósenta vinnu sem er lokið | Prósenta vinnu sem lokið = ProjectAccountingCube\_Projects [Heildarraunkostnaður lokinna verka] ÷ (ProjectAccountingCube\_Projects [Heildarraunkostnaður lokinna verka] + ProjectAccountingCube\_Projects [Heildar áætlaður kostnaður við verk] - ProjectAccountingCube\_Projects [Áætlaður heildarkostnaður við lokin verk]) | Heildarhlutfall lokinnar vinnu miðað við raunkostnað lokinna verka og áætlaðan kostnað verksins. |
-| Hlutfall unninna reikningshæfra vinnustunda  | ProjectAccountingCube\_Projects[Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir] ÷ (ProjectAccountingCube\_Projects [Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir] + ProjectAccountingCube\_Projects [Heildarfjöldi fyrir raunverulega rukkanlegar álagsstundir]) | Samtala unninna reikningshæfra vinnustunda, miðað við nýttar stundir og álagsstundir. |
-| Áunnið virði                 | ProjectAccountingCube\_Projects[Áætlaður heildarkostnaður verks] × ProjectAccountingCube\_Projects[Hlutfall lokinna verka] | Áætlaður heildarkostnaður margfaldaður með hlutfalli lokinna verka. |
+| Vísi kostnaðarafkomu       | ProjectAccountingCube\_Verkefni\[Aflað gildi\] ÷ ProjectAccountingCube\_Verkefni\[Samtals raunverulegur kostnaður á loknum verkefni\] | Útreikningur á samtölu áunnins virðis deilt með heildarraunkostnaði. |
+| Vísir fyrir áætluð afköst   | ProjectAccountingCube\_Verkefni\[Aflað gildi\] ÷ ProjectAccountingCube\_Verkefni\[Samtals áætlaður kostnaður á loknum verkefnum\] | Útreikningur á samtölu áunnins virðis deilt með áætluðum heildarkostnaði. |
+| Prósenta vinnu sem er lokið | Hlutfall vinnu lokið = ProjectAccountingCube\_Verkefni\[Samtals raunverulegur kostnaður á loknum verkefnum\] ÷ (ProjectAccountingCube\_Verkefni\[Samtals raunverulegur kostnaður á loknum verkefnum\] + ProjectAccountingCube\_Verkefni\[Samtals áætlaður kostnaður verkefnis\] - ProjectAccountingCube\_Verkefni\[Samtals áætlaður kostnaður á loknum verkefnum\]) | Heildarhlutfall lokinnar vinnu miðað við raunkostnað lokinna verka og áætlaðan kostnað verksins. |
+| Hlutfall unninna reikningshæfra vinnustunda  | ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir\] ÷ (ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir\] + ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar álagsstundir\]) | Samtala unninna reikningshæfra vinnustunda, miðað við nýttar stundir og álagsstundir. |
+| Áunnið virði                 | ProjectAccountingCube\_Verkefni\[Samtals áætlaður kostnaður verkefnis\] × ProjectAccountingCube\_Verkefni\[Hlutfall lokinnar vinnu\] | Áætlaður heildarkostnaður margfaldaður með hlutfalli lokinna verka. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Eining: ProjectAccountingCube\_TotalEstimatedCosts 
 **Gagnagjafi:** ProjTable
 
-
-|    Lykiluppsafnaðar mælingar    |        Svæði        |                                          lýsing                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
+|---------------------------------|---------------------|-------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
-
 

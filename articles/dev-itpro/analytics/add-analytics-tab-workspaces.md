@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þi
 Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio verkgervingu.
 
 1. Stofna nýtt verk í viðeigandi líkani.
-2. Veldi verkið í Solution Explorer, hægrismelltu og veldu svo **Bæta við** > **Nýtt atriði**.
+2. Í Solution Explorer skaltu velja verkefnið, hægrismella og síðan velja **Bæta við** \> **Nýtt atriði**.
 3. Í svarglugganum **Bæta við nýju atriði**, undir **Aðgerðagervingar**, velurðu sniðmátið **Tilföng**.
 4. Færðu inn heiti sem verður notað til að vísa til skýrslunnar í X++ lýsigögnum, og smelltu svo á **Bæta við**.
 
@@ -77,7 +77,7 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 
 1. Opnið skjámyndarhönnuðinn til að víkka út hönnunarskilgreininguna.
 2. Í hönnunarskilgreiningunni velurðu efstu eininguna sem er merkt **Design | Pattern: Workspace Operational**.
-3. Hægrismelltu og veldu svo **Nýtt** > **Flipi** til að bæta við nýrri stýringu sem heitir **FormTabControl1**.
+3. Hægrismelltu og veldu **Nýr** \> **Flipi** til að bæta við nýrri stýringu sem heitir **FormTabControl1**.
 4. Veldu **FormTabControl1** í skjámyndarhönnuðinum.
 5. Hægrismelltu og veldu síðan **Ný flipasíða** til að bæta við nýrri flipasíðu.
 6. Gefðu flipasíðunni nýtt og auðskilið heiti, eins og **Vinnusvæði**.
@@ -86,12 +86,12 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 9. Gefðu flipasíðunni nýtt og auðskilið heiti, eins og **Greiningar**.
 10. Veldu **Greiningar (Flipasíða)** í skjámyndarhönnuðinum.
 11. Stilltu eiginleikann **Myndatexti** á **Greiningar**.
-12. Hægrismelltu á stýringuna og veldu svo **Nýtt** > **Hópur** til að bæta við nýrri skjámyndarhópsstýringu.
+12. Hægrismelltu á stýringuna og veldu síðan **Nýr** \> **Hópur** til að bæta við nýrri skjámyndarhópsstýringu.
 13. Gefðu skjámyndarhópnum nýtt og auðskilið heiti, eins og **powerBIReportGroup**.
 14. Veldu **PanoramaBody (Flipi)** í skjámyndarhönnuðinum, og dragðu svo stýringuna á flipann **Vinnusvæði**.
 15. Í hönnunarskilgreiningunni velurðu efstu eininguna sem er merkt **Design | Pattern: Workspace Operational**.
 16. Hægrismelltu og veldu svo **Fjarlægja mynstur**.
-17. Hægrismelltu aftur og veldu síðan **Bæta við mynstri** > **Vinnusvæði á flipa**.
+17. Hægrismelltu aftur og veldu síðan **Bæta við mynstri** \> **Flipar á vinnusvæði**.
 18. Framkvæmdu byggingu til að sannreyna breytingarnar.
 
 Eftirfarandi skýringarmynd sýnir hvernig hönnunin lítur út eftir að breytingarnar eru gerðar.
@@ -103,7 +103,7 @@ Nú þegar þú hefur bætt við skjámyndarstýringunum sem verða notaðar til
 > [!NOTE]
 > Fyrir innfelld vinnusvæði mælum við með að nota skrárendingar til að fela bæði síðuna **Síurúða** og síðuna **Flipi**, til að tryggja stöðugleika.
 
-Nú hefurðu klárað það verk að útvíkka skilgreiningu umsóknareyðublaðsins. Frekari upplýsingar um hvernig á að nota skrárendingar til að sérsníða er að finna á  [Sérsnið: yfirlögn og skrárendingar](../extensibility/customization-overlayering-extensions.md).
+Nú hefurðu klárað það verk að útvíkka skilgreiningu umsóknareyðublaðsins. Nánari upplýsingar um hvernig á að nota viðbætur til að gera sérstillingar er að finna í [Sérstilling: Yfirlögn og viðbætur](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bættu við X++ viðskiptagrunni til að fella inn yfirlitsstýringu
 Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar skýrsluyfirlitsstýringuna sem er innfelld í vinnusvæðinu  **Stjórnun bókana**.
@@ -116,7 +116,7 @@ Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar ský
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar ský
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja i
 #### <a name="syntax"></a>Málskipun
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Færibreytur
 
-|       Nafn       |                                                              lýsing                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    Heiti .pbix tilfangsins.                                                     |
-| formGroupControl |                                    Skjámyndarhópsstýring til að nota Power BI skýrslustýringuna á.                                     |
-| defaultPageName  |                                                         Sjálfgefið síðuheiti.                                                         |
-|  showFilterPane  |   Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (<strong>satt</strong>) eða falið (<strong>ósatt</strong>).   |
-|   showNavPane    | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (<strong>satt</strong>) eða falið (<strong>ósatt</strong>). |
-|  defaultFilters  |                                              Sjálfgefnar síur Power BI skýrslunnar.                                              |
-
+| Nafn             | lýsing                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | Heiti .pbix tilfangsins.                                                                              |
+| formGroupControl | Skjámyndarhópsstýring til að nota Power BI skýrslustýringuna á.                                              |
+| defaultPageName  | Sjálfgefið síðuheiti.                                                                                       |
+| showFilterPane   | Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (**satt**) eða falið (**ósatt**).     |
+| showNavPane      | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
+| defaultFilters   | Sjálfgefnar síur Power BI skýrslunnar.                                                                 |
 

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -36,9 +36,9 @@ ms.lasthandoff: 04/13/2018
 
 Frekari upplýsingar er að finna á: 
 
-[Stofna reikning með frjálsum texta](tasks/create-free-text-invoice.md)
+[Stofna reikning með frjálsum texta](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Stofna sniðmát með frjálsum texta](tasks/create-free-text-invoice-template.md)
+[Stofna sniðmát með frjálsum texta](../accounts-receivable/create-free-text-invoice-template-new.md)
 
 [Úthluta sniðmáti reiknings með frjálsum texta á viðskiptavin](tasks/assign-free-text-invoice-template-customer.md)
 

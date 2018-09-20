@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Athugið: Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu
 | 707 | Gera tæki virkt | Virkjaðu núverandi tæki með því að leyfa sannvottuðum notanda að veita upplýsingar um tengingu og úthluta tæki og skráa auðkenni. | Númer | Númer | Númer | Númer | Númer |
 | 134 | Bæta við fyrirtækjatengslum | Bæta við forvalinni tengingu við færslu. Veljið tengsl á **Eiginleikar hnapps** síðunni. | Já | Já | Númer | Já | Númer |
 | 135 | Bæta við tengslum úr lista | Bæta tengslum við færslu með því að velja í lista. | Já | Já | Já | Já | Númer |
+| 137 | Bæta tengslum við viðskiptavin | Bættu tengslum við viðskiptavin á síðunni **Upplýsingar um viðskiptavin**. | Númer | Númer | Númer | Já | Númer |
+| 138 | Fjarlægja tengsl við viðskiptavin | Fjarlægja tengsl á síðunni **Upplýsingar um viðskiptavin**. | Númer | Númer | Númer | Já | Númer |
 | 643 | Bæta við afsláttarmiðakóða | Bæta við afsláttarmiða með því að rita kóðann í POS. | Já | Já | Númer | Já | Númer |
 | 117 | Bæta vildarkorti við | Hvettu notandann til að færa inn hollustukortanúmer sem verður bætt við núverandi viðskipti. | Já | Já | Númer | Já | Númer |
 | 136 | Bæta við raðnúmeri | Þessi aðgerð gerir notandanum kleift að tilgreina raðnúmer fyrir vöru sem valin er núna. | Já | Já | Númer | Já | Númer |

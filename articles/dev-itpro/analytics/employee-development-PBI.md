@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ Skýrslur sem fylgja í efni **Þróun starfsmanns** í Power BI hafa bæði myn
 | Hæfnigreiningarstig starfsmanns | Hæfnistig starfsmanns eftir deild, starfsmenn eftir gerð hæfni og lægsta og hæsta stig eftir hæfni |
 | Hæfniyfirlit                 | Hæfniyfirlit fyrir valinn starfsmann |
 | Hæfnigreining                | Hæfni eftir gerð og einkunn |
-| Greining á hæfnimati   | Starfsmenn eftir lægstu og hæstu einkunn eftir starfi, einkunnir starfsmanns eftir deild, starfsmenn eftir einkunn og gerð stöðu hæstu og lægstu einkunnir eftir stöðu  |
+| Greining á hæfnimati   | Starfsmenn eftir lægstu og hæstu einkunn eftir starfi, einkunnir starfsmanns eftir deild, starfsmenn eftir einkunn og gerð stöðu hæstu og lægstu einkunnir eftir stöðu |
 | Greining á starfsmannaárangri | Starfsmannaeinkunn fyrir valdan einkunn eftir stjórnendum |
 
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,10 +48,10 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 
 | Eining                   | Innihald                                                                                                   | Vensl við aðra lögaðila |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Dagsetning starfsupphafs          | Mótbókanir dagatals til að sneiða skýrslur                                                                          | Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur 
+| Dagsetning starfsupphafs          | Mótbókanir dagatals til að sneiða skýrslur                                                                          | Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur |
 | Fyrirt.                    | Fyrirtæki til að sía skýrsla eftir                                                                             | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Núverandi staða         | Stöður frá og með núgildandi dagsetningu, ígildi fulls starfs (FTE), opin staða og virkar-til-óvirkar stöður | Starf, staða |
-| Núverandi starfsmaður         | Starfsmenn frá og með núverandi dagsetningu, aldri og starfsmannafjölda                                                         | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, starfsheiti starfsmanns, lýfræði, starf, atvinna, staða |
+| Núverandi starfsmaður         | Starfsmenn frá og með núverandi dagsetningu, aldri og starfsmannafjölda                                                         | Fyrirtæki, Landfræðileg staðsetning, Nafn starfsmanns, Skýrslur til, Titill starfsmanns, Lýðfræði, Starf, Atvinna, Staða |
 | Dagsetning                     | Dagar, vikur, mánuðir og ár                                                                             | Úthlutun síðustu stöðu, stöðuþróun, starfsmaður sem er hættur, starfsmannaþróun |
 | Lýðfræði             | Fæðingardagur, kyn, þjóðernisuppruni og hjúskapaarstaða                                                   | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Ráðning               | Upphafsdagur, lokadagur og breytingardagur                                                                  | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
@@ -65,10 +65,9 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 | Nafn starfsmanns            | Fornafn, eftirnafn, og fullt nafn                                                                       | Núverandi starfskraftur, starfsmaður sem er hættur, starfsmannaþróun |
 | Titill starfsmanns           | Titill og starfsaldursdagsetning                                                                                   | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf |
-| Starf                      | Aðgerð, gerð og Titill                                                                                      | Núverandi starfsmaður, núverandi staða, starfsmannaleitni, æskileg hæfni starfs, fyrri stöðuúthlutun, stöðuleitni starfsmaður sem er hættur |
+| Starf                      | Aðgerð, gerð og Titill                                                                                  | Núverandi starfsmaður, núverandi staða, starfsmannaleitni, æskileg hæfni starfs, fyrri stöðuúthlutun, stöðuleitni starfsmaður sem er hættur |
 | Hæfni fyrir útvalið verk      | Mikilvægi, einkunn, hæfni og hæfnisstig                                                                 | Starf |
-| Hæfnigreining starfsmanns  | Vottun, stig, dagsetning stigs og hæfni                                                                    | Nafn starfsmanns, hæfni |  
+| Hæfnigreining starfsmanns  | Vottun, stig, dagsetning stigs og hæfni                                                                    | Nafn starfsmanns, hæfni |
 | Afköst              | Mat, lýsing og matslíkan                                                                      | Núverandi starfsmaður, núverandi staða, starfsmannaleitni, æskileg hæfni starfs, fyrri stöðuúthlutun, stöðuleitni starfsmaður sem er hættur |
-|  Hæfni                   | Hæfni, gerð hæfni og mat                                                                              | Hæfnigreining starfsmanns, æskileg hæfni starfs |                                                                                                                        
-
+| Hæfni                    | Hæfni, gerð hæfni og mat                                                                              | Hæfnigreining starfsmanns, æskileg hæfni starfs |
 

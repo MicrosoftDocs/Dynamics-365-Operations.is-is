@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið. Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast. 
+Þessi grein er útskýrt hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í hönnunarviðmót fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið. Einnig er hægt að stjórna því hvernig einstakar skýrslur, skýrslusafnið og sjálfgefnar skráarstaðsetningar birtast.
 
-<a name="set-user-preferences"></a>Kjörstillingar notanda stilltar
---------------------
+## <a name="set-user-preferences"></a>Kjörstillingar notanda stilltar
 
-1.  Á valmyndinni **verkfæri** í Skýrsluhönnun er smellt á **valkostir**.
-2.  Í **Valkostir** svarglugganum skal°velja kjörstillingar.
-3.  Smelltu á **Í lagi**.
+1. Á valmyndinni **verkfæri** í Skýrsluhönnun er smellt á **valkostir**.
+2. Í **Valkostir** svarglugganum skal°velja kjörstillingar.
+3. Smelltu á **Í lagi**.
 
 ## <a name="options-dialog-box-options"></a>Valkostir í svarglugganum Valkostir
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Valkostur notanda</th>
 <th>lýsing</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Við ræsingu</td>
 <td>Veljið það sem sést þegar Report Designer ræsist. Veldu einn af eftirfarandi valkostum:
 <ul>
@@ -57,28 +56,22 @@ ms.lasthandoff: 08/09/2018
 <li><strong>Sýna tómt umhverfi</strong> – Opnar hönnunarglugga er auð.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Birta staðfestingu áður en Report Designer er lokað</td>
-<td>Veljið hvort á að fá viðvörun þegar farið er úr forritinu. Þessi skilaboð hjálpa til við að tryggja að forritinu verði ekki lokað af slysni.</td>
+<td>Veljið hvort á að fá viðvörun þegar farið er úr forritinu. Þessi skilaboð hjálpar til við að tryggja að ekki loka forritinu óvart.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Nota reitaundirstrikun sjálfvirkt í dálkfyrirsögnum</td>
 <td>Veljið hvort á að Setur inn undirstrikun í hólf nýrrar dálkfyrirsagnar.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Staðsetning Management Reporter-skráa</td>
 <td>Tilgreinir sjálfgefna staðsetningu fyrir skrár. Forritið notar sjálfgefna staðsetningu þegar einingahópur flutt út.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-
 
