@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/21/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="1388d-105">Verkefnastjórnun er flokkur aðgerða til að veita þjónusta, framleiða afurð eða ná niðurstaða.</span><span class="sxs-lookup"><span data-stu-id="1388d-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="1388d-106">Verk nota tilföng og mynda fjárhagsniðurstöður í með tekjum eða eignum.</span><span class="sxs-lookup"><span data-stu-id="1388d-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="1388d-107">Verk yfir atvinnugreinar</span><span class="sxs-lookup"><span data-stu-id="1388d-107">Projects across industries</span></span>
-<span data-ttu-id="1388d-108">Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd.</span><span class="sxs-lookup"><span data-stu-id="1388d-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="1388d-109">[![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="1388d-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="1388d-108">Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd.</span><span class="sxs-lookup"><span data-stu-id="1388d-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="1388d-109">[![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="1388d-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="1388d-110">Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal.</span><span class="sxs-lookup"><span data-stu-id="1388d-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="1388d-111">Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk.</span><span class="sxs-lookup"><span data-stu-id="1388d-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="1388d-112">Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent.</span><span class="sxs-lookup"><span data-stu-id="1388d-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="1388d-113">Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur.</span><span class="sxs-lookup"><span data-stu-id="1388d-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="1388d-114">Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.</span><span class="sxs-lookup"><span data-stu-id="1388d-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 
