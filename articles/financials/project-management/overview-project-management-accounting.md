@@ -35,7 +35,9 @@ Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugrei
 Verkefnastjórnun er flokkur aðgerða til að veita þjónusta, framleiða afurð eða ná niðurstaða. Verk nota tilföng og mynda fjárhagsniðurstöður í með tekjum eða eignum.
 
 ## <a name="projects-across-industries"></a>Verk yfir atvinnugreinar
-Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd. [![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum, eins og sýnt er á eftirfarandi mynd.
+
+[![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
 
