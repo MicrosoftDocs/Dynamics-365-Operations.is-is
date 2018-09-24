@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7207febc58dbab1df5551ae0f74ad74d9ced8e56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,73 +35,72 @@ Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skip
 Hægt að endurnefna möppur, skýrslur, einingar og aðra hluti í skýrsluhönnun til að auðvelda röðun skráa. Hugsanlega þarf að uppfæra tengingar við þá hluti, allt eftir gerð hlutarins sem var endurnefndur.
 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mappa eða eining endurnefnd í Skýrsluhönnun
-Í Skýrsluhönnun er hægt að endurnefna möppur, skýrsluskilgreiningar, línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. **Athugasemd:** Þegar eining endurnefna þarf að uppfæra skýrslugerð skilgreiningar sem nota eininguna. Annars er ekki hægt að mynda nýja skýrslu.
+Í Report Designer er hægt að endurnefna möppur, skýrsluskilgreiningar, línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar.
+
+> [!NOTE]
+> Þegar eining er endurnefnd þarf að uppfæra allar skýrsluskilgreiningar sem nota eininguna. Annars er ekki hægt að mynda nýja skýrslu.
 
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mappa eða eining endurnefnd í Skýrsluhönnun
 
-1.  Í Skýrsluhönnun er yfirlitssvæðið notað til að finna möppuna eða hlutinn sem á að endurnefna.
-2.  Hægrismellið á möppuna eða hlutinn og smellið síðan á **Endurnefna**. Reiturinn **Heiti** á yfirlitssvæðinu verður virkur.
-3.  Nýja heitið er fært inn og ýtt á færslulykilinn.
-4.  Ef einingin er línuskilgreining, dálkskilgreining eða skipuritsskilgreiningu verður að uppfæra aðrar einingar sem tengjast því. Hægrismellið á eininguna sem var endurnefnt í skrefi 3, veljið **Tengingar** og veljið svo atriði af listanum til að uppfæra.
-5.  Endurtakið skref 4 þar til öll tengd atriði hafa verið uppfærð.
+1. Í Skýrsluhönnun er yfirlitssvæðið notað til að finna möppuna eða hlutinn sem á að endurnefna.
+2. Hægrismellið á möppuna eða hlutinn og smellið síðan á **Endurnefna**. Reiturinn **Heiti** á yfirlitssvæðinu verður virkur.
+3. Nýja heitið er fært inn og ýtt á færslulykilinn.
+4. Ef einingin er línuskilgreining, dálkskilgreining eða skipuritsskilgreiningu verður að uppfæra aðrar einingar sem tengjast því. Hægrismellið á eininguna sem var endurnefnt í skrefi 3, veljið **Tengingar** og veljið svo atriði af listanum til að uppfæra.
+5. Endurtakið skref 4 þar til öll tengd atriði hafa verið uppfærð.
 
 ## <a name="create-and-manage-report-groups"></a>Stofnun og stjórnun skýrsluhópa
 Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur samtímis. Til að stofna, breyta, eyða og mynda skýrsluhópa þarf að hafa hlutverk hönnuðar eða stjórnanda. Notendur með hlutverk stofnanda geta myndað skýrsluhópa og geta einnig breytt stillingum skýrsluskilgreininga notanda fyrir skýrsluhópa.
 
 ### <a name="create-a-report-group"></a>Skýrsluhópur stofnaður
 
-1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2.  Á **Skrá** valmyndinni, smellið á **Nýtt** &gt; **Skilgreining skýrsluhóps** til að opna nýjan flokk skýrslu í vafra. Einnig er hægt að smella á **Skýrsluhópur** hnappinn ![Skýrsluhópur](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Skýrsluhópur") á tækjastikunni.
-3.  Smellið á flipann **Skýrsluhópur**. Til að hnekkja upplýsingum úr stökum skýrsluskilgreiningum fyrir myndun þessarar skýrslu skal velja gátreitinn **Hnekkja stillingum fyrirtækis, upplýsinga og dagsetningar úr stökum skýrsluskilgreiningum**. Heiti fyrirtækis, upplýsingastig, tímabundnar stillingar og dagsetning eru fyllt inn sjálfkrafa en er hægt að uppfæra.
-4.  Veljið gátreitinn **Taka með alla skýrslugjaldmiðla** ef búa á til margar skýrslur með skýrslugjaldmiðlum. Skoðun í mörgum gluggum má fá með því að smella á hnappinn **Gjaldmiðill** í Vefskoðun þegar skýrslan er skoðuð.
-5.  Í reitnum **Skýrslur í hóp** skal smella á **Bæta við** til að velja skýrslurnar sem eiga að vera í skýrsluhópnum. Til að velja margar skýrslur í svarglugganum **Bæta við** skal halda Ctrl-lyklinum niðri á meðan skýrslur eru valdar. Þegar lokið hefur verið val skýrslur, smellið á **í lagi**.
-6.  Smellið á **Skrá** &gt; **Vista** til að vista nýjan skýrsluhóp.
+1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
+2. Á **Skrá** valmyndinni, smellið á **Nýtt** &gt; **Skilgreining skýrsluhóps** til að opna nýjan flokk skýrslu í vafra. Einnig er hægt að smella á **Skýrsluhópur** hnappinn ![Skýrsluhópur](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Skýrsluhópur") á tækjastikunni.
+3. Smellið á flipann **Skýrsluhópur**. Til að hnekkja upplýsingum úr stökum skýrsluskilgreiningum fyrir myndun þessarar skýrslu skal velja gátreitinn **Hnekkja stillingum fyrirtækis, upplýsinga og dagsetningar úr stökum skýrsluskilgreiningum**. Heiti fyrirtækis, upplýsingastig, tímabundnar stillingar og dagsetning eru fyllt inn sjálfkrafa en er hægt að uppfæra.
+4. Veljið gátreitinn **Taka með alla skýrslugjaldmiðla** ef búa á til margar skýrslur með skýrslugjaldmiðlum. Skoðun í mörgum gluggum má fá með því að smella á hnappinn **Gjaldmiðill** í Vefskoðun þegar skýrslan er skoðuð.
+5. Í reitnum **Skýrslur í hóp** skal smella á **Bæta við** til að velja skýrslurnar sem eiga að vera í skýrsluhópnum. Til að velja margar skýrslur í svarglugganum **Bæta við** skal halda Ctrl-lyklinum niðri á meðan skýrslur eru valdar. Þegar lokið hefur verið val skýrslur, smellið á **í lagi**.
+6. Smellið á **Skrá** &gt; **Vista** til að vista nýjan skýrsluhóp.
 
 ### <a name="modify-a-report-group"></a>Skýrsluhópi breytt
 
-1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2.  Tvísmellið á skýrsluhóp til að breyta.
-3.  Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
-4.  Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Vista") á tækjastikunni.
+1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
+2. Tvísmellið á skýrsluhóp til að breyta.
+3. Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
+4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Vista") á tækjastikunni.
 
-**athugasemd:** Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili í stillingum skýrsluskilgreiningar er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
+> [ATHUGASEMD] Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
 
 ### <a name="generate-a-report-group-report"></a>Myndun skýrslu í skýrsluhóp
 
-1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2.  Opnið skýrsluhópinn sem á að mynda.
-3.  Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Búa til skýrslu") til að búa til skýrslur.
+1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
+2. Opnið skýrsluhópinn sem á að mynda.
+3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Búa til skýrslu") til að búa til skýrslur.
 
 ### <a name="delete-a-report-group"></a>Skýrsluhópi eytt
 
-1.  Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2.  Hægrismellið á skýrsluhópinn til að eyða og veljið **Eyða**.
-3.  Þegar staðfestingarskilaboð birtast skal smella á **Já**.
+1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
+2. Hægrismellið á skýrsluhópinn til að eyða og veljið **Eyða**.
+3. Þegar staðfestingarskilaboð birtast skal smella á **Já**.
 
 ## <a name="report-group-tab-controls"></a>Stýringar flipa skýrsluhóps
 Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Eftirlit</th>
 <th>Lýsing</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Hnekkja stillingum fyrirtækis, upplýsinga og dagsetningar úr stökum skýrsluskilgreiningum</td>
 <td>Veljið þennan gátreit til að hnekkja stökum skýrsluskilgreiningum skýrslna í þessum skýrsluhópi fyrir myndun þessara skýrslna eingöngu.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Nafn fyrirtækis</td>
 <td>Veljið fyrirtækið sem nota á í skýrslunum.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Lýsing á stigi</td>
 <td>Tilgreinið hvaða upplýsingar eiga að vera í skýrslunni.
 <ul>
@@ -110,7 +109,7 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <li><strong>Fjárhagsreikningur &amp; færsla</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um færslur.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tímabundið</td>
 <td>Tilgreinið hvaða verkþættir eiga að vera í skýrslunni.
 <ul>
@@ -119,11 +118,11 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <li><strong>Aðeins óbókaðir verkþættir</strong> − Inniheldur aðeins færslur sem hefur veriðs legin inn, en sem hefur ekki verið bókuð í fjárhagsgögn.</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Taka með alla skýrslugjaldmiðla</td>
 <td>Ef aðrir skýrslugjaldmiðlar eru grunnstilltir í ERP-kerfi Microsoft Dynamics eru þeir taldir upp hér. Veljið gátreit til að mynda viðbótarskýrslur í tilgreindum gjaldmiðlum. Til að skoða þessar skýrslur í Web Viewer er smellt á <strong>Gjaldmiðill</strong> hnappinn og svo valinn gjaldmiðill.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Upplýsingar um dagsetningu ekki vistaðar með skýrsluskilgreiningu</td>
 <td><ul>
 <li>Grunntímabil</li>
@@ -132,14 +131,14 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 </ul>
 Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgreiningunni.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Upplýsingar um dagsetningu vistaðar með skýrsluskilgreiningu</td>
 <td><ul>
 <li>Dagsetning skýrslu</li>
 <li>Sjálfgefið grunntímabil</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Skýrslur í hóp</td>
 <td>Bæta við, fjarlægja og endurpanta skýrslur í skýrsluhópnum.
 <ul>
@@ -151,13 +150,7 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-
 

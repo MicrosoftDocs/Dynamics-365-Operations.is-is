@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -32,11 +32,11 @@ ms.lasthandoff: 08/09/2018
 Gögnastjórnun í Microsoft Dynamics 365 for Finance and Operations styður sniðmát úr Microsoft Excel fyrir gagnaeiningar. Þessi sniðmát geta innihaldið einn eða fleiri vinnublöð. Sniðmát með mörgum vinnublöðum eru oft notaðar þegar auðvelt er að stýra gögnum í einni skrá og flytja hana inn í margar gagnaeiningar. Dæmi um þetta væri svæði og vöruhús.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Hlaða upp skrá einu sinni og varpa henni til allra eininga
-Við skulum taka dæmi þar sem einn Excel-skrá er með vinnublöð sem kallast **Síður** og **Vöruhús**. Til að setja upp gagnainnflutningsverkið myndir þú nýskrá fyrstu gagnaeininguna, **Svæði** og síðan hlaða upp skránni. Þú munt geta valið **Svæði** sem vinnublaðið sem verður notað fyrir þessa einingu.
+Við skulum taka dæmi þar sem ein Excel-skrá með vinnublöðum sem kallast **Svæði** og **Vöruhús**. Til að setja upp gagnainnflutningsverkið myndir þú nýskrá fyrstu gagnaeininguna, **Svæði** og síðan hlaða upp skránni. Þú munt geta valið **Svæði** sem vinnublaðið sem verður notað fyrir þessa einingu.
 
 Ef þú skráir til viðbótar aðra einingu **Vöruhús** án þess að fara úr **Bæta við skrá** skráarsniðinu, þá mun vinnublaðsleitin leyfa þér að velja vinnublaðið **Vöruhús** án þess að þurfa að hlaða skránni upp aftur. Eina ástæðan fyrir því að hlaða inn nýjum skrá væri ef **Vöruhús** gögnin voru í annarri skrá.
 
-![Mörg vinnublöð](./media/AddFileMultipleWorkSheets.png) 
+![Mörg vinnublöð](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Festa vinnublað til einingarvörpunar
 
@@ -51,5 +51,4 @@ Vörpun vinnublaðsins til gagnaeiningar í innflutningsverkinu er hægt að fes
 ## <a name="upload-a-file-using-run-project"></a>Hlaða upp skrá með því að nota Keyra verk
 
 Þú getur hlaðið upp Excel-skrá meðan þú notar **Keyra verk** valmöguleikann til að framkvæma innflutningsverk. Þú verður að gæta þess að hlaða aðeins upp skrám sem eru með sömu vinnublaði og fyrirliggjandi varpanir á gagnaeiningarnar í gagnaverkinu. Ef vinnublað er ekki að finna í skránni sem nýlega var hlaðið upp, birtir kerfið villu og stoppar innflutning. Ef breyta verður vörpunin á vinnublaðið fyrir einingu, þá verður að uppfæra varpanirnar í gagnaverkinu fyrst innan frá gagnaverkinu, áður en þú notar skrána í **Keyra verk** upplifuninni.
-
 

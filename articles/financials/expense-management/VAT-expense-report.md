@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Endurgreiðsla virðisaukaskatts í útgjaldastýringu
 
+[!include [banner](../includes/banner.md)]
+
 Til að fá endurgreiðslur á gjaldgengum virðisaukaskattsfærslum (VSK) þarf fyrirtæki eða stofnun að bera kennsl á, safna, staðfesta og leggja fram nákvæmar upplýsingar. Þetta ferli felur í sér mörg verk og getur, fer eftir stærð fyrirtækis, þurft nokkra starfsmenn eða hlutverk.
 
 Til að endurheimta virðisaukaskatt með því að nota útgjaldastýringu verður að fylgja eftirfarandi forsendum:

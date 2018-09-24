@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
 
-> [!Note]
+> [!NOTE]
 > Microsoft Power BI-efnið **Kostnaðarstjórnun** sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 for Finance and Operations 8.0.
 > 
 > **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um þá afskrift er að finna í [Power BI efnispakkar tiltækur á AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ Power BI-efnið **Kostnaðarstjórnun** inniheldur safn af skýrslusíðum sem s
 |                                         | Topp 10 tilföng eftir óhagstæðum framleiðslufrávikum  |
 |                                         | Topp 10 tilföng eftir hagstæðum framleiðslufrávikum    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
+## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
 Gögn frá Microsoft Dynamics 365 for Finance and Operations eru notuð til að fylla skýrslusíðurnar í **Kostnaðarstjórnun** Power BI-efnis. Þessi gögn eru birt sem uppsafnaðar mælingar sem eru settar upp í einingaversluninni sem er Microsoft SQL Server-gagnagrunnur sem er fínstilltur fyrir greiningar. Nánari upplýsingar er að finna í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 
 | Mæla                            | Útreikningur |
 |------------------------------------|-------------|
-| Upphafsstaða                  | Upphafsstaða = [Lokastaða]-[Nettóbreyting] |
-| Upphafsstaða magns             | Upphafsstaða magns = [Lokastaða magns]-[Nettóbreyting magns] |
-| Lokastaða                     | Lokastaða magns = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Nettó breyting                         | Nettóbreyting = SUM([AMOUNT]) |
-| Nettóbreyting magns                    | Nettóbreyting magns = SUM([QTY]) |
-| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR([Meðaltalsstaða birgða] \<= 0, [Vandamál með seldar eða notaðar birgðir] \>= 0), 0, ABS([Vandamál með seldar eða notaðar birgðir])/[Meðaltalsstaða birgða]) |
-| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = (([Lokastaða] + [Upphafsstaða]) / 2) |
-| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries[Hlutfall birgðaveltu eftir upphæð] |
-| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF([Lokastaða] \<= 0, IF(OR ([Talin upphæð birgða] \<\> 0, [Lokastaða] \< 0), 0, 1), MAX (0, ([Lokastaða] - ABS([Talin upphæð birgða]))/[Lokastaða])) |
+| Upphafsstaða                  | Upphafsstaða = \[Lokastaða\]-\[Nettóbreyting\] |
+| Upphafsstaða magns             | Upphafsstaða magns = \[Lokastaða magns\]-\[Nettóbreytingar magns\] |
+| Lokastaða                     | Lokastaða = (CALCULATE(SUM(\[Upphæð\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Nettó breyting                         | Nettóbreyting = SUM(\[AMOUNT\]) |
+| Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[QTY\]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Atriði er varðar seldar eða notaðar birgðir\] \>= 0), 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
+| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[Lokastaða\] + \[Upphafsstaða\]) / 2) |
+| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[Hlutfall birgðaveltu eftir upphæð\] |
+| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Talin upphæð birgða\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 
 
-|                         Eining                          |             Dæmi um eigindir              |
+| Eining                                                  | Dæmi um eigindir                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Afurðir                         | Afurðarnúmer, afurðarheiti, eining, vöruflokkar |
-| Flokkastigveldi (úthlutað á hlutverki Kostnaðarstjórnunar) |       Flokkastigveldi, flokkastig        |
-|                     Lögaðilar                      |               Heiti lögaðila                |
-|                    Fjárhagsdagatöl                     |  Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður  |
-|                          Svæði                           |        Kenni, nafn, heimilisfang, ríki, land        |
-
+| Afurðir                                                | Afurðarnúmer, afurðarheiti, eining, vöruflokkar |
+| Flokkastigveldi (úthlutað á hlutverki Kostnaðarstjórnunar) | Flokkastigveldi, flokkastig              |
+| Lögaðilar                                          | Heiti lögaðila                              |
+| Fjárhagsdagatöl                                        | Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður   |
+| Svæði                                                    | Kenni, nafn, heimilisfang, ríki, land               |
 

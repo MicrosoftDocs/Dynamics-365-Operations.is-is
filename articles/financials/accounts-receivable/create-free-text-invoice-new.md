@@ -1,9 +1,9 @@
 --- 
-title: "Stofna reikning með frjálsum texta"
-description: "Þessi grein sýnir hvernig skal stofna reikning með frjálsum texta."
+title: Stofna textareikninga
+description: "Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta."
 author: mikefalkner
 manager: AnnBe
-ms.date: 05/29/2018
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,64 +13,77 @@ ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mfalkner
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-08-30
+ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 2a611bdd4dd97109709ed355eb80471e27413744
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/05/2018
 
 ---
 
-# <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
+# <a name="create-free-text-invoices"></a>Stofna textareikninga
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir hvernig skal stofna reikning með frjálsum texta. Fyrir þetta ferli skal nota USMF sýnifyrirtækið.
+Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
 
 ## <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
 
-1. Fara í Viðskiptakröfur > Reikningar > Allir reikningar með frjálsum texta.
-2. Smellið á „Nýtt“.
-3. Í reitnum Viðskiptavinalykill skal velja gildi.
-    * Reikningslykillinn verður sjálfgefið að sama lykli og notaður var fyrir viðskiptavinalykilinn.   
-    * Lykilstaðan byrjar á Í vinnslu ef reikningurinn hefur ekki verið bókaður.   
-    * Númeri reikningsins verður úthlutað þegar reikningurinn er bókaður.  
-    * Ef SEPA-umboð er notað verður umboð fyrir beingreiðslu sjálfkrafa fyllt út með umboði þegar viðskiptavinalykillinn er valinn.  
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í svæðinu aðallykill, skal tilgreina lykilnúmer án víddir.
-    * Einnig er hægt að slá inn einn eða fleiri stafi fyrir aðallykilinn og nota uppflettingu til að finna lykilinn. Þú munt færa inn víddirnar síðar í þessari handbók.  
-6. Stækkið flýtiflipann fyrir línuupplýsingar til að geta bætt víddum við aðallykilinn.
-7. Smellið á flipann fyrir línu „Fjárhagsvíddar“.
-    * Víddirnar eru aðeins ætlaðar fyrir valda línu.    
-    * Vsk-flokkur er fylltur út frá viðskiptavini. Vsk-flokk frá aðallykli er notað ef viðskiptavinur hefur ekki vsk-flokk.  
-    * VSK-flokkur varanna er fylltur út sjálfgefið úr aðallykli. Ef aðallykillinn hefur ekki VSK-flokk vöru verður VSK-flokkur vöru úr virðisaukaskattsfæribreytum fjárhags notaður.    
-8. Færið inn númer í reitnum „Magn“.
-    * Magnið er valfrjálst.  
-9. Færið inn númer í reitnum „Einingarverð“.
-    * Einingarverðið er valfrjálst.  
-    * Upphæðin er reiknuð út sem magnið margfaldað með einingarverðinu. Þó er hægt að hnekkja útreikningnum og slá inn aðra upphæð.  
-10. Smellið á „Virðisaukaskatt“ til að skoða útreiknaðan virðisaukaskatt fyrir reikninginn.
-    * Á þessari síðu er hægt að skoða upphæðir virðisaukaskattsins eða hnekkja þeim á leiðréttingarflipanum.  
-11. Smellið á „Í lagi“.
-12. Smellt er á Gjöld til að bæta gjaldi við reikning. 
-13. Í reitnum Gjaldakóði skal slá inn gildi.
-14. Í reitinn Gjöld skal slá inn númer.
+1. Fara í **Viðskiptakröfur \> Reikningar \> Allir reikningar með frjálsum texta**.
+2. Velja **Nýja**.
+3. Í reitnum **Viðskiptavinalykill** skal velja gildi.
+
+    * Sjálfgefið er að lykill sem valinn er sem viðskiptavinalykill er notaður sem reikningslykill.
+    * Ef reikningurinn er ekki bókaður byrjar bókhaldsstaðan á **Í vinnslu**.
+    * Númeri reikningsins verður úthlutað þegar reikningurinn er bókaður.
+    * Ef verið er að nota umboð fyrir sameiginlegt evrópskt greiðslusvæði (SEPA) er umboðið fyrir beingreiðslu sjálfkrafa fært inn þegar viðskiptavinalykill er valinn.
+
+4. Sláið inn gildi í reitnum **Lýsing**.
+5. Í reitnum **Aðallykill** skal tilgreina lykilnúmer sem er ekki með víddir. Víddir verða færðar inn síðar í þessu efnisatriði.
+
+    Einnig er hægt að færa inn einn eða fleiri stafi fyrir aðallykilinn og nota uppflettingu til að finna lykilinn.
+
+6. Veljið flýtiflipann **Línuupplýsingar** til að bæta víddum við aðallykilinn.
+7. Veljið flipann **Fjárhagsvíddalína**.
+
+    * Víddirnar eru aðeins ætlaðar fyrir valda línu.
+    * VSK-flokkurinn er fylltur út frá viðskiptavininum. Ef viðskiptavinurinn er ekki með VSK-flokk er VSK-flokkur aðallykils notaður.
+    * VSK-flokkur vöru er fylltur út frá aðallyklinum. Ef aðallykill er ekki með VSK-flokk vöru, þá er VSK-flokkur vörunnar sem tilgreindur er í færibreytum virðisaukaskatts í fjárhag notaður.
+
+8. Valfrjálst: Sláið inn númer í reitinn **Magn**.
+9. Valfrjálst: Sláið inn númer í reitinn **Einingarverð**.
+
+    Upphæðin er reiknuð út sem magnið margfaldað með einingarverðinu. Hins vegar er hægt að hnekkja útreikningnum með því að færa inn upphæð.
+
+10. Veljið **Virðisaukaskattur** til að skoða reiknaðan virðisaukaskatt fyrir reikninginn.
+
+    Hægt er að skoða upphæðir virðisaukaskatts á þessari síðu, eða hnekkja upphæðunum á flipanum **Leiðrétting**.
+
+11. Veldu **Í lagi**.
+12. Veljið **Gjöld** til að bæta gjaldi við reikninginn.
+13. Sláið inn gildi í reitinn **Gjaldakóði**.
+14. Sláið inn númer í reitinn **Virði gjalda**.
 15. Lokið síðunni.
-16. Smellið á „Samtölur“ til að skoða samantekt yfir reikninga og samtölur.
-17. Smellið á „Loka“.
-18. Smellið á „Bóka“ til að bóka reikninginn. Hægt er að hætta við áður en bókun er framkvæmd.
-    * Til að breyta tímasetningu prentunar reiknings: Velja Gildandi til að prenta hvern reikning þegar hann er uppfærður eða Velja Eftir að prenta eftir að allir reikningar hafa verið uppfærðar.  
-    * Ef óskað er að breyta hvernig gerð lánamarks viðskiptavinarins er athuguð fyrir bókun, þarf að breyta gerð lánamarks.  
-    * Ef það á að prenta reikninginn skal velja Já.  
-    * Ef það á að bóka reikninginn skal velja Já. Hægt er að prenta reikninga án bókunar.  
-19. Smellið á „Í lagi“.
+16. Veljið **Samtölur** til að skoða samantekt á reikningsupplýsingum og heildarupplýsingum.
+17. Veljið **Loka**.
+18. Veljið **Bóka** til að bóka reikninginn. Enn er tækifæri til að hætta við áður en bókunin er gerð.
+
+    * Hægt er að breyta tímasetningu á útprentun reiknings. Veljið **Núgildandi** til að prenta hvern reikning þegar hann er uppfærður. Veljið **Á eftir** til að prenta þegar allir reikningar hafa verið uppfærðir.
+    * Til að breyta því hvernig lánamark viðskiptavinar er staðfest áður en reikningur er bókaður skal breyta gildinu í reitnum **Gerð lánamarks**.
+    * Til að prenta reikninginn skal stilla valkostinn á **Já**.
+    * Til að bóka reikninginn skal stilla valkostinn á **Já**. Hægt er að prenta reikninginn án þess að bóka hann.
+
+19. Veldu **Í lagi**.
 
 ## <a name="copy-lines"></a>Afrita línur
-Til að afrita línur á reikningi með frjálsum texta skal velja eina eða fleiri línur og smella síðan á Afrita valdar línur. Þú getur tilgreint fjölda eintaka sem þú vilt gera og þú getur líka afritað athugasemdir og viðhengi. Þú getur afritað dreifingarnar eða heimilað endursköpun þeirra þegar þú bókar. Um leið og þú afritar línurnar geturðu breytt upplýsingum eftir þörfum. 
+Til að afrita línur á reikningi með frjálsum texta skal velja eina eða fleiri línur og velja síðan **Afrita valdar línur**. Hægt er að tilgreina fjölda eintaka sem á að gera og einnig er hægt að afrita athugasemdir og viðhengi. Annaðhvort er hægt að afrita dreifingarnar eða leyfa endursköpun þeirra við bókun.
+
+Eftir afritun á línum er hægt að breyta upplýsingum eftir þörfum.
 
 ## <a name="create-a-free-text-invoice-from-a-template"></a>Búa til reikning með frjálsum texta út frá sniðmáti
-Þú getur búið til reikning með frjálsum texta út frá sniðmáti. Þegar þú velur Nýtt úr sniðmáti úr flipanum Reikningur getur þú valið sniðmátsnafn og viðskiptavinarlykilinn fyrir nýja reikninginn með frjálsum texta. Þú getur einnig valið að gera gildi sjálfgefin, svo sem greiðsluskilmála og greiðsluaðferð frá viðskiptavininum eða notaðu gildin sem voru vistuð með sniðmátinu. Nýr reikningur með frjálsum texta verður búinn til og þú getur breytt gildunum í þeirri reikningi. 
+Þú getur búið til reikning með frjálsum texta út frá sniðmáti. Þegar **Nýtt úr sniðmáti** er valið úr flipanum **Reikningur** er hægt að velja sniðmátsheiti og viðskiptavinalykilinn fyrir nýja reikninginn með frjálsum texta. Sjálfgefin gildi, svo sem greiðsluskilmálar og greiðslumáti, geta sjálfkrafa verið fyllt út af viðskiptavininum, eða hægt er að nota gildin sem voru vistuð í sniðmátinu.
 
+Nýr reikningur með frjálsum texta verður búinn til og hægt er að breyta gildunum eftir þörfum.
 

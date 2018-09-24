@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,7 @@ ER styður eins og er TEXT, XML, Microsoft Word skjöl og OPENXML vinnublaðssni
 ER-vélin hefur eftirfarandi getu:
 
 - Hún er eitt samnýtt verkfæri til rafrænnar skýrslugerðar á mismunandi sviðum, og kemur í stað 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir Microsoft Dynamics 365 for Finance and Operations.
-- Það gerir snið á skýrslu einangrað úr núgildandi innleiðingu Finance and Operations. Með öðrum orðum gildir sniðið fyrir mismunandi útgáfur af Finance and Operations.
+- Það gerir snið á skýrslu einangrað frá núgildandi innleiðingu Finance and Operations. Með öðrum orðum gildir sniðið fyrir mismunandi útgáfur af Finance and Operations.
 - Hann styður stofnun sérsniðinnar sniða sem byggð er á upprunalegu sniði. Það felur einnig í sér getu til að uppfæra sjálfkrafa sérhönnuð snið þegar breytingar á upprunalegu sniði eiga sér stað, vegna krafna um staðfærslu/sérsnið.
 - Verður það aðal viðtekna verkfærið til að styða við kröfur um staðfæringu í rafrænni skýrslugerð – bæði fyrir Microsoft sem og microsoft samstarfsaðila;
 - Það styður getu til að dreifa sniðum til viðskiptaaðila og viðskiptavini með Microsoft Dynamics Lifecycle Services (LCS).
@@ -63,8 +63,8 @@ Viðskiptaeining gagnalíkans er birt sem geymir (skýrsla). Eiginleikar viðski
 
 Einstakur þáttur gagnalíkans getur innihaldið mörg stigveldi sviða sem eru tilgreind eftir viðskiptaeiningum. Einnig getur hann innihaldið líkanavarpanir sem styðja skýrslutengt gagnaflæði á keyrslutíma. Stigveldin verða aðgreind eftir einni færslu sem hefur verið valin sem rót líkanavörpunar. Til dæmis, Gagnalíkan fyrir greiðslusvið gæti stutt eftirfarandi varpanir:
 
-- Fyrirtæki -> Lánardrottinn -> Greiðslufærslur AP sviðs
-- Viðskiptavinur > Fyrirtæki -> Greiðslufærslur AR sviðs
+- Fyrirtæki \> Lánardrottinn \> Greiðslufærslur AP-sviðs
+- Viðskiptavinur \> Fyrirtæki \> Greiðslufærslur AR-sviðs
 
 Athugið að viðskiptaeiningar, eins og fyrirtæki og greiðslufærslur, eru búnar til einu sinni. Mismunandi varpanir endurnota þær svo.
 
@@ -74,7 +74,7 @@ Líkanavörpun sem styður rafræn skjöl á útleið hefur eftirfarandi getu:
 - Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
 - Stuðningur er fyrir umbreytingu gagna Finance and Operations í tilskilda hópa. Það gerir þér kleift að sía, raða og leggja saman gögn og hengja við röklega reiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel formúlum, eins og sést á eftirfarandi myndskýringu. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)).
 
-[![Formúluhönnuður](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Formúluhönnuður](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Líkanavörpun sem styður rafræn skjöl á innleið hefur eftirfarandi getu:
 
@@ -90,7 +90,7 @@ Snið er skema skýrsluúttaks sem myndast á keyrslutíma. Skema samanstendur a
 - Snið sem skilgreinir skipulag og innihald í rafrænu skjali á útleið sem er myndað á keyrslutíma.
 - Gagnagjafar, sem ílagsfæribreytur notanda og gagnalíkön fyrir tiltekin svið sem nota valda líkanavörpun.
 - Sniðsvörpun, sem safn bindingar fyrir gagnagjafa sniða sem eru með einstakar sniðseiningar sem tilgreina, á keyrslutíma, gagnaflæði og reglur um myndun úttakssniðs.
-- Villuleitarsnið, sem hópur af samskipanlegum reglum sem stýra skýrslugerð á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla til staðar sem stöðvar myndun úttaks á greiðslum lánardrottna og notast við undantekningu þegar sértæka eiginleika þess lánardrottins sem valinn er vantar, eins og númer bankareiknings.
+- Villuleitarsnið, sem hópur af samskipanlegum reglum sem stýra skýrslugerð á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla sem stöðvar úttaksmyndun fyrir greiðslur lánardrottins og beitir undantekningu þegar tilteknar eigindir valins lánardrottins vantar, eins og númer bankareiknings.
 
 Þáttur sniðs styður eftirfarandi aðgerðir:
 
@@ -114,7 +114,7 @@ Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Ske
 
 - Snið sem skilgreinir skipulag og innihald rafræns skjals á innleið sem inniheldur gögn sem eru flutt inn á keyrslutíma. Sniðsþáttur er notaður til að þátta skjal á innleið á ýmis snið, eins og texta og XML.
 - Sniðsvörpun sem bindur einstakar sniðseiningar í einingar í gagnalíkani fyrir tiltekin svið. Einingarnar í gagnalíkani tilgreina, á keyrslutíma, gagnaflæði og reglur fyrir innflutning gagna úr skjali á innleið og geyma svo gögnin í gagnalíkani.
-- Villuleitarsnið, sem hópur af samskiptanlegum reglum sem stýra gagnainnflutningi á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla til staðar sem stöðvar gagnainnflutning bankayfirlits sem hefur að geyma greiðslur lánardrottins og notast við undantekningu þegar sértæka eiginleika tiltekins lánardrottins vantar, eins og auðkenningarkóða lánardrottins.
+- Villuleitarsnið, sem hópur af samskiptanlegum reglum sem stýra gagnainnflutningi á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla sem stöðvar innflutning á gögnum bankayfirlits sem er með greiðslur lánardrottins og beitir undantekningu þegar tilteknar eigindir lánardrottins vantar, eins og auðkenniskóði lánardrottins.
 
 Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 
@@ -175,7 +175,7 @@ Hægt er að skrá nauðsynlega **LCS verks** gagnasafn fyrir hverja skilgreinin
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 ### <a name="building-a-data-model"></a>Byggja gagnalíkan
 
-ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging.  Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu) 
+ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging.  Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu)
 
 [![Gagnalíkan fyrir greiðslusvæði](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,19 +185,18 @@ til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER hönnun gag
 
 Hægt er að þýða innihald gagnalíkans (merki og lýsingar) yfir á önnur tungumál sem Finance and Operations styður. Gott væri að þýða innihald gagnalíkans af eftirfarandi ástæðum:
 
--   Til að gera það skiljanlegra á hönnunartíma fyrir sniðhönnuði sem tala önnur tungumál og nota gagnalíkanið fyrir gagnavörpun sniðsþátta.
--   Til að gera innihaldið notendavænna á keyrslutíma, með því að birta tilkynningar og hjálp fyrir færibreytur á keyrslutíma og skilgreind villuleitarskilaboð (villur og viðvaranir) á því tungumáli sem innskráður notandi kýs.
+- Til að gera það skiljanlegra á hönnunartíma fyrir sniðhönnuði sem tala önnur tungumál og nota gagnalíkanið fyrir gagnavörpun sniðsþátta.
+- Til að gera innihaldið notendavænna á keyrslutíma, með því að birta tilkynningar og hjálp fyrir færibreytur á keyrslutíma og skilgreind villuleitarskilaboð (villur og viðvaranir) á því tungumáli sem innskráður notandi kýs.
 
-Eftirfarandi skýringarmynd sýnir dæmi þar sem innihald gagnalíkans er þýtt af ensku yfir á japönsku. 
+Eftirfarandi skýringarmynd sýnir dæmi þar sem innihald gagnalíkans er þýtt af ensku yfir á japönsku.
 
 [![Innihald gagnalíkans á ensku](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Innihald gagnalíkans þýtt yfir á japönsku](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Stilling gagna í líkanavörpunum fyrir skjöl á útleið
 
-Rafræn skýrslugerð hefur að geyma vörpunarhönnun sem leyfir notendum að varpa gagnalíkönum sem þeir hafa hannað í tiltekna gagnagjafa Finance and Operations. Gögnin verða flutt inn samkvæmt vörpuninni á keyrslutíma úr völdum gagnagjöfum í gagnalíkanið. Gagnalíkanið er svo notað sem útdráttargagnagjafi allra sniða í rafrænni skýrslugerð sem búa til rafræn skjöl á útleið. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð af vörpun gagnalíkans (**SEPA kreditfærsla** líkanavörpun fyrir gagnalíkan á sviði greiðslu) 
+Rafræn skýrslugerð hefur að geyma vörpunarhönnun sem leyfir notendum að varpa gagnalíkönum sem þeir hafa hannað í tiltekna gagnagjafa Finance and Operations. Gögnin verða flutt inn samkvæmt vörpuninni á keyrslutíma úr völdum gagnagjöfum í gagnalíkanið. Gagnalíkanið er svo notað sem útdráttargagnagjafi allra sniða í rafrænni skýrslugerð sem búa til rafræn skjöl á útleið. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð af vörpun gagnalíkans (**SEPA kreditfærsla** líkanavörpun fyrir gagnalíkan á sviði greiðslu)
 
 [![Dæmi um gagnalíkansvörpun](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
@@ -210,13 +209,13 @@ Rafræn skýrslugerð hefur að geyma hönnun líkanavörpunar sem leyfir notend
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Geyma hannaðan þátt líkans sem líkanastillingu
 
-Rafræn skýrslugerð getur geymt hannað gagnalíkan, ásamt tengdum gagnavörpunum, sem gagnastilling á núverandi tilviki Finance and Operations. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð skilgreiningar gagnalíkans (skilgreining líkans fyrir greiðslu) 
+Rafræn skýrslugerð getur geymt hannað gagnalíkan, ásamt tengdum gagnavörpunum, sem gagnastilling á núverandi tilviki Finance and Operations. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð skilgreiningar gagnalíkans (skilgreining líkans fyrir greiðslu)
 
 Spila **ER Skilgreining líkanavörpunar til að velja gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþættir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Byggja snið sem notar gagnalíkan sem grunneiningu
 
-Rafræn skýrslugerð styður sniðshönnun sem þú getur notað til að setja upp snið fyrir rafrænt skjal fyrir valið viðskiptasvæði með því að velja líkansþáttinn sem grunn. Sama ER sniðhönnun býður upp á möguleika á að varpa stofnuðu sniði á valið gagnalíkanavörpunarsvæði sem gagnagjafa. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreiningarsniðið sem styður í **BACS** greiðslusnið fyrir Bretland). 
+Rafræn skýrslugerð styður sniðshönnun sem þú getur notað til að setja upp snið fyrir rafrænt skjal fyrir valið viðskiptasvæði með því að velja líkansþáttinn sem grunn. Sama sniðshönnun í rafrænni skýrslugerð býður upp á möguleika á að varpa stofnuðu sniði á valið gagnalíkanavörpunarsvæði sem gagnagjafa. Eftirfarandi skýringarmynd sýnir dæmi um slíka gerð sniðs (skilgreiningarsniðið sem styður í **BACS** greiðslusnið fyrir Bretland).
 
 [![Dæmi um snið sem hefur gagnalíkan sem grunn](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -240,7 +239,7 @@ Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeining
 - [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Afmarkað sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Að búa til stillingu til að flytja inn gögn úr rafrænum skjölum á innleið  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Að búa til stillingu til að flytja inn gögn úr rafrænum skjölum á innleið
 Hægt er að nota sniðshönnun í rafrænni skýrslugerð til að lýsa rafrænu skjali sem er hugsað fyrir gagnainnflutning á annaðhvort XML eða textasniði. Hannaða sniðið er notað til að þátta skjal á innleið. Hægt er að nota vörpunarhönnun fyrir snið í rafrænni skýrslugerð til að skilgreina bindingu eininga hannaðs sniðs við gagnalíkanið. Eftirfarandi skýringarmyndir sýna dæmi um þessa gerð sniðs og sniðsvörpunar. Í þessu dæmi eru NETS bankayfirlit sem innihalda upplýsingar um greiðslu lánardrottna á textasniði flutt inn.
 
 [![Sniðshönnun í rafrænni skýrslugerð](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ Rafræn skýrslugerð getur geymt hannað snið með skilgreindum gagnavörpunum
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Stilling Finance and Operations til að byrja að nota stofnað snið innanhúss
 
-Hægt er að stilla Finance and Operations til að byrja að nota stofnað snið fyrir rafræna skýrslumyndun. Tilvísun í stofnaða stillingarsniðið ætti að skilgreina í stillingum tiltekins sviðs. Til dæmis til að byrja að nota sniðskilgreiningu Rafræn skýrslugerð fyrir rafrænar greiðslur lánadrottins á BACS sniði, ætti að vera vísað í skilgreiningarsniðið í tilteknum greiðslumátum, eins og sýnt er í eftirfarandi skýringamyndir: 
+Hægt er að stilla Finance and Operations til að byrja að nota stofnað snið fyrir rafræna skýrslumyndun. Tilvísun í stofnaða stillingarsniðið ætti að skilgreina í stillingum tiltekins sviðs. Til dæmis til að byrja að nota sniðskilgreiningu Rafræn skýrslugerð fyrir rafrænar greiðslur lánadrottins á BACS sniði, ætti að vera vísað í skilgreiningarsniðið í tilteknum greiðslumátum, eins og sýnt er í eftirfarandi skýringamyndir:
 
 [![BACS (UK) sniðsskilgreining](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -283,7 +282,7 @@ ER gerir þér kleift að stofna (leita út) nýjan þátt úr gildandi útgáfu
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Uppfæra snið því að velja nýja útgáfu af grunnsniði (endurreikna grunn)
 
-ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt, eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar **ER Uppfæra snið með innleiðingu nýs grunns af því sniði** (hluti af **7.5.5.3 Komast yfir/þróa íhluti fyrir breytta upplýsingatækniþjónustu/lausnir (10683)** viðskiptaferli).
+ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar **ER Uppfæra snið með innleiðingu nýs grunns af því sniði** (hluti af **7.5.5.3 Komast yfir/þróa íhluti fyrir breytta upplýsingatækniþjónustu/lausnir (10683)** viðskiptaferli).
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Listi yfir skilgreiningar rafrænnar skýrslugerðar sem eru í Finance and Operations lausninni
 
@@ -367,15 +366,9 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 |                                                  |                       | Verktakamiðar lánardrottins (IS)                   | Verktakamiðar lánardrottins fyrir Ísland                      |
 |                                                  |                       | Skýrsla um verktakamiða lánardrottins (IS)            | Skýrsla um verktakamiða lánardrottins fyrir Ísland                      |
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 
 [Stjórnun á lífsferli fyrir stillingar Rafrænnar skýrslugerðar](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

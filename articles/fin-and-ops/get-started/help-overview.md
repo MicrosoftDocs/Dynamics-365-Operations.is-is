@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Einnig er hægt að finna okkar efni með hvaða leitarvél sem er. Til að nið
 Finance and Operations, Retail, og Talent deila öllum einu efnisyfirliti á skjalasíðunni, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru í. Það gerir þér einnig kleift að nota Afmörkunarstýringu fyrir ofan efnisyfirlitið til að finna efnisatriðin sem leitar að.
 
 ### <a name="follow-a-topic"></a>Fylgja efnisatriði
-Til að fylgja efnisatriði skaltu smella á +Fylgja hnappinn fyrir neðan athugasemdareitinn. Þú verður að skrá þig inn til að fylgja efnisatriðinu. Upplýsingar má sjá í [Skildu eftir athugasemd](#leave-us-a-comment).  
+Til að fylgja efnisatriði skaltu smella á +Fylgja hnappinn fyrir neðan athugasemdareitinn. Þú verður að skrá þig inn til að fylgja efnisatriðinu. Upplýsingar má sjá í [Skildu eftir athugasemdir](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>Nota RSS-straum
 Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Unified Operations skal nota eftirfarandi tengil úr vafra sem styður RSS-strauma, svo sem Internet Explorer eða RSS straumstjórnun: 

@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ ms.lasthandoff: 12/18/2017
 
 Í **Sölu- og afköst arðsemi** Power BI innihald stofnunar svo að stjórnendur sölu hægt að fylgjast með aðalþætti sölu mælikvörðum tekjur, brúttóhagnað og hagnaður framlegð. Hann notar færslugögn sölu og veitir bæði samanlagt yfirlit yfir sölutölur fyrirtækisins og sundurliðun söluafkomu fyrir viðskiptavini og afurðir.
 
-Skýrslur merkið breytingar á tekjur og hagnað vöxtur tímanum. Þannig má nota skýrslurnar til að gera stjórnendum viðvart um jákvæða og neikvæða þróun fyrir einstaka viðskiptamenn og afurðir. Þar að auki gröf bera saman tekjur og arðsemi framleiðslulíkans mismunandi tegundir og þá viðskiptavinaflokka hvor við aðra. Þar af leiðandi tegund og svæðisbundnum stjórnendur geta auðkenna laggards og leaders. Að lokum plots alhliða skýrslu með einstökum viðskiptavini tekjur eða hagnaðarframlegð. Þar af leiðandi hefur lykil stjórnendur gögn backed grunn sem þeir geta notað til að stilla þeirra sala og markaðsstarf vinna forstillingu fyrir hvern viðskiptavin. 
+Skýrslur merkið breytingar á tekjur og hagnað vöxtur tímanum. Þannig má nota skýrslurnar til að gera stjórnendum viðvart um jákvæða og neikvæða þróun fyrir einstaka viðskiptamenn og afurðir. Þar að auki gröf bera saman tekjur og arðsemi framleiðslulíkans mismunandi tegundir og þá viðskiptavinaflokka hvor við aðra. Þar af leiðandi tegund og svæðisbundnum stjórnendur geta auðkenna laggards og leaders. Að lokum setur ítarleg skýrsla upp tekjur viðskiptavinar á móti hagnaðarhlutfalli. Þess vegna hafa yfirmenn reikninga gagnaafritaðan grunn sem þeir geta notað til að fínstilla sölu- og markaðsstarf sitt fyrir hvern viðskiptavin fyrir sig.
 
 Efnið **Sölu- og arðsemisafkoma** gerir sölustjórum kleift að greina söluafkomu á eftirfarandi hátt:
 
--   Tekjur, á árinu (með viðskiptavinaflokk og einstaka viðskiptavini, sölutegundir, og stakar afurðir og landsvæði)
--   Tekjubreytingar, ár frá ári (eftir svæði viðskiptavina og söluflokkum)
+- Tekjur, á árinu (með viðskiptavinaflokk og einstaka viðskiptavini, sölutegundir, og stakar afurðir og landsvæði)
+- Tekjubreytingar, ár frá ári (eftir svæði viðskiptavina og söluflokkum)
 
 Hægt er að greina arðsemi á eftirfarandi hátt:
 
--   Brúttóhagnaði og hagnaðarframlegð (með því að flokka viðskiptavina og afurðaflokka sölu)
--   Breyting á brúttóframlegð, ár frá ári
--   Arðsemi viðskiptavinar (eftir tekjum á móti brúttóframlegð)
+- Brúttóhagnaði og hagnaðarframlegð (með því að flokka viðskiptavina og afurðaflokka sölu)
+- Breyting á brúttóframlegð, ár frá ári
+- Arðsemi viðskiptavinar (eftir tekjum á móti brúttóframlegð)
 
 ## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Sölu- og arðsemisframmistaða** Power BI efni er sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** > **Fyrirspurnir og skýrslur** > **Söluárangur** > **Sölu- og arðsemisframmistaða**). 
+**Sölu- og arðsemisframmistaða** Power BI efni er sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** \> **Fyrirspurnir og skýrslur** \> **Söluárangur** \> **Sölu- og arðsemisframmistaða**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
 Í **Sölu- og afköst arðsemi** skýrsla sem samanstendur af safni mælikvörðum Power BI teknar með. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efninu.
@@ -77,21 +77,20 @@ Hægt er að greina arðsemi á eftirfarandi hátt:
 
 \* Tekjur þessa árs og síðasta árs og vöxtur eftir söluflokki.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi gögn eru notaðar til að fylla út í skýrslunni í í **Sölu- og afköst arðsemi** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md) 
+Eftirfarandi gögn eru notaðar til að fylla út í skýrslunni í í **Sölu- og afköst arðsemi** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
-Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar. 
+Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar.
 
 Eftirfarandi lykiluppsafnaðar mælingar á reikningslínueiningunni eru notaðar sem grunnur að efninu.
 
-| Eining        | Lykiluppsafnaðar mælingar                   | Gagnagjafar fyrir Dynamics 365                    | Svæði                                        | lýsing                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Reikningslínur | Tekjur                                      | CustInvoiceTrans                                | SAMTALA(LineAmountMST)                           | Upphæðin í bókhaldsgjaldmiðli.            |
-|               | Kostnaður seldra vara                           | InventTrans                                     | SAMTALA(CostAmountPosted + CostAmountAdjustment) | Samtala kostnaðarupphæð og leiðréttingar.    |
-|               | Línuupphæð þóknunar – bókhaldsgjaldmiðill | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Þóknunarupphæð í bókhaldsgjaldmiðlinum. |
+| Eining        | Lykiluppsafnaðar mælingar                   | Gagnagjafar fyrir Dynamics 365 | Svæði                                        | lýsing                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Reikningslínur | Tekjur                                      | CustInvoiceTrans             | SAMTALA(LineAmountMST)                           | Upphæðin í bókhaldsgjaldmiðli.            |
+|               | Kostnaður seldra vara                           | InventTrans                  | SAMTALA(CostAmountPosted + CostAmountAdjustment) | Samtala kostnaðarupphæð og leiðréttingar.    |
+|               | Línuupphæð þóknunar – bókhaldsgjaldmiðill | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Þóknunarupphæð í bókhaldsgjaldmiðlinum. |
 
-Eftirfarandi tafla sýnir lykiluppsafnaðar mælingar reikningslínueiningarinnar sem eru notaðar til að stofna nokkrar útreikningsmælingar í efnisins.
+Eftirfarandi tafla sýnir lykiluppsafnaðar mælingar reikningslínueiningarinnar sem eru notaðar til að stofna nokkrar útreikningsmælingar í gagnasafni efnis.
 
 | Mæla           | Útreikningur                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|

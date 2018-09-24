@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,13 +39,12 @@ Efni **Fríðindi** Power BI er sýnt í vinnusvæðinu **Fríðindastjórnun** 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
 Skýrslur sem fylgja í efni **Benefits** Power BI hafa bæði myndrit og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
-| Skýrsla                       | Innihald                                                                                       |
-|------------------------------|------------------------------------------------------------------------------------------------|
-| Yfirlit yfir fríðindaskráningu  | Mest og minnst notaðar áætlanir, skráning eftir starfsmannahópnum og valdir möguleikar fríðindaáætlana. |
-| Fríðindi starfsmanna            | Starfsmannaskráning eftir völdum fríðindum                                                        |
-                                                                                             
-Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+| Skýrsla                      | Innihald                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| Yfirlit yfir fríðindaskráningu | Mest og minnst notaðar áætlanir, skráning eftir starfsmannahópnum og valdir möguleikar fríðindaáætlana. |
+| Fríðindi starfsmanna           | Starfsmannaskráning eftir völdum fríðindum                                                        |
 
+Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **Fríðindi**. Þessi tafla sýnir einingar sem efnispakkinn var byggður á.
@@ -72,6 +71,4 @@ Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **Fr
 | Nafn starfsmanns            | Fornafn, eftirnafn, og fullt nafn                                                                       | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Titill starfsmanns           | Titill og starfsaldursdagsetning                                                                                   | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Fyrirtæki, laun, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf, fríðindi |
-
-
 

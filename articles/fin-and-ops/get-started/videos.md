@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 #### <a name="data-integration"></a>Samþætting gagna
 - [PTC-samþætting](https://youtu.be/AVV9x5x-XCg) 
-- [Samstilling vinnupöntunar á milli Dynamics 365 for Field Service og Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Samstilling vinnupöntunar á milli Dynamics 365 for Field Service og Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gagnastjórnun
 - [Nota gagnaeiningar og gagnapakka í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 #### <a name="intelligence"></a>Greind
 - [Koma með eigin gagnagrunn (BYOD) í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Hvernig á að nota kostnaðarstjórnun Power BI efni í Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [Eignasafn í Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Röðun virkra efna í uppskrift](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Endurbætur á losunarferli framleiðslupöntunar](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Sjónræn röðun með Gantt-línurit fyrir framleiðslu- og runupantanir](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Skattkerfi
+- [Yfirlit yfir skattakerfi](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Vöruhúsakerfi
 - [Losa tiltekt framleiðslu í vöruhús í runu](https://youtu.be/8urAJn50dQ8)
