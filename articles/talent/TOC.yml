@@ -6,6 +6,14 @@
       items:
         - name: Nýjungar eða breytingar
           items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)
+              href: whats-new-talent-october-01.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (24. september 2018)
+              href: whats-new-talent-september-24.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (10. september 2018)
+              href: whats-new-talent-september-10.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (ágúst 2018)
               href: whats-new-talent-august2018.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (júlí 2018)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: Innfella PowerApps-forrit
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR og Common Data Service fyrir forrit
+          href: CoreHREntities.md
         - name: Fá aðgang að eiginleikum í forútgáfu
           href: access-preview-feature.md
         - name: Skilgreina launasamþættingu milli Talent og Dayforce
           href: configure-payroll-integration.md
+        - name: Fá aðstoð fyrir Talent
+          href: talent-support.md
     - name: 'Skipuleggja vinnuafl með notkun deilda, starfa og staða'
       href: departments-jobs-positions.md
       items:
@@ -41,11 +53,16 @@
           href: formalize-business-processes.md
         - name: Nota verkflæði til að haga starfsmannaupplýsingum
           href: workflow-manage-employee-information.md
-        - name: Umsjón leyfa og fjarvista
-          href: leave-absence-overview.md
+    - name: Vinna með leyfi og fjarvistir
+      href: leave-absence-overview.md
+      items:
+        - name: Uppsöfnun frís sem byggist á vinnustundum
+          href: leave-accrue-hours-worked.md
+        - name: Vinnutímadagatöl
+          href: working-time-calendars.md
     - name: Mönnun fyrirtækis
       items:
-        - name: Laða að eiginleika og færni
+        - name: Attract eiginleikar og færni
           href: attract-overview.md
         - name: Búa til aðlaðandi innleiðingarupplifun
           href: create-onboarding-experience.md
@@ -59,11 +76,13 @@
           href: create-variable-compensation-plans.md
         - name: Launaútreikningur
           href: process-compensation.md
+        - name: Setja upp íhluti verks
+          href: create-job.md
     - name: Þróa og þjálfa starfsmenn
       items:
         - name: Árangursstjórnun
           href: performance-management-overview.md
-        - name: Samþætting hæfni starfsfólks og rekstrarþarfa
+        - name: Samþætting hæfni starfsfólks við rekstrarþarfir
           href: skills.md
         - name: Uppsetning námskeiða
           href: courses.md

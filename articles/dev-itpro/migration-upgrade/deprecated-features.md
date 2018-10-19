@@ -3,7 +3,7 @@ title: "Eiginleikar sem hafa verið fjarlægðir eða úreltir"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -41,6 +41,52 @@ ms.lasthandoff: 08/09/2018
 
 > [!Note]
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Runuflutningsreglur fyrir lyklafærslur undirbókar
+Samstillta flutningsstillingin er felld úr gildi í færibreytum fjárhags.  Þessari stillingu er aðeins skipt út fyrir ósamstillta og áætlaða runu, sem þegar er til staðar sem valkostir fyrir flutning. 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við fjarlægjum samstillingarvalkostinn vegna þess að hann hefur áhrif á frammistöðu kerfisins. |
+| **Skipt út fyrir aðra eiginleika?**   | Ósamstillt og áætluð runa eru valkostir til að nota í stað samstilltrar.   |
+| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur, Viðskiptaskuldir, Viðskiptakröfur, Innkaup, Kostnaður    |
+| **Dreifingarvalkostur**              | Allir  |
+| **Staða**                         | Úrelt: Tímarammi markmiðs um fjarlægingu á virkni er útgáfa 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Rafræn skýrslugerð fyrir Rússland
+Eiginleiki til að stilla .txt- og .xml-skráarsnið yfirlýsinga. 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir rafræna skýrslugerð. |
+| **Skipt út fyrir aðra eiginleika?**   | Já. |
+| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+
+### <a name="financial-reports-generator-for-russia"></a>Fjárhagsskýrslugerðarforrit fyrir Rússland
+Verkfæri til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og flytja út gögn í XLS- og DOC-skýrslusniðmát. Virkir hlutar: Flytja út gögn í XLS- og DOC-skýrslusniðmát, fyrirspurnir, föst skilyrði eru fjarlægð. 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Fjarlægðum hlutum er skipt út fyrir rafræna skýrslugerð. |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Notandaviðmót fyrir uppsetningu á fjárhagsskýrslum ætti að nota til að setja upp gagnasöfnunarreglur með fjárhagslyklum eða skattskrám. Flytja út gögn í ýmisar skáargerðir, föst skilyrði og fyrirspurnir eins og gagnasöfnunarreglur ættu að vera stilltar í rafrænni skýrslugerð. |
+| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur. |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Samþætting við ytri þjónustuveitendur við að senda rafræna skýrslugerð í gegnum samskiptarásir fyrir Rússland
+Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frekari sendingar til opinberra veitenda rafrænna skýrslugerða auk þess að flytja inn stöðu til baka.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir stillanlega eiginleika rafrænna skilaboða. |
+| **Skipt út fyrir aðra eiginleika?**   | Já.  |
+| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur, Skattur |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 með verkvangsuppfærslu 15
 Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu. Verkvangsuppfærsla 15 er uppsöfnuð og inniheldur nýja eða breytta eiginleika frá verkvangsuppfærslu 13, verkvangsuppfærslu 14 og verkvangsuppfærslu 15.

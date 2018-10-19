@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
+ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
+ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -47,7 +47,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Uppsetning þróunargreinar og smíði](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Uppsetning þróunarvélar](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [Samþætting Visual Studio Team Services við Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [Azure DevOps samþætting við Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>Notandaviðmót skoðað
 - [Bæta við sérstilltum svæðum](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
@@ -159,7 +159,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [AX 2009 flutningsverkfæri (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Uppfærsla AX 2012 til Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Hvernig á að uppfæra í 7.2 (júlí 2017) frá 7.0 (RTW)/7.1 (útgáfa 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Uppsetning Visual Studio Team Services (VSTS) (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Azure DevOps uppsetning (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>Vöruhúsakerfi
 - [Viðbætur við móttöku á blönduðum númeraplötum (DYN331PAL)](https://infopedia.eventbuilder.com/event?eventid=e0u6t2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)

@@ -3,23 +3,24 @@ title: "Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrs
 description: "Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili rafræn skýrslugerð getur grunnstilla snið rafræn skýrslugerð til að mynda skýrslur sem skjöl í Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
@@ -30,9 +31,9 @@ Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjó
 
 Til að ljúka þessum skrefum verður fyrst að ljúka við skref í verkefnaleiðbeiningar „Búa til grunnstilling Rafræn skýrslugerð til að mynda skýrslur í OPENXML-snið“. Fyrirfram verður líka að hlaða niður og vista eftirfarandi sniðmát staðbundið fyrir sýnishorn skýrslu:
 
-[Sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Afmarkað sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Afmarkað sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Microsoft Dynamics 365 for Operations útgáfu 1611.
 
@@ -49,7 +50,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skref í verkefnale
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Skipta Excel-sniðmáti út fyrir Word-sniðmát
     * Núna er Excel-skjal notað sem sniðmát til að mynda úttak í OPENXML-sniði. Við munum flytja inn sniðmát skýrslunnar í Word-sniði.  
 1. Smellt er á viðhengi
-    * Skipta út fyrirliggjandi Excel-sniðmát fyrir Word-sniðmát sem áður var sótt, sniðmát greiðsluskýrslu. Athugaðu að þetta sniðmát inniheldur aðeins útlit skjals sem á að mynda sem úttak í Rafræn skýrslugerð.  
+    * Skipta út fyrirliggjandi Excel-sniðmát fyrir Word-sniðmát sem áður var sótt, SampleVendPaymDocReport.docx. Athugaðu að þetta sniðmát inniheldur aðeins útlit skjals sem á að mynda sem úttak í Rafræn skýrslugerð.  
 2. Smellið á Eyða.
 3. Smella á Já.
 4. Smellið á „Nýtt“.

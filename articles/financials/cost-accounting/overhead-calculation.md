@@ -3,7 +3,7 @@ title: "Útreikningur fastakostnaður"
 description: "Þetta efnisatriði lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -191,8 +191,7 @@ Sjálfvirkt er að þegar kostnaðarfærslur eru fluttar úr grunngögnum fái �
 </tbody>
 </table>
 
-Nákvæmar upplýsingar um kostnaðarhegðun er að finna í Reglu kostnaðarhegðunar. (Athugaðu að þetta efnisatriði hefur ekki enn verið fullklárað en er væntanlegt.)
-
+Nánari upplýsingar er að finna í [Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Skref 2: Keyra útreikning kostnaðardreifingar
 
 Kostnaðardreifing er notuð til að endurúthluta kostnaði frá einum kostnaðarhlut til annars eða fleiri kostnaðarhluta með því að nota viðeigandi úthlutunargrunn. Kostnaðardreifing og kostnaðarúthlutun eru ólíkar að því leyti að kostnaðardreifing kemur alltaf upp á stigi aðalkostnaðareiningar upphaflegs verðs.
@@ -430,7 +429,7 @@ Föstum kostnaði þarf að dreifa jafnt á staka kostnaðarhluti sem hafa nota�
 </tbody>
 </table>
 
-Nákvæmar upplýsingar um kostnaðardreifingu og úthlutunargrunna er að finna í Kostnaðardreifingarreglu og úthlutunargrunnum. (Athugaðu að þetta efnisatriði hefur ekki enn verið fullklárað en er væntanlegt.)
+Nánari upplýsingar er að finna í [Stofna og úthluta kostnaðardreifingarreglu fyrir kostnaðarstýringareiningu](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Skref 3: Keyra útreikning sameiginlegs kostnaðar
 
@@ -618,7 +617,7 @@ Eftirfarandi tafla sýnir niðurstöður þegar Mannauðsverk eru notuð sem gru
 </tbody>
 </table>
 
-Nákvæmar upplýsingar um reglu sameiginlegs kostnaðar er að finna í Reglu fyrir sameiginlegan kostnað og úthlutunargrunnum. (Athugaðu að þetta efnisatriði hefur ekki enn verið fullklárað en er væntanlegt.)
+Nánari upplýsingar er að finna í [Framkvæma útreikning fastakostnaðar](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Skref 4: Keyra útreikning kostnaðarúthlutunar
 
@@ -725,7 +724,8 @@ Kostnaðarhlutir CC004 Umbúðir leggur til nokkra kostnaðarhluti. Stofnað er 
 </tbody>
 </table>
 
-**Athugið:** Í Finance and Operations er hægt að afleiða tölfræðiaðgerðir eins og framleiðslutíma sem vara notar frá upprunagögnum. Ítarlegri upplýsingar um veitur tölfræðiaðgerðar er að finna í Veitusniðmáti tölfræðiaðgerðar. (Athugið að þetta efnisatriði er ekki enn fullklárað en er væntanlegt.) Eftirfarandi tafla sýnir niðurstöður þegar Mannauðsþjónusta er notuð sem úthlutunargrunnur fyrir heildarkostnað (fastan kostnað og breytilegan kostnað).
+> [!NOTE]
+> Í Finance and Operations er hægt að afleiða tölfræðiaðgerðir eins og framleiðslutíma sem vara notar frá upprunagögnum. Nánari upplýsingar er að finna í [Veitusniðmát tölfræðiaðgerðar](statistical-measure-provider-template.md#statistical-measure-provider-template). Eftirfarandi tafla sýnir niðurstöður þegar mannauðsþjónusta er notuð sem úthlutunargrunnur fyrir heildarkostnað (fastan kostnað og breytilegan kostnað).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Eftirfarandi tafla sýnir niðurstöður þegar Umbúðaþjónusta er notuð sem
 </table>
 
 > [!NOTE]
-> Þetta efnisatriði sýnir hvernig fyrir aðalkostnaðareiningin 10001 Rafmagn flæðir í gegnum kostnaðarhluti. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Ítarlegri upplýsingar eru í Reglu samantekins kostnaðar. (Athugaðu að þetta efnisatriði hefur ekki enn verið fullklárað en er væntanlegt.)
+> Þetta efnisatriði sýnir hvernig fyrir aðalkostnaðareiningin 10001 Rafmagn flæðir í gegnum kostnaðarhluti. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Nánari upplýsingar er að finna í [Samantekt kostnaðar](cost-rollup.md).
 
 
 

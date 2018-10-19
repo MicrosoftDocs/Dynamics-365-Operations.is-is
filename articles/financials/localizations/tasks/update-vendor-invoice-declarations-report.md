@@ -1,28 +1,29 @@
 --- 
-title: "Uppfæra reikningsskýrslu lánardrottins og mynda skýrsluna (Ísland)"
+title: "Uppfæra verktakamiða lánardrottna og búa til skýrslu"
 description: "Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða."
 author: mrolecki
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c990ed78fa237314130371a9d4eed442c9b816af
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 579bb2219f5059604dcd6cc1a1404793d52ada1e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="update-vendor-invoice-declarations-and-generate-the-report-iceland"></a>Uppfæra reikningsskýrslu lánardrottins og mynda skýrsluna (Ísland)
+# <a name="update-vendor-invoice-declarations-and-generate-the-report"></a>Uppfæra verktakamiða lánardrottna og búa til skýrslu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

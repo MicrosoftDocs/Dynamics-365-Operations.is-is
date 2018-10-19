@@ -1,33 +1,34 @@
 --- 
-title: "Setja upp handvirka pökkun (aðeins febrúar og maí 2016)"
+title: "Setja upp handvirka pökkun (febrúar 2016 & maí 2016)"
 description: "Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/04/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>Setja upp handvirka pökkun (aðeins febrúar og maí 2016)
+# <a name="set-up-manual-packing-february-2016--may-2016"></a>Setja upp handvirka pökkun (febrúar 2016 & maí 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma. Í þessu ferli starfsmenn vöruhússins taka vörur frá staðsetningum geymslu og flytja þær í pökkunarstöð þar sem þær athuga vörumagn og gerðir og úthluta þeim til viðeigandi gáma. Þegar gámur er alveg fullur, geta þeir loka honum og færa hana til úthliða, og vörurnar eru tilbúnar til sendingar. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
+Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma. Í þessu ferli starfsmenn vöruhússins taka vörur frá staðsetningum geymslu og flytja þær í pökkunarstöð þar sem þær athuga vörumagn og gerðir og úthluta þeim til viðeigandi gáma. Þegar gámur er alveg fullur, geta þeir loka honum og færa hana til úthliða, og vörurnar eru tilbúnar til sendingar. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Þetta ferli er fyrir Febrúar 2016 og útgáfur Maí 2016 af eingöngu Dynamics 365 for Operations.
 
 
 ## <a name="set-up-location-profiles"></a>Setja upp forstillingar staðsetningar

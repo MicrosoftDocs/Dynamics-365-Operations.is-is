@@ -1,28 +1,29 @@
 --- 
-title: "Uppfæra snið með því að nota nýja grunnútgáfur"
+title: "Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/06/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="upgrade-formats-by-adopting-new-base-versions"></a>Uppfæra snið með því að nota nýja grunnútgáfur
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -35,7 +36,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum
 
 ## <a name="select-format-configuration-for-customization"></a>Veljið skilgreiningu sniðs fyrir sérsnið
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.  Sýnifyrirtæki Proseware, Inc. (`http://www.proseware.com`) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði. Proseware, Inc. motar snið í sumum svæðum þess lands.  
+    * Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (http://www.litware.com) vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.    Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði. Proseware, Inc. motar snið í sumum svæðum þess lands.  
 2. Smelltu á Grunnstillingar skýrslugerðar
 3. Smellt er á Sýna síur.
 4. Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"
@@ -46,7 +47,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum
     * Útgáfa sniðs með stöðuna Lokið mun verða notað af Proseware, Inc. fyrir sérstillingu.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Stofna nýja skilgreiningu fyrir sérsniðið snið rafrænna skjala
-Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra. Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur. Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.  Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.  
+    * Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra. Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur. Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.  Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.  
 1. Lokið síðunni.
 2. Veljið Proseware, Inc. til að gera hana að virkri veitu.
 3. Smellt á Stilla sem virkt.
@@ -107,13 +108,11 @@ Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upph
     * Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1. Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations. Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.  
+    * Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition. Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Uppfæra fyrirliggjandi landsbunda skilgreiningu.
-Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið. Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.  
-
-Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc. Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.
-
+    * Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið. Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.  
+    * Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc. Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.  
 1. Lokið síðunni.
 2. Velja Litware, Inc. veitu.
 3. Smellt á Stilla sem virkt.
@@ -123,12 +122,9 @@ Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga n
     * Útgáfudrögin í eigu Litware, Inc. veita BACS (UK upphugsað) eru valin til að koma með breytingar til að styðja við nýjar svæðisbundnar kröfur.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>Staðfæra grunnsnið rafræna skjalsins.
-Gefum okkur að til staöar séu nýjar landsbundnar kröfur sem Litware þarf að styðja:  
-- Gildi fyrir SWIFT-kóða banka lánveitanda í hverri greiðslufærslu.  
-- Takmörkun upp á 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.  
- 
-Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.  
-
+    * Gefum okkur til staðar séu ný svæðisbundið þarfir sem Litware, Inc þarf að styðja.: - gildi fyrir lánardrottins SWIFT-kóða banka í hverri greiðslufærslu.  - Takmörkun uppá 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.  
+    * Nýjar landsbundnar kröfur  
+    * Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.  
 1. Smellið á Hönnuður.
 2. Smellt er á Víkka/draga saman.
 3. Smellt er á Víkka/draga saman.
@@ -159,7 +155,7 @@ Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna ti
 2. Lokið síðunni.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Breyta stöðu á gildandi útgáfu af grunnskilgreiningarsniði
-Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.  
+    * Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.  
 1. Smellið á „Breyta stöðu“.
     * Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.  
 2. Smelltu á Ljúka.
@@ -168,8 +164,7 @@ Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til 
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Breyta Grunnútgáfa fyrir sérsniðna skilgreiningarsnið
-Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir. Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.  Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið). Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.  
-
+    * Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir. Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.  Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið). Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.  
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
 2. Veldu Proseware, Inc. veitandi til að merkja það sem virkt.
 3. Smellt á Stilla sem virkt.
@@ -203,6 +198,6 @@ Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK u
     * Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations. Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
+    * Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition. Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
 
 

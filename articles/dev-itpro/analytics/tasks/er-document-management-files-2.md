@@ -1,28 +1,29 @@
 --- 
-title: "Víkka gagnalíkön til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar"
+title: "Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 2 - framlengja gagnalíkan)"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Víkka gagnalíkön til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
+# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 2: framlengja gagnalíkan)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -57,7 +58,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 17. Veljið 'Strengur' í svæðinu Vöru.
 18. Smelltu á Bæta við.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Varpa nýjum einingum gagnalíkans á gagnaveitur Dynamics 365 for Finance and Operations
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Varpa nýjum einingum gagnalíkans til Dynamics 365 for Finance and Operations, Enterprise edition gagnaveitur.
 1. Smellt er á Varpa líkani á gagnagjafa.
 2. Nota flýtiafmörkun á skilgreiningarreit með gildið 'InvoiceCustomer'.
     * InvoiceCustomer  

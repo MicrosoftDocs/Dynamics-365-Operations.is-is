@@ -1,28 +1,29 @@
 --- 
-title: "Stofna afurðanúmer fyrir forskilgreind afurðarafbrigði"
+title: "Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði"
 description: "Þessari handbók sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði og hvernig því er úthlutað á viðeigandi afurðarvíddarflokknum."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c423aab341ddad9383c4c95b9dbb63c9875c99ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4b49e96677b94d5f669ea41861f64e62e118938c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-a-product-number-for-predefined-product-variants"></a>Stofna afurðanúmer fyrir forskilgreind afurðarafbrigði
+# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 1. Smellið á Skilgreining afurðarafbrigðislíkans
 2. Smelltu á Nafnakerfi afurðar.
 3. Smellt er á Nýtt.
-4. Í reitnum Heiti er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis ColorSize.
+4. Í reitnum Heiti er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis ColorSize...
 5. Sláið inn gildi í reitnum „Lýsing“.
 6. Smelltu á Bæta við.
 7. Smelltu á Númer afurðarsniðmáts.

@@ -1,9 +1,9 @@
 ---
-title: "Viðhalda tillögum"
-description: "Þessi grein gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun."
+title: "Vinna með áætlaðar pantanir"
+description: "Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,18 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: e0e3e86ae85b59b10dc8d9ca9b0130d218469118
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/02/2018
 
 ---
 
-# <a name="maintain-planned-orders"></a>Viðhalda tillögum
+# <a name="maintain-planned-orders"></a>Vinna með áætlaðar pantanir
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.
+Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.
 
 Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanagerð**, úr listanum **Áætluð pöntun** eða listunum **Áætlaðar framleiðslupantanir**, **Áætlaðar innkaupapantanir**, og **Flutningsáætlanir**. Hægt er að nota svæðið **Staða** til að aðstoða við að rekja framgang. Eftirtalin gildi eru notuð:
 
@@ -45,7 +45,7 @@ Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanag
 -   Margar áætlaðar pantanir.
 -   Áætlaðar pantanir sem myndaðar eru með niðurbroti af síðunni **Niðurbrot**. Smellið á **Áætlaðar pantanir**, veljið pöntunina og smellið því næst á **Staðfest**.
 
-Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu. **Ábending:** Með því að hægrismella á áætlaða pöntun með ákveðna stöðu er hægt að sía fyrir aðrar áætlaðar pantanir með sömu stöðu. Þessi aðgerð er gagnleg ef, til dæmis, óskað er að sía fyrir allar áætlaðar pantanir sem hafa stöðuna **Samþykkt**, svo síðan sé hægt að staðfesta þær.
+Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu. 
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

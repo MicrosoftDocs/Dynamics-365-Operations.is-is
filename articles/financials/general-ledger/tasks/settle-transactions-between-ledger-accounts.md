@@ -3,7 +3,7 @@ title: "Jafna færslur á milli fjárhagslykla"
 description: "Þessi verklýsing sýnir hvernig á að jafna færslur á milli fjárhagslykla og hætta við fjárhagsjöfnun."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Jafna færslur á milli fjárhagslykla
@@ -33,19 +33,20 @@ ms.lasthandoff: 09/29/2017
 ## <a name="settle-transaction-between-ledger-accounts"></a>Jafna færslu milli fjárhagslykla
 1. Fara í Fjárhag > Reglubundin verkefni > Fjárhagsjafnanir.
 2. Í listanum skal velja færsluna sem á að leysa.
-    * Staða upphæðar verður að vera núll.  
+   > [!NOTE]
+   > Staða upphæðar verður að vera núll.  
 3. Smellt er á Hafa með.
 4. Smellið á Samþykkja.
 
 ## <a name="cancel-a-ledger-settlement"></a>Hætta við fjárhagsjöfnun
-1. Lokið síðunni.
-2. Fara í Fjárhag > Fyrirspurnir og skýrslur > Prófjöfnuður.
-3. Smelltu á Færibreytur til að opna felligluggann.
-4. Smelltu á Uppfæra.
-5. Í listanum finnurðu lykilinn sem er með jöfnuðu færsluna.
-6. Smellt er á Allar færslur.
-7. Nota verður síu til að finna færsluna í listanum.
-8. Smellt er á Fjárhagsjafnanir.
-9. Í listanum skal merkja valda línu.
+
+1. Fara í Fjárhag > Fyrirspurnir og skýrslur > Prófjöfnuður.
+2. Smelltu á Færibreytur til að opna felligluggann.
+3. Smelltu á Uppfæra.
+4. Í listanum finnurðu lykilinn sem er með jöfnuðu færsluna.
+5. Smellt er á Allar færslur.
+6. Nota verður síu til að finna færsluna í listanum.
+7. Smellt er á Fjárhagsjafnanir.
+8. Í listanum skal merkja valda línu.
 
 
