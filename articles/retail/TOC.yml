@@ -6,12 +6,14 @@
       href: get-started/whats-new.md
     - name: Áður en þú kaupir Retail
       href: get-started/before-you-buy.md
-    - name: Skaltu skrá þig fyrir prufuáskrift
+    - name: skaltu skrá þig fyrir prufuáskrift
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
     - name: Uppsetning sýniútgáfuumhverfis
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Uppsetningarvalkostir
       href: dev-itpro/choose-deployment.md
+    - name: Fá aðstoð fyrir Retail
+      href: retail-support.md
 - name: Lærðu á innleiðingarferlið
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -37,7 +39,7 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Innleiða Finance and Operations Retail-verk
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Setja upp nýtt umhverfi, VSTS og útibú fyrir Retail-verk'
+    - name: 'Setja upp nýtt umhverfi, Azure DevOps og útibú fyrir Retail-verk'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Uppfæra kóða og umhverfi fyrir Retail-verk
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: Staðfærslu- og eftirlitseiginleikar
   items:
+    - name: Austur-Evrópa
+      items:
+        - name: Fyrirframgreiðslureikningar fyrir Retail fyrir Austur-Evrópu
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Umsjón með kassasjóði fyrir Retail fyrir Austur-Evrópu
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Reikningar viðskiptavina Retail og sölupantanir sem hefur verið skilað í löndum Austur-Evrópu.
+          href: localizations/emea-eeu-retail-invoices.md
     - name: Frakkland
       items:
         - name: Afgreiðslukassavirkni
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Stuðningur fyrir uppfærslu og N-1 á Indlandi
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Noregur
       items:
         - name: Afgreiðslukassavirkni

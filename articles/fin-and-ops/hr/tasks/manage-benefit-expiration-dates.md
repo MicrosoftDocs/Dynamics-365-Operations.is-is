@@ -23,29 +23,29 @@ ms.contentlocale: is-is
 ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="30033-103">Vinna með lokadaga fríðinda</span><span class="sxs-lookup"><span data-stu-id="30033-103">Manage benefit expiration dates</span></span>
+# <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="49e7c-103">Vinna með lokadaga fríðinda</span><span class="sxs-lookup"><span data-stu-id="49e7c-103">Manage benefit expiration dates</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="30033-104">Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi.</span><span class="sxs-lookup"><span data-stu-id="30033-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="30033-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="30033-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="49e7c-104">Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi.</span><span class="sxs-lookup"><span data-stu-id="49e7c-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="49e7c-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="49e7c-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="benefit-expiration-dates"></a><span data-ttu-id="30033-106">Lokadagar fríðinda</span><span class="sxs-lookup"><span data-stu-id="30033-106">Benefit expiration dates</span></span>
-1. <span data-ttu-id="30033-107">Farið í Mannauður > Fríðindi > Fríðindi.</span><span class="sxs-lookup"><span data-stu-id="30033-107">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="30033-108">Útvíkka upplýsingakassann skráðir starfsmenn</span><span class="sxs-lookup"><span data-stu-id="30033-108">Expand the Enrolled workers FactBox.</span></span>
-3. <span data-ttu-id="30033-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="30033-109">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="30033-110">Í aðgerðasvæðinu er smellt á fríðindi.</span><span class="sxs-lookup"><span data-stu-id="30033-110">On the Action Pane, click Benefit.</span></span>
-5. <span data-ttu-id="30033-111">Smellt er á Afturkalla eða lengja fríðindi</span><span class="sxs-lookup"><span data-stu-id="30033-111">Click Expire or extend benefits.</span></span>
-6. <span data-ttu-id="30033-112">Í lokadegi nýrra fríðinda, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="30033-112">In the New benefit expiration date field, enter a date and time.</span></span>
-7. <span data-ttu-id="30033-113">Smellið á Rennur út.</span><span class="sxs-lookup"><span data-stu-id="30033-113">Click Expire.</span></span>
-8. <span data-ttu-id="30033-114">Í aðgerðasvæðinu er smellt á fríðindi.</span><span class="sxs-lookup"><span data-stu-id="30033-114">On the Action Pane, click Benefit.</span></span>
-9. <span data-ttu-id="30033-115">Smellt er á Niðurstöður afturköllunar og lengingar fríðinda</span><span class="sxs-lookup"><span data-stu-id="30033-115">Click Benefit expiration and extension results.</span></span>
-10. <span data-ttu-id="30033-116">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="30033-116">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="30033-117">Smellið á tengilinn fyrir Starfsmenn sem verða fyrir áhrifum, á listanum.</span><span class="sxs-lookup"><span data-stu-id="30033-117">In the list, click the Workers affected link.</span></span>
-12. <span data-ttu-id="30033-118">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="30033-118">In the list, find and select the desired record.</span></span>
-13. <span data-ttu-id="30033-119">Smellið til að elta tengilinn í reitnum númer starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="30033-119">Click to follow the link in the Personnel number field.</span></span>
-14. <span data-ttu-id="30033-120">Útvíkka hlutann Persónuupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="30033-120">Expand the Personal information section.</span></span>
-15. <span data-ttu-id="30033-121">Smellt er á Fríðindum.</span><span class="sxs-lookup"><span data-stu-id="30033-121">Click Benefits.</span></span>
-16. <span data-ttu-id="30033-122">Í listanum skal finna fríðindi og velja skrá.</span><span class="sxs-lookup"><span data-stu-id="30033-122">In the list, find the benefit and select the record.</span></span> <span data-ttu-id="30033-123">Athugið að lokadagur nýrrar þekju.</span><span class="sxs-lookup"><span data-stu-id="30033-123">Note the new coverage end date.</span></span>
+## <a name="benefit-expiration-dates"></a><span data-ttu-id="49e7c-106">Lokadagar fríðinda</span><span class="sxs-lookup"><span data-stu-id="49e7c-106">Benefit expiration dates</span></span>
+1. <span data-ttu-id="49e7c-107">Farið í Mannauður > Fríðindi > Fríðindi.</span><span class="sxs-lookup"><span data-stu-id="49e7c-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="49e7c-108">Útvíkka upplýsingakassann skráðir starfsmenn</span><span class="sxs-lookup"><span data-stu-id="49e7c-108">Expand the Enrolled workers FactBox.</span></span>
+3. <span data-ttu-id="49e7c-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="49e7c-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="49e7c-110">Í aðgerðasvæðinu er smellt á fríðindi.</span><span class="sxs-lookup"><span data-stu-id="49e7c-110">On the Action Pane, click Benefit.</span></span>
+5. <span data-ttu-id="49e7c-111">Smellt er á Afturkalla eða lengja fríðindi</span><span class="sxs-lookup"><span data-stu-id="49e7c-111">Click Expire or extend benefits.</span></span>
+6. <span data-ttu-id="49e7c-112">Í lokadegi nýrra fríðinda, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="49e7c-112">In the New benefit expiration date field, enter a date and time.</span></span>
+7. <span data-ttu-id="49e7c-113">Smellið á Rennur út.</span><span class="sxs-lookup"><span data-stu-id="49e7c-113">Click Expire.</span></span>
+8. <span data-ttu-id="49e7c-114">Í aðgerðasvæðinu er smellt á fríðindi.</span><span class="sxs-lookup"><span data-stu-id="49e7c-114">On the Action Pane, click Benefit.</span></span>
+9. <span data-ttu-id="49e7c-115">Smellt er á Niðurstöður afturköllunar og lengingar fríðinda</span><span class="sxs-lookup"><span data-stu-id="49e7c-115">Click Benefit expiration and extension results.</span></span>
+10. <span data-ttu-id="49e7c-116">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="49e7c-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="49e7c-117">Smellið á tengilinn fyrir Starfsmenn sem verða fyrir áhrifum, á listanum.</span><span class="sxs-lookup"><span data-stu-id="49e7c-117">In the list, click the Workers affected link.</span></span>
+12. <span data-ttu-id="49e7c-118">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="49e7c-118">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="49e7c-119">Smellið til að elta tengilinn í reitnum númer starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="49e7c-119">Click to follow the link in the Personnel number field.</span></span>
+14. <span data-ttu-id="49e7c-120">Útvíkka hlutann Persónuupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="49e7c-120">Expand the Personal information section.</span></span>
+15. <span data-ttu-id="49e7c-121">Smellt er á Fríðindum.</span><span class="sxs-lookup"><span data-stu-id="49e7c-121">Click Benefits.</span></span>
+16. <span data-ttu-id="49e7c-122">Í listanum skal finna fríðindi og velja skrá.</span><span class="sxs-lookup"><span data-stu-id="49e7c-122">In the list, find the benefit and select the record.</span></span> <span data-ttu-id="49e7c-123">Athugið að lokadagur nýrrar þekju.</span><span class="sxs-lookup"><span data-stu-id="49e7c-123">Note the new coverage end date.</span></span>
 
 

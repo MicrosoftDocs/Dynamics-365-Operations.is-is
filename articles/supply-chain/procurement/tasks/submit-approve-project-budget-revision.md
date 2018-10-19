@@ -1,48 +1,49 @@
 --- 
-title: "Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka"
+title: "Senda og samþykkja fjárhagsáætlun verks"
 description: "Þetta ferli gefur upplýsingar um hvernig á að fara yfir fjárhagsáætlun verks."
 author: mkirknel
 manager: AnnBe
-ms.date: 02/13/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 2c73ad4140717a228f79aa64fb7e4c64ac8f23c4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 24f7f0b8238b017cd7e2dab65a1c0be98e425c40
 ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="submit-and-approve-project-budget-revisions"></a><span data-ttu-id="d0bdd-103">Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka</span><span class="sxs-lookup"><span data-stu-id="d0bdd-103">Submit and approve project budget revisions</span></span>
+# <a name="submit-and-approve-project-budget-revision"></a><span data-ttu-id="eb80e-103">Senda og samþykkja fjárhagsáætlun verks</span><span class="sxs-lookup"><span data-stu-id="eb80e-103">Submit and approve project budget revision</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d0bdd-104">Þetta ferli gefur upplýsingar um hvernig á að fara yfir fjárhagsáætlun verks.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="d0bdd-105">Hægt er að endurskoða fjárhagsáætlun verks eins oft og þörf krefur, en ekki er hægt að sjá upphæð stakra breytinga ef áætluninni hefur verið breytt oftar en einu sinni.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
+<span data-ttu-id="eb80e-104">Þetta ferli gefur upplýsingar um hvernig á að fara yfir fjárhagsáætlun verks.</span><span class="sxs-lookup"><span data-stu-id="eb80e-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="eb80e-105">Hægt er að endurskoða fjárhagsáætlun verks eins oft og þörf krefur, en ekki er hægt að sjá upphæð stakra breytinga ef áætluninni hefur verið breytt oftar en einu sinni.</span><span class="sxs-lookup"><span data-stu-id="eb80e-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
 
-<span data-ttu-id="d0bdd-106">Þetta verkefni notar SSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-106">This task uses the SSI data set.</span></span>
+<span data-ttu-id="eb80e-106">Þetta verkefni notar SSI-gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="eb80e-106">This task uses the SSI data set.</span></span>
 
-1. <span data-ttu-id="d0bdd-107">Farið í Verkefnastjórnun og bókhald > Verkefni > Öll verkefni.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-107">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="d0bdd-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d0bdd-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="d0bdd-110">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-110">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="d0bdd-111">Smellt er á Fjárhagsáætlun verks.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-111">Click Project budget.</span></span>
-6. <span data-ttu-id="d0bdd-112">Smellt er á Ný endurskoðun.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-112">Click New revision.</span></span>
-7. <span data-ttu-id="d0bdd-113">Víkka út hlutann Kostnaður.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-113">Expand the Costs section.</span></span>
-8. <span data-ttu-id="d0bdd-114">Í reitinn Upphæð endurskoðunar skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-114">In the Revision amount field, enter a number.</span></span>
-9. <span data-ttu-id="d0bdd-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-115">Click Save.</span></span>
-10. <span data-ttu-id="d0bdd-116">Smellt er á Verkflæði.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-116">Click Workflow.</span></span>
-11. <span data-ttu-id="d0bdd-117">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-117">Click Submit.</span></span>
-12. <span data-ttu-id="d0bdd-118">Í reitinn Athugasemd skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-118">In the Comment field, type a value.</span></span>
-13. <span data-ttu-id="d0bdd-119">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="d0bdd-119">Click Submit.</span></span>
+1. <span data-ttu-id="eb80e-107">Farið í Verkefnastjórnun og bókhald > Verkefni > Öll verkefni.</span><span class="sxs-lookup"><span data-stu-id="eb80e-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="eb80e-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="eb80e-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="eb80e-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="eb80e-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="eb80e-110">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="eb80e-110">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="eb80e-111">Smellt er á Fjárhagsáætlun verks.</span><span class="sxs-lookup"><span data-stu-id="eb80e-111">Click Project budget.</span></span>
+6. <span data-ttu-id="eb80e-112">Smellt er á Ný endurskoðun.</span><span class="sxs-lookup"><span data-stu-id="eb80e-112">Click New revision.</span></span>
+7. <span data-ttu-id="eb80e-113">Víkka út hlutann Kostnaður.</span><span class="sxs-lookup"><span data-stu-id="eb80e-113">Expand the Costs section.</span></span>
+8. <span data-ttu-id="eb80e-114">Í reitinn Upphæð endurskoðunar skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="eb80e-114">In the Revision amount field, enter a number.</span></span>
+9. <span data-ttu-id="eb80e-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="eb80e-115">Click Save.</span></span>
+10. <span data-ttu-id="eb80e-116">Smellt er á Verkflæði.</span><span class="sxs-lookup"><span data-stu-id="eb80e-116">Click Workflow.</span></span>
+11. <span data-ttu-id="eb80e-117">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="eb80e-117">Click Submit.</span></span>
+12. <span data-ttu-id="eb80e-118">Í reitinn Athugasemd skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="eb80e-118">In the Comment field, type a value.</span></span>
+13. <span data-ttu-id="eb80e-119">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="eb80e-119">Click Submit.</span></span>
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Viðhalda tillögum"
-description: "Þessi grein gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun."
+title: "Vinna með áætlaðar pantanir"
+description: "Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,37 +20,37 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 1c764bb541b371cb2778040e7498c347ac9d7dfe
+ms.sourcegitcommit: 657c19896b20a514dc5308bf7fb086085b482fec
+ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
 ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
-# <a name="maintain-planned-orders"></a><span data-ttu-id="cc41b-104">Viðhalda tillögum</span><span class="sxs-lookup"><span data-stu-id="cc41b-104">Maintain planned orders</span></span>
+# <a name="maintain-planned-orders"></a><span data-ttu-id="5fe20-104">Vinna með áætlaðar pantanir</span><span class="sxs-lookup"><span data-stu-id="5fe20-104">Maintain planned orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cc41b-105">Þessi grein gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum.</span><span class="sxs-lookup"><span data-stu-id="cc41b-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="cc41b-106">Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.</span><span class="sxs-lookup"><span data-stu-id="cc41b-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
+<span data-ttu-id="5fe20-105">Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum.</span><span class="sxs-lookup"><span data-stu-id="5fe20-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="5fe20-106">Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.</span><span class="sxs-lookup"><span data-stu-id="5fe20-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-<span data-ttu-id="cc41b-107">Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanagerð**, úr listanum **Áætluð pöntun** eða listunum **Áætlaðar framleiðslupantanir**, **Áætlaðar innkaupapantanir**, og **Flutningsáætlanir**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="cc41b-108">Hægt er að nota svæðið **Staða** til að aðstoða við að rekja framgang.</span><span class="sxs-lookup"><span data-stu-id="cc41b-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="cc41b-109">Eftirtalin gildi eru notuð:</span><span class="sxs-lookup"><span data-stu-id="cc41b-109">The following values are used:</span></span>
+<span data-ttu-id="5fe20-107">Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanagerð**, úr listanum **Áætluð pöntun** eða listunum **Áætlaðar framleiðslupantanir**, **Áætlaðar innkaupapantanir**, og **Flutningsáætlanir**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="5fe20-108">Hægt er að nota svæðið **Staða** til að aðstoða við að rekja framgang.</span><span class="sxs-lookup"><span data-stu-id="5fe20-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="5fe20-109">Eftirtalin gildi eru notuð:</span><span class="sxs-lookup"><span data-stu-id="5fe20-109">The following values are used:</span></span>
 
--   <span data-ttu-id="cc41b-110">Þegar aðaláætlunagerð°myndar áætlaðar pantanir, hafa áætlaðar pantanir stöðuna **Óunnið**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
--   <span data-ttu-id="cc41b-111">Þegar valið er að staðfesta ekki áætlaða pöntun getur hún fengið stöðuna **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
--   <span data-ttu-id="cc41b-112">Þegar valið er að staðfesta áætlaða pöntun getur hún fengið stöðuna **Samþykkt**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="cc41b-113">Sú staða°gefur til kynna að samþykkt hefur verið að staðfesta pöntunina en það hefur enn ekki verið gert.</span><span class="sxs-lookup"><span data-stu-id="cc41b-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
+-   <span data-ttu-id="5fe20-110">Þegar aðaláætlunagerð°myndar áætlaðar pantanir, hafa áætlaðar pantanir stöðuna **Óunnið**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="5fe20-111">Þegar valið er að staðfesta ekki áætlaða pöntun getur hún fengið stöðuna **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="5fe20-112">Þegar valið er að staðfesta áætlaða pöntun getur hún fengið stöðuna **Samþykkt**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="5fe20-113">Sú staða°gefur til kynna að samþykkt hefur verið að staðfesta pöntunina en það hefur enn ekki verið gert.</span><span class="sxs-lookup"><span data-stu-id="5fe20-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-<span data-ttu-id="cc41b-114">**Ábending:** Áætluð pöntun sem er samþykkt er flutt, í núverandi stöðu, í næsta útreikning°aðaláætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="cc41b-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="cc41b-115">Hægt er að staðfesta áætlaðar pantanir með því að smella á **Staðfest**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="cc41b-116">Hægt er að staðfesta eftirfarandi áætlaðar pantanir:</span><span class="sxs-lookup"><span data-stu-id="cc41b-116">You can firm the following planned orders:</span></span>
+<span data-ttu-id="5fe20-114">**Ábending:** Áætluð pöntun sem er samþykkt er flutt, í núverandi stöðu, í næsta útreikning°aðaláætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="5fe20-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="5fe20-115">Hægt er að staðfesta áætlaðar pantanir með því að smella á **Staðfest**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="5fe20-116">Hægt er að staðfesta eftirfarandi áætlaðar pantanir:</span><span class="sxs-lookup"><span data-stu-id="5fe20-116">You can firm the following planned orders:</span></span>
 
--   <span data-ttu-id="cc41b-117">Áætlaða pöntunin sem er valin.</span><span class="sxs-lookup"><span data-stu-id="cc41b-117">The planned order that is selected.</span></span>
--   <span data-ttu-id="cc41b-118">Margar áætlaðar pantanir.</span><span class="sxs-lookup"><span data-stu-id="cc41b-118">Multiple planned orders.</span></span>
--   <span data-ttu-id="cc41b-119">Áætlaðar pantanir sem myndaðar eru með niðurbroti af síðunni **Niðurbrot**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="cc41b-120">Smellið á **Áætlaðar pantanir**, veljið pöntunina og smellið því næst á **Staðfest**.</span><span class="sxs-lookup"><span data-stu-id="cc41b-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
+-   <span data-ttu-id="5fe20-117">Áætlaða pöntunin sem er valin.</span><span class="sxs-lookup"><span data-stu-id="5fe20-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="5fe20-118">Margar áætlaðar pantanir.</span><span class="sxs-lookup"><span data-stu-id="5fe20-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="5fe20-119">Áætlaðar pantanir sem myndaðar eru með niðurbroti af síðunni **Niðurbrot**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="5fe20-120">Smellið á **Áætlaðar pantanir**, veljið pöntunina og smellið því næst á **Staðfest**.</span><span class="sxs-lookup"><span data-stu-id="5fe20-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-<span data-ttu-id="cc41b-121">Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu.</span><span class="sxs-lookup"><span data-stu-id="cc41b-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="cc41b-122">**Ábending:** Með því að hægrismella á áætlaða pöntun með ákveðna stöðu er hægt að sía fyrir aðrar áætlaðar pantanir með sömu stöðu.</span><span class="sxs-lookup"><span data-stu-id="cc41b-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="cc41b-123">Þessi aðgerð er gagnleg ef, til dæmis, óskað er að sía fyrir allar áætlaðar pantanir sem hafa stöðuna **Samþykkt**, svo síðan sé hægt að staðfesta þær.</span><span class="sxs-lookup"><span data-stu-id="cc41b-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
+<span data-ttu-id="5fe20-121">Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu.</span><span class="sxs-lookup"><span data-stu-id="5fe20-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
 
-<a name="additional-resources"></a><span data-ttu-id="cc41b-124">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="cc41b-124">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="5fe20-122">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="5fe20-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="cc41b-125">Aðaláætlanir</span><span class="sxs-lookup"><span data-stu-id="cc41b-125">Master plans</span></span>](master-plans.md)
+[<span data-ttu-id="5fe20-123">Aðaláætlanir</span><span class="sxs-lookup"><span data-stu-id="5fe20-123">Master plans</span></span>](master-plans.md)
 
 
 

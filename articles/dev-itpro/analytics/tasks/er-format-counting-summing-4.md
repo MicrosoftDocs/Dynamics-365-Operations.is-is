@@ -1,106 +1,107 @@
 --- 
-title: "Keyra snið fyrir rafræna skýrslugerð (ER) til að framkvæma talningu og samlagningu"
+title: "Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 4 - keyra snið)"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: c6d309416a3a0c4da07a76c90246f492585deef5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 17989b7fa2baf14472ec19a041cb5ce7e5c0380d
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="run-electronic-reporting-er-formats-to-do-counting-and-summing"></a><span data-ttu-id="80ae3-103">Keyra snið fyrir rafræna skýrslugerð (ER) til að framkvæma talningu og samlagningu</span><span class="sxs-lookup"><span data-stu-id="80ae3-103">Run Electronic reporting (ER) formats to do counting and summing</span></span>
+# <a name="er-configure-format-to-do-counting-and-summing-part-4-run-format"></a><span data-ttu-id="b1219-103">Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 4: keyra snið)</span><span class="sxs-lookup"><span data-stu-id="b1219-103">ER Configure format to do counting and summing (Part 4: Run format)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="80ae3-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað.</span><span class="sxs-lookup"><span data-stu-id="80ae3-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="80ae3-105">Hægt er að framkvæma þessum skrefum í DEMF fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-105">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="b1219-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað.</span><span class="sxs-lookup"><span data-stu-id="b1219-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="b1219-105">Hægt er að framkvæma þessum skrefum í DEMF fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="b1219-105">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="80ae3-106">Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 3: Nota útreikninga til að búa til úttak)" ferli.</span><span class="sxs-lookup"><span data-stu-id="80ae3-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 3: Use computations to make the output)” procedure.</span></span>
+<span data-ttu-id="b1219-106">Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 3: Nota útreikninga til að búa til úttak)" ferli.</span><span class="sxs-lookup"><span data-stu-id="b1219-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 3: Use computations to make the output)” procedure.</span></span>
 
-<span data-ttu-id="80ae3-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="80ae3-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="b1219-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="b1219-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a><span data-ttu-id="80ae3-108">Prófa þetta afbrigði fyrir myndun intrastat-skýrslur</span><span class="sxs-lookup"><span data-stu-id="80ae3-108">Test this configuration for generation of the Intrastat reports</span></span>
-1. <span data-ttu-id="80ae3-109">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="80ae3-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="80ae3-110">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="80ae3-110">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="80ae3-111">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-111">In the tree, expand 'Intrastat model'.</span></span>
-4. <span data-ttu-id="80ae3-112">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-5. <span data-ttu-id="80ae3-113">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-6. <span data-ttu-id="80ae3-114">Í Aðgerðarrúðunni er smellt á skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="80ae3-114">On the Action Pane, click Configurations.</span></span>
-7. <span data-ttu-id="80ae3-115">Smelltu á Færibreytur notanda</span><span class="sxs-lookup"><span data-stu-id="80ae3-115">Click User parameters.</span></span>
-8. <span data-ttu-id="80ae3-116">Veljið Já í svæðinu Stillingar keyrslu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-116">Select Yes in the Run settings field.</span></span>
-9. <span data-ttu-id="80ae3-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-117">Click OK.</span></span>
-10. <span data-ttu-id="80ae3-118">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-118">Click Edit.</span></span>
-11. <span data-ttu-id="80ae3-119">Veljið Já í svæðinu drög keyrslu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-119">Select Yes in the Run Draft field.</span></span>
-12. <span data-ttu-id="80ae3-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-120">Click Save.</span></span>
-13. <span data-ttu-id="80ae3-121">Fara í Skattur > Uppsetning > Erlend viðskipti > Færibreytur erlendra viðskipta.</span><span class="sxs-lookup"><span data-stu-id="80ae3-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
-14. <span data-ttu-id="80ae3-122">Útvíkka hlutann Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="80ae3-122">Expand the Electronic reporting section.</span></span>
-15. <span data-ttu-id="80ae3-123">Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-123">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
-16. <span data-ttu-id="80ae3-124">Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-124">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
-17. <span data-ttu-id="80ae3-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-125">Click Save.</span></span>
-18. <span data-ttu-id="80ae3-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="80ae3-126">Close the page.</span></span>
-19. <span data-ttu-id="80ae3-127">Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80ae3-127">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-20. <span data-ttu-id="80ae3-128">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="80ae3-128">Click Output.</span></span>
-21. <span data-ttu-id="80ae3-129">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="80ae3-129">Click Report.</span></span>
-    * <span data-ttu-id="80ae3-130">Keyra myndunarferli intrastat-skýrslu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-130">Run the Intrastat report generation process.</span></span>  
-22. <span data-ttu-id="80ae3-131">Í svæði Frá-dagsetningu, stilla á dagsetningu ' 2000-01-01 ".</span><span class="sxs-lookup"><span data-stu-id="80ae3-131">In the From date field, set the date to '2000-01-01'.</span></span>
-    * <span data-ttu-id="80ae3-132">Skilgreinið upphafs og lokadagsetningar fyrir skýrslutímabil sem innihalda fyrirliggjandi færslur í skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="80ae3-132">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
-23. <span data-ttu-id="80ae3-133">Í svæðinu Til dags, setja dagsetningu ' 2022-12-31'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-133">In the To date field, set the date to '2022-12-31'.</span></span>
-    * <span data-ttu-id="80ae3-134">Skilgreinið upphafs og lokadagsetningar fyrir skýrslutímabil sem innihalda fyrirliggjandi færslur í skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="80ae3-134">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
-24. <span data-ttu-id="80ae3-135">Í reitnum stefna skal velja "komur".</span><span class="sxs-lookup"><span data-stu-id="80ae3-135">In the Direction field, select 'Arrivals'.</span></span>
-25. <span data-ttu-id="80ae3-136">Velja skal Já í svæðinu Mynda skrá.</span><span class="sxs-lookup"><span data-stu-id="80ae3-136">Select Yes in the Generate file field.</span></span>
-26. <span data-ttu-id="80ae3-137">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-137">Click OK.</span></span>
-    * <span data-ttu-id="80ae3-138">Fara yfir stofnað úttak með samantektarlínur í lok.</span><span class="sxs-lookup"><span data-stu-id="80ae3-138">Review the created output with the summary lines in the end.</span></span>  
-27. <span data-ttu-id="80ae3-139">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-139">Click New.</span></span>
-28. <span data-ttu-id="80ae3-140">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-140">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="80ae3-141">Í reitnum stefna skal velja "sendingar".</span><span class="sxs-lookup"><span data-stu-id="80ae3-141">In the Direction field, select 'Dispatches'.</span></span>
-30. <span data-ttu-id="80ae3-142">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="80ae3-142">In the Item number field, enter or select a value.</span></span>
-31. <span data-ttu-id="80ae3-143">Sláið inn eða veldu gildi í vörur reitnum.</span><span class="sxs-lookup"><span data-stu-id="80ae3-143">In the Commodity field, enter or select a value.</span></span>
-32. <span data-ttu-id="80ae3-144">Stilla á þyngd á "10".</span><span class="sxs-lookup"><span data-stu-id="80ae3-144">Set Weight to '10'.</span></span>
-33. <span data-ttu-id="80ae3-145">Stilla upphæð reiknings á "10000".</span><span class="sxs-lookup"><span data-stu-id="80ae3-145">Set Invoice amount to '10000'.</span></span>
-34. <span data-ttu-id="80ae3-146">Stilla Tölfræðileg upphæð á "10000".</span><span class="sxs-lookup"><span data-stu-id="80ae3-146">Set Statistical amount to '10000'.</span></span>
-35. <span data-ttu-id="80ae3-147">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="80ae3-147">Click Output.</span></span>
-36. <span data-ttu-id="80ae3-148">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="80ae3-148">Click Report.</span></span>
-37. <span data-ttu-id="80ae3-149">Í reitnum stefna skal velja "sendingar".</span><span class="sxs-lookup"><span data-stu-id="80ae3-149">In the Direction field, select 'Dispatches'.</span></span>
-38. <span data-ttu-id="80ae3-150">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-150">Click OK.</span></span>
-    * <span data-ttu-id="80ae3-151">Fara yfir stofnað úttak með samantektarlínur í lok.</span><span class="sxs-lookup"><span data-stu-id="80ae3-151">Review the created output with the summary lines in the end.</span></span> <span data-ttu-id="80ae3-152">Athugið að það hefur verið breytt miðað við fyrstu keyrsluna.</span><span class="sxs-lookup"><span data-stu-id="80ae3-152">Note that it has been changed in comparison to the first run.</span></span>  
+## <a name="test-this-configuration-for-generation-of-the-intrastat-reports"></a><span data-ttu-id="b1219-108">Prófa þetta afbrigði fyrir myndun intrastat-skýrslur</span><span class="sxs-lookup"><span data-stu-id="b1219-108">Test this configuration for generation of the Intrastat reports</span></span>
+1. <span data-ttu-id="b1219-109">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="b1219-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="b1219-110">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="b1219-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="b1219-111">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="b1219-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="b1219-112">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="b1219-112">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+5. <span data-ttu-id="b1219-113">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="b1219-113">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+6. <span data-ttu-id="b1219-114">Í Aðgerðarrúðunni er smellt á skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="b1219-114">On the Action Pane, click Configurations.</span></span>
+7. <span data-ttu-id="b1219-115">Smelltu á Færibreytur notanda</span><span class="sxs-lookup"><span data-stu-id="b1219-115">Click User parameters.</span></span>
+8. <span data-ttu-id="b1219-116">Veljið Já í svæðinu Stillingar keyrslu.</span><span class="sxs-lookup"><span data-stu-id="b1219-116">Select Yes in the Run settings field.</span></span>
+9. <span data-ttu-id="b1219-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b1219-117">Click OK.</span></span>
+10. <span data-ttu-id="b1219-118">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="b1219-118">Click Edit.</span></span>
+11. <span data-ttu-id="b1219-119">Veljið Já í svæðinu drög keyrslu.</span><span class="sxs-lookup"><span data-stu-id="b1219-119">Select Yes in the Run Draft field.</span></span>
+12. <span data-ttu-id="b1219-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b1219-120">Click Save.</span></span>
+13. <span data-ttu-id="b1219-121">Fara í Skattur > Uppsetning > Erlend viðskipti > Færibreytur erlendra viðskipta.</span><span class="sxs-lookup"><span data-stu-id="b1219-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+14. <span data-ttu-id="b1219-122">Útvíkka hlutann Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="b1219-122">Expand the Electronic reporting section.</span></span>
+15. <span data-ttu-id="b1219-123">Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="b1219-123">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+16. <span data-ttu-id="b1219-124">Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="b1219-124">Select the “Intrastat (DE) with counting & summing” configuration.</span></span>
+17. <span data-ttu-id="b1219-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b1219-125">Click Save.</span></span>
+18. <span data-ttu-id="b1219-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b1219-126">Close the page.</span></span>
+19. <span data-ttu-id="b1219-127">Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b1219-127">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+20. <span data-ttu-id="b1219-128">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="b1219-128">Click Output.</span></span>
+21. <span data-ttu-id="b1219-129">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="b1219-129">Click Report.</span></span>
+    * <span data-ttu-id="b1219-130">Keyra myndunarferli intrastat-skýrslu.</span><span class="sxs-lookup"><span data-stu-id="b1219-130">Run the Intrastat report generation process.</span></span>  
+22. <span data-ttu-id="b1219-131">Í svæði Frá-dagsetningu, stilla á dagsetningu ' 2000-01-01 ".</span><span class="sxs-lookup"><span data-stu-id="b1219-131">In the From date field, set the date to '2000-01-01'.</span></span>
+    * <span data-ttu-id="b1219-132">Skilgreinið upphafs og lokadagsetningar fyrir skýrslutímabil sem innihalda fyrirliggjandi færslur í skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="b1219-132">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+23. <span data-ttu-id="b1219-133">Í svæðinu Til dags, setja dagsetningu ' 2022-12-31'.</span><span class="sxs-lookup"><span data-stu-id="b1219-133">In the To date field, set the date to '2022-12-31'.</span></span>
+    * <span data-ttu-id="b1219-134">Skilgreinið upphafs og lokadagsetningar fyrir skýrslutímabil sem innihalda fyrirliggjandi færslur í skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="b1219-134">Define start and end dates for the reporting period that include the existing on the form transactions.</span></span>  
+24. <span data-ttu-id="b1219-135">Í reitnum stefna skal velja "komur".</span><span class="sxs-lookup"><span data-stu-id="b1219-135">In the Direction field, select 'Arrivals'.</span></span>
+25. <span data-ttu-id="b1219-136">Velja skal Já í svæðinu Mynda skrá.</span><span class="sxs-lookup"><span data-stu-id="b1219-136">Select Yes in the Generate file field.</span></span>
+26. <span data-ttu-id="b1219-137">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b1219-137">Click OK.</span></span>
+    * <span data-ttu-id="b1219-138">Fara yfir stofnað úttak með samantektarlínur í lok.</span><span class="sxs-lookup"><span data-stu-id="b1219-138">Review the created output with the summary lines in the end.</span></span>  
+27. <span data-ttu-id="b1219-139">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b1219-139">Click New.</span></span>
+28. <span data-ttu-id="b1219-140">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b1219-140">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="b1219-141">Í reitnum stefna skal velja "sendingar".</span><span class="sxs-lookup"><span data-stu-id="b1219-141">In the Direction field, select 'Dispatches'.</span></span>
+30. <span data-ttu-id="b1219-142">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="b1219-142">In the Item number field, enter or select a value.</span></span>
+31. <span data-ttu-id="b1219-143">Sláið inn eða veldu gildi í vörur reitnum.</span><span class="sxs-lookup"><span data-stu-id="b1219-143">In the Commodity field, enter or select a value.</span></span>
+32. <span data-ttu-id="b1219-144">Stilla á þyngd á "10".</span><span class="sxs-lookup"><span data-stu-id="b1219-144">Set Weight to '10'.</span></span>
+33. <span data-ttu-id="b1219-145">Stilla upphæð reiknings á "10000".</span><span class="sxs-lookup"><span data-stu-id="b1219-145">Set Invoice amount to '10000'.</span></span>
+34. <span data-ttu-id="b1219-146">Stilla Tölfræðileg upphæð á "10000".</span><span class="sxs-lookup"><span data-stu-id="b1219-146">Set Statistical amount to '10000'.</span></span>
+35. <span data-ttu-id="b1219-147">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="b1219-147">Click Output.</span></span>
+36. <span data-ttu-id="b1219-148">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="b1219-148">Click Report.</span></span>
+37. <span data-ttu-id="b1219-149">Í reitnum stefna skal velja "sendingar".</span><span class="sxs-lookup"><span data-stu-id="b1219-149">In the Direction field, select 'Dispatches'.</span></span>
+38. <span data-ttu-id="b1219-150">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b1219-150">Click OK.</span></span>
+    * <span data-ttu-id="b1219-151">Fara yfir stofnað úttak með samantektarlínur í lok.</span><span class="sxs-lookup"><span data-stu-id="b1219-151">Review the created output with the summary lines in the end.</span></span> <span data-ttu-id="b1219-152">Athugið að það hefur verið breytt miðað við fyrstu keyrsluna.</span><span class="sxs-lookup"><span data-stu-id="b1219-152">Note that it has been changed in comparison to the first run.</span></span>  
 
-## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a><span data-ttu-id="80ae3-153">Keyra þetta afbrigði er í kembiham til að endurskoða uppsöfnuð gögn talningar & samlagningar</span><span class="sxs-lookup"><span data-stu-id="80ae3-153">Run this configuration in debug mode to review the collected counting & summing data</span></span>
-1. <span data-ttu-id="80ae3-154">Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.</span><span class="sxs-lookup"><span data-stu-id="80ae3-154">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="80ae3-155">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-155">In the tree, expand 'Intrastat model'.</span></span>
-3. <span data-ttu-id="80ae3-156">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-156">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-4. <span data-ttu-id="80ae3-157">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-157">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-5. <span data-ttu-id="80ae3-158">Í Aðgerðarrúðunni er smellt á skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="80ae3-158">On the Action Pane, click Configurations.</span></span>
-6. <span data-ttu-id="80ae3-159">Smelltu á Færibreytur notanda</span><span class="sxs-lookup"><span data-stu-id="80ae3-159">Click User parameters.</span></span>
-7. <span data-ttu-id="80ae3-160">Velja skal Já í reitinn keyra í kembingarhami.</span><span class="sxs-lookup"><span data-stu-id="80ae3-160">Select Yes in the Run in debug mode field.</span></span>
-8. <span data-ttu-id="80ae3-161">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-161">Click OK.</span></span>
-9. <span data-ttu-id="80ae3-162">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="80ae3-162">Close the page.</span></span>
-10. <span data-ttu-id="80ae3-163">Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80ae3-163">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-11. <span data-ttu-id="80ae3-164">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="80ae3-164">Click Output.</span></span>
-12. <span data-ttu-id="80ae3-165">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="80ae3-165">Click Report.</span></span>
-13. <span data-ttu-id="80ae3-166">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-166">Click OK.</span></span>
-14. <span data-ttu-id="80ae3-167">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="80ae3-167">Close the page.</span></span>
-15. <span data-ttu-id="80ae3-168">Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.</span><span class="sxs-lookup"><span data-stu-id="80ae3-168">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-16. <span data-ttu-id="80ae3-169">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-169">In the tree, expand 'Intrastat model'.</span></span>
-17. <span data-ttu-id="80ae3-170">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="80ae3-170">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
-18. <span data-ttu-id="80ae3-171">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="80ae3-171">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
-19. <span data-ttu-id="80ae3-172">Smelltu á kembingarkladda.</span><span class="sxs-lookup"><span data-stu-id="80ae3-172">Click Debug logs.</span></span>
-    * <span data-ttu-id="80ae3-173">Athugið að kladdfærsla kembingar hefur verið stofnuð fyrir framkvæmd vinnslu á valinni skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-173">Note that a debug log record has been created for the execution process of the selected configuration.</span></span>  
-20. <span data-ttu-id="80ae3-174">Smellt er á Hengja við.</span><span class="sxs-lookup"><span data-stu-id="80ae3-174">Click Attach.</span></span>
-21. <span data-ttu-id="80ae3-175">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="80ae3-175">Click Open.</span></span>
-    * <span data-ttu-id="80ae3-176">Fara yfir stofnaða xml-skrána sem inniheldur upplýsingar um talningu og samlagningu sem safnað var við keyrslu á valinni skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="80ae3-176">Review the created XML file that contains counting and summing details that were collected during the execution of the selected configuration.</span></span>  
+## <a name="run-this-configuration-in-debug-mode-to-review-the-collected-counting--summing-data"></a><span data-ttu-id="b1219-153">Keyra þetta afbrigði er í kembiham til að endurskoða uppsöfnuð gögn talningar & samlagningar</span><span class="sxs-lookup"><span data-stu-id="b1219-153">Run this configuration in debug mode to review the collected counting & summing data</span></span>
+1. <span data-ttu-id="b1219-154">Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.</span><span class="sxs-lookup"><span data-stu-id="b1219-154">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="b1219-155">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="b1219-155">In the tree, expand 'Intrastat model'.</span></span>
+3. <span data-ttu-id="b1219-156">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="b1219-156">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+4. <span data-ttu-id="b1219-157">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="b1219-157">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+5. <span data-ttu-id="b1219-158">Í Aðgerðarrúðunni er smellt á skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="b1219-158">On the Action Pane, click Configurations.</span></span>
+6. <span data-ttu-id="b1219-159">Smelltu á Færibreytur notanda</span><span class="sxs-lookup"><span data-stu-id="b1219-159">Click User parameters.</span></span>
+7. <span data-ttu-id="b1219-160">Velja skal Já í reitinn keyra í kembingarhami.</span><span class="sxs-lookup"><span data-stu-id="b1219-160">Select Yes in the Run in debug mode field.</span></span>
+8. <span data-ttu-id="b1219-161">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b1219-161">Click OK.</span></span>
+9. <span data-ttu-id="b1219-162">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b1219-162">Close the page.</span></span>
+10. <span data-ttu-id="b1219-163">Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b1219-163">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+11. <span data-ttu-id="b1219-164">Smellið á úttak</span><span class="sxs-lookup"><span data-stu-id="b1219-164">Click Output.</span></span>
+12. <span data-ttu-id="b1219-165">Smellið á Skýrsluna.</span><span class="sxs-lookup"><span data-stu-id="b1219-165">Click Report.</span></span>
+13. <span data-ttu-id="b1219-166">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b1219-166">Click OK.</span></span>
+14. <span data-ttu-id="b1219-167">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b1219-167">Close the page.</span></span>
+15. <span data-ttu-id="b1219-168">Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.</span><span class="sxs-lookup"><span data-stu-id="b1219-168">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+16. <span data-ttu-id="b1219-169">Í trénu skal víkka út 'Intrastat model'.</span><span class="sxs-lookup"><span data-stu-id="b1219-169">In the tree, expand 'Intrastat model'.</span></span>
+17. <span data-ttu-id="b1219-170">Í trénu skal víkka út 'Intrastat model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="b1219-170">In the tree, expand 'Intrastat model\Intrastat (DE)'.</span></span>
+18. <span data-ttu-id="b1219-171">Í trénu skal velja „Intrastat model\Intrastat (DE)\Intrastat (DE) með talningu & samlagningu“.</span><span class="sxs-lookup"><span data-stu-id="b1219-171">In the tree, select 'Intrastat model\Intrastat (DE)\Intrastat (DE) with counting & summing'.</span></span>
+19. <span data-ttu-id="b1219-172">Smelltu á kembingarkladda.</span><span class="sxs-lookup"><span data-stu-id="b1219-172">Click Debug logs.</span></span>
+    * <span data-ttu-id="b1219-173">Athugið að kladdfærsla kembingar hefur verið stofnuð fyrir framkvæmd vinnslu á valinni skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="b1219-173">Note that a debug log record has been created for the execution process of the selected configuration.</span></span>  
+20. <span data-ttu-id="b1219-174">Smellt er á Hengja við.</span><span class="sxs-lookup"><span data-stu-id="b1219-174">Click Attach.</span></span>
+21. <span data-ttu-id="b1219-175">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="b1219-175">Click Open.</span></span>
+    * <span data-ttu-id="b1219-176">Fara yfir stofnaða xml-skrána sem inniheldur upplýsingar um talningu og samlagningu sem safnað var við keyrslu á valinni skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="b1219-176">Review the created XML file that contains counting and summing details that were collected during the execution of the selected configuration.</span></span>  
 
 
