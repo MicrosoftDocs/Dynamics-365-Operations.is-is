@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -37,12 +37,9 @@ Hægt að endurnefna möppur, skýrslur, einingar og aðra hluti í skýrsluhön
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mappa eða eining endurnefnd í Skýrsluhönnun
 Í Report Designer er hægt að endurnefna möppur, skýrsluskilgreiningar, línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar.
 
-> [!NOTE]
-> Þegar eining er endurnefnd þarf að uppfæra allar skýrsluskilgreiningar sem nota eininguna. Annars er ekki hægt að mynda nýja skýrslu.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mappa eða eining endurnefnd í Report Designer
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mappa eða eining endurnefnd í Skýrsluhönnun
-
-1. Í Skýrsluhönnun er yfirlitssvæðið notað til að finna möppuna eða hlutinn sem á að endurnefna.
+1. Í Report Designer er yfirlitssvæðið notað til að finna möppuna eða hlutinn sem á að endurnefna.
 2. Hægrismellið á möppuna eða hlutinn og smellið síðan á **Endurnefna**. Reiturinn **Heiti** á yfirlitssvæðinu verður virkur.
 3. Nýja heitið er fært inn og ýtt á færslulykilinn.
 4. Ef einingin er línuskilgreining, dálkskilgreining eða skipuritsskilgreiningu verður að uppfæra aðrar einingar sem tengjast því. Hægrismellið á eininguna sem var endurnefnt í skrefi 3, veljið **Tengingar** og veljið svo atriði af listanum til að uppfæra.

@@ -3,7 +3,7 @@ title: "Fjárhagsskýrslugerð"
 description: "Þetta efnisatriði lýsir hvar á að nálgast fjárhagslega skýrslugerð í Microsoft Dynamics 365 for Finance and Operations og hvernig á að nota möguleika fjárhagsskýrslugerð. Inniheldur lýsing á sjálfgefið fjárhagsskýrslur sem er veitt."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -115,11 +115,13 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Hver skýrsla 
 Þegar smellt°er á **fjárhagsskýrslugerð** valmynd, birtist listi yfir sjálfgefnar fjárhagsskýrslur fyrir fyrirtækið. Síðan er hægt að opna og breyta skýrslu. Velja heiti skýrslu til að opna sjálfgefnu skýrslurnar. Í fyrsta sinn sem skýrsla er opnað, er hún sjálfvirkt mynduð fyrir fyrri mánuð. Til dæmis, ef skýrsla er opnuð í fyrsta sinn í Ágúst 2016 er hún mynduð fyrir 31. Júlí 2016. Eftir að skýrsla er opnuð er hægt að hefja skoðun á henni með þvi að kafa niður í sértæka gagnahluta og breyta valkostum skýrslu.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Stofna og breyta fjárhagsskýrslum
-Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að smella á **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Finance and Operations. Frekari upplýsingar um ferli að stofna og breyta fjárhagsskýrslur í Finance and Operations er að sjá í þessum [bloggfærslum](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) á Dynamics-fjárhagsskýrslublogginu. **Athugasemd:** Tölvan sem þú ert að hlaða niður skýrsluhönnunarbiðlara verður að vera með uppsetta útgáfa 4.6.2. af Microsoft .NET Framework. Þessa útgáfa af Microsoft .NET Framework er hægt að sækja og setja upp [hér](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ef verið er að nota Chrome, verður að setja upp ClickOnce-viðauka til að sækja skýrslu hönnuðurbiðlara. Ef verið er að nota Chrome í huliðsstillingu, ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Einnig er hægt að breyta skýrslu sem birtist í lista yfir fjárhagsskýrslur. Þegar svæði umhverfis heiti skýrslunnar er valið, er smellt á **Breyta**°í Aðgerðarúðunni. Skýrsluhönnunarforritið er ræst.
+Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að smella á **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Finance and Operations. 
+
+> [!NOTE] 
+> Tölvan sem þú ert að hlaða niður skýrsluhönnunarbiðlara verður að vera með uppsetta útgáfu 4.6.2 af Microsoft .NET Framework. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ef verið er að nota Chrome, verður að setja upp ClickOnce-viðauka til að sækja skýrslu hönnuðurbiðlara. Ef verið er að nota Chrome í huliðsstillingu, ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Einnig er hægt að breyta skýrslu sem birtist í lista yfir fjárhagsskýrslur. Þegar svæði umhverfis heiti skýrslunnar er valið, er smellt á **Breyta**°í Aðgerðarúðunni. Skýrsluhönnunarforritið er ræst.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Skoðun fjárhagsskýrslna](view-financial-reports.md)
-- [Dynamics Financial Reporting-blogg](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

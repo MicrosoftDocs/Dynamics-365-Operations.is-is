@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði inniheldur upplýsingar og tengla á tilföng sem geta hjálpað þér að setja upp Dynamics 365 for Finance and Operations fyrir lögaðila með aðalaðsetur í Brasilíu. 
+Þetta efnisatriði inniheldur upplýsingar og tengla á tilföng sem geta hjálpað þér að setja upp Dynamics 365 for Finance and Operations fyrir lögaðila með aðalaðsetur í Evrópu. 
 
 - [Handhafar fyrirframgreiðslu](emea-advance-holders.md)
  - [Færslur handhafa fyrirframgreiðslu](emea-advance-holders-transactions.md)
@@ -44,11 +44,9 @@ ms.lasthandoff: 08/13/2018
 - [Skrársnið fyrir greiðsluhátt](emea-select-file-formats-for-the-method-of-payments.md)
 - [Samþætting fjárhagsþjónustu (ESR)](emea-fiscal-service-integration.md)
 - [Afskráning eigna fyrir Eistland og Litháen](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Endurmat á erlendum gjaldmiðli](emea-foreign-currency-revaluation.md)
 - [Mynda flutningsskjal fyrir innri birgðaflutning](tasks/transfer-document-internal-inventory-transfer.md)
-- [Mynda ESB Intrastat-skattskýrslu](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Mynda skýrslu vegna ESB-sölulista](tasks/eur-00011-eu-sales-list-report.md)
-- ISO20022 skrár
+- ISO20022-skrár
   - [Innflutningur ISO20022-skráa](emea-ISO20022-file-formats.md)
   - [Flytja inn ISO20022-beingreiðsluskilgreiningu](tasks/import-iso20022-direct-debit-configuration.md)
   - [Flytja inn skilgreiningu ISO20022-kreditfærslu](tasks/import-iso20022-credit-transfer-configuration.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [Stofna og flytja út greiðslur lánardrottna með ISO20022-greiðslusniði](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Flytja færslur í Intrastat](tasks/transfer-transactions-intrastat.md)
+  - [Tilgreina heimilisfang fyrir farm fyrir færslu innan bandalagsins](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Mynda ESB Intrastat-skattskýrslu](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Skýrslur birgðabókar](emea-set-up-report-inventory-journal-names.md)
 - [Lokadagsetningar reikningsútgáfu](emea-invoice-issue-deadline.md)
 - [Úrvinnsla reikninga](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ ms.lasthandoff: 08/13/2018
 - [Setja upp skýrslugerð vegna ESB-sölulista](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Setja upp greiðsluseðlasnið fyrir verkreikninga](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](emea-set-up-signers-for-printing-forms.md)
-- [Setja upp flutningsskjöl fyrir vöruflutninga innan fyrirtækis](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Tilgreina heimilisfang fyrir farm fyrir færslu innan bandalagsins](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Storno-bókhald](emea-storno.md)
 - [Skattareglur](emea-tax-directives.md)
 - [Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð](emea-amount-printing-forms.md)

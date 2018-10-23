@@ -1,28 +1,29 @@
 --- 
-title: "Stofna lánardrottnalykil og festa við hann flokk verktakamiða (Ísland)"
+title: "Stofna lánardrottnalykil og festa verktakamiða"
 description: "Þetta ferli fer í gegnum stofnun á reikningi lánardrottins með grunnstillingu fyrir verktakamiða."
 author: mrolecki
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, DirPartyLookup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ee276b24bd3642c3980d869ce7dcfd2c699009e9
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0dc4951813278e4899bf6657eaf3f914b3307bed
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category-iceland"></a>Stofna lánardrottnalykil og festa við hann flokk verktakamiða (Ísland)
+# <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category"></a>Stofna lánardrottnalykil og festa verktakamiða
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,7 +3,7 @@ title: "Mynda fjárhagsskýrslur"
 description: "Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -32,19 +32,16 @@ ms.lasthandoff: 08/13/2018
 
 Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila.
 
-Til að mynda skýrslu skal opna skýrsluskilgreininguna og smella svo á hnappinn Mynda á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Web Viewer.
-
-> [!NOTE]
-> Aðeins er hægt að mynda skýrslur í möppum og staðsetningar sem notandi hefur aðgangsheimild að.
+Til að mynda skýrslu skal opna skýrsluskilgreininguna og smella svo á hnappinn Mynda á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Vefskoðun
 
 Eftirtaldir valkostir eru í boði til að búa til skýrslu:
 
 - Setja upp röðun til að mynda skýrslu eða skýrsluflokk sjálfkrafa
 - Leita að týndum lyklum eða gögnum í skýrslu og sannprófa nákvæmni skýrslu
 
-Þegar skýrsla er mynduð eru valkostina sem tilgreindir hafa verið á flipunum fyrir Skýrsluskilgreiningar notaðir. Flipinn Frálag og dreifing gerir notanda kleift að tilgreina staðsetningu skýrslusafns, en þannig er mjög auðvelt að deila skýrslunni.
+Þegar skýrsla er mynduð eru valkostina sem tilgreindir hafa verið á flipunum fyrir Skýrsluskilgreiningar notaðir.
 
-## <a name="generate-a-financial-report"></a>Mynda fjárhagsskýrslu
+## <a name="generate-a-financial-report"></a>Myndun fjárhagsskýrslu
 
 Til að búa til fjárhagsskýrslu með Microsoft Dynamics 365 for Finance and Operations skal fara í **Fjárhagur** \> **Fyrirspurnir og skýrslur** \> **Fjárhagsskýrslur**.
 
@@ -55,10 +52,7 @@ Eftir að skýrslan hefur verið búin til verður skýrslan tiltæk til skoðun
 
 Þú getur valið að **Skoða** eða **Eyða** skýrslunni.
 
-Til að búa til skýrslu með því að nota **Skýrsluhönnuður**, skal opna skilgreining skýrslu og smella á Búa til hnappinn á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Web Viewer.
-
-> [!NOTE]
-> Aðeins er hægt að mynda skýrslur í möppum og staðsetningar sem notandi hefur aðgangsheimild að.
+Til að búa til skýrslu með því að nota **Skýrsluhönnuður**, skal opna skilgreining skýrslu og smella á Búa til hnappinn á tækjastikunni. Þá opnast glugginn Biðraðarstaða skýrslu þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni. Myndaða skýrslur verður sjálfgefið opnuð í Vefskoðun
 
 ## <a name="schedule-report-generation"></a>Skýrslumyndun áætluð
 Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild birtir skýrslan einungis upplýsingarnar sem notandinn hefur aðgangsheimild að, eins og um fyrirtækið sem notandinn er skráður inn í á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.

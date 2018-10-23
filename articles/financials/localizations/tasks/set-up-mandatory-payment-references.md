@@ -1,28 +1,29 @@
 --- 
-title: "Setja upp skyldubundnar greiðslutilvísanir (Ísland)"
+title: "Setja upp skyldubundnar greiðslutilvísanir"
 description: "Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 02/15/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0ee1cbf1b8c82d9b2f155b33ed10418313e815f6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 33b0315d556ec67aa40d957e64392899cf7c75ce
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-mandatory-payment-references-iceland"></a>Setja upp skyldubundnar greiðslutilvísanir (Ísland)
+# <a name="set-up-mandatory-payment-references"></a>Setja upp skyldubundnar greiðslutilvísanir
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

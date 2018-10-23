@@ -1,31 +1,32 @@
 --- 
-title: " Stjórna úrvali "
+title: "Stjórna úrvali (Nóvember 2016)"
 description: "Þetta ferli sýnir hvernig á að stofna og Birta nýtt vöruúrval og notar sýnifyrirtækið USRT."
 author: jashanno
 manager: AnnBe
-ms.date: 10/31/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
 ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="manage-assortments"></a> Stjórna úrvali  
+# <a name="manage-assortments-november-2016"></a>Stjórna úrvali (Nóvember 2016)
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna og Birta nýtt vöruúrval og notar sýnifyrirtækið USRT. Þetta ferli fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar, og Dynamics AX verkvang 7.1.  
 

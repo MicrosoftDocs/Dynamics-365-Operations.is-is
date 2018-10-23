@@ -3,7 +3,7 @@ title: "Sérsniðin notkun"
 description: "Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -64,7 +64,7 @@ Mismunandi fólk og fyrirtæki hafa mismunandi sjónarhorn á gögnin sem eru mi
 ### <a name="shortcut-menu-options"></a>Flýtivalmynd valkostir
 Flýtivalmyndir bjóða upp á nokkrar leiðir til að breyta síðum beint til að verða betur við kröfum þínar eða fyrirtækis þíns. (Flýtivalmynd er einnig þekkt sem *valmynd þegar er hægrismellt* eða *samhengisvalmynd*.)
 
-Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á síðu er hægt að gera beint með því að nota valkostir í flýtivalmynd. Til dæmis, til að bæta við eða fela dálka í hnitaneti er nóg að hægrismella á dálkhaus í hnitaneti og velja síðan **Bæta við dálkum** eða **Fela þennan dálk**.
+Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á síðu er hægt að gera beint með því að nota valkostir í flýtivalmynd. Til dæmis, ef byrjað er í verkvangsuppfærslu 17, ef þú vilt bæta við eða fela dálka í hnitaneti skaltu einfaldlega hægrismella í dálkhaus hnitanets og velja síðan **Bæta við dálkum** eða **Fela þennan dálk**.
 
 Að auki eru helstu tegundir beinna sérstillinga tiltækar með því að hægrismella á einingu og síðan velja **Sérsníða**. (Athugaðu að ekki er hægt að sérsníða allar einingar á síðunni þinni.) Þegar þú notar þessa sérstillingaraðferð birtist eiginleikagluggi einingarinnar.
 
@@ -81,27 +81,38 @@ Að auki eru helstu tegundir beinna sérstillinga tiltækar með því að hægr
 Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en það fer eftir einingunni. Til dæmis gæti eiginleikagluggi fyrir flís gefið þér kost á að færa þá flís yfir á mælaborð, og eiginleikaglugginn fyrir mælaborð gæti gefið þér kost á að búa til nýtt vinnusvæði á þeim mælaborði.
 
 ### <a name="the-personalization-toolbar"></a>Tækjastika sérstillinga
-Þegar þú vilt færa eða fela einingar eða gera nokkrar breytingar á síðu geturðu notað tækjastiku **Sérstillingar**. Til að opna tækjastiku **Sérstillingar** skal velja **Sérsníða þessa skjámynd** í eiginleikaglugga einingar. Þú getur líka valið **Sérsníða þessa skjámynd** í **Sérsníða** hópnum á flipanum **Valkostir** á aðgerðarsíðu hvers síðu.
+Ef þú vilt gera margar breytingar á síðu eða gera breytingar sem ekku eru í boði í gegnum kerfið okkar (t.d. endurröðun eininga) getur þú notað tækjastikuna **Sérstillingar**. Til að opna tækjastiku **Sérstillingar** skal velja **Sérsníða þessa skjámynd** í eiginleikaglugga einingar. Þú getur líka valið **Sérsníða þessa skjámynd** í **Sérsníða** hópnum á flipanum **Valkostir** á aðgerðarsíðu hvers síðu.
 
 [![Verkfæraslá sérstillingar](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Þó að **Sérstillingar** tækjastikan sé opin er síðan ekki gagnvirk. Þess vegna getur þú ekki slegið inn gögn, eða víkkað út eða dregið saman hluta. Þú getur bara breytt þeim einingum sem síðan er sett saman úr.
+#### <a name="navigating-the-page"></a>Farið um síðuna 
+Hæfni þína til að vafra um síðuna meðan **Tækjastika sérstillingar** er opin fer eftir verkvangsútgáfunni sem þú keyrir. 
 
+- Fyrir verkvangsuppfærslu 19, meðan tækjastikan **Sérstillingar** er opin, er síðan ritvarin (ekki er hægt að slá neinu inn) og hún er ekki gagnvirk (aðeins er hægt að gera breytingar á sýnilegum einingum á síðunni). Ef þú vilt gera breytingar á einingum innan hluta sem dreginn er saman eða á öðrum flipa þarftu að loka tækjastikunni **Sérstillingar**, stækka hluta eða skipta yfir í viðeigandi flipa og þá enduropna tækjastikuna **Sérstillingar**.  
+
+- Ef byrjað er í verkvangsuppfærslu 19, ef tækjastikan **Sérstillingar** er opin, er síðan enn ritvarin en er mun gagnvirkari. Sér í lagi er hægt að stækka eða fella saman FactBox-svæðið, skipt um flipa og stækka eða fella saman hluta meðan tækjastikan **Sérstillingar** er opin á sama hátt og venjulega á síðunni. Til að koma á sérstilltri breytingu á samandregnum hluta eða flipa (til dæmis til að fela FastTab) virkjar þú hnappinn sem birtist við hliðina á samandregna hlutanum eða flipanum þegar hann fær áherslukassa lyklaborðs eða þegar þú heldur bendlinum yfir honum.  
+
+#### <a name="personalization-tools"></a>Sérstillingartæki
 Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 
 - Nota **Velja** verkfæri til að velja og breyta eiginleikum einingar. Velja **Velja** verkfæri, og velja síðan eininguna sem breyta á eiginleikunum í. Þegar þú velur einingu birtist eiginleikagluggi einingarinnar og þú getur breytt öllum eiginleikum þeirrar einingar. Þú getur endurtekið ferlið fyrir aðrar einingar sem hægt er að sérsníða á síðunni. En vegna þess hvernig sumir einingar eru notaðir, mun Finance and Operations ekki gef þér kost á að breyta einhverjum af eiginleikum þeirra. Þess vegna, þegar þú velur einingu gætirðu séð að ekki er hægt að breyta sumum eiginleikum þess. Til dæmis getur þú ekki falið reit sem er nauðsynlegur.
-- Nota **Færa** verkfærið til að færa einingar á annan stað innan þess hóps eininga sem fyrir er. (Þú getur ekki fært einingu utan yfirhóps hennar). Velja **Færa** verkfærið, og svo eininguna sem þú vilt færa. Þegar þú velur einingu skannar Finance and Operations síðunni til að ákvarða hvert er hægt að færa eininguna. Það býr þá til röð „sleppisvæða.“ Þegar þú færir eininguna til innan hópsins sem fyrir er, er hvert „sleppisvæði“ sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
-- Nota **Fela** verkfærið til að fela einingu á síðunni. Velja **Fela** verkfærið, og svo eininguna sem þú vilt fela. Þegar þú velur **Fela** verkfærið, eru allar einingar sem eru faldar sem stendur gerðar sýnilegar og sýndar í skyggðum geymi. Þú getur þá fært þær úr felum. Með því að velja **Velja** verkfærið geturðu séð hvernig síðunni mun líta út þegar völdu einingarnar eru faldar.
-- Nota **Yfirlit** verkfærið þegar þú vilt að eining birtist í samantektarhlutanum fyrir flýtiflipa. Samantektarverkfærið gildir aðeins um reiti sem eru í flýtiflipahluta. Þegar þú velur **Samantekt** verkfærið, eru öll reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum geymi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum í samantekt flýtiflipa.
-- Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur **Sleppa** verkfærið eru allar einingar sem nú þegar er sleppt sýndar í skyggðum geymi. Þú getur þá gert þær hluti af fliparöðinni aftur.
-- Nota **Breyta** verkfærið til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur **Breyta** verkfærið, eru allar einingar sem eru nú þegar óbreytanlegar sýndar í skyggðum geymi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
-- Nota **Setja inn** hnappinn til að sjá lista yfir einingar sem hægt er að setja inn á síðu.
 
+- Nota **Færa** verkfærið til að færa einingar á annan stað innan þess hóps eininga sem fyrir er. (Þú getur ekki fært einingu utan yfirhóps hennar). Velja **Færa** verkfærið, og svo eininguna sem þú vilt færa. Þegar þú velur einingu skannar Finance and Operations síðunni til að ákvarða hvert er hægt að færa eininguna. Það býr þá til röð „sleppisvæða.“ Þegar þú færir eininguna til innan hópsins sem fyrir er, er hvert „sleppisvæði“ sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
+
+- Nota **Fela** verkfærið til að fela einingu á síðunni. Velja **Fela** verkfærið, og svo eininguna sem þú vilt fela. Þegar þú velur **Fela** verkfærið, eru allar einingar sem eru faldar sem stendur gerðar sýnilegar og sýndar í skyggðum geymi. Þú getur þá fært þær úr felum. Með því að velja **Velja** verkfærið geturðu séð hvernig síðunni mun líta út þegar völdu einingarnar eru faldar.
+    - Ef byrjað er í verkvangsuppfærslu 18 getur þú falið nauðsynlega reiti og hluta sem innihalda nauðsynlega reiti. Þetta gerir þér kleift að búa til einfaldaða upplifun þar sem áskildir reitir sem viðskiptagrunnur gerir sjálfgefna eru ekki sýndir. Faldir nauðsynlegir reitir eru einnig gerðir sýnilegir tímabundið ef þeir eru tómir þegar reynt er að vista. 
+
+- Nota **Yfirlit** verkfærið þegar þú vilt að eining birtist í samantektarhlutanum fyrir flýtiflipa. Samantektarverkfærið gildir aðeins um reiti sem eru í flýtiflipahluta. Þegar þú velur **Samantekt** verkfærið, eru öll reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum geymi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum í samantekt flýtiflipa.
+
+- Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur **Sleppa** verkfærið eru allar einingar sem nú þegar er sleppt sýndar í skyggðum geymi. Þú getur þá gert þær hluti af fliparöðinni aftur.
+
+- Nota **Breyta** verkfærið til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur **Breyta** verkfærið, eru allar einingar sem eru nú þegar óbreytanlegar sýndar í skyggðum geymi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
+
+- Nota **Setja inn** hnappinn til að sjá lista yfir einingar sem hægt er að setja inn á síðu.
     - Velja **Reitur** verkfærið undir **Setja inn** til að bæta við reit á síðuna þína. Þegar þú notar **Reitur** verkfærið getur þú aðeins bætt við reitum sem eru hluti af skilgreiningu síðunnar og eru ekki sjáanlegar á síðunni sem stendur. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Sérsniðnir reitir](user-defined-fields.md). Eftir að þú velur **Reitur** verkfærið, þarftu fyrst að velja hópinn eða svæðið þar sem þú vilt bæta við reit. Svargluggi sýnir lista yfir reiti sem tengjast völdum hópi eða svæði. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Setja inn**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
     - Velja **PowerApp** verkfærið undir **Setja inn** til að fella forrit inn í síðuna sem var búið til með því að nota Microsoft PowerApps. Nánari upplýsingar um hvernig á að fella PowerApps forrit inn í síðu er að finna í [Innfelling PowerApps](embed-power-apps.md).
 
 - Velja **Stjórna** hnappinn til að skoða lista yfir stjórnunarvalmöguleika sem tengjast öllum sérstillingum fyrir núverandi síðu.
-
     - Velja **Hreinsa** til að endurstilla síðuna í sjálfgefið, uppsett ástand. Búið er að hreinsa allar sérstillingar á núverandi síðu. Það er engin afturköllunaraðgerð til. Þess vegna skaltu aðeins nota þennan möguleika ef þú ert viss um að þú viljir endurstilla síðuna.
     - Velja **Flytja inn** til að hlaða inn sérstillingu úr skrá sem þú eða einhver annar bjó til fyrir síðuna áður. Allar núgildandi sérstillingar þínar fyrir síðuna eru skipt út fyrir sérstillingar úr valinni skrá.
     - Velja **Flytja út** til að vista sérstillingar þínar fyrir síðuna í skrá. Þú getur deilt sérstillingunum þínum með öðrum notendum. Þessir notendur þurfa bara að flytja inn skrána sem inniheldur sérstillingarnar þínar fyrir síðuna.
@@ -149,5 +160,5 @@ Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir a
 
 **Birting vídda** stillingarnar eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á einstökum síðum.
 
-Þess vegna, ef þú vilt ekki að dálkur sem inniheldur birgðavídd rununúmers birtist í framangreindu dæmi, verður þú að hreinsa þá vídd sem hluti af **Sýna víddir** valkostinum fyrir töfluna. Að lokum mun þessi breyting ekki aðeins gilda á einni tilteknu síðu heldur á öllum síðum.
+Ef þú vilt því ekki að dálkur sem inniheldur birgðavídd rununúmers birtist í framangreindu dæmi, verður þú að hreinsa þá vídd sem hluti af **Sýna víddir** valkostinum fyrir töfluna. Að lokum mun þessi breyting ekki aðeins gilda á einni tilteknu síðu heldur á öllum síðum.
 

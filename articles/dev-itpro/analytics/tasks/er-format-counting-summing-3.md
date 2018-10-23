@@ -1,28 +1,29 @@
 --- 
-title: "Nota útreikninga til að mynda frálagið fyrir talningu og samlagningu"
+title: "Rafræn skýrslugerð skilgreingasnið sér um að telja og leggja saman (Hluti 3 - Nota útreikninga til að búa til úttak)"
 description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e09b9fc87619d87c1de0e68ff370c0d6ebe72fc8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5c870c134a9dae81cd619268bed7ce545bdd5f52
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="use-computations-to-generate-the-output-for-counting-and-summing"></a>Nota útreikninga til að mynda frálagið fyrir talningu og samlagningu
+# <a name="er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output"></a>Rafræn skýrslugerð skilgreingasnið sér um að telja og leggja saman (Hluti 3: Nota útreikninga til að búa til úttak)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,29 +1,30 @@
----
-title: "Stofna og vinna með birgðalæsingu"
+--- 
+title: "Stofna og viðhalda á birgðalæsing"
 description: "Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>Stofna og vinna með birgðalæsingu
+# <a name="create-and-maintain-an-inventory-blocking"></a>Stofna og viðhalda á birgðalæsing
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 1. Fara í birgðastjórnun > Reglubundin verkefni >birgðalæsing.
 2. Smellið á „Nýtt“.
 3. Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.
-4. Veljið vöruna sem á að velja af listanum.
+4. Veljið vöruna sem á að velja af listanum. 
     * Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka. Ef verið er að nota USMF er hægt að velja vöru M9201.  
 5. Færið inn númer í reitnum „Magn“.
     * Ef verið er að nota vöru M9201, þarf að velja minna en 200.  
@@ -55,4 +56,5 @@ ms.lasthandoff: 09/29/2017
 1. Smellið á Eyða.
 2. Smella á Já.
 3. Lokið síðunni.
+
 

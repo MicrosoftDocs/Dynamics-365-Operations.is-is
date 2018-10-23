@@ -9,7 +9,7 @@
   items:
     - name: Búa til sýnigögn með gagnapakka
       href: data-entities/generate-demo-data-packages.md
-- name: Þróun og sérstilling með Visual Studio
+- name: Þróa og sérstilla
   href: dev-tools/developer-home-page.md
   items:
     - name: Forritsstafli og skipulag þjóns
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
           href: sysadmin/VMs-no-admin-access.md
-        - name: Endurnefna staðbundið umhverfi til að fá aðgang að Visual Studio Team Services
+        - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Þróunarkerfiskröfur
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'Meðhöndlun X++ setninga, lykkja og frávika'
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL-tengivilla X++ frávik
+              href: dev-ref/sql-connection-error.md
             - name: X++ virkjar
               href: dev-ref/xpp-operators.md
             - name: Forgangur X++ virkis
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.3'
               href: extensibility/extensibility-changes-803.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.4'
+              href: extensibility/extensibility-changes-804.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1'
+              href: extensibility/extensibility-changes-81.md
         - name: Undirstöðuatriði
           items:
             - name: Sérstillingar sem valda röskunum
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: Vinnusvæði gagnaprófunargátlista
       href: user-interface/data-validation-workspace.md
+    - name: Villulýsingar gagnastjórnunar
+      href: data-entities/dm-error-descriptions.md
 - name: Samfelld afhending
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Uppfæra fjárhagsáætlunargerð
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Flytja gögn úr AX 2009 í Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: Flutningur AX 2009 - setja upp gagnaflutningsforritið
+          href: migration-upgrade/install-dmt.md
+        - name: Flutningur AX 2009 - búa til kort
+          href: migration-upgrade/generate-maps.md
+        - name: Flutningur AX 2009 - búa til sniðmát
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: Flutningur AX 2009 - búa til flutningshópa
+          href: migration-upgrade/create-definition.md
+        - name: Flutningur AX 2009 - flytja út pakka
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: Flutningur AX 2009 - flytja inn pakka
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Kóðaflutningur og uppfærsla
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Undirbúa flutning kóða
           href: migration-upgrade/prepare-migration.md
-        - name: Skilgreina Visual Studio Team Services-vörpunina
+        - name: Skilgreina vörpun Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Líkani skipt
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: Ferli fyrir flutning í nýjustu uppfærslu
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Uppfæra umhverfi úr útgáfu 8.0 í útgáfu 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
           href: migration-upgrade/versions-update-policy.md
         - name: Nota nýjustu uppfærslu verkvangs á umhverfi
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Vinna með virkniskýringarmyndir í BPM-söfnum
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Samstilla BPM-söfn og Visual Studio Team Services
+    - name: Samstilla BPM-söfn og Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Eignasafn
       href: lifecycle-services/asset-library.md
+    - name: Úrræðaleit afkasta með því að nota verkfæri í LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Fyrirspurnabók
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:

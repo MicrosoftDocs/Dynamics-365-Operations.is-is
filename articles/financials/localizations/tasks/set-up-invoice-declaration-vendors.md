@@ -1,28 +1,29 @@
 --- 
-title: "Setja upp verktakamiða fyrir lánardrottinn (Ísland)"
+title: "Setja upp verktakamiða fyrir lánardrottna"
 description: "Þetta ferli fer í gegnum stofnun á íslenskum verktakamiða."
 author: mrolecki
 manager: AnnBe
-ms.date: 05/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport,  VendInvoiceDeclaration_IS
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7ce7101270ae3e59a6484b2f0efe0bd06f4a7c45
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 560de31582a789fbe291f44e3205e0da09e40478
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-an-invoice-declaration-for-vendors-iceland"></a>Setja upp verktakamiða fyrir lánardrottinn (Ísland)
+# <a name="set-up-an-invoice-declaration-for-vendors"></a>Setja upp verktakamiða fyrir lánardrottna
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

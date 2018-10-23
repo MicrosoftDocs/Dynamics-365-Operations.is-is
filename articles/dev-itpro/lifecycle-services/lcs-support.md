@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 Í þessari grein er útskýrt hvernig skal fá hjálp varðandi Finance and Operations eða Microsoft Dynamics Lifecycle Services (LCS). 
 
-<a name="contact-support"></a>Hafa samband við notendaþjónustu
----------------
+## <a name="contact-support"></a>Hafa samband við notendaþjónustu
 
 Notið upplýsingarnar í þessari grein til að hafa samband við Microsoft ef tæknilegar spurningar um Finance and Operations vakna, eða ef þörf er á hjálp við að komast inn í Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -89,8 +88,10 @@ Fyrir tæknilegar spurningar sem tengjast innskráningu og aðgangi að Customer
 </tbody>
 </table>
 
-Frekari upplýsingar um Microsoft Dynamics aðstoð í boði, sjá [Microsoft Dynamics netaðstoð](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Frekari upplýsingar
+- [Fá stuðning fyrir Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Fá stuðning fyrir Dynamics 365 for Talent](../../talent/talent-support.md)
+- Frekari upplýsingar um Microsoft Dynamics aðstoð í boði, sjá [Microsoft Dynamics netaðstoð](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 

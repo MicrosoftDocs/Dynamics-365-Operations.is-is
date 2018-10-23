@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
-            - name: Eiginleikar sem hafa verið fjarlægðir eða úreltir
+            - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
+            - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: AX 2012 eiginleikar sem var frestað
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
+            - name: 'Finance and Operations, útgáfa 8.1 (október 2018)'
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (september 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: 'Finance and Operations, útgáfa 8.0 (apríl 2018)'
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (mars 2018)
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Reikningsjöfnun og samstæðuinnkaupapantanir
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Setja upp reglur lánardrottnareikninga
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Skrá reikning lánardrottins og samsvara við móttekið magn
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Yfirlit yfir jákvæðar greiðslur
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Uppsetning og myndun jákvæðra greiðsluskráa launa
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Reikna vexti
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Setja upp reglur lánardrottnareikninga
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Skrá reikning lánardrottins og samsvara við móttekið magn
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Stofnun reiknings viðskiptavinar
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Leggja inn greiðslur viðskiptavina
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Afrita viðskiptavini með því að nota samnýttar númeraraðir
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Verkflæði viðskiptavinar
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Greiðslur og uppgjör
@@ -1543,8 +1551,6 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Afskráning eigna fyrir Eistland og Litháen
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Endurmat á erlendum gjaldmiðli
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Mynda flutningsskjal fyrir innri birgðaflutning
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Mynda skýrslu vegna ESB-sölulista
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Framlenging afskráningarvirkni eignar
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Endurmat á erlendum gjaldmiðli
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Umbúðir sem hægt er að skila
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: VSK-skýrslur
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Veltu- og stöðuyfirlit
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Rússland
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Handhafar fyrirframgreiðslu
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Stofna handhafa fyrirframgreiðslu
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Daglegar aðgerðir fyrir handhafa fyrirframgreiðslu
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Eignir
+              items:
+                - name: Komast yfir eignir og koma þeim í rekstur
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Stofna og bóka færslubækur fyrir eignakaup
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Eignatalning
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Endurmat gjaldmiðils eigna
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Hlutasundurtekt eigna (innlausn)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Uppsetning og vinnsla greiðslubeiðna
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Setja upp gengi fyrir gjaldeyrisviðskipti
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Forskoða fjárhagsfærslur
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Setja upp embættismenn
+              href: ../financials/localizations/rus-officials.md
+            - name: Setja upp bankareikninga
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Virðisaukaskattur (VSK) fyrir skattyfirvöld
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Setja upp víddarstýringar fyrir uppgjör
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Sádi-Arabía
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Valkostir víxils
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Reikna gjalddaga og tilkynna um meðaltímabil greiðslna
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Skilyrtur VSK
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Kreditreikningsfærsla
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Breyta eftirspurnarspá handvirkt
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operations (fartækjaforrit)
+    - name: Dynamics 365 for Unified Operations Mobile forrit
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Tiltæk fartækjavinnusvæði

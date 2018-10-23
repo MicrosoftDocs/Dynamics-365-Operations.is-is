@@ -1,9 +1,9 @@
 ---
 title: "Uppsetning fartækja fyrir vöruhúsavinnu"
-description: "Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki."
+description: "Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
+Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 
-**Ábending:** Þessi grein á við aðgerðir í vöruhúsakerfi. Hún á ekki við um aðgerðir í birgðastjórnun. Valmyndaratriði sem birtast í valmyndum fartækis vöruhúss eru skilgreind á síðunni **Valmyndaratriði fartækis**. Þar sem hægt er að setja valmyndaratriðin á mismunandi valmyndir er auðvelt að skilgreina skipulag valmyndar þannig að aðeins tilteknar gerðir vinnu eru birtar tilgreindum notendum. Hægt er að skilgreina undirvalmynd til að gera eftirfarandi verk:
+**Ábending:** Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Hún á ekki við um aðgerðir í birgðastjórnun. Valmyndaratriði sem birtast í valmyndum fartækis vöruhúss eru skilgreind á síðunni **Valmyndaratriði fartækis**. Þar sem hægt er að setja valmyndaratriðin á mismunandi valmyndir er auðvelt að skilgreina skipulag valmyndar þannig að aðeins tilteknar gerðir vinnu eru birtar tilgreindum notendum. Hægt er að skilgreina undirvalmynd til að gera eftirfarandi verk:
 
 -   Vinna úr fyrirspurn eða framkvæma verkþátt, svo sem að prenta merki, mynda númer númeraplötu, hefja framleiðslupöntun eða fletta upp upplýsingum um vörur á staðsetningu.
 -   Stofna vinnu sem þarf að framkvæma með öðru ferli. Til dæmis getur móttaka vöru fyrir innkaupapöntun stofnað frágangsvinnu fyrir annan starfsmann.
@@ -193,7 +193,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Skilgreina valmyndaratriði til að vinna úr fyrirliggjandi vinnu
-Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hægt að setja upp valmyndaratriði til að vinna verk sem hafa þegar verið stofnuð. Stilla reitinn **Máti** á **Vinna** og velja valkostinn **Nota fyrirliggjandi vinnu**. Sumar viðbótarvalkostir verða svo tiltækir á flipanum **Almennt**. Hægt er að stjórna aðgangi að valmyndaratriðinu með því að tengja einn eða fleiria vinnuklasa á flýtiflipanum **Vinnuklasi**. Vinnuklasar skilgreina vinnu sem valmyndaratriðið getur unnið. Einnig er hægt að nota vinnuklasann til að veita aðgang að tilgreindum notendahlutverkum eða í aðskilda vinnslu fyrir mismunandi gerðir aðgerða. Eftirfarandi tafla lýsir þeim valkostum sem tiltækir eru.
+Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hægt að setja upp valmyndaratriði til að vinna verk sem hafa þegar verið stofnuð. Stilla reitinn **Máti** á **Vinna** og velja valkostinn **Nota fyrirliggjandi vinnu**. Sumar viðbótarvalkostir verða svo tiltækir á flipanum **Almennt**. Hægt er að stjórna aðgangi að valmyndaratriðinu með því að tengja einn eða fleiria vinnuklasa á flýtiflipanum **Vinnuklasi**. Vinnuklasar skilgreina vinnu sem valmyndaratriðið getur unnið. Einnig er hægt að nota vinnuklasann til að veita aðgang að tilgreindum notendahlutverkum eða í aðskilda vinnslu fyrir mismunandi gerðir aðgerða. Eftirfarandi tafla lýsir þeim valkostum sem tiltækir eru. Hægt er að velja valkostinn undir **Stýrt af** reitnum á síðunni **Valmyndaratriði fartækis**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 <tr class="even">
 <td>Flokkun reglulegrar talningar</td>
 <td>Starfsmaðurinn velur svæði, vinnuhóp eða staðsetningu, og Microsoft Dynamics 365 for Finance and Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
+</tr>
+ <tr class="odd">
+<td>Farmflutningur</td>
+<td>Þessi eiginleiki gerir nokkrum starfskröftum í vöruhúsi kleift að hlaða birgðum frá sömu hleðslu eða öðrum hleðslum á sama vörubílnum, með hleðslum sem hafa verið sendar að fullu eða að hluta.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 <td>Veljið þennan valkost til að leyfa starfsmönnum að sameina vinnu fyrir sölupöntun eða hleðslu í staka vinnueiningu. Starfsmaður getur unnið vinnu aðeins fyrir sölupöntun eða hleðslu. Þessi valkostur er til dæmis gagnlegur þegar auka þarf magn fyrir sölupöntun eftir að hleðsla, sending og vinna hefur verið stofnuð fyrir sölupöntunina. Þessi valkostur er tiltækur þegar valmyndaratriðið notar fyrirliggjandi vinnu og vinnu sem er stýrt af notanda eða kerfið.</td>
 </tr>
 <tr class="even">
-<td>Ekkert</td>
+<td>Tína elstu runu</td>
 <td>Gefa til kynna hvort starfsmaður verði að velja elstu rununa í staðsetningu fyrst. Eftirtaldir valkostir eru í boði:
 <ul>
 <li><strong>Ekkert</strong> - Starfsmaður getur tekið til hvaða lotu sem er á staðnum. Starfsmaðurinn fær engin skilaboð.</li>

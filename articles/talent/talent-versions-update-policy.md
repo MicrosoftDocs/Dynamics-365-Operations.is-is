@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -47,7 +47,7 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 > * Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Edge Microsoft og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
 > * Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
 >   Netþarfir
-> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent. Mælt er með því að prófa biðtíma á netinu á [www.azurespeed.com](http://www.azurespeed.com "Azure biðtímapróf").
+> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtími frá vafra biðlara til Microsoft Azure gagnamiðstöðvarinnar sem hýsir Dynamics 365 for Talent. Mælt er með því að prófa biðtíma á netinu á [www.azurespeed.com](https://www.azurespeed.com "Azure biðtímapróf").
 > * Bandvíddarþarfir fyrir Dynamics 365 for Talent fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
 > 
 > [!WARNING]
