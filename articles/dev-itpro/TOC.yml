@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1'
               href: extensibility/extensibility-changes-81.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.1'
+              href: extensibility/extensibility-changes-811.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.2'
+              href: extensibility/extensibility-changes-812.md
         - name: Undirstöðuatriði
           items:
             - name: Sérstillingar sem valda röskunum
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Breyta eiginleikum skjámyndastýringar
               href: extensibility/modify-control-properties.md
-            - name: Breyta merkingu með viðbótaskrám fyrir merkingar
-              href: extensibility/change-label.md
             - name: Stækka umfang númeraraða
               href: extensibility/extend-number-sequence-scope.md
             - name: Bæta við nýjum birgðavíddum
@@ -317,7 +319,9 @@
               href: extensibility/maps-as-interfaces.md
             - name: Stækka töflukort sem eru notuð fyrir útgáfustjórnun
               href: extensibility/maps-with-versioning.md
-        - name: Búa til stækkanlegar lausnir
+            - name: Eykur nákvæmni aukastafa fyrir valdar gagnagerðir
+              href: extensibility/decimal-point-precision.md
+        - name: Býr til stækkanlegar lausnir
           items:
             - name: Skrifa stækkanlegan kóða
               href: extensibility/writing-extensible-code.md
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Stækkunarhæfni stýringar
       items:
-        - name: Smíða aextensible stýringar
+        - name: Smíða stækkanlegar stýringar
           href: user-interface/build-extensible-control.md
         - name: Flýtilyklar fyrir stækkanlegar stýringar
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata-gerð
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Samþætting gagna
+- name: Almenna persónuverndarreglugerðin (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Velja stefnu fyrir samþættingu gagna (innflutning/útflutning)
-      href: data-entities/integration-overview.md
-    - name: API samþættingar gagna
-      items:
-        - name: REST API-gagnastjórnunarpakki
-          href: data-entities/data-management-api.md
-        - name: Endastöðvar þjónustu
-          href: data-entities/services-home-page.md
-          items:
-            - name: Úrræðaleit fyrir sannvottun þjónustu
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Sérstillt þjónustuþróun
-          href: data-entities/custom-services.md
-        - name: Endurteknar samþættingar
-          href: data-entities/recurring-integrations.md
-        - name: Prófa þjónustu með hjálparforriti þriðju aðila
-          href: data-entities/third-party-service-test.md
-    - name: Þróun fyrir samþættingu
-      items:
-        - name: Gagnastjórnun og samþætting með notkun gagnaeininga
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Þróa einingar fyrir gagnaflutning
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Þróa samsettar gagnaeiningar
-              href: data-entities/develop-composite-data-entities.md
-            - name: Skilgreina samnýtingu fjárhagsgagna milli fyrirtækja
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Búa til skráningarsniðmát til að auðvelda gagnafærslu
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Búa til skráningar með skráningarsniðmátum
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Samþætting gagna með Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Skilgreina aðstæðurnar viðfang til sjóðstreymis
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Samstilling sölupantana beint milli Sales og Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Skilgreina samþættingu við Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Skilgreina samþættingu Project Service Automation
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Færibreytur samþættingar Project Service Automation
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Samstilla verksamninga og verk
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Samstilla verk verkefnis
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Samstilla flokka verkkostnaðar
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Samstilla verkáætlun og verkspár
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Samstilla rauntölur verks og færslubók verksamþættingar
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Notkun ytri vefþjónustu
-          href: data-entities/consume-external-web-service.md
-- name: Gagnastjórnun
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Gagnaeiningar
-      href: data-entities/data-entities.md
-      items:
-        - name: Skilgreiningargagnaverk
-          href: data-entities/configuration-data-projects.md
-        - name: Skilgreiningargagnapakkar
-          href: data-entities/configuration-data-packages.md
-        - name: Afritun skilgreiningargagna á milli fyrirtækja
-          href: data-entities/copy-configuration.md
-        - name: Sniðmát skilgreiningargagna
-          href: data-entities/configuration-data-templates.md
-        - name: Gagnasniðmát með mörgum vinnublöðum
-          href: data-entities/excel-template-multiple.md
-        - name: Virkja rakningarbreytingu fyrir einingar
-          href: data-entities/entity-change-track.md
-        - name: Skilgreiningarlyklar og gagnaeiningar
-          href: data-entities/config-key-entities.md
-        - name: Finna upplýsingar um staðlaðar gagnaeiningar
-          href: data-entities/data-entities-report.md
-    - name: Inn- og útflutningsvinnsla gagna
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Þróun fyrir gagnaeiningar
-      items:
-        - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
-          href: dev-tools/design-best-practices.md
-        - name: Stofna nýjar gagnaeiningar
-          href: data-entities/build-consuming-data-entities.md
-        - name: Hegðunareiginleikar gagnaeiningar
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Stofna útreiknaða dálka og sýndarreiti
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Hegðun á milli fyrirtækja
-          href: data-entities/cross-company-behavior.md
-        - name: Lands-/svæðiskóðar og skilgreiningarlyklar
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Erfðamynstur
-          href: data-entities/support-super-type-sub-type.md
-        - name: Reglur leiðsagnarforrits gagnaeiningar
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Eiginleikar lýsigagna
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Villuleitir, sjálfgildi og óvarpaðir reitir'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Öryggi og gagnaeiningar
-          href: data-entities/security-data-entities.md
-        - name: Búa til skrifvarðar einingar sem sýna fjárhagsvíddir
-          href: financial/read-only-entity-financial.md
-    - name: Nota eigin gagnagrunn
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Sjálfvirk verkgögn
-      href: data-entities/data-task-automation.md
     - name: Tilföng til að bregðast við gagnabeiðnum tengdum GDPR
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Leiðbeiningar varðandi GDPR fyrir Finance and Operations
-          href: gdpr/gdpr-guide.md
         - name: Flokkun eigna
           href: gdpr/gdpr-asset-classification-values.md
         - name: Skýrsla um leit að einstaklingi
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: GDPR-gagnabeiðnir fyrir LCS
           href: gdpr/gdpr-lcs.md
-    - name: Vinnusvæði gagnaprófunargátlista
-      href: user-interface/data-validation-workspace.md
-    - name: Villulýsingar gagnastjórnunar
-      href: data-entities/dm-error-descriptions.md
 - name: Samfelld afhending
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Setja upp og virkja umhverfi á staðnum
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Virkja umhverfi á staðnum í Platform update 12
+            - name: Virkja umhverfi á staðnum í (Platform update 12 og síðari útgáfur)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Virkja umhverfi á staðnum í Platform update 8 og 11
+            - name: Virkja umhverfi á staðnum í (verkvangsuppfærslur 8 og 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
+              href: deployment/deploy-retail-onprem.md
         - name: Þróa og virkja sérstillt líkön í umhverfi á staðnum
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Skilgreina gagnstæða staðgengla fyrir umhverfi á staðnum
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Uppfæra þróunarverkfæri
           href: dev-tools/update-development-tools.md
+        - name: Áætlun og undirbúningur fyrir að þýða kóðann samkvæmt nýjustu uppfærslu
+          href: migration-upgrade/compile-considerations.md
     - name: Uppfæra í nýlega uppfærslu (á staðnum)
       items:
         - name: Virkja uppfærslur í uppsetningum á staðnum
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: Búa til runuvinnslur
           href: sysadmin/tasks/create-batch-job.md
+        - name: Afrita runuvinnslu
+          href: sysadmin/copy-batch-job.md
+        - name: Virk runutímabil
+          href: sysadmin/activeperiod.md
+        - name: Öryggishlutverk runuumsjónar
+          href: sysadmin/runby.md
     - name: Fínstillingarráðgjöf
       href: sysadmin/optimization-advisor-overview.md
       items:

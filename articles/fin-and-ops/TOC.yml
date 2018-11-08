@@ -34,6 +34,8 @@
         - name: Nýjungar eða breytingar
           href: get-started/whats-new-changed.md
           items:
+            - name: Algengar spurningar um uppfærslureglur One Version
+              href: get-started/one-version.md
             - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (nóvember 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: 'Finance and Operations, útgáfa 8.1.2 (nóvember 2018)'
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: 'Finance and Operations, útgáfa 8.1.1 (október 2018)'
+              href: get-started/whats-new-changed-8-1-1.md
             - name: 'Finance and Operations, útgáfa 8.1 (október 2018)'
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (október 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (september 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: 'Finance and Operations, útgáfa 8.0 (apríl 2018)'
@@ -296,11 +306,11 @@
           href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
     - name: Samþætting gagna
       items:
-        - name: Velja stefnu um samþættingu gagna (innflutning/útflutning)
+        - name: Velja stefnu fyrir samþættingu gagna (innflutning/útflutning)
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: API samþættingar gagna
           items:
-            - name: API gagnastjórnunarpakka
+            - name: REST API-gagnastjórnunarpakki
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Endastöðvar þjónustu
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Sérsniðin þjónusta
+            - name: Sérstillt þjónustuþróun
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Endurteknar samþættingar
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Prófa þjónustu með hjálparforriti þriðju aðila
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Þróun fyrir samþættingu
           items:
             - name: Samþætting gagna með gagnaeiningum
@@ -320,18 +332,18 @@
               items:
                 - name: Þróun einingar fyrir gagnaflutning
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
-                - name: Þróun samsettra gagnaeininga
+                - name: Þróa samsettar gagnaeiningar
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Skilgreina samnýtingu fjárhagslegra gagna milli fyrirtækja
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Búa til færslusniðmát til að greiða fyrir skráningu gagna
+                - name: Búa til skráningarsniðmát til að auðvelda gagnafærslu
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Nota færslusniðmát til að búa til nýja færslu
+                - name: Búa til skráningar með skráningarsniðmátum
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Samþætting gagna með Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Skilgreina aðstæðurnar viðfang til sjóðstreymis
+                - name: Skilgreina PTC-aðstæður
                   href: ../supply-chain/sales-marketing/prospect-to-cash.md
                   items:
                     - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
@@ -383,14 +395,20 @@
             - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Skilgreiningargagnapakkar
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Sniðmát skilgreiningargagna
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
-            - name: Rakning breytinga til einingar
+            - name: Rekja breytingar til einingar
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Finna upplýsingar um staðlaðar gagnaeiningar
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Gagnasniðmát með mörgum vinnublöðum
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Virkja rakningarbreytingu fyrir einingar
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Skilgreiningarlyklar og gagnaeiningar
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Skilgreiningargagnapakkar
@@ -400,8 +418,10 @@
           items:
             - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
-        - name: Þróun gagnaeininga
+        - name: Þróun fyrir gagnaeiningar
           items:
+            - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Stofna nýjar gagnaeiningar
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Eiginleikar gagnaeiningar
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Nota þjónustuprófunarverkfæri þriðja aðila
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
-        - name: Notkun eigin gagnagrunns
+            - name: Búa til skrifvarðar einingar sem sýna fjárhagsvíddir
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
+        - name: Nota eigin gagnagrunn
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Sjálfvirk verkgögn
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Vinnusvæði gagnaprófunar
+        - name: Vinnusvæði gagnaprófunargátlista
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Villulýsingar gagnastjórnunar
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Fjármálastjórnun
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Skilgreina lykilskipulög
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Tvöfaldur gjaldmiðill
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Færslubækur og fjárhagur
               items:
                 - name: Vinnsla almennrar færslubókar
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Eitt fylgiskjal
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Fjárhagsjafnanir
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Lokun tímabils
               items:
                 - name: Lokun fjárhags við lok tímabils
@@ -1799,6 +1827,10 @@
             - name: Yfirlit yfir skattakerfi
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Flytja inn skilgreiningu
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Gildissvið skattkerfis
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Samþætting skattkerfis
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Útvíkkun skattkerfisins
@@ -2100,6 +2132,8 @@
         - name: Pólland
           href: ../financials/localizations/poland.md
           items:
+            - name: Virkja storno-bókhald
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Útreikningur línuafslátta af einingarverði
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Leiðréttingarseðlar
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: VSK-skýrslur
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Setja upp númeraraðir eftir vöruhúsi
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Stöðluð endurskoðunarskrá
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Skattavextir og handbærir vextir
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Daglegar aðgerðir fyrir handhafa fyrirframgreiðslu
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Fyrirframgreiðsluskýrslur með fjárhagsáætlunarstýringu
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Endurmat á erlendum gjaldmiðlum fyrir handhafa fyrirframgreiðslu
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Skýrslur fyrir handhafa fyrirframgreiðslu
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Banki
+              items:
+                - name: Setja upp bankareikninga
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Uppsetning og vinnsla greiðslubeiðna
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Eignir
               items:
                 - name: Komast yfir eignir og koma þeim í rekstur
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Skrá eignakaup
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Stofna og bóka færslubækur fyrir eignakaup
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Eignatalning
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Endurmat gjaldmiðils eigna
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Endurmat á stofnkostnaði og afskriftum eigna
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Hlutasundurtekt eigna (innlausn)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Uppsetning og vinnsla greiðslubeiðna
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Selja og afskrifa eignir
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Uppsetning á staðsetningu og númeri eigna
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Setja upp afskrift
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Afskriftaraðferðir
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Viðbótarafskriftir
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Reikna út afskriftir
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Fyrirtækjasvið
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Setja upp gengi fyrir gjaldeyrisviðskipti
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Forskoða fjárhagsfærslur
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Setja upp embættismenn
               href: ../financials/localizations/rus-officials.md
-            - name: Setja upp bankareikninga
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Virðisaukaskattur (VSK) fyrir skattyfirvöld
               href: ../financials/localizations/rus-tax-agent.md
             - name: Setja upp víddarstýringar fyrir uppgjör
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Reikningar til greiðslu
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Sádi-Arabía
           href: ../financials/localizations/saudi-arabia.md
           items:
