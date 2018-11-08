@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Fá aðstoð fyrir Retail
       href: retail-support.md
+    - name: Algengar spurningar um uppfærslureglur One version
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Lærðu á innleiðingarferlið
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -143,11 +145,9 @@
       href: product-variants-POS.md
     - name: Jaðarvélbúnaður
       items:
-        - name: Smásölujaðarbúnaður
+        - name: Jaðarbúnaður smásölu
           href: retail-peripherals-overview.md
-        - name: Jaðarvélbúnaður sölustaðar sem prófaður hefur verið af Microsoft
-          href: microsoft-tested-pos-hardware-peripherals.md
-        - name: Smásölujaðarbúnaðarhermir
+        - name: Retail-jaðarbúnaðarhermir
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Tengja jaðarbúnað við sölustaðinn
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Afslættir og verðleiðréttingar
   items:
-    - name: Verðstjórnun í Retail
+    - name: Smásöluafslættir
+      href: retail-discounts-overview.md
+    - name: Verðstjórnun smásölu
       href: price-management.md
     - name: Verðleiðréttingar og afslættir
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Vildarkerfi
   items:
-    - name: Setja upp vildarkerfi viðskiptavina
+    - name: Yfirlit yfir vildarkerfi
       href: set-up-customer-loyalty-program.md
 - name: Birgðir
   items:
@@ -307,14 +309,18 @@
       href: ../talent/create-job.md
 - name: Staðfærslu- og eftirlitseiginleikar
   items:
+    - name: Samþætting fjárhags fyrir smásölurás
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Austur-Evrópa
       items:
         - name: Fyrirframgreiðslureikningar fyrir Retail fyrir Austur-Evrópu
           href: localizations/emea-eeu-advance-invoices-for-retail.md
         - name: Umsjón með kassasjóði fyrir Retail fyrir Austur-Evrópu
           href: localizations/emea-eeu-petty-cash-for-retail.md
-        - name: Reikningar viðskiptavina Retail og sölupantanir sem hefur verið skilað í löndum Austur-Evrópu.
+        - name: Reikningar viðskiptavina Retail og sölupantanir sem hefur verið skilað í löndum Austur-Evrópu
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Tékkland, Ungverjaland, og Pólland'
+          href: localizations/emea-eeu-deployment.md
     - name: Frakkland
       items:
         - name: Afgreiðslukassavirkni
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Stuðningur fyrir uppfærslu og N-1 á Indlandi
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Ítalía
+      items:
+        - name: Samþætting strimlaprentara
+          href: localizations/emea-ita-fpi-sample.md
     - name: Noregur
       items:
         - name: Afgreiðslukassavirkni
@@ -488,8 +498,10 @@
           href: dev-itpro/modern-pos-trigger-extensibility.md
         - name: Bæta sérstilltum stjórntækjum við gagnabirtingu sölustaðar
           href: dev-itpro/pos-custom-control.md
-        - name: Bæta POS-aðgerðum við POS-útlit með hnappahnitshönnuði
+        - name: Bæta aðgerðum sölustaðar við útlit sölustaðar með hnappahnitshönnuði
           href: dev-itpro/add-POS-operations.md
+        - name: API fyrir Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: Greiðsluviðbót sölustaðar
           href: dev-itpro/pos-payment-extension.md
         - name: Stuðningur við utanaðkomandi gjafakort

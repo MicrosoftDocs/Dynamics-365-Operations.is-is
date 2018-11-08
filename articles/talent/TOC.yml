@@ -1,11 +1,20 @@
-- name: Velkomin(n) í Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Hafist handa
       href: talent-get-started.md
       items:
         - name: Nýjungar eða breytingar
+          href: whats-new.md
           items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
+              href: whats-new-talent-october-31.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (19. október 2018)
+              href: whats-new-talent-october-19.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (15. október 2018)
+              href: whats-new-talent-october-11.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (8. október 2018)
+              href: whats-new-talent-october-8.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)
               href: whats-new-talent-october-01.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (24. september 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR og Common Data Service fyrir forrit
           href: CoreHREntities.md
+        - name: Samþættingar
+          href: talent-financeandoperations-integration.md
         - name: Fá aðgang að eiginleikum í forútgáfu
           href: access-preview-feature.md
         - name: Skilgreina launasamþættingu milli Talent og Dayforce
@@ -64,6 +75,34 @@
       items:
         - name: Attract eiginleikar og færni
           href: attract-overview.md
+        - name: Búa til ferlissniðmát í Attract
+          href: Process-templates-Attract.md
+        - name: 'Búa til, samþykkja og birta störf í Attract'
+          href: Creating-jobs-Attract.md
+        - name: Fundið með hæfileikasöfnum
+          href: attract-talent-pools.md
+        - name: Fundið með LinkedIn ráðningaraðila
+          href: attract-linked-in-recruiter.md
+        - name: Ráðningarferli í Attract
+          href: activities-attract.md
+        - name: Stækkunarhæfni
+          href: extensibility-attract.md
+        - name: Ferilssíða og starfsreynsla umsækjenda
+          href: career-site.md
+        - name: Uppsetning á stjórnun tilboða
+          href: offer-setup.md
+        - name: 'Stofna, samþykkja og undirrita tilboð'
+          href: creating-offers.md
+        - name: Búa til sniðmát fyrir tölvupóst og stýra því
+          href: email-templates.md
+        - name: Skýrslugerð og greining
+          href: Reporting-Analytics-Attract.md
+        - name: Öryggi og hlutverkastjórnun í Attract
+          href: security-attract.md
+        - name: Stjórnandastillingar í Attract
+          href: Admin-Settings-Attract.md
+        - name: Snjallmeðmæli
+          href: Intelligent-Recommendations.md
         - name: Búa til aðlaðandi innleiðingarupplifun
           href: create-onboarding-experience.md
     - name: Virkja starfsmenn
