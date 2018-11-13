@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stj
 
 ### <a name="assignment"></a>Verkefni
 
-Hægt er að úthluta útliti afgreiðsluskjás á verslunar- eða notandastigi. Notandaúthlutunin hnekkir afgreiðslukassa- og verslunarúthlutuninni, og afgreiðslukassaúthlutunin hnekkir verslunarúthlutuninni. Í einföldu dæmi þar sem allir notendur nota sömu útlitið, óháð afgreiðslukassa eða hlutverki, er aðeins hægt að stilla skjáuppsetninguna á verslunarstiginu. Í dæmum þar sem tilteknar afgreiðslukassar eða notendur þurfa sérsniðið útlit, þá er hægt að úthluta því útliti.
+Hægt er að úthluta útliti afgreiðsluskjás á verslunar-, afgreiðslukassa- eða notandastigi. Notandaúthlutunin hnekkir afgreiðslukassa- og verslunarúthlutuninni, og afgreiðslukassaúthlutunin hnekkir verslunarúthlutuninni. Í einföldu dæmi þar sem allir notendur nota sömu útlitið, óháð afgreiðslukassa eða hlutverki, er aðeins hægt að stilla skjáuppsetninguna á verslunarstiginu. Í dæmum þar sem tilteknar afgreiðslukassar eða notendur þurfa sérsniðið útlit, þá er hægt að úthluta því útliti.
 
 ### <a name="layout-sizes"></a>Útlitsstærðir
 
