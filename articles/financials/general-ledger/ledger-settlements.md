@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Fjárhagsjafnanir
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Fjárhagsjafnanir gerir þér kleift að samsvara debet- og kreditfærslur í fjárhagnum og merkja þau sem jöfnuð. Þannig geturðu tryggt að tengdar færslur hafi verið hreinsaðar. Þú getur einnig bakfært ef þær voru gerðar fyrir mistök.
 
