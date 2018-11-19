@@ -3,7 +3,7 @@ title: "Aðgengiseiginleikar"
 description: "Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun að nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
+ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
+ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -41,7 +41,7 @@ Fyrir flesta notendur felur dagleg kerfisnotkun í sér mikið af gagnafærslum 
 
 Allar síður sem farið er á með því að nota valmyndina Yfirlitssvæði, svæðið lengst til vinstri, eru einnig í boði frá reitnum **Leit**. Ýttu á Alt+G til að færa fókus í reitinn **Leit** og sláðu síðan inn heiti eða lýsingu á síðunni.
 
-![„Bankareikningur“ slegið inn í Leitarreitinn](media/6d08b0be32808221023e2aa92d69fd70.png)
+![„Bankareikningar“ er slegið inn í leitarreitinn](media/6d08b0be32808221023e2aa92d69fd70.png  "„bankareikningar“ er slegið inn í leitarreitinn")
 
 Frekari upplýsingar, sjá [Flettingaleit](navigation-search.md).
 
@@ -56,17 +56,21 @@ Sérhverja aðgerð sem er að finna á síðu er hægt að nálgast á lyklabor
 
 Þú vilt keyra **Skrá tilkynninga í tölvupósti** aðgerðina sem birtist í **Tilkynning í tölvupósti** hópnum í reitnum **Sölupöntun** á Aðgerðasvæðinu.
 
-![Skrá tilkynninga í tölvupósti aðgerð á Aðgerðasvæðinu.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg)
+![Skráning tilkynninga í tölvupósti aðgerð á Aðgerðasvæðinu](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "„Skráning tilkynninga í tölvupósti“ aðgerð á Aðgerðasvæðinu")
 
 Einn valmöguleiki er að notað lyklaborðið. Ýttu á Ctrl+F6 til að færa fókus á Aðgerðasvæðið, og ýttu síðan á Tab endurtekið til að fara í gegnum allar flipana og aðgerðirnar, þar til aðgerðin **Skrá tilkynninga í tölvupósti** er komin í fókus.
 
 Einnig hægt að keyra aðgerðina meira beint. Hvaðan sem er á síðunni, styddu á Ctrl+Úrfellingarmerki (') til að sýna leitarreitinn fyrir aðgerðir.
 
-![Leitarreitur fyrir aðgerðir](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg)
+![Leitarreitur fyrir aðgerðir](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Leitarreitur fyrir aðgerðir")
 
 Í leitarreitinn skal rita orð sem lýsa aðgerðinni. Aðgerðin er gerð tiltæk og þú getur keyrt hana beint. Til dæmis, með því að slá inn **tölvupóstur**, **tilkynn** (hluti úr orði) eða **skrá**, getur þú „hoppað" í Skrá tilkynninga í tölvupósti virknina.
 
-![„Netfang“ slegið inn í leitarreitinn](media/image4.png) ![„Tilkynn“ slegið inn í leitarreitinn](media/image5.png) ![„Skrá“ slegið inn í leitarreitinn](media/image6.png)
+![„Tölvupóstur“ er slegið inn í leitarreitinn](media/image4.png "„tölvupóstur“ er slegið inn í leitarreitinn") 
+
+![„Tilkynning“ er slegið inn í leitarreitinn](media/image5.png "„tilkynning“ er slegið inn í leitarreitinn")
+
+![„Kladdi“ er slegið inn í leitarreitinn](media/image6.png "„kladdi“ er slegið inn í leitarreitinn")
 
 Þegar þú hefur lokið því, getur þú ýtt á Ctrl+Úrfellingarmerki aftur til að fara aftur í fókus á reitinn sem þú varst að vinna með áður en þú keyrði aðgerðaleit.
 
@@ -78,7 +82,7 @@ Fyrir frekari upplýsingar, sjá [Aðgerðaleit](action-search.md).
 
 Hins vegar gæti það gerst að sumir reitir sem þú notar oft til að framkvæma verk eru ekki innifaldir í sjálfgefnu flipa röðinni. Í þessu tilfelli, ef þú notar Windows Narrator, getur þú notað lyklaborðaaðgerðir Windows Narrator til að fá aðgang að þessum reitum og skoða efni þeirra. Einnig er hægt að kveikja á valkostinum **Endurbætt fliparöð** á síðunni **Valkostir**. Þessi valkostur gerir alla breytilega og skrifvarið reiti hluta af fliparöðinni. Þú getur síðan notað sérstillingu síðu til að búa til sérsniðna flipa röð og sleppa sviðum sem þurfa ekki að vera hluti af flipa röð. Nánari upplýsingar um sérstillingar, sjá [Sérstilling notandaviðmótsins](personalize-user-experience.md).
 
-![Endurbætt fliparöð valkostur](media/8c0f12bbb3f26032997ef0ba95d89b6a.png)
+![„Endurbætt fliparöð“ valkosturinn](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "„Endurbætt fliparöð“ valkosturinn")
 
 ## <a name="form-patterns"></a>Skjámyndamynstur
 

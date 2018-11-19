@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Bæta við/Fjarlægja skjámynd sem eftirlæti (með áherslu á skjámynd í yfirlitssvæðinu)   | Shift+F                    |
 | Flytja á staðlaða aðgerðarúðu                                              | Alt+M,A eða Ctrl+F6         |
 | Fara í síusvæði (sem kann að fela í sér að opna það)                        | Alt+M,F eða Ctrl+F3         |
-| Færa fókus á síðuefni (með bendilinn í flettilistanum)            | Alt+M,M eða Ctrl+F3         |
+| Færa fókuks á síðuefnið (með fókus í afmörkunarsvæðinu)                | Alt+M,M eða Ctrl+F3         |
 | Fara á yfirlitslista á Upplýsingar (sem kann að fela í sér að opna hann)    | Alt+M,S eða Ctrl+F8         |
 | Færa fókus á síðuefni (með bendilinn í flettilistanum)            | Alt+M,M eða Ctrl+F8         |
 | Loka flettilistanum í skjámyndinni Upplýsingar (með bendilinn í flettilistanum) | Esc                        |

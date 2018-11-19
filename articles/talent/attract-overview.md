@@ -1,6 +1,6 @@
 ---
-title: Attract eiginleikar og valkostir
-description: "Attract veitir færni til að stjórna ferli við ráðningu nýrra starfsmanna. Hægt er að bæta umsækjendum við opin störf og flytja stig af stigi þar til tilboð hefur verið framlengt eða umsókn er hafnað."
+title: "Attract eiginleikar og færni"
+description: "Þetta efnisatriði lýsir þeim eiginleikum sem Attract veitir til að stjórna ferli við ráðningu nýrra starfsmanna."
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
@@ -18,32 +18,32 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
-# <a name="attract-features-and-capabilities"></a>Attract eiginleikar og valkostir
+# <a name="attract-features-and-capabilities"></a>Attract eiginleikar og færni
 
 [!include [banner](includes/banner.md)]
 
-Attract veitir færni til að stjórna ferli við ráðningu nýrra starfsmanna. Hægt er að bæta umsækjendum við opin störf og flytja stig af stigi þar til tilboð hefur verið framlengt eða umsókn er hafnað. Á hverju stigi fara umsækjendur gegnum aðgerðir á borð við að forgangsraða símtölum, mat eða bóka viðtöl. Eftir umsókn fá umsækjendur tölvupóst þar sem þei mer boðið að skrá inn í Attract og þar geta þeir fylgst með stöðu starfsins og eigin umsókn og brugðist við þeim verkefnum sem þeim er úthlutað.
+Attract veitir getu til að stjórna ferlinu við að ráða nýja starfsmenn. Hægt er að bæta umsækjendum við opin störf og flytja þá stig af stigi annað hvort þar til tilboð hefur verið framlengt eða umsókn er hafnað. Á hverju stigi fara umsækjendur í gegnum aðgerðir eins og forgangsraða símtölum, mat og viðtöl. Eftir umsókn fá umsækjendur tölvupóst þar sem þei mer boðið að skrá inn í Attract og þar geta þeir fylgst með stöðu starfsins og eigin umsókn. Þeir geta einnig brugðist við öllum verkefnum sem þeim er úthlutað.
 
-Attract veitir möguleika á eftirfarandi aðgerðum:
+Þetta efni lýsir þeim eiginleikum sem Attract veitir.
 
 ## <a name="attract-dashboard"></a>Yfirlit í Attract
-Hér geta teymismeðlimir í ráðningarteymi séð upplýsingar um störfin sem þeir eru að vinna með. Ráðningarstjóri eða ráðningaraðili geta einnig bætt nýju starfi í Attract, annaðhvort með því að stofna stakt starf eða flytja nokkur störf inn í einu úr Excel-töflureikni.
+Á yfirlitinu geta meðlimir ráðningarteymisins skoðað upplýsingar um störf sem þeir taka þátt í. Yfirlitið er einnig þar sem mannauðsstjóri eða ráðningaraðili getur bætt við nýjum störfum við Attract, annaðhvort með því að búa þau til hvert fyrir sig eða með því að flytja inn nokkur á sama tíma frá Microsoft Excel töflureikni.
 
 ## <a name="jobs"></a>Störf
 Á síðunni **Starf** er hægt að skoða og breyta upplýsingar á borð við starfslýsingu og staðsetningu starfs. Síðan **Starf** er staðurinn þar sem ráðningarteymið er sett saman og þar sem hægt er að bæta við og breyta ráðningaraðilum og spyrlum í teyminu. Á síðunni **Starf** er einnig hægt að bæta við nýjum umsækjendum.
 
 ## <a name="candidates"></a>Umsækjendur
-Hægt er að bæta umsækjendum við hverjum fyrir sig eða hlaða upp mjög mörgum í einu úr Excel-töflureikni. Öllum umsækjendum er sjálfkrafa bætt við fyrsta stigið, þ.e. Umsóknarstigið, í ráðningarferli fyrir öll störf. Hér má skoða og vinna með allar viðeigandi upplýsingar um umsækjandann. Hægt er að hlaða upp og skoða viðbótargögn, ásamt samskiptaupplýsingum eins og netföngum, símanúmerum og tenglum á samfélagsmiðlasíður umsækjenda. Ef umsækjandi gaf upp tengil á LinkedIn-notandasíðu og LinkedIn-samþætting (sem krefst LinkedIn-leyfis fyrir ráðningaraðila) hefur verið sett upp birtist notandasíða umsækjanda.
+Hægt er að bæta umsækjendum við hverjum fyrir sig eða hlaða upp mjög mörgum í einu úr Excel-töflureikni. Allir umsækjendur eru sjálfkrafa bættir við Umsóknarstigið, sem er fyrsta áfanga í ráðningarferlinu fyrir hvert starf. Á þessu stigi er hægt að skoða og stjórna öllum umsóknarupplýsingum umsækjanda. Viðbótarupplýsingar um skjöl geta verið hlaðið upp og skoðað, ásamt samskiptaupplýsingum eins og netföng, símanúmer og tengla á samfélagsmiðlasíður. Ef umsækjandi veitti tengil á LinkedIn-notendasíðu, og ef LinkedIn-samþætting hefur verið settur upp er notendasíða umsækjanda sýnd. (LinkedIn-samþætting krefst LinkedIn-leyfis fyrir ráðningaraðila)
 
 ## <a name="stages"></a>Stig
-Attract veitir aðgang að forskilgreindu ráðningarferli með fjórum grunnstigum: Umsókn, Síun, Viðtal og Tilboð. Nýir umsækjendur fara fyrst á umsóknarstigið þar sem ferilskrá þeirra, kynningarbréf, kynningarefni og önnur gögn eru skoðuð. Þaðan getur umsækjandi flust upp á síunarstigið þar sem honum er biðið að taka þátt í síunarsímtali eða myndbandsviðtali um Skype. Ráðningarstjóri og ráðningaraðili geta veitt upplýsingar um umsækjandann og flutt hann upp á næsta stig. Viðtöl í eigin persónu eru því næst bókuð við tiltæka aðila í ráðningarteymi og þau má persónusníða sem annað hvort maður á mann-viðtöl eða viðtöl við hóp fólks, mislöng. Eftir viðtölin er safnað athugasemdum frá viðtalsteymi og þær yfirfarnar. Valdir umsækjendur flytjast á lokastigið, þar sem tilboð er lagt fram og undirbúið til skoðunar og samþykkis. 
+Attract veitir aðgang að forskilgreindu ráðningarferli með fjórum grunnstigum: Umsókn, Síun, Viðtal og Tilboð. Nýir umsækjendur fara fyrst á umsóknarstigið þar sem ferilskrá þeirra, kynningarbréf, kynningarefni og önnur gögn eru skoðuð. Þaðan geta umsækjendur flust upp á síunarstigið þar sem þeim er boðið að taka þátt í síunarsímtali eða myndbandsviðtali um Skype. Mannauðsstjóri og ráðningaraðili getur veitt endurgjöf um umsækjendur og farið með þá á næsta stig, sem er viðtalsstigið. Viðtöl í eigin persónu eru því næst bókuð við tiltæka aðila í ráðningarteymi. Þessar viðtöl geta verið sérsniðnar sem maður á mann eða viðtöl við hóp fólks, mislöng. Eftir viðtölin er safnað athugasemdum frá viðtalsteymi og þær yfirfarnar. Valdir umsækjendur eru svo færðir í lokastigið, tilboðsstigið. Á þessu stigi er tilboð lagt fram og undirbúið fyrir skoðun og samþykki umsækjanda.
 
 ## <a name="candidate-app"></a>Umsækjandaforrit
-Umsækjendur fá tölvupóst um leið og þeim hefur verið bætt við starf með tengli þar sem hægt er að sækja forritið. Þetta vefforrit sér umsækjendum fyrir upplýsingum um starf og er verkfærið sem nota skal til að eiga samskipti við ráðningarteymið. Umsækjendur geta einnig látið vita um tíma þegar þeir geta komið í viðtal.
+Um leið og þeir hafa verið bættir við starf fá umsækjendur tölvupóst sem inniheldur tengil til að fá vefforritið. Forritið veitir upplýsingar um starf og er notað til að eiga samskipti við ráðningarteymið. Umsækjendur geta notað það til að leggja fram framboð sitt fyrir viðtöl.
 

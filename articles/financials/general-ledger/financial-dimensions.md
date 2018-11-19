@@ -3,7 +3,7 @@ title: "Fjárhagsvíddir"
 description: "Þessi efnisgrein lýsir ýmsum gerðum fjárhagsvídda og hvernig þær eru settar upp."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Hér eru sumar af skorðunum:
 
 ## <a name="custom-dimensions"></a>Sérsniðnar víddir
 
-Til að stofna notandaskilgreinda fjárhagsvídd, í **Nota gildi** frá reit skal velja **&lt;&nbsp;Sérsniðin vídd&nbsp;&gt;**.
+Til að stofna notandaskilgreinda fjárhagsvídd, í **Nota gildi** frá reit skal velja **Sérsniðin vídd**.
 
-Einnig er hægt að tilgreina lykilsíu til að takmarka magn og gerð upplýsinga sem hægt er að færa inn víddargildi fyrir. Hægt er að færa inn stafi sem eru þeir sömu og fyrir hvert víddargildi eins og stafi eða bandstrik (-). Einnig er hægt að slá inn tölumerki (\#) og og-merki (&) sem frátakara fyrir stafi sem breytast í hvert skipti sem víddargildi er stofnað. Notaðu tölumerki (\#) sem frátakara fyrir tölu og og-merki (&) sem frátakara fyrir staf. Reiturinn fyrir sniðsíðu er aðeins tiltækur þegar valið er **&lt;&nbsp;Sérsniðin vídd&nbsp;&gt;** í reitnum **Nota gildi frá**.
+Einnig er hægt að tilgreina lykilsíu til að takmarka magn og gerð upplýsinga sem hægt er að færa inn víddargildi fyrir. Hægt er að færa inn stafi sem eru þeir sömu og fyrir hvert víddargildi eins og stafi eða bandstrik (-). Einnig er hægt að slá inn tölumerki (\#) og og-merki (&) sem frátakara fyrir stafi sem breytast í hvert skipti sem víddargildi er stofnað. Notaðu tölumerki (\#) sem frátakara fyrir tölu og og-merki (&) sem frátakara fyrir staf. Reiturinn fyrir sniðsíðu er aðeins tiltækur þegar valið er **Sérsniðin vídd** í reitnum **Nota gildi frá**.
 
 **Dæmi**
 
@@ -108,14 +108,30 @@ Hægt er að setja upp afleidd gildi á víddarsíðunni.
 
 Sláðu inn víddarsamsetningar sem ættu að vera fengnar úr víddinni í fyrsta dálknum. Til dæmis, til að nota kostnaðarstaðinn sem víddina sem deildin og staðsetningin koma frá skaltu slá inn kostnaðarstað 10, deild 20 og staðsetningu 30. Þegar þú slærð inn kostnaðarstað 10 í aðalskrá eða á færslusíðu eru deild 20 og staðsetning 30 slegin inn sjálfgefið.
 
-Afleidda víddarferlið hnekkir ekki fyrirliggjandi gildum fyrir afleiddar víddir. Til dæmis, ef þú slærð inn kostnaðarstað 10 og engin önnur vídd er slegin inn eru deild 20 og staðsetning 30 slegin inn sjálfgefið. Hins vegar ef þú breytir kostnaðarstaðnum eru gildin sem þegar hafa verið staðfest ekki breytt. Þess vegna getur þú sett sjálfgefnar víddir í aðalskrár og þessum víddum verður ekki breytt af afleiddum víddum.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Yfirfærsla núverandi gilda með afleiddum víddum
+ 
+Sjálfgefið er að afleidda víddarferlið hnekkir ekki fyrirliggjandi gildum fyrir afleiddar víddir. Til dæmis, ef þú slærð inn kostnaðarstað 10 og engin önnur vídd er slegin inn eru deild 20 og staðsetning 30 slegin inn sjálfgefið. Hins vegar ef þú breytir kostnaðarstaðnum eru gildin sem þegar hafa verið staðfest ekki breytt. Þess vegna getur þú sett sjálfgefnar víddir í aðalskrár og þessum víddum verður ekki breytt af afleiddum víddum.
+
+Þú getur breytt hegðun afleiddra vídda til að hnekkja núverandi gildum með því að velja **Skipta út núverandi víddargildum fyrir afleiddar víddir** gátreitinn á **Afleiddar víddir** síðu. Ef þetta reit er valið getur þú slegið inn vídd með afleiddum víddargildum og þau afleiddu víddargildi mun hnekkja öll gildi sem þegar eru til staðar. Til að nota fyrra dæmi; ef þú slærð inn kostnaðarstað 10 og engin önnur vídd er slegin inn eru deild 20 og staðsetning 30 slegin inn sjálfgefið. Hins vegar, ef gildin voru þegar deild 50 og staðsetning 60, verða gildi nú breytt í deild 20 og staðsetningu 30.
+ 
+Afleiddar víddir með þessari stillingu skipta ekki sjálfkrafa út núverandi sjálfgefnum víddum þegar víddargildin eru sjálfgefin. Víddargildi eru aðeins hnekkt þegar þú slærð inn nýtt víddargildi á síðu og það eru núverandi afleidd gildi fyrir þá vídd á síðunni.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Koma í veg fyrir breytingar á afleiddum víddum
+ 
+Þegar þú notar **Bæta við hluta"** á **Afleiddar víddir** síðunni til að bæta við hluta sem afleidd vídd er valkostur gefinn neðst á síðunni **Bæta við hluta** sem gerir þér kleift að koma í veg fyrir breytingar á þessari vídd þegar hún er afleidd á síðu. Sjálfgefið stilling er slökkt svo að það kemur ekki í veg fyrir að unnt sé að breyta afleiddu víddargildunum. Breyttu stillingunni við **Já** ef þú vilt koma í veg fyrir að víddin sé breytt eftir að hún hefur verið afleidd. Til dæmis, ef gildi fyrir deildarvíddina er afleidd frá gildi kostnaðarstaðsvíddarinnar, er ekki hægt að breyta deildarverðinu ef **Koma í veg fyrir breytingar** stilling er stillt á **Já**. 
+ 
+Stillingin kemur ekki í veg fyrir breytingar ef víddargildi er gilt en er ekki skráð í listanum yfir afleiddar víddir. Til dæmis, ef deild 20 er fengin frá kostnaðarstað 10 og þú slærð inn kostnaðarstað 10, þá geturðu ekki breytt deild 20. Hins vegar, ef þú slærð inn kostnaðarsta' 20 og það er ekki á listanum yfir afleiddar víddir fyrir kostnaðarstaðinn, þá er hægt að breyta deildargildinu. 
+ 
+Í öllum tilvikum verður reikningsgildið og öll víddargildin ennþá villuleituð gegn lykilskipulaginu eftir að gildum afleiddu víddanna hafa verið beitt. Ef þú notar afleiddar víddir og þær standast ekki villuleit þega þær eru notaðar á síðu þarftu að breyta gildum afleiddu víddanna áður en þú getur notað þau í færslum. 
+ 
+Þegar þú breytir stærð á **Fjárhagsvíddum** flýtiflipanum er víddinni sem er merkt til að koma í veg fyrir breytingar ekki hægt að breyta. Ef þú ert að slá inn reikning og víddir í hlutafærslustýringunni á síðu er hægt að breyta víddunum. Hins vegar þegar þú færir merkið af hlutafærslustýringunni og færir þig í annað reit eða tekur til aðgerða verður reikningurinn og víddirnar villuleitaðar gagnvart listanum með afleiddu víddunum og lykilskipulaginu til að tryggja að þú hafir slegið inn viðeigandi gildi. 
 
 ### <a name="derived-dimensions-and-entities"></a>Afleiddar víddir og einingar
 
 Hægt er að setja upp afleidda víddarhluta og gildi með því að nota einingar.
 
 - Afleidda víddareiningin setur upp keyrsluvíddir og hlutana sem eru notaðir fyrir þessar víddir.
-- Einingin DerivedDimensionValue leyfir þér að flytja inn gildin sem ættu að vera fengin fyrir hverja keyrsluvídd.
+- Eining gilda afleiddra vídda gerir þér kleift að flytja inn gildi sem ætti að vera fengin fyrir hverja keyrsluvídd.
 
 Þegar þú notar einingu til að flytja inn gögn, ef þessi eining flytur inn víddir, eru reglur um afleiddar víddir notar við innflutninginn nema einingin hnekki sérstaklega þessum víddum.
 

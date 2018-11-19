@@ -16,26 +16,26 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
-ms.openlocfilehash: e091aab70a98e0f4b96c41c1ee48926947539105
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
 ms.contentlocale: is-is
-ms.lasthandoff: 08/31/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
-# <a name="manage-international-bank-account-number-iban-account-validation"></a>Stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN)
+# <a name="manage-international-bank-account-number-iban-validation"></a>Stjórna villuleit á alþjóðlegu bankareikningsnúmerinu (IBAN)
 
 [!include [banner](../includes/banner.md)]
 
-Villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN) eykur fjölda villuleita sem gerðar eru þegar þú bætir IBAN við bankareikning.
+Villuleit með alþjóðlegu bankareikningsnúmeri (IBAN) eykur fjölda villuleita sem gerðar eru þegar þú bætir IBAN við bankareikning.
 
-Skipulag IBAN er geymt í Microsoft Dynamics 365 for Finance and Operation og er sjálfkrafa hlaðið upp þegar þú notar IBAN í fyrsta skipti fyrir bankareikning. Bankareikningsnúmerið er hluti af skipulagi sem er skilgreint fyrir IBAN númer. Byggt á því skipulagi, ef staða og lengd reikningsnúmersins í IBAN passar ekki við stöðuna sem er skilgreind í skipulaginu fyrir hvert land eða hvert svæði, færðu viðvörunarboð.
+Upplýsingar um skipulag IBAN er geymd í Microsoft Dynamics 365 for Finance and Operations. Þessar upplýsingar eru sjálfkrafa hlaðnir þegar þú notar IBAN fyrst á bankareikningum. Það inniheldur lengd IBAN, upphafsstöðu bankareikningsrnúmers og leiðarrnúmer og lengd bankareikningsnúmersins og leiðarrnúmersins.
 
 ## <a name="set-up-iban-structures"></a>Setja upp IBAN-skipulag
 
 1. Farðu í **Reiðufjár- og bankastjórnun \> Uppsetning \> IBAN-skipulag**.
 2. Takið eftir að IBAN-skipulagið fyrir hvert land eða hvert svæði hefur verið sett upp sjálfkrafa.
-3. Ef þú verður að sérstilla skipulagið fyrir tiltekið land eða svæði, getur þú breytt því.
+3. Ef þú vilt aðlaga skipulagið að tiltekið land eða svæði, getur þú breytt þeim.
 4. Skilgreiningar skipulags verða hluti af öllum nýjum útgáfum. Þú getur notað valmyndina **Endurstilla skipulag** til að hlaða niður nýjustu skilgreiningunum eftir hverja uppfærslu.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Villuleita IBAN-skipulag á bankareikningi
@@ -44,7 +44,9 @@ Skipulag IBAN er geymt í Microsoft Dynamics 365 for Finance and Operation og er
 2. Stofna bankareikning.
 3. Í flýtiflipanum **Viðbótarupplýsingar** skal slá inn IBAN-númeri.
 
-    Ef staða og lengd reikningsnúmersins í IBAN passar ekki við stöðuna sem er skilgreind í skipulaginu fyrir hvert land eða hvert svæði, færðu viðvörunarboð. Þú getur ekki haldið áfram ef lengd IBAN-númers passar ekki við lengdina í IBAN-skipulaginu.
+    Ef lengd IBAN er ekki í samræmi við lengd sem er skilgreind fyrir hvert land eða svæði, færðu viðvörunarskilaboð. Þú getur ekki haldið áfram ef lengd IBAN passar ekki lengdina sem tilgreind er í IBAN uppbyggingu.
 
-    Villuleitin staðfestir einnig að bankareikningsnúmerið samsvarar þeim hluta IBAN-númersins sem táknar bankareikningsnúmerið. Ef bankareikningsnúmerið passar ekki, færðu viðvörunarboð. Þessi skilaboð eru aðeins viðvörun. Þú getur haldið áfram, jafnvel þótt bankareikningsnúmerið passi ekki.
+    Villuleitin staðfestir einnig að bankareikningsnúmerið samsvarar þeim hluta IBAN-númersins sem táknar bankareikningsnúmerið. Ef bankareikningsrnúmerið passar ekki, færðu viðvörunarskilaboð. Þessi skilaboð eru aðeins viðvörun. Þú getur haldið áfram, jafnvel þótt bankareikningsnúmerið passi ekki.
+
+    Villuleitin staðfestir einnig að leiðarnúmer bankans samsvari þeim hluta IBAN sem táknar leiðarnúmer bankans. Leiðarnúmerið inniheldur bankanúmer og oft viðbótarútibú bankans. Ef leiðarnúmer bankans passar ekki, færðu viðvörunarskilaboð. Þessi skilaboð eru aðeins viðvörun. Þú getur haldið áfram, jafnvel þótt leiðarnúmer bankans passi ekki saman.
 

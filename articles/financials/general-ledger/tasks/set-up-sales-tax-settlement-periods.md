@@ -3,7 +3,7 @@ title: "Setja upp virðisaukaskatttímabil"
 description: "Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Setja upp virðisaukaskatttímabil
@@ -50,13 +50,15 @@ Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hva�
 12. Færið inn fjölda eininga fyrir tímabilið á hvert tímabil. Til dæmis ársfjórðungur hefur 3 mánuði.
 13. Velja eða hreinsa Nota runuvinnslu fyrir gátreit fyrir virðisaukauppgjör.
     * Hægt er að vinna úr jöfnunarferlið fyrir tímabil sem runuvinnslu í bakgrunni. Þetta er ráðlagt fyrir mikinn fjölda skattafærslur innan tímabil.  
-14. Útvíkka flipanum tímabilum.
-15. Smelltu á Bæta við.
-16. Í listanum skal merkja valda línu.
-17. Dagsetning er rituð í reitinn Frá dags.
-18. Í reitinn Til dagsetningar skal slá inn dagsetningu.
-19. Smellt er á Nýtt tímabil.
+14. Veldu eða hreinsaðu gátreitinn „Koma í veg fyrir að mótfærsluskattafærslur myndist“.
+    * Sjálfgefið framleiðir kerfið upp á mótfærsluskattafærslur við uppgjörsferlið, sem getur valdið frammistöðuvandamálum ef fjöldi skattafærslna er innan tímabils. Veljið þennan gátreit til að koma í veg fyrir að mótfærsluskattafærslur myndist.
+15. Útvíkka flipanum tímabilum.
+16. Smelltu á Bæta við.
+17. Í listanum skal merkja valda línu.
+18. Dagsetning er rituð í reitinn Frá dags.
+19. Í reitinn Til dagsetningar skal slá inn dagsetningu.
+20. Smellt er á Nýtt tímabil.
     * Þegar hefur verið fært inn fyrsta tímabilið, hægt að stofna ný tímabil sjálfkrafa. Hægt er að koma aftur og bæta við nýrri tímabilum eftir þörfum.  
-20. Lokið síðunni.
+21. Lokið síðunni.
 
 
