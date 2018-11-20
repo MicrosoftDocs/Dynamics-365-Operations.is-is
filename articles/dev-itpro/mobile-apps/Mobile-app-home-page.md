@@ -3,7 +3,7 @@ title: "Heimasíða fyrir Dynamics 365 for Unified Operations-farsímaforrit"
 description: "Þetta efnisatriði lýsir Microsoft Dynamics 365 for Unified Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: is-is
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ Fletting í fartækjaforritinu byggist á fjórum meginhugtökum: mælaborði, v
 ## <a name="implementation-process"></a>Innleiðingarverk
 Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðingu á bæði fartækjavinnusvæðum frá Microsoft og sérsniðnum fartækjavinnusvæðum. 
 
-![Innleiðingarferli farsímaforrita](./media/Mobile-implementation-process-5.png)
+[![Innleiðingarferli farsímaforrita](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að innleiða bæði fartækjavinnusvæði frá Microsoft og sérsniðin fartækjavinnusvæði. Tölurnar í fyrsta dálkinum samsvara tölusettu skrefin í síðustu skýringarmynd.
 

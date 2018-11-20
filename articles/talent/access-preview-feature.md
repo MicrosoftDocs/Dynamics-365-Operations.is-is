@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að vi�
 1. Skráðu þig inn á Microsoft Dynamics 365 fyrir Talent: Laða að.
 2. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnunarstillingar**.
 3. Á **Eiginleikar stjórnun** flipann, skal velja valkosturinn við hliðina á **Forskoðunareiginleikar** þannig að það verður blár.
-4. Endurræstu vafrann þinn til að byrja að sjá nýja eiginleikana. (Allir notendur sem eru þegar skráðir inn munu sjá eiginleikana næst þegar þeir skrá sig inn, eða þeir geta endurræst vafrann til að sjá eiginleikana strax.)
+4. Valfrjáls er hægt að stjórna einstökum eiginleikum með því að virkja/slökkva á tilteknum eiginleikum á þessari síðu.
+5. Endurræstu vafrann þinn til að byrja að sjá nýja eiginleikana. (Allir notendur sem eru þegar skráðir inn munu sjá eiginleikana næst þegar þeir skrá sig inn, eða þeir geta endurræst vafrann til að sjá eiginleikana strax.)
 
 #### <a name="core-hr"></a>Kjarni HR
 
@@ -63,10 +64,9 @@ Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að vi�
 
 ### <a name="attract"></a>Laða að
 
-- **Atvinna sniðmát** - Þú getur nú búið til ráðningarferli sniðmát. Notendur geta nú þegar sérsniðið ráðningarferlið fyrir tiltekið starf. Hins vegar geta þau nú búið til sniðmát fyrir ferlið og síðan valið viðeigandi sniðmát þegar tiltekið starf er búið til. Þess vegna hjálpar þessi eiginleiki að einfalda vinnuuppsetningarferlið.
-- **Starfsframasvæði** - Núverandi útgáfa af starfsframasvæðinu sýnir einungis öll opin störf. Hins vegar verður fleiri eiginleikum bætt við svæðið í framtíðinni. Störf geta verið merktir sem innri eða ytri. Innri notendur sem skrá sig inn á svæðið munu sjá bæði innri störf og ytri störf. Hins vegar munu ytri notendur og notendur sem ekki eru skráðir inn aðeins sjá ytri störf.
-- **Auglýsa starf** – Þú getur nú auglýst störf á starfsframasvæðinu.
-- **LinkedIn auglýsa starf** – Þú getur nú auglýst störf á LinkedIn.
+- **Viðeigandi umsækjendur í starfi** - Ráðningaraðilar og mannauðsstjórar geta auðveldlega séð hvaða umsækjendur eru mest viðeigandi fyrir starfið af öllum umsækjendum. Efstu 5 umsækjendurnir eru sýndir miðað við hvernig ferilskrá/forstilling þeirra á við um starfslýsinguna.
+- **Viðeigandi störf** - Umsækjendur sjá nú lista yfir aðrar störf sem eiga við þá miðað við hvernig ferilskrá/forstillingu þeirra og starfslýsingar.  Nú er þetta sýnt umsækjendum þegar þeir sækja um sem tillögu um önnur tækifæri.
+- **EEO/OFCCP stuðningur** - Ný tegund aðgerða gerir kleift að nota fyrirfram skilgreint eyðublað fyrir jafnrétti til atvinnuþátttöku (EEO) og Office of Federal Contract Compliance Program (OFCCP) gögn frá umsækjanda.  Þetta er fyrirfram skilgreint eyðublað og er ekki hægt að breyta.
 
     > [!NOTE]
     > Störf sem eru auglýst eru aðeins sýnilegar fyrir viðskiptavini sem gerast áskrifandi að einum eða fleiri LinkedIn atvinnuskráningarvöru. Annars sjá viðskiptavinir aðeins starf ef þeir leita sérstaklega að því. Töf verður þegar störf eru auglýst á LinkedIn. Það gæti tekið allt að nokkrar klukkustundir fyrir starf að birtast eftir að hafa verið send frá Attract.

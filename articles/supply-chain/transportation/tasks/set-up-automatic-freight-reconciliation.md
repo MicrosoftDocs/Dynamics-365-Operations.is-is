@@ -3,7 +3,7 @@ title: "Setja upp sjálfvirka afstemmingu farms"
 description: "Þessi verklýsing sýnir hvernig á að setja upp gögn fyrir sjálfvirka afstemmingu farms."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Setja upp sjálfvirka afstemmingu farms
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/29/2017
     * Farmbréfið skilgreinir hvernig farmbréf og reikninga flutningsaðila ætti að jafna þær.  
 2. Smellið á „Nýtt“.
 3. Sláið inn gildi í reitnum Farms uppskrift gerð.
-4. Í svæðinu samsetning Vélar, slærðu inn 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
+4. Sláðu inn 'Microsoft.Dynamics.Ax.Tms.dll‘ í reitinn Samsetning vélar.
     * Þetta er stöðluð Flutningsmáta stjórnun samsvarandi vél kóða safnið.  
-5. Í svæðinu Vélaklasi, slærðu inn 'Microsoft.Dynamics.Ax.Tms.dll'.
+5. Sláðu inn 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer‘ í reitinn Vélaklasi.
     * Þetta er stöðluð Flutningsmáta stjórnun samsvarandi vél kóða safnið.  
 6. Smellið á „Nýtt“.
 7. Lýsingarsvæði, að velja gildið sem ættu að stemma á farmbréfið og reikning flutningsaðila.  

@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -234,7 +234,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 | **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Sjá frekari upplýsingar um uppsetningu og forkröfur [sett Upp og skilgreina Microsoft Dynamics 365 til Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruhúsastjórnun, flutningsstjórnun     |
 | **Dreifingarvalkostur**              | Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu.               |
-| **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.   |
+| **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q4 2019.   |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Jöfnunarregla ítarlegrar afstemmingar banka fyrir handvirka jöfnun
 

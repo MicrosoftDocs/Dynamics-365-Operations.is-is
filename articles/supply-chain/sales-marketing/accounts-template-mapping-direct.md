@@ -3,7 +3,7 @@ title: "Samstilla lykla beint úr Sales við viðskiptavini í Finance and Opera
 description: "Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla lykla úr Microsoft Dynamics 365 for Sales við Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fb694db32638756328623c186594cf5ba2e7d6b8
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: a0cabdab63d4d44010e52303d6f487db1e910059
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/26/2018
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Áður en þú getur notað lausnina Prospect to cash þarftu að kynna þér [Dynamics 365 Data samþættingu](/common-data-service/entity-reference/dynamics-365-integration).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla lykla beint úr Microsoft Dynamics 365 for Sales við Microsoft Dynamics 365 for Finance and Operations.
 

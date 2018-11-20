@@ -3,7 +3,7 @@ title: "Samstilla afurðir beint úr Finance and Operations við afurðir í Sal
 description: "Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vörur úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/25/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
 ms.contentlocale: is-is
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 06/25/2018
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Áður en þú getur notað lausnina Prospect to cash þarftu að kynna þér [Dynamics 365 Data samþættingu](/common-data-service/entity-reference/dynamics-365-integration).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vörur beint úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Sales.
 

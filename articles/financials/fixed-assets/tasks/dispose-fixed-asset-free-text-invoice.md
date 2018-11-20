@@ -25,6 +25,7 @@ ms.lasthandoff: 10/16/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Selja eign með reikningi með frjálsum texta
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Þetta ferli sýnir hvernig losnað er við eign með reikningi með frjálsum texta.
 

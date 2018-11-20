@@ -50,11 +50,12 @@ Eftirfarandi verkflæðisgerðir eru tiltækar fyrir innkaup og aðföng.
 | Verkflæði umsóknar um að bæta við lánardrottni  | Stofna endurskoðunar- og samþykkisverkflæði til að bæta við nýjum lánardrottnum gegnum beiðnir lánardrottna. |
 
 ## <a name="creating-a-workflow"></a>verkflæði stofnuð
+
 Til að stofna verkflæði er farið í Innkaup og aðföng &gt; Uppsetning &gt; verkflæði Innkaupa og uppruna og stofnað nýtt verkflæði með því að velja gerð verkflæðis sem á að stofna.  
 
 Í Verkflæðistriga er hægt að draga verkflæðiseiningar yfir hönnuðinn og tengja einingarnar í flæði. einingar verkflæðisins ætti að skilgreina Fyrir verkflæðiseiningar Samþykkis og verkefnis má skilgreina hvaða þátttakandi á að framkvæma aðgerðina.
-Gerð þátttakenda
-----------------------
+
+## <a name="types-of-participants"></a>Gerð þátttakenda
 
 Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.
 
@@ -68,13 +69,12 @@ Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
+- [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
 
-[Innleiðing nýrra lánardrottna](vendor-onboarding.md)
+- [Innleiðing nýrra lánardrottna](vendor-onboarding.md)
 
 

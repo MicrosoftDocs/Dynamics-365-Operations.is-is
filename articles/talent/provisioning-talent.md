@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>Úthlutun Talent
@@ -47,7 +47,7 @@ Nánari upplýsingar um hvernig á að hefjast handa í Talent er að sjá í **
 Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í umhverfi.
 
 1. Í LCS verkinu skaltu velja **Talent Stjórnun Forrits** reitinn.
-2. Talent er alltaf úthlutað inn í Microsoft PowerApps umhverfi, til að virkja PowerApps samþættingu og stækkunarhæfni. Lestu kaflann „Val á PowerApps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. 
+2. Talent er alltaf úthlutað inn í Microsoft PowerApps umhverfi, til að virkja PowerApps samþættingu og stækkunarhæfni. Lestu kaflann „Val á PowerApps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. Ef þú ert ekki með PowerApps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð PowerApps. Fylgdu síðan skrefunum til að [Búa til PowerApps umhverfi](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Til að skoða núverandi umhverfi eða búa til ný umhverfi, verður leigjanda sem stjórnar, sem úthlutar Talent, að vera úthlutað á PowerApps P2 leyfið. Ef fyrirtækið þitt hefur ekki PowerApps P2 leyfi geturðu fengið slíkt frá þínu CSP eða [PowerApps verðlagsíðunni](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ Samþætting milli Talent og PowerApps umhverfa leyfir þér að samþætta og �
 Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða PowerApps umhverfi til að virkja Talent inn í: 
 1. Í LCS skaltu velja „Stjórna umhverfum“, eða fara beint í stjórnendamiðstöð PowerApps, þar sem þú getur skoðað núverandi umhverfi og stofnað ný umhverfi.
 2. Einu Talent umhverfi er varpað á eitt PowerApps umhverfi.
-3. PowerApps umhverfi „inniheldur“ Talent forritið, ásamt samsvarandi PowerApps, Flow og CDS forritum. Ef PowerApps umhverfinu er eytt, þá á það einnig við um forritin innan þess.
+3. PowerApps umhverfi „inniheldur“ Talent forritið, ásamt samsvarandi PowerApps, Flow og CDS forritum. Ef PowerApps umhverfinu er eytt, þá á það einnig við um forritin innan þess. Þegar Talent umhverfi er úthlutað er hægt að veita „Prufuútgáfa“ eða „Framleiðsla“. Veldu tegund umhverfis byggt á því hvernig umhverfið verður notað. 
 4. Gagnasamþætting og prófunaraðferðir ætti að hafa í huga, til dæmis: Sandbox, UAT, Framleiðsla. Þess vegna mælum við með því að þú hafir í huga ýmsar afleiðingar á uppsetningunni, því það er ekki auðvelt að breyta því síðar hvaða Talent umhverfi er varpað á PowerApps umhverfi.
 5. Ekki er hægt að nota eftirfarandi PowerApps umhverfi fyrir Talent og verður síað úr vallistanum innan LCS:
  

@@ -1,9 +1,9 @@
 ---
-title: "færslubókargerðir fjárhags"
-description: "Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations."
+title: "Færslubókargerðir fjárhags"
+description: "Þetta efnisatriði lýsir þær gerðir sem hægt er að setja upp fyrir fjárhagsbækur."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði lýsir þær gerðir sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Færslubókaheiti** til að setja upp færslubækur sem hægt er að nota í gegnum Microsoft Dynamics 365 for Finance and Operations.
 
 | Færslubókargerð                      | Málefni                       | Færa inn færslur á þessari síðu                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ ms.lasthandoff: 03/26/2018
 | Launagreiðsla              | Gefa út greiðslur byggðar á launayfirlitum. Hægt er að færa færslur handvirkt í þessari færslubók. Búa til launayfirlit og senda svo þær uppgjör fyrir greiðslu.                                                                                                                                                              |                                                                |
 | Reglubundið                          | Stofna reglubundnar færslur fyrir tímabilsbók.                                                                                                                                                                                                                                                                                                      | Tímabilsbækur                                              |
 | Bóka eignir                 | Bóka eignafærslur.                                                                                                                                                                                                                                                                                                                              | Eignir                                                   |
-| Verk - Kostnaður                | Stofna útgjaldafærslur verks.                                                                                                                                                                                                                                                                                                                        | Útgjöld                                                        |
+| Verk - Kostnaður                | Stofna útgjaldafærslur verks.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Leiðrétting skýrslugjaldmiðils     | Búðu til leiðréttingar í skýrslugjaldmiðlinum fyrir stöður á fjárhagslyklinum.               | Leiðréttingabækur skýrslugjaldmiðils                         |
 | Talnagagnafærslur            | Stofna færslur fyrir vinnslu.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Greiðslusending lánardrottins            | Stofna eigin greiðsluskrá sem má senda til banka fyrirtækisins.                                                                                                                                                                                                                                                                      | Greiðslubók                                             |
 | Greiðsla til lánardrottins               | Stofna færslur greiðslu til lánardrottins                                                                                                                                                                                                                                                                                                                    | Greiðslubók                                                |

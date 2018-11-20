@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 53740f6ed0d463de5ba962f1ba15b208634a0739
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
 ms.contentlocale: is-is
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Skoða uppgjör
 
-Hnappurinn **Skoða uppgjör** á aðgerðasvæðinu veitir skjótan aðgang að uppgjörsferli og frekari upplýsinga um alla uppgjörsfærsluna. Þú getur einnig sýnt fleiri færslur sem tengjast valdri færslu, annaðhvort vegna þess að þær voru hluti af sama uppgjörinu eða vegna þess að þær eru greiðslur sem voru búnar til í sömu greiðslubókinni.
+**Skoða uppgjör** hnappinn á aðgerðarsvæðinu veitir skjótan aðgang að uppgjörsferlinu og nákvæmar upplýsingar um uppgjörsfærsluna. Þú getur einnig sýnt fleiri færslur sem tengjast valdri færslu, annaðhvort vegna þess að þær voru hluti af sama uppgjörinu eða vegna þess að þær eru greiðslur sem voru búnar til í sömu greiðslubókinni.
 
 1. Veldu **Viðskiptaskuldir \> Allir lánardrottnar**.
 2. Veldu lánardrottin sem er með færslur og síðan á aðgerðasvæðinu í flipanum **Lánardrottinn** skaltu smella á **Færslur**.
@@ -49,7 +49,7 @@ Hnappurinn **Skoða uppgjör** á aðgerðasvæðinu veitir skjótan aðgang að
 
 ## <a name="global-transactions"></a>Alþjóðlegar færslur
 
-Hnappnum **Alþjóðlegar færslur** hefur verið bætt við lánardrottnasíðuna. Þessi hnappur gerir þér kleift að skoða allar færslur fyrir lánardrottin yfir alla lögaðila. Listasíðan **Lánardrottnafærslur** sýnir færslur aðeins fyrir lögaðila sem notandinn hefur aðgang að, byggt á öryggisstillingum notanda.
+Hnappurinn **Alþjóðlegar færslur** birtist einnig á listasíðunni **Lánardrottnafærslur**. Þessi hnappur gerir þér kleift að skoða allar færslur fyrir lánardrottin yfir alla lögaðila. Listasíðan **Lánardrottnafærslur** sýnir færslur aðeins fyrir lögaðila sem notandinn hefur aðgang að, byggt á öryggisstillingum notanda.
 
 Listasíðan sýnir allar færslur fyrir lánardrottna sem hafa sama auðkenni aðila eins og lánardrottin sem þú byrjaðir með. Til dæmis, ef lánardrottinn US-001 í einum lögaðila hefur sama auðkenni aðila og lánardrottinn DE-001 í öðrum lögaðila, eru allar færslur fyrir bæði auðkenni lánardrottins sýndar.
 
@@ -67,13 +67,13 @@ Sían til að sýna opnar færslur hefur verið skipt út fyrir nýja síu sem l
 - **Allar** - Sýna allar færslur fyrir valinn lánardrottin (opnar og lokaðar).
 - **Lokaðar** - Sýna aðeins færslur sem hafa verið gerðar upp að fullu og lokaðar.
 - **Opnar** - Sýna aðeins færslur sem ekki hafa verið gerðar upp að fullu.
-- **Opið frá dagsetningu** - Sýna aðeins færslur sem ekki hafa verið gerðar upp að fullu frá og með dagsetningu sem þú tilgreinir. Þegar þessi valkostur er valinn er hægt að breyta dagsetningunni sem er sýnd við hliðina á síunni. Færslur sem eru með gildi fyrir **Síðustu uppgjörsdagsetningu** samkvæmt dagsetningunni sem þú tilgreinir eru sýndar í listanum, ef þessar færslur eru gerðar upp að fullu frá og með núverandi dagsetningu. Hins vegar sýnir staðan stöðurnar frá og með núverandi degi, ekki frá þeim degi sem valinn er.
+- **Opið þ.m.t. lokað á eða eftir dagsetninguna** - Sýna aðeins færslur sem ekki hafa verið gerðar upp að fullu á eða eftir dagsetningu sem þú tilgreinir. Þegar þessi valkostur er valinn er hægt að breyta dagsetningunni sem er sýnd við hliðina á síunni. Færslur sem eru með gildi fyrir **Síðustu uppgjörsdagsetningu** eða eftir dagsetningunni sem þú tilgreinir eru sýndar í listanum, ef þessar færslur eru gerðar upp að fullu frá og með núverandi dagsetningu. Hins vegar sýnir staðan stöðurnar frá og með núverandi degi, ekki frá þeim degi sem valinn er.
 
-Síu hefur einnig verið bætt við sem gerir þér kleift að fela færslur fyrir umreikning gjaldmiðils. Veldu bara gátreitinn **Fela endurmat á gjaldmiðli**.
+Veldu **Fela endurmat á gjaldmiðli** gátreitinn til að fela færslur fyrir umreikning gjaldmiðils.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Einfaldara er að breyta gjalddögum og afsláttardagsetningum
+## <a name="modify-due-dates-and-discount-dates"></a>Breyta gjalddögum og afsláttardagsetningum
 
-Þú getur uppfært gjalddaga og afsláttardagsetningar fyrir opnar færslur viðskiptavinar. Upplifunin hefur verið bætt í útgáfu 8.1. Nú er hægt að bæta gjalddögum við listasíðuna **Lánardrottnafærslur**. Með því að smella á gjalddaga á listasíðunni **Lánardrottnafærslur** getur þú líka breytt gjalddögum, afsláttardagsetningum, greiðsluskilmálum og skilmálum staðgreiðsluafsláttar í svarglugganum **Uppfæra gjalddaga og dagsetningar staðgreiðsluafsláttar**.
+Þú getur uppfært gjalddaga og afsláttardagsetningar fyrir opnar færslur viðskiptavinar. Í útgáfu 8.1 er nú hægt að bæta við gjalddögum á listasíðuna **Lánardrottnafærslur**. Með því að smella á gjalddaga á listasíðunni **Lánardrottnafærslur** getur þú líka breytt gjalddögum, afsláttardagsetningum, greiðsluskilmálum og skilmálum staðgreiðsluafsláttar í svarglugganum **Uppfæra gjalddaga og dagsetningar staðgreiðsluafsláttar**.
 
 ### <a name="activate-the-feature"></a>Virkja eiginleikann
 
@@ -87,15 +87,15 @@ Gjalddaga hefur nú verið bætt við listasíðuna **Lánardrottnafærslur** og
 
 ### <a name="modify-the-payment-settings"></a>Breyta greiðslustillingum
 
-Listasíðan **Lánardrottnafærslur** sýnir allar færslur fyrir lánardrottin. Svargluggi birtist þegar þú velur gjalddaga fyrir færslu. Þessi svargluggi sýnir grunndagsetninguna fyrir gjalddaga og afsláttarútreikninga, gjalddagann, greiðsluskilmálana, skilmála staðgreiðsluafsláttar og dagsetningar staðgreiðsluafsláttar.
+Listasíðan **Lánardrottnafærslur** sýnir allar færslur fyrir lánardrottin. Svargluggi birtist þegar þú velur gjalddaga fyrir færslu. Þessi svargluggi sýnir grunndagsetninguna fyrir gjalddaga og afsláttarútreikninga, gjalddaga, greiðsluskilmála, skilmála staðgreiðsluafsláttar og dagsetningu staðgreiðsluafsláttar.
 
 Hver reitur hefur mismunandi áhrif á færsluna þegar þú breytir honum:
 
-- **Breyta grunndagsetningunni:** Gjalddaga og afsláttardagsetningum er breytt eins og grunndagsetningin sé dagsetning skjalsins.
-- **Breyta gjalddaga:** Aðeins gjalddaga er breytt
-- **Breyta afsláttardagsetningum:** Aðeins afsláttardagsetningum er breytt.
-- **Breyta greiðsluskilmálum:** Gjalddaga er breytt samkvæmt grunndagsetningu og greiðsluskilmálum.
-- **Breyta skilmálum staðgreiðsluafsláttar:** Staðgreiðsluafsláttum er breytt samkvæmt grunndagsetningu og skilmálum staðgreiðsluafsláttar.
+- **Breyta grunndagsetningunni** - Gjalddaga og afsláttardagsetningum er breytt eins og grunndagsetningin sé dagsetning skjalsins.
+- **Breyta gjalddaga** - Aðeins gjalddaganum er breytt
+- **Breyta afsláttardagsetningum** - Aðeins afsláttardagsetningum er breytt.
+- **Breyta greiðsluskilmálum** - Gjalddaga er breytt samkvæmt grunndagsetningu og greiðsluskilmálum.
+- **Breyta skilmálum staðgreiðsluafsláttar** - Staðgreiðsluafsláttum er breytt samkvæmt grunndagsetningu og skilmálum staðgreiðsluafsláttar.
 
 Þegar þú hefur lokið við breytingar á greiðslustillingum skaltu velja **Loka** til að vista breytingarnar.
 
