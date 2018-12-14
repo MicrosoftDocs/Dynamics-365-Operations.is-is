@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Til að fræðast um hvernig á að skrá nýja þjónustuveitu rafrænnar skýr
 
 #### <a name="repository"></a>Geymsla
 
-ER-gagnasafn vistar ER-skilgreiningar. Tvær gerðir gagnasafna rafrænnar skýrslugerðar eru studdar eins og er: **Rekstrartilföng** og **LCS-verk**.
+ER-gagnasafn vistar ER-skilgreiningar. Fjórar gerðir af ER-gagnasöfnum eru studdar sem stendur: **Rekstrartilföng**, **LCS-verk (LCS)**, **Skráakerfi** og **Skilgreiningarþjónusta reglugerðar (RCS)**.
 
 Gagnasafnið **Rekstrartilföng** veitir aðgang að lista skilgreininga sem Microsoft, sem veitandi skilgreininga í rafrænni skýrslugerð, gefur út sem hluta af Finance and Operations lausninni. Þessar stillingar er hægt að flytja inn í núverandi Finance and Operations tilvik og nota fyrir rafræna skýrslugerð. Einnig er hægt að nota þær fyrir frekari staðfæringar og sérstillingar.
 
 **LCS-verks** gagnasafn veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að hlaða upp samnýttum skilgreiningum úr núverandi tilviki í Finance and Operations í tiltekna geymslu fyrir **LCS-verk** . Þú getur einnig flutt inn stillingar úr geymslu fyrir **LCS-verk** í núverandi tilvik Finance and Operations.
 
-Hægt er að skrá nauðsynlega **LCS verks** gagnasafn fyrir hverja skilgreiningarveitu fyrir gildandi tilvik Finance and Operations sérstaklega. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
+Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru staðsettar sem xml-skrár í tiltekinni möppu í staðbundnu skráakerfi vélarinnar þar sem AOS-þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi gagnasafns. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki Finance and Operations. Athugið að þessi gagnasafnsgerð er aðgengileg í eftirfarandi umhverfi Dynamics 365 for Finance and Operations:
+- umhverfi í skýi sett upp í þróunarlegum tilgangi (inniheldur prufulíkön úr inniföldum pökkum)
+- staðbundið uppsett umhverfi (á staðnum eða uppsetning staðbundinna viðskiptagagna (LBD))
+
+Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](/electronic-reporting-import-ger-configurations.md) til að fá frekari upplýsingar um þetta.
+
+Gagnasafn **RCS-tilviks** veitir aðgang að lista yfir skilgreiningar á tilteknu RCS-tilviki sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik Finance and Operations og notaðar í rafrænni skýrslugerð.
+
+Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER) úr skilgreiningarþjónustu reglugerðar (RCS)](/rcs-download-configurations.md) til að fá frekari upplýsingar um þetta.
+
+Hægt er að skrá nauðsynleg gagnasöfn **LCS-verks**, **Skráakerfis** og **Skilgreiningarþjónustu reglugerðar (RCS)**, hvert safn fyrir sig, fyrir hverja skilgreiningarveitu fyrir núgildandi tilvik Finance and Operations. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 ### <a name="building-a-data-model"></a>Byggja gagnalíkan

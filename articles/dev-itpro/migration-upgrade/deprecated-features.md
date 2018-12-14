@@ -3,7 +3,7 @@ title: "Eiginleikar sem hafa verið fjarlægðir eða úreltir"
 description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frek
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur, Skattur |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+
+
+### <a name="profit-tax-register-wizard"></a>Leiðsagnarforrit fyrir skattskrá hagnaðar
+Eiginleiki til að búa til sniðmát fyrir nýjar skattskrár hagnaðar. Þessi eiginleiki býr til X++ hluti fyrir nýjar skrár, sem eru síðan búnar til sem sniðmát þar sem viðeigandi reiknireglum er bætt við.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Eiginleiki er ekki samhæfur við stækkunarhæfnislíkan Dynamics 365 for Finance and Operations. |
+| **Skipt út fyrir aðra eiginleika?**   | Númer |
+| **Afurðasvæði sem haft er áhrif á**         | Skattur |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 með verkvangsuppfærslu 15
 Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu. Verkvangsuppfærsla 15 er uppsöfnuð og inniheldur nýja eða breytta eiginleika frá verkvangsuppfærslu 13, verkvangsuppfærslu 14 og verkvangsuppfærslu 15.
@@ -993,6 +1006,17 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 | **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Afurðasvæði sem haft er áhrif á**         | Stjórnun á upplýsingum um afurðir, Sölu og markaðssetningu  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Forrit framleiðslugólfs
+Þetta er forritið fyrir spjaldtölvur sem keyra Windows 8.1 RT og Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Með breytingunni á biðlara á netinu er hægt að skila svipaðri virkni í gegnum biðlara Dynamics AX 7.0 á staðnum. Verkspjaldstækið býður upp á notandaviðmót fyrir framleiðslugólf sem er fínstillt inn á snertieiginleika og skjámynd spjaldtölvu. |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Verkspjaldstækið, sem er staðbundinn hluti Dynamics AX 7.0.                                                                           |
+| **Afurðasvæði sem haft er áhrif á**         | Framleiðslustýring                                                |
+| **Staða**                         | Úrelt: Fjarlægingardagsetning frá verslun Microsoft hefur enn ekki verið stillt fyrir þennan eiginleika.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Endurnefna afurðarvídd
 

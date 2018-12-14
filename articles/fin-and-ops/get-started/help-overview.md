@@ -1,9 +1,9 @@
 ---
 title: "Hjálparkerfi Finance and Operations"
-description: "Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki."
+description: "Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. Hún útskýrir einnig hvernig þú getur veitt sérsniðnin fylgiskjöl og þjálfun í þínu fyrirtæki. 
+Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu. 
 
 > [!NOTE] 
 > Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
@@ -48,8 +48,6 @@ Finance and Operations inniheldur hjálparkerfi sem byggt er á tveimur aðalþ�
 Þú getur fengið aðgang að hjálp frá hjálparsvæðinu í hvaða vöru þú notar. Eftirfarandi skjámynd sýnir Finance and Operations.
 
 ![Hjálparsvæði](./media/help-pane-ops-task-guides.png)
-
-Þetta efnisatriði lýsir hjálparkerfinu og útskýrir hvernig hægt er að stofna sérsniðin skjöl og þjálfunarefni fyrir fyrirtækið þitt.
 
 > [!IMPORTANT]
 > **Verkefnaleiðbeiningar** eru ekki í boði fyrir smásölu, eða á hjálparsvæðinu fyrir Talent (nokkrar verkefnaleiðbeiningar eru í boði á Hafist handa svæðinu fyrir Talent). Leiðbeiningar fyrir aðstoð er að finna á docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) fyrir bæði Retail og Talent.
@@ -83,7 +81,7 @@ Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Un
 ### <a name="give-feedback"></a>Láttu í ljós viðbrögð 
 Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub. Nánari upplýsingar um ábendingarkerfið okkar er að finna í [þessari bloggfærslu](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Skildu eftir ábendingu 
+#### <a name="leave-us-feedback"></a>Skildu eftir ábendingu 
 Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.  
 
 1. Smelltu á **Ábendingar** til að sjá athugasemdir neðst á síðunni og smelltu síðan á annaðhvort **Ábending um vöru** eða **Skrá inn á til að skrá inn ábendingu**.
@@ -93,8 +91,6 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 2. Byrjaðu að færa inn athugasemdir og smelltu síðan á **Birta ábendingu**.
 
 ![Setja inn ummæli](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Leggja til breytingar eða leggja fram efni í gegnum GitHub
 Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda.  Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar. Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.  
@@ -122,22 +118,7 @@ Til að byrja gagnvirka leiðsögn, smellið á **Opna verkefnaleiðbeiningar** 
 > [!IMPORTANT] 
 > Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg. Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.
 
-### <a name="it-all-begins-with-task-recorder"></a>Þetta byrjar allt á verkskráningu
-
-Verkefnaleiðbeiningar eru stofnaðar með því að nota verkskráning. Þegar þú notar Verkskráningu eru allar aðgerðir sem þú framkvæmir í notendaviðmóti Finance and Operations (t.d. að smella á valmyndir, breyta stillingum og slá inn gögn) skráðar. Skrefin sem þú skráir kallast í sameiningu við verkskráning. Eins og við útskýrðum í fyrri hluta, má birta verkskráning í hjálp rúðunni og spila sem verkefnaleiðbeiningar. Hins vegar eru aðrar aðferðir sem hægt er að nota verkskráningu:
-
--   **Vista verkskráningu í BPM** – hægt er að vista verkskráning í línu stigveldis í BPM safni í LCS. Þegar verkskráning er vistuð á BPM, er skýringarmynd flæðirits mynduð og birt með skráningarskrefunum . 
-
-    > [!Note]
-    > Til að sýna verkskráningu á hjálparsvæði Finance and Operations og spila það sem verkefnaleiðbeiningar þarftu að vista upptökuna í BPM-safn.
-    
--   **Vista verkskráningu sem Word skjöl** – með Því að vista verkskráningu Microsoft Word-skjal, er auðvelt að búa til prentanlegar þjálfunarleiðbeiningar fyrir fyrirtækið.
-
-Til að fá frekari upplýsingar um Verkskráningu, sjá [Verkskráning í Finance and Operations.](../../dev-itpro/user-interface/task-recorder.md)
-
-### <a name="creating-customized-task-recordings"></a>Stofna sérhannaðar verkskráningu
-
-Hægt er að stofna eigin verkskráningu, eða hægt er að sækja og sérsníða verkskráningu sem Microsoft veitir. Þess vegna er hægt að stofna sérsniðna Hjálp fyrir fyrirtækið sem endurspeglar tiltekna innleiðingu Finance and Operations. Til að birta verkskráningu á hjálparsvæði Finance and Operations og spila hana sem Verkefnaleiðbeiningu verður þú að vista skráninguna í BPM-safni í LCS. Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Nákvæmar leiðbeiningar má sjá á [ Nota verkskráningu til að stofna fylgiskjöl eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).
+Hægt er að nota verkskráningu til að stofna eigin sérsniðnar verkefnaleiðbeiningar. Frekari upplýsingar eru í [Stofna fylgiskjöl eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Hjálp innan vörunnar
 Til að fá aðgang að hjálparefni innan Finance and Operations skal smella annaðhvort á táknið **Hjálp** (**?**) og velja svo Hjálp eða ýta á Ctrl + Shift +?. Í báðum tilvikum opnast Hjálp rúðunni . Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar. 
@@ -184,6 +165,11 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna í Hj�
 Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum. Í Finance and Operations, til að sjá staðfærða hjálp verkleiðbeininga, skal tryggja að þú sért tengd við viðeigandi safn. Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **Kjörstillingar**. 
 -   Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.
 -   Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.
+
+## <a name="creating-custom-help"></a>Stofnun sérsniðinnar hjálpar
+Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar verkefnaleiðbeiningar eða tengja eigið vefsvæði við hjálparsvæðið. Frekari upplýsingar eru í: 
+- [Hvernig á að stofna verkskráningu til að nota sem fylgiskjöl eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).
+- [Stofna sérsniðna hjálp fyrir Finance and Operations (hvítbók)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

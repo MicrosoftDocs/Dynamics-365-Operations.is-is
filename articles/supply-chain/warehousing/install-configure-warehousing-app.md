@@ -3,7 +3,7 @@ title: Setja upp og grunnstilla Microsoft Dynamics 365 for Finance and Operation
 description: "Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla Microsoft Dynamics 365 for Finance and Operations – Warehousing."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Til að virkja forritið til að eiga samskipti við tiltekinn þjón fyrir Fina
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Stofnaðu og skilgreindu notandareikning í Finance and Operations
 Til að virkja Finance and Operations til að nota Azure AD forritið þitt þarf að ljúka eftirfarandi skilgreiningarskrefum:
 
-1.  Stofna nýjan notandareikning í Azure Active Directory fyrir leigjanda Finance and Operations. Tilgangur þessa notandareiknings er að fá aðgang að tiltekinni sérstilltri þjónustu í vöruhúsaforritinu sem Finance and Operations þjónninn birtir. Þegar þessu skrefi er lokið verður þú með skilríki WMDP-notanda, sem eru WMDP-nettfang og WMDP-aðgangsorð. Frekari upplýsingar um grunnskref við að bæta notendum við Azure AD og Finance and Operations, eru í þessu kennsluefni: [Skráning í áskrift að Finance and Operations](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Stofnaðu Finance and Operations notanda sem samsvarar notandaskilríkjum í vöruhússforriti.
+1.  Stofnaðu Finance and Operations notanda sem samsvarar notandaskilríkjum í vöruhússforriti.
     1.  Í Finance and Operations er farið í **Kerfisstjórnun** &gt; **Almennt** &gt; **Notendur**.
     2.  Stofnaðu nýjan notanda
     3.  Úthlutaðu notanda Vöruhús í fartæki, eins og sýnt er á eftirfarandi skjáskoti. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Tengdu Azure Active Directory forritið þitt við notanda vöruhússforrits fyrir fartæki.
+2.  Tengdu Azure Active Directory forritið þitt við notanda vöruhússforrits fyrir fartæki.
     1.  Í Finance and Operations er farið í **Kerfisstjórnun** &gt; **Uppsetning** &gt; **Azure Active Directory forrit**.
     2.  Stofnið nýja línu.
     3.  Færið inn **Biðlarakenni** (útvegað í síðasta hluti), gefðu því heiti og veldu notandann sem var búið að stofna. Við mælum með því að þú merkir öll tækin þín til að auðvelt sé að fjarlægja aðgang þeirra að Finance and Operations af þessari síðu ef þau týnast. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

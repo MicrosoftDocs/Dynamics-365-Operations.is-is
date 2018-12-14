@@ -1,9 +1,9 @@
 ---
-title: "innhreyfingarskjal afurða gagnvart innkaupapantanir"
-description: "Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar."
+title: "Innhreyfingarskjal jafnað við innkaupapantanir"
+description: "Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="product-receipt-against-purchase-orders"></a>innhreyfingarskjal afurða gagnvart innkaupapantanir
+# <a name="product-receipt-against-purchase-orders"></a>Innhreyfingarskjal jafnað við innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar.
+Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar.
 
 Innhreyfingarskjal afurða er ferli við að skrá afurðir sem hafa verið pantaðar,svo hægt sé að vinna innkaupapöntunarlínur (PO) fyrir reikningsfærslu. Í sumum tilvikum, fara afurðir í gegnum forskráningu, þar sem viðbótarupplýsingar frá birgi er skráð áður en afurðirnar eru mótteknar. Þegar afurðirnar berast, eru þær fyrstu merkt **Skráð**. Afurðir gæti síðan fara gegnum fleiri ferli, eins og gæðastjórnun, áður en þeir eru að lokum merkt **Móttekið**.
 
@@ -46,8 +46,6 @@ Afurðir sem eru mótteknar í vöruhús gæti fara í gegnum gæðaskoðun áð
 
 ## <a name="product-receipt"></a>Innhreyfingarskjal afurðar
 Oftast er aðgerðin **Innhreyfingarskjal afurða** á **Innkaupapantanir** síða notuð til að merkja vörur sem **Móttekið** á Innkaupapöntunina. **Bókun innhreyfingarskjals afurða** síðuna hefur mismunandi valkostir fyrir það magn sem er bókfært sem móttekið. Til dæmis er hægt að stilla **Magn** reitinn á **Pantað magn** eða **Magn sem móttaka á nú**. Einnig, ef komuferli vöruhúss hefur verið notuð, stillirðu þetta svæði oft á **Skráð magn**. Hægt er að breyta magni á hverri pöntunarlínu sem verður merkt sem **Móttekið**, til að gera grein fyrir hvers kyns misræmi svo sem umframafhendingu og undirafhendingu. Við móttöku afurða, verður að tilgreina kennimerki innhreyfingarskjals afurðar, sem yfirleitt er tilvísun í fylgiseðils frá birgi. Þetta kennimerki er krafist í bókhaldi þar sem hún gerir athuganir eða úttektir á fylgiseðlum birgis gagnvart þess sem hefur verið móttökuð mögulegar, og reikningsfærðar birgðir eða kostnaðar.  
-
-Ef starfsmaður panta vörurnar með því að nota innkaupabeiðni gæti sá starfsmaður verið beðnir um að staðfesta móttöku afurðar sjálfur eða sjálf. Þessi hegðun er skilgreind með því að nota verkflæði. Hægt er að skilgreina skilyrði verkflæðis þannig að þær passi viðskiptaferli þitt.  
 
 Hægt er að stofna innkaupapantanir fyrir afurðir sem ekki eru ætlaðar að vera birgðir en skoðast sem útgjöld. Þessi tegund inniheldur pöntunarlínur þar sem afurðir eru merktar sem **Ekki í birgðum** samkvæmt birgðalíkanaflokki þeirra, og líka línur sem nota innkaupaflokka. Í þessu tilfelli fara vörur hugsanlega ekki í gegnum komuskráningu og móttöku í vöruhúsi. Í staðinn er **Innhreyfingarskjal afurða** aðgerð notuð til að skrá á innhreyfingu beint á Innkaupapöntuninni, og móttöku er grundvölluð á pantaðs magns, ekki skráð magn.  
 

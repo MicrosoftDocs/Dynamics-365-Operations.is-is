@@ -8,7 +8,7 @@
       href: get-started/before-you-buy.md
     - name: skaltu skrá þig fyrir prufuáskrift
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Uppsetning sýniútgáfuumhverfis
+    - name: Setja upp sýniútgáfuumhverfi
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Uppsetningarvalkostir
       href: dev-itpro/choose-deployment.md
@@ -47,14 +47,18 @@
       href: dev-itpro/updating-environments.md
     - name: Vandamál tengd prófun og afköstum
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Dreifingarstjórnun pöntunar (DOM)
+  href: dom.md
 - name: Greiðslur
   items:
     - name: Greiðslumátar
       href: payment-methods.md
     - name: 'Uppsetning kreditkorts, heimild og úthlutun'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Skilgreina verðgildi reiðufjár fyrir POS
+    - name: Skilgreina verðgildi reiðufjár fyrir sölustað
       href: cash-denominations.md
+    - name: Uppsetning á greiðsluaðstæðum reikninga
+      href: payinvoice.md
     - name: Algengar spurningar um greiðslur
       href: dev-itpro/payments-retail.md
 - name: Innkaupapantanir
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Sýna pöntunartilkynningar í sölustaðnum
       href: Notifications-POS.md
+- name: Skilgreina og vinna úr skiptum á skilapöntun
+  href: orderexchanges.md
 - name: Eftirlit og greining
   items:
     - name: Eftirlit með sölu og framlegð
@@ -231,10 +237,12 @@
   items:
     - name: Smásöluafslættir
       href: retail-discounts-overview.md
-    - name: Verðstjórnun smásölu
+    - name: Retail-verðstjórnun
       href: price-management.md
     - name: Verðleiðréttingar og afslættir
       href: price-adjustments-discounts.md
+    - name: Nota marga smásöluafslætti á afurð
+      href: Apply-multiple-retail-discounts.md
     - name: Ákvarða bestu samsetningar afslátta sem skarast
       href: optimal-combination-overlapping-discounts.md
     - name: Skilgreining afslátta fyrir tiltekna rás
@@ -488,6 +496,8 @@
       items:
         - name: Skjáútlit Retail POS
           href: pos-screen-layouts.md
+        - name: Opna vefslóð í POS
+          href: Open-URL-in-POS.md
         - name: Setja upp útlitshönnuð sölustaðar
           href: install-pos-layout-designer.md
         - name: Retail Modern POS án nets
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Búa til og beita vörumerkjaþróun í Retail Experience-forritinu
           href: dev-itpro/create-retail-experience-app.md
+        - name: Setja upp POS Hybrid-forrit á Android og iOS
+          href: dev-itpro/hybridApp.md
+        - name: Hnekkja beiðnistjóra sölustaðar
+          href: dev-itpro/pos-handler.md
     - name: Vélbúnaðarstöð og stækkunarhæfni
       href: dev-itpro/hardware-station-extensibility.md
     - name: Stækkunarhæfni Retail Server
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Stofna Windows-uppsetningarforrit fyrir greiðslutengla
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Notkun greiðslugagna
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Væntanlegar breytingar í Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Sameina byggingarkerfin fyrir Retail og Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Dæmi um stækkunarhæfni Retail SDK

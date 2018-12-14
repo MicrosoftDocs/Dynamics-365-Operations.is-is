@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
+
+[!include [banner](../includes/banner.md)]
 
 Virkni sem kynnt var í Microsoft Dynamics 365 for Finance and Operations útgáfu 8.1 (október 2018) gerir kleift að endurskipuleggja skýrslugjaldmiðilinn og nota sem annan bókhaldsgjaldmiðill. Þessi virkni er vísað til sem *tvöfalds gjaldmiðils*. Ekki er hægt að slökkva á breytingum fyrir tvöfaldan gjaldmiðil með skilgreiningarlykli eða færibreytu. Vegna þess að skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill, breytist leiðin sem skýrslugjaldmiðillinn er reiknaður með bókunarrökunum.
 
@@ -67,8 +69,8 @@ Eftirfarandi einingar nota skýrslugjaldmiðilinn sem annan bókhaldsgjaldmiðil
 
 - [Fjárhagur](#general-ledger)
 - [Fjárhagsskýrslugerð](#financial-reporting)
-- [Viðskiptaskuldir](#accounts-payable/accounts-receivable)
-- [Viðskiptakröfur](#accounts-payable/accounts-receivable)
+- [Viðskiptaskuldir](#accounts-payable-and-accounts-receivable)
+- [Viðskiptakröfur](#accounts-payable-and-accounts-receivable)
 - [Reiðufjár- og bankastjórnun](#cash-and-bank-management)
 - [Eignir](#fixed-assets)
 
@@ -90,7 +92,7 @@ Aukahlutur í **fjárhagsskýrslugerð** gerir þér kleift að taka upp skýrsl
 
 Þessi breyting er í boði í gegnum **Birting gjaldmiðils** stillinguna í dálksskilgreiningunni. Ef þú velur **Skýrslugjaldmiðill úr fjárhag** eru upphæðir í dálknum ekki þýtt. Þess í stað eru þau tilkynnt beint frá fjárhag. Ef þú vilt fá dálkinn til að sýna þýddar upphæðir skaltu velja **Þýða í XXXX** valkostinn, þar sem *XXXX* er skýrslugjaldmiðillinn sem dálkurinn ætti að sýna. Í þessu tilviki verður skýrslugjaldmiðilsupphæðir þýtt í völdu gjaldmiðilinn með því að nota núverandi þýðingu.
 
-### <a name="accounts-payableaccounts-receivable"></a>Viðskiptaskuldir/Viðskiptakröfur
+### <a name="accounts-payable-and-accounts-receivable"></a>Viðskiptaskuldir og viðskiptakröfur
 
 **Viðskiptaskuldir** og **Viðskiptakröfur** einingar sem nú þegar fylgst með skýrslugjaldmiðilsupphæðum. Hins vegar voru upphæðirnar ekki sýnt eða notað fyrir ýmis ferli. Eftirfarandi breytingar voru gerðar:
 

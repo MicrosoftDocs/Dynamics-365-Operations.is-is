@@ -3,7 +3,7 @@ title: "Tenging við hjálpargögnin"
 description: "Þetta efnisatriði lýsir þáttum í hjálparkerfinu fyrir Microsoft Dynamics 365 for Finance and Operations og veitir yfirlit yfir hvernig eigi að tengja þá og yfirlit yfir hvernig eigi að stofna sérsniðna hjálp."
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjá
 > -   Ef verkefnaleiðbeiningar hefur ekki enn verið þýdd, þegar þú opnar það, bara nokkrar af textanum (Texti stjórnbúnaðar) munu birtast í valið tungumál.
 
 ## <a name="creating-custom-help"></a>Stofnun sérsniðinnar hjálpar
+Hægt er að nota verkefnaleiðbeiningar til að stofna sérsniðna hjálp eða tengja vefsvæði við hjálparsvæðið. 
+
+### <a name="create-custom-help-with-task-guides"></a>Stofna sérsniðna hjálp með verkefnaleiðbeiningum
 Hægt er að stofna sérsniðna hjálp fyrir Finance and Operations og fyrir Retail með því að stofna verkskráningar sem endurspegla innleiðingu þína og vista þær í LCS Business Process Library. Ekki er hægt að stofna sérsniðnar verkefnaleiðbeiningar fyrir Talent. 
 
 Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Frekari upplýsingar er að finna í efnisatriðinu [Hvernig stofna á verkskráningu sem nota á sem fylgigögn eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).
+
+### <a name="connect-a-custom-site"></a>Tengja sérsniðið svæði
+Microsoft hefur útvegað hvítbók og sýnikóða sem lýsa því hvernig á að stofna og tengja sérsniðið svæði hjálpar við hjálparsvæðið. Frekari upplýsingar má finna á 
+- [Stofna sérsniðna hjálp fyrir Finance and Operations (hvítbók)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Sérsniðin hjálp GitHub-geymslu](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

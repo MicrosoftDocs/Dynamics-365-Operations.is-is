@@ -7,6 +7,10 @@
         - name: Nýjungar eða breytingar
           href: whats-new.md
           items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (27. nóvember 2018)
+              href: whats-new-talent-november-27.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (15. nóvember 2018)
+              href: whats-new-talent-november-15.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
               href: whats-new-talent-october-31.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (19. október 2018)
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: Búa til sniðmát fyrir tölvupóst og stýra því
           href: email-templates.md
-        - name: Skýrslugerð og greining
-          href: Reporting-Analytics-Attract.md
         - name: Öryggi og hlutverkastjórnun í Attract
           href: security-attract.md
         - name: Stjórnandastillingar í Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Stofna frammistöðumat
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Úrræðaleit Talent
+      items:
+        - name: Greiningarskýrslur eru ekki uppfærðar
+          href: analytic-reports-not-updated.md
+        - name: Ekki er hægt að stofna umhverfi í stjórnandamiðstöð PowerApps
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent-biðlari aftengist
+          href: client-disconnects.md
+        - name: Hvernig öryggisafrit gagnagrunns eru meðhöndluð
+          href: database-backups.md
+        - name: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Keyra launavinnslu
+          href: run-compensation-process.md
+        - name: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
+          href: save-play-task-guides-LCS.md
+        - name: Aðgangur að einkaaðsetrum í gegnum öryggishlutverk
+          href: security-roles-addresses.md
+        - name: Talent birtist ekki á meðal forrita Microsoft Dynamics 365 (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: Notandi getur opnað Core HR en ekki forritin Onboard eða Attract
+          href: user-access-core-hr.md
+        - name: Valkostir tilkynninga í Talent
+          href: talent-reporting-options.md

@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Endurskoða reikninga og lykilgögn í viðskiptaskuldakerfi
@@ -35,34 +35,31 @@ ms.lasthandoff: 10/16/2018
 
 
 ## <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
-1. Fara í Allar innkaupapantanir.
-2. Smellið á „Nýtt“.
-3. Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.
-4. Í svæðinu Lánardrottnalykill skal slá inn gildi.
-5. Smellið á „Í lagi“.
-6. Smellið á „Bæta við línu“.
-7. Í reitnum Vörunúmer skal slá inn gildi.
-8. Smellið á „Innkaup“ á aðgerðarúðunni.
-9. Smellið á „Staðfesta“.
+1. Opnið **Allar innkaupapantanir**.
+2. Smellt er á **Nýtt**.
+3. Í svæðinu **Lánardrottnalykill** skal slá inn gildi.
+4. Smellið á **Í lagi**.
+5. Smella á **Bæta við línu**.
+6. Í reitnum **Vörunúmer** skal slá inn gildi.
+7. Í aðgerðasvæðinu skal smella á **Innkaup**.
+8. Smellið á **Staðfesta**.
 
 ## <a name="post-a-product-receipt"></a>Bóka innhreyfingarskjal afurða
-1. Smellið á „Móttaka“ á aðgerðarúðunni.
-2. Smellið á „Innhreyfingarskjal“.
-3. Í listanum skal merkja valda línu.
-4. Í reitinn innhreyfingarskjal afurða skal slá inn gildi.
-5. Smellið á „Í lagi“.
+1. Í aðgerðasvæðinu skal smella á **Móttaka**.
+2. Smellið á **Innhreyfingarskjal afurða**.
+3. Í reitinn **Innhreyfingarskjal afurða** skal slá inn gildi.
+4. Smellið á **Í lagi**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Skráðu og jafnaðu reikningu lánardrottins við innhreyfingarskjal afurða
-1. Smellið á „Reikningur“ á aðgerðarúðunni.
-2. Smellið á „Reikningur“.
-3. Í reitnum Númer skal slá inn gildi.
-4. Smellt er á Sjálfgefið úr: Pantað magn til að opna felligluggann.
-5. Í reitnum sjálfgefið magn fyrir línur skal velja valkost.
-6. Smellið á „Í lagi“.
-7. Smella á Já.
-8. Smellt er á Jafna innhreyfingarskjöl afurða.
-9. Smellið á „Í lagi“.
-10. Smellið á „Yfirfara“ á aðgerðarúðunni.
-11. Smellið á „Samsvörunarupplýsingar“.
+1. Í aðgerðasvæðinu er smellt á **Reikningur > Reikningur**.
+2. Í reitinn **Númer** skal slá inn gildi.
+3. Smellið á **Sjálfgefið úr: Pantað magn** til að opna felligluggann.
+4. Í reitnum **Sjálfgefið magn fyrir línur** skal velja valkost.
+5. Smellið á **Í lagi**.
+6. Smellið á **Já**.
+7. Smellið á **Jafna innhreyfingarskjöl afurða**.
+8. Smellið á **Í lagi**.
+9. Í aðgerðasvæðinu skal smella á **Yfirfara**.
+10. Smellið á **Samsvörunarupplýsingar**.
 
 
