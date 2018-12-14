@@ -1,6 +1,6 @@
 ---
 title: "Áskriftarflokkar"
-description: 
+description: "Þetta efnisatriði sýnir hvað er skilgreint í áskriftarflokki."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,39 +19,39 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 19cb6ac171461a5014df73cfe5d2a9de129f2424
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 75fd373908fad29f7f604ff6642753ba731775c8
 ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="subscription-groups"></a><span data-ttu-id="95b23-102">Áskriftarflokkar</span><span class="sxs-lookup"><span data-stu-id="95b23-102">Subscription groups</span></span>    
+# <a name="subscription-groups"></a><span data-ttu-id="aac4d-103">Áskriftarflokkar</span><span class="sxs-lookup"><span data-stu-id="aac4d-103">Subscription groups</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="95b23-103">Áskriftir deila eftirfarandi upplýsingum sem eru skilgreindar fyrir áskriftarflokkinn:</span><span class="sxs-lookup"><span data-stu-id="95b23-103">Subscriptions share the following information, which is defined for the subscription group:</span></span>
+<span data-ttu-id="aac4d-104">Áskriftir deila eftirfarandi upplýsingum sem eru skilgreindar fyrir áskriftarflokkinn:</span><span class="sxs-lookup"><span data-stu-id="aac4d-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
 
-  - <span data-ttu-id="95b23-104">Númeraraðarkóða fyrir áskriftina, ef við á.</span><span class="sxs-lookup"><span data-stu-id="95b23-104">Number sequence code for the subscription, if any.</span></span>
+  - <span data-ttu-id="aac4d-105">Númeraraðarkóða fyrir áskriftina, ef við á.</span><span class="sxs-lookup"><span data-stu-id="aac4d-105">Number sequence code for the subscription, if any.</span></span>
 
-  - <span data-ttu-id="95b23-105">Reikningsfærslutímabilið þar sem áskriftarfærslur eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="95b23-105">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="95b23-106">Til dæmis, ef tímabilskóðinn **Reikningsfærsla** í skjámyndinni **Áskriftarflokkar** er stillt á **Ársfjórðungslega**, eru færslur fyrir allar áskriftir sem eru hengdar við áskriftarflokkinn stofnaðar ársfjórðungslega.</span><span class="sxs-lookup"><span data-stu-id="95b23-106">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
+  - <span data-ttu-id="aac4d-106">Reikningsfærslutímabilið þar sem áskriftarfærslur eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="aac4d-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="aac4d-107">Til dæmis, ef tímabilskóðinn **Reikningsfærsla** í skjámyndinni **Áskriftarflokkar** er stillt á **Ársfjórðungslega**, eru færslur fyrir allar áskriftir sem eru hengdar við áskriftarflokkinn stofnaðar ársfjórðungslega.</span><span class="sxs-lookup"><span data-stu-id="aac4d-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
 
-  - <span data-ttu-id="95b23-107">Hversu oft á að safna upp áskriftinni, ef yfir höfuð.</span><span class="sxs-lookup"><span data-stu-id="95b23-107">How frequently the subscription is to be accrued, if at all.</span></span>
+  - <span data-ttu-id="aac4d-108">Hversu oft á að safna upp áskriftinni, ef yfir höfuð.</span><span class="sxs-lookup"><span data-stu-id="aac4d-108">How frequently the subscription is to be accrued, if at all.</span></span>
 
-<span data-ttu-id="95b23-108">Þú getur einnig lokið eftirfarandi verkefnum fyrir allar áskriftir sem eru hengdar við áskriftarflokkinn:</span><span class="sxs-lookup"><span data-stu-id="95b23-108">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
+<span data-ttu-id="aac4d-109">Þú getur einnig lokið eftirfarandi verkefnum fyrir allar áskriftir sem eru hengdar við áskriftarflokkinn:</span><span class="sxs-lookup"><span data-stu-id="aac4d-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
 
-  - <span data-ttu-id="95b23-109">Stofnað áskriftarfærslur.</span><span class="sxs-lookup"><span data-stu-id="95b23-109">Create subscription transactions.</span></span>
+  - <span data-ttu-id="aac4d-110">Stofnað áskriftarfærslur.</span><span class="sxs-lookup"><span data-stu-id="aac4d-110">Create subscription transactions.</span></span>
 
-  - <span data-ttu-id="95b23-110">Uppfæra grunnverðið eða vísi fyrir áskrift.</span><span class="sxs-lookup"><span data-stu-id="95b23-110">Update the base price or the index for the subscriptions.</span></span>
+  - <span data-ttu-id="aac4d-111">Uppfæra grunnverðið eða vísi fyrir áskrift.</span><span class="sxs-lookup"><span data-stu-id="aac4d-111">Update the base price or the index for the subscriptions.</span></span>
 
-  - <span data-ttu-id="95b23-111">Bóka uppsafnaðar tekjur fyrir áskriftarfærslur.</span><span class="sxs-lookup"><span data-stu-id="95b23-111">Post accrued revenue for subscription transactions.</span></span>
+  - <span data-ttu-id="aac4d-112">Bóka uppsafnaðar tekjur fyrir áskriftarfærslur.</span><span class="sxs-lookup"><span data-stu-id="aac4d-112">Post accrued revenue for subscription transactions.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="95b23-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="95b23-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aac4d-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="aac4d-113">See also</span></span>
 
-<span data-ttu-id="95b23-113">[Áskriftarflokkar (skjámynd)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="95b23-113">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="aac4d-114">[Áskriftarflokkar (skjámynd)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="aac4d-114">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="95b23-114">Setja upp áskriftarflokka</span><span class="sxs-lookup"><span data-stu-id="95b23-114">Set up subscription groups</span></span>](set-up-subscription-groups.md)
+[<span data-ttu-id="aac4d-115">Setja upp áskriftarflokka</span><span class="sxs-lookup"><span data-stu-id="aac4d-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
 
   
 
