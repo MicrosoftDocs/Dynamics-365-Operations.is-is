@@ -3,7 +3,7 @@ title: "Aðaláætlanagerð – heimasíða"
 description: "Aðaláætlanagerð gerir fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: is-is
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Eftirfarandi námskort sýnir helstu hugtök og verkefni sem finna má í grunns
 
 ## <a name="quick-links"></a>Flýtitenglar
 
-|      |   |
-|------|---|
-|        [Aðaláætlanir](master-plans.md)       |     [Mynda áætlun með skorðum](./tasks/constrained-plan.md)  |
-| [Búa til efnisáætlun fyrir aukaafurðir](./tasks/create-material-plan-co-products.md)   |  [Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)  |
-| [Búa til áætlun innan samstæðu](./tasks/create-intercompany-plan.md) | [Yfirlit eftirspurnarspár](introduction-demand-forecasting.md)  | 
-|[Minnkunarlyklar](reduction-keys.md)| [Grundvallaratriði aðaláætlanagerðar](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (krefst CustomerSource-reiknings)     |
-|  [Master áætlanagerð fyrir vinnsluframleiðslu](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (krefst CustomerSource-reiknings) | [Aðaláætlanagerð innan samsteypu](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (krefst CustomerSource-reiknings).|
+- [Aðaláætlanir](master-plans.md)  
+- [Mynda áætlun með skorðum](./tasks/constrained-plan.md)
+- [Búa til efnisáætlun fyrir aukaafurðir](./tasks/create-material-plan-co-products.md)
+- [Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)
+- [Búa til áætlun innan samstæðu](./tasks/create-intercompany-plan.md)
+- [Yfirlit eftirspurnarspár](introduction-demand-forecasting.md)
+- [Minnkunarlyklar](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
