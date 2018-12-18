@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: abd2782ebe98fd25fc491b4b3cbcd4a6dd5c4cbd
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 48fa9613b37fceeda1ea73c5fd5d4f7a7edc74cf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,42 +34,46 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="bacae-105">Verkflæði samanstendur af einingum.</span><span class="sxs-lookup"><span data-stu-id="bacae-105">A workflow consists of elements.</span></span> <span data-ttu-id="bacae-106">Eftirfarandi hlutar útskýra hverja einingu gerð einingar.</span><span class="sxs-lookup"><span data-stu-id="bacae-106">The sections that follow describe each type of element.</span></span>
 
 ## <a name="tasks"></a><span data-ttu-id="bacae-107">Verk</span><span class="sxs-lookup"><span data-stu-id="bacae-107">Tasks</span></span>
+
 <span data-ttu-id="bacae-108">*Verkefni* er vinnueining sem þarf að vinna.</span><span class="sxs-lookup"><span data-stu-id="bacae-108">A *task* is a unit of work that must be performed.</span></span> <span data-ttu-id="bacae-109">Tvær gerðir af verkum má bæta við verkflæði: handvirk verk og sjálfvirk verk.</span><span class="sxs-lookup"><span data-stu-id="bacae-109">Two types of tasks can be added to a workflow: manual tasks and automated tasks.</span></span>
 
 ### <a name="manual-task"></a><span data-ttu-id="bacae-110">Handvirk verk</span><span class="sxs-lookup"><span data-stu-id="bacae-110">Manual task</span></span>
 
 <span data-ttu-id="bacae-111">*Handvirkt Verkefni* er vinnueining sem notandinn þarf að vinna.</span><span class="sxs-lookup"><span data-stu-id="bacae-111">A *manual task* is a unit of work that must be performed by a user.</span></span> <span data-ttu-id="bacae-112">Til dæmis getur verkflæði kostnaðarskýrslu haft handvirkt verk sem krefjast þess af skráðum notendum að ljúka eftirfarandi aðgerðum:</span><span class="sxs-lookup"><span data-stu-id="bacae-112">For example, an expense report workflow can have manual tasks that require the assigned users to complete the following actions:</span></span>
 
--   <span data-ttu-id="bacae-113">Endurskoða innhreyfingarnar sem eru sendar með kostnaðarskýrslu.</span><span class="sxs-lookup"><span data-stu-id="bacae-113">Review the receipts that are submitted together with an expense report.</span></span>
--   <span data-ttu-id="bacae-114">Hringjá í yfirmann starfsmanns</span><span class="sxs-lookup"><span data-stu-id="bacae-114">Call an employee's manager.</span></span>
+- <span data-ttu-id="bacae-113">Endurskoða innhreyfingarnar sem eru sendar með kostnaðarskýrslu.</span><span class="sxs-lookup"><span data-stu-id="bacae-113">Review the receipts that are submitted together with an expense report.</span></span>
+- <span data-ttu-id="bacae-114">Hringjá í yfirmann starfsmanns</span><span class="sxs-lookup"><span data-stu-id="bacae-114">Call an employee's manager.</span></span>
 
 ### <a name="automated-task"></a><span data-ttu-id="bacae-115">Sjálfvirkt verk</span><span class="sxs-lookup"><span data-stu-id="bacae-115">Automated task</span></span>
 
 <span data-ttu-id="bacae-116">*Sjálfvirkt Verkefni* er vinnueining sem kerfið þarf að vinna.</span><span class="sxs-lookup"><span data-stu-id="bacae-116">An *automated task* is a unit of work that must be performed by the system.</span></span> <span data-ttu-id="bacae-117">Engin mannleg samskipti eru nauðsynleg.</span><span class="sxs-lookup"><span data-stu-id="bacae-117">No human interaction is required.</span></span> <span data-ttu-id="bacae-118">Til dæmis getur verkflæði sölupöntunar haft sjálfvirkt verk sem krefjast þess af kerfinu að ljúka eftirfarandi aðgerðum:</span><span class="sxs-lookup"><span data-stu-id="bacae-118">For example, a sales order workflow can have automated tasks that require the system to complete the following actions:</span></span>
 
--   <span data-ttu-id="bacae-119">Framkvæma athugun á lánamarki.</span><span class="sxs-lookup"><span data-stu-id="bacae-119">Perform a credit check.</span></span>
--   <span data-ttu-id="bacae-120">Stofna færsla viðskiptavinar fyrir viðskiptavininn, ef færsla er ekki þegar til.</span><span class="sxs-lookup"><span data-stu-id="bacae-120">Create a customer record for the customer, if a record doesn't already exist.</span></span>
+- <span data-ttu-id="bacae-119">Framkvæma athugun á lánamarki.</span><span class="sxs-lookup"><span data-stu-id="bacae-119">Perform a credit check.</span></span>
+- <span data-ttu-id="bacae-120">Stofna færsla viðskiptavinar fyrir viðskiptavininn, ef færsla er ekki þegar til.</span><span class="sxs-lookup"><span data-stu-id="bacae-120">Create a customer record for the customer, if a record doesn't already exist.</span></span>
 
 ## <a name="approval-processes"></a><span data-ttu-id="bacae-121">samþykktarferli</span><span class="sxs-lookup"><span data-stu-id="bacae-121">Approval processes</span></span>
+
 <span data-ttu-id="bacae-122">*Samþykktarferli* er ferli felur í sér nokkur skref.</span><span class="sxs-lookup"><span data-stu-id="bacae-122">An *approval process* is a process that consists of separate steps.</span></span> <span data-ttu-id="bacae-123">Notandinn á hverju samþykktarskrefi getur framkvæmt eftirfarandi aðgerðir:</span><span class="sxs-lookup"><span data-stu-id="bacae-123">At each approval step, the user can perform the following actions:</span></span>
 
--   <span data-ttu-id="bacae-124">Samþykkja skjalið.</span><span class="sxs-lookup"><span data-stu-id="bacae-124">Approve the document.</span></span>
--   <span data-ttu-id="bacae-125">Hafna skjalinu.</span><span class="sxs-lookup"><span data-stu-id="bacae-125">Reject the document.</span></span>
--   <span data-ttu-id="bacae-126">Biðja um breytingu á skjalinu.</span><span class="sxs-lookup"><span data-stu-id="bacae-126">Request a change to the document.</span></span>
--   <span data-ttu-id="bacae-127">Úthluta skjalinu til annars notanda til samþykktar.</span><span class="sxs-lookup"><span data-stu-id="bacae-127">Assign the document to another user for approval.</span></span>
+- <span data-ttu-id="bacae-124">Samþykkja skjalið.</span><span class="sxs-lookup"><span data-stu-id="bacae-124">Approve the document.</span></span>
+- <span data-ttu-id="bacae-125">Hafna skjalinu.</span><span class="sxs-lookup"><span data-stu-id="bacae-125">Reject the document.</span></span>
+- <span data-ttu-id="bacae-126">Biðja um breytingu á skjalinu.</span><span class="sxs-lookup"><span data-stu-id="bacae-126">Request a change to the document.</span></span>
+- <span data-ttu-id="bacae-127">Úthluta skjalinu til annars notanda til samþykktar.</span><span class="sxs-lookup"><span data-stu-id="bacae-127">Assign the document to another user for approval.</span></span>
 
 ## <a name="line-item-workflow-elements"></a><span data-ttu-id="bacae-128">Verkflæðiseining línuatriðis</span><span class="sxs-lookup"><span data-stu-id="bacae-128">Line-item workflow elements</span></span>
+
 <span data-ttu-id="bacae-129">Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali.</span><span class="sxs-lookup"><span data-stu-id="bacae-129">A workflow can be created to process either documents or the line items on a document.</span></span> <span data-ttu-id="bacae-130">Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort.</span><span class="sxs-lookup"><span data-stu-id="bacae-130">For example, you've created an approval workflow for timesheets.</span></span> <span data-ttu-id="bacae-131">(Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði.</span><span class="sxs-lookup"><span data-stu-id="bacae-131">(We will refer to this workflow as the *document workflow*.) You can add a *line-item workflow* element to that document workflow.</span></span> <span data-ttu-id="bacae-132">Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu.</span><span class="sxs-lookup"><span data-stu-id="bacae-132">When the line-item element is run, each line item on the document is submitted for processing.</span></span> <span data-ttu-id="bacae-133">Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru.</span><span class="sxs-lookup"><span data-stu-id="bacae-133">You might want all the line items to be processed by the same line-item workflow, or you might want each line item to be processed by a different line-item workflow.</span></span> <span data-ttu-id="bacae-134">Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala.</span><span class="sxs-lookup"><span data-stu-id="bacae-134">Imagine that an employee has submitted a timesheet that resembles the following figure.</span></span>
 
-![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif) 
+![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif)
 
 <span data-ttu-id="bacae-136">Í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:</span><span class="sxs-lookup"><span data-stu-id="bacae-136">In this scenario, you might want to create the following line-item workflows:</span></span>
 
--   <span data-ttu-id="bacae-137">**verkflæði línuatriðis 1** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 1111.</span><span class="sxs-lookup"><span data-stu-id="bacae-137">**Line-item workflow 1** – This workflow is used to process line items where the project ID is 1111.</span></span>
--   <span data-ttu-id="bacae-138">**Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.</span><span class="sxs-lookup"><span data-stu-id="bacae-138">**Line-item workflow 2** – This workflow is used to process line items where the project ID is 2222.</span></span>
--   <span data-ttu-id="bacae-139">**Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.</span><span class="sxs-lookup"><span data-stu-id="bacae-139">**Line-item workflow 3** – This workflow is used to process line items where the project ID is 3333.</span></span>
+- <span data-ttu-id="bacae-137">**verkflæði línuatriðis 1** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 1111.</span><span class="sxs-lookup"><span data-stu-id="bacae-137">**Line-item workflow 1** – This workflow is used to process line items where the project ID is 1111.</span></span>
+- <span data-ttu-id="bacae-138">**Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.</span><span class="sxs-lookup"><span data-stu-id="bacae-138">**Line-item workflow 2** – This workflow is used to process line items where the project ID is 2222.</span></span>
+- <span data-ttu-id="bacae-139">**Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.</span><span class="sxs-lookup"><span data-stu-id="bacae-139">**Line-item workflow 3** – This workflow is used to process line items where the project ID is 3333.</span></span>
 
 ## <a name="flow-control-elements"></a><span data-ttu-id="bacae-140">Einingar flæðistýringar</span><span class="sxs-lookup"><span data-stu-id="bacae-140">Flow-control elements</span></span>
+
 <span data-ttu-id="bacae-141">Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar greinar eða greinar sem keyra á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="bacae-141">The following elements let you design workflows that have alternate branches or branches that run at the same time.</span></span>
 
 ### <a name="manual-decision"></a><span data-ttu-id="bacae-142">Handvirk ákvörðun</span><span class="sxs-lookup"><span data-stu-id="bacae-142">Manual decision</span></span>
@@ -87,7 +91,4 @@ ms.lasthandoff: 05/08/2018
 ### <a name="subworkflow"></a><span data-ttu-id="bacae-151">Undirverkflæði</span><span class="sxs-lookup"><span data-stu-id="bacae-151">Subworkflow</span></span>
 
 <span data-ttu-id="bacae-152">*Undirverkflæði* er verkflæði sem keirir í samhengi við annað yfirverkflæði.</span><span class="sxs-lookup"><span data-stu-id="bacae-152">A *subworkflow* is a workflow that runs in the context of another workflow.</span></span>
-
-
-
 
