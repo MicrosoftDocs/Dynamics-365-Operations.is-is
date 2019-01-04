@@ -59,4 +59,3 @@ Hægt er að nota nýju betrumbættu bygginguna fyrir eiginleika afurðar til a�
 
 ![Uppfæra svarglugga afurða](media/NewUpdateProductsEnhancedView.PNG)
 
-

@@ -31,33 +31,30 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í arðsemi viðskiptavina og afurða úr gögnum Microsoft Dynamics 365 for Retail. 
+Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í arðsemi viðskiptavina og afurða úr gögnum Microsoft Dynamics 365 for Retail.
 
 Hluti af Dynamics 365 for Retail er að notendur geta skoðað arðsemisgreiningu stærstu viðskiptavina (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
--   Söluupphæð
--   Magn
--   Brúttóhagnaðarhlutfall
--   Framlegðarprósenta
+- Söluupphæð
+- Magn
+- Brúttóhagnaðarhlutfall
+- Framlegðarprósenta
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Stærstu viðskiptavinir** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um stærstu viðskiptavinina**
 
 Einnig geta notendur skoðað arðsemisgreiningu mest seldu varanna (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
--   Söluupphæð
--   Magn
--   Brúttóhagnaðarhlutfall
--   Framlegðarprósenta
+- Söluupphæð
+- Magn
+- Brúttóhagnaðarhlutfall
+- Framlegðarprósenta
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurnar** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
--   **Flokka- og afurðastjórnun** vinnusvæði &gt; **Smásala** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur** &gt; **Skýrsla yfir mest seldu afurðirnar**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
-
-
-
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
+- **Flokka- og afurðastjórnun** vinnusvæði &gt; **Smásala** &gt; **Afurðir og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur** &gt; **Skýrsla yfir mest seldu afurðirnar**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
 

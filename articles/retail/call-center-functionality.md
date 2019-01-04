@@ -42,25 +42,30 @@ Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einn
 Þessi síða veitir tengla á viðeigandi fylgiskjöl sem tengjast uppsetningu, grunnstillingu og notkunarvirkni eiginleika símaversins í Dynamics 365 fyrir Retail.
 
 ## <a name="configure-the-call-center"></a>Grunnstilla símaverið
+
 [Uppsetning valkosta pantanavinnslu](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Grunnstilla pöntunarvinnslu
+
 [Uppsetning svikaviðvarana](set-up-fraud-alerts.md)
 
 [Handvirk biðstaða pantana](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Grunnstilla greiðsluvinnslu
+
 [Greiðsluhættir í símaveri](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Grunnstilla afhendingarmáta
+
 [Grunnstilla afhendingarmáta og gjöld í símaveri](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Grunnstilla beina markaðssetningu
+
 [Vörulistar símavers](call-center-catalogs.md)
 
 [Uppsetning RFM-greiningar](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Grunnstilla samfelldniáætlun
-[Uppsetning samfelldniáætlunar fyrir símaver](set-up-continuity-program.md)
 
+[Uppsetning samfelldniáætlunar fyrir símaver](set-up-continuity-program.md)
 

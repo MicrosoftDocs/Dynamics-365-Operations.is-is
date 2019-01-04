@@ -34,16 +34,12 @@ Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðski
 
 Í Microsoft Dynamics 365 for Retail geturðu annað vort valið að fara út með allar vörur eða fara út með valdar vörur fyrir pöntun viðskiptavinar. Vörulínur sem eru merktar sem fara með út eru reikningsfærðar sjálfkrafa eftir að pöntun er stofnuð, það sama er gert fyrir pöntun sem á að sækja eftir að pöntun er stofnuð. Upphæð til greiðslu fyrir fjölpöntun er ákvörðuð með því að bæta prósentu innborgunar á sækja og senda vörulínum við heildarupphæð lína sem á að fara með út. Fyrir fjölpantanir skiptir kerfið á milli stillingar fyrir pöntun viðskiptavinar og stillingar fyrir staðgreitt fyrir afhendingu sem hér segir:
 
--   Ef allar vörur í körfu eru stilltar á **Framkvæma afhending**, verður pöntun afgreidd sem Staðgreitt við afhendingu.
--   Ef allar vörur í karfa eru stilltar á annað hvort **Taka til** eða **senda afhendingu**,, verður pöntun afgreidd sem færsla á pöntun viðskiptavinar.
+- Ef allar vörur í körfu eru stilltar á **Framkvæma afhending**, verður pöntun afgreidd sem Staðgreitt við afhendingu.
+- Ef allar vörur í karfa eru stilltar á annað hvort **Taka til** eða **senda afhendingu**,, verður pöntun afgreidd sem færsla á pöntun viðskiptavinar.
 
 Ef körfulína er valin og **Taka til er valið**, **Senda er valið**, eða **Framkvæma er valið** er valið verðu aðeins tilgreind körfulína stillt á þá afhendingaraðferð. Í því tilviki heldur niðurflæði aðgerðarinnar áfram eins og venjulega. Ef hins vegar **Taka til valinn**, **Afgreiða Valið: ,**, eða **Framkvæma Valið: ,** er Valið án þess að körfulína sé valin opnast ný síða með lista yfir allar körfulínur. Á þeirri skjámynd er hægt að velja margar línur samtímis til að stilla afhendingaraðferð. Þegar þú notar þá aðferð fyrir línuval verða allar fyrri afhendingaraðferðir sem hefur verið úthlutað á línuna hnekkt.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit pantana viðskiptavina](customer-orders-overview.md)
-
-
-
 

@@ -36,6 +36,7 @@ ms.lasthandoff: 08/09/2018
 Retail hefur eiginleika sem leyfir notendum að takmarka afhendingarmátana sem rás getur notað, afhendingarmátann sem hægt er að nota fyrir vöru og afhendingarmátana sem gilda fyrir sendingar á tiltekna áfangastaði. Gjöld geta einnig verið skilgreind þannig að viðbótargjöldum er bætt við pöntun viðskiptavinar, byggt á afhendingarmátanum sem eru valinn fyrir sölupöntunina og heildarverðmæti pöntunar.
 
 ## <a name="define-delivery-modes"></a>Skilgreina afhendingarmáta
+
 Áður en þú tilgreinir hvaða afhendingarmáta er hægt að nota fyrir símaverspantanir og skilgreinir reglur og gjöld sem tengjast þeim, verður þú að skilgreina afhendingarmátana. Fara í **Sala og markaðssetning \> Uppsetning \> Dreifing \> Afhendingarmátar**. Velja **Nýr** til að búa til nýjan afhendingarmáta. Einnig er hægt að velja núverandi afhendingarham í listanum og síðan velja **Breyta** til að gera breytingar.
 
 Í **Afhendingarmáti** reitinn getur þú slegið inn hvaða samsetningu af bók- og tölustöfum sem er, byggt á kröfum fyrirtækis þíns. Þú getur síðan notað **Lýsing** reitinn til að veita frekari samhengi. **Gjaldaflokkur** og **Flýta** reitirnir eru valfrjáls og verður útskýrðir nánar síðar í þessu efnisatriði.
@@ -47,11 +48,13 @@ Retail hefur eiginleika sem leyfir notendum að takmarka afhendingarmátana sem 
 Á **Aðsetur** flýtiflipanum getur þú tilgreint hvaða lönd eða svæði, eða ríki, hægt er að nota afhendingarmátann fyrir og hver ekki. Til dæmis eru pantanir sem eru sendar til Hawaii eða Alaska ekki gjaldgengar til afhendingar á jörðu niðri. Því ber að útiloka þessi ríki frá öllum afhendingarmáta sem er í tengslum við flutningsþjónustu á jörðu, en innifela þau í alla afhendingarmáta sem er í tengslum við flutningsþjónustu í lofti.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Sannprófa afhendingarmáta fyrir símaverspöntun
+
 Eftir að afhendingarmátar eru skilgreind verður þú að keyra **Vinna afhendingarmáta** runuvinnslu. Þetta vinnsla gerir afhendingarmátana tiltæka þannig að hægt sé að nota þær í sölupöntunarferli fyrir smásölurásir. Til að keyra **Vinna afhendingarmáta** vinnsluna, farðu í **Retail \> Upplýsingatækni smásölu \> Vinna afhendingarmáta**. Þessa vinnslu ætti að keyra hvenær sem nýjar afhendingarmátar eru bættir við smásölurás eða breytingar eru gerðar á núverandi samböndum milli afhendingarmátar/rás.
 
 Eftir að þú hefur keyrt **Vinna afhendingarmáta** runuvinnsluna, geturðu farið í **Retail \> Rásir \> Símaver \> Öll símaver**. Á **Öll símaver** síðunni, í aðgerðarrúðunni, á **Uppsetning** flipanum, veldu **Afhendingarmátar**. **Afhengingarmátar** síðan sýnir alla gilda afhendingarmáta fyrir valda símaversrás. Til að breyta núverandi afhendingarmátum eða bæta við nýjum afhendingarmátum, veldu **Stjórna afhendingarmátum**. Athugaðu að **Vinna afhendingarmáta** vinnsluna verður að keyra í hvert skipti sem breytingar eru gerðar.
 
 ## <a name="define-charges-for-delivery-services"></a>Skilgreina gjöld fyrir afhendingarþjónustu
+
 Þegar sölupantanir eru búnar til fyrir viðskiptavini gæti fyrirtæki viljað bæta við gjöldum sem eru reiknuð sjálfkrafa miðað við afhendingarmátann sem er valið fyrir pöntunina. Þessar gjöld geta verið grunnstillt þannig að þau séu þau sömu fyrir alla viðskiptavini og afhendingarmáta. Að öðrum kosti geta gjöldin verið breytileg eftir viðskiptavinur og/eða afhendingarmáta sem eru valdir fyrir sölupöntunina.
 
 Til að skilgreina gjöldin skaltu fara í **Retail \> Uppsetning rásar \> Gjöld \> Sjálfvirk gjöld**. Veldu **Nýtt** til að bæta við nýjum gjöldum. Einnig er hægt að velja núverandi færslu og síðan velja **Breyta**.
@@ -73,6 +76,7 @@ Smásölufyrirtæki grunnstilla oft stigskipt gjöld. Í því tilviki er sú up
 ![Blönduð stigskipt gjöld dæmi](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Virkja afhendingarmáta meðan á pöntunarfærslu stendur í símaveri
+
 Þegar nýr sölupöntun er búin til verður að tilgreina gildi í **Afhendingarmáti** reitinn á **Afhending** flýtiflipanum á sölupöntunarhausnum. Þetta reitur gæti verið fyllt út sjálfkrafa, byggt á sjálfgefnum gildum frá viðskiptavinarskránni.
 
 Afhendingarmátinn sem er skilgreindur á pöntunarhausnum er sjálfkrafa afritaður í sölupöntunarlínurnar um leið og þær eru búnar til. Hins vegar er hægt að breyta afhendingarmáta uppsetningu fyrir tiltekna línuvöru á **Afhending** flipanum í **Línuupplýsingar** hluta færslusíðu sölupöntunar.
@@ -80,11 +84,13 @@ Afhendingarmátinn sem er skilgreindur á pöntunarhausnum er sjálfkrafa afrita
 Ef valinn afhendingarmáti er ekki gildur fyrir vöruna eða afhendingaraðsetrið sem skilgreint er fyrir pöntunina eða pöntunarlínuna færðu villuboð. Þú verður þá að velja afhendingarmáta sem hefur verið skilgreindur til að styðja við grunnstillingu vöru eða aðseturs.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Útreikningur á afhendingargjöldum á meðan pöntunarfærslu stendur
+
 Ef kveikt er á stillingu **Virkja lok pöntunar** fyrir símaversrásina þína er sendingargjöld reiknaður sjálfkrafa fyrir sölupantanir þegar notendur velja **Ljúka**. Eftirfarandi skilaboð birtast efst á **Samantekt sölupöntunar** síðu: „Stigskipt gjöld reiknuð.“ Gjöldin sem eru reiknuð eru bætt við gildin í **Heildarsala** reitnum. Á **Upphæð** flýtiflipanum, sýnir **Gjöld** reiturinn heildarfjárhæð allra gjalda sem hafa verið reiknaðar fyrir pöntunina og línurnar. Til að sjá nánari sundurliðun á gjöldum skaltu velja **Pöntun** á **Samantekt sölupöntunar** síðunni, og veldu síðan **Gjöld** valkost til að skoða, bæta við eða breyta gjöldum. Athugaðu að útreikningur á afhendingargjöldum á pöntunarhausnum byggist á afhendingarmátanum sem tengist hausnum. Afhendingargjöld tengd línustigi eru reiknaðar út frá afhendingarmátanum sem er grunnstillt fyrir sölulínuna. Ef margar tegundir afhendingarmáta eru notaðar á mismunandi línum gætu verið notuð margskonar gjöld og þau lögð saman. Heildarupphæðin er síðan sýnd í **Gjöld** reitnum á **Samantekt sölupöntunar** síðunni.
 
 Ef slökkt er á stillingunni **Virkja lok pöntunar**, verða notendur að kveikja handvirkt á útreikningi á gjöldum. Á **Sölupöntun** síðunni, á aðgerðarrúðunni, á **Selja** flipanum, í **Reikna** hópnum, veldu **Stigskipt gjöld**. Skilaboðin „Stigskipt gjöld reiknuð“ birtist. Þú getur þá valið **Gjöld** valkostinn á **Selja** flipanum til að skoða, breyta, eða eyða reiknaða gjöldum.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Notaðu flýta afhendingarmáta á símaverspantanir
+
 Ef þú vilt geturðu tengt flýtikóðann við hvaða afhendingarmáta sem þú grunnstillir. Þessi kóði er notuð sem forgangsröðun og skýrslugerðartæki. Það veldur því ekki að viðbótargjöld verði sett á pöntunina sem stendur. Til að setja upp flýtikóða skaltu fara í **Sala og markaðssetning \> Uppsetning \> Dreifing \> Flýtikóðar**.
 
 Til dæmis, fyrir pantanir sem verða fluttar með flugi næsta dag, verður að tiltekt að eiga sér stað í vörugeymslunni fyrir klukkan 13:00 á hverjum degi. Í þessu tilfelli er hægt að búa til flýtikóða og þessi kóða er hægt að tengja við allar gerðir afhendingarmáta fyrir næsta dag, sem eru grunnstilltar í kerfinu. Þegar vörugeymsla býr til tiltektarbylgju má nota viðeigandi flýtikóða í **Flýta** reitnum sem afmörkun, þannig að tiltekt er aðeins keyrð fyrir pantanir sem hafa afhendingarmáta sem tengist þeim kóða.

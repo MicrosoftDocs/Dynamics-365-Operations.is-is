@@ -40,6 +40,7 @@ Eftirfarandi mynd sýnir tengsl milli hinna ýmsu eininga sem mynda hina stillan
 ![POS skjáútlitseiningar](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Sjónræn regla
+
 Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina sjónrænu þættina sem eru sértækir fyrir afgreiðslukassa og er deilt á meðal notenda. Sérhver notandi sem skráir sig inn í afgreiðslukassa sér sama þema, liti og myndir.
 
 ![POS upphafsskjár með ljósu þema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 - **Bakgrunnur forrits** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið. Þegar kemur að innskráningarbakgrunn skal skráarstærðin vera eins lítil og mögulegt er.
 
 ## <a name="screen-layouts"></a>Útlit afgreiðsluskjás
+
 Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á POS upphafsskjánum og **Færsla** skjánum.
 
 ![POS skjáútlit yfirlit](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Við ræsingu velur POS forritið sjálfkrafa nálægasta útlitsstærð sem er 
 ![POS útlitsstærðir](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Hnappahnit
+
 Fyrir hverja útlitsstærð í skjáútliti er hægt að grunnstilla og úthluta hnappahnitum fyrir upphafsskjár POS og **Færsla** skjár. Hnappahnit fyrir upphafsskjá er sjálfkrafa stillt upp frá vinstri til hægri, frá lægsta númerinu (Upphafsskjár 1) til hæsta númerið.
 
 Í óþjöppuðu POS útliti er staðsetning hnappahnita tilgreind í skjáútlit hönnuður.
@@ -104,6 +107,7 @@ Fyrir hverja útlitsstærð í skjáútliti er hægt að grunnstilla og úthluta
 ![Þjappað útlit hnappahnit](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Myndir
+
 Fyrir hverja útlitsstærð í skjáútliti er hægt að tilgreina myndir til að vera með í POS notandaviðmótinu. Fyrir óþjappað POS útlit er hægt að skilgreina eina mynd fyrir upphafsskjár. Þessi mynd birtist sem fyrsta viðmótseining til vinstri. Á **Færsla** skjár, myndir er hægt að nota sem flipamyndir eða sem lógó. Þjappað POS útlit notar ekki þessar myndir.
 
 ### <a name="screen-layout-designer"></a>Útlitshönnuður afgreiðsluskjás
@@ -141,11 +145,13 @@ Skjáútlit hönnuður leyfir þér að grunnstilla ýmsa þætti POS **Færsla*
     - **Sérstillt stýring** - Sérstillt stýring virkar sem staðarhaldari í skjáútlitinu og gerir þér kleift að taka frá pláss fyrir sérstillt efni. Sérstillt stýring er aðeins tiltæk fyrir óþjappað útlit.
 
 ### <a name="compact-layout-designer"></a>Þjappað útlit hönnuður
+
 Eins og hönnuður fyrir óþjappað útlit, gerir hönnuður fyrir þjappað útlit þér kleift að stilla POS skjáútlitið fyrir farsíma og litlar spjaldtölvur. Í þessu tilfelli er útlitið sjálft samt sem áður ákveðið. Þú getur grunnstillt stýringuna í útliti með því að hægrismella og nota flýtivalmyndina. Þú getur samt sem áður ekki notað draga-og-sleppa aðgerðir fyrir viðbótar efni.
 
 ![Þjappað útlit hönnuður](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Hönnuður hnappahnits
+
 Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er að nota á POS upphafsskjár og **Færsla** skjár fyrir bæði óþjappað og þjappað útlit. Sama hnappahnitið getur verið notaður yfir útlit og útlitsgerðir. Eins og skjáútlit hönnuður, hnappahnit hönnuður notar ClickOnce uppsetningartækni til að hlaða niður, setja upp og ræsa nýjustu útgáfuna af forritinu í hvert sinn sem notendur opna það. Vertu viss um að athuga kröfur vafrans fyrir ClickOnce. Sumir vafrar, svo sem Google Chrome, þurfa viðbætur.
 
 ![Hönnuður hnappahnits](../retail/media/Button-Grid-Designer.png)
