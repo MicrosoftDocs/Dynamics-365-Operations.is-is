@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: is-is
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![POS skjáútlitseiningar](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="3b7cf-108">Sjónræn regla</span><span class="sxs-lookup"><span data-stu-id="3b7cf-108">Visual profile</span></span>
+
 <span data-ttu-id="3b7cf-109">Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina sjónrænu þættina sem eru sértækir fyrir afgreiðslukassa og er deilt á meðal notenda.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="3b7cf-110">Sérhver notandi sem skráir sig inn í afgreiðslukassa sér sama þema, liti og myndir.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![POS upphafsskjár með ljósu þema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="3b7cf-123">**Bakgrunnur forrits** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="3b7cf-124">Þegar kemur að innskráningarbakgrunn skal skráarstærðin vera eins lítil og mögulegt er.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="3b7cf-125">Útlit afgreiðsluskjás</span><span class="sxs-lookup"><span data-stu-id="3b7cf-125">Screen layouts</span></span>
+
 <span data-ttu-id="3b7cf-126">Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á POS upphafsskjánum og **Færsla** skjánum.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![POS skjáútlit yfirlit](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![POS útlitsstærðir](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="3b7cf-163">Hnappahnit</span><span class="sxs-lookup"><span data-stu-id="3b7cf-163">Button grids</span></span>
+
 <span data-ttu-id="3b7cf-164">Fyrir hverja útlitsstærð í skjáútliti er hægt að grunnstilla og úthluta hnappahnitum fyrir upphafsskjár POS og **Færsla** skjár.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="3b7cf-165">Hnappahnit fyrir upphafsskjá er sjálfkrafa stillt upp frá vinstri til hægri, frá lægsta númerinu (Upphafsskjár 1) til hæsta númerið.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="3b7cf-166">Í óþjöppuðu POS útliti er staðsetning hnappahnita tilgreind í skjáútlit hönnuður.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Þjappað útlit hnappahnit](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="3b7cf-170">Myndir</span><span class="sxs-lookup"><span data-stu-id="3b7cf-170">Images</span></span>
+
 <span data-ttu-id="3b7cf-171">Fyrir hverja útlitsstærð í skjáútliti er hægt að tilgreina myndir til að vera með í POS notandaviðmótinu.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="3b7cf-172">Fyrir óþjappað POS útlit er hægt að skilgreina eina mynd fyrir upphafsskjár.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="3b7cf-173">Þessi mynd birtist sem fyrsta viðmótseining til vinstri.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="3b7cf-174">Á **Færsla** skjár, myndir er hægt að nota sem flipamyndir eða sem lógó.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="3b7cf-175">Þjappað POS útlit notar ekki þessar myndir.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="3b7cf-176">Útlitshönnuður afgreiðsluskjás</span><span class="sxs-lookup"><span data-stu-id="3b7cf-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="3b7cf-222">**Sérstillt stýring** - Sérstillt stýring virkar sem staðarhaldari í skjáútlitinu og gerir þér kleift að taka frá pláss fyrir sérstillt efni.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="3b7cf-223">Sérstillt stýring er aðeins tiltæk fyrir óþjappað útlit.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="3b7cf-224">Þjappað útlit hönnuður</span><span class="sxs-lookup"><span data-stu-id="3b7cf-224">Compact layout designer</span></span>
+
 <span data-ttu-id="3b7cf-225">Eins og hönnuður fyrir óþjappað útlit, gerir hönnuður fyrir þjappað útlit þér kleift að stilla POS skjáútlitið fyrir farsíma og litlar spjaldtölvur.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="3b7cf-226">Í þessu tilfelli er útlitið sjálft samt sem áður ákveðið.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="3b7cf-227">Þú getur grunnstillt stýringuna í útliti með því að hægrismella og nota flýtivalmyndina.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="3b7cf-228">Þú getur samt sem áður ekki notað draga-og-sleppa aðgerðir fyrir viðbótar efni.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Þjappað útlit hönnuður](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="3b7cf-230">Hönnuður hnappahnits</span><span class="sxs-lookup"><span data-stu-id="3b7cf-230">Button grid designer</span></span>
+
 <span data-ttu-id="3b7cf-231">Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er að nota á POS upphafsskjár og **Færsla** skjár fyrir bæði óþjappað og þjappað útlit.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="3b7cf-232">Sama hnappahnitið getur verið notaður yfir útlit og útlitsgerðir.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="3b7cf-233">Eins og skjáútlit hönnuður, hnappahnit hönnuður notar ClickOnce uppsetningartækni til að hlaða niður, setja upp og ræsa nýjustu útgáfuna af forritinu í hvert sinn sem notendur opna það.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="3b7cf-234">Vertu viss um að athuga kröfur vafrans fyrir ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="3b7cf-235">Sumir vafrar, svo sem Google Chrome, þurfa viðbætur.</span><span class="sxs-lookup"><span data-stu-id="3b7cf-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Hönnuður hnappahnits](../retail/media/Button-Grid-Designer.png)
