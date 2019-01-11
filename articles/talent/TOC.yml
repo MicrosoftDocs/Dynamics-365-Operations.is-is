@@ -7,6 +7,10 @@
         - name: Nýjungar eða breytingar
           href: whats-new.md
           items:
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (14. desember 2018)
+              href: whats-new-talent-december-14.md
+            - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (6. desember 2018)
+              href: whats-new-talent-december-6.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (27. nóvember 2018)
               href: whats-new-talent-november-27.md
             - name: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (15. nóvember 2018)
@@ -71,6 +75,8 @@
     - name: Vinna með leyfi og fjarvistir
       href: leave-absence-overview.md
       items:
+        - name: Hugtök fyrir leyfi og fjarvistir
+          href: leave-absence-concepts.md
         - name: Uppsöfnun frís sem byggist á vinnustundum
           href: leave-accrue-hours-worked.md
         - name: Vinnutímadagatöl
@@ -128,11 +134,14 @@
         - name: Uppsetning námskeiða
           href: courses.md
     - name: Skilgreina og stjórna fríðindaáætlun
-      href: manage-benefit-program.md
-    - name: Stefnur um hæfni til fríðinda
-      href: benefit-eligibility-policies.md
       items:
-        - name: Stjórnun hluta sem starfskraftar fá lánaða
+        - name: Stjórnun fríðindaáætlunar
+          href: manage-benefit-program.md
+        - name: Reglur um hæfni til fríðinda
+          href: benefit-eligibility-policies.md
+        - name: Mynda skýrslur fyrir Affordable Care Act (ACA)
+          href: generate-aca-reports.md
+        - name: Stjórnun hluta sem starfsfólk fær lánaða
           href: loan-items.md
     - name: Safna upplýsingum með notkun spurningalista
       href: questionnaires.md
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Talent-biðlari aftengist
           href: client-disconnects.md
-        - name: Hvernig öryggisafrit gagnagrunns eru meðhöndluð
-          href: database-backups.md
         - name: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Keyra launavinnslu
