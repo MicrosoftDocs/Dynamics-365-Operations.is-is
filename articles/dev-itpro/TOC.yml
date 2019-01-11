@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.2'
               href: extensibility/extensibility-changes-812.md
+            - name: Breytingar á stækkunarhæfni útgáfu 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Undirstöðuatriði
           items:
             - name: Sérstillingar sem valda röskunum
@@ -875,7 +877,7 @@
   items:
     - name: Leiðbeiningar fyrir þróun Gantt-stýringar
       href: user-interface/gantt-development-guide.md
-    - name: Ný flutningsstjórnunarvél stofnuð
+    - name: Stofna nýja flutningsstjórnunarvél
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Uppsetning
   items:
@@ -883,12 +885,33 @@
       href: deployment/deploy-demo-environment.md
     - name: Uppsetning skýs
       items:
+        - name: Sjálfsafgreiðsla uppsetningar
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Setja upp nýtt umhverfi
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Algengar spurningar um uppsetningu
+              href: deployment/deploymentFAQ.md
+            - name: Þekkt vandamál með sjálfsafgreiðslu uppsetningar
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Viðhaldsaðgerðir fyrir uppsetningu
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Uppfæra umhverfi
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Úrræðaleit fyrir umhverfi sem sett eru upp með sjálfsafgreiðslu uppsetningar
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Ljúka innleiðingu Azure Resource Manager
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute og Finance and Operations
           href: deployment/expressroute.md
         - name: Skipulag Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Nota uppfærslur á skýjaumhverfi
+          href: deployment/apply-deployable-package-system.md
+        - name: Nota uppfærslur og viðbætur við hluta Retail-smásölurásar í skýi
+          href: deployment/Update-retail-channel.md
+        - name: Frumstilla hluta Retail-smásölurásar í skýi
+          href: deployment/Initialize-Retail-Channels.md
     - name: Uppsetning á staðnum
       href: deployment/on-premises-deployment-landing-page.md
       items:
@@ -931,8 +954,6 @@
       items:
         - name: Stofna virkjanlega pakka af líkönum
           href: deployment/create-apply-deployable-package.md
-        - name: Nota uppfærslur á skýjaumhverfi
-          href: deployment/apply-deployable-package-system.md
         - name: Setja upp virkjanlega pakka úr skipanalínunni
           href: deployment/install-deployable-package.md
         - name: Fjarlægja pakka
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Uppfæra Dynamics AX-verkvanginn í ágúst-útgáfunni frá 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: Uppfæra sandkassaumhverfi
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Uppfæra gögn í þróunar-, sýni- eða sandkassaumhverfi'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Uppfæra þróunarverkfæri

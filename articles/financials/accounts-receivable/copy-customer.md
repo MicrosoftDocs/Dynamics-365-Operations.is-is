@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Aðeins er hægt að afrita aðila ef hann hefur hlutverk viðskiptavinar og ef 
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Afrita viðskiptavin með því að nota leitareiginleika fyrir skattundanþágunúmer
 
-Einnig er hægt að afrita lánardrottna með því að nota leitareiginleika fyrir skattundanþágunúmer sem er í flokknum **Skráning** á flipanum **Viðskiptavinur** á aðgerðarúðunni á síðunni **Allir viðskiptavinir**. Í svarglugganum **Leita að skattundanþágunúmeri** sem birtist má sjá skattundanþágunúmer, kenni viðskiptavinar, heiti viðskiptavinar og lögaðilann þar sem skattundanþágukennið er notað. Aðeins er hægt að afrita viðskiptavin ef hann er hjá lögaðila sem ekki er núgildandi lögaðili. Eftir að viðskiptavinur sem uppfyllir þessar viðmiðanir hefur verið valinn skal fylgja þessum skrefum.
+Einnig er hægt að afrita viðskiptavini með því að nota leitareiginleika fyrir skattundanþágunúmer sem er í flokknum **Skráning** á flipanum **Viðskiptavinur** á aðgerðarúðunni á síðunni **Allir viðskiptavinir**. Í svarglugganum **Leita að skattundanþágunúmeri** sem birtist má sjá skattundanþágunúmer, kenni viðskiptavinar, heiti viðskiptavinar og lögaðilann þar sem skattundanþágukennið er notað. Aðeins er hægt að afrita viðskiptavin ef hann er hjá lögaðila sem ekki er núgildandi lögaðili. Eftir að viðskiptavinur sem uppfyllir þessar viðmiðanir hefur verið valinn skal fylgja þessum skrefum.
 
 1. Valkosturinn **Afrita viðskiptavin** birtist. Að sjálfgefnu er þessi valkostur stilltur á **Nei**. Til að afrita viðskiptavininn til núverandi lögaðila skal stilla valkostinn á **Já**. 
 2. Veljið **Velja**. Nýi viðskiptavinurinn er stofnaður.
