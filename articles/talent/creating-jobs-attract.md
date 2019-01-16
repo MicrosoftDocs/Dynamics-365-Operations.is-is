@@ -3,7 +3,7 @@ title: "Búðu til, samþykkja og auglýsa störf í Attract"
 description: "Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: is-is
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið 
 
 ## <a name="postings"></a>Bókanir
 
-Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þess vegna mun þessi listi stækka með tímanum.
+Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. 
+
+> [!NOTE]
+> Hafa skal þrjá mikilvæga hluti í huga varðandi birtingu starfsauglýsinga á LinkedIn.
+> 1. Störf sem birt eru á LinkedIn eru birt sem störf með „Takmarkaða birtingu“. Störf með takmarkaða birtingu er ekki hægt að auglýsa hvar sem er á vefsvæði LinkedIn. Ef þú vilt koma á framfæri störfum með takmarkaða birtingu á LinkedIn úr Attract ættir þú að vinna með LinkedIn til að virkja „starfspakka“. Skoðaðu tengla hér að neðan og hafðu samband við LinkedIn stuðning fyrir frekari upplýsingar.
+>
+>    [Takmörkuð birting vs úrvalsstörf á lausu fyrir „starfspakka“](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Algengar spurningar um starfspakka](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Þegar störf eru auglýst á LinkedIn ber Attract fyrirtækisheiti Microsoft 365 saman við starfið. LinkedIn tengir störfin við fyrirtæki á LinkedIn síðunni á grundvelli heiti fyrirtækisins sem er sent. Ef starf þitt er skráð undir röngu fyrirtæki á LinkedIn skaltu ganga úr skugga um að Microsoft 365 fyrirtækisheitið þitt passi við nafn fyrirtækisins á LinkedIn.  
+>
+>    [Breyta aðsetri tengiliðs og fleira](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Ef þú átt í vandræðum á eftir þessu skrefi skaltu hafa samband við LinkedIn stuðning. 
+> 
+> 1. Það getur tekið allt að sólarhring fyrir störf sem birt eru á LinkedIn að verða sýnileg umsækjendum innan LinkedIn vegna núgildandi birtingarferlis á runuvinnslu LinkedIn.
+
+Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum.
 
 Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](./career-site.md).
 

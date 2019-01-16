@@ -19,14 +19,16 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
 ms.translationtype: HT
-ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
-ms.openlocfilehash: 4b8a0291855460b79f3a241eccb4b55b009804bf
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
 ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
 # <a name="open-url-in-pos"></a>Opna vefslóð í POS
+
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að skilgreina hnapp í Retail-sölustað (POS) til að opna vefslóð. Þessi eiginleiki krefst ekki sérstillingar á kóða og einhver sem ekki er í hlutverki þróunaraðila getur stillt hann.
 
@@ -34,48 +36,52 @@ ms.lasthandoff: 12/04/2018
 
 - Opna í nýjum glugga.
 - Opna innan POS.
-- Opna native-forrit. 
+- Opna native-forrit.
 
 ## <a name="open-in-new-window"></a>Opna í nýjum glugga
 
 Þessi stilling skilgreinir hvort vefslóðin verði opnuð í nýjum glugga eða innan forritsins. Yfirlitssvæðið til hliðar og efsta slá POS eru sýnileg og í boði fyrir notandann þegar stillt er á að vefslóð verði opnuð í forriti. Vefslóðin opnast í nýjum glugga forrits í Modern POS fyrir Windows og í nýjum vafraglugga í öllum öðrum POS-biðlurum þegar stillt er á að nýr gluggi eigi að opnast. Til að virkja þetta verður að stilla vefslóðina með því að velja valkostinn **Opna í nýjum glugga**.
 
 ## <a name="open-within-pos"></a>Opna innan POS
+
 Opnun vefslóðar innan POS er sem stendur aðeins stutt fyrir Modern POS í Windows. Á öðrum biðlurum er þessi möguleiki í þróun og áætlað er að gefa hann út í síðari uppfærslum. Til að virkja þetta verður að stilla vefslóðina með því að velja ekki valkostinn **Opna í nýjum glugga**.
 
 ## <a name="open-a-native-app"></a>Opna native-forrit
-Þessi eiginleiki leyfir þér einnig að tilgreina slóðir sem ekki eru vefslóðir til að opna native-forrit. Til dæmis er hægt að tilgreina samskiptareglur slóðar, eins og MailTo, SIP, IM eða MSTEAMS, sem native-forrit á tæki hýsils getur síðan meðhöndlað. Til að virkja þetta verður að stilla vefslóðina með því að velja valkostinn **Opna í nýjum glugga**. 
 
-- Fyrir Windows-tölvur skal skoða [Flytja út eða flytja inn sjálfgefnar forritatengingar](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) til að stilla sjálfgefnar tengingar samskiptareglu ef verið er að setja upp tölvuna með DISM (meðhöndlun afritsmynda). 
-- Ef MDM er notað, t.d. Intune til að stjórna Windows-tölvunni, skal skoða [CSP-regla - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults). 
-- Ef þú ert þróunaraðili að smíða sérsniðna vefsíðu skaltu skoða [Ræsa sjálfgefið forrit fyrir URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app). 
+Þessi eiginleiki leyfir þér einnig að tilgreina slóðir sem ekki eru vefslóðir til að opna native-forrit. Til dæmis er hægt að tilgreina samskiptareglur slóðar, eins og MailTo, SIP, IM eða MSTEAMS, sem native-forrit á tæki hýsils getur síðan meðhöndlað. Til að virkja þetta verður að stilla vefslóðina með því að velja valkostinn **Opna í nýjum glugga**.
+
+- Fyrir Windows-tölvur skal skoða [Flytja út eða flytja inn sjálfgefnar forritatengingar](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) til að stilla sjálfgefnar tengingar samskiptareglu ef verið er að setja upp tölvuna með DISM (meðhöndlun afritsmynda).
+- Ef MDM er notað, t.d. Intune til að stjórna Windows-tölvunni, skal skoða [CSP-regla - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Ef þú ert þróunaraðili að smíða sérsniðna vefsíðu skaltu skoða [Ræsa sjálfgefið forrit fyrir URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Opna native-forrit án vandkvæða
+
 Windows, iOS og Android leyfa einnig ræsingu forrita án vandkvæða, sem byggist á samskiptareglutengingu forrits. Ef forritið þitt er ekki þegar stillt til að meðhöndla ræsingu úr vafra, gæti verið að þu þurfir þróunaraðila til að stilla þetta.
 
 - Fyrir Windows skal skoða [Virkja forrit fyrir vefsíður sem nota URI-forritarekla](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - Fyrir iOS skal skoða [Altækir tenglar fyrir þróunaraðila](https://developer.apple.com/ios/universal-links/).
-- Fyrir Android skal skoða [Meðhöndlun forritatengla Android](https://developer.android.com/training/app-links/).  
+- Fyrir Android skal skoða [Meðhöndlun forritatengla Android](https://developer.android.com/training/app-links/).
 
-
-|   Biðlari                |Opna í nýjum glugga |Opna native-forrit | Opna innan POS            | Upplýsingar                           |
-|-------------------------|-------------------|----------------|--------------------------|-----------------------------------|
-| Modern POS í Windows   | ✓*                |    ✓          |       ✓                  | *Opnast í nýjum glugga Modern POS   |
-| Sölustaður í skýi               | ✓*                |    ✓          |       X                   |  *Opnast í nýjum vafraglugga       |
-| Modern POS í iOS       | ✓*                |    ✓          |       X                  |  *Opnast í nýjum vafraglugga        |
-| Modern POS í Android   | ✓*                |    ✓          |       X                  |  *Opnast í nýjum vafraglugga        |
+| Biðlari                | Opna í nýjum glugga | Opna native-forrit | Opna innan POS | Upplýsingar                           |
+|-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
+| Modern POS í Windows | ✓\*                | ✓               | ✓              | \* Opnast í nýjum glugga Modern POS |
+| Sölustaður í skýi             | ✓\*                | ✓               | X              | \* Opnast í nýjum vafraglugga        |
+| Modern POS í iOS     | ✓\*                | ✓               | X              | \* Opnast í nýjum vafraglugga        |
+| Modern POS í Android | ✓\*                | ✓               | X              | \* Opnast í nýjum vafraglugga        |
 
 ## <a name="before-you-begin"></a>Áður en hafist er handa
+
 Áður en hafist er handa skal yfirfara hvernig á að stilla [Skjáútlit fyrir sölustað (POS)](pos-screen-layouts.md).
 
 ## <a name="open-url-in-pos"></a>Opna vefslóð í POS
+
 Til að stilla vefslóð svo hún opnist í POS, skal framkvæma eftirfarandi skref.
 
-1.  Á aðalskrifstofu skal opna **Retail > Uppsetning rásar > Uppsetning sölustaðar > Sölustaður > Skjáútlit**.
-2.  Veljið **Hnappahnit > Hönnuður**.
-3.  Búið til nýjan hnapp.
-4.  Veljið eiginleikana **Hnappur**.
-5.  Veljið **Opna vefslóð** sem aðgerðina.
-6.  Færið inn vefslóðina sem á að nota.
-7.  Stillið hvort eigi að opna vefslóðina eða nýjan glugga.
+1. Á aðalskrifstofu skal fara í **Smásala \> Uppsetning rásar \> Uppsetning sölustaðar \> Sölustaður \> Útlit afgreiðsluskjás**.
+2. Veljið **Hnappahnit \> Hönnuður**.
+3. Búið til nýjan hnapp.
+4. Veljið eiginleikana **Hnappur**.
+5. Veljið **Opna vefslóð** sem aðgerðina.
+6. Færið inn vefslóðina sem á að nota.
+7. Stillið hvort eigi að opna vefslóðina eða nýjan glugga.
 

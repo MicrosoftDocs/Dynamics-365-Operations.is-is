@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Eftir að biðupplýsingarnar eru færðar inn og vistaðar getur notandinn loka
 
 Ef kveikt er á **Virkja lok pöntunar** flaggi á símaversrásinni, þarf ekki að virkja greiðslu fyrir pöntun sem er sett í bið. Hins vegar fyrir sölupöntun sem ekki er settir í bið, geta notendur ekki yfirgefið síðu sölupöntunarfærslu fyrr en greiðsla er virkjuð. Auðvitað verður greiðslu krafist áður en losað er um biðstöðu pöntunarinnar.
 
-Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
+Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Skoða og stjórna pöntunum sem eru í bið
 

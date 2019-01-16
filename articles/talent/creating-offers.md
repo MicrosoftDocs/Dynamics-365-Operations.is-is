@@ -3,7 +3,7 @@ title: "Stofna, samþykkja og undirrita tilboð"
 description: "Þetta efni lýsir því hvernig á að búa til, samþykkja og undirrita tilboð fyrir umsækjanda með Dynamics 365 for Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Samþykktaraðilar geta skipt á milli mismunandi útgáfa ef útgáfurnar voru 
 -  Þú getur tilgreint lokadag. Frambjóðendur eiga að samþykkja eða hafna tilboðinu fyrir lokadag.  Umsækjandi verður send áminning 48 klukkustundum áður en tilboðið rennur út.
 
 -  Það kunna að vera til fylgiskjöl sem þú vilt taka með í samþykkisferlinu. Þú verður að hafa möguleika á að skrá tegund fylgiskjalsins sem þarf.
+
+- Valkostur rafrænnar undirskriftar: Ef Adobe Sign var valið sem besti rafræni undirskriftarmátinn, verða stofnendur tilboða að tengja Adobe Sign-leyfin sín. Þá er um tvær aðferðir að velja. Farðu í **Stillingar** í **Tilboð**, undir **Tengingar** skal tengja við **Adobe Sign**. Annar kostur er að vera beðin um að tengja „Senda tilboð“ við skjá umsækjanda ef tengingin var ekki þegar komin á grunni notandastillinga. 
+
+> [!NOTE]
+> Notendur þurfa aðeins að tengja Adobe Sign-leyfin sín í eitt skipti. Sama notandaleyfið er notað fyrir alla komandi tilboðspakka sem sami notandi sendir frá sér. 
 
 -  Þú getur skoðað og breytt sniðmátinu fyrir tölvupóst eftir þörfum.
 

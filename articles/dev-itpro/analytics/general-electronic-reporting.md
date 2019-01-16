@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru 
 - umhverfi í skýi sett upp í þróunarlegum tilgangi (inniheldur prufulíkön úr inniföldum pökkum)
 - staðbundið uppsett umhverfi (á staðnum eða uppsetning staðbundinna viðskiptagagna (LBD))
 
-Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](/electronic-reporting-import-ger-configurations.md) til að fá frekari upplýsingar um þetta.
+Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](./electronic-reporting-import-ger-configurations.md) til að fá frekari upplýsingar um þetta.
 
 Gagnasafn **RCS-tilviks** veitir aðgang að lista yfir skilgreiningar á tilteknu RCS-tilviki sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik Finance and Operations og notaðar í rafrænni skýrslugerð.
 
-Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER) úr skilgreiningarþjónustu reglugerðar (RCS)](/rcs-download-configurations.md) til að fá frekari upplýsingar um þetta.
+Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER) úr skilgreiningarþjónustu reglugerðar (RCS)](./rcs-download-configurations.md) til að fá frekari upplýsingar um þetta.
 
 Hægt er að skrá nauðsynleg gagnasöfn **LCS-verks**, **Skráakerfis** og **Skilgreiningarþjónustu reglugerðar (RCS)**, hvert safn fyrir sig, fyrir hverja skilgreiningarveitu fyrir núgildandi tilvik Finance and Operations. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 

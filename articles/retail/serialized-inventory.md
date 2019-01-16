@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Yfirlit 
-Byggt á stillingum í Retail Headquarters er hægt að flokka vörur sem annaðhvort raðaðar eða óraðaðar. Þegar vörur eru raðaðar er hægt að úthluta einkvæmu númeri  á hverja vöru sem hjálpar til við að rekja ábyrgð, vörur og staðfesta eignarhald. Þó svo að hægt sé að veita raðnúmer fyrir raðaðar vörur í Modern/Cloud Point of Sale (POS) hafa nokkrar endurbætur verið gerðar til að hjálpa gjaldkerum að spara tíma og auka afköst.  
+## <a name="overview"></a>Yfirlit
+
+Byggt á stillingum í Retail Headquarters er hægt að flokka vörur sem annaðhvort raðaðar eða óraðaðar. Þegar vörur eru raðaðar er hægt að úthluta einkvæmu númeri  á hverja vöru sem hjálpar til við að rekja ábyrgð, vörur og staðfesta eignarhald. Þó svo að hægt sé að veita raðnúmer fyrir raðaðar vörur í Modern/Cloud Point of Sale (POS) hafa nokkrar endurbætur verið gerðar til að hjálpa gjaldkerum að spara tíma og auka afköst.
 
 ## <a name="pos-improvements"></a>POS endurbætur
 
@@ -37,9 +38,9 @@ Byggt á stillingum í Retail Headquarters er hægt að flokka vörur sem annað
 
     Fyrir hverja röðuðu vöru þar sem raðnúmeri var sleppt birtist athugasemd undir færslulínunni. Þessi athugasemd segir að raðnúmer hafi ekki verið gefið upp fyrir vöruna. Því getur gjaldkeri fljótt fundið vörur án raðnúmers.
 
-    **Bæta við raðnúmeri** aðgerðin veitir einnig raðnúmer fyrir vörur þar sem raðnúmer vantar. Eftir að raðnúmerið er veitt er ekki hægt að breyta því. Gjaldkerinn verður að ógilda línuna og bæta við vörunni aftur. 
+    **Bæta við raðnúmeri** aðgerðin veitir einnig raðnúmer fyrir vörur þar sem raðnúmer vantar. Eftir að raðnúmerið er veitt er ekki hægt að breyta því. Gjaldkerinn verður að ógilda línuna og bæta við vörunni aftur.
     
-- **Raðnúmers er ekki krafist fyrir pantanir viðskiptavinar** - Viðskiptavinir geta pantað í einni verslun og sótt í aðra. Gjaldkeri sem pantar fyrir viðskiptavin þarf ekki að gefa upp raðnúmerið. Raðnúmerið verður veitt við tiltekt eða afhendingu. Hins vegar verður að gefa upp raðnúmer fyrir öll línuatriði þegar afhendingargerðin **Framkvæma** er valin. Annars er ekki hægt að ljúka færslunni.    
+- **Raðnúmers er ekki krafist fyrir pantanir viðskiptavinar** - Viðskiptavinir geta pantað í einni verslun og sótt í aðra. Gjaldkeri sem pantar fyrir viðskiptavin þarf ekki að gefa upp raðnúmerið. Raðnúmerið verður veitt við tiltekt eða afhendingu. Hins vegar verður að gefa upp raðnúmer fyrir öll línuatriði þegar afhendingargerðin **Framkvæma** er valin. Annars er ekki hægt að ljúka færslunni.
 - **Röðuðum vörum er ekki steypt saman á færsluskjánum** – **Steypa saman afurðum** stillingin í **Afgreiðslustöð** reitarhópnum á **Virkniregla** síðunni gerir þér kleift að steypa saman óröðuðum vörum á færsluskjánum. Þegar sömu vörur eru settar saman er auðveldara að sjá þær á færsluskjá. Þar sem raðnúmer eru yfirleitt einkvæmt, og söluaðilar Þurfa ekki að slá inn raðnúmer fyrir kaup gildir stillingin **Steypa saman afurðum** ekki um raðaðar vörur. Þessi vegna er röðuðum vörum ekki steypt saman á færsluskjánum ef **Steypa saman afurðum** stillingin er valin.
-- **Geta til að leita í færslubókum út frá raðnúmeri** - Nú er hægt að leita aukalega í færslubókum út frá raðnúmerum. Til að gera það skaltu opna „Færslubækur“ aðgerðina og ýta á „Ítarleg leit“ hnappinn á forritastikunni. Með því að nota „Bæta við síu“ hnappinn er einnig hægt að nota síu til að leita að raðnúmerum.
+- **Geta til að leita í færslubókum út frá raðnúmeri** – Nú er hægt að leita aukalega í færslubókum út frá raðnúmerum. Til að gera það skaltu opna „Færslubækur“ aðgerðina og ýta á „Ítarleg leit“ hnappinn á forritastikunni. Með því að nota „Bæta við síu“ hnappinn er einnig hægt að nota síu til að leita að raðnúmerum.
 

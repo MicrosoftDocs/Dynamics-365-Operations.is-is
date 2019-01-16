@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,10 +31,12 @@ ms.lasthandoff: 08/09/2018
 
 Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkleiðbeiningar í (maí 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX
-------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkleiðbeiningar í (maí 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX
 
-(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md). <strong>Athugasemd:</strong> Stjarna (<strong>\</strong>*) við hliðina á línu viðskiptaferlavinnslu (BPM) gefur til kynna að verkleiðbeiningarnar fyrir viðskiptaferlið hafi verið stofnaðar fyrir uppfærslu Dynamics AX maí 2016 og séu ekki studdar í eldri útgáfum af Microsoft Dynamics AX.
+(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+
+> [!NOTE]
+> Stjarna (\*) við titil línunnar fyrir viðskiptaferlavinnslu (BPM) sýnir verkefnaleiðbeiningar fyrir viðskiptaferli sem var stofnað fyrir Dynamics AX maí uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
@@ -62,15 +64,15 @@ ms.lasthandoff: 08/09/2018
 
 ### <a name="electronic-reporting"></a>Rafræn skýrslugerð
 
-|                                  BPM-lína                                  | Land/svæði |
+| BPM-lína                                                                   | Land/svæði |
 |----------------------------------------------------------------------------|----------------|
-|                         Rafræn skýrslugerð skilgreina áfangastað                          |     Altæk     |
-|     Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði     |     Altæk     |
-| Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði |     Altæk     |
-|             Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services              |     Altæk     |
-|               <strong>\</strong>*Rafræn skýrslugerð Velja þjónustuveitu                |     Altæk     |
-|   Rafræn skýrslugerð Uppfærsðu snið með því að taka upp nýja grunnútgáfu sniðs    |     Altæk     |
-|             Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services              |     Altæk     |
+| Rafræn skýrslugerð skilgreina áfangastað                                                  | Altæk         |
+| Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði         | Altæk         |
+| Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði | Altæk         |
+| Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services                          | Altæk         |
+| \*Rafræn skýrslugerð Velja þjónustuveitu                                               | Altæk         |
+| Rafræn skýrslugerð Uppfærsðu snið með því að taka upp nýja grunnútgáfu sniðs      | Altæk         |
+| Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services                          | Altæk         |
 
 ### <a name="human-capital-management"></a>Mannauðsstjórnun
 
@@ -176,25 +178,21 @@ ms.lasthandoff: 08/09/2018
 
 ### <a name="warehouse-and-transportation"></a>Vöruhúsakerfi og flutningar
 
-|                                     BPM-lína                                     | Land/svæði |
-|----------------------------------------------------------------------------------|----------------|
-|                            Skilgreina bylgjuvinnslu                             |     Altæk     |
-| <strong>\</strong>*Skrá sem lokið í staðsetningu sem ekki er plötustýrð |     Altæk     |
-|                      Setja upp lágmarks-hámarks áfyllingarvinnslu                      |     Altæk     |
-|                             Setja upp gámun                              |     Altæk     |
-|                              Setja upp handvirkt pökkun.                               |     Altæk     |
-|                  Setja upp flutningsskorður fyrir vöru                   |     Altæk     |
-|                <strong>\</strong>*Setja upp reglur vöruhúsavinnu                 |     Altæk     |
+|                                     BPM-lína                    | Land/svæði |
+|-----------------------------------------------------------------|----------------|
+| Skilgreina fyrir Úrvinnsla bylgna                                       | Altæk         |
+| \*Skrá sem lokið í staðsetningu sem ekki er plötustýrð | Altæk         |
+| Setja upp lágmarks-hámarks áfyllingarvinnslu                          | Altæk         |
+| Setja upp gámun                                         | Altæk         |
+| Setja upp handvirkt pökkun.                                           | Altæk         |
+| Setja upp flutningsskorður fyrir vöru                   | Altæk         |
+| \*Setja upp vinnureglur vöruhúss                                 | Altæk         |
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
-
-
-
 

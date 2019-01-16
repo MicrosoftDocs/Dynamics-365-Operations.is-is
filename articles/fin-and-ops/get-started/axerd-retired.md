@@ -1,6 +1,6 @@
 ---
 title: "AxErd-síðunni hefur verið lokað"
-description: "Við þurftum að loka AxErd síðunni. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í GitHub-geymslu."
+description: "Við þurftum að loka AxErd-síðunni. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í GitHub-geymslu."
 author: margoc
 manager: AnnBe
 ms.date: 02/27/2018
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 5250a75655b23f1bc92b332a48dfec094af049cf
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 71c61764ca2dd79df110d257b61bd656804519ef
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,13 +29,11 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Því miður þurftum við að loka AxErd vefsíðunni sem útvegaði skýringarmyndir einingavensla (ERD) fyrir margar Microsoft Dynamics AX 2012 töflur. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í Github-geymslu: https://github.com/Microsoft/ax-2012-doc-tools
+Því miður þurftum við að loka AxErd-vefsíðunni sem útvegaði skýringarmyndir einingavensla (ERD) fyrir margar Microsoft Dynamics AX 2012 töflur. Það náðist að bóka bæði frumkóða verksins og HTML-skrár vefsíðunnar í Github-geymslu: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-síðurnar eru í geymslunni á slóðinni [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)
 
 Lýsing á því hvernig eigi að stofna sín eigin einingavensl er á slóðinni: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
-Lausnin er í rótarmöppu AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd). 
-
-
+Lausnin er í rótarmöppu AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
 

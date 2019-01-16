@@ -3,7 +3,7 @@ title: "Aðgerðir í ferlunum"
 description: "Þetta efnisatriði gefur upplýsingar um ýmis konar aðgerðir sem hægt er að nota í ráðningarferlinu."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ Viðtalsaðgerðir eru valfrjálsar. Þessi aðgerð hefur þrjá þætti: Tíma
 - Til að senda tölvupóst til umsækjenda til að biðja um tímaupplýsingar þeirra, stilltu **Biðja um tímaupplýsingar umsækjanda** á **Á**. Ef þú stillir kost á **Slökkva**, verður þetta skref ekki sýnt í ráðningarferlinu í starfinu.
 - Til að streyma í beinni eða hafa símafund með því að nota Skype for Business skaltu stilla **Netfund** reitinn á **Skype for Business**. Rétt **Taka þátt í Skype-fundi** tengilinn verður síðan bætt við viðtalsbeiðnina.
 - Til að senda tölvupóst til umsækjenda til að ljúka tímaáætluninni skaltu stilla **Senda póst til umsækjanda** valkostur til **Á**. Ef þú stillir kost á **Slökkva**, fá umsækjendur aðeins viðtalsáætlunina þegar þeir skrá sig inn á umsækjendagáttina.
+
+>[!NOTE]
+> - Áminningar eru sendar á spyrla á sólarhringsfresti fyrir einstaklingsviðtöl ef spyrillinn hefur ekki svarað (samþykkt eða hafnað) viðtalsbeiðninni.
+> - Fyrir nefndarviðtöl eru engar áminningar um að svara þurfi viðtalsbeiðni. Til að kveikja á áminningu handvirkt skal breyta viðtali og nota valkostinn **Uppfæra og senda** til að senda beiðnina aftur á spyrlana.
 
 Endurgjafarhluti leyfir fólki að slá inn ráðleggingar fyrir umsækjanda. Þeir geta einnig slegið inn endurgjöf við athugasemdir sem þeir hafa. Ef þú kveikir á **Erfa þátttakendur sem gefa ábendingar frá ráðningarhópi** valkostinum, er ráðningaraðilinn, mannauðsstjórinn og spyrlar sjálfkrafa færðir inn í endurgjafarhlutann. Fyrirtæki geta leyft spyrlum að skoða endurgjöf annarra áður en þeir leggja inn eigin endurgjöf. Fyrirtæki geta einnig leyft spyrlum að breyta viðbrögðunum sínum eftir að þeir hafa sent það inn.
 

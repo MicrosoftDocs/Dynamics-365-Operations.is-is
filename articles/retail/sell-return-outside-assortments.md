@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,15 +30,16 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-Algeng aðstæður fyrir allar söluaðilann er að selja vörur til þeirra viðskiptavina eða samþykkja skil frá viðskiptavinum þeirra jafnvel þótt þeir ekki að framkvæma tilteknar vörur sínar verslun (með öðrum orðum vara eru ekki assorted í verslun).
+Algengar aðstæður fyrir smásöluaðila er að selja afurðir til viðskiptavina eða samþykkja skil frá viðskiptavinum þeirra, jafnvel þótt þeir séu ekki með tiltekna afurð í versluninni (með öðrum orðum, afurðirnar eru ekki valdar fyrir verslunina).
+
 Hér eru nokkrar dæmigerðar aðstæður.
 
-+ Við söluaðilann áskilinn hafa allar þeirra vara í ákveðna verslun. Eftirstandandi vörurnar eru geymdar í vöruhúsinu. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða fletting fyrir vörurnar í vöruhúsinu bæta í körfu til að og ljúka við útskráning með því að velja afhendingaraðferðina, eins og sendingar í aðsetur úr vöruhúsi eða letting viðskiptavina sem taka upp vörunni úr gildandi verslun eða frá annarri verslun.
-+ Við söluaðilann áskilinn bera ákveðnum vörum í versluninni eða áskilinn eru þær lager verslun viðskiptavinar skoðaðar fyrr en vörurnar eru tiltækar í aðrar verslanir. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða skoða vara á verslun, bæta í körfu til að og útskráning við að ljúka með því að velja afhendingaraðferðina fyrir.
-+ Við söluaðilann margar verslanir í og samkvæmt ákveðnum borgar eða póstnúmer og áskilinn á að láta viðskiptavinina aftur vörur á sömu þær voru keyptar inn í verslunina. Þess í stað getur viðskiptavinir skila vörum í hvaða annarri verslun.
-
++ Smásöluaðili er ekki með allar afurðir sínar í tiltekinni verslun. Eftirstandandi vörurnar eru geymdar í vöruhúsinu. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða fletting fyrir vörurnar í vöruhúsinu bæta í körfu til að og ljúka við útskráning með því að velja afhendingaraðferðina, eins og sendingar í aðsetur úr vöruhúsi eða letting viðskiptavina sem taka upp vörunni úr gildandi verslun eða frá annarri verslun.
++ Smásöluaðili er ekki með tilteknar afurðir í versluninni eða er ekki með þær í birgðum verslunar sem viðskiptavinurinn heimsótti, en afurðirnar eru fáanlegar í öðrum verslunum. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða skoða vara á verslun, bæta í körfu til að og útskráning við að ljúka með því að velja afhendingaraðferðina fyrir.
++ Smásöluaðili er með margar verslanir í tiltekinni borg eða nágrenni hennar eða í póstnúmeri og vill ekki neyða viðskiptavini til að skila afurðunum í sömu verslun og þær voru keyptar í. Þess í stað getur viðskiptavinir skila vörum í hvaða annarri verslun.
 
 Þær algengar aðstæður eru í boði fyrir smásala með Dynamics 365 for Retail. Með Retail er hægt að:
+
 + Leita eða fletta að vörur í aðrar verslanir.
 + Leita eða fletta losaðar allar vörur.
 + Stofna cash-and-carry færslur viðskiptavinar eða pantanir.

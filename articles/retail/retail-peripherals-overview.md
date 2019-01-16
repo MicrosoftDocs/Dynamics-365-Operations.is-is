@@ -19,10 +19,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 11e059b52eb5496d8b63a55113099b493f815e69
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -60,9 +60,9 @@ Modern POS fyrir Android er Android-byggð útgáfa af Modern POS-forriti sem h�
 
 ### <a name="pos-peripherals"></a>POS-jaðarbúnaður
 
-POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa. Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" þessa efnisatriðis.
+POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa. Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" í þessu efnisatriði.
 
-### <a name="hardware-station"></a>Vélbúnaðarstöð
+### <a name="hardware-station"></a>Hardware Station
 
 Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
 
@@ -99,7 +99,7 @@ Undirskriftatæki eru tengd beint tölvunni gegnum USB með því að nota OPOS-
 
 ### <a name="scale"></a>Vigt
 
-Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla. Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir vörunni við færsluna og notar magnið sem vigtin gaf upp.
+Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla. Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir afurðinni við færsluna og notar magnið sem vigtin gaf upp.
 
 ### <a name="pin-pad"></a>PIN-takkaborð
 
@@ -114,22 +114,28 @@ Takkaborð fyrir persónuleg auðkennisnúmer (PIN) eru studd með OPOS, en þa�
 Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi. Greiðslutæki geta framkvæmt eina eða margar aðgerðir sem aðrir tækjaklasar veita. Til dæmis, getur greiðslutæki virkað sem MSR/kortalesari, línuskjár, sækja undirskrift eða PIN-takkaborð. Stuðningu við greiðslutæki er innleiddur óháð stuðningi sjálfstæðra tæka sem lögð er til fyrir önnur tæki sem eru innifaldar í vélbúnaðarreglu.
 
 ## <a name="supported-interfaces"></a>Studd viðmót
+
 ### <a name="opos"></a>OPOS
 
 Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Microsoft Dynamics 365 for Retail er OLE fyrir POS-iðnaðarstaðalinn aðalsmásölukerfi jaðarbúnaðar sem er stutt í Microsoft Dynamics 365 for Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
 
--   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail. Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
--   **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá framleiðanda fyrir vefsvæðið. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
+- **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail. Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
+- **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
 
-[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman. **Athugasemd:** OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-elkum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
+[![Stýringarhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
+
+Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman.
+
+> [!NOTE]
+> OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
 
 ### <a name="windows"></a>Gluggar
 
 Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera mikið hraðara en prentun gegnum Windows. Því er gott að nota OPOS, sérstaklega í smásöluumhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður. Fyrir flest tæki eru OPOS-stýringar notaðar. Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla. Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa. Hins vegar eru vankantar á því að nota Windows-rekla. Hér eru nokkur dæmi um þessa vankanta:
 
--   Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst. Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.
--   Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.
--   OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.
+- Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst. Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.
+- Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.
+- OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.
 
 Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentarinn samt að virka með Microsoft Dynamics 365 for Retail.
 
@@ -139,7 +145,7 @@ UWP, ef jaðartæki smásölu, tengist stuðningi Windows fyrir Plug and Play-t�
 
 ### <a name="keyboard-wedge"></a>Lyklaborðstenging
 
-Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er fleiri stýringar á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
+Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
 
 ### <a name="native-printer"></a>Innbyggður prentari
 
@@ -154,13 +160,14 @@ Tækjagerð **Windows** er aðeins notuð fyrir prentara. Þegar Windows-prentar
 Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.
 
 ## <a name="hardware-station-deployment-options"></a>Notkunarvalkostir vélbúnaðarstöðvar
+
 ### <a name="ipc-built-in"></a>IPC (innbyggt)
 
 Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows. Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar. Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar. Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.
 
 ### <a name="iis"></a>IIS
 
-Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu. Lýsiorðið "IIS" gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services. Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt. Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu. Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu. Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki. Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.
+Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu. Lýsiorðið „IIS“ gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services. Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt. Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu. Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu. Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki. Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.
 
 #### <a name="dedicated"></a>Sérnýtt
 
@@ -170,9 +177,9 @@ Modern POS notar vélbúnaðarstöðvar a gerðinni **Sérhæft** til að ákvar
 
 Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tækjum í gegnum daginn. Samnýttar vélbúnaðstöðvar eru bestaðar til að styðja aðeins peningaskúffur, kvittanaprentara, og afgreiðslustöðvar. Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt. Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma. Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:
 
--   **Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið. Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á **Samnýtt** í vélbúnaðarreglu. Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.
--   **Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki. Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál. Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.
--   **Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar. Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.
+- **Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið. Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á **Samnýtt** í vélbúnaðarreglu. Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.
+- **Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki. Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál. Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.
+- **Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar. Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.
 
 Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð. Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa. POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS. Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður. Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður. Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið. Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil. Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.
 
@@ -189,6 +196,7 @@ Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum. Ef 
 Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu. Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.
 
 ## <a name="setup-and-configuration"></a>Uppsetning og skilgreining
+
 ### <a name="hardware-station-installation"></a>Uppsetning vélbúnaðarstöðvar
 
 Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md).
@@ -201,12 +209,13 @@ Nánari upplýsingar er að finna í [Skilgreining og uppsetning á Retail Moder
 
 Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals. Venjulega eru OPOS-reklar veittir af framleiðanda tækis. Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:
 
--   **32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+- **32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+- **64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa. Margir tækjareklar eru vistaðir.
 
 ## <a name="supported-scenarios-by-hardware-station-type"></a>Studdar aðstæður eftir gerð vélbúnaðarstöðvar
+
 ### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Biðlarastuðningur – IPC vélbúnaðarstöð miðað við IIS vélbúnaðarstöð
 
 Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.
@@ -230,281 +239,333 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 | iOS         | Ekkert                   | Já                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar
+
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Studdur tækjaklasi</th>
 <th>Studd viðmót</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Prentari</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Windows-rekill</li>
 <li>Tæki</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Prentari 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Windows-rekill</li>
 <li>Tæki</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Línuskjár</td>
 <td>OPOS</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tvískiptur skjár</td>
 <td>Windows-rekill</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Kortalesari</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>UWP (Engin uppsetning nauðsynleg.)</li>
 <li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
-<td>Útgefandi</td>
-<td><ul>
+<tr>
+<td>Skúffa</td>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
+<li>Net
+<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtta vakt</strong> er skilgreint í skúffu.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Skúffa 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
+<li>Net
+<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtta vakt</strong> er skilgreint í skúffu.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Skanni</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>UWP (Engin uppsetning nauðsynleg.)</li>
 <li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Skanni 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>UWP (Engin uppsetning nauðsynleg.)</li>
 <li>Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Vigt</td>
 <td>OPOS</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PIN-takkaborð</td>
 <td>OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Sækja undirskrift</td>
 <td>OPOS</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Greiðslustöð</td>
-<td><ul>
+<td>
+<ul>
 <li>Stuðningur við sérsniðið tæki</li>
 <li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð
 
-**Athugasemd:** Þegar IIS vélbúnaðarstöð er "sérnýtt," eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.
+> [!NOTE]
+> Þegar IIS vélbúnaðarstöð er „sérnýtt“, eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Studdur tækjaklasi</th>
 <th>Studd viðmót</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Prentari</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</li>
+<li>Windows-rekill
+<blockquote>[!NOTE] Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Prentari 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Windows-rekill</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Línuskjár</td>
 <td>OPOS</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Kortalesari</td>
 <td>OPOS</td>
 </tr>
-<tr class="odd">
-<td>Útgefandi</td>
-<td><ul>
+<tr>
+<td>Skúffa</td>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
+<li>Net
+<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtta vakt</strong> er skilgreind í skúffu.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Skúffa 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Skanni</td>
 <td>OPOS</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Skanni 2</td>
 <td>OPOS</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Vigt</td>
 <td>OPOS</td>
 </tr>
-<tr class="even">
+<tr>
 <td>PIN-takkaborð</td>
 <td>OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Undirskr. sækja</td>
 <td>OPOS</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Greiðslustöð</td>
-<td><ul>
+<td>
+<ul>
 <li>Stuðningur við sérsniðið tæki</li>
 <li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð
 
-**Athugasemd:** Þegar vélbúnaðarstöð IIS er "samnýtt," geta mörg tæki notað vélbúnaðarstöð á sama tíma. Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu. Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum. Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.
+> [!NOTE]
+> Þegar vélbúnaðarstöð IIS er „samnýtt“, geta mörg tæki notað vélbúnaðarstöð á sama tíma. Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu. Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum. Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Studdur tækjaklasi</th>
 <th>Studd viðmót</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Prentari</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Windows-rekill <strong>Athugasemd:</strong> Fyrir Windows prentara á neti verður notandi vélbúnarstöðvar að hafa heimild til að nota prentarann.</li>
+<li>Windows-rekill
+<blockquote>[!NOTE] Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Prentari 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Windows-rekill</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
-<td>Útgefandi</td>
-<td><ul>
+<tr>
+<td>Skúffa</td>
+<td>
+<ul>
 <li>OPOS</li>
-<li>Net <strong>Athugasemd:</strong> Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</li>
-</ul></td>
+<li>Net
+<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtta vakt</strong> er skilgreind í skúffu.</blockquote>
+</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Skúffa 2</td>
-<td><ul>
+<td>
+<ul>
 <li>OPOS</li>
 <li>Net</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Greiðslustöð</td>
-<td><ul>
+<td>
+<ul>
 <li>Stuðningur við sérsniðið tæki</li>
 <li>Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Skilgreining fyrir studdar aðstæður
-Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md). **Athugið:** Í Microsoft Dynamics 365 for Retail útgáfu 1611 er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
+
+Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md).
+
+> [!NOTE]
+> Fyrir Microsoft Dynamics 365 for Retail útgáfu 1611, er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð
 
 Þessi skilgreining er oftast dæmigert skilgreiningu fyrir venjulegt, föst afgreiðslukassar. Á þessu dæmi, upplýsingar um forstillingu vélbúnaðar varpað beint á sjálfan afgreiðslukassann. Afgreiðslustöðvarnúmer kortamillifærslu ætti einnig að setja á afgreiðslukassa sjálfa. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
 
-1.  Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
-2.  Varpa vélbúnaðarregluna á afgreiðslukassa.
-3.  Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað. Lýsing er valkvæð. **Athugasemd:** Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni. Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.
-4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Setja upp og virkja Modern POS fyrir Windows.
-8.  Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.
+1. Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
+2. Varpa vélbúnaðarregluna á afgreiðslukassa.
+3. Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað. Lýsing er valkvæð.
+
+    > [!NOTE]
+    > Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni. Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.
+
+4. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
+5. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+6. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+7. Setja upp og virkja Modern POS fyrir Windows.
+8. Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.
 
 ### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð
 
 Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS með vélbúnaðarstöð sem aðeins notuð í einum POS afgreiðslukassa. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
 
-1.  Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
-2.  Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.
-3.  Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:
-    -   **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra. **Athugasemd:** Cloud POS getur leyst **staðarhýslinum** til að ákvarða tölvunni sem keyrir Cloud POS. Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar. Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum. Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.
-    -   **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
-    -   **Vélbúnaðarregla** – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.
-    -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
-    -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+1. Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.
+2. Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.
+3. Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:
 
-4.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-5.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-6.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-8.  Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
-9.  Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
+    - **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.
+
+        > [!NOTE]
+        > Cloud POS getur leyst **staðarhýsilinn** til að ákvarða staðbundnu tölvuna sem keyrir Cloud POS. Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar. Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum. Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.
+
+    - **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
+    - **Vélbúnaðarregla** – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.
+    - **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
+    - **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+
+4. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
+5. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+6. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+7. Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
+8. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
+9. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 10. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
 11. Smellið á **Stjórna**.
 12. Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.
@@ -516,66 +577,85 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 
 Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS sem deila vélbúnaðarstöðvum með öðrum tækjum. Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.
 
-1.  Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.
-2.  Stofna vélbúnaðarstöð af gerðinni **Samnýtt** fyrir verslunina þar sem afgreiðslukassinn verður notað.
-3.  Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:
-    -   **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.
-    -   **Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.
-    -   **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
-    -   **Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu. Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð. Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð. Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.
-    -   **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
-    -   **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+1. Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.
+2. Stofna vélbúnaðarstöð af gerðinni **Samnýtt** fyrir verslunina þar sem afgreiðslukassinn verður notað.
+3. Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:
 
-4.  Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.
-5.  Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
-6.  Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7.  Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-8.  Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-9.  Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
+    - **Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.
+    - **Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.
+    - **Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.
+    - **Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu. Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð. Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð. Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.
+    - **Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send. Þetta Kenni er veitt með kreditkortagjörvanum.
+    - **Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.
+
+4. Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.
+5. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
+6. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+7. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+8. Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
+9. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
 10. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 11. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
-
 12. Smellið á **Stjórna**.
 13. Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.
 14. Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.
 15. Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.
 16. Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á **Loka**.
-17. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka. **Athugasemd:** Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
+17. Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.
+
+    > [!NOTE]
+    > Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
 
 ## <a name="extensibility"></a>Stækkunarhæfni
+
 Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).
 
 ## <a name="security"></a>Öryggi
-Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi: **Athugasemd:** Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.
 
--   Secure Sockets Layer (SSL) ætti að gera óvirkt.
--   Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð. **Athugasemd:** Sjálfgefið er að SSL og allar útgáfa af TLS nema TLS 1.2 eru afvirkjuð. Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:
-    1.  Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.
-    2.  Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.
-    3.  Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.
-    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.
--   Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.
--   Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.
+Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi:
 
-**Athugasemd:** Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir Greiðslu Korts Atvinnugrein (PCI).
+> [!NOTE]
+> Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.
+
+- Secure Sockets Layer (SSL) ætti að gera óvirkt.
+- Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð.
+
+    > [!NOTE]
+    > Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvirkar.
+
+    Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:
+
+    1. Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.
+    2. Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.
+    3. Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.
+    4. Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
+
+        - TLS 1.2Server:Enabled=1
+        - TLS 1.2Server:DisabledByDefault=0
+        - TLS 1.2Client:Enabled=1
+        - TLS 1.2Client:DisabledByDefault=0
+        - TLS 1.1Server:Enabled=0
+        - TLS 1.1Client:Enabled=0
+        - TLS 1.0Server:Enabled=0
+        - TLS 1.0Client:Enabled=0
+        - SSL 3.0Server:Enabled=0
+        - SSL 3.0Client:Enabled=0
+        - SSL 2.0Server:Enabled=0
+        - SSL 2.0Client:Enabled=0
+
+- Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.
+- Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.
+- Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.
+
+> [!NOTE]
+> Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir greiðslukortageirans (PCI).
 
 ## <a name="peripheral-simulator"></a>Jaðarbúnaður
+
 Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Jaðartæki Microsoft-tested
+
 ### <a name="ipc-built-in-hardware-station"></a>IPC (innbyggð) vélbúnaðarstöð
 
 Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.
@@ -725,7 +805,10 @@ Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki sam
 
 ### <a name="shared-iis-hardware-station"></a>Samnýtt IIS vélbúnaðarstöð
 
-Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS. **Athugasemd:** Aðeins prentari, afgreiðslustöð og peningaskúffu eru studd.
+Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS.
+
+> [!NOTE]
+> Aðeins prentari, greiðslustöð og peningaskúffa eru studd.
 
 #### <a name="printer"></a>Prentari
 
@@ -754,22 +837,25 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 | HP           | QT457AA   | OPOS      |                       |
 
 ## <a name="troubleshooting"></a>Úrræðaleit
+
 ### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS getur fundið vélbúnaðarstöðina á lista sínum yfir val, en það getur ekki lokið við pörun
 
 **Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:
 
--   Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
-    -   Til að sannreyna þessi uppsetning í vefvafra, fara á eftirfarandi SLÓÐ: https://&lt;Tölvuheiti&gt;:&lt;Tengisnúmer&gt;/HardwareStation /, ping-boð.
-    -   Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis í Internet Explorer birtist lástáknið í aðseturslínunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
--   Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
--   Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.
+- Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
+
+    - Til að sannreyna þessa uppsetningu í vefvafra skal fara á eftirfarandi slóð: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.
+    - Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis í Internet Explorer birtist lástáknið í aðseturslínunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
+
+- Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
+- Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.
 
 ### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS getur ekki fundið vélbúnaðarstöðina á lista sínum yfir val
 
 **Lausn:** Annaðhvort eftirfarandi þáttum getur valdið vandamálið:
 
--   Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum. Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.
--   Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar. Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.
+- Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum. Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.
+- Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar. Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS endurspegla ekki nýjum stillingum peningaskúffu
 
@@ -779,33 +865,33 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 
 **Lausn:** Hér eru sumar dæmigerðar orsakir vandamálsins:
 
--   Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað. Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.
--   Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:
-    -   Peningaskúffa
-    -   Kvittanaprentari
-    -   Greiðslustöð
+- Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað. Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.
+- Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:
+
+    - Peningaskúffa
+    - Kvittanaprentari
+    - Greiðslustöð
 
     Ef jaðarbúnaðurinn tilheyrir ekki þessara tegunda, er vélbúnaðarstöðin ekki hönnuð til að virkja að jaðarbúnaðurinn sé samnýttar á milli margra POS-tæki.
--   Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt. Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti. Til að sækja almenna stýrihluti skal fara á <http://monroecs.com/oposccos_current.htm>.
--   Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig. Það er gert með því að fylgja þessum skrefum:
-    1.  Úr valmyndinni **Ræsa** skal rita **CMD**.
-    2.  Í leitarniðurstöðum, hægrismellt **skipanakvaðningu**, og smellið síðan á **Keyra sem kerfisstjóri**.
-    3.  Í glugganum **skipunarkvaðning**, sláið inn **iisreset/Restart** og styðjið á færslulykilinn.
-    4.  Endurræsa Modern POS eftir IIS hefur verið endurræst.
--   Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu. Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu. Til að loka DLL host, skal fylgja þessum skrefum:
-    1.  Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.
-    2.  Í leitarniðurstöðum, smellið á **stjórnanda Verks**.
-    3.  Í stjórnanda Verks, á við **Upplýsingar** flipanum, smellið á haus dálksins sem merktur er **Heiti** til að raða í töflu í stafrófsröð eftir heiti.
-    4.  Flettu niður þar til þú finnur dllhost.exe.
-    5.  Veljið hvern DLL-hýsil og smellið síðan á **Ljúka verki**.
-    6.  Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.
 
+- Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt. Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti. Til að sækja almenna stýrihluti skal fara á <http://monroecs.com/oposccos_current.htm>.
+- Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig. Það er gert með því að fylgja þessum skrefum:
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+    1. Úr valmyndinni **Ræsa** skal rita **CMD**.
+    2. Í leitarniðurstöðum, hægrismellt **skipanakvaðningu**, og smellið síðan á **Keyra sem kerfisstjóri**.
+    3. Í glugganum **skipunarkvaðning**, sláið inn **iisreset/Restart** og styðjið á færslulykilinn.
+    4. Endurræsa Modern POS eftir IIS hefur verið endurræst.
+
+- Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu. Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu. Til að loka DLL host, skal fylgja þessum skrefum:
+
+    1. Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.
+    2. Í leitarniðurstöðum, smellið á **stjórnanda Verks**.
+    3. Í stjórnanda Verks, á við **Upplýsingar** flipanum, smellið á haus dálksins sem merktur er **Heiti** til að raða í töflu í stafrófsröð eftir heiti.
+    4. Flettu niður þar til þú finnur dllhost.exe.
+    5. Veljið hvern DLL-hýsil og smellið síðan á **Ljúka verki**.
+    6. Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Smásölujaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
-
-
-
 
