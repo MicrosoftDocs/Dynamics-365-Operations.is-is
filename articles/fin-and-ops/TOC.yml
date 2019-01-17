@@ -25,16 +25,16 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Staðlaðar útgáfur og markútgáfur verkvangs
+            - name: Uppfærsluþjónusta staðlaðrar og fyrstu útgáfu
               href: get-started/public-preview-releases.md
             - name: Kaupa Finance and Operations
               items:
-                - name: Kaupa Finance and Operations (á staðnum)
+                - name: Kaupa Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: Nýjungar eða breytingar
           href: get-started/whats-new-changed.md
           items:
-            - name: Algengar spurningar um uppfærslureglur One Version
+            - name: Algengar spurningar um uppfærslureglur One version
               href: get-started/one-version.md
             - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
@@ -48,13 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
-            - name: 'Finance and Operations, útgáfa 8.1.3 (desember 2018)'
+            - name: 'Finance and Operations, útgáfa 8.1.3 (janúar 2019)'
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (desember 2018)
+            - name: Platform update 23 (janúar 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (nóvember 2018)
+            - name: Verkvangsuppfærsla 22 (desember 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: 'Finance and Operations, útgáfa 8.1.2 (nóvember 2018)'
+            - name: 'Finance and Operations, útgáfa 8.1.2 (desember 2018)'
               href: get-started/whats-new-changed-8-1-2.md
             - name: 'Finance and Operations, útgáfa 8.1.1 (október 2018)'
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Samstilla verklista úr Finance and Operations við Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Samstilla vöruhús úr Finance and Operations við Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Samstilla vinnupantanir úr Finance and Operations við Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Skilgreina samþættingu Project Service Automation
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Samstilla rauntölur verks og færslubók verksamþættingar
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Notkun ytri vefþjónustu
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Notkun ytri vefþjónustu
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Gagnastjórnun
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,6 +417,8 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Gera einingaverslun tiltæka sem Data Lake
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Sniðmát skilgreiningargagna
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Rekja breytingar til einingar
@@ -529,9 +543,11 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Skilgreina uppgjör
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Gera upp eftirstöðvar
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Greiðsluyfirlit lánardrottins
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
-                - name: Vinnusvæði fyrir lánardrottnagreiðslur
+                - name: Vinnusvæði fyrir greiðslur lánardrottna
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: Tilgreina meðalgengi
                   href: ../financials/accounts-payable/specify-cross-rate.md
@@ -2103,8 +2119,6 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Bóka reikning með frjálsum texta
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: 'Búa til mexíkóska rafræna bókhaldsskýrslu fjárhags, útgáfu 1.1'
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Setja upp færibreytur fyrir rafrænan reikning
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: Setja upp VSK-kóða fyrir Mexíkó
@@ -2429,7 +2443,7 @@
           items:
             - name: Stjórnun fríðindaáætlunar
               href: ../talent/manage-benefit-program.md
-            - name: Stefnur um hæfni til fríðinda
+            - name: Reglur um hæfni til fríðinda
               href: ../talent/benefit-eligibility-policies.md
             - name: Ferli tengt hæfni til fríðinda
               href: hr/tasks/benefit-eligibility-process.md
@@ -4001,7 +4015,7 @@
       items:
         - name: Flutningsstjórnunarvélar
           href: ../supply-chain/transportation/transportation-management-engines.md
-        - name: Ný flutningsstjórnunarvél stofnuð
+        - name: Stofna nýja flutningsstjórnunarvél
           href: ../supply-chain/transportation/create-new-transportation-management-engine.md
         - name: Tengja eldsneytisvísi flutningsaðila sem aukagjald
           href: ../supply-chain/transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md

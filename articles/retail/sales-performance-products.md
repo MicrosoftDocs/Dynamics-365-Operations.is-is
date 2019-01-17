@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Microsoft Dynamics 365 for Retail. 
+Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Microsoft Dynamics 365 for Retail.
 
 Hluti af Dynamics 365 for Retail er að notendur geta einnig skoðað arðsemisgreiningu stærstu varanna (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
--   Söluupphæð
--   Magn
--   Brúttóhagnaðarhlutfall
--   Framlegðarprósenta
+- Söluupphæð
+- Magn
+- Brúttóhagnaðarhlutfall
+- Framlegðarprósenta
 
 Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurnar** skýrsluna sem hægt er að opna úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
--   **Flokka- og vörustjórnun** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
-
-
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
+- **Flokka- og vörustjórnun** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
 

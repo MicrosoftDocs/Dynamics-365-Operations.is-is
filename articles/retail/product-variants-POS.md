@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Hægt er að opna síðuna **Uppfletting birgða** frá vinnusvæðinu **Retail 
 
 Listinn yfir staðsetningar inniheldur tvær tegundir eininga:
 
-- **Smásöluverslanir** - Listinn sýnir verslanir sem eru skilgreindar með því að nota flokk verslanastaðsetjara fyrir núverandi verslun í höfuðstöðvum Retail. 
-- **Dreifingarmiðstöðvar** - Hægt er að skilgreina ýmis konar dreifingarmiðstöðvar (t.d. vöruhús) í Microsoft Dynamics 365 for Retail. Hins vegar sýnir listinn upplýsingar um birgðaframboð aðeins fyrir dreifingarmiðstöðvar af sjálfgefnu gerðinni **Staðall**. 
+- **Smásöluverslanir** - Listinn sýnir verslanir sem eru skilgreindar með því að nota flokk verslanastaðsetjara fyrir núverandi verslun í höfuðstöðvum Retail.
+- **Dreifingarmiðstöðvar** - Hægt er að skilgreina ýmis konar dreifingarmiðstöðvar (t.d. vöruhús) í Microsoft Dynamics 365 for Retail. Hins vegar sýnir listinn upplýsingar um birgðaframboð aðeins fyrir dreifingarmiðstöðvar af sjálfgefnu gerðinni **Staðall**.
 
     > [!NOTE]
     > Upplýsingar um birgðaframboð eru ekki sýndar fyrir vöruhús af gerðunum **Í flutningi**, **Biðgeymsla** og **Vörur á leið** fyrir POS.
@@ -86,7 +86,7 @@ Veldu **Skoða öll afbrigði** á síðunni **Afurðarlýsingar** fyrir afurða
 | **0** (núll)                             | Afbrigði hefur verið gefið út á valda staðsetningu en varan er ekki tiltæk á valdri staðsetningu. Hins vegar er hægt að framkvæma fleiri aðgerðir í hólfinu. (Þessum aðgerðum er lýst nánar síðar í þessu efnisatriði.) |
 | **Á ekki við** eða óvirkt hólf              | Afbrigði hefur ekki verið gefið út á valda staðsetningu og þú getur ekki framkvæmt fleiri aðgerðir í hólfinu. |
 
-Einnig er hægt að breyta snúningi á víddum með því að velja nýju víddina sem á að nota. 
+Einnig er hægt að breyta snúningi á víddum með því að velja nýju víddina sem á að nota.
 
 ![Breyta snúningi](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Auk þess í yfirlitinu **Víddarbyggt fylki** er hægt að framkvæma fleiri a�
 
 Eftirfarandi tafla veitir frekari upplýsingar um viðbótaraðgerðir sem eru í boði.
 
-
-|        Aðgerð        |                                                                                                                    lýsing                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Selja núna       |                               Bæta völdu vöruafbrigði við færsluna og beindu notandanum á færsluskjáinn. (Þessi aðgerð er ekki í boði þegar valin staðsetning er dreifingarmiðstöð.)                               |
-|   Sækja í verslun   |      Búðu til pöntun viðskiptavinar fyrir afurðarfbrigðið sem verður sótt á valda staðsetningu og beindu notandanum á færsluskjáinn. (Þessi aðgerð er ekki í boði þegar valin staðsetning er dreifingarmiðstöð.)       |
-|     Senda afurð     |                                                 Búðu til pöntun viðskiptavinar fyrir afurðarfbrigðið sem verður sent á valda staðsetningu og beindu notandanum á færsluskjáinn.                                                 |
-|     Framboð     |                                                                             Sýna ATP-upplýsingar fyrir valdar samsetningar afbrigða fyrir valda staðsetningu.                                                                              |
-|  Sýna allar staðsetningar  | Skiptu yfir í staðlað uppflettingaryfirlit birgða og auðkenndu upplýsingar um birgðaframboð á vöruafbrigðinu yfir allar verslanir í flokki verslanastaðsetjara og einnig í dreifingarmiðstöðvum af gerðinni <strong>Staðall/Sjálfgefið</strong>. |
-| Skoða upplýsingar um afurð |                                                                         Beindu notandanum á síðuna <strong>Afurðarupplýsingar</strong> á tengdu afurðarsniðmáti.                                                                          |
-
+| Aðgerð               | lýsing |
+|----------------------|-------------|
+| Selja núna             | Bæta völdu vöruafbrigði við færsluna og beindu notandanum á færsluskjáinn. (Þessi aðgerð er ekki í boði þegar valin staðsetning er dreifingarmiðstöð.) |
+| Sækja í verslun     | Búðu til pöntun viðskiptavinar fyrir afurðarfbrigðið sem verður sótt á valda staðsetningu og beindu notandanum á færsluskjáinn. (Þessi aðgerð er ekki í boði þegar valin staðsetning er dreifingarmiðstöð.) |
+| Senda afurð         | Búðu til pöntun viðskiptavinar fyrir afurðarfbrigðið sem verður sent á valda staðsetningu og beindu notandanum á færsluskjáinn. |
+| Framboð         | Sýna ATP-upplýsingar fyrir valdar samsetningar afbrigða fyrir valda staðsetningu. |
+| Sýna allar staðsetningar   | Skiptu yfir í staðlað uppflettingaryfirlit birgða og auðkenndu upplýsingar um birgðaframboð á vöruafbrigðinu yfir allar verslanir í flokki verslanastaðsetjara og einnig í dreifingarmiðstöðvum af gerðinni **Staðall/Sjálfgefið**. |
+| Skoða upplýsingar um afurð | Beindu notandanum á síðuna **Afurðarupplýsingar** á tengdu afurðarsniðmáti. |
 

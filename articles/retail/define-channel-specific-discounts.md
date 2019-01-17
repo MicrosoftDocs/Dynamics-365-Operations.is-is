@@ -20,10 +20,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0300ed4a10f6979fb673447323f7fdf61041529f
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,10 +31,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás. 
+Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Í þessu efnisatriði eru skoðuð hugtök sem nauðsynlegt er að þekkja til að stofna afslátt fyrir tiltekna rás.
 
-<a name="channel-specific-discounts"></a>Afslættir sem tengjast tilteknum rásum
---------------------------
+## <a name="channel-specific-discounts"></a>Afslættir sem tengjast tilteknum rásum
 
 Smásalar bjóða oft mismunandi afslætti á mismunandi rásum. Þetta er getur verið gert til að ná til staðbundinna markaðsaðstæðna eða takast á við smásala í samkeppni.
 
@@ -46,27 +45,22 @@ Microsoft Dynamics 365 for Retail notar verðflokka til að skilgreina rásarafs
 
 Skýringarmyndin að ofan sýnir tengslin á milli aðila sem geta verið á færslum (rásar, vörulista, sambands, viðskiptavinur, vildarkort) og mismunandi afsláttargerðir sem má stilla. Allar færslur eiga sér stað í rás, svo tryggt er að rás verði til staðar á færslu. Eftirstandandi einingar eru valkvæðar. Á öllum síðum aðalgagna er tengill við tengdar verðflokkasíðu þar sem hægt er að skoða og bæta við verðflokkar eftir þörfum. Verðflokkur er notuð til að tengjast fjórar tegundir eininga við afslætti, verðleiðréttingar og viðskiptasamninga. Ráðlagt er að undirbúa aðferð um það hvernig þú nefnir verðflokkana þína til að hafa þá skipulagða. Einn valkostur væri að nota bókstaf eða númersforskeyti eða viðskeyti til að greina milli mismunandi gerðum. Til dæmis 1-xxxxx fyrir verðflokka rásar og 2-xxxxx fyrir verðflokka vörulista. Til eru fjórar fyrirspurnarsíður sem áherslu leggja á hverja smásölueiningu sem geta verið með afslætti tengda við sig.
 
--   **Verðflokkar rásar í smásölu** - Þessi síða sýnir lista yfir rásir og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar vörulista** - Þessi síða sýnir lista yfir vörulista og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar vildarkerfis** - Þessi síða sýnir lista yfir vildarkerfi og afslætti sem eru tengdar saman fyrir hvern verðflokk.
--   **Verðflokkar tengsla** - Þessi síða sýnir lista yfir tengst og afslætti sem eru tengdar saman fyrir hvern verðflokk.
+- **Verðflokkar rásar í smásölu** – Þessi síða sýnir lista yfir rásir og afslætti sem eru tengdar saman fyrir hvern verðflokk.
+- **Verðflokkar vörulista** – Þessi síða sýnir lista yfir vörulista og afslætti sem eru tengdar saman fyrir hvern verðflokk.
+- **Verðflokkar vildarkerfis** – Þessi síða sýnir lista yfir vildarkerfi og afslætti sem eru tengdar saman fyrir hvern verðflokk.
+- **Verðflokkar tengsla** – Þessi síða sýnir lista yfir tengsl og afslætti sem eru tengdar saman fyrir hvern verðflokk.
 
 ## <a name="example-channel-discount-set-up"></a>Uppsetning afsláttar fyrir dæmarás
+
 Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rásar.
 
-1.  Í þessu dæmi ertu með rás sem kallast **Houston**, og það er verið að stofna nýjan afslátt kallaðan **Aftur í skólann.**
-2.  Þar sem stjórnunarstefna verðs og afsláttar inniheldur möguleika á afslætti fyrir rás, er alltaf stofnaður verðflokk bundnum við rás þegar rás er stofnuð.
-3.  Verðflokkurinn er **Houston-PG** og er úthlutað á **Houston** rás.
-4.  Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu. **Afsláttarverðflokka** síðan opnast. Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.
-5.  Nú hægt að virkja afsláttinn og færa hann í rás.
+1. Í þessu dæmi ertu með rás sem kallast **Houston**, og það er verið að stofna nýjan afslátt kallaðan **Aftur í skólann**.
+2. Þar sem stjórnunarstefna verðs og afsláttar inniheldur möguleika á afslætti fyrir rás, er alltaf stofnaður verðflokk bundnum við rás þegar rás er stofnuð.
+3. Verðflokkurinn er **Houston-PG** og er úthlutað á **Houston** rás.
+4. Eftir að Búið er að stofna nýja **aftur í skólann** afsláttur, þarf að smella á **Verðflokkar** efst í **Afsláttur** síðu. **Afsláttarverðflokka** síðan opnast. Smellið því næst á **Nýtt** og velja **Houston -PG** verðflokk.
+5. Nú hægt að virkja afsláttinn og færa hann í rás.
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
-
-
-
 

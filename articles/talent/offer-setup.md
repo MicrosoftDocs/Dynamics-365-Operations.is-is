@@ -3,7 +3,7 @@ title: "Setja upp stjórnun tilboða"
 description: "Þetta efni lýsir því hvernig á að setja upp tilboð í Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Setja upp stjórnun tilboða 
@@ -105,7 +105,7 @@ Til að hlaða upp regluskrá tilboðsgagnanna skaltu gera eftirfarandi.
 
 1.  Þú getur eytt núverandi reglusetti ef staðsetningin sem er skilgreind er ekki notuð í öðru sniðmáti skjals.
 
->[!ATHUGASEMD]
+>[!NOTE]
 > - Hver staðgengill getur aðeins haft eitt einstakt sett af dálkum sem það er háð. Til dæmis, ef **Árslaun** er háð **Staðsetning starfs** og **Stig**, getur þú ekki hlaðið inn öðru reglusetti þar sem **Árslaun** er háð mismunandi settum dálkum.
 
 > - Þú getur sótt sýnishorn af reglusettum tilboðsgagna á flipanum **Sýnishorn** á **Reglur um tilboðsgögn** síðu.
@@ -136,7 +136,7 @@ Til að búa til sniðmát tilboðsskjals skaltu gera eftirfarandi.
 
     - Festir staðgengil tilboðsgagna beint á sinn stað. Sláðu inn **\#** og byrjaðu síðan að slá inn heiti staðgengils tilboðsgagna. Valkostir birtast í fellilistanum. Smelltu eða ýttu á **Sláðu inn** til að setja inn staðgengil tilboðsgagna.
 
-    >[!ATHUGASEMD]
+    >[!NOTE]
     > - Til að tengja staðgengil við sniðmát tilboðsskjalsins án þess að sýna umsækjanda gildi þess, settu bendilinn yfir staðgengil tilboðsgagna og smelltu á **Festa** táknið. Þetta mun ýta staðgenglinum í **Fest tilboðsgögn** hluta sniðmáts tilboðsgagnanna. Til að taka burt skaltu fylgja sömu skrefum en smelltu **Taka burt** í listanum yfir staðgengla tilboðsgagna.
 
     > - Til að skoða lista yfir virka staðgengla tilboðsgagna, skipta yfir í **Virk** flipann hægra megin í glugganum.
@@ -175,7 +175,7 @@ Tilboðspakkar eru tilboðsgervingar sem eru deilt með umsækjanda og samanstan
 
 1.  Smelltu **Bæta við sniðmáti**.
 
-    >[!ATHUGASEMD]
+    >[!NOTE]
     > - Þú getur valið að búa til nýtt sniðmát eða velja úr núverandi.
 
     > - Ef þú velur að bæta við núverandi sniðmáti þarftu að ganga úr skugga um að sniðmát tilboðsskjalsins hafi verið vistað, lokað og merkt sem virkt.
@@ -198,8 +198,10 @@ Tilboðspakkar eru tilboðsgervingar sem eru deilt með umsækjanda og samanstan
 
 - **Tilboðsupplifun umsækjanda**- Sem stjórnandi getur þú valið að stilla hvort öll tilboð séu með lokadag, og ef svo er, hvaða sjálfgefni mótlykill fyrir lokadag ætti að vera. Þú getur einnig stillt hvort umsækjendur geta hafnað tilboðinu.
 
-- **Rafrænar undirskriftir**- Nú er eina rafræna undirskriftin í boði fyrir umsækjendur til að slá inn nafn sitt í tilboðspakka meðan tilboðið er samþykkt. Við munum kynna samþættingu samstarfsaðila við aðrar veitur rafrænna undirskrifta í framtíðinni.
+- **Rafrænar undirskriftir** - Sem stjórnandi getur þú einnig valið aðferðina sem umsækjendur geta notað til að undirrita tilboð.
+    - Adobe Sign - Allir tilboðspakkar verða sendir og undirritaðir með Adobe Sign. Stofnendur tilboða sem gefur út tilboðið verða að hafa Adobe Sign leyfið sitt tengt við Attract. 
 
+    - ESign - Þetta er sjálfgefinn valkostur, sem fylgir beint úr kassanum, þar sem notandinn getur skrifað undir tilboð með því að slá inn nafn og upphafsstafi.
 
 Til að læra meira um stofnunarferli tilboðs, sjá [Stofna, samþykkja og undirrita tilboð](./creating-offers.md).
 

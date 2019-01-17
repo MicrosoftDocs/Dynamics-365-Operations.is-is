@@ -3,7 +3,7 @@ title: "Fjárhagsvíddir"
 description: "Þessi efnisgrein lýsir ýmsum gerðum fjárhagsvídda og hvernig þær eru settar upp."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: is-is
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Ef einhverjum skilyrðum er mætt er ekki hægt að eyða fjárhagsvíddinni.
 Þessum eiginleika er stjórnað af stillingu í víddinni. Þessi stilling er nefnd **Afrita gildi í þessa vídd fyrir hvert nýtt DimensionName sem er búið til** þar sem **DimensionName** er nafn víddarinnar. Sjálfgefið er að slökkt sé á stillingunni. Hins vegar er hægt að kveikja á henni hvenær sem er.
 
 Ef skrár eru til fyrir víddina eru aðalskrárnar uppfærðar þegar þú kveikir á eiginleikanum. Hins vegar eru núverandi skjöl og færslur ekki uppfærðar.
+
+Ef notað er sniðmát til að stofna aðalskrá skal tryggja að gildi sniðmátsins fyrir aðalvíddina sé autt. Til dæmis ef stofnaðir eru viðskiptavinir úr sniðmáti skal tryggja að vídd viðskiptavinar í sniðmáti sé auð. Víddargildi viðskiptavinar er sjálfgefið úr nýju númeri viðskiptavinar þegar nýr viðskiptavinur er stofnaður.  
 
 ## <a name="derived-dimensions"></a>Afleiddar víddir
 

@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 *Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations geta eigindi tengst ýmsum Retail eigindum, svo sem afurðaflokkum og smásölurásum og hægt er að stilla sjálfgildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
- 
+
 Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 
 | Tegund   | Eigind                | Möguleg gildi eru:          | Sjálfgildi |
@@ -48,9 +48,9 @@ Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 | LCD        | 3D Ready                 | Já eða Nei                   | Já           |
 |            | 3D virkjað               | Já eða Nei                   | Númer            |
 | Plasma     | Rekstrarhitastig frá      | 32–110 gráður              | 32            |
-|            | Rekstrarhitastig til        | 32–110 gráður              | 100           |
+|            | Rekstrarhitastig til        | 32–110 gráður              | 10.000           |
 | Projection | Ábyrgð á túbuskjá | 6, 12 eða 18 mánuðir         | 12            |
-|            | # túbuskjáa    | 1–5                         | 3             |
+|            | \# á túbuskjám   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Eigindir og gerðir eiginda
 
@@ -90,7 +90,7 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
 
 Fyrir smásöluafurðir er hægt að hnekkja á lýsigögnum eiginda á stigi rásar. Fjallað verður um þennan möguleika síðar í þessu efnissatriði.
 
-Eins og þú kannski tekur eftir inniheldur síðan **Eigindir** valkosti sem tengjast lýsigögnum eiginda. Undir **Lýsigögn eiginda fyrir sölustaði** hefur einn valkostur sem heitir **„Hægt að fínstilla“** áhrif á virkni eigindagilda á smásölustað (POS) eða hvernig kerfið meðhöndlar þessi eigindargildi. Aðeins eigindir þar sem hægt er að stilla valkostinn **„Hægt að fínstilla“** á **„Já“** munu birtast fyrir fínstillingu eða síun á vörum í smásölustað.
+Eins og þú kannski tekur eftir inniheldur síðan **Eigindir** valkosti sem tengjast lýsigögnum eiginda. Undir **Lýsigögn eiginda fyrir sölustaði** hefur einn valkostur sem heitir **Hægt að fínstilla** áhrif á virkni eigindagilda á smásölustað eða það hvernig kerfið meðhöndlar þessi eigindargildi. Aðeins eigindir þar sem hægt er að stilla valkostinn **Hægt að fínstilla** á **Já** munu birtast fyrir fínstillingu eða síun á afurðum á Retail POS.
 
 Hér eru eftirstandandi valkostir fyrir lýsigögn eiginda á síðunni **Eigindir**:
 
@@ -104,7 +104,7 @@ Hér eru eftirstandandi valkostir fyrir lýsigögn eiginda á síðunni **Eigind
 
 Þessum valkostum var upphaflega ætlað að bæta leitarvirknina fyrir netverslunina. Þó að Finance and Operations feli ekki í sér netverslun beint úr kassanum, þá felur það í sér eCommerce Publishing Software Development Kit (SDK). Viðskiptavinir geta notað SDK til að setja afurðir inn í leitaratriðaskrá að eigin vali. Þótt afurðargögnin séu flutt inn ætti viðskiptavinurinn samt að geta greint leitanleg gögn, gögn sem hægt er að spyrjast fyrir um og svo framvegis. Þannig geta þeir byggt upp sem hagkvæmasta atriðaskrá til að tryggja að þeir vísi aðeins í eigindir sem *að þeirra mati* ættu að vera atriðaskráðar.
 
-Til að fá upplýsingar um tilgang hinna valkostanna, sjá [Yfirlit yfir leitarskema í SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Til að fá upplýsingar um tilgang hinna valkostanna, sjá [Yfirlit yfir leitarskema í SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Síustillingar fyrir eigindir
 
@@ -121,7 +121,7 @@ Síðan **Kjörstillingar á síubirtingu** inniheldur eftirfarandi svæði:
 - **Birtingarstjórnun** – Eftirtaldir valkostir eru í boði:
 
     - **Listi** – Þessi valkostur er tiltækur fyrir allar gerðir eiginda.
-    - **Svið** – Þessi valkostur er tiltækur fyrir eftirfarandi gerðir eiginda: **Gjaldmiðil**, **Tugastaf** og **Heiltölu**. 
+    - **Svið** – Þessi valkostur er tiltækur fyrir eftirfarandi gerðir eiginda: **Gjaldmiðil**, **Tugastaf** og **Heiltölu**.
     - **Sleði** – Þessi valkostur er tiltækur fyrir eftirfarandi gerðir eiginda: **Gjaldmiðil**, **Tugastaf** og **Heiltölu**.
     - **Sleði með stiku** – Þessi valkostur er tiltækur fyrir eftirfarandi gerðir eiginda: **Gjaldmiðil**, **Tugastaf** og **Heiltölu**.
 
@@ -228,13 +228,13 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 5. Á flýtiflipanum **Afurðir** skal velja nauðsynlega afurð og velja síðan **Eigindir** fyrir ofan afurðarhnit.
 6. Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:
 
-   - Sameiginlegir afurðamiðlar
-   - Eigindi samnýttrar afurðar
-   - Miðlar rásar
-   - Afurðareigindir rásar
+    - Sameiginlegir afurðamiðlar
+    - Eigindi samnýttrar afurðar
+    - Miðlar rásar
+    - Afurðareigindir rásar
 
-     > [!NOTE]
-     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+    > [!NOTE]
+    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
 
 ![Vörulisti yfir eigindaflokka afurðar](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 
 5. Á eftirfarandi flýtiflipa skal upfæra gildin á nauðsynlegum eigindum:
 
-   - Sameiginlegir afurðamiðlar
-   - Eigindi samnýttrar afurðar
-   - Miðlar rásar
-   - Afurðareigindir rásar
+    - Sameiginlegir afurðamiðlar
+    - Eigindi samnýttrar afurðar
+    - Miðlar rásar
+    - Afurðareigindir rásar
 
-     > [!NOTE]
-     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+    > [!NOTE]
+    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
 

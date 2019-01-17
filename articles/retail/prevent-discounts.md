@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
 ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 
@@ -35,11 +35,11 @@ ms.lasthandoff: 08/29/2018
 
 Eftirfarandi valmöguleikar, sem finna má á **Smásala** flipa útgefinna vara, gerir þér kleift að forða vörunni frá öllum afslætti eða handvirkum afslætti. Stillingarnar geta líka verið tilgreindar á stigi flokka frá stigveldi smásöluflokka.
 
-**Engir afslættir leyfðir**: Veldu þennan valkost til að tryggja að engin tegund afsláttar verði sett á vöruna. Þetta á við um kynningartilboð eins og blandað tilboð, magn- eða þröskuldaafslætti, sem og handvirka línu- og færsluafslætti sem eru settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar.
+- **Engir afslættir leyfðir** – Veldu þennan valkost til að tryggja að engin tegund afsláttar verði sett á vöruna. Þetta á við um kynningartilboð eins og blandað tilboð, magn- eða þröskuldaafslætti, sem og handvirka línu- og færsluafslætti sem eru settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar.
+- **Engir handvirkir afslættir leyfðir** – Veldu þennan valkost aðeins til að koma í veg fyrir að handvirkir línu- eða færsluafslættir séu settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar. Vörur með þennan valkost valinn eru samt sem áður tækar til kynningartilboðs, eins og blandað tilboð, magn- og þröskuldatilboð.
 
-**Engir handvirkir aflsættir leyfðir**: Veldu þennan valkost aðeins til að koma í veg fyrir að handvirkir línu- eða færsluafslættir sé settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar. Vörur með þennan valkost valinn eru samt sem áður tækar til kynningartilboðs, eins og blandað tilboð, magn- og þröskuldatilboð.
+> [!NOTE]
+> Þessar stillingar takmarka ekki aðgerðina að hnekkja verði, vegna þess að hún setur grunnverð og er ekki meðhöndluð sem afsláttur.
 
-**Athugið**: Þessar stillingar takmarka ekki aðgerðina að hnekkja verði, vegna þess að hún setur grunnverð og er ekki meðhöndluð sem afsláttur.  
-
-[![koma í veg fyrir afslætti reitur](./media/prevent discounts.png)](./media/prevent discounts.png)
+[![koma í veg fyrir afslætti reitur](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 

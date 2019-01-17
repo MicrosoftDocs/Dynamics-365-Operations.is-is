@@ -34,42 +34,46 @@ ms.lasthandoff: 11/14/2017
 Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einingu gerð einingar.
 
 ## <a name="tasks"></a>Verk
+
 *Verkefni* er vinnueining sem þarf að vinna. Tvær gerðir af verkum má bæta við verkflæði: handvirk verk og sjálfvirk verk.
 
 ### <a name="manual-task"></a>Handvirk verk
 
 *Handvirkt Verkefni* er vinnueining sem notandinn þarf að vinna. Til dæmis getur verkflæði kostnaðarskýrslu haft handvirkt verk sem krefjast þess af skráðum notendum að ljúka eftirfarandi aðgerðum:
 
--   Endurskoða innhreyfingarnar sem eru sendar með kostnaðarskýrslu.
--   Hringjá í yfirmann starfsmanns
+- Endurskoða innhreyfingarnar sem eru sendar með kostnaðarskýrslu.
+- Hringjá í yfirmann starfsmanns
 
 ### <a name="automated-task"></a>Sjálfvirkt verk
 
 *Sjálfvirkt Verkefni* er vinnueining sem kerfið þarf að vinna. Engin mannleg samskipti eru nauðsynleg. Til dæmis getur verkflæði sölupöntunar haft sjálfvirkt verk sem krefjast þess af kerfinu að ljúka eftirfarandi aðgerðum:
 
--   Framkvæma athugun á lánamarki.
--   Stofna færsla viðskiptavinar fyrir viðskiptavininn, ef færsla er ekki þegar til.
+- Framkvæma athugun á lánamarki.
+- Stofna færsla viðskiptavinar fyrir viðskiptavininn, ef færsla er ekki þegar til.
 
 ## <a name="approval-processes"></a>samþykktarferli
+
 *Samþykktarferli* er ferli felur í sér nokkur skref. Notandinn á hverju samþykktarskrefi getur framkvæmt eftirfarandi aðgerðir:
 
--   Samþykkja skjalið.
--   Hafna skjalinu.
--   Biðja um breytingu á skjalinu.
--   Úthluta skjalinu til annars notanda til samþykktar.
+- Samþykkja skjalið.
+- Hafna skjalinu.
+- Biðja um breytingu á skjalinu.
+- Úthluta skjalinu til annars notanda til samþykktar.
 
 ## <a name="line-item-workflow-elements"></a>Verkflæðiseining línuatriðis
+
 Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala.
 
-![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif) 
+![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif)
 
 Í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:
 
--   **verkflæði línuatriðis 1** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 1111.
--   **Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.
--   **Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.
+- **verkflæði línuatriðis 1** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 1111.
+- **Verkflæði línuatriðis 2** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 2222.
+- **Verkflæði línuatriðis 3** – Þetta verkflæði er notað til að vinna línuatriði þar sem verkkennið er 3333.
 
 ## <a name="flow-control-elements"></a>Einingar flæðistýringar
+
 Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar greinar eða greinar sem keyra á sama tíma.
 
 ### <a name="manual-decision"></a>Handvirk ákvörðun
@@ -87,7 +91,4 @@ Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar gr
 ### <a name="subworkflow"></a>Undirverkflæði
 
 *Undirverkflæði* er verkflæði sem keirir í samhengi við annað yfirverkflæði.
-
-
-
 

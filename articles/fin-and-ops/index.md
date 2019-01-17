@@ -51,7 +51,7 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Innleiðing verkefnis</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Undirbúningur fyrir keyrslu</a></p>
-  
+
 <h3><a href="../financials/index.md">Fjármálastjórnun</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Viðskiptaskuldir</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Viðskiptakröfur</a></p>
@@ -65,7 +65,7 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <p><a href="../financials/public-sector/public-sector-functionality.md">Opinber geiri</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Svæðisbundnir eftirlitseiginleikar</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Mannauður</a></h3>
+<h3><a href="hr/hr-landing-page.md">Mannauður</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Fríðindi</a></p>
 <p><a href="../talent/performance-management-overview.md">Þróun og þjálfun starfsmanns</a></p>
 <p><a href="../talent/questionnaires.md">Spurningalisti</a></p>

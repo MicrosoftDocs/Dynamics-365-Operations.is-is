@@ -34,11 +34,13 @@ Viðvaranir skapa tilkynningarkerfi fyrir mikilvæga atburði í Microsoft Dynam
 Í áætlunar- og bókhaldskerfi (ERP) eru nokkrar dæmigerðar aðstæður þar sem hægt er að nota viðvörunareiginleikann í Finance and Operations. Hér eru nokkur dæmi.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Dæmi 1: Búðu til viðvörunarreglu fyrir nýjar sölupantanir
+
 1. Opnaðu síðuna **Allar sölupantanir**.
 2. Á aðgerðasvæðinu, á flipanum **Valkostir** í flokknum **Deila** skal velja **Búa til sérsniðna viðvörun**.
 3. Í svarglugganum **Búa til viðvörunarreglu**, á flýtiflipanum **Láta mig vita þegar**, í reitnum **Atvik** skal velja **Færsla hefur verið búin til**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Dæmi 2: Búðu til viðvörunarreglu um frestun á afhendingardegi
+
 1. Opnaðu síðuna **Allar innkaupapantanir**.
 2. Veldu kenni innkaupapöntunar til að fá aðgang að upplýsingum um innkaupapöntunina.
 3. Stækkaðu flýtiflipann **Haus innkaupapöntunar**.
@@ -49,6 +51,7 @@ Viðvaranir skapa tilkynningarkerfi fyrir mikilvæga atburði í Microsoft Dynam
 Eftir að þú hefur lokað svarglugganum **Búa til viðvörunarreglu** birtist reglan þín á síðunni **Stjórna viðvörunarreglum**. Þú getur notað síðuna **Stjórna viðvörunarreglum** til að uppfæra núverandi viðvörunarreglur. Til dæmis getur þú breytt atburðakveikjum, uppfært tilkynningar um viðburði og uppfært lokadagsetningar. Til að opna síðuna **Stjórna viðvörunarreglum** skal nota hnappinn **Láta mig vita þegar** á flipanum **Valkostir** á aðgerðasvæðinu.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Hvað gerist þegar viðvörunarregla er búin til?
+
 Þegar þú býrð til viðvörunarreglur getur þú tengt fyrirframskilgreint atvik við tiltekinn reit. Til dæmis þegar kemur að dagsetningunni sem tilgreind er í reitnum eða innihald reitsins breytist. Að öðrum kosti er hægt að tengja atvik við færslurnar á tiltekinni síðu. Til dæmis þegar færsla er búin til eða færslu er eytt.
 
 Þegar valið atvik á sér stað fyrir reitinn eða fyrir færslu á síðunni er viðvörun send á þig. Til dæmis, getur þú búið til reglu sem þú tengir reitinn **Afhendingardagur** á tiltekinni innkaupapöntunarlínu við atvikið **var komið á tíma fyrir þetta löngum tíma síðan**. Þú stillir tímarammann í fimm daga. Í þessu tilviki er viðvörun send fimm dögum eftir afhendingardag á þessari innkaupapöntunarlínu.
@@ -56,9 +59,11 @@ Eftir að þú hefur lokað svarglugganum **Búa til viðvörunarreglu** birtist
 Að auki geturðu þrengt viðvörunarreglur með því að setja skilyrði. Til dæmis getur þú fengið viðvörun um nýjar innkaupapantanir sem eru búnar til fyrir tiltekna lánardrottnalykla.
 
 ## <a name="preparing-for-an-alert"></a>Undirbúningur fyrir viðvörun
+
 Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir. Þegar þú veist hvaða atvik þú vilt fá tilkynningu um skaltu finna, í Finance and Operations, síðuna með gögnunum sem valda því að atvikið birtist. Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað. Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til. Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.
 
 ## <a name="components-of-an-alert-rule"></a>Hlutar viðvörunarreglu
+
 Viðvörunarregla hefur fimm hluta:
 
 - **Atvik** - Atvikið sem kveikir á viðvörunarregla getur verið dagsetning sem kemur eða tiltekin breyting sem á sér stað. Þú skilgreinir atburði á flýtiflipanum **Senda viðvörun í tölvupósti vegna breytinga á stöðu vinnslu** í svarglugganum **Búa til viðvörunarreglu**.
@@ -71,5 +76,6 @@ Viðvörunarregla hefur fimm hluta:
     > Þessi valkostur er takmarkaður við stjórnendur fyrirtækis.
 
 ## <a name="email-notifications-from-alerts"></a>Tilkynningar í tölvupósti frá viðvörunum
+
 Tilkynningar í tölvupósti frá viðvörunum eru enn ekki virkjaðar. Þetta verður gert virkt í síðari útgáfu.
 

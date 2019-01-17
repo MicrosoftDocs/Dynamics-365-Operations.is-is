@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Sýnishorn af útliti skjás sem fylgja með sýnigögnum Retail bjóða upp á 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Grunnskipulag kennis skjáútlits
 
-Til að finna útlitsgerðir skjás í Retail skal fara í **Smásala**  > **Uppsetningu rásar** > **Uppsetning POS** > **POS** > **Skjáútlit**.
+Til að finna útlitsgerðir skjás í Retail skal fara í **Smásala** \> **Uppsetningu rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
 ![Síða skjáútlits í Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Eftirfarandi tafla sýnir þær útlitsstærðir sem eru í boði fyrir hefðbun
 
 \* Þessir viðbótar útlitsstærðir eru aðeins tiltækar í Adventure Works og Fabrikam útliti.
 
-
->[!TIP]
-> POS velur sjálfkrafa útlitsstærðir, byggt á nærtækustu stærð sem er tiltæk fyrir skjáupplausn núverandi skjámyndar forrits. Til að finna skjákenni útlits og upplausn útlits sem eru í notkun núna, skal opna Retail Modern POS (MPOS) eða Retail Cloud POS (CPOS) **Stillingar** síðuna og leita í **Lotuupplýsingar** hlutanum. Þú getur einnig séð raunupplausn glugga fyrir forrit eða vafraramma sem verið er að nota núna. Eftir að þú hefur fengið þessar upplýsingar er hægt að finna uppsprettu útlitsefnis í Retail með því að fara á **Uppsetning rásar** > **Uppsetning POS** > **POS** > **Skjáútlit**.
-
+> [!TIP]
+> POS velur sjálfkrafa útlitsstærðir, byggt á nærtækustu stærð sem er tiltæk fyrir skjáupplausn núverandi skjámyndar forrits. Til að finna skjákenni útlits og upplausn útlits sem eru í notkun núna, skal opna Retail Modern POS (MPOS) eða Retail Cloud POS (CPOS) **Stillingar** síðuna og leita í **Lotuupplýsingar** hlutanum. Þú getur einnig séð raunupplausn glugga fyrir forrit eða vafraramma sem verið er að nota núna. Eftir að þú hefur fengið þessar upplýsingar er hægt að finna uppsprettu útlitsefnis í Retail með því að fara í **Uppsetning rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
 ![Útlit skjáa og útlitsupplausnir/stærðir í Retail og POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Sérhver ímyndað fyrirtæki er beint að mismunandi smásöluhluta og inniheld
 | Fabrikam        | Houston  | Tíska        | Grænt  | Ljóst |
 | Contoso         | Boston   | Raftæki    | Rautt    | Dökkt  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works og Fabrikam eru tvö flaggskip vörumerki. Contoso er í boði, en ekki hefur verið gert ráð fyrir öllum útlitsgerðum.
-
 
 Eftirfarandi myndir sýna dæmi um velkomin(n) síðu og viðskiptasíðu fyrir sýnifyrirtækin þrjú.
 
@@ -153,28 +149,26 @@ Eftirfarandi myndir sýna dæmi um velkomin(n) síðu og viðskiptasíðu fyrir 
 
 Náð hefur verið í notendur fyrir mismunandi skjáútlit. Með því að nota eftirfarandi töflu, ættir þú að fá aðgang að öllum skjáunum. Skráðu þig inn með því að nota viðeigandi stjórnandakenni.
 
-| Fyrirt.           | Útlitskenni afgreiðsluskjás | Einstaklingur          | Stjórnandakenni           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Verslunarstjóri    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Gjaldkeri          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Afgreiðslustarfsmaður birgða      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Verslunarstjóri    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Gjaldkeri          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Afgreiðslustarfsmaður birgða      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Verslunarstjóri    | 000100, 000111         |
-| Contoso         | C3CSH            | Gjaldkeri          | 000110, 000120         |
-| Contoso         | Ekki tiltækt   | Afgreiðslustarfsmaður birgða      | Ekki tiltækt         |
+| Fyrirt.           | Útlitskenni afgreiðsluskjás | Einstaklingur       | Stjórnandakenni           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Verslunarstjóri | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Gjaldkeri       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Afgreiðslustarfsmaður birgða   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Verslunarstjóri | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Gjaldkeri       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Afgreiðslustarfsmaður birgða   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Verslunarstjóri | 000100, 000111         |
+| Contoso         | C3CSH            | Gjaldkeri       | 000110, 000120         |
+| Contoso         | Ekki tiltækt   | Afgreiðslustarfsmaður birgða   | Ekki tiltækt         |
 
-
->[!TIP]
+> [!TIP]
 > Til að ná sem bestum árangri skaltu virkja afgreiðslukassa á viðkomandi verslunarsvæði og setja fyrirtækið í félagið einstaklingsins sem þú ætlar að nota þegar þú skráir þig inn. Þannig hjálpar þú að tryggja að sjónrænt útlit og vörumerkjamyndir samræmist upplifuninni. Til dæmis, ef þú hefur áhuga á að sjá Fabrikam útlit fyrir gjaldkeri, þá ættir þú að virkja afgreiðslukassa í Houston versluninni.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

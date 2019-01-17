@@ -66,7 +66,7 @@ Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbæt
 - Söluaðilar geta nú skilgreint vöruleit til að sýna leitarniðurstöður sem vöruheiti fyrir gerðir notenda. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
 - Vöruleit reikniritin leitar nú einnig að leitarorðum í eiginleikanum **Leita í heiti** fyrir vöruna.
 
-![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
+    ![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
 
 ## <a name="customer-search"></a>Viðskiptavinaleit
 

@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Retail. 
+Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Retail.
 
 Sem hluti af Dynamics 365 for Retail geta notendur geta skoðað afköst verslunar í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að opna „út úr kassanum“ **Samantekt rásar** skýrslu úr hverjum sem er af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**
--   **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Samantektarskýrsla rásar**
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**
+- **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Samantektarskýrsla rásar**
 
 Þessi skýrsla veitir skyndimynd af eftirfarandi samantektum sem hluti af afköstum verslunar:
 
--   Samantekt brúttósölu
--   Samantekt greiðslumáta
--   Skattsamantekt
--   Samantekt um hnekkingu verðs
--   Samantekt á afslætti
-
-
+- Samantekt brúttósölu
+- Samantekt greiðslumáta
+- Skattsamantekt
+- Samantekt um hnekkingu verðs
+- Samantekt á afslætti
 

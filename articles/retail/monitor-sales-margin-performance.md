@@ -35,21 +35,19 @@ Hægt er að fylgjast með sölu og afköstum framlegðar í rauntíma með þv�
 
 Það er innbyggt í Dynamics 365 for Retail að notendur geta fylgst með sölu og afköstum framlegðar í rauntíma milli mismunandi stiga í stigveldi fyrirtækis fyrir eftirfarandi víddir:
 
--   Vörur
--   Flokkar
--   Afslættir
--   Ár sem tímabil
--   Afgreiðslukassar/afgreiðslustöðvar
--   Starfsmaður/starfsmenn
--   Viðskiptavinir
--   Rekstrareiningar
+- Vörur
+- Flokkar
+- Afslættir
+- Ár sem tímabil
+- Afgreiðslukassar/afgreiðslustöðvar
+- Starfsmaður/starfsmenn
+- Viðskiptavinir
+- Rekstrareiningar
 
 Þar að auki eru tvær einkvæmar skýrslur sem leyfa notendum að fylgjast með sölu og afköstum framlegðar með því að kafa niður frá efsta tegundahnúti niður á staka laufhnúta tegundarinnar í sjálfgefnu flokkastigveldi smásöluafurða. Þessar skýrslur nýta sér uppbyggingu stigveldishnita. Notendur geta einnig kafað frá efstu rekstrareiningunum niður á einstakar rásir í stigveldi fyrirtækisins sem skilgreindur er sem sjálfgefið stigveldi fyrirtækis fyrir skýrslugerð stigveldisins. Hægt er að opna skýrslurnar úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði&gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Flokka- og afurðastjórnun** vinnusvæði&gt; **Smásala** &gt; **Afurð og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Stjórnun verðlagningar og afslátta** vinnusvæði &gt; **Smásala** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**
-
-
+- **Stjórnun smásöluverslunar** vinnusvæði&gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
+- **Flokka- og afurðastjórnun** vinnusvæði&gt; **Smásala** &gt; **Afurð og flokkar** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
+- **Stjórnun verðlagningar og afslátta** vinnusvæði &gt; **Smásala** &gt; **Verðlagning og afslættir** &gt; **Stjórnun smásöluverslana** &gt; **Skýrslur**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**
 

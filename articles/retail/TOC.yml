@@ -143,13 +143,15 @@
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Skjáútlit sýnigagna í MPOS og sölukerfi í skýinu
       href: demo-data.md
-    - name: Afurða- og viðskiptavinaleit í sölustaðnum
+    - name: Afurða- og viðskiptavinaleit á sölustaðnum
       href: POS-search-improvements.md
-    - name: Uppfletting birgða í sölustaðnum
+    - name: Uppfletting birgða á sölustaðnum
       href: product-variants-POS.md
+    - name: Gera hlé á og halda áfram með færslur á sölustaðnum
+      href: pos-suspend-recall-transactions.md
     - name: Jaðarvélbúnaður
       items:
-        - name: Jaðarbúnaður smásölu
+        - name: Retail-jaðarbúnaður
           href: retail-peripherals-overview.md
         - name: Retail-jaðarbúnaðarhermir
           href: dev-itpro/retail-peripheral-simulator.md
@@ -480,6 +482,8 @@
           href: dev-itpro/overview-upgrade-n-minus1.md
         - name: 'Stigvaxandi útfærsla (N-1) uppsetningar, skilgreiningar og kerfaskiptingar'
           href: dev-itpro/n-1-installation-configuration.md
+        - name: Uppfæra viðbót Retail í nýjasta Retail SDK
+          href: dev-itpro/retailSDK-update.md
     - name: Leiðbeiningar fyrir innleiðingu
       items:
         - name: Leiðbeiningar við innleiðingu tækjastjórnunar

@@ -3,69 +3,82 @@ title: "Vinna úr innheimtubréfum"
 description: "Þessi verklýsing sýnir hvernig á að stofna, prenta og bóka innheimtubréf."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 12/04/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CustPosting, SysQueryForm, CustCollectionLetterNote
+ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc837ea6513992a5f94e48baa366e279df297866
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
 ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 # <a name="process-collection-letters"></a>Vinna úr innheimtubréfum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna, prenta og bóka innheimtubréf. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Setja upp röð innheimtubréfa á bókunarreglu
-1. Farið í Skuldir og innheimta > Uppsetning > Bókunarreglur viðskiptavina.
-2. Smellið á „Breyta“.
-    * Veljið innheimtubréfaröð úr í fellilistanum. Ef ekki á að mynda innheimtubréf fyrir færslur með þessari bókunarreglu, skilið eftir autt.  
-    * Flipanum takmarkanir fyrir Taflan gerir kleift að breyta hvernig innheimtubréf eru unnin. Ef þetta svæði er stillt á Já, þá mun það verða að stofna innheimtubréf fyrir þessa bókunarreglu.  
-3. Lokið síðunni.
+1. Farið í **Skuldir og innheimta > Uppsetning > Bókunarreglur viðskiptavina**.
+2. Smellið á **Breyta**.
+3. Veljið innheimtubréfaröð úr í fellilistanum. Ef ekki á að mynda innheimtubréf fyrir færslur með þessari bókunarreglu skal skilja svæðið eftir autt.  
+4. Víkka út flipann fyrir takmarkanir á töflu til að breyta því hvernig innheimtubréf eru unnin. Ef þetta svæði er stillt á **Já**, þá verða stofnuð innheimtubréf fyrir þessa bókunarreglu.  
 
 ## <a name="create-collection-letters"></a>Búa til innheimtubréf
-1. Fara í Skuldir og innheimta > Innheimtubréf > Stofna innheimtubréf.
-    * Velja verður færslugerðir sem innheimta á bréf fyrir. Allar opnar færslur fyrir þessar gerðir verða teknar með í útreikningnum.  
-2. Í reitnum innheimtubréf skal velja valkost.
+1. Fara í **Skuldir og innheimta > Innheimtubréf > Stofna innheimtubréf**.
+2. Velja færslugerðir sem innheimta á bréf fyrir. Allar opnar færslur fyrir þessar gerðir verða teknar með í útreikningnum.  
+2. Í reitnum **Innheimtubréf** skal velja valkost.
 3. Færðu inn dagsetningu innheimtubréfs.
-    * Það eru tveir valkostir bókunarreglu: Reiknings – Notið bókunarreglu sem er úthlutað á reikning viðskiptavina fyrir hverja vaxtanótu.   Velja – Notið bókunarregluna sem valin var á svæðinu .  
-    * Veljið bókunarreglu hafi verið breytt "Nota bókunarreglu úr" á "Velja".  
-4. Útvíkka Færslur til að taka hluta.
-5. Smellt er á Síu.
-6. Í svæðið Skilyrði, í svæðið Skilyrði er fært inn kenni Viðskiptavinar. Til dæmis færið inn ‚US-001‘..
-7. Smellið á „Í lagi“.
-8. Smellið á „Í lagi“.
+4. Veljið bókunarreglu ef þú breyttir **Nota bókunarreglu úr** í **Velja**. Í boði eru tveir valmöguleikar fyrir bókunarreglu:   
+   - **Reikningur** – Nota bókunarreglu sem er úthlutað til reikning viðskiptavinar fyrir hverja vaxtanótu.   
+   - **Velja** – Notið bókunarregluna sem valin var á svæðinu **Bókunarregla**.  
+5. Útvíkka **Færslur til að taka með** hlutann.
+6. Smella á **Sía**.
+7. Í svæðinu **Skilyrði** skal færa inn auðkenni viðskiptavinar. Til dæmis, færið inn ‚US-001'.
+8. Smellið á **Í lagi**.
+9. Smellið á **Í lagi**.
 
 ## <a name="print-collection-letters"></a>Prenta innheimtubréf
-1. Fara í Skuldir og innheimta > Innheimtubréf > Fara yfir og vinna innheimtubréf.
-2. Í reitnum Staða er ‚Stofnað' valin.
-3. Veljið í svæðinu Prentað 'Ekki prentað'.
-4. Smelltu á Prenta.
-5. Smellt er á athugasemd innheimtubréfs
-6. Útvíkka Færslur til að taka hluta.
-7. Færa inn lokadagsetningu fyrir bókanir
-8. Smellt er á í lagi til að prenta innheimtubréfið.
+1. Fara í **Skuldir og innheimta > Innheimtubréf > Fara yfir og vinna úr innheimtubréfi**.
+2. Í reitnum **Staða** skal velja **Stofnað**.
+3. Í reitnum **Prentað** skal velja **Ekki prentað**.
+4. Smelltu á **Prenta**.
+5. Smelltu á **Innheimtubréfsnóta**.
+6. Útvíkka **Færslur til að taka með** hlutann.
+7. Færa inn lokadagsetningu fyrir bókanir.
+8. Smellt er á **Í lagi** til að prenta innheimtubréfið.
+9. Bóka innheimtubréfið.
+   1. Smella  **bóka.**
+   2. Færð er inn bókunardagsetning fyrir innheimtubréf.
+   3. Útvíkka **Færslur til að taka með** hlutann.
+   4. Smellið á **Í lagi**.
+   5. Í reitnum **Staða** skal velja **Bókað**.
+   6. Í reitnum **Prentað** skal velja valkost.
 
-## <a name="post-the-collection-letter"></a>Bóka innheimtubréf
-1. Smellið á „Bóka“.
-2. Færð er inn bókunardagsetning fyrir innheimtubréf.
-3. Útvíkka Færslur til að taka hluta.
-4. Smellið á „Í lagi“.
-5. Í reitnum Staða er ‚bókað' valin.
-6. Prenta svæði, velja valkostur.
+## <a name="control-collection-letters-at-the-customer-level"></a>Stjórna innheimtubréfum á stigi viðskiptavinar
+Einnig er hægt að að setja upp innheimtubréf á stigi viðskiptavinar þannig að kóði innheimtubréfs fyrir hverja færslu sé rakinn, en úrvinnsla innheimtubréfs mun byggjast á einu stigi innheimtubréfs sem er geymt fyrir viðskiptavininn. Eitt stakt innheimtubréf mun innihalda allar færslur sem eru gjaldfallnar fyrir viðskiptavininn. Vegna þess að biðdagar eru nú raktir á stigi viðskiptavinar verður næsta innheimtubréf ekki sent fyrr en fjöldi biðdaga er liðinn fyrir næsta innheimtubréf í röðinni, jafnvel þótt færslur falla á gjalddaga eftir að síðasta innheimtubréf var sent. Þessi valkostur dregur úr fjölda innheimtubréfa sem þú sendir á hvern viðskiptavin. 
 
+### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Setja upp viðskiptavininn til að stjórna innheimtubréfum á stigi viðskiptavinar
+1.  Fara í **Skuldir og innheimta > Uppsetning > Færibreytur viðskiptakrafna** og smella á flipann **Innheimtur**. 
+2.  Breyta gildinu á **Stofna innheimtubréf eftir** í **Viðskiptavinur**. 
+3.  Fara í **Skuldir og innheimta > Innheimtubréf > Fara yfir og vinna úr innheimtubréfi**. Aðeins eitt innheimtubréf verður búið til fyrir viðskiptavin með öllum gjaldföllnum færslum.
+
+## <a name="ignore-payments-and-credit-memos-when-calculating-the-collection-letter-code"></a>Hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfskóða
+Ef þú hefur með greiðslur og kreditreikninga í færslunum sem verða hafðar með í innheimtubréfum, kann að vera að greiðslur eða kreditreikningar setji innheimtubréf af stað. Hægt er að stjórna því hvernig greiðslur og kreditreikningar stýra innheimtubréfakóðanum með því að breyta gildinu á færibreytunni **Hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfskóða**. 
+
+Til að hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfakóðanum skal gera eftirfarandi.
+1. Fara í **Skuldir og innheimta > Uppsetning > Færibreytur viðskiptakrafna** og smella á flipann **Innheimtur**. 
+2. Breyta gildinu á **Hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfskóða** í **Já**.
 

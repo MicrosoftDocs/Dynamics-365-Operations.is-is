@@ -35,15 +35,13 @@ Hægt er að fylgjast með söluþróun og sölumynstri í Microsoft Dynamics 36
 
 Sem hluti af Dynamics 365 for Retail geta notendur skoðað söluhegðun og sölumynstur í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins yfir nokkurra ára tímabil með því að nota „út úr kassanum“ skýrsluna **Skýrsla um rásarsölu eftir árum**. Hægt er að opna þessa skýrslu úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
--   **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrslur um rásarsölu eftir árum**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
+- **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrslur um rásarsölu eftir árum**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir árum**
 
 Notendur geta einnig skoðað söluhegðun og sölumynstur yfir hverja klukkustund milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að nota „út úr kassanum“ skýrsluna **Skýrsla um rásarsölu eftir klukkustund**. Hægt er að opna þessa skýrslu úr öllum af eftirfarandi stöðum:
 
--   **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
--   **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrslur um rásarsölu eftir klukkustundum**
--   **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
-
-
+- **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
+- **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Skýrslur um rásarsölu eftir klukkustundum**
+- **Fyrirspurnir og skýrslur** hlutinn &gt; **Smásala** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
 

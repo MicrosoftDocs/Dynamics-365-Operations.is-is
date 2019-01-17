@@ -32,6 +32,7 @@ ms.lasthandoff: 08/09/2018
 Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun söluverða í Microsoft Dynamics 365 for Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
 
 ## <a name="terminology"></a>Orðalisti
+
 Eftirfarandi hugtök eru notuð í þessu efnisatriði.
 
 | Hugtak | Skilgreining, notkun og athugasemdir |
@@ -42,6 +43,7 @@ Eftirfarandi hugtök eru notuð í þessu efnisatriði.
 | Besta verð | Þegar hægt er að beita fleiri en einu verði eða afslætti á vöru, minnstu verðupphæð og/eða mestu afsláttarupphæð sem býr til lægstu mögulegu nettóupphæð sem viðskiptavinurinn verður að greiða. Í þessu efnisatriði er hugmyndin á bak við besta verð alltaf vísað til sem „besta verðið“. Þetta besta verð er frábrugðið og ætti ekki að vera ruglað saman við upptalningargildið **Besta verð** fyrir samvinnslusnið. |
 
 ## <a name="price-groups"></a>Verðflokkar
+
 Verðflokkar eru í kjarna verð- og afsláttarstjórnunar í Retail. Verðflokkar eru notaðir til að úthluta verðum og afsláttum til smásölueininga (það er rásum, vörulistum, fyrirtækjatengslum og vildarkerfum). Vegna þess að verðflokkar eru notaðir fyrir allar verðlagningar og afslætti er mjög mikilvægt að þú skipuleggir hvernig eigi að nota þá áður en þú byrjar.
 
 Út af fyrir sig er verðflokkur bara heiti, lýsing og mögulega verðlagningarforgangur. Meginatriðið til að muna um verðflokkaK er að þeir eru notaðir til að stjórna margþættum samskiptum sem afslættir og verð eiga við smásölueiningar.
@@ -57,17 +59,20 @@ Eins og rauða punktalínan á skýringarmyndinni sýnir, styður Retail kjarnav
 Eftirfarandi kaflar veita frekari upplýsingar um smásölueiningar sem hægt er að nota til að stilla sérstök verð þegar verðflokkarnir eru notaðir. Skilgreiningar á verðum og afsláttum fyrir allar þessar einingar er tveggja skrefa ferli. Hægt er að framkvæma þessi skref í hvorri röð sem er. Hins vegar er rökrétt röð að stilla verðflokkana á einingarnar fyrst vegna þess að þetta skref er líklega uppsetning sem er gerð aðeins einu sinni við innleiðingu. Þar sem verð og afslættir eru búnir til er því hægt að stilla hvern verðflokk fyrir sig fyrir verðin og afslættina.
 
 ### <a name="channels"></a>Rásir
+
 Í smásölubransanum er dæmigert að hafa mismunandi verð á mismunandi rásum. Tveir helstu þættirnir sem hafa áhrif á verð sem eru sérstæk fyrir rásir eru kostnaður og staðbundnar markaðsaðstæður.
 
 - **Kostnaður** - Því lengra í burtu sem rás er frá uppruna vöru, því meira kostar að setja vöru í birgðir. Til dæmis hafa ferskar afurðir takmarkaðan endingartíma og sérstakar kröfur til framleiðslu (til dæmis árstíðarbundin uppskera). Á veturna kostar ferskt salat líklega meira á norðurslóðum en á suðrænum slóðum. Ef þú stillir verð fyrir rásir yfir stórt landsvæði, viltu líklega setja mismunandi verð á mismunandi rásum.
 - **Staðbundnar markaðsaðstæður** - Verslun sem hefur beinan keppinaut hinum megin götunnar verður mun viðkvæmari fyrir verðum en verslun sem hefur ekki beinan samkeppnisaðila í nágrenninu.
- 
+
 ### <a name="affiliations"></a>Fyrirtækjatengsl
+
 Almenn skilgreining á fyrirtækjatengslum er tengill eða tengsl við flokk. Í Retail eru fyrirtækjatengsl flokkar viðskiptavina. Fyrirtækjatengsl eru miklu sveigjanlegri tól fyrir verðlagningu og afsláttum viðskiptavina en kjarnahugmynd Microsoft Dynamics 365 um viðskiptavina- og afsláttarflokka. Í fyrsta lagi er hægt að nota tengsl fyrir bæði verð og afslætti, en verðlagning á því sem snýr ekki að smásölu er með annan flokk fyrir hverja gerð af afslætti og verði. Viðskiptavinur getur tilheyrt margvíslegum tengslum en getur aðeins tilheyrt einum flokki sem snýr ekki að smásölu af hverri gerð. Að lokum, þótt hægt sé að setja upp tengsl svo þau tengist viðskiptavini, þarf það ekki að vera svo. Hægt er að nota sértæk tengsl fyrir nafnlausa viðskiptavini á POS. Dæmigert dæmi um nafnlaus afsláttartengsl er afsláttur fyrir eldri borgara eða nemanda þar sem viðskiptavinur getur fengið afslátt bara með því að sýna meðlimakort.
 
 Þrátt fyrir að tengsl séu oftast tengd við afslætti er einnig hægt að nota þau til að stilla mismunaverðlagningu. Til dæmis, þegar smásali selur til starfsmanns gæti hann viljað breyta söluverðinu í stað þess að nota afslátt ofan á venjulega verðið. Sem annað dæmi gæti smásali sem selur bæði neytendum og viðskiptamönnum boðið viðskiptamönnum betri verð, byggt á magninu sem þeir kaupa. Tengsl gera báðar þessar aðstæður mögulegar.
 
 ### <a name="loyalty-programs"></a>Vildarkerfi
+
 Í tengslum við verð og afslætti eru vildarkerfi í grundvallaratriðum bara tengsl sem hafa sérstakt nafn. Bæði er hægt að stilla verð og afslætti fyrir vildarkerfi, eins og hægt er að gera fyrir tengsl. Hins vegar leiðin sem viðskiptavinir fá vildarverðlagningu á viðskiptum eða pöntunum er frábrugðið því hvernig þeir fá tengslaverðlagningu. Viðskiptavinir geta aðeins fengið vildarverðlagningu ef vildarkorti er bætt við viðskipti. Þegar vildarkorti er bætt við viðskipti er vildarkerfinu einnig bætt við. Vildarkerfið virkjar þá sérstök verð og afslætti.
 
 Vildarkerfi geta verið marglaga og afslættir geta verið mismunandi á milli mismunandi laga. Þannig geta smásalar gefið tíðum viðskiptavinum meiri umbun án þess að þurfa að setja þessa viðskiptavini handvirkt inn í sérstakan flokk.
@@ -75,14 +80,17 @@ Vildarkerfi geta verið marglaga og afslættir geta verið mismunandi á milli m
 Vildarkerfi hafa viðbótarvirkni fyrir utan verð og afslætti. Hvað varðar verðlagningu og afslætti er hún hins vegar sú sama og fyrir tengsl.
 
 ### <a name="catalogs"></a>Vörulistar
+
 Sumir smásalar nota efnislega eða sýndavörulista til að markaðssetja vörur og verðleggja fyrir ákveðna hópa viðskiptavina. Sem hluti af viðskiptamódeli þeirra til að tækla markaðssetningu með vörulista, geta smásalarnir sett mismunandi verð á mismunandi vörulista þeirra. Microsoft Dynamics 365 styður þennan möguleika með því að leyfa skilgreiningu á afsláttum og verðum sem eru sértæk fyrir vörulista, eins og hægt er að skilgreina afslætti sem eru sértækir fyrir rásir og tengsl. Þegar vörulista er breytt er hægt að tengja verðflokka við hann, líkt og hægt er að tengja hann við rás, tengsl eða vildarkerfi.
 
 ### <a name="best-practices-for-price-groups"></a>Bestu venjur fyrir verðflokka
+
 Ekki nota verðflokk fyrir margar gerðir smásölueininga. Í staðinn skal nota eitt sett af verðflokkum fyrir rásir, mismunandi sett af verðflokkum fyrir tengsl eða vildarkerfi, og svo framvegis. Þú getur notað forskeyti eða viðskeyti í heiti verðflokksins til að sjónrænt flokka hinar ýmsu gerðir verðflokka sem þú notar.
 
 Forðastu að setja verðflokka beint á viðskiptavin. Notaðu tengsl í staðinn. Þannig er hægt að úthluta öllum gerðum verðs og afslátta til viðskiptavina, ekki aðeins viðskiptasamningum söluverðs.
 
 ## <a name="pricing-priority"></a>Verðlagningarforgangur
+
 Út af fyrir sig er verðlagningarforgangur bara tala og lýsing. Hægt er að nota verðlagningingarforgang á verðflokka eða hægt er að nota þá beint á afslætti. Þegar verðlagningarforgangur er notaður, leyfa þeir smásöluaðila að hnekkja meginreglunni um besta verðið með því að stjórna röðinni sem verð og afslættir eru notaðir á vörur. Stærra númer verðlagningarforgangs er metið á undan lægra númeri verðlagningarforgangs. Að auki, ef verð eða afsláttur finnst í hvaða forgangsnúmeri sem er, þá eru öll verð eða afslættir sem eru með lægra forgangsnúmeri hunsuð.
 
 Verð og afsláttur getur komið frá tveimur mismunandi verðlagningarforgöngum vegna þess að þeir gilda um verð og afslætti óháð hvor öðrum.
@@ -96,6 +104,7 @@ Eins og lýst var í kaflanum „Besta verð“ í þessu efnisatriði, velur ve
 Hins vegar gerir eiginleiki verðlagningarforgangs smásalanum kleift að búa til verðlagningarforgang fyrir verð í verslunum sem er hærra en verðlagningarforgangur svæðibundinna verða. Að auki getur smásalinn búið til verðlagningarforgang eingöngu fyrir verð í verslunum og haft svæðisbundin verð á sjálfgefnum verðlagningarforgangi, sem er 0 (núll). Báðar uppsetningar hjálpa til við að tryggja að verð í verslunum verði alltaf notað á undan svæðisbundnum verðum.
 
 ### <a name="pricing-priority-example"></a>Dæmi um verðlagningarforgang
+
 Við skulum skoða dæmi þar sem verð í verslun hnekkir öðrum verðum.
 
 Innlendur smásali stillir flest verð á hvert svæði fyrir sig og það eru fjögur svæði: norðaustur, suðaustur, miðvestur og vestur. Hann hefur tekið eftir nokkrum mörkuðum með háu verðlagi sem þola hærra verð. Þessar markaðir eru í New York, Chicago og San Francisco.
@@ -117,6 +126,7 @@ Stuttermabolurinn selst fyrir sama verð (það er $15) hjá bæði verslunum Bo
 > Fyrir hvern verðlagningarforgang er krafist að farið sé að fullu í gegnum rökfræði verðlagningarvélar smásölu. Til að viðhalda afköstum verð- og afsláttarútreikninga ætti þess vegna að nota verðlagningarforgang sparlega.
 
 ## <a name="types-of-prices"></a>Tegundir verða
+
 Í Microsoft Dynamics 365 er hægt að stilla vöruverð á þremur stöðum:
 
 - Beint á vöruna (grunnverð)
@@ -126,7 +136,9 @@ Stuttermabolurinn selst fyrir sama verð (það er $15) hjá bæði verslunum Bo
 Grunnverð og verð viðskiptasamnings eru hluti af kjarna Microsoft Dynamics 365 og eru fáanleg jafnvel þótt Retail sé ekki notað. Virkni verðleiðréttingar er aðeins í boði í Retail. Næsti kafli veitir frekari upplýsingar um hvern þessara valkosta til að stilla verð og útskýrir hvernig valkostirnir virka saman.
 
 ## <a name="setting-prices"></a>Verðstillingar
+
 ### <a name="base-price"></a>Grunnverð
+
 Auðveldasta staðurinn til að stilla verð fyrir vöru er beint á vöruna. Gildið sem þú setur beint á vöru er oft nefnt grunnverð vörunnar. Grunnverðið er stillt í reitnum **Verð** í flipanum **Selja** á síðunni **Upplýsingar um losaðar afurðir**. Gildið sem slegið er inn er í gjaldmiðli fyrirtækisins. Sjálfgefið verð er fyrir magn upp á 1 af mælieiningunni sem er stillt í reitnum **Eining** í flipanum **Sala**. Raunverulegt verð á hverja vörueiningu er byggt á mælieiningunni, verð á magni og gjaldmiðlinum.
 
 Ef vara hefur eitt verð fyrir alla, býður grunnverðið upp á skilvirkustu leiðina til að stjórna verð vörunnar. Jafnvel þótt notaðir séu viðskiptasamningar til að setja verð, gætir þú einnig sett grunnverð á vöru. Ef þú notar síðan ekki **Allt** viðskiptasamning, þá ertu með varaverð sem er notað þegar engin viðskiptasamningur gildir.
@@ -136,9 +148,10 @@ Ef gjaldmiðill smásölurásar er frábrugðinn gjaldmiðli fyrirtækis, er gru
 Þótt verðeiningin sé ekki algeng uppákoma smásölu er hún studd af verðlagningarvél smásölunnar. Ef verðeiningin er stillt á annað gildi en **0** (núll) er verð á hverja einingu jafnt og Verð ÷ Verðeining. Til dæmis ef verð vöru er $10,00 og verðeiningin er 50, er verð fyrir einn í magni $0,20 (= $10,00 ÷ 50).
 
 ### <a name="sales-price-trade-agreement"></a>Viðskiptasamningur söluverðs
+
 Með því að nota færslubók viðskiptasamnings er hægt að búa til viðskiptasamninga söluverðs fyrir hverja vöru. Í Microsoft Dynamics 365 eru þrjú svið viðskiptavina fyrir viðskiptasamninga söluverðs: **Tafla**, **Flokkur** og **Allt**. Viðskiptavinasviðið ákvarðar viðskiptavinina sem tiltekinn viðskiptasamningur söluverðs á við um.
 
-**Tafla** viðskiptasamnings söluverðs er fyrir einn viðskiptavin sem er settur beint á viðskiptasamninginn. Þessi atburðarás er ekki dæmigerð smásöluviðskipti til neytanda. Hins vegar, ef það gerist, notar verðlagningarvél smásölunnar viðskiptasamninginn **Tafla** þegar hún ákveður verð. 
+**Tafla** viðskiptasamnings söluverðs er fyrir einn viðskiptavin sem er settur beint á viðskiptasamninginn. Þessi atburðarás er ekki dæmigerð smásöluviðskipti til neytanda. Hins vegar, ef það gerist, notar verðlagningarvél smásölunnar viðskiptasamninginn **Tafla** þegar hún ákveður verð.
 
 **Flokkur** viðskiptasamnings söluverðs er sú gerð sem oftast er notuð við smásöluvirkni. Utan Retail, **Flokkur** viðskiptasamnings söluverðs er fyrir einfaldan viðskiptavinaflokk. Hins vegar, í Retail, hefur hugtakið viðskiptavinaflokkur verið víkkað út þannig að það er orðið að almennari smásöluverðsflokki. Hægt er að tengja verðflokk við smásölurás, tengsl, vildarkerfi eða vörulista. Nánari upplýsingar um verðflokka er að finna í kaflanum „Verðflokkar“ fyrr í þessu efnisatriði.
 
@@ -146,7 +159,8 @@ Með því að nota færslubók viðskiptasamnings er hægt að búa til viðski
 > Verð viðskiptasamnings er alltaf notað á undan grunnverðinu.
 
 ### <a name="price-adjustment"></a>Verðleiðrétting
-Eins og nafnið gefur til kynna er verðleiðrétting notuð til að breyta verði sem var annaðhvort sett beint á vöruna eða sett með því að nota viðskiptasamning. Verðleiðréttingu er aðeins hægt að nota til að lækka verðið, ekki hækka það. Verðleiðrétting er ráðlagða leiðin fyrir smásala til að búa til, fylgjast með og stjórna verðlækkunum á vörum með tímanum. 
+
+Eins og nafnið gefur til kynna er verðleiðrétting notuð til að breyta verði sem var annaðhvort sett beint á vöruna eða sett með því að nota viðskiptasamning. Verðleiðréttingu er aðeins hægt að nota til að lækka verðið, ekki hækka það. Verðleiðrétting er ráðlagða leiðin fyrir smásala til að búa til, fylgjast með og stjórna verðlækkunum á vörum með tímanum.
 
 Það eru til þrjár gerðir af verðleiðréttingum: hlutfall af, upphæð af og verð. Verðleiðrétting af gerðinni hlutfall af eða upphæð af er alltaf notuð við sölufærslu. Hins vegar er verðleiðrétting af gerðinni verð aðeins notað ef leiðrétt verð er lægra en það verð sem sett var með því að nota grunnverðið eða verð viðskiptasamnings. Þess vegna, ef verðið sem er sett í verðleiðréttingu er meira en óleiðrétt verð, er verðleiðréttingin ekki notuð.
 
@@ -158,13 +172,14 @@ Eina undantekningin frá meginreglunni um að finna besta verðið fyrir viðski
 
 Verðlagningarvél smásölunnar skilar þremur verðum fyrir hverja vöru: grunnverði, verði viðskiptasamnings og virku verði.
 
-Grunnverðið er aðeins eiginleiki á vörunni og er það sama fyrir alla alls staðar. 
+Grunnverðið er aðeins eiginleiki á vörunni og er það sama fyrir alla alls staðar.
 
 Í viðskiptasamningi söluverðs, ef valkosturinn **Finna næsta** er stilltur á **Já**, er lægsta verðið sem finnst fyrir viðeigandi viðskiptasamning söluverðs notað sem verð viðskiptasamningsins. Hægt er að finna viðskiptasamninga með því að nota verðflokka eða **ALLT** lykilkóðann. Að öðrum kosti er hægt að úthluta viðskiptasamningum beint til viðskiptavinar. Ef valkosturinn **Finna næsta** er stilltur á **Nei** er fyrsta verð viðskiptasamnings sem finnst notað. Ef engir viðskiptasamningar söluverðs finnast er verð viðskiptasamnings sett sem jafnt og grunnverðið.
 
 Virka verðið er reiknað með því að taka verð viðskiptasamnings og beita stærstu verðleiðréttingunni sem gildir um vöruna. Ef engar verðleiðréttingar finnast eða ef reiknað virkt verð er meira en verð viðskiptasamningsins er virka verðið sett sem jafnt og verð viðskiptasamnings. Mundu að þú getur ekki hækkað verð á vöru með því að nota verðleiðréttingu. Viðeigandi verðleiðréttingar eru aðeins að finna með því að nota verðflokka sem eru úthlutaðir á rás, vörulista, tengsl eða vildarkerfi.
 
 ## <a name="category-price-rules"></a>Verðreglur tegundar
+
 Eiginleikinn verðreglur tegundar í Retail gefur þér auðvelda leið til að búa til nýja viðskiptasamninga fyrir allar vörur í tegund. Þessi eiginleiki leyfir þér einnig sjálfkrafa að finna fyrirliggjandi viðskiptasamninga fyrir vörurnar í tegundinni og fella þá úr gildi.
 
 Þegar þú velur möguleikann á að fella úr gildi fyrirliggjandi viðskiptasamninga, stofnar kerfið nýja færslubók viðskiptasamnings fyrir vörurnar í tegundinni sem eru með virkan viðskiptasamning. Hins vegar verður færslubókin að vera bókuð handvirkt. Auk þess geta verðreglur tegundar fundið fyrirliggjandi viðskiptasamninga aðeins ef notuð er sama verðreglan (það er ef þú býrð til nýja verðreglu sem notar sömu tegundina sem var áður). Ef þú notar ekki sömu verðregluna munu núverandi viðskiptasamningar ekki falla úr gildi.
@@ -186,6 +201,7 @@ Verðin má hækka eða lækka með því að nota reitina **Verðreglur** og **
 Til að geta auðveldlega uppfært verð á ýmsum vörum frá mismunandi vörutegundum er hægt að notað viðbótarvörutegundirnar ásamt verðreglum tegundar.
 
 ## <a name="best-practices"></a>Bestu venjur
+
 Microsoft SQL Server Express er oft notaður fyrir gagnagrunnarásir vegna kostnaðar (ókeypis). Hafðu í huga að SQL Server Express hefur takmarkanir á vélbúnaði og takmarkaða á gagnastærð. Ef þú skipuleggur ekki rétt, getur þú fljótt náð upp í takmarkanir gagnastærðar SQL Server Express. Þessi umfjöllun gildir ekki aðeins um verðlagningu heldur líka á öðrum sviðum vörunnar. Hér eru nokkrar bestu venjur sem geta hjálpað þér að draga úr stærð gagna:
 
 - Ef þú notar viðskiptasamninga og verð breytast, ættir þú að fella gamla viðskiptasamninga úr gildi með því að setja á lokadagsetningu. Með tímanum hjálpar þessi nálgun að draga úr fjölda viðskiptasamninga sem eru geymdir í gagnagrunnarásum. Það hjálpar einnig að draga úr gagnamagninu sem reiknirit verðútreikninga verður að vinna með.
@@ -195,12 +211,14 @@ Microsoft SQL Server Express er oft notaður fyrir gagnagrunnarásir vegna kostn
     Að öðrum kosti, ef ekki öll gildi víddar búa til mismunandi verð, getur þú skilgreint einn viðskiptasamning fyrir vörusniðmát og skilið allar vöruvíddir eftir auðar. Síðan skilgreina aðskilinn viðskiptasamning bara fyrir hvert víddargildi sem býr til mismunandi verð. Til dæmis ef XXL-stærðin hefur hærra verð, en allar aðrar stærðir eru með sama verð þarf aðeins tvo viðskiptasamninga: einn fyrir vörusniðmát og einn fyrir XXL-stærðina.
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Verð með sköttum á móti verðum án skatta
+
 Þegar þú setur söluverð í Microsoft Dynamics 365, tilgreinir þú ekki hvort verðgildið sem þú setur inn sé með eða án skatta. Gildið er aðeins verðið. Hins vegar gerir stillingin **Verð með söluskatti** á smásölurásunum þér kleift að skilgreina smásölurásir þannig að verðin eru annaðhvort með eða án skatta. Þessi stilling er sett í rásinni og getur breyst, jafnvel í einu fyrirtæki.
 
 Ef þú vinnur með bæði innifaldar og undanskildar gerðir af sköttum er mjög mikilvægt að setja rétt verð vegna þess að heildarupphæðin sem viðskiptavinurinn greiðir mun breytast ef stillingin **Verð með söluskatti** á rásinni er breytt.
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Mismunur á smásöluverði og verði sem snýr ekki að smásölu
-Ein verðlagningarvél er notuð til að reikna smásöluverð yfir allar rásir: símaver, smásöluverslun og vefverslanir. Þetta hjálpar til við að virkja atburðarásir sameinaðra viðskipta. 
+
+Ein verðlagningarvél er notuð til að reikna smásöluverð yfir allar rásir: símaver, smásöluverslun og vefverslanir. Þetta hjálpar til við að virkja atburðarásir sameinaðra viðskipta.
 
 Retail verðlagning er hönnuð til að vinna með smásölueiningar í stað eininga sem snúa ekki að smásölu. Nánar tiltekið er hún hönnuð til að setja verð eftir verslun, ekki eftir vöruhúsi.
 

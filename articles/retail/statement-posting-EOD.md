@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Sem hluti af endurbótum á eiginleikanum fyrir bókun uppgjörs hafa þrjár n�
 
 Þar að auki hefur reiturinn **Hámarksfjöldi samhliða uppgjörsbókana** verið kynntur til sögunnar á flýtiflipanum **Runuvinnsla**. Þessi reitur skilgreinir fjölda runuverka sem ætti að keyra á sama tíma. Eins og er þarftu að stilla gildið á þessum reit handvirkt.
 
-Einnig, með nýja bókunarferlinu, nauðsynlegt er að skilgreina **Gjafakortsvara** á **Gjafakort** flýtiflipanum á **Bókun** flipanum á síðunni **Færibreytur smásölu**. Þetta á við, jafnvel þótt engin gjafakort séu notuð af fyrirtækinu. 
+Einnig, með nýja bókunarferlinu, er nauðsynlegt að skilgreina **Gjafakortsvara** í flýtiflipanum **Gjafakort** í flipanum **Bókun** á síðunni **Færibreytur smásölu**. Þetta á við, jafnvel þótt engin gjafakort séu notuð af fyrirtækinu.
 
 Athugaðu að allar stillingar og færibreytur sem tengjast bókun uppgjörs og sem eru skilgreindar í smásöluverslun og á síðunni **Færibreytur smásöluverslana** eiga við í endurbættum eiginleika fyrir bókun uppgjörs.
 
 ## <a name="processing"></a>Í vinnslu
+
 Hægt er að reikna út og bóka uppgjör í lotu með valmyndaratriðinu **Útreikningur uppgjörs í runu** og **Bóka uppgjör í runu**. Að öðrum kosti er hægt að reikna út og bóka uppgjör handvirkt með valmyndaratriðinu **Smásöluuppgjör** sem endurbætti eiginleikinn fyrir bókun uppgjörs veitir.
 
 Ferlið og skrefin til að reikna út og bóka uppgjör í runu eru þau sömu og þau voru í eldri bókun uppgjörs. Hins vegar hafa verulegar endurbætur átt sér stað í kjarnastarfsemi á vinnslu uppgjaranna. Þessar endurbætur gera ferlið sterkara og veita betri sýnileika í upplýsingar um stöður og villur. Þess vegna geta notendur tekist á við orsök villanna og síðan haldið áfram með bókunarferlið án þess að gögnin skemmist og án þess að þurfa á lagfæringu gagna að halda.
@@ -71,6 +72,7 @@ Ferlið og skrefin til að reikna út og bóka uppgjör í runu eru þau sömu o
 Eftirfarandi kaflar lýsa nokkrum af helstu endurbótunum á eiginleikanum fyrir bókun uppgjörs sem birtast í notendaviðmótinu fyrir smásöluuppgjör og bókuð uppgjör.
 
 ### <a name="status-details"></a>Stöðuupplýsingar
+
 Nýtt stöðulíkan hefur verið kynnt í reglubundinni bókun uppgjörs yfir ferli útreikninga og bókunar.
 
 Eftirfarandi tafla lýsir hinum ýmsu stöðum og röð þeirra í útreikningsferlinu.
@@ -109,9 +111,11 @@ Sérhver staða í töflunni hér að framan er sjálfstæð í eðli sínu, og 
 Að auki sýnir hausinn í öðrum og þriðja hluta heildarstöðu viðkomandi ferils.
 
 ### <a name="event-logs"></a>Tilvikaannálar
+
 Uppgjör fer í gegnum ýmsar aðgerðir (til dæmis, stofna, reikna út, hreinsa og bóka) og hugsanlega verður kallað á mörg tilvik af sömu aðgerðinni á líftíma uppgjörsins. Til dæmis, eftir að uppgjör er stofnað og reiknað út getur notandi hreinsað uppgjörið og reiknað það út aftur. Hnappurinn **Tilvikaannáll** í **Upplýsingar um framkvæmd** flokki uppgjörsins veitir fulla endurskoðunarslóð af ýmsum aðgerðum sem var kallað á fyrir uppgjör, ásamt upplýsingum um hvenær var kallað eftir þessum aðgerðum.
 
 ### <a name="aggregated-transactions"></a>Uppsafnaðar færslur
+
 Í bókunarferlinu er sölufærslunum safnað saman á grundvelli skilgreiningarinnar. Þessar uppsöfnuðu færslur eru geymdar í kerfinu og notaðar til að stofna sölupantanir. Sérhver uppsöfnuð færsla stofnar eina samsvarandi sölupöntun í kerfinu. Þú getur skoðað uppsafnaðar færslur með hnappnum **Uppsafnaðar færslur** í **Upplýsingar um framkvæmd** flokki uppgjörsins.
 
 Flipinn **Upplýsingar um sölupöntun** á uppsafnaðri færslu sýnir eftirfarandi upplýsingar:
@@ -136,11 +140,13 @@ Yfirlit uppsafnaðrar færslu veitir eftirfarandi kosti:
 - Uppsafnaðar XML-skrá gera það auðveldara að bera kennsl á vandamál við stofnun sölupöntunar og reikningsfærslu.
 
 ### <a name="journal-vouchers"></a>Færslubókarfylgiskjöl
+
 Hnappurinn **Færslubókarfylgiskjöl** í **Upplýsingar um framkvæmd** flokki uppgjörs sýnir hinar ýmsu fylgiskjalafærslur sem eru stofnaðar fyrir uppgjör og sem tengjast afsláttum, tekju-/gjaldareikningum, gjafakortum og svo framvegis.
 
 Eins og er sýnir forritið aðeins þessar upplýsingar fyrir bókuð uppgjör.
 
 ### <a name="payment-journals"></a>Greiðslubækur
+
 Hnappurinn **Greiðslubækur** í **Upplýsingar um framkvæmd** flokki uppgjörs sýnir hinar ýmsu greiðslubækur sem eru stofnaðar fyrir uppgjör.
 
 Eins og er sýnir forritið aðeins þessar upplýsingar fyrir bókuð uppgjör.
