@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
 
