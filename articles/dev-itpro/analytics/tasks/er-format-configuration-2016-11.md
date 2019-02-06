@@ -35,8 +35,10 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 2. Smellið á **Skilgreiningar skýrslugerðar**.
 3. Veljið **Greiðslur (einfaldað líkan)** í trénu.
 4. Smellið á **Stofna skilgreiningu** til að opna felligluggann.
+
  > [!NOTE]
  > Ef þú sérð ekki **Stofna skilgreiningu** verður þú að virkja hönnunarsnið á síðunni **Færibreytur rafrænnar skýrslugerðar**. 
+ 
 5. Í svæðinu **Nýtt** skal færa inn **Snið byggir á gagnalíkani PaymentModel**,
 6. Í svæðinu **Heiti** skal slá inn **BACS (UK skáldað)**.
 7. Í svæðinu **Lýsing** skal færa inn **BACS greiðslusnið lánardrottins (UK skáldað)**.
@@ -44,6 +46,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
     * Hægt er að skilgreina ákveðið snið rafrænt skjal. Þetta svæði er skilið eftir autt ef óskað er að velja snið á tíma keyrslu.  
 8. Í svæðinu **Skilgreining gagnalíkans** skal færa inn eða velja gildi.
 9. Smellið á **Stofna skilgreiningu**. Ný Skilgreining hefur verið stofnuð. Hægt er að nota sem útgáfuna drög til að vista hannað snið fyrir umsjón með rafrænum skjölum.  
+
  > [!NOTE]
  > Ef þú sérð ekki **Stofna skilgreiningu** verður þú að virkja hönnunarsnið á síðunni **Færibreytur rafrænnar skýrslugerðar**.
 
