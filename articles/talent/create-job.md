@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="91d4c-104">Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="91d4c-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="job-titles"></a><span data-ttu-id="91d4c-115">Starfsheiti</span><span class="sxs-lookup"><span data-stu-id="91d4c-115">Job titles</span></span>
 <span data-ttu-id="91d4c-116">Áður en hægt er að stofna vinnslur verður að setja upp titla fyrir þær vinnslur.</span><span class="sxs-lookup"><span data-stu-id="91d4c-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="91d4c-117">Stöður erfa starfsheiti úr vinnslum sem þær eru tengdar við.</span><span class="sxs-lookup"><span data-stu-id="91d4c-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="91d4c-118">Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð.</span><span class="sxs-lookup"><span data-stu-id="91d4c-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="91d4c-119">Á síðunni **Titlar** skal færa inn þá titla sem þú ætlar að nota fyrir störfin.</span><span class="sxs-lookup"><span data-stu-id="91d4c-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="91d4c-118">Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð.</span><span class="sxs-lookup"><span data-stu-id="91d4c-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="91d4c-119">Á síðunni **Titlar** skal færa inn þá titla sem þú ætlar að nota fyrir störfin.</span><span class="sxs-lookup"><span data-stu-id="91d4c-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="91d4c-120">Vinnslugerðir</span><span class="sxs-lookup"><span data-stu-id="91d4c-120">Job types</span></span>
 <span data-ttu-id="91d4c-121">Þú notar vinnslugerð til að flokka svipuð störf í flokka.</span><span class="sxs-lookup"><span data-stu-id="91d4c-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="91d4c-122">Starfstegundir eru ekki áskildar.</span><span class="sxs-lookup"><span data-stu-id="91d4c-122">Job types aren't required.</span></span> <span data-ttu-id="91d4c-123">Hins vegar ef ætlunin er að nota vinnslugerðir þegar setja á upp hæfnireglur fyrir greiðsluáætlunarstjórnun ætti að setja upp vinnslugerðir áður en hægt er að setja upp störf.</span><span class="sxs-lookup"><span data-stu-id="91d4c-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="91d4c-124">Sum dæmi um starfstegundir eru Fullt starf og Hlutastarf, eða Laun og Tímakaup.</span><span class="sxs-lookup"><span data-stu-id="91d4c-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="91d4c-125">Starfstegundum er viðhaldið með því að nota síðuna **Vinnslugerð**.</span><span class="sxs-lookup"><span data-stu-id="91d4c-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="91d4c-126">Á síðunni **Starfsgerðir** skal færa inn heiti og lýsingu á starfsgerðinni.</span><span class="sxs-lookup"><span data-stu-id="91d4c-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="91d4c-127">Í reitnum **Staða undanþágu** velurðu einn af eftirfarandi valkostum til að tilgreina þá stöðu undanþágu Fair Labor Standards Act (FLSA) starfa sem hafa þessa starfsgerð:</span><span class="sxs-lookup"><span data-stu-id="91d4c-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
