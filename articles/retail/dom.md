@@ -1,29 +1,29 @@
 ---
-title: "Dreifingarstjórnun pöntunar (DOM)"
-description: "Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Microsoft Dynamics 365 for Retail."
+title: Dreifingarstjórnun pöntunar (DOM)
+description: Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302437"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -229,4 +229,3 @@ Hér eru nokkur atriði til að hafa í huga þegar DOM-eiginleikinn er notaður
 - Sem stendur skoðar DOM aðeins pantanir sem eru stofnaðar úr smásölurásum. Litið er á sölupantanir sem smásölupantanir þegar valkosturinn **Retail-sala** er stilltur á **Já**.
 - Microsoft hefur ekki prófað DOM með ítarlegum eiginleikum vöruhúsakerfis. Viðskiptavinir og samstarfsaðilar verða að fara varlega í að ákvarða hvort DOM sé samhæft við ítarlegar aðgerðir og ferla vöruhúsakerfisins sem eiga við þá.
 - DOM er aðeins í boði í skýjaútgáfu Retail. Það er ekki stutt fyrir uppsetningar á staðnum.
-

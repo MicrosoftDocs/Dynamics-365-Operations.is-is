@@ -1,13 +1,13 @@
 ---
-title: "Verkflæði viðskiptavinar"
-description: "Í þessu efnisatriði er að finna upplýsingar um verkflæði viðskiptavinar. Tilgreindum reitum fyrir viðskiptavin er breytt og breytingarnar eru síðan sendar til samþykktar með því að nota verkflæðið áður en þeim er bætt við viðskiptavininn."
+title: Verkflæði viðskiptavinar
+description: Í þessu efnisatriði er að finna upplýsingar um verkflæði viðskiptavinar. Tilgreindum reitum fyrir viðskiptavin er breytt og breytingarnar eru síðan sendar til samþykktar með því að nota verkflæðið áður en þeim er bætt við viðskiptavininn.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: is-is
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302433"
 ---
-
 # <a name="customer-workflow"></a>Verkflæði viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
-Verkflæði viðskiptavinar hefur verið bætt við Microsoft Dynamics 365 for Finance and Operations, útgáfu 8.0.4. Hægt er að breyta tilgreindum reitum fyrir viðskiptavin og senda breytingarnar síðan til samþykktar með því að nota verkflæðið áður en þeim er bætt við viðskiptavininn.
+Verkflæði viðskiptavinar hefur verið bætt við Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0.4. Hægt er að breyta tilgreindum reitum fyrir viðskiptavin og senda breytingarnar síðan til samþykktar með því að nota verkflæðið áður en þeim er bætt við viðskiptavininn.
 
 ## <a name="set-up-the-customer-workflow"></a>Setja upp verkflæði viðskiptavinar
 
@@ -62,4 +61,3 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tvær valmy
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
 Verkflæðið fylgir venjulegu verkflæðisferli í Finance and Operations. Samþykktaraðila er beint á síðuna **Viðskiptavinur** þar sem hann eða hún getur yfirfarið breytingar á síðunni **Fyrirhugaðar breytingar** og síðan valið **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
-

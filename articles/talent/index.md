@@ -1,13 +1,13 @@
 ---
-title: "Velkomin(n) í Dynamics 365 for Talent"
-description: "Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
+title: Velkomin(n) í Dynamics 365 for Talent
+description: Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302413"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Velkomin(n) í Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ Hægt er að kynna sér Dynamics 365 for Talent með því að horfa á myndskei
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations. Sama virkni kann að koma fyrir í báðum þessum vörum. Þar af leiðandi verður vöruheitið Dynamics 365 for Finance and Operations í efnisatriðum sem tengjast fyrst og fremst „Mannauði“. Í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Dynamics 365 for Talent er nátengt „Mannauði“ í Dynamics 365 for Finance and Operations. Sama virkni kann að koma fyrir í báðum þessum afurðum. Þar af leiðandi verður afurðarheitið í efnisatriðum sem tengjast fyrst og fremst „Mannauði“ Dynamics 365 for Finance and Operations. Í efnisatriðum sem tengjast fyrst og fremst Talent verður afurðarheitið Dynamics 365 for Talent. Efnisatriði sem samin eru fyrir eina afurð kunna einnig að gilda um sömu virkni í tengdri afurð.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Þróa mannauðsáætlun
 ---------------------------------------------------------
@@ -58,12 +57,12 @@ Hægt er að kynna sér Dynamics 365 for Talent með því að horfa á myndskei
 -   [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md) 
 -   [Algengar spurningar um aðgerðir starfsfólks](personnel-actions-faq.md)
 -   [Yfirlit yfir leyfi og fjarvistir](leave-absence-overview.md)
--   [Hvernig á að nota Dynamics 365 for Talent: Leyfi og fjarvistir (myndskeið)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
--   [Hvernig á að stjórna starfsmönnum í Dynamics 365 for Talent (myndskeið)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
+-   [Hvernig á að nota Dynamics 365 for Talent: Leyfi og fjarvistir (myndband)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Hvernig á að stjórna starfsmönnum í Dynamics 365 for Talent (myndband)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Mönnun fyrirtækis
 
-Dynamics 365 for Talent inniheldur Attract-forritið, sem getur hjálpað þér að finna, taka við viðtöl og ráða umsækjendur sem hafa þá hæfni sem fyrirtækið þarf. Þegar farið er úr því að finna fólk í að ráða það getur nýliðaforritið hjálpað þér að aðlaga nýja starfsmanninn að fyrirtækinu þínu með því að setja viðeigandi væntingar, veita upplýsingar sem hann þarf til að byrja, koma á tengslum við samstarfsfólk og greiða götu hans í nýju hlutverki.  
+Dynamics 365 for Talent inniheldur Attract-forritið, sem getur hjálpað þér að finna, taka viðtöl og ráða umsækjendur sem hafa þá hæfni sem fyrirtækið þarf. Þegar farið er úr því að finna fólk í að ráða það getur nýliðaforritið hjálpað þér að aðlaga nýja starfsmanninn að fyrirtækinu þínu með því að setja viðeigandi væntingar, veita upplýsingar sem hann þarf til að byrja, koma á tengslum við samstarfsfólk og greiða götu hans í nýju hlutverki.  
 
 - [Yfirlit yfir Attract](attract-overview.md)
 - [Yfirlit yfir nýliðaforritið](create-onboarding-experience.md)
@@ -76,16 +75,16 @@ Hægt er að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og
 -   [Launaútreikningur](process-compensation.md)
 -   [Launafyrirkomulag fastra launa stofnað](create-fixed-compensation-plans.md)
 -   [Launafyrirkomulag breytilegra launa](create-variable-compensation-plans.md)
--   [Hvernig á að stjórna launum í Dynamics 365 for Talent (myndskeið)](https://www.youtube.com/watch?v=lEw5oKopHDk)
+-   [Hvernig á að stjórna launum í Dynamics 365 for Talent (myndband)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Þróa og þjálfa starfsmenn
 
-Hægt er að veita starfsmönnum stuðning við að ná markmiðum sínum í starfi um leið og fyrir skilar sínu hlutverki við rekstur með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur, sem gera starfsmönnum kleift að öðlast viðeigandi hæfni, áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
+Hægt er að veita starfsmönnum stuðning við að ná markmiðum sínum í starfi um leið og þeir skila sínu hlutverki við rekstur með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur, sem gera starfsmönnum kleift að öðlast viðeigandi hæfni, áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
 -   [Árangursstjórnun](performance-management-overview.md)
 -   [Samþætting hæfni starfsfólks og rekstrarþarfa](skills.md)
 -   [Þjálfun með námskeiðum](courses.md)
--   [Hvernig á að stjórna starfsmannaþróun í Dynamics 365 for Talent (myndskeið)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
+-   [Hvernig á að stjórna starfsmannaþróun í Dynamics 365 for Talent (myndband)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Stofnun og viðhald fríðinda
 
@@ -93,8 +92,8 @@ Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fr�
 
 -   [Stjórnun fríðindaáætlunar](manage-benefit-program.md)
 -   [Stefnur um hæfni til fríðinda](benefit-eligibility-policies.md)
--   [Stjórnun hluta sem starfskraftar fá lánaða](loan-items.md)
--   [Hvernig á að stjórna starfskjörum í Dynamics 365 for Talent (myndskeið)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Stjórnun hluta sem starfsfólk fær lánaða](loan-items.md)
+-   [Hvernig á að stjórna fríðindum starfsfólks í Dynamics 365 for Talent (myndband)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
@@ -111,4 +110,3 @@ Hægt er að hanna og úthluta spurningalistum til að safna upplýsingum sem n�
 -   [Hönnun spurningalista](design-questionnaires.md)
 -   [Dreifing og útfylling spurningalista](distribute-questionnaires.md)
 -   [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
-

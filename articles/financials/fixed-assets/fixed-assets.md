@@ -1,13 +1,13 @@
 ---
-title: "Eignir – heimasíða"
-description: "Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis."
+title: Eignir – heimasíða
+description: Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302419"
 ---
-
 # <a name="fixed-assets-home-page"></a>Eignir – heimasíða
 
 [!include [banner](../includes/banner.md)]
@@ -38,27 +37,26 @@ Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan 
 
 
 
-### <a name="additional-resources"></a>Frekari upplýsingar
+### <a name="additional-resources"></a>Frekari tilföng
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Eignir og aðrar hugbúnaðarlausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um eignir og aðrar lausnir.
 
-Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Eignir. Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Viðskiptaskulda eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
+Það eru margar færslur um eignir á bloggsíðu afurðateymisins [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Viðskiptaskulda eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
 
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
 #### <a name="videos"></a>Myndbönd
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

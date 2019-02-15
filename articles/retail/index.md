@@ -1,31 +1,30 @@
 ---
-title: "Velkomin(n) í Dynamics 365 for Retail"
-description: "Heimasíða fyrir Dynamics 365 for Retail"
+title: Velkomin(n) í Dynamics 365 for Retail
+description: Heimasíða fyrir Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302435"
 ---
-
 # <a name="welcome-to-dynamics-365-for-retail"></a>Velkomin(n) í Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 Microsoft Dynamics 365 for Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
 
 > [!NOTE]
-> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti Microsoft Dynamics 365 for Retail í efnisatriðum sem tengjast Retail, í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations; í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent.
+> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Microsoft Dynamics 365 for Retail; í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations; í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent.
 
 Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika.
 
@@ -82,17 +81,16 @@ Fyrir sérstillingu umhverfis eða innleiðingu og viðhald kerfis er ráðlegt 
 - [Dynamics 365 for Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](dev-itpro/dev-retail-home-page.md)
 - [Þróun og stjórnun fyrir Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+## <a name="additional-resources"></a>Frekari tilföng
 
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) er að finna umfjöllun, fréttir og aðrar upplýsingar um Retail og aðrar hugbúnaðarlausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) er að finna umfjöllun, fréttir og aðrar upplýsingar um Retail og aðrar lausnir.
 
-Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Retail. Sumar þessara færslna voru skrifaðar um eldri útgáfu Retail, en sömu hugtök eiga enn við. og ferlin eru svipuð í nýjustu útgáfunni.
+Það eru margar færslur um Retail á bloggsíðu vöruteymisins [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Sumar þessara færslna voru skrifaðar um eldri útgáfu Retail, en sömu hugtök eiga enn við. og ferlin eru svipuð í nýjustu útgáfunni.
 
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
-
+Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
